@@ -7,6 +7,7 @@ function CFF2F988D895214C3.new(A0_2)
   return L1_2
 end
 
+-- These are constants in the original, but given the accessors and/or uses, it's pretty clear what they do
 local KEY_isSetup = 9
 local KEY_pages = 31
 local KEY_pageIndex = 33
@@ -22,14 +23,14 @@ end
 CFF2F988D895214C3.__name__ = CFF2F988D895214C3
 
 function CFF2F988D895214C3.S0B3F69C4549A0284()  -- GetInstance
-  return CFF2F988D895214C3.S032897EBFF9CC1F2
+  return CFF2F988D895214C3.S032897EBFF9CC1F2  -- m_instance
 end
 
 CFF2F988D895214C3.prototype = L15_1()
 
 function CFF2F988D895214C3.prototype.F7C68FEDB79AB6396(self, A1_2)  -- Setup
   C3C7D6227912AFE27.prototype.F7C68FEDB79AB6396(self, A1_2)  -- super.Setup(self, A1_2)
-  CFF2F988D895214C3.S032897EBFF9CC1F2 = self
+  CFF2F988D895214C3.S032897EBFF9CC1F2 = self  -- m_instance = self
   self[2] = self[1]
   self[10] = CA7B7EE572282ACBA.S385504EFF7E842C3():FFEA9094A5E4944C3()  -- main.ui.pokelist.PokeListData.get_Instance():GetOpenType()
   self:F51F4D8E6BF1D6282()  -- self:SetupVariable()
@@ -74,7 +75,7 @@ end
 
 function CFF2F988D895214C3.prototype.F1C2AA00ADAC52EC5(self)  -- Destroy
   C3C7D6227912AFE27.prototype.F1C2AA00ADAC52EC5(self)  -- super.Destroy(self)
-  CFF2F988D895214C3.S032897EBFF9CC1F2 = nil
+  CFF2F988D895214C3.S032897EBFF9CC1F2 = nil  -- m_instance = nil
   if self[10] ~= 5 then
     CF1BC0419D30C42CE.S0637AD80D9A1F80A()  -- main.ui.system_ui.SystemBg.ReturnApp()
   end
