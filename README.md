@@ -16,6 +16,7 @@ Choose a file in the `decompiled` folder, and try to restore it to readable lua.
 - For any functions where the name starts with F (not S), rename `A0_2` to `self`
 - Do NOT modify files in the `split` directory. They are only there as reference. Same goes for `main.dumped.lua`
 - You are allowed to take some liberties in behavior if you believe it helps readability
+- Some static attributes are not in their correct file (or in any file at all). If you wish to contribute these, you'll need to dig through `main.dumped.lua`.
 
 Contributions are also welcome for adding a way to look up mappings for the LXX_1 types/functions.
 
