@@ -1,0 +1,228 @@
+L55_1 = _ENV
+L56_1 = "C8DE993F011AA90C9"
+L57_1 = L15_1
+L57_1 = L57_1()
+L55_1[L56_1] = L57_1
+L68_1 = _ENV["C8DE993F011AA90C9"]
+L69_1 = "new"
+
+function L70_1(A0_2)
+  local L1_2, L2_2, L3_2, L4_2
+  L1_2 = L2_1
+  L2_2 = C8DE993F011AA90C9
+  L2_2 = L2_2.prototype
+  L3_2 = 80
+  L4_2 = 303
+  L1_2 = L1_2(L2_2, L3_2, L4_2)
+  L2_2 = C8DE993F011AA90C9
+  L2_2 = L2_2.super
+  L3_2 = L1_2
+  L4_2 = A0_2
+  L2_2(L3_2, L4_2)
+  return L1_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C8DE993F011AA90C9"]
+L69_1 = "super"
+
+function L70_1(A0_2, A1_2)
+  local L2_2, L3_2, L4_2
+  L2_2 = C31C0AD4340FC665A
+  L2_2 = L2_2.super
+  L3_2 = A0_2
+  L4_2 = A1_2
+  L2_2(L3_2, L4_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = "C8DE993F011AA90C9"
+L69_1 = _ENV["C8DE993F011AA90C9"]
+L25_1[L68_1] = L69_1
+L68_1 = _ENV["C8DE993F011AA90C9"]
+L69_1 = "__name__"
+L70_1 = "C8DE993F011AA90C9"
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C8DE993F011AA90C9"]
+L69_1 = "prototype"
+L70_1 = L15_1
+L70_1 = L70_1()
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C8DE993F011AA90C9"]["prototype"]
+L69_1 = "F22C7B81A049FA20D"
+
+function L70_1(A0_2)
+  local L1_2, L2_2, L3_2, L4_2
+  L1_2 = C31C0AD4340FC665A
+  L1_2 = L1_2.prototype
+  L1_2 = L1_2.F22C7B81A049FA20D
+  L2_2 = A0_2
+  L1_2(L2_2)
+  L1_2 = C652C225D53D1B872
+  L1_2 = L1_2.S511DEF29717431A3
+  L1_2 = L1_2()
+  L2_2 = L1_2
+  L1_2 = L1_2.F6BB6C94367FB8083
+  
+  function L3_2()
+    local L0_3, L1_3
+    L0_3 = C9B54BC04DD492B6D
+    L0_3 = L0_3.S12FD376DC11712C8
+    L1_3 = C8DE993F011AA90C9
+    L1_3 = L1_3.S2ED8A5A7067BB37D
+    L0_3(L1_3)
+    L0_3 = C9B54BC04DD492B6D
+    L0_3 = L0_3.S12FD376DC11712C8
+    L1_3 = C8DE993F011AA90C9
+    L1_3 = L1_3.S1B666710AF2580BE
+    L0_3(L1_3)
+  end
+  
+  L4_2 = "loadText"
+  L1_2(L2_2, L3_2, L4_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C8DE993F011AA90C9"]["prototype"]
+L69_1 = "FE9D694A7E455EB0B"
+
+function L70_1(A0_2)
+  local L1_2, L2_2, L3_2
+  L1_2 = C93C728292EF3E6A3
+  L1_2 = L1_2.new
+  L2_2 = A0_2
+  L1_2 = L1_2(L2_2)
+  A0_2[68] = L1_2
+  L1_2 = C2D51744D220D6C49
+  L1_2 = L1_2.new
+  L2_2 = A0_2
+  L1_2 = L1_2(L2_2)
+  A0_2[69] = L1_2
+  L2_2 = A0_2
+  L1_2 = A0_2.F28EAF3B3AA178E3E
+  L3_2 = A0_2[68]
+  L1_2(L2_2, L3_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C8DE993F011AA90C9"]["prototype"]
+L69_1 = "F883A2367DD0011CA"
+
+function L70_1(A0_2)
+  local L1_2, L2_2
+  L1_2 = C9B54BC04DD492B6D
+  L1_2 = L1_2.SEC5605D9D6B5E309
+  L2_2 = C8DE993F011AA90C9
+  L2_2 = L2_2.S2ED8A5A7067BB37D
+  L1_2(L2_2)
+  L1_2 = C9B54BC04DD492B6D
+  L1_2 = L1_2.SEC5605D9D6B5E309
+  L2_2 = C8DE993F011AA90C9
+  L2_2 = L2_2.S1B666710AF2580BE
+  L1_2(L2_2)
+  L1_2 = C31C0AD4340FC665A
+  L1_2 = L1_2.prototype
+  L1_2 = L1_2.F883A2367DD0011CA
+  L2_2 = A0_2
+  L1_2(L2_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C8DE993F011AA90C9"]["prototype"]
+L69_1 = "FE349B1AE2D3D0F86"
+
+function L70_1(A0_2)
+  local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
+  L1_2 = C755044F92F3DC4F2
+  L1_2 = L1_2.S05C70BE6959094E6
+  L2_2 = A0_2[50]
+  L2_2 = L2_2.venueTableId
+  L1_2 = L1_2(L2_2)
+  L2_2 = A0_2[7]
+  L2_2 = L2_2.owner
+  L3_2 = L2_2
+  L2_2 = L2_2.f7360ED03
+  L2_2, L3_2, L4_2 = L2_2(L3_2)
+  L5_2 = {}
+  L6_2 = L2_2
+  L7_2 = L1_2.windowOffset
+  L7_2 = L3_2 + L7_2
+  L8_2 = L4_2
+  L5_2[1] = L6_2
+  L5_2[2] = L7_2
+  L5_2[3] = L8_2
+  L6_2 = C10578806AC30DCA3
+  L6_2 = L6_2.SBA6FF574C1C9AA09
+  L6_2 = L6_2.h
+  L6_2 = L6_2.FEVT_S2_SUB_004_ENABLE_SERI
+  L7_2 = L47_1.tnull
+  if L6_2 == L7_2 then
+    L6_2 = nil
+  end
+  if L6_2 then
+    L7_2 = CF142AD871E7B1304
+    L7_2 = L7_2.S385504EFF7E842C3
+    L7_2 = L7_2()
+    L8_2 = L7_2
+    L7_2 = L7_2.F13318482E8E10C41
+    L9_2 = C755044F92F3DC4F2
+    L9_2 = L9_2.S34C77FCD0A9E2114
+    L10_2 = A0_2[50]
+    L10_2 = L10_2.itemTableId
+    L9_2 = L9_2(L10_2)
+    L9_2 = L9_2.dressupId
+    L7_2 = L7_2(L8_2, L9_2)
+    if nil ~= L7_2 then
+      L8_2 = CA529F4EF201AFCCC
+      L8_2 = L8_2.SC8223E31D3163519
+      L8_2 = L8_2[4]
+      L9_2 = L8_2
+      L8_2 = L8_2.fC723824A
+      L10_2 = 9
+      L11_2 = "dressup_item_name"
+      L13_2 = L7_2
+      L12_2 = L7_2.F52C4B0D833097DFB
+      L12_2, L13_2, L14_2 = L12_2(L13_2)
+      L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
+    end
+    L8_2 = C9B54BC04DD492B6D
+    L8_2 = L8_2.S45F2EF24C3E8120F
+    L9_2 = A0_2[7]
+    L9_2 = L9_2.owner
+    L10_2 = L9_2
+    L9_2 = L9_2.fE9C29DA1
+    L9_2 = L9_2(L10_2)
+    L10_2 = L5_2
+    L11_2 = "s2_sub_004_dokuboss_pop_01"
+    L12_2 = C8DE993F011AA90C9
+    L12_2 = L12_2.S6FD6C53D176C5615
+    L13_2 = 3
+    L14_2 = 0.0
+    L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
+  else
+    L7_2 = C9B54BC04DD492B6D
+    L7_2 = L7_2.S45F2EF24C3E8120F
+    L8_2 = A0_2[7]
+    L8_2 = L8_2.owner
+    L9_2 = L8_2
+    L8_2 = L8_2.fE9C29DA1
+    L8_2 = L8_2(L9_2)
+    L9_2 = L5_2
+    L10_2 = "s2_sub_004_dokuboss_first_pop_01"
+    L11_2 = C8DE993F011AA90C9
+    L11_2 = L11_2.S6FD6C53D176C5615
+    L12_2 = 3
+    L13_2 = 0.0
+    L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
+  end
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C8DE993F011AA90C9"]["prototype"]
+L69_1 = _ENV["C8DE993F011AA90C9"]
+L68_1.__class__ = L69_1
+L68_1 = _ENV["C8DE993F011AA90C9"]
+L69_1 = "__super__"
+L69_1 = _ENV["C8DE993F011AA90C9"]["prototype"]
+L70_1 = {}
+L71_1 = "__index"

@@ -1,0 +1,64 @@
+L55_1 = _ENV
+L56_1 = "CD9A2A8F3C4692B3B"
+L57_1 = L15_1
+L57_1 = L57_1()
+L55_1[L56_1] = L57_1
+L68_1 = _ENV["CD9A2A8F3C4692B3B"]
+L69_1 = "new"
+L70_1 = {}
+L68_1[L69_1] = L70_1
+L68_1 = "CD9A2A8F3C4692B3B"
+L69_1 = _ENV["CD9A2A8F3C4692B3B"]
+L25_1[L68_1] = L69_1
+L68_1 = _ENV["CD9A2A8F3C4692B3B"]
+L69_1 = "__name__"
+L70_1 = "CD9A2A8F3C4692B3B"
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CD9A2A8F3C4692B3B"]
+L69_1 = "S1589C2461F8E76D2"
+
+function L70_1()
+  local L0_2, L1_2, L2_2, L3_2
+  L0_2 = C3A36506FBC96ACBD
+  L0_2 = L0_2.SC6181320B46854EE
+  L1_2 = "PLAY_UI_ONIBALLOON_HORN"
+  L0_2(L1_2)
+  L0_2 = CCB556863A08A9C61
+  L0_2 = L0_2.SFCE091807173F6E9
+  L1_2 = L16_1
+  L2_2 = {}
+  L3_2 = {}
+  L3_2.memberNum = true
+  L3_2.isHost = true
+  L3_2.isStart = true
+  L3_2.hostSeed = true
+  L3_2.fieldId = true
+  L3_2.difficulty = true
+  L2_2.__fields__ = L3_2
+  L2_2.memberNum = 1
+  L2_2.isHost = true
+  L2_2.isStart = true
+  L3_2 = C05D9E556B496A3DF
+  L3_2 = L3_2.SC8223E31D3163519
+  L3_2 = L3_2[3]
+  L3_2 = L3_2.timeT
+  L2_2.hostSeed = L3_2
+  L2_2.fieldId = 1
+  L2_2.difficulty = 0
+  L1_2, L2_2, L3_2 = L1_2(L2_2)
+  L0_2(L1_2, L2_2, L3_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CD9A2A8F3C4692B3B"]
+L69_1 = "SEE26AEBD8F0549CB"
+
+function L70_1()
+  local L0_2, L1_2
+  L0_2 = C1EB8603EE01BFCA3
+  L0_2 = L0_2.S6B1195249725FCA1
+  L1_2 = 0
+  return L0_2(L1_2)
+end
+
+L68_1[L69_1] = L70_1

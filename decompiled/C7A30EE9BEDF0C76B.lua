@@ -1,0 +1,303 @@
+L55_1 = _ENV
+L56_1 = "C7A30EE9BEDF0C76B"
+L57_1 = L15_1
+L57_1 = L57_1()
+L55_1[L56_1] = L57_1
+L68_1 = _ENV["C7A30EE9BEDF0C76B"]
+L69_1 = "new"
+
+function L70_1(A0_2, A1_2, A2_2, A3_2)
+  local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
+  L4_2 = L2_1
+  L5_2 = C7A30EE9BEDF0C76B
+  L5_2 = L5_2.prototype
+  L6_2 = 34
+  L7_2 = 62
+  L4_2 = L4_2(L5_2, L6_2, L7_2)
+  L5_2 = C7A30EE9BEDF0C76B
+  L5_2 = L5_2.super
+  L6_2 = L4_2
+  L7_2 = A0_2
+  L8_2 = A1_2
+  L9_2 = A2_2
+  L10_2 = A3_2
+  L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
+  return L4_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C7A30EE9BEDF0C76B"]
+L69_1 = "super"
+
+function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+  local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
+  L5_2 = C20F5CD372AAAA08C
+  L5_2 = L5_2.super
+  L6_2 = A0_2
+  L7_2 = A1_2
+  L8_2 = A2_2
+  L9_2 = A3_2
+  L10_2 = A4_2
+  L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C7A30EE9BEDF0C76B"]
+L69_1 = "__name__"
+L70_1 = "C7A30EE9BEDF0C76B"
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C7A30EE9BEDF0C76B"]
+L69_1 = "__interfaces__"
+L70_1 = {}
+L71_1 = CC816F24BFEF8251B
+L70_1[1] = L71_1
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C7A30EE9BEDF0C76B"]
+L69_1 = "prototype"
+L70_1 = L15_1
+L70_1 = L70_1()
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C7A30EE9BEDF0C76B"]["prototype"]
+L69_1 = "FD8D5F3745B4B5174"
+
+function L70_1(A0_2)
+  local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
+  L1_2 = C1EB8603EE01BFCA3
+  L1_2 = L1_2.S0469887567B8B79D
+  L2_2 = 2
+  L1_2 = L1_2(L2_2)
+  L2_2 = CDCBFD50A277E546D
+  L2_2 = L2_2.S38F4FBAC61A2A586
+  L3_2 = C469C8336DE4B45DE
+  L3_2 = L3_2.SFC069BF22EC8D0A3
+  L4_2 = "Player"
+  L5_2 = 1.0
+  L6_2 = false
+  L2_2(L3_2, L4_2, L5_2, L6_2)
+  L2_2 = CDCBFD50A277E546D
+  L2_2 = L2_2.S38F4FBAC61A2A586
+  L3_2 = "Player"
+  L4_2 = C469C8336DE4B45DE
+  L4_2 = L4_2.SFC069BF22EC8D0A3
+  L5_2 = 1.0
+  L6_2 = false
+  L2_2(L3_2, L4_2, L5_2, L6_2)
+  L2_2 = CDCBFD50A277E546D
+  L2_2 = L2_2.SF2A52007F22C8572
+  L3_2 = C469C8336DE4B45DE
+  L3_2 = L3_2.SFC069BF22EC8D0A3
+  L2_2(L3_2)
+  L2_2 = CDCBFD50A277E546D
+  L2_2 = L2_2.SF2A52007F22C8572
+  L3_2 = "Player"
+  L2_2(L3_2)
+  L2_2 = C3A36506FBC96ACBD
+  L2_2 = L2_2.SC6181320B46854EE
+  L3_2 = "SET_STATE_ONIBALLOON_GENERAL"
+  L2_2(L3_2)
+  L2_2 = C9B54BC04DD492B6D
+  L2_2 = L2_2.S12FD376DC11712C8
+  L3_2 = C469C8336DE4B45DE
+  L3_2 = L3_2.S14D6371429536795
+  L2_2(L3_2)
+  L2_2 = CBBA8BC6DEECCDCB4
+  L2_2 = L2_2.S9DEB10F3B940A275
+  L3_2 = C469C8336DE4B45DE
+  L3_2 = L3_2.SFC069BF22EC8D0A3
+  L4_2 = 23
+  L5_2 = false
+  L2_2(L3_2, L4_2, L5_2)
+  if not L1_2 then
+    L2_2 = CC9D1BDB320C003DA
+    L2_2 = L2_2.S62564229FADE24E1
+    L3_2 = "oniballoon_entrynpc_01"
+    L2_2(L3_2)
+    L2_2 = CBBA8BC6DEECCDCB4
+    L2_2 = L2_2.S9DEB10F3B940A275
+    L3_2 = C469C8336DE4B45DE
+    L3_2 = L3_2.SFC069BF22EC8D0A3
+    L4_2 = 25
+    L5_2 = false
+    L2_2(L3_2, L4_2, L5_2)
+  else
+    L2_2 = C9B54BC04DD492B6D
+    L2_2 = L2_2.SA3F9434BAF868954
+    L3_2 = _hx_tab_array
+    L4_2 = {}
+    L4_2.length = 0
+    L4_2[0] = "oniballoon_entrynpc_10"
+    L5_2 = "oniballoon_entrynpc_11"
+    L4_2[1] = L5_2
+    L5_2 = 2
+    L3_2 = L3_2(L4_2, L5_2)
+    L4_2 = C469C8336DE4B45DE
+    L4_2 = L4_2.SA1E00B34DF727FFE
+    L5_2 = nil
+    L6_2 = "oniballoon_entrynpc_01"
+    L7_2 = C469C8336DE4B45DE
+    L7_2 = L7_2.SA1E00B34DF727FFE
+    L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
+    L3_2 = CBBA8BC6DEECCDCB4
+    L3_2 = L3_2.S9DEB10F3B940A275
+    L4_2 = C469C8336DE4B45DE
+    L4_2 = L4_2.SFC069BF22EC8D0A3
+    L5_2 = 25
+    L6_2 = false
+    L3_2(L4_2, L5_2, L6_2)
+    if 1 == L2_2 then
+      L3_2 = CC9D1BDB320C003DA
+      L3_2 = L3_2.S62564229FADE24E1
+      L4_2 = "oniballoon_entrynpc_12"
+      L3_2(L4_2)
+      L3_2 = CC9D1BDB320C003DA
+      L3_2 = L3_2.SF2A608BCAFEEE4D4
+      L3_2 = L3_2()
+      L4_2 = nil
+      L5_2 = c113335A8
+      L5_2 = L5_2.fB91A909C
+      L6_2 = L3_2
+      L7_2 = L4_2
+      L5_2 = L5_2(L6_2, L7_2)
+      if L5_2 then
+        L5_2 = CC9D1BDB320C003DA
+        L5_2 = L5_2.SA5AE67412192F3A8
+        L6_2 = L3_2
+        L5_2(L6_2)
+      end
+      L5_2 = C9B54BC04DD492B6D
+      L5_2 = L5_2.SEC5605D9D6B5E309
+      L6_2 = C469C8336DE4B45DE
+      L6_2 = L6_2.S14D6371429536795
+      L5_2(L6_2)
+      return
+    end
+  end
+  L2_2 = C3A36506FBC96ACBD
+  L2_2 = L2_2.SC6181320B46854EE
+  L3_2 = "SET_STATE_ONIBALLOON_UI"
+  L2_2(L3_2)
+  L2_2 = CE55DAD22DE129E5C
+  L2_2 = L2_2.new
+  L2_2 = L2_2()
+  L4_2 = L2_2
+  L3_2 = L2_2.F9337AE9F018B3C29
+  L3_2(L4_2)
+  while true do
+    L4_2 = L2_2
+    L3_2 = L2_2.FC84A0D4D8CE89C7E
+    L3_2 = L3_2(L4_2)
+    if L3_2 then
+      break
+    end
+    L3_2 = CC6FE82819C6E1D55
+    L3_2 = L3_2.S12F63EE47FFCB183
+    L3_2()
+  end
+  while true do
+    L4_2 = L2_2
+    L3_2 = L2_2.F9D7588710454A953
+    L3_2 = L3_2(L4_2)
+    if L3_2 then
+      break
+    end
+    L3_2 = CC6FE82819C6E1D55
+    L3_2 = L3_2.S12F63EE47FFCB183
+    L3_2()
+  end
+  L3_2 = C3A36506FBC96ACBD
+  L3_2 = L3_2.SC6181320B46854EE
+  L4_2 = "SET_STATE_ONIBALLOON_GENERAL"
+  L3_2(L4_2)
+  L4_2 = L2_2
+  L3_2 = L2_2.FE08F07523506FB22
+  L3_2 = L3_2(L4_2)
+  if 3 == L3_2 then
+    L3_2 = CBBA8BC6DEECCDCB4
+    L3_2 = L3_2.S9DEB10F3B940A275
+    L4_2 = C469C8336DE4B45DE
+    L4_2 = L4_2.SFC069BF22EC8D0A3
+    L5_2 = 23
+    L6_2 = false
+    L3_2(L4_2, L5_2, L6_2)
+    L3_2 = CC9D1BDB320C003DA
+    L3_2 = L3_2.SDA865E08F08FBCB7
+    L4_2 = "oniballoon_entrynpc_02"
+    L3_2(L4_2)
+    L3_2 = CBBA8BC6DEECCDCB4
+    L3_2 = L3_2.S9DEB10F3B940A275
+    L4_2 = C469C8336DE4B45DE
+    L4_2 = L4_2.SFC069BF22EC8D0A3
+    L5_2 = 25
+    L6_2 = false
+    L3_2(L4_2, L5_2, L6_2)
+    L3_2 = true
+    L4_2 = C80B9D287C80C3286
+    L4_2 = L4_2.S385504EFF7E842C3
+    L4_2 = L4_2()
+    L4_2 = L4_2[5]
+    if 0 ~= L4_2 then
+      L4_2 = CE506B90C88D90C92
+      L4_2 = L4_2.S499E8689030B1B66
+      L4_2 = L4_2()
+      L3_2 = L4_2 or L3_2
+      if L4_2 then
+        L4_2 = CE506B90C88D90C92
+        L4_2 = L4_2.SCE078798DDD6F94D
+        L4_2 = L4_2()
+        L3_2 = not L4_2
+      end
+      L4_2 = CA9F4C26977FB72E1
+      L4_2 = L4_2.S5E55B9562BB2FC62
+      L4_2()
+    end
+    if L3_2 then
+      L4_2 = CC9D1BDB320C003DA
+      L4_2 = L4_2.S892C799EC01B7524
+      L6_2 = L2_2
+      L5_2 = L2_2.F3E54C2F216D88316
+      L5_2 = L5_2(L6_2)
+      
+      function L6_2()
+        local L0_3, L1_3
+        L0_3 = false
+        return L0_3
+      end
+      
+      L4_2(L5_2, L6_2)
+      L4_2 = C3A36506FBC96ACBD
+      L4_2 = L4_2.SC6181320B46854EE
+      L5_2 = "PLAY_UI_ONIBALLOON_HORN"
+      L4_2(L5_2)
+    end
+  else
+    L3_2 = C3A36506FBC96ACBD
+    L3_2 = L3_2.SC6181320B46854EE
+    L4_2 = "SET_STATE_ONIBALLOON_SILENCE_SE"
+    L3_2(L4_2)
+  end
+  L3_2 = C9B54BC04DD492B6D
+  L3_2 = L3_2.SEC5605D9D6B5E309
+  L4_2 = C469C8336DE4B45DE
+  L4_2 = L4_2.S14D6371429536795
+  L3_2(L4_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C7A30EE9BEDF0C76B"]["prototype"]
+L69_1 = "FCB3B1A213D375E75"
+
+function L70_1(A0_2)
+  local L1_2
+  L1_2 = true
+  return L1_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C7A30EE9BEDF0C76B"]["prototype"]
+L69_1 = _ENV["C7A30EE9BEDF0C76B"]
+L68_1.__class__ = L69_1
+L68_1 = _ENV["C7A30EE9BEDF0C76B"]
+L69_1 = "__super__"
+L69_1 = _ENV["C7A30EE9BEDF0C76B"]["prototype"]
+L70_1 = {}
+L71_1 = "__index"

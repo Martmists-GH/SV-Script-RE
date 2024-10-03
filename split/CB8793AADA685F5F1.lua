@@ -1,0 +1,218 @@
+L68_1 = _ENV["CB8793AADA685F5F1"]
+L69_1 = "super"
+
+function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+  local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
+  L5_2 = C20F5CD372AAAA08C
+  L5_2 = L5_2.super
+  L6_2 = A0_2
+  L7_2 = A1_2
+  L8_2 = A2_2
+  L9_2 = A3_2
+  L10_2 = A4_2
+  L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CB8793AADA685F5F1"]
+L69_1 = "__name__"
+L70_1 = "CB8793AADA685F5F1"
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CB8793AADA685F5F1"]
+L69_1 = "SA557824531175B20"
+
+function L70_1()
+  local L0_2, L1_2, L2_2, L3_2, L4_2
+  L0_2 = C9B54BC04DD492B6D
+  L0_2 = L0_2.S12FD376DC11712C8
+  L1_2 = CB8793AADA685F5F1
+  L1_2 = L1_2.S62F7FDD89E688791
+  L0_2(L1_2)
+  L0_2 = C9B54BC04DD492B6D
+  L0_2 = L0_2.S3EDC50DEB344C642
+  L1_2 = ""
+  L2_2 = "sudachi_kanban_noclear_01"
+  L3_2 = CB8793AADA685F5F1
+  L3_2 = L3_2.SF6D5F5B3D394C219
+  L4_2 = 3
+  L0_2(L1_2, L2_2, L3_2, L4_2)
+  L0_2 = C9B54BC04DD492B6D
+  L0_2 = L0_2.SEC5605D9D6B5E309
+  L1_2 = CB8793AADA685F5F1
+  L1_2 = L1_2.S62F7FDD89E688791
+  L0_2(L1_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CB8793AADA685F5F1"]
+L69_1 = "S49E32B2B2687AF65"
+
+function L70_1()
+  local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
+  L0_2 = CB8793AADA685F5F1
+  L0_2 = L0_2.S61888C7F4A015D1F
+  L1_2 = C9B54BC04DD492B6D
+  L1_2 = L1_2.S12FD376DC11712C8
+  L2_2 = CB8793AADA685F5F1
+  L2_2 = L2_2.S9FF4ADD2A6F065B3
+  L1_2(L2_2)
+  L1_2 = C9B54BC04DD492B6D
+  L1_2 = L1_2.S3EDC50DEB344C642
+  L2_2 = ""
+  L3_2 = "sdc01_side01_010_system_01"
+  L4_2 = L0_2
+  L5_2 = 3
+  L1_2(L2_2, L3_2, L4_2, L5_2)
+  L1_2 = C9B54BC04DD492B6D
+  L1_2 = L1_2.S3EDC50DEB344C642
+  L2_2 = ""
+  L3_2 = "sdc01_side01_010_system_02"
+  L4_2 = L0_2
+  L5_2 = 3
+  L1_2(L2_2, L3_2, L4_2, L5_2)
+  L1_2 = C9B54BC04DD492B6D
+  L1_2 = L1_2.S3EDC50DEB344C642
+  L2_2 = ""
+  L3_2 = "sdc01_side01_010_system_03"
+  L4_2 = L0_2
+  L5_2 = 3
+  L1_2(L2_2, L3_2, L4_2, L5_2)
+  L1_2 = C9B54BC04DD492B6D
+  L1_2 = L1_2.S3EDC50DEB344C642
+  L2_2 = ""
+  L3_2 = "sdc01_side01_010_system_04"
+  L4_2 = L0_2
+  L5_2 = 3
+  L1_2(L2_2, L3_2, L4_2, L5_2)
+  L1_2 = C9B54BC04DD492B6D
+  L1_2 = L1_2.S3EDC50DEB344C642
+  L2_2 = ""
+  L3_2 = "sdc01_side01_010_system_05"
+  L4_2 = L0_2
+  L5_2 = 3
+  L1_2(L2_2, L3_2, L4_2, L5_2)
+  L1_2 = C9B54BC04DD492B6D
+  L1_2 = L1_2.S3EDC50DEB344C642
+  L2_2 = ""
+  L3_2 = "sdc01_side01_010_system_06"
+  L4_2 = L0_2
+  L5_2 = 3
+  L1_2(L2_2, L3_2, L4_2, L5_2)
+  L1_2 = C9B54BC04DD492B6D
+  L1_2 = L1_2.S3EDC50DEB344C642
+  L2_2 = ""
+  L3_2 = "sdc01_side01_010_system_07"
+  L4_2 = L0_2
+  L5_2 = 3
+  L1_2(L2_2, L3_2, L4_2, L5_2)
+  L1_2 = C9B54BC04DD492B6D
+  L1_2 = L1_2.SEC5605D9D6B5E309
+  L2_2 = CB8793AADA685F5F1
+  L2_2 = L2_2.S9FF4ADD2A6F065B3
+  L1_2(L2_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CB8793AADA685F5F1"]
+L69_1 = "prototype"
+L70_1 = L15_1
+L70_1 = L70_1()
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CB8793AADA685F5F1"]["prototype"]
+L69_1 = "F92BA869F22AE5BC6"
+
+function L70_1(A0_2)
+  local L1_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CB8793AADA685F5F1"]["prototype"]
+L69_1 = "F2E6C9E25867BCE8D"
+
+function L70_1(A0_2)
+  local L1_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CB8793AADA685F5F1"]["prototype"]
+L69_1 = "FD8D5F3745B4B5174"
+
+function L70_1(A0_2)
+  local L1_2, L2_2, L3_2
+  L1_2 = nil
+  
+  function L2_2()
+    local L0_3, L1_3, L2_3, L3_3
+    L0_3 = nil
+    L1_3 = c016374C1
+    L1_3 = L1_3.f4555D276
+    L2_3 = A0_2
+    L2_3 = L2_3[12]
+    L2_3 = L2_3.owner
+    L3_3 = L1_2
+    L1_3 = L1_3(L2_3, L3_3)
+    if L1_3 then
+      L0_3 = nil
+    else
+      L1_3 = A0_2
+      L0_3 = L1_3[12]
+    end
+    return L0_3
+  end
+  
+  L2_2 = L2_2()
+  L2_2 = L2_2.owner
+  L3_2 = L2_2
+  L2_2 = L2_2.f5B268E4E
+  L2_2 = L2_2(L3_2)
+  L3_2 = L2_2
+  L2_2 = L2_2.fE9C29DA1
+  L2_2(L3_2)
+  L2_2 = C9AA363B3CCC264AA
+  L2_2 = L2_2.SA5B8258582A90EF3
+  L3_2 = "sdc01_side01_010"
+  L2_2 = L2_2(L3_2)
+  if not L2_2 then
+    L2_2 = CB8793AADA685F5F1
+    L2_2 = L2_2.SA557824531175B20
+    L2_2()
+  else
+    L2_2 = CB8793AADA685F5F1
+    L2_2 = L2_2.S49E32B2B2687AF65
+    L2_2()
+  end
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CB8793AADA685F5F1"]["prototype"]
+L69_1 = "F84C84FA1590CD2A3"
+
+function L70_1(A0_2)
+  local L1_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CB8793AADA685F5F1"]["prototype"]
+L69_1 = "F740FB4E96926D103"
+
+function L70_1(A0_2)
+  local L1_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CB8793AADA685F5F1"]["prototype"]
+L69_1 = "F3E13E4094D09A594"
+
+function L70_1(A0_2)
+  local L1_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CB8793AADA685F5F1"]["prototype"]
+L69_1 = _ENV["CB8793AADA685F5F1"]
+L68_1.__class__ = L69_1
+L68_1 = _ENV["CB8793AADA685F5F1"]
+L69_1 = "__super__"
+L69_1 = _ENV["CB8793AADA685F5F1"]["prototype"]
+L70_1 = {}
+L71_1 = "__index"

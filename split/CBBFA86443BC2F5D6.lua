@@ -1,0 +1,168 @@
+L55_1 = _ENV
+L56_1 = "CBBFA86443BC2F5D6"
+L57_1 = L15_1
+L57_1 = L57_1()
+L55_1[L56_1] = L57_1
+L68_1 = _ENV["CBBFA86443BC2F5D6"]
+L69_1 = "new"
+L70_1 = {}
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CBBFA86443BC2F5D6"]
+L69_1 = "__name__"
+L70_1 = "CBBFA86443BC2F5D6"
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CBBFA86443BC2F5D6"]
+L69_1 = "SC992566C0CF512C3"
+
+function L70_1(A0_2)
+  local L1_2, L2_2, L3_2, L4_2
+  L2_2 = A0_2
+  L1_2 = A0_2.F2FBB004A3763CEBD
+  L4_2 = A0_2
+  L3_2 = A0_2.F0A0F7E6D62C46381
+  L3_2, L4_2 = L3_2(L4_2)
+  L1_2 = L1_2(L2_2, L3_2, L4_2)
+  while true do
+    L3_2 = L1_2
+    L2_2 = L1_2.F02C094ED00192342
+    L2_2 = L2_2(L3_2)
+    if not L2_2 then
+      break
+    end
+    L2_2 = C1DB14DCC9D7634FA
+    L2_2 = L2_2.S760DAE4C5371A78E
+    L2_2()
+  end
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CBBFA86443BC2F5D6"]
+L69_1 = "S72D475D03E37D99D"
+
+function L70_1(A0_2, A1_2, A2_2, A3_2)
+  local L4_2, L5_2, L6_2, L7_2
+  L5_2 = A1_2
+  L4_2 = A1_2.F0A0F7E6D62C46381
+  L4_2 = L4_2(L5_2)
+  if 2 ~= L4_2 then
+    L5_2 = A1_2
+    L4_2 = A1_2.F8E6976B9790C6FCC
+    L6_2 = 2
+    L4_2(L5_2, L6_2)
+  end
+  L5_2 = A2_2
+  L4_2 = A2_2.F96EA28F400597FA0
+  L6_2 = A0_2
+  L7_2 = A3_2
+  L4_2(L5_2, L6_2, L7_2)
+  L4_2 = 5
+  L5_2 = E933ACEA4D6BEEA8F
+  L5_2 = L5_2.CasualBattle
+  if A0_2 == L5_2 then
+    L4_2 = 2
+  end
+  L6_2 = A1_2
+  L5_2 = A1_2.FA367E653AD7B2572
+  L7_2 = L4_2
+  L5_2(L6_2, L7_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CBBFA86443BC2F5D6"]
+L69_1 = "SFD851106A286EF44"
+
+function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+  local L6_2, L7_2, L8_2, L9_2, L10_2
+  L7_2 = A1_2
+  L6_2 = A1_2.F8E6976B9790C6FCC
+  L8_2 = 4
+  L6_2(L7_2, L8_2)
+  L7_2 = A2_2
+  L6_2 = A2_2.F96EA28F400597FA0
+  L8_2 = A0_2
+  L9_2 = A3_2
+  L10_2 = A4_2
+  L6_2(L7_2, L8_2, L9_2, L10_2)
+  L7_2 = A1_2
+  L6_2 = A1_2.FA367E653AD7B2572
+  L8_2 = A5_2
+  L6_2(L7_2, L8_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CBBFA86443BC2F5D6"]
+L69_1 = "SBD4DA0CC2D1C006F"
+
+function L70_1(A0_2, A1_2, A2_2)
+  local L3_2, L4_2, L5_2
+  L4_2 = A0_2
+  L3_2 = A0_2.F8E6976B9790C6FCC
+  L5_2 = 9
+  L3_2(L4_2, L5_2)
+  L4_2 = A1_2
+  L3_2 = A1_2.F96EA28F400597FA0
+  L5_2 = E1731A5EFC21F1B20
+  L5_2 = L5_2.Blank
+  L3_2(L4_2, L5_2)
+  if nil ~= A2_2 then
+    L4_2 = A0_2
+    L3_2 = A0_2.FA367E653AD7B2572
+    L5_2 = A2_2
+    L3_2(L4_2, L5_2)
+  end
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CBBFA86443BC2F5D6"]
+L69_1 = "S6553624E085641B4"
+
+function L70_1(A0_2, A1_2, A2_2)
+  local L3_2, L4_2, L5_2
+  L4_2 = A0_2
+  L3_2 = A0_2.F0A0F7E6D62C46381
+  L3_2 = L3_2(L4_2)
+  if 11 ~= L3_2 then
+    L4_2 = A0_2
+    L3_2 = A0_2.F8E6976B9790C6FCC
+    L5_2 = 11
+    L3_2(L4_2, L5_2)
+  end
+  L4_2 = A0_2
+  L3_2 = A0_2.FA367E653AD7B2572
+  L5_2 = A2_2
+  L3_2(L4_2, L5_2)
+  L4_2 = A1_2
+  L3_2 = A1_2.F96EA28F400597FA0
+  L3_2(L4_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CBBFA86443BC2F5D6"]
+L69_1 = "SE41628A9D7BE93C9"
+
+function L70_1(A0_2, A1_2, A2_2, A3_2)
+  local L4_2, L5_2, L6_2, L7_2
+  L5_2 = A0_2
+  L4_2 = A0_2.F0A0F7E6D62C46381
+  L4_2 = L4_2(L5_2)
+  if 10 ~= L4_2 then
+    L5_2 = A0_2
+    L4_2 = A0_2.F8E6976B9790C6FCC
+    L6_2 = 10
+    L4_2(L5_2, L6_2)
+  end
+  L4_2 = 6
+  if 2 == A2_2 then
+    L4_2 = 7
+  end
+  L6_2 = A0_2
+  L5_2 = A0_2.FA367E653AD7B2572
+  L7_2 = L4_2
+  L5_2(L6_2, L7_2)
+  L6_2 = A1_2
+  L5_2 = A1_2.F96EA28F400597FA0
+  L7_2 = A3_2
+  L5_2(L6_2, L7_2)
+end
+
+L68_1[L69_1] = L70_1

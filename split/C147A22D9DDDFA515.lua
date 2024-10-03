@@ -1,0 +1,118 @@
+L55_1 = _ENV
+L56_1 = "C147A22D9DDDFA515"
+L57_1 = L15_1
+L57_1 = L57_1()
+L55_1[L56_1] = L57_1
+L68_1 = _ENV["C147A22D9DDDFA515"]
+L69_1 = "new"
+
+function L70_1(A0_2, A1_2)
+  local L2_2, L3_2, L4_2, L5_2, L6_2
+  L2_2 = L2_1
+  L3_2 = C147A22D9DDDFA515
+  L3_2 = L3_2.prototype
+  L4_2 = 2
+  L5_2 = 6
+  L2_2 = L2_2(L3_2, L4_2, L5_2)
+  L3_2 = C147A22D9DDDFA515
+  L3_2 = L3_2.super
+  L4_2 = L2_2
+  L5_2 = A0_2
+  L6_2 = A1_2
+  L3_2(L4_2, L5_2, L6_2)
+  return L2_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C147A22D9DDDFA515"]
+L69_1 = "super"
+
+function L70_1(A0_2, A1_2, A2_2)
+  local L3_2, L4_2, L5_2, L6_2
+  A0_2[1] = A1_2
+  L3_2 = {}
+  L4_2 = A2_2[1]
+  L5_2 = A2_2[2]
+  L6_2 = 0
+  L3_2[1] = L4_2
+  L3_2[2] = L5_2
+  L3_2[3] = L6_2
+  A0_2[2] = L3_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C147A22D9DDDFA515"]
+L69_1 = "__name__"
+L70_1 = "C147A22D9DDDFA515"
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C147A22D9DDDFA515"]
+L69_1 = "__interfaces__"
+L70_1 = {}
+L68_1 = _ENV["C147A22D9DDDFA515"]
+L69_1 = "prototype"
+L70_1 = L15_1
+L70_1 = L70_1()
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C147A22D9DDDFA515"]["prototype"]
+L69_1 = "F7C449750894121B6"
+
+function L70_1(A0_2)
+  local L1_2
+  L1_2 = true
+  return L1_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C147A22D9DDDFA515"]["prototype"]
+L69_1 = "FCFABE345057A5668"
+
+function L70_1(A0_2)
+  local L1_2
+  L1_2 = A0_2[1]
+  return L1_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C147A22D9DDDFA515"]["prototype"]
+L69_1 = "F55C6870D40306E2A"
+
+function L70_1(A0_2)
+  local L1_2
+  L1_2 = nil
+  return L1_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C147A22D9DDDFA515"]["prototype"]
+L69_1 = "F624850472E7C907F"
+
+function L70_1(A0_2)
+  local L1_2
+  L1_2 = nil
+  return L1_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C147A22D9DDDFA515"]["prototype"]
+L69_1 = "F821538F8BC945D78"
+
+function L70_1(A0_2, A1_2)
+  local L2_2
+  L2_2 = A0_2[2]
+  return L2_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C147A22D9DDDFA515"]["prototype"]
+L69_1 = "F229DBCA684147CBC"
+
+function L70_1(A0_2)
+  local L1_2
+  L1_2 = false
+  return L1_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C147A22D9DDDFA515"]["prototype"]
+L69_1 = _ENV["C147A22D9DDDFA515"]
+L68_1.__class__ = L69_1

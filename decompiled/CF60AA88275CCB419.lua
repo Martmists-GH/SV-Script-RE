@@ -1,0 +1,773 @@
+L55_1 = _ENV
+L56_1 = "CF60AA88275CCB419"
+L57_1 = L15_1
+L57_1 = L57_1()
+L55_1[L56_1] = L57_1
+L68_1 = _ENV["CF60AA88275CCB419"]
+L69_1 = "new"
+L70_1 = {}
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CF60AA88275CCB419"]
+L69_1 = "__name__"
+L70_1 = "CF60AA88275CCB419"
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CF60AA88275CCB419"]
+L69_1 = "S2A0BAAC95FAC7723"
+
+function L70_1()
+  local L0_2, L1_2, L2_2, L3_2, L4_2
+  L0_2 = "_guide"
+  L1_2 = C10578806AC30DCA3
+  L1_2 = L1_2.SBA6FF574C1C9AA09
+  L1_2 = L1_2.h
+  L1_2 = L1_2.FEVT_S2_SUB_041_GUIDE_TALK
+  L2_2 = L47_1.tnull
+  if L1_2 == L2_2 then
+    L1_2 = nil
+  end
+  if L1_2 then
+    L2_2 = C10578806AC30DCA3
+    L2_2 = L2_2.S971699EB064C6350
+    L2_2 = L2_2.h
+    L2_2 = L2_2.WEVT_S2_SUB_041_CLEAR_TUTORIAL
+    L3_2 = L47_1.tnull
+    if L2_2 == L3_2 then
+      L2_2 = nil
+    end
+    
+    function L3_2()
+      local L0_3, L1_3
+      L0_3 = nil
+      L1_3 = L2_2
+      if L1_3 <= 0 then
+        L0_3 = "_popup"
+      else
+        L0_3 = ""
+      end
+      return L0_3
+    end
+    
+    L3_2 = L3_2()
+    L0_2 = L3_2
+  end
+  L2_2 = L31_1.string
+  L3_2 = CF60AA88275CCB419
+  L3_2 = L3_2.S5AC55104B7D74252
+  L2_2 = L2_2(L3_2)
+  L3_2 = L31_1.string
+  L4_2 = L0_2
+  L3_2 = L3_2(L4_2)
+  L2_2 = L2_2 .. L3_2
+  return L2_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CF60AA88275CCB419"]
+L69_1 = "SAF58BBD109A43E52"
+
+function L70_1(A0_2)
+  local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2
+  L1_2 = CF60AA88275CCB419
+  L1_2.S536FDBC6CB5DC856 = false
+  L1_2 = CF60AA88275CCB419
+  L1_2.S9B4620059BBB4472 = A0_2
+  L1_2 = CF60AA88275CCB419
+  L1_2.S742F205C8C5B0B0E = 0
+  L1_2 = C10578806AC30DCA3
+  L1_2 = L1_2.S971699EB064C6350
+  L1_2 = L1_2.h
+  L1_2 = L1_2.WEVT_S2_SUB_041_CLEAR_TUTORIAL
+  L2_2 = L47_1.tnull
+  if L1_2 == L2_2 then
+    L1_2 = nil
+  end
+  L2_2 = 0 == L1_2
+  
+  function L3_2()
+    local L0_3, L1_3
+    L0_3 = nil
+    L1_3 = L2_2
+    if L1_3 then
+      L1_3 = CF60AA88275CCB419
+      L1_3 = L1_3.S8472C03437B734A0
+      L0_3 = L1_3.move
+    else
+      L1_3 = CF60AA88275CCB419
+      L1_3 = L1_3.S8472C03437B734A0
+      L0_3 = L1_3.battle
+    end
+    return L0_3
+  end
+  
+  L3_2 = L3_2()
+  
+  function L4_2()
+    local L0_3, L1_3
+    L0_3 = nil
+    L1_3 = L2_2
+    if L1_3 then
+      L1_3 = CF60AA88275CCB419
+      L1_3 = L1_3.SD51F2070E67A1660
+      L0_3 = L1_3.move
+    else
+      L1_3 = CF60AA88275CCB419
+      L1_3 = L1_3.SD51F2070E67A1660
+      L0_3 = L1_3.battle
+    end
+    return L0_3
+  end
+  
+  L4_2 = L4_2()
+  
+  function L5_2()
+    local L0_3, L1_3
+    L0_3 = nil
+    L1_3 = L2_2
+    if L1_3 then
+      L1_3 = CF60AA88275CCB419
+      L1_3 = L1_3.S08BBCDEE5F72BDBB
+      L0_3 = L1_3.move
+    else
+      L1_3 = CF60AA88275CCB419
+      L1_3 = L1_3.S08BBCDEE5F72BDBB
+      L0_3 = L1_3.battle
+    end
+    return L0_3
+  end
+  
+  L5_2 = L5_2()
+  L6_2 = CDCBFD50A277E546D
+  L6_2 = L6_2.S0C6378C0E23B592D
+  L7_2 = CF60AA88275CCB419
+  L7_2 = L7_2.S2A0BAAC95FAC7723
+  L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2 = L7_2()
+  L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2)
+  L7_2 = CF60AA88275CCB419
+  
+  function L8_2()
+    local L0_3, L1_3
+    L0_3 = nil
+    L1_3 = L6_2
+    if nil == L1_3 then
+      L0_3 = nil
+    else
+      L0_3 = L6_2.owner
+    end
+    return L0_3
+  end
+  
+  L8_2 = L8_2()
+  L7_2.SE0009A6ED26481D0 = L8_2
+  L7_2 = L5_2.pos
+  L8_2 = CF60AA88275CCB419
+  L8_2 = L8_2.SE0009A6ED26481D0
+  L9_2 = L8_2
+  L8_2 = L8_2.f8F2B0552
+  L10_2 = L7_2[1]
+  L11_2 = L7_2[2]
+  L12_2 = L7_2[3]
+  L8_2(L9_2, L10_2, L11_2, L12_2)
+  L8_2 = CF60AA88275CCB419
+  L8_2 = L8_2.SE0009A6ED26481D0
+  L9_2 = L8_2
+  L8_2 = L8_2.f24032F87
+  L10_2 = cD5675BA5
+  L10_2 = L10_2.fFA44D7AF
+  L11_2 = L5_2.ang
+  L11_2 = L11_2 / 360.0
+  L11_2 = L11_2 * 2
+  L12_2 = L10_1.math
+  L12_2 = L12_2.pi
+  L11_2 = L11_2 * L12_2
+  L12_2 = 0
+  L13_2 = 0
+  L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2 = L10_2(L11_2, L12_2, L13_2)
+  L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2)
+  L8_2 = CF60AA88275CCB419
+  L8_2 = L8_2.SE0009A6ED26481D0
+  L9_2 = L8_2
+  L8_2 = L8_2.fB3CF1DEB
+  L8_2 = L8_2(L9_2)
+  L9_2 = C3B091777E3EC94A5
+  L9_2 = L9_2.S3AB27FFAF33EFD2D
+  L9_2 = L9_2.h
+  L9_2 = L9_2[L8_2]
+  L10_2 = L42_1.tnull
+  if L9_2 == L10_2 then
+    L9_2 = nil
+  end
+  L11_2 = L9_2
+  L10_2 = L9_2.F921BB0E9486CE9CB
+  L10_2(L11_2)
+  L10_2 = CFC8F368D91411014
+  L10_2 = L10_2.S722AB07CDD6DEDA4
+  L11_2 = cD5675BA5
+  L11_2 = L11_2.fFA44D7AF
+  L12_2 = L3_2.ang
+  L12_2 = L12_2 / 360.0
+  L12_2 = L12_2 * 2
+  L13_2 = L10_1.math
+  L13_2 = L13_2.pi
+  L12_2 = L12_2 * L13_2
+  L13_2 = 0
+  L14_2 = 0
+  L11_2 = L11_2(L12_2, L13_2, L14_2)
+  L12_2 = L3_2.pos
+  L13_2 = c4E28AB7C
+  L13_2 = L13_2.f7F1C830E
+  L14_2 = L10_2[1]
+  L15_2 = L12_2[1]
+  L16_2 = L12_2[2]
+  L17_2 = L12_2[3]
+  L18_2 = L11_2
+  L13_2(L14_2, L15_2, L16_2, L17_2, L18_2)
+  L13_2 = CCD22EFED4E9E5F89
+  L13_2 = L13_2.S3DAFEA6A26FE7D0E
+  L14_2 = L4_2.pos
+  L15_2 = cD5675BA5
+  L15_2 = L15_2.fFA44D7AF
+  L16_2 = L4_2.ang
+  L16_2 = L16_2 / 360.0
+  L16_2 = L16_2 * 2
+  L17_2 = L10_1.math
+  L17_2 = L17_2.pi
+  L16_2 = L16_2 * L17_2
+  L17_2 = 0
+  L18_2 = 0
+  L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2 = L15_2(L16_2, L17_2, L18_2)
+  L13_2(L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2)
+  L13_2 = CE55264D46437D7D3
+  L13_2 = L13_2.S9846B2691ED91412
+  L13_2 = L13_2()
+  L14_2 = L13_2
+  L13_2 = L13_2.FA23D39922B76B247
+  L15_2 = true
+  L13_2(L14_2, L15_2)
+  L13_2 = 0
+  while true do
+    L14_2 = A0_2.length
+    if not (L13_2 < L14_2) then
+      break
+    end
+    L14_2 = A0_2[L13_2]
+    L13_2 = L13_2 + 1
+    L15_2 = CBB172410B8487694
+    L15_2 = L15_2.S5500201A70DF5F68
+    L16_2 = L14_2
+    L15_2(L16_2)
+  end
+  L14_2 = CBB172410B8487694
+  L14_2 = L14_2.SFBEEEEE7D7164EE2
+  L14_2()
+  L14_2 = CC6FE82819C6E1D55
+  L14_2 = L14_2.S12F63EE47FFCB183
+  L14_2()
+  L14_2 = CF67A67452D018ECC
+  L14_2 = L14_2.SC8223E31D3163519
+  L14_2 = L14_2[2]
+  L15_2 = L14_2
+  L14_2 = L14_2.first
+  L14_2 = L14_2(L15_2)
+  if nil ~= L14_2 then
+    L15_2 = L14_2[11]
+    if 58 == L15_2 then
+      while true do
+        L16_2 = L14_2
+        L15_2 = L14_2.FD079E1CF944CF798
+        L15_2 = L15_2(L16_2)
+        L16_2 = E5918BECABEC63037
+        L16_2 = L16_2.Finished
+        if L15_2 == L16_2 then
+          break
+        end
+        L15_2 = CC6FE82819C6E1D55
+        L15_2 = L15_2.S12F63EE47FFCB183
+        L15_2()
+      end
+    end
+  end
+  L15_2 = CE55264D46437D7D3
+  L15_2 = L15_2.S9846B2691ED91412
+  L15_2 = L15_2()
+  L16_2 = L15_2
+  L15_2 = L15_2.FA23D39922B76B247
+  L17_2 = false
+  L15_2(L16_2, L17_2)
+  L15_2 = CFC8F368D91411014
+  L15_2 = L15_2.S62509376DBF3DD90
+  L17_2 = L15_2
+  L16_2 = L15_2.f24032F87
+  L18_2 = cD5675BA5
+  L18_2 = L18_2.fFA44D7AF
+  L19_2 = L3_2.ang
+  L19_2 = L19_2 / 360.0
+  L19_2 = L19_2 * 2
+  L20_2 = L10_1.math
+  L20_2 = L20_2.pi
+  L19_2 = L19_2 * L20_2
+  L20_2 = 0
+  L21_2 = 0
+  L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2 = L18_2(L19_2, L20_2, L21_2)
+  L16_2(L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2)
+  L16_2 = C9F6C325569B7E07F
+  L16_2 = L16_2.SA5B431F0142C952D
+  L17_2 = {}
+  L18_2 = -8.14
+  L19_2 = L3_2.ang
+  L19_2 = 180 + L19_2
+  L20_2 = 0.0
+  L17_2[1] = L18_2
+  L17_2[2] = L19_2
+  L17_2[3] = L20_2
+  L16_2(L17_2)
+  if not L2_2 then
+    L16_2 = CD503DFA68ABEF5FC
+    L16_2 = L16_2.S03C81C3300B1E7A0
+    L16_2()
+    L16_2 = CD503DFA68ABEF5FC
+    L16_2 = L16_2.SCB2D019CF7A64AC4
+    L17_2 = CF60AA88275CCB419
+    L17_2 = L17_2.S742F205C8C5B0B0E
+    L16_2(L17_2)
+  else
+    L16_2 = c682D8E4F
+    L16_2 = L16_2.fEF94D11D
+    L17_2 = CF60AA88275CCB419
+    L17_2 = L17_2.SBFBCBEF45F05A92D
+    L16_2 = L16_2(L17_2)
+    L17_2 = nil
+    L18_2 = cA042DA13
+    L18_2 = L18_2.f25C936C9
+    L19_2 = L16_2
+    L20_2 = L17_2
+    L18_2 = L18_2(L19_2, L20_2)
+    if L18_2 then
+      L18_2 = CC6FE82819C6E1D55
+      L18_2 = L18_2.SC22C2773A68837D3
+      L19_2 = L16_2
+      L18_2(L19_2)
+    end
+  end
+  L16_2 = C42D1CDB112422850
+  L16_2 = L16_2.SAD63C83746798386
+  L16_2()
+  L16_2 = c7C4EA23C
+  L16_2 = L16_2.fB41FD22F
+  L18_2 = L15_2
+  L17_2 = L15_2.f5439788F
+  L19_2 = "SynchroPokemonRecvHit"
+  L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2 = L17_2(L18_2, L19_2)
+  L16_2 = L16_2(L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2)
+  L18_2 = L15_2
+  L17_2 = L15_2.f7360ED03
+  L17_2, L18_2, L19_2 = L17_2(L18_2)
+  L20_2 = L17_2
+  L21_2 = L18_2
+  L22_2 = L19_2
+  L24_2 = L15_2
+  L23_2 = L15_2.f16155D9E
+  L23_2 = L23_2(L24_2)
+  L24_2 = 0
+  L26_2 = L16_2
+  L25_2 = L16_2.f6E6D652B
+  L25_2 = L25_2(L26_2)
+  while L24_2 < L25_2 do
+    L24_2 = L24_2 + 1
+    L27_2 = L16_2
+    L26_2 = L16_2.fD664160C
+    L28_2 = L24_2 - 1
+    L26_2(L27_2, L28_2)
+    L27_2 = L16_2
+    L26_2 = L16_2.f1E720296
+    L28_2 = L20_2
+    L29_2 = L21_2
+    L30_2 = L22_2
+    L31_2 = L23_2
+    L26_2(L27_2, L28_2, L29_2, L30_2, L31_2)
+  end
+  L27_2 = L16_2
+  L26_2 = L16_2.fD664160C
+  L28_2 = 0
+  L26_2(L27_2, L28_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CF60AA88275CCB419"]
+L69_1 = "S6089D883B02F7F26"
+
+function L70_1()
+  local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
+  L0_2 = C10578806AC30DCA3
+  L0_2 = L0_2.S971699EB064C6350
+  L0_2 = L0_2.h
+  L0_2 = L0_2.WEVT_S2_SUB_041_CLEAR_TUTORIAL
+  L1_2 = L47_1.tnull
+  if L0_2 == L1_2 then
+    L0_2 = nil
+  end
+  if L0_2 > 0 then
+    L1_2 = CD503DFA68ABEF5FC
+    L1_2 = L1_2.S074E8184D0D762A3
+    L1_2()
+  else
+    L1_2 = c682D8E4F
+    L1_2 = L1_2.fEF94D11D
+    L2_2 = CF60AA88275CCB419
+    L2_2 = L2_2.SBFBCBEF45F05A92D
+    L1_2 = L1_2(L2_2)
+    L2_2 = nil
+    L3_2 = cA042DA13
+    L3_2 = L3_2.f25C936C9
+    L4_2 = L1_2
+    L5_2 = L2_2
+    L3_2 = L3_2(L4_2, L5_2)
+    if L3_2 then
+      L3_2 = CC6FE82819C6E1D55
+      L3_2 = L3_2.SF8D8FFC774DA1818
+      L4_2 = L1_2
+      L3_2(L4_2)
+    end
+  end
+  L1_2 = CF60AA88275CCB419
+  L1_2 = L1_2.SE0009A6ED26481D0
+  L2_2 = L1_2
+  L1_2 = L1_2.f8F2B0552
+  L3_2 = 1020.3403
+  L4_2 = 151
+  L5_2 = -1041.5326
+  L1_2(L2_2, L3_2, L4_2, L5_2)
+  L1_2 = CF60AA88275CCB419
+  L1_2 = L1_2.SE0009A6ED26481D0
+  L2_2 = L1_2
+  L1_2 = L1_2.f24032F87
+  L3_2 = cD5675BA5
+  L3_2 = L3_2.fFA44D7AF
+  L4_2 = L10_1.math
+  L4_2 = L4_2.pi
+  L4_2 = -0.23100555555555558 * L4_2
+  L5_2 = 0
+  L6_2 = 0
+  L3_2, L4_2, L5_2, L6_2, L7_2, L8_2 = L3_2(L4_2, L5_2, L6_2)
+  L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
+  L1_2 = CF60AA88275CCB419
+  L1_2 = L1_2.SE0009A6ED26481D0
+  L2_2 = L1_2
+  L1_2 = L1_2.fB3CF1DEB
+  L1_2 = L1_2(L2_2)
+  L2_2 = C3B091777E3EC94A5
+  L2_2 = L2_2.S3AB27FFAF33EFD2D
+  L2_2 = L2_2.h
+  L2_2 = L2_2[L1_2]
+  L3_2 = L42_1.tnull
+  if L2_2 == L3_2 then
+    L2_2 = nil
+  end
+  L4_2 = L2_2
+  L3_2 = L2_2.F921BB0E9486CE9CB
+  L3_2(L4_2)
+  L3_2 = CCD22EFED4E9E5F89
+  L3_2 = L3_2.S3DAFEA6A26FE7D0E
+  L4_2 = {}
+  L5_2 = 1019.58
+  L6_2 = 151.0
+  L7_2 = -1040.66
+  L4_2[1] = L5_2
+  L4_2[2] = L6_2
+  L4_2[3] = L7_2
+  L5_2 = cD5675BA5
+  L5_2 = L5_2.fFA44D7AF
+  L6_2 = L10_1.math
+  L6_2 = L6_2.pi
+  L6_2 = 0.7538888888888888 * L6_2
+  L7_2 = 0
+  L8_2 = 0
+  L5_2, L6_2, L7_2, L8_2 = L5_2(L6_2, L7_2, L8_2)
+  L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CF60AA88275CCB419"]
+L69_1 = "SB4608CDB92A9661D"
+
+function L70_1()
+  local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
+  L0_2 = 0
+  L1_2 = CF60AA88275CCB419
+  L1_2 = L1_2.S9B4620059BBB4472
+  while true do
+    L2_2 = L1_2.length
+    if not (L0_2 < L2_2) then
+      break
+    end
+    L2_2 = L1_2[L0_2]
+    L0_2 = L0_2 + 1
+    L3_2 = CBB172410B8487694
+    L3_2 = L3_2.S3536748178719D1F
+    L4_2 = L2_2
+    L3_2(L4_2)
+  end
+  L2_2 = CBB172410B8487694
+  L2_2 = L2_2.SBE095A7FC45C57BD
+  L3_2 = EC07B556BCDEFD38B
+  L3_2 = L3_2.None
+  L2_2(L3_2)
+  L2_2 = CF60AA88275CCB419
+  L3_2 = _hx_tab_array
+  L4_2 = {}
+  L4_2.length = 0
+  L5_2 = 0
+  L3_2 = L3_2(L4_2, L5_2)
+  L2_2.S9B4620059BBB4472 = L3_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CF60AA88275CCB419"]
+L69_1 = "S0351ADB75CF66ADB"
+
+function L70_1()
+  local L0_2, L1_2, L2_2
+  L0_2 = C10578806AC30DCA3
+  L0_2 = L0_2.SBA6FF574C1C9AA09
+  L0_2 = L0_2.h
+  L0_2 = L0_2.FEVT_S2_SUB_041_TUTORIAL
+  L1_2 = L47_1.tnull
+  if L0_2 == L1_2 then
+    L0_2 = nil
+  end
+  if L0_2 then
+    L1_2 = C10578806AC30DCA3
+    L1_2 = L1_2.S971699EB064C6350
+    L1_2 = L1_2.h
+    L1_2 = L1_2.WEVT_S2_SUB_041_CLEAR_TUTORIAL
+    L2_2 = L47_1.tnull
+    if L1_2 == L2_2 then
+      L1_2 = nil
+    end
+    L2_2 = L1_2 > 0
+    return L2_2
+  else
+    L1_2 = false
+    return L1_2
+  end
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CF60AA88275CCB419"]
+L69_1 = "SEE32283E12D6DA2B"
+
+function L70_1()
+  local L0_2, L1_2
+  L0_2 = CF60AA88275CCB419
+  L1_2 = CF60AA88275CCB419
+  L1_2 = L1_2.S742F205C8C5B0B0E
+  L1_2 = L1_2 + 1
+  L0_2.S742F205C8C5B0B0E = L1_2
+  L0_2 = CD503DFA68ABEF5FC
+  L0_2 = L0_2.SCB2D019CF7A64AC4
+  L1_2 = CF60AA88275CCB419
+  L1_2 = L1_2.S742F205C8C5B0B0E
+  L0_2(L1_2)
+  L0_2 = CF60AA88275CCB419
+  L0_2 = L0_2.S742F205C8C5B0B0E
+  L1_2 = CF60AA88275CCB419
+  L1_2 = L1_2.S69D699F0BD2E582D
+  if L0_2 == L1_2 then
+    L0_2 = CF60AA88275CCB419
+    L0_2 = L0_2.S1713676DF51A8420
+    L0_2()
+  end
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CF60AA88275CCB419"]
+L69_1 = "S1713676DF51A8420"
+
+function L70_1()
+  local L0_2, L1_2, L2_2, L3_2
+  L0_2 = C10578806AC30DCA3
+  L0_2 = L0_2.SBA6FF574C1C9AA09
+  L0_2 = L0_2.h
+  L0_2 = L0_2.FEVT_S2_SUB_041_TUTORIAL
+  L1_2 = L47_1.tnull
+  if L0_2 == L1_2 then
+    L0_2 = nil
+  end
+  if not L0_2 then
+    return
+  end
+  L1_2 = CF60AA88275CCB419
+  L1_2.S536FDBC6CB5DC856 = true
+  L1_2 = CF67A67452D018ECC
+  L1_2 = L1_2.SC8223E31D3163519
+  L1_2 = L1_2[2]
+  L2_2 = L1_2
+  L1_2 = L1_2.first
+  L1_2 = L1_2(L2_2)
+  if nil ~= L1_2 then
+    L2_2 = L1_2[11]
+    if 57 == L2_2 then
+      while true do
+        L3_2 = L1_2
+        L2_2 = L1_2.FD079E1CF944CF798
+        L2_2 = L2_2(L3_2)
+        L3_2 = E5918BECABEC63037
+        L3_2 = L3_2.Finished
+        if L2_2 == L3_2 then
+          break
+        end
+        L2_2 = CC6FE82819C6E1D55
+        L2_2 = L2_2.S12F63EE47FFCB183
+        L2_2()
+      end
+    end
+  end
+  L2_2 = CBB172410B8487694
+  L2_2 = L2_2.SA75F3CEBE4FA50E9
+  L2_2 = L2_2()
+  if L2_2 then
+    L2_2 = CF60AA88275CCB419
+    L2_2 = L2_2.SB4608CDB92A9661D
+    L2_2()
+  end
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CF60AA88275CCB419"]
+L69_1 = "SF451377135981572"
+
+function L70_1()
+  local L0_2, L1_2, L2_2
+  L0_2 = false
+  L1_2 = C10578806AC30DCA3
+  L1_2 = L1_2.S971699EB064C6350
+  L1_2 = L1_2.h
+  L1_2 = L1_2.WEVT_S2_SUB_041_CLEAR_TUTORIAL
+  L2_2 = L47_1.tnull
+  if L1_2 == L2_2 then
+    L1_2 = nil
+  end
+  if L1_2 <= 0 then
+    L0_2 = true
+  end
+  return L0_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CF60AA88275CCB419"]
+L69_1 = "SB4580C95B227D512"
+
+function L70_1()
+  local L0_2, L1_2
+  L0_2 = CF60AA88275CCB419
+  L0_2 = L0_2.S536FDBC6CB5DC856
+  return L0_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CF60AA88275CCB419"]
+L69_1 = "SCC481764E9704392"
+
+function L70_1()
+  local L0_2, L1_2
+  L0_2 = CE11918C067EAB545
+  L0_2 = L0_2.SCC481764E9704392
+  return L0_2()
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CF60AA88275CCB419"]
+L69_1 = "SBEE182F6FA8D94EC"
+
+function L70_1()
+  local L0_2, L1_2, L2_2, L3_2
+  L0_2 = C10578806AC30DCA3
+  L0_2 = L0_2.S971699EB064C6350
+  L0_2 = L0_2.h
+  L0_2 = L0_2.WEVT_S2_SUB_041_CLEAR_TUTORIAL
+  L1_2 = L47_1.tnull
+  if L0_2 == L1_2 then
+    L0_2 = nil
+  end
+  if not (L0_2 > 0) then
+    L1_2 = CF60AA88275CCB419
+    L1_2 = L1_2.S536FDBC6CB5DC856
+    if L1_2 then
+      goto lbl_16
+    end
+  end
+  do return end
+  ::lbl_16::
+  L1_2 = CF60AA88275CCB419
+  L1_2 = L1_2.SCF5412D0E6C1BD29
+  L2_2 = "_popup"
+  L3_2 = false
+  L1_2(L2_2, L3_2)
+  L1_2 = CF60AA88275CCB419
+  L1_2 = L1_2.SCF5412D0E6C1BD29
+  L2_2 = ""
+  L3_2 = true
+  L1_2(L2_2, L3_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CF60AA88275CCB419"]
+L69_1 = "SCF5412D0E6C1BD29"
+
+function L70_1(A0_2, A1_2)
+  local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
+  L2_2 = CDCBFD50A277E546D
+  L2_2 = L2_2.S0C6378C0E23B592D
+  L3_2 = L31_1.string
+  L4_2 = CF60AA88275CCB419
+  L4_2 = L4_2.S5AC55104B7D74252
+  L3_2 = L3_2(L4_2)
+  L4_2 = L31_1.string
+  L5_2 = A0_2
+  L4_2 = L4_2(L5_2)
+  L3_2 = L3_2 .. L4_2
+  L2_2 = L2_2(L3_2)
+  
+  function L3_2()
+    local L0_3, L1_3
+    L0_3 = nil
+    L1_3 = L2_2
+    if nil == L1_3 then
+      L0_3 = nil
+    else
+      L0_3 = L2_2.owner
+    end
+    return L0_3
+  end
+  
+  L3_2 = L3_2()
+  L4_2 = nil
+  L5_2 = c016374C1
+  L5_2 = L5_2.f8C7D4F4D
+  L6_2 = L3_2
+  L7_2 = L4_2
+  L5_2 = L5_2(L6_2, L7_2)
+  if L5_2 then
+    if not A1_2 then
+      L6_2 = L3_2
+      L5_2 = L3_2.fBE3B2D3B
+      L5_2(L6_2)
+      return
+    end
+    L6_2 = L3_2
+    L5_2 = L3_2.f47BAE49D
+    L5_2(L6_2)
+    while true do
+      L6_2 = L3_2
+      L5_2 = L3_2.f9D8BC178
+      L5_2 = L5_2(L6_2)
+      if L5_2 then
+        break
+      end
+      L5_2 = CC6FE82819C6E1D55
+      L5_2 = L5_2.S12F63EE47FFCB183
+      L5_2()
+    end
+  end
+end
+
+L68_1[L69_1] = L70_1

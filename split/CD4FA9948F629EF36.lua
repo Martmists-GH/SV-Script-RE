@@ -1,0 +1,61 @@
+L70_1 = _ENV["CD4FA9948F629EF36"]["S32FCD63E7D2F7A0D"]
+L68_1[L69_1] = L70_1
+L68_1 = CAAB8219B9360D02F
+L69_1 = "new"
+L70_1 = {}
+L68_1[L69_1] = L70_1
+L68_1 = CAAB8219B9360D02F
+L69_1 = "__name__"
+L68_1[L69_1] = "CAAB8219B9360D02F"
+L68_1 = CAAB8219B9360D02F
+L69_1 = "S32FCD63E7D2F7A0D"
+
+function L70_1(A0_2, A1_2, A2_2)
+  local L3_2, L4_2, L5_2, L6_2
+  L4_2 = A0_2
+  L3_2 = A0_2.fE9C29DA1
+  L3_2(L4_2)
+  L3_2 = C05D9E556B496A3DF
+  L3_2 = L3_2.SC8223E31D3163519
+  L4_2 = L3_2
+  L3_2 = L3_2.FC3D2216D65AB3173
+  L3_2(L4_2)
+  L3_2 = true
+  L4_2 = C05D9E556B496A3DF
+  L4_2 = L4_2.SC8223E31D3163519
+  L6_2 = L4_2
+  L5_2 = L4_2.FC3D2216D65AB3173
+  L5_2(L6_2)
+  L5_2 = L4_2[6]
+  L5_2 = L5_2.currentTimeZone
+  L6_2 = C8F93126DACB9F8DD
+  L6_2 = L6_2.S93A2C11A3020463D
+  L6_2 = L6_2.currentFieldId
+  L6_2 = L6_2[2]
+  L5_2 = L5_2[L6_2]
+  if 2 == L5_2 then
+    L3_2 = false
+  end
+  L6_2 = A0_2
+  L5_2 = A0_2.fE9C29DA1
+  L5_2 = L5_2(L6_2)
+  if "event_pos_talk_bed_daytime" == L5_2 then
+    return L3_2
+  else
+    L6_2 = A0_2
+    L5_2 = A0_2.fE9C29DA1
+    L5_2 = L5_2(L6_2)
+    if "event_pos_talk_bed_nighttime" == L5_2 then
+      L5_2 = not L3_2
+      return L5_2
+    end
+  end
+  L5_2 = true
+  return L5_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = L25_1.CAAB8219B9360D02F
+L69_1 = "S32FCD63E7D2F7A0D"
+L70_1 = CAAB8219B9360D02F["S32FCD63E7D2F7A0D"]
+L68_1[L69_1] = L70_1

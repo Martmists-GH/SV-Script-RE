@@ -1,0 +1,31 @@
+CFDE5B8FCCB68CEF2 = L15_1()
+
+function CFDE5B8FCCB68CEF2.new(A0_2, A1_2)
+  local L2_2, L3_2, L4_2, L5_2, L6_2
+  L2_2 = L2_1
+  L3_2 = CFDE5B8FCCB68CEF2
+  L3_2 = L3_2.prototype
+  L4_2 = 4
+  L5_2 = 0
+  L2_2 = L2_2(L3_2, L4_2, L5_2)
+  L3_2 = CFDE5B8FCCB68CEF2
+  L3_2 = L3_2.super
+  L4_2 = L2_2
+  L5_2 = A0_2
+  L6_2 = A1_2
+  L3_2(L4_2, L5_2, L6_2)
+  return L2_2
+end
+
+
+function CFDE5B8FCCB68CEF2.super(self, A1_2, A2_2)
+  C62533921BCA29002.super(self, 0)
+  self[3] = A1_2
+  self[4] = A2_2
+end
+
+CFDE5B8FCCB68CEF2.__name__ = "CFDE5B8FCCB68CEF2"
+CFDE5B8FCCB68CEF2.prototype = L15_1()
+CFDE5B8FCCB68CEF2.prototype.__class__ = CFDE5B8FCCB68CEF2
+CFDE5B8FCCB68CEF2.__super__ = C62533921BCA29002
+setmetatable(CFDE5B8FCCB68CEF2.prototype, {__index = C62533921BCA29002})

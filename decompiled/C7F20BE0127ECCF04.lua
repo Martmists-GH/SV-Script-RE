@@ -1,0 +1,39 @@
+L55_1 = _ENV
+L56_1 = "C7F20BE0127ECCF04"
+L57_1 = L15_1
+L57_1 = L57_1()
+L55_1[L56_1] = L57_1
+L68_1 = _ENV["C7F20BE0127ECCF04"]
+L69_1 = "new"
+L70_1 = {}
+L68_1[L69_1] = L70_1
+L68_1 = "C7F20BE0127ECCF04"
+L69_1 = _ENV["C7F20BE0127ECCF04"]
+L25_1[L68_1] = L69_1
+L68_1 = _ENV["C7F20BE0127ECCF04"]
+L69_1 = "__name__"
+L70_1 = "C7F20BE0127ECCF04"
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C7F20BE0127ECCF04"]
+L69_1 = "S58C7B23749538911"
+
+function L70_1(A0_2)
+  local L1_2
+  if 0 == A0_2 then
+    L1_2 = true
+    return L1_2
+  elseif 1 == A0_2 then
+    L1_2 = CC1081636C3CC0A56
+    L1_2 = L1_2.SEEC6DBF64C88CF6D
+    return L1_2()
+  elseif 2 == A0_2 then
+    L1_2 = CF7D2B7333A70FE46
+    L1_2 = L1_2.SF7B0E8D2C3C71E94
+    return L1_2()
+  else
+    L1_2 = false
+    return L1_2
+  end
+end
+
+L68_1[L69_1] = L70_1

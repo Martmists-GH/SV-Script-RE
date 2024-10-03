@@ -1,0 +1,245 @@
+L55_1 = _ENV
+L56_1 = "C0BBB2E5957694EB8"
+L57_1 = L15_1
+L57_1 = L57_1()
+L55_1[L56_1] = L57_1
+L68_1 = _ENV["C0BBB2E5957694EB8"]
+L69_1 = "new"
+
+function L70_1()
+  local L0_2, L1_2, L2_2, L3_2
+  L0_2 = L2_1
+  L1_2 = C0BBB2E5957694EB8
+  L1_2 = L1_2.prototype
+  L2_2 = 1
+  L3_2 = 5
+  L0_2 = L0_2(L1_2, L2_2, L3_2)
+  L1_2 = C0BBB2E5957694EB8
+  L1_2 = L1_2.super
+  L2_2 = L0_2
+  L1_2(L2_2)
+  return L0_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C0BBB2E5957694EB8"]
+L69_1 = "super"
+
+function L70_1(A0_2)
+  local L1_2
+  A0_2[1] = 0
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = "C0BBB2E5957694EB8"
+L69_1 = _ENV["C0BBB2E5957694EB8"]
+L25_1[L68_1] = L69_1
+L68_1 = _ENV["C0BBB2E5957694EB8"]
+L69_1 = "__name__"
+L70_1 = "C0BBB2E5957694EB8"
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C0BBB2E5957694EB8"]
+L69_1 = "prototype"
+L70_1 = L15_1
+L70_1 = L70_1()
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C0BBB2E5957694EB8"]["prototype"]
+L69_1 = "F96EA28F400597FA0"
+
+function L70_1(A0_2, A1_2, A2_2)
+  local L3_2, L4_2, L5_2
+  L4_2 = A1_2
+  L3_2 = A1_2.F6FCE9E4187792625
+  L5_2 = true
+  L3_2(L4_2, L5_2)
+  A0_2[1] = 0
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C0BBB2E5957694EB8"]["prototype"]
+L69_1 = "FEB6685558281F194"
+
+function L70_1(A0_2, A1_2)
+  local L2_2
+  L2_2 = 0
+  return L2_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C0BBB2E5957694EB8"]["prototype"]
+L69_1 = "F580006A3CE7932F5"
+
+function L70_1(A0_2, A1_2)
+  local L2_2, L3_2
+  L3_2 = A1_2
+  L2_2 = A1_2.F580006A3CE7932F5
+  L2_2 = L2_2(L3_2)
+  if L2_2 then
+    L2_2 = C3A36506FBC96ACBD
+    L2_2 = L2_2.SC6181320B46854EE
+    L3_2 = "PLAY_UI_COMMON_CANCEL"
+    L2_2(L3_2)
+    L2_2 = -1
+    return L2_2
+  end
+  L2_2 = 0
+  return L2_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C0BBB2E5957694EB8"]["prototype"]
+L69_1 = "FBB4E99B82241F57B"
+
+function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+  local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
+  L6_2 = cECD2E4A5
+  L6_2 = L6_2.fBCD0707E
+  L7_2 = A1_2
+  L8_2 = A2_2
+  L6_2 = L6_2(L7_2, L8_2)
+  L7_2 = nil
+  L8_2 = cCE2E0561
+  L8_2 = L8_2.f70AF3321
+  L9_2 = L6_2
+  L10_2 = L7_2
+  L8_2(L9_2, L10_2)
+  L9_2 = L6_2
+  L8_2 = L6_2.f7E178012
+  L10_2 = A3_2.scrollIndex
+  L8_2(L9_2, L10_2)
+  L9_2 = L6_2
+  L8_2 = L6_2.fD971E864
+  L10_2 = A3_2.cursorIndex
+  L11_2 = false
+  L8_2(L9_2, L10_2, L11_2)
+  L9_2 = L6_2
+  L8_2 = L6_2.f8139EB06
+  L10_2 = A4_2
+  L8_2(L9_2, L10_2)
+  L9_2 = L6_2
+  L8_2 = L6_2.fEDF77BF9
+  L10_2 = L55_1
+  L11_2 = A5_2
+  L12_2 = A5_2.F20590B3AE9412C63
+  L10_2, L11_2, L12_2, L13_2, L14_2 = L10_2(L11_2, L12_2)
+  L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
+  L9_2 = L6_2
+  L8_2 = L6_2.f1D8A575B
+  L10_2 = L55_1
+  L11_2 = A5_2
+  L12_2 = A5_2.FA1F40DD90B199B76
+  L10_2, L11_2, L12_2, L13_2, L14_2 = L10_2(L11_2, L12_2)
+  L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
+  L9_2 = L6_2
+  L8_2 = L6_2.f4F8C7B75
+  L10_2 = L55_1
+  L11_2 = A5_2
+  L12_2 = A5_2.F6BBC96EB151BA652
+  L10_2 = L10_2(L11_2, L12_2)
+  L11_2 = false
+  L12_2 = false
+  L8_2(L9_2, L10_2, L11_2, L12_2)
+  L9_2 = L6_2
+  L8_2 = L6_2.f05D9B2C0
+  L10_2 = false
+  L8_2(L9_2, L10_2)
+  L9_2 = L6_2
+  L8_2 = L6_2.f6F06128C
+  L8_2(L9_2)
+  L9_2 = L6_2
+  L8_2 = L6_2.f6277C172
+  L10_2 = true
+  L8_2(L9_2, L10_2)
+  L8_2 = C6CA03C429771C8F9
+  L8_2 = L8_2.SC4F944693AF2AA1B
+  L9_2 = L6_2
+  L10_2 = 1
+  L11_2 = 5
+  L12_2 = A3_2.cursorIndex
+  L13_2 = A3_2.scrollIndex
+  L14_2 = A3_2.cursorIndex
+  L13_2 = L13_2 + L14_2
+  L8_2(L9_2, L10_2, L11_2, L12_2, L13_2)
+  return L6_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C0BBB2E5957694EB8"]["prototype"]
+L69_1 = "FF3864380159B7410"
+
+function L70_1(A0_2, A1_2, A2_2, A3_2)
+  local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
+  L4_2 = cECD2E4A5
+  L4_2 = L4_2.fBC1D4AC0
+  L5_2 = A1_2
+  L6_2 = A2_2
+  L4_2 = L4_2(L5_2, L6_2)
+  L5_2 = nil
+  L6_2 = c27E0D07E
+  L6_2 = L6_2.fFC04274B
+  L7_2 = L4_2
+  L8_2 = L5_2
+  L6_2(L7_2, L8_2)
+  L7_2 = L4_2
+  L6_2 = L4_2.f6277C172
+  L8_2 = true
+  L6_2(L7_2, L8_2)
+  L7_2 = L4_2
+  L6_2 = L4_2.f5B89E0DB
+  L8_2 = true
+  L6_2(L7_2, L8_2)
+  L7_2 = L4_2
+  L6_2 = L4_2.f6F06128C
+  L6_2(L7_2)
+  L7_2 = L4_2
+  L6_2 = L4_2.f06E080B8
+  L8_2 = cEBF4B147
+  L8_2 = L8_2.f7AC1FE6B
+  L9_2 = 0
+  L10_2 = A3_2
+  L8_2 = L8_2(L9_2, L10_2)
+  L9_2 = true
+  L10_2 = false
+  L6_2(L7_2, L8_2, L9_2, L10_2)
+  return L4_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C0BBB2E5957694EB8"]["prototype"]
+L69_1 = _ENV["C0BBB2E5957694EB8"]
+L68_1.__class__ = L69_1
+L70_1 = _ENV["C0BBB2E5957694EB8"]
+L68_1[L69_1] = L70_1
+L72_1 = _ENV["C0BBB2E5957694EB8"]["prototype"]
+L70_1[L71_1] = L72_1
+L68_1(L69_1, L70_1)
+L70_1 = _ENV["C0BBB2E5957694EB8"]
+L68_1[L69_1] = L70_1
+L72_1 = _ENV["C0BBB2E5957694EB8"]["prototype"]
+L70_1[L71_1] = L72_1
+L68_1(L69_1, L70_1)
+L70_1 = _ENV["C0BBB2E5957694EB8"]
+L68_1[L69_1] = L70_1
+L72_1 = _ENV["C0BBB2E5957694EB8"]["prototype"]
+L70_1[L71_1] = L72_1
+L68_1(L69_1, L70_1)
+L70_1 = _ENV["C0BBB2E5957694EB8"]
+L68_1[L69_1] = L70_1
+L72_1 = _ENV["C0BBB2E5957694EB8"]["prototype"]
+L70_1[L71_1] = L72_1
+L68_1(L69_1, L70_1)
+L70_1 = _ENV["C0BBB2E5957694EB8"]
+L68_1[L69_1] = L70_1
+L72_1 = _ENV["C0BBB2E5957694EB8"]["prototype"]
+L70_1[L71_1] = L72_1
+L68_1(L69_1, L70_1)
+L70_1 = _ENV["C0BBB2E5957694EB8"]
+L68_1[L69_1] = L70_1
+L72_1 = _ENV["C0BBB2E5957694EB8"]["prototype"]
+L70_1[L71_1] = L72_1
+L68_1(L69_1, L70_1)
+L70_1 = _ENV["C0BBB2E5957694EB8"]
+L68_1[L69_1] = L70_1
+L72_1 = _ENV["C0BBB2E5957694EB8"]["prototype"]
+L70_1[L71_1] = L72_1
+L68_1(L69_1, L70_1)

@@ -1,0 +1,63 @@
+L68_1 = _ENV["C00E8BA7C665FD761"]
+L69_1 = "super"
+
+function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+  local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
+  L5_2 = CDA81F25BDF92D7DB
+  L5_2 = L5_2.super
+  L6_2 = A0_2
+  L7_2 = A1_2
+  L8_2 = A2_2
+  L9_2 = A3_2
+  L10_2 = A4_2
+  L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C00E8BA7C665FD761"]
+L69_1 = "__name__"
+L70_1 = "C00E8BA7C665FD761"
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C00E8BA7C665FD761"]
+L69_1 = "prototype"
+L70_1 = L15_1
+L70_1 = L70_1()
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C00E8BA7C665FD761"]["prototype"]
+L69_1 = "FD8D5F3745B4B5174"
+
+function L70_1(A0_2)
+  local L1_2, L2_2, L3_2, L4_2
+  L1_2 = CFA87C84135D35D24
+  L1_2 = L1_2.SC2CC353A02437669
+  L1_2()
+  L1_2 = C10578806AC30DCA3
+  L1_2 = L1_2.SBA6FF574C1C9AA09
+  L1_2 = L1_2.h
+  L1_2 = L1_2.FEVT_SDC02_0370_IN_CLASS1
+  L2_2 = L47_1.tnull
+  if L1_2 == L2_2 then
+    L1_2 = nil
+  end
+  if L1_2 then
+    L2_2 = C10578806AC30DCA3
+    L2_2 = L2_2.SBA6FF574C1C9AA09
+    L2_2 = L2_2.h
+    L2_2.FEVT_SDC02_0370_IN_CLASS1 = false
+    L2_2 = c37452BA0
+    L2_2 = L2_2.f4BEF3427
+    L3_2 = "FEVT_SDC02_0370_IN_CLASS1"
+    L4_2 = false
+    L2_2(L3_2, L4_2)
+  end
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C00E8BA7C665FD761"]["prototype"]
+L69_1 = _ENV["C00E8BA7C665FD761"]
+L68_1.__class__ = L69_1
+L68_1 = _ENV["C00E8BA7C665FD761"]
+L69_1 = "__super__"
+L69_1 = _ENV["C00E8BA7C665FD761"]["prototype"]
+L70_1 = {}
+L71_1 = "__index"

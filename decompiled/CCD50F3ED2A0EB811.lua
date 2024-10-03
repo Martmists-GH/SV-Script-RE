@@ -1,0 +1,56 @@
+L68_1 = _ENV["CCD50F3ED2A0EB811"]
+L69_1 = "new"
+L70_1 = {}
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CCD50F3ED2A0EB811"]
+L69_1 = "__name__"
+L70_1 = "CCD50F3ED2A0EB811"
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CCD50F3ED2A0EB811"]
+L69_1 = "S89FE3405208C2B36"
+
+function L70_1(A0_2, A1_2, A2_2)
+  local L3_2, L4_2
+  L4_2 = A0_2
+  L3_2 = A0_2.fE9C29DA1
+  L3_2 = L3_2(L4_2)
+  if "a_sch_2_clubroom_event_pos_tutorial" == L3_2 then
+    L3_2 = CCD50F3ED2A0EB811
+    L3_2 = L3_2.S202DF2C8B833F9F5
+    return L3_2()
+  end
+  L3_2 = true
+  return L3_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = "CCD50F3ED2A0EB811"
+L68_1 = L25_1[L68_1]
+L69_1 = "S89FE3405208C2B36"
+L70_1 = _ENV["CCD50F3ED2A0EB811"]["S89FE3405208C2B36"]
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["CCD50F3ED2A0EB811"]
+L69_1 = "S202DF2C8B833F9F5"
+
+function L70_1()
+  local L0_2, L1_2, L2_2
+  L0_2 = C10578806AC30DCA3
+  L0_2 = L0_2.SBA6FF574C1C9AA09
+  L0_2 = L0_2.h
+  L0_2 = L0_2.FSYS_CLUBROOM_PC_COACH
+  L1_2 = L47_1.tnull
+  if L0_2 == L1_2 then
+    L0_2 = nil
+  end
+  if not L0_2 then
+    L1_2 = C9AA363B3CCC264AA
+    L1_2 = L1_2.SA5B8258582A90EF3
+    L2_2 = "sdc02_0360"
+    return L1_2(L2_2)
+  else
+    L1_2 = false
+    return L1_2
+  end
+end
+
+L68_1[L69_1] = L70_1

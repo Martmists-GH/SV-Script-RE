@@ -1,0 +1,114 @@
+L55_1 = _ENV
+L56_1 = "C43AB6EF6BA95A900"
+L57_1 = L15_1
+L57_1 = L57_1()
+L55_1[L56_1] = L57_1
+L68_1 = _ENV["C43AB6EF6BA95A900"]
+L69_1 = "new"
+
+function L70_1(A0_2, A1_2, A2_2, A3_2)
+  local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
+  L4_2 = L2_1
+  L5_2 = C43AB6EF6BA95A900
+  L5_2 = L5_2.prototype
+  L6_2 = 34
+  L7_2 = 61
+  L4_2 = L4_2(L5_2, L6_2, L7_2)
+  L5_2 = C43AB6EF6BA95A900
+  L5_2 = L5_2.super
+  L6_2 = L4_2
+  L7_2 = A0_2
+  L8_2 = A1_2
+  L9_2 = A2_2
+  L10_2 = A3_2
+  L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
+  return L4_2
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C43AB6EF6BA95A900"]
+L69_1 = "super"
+
+function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+  local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
+  L5_2 = C20F5CD372AAAA08C
+  L5_2 = L5_2.super
+  L6_2 = A0_2
+  L7_2 = A1_2
+  L8_2 = A2_2
+  L9_2 = A3_2
+  L10_2 = A4_2
+  L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = "C43AB6EF6BA95A900"
+L69_1 = _ENV["C43AB6EF6BA95A900"]
+L25_1[L68_1] = L69_1
+L68_1 = _ENV["C43AB6EF6BA95A900"]
+L69_1 = "__name__"
+L70_1 = "C43AB6EF6BA95A900"
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C43AB6EF6BA95A900"]
+L69_1 = "prototype"
+L70_1 = L15_1
+L70_1 = L70_1()
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C43AB6EF6BA95A900"]["prototype"]
+L69_1 = "FD8D5F3745B4B5174"
+
+function L70_1(A0_2)
+  local L1_2, L2_2, L3_2, L4_2, L5_2
+  L1_2 = CDCBFD50A277E546D
+  L1_2 = L1_2.S0C6378C0E23B592D
+  L2_2 = "room02_npc_poke_base_No004"
+  L1_2 = L1_2(L2_2)
+  if nil == L1_2 then
+    return
+  end
+  L1_2 = C9B54BC04DD492B6D
+  L1_2 = L1_2.S12FD376DC11712C8
+  L2_2 = C43AB6EF6BA95A900
+  L2_2 = L2_2.S622834E631296FDF
+  L1_2(L2_2)
+  L1_2 = CDCBFD50A277E546D
+  L1_2 = L1_2.S50FC461CBDCA4B95
+  L2_2 = "Player"
+  L3_2 = "room02_npc_poke_base_No004"
+  L4_2 = "head"
+  L1_2(L2_2, L3_2, L4_2)
+  L1_2 = CDCBFD50A277E546D
+  L1_2 = L1_2.S38F4FBAC61A2A586
+  L2_2 = "Player"
+  L3_2 = "room02_npc_poke_base_No004"
+  L4_2 = 1.0
+  L5_2 = true
+  L1_2(L2_2, L3_2, L4_2, L5_2)
+  L1_2 = C9B54BC04DD492B6D
+  L1_2 = L1_2.S3EDC50DEB344C642
+  L2_2 = ""
+  L3_2 = "bbschool_clubroom_gorgeous_04"
+  L4_2 = C43AB6EF6BA95A900
+  L4_2 = L4_2.SCD75AB4DAD1AB1AB
+  L5_2 = 3
+  L1_2(L2_2, L3_2, L4_2, L5_2)
+  L1_2 = CDCBFD50A277E546D
+  L1_2 = L1_2.SDA9FAC3B251BA47A
+  L2_2 = "Player"
+  L1_2(L2_2)
+  L1_2 = C9B54BC04DD492B6D
+  L1_2 = L1_2.SEC5605D9D6B5E309
+  L2_2 = C43AB6EF6BA95A900
+  L2_2 = L2_2.S622834E631296FDF
+  L1_2(L2_2)
+end
+
+L68_1[L69_1] = L70_1
+L68_1 = _ENV["C43AB6EF6BA95A900"]["prototype"]
+L69_1 = _ENV["C43AB6EF6BA95A900"]
+L68_1.__class__ = L69_1
+L68_1 = _ENV["C43AB6EF6BA95A900"]
+L69_1 = "__super__"
+L69_1 = _ENV["C43AB6EF6BA95A900"]["prototype"]
+L70_1 = {}
+L71_1 = "__index"
