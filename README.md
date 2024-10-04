@@ -24,5 +24,6 @@ For hacktoberfest, we will accept any PR that handles a file (or even partially 
 
 ### Contributing Compute
 
-Want to contribute, but not confident in your skills? You can try running some code to help crack hashes over at [pkZukan/PokeDocs](https://github.com/pkZukan/PokeDocs/tree/main/SV/Hashlists/Lua)!
-The scripts to crack them are undocumented, but available for download here: [hashshit.7z](https://cdn.discordapp.com/attachments/1042884408568459324/1097188681871278090/hashshit.7z?ex=67001016&is=66febe96&hm=d910ef0b3d9f33982d6d5442b1827034eb24484d2d54cda250df8f0a2d06ed1b&)
+Want to contribute, but not confident in your skills? You can try running some code to help crack hashes over at [pkZukan/PokeDocs](https://github.com/pkZukan/PokeDocs/tree/main/SV/Hashlists/Lua)!    
+The scripts to crack them are undocumented, but available for download here: [hashshit.7z](https://cdn.discordapp.com/attachments/1042884408568459324/1097188681871278090/hashshit.7z?ex=67001016&is=66febe96&hm=d910ef0b3d9f33982d6d5442b1827034eb24484d2d54cda250df8f0a2d06ed1b&)    
+This will only find 64-bit hashes. Contributions to 32-bit hashes are welcome, but require much more confirmation (including from surrounding code) due to the high number of (possible) hash collisions.
