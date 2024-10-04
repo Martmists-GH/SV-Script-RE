@@ -1,12 +1,6 @@
-L55_1 = _ENV
-L56_1 = "CFCCAE499FFAB4DFD"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CFCCAE499FFAB4DFD"]
-L69_1 = "new"
+CFCCAE499FFAB4DFD = L15_1()
 
-function L70_1(A0_2, A1_2)
+function CFCCAE499FFAB4DFD.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CFCCAE499FFAB4DFD
@@ -23,44 +17,22 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFCCAE499FFAB4DFD"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
-  local L3_2, L4_2, L5_2
+function CFCCAE499FFAB4DFD.super(self, A1_2, A2_2)
   if nil == A2_2 then
     A2_2 = true
   end
   if nil == A1_2 then
     A1_2 = -1
   end
-  A0_2[4] = -1.0
-  A0_2[3] = false
-  L3_2 = C62533921BCA29002
-  L3_2 = L3_2.super
-  L4_2 = A0_2
-  L5_2 = 20
-  L3_2(L4_2, L5_2)
-  A0_2[4] = A1_2
-  A0_2[3] = A2_2
+  self[4] = -1.0
+  self[3] = false
+  C62533921BCA29002.super(self, 20)
+  self[4] = A1_2
+  self[3] = A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFCCAE499FFAB4DFD"]
-L69_1 = "__name__"
-L70_1 = "CFCCAE499FFAB4DFD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFCCAE499FFAB4DFD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFCCAE499FFAB4DFD"]["prototype"]
-L69_1 = _ENV["CFCCAE499FFAB4DFD"]
-L68_1.__class__ = L69_1
-L68_1 = _ENV["CFCCAE499FFAB4DFD"]
-L69_1 = "__super__"
-L69_1 = _ENV["CFCCAE499FFAB4DFD"]["prototype"]
-L70_1 = {}
-L71_1 = "__index"
+CFCCAE499FFAB4DFD.__name__ = "CFCCAE499FFAB4DFD"
+CFCCAE499FFAB4DFD.prototype = L15_1()
+CFCCAE499FFAB4DFD.prototype.__class__ = CFCCAE499FFAB4DFD
+CFCCAE499FFAB4DFD.__super__ = C62533921BCA29002
+setmetatable(CFCCAE499FFAB4DFD.prototype, {__index = C62533921BCA29002})
