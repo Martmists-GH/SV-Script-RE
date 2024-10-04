@@ -10,7 +10,7 @@ This repo is separate to try and stick to the latest version of the game (3.0.1 
 
 ### Contributing Code
 
-Choose a file in the `decompiled` folder, and try to restore it to readable lua. For an example, check out [CFF2F988D895214C3.lua](https://github.com/Martmists-GH/SV-Script-RE/blob/master/decompiled/CFF2F988D895214C3.lua)
+Choose a file in the `decompiled` folder, and try to restore it to readable lua. For an example, check out CFF2F988D895214C3.lua: [before](https://github.com/Martmists-GH/SV-Script-RE/blob/master/split/CFF2F988D895214C3.lua) and [after](https://github.com/Martmists-GH/SV-Script-RE/blob/master/decompiled/CFF2F988D895214C3.lua)
 
 - Do NOT replace the names of types/attributes! You can add them as comments, but not change them! The names in question can be found in `data/lua_names.h`
 - For any functions where the name starts with F (not S), rename `A0_2` to `self`
