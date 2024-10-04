@@ -24,6 +24,9 @@ function CA7CF9DA40689C95A.super(self, A1_2)
   CDC3F92928A2194E6.super(self, A1_2)
 end
 
+CA7CF9DA40689C95A.__name__ = "CA7CF9DA40689C95A"
+CA7CF9DA40689C95A.prototype = L15_1()
+
 function CA7CF9DA40689C95A.prototype.F7C68FEDB79AB6396(self, A1_2)  -- Setup
   local L2_2
   if nil ~= CA7CF9DA40689C95A.S264F26F6894F3392 then  -- Instance
