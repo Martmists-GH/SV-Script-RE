@@ -18,6 +18,7 @@ Choose a file in the `decompiled` folder, and try to restore it to readable lua.
 - You are allowed to take some liberties in behavior if you believe it helps readability
 - Some static attributes are not in their correct file (or in any file at all). If you wish to contribute these, you'll need to dig through `main.dumped.lua`.
 - If you are familiar with EmmyLua, you may add type comments. [CA7CF9DA40689C95A.lua](https://github.com/Martmists-GH/SV-Script-RE/blob/master/decompiled/CA7CF9DA40689C95A.lua) as well as everything in the `common` folder should be a decent starting point.
+  - This is not required, and only really helps thanks to the [Luanalysis](https://plugins.jetbrains.com/plugin/14698-luanalysis/versions/stable) IDE plugin.
 Contributions are also welcome for adding a way to look up mappings for the LXX_1 types/functions.
 
 For hacktoberfest, we will accept any PR that handles a file (or even partially for big files), no matter how small. This is simply because out of ~3500 files, only taking about 15 mins on average, this would still be way too much on my own.

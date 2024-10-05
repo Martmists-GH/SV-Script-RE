@@ -1,10 +1,14 @@
+---@class CFCD8C9056D1AB38B : CFCD8C9056D1AB38B_prototype
+---@field prototype CFCD8C9056D1AB38B_prototype
+---@field SA448FFDAA03F13F6 number  @ s_sceneState
+---@field SE8AA57EBB95DA538 fun():nil  @ s_onEndCallBack
 CFCD8C9056D1AB38B = L15_1()
 
 function CFCD8C9056D1AB38B.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CFCD8C9056D1AB38B
-  L2_2 = L2_2.prototype
+  L2_2 = L2_2_prototype
   L3_2 = 2
   L4_2 = 12
   L1_2 = L1_2(L2_2, L3_2, L4_2)
@@ -43,15 +47,20 @@ function CFCD8C9056D1AB38B.SC22C2773A68837D3(A0_2, A1_2)  -- SceneLoad
   return L2_2
 end
 
-function CFCD8C9056D1AB38B.prototype.F7C68FEDB79AB6396(self, A1_2)  -- Setup
+---@class CFCD8C9056D1AB38B_prototype : CDC3F92928A2194E6
+---@field [2] ti_Coroutine
+CFCD8C9056D1AB38B_prototype = L15_1()
+CFCD8C9056D1AB38B.prototype = CFCD8C9056D1AB38B_prototype
+
+function CFCD8C9056D1AB38B_prototype:F7C68FEDB79AB6396(A1_2)  -- Setup
   local L3_2, L4_2
-  CDC3F92928A2194E6.prototype.F7C68FEDB79AB6396(self, A1_2)  -- super.Setup(self, A1_2)
+  CDC3F92928A2194E6_prototype:F7C68FEDB79AB6396(A1_2)  -- super.Setup(self, A1_2)
   L3_2 = L55_1(self, self.FF7549BC4EA813FBA)  -- L55_1(self, self.SetupSequenceBase)
   L4_2 = L31_1.string(self[1]:f462C9B70():fE9C29DA1())  .. "_scene_setup_sequence"
   self[2] = C1DB14DCC9D7634FA.new(L3_2, L4_2)  -- ti.Coroutine.new(...)
 end
 
-function CFCD8C9056D1AB38B.prototype.FE94F3E13286232CF(self, A1_2)  -- PreUpdate
+function CFCD8C9056D1AB38B_prototype:FE94F3E13286232CF(A1_2)  -- PreUpdate
   local L2_2, L3_2, L4_2, L5_2, L7_2
   if nil ~= self[2] then
     if "dead" ~= L10_1.coroutine.status(L3_2) then
@@ -65,9 +74,8 @@ function CFCD8C9056D1AB38B.prototype.FE94F3E13286232CF(self, A1_2)  -- PreUpdate
   end
 end
 
-function CFCD8C9056D1AB38B.prototype.F1C2AA00ADAC52EC5(self)  -- Destroy
-  local L1_2, L2_2
-  CDC3F92928A2194E6.prototype.F1C2AA00ADAC52EC5(self)  -- super.Destroy(self)
+function CFCD8C9056D1AB38B_prototype:F1C2AA00ADAC52EC5()  -- Destroy
+  CDC3F92928A2194E6_prototype:F1C2AA00ADAC52EC5()  -- super.Destroy(self)
   if nil ~= CFCD8C9056D1AB38B.SE8AA57EBB95DA538 then  -- s_onEndCallBack
     CFCD8C9056D1AB38B.SE8AA57EBB95DA538()  -- s_onEndCallBack()
     CFCD8C9056D1AB38B.SE8AA57EBB95DA538 = nil  -- s_onEndCallBack = nil
@@ -75,18 +83,17 @@ function CFCD8C9056D1AB38B.prototype.F1C2AA00ADAC52EC5(self)  -- Destroy
   CFCD8C9056D1AB38B.SA448FFDAA03F13F6 = 0  -- s_sceneState = 0
 end
 
-function CFCD8C9056D1AB38B.prototype.FF7549BC4EA813FBA(self)  -- SetupSequenceBase
-  local L1_2, L2_2
+function CFCD8C9056D1AB38B_prototype:FF7549BC4EA813FBA()  -- SetupSequenceBase
   self:F155F52A5852449F8()  -- self:WaitSceneSetupSequence()
   self:F0E47A597FB435DB7()  -- self:SetupSequence()
   CFCD8C9056D1AB38B.SA448FFDAA03F13F6 = 2  -- s_sceneState = 2
 end
 
-function CFCD8C9056D1AB38B.prototype.F0E47A597FB435DB7(self)  -- SetupSequence
+function CFCD8C9056D1AB38B_prototype:F0E47A597FB435DB7()  -- SetupSequence
 
 end
 
-function CFCD8C9056D1AB38B.prototype.FB61F64E2486E1EC3(self, A1_2)  -- GetSceneObjectSequence
+function CFCD8C9056D1AB38B_prototype:FB61F64E2486E1EC3(A1_2)  -- GetSceneObjectSequence
   local L2_2
   self:F155F52A5852449F8()  -- self:WaitSceneSetupSequence()
   L2_2 = self[1]:f462C9B70():fD4E64AB7(A1_2)
@@ -96,7 +103,7 @@ function CFCD8C9056D1AB38B.prototype.FB61F64E2486E1EC3(self, A1_2)  -- GetSceneO
   return L2_2
 end
 
-function CFCD8C9056D1AB38B.prototype.FD1F2FC5D6118742C(self, A1_2, A2_2)  -- GetBehaviorSequence
+function CFCD8C9056D1AB38B_prototype:FD1F2FC5D6118742C(A1_2, A2_2)  -- GetBehaviorSequence
   local L3_2, L7_2
   self:F155F52A5852449F8()  -- self:WaitSceneSetupSequence()
   if c016374C1.f8C7D4F4D(A1_2, nil) then
@@ -119,7 +126,7 @@ function CFCD8C9056D1AB38B.prototype.FD1F2FC5D6118742C(self, A1_2, A2_2)  -- Get
   return L7_2
 end
 
-function CFCD8C9056D1AB38B.prototype.F155F52A5852449F8(self)  -- WaitSceneSetupSequence
+function CFCD8C9056D1AB38B_prototype:F155F52A5852449F8()  -- WaitSceneSetupSequence
   while not self[1]:f462C9B70():f48F8C7FF() do
     C1DB14DCC9D7634FA.S760DAE4C5371A78E()  -- ti.Coroutine.yield()
   end
@@ -128,6 +135,6 @@ function CFCD8C9056D1AB38B.prototype.F155F52A5852449F8(self)  -- WaitSceneSetupS
   end
 end
 
-CFCD8C9056D1AB38B.prototype.__class__ = CFCD8C9056D1AB38B
+CFCD8C9056D1AB38B_prototype.__class__ = CFCD8C9056D1AB38B
 CFCD8C9056D1AB38B.__super__ = CDC3F92928A2194E6
-setmetatable(CFCD8C9056D1AB38B.prototype, {__index = CDC3F92928A2194E6})
+setmetatable(CFCD8C9056D1AB38B_prototype, {__index = CDC3F92928A2194E6})
