@@ -1,4 +1,7 @@
--- main.playables.free_move.trig.LadderEventTrigger
+---@alias main_playables_free_move_trig_LadderEventTrigger CFD74BEB2381EA80F
+
+---@class CFD74BEB2381EA80F : CFD74BEB2381EA80F_prototype
+---@field prototype CFD74BEB2381EA80F_prototype
 CFD74BEB2381EA80F = L15_1()
 
 function CFD74BEB2381EA80F.new(A0_2)
@@ -17,6 +20,7 @@ function CFD74BEB2381EA80F.new(A0_2)
     return L1_2
 end
 
+---@param self CFD74BEB2381EA80F
 function CFD74BEB2381EA80F.super(self, A1_2)
   self[7] = nil
   self[6] = false
@@ -39,10 +43,14 @@ function CFD74BEB2381EA80F.SD40D3A64E8B633BD(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
+---@class CFD74BEB2381EA80F_prototype : CDC3F92928A2194E6
+---@field [4] number | nil
+---@field [5] number
+---@field [6] boolean
+CFD74BEB2381EA80F_prototype = L15_1()
+CFD74BEB2381EA80F.prototype = CFD74BEB2381EA80F_prototype
 
-CFD74BEB2381EA80F.prototype = L15_1()
-
-function CFD74BEB2381EA80F.prototype.F7C68FEDB79AB6396(self, A1_2)  -- Setup
+function CFD74BEB2381EA80F_prototype:F7C68FEDB79AB6396(A1_2)  -- Setup
   local L2_2, L3_2, L4_2, L7_2
   self[2] = cACBFA004.fB41FD22F(self[1])
   self[3] = self[2]:f317EB6F9("OnTriggered", 0.0, 9)
@@ -81,7 +89,7 @@ function CFD74BEB2381EA80F.prototype.F7C68FEDB79AB6396(self, A1_2)  -- Setup
   end
 end
 
-function CFD74BEB2381EA80F.prototype.F1C2AA00ADAC52EC5(self)  -- Destroy
+function CFD74BEB2381EA80F_prototype:F1C2AA00ADAC52EC5()  -- Destroy
   if cACBFA004.f05FAAF59(self[2], nil) then
     if self[3] >= 0 then
       self[2]:fFB78ACF1(self[3])
@@ -89,7 +97,7 @@ function CFD74BEB2381EA80F.prototype.F1C2AA00ADAC52EC5(self)  -- Destroy
   end
 end
 
-function CFD74BEB2381EA80F.prototype.F20A40E2F8B95D5F6(self, A1_2)  -- PostUpdate
+function CFD74BEB2381EA80F_prototype:F20A40E2F8B95D5F6(A1_2)  -- PostUpdate
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   L2_2 = self[7]
   if nil == L2_2 then
@@ -274,6 +282,6 @@ function CFD74BEB2381EA80F.prototype.F20A40E2F8B95D5F6(self, A1_2)  -- PostUpdat
   end
 end
 
-CFD74BEB2381EA80F.prototype.__class__ = CFD74BEB2381EA80F
+CFD74BEB2381EA80F_prototype.__class__ = CFD74BEB2381EA80F
 CFD74BEB2381EA80F.__super__ = CDC3F92928A2194E6
-setmetatable(CFD74BEB2381EA80F.prototype, {__index = CDC3F92928A2194E6})
+setmetatable(CFD74BEB2381EA80F_prototype, {__index = CDC3F92928A2194E6})

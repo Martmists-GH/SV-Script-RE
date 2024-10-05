@@ -1,7 +1,7 @@
 ---@class CFCD8C9056D1AB38B : CFCD8C9056D1AB38B_prototype
 ---@field prototype CFCD8C9056D1AB38B_prototype
 ---@field SA448FFDAA03F13F6 number  @ s_sceneState
----@field SE8AA57EBB95DA538 fun():nil  @ s_onEndCallBack
+---@field SE8AA57EBB95DA538 fun():void  @ s_onEndCallBack
 CFCD8C9056D1AB38B = L15_1()
 
 function CFCD8C9056D1AB38B.new(A0_2)

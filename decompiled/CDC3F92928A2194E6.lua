@@ -1,4 +1,5 @@
 ---@class CDC3F92928A2194E6 : CDC3F92928A2194E6_prototype
+---@field prototype CDC3F92928A2194E6_prototype
 CDC3F92928A2194E6 = L15_1()
 
 function CDC3F92928A2194E6.new(A0_2)
@@ -12,20 +13,21 @@ function CDC3F92928A2194E6.new(A0_2)
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
   L3_2 = L1_2
-  L4_2 = self
+  L4_2 = A0_2
   L2_2(L3_2, L4_2)
   return L1_2
 end
 
+---@param A1_2 c016374C1
 function CDC3F92928A2194E6.super(self, A1_2)
-  local L2_2
   self[1] = A1_2
-  L2_2 = self[1]:fB3CF1DEB()
+  local L2_2 = self[1]:fB3CF1DEB()
   C3B091777E3EC94A5.S3AB27FFAF33EFD2D.h[L2_2] = self  -- C3B091777E3EC94A5.s_behaviorMap.h[L2_2] = self
 end
 
 CDC3F92928A2194E6.__name__ = "CDC3F92928A2194E6"
 ---@class CDC3F92928A2194E6_prototype
+---@field [1] c016374C1
 CDC3F92928A2194E6_prototype = L15_1()
 CDC3F92928A2194E6.prototype = CDC3F92928A2194E6_prototype
 

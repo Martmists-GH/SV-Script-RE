@@ -1,0 +1,74 @@
+---@class c016374C1 : c016374C1_instance
+---@field f9F601543 fun(x:userdata):userdata
+---@field f4555D276 fun(x:c016374C1_instance,y:c016374C1_instance):boolean @ IsEqual
+---@field f8C7D4F4D fun(x:c016374C1_instance,y:c016374C1_instance):boolean @ NotEqual
+c016374C1 = {}  -- dummy
+
+---@class c016374C1_instance
+---@field fE9C29DA1 fun(self:self):string
+---@field f9D8BC178 fun(self:self):boolean
+---@field fCEC85AEA fun(self:self):boolean
+---@field f15F1C0A9 fun(self:self,x:number):void
+---@field f25A6D014 fun(self:self,x:number):void
+---@field fAE721668 fun(self:self):boolean
+---@field f12329E64 fun(self:self,x:boolean):void
+---@field fF713B0DE fun(self:self):boolean
+---@field fB8C54880 fun(self:self,x:boolean):void
+---@field fF5676EFB fun(self:self):boolean
+---@field f188CA001 fun(self:self,x:boolean):void
+---@field f12E5BA98 fun(self:self,x:userdata):void
+---@field f0D51F5EF fun(self:self):void
+---@field f730A66EA fun(self:self):userdata
+---@field f0C14D59D fun(self:self,y:userdata):void
+---@field f890242D9 fun(self:self):number,number,number
+---@field fFDBC8E95 fun(self:self,x:number,y:number,z:number):void
+---@field f16155D9E fun(self:self):userdata
+---@field f24032F87 fun(self:self,x:userdata):void
+---@field f750133BA fun(self:self):number,number,number
+---@field f8F2B0552 fun(self:self,x:number,y:number,z:number):void
+---@field f6BD9EADE fun(self:self):number,number,number
+---@field f64857644 fun(self:self):userdata
+---@field f7360ED03 fun(self:self):number,number,number
+---@field fB3CF1DEB fun(self:self):number
+---@field f48F8C7FF fun(self:self):boolean
+---@field f64E49307 fun(self:self):boolean
+---@field f900312E7 fun(self:self):boolean
+---@field f12EEAFA1 fun(self:self):boolean
+---@field f4D31CD40 fun(self:self,x:userdata):boolean
+---@field fE91E20CA fun(self:self,x:userdata,y:string):boolean
+---@field f5EF14AEC fun(self:self,x:userdata,y:string,z:string):boolean
+---@field f407CE2C1 fun(self:self):boolean
+---@field f59137F7B fun(self:self):boolean
+---@field f39363693 fun(self:self,x:boolean):void
+---@field fEE6872FD fun(self:self,x:boolean):number
+---@field f4ACBB933 fun(self:self,x:userdata):void
+---@field f908F485A fun(self:self,x:userdata):void
+---@field f5439788F fun(self:self,x:string):userdata
+---@field f5B268E4E fun(self:self):userdata
+---@field fE416B6CF fun(self:self,x:string):boolean
+---@field f3D77D31B fun(self:self,x:string):boolean
+---@field fDA1455DA fun(self:self,x:string):boolean
+---@field fC98FCA27 fun(self:self,x:number,y:number,z:number):void
+---@field fF5E56E95 fun(self:self,x:boolean):boolean
+---@field f345EDEA3 fun(self:self,x:number):boolean
+---@field fC94DC679 fun(self:self,x:string):boolean
+---@field f9F1F0AC1 fun(self:self,x:string,y:number):boolean
+---@field fD0C10D63 fun(self:self,x:string,y:number):boolean
+---@field f3DCFA517 fun(self:self):boolean
+---@field f954D4B3D fun(self:self):boolean
+---@field f7B96CB91 fun(self:self):boolean
+---@field f9341BE84 fun(self:self):boolean
+---@field fDB822EEA fun(self:self):boolean
+---@field f3BA1C55C fun(self:self,x:boolean):boolean
+---@field fCDCB600D fun(self:self,x:boolean):void
+---@field f462C9B70 fun(self:self):userdata
+---@field fBE3B2D3B fun(self:self):void
+---@field f47BAE49D fun(self:self):void
+---@field f6CF71CE1 fun(self:self,x:boolean):void
+---@field f20AB1FEA fun(self:self,x:string):userdata
+---@field f1C1435C7 fun(self:self,x:string,y:userdata):void
+---@field f1A1210C4 fun(self:self):userdata
+---@field fC5EBFE2B fun(self:self):boolean
+---@field fE10E6531 fun(self:self):string
+---@field f44E62C6A fun(self:self):boolean
+---@field f6A54C688 fun(self:self,x:boolean):void

@@ -21,7 +21,7 @@ function C1DB14DCC9D7634FA.new(A0_2, A1_2)
 end
 
 ---@param self C1DB14DCC9D7634FA
----@param func fun():nil
+---@param func fun():void
 ---@param A2_2? string
 function C1DB14DCC9D7634FA.super(self, func, A2_2)
   local L3_2

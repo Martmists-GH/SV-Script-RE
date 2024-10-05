@@ -1,4 +1,4 @@
-    function _hx_print_class(obj, depth)
+function _hx_print_class(obj, depth)
   local first = true
   local result = ''
   for k,v in pairs(obj) do
@@ -32,6 +32,9 @@ function _hx_print_enum(o, depth)
   end
 end
 
+---@param obj any
+---@param depth number
+---@return string
 function _hx_tostring(obj, depth)
   if depth == nil then
     depth = 0
