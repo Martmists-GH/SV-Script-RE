@@ -1,7 +1,7 @@
 ---@class cCF781FB6 : cCF781FB6_instance
 ---@field fEA155923 fun(x:cCF781FB6_instance,y:cCF781FB6_instance):boolean @ IsEqual
 ---@field f581990CA fun(x:cCF781FB6_instance,y:cCF781FB6_instance):boolean @ NotEqual
----@field fB41FD22F fun(x:c016374C1_instance):cCF781FB6_instance
+---@field fB41FD22F fun(x:c016374C1_instance):cCF781FB6
 cCF781FB6 = {}  -- dummy
 
 ---@class cCF781FB6_instance
