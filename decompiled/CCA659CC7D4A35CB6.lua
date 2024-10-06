@@ -57,7 +57,9 @@ CCA659CC7D4A35CB6.__name__ = "CCA659CC7D4A35CB6"
 ---@class CCA659CC7D4A35CB6_prototype : CDC3F92928A2194E6
 ---@field [2] number
 ---@field [3] number
+---@field [5] cECF00344
 ---@field [6] boolean
+---@field [8] cCF781FB6
 ---@field [9] boolean
 ---@field [10] boolean
 ---@field [11] boolean

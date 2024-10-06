@@ -7,7 +7,7 @@
 ---@field f101D811F fun():c1A00019C
 c1A00019C = {}  -- dummy
 
----@class c1A00019C_instance
+---@class c1A00019C_instance : userdata
 ---@field f8C8B6BB6 fun(self:self):void @ init
 ---@field fFB8C5B20 fun(self:self,number):void @ setSeed
 ---@field fF36600A1 fun(self:self):number @ getSeed

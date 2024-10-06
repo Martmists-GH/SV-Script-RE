@@ -2,6 +2,7 @@
 
 ---@class C1DB14DCC9D7634FA : C1DB14DCC9D7634FA_prototype
 ---@field prototype C1DB14DCC9D7634FA_prototype
+C1DB14DCC9D7634FA = L15_1()
 
 function C1DB14DCC9D7634FA.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
@@ -42,7 +43,7 @@ function C1DB14DCC9D7634FA.S760DAE4C5371A78E(A0_2)  -- yield
     C7BD28C2CE195DB4E.S7989B6DD56823279(false, "!Cannot yield main coroutine")
     return nil
   end
-  return L10_1.coroutine.yield(A0_2)
+  return coroutine.yield(A0_2)
 end
 
 ---@class C1DB14DCC9D7634FA_prototype

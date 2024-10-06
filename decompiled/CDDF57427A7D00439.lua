@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "CDDF57427A7D00439"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CDDF57427A7D00439"]
-L69_1 = "new"
+---@class CDDF57427A7D00439 : CDDF57427A7D00439_prototype
+---@field prototype CDDF57427A7D00439_prototype
 
-function L70_1()
+function CDDF57427A7D00439.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = CDDF57427A7D00439
@@ -21,171 +16,80 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]
-L69_1 = "super"
+function CDDF57427A7D00439.super(A0_2)
 
-function L70_1(A0_2)
-  local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]
-L69_1 = "__name__"
-L70_1 = "CDDF57427A7D00439"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = "F0DF962DC5F3D1606"
+CDDF57427A7D00439.__name__ = "CDDF57427A7D00439"
+---@class CDDF57427A7D00439_prototype
+---@field [2] number @ difficulty
+---@field [3] number @ raidType
+CDDF57427A7D00439_prototype = L15_1()
+CDDF57427A7D00439.prototype = CDDF57427A7D00439_prototype
 
-function L70_1(A0_2)
-  local L1_2
-  L1_2 = A0_2[1]
-  return L1_2
+function CDDF57427A7D00439_prototype:F0DF962DC5F3D1606()  -- get_pokemonParam
+  return self[1]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = "F876211023B033AA2"
-
-function L70_1(A0_2, A1_2)
-  local L2_2
-  A0_2[1] = A1_2
-  L2_2 = A0_2[1]
-  return L2_2
+function CDDF57427A7D00439_prototype:F876211023B033AA2(A1_2)  -- set_pokemonParam
+  self[1] = A1_2
+  return self[1]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = "F1531E7D8179E4F99"
-
-function L70_1(A0_2)
-  local L1_2
-  L1_2 = A0_2[2]
-  return L1_2
+function CDDF57427A7D00439_prototype:F1531E7D8179E4F99()  -- get_difficulty
+  return self[2]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = "F0392A68021ADD745"
-
-function L70_1(A0_2, A1_2)
-  local L2_2
-  A0_2[2] = A1_2
-  L2_2 = A0_2[2]
-  return L2_2
+---@param A1_2 number
+function CDDF57427A7D00439_prototype:F0392A68021ADD745(A1_2)  -- set_difficulty
+  self[2] = A1_2
+  return self[2]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = "F6262B293A0B7EE70"
-
-function L70_1(A0_2)
-  local L1_2
-  L1_2 = A0_2[3]
-  return L1_2
+function CDDF57427A7D00439_prototype:F6262B293A0B7EE70()  -- get_raidType
+  return self[3]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = "FE442A0685A56BCC4"
-
-function L70_1(A0_2, A1_2)
-  local L2_2
-  A0_2[3] = A1_2
-  L2_2 = A0_2[3]
-  return L2_2
+---@param A1_2 number
+function CDDF57427A7D00439_prototype:FE442A0685A56BCC4(A1_2)  -- set_raidType
+  self[3] = A1_2
+  return self[3]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = "F890AAAD3AC1305B7"
-
-function L70_1(A0_2)
-  local L1_2
-  L1_2 = A0_2[4]
-  return L1_2
+function CDDF57427A7D00439_prototype:F890AAAD3AC1305B7()  -- get_gemType
+  return self[4]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = "FC2CF17F5E5FFA073"
-
-function L70_1(A0_2, A1_2)
-  local L2_2
-  A0_2[4] = A1_2
-  L2_2 = A0_2[4]
-  return L2_2
+function CDDF57427A7D00439_prototype:FC2CF17F5E5FFA073(A1_2)  -- set_gemType
+  self[4] = A1_2
+  return self[4]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = "F428D40C254A2D6F1"
-
-function L70_1(A0_2)
-  local L1_2
-  L1_2 = A0_2[5]
-  return L1_2
+function CDDF57427A7D00439_prototype:F428D40C254A2D6F1()  -- get_raidTableId
+  return self[5]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = "F4800AB74969D55DD"
-
-function L70_1(A0_2, A1_2)
-  local L2_2
-  A0_2[5] = A1_2
-  L2_2 = A0_2[5]
-  return L2_2
+function CDDF57427A7D00439_prototype:F4800AB74969D55DD(A1_2)  -- set_raidTableId
+  self[5] = A1_2
+  return self[5]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = "FCE2D90679E416F96"
-
-function L70_1(A0_2)
-  local L1_2
-  L1_2 = A0_2[6]
-  return L1_2
+function CDDF57427A7D00439_prototype:FCE2D90679E416F96()  -- get_romVersion
+  return self[6]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = "F23486751282A8462"
-
-function L70_1(A0_2, A1_2)
-  local L2_2
-  A0_2[6] = A1_2
-  L2_2 = A0_2[6]
-  return L2_2
+function CDDF57427A7D00439_prototype:F23486751282A8462(A1_2)  -- set_romVersion
+  self[6] = A1_2
+  return self[6]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = "F63AB4F48B96C11D9"
-
-function L70_1(A0_2)
-  local L1_2
-  L1_2 = A0_2[7]
-  return L1_2
+function CDDF57427A7D00439_prototype:F63AB4F48B96C11D9(A0_2)
+  return A0_2[7]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = "FBC7AA7DA0B3893B5"
-
-function L70_1(A0_2, A1_2)
-  local L2_2
+function CDDF57427A7D00439_prototype:FBC7AA7DA0B3893B5(A0_2, A1_2)
   A0_2[7] = A1_2
-  L2_2 = A0_2[7]
-  return L2_2
+  return A0_2[7]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDF57427A7D00439"]["prototype"]
-L69_1 = _ENV["CDDF57427A7D00439"]
-L68_1.__class__ = L69_1
+CDDF57427A7D00439_prototype.__class__ = CDDF57427A7D00439

@@ -454,7 +454,7 @@ function L70_1(A0_2)
         L19_2 = 0
       end
       L20_2 = cA20E9FCA
-      L20_2 = L20_2.fB227A435
+        L20_2 = L20_2.fB227A435
       L21_2 = L15_2.BossPokeDataBattle
       L22_2 = true
       L23_2 = L19_2

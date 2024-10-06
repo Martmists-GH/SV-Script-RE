@@ -34,21 +34,19 @@ function CFD3A32F84D0BD550.prototype.F7C68FEDB79AB6396(self, A1_2)  -- Setup
 end
 
 function CFD3A32F84D0BD550.prototype.F5E756D25D8918E82(self, A1_2)  -- SetCount
-  local L2_2, L3_2
-  L2_2 = cB3DDDC2A.f5B6373D5()
+  local L2_2 = cB3DDDC2A.f5B6373D5()
   if A1_2 > 0 then
     self[2]:fB4E9D030("up_num")
   end
   L2_2:fABEB9F55(0, A1_2, 3, 0, 1)
-  L3_2 = L2_2:f39DD249C(c8C3BF576.fC8CEF9EF("btl_dan", "msg_ui_btl_dan_ko_01"))
+  local L3_2 = L2_2:f39DD249C(c8C3BF576.fC8CEF9EF("btl_dan", "msg_ui_btl_dan_ko_01"))
   c8C3BF576.f316077B2(self[1], "T_ko_00", L3_2)
 end
 
 function CFD3A32F84D0BD550.prototype.FE2C8458490BEDDC0(self, A1_2)  -- SetScoreGoal
-  local L2_2, L3_2
-  L2_2 = cB3DDDC2A.f5B6373D5()
+  local L2_2 = cB3DDDC2A.f5B6373D5()
   L2_2:fABEB9F55(1, A1_2, 2, 0, 1)
-  L3_2 = L2_2:f39DD249C(c8C3BF576.fC8CEF9EF("btl_dan", "msg_ui_btl_dan_ko_02"))
+  local L3_2 = L2_2:f39DD249C(c8C3BF576.fC8CEF9EF("btl_dan", "msg_ui_btl_dan_ko_02"))
   c8C3BF576.f316077B2(self[1], "T_denomi_00", L3_2)
 end
 

@@ -27,7 +27,7 @@ end
 
 CDC3F92928A2194E6.__name__ = "CDC3F92928A2194E6"
 ---@class CDC3F92928A2194E6_prototype
----@field [1] c016374C1
+---@field [1] c016374C1 @ sceneObject
 CDC3F92928A2194E6_prototype = L15_1()
 CDC3F92928A2194E6.prototype = CDC3F92928A2194E6_prototype
 

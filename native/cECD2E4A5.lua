@@ -1,0 +1,24 @@
+---@class cECD2E4A5 : userdata
+---@field f06879EA9 fun(x:userdata,y:userdata):boolean @ IsEqual
+---@field f65592D0F fun(x:userdata,y:userdata):boolean @ NotEqual
+---@field fDA97C891 fun(x:userdata,y:string):userdata
+---@field f6906455E fun(x:userdata,y:string):userdata
+---@field f2E7EAB77 fun(x:userdata,y:string):userdata
+---@field f2C9293F5 fun(x:userdata,y:string):userdata
+---@field fD4E920D9 fun(x:userdata,y:string):userdata
+---@field fBCD0707E fun(x:userdata,y:string):userdata
+---@field fBC1D4AC0 fun(x:userdata,y:string):userdata
+---@field f6CE5A900 fun(x:userdata,y:string):c3FAF3463
+---@field f0318E058 fun(x:userdata,y:string):userdata
+---@field fAD5AE364 fun(x:userdata,y:string):userdata
+---@field fF3AEC363 fun(x:userdata,y:string):userdata
+---@field f434C80AA fun(x:userdata,y:string):userdata
+---@field f489BB3D8 fun(x:userdata,y:string):userdata
+---@field fBF9BB78D fun(x:userdata,y:string):userdata
+---@field fE87AA76A fun(x:userdata,y:string):userdata
+---@field f244F18FE fun(x:userdata,y:string):userdata
+---@field fF6377709 fun(x:userdata,y:string):userdata
+---@field fAF8E1F3E fun(x:userdata,y:string):userdata
+---@field f5DC4C116 fun(x:userdata,y:string):userdata
+---@field fB31C121E fun(x:userdata,y:string):userdata
+cECD2E4A5 = {}  -- dummy

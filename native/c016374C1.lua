@@ -4,7 +4,7 @@
 ---@field f8C7D4F4D fun(x:c016374C1_instance,y:c016374C1_instance):boolean @ NotEqual
 c016374C1 = {}  -- dummy
 
----@class c016374C1_instance
+---@class c016374C1_instance : userdata
 ---@field fE9C29DA1 fun(self:self):string
 ---@field f9D8BC178 fun(self:self):boolean
 ---@field fCEC85AEA fun(self:self):boolean

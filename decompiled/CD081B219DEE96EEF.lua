@@ -1,213 +1,70 @@
-L55_1 = _ENV
-L56_1 = "CD081B219DEE96EEF"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "__name__"
-L70_1 = "CD081B219DEE96EEF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S05EDF33FC818F6B8"
+---@class CD081B219DEE96EEF
+CD081B219DEE96EEF = L15_1()
+CD081B219DEE96EEF.new = {}
+CD081B219DEE96EEF.__name__ = "CD081B219DEE96EEF"
 
-function L70_1()
-  local L0_2, L1_2
-  L0_2 = c1A1CBE3B
-  L0_2 = L0_2.fFCE06E04
-  L0_2 = L0_2()
-  L1_2 = L0_2
-  L0_2 = L0_2.f62782BA1
-  return L0_2(L1_2)
+---@return number
+function CD081B219DEE96EEF.S05EDF33FC818F6B8()
+  return c1A1CBE3B.fFCE06E04():f62782BA1()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SF545D047AFAACB1D"
-
-function L70_1()
-  local L0_2, L1_2
-  L0_2 = cCDB92DE8
-  L0_2 = L0_2.fBC5E099E
-  L1_2 = true
-  return L0_2(L1_2)
+---@return number
+function CD081B219DEE96EEF.SF545D047AFAACB1D()  -- BoxGetCount
+  return cCDB92DE8.fBC5E099E(true)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S06490EFCEE19A116"
-
-function L70_1()
-  local L0_2, L1_2, L2_2
-  L0_2 = c1A1CBE3B
-  L0_2 = L0_2.fFCE06E04
-  L0_2 = L0_2()
-  L1_2 = L0_2
-  L0_2 = L0_2.f62782BA1
-  L0_2 = L0_2(L1_2)
-  L1_2 = L0_2 < 0
-  if false ~= L1_2 then
-    return L1_2
+function CD081B219DEE96EEF.S06490EFCEE19A116()  -- PartyIsFull
+  local L0_2 = c1A1CBE3B.fFCE06E04():f62782BA1()
+  if false ~= L0_2 < 0 then
+    return true
   else
-    L2_2 = L0_2 >= 6
-    return L2_2
+    return L0_2 >= 6
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SA692AE1D2BA4EEBF"
-
-function L70_1()
-  local L0_2, L1_2
-  L0_2 = cCDB92DE8
-  L0_2 = L0_2.f8A06ABD7
-  L0_2 = L0_2()
-  L0_2 = 0 == L0_2
-  return L0_2
+function CD081B219DEE96EEF.SA692AE1D2BA4EEBF()  -- BoxIsFull
+  return cCDB92DE8.f8A06ABD7() == 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S5FB6BAE359234DB0"
-
-function L70_1()
-  local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
-  L0_2 = CD081B219DEE96EEF
-  L0_2 = L0_2.SA692AE1D2BA4EEBF
-  L0_2 = L0_2()
-  if L0_2 then
-    L0_2 = CD081B219DEE96EEF
-    L0_2 = L0_2.S06490EFCEE19A116
-    L0_2 = L0_2()
-    if L0_2 then
-      L0_2 = c8C3BF576
-      L0_2 = L0_2.f58A93CBE
-      L1_2 = "message/dat/JPN/script/field_event.dat"
-      L0_2 = L0_2(L1_2)
+function CD081B219DEE96EEF.S5FB6BAE359234DB0()
+  if CD081B219DEE96EEF.SA692AE1D2BA4EEBF() then  -- BoxIsFull()
+    if CD081B219DEE96EEF.S06490EFCEE19A116() then  -- PartyIsFull
+      local L0_2 = c8C3BF576.f58A93CBE("message/dat/JPN/script/field_event.dat")
       if not L0_2 then
-        L1_2 = c8C3BF576
-        L1_2 = L1_2.f49D44378
-        L2_2 = "message/dat/JPN/script/field_event.dat"
-        L1_2(L2_2)
-        while true do
-          L1_2 = c8C3BF576
-          L1_2 = L1_2.f58A93CBE
-          L2_2 = "message/dat/JPN/script/field_event.dat"
-          L1_2 = L1_2(L2_2)
-          if L1_2 then
-            break
-          end
-          L1_2 = CC6FE82819C6E1D55
-          L1_2 = L1_2.S12F63EE47FFCB183
-          L1_2()
+        c8C3BF576.f49D44378("message/dat/JPN/script/field_event.dat")
+        while not c8C3BF576.f58A93CBE("message/dat/JPN/script/field_event.dat") do
+          CC6FE82819C6E1D55.S12F63EE47FFCB183()  -- CC6FE82819C6E1D55.Suspend()
         end
       end
-      L1_2 = C9B54BC04DD492B6D
-      L1_2 = L1_2.S3EDC50DEB344C642
-      L2_2 = ""
-      L3_2 = "msg_fld_ev_boxfull_01"
-      L4_2 = "field_event"
-      L5_2 = 3
-      L1_2(L2_2, L3_2, L4_2, L5_2)
-      L1_2 = C9B54BC04DD492B6D
-      L1_2 = L1_2.S7C91080775560DF8
-      L1_2()
+      C9B54BC04DD492B6D.S3EDC50DEB344C642("", "msg_fld_ev_boxfull_01", "field_event", 3)  -- C9B54BC04DD492B6D.ShowCharaMessage
+      C9B54BC04DD492B6D.S7C91080775560DF8()  -- C9B54BC04DD492B6D.MessageClose
       if not L0_2 then
-        L1_2 = c8C3BF576
-        L1_2 = L1_2.f4902875F
-        L2_2 = "message/dat/JPN/script/field_event.dat"
-        L1_2(L2_2)
+        c8C3BF576.f4902875F("message/dat/JPN/script/field_event.dat")
       end
-      L1_2 = true
-      return L1_2
+      return true
     end
   end
-  L0_2 = false
-  return L0_2
+  return false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S8AB35B082A13663C"
-
-function L70_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = CD081B219DEE96EEF
-  L2_2 = L2_2.S06490EFCEE19A116
-  L2_2 = L2_2()
-  if L2_2 then
-    L2_2 = -1
-    return L2_2
+function CD081B219DEE96EEF.S8AB35B082A13663C(monsNo, level)  -- PartyAddMember
+  if CD081B219DEE96EEF.S06490EFCEE19A116() then  -- PartyIsFull()
+    return -1
   end
-  L2_2 = cC99399C3
-  L2_2 = L2_2.f101D811F
-  L2_2 = L2_2()
-  L4_2 = L2_2
-  L3_2 = L2_2.f2247607A
-  L5_2 = A0_2
-  L3_2(L4_2, L5_2)
-  L4_2 = L2_2
-  L3_2 = L2_2.f02983AD3
-  L5_2 = A1_2
-  L3_2(L4_2, L5_2)
-  L3_2 = c113335A8
-  L3_2 = L3_2.f7AC1FE6B
-  L4_2 = L2_2
-  L3_2 = L3_2(L4_2)
-  L4_2 = C764E5AE41553760D
-  L4_2 = L4_2.S9690841ED751ADD5
-  L4_2 = L4_2()
-  L5_2 = L4_2
-  L4_2 = L4_2.fDAAAA586
-  L6_2 = 1
-  L4_2 = L4_2(L5_2, L6_2)
-  if 0 == L4_2 then
-    L5_2 = L3_2
-    L4_2 = L3_2.fB762BF0A
-    L6_2 = L52_1.__cast
-    L8_2 = L3_2
-    L7_2 = L3_2.f9C8A5147
-    L7_2 = L7_2(L8_2)
-    L8_2 = L19_1
-    L6_2, L7_2, L8_2 = L6_2(L7_2, L8_2)
-    L4_2(L5_2, L6_2, L7_2, L8_2)
+  local L2_2 = cC99399C3.f101D811F()
+  L2_2:f2247607A(monsNo)  -- setMonsNo
+  L2_2:f02983AD3(level)  -- setLevel
+  local L3_2 = c113335A8.f7AC1FE6B(L2_2)
+  if 0 == C764E5AE41553760D.S9690841ED751ADD5():fDAAAA586(1) then  -- main.util.RandomUtility.get_Rng():nextInt(1)
+    L3_2:fB762BF0A(L52_1.__cast(L3_2:f9C8A5147(), L19_1))
   else
-    L5_2 = L3_2
-    L4_2 = L3_2.fB762BF0A
-    L6_2 = L52_1.__cast
-    L8_2 = L3_2
-    L7_2 = L3_2.f8E3FFEA9
-    L7_2 = L7_2(L8_2)
-    L8_2 = L19_1
-    L6_2, L7_2, L8_2 = L6_2(L7_2, L8_2)
-    L4_2(L5_2, L6_2, L7_2, L8_2)
+    L3_2:fB762BF0A(L52_1.__cast(L3_2:f8E3FFEA9(), L19_1))
   end
-  L4_2 = c1A1CBE3B
-  L4_2 = L4_2.fFCE06E04
-  L4_2 = L4_2()
-  L5_2 = L4_2
-  L4_2 = L4_2.f9E160020
-  L6_2 = L3_2
-  L4_2(L5_2, L6_2)
-  L4_2 = c1A1CBE3B
-  L4_2 = L4_2.fFCE06E04
-  L4_2 = L4_2()
-  L5_2 = L4_2
-  L4_2 = L4_2.f62782BA1
-  L4_2 = L4_2(L5_2)
-  L4_2 = L4_2 - 1
-  return L4_2
+  c1A1CBE3B.fFCE06E04():f9E160020(L3_2)
+  return c1A1CBE3B.fFCE06E04():f62782BA1() - 1
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S0B6FD2094ABC3D19"
-
-function L70_1(A0_2)
+function CD081B219DEE96EEF.S0B6FD2094ABC3D19(A0_2)  -- PartyRemoveMember
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.fFCE06E04
@@ -272,623 +129,265 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S439C45A4439DE3BB"
 
-function L70_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2
+function CD081B219DEE96EEF.S439C45A4439DE3BB(monsNo, A1_2)  -- PartySearchMonsNo
   if nil == A1_2 then
     A1_2 = 0
   end
-  L2_2 = CD081B219DEE96EEF
-  L2_2 = L2_2.SFCD07C3AC54C6D17
-  
-  function L3_2(A0_3)
-    local L1_3, L2_3
-    L2_3 = A0_3
-    L1_3 = A0_3.f0BD5134F
-    L1_3 = L1_3(L2_3)
-    L2_3 = A0_2
-    L1_3 = L1_3 == L2_3
-    return L1_3
+
+  local function L3_2(A0_3)
+    return A0_3:f0BD5134F() == monsNo
   end
   
-  L4_2 = A1_2
-  return L2_2(L3_2, L4_2)
+  return CD081B219DEE96EEF.SFCD07C3AC54C6D17(L3_2, A1_2)  -- partySearch(L3_2, A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SEF1141C17C900C0F"
-
-function L70_1(A0_2)
-  local L1_2, L2_2
-  L1_2 = CD081B219DEE96EEF
-  L1_2 = L1_2.SFCD07C3AC54C6D17
-  
-  function L2_2(A0_3)
-    local L1_3, L2_3
-    L2_3 = A0_3
-    L1_3 = A0_3.f9C8A5147
-    L1_3 = L1_3(L2_3)
-    L2_3 = A0_2
-    if L1_3 ~= L2_3 then
-      L2_3 = A0_3
-      L1_3 = A0_3.f8E3FFEA9
-      L1_3 = L1_3(L2_3)
-      L2_3 = A0_2
-      L1_3 = L1_3 == L2_3
-      return L1_3
+function CD081B219DEE96EEF.SEF1141C17C900C0F(type)  -- PartySearchType
+  local function L2_2(A0_3)
+    if A0_3:f9C8A5147() ~= type then
+      return A0_3:f8E3FFEA9() == type
     else
-      L1_3 = true
-      return L1_3
+      return true
     end
   end
   
-  return L1_2(L2_2)
+  return CD081B219DEE96EEF.SFCD07C3AC54C6D17(L2_2)  -- partySearch(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SE65929781412A839"
-
-function L70_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2
+function CD081B219DEE96EEF.SE65929781412A839(tokuseiNo, A1_2)  -- PartySearchTokusei
   if nil == A1_2 then
     A1_2 = 0
   end
-  L2_2 = CD081B219DEE96EEF
-  L2_2 = L2_2.SFCD07C3AC54C6D17
   
-  function L3_2(A0_3)
-    local L1_3, L2_3
-    L2_3 = A0_3
-    L1_3 = A0_3.f62C8C6A6
-    L1_3 = L1_3(L2_3)
-    L2_3 = A0_2
-    L1_3 = L1_3 == L2_3
-    return L1_3
+  local function L3_2(A0_3)
+    return A0_3:f62C8C6A6() == tokuseiNo
   end
   
-  L4_2 = A1_2
-  return L2_2(L3_2, L4_2)
+  return CD081B219DEE96EEF.SFCD07C3AC54C6D17(L3_2, A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SEF2659A8F87BA69E"
-
-function L70_1(A0_2, A1_2)
-  local L2_2, L3_2
+function CD081B219DEE96EEF.SEF2659A8F87BA69E(wazaNo, A1_2)  -- PartySearchWaza
   if nil == A1_2 then
     A1_2 = 0
   end
-  L2_2 = CD081B219DEE96EEF
-  L2_2 = L2_2.SFCD07C3AC54C6D17
-  
-  function L3_2(A0_3)
-    local L1_3, L2_3, L3_3
-    L2_3 = A0_3
-    L1_3 = A0_3.f1FBDE290
-    L3_3 = A0_2
-    return L1_3(L2_3, L3_3)
+
+  local function L3_2(A0_3)
+    return A0_3:f1FBDE290() == wazaNo
   end
   
-  return L2_2(L3_2)
+  return CD081B219DEE96EEF.SFCD07C3AC54C6D17(L3_2)  -- partySearch(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SB01730DCF0828063"
-
-function L70_1(A0_2)
-  local L1_2, L2_2
-  if nil == A0_2 then
-    A0_2 = false
+function CD081B219DEE96EEF.SB01730DCF0828063(mustBeAlive)  -- PartySearchReadyPoke
+  if nil == mustBeAlive then
+    mustBeAlive = false
   end
-  L1_2 = CD081B219DEE96EEF
-  L1_2 = L1_2.SFCD07C3AC54C6D17
   
-  function L2_2(A0_3)
-    local L1_3, L2_3, L3_3
-    L2_3 = A0_3
-    L1_3 = A0_3.fCE2A7CF8
-    L3_3 = 2
-    L1_3 = L1_3(L2_3, L3_3)
-    if L1_3 then
-      L1_3 = false
-      return L1_3
+  local function L2_2(A0_3)
+    if A0_3:fCE2A7CF8(2) then
+      return false
     else
-      L1_3 = nil
-      L2_3 = A0_2
-      if L2_3 then
-        L3_3 = A0_3
-        L2_3 = A0_3.fB00EF8D7
-        L2_3 = L2_3(L3_3)
-        
-        function L3_3()
-          local L0_4, L1_4
-          L0_4 = nil
-          L1_4 = L2_3
-          L1_4 = L1_4 < 0
-          if false ~= L1_4 then
-            L0_4 = false
-          else
-            L1_4 = L2_3
-            L0_4 = L1_4 <= 0
-          end
-          return L0_4
-        end
-        
-        L3_3 = L3_3()
-        L1_3 = L3_3
+      local L1_3
+
+      if mustBeAlive then
+        L1_3 = A0_3:fB00EF8D7() < 0
       else
         L1_3 = false
       end
       if L1_3 then
-        L2_3 = false
-        return L2_3
+        return false
       end
     end
-    L1_3 = true
-    return L1_3
+    return true
   end
   
-  return L1_2(L2_2)
+  return CD081B219DEE96EEF.SFCD07C3AC54C6D17(L2_2)  -- partySearch(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S50282B5D228B5A7F"
+function CD081B219DEE96EEF.S50282B5D228B5A7F(partyIdx)  -- PokePartyIsOwner
+  if partyIdx > 5 or partyIdx < 0 then
+    return false
+  end
+  local L1_2 = c1A1CBE3B.fFCE06E04()
+  local L3_2 = L1_2:f62782BA1() < 0
 
-function L70_1(A0_2)
-  local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  if A0_2 > 5 or A0_2 < 0 then
-    L1_2 = false
-    return L1_2
+  local L4_2
+  if L3_2 ~= partyIdx < 0 then
+    L4_2 = L3_2
+  else
+    L4_2 = L1_2:f62782BA1() > partyIdx
   end
-  L1_2 = c1A1CBE3B
-  L1_2 = L1_2.fFCE06E04
-  L1_2 = L1_2()
-  L3_2 = L1_2
-  L2_2 = L1_2.f62782BA1
-  L2_2 = L2_2(L3_2)
-  L3_2 = L2_2 < 0
-  
-  function L4_2()
-    local L0_3, L1_3, L2_3
-    L0_3 = nil
-    L1_3 = L3_2
-    L2_3 = A0_2
-    L2_3 = L2_3 < 0
-    if L1_3 ~= L2_3 then
-      L0_3 = L3_2
-    else
-      L1_3 = L2_2
-      L2_3 = A0_2
-      L0_3 = L1_3 > L2_3
-    end
-    return L0_3
-  end
-  
-  L4_2 = L4_2()
+
   if L4_2 then
-    L5_2 = L1_2
-    L4_2 = L1_2.fFD034BC3
-    L6_2 = A0_2
-    L4_2 = L4_2(L5_2, L6_2)
-    L5_2 = L4_2
-    L4_2 = L4_2.f7DE73858
-    return L4_2(L5_2)
+    return L1_2:fFD034BC3(partyIdx):f7DE73858()
   end
-  L4_2 = false
-  return L4_2
+  return false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SB3EA969DC0DE0AF8"
+function CD081B219DEE96EEF.SB3EA969DC0DE0AF8(partyIdx, wazaIdx)  -- PokePartyGetWazaID
+  if partyIdx > 5 or partyIdx < 0 then
+    return -1
+  end
+  if wazaIdx > 3 or wazaIdx < 0 then
+    return -1
+  end
+  local L2_2 = c1A1CBE3B.fFCE06E04()
+  local L4_2 = L2_2:f62782BA1() < 0
 
-function L70_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  if A0_2 > 5 or A0_2 < 0 then
-    L2_2 = -1
-    return L2_2
+  local L5_2
+  if L4_2 ~= partyIdx < 0 then
+    L5_2 = L4_2
+  else
+    L5_2 = L2_2:f62782BA1() > partyIdx
   end
-  if A1_2 > 3 or A1_2 < 0 then
-    L2_2 = -1
-    return L2_2
-  end
-  L2_2 = c1A1CBE3B
-  L2_2 = L2_2.fFCE06E04
-  L2_2 = L2_2()
-  L4_2 = L2_2
-  L3_2 = L2_2.f62782BA1
-  L3_2 = L3_2(L4_2)
-  L4_2 = L3_2 < 0
-  
-  function L5_2()
-    local L0_3, L1_3, L2_3
-    L0_3 = nil
-    L1_3 = L4_2
-    L2_3 = A0_2
-    L2_3 = L2_3 < 0
-    if L1_3 ~= L2_3 then
-      L0_3 = L4_2
-    else
-      L1_3 = L3_2
-      L2_3 = A0_2
-      L0_3 = L1_3 > L2_3
-    end
-    return L0_3
-  end
-  
-  L5_2 = L5_2()
+
   if L5_2 then
-    L6_2 = L2_2
-    L5_2 = L2_2.fFD034BC3
-    L7_2 = A0_2
-    L5_2 = L5_2(L6_2, L7_2)
-    L6_2 = L5_2
-    L5_2 = L5_2.fB788228B
-    L7_2 = A1_2
-    L5_2 = L5_2(L6_2, L7_2)
+    L5_2 = L2_2:fFD034BC3(partyIdx):fB788228B(wazaIdx)
     if 0 == L5_2 then
-      L6_2 = -1
-      return L6_2
+      return -1
     end
     return L5_2
   end
-  L5_2 = -1
-  return L5_2
+  return -1
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S192B039ABDCEE59B"
-
-function L70_1(A0_2, A1_2)
-  local L2_2, L3_2
+function CD081B219DEE96EEF.S192B039ABDCEE59B(monsNo, A1_2)  -- PartyExistsMonsNo
   if nil == A1_2 then
     A1_2 = 0
   end
-  L2_2 = CD081B219DEE96EEF
-  L2_2 = L2_2.SFCD07C3AC54C6D17
   
-  function L3_2(A0_3)
-    local L1_3, L2_3
-    L2_3 = A0_3
-    L1_3 = A0_3.f0BD5134F
-    L1_3 = L1_3(L2_3)
-    L2_3 = A0_2
-    L1_3 = L1_3 == L2_3
-    return L1_3
+  local function L3_2(A0_3)
+    return A0_3:f0BD5134F() == monsNo
   end
-  
-  L2_2 = L2_2(L3_2)
-  L2_2 = L2_2 >= 0
-  return L2_2
+
+  return CD081B219DEE96EEF.SFCD07C3AC54C6D17(L3_2) >= 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SEEED807AC10D239E"
-
-function L70_1(A0_2)
-  local L1_2, L2_2
-  L1_2 = cCDB92DE8
-  L1_2 = L1_2.f3117BBBF
-  L2_2 = A0_2
-  return L1_2(L2_2)
+function CD081B219DEE96EEF.SEEED807AC10D239E(monsNo)  -- BoxExistsMonsNo
+  return cCDB92DE8.f3117BBBF(monsNo)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S8F652185B0770B4E"
+function CD081B219DEE96EEF.S8F652185B0770B4E(A0_2)  -- PartyPokeGetMonsNo
+  local L1_2 = c1A1CBE3B.fFCE06E04()
+  local L3_2 = L1_2:f62782BA1() - 1
 
-function L70_1(A0_2)
-  local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = c1A1CBE3B
-  L1_2 = L1_2.fFCE06E04
-  L1_2 = L1_2()
-  L2_2 = nil
-  L4_2 = L1_2
-  L3_2 = L1_2.f62782BA1
-  L3_2 = L3_2(L4_2)
-  L3_2 = L3_2 - 1
-  L4_2 = A0_2 < 0
-  
-  function L5_2()
-    local L0_3, L1_3, L2_3
-    L0_3 = nil
-    L1_3 = L4_2
-    L2_3 = L3_2
-    L2_3 = L2_3 < 0
-    if L1_3 ~= L2_3 then
-      L0_3 = L4_2
-    else
-      L1_3 = A0_2
-      L2_3 = L3_2
-      L0_3 = L1_3 > L2_3
-    end
-    return L0_3
+  local L2_2, L5_2
+
+  if A0_2 < 0 ~= L3_2 < 0 then
+    L5_2 = A0_2 < 0
+  else
+    L5_2 = A0_2 > L3_2
   end
-  
-  L5_2 = L5_2()
+
   if L5_2 then
-    L6_2 = L1_2
-    L5_2 = L1_2.f62782BA1
-    L5_2(L6_2)
+    L1_2:f62782BA1()
     L2_2 = nil
   else
-    L6_2 = L1_2
-    L5_2 = L1_2.fFD034BC3
-    L7_2 = A0_2
-    L5_2 = L5_2(L6_2, L7_2)
-    L2_2 = L5_2
+    L2_2 = L1_2:fFD034BC3(A0_2)
   end
-  L5_2 = nil
-  L6_2 = c113335A8
-  L6_2 = L6_2.fD41E1021
-  L7_2 = L2_2
-  L8_2 = L5_2
-  L6_2 = L6_2(L7_2, L8_2)
-  if L6_2 then
-    L6_2 = -1
-    return L6_2
+  if c113335A8.fD41E1021(L2_2, nil) then
+    return -1
   end
-  L7_2 = L2_2
-  L6_2 = L2_2.f0BD5134F
-  return L6_2(L7_2)
+    return L2_2:f0BD5134F()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S0FDAC70358D6359B"
+function CD081B219DEE96EEF.S0FDAC70358D6359B(A0_2)  -- PartyPokeGetFormNo
+  local L1_2 = c1A1CBE3B.fFCE06E04()
+  local L3_2 = L1_2:f62782BA1() - 1
 
-function L70_1(A0_2)
-  local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = c1A1CBE3B
-  L1_2 = L1_2.fFCE06E04
-  L1_2 = L1_2()
-  L2_2 = nil
-  L4_2 = L1_2
-  L3_2 = L1_2.f62782BA1
-  L3_2 = L3_2(L4_2)
-  L3_2 = L3_2 - 1
-  L4_2 = A0_2 < 0
-  
-  function L5_2()
-    local L0_3, L1_3, L2_3
-    L0_3 = nil
-    L1_3 = L4_2
-    L2_3 = L3_2
-    L2_3 = L2_3 < 0
-    if L1_3 ~= L2_3 then
-      L0_3 = L4_2
-    else
-      L1_3 = A0_2
-      L2_3 = L3_2
-      L0_3 = L1_3 > L2_3
-    end
-    return L0_3
+  local L2_2, L5_2
+
+  if A0_2 < 0 ~= L3_2 < 0 then
+    L5_2 = A0_2 < 0
+  else
+    L5_2 = A0_2 > L3_2
   end
-  
-  L5_2 = L5_2()
+
   if L5_2 then
-    L6_2 = L1_2
-    L5_2 = L1_2.f62782BA1
-    L5_2(L6_2)
+    L1_2:f62782BA1()
     L2_2 = nil
   else
-    L6_2 = L1_2
-    L5_2 = L1_2.fFD034BC3
-    L7_2 = A0_2
-    L5_2 = L5_2(L6_2, L7_2)
-    L2_2 = L5_2
+    L2_2 = L1_2:fFD034BC3(A0_2)
   end
-  L5_2 = nil
-  L6_2 = c113335A8
-  L6_2 = L6_2.fD41E1021
-  L7_2 = L2_2
-  L8_2 = L5_2
-  L6_2 = L6_2(L7_2, L8_2)
-  if L6_2 then
-    L6_2 = -1
-    return L6_2
+  if c113335A8.fD41E1021(L2_2, nil) then
+    return -1
   end
-  L7_2 = L2_2
-  L6_2 = L2_2.f5D94E897
-  return L6_2(L7_2)
+  return L2_2:f5D94E897()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S11AD4E622D5F7C8A"
+function CD081B219DEE96EEF.S11AD4E622D5F7C8A(A0_2)  -- PartyPokeGetWazaCount
+  local L1_2 = c1A1CBE3B.fFCE06E04()
+  local L3_2 = L1_2:f62782BA1() - 1
 
-function L70_1(A0_2)
-  local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = c1A1CBE3B
-  L1_2 = L1_2.fFCE06E04
-  L1_2 = L1_2()
-  L2_2 = nil
-  L4_2 = L1_2
-  L3_2 = L1_2.f62782BA1
-  L3_2 = L3_2(L4_2)
-  L3_2 = L3_2 - 1
-  L4_2 = A0_2 < 0
-  
-  function L5_2()
-    local L0_3, L1_3, L2_3
-    L0_3 = nil
-    L1_3 = L4_2
-    L2_3 = L3_2
-    L2_3 = L2_3 < 0
-    if L1_3 ~= L2_3 then
-      L0_3 = L4_2
-    else
-      L1_3 = A0_2
-      L2_3 = L3_2
-      L0_3 = L1_3 > L2_3
-    end
-    return L0_3
+  local L2_2, L5_2
+
+  if A0_2 < 0 ~= L3_2 < 0 then
+    L5_2 = A0_2 < 0
+  else
+    L5_2 = A0_2 > L3_2
   end
-  
-  L5_2 = L5_2()
+
   if L5_2 then
-    L6_2 = L1_2
-    L5_2 = L1_2.f62782BA1
-    L5_2(L6_2)
+    L1_2:f62782BA1()
     L2_2 = nil
   else
-    L6_2 = L1_2
-    L5_2 = L1_2.fFD034BC3
-    L7_2 = A0_2
-    L5_2 = L5_2(L6_2, L7_2)
-    L2_2 = L5_2
+    L2_2 = L1_2:fFD034BC3(A0_2)
   end
-  L5_2 = nil
-  L6_2 = c113335A8
-  L6_2 = L6_2.fD41E1021
-  L7_2 = L2_2
-  L8_2 = L5_2
-  L6_2 = L6_2(L7_2, L8_2)
-  if L6_2 then
-    L6_2 = -1
-    return L6_2
+  if c113335A8.fD41E1021(L2_2, nil) then
+    return -1
   end
-  L7_2 = L2_2
-  L6_2 = L2_2.f6269FACE
-  return L6_2(L7_2)
+  return L2_2:f6269FACE()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S063BE147FDC39DDD"
+function CD081B219DEE96EEF.S063BE147FDC39DDD(A0_2)  -- PartyPokeGemType
+  local L1_2 = c1A1CBE3B.fFCE06E04()
+  local L3_2 = L1_2:f62782BA1() - 1
 
-function L70_1(A0_2)
-  local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = c1A1CBE3B
-  L1_2 = L1_2.fFCE06E04
-  L1_2 = L1_2()
-  L2_2 = nil
-  L4_2 = L1_2
-  L3_2 = L1_2.f62782BA1
-  L3_2 = L3_2(L4_2)
-  L3_2 = L3_2 - 1
-  L4_2 = A0_2 < 0
-  
-  function L5_2()
-    local L0_3, L1_3, L2_3
-    L0_3 = nil
-    L1_3 = L4_2
-    L2_3 = L3_2
-    L2_3 = L2_3 < 0
-    if L1_3 ~= L2_3 then
-      L0_3 = L4_2
-    else
-      L1_3 = A0_2
-      L2_3 = L3_2
-      L0_3 = L1_3 > L2_3
-    end
-    return L0_3
+  local L2_2, L5_2
+
+  if A0_2 < 0 ~= L3_2 < 0 then
+    L5_2 = A0_2 < 0
+  else
+    L5_2 = A0_2 > L3_2
   end
-  
-  L5_2 = L5_2()
+
   if L5_2 then
-    L6_2 = L1_2
-    L5_2 = L1_2.f62782BA1
-    L5_2(L6_2)
+    L1_2:f62782BA1()
     L2_2 = nil
   else
-    L6_2 = L1_2
-    L5_2 = L1_2.fFD034BC3
-    L7_2 = A0_2
-    L5_2 = L5_2(L6_2, L7_2)
-    L2_2 = L5_2
+    L2_2 = L1_2:fFD034BC3(A0_2)
   end
-  L5_2 = nil
-  L6_2 = c113335A8
-  L6_2 = L6_2.fD41E1021
-  L7_2 = L2_2
-  L8_2 = L5_2
-  L6_2 = L6_2(L7_2, L8_2)
-  if L6_2 then
-    L6_2 = 19
-    return L6_2
+  if c113335A8.fD41E1021(L2_2, nil) then
+    return -1
   end
-  L7_2 = L2_2
-  L6_2 = L2_2.f64B2F13C
-  return L6_2(L7_2)
+  return L2_2:f64B2F13C()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S3242B1D8EAF16E01"
+function CD081B219DEE96EEF.S3242B1D8EAF16E01(A0_2, A1_2)  -- PartyPokeHaveWaza
+  local L1_2 = c1A1CBE3B.fFCE06E04()
+  local L3_2 = L1_2:f62782BA1() - 1
 
-function L70_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = c1A1CBE3B
-  L2_2 = L2_2.fFCE06E04
-  L2_2 = L2_2()
-  L3_2 = nil
-  L5_2 = L2_2
-  L4_2 = L2_2.f62782BA1
-  L4_2 = L4_2(L5_2)
-  L4_2 = L4_2 - 1
-  L5_2 = A0_2 < 0
-  
-  function L6_2()
-    local L0_3, L1_3, L2_3
-    L0_3 = nil
-    L1_3 = L5_2
-    L2_3 = L4_2
-    L2_3 = L2_3 < 0
-    if L1_3 ~= L2_3 then
-      L0_3 = L5_2
-    else
-      L1_3 = A0_2
-      L2_3 = L4_2
-      L0_3 = L1_3 > L2_3
-    end
-    return L0_3
-  end
-  
-  L6_2 = L6_2()
-  if L6_2 then
-    L7_2 = L2_2
-    L6_2 = L2_2.f62782BA1
-    L6_2(L7_2)
-    L3_2 = nil
+  local L2_2, L5_2
+
+  if A0_2 < 0 ~= L3_2 < 0 then
+    L5_2 = A0_2 < 0
   else
-    L7_2 = L2_2
-    L6_2 = L2_2.fFD034BC3
-    L8_2 = A0_2
-    L6_2 = L6_2(L7_2, L8_2)
-    L3_2 = L6_2
+    L5_2 = A0_2 > L3_2
   end
-  L6_2 = nil
-  L7_2 = c113335A8
-  L7_2 = L7_2.fD41E1021
-  L8_2 = L3_2
-  L9_2 = L6_2
-  L7_2 = L7_2(L8_2, L9_2)
-  if L7_2 then
-    L7_2 = false
-    return L7_2
+
+  if L5_2 then
+    L1_2:f62782BA1()
+    L2_2 = nil
+  else
+    L2_2 = L1_2:fFD034BC3(A0_2)
   end
-  L8_2 = L3_2
-  L7_2 = L3_2.f1FBDE290
-  L9_2 = A1_2
-  return L7_2(L8_2, L9_2)
+  if c113335A8.fD41E1021(L2_2, nil) then
+    return -1
+  end
+  return L2_2:f1FBDE290(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SF91B67D9CB649D6F"
-
-function L70_1(A0_2, A1_2, A2_2)
+function CD081B219DEE96EEF.SF91B67D9CB649D6F(A0_2, A1_2, A2_2)  -- PartyPokeSetWaza
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L3_2 = c1A1CBE3B
   L3_2 = L3_2.fFCE06E04
@@ -899,7 +398,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2 = L5_2(L6_2)
   L5_2 = L5_2 - 1
   L6_2 = A0_2 < 0
-  
+
   function L7_2()
     local L0_3, L1_3, L2_3
     L0_3 = nil
@@ -915,7 +414,7 @@ function L70_1(A0_2, A1_2, A2_2)
     end
     return L0_3
   end
-  
+
   L7_2 = L7_2()
   if L7_2 then
     L8_2 = L3_2
@@ -1084,139 +583,61 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SD9BED01A78AE2FC1"
+function CD081B219DEE96EEF.SD9BED01A78AE2FC1(A0_2, A1_2)  -- PartyPokeLevelUp
+  local L1_2 = c1A1CBE3B.fFCE06E04()
+  local L3_2 = L1_2:f62782BA1() - 1
 
-function L70_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = c1A1CBE3B
-  L2_2 = L2_2.fFCE06E04
-  L2_2 = L2_2()
-  L3_2 = nil
-  L5_2 = L2_2
-  L4_2 = L2_2.f62782BA1
-  L4_2 = L4_2(L5_2)
-  L4_2 = L4_2 - 1
-  L5_2 = A0_2 < 0
-  
-  function L6_2()
-    local L0_3, L1_3, L2_3
-    L0_3 = nil
-    L1_3 = L5_2
-    L2_3 = L4_2
-    L2_3 = L2_3 < 0
-    if L1_3 ~= L2_3 then
-      L0_3 = L5_2
-    else
-      L1_3 = A0_2
-      L2_3 = L4_2
-      L0_3 = L1_3 > L2_3
-    end
-    return L0_3
-  end
-  
-  L6_2 = L6_2()
-  if L6_2 then
-    L7_2 = L2_2
-    L6_2 = L2_2.f62782BA1
-    L6_2(L7_2)
-    L3_2 = nil
+  local L2_2, L5_2
+
+  if A0_2 < 0 ~= L3_2 < 0 then
+    L5_2 = A0_2 < 0
   else
-    L7_2 = L2_2
-    L6_2 = L2_2.fFD034BC3
-    L8_2 = A0_2
-    L6_2 = L6_2(L7_2, L8_2)
-    L3_2 = L6_2
+    L5_2 = A0_2 > L3_2
   end
-  L6_2 = nil
-  L7_2 = c113335A8
-  L7_2 = L7_2.fD41E1021
-  L8_2 = L3_2
-  L9_2 = L6_2
-  L7_2 = L7_2(L8_2, L9_2)
-  if L7_2 then
+
+  if L5_2 then
+    L1_2:f62782BA1()
+    L2_2 = nil
+  else
+    L2_2 = L1_2:fFD034BC3(A0_2)
+  end
+  if c113335A8.fD41E1021(L2_2, nil) then
     return
   end
-  L8_2 = L3_2
-  L7_2 = L3_2.f94AC7947
-  L9_2 = A1_2
-  L7_2(L8_2, L9_2)
+  return L2_2:f94AC7947(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S8012EDFD843B6171"
+function CD081B219DEE96EEF.S8012EDFD843B6171(A0_2, A1_2, A2_2)  -- PartyPokeSetTalentPower
+  local L1_2 = c1A1CBE3B.fFCE06E04()
+  local L3_2 = L1_2:f62782BA1() - 1
 
-function L70_1(A0_2, A1_2, A2_2)
-  local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L3_2 = c1A1CBE3B
-  L3_2 = L3_2.fFCE06E04
-  L3_2 = L3_2()
-  L4_2 = nil
-  L6_2 = L3_2
-  L5_2 = L3_2.f62782BA1
-  L5_2 = L5_2(L6_2)
-  L5_2 = L5_2 - 1
-  L6_2 = A0_2 < 0
-  
-  function L7_2()
-    local L0_3, L1_3, L2_3
-    L0_3 = nil
-    L1_3 = L6_2
-    L2_3 = L5_2
-    L2_3 = L2_3 < 0
-    if L1_3 ~= L2_3 then
-      L0_3 = L6_2
-    else
-      L1_3 = A0_2
-      L2_3 = L5_2
-      L0_3 = L1_3 > L2_3
-    end
-    return L0_3
-  end
-  
-  L7_2 = L7_2()
-  if L7_2 then
-    L8_2 = L3_2
-    L7_2 = L3_2.f62782BA1
-    L7_2(L8_2)
-    L4_2 = nil
+  local L2_2, L5_2
+
+  if A0_2 < 0 ~= L3_2 < 0 then
+    L5_2 = A0_2 < 0
   else
-    L8_2 = L3_2
-    L7_2 = L3_2.fFD034BC3
-    L9_2 = A0_2
-    L7_2 = L7_2(L8_2, L9_2)
-    L4_2 = L7_2
+    L5_2 = A0_2 > L3_2
   end
-  L7_2 = nil
-  L8_2 = c113335A8
-  L8_2 = L8_2.fD41E1021
-  L9_2 = L4_2
-  L10_2 = L7_2
-  L8_2 = L8_2(L9_2, L10_2)
-  if L8_2 then
+
+  if L5_2 then
+    L1_2:f62782BA1()
+    L2_2 = nil
+  else
+    L2_2 = L1_2:fFD034BC3(A0_2)
+  end
+  if c113335A8.fD41E1021(L2_2, nil) then
     return
   end
-  L9_2 = L4_2
-  L8_2 = L4_2.f44951CFC
-  L10_2 = A1_2
-  L11_2 = A2_2
-  L8_2(L9_2, L10_2, L11_2)
-  L9_2 = L4_2
-  L8_2 = L4_2.f44EB9536
-  L10_2 = A1_2
-  L8_2(L9_2, L10_2)
-  L9_2 = L4_2
-  L8_2 = L4_2.f3230EF2A
-  L8_2(L9_2)
+  L2_2:f44951CFC(A1_2, A2_2)  -- ChangeTalentPower
+  L2_2:f44EB9536(A1_2)  -- SetTrainingDone
+  L2_2:f3230EF2A()  -- RecalculateCalcData
 end
 
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD081B219DEE96EEF"]
 L69_1 = "S597B8D46FFD95DCD"
 
-function L70_1(A0_2, A1_2, A2_2)
+function CD081B219DEE96EEF.S597B8D46FFD95DCD(A0_2, A1_2, A2_2)  -- PartyPokeSetEffortPower
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = c1A1CBE3B
   L3_2 = L3_2.fFCE06E04
@@ -1280,11 +701,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L8_2(L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S306ACAE4F8C459F8"
-
-function L70_1(A0_2, A1_2)
+function CD081B219DEE96EEF.S306ACAE4F8C459F8(A0_2, A1_2)  -- PartyPokeSetFriendship
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.fFCE06E04
@@ -1340,11 +757,7 @@ function L70_1(A0_2, A1_2)
   L7_2(L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SAFDF048E5D04C5B1"
-
-function L70_1(A0_2, A1_2, A2_2)
+function CD081B219DEE96EEF.SAFDF048E5D04C5B1(A0_2, A1_2, A2_2)  -- PartyPokeChangeEffortPower(?)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = c1A1CBE3B
   L3_2 = L3_2.fFCE06E04
@@ -1409,11 +822,7 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SB7DD8FA01977D1B0"
-
-function L70_1(A0_2, A1_2)
+function CD081B219DEE96EEF.SB7DD8FA01977D1B0(A0_2, A1_2)  -- PartyPokeChangeFriendship(?)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.fFCE06E04
@@ -1476,11 +885,7 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SA3F85A17B10891E4"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+function CD081B219DEE96EEF.SA3F85A17B10891E4(A0_2, A1_2, A2_2, A3_2)  -- PokePartyRecover
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A3_2 then
     A3_2 = 2
@@ -1535,29 +940,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
   end
   if nil == A1_2 or true == A1_2 then
-    L6_2 = CD081B219DEE96EEF
-    L6_2 = L6_2.SA256E1F074BE47CC
-    L7_2 = nil ~= A2_2 and L7_2
-    L6_2(L7_2)
+    CD081B219DEE96EEF.SA256E1F074BE47CC(nil ~= A2_2)
   end
   if 0 == A3_2 then
-    L6_2 = C3A36506FBC96ACBD
-    L6_2 = L6_2.SAC4C25C879379D3D
-    L7_2 = "ME_ST_EV_KAIFUKU"
-    L6_2(L7_2)
+    C3A36506FBC96ACBD.SAC4C25C879379D3D("ME_ST_EV_KAIFUKU")  -- C3A36506FBC96ACBD.PostBGMEvent
   elseif 1 == A3_2 then
-    L6_2 = C3A36506FBC96ACBD
-    L6_2 = L6_2.SC6181320B46854EE
-    L7_2 = "PLAY_SS_COMMON_RECOVERY"
-    L6_2(L7_2)
+    C3A36506FBC96ACBD.SC6181320B46854EE("PLAY_SS_COMMON_RECOVERY")  -- C3A36506FBC96ACBD.PostEventGlobal
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S8C58317DAC64DD8C"
-
-function L70_1(A0_2)
+function CD081B219DEE96EEF.S8C58317DAC64DD8C(A0_2)  -- PokePartyIsRecover
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A0_2 then
     A0_2 = -1
@@ -1606,33 +998,15 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SA0498EBAC7CFC7BB"
-
-function L70_1()
-  local L0_2, L1_2
-  L0_2 = cCDB92DE8
-  L0_2 = L0_2.fCE81D3F3
-  return L0_2()
+function CD081B219DEE96EEF.SA0498EBAC7CFC7BB()  -- PokeBoxIsRecover
+  return cCDB92DE8.fCE81D3F3()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "SB3A2638F03C2FE30"
-
-function L70_1()
-  local L0_2, L1_2
-  L0_2 = cCDB92DE8
-  L0_2 = L0_2.fE758CA39
-  L0_2()
+function CD081B219DEE96EEF.SB3A2638F03C2FE30()  -- PokeBoxAllRecover
+  cCDB92DE8.fE758CA39()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S0CA49F65C86A94A9"
-
-function L70_1(A0_2)
+function CD081B219DEE96EEF.S0CA49F65C86A94A9(A0_2)  -- GetIsRecover
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = A0_2
   L1_2 = A0_2.f5E588EF6
@@ -1710,45 +1084,21 @@ function L70_1(A0_2)
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD081B219DEE96EEF"]
-L69_1 = "S7B9043002F3D247B"
+function CD081B219DEE96EEF.S7B9043002F3D247B(A0_2)  -- GetPokePartyParam
+  local L1_2 = c1A1CBE3B.fFCE06E04()
+  local L2_2 = L1_2:f62782BA1()
 
-function L70_1(A0_2)
-  local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = c1A1CBE3B
-  L1_2 = L1_2.fFCE06E04
-  L1_2 = L1_2()
-  L3_2 = L1_2
-  L2_2 = L1_2.f62782BA1
-  L2_2 = L2_2(L3_2)
-  L3_2 = A0_2 < 0
-  
-  function L4_2()
-    local L0_3, L1_3, L2_3
-    L0_3 = nil
-    L1_3 = L3_2
-    L2_3 = L2_2
-    L2_3 = L2_3 < 0
-    if L1_3 ~= L2_3 then
-      L0_3 = L3_2
-    else
-      L1_3 = A0_2
-      L2_3 = L2_2
-      L0_3 = L1_3 >= L2_3
-    end
-    return L0_3
+  local L4_2
+  if A0_2 < 0 ~= L2_2 then
+    L4_2 = A0_2 < 0
+  else
+    L4_2 = A0_2 >= L2_2
   end
   
-  L4_2 = L4_2()
   if L4_2 then
-    L4_2 = nil
-    return L4_2
+    return nil
   end
-  L5_2 = L1_2
-  L4_2 = L1_2.f0FDE774D
-  L6_2 = A0_2
-  return L4_2(L5_2, L6_2)
+  return L1_2:f0FDE774D(A0_2)
 end
 
 L68_1[L69_1] = L70_1

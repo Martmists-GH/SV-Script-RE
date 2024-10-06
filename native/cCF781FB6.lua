@@ -4,7 +4,7 @@
 ---@field fB41FD22F fun(x:c016374C1_instance):cCF781FB6
 cCF781FB6 = {}  -- dummy
 
----@class cCF781FB6_instance
+---@class cCF781FB6_instance : userdata
 ---@field fE3888FF7 fun(self:self):boolean
 ---@field fF5E56E95 fun(self:self,x:boolean):void
 ---@field f50076011 fun(self:self):number
