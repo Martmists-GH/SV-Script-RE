@@ -6,7 +6,7 @@ Splitting script adapted from Rei's version for the 1.0.0 version of the scripts
 
 This repo is separate to try and stick to the latest version of the game (3.0.1 at time of writing) and create Lua rather than Haxe.
 
-## Contributing guidelines
+## Contributing guidelines.
 
 ### Contributing Code
 
