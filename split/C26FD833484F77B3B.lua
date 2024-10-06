@@ -197,7 +197,7 @@ function L70_1(A0_2)
           L5_2(L6_2)
           L5_2 = C3A36506FBC96ACBD
           L5_2 = L5_2.SC6181320B46854EE
-          L6_2 = "SET_STATE_BEARFIELD_BLACKOUT"
+            L6_2 = "SET_STATE_BEARFIELD_BLACKOUT"
           L5_2(L6_2)
           L5_2 = C3A36506FBC96ACBD
           L5_2 = L5_2.SC6181320B46854EE

@@ -1,0 +1,2 @@
+---@shape Iterable<T>
+---@field iterator(self:self):Iterator<T>

@@ -1,12 +1,8 @@
-L55_1 = _ENV
-L56_1 = "CC8D7B7BD769021D1"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CC8D7B7BD769021D1"]
-L69_1 = "new"
+---@class CC8D7B7BD769021D1<T> : CC8D7B7BD769021D1_prototype<T>
+---@field prototype CC8D7B7BD769021D1_prototype<T>
+CC8D7B7BD769021D1 = L15_1()
 
-function L70_1(A0_2)
+function CC8D7B7BD769021D1.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CC8D7B7BD769021D1
@@ -22,151 +18,70 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D7B7BD769021D1"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2
-  L2_2 = L43_1.new
-  L2_2 = L2_2()
-  A0_2[3] = L2_2
-  A0_2[2] = nil
-  L3_2 = A0_2
-  L2_2 = A0_2.F81B8C6C6CA6DA6AD
-  L4_2 = A1_2
-  L2_2(L3_2, L4_2)
+---@param self CC8D7B7BD769021D1<T>
+---@param A1_2 T
+function CC8D7B7BD769021D1.super(self, A1_2)
+  self[3] = L43_1.new()
+  self[2] = nil
+  self:F81B8C6C6CA6DA6AD(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D7B7BD769021D1"]
-L69_1 = "__name__"
-L70_1 = "CC8D7B7BD769021D1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D7B7BD769021D1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D7B7BD769021D1"]["prototype"]
-L69_1 = "F81B8C6C6CA6DA6AD"
+CC8D7B7BD769021D1.__name__ = "CC8D7B7BD769021D1"
+---@class CC8D7B7BD769021D1_prototype<T>
+---@field [1] T @ value
+---@field [3] haxe_ds_List<fun(new:T):void> @ listeners
+CC8D7B7BD769021D1_prototype = L15_1()
+CC8D7B7BD769021D1.prototype = CC8D7B7BD769021D1_prototype
 
-function L70_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F38A3ED592849BB13
-  L4_2 = A0_2[1]
-  L5_2 = A1_2
-  L6_2 = A0_2[3]
-  L2_2(L3_2, L4_2, L5_2, L6_2)
-  A0_2[1] = A1_2
-  L2_2 = A0_2[1]
-  return L2_2
+---@param A1_2 T
+function CC8D7B7BD769021D1_prototype:F81B8C6C6CA6DA6AD(A1_2)  -- set_value
+  self:F38A3ED592849BB13(self[1], A1_2, self[3])  -- NoticeCheck
+  self[1] = A1_2
+  return self[1]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D7B7BD769021D1"]["prototype"]
-L69_1 = "F38A3ED592849BB13"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
-  local L4_2, L5_2, L6_2
+---@param A1_2 T
+---@param A2_2 T
+---@param A3_2 haxe_ds_List<fun(new:T):void>
+function CC8D7B7BD769021D1_prototype:F38A3ED592849BB13(A1_2, A2_2, A3_2)  -- NoticeCheck
   if A1_2 ~= A2_2 then
-    L4_2 = C6E074861269A51A2
-    L4_2 = L4_2.SB5C93A8891F98240
-    L5_2 = A3_2
-    L4_2 = L4_2(L5_2)
-    if L4_2 then
-      L4_2 = L27_1.iter
-      L5_2 = A3_2
-      
-      function L6_2(A0_3)
-        local L1_3, L2_3
-        L1_3 = A0_3
-        L2_3 = A2_2
-        L1_3(L2_3)
+    if C6E074861269A51A2.SB5C93A8891F98240(A3_2) then  -- C6E074861269A51A2.hasValue(A3_2)
+      local function L6_2(A0_3)
+        A0_3(A2_2)
       end
-      
-      L4_2(L5_2, L6_2)
+
+      L27_1.iter(A3_2, L6_2)
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D7B7BD769021D1"]["prototype"]
-L69_1 = "F8D199D645E588A83"
-
-function L70_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
-  L3_2 = A0_2[3]
-  L4_2 = L3_2
-  L3_2 = L3_2.add
-  L5_2 = A1_2
-  L3_2(L4_2, L5_2)
-  L3_2 = C5D444100846B3F36
-  L3_2 = L3_2.new
+---@param A1_2 fun(new:T):void
+function CC8D7B7BD769021D1_prototype:F8D199D645E588A83(A1_2)  -- Subscribe
+  self[3]:add(A1_2)
   
-  function L4_2()
-    local L0_3, L1_3, L2_3
-    L0_3 = L2_2
-    L0_3 = L0_3[3]
-    L1_3 = L0_3
-    L0_3 = L0_3.remove
-    L2_3 = A1_2
-    return L0_3(L1_3, L2_3)
+  local function L4_2()
+    return self[3]:remove(A1_2)
   end
   
-  return L3_2(L4_2)
+  return C5D444100846B3F36.new(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D7B7BD769021D1"]["prototype"]
-L69_1 = "F0BCAC37BD0A990B8"
-
-function L70_1(A0_2, A1_2)
+function CC8D7B7BD769021D1_prototype:F0BCAC37BD0A990B8(A1_2)  -- Debug
   if nil == A1_2 then
     A1_2 = ""
   end
-  A0_2[2] = A1_2
-  return A0_2
+  self[2] = A1_2
+  return self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D7B7BD769021D1"]["prototype"]
-L69_1 = "F12FD4C6FB628A727"
-
-function L70_1(A0_2)
-  local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2
-  L2_2 = A0_2[3]
-  if nil ~= L2_2 then
-    L2_2 = A0_2[3]
-    L3_2 = L2_2
-    L2_2 = L2_2.map
-    
-    function L4_2(A0_3)
-      local L1_3, L2_3
-      L1_3 = A0_3
-      L2_3 = L1_2
-      L2_3 = L2_3[1]
-      L1_3(L2_3)
+function CC8D7B7BD769021D1_prototype:F12FD4C6FB628A727()  -- SendNotice
+  if nil ~= self[3] then
+    local function L4_2(A0_3)
+      A0_3(L2_3[1])
     end
-    
-    L2_2(L3_2, L4_2)
+
+    self[3]:map(L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D7B7BD769021D1"]["prototype"]
-L69_1 = _ENV["CC8D7B7BD769021D1"]
-L68_1.__class__ = L69_1
-L70_1 = _ENV["CC8D7B7BD769021D1"]
-L68_1[L69_1] = L70_1
-L72_1 = _ENV["CC8D7B7BD769021D1"]["prototype"]
-L70_1[L71_1] = L72_1
-L68_1(L69_1, L70_1)
-L70_1 = _ENV["CC8D7B7BD769021D1"]
-L68_1[L69_1] = L70_1
-L72_1 = _ENV["CC8D7B7BD769021D1"]["prototype"]
-L70_1[L71_1] = L72_1
-L68_1(L69_1, L70_1)
+CC8D7B7BD769021D1_prototype.__class__ = CC8D7B7BD769021D1

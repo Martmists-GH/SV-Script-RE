@@ -530,7 +530,7 @@ function L70_1(A0_2)
         
         L4_3 = L4_3()
         if L4_3 then
-          L4_3 = C3A36506FBC96ACBD
+            L4_3 = C3A36506FBC96ACBD
           L4_3 = L4_3.SC6181320B46854EE
           L5_3 = "PLAY_UI_NOTIFICATION_WINDOW_BUFF"
           L4_3(L5_3)
