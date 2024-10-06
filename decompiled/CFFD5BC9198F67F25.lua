@@ -1,9 +1,12 @@
--- main.battle.parts.BattleBallResource
+---@alias main_battle_parts_BattleBallResource CFFD5BC9198F67F25
+
+---@class CFFD5BC9198F67F25 : CFFD5BC9198F67F25_prototype
+---@field_prototype CFFD5BC9198F67F25_prototype
 CFFD5BC9198F67F25 = L15_1()
 
 function CFFD5BC9198F67F25.new(A0_2)
   local L1_2
-  L1_2 = L2_1(CFFD5BC9198F67F25.prototype, 12, 10)
+  L1_2 = L2_1(CFFD5BC9198F67F25_prototype, 12, 10)
   CFFD5BC9198F67F25.super(L1_2, A0_2)
   return L1_2
 end
@@ -20,9 +23,20 @@ end
 
 
 CFFD5BC9198F67F25.__name__ = "CFFD5BC9198F67F25"
-CFFD5BC9198F67F25.prototype = L15_1()
+---@class CFFD5BC9198F67F25
+---@field [3] c016374C1
+---@field [4] c016374C1
+---@field [6] c016374C1
+---@field [7] boolean
+---@field [8] number
+---@field [9] number
+---@field [10] boolean
+---@field [11] number[]
+---@field [12] boolean
+CFFD5BC9198F67F25_prototype = L15_1()
+CFFD5BC9198F67F25.prototype = CFFD5BC9198F67F25_prototype
 
-function CFFD5BC9198F67F25.prototype.FDB441C50B1AD5C85(self, A1_2, A2_2)
+function CFFD5BC9198F67F25_prototype:FDB441C50B1AD5C85(A1_2, A2_2)  -- SetBallObject
   if nil == A2_2 then
     A2_2 = true
   end
@@ -30,11 +44,11 @@ function CFFD5BC9198F67F25.prototype.FDB441C50B1AD5C85(self, A1_2, A2_2)
   self[7] = A2_2
 end
 
-function CFFD5BC9198F67F25.prototype.FDE665957BFE8FC2E(self, A1_2)
+function CFFD5BC9198F67F25_prototype:FDE665957BFE8FC2E(A1_2)
   self:FE38A1F010EEF9597(C2209AB9DB5E5D02A.S5B9DEACF919A516B(A1_2))  -- self:StartLoad(...)
 end
 
-function CFFD5BC9198F67F25.prototype.FDE665957BFE8FC2E(self, A1_2)  -- StartLoad
+function CFFD5BC9198F67F25_prototype:FE38A1F010EEF9597(A1_2)  -- StartLoad
   local L2_2, L3_2
   if self[12] then
     self:FE828682F404959F2()  -- self:UnLoad()
@@ -56,7 +70,7 @@ function CFFD5BC9198F67F25.prototype.FDE665957BFE8FC2E(self, A1_2)  -- StartLoad
   self[12] = true
 end
 
-function CFFD5BC9198F67F25.prototype.FC8D6066915A05C06(self)  -- IsLoadFinish
+function CFFD5BC9198F67F25_prototype:FC8D6066915A05C06()  -- IsLoadFinish
   local L4_2
   if not self[12] then
     return true
@@ -90,7 +104,7 @@ function CFFD5BC9198F67F25.prototype.FC8D6066915A05C06(self)  -- IsLoadFinish
   return false
 end
 
-function CFFD5BC9198F67F25.prototype.F39543DA158C27613(self, A1_2, A2_2)  -- SetupCondition
+function CFFD5BC9198F67F25_prototype:F39543DA158C27613(A1_2, A2_2)  -- SetupCondition
   local L3_2, L8_2
   if not self[12] then
     return
@@ -135,7 +149,7 @@ function CFFD5BC9198F67F25.prototype.F39543DA158C27613(self, A1_2, A2_2)  -- Set
   c8A144091.f9DCF42D7(A1_2, "BALL" .. L31_1.string(A2_2 + 1) .. "_CAPTURE", L8_2)
 end
 
-function CFFD5BC9198F67F25.prototype.FE828682F404959F2(self)  -- UnLoad
+function CFFD5BC9198F67F25_prototype:FE828682F404959F2()  -- UnLoad
   if not self[12] then
     return
   end
@@ -154,28 +168,23 @@ function CFFD5BC9198F67F25.prototype.FE828682F404959F2(self)  -- UnLoad
   self[12] = false
 end
 
-function CFFD5BC9198F67F25.prototype.F278D49B1027DC7AB(self, A1_2, A2_2)  -- SetOverrideReplaceIndex
+function CFFD5BC9198F67F25_prototype:F278D49B1027DC7AB(A1_2, A2_2)  -- SetOverrideReplaceIndex
   self[9] = A1_2
   self[8] = A2_2
 end
 
-function CFFD5BC9198F67F25.prototype.F7E935E60C135F1D3(self, A1_2, A2_2)
+function CFFD5BC9198F67F25_prototype:F7E935E60C135F1D3(A1_2, A2_2)
   self[10] = A1_2
   self[11] = A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFFD5BC9198F67F25"]["prototype"]
-L69_1 = "F911598616BAC06BC"
-
-function CFFD5BC9198F67F25.prototype.F911598616BAC06BC(self, A1_2)  -- SetModelVisibility
-  local L3_2
+function CFFD5BC9198F67F25_prototype:F911598616BAC06BC(A1_2)  -- SetModelVisibility
   if c016374C1.f8C7D4F4D(self[3], nil) then
-    L3_2 = cECB91E31.fB41FD22F(self[3])
+    local L3_2 = cECB91E31.fB41FD22F(self[3])
     if cECB91E31.f04ACC3F2(L3_2, nil) then
       L3_2:f6754453E(A1_2)
     end
   end
 end
 
-CFFD5BC9198F67F25.prototype.__class__ = CFFD5BC9198F67F25
+CFFD5BC9198F67F25_prototype.__class__ = CFFD5BC9198F67F25
