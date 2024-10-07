@@ -1,7 +1,15 @@
-L68_1 = _ENV["C51C789C764D66E76"]
-L69_1 = "new"
+---@alias main_playables_free_move_ctrl_ActorControlBehavior C51C789C764D66E76
 
-function L70_1(A0_2)
+---@class C51C789C764D66E76 C51C789C764D66E76_prototype
+---@field prototype C51C789C764D66E76_prototype
+---@field S4E42083B906AB134 any @ RIDE_A_TEMPLATE_PATH
+---@field S473DE4AF6153E071 any @ RIDE_B_TEMPLATE_PATH
+---@field SC13E7B18616C2F4E any @ PLAYER_NAME
+---@field S252A6334066FFC53 any @ PLAYER_TEMPLATE_PATH
+---@field S8ABF316EF0D1CBF3 any @ RIDE_NAME
+C51C789C764D66E76 = L15_1()
+
+function C51C789C764D66E76.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C51C789C764D66E76
@@ -17,139 +25,97 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51C789C764D66E76"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param self C51C789C764D66E76
+function C51C789C764D66E76.super(self, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  A0_2[44] = 0
-  A0_2[43] = -1
-  A0_2[42] = nil
-  A0_2[41] = nil
-  A0_2[40] = nil
-  A0_2[39] = 0.0
-  A0_2[38] = nil
-  A0_2[37] = nil
-  A0_2[36] = nil
-  A0_2[35] = nil
-  A0_2[34] = 0
-  A0_2[33] = nil
-  A0_2[32] = false
-  A0_2[31] = false
-  A0_2[30] = false
-  L2_2 = _hx_tab_array
-  L3_2 = {}
-  L3_2.length = 0
-  L3_2[0] = false
-  L4_2 = false
-  L5_2 = false
-  L6_2 = false
-  L7_2 = false
-  L8_2 = false
-  L3_2[1] = L4_2
-  L3_2[2] = L5_2
-  L3_2[3] = L6_2
-  L3_2[4] = L7_2
-  L3_2[5] = L8_2
-  L4_2 = 6
-  L2_2 = L2_2(L3_2, L4_2)
-  A0_2[29] = L2_2
-  L2_2 = {}
-  L3_2 = 0
-  L4_2 = 0
-  L5_2 = 0
-  L2_2[1] = L3_2
-  L2_2[2] = L4_2
-  L2_2[3] = L5_2
-  A0_2[28] = L2_2
-  A0_2[27] = -1
-  A0_2[26] = -1
-  A0_2[25] = nil
-  A0_2[24] = nil
-  A0_2[23] = 0
-  A0_2[22] = 0
-  A0_2[21] = nil
-  L2_2 = CCF23BBD95FD52C56
-  L2_2 = L2_2.super
-  L3_2 = A0_2
-  L4_2 = A1_2
-  L2_2(L3_2, L4_2)
-  L2_2 = nil
-  L3_2 = cDD25B9DB
-  L3_2 = L3_2.f4F92E4A5
-  L3_2 = L3_2()
+  self[44] = 0
+  self[43] = -1
+  self[42] = nil
+  self[41] = nil
+  self[40] = nil
+  self[39] = 0.0
+  self[38] = nil
+  self[37] = nil
+  self[36] = nil
+  self[35] = nil
+  self[34] = 0
+  self[33] = nil
+  self[32] = false
+  self[31] = false
+  self[30] = false
+  self[29] = _hx_tab_array({
+    length = 0,
+    [0] = false,
+    [1] = false,
+    [2] = false,
+    [3] = false,
+    [4] = false,
+    [5] = false,
+  }, 6)
+  self[28] = { 0, 0, 0}
+  self[27] = -1
+  self[26] = -1
+  self[25] = nil
+  self[24] = nil
+  self[23] = 0
+  self[22] = 0
+  self[21] = nil
+  CCF23BBD95FD52C56.super(self, A1_2)
+  local L3_2 = cDD25B9DB.f4F92E4A5()
+  local L2_2
   if 0 == L3_2 then
     L4_2 = C51C789C764D66E76
-    L2_2 = L4_2.S4E42083B906AB134
+    L2_2 = C51C789C764D66E76.S4E42083B906AB134
   elseif 1 == L3_2 then
-    L4_2 = C51C789C764D66E76
-    L2_2 = L4_2.S473DE4AF6153E071
+    L2_2 = C51C789C764D66E76.S473DE4AF6153E071
   else
-    L4_2 = C51C789C764D66E76
-    L2_2 = L4_2.S4E42083B906AB134
+    L2_2 = C51C789C764D66E76.S4E42083B906AB134
   end
-  L4_2 = L16_1
-  L5_2 = {}
-  L6_2 = {}
-  L6_2.playerName = true
-  L6_2.playerTemplatePath = true
-  L6_2.rideName = true
-  L6_2.rideTemplatePath = true
-  L6_2.scene = true
-  L5_2.__fields__ = L6_2
-  L6_2 = C51C789C764D66E76
-  L6_2 = L6_2.SC13E7B18616C2F4E
-  L5_2.playerName = L6_2
-  L6_2 = C51C789C764D66E76
-  L6_2 = L6_2.S252A6334066FFC53
-  L5_2.playerTemplatePath = L6_2
-  L6_2 = C51C789C764D66E76
-  L6_2 = L6_2.S8ABF316EF0D1CBF3
-  L5_2.rideName = L6_2
-  L5_2.rideTemplatePath = L2_2
-  L7_2 = A1_2
-  L6_2 = A1_2.f462C9B70
-  L6_2 = L6_2(L7_2)
-  L5_2.scene = L6_2
-  L4_2 = L4_2(L5_2)
-  A0_2[38] = L4_2
-  L4_2 = L16_1
-  L5_2 = {}
-  L6_2 = {}
-  L6_2.Activation = true
-  L6_2.Player = true
-  L6_2.Ride = true
-  L5_2.__fields__ = L6_2
-  L5_2.Activation = false
-  L6_2 = L16_1
-  L7_2 = {}
-  L8_2 = {}
-  L8_2.BodySpeed = true
-  L8_2.FaceSpeed = true
-  L8_2.Collision = true
-  L7_2.__fields__ = L8_2
-  L7_2.BodySpeed = 0
-  L7_2.FaceSpeed = 0
-  L7_2.Collision = false
-  L6_2 = L6_2(L7_2)
-  L5_2.Player = L6_2
-  L6_2 = L16_1
-  L7_2 = {}
-  L8_2 = {}
-  L8_2.BodySpeed = true
-  L8_2.FaceSpeed = true
-  L8_2.Collision = true
-  L7_2.__fields__ = L8_2
-  L7_2.BodySpeed = 0
-  L7_2.FaceSpeed = 0
-  L7_2.Collision = false
-  L6_2 = L6_2(L7_2)
-  L5_2.Ride = L6_2
-  L4_2 = L4_2(L5_2)
-  A0_2[33] = L4_2
+  self[38] = L16_1 {
+    __fields__ = {
+      playerName = true,
+      playerTemplatePath = true,
+      rideName = true,
+      rideTemplatePath = true,
+      scene = true,
+    },
+    playerName = C51C789C764D66E76.SC13E7B18616C2F4E,
+    playerTemplatePath = C51C789C764D66E76.S252A6334066FFC53,
+    rideName = C51C789C764D66E76.S8ABF316EF0D1CBF3,
+    rideTemplatePath = L2_2,
+    scene = A1_2:f462C9B70(),
+  }
+  self[33] = L16_1 {
+    __fields__ = {
+      Activation = true,
+      Player = true,
+      Ride = true,
+    },
+    Activation = false,
+    Player = L16_1 {
+      __fields__ = {
+        BodySpeed = true,
+        FaceSpeed = true,
+        Collision = true,
+      },
+      BodySpeed = 0,
+      FaceSpeed = 0,
+      Collision = false,
+    },
+    Ride = L16_1 {
+      __fields__ = {
+        BodySpeed = true,
+        FaceSpeed = true,
+        Collision = true,
+      },
+      BodySpeed = 0,
+      FaceSpeed = 0,
+      Collision = false,
+    }
+  }
 end
 
+C51C789C764D66E76.__name__ = "C51C789C764D66E76"
 L68_1[L69_1] = L70_1
 L68_1 = "C51C789C764D66E76"
 L69_1 = _ENV["C51C789C764D66E76"]
@@ -218,10 +184,11 @@ L68_1 = L25_1[L68_1]
 L69_1 = "SC5EA75F3CF44AF2F"
 L70_1 = _ENV["C51C789C764D66E76"]["SC5EA75F3CF44AF2F"]
 L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51C789C764D66E76"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+
+---@class C51C789C764D66E76_prototype : CCF23BBD95FD52C56
+C51C789C764D66E76_prototype = L15_1()
+C51C789C764D66E76.prototype = C51C789C764D66E76_prototype
+
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C51C789C764D66E76"]["prototype"]
 L69_1 = "F22C7B81A049FA20D"
@@ -3287,3 +3254,13 @@ L69_1 = "__super__"
 L69_1 = _ENV["C51C789C764D66E76"]["prototype"]
 L70_1 = {}
 L71_1 = "__index"
+
+---@class C51C789C764D66E76_anon_1
+---@field BodySpeed number
+---@field FaceSpeed number
+---@field Collision boolean
+
+---@class C51C789C764D66E76_anon_2
+---@field Activation boolean
+---@field Player C51C789C764D66E76_anon_1
+---@field Ride C51C789C764D66E76_anon_1
