@@ -61,7 +61,7 @@ c016374C1 = {}  -- dummy
 ---@field fDB822EEA fun(self:self):boolean
 ---@field f3BA1C55C fun(self:self,x:boolean):boolean
 ---@field fCDCB600D fun(self:self,x:boolean):void
----@field f462C9B70 fun(self:self):userdata
+---@field f462C9B70 fun(self:self):cA042DA13
 ---@field fBE3B2D3B fun(self:self):void
 ---@field f47BAE49D fun(self:self):void
 ---@field f6CF71CE1 fun(self:self,x:boolean):void

@@ -1,20 +1,32 @@
-L55_1 = _ENV
-L56_1 = "CD9AE7C27B00EB066"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "__name__"
-L70_1 = "CD9AE7C27B00EB066"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "S05B90B9B5A6DE6BC"
+---@alias main_util_Math CD9AE7C27B00EB066
 
-function L70_1(A0_2, A1_2, A2_2)
+---@class CD9AE7C27B00EB066
+---@field SFB8A67CFE7F5605D number EPSILON
+CD9AE7C27B00EB066 = L15_1()
+CD9AE7C27B00EB066.new = {}
+CD9AE7C27B00EB066.__name__ = "CD9AE7C27B00EB066"
+
+--- main.util.Math.Clamp
+---@param value number
+---@param min number
+---@param max number
+---@return number
+function CD9AE7C27B00EB066.S05B90B9B5A6DE6BC(value, min, max)
+  if value < min then
+    value = min
+  end
+  if max < value then
+    value = max
+  end
+  return value
+end
+
+--- main.util.Math.ClampInt
+---@param value number
+---@param min number
+---@param max number
+---@return number
+function CD9AE7C27B00EB066.S3FCFEC45AD1F1905(A0_2, A1_2, A2_2)
   if A0_2 < A1_2 then
     A0_2 = A1_2
   end
@@ -24,25 +36,11 @@ function L70_1(A0_2, A1_2, A2_2)
   return A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "S3FCFEC45AD1F1905"
-
-function L70_1(A0_2, A1_2, A2_2)
-  if A0_2 < A1_2 then
-    A0_2 = A1_2
-  end
-  if A2_2 < A0_2 then
-    A0_2 = A2_2
-  end
-  return A0_2
-end
-
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "S83677FF4EE3F1CBF"
-
-function L70_1(A0_2, A1_2)
+--- main.util.Math.GetVectorAngle
+---@param A0_2 vector3
+---@param A1_2 vector3
+---@return number
+function CD9AE7C27B00EB066.S83677FF4EE3F1CBF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = CD9AE7C27B00EB066
   L2_2 = L2_2.S05B90B9B5A6DE6BC
@@ -105,11 +103,8 @@ function L70_1(A0_2, A1_2)
   return L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "S27BA7C7323C27960"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.util.Math.FromVectorRotation
+function CD9AE7C27B00EB066.S27BA7C7323C27960(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   L3_2 = CD9AE7C27B00EB066
   L3_2 = L3_2.S05B90B9B5A6DE6BC
@@ -203,11 +198,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "S9487238A2BCBB744"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.util.Math.SlerpVector
+function CD9AE7C27B00EB066.S9487238A2BCBB744(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = CD9AE7C27B00EB066
   L3_2 = L3_2.S27BA7C7323C27960
@@ -245,11 +237,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "SCAD25230630F7BCB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.util.Math.SCAD25230630F7BCB
+function CD9AE7C27B00EB066.SCAD25230630F7BCB(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = 0
   L5_2 = A3_2
@@ -270,7 +259,10 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD9AE7C27B00EB066"]
 L69_1 = "SEC5E960387714AA4"
 
-function L70_1(A0_2)
+--- main.util.Math.Sign
+---@param A0_2 number
+---@return number
+function CD9AE7C27B00EB066.SEC5E960387714AA4(A0_2)
   local L1_2, L2_2
   L1_2 = L10_1.math
   L1_2 = L1_2.abs
@@ -290,11 +282,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "S385945E59AB9CA09"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.util.Math.S385945E59AB9CA09
+function CD9AE7C27B00EB066.S385945E59AB9CA09(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2
   L4_2 = 0
   L5_2 = A3_2
@@ -307,11 +296,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "SF667EA15F51B1676"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.util.Math.SF667EA15F51B1676
+function CD9AE7C27B00EB066.SF667EA15F51B1676(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = 0
   L5_2 = A3_2
@@ -344,11 +330,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "S28102DAA82AC58FD"
-
-function L70_1(A0_2, A1_2)
+--- main.util.Math.Floor
+function CD9AE7C27B00EB066.S28102DAA82AC58FD(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L10_1.math
   L2_2 = L2_2.pow
@@ -370,11 +353,8 @@ function L70_1(A0_2, A1_2)
   return A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "S6E889CF9C9368AC0"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.util.Math.HermiteCurve
+function CD9AE7C27B00EB066.S6E889CF9C9368AC0(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L5_2 = {}
   L6_2 = A0_2[1]
@@ -473,11 +453,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "SF6B1543657D10AD3"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.util.Math.SF6B1543657D10AD3
+function CD9AE7C27B00EB066.SF6B1543657D10AD3(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L6_2 = {}
   L7_2 = 0
@@ -666,11 +643,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "SB38804902388027C"
-
-function L70_1(A0_2, A1_2)
+--- main.util.Math.SB38804902388027C
+function CD9AE7C27B00EB066.SB38804902388027C(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L2_2 = 0.0
   L3_2 = 0
@@ -735,11 +709,8 @@ function L70_1(A0_2, A1_2)
   return L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "SACD3B639AAC4B738"
-
-function L70_1(A0_2, A1_2)
+--- main.util.Math.MinInt
+function CD9AE7C27B00EB066.SACD3B639AAC4B738(A0_2, A1_2)
   if A0_2 < A1_2 then
     return A0_2
   else
@@ -747,11 +718,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9AE7C27B00EB066"]
-L69_1 = "S46F8C671D264732A"
-
-function L70_1(A0_2, A1_2)
+--- main.util.Math.MaxInt
+function CD9AE7C27B00EB066.S46F8C671D264732A(A0_2, A1_2)
   if A1_2 < A0_2 then
     return A0_2
   else
@@ -759,4 +727,4 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
+CD9AE7C27B00EB066.SFB8A67CFE7F5605D = 1.0E-8

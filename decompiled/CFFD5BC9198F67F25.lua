@@ -31,7 +31,7 @@ CFFD5BC9198F67F25.__name__ = "CFFD5BC9198F67F25"
 ---@field [8] number
 ---@field [9] number
 ---@field [10] boolean
----@field [11] number[]
+---@field [11] vector3
 ---@field [12] boolean
 CFFD5BC9198F67F25_prototype = L15_1()
 CFFD5BC9198F67F25.prototype = CFFD5BC9198F67F25_prototype

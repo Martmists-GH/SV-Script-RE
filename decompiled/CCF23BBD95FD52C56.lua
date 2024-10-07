@@ -2,6 +2,7 @@
 
 ---@class CCF23BBD95FD52C56 : CCF23BBD95FD52C56_prototype
 ---@field prototype CCF23BBD95FD52C56_prototype
+CCF23BBD95FD52C56 = L15_1()
 
 function CCF23BBD95FD52C56.new(self)
   local L1_2, L2_2, L3_2, L4_2
