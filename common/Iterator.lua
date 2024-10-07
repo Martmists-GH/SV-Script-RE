@@ -1,3 +1,3 @@
----@class Iterator<T>
----@field hasNext fun():boolean
----@field next fun():T
+---@shape Iterator<T>
+---@field hasNext fun(self:self):boolean
+---@field next fun(self:self):T
