@@ -38,7 +38,9 @@ end
 
 C1DB14DCC9D7634FA.__name__ = "C1DB14DCC9D7634FA"
 
-function C1DB14DCC9D7634FA.S760DAE4C5371A78E(A0_2)  -- yield
+--- ti.Coroutine.yield
+---@param A0_2? thread
+function C1DB14DCC9D7634FA.S760DAE4C5371A78E(A0_2)
   if select(2, coroutine.running()) then
     C7BD28C2CE195DB4E.S7989B6DD56823279(false, "!Cannot yield main coroutine")
     return nil
