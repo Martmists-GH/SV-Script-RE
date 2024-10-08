@@ -1,1 +1,4 @@
----@alias vector3 {number,number,number}
+---@shape vector3
+---@field [1] number
+---@field [2] number
+---@field [3] number
