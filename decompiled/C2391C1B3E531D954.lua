@@ -1181,74 +1181,39 @@ function C2391C1B3E531D954_prototype:FCF86A2C971CD1658(A1_2)
   return ""
 end
 
---- main.battle.BattleViewBase.F1F874B74F2D01A83
+--- main.battle.BattleViewBase.ResidentEffectDelete
 function C2391C1B3E531D954_prototype:F1F874B74F2D01A83(A1_2)
-  local L2_2, L3_2, L4_2
-  L2_2 = self[26]
-  if nil ~= L2_2 then
-    L2_2 = self[26]
-    L3_2 = L2_2
-    L2_2 = L2_2.F3CC990DA6C6A7C4A
-    L4_2 = A1_2
-    L2_2(L3_2, L4_2)
+  if nil ~= self[26] then
+    self[26]:F3CC990DA6C6A7C4A(A1_2)
   end
-  L2_2 = 0
-  return L2_2
+  return 0
 end
 
---- main.battle.BattleViewBase.FEDF76C3BD9046F56
+--- main.battle.BattleViewBase.ResidentEffectDeleteAll
 function C2391C1B3E531D954_prototype:FEDF76C3BD9046F56()
-  local L1_2, L2_2
-  L1_2 = self[26]
-  if nil ~= L1_2 then
-    L1_2 = self[26]
-    L2_2 = L1_2
-    L1_2 = L1_2.F1C982C7E2CA07A51
-    L1_2(L2_2)
+  if nil ~= self[26] then
+    self[26]:F1C982C7E2CA07A51()
   end
-  L1_2 = 0
-  return L1_2
+  return 0
 end
 
---- main.battle.BattleViewBase.F849716B5633DD75A
+--- main.battle.BattleViewBase.SetShadowFadeDistance
 function C2391C1B3E531D954_prototype:F849716B5633DD75A(A1_2, A2_2)
-  local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if A1_2 then
-    L3_2 = CE8E3FC751F6F89B8
-    L3_2 = L3_2.S8930BD5CE2BE71E4
-    L4_2 = "DirectionalMain"
-    L3_2 = L3_2(L4_2)
+    local L3_2 = CE8E3FC751F6F89B8.S8930BD5CE2BE71E4("DirectionalMain")
     if nil == L3_2 then
-      L4_2 = C8F1D45073A82FCB9
-      L4_2 = L4_2.new
-      L4_2 = L4_2()
-      L3_2 = L4_2
-      L4_2 = CE8E3FC751F6F89B8
-      L4_2 = L4_2.S5B01DC4716781F51
-      L5_2 = L3_2
-      L6_2 = "DirectionalMain"
-      L4_2(L5_2, L6_2)
+      local L3_2 = C8F1D45073A82FCB9.new()
+      CE8E3FC751F6F89B8.S5B01DC4716781F51(L3_2, "DirectionalMain")
       L3_2[1] = true
     end
-    L5_2 = L3_2
-    L4_2 = L3_2.F4C5EA998514D9674
-    L6_2 = "DirectionalMain"
-    L7_2 = "ShadowFadeDistance"
-    L8_2 = A2_2
-    L4_2(L5_2, L6_2, L7_2, L8_2)
+    L3_2:F4C5EA998514D9674("DirectionalMain", "ShadowFadeDistance", A2_2)
   else
-    L3_2 = CE8E3FC751F6F89B8
-    L3_2 = L3_2.S8930BD5CE2BE71E4
-    L4_2 = "DirectionalMain"
-    L3_2 = L3_2(L4_2)
+    local L3_2 = CE8E3FC751F6F89B8.S8930BD5CE2BE71E4("DirectionalMain")
     if nil == L3_2 then
       return
     end
     L3_2[1] = false
-    L4_2 = CE8E3FC751F6F89B8
-    L4_2 = L4_2.S866C89BCD59BF200
-    L5_2 = "DirectionalMain"
-    L4_2(L5_2)
+    CE8E3FC751F6F89B8.S866C89BCD59BF200("DirectionalMain")
   end
 end
 
@@ -1258,44 +1223,19 @@ function C2391C1B3E531D954_prototype:FB84018749A6E841C(A1_2, A2_2)
   self[37] = A2_2
 end
 
---- main.battle.BattleViewBase.F4DF0D0D9467521BF
+--- main.battle.BattleViewBase.IsAutoCloseBattleMessage
 function C2391C1B3E531D954_prototype:F4DF0D0D9467521BF()
-  local L1_2, L2_2
-  L1_2 = C17F73F1CF4C378CC
-  L1_2 = L1_2.S6E0F5B5A3F95D02B
-  L2_2 = E366415E12D9CEAB1
-  L2_2 = L2_2.BATTLE
-  L1_2 = L1_2(L2_2)
-  if L1_2 then
-    L1_2 = self[37]
-    return L1_2
+  if C17F73F1CF4C378CC.S6E0F5B5A3F95D02B(E366415E12D9CEAB1.BATTLE) then
+    return self[37]
   end
-  L1_2 = true
-  return L1_2
+  return true
 end
 
 --- main.battle.BattleViewBase.F9A9A2BAC1C6BF273
 function C2391C1B3E531D954_prototype:F9A9A2BAC1C6BF273()
-  local L1_2
+
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2391C1B3E531D954"]["prototype"]
-L69_1 = _ENV["C2391C1B3E531D954"]
-L68_1.__class__ = L69_1
-L68_1 = _ENV["C2391C1B3E531D954"]
-L69_1 = "__super__"
-L69_1 = _ENV["C2391C1B3E531D954"]["prototype"]
-L70_1 = {}
-L71_1 = "__index"
-L70_1 = _ENV["C2391C1B3E531D954"]
-L68_1[L69_1] = L70_1
-L72_1 = _ENV["C2391C1B3E531D954"]["prototype"]
-L70_1[L71_1] = L72_1
-L68_1(L69_1, L70_1)
-L68_1 = "E218464FC4A930627"
-L69_1 = {}
-L70_1 = "__ename__"
-L71_1 = true
-L69_1[L70_1] = L71_1
-L70_1 = "__constructs__"
+C2391C1B3E531D954_prototype.__class__ = C2391C1B3E531D954
+C2391C1B3E531D954.__super__ = CDC3F92928A2194E6
+setmetatable(C2391C1B3E531D954_prototype, {__index = CDC3F92928A2194E6})
