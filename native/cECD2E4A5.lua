@@ -8,7 +8,7 @@
 ---@field fD4E920D9 fun(x:userdata,y:string):userdata
 ---@field fBCD0707E fun(x:userdata,y:string):userdata
 ---@field fBC1D4AC0 fun(x:userdata,y:string):userdata
----@field f6CE5A900 fun(x:userdata,y:string):c3FAF3463
+---@field f6CE5A900 fun(x:c016374C1,y:string):c3FAF3463
 ---@field f0318E058 fun(x:userdata,y:string):userdata
 ---@field fAD5AE364 fun(x:userdata,y:string):userdata
 ---@field fF3AEC363 fun(x:userdata,y:string):userdata

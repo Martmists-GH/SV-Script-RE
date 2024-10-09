@@ -150,6 +150,7 @@ function L43_1_prototype:remove(A1_2)
     return L4_2
 end
 
+---@return Iterator<T>
 function L43_1_prototype:iterator()
     local L1_2, L2_2
     L1_2 = L45_1.new

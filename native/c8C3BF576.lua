@@ -10,7 +10,7 @@
 ---@field fED9E8CBC fun(x:string,y:number):void
 ---@field f58A93CBE fun(x:string):boolean
 ---@field fC901D813 fun(x:string,y:number):boolean
----@field fC8CEF9EF fun(x:string,y:string):userdata
+---@field fC8CEF9EF fun(x:string,y:string):c535A0125
 ---@field fBFC9C979 fun(x:string,y:number):userdata
 ---@field f0214A745 fun(x:string,y:string,z:number):userdata
 ---@field f751397D3 fun(x:string,y:number,z:number):userdata

@@ -4,6 +4,9 @@
 ---@field prototype C1DB14DCC9D7634FA_prototype
 C1DB14DCC9D7634FA = L15_1()
 
+---@param A0_2 string
+---@param A1_2 fun():void
+---@return ti_Coroutine
 function C1DB14DCC9D7634FA.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1

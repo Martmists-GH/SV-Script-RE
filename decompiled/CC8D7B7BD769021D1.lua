@@ -30,6 +30,7 @@ end
 CC8D7B7BD769021D1.__name__ = "CC8D7B7BD769021D1"
 ---@class CC8D7B7BD769021D1_prototype<T>
 ---@field [1] T @ value
+---@field [2] string
 ---@field [3] haxe_ds_List<fun(new:T):void> @ listeners
 CC8D7B7BD769021D1_prototype = L15_1()
 CC8D7B7BD769021D1.prototype = CC8D7B7BD769021D1_prototype

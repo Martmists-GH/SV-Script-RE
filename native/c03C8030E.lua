@@ -11,7 +11,7 @@ c03C8030E = {}  -- dummy
 ---@field fB5290670 fun(self:self,x:number,y:number):void
 ---@field f0FDE774D fun(self:self,x:number):c113335A8
 ---@field fFD034BC3 fun(self:self,x:number):c113335A8 @ GetPartyMember
----@field fE41B27AB fun(self:self,x:number):cD24CAB9B
+---@field fE41B27AB fun(self:self,x:number):cD24CAB9B @ = Pml::PokePara::pokemonParam
 ---@field fBB740892 fun(self:self,x:number):cD24CAB9B
 ---@field f62782BA1 fun(self:self):number @ GetPartySize
 ---@field f67D208C2 fun(self:self,x:userdata):number
