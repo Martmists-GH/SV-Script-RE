@@ -33,7 +33,7 @@ function CCFC2CF6B7B1477C2.super(self, A1_2)
 end
 
 CCFC2CF6B7B1477C2.__name__ = "CCFC2CF6B7B1477C2"
----@class CCFC2CF6B7B1477C2_prototype : CC7F8D431270AC472
+---@class CCFC2CF6B7B1477C2_prototype : main_ui_btlspot_ui_base_BattleSpotUIBase
 ---@field [10] c3FAF3463
 ---@field [11] c3FAF3463
 ---@field [12] c3FAF3463

@@ -46,9 +46,9 @@ end
 
 CCF23BBD95FD52C56.__name__ = "CCF23BBD95FD52C56"
 CCF23BBD95FD52C56.__interfaces__ = { C06B7D93634285E51 }
----@class CCF23BBD95FD52C56_prototype : C54BFF18F001FEC26
----@field [2] C5E0C0AB970B47D0E
----@field [3] C0FEA049F2C3923AB
+---@class CCF23BBD95FD52C56_prototype : ext_pe_NetworkSceneObjectBehavior
+---@field [2] main_field_action_base_ActionManager
+---@field [3] main_field_action_base_AutoActionManager
 ---@field [7] CCF23BBD95FD52C56_anon_1
 ---@field [8] boolean @ isSetup
 ---@field [9] boolean
@@ -57,7 +57,7 @@ CCF23BBD95FD52C56_prototype = L15_1()
 CCF23BBD95FD52C56.prototype = CCF23BBD95FD52C56_prototype
 
 --- main.field.behaviour.base.BaseFieldBehaviour.F15061E1BD41607B2
----@return C83B3E57553F5DACF
+---@return main_field_action_ActionPicnicBallThrow
 function CCF23BBD95FD52C56_prototype:F15061E1BD41607B2(A1_2, A2_2)
   local L3_2 = self[2]:FEF3A3B6876841F5A(A1_2)  -- Find
   if nil ~= L3_2 then
@@ -67,7 +67,7 @@ function CCF23BBD95FD52C56_prototype:F15061E1BD41607B2(A1_2, A2_2)
 end
 
 --- main.field.behaviour.base.BaseFieldBehaviour.FE3D8DE737FF658E3
----@return CD65C44A08D7E6CF4
+---@return main_field_action_ActionRideTakingInAndOut
 function CCF23BBD95FD52C56_prototype:FE3D8DE737FF658E3(A1_2, A2_2)
   local L3_2 = self[2]:FEF3A3B6876841F5A(A1_2)
   if nil ~= L3_2 then

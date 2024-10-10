@@ -165,8 +165,8 @@ end
 
 ---@class CE55264D46437D7D3_prototype: ext_pe_SceneObjectBehavior
 ---@field [3] c016374C1
----@field [5] C9FF834DA3287B602
----@field [6] C841FAF53FDF47C6C
+---@field [5] main_ui_hud_ittekoi_HudIttekoiManager
+---@field [6] main_ui_hud_team_circle_member_HudTeamCircleMemberManager
 ---@field [7] boolean
 ---@field [8] boolean
 CE55264D46437D7D3_prototype = L15_1()

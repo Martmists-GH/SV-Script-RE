@@ -1,3 +1,5 @@
+---@alias main_ui_photomode_interfaces_ui_model_PhotomodeUIMode E400D8CAA1B9C4210
+
 ---@class E400D8CAA1B9C4210 : { [0]: string, [1]: number }
 ---@field Top E400D8CAA1B9C4210
 ---@field LeagueCardChangePhoto E400D8CAA1B9C4210

@@ -139,7 +139,7 @@ function C51C789C764D66E76.SC5EA75F3CF44AF2F(A0_2, A1_2, A2_2)
   L4_2[24][1][15]:F329E9E3CE74D7888()  -- ApplyIkRideTarget
 end
 
----@class C51C789C764D66E76_prototype : CCF23BBD95FD52C56
+---@class C51C789C764D66E76_prototype : main_field_behaviour_base_BaseFieldBehaviour
 ---@field [22] number
 ---@field [23] number
 ---@field [26] number
@@ -151,9 +151,9 @@ end
 ---@field [32] boolean
 ---@field [33] C51C789C764D66E76_anon_2
 ---@field [34] number waterfallCount
----@field [35] C196136934693419F
----@field [36] C196136934693419F
----@field [37] C196136934693419F
+---@field [35] main_playables_misc_TemplateInstantiator
+---@field [36] main_playables_misc_TemplateInstantiator
+---@field [37] main_playables_misc_TemplateInstantiator
 ---@field [38] C51C789C764D66E76_anon_3
 ---@field [39] number
 ---@field [43] number

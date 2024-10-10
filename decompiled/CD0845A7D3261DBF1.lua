@@ -27,27 +27,27 @@ end
 
 CD0845A7D3261DBF1.__name__ = "CD0845A7D3261DBF1"
 CD0845A7D3261DBF1.__interfaces__ = { CD7A94911165772DF }
----@class CD0845A7D3261DBF1_prototype : CD7A94911165772DF, CC8D7B7BD769021D1
----@field [1] CC8D7B7BD769021D1<boolean> @ guideUIVisible
----@field [2] CC8D7B7BD769021D1<E400D8CAA1B9C4210> @ photomodeUIMode
----@field [3] CC8D7B7BD769021D1<number> @ photoFilterMode
+---@class CD0845A7D3261DBF1_prototype : main_ui_photomode_interfaces_ui_model_IPhotomodeUIModel
+---@field [1] main_util_reactive_ReactiveProperty<boolean> @ guideUIVisible
+---@field [2] main_util_reactive_ReactiveProperty<main_ui_photomode_interfaces_ui_model_PhotomodeUIMode> @ photomodeUIMode
+---@field [3] main_util_reactive_ReactiveProperty<number> @ photoFilterMode
 CD0845A7D3261DBF1_prototype = L15_1()
 CD0845A7D3261DBF1.prototype = CD0845A7D3261DBF1_prototype
 
 --- CD0845A7D3261DBF1.GetGuideUIVisible
----@return CC8D7B7BD769021D1<boolean>
+---@return main_util_reactive_ReactiveProperty<boolean>
 function CD0845A7D3261DBF1_prototype:F81B27286A0C27B2F()
   return self[1]
 end
 
 --- CD0845A7D3261DBF1.GetPhotomodeUIMode
----@return CC8D7B7BD769021D1<E400D8CAA1B9C4210>
+---@return main_util_reactive_ReactiveProperty<main_ui_photomode_interfaces_ui_model_PhotomodeUIMode>
 function CD0845A7D3261DBF1_prototype:F1B72423E8153D93B()
   return self[2]
 end
 
 --- CD0845A7D3261DBF1.GetPhotoFilterMode
----@return CC8D7B7BD769021D1<number>
+---@return main_util_reactive_ReactiveProperty<number>
 function CD0845A7D3261DBF1_prototype:F5BC134016274DB9C()
   return self[3]
 end

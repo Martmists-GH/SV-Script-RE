@@ -1,3 +1,5 @@
+---@alias main_ui_btlspot_ui_base_BattleSpotUIBase CC7F8D431270AC472
+
 ---@class CC7F8D431270AC472 : CC7F8D431270AC472_prototype
 ---@field prototype CC7F8D431270AC472_prototype
 CC7F8D431270AC472 = L15_1()
@@ -38,7 +40,7 @@ CC7F8D431270AC472.__name__ = "CC7F8D431270AC472"
 ---@field [3] cECF00344
 ---@field [4] c69ACCC6F
 ---@field [5] any @ uiManager
----@field [6] C79B82A2414716FF8
+---@field [6] main_ui_tips_TipsEasyViewer
 ---@field [7] ti_Coroutine
 CC7F8D431270AC472_prototype = L15_1()
 CC7F8D431270AC472.prototype = CC7F8D431270AC472_prototype

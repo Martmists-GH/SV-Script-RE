@@ -1,3 +1,6 @@
+---@alias main_ui_title_first_start_player_select_view_base_PlayerSelectUIBase CFFE6D2CD907B3D13
+
+
 ---@class CFFE6D2CD907B3D13 : CFFE6D2CD907B3D13_prototype
 ---@field_prototype CFFE6D2CD907B3D13_prototype
 CFFE6D2CD907B3D13 = L15_1()
@@ -15,7 +18,7 @@ end
 
 
 CFFE6D2CD907B3D13.__name__ = "CFFE6D2CD907B3D13"
----@class CFFE6D2CD907B3D13_prototype : C5A03B25F2E5CB3E2
+---@class CFFE6D2CD907B3D13_prototype : main_ui_title_first_start_base_TitleUIFirstStartViewBase
 ---@field [5] string
 ---@field [6] c69ACCC6F
 CFFE6D2CD907B3D13_prototype = L15_1()

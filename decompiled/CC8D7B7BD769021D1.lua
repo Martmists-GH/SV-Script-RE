@@ -1,3 +1,5 @@
+---@alias main_util_reactive_ReactiveProperty<T> CC8D7B7BD769021D1<T>
+
 ---@class CC8D7B7BD769021D1<T> : CC8D7B7BD769021D1_prototype<T>
 ---Some kind of ObservableValue type?
 ---@field prototype CC8D7B7BD769021D1_prototype<T>
