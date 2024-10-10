@@ -43,7 +43,7 @@ function CFD74BEB2381EA80F.SD40D3A64E8B633BD(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
----@class CFD74BEB2381EA80F_prototype : CDC3F92928A2194E6
+---@class CFD74BEB2381EA80F_prototype: ext_pe_SceneObjectBehavior
 ---@field [2] cACBFA004
 ---@field [3] number
 ---@field [4] number | nil

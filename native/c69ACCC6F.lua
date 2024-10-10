@@ -1,6 +1,6 @@
 ---@class c69ACCC6F : c69ACCC6F_instance
----@field fEFEFCCBE fun(x:userdata,y:userdata):boolean @ IsEqual
----@field f8C317F18 fun(x:userdata,y:userdata):boolean @ NotEqual
+---@field fEFEFCCBE fun(x:c69ACCC6F_instance,y:c69ACCC6F_instance):boolean @ IsEqual
+---@field f8C317F18 fun(x:c69ACCC6F_instance,y:c69ACCC6F_instance):boolean @ NotEqual
 ---@field f3F98EEAD fun(x:c016374C1):c69ACCC6F
 c69ACCC6F = {}  -- dummy
 

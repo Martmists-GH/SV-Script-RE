@@ -54,7 +54,7 @@ function CCA659CC7D4A35CB6.super(self, A1_2)
 end
 
 CCA659CC7D4A35CB6.__name__ = "CCA659CC7D4A35CB6"
----@class CCA659CC7D4A35CB6_prototype : CDC3F92928A2194E6
+---@class CCA659CC7D4A35CB6_prototype: ext_pe_SceneObjectBehavior
 ---@field [2] number
 ---@field [3] number
 ---@field [5] cECF00344

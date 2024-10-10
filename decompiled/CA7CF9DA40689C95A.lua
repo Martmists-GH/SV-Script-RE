@@ -27,7 +27,7 @@ function CA7CF9DA40689C95A:super(A1_2)
 end
 
 CA7CF9DA40689C95A.__name__ = "CA7CF9DA40689C95A"
----@class CA7CF9DA40689C95A_prototype : CDC3F92928A2194E6
+---@class CA7CF9DA40689C95A_prototype: ext_pe_SceneObjectBehavior
 ---@field private [2] boolean @ popupStop
 ---@field private [3] C690C42F3FAF568B7
 ---@field private [4] C8F824939B37A601D

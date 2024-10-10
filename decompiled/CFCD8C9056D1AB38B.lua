@@ -47,7 +47,7 @@ function CFCD8C9056D1AB38B.SC22C2773A68837D3(A0_2, A1_2)  -- SceneLoad
   return L2_2
 end
 
----@class CFCD8C9056D1AB38B_prototype : CDC3F92928A2194E6
+---@class CFCD8C9056D1AB38B_prototype: ext_pe_SceneObjectBehavior
 ---@field [2] ti_Coroutine
 CFCD8C9056D1AB38B_prototype = L15_1()
 CFCD8C9056D1AB38B.prototype = CFCD8C9056D1AB38B_prototype

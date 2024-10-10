@@ -33,7 +33,7 @@ function CC7F8D431270AC472.super(self, A1_2)
 end
 
 CC7F8D431270AC472.__name__ = "CC7F8D431270AC472"
----@class CC7F8D431270AC472_prototype : CDC3F92928A2194E6
+---@class CC7F8D431270AC472_prototype: ext_pe_SceneObjectBehavior
 ---@field [2] boolean @ isSetup
 ---@field [3] cECF00344
 ---@field [4] c69ACCC6F

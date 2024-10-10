@@ -1,12 +1,10 @@
-L55_1 = _ENV
-L56_1 = "C862326AB4ECB5F0C"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C862326AB4ECB5F0C"]
-L69_1 = "new"
+---@alias main_startup_Startup C862326AB4ECB5F0C
 
-function L70_1(A0_2)
+---@class C862326AB4ECB5F0C : C862326AB4ECB5F0C_prototype
+---@field prototype C862326AB4ECB5F0C_prototype
+C862326AB4ECB5F0C = L15_1()
+
+function C862326AB4ECB5F0C.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C862326AB4ECB5F0C
@@ -22,110 +20,44 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C862326AB4ECB5F0C"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param self C862326AB4ECB5F0C
+function C862326AB4ECB5F0C.super(self, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = "C862326AB4ECB5F0C"
-L69_1 = _ENV["C862326AB4ECB5F0C"]
-L25_1[L68_1] = L69_1
-L68_1 = _ENV["C862326AB4ECB5F0C"]
-L69_1 = "__name__"
-L70_1 = "C862326AB4ECB5F0C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C862326AB4ECB5F0C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C862326AB4ECB5F0C"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
+C862326AB4ECB5F0C.__name__ = "C862326AB4ECB5F0C"
 
-function L70_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[1]
-  L3_2 = L2_2
-  L2_2 = L2_2.f462C9B70
-  L2_2 = L2_2(L3_2)
-  L3_2 = L2_2
-  L2_2 = L2_2.f9D8BC178
-  L2_2 = L2_2(L3_2)
-  if L2_2 then
-    L2_2 = A0_2[1]
-    L3_2 = L2_2
-    L2_2 = L2_2.f462C9B70
-    L2_2 = L2_2(L3_2)
-    while true do
-      L3_2 = nil
-      L4_2 = cA042DA13
-      L4_2 = L4_2.f25C936C9
-      L6_2 = L2_2
-      L5_2 = L2_2.fC637F2AB
-      L5_2 = L5_2(L6_2)
-      L6_2 = L3_2
-      L4_2 = L4_2(L5_2, L6_2)
-      if not L4_2 then
-        break
-      end
-      L5_2 = L2_2
-      L4_2 = L2_2.fC637F2AB
-      L4_2 = L4_2(L5_2)
-      L2_2 = L4_2
+---@class C862326AB4ECB5F0C_prototype: ext_pe_SceneObjectBehavior
+C862326AB4ECB5F0C_prototype = L15_1()
+C862326AB4ECB5F0C.prototype = C862326AB4ECB5F0C_prototype
+
+--- main.startup.Startup.PreUpdate
+function C862326AB4ECB5F0C_prototype:FE94F3E13286232CF(A1_2)
+  if self[1]:f462C9B70():f9D8BC178() then
+    local L2_2 = self[1]:f462C9B70()
+    while cA042DA13.f25C936C9(L2_2:fC637F2AB(), nil) do
+      L2_2 = L2_2:fC637F2AB()
     end
-    L3_2 = A0_2[1]
-    L4_2 = L3_2
-    L3_2 = L3_2.fE9C29DA1
-    L3_2(L4_2)
-    L4_2 = L2_2
-    L3_2 = L2_2.fE9C29DA1
-    L3_2(L4_2)
-    L3_2 = C2DC51D8F98E848B7
-    L3_2 = L3_2.SFCE091807173F6E9
-    L4_2 = L2_2
-    L3_2(L4_2)
-    L3_2 = A0_2[1]
-    L4_2 = L3_2
-    L3_2 = L3_2.fBE3B2D3B
-    L3_2(L4_2)
+    self[1]:fE9C29DA1()
+    L2_2:fE9C29DA1()
+    C2DC51D8F98E848B7.SFCE091807173F6E9(L2_2)  -- main.system.game_event.GameEventStartup.Call
+    self[1]:fBE3B2D3B()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C862326AB4ECB5F0C"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
-  local L1_2
-  L1_2 = cAF8D78F3
-  L1_2 = L1_2.f1A7E5A5C
-  L1_2()
-  L1_2 = c2FB59E8B
-  L1_2 = L1_2.f1A7E5A5C
-  L1_2()
-  L1_2 = c1A1CBE3B
-  L1_2 = L1_2.f1A7E5A5C
-  L1_2()
-  L1_2 = C89EDEA229C2677B4
-  L1_2 = L1_2.SBD9A67233ED8E612
-  L1_2()
+--- main.startup.Startup.Destroy
+function C862326AB4ECB5F0C_prototype:F1C2AA00ADAC52EC5()
+  cAF8D78F3.f1A7E5A5C()
+  c2FB59E8B.f1A7E5A5C()
+  c1A1CBE3B.f1A7E5A5C()
+  C89EDEA229C2677B4.SBD9A67233ED8E612()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C862326AB4ECB5F0C"]["prototype"]
-L69_1 = _ENV["C862326AB4ECB5F0C"]
-L68_1.__class__ = L69_1
-L68_1 = _ENV["C862326AB4ECB5F0C"]
-L69_1 = "__super__"
-L69_1 = _ENV["C862326AB4ECB5F0C"]["prototype"]
-L70_1 = {}
-L71_1 = "__index"
+C862326AB4ECB5F0C_prototype.__class__ = C862326AB4ECB5F0C
+C862326AB4ECB5F0C.__super__ = CDC3F92928A2194E6
+setmetatable(C862326AB4ECB5F0C_prototype, {__index = CDC3F92928A2194E6})

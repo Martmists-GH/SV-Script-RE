@@ -72,7 +72,7 @@ function CFE4B9727260FF401.S34128016168C0133()
   return false
 end
 
----@class CFE4B9727260FF401_prototype : CDC3F92928A2194E6
+---@class CFE4B9727260FF401_prototype: ext_pe_SceneObjectBehavior
 CFE4B9727260FF401_prototype = L15_1()
 CFE4B9727260FF401.prototype = CFE4B9727260FF401_prototype
 

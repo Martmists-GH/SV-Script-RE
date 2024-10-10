@@ -1001,7 +1001,7 @@ function C5871932D02D179E6.SAE931DCB6EB65F69(A0_2)
   return L2_2
 end
 
----@class C5871932D02D179E6_prototype : CDC3F92928A2194E6
+---@class C5871932D02D179E6_prototype: ext_pe_SceneObjectBehavior
 ---@field [2] number
 ---@field [3] cA042DA13
 ---@field [4] hx_tab_array<C2B3E52E6BEE978D5>

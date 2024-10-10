@@ -85,7 +85,7 @@ function C2391C1B3E531D954.SFBB0B0E669815919()
   return C2391C1B3E531D954.SAAC46724A86CA96A
 end
 
----@class C2391C1B3E531D954_prototype : CDC3F92928A2194E6
+---@class C2391C1B3E531D954_prototype: ext_pe_SceneObjectBehavior
 ---@field [2] boolean @ isBattle
 ---@field [3] boolean @ isAutoBattle
 ---@field [4] boolean @ isForceExitRequest

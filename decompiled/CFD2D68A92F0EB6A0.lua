@@ -29,7 +29,7 @@ function CFD2D68A92F0EB6A0.super(self, A1_2)
 end
 
 CFD2D68A92F0EB6A0.__name__ = "CFD2D68A92F0EB6A0"
----@class CFD2D68A92F0EB6A0_prototype : CDC3F92928A2194E6
+---@class CFD2D68A92F0EB6A0_prototype: ext_pe_SceneObjectBehavior
 ---@field [2] cECF00344
 CFD2D68A92F0EB6A0_prototype = L15_1()
 CFD2D68A92F0EB6A0.prototype = CFD2D68A92F0EB6A0_prototype

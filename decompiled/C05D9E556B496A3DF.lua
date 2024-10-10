@@ -428,7 +428,7 @@ function C05D9E556B496A3DF.SF607C9E0AC8DD734(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2)
 end
 
----@class C05D9E556B496A3DF_prototype : CDC3F92928A2194E6
+---@class C05D9E556B496A3DF_prototype: ext_pe_SceneObjectBehavior
 C05D9E556B496A3DF_prototype = L15_1()
 C05D9E556B496A3DF.prototype = C05D9E556B496A3DF_prototype
 

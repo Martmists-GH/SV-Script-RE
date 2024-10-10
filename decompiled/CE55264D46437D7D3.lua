@@ -163,7 +163,7 @@ function CE55264D46437D7D3.SBF8593BA4503BAF0()
   C5871932D02D179E6.SBF8593BA4503BAF0()  -- main.ui.hud_notice.SceneHudNoticeManager.SBF8593BA4503BAF0()
 end
 
----@class CE55264D46437D7D3_prototype : CDC3F92928A2194E6
+---@class CE55264D46437D7D3_prototype: ext_pe_SceneObjectBehavior
 ---@field [3] c016374C1
 ---@field [5] C9FF834DA3287B602
 ---@field [6] C841FAF53FDF47C6C
