@@ -23,7 +23,7 @@ end
 
 
 CFFD5BC9198F67F25.__name__ = "CFFD5BC9198F67F25"
----@class CFFD5BC9198F67F25
+---@class CFFD5BC9198F67F25_prototype
 ---@field [3] c016374C1
 ---@field [4] c016374C1
 ---@field [6] c016374C1

@@ -1,23 +1,12 @@
-L55_1 = _ENV
-L56_1 = "CE97B195BFD4AAD95"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = "CE97B195BFD4AAD95"
-L69_1 = _ENV["CE97B195BFD4AAD95"]
-L25_1[L68_1] = L69_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "__name__"
-L70_1 = "CE97B195BFD4AAD95"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "SF84EB735B798FBFB"
+---@alias main_util_Easing CE97B195BFD4AAD95
 
-function L70_1(A0_2)
+---@class CE97B195BFD4AAD95
+CE97B195BFD4AAD95 = L15_1()
+CE97B195BFD4AAD95.new = {}
+CE97B195BFD4AAD95.__name__ = "CE97B195BFD4AAD95"
+
+--- main.util.Easing.InSine
+function CE97B195BFD4AAD95.SF84EB735B798FBFB(A0_2)
   local L1_2, L2_2
   L1_2 = L10_1.math
   L1_2 = L1_2.cos
@@ -31,11 +20,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S326CCD5DA23D033A"
-
-function L70_1(A0_2)
+--- main.util.Easing.OutSine
+function CE97B195BFD4AAD95.S326CCD5DA23D033A(A0_2)
   local L1_2, L2_2
   L1_2 = L10_1.math
   L1_2 = L1_2.sin
@@ -46,11 +32,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S127706DDD24BD3EF"
-
-function L70_1(A0_2)
+--- main.util.Easing.InOutSine
+function CE97B195BFD4AAD95.S127706DDD24BD3EF(A0_2)
   local L1_2, L2_2
   L1_2 = L10_1.math
   L1_2 = L1_2.cos
@@ -64,21 +47,15 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S70312C4714B8872D"
-
-function L70_1(A0_2)
+--- main.util.Easing.InQuad
+function CE97B195BFD4AAD95.S70312C4714B8872D(A0_2)
   local L1_2
   L1_2 = A0_2 * A0_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S5B2D706ADB80B6C0"
-
-function L70_1(A0_2)
+--- main.util.Easing.OutQuad
+function CE97B195BFD4AAD95.S5B2D706ADB80B6C0(A0_2)
   local L1_2, L2_2
   L1_2 = 1
   L1_2 = L1_2 - A0_2
@@ -90,11 +67,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "SE4EFD3EFF3C227F1"
-
-function L70_1(A0_2)
+--- main.util.Easing.InOutQuad
+function CE97B195BFD4AAD95.SE4EFD3EFF3C227F1(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = 0.5
   if A0_2 < L1_2 then
@@ -115,22 +89,16 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S1CBD233C8FED8D84"
-
-function L70_1(A0_2)
+--- main.util.Easing.InCubic
+function CE97B195BFD4AAD95.S1CBD233C8FED8D84(A0_2)
   local L1_2
   L1_2 = A0_2 * A0_2
   L1_2 = L1_2 * A0_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "SBFB35AC0FE4D60C7"
-
-function L70_1(A0_2)
+--- main.util.Easing.OutCubic
+function CE97B195BFD4AAD95.SBFB35AC0FE4D60C7(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = L10_1.math
   L1_2 = L1_2.pow
@@ -143,11 +111,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "SC6E673C91B79B408"
-
-function L70_1(A0_2)
+--- main.util.Easing.InOutCubic
+function CE97B195BFD4AAD95.SC6E673C91B79B408(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = 0.5
   if A0_2 < L1_2 then
@@ -169,11 +134,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S5BCA99C8354E178D"
-
-function L70_1(A0_2)
+--- main.util.Easing.InQuart
+function CE97B195BFD4AAD95.S5BCA99C8354E178D(A0_2)
   local L1_2
   L1_2 = A0_2 * A0_2
   L1_2 = L1_2 * A0_2
@@ -181,11 +143,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S6F37BD92FBF66622"
-
-function L70_1(A0_2)
+--- main.util.Easing.OutQuart
+function CE97B195BFD4AAD95.S6F37BD92FBF66622(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = L10_1.math
   L1_2 = L1_2.pow
@@ -198,11 +157,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "SC5EAA9BB331E8EE9"
-
-function L70_1(A0_2)
+--- main.util.Easing.InOutQuart
+function CE97B195BFD4AAD95.SC5EAA9BB331E8EE9(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = 0.5
   if A0_2 < L1_2 then
@@ -225,11 +181,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S16DE41C80E5F9039"
-
-function L70_1(A0_2)
+--- main.util.Easing.InQuint
+function CE97B195BFD4AAD95.S16DE41C80E5F9039(A0_2)
   local L1_2
   L1_2 = A0_2 * A0_2
   L1_2 = L1_2 * A0_2
@@ -238,11 +191,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S2A667592D51EC1B6"
-
-function L70_1(A0_2)
+--- main.util.Easing.OutQuint
+function CE97B195BFD4AAD95.S2A667592D51EC1B6(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = L10_1.math
   L1_2 = L1_2.pow
@@ -255,11 +205,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S0A3401BB5982B4ED"
-
-function L70_1(A0_2)
+--- main.util.Easing.InOutQuint
+function CE97B195BFD4AAD95.S0A3401BB5982B4ED(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = 0.5
   if A0_2 < L1_2 then
@@ -283,11 +230,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S765C5EABFC8E2C1A"
-
-function L70_1(A0_2)
+--- main.util.Easing.InExpo
+function CE97B195BFD4AAD95.S765C5EABFC8E2C1A(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = L10_1.math
   L1_2 = L1_2.abs
@@ -308,11 +252,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S9410CECFDFB4C77B"
-
-function L70_1(A0_2)
+--- main.util.Easing.OutExpo
+function CE97B195BFD4AAD95.S9410CECFDFB4C77B(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = L10_1.math
   L1_2 = L1_2.abs
@@ -335,11 +276,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S672C6D8AC8A8EF2E"
-
-function L70_1(A0_2)
+--- main.util.Easing.InOutExpo
+function CE97B195BFD4AAD95.S672C6D8AC8A8EF2E(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = L10_1.math
   L1_2 = L1_2.abs
@@ -387,11 +325,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S08BACFE1CC741AC4"
-
-function L70_1(A0_2)
+--- main.util.Easing.OutCirc
+function CE97B195BFD4AAD95.S08BACFE1CC741AC4(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L10_1.math
   L1_2 = L1_2.sqrt
@@ -405,11 +340,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S4F8775BD915842B1"
-
-function L70_1(A0_2)
+--- main.util.Easing.InCirc
+function CE97B195BFD4AAD95.S4F8775BD915842B1(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L10_1.math
   L1_2 = L1_2.sqrt
@@ -426,11 +358,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S67E92C5AE340A235"
-
-function L70_1(A0_2)
+--- main.util.Easing.InOutCirc
+function CE97B195BFD4AAD95.S67E92C5AE340A235(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0.5
   if A0_2 < L1_2 then
@@ -466,11 +395,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S25C3A9B2A8CA3FBD"
-
-function L70_1(A0_2)
+--- main.util.Easing.InBack
+function CE97B195BFD4AAD95.S25C3A9B2A8CA3FBD(A0_2)
   local L1_2, L2_2
   L1_2 = 2.70158 * A0_2
   L1_2 = L1_2 * A0_2
@@ -481,11 +407,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "SFC4CFBE77CB6EFD8"
-
-function L70_1(A0_2)
+--- main.util.Easing.OutBack
+function CE97B195BFD4AAD95.SFC4CFBE77CB6EFD8(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L10_1.math
   L1_2 = L1_2.pow
@@ -504,11 +427,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "SBEF42053AA225A81"
-
-function L70_1(A0_2)
+--- main.util.Easing.InOutBack
+function CE97B195BFD4AAD95.SBEF42053AA225A81(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = 0.5
   if A0_2 < L1_2 then
@@ -540,11 +460,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "SFD9B49BA630EAC55"
-
-function L70_1(A0_2)
+--- main.util.Easing.InElastic
+function CE97B195BFD4AAD95.SFD9B49BA630EAC55(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L10_1.math
   L1_2 = L1_2.abs
@@ -589,11 +506,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S31AAE71FD25D5136"
-
-function L70_1(A0_2)
+--- main.util.Easing.OutElastic
+function CE97B195BFD4AAD95.S31AAE71FD25D5136(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L10_1.math
   L1_2 = L1_2.abs
@@ -637,11 +551,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "SC322CD87342C66A9"
-
-function L70_1(A0_2)
+--- main.util.Easing.InOutElastic
+function CE97B195BFD4AAD95.SC322CD87342C66A9(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L10_1.math
   L1_2 = L1_2.pi
@@ -707,11 +618,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S38BD6E65420A0A5E"
-
-function L70_1(A0_2)
+--- main.util.Easing.InBounce
+function CE97B195BFD4AAD95.S38BD6E65420A0A5E(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = 1
   L1_2 = L1_2 - A0_2
@@ -747,11 +655,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S153E372E2B39F837"
-
-function L70_1(A0_2)
+--- main.util.Easing.OutBounce
+function CE97B195BFD4AAD95.S153E372E2B39F837(A0_2)
   local L1_2
   L1_2 = 0.36363636363636365
   if A0_2 < L1_2 then
@@ -785,11 +690,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "SE2B26D6DD6C303E2"
-
-function L70_1(A0_2)
+--- main.util.Easing.InOutBounce
+function CE97B195BFD4AAD95.SE2B26D6DD6C303E2(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = 0.5
   if A0_2 < L1_2 then
@@ -863,20 +765,14 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S9E8D84680DA400A0"
-
-function L70_1(A0_2)
+--- main.util.Easing.Linear
+function CE97B195BFD4AAD95.S9E8D84680DA400A0(A0_2)
   local L1_2
   return A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "SCE2C9A68643F70E7"
-
-function L70_1(A0_2)
+--- main.util.Easing.Func
+function CE97B195BFD4AAD95.SCE2C9A68643F70E7(A0_2)
   local L1_2
   if 0 == A0_2 then
     L1_2 = CE97B195BFD4AAD95
@@ -1005,11 +901,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S0A0EAE3F3AFC912A"
-
-function L70_1(A0_2, A1_2)
+--- main.util.Easing.Value
+function CE97B195BFD4AAD95.S0A0EAE3F3AFC912A(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = nil
   if 0 == A1_2 then
@@ -1111,11 +1004,8 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE97B195BFD4AAD95"]
-L69_1 = "S1EC36A9E2B152D97"
-
-function L70_1(A0_2, A1_2)
+--- main.util.Easing.MakeType
+function CE97B195BFD4AAD95.S1EC36A9E2B152D97(A0_2, A1_2)
   local L2_2, L3_2
   L2_2 = A0_2
   if L2_2 >= 10 then
@@ -1126,5 +1016,3 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2 + A1_2
   return L3_2
 end
-
-L68_1[L69_1] = L70_1

@@ -3,7 +3,7 @@
 ---@class C2391C1B3E531D954 : C2391C1B3E531D954_prototype
 ---@field prototype C2391C1B3E531D954_prototype
 ---@field SAAC46724A86CA96A number @ m_resourceIndexCount
----@field SF01AF38CFB48F8C2 c1A00019C @ Random
+---@field SF01AF38CFB48F8C2 CSPRNG @ Random
 C2391C1B3E531D954 = L15_1()
 
 function C2391C1B3E531D954.new(A0_2)
@@ -90,19 +90,23 @@ end
 ---@field [3] boolean @ isAutoBattle
 ---@field [4] boolean @ isForceExitRequest
 ---@field [5] boolean @ isSuspend
----@field [6] any @ pokemonArray
----@field [7] any @ trainerArray
----@field [8] CA88B406C5C1CD5DF @ camera
----@field [10] C81893E74A5F39011
----@field [12] C9E414E3D4C94CDDF
----@field [13] any @ setupData
----@field [15] Array<Array<CAF6E4A7D736F28F3>> @ directors
----@field [16] Array<CAF6E4A7D736F28F3>
+---@field [6] Array<main_battle_parts_BattlePokemon> @ pokemonArray
+---@field [7] Array<main_battle_parts_BattleTrainer> @ trainerArray
+---@field [8] main_battle_parts_BattleCamera @ camera
+---@field [10] main_battle_BattleAreaData
+---@field [11] main_battle_BattleWeatherManager
+---@field [12] main_battle_ui_BattleUiSystem
+---@field [13] main_battle_BattleSetupData @ setupData
+---@field [14] main_battle_BattleResultData
+---@field [15] Array<Array<main_battle_director_BattleDirectorBase>> @ directors
+---@field [16] Array<main_battle_director_BattleDirectorBase>
 ---@field [17] boolean @ isSimpleEffect
----@field [18] Array<C5C47C382B19BD9B6>
----@field [19] Array<any>
----@field [23] C17EABB3711AD8EDE
+---@field [18] Array<main_battle_parts_BattleLandSmoke>
+---@field [19] Array<main_battle_parts_BattleBallResource>
+---@field [19] main_battle_parts_BattleGemHitResource
+---@field [23] main_battle_parts_BattleDropItem
 ---@field [25] cB3DDDC2A
+---@field [26] main_battle_BattleResidentEffectManager
 ---@field [27] boolean
 ---@field [28] number
 ---@field [29] boolean
@@ -225,10 +229,11 @@ end
 --- main.battle.BattleViewBase.PostUpdate
 function C2391C1B3E531D954_prototype:F20A40E2F8B95D5F6(A1_2)
   self:FA7062E4338CF62F8():FEB6685558281F194(A1_2)  -- self:GetCamera():Update(A1_2)
-  self[12]:F20A40E2F8B95D5F6A1_2()
+  self[12]:F20A40E2F8B95D5F6()
 end
 
 --- main.battle.BattleViewBase.FC02020F9703120C3
+---@param A1_2 c016374C1
 function C2391C1B3E531D954_prototype:FC02020F9703120C3(A1_2)
   if c016374C1.f4555D276(A1_2, nil) then
     return
@@ -293,7 +298,7 @@ function C2391C1B3E531D954_prototype:FB6EC885A7F44CE6D(A1_2)
 end
 
 --- main.battle.BattleViewBase.AddDirector
----@param A3_2? number
+---@param A3_2 number
 function C2391C1B3E531D954_prototype:F0FE16EC69F8BC25C(A1_2, A2_2, A3_2)
   if nil == A3_2 then
     A3_2 = 0

@@ -1,4 +1,4 @@
---- Some kind of CSPRNG implementation?
+---@alias CSPRNG c1A00019C
 
 ---@class c1A00019C : c1A00019C_instance
 ---@field fDEE7341A fun(x:c1A00019C_instance,y:c1A00019C_instance):boolean @ isEqual

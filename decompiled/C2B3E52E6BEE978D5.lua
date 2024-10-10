@@ -1,5 +1,6 @@
 ---@class C2B3E52E6BEE978D5 : C2B3E52E6BEE978D5_prototype
 ---@field prototype C2B3E52E6BEE978D5_prototype
+C2B3E52E6BEE978D5 = L15_1()
 
 function C2B3E52E6BEE978D5.new()
   local L0_2, L1_2, L2_2, L3_2
@@ -18,7 +19,6 @@ end
 
 ---@param self C2B3E52E6BEE978D5
 function C2B3E52E6BEE978D5.super(self)
-  local L1_2
   self[10] = ""
   self[9] = nil
   self[8] = -1
@@ -35,6 +35,7 @@ C2B3E52E6BEE978D5.__name__ = "C2B3E52E6BEE978D5"
 ---@class C2B3E52E6BEE978D5_prototype
 ---@field [1] string
 ---@field [2] string
+---@field [3] c016374C1
 ---@field [4] cECF00344
 ---@field [5] string
 ---@field [6] boolean

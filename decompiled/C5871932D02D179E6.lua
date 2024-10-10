@@ -7,6 +7,7 @@
 ---@field S23F4ED88AF777A0F cCF781FB6 @ s_scriptComponent
 ---@field S336E6A2D4A6541FA number @ s_visibleCount
 ---@field SF3075AB31C9E8AF4 C5871932D02D179E6 @ s_instance
+---@field S155874633F047E17 hx_tab_array<C5871932D02D179E6_anon_2>
 C5871932D02D179E6 = L15_1()
 
 function C5871932D02D179E6.new(A0_2)
@@ -496,7 +497,7 @@ function C5871932D02D179E6.S7849193749E6F9CC(A0_2)
     L1_2 = false
   end
   if L1_2 then
-                C5871932D02D179E6.S23F4ED88AF777A0F:fF327F826(false)
+    C5871932D02D179E6.S23F4ED88AF777A0F:fF327F826(false)
   end
 end
 
@@ -796,30 +797,13 @@ end
 
 --- main.ui.hud_notice.SceneHudNoticeManager.GetPlaySEName
 function C5871932D02D179E6.S106F8BAB29DCFEA6(A0_2)
-  local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = 0
-  L2_2 = C5871932D02D179E6
-  L2_2 = L2_2.S155874633F047E17
-  L3_2 = false
-  while true do
-    L4_2 = L2_2.length
-    if not (L1_2 < L4_2) then
-      break
-    end
-    L4_2 = L2_2[L1_2]
-    L1_2 = L1_2 + 1
-    L5_2 = L4_2.m_windowType
-    if L5_2 == A0_2 then
-      L5_2 = L4_2.m_seName
-      return L5_2
-    end
-    if L3_2 then
-      L3_2 = false
-      break
+  for L1_2 = 0, C5871932D02D179E6.S155874633F047E17.length - 1 do
+    local L4_2 = C5871932D02D179E6.S155874633F047E17[L1_2]
+    if L4_2.m_windowType == A0_2 then
+      return L4_2.m_seName
     end
   end
-  L4_2 = ""
-  return L4_2
+  return ""
 end
 
 --- main.ui.hud_notice.SceneHudNoticeManager.SetVisibleParamScriptId
@@ -1011,11 +995,11 @@ end
 ---@field [11] boolean
 ---@field [12] boolean
 ---@field [13] boolean
-CDC3F92928A2194E6_prototype = L15_1()
-CDC3F92928A2194E6.prototype = CDC3F92928A2194E6_prototype
+C5871932D02D179E6_prototype = L15_1()
+C5871932D02D179E6.prototype.prototype = C5871932D02D179E6_prototype
 
 --- main.ui.hud_notice.SceneHudNoticeManager.Setup
-function CDC3F92928A2194E6_prototype:F7C68FEDB79AB6396(A1_2)
+function C5871932D02D179E6_prototype:F7C68FEDB79AB6396(A1_2)
   CDC3F92928A2194E6.prototype.F7C68FEDB79AB6396(self, A1_2)
   self[3] = self[1]:f462C9B70()
   C5871932D02D179E6.SF3075AB31C9E8AF4 = self
@@ -1639,52 +1623,22 @@ end
 
 --- main.ui.hud_notice.SceneHudNoticeManager.IsAllDone
 function C5871932D02D179E6_prototype:FD14926226BBC78F4()
-  local L1_2, L2_2
-  L1_2 = C5871932D02D179E6
-  L1_2 = L1_2.S9D99C271E76A802B
-  L1_2 = L1_2.length
-  if L1_2 > 0 then
-    L1_2 = false
-    return L1_2
+  if C5871932D02D179E6.S9D99C271E76A802B.length > 0 then
+    return false
   end
-  L1_2 = self[4]
-  L1_2 = L1_2[0]
-  L2_2 = L1_2
-  L1_2 = L1_2.FFC7312AA44705E34
-  L1_2 = L1_2(L2_2)
-  if false == L1_2 then
-    L1_2 = false
-    return L1_2
+  if false == self[4][0]:FFC7312AA44705E34() then
+    return false
   end
-  L1_2 = self[4]
-  L1_2 = L1_2[1]
-  L2_2 = L1_2
-  L1_2 = L1_2.FFC7312AA44705E34
-  L1_2 = L1_2(L2_2)
-  if false == L1_2 then
-    L1_2 = false
-    return L1_2
+  if false == self[4][1]:FFC7312AA44705E34() then
+    return false
   end
-  L1_2 = self[4]
-  L1_2 = L1_2[2]
-  L2_2 = L1_2
-  L1_2 = L1_2.FFC7312AA44705E34
-  L1_2 = L1_2(L2_2)
-  if false == L1_2 then
-    L1_2 = false
-    return L1_2
+  if false == self[4][2]:FFC7312AA44705E34() then
+    return false
   end
-  L1_2 = self[4]
-  L1_2 = L1_2[3]
-  L2_2 = L1_2
-  L1_2 = L1_2.FFC7312AA44705E34
-  L1_2 = L1_2(L2_2)
-  if false == L1_2 then
-    L1_2 = false
-    return L1_2
+  if false == self[4][3]:FFC7312AA44705E34() then
+    return false
   end
-  L1_2 = true
-  return L1_2
+  return true
 end
 
 --- main.ui.hud_notice.SceneHudNoticeManager.StatusChangeNotify
@@ -1707,47 +1661,19 @@ end
 
 --- main.ui.hud_notice.SceneHudNoticeManager.Reset
 function C5871932D02D179E6_prototype:F96EA28F400597FA0()
-  local L1_2, L2_2, L3_2
-  L1_2 = C5871932D02D179E6
-  L1_2 = L1_2.S9D99C271E76A802B
-  L2_2 = L1_2
-  L1_2 = L1_2.resize
-  L3_2 = 0
-  L1_2(L2_2, L3_2)
+  C5871932D02D179E6.S9D99C271E76A802B:resize(0)
   self[2] = 0
   self[10] = false
   self[11] = false
   self[12] = false
   self[13] = false
-  L1_2 = self[9]
-  if 30 ~= L1_2 then
-    L1_2 = self[9]
-    if 0 ~= L1_2 then
-      goto lbl_18
-    end
+  if 30 == self[9] or 0 == self[9] then
+    return
   end
-  do return end
-  ::lbl_18::
-  L1_2 = self[4]
-  L1_2 = L1_2[0]
-  L2_2 = L1_2
-  L1_2 = L1_2.F96EA28F400597FA0
-  L1_2(L2_2)
-  L1_2 = self[4]
-  L1_2 = L1_2[1]
-  L2_2 = L1_2
-  L1_2 = L1_2.F96EA28F400597FA0
-  L1_2(L2_2)
-  L1_2 = self[4]
-  L1_2 = L1_2[2]
-  L2_2 = L1_2
-  L1_2 = L1_2.F96EA28F400597FA0
-  L1_2(L2_2)
-  L1_2 = self[4]
-  L1_2 = L1_2[3]
-  L2_2 = L1_2
-  L1_2 = L1_2.F96EA28F400597FA0
-  L1_2(L2_2)
+  self[4][0]:F96EA28F400597FA0()
+  self[4][1]:F96EA28F400597FA0()
+  self[4][2]:F96EA28F400597FA0()
+  self[4][3]:F96EA28F400597FA0()
   self[9] = 30
 end
 
@@ -1757,6 +1683,26 @@ setmetatable(C5871932D02D179E6_prototype, {__index = CDC3F92928A2194E6})
 
 C5871932D02D179E6.S9D99C271E76A802B = _hx_tab_array({length=0},0)
 C5871932D02D179E6.S5BDA75D02718C17F = true
+C5871932D02D179E6.S155874633F047E17 = _hx_tab_array({
+  length = 0,
+  [0] = L16_1 { m_windowType = 0, m_seName = "PLAY_UI_NOTIFICATION_WINDOW_MEAL", __fields__ = { m_windowType = true, m_seName = true } },
+  [1] = L16_1 { m_windowType = 1, m_seName = "PLAY_UI_NOTIFICATION_WINDOW_PK", __fields__ = { m_windowType = true, m_seName = true } },
+  [2] = L16_1 { m_windowType = 2, m_seName = "PLAY_UI_NOTIFICATION_WINDOW_GENERAL_PURPOSE", __fields__ = { m_windowType = true, m_seName = true } },
+  [3] = L16_1 { m_windowType = 3, m_seName = "PLAY_UI_NOTIFICATION_WINDOW_WAZA_MACHINE", __fields__ = { m_windowType = true, m_seName = true } },
+  [4] = L16_1 { m_windowType = 4, m_seName = "PLAY_UI_NOTIFICATION_WINDOW_ROTOM_FAIL", __fields__ = { m_windowType = true, m_seName = true } },
+  [5] = L16_1 { m_windowType = 5, m_seName = "PLAY_UI_NOTIFICATION_WINDOW_PICTURE_BOOK", __fields__ = { m_windowType = true, m_seName = true } },
+  [6] = L16_1 { m_windowType = 6, m_seName = "PLAY_UI_NOTIFICATION_WINDOW_MAIN", __fields__ = { m_windowType = true, m_seName = true } },
+  [7] = L16_1 { m_windowType = 7, m_seName = "PLAY_UI_NOTIFICATION_WINDOW_COMMUNICATION", __fields__ = { m_windowType = true, m_seName = true } },
+  [8] = L16_1 { m_windowType = 8, m_seName = "PLAY_UI_NOTIFICATION_WINDOW_TERA_MARK", __fields__ = { m_windowType = true, m_seName = true } },
+  [9] = L16_1 { m_windowType = 9, m_seName = "PLAY_UI_NOTIFICATION_WINDOW_GENERAL_PURPOSE", __fields__ = { m_windowType = true, m_seName = true } },
+  [10] = L16_1 { m_windowType = 10, m_seName = "PLAY_UI_NOTIFICATION_WINDOW_GENERAL_PURPOSE", __fields__ = { m_windowType = true, m_seName = true } },
+  [11] = L16_1 { m_windowType = 11, m_seName = "PLAY_BA_SYS_SIMPLE_OUTSTANDING_EFFECT_WINDOW", __fields__ = { m_windowType = true, m_seName = true } },
+  [12] = L16_1 { m_windowType = 12, m_seName = "PLAY_BA_SYS_SIMPLE_NOT_SO_MUCH_WINDOW", __fields__ = { m_windowType = true, m_seName = true } },
+  [13] = L16_1 { m_windowType = 13, m_seName = "", __fields__ = { m_windowType = true, m_seName = true } },
+  [14] = L16_1 { m_windowType = 14, m_seName = "PLAY_UI_NOTIFICATION_WINDOW_POKEDEX_REWARD", __fields__ = { m_windowType = true, m_seName = true } },
+  [15] = L16_1 { m_windowType = 15, m_seName = "PLAY_UI_NOTIFICATION_WINDOW_GENERAL_PURPOSE", __fields__ = { m_windowType = true, m_seName = true } },
+  [16] = L16_1 { m_windowType = 16, m_seName = "", __fields__ = { m_windowType = true, m_seName = true } },
+}, 17)
 
 ---@class C5871932D02D179E6_anon_1
 ---@field m_fbsId number
@@ -1765,3 +1711,7 @@ C5871932D02D179E6.S5BDA75D02718C17F = true
 ---@field m_PokemonParam any
 ---@field m_isPlaySE boolean
 ---@field m_seName any
+
+---@class C5871932D02D179E6_anon_2
+---@field m_windowType number
+---@field m_seName string

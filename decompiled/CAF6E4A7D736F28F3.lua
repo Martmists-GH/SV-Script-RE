@@ -1,5 +1,8 @@
+---@alias main_battle_director_BattleDirectorBase CAF6E4A7D736F28F3
+
 ---@class CAF6E4A7D736F28F3 : CAF6E4A7D736F28F3_prototype
 ---@field prototype CAF6E4A7D736F28F3_prototype
+CAF6E4A7D736F28F3 = L15_1()
 
 function CAF6E4A7D736F28F3.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
@@ -35,8 +38,8 @@ end
 
 CAF6E4A7D736F28F3.__name__ = "CAF6E4A7D736F28F3"
 ---@class CAF6E4A7D736F28F3_prototype
----@field [1] C2391C1B3E531D954 | CA5A5606298DDCB29
----@field [2] C58ED32CFF2C9BAAA @ timelinePlayer
+---@field [1] main_battle_BattleViewBase | CA5A5606298DDCB29
+---@field [2] main_battle_BattleTimelinePlayer @ timelinePlayer
 ---@field [3] number
 ---@field [4] boolean @ isFinish
 ---@field [5] boolean @ deltaTime
