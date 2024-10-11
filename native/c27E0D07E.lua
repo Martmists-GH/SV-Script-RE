@@ -1,0 +1,47 @@
+---@class c27E0D07E : c27E0D07E_instance
+---@field f73858EA3 fun(x:c098A635D):userdata
+---@field fFC04274B fun(x:c27E0D07E_instance,y:c27E0D07E_instance):boolean @ IsEqual
+---@field f0D6C1637 fun(x:c27E0D07E_instance,y:c27E0D07E_instance):boolean @ NotEqual
+c27E0D07E = {}  -- dummy
+
+---@class c27E0D07E_instance : userdata
+---@field f8CFF76CD fun(self:self,x:boolean):void
+---@field f48A089F1 fun(self:self,x:boolean):void
+---@field f5B89E0DB fun(self:self,x:boolean):void
+---@field f292BC86A fun(self:self,x:boolean):void
+---@field f44213A5F fun(self:self,x:number,y:number,z:number):void
+---@field fDC667AD2 fun(self:self):number,number,number
+---@field f6F06128C fun(self:self):void
+---@field f13CDA9A3 fun(self:self):void
+---@field f3ED070C9 fun(self:self):boolean
+---@field f6277C172 fun(self:self,x:boolean):void
+---@field f33A1A337 fun(self:self):boolean
+---@field fA8492502 fun(self:self,x:boolean):void
+---@field f3F176020 fun(self:self):boolean
+---@field f6E624FAC fun(self:self):boolean
+---@field f2A9CF058 fun(self:self,x:boolean):void
+---@field f2C7B9325 fun(self:self):boolean
+---@field f4F8C7B75 fun(self:self):void
+---@field fA8FAC6B9 fun(self:self,x:cEBF4B147):string
+---@field f06E080B8 fun(self:self,x:cEBF4B147,y:boolean,z:boolean):void
+---@field f09FE563B fun(self:self):userdata
+---@field f94487CEE fun(self:self,x:string,y:boolean):void
+---@field f8D47254B fun(self:self,x:cEBF4B147):boolean
+---@field fFA4015DD fun(self:self,x:string):boolean
+---@field f17EAB099 fun(self:self,x:boolean):boolean
+---@field fC06447B6 fun(self:self):boolean
+---@field f1B115A6A fun(self:self):boolean
+---@field f0ACDD123 fun(self:self):boolean
+---@field fB24E432B fun(self:self,x:boolean):boolean
+---@field f996B1222 fun(self:self,x:userdata,y:userdata):void
+---@field fA9C94D05 fun(self:self,x:string):void
+---@field f028FF590 fun(self:self,x:string):void
+---@field f8957F977 fun(self:self,x:userdata):void
+---@field f2A6667E2 fun(self:self):void
+---@field f468677D6 fun(self:self):boolean
+---@field f8A657C3F fun(self:self):boolean
+---@field f3E67DC76 fun(self:self):userdata
+---@field f57D494A7 fun(self:self):boolean
+---@field f0F9652FC fun(self:self):boolean
+---@field f0DD6EEAC fun(self:self):number
+---@field f71AAAF8E fun(self:self):number

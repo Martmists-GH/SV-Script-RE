@@ -4,6 +4,9 @@
 ---@field prototype C85D42D96031A28AE_prototype
 C85D42D96031A28AE = L15_1()
 
+---@param A0_2 c016374C1
+---@param A1_2 string
+---@param A2_2 string
 function C85D42D96031A28AE.new(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = L2_1
