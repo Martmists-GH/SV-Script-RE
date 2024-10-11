@@ -1,6 +1,6 @@
----@alias main_field_FieldUtility CFC8F368D91411014
+---@alias CFC8F368D91411014 main_field_FieldUtility
 
----@class CFC8F368D91411014
+---@class main_field_FieldUtility
 ---@field SDE9EF3CFD428417D main_playables_free_move_ctrl_ActorControlBehavior @ LocalControl
 ---@field S693B72BE6E0E949D c016374C1
 ---@field S52271CF2FB4598E5 number

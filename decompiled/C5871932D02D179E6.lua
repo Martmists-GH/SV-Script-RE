@@ -1,6 +1,6 @@
----@alias main_ui_hud_notice_SceneHudNoticeManager C5871932D02D179E6
+---@alias C5871932D02D179E6 main_ui_hud_notice_SceneHudNoticeManager
 
----@class C5871932D02D179E6 : C5871932D02D179E6_prototype
+---@class main_ui_hud_notice_SceneHudNoticeManager : C5871932D02D179E6_prototype
 ---@field prototype C5871932D02D179E6_prototype
 ---@field S9D99C271E76A802B hx_tab_array<C5871932D02D179E6_anon_1> @ s_NoticeContainerArray
 ---@field S5BDA75D02718C17F boolean @ s_IsVisible

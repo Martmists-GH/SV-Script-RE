@@ -1,6 +1,6 @@
----@alias main_poke_SetupPartner C51BAE764A06D9B6E
+---@alias C51BAE764A06D9B6E main_poke_SetupPartner
 
----@class C51BAE764A06D9B6E : C51BAE764A06D9B6E_prototype
+---@class main_poke_SetupPartner : C51BAE764A06D9B6E_prototype
 ---@field prototype C51BAE764A06D9B6E_prototype
 C51BAE764A06D9B6E = L15_1()
 

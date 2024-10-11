@@ -1,6 +1,6 @@
----@alias main_ui_ymap_frame_YMapFrameView CFE4B9727260FF401
+---@alias CFE4B9727260FF401 main_ui_ymap_frame_YMapFrameView
 
----@class CFE4B9727260FF401 : CFE4B9727260FF401_prototype
+---@class main_ui_ymap_frame_YMapFrameView : CFE4B9727260FF401_prototype
 ---@field prototype CFE4B9727260FF401_prototype
 ---@field SE7C1A0753C43861F cECF00344 @ m_Layout
 ---@field S87B5584A89E7E7A6 boolean

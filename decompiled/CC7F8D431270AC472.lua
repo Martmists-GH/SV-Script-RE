@@ -1,6 +1,6 @@
----@alias main_ui_btlspot_ui_base_BattleSpotUIBase CC7F8D431270AC472
+---@alias CC7F8D431270AC472 main_ui_btlspot_ui_base_BattleSpotUIBase
 
----@class CC7F8D431270AC472 : CC7F8D431270AC472_prototype
+---@class main_ui_btlspot_ui_base_BattleSpotUIBase : CC7F8D431270AC472_prototype
 ---@field prototype CC7F8D431270AC472_prototype
 CC7F8D431270AC472 = L15_1()
 

@@ -1,6 +1,6 @@
----@alias ti_Coroutine C1DB14DCC9D7634FA
+---@alias C1DB14DCC9D7634FA ti_Coroutine
 
----@class C1DB14DCC9D7634FA : C1DB14DCC9D7634FA_prototype
+---@class ti_Coroutine : C1DB14DCC9D7634FA_prototype
 ---@field prototype C1DB14DCC9D7634FA_prototype
 C1DB14DCC9D7634FA = L15_1()
 

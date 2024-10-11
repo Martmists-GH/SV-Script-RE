@@ -1,6 +1,6 @@
----@alias main_field_behaviour_base_BaseFieldBehaviour CCF23BBD95FD52C56
+---@alias CCF23BBD95FD52C56 main_field_behaviour_base_BaseFieldBehaviour
 
----@class CCF23BBD95FD52C56 : CCF23BBD95FD52C56_prototype
+---@class main_field_behaviour_base_BaseFieldBehaviour : CCF23BBD95FD52C56_prototype
 ---@field prototype CCF23BBD95FD52C56_prototype
 CCF23BBD95FD52C56 = L15_1()
 

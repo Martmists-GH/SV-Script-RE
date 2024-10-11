@@ -1,6 +1,6 @@
----@alias main_ui_ymap_YMapUtility C0411AD5229B92DD6
+---@alias C0411AD5229B92DD6 main_ui_ymap_YMapUtility
 
----@class C0411AD5229B92DD6
+---@class main_ui_ymap_YMapUtility
 C0411AD5229B92DD6 = L15_1()
 C0411AD5229B92DD6.new = {}
 C0411AD5229B92DD6.__name__ = "C0411AD5229B92DD6"

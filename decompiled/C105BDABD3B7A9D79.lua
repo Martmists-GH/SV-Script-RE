@@ -1,6 +1,6 @@
----@alias main_ui_HUDUtility C105BDABD3B7A9D79
+---@alias C105BDABD3B7A9D79 main_ui_HUDUtility
 
----@class C105BDABD3B7A9D79
+---@class main_ui_HUDUtility
 C105BDABD3B7A9D79 = L15_1()
 C105BDABD3B7A9D79.new = {}
 C105BDABD3B7A9D79.__name__ = "C105BDABD3B7A9D79"

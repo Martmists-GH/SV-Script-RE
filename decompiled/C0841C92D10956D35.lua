@@ -1,6 +1,6 @@
----@alias main_ui_util_UIMessage C0841C92D10956D35
+---@alias C0841C92D10956D35 main_ui_util_UIMessage
 
----@class C0841C92D10956D35
+---@class main_ui_util_UIMessage
 ---@field S94F6D8046156E35A any @ currentType
 ---@field S959FD3B9C781D60B cB3DDDC2A @ wordset
 ---@field S22355CB1D1A44CDB number @ contextSeq

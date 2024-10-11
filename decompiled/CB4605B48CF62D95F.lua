@@ -1,6 +1,6 @@
----@alias main_ui_event_QuestClear CB4605B48CF62D95F
+---@alias CB4605B48CF62D95F main_ui_event_QuestClear
 
----@class CB4605B48CF62D95F : CB4605B48CF62D95F_prototype
+---@class main_ui_event_QuestClear : CB4605B48CF62D95F_prototype
 ---@field prototype CB4605B48CF62D95F_prototype
 CB4605B48CF62D95F = L15_1()
 

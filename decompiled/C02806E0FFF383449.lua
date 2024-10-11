@@ -1,6 +1,6 @@
----@alias main_ui_util_LayoutText C02806E0FFF383449
+---@alias C02806E0FFF383449 main_ui_util_LayoutText
 
----@class C02806E0FFF383449 : C02806E0FFF383449_prototype
+---@class main_ui_util_LayoutText : C02806E0FFF383449_prototype
 ---@field prototype C02806E0FFF383449_prototype
 C02806E0FFF383449 = L15_1()
 

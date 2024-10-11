@@ -1,6 +1,6 @@
----@alias main_ui_util_uikit_GridPanelUtil C85D42D96031A28AE
+---@alias C85D42D96031A28AE main_ui_util_uikit_GridPanelUtil
 
----@class C85D42D96031A28AE : C85D42D96031A28AE_prototype
+---@class main_ui_util_uikit_GridPanelUtil : C85D42D96031A28AE_prototype
 ---@field prototype C85D42D96031A28AE_prototype
 C85D42D96031A28AE = L15_1()
 

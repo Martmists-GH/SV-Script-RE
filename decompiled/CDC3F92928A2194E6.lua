@@ -1,6 +1,6 @@
----@alias ext_pe_SceneObjectBehavior CDC3F92928A2194E6
+---@alias CDC3F92928A2194E6 ext_pe_SceneObjectBehavior
 
----@class CDC3F92928A2194E6 : CDC3F92928A2194E6_prototype
+---@class ext_pe_SceneObjectBehavior : CDC3F92928A2194E6_prototype
 ---@field prototype CDC3F92928A2194E6_prototype
 CDC3F92928A2194E6 = L15_1()
 

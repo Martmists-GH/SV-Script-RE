@@ -1,6 +1,6 @@
----@alias main_startup_Startup C862326AB4ECB5F0C
+---@alias C862326AB4ECB5F0C main_startup_Startup
 
----@class C862326AB4ECB5F0C : C862326AB4ECB5F0C_prototype
+---@class main_startup_Startup : C862326AB4ECB5F0C_prototype
 ---@field prototype C862326AB4ECB5F0C_prototype
 C862326AB4ECB5F0C = L15_1()
 

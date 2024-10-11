@@ -1,6 +1,6 @@
----@alias main_util_Math CD9AE7C27B00EB066
+---@alias CD9AE7C27B00EB066 main_util_Math
 
----@class CD9AE7C27B00EB066
+---@class main_util_Math
 ---@field SFB8A67CFE7F5605D number EPSILON
 CD9AE7C27B00EB066 = L15_1()
 CD9AE7C27B00EB066.new = {}

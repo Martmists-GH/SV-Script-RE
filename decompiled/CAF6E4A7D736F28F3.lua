@@ -1,6 +1,6 @@
----@alias main_battle_director_BattleDirectorBase CAF6E4A7D736F28F3
+---@alias CAF6E4A7D736F28F3 main_battle_director_BattleDirectorBase
 
----@class CAF6E4A7D736F28F3 : CAF6E4A7D736F28F3_prototype
+---@class main_battle_director_BattleDirectorBase : CAF6E4A7D736F28F3_prototype
 ---@field prototype CAF6E4A7D736F28F3_prototype
 CAF6E4A7D736F28F3 = L15_1()
 

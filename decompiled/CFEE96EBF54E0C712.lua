@@ -1,6 +1,6 @@
----@alias main_ui_btlspot_ui_BattleSpotUICategory CFEE96EBF54E0C712
+---@alias CFEE96EBF54E0C712 main_ui_btlspot_ui_BattleSpotUICategory
 
----@class CFEE96EBF54E0C712 : CFEE96EBF54E0C712_prototype
+---@class main_ui_btlspot_ui_BattleSpotUICategory : CFEE96EBF54E0C712_prototype
 ---@field prototype CFEE96EBF54E0C712_prototype
 CFEE96EBF54E0C712 = L15_1()
 

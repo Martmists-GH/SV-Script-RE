@@ -1,6 +1,6 @@
----@alias main_ui_hud_ittekoi_HudIttekoiView CCA659CC7D4A35CB6
+---@alias CCA659CC7D4A35CB6 main_ui_hud_ittekoi_HudIttekoiView
 
----@class CCA659CC7D4A35CB6 : CCA659CC7D4A35CB6_prototype
+---@class main_ui_hud_ittekoi_HudIttekoiView : CCA659CC7D4A35CB6_prototype
 ---@field prototype CCA659CC7D4A35CB6_prototype
 CCA659CC7D4A35CB6 = L15_1()
 

@@ -1,6 +1,6 @@
----@alias main_playables_free_move_ctrl_ActorControlBehavior C51C789C764D66E76
+---@alias C51C789C764D66E76 main_playables_free_move_ctrl_ActorControlBehavior
 
----@class C51C789C764D66E76 C51C789C764D66E76_prototype
+---@class main_playables_free_move_ctrl_ActorControlBehavior C51C789C764D66E76_prototype
 ---@field prototype C51C789C764D66E76_prototype
 ---@field S4E42083B906AB134 any @ RIDE_A_TEMPLATE_PATH
 ---@field S473DE4AF6153E071 any @ RIDE_B_TEMPLATE_PATH

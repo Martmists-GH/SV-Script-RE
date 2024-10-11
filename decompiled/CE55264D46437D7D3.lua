@@ -1,6 +1,6 @@
----@alias main_ui_hud_manager_HudManager CE55264D46437D7D3
+---@alias CE55264D46437D7D3 main_ui_hud_manager_HudManager
 
----@class CE55264D46437D7D3 : CE55264D46437D7D3_prototype
+---@class main_ui_hud_manager_HudManager : CE55264D46437D7D3_prototype
 ---@field prototype CE55264D46437D7D3_prototype
 ---@field S5BDA75D02718C17F boolean @ s_IsVisible
 ---@field S336E6A2D4A6541FA number @ s_visibleCount

@@ -1,6 +1,6 @@
----@alias main_playables_free_move_trig_LadderEventTrigger CFD74BEB2381EA80F
+---@alias CFD74BEB2381EA80F main_playables_free_move_trig_LadderEventTrigger
 
----@class CFD74BEB2381EA80F : CFD74BEB2381EA80F_prototype
+---@class main_playables_free_move_trig_LadderEventTrigger : CFD74BEB2381EA80F_prototype
 ---@field prototype CFD74BEB2381EA80F_prototype
 CFD74BEB2381EA80F = L15_1()
 

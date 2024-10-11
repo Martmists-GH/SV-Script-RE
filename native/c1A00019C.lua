@@ -1,6 +1,6 @@
----@alias CSPRNG c1A00019C
+---@alias c1A00019C CSPRNG
 
----@class c1A00019C : c1A00019C_instance
+---@class CSPRNG : c1A00019C_instance
 ---@field fDEE7341A fun(x:c1A00019C_instance,y:c1A00019C_instance):boolean @ isEqual
 ---@field fED0913C4 fun(x:c1A00019C_instance,y:c1A00019C_instance):boolean @ notEqual
 ---@field f898BA682 fun():number @ newSeed

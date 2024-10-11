@@ -1,6 +1,6 @@
----@alias main_ui_hud_notice_data_HudNoticeDataAccessor C759AABB8037E728E
+---@alias C759AABB8037E728E main_ui_hud_notice_data_HudNoticeDataAccessor
 
----@class C759AABB8037E728E : C759AABB8037E728E_prototype
+---@class main_ui_hud_notice_data_HudNoticeDataAccessor : C759AABB8037E728E_prototype
 ---@field prototype C759AABB8037E728E_prototype
 C759AABB8037E728E = L15_1()
 

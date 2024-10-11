@@ -1,6 +1,6 @@
----@alias main_battle_BattleViewBase C2391C1B3E531D954
+---@alias C2391C1B3E531D954 main_battle_BattleViewBase
 
----@class C2391C1B3E531D954 : C2391C1B3E531D954_prototype
+---@class main_battle_BattleViewBase : C2391C1B3E531D954_prototype
 ---@field prototype C2391C1B3E531D954_prototype
 ---@field SAAC46724A86CA96A number @ m_resourceIndexCount
 ---@field SF01AF38CFB48F8C2 CSPRNG @ Random

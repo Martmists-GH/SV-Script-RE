@@ -1,6 +1,6 @@
----@alias main_ui_util_LayoutUtil C9CC979169E6BA3A6
+---@alias C9CC979169E6BA3A6 main_ui_util_LayoutUtil
 
----@class C9CC979169E6BA3A6 : C9CC979169E6BA3A6_prototype
+---@class main_ui_util_LayoutUtil : C9CC979169E6BA3A6_prototype
 ---@field prototype C9CC979169E6BA3A6_prototype
 C9CC979169E6BA3A6 = L15_1()
 

@@ -1,6 +1,6 @@
----@alias main_util_Easing CE97B195BFD4AAD95
+---@alias CE97B195BFD4AAD95 main_util_Easing
 
----@class CE97B195BFD4AAD95
+---@class main_util_Easing
 CE97B195BFD4AAD95 = L15_1()
 CE97B195BFD4AAD95.new = {}
 CE97B195BFD4AAD95.__name__ = "CE97B195BFD4AAD95"

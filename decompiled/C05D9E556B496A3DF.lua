@@ -1,6 +1,6 @@
----@alias main_system_game_time_GameTimeManager C05D9E556B496A3DF
+---@alias C05D9E556B496A3DF main_system_game_time_GameTimeManager
 
----@class C05D9E556B496A3DF : C05D9E556B496A3DF_prototype
+---@class main_system_game_time_GameTimeManager : C05D9E556B496A3DF_prototype
 ---@field prototype C05D9E556B496A3DF_prototype
 ---@field SC8223E31D3163519 any @ s_impl
 C05D9E556B496A3DF = L15_1()
