@@ -15,7 +15,7 @@
 ---@field SF4DA88D99CFDC026 number @ SeqRedy
 ---@field S48EA8F08F2654151 number @ SeqEnd
 ---@field SBEF1FC73060AE5BE number @ STATE_IDL
----@field SFBAE58BDCE31F3BD number @ STATE_IDL
+---@field SFBAE58BDCE31F3BD number
 C9D0EA3ECE93115FA = L15_1()
 
 function C9D0EA3ECE93115FA.new(A0_2)
