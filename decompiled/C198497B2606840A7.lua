@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C198497B2606840A7"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "__name__"
-L70_1 = "C198497B2606840A7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S7813443FB34D6751"
+---@alias C198497B2606840A7 main_event_general_gym_base_Gym_denki_common
 
-function L70_1()
+---@class main_event_general_gym_base_Gym_denki_common
+C198497B2606840A7 = L15_1()
+C198497B2606840A7.new = {}
+C198497B2606840A7.__name__ = "C198497B2606840A7"
+--- main.event.general.gym.base.Gym_denki_common.StartTraining
+function C198497B2606840A7.S7813443FB34D6751()
   local L0_2, L1_2
   L0_2 = C198497B2606840A7
   L0_2.S2551E5F4F0D790C7 = true
@@ -33,11 +24,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SF113978F5EACDF60"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.endTraining
+function C198497B2606840A7.SF113978F5EACDF60()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = C198497B2606840A7
   L0_2.S2551E5F4F0D790C7 = false
@@ -64,11 +52,8 @@ function L70_1()
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S0B0CF14F75C2E516"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.TrainingReset
+function C198497B2606840A7.S0B0CF14F75C2E516()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CDCBFD50A277E546D
   L0_2 = L0_2.SE7C09D712FDFAC67
@@ -126,11 +111,8 @@ function L70_1()
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S18D36C00E364A54C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_denki_common.SetUpTraining
+function C198497B2606840A7.S18D36C00E364A54C(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A1_2 then
     A1_2 = false
@@ -265,11 +247,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SC7AAE70BE969E703"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_denki_common.SetCursorEyeDirection
+function C198497B2606840A7.SC7AAE70BE969E703(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = L31_1.int
   L3_2 = C0411AD5229B92DD6
@@ -291,22 +270,16 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S9CE4952C47612266"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.SetCursorEyeResetDirection
+function C198497B2606840A7.S9CE4952C47612266()
   local L0_2, L1_2
   L0_2 = CF8840A722B5C4365
   L0_2 = L0_2.S910CB0B2161B05B2
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SB1F8AE6E16AAF2D5"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.CursorUIIconOff
+function C198497B2606840A7.SB1F8AE6E16AAF2D5()
   local L0_2, L1_2
   L0_2 = C198497B2606840A7
   L0_2 = L0_2.SE1A075045022B3A9
@@ -319,11 +292,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SEE1394BE57269799"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.CursorUIIconOn
+function C198497B2606840A7.SEE1394BE57269799()
   local L0_2, L1_2
   L0_2 = CF8840A722B5C4365
   L0_2 = L0_2.SEE1394BE57269799
@@ -332,11 +302,8 @@ function L70_1()
   L0_2.SE1A075045022B3A9 = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S17E571D0C2B3FA21"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_denki_common.SetCursorTranslate
+function C198497B2606840A7.S17E571D0C2B3FA21(A0_2)
   local L1_2, L2_2
   L1_2 = CF8840A722B5C4365
   L1_2 = L1_2.S7D9280F85A2DDB21
@@ -344,11 +311,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S1466BF84931EC129"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_denki_common.Search
+function C198497B2606840A7.S1466BF84931EC129(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C198497B2606840A7
   L1_2 = L1_2.S7A57D9308052033A
@@ -377,22 +341,16 @@ function L70_1(A0_2)
   L2_2.S7A57D9308052033A = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SF4F04CB39B984FE2"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.SF4F04CB39B984FE2
+function C198497B2606840A7.SF4F04CB39B984FE2()
   local L0_2, L1_2
   L0_2 = C198497B2606840A7
   L0_2 = L0_2.S5E2A0665221197BB
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SB17D8774369BF3B9"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_denki_common.trainingSceneLoad
+function C198497B2606840A7.SB17D8774369BF3B9(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C198497B2606840A7
   L2_2 = c682D8E4F
@@ -414,11 +372,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S739D6E77C0BF48F8"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_denki_common.effectLoad
+function C198497B2606840A7.S739D6E77C0BF48F8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c451059A3
   L1_2 = L1_2.f5776B6C6
@@ -468,11 +423,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S67290476BF752A19"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_denki_common.initSetting
+function C198497B2606840A7.S67290476BF752A19(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L2_2 = C198497B2606840A7
   L2_2.S04ACFF823B258429 = A0_2
@@ -522,11 +474,8 @@ function L70_1(A0_2, A1_2)
   L3_2.SDF31C9383B870050 = -1
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S9D022DEFB1A28F37"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_denki_common.setResultObj
+function C198497B2606840A7.S9D022DEFB1A28F37(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C198497B2606840A7
   L1_2 = L1_2.S5E2A0665221197BB
@@ -576,11 +525,8 @@ function L70_1(A0_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SF13ED06C6C10734C"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.SF13ED06C6C10734C
+function C198497B2606840A7.SF13ED06C6C10734C()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = CA705BDBE7ADE7BAC
   L0_2 = L0_2.SCA7329942774246E
@@ -623,11 +569,8 @@ function L70_1()
   L4_2.SAC397888E29140B8 = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SFC5C9DB50F7BB3EF"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.setTargets
+function C198497B2606840A7.SFC5C9DB50F7BB3EF()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = nil
   L1_2 = c467D18B0
@@ -796,11 +739,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S7802189901A6D76D"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_denki_common.setObjsVisible
+function C198497B2606840A7.S7802189901A6D76D(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil ~= A0_2 then
     L2_2 = 0
@@ -834,11 +774,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SD5EEAF3AC0E2E723"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_denki_common.setWarpObjects
+function C198497B2606840A7.SD5EEAF3AC0E2E723(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C198497B2606840A7
   L2_2 = CDCBFD50A277E546D
@@ -922,11 +859,8 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S0D2A87140D32F3CB"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_denki_common.getScreenPos
+function C198497B2606840A7.S0D2A87140D32F3CB(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2
   L3_2 = A1_2
   L2_2 = A1_2.f7360ED03
@@ -974,11 +908,8 @@ function L70_1(A0_2, A1_2)
   return L24_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S1895FA5B378033C7"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_denki_common.getTargetObj
+function C198497B2606840A7.S1895FA5B378033C7(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 or "" == A0_2 then
     L1_2 = nil
@@ -1017,11 +948,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S553786788BFB4442"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.updateTraining
+function C198497B2606840A7.S553786788BFB4442()
   local L0_2, L1_2, L2_2
   L0_2 = C198497B2606840A7
   L0_2 = L0_2.S7A57D9308052033A
@@ -1060,11 +988,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SD6F71DF550BFCDF0"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.judgementEvent
+function C198497B2606840A7.SD6F71DF550BFCDF0()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   L0_2 = CF8840A722B5C4365
   L0_2 = L0_2.S848D9D7ACB2A9114
@@ -1331,11 +1256,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S5E34EC5CA29DA9B2"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.zoom
+function C198497B2606840A7.S5E34EC5CA29DA9B2()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C3A36506FBC96ACBD
   L0_2 = L0_2.SC6181320B46854EE
@@ -1362,11 +1284,8 @@ function L70_1()
   L0_2.S7A57D9308052033A = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S00455959EA22C8C9"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_denki_common.blurWait
+function C198497B2606840A7.S00455959EA22C8C9(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0.0
   while true do
@@ -1390,11 +1309,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S140C8FA80B9C8ECD"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.S140C8FA80B9C8ECD
+function C198497B2606840A7.S140C8FA80B9C8ECD()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = C198497B2606840A7
   L0_2 = L0_2.SAC397888E29140B8
@@ -1434,11 +1350,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SA02F643DBB56BC56"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.retire
+function C198497B2606840A7.SA02F643DBB56BC56()
   local L0_2, L1_2
   L0_2 = CF8840A722B5C4365
   L0_2 = L0_2.S07D71DFF6CAACDBF
@@ -1512,11 +1425,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S416620B89F099D37"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_denki_common.emitEffect
+function C198497B2606840A7.S416620B89F099D37(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = nil
   L2_2 = c016374C1
@@ -1556,11 +1466,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S3E6A1FFDB5D2E6B6"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.fadeEffect
+function C198497B2606840A7.S3E6A1FFDB5D2E6B6()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = nil
   L1_2 = c016374C1
@@ -1590,11 +1497,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S9F60A3319570E3F8"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.getBlurPos
+function C198497B2606840A7.S9F60A3319570E3F8()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = C63AFF94AAB36CB96
   L0_2 = L0_2.SC04EB8C312BD39F3
@@ -1639,11 +1543,8 @@ function L70_1()
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SB450A087C584CB25"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.updateTimer
+function C198497B2606840A7.SB450A087C584CB25()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L0_2 = CC6FE82819C6E1D55
   L0_2 = L0_2.S12F63EE47FFCB183
@@ -1766,11 +1667,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S5DC30124B2953F5B"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_denki_common.showMessage
+function C198497B2606840A7.S5DC30124B2953F5B(A0_2)
   local L1_2, L2_2, L3_2
   if nil ~= A0_2 then
     L1_2 = C9B54BC04DD492B6D
@@ -1810,11 +1708,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S03F9C21D71060AAF"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_denki_common.S03F9C21D71060AAF
+function C198497B2606840A7.S03F9C21D71060AAF(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = C198497B2606840A7
   L1_2 = L1_2.S4F5C81D0020834C7
@@ -1923,11 +1818,8 @@ function L70_1(A0_2)
   L7_2(L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SA0C1482DCA98C2E5"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_denki_common.getUpOffset
+function C198497B2606840A7.SA0C1482DCA98C2E5(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = L10_1.string
   L1_2 = L1_2.find
@@ -1967,11 +1859,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S68E0CF5700417E73"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_denki_common.sceneLoad
+function C198497B2606840A7.S68E0CF5700417E73(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -1987,11 +1876,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SA70A2E26A83E4FD8"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_denki_common.sceneUnLoad
+function C198497B2606840A7.SA70A2E26A83E4FD8(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -2007,11 +1893,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S06946808D1164C12"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.S06946808D1164C12
+function C198497B2606840A7.S06946808D1164C12()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = C198497B2606840A7
   L0_2 = L0_2.S2551E5F4F0D790C7
@@ -2039,11 +1922,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "SB1091AF6EF5F3F96"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.IsMoveCursor
+function C198497B2606840A7.SB1091AF6EF5F3F96()
   local L0_2, L1_2
   L0_2 = C198497B2606840A7
   L0_2 = L0_2.S2551E5F4F0D790C7
@@ -2060,11 +1940,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S004AE29F555A1639"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.GetCursorHoming
+function C198497B2606840A7.S004AE29F555A1639()
   local L0_2, L1_2, L2_2
   L0_2 = C198497B2606840A7
   L0_2 = L0_2.S3BF59E9071AF8C10
@@ -2077,11 +1954,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C198497B2606840A7"]
-L69_1 = "S3895BB7A2FC4CD55"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_denki_common.GetTimeCount
+function C198497B2606840A7.S3895BB7A2FC4CD55()
   local L0_2, L1_2
   L0_2 = C198497B2606840A7
   L0_2 = L0_2.SF74B7A93B934E2F3

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C03BFA8976E69133A"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C03BFA8976E69133A"]
-L69_1 = "new"
+---@alias C03BFA8976E69133A main_management_dressupItem_item_data_DressupItemDatabase
 
-function L70_1(A0_2)
+---@class main_management_dressupItem_item_data_DressupItemDatabase : C03BFA8976E69133A_prototype
+---@field prototype C03BFA8976E69133A_prototype
+C03BFA8976E69133A = L15_1()
+function C03BFA8976E69133A.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C03BFA8976E69133A
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C03BFA8976E69133A"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C03BFA8976E69133A
+function C03BFA8976E69133A.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A0_2
   L2_2 = A0_2.F456D8A8142ADC6FF
@@ -34,11 +28,7 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C03BFA8976E69133A"]
-L69_1 = "__name__"
-L70_1 = "C03BFA8976E69133A"
-L68_1[L69_1] = L70_1
+C03BFA8976E69133A.__name__ = "C03BFA8976E69133A"
 L68_1 = _ENV["C03BFA8976E69133A"]
 L69_1 = "S06572486D3EB2D16"
 
@@ -66,11 +56,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C03BFA8976E69133A"]
-L69_1 = "S6C81CA26BEA120D6"
-
-function L70_1(A0_2)
+--- main.management.dressupItem.item_data.DressupItemDatabase.S6C81CA26BEA120D6
+function C03BFA8976E69133A.S6C81CA26BEA120D6(A0_2)
   local L1_2
   L1_2 = 0
   if 2 == A0_2 then
@@ -94,18 +81,13 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C03BFA8976E69133A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C03BFA8976E69133A"]["prototype"]
-L69_1 = "FEA2C9508879A448C"
-
-function L70_1(A0_2)
+---@class C03BFA8976E69133A_prototype
+C03BFA8976E69133A_prototype = L15_1()
+C03BFA8976E69133A.prototype = C03BFA8976E69133A_prototype
+--- main.management.dressupItem.item_data.DressupItemDatabase.get_itemDataArray
+function C03BFA8976E69133A_prototype:FEA2C9508879A448C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = _hx_tab_array
   L3_2 = {}
   L3_2.length = 0
@@ -127,15 +109,12 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C03BFA8976E69133A"]["prototype"]
-L69_1 = "F13318482E8E10C41"
-
-function L70_1(A0_2, A1_2)
+--- main.management.dressupItem.item_data.DressupItemDatabase.GetItemDataProperty
+function C03BFA8976E69133A_prototype:F13318482E8E10C41(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = nil
   L3_2 = 0
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   while true do
     L5_2 = L4_2.length
     if not (L3_2 < L5_2) then
@@ -154,16 +133,13 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C03BFA8976E69133A"]["prototype"]
-L69_1 = "F0E39809503652AC9"
-
-function L70_1(A0_2, A1_2)
+--- main.management.dressupItem.item_data.DressupItemDatabase.F0E39809503652AC9
+function C03BFA8976E69133A_prototype:F0E39809503652AC9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
   L3_2 = 0
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   while true do
     L5_2 = L4_2.length
     if not (L3_2 < L5_2) then
@@ -184,11 +160,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C03BFA8976E69133A"]["prototype"]
-L69_1 = "F456D8A8142ADC6FF"
-
-function L70_1(A0_2, A1_2)
+--- main.management.dressupItem.item_data.DressupItemDatabase.SetFlatBuffersData
+function C03BFA8976E69133A_prototype:F456D8A8142ADC6FF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
@@ -210,7 +183,7 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = L26_1.new
   L5_2 = L5_2()
-  A0_2[2] = L5_2
+  self[2] = L5_2
   L5_2 = 0
   L6_2 = L4_2
   while L5_2 < L6_2 do
@@ -227,18 +200,18 @@ function L70_1(A0_2, A1_2)
     L9_2 = L8_2.FDCE0F303E3C260CB
     L11_2 = L7_2
     L9_2(L10_2, L11_2)
-    L9_2 = A0_2[2]
+    L9_2 = self[2]
     L10_2 = L9_2
     L9_2 = L9_2.push
     L11_2 = L8_2
     L9_2(L10_2, L11_2)
   end
   L7_2 = 0
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L8_2 = L8_2.length
   while L7_2 < L8_2 do
     L7_2 = L7_2 + 1
-    L9_2 = A0_2[2]
+    L9_2 = self[2]
     L10_2 = L9_2
     L9_2 = L9_2.sort
     

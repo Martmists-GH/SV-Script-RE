@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C6A5F3FB98FA7E46E"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C6A5F3FB98FA7E46E"]
-L69_1 = "new"
+---@alias C6A5F3FB98FA7E46E main_ui_error_FatalErrorUtility
 
-function L70_1()
+---@class main_ui_error_FatalErrorUtility : C6A5F3FB98FA7E46E_prototype
+---@field prototype C6A5F3FB98FA7E46E_prototype
+C6A5F3FB98FA7E46E = L15_1()
+function C6A5F3FB98FA7E46E.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C6A5F3FB98FA7E46E
@@ -21,20 +18,13 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6A5F3FB98FA7E46E"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C6A5F3FB98FA7E46E
+function C6A5F3FB98FA7E46E.super(A0_2)
   local L1_2
   A0_2[1] = "world/scene/parts/ui/error/error_00_/error_00.trscn"
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6A5F3FB98FA7E46E"]
-L69_1 = "__name__"
-L70_1 = "C6A5F3FB98FA7E46E"
-L68_1[L69_1] = L70_1
+C6A5F3FB98FA7E46E.__name__ = "C6A5F3FB98FA7E46E"
 L68_1 = _ENV["C6A5F3FB98FA7E46E"]
 L69_1 = "S385504EFF7E842C3"
 
@@ -54,20 +44,15 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6A5F3FB98FA7E46E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6A5F3FB98FA7E46E"]["prototype"]
-L69_1 = "F8736B3885ADE2AA7"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class C6A5F3FB98FA7E46E_prototype
+C6A5F3FB98FA7E46E_prototype = L15_1()
+C6A5F3FB98FA7E46E.prototype = C6A5F3FB98FA7E46E_prototype
+--- main.ui.error.FatalErrorUtility.LoadFatalErrorScene
+function C6A5F3FB98FA7E46E_prototype:F8736B3885ADE2AA7(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L5_2 = A1_2
   L4_2 = A1_2.f1FC07C91
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L4_2 = L4_2(L5_2, L6_2)
   while true do
     L6_2 = L4_2

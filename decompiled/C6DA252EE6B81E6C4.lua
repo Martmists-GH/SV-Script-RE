@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C6DA252EE6B81E6C4"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]
-L69_1 = "new"
+---@alias C6DA252EE6B81E6C4 main_field_behaviour_FieldEventPartnerPokemon
 
-function L70_1(A0_2)
+---@class main_field_behaviour_FieldEventPartnerPokemon : C6DA252EE6B81E6C4_prototype
+---@field prototype C6DA252EE6B81E6C4_prototype
+C6DA252EE6B81E6C4 = L15_1()
+function C6DA252EE6B81E6C4.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C6DA252EE6B81E6C4
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C6DA252EE6B81E6C4
+function C6DA252EE6B81E6C4.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   A0_2[51] = false
   L2_2 = L16_1
@@ -70,11 +64,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C6DA252EE6B81E6C4"]
 L69_1 = "__name__"
 L70_1 = "C6DA252EE6B81E6C4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]
-L69_1 = "S50CB2B4EB5CE75C1"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.GetBehavior
+function C6DA252EE6B81E6C4.S50CB2B4EB5CE75C1(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = A0_2.owner
   L2_2 = L1_2
@@ -114,23 +105,18 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+---@class C6DA252EE6B81E6C4_prototype
+C6DA252EE6B81E6C4_prototype = L15_1()
+C6DA252EE6B81E6C4.prototype = C6DA252EE6B81E6C4_prototype
+--- main.field.behaviour.FieldEventPartnerPokemon.onSetup
+function C6DA252EE6B81E6C4_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C6CC175E0087BF599
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F22C7B81A049FA20D
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[21]
+  L1_2 = self[21]
   L2_2 = L1_2
   L1_2 = L1_2.FD64742C3B1BCE111
   L1_2 = L1_2(L2_2)
@@ -138,22 +124,22 @@ function L70_1(A0_2)
   L1_2 = L1_2.F4012923C97F9F3CA
   L3_2 = 0
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[50]
+  L1_2 = self[50]
   L1_2.target = nil
-  L1_2 = A0_2[50]
+  L1_2 = self[50]
   L1_2.elapsed = 0.0
-  A0_2[51] = true
+  self[51] = true
   L1_2 = L58_1
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S93A017D496A6D000
   L1_2 = L1_2(L2_2)
-  A0_2[46] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F047937F80A4C6197
+  self[46] = L1_2
+  L2_2 = self
+  L1_2 = self.F047937F80A4C6197
   L3_2 = C771F06EAB7BF857F
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[44] = L1_2
-  A0_2[45] = false
+  self[44] = L1_2
+  self[45] = false
   L1_2 = C10578806AC30DCA3
   L1_2 = L1_2.SBA6FF574C1C9AA09
   L1_2 = L1_2.h
@@ -163,7 +149,7 @@ function L70_1(A0_2)
     L1_2 = nil
   end
   if true == L1_2 then
-    A0_2[45] = true
+    self[45] = true
     L2_2 = CFC8F368D91411014
     L2_2 = L2_2.SDE9EF3CFD428417D
     L2_2 = L2_2[24]
@@ -180,77 +166,71 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "FBDA175393973D042"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.GetBehaviourType
+function C6DA252EE6B81E6C4_prototype:FBDA175393973D042()
   local L1_2
   L1_2 = 9
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.PreUpdate
+function C6DA252EE6B81E6C4_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f4555D276
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     return
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f9D8BC178
   L3_2 = L3_2(L4_2)
   if not L3_2 then
     return
   end
-  L3_2 = A0_2[46]
+  L3_2 = self[46]
   if nil == L3_2 then
     L3_2 = L58_1
     L4_2 = CFC8F368D91411014
     L4_2 = L4_2.S93A017D496A6D000
     L3_2 = L3_2(L4_2)
-    A0_2[46] = L3_2
+    self[46] = L3_2
     return
   end
-  L3_2 = A0_2[44]
+  L3_2 = self[44]
   if nil ~= L3_2 then
-    L3_2 = A0_2[44]
+    L3_2 = self[44]
     L4_2 = L3_2
     L3_2 = L3_2.FE7B00237AE91A60E
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F712591452D157123
+      L4_2 = self
+      L3_2 = self.F712591452D157123
       L3_2 = L3_2(L4_2)
       if L3_2 then
-        L4_2 = A0_2
-        L3_2 = A0_2.F15D2B5CB87439EA0
+        L4_2 = self
+        L3_2 = self.F15D2B5CB87439EA0
         L3_2(L4_2)
       end
       return
     end
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.fE9C29DA1
   L3_2 = L3_2(L4_2)
   if "epp_396" ~= L3_2 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.fE9C29DA1
     L3_2(L4_2)
     L3_2 = cCF781FB6
     L3_2 = L3_2.fB41FD22F
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L3_2 = L3_2(L4_2)
     L4_2 = nil
     L5_2 = cCF781FB6
@@ -269,8 +249,8 @@ function L70_1(A0_2, A1_2)
     end
     return
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FB4A67E02C0EFA36F
+  L4_2 = self
+  L3_2 = self.FB4A67E02C0EFA36F
   L3_2 = L3_2(L4_2)
   if not L3_2 then
     L3_2 = _hx_tab_array
@@ -293,7 +273,7 @@ function L70_1(A0_2, A1_2)
       end
       L7_2 = L3_2[L5_2]
       L5_2 = L5_2 + 1
-      L8_2 = A0_2[49]
+      L8_2 = self[49]
       L8_2 = L8_2[L4_2]
       if nil == L8_2 then
         L8_2 = C8568A4DA5C1FB1A5
@@ -316,7 +296,7 @@ function L70_1(A0_2, A1_2)
           goto lbl_117
         end
         L10_2 = nil
-        L11_2 = A0_2[49]
+        L11_2 = self[49]
         
         function L12_2()
           local L0_3, L1_3, L2_3, L3_3
@@ -353,19 +333,16 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FF6CE486BD426D249
+  L4_2 = self
+  L3_2 = self.FF6CE486BD426D249
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "FB4A67E02C0EFA36F"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.IsPartnerPokeEnable
+function C6DA252EE6B81E6C4_prototype:FB4A67E02C0EFA36F()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
-  L2_2 = A0_2[49]
+  L2_2 = self[49]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -382,23 +359,20 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "FF6CE486BD426D249"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.UpdatePlayer
+function C6DA252EE6B81E6C4_prototype:FF6CE486BD426D249()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
-  L1_2 = A0_2[50]
+  L1_2 = self[50]
   L1_2 = L1_2.elapsed
   if L1_2 > 0.0 then
-    L1_2 = A0_2[50]
+    L1_2 = self[50]
     L2_2 = L1_2.elapsed
-    L3_2 = A0_2[48]
+    L3_2 = self[48]
     L2_2 = L2_2 - L3_2
     L1_2.elapsed = L2_2
     return
   end
-  L1_2 = A0_2[46]
+  L1_2 = self[46]
   if nil == L1_2 then
     return
   end
@@ -406,7 +380,7 @@ function L70_1(A0_2)
   L2_2 = 999.0
   L3_2 = false
   L4_2 = 0
-  L5_2 = A0_2[49]
+  L5_2 = self[49]
   L6_2 = false
   while true do
     L7_2 = L5_2.length
@@ -416,7 +390,7 @@ function L70_1(A0_2)
     L7_2 = L5_2[L4_2]
     L4_2 = L4_2 + 1
     if nil ~= L7_2 then
-      L8_2 = A0_2[46]
+      L8_2 = self[46]
       L8_2 = L8_2.owner
       L9_2 = L8_2
       L8_2 = L8_2.f7360ED03
@@ -435,13 +409,13 @@ function L70_1(A0_2)
       L20_2 = L13_2 - L16_2
       L17_2 = L17_2(L18_2, L19_2, L20_2)
       if L2_2 > L17_2 then
-        L18_2 = A0_2[43]
+        L18_2 = self[43]
         if L17_2 <= L18_2 then
           L1_2 = L7_2
           L2_2 = L17_2
         end
       end
-      L18_2 = A0_2[45]
+      L18_2 = self[45]
       if L18_2 then
         L18_2 = C6DA252EE6B81E6C4
         L18_2 = L18_2.S50CB2B4EB5CE75C1
@@ -462,35 +436,35 @@ function L70_1(A0_2)
       break
     end
   end
-  L7_2 = A0_2[45]
+  L7_2 = self[45]
   if L7_2 and not L3_2 then
-    A0_2[45] = false
+    self[45] = false
   end
-  L7_2 = A0_2[51]
+  L7_2 = self[51]
   if L7_2 then
-    L8_2 = A0_2
-    L7_2 = A0_2.F712591452D157123
+    L8_2 = self
+    L7_2 = self.F712591452D157123
     L7_2 = L7_2(L8_2)
     if not L7_2 then
       if nil ~= L1_2 then
-        L8_2 = A0_2
-        L7_2 = A0_2.FBB1BFCA6C85924C1
+        L8_2 = self
+        L7_2 = self.FBB1BFCA6C85924C1
         L9_2 = L1_2
         L7_2(L8_2, L9_2)
       end
     else
-      L8_2 = A0_2
-      L7_2 = A0_2.F712591452D157123
+      L8_2 = self
+      L7_2 = self.F712591452D157123
       L7_2 = L7_2(L8_2)
       if L7_2 then
         if nil ~= L1_2 then
-          L8_2 = A0_2
-          L7_2 = A0_2.FBB1BFCA6C85924C1
+          L8_2 = self
+          L7_2 = self.FBB1BFCA6C85924C1
           L9_2 = L1_2
           L7_2(L8_2, L9_2)
         elseif nil == L1_2 then
-          L8_2 = A0_2
-          L7_2 = A0_2.F15D2B5CB87439EA0
+          L8_2 = self
+          L7_2 = self.F15D2B5CB87439EA0
           L7_2(L8_2)
         end
       end
@@ -498,83 +472,68 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "FBB1BFCA6C85924C1"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.LookAtStart
+function C6DA252EE6B81E6C4_prototype:FBB1BFCA6C85924C1(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[50]
+  L2_2 = self[50]
   L2_2.target = A1_2
-  L2_2 = A0_2[50]
+  L2_2 = self[50]
   L2_2.elapsed = 1.0
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S93A017D496A6D000
-  L3_2 = A0_2[50]
+  L3_2 = self[50]
   L3_2 = L3_2.target
   if nil ~= L3_2 and nil ~= L2_2 then
     L3_2 = CDCBFD50A277E546D
     L3_2 = L3_2.S8E8F8B54A12AE5BA
     L4_2 = L2_2
-    L5_2 = A0_2[50]
+    L5_2 = self[50]
     L5_2 = L5_2.target
     L6_2 = "head"
     L3_2(L4_2, L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "F15D2B5CB87439EA0"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.LookAtEnd
+function C6DA252EE6B81E6C4_prototype:F15D2B5CB87439EA0()
   local L1_2, L2_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.SDA9FAC3B251BA47A
   L2_2 = "Player"
   L1_2(L2_2)
-  L1_2 = A0_2[50]
+  L1_2 = self[50]
   L1_2.target = nil
-  L1_2 = A0_2[50]
+  L1_2 = self[50]
   L1_2.elapsed = 1.0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "F712591452D157123"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.IsLookAt
+function C6DA252EE6B81E6C4_prototype:F712591452D157123()
   local L1_2
-  L1_2 = A0_2[50]
+  L1_2 = self[50]
   L1_2 = L1_2.target
   L1_2 = nil ~= L1_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "FFF1EA3A826E11ACE"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.IsPlayerForceWalk
+function C6DA252EE6B81E6C4_prototype:FFF1EA3A826E11ACE()
   local L1_2, L2_2
-  L1_2 = A0_2[44]
+  L1_2 = self[44]
   if nil == L1_2 then
     L1_2 = false
     return L1_2
   end
-  L1_2 = A0_2[44]
+  L1_2 = self[44]
   L2_2 = L1_2
   L1_2 = L1_2.FFF1EA3A826E11ACE
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "FA482396828CD12E8"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.IsTalkEnable
+function C6DA252EE6B81E6C4_prototype:FA482396828CD12E8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[44]
+  L1_2 = self[44]
   if nil == L1_2 then
     L1_2 = false
     return L1_2
@@ -600,47 +559,41 @@ function L70_1(A0_2)
     L4_2 = false
     return L4_2
   end
-  L4_2 = A0_2[44]
+  L4_2 = self[44]
   L5_2 = L4_2
   L4_2 = L4_2.FA482396828CD12E8
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "F268C97D1C0959C1E"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.GetTalkText
+function C6DA252EE6B81E6C4_prototype:F268C97D1C0959C1E()
   local L1_2, L2_2
-  L1_2 = A0_2[44]
+  L1_2 = self[44]
   if nil == L1_2 then
     L1_2 = nil
     return L1_2
   end
-  L1_2 = A0_2[44]
+  L1_2 = self[44]
   L2_2 = L1_2
   L1_2 = L1_2.F268C97D1C0959C1E
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "F1D001DBF9F080F4D"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.StartTalk
+function C6DA252EE6B81E6C4_prototype:F1D001DBF9F080F4D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[44]
+  L1_2 = self[44]
   if nil == L1_2 then
     return
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.FBE294E0CA66BCFA7
+  L2_2 = self
+  L1_2 = self.FBE294E0CA66BCFA7
   L1_2(L2_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = nil
   L3_2 = CDCBFD50A277E546D
   L3_2 = L3_2.S0650A3C4ED0BB621
-  L4_2 = A0_2[46]
+  L4_2 = self[46]
   
   function L5_2()
     local L0_3, L1_3, L2_3, L3_3
@@ -670,11 +623,11 @@ function L70_1(A0_2)
   L6_2 = 1.0
   L7_2 = false
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
-  A0_2[47] = L3_2
-  L3_2 = A0_2[1]
+  self[47] = L3_2
+  L3_2 = self[1]
   L4_2 = nil
-  L6_2 = A0_2
-  L5_2 = A0_2.FBB1BFCA6C85924C1
+  L6_2 = self
+  L5_2 = self.FBB1BFCA6C85924C1
   
   function L7_2()
     local L0_3, L1_3, L2_3, L3_3
@@ -702,27 +655,24 @@ function L70_1(A0_2)
   
   L7_2 = L7_2()
   L5_2(L6_2, L7_2)
-  A0_2[51] = false
-  L5_2 = A0_2[44]
+  self[51] = false
+  L5_2 = self[44]
   L6_2 = L5_2
   L5_2 = L5_2.F1D001DBF9F080F4D
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "F73B910247371B33C"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.FinishTalk
+function C6DA252EE6B81E6C4_prototype:F73B910247371B33C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[44]
+  L1_2 = self[44]
   if nil == L1_2 then
     return
   end
   L1_2 = nil
-  L2_2 = A0_2[46]
+  L2_2 = self[46]
   if nil ~= L2_2 then
-    L2_2 = A0_2[46]
+    L2_2 = self[46]
     L3_2 = nil
     L4_2 = cE35B3EB3
     L4_2 = L4_2.fDBA763D1
@@ -747,7 +697,7 @@ function L70_1(A0_2)
     L1_2 = false
   end
   if L1_2 then
-    L2_2 = A0_2[46]
+    L2_2 = self[46]
     L3_2 = nil
     L4_2 = cE35B3EB3
     L4_2 = L4_2.fDBA763D1
@@ -771,22 +721,19 @@ function L70_1(A0_2)
     L7_2 = 1
     L4_2(L5_2, L6_2, L7_2)
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FBE294E0CA66BCFA7
+  L3_2 = self
+  L2_2 = self.FBE294E0CA66BCFA7
   L2_2(L3_2)
-  L2_2 = A0_2[44]
+  L2_2 = self[44]
   L3_2 = L2_2
   L2_2 = L2_2.F73B910247371B33C
   L2_2(L3_2)
-  A0_2[47] = nil
-  A0_2[51] = true
+  self[47] = nil
+  self[51] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "FBE294E0CA66BCFA7"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.PlayerIdleWait
+function C6DA252EE6B81E6C4_prototype:FBE294E0CA66BCFA7()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S12AB211B0A58477E
@@ -847,15 +794,12 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "FBF5EEAEA4845D6F8"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.CheckTalkStartEnable
+function C6DA252EE6B81E6C4_prototype:FBF5EEAEA4845D6F8()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[44]
+  L1_2 = self[44]
   if nil ~= L1_2 then
-    L1_2 = A0_2[47]
+    L1_2 = self[47]
     if nil ~= L1_2 then
       goto lbl_9
     end
@@ -863,7 +807,7 @@ function L70_1(A0_2)
   L1_2 = true
   do return L1_2 end
   ::lbl_9::
-  L1_2 = A0_2[44]
+  L1_2 = self[44]
   L2_2 = L1_2
   L1_2 = L1_2.FBF5EEAEA4845D6F8
   L1_2 = L1_2(L2_2)
@@ -871,7 +815,7 @@ function L70_1(A0_2)
     L1_2 = nil
     L2_2 = cBBE823D7
     L2_2 = L2_2.f0A6DF8C3
-    L3_2 = A0_2[47]
+    L3_2 = self[47]
     L3_2 = L3_2[12]
     L4_2 = L1_2
     return L2_2(L3_2, L4_2)
@@ -881,16 +825,13 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "F0C259BD8938F178B"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.PlayerHalfSit_PokeAction
+function C6DA252EE6B81E6C4_prototype:F0C259BD8938F178B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = nil
-  L2_2 = A0_2[46]
+  L2_2 = self[46]
   if nil ~= L2_2 then
-    L2_2 = A0_2[46]
+    L2_2 = self[46]
     L3_2 = nil
     L4_2 = cE35B3EB3
     L4_2 = L4_2.fDBA763D1
@@ -915,7 +856,7 @@ function L70_1(A0_2)
     L1_2 = false
   end
   if L1_2 then
-    L2_2 = A0_2[46]
+    L2_2 = self[46]
     L3_2 = nil
     L4_2 = cE35B3EB3
     L4_2 = L4_2.fDBA763D1
@@ -938,7 +879,7 @@ function L70_1(A0_2)
     L6_2 = "loop_action_type_int"
     L7_2 = 1
     L4_2(L5_2, L6_2, L7_2)
-    L4_2 = A0_2[46]
+    L4_2 = self[46]
     L5_2 = nil
     L6_2 = cE35B3EB3
     L6_2 = L6_2.fDBA763D1
@@ -962,26 +903,23 @@ function L70_1(A0_2)
     L9_2 = 1
     L6_2(L7_2, L8_2, L9_2)
   end
-  L2_2 = A0_2[44]
+  L2_2 = self[44]
   if nil ~= L2_2 then
-    L2_2 = A0_2[44]
+    L2_2 = self[44]
     L3_2 = L2_2
     L2_2 = L2_2.F2668A272CDD17218
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DA252EE6B81E6C4"]["prototype"]
-L69_1 = "F370280C46116450E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.FieldEventPartnerPokemon.SetBEventRun
+function C6DA252EE6B81E6C4_prototype:F370280C46116450E(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[44]
+  L2_2 = self[44]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[44]
+  L2_2 = self[44]
   L3_2 = L2_2
   L2_2 = L2_2.FE2B0183BE45384F8
   L4_2 = A1_2

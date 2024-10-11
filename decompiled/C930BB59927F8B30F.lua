@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C930BB59927F8B30F"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "new"
+---@alias C930BB59927F8B30F main_pokepicnic_CookingNetwork
 
-function L70_1(A0_2)
+---@class main_pokepicnic_CookingNetwork : C930BB59927F8B30F_prototype
+---@field prototype C930BB59927F8B30F_prototype
+C930BB59927F8B30F = L15_1()
+function C930BB59927F8B30F.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C930BB59927F8B30F
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C930BB59927F8B30F
+function C930BB59927F8B30F.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[2] = false
   L2_2 = CDC3F92928A2194E6
@@ -43,44 +37,32 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C930BB59927F8B30F"]
 L69_1 = "__name__"
 L70_1 = "C930BB59927F8B30F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "SD4FD5A74887BF4A0"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.SD4FD5A74887BF4A0
+function C930BB59927F8B30F.SD4FD5A74887BF4A0()
   local L0_2, L1_2
   L0_2 = C930BB59927F8B30F
   L0_2 = L0_2.SD543BFE332CEC806
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "S09EA163BBCC202EC"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.IsMultiplay
+function C930BB59927F8B30F.S09EA163BBCC202EC()
   local L0_2, L1_2
   L0_2 = CE6EE3F9C54FC6D83
   L0_2 = L0_2.S09EA163BBCC202EC
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "S1C2F0F214CE9B8A5"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.IsAnyonePlay
+function C930BB59927F8B30F.S1C2F0F214CE9B8A5()
   local L0_2, L1_2
   L0_2 = c489E36A7
   L0_2 = L0_2.fAA0B62C2
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "S86BF9C5D2CAB6CFF"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.IsHost
+function C930BB59927F8B30F.S86BF9C5D2CAB6CFF()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c489E36A7
   L0_2 = L0_2.fDF4B60E3
@@ -100,11 +82,8 @@ function L70_1()
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "S42224C76A175744D"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.S42224C76A175744D
+function C930BB59927F8B30F.S42224C76A175744D()
   local L0_2, L1_2
   L0_2 = C930BB59927F8B30F
   L0_2 = L0_2.S09EA163BBCC202EC
@@ -118,11 +97,8 @@ function L70_1()
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "S233C392EB364F954"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.IsMultiplayGuest
+function C930BB59927F8B30F.S233C392EB364F954()
   local L0_2, L1_2
   L0_2 = C930BB59927F8B30F
   L0_2 = L0_2.S42224C76A175744D
@@ -131,33 +107,24 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "SBA7067F55AEF47E0"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.IsJoined
+function C930BB59927F8B30F.SBA7067F55AEF47E0()
   local L0_2, L1_2
   L0_2 = C930BB59927F8B30F
   L0_2 = L0_2.S5FDCCE0A0051D896
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "S835F82BC701EF08F"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.CreateCooking
+function C930BB59927F8B30F.S835F82BC701EF08F()
   local L0_2, L1_2
   L0_2 = c489E36A7
   L0_2 = L0_2.fA3FE76ED
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "S54C7206F62C7EB5A"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.DeleteCooking
+function C930BB59927F8B30F.S54C7206F62C7EB5A()
   local L0_2, L1_2
   L0_2 = C930BB59927F8B30F
   L0_2 = L0_2.S264F26F6894F3392
@@ -180,11 +147,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "S5514133E80A4F1D3"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.JoinCooking
+function C930BB59927F8B30F.S5514133E80A4F1D3()
   local L0_2, L1_2
   L0_2 = C930BB59927F8B30F
   L0_2 = L0_2.S1C2F0F214CE9B8A5
@@ -208,11 +172,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "SD0B82E33E4013BC4"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.LeaveCooking
+function C930BB59927F8B30F.SD0B82E33E4013BC4()
   local L0_2, L1_2
   L0_2 = c489E36A7
   L0_2 = L0_2.f9779B3CA
@@ -222,11 +183,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "S87346055FB088351"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.SetupUserInfo
+function C930BB59927F8B30F.S87346055FB088351()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L0_2 = C930BB59927F8B30F
   L1_2 = _hx_tab_array
@@ -291,11 +249,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "S87F54A9257A772CB"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.IsMemberDecrease
+function C930BB59927F8B30F.S87F54A9257A772CB()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c489E36A7
   L0_2 = L0_2.fDF4B60E3
@@ -320,11 +275,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "SEFC027B742F7182B"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.GetHostMemberInfo
+function C930BB59927F8B30F.SEFC027B742F7182B()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = 0
   L1_2 = C930BB59927F8B30F
@@ -346,11 +298,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "S9508F298AB223EDB"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.S9508F298AB223EDB
+function C930BB59927F8B30F.S9508F298AB223EDB()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L0_2 = c489E36A7
   L0_2 = L0_2.fDF4B60E3
@@ -417,78 +366,61 @@ function L70_1()
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "SA4C39413F760C331"
-
-function L70_1()
+--- main.pokepicnic.CookingNetwork.CanSendToAll
+function C930BB59927F8B30F.SA4C39413F760C331()
   local L0_2, L1_2
   L0_2 = c489E36A7
   L0_2 = L0_2.fCCC758FD
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C930BB59927F8B30F_prototype
+C930BB59927F8B30F_prototype = L15_1()
+C930BB59927F8B30F.prototype = C930BB59927F8B30F_prototype
+--- main.pokepicnic.CookingNetwork.Setup
+function C930BB59927F8B30F_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C930BB59927F8B30F
-  L2_2.S264F26F6894F3392 = A0_2
+  L2_2.S264F26F6894F3392 = self
   L2_2 = c489E36A7
   L2_2 = L2_2.f635E7B9C
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.pokepicnic.CookingNetwork.Destroy
+function C930BB59927F8B30F_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = C930BB59927F8B30F
   L1_2.S264F26F6894F3392 = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.CookingNetwork.PreUpdate
+function C930BB59927F8B30F_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2
   L2_2 = c489E36A7
   L2_2 = L2_2.fBD7489F5
   L2_2()
-  L3_2 = A0_2
-  L2_2 = A0_2.F522EEB4CD8EF9A66
+  L3_2 = self
+  L2_2 = self.F522EEB4CD8EF9A66
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F1F882FA6366BA7CC
+  L3_2 = self
+  L2_2 = self.F1F882FA6366BA7CC
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]["prototype"]
-L69_1 = "F522EEB4CD8EF9A66"
-
-function L70_1(A0_2)
+--- main.pokepicnic.CookingNetwork.UpdateHost
+function C930BB59927F8B30F_prototype:F522EEB4CD8EF9A66()
   local L1_2
   L1_2 = C930BB59927F8B30F
   L1_2 = L1_2.S86BF9C5D2CAB6CFF
@@ -498,11 +430,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C930BB59927F8B30F"]["prototype"]
-L69_1 = "F1F882FA6366BA7CC"
-
-function L70_1(A0_2)
+--- main.pokepicnic.CookingNetwork.UpdateGuest
+function C930BB59927F8B30F_prototype:F1F882FA6366BA7CC()
   local L1_2
 end
 

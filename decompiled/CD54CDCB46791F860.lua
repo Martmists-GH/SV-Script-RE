@@ -1,3 +1,7 @@
+---@alias CD54CDCB46791F860 main_ui_pokedex_view_list_PokedexUIDiplomaView
+
+---@class main_ui_pokedex_view_list_PokedexUIDiplomaView : CD54CDCB46791F860_prototype
+---@field prototype CD54CDCB46791F860_prototype
 L55_1 = _ENV
 L56_1 = "CD54CDCB46791F860"
 L57_1 = L15_1
@@ -34,25 +38,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD54CDCB46791F860"]
 L69_1 = "__name__"
 L70_1 = "CD54CDCB46791F860"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD54CDCB46791F860"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD54CDCB46791F860"]["prototype"]
-L69_1 = "F0E47A597FB435DB7"
-
-function L70_1(A0_2)
+---@class CD54CDCB46791F860_prototype
+CD54CDCB46791F860_prototype = L15_1()
+CD54CDCB46791F860.prototype = CD54CDCB46791F860_prototype
+--- main.ui.pokedex.view.list.PokedexUIDiplomaView.SetupSequence
+function CD54CDCB46791F860_prototype:F0E47A597FB435DB7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   if nil ~= L1_2 then
     return
   end
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -60,9 +59,9 @@ function L70_1(A0_2)
   end
   L2_2 = C828F047963375FA0
   L2_2 = L2_2.S8FED2454A6F58555
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2(L3_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.fD4E64AB7
   L4_2 = "pokedex_diploma_ui"
@@ -84,16 +83,13 @@ function L70_1(A0_2)
   L4_2 = L4_2.new
   L5_2 = L2_2
   L4_2 = L4_2(L5_2)
-  A0_2[2] = L4_2
+  self[2] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD54CDCB46791F860"]["prototype"]
-L69_1 = "F8C22E8CD511C5259"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.list.PokedexUIDiplomaView.ViewStartSequence
+function CD54CDCB46791F860_prototype:F8C22E8CD511C5259(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil == L2_2 then
     return
   end
@@ -113,7 +109,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = "syoujyou_02_01"
   L4_2, L5_2, L6_2, L7_2, L8_2, L9_2 = L4_2(L5_2, L6_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.FC8489078C201C47F
   L3_2 = L3_2(L4_2)
@@ -122,7 +118,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = "T_name_00"
   L6_2 = L2_2
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.FC8489078C201C47F
   L3_2 = L3_2(L4_2)
@@ -138,7 +134,7 @@ function L70_1(A0_2, A1_2)
   L8_2, L9_2 = L8_2(L9_2)
   L6_2, L7_2, L8_2, L9_2 = L6_2(L7_2, L8_2, L9_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.FC8489078C201C47F
   L3_2 = L3_2(L4_2)
@@ -151,7 +147,7 @@ function L70_1(A0_2, A1_2)
   L8_2 = "syoujyou_04_01"
   L6_2, L7_2, L8_2, L9_2 = L6_2(L7_2, L8_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.FF32CC3BE322652A8
   L5_2 = "layout"
@@ -160,13 +156,13 @@ function L70_1(A0_2, A1_2)
   L7_2 = A1_2
   L6_2, L7_2, L8_2, L9_2 = L6_2(L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.FA23D39922B76B247
   L5_2 = nil
   L6_2 = true
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.FE744212C12ED8D05
   L3_2 = L3_2(L4_2)
@@ -180,13 +176,10 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD54CDCB46791F860"]["prototype"]
-L69_1 = "FBF9A6D5AD717FAF0"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.list.PokedexUIDiplomaView.ViewEndSequence
+function CD54CDCB46791F860_prototype:FBF9A6D5AD717FAF0()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   if nil == L1_2 then
     return
   end
@@ -194,7 +187,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.SAC4C25C879379D3D
   L2_2 = "PLAY_UI_COMMON_CLOSE"
   L1_2(L2_2)
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.FE744212C12ED8D05
   L1_2 = L1_2(L2_2)

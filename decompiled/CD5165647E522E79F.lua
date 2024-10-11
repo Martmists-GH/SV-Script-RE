@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CD5165647E522E79F"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CD5165647E522E79F"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5165647E522E79F"]
-L69_1 = "__name__"
-L70_1 = "CD5165647E522E79F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5165647E522E79F"]
-L69_1 = "SEF3A3B6876841F5A"
+---@alias CD5165647E522E79F main_util_ArrayUtility
 
-function L70_1(A0_2, A1_2)
+---@class main_util_ArrayUtility
+CD5165647E522E79F = L15_1()
+CD5165647E522E79F.new = {}
+CD5165647E522E79F.__name__ = "CD5165647E522E79F"
+--- main.util.ArrayUtility.Find
+function CD5165647E522E79F.SEF3A3B6876841F5A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
   while true do
@@ -35,11 +26,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5165647E522E79F"]
-L69_1 = "S3CC990DA6C6A7C4A"
-
-function L70_1(A0_2, A1_2)
+--- main.util.ArrayUtility.Delete
+function CD5165647E522E79F.S3CC990DA6C6A7C4A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = 0
   while true do
@@ -65,11 +53,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5165647E522E79F"]
-L69_1 = "SAC3C14E150513FBF"
-
-function L70_1(A0_2, A1_2)
+--- main.util.ArrayUtility.IsOutOfRange
+function CD5165647E522E79F.SAC3C14E150513FBF(A0_2, A1_2)
   local L2_2
   if A1_2 >= 0 then
     L2_2 = A0_2.length
@@ -81,11 +66,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5165647E522E79F"]
-L69_1 = "S11F44E07BD3580A8"
-
-function L70_1(A0_2, A1_2)
+--- main.util.ArrayUtility.S11F44E07BD3580A8
+function CD5165647E522E79F.S11F44E07BD3580A8(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C7BD28C2CE195DB4E
   L2_2 = L2_2.S7989B6DD56823279

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CE4C064FCA4F7E2D9"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CE4C064FCA4F7E2D9"]
-L69_1 = "new"
+---@alias CE4C064FCA4F7E2D9 main_field_behaviour_scenario_main_champion_gym_esper_Gym_esper_reward_execise
 
-function L70_1(A0_2)
+---@class main_field_behaviour_scenario_main_champion_gym_esper_Gym_esper_reward_execise : CE4C064FCA4F7E2D9_prototype
+---@field prototype CE4C064FCA4F7E2D9_prototype
+CE4C064FCA4F7E2D9 = L15_1()
+function CE4C064FCA4F7E2D9.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CE4C064FCA4F7E2D9
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE4C064FCA4F7E2D9"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CE4C064FCA4F7E2D9
+function CE4C064FCA4F7E2D9.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C7B027B11B33E9DEA
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CE4C064FCA4F7E2D9"]
 L69_1 = "__name__"
 L70_1 = "CE4C064FCA4F7E2D9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE4C064FCA4F7E2D9"]
-L69_1 = "S87972F52753D499F"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.esper.Gym_esper_reward_execise.GetData
+function CE4C064FCA4F7E2D9.S87972F52753D499F(A0_2)
   local L1_2, L2_2
   L1_2 = CE4C064FCA4F7E2D9
   L1_2 = L1_2.S2446C7C9F8B17F64
@@ -59,25 +50,20 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE4C064FCA4F7E2D9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE4C064FCA4F7E2D9"]["prototype"]
-L69_1 = "F2ECF4DC04C01ADD3"
-
-function L70_1(A0_2)
+---@class CE4C064FCA4F7E2D9_prototype
+CE4C064FCA4F7E2D9_prototype = L15_1()
+CE4C064FCA4F7E2D9.prototype = CE4C064FCA4F7E2D9_prototype
+--- main.field.behaviour.scenario.main.champion.gym.esper.Gym_esper_reward_execise.loadDataTable
+function CE4C064FCA4F7E2D9_prototype:F2ECF4DC04C01ADD3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = C7B027B11B33E9DEA
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F2ECF4DC04C01ADD3
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = cF52F390B
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cF52F390B
@@ -117,12 +103,12 @@ function L70_1(A0_2)
     L9_2 = L6_2.fCD31E312
     L11_2 = "instructCount"
     L9_2 = L9_2(L10_2, L11_2)
-    L11_2 = A0_2
-    L10_2 = A0_2.F83C2222849E01B7C
+    L11_2 = self
+    L10_2 = self.F83C2222849E01B7C
     L12_2 = L6_2
     L10_2 = L10_2(L11_2, L12_2)
-    L12_2 = A0_2
-    L11_2 = A0_2.F260E1FB2F4D09649
+    L12_2 = self
+    L11_2 = self.F260E1FB2F4D09649
     L13_2 = L6_2
     L11_2 = L11_2(L12_2, L13_2)
     L13_2 = L6_2

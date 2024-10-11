@@ -1,3 +1,5 @@
+---@class CFBB475ECC26089E9 : CFBB475ECC26089E9_prototype
+---@field prototype CFBB475ECC26089E9_prototype
 L55_1 = _ENV
 L56_1 = "CFBB475ECC26089E9"
 L57_1 = L15_1
@@ -45,16 +47,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CFBB475ECC26089E9"]
 L69_1 = "__name__"
 L70_1 = "CFBB475ECC26089E9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFBB475ECC26089E9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFBB475ECC26089E9"]["prototype"]
-L69_1 = "FA2A1E8BCAD16A592"
-
-function L70_1(A0_2)
+---@class CFBB475ECC26089E9_prototype
+CFBB475ECC26089E9_prototype = L15_1()
+CFBB475ECC26089E9.prototype = CFBB475ECC26089E9_prototype
+--- CFBB475ECC26089E9.mainAction
+function CFBB475ECC26089E9_prototype:FA2A1E8BCAD16A592()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C3FF6D1CD4C470E22
   L1_2 = L1_2.S264F26F6894F3392
@@ -65,7 +62,7 @@ function L70_1(A0_2)
   L2_2 = L2_2.S67B69AA19851D61C
   L3_2 = L1_2.returnPosition
   L4_2 = L1_2.returnRotation
-  L5_2 = A0_2[32]
+  L5_2 = self[32]
   L5_2 = L5_2.isAutoReturn
   L2_2(L3_2, L4_2, L5_2)
   L2_2 = CC6FE82819C6E1D55
@@ -74,7 +71,7 @@ function L70_1(A0_2)
   L2_2(L3_2)
   L2_2 = C5648AAEE3425CE6C
   L2_2 = L2_2.SBDE2D81916EF645A
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.isAutoReturn
   L2_2(L3_2)
 end

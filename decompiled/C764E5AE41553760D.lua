@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C764E5AE41553760D"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C764E5AE41553760D"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C764E5AE41553760D"]
-L69_1 = "__name__"
-L70_1 = "C764E5AE41553760D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C764E5AE41553760D"]
-L69_1 = "S9690841ED751ADD5"
+---@alias C764E5AE41553760D main_util_RandomUtility
 
-function L70_1()
+---@class main_util_RandomUtility
+C764E5AE41553760D = L15_1()
+C764E5AE41553760D.new = {}
+C764E5AE41553760D.__name__ = "C764E5AE41553760D"
+--- main.util.RandomUtility.get_Rng
+function C764E5AE41553760D.S9690841ED751ADD5()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = c1A00019C
@@ -40,11 +31,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C764E5AE41553760D"]
-L69_1 = "S6F52E0A282FF6724"
-
-function L70_1(A0_2, A1_2)
+--- main.util.RandomUtility.ChooseOne
+function C764E5AE41553760D.S6F52E0A282FF6724(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = A0_2.length
   if 0 == L2_2 then
@@ -114,11 +102,8 @@ function L70_1(A0_2, A1_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C764E5AE41553760D"]
-L69_1 = "S39F36B9AF0E4C503"
-
-function L70_1(A0_2, A1_2)
+--- main.util.RandomUtility.ChooseOneIdx
+function C764E5AE41553760D.S39F36B9AF0E4C503(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = A0_2.length
   if 0 == L2_2 then
@@ -182,11 +167,8 @@ function L70_1(A0_2, A1_2)
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C764E5AE41553760D"]
-L69_1 = "S54784A3092D3F9BD"
-
-function L70_1(A0_2, A1_2)
+--- main.util.RandomUtility.ChooseOneValue
+function C764E5AE41553760D.S54784A3092D3F9BD(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = A0_2.length
   if 0 == L2_2 then
@@ -224,11 +206,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C764E5AE41553760D"]
-L69_1 = "S1EF2A87CA2BE25CA"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.util.RandomUtility.ChooseMultipleValues
+function C764E5AE41553760D.S1EF2A87CA2BE25CA(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = A0_2.length
   if A1_2 > L3_2 then

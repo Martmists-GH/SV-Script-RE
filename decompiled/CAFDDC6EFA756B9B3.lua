@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CAFDDC6EFA756B9B3"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CAFDDC6EFA756B9B3"]
-L69_1 = "new"
+---@alias CAFDDC6EFA756B9B3 main_event_general_fly_CliffReturnEvent
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class main_event_general_fly_CliffReturnEvent : CAFDDC6EFA756B9B3_prototype
+---@field prototype CAFDDC6EFA756B9B3_prototype
+CAFDDC6EFA756B9B3 = L15_1()
+function CAFDDC6EFA756B9B3.new(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = CAFDDC6EFA756B9B3
@@ -25,11 +22,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAFDDC6EFA756B9B3"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@param A0_2 CAFDDC6EFA756B9B3
+function CAFDDC6EFA756B9B3.super(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   A0_2[33] = nil
   L5_2 = C1A60972875EFA3B6
@@ -42,11 +36,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAFDDC6EFA756B9B3"]
-L69_1 = "__name__"
-L70_1 = "CAFDDC6EFA756B9B3"
-L68_1[L69_1] = L70_1
+CAFDDC6EFA756B9B3.__name__ = "CAFDDC6EFA756B9B3"
 L68_1 = _ENV["CAFDDC6EFA756B9B3"]
 L69_1 = "SCA9E0C095338AFCF"
 
@@ -79,44 +69,33 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAFDDC6EFA756B9B3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAFDDC6EFA756B9B3"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class CAFDDC6EFA756B9B3_prototype
+CAFDDC6EFA756B9B3_prototype = L15_1()
+CAFDDC6EFA756B9B3.prototype = CAFDDC6EFA756B9B3_prototype
+--- main.event.general.fly.CliffReturnEvent.preStart
+function CAFDDC6EFA756B9B3_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2
   L1_2 = CBFA190EC4FA70AB8
   L1_2 = L1_2.new
   L1_2 = L1_2()
-  A0_2[33] = L1_2
-  L1_2 = A0_2[33]
+  self[33] = L1_2
+  L1_2 = self[33]
   L2_2 = L1_2
   L1_2 = L1_2.F7C68FEDB79AB6396
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAFDDC6EFA756B9B3"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.fly.CliffReturnEvent.preEnd
+function CAFDDC6EFA756B9B3_prototype:F740FB4E96926D103()
   local L1_2, L2_2
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L2_2 = L1_2
   L1_2 = L1_2.F0DBBC2DA2C3EAC32
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAFDDC6EFA756B9B3"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.fly.CliffReturnEvent.mainBody
+function CAFDDC6EFA756B9B3_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = nil
   L2_2 = CFC8F368D91411014
@@ -222,11 +201,11 @@ function L70_1(A0_2)
           L4_2 = L4_2.FE849672F1E41A271
           L6_2 = false
           L4_2(L5_2, L6_2)
-          L4_2 = A0_2[33]
+          L4_2 = self[33]
           L5_2 = L4_2
           L4_2 = L4_2.F0DBBC2DA2C3EAC32
           L4_2(L5_2)
-          L4_2 = A0_2[33]
+          L4_2 = self[33]
           L5_2 = L4_2
           L4_2 = L4_2.F38D9DDADCFA7C023
           L4_2(L5_2)
@@ -285,7 +264,7 @@ function L70_1(A0_2)
           L7_2 = {}
           L7_2.pos = true
           L6_2.__fields__ = L7_2
-          L7_2 = A0_2[32]
+          L7_2 = self[32]
           L7_2 = L7_2.pos
           L6_2.pos = L7_2
           L5_2 = L5_2(L6_2)
@@ -331,11 +310,11 @@ function L70_1(A0_2)
             L7_2()
             return
           end
-          L7_2 = A0_2[33]
+          L7_2 = self[33]
           L8_2 = L7_2
           L7_2 = L7_2.F0DBBC2DA2C3EAC32
           L7_2(L8_2)
-          L7_2 = A0_2[33]
+          L7_2 = self[33]
           L8_2 = L7_2
           L7_2 = L7_2.F7C68FEDB79AB6396
           L7_2(L8_2)

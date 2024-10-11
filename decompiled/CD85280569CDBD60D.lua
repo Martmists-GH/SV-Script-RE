@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CD85280569CDBD60D"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CD85280569CDBD60D"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD85280569CDBD60D"]
-L69_1 = "__name__"
-L70_1 = "CD85280569CDBD60D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD85280569CDBD60D"]
-L69_1 = "SC4BD637FD090F856"
+---@alias CD85280569CDBD60D main_ui_magical_exchange_MagicalExchangeUtil
 
-function L70_1()
+---@class main_ui_magical_exchange_MagicalExchangeUtil
+CD85280569CDBD60D = L15_1()
+CD85280569CDBD60D.new = {}
+CD85280569CDBD60D.__name__ = "CD85280569CDBD60D"
+--- main.ui.magical_exchange.MagicalExchangeUtil.LoadMessageFile
+function CD85280569CDBD60D.SC4BD637FD090F856()
   local L0_2, L1_2
   L0_2 = c8C3BF576
   L0_2 = L0_2.f49D44378
@@ -22,11 +13,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD85280569CDBD60D"]
-L69_1 = "S56A00153B314D27F"
-
-function L70_1()
+--- main.ui.magical_exchange.MagicalExchangeUtil.S56A00153B314D27F
+function CD85280569CDBD60D.S56A00153B314D27F()
   local L0_2, L1_2
   L0_2 = c8C3BF576
   L0_2 = L0_2.f4902875F
@@ -34,11 +22,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD85280569CDBD60D"]
-L69_1 = "SD3193307ED4084F9"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.magical_exchange.MagicalExchangeUtil.MessageSequence
+function CD85280569CDBD60D.SD3193307ED4084F9(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cC9AD95E7
   L2_2 = L2_2.f101D811F
@@ -88,11 +73,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD85280569CDBD60D"]
-L69_1 = "S8FEEA3CAEA05C331"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.magical_exchange.MagicalExchangeUtil.MessageSequenceLabel
+function CD85280569CDBD60D.S8FEEA3CAEA05C331(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CD85280569CDBD60D
   L2_2 = L2_2.SD3193307ED4084F9
@@ -105,11 +87,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD85280569CDBD60D"]
-L69_1 = "SDA382CBD63762AF7"
-
-function L70_1()
+--- main.ui.magical_exchange.MagicalExchangeUtil.YesNoContextParam
+function CD85280569CDBD60D.SDA382CBD63762AF7()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = EC1DFC6A53B3321B3
   L0_2 = L0_2.CONTEXT

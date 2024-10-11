@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CFAAD046104933187"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CFAAD046104933187"]
-L69_1 = "new"
+---@alias CFAAD046104933187 main_system_game_event_GameEventWalkCountUp
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventWalkCountUp : CFAAD046104933187_prototype
+---@field prototype CFAAD046104933187_prototype
+CFAAD046104933187 = L15_1()
+function CFAAD046104933187.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CFAAD046104933187
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFAAD046104933187"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CFAAD046104933187
+function CFAAD046104933187.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CE0D511325372F946
   L3_2 = L3_2.super
@@ -37,11 +31,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFAAD046104933187"]
-L69_1 = "__name__"
-L70_1 = "CFAAD046104933187"
-L68_1[L69_1] = L70_1
+CFAAD046104933187.__name__ = "CFAAD046104933187"
 L68_1 = _ENV["CFAAD046104933187"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -69,16 +59,11 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFAAD046104933187"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFAAD046104933187"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+---@class CFAAD046104933187_prototype
+CFAAD046104933187_prototype = L15_1()
+CFAAD046104933187.prototype = CFAAD046104933187_prototype
+--- main.system.game_event.GameEventWalkCountUp.onUpdate
+function CFAAD046104933187_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.fFCE06E04
@@ -135,11 +120,8 @@ function L70_1(A0_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFAAD046104933187"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventWalkCountUp.onFinished
+function CFAAD046104933187_prototype:F68499476069C0B1E()
   local L1_2
 end
 

@@ -1,3 +1,7 @@
+---@alias C59D6CC15CA363D34 main_system_game_event_danbattle_GameEventAjitoRushAfter
+
+---@class main_system_game_event_danbattle_GameEventAjitoRushAfter : C59D6CC15CA363D34_prototype
+---@field prototype C59D6CC15CA363D34_prototype
 L55_1 = _ENV
 L56_1 = "C59D6CC15CA363D34"
 L57_1 = L15_1
@@ -42,36 +46,25 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C59D6CC15CA363D34"]
 L69_1 = "__name__"
 L70_1 = "C59D6CC15CA363D34"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59D6CC15CA363D34"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59D6CC15CA363D34"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C59D6CC15CA363D34_prototype
+C59D6CC15CA363D34_prototype = L15_1()
+C59D6CC15CA363D34.prototype = C59D6CC15CA363D34_prototype
+--- main.system.game_event.danbattle.GameEventAjitoRushAfter.onCreate
+function C59D6CC15CA363D34_prototype:FC87C731D11C58354()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59D6CC15CA363D34"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2)
+--- main.system.game_event.danbattle.GameEventAjitoRushAfter.onInitialize
+function C59D6CC15CA363D34_prototype:F239C282ED3F82676()
   local L1_2
   L1_2 = 0
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59D6CC15CA363D34"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.danbattle.GameEventAjitoRushAfter.onUpdate
+function C59D6CC15CA363D34_prototype:FC0150FC2959FFA71()
   local L1_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   if not L1_2 then
     L1_2 = 0
     return L1_2
@@ -80,11 +73,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59D6CC15CA363D34"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- main.system.game_event.danbattle.GameEventAjitoRushAfter.onFinished
+function C59D6CC15CA363D34_prototype:F68499476069C0B1E()
   local L1_2
 end
 

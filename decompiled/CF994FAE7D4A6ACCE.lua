@@ -1,3 +1,7 @@
+---@alias CF994FAE7D4A6ACCE main_ui_btl_team_RegulationCheckModule
+
+---@class main_ui_btl_team_RegulationCheckModule : CF994FAE7D4A6ACCE_prototype
+---@field prototype CF994FAE7D4A6ACCE_prototype
 L55_1 = _ENV
 L56_1 = "CF994FAE7D4A6ACCE"
 L57_1 = L15_1
@@ -40,34 +44,26 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF994FAE7D4A6ACCE"]
 L69_1 = "__name__"
 L70_1 = "CF994FAE7D4A6ACCE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF994FAE7D4A6ACCE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF994FAE7D4A6ACCE"]["prototype"]
-L69_1 = "F59C8F21D27E0AFE6"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class CF994FAE7D4A6ACCE_prototype
+CF994FAE7D4A6ACCE_prototype = L15_1()
+CF994FAE7D4A6ACCE.prototype = CF994FAE7D4A6ACCE_prototype
+--- main.ui.btl_team.RegulationCheckModule.SetupRegulation
+function CF994FAE7D4A6ACCE_prototype:F59C8F21D27E0AFE6(A1_2, A2_2)
   local L3_2, L4_2
-  A0_2[3] = A1_2
-  A0_2[4] = A2_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F2B1A22396BD99840
+  self[3] = A1_2
+  self[4] = A2_2
+  L4_2 = self
+  L3_2 = self.F2B1A22396BD99840
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF994FAE7D4A6ACCE"]["prototype"]
-L69_1 = "F2B1A22396BD99840"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.RegulationCheckModule.SetupError
+function CF994FAE7D4A6ACCE_prototype:F2B1A22396BD99840()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L1_2 = nil
   L2_2 = c03E8ACDF
   L2_2 = L2_2.f6E99895C
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -76,7 +72,7 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = c03C8030E
   L3_2 = L3_2.f7F18B5F5
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
@@ -87,39 +83,39 @@ function L70_1(A0_2)
   L3_2 = L3_2()
   L5_2 = L3_2
   L4_2 = L3_2.fE2ED5C44
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L4_2(L5_2, L6_2)
   L5_2 = L3_2
   L4_2 = L3_2.f161012F4
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L4_2 = L4_2(L5_2, L6_2)
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L6_2 = L5_2
   L5_2 = L5_2.f62782BA1
   L5_2 = L5_2(L6_2)
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L7_2 = L6_2
   L6_2 = L6_2.f68B55117
   L6_2 = L6_2(L7_2)
   L7_2 = L26_1.new
   L7_2 = L7_2()
-  A0_2[1] = L7_2
-  L7_2 = A0_2[1]
+  self[1] = L7_2
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.resize
   L9_2 = L5_2
   L7_2(L8_2, L9_2)
   L7_2 = false
   L8_2 = 0
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L9_2 = L9_2.length
   L10_2 = false
   while L8_2 < L9_2 do
     L8_2 = L8_2 + 1
     L11_2 = L8_2 - 1
-    L12_2 = A0_2[1]
+    L12_2 = self[1]
     L12_2[L11_2] = false
-    L12_2 = A0_2[4]
+    L12_2 = self[4]
     L13_2 = L12_2
     L12_2 = L12_2.f0FDE774D
     L14_2 = L11_2
@@ -136,7 +132,7 @@ function L70_1(A0_2)
       L13_2 = L13_2(L14_2, L15_2)
       if L13_2 then
         L7_2 = true
-        L13_2 = A0_2[1]
+        L13_2 = self[1]
         L13_2[L11_2] = true
       else
         L14_2 = L4_2
@@ -144,7 +140,7 @@ function L70_1(A0_2)
         L15_2 = L11_2
         L13_2 = L13_2(L14_2, L15_2)
         if 1 == L13_2 then
-          L13_2 = A0_2[1]
+          L13_2 = self[1]
           L13_2[L11_2] = true
         else
           L14_2 = L4_2
@@ -152,7 +148,7 @@ function L70_1(A0_2)
           L15_2 = L11_2
           L13_2 = L13_2(L14_2, L15_2)
           if 1 == L13_2 then
-            L13_2 = A0_2[1]
+            L13_2 = self[1]
             L13_2[L11_2] = true
           else
             L14_2 = L4_2
@@ -160,7 +156,7 @@ function L70_1(A0_2)
             L15_2 = L11_2
             L13_2 = L13_2(L14_2, L15_2)
             if 1 == L13_2 then
-              L13_2 = A0_2[1]
+              L13_2 = self[1]
               L13_2[L11_2] = true
             else
               L14_2 = L4_2
@@ -168,7 +164,7 @@ function L70_1(A0_2)
               L15_2 = L11_2
               L13_2 = L13_2(L14_2, L15_2)
               if 1 == L13_2 then
-                L13_2 = A0_2[1]
+                L13_2 = self[1]
                 L13_2[L11_2] = true
               else
                 if L6_2 then
@@ -177,7 +173,7 @@ function L70_1(A0_2)
                   L15_2 = L11_2
                   L13_2 = L13_2(L14_2, L15_2)
                   if 1 == L13_2 then
-                    L13_2 = A0_2[1]
+                    L13_2 = self[1]
                     L13_2[L11_2] = true
                 end
                 else
@@ -188,7 +184,7 @@ function L70_1(A0_2)
                   L14_2 = L12_2.fA8FAC6B9
                   L14_2 = L14_2(L15_2)
                   L15_2 = 0
-                  L16_2 = A0_2[1]
+                  L16_2 = self[1]
                   L16_2 = L16_2.length
                   while L15_2 < L16_2 do
                     L15_2 = L15_2 + 1
@@ -198,7 +194,7 @@ function L70_1(A0_2)
                     L20_2 = L17_2
                     L18_2 = L18_2(L19_2, L20_2)
                     if L13_2 == L18_2 then
-                      L18_2 = A0_2[1]
+                      L18_2 = self[1]
                       L18_2[L11_2] = true
                       break
                     end
@@ -208,7 +204,7 @@ function L70_1(A0_2)
                       L20_2 = L17_2
                       L18_2 = L18_2(L19_2, L20_2)
                       if L14_2 == L18_2 then
-                        L18_2 = A0_2[1]
+                        L18_2 = self[1]
                         L18_2[L11_2] = true
                         break
                       end
@@ -305,30 +301,24 @@ function L70_1(A0_2)
     if nil ~= L17_2 then
       L17_2 = L11_2[L16_2]
       if true == L17_2 then
-        A0_2[2] = L16_2
+        self[2] = L16_2
         break
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF994FAE7D4A6ACCE"]["prototype"]
-L69_1 = "F6008516E5273885F"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.RegulationCheckModule.GetErrorType
+function CF994FAE7D4A6ACCE_prototype:F6008516E5273885F()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF994FAE7D4A6ACCE"]["prototype"]
-L69_1 = "F84FD44F4619D2765"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.RegulationCheckModule.GetPokeErrorArray
+function CF994FAE7D4A6ACCE_prototype:F84FD44F4619D2765()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = _hx_tab_array
   L3_2 = {}
   L3_2.length = 0

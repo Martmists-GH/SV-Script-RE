@@ -1,3 +1,7 @@
+---@alias C27F34B869D44DED6 main_ui_shop_data_friendly_ShopLineupData
+
+---@class main_ui_shop_data_friendly_ShopLineupData : C27F34B869D44DED6_prototype
+---@field prototype C27F34B869D44DED6_prototype
 L55_1 = _ENV
 L56_1 = "C27F34B869D44DED6"
 L57_1 = L15_1
@@ -38,51 +42,37 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C27F34B869D44DED6"]
 L69_1 = "__name__"
 L70_1 = "C27F34B869D44DED6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27F34B869D44DED6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27F34B869D44DED6"]["prototype"]
-L69_1 = "F8A24125524489C32"
-
-function L70_1(A0_2)
+---@class C27F34B869D44DED6_prototype
+C27F34B869D44DED6_prototype = L15_1()
+C27F34B869D44DED6.prototype = C27F34B869D44DED6_prototype
+--- main.ui.shop.data.friendly.ShopLineupData.get_lineupID
+function C27F34B869D44DED6_prototype:F8A24125524489C32()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27F34B869D44DED6"]["prototype"]
-L69_1 = "FEA2C9508879A448C"
-
-function L70_1(A0_2)
+--- main.ui.shop.data.friendly.ShopLineupData.get_itemDataArray
+function C27F34B869D44DED6_prototype:FEA2C9508879A448C()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27F34B869D44DED6"]["prototype"]
-L69_1 = "FE4E2F780F4DCA473"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.data.friendly.ShopLineupData.AddItemData
+function C27F34B869D44DED6_prototype:FE4E2F780F4DCA473(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.push
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27F34B869D44DED6"]["prototype"]
-L69_1 = "FFE3D040391B7E351"
-
-function L70_1(A0_2)
+--- main.ui.shop.data.friendly.ShopLineupData.Sort
+function C27F34B869D44DED6_prototype:FFE3D040391B7E351()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.sort
   

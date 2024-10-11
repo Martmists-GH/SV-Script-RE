@@ -1,3 +1,7 @@
+---@alias C71AD9EFDBD8D9ED7 main_ui_btlspot_ui_BattleSpotUIPokemonSelect
+
+---@class main_ui_btlspot_ui_BattleSpotUIPokemonSelect : C71AD9EFDBD8D9ED7_prototype
+---@field prototype C71AD9EFDBD8D9ED7_prototype
 L55_1 = _ENV
 L56_1 = "CF36732BB3157BEE1"
 L57_1 = L15_1
@@ -42,11 +46,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF36732BB3157BEE1"]
 L69_1 = "__name__"
 L70_1 = "CF36732BB3157BEE1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF36732BB3157BEE1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C71AD9EFDBD8D9ED7_prototype
+C71AD9EFDBD8D9ED7_prototype = L15_1()
+C71AD9EFDBD8D9ED7.prototype = C71AD9EFDBD8D9ED7_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF36732BB3157BEE1"]["prototype"]
 L69_1 = _ENV["CF36732BB3157BEE1"]

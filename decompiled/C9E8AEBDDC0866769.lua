@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C9E8AEBDDC0866769"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C9E8AEBDDC0866769"]
-L69_1 = "new"
+---@alias C9E8AEBDDC0866769 main_system_game_event_GameEventCallSimpleAutoBattle
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventCallSimpleAutoBattle : C9E8AEBDDC0866769_prototype
+---@field prototype C9E8AEBDDC0866769_prototype
+C9E8AEBDDC0866769 = L15_1()
+function C9E8AEBDDC0866769.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = C9E8AEBDDC0866769
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E8AEBDDC0866769"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 C9E8AEBDDC0866769
+function C9E8AEBDDC0866769.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   A0_2[20] = nil
   A0_2[19] = false
@@ -40,11 +34,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E8AEBDDC0866769"]
-L69_1 = "__name__"
-L70_1 = "C9E8AEBDDC0866769"
-L68_1[L69_1] = L70_1
+C9E8AEBDDC0866769.__name__ = "C9E8AEBDDC0866769"
 L68_1 = _ENV["C9E8AEBDDC0866769"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -110,36 +100,31 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E8AEBDDC0866769"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E8AEBDDC0866769"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C9E8AEBDDC0866769_prototype
+C9E8AEBDDC0866769_prototype = L15_1()
+C9E8AEBDDC0866769.prototype = C9E8AEBDDC0866769_prototype
+--- main.system.game_event.GameEventCallSimpleAutoBattle.onCreate
+function C9E8AEBDDC0866769_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   L1_2.paralleled = true
   L1_2 = CB90497FB1A1A942B
   L1_2 = L1_2.S5D1379404D007959
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FC403370F3241D188
+  L2_2 = self
+  L1_2 = self.FC403370F3241D188
   L1_2(L2_2)
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[17]
+  L3_2 = self[17]
   L3_2 = L3_2.encountPoke
   L3_2 = L3_2.owner
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if not L2_2 then
-    L2_2 = A0_2[17]
+    L2_2 = self[17]
     L2_2 = L2_2.encountPoke
     L3_2 = c4E28AB7C
     L3_2 = L3_2.fB41FD22F
@@ -158,15 +143,15 @@ function L70_1(A0_2)
     
     L4_2, L5_2, L6_2 = L4_2()
     L3_2 = L3_2(L4_2, L5_2, L6_2)
-    A0_2[20] = L3_2
+    self[20] = L3_2
     L3_2 = nil
     L4_2 = c4E28AB7C
     L4_2 = L4_2.fDD029B54
-    L5_2 = A0_2[20]
+    L5_2 = self[20]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L4_2 = A0_2[20]
+      L4_2 = self[20]
       L5_2 = L4_2
       L4_2 = L4_2.f3D3B5642
       L6_2 = true
@@ -181,15 +166,12 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E8AEBDDC0866769"]["prototype"]
-L69_1 = "FB161B45E9210E867"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventCallSimpleAutoBattle.checkBootable
+function C9E8AEBDDC0866769_prototype:FB161B45E9210E867()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
-  L2_2 = A0_2[19]
+  L2_2 = self[19]
   if not L2_2 then
     L2_2 = true
     return L2_2
@@ -229,21 +211,18 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E8AEBDDC0866769"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventCallSimpleAutoBattle.onInitialize
+function C9E8AEBDDC0866769_prototype:F239C282ED3F82676()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
-  L3_2 = A0_2
-  L2_2 = A0_2.FB161B45E9210E867
+  L3_2 = self
+  L2_2 = self.FB161B45E9210E867
   L2_2 = L2_2(L3_2)
   if L2_2 then
     L2_2 = nil
     L3_2 = c4E28AB7C
     L3_2 = L3_2.f68BF50E5
-    L4_2 = A0_2[20]
+    L4_2 = self[20]
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     L1_2 = L3_2
@@ -251,11 +230,11 @@ function L70_1(A0_2)
     L1_2 = true
   end
   if L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F68499476069C0B1E
+    L3_2 = self
+    L2_2 = self.F68499476069C0B1E
     L2_2(L3_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.F125C3F6B9088EB02
+    L3_2 = self
+    L2_2 = self.F125C3F6B9088EB02
     L2_2(L3_2)
     L2_2 = 1
     return L2_2
@@ -264,17 +243,14 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E8AEBDDC0866769"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventCallSimpleAutoBattle.onUpdate
+function C9E8AEBDDC0866769_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = nil
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f4555D276
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.encountPoke
   L4_2 = L4_2.owner
   L5_2 = L2_2
@@ -283,7 +259,7 @@ function L70_1(A0_2)
     L3_2 = nil
     L4_2 = c4E28AB7C
     L4_2 = L4_2.f68BF50E5
-    L5_2 = A0_2[20]
+    L5_2 = self[20]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     L1_2 = L4_2
@@ -296,7 +272,7 @@ function L70_1(A0_2)
     L3_2 = 2
     return L3_2
   end
-  L3_2 = A0_2[17]
+  L3_2 = self[17]
   L3_2 = L3_2.encountPoke
   L4_2 = c2CA78EB7
   L4_2 = L4_2.f0C0792E0
@@ -315,17 +291,17 @@ function L70_1(A0_2)
   
   L5_2, L6_2, L7_2, L8_2 = L5_2()
   L4_2(L5_2, L6_2, L7_2, L8_2)
-  L4_2 = A0_2[20]
+  L4_2 = self[20]
   L5_2 = L4_2
   L4_2 = L4_2.f91CD436D
   L6_2 = true
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[20]
+  L4_2 = self[20]
   L5_2 = L4_2
   L4_2 = L4_2.f65462631
   L6_2 = true
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.encountPoke
   L5_2 = C42D11EE6DC41D8CE
   L5_2 = L5_2.S8E09B6DDB1595B28
@@ -345,17 +321,17 @@ function L70_1(A0_2)
   L6_2, L7_2, L8_2 = L6_2()
   L5_2 = L5_2(L6_2, L7_2, L8_2)
   if true == L5_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.F55766A6BBF42FC45
+    L6_2 = self
+    L5_2 = self.F55766A6BBF42FC45
     L5_2 = L5_2(L6_2)
     if not L5_2 then
-      L6_2 = A0_2
-      L5_2 = A0_2.F125C3F6B9088EB02
+      L6_2 = self
+      L5_2 = self.F125C3F6B9088EB02
       L5_2(L6_2)
       L5_2 = 2
       return L5_2
     end
-    L5_2 = A0_2[17]
+    L5_2 = self[17]
     L5_2 = L5_2.encountPoke
     L6_2 = C42D11EE6DC41D8CE
     L6_2 = L6_2.S0AE8C4C98A69D8A5
@@ -377,7 +353,7 @@ function L70_1(A0_2)
     L6_2(L7_2, L8_2)
     L6_2 = C6F7249149A929D9A
     L6_2 = L6_2.SCAD40BA600A416C8
-    L7_2 = A0_2[17]
+    L7_2 = self[17]
     L7_2 = L7_2.encountPoke
     L6_2 = L6_2(L7_2)
     if nil ~= L6_2 then
@@ -413,33 +389,30 @@ function L70_1(A0_2)
       L7_2 = CF7FF03361691E695
       L7_2 = L7_2.SB7EC785904AAC7CC
       if -1 == L7_2 then
-        L8_2 = A0_2
-        L7_2 = A0_2.F125C3F6B9088EB02
+        L8_2 = self
+        L7_2 = self.F125C3F6B9088EB02
         L7_2(L8_2)
       end
     else
-      L8_2 = A0_2
-      L7_2 = A0_2.F125C3F6B9088EB02
+      L8_2 = self
+      L7_2 = self.F125C3F6B9088EB02
       L7_2(L8_2)
     end
     L7_2 = 2
     return L7_2
   else
-    L6_2 = A0_2
-    L5_2 = A0_2.F125C3F6B9088EB02
+    L6_2 = self
+    L5_2 = self.F125C3F6B9088EB02
     L5_2(L6_2)
     L5_2 = 2
     return L5_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E8AEBDDC0866769"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventCallSimpleAutoBattle.onFinished
+function C9E8AEBDDC0866769_prototype:F68499476069C0B1E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L2_2 = L1_2[5]
   L3_2 = L2_2
   L2_2 = L2_2.iterator
@@ -467,13 +440,10 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E8AEBDDC0866769"]["prototype"]
-L69_1 = "F55766A6BBF42FC45"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventCallSimpleAutoBattle.ChangeOwnerRequest
+function C9E8AEBDDC0866769_prototype:F55766A6BBF42FC45()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[20]
+  L1_2 = self[20]
   L2_2 = L1_2
   L1_2 = L1_2.f316493A6
   L1_2 = L1_2(L2_2)
@@ -483,7 +453,7 @@ function L70_1(A0_2)
   end
   L1_2 = false
   L2_2 = false
-  L3_2 = A0_2[17]
+  L3_2 = self[17]
   L3_2 = L3_2.encountPoke
   L4_2 = c2CA78EB7
   L4_2 = L4_2.fD9478137
@@ -527,11 +497,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E8AEBDDC0866769"]["prototype"]
-L69_1 = "FC403370F3241D188"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventCallSimpleAutoBattle.SetProhibit
+function C9E8AEBDDC0866769_prototype:FC403370F3241D188()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = nil
   L2_2 = C282DAED1E1D374F6
@@ -542,8 +509,8 @@ function L70_1(A0_2)
   L4_2 = "GameEventSimpleAutoBattleProhibit"
   L5_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2[18] = L2_2
-  L2_2 = A0_2[18]
+  self[18] = L2_2
+  L2_2 = self[18]
   L3_2 = L2_2
   L2_2 = L2_2.F5B98E8D4C251422B
   L4_2 = true
@@ -581,11 +548,11 @@ function L70_1(A0_2)
         L7_2 = L2_2[1]
         L7_2 = L7_2.h
         L7_2.DisableRideChange = true
-        A0_2[19] = true
+        self[19] = true
       end
     end
   end
-  L5_2 = A0_2[18]
+  L5_2 = self[18]
   L6_2 = L5_2
   L5_2 = L5_2.F6C8DDC9A268EFAD5
   L7_2 = "GameEventSimpleAutoBattleProhibitChild"
@@ -597,11 +564,8 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E8AEBDDC0866769"]["prototype"]
-L69_1 = "F125C3F6B9088EB02"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventCallSimpleAutoBattle.OnFailure
+function C9E8AEBDDC0866769_prototype:F125C3F6B9088EB02()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CF7FF03361691E695
   L1_2.SB7EC785904AAC7CC = -1
@@ -609,7 +573,7 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f4555D276
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.encountPoke
   L4_2 = L4_2.owner
   L5_2 = L2_2
@@ -618,7 +582,7 @@ function L70_1(A0_2)
     L3_2 = nil
     L4_2 = c4E28AB7C
     L4_2 = L4_2.fDD029B54
-    L5_2 = A0_2[20]
+    L5_2 = self[20]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     L1_2 = L4_2
@@ -626,7 +590,7 @@ function L70_1(A0_2)
     L1_2 = false
   end
   if L1_2 then
-    L3_2 = A0_2[17]
+    L3_2 = self[17]
     L3_2 = L3_2.encountPoke
     L4_2 = C42D11EE6DC41D8CE
     L4_2 = L4_2.S0AE8C4C98A69D8A5
@@ -646,17 +610,17 @@ function L70_1(A0_2)
     L5_2 = L5_2()
     L6_2 = true
     L4_2(L5_2, L6_2)
-    L4_2 = A0_2[20]
+    L4_2 = self[20]
     L5_2 = L4_2
     L4_2 = L4_2.f91CD436D
     L6_2 = false
     L4_2(L5_2, L6_2)
-    L4_2 = A0_2[20]
+    L4_2 = self[20]
     L5_2 = L4_2
     L4_2 = L4_2.f65462631
     L6_2 = false
     L4_2(L5_2, L6_2)
-    L4_2 = A0_2[20]
+    L4_2 = self[20]
     L5_2 = L4_2
     L4_2 = L4_2.f3D3B5642
     L6_2 = false

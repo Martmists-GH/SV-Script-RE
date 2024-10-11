@@ -1,3 +1,5 @@
+---@class C42D19212A59F047C : C42D19212A59F047C_prototype
+---@field prototype C42D19212A59F047C_prototype
 L55_1 = _ENV
 L56_1 = "C42D19212A59F047C"
 L57_1 = L15_1
@@ -37,47 +39,36 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C42D19212A59F047C"]
 L69_1 = "__name__"
 L70_1 = "C42D19212A59F047C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D19212A59F047C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D19212A59F047C"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2)
+---@class C42D19212A59F047C_prototype
+C42D19212A59F047C_prototype = L15_1()
+C42D19212A59F047C.prototype = C42D19212A59F047C_prototype
+--- C42D19212A59F047C.Setup
+function C42D19212A59F047C_prototype:F7C68FEDB79AB6396()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D19212A59F047C"]["prototype"]
-L69_1 = "F7EED485852A4D25F"
-
-function L70_1(A0_2)
+--- C42D19212A59F047C.Start
+function C42D19212A59F047C_prototype:F7EED485852A4D25F()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F021D0A45A976A55F
+  L3_2 = self
+  L4_2 = self.F021D0A45A976A55F
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "ClubRoomBgmSelect.MenuMsgCoroutine"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[1] = L1_2
+  self[1] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D19212A59F047C"]["prototype"]
-L69_1 = "FA5B8258582A90EF3"
-
-function L70_1(A0_2)
+--- C42D19212A59F047C.IsFinished
+function C42D19212A59F047C_prototype:FA5B8258582A90EF3()
   local L1_2, L2_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   if nil ~= L1_2 then
     L1_2 = L10_1.coroutine
     L1_2 = L1_2.status
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L2_2 = L2_2[1]
     L1_2 = L1_2(L2_2)
     L1_2 = "dead" == L1_2
@@ -88,21 +79,18 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D19212A59F047C"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- C42D19212A59F047C.Update
+function C42D19212A59F047C_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   if nil ~= L1_2 then
     L1_2 = L10_1.coroutine
     L1_2 = L1_2.status
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L2_2 = L2_2[1]
     L1_2 = L1_2(L2_2)
     if "dead" ~= L1_2 then
-      L1_2 = A0_2[1]
+      L1_2 = self[1]
       L2_2 = nil
       L3_2 = L62_1
       L4_2 = L64_1.pack
@@ -150,11 +138,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D19212A59F047C"]["prototype"]
-L69_1 = "F021D0A45A976A55F"
-
-function L70_1(A0_2)
+--- C42D19212A59F047C.MenuMsgCoroutine
+function C42D19212A59F047C_prototype:F021D0A45A976A55F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -606,8 +591,8 @@ function L70_1(A0_2)
       end
       
       L12_2(L13_2, L14_2)
-      L13_2 = A0_2
-      L12_2 = A0_2.FB1E2F99DDE056149
+      L13_2 = self
+      L12_2 = self.FB1E2F99DDE056149
       L14_2 = L9_2
       L12_2(L13_2, L14_2)
     end
@@ -638,11 +623,8 @@ function L70_1(A0_2)
   L4_2[7] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D19212A59F047C"]["prototype"]
-L69_1 = "FB1E2F99DDE056149"
-
-function L70_1(A0_2, A1_2)
+--- C42D19212A59F047C.FB1E2F99DDE056149
+function C42D19212A59F047C_prototype:FB1E2F99DDE056149(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.S44577E0D8E8F3819

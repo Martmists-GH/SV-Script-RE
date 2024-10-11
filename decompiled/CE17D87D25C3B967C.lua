@@ -1,3 +1,5 @@
+---@class CE17D87D25C3B967C : CE17D87D25C3B967C_prototype
+---@field prototype CE17D87D25C3B967C_prototype
 L55_1 = _ENV
 L56_1 = "CE17D87D25C3B967C"
 L57_1 = L15_1
@@ -45,36 +47,25 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE17D87D25C3B967C"]
 L69_1 = "__name__"
 L70_1 = "CE17D87D25C3B967C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE17D87D25C3B967C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE17D87D25C3B967C"]["prototype"]
-L69_1 = "FA88D69D4604DBB0F"
-
-function L70_1(A0_2)
+---@class CE17D87D25C3B967C_prototype
+CE17D87D25C3B967C_prototype = L15_1()
+CE17D87D25C3B967C.prototype = CE17D87D25C3B967C_prototype
+--- CE17D87D25C3B967C.onReset
+function CE17D87D25C3B967C_prototype:FA88D69D4604DBB0F()
   local L1_2
-  A0_2[12] = false
+  self[12] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE17D87D25C3B967C"]["prototype"]
-L69_1 = "F019AC076276FE4F6"
-
-function L70_1(A0_2)
+--- CE17D87D25C3B967C.onEnter
+function CE17D87D25C3B967C_prototype:F019AC076276FE4F6()
   local L1_2
-  A0_2[12] = true
+  self[12] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE17D87D25C3B967C"]["prototype"]
-L69_1 = "F6D16D30FD1C59B4F"
-
-function L70_1(A0_2)
+--- CE17D87D25C3B967C.onLeave
+function CE17D87D25C3B967C_prototype:F6D16D30FD1C59B4F()
   local L1_2
-  A0_2[12] = false
+  self[12] = false
 end
 
 L68_1[L69_1] = L70_1

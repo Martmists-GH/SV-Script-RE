@@ -1,3 +1,7 @@
+---@alias C351AAA03E7714E97 main_ui_btlspot_ui_BattleSpotUIPageRule
+
+---@class main_ui_btlspot_ui_BattleSpotUIPageRule : C351AAA03E7714E97_prototype
+---@field prototype C351AAA03E7714E97_prototype
 L55_1 = _ENV
 L56_1 = "C351AAA03E7714E97"
 L57_1 = L15_1
@@ -48,96 +52,88 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C351AAA03E7714E97"]
 L69_1 = "__name__"
 L70_1 = "C351AAA03E7714E97"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C351AAA03E7714E97"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C351AAA03E7714E97"]["prototype"]
-L69_1 = "F798CCA603D6E6730"
-
-function L70_1(A0_2, A1_2)
+---@class C351AAA03E7714E97_prototype
+C351AAA03E7714E97_prototype = L15_1()
+C351AAA03E7714E97.prototype = C351AAA03E7714E97_prototype
+--- main.ui.btlspot.ui.BattleSpotUIPageRule.SetupUI
+function C351AAA03E7714E97_prototype:F798CCA603D6E6730(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = nil
   L3_2 = c3FAF3463
   L3_2 = L3_2.f8C71328E
-  L4_2 = A0_2[9]
+  L4_2 = self[9]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = C04C2A679B8598CA6
     L3_2 = L3_2.SD071DF9D0379766A
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = 5
     L6_2 = false
     L3_2 = L3_2(L4_2, L5_2, L6_2)
-    A0_2[9] = L3_2
+    self[9] = L3_2
   end
   L3_2 = nil
   L4_2 = c3FAF3463
   L4_2 = L4_2.f8C71328E
-  L5_2 = A0_2[10]
+  L5_2 = self[10]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
     L4_2 = C04C2A679B8598CA6
     L4_2 = L4_2.SD071DF9D0379766A
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = 6
     L7_2 = false
     L4_2 = L4_2(L5_2, L6_2, L7_2)
-    A0_2[10] = L4_2
+    self[10] = L4_2
   end
   L4_2 = nil
   L5_2 = c3FAF3463
   L5_2 = L5_2.f8C71328E
-  L6_2 = A0_2[11]
+  L6_2 = self[11]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
     L5_2 = C04C2A679B8598CA6
     L5_2 = L5_2.SD071DF9D0379766A
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = 2
     L8_2 = false
     L5_2 = L5_2(L6_2, L7_2, L8_2)
-    A0_2[11] = L5_2
+    self[11] = L5_2
   end
   L5_2 = nil
   L6_2 = c3FAF3463
   L6_2 = L6_2.f8C71328E
-  L7_2 = A0_2[12]
+  L7_2 = self[12]
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
   if L6_2 then
     L6_2 = C04C2A679B8598CA6
     L6_2 = L6_2.SD071DF9D0379766A
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L8_2 = 8
     L9_2 = false
     L6_2 = L6_2(L7_2, L8_2, L9_2)
-    A0_2[12] = L6_2
+    self[12] = L6_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C351AAA03E7714E97"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.btlspot.ui.BattleSpotUIPageRule.Reset
+function C351AAA03E7714E97_prototype:F96EA28F400597FA0(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  A0_2[8] = A1_2
-  L5_2 = A0_2[8]
+  self[8] = A1_2
+  L5_2 = self[8]
   if 0 == L5_2 then
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L6_2 = L5_2
     L5_2 = L5_2.f49A729B6
     L7_2 = "A_alignment_00"
     L5_2(L6_2, L7_2)
   end
   L5_2 = not A4_2
-  A0_2[13] = L5_2
+  self[13] = L5_2
   L5_2 = A3_2
   if A4_2 then
     L6_2 = c03E8ACDF
@@ -162,14 +158,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L6_2 = L6_2(L7_2, L8_2)
   L7_2 = c8C3BF576
   L7_2 = L7_2.f46674724
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = "T_title_00"
   L10_2 = "btlspot"
   L11_2 = "msg_ui_btlspot_sys_32"
   L7_2(L8_2, L9_2, L10_2, L11_2)
   L7_2 = C828F047963375FA0
   L7_2 = L7_2.S48D1EC0CE0975EE1
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = L6_2
   L10_2 = "T_rule_00"
   L7_2(L8_2, L9_2, L10_2)
@@ -177,13 +173,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   if A4_2 then
     L8_2 = C828F047963375FA0
     L8_2 = L8_2.S5EEEE2B5D42AB514
-    L9_2 = A0_2[1]
+    L9_2 = self[1]
     L10_2 = L6_2
     L11_2 = "T_rule_01"
     L8_2(L9_2, L10_2, L11_2)
     L7_2 = 0
   end
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.fEAD9FB7D
   L10_2 = "pattern"
@@ -191,70 +187,70 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L8_2(L9_2, L10_2, L11_2)
   L8_2 = c8C3BF576
   L8_2 = L8_2.f46674724
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = "T_title_01"
   L11_2 = "regulation"
   L12_2 = "msg_reg_cap_11"
   L8_2(L9_2, L10_2, L11_2, L12_2)
   L8_2 = C828F047963375FA0
   L8_2 = L8_2.S3E9EF47B1E4833A8
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = L6_2
   L11_2 = "T_counter_02"
   L8_2(L9_2, L10_2, L11_2)
   L8_2 = c8C3BF576
   L8_2 = L8_2.f46674724
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = "T_title_03"
   L11_2 = "regulation"
   L12_2 = "msg_reg_cap_12"
   L8_2(L9_2, L10_2, L11_2, L12_2)
   L8_2 = C828F047963375FA0
   L8_2 = L8_2.S6359422668866DCE
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = L6_2
   L11_2 = "T_level_00"
   L8_2(L9_2, L10_2, L11_2)
   L8_2 = c8C3BF576
   L8_2 = L8_2.f46674724
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = "T_title_06"
   L11_2 = "regulation"
   L12_2 = "msg_reg_cap_13"
   L8_2(L9_2, L10_2, L11_2, L12_2)
   L8_2 = C828F047963375FA0
   L8_2 = L8_2.S40402C5BA0591AEF
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = L6_2
   L11_2 = "T_detail_00"
   L8_2(L9_2, L10_2, L11_2)
   L8_2 = c8C3BF576
   L8_2 = L8_2.f46674724
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = "T_title_08"
   L11_2 = "regulation"
   L12_2 = "msg_reg_cap_14"
   L8_2(L9_2, L10_2, L11_2, L12_2)
   L8_2 = C828F047963375FA0
   L8_2 = L8_2.S863CD4514972345C
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = L6_2
   L11_2 = "T_detail_01"
   L8_2(L9_2, L10_2, L11_2)
   L8_2 = c8C3BF576
   L8_2 = L8_2.f46674724
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = "T_title_09"
   L11_2 = "regulation"
   L12_2 = "msg_reg_cap_15"
   L8_2(L9_2, L10_2, L11_2, L12_2)
   L8_2 = C828F047963375FA0
   L8_2 = L8_2.S8F8385AA1A5B4776
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = L6_2
   L11_2 = "T_detail_02"
   L8_2(L9_2, L10_2, L11_2)
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = 0
   L10_2 = C828F047963375FA0
   L10_2 = L10_2.S480298DAE2C025D0
@@ -288,12 +284,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
   L10_2 = c8C3BF576
   L10_2 = L10_2.f46674724
-  L11_2 = A0_2[1]
+  L11_2 = self[1]
   L12_2 = "T_page_01"
   L13_2 = "btlspot"
   L14_2 = "msg_ui_btlspot_sys_21"
   L10_2(L11_2, L12_2, L13_2, L14_2)
-  L10_2 = A0_2[1]
+  L10_2 = self[1]
   L11_2 = 0
   L12_2 = C828F047963375FA0
   L12_2 = L12_2.S480298DAE2C025D0
@@ -327,7 +323,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
   L12_2 = cECD2E4A5
   L12_2 = L12_2.fD4E920D9
-  L13_2 = A0_2[1]
+  L13_2 = self[1]
   L14_2 = "Cursor_00"
   L12_2 = L12_2(L13_2, L14_2)
   L13_2 = nil
@@ -344,42 +340,36 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C351AAA03E7714E97"]["prototype"]
-L69_1 = "F7EED485852A4D25F"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.ui.BattleSpotUIPageRule.Start
+function C351AAA03E7714E97_prototype:F7EED485852A4D25F()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F6FCE9E4187792625
+  L2_2 = self
+  L1_2 = self.F6FCE9E4187792625
   L3_2 = true
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C351AAA03E7714E97"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUIPageRule.Update
+function C351AAA03E7714E97_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2
   if not A1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F6FCE9E4187792625
+    L3_2 = self
+    L2_2 = self.F6FCE9E4187792625
     L4_2 = false
     L2_2(L3_2, L4_2)
     L2_2 = -1
     return L2_2
   end
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.fDEEB3A8E
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F6FCE9E4187792625
+    L3_2 = self
+    L2_2 = self.F6FCE9E4187792625
     L4_2 = false
     L2_2(L3_2, L4_2)
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.fB4E9D030
     L4_2 = "L_cursor_page_00/select"
@@ -391,15 +381,15 @@ function L70_1(A0_2, A1_2)
     L2_2 = 2
     return L2_2
   end
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   if 0 == L2_2 then
-    L2_2 = A0_2[10]
+    L2_2 = self[10]
     L3_2 = L2_2
     L2_2 = L2_2.fDEEB3A8E
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F6FCE9E4187792625
+      L3_2 = self
+      L2_2 = self.F6FCE9E4187792625
       L4_2 = false
       L2_2(L3_2, L4_2)
       L2_2 = C3A36506FBC96ACBD
@@ -410,15 +400,15 @@ function L70_1(A0_2, A1_2)
       return L2_2
     end
   end
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   if L2_2 then
-    L2_2 = A0_2[12]
+    L2_2 = self[12]
     L3_2 = L2_2
     L2_2 = L2_2.fDEEB3A8E
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F6FCE9E4187792625
+      L3_2 = self
+      L2_2 = self.F6FCE9E4187792625
       L4_2 = false
       L2_2(L3_2, L4_2)
       L2_2 = C3A36506FBC96ACBD
@@ -429,13 +419,13 @@ function L70_1(A0_2, A1_2)
       return L2_2
     end
   end
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   L3_2 = L2_2
   L2_2 = L2_2.fDEEB3A8E
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F6FCE9E4187792625
+    L3_2 = self
+    L2_2 = self.F6FCE9E4187792625
     L4_2 = false
     L2_2(L3_2, L4_2)
     L2_2 = C3A36506FBC96ACBD

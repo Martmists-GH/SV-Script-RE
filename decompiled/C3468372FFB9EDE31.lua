@@ -1,3 +1,7 @@
+---@alias C3468372FFB9EDE31 main_field_behaviour_event_command_EventCommandData
+
+---@class main_field_behaviour_event_command_EventCommandData : C3468372FFB9EDE31_prototype
+---@field prototype C3468372FFB9EDE31_prototype
 L55_1 = _ENV
 L56_1 = "C3468372FFB9EDE31"
 L57_1 = L15_1
@@ -42,62 +46,54 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C3468372FFB9EDE31"]
 L69_1 = "__name__"
 L70_1 = "C3468372FFB9EDE31"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3468372FFB9EDE31"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3468372FFB9EDE31"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C3468372FFB9EDE31_prototype
+C3468372FFB9EDE31_prototype = L15_1()
+C3468372FFB9EDE31.prototype = C3468372FFB9EDE31_prototype
+--- main.field.behaviour.event.command.EventCommandData.Setup
+function C3468372FFB9EDE31_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C3468372FFB9EDE31
-  L4_2 = A0_2
-  L3_2 = A0_2.FAC67989E3456ACDF
+  L4_2 = self
+  L3_2 = self.FAC67989E3456ACDF
   L5_2 = "motion_state_player_field"
   L3_2 = L3_2(L4_2, L5_2)
   L2_2.S6D200CCAD5FBC2CF = L3_2
   L2_2 = C3468372FFB9EDE31
-  L4_2 = A0_2
-  L3_2 = A0_2.FAC67989E3456ACDF
+  L4_2 = self
+  L3_2 = self.FAC67989E3456ACDF
   L5_2 = "motion_state_player_battle"
   L3_2 = L3_2(L4_2, L5_2)
   L2_2.SF1EA601793E6CC5F = L3_2
   L2_2 = C3468372FFB9EDE31
-  L4_2 = A0_2
-  L3_2 = A0_2.FAC67989E3456ACDF
+  L4_2 = self
+  L3_2 = self.FAC67989E3456ACDF
   L5_2 = "motion_state_npc_field"
   L3_2 = L3_2(L4_2, L5_2)
   L2_2.SF96E657D04BB911D = L3_2
   L2_2 = C3468372FFB9EDE31
-  L4_2 = A0_2
-  L3_2 = A0_2.FAC67989E3456ACDF
+  L4_2 = self
+  L3_2 = self.FAC67989E3456ACDF
   L5_2 = "motion_state_npc_battle"
   L3_2 = L3_2(L4_2, L5_2)
   L2_2.S38C04C6CE1A46AB9 = L3_2
   L2_2 = C3468372FFB9EDE31
-  L4_2 = A0_2
-  L3_2 = A0_2.FC2563168197201D2
+  L4_2 = self
+  L3_2 = self.FC2563168197201D2
   L5_2 = "motion_state_pokemon"
   L3_2 = L3_2(L4_2, L5_2)
   L2_2.SAEEDD297A5498995 = L3_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.fBE3B2D3B
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3468372FFB9EDE31"]["prototype"]
-L69_1 = "FAC67989E3456ACDF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.event.command.EventCommandData.FAC67989E3456ACDF
+function C3468372FFB9EDE31_prototype:FAC67989E3456ACDF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fE3B9128F
@@ -234,15 +230,12 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3468372FFB9EDE31"]["prototype"]
-L69_1 = "FC2563168197201D2"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.event.command.EventCommandData.FC2563168197201D2
+function C3468372FFB9EDE31_prototype:FC2563168197201D2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fE3B9128F

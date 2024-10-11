@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C32763D2F86D253EE"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C32763D2F86D253EE"]
-L69_1 = "new"
+---@alias C32763D2F86D253EE main_field_area_base_AreaDataManager
 
-function L70_1(A0_2)
+---@class main_field_area_base_AreaDataManager : C32763D2F86D253EE_prototype
+---@field prototype C32763D2F86D253EE_prototype
+C32763D2F86D253EE = L15_1()
+function C32763D2F86D253EE.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C32763D2F86D253EE
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C32763D2F86D253EE"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C32763D2F86D253EE
+function C32763D2F86D253EE.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -47,11 +41,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C32763D2F86D253EE"]
 L69_1 = "__name__"
 L70_1 = "C32763D2F86D253EE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C32763D2F86D253EE"]
-L69_1 = "S356B89F4BFD13967"
-
-function L70_1(A0_2)
+--- main.field.area.base.AreaDataManager.FindAreaData
+function C32763D2F86D253EE.S356B89F4BFD13967(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C32763D2F86D253EE
   L1_2 = L1_2.SC8223E31D3163519
@@ -61,11 +52,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C32763D2F86D253EE"]
-L69_1 = "S7A3DFB1718A6444E"
-
-function L70_1(A0_2)
+--- main.field.area.base.AreaDataManager.IsWorldArea
+function C32763D2F86D253EE.S7A3DFB1718A6444E(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C32763D2F86D253EE
   L1_2 = L1_2.SC8223E31D3163519
@@ -75,11 +63,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C32763D2F86D253EE"]
-L69_1 = "S288074911E7800E7"
-
-function L70_1()
+--- main.field.area.base.AreaDataManager.get_IsReady
+function C32763D2F86D253EE.S288074911E7800E7()
   local L0_2, L1_2
   L0_2 = C32763D2F86D253EE
   L0_2 = L0_2.SC8223E31D3163519
@@ -94,16 +79,11 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C32763D2F86D253EE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C32763D2F86D253EE"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C32763D2F86D253EE_prototype
+C32763D2F86D253EE_prototype = L15_1()
+C32763D2F86D253EE.prototype = C32763D2F86D253EE_prototype
+--- main.field.area.base.AreaDataManager.Setup
+function C32763D2F86D253EE_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L2_2 = C32763D2F86D253EE
   L2_2 = L2_2.SC8223E31D3163519
@@ -170,7 +150,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = cF52F390B
   L4_2 = L4_2.fB41FD22F
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
   L5_2 = _hx_tab_array
   L6_2 = {}
@@ -328,7 +308,7 @@ function L70_1(A0_2, A1_2)
     end
   end
   L2_2[2] = true
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = L8_2
   L8_2 = L8_2.fBE3B2D3B
   L8_2(L9_2)

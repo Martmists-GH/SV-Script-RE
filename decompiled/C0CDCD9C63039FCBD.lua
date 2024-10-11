@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C0CDCD9C63039FCBD"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C0CDCD9C63039FCBD"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CDCD9C63039FCBD"]
-L69_1 = "__name__"
-L70_1 = "C0CDCD9C63039FCBD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CDCD9C63039FCBD"]
-L69_1 = "S0D896EC84FC59430"
+---@alias C0CDCD9C63039FCBD main_event_command_QuestDirectingCommand
 
-function L70_1(A0_2)
+---@class main_event_command_QuestDirectingCommand
+C0CDCD9C63039FCBD = L15_1()
+C0CDCD9C63039FCBD.new = {}
+C0CDCD9C63039FCBD.__name__ = "C0CDCD9C63039FCBD"
+--- main.event.command.QuestDirectingCommand.DirectingStart
+function C0CDCD9C63039FCBD.S0D896EC84FC59430(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C0CDCD9C63039FCBD
   L1_2 = L1_2.SA68AEC39F71B39AD
@@ -71,11 +62,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CDCD9C63039FCBD"]
-L69_1 = "SA68AEC39F71B39AD"
-
-function L70_1(A0_2)
+--- main.event.command.QuestDirectingCommand.SA68AEC39F71B39AD
+function C0CDCD9C63039FCBD.SA68AEC39F71B39AD(A0_2)
   local L1_2
   if 4 == A0_2 then
     L1_2 = C2BC83FB324A5739A
@@ -94,11 +82,8 @@ function L70_1(A0_2)
   return L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CDCD9C63039FCBD"]
-L69_1 = "S6712C33B76AF3293"
-
-function L70_1(A0_2)
+--- main.event.command.QuestDirectingCommand.StartQuestAllClear
+function C0CDCD9C63039FCBD.S6712C33B76AF3293(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C0CDCD9C63039FCBD
   L1_2 = L1_2.S37D564EE7D98650B
@@ -155,11 +140,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CDCD9C63039FCBD"]
-L69_1 = "S37D564EE7D98650B"
-
-function L70_1(A0_2)
+--- main.event.command.QuestDirectingCommand.S37D564EE7D98650B
+function C0CDCD9C63039FCBD.S37D564EE7D98650B(A0_2)
   local L1_2
   if 4 == A0_2 then
     L1_2 = C55AF6E1D887BCE36
@@ -178,11 +160,8 @@ function L70_1(A0_2)
   return L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CDCD9C63039FCBD"]
-L69_1 = "SC6838914E0E72764"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.QuestDirectingCommand.CallMainScenarioClearDemo
+function C0CDCD9C63039FCBD.SC6838914E0E72764(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A3_2 then
     A3_2 = true

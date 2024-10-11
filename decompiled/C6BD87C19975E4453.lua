@@ -1,3 +1,7 @@
+---@alias C6BD87C19975E4453 main_event_general_shop_FriendlyShop
+
+---@class main_event_general_shop_FriendlyShop : C6BD87C19975E4453_prototype
+---@field prototype C6BD87C19975E4453_prototype
 L55_1 = _ENV
 L56_1 = "C6BD87C19975E4453"
 L57_1 = L15_1
@@ -47,21 +51,16 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6BD87C19975E4453"]
 L69_1 = "__name__"
 L70_1 = "C6BD87C19975E4453"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C6BD87C19975E4453_prototype
+C6BD87C19975E4453_prototype = L15_1()
+C6BD87C19975E4453.prototype = C6BD87C19975E4453_prototype
+--- main.event.general.shop.FriendlyShop.onCreate
+function C6BD87C19975E4453_prototype:FC87C731D11C58354()
   local L1_2, L2_2
   L1_2 = C20F5CD372AAAA08C
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC87C731D11C58354
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = C3A36506FBC96ACBD
   L1_2 = L1_2.SC6181320B46854EE
@@ -69,30 +68,27 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.shop.FriendlyShop.mainBody
+function C6BD87C19975E4453_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C20F5CD372AAAA08C
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FD8D5F3745B4B5174
-  L3_2 = A0_2
+  L3_2 = self
   L2_2(L3_2)
   L2_2 = CD275518C236DDEEB
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
   L3_2 = L2_2
   L2_2 = L2_2.F8D125015FC0833E6
-  L4_2 = A0_2[32]
+  L4_2 = self[32]
   L4_2 = L4_2.shopID
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = L2_2
   L2_2 = L2_2.FB33E2755DFA0844D
   L2_2 = L2_2(L3_2)
-  A0_2[36] = L2_2
+  self[36] = L2_2
   L2_2 = nil
   
   function L3_2()
@@ -100,7 +96,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L2_2
@@ -108,7 +104,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -141,7 +137,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L5_2
@@ -149,7 +145,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -164,7 +160,7 @@ function L70_1(A0_2)
       L7_2 = L7_2(L8_2, L9_2)
       if L7_2 then
         L7_2 = nil
-        L8_2 = A0_2[36]
+        L8_2 = self[36]
         if 0 == L8_2 then
           L8_2 = nil
           
@@ -173,7 +169,7 @@ function L70_1(A0_2)
             L0_3 = nil
             L1_3 = c016374C1
             L1_3 = L1_3.f4555D276
-            L2_3 = A0_2
+            L2_3 = self
             L2_3 = L2_3[12]
             L2_3 = L2_3.owner
             L3_3 = L8_2
@@ -181,7 +177,7 @@ function L70_1(A0_2)
             if L1_3 then
               L0_3 = nil
             else
-              L1_3 = A0_2
+              L1_3 = self
               L0_3 = L1_3[12]
             end
             return L0_3
@@ -200,7 +196,7 @@ function L70_1(A0_2)
         else
           L7_2 = nil
         end
-        A0_2[35] = L7_2
+        self[35] = L7_2
       end
     else
       L5_2 = nil
@@ -210,7 +206,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L5_2
@@ -218,7 +214,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -239,7 +235,7 @@ function L70_1(A0_2)
       end
       
       L7_2 = L7_2()
-      A0_2[35] = L7_2
+      self[35] = L7_2
     end
   end
   L3_2 = nil
@@ -249,12 +245,12 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f8C7D4F4D
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[35]
     L3_3 = L3_2
     L1_3 = L1_3(L2_3, L3_3)
     if L1_3 then
-      L1_3 = A0_2
+      L1_3 = self
       L2_3 = L1_3
       L1_3 = L1_3.F538BF79DB7A36342
       L1_3 = L1_3(L2_3)
@@ -266,17 +262,17 @@ function L70_1(A0_2)
   end
   
   L4_2 = L4_2()
-  A0_2[37] = L4_2
-  L4_2 = A0_2[36]
+  self[37] = L4_2
+  L4_2 = self[36]
   if 0 == L4_2 then
     L4_2 = C8137833AB58F272F
     L4_2 = L4_2.S360B973F6AF6F0CC
-    L5_2 = A0_2[32]
+    L5_2 = self[32]
     L5_2 = L5_2.shopID
     L4_2 = L4_2(L5_2)
     if not L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.FFA705762CB7CD521
+      L5_2 = self
+      L4_2 = self.FFA705762CB7CD521
       L4_2(L5_2)
     end
   end
@@ -349,25 +345,22 @@ function L70_1(A0_2)
   end
   
   L4_2(L5_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FC8C458C7996702E3
+  L5_2 = self
+  L4_2 = self.FC8C458C7996702E3
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]["prototype"]
-L69_1 = "FC8C458C7996702E3"
-
-function L70_1(A0_2)
+--- main.event.general.shop.FriendlyShop.ShopEvent
+function C6BD87C19975E4453_prototype:FC8C458C7996702E3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CD275518C236DDEEB
   L1_2 = L1_2.S385504EFF7E842C3
   L1_2 = L1_2()
   L2_2 = L1_2
   L1_2 = L1_2.FCF85F20822A12012
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.shopID
-  L4_2 = A0_2[32]
+  L4_2 = self[32]
   L4_2 = L4_2.shopKind
   L1_2 = L1_2(L2_2, L3_2, L4_2)
   L2_2 = CA1F5014C1C7F3381
@@ -376,45 +369,45 @@ function L70_1(A0_2)
   L2_2 = C8137833AB58F272F
   L2_2 = L2_2.S7ECF38F00E8E2945
   L2_2()
-  L3_2 = A0_2
-  L2_2 = A0_2.F25BDAEF2EB0D31B1
+  L3_2 = self
+  L2_2 = self.F25BDAEF2EB0D31B1
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = L1_2.length
   L3_2 = L3_2 - 1
   if L2_2 ~= L3_2 then
-    L3_2 = A0_2[36]
+    L3_2 = self[36]
     if 0 == L3_2 then
-      L3_2 = A0_2[37]
+      L3_2 = self[37]
       if nil ~= L3_2 then
-        L4_2 = A0_2
-        L3_2 = A0_2.FC4997A53B3266210
+        L4_2 = self
+        L3_2 = self.FC4997A53B3266210
         L3_2(L4_2)
       end
     end
-    L3_2 = A0_2[32]
+    L3_2 = self[32]
     L3_2 = L3_2.shopKind
     if 1 == L3_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F9C85E0A363BAB24C
+      L5_2 = self
+      L4_2 = self.F9C85E0A363BAB24C
       L6_2 = L2_2
       L7_2 = L1_2
       L4_2(L5_2, L6_2, L7_2)
     elseif 7 == L3_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.FD7B88463ABB884FC
+      L5_2 = self
+      L4_2 = self.FD7B88463ABB884FC
       L6_2 = L2_2
       L7_2 = L1_2
       L4_2(L5_2, L6_2, L7_2)
     elseif 15 == L3_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.FA0A8CEE48D1E2E5E
+      L5_2 = self
+      L4_2 = self.FA0A8CEE48D1E2E5E
       L6_2 = L2_2
       L7_2 = L1_2
       L4_2(L5_2, L6_2, L7_2)
     else
-      L5_2 = A0_2
-      L4_2 = A0_2.F9C85E0A363BAB24C
+      L5_2 = self
+      L4_2 = self.F9C85E0A363BAB24C
       L6_2 = L2_2
       L7_2 = L1_2
       L4_2(L5_2, L6_2, L7_2)
@@ -423,18 +416,18 @@ function L70_1(A0_2)
     L4_2 = L4_2.S55C1C1048729E0BB
     L5_2 = C164B2D203DA610F3
     L5_2 = L5_2.S2B427339EA95032A
-    L6_2 = A0_2[32]
+    L6_2 = self[32]
     L6_2 = L6_2.shopKind
     L7_2 = 10
     L5_2 = L5_2(L6_2, L7_2)
     L6_2 = "shop"
     L4_2(L5_2, L6_2)
-    L4_2 = A0_2[36]
+    L4_2 = self[36]
     if 0 == L4_2 then
-      L4_2 = A0_2[37]
+      L4_2 = self[37]
       if nil ~= L4_2 then
-        L5_2 = A0_2
-        L4_2 = A0_2.F7F39FCD76F2C00D6
+        L5_2 = self
+        L4_2 = self.F7F39FCD76F2C00D6
         L4_2(L5_2)
       end
     end
@@ -445,26 +438,23 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]["prototype"]
-L69_1 = "F538BF79DB7A36342"
-
-function L70_1(A0_2)
+--- main.event.general.shop.FriendlyShop.GetCharaAnime
+function C6BD87C19975E4453_prototype:F538BF79DB7A36342()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CC90C590192970EF9
   L1_2 = L1_2.new
   L1_2 = L1_2()
-  A0_2[37] = L1_2
+  self[37] = L1_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[35]
+  L3_2 = self[35]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[35]
+    L2_2 = self[35]
     L3_2 = nil
-    L4_2 = A0_2[37]
+    L4_2 = self[37]
     L5_2 = L4_2
     L4_2 = L4_2.F7C68FEDB79AB6396
     
@@ -495,32 +485,26 @@ function L70_1(A0_2)
     L6_2 = L6_2()
     L4_2(L5_2, L6_2)
   end
-  L2_2 = A0_2[37]
+  L2_2 = self[37]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]["prototype"]
-L69_1 = "FFA705762CB7CD521"
-
-function L70_1(A0_2)
+--- main.event.general.shop.FriendlyShop.ClerkLookAtPlayer
+function C6BD87C19975E4453_prototype:FFA705762CB7CD521()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[37]
+  L1_2 = self[37]
   if nil == L1_2 then
     return
   end
-  L1_2 = A0_2[37]
+  L1_2 = self[37]
   L2_2 = L1_2
   L1_2 = L1_2.FC311B21A7EE93826
   L3_2 = false
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]["prototype"]
-L69_1 = "FC4997A53B3266210"
-
-function L70_1(A0_2)
+--- main.event.general.shop.FriendlyShop.ClerkCameraMove
+function C6BD87C19975E4453_prototype:FC4997A53B3266210()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2
   L1_2 = C9F6C325569B7E07F
   L1_2 = L1_2.S78BBE9C0C6452E1E
@@ -528,11 +512,11 @@ function L70_1(A0_2)
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[35]
+  L3_2 = self[35]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[35]
+    L2_2 = self[35]
     L3_2 = L2_2
     L2_2 = L2_2.f64857644
     L2_2 = L2_2(L3_2)
@@ -566,7 +550,7 @@ function L70_1(A0_2)
     L14_2 = L11_2 * 0.3
     L15_2 = L12_2 * 0.3
     L16_2 = L13_2 * 0.3
-    L17_2 = A0_2[35]
+    L17_2 = self[35]
     L18_2 = L17_2
     L17_2 = L17_2.f7360ED03
     L17_2, L18_2, L19_2 = L17_2(L18_2)
@@ -582,7 +566,7 @@ function L70_1(A0_2)
     L22_2 = -2
     L23_2 = L10_1.select
     L24_2 = 2
-    L25_2 = A0_2[35]
+    L25_2 = self[35]
     L26_2 = L25_2
     L25_2 = L25_2.f64857644
     L25_2 = L25_2(L26_2)
@@ -616,11 +600,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]["prototype"]
-L69_1 = "F7F39FCD76F2C00D6"
-
-function L70_1(A0_2)
+--- main.event.general.shop.FriendlyShop.ClerkCameraEnd
+function C6BD87C19975E4453_prototype:F7F39FCD76F2C00D6()
   local L1_2, L2_2, L3_2
   L1_2 = C9F6C325569B7E07F
   L1_2 = L1_2.SAB50B037AF2BC20B
@@ -633,17 +614,14 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]["prototype"]
-L69_1 = "F25BDAEF2EB0D31B1"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.shop.FriendlyShop.WelcomeTalk
+function C6BD87C19975E4453_prototype:F25BDAEF2EB0D31B1(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.S55C1C1048729E0BB
   L3_2 = C164B2D203DA610F3
   L3_2 = L3_2.S2B427339EA95032A
-  L4_2 = A0_2[32]
+  L4_2 = self[32]
   L4_2 = L4_2.shopKind
   L5_2 = 0
   L3_2 = L3_2(L4_2, L5_2)
@@ -652,8 +630,8 @@ function L70_1(A0_2, A1_2)
   L6_2 = false
   L7_2 = true
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FB2DBE8AA934433D7
+  L3_2 = self
+  L2_2 = self.FB2DBE8AA934433D7
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = C9B54BC04DD492B6D
@@ -662,11 +640,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]["prototype"]
-L69_1 = "FB2DBE8AA934433D7"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.shop.FriendlyShop.SelectTalk
+function C6BD87C19975E4453_prototype:FB2DBE8AA934433D7(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.S44577E0D8E8F3819
@@ -679,21 +654,18 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]["prototype"]
-L69_1 = "F9C85E0A363BAB24C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.shop.FriendlyShop.FriendlyShopUIEvent
+function C6BD87C19975E4453_prototype:F9C85E0A363BAB24C(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = false
   while false == L3_2 do
     L4_2 = nil
-    L5_2 = A0_2[37]
+    L5_2 = self[37]
     if nil ~= L5_2 then
       L5_2 = nil
       L6_2 = c016374C1
       L6_2 = L6_2.f8C7D4F4D
-      L7_2 = A0_2[35]
+      L7_2 = self[35]
       L8_2 = L5_2
       L6_2 = L6_2(L7_2, L8_2)
       L4_2 = L6_2
@@ -701,7 +673,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L4_2 = false
     end
     if L4_2 then
-      L5_2 = A0_2[37]
+      L5_2 = self[37]
       L6_2 = L5_2
       L5_2 = L5_2.FAB8182A0DE8A4EB3
       L7_2 = 2
@@ -709,12 +681,12 @@ function L70_1(A0_2, A1_2, A2_2)
     end
     L5_2 = CA1F5014C1C7F3381
     L5_2 = L5_2.S21385509F30B97C5
-    L6_2 = A0_2[32]
+    L6_2 = self[32]
     L6_2 = L6_2.shopID
     L7_2 = A1_2
     L5_2(L6_2, L7_2)
-    L6_2 = A0_2
-    L5_2 = A0_2.FA0DF5F26F3892892
+    L6_2 = self
+    L5_2 = self.FA0DF5F26F3892892
     L7_2 = false
     L5_2(L6_2, L7_2)
     while true do
@@ -733,7 +705,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2 = L5_2.S55C1C1048729E0BB
     L6_2 = C164B2D203DA610F3
     L6_2 = L6_2.S2B427339EA95032A
-    L7_2 = A0_2[32]
+    L7_2 = self[32]
     L7_2 = L7_2.shopKind
     L8_2 = 9
     L6_2 = L6_2(L7_2, L8_2)
@@ -742,8 +714,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L9_2 = false
     L10_2 = true
     L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
-    L6_2 = A0_2
-    L5_2 = A0_2.FB2DBE8AA934433D7
+    L6_2 = self
+    L5_2 = self.FB2DBE8AA934433D7
     L7_2 = A2_2
     L5_2 = L5_2(L6_2, L7_2)
     A1_2 = L5_2
@@ -765,12 +737,12 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2(L6_2)
   end
   L4_2 = nil
-  L5_2 = A0_2[37]
+  L5_2 = self[37]
   if nil ~= L5_2 then
     L5_2 = nil
     L6_2 = c016374C1
     L6_2 = L6_2.f8C7D4F4D
-    L7_2 = A0_2[35]
+    L7_2 = self[35]
     L8_2 = L5_2
     L6_2 = L6_2(L7_2, L8_2)
     L4_2 = L6_2
@@ -778,7 +750,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = false
   end
   if L4_2 then
-    L5_2 = A0_2[37]
+    L5_2 = self[37]
     L6_2 = L5_2
     L5_2 = L5_2.FAB8182A0DE8A4EB3
     L7_2 = 1
@@ -786,11 +758,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]["prototype"]
-L69_1 = "FD7B88463ABB884FC"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.shop.FriendlyShop.DelibirdShopUIEvent
+function C6BD87C19975E4453_prototype:FD7B88463ABB884FC(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L3_2 = _hx_tab_array
   L4_2 = {}
@@ -800,7 +769,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L7_2 = ""
   L6_2 = L6_2(L7_2)
   L7_2 = L31_1.string
-  L8_2 = A0_2[32]
+  L8_2 = self[32]
   L8_2 = L8_2.shopID
   L7_2 = L7_2(L8_2)
   L6_2 = L6_2 .. L7_2
@@ -815,7 +784,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L7_2 = ""
   L6_2 = L6_2(L7_2)
   L7_2 = L31_1.string
-  L8_2 = A0_2[32]
+  L8_2 = self[32]
   L8_2 = L8_2.shopID
   L7_2 = L7_2(L8_2)
   L6_2 = L6_2 .. L7_2
@@ -829,7 +798,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L8_2 = ""
   L7_2 = L7_2(L8_2)
   L8_2 = L31_1.string
-  L9_2 = A0_2[32]
+  L9_2 = self[32]
   L9_2 = L9_2.shopID
   L8_2 = L8_2(L9_2)
   L7_2 = L7_2 .. L8_2
@@ -843,7 +812,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L9_2 = ""
   L8_2 = L8_2(L9_2)
   L9_2 = L31_1.string
-  L10_2 = A0_2[32]
+  L10_2 = self[32]
   L10_2 = L10_2.shopID
   L9_2 = L9_2(L10_2)
   L8_2 = L8_2 .. L9_2
@@ -877,7 +846,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L6_2
@@ -885,7 +854,7 @@ function L70_1(A0_2, A1_2, A2_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -928,8 +897,8 @@ function L70_1(A0_2, A1_2, A2_2)
       L7_2 = L3_2[A1_2]
       L8_2 = 0
       L6_2(L7_2, L8_2)
-      L7_2 = A0_2
-      L6_2 = A0_2.FA0DF5F26F3892892
+      L7_2 = self
+      L6_2 = self.FA0DF5F26F3892892
       L8_2 = false
       L6_2(L7_2, L8_2)
       while true do
@@ -949,7 +918,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L6_2 = L6_2.S55C1C1048729E0BB
     L7_2 = C164B2D203DA610F3
     L7_2 = L7_2.S2B427339EA95032A
-    L8_2 = A0_2[32]
+    L8_2 = self[32]
     L8_2 = L8_2.shopKind
     L9_2 = 9
     L7_2 = L7_2(L8_2, L9_2)
@@ -958,8 +927,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L10_2 = false
     L11_2 = true
     L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
-    L7_2 = A0_2
-    L6_2 = A0_2.FB2DBE8AA934433D7
+    L7_2 = self
+    L6_2 = self.FB2DBE8AA934433D7
     L8_2 = A2_2
     L6_2 = L6_2(L7_2, L8_2)
     A1_2 = L6_2
@@ -982,11 +951,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]["prototype"]
-L69_1 = "FA0A8CEE48D1E2E5E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.shop.FriendlyShop.FA0A8CEE48D1E2E5E
+function C6BD87C19975E4453_prototype:FA0A8CEE48D1E2E5E(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L3_2 = _hx_tab_array
   L4_2 = {}
@@ -995,7 +961,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = ""
   L5_2 = L5_2(L6_2)
   L6_2 = L31_1.string
-  L7_2 = A0_2[32]
+  L7_2 = self[32]
   L7_2 = L7_2.shopID
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 .. L6_2
@@ -1004,7 +970,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = ""
   L5_2 = L5_2(L6_2)
   L6_2 = L31_1.string
-  L7_2 = A0_2[32]
+  L7_2 = self[32]
   L7_2 = L7_2.shopID
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 .. L6_2
@@ -1030,7 +996,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L6_2
@@ -1038,7 +1004,7 @@ function L70_1(A0_2, A1_2, A2_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -1077,12 +1043,12 @@ function L70_1(A0_2, A1_2, A2_2)
       L8_2(L9_2, L10_2, L11_2, L12_2, L13_2)
     else
       L6_2 = nil
-      L7_2 = A0_2[37]
+      L7_2 = self[37]
       if nil ~= L7_2 then
         L7_2 = nil
         L8_2 = c016374C1
         L8_2 = L8_2.f8C7D4F4D
-        L9_2 = A0_2[35]
+        L9_2 = self[35]
         L10_2 = L7_2
         L8_2 = L8_2(L9_2, L10_2)
         L6_2 = L8_2
@@ -1090,7 +1056,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L6_2 = false
       end
       if L6_2 then
-        L7_2 = A0_2[37]
+        L7_2 = self[37]
         L8_2 = L7_2
         L7_2 = L7_2.FAB8182A0DE8A4EB3
         L9_2 = 2
@@ -1098,12 +1064,12 @@ function L70_1(A0_2, A1_2, A2_2)
       end
       L7_2 = CA1F5014C1C7F3381
       L7_2 = L7_2.S21385509F30B97C5
-      L8_2 = A0_2[32]
+      L8_2 = self[32]
       L8_2 = L8_2.shopID
       L9_2 = A1_2
       L7_2(L8_2, L9_2)
-      L8_2 = A0_2
-      L7_2 = A0_2.FA0DF5F26F3892892
+      L8_2 = self
+      L7_2 = self.FA0DF5F26F3892892
       L9_2 = false
       L7_2(L8_2, L9_2)
       while true do
@@ -1123,7 +1089,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L6_2 = L6_2.S55C1C1048729E0BB
     L7_2 = C164B2D203DA610F3
     L7_2 = L7_2.S2B427339EA95032A
-    L8_2 = A0_2[32]
+    L8_2 = self[32]
     L8_2 = L8_2.shopKind
     L9_2 = 9
     L7_2 = L7_2(L8_2, L9_2)
@@ -1132,8 +1098,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L10_2 = false
     L11_2 = true
     L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
-    L7_2 = A0_2
-    L6_2 = A0_2.FB2DBE8AA934433D7
+    L7_2 = self
+    L6_2 = self.FB2DBE8AA934433D7
     L8_2 = A2_2
     L6_2 = L6_2(L7_2, L8_2)
     A1_2 = L6_2
@@ -1155,12 +1121,12 @@ function L70_1(A0_2, A1_2, A2_2)
     L6_2(L7_2)
   end
   L5_2 = nil
-  L6_2 = A0_2[37]
+  L6_2 = self[37]
   if nil ~= L6_2 then
     L6_2 = nil
     L7_2 = c016374C1
     L7_2 = L7_2.f8C7D4F4D
-    L8_2 = A0_2[35]
+    L8_2 = self[35]
     L9_2 = L6_2
     L7_2 = L7_2(L8_2, L9_2)
     L5_2 = L7_2
@@ -1168,7 +1134,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2 = false
   end
   if L5_2 then
-    L6_2 = A0_2[37]
+    L6_2 = self[37]
     L7_2 = L6_2
     L6_2 = L6_2.FAB8182A0DE8A4EB3
     L8_2 = 1
@@ -1176,15 +1142,12 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]["prototype"]
-L69_1 = "FA0DF5F26F3892892"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.shop.FriendlyShop.FA0DF5F26F3892892
+function C6BD87C19975E4453_prototype:FA0DF5F26F3892892(A1_2)
   local L2_2
-  L2_2 = A0_2[36]
+  L2_2 = self[36]
   if 0 == L2_2 then
-    L2_2 = A0_2[37]
+    L2_2 = self[37]
     if nil ~= L2_2 then
       L2_2 = C9F6C325569B7E07F
       L2_2 = L2_2.SD6A4A7158737A563
@@ -1193,13 +1156,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BD87C19975E4453"]["prototype"]
-L69_1 = "F749AF3AD93F98F08"
-
-function L70_1(A0_2)
+--- main.event.general.shop.FriendlyShop.PlayerFacialChange
+function C6BD87C19975E4453_prototype:F749AF3AD93F98F08()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = nil
   
   function L3_2()

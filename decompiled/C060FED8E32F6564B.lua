@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C060FED8E32F6564B"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C060FED8E32F6564B"]
-L69_1 = "new"
+---@alias C060FED8E32F6564B main_ui_shop_restaurant_management_ShopRestaurantUIManager
 
-function L70_1(A0_2)
+---@class main_ui_shop_restaurant_management_ShopRestaurantUIManager : C060FED8E32F6564B_prototype
+---@field prototype C060FED8E32F6564B_prototype
+C060FED8E32F6564B = L15_1()
+function C060FED8E32F6564B.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C060FED8E32F6564B
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C060FED8E32F6564B"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C060FED8E32F6564B
+function C060FED8E32F6564B.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,22 +36,16 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C060FED8E32F6564B"]
 L69_1 = "__name__"
 L70_1 = "C060FED8E32F6564B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C060FED8E32F6564B"]
-L69_1 = "SAE728AF193086C55"
-
-function L70_1()
+--- main.ui.shop_restaurant.management.ShopRestaurantUIManager.get_isEnd
+function C060FED8E32F6564B.SAE728AF193086C55()
   local L0_2, L1_2
   L0_2 = C060FED8E32F6564B
   L0_2 = L0_2.SD63B5A0CCE93091A
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C060FED8E32F6564B"]
-L69_1 = "SCF8E29838E691490"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_restaurant.management.ShopRestaurantUIManager.ShopRestaurantUISceneLoad
+function C060FED8E32F6564B.SCF8E29838E691490(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C060FED8E32F6564B
   L2_2 = L2_2.SEF4897E3BC98A20E
@@ -83,11 +71,8 @@ function L70_1(A0_2, A1_2)
   L2_2.SD63B5A0CCE93091A = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C060FED8E32F6564B"]
-L69_1 = "S082285A5E14691D3"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_restaurant.management.ShopRestaurantUIManager.ShopRestaurantUIHighPriceSceneLoad
+function C060FED8E32F6564B.S082285A5E14691D3(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C060FED8E32F6564B
   L2_2 = L2_2.SEF4897E3BC98A20E
@@ -113,11 +98,8 @@ function L70_1(A0_2, A1_2)
   L2_2.SD63B5A0CCE93091A = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C060FED8E32F6564B"]
-L69_1 = "S662499D4F63BA867"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_restaurant.management.ShopRestaurantUIManager.ShopRestaurantUISceneUnload
+function C060FED8E32F6564B.S662499D4F63BA867(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C060FED8E32F6564B
   L2_2 = L2_2.SEF4897E3BC98A20E
@@ -145,49 +127,41 @@ function L70_1(A0_2, A1_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C060FED8E32F6564B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C060FED8E32F6564B"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C060FED8E32F6564B_prototype
+C060FED8E32F6564B_prototype = L15_1()
+C060FED8E32F6564B.prototype = C060FED8E32F6564B_prototype
+--- main.ui.shop_restaurant.management.ShopRestaurantUIManager.Setup
+function C060FED8E32F6564B_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.new
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F0E47A597FB435DB7
+  L4_2 = self
+  L5_2 = self.F0E47A597FB435DB7
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = "shop_restaurant_ui_setup_sequence"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C060FED8E32F6564B"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_restaurant.management.ShopRestaurantUIManager.PreUpdate
+function C060FED8E32F6564B_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -235,16 +209,13 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C060FED8E32F6564B"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.management.ShopRestaurantUIManager.Destroy
+function C060FED8E32F6564B_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = C060FED8E32F6564B
   L1_2.SEF4897E3BC98A20E = nil
@@ -252,11 +223,8 @@ function L70_1(A0_2)
   L1_2.SD63B5A0CCE93091A = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C060FED8E32F6564B"]["prototype"]
-L69_1 = "F0E47A597FB435DB7"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.management.ShopRestaurantUIManager.SetupSequence
+function C060FED8E32F6564B_prototype:F0E47A597FB435DB7()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C060FED8E32F6564B
   L1_2 = L1_2.SEF4897E3BC98A20E

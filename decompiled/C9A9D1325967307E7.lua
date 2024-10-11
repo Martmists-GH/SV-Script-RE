@@ -1,3 +1,7 @@
+---@alias C9A9D1325967307E7 main_pokepicnic_PicnicDirector
+
+---@class main_pokepicnic_PicnicDirector : C9A9D1325967307E7_prototype
+---@field prototype C9A9D1325967307E7_prototype
 L55_1 = _ENV
 L56_1 = "C9A9D1325967307E7"
 L57_1 = L15_1
@@ -72,29 +76,24 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9A9D1325967307E7"]
 L69_1 = "__name__"
 L70_1 = "C9A9D1325967307E7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A9D1325967307E7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A9D1325967307E7"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+---@class C9A9D1325967307E7_prototype
+C9A9D1325967307E7_prototype = L15_1()
+C9A9D1325967307E7.prototype = C9A9D1325967307E7_prototype
+--- main.pokepicnic.PicnicDirector.Update
+function C9A9D1325967307E7_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  A0_2[2] = A1_2
-  L2_2 = A0_2[3]
+  self[2] = A1_2
+  L2_2 = self[3]
   if 1 == L2_2 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     if nil ~= L3_2 then
       L3_2 = L10_1.coroutine
       L3_2 = L3_2.status
-      L4_2 = A0_2[5]
+      L4_2 = self[5]
       L4_2 = L4_2[1]
       L3_2 = L3_2(L4_2)
       if "dead" ~= L3_2 then
-        L3_2 = A0_2[5]
+        L3_2 = self[5]
         L4_2 = nil
         L5_2 = L62_1
         L6_2 = L64_1.pack
@@ -141,15 +140,15 @@ function L70_1(A0_2, A1_2)
       end
     end
   elseif 2 == L2_2 then
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     if nil ~= L3_2 then
       L3_2 = L10_1.coroutine
       L3_2 = L3_2.status
-      L4_2 = A0_2[6]
+      L4_2 = self[6]
       L4_2 = L4_2[1]
       L3_2 = L3_2(L4_2)
       if "dead" ~= L3_2 then
-        L3_2 = A0_2[6]
+        L3_2 = self[6]
         L4_2 = nil
         L5_2 = L62_1
         L6_2 = L64_1.pack
@@ -199,21 +198,18 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A9D1325967307E7"]["prototype"]
-L69_1 = "F8377A9ADFF926598"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.pokepicnic.PicnicDirector.StartDirection
+function C9A9D1325967307E7_prototype:F8377A9ADFF926598(A1_2, A2_2)
   local L3_2
   if nil == A2_2 then
     A2_2 = false
   end
   if 2 == A1_2 and A2_2 then
-    A0_2[8] = true
+    self[8] = true
   end
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   if 0 == L3_2 or A2_2 then
-    A0_2[3] = A1_2
+    self[3] = A1_2
     L3_2 = true
     return L3_2
   end
@@ -221,13 +217,10 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A9D1325967307E7"]["prototype"]
-L69_1 = "FED4839939EB65CF3"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicDirector.IsPlay
+function C9A9D1325967307E7_prototype:FED4839939EB65CF3()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   if 0 ~= L1_2 then
     L1_2 = true
     return L1_2
@@ -236,11 +229,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A9D1325967307E7"]["prototype"]
-L69_1 = "FBF02A2AE63AF40EC"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicDirector.OnStart
+function C9A9D1325967307E7_prototype:FBF02A2AE63AF40EC()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CE6EE3F9C54FC6D83
   L1_2 = L1_2.S42224C76A175744D
@@ -270,7 +260,7 @@ function L70_1(A0_2)
     L4_2[1] = L5_2
     L4_2[2] = L6_2
     L4_2[3] = L7_2
-    A0_2[1] = L4_2
+    self[1] = L4_2
   end
   L1_2 = CE6EE3F9C54FC6D83
   L1_2 = L1_2.S42224C76A175744D
@@ -280,7 +270,7 @@ function L70_1(A0_2)
     L1_2 = L1_2.S63EE03E96933F488
     L1_2()
   end
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.F68213DDDAE5764D3
   L1_2 = L1_2(L2_2)
@@ -296,7 +286,7 @@ function L70_1(A0_2)
   L2_2 = L2_2()
   if L2_2 then
     L1_2 = true
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.F68213DDDAE5764D3
     L2_2 = L2_2(L3_2)
@@ -306,7 +296,7 @@ function L70_1(A0_2)
     L3_2 = L2_2
     L2_2 = L2_2.F884337AFF35AF5BA
     L2_2(L3_2)
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.F68213DDDAE5764D3
     L2_2 = L2_2(L3_2)
@@ -317,7 +307,7 @@ function L70_1(A0_2)
     L2_2 = L2_2.F84B9CAD2E71C2CEB
     L2_2(L3_2)
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.F68213DDDAE5764D3
   L2_2 = L2_2(L3_2)
@@ -327,7 +317,7 @@ function L70_1(A0_2)
   L3_2 = L2_2
   L2_2 = L2_2.F84B9CAD2E71C2CEB
   L2_2(L3_2)
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.F68213DDDAE5764D3
   L2_2 = L2_2(L3_2)
@@ -339,7 +329,7 @@ function L70_1(A0_2)
   L2_2(L3_2)
   if L1_2 then
     while true do
-      L2_2 = A0_2[4]
+      L2_2 = self[4]
       L3_2 = L2_2
       L2_2 = L2_2.F68213DDDAE5764D3
       L2_2 = L2_2(L3_2)
@@ -358,7 +348,7 @@ function L70_1(A0_2)
     end
   end
   while true do
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.F68213DDDAE5764D3
     L2_2 = L2_2(L3_2)
@@ -379,8 +369,8 @@ function L70_1(A0_2)
   L2_2 = L2_2.S42224C76A175744D
   L2_2 = L2_2()
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F875261A17C53F52C
+    L3_2 = self
+    L2_2 = self.F875261A17C53F52C
     L2_2(L3_2)
   end
   L2_2 = CE6EE3F9C54FC6D83
@@ -418,23 +408,20 @@ function L70_1(A0_2)
     L2_2 = L2_2[9]
     L2_2[7] = true
   end
-  A0_2[3] = 0
+  self[3] = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A9D1325967307E7"]["prototype"]
-L69_1 = "FC106B0B5B59826BF"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicDirector.OnFinish
+function C9A9D1325967307E7_prototype:FC106B0B5B59826BF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = CE6EE3F9C54FC6D83
   L1_2 = L1_2.S42224C76A175744D
   L1_2 = L1_2()
   if L1_2 then
-    L1_2 = A0_2[8]
+    L1_2 = self[8]
     if not L1_2 then
       L1_2 = 0
-      L2_2 = A0_2[4]
+      L2_2 = self[4]
       L3_2 = L2_2
       L2_2 = L2_2.F68213DDDAE5764D3
       L2_2 = L2_2(L3_2)
@@ -483,18 +470,18 @@ function L70_1(A0_2)
       L8_2[2] = L10_2
       L8_2[3] = L11_2
       L6_2(L7_2, L8_2)
-      L7_2 = A0_2
-      L6_2 = A0_2.F972BCFBD919529A8
+      L7_2 = self
+      L6_2 = self.F972BCFBD919529A8
       L6_2(L7_2)
       while true do
-        L7_2 = A0_2
-        L6_2 = A0_2.FDCF5176BCE18F34B
+        L7_2 = self
+        L6_2 = self.FDCF5176BCE18F34B
         L6_2 = L6_2(L7_2)
         if L6_2 then
           break
         end
-        L7_2 = A0_2
-        L6_2 = A0_2.FA5232DB6EB512AF8
+        L7_2 = self
+        L6_2 = self.FA5232DB6EB512AF8
         L6_2 = L6_2(L7_2)
         if L6_2 then
           break
@@ -505,7 +492,7 @@ function L70_1(A0_2)
       end
     end
   end
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.F68213DDDAE5764D3
   L1_2 = L1_2(L2_2)
@@ -522,10 +509,10 @@ function L70_1(A0_2)
   L2_2 = C0DCB899848029DF4
   L2_2 = L2_2.S7AAC3BFDDF9C75FF
   L3_2 = 0
-  L4_2 = A0_2[8]
+  L4_2 = self[8]
   L2_2(L3_2, L4_2)
   while true do
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.F68213DDDAE5764D3
     L2_2 = L2_2(L3_2)
@@ -539,17 +526,14 @@ function L70_1(A0_2)
     L2_2 = L2_2.S760DAE4C5371A78E
     L2_2()
   end
-  A0_2[3] = 0
+  self[3] = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A9D1325967307E7"]["prototype"]
-L69_1 = "FDCF5176BCE18F34B"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicDirector.IsFinishSequence
+function C9A9D1325967307E7_prototype:FDCF5176BCE18F34B()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.F68213DDDAE5764D3
   L2_2 = L2_2(L3_2)
@@ -582,11 +566,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A9D1325967307E7"]["prototype"]
-L69_1 = "F875261A17C53F52C"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicDirector.StartPlayerAnimation
+function C9A9D1325967307E7_prototype:F875261A17C53F52C()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -646,7 +627,7 @@ function L70_1(A0_2)
   L2_2 = C3A36506FBC96ACBD
   L2_2 = L2_2.S27D07D27B83030BF
   L3_2 = "PLAY_PIC_START_DEMO"
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   L5_2 = L4_2
   L4_2 = L4_2.FDC15F0853CB8A772
   L4_2, L5_2 = L4_2(L5_2)
@@ -667,27 +648,21 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A9D1325967307E7"]["prototype"]
-L69_1 = "F972BCFBD919529A8"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicDirector.ResetTimeOutTimer
+function C9A9D1325967307E7_prototype:F972BCFBD919529A8()
   local L1_2, L2_2
   L1_2 = L58_1
   L2_2 = C9A9D1325967307E7
   L2_2 = L2_2.S419C18A97EBFD9FC
   L1_2 = L1_2(L2_2)
-  A0_2[7] = L1_2
+  self[7] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A9D1325967307E7"]["prototype"]
-L69_1 = "FA5232DB6EB512AF8"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicDirector.IsTimeOut
+function C9A9D1325967307E7_prototype:FA5232DB6EB512AF8()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[7]
-  L2_2 = A0_2[2]
+  L1_2 = self[7]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f22D509B2
   L4_2 = 2
@@ -696,8 +671,8 @@ function L70_1(A0_2)
   L2_2 = L2_2.fC0E2CAD0
   L2_2 = L2_2(L3_2)
   L1_2 = L1_2 - L2_2
-  A0_2[7] = L1_2
-  L1_2 = A0_2[7]
+  self[7] = L1_2
+  L1_2 = self[7]
   if L1_2 < 0.0 then
     L1_2 = true
     return L1_2

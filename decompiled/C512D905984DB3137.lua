@@ -1,7 +1,8 @@
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "new"
+---@alias C512D905984DB3137 main_ui_system_ui_message_window_MessageWindowUI
 
-function L70_1(A0_2)
+---@class main_ui_system_ui_message_window_MessageWindowUI : C512D905984DB3137_prototype
+---@field prototype C512D905984DB3137_prototype
+function C512D905984DB3137.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C512D905984DB3137
@@ -17,11 +18,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C512D905984DB3137
+function C512D905984DB3137.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -37,11 +35,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C512D905984DB3137"]
 L69_1 = "__name__"
 L70_1 = "C512D905984DB3137"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S7ED48ACA0469C2E8"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.GetMessageWindowParts
+function C512D905984DB3137.S7ED48ACA0469C2E8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C512D905984DB3137
   L1_2.S4212F0576BCD501F = true
@@ -123,11 +118,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S53C818DDA7287B41"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.DeleteMessageWindowParts
+function C512D905984DB3137.S53C818DDA7287B41(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -174,11 +166,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "SE86CE14E4CF30949"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.MessageWindowRequest
+function C512D905984DB3137.SE86CE14E4CF30949(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L5_2 = C512D905984DB3137
   L5_2 = L5_2.S7ED48ACA0469C2E8
@@ -348,11 +337,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "SDCCFCCB73AF00083"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.MessageWindowRequestForItem
+function C512D905984DB3137.SDCCFCCB73AF00083(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C512D905984DB3137
   L1_2 = L1_2.S7ED48ACA0469C2E8
@@ -401,11 +387,8 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "SA20101455729FC1C"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.SetVisibleItemWindow
+function C512D905984DB3137.SA20101455729FC1C(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C512D905984DB3137
   L1_2 = L1_2.S7ED48ACA0469C2E8
@@ -442,11 +425,8 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S27D57803C57D5461"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.MessageWindowRequestForBook
+function C512D905984DB3137.S27D57803C57D5461(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = C512D905984DB3137
   L1_2 = L1_2.S7ED48ACA0469C2E8
@@ -495,11 +475,8 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "SB7FE1C29906DA881"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.SB7FE1C29906DA881
+function C512D905984DB3137.SB7FE1C29906DA881(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = C512D905984DB3137
   L2_2 = L2_2.S7ED48ACA0469C2E8
@@ -555,11 +532,8 @@ function L70_1(A0_2, A1_2)
   L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S5740566D15644DE5"
-
-function L70_1()
+--- main.ui.system_ui.message_window.MessageWindowUI.GetContextMenuPos
+function C512D905984DB3137.S5740566D15644DE5()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = C512D905984DB3137
   L0_2 = L0_2.S7ED48ACA0469C2E8
@@ -596,11 +570,8 @@ function L70_1()
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S7C0370D7729FFD1D"
-
-function L70_1()
+--- main.ui.system_ui.message_window.MessageWindowUI.IsKeyWaitForBook
+function C512D905984DB3137.S7C0370D7729FFD1D()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = C512D905984DB3137
   L0_2 = L0_2.S7ED48ACA0469C2E8
@@ -637,11 +608,8 @@ function L70_1()
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S5516767734A9C3D4"
-
-function L70_1()
+--- main.ui.system_ui.message_window.MessageWindowUI.S5516767734A9C3D4
+function C512D905984DB3137.S5516767734A9C3D4()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = C512D905984DB3137
   L0_2 = L0_2.S7ED48ACA0469C2E8
@@ -678,11 +646,8 @@ function L70_1()
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "SA34AD771D7AE07C5"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.MessageWindowRequestForOkozukai
+function C512D905984DB3137.SA34AD771D7AE07C5(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A1_2 then
     A1_2 = true
@@ -724,11 +689,8 @@ function L70_1(A0_2, A1_2)
   L7_2(L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S91BDCBD6F7511135"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.S91BDCBD6F7511135
+function C512D905984DB3137.S91BDCBD6F7511135(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C512D905984DB3137
   L1_2 = L1_2.S7ED48ACA0469C2E8
@@ -761,11 +723,8 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S98BFDE967BF92D02"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.PlayAddOkozukaiAnim
+function C512D905984DB3137.S98BFDE967BF92D02(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A1_2 then
     A1_2 = true
@@ -822,11 +781,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S17E776C6C974E193"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.RequestCloseOkozukai
+function C512D905984DB3137.S17E776C6C974E193(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C512D905984DB3137
   L1_2 = L1_2.S7ED48ACA0469C2E8
@@ -866,11 +822,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S5837823E7B27B278"
-
-function L70_1()
+--- main.ui.system_ui.message_window.MessageWindowUI.S5837823E7B27B278
+function C512D905984DB3137.S5837823E7B27B278()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = C512D905984DB3137
   L0_2 = L0_2.S7ED48ACA0469C2E8
@@ -903,11 +856,8 @@ function L70_1()
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S5FB109424C97F66D"
-
-function L70_1()
+--- main.ui.system_ui.message_window.MessageWindowUI.S5FB109424C97F66D
+function C512D905984DB3137.S5FB109424C97F66D()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = C512D905984DB3137
   L0_2 = L0_2.S7ED48ACA0469C2E8
@@ -940,11 +890,8 @@ function L70_1()
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S951721F06005846C"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.MessageWindowClose
+function C512D905984DB3137.S951721F06005846C(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = E366415E12D9CEAB1
   L1_2 = L1_2.TALK
@@ -1054,11 +1001,8 @@ function L70_1(A0_2)
   L1_2.S64034BEF43A7B3CE = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S1FB211964BB31BBB"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.ChangeMessageText
+function C512D905984DB3137.S1FB211964BB31BBB(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C512D905984DB3137
   L1_2 = L1_2.S64034BEF43A7B3CE
@@ -1073,11 +1017,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S90172F07E0168042"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.SetIcon
+function C512D905984DB3137.S90172F07E0168042(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = C512D905984DB3137
   L2_2 = L2_2.S7ED48ACA0469C2E8
@@ -1141,11 +1082,8 @@ function L70_1(A0_2, A1_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "SC36D18C25EBA504B"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.StartNoise
+function C512D905984DB3137.SC36D18C25EBA504B(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C512D905984DB3137
   L1_2 = L1_2.S64034BEF43A7B3CE
@@ -1164,11 +1102,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "SD71C0BB28855B0D1"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.StopNoise
+function C512D905984DB3137.SD71C0BB28855B0D1(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C512D905984DB3137
   L1_2 = L1_2.S64034BEF43A7B3CE
@@ -1197,11 +1132,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "SB237EB8902E0B201"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.IsEndMessage
+function C512D905984DB3137.SB237EB8902E0B201(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C512D905984DB3137
   L1_2 = L1_2.S7ED48ACA0469C2E8
@@ -1251,11 +1183,8 @@ function L70_1(A0_2)
   return L7_2(L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "SBFB9EB45D5AD74F0"
-
-function L70_1()
+--- main.ui.system_ui.message_window.MessageWindowUI.IsOpenMessage
+function C512D905984DB3137.SBFB9EB45D5AD74F0()
   local L0_2, L1_2, L2_2
   L0_2 = CF1D9D619D324F233
   L0_2 = L0_2.SBFB9EB45D5AD74F0
@@ -1364,11 +1293,8 @@ L68_1 = "C512D905984DB3137"
 L68_1 = L25_1[L68_1]
 L69_1 = "SBFB9EB45D5AD74F0"
 L70_1 = _ENV["C512D905984DB3137"]["SBFB9EB45D5AD74F0"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "SDABD713831D6912D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.SetMessageSpeed
+function C512D905984DB3137.SDABD713831D6912D(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = C512D905984DB3137
   L2_2 = L2_2.S7ED48ACA0469C2E8
@@ -1416,11 +1342,8 @@ function L70_1(A0_2, A1_2)
   L8_2(L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S462C59A485A62D22"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.ResetMessageSpeed
+function C512D905984DB3137.S462C59A485A62D22(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C512D905984DB3137
   L1_2 = L1_2.S7ED48ACA0469C2E8
@@ -1467,11 +1390,8 @@ function L70_1(A0_2)
   L7_2(L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "SF537F415CDEB6750"
-
-function L70_1()
+--- main.ui.system_ui.message_window.MessageWindowUI.GetMessageLayout
+function C512D905984DB3137.SF537F415CDEB6750()
   local L0_2, L1_2
   L0_2 = C512D905984DB3137
   L0_2 = L0_2.S64034BEF43A7B3CE
@@ -1486,11 +1406,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S6E0F5B5A3F95D02B"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.IsShowMessage
+function C512D905984DB3137.S6E0F5B5A3F95D02B(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C512D905984DB3137
   L1_2 = L1_2.S96DA363DB6161ADC
@@ -1506,11 +1423,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S68B8018E6C16149E"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.GetMessageWindowPartsNoWait
+function C512D905984DB3137.S68B8018E6C16149E(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -1569,11 +1483,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S9151AC84A1BCAA83"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.S9151AC84A1BCAA83
+function C512D905984DB3137.S9151AC84A1BCAA83(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -1612,11 +1523,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "SB9BC4C6F16AEEF64"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.IsTerminateWaitMessage
+function C512D905984DB3137.SB9BC4C6F16AEEF64(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -1648,22 +1556,16 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "SC07B0A034186A8F5"
-
-function L70_1()
+--- main.ui.system_ui.message_window.MessageWindowUI.SC07B0A034186A8F5
+function C512D905984DB3137.SC07B0A034186A8F5()
   local L0_2, L1_2
   L0_2 = C512D905984DB3137
   L0_2 = L0_2.S4212F0576BCD501F
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "S399067A6AFFE3439"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.MessageWindowUI.S399067A6AFFE3439
+function C512D905984DB3137.S399067A6AFFE3439(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C512D905984DB3137
   L2_2 = L2_2.S96DA363DB6161ADC
@@ -1674,25 +1576,20 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C512D905984DB3137"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C512D905984DB3137_prototype
+C512D905984DB3137_prototype = L15_1()
+C512D905984DB3137.prototype = C512D905984DB3137_prototype
+--- main.ui.system_ui.message_window.MessageWindowUI.Setup
+function C512D905984DB3137_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C512D905984DB3137
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2.S8FB42FB8921DF138 = L3_2
   L2_2 = C512D905984DB3137
   L2_2 = L2_2.S6D70DD42CF57AA4D

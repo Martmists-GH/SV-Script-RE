@@ -1,3 +1,7 @@
+---@alias C5797B404FC92DA57 main_field_action_ActionChair
+
+---@class main_field_action_ActionChair : C5797B404FC92DA57_prototype
+---@field prototype C5797B404FC92DA57_prototype
 L55_1 = _ENV
 L56_1 = "C5797B404FC92DA57"
 L57_1 = L15_1
@@ -43,32 +47,27 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C5797B404FC92DA57"]
 L69_1 = "__name__"
 L70_1 = "C5797B404FC92DA57"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C5797B404FC92DA57_prototype
+C5797B404FC92DA57_prototype = L15_1()
+C5797B404FC92DA57.prototype = C5797B404FC92DA57_prototype
+--- main.field.action.ActionChair.onCreate
+function C5797B404FC92DA57_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2
-  A0_2[18] = 0
-  L1_2 = A0_2[16]
+  self[18] = 0
+  L1_2 = self[16]
   L2_2 = CD9AE7C27B00EB066
   L2_2 = L2_2.SEC5E960387714AA4
-  L3_2 = A0_2[16]
+  L3_2 = self[16]
   L3_2 = L3_2.enterSide
   L2_2 = L2_2(L3_2)
   L1_2.enterSide = L2_2
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   L1_2 = L1_2.withDesk
   if L1_2 then
-    L1_2 = A0_2[16]
+    L1_2 = self[16]
     L1_2 = L1_2.enterSide
     if 0 == L1_2 then
-      L1_2 = A0_2[16]
+      L1_2 = self[16]
       L1_2.enterSide = 1
     end
   end
@@ -79,11 +78,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- main.field.action.ActionChair.onFinish
+function C5797B404FC92DA57_prototype:FA2C827B56F56ABDF()
   local L1_2, L2_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S342007287416AA78
@@ -92,72 +88,69 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.ActionChair.onPreUpdate
+function C5797B404FC92DA57_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   if nil ~= L1_2 then
-    L1_2 = A0_2[17]
+    L1_2 = self[17]
     L1_2 = L1_2.name
-    L2_2 = A0_2[18]
+    L2_2 = self[18]
     if L1_2 == L2_2 then
       goto lbl_67
     end
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F5D09E2B9A206175E
-  L3_2 = A0_2[18]
+  L2_2 = self
+  L1_2 = self.F5D09E2B9A206175E
+  L3_2 = self[18]
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[17] = L1_2
-  L1_2 = A0_2[17]
+  self[17] = L1_2
+  L1_2 = self[17]
   L1_2 = L1_2.name
   if 0 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FF5F553A264E37C0E
+    L3_2 = self
+    L2_2 = self.FF5F553A264E37C0E
     L2_2(L3_2)
   elseif 1 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F456D46DED22B78BB
+    L3_2 = self
+    L2_2 = self.F456D46DED22B78BB
     L2_2(L3_2)
   elseif 2 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F541E854B663B0CBA
+    L3_2 = self
+    L2_2 = self.F541E854B663B0CBA
     L2_2(L3_2)
   elseif 3 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F541E674B663AD9C0
+    L3_2 = self
+    L2_2 = self.F541E674B663AD9C0
     L2_2(L3_2)
   elseif 4 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F2DE19F4F9484BD74
+    L3_2 = self
+    L2_2 = self.F2DE19F4F9484BD74
     L2_2(L3_2)
   elseif 5 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F2DE1854F94849146
+    L3_2 = self
+    L2_2 = self.F2DE1854F94849146
     L2_2(L3_2)
   elseif 6 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F92D30755A380E89F
+    L3_2 = self
+    L2_2 = self.F92D30755A380E89F
     L2_2(L3_2)
   elseif 7 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F3B897964041A8E66
+    L3_2 = self
+    L2_2 = self.F3B897964041A8E66
     L2_2(L3_2)
   elseif 8 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F07A4AC67207E2FE7
+    L3_2 = self
+    L2_2 = self.F07A4AC67207E2FE7
     L2_2(L3_2)
   elseif 9 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F07A49267207E03B9
+    L3_2 = self
+    L2_2 = self.F07A49267207E03B9
     L2_2(L3_2)
   elseif 10 == L1_2 then
   end
   ::lbl_67::
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L2_2 = L1_2.elapsed
   L3_2 = C075A638F130352C3
   L3_2 = L3_2.S44460EB93267F798
@@ -165,7 +158,7 @@ function L70_1(A0_2)
   L1_2.elapsed = L2_2
   L2_2 = false
   L3_2 = 0.0
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.infoName
   if nil ~= L4_2 then
     L4_2 = CFC8F368D91411014
@@ -188,7 +181,7 @@ function L70_1(A0_2)
     L6_2 = L6_2.fA40BEAA2
     L8_2 = "default"
     L6_2 = L6_2(L7_2, L8_2)
-    L7_2 = A0_2[17]
+    L7_2 = self[17]
     L7_2 = L7_2.infoName
     L9_2 = L6_2
     L8_2 = L6_2.fE9C29DA1
@@ -200,7 +193,7 @@ function L70_1(A0_2)
         local L0_3, L1_3, L2_3, L3_3
         
         L0_3 = nil
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[17]
         L1_3 = L1_3.infoPreTime
         L2_3 = L6_2
@@ -214,7 +207,7 @@ function L70_1(A0_2)
           L1_3 = L1_3(L2_3)
           L0_3 = L1_3
         else
-          L1_3 = A0_2
+          L1_3 = self
           L1_3 = L1_3[17]
           L0_3 = L1_3.infoPreTime
         end
@@ -224,15 +217,15 @@ function L70_1(A0_2)
       L7_2 = L7_2()
       L3_2 = L7_2
     end
-    L7_2 = A0_2[17]
+    L7_2 = self[17]
     L7_2.infoPreTime = L3_2
   else
-    L4_2 = A0_2[17]
+    L4_2 = self[17]
     L4_2 = L4_2.time
     if nil ~= L4_2 then
-      L4_2 = A0_2[17]
+      L4_2 = self[17]
       L4_2 = L4_2.elapsed
-      L5_2 = A0_2[17]
+      L5_2 = self[17]
       L5_2 = L5_2.time
       L3_2 = L4_2 / L5_2
     end
@@ -241,13 +234,13 @@ function L70_1(A0_2)
     L3_2 = 1.0
     L2_2 = true
   end
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.tween
   L4_2 = L4_2.location
   if nil ~= L4_2 then
     L4_2 = CFC8F368D91411014
     L4_2 = L4_2.S93A017D496A6D000
-    L5_2 = A0_2[17]
+    L5_2 = self[17]
     L5_2 = L5_2.tween
     L5_2 = L5_2.location
     L6_2 = L5_2
@@ -263,13 +256,13 @@ function L70_1(A0_2)
     L10_2 = L5_2[3]
     L6_2(L7_2, L8_2, L9_2, L10_2)
   end
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.tween
   L4_2 = L4_2.rotation
   if nil ~= L4_2 then
     L4_2 = CFC8F368D91411014
     L4_2 = L4_2.S93A017D496A6D000
-    L5_2 = A0_2[17]
+    L5_2 = self[17]
     L5_2 = L5_2.tween
     L5_2 = L5_2.rotation
     L6_2 = L5_2
@@ -284,52 +277,52 @@ function L70_1(A0_2)
     L6_2(L7_2, L8_2)
   end
   L4_2 = nil
-  L5_2 = A0_2[17]
+  L5_2 = self[17]
   L5_2 = L5_2.name
   if 0 == L5_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F68F65277B5EBB1A4
+    L7_2 = self
+    L6_2 = self.F68F65277B5EBB1A4
     L8_2 = L2_2
     L6_2 = L6_2(L7_2, L8_2)
     L4_2 = L6_2
   elseif 1 == L5_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F02372C3D73D52AE9
+    L7_2 = self
+    L6_2 = self.F02372C3D73D52AE9
     L8_2 = L2_2
     L6_2 = L6_2(L7_2, L8_2)
     L4_2 = L6_2
   elseif 2 == L5_2 or 3 == L5_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F982DC3BA18120656
+    L7_2 = self
+    L6_2 = self.F982DC3BA18120656
     L8_2 = L2_2
     L6_2 = L6_2(L7_2, L8_2)
     L4_2 = L6_2
   elseif 4 == L5_2 or 5 == L5_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F20D6A0BD2C42689C
+    L7_2 = self
+    L6_2 = self.F20D6A0BD2C42689C
     L8_2 = L2_2
     L6_2 = L6_2(L7_2, L8_2)
     L4_2 = L6_2
   elseif 6 == L5_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F5FE547AE9FC7BD41
+    L7_2 = self
+    L6_2 = self.F5FE547AE9FC7BD41
     L6_2 = L6_2(L7_2)
     L4_2 = L6_2
   elseif 7 == L5_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F362632DB914A260C
+    L7_2 = self
+    L6_2 = self.F362632DB914A260C
     L8_2 = L2_2
     L6_2 = L6_2(L7_2, L8_2)
     L4_2 = L6_2
   elseif 8 == L5_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F4B49AD94A128EF65
+    L7_2 = self
+    L6_2 = self.F4B49AD94A128EF65
     L8_2 = L2_2
     L6_2 = L6_2(L7_2, L8_2)
     L4_2 = L6_2
   elseif 9 == L5_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F4B49BF94A1290DFB
+    L7_2 = self
+    L6_2 = self.F4B49BF94A1290DFB
     L8_2 = L2_2
     L6_2 = L6_2(L7_2, L8_2)
     L4_2 = L6_2
@@ -337,11 +330,11 @@ function L70_1(A0_2)
     L4_2 = 10
   end
   if nil ~= L4_2 then
-    A0_2[18] = L4_2
+    self[18] = L4_2
   end
-  L6_2 = A0_2[18]
+  L6_2 = self[18]
   if 10 == L6_2 then
-    L6_2 = A0_2[17]
+    L6_2 = self[17]
     L6_2.name = 10
     L6_2 = 2
     return L6_2
@@ -350,15 +343,12 @@ function L70_1(A0_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "FF5F553A264E37C0E"
-
-function L70_1(A0_2)
+--- main.field.action.ActionChair.onBeginAlign
+function C5797B404FC92DA57_prototype:FF5F553A264E37C0E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L1_2 = cD5675BA5
   L1_2 = L1_2.f2135E276
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   L2_2 = L2_2.chairRotation
   L3_2 = cD5675BA5
   L3_2 = L3_2.fFA44D7AF
@@ -367,7 +357,7 @@ function L70_1(A0_2)
   L5_2 = L10_1.math
   L5_2 = L5_2.pi
   L5_2 = L5_2 / 2
-  L6_2 = A0_2[16]
+  L6_2 = self[16]
   L6_2 = L6_2.enterSide
   L5_2 = L5_2 * L6_2
   L4_2 = L4_2 + L5_2
@@ -375,7 +365,7 @@ function L70_1(A0_2)
   L6_2 = 0
   L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2 = L3_2(L4_2, L5_2, L6_2)
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   L2_2 = L2_2.chairCenter
   L4_2 = L1_2
   L3_2 = L1_2.fCA247E7A
@@ -425,7 +415,7 @@ function L70_1(A0_2)
   L13_2 = L13_2(L14_2)
   L14_2 = L1_2
   L12_2 = L12_2(L13_2, L14_2)
-  L13_2 = A0_2[17]
+  L13_2 = self[17]
   L14_2 = L16_1
   L15_2 = {}
   L16_2 = {}
@@ -438,17 +428,14 @@ function L70_1(A0_2)
   L13_2.tween = L14_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F68F65277B5EBB1A4"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.ActionChair.onFinishAlign
+function C5797B404FC92DA57_prototype:F68F65277B5EBB1A4(A1_2)
   local L2_2
   if A1_2 then
-    L2_2 = A0_2[16]
+    L2_2 = self[16]
     L2_2 = L2_2.withDesk
     if L2_2 then
-      L2_2 = A0_2[16]
+      L2_2 = self[16]
       L2_2 = L2_2.enterSide
       L2_2 = L2_2 * -1
       if L2_2 < 0 then
@@ -468,13 +455,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F456D46DED22B78BB"
-
-function L70_1(A0_2)
+--- main.field.action.ActionChair.onBeginSitDown
+function C5797B404FC92DA57_prototype:F456D46DED22B78BB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = nil
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fDBA763D1
@@ -519,7 +503,7 @@ function L70_1(A0_2)
     L8_2 = 0
     L5_2(L6_2, L7_2, L8_2)
   end
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = nil
   L6_2 = cE35B3EB3
   L6_2 = L6_2.fDBA763D1
@@ -570,7 +554,7 @@ function L70_1(A0_2)
   L8_2 = L7_2
   L7_2 = L7_2.f7360ED03
   L7_2, L8_2, L9_2 = L7_2(L8_2)
-  L10_2 = A0_2[17]
+  L10_2 = self[17]
   L11_2 = L16_1
   L12_2 = {}
   L13_2 = {}
@@ -585,7 +569,7 @@ function L70_1(A0_2)
   L14_2[1] = L15_2
   L14_2[2] = L16_2
   L14_2[3] = L17_2
-  L15_2 = A0_2[16]
+  L15_2 = self[16]
   L15_2 = L15_2.chairCenter
   L13_2 = L13_2(L14_2, L15_2)
   L12_2.location = L13_2
@@ -593,11 +577,8 @@ function L70_1(A0_2)
   L10_2.tween = L11_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F02372C3D73D52AE9"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.ActionChair.onFinishSitDown
+function C5797B404FC92DA57_prototype:F02372C3D73D52AE9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if A1_2 then
     L2_2 = CFC8F368D91411014
@@ -629,10 +610,10 @@ function L70_1(A0_2, A1_2)
     L3_2(L4_2, L5_2)
   end
   if A1_2 then
-    L2_2 = A0_2[16]
+    L2_2 = self[16]
     L2_2 = L2_2.enterSide
     if 0 ~= L2_2 then
-      L2_2 = A0_2[16]
+      L2_2 = self[16]
       L2_2 = L2_2.enterSide
       if L2_2 > 0 then
         L2_2 = 2
@@ -651,13 +632,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F541E854B663B0CBA"
-
-function L70_1(A0_2)
+--- main.field.action.ActionChair.onBeginSitTurnR
+function C5797B404FC92DA57_prototype:F541E854B663B0CBA()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = nil
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fDBA763D1
@@ -710,10 +688,10 @@ function L70_1(A0_2)
   L6_2 = L5_2
   L5_2 = L5_2.f64857644
   L5_2 = L5_2(L6_2)
-  L6_2 = A0_2[16]
+  L6_2 = self[16]
   L6_2 = L6_2.chairRotation
   L4_2 = L4_2(L5_2, L6_2)
-  L5_2 = A0_2[17]
+  L5_2 = self[17]
   L6_2 = L16_1
   L7_2 = {}
   L8_2 = {}
@@ -724,13 +702,10 @@ function L70_1(A0_2)
   L5_2.tween = L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F541E674B663AD9C0"
-
-function L70_1(A0_2)
+--- main.field.action.ActionChair.onBeginSitTurnL
+function C5797B404FC92DA57_prototype:F541E674B663AD9C0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = nil
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fDBA763D1
@@ -783,10 +758,10 @@ function L70_1(A0_2)
   L6_2 = L5_2
   L5_2 = L5_2.f64857644
   L5_2 = L5_2(L6_2)
-  L6_2 = A0_2[16]
+  L6_2 = self[16]
   L6_2 = L6_2.chairRotation
   L4_2 = L4_2(L5_2, L6_2)
-  L5_2 = A0_2[17]
+  L5_2 = self[17]
   L6_2 = L16_1
   L7_2 = {}
   L8_2 = {}
@@ -797,11 +772,8 @@ function L70_1(A0_2)
   L5_2.tween = L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F982DC3BA18120656"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.ActionChair.onFinishSitTurn
+function C5797B404FC92DA57_prototype:F982DC3BA18120656(A1_2)
   local L2_2
   if A1_2 then
     L2_2 = 6
@@ -812,13 +784,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F2DE19F4F9484BD74"
-
-function L70_1(A0_2)
+--- main.field.action.ActionChair.onBeginSitDownDeskR
+function C5797B404FC92DA57_prototype:F2DE19F4F9484BD74()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = nil
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fDBA763D1
@@ -864,7 +833,7 @@ function L70_1(A0_2)
     L8_2 = L8_2.SEDC171AC3ECEDD7D
     L5_2(L6_2, L7_2, L8_2)
   end
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = nil
   L6_2 = cE35B3EB3
   L6_2 = L6_2.fDBA763D1
@@ -915,7 +884,7 @@ function L70_1(A0_2)
   L8_2 = L7_2
   L7_2 = L7_2.f7360ED03
   L7_2, L8_2, L9_2 = L7_2(L8_2)
-  L10_2 = A0_2[17]
+  L10_2 = self[17]
   L11_2 = L16_1
   L12_2 = {}
   L13_2 = {}
@@ -930,7 +899,7 @@ function L70_1(A0_2)
   L14_2[1] = L15_2
   L14_2[2] = L16_2
   L14_2[3] = L17_2
-  L15_2 = A0_2[16]
+  L15_2 = self[16]
   L15_2 = L15_2.chairCenter
   L13_2 = L13_2(L14_2, L15_2)
   L12_2.location = L13_2
@@ -938,13 +907,10 @@ function L70_1(A0_2)
   L10_2.tween = L11_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F2DE1854F94849146"
-
-function L70_1(A0_2)
+--- main.field.action.ActionChair.F2DE1854F94849146
+function C5797B404FC92DA57_prototype:F2DE1854F94849146()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = nil
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fDBA763D1
@@ -990,7 +956,7 @@ function L70_1(A0_2)
     L8_2 = L8_2.SEDC173AC3ECEE0E3
     L5_2(L6_2, L7_2, L8_2)
   end
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = nil
   L6_2 = cE35B3EB3
   L6_2 = L6_2.fDBA763D1
@@ -1041,7 +1007,7 @@ function L70_1(A0_2)
   L8_2 = L7_2
   L7_2 = L7_2.f7360ED03
   L7_2, L8_2, L9_2 = L7_2(L8_2)
-  L10_2 = A0_2[17]
+  L10_2 = self[17]
   L11_2 = L16_1
   L12_2 = {}
   L13_2 = {}
@@ -1056,7 +1022,7 @@ function L70_1(A0_2)
   L14_2[1] = L15_2
   L14_2[2] = L16_2
   L14_2[3] = L17_2
-  L15_2 = A0_2[16]
+  L15_2 = self[16]
   L15_2 = L15_2.chairCenter
   L13_2 = L13_2(L14_2, L15_2)
   L12_2.location = L13_2
@@ -1064,11 +1030,8 @@ function L70_1(A0_2)
   L10_2.tween = L11_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F20D6A0BD2C42689C"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.ActionChair.onFinishSitDownDesk
+function C5797B404FC92DA57_prototype:F20D6A0BD2C42689C(A1_2)
   local L2_2, L3_2, L4_2
   if A1_2 then
     L2_2 = CFC8F368D91411014
@@ -1076,7 +1039,7 @@ function L70_1(A0_2, A1_2)
     L2_2 = L2_2.owner
     L3_2 = L2_2
     L2_2 = L2_2.f24032F87
-    L4_2 = A0_2[16]
+    L4_2 = self[16]
     L4_2 = L4_2.chairRotation
     L2_2(L3_2, L4_2)
   end
@@ -1089,26 +1052,20 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F92D30755A380E89F"
-
-function L70_1(A0_2)
+--- main.field.action.ActionChair.onBeginSitting
+function C5797B404FC92DA57_prototype:F92D30755A380E89F()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F5FE547AE9FC7BD41"
-
-function L70_1(A0_2)
+--- main.field.action.ActionChair.onFinishSitting
+function C5797B404FC92DA57_prototype:F5FE547AE9FC7BD41()
   local L1_2
-  L1_2 = A0_2[19]
+  L1_2 = self[19]
   if nil ~= L1_2 then
-    L1_2 = A0_2[16]
+    L1_2 = self[16]
     L1_2 = L1_2.withDesk
     if L1_2 then
-      L1_2 = A0_2[19]
+      L1_2 = self[19]
       L1_2 = L1_2.side
       if L1_2 > 0 then
         L1_2 = 9
@@ -1127,13 +1084,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F3B897964041A8E66"
-
-function L70_1(A0_2)
+--- main.field.action.ActionChair.onBeginStandUp
+function C5797B404FC92DA57_prototype:F3B897964041A8E66()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = nil
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fDBA763D1
@@ -1178,9 +1132,9 @@ function L70_1(A0_2)
     L8_2 = 1
     L5_2(L6_2, L7_2, L8_2)
   end
-  L4_2 = A0_2[16]
+  L4_2 = self[16]
   L4_2 = L4_2.chairCenter
-  L5_2 = A0_2[16]
+  L5_2 = self[16]
   L5_2 = L5_2.chairRotation
   L6_2 = L5_2
   L5_2 = L5_2.fCA247E7A
@@ -1209,7 +1163,7 @@ function L70_1(A0_2)
   L11_2 = L10_2
   L10_2 = L10_2.f7360ED03
   L10_2, L11_2, L12_2 = L10_2(L11_2)
-  L13_2 = A0_2[17]
+  L13_2 = self[17]
   L14_2 = L16_1
   L15_2 = {}
   L16_2 = {}
@@ -1231,11 +1185,8 @@ function L70_1(A0_2)
   L13_2.tween = L14_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F362632DB914A260C"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.ActionChair.onFinishStandUp
+function C5797B404FC92DA57_prototype:F362632DB914A260C(A1_2)
   local L2_2
   if A1_2 then
     L2_2 = 10
@@ -1246,13 +1197,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F07A4AC67207E2FE7"
-
-function L70_1(A0_2)
+--- main.field.action.ActionChair.F07A4AC67207E2FE7
+function C5797B404FC92DA57_prototype:F07A4AC67207E2FE7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = nil
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fDBA763D1
@@ -1298,7 +1246,7 @@ function L70_1(A0_2)
     L8_2 = L8_2.SEDC171AC3ECEDD7D
     L5_2(L6_2, L7_2, L8_2)
   end
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = nil
   L6_2 = cE35B3EB3
   L6_2 = L6_2.fDBA763D1
@@ -1345,7 +1293,7 @@ function L70_1(A0_2)
   end
   L7_2 = cD5675BA5
   L7_2 = L7_2.f2135E276
-  L8_2 = A0_2[16]
+  L8_2 = self[16]
   L8_2 = L8_2.chairRotation
   L9_2 = cD5675BA5
   L9_2 = L9_2.fFA44D7AF
@@ -1356,7 +1304,7 @@ function L70_1(A0_2)
   L12_2 = 0
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2 = L9_2(L10_2, L11_2, L12_2)
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2)
-  L8_2 = A0_2[16]
+  L8_2 = self[16]
   L8_2 = L8_2.chairCenter
   L10_2 = L7_2
   L9_2 = L7_2.fCA247E7A
@@ -1385,7 +1333,7 @@ function L70_1(A0_2)
   L15_2 = L14_2
   L14_2 = L14_2.f7360ED03
   L14_2, L15_2, L16_2 = L14_2(L15_2)
-  L17_2 = A0_2[17]
+  L17_2 = self[17]
   L18_2 = L16_1
   L19_2 = {}
   L20_2 = {}
@@ -1407,13 +1355,10 @@ function L70_1(A0_2)
   L17_2.tween = L18_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F07A49267207E03B9"
-
-function L70_1(A0_2)
+--- main.field.action.ActionChair.F07A49267207E03B9
+function C5797B404FC92DA57_prototype:F07A49267207E03B9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = nil
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fDBA763D1
@@ -1459,7 +1404,7 @@ function L70_1(A0_2)
     L8_2 = L8_2.SEDC173AC3ECEE0E3
     L5_2(L6_2, L7_2, L8_2)
   end
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = nil
   L6_2 = cE35B3EB3
   L6_2 = L6_2.fDBA763D1
@@ -1506,7 +1451,7 @@ function L70_1(A0_2)
   end
   L7_2 = cD5675BA5
   L7_2 = L7_2.f2135E276
-  L8_2 = A0_2[16]
+  L8_2 = self[16]
   L8_2 = L8_2.chairRotation
   L9_2 = cD5675BA5
   L9_2 = L9_2.fFA44D7AF
@@ -1518,7 +1463,7 @@ function L70_1(A0_2)
   L12_2 = 0
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2 = L9_2(L10_2, L11_2, L12_2)
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2)
-  L8_2 = A0_2[16]
+  L8_2 = self[16]
   L8_2 = L8_2.chairCenter
   L10_2 = L7_2
   L9_2 = L7_2.fCA247E7A
@@ -1547,7 +1492,7 @@ function L70_1(A0_2)
   L15_2 = L14_2
   L14_2 = L14_2.f7360ED03
   L14_2, L15_2, L16_2 = L14_2(L15_2)
-  L17_2 = A0_2[17]
+  L17_2 = self[17]
   L18_2 = L16_1
   L19_2 = {}
   L20_2 = {}
@@ -1569,18 +1514,15 @@ function L70_1(A0_2)
   L17_2.tween = L18_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F4B49AD94A128EF65"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.ActionChair.F4B49AD94A128EF65
+function C5797B404FC92DA57_prototype:F4B49AD94A128EF65(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if A1_2 then
     L2_2 = CFC8F368D91411014
     L2_2 = L2_2.S93A017D496A6D000
     L3_2 = cD5675BA5
     L3_2 = L3_2.f2135E276
-    L4_2 = A0_2[16]
+    L4_2 = self[16]
     L4_2 = L4_2.chairRotation
     L5_2 = cD5675BA5
     L5_2 = L5_2.fFA44D7AF
@@ -1607,18 +1549,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F4B49BF94A1290DFB"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.ActionChair.F4B49BF94A1290DFB
+function C5797B404FC92DA57_prototype:F4B49BF94A1290DFB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if A1_2 then
     L2_2 = CFC8F368D91411014
     L2_2 = L2_2.S93A017D496A6D000
     L3_2 = cD5675BA5
     L3_2 = L3_2.f2135E276
-    L4_2 = A0_2[16]
+    L4_2 = self[16]
     L4_2 = L4_2.chairRotation
     L5_2 = cD5675BA5
     L5_2 = L5_2.fFA44D7AF
@@ -1644,15 +1583,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "FC1B984106800C2BB"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.ActionChair.StandUpRequest
+function C5797B404FC92DA57_prototype:FC1B984106800C2BB(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   if nil ~= L2_2 then
-    L2_2 = A0_2[17]
+    L2_2 = self[17]
     L2_2 = L2_2.name
     if 6 == L2_2 then
       goto lbl_9
@@ -1685,41 +1621,35 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2()
   L3_2.side = L4_2
   L2_2 = L2_2(L3_2)
-  A0_2[19] = L2_2
-  L2_2 = A0_2[16]
+  self[19] = L2_2
+  L2_2 = self[16]
   L2_2 = L2_2.withDesk
   if L2_2 and (nil == A1_2 or 0 == A1_2) then
-    L2_2 = A0_2[19]
+    L2_2 = self[19]
     L3_2 = L58_1
-    L4_2 = A0_2[16]
+    L4_2 = self[16]
     L4_2 = L4_2.enterSide
     L3_2 = L3_2(L4_2)
     L2_2.side = L3_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "FF8F9563B4C4289B4"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.ActionChair.IsStateReached
+function C5797B404FC92DA57_prototype:FF8F9563B4C4289B4(A1_2)
   local L2_2
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   if nil == L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   L2_2 = L2_2.name
   L2_2 = A1_2 <= L2_2
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5797B404FC92DA57"]["prototype"]
-L69_1 = "F5D09E2B9A206175E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.ActionChair.createState
+function C5797B404FC92DA57_prototype:F5D09E2B9A206175E(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = nil
   if 1 == A1_2 then

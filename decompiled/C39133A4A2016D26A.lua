@@ -1,3 +1,7 @@
+---@alias C39133A4A2016D26A main_ui_raid_matching_popup_RaidMatchingPopupLoader
+
+---@class main_ui_raid_matching_popup_RaidMatchingPopupLoader : C39133A4A2016D26A_prototype
+---@field prototype C39133A4A2016D26A_prototype
 L55_1 = _ENV
 L56_1 = "C39133A4A2016D26A"
 L57_1 = L15_1
@@ -43,36 +47,28 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C39133A4A2016D26A"]
 L69_1 = "__name__"
 L70_1 = "C39133A4A2016D26A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39133A4A2016D26A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39133A4A2016D26A"]["prototype"]
-L69_1 = "F9337AE9F018B3C29"
-
-function L70_1(A0_2)
+---@class C39133A4A2016D26A_prototype
+C39133A4A2016D26A_prototype = L15_1()
+C39133A4A2016D26A.prototype = C39133A4A2016D26A_prototype
+--- main.ui.raid_matching.popup.RaidMatchingPopupLoader.Open
+function C39133A4A2016D26A_prototype:F9337AE9F018B3C29()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F052BEB8F702E7A17
-  L3_2 = A0_2[5]
+  L2_2 = self
+  L1_2 = self.F052BEB8F702E7A17
+  L3_2 = self[5]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39133A4A2016D26A"]["prototype"]
-L69_1 = "FC84A0D4D8CE89C7E"
-
-function L70_1(A0_2)
+--- main.ui.raid_matching.popup.RaidMatchingPopupLoader.IsLoadEnd
+function C39133A4A2016D26A_prototype:FC84A0D4D8CE89C7E()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDAB51CABF01ACA9B
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC84A0D4D8CE89C7E
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.fD4E64AB7
     L3_2 = "view_rm_popup_00"
@@ -98,7 +94,7 @@ function L70_1(A0_2)
     if L4_2 == L5_2 then
       L4_2 = nil
     end
-    A0_2[6] = L4_2
+    self[6] = L4_2
     L5_2 = true
     return L5_2
   end
@@ -106,23 +102,20 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39133A4A2016D26A"]["prototype"]
-L69_1 = "FD7D37C5A967ABE41"
-
-function L70_1(A0_2)
+--- main.ui.raid_matching.popup.RaidMatchingPopupLoader.CloseScene
+function C39133A4A2016D26A_prototype:FD7D37C5A967ABE41()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.f25C936C9
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = CF1D9D619D324F233
     L2_2 = L2_2.S5E67FD00348A0A28
     L2_2()
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.fD4E64AB7
     L4_2 = "raid_matching_popup"
@@ -147,15 +140,15 @@ function L70_1(A0_2)
     if L5_2 == L6_2 then
       L5_2 = nil
     end
-    A0_2[7] = L5_2
-    L6_2 = A0_2[7]
+    self[7] = L5_2
+    L6_2 = self[7]
     if nil ~= L6_2 then
-      L6_2 = A0_2[7]
+      L6_2 = self[7]
       L7_2 = L6_2
       L6_2 = L6_2.FBC5AC6C03E2C686C
       L6_2(L7_2)
     else
-      L6_2 = A0_2[3]
+      L6_2 = self[3]
       L7_2 = L6_2
       L6_2 = L6_2.f5C99C0AC
       L6_2(L7_2)

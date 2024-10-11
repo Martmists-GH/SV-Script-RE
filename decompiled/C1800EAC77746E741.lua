@@ -1,3 +1,7 @@
+---@alias C1800EAC77746E741 main_event_general_common_Common_atlantis_base
+
+---@class main_event_general_common_Common_atlantis_base : C1800EAC77746E741_prototype
+---@field prototype C1800EAC77746E741_prototype
 L55_1 = _ENV
 L56_1 = "C1800EAC77746E741"
 L57_1 = L15_1
@@ -47,23 +51,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1800EAC77746E741"]
 L69_1 = "__name__"
 L70_1 = "C1800EAC77746E741"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1800EAC77746E741"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1800EAC77746E741"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C1800EAC77746E741_prototype
+C1800EAC77746E741_prototype = L15_1()
+C1800EAC77746E741.prototype = C1800EAC77746E741_prototype
+--- main.event.general.common.Common_atlantis_base.preStart
+function C1800EAC77746E741_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerName
   L2_2 = C1800EAC77746E741
   L2_2 = L2_2.S0047CD97018E45C1
   if L1_2 == L2_2 then
-    A0_2[35] = "common_1010"
+    self[35] = "common_1010"
   else
     L2_2 = C1800EAC77746E741
     L2_2 = L2_2.S004AD397019085CA
@@ -74,13 +73,13 @@ function L70_1(A0_2)
         goto lbl_19
       end
     end
-    A0_2[35] = "common_1020"
+    self[35] = "common_1020"
     goto lbl_128
     ::lbl_19::
     L2_2 = C1800EAC77746E741
     L2_2 = L2_2.S004E3997019368F3
     if L1_2 == L2_2 then
-      A0_2[35] = "common_1020"
+      self[35] = "common_1020"
     else
       L2_2 = C1800EAC77746E741
       L2_2 = L2_2.S138E86CD9763C57E
@@ -107,13 +106,13 @@ function L70_1(A0_2)
           end
         end
       end
-      A0_2[35] = "common_1060"
+      self[35] = "common_1060"
       goto lbl_128
       ::lbl_51::
       L2_2 = C1800EAC77746E741
       L2_2 = L2_2.S005BD197019EF597
       if L1_2 == L2_2 then
-        A0_2[35] = "common_1060"
+        self[35] = "common_1060"
       else
         L2_2 = C1800EAC77746E741
         L2_2 = L2_2.S28AAE6DD0967D87C
@@ -132,13 +131,13 @@ function L70_1(A0_2)
             end
           end
         end
-        A0_2[35] = "common_1080"
+        self[35] = "common_1080"
         goto lbl_128
         ::lbl_75::
         L2_2 = C1800EAC77746E741
         L2_2 = L2_2.S002C3D9701768959
         if L1_2 == L2_2 then
-          A0_2[35] = "common_1080"
+          self[35] = "common_1080"
         else
           L2_2 = C1800EAC77746E741
           L2_2 = L2_2.SACB6FE68786858F2
@@ -157,18 +156,18 @@ function L70_1(A0_2)
               end
             end
           end
-          A0_2[35] = "common_1100"
+          self[35] = "common_1100"
           goto lbl_128
           ::lbl_99::
           L2_2 = C1800EAC77746E741
           L2_2 = L2_2.S0956FC9706CC767A
           if L1_2 == L2_2 then
-            A0_2[35] = "common_1100"
+            self[35] = "common_1100"
           else
             L2_2 = C1800EAC77746E741
             L2_2 = L2_2.S5A45B6D041A439D1
             if L1_2 == L2_2 then
-              A0_2[35] = "common_1100"
+              self[35] = "common_1100"
             else
               L2_2 = C1800EAC77746E741
               L2_2 = L2_2.SBEAB3BC75CCA0861
@@ -179,15 +178,15 @@ function L70_1(A0_2)
                   goto lbl_121
                 end
               end
-              A0_2[35] = "common_1120"
+              self[35] = "common_1120"
               goto lbl_128
               ::lbl_121::
               L2_2 = C1800EAC77746E741
               L2_2 = L2_2.S0950709706C71CE8
               if L1_2 == L2_2 then
-                A0_2[35] = "common_1120"
+                self[35] = "common_1120"
               else
-                A0_2[35] = nil
+                self[35] = nil
               end
             end
           end
@@ -196,14 +195,14 @@ function L70_1(A0_2)
     end
   end
   ::lbl_128::
-  L2_2 = A0_2[35]
+  L2_2 = self[35]
   if nil ~= L2_2 then
     L2_2 = L31_1.string
     L3_2 = L31_1.string
     L4_2 = "message/dat/JPN/script/"
     L3_2 = L3_2(L4_2)
     L4_2 = L31_1.string
-    L5_2 = A0_2[35]
+    L5_2 = self[35]
     L4_2 = L4_2(L5_2)
     L3_2 = L3_2 .. L4_2
     L2_2 = L2_2(L3_2)
@@ -211,22 +210,19 @@ function L70_1(A0_2)
     L4_2 = ".dat"
     L3_2 = L3_2(L4_2)
     L2_2 = L2_2 .. L3_2
-    A0_2[36] = L2_2
+    self[36] = L2_2
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.S12FD376DC11712C8
-    L3_2 = A0_2[36]
+    L3_2 = self[36]
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1800EAC77746E741"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.common.Common_atlantis_base.mainBody
+function C1800EAC77746E741_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F0A528C2F9F2670CD
+  L2_2 = self
+  L1_2 = self.F0A528C2F9F2670CD
   L3_2 = CFC8F368D91411014
   L3_2 = L3_2.S93A017D496A6D000
   L3_2 = L3_2.owner
@@ -237,7 +233,7 @@ function L70_1(A0_2)
   L5_2 = 7.5
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2)
   L2_2 = false
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L3_2 = L3_2.ownerName
   L4_2 = C1800EAC77746E741
   L4_2 = L4_2.S0047CD97018E45C1
@@ -256,11 +252,11 @@ function L70_1(A0_2)
     L4_2 = L4_2.S3EDC50DEB344C642
     L5_2 = "event_npc_common_1010_friend"
     L6_2 = "common_1010_friend_stopper"
-    L7_2 = A0_2[35]
+    L7_2 = self[35]
     L8_2 = 0
     L4_2(L5_2, L6_2, L7_2, L8_2)
-    L5_2 = A0_2
-    L4_2 = A0_2.F0A528C2F9F2670CD
+    L5_2 = self
+    L4_2 = self.F0A528C2F9F2670CD
     L6_2 = 0.0
     L7_2 = -0.9
     L8_2 = 10.5
@@ -278,11 +274,11 @@ function L70_1(A0_2)
       L4_2 = L4_2.S3EDC50DEB344C642
       L5_2 = ""
       L6_2 = "common_1020_system_stopper"
-      L7_2 = A0_2[35]
+      L7_2 = self[35]
       L8_2 = 3
       L4_2(L5_2, L6_2, L7_2, L8_2)
-      L5_2 = A0_2
-      L4_2 = A0_2.F0A528C2F9F2670CD
+      L5_2 = self
+      L4_2 = self.F0A528C2F9F2670CD
       L6_2 = 3.786
       L7_2 = 0.3
       L8_2 = 2.4
@@ -296,11 +292,11 @@ function L70_1(A0_2)
         L4_2 = L4_2.S3EDC50DEB344C642
         L5_2 = ""
         L6_2 = "common_1020_system_stopper"
-        L7_2 = A0_2[35]
+        L7_2 = self[35]
         L8_2 = 3
         L4_2(L5_2, L6_2, L7_2, L8_2)
-        L5_2 = A0_2
-        L4_2 = A0_2.F0A528C2F9F2670CD
+        L5_2 = self
+        L4_2 = self.F0A528C2F9F2670CD
         L6_2 = 4.374
         L7_2 = 0.3
         L8_2 = -2.5
@@ -314,11 +310,11 @@ function L70_1(A0_2)
           L4_2 = L4_2.S3EDC50DEB344C642
           L5_2 = ""
           L6_2 = "common_1020_system_stopper"
-          L7_2 = A0_2[35]
+          L7_2 = self[35]
           L8_2 = 3
           L4_2(L5_2, L6_2, L7_2, L8_2)
-          L5_2 = A0_2
-          L4_2 = A0_2.F0A528C2F9F2670CD
+          L5_2 = self
+          L4_2 = self.F0A528C2F9F2670CD
           L6_2 = 6.0
           L7_2 = 0.3
           L8_2 = 3.5
@@ -359,8 +355,8 @@ function L70_1(A0_2)
           L6_2 = L6_2(L7_2)
           if L6_2 then
             L5_2 = "common_1060_stopper_out"
-            L7_2 = A0_2
-            L6_2 = A0_2.F0A528C2F9F2670CD
+            L7_2 = self
+            L6_2 = self.F0A528C2F9F2670CD
             L8_2 = 2625.926
             L9_2 = -105.0
             L10_2 = -2626.411
@@ -374,8 +370,8 @@ function L70_1(A0_2)
             L6_2 = L6_2(L7_2)
             if L6_2 then
               L5_2 = "common_1060_stopper_out"
-              L7_2 = A0_2
-              L6_2 = A0_2.F0A528C2F9F2670CD
+              L7_2 = self
+              L6_2 = self.F0A528C2F9F2670CD
               L8_2 = 2696.514
               L9_2 = -91.0
               L10_2 = -2519.741
@@ -388,16 +384,16 @@ function L70_1(A0_2)
               L7_2 = "atlantis_talk_01"
               L6_2 = L6_2(L7_2)
               if L6_2 then
-                L7_2 = A0_2
-                L6_2 = A0_2.F0A528C2F9F2670CD
+                L7_2 = self
+                L6_2 = self.F0A528C2F9F2670CD
                 L8_2 = 2475.558
                 L9_2 = -35.468
                 L10_2 = -2803.057
                 L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
                 L1_2 = L6_2
               else
-                L7_2 = A0_2
-                L6_2 = A0_2.F0A528C2F9F2670CD
+                L7_2 = self
+                L6_2 = self.F0A528C2F9F2670CD
                 L8_2 = 2269.766
                 L9_2 = 0.0
                 L10_2 = -2836.798
@@ -424,8 +420,8 @@ function L70_1(A0_2)
           L9_2 = L1_2[2]
           L10_2 = L1_2[3]
           L6_2(L7_2, L8_2, L9_2, L10_2)
-          L7_2 = A0_2
-          L6_2 = A0_2.FFF1BDBE707149D61
+          L7_2 = self
+          L6_2 = self.FFF1BDBE707149D61
           L6_2(L7_2)
           L6_2 = C07E4F1BF071B0460
           L6_2 = L6_2.S2D4F4BC40511B560
@@ -436,7 +432,7 @@ function L70_1(A0_2)
             L6_2 = L6_2.S3EDC50DEB344C642
             L7_2 = ""
             L8_2 = L5_2
-            L9_2 = A0_2[35]
+            L9_2 = self[35]
             L10_2 = 0
             L6_2(L7_2, L8_2, L9_2, L10_2)
             goto lbl_512
@@ -448,7 +444,7 @@ function L70_1(A0_2)
               L4_2 = L4_2.S3EDC50DEB344C642
               L5_2 = ""
               L6_2 = "common_1060_stopper_01"
-              L7_2 = A0_2[35]
+              L7_2 = self[35]
               L8_2 = 0
               L4_2(L5_2, L6_2, L7_2, L8_2)
             else
@@ -478,8 +474,8 @@ function L70_1(A0_2)
               L6_2 = L6_2(L7_2)
               if L6_2 then
                 L5_2 = "common_1080_stopper_out"
-                L7_2 = A0_2
-                L6_2 = A0_2.F0A528C2F9F2670CD
+                L7_2 = self
+                L6_2 = self.F0A528C2F9F2670CD
                 L8_2 = 2191.609
                 L9_2 = -270.313
                 L10_2 = -2436.443
@@ -492,16 +488,16 @@ function L70_1(A0_2)
                 L7_2 = "atlantis_talk_03"
                 L6_2 = L6_2(L7_2)
                 if L6_2 then
-                  L7_2 = A0_2
-                  L6_2 = A0_2.F0A528C2F9F2670CD
+                  L7_2 = self
+                  L6_2 = self.F0A528C2F9F2670CD
                   L8_2 = 2217.215
                   L9_2 = -258.0
                   L10_2 = -2514.088
                   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
                   L1_2 = L6_2
                 else
-                  L7_2 = A0_2
-                  L6_2 = A0_2.F0A528C2F9F2670CD
+                  L7_2 = self
+                  L6_2 = self.F0A528C2F9F2670CD
                   L8_2 = 2625.926
                   L9_2 = -105.0
                   L10_2 = -2626.411
@@ -527,8 +523,8 @@ function L70_1(A0_2)
               L9_2 = L1_2[2]
               L10_2 = L1_2[3]
               L6_2(L7_2, L8_2, L9_2, L10_2)
-              L7_2 = A0_2
-              L6_2 = A0_2.FFF1BDBE707149D61
+              L7_2 = self
+              L6_2 = self.FFF1BDBE707149D61
               L6_2(L7_2)
               L6_2 = C07E4F1BF071B0460
               L6_2 = L6_2.S2D4F4BC40511B560
@@ -539,7 +535,7 @@ function L70_1(A0_2)
                 L6_2 = L6_2.S3EDC50DEB344C642
                 L7_2 = ""
                 L8_2 = L5_2
-                L9_2 = A0_2[35]
+                L9_2 = self[35]
                 L10_2 = 0
                 L6_2(L7_2, L8_2, L9_2, L10_2)
                 goto lbl_512
@@ -551,7 +547,7 @@ function L70_1(A0_2)
                   L4_2 = L4_2.S3EDC50DEB344C642
                   L5_2 = ""
                   L6_2 = "common_1080_stopper_01"
-                  L7_2 = A0_2[35]
+                  L7_2 = self[35]
                   L8_2 = 0
                   L4_2(L5_2, L6_2, L7_2, L8_2)
                 else
@@ -580,8 +576,8 @@ function L70_1(A0_2)
                   L5_2 = L5_2(L6_2)
                   if L5_2 then
                     L4_2 = "common_1100_stopper_out"
-                    L6_2 = A0_2
-                    L5_2 = A0_2.F0A528C2F9F2670CD
+                    L6_2 = self
+                    L5_2 = self.F0A528C2F9F2670CD
                     L7_2 = 2547.917
                     L8_2 = -346.0
                     L9_2 = -2390.936
@@ -594,16 +590,16 @@ function L70_1(A0_2)
                     L5_2 = L5_2(L6_2)
                     if L5_2 then
                       L4_2 = "common_1100_stopper_out"
-                      L6_2 = A0_2
-                      L5_2 = A0_2.F0A528C2F9F2670CD
+                      L6_2 = self
+                      L5_2 = self.F0A528C2F9F2670CD
                       L7_2 = 2494.607
                       L8_2 = -341.872
                       L9_2 = -2309.482
                       L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2)
                       L1_2 = L5_2
                     else
-                      L6_2 = A0_2
-                      L5_2 = A0_2.F0A528C2F9F2670CD
+                      L6_2 = self
+                      L5_2 = self.F0A528C2F9F2670CD
                       L7_2 = 2217.215
                       L8_2 = -258.0
                       L9_2 = -2514.088
@@ -622,8 +618,8 @@ function L70_1(A0_2)
                   L8_2 = L1_2[2]
                   L9_2 = L1_2[3]
                   L5_2(L6_2, L7_2, L8_2, L9_2)
-                  L6_2 = A0_2
-                  L5_2 = A0_2.FFF1BDBE707149D61
+                  L6_2 = self
+                  L5_2 = self.FFF1BDBE707149D61
                   L5_2(L6_2)
                   L5_2 = C07E4F1BF071B0460
                   L5_2 = L5_2.S2D4F4BC40511B560
@@ -634,7 +630,7 @@ function L70_1(A0_2)
                     L5_2 = L5_2.S3EDC50DEB344C642
                     L6_2 = ""
                     L7_2 = L4_2
-                    L8_2 = A0_2[35]
+                    L8_2 = self[35]
                     L9_2 = 0
                     L5_2(L6_2, L7_2, L8_2, L9_2)
                     goto lbl_512
@@ -646,7 +642,7 @@ function L70_1(A0_2)
                       L4_2 = L4_2.S3EDC50DEB344C642
                       L5_2 = ""
                       L6_2 = "common_1100_stopper_01"
-                      L7_2 = A0_2[35]
+                      L7_2 = self[35]
                       L8_2 = 0
                       L4_2(L5_2, L6_2, L7_2, L8_2)
                     else
@@ -654,8 +650,8 @@ function L70_1(A0_2)
                       L4_2 = L4_2.S5A45B6D041A439D1
                       if L3_2 == L4_2 then
                         L2_2 = true
-                        L5_2 = A0_2
-                        L4_2 = A0_2.F0A528C2F9F2670CD
+                        L5_2 = self
+                        L4_2 = self.F0A528C2F9F2670CD
                         L6_2 = 2517.837
                         L7_2 = -350.0
                         L8_2 = -2386.448
@@ -672,8 +668,8 @@ function L70_1(A0_2)
                         L7_2 = L1_2[2]
                         L8_2 = L1_2[3]
                         L4_2(L5_2, L6_2, L7_2, L8_2)
-                        L5_2 = A0_2
-                        L4_2 = A0_2.FFF1BDBE707149D61
+                        L5_2 = self
+                        L4_2 = self.FFF1BDBE707149D61
                         L4_2(L5_2)
                         L4_2 = C07E4F1BF071B0460
                         L4_2 = L4_2.S2D4F4BC40511B560
@@ -695,16 +691,16 @@ function L70_1(A0_2)
                         L5_2 = "atlantis_talk_06"
                         L4_2 = L4_2(L5_2)
                         if L4_2 then
-                          L5_2 = A0_2
-                          L4_2 = A0_2.F0A528C2F9F2670CD
+                          L5_2 = self
+                          L4_2 = self.F0A528C2F9F2670CD
                           L6_2 = 2359.697
                           L7_2 = -500.118
                           L8_2 = -2628.676
                           L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
                           L1_2 = L4_2
                         else
-                          L5_2 = A0_2
-                          L4_2 = A0_2.F0A528C2F9F2670CD
+                          L5_2 = self
+                          L4_2 = self.F0A528C2F9F2670CD
                           L6_2 = 2310.763
                           L7_2 = -406.61
                           L8_2 = -2319.1
@@ -722,8 +718,8 @@ function L70_1(A0_2)
                         L7_2 = L1_2[2]
                         L8_2 = L1_2[3]
                         L4_2(L5_2, L6_2, L7_2, L8_2)
-                        L5_2 = A0_2
-                        L4_2 = A0_2.FFF1BDBE707149D61
+                        L5_2 = self
+                        L4_2 = self.FFF1BDBE707149D61
                         L4_2(L5_2)
                         L4_2 = C07E4F1BF071B0460
                         L4_2 = L4_2.S2D4F4BC40511B560
@@ -733,7 +729,7 @@ function L70_1(A0_2)
                         L4_2 = L4_2.S3EDC50DEB344C642
                         L5_2 = ""
                         L6_2 = "common_1120_stopper_out"
-                        L7_2 = A0_2[35]
+                        L7_2 = self[35]
                         L8_2 = 3
                         L4_2(L5_2, L6_2, L7_2, L8_2)
                         goto lbl_512
@@ -745,11 +741,11 @@ function L70_1(A0_2)
                           L4_2 = L4_2.S3EDC50DEB344C642
                           L5_2 = ""
                           L6_2 = "common_1120_stopper_01"
-                          L7_2 = A0_2[35]
+                          L7_2 = self[35]
                           L8_2 = 3
                           L4_2(L5_2, L6_2, L7_2, L8_2)
-                          L5_2 = A0_2
-                          L4_2 = A0_2.F0A528C2F9F2670CD
+                          L5_2 = self
+                          L4_2 = self.F0A528C2F9F2670CD
                           L6_2 = 0.0
                           L7_2 = 0.0
                           L8_2 = 7.5
@@ -798,26 +794,20 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1800EAC77746E741"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.common.Common_atlantis_base.preEnd
+function C1800EAC77746E741_prototype:F740FB4E96926D103()
   local L1_2, L2_2
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   if nil ~= L1_2 then
     L1_2 = C9B54BC04DD492B6D
     L1_2 = L1_2.SEC5605D9D6B5E309
-    L2_2 = A0_2[36]
+    L2_2 = self[36]
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1800EAC77746E741"]["prototype"]
-L69_1 = "FFF1BDBE707149D61"
-
-function L70_1(A0_2)
+--- main.event.general.common.Common_atlantis_base.StopperWarpText
+function C1800EAC77746E741_prototype:FFF1BDBE707149D61()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CB13C1ADBEB1B2C41
   L1_2 = L1_2.S84366ECEA1B2ED8B

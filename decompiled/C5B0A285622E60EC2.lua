@@ -1,3 +1,7 @@
+---@alias C5B0A285622E60EC2 main_event_general_shop_DressupShop
+
+---@class main_event_general_shop_DressupShop : C5B0A285622E60EC2_prototype
+---@field prototype C5B0A285622E60EC2_prototype
 L55_1 = _ENV
 L56_1 = "C5B0A285622E60EC2"
 L57_1 = L15_1
@@ -45,21 +49,16 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C5B0A285622E60EC2"]
 L69_1 = "__name__"
 L70_1 = "C5B0A285622E60EC2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5B0A285622E60EC2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5B0A285622E60EC2"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C5B0A285622E60EC2_prototype
+C5B0A285622E60EC2_prototype = L15_1()
+C5B0A285622E60EC2.prototype = C5B0A285622E60EC2_prototype
+--- main.event.general.shop.DressupShop.onCreate
+function C5B0A285622E60EC2_prototype:FC87C731D11C58354()
   local L1_2, L2_2
   L1_2 = C20F5CD372AAAA08C
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC87C731D11C58354
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = C3A36506FBC96ACBD
   L1_2 = L1_2.SC6181320B46854EE
@@ -67,29 +66,26 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5B0A285622E60EC2"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.shop.DressupShop.mainBody
+function C5B0A285622E60EC2_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C1C60E6E1EAFEE72D
   L1_2 = L1_2.S0B60BE49BE0F45E5
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.shopID
   L1_2(L2_2)
   L1_2 = C8137833AB58F272F
   L1_2 = L1_2.S360B973F6AF6F0CC
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.shopID
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.isRotom
     if not L1_2 then
       L1_2 = C76669A87C29C5346
       L1_2 = L1_2.S9CAED7F0B49454C9
-      L2_2 = A0_2[32]
+      L2_2 = self[32]
       L2_2 = L2_2.shopKind
       L1_2(L2_2)
       L1_2 = C9B54BC04DD492B6D
@@ -111,9 +107,9 @@ function L70_1(A0_2)
   L1_2 = C1C60E6E1EAFEE72D
   L1_2 = L1_2.SC22C2773A68837D3
   L2_2 = 0
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.shopID
-  L4_2 = A0_2[32]
+  L4_2 = self[32]
   L4_2 = L4_2.isRotom
   L1_2 = L1_2(L2_2, L3_2, L4_2)
   while true do
@@ -128,7 +124,7 @@ function L70_1(A0_2)
     L3_2 = nil
     L2_2(L3_2)
   end
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.isRotom
   if L2_2 then
     L2_2 = C1DB14DCC9D7634FA
@@ -173,7 +169,7 @@ function L70_1(A0_2)
     L3_2 = nil
     L2_2(L3_2)
   end
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.isRotom
   if L2_2 then
     L2_2 = c01A713D7
@@ -199,11 +195,11 @@ function L70_1(A0_2)
   end
   L2_2 = C8137833AB58F272F
   L2_2 = L2_2.S360B973F6AF6F0CC
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.shopID
   L2_2 = L2_2(L3_2)
   if not L2_2 then
-    L2_2 = A0_2[32]
+    L2_2 = self[32]
     L2_2 = L2_2.isRotom
     if not L2_2 then
       L2_2 = C9B54BC04DD492B6D
@@ -215,7 +211,7 @@ function L70_1(A0_2)
       L4_2 = "shop"
       L2_2(L3_2, L4_2)
     end
-    L2_2 = A0_2[32]
+    L2_2 = self[32]
     L2_2 = L2_2.isRotom
     if L2_2 then
       L2_2 = C1DB14DCC9D7634FA

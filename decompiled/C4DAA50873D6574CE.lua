@@ -1,3 +1,7 @@
+---@alias C4DAA50873D6574CE main_ui_photomode_TempLayoutObj
+
+---@class main_ui_photomode_TempLayoutObj : C4DAA50873D6574CE_prototype
+---@field prototype C4DAA50873D6574CE_prototype
 L55_1 = _ENV
 L56_1 = "C4DAA50873D6574CE"
 L57_1 = L15_1
@@ -42,30 +46,19 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C4DAA50873D6574CE"]
 L69_1 = "__name__"
 L70_1 = "C4DAA50873D6574CE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAA50873D6574CE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAA50873D6574CE"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C4DAA50873D6574CE_prototype
+C4DAA50873D6574CE_prototype = L15_1()
+C4DAA50873D6574CE.prototype = C4DAA50873D6574CE_prototype
+--- main.ui.photomode.TempLayoutObj.Setup
+function C4DAA50873D6574CE_prototype:F7C68FEDB79AB6396(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAA50873D6574CE"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.photomode.TempLayoutObj.PreUpdate
+function C4DAA50873D6574CE_prototype:FE94F3E13286232CF(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAA50873D6574CE"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ui.photomode.TempLayoutObj.Destroy
+function C4DAA50873D6574CE_prototype:F1C2AA00ADAC52EC5()
   local L1_2
 end
 

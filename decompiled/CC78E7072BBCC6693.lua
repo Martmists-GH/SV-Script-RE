@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CC78E7072BBCC6693"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CC78E7072BBCC6693"]
-L69_1 = "new"
+---@alias CC78E7072BBCC6693 main_ui_ymap_mainview_YMapInfoView
 
-function L70_1(A0_2)
+---@class main_ui_ymap_mainview_YMapInfoView : CC78E7072BBCC6693_prototype
+---@field prototype CC78E7072BBCC6693_prototype
+CC78E7072BBCC6693 = L15_1()
+function CC78E7072BBCC6693.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CC78E7072BBCC6693
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC78E7072BBCC6693"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CC78E7072BBCC6693
+function CC78E7072BBCC6693.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[3] = nil
   L2_2 = CDC3F92928A2194E6
@@ -45,61 +39,50 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC78E7072BBCC6693"]
 L69_1 = "__name__"
 L70_1 = "CC78E7072BBCC6693"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC78E7072BBCC6693"]
-L69_1 = "S1F1A12639CCE7C24"
-
-function L70_1()
+--- main.ui.ymap.mainview.YMapInfoView.IsReady
+function CC78E7072BBCC6693.S1F1A12639CCE7C24()
   local L0_2, L1_2
   L0_2 = CC78E7072BBCC6693
   L0_2 = L0_2.SCD8E03528CA32842
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC78E7072BBCC6693"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC78E7072BBCC6693"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CC78E7072BBCC6693_prototype
+CC78E7072BBCC6693_prototype = L15_1()
+CC78E7072BBCC6693.prototype = CC78E7072BBCC6693_prototype
+--- main.ui.ymap.mainview.YMapInfoView.Setup
+function CC78E7072BBCC6693_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = c69ACCC6F
   L2_2 = L2_2.f3F98EEAD
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
-  L2_2 = A0_2[2]
+  self[2] = L2_2
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f75C3CD80
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.FA5BCEEFCA672F8C1
+  L5_2 = self
+  L6_2 = self.FA5BCEEFCA672F8C1
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC78E7072BBCC6693"]["prototype"]
-L69_1 = "FA5BCEEFCA672F8C1"
-
-function L70_1(A0_2)
+--- main.ui.ymap.mainview.YMapInfoView.OnAwakeEvent
+function CC78E7072BBCC6693_prototype:FA5BCEEFCA672F8C1()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.f2A9CF058
   L3_2 = false

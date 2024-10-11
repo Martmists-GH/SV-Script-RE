@@ -1,3 +1,6 @@
+---@alias C27B4379DDC700652 main_ui_bag_BagUIUtil
+
+---@class main_ui_bag_BagUIUtil
 L55_1 = _ENV
 L56_1 = "C9A4A08C2DB58A739"
 L57_1 = L15_1

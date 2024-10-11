@@ -1,20 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CD2C00F61CE438B92"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CD2C00F61CE438B92"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2C00F61CE438B92"]
-L69_1 = "__name__"
-L70_1 = "CD2C00F61CE438B92"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2C00F61CE438B92"]
-L69_1 = "S7D6E3B1DCDE24BB5"
-
-function L70_1(A0_2)
+---@class CD2C00F61CE438B92
+CD2C00F61CE438B92 = L15_1()
+CD2C00F61CE438B92.new = {}
+CD2C00F61CE438B92.__name__ = "CD2C00F61CE438B92"
+--- CD2C00F61CE438B92.SceneToPath
+function CD2C00F61CE438B92.S7D6E3B1DCDE24BB5(A0_2)
   local L1_2
   if "Atlantis" == A0_2 then
     L1_2 = "world/scene/parts/field/streaming_event/hiddenitem_point_list_stream_generated_atlantis_/hiddenitem_point_list_stream_generated_atlantis.trscn"
@@ -34,11 +23,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2C00F61CE438B92"]
-L69_1 = "S988D7D0A4EEF693D"
-
-function L70_1(A0_2)
+--- CD2C00F61CE438B92.Create
+function CD2C00F61CE438B92.S988D7D0A4EEF693D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = CD2C00F61CE438B92
   L1_2 = L1_2.S7D6E3B1DCDE24BB5

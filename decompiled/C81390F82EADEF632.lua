@@ -1,3 +1,7 @@
+---@alias C81390F82EADEF632 main_event_general_raid_FieldRaidJewelry
+
+---@class main_event_general_raid_FieldRaidJewelry : C81390F82EADEF632_prototype
+---@field prototype C81390F82EADEF632_prototype
 L55_1 = _ENV
 L56_1 = "C81390F82EADEF632"
 L57_1 = L15_1
@@ -46,16 +50,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C81390F82EADEF632"]
 L69_1 = "__name__"
 L70_1 = "C81390F82EADEF632"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81390F82EADEF632"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81390F82EADEF632"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C81390F82EADEF632_prototype
+C81390F82EADEF632_prototype = L15_1()
+C81390F82EADEF632.prototype = C81390F82EADEF632_prototype
+--- main.event.general.raid.FieldRaidJewelry.preStart
+function C81390F82EADEF632_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.f859EFF3C
@@ -66,19 +65,13 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81390F82EADEF632"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.general.raid.FieldRaidJewelry.postStart
+function C81390F82EADEF632_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81390F82EADEF632"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.raid.FieldRaidJewelry.mainBody
+function C81390F82EADEF632_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2
   L1_2 = C931098C27BA0B398
   L1_2 = L1_2.S228F4FB4F1CF220E
@@ -93,7 +86,7 @@ function L70_1(A0_2)
   L5_2 = 0
   L6_2 = 0
   L7_2 = 0
-  L8_2 = A0_2[18]
+  L8_2 = self[18]
   L8_2 = L8_2.ownerName
   L9_2 = 1
   L10_2 = _hx_tab_array
@@ -247,7 +240,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L11_2
@@ -255,7 +248,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -286,7 +279,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L13_2
@@ -294,7 +287,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -318,7 +311,7 @@ function L70_1(A0_2)
   
   L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2 = L16_2()
   L15_2 = L15_2(L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2)
-  A0_2[36] = L15_2
+  self[36] = L15_2
   if 0 ~= L2_2 then
     L15_2 = cB3DDDC2A
     L15_2 = L15_2.f5B6373D5
@@ -473,8 +466,8 @@ function L70_1(A0_2)
       L24_2 = L19_1
       L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2 = L22_2(L23_2, L24_2)
       L20_2(L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2)
-      L21_2 = A0_2
-      L20_2 = A0_2.FE77BCB620AB2EDCA
+      L21_2 = self
+      L20_2 = self.FE77BCB620AB2EDCA
       L22_2 = 1
       L24_2 = L17_2
       L23_2 = L17_2.f0BD5134F
@@ -696,7 +689,7 @@ function L70_1(A0_2)
   L25_2 = C79A8A2641CC135A3
   L25_2.S02359B3BEB77215A = L17_2
   L25_2 = C79A8A2641CC135A3
-  L26_2 = A0_2[36]
+  L26_2 = self[36]
   L25_2.S53BDF575BBBE21D9 = L26_2
   L25_2 = C79A8A2641CC135A3
   L25_2.SF22E122F0430D210 = L4_2
@@ -802,11 +795,8 @@ function L70_1(A0_2)
   L38_2(L39_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81390F82EADEF632"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.raid.FieldRaidJewelry.mainBodyFinish
+function C81390F82EADEF632_prototype:F84C84FA1590CD2A3()
   local L1_2, L2_2, L3_2
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.f859EFF3C
@@ -817,27 +807,18 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81390F82EADEF632"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.raid.FieldRaidJewelry.preEnd
+function C81390F82EADEF632_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81390F82EADEF632"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.general.raid.FieldRaidJewelry.postEnd
+function C81390F82EADEF632_prototype:F3E13E4094D09A594()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81390F82EADEF632"]["prototype"]
-L69_1 = "FE77BCB620AB2EDCA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.general.raid.FieldRaidJewelry.LotteryRewardItem
+function C81390F82EADEF632_prototype:FE77BCB620AB2EDCA(A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2
   L8_2 = C07C34FC3B976E5A7
   L8_2 = L8_2.new

@@ -1,3 +1,7 @@
+---@alias CC533017FBB50E06B main_field_action_ActionMoveAndTurn
+
+---@class main_field_action_ActionMoveAndTurn : CC533017FBB50E06B_prototype
+---@field prototype CC533017FBB50E06B_prototype
 L55_1 = _ENV
 L56_1 = "CC533017FBB50E06B"
 L57_1 = L15_1
@@ -43,38 +47,30 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC533017FBB50E06B"]
 L69_1 = "__name__"
 L70_1 = "CC533017FBB50E06B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC533017FBB50E06B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC533017FBB50E06B"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CC533017FBB50E06B_prototype
+CC533017FBB50E06B_prototype = L15_1()
+CC533017FBB50E06B.prototype = CC533017FBB50E06B_prototype
+--- main.field.action.ActionMoveAndTurn.onCreate
+function CC533017FBB50E06B_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2.useCoroutine = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC533017FBB50E06B"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.ActionMoveAndTurn.onPreUpdate
+function CC533017FBB50E06B_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L1_2 = A0_2[15]
+  L1_2 = self[15]
   L2_2 = L1_2
   L1_2 = L1_2.FEDFBB2D384EEC1CD
   L3_2 = C2E087D86766D9B6C
-  L4_2 = A0_2[16]
+  L4_2 = self[16]
   L4_2 = L4_2.moveParam
   L1_2(L2_2, L3_2, L4_2)
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.S760DAE4C5371A78E
   L1_2()
-  L1_2 = A0_2[15]
+  L1_2 = self[15]
   L1_2 = L1_2[2]
   L2_2 = L1_2
   L1_2 = L1_2.FEF3A3B6876841F5A
@@ -381,11 +377,11 @@ function L70_1(A0_2)
       end
     end
   end
-  L3_2 = A0_2[15]
+  L3_2 = self[15]
   L4_2 = L3_2
   L3_2 = L3_2.F61AD48E5F0C5D3CF
   L5_2 = CD978FAE5C14C8364
-  L6_2 = A0_2[16]
+  L6_2 = self[16]
   L6_2 = L6_2.turnParam
   L3_2(L4_2, L5_2, L6_2)
   L3_2 = C1DB14DCC9D7634FA

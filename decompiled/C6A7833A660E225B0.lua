@@ -1,3 +1,7 @@
+---@alias CB30BB4BC8719DFE7 main_battle_simple_auto_SimpleAutoBattle
+
+---@class main_battle_simple_auto_SimpleAutoBattle : CB30BB4BC8719DFE7_prototype
+---@field prototype CB30BB4BC8719DFE7_prototype
 L55_1 = _ENV
 L56_1 = "C6A7833A660E225B0"
 L57_1 = L15_1
@@ -72,11 +76,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6A7833A660E225B0"]
 L69_1 = "__name__"
 L70_1 = "C6A7833A660E225B0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6A7833A660E225B0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CB30BB4BC8719DFE7_prototype
+CB30BB4BC8719DFE7_prototype = L15_1()
+CB30BB4BC8719DFE7.prototype = CB30BB4BC8719DFE7_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6A7833A660E225B0"]["prototype"]
 L69_1 = _ENV["C6A7833A660E225B0"]

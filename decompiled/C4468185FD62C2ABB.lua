@@ -1,3 +1,5 @@
+---@class C4468185FD62C2ABB : C4468185FD62C2ABB_prototype
+---@field prototype C4468185FD62C2ABB_prototype
 L55_1 = _ENV
 L56_1 = "C4468185FD62C2ABB"
 L57_1 = L15_1
@@ -36,27 +38,22 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4468185FD62C2ABB"]
 L69_1 = "__name__"
 L70_1 = "C4468185FD62C2ABB"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4468185FD62C2ABB"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4468185FD62C2ABB"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2, A1_2)
+---@class C4468185FD62C2ABB_prototype
+C4468185FD62C2ABB_prototype = L15_1()
+C4468185FD62C2ABB.prototype = C4468185FD62C2ABB_prototype
+--- C4468185FD62C2ABB.Load
+function C4468185FD62C2ABB_prototype:F6C5D0398122A6629(A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "StickTolerance"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "SpinThreshold"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
 end
 
 L68_1[L69_1] = L70_1

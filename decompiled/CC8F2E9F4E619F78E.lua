@@ -1,30 +1,18 @@
-L55_1 = _ENV
-L56_1 = "CC8F2E9F4E619F78E"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CC8F2E9F4E619F78E"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8F2E9F4E619F78E"]
-L69_1 = "__name__"
-L70_1 = "CC8F2E9F4E619F78E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8F2E9F4E619F78E"]
-L69_1 = "SE09A32F5C395D21A"
+---@alias CC8F2E9F4E619F78E main_event_general_gym_base_Gym_esper_splitCameraCommand
 
-function L70_1(A0_2)
+---@class main_event_general_gym_base_Gym_esper_splitCameraCommand
+CC8F2E9F4E619F78E = L15_1()
+CC8F2E9F4E619F78E.new = {}
+CC8F2E9F4E619F78E.__name__ = "CC8F2E9F4E619F78E"
+--- main.event.general.gym.base.Gym_esper_splitCameraCommand.SwitchSubCamera
+function CC8F2E9F4E619F78E.SE09A32F5C395D21A(A0_2)
   local L1_2
   L1_2 = CC8F2E9F4E619F78E
   L1_2.SE8F594412B58BCA7 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8F2E9F4E619F78E"]
-L69_1 = "SE29389D94D7EC89E"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.general.gym.base.Gym_esper_splitCameraCommand.CameraMoveTarget
+function CC8F2E9F4E619F78E.SE29389D94D7EC89E(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A5_2 then
     A5_2 = 2
@@ -97,11 +85,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8F2E9F4E619F78E"]
-L69_1 = "S2E9035BDE01AB38A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.general.gym.base.Gym_esper_splitCameraCommand.CameraMoveAngle
+function CC8F2E9F4E619F78E.S2E9035BDE01AB38A(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A5_2 then
     A5_2 = 2
@@ -118,11 +103,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8F2E9F4E619F78E"]
-L69_1 = "S15F1FE666677756A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.general.gym.base.Gym_esper_splitCameraCommand.CameraMoveAngleUseBasisObject
+function CC8F2E9F4E619F78E.S15F1FE666677756A(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A6_2 then
     A6_2 = 2
@@ -215,11 +197,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8F2E9F4E619F78E"]
-L69_1 = "SD6A4A7158737A563"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_splitCameraCommand.CameraWait
+function CC8F2E9F4E619F78E.SD6A4A7158737A563()
   local L0_2, L1_2, L2_2
   L0_2 = CC8F2E9F4E619F78E
   L0_2 = L0_2.SE8F594412B58BCA7
@@ -236,11 +215,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8F2E9F4E619F78E"]
-L69_1 = "S4919EA5A68FD7046"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.general.gym.base.Gym_esper_splitCameraCommand.splitCameraAction
+function CC8F2E9F4E619F78E.S4919EA5A68FD7046(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L6_2 = CC8F2E9F4E619F78E
   L6_2 = L6_2.SE8F594412B58BCA7

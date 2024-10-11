@@ -1,3 +1,7 @@
+---@alias C075A638F130352C3 main_system_GameSystemManager
+
+---@class main_system_GameSystemManager : C075A638F130352C3_prototype
+---@field prototype C075A638F130352C3_prototype
 L55_1 = _ENV
 L56_1 = "C075A638F130352C3"
 L57_1 = L15_1
@@ -42,16 +46,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C075A638F130352C3"]
 L69_1 = "__name__"
 L70_1 = "C075A638F130352C3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C075A638F130352C3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C075A638F130352C3"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C075A638F130352C3_prototype
+C075A638F130352C3_prototype = L15_1()
+C075A638F130352C3.prototype = C075A638F130352C3_prototype
+--- main.system.GameSystemManager.Setup
+function C075A638F130352C3_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2, L51_2, L52_2, L53_2, L54_2, L55_2, L56_2, L57_2, L58_2, L59_2, L60_2
   L2_2 = C3DD9809BE5B47111
   L2_2 = L2_2.SC8223E31D3163519
@@ -322,11 +321,8 @@ function L70_1(A0_2, A1_2)
   L10_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C075A638F130352C3"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.system.GameSystemManager.PreUpdate
+function C075A638F130352C3_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2
   L2_2 = C075A638F130352C3
   L3_2 = C075A638F130352C3
@@ -793,11 +789,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C075A638F130352C3"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.system.GameSystemManager.Destroy
+function C075A638F130352C3_prototype:F1C2AA00ADAC52EC5()
   local L1_2
 end
 

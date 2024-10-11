@@ -1,3 +1,7 @@
+---@alias CE618C29E07BDC6DC main_battle_parts_BattleGemHitResource
+
+---@class main_battle_parts_BattleGemHitResource : CE618C29E07BDC6DC_prototype
+---@field prototype CE618C29E07BDC6DC_prototype
 L55_1 = _ENV
 L56_1 = "CE618C29E07BDC6DC"
 L57_1 = L15_1
@@ -35,21 +39,16 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE618C29E07BDC6DC"]
 L69_1 = "__name__"
 L70_1 = "CE618C29E07BDC6DC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE618C29E07BDC6DC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE618C29E07BDC6DC"]["prototype"]
-L69_1 = "FE38A1F010EEF9597"
-
-function L70_1(A0_2, A1_2)
+---@class CE618C29E07BDC6DC_prototype
+CE618C29E07BDC6DC_prototype = L15_1()
+CE618C29E07BDC6DC.prototype = CE618C29E07BDC6DC_prototype
+--- main.battle.parts.BattleGemHitResource.StartLoad
+function CE618C29E07BDC6DC_prototype:FE38A1F010EEF9597(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FE828682F404959F2
+    L3_2 = self
+    L2_2 = self.FE828682F404959F2
     L2_2(L3_2)
   end
   L2_2 = L31_1.string
@@ -81,18 +80,15 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
   L3_2 = L3_2(L4_2)
-  A0_2[2] = L3_2
-  A0_2[3] = nil
-  A0_2[4] = true
+  self[2] = L3_2
+  self[3] = nil
+  self[4] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE618C29E07BDC6DC"]["prototype"]
-L69_1 = "FC8D6066915A05C06"
-
-function L70_1(A0_2)
+--- main.battle.parts.BattleGemHitResource.IsLoadFinish
+function CE618C29E07BDC6DC_prototype:FC8D6066915A05C06()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if not L1_2 then
     L1_2 = false
     return L1_2
@@ -100,16 +96,16 @@ function L70_1(A0_2)
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f900312E7
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L3_2 = L2_2
       L2_2 = L2_2.F20A3B8BDAB3333B5
       L2_2 = L2_2(L3_2)
@@ -124,12 +120,12 @@ function L70_1(A0_2)
       L6_2 = L6_2()
       L5_2 = L5_2(L6_2)
       L4_2 = L4_2 .. L5_2
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L2_2 = L2_2(L3_2, L4_2, L5_2)
-      A0_2[3] = L2_2
+      self[3] = L2_2
     end
   else
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f9D8BC178
     L2_2 = L2_2(L3_2)
@@ -142,13 +138,10 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE618C29E07BDC6DC"]["prototype"]
-L69_1 = "F39543DA158C27613"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.parts.BattleGemHitResource.SetupCondition
+function CE618C29E07BDC6DC_prototype:F39543DA158C27613(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if not L2_2 then
     return
   end
@@ -159,7 +152,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = L31_1.string
   L6_2 = L31_1.string
   L7_2 = L31_1.string
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.f462C9B70
   L8_2 = L8_2(L9_2)
@@ -173,7 +166,7 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2 .. L8_2
   L6_2 = L6_2(L7_2)
   L7_2 = L31_1.string
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.fE9C29DA1
   L8_2, L9_2 = L8_2(L9_2)
@@ -187,24 +180,21 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE618C29E07BDC6DC"]["prototype"]
-L69_1 = "FE828682F404959F2"
-
-function L70_1(A0_2)
+--- main.battle.parts.BattleGemHitResource.UnLoad
+function CE618C29E07BDC6DC_prototype:FE828682F404959F2()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if not L1_2 then
     return
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fCDCB600D
   L3_2 = true
   L1_2(L2_2, L3_2)
-  A0_2[3] = nil
-  A0_2[2] = nil
-  A0_2[4] = false
+  self[3] = nil
+  self[2] = nil
+  self[4] = false
 end
 
 L68_1[L69_1] = L70_1

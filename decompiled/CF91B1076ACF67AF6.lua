@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CF91B1076ACF67AF6"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CF91B1076ACF67AF6"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF91B1076ACF67AF6"]
-L69_1 = "__name__"
-L70_1 = "CF91B1076ACF67AF6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF91B1076ACF67AF6"]
-L69_1 = "SB5BB7B8249A77DB2"
+---@alias CF91B1076ACF67AF6 main_ui_hairsalon_util_HairsalonShopUIUtil
 
-function L70_1()
+---@class main_ui_hairsalon_util_HairsalonShopUIUtil
+CF91B1076ACF67AF6 = L15_1()
+CF91B1076ACF67AF6.new = {}
+CF91B1076ACF67AF6.__name__ = "CF91B1076ACF67AF6"
+--- main.ui.hairsalon.util.HairsalonShopUIUtil.SB5BB7B8249A77DB2
+function CF91B1076ACF67AF6.SB5BB7B8249A77DB2()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = L26_1.new
   L0_2 = L0_2()
@@ -39,21 +30,15 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF91B1076ACF67AF6"]
-L69_1 = "SABEDABEBC55CDC6A"
-
-function L70_1()
+--- main.ui.hairsalon.util.HairsalonShopUIUtil.GetHairsalonPay
+function CF91B1076ACF67AF6.SABEDABEBC55CDC6A()
   local L0_2, L1_2
   L0_2 = 3000
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF91B1076ACF67AF6"]
-L69_1 = "S24A434C639CFE605"
-
-function L70_1()
+--- main.ui.hairsalon.util.HairsalonShopUIUtil.Closed
+function CF91B1076ACF67AF6.S24A434C639CFE605()
   local L0_2, L1_2
   L0_2 = C71E20570A8F58A79
   L0_2 = L0_2.S381B047005A52C82

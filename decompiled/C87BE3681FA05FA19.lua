@@ -1,3 +1,7 @@
+---@alias C87BE3681FA05FA19 main_pokepicnic_database_SeasoningPicnicTableInfo
+
+---@class main_pokepicnic_database_SeasoningPicnicTableInfo : C87BE3681FA05FA19_prototype
+---@field prototype C87BE3681FA05FA19_prototype
 L55_1 = _ENV
 L56_1 = "C87BE3681FA05FA19"
 L57_1 = L15_1
@@ -33,34 +37,29 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C87BE3681FA05FA19"]
 L69_1 = "__name__"
 L70_1 = "C87BE3681FA05FA19"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87BE3681FA05FA19"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87BE3681FA05FA19"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C87BE3681FA05FA19_prototype
+C87BE3681FA05FA19_prototype = L15_1()
+C87BE3681FA05FA19.prototype = C87BE3681FA05FA19_prototype
+--- main.pokepicnic.database.SeasoningPicnicTableInfo.Setup
+function C87BE3681FA05FA19_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L2_2 = 0
   L3_2 = C87BE3681FA05FA19
   L3_2 = L3_2.S2D4F25100AEE8943
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.push
     L7_2 = C298CBC7224442B70
     L7_2 = L7_2.new
     L7_2, L8_2, L9_2, L10_2, L11_2 = L7_2()
     L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[L4_2]
     L6_2 = L5_2
     L5_2 = L5_2.FB273BAF437E771A0

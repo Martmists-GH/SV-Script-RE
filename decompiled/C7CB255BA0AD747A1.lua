@@ -1,3 +1,7 @@
+---@alias C7CB255BA0AD747A1 main_npc_management_traffic_parts_NpcTrafficGenerateTableList
+
+---@class main_npc_management_traffic_parts_NpcTrafficGenerateTableList : C7CB255BA0AD747A1_prototype
+---@field prototype C7CB255BA0AD747A1_prototype
 L55_1 = _ENV
 L56_1 = "C7CB255BA0AD747A1"
 L57_1 = L15_1
@@ -77,25 +81,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C7CB255BA0AD747A1"]
 L69_1 = "__name__"
 L70_1 = "C7CB255BA0AD747A1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CB255BA0AD747A1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CB255BA0AD747A1"]["prototype"]
-L69_1 = "F4EAF82A0C1965109"
-
-function L70_1(A0_2, A1_2)
+---@class C7CB255BA0AD747A1_prototype
+C7CB255BA0AD747A1_prototype = L15_1()
+C7CB255BA0AD747A1.prototype = C7CB255BA0AD747A1_prototype
+--- main.npc_management.traffic.parts.NpcTrafficGenerateTableList.GetTable
+function C7CB255BA0AD747A1_prototype:F4EAF82A0C1965109(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   if nil == L2_2 then
     L2_2 = nil
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L47_1.tnull

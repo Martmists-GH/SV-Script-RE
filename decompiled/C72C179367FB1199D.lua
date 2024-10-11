@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C72C179367FB1199D"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "__name__"
-L70_1 = "C72C179367FB1199D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S16533937B2BA85FD"
+---@alias C72C179367FB1199D main_event_command_MoveCommand
 
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+---@class main_event_command_MoveCommand
+C72C179367FB1199D = L15_1()
+C72C179367FB1199D.new = {}
+C72C179367FB1199D.__name__ = "C72C179367FB1199D"
+--- main.event.command.MoveCommand.MoveTo
+function C72C179367FB1199D.S16533937B2BA85FD(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A5_2 then
     A5_2 = false
@@ -41,11 +32,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SD47A62026AB8BCC2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.command.MoveCommand.ObjMoveTo
+function C72C179367FB1199D.SD47A62026AB8BCC2(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A5_2 then
     A5_2 = false
@@ -76,11 +64,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SF75CC1E81A04C18F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.command.MoveCommand.ObjMoveToPoke
+function C72C179367FB1199D.SF75CC1E81A04C18F(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A5_2 then
     A5_2 = false
@@ -111,11 +96,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SB43A6ADC1021C1EA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.MoveCommand.MoveTo3d
+function C72C179367FB1199D.SB43A6ADC1021C1EA(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A4_2 then
     A4_2 = false
@@ -139,11 +121,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S22A2167661029F85"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.MoveCommand.ObjMoveTo3d
+function C72C179367FB1199D.S22A2167661029F85(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A4_2 then
     A4_2 = false
@@ -171,11 +150,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S8C009547E6041130"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.MoveCommand.ObjMoveToPoke3d
+function C72C179367FB1199D.S8C009547E6041130(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A4_2 then
     A4_2 = false
@@ -203,11 +179,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SE49B88F529299B39"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.MoveCommand.MoveForward
+function C72C179367FB1199D.SE49B88F529299B39(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A4_2 then
     A4_2 = false
@@ -232,11 +205,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S521B89C3A4EFD1A4"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.MoveCommand.ObjMoveForward
+function C72C179367FB1199D.S521B89C3A4EFD1A4(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2
   if nil == A4_2 then
     A4_2 = false
@@ -285,11 +255,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L15_2(L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S36E4F5DBE740AFA8"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.command.MoveCommand.MoveTowards
+function C72C179367FB1199D.S36E4F5DBE740AFA8(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A5_2 then
     A5_2 = false
@@ -321,11 +288,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SECCABB0ECBBF6475"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.command.MoveCommand.ObjMoveTowards
+function C72C179367FB1199D.SECCABB0ECBBF6475(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2
   if nil == A5_2 then
     A5_2 = false
@@ -405,11 +369,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S912D92C7C447F47F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.command.MoveCommand.MoveTowards3d
+function C72C179367FB1199D.S912D92C7C447F47F(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A5_2 then
     A5_2 = false
@@ -439,11 +400,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S95393388201C84E2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.command.MoveCommand.ObjMoveTowards3d
+function C72C179367FB1199D.S95393388201C84E2(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2
   if nil == A5_2 then
     A5_2 = false
@@ -528,11 +486,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S54D82E924D2D26F4"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.command.MoveCommand.Move
+function C72C179367FB1199D.S54D82E924D2D26F4(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A5_2 then
     A5_2 = false
@@ -559,11 +514,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SA4654B8864847097"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.command.MoveCommand.ObjMove
+function C72C179367FB1199D.SA4654B8864847097(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   if nil == A5_2 then
     A5_2 = false
@@ -598,11 +550,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   L11_2(L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S16D83037B32BDA73"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.MoveCommand.Move3d
+function C72C179367FB1199D.S16D83037B32BDA73(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A4_2 then
     A4_2 = false
@@ -626,11 +575,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SD41147026A5FA5D8"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.MoveCommand.ObjMove3d
+function C72C179367FB1199D.SD41147026A5FA5D8(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A4_2 then
     A4_2 = false
@@ -671,11 +617,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SA14AE234EBB5763A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.MoveCommand.MoveToBasisObject
+function C72C179367FB1199D.SA14AE234EBB5763A(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A6_2 then
     A6_2 = false
@@ -700,11 +643,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SEE5E8ED4F68DF2BF"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.MoveCommand.SEE5E8ED4F68DF2BF
+function C72C179367FB1199D.SEE5E8ED4F68DF2BF(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   if nil == A6_2 then
     A6_2 = false
@@ -770,11 +710,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L19_2(L20_2, L21_2, L22_2, L23_2, L24_2, L25_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S09ADDEF4C45A0B05"
-
-function L70_1(A0_2)
+--- main.event.command.MoveCommand.MoveWait
+function C72C179367FB1199D.S09ADDEF4C45A0B05(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C72C179367FB1199D
   L1_2 = L1_2.S6615D65D72A2498E
@@ -785,11 +722,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S6615D65D72A2498E"
-
-function L70_1(A0_2)
+--- main.event.command.MoveCommand.ObjMoveWait
+function C72C179367FB1199D.S6615D65D72A2498E(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A0_2 then
     return
@@ -821,11 +755,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SEA4B23ABC177396A"
-
-function L70_1(A0_2)
+--- main.event.command.MoveCommand.ObjMoveWaitToPoke
+function C72C179367FB1199D.SEA4B23ABC177396A(A0_2)
   local L1_2, L2_2
   L1_2 = C72C179367FB1199D
   L1_2 = L1_2.S6615D65D72A2498E
@@ -833,11 +764,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SD8751A6A7ABF2F46"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.command.MoveCommand.moveToCore
+function C72C179367FB1199D.SD8751A6A7ABF2F46(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L8_2 = A0_2.owner
   L9_2 = L8_2
@@ -915,11 +843,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S798EB00360C87E12"
-
-function L70_1(A0_2)
+--- main.event.command.MoveCommand.MoveWait3d
+function C72C179367FB1199D.S798EB00360C87E12(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C72C179367FB1199D
   L1_2 = L1_2.SE9E780E1D6DA95D9
@@ -930,11 +855,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SE9E780E1D6DA95D9"
-
-function L70_1(A0_2)
+--- main.event.command.MoveCommand.ObjMoveWait3d
+function C72C179367FB1199D.SE9E780E1D6DA95D9(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A0_2 then
     return
@@ -966,11 +888,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S9AE61FFD26A4576D"
-
-function L70_1(A0_2)
+--- main.event.command.MoveCommand.ObjMoveWaitToPoke3d
+function C72C179367FB1199D.S9AE61FFD26A4576D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = A0_2.owner
   L2_2 = L1_2
@@ -999,11 +918,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S65FA3E1096488C2D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.MoveCommand.moveTo3dCore
+function C72C179367FB1199D.S65FA3E1096488C2D(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L5_2 = nil
   L6_2 = A0_2.owner
@@ -1075,11 +991,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SE72B908870881523"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.command.MoveCommand.moveToCorePoke
+function C72C179367FB1199D.SE72B908870881523(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   L8_2 = A0_2.owner
   L9_2 = L8_2
@@ -1224,11 +1137,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S3FC886B2DA98CCBC"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.MoveCommand.moveToCorePoke3d
+function C72C179367FB1199D.S3FC886B2DA98CCBC(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L5_2 = nil
   L6_2 = A0_2.owner
@@ -1368,11 +1278,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S8BFB72401B07A565"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.command.MoveCommand.AbsorbMove
+function C72C179367FB1199D.S8BFB72401B07A565(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A5_2 then
     A5_2 = 1.0
@@ -1439,11 +1346,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SE04792ECFDE94DBA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.MoveCommand.SE04792ECFDE94DBA
+function C72C179367FB1199D.SE04792ECFDE94DBA(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A6_2 then
     A6_2 = false
@@ -1480,11 +1384,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S7A7373C678BEEC59"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.MoveCommand.objMoveToTurnToTarget
+function C72C179367FB1199D.S7A7373C678BEEC59(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2
   if nil == A6_2 then
     A6_2 = false
@@ -1600,11 +1501,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S6619B92F38B4471F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2)
+--- main.event.command.MoveCommand.MoveToBattlePos
+function C72C179367FB1199D.S6619B92F38B4471F(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2)
   local L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2
   if nil == A6_2 then
     A6_2 = true
@@ -1729,11 +1627,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "S45915D407E532CE0"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.MoveCommand.MoveToBattlePos3d
+function C72C179367FB1199D.S45915D407E532CE0(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2
   if nil == A6_2 then
     A6_2 = true
@@ -1858,11 +1753,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SDD59E61E89DE559A"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.MoveCommand.WarpToBattlePos
+function C72C179367FB1199D.SDD59E61E89DE559A(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = C72C179367FB1199D
   L3_2 = L3_2.SA3E7655708AF46C4
@@ -1936,11 +1828,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C72C179367FB1199D"]
-L69_1 = "SA3E7655708AF46C4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.MoveCommand.FindTargetObjBtlPos
+function C72C179367FB1199D.SA3E7655708AF46C4(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = C49D76CF18A6753DD
   L3_2 = L3_2.SFF1B837B9541D80C

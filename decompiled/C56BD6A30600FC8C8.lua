@@ -1,3 +1,5 @@
+---@class C56BD6A30600FC8C8 : C56BD6A30600FC8C8_prototype
+---@field prototype C56BD6A30600FC8C8_prototype
 L55_1 = _ENV
 L56_1 = "C56BD6A30600FC8C8"
 L57_1 = L15_1
@@ -46,18 +48,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C56BD6A30600FC8C8"]
 L69_1 = "__name__"
 L70_1 = "C56BD6A30600FC8C8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C56BD6A30600FC8C8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C56BD6A30600FC8C8"]["prototype"]
-L69_1 = "FE851C5077F51D9B5"
-
-function L70_1(A0_2)
+---@class C56BD6A30600FC8C8_prototype
+C56BD6A30600FC8C8_prototype = L15_1()
+C56BD6A30600FC8C8.prototype = C56BD6A30600FC8C8_prototype
+--- C56BD6A30600FC8C8.GetInput
+function C56BD6A30600FC8C8_prototype:FE851C5077F51D9B5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2[3]
   L1_2 = L1_2[1]
   L1_2 = L1_2[9]
@@ -68,7 +65,7 @@ function L70_1(A0_2)
       local L0_3, L1_3
       
       L0_3 = nil
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[3]
       L1_3 = L1_3[3]
       L1_3 = L1_3[1]
@@ -85,12 +82,12 @@ function L70_1(A0_2)
     end
     
     L1_2 = L1_2()
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2[3]
     L2_2 = L2_2[1]
     L2_2 = L2_2[11]
     L2_2 = L2_2[9]
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L3_2 = L3_2[3]
     L3_2 = L3_2[1]
     L3_2 = L3_2[2]

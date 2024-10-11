@@ -1,3 +1,7 @@
+---@alias C9629BEF8C8699E6D main_pokepicnic_contents_ThrowBall_PicnicContents
+
+---@class main_pokepicnic_contents_ThrowBall_PicnicContents : C9629BEF8C8699E6D_prototype
+---@field prototype C9629BEF8C8699E6D_prototype
 L55_1 = _ENV
 L56_1 = "C27A8D648CE9058A5"
 L57_1 = L15_1
@@ -1023,11 +1027,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C27A8D648CE9058A5"]
 L69_1 = "__name__"
 L70_1 = "C27A8D648CE9058A5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27A8D648CE9058A5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C9629BEF8C8699E6D_prototype
+C9629BEF8C8699E6D_prototype = L15_1()
+C9629BEF8C8699E6D.prototype = C9629BEF8C8699E6D_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C27A8D648CE9058A5"]["prototype"]
 L69_1 = _ENV["C27A8D648CE9058A5"]

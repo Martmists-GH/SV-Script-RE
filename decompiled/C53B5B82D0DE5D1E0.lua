@@ -1,3 +1,7 @@
+---@alias C53B5B82D0DE5D1E0 main_ui_shop_restaurant_buff_ShopRestaurantUIBuffState
+
+---@class main_ui_shop_restaurant_buff_ShopRestaurantUIBuffState : C53B5B82D0DE5D1E0_prototype
+---@field prototype C53B5B82D0DE5D1E0_prototype
 L55_1 = _ENV
 L56_1 = "C53B5B82D0DE5D1E0"
 L57_1 = L15_1
@@ -42,20 +46,15 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C53B5B82D0DE5D1E0"]
 L69_1 = "__name__"
 L70_1 = "C53B5B82D0DE5D1E0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53B5B82D0DE5D1E0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53B5B82D0DE5D1E0"]["prototype"]
-L69_1 = "FB92E9EACCB7B28AD"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class C53B5B82D0DE5D1E0_prototype
+C53B5B82D0DE5D1E0_prototype = L15_1()
+C53B5B82D0DE5D1E0.prototype = C53B5B82D0DE5D1E0_prototype
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuffState.StartStateSequence
+function C53B5B82D0DE5D1E0_prototype:FB92E9EACCB7B28AD(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   while true do
-    L5_2 = A0_2
-    L4_2 = A0_2.FE5011ED5D09317B7
+    L5_2 = self
+    L4_2 = self.FE5011ED5D09317B7
     L4_2 = L4_2(L5_2)
     if L4_2 then
       break
@@ -64,8 +63,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L4_2 = L4_2.S760DAE4C5371A78E
     L4_2()
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F93A82A2E667613C4
+  L5_2 = self
+  L4_2 = self.F93A82A2E667613C4
   L6_2 = "view_restaurant_buff_00"
   L4_2 = L4_2(L5_2, L6_2)
   if nil == L4_2 then
@@ -77,20 +76,17 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L8_2 = A2_2
   L9_2 = A3_2
   L5_2(L6_2, L7_2, L8_2, L9_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F509A6A442B8D4302
+  L6_2 = self
+  L5_2 = self.F509A6A442B8D4302
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53B5B82D0DE5D1E0"]["prototype"]
-L69_1 = "F66F48252C7E77486"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuffState.EndStateSequence
+function C53B5B82D0DE5D1E0_prototype:F66F48252C7E77486(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   while true do
-    L3_2 = A0_2
-    L2_2 = A0_2.FE5011ED5D09317B7
+    L3_2 = self
+    L2_2 = self.FE5011ED5D09317B7
     L2_2 = L2_2(L3_2)
     if L2_2 then
       break
@@ -99,8 +95,8 @@ function L70_1(A0_2, A1_2)
     L2_2 = L2_2.S760DAE4C5371A78E
     L2_2()
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F93A82A2E667613C4
+  L3_2 = self
+  L2_2 = self.F93A82A2E667613C4
   L4_2 = "view_restaurant_buff_00"
   L2_2 = L2_2(L3_2, L4_2)
   if nil == L2_2 then
@@ -112,20 +108,17 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53B5B82D0DE5D1E0"]["prototype"]
-L69_1 = "F51AF218D2FA9E9E5"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuffState.PostSetupSequence
+function C53B5B82D0DE5D1E0_prototype:F51AF218D2FA9E9E5()
   local L1_2, L2_2
   L1_2 = C368EEDD37E362639
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F51AF218D2FA9E9E5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = cCF781FB6
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.f3DCFA517

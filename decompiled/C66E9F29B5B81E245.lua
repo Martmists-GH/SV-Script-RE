@@ -1,3 +1,5 @@
+---@class C66E9F29B5B81E245 : C66E9F29B5B81E245_prototype
+---@field prototype C66E9F29B5B81E245_prototype
 L55_1 = _ENV
 L56_1 = "C66E9F29B5B81E245"
 L57_1 = L15_1
@@ -224,134 +226,99 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C66E9F29B5B81E245"]
 L69_1 = "__name__"
 L70_1 = "C66E9F29B5B81E245"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]["prototype"]
-L69_1 = "FEDD8CA766B7AB646"
-
-function L70_1(A0_2)
+---@class C66E9F29B5B81E245_prototype
+C66E9F29B5B81E245_prototype = L15_1()
+C66E9F29B5B81E245.prototype = C66E9F29B5B81E245_prototype
+--- C66E9F29B5B81E245.get_WazaNo
+function C66E9F29B5B81E245_prototype:FEDD8CA766B7AB646()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]["prototype"]
-L69_1 = "FF90F33FEF3B10F27"
-
-function L70_1(A0_2)
+--- C66E9F29B5B81E245.get_WazaItemID
+function C66E9F29B5B81E245_prototype:FF90F33FEF3B10F27()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]["prototype"]
-L69_1 = "F683EEB58B3627754"
-
-function L70_1(A0_2)
+--- C66E9F29B5B81E245.get_SortNum
+function C66E9F29B5B81E245_prototype:F683EEB58B3627754()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]["prototype"]
-L69_1 = "F732DE9D8A43690C4"
-
-function L70_1(A0_2)
+--- C66E9F29B5B81E245.get_LP
+function C66E9F29B5B81E245_prototype:F732DE9D8A43690C4()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]["prototype"]
-L69_1 = "F0FEBC7230082866D"
-
-function L70_1(A0_2)
+--- C66E9F29B5B81E245.get_IsRelease
+function C66E9F29B5B81E245_prototype:F0FEBC7230082866D()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]["prototype"]
-L69_1 = "F0B5C923DEFA32378"
-
-function L70_1(A0_2)
+--- C66E9F29B5B81E245.F0B5C923DEFA32378
+function C66E9F29B5B81E245_prototype:F0B5C923DEFA32378()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]["prototype"]
-L69_1 = "F8AFE3363E022B179"
-
-function L70_1(A0_2)
+--- C66E9F29B5B81E245.get_WazaType
+function C66E9F29B5B81E245_prototype:F8AFE3363E022B179()
   local L1_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]["prototype"]
-L69_1 = "FFCA1CB387477DFB1"
-
-function L70_1(A0_2)
+--- C66E9F29B5B81E245.get_WazaTypeReal
+function C66E9F29B5B81E245_prototype:FFCA1CB387477DFB1()
   local L1_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]["prototype"]
-L69_1 = "FE515C89DCD52C498"
-
-function L70_1(A0_2)
+--- C66E9F29B5B81E245.get_TextureName
+function C66E9F29B5B81E245_prototype:FE515C89DCD52C498()
   local L1_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]["prototype"]
-L69_1 = "F9A54EC1B31979B7B"
-
-function L70_1(A0_2)
+--- C66E9F29B5B81E245.F9A54EC1B31979B7B
+function C66E9F29B5B81E245_prototype:F9A54EC1B31979B7B()
   local L1_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]["prototype"]
-L69_1 = "F29EBA39D549488F2"
-
-function L70_1(A0_2)
+--- C66E9F29B5B81E245.F29EBA39D549488F2
+function C66E9F29B5B81E245_prototype:F29EBA39D549488F2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FEDD8CA766B7AB646
+  L2_2 = self
+  L1_2 = self.FEDD8CA766B7AB646
   L1_2 = L1_2(L2_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FF90F33FEF3B10F27
+  L3_2 = self
+  L2_2 = self.FF90F33FEF3B10F27
   L2_2 = L2_2(L3_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F683EEB58B3627754
+  L4_2 = self
+  L3_2 = self.F683EEB58B3627754
   L3_2 = L3_2(L4_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F732DE9D8A43690C4
+  L5_2 = self
+  L4_2 = self.F732DE9D8A43690C4
   L4_2 = L4_2(L5_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F0FEBC7230082866D
+  L6_2 = self
+  L5_2 = self.F0FEBC7230082866D
   L5_2 = L5_2(L6_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.F0B5C923DEFA32378
+  L7_2 = self
+  L6_2 = self.F0B5C923DEFA32378
   L6_2 = L6_2(L7_2)
   L7_2 = _hx_tab_array
   L8_2 = {}
@@ -390,43 +357,37 @@ function L70_1(A0_2)
   L10_2.m_LP = L4_2
   L10_2.m_IsRelease = L5_2
   L10_2.m_NeedItemArray = L7_2
-  L12_2 = A0_2
-  L11_2 = A0_2.F8AFE3363E022B179
+  L12_2 = self
+  L11_2 = self.F8AFE3363E022B179
   L11_2 = L11_2(L12_2)
   L10_2.m_WazaType = L11_2
-  L12_2 = A0_2
-  L11_2 = A0_2.FFCA1CB387477DFB1
+  L12_2 = self
+  L11_2 = self.FFCA1CB387477DFB1
   L11_2 = L11_2(L12_2)
   L10_2.m_WazaTypeReal = L11_2
-  L12_2 = A0_2
-  L11_2 = A0_2.FE515C89DCD52C498
+  L12_2 = self
+  L11_2 = self.FE515C89DCD52C498
   L11_2 = L11_2(L12_2)
   L10_2.m_TextureName = L11_2
   return L9_2(L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]["prototype"]
-L69_1 = "FAEB1D7F4F4F5B37E"
-
-function L70_1(A0_2)
+--- C66E9F29B5B81E245.IsWatchListRegist
+function C66E9F29B5B81E245_prototype:FAEB1D7F4F4F5B37E()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C92B8BA1FA00BD7F7
   L1_2 = L1_2.S385504EFF7E842C3
   L1_2 = L1_2()
   L2_2 = L1_2
   L1_2 = L1_2.F496ADA7B514E90F2
-  L4_2 = A0_2
-  L3_2 = A0_2.FF90F33FEF3B10F27
+  L4_2 = self
+  L3_2 = self.FF90F33FEF3B10F27
   L3_2, L4_2 = L3_2(L4_2)
   return L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]["prototype"]
-L69_1 = "F5F6E9A81DF194E7E"
-
-function L70_1(A0_2, A1_2)
+--- C66E9F29B5B81E245.IsReleased
+function C66E9F29B5B81E245_prototype:F5F6E9A81DF194E7E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = false
   L4_2 = A1_2
@@ -462,17 +423,14 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66E9F29B5B81E245"]["prototype"]
-L69_1 = "F975F9625304CA869"
-
-function L70_1(A0_2, A1_2)
+--- C66E9F29B5B81E245.F975F9625304CA869
+function C66E9F29B5B81E245_prototype:F975F9625304CA869(A1_2)
   local L2_2, L3_2
   L2_2 = c87777D37
   L2_2 = L2_2.f60AC762F
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2[8] = L2_2
+  self[8] = L2_2
   L3_2 = -1
   if 0 == L2_2 then
     L3_2 = 1

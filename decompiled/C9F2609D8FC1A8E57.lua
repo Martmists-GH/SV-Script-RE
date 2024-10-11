@@ -1,3 +1,7 @@
+---@alias C9F2609D8FC1A8E57 main_gem_setting_tool_GemSettingCheckWindow
+
+---@class main_gem_setting_tool_GemSettingCheckWindow : C9F2609D8FC1A8E57_prototype
+---@field prototype C9F2609D8FC1A8E57_prototype
 L55_1 = _ENV
 L56_1 = "C9F2609D8FC1A8E57"
 L57_1 = L15_1
@@ -48,18 +52,13 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9F2609D8FC1A8E57"]
 L69_1 = "__name__"
 L70_1 = "C9F2609D8FC1A8E57"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F2609D8FC1A8E57"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F2609D8FC1A8E57"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+---@class C9F2609D8FC1A8E57_prototype
+C9F2609D8FC1A8E57_prototype = L15_1()
+C9F2609D8FC1A8E57.prototype = C9F2609D8FC1A8E57_prototype
+--- main.gem.setting_tool.GemSettingCheckWindow.Destroy
+function C9F2609D8FC1A8E57_prototype:F1C2AA00ADAC52EC5()
   local L1_2
-  A0_2[2] = nil
+  self[2] = nil
 end
 
 L68_1[L69_1] = L70_1

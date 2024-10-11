@@ -1,3 +1,7 @@
+---@alias C18F76EE1FDB7BA1E main_field_behaviour_FieldTrafficNpcPokemon
+
+---@class main_field_behaviour_FieldTrafficNpcPokemon : C18F76EE1FDB7BA1E_prototype
+---@field prototype C18F76EE1FDB7BA1E_prototype
 L55_1 = _ENV
 L56_1 = "C18F76EE1FDB7BA1E"
 L57_1 = L15_1
@@ -42,48 +46,40 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C18F76EE1FDB7BA1E"]
 L69_1 = "__name__"
 L70_1 = "C18F76EE1FDB7BA1E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18F76EE1FDB7BA1E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18F76EE1FDB7BA1E"]["prototype"]
-L69_1 = "FBDA175393973D042"
-
-function L70_1(A0_2)
+---@class C18F76EE1FDB7BA1E_prototype
+C18F76EE1FDB7BA1E_prototype = L15_1()
+C18F76EE1FDB7BA1E.prototype = C18F76EE1FDB7BA1E_prototype
+--- main.field.behaviour.FieldTrafficNpcPokemon.GetBehaviourType
+function C18F76EE1FDB7BA1E_prototype:FBDA175393973D042()
   local L1_2
   L1_2 = 15
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18F76EE1FDB7BA1E"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldTrafficNpcPokemon.onSetup
+function C18F76EE1FDB7BA1E_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C6CC175E0087BF599
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F22C7B81A049FA20D
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = C2A7C13BC49B7B7E7
   L1_2 = L1_2.SF8F2D826E2B641F8
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
-  A0_2[43] = L1_2
+  self[43] = L1_2
   L1_2 = C2A7C13BC49B7B7E7
   L1_2 = L1_2.S7C68FEDB79AB6396
-  L2_2 = A0_2[43]
+  L2_2 = self[43]
   L1_2(L2_2)
   L1_2 = c8FCA80E4
   L1_2 = L1_2.f4F5C01BE
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2(L2_2)
   L1_2 = cAA7097FF
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cAA7097FF
@@ -99,7 +95,7 @@ function L70_1(A0_2)
     L7_2 = 0
     L3_2(L4_2, L5_2, L6_2, L7_2)
   end
-  L3_2 = A0_2[21]
+  L3_2 = self[21]
   L4_2 = L3_2
   L3_2 = L3_2.FD64742C3B1BCE111
   L3_2 = L3_2(L4_2)
@@ -109,19 +105,16 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18F76EE1FDB7BA1E"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.FieldTrafficNpcPokemon.PreUpdate
+function C18F76EE1FDB7BA1E_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C6CC175E0087BF599
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FE94F3E13286232CF
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[43]
+  L2_2 = self[43]
   L3_2 = L2_2
   L2_2 = L2_2.F1F1E2C2E65471013
   L4_2 = 1
@@ -132,13 +125,10 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18F76EE1FDB7BA1E"]["prototype"]
-L69_1 = "FE7FB785CCF0E3B4E"
-
-function L70_1(A0_2)
+--- main.field.behaviour.FieldTrafficNpcPokemon.FE7FB785CCF0E3B4E
+function C18F76EE1FDB7BA1E_prototype:FE7FB785CCF0E3B4E()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = c588D73E7
   L2_2 = L2_2.f5B6373D5
   

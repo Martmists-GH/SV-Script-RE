@@ -1,3 +1,5 @@
+---@class CB6ED3ABB4DE6D174 : CB6ED3ABB4DE6D174_prototype
+---@field prototype CB6ED3ABB4DE6D174_prototype
 L55_1 = _ENV
 L56_1 = "CB6ED3ABB4DE6D174"
 L57_1 = L15_1
@@ -56,19 +58,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CB6ED3ABB4DE6D174"]
 L69_1 = "__name__"
 L70_1 = "CB6ED3ABB4DE6D174"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB6ED3ABB4DE6D174"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB6ED3ABB4DE6D174"]["prototype"]
-L69_1 = "FC6CBE7FAD3040987"
-
-function L70_1(A0_2, A1_2)
+---@class CB6ED3ABB4DE6D174_prototype
+CB6ED3ABB4DE6D174_prototype = L15_1()
+CB6ED3ABB4DE6D174.prototype = CB6ED3ABB4DE6D174_prototype
+--- CB6ED3ABB4DE6D174.FC6CBE7FAD3040987
+function CB6ED3ABB4DE6D174_prototype:FC6CBE7FAD3040987(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -88,20 +85,17 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB6ED3ABB4DE6D174"]["prototype"]
-L69_1 = "FB598ED7841E1047E"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- CB6ED3ABB4DE6D174.ProhibitActivation
+function CB6ED3ABB4DE6D174_prototype:FB598ED7841E1047E(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if not A1_2 or nil == A2_2 then
     A2_2 = 0
   end
-  A0_2[7] = A1_2
-  A0_2[8] = A2_2
+  self[7] = A1_2
+  self[8] = A2_2
   if 0 == A2_2 then
     L4_2 = 0
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     while true do
       L6_2 = L5_2.length
       if not (L4_2 < L6_2) then
@@ -124,7 +118,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L4_2 = A2_2
     if 1 == L4_2 then
       L5_2 = 0
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L7_2 = false
       while true do
         L8_2 = L6_2.length
@@ -166,7 +160,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     else
       if 2 == L4_2 then
         L5_2 = 0
-        L6_2 = A0_2[1]
+        L6_2 = self[1]
         L7_2 = false
         while true do
           L8_2 = L6_2.length
@@ -199,13 +193,10 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   ::lbl_97::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB6ED3ABB4DE6D174"]["prototype"]
-L69_1 = "F44E0BCA95324EE8B"
-
-function L70_1(A0_2, A1_2)
+--- CB6ED3ABB4DE6D174.NotifyEventChecker
+function CB6ED3ABB4DE6D174_prototype:F44E0BCA95324EE8B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = 0
   while true do
     L4_2 = L2_2.length
@@ -227,9 +218,9 @@ function L70_1(A0_2, A1_2)
     L7_2 = L6_2[4]
     if L7_2 then
       L7_2 = L4_2.checker
-      L8_2 = A0_2[2]
+      L8_2 = self[2]
       L8_2 = L8_2.length
-      L9_2 = A0_2[2]
+      L9_2 = self[2]
       L10_2 = 0
       while true do
         L11_2 = L9_2.length
@@ -238,8 +229,8 @@ function L70_1(A0_2, A1_2)
         end
         L11_2 = L9_2[L10_2]
         L10_2 = L10_2 + 1
-        L13_2 = A0_2
-        L12_2 = A0_2.F68B795B332FB4B7E
+        L13_2 = self
+        L12_2 = self.F68B795B332FB4B7E
         L14_2 = L11_2
         L12_2 = L12_2(L13_2, L14_2)
         if L5_2 == L12_2 then
@@ -252,7 +243,7 @@ function L70_1(A0_2, A1_2)
         end
       end
       if L8_2 >= 0 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L12_2 = L8_2
         L13_2 = L11_2.length
         if L12_2 > L13_2 then
@@ -278,11 +269,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB6ED3ABB4DE6D174"]["prototype"]
-L69_1 = "F4EC7E37A4A89411F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CB6ED3ABB4DE6D174.RegisterEventObject
+function CB6ED3ABB4DE6D174_prototype:F4EC7E37A4A89411F(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = nil
   if nil ~= A1_2 then
@@ -305,7 +293,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = L4_2(L5_2)
   L5_2 = C635BBC1473B1BEF8
   L5_2 = L5_2.SEF3A3B6876841F5A
-  L6_2 = A0_2[6]
+  L6_2 = self[6]
   
   function L7_2(A0_3)
     local L1_3, L2_3
@@ -331,7 +319,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L7_2.callByRemove = false
     L6_2 = L6_2(L7_2)
     L5_2 = L6_2
-    L6_2 = A0_2[6]
+    L6_2 = self[6]
     L7_2 = L6_2
     L6_2 = L6_2.push
     L8_2 = L5_2
@@ -339,7 +327,7 @@ function L70_1(A0_2, A1_2, A2_2)
   else
     L6_2 = L5_2.callByRemove
     if L6_2 then
-      L6_2 = A0_2[6]
+      L6_2 = self[6]
       L7_2 = L6_2
       L6_2 = L6_2.remove
       L8_2 = L5_2
@@ -348,11 +336,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB6ED3ABB4DE6D174"]["prototype"]
-L69_1 = "FAE038118F37478B4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CB6ED3ABB4DE6D174.RemoveEventObject
+function CB6ED3ABB4DE6D174_prototype:FAE038118F37478B4(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = nil
   if nil ~= A1_2 then
@@ -375,7 +360,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = L4_2(L5_2)
   L5_2 = C635BBC1473B1BEF8
   L5_2 = L5_2.SEF3A3B6876841F5A
-  L6_2 = A0_2[6]
+  L6_2 = self[6]
   
   function L7_2(A0_3)
     local L1_3, L2_3
@@ -401,7 +386,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L7_2.callByRemove = true
     L6_2 = L6_2(L7_2)
     L5_2 = L6_2
-    L6_2 = A0_2[6]
+    L6_2 = self[6]
     L7_2 = L6_2
     L6_2 = L6_2.push
     L8_2 = L5_2
@@ -409,7 +394,7 @@ function L70_1(A0_2, A1_2, A2_2)
   else
     L6_2 = L5_2.callByRemove
     if not L6_2 then
-      L6_2 = A0_2[6]
+      L6_2 = self[6]
       L7_2 = L6_2
       L6_2 = L6_2.remove
       L8_2 = L5_2
@@ -418,14 +403,11 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB6ED3ABB4DE6D174"]["prototype"]
-L69_1 = "FD7C53B77F31F05E5"
-
-function L70_1(A0_2, A1_2)
+--- CB6ED3ABB4DE6D174.Enumerate
+function CB6ED3ABB4DE6D174_prototype:FD7C53B77F31F05E5(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -439,13 +421,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB6ED3ABB4DE6D174"]["prototype"]
-L69_1 = "F68B795B332FB4B7E"
-
-function L70_1(A0_2, A1_2)
+--- CB6ED3ABB4DE6D174.indexOf
+function CB6ED3ABB4DE6D174_prototype:F68B795B332FB4B7E(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = 0
   while true do
     L4_2 = L2_2.length

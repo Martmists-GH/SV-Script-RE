@@ -1,3 +1,7 @@
+---@alias CF6E5F59273629102 main_ui_title_first_start_title_demo_state_TitleDemoUIState
+
+---@class main_ui_title_first_start_title_demo_state_TitleDemoUIState : CF6E5F59273629102_prototype
+---@field prototype CF6E5F59273629102_prototype
 L55_1 = _ENV
 L56_1 = "CF6E5F59273629102"
 L57_1 = L15_1
@@ -42,23 +46,18 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF6E5F59273629102"]
 L69_1 = "__name__"
 L70_1 = "CF6E5F59273629102"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6E5F59273629102"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6E5F59273629102"]["prototype"]
-L69_1 = "F706FCB31D5565CDB"
-
-function L70_1(A0_2)
+---@class CF6E5F59273629102_prototype
+CF6E5F59273629102_prototype = L15_1()
+CF6E5F59273629102.prototype = CF6E5F59273629102_prototype
+--- main.ui.title.first_start.title_demo.state.TitleDemoUIState.StartFlow
+function CF6E5F59273629102_prototype:F706FCB31D5565CDB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CCA1882187FABCCCE
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F706FCB31D5565CDB
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.f82A5B7C4
   L3_2 = "view_player_select_03"
@@ -77,25 +76,22 @@ function L70_1(A0_2)
   L4_2 = L2_2
   L3_2 = L2_2.FA7C7BEFF8934C784
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.F3250254222F75035
+  L6_2 = self
+  L7_2 = self.F3250254222F75035
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
-  A0_2[2] = false
+  self[2] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6E5F59273629102"]["prototype"]
-L69_1 = "FC8B881897EB6BA4C"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.title_demo.state.TitleDemoUIState.ReStart
+function CF6E5F59273629102_prototype:FC8B881897EB6BA4C()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CCA1882187FABCCCE
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC8B881897EB6BA4C
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.f82A5B7C4
   L3_2 = "view_player_select_03"

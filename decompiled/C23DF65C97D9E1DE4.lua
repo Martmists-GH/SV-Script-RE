@@ -1,3 +1,7 @@
+---@alias C23DF65C97D9E1DE4 main_event_general_battle_talk_BattleTalkFieldBattleTrainer
+
+---@class main_event_general_battle_talk_BattleTalkFieldBattleTrainer : C23DF65C97D9E1DE4_prototype
+---@field prototype C23DF65C97D9E1DE4_prototype
 L55_1 = _ENV
 L56_1 = "C23DF65C97D9E1DE4"
 L57_1 = L15_1
@@ -46,16 +50,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C23DF65C97D9E1DE4"]
 L69_1 = "__name__"
 L70_1 = "C23DF65C97D9E1DE4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C23DF65C97D9E1DE4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C23DF65C97D9E1DE4"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C23DF65C97D9E1DE4_prototype
+C23DF65C97D9E1DE4_prototype = L15_1()
+C23DF65C97D9E1DE4.prototype = C23DF65C97D9E1DE4_prototype
+--- main.event.general.battle_talk.BattleTalkFieldBattleTrainer.onCreate
+function C23DF65C97D9E1DE4_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = nil
   
@@ -64,7 +63,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -72,7 +71,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -93,8 +92,8 @@ function L70_1(A0_2)
   end
   
   L3_2 = L3_2()
-  A0_2[36] = L3_2
-  L3_2 = A0_2[36]
+  self[36] = L3_2
+  L3_2 = self[36]
   L4_2 = L3_2
   L3_2 = L3_2.fB3CF1DEB
   L3_2 = L3_2(L4_2)
@@ -106,7 +105,7 @@ function L70_1(A0_2)
   if L4_2 == L5_2 then
     L4_2 = nil
   end
-  A0_2[37] = L4_2
+  self[37] = L4_2
   L5_2 = nil
   
   function L6_2()
@@ -114,7 +113,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f8C7D4F4D
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[36]
     L3_3 = L2_3
     L2_3 = L2_3.f5B268E4E
@@ -122,35 +121,32 @@ function L70_1(A0_2)
     L3_3 = L5_2
     L1_3 = L1_3(L2_3, L3_3)
     if L1_3 then
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[36]
       L2_3 = L1_3
       L1_3 = L1_3.f5B268E4E
       L1_3 = L1_3(L2_3)
       L0_3 = L1_3
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[36]
     end
     return L0_3
   end
   
   L6_2 = L6_2()
-  A0_2[35] = L6_2
-  L6_2 = A0_2[35]
+  self[35] = L6_2
+  L6_2 = self[35]
   L7_2 = L6_2
   L6_2 = L6_2.fE9C29DA1
   L6_2 = L6_2(L7_2)
-  A0_2[38] = L6_2
+  self[38] = L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C23DF65C97D9E1DE4"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.battle_talk.BattleTalkFieldBattleTrainer.mainBody
+function C23DF65C97D9E1DE4_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
-  L1_2 = A0_2[37]
+  L1_2 = self[37]
   L1_2 = L1_2[43]
   if L1_2 then
     L1_2 = L16_1
@@ -165,7 +161,7 @@ function L70_1(A0_2)
     L5_2.labelName = true
     L5_2.textFileName = true
     L4_2.__fields__ = L5_2
-    L5_2 = A0_2[38]
+    L5_2 = self[38]
     L4_2.targetName = L5_2
     L5_2 = L31_1.string
     L6_2 = L31_1.string
@@ -174,7 +170,7 @@ function L70_1(A0_2)
     L7_2 = L31_1.string
     L8_2 = L10_1.string
     L8_2 = L8_2.upper
-    L9_2 = A0_2[38]
+    L9_2 = self[38]
     L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2 = L8_2(L9_2)
     L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2)
     L6_2 = L6_2 .. L7_2
@@ -193,11 +189,11 @@ function L70_1(A0_2)
     L2_2 = CC6FE82819C6E1D55
     L2_2 = L2_2.SFBF86D7C138AB6C6
     L3_2 = "easy_talk_npc"
-    L4_2 = A0_2[36]
+    L4_2 = self[36]
     L5_2 = L1_2
     L2_2(L3_2, L4_2, L5_2)
   else
-    L1_2 = A0_2[38]
+    L1_2 = self[38]
     L2_2 = cF52F390B
     L2_2 = L2_2.fB41FD22F
     L3_2 = c682D8E4F
@@ -262,12 +258,12 @@ function L70_1(A0_2)
         return
       end
     end
-    L8_2 = A0_2[37]
+    L8_2 = self[37]
     L9_2 = L8_2
     L8_2 = L8_2.FBF33188125D53B2D
     L10_2 = C655F64BE2B398C6D
     L8_2 = L8_2(L9_2, L10_2)
-    L9_2 = A0_2[37]
+    L9_2 = self[37]
     L10_2 = L9_2
     L9_2 = L9_2.FECFA1C54D4FEEBC8
     L9_2(L10_2)
@@ -275,7 +271,7 @@ function L70_1(A0_2)
     L9_2 = L9_2.S32FAD7D4DF3ACA95
     L10_2 = 1.0
     L9_2(L10_2)
-    L9_2 = A0_2[37]
+    L9_2 = self[37]
     L10_2 = L9_2
     L9_2 = L9_2.F89CFAB8E570E4524
     L9_2(L10_2)
@@ -293,7 +289,7 @@ function L70_1(A0_2)
     L13_2.camerawork = true
     L13_2.rideOff = true
     L12_2.__fields__ = L13_2
-    L13_2 = A0_2[38]
+    L13_2 = self[38]
     L12_2.targetName = L13_2
     L13_2 = L31_1.string
     L14_2 = L31_1.string
@@ -302,7 +298,7 @@ function L70_1(A0_2)
     L15_2 = L31_1.string
     L16_2 = L10_1.string
     L16_2 = L16_2.upper
-    L17_2 = A0_2[38]
+    L17_2 = self[38]
     L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2 = L16_2(L17_2)
     L15_2 = L15_2(L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2)
     L14_2 = L14_2 .. L15_2
@@ -323,7 +319,7 @@ function L70_1(A0_2)
     L10_2 = CC6FE82819C6E1D55
     L10_2 = L10_2.SFBF86D7C138AB6C6
     L11_2 = "easy_talk_npc"
-    L12_2 = A0_2[36]
+    L12_2 = self[36]
     L13_2 = L9_2
     L10_2(L11_2, L12_2, L13_2)
     L10_2 = C2BBB2925203EEA65
@@ -333,7 +329,7 @@ function L70_1(A0_2)
     L13_2 = {}
     L13_2.owner = true
     L12_2.__fields__ = L13_2
-    L13_2 = A0_2[36]
+    L13_2 = self[36]
     L12_2.owner = L13_2
     L11_2 = L11_2(L12_2)
     L12_2 = true

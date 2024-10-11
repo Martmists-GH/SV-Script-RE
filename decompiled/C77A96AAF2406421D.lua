@@ -1,3 +1,5 @@
+---@class C77A96AAF2406421D : C77A96AAF2406421D_prototype
+---@field prototype C77A96AAF2406421D_prototype
 L68_1 = _ENV["C77A96AAF2406421D"]
 L69_1 = "super"
 
@@ -20,22 +22,17 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C77A96AAF2406421D"]
 L69_1 = "__name__"
 L70_1 = "C77A96AAF2406421D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C77A96AAF2406421D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C77A96AAF2406421D"]["prototype"]
-L69_1 = "F2E0C96E024BC8E6D"
-
-function L70_1(A0_2, A1_2)
+---@class C77A96AAF2406421D_prototype
+C77A96AAF2406421D_prototype = L15_1()
+C77A96AAF2406421D.prototype = C77A96AAF2406421D_prototype
+--- C77A96AAF2406421D.F2E0C96E024BC8E6D
+function C77A96AAF2406421D_prototype:F2E0C96E024BC8E6D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = "event_npc_sdc02_4kings_a_02_npc_05"
   L4_2 = "sdc02_4kings_a_02_follower05_01"
-  L5_2 = A0_2[35]
+  L5_2 = self[35]
   L6_2 = 0
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = C9B54BC04DD492B6D
@@ -49,15 +46,15 @@ function L70_1(A0_2, A1_2)
   L5_2[1] = L6_2
   L6_2 = 2
   L4_2 = L4_2(L5_2, L6_2)
-  L5_2 = A0_2[35]
+  L5_2 = self[35]
   L6_2 = true
   L7_2 = "sdc02_4kings_a_02_follower05_02"
-  L8_2 = A0_2[35]
+  L8_2 = self[35]
   L9_2 = 0
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
   if 0 == L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FEC1731387E8A721C
+    L3_2 = self
+    L2_2 = self.FEC1731387E8A721C
     L4_2 = A1_2
     L2_2 = L2_2(L3_2, L4_2)
     if L2_2 then
@@ -65,7 +62,7 @@ function L70_1(A0_2, A1_2)
       L2_2 = L2_2.S3EDC50DEB344C642
       L3_2 = "event_npc_sdc02_4kings_a_02_npc_05"
       L4_2 = "sdc02_4kings_a_02_follower05_03"
-      L5_2 = A0_2[35]
+      L5_2 = self[35]
       L6_2 = 0
       L2_2(L3_2, L4_2, L5_2, L6_2)
       L2_2 = E505AC221DB4BD6ED
@@ -76,7 +73,7 @@ function L70_1(A0_2, A1_2)
     L2_2 = L2_2.S3EDC50DEB344C642
     L3_2 = "event_npc_sdc02_4kings_a_02_npc_05"
     L4_2 = "sdc02_4kings_a_02_follower05_04"
-    L5_2 = A0_2[35]
+    L5_2 = self[35]
     L6_2 = 0
     L2_2(L3_2, L4_2, L5_2, L6_2)
     L2_2 = E505AC221DB4BD6ED
@@ -88,31 +85,25 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C77A96AAF2406421D"]["prototype"]
-L69_1 = "FBD89445684DFEB0B"
-
-function L70_1(A0_2, A1_2)
+--- C77A96AAF2406421D.FBD89445684DFEB0B
+function C77A96AAF2406421D_prototype:FBD89445684DFEB0B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = "event_npc_sdc02_4kings_a_02_npc_05"
   L4_2 = "sdc02_4kings_a_02_follower05_06"
-  L5_2 = A0_2[35]
+  L5_2 = self[35]
   L6_2 = 0
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C77A96AAF2406421D"]["prototype"]
-L69_1 = "FB37E14A2B9C46FCB"
-
-function L70_1(A0_2)
+--- C77A96AAF2406421D.FB37E14A2B9C46FCB
+function C77A96AAF2406421D_prototype:FB37E14A2B9C46FCB()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.SCF1C3E900FADB22D
   L2_2 = "event_npc_sdc02_4kings_a_02_npc_05"
-  L3_2 = A0_2[37]
+  L3_2 = self[37]
   L4_2 = 1.0
   L5_2 = false
   L1_2(L2_2, L3_2, L4_2, L5_2)

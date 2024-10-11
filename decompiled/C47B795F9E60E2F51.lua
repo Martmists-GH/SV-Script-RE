@@ -1,3 +1,7 @@
+---@alias C8668D3381430FCA5 main_ui_btlspot_ui_BattleSpotUIReward
+
+---@class main_ui_btlspot_ui_BattleSpotUIReward : C8668D3381430FCA5_prototype
+---@field prototype C8668D3381430FCA5_prototype
 L55_1 = _ENV
 L56_1 = "C47B795F9E60E2F51"
 L57_1 = L15_1
@@ -35,11 +39,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C47B795F9E60E2F51"]
 L69_1 = "__name__"
 L70_1 = "C47B795F9E60E2F51"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C47B795F9E60E2F51"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C8668D3381430FCA5_prototype
+C8668D3381430FCA5_prototype = L15_1()
+C8668D3381430FCA5.prototype = C8668D3381430FCA5_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C47B795F9E60E2F51"]["prototype"]
 L69_1 = _ENV["C47B795F9E60E2F51"]

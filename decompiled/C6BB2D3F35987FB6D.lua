@@ -1,3 +1,7 @@
+---@alias C6BB2D3F35987FB6D main_battle_ui_BattleUiLimitTimeCaution
+
+---@class main_battle_ui_BattleUiLimitTimeCaution : C6BB2D3F35987FB6D_prototype
+---@field prototype C6BB2D3F35987FB6D_prototype
 L55_1 = _ENV
 L56_1 = "C6BB2D3F35987FB6D"
 L57_1 = L15_1
@@ -50,121 +54,98 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C6BB2D3F35987FB6D"]
 L69_1 = "__name__"
 L70_1 = "C6BB2D3F35987FB6D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BB2D3F35987FB6D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BB2D3F35987FB6D"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C6BB2D3F35987FB6D_prototype
+C6BB2D3F35987FB6D_prototype = L15_1()
+C6BB2D3F35987FB6D.prototype = C6BB2D3F35987FB6D_prototype
+--- main.battle.ui.BattleUiLimitTimeCaution.Setup
+function C6BB2D3F35987FB6D_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BB2D3F35987FB6D"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiLimitTimeCaution.PreUpdate
+function C6BB2D3F35987FB6D_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FC84EF4EA4084FEB1
+    L3_2 = self
+    L2_2 = self.FC84EF4EA4084FEB1
     L2_2(L3_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.FF22FCFA79B2A3334
+    L3_2 = self
+    L2_2 = self.FF22FCFA79B2A3334
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BB2D3F35987FB6D"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2, A1_2)
-  A0_2[2] = A1_2
-  A0_2[4] = false
-  A0_2[5] = false
+--- main.battle.ui.BattleUiLimitTimeCaution.Init
+function C6BB2D3F35987FB6D_prototype:F90BBC6B0190BF053(A1_2)
+  self[2] = A1_2
+  self[4] = false
+  self[5] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BB2D3F35987FB6D"]["prototype"]
-L69_1 = "F108C51F8058BBCC5"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiLimitTimeCaution.IsDisp
+function C6BB2D3F35987FB6D_prototype:F108C51F8058BBCC5()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BB2D3F35987FB6D"]["prototype"]
-L69_1 = "F1FCD4C7D32032430"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiLimitTimeCaution.IsCountDown
+function C6BB2D3F35987FB6D_prototype:F1FCD4C7D32032430()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BB2D3F35987FB6D"]["prototype"]
-L69_1 = "F0EA7C556DDE31375"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiLimitTimeCaution.Disp
+function C6BB2D3F35987FB6D_prototype:F0EA7C556DDE31375(A1_2)
   local L2_2, L3_2, L4_2
   if nil == A1_2 then
     A1_2 = false
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if not L2_2 then
-    A0_2[4] = true
+    self[4] = true
     if A1_2 then
-      A0_2[5] = A1_2
+      self[5] = A1_2
     end
     L2_2 = EEC2F3A8E9D9B88F6
     L2_2 = L2_2.IN
-    A0_2[6] = L2_2
-    L2_2 = A0_2[3]
+    self[6] = L2_2
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f2A9CF058
     L4_2 = true
     L2_2(L3_2, L4_2)
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.fB4E9D030
     L4_2 = "f_in"
     L2_2(L3_2, L4_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.FC84EF4EA4084FEB1
+    L3_2 = self
+    L2_2 = self.FC84EF4EA4084FEB1
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BB2D3F35987FB6D"]["prototype"]
-L69_1 = "FBB2E28BC2472F7CD"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiLimitTimeCaution.Hide
+function C6BB2D3F35987FB6D_prototype:FBB2E28BC2472F7CD()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if L1_2 then
-    A0_2[4] = false
-    L1_2 = A0_2[3]
+    self[4] = false
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.fB4E9D030
     L3_2 = "f_out"
@@ -172,36 +153,33 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BB2D3F35987FB6D"]["prototype"]
-L69_1 = "FF22FCFA79B2A3334"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiLimitTimeCaution.UpdateAnime
+function C6BB2D3F35987FB6D_prototype:FF22FCFA79B2A3334()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   if L1_2 then
     return
   end
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L1_2 = L1_2[1]
   if 0 == L1_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.fF8C77C75
     L4_2 = "f_in"
     L2_2 = L2_2(L3_2, L4_2)
     if L2_2 then
-      L2_2 = A0_2[3]
+      L2_2 = self[3]
       L3_2 = L2_2
       L2_2 = L2_2.fB4E9D030
       L4_2 = "wait"
       L2_2(L3_2, L4_2)
       L2_2 = EEC2F3A8E9D9B88F6
       L2_2 = L2_2.WAIT
-      A0_2[6] = L2_2
+      self[6] = L2_2
     end
   elseif 1 == L1_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.fF8C77C75
     L4_2 = "wait"
@@ -209,32 +187,29 @@ function L70_1(A0_2)
     if L2_2 then
       L2_2 = EEC2F3A8E9D9B88F6
       L2_2 = L2_2.OUT
-      A0_2[6] = L2_2
-      L3_2 = A0_2
-      L2_2 = A0_2.FBB2E28BC2472F7CD
+      self[6] = L2_2
+      L3_2 = self
+      L2_2 = self.FBB2E28BC2472F7CD
       L2_2(L3_2)
     end
   elseif 2 == L1_2 then
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BB2D3F35987FB6D"]["prototype"]
-L69_1 = "FC84EF4EA4084FEB1"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiLimitTimeCaution.UpdateDispTime
+function C6BB2D3F35987FB6D_prototype:FC84EF4EA4084FEB1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = nil
   L2_2 = c65DA6CBA
   L2_2 = L2_2.f8DF3F92B
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2[24]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.FD0828652DFC8293C
   L2_2 = L2_2(L3_2)
@@ -297,7 +272,7 @@ function L70_1(A0_2)
       end
     end
   end
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.fEAD9FB7D
   L7_2 = "switch_count"
@@ -341,7 +316,7 @@ function L70_1(A0_2)
     L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
     L7_2 = c8C3BF576
     L7_2 = L7_2.f316077B2
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L9_2 = "T_timer_00"
     L10_2 = L6_2
     L7_2(L8_2, L9_2, L10_2)
@@ -381,7 +356,7 @@ function L70_1(A0_2)
     end
     
     L7_2 = L7_2()
-    L8_2 = A0_2[7]
+    L8_2 = self[7]
     L5_2 = L7_2 ~= L8_2
   else
     L5_2 = false
@@ -412,7 +387,7 @@ function L70_1(A0_2)
   end
   
   L7_2 = L7_2()
-  A0_2[7] = L7_2
+  self[7] = L7_2
 end
 
 L68_1[L69_1] = L70_1

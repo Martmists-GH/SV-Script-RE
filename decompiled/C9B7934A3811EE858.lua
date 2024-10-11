@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C9B7934A3811EE858"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C9B7934A3811EE858"]
-L69_1 = "new"
+---@alias C9B7934A3811EE858 main_event_general_ajito_DanRushAfterEvent
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class main_event_general_ajito_DanRushAfterEvent : C9B7934A3811EE858_prototype
+---@field prototype C9B7934A3811EE858_prototype
+C9B7934A3811EE858 = L15_1()
+function C9B7934A3811EE858.new(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = C9B7934A3811EE858
@@ -25,11 +22,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@param A0_2 C9B7934A3811EE858
+function C9B7934A3811EE858.super(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L5_2 = C20F5CD372AAAA08C
   L5_2 = L5_2.super
@@ -41,11 +35,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]
-L69_1 = "__name__"
-L70_1 = "C9B7934A3811EE858"
-L68_1[L69_1] = L70_1
+C9B7934A3811EE858.__name__ = "C9B7934A3811EE858"
 L68_1 = _ENV["C9B7934A3811EE858"]
 L69_1 = "SDC2ABBA83BB98C14"
 
@@ -66,18 +56,13 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C9B7934A3811EE858_prototype
+C9B7934A3811EE858_prototype = L15_1()
+C9B7934A3811EE858.prototype = C9B7934A3811EE858_prototype
+--- main.event.general.ajito.DanRushAfterEvent.mainBody
+function C9B7934A3811EE858_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   if nil == L1_2 then
     return
   end
@@ -86,19 +71,19 @@ function L70_1(A0_2)
   L2_2 = C9B7934A3811EE858
   L2_2 = L2_2.S622834E631296FDF
   L1_2(L2_2)
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.difficult
   L1_2 = L1_2[1]
   if 0 == L1_2 then
   elseif 1 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F37AA2025FE8B500A
-    L4_2 = A0_2[32]
+    L3_2 = self
+    L2_2 = self.F37AA2025FE8B500A
+    L4_2 = self[32]
     L2_2(L3_2, L4_2)
   elseif 2 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F37A71A25FE891001
-    L4_2 = A0_2[32]
+    L3_2 = self
+    L2_2 = self.F37A71A25FE891001
+    L4_2 = self[32]
     L2_2(L3_2, L4_2)
   end
   L2_2 = C9B54BC04DD492B6D
@@ -108,30 +93,27 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]["prototype"]
-L69_1 = "F37AA2025FE8B500A"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.ajito.DanRushAfterEvent.ajitoEvent_050
+function C9B7934A3811EE858_prototype:F37AA2025FE8B500A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = A1_2.teamType
   L3_2 = A1_2.difficult
-  L5_2 = A0_2
-  L4_2 = A0_2.FF3ECC38611925324
+  L5_2 = self
+  L4_2 = self.FF3ECC38611925324
   L6_2 = L2_2
   L7_2 = L3_2
   L8_2 = A1_2.isBPoint
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F7E2304D9BFB70995
+  L6_2 = self
+  L5_2 = self.F7E2304D9BFB70995
   L7_2 = A1_2
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
   L5_2 = A1_2.isWin
   if L5_2 then
     L5_2 = A1_2.clearSecond
-    L7_2 = A0_2
-    L6_2 = A0_2.FEDF6298216286591
+    L7_2 = self
+    L6_2 = self.FEDF6298216286591
     L8_2 = L2_2
     L9_2 = L3_2
     L10_2 = L5_2
@@ -221,40 +203,37 @@ function L70_1(A0_2, A1_2)
       L5_2(L6_2, L7_2, L8_2, L9_2)
     end
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F45F36F63F08C40AD
+  L6_2 = self
+  L5_2 = self.F45F36F63F08C40AD
   L7_2 = L2_2
   L8_2 = L3_2
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]["prototype"]
-L69_1 = "F37A71A25FE891001"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.ajito.DanRushAfterEvent.ajitoEvent_060
+function C9B7934A3811EE858_prototype:F37A71A25FE891001(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.S4E44D50241EFAB61
   L2_2()
   L2_2 = A1_2.teamType
   L3_2 = A1_2.difficult
-  L5_2 = A0_2
-  L4_2 = A0_2.FF3ECC38611925324
+  L5_2 = self
+  L4_2 = self.FF3ECC38611925324
   L6_2 = L2_2
   L7_2 = L3_2
   L8_2 = A1_2.isBPoint
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F7E2304D9BFB70995
+  L6_2 = self
+  L5_2 = self.F7E2304D9BFB70995
   L7_2 = A1_2
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
   L5_2 = A1_2.isWin
   if L5_2 then
     L5_2 = A1_2.clearSecond
-    L7_2 = A0_2
-    L6_2 = A0_2.FEDF6298216286591
+    L7_2 = self
+    L6_2 = self.FEDF6298216286591
     L8_2 = L2_2
     L9_2 = L3_2
     L10_2 = L5_2
@@ -359,18 +338,15 @@ function L70_1(A0_2, A1_2)
     L9_2 = 0
     L5_2(L6_2, L7_2, L8_2, L9_2)
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F45F36F63F08C40AD
+  L6_2 = self
+  L5_2 = self.F45F36F63F08C40AD
   L7_2 = L2_2
   L8_2 = L3_2
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]["prototype"]
-L69_1 = "F7E2304D9BFB70995"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.ajito.DanRushAfterEvent.ajitoEventSetup
+function C9B7934A3811EE858_prototype:F7E2304D9BFB70995(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = C9F6C325569B7E07F
   L3_2 = L3_2.S78BBE9C0C6452E1E
@@ -387,14 +363,14 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2 = A1_2.difficult
   L6_2 = true
   L3_2(L4_2, L5_2, L6_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F57E3171E3ECDCCA8
+  L4_2 = self
+  L3_2 = self.F57E3171E3ECDCCA8
   L5_2 = A1_2.teamType
   L6_2 = A1_2.difficult
   L7_2 = true
   L3_2(L4_2, L5_2, L6_2, L7_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F166A8B51ADBFACFD
+  L4_2 = self
+  L3_2 = self.F166A8B51ADBFACFD
   L5_2 = A1_2.teamType
   L6_2 = A1_2.isBPoint
   L7_2 = A2_2
@@ -406,18 +382,15 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]["prototype"]
-L69_1 = "F45F36F63F08C40AD"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.ajito.DanRushAfterEvent.ajitoEventEnd
+function C9B7934A3811EE858_prototype:F45F36F63F08C40AD(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = C07E4F1BF071B0460
   L3_2 = L3_2.S218E2A14A790D265
   L4_2 = "BlackFade"
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F57E3171E3ECDCCA8
+  L4_2 = self
+  L3_2 = self.F57E3171E3ECDCCA8
   L5_2 = A1_2
   L6_2 = A2_2
   L7_2 = false
@@ -436,11 +409,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]["prototype"]
-L69_1 = "FF3ECC38611925324"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.general.ajito.DanRushAfterEvent.getGateNpcName
+function C9B7934A3811EE858_prototype:FF3ECC38611925324(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A3_2 then
     A3_2 = false
@@ -478,11 +448,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]["prototype"]
-L69_1 = "F57E3171E3ECDCCA8"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.general.ajito.DanRushAfterEvent.gateNpcSceneLoader
+function C9B7934A3811EE858_prototype:F57E3171E3ECDCCA8(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L4_2 = c682D8E4F
   L4_2 = L4_2.fEF94D11D
@@ -506,8 +473,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2 = L7_2 .. L8_2
   L6_2 = L6_2(L7_2)
   L7_2 = L31_1.string
-  L9_2 = A0_2
-  L8_2 = A0_2.FA72F7E907DBA31C4
+  L9_2 = self
+  L8_2 = self.FA72F7E907DBA31C4
   L10_2 = A2_2
   L8_2, L9_2, L10_2, L11_2 = L8_2(L9_2, L10_2)
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2)
@@ -561,11 +528,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]["prototype"]
-L69_1 = "F35E06687E58D20B3"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.ajito.DanRushAfterEvent.loadWaitObject
+function C9B7934A3811EE858_prototype:F35E06687E58D20B3(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
   L3_2 = CDCBFD50A277E546D
@@ -591,18 +555,15 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]["prototype"]
-L69_1 = "F166A8B51ADBFACFD"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.general.ajito.DanRushAfterEvent.warpPlayerAfterDanRush
+function C9B7934A3811EE858_prototype:F166A8B51ADBFACFD(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2, L51_2, L52_2, L53_2, L54_2, L55_2, L56_2, L57_2, L58_2, L59_2, L60_2, L61_2, L62_2
   L4_2 = 0
   L5_2 = 0
   L6_2 = CFC8F368D91411014
   L6_2 = L6_2.S93A017D496A6D000
-  L8_2 = A0_2
-  L7_2 = A0_2.F35E06687E58D20B3
+  L8_2 = self
+  L7_2 = self.F35E06687E58D20B3
   L9_2 = A3_2
   L7_2 = L7_2(L8_2, L9_2)
   if nil == L7_2 then
@@ -779,11 +740,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L56_2(L57_2, L58_2, L59_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]["prototype"]
-L69_1 = "FA72F7E907DBA31C4"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.ajito.DanRushAfterEvent.getDifficultSceneString
+function C9B7934A3811EE858_prototype:FA72F7E907DBA31C4(A1_2)
   local L2_2, L3_2
   L2_2 = ""
   L3_2 = A1_2[1]
@@ -797,11 +755,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]["prototype"]
-L69_1 = "FEDF6298216286591"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.general.ajito.DanRushAfterEvent.getDanRushResultLPInfo
+function C9B7934A3811EE858_prototype:FEDF6298216286591(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
   L4_2 = 0
   L5_2 = 0
@@ -1198,11 +1153,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B7934A3811EE858"]["prototype"]
-L69_1 = "FC578F301CC83391C"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.general.ajito.DanRushAfterEvent.clamp
+function C9B7934A3811EE858_prototype:FC578F301CC83391C(A1_2, A2_2, A3_2)
   if A1_2 < A2_2 then
     A1_2 = A2_2
   end

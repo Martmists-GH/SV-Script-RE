@@ -1,3 +1,7 @@
+---@alias CD447F165B150550D main_nushi_hiko_HikoNushi020DammyActor
+
+---@class main_nushi_hiko_HikoNushi020DammyActor : CD447F165B150550D_prototype
+---@field prototype CD447F165B150550D_prototype
 L55_1 = _ENV
 L56_1 = "CD447F165B150550D"
 L57_1 = L15_1
@@ -42,19 +46,14 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CD447F165B150550D"]
 L69_1 = "__name__"
 L70_1 = "CD447F165B150550D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD447F165B150550D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD447F165B150550D"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CD447F165B150550D_prototype
+CD447F165B150550D_prototype = L15_1()
+CD447F165B150550D.prototype = CD447F165B150550D_prototype
+--- main.nushi.hiko.HikoNushi020DammyActor.Setup
+function CD447F165B150550D_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
-  L3_2 = A0_2[1]
+  L2_2 = self
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.fE9C29DA1
   L3_2(L4_2)
@@ -133,29 +132,26 @@ function L70_1(A0_2, A1_2)
     L2_3(L3_3)
   end
   
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.fE9C29DA1
   L5_2, L6_2 = L5_2(L6_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2)
-  A0_2[2] = L3_2
+  self[2] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD447F165B150550D"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.hiko.HikoNushi020DammyActor.PreUpdate
+function CD447F165B150550D_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = L62_1
       L4_2 = L64_1.pack
       L5_2 = L10_1.coroutine
@@ -202,11 +198,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD447F165B150550D"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.nushi.hiko.HikoNushi020DammyActor.Destroy
+function CD447F165B150550D_prototype:F1C2AA00ADAC52EC5()
   local L1_2
 end
 

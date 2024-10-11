@@ -1,3 +1,5 @@
+---@class C756CC558958FD73D : C756CC558958FD73D_prototype
+---@field prototype C756CC558958FD73D_prototype
 L55_1 = _ENV
 L56_1 = "C756CC558958FD73D"
 L57_1 = L15_1
@@ -45,31 +47,23 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C756CC558958FD73D"]
 L69_1 = "__name__"
 L70_1 = "C756CC558958FD73D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C756CC558958FD73D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C756CC558958FD73D"]["prototype"]
-L69_1 = "FBF02A2AE63AF40EC"
-
-function L70_1(A0_2)
+---@class C756CC558958FD73D_prototype
+C756CC558958FD73D_prototype = L15_1()
+C756CC558958FD73D.prototype = C756CC558958FD73D_prototype
+--- C756CC558958FD73D.OnStart
+function C756CC558958FD73D_prototype:FBF02A2AE63AF40EC()
   local L1_2, L2_2
   L1_2 = C622F43C76417AAC0
   L1_2 = L1_2.SFCE091807173F6E9
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L1_2 = L1_2(L2_2)
-  A0_2[6] = L1_2
+  self[6] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C756CC558958FD73D"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- C756CC558958FD73D.OnUpdate
+function C756CC558958FD73D_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   
   function L3_2()
     local L0_3, L1_3, L2_3
@@ -91,15 +85,12 @@ function L70_1(A0_2, A1_2)
   
   L3_2 = L3_2()
   if L3_2 then
-    A0_2[2] = true
+    self[2] = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C756CC558958FD73D"]["prototype"]
-L69_1 = "FC106B0B5B59826BF"
-
-function L70_1(A0_2)
+--- C756CC558958FD73D.OnFinish
+function C756CC558958FD73D_prototype:FC106B0B5B59826BF()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C6F1822A717AC599D
   L1_2 = L1_2.S264F26F6894F3392

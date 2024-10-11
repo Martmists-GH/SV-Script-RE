@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C1854E2D339FEFE8F"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C1854E2D339FEFE8F"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1854E2D339FEFE8F"]
-L69_1 = "__name__"
-L70_1 = "C1854E2D339FEFE8F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1854E2D339FEFE8F"]
-L69_1 = "SA67F0A2177D8E536"
+---@alias C1854E2D339FEFE8F main_pokepicnic_PicnicTableSetUtil
 
-function L70_1(A0_2)
+---@class main_pokepicnic_PicnicTableSetUtil
+C1854E2D339FEFE8F = L15_1()
+C1854E2D339FEFE8F.new = {}
+C1854E2D339FEFE8F.__name__ = "C1854E2D339FEFE8F"
+--- main.pokepicnic.PicnicTableSetUtil.toItemId
+function C1854E2D339FEFE8F.SA67F0A2177D8E536(A0_2)
   local L1_2
   if 0 == A0_2 then
     L1_2 = 2323
@@ -244,11 +235,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1854E2D339FEFE8F"]
-L69_1 = "SCC3E5B9BEB7D3AE8"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicTableSetUtil.toObjTempName
+function C1854E2D339FEFE8F.SCC3E5B9BEB7D3AE8(A0_2)
   local L1_2
   if 0 == A0_2 then
     L1_2 = "pi_table_01_01"
@@ -478,11 +466,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1854E2D339FEFE8F"]
-L69_1 = "S3DA8841DBAE65717"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicTableSetUtil.IsTableType
+function C1854E2D339FEFE8F.S3DA8841DBAE65717(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = L52_1.__cast
   L2_2 = A0_2
@@ -499,11 +484,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1854E2D339FEFE8F"]
-L69_1 = "SBF85A6C5C3507318"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicTableSetUtil.IsWaterBottleType
+function C1854E2D339FEFE8F.SBF85A6C5C3507318(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = L52_1.__cast
   L2_2 = A0_2
@@ -517,11 +499,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1854E2D339FEFE8F"]
-L69_1 = "SB0B5F1A68AC2AA48"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicTableSetUtil.IsTumblerType
+function C1854E2D339FEFE8F.SB0B5F1A68AC2AA48(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = L52_1.__cast
   L2_2 = A0_2
@@ -535,11 +514,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1854E2D339FEFE8F"]
-L69_1 = "S0D758746486B80BA"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicTableSetUtil.S0D758746486B80BA
+function C1854E2D339FEFE8F.S0D758746486B80BA(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = L52_1.__cast
   L2_2 = A0_2

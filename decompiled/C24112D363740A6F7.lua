@@ -1,3 +1,7 @@
+---@alias C24112D363740A6F7 main_ui_bag_bag_ui_state_machine_recovery_data_RecoverData
+
+---@class main_ui_bag_bag_ui_state_machine_recovery_data_RecoverData : C24112D363740A6F7_prototype
+---@field prototype C24112D363740A6F7_prototype
 L55_1 = _ENV
 L56_1 = "C24112D363740A6F7"
 L57_1 = L15_1
@@ -36,16 +40,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C24112D363740A6F7"]
 L69_1 = "__name__"
 L70_1 = "C24112D363740A6F7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C24112D363740A6F7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C24112D363740A6F7"]["prototype"]
-L69_1 = "F9F16BDED8384A8F7"
-
-function L70_1(A0_2, A1_2)
+---@class C24112D363740A6F7_prototype
+C24112D363740A6F7_prototype = L15_1()
+C24112D363740A6F7.prototype = C24112D363740A6F7_prototype
+--- main.ui.bag.bag_ui_state_machine.recovery_data.RecoverData.SetRecvData
+function C24112D363740A6F7_prototype:F9F16BDED8384A8F7(A1_2)
   local L2_2, L3_2, L4_2
   if A1_2 <= 0 then
     return
@@ -57,7 +56,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.F62FBE7F3448B7389
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -65,7 +64,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.FBA90D454258F229D
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -73,7 +72,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.F9A3FD8D9F0DDBB0F
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -81,7 +80,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.FC676115B544042D9
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -89,7 +88,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.FBCFD95462C683636
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -97,7 +96,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.FD2430099603C3EAF
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[6] = L2_2
+  self[6] = L2_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -105,7 +104,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.FF84846B066B2D4FD
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[7] = L2_2
+  self[7] = L2_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -113,7 +112,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.FFEC36C6152EE5106
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[8] = L2_2
+  self[8] = L2_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -121,7 +120,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.FEF0B777D4CBF41CF
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[9] = L2_2
+  self[9] = L2_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -129,7 +128,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.FF0BBDFD427AFD7AF
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[10] = L2_2
+  self[10] = L2_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -137,7 +136,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.FBE26151D070BEF87
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[11] = L2_2
+  self[11] = L2_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -145,7 +144,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.F07D10352C876224D
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[12] = L2_2
+  self[12] = L2_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -153,7 +152,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.FDEF1462E5935BEC1
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[13] = L2_2
+  self[13] = L2_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -161,7 +160,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.F43E0EA654EC3924A
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[14] = L2_2
+  self[14] = L2_2
 end
 
 L68_1[L69_1] = L70_1

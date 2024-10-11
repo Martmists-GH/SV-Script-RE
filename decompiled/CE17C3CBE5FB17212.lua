@@ -1,3 +1,7 @@
+---@alias CE17C3CBE5FB17212 main_event_general_area_script_AreaEnter_a_sch_ground01
+
+---@class main_event_general_area_script_AreaEnter_a_sch_ground01 : CE17C3CBE5FB17212_prototype
+---@field prototype CE17C3CBE5FB17212_prototype
 L55_1 = _ENV
 L56_1 = "CE17C3CBE5FB17212"
 L57_1 = L15_1
@@ -251,16 +255,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE17C3CBE5FB17212"]
 L69_1 = "__name__"
 L70_1 = "CE17C3CBE5FB17212"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE17C3CBE5FB17212"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE17C3CBE5FB17212"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CE17C3CBE5FB17212_prototype
+CE17C3CBE5FB17212_prototype = L15_1()
+CE17C3CBE5FB17212.prototype = CE17C3CBE5FB17212_prototype
+--- main.event.general.area_script.AreaEnter_a_sch_ground01.mainBody
+function CE17C3CBE5FB17212_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = C3770542F1DC790BF
   L1_2 = L1_2.S33CE0AFC746835E9
@@ -283,10 +282,10 @@ function L70_1(A0_2)
   L4_2[6] = L10_2
   L5_2 = 7
   L3_2 = L3_2(L4_2, L5_2)
-  L4_2 = A0_2[33]
+  L4_2 = self[33]
   L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F94431B389FF1CC90
+  L2_2 = self
+  L1_2 = self.F94431B389FF1CC90
   L1_2 = L1_2(L2_2)
   if nil ~= L1_2 then
     L2_2 = C3770542F1DC790BF
@@ -300,49 +299,49 @@ function L70_1(A0_2)
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F39DA283B85F1C8EF
-      L6_2 = A0_2[35]
+      L5_2 = self
+      L4_2 = self.F39DA283B85F1C8EF
+      L6_2 = self[35]
       L7_2 = L2_2
       L4_2(L5_2, L6_2, L7_2)
       L4_2 = L1_2.npcId
       if 1 == L4_2 then
-        L6_2 = A0_2
-        L5_2 = A0_2.F39DA283B85F1C8EF
-        L7_2 = A0_2[36]
+        L6_2 = self
+        L5_2 = self.F39DA283B85F1C8EF
+        L7_2 = self[36]
         L8_2 = L2_2
         L5_2(L6_2, L7_2, L8_2)
-        L6_2 = A0_2
-        L5_2 = A0_2.F681F637896DD79AA
+        L6_2 = self
+        L5_2 = self.F681F637896DD79AA
         L7_2 = "tr0050_junior_01"
         L8_2 = L2_2
-        L9_2 = A0_2[37]
+        L9_2 = self[37]
         L5_2(L6_2, L7_2, L8_2, L9_2)
       elseif 3 == L4_2 then
-        L6_2 = A0_2
-        L5_2 = A0_2.F39DA283B85F1C8EF
-        L7_2 = A0_2[37]
+        L6_2 = self
+        L5_2 = self.F39DA283B85F1C8EF
+        L7_2 = self[37]
         L8_2 = L2_2
         L5_2(L6_2, L7_2, L8_2)
-        L6_2 = A0_2
-        L5_2 = A0_2.F681F637896DD79AA
+        L6_2 = self
+        L5_2 = self.F681F637896DD79AA
         L7_2 = "tr0070_friend"
         L8_2 = L2_2
-        L9_2 = A0_2[36]
+        L9_2 = self[36]
         L5_2(L6_2, L7_2, L8_2, L9_2)
       else
         if 39 == L4_2 then
-          L6_2 = A0_2
-          L5_2 = A0_2.F681F637896DD79AA
+          L6_2 = self
+          L5_2 = self.F681F637896DD79AA
           L7_2 = "tr0050_junior_01"
           L8_2 = L2_2
-          L9_2 = A0_2[37]
+          L9_2 = self[37]
           L5_2(L6_2, L7_2, L8_2, L9_2)
-          L6_2 = A0_2
-          L5_2 = A0_2.F681F637896DD79AA
+          L6_2 = self
+          L5_2 = self.F681F637896DD79AA
           L7_2 = "tr0070_friend"
           L8_2 = L2_2
-          L9_2 = A0_2[36]
+          L9_2 = self[36]
           L5_2(L6_2, L7_2, L8_2, L9_2)
         else
         end
@@ -351,11 +350,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE17C3CBE5FB17212"]["prototype"]
-L69_1 = "F94431B389FF1CC90"
-
-function L70_1(A0_2)
+--- main.event.general.area_script.AreaEnter_a_sch_ground01.getStudyEventData
+function CE17C3CBE5FB17212_prototype:F94431B389FF1CC90()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C3770542F1DC790BF
   L1_2 = L1_2.S90C157F6EB9E3C8D
@@ -365,7 +361,7 @@ function L70_1(A0_2)
     return L2_2
   end
   L2_2 = 0
-  L3_2 = A0_2[34]
+  L3_2 = self[34]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -389,11 +385,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE17C3CBE5FB17212"]["prototype"]
-L69_1 = "F39DA283B85F1C8EF"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.area_script.AreaEnter_a_sch_ground01.partnerSet
+function CE17C3CBE5FB17212_prototype:F39DA283B85F1C8EF(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = false
   L4_2 = 0
@@ -407,16 +400,16 @@ function L70_1(A0_2, A1_2, A2_2)
     L8_2 = L8_2.targetEvent
     L7_2 = L7_2(L8_2)
     if L3_2 and L7_2 then
-      L9_2 = A0_2
-      L8_2 = A0_2.F1B35536902C411CA
+      L9_2 = self
+      L8_2 = self.F1B35536902C411CA
       L10_2 = L6_2 - 1
       L10_2 = A1_2[L10_2]
       L10_2 = L10_2.pokeObjName
       L11_2 = A2_2
       L8_2(L9_2, L10_2, L11_2)
     elseif not (not L3_2 or L7_2) or not L3_2 and not L7_2 then
-      L9_2 = A0_2
-      L8_2 = A0_2.F1B35536902C411CA
+      L9_2 = self
+      L8_2 = self.F1B35536902C411CA
       L10_2 = A1_2[L6_2]
       L10_2 = L10_2.pokeObjName
       L11_2 = A2_2
@@ -426,11 +419,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE17C3CBE5FB17212"]["prototype"]
-L69_1 = "F1B35536902C411CA"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.area_script.AreaEnter_a_sch_ground01.objectHide
+function CE17C3CBE5FB17212_prototype:F1B35536902C411CA(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = A2_2
   L3_2 = A2_2.fD4E64AB7
@@ -504,14 +494,11 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE17C3CBE5FB17212"]["prototype"]
-L69_1 = "F681F637896DD79AA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.general.area_script.AreaEnter_a_sch_ground01.trainerPokeAllHide
+function CE17C3CBE5FB17212_prototype:F681F637896DD79AA(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F1B35536902C411CA
+  L5_2 = self
+  L4_2 = self.F1B35536902C411CA
   L6_2 = A1_2
   L7_2 = A2_2
   L4_2(L5_2, L6_2, L7_2)
@@ -523,8 +510,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
     L5_2 = A3_2[L4_2]
     L4_2 = L4_2 + 1
-    L7_2 = A0_2
-    L6_2 = A0_2.F1B35536902C411CA
+    L7_2 = self
+    L6_2 = self.F1B35536902C411CA
     L8_2 = L5_2.pokeObjName
     L9_2 = A2_2
     L6_2(L7_2, L8_2, L9_2)

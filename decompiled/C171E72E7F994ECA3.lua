@@ -1,3 +1,7 @@
+---@alias C171E72E7F994ECA3 main_flylanding_FlyLandingPlayerSafeChecker
+
+---@class main_flylanding_FlyLandingPlayerSafeChecker : C171E72E7F994ECA3_prototype
+---@field prototype C171E72E7F994ECA3_prototype
 L55_1 = _ENV
 L56_1 = "C171E72E7F994ECA3"
 L57_1 = L15_1
@@ -46,20 +50,15 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C171E72E7F994ECA3"]
 L69_1 = "__name__"
 L70_1 = "C171E72E7F994ECA3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C171E72E7F994ECA3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C171E72E7F994ECA3"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C171E72E7F994ECA3_prototype
+C171E72E7F994ECA3_prototype = L15_1()
+C171E72E7F994ECA3.prototype = C171E72E7F994ECA3_prototype
+--- main.flylanding.FlyLandingPlayerSafeChecker.Setup
+function C171E72E7F994ECA3_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fC9F06BB8
@@ -68,11 +67,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C171E72E7F994ECA3"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.flylanding.FlyLandingPlayerSafeChecker.PreUpdate
+function C171E72E7F994ECA3_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A1_2
   L2_2 = A1_2.f22D509B2
@@ -81,27 +77,24 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.fC0E2CAD0
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L3_2 = L3_2 + L2_2
-  A0_2[4] = L3_2
-  L3_2 = A0_2[4]
-  L4_2 = A0_2[3]
+  self[4] = L3_2
+  L3_2 = self[4]
+  L4_2 = self[3]
   if L3_2 >= L4_2 then
-    L3_2 = A0_2[4]
-    L4_2 = A0_2[3]
+    L3_2 = self[4]
+    L4_2 = self[3]
     L3_2 = L3_2 - L4_2
-    A0_2[4] = L3_2
-    L4_2 = A0_2
-    L3_2 = A0_2.FAD92C08805787AA0
+    self[4] = L3_2
+    L4_2 = self
+    L3_2 = self.FAD92C08805787AA0
     L3_2(L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C171E72E7F994ECA3"]["prototype"]
-L69_1 = "FAD92C08805787AA0"
-
-function L70_1(A0_2)
+--- main.flylanding.FlyLandingPlayerSafeChecker.FAD92C08805787AA0
+function C171E72E7F994ECA3_prototype:FAD92C08805787AA0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S10B32CE3FEC94B7B
@@ -231,7 +224,7 @@ function L70_1(A0_2)
   end
   L4_2 = C043642B35062DFB9
   L4_2 = L4_2.S4A491D288AE384A5
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L4_2 = L4_2(L5_2)
   if nil ~= L4_2 then
     L5_2 = L4_2.iconPosition
@@ -250,7 +243,7 @@ function L70_1(A0_2)
     L12_2 = L5_2[3]
     L12_2 = L12_2 - L8_2
     L9_2 = L9_2(L10_2, L11_2, L12_2)
-    L10_2 = A0_2[2]
+    L10_2 = self[2]
     if L9_2 < L10_2 then
       return
     end

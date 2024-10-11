@@ -1,3 +1,6 @@
+---@alias C1CCC42394C502C14 main_ui_shop_util_ShopUIUtil
+
+---@class main_ui_shop_util_ShopUIUtil
 L55_1 = _ENV
 L56_1 = "C06DC6DF187873280"
 L57_1 = L15_1

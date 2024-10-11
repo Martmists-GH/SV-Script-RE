@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CA4C5F9FA83D2AF80"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "__name__"
-L70_1 = "CA4C5F9FA83D2AF80"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "SDF0C255E6E08D740"
+---@alias CA4C5F9FA83D2AF80 main_event_common_scenario_ScenarioCommon
 
-function L70_1()
+---@class main_event_common_scenario_ScenarioCommon
+CA4C5F9FA83D2AF80 = L15_1()
+CA4C5F9FA83D2AF80.new = {}
+CA4C5F9FA83D2AF80.__name__ = "CA4C5F9FA83D2AF80"
+--- main.event.common.scenario.ScenarioCommon.SDF0C255E6E08D740
+function CA4C5F9FA83D2AF80.SDF0C255E6E08D740()
   local L0_2, L1_2
   L0_2 = CC6FE82819C6E1D55
   L0_2 = L0_2.S456C704648223659
@@ -23,11 +14,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "S8BD66C277AC80BAC"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.ScenarioCommon.WaitFieldObjectSetup
+function CA4C5F9FA83D2AF80.S8BD66C277AC80BAC(A0_2)
   local L1_2, L2_2, L3_2
   while true do
     L1_2 = CDCBFD50A277E546D
@@ -49,11 +37,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "S2FE3C42E360AC275"
-
-function L70_1()
+--- main.event.common.scenario.ScenarioCommon.S2FE3C42E360AC275
+function CA4C5F9FA83D2AF80.S2FE3C42E360AC275()
   local L0_2, L1_2
   L0_2 = CD834D40ADE3577B3
   L0_2 = L0_2.SE04FE1B8806D9FAA
@@ -69,11 +54,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "S9657B5C2A726AD89"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.ScenarioCommon.S9657B5C2A726AD89
+function CA4C5F9FA83D2AF80.S9657B5C2A726AD89(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CA4C5F9FA83D2AF80
   L1_2 = L1_2.S2FE3C42E360AC275
@@ -97,11 +79,8 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "SAD20A59A420BF7B1"
-
-function L70_1()
+--- main.event.common.scenario.ScenarioCommon.GetRivalIconID
+function CA4C5F9FA83D2AF80.SAD20A59A420BF7B1()
   local L0_2, L1_2
   L0_2 = CA4C5F9FA83D2AF80
   L0_2 = L0_2.SDF0C255E6E08D740
@@ -115,11 +94,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "S0A0A731589B03747"
-
-function L70_1()
+--- main.event.common.scenario.ScenarioCommon.GetFriendIconID
+function CA4C5F9FA83D2AF80.S0A0A731589B03747()
   local L0_2, L1_2
   L0_2 = CA4C5F9FA83D2AF80
   L0_2 = L0_2.SDF0C255E6E08D740
@@ -133,11 +109,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "S0F389050EBDB9BB0"
-
-function L70_1()
+--- main.event.common.scenario.ScenarioCommon.GetDoctorIconID
+function CA4C5F9FA83D2AF80.S0F389050EBDB9BB0()
   local L0_2, L1_2
   L0_2 = CA4C5F9FA83D2AF80
   L0_2 = L0_2.SDF0C255E6E08D740
@@ -151,11 +124,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "S04F04B9EF053FD9F"
-
-function L70_1()
+--- main.event.common.scenario.ScenarioCommon.S04F04B9EF053FD9F
+function CA4C5F9FA83D2AF80.S04F04B9EF053FD9F()
   local L0_2, L1_2
   L0_2 = CA4C5F9FA83D2AF80
   L0_2 = L0_2.SDF0C255E6E08D740
@@ -169,11 +139,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "S45DBAE0BACBC9ECE"
-
-function L70_1(A0_2, A1_2)
+--- main.event.common.scenario.ScenarioCommon.AnimationRateUpdate
+function CA4C5F9FA83D2AF80.S45DBAE0BACBC9ECE(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A1_2 then
     A1_2 = -1
@@ -249,11 +216,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "S03ECA4F72D1ACCE6"
-
-function L70_1(A0_2, A1_2)
+--- main.event.common.scenario.ScenarioCommon.S03ECA4F72D1ACCE6
+function CA4C5F9FA83D2AF80.S03ECA4F72D1ACCE6(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A1_2 then
     A1_2 = 0.0
@@ -321,11 +285,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "S04268236521788DE"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.ScenarioCommon.S04268236521788DE
+function CA4C5F9FA83D2AF80.S04268236521788DE(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CD081B219DEE96EEF
   L1_2 = L1_2.S05EDF33FC818F6B8
@@ -357,11 +318,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "SF6925951C490B255"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.ScenarioCommon.WaitSetUpSceneEnumerateObjects
+function CA4C5F9FA83D2AF80.SF6925951C490B255(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -425,11 +383,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4C5F9FA83D2AF80"]
-L69_1 = "S29FAA4509B5A9FB2"
-
-function L70_1(A0_2, A1_2)
+--- main.event.common.scenario.ScenarioCommon.S29FAA4509B5A9FB2
+function CA4C5F9FA83D2AF80.S29FAA4509B5A9FB2(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A1_2 then
     return

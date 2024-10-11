@@ -1,8 +1,7 @@
-L55_1 = _ENV
-L56_1 = "C3770542F1DC790BF"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
+---@alias C3770542F1DC790BF main_event_general_school_base_School_common
+
+---@class main_event_general_school_base_School_common
+C3770542F1DC790BF = L15_1()
 L55_1 = L15_1
 L55_1 = L55_1()
 C5494463B93586D5E = L55_1
@@ -24,18 +23,10 @@ CD4FA9948F629EF36 = L55_1
 L55_1 = L15_1
 L55_1 = L55_1()
 CAAB8219B9360D02F = L55_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "__name__"
-L70_1 = "C3770542F1DC790BF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S33CE0AFC746835E9"
-
-function L70_1(A0_2, A1_2, A2_2)
+C3770542F1DC790BF.new = {}
+C3770542F1DC790BF.__name__ = "C3770542F1DC790BF"
+--- main.event.general.school.base.School_common.OnAreaEnter
+function C3770542F1DC790BF.S33CE0AFC746835E9(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L3_2 = true
   L4_2 = C05D9E556B496A3DF
@@ -224,11 +215,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L11_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SC2CC353A02437669"
-
-function L70_1()
+--- main.event.general.school.base.School_common.OnAreaExit
+function C3770542F1DC790BF.SC2CC353A02437669()
   local L0_2, L1_2
   L0_2 = C3770542F1DC790BF
   L0_2 = L0_2.SC087BE0BE1DFF0A3
@@ -241,11 +229,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SF0BCBBABE68A96CB"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.school.base.School_common.setExclusiveEvent
+function C3770542F1DC790BF.SF0BCBBABE68A96CB(A0_2, A1_2)
   local L2_2, L3_2
   if A1_2 then
     L2_2 = A0_2.length
@@ -260,11 +245,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S76C48B67AAE1F51D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.school.base.School_common.setSceneLoad
+function C3770542F1DC790BF.S76C48B67AAE1F51D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if not A2_2 then
     return
@@ -287,33 +269,24 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SA7370F8A6D7E926A"
-
-function L70_1()
+--- main.event.general.school.base.School_common.isStudyEvent
+function C3770542F1DC790BF.SA7370F8A6D7E926A()
   local L0_2, L1_2
   L0_2 = C3770542F1DC790BF
   L0_2 = L0_2.S74D894A5475E6FCC
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S90C157F6EB9E3C8D"
-
-function L70_1()
+--- main.event.general.school.base.School_common.GetCurrentEventId
+function C3770542F1DC790BF.S90C157F6EB9E3C8D()
   local L0_2, L1_2
   L0_2 = C3770542F1DC790BF
   L0_2 = L0_2.SD2378A37093E31BD
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S65C791107CAF22BA"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.GetDaytimeScene
+function C3770542F1DC790BF.S65C791107CAF22BA(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C3770542F1DC790BF
   L1_2 = L1_2.S2DDCD9F7BB16C43A
@@ -322,11 +295,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SB31A172B5E326FCE"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.SB31A172B5E326FCE
+function C3770542F1DC790BF.SB31A172B5E326FCE(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C3770542F1DC790BF
   L1_2 = L1_2.S2DDCD9F7BB16C43A
@@ -335,11 +305,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S9182F8FAB7796D47"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.GetStudytimeScene
+function C3770542F1DC790BF.S9182F8FAB7796D47(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C3770542F1DC790BF
   L1_2 = L1_2.SA39A273021ECBBD1
@@ -348,11 +315,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SB6A3EAF21EDC229C"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.GetScenarioCommonScene
+function C3770542F1DC790BF.SB6A3EAF21EDC229C(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C3770542F1DC790BF
   L1_2 = L1_2.SA39A273021ECBBD1
@@ -361,11 +325,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S2DDCD9F7BB16C43A"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.school.base.School_common.GetEventFindScene
+function C3770542F1DC790BF.S2DDCD9F7BB16C43A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = C3770542F1DC790BF
   L2_2 = L2_2.SF38F9B763A375263
@@ -417,11 +378,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SA39A273021ECBBD1"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.school.base.School_common.getEventFindSceneInitWait
+function C3770542F1DC790BF.SA39A273021ECBBD1(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C3770542F1DC790BF
   L2_2 = L2_2.S231EA0A072C9AD68
@@ -455,11 +413,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S231EA0A072C9AD68"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.school.base.School_common.getEventFindSceneInitCheck
+function C3770542F1DC790BF.S231EA0A072C9AD68(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = L16_1
   L3_2 = {}
@@ -538,11 +493,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S0212F07D445966B8"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.school.base.School_common.sceneInitWait
+function C3770542F1DC790BF.S0212F07D445966B8(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = L16_1
   L3_2 = {}
@@ -645,11 +597,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SF38F9B763A375263"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.GetEventScene
+function C3770542F1DC790BF.SF38F9B763A375263(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S474A279FC41C6D90
@@ -684,11 +633,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SD9567902FBCA5913"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.LoadObjEventOn
+function C3770542F1DC790BF.SD9567902FBCA5913(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C3770542F1DC790BF
   L1_2 = L1_2.SC749CAB9883406E8
@@ -708,11 +654,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S4388137E5E952658"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.S4388137E5E952658
+function C3770542F1DC790BF.S4388137E5E952658(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C3770542F1DC790BF
   L1_2 = L1_2.SC749CAB9883406E8
@@ -732,11 +675,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SC749CAB9883406E8"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.getEventOnScene
+function C3770542F1DC790BF.SC749CAB9883406E8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S474A279FC41C6D90
@@ -785,11 +725,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S8E408409E285438B"
-
-function L70_1()
+--- main.event.general.school.base.School_common.S8E408409E285438B
+function C3770542F1DC790BF.S8E408409E285438B()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L0_2 = _hx_tab_array
   L1_2 = {}
@@ -943,11 +880,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SF6F77A14F251BF68"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.school.base.School_common.SF6F77A14F251BF68
+function C3770542F1DC790BF.SF6F77A14F251BF68(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A1_2 then
     A1_2 = false
@@ -987,11 +921,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S18790E7425C52098"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.school.base.School_common.StudyEnter
+function C3770542F1DC790BF.S18790E7425C52098(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = C3770542F1DC790BF
   L2_2 = L2_2.S690DDBF113EBD05A
@@ -1084,11 +1015,8 @@ function L70_1(A0_2, A1_2)
   L5_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S9DF48526B1BE50B6"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.StudyExit
+function C3770542F1DC790BF.S9DF48526B1BE50B6(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C3770542F1DC790BF
   L1_2 = L1_2.S690DDBF113EBD05A
@@ -1147,11 +1075,8 @@ function L70_1(A0_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S690DDBF113EBD05A"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.getStudyMapChangeInfo
+function C3770542F1DC790BF.S690DDBF113EBD05A(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C3770542F1DC790BF
@@ -1172,11 +1097,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S1E7EFA560221FB82"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.getStudyChairObj
+function C3770542F1DC790BF.S1E7EFA560221FB82(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C3770542F1DC790BF
   L1_2 = L1_2.S9182F8FAB7796D47
@@ -1223,11 +1145,8 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S622020E1AE3A27F3"
-
-function L70_1()
+--- main.event.general.school.base.School_common.SetCommonCameraMoveAngle
+function C3770542F1DC790BF.S622020E1AE3A27F3()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = C9F6C325569B7E07F
   L0_2 = L0_2.S2E9035BDE01AB38A
@@ -1253,11 +1172,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SD54C54FDBFB3D911"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.SetStudyStyle
+function C3770542F1DC790BF.SD54C54FDBFB3D911(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L1_2 = C3770542F1DC790BF
   L1_2 = L1_2.S690DDBF113EBD05A
@@ -1388,11 +1304,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S14F29D4FD7BFF31E"
-
-function L70_1()
+--- main.event.general.school.base.School_common.S14F29D4FD7BFF31E
+function C3770542F1DC790BF.S14F29D4FD7BFF31E()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L0_2 = _hx_tab_array
   L1_2 = {}
@@ -1469,11 +1382,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S04530D24A66EA0F1"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.school.base.School_common.isCanStartKizunaEvent
+function C3770542F1DC790BF.S04530D24A66EA0F1(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = C3770542F1DC790BF
   L2_2 = L2_2.S733A6A3AC9468D9A
@@ -1539,11 +1449,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SA4586B89737A4B86"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.SA4586B89737A4B86
+function C3770542F1DC790BF.SA4586B89737A4B86(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
   L2_2 = C3770542F1DC790BF
@@ -1573,11 +1480,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S0955DF912D34D6D9"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.general.school.base.School_common.S0955DF912D34D6D9
+function C3770542F1DC790BF.S0955DF912D34D6D9(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if not A3_2 then
     return
@@ -1678,11 +1582,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SDFA523871995183F"
-
-function L70_1()
+--- main.event.general.school.base.School_common.SDFA523871995183F
+function C3770542F1DC790BF.SDFA523871995183F()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = 0
   L1_2 = C3770542F1DC790BF
@@ -1728,11 +1629,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SB33E69F11AE57262"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.SB33E69F11AE57262
+function C3770542F1DC790BF.SB33E69F11AE57262(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C3770542F1DC790BF
@@ -1754,11 +1652,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S251D7AF516B3FE54"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.S251D7AF516B3FE54
+function C3770542F1DC790BF.S251D7AF516B3FE54(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
   L2_2 = C3770542F1DC790BF
@@ -1782,11 +1677,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S1D624DE8C0F2EE44"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.isResidentNpcEvent
+function C3770542F1DC790BF.S1D624DE8C0F2EE44(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = 0
   L2_2 = C3770542F1DC790BF
@@ -1827,11 +1719,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S25FEF6F148952EE4"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.general.school.base.School_common.TestResult
+function C3770542F1DC790BF.S25FEF6F148952EE4(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L4_2 = L31_1.string
   L5_2 = L31_1.string
@@ -2199,11 +2088,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S7EE1AAEBF57BC77D"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.isAllTestClear
+function C3770542F1DC790BF.S7EE1AAEBF57BC77D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -2258,11 +2144,8 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S8864B2192EE42853"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.GetTakeMessage
+function C3770542F1DC790BF.S8864B2192EE42853(A0_2)
   local L1_2
   if 0 == A0_2 then
     L1_2 = "school_reception_02a"
@@ -2291,33 +2174,24 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SF253E8973C0977CD"
-
-function L70_1()
+--- main.event.general.school.base.School_common.GetReviewSubject
+function C3770542F1DC790BF.SF253E8973C0977CD()
   local L0_2, L1_2
   L0_2 = C3770542F1DC790BF
   L0_2 = L0_2.S5515DAFAF6A20DEA
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SC1ACD039A91B933C"
-
-function L70_1()
+--- main.event.general.school.base.School_common.SC1ACD039A91B933C
+function C3770542F1DC790BF.SC1ACD039A91B933C()
   local L0_2, L1_2
   L0_2 = C3770542F1DC790BF
   L0_2 = L0_2.S8316E400DCB2F384
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S3D007D39DFA3C1C1"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.school.base.School_common.OpenTestWindow
+function C3770542F1DC790BF.S3D007D39DFA3C1C1(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.S1FEF2E6DA00E3DF1
@@ -2348,11 +2222,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SE0FD3C37B456508F"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.IsTestEvent
+function C3770542F1DC790BF.SE0FD3C37B456508F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L10_1.string
   L1_2 = L1_2.find
@@ -2416,11 +2287,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S1862E96AF9F7DA45"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.GetReviewScriptId
+function C3770542F1DC790BF.S1862E96AF9F7DA45(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = L31_1.string
   L2_2 = A0_2
@@ -2432,11 +2300,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S41DC3AB99B1C87EB"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.school.base.School_common.GetTestRewardItem
+function C3770542F1DC790BF.S41DC3AB99B1C87EB(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C3770542F1DC790BF
   L2_2 = L2_2.S862C0D3EF4DC5420
@@ -2453,11 +2318,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SD6FBA573A84ACD03"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.SetUpBlackboardClass1a
+function C3770542F1DC790BF.SD6FBA573A84ACD03(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -2519,11 +2381,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S0669965276C9DA17"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.StudyPartnerSpawn
+function C3770542F1DC790BF.S0669965276C9DA17(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L1_2 = C3770542F1DC790BF
   L1_2 = L1_2.S3A2ADB7A8D823995
@@ -2648,11 +2507,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S3A2ADB7A8D823995"
-
-function L70_1()
+--- main.event.general.school.base.School_common.CreateStudyPartnerPoke
+function C3770542F1DC790BF.S3A2ADB7A8D823995()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = CC6FE82819C6E1D55
   L0_2 = L0_2.S3252424B748C9A31
@@ -2732,11 +2588,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SAFBFAE46BE949D52"
-
-function L70_1()
+--- main.event.general.school.base.School_common.DeleteStudyPartnerPoke
+function C3770542F1DC790BF.SAFBFAE46BE949D52()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.S722AB07CDD6DEDA4
@@ -2767,11 +2620,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S0B2ECFCBE776557C"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.SetPokemonGroundState
+function C3770542F1DC790BF.S0B2ECFCBE776557C(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = c32245D3F
   L1_2 = L1_2.fB41FD22F
@@ -2975,11 +2825,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SB6E05FC14AF12DAD"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.school.base.School_common.FaceEachOther
+function C3770542F1DC790BF.SB6E05FC14AF12DAD(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = true
@@ -3019,11 +2866,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S8B4BCDADBF3BE496"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.school.base.School_common.S8B4BCDADBF3BE496
+function C3770542F1DC790BF.S8B4BCDADBF3BE496(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
   L3_2 = A1_2.npcNames
@@ -3043,11 +2887,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SDED553121CB33F26"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.SDED553121CB33F26
+function C3770542F1DC790BF.SDED553121CB33F26(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
   L2_2 = A0_2.messageInfos
@@ -3098,11 +2939,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SF5A8FB1663555DE1"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.SF5A8FB1663555DE1
+function C3770542F1DC790BF.SF5A8FB1663555DE1(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
   L2_2 = C3770542F1DC790BF
@@ -3130,11 +2968,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SD5EE7D1538C07A69"
-
-function L70_1()
+--- main.event.general.school.base.School_common.SD5EE7D1538C07A69
+function C3770542F1DC790BF.SD5EE7D1538C07A69()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = {}
   L1_2 = 0.09
@@ -3239,11 +3074,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SD616F46874D6BCB4"
-
-function L70_1()
+--- main.event.general.school.base.School_common.SD616F46874D6BCB4
+function C3770542F1DC790BF.SD616F46874D6BCB4()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = {}
   L1_2 = 6.6
@@ -3301,11 +3133,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S4BA028C69926DA4A"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.SceneLoadWait
+function C3770542F1DC790BF.S4BA028C69926DA4A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -3380,22 +3209,16 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "SDB0081394E2D4D54"
-
-function L70_1()
+--- main.event.general.school.base.School_common.SDB0081394E2D4D54
+function C3770542F1DC790BF.SDB0081394E2D4D54()
   local L0_2, L1_2
   L0_2 = C3770542F1DC790BF
   L0_2 = L0_2.S127D4639ED749E8E
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S8D187908B127DDCA"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.S8D187908B127DDCA
+function C3770542F1DC790BF.S8D187908B127DDCA(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C07E4F1BF071B0460
   L1_2 = L1_2.SD70567B53DCF1EBB
@@ -3454,11 +3277,8 @@ function L70_1(A0_2)
   L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S73B56232EE2FBBBA"
-
-function L70_1()
+--- main.event.general.school.base.School_common.S73B56232EE2FBBBA
+function C3770542F1DC790BF.S73B56232EE2FBBBA()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = C3770542F1DC790BF
   L0_2.S127D4639ED749E8E = true
@@ -3510,11 +3330,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3770542F1DC790BF"]
-L69_1 = "S733A6A3AC9468D9A"
-
-function L70_1(A0_2)
+--- main.event.general.school.base.School_common.S733A6A3AC9468D9A
+function C3770542F1DC790BF.S733A6A3AC9468D9A(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.SE7175DE65882221F

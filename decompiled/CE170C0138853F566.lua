@@ -1,3 +1,7 @@
+---@alias CE170C0138853F566 main_ui_hairsalon_view_HairsalonShopUISelectSequence
+
+---@class main_ui_hairsalon_view_HairsalonShopUISelectSequence : CE170C0138853F566_prototype
+---@field prototype CE170C0138853F566_prototype
 L55_1 = _ENV
 L56_1 = "CE170C0138853F566"
 L57_1 = L15_1
@@ -40,32 +44,24 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE170C0138853F566"]
 L69_1 = "__name__"
 L70_1 = "CE170C0138853F566"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE170C0138853F566"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE170C0138853F566"]["prototype"]
-L69_1 = "F8ECAA28B9538110D"
-
-function L70_1(A0_2)
+---@class CE170C0138853F566_prototype
+CE170C0138853F566_prototype = L15_1()
+CE170C0138853F566.prototype = CE170C0138853F566_prototype
+--- main.ui.hairsalon.view.HairsalonShopUISelectSequence.CreateCoroutine
+function CE170C0138853F566_prototype:F8ECAA28B9538110D()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F5AC5451A0163F820
+  L3_2 = self
+  L4_2 = self.F5AC5451A0163F820
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "hairsalon_shopUI_select_sequence"
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE170C0138853F566"]["prototype"]
-L69_1 = "F5AC5451A0163F820"
-
-function L70_1(A0_2)
+--- main.ui.hairsalon.view.HairsalonShopUISelectSequence.SelectSequence
+function CE170C0138853F566_prototype:F5AC5451A0163F820()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CCD22EFED4E9E5F89
   L1_2 = L1_2.S93443174B4C9128E
@@ -82,7 +78,7 @@ function L70_1(A0_2)
   L3_2 = L1_2
   L2_2 = L1_2.fABEB9F55
   L4_2 = 0
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = 4
   L7_2 = 0
   L8_2 = 1
@@ -138,14 +134,14 @@ function L70_1(A0_2)
   L4_2 = L2_2
   L3_2 = L3_2(L4_2)
   if 0 == L3_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F7A5F2BF5BB75DF0B
+    L5_2 = self
+    L4_2 = self.F7A5F2BF5BB75DF0B
     L4_2(L5_2)
   elseif 1 == L3_2 then
     L4_2 = CF91B1076ACF67AF6
     L4_2 = L4_2.S24A434C639CFE605
     L4_2()
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.FBF9A6D5AD717FAF0
     L6_2 = false
@@ -153,25 +149,22 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE170C0138853F566"]["prototype"]
-L69_1 = "F7A5F2BF5BB75DF0B"
-
-function L70_1(A0_2)
+--- main.ui.hairsalon.view.HairsalonShopUISelectSequence.Arrangement
+function CE170C0138853F566_prototype:F7A5F2BF5BB75DF0B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C41AF1C042AB05442
   L1_2 = L1_2.S264F26F6894F3392
   L2_2 = L1_2
   L1_2 = L1_2.F978B5817EAFDF8C8
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if L1_2 < L2_2 then
     L1_2 = C41AF1C042AB05442
     L1_2 = L1_2.S264F26F6894F3392
     L2_2 = L1_2
     L1_2 = L1_2.FE3E7EF9576663B08
     L1_2 = L1_2(L2_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     if L1_2 < L2_2 then
       L1_2 = c8C3BF576
       L1_2 = L1_2.fC8CEF9EF
@@ -211,7 +204,7 @@ function L70_1(A0_2)
       L4_2 = CF91B1076ACF67AF6
       L4_2 = L4_2.S24A434C639CFE605
       L4_2()
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = L4_2
       L4_2 = L4_2.FBF9A6D5AD717FAF0
       L6_2 = false
@@ -253,7 +246,7 @@ function L70_1(A0_2)
     L4_2 = C71E20570A8F58A79
     L4_2 = L4_2.S054918C23618C6F7
     L4_2()
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.F7CF1F23C6CD10A86
     L6_2 = false
@@ -261,7 +254,7 @@ function L70_1(A0_2)
     L4_2 = CCD22EFED4E9E5F89
     L4_2 = L4_2.S4B3DD107F4CBB90C
     L4_2()
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.F8AC41FED51C7CFCF
     L4_2(L5_2)

@@ -1,3 +1,5 @@
+---@class C60FFFA143D3A3ABA : C60FFFA143D3A3ABA_prototype
+---@field prototype C60FFFA143D3A3ABA_prototype
 L55_1 = _ENV
 L56_1 = "C60FFFA143D3A3ABA"
 L57_1 = L15_1
@@ -45,18 +47,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C60FFFA143D3A3ABA"]
 L69_1 = "__name__"
 L70_1 = "C60FFFA143D3A3ABA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60FFFA143D3A3ABA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60FFFA143D3A3ABA"]["prototype"]
-L69_1 = "FBF02A2AE63AF40EC"
-
-function L70_1(A0_2)
+---@class C60FFFA143D3A3ABA_prototype
+C60FFFA143D3A3ABA_prototype = L15_1()
+C60FFFA143D3A3ABA.prototype = C60FFFA143D3A3ABA_prototype
+--- C60FFFA143D3A3ABA.OnStart
+function C60FFFA143D3A3ABA_prototype:FBF02A2AE63AF40EC()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2.Mode
   if 2 == L1_2 then
     L1_2 = CE6EE3F9C54FC6D83
@@ -65,30 +62,27 @@ function L70_1(A0_2)
     if L1_2 then
       L1_2 = CB0BEBEE40B9DEABD
       L1_2 = L1_2.SFCE091807173F6E9
-      L2_2 = A0_2[5]
+      L2_2 = self[5]
       L2_2 = L2_2.TalkPokeObj
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L3_2 = L3_2.Mode
       L1_2 = L1_2(L2_2, L3_2)
-      A0_2[7] = L1_2
+      self[7] = L1_2
     end
   else
     L1_2 = CC1499AED82D7DDC1
     L1_2 = L1_2.SFCE091807173F6E9
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L2_2 = L2_2.TalkPokeObj
     L1_2 = L1_2(L2_2)
-    A0_2[7] = L1_2
+    self[7] = L1_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60FFFA143D3A3ABA"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- C60FFFA143D3A3ABA.OnUpdate
+function C60FFFA143D3A3ABA_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   
   function L3_2()
     local L0_3, L1_3, L2_3
@@ -110,15 +104,12 @@ function L70_1(A0_2, A1_2)
   
   L3_2 = L3_2()
   if L3_2 then
-    A0_2[2] = true
+    self[2] = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60FFFA143D3A3ABA"]["prototype"]
-L69_1 = "FC106B0B5B59826BF"
-
-function L70_1(A0_2)
+--- C60FFFA143D3A3ABA.OnFinish
+function C60FFFA143D3A3ABA_prototype:FC106B0B5B59826BF()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C6F1822A717AC599D
   L1_2 = L1_2.S264F26F6894F3392

@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "CD508E20E7E006A78"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CD508E20E7E006A78"]
-L69_1 = "new"
-
-function L70_1()
+---@class CD508E20E7E006A78 : CD508E20E7E006A78_prototype
+---@field prototype CD508E20E7E006A78_prototype
+CD508E20E7E006A78 = L15_1()
+function CD508E20E7E006A78.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = CD508E20E7E006A78
@@ -21,11 +16,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD508E20E7E006A78"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 CD508E20E7E006A78
+function CD508E20E7E006A78.super(A0_2)
   local L1_2, L2_2
   A0_2[1] = nil
   L2_2 = A0_2
@@ -33,11 +25,7 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD508E20E7E006A78"]
-L69_1 = "__name__"
-L70_1 = "CD508E20E7E006A78"
-L68_1[L69_1] = L70_1
+CD508E20E7E006A78.__name__ = "CD508E20E7E006A78"
 L68_1 = _ENV["CD508E20E7E006A78"]
 L69_1 = "S385504EFF7E842C3"
 
@@ -57,90 +45,67 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD508E20E7E006A78"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD508E20E7E006A78"]["prototype"]
-L69_1 = "FFA13CA89EDA808EF"
-
-function L70_1(A0_2)
+---@class CD508E20E7E006A78_prototype
+CD508E20E7E006A78_prototype = L15_1()
+CD508E20E7E006A78.prototype = CD508E20E7E006A78_prototype
+--- CD508E20E7E006A78.FFA13CA89EDA808EF
+function CD508E20E7E006A78_prototype:FFA13CA89EDA808EF()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD508E20E7E006A78"]["prototype"]
-L69_1 = "F81266F119B51AC4B"
-
-function L70_1(A0_2, A1_2)
+--- CD508E20E7E006A78.F81266F119B51AC4B
+function CD508E20E7E006A78_prototype:F81266F119B51AC4B(A1_2)
   local L2_2
-  A0_2[1] = A1_2
-  L2_2 = A0_2[1]
+  self[1] = A1_2
+  L2_2 = self[1]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD508E20E7E006A78"]["prototype"]
-L69_1 = "FB1DD898B5B5E739E"
-
-function L70_1(A0_2)
+--- CD508E20E7E006A78.get_lastCursorIndex
+function CD508E20E7E006A78_prototype:FB1DD898B5B5E739E()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD508E20E7E006A78"]["prototype"]
-L69_1 = "F0258B88544C0FD2A"
-
-function L70_1(A0_2, A1_2)
+--- CD508E20E7E006A78.set_lastCursorIndex
+function CD508E20E7E006A78_prototype:F0258B88544C0FD2A(A1_2)
   local L2_2
-  A0_2[2] = A1_2
-  L2_2 = A0_2[2]
+  self[2] = A1_2
+  L2_2 = self[2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD508E20E7E006A78"]["prototype"]
-L69_1 = "F52E6C66C0647DB39"
-
-function L70_1(A0_2)
+--- CD508E20E7E006A78.F52E6C66C0647DB39
+function CD508E20E7E006A78_prototype:F52E6C66C0647DB39()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD508E20E7E006A78"]["prototype"]
-L69_1 = "F46C8E6EF555C9135"
-
-function L70_1(A0_2, A1_2)
+--- CD508E20E7E006A78.F46C8E6EF555C9135
+function CD508E20E7E006A78_prototype:F46C8E6EF555C9135(A1_2)
   local L2_2
-  A0_2[3] = A1_2
-  L2_2 = A0_2[3]
+  self[3] = A1_2
+  L2_2 = self[3]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD508E20E7E006A78"]["prototype"]
-L69_1 = "F7A3D296366E973CB"
-
-function L70_1(A0_2)
+--- CD508E20E7E006A78.Initialize
+function CD508E20E7E006A78_prototype:F7A3D296366E973CB()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F81266F119B51AC4B
+  L2_2 = self
+  L1_2 = self.F81266F119B51AC4B
   L3_2 = nil
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F0258B88544C0FD2A
+  L2_2 = self
+  L1_2 = self.F0258B88544C0FD2A
   L3_2 = -1
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F46C8E6EF555C9135
+  L2_2 = self
+  L1_2 = self.F46C8E6EF555C9135
   L3_2 = 0
   L1_2(L2_2, L3_2)
 end

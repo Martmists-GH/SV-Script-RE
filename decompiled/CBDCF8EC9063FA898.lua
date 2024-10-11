@@ -1,3 +1,5 @@
+---@class CBDCF8EC9063FA898 : CBDCF8EC9063FA898_prototype
+---@field prototype CBDCF8EC9063FA898_prototype
 L55_1 = _ENV
 L56_1 = "CBDCF8EC9063FA898"
 L57_1 = L15_1
@@ -43,69 +45,55 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CBDCF8EC9063FA898"]
 L69_1 = "__name__"
 L70_1 = "CBDCF8EC9063FA898"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDCF8EC9063FA898"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDCF8EC9063FA898"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CBDCF8EC9063FA898_prototype
+CBDCF8EC9063FA898_prototype = L15_1()
+CBDCF8EC9063FA898.prototype = CBDCF8EC9063FA898_prototype
+--- CBDCF8EC9063FA898.onCreate
+function CBDCF8EC9063FA898_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2.useCoroutine = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDCF8EC9063FA898"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- CBDCF8EC9063FA898.onPreUpdate
+function CBDCF8EC9063FA898_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FCA0AAFEC77E72DFD
+  L2_2 = self
+  L1_2 = self.FCA0AAFEC77E72DFD
   L1_2(L2_2)
-  L1_2 = A0_2[15]
+  L1_2 = self[15]
   L2_2 = L1_2
   L1_2 = L1_2.FB7673D1D53EC2B6B
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FBA2095964AC9E5F1
+    L2_2 = self
+    L1_2 = self.FBA2095964AC9E5F1
     L3_2 = 2
     L1_2(L2_2, L3_2)
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F3BE936E2C594A22C
+  L2_2 = self
+  L1_2 = self.F3BE936E2C594A22C
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FBA2095964AC9E5F1
+  L2_2 = self
+  L1_2 = self.FBA2095964AC9E5F1
   L3_2 = 1
   L1_2(L2_2, L3_2)
   L1_2 = 2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDCF8EC9063FA898"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- CBDCF8EC9063FA898.onFinish
+function CBDCF8EC9063FA898_prototype:FA2C827B56F56ABDF()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F42817CE413B58BFB
+  L2_2 = self
+  L1_2 = self.F42817CE413B58BFB
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDCF8EC9063FA898"]["prototype"]
-L69_1 = "FCA0AAFEC77E72DFD"
-
-function L70_1(A0_2)
+--- CBDCF8EC9063FA898.resetVoiceProbability
+function CBDCF8EC9063FA898_prototype:FCA0AAFEC77E72DFD()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = c86CE5CE8
   L2_2 = L2_2.fB41FD22F
   
@@ -134,7 +122,7 @@ function L70_1(A0_2)
     L4_2 = L2_2.fA0A80961
     L4_2(L5_2)
   end
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = cAA7097FF
   L5_2 = L5_2.fB41FD22F
   
@@ -168,17 +156,14 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDCF8EC9063FA898"]["prototype"]
-L69_1 = "F42817CE413B58BFB"
-
-function L70_1(A0_2)
+--- CBDCF8EC9063FA898.overwriteVoiceProbability
+function CBDCF8EC9063FA898_prototype:F42817CE413B58BFB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[15]
+  L1_2 = self[15]
   L2_2 = L1_2
   L1_2 = L1_2.F36FD82BE2D5D011B
   L1_2(L2_2)
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = cAA7097FF
   L2_2 = L2_2.fB41FD22F
   
@@ -206,7 +191,7 @@ function L70_1(A0_2)
     L5_2 = L2_2
     L4_2 = L2_2.fFAD92763
     L6_2 = "IS_SUPPORTING_CHARA"
-    L7_2 = A0_2[15]
+    L7_2 = self[15]
     L8_2 = L7_2
     L7_2 = L7_2.F9B395BBF7A51343A
     L7_2 = L7_2(L8_2)
@@ -215,13 +200,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDCF8EC9063FA898"]["prototype"]
-L69_1 = "FBA2095964AC9E5F1"
-
-function L70_1(A0_2, A1_2)
+--- CBDCF8EC9063FA898.playMotion
+function CBDCF8EC9063FA898_prototype:FBA2095964AC9E5F1(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = c44F58C26
   L3_2 = L3_2.fFA4E39DA
   
@@ -248,8 +230,8 @@ function L70_1(A0_2, A1_2)
   if L5_2 then
     return
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F275DBCECCED052C0
+  L6_2 = self
+  L5_2 = self.F275DBCECCED052C0
   L5_2(L6_2)
   L6_2 = L3_2
   L5_2 = L3_2.fF56461AF
@@ -337,18 +319,15 @@ function L70_1(A0_2, A1_2)
       L10_2()
     end
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.F275DBCECCED052C0
+  L8_2 = self
+  L7_2 = self.F275DBCECCED052C0
   L7_2(L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDCF8EC9063FA898"]["prototype"]
-L69_1 = "F275DBCECCED052C0"
-
-function L70_1(A0_2)
+--- CBDCF8EC9063FA898.wait
+function CBDCF8EC9063FA898_prototype:F275DBCECCED052C0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = c44F58C26
   L2_2 = L2_2.fFA4E39DA
   
@@ -502,13 +481,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDCF8EC9063FA898"]["prototype"]
-L69_1 = "F3BE936E2C594A22C"
-
-function L70_1(A0_2)
+--- CBDCF8EC9063FA898.beginBodyLookAt
+function CBDCF8EC9063FA898_prototype:F3BE936E2C594A22C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  L1_2 = A0_2[15]
+  L1_2 = self[15]
   L1_2 = L1_2[2]
   L2_2 = L1_2
   L1_2 = L1_2.FEF3A3B6876841F5A
@@ -815,21 +791,21 @@ function L70_1(A0_2)
       end
     end
   end
-  L3_2 = A0_2[15]
+  L3_2 = self[15]
   L3_2 = L3_2[2]
   L4_2 = L3_2
   L3_2 = L3_2.FEF3A3B6876841F5A
   L5_2 = C4F5ABED8643D57E7
   L3_2 = L3_2(L4_2, L5_2)
   if nil == L3_2 then
-    L4_2 = A0_2[15]
+    L4_2 = self[15]
     L5_2 = L4_2
     L4_2 = L4_2.F4DD603934A1B0DA7
     L6_2 = C4F5ABED8643D57E7
     L4_2 = L4_2(L5_2, L6_2)
     L3_2 = L4_2
   end
-  L4_2 = A0_2[15]
+  L4_2 = self[15]
   L4_2 = L4_2[2]
   L5_2 = L4_2
   L4_2 = L4_2.FEF3A3B6876841F5A
@@ -1137,7 +1113,7 @@ function L70_1(A0_2)
         end
       end
     end
-    L6_2 = A0_2[15]
+    L6_2 = self[15]
     L7_2 = CFC8F368D91411014
     L7_2 = L7_2.S93A017D496A6D000
     L7_2 = L7_2.owner
@@ -1182,13 +1158,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDCF8EC9063FA898"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- CBDCF8EC9063FA898.onTerminate
+function CBDCF8EC9063FA898_prototype:F97D80368ACC86AEF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L1_2 = A0_2[15]
+  L1_2 = self[15]
   L1_2 = L1_2[2]
   L2_2 = L1_2
   L1_2 = L1_2.FEF3A3B6876841F5A

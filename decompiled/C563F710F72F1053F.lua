@@ -1,3 +1,7 @@
+---@alias C563F710F72F1053F main_event_general_area_script_AreaEnter_a_t01_i01
+
+---@class main_event_general_area_script_AreaEnter_a_t01_i01 : C563F710F72F1053F_prototype
+---@field prototype C563F710F72F1053F_prototype
 L55_1 = _ENV
 L56_1 = "C563F710F72F1053F"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C563F710F72F1053F"]
 L69_1 = "__name__"
 L70_1 = "C563F710F72F1053F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C563F710F72F1053F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C563F710F72F1053F"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C563F710F72F1053F_prototype
+C563F710F72F1053F_prototype = L15_1()
+C563F710F72F1053F.prototype = C563F710F72F1053F_prototype
+--- main.event.general.area_script.AreaEnter_a_t01_i01.mainBody
+function C563F710F72F1053F_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D

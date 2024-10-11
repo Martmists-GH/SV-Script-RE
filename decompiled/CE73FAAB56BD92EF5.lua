@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CE73FAAB56BD92EF5"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CE73FAAB56BD92EF5"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE73FAAB56BD92EF5"]
-L69_1 = "__name__"
-L70_1 = "CE73FAAB56BD92EF5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE73FAAB56BD92EF5"]
-L69_1 = "SA1A66E927470EC84"
+---@alias CE73FAAB56BD92EF5 main_event_command_GemCommand
 
-function L70_1(A0_2, A1_2)
+---@class main_event_command_GemCommand
+CE73FAAB56BD92EF5 = L15_1()
+CE73FAAB56BD92EF5.new = {}
+CE73FAAB56BD92EF5.__name__ = "CE73FAAB56BD92EF5"
+--- main.event.command.GemCommand.Attach
+function CE73FAAB56BD92EF5.SA1A66E927470EC84(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   L2_2 = c4E28AB7C
   L2_2 = L2_2.fB41FD22F
@@ -327,11 +318,8 @@ function L70_1(A0_2, A1_2)
   return L20_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE73FAAB56BD92EF5"]
-L69_1 = "S4AB25A77C263E5BD"
-
-function L70_1(A0_2)
+--- main.event.command.GemCommand.Remove
+function CE73FAAB56BD92EF5.S4AB25A77C263E5BD(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil ~= A0_2 then
     L1_2 = nil

@@ -1,3 +1,7 @@
+---@alias C78F61D780B6C718B main_ui_rental_team_state_RentalTeamUIState
+
+---@class main_ui_rental_team_state_RentalTeamUIState : C78F61D780B6C718B_prototype
+---@field prototype C78F61D780B6C718B_prototype
 L55_1 = _ENV
 L56_1 = "C78F61D780B6C718B"
 L57_1 = L15_1
@@ -43,21 +47,16 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C78F61D780B6C718B"]
 L69_1 = "__name__"
 L70_1 = "C78F61D780B6C718B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78F61D780B6C718B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78F61D780B6C718B"]["prototype"]
-L69_1 = "F0E47A597FB435DB7"
-
-function L70_1(A0_2)
+---@class C78F61D780B6C718B_prototype
+C78F61D780B6C718B_prototype = L15_1()
+C78F61D780B6C718B.prototype = C78F61D780B6C718B_prototype
+--- main.ui.rental_team.state.RentalTeamUIState.SetupSequence
+function C78F61D780B6C718B_prototype:F0E47A597FB435DB7()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C368EEDD37E362639
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F0E47A597FB435DB7
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = CF33BA252841E4AE0
   L1_2 = L1_2.S385504EFF7E842C3
@@ -65,15 +64,15 @@ function L70_1(A0_2)
   L2_2 = L1_2
   L1_2 = L1_2.FDE75C47812FB215D
   L1_2 = L1_2(L2_2)
-  A0_2[7] = L1_2
+  self[7] = L1_2
   L1_2 = nil
   L2_2 = cB9F45270
   L2_2 = L2_2.f284A2BDB
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.f462C9B70
     L2_2 = L2_2(L3_2)
@@ -82,32 +81,29 @@ function L70_1(A0_2)
     L2_2(L3_2)
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F93A82A2E667613C4
+  L3_2 = self
+  L2_2 = self.F93A82A2E667613C4
   L4_2 = "view_btl_team_select_00"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[5] = L2_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FBAC75AAA649A0587
+  self[5] = L2_2
+  L3_2 = self
+  L2_2 = self.FBAC75AAA649A0587
   L4_2 = nil
   L5_2 = true
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78F61D780B6C718B"]["prototype"]
-L69_1 = "FBAC75AAA649A0587"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.rental_team.state.RentalTeamUIState.SetViewStartSequence
+function C78F61D780B6C718B_prototype:FBAC75AAA649A0587(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = false
   end
-  L3_2 = A0_2
-  L4_2 = A0_2[5]
+  L3_2 = self
+  L4_2 = self[5]
   L5_2 = L4_2
   L4_2 = L4_2.FE2823709CB81AA04
-  L6_2 = A0_2[7]
+  L6_2 = self[7]
   L7_2 = A1_2
   L4_2(L5_2, L6_2, L7_2)
   L4_2 = nil
@@ -154,72 +150,66 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
-  A0_2[6] = L5_2
+  self[6] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78F61D780B6C718B"]["prototype"]
-L69_1 = "FBE696F4C6924A789"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.rental_team.state.RentalTeamUIState.ActionNotifiedEvent
+function C78F61D780B6C718B_prototype:FBE696F4C6924A789(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = C368EEDD37E362639
   L3_2 = L3_2.prototype
   L3_2 = L3_2.FBE696F4C6924A789
-  L4_2 = A0_2
+  L4_2 = self
   L5_2 = A1_2
   L6_2 = A2_2
   L3_2(L4_2, L5_2, L6_2)
-  A0_2[8] = A2_2
-  A0_2[9] = A1_2
+  self[8] = A2_2
+  self[9] = A1_2
   if "Select" == A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FAB03172B79C338E0
+    L4_2 = self
+    L3_2 = self.FAB03172B79C338E0
     L5_2 = "view_btl_team_select_00"
     L3_2(L4_2, L5_2)
   else
-    L4_2 = A0_2
-    L3_2 = A0_2.FAB03172B79C338E0
+    L4_2 = self
+    L3_2 = self.FAB03172B79C338E0
     L5_2 = "view_btl_team_confirmation_00"
     L3_2(L4_2, L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78F61D780B6C718B"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.rental_team.state.RentalTeamUIState.PreUpdate
+function C78F61D780B6C718B_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = C368EEDD37E362639
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FE94F3E13286232CF
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = nil
   L3_2 = cB9F45270
   L3_2 = L3_2.f4C52F538
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     L4_2 = L3_2
     L3_2 = L3_2.f122A6743
     L3_2(L4_2)
   end
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   if nil ~= L3_2 then
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     if nil ~= L3_2 then
       L3_2 = L10_1.coroutine
       L3_2 = L3_2.status
-      L4_2 = A0_2[6]
+      L4_2 = self[6]
       L4_2 = L4_2[1]
       L3_2 = L3_2(L4_2)
       if "dead" ~= L3_2 then
-        L3_2 = A0_2[6]
+        L3_2 = self[6]
         L4_2 = nil
         L5_2 = L62_1
         L6_2 = L64_1.pack
@@ -265,7 +255,7 @@ function L70_1(A0_2, A1_2)
         end
       end
     end
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.FFBB42F3D9D0BB7E4
     L3_2(L4_2)
@@ -273,12 +263,12 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.fFD1C08F3
     L3_2 = L3_2()
     if not L3_2 then
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L4_2 = L3_2
       L3_2 = L3_2.FF9EB36B7769BCA41
       L3_2 = L3_2(L4_2)
       if L3_2 then
-        L3_2 = A0_2[5]
+        L3_2 = self[5]
         L4_2 = L3_2
         L3_2 = L3_2.FCF762D65363269F3
         L3_2(L4_2)
@@ -293,51 +283,45 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78F61D780B6C718B"]["prototype"]
-L69_1 = "FAB03172B79C338E0"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.rental_team.state.RentalTeamUIState.ChangeView
+function C78F61D780B6C718B_prototype:FAB03172B79C338E0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F93A82A2E667613C4
+  L3_2 = self
+  L2_2 = self.F93A82A2E667613C4
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = nil
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   if nil ~= L4_2 then
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L5_2 = L4_2
     L4_2 = L4_2.FB2651C2F0ACEEDFD
     L4_2 = L4_2(L5_2)
     L3_2 = L4_2
   end
-  A0_2[5] = L2_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FBAC75AAA649A0587
+  self[5] = L2_2
+  L5_2 = self
+  L4_2 = self.FBAC75AAA649A0587
   L6_2 = L3_2
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78F61D780B6C718B"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ui.rental_team.state.RentalTeamUIState.Destroy
+function C78F61D780B6C718B_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C368EEDD37E362639
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = nil
   L2_2 = cB9F45270
   L2_2 = L2_2.f4C52F538
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    A0_2[7] = nil
+    self[7] = nil
   end
   L2_2 = CF33BA252841E4AE0
   L2_2 = L2_2.S385504EFF7E842C3

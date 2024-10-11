@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CF0DEE4ECC004F8C6"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]
-L69_1 = "new"
+---@alias CF0DEE4ECC004F8C6 main_field_exclusion_area_ExclusionAreaManager
 
-function L70_1(A0_2)
+---@class main_field_exclusion_area_ExclusionAreaManager : CF0DEE4ECC004F8C6_prototype
+---@field prototype CF0DEE4ECC004F8C6_prototype
+CF0DEE4ECC004F8C6 = L15_1()
+function CF0DEE4ECC004F8C6.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CF0DEE4ECC004F8C6
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CF0DEE4ECC004F8C6
+function CF0DEE4ECC004F8C6.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[7] = true
   L2_2 = L43_1.new
@@ -64,11 +58,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF0DEE4ECC004F8C6"]
 L69_1 = "__name__"
 L70_1 = "CF0DEE4ECC004F8C6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]
-L69_1 = "SEB01CA6B087DCD83"
-
-function L70_1(A0_2)
+--- main.field.exclusion_area.ExclusionAreaManager.RegisterStaticArea
+function CF0DEE4ECC004F8C6.SEB01CA6B087DCD83(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF0DEE4ECC004F8C6
   L1_2 = L1_2.S92921CE2F3AC3EF5
@@ -78,11 +69,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]
-L69_1 = "S9251EB4419818EE0"
-
-function L70_1(A0_2)
+--- main.field.exclusion_area.ExclusionAreaManager.UnregisterStaticArea
+function CF0DEE4ECC004F8C6.S9251EB4419818EE0(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CF0DEE4ECC004F8C6
   L1_2 = L1_2.S264F26F6894F3392
@@ -143,11 +131,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]
-L69_1 = "SFC43A6549B0FFF18"
-
-function L70_1(A0_2)
+--- main.field.exclusion_area.ExclusionAreaManager.RegisterDynamicArea
+function CF0DEE4ECC004F8C6.SFC43A6549B0FFF18(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = A0_2.object
   L2_2 = L1_2
@@ -161,11 +146,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]
-L69_1 = "S78C7EF8DAB85A401"
-
-function L70_1(A0_2)
+--- main.field.exclusion_area.ExclusionAreaManager.UnregisterDynamicArea
+function CF0DEE4ECC004F8C6.S78C7EF8DAB85A401(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CF0DEE4ECC004F8C6
   L1_2 = L1_2.S264F26F6894F3392
@@ -246,11 +228,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]
-L69_1 = "S112D48953FAFF5AE"
-
-function L70_1(A0_2, A1_2)
+--- main.field.exclusion_area.ExclusionAreaManager.ContainsPoint
+function CF0DEE4ECC004F8C6.S112D48953FAFF5AE(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = CF0DEE4ECC004F8C6
   L2_2 = L2_2.S264F26F6894F3392
@@ -304,11 +283,8 @@ function L70_1(A0_2, A1_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]
-L69_1 = "SBFEBD268F15274EC"
-
-function L70_1(A0_2, A1_2)
+--- main.field.exclusion_area.ExclusionAreaManager.SetEnable
+function CF0DEE4ECC004F8C6.SBFEBD268F15274EC(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = CF0DEE4ECC004F8C6
   L2_2 = L2_2.S264F26F6894F3392
@@ -341,11 +317,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]
-L69_1 = "S48F04AA5230DE1DF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.exclusion_area.ExclusionAreaManager.SetEnableGroup
+function CF0DEE4ECC004F8C6.S48F04AA5230DE1DF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = CF0DEE4ECC004F8C6
   L2_2 = L2_2.S264F26F6894F3392
@@ -378,11 +351,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]
-L69_1 = "S9DC688AF5D07991C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.exclusion_area.ExclusionAreaManager.CreateArea
+function CF0DEE4ECC004F8C6.S9DC688AF5D07991C(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L3_2 = nil
   L4_2 = A1_2[1]
@@ -467,11 +437,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]
-L69_1 = "S27F22D6813E3BE44"
-
-function L70_1(A0_2)
+--- main.field.exclusion_area.ExclusionAreaManager.RemoveArae
+function CF0DEE4ECC004F8C6.S27F22D6813E3BE44(A0_2)
   local L1_2, L2_2
   L1_2 = CF0DEE4ECC004F8C6
   L1_2 = L1_2.S78C7EF8DAB85A401
@@ -479,28 +446,23 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CF0DEE4ECC004F8C6_prototype
+CF0DEE4ECC004F8C6_prototype = L15_1()
+CF0DEE4ECC004F8C6.prototype = CF0DEE4ECC004F8C6_prototype
+--- main.field.exclusion_area.ExclusionAreaManager.Setup
+function CF0DEE4ECC004F8C6_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = CF0DEE4ECC004F8C6
-  L3_2.S264F26F6894F3392 = A0_2
+  L3_2.S264F26F6894F3392 = self
   L3_2 = cCF781FB6
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
-  A0_2[2] = L3_2
+  self[2] = L3_2
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = nil
   L5_2 = C7F881F5D9B6F6009
@@ -545,38 +507,29 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.exclusion_area.ExclusionAreaManager.PreUpdate
+function CF0DEE4ECC004F8C6_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FD28C5032C9BAE2A0
+  L3_2 = self
+  L2_2 = self.FD28C5032C9BAE2A0
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FEB5E0BEC20EBE101
+  L3_2 = self
+  L2_2 = self.FEB5E0BEC20EBE101
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F5417EEAA8BE84E04
+  L3_2 = self
+  L2_2 = self.F5417EEAA8BE84E04
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.field.exclusion_area.ExclusionAreaManager.Destroy
+function CF0DEE4ECC004F8C6_prototype:F1C2AA00ADAC52EC5()
   local L1_2
   L1_2 = CF0DEE4ECC004F8C6
   L1_2.S264F26F6894F3392 = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]["prototype"]
-L69_1 = "FD28C5032C9BAE2A0"
-
-function L70_1(A0_2)
+--- main.field.exclusion_area.ExclusionAreaManager.onUpdateCreation
+function CF0DEE4ECC004F8C6_prototype:FD28C5032C9BAE2A0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = CF0DEE4ECC004F8C6
   L1_2 = L1_2.S92921CE2F3AC3EF5
@@ -584,8 +537,8 @@ function L70_1(A0_2)
   while nil ~= L1_2 do
     L2_2 = L1_2.item
     L1_2 = L1_2.next
-    L4_2 = A0_2
-    L3_2 = A0_2.F69E329FEFC0228CD
+    L4_2 = self
+    L3_2 = self.F69E329FEFC0228CD
     L5_2 = L2_2.behavior
     L5_2 = L5_2[8]
     L5_2 = L5_2.groupId
@@ -642,7 +595,7 @@ function L70_1(A0_2)
     L6_2 = L6_2.remove
     L8_2 = L2_2
     L6_2(L7_2, L8_2)
-    L6_2 = A0_2[4]
+    L6_2 = self[4]
     L7_2 = L6_2
     L6_2 = L6_2.push
     L8_2 = L2_2.behavior
@@ -715,7 +668,7 @@ function L70_1(A0_2)
       L5_2 = L5_2.remove
       L7_2 = L3_2
       L5_2(L6_2, L7_2)
-      L5_2 = A0_2[5]
+      L5_2 = self[5]
       L6_2 = L5_2
       L5_2 = L5_2.push
       L7_2 = L3_2.behavior
@@ -724,13 +677,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]["prototype"]
-L69_1 = "FEB5E0BEC20EBE101"
-
-function L70_1(A0_2)
+--- main.field.exclusion_area.ExclusionAreaManager.onUpdateRemove
+function CF0DEE4ECC004F8C6_prototype:FEB5E0BEC20EBE101()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L1_2 = L1_2.h
   while nil ~= L1_2 do
     L2_2 = L1_2.item
@@ -739,7 +689,7 @@ function L70_1(A0_2)
     L3_2 = L2_2.FB341D096B1744C74
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L3_2 = A0_2[6]
+      L3_2 = self[6]
       L4_2 = L3_2
       L3_2 = L3_2.remove
       L5_2 = L2_2
@@ -753,14 +703,11 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]["prototype"]
-L69_1 = "F5417EEAA8BE84E04"
-
-function L70_1(A0_2)
+--- main.field.exclusion_area.ExclusionAreaManager.F5417EEAA8BE84E04
+function CF0DEE4ECC004F8C6_prototype:F5417EEAA8BE84E04()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = 0
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -787,7 +734,7 @@ function L70_1(A0_2)
     end
   end
   L3_2 = 0
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   while true do
     L5_2 = L4_2.length
     if not (L3_2 < L5_2) then
@@ -815,14 +762,11 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DEE4ECC004F8C6"]["prototype"]
-L69_1 = "F69E329FEFC0228CD"
-
-function L70_1(A0_2, A1_2)
+--- main.field.exclusion_area.ExclusionAreaManager.findGroup
+function CF0DEE4ECC004F8C6_prototype:F69E329FEFC0228CD(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then

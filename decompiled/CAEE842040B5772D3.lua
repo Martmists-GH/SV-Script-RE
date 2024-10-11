@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CAEE842040B5772D3"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CAEE842040B5772D3"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEE842040B5772D3"]
-L69_1 = "__name__"
-L70_1 = "CAEE842040B5772D3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEE842040B5772D3"]
-L69_1 = "S2CE0D771419703C9"
+---@alias CAEE842040B5772D3 main_ui_option_util_OptionUIText
 
-function L70_1(A0_2, A1_2)
+---@class main_ui_option_util_OptionUIText
+CAEE842040B5772D3 = L15_1()
+CAEE842040B5772D3.new = {}
+CAEE842040B5772D3.__name__ = "CAEE842040B5772D3"
+--- main.ui.option.util.OptionUIText.YesNoContextMenu
+function CAEE842040B5772D3.S2CE0D771419703C9(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.S44577E0D8E8F3819
@@ -72,11 +63,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEE842040B5772D3"]
-L69_1 = "S5FE29AA88D90A56E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.option.util.OptionUIText.ShowMessageShowYesNoContextMenu
+function CAEE842040B5772D3.S5FE29AA88D90A56E(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = c8C3BF576
   L3_2 = L3_2.fC8CEF9EF
@@ -134,11 +122,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEE842040B5772D3"]
-L69_1 = "SBBCFFE80033C34E4"
-
-function L70_1()
+--- main.ui.option.util.OptionUIText.WaitEndMessage
+function CAEE842040B5772D3.SBBCFFE80033C34E4()
   local L0_2, L1_2
   while true do
     L0_2 = CF1D9D619D324F233
@@ -155,11 +140,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEE842040B5772D3"]
-L69_1 = "S054918C23618C6F7"
-
-function L70_1()
+--- main.ui.option.util.OptionUIText.WaitHideMessage
+function CAEE842040B5772D3.S054918C23618C6F7()
   local L0_2, L1_2
   while true do
     L0_2 = CF1D9D619D324F233
@@ -176,11 +158,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEE842040B5772D3"]
-L69_1 = "S381B047005A52C82"
-
-function L70_1(A0_2)
+--- main.ui.option.util.OptionUIText.ShowMessageWait
+function CAEE842040B5772D3.S381B047005A52C82(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fC8CEF9EF
@@ -224,11 +203,8 @@ function L70_1(A0_2)
   L4_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEE842040B5772D3"]
-L69_1 = "SE2E2586D6F421CE8"
-
-function L70_1()
+--- main.ui.option.util.OptionUIText.MessageLoad
+function CAEE842040B5772D3.SE2E2586D6F421CE8()
   local L0_2, L1_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -236,11 +212,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEE842040B5772D3"]
-L69_1 = "S19E6DFD56A9BCF4F"
-
-function L70_1()
+--- main.ui.option.util.OptionUIText.MessageUnload
+function CAEE842040B5772D3.S19E6DFD56A9BCF4F()
   local L0_2, L1_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.SEC5605D9D6B5E309

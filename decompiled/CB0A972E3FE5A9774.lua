@@ -1,3 +1,7 @@
+---@alias C89075C62D660EAD4 main_pokepicnic_database_IngredientDatabase
+
+---@class main_pokepicnic_database_IngredientDatabase : C89075C62D660EAD4_prototype
+---@field prototype C89075C62D660EAD4_prototype
 L55_1 = _ENV
 L56_1 = "CB0A972E3FE5A9774"
 L57_1 = L15_1
@@ -42,11 +46,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CB0A972E3FE5A9774"]
 L69_1 = "__name__"
 L70_1 = "CB0A972E3FE5A9774"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB0A972E3FE5A9774"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C89075C62D660EAD4_prototype
+C89075C62D660EAD4_prototype = L15_1()
+C89075C62D660EAD4.prototype = C89075C62D660EAD4_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CB0A972E3FE5A9774"]["prototype"]
 L69_1 = _ENV["CB0A972E3FE5A9774"]

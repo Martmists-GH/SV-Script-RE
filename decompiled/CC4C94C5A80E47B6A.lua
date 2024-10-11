@@ -1,3 +1,7 @@
+---@alias CC4C94C5A80E47B6A main_event_debug_DebugShikiTsuyoshi
+
+---@class main_event_debug_DebugShikiTsuyoshi : CC4C94C5A80E47B6A_prototype
+---@field prototype CC4C94C5A80E47B6A_prototype
 L55_1 = _ENV
 L56_1 = "CC4C94C5A80E47B6A"
 L57_1 = L15_1
@@ -45,86 +49,66 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC4C94C5A80E47B6A"]
 L69_1 = "__name__"
 L70_1 = "CC4C94C5A80E47B6A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4C94C5A80E47B6A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4C94C5A80E47B6A"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class CC4C94C5A80E47B6A_prototype
+CC4C94C5A80E47B6A_prototype = L15_1()
+CC4C94C5A80E47B6A.prototype = CC4C94C5A80E47B6A_prototype
+--- main.event.debug.DebugShikiTsuyoshi.preStart
+function CC4C94C5A80E47B6A_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F92BA869F22AE5BC6
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4C94C5A80E47B6A"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugShikiTsuyoshi.postStart
+function CC4C94C5A80E47B6A_prototype:F2E6C9E25867BCE8D()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F2E6C9E25867BCE8D
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4C94C5A80E47B6A"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugShikiTsuyoshi.mainBody
+function CC4C94C5A80E47B6A_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FD8D5F3745B4B5174
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4C94C5A80E47B6A"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugShikiTsuyoshi.mainBodyFinish
+function CC4C94C5A80E47B6A_prototype:F84C84FA1590CD2A3()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F84C84FA1590CD2A3
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4C94C5A80E47B6A"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugShikiTsuyoshi.preEnd
+function CC4C94C5A80E47B6A_prototype:F740FB4E96926D103()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F740FB4E96926D103
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4C94C5A80E47B6A"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugShikiTsuyoshi.postEnd
+function CC4C94C5A80E47B6A_prototype:F3E13E4094D09A594()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F3E13E4094D09A594
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 

@@ -1,3 +1,7 @@
+---@alias C7A278D5C9CE1A4AF main_ui_dressup_shop_data_DressupUIShopDataProperty
+
+---@class main_ui_dressup_shop_data_DressupUIShopDataProperty : C7A278D5C9CE1A4AF_prototype
+---@field prototype C7A278D5C9CE1A4AF_prototype
 L55_1 = _ENV
 L56_1 = "C7A278D5C9CE1A4AF"
 L57_1 = L15_1
@@ -58,38 +62,27 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C7A278D5C9CE1A4AF"]
 L69_1 = "__name__"
 L70_1 = "C7A278D5C9CE1A4AF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7A278D5C9CE1A4AF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7A278D5C9CE1A4AF"]["prototype"]
-L69_1 = "F4FD88E5FD9F6B489"
-
-function L70_1(A0_2)
+---@class C7A278D5C9CE1A4AF_prototype
+C7A278D5C9CE1A4AF_prototype = L15_1()
+C7A278D5C9CE1A4AF.prototype = C7A278D5C9CE1A4AF_prototype
+--- main.ui.dressup.shop.data.DressupUIShopDataProperty.F4FD88E5FD9F6B489
+function C7A278D5C9CE1A4AF_prototype:F4FD88E5FD9F6B489()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7A278D5C9CE1A4AF"]["prototype"]
-L69_1 = "F30DBB30D142BE5B0"
-
-function L70_1(A0_2)
+--- main.ui.dressup.shop.data.DressupUIShopDataProperty.get_category
+function C7A278D5C9CE1A4AF_prototype:F30DBB30D142BE5B0()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7A278D5C9CE1A4AF"]["prototype"]
-L69_1 = "F905D98F3053AD069"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.shop.data.DressupUIShopDataProperty.GetCategoryItemDataArray
+function C7A278D5C9CE1A4AF_prototype:F905D98F3053AD069(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[A1_2]
   L3_2 = _hx_tab_array
   L4_2 = {}
@@ -112,11 +105,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7A278D5C9CE1A4AF"]["prototype"]
-L69_1 = "F3C99440F038EC023"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.shop.data.DressupUIShopDataProperty.F3C99440F038EC023
+function C7A278D5C9CE1A4AF_prototype:F3C99440F038EC023(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = 1
   L3_2 = false
@@ -157,8 +147,8 @@ function L70_1(A0_2, A1_2)
       L8_2 = L8_2()
       L9_2 = L8_2
       L8_2 = L8_2.F380CF0E37440BFE1
-      L11_2 = A0_2
-      L10_2 = A0_2.F4FD88E5FD9F6B489
+      L11_2 = self
+      L10_2 = self.F4FD88E5FD9F6B489
       L10_2, L11_2 = L10_2(L11_2)
       L8_2, L9_2, L10_2, L11_2 = L8_2(L9_2, L10_2, L11_2)
       L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
@@ -182,7 +172,7 @@ function L70_1(A0_2, A1_2)
           L8_2 = L7_2.F3B5917D7AD2ECD53
           L10_2 = L5_2
           L8_2(L9_2, L10_2)
-          L8_2 = A0_2[3]
+          L8_2 = self[3]
           L10_2 = L6_2
           L9_2 = L6_2.F2DBE7FC23B9B23DE
           L9_2 = L9_2(L10_2)
@@ -200,28 +190,25 @@ function L70_1(A0_2, A1_2)
     end
   end
   L4_2 = 0
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L5_2 = L5_2.length
   while L4_2 < L5_2 do
     L4_2 = L4_2 + 1
-    L6_2 = A0_2[3]
+    L6_2 = self[3]
     L7_2 = L4_2 - 1
     L6_2 = L6_2[L7_2]
     L7_2 = L6_2
     L6_2 = L6_2.sort
     L8_2 = L55_1
-    L9_2 = A0_2
-    L10_2 = A0_2.F702F903196B0353D
+    L9_2 = self
+    L10_2 = self.F702F903196B0353D
     L8_2, L9_2, L10_2, L11_2 = L8_2(L9_2, L10_2)
     L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7A278D5C9CE1A4AF"]["prototype"]
-L69_1 = "F702F903196B0353D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.dressup.shop.data.DressupUIShopDataProperty.F702F903196B0353D
+function C7A278D5C9CE1A4AF_prototype:F702F903196B0353D(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = L52_1.__cast
   L5_2 = A1_2

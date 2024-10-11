@@ -1,3 +1,5 @@
+---@class CE0DFD57DFBE6D27E : CE0DFD57DFBE6D27E_prototype
+---@field prototype CE0DFD57DFBE6D27E_prototype
 L55_1 = _ENV
 L56_1 = "CE0DFD57DFBE6D27E"
 L57_1 = L15_1
@@ -55,24 +57,19 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE0DFD57DFBE6D27E"]
 L69_1 = "__name__"
 L70_1 = "CE0DFD57DFBE6D27E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DFD57DFBE6D27E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DFD57DFBE6D27E"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class CE0DFD57DFBE6D27E_prototype
+CE0DFD57DFBE6D27E_prototype = L15_1()
+CE0DFD57DFBE6D27E.prototype = CE0DFD57DFBE6D27E_prototype
+--- CE0DFD57DFBE6D27E.Update
+function CE0DFD57DFBE6D27E_prototype:FEB6685558281F194(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L3_2 = A0_2[3]
-  L4_2 = A0_2[6]
+  L3_2 = self[3]
+  L4_2 = self[6]
   if L4_2 then
     L4_2 = CD9AE7C27B00EB066
     L4_2 = L4_2.SCAD25230630F7BCB
-    L5_2 = A0_2[7]
-    L6_2 = A0_2[2]
+    L5_2 = self[7]
+    L6_2 = self[2]
     L6_2 = L6_2[1]
     L6_2 = L6_2[9]
     L6_2 = L6_2[11]
@@ -95,9 +92,9 @@ function L70_1(A0_2, A1_2, A2_2)
     L10_2 = L4_2[2]
     L11_2 = L4_2[3]
     L8_2(L9_2, L10_2, L11_2)
-    A0_2[7] = L4_2
+    self[7] = L4_2
   end
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L4_2 = L4_2[1]
   L4_2 = L4_2[5]
   L5_2 = nil
@@ -194,11 +191,11 @@ function L70_1(A0_2, A1_2, A2_2)
     end
   end
   if L5_2 then
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L6_2 = L6_2[1]
     L6_2 = L6_2[5]
     L6_2 = L6_2[13]
-    L7_2 = A0_2[7]
+    L7_2 = self[7]
     L8_2 = c7A48E3FC
     L8_2 = L8_2.f04EE1F22
     L9_2 = L7_2[1]
@@ -209,7 +206,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L14_2 = L6_2[3]
     L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
     if L8_2 < 0 then
-      L8_2 = A0_2[7]
+      L8_2 = self[7]
       L9_2 = CD9AE7C27B00EB066
       L9_2 = L9_2.S05B90B9B5A6DE6BC
       L10_2 = c7A48E3FC
@@ -225,15 +222,15 @@ function L70_1(A0_2, A1_2, A2_2)
       L11_2 = 0
       L12_2 = 1
       L9_2 = L9_2(L10_2, L11_2, L12_2)
-      L10_2 = A0_2[4]
+      L10_2 = self[4]
       L11_2 = L3_2[3]
       L11_2 = L11_2 * A1_2
       L11_2 = L11_2 * L9_2
       L10_2 = L10_2 + L11_2
-      A0_2[4] = L10_2
+      self[4] = L10_2
     end
   else
-    A0_2[4] = 0
+    self[4] = 0
   end
   L6_2 = {}
   L7_2 = 0
@@ -242,9 +239,9 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2[1] = L7_2
   L6_2[2] = L8_2
   L6_2[3] = L9_2
-  L7_2 = A0_2[5]
+  L7_2 = self[5]
   if L7_2 then
-    L7_2 = A0_2[2]
+    L7_2 = self[2]
     L7_2 = L7_2[1]
     L7_2 = L7_2[9]
     L7_2 = L7_2[11]
@@ -254,15 +251,15 @@ function L70_1(A0_2, A1_2, A2_2)
     end
     L8_2 = L3_2[2]
     L8_2 = L8_2 * L7_2
-    L9_2 = A0_2[4]
+    L9_2 = self[4]
     L8_2 = L8_2 - L9_2
     if L8_2 < 0 then
       L8_2 = 0
     end
-    A0_2[8] = L8_2
-    L9_2 = A0_2[7]
-    L10_2 = A0_2[8]
-    L11_2 = A0_2[9]
+    self[8] = L8_2
+    L9_2 = self[7]
+    L10_2 = self[8]
+    L11_2 = self[9]
     L12_2 = {}
     L13_2 = L9_2[1]
     L13_2 = L13_2 * L10_2
@@ -278,9 +275,9 @@ function L70_1(A0_2, A1_2, A2_2)
     L12_2[3] = L15_2
     L6_2 = L12_2
   else
-    A0_2[8] = 0
+    self[8] = 0
   end
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L7_2 = L7_2[1]
   L7_2 = L7_2[0]
   L7_2 = L7_2[6]
@@ -297,7 +294,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L9_2[1] = L10_2
   L9_2[2] = L11_2
   L9_2[3] = L12_2
-  L10_2 = A0_2[2]
+  L10_2 = self[2]
   L10_2 = L10_2[1]
   L10_2 = L10_2[5]
   L10_2 = L10_2[12]
@@ -326,18 +323,15 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DFD57DFBE6D27E"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2)
+--- CE0DFD57DFBE6D27E.Reset
+function CE0DFD57DFBE6D27E_prototype:F96EA28F400597FA0()
   local L1_2
-  A0_2[8] = 0
-  A0_2[4] = 0
-  A0_2[5] = true
-  A0_2[6] = true
-  A0_2[8] = 0
-  A0_2[9] = 1
+  self[8] = 0
+  self[4] = 0
+  self[5] = true
+  self[6] = true
+  self[8] = 0
+  self[9] = 1
 end
 
 L68_1[L69_1] = L70_1

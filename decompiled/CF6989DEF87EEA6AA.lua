@@ -1,43 +1,28 @@
-L55_1 = _ENV
-L56_1 = "CF6989DEF87EEA6AA"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
+---@alias CF6989DEF87EEA6AA main_event_general_gym_base_Gym_kusa_common
+
+---@class main_event_general_gym_base_Gym_kusa_common
+CF6989DEF87EEA6AA = L15_1()
 L55_1 = L15_1
 L55_1 = L55_1()
 C7EC7BCBF04F771C8 = L55_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "__name__"
-L70_1 = "CF6989DEF87EEA6AA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SCEAE131DBED265FB"
-
-function L70_1(A0_2)
+CF6989DEF87EEA6AA.new = {}
+CF6989DEF87EEA6AA.__name__ = "CF6989DEF87EEA6AA"
+--- main.event.general.gym.base.Gym_kusa_common.SetFollowSpeedRate
+function CF6989DEF87EEA6AA.SCEAE131DBED265FB(A0_2)
   local L1_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2.S599C467181BFBBC1 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S1BA94D13EE6B8011"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.SetFollowNearestSpeedRate
+function CF6989DEF87EEA6AA.S1BA94D13EE6B8011(A0_2)
   local L1_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2.S48B109D1B6ACA757 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SF35C6F403507582E"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.general.gym.base.Gym_kusa_common.TalkNpc
+function CF6989DEF87EEA6AA.SF35C6F403507582E(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
   if nil == A4_2 then
     A4_2 = true
@@ -173,11 +158,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S400247EA7A3A7C71"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_kusa_common.MessageSafe
+function CF6989DEF87EEA6AA.S400247EA7A3A7C71(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = L31_1.string
   L3_2 = L31_1.string
@@ -207,11 +189,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S3A17307B89A762F9"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.IsSheld
+function CF6989DEF87EEA6AA.S3A17307B89A762F9(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -302,11 +281,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SD1445ACE89F7340B"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.messageAnnouncement
+function CF6989DEF87EEA6AA.SD1445ACE89F7340B()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = CF6989DEF87EEA6AA
   L0_2 = L0_2.S4097278AAB477DF4
@@ -417,19 +393,13 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S27BC6923D867D37C"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.LocalLogger
+function CF6989DEF87EEA6AA.S27BC6923D867D37C(A0_2)
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SC548AE28649EF3B8"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.Touch
+function CF6989DEF87EEA6AA.SC548AE28649EF3B8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -497,11 +467,8 @@ function L70_1(A0_2)
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SAC64F35EA3D74412"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.touchRanch
+function CF6989DEF87EEA6AA.SAC64F35EA3D74412(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.SA003DE227DA90996
@@ -541,11 +508,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S0C704B8DB4AA9CA2"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.S0C704B8DB4AA9CA2
+function CF6989DEF87EEA6AA.S0C704B8DB4AA9CA2(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S8DB58249AC006158
@@ -577,11 +541,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S29FDA6EA727DC480"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_kusa_common.touchEvent
+function CF6989DEF87EEA6AA.S29FDA6EA727DC480(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C0BCF364067528E9C
   L2_2 = L2_2.S8E65ED1638DF1504
@@ -778,11 +739,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S472A066819CEC668"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.S472A066819CEC668
+function CF6989DEF87EEA6AA.S472A066819CEC668()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = C0BCF364067528E9C
   L0_2 = L0_2.SA3C8ADF14DD38775
@@ -822,11 +780,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SC83D25F4C380A1BA"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.SC83D25F4C380A1BA
+function CF6989DEF87EEA6AA.SC83D25F4C380A1BA()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = C0BCF364067528E9C
   L0_2 = L0_2.SA3C8ADF14DD38775
@@ -866,11 +821,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S79B343B0266FEF4D"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.S79B343B0266FEF4D
+function CF6989DEF87EEA6AA.S79B343B0266FEF4D()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = C0BCF364067528E9C
   L0_2 = L0_2.SA3C8ADF14DD38775
@@ -910,11 +862,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SA003DE227DA90996"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.Confronting
+function CF6989DEF87EEA6AA.SA003DE227DA90996(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -948,11 +897,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S3319ECB333CD8E43"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_kusa_common.PlayHukidashi
+function CF6989DEF87EEA6AA.S3319ECB333CD8E43(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L3_2 = 0.9
   L4_2 = cECB91E31
@@ -1002,11 +948,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SA81AB4533B22E8FA"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_kusa_common.surprise
+function CF6989DEF87EEA6AA.SA81AB4533B22E8FA(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = cE35B3EB3
   L2_2 = L2_2.fB41FD22F
@@ -1149,11 +1092,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S1F51D0F8A09580EE"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.discoveredMessage
+function CF6989DEF87EEA6AA.S1F51D0F8A09580EE(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = true
   L2_2 = CF6989DEF87EEA6AA
@@ -1264,11 +1204,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S44EEDC419D0937F0"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.S44EEDC419D0937F0
+function CF6989DEF87EEA6AA.S44EEDC419D0937F0()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = C0BCF364067528E9C
   L0_2 = L0_2.SD90011AE847245E0
@@ -1304,11 +1241,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S98E41077BA3DF08D"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.S98E41077BA3DF08D
+function CF6989DEF87EEA6AA.S98E41077BA3DF08D()
   local L0_2, L1_2, L2_2
   L0_2 = C9AA363B3CCC264AA
   L0_2 = L0_2.SA5B8258582A90EF3
@@ -1320,11 +1254,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S06D01297B78752EA"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.DeleteAllPokemon
+function CF6989DEF87EEA6AA.S06D01297B78752EA()
   local L0_2, L1_2, L2_2
   L0_2 = CC6FE82819C6E1D55
   L0_2 = L0_2.SF8D8FFC774DA1818
@@ -1335,11 +1266,8 @@ function L70_1()
   L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SD67856ACAAE59F47"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.DeleteAllObjects
+function CF6989DEF87EEA6AA.SD67856ACAAE59F47()
   local L0_2, L1_2, L2_2
   L0_2 = CC6FE82819C6E1D55
   L0_2 = L0_2.SF8D8FFC774DA1818
@@ -1350,11 +1278,8 @@ function L70_1()
   L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S1D948594783ECA70"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.LoadSubEventPokemon
+function CF6989DEF87EEA6AA.S1D948594783ECA70()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -1421,11 +1346,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S59EBB40338824AC9"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.IsGymTestClear
+function CF6989DEF87EEA6AA.S59EBB40338824AC9()
   local L0_2, L1_2
   L0_2 = C0BCF364067528E9C
   L0_2 = L0_2.S4A4804EAFA1C539F
@@ -1436,11 +1358,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S4097278AAB477DF4"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.IsGymTest
+function CF6989DEF87EEA6AA.S4097278AAB477DF4()
   local L0_2, L1_2
   L0_2 = C10578806AC30DCA3
   L0_2 = L0_2.SBA6FF574C1C9AA09
@@ -1453,11 +1372,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SEC1AF2EA08C11A65"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.AgreeSubEvent
+function CF6989DEF87EEA6AA.SEC1AF2EA08C11A65()
   local L0_2, L1_2, L2_2
   L0_2 = C10578806AC30DCA3
   L0_2 = L0_2.SBA6FF574C1C9AA09
@@ -1470,11 +1386,8 @@ function L70_1()
   L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S98C7899FFE097AA2"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.ResetSubEventAgree
+function CF6989DEF87EEA6AA.S98C7899FFE097AA2()
   local L0_2, L1_2, L2_2
   L0_2 = C10578806AC30DCA3
   L0_2 = L0_2.SBA6FF574C1C9AA09
@@ -1487,11 +1400,8 @@ function L70_1()
   L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S152B059CC269F721"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.IsSubEventAgree
+function CF6989DEF87EEA6AA.S152B059CC269F721()
   local L0_2, L1_2
   L0_2 = C10578806AC30DCA3
   L0_2 = L0_2.SBA6FF574C1C9AA09
@@ -1504,11 +1414,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S70438E7BD5356AAC"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.GoalSubEvent
+function CF6989DEF87EEA6AA.S70438E7BD5356AAC()
   local L0_2, L1_2
   L0_2 = C42D1CDB112422850
   L0_2 = L0_2.S2FA25650F123CB4F
@@ -1530,11 +1437,8 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SAEA9C9FBE6006C2C"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.RetireSubEvent
+function CF6989DEF87EEA6AA.SAEA9C9FBE6006C2C()
   local L0_2, L1_2
   L0_2 = C42D1CDB112422850
   L0_2 = L0_2.S2FA25650F123CB4F
@@ -1562,11 +1466,8 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SCAD3474637F15BC1"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.StartSubEvent
+function CF6989DEF87EEA6AA.SCAD3474637F15BC1()
   local L0_2, L1_2, L2_2
   L0_2 = C42D1CDB112422850
   L0_2 = L0_2.S8AC38D717D35C41A
@@ -1609,11 +1510,8 @@ function L70_1()
   ::lbl_37::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S17F8621FB447D54C"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.StartGymTestUI
+function CF6989DEF87EEA6AA.S17F8621FB447D54C()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CEC9C0B0B040F3653
   L0_2 = L0_2.SB21FA562BB1FB817
@@ -1635,11 +1533,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S7AA854CA5BC4E79B"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.S7AA854CA5BC4E79B
+function CF6989DEF87EEA6AA.S7AA854CA5BC4E79B()
   local L0_2, L1_2, L2_2
   L0_2 = CF6989DEF87EEA6AA
   L0_2 = L0_2.S283C01BC205CCB84
@@ -1654,11 +1549,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SF2FFCFF63310DFBA"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.SF2FFCFF63310DFBA
+function CF6989DEF87EEA6AA.SF2FFCFF63310DFBA()
   local L0_2, L1_2, L2_2
   L0_2 = CF6989DEF87EEA6AA
   L0_2 = L0_2.S3253753A1676F281
@@ -1673,11 +1565,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S3A32FF7AE20891B3"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.StartBattleUI
+function CF6989DEF87EEA6AA.S3A32FF7AE20891B3()
   local L0_2, L1_2, L2_2
   L0_2 = CF6989DEF87EEA6AA
   L0_2 = L0_2.SF8535285C4D34941
@@ -1692,11 +1581,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S8BD3B96796EC2592"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.EndBattleUI
+function CF6989DEF87EEA6AA.S8BD3B96796EC2592()
   local L0_2, L1_2, L2_2
   L0_2 = CF6989DEF87EEA6AA
   L0_2 = L0_2.S715869E1919585FA
@@ -1711,11 +1597,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S2FCE7A31B6B2FB7F"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.PokemonCatchUI
+function CF6989DEF87EEA6AA.S2FCE7A31B6B2FB7F()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = C0BCF364067528E9C
   L0_2 = L0_2.S4A4804EAFA1C539F
@@ -1734,11 +1617,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S5BD1954B39E0A02A"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.StartGymTest
+function CF6989DEF87EEA6AA.S5BD1954B39E0A02A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A0_2 then
     A0_2 = false
@@ -1799,11 +1679,8 @@ function L70_1(A0_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S0225D54C32416D2F"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.ResetGymTest
+function CF6989DEF87EEA6AA.S0225D54C32416D2F()
   local L0_2, L1_2, L2_2
   L0_2 = C10578806AC30DCA3
   L0_2 = L0_2.SBA6FF574C1C9AA09
@@ -1819,11 +1696,8 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SAE2387882703D58D"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.ClearGymTest
+function CF6989DEF87EEA6AA.SAE2387882703D58D()
   local L0_2, L1_2
   L0_2 = CF6989DEF87EEA6AA
   L0_2 = L0_2.S0225D54C32416D2F
@@ -1849,11 +1723,8 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SEBF873119D655011"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.RetireGymTest
+function CF6989DEF87EEA6AA.SEBF873119D655011(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.S0225D54C32416D2F
@@ -1908,11 +1779,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S109437F0E3F8280A"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.ExitReturnGymTest
+function CF6989DEF87EEA6AA.S109437F0E3F8280A()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2
   L0_2 = C07E4F1BF071B0460
   L0_2 = L0_2.S218E2A14A790D265
@@ -2026,11 +1894,8 @@ function L70_1()
   L17_2(L18_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SA67D870C152117CF"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.ExitSubEvent
+function CF6989DEF87EEA6AA.SA67D870C152117CF()
   local L0_2, L1_2
   L0_2 = C07E4F1BF071B0460
   L0_2 = L0_2.S218E2A14A790D265
@@ -2045,11 +1910,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SB3171F787BB794FF"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.CreatePokemons
+function CF6989DEF87EEA6AA.SB3171F787BB794FF()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CF6989DEF87EEA6AA
   L0_2 = L0_2.S06D01297B78752EA
@@ -2072,11 +1934,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S314C2F91C5A6115A"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.CreateWalls
+function CF6989DEF87EEA6AA.S314C2F91C5A6115A()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CF6989DEF87EEA6AA
   L0_2 = L0_2.S48E9CA8370818203
@@ -2099,11 +1958,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S48E9CA8370818203"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.DeleteWalls
+function CF6989DEF87EEA6AA.S48E9CA8370818203()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -2123,11 +1979,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S26C368088C19E3BC"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.SuspendWalls
+function CF6989DEF87EEA6AA.S26C368088C19E3BC()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -2188,11 +2041,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SCDA1044F5C508023"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.ResumeWalls
+function CF6989DEF87EEA6AA.SCDA1044F5C508023()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -2265,11 +2115,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S3E93CC9D7D9D1B6E"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.CreateGoal
+function CF6989DEF87EEA6AA.S3E93CC9D7D9D1B6E()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CF6989DEF87EEA6AA
   L0_2 = L0_2.S3F82E47782EFC4C5
@@ -2292,11 +2139,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S3F82E47782EFC4C5"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.DeleteGoal
+function CF6989DEF87EEA6AA.S3F82E47782EFC4C5()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -2316,11 +2160,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S6AB6919461724A6C"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.SuspendGoal
+function CF6989DEF87EEA6AA.S6AB6919461724A6C()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -2355,11 +2196,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S153ECF315EEFA765"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.ResumeGoal
+function CF6989DEF87EEA6AA.S153ECF315EEFA765()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -2394,11 +2232,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S0C79A595EC923681"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_kusa_common.FindSceneObject
+function CF6989DEF87EEA6AA.S0C79A595EC923681(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A1_2 then
     L3_2 = CF6989DEF87EEA6AA
@@ -2441,11 +2276,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SE3276B042449EF8F"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.SetRanchDemoStartPosition
+function CF6989DEF87EEA6AA.SE3276B042449EF8F()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = C0BCF364067528E9C
   L0_2 = L0_2.SABA0EDB244883157
@@ -2491,11 +2323,8 @@ function L70_1()
   L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S578E2ECBF41DB674"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.S578E2ECBF41DB674
+function CF6989DEF87EEA6AA.S578E2ECBF41DB674()
   local L0_2, L1_2
   L0_2 = CF6989DEF87EEA6AA
   L0_2 = L0_2.S6DB8A838DC69EF9C
@@ -2545,11 +2374,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SD9ED3412C8C5515C"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.GetRanchPosition
+function CF6989DEF87EEA6AA.SD9ED3412C8C5515C(A0_2)
   local L1_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.S82A495C5CF2500D4
@@ -2557,11 +2383,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S4971A2BA7C348F7A"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.SetRanchCharacterCollision
+function CF6989DEF87EEA6AA.S4971A2BA7C348F7A(A0_2)
   local L1_2, L2_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.S6DB8A838DC69EF9C
@@ -2638,11 +2461,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S0A1336AA2C1D72BD"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.SetRanchPokePosition
+function CF6989DEF87EEA6AA.S0A1336AA2C1D72BD()
   local L0_2, L1_2
   L0_2 = CF6989DEF87EEA6AA
   L0_2 = L0_2.S6DB8A838DC69EF9C
@@ -2700,11 +2520,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S9D0F26705EE8B1E5"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.SetRanchPlayerPosition
+function CF6989DEF87EEA6AA.S9D0F26705EE8B1E5()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CDCBFD50A277E546D
   L0_2 = L0_2.S57B48B7940399B1D
@@ -2719,11 +2536,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S6DB8A838DC69EF9C"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.findPokes
+function CF6989DEF87EEA6AA.S6DB8A838DC69EF9C(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.SABA0EDB244883157
@@ -2766,11 +2580,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S4C17A13F03FF3B99"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.ChangeRanchPokeState
+function CF6989DEF87EEA6AA.S4C17A13F03FF3B99()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L0_2 = C0BCF364067528E9C
   L0_2 = L0_2.SABA0EDB244883157
@@ -2826,11 +2637,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S892E8CB762481DD7"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.RegisterStartCallback
+function CF6989DEF87EEA6AA.S892E8CB762481DD7(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.SFBCBB320CDCE2017
@@ -2840,11 +2648,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S6B982786C3E21AC0"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.RemoveStartCallback
+function CF6989DEF87EEA6AA.S6B982786C3E21AC0(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.SFBCBB320CDCE2017
@@ -2854,11 +2659,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S0820E2E5936A2F46"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.RegisterEndCallback
+function CF6989DEF87EEA6AA.S0820E2E5936A2F46(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.S283C01BC205CCB84
@@ -2868,11 +2670,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S8F3DDEC1D1CFF0D5"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.RemoveEndCallback
+function CF6989DEF87EEA6AA.S8F3DDEC1D1CFF0D5(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.S283C01BC205CCB84
@@ -2882,11 +2681,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S6CC4B085D155A81B"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.RegisterForceEndCallback
+function CF6989DEF87EEA6AA.S6CC4B085D155A81B(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.S3253753A1676F281
@@ -2896,11 +2692,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SA0D0A9439FC71992"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.RemoveForceEndCallback
+function CF6989DEF87EEA6AA.SA0D0A9439FC71992(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.S3253753A1676F281
@@ -2910,11 +2703,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S60F66F482B12A115"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.RegisterBattleStartCallback
+function CF6989DEF87EEA6AA.S60F66F482B12A115(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.SF8535285C4D34941
@@ -2924,11 +2714,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SAEDCB7F223850996"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.RemoveBattleStartCallback
+function CF6989DEF87EEA6AA.SAEDCB7F223850996(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.SF8535285C4D34941
@@ -2938,11 +2725,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SA6F6088BF1FC55E0"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.RegisterBattleEndCallback
+function CF6989DEF87EEA6AA.SA6F6088BF1FC55E0(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.S715869E1919585FA
@@ -2952,11 +2736,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SE82978C8D2534E47"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.RemoveBattleEndCallback
+function CF6989DEF87EEA6AA.SE82978C8D2534E47(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.S715869E1919585FA
@@ -2966,11 +2747,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SC5B9ECE54F4DB513"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.RegisterPokemonCatchCallback
+function CF6989DEF87EEA6AA.SC5B9ECE54F4DB513(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.S1522384E34129B15
@@ -2980,11 +2758,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S813D29D25C84777A"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.RemovePokemonCatchCallback
+function CF6989DEF87EEA6AA.S813D29D25C84777A(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.S1522384E34129B15
@@ -2994,11 +2769,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S1964BD0B63E86DA2"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.AreaEnter
+function CF6989DEF87EEA6AA.S1964BD0B63E86DA2(A0_2)
   local L1_2, L2_2
   if A0_2 then
     L1_2 = CF6989DEF87EEA6AA
@@ -3030,11 +2802,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S6AD25E3C82DAA943"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.PlayBgm
+function CF6989DEF87EEA6AA.S6AD25E3C82DAA943(A0_2)
   local L1_2, L2_2
   L1_2 = CF4B448D8C3744CAF
   L1_2 = L1_2.SDDCF2C31DADBAB65
@@ -3042,22 +2811,16 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S25801251CC926E14"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.S25801251CC926E14
+function CF6989DEF87EEA6AA.S25801251CC926E14()
   local L0_2, L1_2
   L0_2 = CF6989DEF87EEA6AA
   L0_2 = L0_2.SDFE57C84C00D60E5
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S044814A7C34DB361"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.S044814A7C34DB361
+function CF6989DEF87EEA6AA.S044814A7C34DB361(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = -1
   L2_2 = 0.0
@@ -3096,11 +2859,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S0DD2D1A5EB4B5B24"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.ReturnToRanch
+function CF6989DEF87EEA6AA.S0DD2D1A5EB4B5B24()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L0_2 = cD5675BA5
   L0_2 = L0_2.fFA44D7AF
@@ -3198,11 +2958,8 @@ function L70_1()
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SC57DE182F7508CCA"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_kusa_common.setStopperGymRoom
+function CF6989DEF87EEA6AA.SC57DE182F7508CCA(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -3242,11 +2999,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "S3733E42E813FEA4B"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.S3733E42E813FEA4B
+function CF6989DEF87EEA6AA.S3733E42E813FEA4B()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = C7EA57C5A2FE7B13B
   L0_2 = L0_2.new
@@ -3273,11 +3027,8 @@ function L70_1()
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6989DEF87EEA6AA"]
-L69_1 = "SB79FC8C6A9B9FE64"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_kusa_common.SB79FC8C6A9B9FE64
+function CF6989DEF87EEA6AA.SB79FC8C6A9B9FE64()
   local L0_2, L1_2, L2_2
   L0_2 = CF6989DEF87EEA6AA
   L0_2 = L0_2.SB5349AD900EBF576

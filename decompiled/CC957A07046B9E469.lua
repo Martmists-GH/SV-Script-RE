@@ -1,3 +1,7 @@
+---@alias CC957A07046B9E469 main_event_general_area_script_master_AreaScriptMaster
+
+---@class main_event_general_area_script_master_AreaScriptMaster : CC957A07046B9E469_prototype
+---@field prototype CC957A07046B9E469_prototype
 L55_1 = _ENV
 L56_1 = "CC957A07046B9E469"
 L57_1 = L15_1
@@ -45,27 +49,22 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC957A07046B9E469"]
 L69_1 = "__name__"
 L70_1 = "CC957A07046B9E469"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC957A07046B9E469"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC957A07046B9E469"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CC957A07046B9E469_prototype
+CC957A07046B9E469_prototype = L15_1()
+CC957A07046B9E469.prototype = CC957A07046B9E469_prototype
+--- main.event.general.area_script.master.AreaScriptMaster.mainBody
+function CC957A07046B9E469_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = L16_1
   L2_2 = {}
   L3_2 = {}
   L3_2.callFromFieldStart = true
   L2_2.__fields__ = L3_2
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.callFromFieldStart
   L2_2.callFromFieldStart = L3_2
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.areaExitScriptList
   L3_2 = _hx_tab_array
   L4_2 = {}
@@ -112,7 +111,7 @@ function L70_1(A0_2)
       L7_2()
     end
   end
-  L6_2 = A0_2[32]
+  L6_2 = self[32]
   L6_2 = L6_2.areaEnterScriptList
   L7_2 = _hx_tab_array
   L8_2 = {}

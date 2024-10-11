@@ -1,3 +1,5 @@
+---@class C184AAF34E8183407 : C184AAF34E8183407_prototype
+---@field prototype C184AAF34E8183407_prototype
 L55_1 = _ENV
 L56_1 = "C184AAF34E8183407"
 L57_1 = L15_1
@@ -45,46 +47,41 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C184AAF34E8183407"]
 L69_1 = "__name__"
 L70_1 = "C184AAF34E8183407"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C184AAF34E8183407"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C184AAF34E8183407"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C184AAF34E8183407_prototype
+C184AAF34E8183407_prototype = L15_1()
+C184AAF34E8183407.prototype = C184AAF34E8183407_prototype
+--- C184AAF34E8183407.preStart
+function C184AAF34E8183407_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.playerLook
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2.playerLook = true
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.targetLook
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2.targetLook = true
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.camerawork
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2.camerawork = false
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.camerawork
   if L1_2 then
     L1_2 = C9F6C325569B7E07F
     L1_2 = L1_2.S78BBE9C0C6452E1E
     L1_2()
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.targetLookReturn
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2.targetLookReturn = true
   end
   L1_2 = nil
@@ -110,7 +107,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -118,7 +115,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -133,34 +130,28 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C184AAF34E8183407"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- C184AAF34E8183407.mainBody
+function C184AAF34E8183407_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C36BDEFD8FA8C0336
   L1_2 = L1_2.S60E591FB1ECA63A9
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.targetName
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.playerLook
-  L4_2 = A0_2[32]
+  L4_2 = self[32]
   L4_2 = L4_2.targetLook
-  L5_2 = A0_2[32]
+  L5_2 = self[32]
   L5_2 = L5_2.camerawork
-  L6_2 = A0_2[32]
+  L6_2 = self[32]
   L6_2 = L6_2.targetLookReturn
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C184AAF34E8183407"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- C184AAF34E8183407.preEnd
+function C184AAF34E8183407_prototype:F740FB4E96926D103()
   local L1_2, L2_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.camerawork
   if L1_2 then
     L1_2 = C9F6C325569B7E07F

@@ -1,3 +1,5 @@
+---@class C861C6A57F04082DD : C861C6A57F04082DD_prototype
+---@field prototype C861C6A57F04082DD_prototype
 L68_1 = _ENV["C4A9B11034F21CEA6"]
 L69_1 = "new"
 
@@ -30,12 +32,9 @@ L69_1 = "__name__"
 L70_1 = "C4A9B11034F21CEA6"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4A9B11034F21CEA6"]
-L69_1 = "__interfaces__"
-L70_1 = {}
-L68_1 = _ENV["C4A9B11034F21CEA6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+L69_1 = "__inte---@class C861C6A57F04082DD_prototype
+C861C6A57F04082DD_prototype = L15_1()
+C861C6A57F04082DD.prototype = C861C6A57F04082DD_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4A9B11034F21CEA6"]["prototype"]
 L69_1 = _ENV["C4A9B11034F21CEA6"]

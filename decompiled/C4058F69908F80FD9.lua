@@ -1,3 +1,6 @@
+---@alias C14DC189A182A9FDD main_ui_util_UINewIconUtil
+
+---@class main_ui_util_UINewIconUtil
 L55_1 = _ENV
 L56_1 = "C4058F69908F80FD9"
 L57_1 = L15_1

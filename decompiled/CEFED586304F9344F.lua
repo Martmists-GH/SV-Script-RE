@@ -1,3 +1,7 @@
+---@alias CEFED586304F9344F main_mystery_gift_MysteryGiftViewHeader
+
+---@class main_mystery_gift_MysteryGiftViewHeader : CEFED586304F9344F_prototype
+---@field prototype CEFED586304F9344F_prototype
 L55_1 = _ENV
 L56_1 = "CEFED586304F9344F"
 L57_1 = L15_1
@@ -47,40 +51,35 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CEFED586304F9344F"]
 L69_1 = "__name__"
 L70_1 = "CEFED586304F9344F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFED586304F9344F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFED586304F9344F"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CEFED586304F9344F_prototype
+CEFED586304F9344F_prototype = L15_1()
+CEFED586304F9344F.prototype = CEFED586304F9344F_prototype
+--- main.mystery_gift.MysteryGiftViewHeader.Setup
+function CEFED586304F9344F_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C9CC979169E6BA3A6
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "mystery"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
-  L2_2 = A0_2[3]
+  self[3] = L2_2
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.FA23D39922B76B247
   L4_2 = nil
   L5_2 = true
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F748A3DCD68216D1D
   L4_2 = "L_keep_00/keep"
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F748A3DCD68216D1D
   L4_2 = "f_in"
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.FF32CC3BE322652A8
   L4_2 = "L_keep_00/ptn_version"
@@ -88,13 +87,13 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2.f4F92E4A5
   L5_2 = L5_2()
   L2_2(L3_2, L4_2, L5_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F1BB2C5F716B25F79
+  L3_2 = self
+  L2_2 = self.F1BB2C5F716B25F79
   L4_2 = "msg_o_mystery_cap_19"
   L2_2(L3_2, L4_2)
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fF327F826
@@ -102,30 +101,24 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFED586304F9344F"]["prototype"]
-L69_1 = "F748A3DCD68216D1D"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftViewHeader.PlayAnime
+function CEFED586304F9344F_prototype:F748A3DCD68216D1D(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F748A3DCD68216D1D
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFED586304F9344F"]["prototype"]
-L69_1 = "F1BB2C5F716B25F79"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftViewHeader.SetHeaderText
+function CEFED586304F9344F_prototype:F1BB2C5F716B25F79(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.FC8489078C201C47F
   L2_2 = L2_2(L3_2)

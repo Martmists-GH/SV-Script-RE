@@ -1,3 +1,7 @@
+---@alias C1C9D6B48BF1F82A6 main_ui_status_database_StatusRibbonDataAccessor
+
+---@class main_ui_status_database_StatusRibbonDataAccessor : C1C9D6B48BF1F82A6_prototype
+---@field prototype C1C9D6B48BF1F82A6_prototype
 L68_1 = _ENV["CC618F54CA5300C5B"]
 L69_1 = "super"
 
@@ -17,11 +21,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC618F54CA5300C5B"]
 L69_1 = "__name__"
 L70_1 = "CC618F54CA5300C5B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC618F54CA5300C5B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C1C9D6B48BF1F82A6_prototype
+C1C9D6B48BF1F82A6_prototype = L15_1()
+C1C9D6B48BF1F82A6.prototype = C1C9D6B48BF1F82A6_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC618F54CA5300C5B"]["prototype"]
 L69_1 = _ENV["CC618F54CA5300C5B"]

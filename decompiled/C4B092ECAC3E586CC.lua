@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C4B092ECAC3E586CC"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "new"
+---@alias C4B092ECAC3E586CC main_event_base_manager_EventScriptManager
 
-function L70_1(A0_2)
+---@class main_event_base_manager_EventScriptManager : C4B092ECAC3E586CC_prototype
+---@field prototype C4B092ECAC3E586CC_prototype
+C4B092ECAC3E586CC = L15_1()
+function C4B092ECAC3E586CC.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C4B092ECAC3E586CC
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C4B092ECAC3E586CC
+function C4B092ECAC3E586CC.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -48,11 +42,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C4B092ECAC3E586CC"]
 L69_1 = "__name__"
 L70_1 = "C4B092ECAC3E586CC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "S1559C05009ED9A52"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.base.manager.EventScriptManager.PushScript
+function C4B092ECAC3E586CC.S1559C05009ED9A52(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = C4B092ECAC3E586CC
   L3_2 = L3_2.SC8223E31D3163519
@@ -64,11 +55,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "SC2BB20D8086BA8AF"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.base.manager.EventScriptManager.AddScript
+function C4B092ECAC3E586CC.SC2BB20D8086BA8AF(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = C4B092ECAC3E586CC
   L3_2 = L3_2.SC8223E31D3163519
@@ -80,11 +68,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "S73DEE921801DF272"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.base.manager.EventScriptManager.CreateScript
+function C4B092ECAC3E586CC.S73DEE921801DF272(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = C4B092ECAC3E586CC
   L3_2 = L3_2.SC8223E31D3163519
@@ -96,11 +81,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "S0B50049801277301"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventScriptManager.RunScript
+function C4B092ECAC3E586CC.S0B50049801277301(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C4B092ECAC3E586CC
   L2_2 = L2_2.SC8223E31D3163519
@@ -111,11 +93,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "SAD639292F1E53D87"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.base.manager.EventScriptManager.AddSceneChangeScript
+function C4B092ECAC3E586CC.SAD639292F1E53D87(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = C4B092ECAC3E586CC
   L3_2 = L3_2.SC8223E31D3163519
@@ -127,11 +106,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "SC6E74DBDDCCAB62C"
-
-function L70_1()
+--- main.event.base.manager.EventScriptManager.PopSceneChangeInfo
+function C4B092ECAC3E586CC.SC6E74DBDDCCAB62C()
   local L0_2, L1_2
   L0_2 = C4B092ECAC3E586CC
   L0_2 = L0_2.SC8223E31D3163519
@@ -140,11 +116,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "SEF805D0E28B92A6D"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventScriptManager.IsReserved
+function C4B092ECAC3E586CC.SEF805D0E28B92A6D(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C4B092ECAC3E586CC
   L1_2 = L1_2.SC8223E31D3163519
@@ -154,11 +127,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "S17A092D38F13047B"
-
-function L70_1()
+--- main.event.base.manager.EventScriptManager.IsReserveAny
+function C4B092ECAC3E586CC.S17A092D38F13047B()
   local L0_2, L1_2
   L0_2 = C4B092ECAC3E586CC
   L0_2 = L0_2.SC8223E31D3163519
@@ -167,11 +137,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "S501EE073731ED80E"
-
-function L70_1()
+--- main.event.base.manager.EventScriptManager.HasSceneChangeScript
+function C4B092ECAC3E586CC.S501EE073731ED80E()
   local L0_2, L1_2
   L0_2 = C4B092ECAC3E586CC
   L0_2 = L0_2.SC8223E31D3163519
@@ -180,11 +147,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "S2183189035CA35E7"
-
-function L70_1()
+--- main.event.base.manager.EventScriptManager.IsEventScriptRunning
+function C4B092ECAC3E586CC.S2183189035CA35E7()
   local L0_2, L1_2
   L0_2 = C4B092ECAC3E586CC
   L0_2 = L0_2.SC8223E31D3163519
@@ -196,11 +160,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "SE558725A39B380F1"
-
-function L70_1()
+--- main.event.base.manager.EventScriptManager.SE558725A39B380F1
+function C4B092ECAC3E586CC.SE558725A39B380F1()
   local L0_2, L1_2
   L0_2 = C4B092ECAC3E586CC
   L0_2 = L0_2.SC8223E31D3163519
@@ -212,11 +173,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "SDAF7DA27DF957AF6"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventScriptManager.SDAF7DA27DF957AF6
+function C4B092ECAC3E586CC.SDAF7DA27DF957AF6(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C4B092ECAC3E586CC
   L1_2 = L1_2.SC8223E31D3163519
@@ -226,11 +184,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "S4BCE46AC022B7627"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventScriptManager.S4BCE46AC022B7627
+function C4B092ECAC3E586CC.S4BCE46AC022B7627(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C4B092ECAC3E586CC
   L1_2 = L1_2.SC8223E31D3163519
@@ -240,11 +195,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "S823CFEEEC4077D06"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventScriptManager.S823CFEEEC4077D06
+function C4B092ECAC3E586CC.S823CFEEEC4077D06(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C4B092ECAC3E586CC
   L1_2 = L1_2.SC8223E31D3163519
@@ -254,11 +206,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "SC7612CB88D1EA432"
-
-function L70_1()
+--- main.event.base.manager.EventScriptManager.GetOwner
+function C4B092ECAC3E586CC.SC7612CB88D1EA432()
   local L0_2, L1_2
   L0_2 = C4B092ECAC3E586CC
   L0_2 = L0_2.SC8223E31D3163519
@@ -266,11 +215,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "SEAEEB97D4A6A6D52"
-
-function L70_1()
+--- main.event.base.manager.EventScriptManager.get_CurrentScript
+function C4B092ECAC3E586CC.SEAEEB97D4A6A6D52()
   local L0_2, L1_2
   L0_2 = C4B092ECAC3E586CC
   L0_2 = L0_2.SC8223E31D3163519
@@ -278,16 +224,11 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B092ECAC3E586CC"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+---@class C4B092ECAC3E586CC_prototype
+C4B092ECAC3E586CC_prototype = L15_1()
+C4B092ECAC3E586CC.prototype = C4B092ECAC3E586CC_prototype
+--- main.event.base.manager.EventScriptManager.PreUpdate
+function C4B092ECAC3E586CC_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = C4B092ECAC3E586CC
   L2_2 = L2_2.SC8223E31D3163519

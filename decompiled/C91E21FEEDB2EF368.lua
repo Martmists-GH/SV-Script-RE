@@ -1,3 +1,7 @@
+---@alias C91E21FEEDB2EF368 main_ui_shop_purchase_view_ShopUIPurchaseSequence
+
+---@class main_ui_shop_purchase_view_ShopUIPurchaseSequence : C91E21FEEDB2EF368_prototype
+---@field prototype C91E21FEEDB2EF368_prototype
 L55_1 = _ENV
 L56_1 = "C91E21FEEDB2EF368"
 L57_1 = L15_1
@@ -52,20 +56,15 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C91E21FEEDB2EF368"]
 L69_1 = "__name__"
 L70_1 = "C91E21FEEDB2EF368"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91E21FEEDB2EF368"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91E21FEEDB2EF368"]["prototype"]
-L69_1 = "F09771963F48FF526"
-
-function L70_1(A0_2, A1_2)
+---@class C91E21FEEDB2EF368_prototype
+C91E21FEEDB2EF368_prototype = L15_1()
+C91E21FEEDB2EF368.prototype = C91E21FEEDB2EF368_prototype
+--- main.ui.shop.purchase.view.ShopUIPurchaseSequence.GetMaxCount
+function C91E21FEEDB2EF368_prototype:F09771963F48FF526(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C1CCC42394C502C14
   L2_2 = L2_2.S299638EFA13D49B1
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.F6B4E736F43C1495B
   L3_2 = L3_2(L4_2)
@@ -98,7 +97,7 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2(L5_2)
     L3_2 = L4_2
   end
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.F6B4E736F43C1495B
   L4_2 = L4_2(L5_2)
@@ -137,45 +136,36 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91E21FEEDB2EF368"]["prototype"]
-L69_1 = "FDEA5E6606749E503"
-
-function L70_1(A0_2)
+--- main.ui.shop.purchase.view.ShopUIPurchaseSequence.EndSequence
+function C91E21FEEDB2EF368_prototype:FDEA5E6606749E503()
   local L1_2, L2_2
   L1_2 = C45D971DF93362FD3
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FDEA5E6606749E503
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F66F4E2004B1734C5
+  L2_2 = self
+  L1_2 = self.F66F4E2004B1734C5
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91E21FEEDB2EF368"]["prototype"]
-L69_1 = "F91E2EBC534672199"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.purchase.view.ShopUIPurchaseSequence.DecideSelect
+function C91E21FEEDB2EF368_prototype:F91E2EBC534672199(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C45D971DF93362FD3
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F91E2EBC534672199
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F1AB2B8E0E8B53443
+  L3_2 = self
+  L2_2 = self.F1AB2B8E0E8B53443
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91E21FEEDB2EF368"]["prototype"]
-L69_1 = "F58266D7A2F4B7490"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop.purchase.view.ShopUIPurchaseSequence.IsItemPay
+function C91E21FEEDB2EF368_prototype:F58266D7A2F4B7490(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L4_2 = A1_2
   L3_2 = A1_2.F6B4E736F43C1495B
@@ -233,24 +223,21 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91E21FEEDB2EF368"]["prototype"]
-L69_1 = "F73607F1DDB5D9752"
-
-function L70_1(A0_2)
+--- main.ui.shop.purchase.view.ShopUIPurchaseSequence.IsGoQuantitySelect
+function C91E21FEEDB2EF368_prototype:F73607F1DDB5D9752()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S84E00A89DFBC380C
   L1_2()
   L1_2 = true
-  L3_2 = A0_2
-  L2_2 = A0_2.F58266D7A2F4B7490
-  L4_2 = A0_2[2]
-  L5_2 = A0_2[3]
+  L3_2 = self
+  L2_2 = self.F58266D7A2F4B7490
+  L4_2 = self[2]
+  L5_2 = self[3]
   L2_2 = L2_2(L3_2, L4_2, L5_2)
   L3_2 = C164B2D203DA610F3
   L3_2 = L3_2.S2B427339EA95032A
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.F6BD22592E1159AF6
   L4_2 = L4_2(L5_2)
@@ -258,14 +245,14 @@ function L70_1(A0_2)
   L3_2 = L3_2(L4_2, L5_2)
   if false == L2_2 then
     L1_2 = false
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L4_2
     L4_2 = L4_2.F6B4E736F43C1495B
     L4_2 = L4_2(L5_2)
     if 0 == L4_2 then
       L5_2 = C164B2D203DA610F3
       L5_2 = L5_2.S2B427339EA95032A
-      L6_2 = A0_2[2]
+      L6_2 = self[2]
       L7_2 = L6_2
       L6_2 = L6_2.F6BD22592E1159AF6
       L6_2 = L6_2(L7_2)
@@ -275,7 +262,7 @@ function L70_1(A0_2)
     elseif 1 == L4_2 then
       L5_2 = C164B2D203DA610F3
       L5_2 = L5_2.S2B427339EA95032A
-      L6_2 = A0_2[2]
+      L6_2 = self[2]
       L7_2 = L6_2
       L6_2 = L6_2.F6BD22592E1159AF6
       L6_2 = L6_2(L7_2)
@@ -285,7 +272,7 @@ function L70_1(A0_2)
     else
       L5_2 = C164B2D203DA610F3
       L5_2 = L5_2.S2B427339EA95032A
-      L6_2 = A0_2[2]
+      L6_2 = self[2]
       L7_2 = L6_2
       L6_2 = L6_2.F6BD22592E1159AF6
       L6_2 = L6_2(L7_2)
@@ -300,7 +287,7 @@ function L70_1(A0_2)
     L4_2 = L4_2()
     L5_2 = L4_2
     L4_2 = L4_2.F547A7E84715631C6
-    L6_2 = A0_2[3]
+    L6_2 = self[3]
     L4_2 = L4_2(L5_2, L6_2)
     if -1 == L4_2 then
       L4_2 = 0
@@ -310,10 +297,10 @@ function L70_1(A0_2)
     L5_2 = L5_2()
     L6_2 = L5_2
     L5_2 = L5_2.F74042DD40BF93AB1
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L5_2 = L5_2(L6_2, L7_2)
     if not (L4_2 >= L5_2) then
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L6_2 = L5_2
       L5_2 = L5_2.F6BD22592E1159AF6
       L5_2 = L5_2(L6_2)
@@ -326,7 +313,7 @@ function L70_1(A0_2)
     function L5_2()
       local L0_3, L1_3, L2_3
       L0_3 = nil
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[2]
       L2_3 = L1_3
       L1_3 = L1_3.F6BD22592E1159AF6
@@ -342,7 +329,7 @@ function L70_1(A0_2)
     L5_2 = L5_2()
     L6_2 = C164B2D203DA610F3
     L6_2 = L6_2.S2B427339EA95032A
-    L7_2 = A0_2[2]
+    L7_2 = self[2]
     L8_2 = L7_2
     L7_2 = L7_2.F6BD22592E1159AF6
     L7_2 = L7_2(L8_2)
@@ -357,7 +344,7 @@ function L70_1(A0_2)
     L5_2 = L4_2
     L4_2 = L4_2.fA0CC3CEA
     L6_2 = 0
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L8_2 = 1
     L4_2(L5_2, L6_2, L7_2, L8_2)
     L4_2 = C828F047963375FA0
@@ -422,31 +409,28 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91E21FEEDB2EF368"]["prototype"]
-L69_1 = "F1AB2B8E0E8B53443"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.purchase.view.ShopUIPurchaseSequence.BuyDecideSelect
+function C91E21FEEDB2EF368_prototype:F1AB2B8E0E8B53443(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F7C91080775560DF8
+  L3_2 = self
+  L2_2 = self.F7C91080775560DF8
   L2_2(L3_2)
   L2_2 = C1CCC42394C502C14
   L2_2 = L2_2.S299638EFA13D49B1
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.F6B4E736F43C1495B
   L3_2 = L3_2(L4_2)
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L2_2 = L2_2(L3_2, L4_2)
   L2_2 = L2_2 * A1_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F59A4478EA7B53698
-  L6_2 = A0_2
-  L5_2 = A0_2.F8BF398D030E8E2CE
+  L4_2 = self
+  L3_2 = self.F59A4478EA7B53698
+  L6_2 = self
+  L5_2 = self.F8BF398D030E8E2CE
   L7_2 = A1_2
   L8_2 = L2_2
-  L9_2 = A0_2[3]
+  L9_2 = self[3]
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2)
   L6_2 = c8C3BF576
   L6_2 = L6_2.fC8CEF9EF
@@ -476,15 +460,15 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2.F978B5817EAFDF8C8
     L4_2 = L4_2(L5_2)
     if L2_2 > L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F7C91080775560DF8
+      L5_2 = self
+      L4_2 = self.F7C91080775560DF8
       L4_2(L5_2)
       L4_2 = c8C3BF576
       L4_2 = L4_2.fC8CEF9EF
       L5_2 = "shop"
       L6_2 = C164B2D203DA610F3
       L6_2 = L6_2.S2B427339EA95032A
-      L7_2 = A0_2[2]
+      L7_2 = self[2]
       L8_2 = L7_2
       L7_2 = L7_2.F6BD22592E1159AF6
       L7_2 = L7_2(L8_2)
@@ -535,16 +519,16 @@ function L70_1(A0_2, A1_2)
       L7_2 = CF1D9D619D324F233
       L7_2 = L7_2.S84E00A89DFBC380C
       L7_2()
-      L8_2 = A0_2
-      L7_2 = A0_2.F1AB2B8E0E8B53443
+      L8_2 = self
+      L7_2 = self.F1AB2B8E0E8B53443
       L9_2 = A1_2
       L7_2(L8_2, L9_2)
     else
-      L5_2 = A0_2
-      L4_2 = A0_2.F191B994214E8A3E0
+      L5_2 = self
+      L4_2 = self.F191B994214E8A3E0
       L6_2 = A1_2
       L7_2 = L2_2
-      L8_2 = A0_2[3]
+      L8_2 = self[3]
       L9_2 = 0
       L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
     end
@@ -553,8 +537,8 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2.S3B8769D264FC8947
     L4_2 = L4_2()
     if L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F7C91080775560DF8
+      L5_2 = self
+      L4_2 = self.F7C91080775560DF8
       L4_2(L5_2)
       L4_2 = CF1D9D619D324F233
       L4_2 = L4_2.S7D05D34C291DA69E
@@ -576,8 +560,8 @@ function L70_1(A0_2, A1_2)
       L4_2 = CF1D9D619D324F233
       L4_2 = L4_2.S84E00A89DFBC380C
       L4_2()
-      L5_2 = A0_2
-      L4_2 = A0_2.F1AB2B8E0E8B53443
+      L5_2 = self
+      L4_2 = self.F1AB2B8E0E8B53443
       L6_2 = A1_2
       L4_2(L5_2, L6_2)
     else
@@ -587,15 +571,15 @@ function L70_1(A0_2, A1_2)
       L4_2 = L4_2.FE3E7EF9576663B08
       L4_2 = L4_2(L5_2)
       if L2_2 > L4_2 then
-        L5_2 = A0_2
-        L4_2 = A0_2.F7C91080775560DF8
+        L5_2 = self
+        L4_2 = self.F7C91080775560DF8
         L4_2(L5_2)
         L4_2 = c8C3BF576
         L4_2 = L4_2.fC8CEF9EF
         L5_2 = "shop"
         L6_2 = C164B2D203DA610F3
         L6_2 = L6_2.S2B427339EA95032A
-        L7_2 = A0_2[2]
+        L7_2 = self[2]
         L8_2 = L7_2
         L7_2 = L7_2.F6BD22592E1159AF6
         L7_2 = L7_2(L8_2)
@@ -646,16 +630,16 @@ function L70_1(A0_2, A1_2)
         L7_2 = CF1D9D619D324F233
         L7_2 = L7_2.S84E00A89DFBC380C
         L7_2()
-        L8_2 = A0_2
-        L7_2 = A0_2.F1AB2B8E0E8B53443
+        L8_2 = self
+        L7_2 = self.F1AB2B8E0E8B53443
         L9_2 = A1_2
         L7_2(L8_2, L9_2)
       else
-        L5_2 = A0_2
-        L4_2 = A0_2.F191B994214E8A3E0
+        L5_2 = self
+        L4_2 = self.F191B994214E8A3E0
         L6_2 = A1_2
         L7_2 = L2_2
-        L8_2 = A0_2[3]
+        L8_2 = self[3]
         L9_2 = 1
         L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
       end
@@ -667,15 +651,15 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2.F2FFB194A3799DD2D
     L4_2 = L4_2(L5_2)
     if L2_2 > L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F7C91080775560DF8
+      L5_2 = self
+      L4_2 = self.F7C91080775560DF8
       L4_2(L5_2)
       L4_2 = c8C3BF576
       L4_2 = L4_2.fC8CEF9EF
       L5_2 = "shop"
       L6_2 = C164B2D203DA610F3
       L6_2 = L6_2.S2B427339EA95032A
-      L7_2 = A0_2[2]
+      L7_2 = self[2]
       L8_2 = L7_2
       L7_2 = L7_2.F6BD22592E1159AF6
       L7_2 = L7_2(L8_2)
@@ -726,31 +710,28 @@ function L70_1(A0_2, A1_2)
       L7_2 = CF1D9D619D324F233
       L7_2 = L7_2.S84E00A89DFBC380C
       L7_2()
-      L8_2 = A0_2
-      L7_2 = A0_2.F1AB2B8E0E8B53443
+      L8_2 = self
+      L7_2 = self.F1AB2B8E0E8B53443
       L9_2 = A1_2
       L7_2(L8_2, L9_2)
     else
-      L5_2 = A0_2
-      L4_2 = A0_2.F191B994214E8A3E0
+      L5_2 = self
+      L4_2 = self.F191B994214E8A3E0
       L6_2 = A1_2
       L7_2 = L2_2
-      L8_2 = A0_2[3]
+      L8_2 = self[3]
       L9_2 = 2
       L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
     end
   elseif 3 == L3_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.FDEA5E6606749E503
+    L5_2 = self
+    L4_2 = self.FDEA5E6606749E503
     L4_2(L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91E21FEEDB2EF368"]["prototype"]
-L69_1 = "F8BF398D030E8E2CE"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.shop.purchase.view.ShopUIPurchaseSequence.GetBuyText
+function C91E21FEEDB2EF368_prototype:F8BF398D030E8E2CE(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L4_2 = C828F047963375FA0
   L4_2 = L4_2.S7F96B3B929C8C9AB
@@ -829,7 +810,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L10_2 = "shop"
   L11_2 = C164B2D203DA610F3
   L11_2 = L11_2.S2B427339EA95032A
-  L12_2 = A0_2[2]
+  L12_2 = self[2]
   L13_2 = L12_2
   L12_2 = L12_2.F6BD22592E1159AF6
   L12_2 = L12_2(L13_2)
@@ -839,11 +820,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91E21FEEDB2EF368"]["prototype"]
-L69_1 = "F59A4478EA7B53698"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.ui.shop.purchase.view.ShopUIPurchaseSequence.ShowPriceQuantityPayMethodText
+function C91E21FEEDB2EF368_prototype:F59A4478EA7B53698(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L6_2 = cC9AD95E7
   L6_2 = L6_2.f101D811F
@@ -870,7 +848,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
   L8_2 = C8137833AB58F272F
   L8_2 = L8_2.SC1D91E6B1C832A62
-  L9_2 = A0_2[2]
+  L9_2 = self[2]
   L10_2 = L9_2
   L9_2 = L9_2.F4F6B6E5FD999AC49
   L9_2, L10_2, L11_2 = L9_2(L10_2)
@@ -896,7 +874,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L9_2 = CF1D9D619D324F233
   L9_2 = L9_2.S44577E0D8E8F3819
   L9_2()
-  L9_2 = A0_2[2]
+  L9_2 = self[2]
   L10_2 = L9_2
   L9_2 = L9_2.F6B4E736F43C1495B
   L9_2 = L9_2(L10_2)
@@ -944,8 +922,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L9_2 = L9_2.S760DAE4C5371A78E
     L9_2()
   end
-  L10_2 = A0_2
-  L9_2 = A0_2.F7C91080775560DF8
+  L10_2 = self
+  L9_2 = self.F7C91080775560DF8
   L9_2(L10_2)
   L9_2 = L31_1.parseInt
   L10_2 = CF1D9D619D324F233
@@ -954,21 +932,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L9_2(L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91E21FEEDB2EF368"]["prototype"]
-L69_1 = "F191B994214E8A3E0"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.shop.purchase.view.ShopUIPurchaseSequence.OnBuy
+function C91E21FEEDB2EF368_prototype:F191B994214E8A3E0(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L6_2 = A0_2
-  L5_2 = A0_2.F7C91080775560DF8
+  L6_2 = self
+  L5_2 = self.F7C91080775560DF8
   L5_2(L6_2)
   L5_2 = c8C3BF576
   L5_2 = L5_2.fC8CEF9EF
   L6_2 = "shop"
   L7_2 = C164B2D203DA610F3
   L7_2 = L7_2.S2B427339EA95032A
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L9_2 = L8_2
   L8_2 = L8_2.F6BD22592E1159AF6
   L8_2 = L8_2(L9_2)
@@ -1035,36 +1010,33 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L9_2 = A4_2
   L10_2 = -A2_2
   L8_2(L9_2, L10_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.FB6FB0A1BAD862674
+  L9_2 = self
+  L8_2 = self.FB6FB0A1BAD862674
   L10_2 = A3_2
   L11_2 = A1_2
   L8_2 = L8_2(L9_2, L10_2, L11_2)
-  L10_2 = A0_2
-  L9_2 = A0_2.FF2B34DBC6FCCC2D6
-  L11_2 = A0_2[2]
+  L10_2 = self
+  L9_2 = self.FF2B34DBC6FCCC2D6
+  L11_2 = self[2]
   L12_2 = L11_2
   L11_2 = L11_2.F6BD22592E1159AF6
   L11_2 = L11_2(L12_2)
   L12_2 = L8_2
   L9_2(L10_2, L11_2, L12_2)
-  L10_2 = A0_2
-  L9_2 = A0_2.F66F4E2004B1734C5
+  L10_2 = self
+  L9_2 = self.F66F4E2004B1734C5
   L9_2(L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91E21FEEDB2EF368"]["prototype"]
-L69_1 = "F66F4E2004B1734C5"
-
-function L70_1(A0_2)
+--- main.ui.shop.purchase.view.ShopUIPurchaseSequence.ItemSelectTransition
+function C91E21FEEDB2EF368_prototype:F66F4E2004B1734C5()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FA23D39922B76B247
   L3_2 = false
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.FA23D39922B76B247
   L3_2 = "L_select_00"

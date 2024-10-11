@@ -1,3 +1,7 @@
+---@alias CCEECB15FBDFAE157 main_ui_shop_data_friendly_ShopItemDataProperty
+
+---@class main_ui_shop_data_friendly_ShopItemDataProperty : CCEECB15FBDFAE157_prototype
+---@field prototype CCEECB15FBDFAE157_prototype
 L55_1 = _ENV
 L56_1 = "CCEECB15FBDFAE157"
 L57_1 = L15_1
@@ -70,56 +74,42 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCEECB15FBDFAE157"]
 L69_1 = "__name__"
 L70_1 = "CCEECB15FBDFAE157"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCEECB15FBDFAE157"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCEECB15FBDFAE157"]["prototype"]
-L69_1 = "FB9D4F615C1C16574"
-
-function L70_1(A0_2)
+---@class CCEECB15FBDFAE157_prototype
+CCEECB15FBDFAE157_prototype = L15_1()
+CCEECB15FBDFAE157.prototype = CCEECB15FBDFAE157_prototype
+--- main.ui.shop.data.friendly.ShopItemDataProperty.get_sortNum
+function CCEECB15FBDFAE157_prototype:FB9D4F615C1C16574()
   local L1_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCEECB15FBDFAE157"]["prototype"]
-L69_1 = "FD075151FFDA9788A"
-
-function L70_1(A0_2)
+--- main.ui.shop.data.friendly.ShopItemDataProperty.get_itemID
+function CCEECB15FBDFAE157_prototype:FD075151FFDA9788A()
   local L1_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCEECB15FBDFAE157"]["prototype"]
-L69_1 = "F88CFCF9BBA1FBACA"
-
-function L70_1(A0_2)
+--- main.ui.shop.data.friendly.ShopItemDataProperty.get_condKind
+function CCEECB15FBDFAE157_prototype:F88CFCF9BBA1FBACA()
   local L1_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCEECB15FBDFAE157"]["prototype"]
-L69_1 = "F5F6E9A81DF194E7E"
-
-function L70_1(A0_2)
+--- main.ui.shop.data.friendly.ShopItemDataProperty.IsReleased
+function CCEECB15FBDFAE157_prototype:F5F6E9A81DF194E7E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = false
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   if 0 == L2_2 then
     L1_2 = true
   elseif 1 == L2_2 then
     L3_2 = C10578806AC30DCA3
     L3_2 = L3_2.SBA6FF574C1C9AA09
     L3_2 = L3_2.h
-    L4_2 = A0_2[10]
+    L4_2 = self[10]
     L3_2 = L3_2[L4_2]
     L4_2 = L47_1.tnull
     if L3_2 == L4_2 then
@@ -129,7 +119,7 @@ function L70_1(A0_2)
   elseif 2 == L2_2 then
     L3_2 = C9AA363B3CCC264AA
     L3_2 = L3_2.SA5B8258582A90EF3
-    L4_2 = A0_2[10]
+    L4_2 = self[10]
     L3_2 = L3_2(L4_2)
     L1_2 = L3_2
   elseif 3 == L2_2 then
@@ -144,7 +134,7 @@ function L70_1(A0_2)
     L4_2 = L3_2
     L1_2 = L4_2
     if not L4_2 then
-      L5_2 = A0_2[11]
+      L5_2 = self[11]
       L6_2 = CD834D40ADE3577B3
       L6_2 = L6_2.S3A84A5747CA48480
       L6_2 = L6_2()

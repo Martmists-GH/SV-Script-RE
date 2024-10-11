@@ -1,3 +1,7 @@
+---@alias C8EAF2714E15CC594 main_event_general_system_map_change_MapChangeDoor
+
+---@class main_event_general_system_map_change_MapChangeDoor : C8EAF2714E15CC594_prototype
+---@field prototype C8EAF2714E15CC594_prototype
 L55_1 = _ENV
 L56_1 = "C8EAF2714E15CC594"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8EAF2714E15CC594"]
 L69_1 = "__name__"
 L70_1 = "C8EAF2714E15CC594"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8EAF2714E15CC594"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8EAF2714E15CC594"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C8EAF2714E15CC594_prototype
+C8EAF2714E15CC594_prototype = L15_1()
+C8EAF2714E15CC594.prototype = C8EAF2714E15CC594_prototype
+--- main.event.general.system.map_change.MapChangeDoor.mainBody
+function C8EAF2714E15CC594_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2, L51_2, L52_2, L53_2, L54_2, L55_2, L56_2, L57_2, L58_2, L59_2, L60_2, L61_2, L62_2, L63_2
   L1_2 = nil
   
@@ -63,7 +62,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -71,7 +70,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -259,17 +258,17 @@ function L70_1(A0_2)
   L5_2 = CFC8F368D91411014
   L5_2 = L5_2.S93A017D496A6D000
   L4_2 = L4_2(L5_2)
-  A0_2[35] = L4_2
+  self[35] = L4_2
   L4_2 = nil
-  L6_2 = A0_2
-  L5_2 = A0_2.F4D26949FF77B7220
+  L6_2 = self
+  L5_2 = self.F4D26949FF77B7220
   
   function L7_2()
     local L0_3, L1_3, L2_3, L3_3
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L4_2
@@ -277,7 +276,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -292,7 +291,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L6_2
@@ -300,7 +299,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -360,8 +359,8 @@ function L70_1(A0_2)
       L16_2 = L14_2
       L15_2(L16_2)
       if nil ~= L13_2 then
-        L16_2 = A0_2
-        L15_2 = A0_2.F77118ABC489D62CD
+        L16_2 = self
+        L15_2 = self.F77118ABC489D62CD
         L17_2 = L11_2.roomMapInfo
         L17_2 = L17_2.mapName
         L18_2 = L13_2
@@ -424,7 +423,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = c016374C1
       L1_3 = L1_3.f4555D276
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[12]
       L2_3 = L2_3.owner
       L3_3 = L12_2
@@ -432,7 +431,7 @@ function L70_1(A0_2)
       if L1_3 then
         L0_3 = nil
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[12]
       end
       return L0_3
@@ -489,8 +488,8 @@ function L70_1(A0_2)
   L12_2(L13_2)
   L12_2 = L3_2.srcSEwait
   if nil ~= L12_2 then
-    L13_2 = A0_2
-    L12_2 = A0_2.F8DC8F70F656F2F35
+    L13_2 = self
+    L12_2 = self.F8DC8F70F656F2F35
     L14_2 = L3_2.srcSEwait
     L12_2(L13_2, L14_2)
   end
@@ -511,20 +510,20 @@ function L70_1(A0_2)
       L13_2(L14_2, L15_2, L16_2)
       L13_2 = L3_2.type
       if 2 == L13_2 then
-        L14_2 = A0_2
-        L13_2 = A0_2.F8DC8F70F656F2F35
+        L14_2 = self
+        L13_2 = self.F8DC8F70F656F2F35
         L15_2 = 0.5
         L13_2(L14_2, L15_2)
         L13_2 = nil
-        L15_2 = A0_2
-        L14_2 = A0_2.F4D26949FF77B7220
+        L15_2 = self
+        L14_2 = self.F4D26949FF77B7220
         
         function L16_2()
           local L0_3, L1_3, L2_3, L3_3
           L0_3 = nil
           L1_3 = c016374C1
           L1_3 = L1_3.f4555D276
-          L2_3 = A0_2
+          L2_3 = self
           L2_3 = L2_3[12]
           L2_3 = L2_3.owner
           L3_3 = L13_2
@@ -532,7 +531,7 @@ function L70_1(A0_2)
           if L1_3 then
             L0_3 = nil
           else
-            L1_3 = A0_2
+            L1_3 = self
             L0_3 = L1_3[12]
           end
           return L0_3
@@ -556,7 +555,7 @@ function L70_1(A0_2)
             goto lbl_543
           end
         end
-        L13_2 = A0_2[35]
+        L13_2 = self[35]
         L13_2 = L13_2.owner
         L14_2 = L13_2
         L13_2 = L13_2.fB3CF1DEB
@@ -580,7 +579,7 @@ function L70_1(A0_2)
         L21_2.doorObj = true
         L21_2.duration = true
         L20_2.__fields__ = L21_2
-        L21_2 = A0_2[35]
+        L21_2 = self[35]
         L20_2.player = L21_2
         
         function L21_2()
@@ -588,7 +587,7 @@ function L70_1(A0_2)
           L0_3 = nil
           L1_3 = c016374C1
           L1_3 = L1_3.f4555D276
-          L2_3 = A0_2
+          L2_3 = self
           L2_3 = L2_3[12]
           L2_3 = L2_3.owner
           L3_3 = L15_2
@@ -596,7 +595,7 @@ function L70_1(A0_2)
           if L1_3 then
             L0_3 = nil
           else
-            L1_3 = A0_2
+            L1_3 = self
             L0_3 = L1_3[12]
           end
           return L0_3
@@ -609,7 +608,7 @@ function L70_1(A0_2)
         L16_2(L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2, L51_2, L52_2, L53_2, L54_2, L55_2, L56_2, L57_2, L58_2, L59_2, L60_2, L61_2, L62_2, L63_2)
         L16_2 = L3_2.type
         L16_2 = 8 + L16_2
-        L17_2 = A0_2[35]
+        L17_2 = self[35]
         L18_2 = nil
         L19_2 = cE35B3EB3
         L19_2 = L19_2.fDBA763D1
@@ -653,7 +652,7 @@ function L70_1(A0_2)
           L24_2 = L16_2
           L21_2(L22_2, L23_2, L24_2)
         end
-        L20_2 = A0_2[35]
+        L20_2 = self[35]
         L21_2 = nil
         L22_2 = cE35B3EB3
         L22_2 = L22_2.fDBA763D1
@@ -697,7 +696,7 @@ function L70_1(A0_2)
           L27_2 = 0
           L24_2(L25_2, L26_2, L27_2)
         end
-        L23_2 = A0_2[35]
+        L23_2 = self[35]
         L24_2 = nil
         L25_2 = cE35B3EB3
         L25_2 = L25_2.fDBA763D1
@@ -782,7 +781,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L21_2
@@ -790,7 +789,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -809,7 +808,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L22_2
@@ -817,7 +816,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -837,15 +836,15 @@ function L70_1(A0_2)
       L26_2 = L23_2
       L27_2 = L25_2
       L28_2 = nil
-      L30_2 = A0_2
-      L29_2 = A0_2.F8D8302D712E9CD58
+      L30_2 = self
+      L29_2 = self.F8D8302D712E9CD58
       
       function L31_2()
         local L0_3, L1_3, L2_3, L3_3
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L28_2
@@ -853,7 +852,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -960,7 +959,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L35_2
@@ -968,7 +967,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -983,7 +982,7 @@ function L70_1(A0_2)
           L0_3 = nil
           L1_3 = c016374C1
           L1_3 = L1_3.f4555D276
-          L2_3 = A0_2
+          L2_3 = self
           L2_3 = L2_3[12]
           L2_3 = L2_3.owner
           L3_3 = L36_2
@@ -991,7 +990,7 @@ function L70_1(A0_2)
           if L1_3 then
             L0_3 = nil
           else
-            L1_3 = A0_2
+            L1_3 = self
             L0_3 = L1_3[12]
           end
           return L0_3
@@ -1048,7 +1047,7 @@ function L70_1(A0_2)
           L0_3 = nil
           L1_3 = c016374C1
           L1_3 = L1_3.f4555D276
-          L2_3 = A0_2
+          L2_3 = self
           L2_3 = L2_3[12]
           L2_3 = L2_3.owner
           L3_3 = L40_2
@@ -1056,7 +1055,7 @@ function L70_1(A0_2)
           if L1_3 then
             L0_3 = nil
           else
-            L1_3 = A0_2
+            L1_3 = self
             L0_3 = L1_3[12]
           end
           return L0_3
@@ -1093,7 +1092,7 @@ function L70_1(A0_2)
           L0_3 = nil
           L1_3 = c016374C1
           L1_3 = L1_3.f4555D276
-          L2_3 = A0_2
+          L2_3 = self
           L2_3 = L2_3[12]
           L2_3 = L2_3.owner
           L3_3 = L43_2
@@ -1101,7 +1100,7 @@ function L70_1(A0_2)
           if L1_3 then
             L0_3 = nil
           else
-            L1_3 = A0_2
+            L1_3 = self
             L0_3 = L1_3[12]
           end
           return L0_3
@@ -1158,7 +1157,7 @@ function L70_1(A0_2)
           L0_3 = nil
           L1_3 = c016374C1
           L1_3 = L1_3.f4555D276
-          L2_3 = A0_2
+          L2_3 = self
           L2_3 = L2_3[12]
           L2_3 = L2_3.owner
           L3_3 = L47_2
@@ -1166,7 +1165,7 @@ function L70_1(A0_2)
           if L1_3 then
             L0_3 = nil
           else
-            L1_3 = A0_2
+            L1_3 = self
             L0_3 = L1_3[12]
           end
           return L0_3
@@ -1203,7 +1202,7 @@ function L70_1(A0_2)
           L0_3 = nil
           L1_3 = c016374C1
           L1_3 = L1_3.f4555D276
-          L2_3 = A0_2
+          L2_3 = self
           L2_3 = L2_3[12]
           L2_3 = L2_3.owner
           L3_3 = L50_2
@@ -1211,7 +1210,7 @@ function L70_1(A0_2)
           if L1_3 then
             L0_3 = nil
           else
-            L1_3 = A0_2
+            L1_3 = self
             L0_3 = L1_3[12]
           end
           return L0_3
@@ -1268,7 +1267,7 @@ function L70_1(A0_2)
           L0_3 = nil
           L1_3 = c016374C1
           L1_3 = L1_3.f4555D276
-          L2_3 = A0_2
+          L2_3 = self
           L2_3 = L2_3[12]
           L2_3 = L2_3.owner
           L3_3 = L54_2
@@ -1276,7 +1275,7 @@ function L70_1(A0_2)
           if L1_3 then
             L0_3 = nil
           else
-            L1_3 = A0_2
+            L1_3 = self
             L0_3 = L1_3[12]
           end
           return L0_3
@@ -1309,7 +1308,7 @@ function L70_1(A0_2)
           L0_3 = nil
           L1_3 = c016374C1
           L1_3 = L1_3.f4555D276
-          L2_3 = A0_2
+          L2_3 = self
           L2_3 = L2_3[12]
           L2_3 = L2_3.owner
           L3_3 = L57_2
@@ -1317,7 +1316,7 @@ function L70_1(A0_2)
           if L1_3 then
             L0_3 = nil
           else
-            L1_3 = A0_2
+            L1_3 = self
             L0_3 = L1_3[12]
           end
           return L0_3
@@ -1351,7 +1350,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L36_2
@@ -1359,7 +1358,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -1395,20 +1394,20 @@ function L70_1(A0_2)
     end
     L15_2 = L3_2.type
     if 2 == L15_2 then
-      L16_2 = A0_2
-      L15_2 = A0_2.F8DC8F70F656F2F35
+      L16_2 = self
+      L15_2 = self.F8DC8F70F656F2F35
       L17_2 = 0.5
       L15_2(L16_2, L17_2)
       L15_2 = nil
-      L17_2 = A0_2
-      L16_2 = A0_2.F4D26949FF77B7220
+      L17_2 = self
+      L16_2 = self.F4D26949FF77B7220
       
       function L18_2()
         local L0_3, L1_3, L2_3, L3_3
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L15_2
@@ -1416,7 +1415,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -1442,7 +1441,7 @@ function L70_1(A0_2)
       end
       L15_2 = L3_2.type
       L15_2 = 8 + L15_2
-      L16_2 = A0_2[35]
+      L16_2 = self[35]
       L17_2 = nil
       L18_2 = cE35B3EB3
       L18_2 = L18_2.fDBA763D1
@@ -1486,7 +1485,7 @@ function L70_1(A0_2)
         L23_2 = L15_2
         L20_2(L21_2, L22_2, L23_2)
       end
-      L19_2 = A0_2[35]
+      L19_2 = self[35]
       L20_2 = nil
       L21_2 = cE35B3EB3
       L21_2 = L21_2.fDBA763D1
@@ -1530,7 +1529,7 @@ function L70_1(A0_2)
         L26_2 = 0
         L23_2(L24_2, L25_2, L26_2)
       end
-      L22_2 = A0_2[35]
+      L22_2 = self[35]
       L23_2 = nil
       L24_2 = cE35B3EB3
       L24_2 = L24_2.fDBA763D1
@@ -1574,8 +1573,8 @@ function L70_1(A0_2)
         L29_2 = 1
         L26_2(L27_2, L28_2, L29_2)
       end
-      L26_2 = A0_2
-      L25_2 = A0_2.F8DC8F70F656F2F35
+      L26_2 = self
+      L25_2 = self.F8DC8F70F656F2F35
       L27_2 = 0.5
       L25_2(L26_2, L27_2)
     end
@@ -1629,7 +1628,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L15_2
@@ -1637,7 +1636,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -1694,7 +1693,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L19_2
@@ -1702,7 +1701,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -1739,7 +1738,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L22_2
@@ -1747,7 +1746,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -1804,7 +1803,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L26_2
@@ -1812,7 +1811,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -1849,7 +1848,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L29_2
@@ -1857,7 +1856,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -1914,7 +1913,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L33_2
@@ -1922,7 +1921,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -1955,7 +1954,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L36_2
@@ -1963,7 +1962,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -2038,11 +2037,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8EAF2714E15CC594"]["prototype"]
-L69_1 = "F77118ABC489D62CD"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.system.map_change.MapChangeDoor.F77118ABC489D62CD
+function C8EAF2714E15CC594_prototype:F77118ABC489D62CD(A1_2, A2_2)
   local L3_2, L4_2
   L3_2 = c4B1C1097
   L3_2 = L3_2.f166B4C86
@@ -2057,11 +2053,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8EAF2714E15CC594"]["prototype"]
-L69_1 = "F4D26949FF77B7220"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.system.map_change.MapChangeDoor.getDoorOpenPosition
+function C8EAF2714E15CC594_prototype:F4D26949FF77B7220(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   if nil == A2_2 then
     A2_2 = 0.4
@@ -2145,11 +2138,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8EAF2714E15CC594"]["prototype"]
-L69_1 = "F8D8302D712E9CD58"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.system.map_change.MapChangeDoor.getShopExitPosition
+function C8EAF2714E15CC594_prototype:F8D8302D712E9CD58(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   if nil == A2_2 then
     L3_2 = {}

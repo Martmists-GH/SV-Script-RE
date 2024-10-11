@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C23F046B3FD941639"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C23F046B3FD941639"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C23F046B3FD941639"]
-L69_1 = "__name__"
-L70_1 = "C23F046B3FD941639"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C23F046B3FD941639"]
-L69_1 = "S846E8A763C1691F0"
+---@alias C23F046B3FD941639 main_system_DynamicLuaManager
 
-function L70_1(A0_2)
+---@class main_system_DynamicLuaManager
+C23F046B3FD941639 = L15_1()
+C23F046B3FD941639.new = {}
+C23F046B3FD941639.__name__ = "C23F046B3FD941639"
+--- main.system.DynamicLuaManager.LoadAll
+function C23F046B3FD941639.S846E8A763C1691F0(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = "main_dynamic"
   L2_2 = c9F1CEEC0
@@ -143,11 +134,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C23F046B3FD941639"]
-L69_1 = "S8938656D150068EC"
-
-function L70_1(A0_2, A1_2)
+--- main.system.DynamicLuaManager.Reload
+function C23F046B3FD941639.S8938656D150068EC(A0_2, A1_2)
   local L2_2, L3_2
   L2_2 = c9F1CEEC0
   L2_2 = L2_2.f464D6C09

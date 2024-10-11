@@ -1,3 +1,7 @@
+---@alias C87AA986429DEB756 main_field_behaviour_FieldPartnerPokemon
+
+---@class main_field_behaviour_FieldPartnerPokemon : C87AA986429DEB756_prototype
+---@field prototype C87AA986429DEB756_prototype
 L55_1 = _ENV
 L56_1 = "CA1C378FF1F5733E6"
 L57_1 = L15_1
@@ -37,11 +41,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA1C378FF1F5733E6"]
 L69_1 = "__name__"
 L70_1 = "CA1C378FF1F5733E6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1C378FF1F5733E6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C87AA986429DEB756_prototype
+C87AA986429DEB756_prototype = L15_1()
+C87AA986429DEB756.prototype = C87AA986429DEB756_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA1C378FF1F5733E6"]["prototype"]
 L69_1 = _ENV["CA1C378FF1F5733E6"]

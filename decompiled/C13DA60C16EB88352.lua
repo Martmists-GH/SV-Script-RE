@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C13DA60C16EB88352"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C13DA60C16EB88352"]
-L69_1 = "new"
+---@alias C13DA60C16EB88352 main_event_general_pokemonTrade_PokemonTrade
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class main_event_general_pokemonTrade_PokemonTrade : C13DA60C16EB88352_prototype
+---@field prototype C13DA60C16EB88352_prototype
+C13DA60C16EB88352 = L15_1()
+function C13DA60C16EB88352.new(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = C13DA60C16EB88352
@@ -25,11 +22,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@param A0_2 C13DA60C16EB88352
+function C13DA60C16EB88352.super(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L5_2 = C20F5CD372AAAA08C
   L5_2 = L5_2.super
@@ -41,11 +35,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]
-L69_1 = "__name__"
-L70_1 = "C13DA60C16EB88352"
-L68_1[L69_1] = L70_1
+C13DA60C16EB88352.__name__ = "C13DA60C16EB88352"
 L68_1 = _ENV["C13DA60C16EB88352"]
 L69_1 = "S67395148CC3BF17A"
 
@@ -124,42 +114,28 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]
-L69_1 = "S3CFA41645421C605"
-
-function L70_1(A0_2)
+--- main.event.general.pokemonTrade.PokemonTrade.S3CFA41645421C605
+function C13DA60C16EB88352.S3CFA41645421C605(A0_2)
   local L1_2
   L1_2 = C13DA60C16EB88352
   L1_2.SB5E2E437FCC59A61 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C13DA60C16EB88352_prototype
+C13DA60C16EB88352_prototype = L15_1()
+C13DA60C16EB88352.prototype = C13DA60C16EB88352_prototype
+--- main.event.general.pokemonTrade.PokemonTrade.preStart
+function C13DA60C16EB88352_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.general.pokemonTrade.PokemonTrade.postStart
+function C13DA60C16EB88352_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.pokemonTrade.PokemonTrade.mainBody
+function C13DA60C16EB88352_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S12FD376DC11712C8
@@ -169,7 +145,7 @@ function L70_1(A0_2)
   L1_2 = C10578806AC30DCA3
   L1_2 = L1_2.SBA6FF574C1C9AA09
   L1_2 = L1_2.h
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.flag
   L1_2 = L1_2[L2_2]
   L2_2 = L47_1.tnull
@@ -177,12 +153,12 @@ function L70_1(A0_2)
     L1_2 = nil
   end
   if L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FA4DF995C5D728F68
+    L3_2 = self
+    L2_2 = self.FA4DF995C5D728F68
     L2_2(L3_2)
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.FE7ED3B6F8EEAD293
+    L3_2 = self
+    L2_2 = self.FE7ED3B6F8EEAD293
     L2_2(L3_2)
   end
   L2_2 = C9B54BC04DD492B6D
@@ -192,49 +168,37 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.pokemonTrade.PokemonTrade.mainBodyFinish
+function C13DA60C16EB88352_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.pokemonTrade.PokemonTrade.preEnd
+function C13DA60C16EB88352_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.general.pokemonTrade.PokemonTrade.postEnd
+function C13DA60C16EB88352_prototype:F3E13E4094D09A594()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]["prototype"]
-L69_1 = "FA4DF995C5D728F68"
-
-function L70_1(A0_2)
+--- main.event.general.pokemonTrade.PokemonTrade.tradeEndTalk
+function C13DA60C16EB88352_prototype:FA4DF995C5D728F68()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F6F1ED154DC1BA06F
+  L2_2 = self
+  L1_2 = self.F6F1ED154DC1BA06F
   L1_2(L2_2)
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S3EDC50DEB344C642
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2.ownerName
   L3_2 = L31_1.string
   L4_2 = L31_1.string
   L5_2 = "msg_field_trade_"
   L4_2 = L4_2(L5_2)
   L5_2 = L31_1.string
-  L6_2 = A0_2[32]
+  L6_2 = self[32]
   L6_2 = L6_2.trainerId
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
@@ -249,21 +213,18 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
   L1_2 = CBBA8BC6DEECCDCB4
   L1_2 = L1_2.S9DEB10F3B940A275
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2.ownerName
   L3_2 = 25
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]["prototype"]
-L69_1 = "FE7ED3B6F8EEAD293"
-
-function L70_1(A0_2)
+--- main.event.general.pokemonTrade.PokemonTrade.tradeTalk
+function C13DA60C16EB88352_prototype:FE7ED3B6F8EEAD293()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = CF7739C6C4D25CC45
   L1_2 = L1_2.S8A8099A643718E8B
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.tradeId
   L1_2 = L1_2(L2_2)
   if nil == L1_2 then
@@ -273,22 +234,22 @@ function L70_1(A0_2)
   L2_2 = L2_2.S92F44AA7751BA6FC
   L3_2 = false
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F501717897B2B77B9
+  L3_2 = self
+  L2_2 = self.F501717897B2B77B9
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F6F1ED154DC1BA06F
+  L3_2 = self
+  L2_2 = self.F6F1ED154DC1BA06F
   L2_2(L3_2)
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.S7EE10575FE8DA205
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L3_2 = L3_2.ownerName
   L4_2 = L31_1.string
   L5_2 = L31_1.string
   L6_2 = "msg_field_trade_"
   L5_2 = L5_2(L6_2)
   L6_2 = L31_1.string
-  L7_2 = A0_2[32]
+  L7_2 = self[32]
   L7_2 = L7_2.trainerId
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 .. L6_2
@@ -303,14 +264,14 @@ function L70_1(A0_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
   L3_2 = CBBA8BC6DEECCDCB4
   L3_2 = L3_2.S9DEB10F3B940A275
-  L4_2 = A0_2[18]
+  L4_2 = self[18]
   L4_2 = L4_2.ownerName
   L5_2 = 25
   L3_2(L4_2, L5_2)
   if true == L2_2 then
     L3_2 = CBBA8BC6DEECCDCB4
     L3_2 = L3_2.S9DEB10F3B940A275
-    L4_2 = A0_2[18]
+    L4_2 = self[18]
     L4_2 = L4_2.ownerName
     L5_2 = 1
     L3_2(L4_2, L5_2)
@@ -320,14 +281,14 @@ function L70_1(A0_2)
     if L3_2 < 2 then
       L3_2 = C9B54BC04DD492B6D
       L3_2 = L3_2.S3EDC50DEB344C642
-      L4_2 = A0_2[18]
+      L4_2 = self[18]
       L4_2 = L4_2.ownerName
       L5_2 = L31_1.string
       L6_2 = L31_1.string
       L7_2 = "msg_field_trade_"
       L6_2 = L6_2(L7_2)
       L7_2 = L31_1.string
-      L8_2 = A0_2[32]
+      L8_2 = self[32]
       L8_2 = L8_2.trainerId
       L7_2 = L7_2(L8_2)
       L6_2 = L6_2 .. L7_2
@@ -344,7 +305,7 @@ function L70_1(A0_2)
     end
     L3_2 = CF7739C6C4D25CC45
     L3_2 = L3_2.S47CA3893BC66FAAB
-    L4_2 = A0_2[32]
+    L4_2 = self[32]
     L4_2 = L4_2.tradeId
     L3_2 = L3_2(L4_2)
     L4_2 = nil
@@ -401,14 +362,14 @@ function L70_1(A0_2)
     if nil ~= L4_2 then
       L5_2 = C9B54BC04DD492B6D
       L5_2 = L5_2.S7EE10575FE8DA205
-      L6_2 = A0_2[18]
+      L6_2 = self[18]
       L6_2 = L6_2.ownerName
       L7_2 = L31_1.string
       L8_2 = L31_1.string
       L9_2 = "msg_field_trade_"
       L8_2 = L8_2(L9_2)
       L9_2 = L31_1.string
-      L10_2 = A0_2[32]
+      L10_2 = self[32]
       L10_2 = L10_2.trainerId
       L9_2 = L9_2(L10_2)
       L8_2 = L8_2 .. L9_2
@@ -432,28 +393,28 @@ function L70_1(A0_2)
             L5_2(L6_2)
           end
         end
-        L6_2 = A0_2
-        L5_2 = A0_2.FA1D3529002C3A75C
+        L6_2 = self
+        L5_2 = self.FA1D3529002C3A75C
         L7_2 = L4_2.tray
         L8_2 = L4_2.pos
         L9_2 = L1_2.receivePoke
         L5_2(L6_2, L7_2, L8_2, L9_2)
         L5_2 = CBBA8BC6DEECCDCB4
         L5_2 = L5_2.S9DEB10F3B940A275
-        L6_2 = A0_2[18]
+        L6_2 = self[18]
         L6_2 = L6_2.ownerName
         L7_2 = 11
         L5_2(L6_2, L7_2)
         L5_2 = C9B54BC04DD492B6D
         L5_2 = L5_2.S3EDC50DEB344C642
-        L6_2 = A0_2[18]
+        L6_2 = self[18]
         L6_2 = L6_2.ownerName
         L7_2 = L31_1.string
         L8_2 = L31_1.string
         L9_2 = "msg_field_trade_"
         L8_2 = L8_2(L9_2)
         L9_2 = L31_1.string
-        L10_2 = A0_2[32]
+        L10_2 = self[32]
         L10_2 = L10_2.trainerId
         L9_2 = L9_2(L10_2)
         L8_2 = L8_2 .. L9_2
@@ -468,10 +429,10 @@ function L70_1(A0_2)
         L5_2(L6_2, L7_2, L8_2, L9_2)
         L5_2 = CBBA8BC6DEECCDCB4
         L5_2 = L5_2.S6EFB6BD692E0CEBF
-        L6_2 = A0_2[18]
+        L6_2 = self[18]
         L6_2 = L6_2.ownerName
         L5_2(L6_2)
-        L5_2 = A0_2[32]
+        L5_2 = self[32]
         L5_2 = L5_2.flag
         L6_2 = C10578806AC30DCA3
         L6_2 = L6_2.SBA6FF574C1C9AA09
@@ -488,14 +449,14 @@ function L70_1(A0_2)
   end
   L3_2 = C9B54BC04DD492B6D
   L3_2 = L3_2.S3EDC50DEB344C642
-  L4_2 = A0_2[18]
+  L4_2 = self[18]
   L4_2 = L4_2.ownerName
   L5_2 = L31_1.string
   L6_2 = L31_1.string
   L7_2 = "msg_field_trade_"
   L6_2 = L6_2(L7_2)
   L7_2 = L31_1.string
-  L8_2 = A0_2[32]
+  L8_2 = self[32]
   L8_2 = L8_2.trainerId
   L7_2 = L7_2(L8_2)
   L6_2 = L6_2 .. L7_2
@@ -510,15 +471,12 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]["prototype"]
-L69_1 = "F6F1ED154DC1BA06F"
-
-function L70_1(A0_2)
+--- main.event.general.pokemonTrade.PokemonTrade.facing
+function C13DA60C16EB88352_prototype:F6F1ED154DC1BA06F()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S38F4FBAC61A2A586
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2.ownerName
   L3_2 = "Player"
   L4_2 = 1.0
@@ -527,14 +485,14 @@ function L70_1(A0_2)
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S38F4FBAC61A2A586
   L2_2 = "Player"
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L3_2 = L3_2.ownerName
   L4_2 = 1.0
   L5_2 = false
   L1_2(L2_2, L3_2, L4_2, L5_2)
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.SF2A52007F22C8572
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2.ownerName
   L1_2(L2_2)
   L1_2 = CDCBFD50A277E546D
@@ -543,17 +501,14 @@ function L70_1(A0_2)
   L1_2(L2_2)
   L1_2 = CBBA8BC6DEECCDCB4
   L1_2 = L1_2.S9DEB10F3B940A275
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2.ownerName
   L3_2 = 23
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]["prototype"]
-L69_1 = "F501717897B2B77B9"
-
-function L70_1(A0_2)
+--- main.event.general.pokemonTrade.PokemonTrade.takebackPartner
+function C13DA60C16EB88352_prototype:F501717897B2B77B9()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c2FB59E8B
   L1_2 = L1_2.fB900AE56
@@ -584,11 +539,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13DA60C16EB88352"]["prototype"]
-L69_1 = "FA1D3529002C3A75C"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.general.pokemonTrade.PokemonTrade.playTradeDemo
+function C13DA60C16EB88352_prototype:FA1D3529002C3A75C(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L4_2 = CD081B219DEE96EEF
   L4_2 = L4_2.S5D3812A8BCAB4D5D
@@ -695,7 +647,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
     L9_2 = C13DA60C16EB88352
     L9_2 = L9_2.S3CFA41645421C605
-    L10_2 = A0_2[18]
+    L10_2 = self[18]
     L10_2 = L10_2.ownerName
     L9_2(L10_2)
     L9_2 = C13DA60C16EB88352

@@ -1,3 +1,7 @@
+---@alias C47CF7B681B3D61CF main_ui_btlspot_state_machine_rank_BattleSpotStateRankTop
+
+---@class main_ui_btlspot_state_machine_rank_BattleSpotStateRankTop : C47CF7B681B3D61CF_prototype
+---@field prototype C47CF7B681B3D61CF_prototype
 L55_1 = _ENV
 L56_1 = "C9FDE1F201FBEA917"
 L57_1 = L15_1
@@ -41,11 +45,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9FDE1F201FBEA917"]
 L69_1 = "__name__"
 L70_1 = "C9FDE1F201FBEA917"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9FDE1F201FBEA917"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C47CF7B681B3D61CF_prototype
+C47CF7B681B3D61CF_prototype = L15_1()
+C47CF7B681B3D61CF.prototype = C47CF7B681B3D61CF_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9FDE1F201FBEA917"]["prototype"]
 L69_1 = _ENV["C9FDE1F201FBEA917"]

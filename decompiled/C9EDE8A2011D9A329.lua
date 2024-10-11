@@ -1,7 +1,8 @@
-L68_1 = _ENV["C9EDE8A2011D9A329"]
-L69_1 = "new"
+---@alias C9EDE8A2011D9A329 main_field_behaviour_PokePicnicPokemon
 
-function L70_1(A0_2)
+---@class main_field_behaviour_PokePicnicPokemon : C9EDE8A2011D9A329_prototype
+---@field prototype C9EDE8A2011D9A329_prototype
+function C9EDE8A2011D9A329.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C9EDE8A2011D9A329
@@ -17,11 +18,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C9EDE8A2011D9A329
+function C9EDE8A2011D9A329.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[52] = ""
   A0_2[51] = 0
@@ -74,11 +72,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9EDE8A2011D9A329"]
 L69_1 = "__name__"
 L70_1 = "C9EDE8A2011D9A329"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]
-L69_1 = "S2C00E31A4B070414"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.field.behaviour.PokePicnicPokemon.OnTriggerFunction
+function C9EDE8A2011D9A329.S2C00E31A4B070414(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L6_2 = cAD7C739C
   L6_2 = L6_2.f3BB1CD49
@@ -172,11 +167,8 @@ L68_1 = "C9EDE8A2011D9A329"
 L68_1 = L25_1[L68_1]
 L69_1 = "S2C00E31A4B070414"
 L70_1 = _ENV["C9EDE8A2011D9A329"]["S2C00E31A4B070414"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]
-L69_1 = "S50CB2B4EB5CE75C1"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.GetBehavior
+function C9EDE8A2011D9A329.S50CB2B4EB5CE75C1(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = A0_2
   L1_2 = A0_2.fB3CF1DEB
@@ -214,18 +206,13 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F0AB5A74B2D3ECDDC"
-
-function L70_1(A0_2)
+---@class C9EDE8A2011D9A329_prototype
+C9EDE8A2011D9A329_prototype = L15_1()
+C9EDE8A2011D9A329.prototype = C9EDE8A2011D9A329_prototype
+--- main.field.behaviour.PokePicnicPokemon.get_JointList
+function C9EDE8A2011D9A329_prototype:F0AB5A74B2D3ECDDC()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[49]
+  L1_2 = self[49]
   L2_2 = _hx_tab_array
   L3_2 = {}
   L3_2.length = 0
@@ -247,111 +234,96 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F0F3DF712264CAB60"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.get_MonsNo
+function C9EDE8A2011D9A329_prototype:F0F3DF712264CAB60()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c4E28AB7C
   L2_2 = L2_2.f68BF50E5
-  L3_2 = A0_2[29]
+  L3_2 = self[29]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = 0
     return L2_2
   end
-  L2_2 = A0_2[29]
+  L2_2 = self[29]
   L3_2 = L2_2
   L2_2 = L2_2.f6DB21F6F
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F6E96FBB65E4659BC"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.F6E96FBB65E4659BC
+function C9EDE8A2011D9A329_prototype:F6E96FBB65E4659BC()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c89ABEA0D
   L2_2 = L2_2.f449D7CAC
-  L3_2 = A0_2[34]
+  L3_2 = self[34]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = c89ABEA0D
     L2_2 = L2_2.fB41FD22F
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L2_2 = L2_2(L3_2)
-    A0_2[34] = L2_2
+    self[34] = L2_2
   end
-  L2_2 = A0_2[34]
+  L2_2 = self[34]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F10113A1D61F6AF52"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.get_AnimComp
+function C9EDE8A2011D9A329_prototype:F10113A1D61F6AF52()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cE35B3EB3
   L2_2 = L2_2.fDBA763D1
-  L3_2 = A0_2[35]
+  L3_2 = self[35]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = cE35B3EB3
     L2_2 = L2_2.fB41FD22F
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L2_2 = L2_2(L3_2)
-    A0_2[35] = L2_2
+    self[35] = L2_2
   end
-  L2_2 = A0_2[35]
+  L2_2 = self[35]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F70A9E848984C912A"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.get_ModelComp
+function C9EDE8A2011D9A329_prototype:F70A9E848984C912A()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cECB91E31
   L2_2 = L2_2.fB6A00A1B
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = cECB91E31
     L2_2 = L2_2.fB41FD22F
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L2_2 = L2_2(L3_2)
-    A0_2[32] = L2_2
+    self[32] = L2_2
   end
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F39C01294CBA4997C"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.F39C01294CBA4997C
+function C9EDE8A2011D9A329_prototype:F39C01294CBA4997C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = cACBFA004
   L2_2 = L2_2.f6F1D5BA8
-  L3_2 = A0_2[36]
+  L3_2 = self[36]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.f5439788F
     L4_2 = "PicnicPokemonRecvHit"
@@ -367,71 +339,65 @@ function L70_1(A0_2)
       L4_2 = L4_2.fB41FD22F
       L5_2 = L2_2
       L4_2 = L4_2(L5_2)
-      A0_2[36] = L4_2
+      self[36] = L4_2
     end
   end
-  L2_2 = A0_2[36]
+  L2_2 = self[36]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F72270EEABDF65E49"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.get_Param
+function C9EDE8A2011D9A329_prototype:F72270EEABDF65E49()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   if nil == L1_2 then
     L1_2 = nil
     L2_2 = cF52F390B
     L2_2 = L2_2.fF7BFEF10
-    L3_2 = A0_2[30]
+    L3_2 = self[30]
     L4_2 = L1_2
     L2_2 = L2_2(L3_2, L4_2)
     if L2_2 then
       L2_2 = C2CC95974B158E510
       L2_2 = L2_2.new
       L2_2 = L2_2()
-      A0_2[33] = L2_2
-      L2_2 = A0_2[33]
+      self[33] = L2_2
+      L2_2 = self[33]
       L3_2 = L2_2
       L2_2 = L2_2.F7C68FEDB79AB6396
-      L4_2 = A0_2[30]
+      L4_2 = self[30]
       L5_2 = L4_2
       L4_2 = L4_2.f287946D6
       L4_2, L5_2 = L4_2(L5_2)
       L2_2(L3_2, L4_2, L5_2)
     end
   end
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.onSetup
+function C9EDE8A2011D9A329_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[43]
+  L1_2 = self[43]
   L2_2 = L1_2
   L1_2 = L1_2.FBD85BEF51374A611
   L1_2(L2_2)
   L1_2 = c4E28AB7C
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
-  A0_2[29] = L1_2
+  self[29] = L1_2
   L1_2 = cF52F390B
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
-  A0_2[30] = L1_2
+  self[30] = L1_2
   L1_2 = c7C4EA23C
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
-  A0_2[31] = L1_2
+  self[31] = L1_2
   L1_2 = CB4E56E9599A85891
   L1_2 = L1_2.S0B3F69C4549A0284
   L2_2 = 0
@@ -441,7 +407,7 @@ function L70_1(A0_2)
     L1_2 = L1_2.S42224C76A175744D
     L1_2 = L1_2()
     if L1_2 then
-      L1_2 = A0_2[29]
+      L1_2 = self[29]
       L2_2 = CB4E56E9599A85891
       L2_2 = L2_2.S0B3F69C4549A0284
       L3_2 = 0
@@ -462,8 +428,8 @@ function L70_1(A0_2)
   L1_2 = nil
   L2_2 = cECB91E31
   L2_2 = L2_2.f04ACC3F2
-  L4_2 = A0_2
-  L3_2 = A0_2.F70A9E848984C912A
+  L4_2 = self
+  L3_2 = self.F70A9E848984C912A
   L3_2 = L3_2(L4_2)
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
@@ -471,18 +437,18 @@ function L70_1(A0_2)
     L2_2 = 0
     L3_2 = cB0D09377
     L3_2 = L3_2.f9EFCE417
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L3_2 = L3_2(L4_2)
     while L2_2 < L3_2 do
       L2_2 = L2_2 + 1
       L4_2 = L2_2 - 1
       L5_2 = cB0D09377
       L5_2 = L5_2.fF5CF3EBB
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L7_2 = L4_2
       L5_2 = L5_2(L6_2, L7_2)
       if L5_2 then
-        L5_2 = A0_2[49]
+        L5_2 = self[49]
         L6_2 = L5_2
         L5_2 = L5_2.push
         L7_2 = L4_2
@@ -493,8 +459,8 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = c89ABEA0D
   L3_2 = L3_2.f50A54748
-  L5_2 = A0_2
-  L4_2 = A0_2.F6E96FBB65E4659BC
+  L5_2 = self
+  L4_2 = self.F6E96FBB65E4659BC
   L4_2 = L4_2(L5_2)
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
@@ -506,8 +472,8 @@ function L70_1(A0_2)
     L3_2[1] = L4_2
     L3_2[2] = L5_2
     L3_2[3] = L6_2
-    L5_2 = A0_2
-    L4_2 = A0_2.F6E96FBB65E4659BC
+    L5_2 = self
+    L4_2 = self.F6E96FBB65E4659BC
     L4_2 = L4_2(L5_2)
     L5_2 = L4_2
     L4_2 = L4_2.f0A313DA6
@@ -519,11 +485,11 @@ function L70_1(A0_2)
   L3_2 = nil
   L4_2 = c7C4EA23C
   L4_2 = L4_2.fAACBFED0
-  L5_2 = A0_2[31]
+  L5_2 = self[31]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L4_2 = A0_2[31]
+    L4_2 = self[31]
     L5_2 = L4_2
     L4_2 = L4_2.fBED4B947
     L4_2(L5_2)
@@ -531,14 +497,14 @@ function L70_1(A0_2)
   L4_2 = nil
   L5_2 = cE35B3EB3
   L5_2 = L5_2.f67745D00
-  L7_2 = A0_2
-  L6_2 = A0_2.F10113A1D61F6AF52
+  L7_2 = self
+  L6_2 = self.F10113A1D61F6AF52
   L6_2 = L6_2(L7_2)
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.F10113A1D61F6AF52
+    L6_2 = self
+    L5_2 = self.F10113A1D61F6AF52
     L5_2 = L5_2(L6_2)
     L6_2 = L5_2
     L5_2 = L5_2.f558733FC
@@ -548,14 +514,14 @@ function L70_1(A0_2)
   L5_2 = nil
   L6_2 = cACBFA004
   L6_2 = L6_2.f05FAAF59
-  L8_2 = A0_2
-  L7_2 = A0_2.F39C01294CBA4997C
+  L8_2 = self
+  L7_2 = self.F39C01294CBA4997C
   L7_2 = L7_2(L8_2)
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
   if L6_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F39C01294CBA4997C
+    L7_2 = self
+    L6_2 = self.F39C01294CBA4997C
     L6_2 = L6_2(L7_2)
     L7_2 = L6_2
     L6_2 = L6_2.fF755CB68
@@ -571,62 +537,59 @@ function L70_1(A0_2)
   if not L6_2 then
     L6_2 = C02F0E8673B660BDF
     L6_2 = L6_2.S681F2DFDCCD5100E
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L6_2(L7_2)
     L6_2 = C02F0E8673B660BDF
     L6_2 = L6_2.SA175AFA25D95E5F2
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L6_2(L7_2)
     L6_2 = CE6EE3F9C54FC6D83
     L6_2 = L6_2.S910FE0D942B1422E
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L6_2(L7_2)
   end
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L6_2
   L6_2 = L6_2.fE9C29DA1
   L6_2 = L6_2(L7_2)
-  A0_2[52] = L6_2
+  self[52] = L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokePicnicPokemon.PreUpdate
+function C9EDE8A2011D9A329_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CE6EE3F9C54FC6D83
   L2_2 = L2_2.S42224C76A175744D
   L2_2 = L2_2()
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FAB661FB272511B2D
+    L3_2 = self
+    L2_2 = self.FAB661FB272511B2D
     L4_2 = A1_2
     L2_2(L3_2, L4_2)
   end
-  L2_2 = A0_2[50]
+  L2_2 = self[50]
   L3_2 = L2_2
   L2_2 = L2_2.FEB6685558281F194
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[37]
+  L2_2 = self[37]
   if 0 == L2_2 then
   elseif 1 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F627FFCCD719BA24D
+    L4_2 = self
+    L3_2 = self.F627FFCCD719BA24D
     L5_2 = A1_2
     L3_2(L4_2, L5_2)
   elseif 2 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F9EFB1A14797798AC
+    L4_2 = self
+    L3_2 = self.F9EFB1A14797798AC
     L5_2 = A1_2
     L3_2(L4_2, L5_2)
   elseif 3 == L2_2 then
   elseif 4 == L2_2 then
   else
     if 5 == L2_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F1820F5F50765A27E
+      L4_2 = self
+      L3_2 = self.F1820F5F50765A27E
       L5_2 = A1_2
       L3_2(L4_2, L5_2)
     else
@@ -634,22 +597,16 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F883A2367DD0011CA"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.onDestroy
+function C9EDE8A2011D9A329_prototype:F883A2367DD0011CA()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F911598616BAC06BC"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokePicnicPokemon.SetModelVisibility
+function C9EDE8A2011D9A329_prototype:F911598616BAC06BC(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F70A9E848984C912A
+  L3_2 = self
+  L2_2 = self.F70A9E848984C912A
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f6754453E
@@ -657,24 +614,21 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F82E6F46501D04BFB"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokePicnicPokemon.PosWarp
+function C9EDE8A2011D9A329_prototype:F82E6F46501D04BFB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = c7C4EA23C
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f8F2B0552
   L5_2 = A1_2[1]
   L6_2 = A1_2[2]
   L7_2 = A1_2[3]
   L3_2(L4_2, L5_2, L6_2, L7_2)
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f16155D9E
   L3_2 = L3_2(L4_2)
@@ -687,108 +641,81 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F4F8AB79DE086645E"
-
-function L70_1(A0_2, A1_2)
-  A0_2[42] = A1_2
+--- main.field.behaviour.PokePicnicPokemon.SetMonsterBall
+function C9EDE8A2011D9A329_prototype:F4F8AB79DE086645E(A1_2)
+  self[42] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F43BB3D3E5AF1F352"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.GetMonsterBall
+function C9EDE8A2011D9A329_prototype:F43BB3D3E5AF1F352()
   local L1_2
-  L1_2 = A0_2[42]
+  L1_2 = self[42]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FBAABB939B235B5A7"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.StartPopWait
+function C9EDE8A2011D9A329_prototype:FBAABB939B235B5A7()
   local L1_2
-  A0_2[37] = 1
+  self[37] = 1
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F32ACFE0082D7C7D2"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.StartPop
+function C9EDE8A2011D9A329_prototype:F32ACFE0082D7C7D2()
   local L1_2
-  L1_2 = A0_2[37]
+  L1_2 = self[37]
   if 1 ~= L1_2 then
     return
   end
-  A0_2[37] = 2
-  A0_2[39] = 0
+  self[37] = 2
+  self[39] = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F94263A29355358B9"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.ForcePopStart
+function C9EDE8A2011D9A329_prototype:F94263A29355358B9()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = cECB91E31
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[42]
+  L2_2 = self[42]
   L1_2 = L1_2(L2_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F911598616BAC06BC
+  L3_2 = self
+  L2_2 = self.F911598616BAC06BC
   L4_2 = true
   L2_2(L3_2, L4_2)
   L3_2 = L1_2
   L2_2 = L1_2.f6754453E
   L4_2 = false
   L2_2(L3_2, L4_2)
-  A0_2[37] = 3
+  self[37] = 3
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F6F7BD1F824D72DBD"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.F6F7BD1F824D72DBD
+function C9EDE8A2011D9A329_prototype:F6F7BD1F824D72DBD()
   local L1_2
-  A0_2[41] = 0
+  self[41] = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FB3747F1F6F866CD1"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.FB3747F1F6F866CD1
+function C9EDE8A2011D9A329_prototype:FB3747F1F6F866CD1()
   local L1_2
-  A0_2[41] = 1
+  self[41] = 1
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F5390E3E4718893F8"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.StartFinish
+function C9EDE8A2011D9A329_prototype:F5390E3E4718893F8()
   local L1_2
-  L1_2 = A0_2[37]
+  L1_2 = self[37]
   if 4 == L1_2 then
-    A0_2[40] = 0
+    self[40] = 0
   else
-    A0_2[40] = 2
+    self[40] = 2
   end
-  A0_2[37] = 5
+  self[37] = 5
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F5BE043F41BD6E098"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.EndFinishSequence
+function C9EDE8A2011D9A329_prototype:F5BE043F41BD6E098()
   local L1_2
-  L1_2 = A0_2[40]
+  L1_2 = self[40]
   if 2 == L1_2 then
     L1_2 = true
     return L1_2
@@ -797,48 +724,36 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F1D001DBF9F080F4D"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.StartTalk
+function C9EDE8A2011D9A329_prototype:F1D001DBF9F080F4D()
   local L1_2, L2_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.fE9C29DA1
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FF2AE6CEE925B61D9
+  L2_2 = self
+  L1_2 = self.FF2AE6CEE925B61D9
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F6B606C337D31CAC6"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.StartChaseBall
+function C9EDE8A2011D9A329_prototype:F6B606C337D31CAC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F6CBFFF38EF75AAB4"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.EndTalk
+function C9EDE8A2011D9A329_prototype:F6CBFFF38EF75AAB4()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F3E7DFF9E892D4691
+  L2_2 = self
+  L1_2 = self.F3E7DFF9E892D4691
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F0CE7E7BC4FFC7C77"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokePicnicPokemon.RequestEmotion
+function C9EDE8A2011D9A329_prototype:F0CE7E7BC4FFC7C77(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F10113A1D61F6AF52
+  L3_2 = self
+  L2_2 = self.F10113A1D61F6AF52
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fF56461AF
@@ -848,8 +763,8 @@ function L70_1(A0_2, A1_2)
   L4_2 = "one_emotion_int"
   L5_2 = A1_2
   L2_2(L3_2, L4_2, L5_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F10113A1D61F6AF52
+  L3_2 = self
+  L2_2 = self.F10113A1D61F6AF52
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fF56461AF
@@ -861,14 +776,11 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F6EA188887F29A310"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokePicnicPokemon.RequestPokeState
+function C9EDE8A2011D9A329_prototype:F6EA188887F29A310(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F10113A1D61F6AF52
+  L3_2 = self
+  L2_2 = self.F10113A1D61F6AF52
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fF56461AF
@@ -878,8 +790,8 @@ function L70_1(A0_2, A1_2)
   L4_2 = "poke_state_int"
   L5_2 = A1_2
   L2_2(L3_2, L4_2, L5_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F10113A1D61F6AF52
+  L3_2 = self
+  L2_2 = self.F10113A1D61F6AF52
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fF56461AF
@@ -891,15 +803,12 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F11EBE2D1D2934A5D"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.RequestLanding
+function C9EDE8A2011D9A329_prototype:F11EBE2D1D2934A5D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F10113A1D61F6AF52
+  L1_2 = self
+  L3_2 = self
+  L2_2 = self.F10113A1D61F6AF52
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fF56461AF
@@ -909,8 +818,8 @@ function L70_1(A0_2)
   L4_2 = "poke_state_int"
   L2_2 = L2_2(L3_2, L4_2)
   if 2 == L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F10113A1D61F6AF52
+    L3_2 = self
+    L2_2 = self.F10113A1D61F6AF52
     L2_2 = L2_2(L3_2)
     L3_2 = L2_2
     L2_2 = L2_2.fF56461AF
@@ -920,8 +829,8 @@ function L70_1(A0_2)
     L4_2 = "poke_state_int"
     L5_2 = 0
     L2_2(L3_2, L4_2, L5_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.F10113A1D61F6AF52
+    L3_2 = self
+    L2_2 = self.F10113A1D61F6AF52
     L2_2 = L2_2(L3_2)
     L3_2 = L2_2
     L2_2 = L2_2.fF56461AF
@@ -931,7 +840,7 @@ function L70_1(A0_2)
     L4_2 = "poke_state_bool"
     L5_2 = true
     L2_2(L3_2, L4_2, L5_2)
-    L2_2 = A0_2[50]
+    L2_2 = self[50]
     L3_2 = L2_2
     L2_2 = L2_2.F6D727D264A19660C
     L4_2 = L16_1
@@ -964,15 +873,12 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F90596DAEFC472A4D"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.RequestFlying
+function C9EDE8A2011D9A329_prototype:F90596DAEFC472A4D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F10113A1D61F6AF52
+  L1_2 = self
+  L3_2 = self
+  L2_2 = self.F10113A1D61F6AF52
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fF56461AF
@@ -982,8 +888,8 @@ function L70_1(A0_2)
   L4_2 = "poke_state_int"
   L2_2 = L2_2(L3_2, L4_2)
   if 0 == L2_2 or 1 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F10113A1D61F6AF52
+    L4_2 = self
+    L3_2 = self.F10113A1D61F6AF52
     L3_2 = L3_2(L4_2)
     L4_2 = L3_2
     L3_2 = L3_2.fF56461AF
@@ -993,8 +899,8 @@ function L70_1(A0_2)
     L5_2 = "poke_state_int"
     L6_2 = 2
     L3_2(L4_2, L5_2, L6_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F10113A1D61F6AF52
+    L4_2 = self
+    L3_2 = self.F10113A1D61F6AF52
     L3_2 = L3_2(L4_2)
     L4_2 = L3_2
     L3_2 = L3_2.fF56461AF
@@ -1004,7 +910,7 @@ function L70_1(A0_2)
     L5_2 = "poke_state_bool"
     L6_2 = true
     L3_2(L4_2, L5_2, L6_2)
-    L3_2 = A0_2[50]
+    L3_2 = self[50]
     L4_2 = L3_2
     L3_2 = L3_2.F6D727D264A19660C
     L5_2 = L16_1
@@ -1037,14 +943,11 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F9CCEBE099B87829E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokePicnicPokemon.RequestAttack
+function C9EDE8A2011D9A329_prototype:F9CCEBE099B87829E(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F10113A1D61F6AF52
+  L3_2 = self
+  L2_2 = self.F10113A1D61F6AF52
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fF56461AF
@@ -1054,8 +957,8 @@ function L70_1(A0_2, A1_2)
   L4_2 = "one_attack_int"
   L5_2 = A1_2
   L2_2(L3_2, L4_2, L5_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F10113A1D61F6AF52
+  L3_2 = self
+  L2_2 = self.F10113A1D61F6AF52
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fF56461AF
@@ -1067,15 +970,12 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FC660675BA011EB41"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokePicnicPokemon.SetEyeState
+function C9EDE8A2011D9A329_prototype:FC660675BA011EB41(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if A1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F10113A1D61F6AF52
+    L3_2 = self
+    L2_2 = self.F10113A1D61F6AF52
     L2_2 = L2_2(L3_2)
     L3_2 = L2_2
     L2_2 = L2_2.fF56461AF
@@ -1085,8 +985,8 @@ function L70_1(A0_2, A1_2)
     L4_2 = "eye01_enabled"
     L5_2 = true
     L2_2(L3_2, L4_2, L5_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.F10113A1D61F6AF52
+    L3_2 = self
+    L2_2 = self.F10113A1D61F6AF52
     L2_2 = L2_2(L3_2)
     L3_2 = L2_2
     L2_2 = L2_2.fF56461AF
@@ -1097,8 +997,8 @@ function L70_1(A0_2, A1_2)
     L5_2 = 0
     L2_2(L3_2, L4_2, L5_2)
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.F10113A1D61F6AF52
+    L3_2 = self
+    L2_2 = self.F10113A1D61F6AF52
     L2_2 = L2_2(L3_2)
     L3_2 = L2_2
     L2_2 = L2_2.fF56461AF
@@ -1108,8 +1008,8 @@ function L70_1(A0_2, A1_2)
     L4_2 = "eye01_enabled"
     L5_2 = true
     L2_2(L3_2, L4_2, L5_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.F10113A1D61F6AF52
+    L3_2 = self
+    L2_2 = self.F10113A1D61F6AF52
     L2_2 = L2_2(L3_2)
     L3_2 = L2_2
     L2_2 = L2_2.fF56461AF
@@ -1122,31 +1022,28 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F5ACE055B9628F5F7"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.F5ACE055B9628F5F7
+function C9EDE8A2011D9A329_prototype:F5ACE055B9628F5F7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = nil
   L2_2 = cECB91E31
   L2_2 = L2_2.f04ACC3F2
-  L4_2 = A0_2
-  L3_2 = A0_2.F70A9E848984C912A
+  L4_2 = self
+  L3_2 = self.F70A9E848984C912A
   L3_2 = L3_2(L4_2)
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F70A9E848984C912A
+    L3_2 = self
+    L2_2 = self.F70A9E848984C912A
     L2_2 = L2_2(L3_2)
     L3_2 = L2_2
     L2_2 = L2_2.fEFEBD7E3
     L4_2 = "eff_overhead01"
     L5_2 = ""
     L2_2 = L2_2(L3_2, L4_2, L5_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F70A9E848984C912A
+    L4_2 = self
+    L3_2 = self.F70A9E848984C912A
     L3_2 = L3_2(L4_2)
     L4_2 = L3_2
     L3_2 = L3_2.fFA5C9904
@@ -1187,55 +1084,40 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FF2AE6CEE925B61D9"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.AborBehaviorTree
+function C9EDE8A2011D9A329_prototype:FF2AE6CEE925B61D9()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[29]
+  L1_2 = self[29]
   L2_2 = L1_2
   L1_2 = L1_2.fE4209587
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F3E7DFF9E892D4691"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.StartBehaviorTree
+function C9EDE8A2011D9A329_prototype:F3E7DFF9E892D4691()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[29]
+  L1_2 = self[29]
   L2_2 = L1_2
   L1_2 = L1_2.f98EDDB42
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F45E4E97AFCE2B044"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.ReseStatematon
+function C9EDE8A2011D9A329_prototype:F45E4E97AFCE2B044()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FC816EB767A932585"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.StopStatematon
+function C9EDE8A2011D9A329_prototype:FC816EB767A932585()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F32F3ED6FAC4BDC3F"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.IsActive
+function C9EDE8A2011D9A329_prototype:F32F3ED6FAC4BDC3F()
   local L1_2
-  L1_2 = A0_2[37]
+  L1_2 = self[37]
   if 4 == L1_2 then
     L1_2 = true
     return L1_2
@@ -1244,14 +1126,11 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FE568D9B835C7FB44"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokePicnicPokemon.GetNodePosition
+function C9EDE8A2011D9A329_prototype:FE568D9B835C7FB44(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F70A9E848984C912A
+  L3_2 = self
+  L2_2 = self.F70A9E848984C912A
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fEFEBD7E3
@@ -1259,7 +1138,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = "default"
   L2_2 = L2_2(L3_2, L4_2, L5_2)
   if -1 == L2_2 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f7360ED03
     L3_2, L4_2, L5_2 = L3_2(L4_2)
@@ -1272,20 +1151,17 @@ function L70_1(A0_2, A1_2)
     L6_2[3] = L9_2
     return L6_2
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FC5F43AE816E8DBF2
+  L4_2 = self
+  L3_2 = self.FC5F43AE816E8DBF2
   L5_2 = L2_2
   return L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FC5F43AE816E8DBF2"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokePicnicPokemon.GetNodeIndexPosition
+function C9EDE8A2011D9A329_prototype:FC5F43AE816E8DBF2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F70A9E848984C912A
+  L3_2 = self
+  L2_2 = self.F70A9E848984C912A
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f4D93367B
@@ -1317,16 +1193,13 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FCF2D95BED79A8F57"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokePicnicPokemon.GetNodeIndexRotation
+function C9EDE8A2011D9A329_prototype:FCF2D95BED79A8F57(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cD5675BA5
   L2_2 = L2_2.f17EF09C7
-  L4_2 = A0_2
-  L3_2 = A0_2.F70A9E848984C912A
+  L4_2 = self
+  L3_2 = self.F70A9E848984C912A
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.f4D93367B
@@ -1336,13 +1209,10 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FD10A429C883CD131"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.GetCollisionInfo
+function C9EDE8A2011D9A329_prototype:FD10A429C883CD131()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f7360ED03
   L1_2, L2_2, L3_2 = L1_2(L2_2)
@@ -1353,7 +1223,7 @@ function L70_1(A0_2)
   L4_2[1] = L5_2
   L4_2[2] = L6_2
   L4_2[3] = L7_2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f7360ED03
   L5_2, L6_2, L7_2 = L5_2(L6_2)
@@ -1365,7 +1235,7 @@ function L70_1(A0_2)
   L8_2[2] = L10_2
   L8_2[3] = L11_2
   L9_2 = 0
-  L10_2 = A0_2[49]
+  L10_2 = self[49]
   while true do
     L11_2 = L10_2.length
     if not (L9_2 < L11_2) then
@@ -1373,8 +1243,8 @@ function L70_1(A0_2)
     end
     L11_2 = L10_2[L9_2]
     L9_2 = L9_2 + 1
-    L13_2 = A0_2
-    L12_2 = A0_2.FC5F43AE816E8DBF2
+    L13_2 = self
+    L12_2 = self.FC5F43AE816E8DBF2
     L14_2 = L11_2
     L12_2 = L12_2(L13_2, L14_2)
     L13_2 = L4_2[2]
@@ -1390,13 +1260,13 @@ function L70_1(A0_2)
       L8_2[2] = L13_2
     end
   end
-  L11_2 = A0_2[31]
+  L11_2 = self[31]
   L12_2 = L11_2
   L11_2 = L11_2.f95CEFB09
   L11_2 = L11_2(L12_2)
   L12_2 = 1.0
   if 1 == L11_2 then
-    L13_2 = A0_2[31]
+    L13_2 = self[31]
     L14_2 = L13_2
     L13_2 = L13_2.f70982584
     L13_2 = L13_2(L14_2)
@@ -1406,7 +1276,7 @@ function L70_1(A0_2)
     L12_2 = L13_2
   else
     if 3 == L11_2 then
-      L13_2 = A0_2[31]
+      L13_2 = self[31]
       L14_2 = L13_2
       L13_2 = L13_2.f416AE862
       L13_2 = L13_2(L14_2)
@@ -1417,16 +1287,16 @@ function L70_1(A0_2)
     else
     end
   end
-  L14_2 = A0_2
-  L13_2 = A0_2.F72270EEABDF65E49
+  L14_2 = self
+  L13_2 = self.F72270EEABDF65E49
   L13_2 = L13_2(L14_2)
   L13_2 = L13_2[1]
   L13_2 = L13_2[3]
   L14_2 = C9EDE8A2011D9A329
   L14_2 = L14_2.SFB8A67CFE7F5605D
   if L13_2 > L14_2 then
-    L14_2 = A0_2
-    L13_2 = A0_2.F72270EEABDF65E49
+    L14_2 = self
+    L13_2 = self.F72270EEABDF65E49
     L13_2 = L13_2(L14_2)
     L13_2 = L13_2[1]
     L12_2 = L13_2[3]
@@ -1468,21 +1338,15 @@ function L70_1(A0_2)
   return L13_2(L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F0ACCAA8D8DD35BF2"
-
-function L70_1(A0_2, A1_2)
-  A0_2[45] = A1_2
+--- main.field.behaviour.PokePicnicPokemon.SetThrowTimer
+function C9EDE8A2011D9A329_prototype:F0ACCAA8D8DD35BF2(A1_2)
+  self[45] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FFD7252EA26F22062"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.IsFriendShipUp
+function C9EDE8A2011D9A329_prototype:FFD7252EA26F22062()
   local L1_2
-  L1_2 = A0_2[51]
+  L1_2 = self[51]
   if L1_2 >= 5 then
     L1_2 = false
     return L1_2
@@ -1491,102 +1355,84 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FF3C80A78F34DAE1A"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.FF3C80A78F34DAE1A
+function C9EDE8A2011D9A329_prototype:FF3C80A78F34DAE1A()
   local L1_2
-  L1_2 = A0_2[51]
+  L1_2 = self[51]
   L1_2 = L1_2 + 1
-  A0_2[51] = L1_2
+  self[51] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FE2F688193E0F2BB6"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.FE2F688193E0F2BB6
+function C9EDE8A2011D9A329_prototype:FE2F688193E0F2BB6()
   local L1_2
-  A0_2[51] = 0
+  self[51] = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FBDA175393973D042"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.GetBehaviourType
+function C9EDE8A2011D9A329_prototype:FBDA175393973D042()
   local L1_2
   L1_2 = 18
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "FAB661FB272511B2D"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokePicnicPokemon.OnUpdateLoad
+function C9EDE8A2011D9A329_prototype:FAB661FB272511B2D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[38]
+  L2_2 = self[38]
   if 0 == L2_2 then
-    L3_2 = A0_2[29]
+    L3_2 = self[29]
     L4_2 = L3_2
     L3_2 = L3_2.fCE1D8955
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = "picnic_pokemon_base_behavior"
     L7_2 = ""
     L3_2(L4_2, L5_2, L6_2, L7_2)
-    L3_2 = A0_2[38]
+    L3_2 = self[38]
     L3_2 = L3_2 + 1
-    A0_2[38] = L3_2
+    self[38] = L3_2
   elseif 1 == L2_2 then
-    L3_2 = A0_2[29]
+    L3_2 = self[29]
     L4_2 = L3_2
     L3_2 = L3_2.f4104EC35
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
-      L3_2 = A0_2[38]
+      L3_2 = self[38]
       L3_2 = L3_2 + 1
-      A0_2[38] = L3_2
+      self[38] = L3_2
     end
   elseif 2 == L2_2 then
-    L3_2 = A0_2[37]
+    L3_2 = self[37]
     if 3 == L3_2 then
-      L3_2 = A0_2[29]
+      L3_2 = self[29]
       L4_2 = L3_2
       L3_2 = L3_2.f98EDDB42
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L3_2(L4_2, L5_2)
-      A0_2[37] = 4
-      L3_2 = A0_2[38]
+      self[37] = 4
+      L3_2 = self[38]
       L3_2 = L3_2 + 1
-      A0_2[38] = L3_2
+      self[38] = L3_2
     else
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F627FFCCD719BA24D"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokePicnicPokemon.OnUpdatePopWait
+function C9EDE8A2011D9A329_prototype:F627FFCCD719BA24D(A1_2)
   local L2_2, L3_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F901AA5FF986B3EC9
+  L3_2 = self
+  L2_2 = self.F901AA5FF986B3EC9
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F901AA5FF986B3EC9"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.F901AA5FF986B3EC9
+function C9EDE8A2011D9A329_prototype:F901AA5FF986B3EC9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[42]
-  L3_2 = A0_2
-  L2_2 = A0_2.F3AACD2CD02C3734B
+  L1_2 = self[42]
+  L3_2 = self
+  L2_2 = self.F3AACD2CD02C3734B
   L2_2 = L2_2(L3_2)
   L4_2 = L1_2
   L3_2 = L1_2.f8F2B0552
@@ -1596,11 +1442,8 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F3AACD2CD02C3734B"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokePicnicPokemon.GetPlayerHandPos
+function C9EDE8A2011D9A329_prototype:F3AACD2CD02C3734B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S8DB58249AC006158
@@ -1673,13 +1516,10 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F9EFB1A14797798AC"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokePicnicPokemon.OnUpdatePop
+function C9EDE8A2011D9A329_prototype:F9EFB1A14797798AC(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
-  L2_2 = A0_2[42]
+  L2_2 = self[42]
   L3_2 = L2_2
   L2_2 = L2_2.f5439788F
   L4_2 = C9EDE8A2011D9A329
@@ -1689,7 +1529,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.fB41FD22F
   L4_2 = L2_2
   L3_2 = L3_2(L4_2)
-  L4_2 = A0_2[42]
+  L4_2 = self[42]
   L5_2 = L4_2
   L4_2 = L4_2.f5439788F
   L6_2 = C9EDE8A2011D9A329
@@ -1714,14 +1554,14 @@ function L70_1(A0_2, A1_2)
   ::lbl_28::
   L6_2 = cECB91E31
   L6_2 = L6_2.fB41FD22F
-  L7_2 = A0_2[42]
+  L7_2 = self[42]
   L6_2 = L6_2(L7_2)
-  L7_2 = A0_2[39]
+  L7_2 = self[39]
   if 0 == L7_2 then
-    L9_2 = A0_2
-    L8_2 = A0_2.F901AA5FF986B3EC9
+    L9_2 = self
+    L8_2 = self.F901AA5FF986B3EC9
     L8_2(L9_2)
-    L8_2 = A0_2[42]
+    L8_2 = self[42]
     L9_2 = L8_2
     L8_2 = L8_2.f750133BA
     L8_2, L9_2, L10_2 = L8_2(L9_2)
@@ -1732,12 +1572,12 @@ function L70_1(A0_2, A1_2)
     L11_2[1] = L12_2
     L11_2[2] = L13_2
     L11_2[3] = L14_2
-    L12_2 = A0_2[43]
+    L12_2 = self[43]
     L13_2 = L12_2
     L12_2 = L12_2.FBD85BEF51374A611
     L12_2(L13_2)
-    L12_2 = A0_2[43]
-    L13_2 = A0_2[1]
+    L12_2 = self[43]
+    L13_2 = self[1]
     L14_2 = L13_2
     L13_2 = L13_2.f750133BA
     L13_2, L14_2, L15_2 = L13_2(L14_2)
@@ -1751,38 +1591,38 @@ function L70_1(A0_2, A1_2)
     L19_2[1] = L20_2
     L19_2[2] = L21_2
     L19_2[3] = L22_2
-    L20_2 = A0_2[45]
+    L20_2 = self[45]
     L16_2 = L16_2(L17_2, L18_2, L19_2, L20_2)
-    L17_2 = A0_2[43]
+    L17_2 = self[43]
     L18_2 = L17_2
     L17_2 = L17_2.FB273BAF437E771A0
     L19_2 = L11_2
     L20_2 = L16_2
     L17_2(L18_2, L19_2, L20_2)
-    A0_2[44] = 0.0
+    self[44] = 0.0
     L18_2 = L5_2
     L17_2 = L5_2.fA5130C84
     L19_2 = false
     L20_2 = 0
     L17_2(L18_2, L19_2, L20_2)
-    L18_2 = A0_2
-    L17_2 = A0_2.F911598616BAC06BC
+    L18_2 = self
+    L17_2 = self.F911598616BAC06BC
     L19_2 = false
     L17_2(L18_2, L19_2)
     L18_2 = L6_2
     L17_2 = L6_2.f6754453E
     L19_2 = true
     L17_2(L18_2, L19_2)
-    L17_2 = A0_2[42]
+    L17_2 = self[42]
     L18_2 = L17_2
     L17_2 = L17_2.f8F2B0552
     L19_2 = L11_2[1]
     L20_2 = L11_2[2]
     L21_2 = L11_2[3]
     L17_2(L18_2, L19_2, L20_2, L21_2)
-    A0_2[39] = 1
+    self[39] = 1
   elseif 1 == L7_2 then
-    L8_2 = A0_2[44]
+    L8_2 = self[44]
     L10_2 = A1_2
     L9_2 = A1_2.f22D509B2
     L11_2 = 2
@@ -1791,17 +1631,17 @@ function L70_1(A0_2, A1_2)
     L9_2 = L9_2.fC0E2CAD0
     L9_2 = L9_2(L10_2)
     L8_2 = L8_2 + L9_2
-    A0_2[44] = L8_2
-    L8_2 = A0_2[44]
-    L9_2 = A0_2[45]
+    self[44] = L8_2
+    L8_2 = self[44]
+    L9_2 = self[45]
     if L8_2 >= L9_2 then
-      A0_2[39] = 2
+      self[39] = 2
     end
-    L8_2 = A0_2[42]
-    L9_2 = A0_2[43]
+    L8_2 = self[42]
+    L9_2 = self[43]
     L10_2 = L9_2
     L9_2 = L9_2.F44B05B2839E4DA9E
-    L11_2 = A0_2[44]
+    L11_2 = self[44]
     L9_2 = L9_2(L10_2, L11_2)
     L11_2 = L8_2
     L10_2 = L8_2.f8F2B0552
@@ -1810,8 +1650,8 @@ function L70_1(A0_2, A1_2)
     L14_2 = L9_2[3]
     L10_2(L11_2, L12_2, L13_2, L14_2)
   elseif 2 == L7_2 then
-    L9_2 = A0_2
-    L8_2 = A0_2.F911598616BAC06BC
+    L9_2 = self
+    L8_2 = self.F911598616BAC06BC
     L10_2 = true
     L8_2(L9_2, L10_2)
     L9_2 = L6_2
@@ -1826,7 +1666,7 @@ function L70_1(A0_2, A1_2)
     L10_2 = false
     L11_2 = 0
     L8_2(L9_2, L10_2, L11_2)
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L9_2 = L8_2
     L8_2 = L8_2.f7360ED03
     L8_2, L9_2, L10_2 = L8_2(L9_2)
@@ -1841,30 +1681,27 @@ function L70_1(A0_2, A1_2)
     L13_2[2] = L15_2
     L13_2[3] = L16_2
     L11_2(L12_2, L13_2)
-    A0_2[37] = 3
+    self[37] = 3
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9EDE8A2011D9A329"]["prototype"]
-L69_1 = "F1820F5F50765A27E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokePicnicPokemon.OnUpdateFinish
+function C9EDE8A2011D9A329_prototype:F1820F5F50765A27E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f4555D276
-  L4_2 = A0_2[42]
+  L4_2 = self[42]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    A0_2[40] = 2
-    A0_2[37] = 0
+    self[40] = 2
+    self[37] = 0
     return
   end
   L3_2 = cE8D61D7D
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[42]
+  L4_2 = self[42]
   L5_2 = L4_2
   L4_2 = L4_2.f5439788F
   L6_2 = C9EDE8A2011D9A329
@@ -1873,7 +1710,7 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
   L3_2 = cE8D61D7D
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[42]
+  L4_2 = self[42]
   L5_2 = L4_2
   L4_2 = L4_2.f5439788F
   L6_2 = C9EDE8A2011D9A329
@@ -1882,26 +1719,26 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
   L4_2 = cECB91E31
   L4_2 = L4_2.fB41FD22F
-  L5_2 = A0_2[42]
+  L5_2 = self[42]
   L4_2 = L4_2(L5_2)
-  L5_2 = A0_2[40]
+  L5_2 = self[40]
   if 0 == L5_2 then
     L7_2 = L3_2
     L6_2 = L3_2.fA5130C84
     L8_2 = false
     L9_2 = 0
     L6_2(L7_2, L8_2, L9_2)
-    A0_2[46] = 0.0
-    L7_2 = A0_2
-    L6_2 = A0_2.F911598616BAC06BC
+    self[46] = 0.0
+    L7_2 = self
+    L6_2 = self.F911598616BAC06BC
     L8_2 = false
     L6_2(L7_2, L8_2)
     L7_2 = L4_2
     L6_2 = L4_2.f6754453E
     L8_2 = true
     L6_2(L7_2, L8_2)
-    L6_2 = A0_2[42]
-    L7_2 = A0_2[1]
+    L6_2 = self[42]
+    L7_2 = self[1]
     L8_2 = L7_2
     L7_2 = L7_2.f750133BA
     L7_2, L8_2, L9_2 = L7_2(L8_2)
@@ -1911,10 +1748,10 @@ function L70_1(A0_2, A1_2)
     L13_2 = L8_2
     L14_2 = L9_2
     L10_2(L11_2, L12_2, L13_2, L14_2)
-    A0_2[48] = 0.0
-    A0_2[40] = 1
+    self[48] = 0.0
+    self[40] = 1
   elseif 1 == L5_2 then
-    L6_2 = A0_2[46]
+    L6_2 = self[46]
     L8_2 = A1_2
     L7_2 = A1_2.f22D509B2
     L9_2 = 2
@@ -1923,20 +1760,20 @@ function L70_1(A0_2, A1_2)
     L7_2 = L7_2.fC0E2CAD0
     L7_2 = L7_2(L8_2)
     L6_2 = L6_2 + L7_2
-    A0_2[46] = L6_2
-    L6_2 = A0_2[46]
+    self[46] = L6_2
+    L6_2 = self[46]
     L7_2 = 0.001
     if L6_2 > L7_2 then
-      L6_2 = A0_2[46]
-      L7_2 = A0_2[47]
+      L6_2 = self[46]
+      L7_2 = self[47]
       L6_2 = L6_2 / L7_2
-      A0_2[48] = L6_2
+      self[48] = L6_2
     end
-    L6_2 = A0_2[46]
-    L7_2 = A0_2[47]
+    L6_2 = self[46]
+    L7_2 = self[47]
     if L6_2 >= L7_2 then
-      A0_2[48] = 1.0
-      A0_2[40] = 2
+      self[48] = 1.0
+      self[40] = 2
     end
     L6_2 = {}
     L7_2 = 0
@@ -1945,7 +1782,7 @@ function L70_1(A0_2, A1_2)
     L6_2[1] = L7_2
     L6_2[2] = L8_2
     L6_2[3] = L9_2
-    L7_2 = A0_2[41]
+    L7_2 = self[41]
     if 0 == L7_2 then
       L8_2 = CFC8F368D91411014
       L8_2 = L8_2.S93A017D496A6D000
@@ -1962,12 +1799,12 @@ function L70_1(A0_2, A1_2)
       L11_2[3] = L14_2
       L6_2 = L11_2
     elseif 1 == L7_2 then
-      L9_2 = A0_2
-      L8_2 = A0_2.F3AACD2CD02C3734B
+      L9_2 = self
+      L8_2 = self.F3AACD2CD02C3734B
       L8_2 = L8_2(L9_2)
       L6_2 = L8_2
     end
-    L8_2 = A0_2[42]
+    L8_2 = self[42]
     L9_2 = L8_2
     L8_2 = L8_2.f750133BA
     L8_2, L9_2, L10_2 = L8_2(L9_2)
@@ -1979,7 +1816,7 @@ function L70_1(A0_2, A1_2)
     L15_2 = L6_2[1]
     L16_2 = L6_2[2]
     L17_2 = L6_2[3]
-    L18_2 = A0_2[48]
+    L18_2 = self[48]
     L11_2, L12_2, L13_2 = L11_2(L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2)
     L14_2 = {}
     L15_2 = L11_2
@@ -1988,7 +1825,7 @@ function L70_1(A0_2, A1_2)
     L14_2[1] = L15_2
     L14_2[2] = L16_2
     L14_2[3] = L17_2
-    L15_2 = A0_2[42]
+    L15_2 = self[42]
     L16_2 = L15_2
     L15_2 = L15_2.f8F2B0552
     L17_2 = L14_2[1]
@@ -2003,7 +1840,7 @@ function L70_1(A0_2, A1_2)
     L7_2 = L3_2
     L6_2 = L3_2.f61A204B1
     L6_2(L7_2)
-    A0_2[37] = 0
+    self[37] = 0
   end
 end
 

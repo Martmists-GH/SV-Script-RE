@@ -111,11 +111,8 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDFC33B85C3B4551"]
-L69_1 = "S23B64DF78706718C"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ajito.timeline.AjitoTimelines.playTml
+function CBDFC33B85C3B4551.S23B64DF78706718C(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A3_2 then
     A3_2 = false

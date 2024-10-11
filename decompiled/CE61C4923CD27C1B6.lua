@@ -1,3 +1,7 @@
+---@alias CE61C4923CD27C1B6 main_ui_pokedex_state_PokedexUIState
+
+---@class main_ui_pokedex_state_PokedexUIState : CE61C4923CD27C1B6_prototype
+---@field prototype CE61C4923CD27C1B6_prototype
 L55_1 = _ENV
 L56_1 = "CE61C4923CD27C1B6"
 L57_1 = L15_1
@@ -42,64 +46,56 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CE61C4923CD27C1B6"]
 L69_1 = "__name__"
 L70_1 = "CE61C4923CD27C1B6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE61C4923CD27C1B6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE61C4923CD27C1B6"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CE61C4923CD27C1B6_prototype
+CE61C4923CD27C1B6_prototype = L15_1()
+CE61C4923CD27C1B6.prototype = CE61C4923CD27C1B6_prototype
+--- main.ui.pokedex.state.PokedexUIState.Setup
+function CE61C4923CD27C1B6_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = c2A84524D
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L2_2 = nil
   L3_2 = c2A84524D
   L3_2 = L3_2.f6A09A15D
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     return
   end
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.fDCDD45F6
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.FBE696F4C6924A789
+  L6_2 = self
+  L7_2 = self.FBE696F4C6924A789
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE61C4923CD27C1B6"]["prototype"]
-L69_1 = "FBE696F4C6924A789"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.state.PokedexUIState.ActionNotifiedEvent
+function CE61C4923CD27C1B6_prototype:FBE696F4C6924A789()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f44B92869
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f015A8108
   L2_2 = L2_2(L3_2)
   L3_2 = C6E074861269A51A2
   L3_2 = L3_2.S7C107A0FC15F1400
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = "state is null"
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = L3_2
@@ -109,13 +105,10 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE61C4923CD27C1B6"]["prototype"]
-L69_1 = "F706FCB31D5565CDB"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.state.PokedexUIState.StartFlow
+function CE61C4923CD27C1B6_prototype:F706FCB31D5565CDB()
   local L1_2, L2_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f83FE57AE
   L1_2(L2_2)

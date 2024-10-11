@@ -1,3 +1,5 @@
+---@class CC351E7AB0E60249A : CC351E7AB0E60249A_prototype
+---@field prototype CC351E7AB0E60249A_prototype
 L55_1 = _ENV
 L56_1 = "CC351E7AB0E60249A"
 L57_1 = L15_1
@@ -41,19 +43,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC351E7AB0E60249A"]
 L69_1 = "__name__"
 L70_1 = "CC351E7AB0E60249A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC351E7AB0E60249A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC351E7AB0E60249A"]["prototype"]
-L69_1 = "F65079E9D5273248C"
-
-function L70_1(A0_2)
+---@class CC351E7AB0E60249A_prototype
+CC351E7AB0E60249A_prototype = L15_1()
+CC351E7AB0E60249A.prototype = CC351E7AB0E60249A_prototype
+--- CC351E7AB0E60249A.onStart
+function CC351E7AB0E60249A_prototype:F65079E9D5273248C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2
-  L2_2 = A0_2[3]
+  L1_2 = self
+  L2_2 = self[3]
   L2_2 = L2_2[3]
   L2_2 = L2_2[1]
   L2_2 = L2_2[1]
@@ -62,7 +59,7 @@ function L70_1(A0_2)
   L4_2 = C812B9E28835A35DA
   L5_2 = nil
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[3]
   L2_2 = L2_2[1]
   L2_2 = L2_2[6]
@@ -80,12 +77,12 @@ function L70_1(A0_2)
   L3_2 = L3_2.f4CAD79CA
   L5_2 = 0
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L3_2 = L3_2[3]
   L3_2 = L3_2[1]
   L3_2 = L3_2[5]
   L3_2[26] = true
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L3_2 = L3_2[3]
   L3_2 = L3_2[1]
   L3_2 = L3_2[6]
@@ -94,11 +91,11 @@ function L70_1(A0_2)
   L3_2 = L3_2.fE9C29DA1
   L3_2 = L3_2(L4_2)
   L3_2 = "camera01_loop" == L3_2
-  A0_2[15] = L3_2
-  L3_2 = A0_2[15]
+  self[15] = L3_2
+  L3_2 = self[15]
   if not L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FF790358D228F6230
+    L4_2 = self
+    L3_2 = self.FF790358D228F6230
     L5_2 = 0
     
     function L6_2()
@@ -120,27 +117,24 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC351E7AB0E60249A"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2, A1_2)
+--- CC351E7AB0E60249A.onUpdate
+function CC351E7AB0E60249A_prototype:FC0150FC2959FFA71(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[15]
+  L2_2 = self[15]
   if not L2_2 then
     L2_2 = E8E40DFB6EBDAB388
     L2_2 = L2_2.kFinish
     return L2_2
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FCD817043038ADFCD
+  L3_2 = self
+  L2_2 = self.FCD817043038ADFCD
   L2_2(L3_2)
   L2_2 = C36AA1ACF27A73315
   L2_2 = L2_2.new
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L2_2 = L2_2(L3_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F09BA8F383E3C8AF6
+  L4_2 = self
+  L3_2 = self.F09BA8F383E3C8AF6
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.F81863E625B28572D

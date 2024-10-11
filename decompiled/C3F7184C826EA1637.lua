@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C3F7184C826EA1637"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C3F7184C826EA1637"]
-L69_1 = "new"
+---@alias C3F7184C826EA1637 main_field_action_partner_pokemon_ActionTailEffect
 
-function L70_1(A0_2, A1_2, A2_2)
+---@class main_field_action_partner_pokemon_ActionTailEffect : C3F7184C826EA1637_prototype
+---@field prototype C3F7184C826EA1637_prototype
+C3F7184C826EA1637 = L15_1()
+function C3F7184C826EA1637.new(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = L2_1
   L4_2 = C3F7184C826EA1637
@@ -24,11 +21,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3F7184C826EA1637"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@param A0_2 C3F7184C826EA1637
+function C3F7184C826EA1637.super(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   A0_2[10] = nil
   L4_2 = C2E287B969858406D
@@ -40,11 +34,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3F7184C826EA1637"]
-L69_1 = "__name__"
-L70_1 = "C3F7184C826EA1637"
-L68_1[L69_1] = L70_1
+C3F7184C826EA1637.__name__ = "C3F7184C826EA1637"
 L68_1 = _ENV["C3F7184C826EA1637"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -76,18 +66,13 @@ function L70_1(A0_2, A1_2)
   return L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3F7184C826EA1637"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3F7184C826EA1637"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C3F7184C826EA1637_prototype
+C3F7184C826EA1637_prototype = L15_1()
+C3F7184C826EA1637.prototype = C3F7184C826EA1637_prototype
+--- main.field.action.partner_pokemon.ActionTailEffect.onCreate
+function C3F7184C826EA1637_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.new
   
@@ -116,27 +101,24 @@ function L70_1(A0_2)
   
   L4_2 = "Takeback"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[10] = L2_2
+  self[10] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3F7184C826EA1637"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.partner_pokemon.ActionTailEffect.onPreUpdate
+function C3F7184C826EA1637_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   while true do
-    L1_2 = A0_2[10]
+    L1_2 = self[10]
     if nil == L1_2 then
       break
     end
     L1_2 = L10_1.coroutine
     L1_2 = L1_2.status
-    L2_2 = A0_2[10]
+    L2_2 = self[10]
     L2_2 = L2_2[1]
     L1_2 = L1_2(L2_2)
     if "dead" ~= L1_2 then
-      L1_2 = A0_2[10]
+      L1_2 = self[10]
       L2_2 = nil
       L3_2 = L62_1
       L4_2 = L64_1.pack
@@ -181,7 +163,7 @@ function L70_1(A0_2)
         L4_2(L5_2, L6_2)
       end
     else
-      A0_2[10] = nil
+      self[10] = nil
     end
     L1_2 = 0
     return L1_2

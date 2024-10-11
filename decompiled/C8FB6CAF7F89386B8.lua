@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C8FB6CAF7F89386B8"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "__name__"
-L70_1 = "C8FB6CAF7F89386B8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "S0E0B04C8034BA46C"
+---@alias C8FB6CAF7F89386B8 main_gem_GemSettingUtill
 
-function L70_1(A0_2, A1_2)
+---@class main_gem_GemSettingUtill
+C8FB6CAF7F89386B8 = L15_1()
+C8FB6CAF7F89386B8.new = {}
+C8FB6CAF7F89386B8.__name__ = "C8FB6CAF7F89386B8"
+--- main.gem.GemSettingUtill.GetGemEffectPath
+function C8FB6CAF7F89386B8.S0E0B04C8034BA46C(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A1_2 then
     A1_2 = 0
@@ -67,11 +58,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "SC91FE3856F6166C9"
-
-function L70_1(A0_2, A1_2)
+--- main.gem.GemSettingUtill.GetGemEffectNames
+function C8FB6CAF7F89386B8.SC91FE3856F6166C9(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     A1_2 = 0
@@ -150,11 +138,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "S668179E3DFA5CD49"
-
-function L70_1()
+--- main.gem.GemSettingUtill.GetGemCountMax
+function C8FB6CAF7F89386B8.S668179E3DFA5CD49()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L31_1.parseInt
   L1_2 = L31_1.string
@@ -167,11 +152,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "S8C65DBAE6240905B"
-
-function L70_1(A0_2)
+--- main.gem.GemSettingUtill.GetIndexToGemType
+function C8FB6CAF7F89386B8.S8C65DBAE6240905B(A0_2)
   local L1_2
   L1_2 = 0
   if 0 == A0_2 then
@@ -216,11 +198,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "S38C2541E77340461"
-
-function L70_1(A0_2)
+--- main.gem.GemSettingUtill.GetGemTypeToIndex
+function C8FB6CAF7F89386B8.S38C2541E77340461(A0_2)
   local L1_2
   L1_2 = 0
   if 0 == A0_2 then
@@ -269,11 +248,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "SD605EAFC3F48D9BC"
-
-function L70_1(A0_2)
+--- main.gem.GemSettingUtill.SD605EAFC3F48D9BC
+function C8FB6CAF7F89386B8.SD605EAFC3F48D9BC(A0_2)
   local L1_2
   L1_2 = 0
   if 0 == A0_2 then
@@ -322,11 +298,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "S32AE950F054EC710"
-
-function L70_1(A0_2)
+--- main.gem.GemSettingUtill.GetGemTypeToName
+function C8FB6CAF7F89386B8.S32AE950F054EC710(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C8FB6CAF7F89386B8
   L1_2 = L1_2.SDB9BD92E39E66A12
@@ -339,11 +312,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "SDB9BD92E39E66A12"
-
-function L70_1()
+--- main.gem.GemSettingUtill.GetGemTypeNames
+function C8FB6CAF7F89386B8.SDB9BD92E39E66A12()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L0_2 = _hx_tab_array
   L1_2 = {}
@@ -389,11 +359,8 @@ function L70_1()
   return L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "S6F61568D27015E26"
-
-function L70_1(A0_2, A1_2)
+--- main.gem.GemSettingUtill.Getlpad
+function C8FB6CAF7F89386B8.S6F61568D27015E26(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = L32_1.lpad
   L3_2 = L31_1.string
@@ -408,11 +375,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "S1516029C3FBACEC7"
-
-function L70_1(A0_2)
+--- main.gem.GemSettingUtill.GetMonsNoToString
+function C8FB6CAF7F89386B8.S1516029C3FBACEC7(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C8FB6CAF7F89386B8
   L1_2 = L1_2.S6F61568D27015E26
@@ -421,22 +385,16 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "SB439D16242CCF849"
-
-function L70_1(A0_2)
+--- main.gem.GemSettingUtill.GetSexTypeToString
+function C8FB6CAF7F89386B8.SB439D16242CCF849(A0_2)
   local L1_2, L2_2
   L1_2 = L31_1.string
   L2_2 = A0_2
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "S73E528AEDF2241D4"
-
-function L70_1(A0_2)
+--- main.gem.GemSettingUtill.GetFromNoToString
+function C8FB6CAF7F89386B8.S73E528AEDF2241D4(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C8FB6CAF7F89386B8
   L1_2 = L1_2.S6F61568D27015E26
@@ -445,11 +403,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "SD860F8421034B7CE"
-
-function L70_1(A0_2)
+--- main.gem.GemSettingUtill.GetScaleToVector3
+function C8FB6CAF7F89386B8.SD860F8421034B7CE(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = {}
   L2_2 = 1 * A0_2
@@ -461,11 +416,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "S9C97C93FAF1BA147"
-
-function L70_1(A0_2)
+--- main.gem.GemSettingUtill.GetDegreeToRadian
+function C8FB6CAF7F89386B8.S9C97C93FAF1BA147(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = cD5675BA5
   L1_2 = L1_2.fFA44D7AF
@@ -490,11 +442,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "S0C16D9F4CB036F01"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.gem.GemSettingUtill.EffectSetUp
+function C8FB6CAF7F89386B8.S0C16D9F4CB036F01(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L5_2 = A1_2
   L4_2 = A1_2.f5439788F
@@ -537,11 +486,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "SEFDA0FE7911EF9E9"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.gem.GemSettingUtill.FloorEffectSetUp
+function C8FB6CAF7F89386B8.SEFDA0FE7911EF9E9(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = A1_2
   L3_2 = A1_2.f5439788F
@@ -584,11 +530,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8FB6CAF7F89386B8"]
-L69_1 = "S9278560D372818D0"
-
-function L70_1(A0_2)
+--- main.gem.GemSettingUtill.S9278560D372818D0
+function C8FB6CAF7F89386B8.S9278560D372818D0(A0_2)
   local L1_2
   if 5 == A0_2 or 9 == A0_2 or 10 == A0_2 or 11 == A0_2 then
     L1_2 = true

@@ -1,3 +1,7 @@
+---@alias C4C153C9992771D25 main_field_behaviour_scenario_main_champion_gym_koori_Gym_koori_course_point
+
+---@class main_field_behaviour_scenario_main_champion_gym_koori_Gym_koori_course_point : C4C153C9992771D25_prototype
+---@field prototype C4C153C9992771D25_prototype
 L55_1 = _ENV
 L56_1 = "C4C153C9992771D25"
 L57_1 = L15_1
@@ -48,18 +52,13 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C4C153C9992771D25"]
 L69_1 = "__name__"
 L70_1 = "C4C153C9992771D25"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C153C9992771D25"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C153C9992771D25"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C4C153C9992771D25_prototype
+C4C153C9992771D25_prototype = L15_1()
+C4C153C9992771D25.prototype = C4C153C9992771D25_prototype
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_point.Setup
+function C4C153C9992771D25_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = C1DB14DCC9D7634FA
   L3_2 = L3_2.new
   
@@ -73,18 +72,15 @@ function L70_1(A0_2, A1_2)
   
   L5_2 = "setupCoroutine"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[8] = L3_2
+  self[8] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C153C9992771D25"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_point.PreUpdate
+function C4C153C9992771D25_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   if nil ~= L2_2 then
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L3_2 = nil
     L4_2 = L62_1
     L5_2 = L64_1.pack
@@ -130,14 +126,14 @@ function L70_1(A0_2, A1_2)
     end
     L5_2 = L10_1.coroutine
     L5_2 = L5_2.status
-    L6_2 = A0_2[8]
+    L6_2 = self[8]
     L6_2 = L6_2[1]
     L5_2 = L5_2(L6_2)
     if "dead" == L5_2 then
-      A0_2[8] = nil
+      self[8] = nil
     end
   end
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L4_2 = A1_2
   L3_2 = A1_2.f22D509B2
   L5_2 = 2
@@ -146,26 +142,23 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.fC0E2CAD0
   L3_2 = L3_2(L4_2)
   L2_2 = L2_2 + L3_2
-  A0_2[10] = L2_2
-  L2_2 = A0_2[10]
-  L3_2 = A0_2[4]
+  self[10] = L2_2
+  L2_2 = self[10]
+  L3_2 = self[4]
   if L2_2 > L3_2 then
-    A0_2[10] = 0.0
-    L3_2 = A0_2
-    L2_2 = A0_2.F45ABDAD37955E237
+    self[10] = 0.0
+    L3_2 = self
+    L2_2 = self.F45ABDAD37955E237
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C153C9992771D25"]["prototype"]
-L69_1 = "FA9EE5C80152A15A0"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_point.setupCoroutine
+function C4C153C9992771D25_prototype:FA9EE5C80152A15A0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = L10_1.select
   L2_2 = 2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f64857644
   L3_2 = L3_2(L4_2)
@@ -173,7 +166,7 @@ function L70_1(A0_2)
   L3_2 = L3_2.f643B5D6F
   L3_2, L4_2, L5_2, L6_2, L7_2 = L3_2(L4_2)
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f24032F87
   L4_2 = cD5675BA5
@@ -183,18 +176,18 @@ function L70_1(A0_2)
   L7_2 = 0.0
   L4_2, L5_2, L6_2, L7_2 = L4_2(L5_2, L6_2, L7_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F2D20D69F0C42B022
+  L3_2 = self
+  L2_2 = self.F2D20D69F0C42B022
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FFA3A5E9967E365C1
+  L3_2 = self
+  L2_2 = self.FFA3A5E9967E365C1
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F1C7C906770F74040
+  L3_2 = self
+  L2_2 = self.F1C7C906770F74040
   L2_2(L3_2)
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cCF781FB6
@@ -208,36 +201,33 @@ function L70_1(A0_2)
     L6_2 = 10
     L4_2(L5_2, L6_2)
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.fE9C29DA1
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C153C9992771D25"]["prototype"]
-L69_1 = "F2D20D69F0C42B022"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_point.setupFlagLine
+function C4C153C9992771D25_prototype:F2D20D69F0C42B022()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = 0
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f5439788F
     L5_2 = "flag_line"
     L3_2 = L3_2(L4_2, L5_2)
-    A0_2[5] = L3_2
+    self[5] = L3_2
     L3_2 = nil
     L4_2 = c016374C1
     L4_2 = L4_2.f8C7D4F4D
-    L5_2 = A0_2[5]
+    L5_2 = self[5]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L4_2 = A0_2[5]
+      L4_2 = self[5]
       L5_2 = L4_2
       L4_2 = L4_2.fB3CF1DEB
       L4_2 = L4_2(L5_2)
@@ -249,59 +239,56 @@ function L70_1(A0_2)
       if L5_2 == L6_2 then
         L5_2 = nil
       end
-      A0_2[6] = L5_2
+      self[6] = L5_2
       break
     end
     L4_2 = CC6FE82819C6E1D55
     L4_2 = L4_2.S12F63EE47FFCB183
     L4_2()
-    L4_2 = A0_2[9]
+    L4_2 = self[9]
     L4_2 = L4_2 + 1
-    A0_2[9] = L4_2
+    self[9] = L4_2
   end
   L3_2 = nil
   L4_2 = c016374C1
   L4_2 = L4_2.f4555D276
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if not L4_2 then
-    L4_2 = A0_2[6]
+    L4_2 = self[6]
     if nil ~= L4_2 then
       goto lbl_57
     end
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.fE9C29DA1
   L4_2(L5_2)
   L4_2 = false
   do return L4_2 end
   ::lbl_57::
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L5_2 = L4_2
   L4_2 = L4_2.F65DC61CB3B730351
   L6_2 = L55_1
-  L7_2 = A0_2
-  L8_2 = A0_2.F1C6B3E4A4F8D9670
+  L7_2 = self
+  L8_2 = self.F1C6B3E4A4F8D9670
   L6_2, L7_2, L8_2 = L6_2(L7_2, L8_2)
   L4_2(L5_2, L6_2, L7_2, L8_2)
   L4_2 = true
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C153C9992771D25"]["prototype"]
-L69_1 = "FFA3A5E9967E365C1"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_point.setupPenaltyLine
+function C4C153C9992771D25_prototype:FFA3A5E9967E365C1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = nil
   L2_2 = 0
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.f5439788F
     L6_2 = "penalty_line"
@@ -325,15 +312,15 @@ function L70_1(A0_2)
       if L6_2 == L7_2 then
         L6_2 = nil
       end
-      A0_2[7] = L6_2
+      self[7] = L6_2
       break
     end
     L5_2 = CC6FE82819C6E1D55
     L5_2 = L5_2.S12F63EE47FFCB183
     L5_2()
-    L5_2 = A0_2[9]
+    L5_2 = self[9]
     L5_2 = L5_2 + 1
-    A0_2[9] = L5_2
+    self[9] = L5_2
   end
   L4_2 = nil
   L5_2 = c016374C1
@@ -342,43 +329,40 @@ function L70_1(A0_2)
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if not L5_2 then
-    L5_2 = A0_2[7]
+    L5_2 = self[7]
     if nil ~= L5_2 then
       goto lbl_57
     end
   end
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.fE9C29DA1
   L5_2(L6_2)
   L5_2 = false
   do return L5_2 end
   ::lbl_57::
-  L5_2 = A0_2[7]
+  L5_2 = self[7]
   L6_2 = L5_2
   L5_2 = L5_2.F65DC61CB3B730351
   L7_2 = L55_1
-  L8_2 = A0_2
-  L9_2 = A0_2.F0845E9F679601767
+  L8_2 = self
+  L9_2 = self.F0845E9F679601767
   L7_2, L8_2, L9_2 = L7_2(L8_2, L9_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
   L5_2 = true
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C153C9992771D25"]["prototype"]
-L69_1 = "F1C7C906770F74040"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_point.setupGateEffect
+function C4C153C9992771D25_prototype:F1C7C906770F74040()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = false
   L2_2 = 0
   while L2_2 < 5 do
     L2_2 = L2_2 + 1
-    L4_2 = A0_2
-    L3_2 = A0_2.F9EE6227EB98E25A6
-    L5_2 = A0_2[5]
+    L4_2 = self
+    L3_2 = self.F9EE6227EB98E25A6
+    L5_2 = self[5]
     L3_2 = L3_2(L4_2, L5_2)
     L1_2 = L3_2
     if L1_2 then
@@ -387,31 +371,28 @@ function L70_1(A0_2)
     L3_2 = CC6FE82819C6E1D55
     L3_2 = L3_2.S12F63EE47FFCB183
     L3_2()
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     L3_2 = L3_2 + 1
-    A0_2[9] = L3_2
+    self[9] = L3_2
   end
   if L1_2 then
     return
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C153C9992771D25"]["prototype"]
-L69_1 = "F45ABDAD37955E237"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_point.attachGround
+function C4C153C9992771D25_prototype:F45ABDAD37955E237()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f7360ED03
   L2_2, L3_2, L4_2 = L2_2(L3_2)
@@ -433,21 +414,18 @@ function L70_1(A0_2)
   L16_2 = L9_2
   L17_2 = L10_2
   L11_2 = L11_2(L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
-  L12_2 = A0_2[3]
+  L12_2 = self[3]
   if L11_2 > L12_2 then
     return
   end
-  L12_2 = A0_2
-  L11_2 = A0_2.F9EE6227EB98E25A6
-  L13_2 = A0_2[5]
+  L12_2 = self
+  L11_2 = self.F9EE6227EB98E25A6
+  L13_2 = self[5]
   L11_2(L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C153C9992771D25"]["prototype"]
-L69_1 = "F9EE6227EB98E25A6"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_point.attachGateEffect
+function C4C153C9992771D25_prototype:F9EE6227EB98E25A6(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2
   L3_2 = A1_2
   L2_2 = A1_2.f5439788F
@@ -508,8 +486,8 @@ function L70_1(A0_2, A1_2)
   L11_2 = L2_2
   L10_2 = L2_2.f7360ED03
   L10_2, L11_2, L12_2 = L10_2(L11_2)
-  L14_2 = A0_2
-  L13_2 = A0_2.F1F9EC60D43F4A9DB
+  L14_2 = self
+  L13_2 = self.F1F9EC60D43F4A9DB
   L15_2 = {}
   L16_2 = L10_2
   L17_2 = L11_2
@@ -525,8 +503,8 @@ function L70_1(A0_2, A1_2)
   L15_2 = L4_2
   L14_2 = L4_2.f7360ED03
   L14_2, L15_2, L16_2 = L14_2(L15_2)
-  L18_2 = A0_2
-  L17_2 = A0_2.F1F9EC60D43F4A9DB
+  L18_2 = self
+  L17_2 = self.F1F9EC60D43F4A9DB
   L19_2 = {}
   L20_2 = L14_2
   L21_2 = L15_2
@@ -545,7 +523,7 @@ function L70_1(A0_2, A1_2)
   L19_2 = L13_2[2]
   L20_2 = L10_1.select
   L21_2 = 2
-  L22_2 = A0_2[1]
+  L22_2 = self[1]
   L23_2 = L22_2
   L22_2 = L22_2.f7360ED03
   L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2 = L22_2(L23_2)
@@ -564,7 +542,7 @@ function L70_1(A0_2, A1_2)
   L23_2 = L17_2[2]
   L24_2 = L10_1.select
   L25_2 = 2
-  L26_2 = A0_2[1]
+  L26_2 = self[1]
   L27_2 = L26_2
   L26_2 = L26_2.f7360ED03
   L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2 = L26_2(L27_2)
@@ -664,11 +642,8 @@ function L70_1(A0_2, A1_2)
   return L34_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C153C9992771D25"]["prototype"]
-L69_1 = "F1F9EC60D43F4A9DB"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_point.getGroundPosition
+function C4C153C9992771D25_prototype:F1F9EC60D43F4A9DB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L2_2 = A1_2[1]
   L3_2 = A1_2[2]
@@ -720,71 +695,62 @@ function L70_1(A0_2, A1_2)
   return L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C153C9992771D25"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_point.Destroy
+function C4C153C9992771D25_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   if nil ~= L1_2 then
-    L1_2 = A0_2[6]
+    L1_2 = self[6]
     L2_2 = L1_2
     L1_2 = L1_2.FD0E3A0A9D4D7EF1E
     L3_2 = L55_1
-    L4_2 = A0_2
-    L5_2 = A0_2.F1C6B3E4A4F8D9670
+    L4_2 = self
+    L5_2 = self.F1C6B3E4A4F8D9670
     L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
     L1_2(L2_2, L3_2, L4_2, L5_2)
   end
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   if nil ~= L1_2 then
-    L1_2 = A0_2[7]
+    L1_2 = self[7]
     L2_2 = L1_2
     L1_2 = L1_2.FD0E3A0A9D4D7EF1E
     L3_2 = L55_1
-    L4_2 = A0_2
-    L5_2 = A0_2.F0845E9F679601767
+    L4_2 = self
+    L5_2 = self.F0845E9F679601767
     L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
     L1_2(L2_2, L3_2, L4_2, L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C153C9992771D25"]["prototype"]
-L69_1 = "F3B495767CB3B1EF2"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_point.hitDisable
+function C4C153C9992771D25_prototype:F3B495767CB3B1EF2()
   local L1_2, L2_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   if nil ~= L1_2 then
-    L1_2 = A0_2[6]
+    L1_2 = self[6]
     L2_2 = L1_2
     L1_2 = L1_2.FD59E5ED5F9F2AAE3
     L1_2(L2_2)
   end
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   if nil ~= L1_2 then
-    L1_2 = A0_2[7]
+    L1_2 = self[7]
     L2_2 = L1_2
     L1_2 = L1_2.FD59E5ED5F9F2AAE3
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C153C9992771D25"]["prototype"]
-L69_1 = "F1C6B3E4A4F8D9670"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_point.OnFlagLine
+function C4C153C9992771D25_prototype:F1C6B3E4A4F8D9670(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F3B495767CB3B1EF2
+  L3_2 = self
+  L2_2 = self.F3B495767CB3B1EF2
   L2_2(L3_2)
   L2_2 = C3FF6D1CD4C470E22
   L2_2 = L2_2.S6C886FC694510481
@@ -799,14 +765,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C153C9992771D25"]["prototype"]
-L69_1 = "F0845E9F679601767"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_point.OnPenaltyLine
+function C4C153C9992771D25_prototype:F0845E9F679601767(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F3B495767CB3B1EF2
+  L3_2 = self
+  L2_2 = self.F3B495767CB3B1EF2
   L2_2(L3_2)
   L2_2 = C3FF6D1CD4C470E22
   L2_2 = L2_2.S6C886FC694510481

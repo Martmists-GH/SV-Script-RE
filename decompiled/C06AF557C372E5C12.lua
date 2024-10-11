@@ -1,3 +1,5 @@
+---@class C06AF557C372E5C12 : C06AF557C372E5C12_prototype
+---@field prototype C06AF557C372E5C12_prototype
 L55_1 = _ENV
 L56_1 = "C06AF557C372E5C12"
 L57_1 = L15_1
@@ -60,26 +62,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C06AF557C372E5C12"]
 L69_1 = "__name__"
 L70_1 = "C06AF557C372E5C12"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C06AF557C372E5C12"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C06AF557C372E5C12"]["prototype"]
-L69_1 = "F28CF8A993D1AE74A"
-
-function L70_1(A0_2, A1_2)
+---@class C06AF557C372E5C12_prototype
+C06AF557C372E5C12_prototype = L15_1()
+C06AF557C372E5C12.prototype = C06AF557C372E5C12_prototype
+--- C06AF557C372E5C12.ProceedTransition
+function C06AF557C372E5C12_prototype:F28CF8A993D1AE74A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = A1_2 + 1
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2.length
   if L2_2 < L3_2 then
     L2_2 = A1_2 + 1
     return L2_2
   end
-  L2_2 = A0_2[2]
-  L3_2 = A0_2[2]
+  L2_2 = self[2]
+  L3_2 = self[2]
   L3_2 = L3_2.length
   L3_2 = L3_2 - 1
   L2_2 = L2_2[L3_2]
@@ -110,11 +107,11 @@ function L70_1(A0_2, A1_2)
   L7_2 = L3_2
   L6_2 = L6_2(L7_2)
   if nil ~= L6_2 then
-    L7_2 = A0_2[2]
+    L7_2 = self[2]
     L8_2 = L7_2
     L7_2 = L7_2.push
-    L10_2 = A0_2
-    L9_2 = A0_2.F6DF26D7A8F54052A
+    L10_2 = self
+    L9_2 = self.F6DF26D7A8F54052A
     L11_2 = L2_2.destination
     L12_2 = L2_2.destination
     L12_2 = L12_2[3]
@@ -125,58 +122,49 @@ function L70_1(A0_2, A1_2)
     L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L9_2(L10_2, L11_2, L12_2, L13_2, L14_2)
     L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
   end
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L7_2 = L7_2.length
   L7_2 = L7_2 - 1
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C06AF557C372E5C12"]["prototype"]
-L69_1 = "F5B59BC60C8A193E1"
-
-function L70_1(A0_2)
+--- C06AF557C372E5C12.ShiftTransitions
+function C06AF557C372E5C12_prototype:F5B59BC60C8A193E1()
   local L1_2, L2_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.shift
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C06AF557C372E5C12"]["prototype"]
-L69_1 = "F365D79DC5D3925C4"
-
-function L70_1(A0_2, A1_2)
+--- C06AF557C372E5C12.GetTransitionInfo
+function C06AF557C372E5C12_prototype:F365D79DC5D3925C4(A1_2)
   local L2_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2[A1_2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C06AF557C372E5C12"]["prototype"]
-L69_1 = "FAE4BFFF9A9778AC7"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- C06AF557C372E5C12.CalcPosition
+function C06AF557C372E5C12_prototype:FAE4BFFF9A9778AC7(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L4_2 = 0.0
   L5_2 = 0
   while A1_2 > L5_2 do
     L5_2 = L5_2 + 1
     L6_2 = _hx_wrap_if_string_field
-    L7_2 = A0_2[2]
+    L7_2 = self[2]
     L8_2 = L5_2 - 1
     L7_2 = L7_2[L8_2]
     L8_2 = "length"
     L6_2 = L6_2(L7_2, L8_2)
     L4_2 = L4_2 + L6_2
   end
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L6_2 = L6_2[A1_2]
   L6_2 = L6_2.origin
   L6_2 = L6_2[4]
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L7_2 = L7_2[A1_2]
   L7_2 = L7_2.normal
   L8_2 = c7A48E3FC
@@ -204,18 +192,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C06AF557C372E5C12"]["prototype"]
-L69_1 = "F6DF26D7A8F54052A"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C06AF557C372E5C12.createTransition
+function C06AF557C372E5C12_prototype:F6DF26D7A8F54052A(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   if A2_2 >= L3_2 then
     A2_2 = 0
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[A2_2]
   L4_2 = L3_2[4]
   L5_2 = A1_2[4]

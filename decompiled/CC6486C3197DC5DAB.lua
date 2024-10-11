@@ -1,3 +1,7 @@
+---@alias CC6486C3197DC5DAB main_ui_net_common_bgm_NetCommonUIBattleBGMSelectParts
+
+---@class main_ui_net_common_bgm_NetCommonUIBattleBGMSelectParts : CC6486C3197DC5DAB_prototype
+---@field prototype CC6486C3197DC5DAB_prototype
 L55_1 = _ENV
 L56_1 = "CC6486C3197DC5DAB"
 L57_1 = L15_1
@@ -92,23 +96,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC6486C3197DC5DAB"]
 L69_1 = "__name__"
 L70_1 = "CC6486C3197DC5DAB"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6486C3197DC5DAB"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6486C3197DC5DAB"]["prototype"]
-L69_1 = "FB83EECEDA8ABF247"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class CC6486C3197DC5DAB_prototype
+CC6486C3197DC5DAB_prototype = L15_1()
+CC6486C3197DC5DAB.prototype = CC6486C3197DC5DAB_prototype
+--- main.ui.net_common.bgm.NetCommonUIBattleBGMSelectParts.FB83EECEDA8ABF247
+function CC6486C3197DC5DAB_prototype:FB83EECEDA8ABF247(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  A0_2[7] = A1_2
-  A0_2[8] = false
-  A0_2[4] = 0
+  self[7] = A1_2
+  self[8] = false
+  self[4] = 0
   L3_2 = L26_1.new
   L3_2 = L3_2()
-  A0_2[9] = L3_2
+  self[9] = L3_2
   L3_2 = C9ECD4590F73F63B5
   L3_2 = L3_2.S544A4D0D04DA16F5
   L3_2 = L3_2()
@@ -128,32 +127,29 @@ function L70_1(A0_2, A1_2, A2_2)
     L9_2 = L9_2(L10_2, L11_2)
     if L9_2 then
       if L8_2 == L3_2 then
-        A0_2[4] = L4_2
+        self[4] = L4_2
       end
       L4_2 = L4_2 + 1
-      L9_2 = A0_2[9]
+      L9_2 = self[9]
       L10_2 = L9_2
       L9_2 = L9_2.push
       L11_2 = L8_2
       L9_2(L10_2, L11_2)
     end
   end
-  L9_2 = A0_2
-  L8_2 = A0_2.FA3FA35FA630BFF71
+  L9_2 = self
+  L8_2 = self.FA3FA35FA630BFF71
   L8_2(L9_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.F7CB673B4CD140C9B
+  L9_2 = self
+  L8_2 = self.F7CB673B4CD140C9B
   L8_2(L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6486C3197DC5DAB"]["prototype"]
-L69_1 = "FD3BAC7D18A52E2B3"
-
-function L70_1(A0_2)
+--- main.ui.net_common.bgm.NetCommonUIBattleBGMSelectParts.DecideNowBGM
+function CC6486C3197DC5DAB_prototype:FD3BAC7D18A52E2B3()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[9]
-  L2_2 = A0_2[4]
+  L1_2 = self[9]
+  L2_2 = self[4]
   L1_2 = L1_2[L2_2]
   L2_2 = C9ECD4590F73F63B5
   L2_2 = L2_2.SE34CB1581209D54C
@@ -170,8 +166,8 @@ function L70_1(A0_2)
   end
   L2_2 = C9ECD4590F73F63B5
   L2_2 = L2_2.S9B74270BBDBB2A54
-  L3_2 = A0_2[9]
-  L4_2 = A0_2[4]
+  L3_2 = self[9]
+  L4_2 = self[4]
   L3_2 = L3_2[L4_2]
   L2_2(L3_2)
   L2_2 = C9ECD4590F73F63B5
@@ -185,13 +181,10 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6486C3197DC5DAB"]["prototype"]
-L69_1 = "F2B8F4D1A92BBC209"
-
-function L70_1(A0_2)
+--- main.ui.net_common.bgm.NetCommonUIBattleBGMSelectParts.UpdateProcess
+function CC6486C3197DC5DAB_prototype:F2B8F4D1A92BBC209()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   if not L1_2 then
     return
   end
@@ -200,8 +193,8 @@ function L70_1(A0_2)
   L2_2 = "UI_LEFT"
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FAF6DB3219FE7054C
+    L2_2 = self
+    L1_2 = self.FAF6DB3219FE7054C
     L3_2 = -1
     L1_2(L2_2, L3_2)
   end
@@ -210,30 +203,24 @@ function L70_1(A0_2)
   L2_2 = "UI_RIGHT"
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FAF6DB3219FE7054C
+    L2_2 = self
+    L1_2 = self.FAF6DB3219FE7054C
     L3_2 = 1
     L1_2(L2_2, L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6486C3197DC5DAB"]["prototype"]
-L69_1 = "FB3189E9A352B2D04"
-
-function L70_1(A0_2, A1_2)
-  A0_2[8] = A1_2
+--- main.ui.net_common.bgm.NetCommonUIBattleBGMSelectParts.SetControl
+function CC6486C3197DC5DAB_prototype:FB3189E9A352B2D04(A1_2)
+  self[8] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6486C3197DC5DAB"]["prototype"]
-L69_1 = "FAF6DB3219FE7054C"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_common.bgm.NetCommonUIBattleBGMSelectParts.Scroll
+function CC6486C3197DC5DAB_prototype:FAF6DB3219FE7054C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2 + A1_2
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L3_2 = L3_2.length
   L3_2 = L3_2 - 1
   if L2_2 < 0 then
@@ -246,34 +233,31 @@ function L70_1(A0_2, A1_2)
     L4_2 = L2_2 - L3_2
     L2_2 = L4_2 - 1
   end
-  A0_2[4] = L2_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F816253593105FA8A
+  self[4] = L2_2
+  L5_2 = self
+  L4_2 = self.F816253593105FA8A
   L6_2 = A1_2
   L4_2(L5_2, L6_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F7CB673B4CD140C9B
+  L5_2 = self
+  L4_2 = self.F7CB673B4CD140C9B
   L4_2(L5_2)
-  L4_2 = A0_2.F5EBF31EB27E61442
+  L4_2 = self.F5EBF31EB27E61442
   if nil ~= L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F5EBF31EB27E61442
+    L5_2 = self
+    L4_2 = self.F5EBF31EB27E61442
     L6_2 = A1_2
     L4_2(L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6486C3197DC5DAB"]["prototype"]
-L69_1 = "F816253593105FA8A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_common.bgm.NetCommonUIBattleBGMSelectParts.ScrollAnimation
+function CC6486C3197DC5DAB_prototype:F816253593105FA8A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.fB4E9D030
-  L5_2 = A0_2
-  L4_2 = A0_2.F8D5FF231A1BA0D92
+  L5_2 = self
+  L4_2 = self.F8D5FF231A1BA0D92
   L6_2 = L31_1.string
   L7_2 = "L_switch_00/"
   L6_2 = L6_2(L7_2)
@@ -298,19 +282,16 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6486C3197DC5DAB"]["prototype"]
-L69_1 = "FA3FA35FA630BFF71"
-
-function L70_1(A0_2)
+--- main.ui.net_common.bgm.NetCommonUIBattleBGMSelectParts.PutInitialText
+function CC6486C3197DC5DAB_prototype:FA3FA35FA630BFF71()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.f316077B2
-  L2_2 = A0_2[6]
-  L4_2 = A0_2
-  L3_2 = A0_2.F8D5FF231A1BA0D92
-  L5_2 = A0_2[2]
-  L6_2 = A0_2[7]
+  L2_2 = self[6]
+  L4_2 = self
+  L3_2 = self.F8D5FF231A1BA0D92
+  L5_2 = self[2]
+  L6_2 = self[7]
   L5_2 = L5_2[L6_2]
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = c8C3BF576
@@ -321,19 +302,16 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6486C3197DC5DAB"]["prototype"]
-L69_1 = "F7CB673B4CD140C9B"
-
-function L70_1(A0_2)
+--- main.ui.net_common.bgm.NetCommonUIBattleBGMSelectParts.PutBGMText
+function CC6486C3197DC5DAB_prototype:F7CB673B4CD140C9B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.f316077B2
-  L2_2 = A0_2[6]
-  L4_2 = A0_2
-  L3_2 = A0_2.F8D5FF231A1BA0D92
-  L5_2 = A0_2[3]
-  L6_2 = A0_2[7]
+  L2_2 = self[6]
+  L4_2 = self
+  L3_2 = self.F8D5FF231A1BA0D92
+  L5_2 = self[3]
+  L6_2 = self[7]
   L5_2 = L5_2[L6_2]
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = c8C3BF576
@@ -341,8 +319,8 @@ function L70_1(A0_2)
   L5_2 = "btl_bgm_select"
   L6_2 = C9ECD4590F73F63B5
   L6_2 = L6_2.SE34CB1581209D54C
-  L7_2 = A0_2[9]
-  L8_2 = A0_2[4]
+  L7_2 = self[9]
+  L8_2 = self[4]
   L7_2 = L7_2[L8_2]
   L6_2 = L6_2(L7_2)
   L7_2 = L6_2
@@ -352,11 +330,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6486C3197DC5DAB"]["prototype"]
-L69_1 = "F8D5FF231A1BA0D92"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_common.bgm.NetCommonUIBattleBGMSelectParts.GetPaneName
+function CC6486C3197DC5DAB_prototype:F8D5FF231A1BA0D92(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = L31_1.string
   L3_2 = L31_1.string
@@ -364,8 +339,8 @@ function L70_1(A0_2, A1_2)
   L5_2 = ""
   L4_2 = L4_2(L5_2)
   L5_2 = L31_1.string
-  L6_2 = A0_2[1]
-  L7_2 = A0_2[7]
+  L6_2 = self[1]
+  L7_2 = self[7]
   L6_2 = L6_2[L7_2]
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2

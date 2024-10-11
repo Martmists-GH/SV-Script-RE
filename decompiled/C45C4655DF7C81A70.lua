@@ -1,3 +1,7 @@
+---@alias C45C4655DF7C81A70 main_field_gimmick_item_FieldItemManager
+
+---@class main_field_gimmick_item_FieldItemManager : C45C4655DF7C81A70_prototype
+---@field prototype C45C4655DF7C81A70_prototype
 L55_1 = _ENV
 L56_1 = "C45C4655DF7C81A70"
 L57_1 = L15_1
@@ -46,38 +50,30 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C45C4655DF7C81A70"]
 L69_1 = "__name__"
 L70_1 = "C45C4655DF7C81A70"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C45C4655DF7C81A70"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C45C4655DF7C81A70"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C45C4655DF7C81A70_prototype
+C45C4655DF7C81A70_prototype = L15_1()
+C45C4655DF7C81A70.prototype = C45C4655DF7C81A70_prototype
+--- main.field.gimmick.item.FieldItemManager.Setup
+function C45C4655DF7C81A70_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C45C4655DF7C81A70
-  L2_2.S264F26F6894F3392 = A0_2
+  L2_2.S264F26F6894F3392 = self
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f024ADB0D
   L4_2 = 4
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.fBE3B2D3B
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C45C4655DF7C81A70"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.item.FieldItemManager.PreUpdate
+function C45C4655DF7C81A70_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = A1_2
   L2_2 = A1_2.f22D509B2
@@ -86,8 +82,8 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.fC0E2CAD0
   L2_2 = L2_2(L3_2)
-  A0_2[3] = L2_2
-  L2_2 = A0_2[2]
+  self[3] = L2_2
+  L2_2 = self[2]
   L2_2 = L2_2.h
   while nil ~= L2_2 do
     L3_2 = L2_2.item
@@ -97,8 +93,8 @@ function L70_1(A0_2, A1_2)
     L5_2 = L3_2[1]
     L4_2 = L4_2(L5_2)
     if "dead" == L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.FE910337FBEB91D79
+      L5_2 = self
+      L4_2 = self.FE910337FBEB91D79
       L6_2 = L3_2
       L4_2(L5_2, L6_2)
     else
@@ -149,63 +145,54 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C45C4655DF7C81A70"]["prototype"]
-L69_1 = "FBF43AD7876B29A9C"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.item.FieldItemManager.addList
+function C45C4655DF7C81A70_prototype:FBF43AD7876B29A9C(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.isEmpty
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.f47BAE49D
     L2_2(L3_2)
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.add
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C45C4655DF7C81A70"]["prototype"]
-L69_1 = "FE910337FBEB91D79"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.item.FieldItemManager.removeList
+function C45C4655DF7C81A70_prototype:FE910337FBEB91D79(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.remove
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.isEmpty
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.fBE3B2D3B
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C45C4655DF7C81A70"]["prototype"]
-L69_1 = "F0E81DEA9BC0AA80D"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.item.FieldItemManager.FinishAsItem
+function C45C4655DF7C81A70_prototype:F0E81DEA9BC0AA80D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.new
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F27994F0560F7DAED
+  L4_2 = self
+  L5_2 = self.F27994F0560F7DAED
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = "finish_item"
   L2_2 = L2_2(L3_2, L4_2)
@@ -251,18 +238,15 @@ function L70_1(A0_2, A1_2)
     L6_2 = L6_2 .. L7_2
     L4_2(L5_2, L6_2)
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.FBF43AD7876B29A9C
+  L5_2 = self
+  L4_2 = self.FBF43AD7876B29A9C
   L6_2 = L2_2
   L4_2(L5_2, L6_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C45C4655DF7C81A70"]["prototype"]
-L69_1 = "F27994F0560F7DAED"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.item.FieldItemManager.procFinishItem
+function C45C4655DF7C81A70_prototype:F27994F0560F7DAED(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L3_2 = A1_2
   L2_2 = A1_2.fE9C29DA1
@@ -405,7 +389,7 @@ function L70_1(A0_2, A1_2)
     if L13_2 then
       break
     end
-    L15_2 = A0_2[3]
+    L15_2 = self[3]
     L9_2 = L9_2 - L15_2
     if L9_2 < 0 then
       break
@@ -425,11 +409,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C45C4655DF7C81A70"]["prototype"]
-L69_1 = "F12E56B4EA6B88211"
-
-function L70_1(A0_2)
+--- main.field.gimmick.item.FieldItemManager.F12E56B4EA6B88211
+function C45C4655DF7C81A70_prototype:F12E56B4EA6B88211()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -449,11 +430,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C45C4655DF7C81A70"]["prototype"]
-L69_1 = "F5ABF598A66C75276"
-
-function L70_1(A0_2)
+--- main.field.gimmick.item.FieldItemManager.F5ABF598A66C75276
+function C45C4655DF7C81A70_prototype:F5ABF598A66C75276()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D

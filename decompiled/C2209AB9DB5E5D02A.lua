@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C2209AB9DB5E5D02A"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C2209AB9DB5E5D02A"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2209AB9DB5E5D02A"]
-L69_1 = "__name__"
-L70_1 = "C2209AB9DB5E5D02A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2209AB9DB5E5D02A"]
-L69_1 = "S9993984D4131959B"
+---@alias C2209AB9DB5E5D02A main_ui_util_item_UIItemUtil
 
-function L70_1(A0_2)
+---@class main_ui_util_item_UIItemUtil
+C2209AB9DB5E5D02A = L15_1()
+C2209AB9DB5E5D02A.new = {}
+C2209AB9DB5E5D02A.__name__ = "C2209AB9DB5E5D02A"
+--- main.ui.util.item.UIItemUtil.S9993984D4131959B
+function C2209AB9DB5E5D02A.S9993984D4131959B(A0_2)
   local L1_2, L2_2
   L1_2 = c7D398445
   L1_2 = L1_2.f2FF10DBC
@@ -22,11 +13,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2209AB9DB5E5D02A"]
-L69_1 = "S5B9DEACF919A516B"
-
-function L70_1(A0_2)
+--- main.ui.util.item.UIItemUtil.S5B9DEACF919A516B
+function C2209AB9DB5E5D02A.S5B9DEACF919A516B(A0_2)
   local L1_2, L2_2
   L1_2 = c7D398445
   L1_2 = L1_2.fF50192E2
@@ -34,11 +22,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2209AB9DB5E5D02A"]
-L69_1 = "S74E7A1CCFFB8E442"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.item.UIItemUtil.SetUseWazaMachineFlag
+function C2209AB9DB5E5D02A.S74E7A1CCFFB8E442(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A0_2
   L2_2 = A0_2.fD07F632A
@@ -46,11 +31,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2209AB9DB5E5D02A"]
-L69_1 = "SEC30E3F008E05D8E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.item.UIItemUtil.GetUseWazaMachineFlag
+function C2209AB9DB5E5D02A.SEC30E3F008E05D8E(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A0_2
   L2_2 = A0_2.fF574E834

@@ -1,3 +1,7 @@
+---@alias C0E65202079DFE03E main_event_debug_DebugPlayerSpawn
+
+---@class main_event_debug_DebugPlayerSpawn : C0E65202079DFE03E_prototype
+---@field prototype C0E65202079DFE03E_prototype
 L55_1 = _ENV
 L56_1 = "C0E65202079DFE03E"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0E65202079DFE03E"]
 L69_1 = "__name__"
 L70_1 = "C0E65202079DFE03E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E65202079DFE03E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E65202079DFE03E"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C0E65202079DFE03E_prototype
+C0E65202079DFE03E_prototype = L15_1()
+C0E65202079DFE03E.prototype = C0E65202079DFE03E_prototype
+--- main.event.debug.DebugPlayerSpawn.mainBody
+function C0E65202079DFE03E_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D

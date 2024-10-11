@@ -1,3 +1,5 @@
+---@class C4B50D56AE516B6DB : C4B50D56AE516B6DB_prototype
+---@field prototype C4B50D56AE516B6DB_prototype
 L55_1 = _ENV
 L56_1 = "C4B50D56AE516B6DB"
 L57_1 = L15_1
@@ -38,42 +40,37 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4B50D56AE516B6DB"]
 L69_1 = "__name__"
 L70_1 = "C4B50D56AE516B6DB"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B50D56AE516B6DB"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B50D56AE516B6DB"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2, A1_2)
+---@class C4B50D56AE516B6DB_prototype
+C4B50D56AE516B6DB_prototype = L15_1()
+C4B50D56AE516B6DB.prototype = C4B50D56AE516B6DB_prototype
+--- C4B50D56AE516B6DB.Load
+function C4B50D56AE516B6DB_prototype:F6C5D0398122A6629(A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "ForwardDirFactor"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "BackwardDirFactor"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "BackwardTime"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "LeanFactor"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "UpwardDirFactor"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
 end
 
 L68_1[L69_1] = L70_1

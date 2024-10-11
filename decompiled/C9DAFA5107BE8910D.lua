@@ -1,3 +1,7 @@
+---@alias CE91C9B1B263A066D main_nushi_dragon_DragonNushiEscapePerformance
+
+---@class main_nushi_dragon_DragonNushiEscapePerformance : CE91C9B1B263A066D_prototype
+---@field prototype CE91C9B1B263A066D_prototype
 L55_1 = _ENV
 L56_1 = "C9DAFA5107BE8910D"
 L57_1 = L15_1
@@ -33,11 +37,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9DAFA5107BE8910D"]
 L69_1 = "__name__"
 L70_1 = "C9DAFA5107BE8910D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9DAFA5107BE8910D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CE91C9B1B263A066D_prototype
+CE91C9B1B263A066D_prototype = L15_1()
+CE91C9B1B263A066D.prototype = CE91C9B1B263A066D_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9DAFA5107BE8910D"]["prototype"]
 L69_1 = _ENV["C9DAFA5107BE8910D"]

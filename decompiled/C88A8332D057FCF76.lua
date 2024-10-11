@@ -1,3 +1,7 @@
+---@alias C88A8332D057FCF76 main_ui_btlspot_state_machine_common_BattleSpotStateCommonError
+
+---@class main_ui_btlspot_state_machine_common_BattleSpotStateCommonError : C88A8332D057FCF76_prototype
+---@field prototype C88A8332D057FCF76_prototype
 L55_1 = _ENV
 L56_1 = "C88A8332D057FCF76"
 L57_1 = L15_1
@@ -44,24 +48,16 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C88A8332D057FCF76"]
 L69_1 = "__name__"
 L70_1 = "C88A8332D057FCF76"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C88A8332D057FCF76"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C88A8332D057FCF76"]["prototype"]
-L69_1 = "F5BE3D38738EE3C24"
-
-function L70_1(A0_2)
+---@class C88A8332D057FCF76_prototype
+C88A8332D057FCF76_prototype = L15_1()
+C88A8332D057FCF76.prototype = C88A8332D057FCF76_prototype
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonError.OnEntry
+function C88A8332D057FCF76_prototype:F5BE3D38738EE3C24()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C88A8332D057FCF76"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonError.OnUpdate
+function C88A8332D057FCF76_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = 4
   L3_2 = CD950F4AD2C2702A1
@@ -94,14 +90,14 @@ function L70_1(A0_2, A1_2)
   L3_2 = CD950F4AD2C2702A1
   L3_2 = L3_2.S84E00A89DFBC380C
   L3_2()
-  L3_2 = A0_2.F321B0F927A3DE755
+  L3_2 = self.F321B0F927A3DE755
   if nil ~= L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F321B0F927A3DE755
+    L4_2 = self
+    L3_2 = self.F321B0F927A3DE755
     L3_2(L4_2)
   else
-    L4_2 = A0_2
-    L3_2 = A0_2.FD8ABEE5C76044721
+    L4_2 = self
+    L3_2 = self.FD8ABEE5C76044721
     L3_2 = L3_2(L4_2)
     L4_2 = L3_2
     L3_2 = L3_2.F2C02645014D5A2A5

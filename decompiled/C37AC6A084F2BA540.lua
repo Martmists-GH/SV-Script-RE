@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C37AC6A084F2BA540"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C37AC6A084F2BA540"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37AC6A084F2BA540"]
-L69_1 = "__name__"
-L70_1 = "C37AC6A084F2BA540"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37AC6A084F2BA540"]
-L69_1 = "S1982CECB2BB4A7F7"
+---@alias C37AC6A084F2BA540 main_event_command_DemoConditionCommand
 
-function L70_1()
+---@class main_event_command_DemoConditionCommand
+C37AC6A084F2BA540 = L15_1()
+C37AC6A084F2BA540.new = {}
+C37AC6A084F2BA540.__name__ = "C37AC6A084F2BA540"
+--- main.event.command.DemoConditionCommand.AutoCreateCondition
+function C37AC6A084F2BA540.S1982CECB2BB4A7F7()
   local L0_2, L1_2, L2_2
   L0_2 = _hx_tab_array
   L1_2 = {}
@@ -31,11 +22,8 @@ function L70_1()
   return L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37AC6A084F2BA540"]
-L69_1 = "SA5C0FFE0D5DD4717"
-
-function L70_1()
+--- main.event.command.DemoConditionCommand.CreateConditionGender
+function C37AC6A084F2BA540.SA5C0FFE0D5DD4717()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = C7EA0DEEC0E594FF0
   L0_2 = L0_2.new
@@ -57,11 +45,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37AC6A084F2BA540"]
-L69_1 = "S922ECFEC9DFC1F2A"
-
-function L70_1()
+--- main.event.command.DemoConditionCommand.CreateConditionVersion
+function C37AC6A084F2BA540.S922ECFEC9DFC1F2A()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = C7EA0DEEC0E594FF0
   L0_2 = L0_2.new
@@ -88,11 +73,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37AC6A084F2BA540"]
-L69_1 = "SDA68168CAC92FFBC"
-
-function L70_1()
+--- main.event.command.DemoConditionCommand.SDA68168CAC92FFBC
+function C37AC6A084F2BA540.SDA68168CAC92FFBC()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = C7EA0DEEC0E594FF0
   L0_2 = L0_2.new
@@ -130,11 +112,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37AC6A084F2BA540"]
-L69_1 = "S8ECB4C7043AAE62D"
-
-function L70_1()
+--- main.event.command.DemoConditionCommand.CreateConditionTimeZone
+function C37AC6A084F2BA540.S8ECB4C7043AAE62D()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = C7EA0DEEC0E594FF0
   L0_2 = L0_2.new
@@ -170,11 +149,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37AC6A084F2BA540"]
-L69_1 = "S4C69EB8A76D48A2E"
-
-function L70_1()
+--- main.event.command.DemoConditionCommand.CreateConditionWeather
+function C37AC6A084F2BA540.S4C69EB8A76D48A2E()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = C7EA0DEEC0E594FF0
   L0_2 = L0_2.new

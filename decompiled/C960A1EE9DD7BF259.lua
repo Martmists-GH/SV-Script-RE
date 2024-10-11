@@ -1,3 +1,7 @@
+---@alias C53C4062FD417098A main_ui_ymap_YMapAppGlobal
+
+---@class main_ui_ymap_YMapAppGlobal : C53C4062FD417098A_prototype
+---@field prototype C53C4062FD417098A_prototype
 L55_1 = _ENV
 L56_1 = "C960A1EE9DD7BF259"
 L57_1 = L15_1
@@ -43,11 +47,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C960A1EE9DD7BF259"]
 L69_1 = "__name__"
 L70_1 = "C960A1EE9DD7BF259"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C960A1EE9DD7BF259"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C53C4062FD417098A_prototype
+C53C4062FD417098A_prototype = L15_1()
+C53C4062FD417098A.prototype = C53C4062FD417098A_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C960A1EE9DD7BF259"]["prototype"]
 L69_1 = _ENV["C960A1EE9DD7BF259"]

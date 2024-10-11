@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CF016187D4D88CEB8"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CF016187D4D88CEB8"]
-L69_1 = "new"
+---@alias CF016187D4D88CEB8 main_event_base_manager_EventDemoDataManager
 
-function L70_1(A0_2)
+---@class main_event_base_manager_EventDemoDataManager : CF016187D4D88CEB8_prototype
+---@field prototype CF016187D4D88CEB8_prototype
+CF016187D4D88CEB8 = L15_1()
+function CF016187D4D88CEB8.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CF016187D4D88CEB8
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CF016187D4D88CEB8
+function CF016187D4D88CEB8.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -60,11 +54,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF016187D4D88CEB8"]
 L69_1 = "__name__"
 L70_1 = "CF016187D4D88CEB8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]
-L69_1 = "S7A774B3D710BEDC7"
-
-function L70_1()
+--- main.event.base.manager.EventDemoDataManager.PreloadIntroDemo
+function CF016187D4D88CEB8.S7A774B3D710BEDC7()
   local L0_2, L1_2
   L0_2 = CF016187D4D88CEB8
   L0_2 = L0_2.S389012C7D5C3A29A
@@ -72,11 +63,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]
-L69_1 = "S00C6C76FF97B0DE6"
-
-function L70_1()
+--- main.event.base.manager.EventDemoDataManager.S00C6C76FF97B0DE6
+function CF016187D4D88CEB8.S00C6C76FF97B0DE6()
   local L0_2, L1_2
   L0_2 = CF016187D4D88CEB8
   L0_2 = L0_2.S389012C7D5C3A29A
@@ -84,11 +72,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]
-L69_1 = "S389012C7D5C3A29A"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventDemoDataManager.LoadDemoScene
+function CF016187D4D88CEB8.S389012C7D5C3A29A(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF016187D4D88CEB8
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -102,11 +87,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]
-L69_1 = "SADA5425512FC39C7"
-
-function L70_1()
+--- main.event.base.manager.EventDemoDataManager.IsDemoSceneLoaded
+function CF016187D4D88CEB8.SADA5425512FC39C7()
   local L0_2, L1_2
   L0_2 = CF016187D4D88CEB8
   L0_2 = L0_2.SF3075AB31C9E8AF4
@@ -121,11 +103,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]
-L69_1 = "SD88BB51AEC88B719"
-
-function L70_1()
+--- main.event.base.manager.EventDemoDataManager.TerminateDemoScene
+function CF016187D4D88CEB8.SD88BB51AEC88B719()
   local L0_2, L1_2
   L0_2 = CF016187D4D88CEB8
   L0_2 = L0_2.SF3075AB31C9E8AF4
@@ -138,11 +117,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]
-L69_1 = "SAB44F5E5B8AD843D"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventDemoDataManager.OnDemoStart
+function CF016187D4D88CEB8.SAB44F5E5B8AD843D(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF016187D4D88CEB8
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -156,11 +132,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]
-L69_1 = "S350B3C0C78ECC204"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventDemoDataManager.OnDemoEnd
+function CF016187D4D88CEB8.S350B3C0C78ECC204(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF016187D4D88CEB8
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -174,11 +147,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]
-L69_1 = "S76DB22EEB362F78A"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventDemoDataManager.IsSkippable
+function CF016187D4D88CEB8.S76DB22EEB362F78A(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF016187D4D88CEB8
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -198,11 +168,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]
-L69_1 = "S47C9D284B9C3C3CE"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventDemoDataManager.GetBgmEventName
+function CF016187D4D88CEB8.S47C9D284B9C3C3CE(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF016187D4D88CEB8
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -222,28 +189,23 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CF016187D4D88CEB8_prototype
+CF016187D4D88CEB8_prototype = L15_1()
+CF016187D4D88CEB8.prototype = CF016187D4D88CEB8_prototype
+--- main.event.base.manager.EventDemoDataManager.Setup
+function CF016187D4D88CEB8_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = CF016187D4D88CEB8
-  L3_2.SF3075AB31C9E8AF4 = A0_2
-  L3_2 = A0_2[1]
+  L3_2.SF3075AB31C9E8AF4 = self
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f462C9B70
   L3_2 = L3_2(L4_2)
-  A0_2[2] = L3_2
+  self[2] = L3_2
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = C7F881F5D9B6F6009
   L4_2 = L4_2.SCA46E241273BD837
@@ -368,21 +330,18 @@ function L70_1(A0_2, A1_2)
   end
   
   L4_2(L5_2, L6_2, L7_2)
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.fCDCB600D
   L6_2 = true
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]["prototype"]
-L69_1 = "F1064C60AE584C95D"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventDemoDataManager.findDemoData
+function CF016187D4D88CEB8_prototype:F1064C60AE584C95D(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -399,14 +358,11 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]["prototype"]
-L69_1 = "F8541B11025385F1D"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventDemoDataManager.onDemoStart
+function CF016187D4D88CEB8_prototype:F8541B11025385F1D(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F1064C60AE584C95D
+  L3_2 = self
+  L2_2 = self.F1064C60AE584C95D
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if nil == L2_2 then
@@ -465,14 +421,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]["prototype"]
-L69_1 = "FBD26108EF71AEFE4"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventDemoDataManager.onDemoEnd
+function CF016187D4D88CEB8_prototype:FBD26108EF71AEFE4(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F1064C60AE584C95D
+  L3_2 = self
+  L2_2 = self.F1064C60AE584C95D
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if nil == L2_2 then
@@ -527,18 +480,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]["prototype"]
-L69_1 = "F7AB23C006FCE167A"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventDemoDataManager.loadDemoScene
+function CF016187D4D88CEB8_prototype:F7AB23C006FCE167A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.length
   if L2_2 > 0 then
     return
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f1FC07C91
   L4_2 = L31_1.string
@@ -567,14 +517,14 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
   L2_2 = L2_2(L3_2, L4_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.push
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
   if "d010" == A1_2 then
     L3_2 = 0
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     while true do
       L5_2 = L4_2.length
       if not (L3_2 < L5_2) then
@@ -582,7 +532,7 @@ function L70_1(A0_2, A1_2)
       end
       L5_2 = L4_2[L3_2]
       L3_2 = L3_2 + 1
-      L6_2 = A0_2[3]
+      L6_2 = self[3]
       L7_2 = L6_2
       L6_2 = L6_2.push
       L9_2 = L2_2
@@ -618,14 +568,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]["prototype"]
-L69_1 = "F0753C7C793DBCE67"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventDemoDataManager.isDemoSceneLoaded
+function CF016187D4D88CEB8_prototype:F0753C7C793DBCE67()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -652,14 +599,11 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF016187D4D88CEB8"]["prototype"]
-L69_1 = "F151A3657577E64F9"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventDemoDataManager.terminateDemoScene
+function CF016187D4D88CEB8_prototype:F151A3657577E64F9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -679,7 +623,7 @@ function L70_1(A0_2)
       L5_2(L6_2)
     end
   end
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.resize
   L5_2 = 0

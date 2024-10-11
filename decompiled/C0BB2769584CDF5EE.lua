@@ -1,11 +1,8 @@
-L55_1 = _ENV
-L56_1 = "C0BB2769584CDF5EE"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C0BB2769584CDF5EE"]
-L69_1 = "new"
-L70_1 = {}
+---@alias C0BB2769584CDF5EE main_field_contents_camera_ContentsCameraUtility
+
+---@class main_field_contents_camera_ContentsCameraUtility
+C0BB2769584CDF5EE = L15_1()
+C0BB2769584CDF5EE.new = {}
 L68_1[L69_1] = L70_1
 L68_1 = "C0BB2769584CDF5EE"
 L69_1 = _ENV["C0BB2769584CDF5EE"]
@@ -13,11 +10,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C0BB2769584CDF5EE"]
 L69_1 = "__name__"
 L70_1 = "C0BB2769584CDF5EE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BB2769584CDF5EE"]
-L69_1 = "S71284FC546EAB28F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.field.contents.camera.ContentsCameraUtility.CalcScreenToWorld
+function C0BB2769584CDF5EE.S71284FC546EAB28F(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2
   L5_2 = cCE8E2D0A
   L5_2 = L5_2.f0151A26E
@@ -118,11 +112,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L38_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BB2769584CDF5EE"]
-L69_1 = "SD79F00DEB5032D7D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.field.contents.camera.ContentsCameraUtility.CalcWorldToScreen
+function C0BB2769584CDF5EE.SD79F00DEB5032D7D(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   L4_2 = cCE8E2D0A
   L4_2 = L4_2.f0151A26E
@@ -187,11 +178,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L22_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BB2769584CDF5EE"]
-L69_1 = "S1C88E0DAE5E1E973"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.camera.ContentsCameraUtility.ConvertUiToScreen
+function C0BB2769584CDF5EE.S1C88E0DAE5E1E973(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = {}
   L3_2 = A1_2[1]
@@ -207,11 +195,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BB2769584CDF5EE"]
-L69_1 = "S2679403848D5049B"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.camera.ContentsCameraUtility.ConvertScreenToUi
+function C0BB2769584CDF5EE.S2679403848D5049B(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = {}
   L3_2 = A0_2[1]

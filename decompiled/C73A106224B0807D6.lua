@@ -1,3 +1,7 @@
+---@alias C73A106224B0807D6 main_ui_ymap_overall_YMapOverallControl
+
+---@class main_ui_ymap_overall_YMapOverallControl : C73A106224B0807D6_prototype
+---@field prototype C73A106224B0807D6_prototype
 L55_1 = _ENV
 L56_1 = "C73A106224B0807D6"
 L57_1 = L15_1
@@ -36,19 +40,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C73A106224B0807D6"]
 L69_1 = "__name__"
 L70_1 = "C73A106224B0807D6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C73A106224B0807D6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C73A106224B0807D6"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
-  A0_2[1] = A1_2
-  A0_2[2] = A2_2
-  A0_2[3] = A3_2
+---@class C73A106224B0807D6_prototype
+C73A106224B0807D6_prototype = L15_1()
+C73A106224B0807D6.prototype = C73A106224B0807D6_prototype
+--- main.ui.ymap_overall.YMapOverallControl.Setup
+function C73A106224B0807D6_prototype:F7C68FEDB79AB6396(A1_2, A2_2, A3_2)
+  self[1] = A1_2
+  self[2] = A2_2
+  self[3] = A3_2
 end
 
 L68_1[L69_1] = L70_1

@@ -1,3 +1,7 @@
+---@alias C6DEFF8F3EA29115C main_field_action_ActionPicnicStart
+
+---@class main_field_action_ActionPicnicStart : C6DEFF8F3EA29115C_prototype
+---@field prototype C6DEFF8F3EA29115C_prototype
 L55_1 = _ENV
 L56_1 = "C6DEFF8F3EA29115C"
 L57_1 = L15_1
@@ -45,26 +49,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6DEFF8F3EA29115C"]
 L69_1 = "__name__"
 L70_1 = "C6DEFF8F3EA29115C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DEFF8F3EA29115C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DEFF8F3EA29115C"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C6DEFF8F3EA29115C_prototype
+C6DEFF8F3EA29115C_prototype = L15_1()
+C6DEFF8F3EA29115C.prototype = C6DEFF8F3EA29115C_prototype
+--- main.field.action.ActionPicnicStart.onCreate
+function C6DEFF8F3EA29115C_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2.useCoroutine = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DEFF8F3EA29115C"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPicnicStart.onPreUpdate
+function C6DEFF8F3EA29115C_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S8DB58249AC006158
@@ -156,12 +152,12 @@ function L70_1(A0_2)
     L11_2 = true
     L8_2(L9_2, L10_2, L11_2)
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.FD1294B621C504526
+  L8_2 = self
+  L7_2 = self.FD1294B621C504526
   L7_2(L8_2)
   while true do
-    L8_2 = A0_2
-    L7_2 = A0_2.F743652AF912C3101
+    L8_2 = self
+    L7_2 = self.F743652AF912C3101
     L7_2 = L7_2(L8_2)
     if not L7_2 then
       break
@@ -300,12 +296,12 @@ function L70_1(A0_2)
     L17_2 = false
     L14_2(L15_2, L16_2, L17_2)
   end
-  L14_2 = A0_2
-  L13_2 = A0_2.FD1294B621C504526
+  L14_2 = self
+  L13_2 = self.FD1294B621C504526
   L13_2(L14_2)
   while true do
-    L14_2 = A0_2
-    L13_2 = A0_2.F743652AF912C3101
+    L14_2 = self
+    L13_2 = self.F743652AF912C3101
     L13_2 = L13_2(L14_2)
     if not L13_2 then
       break
@@ -349,7 +345,7 @@ function L70_1(A0_2)
         L17_2 = L17_2(L18_2)
         L18_2 = 0.4
         if L17_2 >= L18_2 then
-          L17_2 = A0_2[18]
+          L17_2 = self[18]
           if not L17_2 then
             L17_2 = CB4E56E9599A85891
             L17_2 = L17_2.S0B3F69C4549A0284
@@ -381,7 +377,7 @@ function L70_1(A0_2)
             L22_2[2] = L24_2
             L22_2[3] = L25_2
             L20_2(L21_2, L22_2)
-            A0_2[18] = true
+            self[18] = true
           end
         end
       end
@@ -402,27 +398,21 @@ function L70_1(A0_2)
   return L13_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DEFF8F3EA29115C"]["prototype"]
-L69_1 = "FD1294B621C504526"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPicnicStart.StartInsuranceTimer
+function C6DEFF8F3EA29115C_prototype:FD1294B621C504526()
   local L1_2
-  A0_2[17] = 0.0
+  self[17] = 0.0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DEFF8F3EA29115C"]["prototype"]
-L69_1 = "F743652AF912C3101"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPicnicStart.CheckInsurance
+function C6DEFF8F3EA29115C_prototype:F743652AF912C3101()
   local L1_2, L2_2
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L2_2 = C075A638F130352C3
   L2_2 = L2_2.S44460EB93267F798
   L1_2 = L1_2 + L2_2
-  A0_2[17] = L1_2
-  L1_2 = A0_2[17]
+  self[17] = L1_2
+  L1_2 = self[17]
   L2_2 = C6DEFF8F3EA29115C
   L2_2 = L2_2.SBBBB91F07FB00A57
   if L1_2 > L2_2 then

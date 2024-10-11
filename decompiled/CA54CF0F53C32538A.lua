@@ -1,3 +1,7 @@
+---@alias CA54CF0F53C32538A main_event_debug_DebugHoshiMitsuhiko
+
+---@class main_event_debug_DebugHoshiMitsuhiko : CA54CF0F53C32538A_prototype
+---@field prototype CA54CF0F53C32538A_prototype
 L55_1 = _ENV
 L56_1 = "CA54CF0F53C32538A"
 L57_1 = L15_1
@@ -45,29 +49,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA54CF0F53C32538A"]
 L69_1 = "__name__"
 L70_1 = "CA54CF0F53C32538A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA54CF0F53C32538A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA54CF0F53C32538A"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class CA54CF0F53C32538A_prototype
+CA54CF0F53C32538A_prototype = L15_1()
+CA54CF0F53C32538A.prototype = CA54CF0F53C32538A_prototype
+--- main.event.debug.DebugHoshiMitsuhiko.preStart
+function CA54CF0F53C32538A_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F92BA869F22AE5BC6
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA54CF0F53C32538A"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugHoshiMitsuhiko.mainBody
+function CA54CF0F53C32538A_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   
@@ -76,7 +72,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -84,7 +80,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C78017F7866CD039D"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C78017F7866CD039D"]
-L69_1 = "new"
+---@alias C78017F7866CD039D main_management_light_FaceLightManager
 
-function L70_1(A0_2)
+---@class main_management_light_FaceLightManager : C78017F7866CD039D_prototype
+---@field prototype C78017F7866CD039D_prototype
+C78017F7866CD039D = L15_1()
+function C78017F7866CD039D.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C78017F7866CD039D
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78017F7866CD039D"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C78017F7866CD039D
+function C78017F7866CD039D.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -48,11 +42,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C78017F7866CD039D"]
 L69_1 = "__name__"
 L70_1 = "C78017F7866CD039D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78017F7866CD039D"]
-L69_1 = "S8215278AD88C3507"
-
-function L70_1(A0_2)
+--- main.management.light.FaceLightManager.CreateAttachFaceLight
+function C78017F7866CD039D.S8215278AD88C3507(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C78017F7866CD039D
   L1_2 = L1_2.SC8223E31D3163519
@@ -62,11 +53,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78017F7866CD039D"]
-L69_1 = "S26400213674197A0"
-
-function L70_1(A0_2)
+--- main.management.light.FaceLightManager.DestroyFaceLight
+function C78017F7866CD039D.S26400213674197A0(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C78017F7866CD039D
   L1_2 = L1_2.SC8223E31D3163519
@@ -76,11 +64,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78017F7866CD039D"]
-L69_1 = "SCCB623162115DC19"
-
-function L70_1()
+--- main.management.light.FaceLightManager.AllDestroyFaceLight
+function C78017F7866CD039D.SCCB623162115DC19()
   local L0_2, L1_2
   L0_2 = C78017F7866CD039D
   L0_2 = L0_2.SC8223E31D3163519
@@ -89,23 +74,15 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78017F7866CD039D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78017F7866CD039D"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C78017F7866CD039D_prototype
+C78017F7866CD039D_prototype = L15_1()
+C78017F7866CD039D.prototype = C78017F7866CD039D_prototype
+--- main.management.light.FaceLightManager.Setup
+function C78017F7866CD039D_prototype:F7C68FEDB79AB6396(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78017F7866CD039D"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.management.light.FaceLightManager.PreUpdate
+function C78017F7866CD039D_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C78017F7866CD039D
   L2_2 = L2_2.SC8223E31D3163519
@@ -117,11 +94,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78017F7866CD039D"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.management.light.FaceLightManager.Destroy
+function C78017F7866CD039D_prototype:F1C2AA00ADAC52EC5()
   local L1_2
   L1_2 = C78017F7866CD039D
   L1_2 = L1_2.SC8223E31D3163519

@@ -1,3 +1,7 @@
+---@alias C121F46C91B85C1DB main_event_command_RotomGuideCommand
+
+---@class main_event_command_RotomGuideCommand : C121F46C91B85C1DB_prototype
+---@field prototype C121F46C91B85C1DB_prototype
 L55_1 = _ENV
 L56_1 = "C86905CA3CCEBABFA"
 L57_1 = L15_1
@@ -42,11 +46,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C86905CA3CCEBABFA"]
 L69_1 = "__name__"
 L70_1 = "C86905CA3CCEBABFA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86905CA3CCEBABFA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C121F46C91B85C1DB_prototype
+C121F46C91B85C1DB_prototype = L15_1()
+C121F46C91B85C1DB.prototype = C121F46C91B85C1DB_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C86905CA3CCEBABFA"]["prototype"]
 L69_1 = _ENV["C86905CA3CCEBABFA"]

@@ -1,3 +1,7 @@
+---@alias CF984617BF8F065CF main_ui_pokelist_pokelist_state_machine_pokelist_battle_type_PokelistOpenBattleTypeState
+
+---@class main_ui_pokelist_pokelist_state_machine_pokelist_battle_type_PokelistOpenBattleTypeState : CF984617BF8F065CF_prototype
+---@field prototype CF984617BF8F065CF_prototype
 L55_1 = _ENV
 L56_1 = "CF984617BF8F065CF"
 L57_1 = L15_1
@@ -46,31 +50,26 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF984617BF8F065CF"]
 L69_1 = "__name__"
 L70_1 = "CF984617BF8F065CF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF984617BF8F065CF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF984617BF8F065CF"]["prototype"]
-L69_1 = "F46013EC08BDF7153"
-
-function L70_1(A0_2)
+---@class CF984617BF8F065CF_prototype
+CF984617BF8F065CF_prototype = L15_1()
+CF984617BF8F065CF.prototype = CF984617BF8F065CF_prototype
+--- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistOpenBattleTypeState.Entry
+function CF984617BF8F065CF_prototype:F46013EC08BDF7153()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F51F4D8E6BF1D6282
+  L2_2 = self
+  L1_2 = self.F51F4D8E6BF1D6282
   L1_2(L2_2)
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F9B182DC9C7A846DA
+  L3_2 = self
+  L4_2 = self.F9B182DC9C7A846DA
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "PokeListOpenBattleTypeProcCoroutine"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[6] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F39AE59A72D8F60EB
+  self[6] = L1_2
+  L2_2 = self
+  L1_2 = self.F39AE59A72D8F60EB
   L1_2 = L1_2(L2_2)
   if L1_2 then
     L1_2 = CF1D9D619D324F233
@@ -92,53 +91,47 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF984617BF8F065CF"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistOpenBattleTypeState.Update
+function CF984617BF8F065CF_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2
   L1_2 = C36A5513B438B1EC7
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FEB6685558281F194
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   if L1_2 then
     return
   end
   L1_2 = L10_1.coroutine
   L1_2 = L1_2.status
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2[1]
   L1_2 = L1_2(L2_2)
   if "dead" ~= L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.FA537B912371145DC
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L1_2(L2_2, L3_2)
   else
-    A0_2[7] = true
+    self[7] = true
   end
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.F41A325C761DA3367
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF984617BF8F065CF"]["prototype"]
-L69_1 = "F2C02645014D5A2A5"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistOpenBattleTypeState.Exit
+function CF984617BF8F065CF_prototype:F2C02645014D5A2A5()
   local L1_2, L2_2
   L1_2 = C36A5513B438B1EC7
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F2C02645014D5A2A5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.F5DB517C9E369D7A6
   L1_2(L2_2)
@@ -147,28 +140,25 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF984617BF8F065CF"]["prototype"]
-L69_1 = "F51F4D8E6BF1D6282"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistOpenBattleTypeState.SetupVariable
+function CF984617BF8F065CF_prototype:F51F4D8E6BF1D6282()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = CA7B7EE572282ACBA
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
   L3_2 = L2_2
   L2_2 = L2_2.FFEA9094A5E4944C3
   L2_2 = L2_2(L3_2)
-  A0_2[9] = L2_2
+  self[9] = L2_2
   L2_2 = CC31A25AF0A315E23
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
   L3_2 = L2_2
   L2_2 = L2_2.FFBA610A3759B94AA
   L2_2 = L2_2(L3_2)
-  A0_2[10] = L2_2
-  L2_2 = A0_2[8]
+  self[10] = L2_2
+  L2_2 = self[8]
   
   function L3_2()
     local L0_3, L1_3, L2_3, L3_3
@@ -236,7 +226,7 @@ function L70_1(A0_2)
     L4_2 = L2_2.h
     L4_2.pokeswap = L3_2
   end
-  L4_2 = A0_2[8]
+  L4_2 = self[8]
   
   function L5_2()
     local L0_3, L1_3, L2_3
@@ -263,7 +253,7 @@ function L70_1(A0_2)
     L6_2 = L4_2.h
     L6_2.status = L5_2
   end
-  L6_2 = A0_2[8]
+  L6_2 = self[8]
   
   function L7_2()
     local L0_3, L1_3, L2_3, L3_3
@@ -293,7 +283,7 @@ function L70_1(A0_2)
     L8_2 = L6_2.h
     L8_2.recovery = L7_2
   end
-  L8_2 = A0_2[8]
+  L8_2 = self[8]
   
   function L9_2()
     local L0_3, L1_3
@@ -316,14 +306,11 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF984617BF8F065CF"]["prototype"]
-L69_1 = "F9B182DC9C7A846DA"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistOpenBattleTypeState.Process
+function CF984617BF8F065CF_prototype:F9B182DC9C7A846DA()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   while true do
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.F4B14418238E3E740
     L1_2 = L1_2(L2_2)
@@ -343,28 +330,28 @@ function L70_1(A0_2)
   L1_2 = L1_2.S760DAE4C5371A78E
   L1_2()
   while true do
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.FAD0070D590ADE9E4
     L1_2 = L1_2(L2_2)
     if -1 == L1_2 then
-      L1_2 = A0_2[10]
+      L1_2 = self[10]
       L2_2 = L1_2
       L1_2 = L1_2.F64B6970A54423631
       L1_2 = L1_2(L2_2)
       if L1_2 >= 0 then
-        L1_2 = A0_2[2]
+        L1_2 = self[2]
         L2_2 = L1_2
         L1_2 = L1_2.F0168E0005910798F
         L1_2(L2_2)
       end
-      L1_2 = A0_2[10]
+      L1_2 = self[10]
       L2_2 = L1_2
       L1_2 = L1_2.F662618219342164B
       L1_2 = L1_2(L2_2)
       if L1_2 then
-        L2_2 = A0_2
-        L1_2 = A0_2.F39AE59A72D8F60EB
+        L2_2 = self
+        L1_2 = self.F39AE59A72D8F60EB
         L1_2 = L1_2(L2_2)
         if L1_2 then
           L1_2 = CC31A25AF0A315E23
@@ -374,7 +361,7 @@ function L70_1(A0_2)
           L1_2 = L1_2.FCC411B4F00BA82E7
           L1_2 = L1_2(L2_2)
           L2_2 = nil
-          L3_2 = A0_2[9]
+          L3_2 = self[9]
           if 2 == L3_2 then
             L4_2 = L1_2
             L3_2 = L1_2.fCDDC93CA
@@ -406,7 +393,7 @@ function L70_1(A0_2)
             L4_2 = L1_2
             L3_2 = L1_2.f5A6334AC
             L3_2(L4_2)
-            L3_2 = A0_2[10]
+            L3_2 = self[10]
             L4_2 = L3_2
             L3_2 = L3_2.FC54B2D35FE8BB615
             L3_2(L4_2)
@@ -418,8 +405,8 @@ function L70_1(A0_2)
             L5_2 = "PLAY_UI_COMMON_CANCEL"
             L3_2(L4_2, L5_2)
           else
-            L4_2 = A0_2
-            L3_2 = A0_2.F4203380C8E51D6DB
+            L4_2 = self
+            L3_2 = self.F4203380C8E51D6DB
             L3_2(L4_2)
             return
           end
@@ -429,24 +416,24 @@ function L70_1(A0_2)
       L1_2 = L1_2.S760DAE4C5371A78E
       L1_2()
     else
-      L1_2 = A0_2[2]
+      L1_2 = self[2]
       L2_2 = L1_2
       L1_2 = L1_2.FB9FD49F46CCCFB04
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.FAD0070D590ADE9E4
       L3_2, L4_2, L5_2 = L3_2(L4_2)
       L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2)
       if L1_2 then
-        L1_2 = A0_2[10]
+        L1_2 = self[10]
         L2_2 = L1_2
         L1_2 = L1_2.F8779E895B815CD2E
         L1_2(L2_2)
         L1_2 = CAE7365C5FB539CB6
         L1_2 = L1_2.S4FAFEA784668D159
         L2_2 = L55_1
-        L3_2 = A0_2[10]
-        L4_2 = A0_2[10]
+        L3_2 = self[10]
+        L4_2 = self[10]
         L4_2 = L4_2.F863127858BFA107C
         L2_2, L3_2, L4_2, L5_2 = L2_2(L3_2, L4_2)
         L1_2(L2_2, L3_2, L4_2, L5_2)
@@ -462,8 +449,8 @@ function L70_1(A0_2)
           L1_2()
         end
       else
-        L2_2 = A0_2
-        L1_2 = A0_2.FD4E4CD507DCFDD8C
+        L2_2 = self
+        L1_2 = self.FD4E4CD507DCFDD8C
         L1_2(L2_2)
         while true do
           L1_2 = CF1D9D619D324F233
@@ -483,7 +470,7 @@ function L70_1(A0_2)
         L1_2 = L1_2.f10214888
         L3_2 = "SET_STATE_CONTEXT_MENU_OUT"
         L1_2(L2_2, L3_2)
-        L1_2 = A0_2[8]
+        L1_2 = self[8]
         L2_2 = CF1D9D619D324F233
         L2_2 = L2_2.S036FE38553339EEE
         L2_2 = L2_2()
@@ -500,7 +487,7 @@ function L70_1(A0_2)
         end
       end
       while true do
-        L1_2 = A0_2[2]
+        L1_2 = self[2]
         L2_2 = L1_2
         L1_2 = L1_2.FAD0070D590ADE9E4
         L1_2 = L1_2(L2_2)
@@ -515,11 +502,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF984617BF8F065CF"]["prototype"]
-L69_1 = "FD4E4CD507DCFDD8C"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistOpenBattleTypeState.DisplayContext
+function CF984617BF8F065CF_prototype:FD4E4CD507DCFDD8C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CC31A25AF0A315E23
   L1_2 = L1_2.S385504EFF7E842C3
@@ -546,7 +530,7 @@ function L70_1(A0_2)
   L5_2, L6_2, L7_2 = L5_2(L6_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
   if not L3_2 then
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     if 3 == L3_2 then
       L3_2 = CF1D9D619D324F233
       L3_2 = L3_2.S56418036C3B7BCD7
@@ -578,8 +562,8 @@ function L70_1(A0_2)
   L7_2 = "msg_ui_pokelist_Choice_00"
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F4258D255B01D87A6
+  L4_2 = self
+  L3_2 = self.F4258D255B01D87A6
   L3_2 = L3_2(L4_2)
   if L3_2 then
     L3_2 = CF1D9D619D324F233
@@ -607,11 +591,8 @@ function L70_1(A0_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF984617BF8F065CF"]["prototype"]
-L69_1 = "F4203380C8E51D6DB"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistOpenBattleTypeState.CancelSelect
+function CF984617BF8F065CF_prototype:F4203380C8E51D6DB()
   local L1_2, L2_2, L3_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S44577E0D8E8F3819
@@ -632,11 +613,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF984617BF8F065CF"]["prototype"]
-L69_1 = "F4258D255B01D87A6"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistOpenBattleTypeState.IsDispRecovery
+function CF984617BF8F065CF_prototype:F4258D255B01D87A6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CC31A25AF0A315E23
   L1_2 = L1_2.S385504EFF7E842C3
@@ -654,11 +632,11 @@ function L70_1(A0_2)
       return L2_2
     end
   end
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   if 1 ~= L2_2 then
-    L2_2 = A0_2[9]
+    L2_2 = self[9]
     if 2 ~= L2_2 then
-      L2_2 = A0_2[9]
+      L2_2 = self[9]
       if 3 ~= L2_2 then
         goto lbl_26
       end
@@ -691,18 +669,15 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF984617BF8F065CF"]["prototype"]
-L69_1 = "F39AE59A72D8F60EB"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistOpenBattleTypeState.IsCanCancel
+function CF984617BF8F065CF_prototype:F39AE59A72D8F60EB()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   if 0 == L1_2 then
     L1_2 = true
     return L1_2
   end
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   if 1 == L1_2 then
     L1_2 = CA7B7EE572282ACBA
     L1_2 = L1_2.S385504EFF7E842C3
@@ -711,7 +686,7 @@ function L70_1(A0_2)
     L1_2 = L1_2.FC6C84313FC14047C
     return L1_2(L2_2)
   end
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   if 2 == L1_2 then
     L1_2 = CC31A25AF0A315E23
     L1_2 = L1_2.S385504EFF7E842C3

@@ -1,3 +1,5 @@
+---@class CBE5A44BE0F338139 : CBE5A44BE0F338139_prototype
+---@field prototype CBE5A44BE0F338139_prototype
 L55_1 = _ENV
 L56_1 = "CBE5A44BE0F338139"
 L57_1 = L15_1
@@ -45,47 +47,39 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CBE5A44BE0F338139"]
 L69_1 = "__name__"
 L70_1 = "CBE5A44BE0F338139"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBE5A44BE0F338139"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBE5A44BE0F338139"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class CBE5A44BE0F338139_prototype
+CBE5A44BE0F338139_prototype = L15_1()
+CBE5A44BE0F338139.prototype = CBE5A44BE0F338139_prototype
+--- CBE5A44BE0F338139.preStart
+function CBE5A44BE0F338139_prototype:F92BA869F22AE5BC6()
   local L1_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.playerLook
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2.playerLook = true
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.targetLook
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2.targetLook = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBE5A44BE0F338139"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- CBE5A44BE0F338139.mainBody
+function CBE5A44BE0F338139_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.textFileName
   if nil ~= L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.textFileName
     if "" ~= L1_2 then
       goto lbl_16
     end
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.S42D538F22DFC8E48
   L3_2 = CBE5A44BE0F338139
@@ -98,7 +92,7 @@ function L70_1(A0_2)
   L3_2 = "message/dat/JPN/script/"
   L2_2 = L2_2(L3_2)
   L3_2 = L31_1.string
-  L4_2 = A0_2[32]
+  L4_2 = self[32]
   L4_2 = L4_2.textFileName
   L3_2 = L3_2(L4_2)
   L2_2 = L2_2 .. L3_2
@@ -113,15 +107,15 @@ function L70_1(A0_2)
   L2_2(L3_2)
   L2_2 = C36BDEFD8FA8C0336
   L2_2 = L2_2.SA70D8F5F7D339389
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.targetName
-  L4_2 = A0_2[32]
+  L4_2 = self[32]
   L4_2 = L4_2.labelName
-  L5_2 = A0_2[32]
+  L5_2 = self[32]
   L5_2 = L5_2.textFileName
-  L6_2 = A0_2[32]
+  L6_2 = self[32]
   L6_2 = L6_2.playerLook
-  L7_2 = A0_2[32]
+  L7_2 = self[32]
   L7_2 = L7_2.targetLook
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
   L2_2 = C9B54BC04DD492B6D

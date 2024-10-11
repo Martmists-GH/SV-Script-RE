@@ -1,3 +1,7 @@
+---@alias C7B027B11B33E9DEA main_field_behaviour_scenario_main_champion_gym_esper_Gym_esper_reward
+
+---@class main_field_behaviour_scenario_main_champion_gym_esper_Gym_esper_reward : C7B027B11B33E9DEA_prototype
+---@field prototype C7B027B11B33E9DEA_prototype
 L55_1 = _ENV
 L56_1 = "C7B027B11B33E9DEA"
 L57_1 = L15_1
@@ -42,41 +46,30 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C7B027B11B33E9DEA"]
 L69_1 = "__name__"
 L70_1 = "C7B027B11B33E9DEA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7B027B11B33E9DEA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7B027B11B33E9DEA"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C7B027B11B33E9DEA_prototype
+C7B027B11B33E9DEA_prototype = L15_1()
+C7B027B11B33E9DEA.prototype = C7B027B11B33E9DEA_prototype
+--- main.field.behaviour.scenario.main.champion.gym.esper.Gym_esper_reward.Setup
+function C7B027B11B33E9DEA_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F2ECF4DC04C01ADD3
+  L3_2 = self
+  L2_2 = self.F2ECF4DC04C01ADD3
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7B027B11B33E9DEA"]["prototype"]
-L69_1 = "F2ECF4DC04C01ADD3"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.esper.Gym_esper_reward.loadDataTable
+function C7B027B11B33E9DEA_prototype:F2ECF4DC04C01ADD3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7B027B11B33E9DEA"]["prototype"]
-L69_1 = "F83C2222849E01B7C"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.esper.Gym_esper_reward.getFixedRewardData
+function C7B027B11B33E9DEA_prototype:F83C2222849E01B7C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = A1_2
   L2_2 = A1_2.f08C48539
@@ -101,11 +94,8 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7B027B11B33E9DEA"]["prototype"]
-L69_1 = "F260E1FB2F4D09649"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.esper.Gym_esper_reward.getRewardsData
+function C7B027B11B33E9DEA_prototype:F260E1FB2F4D09649(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L3_2 = A1_2
   L2_2 = A1_2.f88DE0826

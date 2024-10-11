@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C2633CF9260C5FBEB"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C2633CF9260C5FBEB"]
-L69_1 = "new"
+---@alias C2633CF9260C5FBEB main_ui_hud_item_get_SceneHudItemGetManager
 
-function L70_1(A0_2)
+---@class main_ui_hud_item_get_SceneHudItemGetManager : C2633CF9260C5FBEB_prototype
+---@field prototype C2633CF9260C5FBEB_prototype
+C2633CF9260C5FBEB = L15_1()
+function C2633CF9260C5FBEB.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C2633CF9260C5FBEB
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2633CF9260C5FBEB"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C2633CF9260C5FBEB
+function C2633CF9260C5FBEB.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   A0_2[9] = 0
   A0_2[8] = 0
@@ -67,11 +61,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C2633CF9260C5FBEB"]
 L69_1 = "__name__"
 L70_1 = "C2633CF9260C5FBEB"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2633CF9260C5FBEB"]
-L69_1 = "S1ED23F9E73CB76AB"
-
-function L70_1()
+--- main.ui.hud_item_get.SceneHudItemGetManager.GetPushlength
+function C2633CF9260C5FBEB.S1ED23F9E73CB76AB()
   local L0_2, L1_2
   L0_2 = C2633CF9260C5FBEB
   L0_2 = L0_2.SB5E889B25D4258A8
@@ -79,11 +70,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2633CF9260C5FBEB"]
-L69_1 = "S1D4373C576E4ADFE"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.hud_item_get.SceneHudItemGetManager.PushItemInfo
+function C2633CF9260C5FBEB.S1D4373C576E4ADFE(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = C14A8D35D72F56FE9
   L3_2 = L3_2.S90D73F1D715BCBF4
@@ -144,11 +132,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2633CF9260C5FBEB"]
-L69_1 = "S3173C69FE2C1C759"
-
-function L70_1(A0_2)
+--- main.ui.hud_item_get.SceneHudItemGetManager.PushItemGetContainer
+function C2633CF9260C5FBEB.S3173C69FE2C1C759(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C2633CF9260C5FBEB
   L1_2 = L1_2.SB5E889B25D4258A8
@@ -168,11 +153,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2633CF9260C5FBEB"]
-L69_1 = "S1B70683A427A676E"
-
-function L70_1(A0_2)
+--- main.ui.hud_item_get.SceneHudItemGetManager.SetVisibleDirect
+function C2633CF9260C5FBEB.S1B70683A427A676E(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C2633CF9260C5FBEB
   L1_2 = L1_2.S5BDA75D02718C17F
@@ -239,21 +221,16 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2633CF9260C5FBEB"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2633CF9260C5FBEB"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C2633CF9260C5FBEB_prototype
+C2633CF9260C5FBEB_prototype = L15_1()
+C2633CF9260C5FBEB.prototype = C2633CF9260C5FBEB_prototype
+--- main.ui.hud_item_get.SceneHudItemGetManager.Setup
+function C2633CF9260C5FBEB_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C2633CF9260C5FBEB
@@ -271,49 +248,46 @@ function L70_1(A0_2, A1_2)
   L2_2 = C2633CF9260C5FBEB
   L3_2 = cCF781FB6
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L2_2.S23F4ED88AF777A0F = L3_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = C8F0C826E0B7A6164
   L3_2 = L3_2.new
   L3_2 = L3_2()
   L2_2[0] = L3_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = C8F0C826E0B7A6164
   L3_2 = L3_2.new
   L3_2 = L3_2()
   L2_2[1] = L3_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = C8F0C826E0B7A6164
   L3_2 = L3_2.new
   L3_2 = L3_2()
   L2_2[2] = L3_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = C8F0C826E0B7A6164
   L3_2 = L3_2.new
   L3_2 = L3_2()
   L2_2[3] = L3_2
-  A0_2[8] = 0
+  self[8] = 0
   L2_2 = C2633CF9260C5FBEB
   L2_2.SA48094FBA36DA982 = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2633CF9260C5FBEB"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.hud_item_get.SceneHudItemGetManager.PreUpdate
+function C2633CF9260C5FBEB_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -360,7 +334,7 @@ function L70_1(A0_2, A1_2)
       return
     end
   end
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   if 0 == L2_2 then
     L3_2 = C2633CF9260C5FBEB
     L3_2 = L3_2.S94F93F3533CB412C
@@ -391,10 +365,10 @@ function L70_1(A0_2, A1_2)
       
       L7_2 = L4_2
       L5_2 = L5_2(L6_2, L7_2)
-      A0_2[7] = L5_2
+      self[7] = L5_2
       L5_2 = C2633CF9260C5FBEB
       L5_2.SC07400C5F36EE11B = true
-      L5_2 = A0_2[7]
+      L5_2 = self[7]
       L6_2 = nil
       L7_2 = L62_1
       L8_2 = L64_1.pack
@@ -440,7 +414,7 @@ function L70_1(A0_2, A1_2)
       end
       L8_2 = C2633CF9260C5FBEB
       L8_2.SA48094FBA36DA982 = 0
-      A0_2[8] = 4
+      self[8] = 4
     end
   elseif 4 == L2_2 then
     L3_2 = C2633CF9260C5FBEB
@@ -477,7 +451,7 @@ function L70_1(A0_2, A1_2)
     L4_2 = C2633CF9260C5FBEB
     L4_2 = L4_2.S21E4B0F64733DDAE
     if L3_2 >= L4_2 then
-      A0_2[8] = 8
+      self[8] = 8
       L3_2 = C2633CF9260C5FBEB
       L3_2.SA48094FBA36DA982 = 0
       L3_2 = C3A36506FBC96ACBD
@@ -491,7 +465,7 @@ function L70_1(A0_2, A1_2)
     L4_2 = C2633CF9260C5FBEB
     L4_2 = L4_2.S33112B937EDCCDB2
     if L3_2 >= L4_2 then
-      A0_2[8] = 8
+      self[8] = 8
       L3_2 = C2633CF9260C5FBEB
       L3_2.SA48094FBA36DA982 = 0
     end
@@ -518,8 +492,8 @@ function L70_1(A0_2, A1_2)
     
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
-    A0_2[7] = L4_2
-    L4_2 = A0_2[7]
+    self[7] = L4_2
+    L4_2 = self[7]
     L5_2 = nil
     L6_2 = L62_1
     L7_2 = L64_1.pack
@@ -563,12 +537,12 @@ function L70_1(A0_2, A1_2)
       L9_2 = L9_2 .. L10_2
       L7_2(L8_2, L9_2)
     end
-    A0_2[8] = 10
+    self[8] = 10
   elseif 10 == L2_2 then
     L3_2 = C2633CF9260C5FBEB
     L3_2.SC07400C5F36EE11B = false
-    A0_2[7] = nil
-    A0_2[8] = 0
+    self[7] = nil
+    self[8] = 0
     L3_2 = C2633CF9260C5FBEB
     L3_2 = L3_2.S31BCFF3002FDA133
     if L3_2 then
@@ -583,11 +557,11 @@ function L70_1(A0_2, A1_2)
       return
     end
   end
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   if 0 ~= L3_2 then
     return
   end
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   if 0 == L3_2 then
     L4_2 = C2633CF9260C5FBEB
     L4_2 = L4_2.S94F93F3533CB412C
@@ -610,11 +584,11 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2.SB21FA562BB1FB817
     L5_2 = "hud_itemget_top_view"
     L4_2 = L4_2(L5_2)
-    A0_2[4] = L4_2
+    self[4] = L4_2
     L4_2 = nil
     L5_2 = cA042DA13
     L5_2 = L5_2.fB1E655AE
-    L6_2 = A0_2[4]
+    L6_2 = self[4]
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
     if L5_2 then
@@ -623,27 +597,27 @@ function L70_1(A0_2, A1_2)
     L5_2 = nil
     L6_2 = c016374C1
     L6_2 = L6_2.f4555D276
-    L7_2 = A0_2[5]
+    L7_2 = self[5]
     L8_2 = L5_2
     L6_2 = L6_2(L7_2, L8_2)
     if L6_2 then
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L7_2 = L6_2
       L6_2 = L6_2.fD4E64AB7
       L8_2 = "view_hud_itemget_top"
       L6_2 = L6_2(L7_2, L8_2)
-      A0_2[5] = L6_2
+      self[5] = L6_2
       L6_2 = nil
       L7_2 = c016374C1
       L7_2 = L7_2.f4555D276
-      L8_2 = A0_2[5]
+      L8_2 = self[5]
       L9_2 = L6_2
       L7_2 = L7_2(L8_2, L9_2)
       if L7_2 then
         return
       end
     end
-    L6_2 = A0_2[5]
+    L6_2 = self[5]
     L7_2 = L6_2
     L6_2 = L6_2.f9D8BC178
     L6_2 = L6_2(L7_2)
@@ -661,7 +635,7 @@ function L70_1(A0_2, A1_2)
       L7_2 = C2633CF9260C5FBEB
       L8_2 = cECF00344
       L8_2 = L8_2.fEECE6995
-      L9_2 = A0_2[5]
+      L9_2 = self[5]
       L8_2 = L8_2(L9_2)
       L7_2.S2BA9814BFF126F00 = L8_2
       L7_2 = nil
@@ -681,38 +655,38 @@ function L70_1(A0_2, A1_2)
     L7_2 = L7_2.f7A48F855
     L9_2 = 4
     L7_2(L8_2, L9_2)
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L7_2 = L7_2[0]
     L8_2 = L7_2
     L7_2 = L7_2.F7C68FEDB79AB6396
-    L9_2 = A0_2[5]
+    L9_2 = self[5]
     L10_2 = C2633CF9260C5FBEB
     L10_2 = L10_2.S2BA9814BFF126F00
     L11_2 = 0
     L7_2(L8_2, L9_2, L10_2, L11_2)
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L7_2 = L7_2[1]
     L8_2 = L7_2
     L7_2 = L7_2.F7C68FEDB79AB6396
-    L9_2 = A0_2[5]
+    L9_2 = self[5]
     L10_2 = C2633CF9260C5FBEB
     L10_2 = L10_2.S2BA9814BFF126F00
     L11_2 = 1
     L7_2(L8_2, L9_2, L10_2, L11_2)
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L7_2 = L7_2[2]
     L8_2 = L7_2
     L7_2 = L7_2.F7C68FEDB79AB6396
-    L9_2 = A0_2[5]
+    L9_2 = self[5]
     L10_2 = C2633CF9260C5FBEB
     L10_2 = L10_2.S2BA9814BFF126F00
     L11_2 = 2
     L7_2(L8_2, L9_2, L10_2, L11_2)
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L7_2 = L7_2[3]
     L8_2 = L7_2
     L7_2 = L7_2.F7C68FEDB79AB6396
-    L9_2 = A0_2[5]
+    L9_2 = self[5]
     L10_2 = C2633CF9260C5FBEB
     L10_2 = L10_2.S2BA9814BFF126F00
     L11_2 = 3
@@ -723,41 +697,38 @@ function L70_1(A0_2, A1_2)
     L7_2 = L7_2.f2A9CF058
     L9_2 = true
     L7_2(L8_2, L9_2)
-    A0_2[6] = 24
+    self[6] = 24
   elseif 24 == L3_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F1D77E39AEBB8DE3C
+    L5_2 = self
+    L4_2 = self.F1D77E39AEBB8DE3C
     L6_2 = A1_2
     L4_2(L5_2, L6_2)
-    L5_2 = A0_2
-    L4_2 = A0_2.FD14926226BBC78F4
+    L5_2 = self
+    L4_2 = self.FD14926226BBC78F4
     L4_2 = L4_2(L5_2)
     if true == L4_2 then
-      A0_2[6] = 30
+      self[6] = 30
     end
   elseif 30 == L3_2 then
     L4_2 = C2633CF9260C5FBEB
     L4_2.S2BA9814BFF126F00 = nil
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L5_2 = L4_2
     L4_2 = L4_2.fCDCB600D
     L6_2 = true
     L4_2(L5_2, L6_2)
-    A0_2[5] = nil
-    L4_2 = A0_2[4]
+    self[5] = nil
+    L4_2 = self[4]
     L5_2 = L4_2
     L4_2 = L4_2.f5C99C0AC
     L4_2(L5_2)
-    A0_2[4] = nil
-    A0_2[6] = 0
+    self[4] = nil
+    self[6] = 0
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2633CF9260C5FBEB"]["prototype"]
-L69_1 = "F1D77E39AEBB8DE3C"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.hud_item_get.SceneHudItemGetManager.updateTag
+function C2633CF9260C5FBEB_prototype:F1D77E39AEBB8DE3C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   while true do
     L2_2 = C2633CF9260C5FBEB
@@ -766,8 +737,8 @@ function L70_1(A0_2, A1_2)
     if not (L2_2 > 0) then
       break
     end
-    L3_2 = A0_2
-    L2_2 = A0_2.F21F929D426610230
+    L3_2 = self
+    L2_2 = self.F21F929D426610230
     L2_2 = L2_2(L3_2)
     if -1 == L2_2 then
       break
@@ -783,33 +754,33 @@ function L70_1(A0_2, A1_2)
     L6_2 = false
     L7_2 = false
     L4_2(L5_2, L6_2, L7_2)
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L4_2 = L4_2[L2_2]
     L5_2 = L4_2
     L4_2 = L4_2.F22555BAF438AA5E5
-    L6_2 = A0_2[9]
+    L6_2 = self[9]
     L7_2 = L3_2
     L4_2(L5_2, L6_2, L7_2)
-    L4_2 = A0_2[9]
+    L4_2 = self[9]
     L4_2 = L4_2 + 1
-    A0_2[9] = L4_2
+    self[9] = L4_2
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[0]
   L3_2 = L2_2
   L2_2 = L2_2.FE94F3E13286232CF
   L2_2(L3_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[1]
   L3_2 = L2_2
   L2_2 = L2_2.FE94F3E13286232CF
   L2_2(L3_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[2]
   L3_2 = L2_2
   L2_2 = L2_2.FE94F3E13286232CF
   L2_2(L3_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[3]
   L3_2 = L2_2
   L2_2 = L2_2.FE94F3E13286232CF
@@ -817,41 +788,38 @@ function L70_1(A0_2, A1_2)
   L2_2 = CE2A483783941842B
   L2_2 = L2_2.S9BF749FBD997E69A
   if L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2[0]
     L3_2 = L2_2
     L2_2 = L2_2.FD71843D2FE9A853E
     L2_2(L3_2)
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2[1]
     L3_2 = L2_2
     L2_2 = L2_2.FD71843D2FE9A853E
     L2_2(L3_2)
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2[2]
     L3_2 = L2_2
     L2_2 = L2_2.FD71843D2FE9A853E
     L2_2(L3_2)
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2[3]
     L3_2 = L2_2
     L2_2 = L2_2.FD71843D2FE9A853E
     L2_2(L3_2)
-    L2_2 = A0_2[9]
+    L2_2 = self[9]
     L2_2 = L2_2 - 1
-    A0_2[9] = L2_2
+    self[9] = L2_2
   end
   L2_2 = CE2A483783941842B
   L2_2.S9BF749FBD997E69A = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2633CF9260C5FBEB"]["prototype"]
-L69_1 = "F21F929D426610230"
-
-function L70_1(A0_2)
+--- main.ui.hud_item_get.SceneHudItemGetManager.F21F929D426610230
+function C2633CF9260C5FBEB_prototype:F21F929D426610230()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2[0]
   L2_2 = L1_2
   L1_2 = L1_2.FE5C4A9CFF38FC2C7
@@ -860,7 +828,7 @@ function L70_1(A0_2)
     L1_2 = 0
     return L1_2
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2[1]
   L2_2 = L1_2
   L1_2 = L1_2.FE5C4A9CFF38FC2C7
@@ -869,7 +837,7 @@ function L70_1(A0_2)
     L1_2 = 1
     return L1_2
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2[2]
   L2_2 = L1_2
   L1_2 = L1_2.FE5C4A9CFF38FC2C7
@@ -878,7 +846,7 @@ function L70_1(A0_2)
     L1_2 = 2
     return L1_2
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2[3]
   L2_2 = L1_2
   L1_2 = L1_2.FE5C4A9CFF38FC2C7
@@ -891,11 +859,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2633CF9260C5FBEB"]["prototype"]
-L69_1 = "FD14926226BBC78F4"
-
-function L70_1(A0_2)
+--- main.ui.hud_item_get.SceneHudItemGetManager.IsAllDone
+function C2633CF9260C5FBEB_prototype:FD14926226BBC78F4()
   local L1_2, L2_2
   L1_2 = C2633CF9260C5FBEB
   L1_2 = L1_2.SB5E889B25D4258A8
@@ -904,7 +869,7 @@ function L70_1(A0_2)
     L1_2 = false
     return L1_2
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2[0]
   L2_2 = L1_2
   L1_2 = L1_2.FFC7312AA44705E34
@@ -913,7 +878,7 @@ function L70_1(A0_2)
     L1_2 = false
     return L1_2
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2[1]
   L2_2 = L1_2
   L1_2 = L1_2.FFC7312AA44705E34
@@ -922,7 +887,7 @@ function L70_1(A0_2)
     L1_2 = false
     return L1_2
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2[2]
   L2_2 = L1_2
   L1_2 = L1_2.FFC7312AA44705E34
@@ -931,7 +896,7 @@ function L70_1(A0_2)
     L1_2 = false
     return L1_2
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2[3]
   L2_2 = L1_2
   L1_2 = L1_2.FFC7312AA44705E34

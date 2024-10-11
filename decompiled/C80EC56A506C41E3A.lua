@@ -1,3 +1,7 @@
+---@alias C80EC56A506C41E3A main_pokepicnic_contents_checker_IPicnicContentsChecker
+
+---@class main_pokepicnic_contents_checker_IPicnicContentsChecker : C80EC56A506C41E3A_prototype
+---@field prototype C80EC56A506C41E3A_prototype
 L55_1 = _ENV
 L56_1 = "C80EC56A506C41E3A"
 L57_1 = L15_1
@@ -35,16 +39,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C80EC56A506C41E3A"]
 L69_1 = "__name__"
 L70_1 = "C80EC56A506C41E3A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80EC56A506C41E3A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80EC56A506C41E3A"]["prototype"]
-L69_1 = "FF9BE0775DE5A4601"
-
-function L70_1(A0_2)
+---@class C80EC56A506C41E3A_prototype
+C80EC56A506C41E3A_prototype = L15_1()
+C80EC56A506C41E3A.prototype = C80EC56A506C41E3A_prototype
+--- main.pokepicnic.contents.checker.IPicnicContentsChecker.StartContents
+function C80EC56A506C41E3A_prototype:FF9BE0775DE5A4601()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -67,16 +66,13 @@ function L70_1(A0_2)
       return L1_2
     end
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F00A5AAB9F764BE45
+  L2_2 = self
+  L1_2 = self.F00A5AAB9F764BE45
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80EC56A506C41E3A"]["prototype"]
-L69_1 = "F00A5AAB9F764BE45"
-
-function L70_1(A0_2)
+--- main.pokepicnic.contents.checker.IPicnicContentsChecker.OnContentsChecker
+function C80EC56A506C41E3A_prototype:F00A5AAB9F764BE45()
   local L1_2
   L1_2 = nil
   return L1_2

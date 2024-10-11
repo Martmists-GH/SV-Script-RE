@@ -1,3 +1,7 @@
+---@alias CD2753090529381DC main_event_general_legend_DerubiruMove
+
+---@class main_event_general_legend_DerubiruMove : CD2753090529381DC_prototype
+---@field prototype CD2753090529381DC_prototype
 L55_1 = _ENV
 L56_1 = "CD2753090529381DC"
 L57_1 = L15_1
@@ -52,16 +56,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD2753090529381DC"]
 L69_1 = "__name__"
 L70_1 = "CD2753090529381DC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2753090529381DC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2753090529381DC"]["prototype"]
-L69_1 = "FCD3AA5F9FE85621F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class CD2753090529381DC_prototype
+CD2753090529381DC_prototype = L15_1()
+CD2753090529381DC.prototype = CD2753090529381DC_prototype
+--- main.event.general.legend.DerubiruMove.MoveDerubirus
+function CD2753090529381DC_prototype:FCD3AA5F9FE85621F(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A3_2 then
     A3_2 = false
@@ -71,12 +70,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
   L4_2 = nil
   L5_2 = 0
-  L6_2 = A0_2[35]
+  L6_2 = self[35]
   L6_2 = L6_2.length
   while L5_2 < L6_2 do
     L5_2 = L5_2 + 1
     L7_2 = L5_2 - 1
-    L8_2 = A0_2[35]
+    L8_2 = self[35]
     L8_2 = L8_2[L7_2]
     L9_2 = L8_2
     L8_2 = L8_2.fB3CF1DEB
@@ -97,7 +96,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L13_2 = A1_2[2]
     L14_2 = true
     L15_2 = A2_2
-    L16_2 = A0_2[35]
+    L16_2 = self[35]
     L16_2 = L16_2.length
     L16_2 = L16_2 + 1
     L16_2 = L7_2 == L16_2 and L16_2
@@ -105,18 +104,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2753090529381DC"]["prototype"]
-L69_1 = "F762059EB51F7B680"
-
-function L70_1(A0_2)
+--- main.event.general.legend.DerubiruMove.IsMoveEndAll
+function CD2753090529381DC_prototype:F762059EB51F7B680()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
-  L2_2 = A0_2[35]
+  L2_2 = self[35]
   L2_2 = L2_2.length
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
-    L3_2 = A0_2[35]
+    L3_2 = self[35]
     L4_2 = L1_2 - 1
     L3_2 = L3_2[L4_2]
     L4_2 = L3_2
@@ -144,15 +140,12 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2753090529381DC"]["prototype"]
-L69_1 = "F0288E521A35A91E9"
-
-function L70_1(A0_2)
+--- main.event.general.legend.DerubiruMove.WaitMoveEndAll
+function CD2753090529381DC_prototype:F0288E521A35A91E9()
   local L1_2, L2_2
   while true do
-    L2_2 = A0_2
-    L1_2 = A0_2.F762059EB51F7B680
+    L2_2 = self
+    L1_2 = self.F762059EB51F7B680
     L1_2 = L1_2(L2_2)
     if L1_2 then
       break
@@ -163,11 +156,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2753090529381DC"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+--- main.event.general.legend.DerubiruMove.preStart
+function CD2753090529381DC_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2
   L1_2 = CD2753090529381DC
   L1_2 = L1_2.SB95396BFEEF8D9CF
@@ -177,7 +167,7 @@ function L70_1(A0_2)
   L1_2 = CD2753090529381DC
   L1_2.SB95396BFEEF8D9CF = true
   L1_2 = 0
-  L2_2 = A0_2[37]
+  L2_2 = self[37]
   L3_2 = false
   while L1_2 < L2_2 do
     while true do
@@ -196,7 +186,7 @@ function L70_1(A0_2)
       L5_2 = L5_2 .. L6_2
       L4_2 = L4_2(L5_2)
       if nil ~= L4_2 then
-        L5_2 = A0_2[35]
+        L5_2 = self[35]
         L6_2 = L5_2
         L5_2 = L5_2.push
         
@@ -222,7 +212,7 @@ function L70_1(A0_2)
       break
     end
   end
-  L4_2 = A0_2[35]
+  L4_2 = self[35]
   L4_2 = L4_2.length
   if L4_2 <= 0 then
     return
@@ -241,7 +231,7 @@ function L70_1(A0_2)
   L7_2[2] = L9_2
   L7_2[3] = L10_2
   L8_2 = 0
-  L9_2 = A0_2[35]
+  L9_2 = self[35]
   L9_2 = L9_2.length
   while L8_2 < L9_2 do
     L8_2 = L8_2 + 1
@@ -259,7 +249,7 @@ function L70_1(A0_2)
     L13_2[2] = L15_2
     L13_2[3] = L16_2
     L7_2 = L13_2
-    L13_2 = A0_2[35]
+    L13_2 = self[35]
     L14_2 = L8_2 - 1
     L13_2 = L13_2[L14_2]
     L14_2 = L13_2
@@ -310,8 +300,8 @@ function L70_1(A0_2)
     L30_2 = 50
     L25_2(L26_2, L27_2, L28_2, L29_2, L30_2)
   end
-  L11_2 = A0_2
-  L10_2 = A0_2.F0288E521A35A91E9
+  L11_2 = self
+  L10_2 = self.F0288E521A35A91E9
   L10_2(L11_2)
   L10_2 = CDCBFD50A277E546D
   L10_2 = L10_2.S0C6378C0E23B592D
@@ -391,7 +381,7 @@ function L70_1(A0_2)
   L17_2 = L17_2(L18_2)
   L16_2 = L16_2 .. L17_2
   L15_2 = L15_2(L16_2)
-  L16_2 = A0_2[36]
+  L16_2 = self[36]
   L17_2 = L16_2
   L16_2 = L16_2.push
   L18_2 = cE8D61D7D
@@ -422,7 +412,7 @@ function L70_1(A0_2)
   L18_2 = L18_2(L19_2)
   L17_2 = L17_2 .. L18_2
   L16_2 = L16_2(L17_2)
-  L17_2 = A0_2[36]
+  L17_2 = self[36]
   L18_2 = L17_2
   L17_2 = L17_2.push
   L19_2 = cE8D61D7D
@@ -453,7 +443,7 @@ function L70_1(A0_2)
   L19_2 = L19_2(L20_2)
   L18_2 = L18_2 .. L19_2
   L17_2 = L17_2(L18_2)
-  L18_2 = A0_2[36]
+  L18_2 = self[36]
   L19_2 = L18_2
   L18_2 = L18_2.push
   L20_2 = cE8D61D7D
@@ -475,11 +465,11 @@ function L70_1(A0_2)
   L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2 = L20_2(L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2)
   L18_2(L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2)
   L18_2 = 0
-  L19_2 = A0_2[36]
+  L19_2 = self[36]
   L19_2 = L19_2.length
   while L18_2 < L19_2 do
     L18_2 = L18_2 + 1
-    L20_2 = A0_2[36]
+    L20_2 = self[36]
     L21_2 = L18_2 - 1
     L20_2 = L20_2[L21_2]
     L21_2 = L20_2
@@ -513,13 +503,13 @@ function L70_1(A0_2)
   L21_2[7] = L28_2
   L21_2[8] = L29_2
   L21_2[9] = L30_2
-  L23_2 = A0_2
-  L22_2 = A0_2.FCD3AA5F9FE85621F
+  L23_2 = self
+  L22_2 = self.FCD3AA5F9FE85621F
   L24_2 = L21_2
   L25_2 = 20
   L22_2(L23_2, L24_2, L25_2)
-  L23_2 = A0_2
-  L22_2 = A0_2.F0288E521A35A91E9
+  L23_2 = self
+  L22_2 = self.F0288E521A35A91E9
   L22_2(L23_2)
   L22_2 = CDCBFD50A277E546D
   L22_2 = L22_2.S0C6378C0E23B592D
@@ -547,20 +537,20 @@ function L70_1(A0_2)
   L22_2[7] = L29_2
   L22_2[8] = L30_2
   L21_2 = L22_2
-  L23_2 = A0_2
-  L22_2 = A0_2.FCD3AA5F9FE85621F
+  L23_2 = self
+  L22_2 = self.FCD3AA5F9FE85621F
   L24_2 = L21_2
   L25_2 = 20
   L22_2(L23_2, L24_2, L25_2)
-  L23_2 = A0_2
-  L22_2 = A0_2.F0288E521A35A91E9
+  L23_2 = self
+  L22_2 = self.F0288E521A35A91E9
   L22_2(L23_2)
   L22_2 = 0
-  L23_2 = A0_2[35]
+  L23_2 = self[35]
   L23_2 = L23_2.length
   while L22_2 < L23_2 do
     L22_2 = L22_2 + 1
-    L24_2 = A0_2[35]
+    L24_2 = self[35]
     L25_2 = L24_2
     L24_2 = L24_2.pop
     L24_2 = L24_2(L25_2)
@@ -576,7 +566,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L24_2
@@ -584,7 +574,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -598,19 +588,13 @@ function L70_1(A0_2)
   L25_2(L26_2, L27_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2753090529381DC"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.legend.DerubiruMove.mainBody
+function CD2753090529381DC_prototype:FD8D5F3745B4B5174()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2753090529381DC"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.legend.DerubiruMove.preEnd
+function CD2753090529381DC_prototype:F740FB4E96926D103()
   local L1_2
 end
 

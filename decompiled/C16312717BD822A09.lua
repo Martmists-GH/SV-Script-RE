@@ -1,3 +1,7 @@
+---@alias C16312717BD822A09 main_event_debug_DebugMiyamotoGo
+
+---@class main_event_debug_DebugMiyamotoGo : C16312717BD822A09_prototype
+---@field prototype C16312717BD822A09_prototype
 L55_1 = _ENV
 L56_1 = "C16312717BD822A09"
 L57_1 = L15_1
@@ -45,21 +49,16 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C16312717BD822A09"]
 L69_1 = "__name__"
 L70_1 = "C16312717BD822A09"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16312717BD822A09"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16312717BD822A09"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C16312717BD822A09_prototype
+C16312717BD822A09_prototype = L15_1()
+C16312717BD822A09.prototype = C16312717BD822A09_prototype
+--- main.event.debug.DebugMiyamotoGo.mainBody
+function C16312717BD822A09_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FD8D5F3745B4B5174
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 

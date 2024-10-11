@@ -1,3 +1,5 @@
+---@class C0234436AECFE87F2 : C0234436AECFE87F2_prototype
+---@field prototype C0234436AECFE87F2_prototype
 L55_1 = _ENV
 L56_1 = "C0234436AECFE87F2"
 L57_1 = L15_1
@@ -38,19 +40,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0234436AECFE87F2"]
 L69_1 = "__name__"
 L70_1 = "C0234436AECFE87F2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0234436AECFE87F2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0234436AECFE87F2"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2, A1_2)
+---@class C0234436AECFE87F2_prototype
+C0234436AECFE87F2_prototype = L15_1()
+C0234436AECFE87F2.prototype = C0234436AECFE87F2_prototype
+--- C0234436AECFE87F2.Init
+function C0234436AECFE87F2_prototype:F90BBC6B0190BF053(A1_2)
   local L2_2, L3_2, L4_2
-  A0_2[1] = A1_2
-  L2_2 = A0_2[2]
+  self[1] = A1_2
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.fFB8C5B20
   L4_2 = C05D9E556B496A3DF
@@ -60,11 +57,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0234436AECFE87F2"]["prototype"]
-L69_1 = "FE6836B3C27CC7BEE"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C0234436AECFE87F2.Lottery
+function C0234436AECFE87F2_prototype:FE6836B3C27CC7BEE(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
   L3_2 = nil
   if nil == A2_2 then
@@ -91,15 +85,15 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2)
     L3_2 = L5_2
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F868B2228D2D6B158
-  L6_2 = A0_2[1]
+  L5_2 = self
+  L4_2 = self.F868B2228D2D6B158
+  L6_2 = self[1]
   L6_2 = L6_2.itemTable
   L6_2 = L6_2.lotteryItemDataList
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = 0
   L6_2 = 0
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L7_2 = L7_2.specialItemTable
   L7_2 = L7_2.itemDataList
   while true do
@@ -124,15 +118,15 @@ function L70_1(A0_2, A1_2, A2_2)
   L15_2 = A2_2
   while L14_2 < L15_2 do
     L14_2 = L14_2 + 1
-    L17_2 = A0_2
-    L16_2 = A0_2.FF0AF03C31F43DA5B
+    L17_2 = self
+    L16_2 = self.FF0AF03C31F43DA5B
     L18_2 = A1_2
     L16_2 = L16_2(L17_2, L18_2)
     if 0 == L16_2 or 1 == L16_2 then
       L18_2 = L9_2
       L17_2 = L9_2.push
-      L20_2 = A0_2
-      L19_2 = A0_2.F9D7240935F6275C1
+      L20_2 = self
+      L19_2 = self.F9D7240935F6275C1
       L21_2 = A1_2
       L22_2 = L4_2
       L19_2, L20_2, L21_2, L22_2 = L19_2(L20_2, L21_2, L22_2)
@@ -140,8 +134,8 @@ function L70_1(A0_2, A1_2, A2_2)
     elseif 2 == L16_2 then
       L18_2 = L9_2
       L17_2 = L9_2.push
-      L20_2 = A0_2
-      L19_2 = A0_2.F91242603A94473E7
+      L20_2 = self
+      L19_2 = self.F91242603A94473E7
       L21_2 = L5_2
       L19_2, L20_2, L21_2, L22_2 = L19_2(L20_2, L21_2)
       L17_2(L18_2, L19_2, L20_2, L21_2, L22_2)
@@ -153,8 +147,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L19_2 = L9_2[L19_2]
     L19_2 = L19_2.effectIndex
     L17_2(L18_2, L19_2)
-    L18_2 = A0_2
-    L17_2 = A0_2.F67FCF11A0D529BFB
+    L18_2 = self
+    L17_2 = self.F67FCF11A0D529BFB
     L19_2 = L16_2
     L17_2 = L17_2(L18_2, L19_2)
     if L17_2 and L8_2 == A1_2 and 0 == A1_2 then
@@ -165,7 +159,7 @@ function L70_1(A0_2, A1_2, A2_2)
       elseif 1 == L17_2 then
         L8_2 = 1
       elseif 2 == L17_2 or 3 == L17_2 then
-        L18_2 = A0_2[2]
+        L18_2 = self[2]
         L19_2 = L18_2
         L18_2 = L18_2.fDAAAA586
         L20_2 = 1
@@ -199,8 +193,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L18_2 = L18_2.S2A8E89FF8819C2BD
   L18_2 = L18_2()
   L17_2.ballType = L18_2
-  L19_2 = A0_2
-  L18_2 = A0_2.F9B26741A02AAEADC
+  L19_2 = self
+  L18_2 = self.F9B26741A02AAEADC
   L20_2 = L9_2
   L21_2 = L13_2
   L22_2 = L8_2
@@ -226,23 +220,20 @@ function L70_1(A0_2, A1_2, A2_2)
   return L17_2(L18_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0234436AECFE87F2"]["prototype"]
-L69_1 = "FF0AF03C31F43DA5B"
-
-function L70_1(A0_2, A1_2)
+--- C0234436AECFE87F2.FF0AF03C31F43DA5B
+function C0234436AECFE87F2_prototype:FF0AF03C31F43DA5B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
   L3_2 = 0
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2.lotteryRateTable
   L4_2 = L4_2.lotteryRateList
   L4_2 = L4_2.length
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L5_2 = L3_2 - 1
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2.lotteryRateTable
     L6_2 = L6_2.lotteryRateList
     L6_2 = L6_2[L5_2]
@@ -281,7 +272,7 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2)
   L5_2 = C7BD28C2CE195DB4E
   L5_2 = L5_2.S7989B6DD56823279
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L6_2 = L6_2.lotteryRateTable
   L6_2 = L6_2.totalPercentList
   L6_2 = L6_2.length
@@ -294,10 +285,10 @@ function L70_1(A0_2, A1_2)
   L8_2 = L8_2(L9_2)
   L7_2 = L7_2 .. L8_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.fDAAAA586
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L7_2 = L7_2.lotteryRateTable
   L7_2 = L7_2.totalPercentList
   L7_2 = L7_2[A1_2]
@@ -371,11 +362,8 @@ function L70_1(A0_2, A1_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0234436AECFE87F2"]["prototype"]
-L69_1 = "F9D7240935F6275C1"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C0234436AECFE87F2.F9D7240935F6275C1
+function C0234436AECFE87F2_prototype:F9D7240935F6275C1(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L3_2 = L16_1
   L4_2 = {}
@@ -397,10 +385,10 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2.effectIndex = 0
   L5_2.isBonusTarget = false
   L4_2 = L4_2(L5_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2.itemTable
   L5_2 = L5_2.lotteryItemDataList
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L7_2 = L6_2
   L6_2 = L6_2.fDAAAA586
   L8_2 = A2_2
@@ -461,7 +449,7 @@ function L70_1(A0_2, A1_2, A2_2)
           L15_2 = L15_2.SE5C8D1EAB8E13164
           L15_2 = L15_2()
           if L15_2 then
-            L15_2 = A0_2[2]
+            L15_2 = self[2]
             L16_2 = L15_2
             L15_2 = L15_2.fDAAAA586
             L17_2 = L11_2.lotteryItemNumMax
@@ -635,11 +623,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0234436AECFE87F2"]["prototype"]
-L69_1 = "F91242603A94473E7"
-
-function L70_1(A0_2, A1_2)
+--- C0234436AECFE87F2.F91242603A94473E7
+function C0234436AECFE87F2_prototype:F91242603A94473E7(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L2_2 = L16_1
   L3_2 = {}
@@ -652,10 +637,10 @@ function L70_1(A0_2, A1_2)
   L3_2.effectIndex = 0
   L3_2.isBonusTarget = false
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.specialItemTable
   L3_2 = L3_2.itemDataList
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.fDAAAA586
   L6_2 = A1_2
@@ -786,21 +771,15 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0234436AECFE87F2"]["prototype"]
-L69_1 = "F67FCF11A0D529BFB"
-
-function L70_1(A0_2, A1_2)
+--- C0234436AECFE87F2.F67FCF11A0D529BFB
+function C0234436AECFE87F2_prototype:F67FCF11A0D529BFB(A1_2)
   local L2_2
   L2_2 = 1 == A1_2
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0234436AECFE87F2"]["prototype"]
-L69_1 = "F868B2228D2D6B158"
-
-function L70_1(A0_2, A1_2)
+--- C0234436AECFE87F2.F868B2228D2D6B158
+function C0234436AECFE87F2_prototype:F868B2228D2D6B158(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = 0
   L3_2 = 0
@@ -834,11 +813,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0234436AECFE87F2"]["prototype"]
-L69_1 = "F9B26741A02AAEADC"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- C0234436AECFE87F2.F9B26741A02AAEADC
+function C0234436AECFE87F2_prototype:F9B26741A02AAEADC(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L4_2 = 0
   L5_2 = 0
@@ -854,8 +830,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L4_2 = L6_2.effectIndex
     end
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.FC76DCE8FA37F1839
+  L7_2 = self
+  L6_2 = self.FC76DCE8FA37F1839
   L8_2 = L4_2
   L9_2 = A2_2
   L10_2 = A3_2
@@ -863,7 +839,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2 = L31_1.string
   L8_2 = L6_2
   L7_2(L8_2)
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L8_2 = L7_2
   L7_2 = L7_2.fDAAAA586
   L9_2 = 99
@@ -969,25 +945,22 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0234436AECFE87F2"]["prototype"]
-L69_1 = "FC76DCE8FA37F1839"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- C0234436AECFE87F2.FC76DCE8FA37F1839
+function C0234436AECFE87F2_prototype:FC76DCE8FA37F1839(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = L26_1.new
   L4_2 = L4_2()
   if 0 == A2_2 then
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2.effectTable
     L4_2 = L5_2.defaultModeRateList
   elseif 1 == A2_2 then
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2.effectTable
     L4_2 = L5_2.bonusModeRateList
   else
     if 2 == A2_2 then
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L5_2 = L5_2.effectTable
       L4_2 = L5_2.specialModeRateList
     else

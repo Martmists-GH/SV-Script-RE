@@ -1,3 +1,7 @@
+---@alias C37BA02F6534B9C56 main_ui_bag_BagUIViewBagTop
+
+---@class main_ui_bag_BagUIViewBagTop : C37BA02F6534B9C56_prototype
+---@field prototype C37BA02F6534B9C56_prototype
 L55_1 = _ENV
 L56_1 = "C37BA02F6534B9C56"
 L57_1 = L15_1
@@ -126,21 +130,16 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C37BA02F6534B9C56"]
 L69_1 = "__name__"
 L70_1 = "C37BA02F6534B9C56"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C37BA02F6534B9C56_prototype
+C37BA02F6534B9C56_prototype = L15_1()
+C37BA02F6534B9C56.prototype = C37BA02F6534B9C56_prototype
+--- main.ui.bag.BagUIViewBagTop.Setup
+function C37BA02F6534B9C56_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = CD39F1D6E7FAA0284
@@ -149,19 +148,19 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.F416AE067619FC28F
   L2_2 = L2_2(L3_2)
-  A0_2[14] = L2_2
+  self[14] = L2_2
   L2_2 = cECD2E4A5
   L2_2 = L2_2.fBC1D4AC0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "GridPanel_00"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
   L2_2 = cECD2E4A5
   L2_2 = L2_2.fBCD0707E
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "ScrollPanel_00"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
   L2_2 = nil
   L3_2 = c113335A8
   L3_2 = L3_2.fB91A909C
@@ -203,13 +202,13 @@ function L70_1(A0_2, A1_2)
   L3_2 = C27B4379DDC700652
   L3_2 = L3_2.SABA1E69DEEFA2A52
   L3_2 = L3_2()
-  A0_2[33] = L3_2
+  self[33] = L3_2
   L3_2 = L31_1.string
   L4_2 = L31_1.string
   L5_2 = "message/sort/"
   L4_2 = L4_2(L5_2)
   L5_2 = L31_1.string
-  L6_2 = A0_2[33]
+  L6_2 = self[33]
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
   L3_2 = L3_2(L4_2)
@@ -217,13 +216,13 @@ function L70_1(A0_2, A1_2)
   L5_2 = "/waza_initial_index.dat"
   L4_2 = L4_2(L5_2)
   L3_2 = L3_2 .. L4_2
-  A0_2[34] = L3_2
+  self[34] = L3_2
   L3_2 = L31_1.string
   L4_2 = L31_1.string
   L5_2 = "message/sort/"
   L4_2 = L4_2(L5_2)
   L5_2 = L31_1.string
-  L6_2 = A0_2[33]
+  L6_2 = self[33]
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
   L3_2 = L3_2(L4_2)
@@ -231,13 +230,13 @@ function L70_1(A0_2, A1_2)
   L5_2 = "/waza_sort_table.dat"
   L4_2 = L4_2(L5_2)
   L3_2 = L3_2 .. L4_2
-  A0_2[35] = L3_2
+  self[35] = L3_2
   L3_2 = L31_1.string
   L4_2 = L31_1.string
   L5_2 = "message/sort/"
   L4_2 = L4_2(L5_2)
   L5_2 = L31_1.string
-  L6_2 = A0_2[33]
+  L6_2 = self[33]
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
   L3_2 = L3_2(L4_2)
@@ -245,11 +244,11 @@ function L70_1(A0_2, A1_2)
   L5_2 = "/waza_initial_to_sort.dat"
   L4_2 = L4_2(L5_2)
   L3_2 = L3_2 .. L4_2
-  A0_2[36] = L3_2
+  self[36] = L3_2
   L3_2 = nil
   L4_2 = cCE2E0561
   L4_2 = L4_2.f70AF3321
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
@@ -257,7 +256,7 @@ function L70_1(A0_2, A1_2)
   end
   L4_2 = cECD2E4A5
   L4_2 = L4_2.fBF9BB78D
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L31_1.string
   L7_2 = "Switch_0"
   L6_2 = L6_2(L7_2)
@@ -265,20 +264,20 @@ function L70_1(A0_2, A1_2)
   L8_2 = _hx_tab_array
   L9_2 = {}
   L9_2.length = 0
-  L10_2 = A0_2[47]
+  L10_2 = self[47]
   L9_2[0] = L10_2
-  L10_2 = A0_2[47]
-  L11_2 = A0_2[48]
-  L12_2 = A0_2[47]
-  L13_2 = A0_2[50]
-  L14_2 = A0_2[50]
-  L15_2 = A0_2[51]
-  L16_2 = A0_2[47]
-  L17_2 = A0_2[51]
-  L18_2 = A0_2[49]
-  L19_2 = A0_2[51]
-  L20_2 = A0_2[51]
-  L21_2 = A0_2[51]
+  L10_2 = self[47]
+  L11_2 = self[48]
+  L12_2 = self[47]
+  L13_2 = self[50]
+  L14_2 = self[50]
+  L15_2 = self[51]
+  L16_2 = self[47]
+  L17_2 = self[51]
+  L18_2 = self[49]
+  L19_2 = self[51]
+  L20_2 = self[51]
+  L21_2 = self[51]
   L9_2[1] = L10_2
   L9_2[2] = L11_2
   L9_2[3] = L12_2
@@ -293,16 +292,16 @@ function L70_1(A0_2, A1_2)
   L9_2[12] = L21_2
   L10_2 = 13
   L8_2 = L8_2(L9_2, L10_2)
-  L9_2 = A0_2[14]
+  L9_2 = self[14]
   L8_2 = L8_2[L9_2]
   L7_2 = L7_2(L8_2)
   L6_2 = L6_2 .. L7_2
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[6] = L4_2
+  self[6] = L4_2
   L4_2 = nil
   L5_2 = cEA275C70
   L5_2 = L5_2.f2180DAC7
-  L6_2 = A0_2[6]
+  L6_2 = self[6]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
@@ -310,56 +309,56 @@ function L70_1(A0_2, A1_2)
   end
   L5_2 = cECF00344
   L5_2 = L5_2.fEECE6995
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L5_2 = L5_2(L6_2)
-  A0_2[3] = L5_2
+  self[3] = L5_2
   L5_2 = nil
   L6_2 = cECF00344
   L6_2 = L6_2.f9758FA9B
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
   if L6_2 then
     return
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.FDF574494B2D0C44A
+  L7_2 = self
+  L6_2 = self.FDF574494B2D0C44A
   L6_2(L7_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.FFD8DAF602408744D
+  L7_2 = self
+  L6_2 = self.FFD8DAF602408744D
   L6_2 = L6_2(L7_2)
-  A0_2[7] = L6_2
+  self[7] = L6_2
   L6_2 = C517120080115856B
   L6_2 = L6_2.new
-  L7_2 = A0_2
-  L8_2 = A0_2[1]
+  L7_2 = self
+  L8_2 = self[1]
   L6_2 = L6_2(L7_2, L8_2)
-  A0_2[17] = L6_2
+  self[17] = L6_2
   L6_2 = c69ACCC6F
   L6_2 = L6_2.f3F98EEAD
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L6_2 = L6_2(L7_2)
-  A0_2[16] = L6_2
-  A0_2[2] = true
+  self[16] = L6_2
+  self[2] = true
   L6_2 = C4A5783CC4C07C40F
   L6_2 = L6_2.new
-  L7_2 = A0_2[3]
-  L8_2 = A0_2[40]
+  L7_2 = self[3]
+  L8_2 = self[40]
   L8_2 = L8_2 * 2
   L8_2 = 16 + L8_2
-  L9_2 = A0_2[41]
+  L9_2 = self[41]
   L8_2 = L8_2 + L9_2
   L6_2 = L6_2(L7_2, L8_2)
-  A0_2[18] = L6_2
-  L7_2 = A0_2
-  L6_2 = A0_2.FF7F59FF97ACEFD83
+  self[18] = L6_2
+  L7_2 = self
+  L6_2 = self.FF7F59FF97ACEFD83
   L6_2(L7_2)
   L6_2 = CD39F1D6E7FAA0284
   L6_2 = L6_2.S385504EFF7E842C3
   L6_2 = L6_2()
   L7_2 = L6_2
   L6_2 = L6_2.F46AA390E5D31D0F1
-  L8_2 = A0_2
+  L8_2 = self
   L6_2(L7_2, L8_2)
   L6_2 = CF1BC0419D30C42CE
   L6_2 = L6_2.SC7567AA81B856AE3
@@ -370,148 +369,148 @@ function L70_1(A0_2, A1_2)
   L6_2 = L6_2()
   L7_2 = L6_2
   L6_2 = L6_2.FBD294D57E544DAF4
-  L9_2 = A0_2
-  L8_2 = A0_2.FFD8DAF602408744D
+  L9_2 = self
+  L8_2 = self.FFD8DAF602408744D
   L8_2 = L8_2(L9_2)
   L9_2 = 0
-  L11_2 = A0_2
-  L10_2 = A0_2.F4D67EEC9E329A2E7
+  L11_2 = self
+  L10_2 = self.F4D67EEC9E329A2E7
   L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L10_2(L11_2)
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
-  A0_2[32] = L6_2
-  L7_2 = A0_2
-  L6_2 = A0_2.FC9A1A7B89801AFDC
+  self[32] = L6_2
+  L7_2 = self
+  L6_2 = self.FC9A1A7B89801AFDC
   L6_2 = L6_2(L7_2)
   if L6_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.FF37BB0A05383FE5B
+    L7_2 = self
+    L6_2 = self.FF37BB0A05383FE5B
     L6_2 = L6_2(L7_2)
-    A0_2[32] = L6_2
+    self[32] = L6_2
   end
   L6_2 = L42_1.new
   L6_2 = L6_2()
-  A0_2[38] = L6_2
+  self[38] = L6_2
   L6_2 = cFCDA3A84
   L6_2 = L6_2.f5B6373D5
   L6_2 = L6_2()
-  A0_2[37] = L6_2
+  self[37] = L6_2
   L6_2 = nil
   L7_2 = C1DB14DCC9D7634FA
   L7_2 = L7_2.new
   L8_2 = L55_1
-  L9_2 = A0_2
-  L10_2 = A0_2.FB2F2EE243461C07F
+  L9_2 = self
+  L10_2 = self.FB2F2EE243461C07F
   L8_2 = L8_2(L9_2, L10_2)
   L9_2 = L6_2
   L7_2 = L7_2(L8_2, L9_2)
-  A0_2[39] = L7_2
-  L7_2 = A0_2[3]
+  self[39] = L7_2
+  L7_2 = self[3]
   L8_2 = L7_2
   L7_2 = L7_2.f7798D9F4
-  L9_2 = A0_2[61]
+  L9_2 = self[61]
   L10_2 = false
   L7_2(L8_2, L9_2, L10_2)
   L7_2 = C828F047963375FA0
   L7_2 = L7_2.S6A5EC87092D0577A
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L7_2(L8_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.FD2B5B28EB8D17885
+  L8_2 = self
+  L7_2 = self.FD2B5B28EB8D17885
   L7_2(L8_2)
   L7_2 = C3A36506FBC96ACBD
   L7_2 = L7_2.SC6181320B46854EE
-  L8_2 = A0_2[62]
+  L8_2 = self[62]
   L7_2(L8_2)
   L7_2 = C04C2A679B8598CA6
   L7_2 = L7_2.SD071DF9D0379766A
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = 5
   L10_2 = false
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  A0_2[24] = L7_2
+  self[24] = L7_2
   L7_2 = C04C2A679B8598CA6
   L7_2 = L7_2.SD071DF9D0379766A
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = 6
   L10_2 = false
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  A0_2[25] = L7_2
+  self[25] = L7_2
   L7_2 = C04C2A679B8598CA6
   L7_2 = L7_2.SD071DF9D0379766A
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = 7
   L10_2 = false
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  A0_2[26] = L7_2
+  self[26] = L7_2
   L7_2 = C04C2A679B8598CA6
   L7_2 = L7_2.SD071DF9D0379766A
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = 12
   L10_2 = false
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  A0_2[27] = L7_2
+  self[27] = L7_2
   L7_2 = C04C2A679B8598CA6
   L7_2 = L7_2.SD071DF9D0379766A
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = 9
   L10_2 = false
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  A0_2[28] = L7_2
+  self[28] = L7_2
   L7_2 = C04C2A679B8598CA6
   L7_2 = L7_2.SD071DF9D0379766A
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = 8
   L10_2 = false
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  A0_2[29] = L7_2
-  L7_2 = A0_2[24]
+  self[29] = L7_2
+  L7_2 = self[24]
   L8_2 = L7_2
   L7_2 = L7_2.f0C6AF179
   L9_2 = c79C0E4D2
   L9_2 = L9_2.f4905ED7B
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L9_2()
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
-  L7_2 = A0_2[25]
+  L7_2 = self[25]
   L8_2 = L7_2
   L7_2 = L7_2.f0C6AF179
   L9_2 = c79C0E4D2
   L9_2 = L9_2.f4905ED7B
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L9_2()
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
-  L7_2 = A0_2[26]
+  L7_2 = self[26]
   L8_2 = L7_2
   L7_2 = L7_2.f0C6AF179
   L9_2 = c79C0E4D2
   L9_2 = L9_2.f4905ED7B
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L9_2()
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
-  L7_2 = A0_2[27]
+  L7_2 = self[27]
   L8_2 = L7_2
   L7_2 = L7_2.f0C6AF179
   L9_2 = c79C0E4D2
   L9_2 = L9_2.f4905ED7B
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L9_2()
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
-  L7_2 = A0_2[28]
+  L7_2 = self[28]
   L8_2 = L7_2
   L7_2 = L7_2.f0C6AF179
   L9_2 = c79C0E4D2
   L9_2 = L9_2.f4905ED7B
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L9_2()
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
-  L7_2 = A0_2[29]
+  L7_2 = self[29]
   L8_2 = L7_2
   L7_2 = L7_2.f0C6AF179
   L9_2 = c79C0E4D2
   L9_2 = L9_2.f4905ED7B
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L9_2()
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
-  A0_2[30] = false
-  L8_2 = A0_2
-  L7_2 = A0_2.FC9A1A7B89801AFDC
+  self[30] = false
+  L8_2 = self
+  L7_2 = self.FC9A1A7B89801AFDC
   L7_2 = L7_2(L8_2)
   if L7_2 then
-    A0_2[8] = 1
+    self[8] = 1
   else
     L7_2 = C10578806AC30DCA3
     L7_2 = L7_2.S971699EB064C6350
@@ -521,55 +520,55 @@ function L70_1(A0_2, A1_2)
     if L7_2 == L8_2 then
       L7_2 = nil
     end
-    A0_2[8] = L7_2
-    L9_2 = A0_2
-    L8_2 = A0_2.FFD8DAF602408744D
+    self[8] = L7_2
+    L9_2 = self
+    L8_2 = self.FFD8DAF602408744D
     L8_2 = L8_2(L9_2)
     if 5 ~= L8_2 then
-      L8_2 = A0_2[8]
+      L8_2 = self[8]
       if 1 == L8_2 then
-        A0_2[8] = 0
+        self[8] = 0
       end
     end
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.F619E89C2EE8AEB23
-  L9_2 = A0_2[8]
+  L8_2 = self
+  L7_2 = self.F619E89C2EE8AEB23
+  L9_2 = self[8]
   L10_2 = false
   L7_2(L8_2, L9_2, L10_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.FDDBF141BB90786B7
+  L8_2 = self
+  L7_2 = self.FDDBF141BB90786B7
   L7_2(L8_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F22BF641162C50C1B
+  L8_2 = self
+  L7_2 = self.F22BF641162C50C1B
   L7_2(L8_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F1C6644E4B386F4EB
+  L8_2 = self
+  L7_2 = self.F1C6644E4B386F4EB
   L7_2(L8_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F50562D3FC3F9FC2C
+  L8_2 = self
+  L7_2 = self.F50562D3FC3F9FC2C
   L9_2 = CD39F1D6E7FAA0284
   L9_2 = L9_2.S385504EFF7E842C3
   L9_2 = L9_2()
   L10_2 = L9_2
   L9_2 = L9_2.F04DE463F604EF92F
   L11_2 = L52_1.__cast
-  L13_2 = A0_2
-  L12_2 = A0_2.FFD8DAF602408744D
+  L13_2 = self
+  L12_2 = self.FFD8DAF602408744D
   L12_2 = L12_2(L13_2)
   L13_2 = L19_1
   L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L11_2(L12_2, L13_2)
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F6A99C8C714EB4620
+  L8_2 = self
+  L7_2 = self.F6A99C8C714EB4620
   L7_2(L8_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F8C07CA139FFF5E16
+  L8_2 = self
+  L7_2 = self.F8C07CA139FFF5E16
   L9_2 = 0
   L10_2 = true
   L7_2(L8_2, L9_2, L10_2)
-  L7_2 = A0_2[17]
+  L7_2 = self[17]
   L8_2 = L7_2
   L7_2 = L7_2.F28EAF3B3AA178E3E
   L9_2 = C6F37A979564BA87B
@@ -578,21 +577,18 @@ function L70_1(A0_2, A1_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.PreUpdate
+function C37BA02F6534B9C56_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if not L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F7787B74F1EEA85A4
+  L3_2 = self
+  L2_2 = self.F7787B74F1EEA85A4
   L2_2 = L2_2(L3_2)
   if not L2_2 then
-    L2_2 = A0_2[19]
+    L2_2 = self[19]
     L3_2 = nil
     L4_2 = L62_1
     L5_2 = L64_1.pack
@@ -637,17 +633,17 @@ function L70_1(A0_2, A1_2)
       L5_2(L6_2, L7_2)
     end
   end
-  L2_2 = A0_2[30]
+  L2_2 = self[30]
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F1FCC23570D66FF15
+    L3_2 = self
+    L2_2 = self.F1FCC23570D66FF15
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F7787B74F1EEA85A4
+      L3_2 = self
+      L2_2 = self.F7787B74F1EEA85A4
       L2_2 = L2_2(L3_2)
       if L2_2 then
-        L2_2 = A0_2[1]
+        L2_2 = self[1]
         L3_2 = L2_2
         L2_2 = L2_2.f462C9B70
         L2_2 = L2_2(L3_2)
@@ -660,11 +656,11 @@ function L70_1(A0_2, A1_2)
   end
   L2_2 = L10_1.coroutine
   L2_2 = L2_2.status
-  L3_2 = A0_2[39]
+  L3_2 = self[39]
   L3_2 = L3_2[1]
   L2_2 = L2_2(L3_2)
   if "dead" ~= L2_2 then
-    L2_2 = A0_2[39]
+    L2_2 = self[39]
     L3_2 = L62_1
     L4_2 = L64_1.pack
     L5_2 = L10_1.coroutine
@@ -708,32 +704,29 @@ function L70_1(A0_2, A1_2)
       L4_2(L5_2, L6_2)
     end
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FE595FF8372E6584C
+  L3_2 = self
+  L2_2 = self.FE595FF8372E6584C
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FC15A9558B349E23F
+  L3_2 = self
+  L2_2 = self.FC15A9558B349E23F
   L2_2(L3_2)
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   L3_2 = L2_2
   L2_2 = L2_2.FEB6685558281F194
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.Destroy
+function C37BA02F6534B9C56_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FF897E1788A8C1BF9
+  L2_2 = self
+  L1_2 = self.FF897E1788A8C1BF9
   L1_2(L2_2)
   L1_2 = CD39F1D6E7FAA0284
   L1_2 = L1_2.S385504EFF7E842C3
@@ -741,7 +734,7 @@ function L70_1(A0_2)
   L2_2 = L1_2
   L1_2 = L1_2.FAEFE44541EF33A46
   L1_2(L2_2)
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = C10578806AC30DCA3
   L2_2 = L2_2.S971699EB064C6350
   if nil == L1_2 then
@@ -763,7 +756,7 @@ function L70_1(A0_2)
   L3_2(L4_2)
   L3_2 = C3A36506FBC96ACBD
   L3_2 = L3_2.SC6181320B46854EE
-  L4_2 = A0_2[64]
+  L4_2 = self[64]
   L3_2(L4_2)
   L3_2 = CD39F1D6E7FAA0284
   L3_2 = L3_2.S385504EFF7E842C3
@@ -776,16 +769,13 @@ function L70_1(A0_2)
   L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FD014229B3B926D03"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.Close
+function C37BA02F6534B9C56_prototype:FD014229B3B926D03()
   local L1_2, L2_2, L3_2, L4_2
-  A0_2[30] = true
-  L1_2 = A0_2[20]
+  self[30] = true
+  L1_2 = self[20]
   if L1_2 then
-    A0_2[20] = false
+    self[20] = false
     L1_2 = nil
     L2_2 = C1DB14DCC9D7634FA
     L2_2 = L2_2.new
@@ -799,22 +789,19 @@ function L70_1(A0_2)
     
     L4_2 = L1_2
     L2_2 = L2_2(L3_2, L4_2)
-    A0_2[19] = L2_2
+    self[19] = L2_2
   end
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   L2_2 = L1_2
   L1_2 = L1_2.f1EA0CCF2
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F218E2A14A790D265
+  L2_2 = self
+  L1_2 = self.F218E2A14A790D265
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FDF574494B2D0C44A"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.LoadText
+function C37BA02F6534B9C56_prototype:FDF574494B2D0C44A()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L52_1.__cast
   L2_2 = cE461829E
@@ -864,11 +851,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F8044D7492CD1823A"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.IsLoadText
+function C37BA02F6534B9C56_prototype:F8044D7492CD1823A()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L52_1.__cast
   L2_2 = cE461829E
@@ -952,11 +936,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FF897E1788A8C1BF9"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.UnLoadText
+function C37BA02F6534B9C56_prototype:FF897E1788A8C1BF9()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L52_1.__cast
   L2_2 = cE461829E
@@ -1006,14 +987,11 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FFD0335FCCC3FF111"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.FFD0335FCCC3FF111
+function C37BA02F6534B9C56_prototype:FFD0335FCCC3FF111()
   local L1_2, L2_2
   L1_2 = true
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   if 2 == L2_2 or 5 == L2_2 or 9 == L2_2 then
     L1_2 = false
   else
@@ -1021,11 +999,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FD2B5B28EB8D17885"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.UpdateVisiblePokemonStatus
+function C37BA02F6534B9C56_prototype:FD2B5B28EB8D17885(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   if nil == A1_2 then
     A1_2 = false
@@ -1036,7 +1011,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = true
   L6_2 = true
   L7_2 = true
-  L8_2 = A0_2[14]
+  L8_2 = self[14]
   if 2 == L8_2 or 4 == L8_2 or 5 == L8_2 or 9 == L8_2 then
     L6_2 = false
     L5_2 = false
@@ -1063,18 +1038,18 @@ function L70_1(A0_2, A1_2)
     L6_2 = false
   end
   L9_2 = 0
-  L10_2 = A0_2[40]
+  L10_2 = self[40]
   while L9_2 < L10_2 do
     L9_2 = L9_2 + 1
     L11_2 = L9_2 - 1
     L12_2 = L6_2
-    L14_2 = A0_2
-    L13_2 = A0_2.FC9A1A7B89801AFDC
+    L14_2 = self
+    L13_2 = self.FC9A1A7B89801AFDC
     L13_2 = L13_2(L14_2)
     if L13_2 then
       L13_2 = nil
-      L15_2 = A0_2
-      L14_2 = A0_2.F846E26C534FE7CA4
+      L15_2 = self
+      L14_2 = self.F846E26C534FE7CA4
       L14_2 = L14_2(L15_2)
       if L11_2 ~= L14_2 then
         L14_2 = nil
@@ -1096,7 +1071,7 @@ function L70_1(A0_2, A1_2)
         L12_2 = false
       end
     end
-    L13_2 = A0_2[3]
+    L13_2 = self[3]
     L14_2 = L13_2
     L13_2 = L13_2.f542FC647
     L15_2 = L31_1.string
@@ -1132,10 +1107,10 @@ function L70_1(A0_2, A1_2)
     end
     
     L16_2 = L16_2()
-    L17_2 = A0_2[57]
+    L17_2 = self[57]
     L16_2 = L16_2 * L17_2
     L13_2(L14_2, L15_2, L16_2)
-    L13_2 = A0_2[3]
+    L13_2 = self[3]
     L14_2 = L13_2
     L13_2 = L13_2.f542FC647
     L15_2 = L31_1.string
@@ -1171,10 +1146,10 @@ function L70_1(A0_2, A1_2)
     end
     
     L16_2 = L16_2()
-    L17_2 = A0_2[57]
+    L17_2 = self[57]
     L16_2 = L16_2 * L17_2
     L13_2(L14_2, L15_2, L16_2)
-    L13_2 = A0_2[3]
+    L13_2 = self[3]
     L14_2 = L13_2
     L13_2 = L13_2.f542FC647
     L15_2 = L31_1.string
@@ -1210,10 +1185,10 @@ function L70_1(A0_2, A1_2)
     end
     
     L16_2 = L16_2()
-    L17_2 = A0_2[57]
+    L17_2 = self[57]
     L16_2 = L16_2 * L17_2
     L13_2(L14_2, L15_2, L16_2)
-    L13_2 = A0_2[3]
+    L13_2 = self[3]
     L14_2 = L13_2
     L13_2 = L13_2.f542FC647
     L15_2 = L31_1.string
@@ -1249,10 +1224,10 @@ function L70_1(A0_2, A1_2)
     end
     
     L16_2 = L16_2()
-    L17_2 = A0_2[57]
+    L17_2 = self[57]
     L16_2 = L16_2 * L17_2
     L13_2(L14_2, L15_2, L16_2)
-    L13_2 = A0_2[3]
+    L13_2 = self[3]
     L14_2 = L13_2
     L13_2 = L13_2.f542FC647
     L15_2 = L31_1.string
@@ -1288,10 +1263,10 @@ function L70_1(A0_2, A1_2)
     end
     
     L16_2 = L16_2()
-    L17_2 = A0_2[57]
+    L17_2 = self[57]
     L16_2 = L16_2 * L17_2
     L13_2(L14_2, L15_2, L16_2)
-    L13_2 = A0_2[3]
+    L13_2 = self[3]
     L14_2 = L13_2
     L13_2 = L13_2.f542FC647
     L15_2 = L31_1.string
@@ -1327,10 +1302,10 @@ function L70_1(A0_2, A1_2)
     end
     
     L16_2 = L16_2()
-    L17_2 = A0_2[57]
+    L17_2 = self[57]
     L16_2 = L16_2 * L17_2
     L13_2(L14_2, L15_2, L16_2)
-    L13_2 = A0_2[3]
+    L13_2 = self[3]
     L14_2 = L13_2
     L13_2 = L13_2.f542FC647
     L15_2 = L31_1.string
@@ -1354,17 +1329,14 @@ function L70_1(A0_2, A1_2)
     end
     
     L16_2 = L16_2()
-    L17_2 = A0_2[57]
+    L17_2 = self[57]
     L16_2 = L16_2 * L17_2
     L13_2(L14_2, L15_2, L16_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FD9BD9ED70856AE22"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.SetEnableLayout
+function C37BA02F6534B9C56_prototype:FD9BD9ED70856AE22(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A2_2 then
     A2_2 = false
@@ -1373,14 +1345,14 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = nil
   L5_2 = cECF00344
   L5_2 = L5_2.fB3E547E8
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
     L5_2 = nil
     L6_2 = c69ACCC6F
     L6_2 = L6_2.f8C317F18
-    L7_2 = A0_2[16]
+    L7_2 = self[16]
     L8_2 = L5_2
     L6_2 = L6_2(L7_2, L8_2)
     L3_2 = L6_2
@@ -1388,13 +1360,13 @@ function L70_1(A0_2, A1_2, A2_2)
     L3_2 = false
   end
   if L3_2 then
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L6_2 = L5_2
     L5_2 = L5_2.f2A9CF058
     L7_2 = A1_2
     L5_2(L6_2, L7_2)
     if A1_2 then
-      L5_2 = A0_2[30]
+      L5_2 = self[30]
       if L5_2 then
         return
       end
@@ -1416,14 +1388,14 @@ function L70_1(A0_2, A1_2, A2_2)
         L6_2(L7_2, L8_2)
       end
       if not A2_2 then
-        L6_2 = A0_2[16]
+        L6_2 = self[16]
         L7_2 = L6_2
         L6_2 = L6_2.f89358001
         L6_2(L7_2)
       end
-      L6_2 = A0_2[20]
+      L6_2 = self[20]
       if not L6_2 then
-        A0_2[20] = true
+        self[20] = true
         L6_2 = nil
         L7_2 = C1DB14DCC9D7634FA
         L7_2 = L7_2.new
@@ -1451,7 +1423,7 @@ function L70_1(A0_2, A1_2, A2_2)
         
         L9_2 = L6_2
         L7_2 = L7_2(L8_2, L9_2)
-        A0_2[19] = L7_2
+        self[19] = L7_2
       end
     else
       L5_2 = nil
@@ -1472,14 +1444,14 @@ function L70_1(A0_2, A1_2, A2_2)
         L6_2(L7_2, L8_2)
       end
       if not A2_2 then
-        L6_2 = A0_2[16]
+        L6_2 = self[16]
         L7_2 = L6_2
         L6_2 = L6_2.f1EA0CCF2
         L6_2(L7_2)
       end
-      L6_2 = A0_2[20]
+      L6_2 = self[20]
       if L6_2 then
-        A0_2[20] = false
+        self[20] = false
         L6_2 = nil
         L7_2 = C1DB14DCC9D7634FA
         L7_2 = L7_2.new
@@ -1493,23 +1465,20 @@ function L70_1(A0_2, A1_2, A2_2)
         
         L9_2 = L6_2
         L7_2 = L7_2(L8_2, L9_2)
-        A0_2[19] = L7_2
+        self[19] = L7_2
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FF7F59FF97ACEFD83"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.SetPokelistIcon
+function C37BA02F6534B9C56_prototype:FF7F59FF97ACEFD83()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F8F428CD62244C981
+  L2_2 = self
+  L1_2 = self.F8F428CD62244C981
   L1_2 = L1_2(L2_2)
   L2_2 = 0
-  L3_2 = A0_2[40]
+  L3_2 = self[40]
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
@@ -1540,8 +1509,8 @@ function L70_1(A0_2)
     L7_2 = L7_2(L8_2)
     L6_2 = L6_2 .. L7_2
     if L1_2 > L4_2 then
-      L8_2 = A0_2
-      L7_2 = A0_2.F5012D8AAF254701F
+      L8_2 = self
+      L7_2 = self.F5012D8AAF254701F
       L9_2 = L4_2
       L7_2 = L7_2(L8_2, L9_2)
       L8_2 = C2E8D016DD410D06A
@@ -1556,7 +1525,7 @@ function L70_1(A0_2)
       L9_2 = L9_2.F1808DCB1F3A9233F
       L11_2 = L7_2
       L9_2 = L9_2(L10_2, L11_2)
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       L11_2 = L10_2
       L10_2 = L10_2.f6889DAA9
       L12_2 = L6_2
@@ -1564,21 +1533,21 @@ function L70_1(A0_2)
       L14_2 = L9_2[2]
       L15_2 = L9_2[3]
       L10_2(L11_2, L12_2, L13_2, L14_2, L15_2)
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       L11_2 = L10_2
       L10_2 = L10_2.f7798D9F4
       L12_2 = L5_2
       L13_2 = true
       L10_2(L11_2, L12_2, L13_2)
-      L10_2 = A0_2[18]
+      L10_2 = self[18]
       L11_2 = L10_2
       L10_2 = L10_2.F716F089496100A12
-      L12_2 = A0_2[3]
+      L12_2 = self[3]
       L13_2 = L5_2
       L14_2 = L6_2
       L15_2 = L8_2
       L10_2(L11_2, L12_2, L13_2, L14_2, L15_2)
-      L10_2 = A0_2[5]
+      L10_2 = self[5]
       L11_2 = L10_2
       L10_2 = L10_2.f94487CEE
       L12_2 = L31_1.string
@@ -1590,18 +1559,18 @@ function L70_1(A0_2)
       L12_2 = L12_2 .. L13_2
       L13_2 = true
       L10_2(L11_2, L12_2, L13_2)
-      L10_2 = A0_2[15]
+      L10_2 = self[15]
       if nil ~= L10_2 then
-        L10_2 = A0_2[15]
+        L10_2 = self[15]
         L10_2 = L10_2.length
         if L10_2 > 0 then
-          L10_2 = A0_2[15]
+          L10_2 = self[15]
           L10_2 = L10_2[L4_2]
           L11_2 = L10_2
           L10_2 = L10_2.f2A9CF058
           L12_2 = true
           L10_2(L11_2, L12_2)
-          L10_2 = A0_2[15]
+          L10_2 = self[15]
           L10_2 = L10_2[L4_2]
           L11_2 = L10_2
           L10_2 = L10_2.f6277C172
@@ -1610,18 +1579,18 @@ function L70_1(A0_2)
         end
       end
     else
-      L7_2 = A0_2[15]
+      L7_2 = self[15]
       if nil ~= L7_2 then
-        L7_2 = A0_2[15]
+        L7_2 = self[15]
         L7_2 = L7_2.length
         if L7_2 > 0 then
-          L7_2 = A0_2[15]
+          L7_2 = self[15]
           L7_2 = L7_2[L4_2]
           L8_2 = L7_2
           L7_2 = L7_2.f2A9CF058
           L9_2 = false
           L7_2(L8_2, L9_2)
-          L7_2 = A0_2[15]
+          L7_2 = self[15]
           L7_2 = L7_2[L4_2]
           L8_2 = L7_2
           L7_2 = L7_2.f6277C172
@@ -1629,13 +1598,13 @@ function L70_1(A0_2)
           L7_2(L8_2, L9_2)
         end
       end
-      L7_2 = A0_2[3]
+      L7_2 = self[3]
       L8_2 = L7_2
       L7_2 = L7_2.f7798D9F4
       L9_2 = L5_2
       L10_2 = false
       L7_2(L8_2, L9_2, L10_2)
-      L7_2 = A0_2[5]
+      L7_2 = self[5]
       L8_2 = L7_2
       L7_2 = L7_2.f94487CEE
       L9_2 = L31_1.string
@@ -1651,22 +1620,19 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FBE4E5C3EC8D9786B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetPokelistIconPartyIndex
+function C37BA02F6534B9C56_prototype:FBE4E5C3EC8D9786B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F8F428CD62244C981
+  L3_2 = self
+  L2_2 = self.F8F428CD62244C981
   L2_2 = L2_2(L3_2)
   if A1_2 >= L2_2 then
     return
   end
   L2_2 = C2E8D016DD410D06A
   L2_2 = L2_2.SD7E693DFC343AAE6
-  L4_2 = A0_2
-  L3_2 = A0_2.F5012D8AAF254701F
+  L4_2 = self
+  L3_2 = self.F5012D8AAF254701F
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = true
@@ -1684,10 +1650,10 @@ function L70_1(A0_2, A1_2)
   L5_2 = "/L_poke_icon_00/"
   L4_2 = L4_2(L5_2)
   L3_2 = L3_2 .. L4_2
-  L4_2 = A0_2[18]
+  L4_2 = self[18]
   L5_2 = L4_2
   L4_2 = L4_2.F716F089496100A12
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L7_2 = L3_2
   L8_2 = L31_1.string
   L9_2 = L3_2
@@ -1700,11 +1666,8 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F50562D3FC3F9FC2C"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.bag.BagUIViewBagTop.SetItemList
+function C37BA02F6534B9C56_prototype:F50562D3FC3F9FC2C(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   if nil == A3_2 then
     A3_2 = false
@@ -1715,39 +1678,39 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   if nil == A1_2 then
     A1_2 = -1
   end
-  L4_2 = A0_2
+  L4_2 = self
   if A3_2 then
     L5_2 = C14A8D35D72F56FE9
     L5_2 = L5_2.S90D73F1D715BCBF4
     L5_2 = L5_2()
     L6_2 = L5_2
     L5_2 = L5_2.FBD294D57E544DAF4
-    L8_2 = A0_2
-    L7_2 = A0_2.FFD8DAF602408744D
+    L8_2 = self
+    L7_2 = self.FFD8DAF602408744D
     L7_2 = L7_2(L8_2)
     L8_2 = 0
-    L10_2 = A0_2
-    L9_2 = A0_2.F4D67EEC9E329A2E7
+    L10_2 = self
+    L9_2 = self.F4D67EEC9E329A2E7
     L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2 = L9_2(L10_2)
     L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2)
-    A0_2[32] = L5_2
+    self[32] = L5_2
   end
-  L5_2 = A0_2[32]
+  L5_2 = self[32]
   L6_2 = L5_2.length
   L6_2 = L6_2 <= 0
   L7_2 = nil
   L8_2 = cCE2E0561
   L8_2 = L8_2.fA2FBF489
-  L9_2 = A0_2[4]
+  L9_2 = self[4]
   L10_2 = L7_2
   L8_2 = L8_2(L9_2, L10_2)
   if L8_2 then
-    L9_2 = A0_2
-    L8_2 = A0_2.FFD8DAF602408744D
+    L9_2 = self
+    L8_2 = self.FFD8DAF602408744D
     L8_2 = L8_2(L9_2)
     if not L6_2 then
-      L10_2 = A0_2
-      L9_2 = A0_2.F975EDF9C6B34A29E
+      L10_2 = self
+      L9_2 = self.F975EDF9C6B34A29E
       
       function L11_2()
         local L0_3, L1_3
@@ -1764,64 +1727,64 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2 = L11_2()
       L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2)
     else
-      L10_2 = A0_2
-      L9_2 = A0_2.F975EDF9C6B34A29E
+      L10_2 = self
+      L9_2 = self.F975EDF9C6B34A29E
       L11_2 = 0
       L9_2(L10_2, L11_2)
     end
-    L10_2 = A0_2
-    L9_2 = A0_2.FC9A1A7B89801AFDC
+    L10_2 = self
+    L9_2 = self.FC9A1A7B89801AFDC
     L9_2 = L9_2(L10_2)
     if L9_2 then
-      L10_2 = A0_2
-      L9_2 = A0_2.FF37BB0A05383FE5B
+      L10_2 = self
+      L9_2 = self.FF37BB0A05383FE5B
       L9_2 = L9_2(L10_2)
-      L10_2 = A0_2[4]
+      L10_2 = self[4]
       L11_2 = L10_2
       L10_2 = L10_2.f8139EB06
       L12_2 = L9_2.length
       L10_2(L11_2, L12_2)
     else
-      L9_2 = A0_2[4]
+      L9_2 = self[4]
       L10_2 = L9_2
       L9_2 = L9_2.f8139EB06
       L11_2 = L5_2.length
       L9_2(L10_2, L11_2)
     end
-    L10_2 = A0_2
-    L9_2 = A0_2.FFD8DAF602408744D
+    L10_2 = self
+    L9_2 = self.FFD8DAF602408744D
     L9_2 = L9_2(L10_2)
     if 5 == L9_2 then
-      L9_2 = A0_2[8]
+      L9_2 = self[8]
       if 2 == L9_2 then
-        L10_2 = A0_2
-        L9_2 = A0_2.F533836B5F32F337E
-        L11_2 = A0_2[32]
+        L10_2 = self
+        L9_2 = self.F533836B5F32F337E
+        L11_2 = self[32]
         L9_2(L10_2, L11_2)
       end
     end
     if A2_2 then
-      L10_2 = A0_2
-      L9_2 = A0_2.FE46B195DFB572B5F
+      L10_2 = self
+      L9_2 = self.FE46B195DFB572B5F
       L11_2 = 0 == L8_2 or 3 == L8_2
       L9_2(L10_2, L11_2)
-      L10_2 = A0_2
-      L9_2 = A0_2.F096C5E3F45634495
+      L10_2 = self
+      L9_2 = self.F096C5E3F45634495
       L11_2 = 0 == L8_2 or 3 == L8_2
       L9_2(L10_2, L11_2)
     end
     if 4 ~= L8_2 then
-      L10_2 = A0_2
-      L9_2 = A0_2.F034CDA076E573136
+      L10_2 = self
+      L9_2 = self.F034CDA076E573136
       L11_2 = false
       L9_2(L10_2, L11_2)
     end
     L9_2 = 5 == L8_2
-    L11_2 = A0_2
-    L10_2 = A0_2.F76E60A9265F1535B
+    L11_2 = self
+    L10_2 = self.F76E60A9265F1535B
     L12_2 = L9_2
     L10_2(L11_2, L12_2)
-    L10_2 = A0_2[3]
+    L10_2 = self[3]
     L11_2 = L10_2
     L10_2 = L10_2.f7798D9F4
     L12_2 = "N_waza_disc_00"
@@ -2272,24 +2235,24 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       end
     end
     
-    L13_2 = A0_2[4]
+    L13_2 = self[4]
     L14_2 = L13_2
     L13_2 = L13_2.f1D8A575B
     L15_2 = L12_2
     L13_2(L14_2, L15_2)
-    L13_2 = A0_2[4]
+    L13_2 = self[4]
     L14_2 = L13_2
     L13_2 = L13_2.fEDF77BF9
     L15_2 = L11_2
     L13_2(L14_2, L15_2)
-    L13_2 = A0_2[4]
+    L13_2 = self[4]
     L14_2 = L13_2
     L13_2 = L13_2.f4F8C7B75
     L15_2 = L10_2
     L16_2 = false
     L17_2 = false
     L13_2(L14_2, L15_2, L16_2, L17_2)
-    L13_2 = A0_2[4]
+    L13_2 = self[4]
     L14_2 = L13_2
     L13_2 = L13_2.f05D9B2C0
     L15_2 = false
@@ -2300,7 +2263,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L0_3 = nil
       L1_3 = A1_2
       if -1 == L1_3 then
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[13]
       else
         L0_3 = A1_2
@@ -2309,14 +2272,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
     
     L13_2 = L13_2()
-    A0_2[13] = L13_2
+    self[13] = L13_2
     L13_2 = nil
-    L15_2 = A0_2
-    L14_2 = A0_2.F4D67EEC9E329A2E7
+    L15_2 = self
+    L14_2 = self.F4D67EEC9E329A2E7
     L14_2 = L14_2(L15_2)
     if L14_2 then
       L14_2 = L5_2.length
-      L15_2 = A0_2[13]
+      L15_2 = self[13]
       L16_2 = L15_2 < 0
       
       function L17_2()
@@ -2345,37 +2308,37 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       if L14_2 > 0 then
         L14_2 = L5_2.length
         L14_2 = L14_2 - 1
-        A0_2[13] = L14_2
+        self[13] = L14_2
       end
     end
-    L15_2 = A0_2
-    L14_2 = A0_2.F5DAE0AB54EAEE27C
+    L15_2 = self
+    L14_2 = self.F5DAE0AB54EAEE27C
     L14_2 = L14_2(L15_2)
     if L14_2 then
-      L14_2 = A0_2[4]
+      L14_2 = self[4]
       L15_2 = L14_2
       L14_2 = L14_2.f75124177
       L14_2 = L14_2(L15_2)
-      L15_2 = A0_2[4]
+      L15_2 = self[4]
       L16_2 = L15_2
       L15_2 = L15_2.fC5760380
       L17_2 = L14_2
       L18_2 = L14_2
       L15_2(L16_2, L17_2, L18_2)
-      L15_2 = A0_2[4]
+      L15_2 = self[4]
       L16_2 = L15_2
       L15_2 = L15_2.fB46AEBA1
-      L17_2 = A0_2[13]
+      L17_2 = self[13]
       L18_2 = false
       L15_2(L16_2, L17_2, L18_2)
     end
-    L14_2 = A0_2[4]
+    L14_2 = self[4]
     L15_2 = L14_2
     L14_2 = L14_2.fC5760380
     L16_2 = 1
     L17_2 = 8
     L14_2(L15_2, L16_2, L17_2)
-    L14_2 = A0_2[4]
+    L14_2 = self[4]
     L15_2 = L14_2
     L14_2 = L14_2.f223F0381
     L16_2 = CCA4E2E16F360EA78
@@ -2384,64 +2347,64 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L17_2 = L17_2.SA1B220166618D8AF
     L14_2(L15_2, L16_2, L17_2)
   end
-  L9_2 = A0_2
-  L8_2 = A0_2.FD2B5B28EB8D17885
+  L9_2 = self
+  L8_2 = self.FD2B5B28EB8D17885
   L8_2(L9_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.FDEAAEB4FB8119E62
+  L9_2 = self
+  L8_2 = self.FDEAAEB4FB8119E62
   L10_2 = false
   L8_2(L9_2, L10_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.FC79993DCDFF005BE
+  L9_2 = self
+  L8_2 = self.FC79993DCDFF005BE
   L10_2 = "T_nothing_00"
   L11_2 = "bag"
   L12_2 = "msg_ui_bag_noitem"
   L8_2(L9_2, L10_2, L11_2, L12_2)
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.f7798D9F4
   L10_2 = "T_nothing_00"
   L11_2 = L6_2
   L8_2(L9_2, L10_2, L11_2)
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.f7798D9F4
   L10_2 = "L_cursor_00"
-  L12_2 = A0_2
-  L11_2 = A0_2.F5DAE0AB54EAEE27C
+  L12_2 = self
+  L11_2 = self.F5DAE0AB54EAEE27C
   L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2 = L11_2(L12_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2)
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.f7798D9F4
   L10_2 = "N_info_00"
   L11_2 = not L6_2
   L8_2(L9_2, L10_2, L11_2)
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.f7798D9F4
   L10_2 = "N_info_01"
   L11_2 = not L6_2
   L8_2(L9_2, L10_2, L11_2)
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.f7798D9F4
   L10_2 = "T_sort_00"
   L11_2 = not L6_2
   L8_2(L9_2, L10_2, L11_2)
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.f7798D9F4
   L10_2 = "P_sort_00"
   L11_2 = not L6_2
   L8_2(L9_2, L10_2, L11_2)
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.f7798D9F4
   L10_2 = "P_sort_base_00"
   L11_2 = not L6_2
   L8_2(L9_2, L10_2, L11_2)
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.f7798D9F4
   L10_2 = "P_minus_00"
@@ -2449,18 +2412,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L8_2(L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F12912E8391787602"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.UpdateCurrentItemNum
+function C37BA02F6534B9C56_prototype:F12912E8391787602()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = 0
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.length
   if L2_2 > 0 then
-    L2_2 = A0_2[32]
-    L3_2 = A0_2[22]
+    L2_2 = self[32]
+    L3_2 = self[22]
     L2_2 = L2_2[L3_2]
     L1_2 = L2_2.num
   end
@@ -2475,10 +2435,10 @@ function L70_1(A0_2)
   L8_2 = 1
   L9_2 = 1
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FC79993DCDFF005BE
+  L4_2 = self
+  L3_2 = self.FC79993DCDFF005BE
   L5_2 = L31_1.string
-  L6_2 = A0_2[23]
+  L6_2 = self[23]
   L5_2 = L5_2(L6_2)
   L6_2 = L31_1.string
   L7_2 = "/T_possessions_01"
@@ -2490,13 +2450,10 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F55F02520351C736D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.DecideItemEventXMenu
+function C37BA02F6534B9C56_prototype:F55F02520351C736D(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2[17]
+  L3_2 = self[17]
   L4_2 = L3_2
   L3_2 = L3_2.F28EAF3B3AA178E3E
   L5_2 = CF1B52C3AB4C8EE6F
@@ -2506,13 +2463,10 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F7BBC8E887E4EAA94"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.DecideItemEventPokeItem
+function C37BA02F6534B9C56_prototype:F7BBC8E887E4EAA94(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2[17]
+  L3_2 = self[17]
   L4_2 = L3_2
   L3_2 = L3_2.F28EAF3B3AA178E3E
   L5_2 = CB446CB4E8C88D77D
@@ -2522,11 +2476,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FDC91A10C720499F4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.FDC91A10C720499F4
+function C37BA02F6534B9C56_prototype:FDC91A10C720499F4(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = CD39F1D6E7FAA0284
   L3_2 = L3_2.S385504EFF7E842C3
@@ -2556,25 +2507,22 @@ function L70_1(A0_2, A1_2, A2_2)
     L6_2 = L6_2(L7_2, L8_2)
     L4_2 = L6_2
   end
-  L6_2 = A0_2[17]
+  L6_2 = self[17]
   L7_2 = L6_2
   L6_2 = L6_2.F28EAF3B3AA178E3E
   L8_2 = CE5FCBF030A1BA742
   L8_2 = L8_2.new
   L9_2 = A1_2.itemID
-  L10_2 = A0_2[14]
+  L10_2 = self[14]
   L11_2 = L4_2
   L8_2, L9_2, L10_2, L11_2 = L8_2(L9_2, L10_2, L11_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F92BFB0E847DAE41C"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.DecideItemEventBattle
+function C37BA02F6534B9C56_prototype:F92BFB0E847DAE41C(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   L3_2 = L2_2
   L2_2 = L2_2.F28EAF3B3AA178E3E
   L4_2 = CD8B853E7852DB0DC
@@ -2584,13 +2532,10 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F0AA3555D265A5D77"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.DecideItemEventCommand
+function C37BA02F6534B9C56_prototype:F0AA3555D265A5D77(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   L3_2 = L2_2
   L2_2 = L2_2.F28EAF3B3AA178E3E
   L4_2 = CF39CCDE86B1BCDE1
@@ -2600,21 +2545,15 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F63C231D29A8FD365"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.F63C231D29A8FD365
+function C37BA02F6534B9C56_prototype:F63C231D29A8FD365()
   local L1_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FBE0B47699F0E8598"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetItemInfo
+function C37BA02F6534B9C56_prototype:FBE0B47699F0E8598(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
@@ -2623,8 +2562,8 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.F227A45F504A7DB95
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F975EDF9C6B34A29E
+  L4_2 = self
+  L3_2 = self.F975EDF9C6B34A29E
   
   function L5_2()
     local L0_3, L1_3
@@ -2649,68 +2588,62 @@ function L70_1(A0_2, A1_2)
   L7_2 = A1_2
   L8_2 = 1
   L4_2(L5_2, L6_2, L7_2, L8_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FC79993DCDFF005BE
+  L5_2 = self
+  L4_2 = self.FC79993DCDFF005BE
   L6_2 = "T_item_00"
   L7_2 = "bag"
   L8_2 = "msg_ui_bag_itemname"
   L9_2 = L3_2
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F6E122FE2EB6AC1E2
+  L5_2 = self
+  L4_2 = self.F6E122FE2EB6AC1E2
   L6_2 = "T_item_01"
   L7_2 = "iteminfo"
   L8_2 = A1_2
   L4_2(L5_2, L6_2, L7_2, L8_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F0EC0ACC350933B2C
+  L5_2 = self
+  L4_2 = self.F0EC0ACC350933B2C
   L4_2(L5_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FFD8DAF602408744D
+  L5_2 = self
+  L4_2 = self.FFD8DAF602408744D
   L4_2 = L4_2(L5_2)
   if 5 == L4_2 or 0 ~= L2_2 then
     L4_2 = C27B4379DDC700652
     L4_2 = L4_2.S85C04873BAE33ADF
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = A1_2
-    L7_2 = A0_2[18]
+    L7_2 = self[18]
     L8_2 = "P_waza_00"
     L9_2 = "P_waza_00"
     L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FDDBF141BB90786B7"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.SetupHeader
+function C37BA02F6534B9C56_prototype:FDDBF141BB90786B7()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.f46674724
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = "L_header_00/T_title_00"
   L4_2 = "appli_header"
   L5_2 = "appli_header_00_01"
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F22BF641162C50C1B"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.SetupPokemonList
+function C37BA02F6534B9C56_prototype:F22BF641162C50C1B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L1_2 = 0
-  L2_2 = A0_2[40]
+  L2_2 = self[40]
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
-    L3_2 = A0_2[15]
+    L3_2 = self[15]
     L4_2 = L3_2
     L3_2 = L3_2.push
     L5_2 = cECD2E4A5
     L5_2 = L5_2.f6906455E
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = L31_1.string
     L8_2 = "Button_pokeicon_0"
     L7_2 = L7_2(L8_2)
@@ -2725,19 +2658,19 @@ function L70_1(A0_2)
   function L3_2()
     local L0_3, L1_3, L2_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[14]
     if 1 ~= L1_3 then
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[14]
       if 4 ~= L1_3 then
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[14]
         if 5 ~= L1_3 then
-          L1_3 = A0_2
+          L1_3 = self
           L1_3 = L1_3[14]
           if 8 ~= L1_3 then
-            L1_3 = A0_2
+            L1_3 = self
             L1_3 = L1_3[14]
             if 12 ~= L1_3 then
               goto lbl_29
@@ -2755,24 +2688,24 @@ function L70_1(A0_2)
     L0_3 = L1_3
     goto lbl_31
     ::lbl_29::
-    L1_3 = A0_2
+    L1_3 = self
     L0_3 = L1_3[40]
     ::lbl_31::
     return L0_3
   end
   
   L3_2 = L3_2()
-  L5_2 = A0_2
-  L4_2 = A0_2.F846E26C534FE7CA4
+  L5_2 = self
+  L4_2 = self.F846E26C534FE7CA4
   L4_2 = L4_2(L5_2)
   L5_2 = 0
-  L6_2 = A0_2[40]
+  L6_2 = self[40]
   L7_2 = false
   while L5_2 < L6_2 do
     while true do
       L5_2 = L5_2 + 1
       L8_2 = L5_2 - 1
-      L9_2 = A0_2[3]
+      L9_2 = self[3]
       L10_2 = L9_2
       L9_2 = L9_2.f7798D9F4
       L11_2 = L31_1.string
@@ -2790,7 +2723,7 @@ function L70_1(A0_2)
       L11_2 = L11_2 .. L12_2
       L12_2 = false
       L9_2(L10_2, L11_2, L12_2)
-      L9_2 = A0_2[3]
+      L9_2 = self[3]
       L10_2 = L9_2
       L9_2 = L9_2.f7798D9F4
       L11_2 = L31_1.string
@@ -2808,7 +2741,7 @@ function L70_1(A0_2)
       L11_2 = L11_2 .. L12_2
       L12_2 = false
       L9_2(L10_2, L11_2, L12_2)
-      L9_2 = A0_2[3]
+      L9_2 = self[3]
       L10_2 = L9_2
       L9_2 = L9_2.f7798D9F4
       L11_2 = L31_1.string
@@ -2826,7 +2759,7 @@ function L70_1(A0_2)
       L11_2 = L11_2 .. L12_2
       L12_2 = false
       L9_2(L10_2, L11_2, L12_2)
-      L9_2 = A0_2[3]
+      L9_2 = self[3]
       L10_2 = L9_2
       L9_2 = L9_2.f7798D9F4
       L11_2 = L31_1.string
@@ -2844,8 +2777,8 @@ function L70_1(A0_2)
       L11_2 = L11_2 .. L12_2
       L12_2 = false
       L9_2(L10_2, L11_2, L12_2)
-      L10_2 = A0_2
-      L9_2 = A0_2.FC9A1A7B89801AFDC
+      L10_2 = self
+      L9_2 = self.FC9A1A7B89801AFDC
       L9_2 = L9_2(L10_2)
       if L9_2 then
         L9_2 = CD39F1D6E7FAA0284
@@ -2861,7 +2794,7 @@ function L70_1(A0_2)
           if L8_2 ~= L4_2 then
             L9_2 = cECD2E4A5
             L9_2 = L9_2.fBC1D4AC0
-            L10_2 = A0_2[1]
+            L10_2 = self[1]
             L11_2 = "GridPanel_00"
             L9_2 = L9_2(L10_2, L11_2)
             L10_2 = L9_2
@@ -2875,7 +2808,7 @@ function L70_1(A0_2)
             L11_2 = L11_2 .. L12_2
             L12_2 = false
             L9_2(L10_2, L11_2, L12_2)
-            L9_2 = A0_2[15]
+            L9_2 = self[15]
             L9_2 = L9_2[L8_2]
             L10_2 = L9_2
             L9_2 = L9_2.f2A9CF058
@@ -2887,7 +2820,7 @@ function L70_1(A0_2)
       elseif L4_2 <= L8_2 then
         L9_2 = cECD2E4A5
         L9_2 = L9_2.fBC1D4AC0
-        L10_2 = A0_2[1]
+        L10_2 = self[1]
         L11_2 = "GridPanel_00"
         L9_2 = L9_2(L10_2, L11_2)
         L10_2 = L9_2
@@ -2901,7 +2834,7 @@ function L70_1(A0_2)
         L11_2 = L11_2 .. L12_2
         L12_2 = false
         L9_2(L10_2, L11_2, L12_2)
-        L9_2 = A0_2[15]
+        L9_2 = self[15]
         L9_2 = L9_2[L8_2]
         L10_2 = L9_2
         L9_2 = L9_2.f2A9CF058
@@ -2938,7 +2871,7 @@ function L70_1(A0_2)
         if L4_2 <= L8_2 then
           L11_2 = cECD2E4A5
           L11_2 = L11_2.fBC1D4AC0
-          L12_2 = A0_2[1]
+          L12_2 = self[1]
           L13_2 = "GridPanel_00"
           L11_2 = L11_2(L12_2, L13_2)
           L12_2 = L11_2
@@ -2952,7 +2885,7 @@ function L70_1(A0_2)
           L13_2 = L13_2 .. L14_2
           L14_2 = false
           L11_2(L12_2, L13_2, L14_2)
-          L11_2 = A0_2[15]
+          L11_2 = self[15]
           L11_2 = L11_2[L8_2]
           L12_2 = L11_2
           L11_2 = L11_2.f2A9CF058
@@ -2962,7 +2895,7 @@ function L70_1(A0_2)
         else
           L11_2 = cECD2E4A5
           L11_2 = L11_2.fBC1D4AC0
-          L12_2 = A0_2[1]
+          L12_2 = self[1]
           L13_2 = "GridPanel_00"
           L11_2 = L11_2(L12_2, L13_2)
           L12_2 = L11_2
@@ -2976,7 +2909,7 @@ function L70_1(A0_2)
           L13_2 = L13_2 .. L14_2
           L14_2 = true
           L11_2(L12_2, L13_2, L14_2)
-          L11_2 = A0_2[15]
+          L11_2 = self[15]
           L11_2 = L11_2[L8_2]
           L12_2 = L11_2
           L11_2 = L11_2.f2A9CF058
@@ -2984,30 +2917,30 @@ function L70_1(A0_2)
           L11_2(L12_2, L13_2)
         end
       end
-      L12_2 = A0_2
-      L11_2 = A0_2.F5012D8AAF254701F
+      L12_2 = self
+      L11_2 = self.F5012D8AAF254701F
       L13_2 = L8_2
       L11_2 = L11_2(L12_2, L13_2)
-      L13_2 = A0_2
-      L12_2 = A0_2.F0E84C53E56B0D292
+      L13_2 = self
+      L12_2 = self.F0E84C53E56B0D292
       L14_2 = L8_2
       L15_2 = L11_2
       L12_2(L13_2, L14_2, L15_2)
-      L13_2 = A0_2
-      L12_2 = A0_2.F0E927F3E56BC98FC
+      L13_2 = self
+      L12_2 = self.F0E927F3E56BC98FC
       L14_2 = L8_2
       L15_2 = L11_2
       L12_2(L13_2, L14_2, L15_2)
-      L13_2 = A0_2
-      L12_2 = A0_2.F158CC3354025C634
+      L13_2 = self
+      L12_2 = self.F158CC3354025C634
       L14_2 = L8_2
       L15_2 = L11_2
       L12_2(L13_2, L14_2, L15_2)
-      L13_2 = A0_2
-      L12_2 = A0_2.FA9353A60EB1E7960
+      L13_2 = self
+      L12_2 = self.FA9353A60EB1E7960
       L14_2 = L8_2
       L12_2(L13_2, L14_2)
-      L12_2 = A0_2[3]
+      L12_2 = self[3]
       L13_2 = L12_2
       L12_2 = L12_2.f542FC647
       L14_2 = L31_1.string
@@ -3022,17 +2955,17 @@ function L70_1(A0_2)
         local L0_3, L1_3, L2_3
         L0_3 = nil
         L1_3 = L3_2
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[40]
         if L1_3 < L2_3 then
           L1_3 = L3_2
           L2_3 = L8_2
           if L1_3 ~= L2_3 then
-            L1_3 = A0_2
+            L1_3 = self
             L0_3 = L1_3[58]
         end
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[57]
         end
         return L0_3
@@ -3047,63 +2980,54 @@ function L70_1(A0_2)
       break
     end
   end
-  L9_2 = A0_2
-  L8_2 = A0_2.FE6DAFD92A52C29BF
+  L9_2 = self
+  L8_2 = self.FE6DAFD92A52C29BF
   L10_2 = false
   L8_2(L9_2, L10_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.FE46B195DFB572B5F
+  L9_2 = self
+  L8_2 = self.FE46B195DFB572B5F
   L10_2 = false
   L8_2(L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FA62C7B6EEC9DB06F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.GetHpGaugeFrame
+function C37BA02F6534B9C56_prototype:FA62C7B6EEC9DB06F(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L3_2 = A0_2[43]
+  L3_2 = self[43]
   L4_2 = A1_2 / A2_2
-  L5_2 = A0_2[43]
+  L5_2 = self[43]
   L4_2 = L4_2 * L5_2
   L3_2 = L3_2 - L4_2
-  L4_2 = A0_2[44]
+  L4_2 = self[44]
   if L3_2 > L4_2 and A1_2 > 0 then
-    L3_2 = A0_2[44]
+    L3_2 = self[44]
   end
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FE7CF39A8884BEC20"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.GetHpFromFrame
+function C37BA02F6534B9C56_prototype:FE7CF39A8884BEC20(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = L31_1.int
-  L4_2 = A0_2[43]
+  L4_2 = self[43]
   L4_2 = L4_2 - A1_2
-  L5_2 = A0_2[43]
+  L5_2 = self[43]
   L4_2 = L4_2 / L5_2
   L4_2 = A2_2 * L4_2
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FAD31B3E33C8AC663"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.SetPokeHPFrame
+function C37BA02F6534B9C56_prototype:FAD31B3E33C8AC663(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = nil
   L4_2 = cECF00344
   L4_2 = L4_2.fB3E547E8
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.fEAD9FB7D
     L6_2 = L31_1.string
@@ -3121,9 +3045,9 @@ function L70_1(A0_2, A1_2, A2_2)
     L6_2 = L6_2 .. L7_2
     L7_2 = A2_2
     L4_2(L5_2, L6_2, L7_2)
-    L4_2 = A0_2[46]
+    L4_2 = self[46]
     if A2_2 >= L4_2 then
-      L4_2 = A0_2[3]
+      L4_2 = self[3]
       L5_2 = L4_2
       L4_2 = L4_2.fB4E9D030
       L6_2 = L31_1.string
@@ -3141,9 +3065,9 @@ function L70_1(A0_2, A1_2, A2_2)
       L6_2 = L6_2 .. L7_2
       L4_2(L5_2, L6_2)
     else
-      L4_2 = A0_2[45]
+      L4_2 = self[45]
       if A2_2 >= L4_2 then
-        L4_2 = A0_2[3]
+        L4_2 = self[3]
         L5_2 = L4_2
         L4_2 = L4_2.fB4E9D030
         L6_2 = L31_1.string
@@ -3161,7 +3085,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L6_2 = L6_2 .. L7_2
         L4_2(L5_2, L6_2)
       else
-        L4_2 = A0_2[3]
+        L4_2 = self[3]
         L5_2 = L4_2
         L4_2 = L4_2.fB4E9D030
         L6_2 = L31_1.string
@@ -3183,11 +3107,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FC080DA915E756DD9"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.bag.BagUIViewBagTop.SetPokeHPText
+function C37BA02F6534B9C56_prototype:FC080DA915E756DD9(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L4_2 = cB3DDDC2A
   L4_2 = L4_2.f5B6373D5
@@ -3218,7 +3139,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
   L6_2 = c8C3BF576
   L6_2 = L6_2.f316077B2
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L31_1.string
   L9_2 = L31_1.string
   L10_2 = "L_list_00/L_temochi_0"
@@ -3236,30 +3157,27 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F0E84C53E56B0D292"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.SetPokeHP
+function C37BA02F6534B9C56_prototype:F0E84C53E56B0D292(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FC080DA915E756DD9
+  L4_2 = self
+  L3_2 = self.FC080DA915E756DD9
   L5_2 = A1_2
-  L7_2 = A0_2
-  L6_2 = A0_2.FFE11AC2AAFC95411
+  L7_2 = self
+  L6_2 = self.FFE11AC2AAFC95411
   L8_2 = A1_2
   L6_2 = L6_2(L7_2, L8_2)
   L8_2 = A2_2
   L7_2 = A2_2.f5E588EF6
   L7_2, L8_2, L9_2, L10_2 = L7_2(L8_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FAD31B3E33C8AC663
+  L4_2 = self
+  L3_2 = self.FAD31B3E33C8AC663
   L5_2 = A1_2
-  L7_2 = A0_2
-  L6_2 = A0_2.FA62C7B6EEC9DB06F
-  L9_2 = A0_2
-  L8_2 = A0_2.FFE11AC2AAFC95411
+  L7_2 = self
+  L6_2 = self.FA62C7B6EEC9DB06F
+  L9_2 = self
+  L8_2 = self.FFE11AC2AAFC95411
   L10_2 = A1_2
   L8_2 = L8_2(L9_2, L10_2)
   L10_2 = A2_2
@@ -3269,11 +3187,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F0E927F3E56BC98FC"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.SetPokeLV
+function C37BA02F6534B9C56_prototype:F0E927F3E56BC98FC(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L3_2 = cB3DDDC2A
   L3_2 = L3_2.f5B6373D5
@@ -3298,7 +3213,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
   L5_2 = c8C3BF576
   L5_2 = L5_2.f316077B2
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L31_1.string
   L8_2 = L31_1.string
   L9_2 = "L_list_00/L_temochi_0"
@@ -3314,7 +3229,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L7_2 = L7_2 .. L8_2
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[42]
+  L5_2 = self[42]
   L7_2 = A2_2
   L6_2 = A2_2.f5A01CE65
   L6_2 = L6_2(L7_2)
@@ -3381,10 +3296,10 @@ function L70_1(A0_2, A1_2, A2_2)
     
     L12_2 = L12_2()
     L11_2 = L11_2 / L12_2
-    L12_2 = A0_2[42]
+    L12_2 = self[42]
     L5_2 = L11_2 * L12_2
   end
-  L9_2 = A0_2[3]
+  L9_2 = self[3]
   L10_2 = L9_2
   L9_2 = L9_2.fEAD9FB7D
   L11_2 = L31_1.string
@@ -3400,26 +3315,23 @@ function L70_1(A0_2, A1_2, A2_2)
   L13_2 = "/L_exp_00/gauge_scale"
   L12_2 = L12_2(L13_2)
   L11_2 = L11_2 .. L12_2
-  L12_2 = A0_2[42]
+  L12_2 = self[42]
   L12_2 = L12_2 - L5_2
   L9_2(L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F158CC3354025C634"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.SetSickIcon
+function C37BA02F6534B9C56_prototype:F158CC3354025C634(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FFE11AC2AAFC95411
+  L4_2 = self
+  L3_2 = self.FFE11AC2AAFC95411
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   
   function L4_2()
     local L0_3, L1_3, L2_3, L3_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L2_3 = L1_3
     L1_3 = L1_3.FF18058D54896F3CD
     L3_3 = A1_2
@@ -3430,19 +3342,19 @@ function L70_1(A0_2, A1_2, A2_2)
         goto lbl_14
       end
     end
-    L1_3 = A0_2
+    L1_3 = self
     L0_3 = L1_3[59]
     goto lbl_16
     ::lbl_14::
-    L1_3 = A0_2
+    L1_3 = self
     L0_3 = L1_3[60]
     ::lbl_16::
     return L0_3
   end
   
   L4_2 = L4_2()
-  L6_2 = A0_2
-  L5_2 = A0_2.FE5EF76CB180843D5
+  L6_2 = self
+  L5_2 = self.FE5EF76CB180843D5
   L7_2 = A1_2
   L8_2 = A2_2
   L5_2 = L5_2(L6_2, L7_2, L8_2)
@@ -3453,7 +3365,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L8_2 = A1_2
   L7_2 = L7_2(L8_2)
   L6_2 = L6_2 .. L7_2
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L8_2 = L7_2
   L7_2 = L7_2.fEAD9FB7D
   L9_2 = L31_1.string
@@ -3471,7 +3383,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L9_2 = L9_2 .. L10_2
   L10_2 = L4_2
   L7_2(L8_2, L9_2, L10_2)
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L8_2 = L7_2
   L7_2 = L7_2.fEAD9FB7D
   L9_2 = L31_1.string
@@ -3491,14 +3403,11 @@ function L70_1(A0_2, A1_2, A2_2)
   L7_2(L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FE5EF76CB180843D5"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.GetSickAnimFrame
+function C37BA02F6534B9C56_prototype:FE5EF76CB180843D5(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FF18058D54896F3CD
+  L4_2 = self
+  L3_2 = self.FF18058D54896F3CD
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   if 1 == L3_2 then
@@ -3534,14 +3443,11 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FF18058D54896F3CD"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.GetSick
+function C37BA02F6534B9C56_prototype:FF18058D54896F3CD(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4D67EEC9E329A2E7
+  L3_2 = self
+  L2_2 = self.F4D67EEC9E329A2E7
   L2_2 = L2_2(L3_2)
   if L2_2 then
     L2_2 = CC31A25AF0A315E23
@@ -3589,20 +3495,17 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F330BBBDF192A7AA8"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetCanUseTool
+function C37BA02F6534B9C56_prototype:F330BBBDF192A7AA8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4FECF0AAF233C9AA
+  L3_2 = self
+  L2_2 = self.F4FECF0AAF233C9AA
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f62782BA1
   L2_2 = L2_2(L3_2)
   L3_2 = nil
-  L4_2 = A0_2[14]
+  L4_2 = self[14]
   if 6 ~= L4_2 then
     L4_2 = nil
     L5_2 = c113335A8
@@ -3631,12 +3534,12 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F4D67EEC9E329A2E7
+  L5_2 = self
+  L4_2 = self.F4D67EEC9E329A2E7
   L4_2 = L4_2(L5_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F8F428CD62244C981
+    L5_2 = self
+    L4_2 = self.F8F428CD62244C981
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   end
@@ -3645,8 +3548,8 @@ function L70_1(A0_2, A1_2)
   while L4_2 < L5_2 do
     L4_2 = L4_2 + 1
     L6_2 = L4_2 - 1
-    L8_2 = A0_2
-    L7_2 = A0_2.F5012D8AAF254701F
+    L8_2 = self
+    L7_2 = self.F5012D8AAF254701F
     L9_2 = L6_2
     L7_2 = L7_2(L8_2, L9_2)
     L8_2 = false
@@ -3665,8 +3568,8 @@ function L70_1(A0_2, A1_2)
       L10_2 = L10_2(L11_2, L12_2)
       if 0 ~= L10_2 or 2344 == A1_2 or 1861 == A1_2 or 1857 == A1_2 or 1858 == A1_2 then
         L8_2 = true
-        L11_2 = A0_2
-        L10_2 = A0_2.FE558FF619FBB6000
+        L11_2 = self
+        L10_2 = self.FE558FF619FBB6000
         L12_2 = L7_2
         L13_2 = A1_2
         L10_2 = L10_2(L11_2, L12_2, L13_2)
@@ -3760,7 +3663,7 @@ function L70_1(A0_2, A1_2)
     end
     L10_2 = c8C3BF576
     L10_2 = L10_2.f46674724
-    L11_2 = A0_2[1]
+    L11_2 = self[1]
     L12_2 = L31_1.string
     L13_2 = L31_1.string
     L14_2 = "L_list_00/L_temochi_0"
@@ -3790,7 +3693,7 @@ function L70_1(A0_2, A1_2)
     
     L14_2, L15_2, L16_2 = L14_2()
     L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
-    L10_2 = A0_2[3]
+    L10_2 = self[3]
     L11_2 = L10_2
     L10_2 = L10_2.fEAD9FB7D
     L12_2 = L31_1.string
@@ -3821,7 +3724,7 @@ function L70_1(A0_2, A1_2)
     
     L13_2, L14_2, L15_2, L16_2 = L13_2()
     L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
-    L10_2 = A0_2[3]
+    L10_2 = self[3]
     L11_2 = L10_2
     L10_2 = L10_2.f7798D9F4
     L12_2 = L31_1.string
@@ -3842,15 +3745,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FDBCE0D4B16A998BA"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.FDBCE0D4B16A998BA
+function C37BA02F6534B9C56_prototype:FDBCE0D4B16A998BA(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L3_2 = 0
-  L5_2 = A0_2
-  L4_2 = A0_2.F4FECF0AAF233C9AA
+  L5_2 = self
+  L4_2 = self.F4FECF0AAF233C9AA
   L4_2 = L4_2(L5_2)
   L5_2 = L4_2
   L4_2 = L4_2.f62782BA1
@@ -3858,8 +3758,8 @@ function L70_1(A0_2, A1_2, A2_2)
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L5_2 = L3_2 - 1
-    L7_2 = A0_2
-    L6_2 = A0_2.F5012D8AAF254701F
+    L7_2 = self
+    L6_2 = self.F5012D8AAF254701F
     L8_2 = L5_2
     L6_2 = L6_2(L7_2, L8_2)
     L7_2 = false
@@ -3922,7 +3822,7 @@ function L70_1(A0_2, A1_2, A2_2)
     end
     L8_2 = c8C3BF576
     L8_2 = L8_2.f46674724
-    L9_2 = A0_2[1]
+    L9_2 = self[1]
     L10_2 = L31_1.string
     L11_2 = L31_1.string
     L12_2 = "L_list_00/L_temochi_0"
@@ -3952,7 +3852,7 @@ function L70_1(A0_2, A1_2, A2_2)
     
     L12_2, L13_2 = L12_2()
     L8_2(L9_2, L10_2, L11_2, L12_2, L13_2)
-    L8_2 = A0_2[3]
+    L8_2 = self[3]
     L9_2 = L8_2
     L8_2 = L8_2.fEAD9FB7D
     L10_2 = L31_1.string
@@ -3983,7 +3883,7 @@ function L70_1(A0_2, A1_2, A2_2)
     
     L11_2, L12_2, L13_2 = L11_2()
     L8_2(L9_2, L10_2, L11_2, L12_2, L13_2)
-    L8_2 = A0_2[3]
+    L8_2 = self[3]
     L9_2 = L8_2
     L8_2 = L8_2.f7798D9F4
     L10_2 = L31_1.string
@@ -4004,32 +3904,26 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FD6B0AC86BBEB43C1"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.FD6B0AC86BBEB43C1
+function C37BA02F6534B9C56_prototype:FD6B0AC86BBEB43C1()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F330BBBDF192A7AA8
-  L3_2 = A0_2[21]
+  L2_2 = self
+  L1_2 = self.F330BBBDF192A7AA8
+  L3_2 = self[21]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FB7B84404D2E52882"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetCanLearnWaza
+function C37BA02F6534B9C56_prototype:FB7B84404D2E52882(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4FECF0AAF233C9AA
+  L3_2 = self
+  L2_2 = self.F4FECF0AAF233C9AA
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f62782BA1
   L2_2 = L2_2(L3_2)
   L3_2 = nil
-  L4_2 = A0_2[14]
+  L4_2 = self[14]
   if 6 ~= L4_2 then
     L4_2 = nil
     L5_2 = c113335A8
@@ -4058,12 +3952,12 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F4D67EEC9E329A2E7
+  L5_2 = self
+  L4_2 = self.F4D67EEC9E329A2E7
   L4_2 = L4_2(L5_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F8F428CD62244C981
+    L5_2 = self
+    L4_2 = self.F8F428CD62244C981
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   end
@@ -4083,7 +3977,7 @@ function L70_1(A0_2, A1_2)
     function L8_2()
       local L0_3, L1_3, L2_3, L3_3
       L0_3 = nil
-      L1_3 = A0_2
+      L1_3 = self
       L2_3 = L1_3
       L1_3 = L1_3.FC9A1A7B89801AFDC
       L1_3 = L1_3(L2_3)
@@ -4096,7 +3990,7 @@ function L70_1(A0_2, A1_2)
         L1_3 = L1_3(L2_3)
         L0_3 = L1_3
       else
-        L1_3 = A0_2
+        L1_3 = self
         L2_3 = L1_3
         L1_3 = L1_3.F5012D8AAF254701F
         L3_3 = L7_2
@@ -4152,7 +4046,7 @@ function L70_1(A0_2, A1_2)
         L11_2 = L12_2
       end
     end
-    L12_2 = A0_2[3]
+    L12_2 = self[3]
     L13_2 = L12_2
     L12_2 = L12_2.fEAD9FB7D
     L14_2 = L31_1.string
@@ -4172,7 +4066,7 @@ function L70_1(A0_2, A1_2)
     L12_2(L13_2, L14_2, L15_2)
     L12_2 = c8C3BF576
     L12_2 = L12_2.f316077B2
-    L13_2 = A0_2[1]
+    L13_2 = self[1]
     L14_2 = L31_1.string
     L15_2 = L31_1.string
     L16_2 = "L_list_00/L_temochi_0"
@@ -4191,20 +4085,17 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FE6DAFD92A52C29BF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetDispLevel
+function C37BA02F6534B9C56_prototype:FE6DAFD92A52C29BF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4FECF0AAF233C9AA
+  L3_2 = self
+  L2_2 = self.F4FECF0AAF233C9AA
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f62782BA1
   L2_2 = L2_2(L3_2)
   L3_2 = nil
-  L4_2 = A0_2[14]
+  L4_2 = self[14]
   if 6 ~= L4_2 then
     L4_2 = nil
     L5_2 = c113335A8
@@ -4233,24 +4124,24 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F4D67EEC9E329A2E7
+  L5_2 = self
+  L4_2 = self.F4D67EEC9E329A2E7
   L4_2 = L4_2(L5_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F8F428CD62244C981
+    L5_2 = self
+    L4_2 = self.F8F428CD62244C981
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   end
   L4_2 = 0
-  L5_2 = A0_2[40]
+  L5_2 = self[40]
   L6_2 = false
   while L4_2 < L5_2 do
     while true do
       L4_2 = L4_2 + 1
       L7_2 = L4_2 - 1
-      L9_2 = A0_2
-      L8_2 = A0_2.F5012D8AAF254701F
+      L9_2 = self
+      L8_2 = self.F5012D8AAF254701F
       L10_2 = L7_2
       L8_2 = L8_2(L9_2, L10_2)
       L9_2 = false
@@ -4287,7 +4178,7 @@ function L70_1(A0_2, A1_2)
       
       L12_2 = L12_2()
       if L12_2 or L9_2 then
-        L12_2 = A0_2[3]
+        L12_2 = self[3]
         L13_2 = L12_2
         L12_2 = L12_2.f7798D9F4
         L14_2 = L31_1.string
@@ -4307,7 +4198,7 @@ function L70_1(A0_2, A1_2)
         L12_2(L13_2, L14_2, L15_2)
         break
       end
-      L12_2 = A0_2[3]
+      L12_2 = self[3]
       L13_2 = L12_2
       L12_2 = L12_2.f7798D9F4
       L14_2 = L31_1.string
@@ -4334,20 +4225,17 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FE46B195DFB572B5F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetDispHP
+function C37BA02F6534B9C56_prototype:FE46B195DFB572B5F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4FECF0AAF233C9AA
+  L3_2 = self
+  L2_2 = self.F4FECF0AAF233C9AA
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f62782BA1
   L2_2 = L2_2(L3_2)
   L3_2 = nil
-  L4_2 = A0_2[14]
+  L4_2 = self[14]
   if 6 ~= L4_2 then
     L4_2 = nil
     L5_2 = c113335A8
@@ -4376,24 +4264,24 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F4D67EEC9E329A2E7
+  L5_2 = self
+  L4_2 = self.F4D67EEC9E329A2E7
   L4_2 = L4_2(L5_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F8F428CD62244C981
+    L5_2 = self
+    L4_2 = self.F8F428CD62244C981
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   end
   L4_2 = 0
-  L5_2 = A0_2[40]
+  L5_2 = self[40]
   L6_2 = false
   while L4_2 < L5_2 do
     while true do
       L4_2 = L4_2 + 1
       L7_2 = L4_2 - 1
-      L9_2 = A0_2
-      L8_2 = A0_2.F5012D8AAF254701F
+      L9_2 = self
+      L8_2 = self.F5012D8AAF254701F
       L10_2 = L7_2
       L8_2 = L8_2(L9_2, L10_2)
       L9_2 = false
@@ -4430,7 +4318,7 @@ function L70_1(A0_2, A1_2)
       
       L12_2 = L12_2()
       if L12_2 or L9_2 then
-        L12_2 = A0_2[3]
+        L12_2 = self[3]
         L13_2 = L12_2
         L12_2 = L12_2.f7798D9F4
         L14_2 = L31_1.string
@@ -4450,7 +4338,7 @@ function L70_1(A0_2, A1_2)
         L12_2(L13_2, L14_2, L15_2)
         break
       end
-      L12_2 = A0_2[3]
+      L12_2 = self[3]
       L13_2 = L12_2
       L12_2 = L12_2.f7798D9F4
       L14_2 = L31_1.string
@@ -4477,20 +4365,17 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F034CDA076E573136"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.F034CDA076E573136
+function C37BA02F6534B9C56_prototype:F034CDA076E573136(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4FECF0AAF233C9AA
+  L3_2 = self
+  L2_2 = self.F4FECF0AAF233C9AA
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f62782BA1
   L2_2 = L2_2(L3_2)
   L3_2 = nil
-  L4_2 = A0_2[14]
+  L4_2 = self[14]
   if 6 ~= L4_2 then
     L4_2 = nil
     L5_2 = c113335A8
@@ -4519,17 +4404,17 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F4D67EEC9E329A2E7
+  L5_2 = self
+  L4_2 = self.F4D67EEC9E329A2E7
   L4_2 = L4_2(L5_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F8F428CD62244C981
+    L5_2 = self
+    L4_2 = self.F8F428CD62244C981
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   end
   L4_2 = 0
-  L5_2 = A0_2[40]
+  L5_2 = self[40]
   L6_2 = false
   while L4_2 < L5_2 do
     while true do
@@ -4555,7 +4440,7 @@ function L70_1(A0_2, A1_2)
       
       L9_2 = L9_2()
       if L9_2 then
-        L9_2 = A0_2[3]
+        L9_2 = self[3]
         L10_2 = L9_2
         L9_2 = L9_2.f7798D9F4
         L11_2 = L31_1.string
@@ -4575,7 +4460,7 @@ function L70_1(A0_2, A1_2)
         L9_2(L10_2, L11_2, L12_2)
         break
       end
-      L9_2 = A0_2[3]
+      L9_2 = self[3]
       L10_2 = L9_2
       L9_2 = L9_2.f7798D9F4
       L11_2 = L31_1.string
@@ -4602,20 +4487,17 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F76E60A9265F1535B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetDispLearn
+function C37BA02F6534B9C56_prototype:F76E60A9265F1535B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4FECF0AAF233C9AA
+  L3_2 = self
+  L2_2 = self.F4FECF0AAF233C9AA
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f62782BA1
   L2_2 = L2_2(L3_2)
   L3_2 = nil
-  L4_2 = A0_2[14]
+  L4_2 = self[14]
   if 6 ~= L4_2 then
     L4_2 = nil
     L5_2 = c113335A8
@@ -4644,24 +4526,24 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F4D67EEC9E329A2E7
+  L5_2 = self
+  L4_2 = self.F4D67EEC9E329A2E7
   L4_2 = L4_2(L5_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F8F428CD62244C981
+    L5_2 = self
+    L4_2 = self.F8F428CD62244C981
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   end
   L4_2 = 0
-  L5_2 = A0_2[40]
+  L5_2 = self[40]
   L6_2 = false
   while L4_2 < L5_2 do
     while true do
       L4_2 = L4_2 + 1
       L7_2 = L4_2 - 1
-      L9_2 = A0_2
-      L8_2 = A0_2.F5012D8AAF254701F
+      L9_2 = self
+      L8_2 = self.F5012D8AAF254701F
       L10_2 = L7_2
       L8_2 = L8_2(L9_2, L10_2)
       L9_2 = false
@@ -4698,7 +4580,7 @@ function L70_1(A0_2, A1_2)
       
       L12_2 = L12_2()
       if L12_2 or L9_2 then
-        L12_2 = A0_2[3]
+        L12_2 = self[3]
         L13_2 = L12_2
         L12_2 = L12_2.f7798D9F4
         L14_2 = L31_1.string
@@ -4718,7 +4600,7 @@ function L70_1(A0_2, A1_2)
         L12_2(L13_2, L14_2, L15_2)
         break
       end
-      L12_2 = A0_2[3]
+      L12_2 = self[3]
       L13_2 = L12_2
       L12_2 = L12_2.f7798D9F4
       L14_2 = L31_1.string
@@ -4745,20 +4627,17 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F096C5E3F45634495"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetDispSick
+function C37BA02F6534B9C56_prototype:F096C5E3F45634495(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4FECF0AAF233C9AA
+  L3_2 = self
+  L2_2 = self.F4FECF0AAF233C9AA
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f62782BA1
   L2_2 = L2_2(L3_2)
   L3_2 = nil
-  L4_2 = A0_2[14]
+  L4_2 = self[14]
   if 6 ~= L4_2 then
     L4_2 = nil
     L5_2 = c113335A8
@@ -4787,17 +4666,17 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F4D67EEC9E329A2E7
+  L5_2 = self
+  L4_2 = self.F4D67EEC9E329A2E7
   L4_2 = L4_2(L5_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F8F428CD62244C981
+    L5_2 = self
+    L4_2 = self.F8F428CD62244C981
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   end
   L4_2 = 0
-  L5_2 = A0_2[40]
+  L5_2 = self[40]
   L6_2 = false
   while L4_2 < L5_2 do
     while true do
@@ -4823,7 +4702,7 @@ function L70_1(A0_2, A1_2)
       
       L9_2 = L9_2()
       if L9_2 then
-        L9_2 = A0_2[3]
+        L9_2 = self[3]
         L10_2 = L9_2
         L9_2 = L9_2.f7798D9F4
         L11_2 = L31_1.string
@@ -4843,7 +4722,7 @@ function L70_1(A0_2, A1_2)
         L9_2(L10_2, L11_2, L12_2)
         break
       end
-      L9_2 = A0_2[3]
+      L9_2 = self[3]
       L10_2 = L9_2
       L9_2 = L9_2.f7798D9F4
       L11_2 = L31_1.string
@@ -4870,17 +4749,14 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F4FECF0AAF233C9AA"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.GetPokeParty
+function C37BA02F6534B9C56_prototype:F4FECF0AAF233C9AA()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.fFCE06E04
   L1_2 = L1_2()
   L2_2 = nil
-  L3_2 = A0_2[14]
+  L3_2 = self[14]
   if 6 ~= L3_2 then
     L3_2 = nil
     L4_2 = c113335A8
@@ -4909,16 +4785,13 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F48D951BAD8187944"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.SetupCursor
+function C37BA02F6534B9C56_prototype:F48D951BAD8187944()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.length
   if L1_2 <= 0 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.f7798D9F4
     L3_2 = "L_cursor_00"
@@ -4927,13 +4800,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F5DAE0AB54EAEE27C"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.HaveItem
+function C37BA02F6534B9C56_prototype:F5DAE0AB54EAEE27C()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L2_2 = false
   L3_2 = L1_2.length
   if L3_2 > 0 then
@@ -4947,14 +4817,11 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F0EC0ACC350933B2C"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.SetSortText
+function C37BA02F6534B9C56_prototype:F0EC0ACC350933B2C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FC79993DCDFF005BE
+  L2_2 = self
+  L1_2 = self.FC79993DCDFF005BE
   L3_2 = "T_sort_00"
   L4_2 = "bag"
   L5_2 = _hx_tab_array
@@ -4971,16 +4838,13 @@ function L70_1(A0_2)
   L6_2[4] = L10_2
   L7_2 = 5
   L5_2 = L5_2(L6_2, L7_2)
-  L6_2 = A0_2[8]
+  L6_2 = self[8]
   L5_2 = L5_2[L6_2]
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FC79993DCDFF005BE"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.ui.bag.BagUIViewBagTop.SetPaneText
+function C37BA02F6534B9C56_prototype:FC79993DCDFF005BE(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L6_2 = nil
   
@@ -5017,7 +4881,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L3_3 = L8_2
     L1_3 = L1_3(L2_3, L3_3)
     if L1_3 then
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[1]
     else
       L0_3 = A5_2
@@ -5038,11 +4902,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F6E122FE2EB6AC1E2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.bag.BagUIViewBagTop.SetPaneTextIndex
+function C37BA02F6534B9C56_prototype:F6E122FE2EB6AC1E2(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L5_2 = nil
   
@@ -5068,7 +4929,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L6_2 = L6_2()
   L7_2 = c8C3BF576
   L7_2 = L7_2.f316077B2
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = A1_2
   L11_2 = L6_2
   L10_2 = L6_2.f39DD249C
@@ -5081,18 +4942,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F6A99C8C714EB4620"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.SetCategoryText
+function C37BA02F6534B9C56_prototype:F6A99C8C714EB4620()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.f5BDFC7C3
   L1_2 = L1_2(L2_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FC79993DCDFF005BE
+  L3_2 = self
+  L2_2 = self.FC79993DCDFF005BE
   L4_2 = "T_category_00"
   L5_2 = "bag_pocket"
   L6_2 = _hx_tab_array
@@ -5152,33 +5010,27 @@ function L70_1(A0_2)
   L7_2[12] = L19_2
   L8_2 = 13
   L6_2 = L6_2(L7_2, L8_2)
-  L7_2 = A0_2[14]
+  L7_2 = self[14]
   L6_2 = L6_2[L7_2]
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FFD8DAF602408744D"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.GetCurrCategoryNum
+function C37BA02F6534B9C56_prototype:FFD8DAF602408744D()
   local L1_2, L2_2, L3_2, L4_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FE9A48C19C2891C00
-  L3_2 = A0_2[6]
+  L2_2 = self
+  L1_2 = self.FE9A48C19C2891C00
+  L3_2 = self[6]
   L4_2 = L3_2
   L3_2 = L3_2.f5BDFC7C3
   L3_2, L4_2 = L3_2(L4_2)
   return L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FE9A48C19C2891C00"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.FE9A48C19C2891C00
+function C37BA02F6534B9C56_prototype:FE9A48C19C2891C00(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   if 2 == L2_2 then
     if 0 == A1_2 then
       L3_2 = 0
@@ -5263,11 +5115,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F3D1499FBC87D0DC7"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.GetStartCategoryNum
+function C37BA02F6534B9C56_prototype:F3D1499FBC87D0DC7(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = 0
   L4_2 = 0
@@ -5284,36 +5133,33 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FE595FF8372E6584C"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.UpdateCategory
+function C37BA02F6534B9C56_prototype:FE595FF8372E6584C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[7]
-  L3_2 = A0_2
-  L2_2 = A0_2.FFD8DAF602408744D
+  L1_2 = self[7]
+  L3_2 = self
+  L2_2 = self.FFD8DAF602408744D
   L2_2 = L2_2(L3_2)
   if L1_2 ~= L2_2 then
-    L1_2 = A0_2[8]
+    L1_2 = self[8]
     if 0 ~= L1_2 then
-      L1_2 = A0_2[8]
+      L1_2 = self[8]
       if 1 ~= L1_2 then
         goto lbl_23
       end
     end
-    L2_2 = A0_2
-    L1_2 = A0_2.FFD8DAF602408744D
+    L2_2 = self
+    L1_2 = self.FFD8DAF602408744D
     L1_2 = L1_2(L2_2)
     if 5 == L1_2 then
-      A0_2[8] = 1
-      L2_2 = A0_2
-      L1_2 = A0_2.F0EC0ACC350933B2C
+      self[8] = 1
+      L2_2 = self
+      L1_2 = self.F0EC0ACC350933B2C
       L1_2(L2_2)
     else
-      A0_2[8] = 0
-      L2_2 = A0_2
-      L1_2 = A0_2.F0EC0ACC350933B2C
+      self[8] = 0
+      L2_2 = self
+      L1_2 = self.F0EC0ACC350933B2C
       L1_2(L2_2)
     end
     ::lbl_23::
@@ -5322,39 +5168,39 @@ function L70_1(A0_2)
     L1_2 = L1_2()
     L2_2 = L1_2
     L1_2 = L1_2.F53D0D544B42E995B
-    L3_2 = A0_2[7]
-    L4_2 = A0_2[22]
+    L3_2 = self[7]
+    L4_2 = self[22]
     L1_2(L2_2, L3_2, L4_2)
     L1_2 = C14A8D35D72F56FE9
     L1_2 = L1_2.S90D73F1D715BCBF4
     L1_2 = L1_2()
     L2_2 = L1_2
     L1_2 = L1_2.FBD294D57E544DAF4
-    L4_2 = A0_2
-    L3_2 = A0_2.FFD8DAF602408744D
+    L4_2 = self
+    L3_2 = self.FFD8DAF602408744D
     L3_2 = L3_2(L4_2)
-    L4_2 = A0_2[8]
-    L6_2 = A0_2
-    L5_2 = A0_2.F4D67EEC9E329A2E7
+    L4_2 = self[8]
+    L6_2 = self
+    L5_2 = self.F4D67EEC9E329A2E7
     L5_2, L6_2, L7_2, L8_2 = L5_2(L6_2)
     L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
-    A0_2[32] = L1_2
-    A0_2[21] = 0
-    A0_2[22] = 0
-    A0_2[23] = ""
+    self[32] = L1_2
+    self[21] = 0
+    self[22] = 0
+    self[23] = ""
     L1_2 = CD39F1D6E7FAA0284
     L1_2 = L1_2.S385504EFF7E842C3
     L1_2 = L1_2()
     L2_2 = L1_2
     L1_2 = L1_2.F04DE463F604EF92F
     L3_2 = L52_1.__cast
-    L5_2 = A0_2
-    L4_2 = A0_2.FFD8DAF602408744D
+    L5_2 = self
+    L4_2 = self.FFD8DAF602408744D
     L4_2 = L4_2(L5_2)
     L5_2 = L19_1
     L3_2, L4_2, L5_2, L6_2, L7_2, L8_2 = L3_2(L4_2, L5_2)
     L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
-    L2_2 = A0_2[32]
+    L2_2 = self[32]
     L2_2 = L2_2.length
     L3_2 = L1_2 < 0
     
@@ -5383,78 +5229,69 @@ function L70_1(A0_2)
       L5_2 = L4_2
       L4_2 = L4_2.F53D0D544B42E995B
       L6_2 = L52_1.__cast
-      L8_2 = A0_2
-      L7_2 = A0_2.FFD8DAF602408744D
+      L8_2 = self
+      L7_2 = self.FFD8DAF602408744D
       L7_2 = L7_2(L8_2)
       L8_2 = L19_1
       L6_2 = L6_2(L7_2, L8_2)
       L7_2 = 0
       L4_2(L5_2, L6_2, L7_2)
     end
-    L5_2 = A0_2
-    L4_2 = A0_2.F50562D3FC3F9FC2C
+    L5_2 = self
+    L4_2 = self.F50562D3FC3F9FC2C
     L6_2 = L1_2
     L4_2(L5_2, L6_2)
-    L5_2 = A0_2
-    L4_2 = A0_2.F6A99C8C714EB4620
+    L5_2 = self
+    L4_2 = self.F6A99C8C714EB4620
     L4_2(L5_2)
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.FFD8DAF602408744D
+  L2_2 = self
+  L1_2 = self.FFD8DAF602408744D
   L1_2 = L1_2(L2_2)
-  A0_2[7] = L1_2
+  self[7] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F15FAC0682226E9A2"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.GetPrevCategoryNum
+function C37BA02F6534B9C56_prototype:F15FAC0682226E9A2()
   local L1_2, L2_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.f4D4EADED
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F9EFB54A114486D88"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.RegisterFavorete
+function C37BA02F6534B9C56_prototype:F9EFB54A114486D88(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C14A8D35D72F56FE9
   L2_2 = L2_2.S90D73F1D715BCBF4
   L2_2 = L2_2()
   L3_2 = L2_2
   L2_2 = L2_2.F9485C01B3872B57F
-  L4_2 = A0_2[21]
+  L4_2 = self[21]
   L5_2 = A1_2
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f7798D9F4
   L4_2 = L31_1.string
-  L5_2 = A0_2[23]
+  L5_2 = self[23]
   L4_2 = L4_2(L5_2)
   L5_2 = L31_1.string
   L6_2 = "/P_favo_00"
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
-  L5_2 = A0_2[32]
-  L6_2 = A0_2[22]
+  L5_2 = self[32]
+  L6_2 = self[22]
   L5_2 = L5_2[L6_2]
   L5_2 = L5_2.favorete
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F7390F1C8E5C8027D"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.F7390F1C8E5C8027D
+function C37BA02F6534B9C56_prototype:F7390F1C8E5C8027D()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[21]
+  L1_2 = self[21]
   
   function L2_2()
     local L0_3, L1_3
@@ -5474,11 +5311,11 @@ function L70_1(A0_2)
   if L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FE72107A3B84196F7
+  L3_2 = self
+  L2_2 = self.FE72107A3B84196F7
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L2_2 = A0_2[32]
+    L2_2 = self[32]
     L2_2 = L2_2.length
     if L2_2 > 0 then
       L2_2 = C3A36506FBC96ACBD
@@ -5490,17 +5327,17 @@ function L70_1(A0_2)
       L2_2 = L2_2()
       L3_2 = L2_2
       L2_2 = L2_2.F73191D6355C06B79
-      L4_2 = A0_2[21]
+      L4_2 = self[21]
       L2_2 = L2_2(L3_2, L4_2)
       if -1 ~= L2_2 then
         if 0 == L2_2 then
-          L4_2 = A0_2
-          L3_2 = A0_2.F9EFB54A114486D88
+          L4_2 = self
+          L3_2 = self.F9EFB54A114486D88
           L5_2 = true
           L3_2(L4_2, L5_2)
         else
-          L4_2 = A0_2
-          L3_2 = A0_2.F9EFB54A114486D88
+          L4_2 = self
+          L3_2 = self.F9EFB54A114486D88
           L5_2 = false
           L3_2(L4_2, L5_2)
         end
@@ -5509,15 +5346,12 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F1C6644E4B386F4EB"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.SetupCategoryIcon
+function C37BA02F6534B9C56_prototype:F1C6644E4B386F4EB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = cECF00344
   L1_2 = L1_2.fEECE6995
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cECF00344
@@ -5534,7 +5368,7 @@ function L70_1(A0_2)
   L4_2[0] = 0
   L5_2 = 1
   L3_2 = L3_2(L4_2, L5_2)
-  L4_2 = A0_2[14]
+  L4_2 = self[14]
   if 2 == L4_2 then
     L5_2 = _hx_tab_array
     L6_2 = {}
@@ -5626,8 +5460,8 @@ function L70_1(A0_2)
     L5_2 = L5_2(L6_2, L7_2)
     L3_2 = L5_2
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.FBC4E150641D4E47B
+  L6_2 = self
+  L5_2 = self.FBC4E150641D4E47B
   L7_2 = L3_2
   L5_2(L6_2, L7_2)
   L5_2 = 0
@@ -5656,29 +5490,26 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FBC4E150641D4E47B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetupCategoryIconSwitch
+function C37BA02F6534B9C56_prototype:FBC4E150641D4E47B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L2_2 = _hx_tab_array
   L3_2 = {}
   L3_2.length = 0
-  L4_2 = A0_2[52]
+  L4_2 = self[52]
   L3_2[0] = L4_2
-  L4_2 = A0_2[52]
-  L5_2 = A0_2[54]
-  L6_2 = A0_2[52]
-  L7_2 = A0_2[56]
-  L8_2 = A0_2[56]
-  L9_2 = A0_2[53]
-  L10_2 = A0_2[52]
-  L11_2 = A0_2[53]
-  L12_2 = A0_2[55]
-  L13_2 = A0_2[53]
-  L14_2 = A0_2[53]
-  L15_2 = A0_2[53]
+  L4_2 = self[52]
+  L5_2 = self[54]
+  L6_2 = self[52]
+  L7_2 = self[56]
+  L8_2 = self[56]
+  L9_2 = self[53]
+  L10_2 = self[52]
+  L11_2 = self[53]
+  L12_2 = self[55]
+  L13_2 = self[53]
+  L14_2 = self[53]
+  L15_2 = self[53]
   L3_2[1] = L4_2
   L3_2[2] = L5_2
   L3_2[3] = L6_2
@@ -5693,7 +5524,7 @@ function L70_1(A0_2, A1_2)
   L3_2[12] = L15_2
   L4_2 = 13
   L2_2 = L2_2(L3_2, L4_2)
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L4_2 = L3_2
   L3_2 = L3_2.f33F66DA9
   L3_2(L4_2)
@@ -5705,9 +5536,9 @@ function L70_1(A0_2, A1_2)
     L6_2 = "SwitchItem_"
     L5_2 = L5_2(L6_2)
     L6_2 = L31_1.string
-    L8_2 = A0_2
-    L7_2 = A0_2.F5D448DA483B3CBAC
-    L9_2 = A0_2[14]
+    L8_2 = self
+    L7_2 = self.F5D448DA483B3CBAC
+    L9_2 = self[14]
     L9_2 = L2_2[L9_2]
     L10_2 = L3_2 - 1
     L9_2 = L9_2 + L10_2
@@ -5715,14 +5546,14 @@ function L70_1(A0_2, A1_2)
     L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2 = L7_2(L8_2, L9_2, L10_2)
     L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
     L5_2 = L5_2 .. L6_2
-    L6_2 = A0_2[6]
+    L6_2 = self[6]
     L7_2 = L6_2
     L6_2 = L6_2.f6096B7A4
     L8_2 = L5_2
     L6_2(L7_2, L8_2)
     L6_2 = cECD2E4A5
     L6_2 = L6_2.fE87AA76A
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L8_2 = L5_2
     L6_2 = L6_2(L7_2, L8_2)
     L8_2 = L6_2
@@ -5734,15 +5565,15 @@ function L70_1(A0_2, A1_2)
     L9_2 = false
     L7_2(L8_2, L9_2)
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F5D448DA483B3CBAC
-  L7_2 = A0_2[14]
+  L6_2 = self
+  L5_2 = self.F5D448DA483B3CBAC
+  L7_2 = self[14]
   L7_2 = L2_2[L7_2]
   L8_2 = 2
   L5_2 = L5_2(L6_2, L7_2, L8_2)
   L6_2 = cECD2E4A5
   L6_2 = L6_2.fE87AA76A
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L31_1.string
   L9_2 = "SwitchItem_"
   L8_2 = L8_2(L9_2)
@@ -5755,7 +5586,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = L6_2.f6277C172
   L8_2 = true
   L6_2(L7_2, L8_2)
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L7_2 = L6_2
   L6_2 = L6_2.fEAD9FB7D
   L8_2 = "L_category_00/layout_00"
@@ -5770,11 +5601,11 @@ function L70_1(A0_2, A1_2)
   L6_2 = L6_2.F412DDB87C4CF7489
   L6_2 = L6_2(L7_2)
   if -1 ~= L6_2 then
-    L6_2 = A0_2[6]
+    L6_2 = self[6]
     L7_2 = L6_2
     L6_2 = L6_2.f759AE651
-    L9_2 = A0_2
-    L8_2 = A0_2.F3D1499FBC87D0DC7
+    L9_2 = self
+    L8_2 = self.F3D1499FBC87D0DC7
     L10_2 = A1_2
     L11_2 = CD39F1D6E7FAA0284
     L11_2 = L11_2.S385504EFF7E842C3
@@ -5794,15 +5625,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F975EDF9C6B34A29E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.F975EDF9C6B34A29E
+function C37BA02F6534B9C56_prototype:F975EDF9C6B34A29E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cECF00344
@@ -5820,13 +5648,10 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FC15A9558B349E23F"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.UpdateNewIcon
+function C37BA02F6534B9C56_prototype:FC15A9558B349E23F()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2
+  L1_2 = self
   
   function L2_2(A0_3)
     local L1_3, L2_3, L3_3, L4_3, L5_3, L6_3
@@ -5952,7 +5777,7 @@ function L70_1(A0_2)
   function L3_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[11]
     L1_3 = L1_3.count
     if L1_3 >= 2 then
@@ -5967,16 +5792,13 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F8C07CA139FFF5E16"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.UpdateCategoryNewBatch
+function C37BA02F6534B9C56_prototype:F8C07CA139FFF5E16(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A2_2 then
     A2_2 = false
   end
-  L3_2 = A0_2
+  L3_2 = self
   
   function L4_2(A0_3)
     local L1_3, L2_3, L3_3, L4_3, L5_3, L6_3, L7_3, L8_3, L9_3, L10_3, L11_3
@@ -6027,7 +5849,7 @@ function L70_1(A0_2, A1_2, A2_2)
   end
   
   if A2_2 then
-    L5_2 = A0_2[14]
+    L5_2 = self[14]
     if 2 == L5_2 then
       L6_2 = L4_2
       L7_2 = 0
@@ -6096,14 +5918,11 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FF03D8DCC322035F2"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.SetCursorAdjustment
+function C37BA02F6534B9C56_prototype:FF03D8DCC322035F2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2[32]
-  L2_2 = A0_2[4]
+  L1_2 = self[32]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.fD1CE535D
   L2_2 = L2_2(L3_2)
@@ -6130,8 +5949,8 @@ function L70_1(A0_2)
   if L5_2 then
     L5_2 = L2_2 - 1
     L6_2 = L5_2 < 0
-    L8_2 = A0_2
-    L7_2 = A0_2.F50562D3FC3F9FC2C
+    L8_2 = self
+    L7_2 = self.F50562D3FC3F9FC2C
     
     function L9_2()
       local L0_3, L1_3
@@ -6163,21 +5982,18 @@ function L70_1(A0_2)
     L9_2 = L9_2()
     L7_2(L8_2, L9_2)
   else
-    L6_2 = A0_2
-    L5_2 = A0_2.F50562D3FC3F9FC2C
+    L6_2 = self
+    L5_2 = self.F50562D3FC3F9FC2C
     L7_2 = L2_2
     L5_2(L6_2, L7_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F2F493319199274F3"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.SetLastSelect
+function C37BA02F6534B9C56_prototype:F2F493319199274F3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[32]
-  L2_2 = A0_2[4]
+  L1_2 = self[32]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.fD1CE535D
   L2_2 = L2_2(L3_2)
@@ -6233,17 +6049,14 @@ function L70_1(A0_2)
     end
     
     L7_2 = L7_2()
-    A0_2[13] = L7_2
+    self[13] = L7_2
   else
-    A0_2[13] = L2_2
+    self[13] = L2_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F5D448DA483B3CBAC"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.lpad
+function C37BA02F6534B9C56_prototype:F5D448DA483B3CBAC(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = L32_1.lpad
   L4_2 = L31_1.string
@@ -6258,53 +6071,50 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F700595001C631FE6"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.ChangeControl
+function C37BA02F6534B9C56_prototype:F700595001C631FE6(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = false
   end
   if 0 == A1_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.f3ED070C9
     L3_2 = L3_2(L4_2)
     if not L3_2 then
       L3_2 = C3A36506FBC96ACBD
       L3_2 = L3_2.SC6181320B46854EE
-      L4_2 = A0_2[62]
+      L4_2 = self[62]
       L3_2(L4_2)
     end
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.f6277C172
     L5_2 = true
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.f6F06128C
     L3_2(L4_2)
   else
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.f3ED070C9
     L3_2 = L3_2(L4_2)
     if not L3_2 then
       L3_2 = C3A36506FBC96ACBD
       L3_2 = L3_2.SC6181320B46854EE
-      L4_2 = A0_2[63]
+      L4_2 = self[63]
       L3_2(L4_2)
     end
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.f6277C172
     L5_2 = true
     L3_2(L4_2, L5_2)
     if not A2_2 then
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L4_2 = L3_2
       L3_2 = L3_2.f06E080B8
       L5_2 = cEBF4B147
@@ -6316,31 +6126,28 @@ function L70_1(A0_2, A1_2, A2_2)
       L7_2 = false
       L3_2(L4_2, L5_2, L6_2, L7_2)
     end
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.f6F06128C
     L3_2(L4_2)
   end
-  L3_2 = A0_2[16]
+  L3_2 = self[16]
   L4_2 = L3_2
   L3_2 = L3_2.f89358001
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F199225B411A16F27"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.GetSelectButton
+function C37BA02F6534B9C56_prototype:F199225B411A16F27()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = 0
-  L2_2 = A0_2[40]
+  L2_2 = self[40]
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
     L4_2 = cECD2E4A5
     L4_2 = L4_2.f6906455E
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L31_1.string
     L7_2 = "Button_pokeicon_0"
     L6_2 = L6_2(L7_2)
@@ -6360,19 +6167,16 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FDFF4E012F2E445D1"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.IsSelectedPokeListButton
+function C37BA02F6534B9C56_prototype:FDFF4E012F2E445D1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
-  L2_2 = A0_2[40]
+  L2_2 = self[40]
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = cECD2E4A5
     L3_2 = L3_2.f6906455E
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L31_1.string
     L6_2 = "Button_pokeicon_0"
     L5_2 = L5_2(L6_2)
@@ -6393,51 +6197,39 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F5837823E7B27B278"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.IsOpenOkozukai
+function C37BA02F6534B9C56_prototype:F5837823E7B27B278()
   local L1_2
-  L1_2 = A0_2[20]
+  L1_2 = self[20]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F8E31BCDF14FF5824"
-
-function L70_1(A0_2, A1_2)
-  A0_2[20] = A1_2
+--- main.ui.bag.BagUIViewBagTop.SetOpenOkozukaiFlag
+function C37BA02F6534B9C56_prototype:F8E31BCDF14FF5824(A1_2)
+  self[20] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F20891B2213434990"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetCategoryMoveFlag
+function C37BA02F6534B9C56_prototype:F20891B2213434990(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.f6277C172
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F218E2A14A790D265"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.FadeOut
+function C37BA02F6534B9C56_prototype:F218E2A14A790D265()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cECF00344
   L2_2 = L2_2.fB3E547E8
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.fB4E9D030
     L4_2 = "f_out"
@@ -6445,40 +6237,34 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F1FCC23570D66FF15"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.IsFadeOut
+function C37BA02F6534B9C56_prototype:F1FCC23570D66FF15()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cECF00344
   L2_2 = L2_2.f9758FA9B
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.fF8C77C75
   L4_2 = "f_out"
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F7787B74F1EEA85A4"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.F7787B74F1EEA85A4
+function C37BA02F6534B9C56_prototype:F7787B74F1EEA85A4()
   local L1_2, L2_2
-  L1_2 = A0_2[19]
+  L1_2 = self[19]
   if nil ~= L1_2 then
     L1_2 = L10_1.coroutine
     L1_2 = L1_2.status
-    L2_2 = A0_2[19]
+    L2_2 = self[19]
     L2_2 = L2_2[1]
     L1_2 = L1_2(L2_2)
     if "dead" ~= L1_2 then
@@ -6490,17 +6276,14 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F4D67EEC9E329A2E7"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.IsBattle
+function C37BA02F6534B9C56_prototype:F4D67EEC9E329A2E7()
   local L1_2
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   if 2 ~= L1_2 then
-    L1_2 = A0_2[14]
+    L1_2 = self[14]
     if 9 ~= L1_2 then
-      L1_2 = A0_2[14]
+      L1_2 = self[14]
       if 5 ~= L1_2 then
         goto lbl_12
       end
@@ -6513,15 +6296,12 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F8F428CD62244C981"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.GetPokePartyCount
+function C37BA02F6534B9C56_prototype:F8F428CD62244C981()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   if 2 ~= L1_2 then
-    L1_2 = A0_2[14]
+    L1_2 = self[14]
     if 9 ~= L1_2 then
       goto lbl_29
     end
@@ -6539,8 +6319,8 @@ function L70_1(A0_2)
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F4FECF0AAF233C9AA
+    L4_2 = self
+    L3_2 = self.F4FECF0AAF233C9AA
     L3_2 = L3_2(L4_2)
     L4_2 = L3_2
     L3_2 = L3_2.f62782BA1
@@ -6551,7 +6331,7 @@ function L70_1(A0_2)
   do return L3_2(L4_2) end
   goto lbl_87
   ::lbl_29::
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   if 5 == L1_2 then
     L1_2 = CC31A25AF0A315E23
     L1_2 = L1_2.S385504EFF7E842C3
@@ -6566,8 +6346,8 @@ function L70_1(A0_2)
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F4FECF0AAF233C9AA
+      L4_2 = self
+      L3_2 = self.F4FECF0AAF233C9AA
       L3_2 = L3_2(L4_2)
       L4_2 = L3_2
       L3_2 = L3_2.f62782BA1
@@ -6578,7 +6358,7 @@ function L70_1(A0_2)
     return L3_2(L4_2)
   else
     L1_2 = nil
-    L2_2 = A0_2[14]
+    L2_2 = self[14]
     if 6 ~= L2_2 then
       L2_2 = nil
       L3_2 = c113335A8
@@ -6606,8 +6386,8 @@ function L70_1(A0_2)
       L2_2 = L2_2.f62782BA1
       return L2_2(L3_2)
     else
-      L3_2 = A0_2
-      L2_2 = A0_2.F4FECF0AAF233C9AA
+      L3_2 = self
+      L2_2 = self.F4FECF0AAF233C9AA
       L2_2 = L2_2(L3_2)
       L3_2 = L2_2
       L2_2 = L2_2.f62782BA1
@@ -6617,15 +6397,12 @@ function L70_1(A0_2)
   ::lbl_87::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F5012D8AAF254701F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.GetPokeParam
+function C37BA02F6534B9C56_prototype:F5012D8AAF254701F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   if 2 ~= L2_2 then
-    L2_2 = A0_2[14]
+    L2_2 = self[14]
     if 9 ~= L2_2 then
       goto lbl_63
     end
@@ -6643,8 +6420,8 @@ function L70_1(A0_2, A1_2)
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F4FECF0AAF233C9AA
+    L5_2 = self
+    L4_2 = self.F4FECF0AAF233C9AA
     L4_2 = L4_2(L5_2)
     L5_2 = L4_2
     L4_2 = L4_2.f62782BA1
@@ -6669,8 +6446,8 @@ function L70_1(A0_2, A1_2)
     
     L6_2 = L6_2()
     if L6_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.F4FECF0AAF233C9AA
+      L7_2 = self
+      L6_2 = self.F4FECF0AAF233C9AA
       L6_2 = L6_2(L7_2)
       L7_2 = L6_2
       L6_2 = L6_2.f0FDE774D
@@ -6717,7 +6494,7 @@ function L70_1(A0_2, A1_2)
   end
   goto lbl_151
   ::lbl_63::
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   if 5 == L2_2 then
     L2_2 = CC31A25AF0A315E23
     L2_2 = L2_2.S385504EFF7E842C3
@@ -6732,8 +6509,8 @@ function L70_1(A0_2, A1_2)
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F4FECF0AAF233C9AA
+      L5_2 = self
+      L4_2 = self.F4FECF0AAF233C9AA
       L4_2 = L4_2(L5_2)
       L5_2 = L4_2
       L4_2 = L4_2.f62782BA1
@@ -6758,8 +6535,8 @@ function L70_1(A0_2, A1_2)
       
       L6_2 = L6_2()
       if L6_2 then
-        L7_2 = A0_2
-        L6_2 = A0_2.F4FECF0AAF233C9AA
+        L7_2 = self
+        L6_2 = self.F4FECF0AAF233C9AA
         L6_2 = L6_2(L7_2)
         L7_2 = L6_2
         L6_2 = L6_2.f0FDE774D
@@ -6805,7 +6582,7 @@ function L70_1(A0_2, A1_2)
       return L6_2
     end
   else
-    L2_2 = A0_2[14]
+    L2_2 = self[14]
     if 6 == L2_2 then
       L2_2 = CD39F1D6E7FAA0284
       L2_2 = L2_2.S385504EFF7E842C3
@@ -6818,7 +6595,7 @@ function L70_1(A0_2, A1_2)
       L4_2 = A1_2
       return L2_2(L3_2, L4_2)
     else
-      L2_2 = A0_2[14]
+      L2_2 = self[14]
       if 11 == L2_2 then
         L2_2 = CD39F1D6E7FAA0284
         L2_2 = L2_2.S385504EFF7E842C3
@@ -6827,8 +6604,8 @@ function L70_1(A0_2, A1_2)
         L2_2 = L2_2.FF1822E1F872A3C72
         return L2_2(L3_2)
       else
-        L3_2 = A0_2
-        L2_2 = A0_2.F4FECF0AAF233C9AA
+        L3_2 = self
+        L2_2 = self.F4FECF0AAF233C9AA
         L2_2 = L2_2(L3_2)
         L3_2 = L2_2
         L2_2 = L2_2.f0FDE774D
@@ -6840,15 +6617,12 @@ function L70_1(A0_2, A1_2)
   ::lbl_151::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F9FAB167D54A6B90D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.GetBattlePokeParam
+function C37BA02F6534B9C56_prototype:F9FAB167D54A6B90D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   if 2 ~= L2_2 then
-    L2_2 = A0_2[14]
+    L2_2 = self[14]
     if 9 ~= L2_2 then
       goto lbl_27
     end
@@ -6875,7 +6649,7 @@ function L70_1(A0_2, A1_2)
   do return L4_2(L5_2, L6_2) end
   goto lbl_52
   ::lbl_27::
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   if 5 == L2_2 then
     L2_2 = CC31A25AF0A315E23
     L2_2 = L2_2.S385504EFF7E842C3
@@ -6904,15 +6678,12 @@ function L70_1(A0_2, A1_2)
   ::lbl_52::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FFE11AC2AAFC95411"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.GetNowHP
+function C37BA02F6534B9C56_prototype:FFE11AC2AAFC95411(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   if 2 ~= L2_2 then
-    L2_2 = A0_2[14]
+    L2_2 = self[14]
     if 9 ~= L2_2 then
       goto lbl_35
     end
@@ -6930,8 +6701,8 @@ function L70_1(A0_2, A1_2)
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F4FECF0AAF233C9AA
+    L5_2 = self
+    L4_2 = self.F4FECF0AAF233C9AA
     L4_2 = L4_2(L5_2)
     L5_2 = L4_2
     L4_2 = L4_2.f0FDE774D
@@ -6950,7 +6721,7 @@ function L70_1(A0_2, A1_2)
   do return L4_2(L5_2) end
   goto lbl_121
   ::lbl_35::
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   if 5 == L2_2 then
     L2_2 = CC31A25AF0A315E23
     L2_2 = L2_2.S385504EFF7E842C3
@@ -6965,8 +6736,8 @@ function L70_1(A0_2, A1_2)
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F4FECF0AAF233C9AA
+      L5_2 = self
+      L4_2 = self.F4FECF0AAF233C9AA
       L4_2 = L4_2(L5_2)
       L5_2 = L4_2
       L4_2 = L4_2.f0FDE774D
@@ -6985,7 +6756,7 @@ function L70_1(A0_2, A1_2)
     return L4_2(L5_2)
   else
     L2_2 = nil
-    L3_2 = A0_2[14]
+    L3_2 = self[14]
     if 6 ~= L3_2 then
       L3_2 = nil
       L4_2 = c113335A8
@@ -7016,8 +6787,8 @@ function L70_1(A0_2, A1_2)
       L7_2 = L4_2
       L5_2 = L5_2(L6_2, L7_2)
       if L5_2 then
-        L6_2 = A0_2
-        L5_2 = A0_2.F4FECF0AAF233C9AA
+        L6_2 = self
+        L5_2 = self.F4FECF0AAF233C9AA
         L5_2 = L5_2(L6_2)
         L6_2 = L5_2
         L5_2 = L5_2.f0FDE774D
@@ -7035,8 +6806,8 @@ function L70_1(A0_2, A1_2)
       L5_2 = L5_2.fB00EF8D7
       return L5_2(L6_2)
     else
-      L4_2 = A0_2
-      L3_2 = A0_2.F4FECF0AAF233C9AA
+      L4_2 = self
+      L3_2 = self.F4FECF0AAF233C9AA
       L3_2 = L3_2(L4_2)
       L4_2 = L3_2
       L3_2 = L3_2.f0FDE774D
@@ -7050,13 +6821,10 @@ function L70_1(A0_2, A1_2)
   ::lbl_121::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F00E95234C5940CA9"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.F00E95234C5940CA9
+function C37BA02F6534B9C56_prototype:F00E95234C5940CA9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.f3271DED8
   L3_2 = "L_item_00/S_scissor_00"
@@ -7064,7 +6832,7 @@ function L70_1(A0_2)
   L4_2 = L1_2
   L5_2 = L2_2
   L6_2 = L3_2
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L8_2 = L7_2
   L7_2 = L7_2.f3271DED8
   L9_2 = "L_item_00/N_pos_00"
@@ -7079,16 +6847,13 @@ function L70_1(A0_2)
   return L10_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F140CE38D27E79347"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.GetButtonPos
+function C37BA02F6534B9C56_prototype:F140CE38D27E79347()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.f3271DED8
-  L3_2 = A0_2[23]
+  L3_2 = self[23]
   L1_2, L2_2, L3_2 = L1_2(L2_2, L3_2)
   L4_2 = {}
   L5_2 = L1_2
@@ -7100,17 +6865,14 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F2870296B6307D3C7"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.GetButtonSelectPos
+function C37BA02F6534B9C56_prototype:F2870296B6307D3C7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.f3271DED8
   L3_2 = L31_1.string
-  L4_2 = A0_2[23]
+  L4_2 = self[23]
   L3_2 = L3_2(L4_2)
   L4_2 = L31_1.string
   L5_2 = "/N_select_pos_00"
@@ -7127,13 +6889,10 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F24AF8AE75C0E9A9B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetSelectWindowPos
+function C37BA02F6534B9C56_prototype:F24AF8AE75C0E9A9B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f0067ACC1
   L4_2 = "N_num_select_00"
@@ -7143,13 +6902,10 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F062E101CB0F69388"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.F062E101CB0F69388
+function C37BA02F6534B9C56_prototype:F062E101CB0F69388(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f7798D9F4
   L4_2 = "N_num_select_00"
@@ -7157,39 +6913,30 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F53EE397E2BD0D098"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.PlayAnimeUP
+function C37BA02F6534B9C56_prototype:F53EE397E2BD0D098()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fB4E9D030
   L3_2 = "L_num_select_00/L_arrow_00/L_arrow_00/key_up"
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FF35E85408B7BEE2D"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.PlayAnimeDown
+function C37BA02F6534B9C56_prototype:FF35E85408B7BEE2D()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fB4E9D030
   L3_2 = "L_num_select_00/L_arrow_00/key_down"
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F7885CED7EE714B0D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetCursorVisible
+function C37BA02F6534B9C56_prototype:F7885CED7EE714B0D(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f7798D9F4
   L4_2 = "L_num_select_00/L_arrow_00"
@@ -7197,11 +6944,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FDDA2AFCC5C59FA03"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetItemNumText
+function C37BA02F6534B9C56_prototype:FDDA2AFCC5C59FA03(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = C828F047963375FA0
   L2_2 = L2_2.S7F96B3B929C8C9AB
@@ -7225,17 +6969,14 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
   L3_2 = c8C3BF576
   L3_2 = L3_2.f316077B2
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = "L_num_select_00/T_pieces_param_00"
   L6_2 = L2_2
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FCFB9485B1B78F78B"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.bag.BagUIViewBagTop.GetAddQuantity
+function C37BA02F6534B9C56_prototype:FCFB9485B1B78F78B(A1_2, A2_2, A3_2, A4_2)
   local L5_2
   if nil == A4_2 then
     A4_2 = 1
@@ -7255,11 +6996,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FD7B74FFE6416B8CA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.bag.BagUIViewBagTop.GetSubQuantity
+function C37BA02F6534B9C56_prototype:FD7B74FFE6416B8CA(A1_2, A2_2, A3_2, A4_2)
   local L5_2
   if nil == A4_2 then
     A4_2 = 1
@@ -7279,11 +7017,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F619E89C2EE8AEB23"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.SetSortType
+function C37BA02F6534B9C56_prototype:F619E89C2EE8AEB23(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A2_2 then
     A2_2 = true
@@ -7291,70 +7026,64 @@ function L70_1(A0_2, A1_2, A2_2)
   if nil == A1_2 then
     A1_2 = 0
   end
-  A0_2[8] = A1_2
+  self[8] = A1_2
   L3_2 = C14A8D35D72F56FE9
   L3_2 = L3_2.S90D73F1D715BCBF4
   L3_2 = L3_2()
   L4_2 = L3_2
   L3_2 = L3_2.FBD294D57E544DAF4
-  L6_2 = A0_2
-  L5_2 = A0_2.FFD8DAF602408744D
+  L6_2 = self
+  L5_2 = self.FFD8DAF602408744D
   L5_2 = L5_2(L6_2)
-  L6_2 = A0_2[8]
-  L8_2 = A0_2
-  L7_2 = A0_2.F4D67EEC9E329A2E7
+  L6_2 = self[8]
+  L8_2 = self
+  L7_2 = self.F4D67EEC9E329A2E7
   L7_2, L8_2 = L7_2(L8_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
-  A0_2[32] = L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FC9A1A7B89801AFDC
+  self[32] = L3_2
+  L4_2 = self
+  L3_2 = self.FC9A1A7B89801AFDC
   L3_2 = L3_2(L4_2)
   if L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FF37BB0A05383FE5B
+    L4_2 = self
+    L3_2 = self.FF37BB0A05383FE5B
     L3_2 = L3_2(L4_2)
-    A0_2[32] = L3_2
+    self[32] = L3_2
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FFD8DAF602408744D
+  L4_2 = self
+  L3_2 = self.FFD8DAF602408744D
   L3_2 = L3_2(L4_2)
   if 5 == L3_2 and 2 == A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F533836B5F32F337E
-    L5_2 = A0_2[32]
+    L4_2 = self
+    L3_2 = self.F533836B5F32F337E
+    L5_2 = self[32]
     L3_2(L4_2, L5_2)
   end
   if A2_2 then
     L3_2 = C3A36506FBC96ACBD
     L3_2 = L3_2.SC6181320B46854EE
-    L4_2 = A0_2[65]
+    L4_2 = self[65]
     L3_2(L4_2)
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F0EC0ACC350933B2C
+  L4_2 = self
+  L3_2 = self.F0EC0ACC350933B2C
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F533836B5F32F337E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetSortArraySortWazaName
+function C37BA02F6534B9C56_prototype:F533836B5F32F337E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L38_1.sort
   L3_2 = A1_2
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F8C1FEB0F2E9907AD
+  L5_2 = self
+  L6_2 = self.F8C1FEB0F2E9907AD
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F8C1FEB0F2E9907AD"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.ItemArraySortWazaName
+function C37BA02F6534B9C56_prototype:F8C1FEB0F2E9907AD(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = -1
   L4_2 = C6BC8418E8E071EE6
@@ -7364,11 +7093,11 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = L4_2.F227A45F504A7DB95
   L6_2 = A1_2.itemID
   L4_2 = L4_2(L5_2, L6_2)
-  L5_2 = A0_2[38]
+  L5_2 = self[38]
   L5_2 = L5_2.h
   L5_2 = L5_2[L4_2]
   if nil ~= L5_2 then
-    L5_2 = A0_2[38]
+    L5_2 = self[38]
     L5_2 = L5_2.h
     L5_2 = L5_2[L4_2]
     L6_2 = L42_1.tnull
@@ -7388,11 +7117,11 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = L6_2.F227A45F504A7DB95
   L8_2 = A2_2.itemID
   L6_2 = L6_2(L7_2, L8_2)
-  L7_2 = A0_2[38]
+  L7_2 = self[38]
   L7_2 = L7_2.h
   L7_2 = L7_2[L6_2]
   if nil ~= L7_2 then
-    L7_2 = A0_2[38]
+    L7_2 = self[38]
     L7_2 = L7_2.h
     L7_2 = L7_2[L6_2]
     L8_2 = L42_1.tnull
@@ -7415,21 +7144,18 @@ function L70_1(A0_2, A1_2, A2_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FB2F2EE243461C07F"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.LoadWazaNameSortInfo
+function C37BA02F6534B9C56_prototype:FB2F2EE243461C07F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[37]
+  L1_2 = self[37]
   L2_2 = L1_2
   L1_2 = L1_2.f0EF10D0C
-  L3_2 = A0_2[34]
-  L4_2 = A0_2[35]
-  L5_2 = A0_2[36]
+  L3_2 = self[34]
+  L4_2 = self[35]
+  L5_2 = self[36]
   L1_2(L2_2, L3_2, L4_2, L5_2)
   while true do
-    L1_2 = A0_2[37]
+    L1_2 = self[37]
     L2_2 = L1_2
     L1_2 = L1_2.f33381812
     L1_2 = L1_2(L2_2)
@@ -7443,7 +7169,7 @@ function L70_1(A0_2)
   L1_2 = 0
   while L1_2 < 48 do
     L1_2 = L1_2 + 1
-    L2_2 = A0_2[37]
+    L2_2 = self[37]
     L3_2 = L2_2
     L2_2 = L2_2.f672C7C39
     L4_2 = L1_2 - 1
@@ -7462,12 +7188,12 @@ function L70_1(A0_2)
       while L3_2 < L4_2 do
         L3_2 = L3_2 + 1
         L5_2 = L3_2 - 1
-        L6_2 = A0_2[37]
+        L6_2 = self[37]
         L7_2 = L6_2
         L6_2 = L6_2.f3A0BB345
         L8_2 = L5_2
         L6_2 = L6_2(L7_2, L8_2)
-        L7_2 = A0_2[38]
+        L7_2 = self[38]
         L8_2 = L6_2
         if nil == L5_2 then
           L9_2 = L7_2.h
@@ -7482,22 +7208,16 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FC9A1A7B89801AFDC"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.FC9A1A7B89801AFDC
+function C37BA02F6534B9C56_prototype:FC9A1A7B89801AFDC()
   local L1_2
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   L1_2 = 7 == L1_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FF37BB0A05383FE5B"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.FF37BB0A05383FE5B
+function C37BA02F6534B9C56_prototype:FF37BB0A05383FE5B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = CD39F1D6E7FAA0284
   L1_2 = L1_2.S385504EFF7E842C3
@@ -7505,8 +7225,8 @@ function L70_1(A0_2)
   L2_2 = L1_2
   L1_2 = L1_2.F32824C20B957C242
   L1_2 = L1_2(L2_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F63C231D29A8FD365
+  L3_2 = self
+  L2_2 = self.F63C231D29A8FD365
   L2_2 = L2_2(L3_2)
   L3_2 = L26_1.new
   L3_2 = L3_2()
@@ -7514,7 +7234,7 @@ function L70_1(A0_2)
   function L4_2()
     local L0_3, L1_3, L2_3, L3_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L2_3 = L1_3
     L1_3 = L1_3.FC9A1A7B89801AFDC
     L1_3 = L1_3(L2_3)
@@ -7527,7 +7247,7 @@ function L70_1(A0_2)
       L1_3 = L1_3(L2_3)
       L0_3 = L1_3
     else
-      L1_3 = A0_2
+      L1_3 = self
       L2_3 = L1_3
       L1_3 = L1_3.F5012D8AAF254701F
       L3_3 = L1_2
@@ -7571,69 +7291,63 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F1CBCB2054567F1A6"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.F1CBCB2054567F1A6
+function C37BA02F6534B9C56_prototype:F1CBCB2054567F1A6(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f7798D9F4
-  L4_2 = A0_2[61]
+  L4_2 = self[61]
   L5_2 = A1_2
   L2_2(L3_2, L4_2, L5_2)
   if A1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FE46B195DFB572B5F
+    L3_2 = self
+    L2_2 = self.FE46B195DFB572B5F
     L4_2 = false
     L2_2(L3_2, L4_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.F096C5E3F45634495
+    L3_2 = self
+    L2_2 = self.F096C5E3F45634495
     L4_2 = false
     L2_2(L3_2, L4_2)
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.FFD8DAF602408744D
+    L3_2 = self
+    L2_2 = self.FFD8DAF602408744D
     L2_2 = L2_2(L3_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.FE46B195DFB572B5F
+    L4_2 = self
+    L3_2 = self.FE46B195DFB572B5F
     L5_2 = 0 == L2_2 or 3 == L2_2
     L3_2(L4_2, L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FA4BE7D46134A5A61"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.OnCursorItemDisplay
+function C37BA02F6534B9C56_prototype:FA4BE7D46134A5A61(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = 0
-  L3_2 = A0_2[40]
+  L3_2 = self[40]
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L6_2 = A0_2
-    L5_2 = A0_2.F220F5BC95F4995B9
+    L6_2 = self
+    L5_2 = self.F220F5BC95F4995B9
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
     L5_2 = L5_2 and A1_2 == L4_2
-    L7_2 = A0_2
-    L6_2 = A0_2.F4EB1FD1C225B4DF5
+    L7_2 = self
+    L6_2 = self.F4EB1FD1C225B4DF5
     L8_2 = L4_2
     L9_2 = L5_2
     L6_2(L7_2, L8_2, L9_2)
-    L7_2 = A0_2
-    L6_2 = A0_2.F6D562F1D86A95E2B
+    L7_2 = self
+    L6_2 = self.F6D562F1D86A95E2B
     L8_2 = L4_2
     L6_2(L7_2, L8_2)
-    L7_2 = A0_2
-    L6_2 = A0_2.FA9353A60EB1E7960
+    L7_2 = self
+    L6_2 = self.FA9353A60EB1E7960
     L8_2 = L4_2
     L6_2(L7_2, L8_2)
     if L5_2 then
-      L6_2 = A0_2[3]
+      L6_2 = self[3]
       L7_2 = L6_2
       L6_2 = L6_2.fB4E9D030
       L8_2 = L31_1.string
@@ -7651,7 +7365,7 @@ function L70_1(A0_2, A1_2)
       L8_2 = L8_2 .. L9_2
       L6_2(L7_2, L8_2)
     else
-      L6_2 = A0_2[3]
+      L6_2 = self[3]
       L7_2 = L6_2
       L6_2 = L6_2.fB4E9D030
       L8_2 = L31_1.string
@@ -7670,36 +7384,33 @@ function L70_1(A0_2, A1_2)
       L6_2(L7_2, L8_2)
     end
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.FDEAAEB4FB8119E62
+  L5_2 = self
+  L4_2 = self.FDEAAEB4FB8119E62
   L6_2 = true
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FC18C1B62E77601D6"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.FC18C1B62E77601D6
+function C37BA02F6534B9C56_prototype:FC18C1B62E77601D6(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = 0
-  L4_2 = A0_2[40]
+  L4_2 = self[40]
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L5_2 = L3_2 - 1
-    L7_2 = A0_2
-    L6_2 = A0_2.F220F5BC95F4995B9
+    L7_2 = self
+    L6_2 = self.F220F5BC95F4995B9
     L8_2 = L5_2
     L6_2 = L6_2(L7_2, L8_2)
     L6_2 = L6_2 and A2_2 == L5_2
     if not L6_2 then
       if A1_2 == L5_2 then
-        L8_2 = A0_2
-        L7_2 = A0_2.F4EB1FD1C225B4DF5
+        L8_2 = self
+        L7_2 = self.F4EB1FD1C225B4DF5
         L9_2 = L5_2
         L10_2 = not L6_2
         L7_2(L8_2, L9_2, L10_2)
-        L7_2 = A0_2[3]
+        L7_2 = self[3]
         L8_2 = L7_2
         L7_2 = L7_2.f7798D9F4
         L9_2 = L31_1.string
@@ -7718,7 +7429,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L10_2 = true
         L7_2(L8_2, L9_2, L10_2)
       else
-        L7_2 = A0_2[3]
+        L7_2 = self[3]
         L8_2 = L7_2
         L7_2 = L7_2.f7798D9F4
         L9_2 = L31_1.string
@@ -7738,22 +7449,22 @@ function L70_1(A0_2, A1_2, A2_2)
         L7_2(L8_2, L9_2, L10_2)
       end
     else
-      L8_2 = A0_2
-      L7_2 = A0_2.F4EB1FD1C225B4DF5
+      L8_2 = self
+      L7_2 = self.F4EB1FD1C225B4DF5
       L9_2 = L5_2
       L10_2 = L6_2
       L7_2(L8_2, L9_2, L10_2)
     end
-    L8_2 = A0_2
-    L7_2 = A0_2.F6D562F1D86A95E2B
+    L8_2 = self
+    L7_2 = self.F6D562F1D86A95E2B
     L9_2 = L5_2
     L7_2(L8_2, L9_2)
-    L8_2 = A0_2
-    L7_2 = A0_2.FA9353A60EB1E7960
+    L8_2 = self
+    L7_2 = self.FA9353A60EB1E7960
     L9_2 = L5_2
     L7_2(L8_2, L9_2)
     if L6_2 then
-      L7_2 = A0_2[3]
+      L7_2 = self[3]
       L8_2 = L7_2
       L7_2 = L7_2.fB4E9D030
       L9_2 = L31_1.string
@@ -7771,7 +7482,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L9_2 = L9_2 .. L10_2
       L7_2(L8_2, L9_2)
     else
-      L7_2 = A0_2[3]
+      L7_2 = self[3]
       L8_2 = L7_2
       L7_2 = L7_2.fB4E9D030
       L9_2 = L31_1.string
@@ -7792,17 +7503,14 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FD46EA05D7C077016"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.UnSelectSwapItem
+function C37BA02F6534B9C56_prototype:FD46EA05D7C077016()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = 0
-  L2_2 = A0_2[40]
+  L2_2 = self[40]
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.f7798D9F4
     L5_2 = L31_1.string
@@ -7823,65 +7531,56 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F8331CBF3BC0BD70B"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.F8331CBF3BC0BD70B
+function C37BA02F6534B9C56_prototype:F8331CBF3BC0BD70B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
-  L2_2 = A0_2[40]
+  L2_2 = self[40]
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L5_2 = A0_2
-    L4_2 = A0_2.F4EB1FD1C225B4DF5
+    L5_2 = self
+    L4_2 = self.F4EB1FD1C225B4DF5
     L6_2 = L3_2
     L7_2 = false
     L4_2(L5_2, L6_2, L7_2)
-    L5_2 = A0_2
-    L4_2 = A0_2.FD3563ED0D9528F53
+    L5_2 = self
+    L4_2 = self.FD3563ED0D9528F53
     L6_2 = L3_2
     L7_2 = false
     L4_2(L5_2, L6_2, L7_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F5856D495997D34AE"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.F5856D495997D34AE
+function C37BA02F6534B9C56_prototype:F5856D495997D34AE()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
-  L2_2 = A0_2[40]
+  L2_2 = self[40]
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L5_2 = A0_2
-    L4_2 = A0_2.FD3563ED0D9528F53
+    L5_2 = self
+    L4_2 = self.FD3563ED0D9528F53
     L6_2 = L3_2
     L7_2 = true
     L4_2(L5_2, L6_2, L7_2)
-    L5_2 = A0_2
-    L4_2 = A0_2.FA9353A60EB1E7960
+    L5_2 = self
+    L4_2 = self.FA9353A60EB1E7960
     L6_2 = L3_2
     L4_2(L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F6D562F1D86A95E2B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetTextSwapItemName
+function C37BA02F6534B9C56_prototype:F6D562F1D86A95E2B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FD4BBCF5458B54B4B
+  L3_2 = self
+  L2_2 = self.FD4BBCF5458B54B4B
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F220F5BC95F4995B9
+  L4_2 = self
+  L3_2 = self.F220F5BC95F4995B9
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = L31_1.string
@@ -7897,7 +7596,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = "/T_item_00"
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.f7798D9F4
   L7_2 = L4_2
@@ -7923,20 +7622,17 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2)
   L6_2 = c8C3BF576
   L6_2 = L6_2.f316077B2
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L4_2
   L9_2 = L5_2
   L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FA9353A60EB1E7960"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.SetPokemonHaveItemIcon
+function C37BA02F6534B9C56_prototype:FA9353A60EB1E7960(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FD4BBCF5458B54B4B
+  L3_2 = self
+  L2_2 = self.FD4BBCF5458B54B4B
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = C2E8D016DD410D06A
@@ -7950,7 +7646,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = A1_2
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.f7798D9F4
   L7_2 = L31_1.string
@@ -7962,10 +7658,10 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2 .. L8_2
   L8_2 = 0 ~= L2_2
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[18]
+  L5_2 = self[18]
   L6_2 = L5_2
   L5_2 = L5_2.F716F089496100A12
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L8_2 = L4_2
   L9_2 = L31_1.string
   L10_2 = L4_2
@@ -7978,13 +7674,10 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FD3563ED0D9528F53"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.SetShowPokemonHaveItemIcon
+function C37BA02F6534B9C56_prototype:FD3563ED0D9528F53(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = L31_1.string
@@ -8004,42 +7697,33 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F40C45260D492067C"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.F40C45260D492067C
+function C37BA02F6534B9C56_prototype:F40C45260D492067C()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F330BBBDF192A7AA8
+  L2_2 = self
+  L1_2 = self.F330BBBDF192A7AA8
   L3_2 = 1278
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F11736A997C3BA23F"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.F11736A997C3BA23F
+function C37BA02F6534B9C56_prototype:F11736A997C3BA23F()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F034CDA076E573136
+  L2_2 = self
+  L1_2 = self.F034CDA076E573136
   L3_2 = false
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F330BBBDF192A7AA8
+  L2_2 = self
+  L1_2 = self.F330BBBDF192A7AA8
   L3_2 = 1278
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FD4BBCF5458B54B4B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.GetPokemonItem
+function C37BA02F6534B9C56_prototype:FD4BBCF5458B54B4B(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F5012D8AAF254701F
+  L3_2 = self
+  L2_2 = self.F5012D8AAF254701F
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = L2_2
@@ -8047,14 +7731,11 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F220F5BC95F4995B9"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.IsShowHaveItem
+function C37BA02F6534B9C56_prototype:F220F5BC95F4995B9(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FD4BBCF5458B54B4B
+  L3_2 = self
+  L2_2 = self.FD4BBCF5458B54B4B
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if 0 ~= L2_2 then
@@ -8066,29 +7747,26 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F35F2A3CA93780F80"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.F35F2A3CA93780F80
+function C37BA02F6534B9C56_prototype:F35F2A3CA93780F80(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FD4BBCF5458B54B4B
+  L3_2 = self
+  L2_2 = self.FD4BBCF5458B54B4B
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F4EB1FD1C225B4DF5
+  L3_2 = self
+  L2_2 = self.F4EB1FD1C225B4DF5
   L4_2 = A1_2
-  L6_2 = A0_2
-  L5_2 = A0_2.F220F5BC95F4995B9
+  L6_2 = self
+  L5_2 = self.F220F5BC95F4995B9
   L7_2 = A1_2
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F6D562F1D86A95E2B
+  L3_2 = self
+  L2_2 = self.F6D562F1D86A95E2B
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f7798D9F4
   L4_2 = L31_1.string
@@ -8108,17 +7786,14 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F846E26C534FE7CA4"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.GetMemberCount
+function C37BA02F6534B9C56_prototype:F846E26C534FE7CA4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   
   function L1_2()
     local L0_3, L1_3, L2_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L2_3 = L1_3
     L1_3 = L1_3.FC9A1A7B89801AFDC
     L1_3 = L1_3(L2_3)
@@ -8144,7 +7819,7 @@ function L70_1(A0_2)
   
   L1_2 = L1_2()
   L2_2 = nil
-  L3_2 = A0_2[14]
+  L3_2 = self[14]
   if 6 ~= L3_2 then
     L3_2 = nil
     L4_2 = c113335A8
@@ -8173,35 +7848,32 @@ function L70_1(A0_2)
     L3_2 = L3_2(L4_2)
     L1_2 = L3_2
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F4D67EEC9E329A2E7
+  L4_2 = self
+  L3_2 = self.F4D67EEC9E329A2E7
   L3_2 = L3_2(L4_2)
   if L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F8F428CD62244C981
+    L4_2 = self
+    L3_2 = self.F8F428CD62244C981
     L3_2 = L3_2(L4_2)
     L1_2 = L3_2
   end
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FDEAAEB4FB8119E62"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.ShowHaveItemName
+function C37BA02F6534B9C56_prototype:FDEAAEB4FB8119E62(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = 0
-  L3_2 = A0_2[40]
+  L3_2 = self[40]
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
     L5_2 = A1_2
-    L7_2 = A0_2
-    L6_2 = A0_2.F846E26C534FE7CA4
+    L7_2 = self
+    L6_2 = self.F846E26C534FE7CA4
     L6_2 = L6_2(L7_2)
-    L8_2 = A0_2
-    L7_2 = A0_2.FC9A1A7B89801AFDC
+    L8_2 = self
+    L7_2 = self.FC9A1A7B89801AFDC
     L7_2 = L7_2(L8_2)
     if L7_2 then
       if L4_2 ~= L6_2 then
@@ -8211,24 +7883,24 @@ function L70_1(A0_2, A1_2)
       L5_2 = false
     end
     if A1_2 then
-      L8_2 = A0_2
-      L7_2 = A0_2.F35F2A3CA93780F80
+      L8_2 = self
+      L7_2 = self.F35F2A3CA93780F80
       L9_2 = L4_2
       L7_2(L8_2, L9_2)
-      L8_2 = A0_2
-      L7_2 = A0_2.F220F5BC95F4995B9
+      L8_2 = self
+      L7_2 = self.F220F5BC95F4995B9
       L9_2 = L4_2
       L7_2 = L7_2(L8_2, L9_2)
       if not L7_2 then
         L5_2 = false
       end
-      L8_2 = A0_2
-      L7_2 = A0_2.F4EB1FD1C225B4DF5
+      L8_2 = self
+      L7_2 = self.F4EB1FD1C225B4DF5
       L9_2 = L4_2
       L10_2 = L5_2
       L7_2(L8_2, L9_2, L10_2)
     else
-      L7_2 = A0_2[3]
+      L7_2 = self[3]
       L8_2 = L7_2
       L7_2 = L7_2.f7798D9F4
       L9_2 = L31_1.string
@@ -8241,7 +7913,7 @@ function L70_1(A0_2, A1_2)
       L10_2 = A1_2
       L7_2(L8_2, L9_2, L10_2)
     end
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L8_2 = L7_2
     L7_2 = L7_2.fB4E9D030
     L9_2 = L31_1.string
@@ -8259,19 +7931,16 @@ function L70_1(A0_2, A1_2)
     L9_2 = L9_2 .. L10_2
     L7_2(L8_2, L9_2)
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.FD2B5B28EB8D17885
+  L5_2 = self
+  L4_2 = self.FD2B5B28EB8D17885
   L6_2 = A1_2
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F4EB1FD1C225B4DF5"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.F4EB1FD1C225B4DF5
+function C37BA02F6534B9C56_prototype:F4EB1FD1C225B4DF5(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = L31_1.string
@@ -8285,26 +7954,23 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F2C6E38BFD6BC5B17"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIViewBagTop.OnDecideItemAnimation
+function C37BA02F6534B9C56_prototype:F2C6E38BFD6BC5B17(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F220F5BC95F4995B9
+  L3_2 = self
+  L2_2 = self.F220F5BC95F4995B9
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F6D562F1D86A95E2B
+  L4_2 = self
+  L3_2 = self.F6D562F1D86A95E2B
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F4EB1FD1C225B4DF5
+  L4_2 = self
+  L3_2 = self.F4EB1FD1C225B4DF5
   L5_2 = A1_2
   L6_2 = true
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = L31_1.string
@@ -8322,7 +7988,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2 .. L6_2
   L6_2 = L2_2
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.fB4E9D030
   L5_2 = L31_1.string
@@ -8354,36 +8020,30 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F4F3C0BBD796EADD3"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.RefreshItemList
+function C37BA02F6534B9C56_prototype:F4F3C0BBD796EADD3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C14A8D35D72F56FE9
   L1_2 = L1_2.S90D73F1D715BCBF4
   L1_2 = L1_2()
   L2_2 = L1_2
   L1_2 = L1_2.FBD294D57E544DAF4
-  L4_2 = A0_2
-  L3_2 = A0_2.FFD8DAF602408744D
+  L4_2 = self
+  L3_2 = self.FFD8DAF602408744D
   L3_2 = L3_2(L4_2)
-  L4_2 = A0_2[8]
-  L6_2 = A0_2
-  L5_2 = A0_2.F4D67EEC9E329A2E7
+  L4_2 = self[8]
+  L6_2 = self
+  L5_2 = self.F4D67EEC9E329A2E7
   L5_2, L6_2 = L5_2(L6_2)
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  A0_2[32] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FF03D8DCC322035F2
+  self[32] = L1_2
+  L2_2 = self
+  L1_2 = self.FF03D8DCC322035F2
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F2D2575144E00398E"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.F2D2575144E00398E
+function C37BA02F6534B9C56_prototype:F2D2575144E00398E()
   local L1_2, L2_2
   L1_2 = cDFF6D3D5
   L1_2 = L1_2.f6E019F84
@@ -8391,23 +8051,17 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F6E9709521FC397C1"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.IsTriggerCancelButton
+function C37BA02F6534B9C56_prototype:F6E9709521FC397C1()
   local L1_2, L2_2
-  L1_2 = A0_2[24]
+  L1_2 = self[24]
   L2_2 = L1_2
   L1_2 = L1_2.fDEEB3A8E
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FE22745A39150B8F3"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.IsTriggerDecideButton
+function C37BA02F6534B9C56_prototype:FE22745A39150B8F3()
   local L1_2, L2_2
   L1_2 = cDFF6D3D5
   L1_2 = L1_2.f6E019F84
@@ -8415,71 +8069,53 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F00CB6A13B7DDDA85"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.IsTriggerXButton
+function C37BA02F6534B9C56_prototype:F00CB6A13B7DDDA85()
   local L1_2, L2_2
-  L1_2 = A0_2[25]
+  L1_2 = self[25]
   L2_2 = L1_2
   L1_2 = L1_2.fDEEB3A8E
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F5813062518C86C3E"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.IsTriggerYButton
+function C37BA02F6534B9C56_prototype:F5813062518C86C3E()
   local L1_2, L2_2
-  L1_2 = A0_2[26]
+  L1_2 = self[26]
   L2_2 = L1_2
   L1_2 = L1_2.fDEEB3A8E
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "F2DB8BBF3B19FEE11"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.IsTriggerZLButton
+function C37BA02F6534B9C56_prototype:F2DB8BBF3B19FEE11()
   local L1_2, L2_2
-  L1_2 = A0_2[27]
+  L1_2 = self[27]
   L2_2 = L1_2
   L1_2 = L1_2.fDEEB3A8E
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FE72107A3B84196F7"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.IsTriggerPlusButton
+function C37BA02F6534B9C56_prototype:FE72107A3B84196F7()
   local L1_2, L2_2
-  L1_2 = A0_2[29]
+  L1_2 = self[29]
   L2_2 = L1_2
   L1_2 = L1_2.fDEEB3A8E
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FC0F51258B68E732D"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIViewBagTop.IsTriggerMinusButton
+function C37BA02F6534B9C56_prototype:FC0F51258B68E732D()
   local L1_2, L2_2
-  L1_2 = A0_2[28]
+  L1_2 = self[28]
   L2_2 = L1_2
   L1_2 = L1_2.fDEEB3A8E
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37BA02F6534B9C56"]["prototype"]
-L69_1 = "FE558FF619FBB6000"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.bag.BagUIViewBagTop.IsCanEvolve
+function C37BA02F6534B9C56_prototype:FE558FF619FBB6000(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = cB3292B34
   L3_2 = L3_2.f101D811F

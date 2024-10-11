@@ -1,3 +1,7 @@
+---@alias C9249F7D17EF0E1C9 main_battle_BattleResidentEffect
+
+---@class main_battle_BattleResidentEffect : C9249F7D17EF0E1C9_prototype
+---@field prototype C9249F7D17EF0E1C9_prototype
 L55_1 = _ENV
 L56_1 = "C9249F7D17EF0E1C9"
 L57_1 = L15_1
@@ -77,77 +81,66 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9249F7D17EF0E1C9"]
 L69_1 = "__name__"
 L70_1 = "C9249F7D17EF0E1C9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9249F7D17EF0E1C9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9249F7D17EF0E1C9"]["prototype"]
-L69_1 = "F3CC990DA6C6A7C4A"
-
-function L70_1(A0_2)
+---@class C9249F7D17EF0E1C9_prototype
+C9249F7D17EF0E1C9_prototype = L15_1()
+C9249F7D17EF0E1C9.prototype = C9249F7D17EF0E1C9_prototype
+--- main.battle.BattleResidentEffect.Delete
+function C9249F7D17EF0E1C9_prototype:F3CC990DA6C6A7C4A()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    A0_2[5] = nil
-    L2_2 = A0_2[4]
+    self[5] = nil
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.resize
     L4_2 = 0
     L2_2(L3_2, L4_2)
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.fCDCB600D
     L4_2 = true
     L2_2(L3_2, L4_2)
-    A0_2[3] = nil
-    A0_2[6] = 0
+    self[3] = nil
+    self[6] = 0
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9249F7D17EF0E1C9"]["prototype"]
-L69_1 = "F52A5E5B0D3D8878F"
-
-function L70_1(A0_2)
+--- main.battle.BattleResidentEffect.GetLabel
+function C9249F7D17EF0E1C9_prototype:F52A5E5B0D3D8878F()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9249F7D17EF0E1C9"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleResidentEffect.Update
+function C9249F7D17EF0E1C9_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   if 1 == L2_2 then
     L3_2 = nil
     L4_2 = c451059A3
     L4_2 = L4_2.fCEA5CEED
-    L5_2 = A0_2[5]
+    L5_2 = self[5]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
       L4_2 = c451059A3
       L4_2 = L4_2.f5776B6C6
-      L6_2 = A0_2
-      L5_2 = A0_2.FDFD6E8750BD8CF0E
-      L7_2 = A0_2[8]
+      L6_2 = self
+      L5_2 = self.FDFD6E8750BD8CF0E
+      L7_2 = self[8]
       L5_2, L6_2, L7_2, L8_2 = L5_2(L6_2, L7_2)
       L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-      A0_2[5] = L4_2
+      self[5] = L4_2
     end
-    A0_2[6] = 2
+    self[6] = 2
   elseif 2 == L2_2 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.f900312E7
     L3_2 = L3_2(L4_2)
@@ -155,69 +148,66 @@ function L70_1(A0_2, A1_2)
       L3_2 = nil
       L4_2 = c016374C1
       L4_2 = L4_2.f4555D276
-      L5_2 = A0_2[3]
+      L5_2 = self[3]
       L6_2 = L3_2
       L4_2 = L4_2(L5_2, L6_2)
       if L4_2 then
-        L4_2 = A0_2[1]
+        L4_2 = self[1]
         L5_2 = L4_2
         L4_2 = L4_2.F20A3B8BDAB3333B5
         L4_2 = L4_2(L5_2)
         L5_2 = L4_2
         L4_2 = L4_2.f68159593
         L6_2 = L31_1.string
-        L7_2 = A0_2[2]
+        L7_2 = self[2]
         L6_2 = L6_2(L7_2)
         L7_2 = L31_1.string
         L8_2 = "rsdnt"
         L7_2 = L7_2(L8_2)
         L6_2 = L6_2 .. L7_2
-        L7_2 = A0_2[5]
+        L7_2 = self[5]
         L4_2 = L4_2(L5_2, L6_2, L7_2)
-        A0_2[3] = L4_2
+        self[3] = L4_2
       end
-      A0_2[6] = 3
+      self[6] = 3
     end
   elseif 3 == L2_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.f9D8BC178
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F5BF9D6A125F94688
+      L4_2 = self
+      L3_2 = self.F5BF9D6A125F94688
       L3_2(L4_2)
-      A0_2[6] = 4
+      self[6] = 4
     end
   elseif 4 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FA23D39922B76B247
+    L4_2 = self
+    L3_2 = self.FA23D39922B76B247
     L5_2 = false
     L3_2(L4_2, L5_2)
-    A0_2[6] = 6
+    self[6] = 6
   elseif 5 == L2_2 then
-    A0_2[6] = 6
+    self[6] = 6
   elseif 7 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FED7C3756F1603610
+    L4_2 = self
+    L3_2 = self.FED7C3756F1603610
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F3CC990DA6C6A7C4A
+      L4_2 = self
+      L3_2 = self.F3CC990DA6C6A7C4A
       L3_2(L4_2)
-      A0_2[6] = 8
+      self[6] = 8
     else
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9249F7D17EF0E1C9"]["prototype"]
-L69_1 = "F8E0081A3C04B558D"
-
-function L70_1(A0_2)
+--- main.battle.BattleResidentEffect.IsRemove
+function C9249F7D17EF0E1C9_prototype:F8E0081A3C04B558D()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   if 8 == L1_2 then
     L1_2 = true
     return L1_2
@@ -226,14 +216,11 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9249F7D17EF0E1C9"]["prototype"]
-L69_1 = "FA23D39922B76B247"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleResidentEffect.SetVisible
+function C9249F7D17EF0E1C9_prototype:FA23D39922B76B247(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = 0
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -269,20 +256,17 @@ function L70_1(A0_2, A1_2)
           L9_2 = L6_2
           L8_2 = L6_2.f61A204B1
           L8_2(L9_2)
-          A0_2[6] = 7
+          self[6] = 7
         end
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9249F7D17EF0E1C9"]["prototype"]
-L69_1 = "FF1C9BF636E0F4F06"
-
-function L70_1(A0_2)
+--- main.battle.BattleResidentEffect.IsSetup
+function C9249F7D17EF0E1C9_prototype:FF1C9BF636E0F4F06()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   if 6 == L1_2 then
     L1_2 = true
     return L1_2
@@ -291,14 +275,11 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9249F7D17EF0E1C9"]["prototype"]
-L69_1 = "FED7C3756F1603610"
-
-function L70_1(A0_2)
+--- main.battle.BattleResidentEffect.IsFadeEnd
+function C9249F7D17EF0E1C9_prototype:FED7C3756F1603610()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = 0
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -338,11 +319,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9249F7D17EF0E1C9"]["prototype"]
-L69_1 = "FDFD6E8750BD8CF0E"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleResidentEffect.GetObjTmpName
+function C9249F7D17EF0E1C9_prototype:FDFD6E8750BD8CF0E(A1_2)
   local L2_2
   if 1 == A1_2 then
     L2_2 = "effect/battle_ej/ej_raid_powercharge/ej_raid_powercharge_loop.trsot"
@@ -361,25 +339,22 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9249F7D17EF0E1C9"]["prototype"]
-L69_1 = "F2BB912D29B205EEF"
-
-function L70_1(A0_2)
+--- main.battle.BattleResidentEffect.GetEffectObj
+function C9249F7D17EF0E1C9_prototype:F2BB912D29B205EEF()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f9D8BC178
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[3]
+      L2_2 = self[3]
       return L2_2
     end
   end
@@ -387,23 +362,20 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9249F7D17EF0E1C9"]["prototype"]
-L69_1 = "F72BC17F33F0810AC"
-
-function L70_1(A0_2)
+--- main.battle.BattleResidentEffect.GetEffectObjArray
+function C9249F7D17EF0E1C9_prototype:F72BC17F33F0810AC()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L2_2 = L2_2.length
     if L2_2 > 0 then
-      L2_2 = A0_2[4]
+      L2_2 = self[4]
       return L2_2
     end
   end
@@ -411,21 +383,18 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9249F7D17EF0E1C9"]["prototype"]
-L69_1 = "F5BF9D6A125F94688"
-
-function L70_1(A0_2)
+--- main.battle.BattleResidentEffect.SetEffectObjArray
+function C9249F7D17EF0E1C9_prototype:F5BF9D6A125F94688()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f8C7D4F4D
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.f908F485A
     

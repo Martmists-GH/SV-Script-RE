@@ -1,15 +1,10 @@
-L68_1 = _ENV["C7EC7BCBF04F771C8"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7EC7BCBF04F771C8"]
-L69_1 = "__name__"
-L70_1 = "C7EC7BCBF04F771C8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7EC7BCBF04F771C8"]
-L69_1 = "S32FCD63E7D2F7A0D"
+---@alias C7EC7BCBF04F771C8 main_event_general_gym_base_Gym_kusa_switcher
 
-function L70_1(A0_2, A1_2, A2_2)
+---@class main_event_general_gym_base_Gym_kusa_switcher
+C7EC7BCBF04F771C8.new = {}
+C7EC7BCBF04F771C8.__name__ = "C7EC7BCBF04F771C8"
+--- main.event.general.gym.base.Gym_kusa_switcher.SwitcherCallback
+function C7EC7BCBF04F771C8.S32FCD63E7D2F7A0D(A0_2, A1_2, A2_2)
   local L3_2, L4_2
   L4_2 = A0_2
   L3_2 = A0_2.fE9C29DA1

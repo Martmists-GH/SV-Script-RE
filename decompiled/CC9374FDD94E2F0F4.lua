@@ -1,3 +1,7 @@
+---@alias CC9374FDD94E2F0F4 main_event_debug_DebugSpexMiyaharaYusuke
+
+---@class main_event_debug_DebugSpexMiyaharaYusuke : CC9374FDD94E2F0F4_prototype
+---@field prototype CC9374FDD94E2F0F4_prototype
 L55_1 = _ENV
 L56_1 = "CC9374FDD94E2F0F4"
 L57_1 = L15_1
@@ -51,178 +55,149 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC9374FDD94E2F0F4"]
 L69_1 = "__name__"
 L70_1 = "CC9374FDD94E2F0F4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class CC9374FDD94E2F0F4_prototype
+CC9374FDD94E2F0F4_prototype = L15_1()
+CC9374FDD94E2F0F4.prototype = CC9374FDD94E2F0F4_prototype
+--- main.event.debug.DebugSpexMiyaharaYusuke.preStart
+function CC9374FDD94E2F0F4_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F92BA869F22AE5BC6
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugSpexMiyaharaYusuke.postStart
+function CC9374FDD94E2F0F4_prototype:F2E6C9E25867BCE8D()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F2E6C9E25867BCE8D
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugSpexMiyaharaYusuke.mainBody
+function CC9374FDD94E2F0F4_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FD8D5F3745B4B5174
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerName
-  L2_2 = A0_2[34]
+  L2_2 = self[34]
   if L1_2 == L2_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F11151A6F712AB7C4
+    L2_2 = self
+    L1_2 = self.F11151A6F712AB7C4
     L1_2(L2_2)
     L1_2 = C72C179367FB1199D
     L1_2 = L1_2.SE49B88F529299B39
-    L2_2 = A0_2[34]
+    L2_2 = self[34]
     L3_2 = 10
     L4_2 = false
     L1_2(L2_2, L3_2, L4_2)
   end
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerName
-  L2_2 = A0_2[35]
+  L2_2 = self[35]
   if L1_2 == L2_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FD310C4B713414281
+    L2_2 = self
+    L1_2 = self.FD310C4B713414281
     L1_2(L2_2)
   end
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerName
-  L2_2 = A0_2[36]
+  L2_2 = self[36]
   if L1_2 == L2_2 then
     L1_2 = nil
     L2_2 = c016374C1
     L2_2 = L2_2.f4555D276
-    L3_2 = A0_2[38]
+    L3_2 = self[38]
     L4_2 = L1_2
     L2_2 = L2_2(L3_2, L4_2)
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F4D6436B2F1B807E4
+      L3_2 = self
+      L2_2 = self.F4D6436B2F1B807E4
       L2_2 = L2_2(L3_2)
-      A0_2[38] = L2_2
+      self[38] = L2_2
     end
     L2_2 = nil
     L3_2 = c016374C1
     L3_2 = L3_2.f8C7D4F4D
-    L4_2 = A0_2[38]
+    L4_2 = self[38]
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F0337A7CF06D24D44
+      L4_2 = self
+      L3_2 = self.F0337A7CF06D24D44
       L3_2(L4_2)
     end
   end
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerName
-  L2_2 = A0_2[37]
+  L2_2 = self[37]
   if L1_2 == L2_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FFE49D3B23E630C70
+    L2_2 = self
+    L1_2 = self.FFE49D3B23E630C70
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugSpexMiyaharaYusuke.mainBodyFinish
+function CC9374FDD94E2F0F4_prototype:F84C84FA1590CD2A3()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F84C84FA1590CD2A3
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugSpexMiyaharaYusuke.preEnd
+function CC9374FDD94E2F0F4_prototype:F740FB4E96926D103()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F740FB4E96926D103
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugSpexMiyaharaYusuke.postEnd
+function CC9374FDD94E2F0F4_prototype:F3E13E4094D09A594()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F3E13E4094D09A594
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]["prototype"]
-L69_1 = "F367E56C9AF7477A9"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugSpexMiyaharaYusuke.preReset
+function CC9374FDD94E2F0F4_prototype:F367E56C9AF7477A9()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F367E56C9AF7477A9
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]["prototype"]
-L69_1 = "F7D3239FB83157FC6"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugSpexMiyaharaYusuke.postReset
+function CC9374FDD94E2F0F4_prototype:F7D3239FB83157FC6()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F7D3239FB83157FC6
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]["prototype"]
-L69_1 = "F11151A6F712AB7C4"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugSpexMiyaharaYusuke.loadMessageTest
+function CC9374FDD94E2F0F4_prototype:F11151A6F712AB7C4()
   local L1_2, L2_2, L3_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S12FD376DC11712C8
@@ -239,11 +214,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]["prototype"]
-L69_1 = "FD310C4B713414281"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugSpexMiyaharaYusuke.gymEsperUITest
+function CC9374FDD94E2F0F4_prototype:FD310C4B713414281()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -294,8 +266,8 @@ function L70_1(A0_2)
   L8_2 = L8_2.S12FD376DC11712C8
   L9_2 = "message/dat/JPN/script/gym_esper_020.dat"
   L8_2(L9_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.FE10769F89351018A
+  L9_2 = self
+  L8_2 = self.FE10769F89351018A
   L10_2 = L7_2
   L11_2 = "start"
   L8_2(L9_2, L10_2, L11_2)
@@ -377,13 +349,13 @@ function L70_1(A0_2)
     L10_2 = "UI_ZR"
     L9_2 = L9_2(L10_2)
     if L9_2 then
-      L10_2 = A0_2
-      L9_2 = A0_2.FE10769F89351018A
+      L10_2 = self
+      L9_2 = self.FE10769F89351018A
       L11_2 = L7_2
       L12_2 = "ok_open"
       L9_2(L10_2, L11_2, L12_2)
-      L10_2 = A0_2
-      L9_2 = A0_2.FE10769F89351018A
+      L10_2 = self
+      L9_2 = self.FE10769F89351018A
       L11_2 = L7_2
       L12_2 = "ok_close"
       L9_2(L10_2, L11_2, L12_2)
@@ -479,8 +451,8 @@ function L70_1(A0_2)
       L9_2 = L7_2.F026B6DB6F055794A
       L11_2 = "text_close"
       L9_2(L10_2, L11_2)
-      L10_2 = A0_2
-      L9_2 = A0_2.FE10769F89351018A
+      L10_2 = self
+      L9_2 = self.FE10769F89351018A
       L11_2 = L7_2
       L12_2 = "clear"
       L9_2(L10_2, L11_2, L12_2)
@@ -491,8 +463,8 @@ function L70_1(A0_2)
     L10_2 = "UI_ZL"
     L9_2 = L9_2(L10_2)
     if L9_2 then
-      L10_2 = A0_2
-      L9_2 = A0_2.FE10769F89351018A
+      L10_2 = self
+      L9_2 = self.FE10769F89351018A
       L11_2 = L7_2
       L12_2 = "gameover"
       L9_2(L10_2, L11_2, L12_2)
@@ -512,11 +484,8 @@ function L70_1(A0_2)
   L8_2(L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]["prototype"]
-L69_1 = "FE10769F89351018A"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.debug.DebugSpexMiyaharaYusuke.playanim
+function CC9374FDD94E2F0F4_prototype:FE10769F89351018A(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L4_2 = A1_2
   L3_2 = A1_2.F7C4D115B78464DA6
@@ -532,11 +501,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]["prototype"]
-L69_1 = "F4D6436B2F1B807E4"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugSpexMiyaharaYusuke.createOlive
+function CC9374FDD94E2F0F4_prototype:F4D6436B2F1B807E4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -584,15 +550,12 @@ function L70_1(A0_2)
   return L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]["prototype"]
-L69_1 = "F0337A7CF06D24D44"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugSpexMiyaharaYusuke.setOlivePos
+function CC9374FDD94E2F0F4_prototype:F0337A7CF06D24D44()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
-  L2_2 = A0_2[33]
+  L2_2 = self[33]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cA042DA13
@@ -616,7 +579,7 @@ function L70_1(A0_2)
   if L5_2 then
     return
   end
-  L5_2 = A0_2[38]
+  L5_2 = self[38]
   L7_2 = L3_2
   L6_2 = L3_2.fFFA0248C
   L6_2, L7_2, L8_2 = L6_2(L7_2)
@@ -628,15 +591,12 @@ function L70_1(A0_2)
   L9_2(L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9374FDD94E2F0F4"]["prototype"]
-L69_1 = "FFE49D3B23E630C70"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugSpexMiyaharaYusuke.effectTest
+function CC9374FDD94E2F0F4_prototype:FFE49D3B23E630C70()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
-  L2_2 = A0_2[33]
+  L2_2 = self[33]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cA042DA13

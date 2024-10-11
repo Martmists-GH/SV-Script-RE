@@ -1,3 +1,7 @@
+---@alias C79573FC4F091B5CA main_field_gimmick_fixed_symbol_FixedSymbolTriggerBehavior
+
+---@class main_field_gimmick_fixed_symbol_FixedSymbolTriggerBehavior : C79573FC4F091B5CA_prototype
+---@field prototype C79573FC4F091B5CA_prototype
 L55_1 = _ENV
 L56_1 = "C79573FC4F091B5CA"
 L57_1 = L15_1
@@ -43,24 +47,19 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C79573FC4F091B5CA"]
 L69_1 = "__name__"
 L70_1 = "C79573FC4F091B5CA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79573FC4F091B5CA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79573FC4F091B5CA"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C79573FC4F091B5CA_prototype
+C79573FC4F091B5CA_prototype = L15_1()
+C79573FC4F091B5CA.prototype = C79573FC4F091B5CA_prototype
+--- main.field.gimmick.fixed_symbol.FixedSymbolTriggerBehavior.Setup
+function C79573FC4F091B5CA_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = c7B88F8F8
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = cACBFA004
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = nil
   L5_2 = nil
@@ -91,27 +90,24 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2(L8_2, L9_2)
   L8_2 = "fixed_id"
   L6_2 = L6_2(L7_2, L8_2)
-  A0_2[2] = L6_2
+  self[2] = L6_2
   L7_2 = L3_2
   L6_2 = L3_2.f3D30FC17
   L8_2 = L55_1
-  L9_2 = A0_2
-  L10_2 = A0_2.F52EA2CC0D641F9EC
+  L9_2 = self
+  L10_2 = self.F52EA2CC0D641F9EC
   L8_2 = L8_2(L9_2, L10_2)
   L9_2 = 0.0
   L10_2 = 9
   L6_2(L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79573FC4F091B5CA"]["prototype"]
-L69_1 = "F52EA2CC0D641F9EC"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolTriggerBehavior.onTrigger
+function C79573FC4F091B5CA_prototype:F52EA2CC0D641F9EC(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2
   L6_2 = C9E831FC5F1224923
   L6_2 = L6_2.S7D3B24014A3AA791
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L6_2(L7_2)
 end
 

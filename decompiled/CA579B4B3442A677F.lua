@@ -1,3 +1,6 @@
+---@alias CD1243CF9D7FD96CC main_ui_schoolmap_SchoolMapData
+
+---@class main_ui_schoolmap_SchoolMapData
 L55_1 = _ENV
 L56_1 = "CA579B4B3442A677F"
 L57_1 = L15_1

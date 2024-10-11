@@ -1,3 +1,7 @@
+---@alias C3EAA4139E6123C95 main_ui_net_topmenu_NetBattleSetupParamCreator
+
+---@class main_ui_net_topmenu_NetBattleSetupParamCreator : C3EAA4139E6123C95_prototype
+---@field prototype C3EAA4139E6123C95_prototype
 L55_1 = _ENV
 L56_1 = "C3EAA4139E6123C95"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3EAA4139E6123C95"]
 L69_1 = "__name__"
 L70_1 = "C3EAA4139E6123C95"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3EAA4139E6123C95"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3EAA4139E6123C95"]["prototype"]
-L69_1 = "FA06FBA7F29AE979F"
-
-function L70_1(A0_2)
+---@class C3EAA4139E6123C95_prototype
+C3EAA4139E6123C95_prototype = L15_1()
+C3EAA4139E6123C95.prototype = C3EAA4139E6123C95_prototype
+--- main.ui.net_topmenu.NetBattleSetupParamCreator.WaitBattleSetupData
+function C3EAA4139E6123C95_prototype:FA06FBA7F29AE979F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2
   L1_2 = c2A8846F6
   L1_2 = L1_2.f3E170423
@@ -63,14 +62,14 @@ function L70_1(A0_2)
     L1_2 = C9D96138EAA13A5D9
     L1_2 = L1_2.S801CDB391BF6BDA1
     L2_2 = 101
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L1_2(L2_2, L3_2)
   end
   L1_2 = C2D7F486425487755
   L1_2 = L1_2.new
   L1_2 = L1_2()
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   if 0 == L3_2 then
   elseif 1 == L3_2 then
     L2_2 = 2
@@ -135,7 +134,7 @@ function L70_1(A0_2)
   function L7_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[1]
     if 3 == L1_3 then
       L0_3 = 4
@@ -156,7 +155,7 @@ function L70_1(A0_2)
   L7_2 = L7_2(L8_2)
   L8_2 = 5
   L9_2 = 0
-  L10_2 = A0_2[3]
+  L10_2 = self[3]
   while true do
     L11_2 = L10_2.length
     if not (L9_2 < L11_2) then
@@ -190,7 +189,7 @@ function L70_1(A0_2)
   L1_2[82] = L11_2
   L1_2[81] = true
   L11_2 = 0
-  L12_2 = A0_2[3]
+  L12_2 = self[3]
   while true do
     L13_2 = L12_2.length
     if not (L11_2 < L13_2) then
@@ -205,15 +204,15 @@ function L70_1(A0_2)
     L15_2 = L15_2(L16_2, L17_2)
     L16_2 = L13_2.btlClientId
     L17_2 = L13_2.pokeParty
-    L19_2 = A0_2
-    L18_2 = A0_2.F362A753D9B6D50EC
+    L19_2 = self
+    L18_2 = self.F362A753D9B6D50EC
     L20_2 = L52_1.__cast
     L21_2 = L8_2
     L22_2 = L19_1
     L20_2 = L20_2(L21_2, L22_2)
     L21_2 = L16_2
     L18_2 = L18_2(L19_2, L20_2, L21_2)
-    L19_2 = A0_2[4]
+    L19_2 = self[4]
     L20_2 = L19_2
     L19_2 = L19_2.push
     L21_2 = L16_1
@@ -273,8 +272,8 @@ function L70_1(A0_2)
       L23_2 = L20_2
       L21_2 = L21_2(L22_2, L23_2)
       if L21_2 then
-        L22_2 = A0_2
-        L21_2 = A0_2.F9786FA83C782541C
+        L22_2 = self
+        L21_2 = self.F9786FA83C782541C
         L23_2 = L1_2
         L21_2(L22_2, L23_2)
         L21_2 = nil
@@ -381,7 +380,7 @@ function L70_1(A0_2)
       L22_2 = L22_2.f66590E32
       L22_2 = L22_2()
       if L22_2 then
-        L22_2 = A0_2[2]
+        L22_2 = self[2]
         L23_2 = L22_2
         L22_2 = L22_2.fB0B320D0
         L22_2 = L22_2(L23_2)
@@ -393,7 +392,7 @@ function L70_1(A0_2)
       L22_2 = L21_2.fAEE75B85
       L22_2(L23_2)
       ::lbl_294::
-      L22_2 = A0_2[2]
+      L22_2 = self[2]
       L23_2 = L22_2
       L22_2 = L22_2.f0403B7D0
       L22_2 = L22_2(L23_2)
@@ -423,32 +422,32 @@ function L70_1(A0_2)
   L13_2 = L13_2.f65DC85F7
   L15_2 = true
   L13_2(L14_2, L15_2)
-  L13_2 = A0_2[2]
+  L13_2 = self[2]
   L14_2 = L13_2
   L13_2 = L13_2.fC7A85BF7
   L13_2 = L13_2(L14_2)
   L13_2 = L13_2 * 60
   L1_2[55] = L13_2
-  L13_2 = A0_2[2]
+  L13_2 = self[2]
   L14_2 = L13_2
   L13_2 = L13_2.f8E2F395E
   L13_2 = L13_2(L14_2)
   L1_2[56] = L13_2
-  L13_2 = A0_2[2]
+  L13_2 = self[2]
   L14_2 = L13_2
   L13_2 = L13_2.f919B9CD0
   L13_2 = L13_2(L14_2)
   L13_2 = L13_2 * 60
   L1_2[57] = L13_2
   L13_2 = 0
-  L14_2 = A0_2[3]
+  L14_2 = self[3]
   L14_2 = L14_2.length
   while L13_2 < L14_2 do
     L13_2 = L13_2 + 1
     L15_2 = L1_2[6]
     L16_2 = L13_2 - 1
     L15_2 = L15_2[L16_2]
-    L16_2 = A0_2[2]
+    L16_2 = self[2]
     L17_2 = L16_2
     L16_2 = L16_2.f72163FD2
     L16_2 = L16_2(L17_2)
@@ -465,7 +464,7 @@ function L70_1(A0_2)
   L15_2 = L15_2.f8136E7E3
   L15_2 = L15_2(L16_2)
   L16_2 = 0
-  L17_2 = A0_2[3]
+  L17_2 = self[3]
   while true do
     L18_2 = L17_2.length
     if not (L16_2 < L18_2) then
@@ -502,7 +501,7 @@ function L70_1(A0_2)
   L20_2 = L1_2[82]
   L18_2(L19_2, L20_2)
   L18_2 = 0
-  L19_2 = A0_2[4]
+  L19_2 = self[4]
   while true do
     L20_2 = L19_2.length
     if not (L18_2 < L20_2) then
@@ -543,7 +542,7 @@ function L70_1(A0_2)
   L25_2 = L20_2
   L23_2(L24_2, L25_2)
   L23_2 = 0
-  L24_2 = A0_2[3]
+  L24_2 = self[3]
   while true do
     L25_2 = L24_2.length
     if not (L23_2 < L25_2) then
@@ -594,11 +593,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3EAA4139E6123C95"]["prototype"]
-L69_1 = "F362A753D9B6D50EC"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.net_topmenu.NetBattleSetupParamCreator.F362A753D9B6D50EC
+function C3EAA4139E6123C95_prototype:F362A753D9B6D50EC(A1_2, A2_2)
   local L3_2
   if 0 == A1_2 or 2 == A1_2 then
     return A2_2
@@ -619,11 +615,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3EAA4139E6123C95"]["prototype"]
-L69_1 = "F9786FA83C782541C"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_topmenu.NetBattleSetupParamCreator.F9786FA83C782541C
+function C3EAA4139E6123C95_prototype:F9786FA83C782541C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S93A017D496A6D000

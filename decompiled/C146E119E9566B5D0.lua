@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C146E119E9566B5D0"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C146E119E9566B5D0"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C146E119E9566B5D0"]
-L69_1 = "__name__"
-L70_1 = "C146E119E9566B5D0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C146E119E9566B5D0"]
-L69_1 = "S988D7D0A4EEF693D"
+---@alias C146E119E9566B5D0 main_ui_pokedex_view_detail_PokedexUIDetailTexture
 
-function L70_1(A0_2)
+---@class main_ui_pokedex_view_detail_PokedexUIDetailTexture
+C146E119E9566B5D0 = L15_1()
+C146E119E9566B5D0.new = {}
+C146E119E9566B5D0.__name__ = "C146E119E9566B5D0"
+--- main.ui.pokedex.view.detail.PokedexUIDetailTexture.Create
+function C146E119E9566B5D0.S988D7D0A4EEF693D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = cFBF4166D
@@ -49,11 +40,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C146E119E9566B5D0"]
-L69_1 = "SCFB38230A64B8178"
-
-function L70_1()
+--- main.ui.pokedex.view.detail.PokedexUIDetailTexture.LoadTexture
+function C146E119E9566B5D0.SCFB38230A64B8178()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L0_2 = nil
   L1_2 = cFBF4166D
@@ -98,11 +86,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C146E119E9566B5D0"]
-L69_1 = "SA90A90F64E13FE45"
-
-function L70_1()
+--- main.ui.pokedex.view.detail.PokedexUIDetailTexture.UnloadTexture
+function C146E119E9566B5D0.SA90A90F64E13FE45()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L0_2 = nil
   L1_2 = cFBF4166D

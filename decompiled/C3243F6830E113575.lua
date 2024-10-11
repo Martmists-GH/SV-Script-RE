@@ -1,3 +1,7 @@
+---@alias C3243F6830E113575 main_nushi_NushiEventSetup
+
+---@class main_nushi_NushiEventSetup : C3243F6830E113575_prototype
+---@field prototype C3243F6830E113575_prototype
 L55_1 = _ENV
 L56_1 = "C3243F6830E113575"
 L57_1 = L15_1
@@ -46,20 +50,15 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C3243F6830E113575"]
 L69_1 = "__name__"
 L70_1 = "C3243F6830E113575"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3243F6830E113575"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3243F6830E113575"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C3243F6830E113575_prototype
+C3243F6830E113575_prototype = L15_1()
+C3243F6830E113575.prototype = C3243F6830E113575_prototype
+--- main.nushi.NushiEventSetup.Setup
+function C3243F6830E113575_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F903B84488FBFD0BC
+  L2_2 = self
+  L4_2 = self
+  L3_2 = self.F903B84488FBFD0BC
   L3_2(L4_2)
   L3_2 = C1DB14DCC9D7634FA
   L3_2 = L3_2.new
@@ -252,40 +251,31 @@ function L70_1(A0_2, A1_2)
   
   L5_2 = "NushiEventSetup"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[2] = L3_2
+  self[2] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3243F6830E113575"]["prototype"]
-L69_1 = "F903B84488FBFD0BC"
-
-function L70_1(A0_2)
+--- main.nushi.NushiEventSetup.Awake
+function C3243F6830E113575_prototype:F903B84488FBFD0BC()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3243F6830E113575"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2)
+--- main.nushi.NushiEventSetup.Init
+function C3243F6830E113575_prototype:F90BBC6B0190BF053()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3243F6830E113575"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiEventSetup.PreUpdate
+function C3243F6830E113575_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = L62_1
       L4_2 = L64_1.pack
       L5_2 = L10_1.coroutine
@@ -330,19 +320,19 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F4CE29A397F2BAF81
+  L3_2 = self
+  L2_2 = self.F4CE29A397F2BAF81
   L2_2 = L2_2(L3_2)
   if L2_2 then
     L2_2 = nil
     L3_2 = c32245D3F
     L3_2 = L3_2.f9D6118A2
-    L4_2 = A0_2[4]
+    L4_2 = self[4]
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
-      L3_2 = A0_2[6]
-      L4_2 = A0_2[4]
+      L3_2 = self[6]
+      L4_2 = self[4]
       L5_2 = L4_2
       L4_2 = L4_2.f5CB2CDFD
       L6_2 = 1 * L3_2
@@ -351,46 +341,37 @@ function L70_1(A0_2, A1_2)
       L4_2(L5_2, L6_2, L7_2, L8_2)
     end
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FEB6685558281F194
+  L3_2 = self
+  L2_2 = self.FEB6685558281F194
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3243F6830E113575"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiEventSetup.Update
+function C3243F6830E113575_prototype:FEB6685558281F194(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3243F6830E113575"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.nushi.NushiEventSetup.Destroy
+function C3243F6830E113575_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c32245D3F
   L2_2 = L2_2.f9D6118A2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.f45624DCC
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3243F6830E113575"]["prototype"]
-L69_1 = "F4CE29A397F2BAF81"
-
-function L70_1(A0_2)
+--- main.nushi.NushiEventSetup.isScale
+function C3243F6830E113575_prototype:F4CE29A397F2BAF81()
   local L1_2, L2_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.fE9C29DA1
   L1_2 = L1_2(L2_2)
@@ -403,13 +384,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3243F6830E113575"]["prototype"]
-L69_1 = "F90DCF34205C2A7B4"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiEventSetup.SetRTPC
+function C3243F6830E113575_prototype:F90DCF34205C2A7B4(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.fFAD92763
   L4_2 = "NUSHI_OR_NORMAL"
@@ -431,18 +409,15 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3243F6830E113575"]["prototype"]
-L69_1 = "F0871AD4767C70B46"
-
-function L70_1(A0_2)
+--- main.nushi.NushiEventSetup.SetPowerEffectAuraLocater
+function C3243F6830E113575_prototype:F0871AD4767C70B46()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.fE9C29DA1
   L1_2 = L1_2(L2_2)
   if "nushi_hagane_fp_1048_020" == L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.f5439788F
     L3_2 = L31_1.string
@@ -453,7 +428,7 @@ function L70_1(A0_2)
     L4_2 = L4_2(L5_2)
     L3_2 = L3_2 .. L4_2
     L1_2 = L1_2(L2_2, L3_2)
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L3_2 = cE8D61D7D
     L3_2 = L3_2.fB41FD22F
     L4_2 = L1_2
@@ -463,14 +438,14 @@ function L70_1(A0_2)
       L2_2 = nil
       L3_2 = cE8D61D7D
       L3_2 = L3_2.fEFB8CD3A
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       L4_2 = L4_2[0]
       L5_2 = L2_2
       L3_2 = L3_2(L4_2, L5_2)
       if not L3_2 then
         break
       end
-      L3_2 = A0_2[8]
+      L3_2 = self[8]
       L4_2 = cE8D61D7D
       L4_2 = L4_2.fB41FD22F
       L5_2 = L1_2
@@ -480,7 +455,7 @@ function L70_1(A0_2)
       L3_2 = L3_2.S760DAE4C5371A78E
       L3_2()
     end
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.f5439788F
     L4_2 = L31_1.string
@@ -491,7 +466,7 @@ function L70_1(A0_2)
     L5_2 = L5_2(L6_2)
     L4_2 = L4_2 .. L5_2
     L2_2 = L2_2(L3_2, L4_2)
-    L3_2 = A0_2[8]
+    L3_2 = self[8]
     L4_2 = cE8D61D7D
     L4_2 = L4_2.fB41FD22F
     L5_2 = L2_2
@@ -501,14 +476,14 @@ function L70_1(A0_2)
       L3_2 = nil
       L4_2 = cE8D61D7D
       L4_2 = L4_2.fEFB8CD3A
-      L5_2 = A0_2[8]
+      L5_2 = self[8]
       L5_2 = L5_2[1]
       L6_2 = L3_2
       L4_2 = L4_2(L5_2, L6_2)
       if not L4_2 then
         break
       end
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       L5_2 = cE8D61D7D
       L5_2 = L5_2.fB41FD22F
       L6_2 = L2_2
@@ -519,12 +494,12 @@ function L70_1(A0_2)
       L4_2()
     end
   else
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.f5439788F
     L3_2 = "powerup_aura_eff"
     L1_2 = L1_2(L2_2, L3_2)
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L3_2 = cE8D61D7D
     L3_2 = L3_2.fB41FD22F
     L4_2 = L1_2
@@ -534,14 +509,14 @@ function L70_1(A0_2)
       L2_2 = nil
       L3_2 = cE8D61D7D
       L3_2 = L3_2.fEFB8CD3A
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       L4_2 = L4_2[0]
       L5_2 = L2_2
       L3_2 = L3_2(L4_2, L5_2)
       if not L3_2 then
         break
       end
-      L3_2 = A0_2[8]
+      L3_2 = self[8]
       L4_2 = cE8D61D7D
       L4_2 = L4_2.fB41FD22F
       L5_2 = L1_2
@@ -554,15 +529,12 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3243F6830E113575"]["prototype"]
-L69_1 = "F79C7D1C5FC69B318"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiEventSetup.PowerUpAura
+function C3243F6830E113575_prototype:F79C7D1C5FC69B318(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if A1_2 then
     L2_2 = 0
-    L3_2 = A0_2[8]
+    L3_2 = self[8]
     while true do
       L4_2 = L3_2.length
       if not (L2_2 < L4_2) then
@@ -578,7 +550,7 @@ function L70_1(A0_2, A1_2)
     end
   else
     L2_2 = 0
-    L3_2 = A0_2[8]
+    L3_2 = self[8]
     while true do
       L4_2 = L3_2.length
       if not (L2_2 < L4_2) then
@@ -593,13 +565,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3243F6830E113575"]["prototype"]
-L69_1 = "F451048BDC054CF97"
-
-function L70_1(A0_2)
+--- main.nushi.NushiEventSetup.GetScale
+function C3243F6830E113575_prototype:F451048BDC054CF97()
   local L1_2, L2_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.fE9C29DA1
   L1_2 = L1_2(L2_2)

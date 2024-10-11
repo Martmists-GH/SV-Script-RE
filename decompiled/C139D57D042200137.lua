@@ -1,3 +1,7 @@
+---@alias C139D57D042200137 main_nushi_hagane_HaganeNushiEscapePerformance
+
+---@class main_nushi_hagane_HaganeNushiEscapePerformance : C139D57D042200137_prototype
+---@field prototype C139D57D042200137_prototype
 L55_1 = _ENV
 L56_1 = "C139D57D042200137"
 L57_1 = L15_1
@@ -43,18 +47,13 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C139D57D042200137"]
 L69_1 = "__name__"
 L70_1 = "C139D57D042200137"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C139D57D042200137"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C139D57D042200137"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C139D57D042200137_prototype
+C139D57D042200137_prototype = L15_1()
+C139D57D042200137.prototype = C139D57D042200137_prototype
+--- main.nushi.hagane.HaganeNushiEscapePerformance.Setup
+function C139D57D042200137_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = C9AA363B3CCC264AA
   L3_2 = L3_2.SA5B8258582A90EF3
   L4_2 = "nushi_hagane_010"
@@ -63,29 +62,29 @@ function L70_1(A0_2, A1_2)
     return
   end
   L3_2 = C139D57D042200137
-  L3_2.S7D1E199BBD384D72 = A0_2
+  L3_2.S7D1E199BBD384D72 = self
   L3_2 = C2EAC8AEE287A3A4D
   L3_2 = L3_2.new
   L3_2 = L3_2()
-  A0_2[3] = L3_2
-  L3_2 = A0_2[1]
+  self[3] = L3_2
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f462C9B70
   L3_2 = L3_2(L4_2)
   L4_2 = C18DF4E0745B920F9
   L4_2 = L4_2.S7D1E199BBD384D72
   L4_2 = L4_2[5]
-  A0_2[4] = L4_2
+  self[4] = L4_2
   L4_2 = CC704789D12A0E0F2
   L4_2 = L4_2.new
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L4_2 = L4_2(L5_2)
-  A0_2[5] = L4_2
+  self[5] = L4_2
   L4_2 = C4DAB8BD72937B594
   L4_2 = L4_2.new
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L4_2 = L4_2(L5_2)
-  A0_2[6] = L4_2
+  self[6] = L4_2
   L4_2 = CDFB73C57B78A1F2F
   L4_2 = L4_2.new
   L6_2 = L3_2
@@ -93,7 +92,7 @@ function L70_1(A0_2, A1_2)
   L7_2 = "4_Camera"
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2)
-  A0_2[10] = L4_2
+  self[10] = L4_2
   L4_2 = CDFB73C57B78A1F2F
   L4_2 = L4_2.new
   L6_2 = L3_2
@@ -101,7 +100,7 @@ function L70_1(A0_2, A1_2)
   L7_2 = "2_Camera"
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2)
-  A0_2[11] = L4_2
+  self[11] = L4_2
   L4_2 = CDFB73C57B78A1F2F
   L4_2 = L4_2.new
   L6_2 = L3_2
@@ -109,7 +108,7 @@ function L70_1(A0_2, A1_2)
   L7_2 = "5_Camera"
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2)
-  A0_2[12] = L4_2
+  self[12] = L4_2
   L4_2 = CDFB73C57B78A1F2F
   L4_2 = L4_2.new
   L6_2 = L3_2
@@ -117,16 +116,16 @@ function L70_1(A0_2, A1_2)
   L7_2 = "3_Camera_end"
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2)
-  A0_2[13] = L4_2
+  self[13] = L4_2
   L5_2 = L3_2
   L4_2 = L3_2.fD4E64AB7
   L6_2 = "player_point"
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[14] = L4_2
+  self[14] = L4_2
   L4_2 = C18DF4E0745B920F9
   L4_2 = L4_2.S7D1E199BBD384D72
   L4_2 = L4_2[3]
-  A0_2[7] = L4_2
+  self[7] = L4_2
   L4_2 = C1DB14DCC9D7634FA
   L4_2 = L4_2.new
   
@@ -148,24 +147,21 @@ function L70_1(A0_2, A1_2)
   
   L6_2 = "HaganeNushiEscapePerformance_setup"
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[2] = L4_2
+  self[2] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C139D57D042200137"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.hagane.HaganeNushiEscapePerformance.PreUpdate
+function C139D57D042200137_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = L62_1
       L4_2 = L64_1.pack
       L5_2 = L10_1.coroutine
@@ -210,31 +206,31 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   if nil ~= L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.F1EEC0C9E6E826C5B
     L4_2 = A1_2
     L2_2(L3_2, L4_2)
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   if nil ~= L2_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L2_2
     L2_2 = L2_2.F3BC3E2DE6CE68A7D
     L4_2 = A1_2
     L2_2(L3_2, L4_2)
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L58_1
     L4_2 = C39EBE5E8F2288487
     L4_2 = L4_2.SE7A7F213F949A6D0
     L3_2 = L3_2(L4_2)
     L2_2[19] = L3_2
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   if nil ~= L2_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L3_2 = L2_2
     L2_2 = L2_2.F3BC3E2DE6CE68A7D
     L4_2 = A1_2
@@ -242,42 +238,36 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C139D57D042200137"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.nushi.hagane.HaganeNushiEscapePerformance.Destroy
+function C139D57D042200137_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   if nil ~= L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.FB50C9ACDC127E3B9
     L1_2(L2_2)
   end
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   if nil ~= L1_2 then
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     L2_2 = L1_2
     L1_2 = L1_2.FB50C9ACDC127E3B9
     L1_2(L2_2)
   end
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   if nil ~= L1_2 then
-    L1_2 = A0_2[6]
+    L1_2 = self[6]
     L2_2 = L1_2
     L1_2 = L1_2.FB50C9ACDC127E3B9
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C139D57D042200137"]["prototype"]
-L69_1 = "FA48EDE715E501A78"
-
-function L70_1(A0_2)
+--- main.nushi.hagane.HaganeNushiEscapePerformance.EscapePlay
+function C139D57D042200137_prototype:FA48EDE715E501A78()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C929486B36C03E170
   L2_2 = L2_2.S6A657E3C827E0DC3
   L3_2 = "VS_NUSHI_HAGANE_1ST_END_EV_A"
@@ -285,7 +275,7 @@ function L70_1(A0_2)
   L2_2 = C929486B36C03E170
   L2_2 = L2_2.S1568648E89DE2B2C
   L3_2 = "PLAY_NUSHI_STEEL_TURN1"
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L2_2(L3_2, L4_2)
   L2_2 = c2FB59E8B
   L2_2 = L2_2.fB900AE56
@@ -301,8 +291,8 @@ function L70_1(A0_2)
     L4_2 = L4_2.fB41FD22F
     L5_2 = L2_2
     L4_2 = L4_2(L5_2)
-    A0_2[15] = L4_2
-    L4_2 = A0_2[15]
+    self[15] = L4_2
+    L4_2 = self[15]
     L5_2 = L4_2
     L4_2 = L4_2.f6754453E
     L6_2 = false
@@ -313,7 +303,7 @@ function L70_1(A0_2)
   L4_2 = L4_2()
   L5_2 = L4_2
   L4_2 = L4_2.f74CDFF75
-  L6_2 = A0_2[10]
+  L6_2 = self[10]
   L6_2 = L6_2[1]
   L7_2 = false
   L4_2(L5_2, L6_2, L7_2)
@@ -342,7 +332,7 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2)
   L4_2 = CD6E40BD5CE9657FC
   L4_2 = L4_2.SC2AD6648D6FED118
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L6_2 = L5_2
   L5_2 = L5_2.f64857644
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2 = L5_2(L6_2)
@@ -359,8 +349,8 @@ function L70_1(A0_2)
   L7_2[3] = L10_2
   L5_2 = L5_2(L6_2, L7_2)
   L4_2 = L5_2
-  L5_2 = A0_2[4]
-  L6_2 = A0_2[8]
+  L5_2 = self[4]
+  L6_2 = self[8]
   L7_2 = L6_2
   L6_2 = L6_2.f7360ED03
   L6_2, L7_2, L8_2 = L6_2(L7_2)
@@ -372,7 +362,7 @@ function L70_1(A0_2)
   L9_2(L10_2, L11_2, L12_2, L13_2)
   L9_2 = CD6E40BD5CE9657FC
   L9_2 = L9_2.SC2AD6648D6FED118
-  L10_2 = A0_2[8]
+  L10_2 = self[8]
   L11_2 = L10_2
   L10_2 = L10_2.f64857644
   L10_2, L11_2, L12_2, L13_2, L14_2, L15_2 = L10_2(L11_2)
@@ -389,7 +379,7 @@ function L70_1(A0_2)
   L12_2[3] = L15_2
   L10_2 = L10_2(L11_2, L12_2)
   L9_2 = L10_2
-  L10_2 = A0_2[5]
+  L10_2 = self[5]
   L11_2 = L10_2
   L10_2 = L10_2.F7364C99F171973B4
   L12_2 = 1
@@ -447,19 +437,16 @@ function L70_1(A0_2)
   L10_2(L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C139D57D042200137"]["prototype"]
-L69_1 = "F9F38F4FF58AE4A1E"
-
-function L70_1(A0_2)
+--- main.nushi.hagane.HaganeNushiEscapePerformance.MovePlay
+function C139D57D042200137_prototype:F9F38F4FF58AE4A1E()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C18DF4E0745B920F9
   L2_2 = L2_2.S7D1E199BBD384D72
   L3_2 = L2_2
   L2_2 = L2_2.F8FF59F989DFB39BD
   L2_2(L3_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.F7364C99F171973B4
   L4_2 = 2.1
@@ -525,7 +512,7 @@ function L70_1(A0_2)
   end
   
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F7EED485852A4D25F
   L4_2 = 0.68
@@ -549,14 +536,11 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C139D57D042200137"]["prototype"]
-L69_1 = "FCEAC5A9BC15CF27B"
-
-function L70_1(A0_2)
+--- main.nushi.hagane.HaganeNushiEscapePerformance.PlayerBack
+function C139D57D042200137_prototype:FCEAC5A9BC15CF27B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
-  L1_2 = A0_2
-  L2_2 = A0_2[4]
+  L1_2 = self
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.fCDCB600D
   L4_2 = true
@@ -573,18 +557,18 @@ function L70_1(A0_2)
   L2_2 = L2_2()
   L3_2 = L2_2
   L2_2 = L2_2.f74CDFF75
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   L4_2 = L4_2[1]
   L5_2 = false
   L2_2(L3_2, L4_2, L5_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F622AB4052AB35E98
-  L4_2 = A0_2[14]
+  L3_2 = self
+  L2_2 = self.F622AB4052AB35E98
+  L4_2 = self[14]
   L2_2(L3_2, L4_2)
   L2_2 = nil
   L3_2 = nil
   L4_2 = nil
-  L5_2 = A0_2[12]
+  L5_2 = self[12]
   L5_2 = L5_2[2]
   L6_2 = L5_2
   L5_2 = L5_2.f33A459EF
@@ -592,7 +576,7 @@ function L70_1(A0_2)
   L4_2 = L5_2
   L3_2 = L6_2
   L2_2 = L7_2
-  L8_2 = A0_2[12]
+  L8_2 = self[12]
   L8_2 = L8_2[2]
   L9_2 = L8_2
   L8_2 = L8_2.f40043336
@@ -600,7 +584,7 @@ function L70_1(A0_2)
   L9_2 = nil
   L10_2 = nil
   L11_2 = nil
-  L12_2 = A0_2[13]
+  L12_2 = self[13]
   L12_2 = L12_2[2]
   L13_2 = L12_2
   L12_2 = L12_2.f33A459EF
@@ -608,12 +592,12 @@ function L70_1(A0_2)
   L11_2 = L12_2
   L10_2 = L13_2
   L9_2 = L14_2
-  L15_2 = A0_2[13]
+  L15_2 = self[13]
   L15_2 = L15_2[2]
   L16_2 = L15_2
   L15_2 = L15_2.f40043336
   L15_2 = L15_2(L16_2)
-  L16_2 = A0_2[3]
+  L16_2 = self[3]
   L17_2 = L16_2
   L16_2 = L16_2.F7EED485852A4D25F
   L18_2 = 1.5

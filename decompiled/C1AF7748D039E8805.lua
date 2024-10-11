@@ -1,3 +1,7 @@
+---@alias C1AF7748D039E8805 main_event_general_pokecen_PokecenBirthDay
+
+---@class main_event_general_pokecen_PokecenBirthDay : C1AF7748D039E8805_prototype
+---@field prototype C1AF7748D039E8805_prototype
 L55_1 = _ENV
 L56_1 = "C1AF7748D039E8805"
 L57_1 = L15_1
@@ -61,18 +65,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1AF7748D039E8805"]
 L69_1 = "__name__"
 L70_1 = "C1AF7748D039E8805"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1AF7748D039E8805"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1AF7748D039E8805"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C1AF7748D039E8805_prototype
+C1AF7748D039E8805_prototype = L15_1()
+C1AF7748D039E8805.prototype = C1AF7748D039E8805_prototype
+--- main.event.general.pokecen.PokecenBirthDay.preStart
+function C1AF7748D039E8805_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   if nil == L1_2 then
     L1_2 = nil
     
@@ -81,7 +80,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = c016374C1
       L1_3 = L1_3.f4555D276
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[12]
       L2_3 = L2_3.owner
       L3_3 = L1_2
@@ -89,7 +88,7 @@ function L70_1(A0_2)
       if L1_3 then
         L0_3 = nil
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[12]
       end
       return L0_3
@@ -117,9 +116,9 @@ function L70_1(A0_2)
     return
   end
   L1_2 = L32_1.replace
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2.ownerName
-  L3_2 = A0_2[41]
+  L3_2 = self[41]
   L4_2 = ""
   L1_2 = L1_2(L2_2, L3_2, L4_2)
   if "" == L1_2 then
@@ -130,7 +129,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = c016374C1
       L1_3 = L1_3.f4555D276
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[12]
       L2_3 = L2_3.owner
       L3_3 = L1_2
@@ -138,7 +137,7 @@ function L70_1(A0_2)
       if L1_3 then
         L0_3 = nil
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[12]
       end
       return L0_3
@@ -151,7 +150,7 @@ function L70_1(A0_2)
     L2_2 = L2_2(L3_2)
     L3_2 = L2_2
     L2_2 = L2_2.f5439788F
-    L4_2 = A0_2[42]
+    L4_2 = self[42]
     L2_2 = L2_2(L3_2, L4_2)
     L3_2 = nil
     
@@ -180,7 +179,7 @@ function L70_1(A0_2)
     end
     
     L4_2 = L4_2()
-    A0_2[37] = L4_2
+    self[37] = L4_2
   else
     L1_2 = nil
     
@@ -189,7 +188,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = c016374C1
       L1_3 = L1_3.f4555D276
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[12]
       L2_3 = L2_3.owner
       L3_3 = L1_2
@@ -197,7 +196,7 @@ function L70_1(A0_2)
       if L1_3 then
         L0_3 = nil
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[12]
       end
       return L0_3
@@ -210,7 +209,7 @@ function L70_1(A0_2)
     L2_2 = L2_2(L3_2)
     L3_2 = L2_2
     L2_2 = L2_2.f5439788F
-    L4_2 = A0_2[43]
+    L4_2 = self[43]
     L2_2 = L2_2(L3_2, L4_2)
     L3_2 = nil
     
@@ -239,9 +238,9 @@ function L70_1(A0_2)
     end
     
     L4_2 = L4_2()
-    A0_2[37] = L4_2
+    self[37] = L4_2
   end
-  L1_2 = A0_2[37]
+  L1_2 = self[37]
   if nil == L1_2 then
     return
   end
@@ -252,7 +251,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -260,7 +259,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -273,7 +272,7 @@ function L70_1(A0_2)
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f5439788F
-  L4_2 = A0_2[44]
+  L4_2 = self[44]
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = nil
   
@@ -302,8 +301,8 @@ function L70_1(A0_2)
   end
   
   L4_2 = L4_2()
-  A0_2[38] = L4_2
-  L4_2 = A0_2[38]
+  self[38] = L4_2
+  L4_2 = self[38]
   if nil == L4_2 then
     return
   end
@@ -317,11 +316,11 @@ function L70_1(A0_2)
   L7_2 = "Birthday"
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L5_2(L6_2, L7_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
-  A0_2[36] = L4_2
+  self[36] = L4_2
   L4_2 = nil
   L5_2 = cE8D61D7D
   L5_2 = L5_2.fEFB8CD3A
-  L6_2 = A0_2[36]
+  L6_2 = self[36]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
@@ -342,7 +341,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L5_2
@@ -350,7 +349,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -363,10 +362,10 @@ function L70_1(A0_2)
   L6_2 = L6_2(L7_2)
   L7_2 = L6_2
   L6_2 = L6_2.f5439788F
-  L8_2 = A0_2[45]
+  L8_2 = self[45]
   L6_2 = L6_2(L7_2, L8_2)
   L7_2 = nil
-  L8_2 = A0_2[35]
+  L8_2 = self[35]
   L9_2 = L8_2
   L8_2 = L8_2.F7C68FEDB79AB6396
   
@@ -399,30 +398,27 @@ function L70_1(A0_2)
   L8_2 = C043642B35062DFB9
   L8_2 = L8_2.S1426FC71CA519EC3
   L8_2 = L8_2()
-  A0_2[39] = L8_2
-  A0_2[40] = true
+  self[39] = L8_2
+  self[40] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1AF7748D039E8805"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.pokecen.PokecenBirthDay.mainBody
+function C1AF7748D039E8805_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2
-  L1_2 = A0_2[40]
+  L1_2 = self[40]
   if not L1_2 then
     return
   end
   L1_2 = CD1AB2595B97752F1
   L1_2 = L1_2.S098096B44EAE1E26
   L1_2()
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.FC311B21A7EE93826
   L1_2(L2_2)
   L1_2 = CC6FE82819C6E1D55
   L1_2 = L1_2.S32FAD7D4DF3ACA95
-  L2_2 = A0_2[50]
+  L2_2 = self[50]
   L1_2(L2_2)
   L1_2 = C07E4F1BF071B0460
   L1_2 = L1_2.S218E2A14A790D265
@@ -431,7 +427,7 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S93A017D496A6D000
-  L2_2 = A0_2[37]
+  L2_2 = self[37]
   L2_2 = L2_2.owner
   L3_2 = L2_2
   L2_2 = L2_2.f64857644
@@ -444,7 +440,7 @@ function L70_1(A0_2)
   L2_2, L3_2, L4_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
   L5_2 = L2_2
   L6_2 = L4_2
-  L7_2 = A0_2[37]
+  L7_2 = self[37]
   L7_2 = L7_2.owner
   L8_2 = L7_2
   L7_2 = L7_2.f7360ED03
@@ -465,13 +461,13 @@ function L70_1(A0_2)
   L16_2 = L12_2
   L17_2 = L11_2
   L13_2(L14_2, L15_2, L16_2, L17_2)
-  L13_2 = A0_2[35]
+  L13_2 = self[35]
   L14_2 = L13_2
   L13_2 = L13_2.FC311B21A7EE93826
   L13_2(L14_2)
   L13_2 = CC6FE82819C6E1D55
   L13_2 = L13_2.S32FAD7D4DF3ACA95
-  L14_2 = A0_2[50]
+  L14_2 = self[50]
   L13_2(L14_2)
   L13_2 = L1_2.owner
   L14_2 = L13_2
@@ -494,7 +490,7 @@ function L70_1(A0_2)
   L17_2[3] = L20_2
   L18_2 = -10.0
   L16_2(L17_2, L18_2)
-  L16_2 = A0_2[38]
+  L16_2 = self[38]
   L17_2 = nil
   L18_2 = cE35B3EB3
   L18_2 = L18_2.fDBA763D1
@@ -543,7 +539,7 @@ function L70_1(A0_2)
   L20_2 = "BlackFade"
   L21_2 = 1.0
   L19_2(L20_2, L21_2)
-  L19_2 = A0_2[36]
+  L19_2 = self[36]
   L20_2 = L19_2
   L19_2 = L19_2.fA5130C84
   L21_2 = false
@@ -574,21 +570,21 @@ function L70_1(A0_2)
   L19_2 = C9B54BC04DD492B6D
   L19_2 = L19_2.S4E44D50241EFAB61
   L19_2()
-  L19_2 = A0_2[32]
+  L19_2 = self[32]
   L19_2 = L19_2.isLeapYear
   if L19_2 then
     L19_2 = C9B54BC04DD492B6D
     L19_2 = L19_2.S55C1C1048729E0BB
-    L20_2 = A0_2[46]
-    L21_2 = A0_2[49]
+    L20_2 = self[46]
+    L21_2 = self[49]
     L22_2 = true
     L23_2 = false
     L24_2 = true
     L19_2(L20_2, L21_2, L22_2, L23_2, L24_2)
     L19_2 = C9B54BC04DD492B6D
     L19_2 = L19_2.S55C1C1048729E0BB
-    L20_2 = A0_2[47]
-    L21_2 = A0_2[49]
+    L20_2 = self[47]
+    L21_2 = self[49]
     L22_2 = true
     L23_2 = false
     L24_2 = true
@@ -608,16 +604,16 @@ function L70_1(A0_2)
       if 28 == L20_2 then
         L20_2 = C9B54BC04DD492B6D
         L20_2 = L20_2.S55C1C1048729E0BB
-        L21_2 = A0_2[48]
-        L22_2 = A0_2[49]
+        L21_2 = self[48]
+        L22_2 = self[49]
         L23_2 = true
         L24_2 = false
         L25_2 = true
         L20_2(L21_2, L22_2, L23_2, L24_2, L25_2)
         L20_2 = C9B54BC04DD492B6D
         L20_2 = L20_2.S55C1C1048729E0BB
-        L21_2 = A0_2[47]
-        L22_2 = A0_2[49]
+        L21_2 = self[47]
+        L22_2 = self[49]
         L23_2 = true
         L24_2 = false
         L25_2 = true
@@ -626,16 +622,16 @@ function L70_1(A0_2)
     else
       L20_2 = C9B54BC04DD492B6D
       L20_2 = L20_2.S55C1C1048729E0BB
-      L21_2 = A0_2[46]
-      L22_2 = A0_2[49]
+      L21_2 = self[46]
+      L22_2 = self[49]
       L23_2 = true
       L24_2 = false
       L25_2 = true
       L20_2(L21_2, L22_2, L23_2, L24_2, L25_2)
       L20_2 = C9B54BC04DD492B6D
       L20_2 = L20_2.S55C1C1048729E0BB
-      L21_2 = A0_2[47]
-      L22_2 = A0_2[49]
+      L21_2 = self[47]
+      L22_2 = self[49]
       L23_2 = true
       L24_2 = false
       L25_2 = true
@@ -683,7 +679,7 @@ function L70_1(A0_2)
   L28_2 = C9F6C325569B7E07F
   L28_2 = L28_2.SD6A4A7158737A563
   L28_2()
-  L28_2 = A0_2[38]
+  L28_2 = self[38]
   L29_2 = nil
   L30_2 = cE35B3EB3
   L30_2 = L30_2.fDBA763D1
@@ -739,13 +735,10 @@ function L70_1(A0_2)
   L31_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1AF7748D039E8805"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.pokecen.PokecenBirthDay.preEnd
+function C1AF7748D039E8805_prototype:F740FB4E96926D103()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[40]
+  L1_2 = self[40]
   if not L1_2 then
     return
   end
@@ -757,7 +750,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.S17AC14A588D418A2
   L2_2 = true
   L1_2(L2_2)
-  L1_2 = A0_2[38]
+  L1_2 = self[38]
   L2_2 = nil
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fDBA763D1

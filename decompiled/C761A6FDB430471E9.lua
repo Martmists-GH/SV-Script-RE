@@ -1,3 +1,7 @@
+---@alias C761A6FDB430471E9 main_field_behaviour_scenario_main_champion_gym_mizu_GymMizuSeriMcIdleState
+
+---@class main_field_behaviour_scenario_main_champion_gym_mizu_GymMizuSeriMcIdleState : C761A6FDB430471E9_prototype
+---@field prototype C761A6FDB430471E9_prototype
 L55_1 = _ENV
 L56_1 = "C761A6FDB430471E9"
 L57_1 = L15_1
@@ -39,16 +43,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C761A6FDB430471E9"]
 L69_1 = "__name__"
 L70_1 = "C761A6FDB430471E9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C761A6FDB430471E9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C761A6FDB430471E9"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2, A1_2)
+---@class C761A6FDB430471E9_prototype
+C761A6FDB430471E9_prototype = L15_1()
+C761A6FDB430471E9.prototype = C761A6FDB430471E9_prototype
+--- main.field.behaviour.scenario.main.champion.gym.mizu.GymMizuSeriMcIdleState.onPreUpdate
+function C761A6FDB430471E9_prototype:F1993A419B4083AE8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = CF67A67452D018ECC
   L2_2 = L2_2.SC8223E31D3163519
@@ -69,28 +68,28 @@ function L70_1(A0_2, A1_2)
   if not L2_2 and not L3_2 then
     return
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2[77]
   if L4_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.FD41C00E3BD50422A
     L4_2(L5_2)
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L4_2 = L4_2[50]
     L4_2 = L4_2.itemTableId
     if 0 ~= L4_2 then
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = L4_2
       L4_2 = L4_2.F28EAF3B3AA178E3E
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L6_2 = L6_2[70]
       L4_2(L5_2, L6_2)
     else
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = L4_2
       L4_2 = L4_2.F28EAF3B3AA178E3E
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L6_2 = L6_2[73]
       L4_2(L5_2, L6_2)
     end
@@ -98,20 +97,20 @@ function L70_1(A0_2, A1_2)
   end
   L4_2 = C755044F92F3DC4F2
   L4_2 = L4_2.S0449136478634D10
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2[50]
   L4_2 = L4_2(L5_2)
   if not L4_2 then
     return
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2[50]
   L4_2 = L4_2.itemTableId
   if 0 == L4_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.F28EAF3B3AA178E3E
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[71]
     L4_2(L5_2, L6_2)
     return
@@ -122,16 +121,16 @@ function L70_1(A0_2, A1_2)
   if not L4_2 then
     return
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F5E4F9E91C16BC199
+  L5_2 = self
+  L4_2 = self.F5E4F9E91C16BC199
   L4_2 = L4_2(L5_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2[51]
   if L4_2 <= L5_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.F28EAF3B3AA178E3E
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[69]
     L4_2(L5_2, L6_2)
   end

@@ -1,3 +1,7 @@
+---@alias CB3466CCC533D7688 main_battle_BattleIdleCameraManager
+
+---@class main_battle_BattleIdleCameraManager : CB3466CCC533D7688_prototype
+---@field prototype CB3466CCC533D7688_prototype
 L55_1 = _ENV
 L56_1 = "CB3466CCC533D7688"
 L57_1 = L15_1
@@ -55,34 +59,29 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CB3466CCC533D7688"]
 L69_1 = "__name__"
 L70_1 = "CB3466CCC533D7688"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2)
+---@class CB3466CCC533D7688_prototype
+CB3466CCC533D7688_prototype = L15_1()
+CB3466CCC533D7688.prototype = CB3466CCC533D7688_prototype
+--- main.battle.BattleIdleCameraManager.Setup
+function CB3466CCC533D7688_prototype:F7C68FEDB79AB6396()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FF657426FC1B0D20A
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
-  A0_2[2] = L1_2
+  self[2] = L1_2
   L1_2 = C58ED32CFF2C9BAAA
   L1_2 = L1_2.new
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
-  A0_2[10] = L1_2
-  L1_2 = A0_2[10]
+  self[10] = L1_2
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.F7A3D296366E973CB
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.FF657426FC1B0D20A
   L3_2, L4_2 = L3_2(L4_2)
@@ -93,175 +92,160 @@ function L70_1(A0_2)
   L1_2 = L1_2.fCD31E312
   L3_2 = "random_camera_start_frames"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[11] = L1_2
+  self[11] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F7EED485852A4D25F"
-
-function L70_1(A0_2)
+--- main.battle.BattleIdleCameraManager.Start
+function CB3466CCC533D7688_prototype:F7EED485852A4D25F()
   local L1_2
   L1_2 = E87995251705228E4
   L1_2 = L1_2.StartWaitFrames
-  A0_2[5] = L1_2
+  self[5] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F4A086903BC093B05"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleIdleCameraManager.Stop
+function CB3466CCC533D7688_prototype:F4A086903BC093B05(A1_2)
   local L2_2, L3_2, L4_2
   if nil == A1_2 then
     A1_2 = false
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = E87995251705228E4
   L3_2 = L3_2.WaitSetup
   if L2_2 == L3_2 and false == A1_2 then
-    A0_2[13] = true
+    self[13] = true
     return
   end
-  A0_2[13] = false
-  L2_2 = A0_2[5]
+  self[13] = false
+  L2_2 = self[5]
   L3_2 = E87995251705228E4
   L3_2 = L3_2.Idle
   if L2_2 ~= L3_2 then
-    L2_2 = A0_2[12]
+    L2_2 = self[12]
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FE83803C3129B5871
+      L3_2 = self
+      L2_2 = self.FE83803C3129B5871
       L4_2 = false
       L2_2(L3_2, L4_2)
     end
   end
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F210938E4FD13F7D8
+    L3_2 = self
+    L2_2 = self.F210938E4FD13F7D8
     L4_2 = true
     L2_2(L3_2, L4_2)
-    A0_2[14] = false
+    self[14] = false
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F2474938969C43302
+  L3_2 = self
+  L2_2 = self.F2474938969C43302
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F36224D2441914477
+  L3_2 = self
+  L2_2 = self.F36224D2441914477
   L2_2(L3_2)
   L2_2 = E87995251705228E4
   L2_2 = L2_2.Idle
-  A0_2[5] = L2_2
+  self[5] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "FFB730E13EADA7545"
-
-function L70_1(A0_2)
+--- main.battle.BattleIdleCameraManager.IsPlaying
+function CB3466CCC533D7688_prototype:FFB730E13EADA7545()
   local L1_2, L2_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = E87995251705228E4
   L2_2 = L2_2.WaitPlay
   L1_2 = L1_2 == L2_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F67E708524AF043A3"
-
-function L70_1(A0_2)
+--- main.battle.BattleIdleCameraManager.IsIdle
+function CB3466CCC533D7688_prototype:F67E708524AF043A3()
   local L1_2, L2_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = E87995251705228E4
   L2_2 = L2_2.Idle
   L1_2 = L1_2 == L2_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.battle.BattleIdleCameraManager.Update
+function CB3466CCC533D7688_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2[1]
   if 0 == L1_2 then
   elseif 1 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F36224D2441914477
+    L3_2 = self
+    L2_2 = self.F36224D2441914477
     L2_2(L3_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.F2EFEDAC519D619F3
+    L3_2 = self
+    L2_2 = self.F2EFEDAC519D619F3
     L2_2(L3_2)
     L2_2 = _hx_tab_array
     L3_2 = {}
     L3_2.length = 0
     L4_2 = 0
     L2_2 = L2_2(L3_2, L4_2)
-    A0_2[9] = L2_2
+    self[9] = L2_2
     L2_2 = E87995251705228E4
     L2_2 = L2_2.WaitFrames
-    A0_2[5] = L2_2
+    self[5] = L2_2
   elseif 2 == L1_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     if L2_2 > 0 then
-      L2_2 = A0_2[6]
+      L2_2 = self[6]
       L2_2 = L2_2 - 1
-      A0_2[6] = L2_2
+      self[6] = L2_2
     end
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     if 0 == L2_2 then
       L2_2 = E87995251705228E4
       L2_2 = L2_2.PlayNext
-      A0_2[5] = L2_2
+      self[5] = L2_2
     end
   elseif 3 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FF29A887903606451
+    L3_2 = self
+    L2_2 = self.FF29A887903606451
     L2_2 = L2_2(L3_2)
     if L2_2 then
       L2_2 = E87995251705228E4
       L2_2 = L2_2.WaitSetup
-      A0_2[5] = L2_2
+      self[5] = L2_2
     else
       L2_2 = E87995251705228E4
       L2_2 = L2_2.StartWaitFrames
-      A0_2[5] = L2_2
+      self[5] = L2_2
     end
   elseif 4 == L1_2 then
-    L2_2 = A0_2[10]
+    L2_2 = self[10]
     L3_2 = L2_2
     L2_2 = L2_2.F5266CFD9CDD33AFD
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[13]
+      L2_2 = self[13]
       if true == L2_2 then
-        L3_2 = A0_2
-        L2_2 = A0_2.F4A086903BC093B05
+        L3_2 = self
+        L2_2 = self.F4A086903BC093B05
         L4_2 = true
         L2_2(L3_2, L4_2)
       else
-        L3_2 = A0_2
-        L2_2 = A0_2.F36224D2441914477
+        L3_2 = self
+        L2_2 = self.F36224D2441914477
         L2_2(L3_2)
-        L3_2 = A0_2
-        L2_2 = A0_2.FE83803C3129B5871
-        L4_2 = A0_2[12]
+        L3_2 = self
+        L2_2 = self.FE83803C3129B5871
+        L4_2 = self[12]
         L2_2(L3_2, L4_2)
-        L2_2 = A0_2[10]
+        L2_2 = self[10]
         L3_2 = L2_2
         L2_2 = L2_2.FEA4C6DFD3D68E0A3
         L2_2(L3_2)
-        A0_2[4] = true
-        A0_2[7] = 60
+        self[4] = true
+        self[7] = 60
         L2_2 = E87995251705228E4
         L2_2 = L2_2.WaitPlay
-        A0_2[5] = L2_2
-        L2_2 = A0_2[1]
+        self[5] = L2_2
+        L2_2 = self[1]
         L3_2 = L2_2
         L2_2 = L2_2.FA7062E4338CF62F8
         L2_2 = L2_2(L3_2)
@@ -272,44 +256,44 @@ function L70_1(A0_2)
     end
   elseif 5 == L1_2 then
     L2_2 = false
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     if 0 == L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F015284CA5066B8FA
+      L4_2 = self
+      L3_2 = self.F015284CA5066B8FA
       L3_2 = L3_2(L4_2)
       L2_2 = L3_2
     else
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L3_2 = L3_2 - 1
-      A0_2[7] = L3_2
+      self[7] = L3_2
     end
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.FA7062E4338CF62F8
     L3_2 = L3_2(L4_2)
     L4_2 = L3_2
     L3_2 = L3_2.F54B28CAC94D9C3E8
     L3_2(L4_2)
-    L3_2 = A0_2[10]
+    L3_2 = self[10]
     L4_2 = L3_2
     L3_2 = L3_2.FC113ABA2DB575DE2
     L3_2 = L3_2(L4_2)
     if L3_2 or L2_2 then
-      L3_2 = A0_2[14]
+      L3_2 = self[14]
       if L3_2 then
-        L3_2 = A0_2[10]
+        L3_2 = self[10]
         L4_2 = L3_2
         L3_2 = L3_2.FC113ABA2DB575DE2
         L3_2 = L3_2(L4_2)
         if not L3_2 then
-          L4_2 = A0_2
-          L3_2 = A0_2.F210938E4FD13F7D8
+          L4_2 = self
+          L3_2 = self.F210938E4FD13F7D8
           L5_2 = true
           L3_2(L4_2, L5_2)
-          A0_2[14] = false
+          self[14] = false
         end
       end
-      L3_2 = A0_2[10]
+      L3_2 = self[10]
       L4_2 = L3_2
       L3_2 = L3_2.F9E09A204E629F9F3
       L5_2 = 0
@@ -317,19 +301,16 @@ function L70_1(A0_2)
       L3_2(L4_2, L5_2, L6_2)
       L3_2 = E87995251705228E4
       L3_2 = L3_2.PlayNext
-      A0_2[5] = L3_2
+      self[5] = L3_2
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F015284CA5066B8FA"
-
-function L70_1(A0_2)
+--- main.battle.BattleIdleCameraManager.CheckTargetCollision
+function CB3466CCC533D7688_prototype:F015284CA5066B8FA()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L1_2 = 0
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = false
   while true do
     L4_2 = L2_2.length
@@ -345,7 +326,7 @@ function L70_1(A0_2)
         L6_2 = 0
         L7_2 = L4_2.isTrainer
         if not L7_2 then
-          L7_2 = A0_2[1]
+          L7_2 = self[1]
           L8_2 = L7_2
           L7_2 = L7_2.FE5B871E4C1AF4B14
           L9_2 = L4_2.vPos
@@ -373,7 +354,7 @@ function L70_1(A0_2)
           L12_2 = L9_2
           L13_2 = L10_2
           L14_2 = L11_2
-          L15_2 = A0_2[1]
+          L15_2 = self[1]
           L16_2 = L15_2
           L15_2 = L15_2.FA7062E4338CF62F8
           L15_2 = L15_2(L16_2)
@@ -391,7 +372,7 @@ function L70_1(A0_2)
           L18_2[2] = L20_2
           L18_2[3] = L21_2
           L5_2 = L18_2
-          L18_2 = A0_2[1]
+          L18_2 = self[1]
           L18_2 = L18_2[9]
           L19_2 = L18_2
           L18_2 = L18_2.FFF9E54CB570DFB2E
@@ -400,7 +381,7 @@ function L70_1(A0_2)
           L18_2 = L18_2(L19_2, L20_2, L21_2)
           L6_2 = L18_2
         else
-          L7_2 = A0_2[1]
+          L7_2 = self[1]
           L8_2 = L7_2
           L7_2 = L7_2.F404D6A39D957D1E4
           L9_2 = L4_2.vPos
@@ -428,7 +409,7 @@ function L70_1(A0_2)
           L12_2 = L9_2
           L13_2 = L10_2
           L14_2 = L11_2
-          L15_2 = A0_2[1]
+          L15_2 = self[1]
           L16_2 = L15_2
           L15_2 = L15_2.FA7062E4338CF62F8
           L15_2 = L15_2(L16_2)
@@ -478,16 +459,13 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F36224D2441914477"
-
-function L70_1(A0_2)
+--- main.battle.BattleIdleCameraManager.CheckCameraReset
+function CB3466CCC533D7688_prototype:F36224D2441914477()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if L1_2 then
-    A0_2[4] = false
-    L1_2 = A0_2[1]
+    self[4] = false
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.F2E7AB477B112A921
     L3_2 = 0
@@ -522,68 +500,62 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F2EFEDAC519D619F3"
-
-function L70_1(A0_2)
+--- main.battle.BattleIdleCameraManager.ResetWaitFrames
+function CB3466CCC533D7688_prototype:F2EFEDAC519D619F3()
   local L1_2, L2_2
-  L1_2 = A0_2[11]
-  A0_2[6] = L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[11]
+  self[6] = L1_2
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.F091397B4B2804EF0
   L1_2 = L1_2(L2_2)
   L1_2 = L1_2[3]
   if 3 == L1_2 then
-    L1_2 = A0_2[11]
+    L1_2 = self[11]
     L1_2 = L1_2 * 2
-    A0_2[6] = L1_2
+    self[6] = L1_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "FF29A887903606451"
-
-function L70_1(A0_2)
+--- main.battle.BattleIdleCameraManager.PlayNextTimeline
+function CB3466CCC533D7688_prototype:FF29A887903606451()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
   L2_2 = false
   L3_2 = 0
   L4_2 = 0
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.F50CD37788F209E62
   L5_2 = L5_2(L6_2)
   if 1 == L5_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.FD0AB9A7AD4A5C979
+    L6_2 = self
+    L5_2 = self.FD0AB9A7AD4A5C979
     L7_2 = L52_1.__cast
     L8_2 = 0
     L9_2 = L19_1
     L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2 = L7_2(L8_2, L9_2)
     L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2)
     L3_2 = L5_2
-    L6_2 = A0_2
-    L5_2 = A0_2.FD0AB9A7AD4A5C979
+    L6_2 = self
+    L5_2 = self.FD0AB9A7AD4A5C979
     L7_2 = L52_1.__cast
     L8_2 = 2
     L9_2 = L19_1
     L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2 = L7_2(L8_2, L9_2)
     L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2)
     L3_2 = L3_2 + L5_2
-    L6_2 = A0_2
-    L5_2 = A0_2.FD0AB9A7AD4A5C979
+    L6_2 = self
+    L5_2 = self.FD0AB9A7AD4A5C979
     L7_2 = L52_1.__cast
     L8_2 = 3
     L9_2 = L19_1
     L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2 = L7_2(L8_2, L9_2)
     L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2)
     L3_2 = L3_2 + L5_2
-    L6_2 = A0_2
-    L5_2 = A0_2.FD0AB9A7AD4A5C979
+    L6_2 = self
+    L5_2 = self.FD0AB9A7AD4A5C979
     L7_2 = L52_1.__cast
     L8_2 = 4
     L9_2 = L19_1
@@ -591,8 +563,8 @@ function L70_1(A0_2)
     L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2)
     L3_2 = L3_2 + L5_2
     L3_2 = L3_2 / 4.0
-    L6_2 = A0_2
-    L5_2 = A0_2.FD0AB9A7AD4A5C979
+    L6_2 = self
+    L5_2 = self.FD0AB9A7AD4A5C979
     L7_2 = L52_1.__cast
     L8_2 = 1
     L9_2 = L19_1
@@ -600,25 +572,25 @@ function L70_1(A0_2)
     L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2)
     L4_2 = L5_2
   else
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[24]
     L6_2 = L5_2
     L5_2 = L5_2.fB80A62B1
     L5_2 = L5_2(L6_2)
-    L7_2 = A0_2
-    L6_2 = A0_2.FD0AB9A7AD4A5C979
+    L7_2 = self
+    L6_2 = self.FD0AB9A7AD4A5C979
     L8_2 = L5_2
     L6_2 = L6_2(L7_2, L8_2)
     L3_2 = L6_2
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[24]
     L7_2 = L6_2
     L6_2 = L6_2.fF8D209C2
     L6_2 = L6_2(L7_2)
     if L6_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.FD0AB9A7AD4A5C979
-      L8_2 = A0_2[1]
+      L7_2 = self
+      L6_2 = self.FD0AB9A7AD4A5C979
+      L8_2 = self[1]
       L8_2 = L8_2[24]
       L9_2 = L8_2
       L8_2 = L8_2.f38565D7B
@@ -627,7 +599,7 @@ function L70_1(A0_2)
       L3_2 = L3_2 + L6_2
       L3_2 = L3_2 / 2.0
     end
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[24]
     L7_2 = L6_2
     L6_2 = L6_2.f11F60BDD
@@ -637,9 +609,9 @@ function L70_1(A0_2)
     L8_2 = L6_2
     while L7_2 < L8_2 do
       L7_2 = L7_2 + 1
-      L10_2 = A0_2
-      L9_2 = A0_2.FD0AB9A7AD4A5C979
-      L11_2 = A0_2[1]
+      L10_2 = self
+      L9_2 = self.FD0AB9A7AD4A5C979
+      L11_2 = self[1]
       L11_2 = L11_2[24]
       L12_2 = L11_2
       L11_2 = L11_2.fE6F5676D
@@ -675,45 +647,45 @@ function L70_1(A0_2)
   if L5_2 <= L6_2 then
     L2_2 = true
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F90FBEF0E0084E681
+  L6_2 = self
+  L5_2 = self.F90FBEF0E0084E681
   L7_2 = ECE06CA51B0B61607
   L7_2 = L7_2.Takara
   L5_2 = L5_2(L6_2, L7_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.FA73C2C06D5224049
+  L7_2 = self
+  L6_2 = self.FA73C2C06D5224049
   L6_2 = L6_2(L7_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F90FBEF0E0084E681
+  L8_2 = self
+  L7_2 = self.F90FBEF0E0084E681
   L9_2 = ECE06CA51B0B61607
   L9_2 = L9_2.Normal
   L7_2 = L7_2(L8_2, L9_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.F90FBEF0E0084E681
+  L9_2 = self
+  L8_2 = self.F90FBEF0E0084E681
   L10_2 = ECE06CA51B0B61607
   L10_2 = L10_2.DanCar
   L8_2 = L8_2(L9_2, L10_2)
-  L10_2 = A0_2
-  L9_2 = A0_2.FDB1AE5CF346D0A7F
+  L10_2 = self
+  L9_2 = self.FDB1AE5CF346D0A7F
   L11_2 = ECE06CA51B0B61607
   L11_2 = L11_2.Normal
   L9_2 = L9_2(L10_2, L11_2)
-  L11_2 = A0_2
-  L10_2 = A0_2.F075E50509378D6F0
+  L11_2 = self
+  L10_2 = self.F075E50509378D6F0
   L12_2 = ECE06CA51B0B61607
   L12_2 = L12_2.Normal
   L10_2 = L10_2(L11_2, L12_2)
-  L11_2 = A0_2[1]
+  L11_2 = self[1]
   L12_2 = L11_2
   L11_2 = L11_2.F091397B4B2804EF0
   L11_2 = L11_2(L12_2)
   L11_2 = L11_2[107]
-  L12_2 = A0_2[1]
+  L12_2 = self[1]
   L13_2 = L12_2
   L12_2 = L12_2.F091397B4B2804EF0
   L12_2 = L12_2(L13_2)
   L12_2 = L12_2[120]
-  L13_2 = A0_2[1]
+  L13_2 = self[1]
   L14_2 = L13_2
   L13_2 = L13_2.F091397B4B2804EF0
   L13_2 = L13_2(L14_2)
@@ -734,7 +706,7 @@ function L70_1(A0_2)
     L21_2 = "values"
     L22_2 = L18_2
     L19_2 = L19_2(L20_2, L21_2, L22_2)
-    L20_2 = A0_2[9]
+    L20_2 = self[9]
     L21_2 = L20_2
     L20_2 = L20_2.contains
     L23_2 = L19_2
@@ -811,23 +783,23 @@ function L70_1(A0_2)
                   L22_2 = "isWCS"
                   L20_2 = L20_2(L21_2, L22_2)
                   if not L20_2 or L11_2 then
-                    L20_2 = A0_2[1]
+                    L20_2 = self[1]
                     L21_2 = L20_2
                     L20_2 = L20_2.F091397B4B2804EF0
                     L20_2 = L20_2(L21_2)
                     L20_2 = L20_2[119]
-                    L21_2 = A0_2[1]
+                    L21_2 = self[1]
                     L22_2 = L21_2
                     L21_2 = L21_2.F091397B4B2804EF0
                     L21_2 = L21_2(L22_2)
                     L21_2 = L21_2[118]
-                    L22_2 = A0_2[1]
+                    L22_2 = self[1]
                     L23_2 = L22_2
                     L22_2 = L22_2.F091397B4B2804EF0
                     L22_2 = L22_2(L23_2)
                     L22_2 = L22_2[109]
                     if not L22_2 then
-                      L22_2 = A0_2[1]
+                      L22_2 = self[1]
                       L23_2 = L22_2
                       L22_2 = L22_2.F091397B4B2804EF0
                       L22_2 = L22_2(L23_2)
@@ -850,7 +822,7 @@ function L70_1(A0_2)
                         goto lbl_570
                       end
                     else
-                      L23_2 = A0_2[1]
+                      L23_2 = self[1]
                       L24_2 = L23_2
                       L23_2 = L23_2.F091397B4B2804EF0
                       L23_2 = L23_2(L24_2)
@@ -864,19 +836,19 @@ function L70_1(A0_2)
                           goto lbl_570
                         end
                       else
-                        L23_2 = A0_2[1]
+                        L23_2 = self[1]
                         L24_2 = L23_2
                         L23_2 = L23_2.F091397B4B2804EF0
                         L23_2 = L23_2(L24_2)
                         L23_2 = L23_2[125]
                         if L23_2 then
-                          L23_2 = A0_2[1]
+                          L23_2 = self[1]
                           L24_2 = L23_2
                           L23_2 = L23_2.F091397B4B2804EF0
                           L23_2 = L23_2(L24_2)
                           L23_2 = L23_2[126]
                           if 0 ~= L23_2 then
-                            L23_2 = A0_2[1]
+                            L23_2 = self[1]
                             L24_2 = L23_2
                             L23_2 = L23_2.F091397B4B2804EF0
                             L23_2 = L23_2(L24_2)
@@ -902,7 +874,7 @@ function L70_1(A0_2)
                             goto lbl_570
                           end
                         else
-                          L23_2 = A0_2[1]
+                          L23_2 = self[1]
                           L24_2 = L23_2
                           L23_2 = L23_2.F091397B4B2804EF0
                           L23_2 = L23_2(L24_2)
@@ -924,7 +896,7 @@ function L70_1(A0_2)
                               goto lbl_570
                             end
                           else
-                            L23_2 = A0_2[1]
+                            L23_2 = self[1]
                             L24_2 = L23_2
                             L23_2 = L23_2.F50CD37788F209E62
                             L23_2 = L23_2(L24_2)
@@ -937,7 +909,7 @@ function L70_1(A0_2)
                                 goto lbl_570
                               end
                             else
-                              L23_2 = A0_2[1]
+                              L23_2 = self[1]
                               L24_2 = L23_2
                               L23_2 = L23_2.F50CD37788F209E62
                               L23_2 = L23_2(L24_2)
@@ -950,12 +922,12 @@ function L70_1(A0_2)
                                   goto lbl_570
                                 end
                               else
-                                L23_2 = A0_2[1]
+                                L23_2 = self[1]
                                 L24_2 = L23_2
                                 L23_2 = L23_2.F50CD37788F209E62
                                 L23_2 = L23_2(L24_2)
                                 if 4 == L23_2 then
-                                  L23_2 = A0_2[1]
+                                  L23_2 = self[1]
                                   L23_2 = L23_2[24]
                                   L24_2 = L23_2
                                   L23_2 = L23_2.fB5F36EDF
@@ -970,7 +942,7 @@ function L70_1(A0_2)
                                     end
                                 end
                                 else
-                                  L23_2 = A0_2[1]
+                                  L23_2 = self[1]
                                   L24_2 = L23_2
                                   L23_2 = L23_2.F50CD37788F209E62
                                   L23_2 = L23_2(L24_2)
@@ -983,18 +955,18 @@ function L70_1(A0_2)
                                       goto lbl_570
                                     end
                                   else
-                                    L23_2 = A0_2[1]
+                                    L23_2 = self[1]
                                     L24_2 = L23_2
                                     L23_2 = L23_2.F50CD37788F209E62
                                     L23_2 = L23_2(L24_2)
                                     if 5 == L23_2 then
-                                      L23_2 = A0_2[1]
+                                      L23_2 = self[1]
                                       L23_2 = L23_2[24]
                                       L24_2 = L23_2
                                       L23_2 = L23_2.fB5F36EDF
                                       L23_2 = L23_2(L24_2)
                                       if L23_2 then
-                                        L23_2 = A0_2[1]
+                                        L23_2 = self[1]
                                         L24_2 = L23_2
                                         L23_2 = L23_2.F091397B4B2804EF0
                                         L23_2 = L23_2(L24_2)
@@ -1008,8 +980,8 @@ function L70_1(A0_2)
                                             if not L23_2 then
                                               goto lbl_570
                                             end
-                                            L24_2 = A0_2
-                                            L23_2 = A0_2.F2DB3087A3415ED83
+                                            L24_2 = self
+                                            L23_2 = self.F2DB3087A3415ED83
                                             L25_2 = L13_2
                                             L27_2 = L19_2
                                             L26_2 = L19_2.f3D9D438D
@@ -1031,17 +1003,17 @@ function L70_1(A0_2)
                                       end
                                     end
                                     else
-                                      L23_2 = A0_2[1]
+                                      L23_2 = self[1]
                                       L24_2 = L23_2
                                       L23_2 = L23_2.F50CD37788F209E62
                                       L23_2 = L23_2(L24_2)
                                       if 5 == L23_2 then
-                                        L23_2 = A0_2[1]
+                                        L23_2 = self[1]
                                         L24_2 = L23_2
                                         L23_2 = L23_2.F99C026E10A2BA109
                                         L23_2 = L23_2(L24_2)
                                         if 1 == L23_2 then
-                                          L23_2 = A0_2[1]
+                                          L23_2 = self[1]
                                           L24_2 = L23_2
                                           L23_2 = L23_2.F091397B4B2804EF0
                                           L23_2 = L23_2(L24_2)
@@ -1055,8 +1027,8 @@ function L70_1(A0_2)
                                               if not L23_2 then
                                                 goto lbl_570
                                               end
-                                              L24_2 = A0_2
-                                              L23_2 = A0_2.F2DB3087A3415ED83
+                                              L24_2 = self
+                                              L23_2 = self.F2DB3087A3415ED83
                                               L25_2 = L13_2
                                               L27_2 = L19_2
                                               L26_2 = L19_2.f3D9D438D
@@ -1078,12 +1050,12 @@ function L70_1(A0_2)
                                         end
                                       end
                                       else
-                                        L23_2 = A0_2[1]
+                                        L23_2 = self[1]
                                         L24_2 = L23_2
                                         L23_2 = L23_2.F50CD37788F209E62
                                         L23_2 = L23_2(L24_2)
                                         if 5 == L23_2 then
-                                          L23_2 = A0_2[1]
+                                          L23_2 = self[1]
                                           L24_2 = L23_2
                                           L23_2 = L23_2.F091397B4B2804EF0
                                           L23_2 = L23_2(L24_2)
@@ -1097,8 +1069,8 @@ function L70_1(A0_2)
                                               if not L23_2 then
                                                 goto lbl_570
                                               end
-                                              L24_2 = A0_2
-                                              L23_2 = A0_2.F2DB3087A3415ED83
+                                              L24_2 = self
+                                              L23_2 = self.F2DB3087A3415ED83
                                               L25_2 = L13_2
                                               L27_2 = L19_2
                                               L26_2 = L19_2.f3D9D438D
@@ -1119,18 +1091,18 @@ function L70_1(A0_2)
                                             end
                                         end
                                         else
-                                          L23_2 = A0_2[1]
+                                          L23_2 = self[1]
                                           L24_2 = L23_2
                                           L23_2 = L23_2.F50CD37788F209E62
                                           L23_2 = L23_2(L24_2)
                                           if 5 == L23_2 then
-                                            L23_2 = A0_2[1]
+                                            L23_2 = self[1]
                                             L23_2 = L23_2[24]
                                             L24_2 = L23_2
                                             L23_2 = L23_2.fB5F36EDF
                                             L23_2 = L23_2(L24_2)
                                             if L23_2 then
-                                              L23_2 = A0_2[1]
+                                              L23_2 = self[1]
                                               L24_2 = L23_2
                                               L23_2 = L23_2.F091397B4B2804EF0
                                               L23_2 = L23_2(L24_2)
@@ -1146,17 +1118,17 @@ function L70_1(A0_2)
                                             end
                                           end
                                           else
-                                            L23_2 = A0_2[1]
+                                            L23_2 = self[1]
                                             L24_2 = L23_2
                                             L23_2 = L23_2.F50CD37788F209E62
                                             L23_2 = L23_2(L24_2)
                                             if 5 == L23_2 then
-                                              L23_2 = A0_2[1]
+                                              L23_2 = self[1]
                                               L24_2 = L23_2
                                               L23_2 = L23_2.F99C026E10A2BA109
                                               L23_2 = L23_2(L24_2)
                                               if 1 == L23_2 then
-                                                L23_2 = A0_2[1]
+                                                L23_2 = self[1]
                                                 L24_2 = L23_2
                                                 L23_2 = L23_2.F091397B4B2804EF0
                                                 L23_2 = L23_2(L24_2)
@@ -1172,12 +1144,12 @@ function L70_1(A0_2)
                                               end
                                             end
                                             else
-                                              L23_2 = A0_2[1]
+                                              L23_2 = self[1]
                                               L24_2 = L23_2
                                               L23_2 = L23_2.F50CD37788F209E62
                                               L23_2 = L23_2(L24_2)
                                               if 5 == L23_2 then
-                                                L23_2 = A0_2[1]
+                                                L23_2 = self[1]
                                                 L24_2 = L23_2
                                                 L23_2 = L23_2.F091397B4B2804EF0
                                                 L23_2 = L23_2(L24_2)
@@ -1259,7 +1231,7 @@ function L70_1(A0_2)
   L20_2 = L20_2(L21_2)
   L21_2 = -1
   L22_2 = -1
-  L23_2 = A0_2[8]
+  L23_2 = self[8]
   L24_2 = L23_2
   L23_2 = L23_2.resize
   L25_2 = 0
@@ -1284,25 +1256,25 @@ function L70_1(A0_2)
   L24_2 = L19_2.f6DAE9B28
   L26_2 = "isExceptionDitherEnable"
   L24_2 = L24_2(L25_2, L26_2)
-  A0_2[12] = L24_2
+  self[12] = L24_2
   if 0 == L20_2 or 1 == L20_2 or 4 == L20_2 then
     if 0 == L20_2 then
-      L25_2 = A0_2
-      L24_2 = A0_2.FDBAD1A85770F2EA9
+      L25_2 = self
+      L24_2 = self.FDBAD1A85770F2EA9
       L26_2 = ECE06CA51B0B61607
       L26_2 = L26_2.Normal
       L24_2 = L24_2(L25_2, L26_2)
       L21_2 = L24_2
     elseif 1 == L20_2 then
-      L25_2 = A0_2
-      L24_2 = A0_2.FDBAD1A85770F2EA9
+      L25_2 = self
+      L24_2 = self.FDBAD1A85770F2EA9
       L26_2 = ECE06CA51B0B61607
       L26_2 = L26_2.Takara
       L24_2 = L24_2(L25_2, L26_2)
       L21_2 = L24_2
     else
-      L25_2 = A0_2
-      L24_2 = A0_2.FDBAD1A85770F2EA9
+      L25_2 = self
+      L24_2 = self.FDBAD1A85770F2EA9
       L26_2 = ECE06CA51B0B61607
       L26_2 = L26_2.DanCar
       L24_2 = L24_2(L25_2, L26_2)
@@ -1319,8 +1291,8 @@ function L70_1(A0_2)
         L26_2.vPos = true
         L26_2.isTrainer = true
         L25_2.__fields__ = L26_2
-        L27_2 = A0_2
-        L26_2 = A0_2.FD32DDEC45C6A05E4
+        L27_2 = self
+        L26_2 = self.FD32DDEC45C6A05E4
         L28_2 = L23_2.vPos
         L29_2 = false
         L30_2 = ECE06CA51B0B61607
@@ -1329,20 +1301,20 @@ function L70_1(A0_2)
         L25_2.vPos = L26_2
         L25_2.isTrainer = false
         L24_2 = L24_2(L25_2)
-        L25_2 = A0_2[8]
+        L25_2 = self[8]
         L25_2[1] = L24_2
       end
     end
   elseif 2 == L20_2 then
-    L25_2 = A0_2
-    L24_2 = A0_2.FBC7973BF3746DC8D
+    L25_2 = self
+    L24_2 = self.FBC7973BF3746DC8D
     L24_2 = L24_2(L25_2)
     L22_2 = L24_2
     L23_2.vPos = L22_2
     L23_2.isTrainer = true
   elseif 5 == L20_2 then
-    L25_2 = A0_2
-    L24_2 = A0_2.F2B4C5BA6523B4A15
+    L25_2 = self
+    L24_2 = self.F2B4C5BA6523B4A15
     L26_2 = ECE06CA51B0B61607
     L26_2 = L26_2.Normal
     L24_2 = L24_2(L25_2, L26_2)
@@ -1355,7 +1327,7 @@ function L70_1(A0_2)
     L26_2.vPos = true
     L26_2.isTrainer = true
     L25_2.__fields__ = L26_2
-    L26_2 = A0_2[1]
+    L26_2 = self[1]
     L26_2 = L26_2[24]
     L27_2 = L26_2
     L26_2 = L26_2.f716B567C
@@ -1367,11 +1339,11 @@ function L70_1(A0_2)
     L25_2.vPos = L26_2
     L25_2.isTrainer = true
     L24_2 = L24_2(L25_2)
-    L25_2 = A0_2[8]
+    L25_2 = self[8]
     L25_2[1] = L24_2
   elseif 6 == L20_2 then
-    L25_2 = A0_2
-    L24_2 = A0_2.FD32DDEC45C6A05E4
+    L25_2 = self
+    L24_2 = self.FD32DDEC45C6A05E4
     L26_2 = 0
     L27_2 = true
     
@@ -1402,8 +1374,8 @@ function L70_1(A0_2)
       L26_2.vPos = true
       L26_2.isTrainer = true
       L25_2.__fields__ = L26_2
-      L27_2 = A0_2
-      L26_2 = A0_2.FD32DDEC45C6A05E4
+      L27_2 = self
+      L26_2 = self.FD32DDEC45C6A05E4
       L28_2 = L23_2.vPos
       L29_2 = false
       
@@ -1426,24 +1398,24 @@ function L70_1(A0_2)
       L25_2.vPos = L26_2
       L25_2.isTrainer = false
       L24_2 = L24_2(L25_2)
-      L25_2 = A0_2[8]
+      L25_2 = self[8]
       L25_2[1] = L24_2
     end
   elseif 7 == L20_2 then
-    L25_2 = A0_2
-    L24_2 = A0_2.FE83C40B52314EA56
+    L25_2 = self
+    L24_2 = self.FE83C40B52314EA56
     L26_2 = 0
     L27_2 = true
     L24_2 = L24_2(L25_2, L26_2, L27_2)
     L23_2.vPos = L24_2
     L23_2.isTrainer = true
-    L25_2 = A0_2
-    L24_2 = A0_2.FE83C40B52314EA56
+    L25_2 = self
+    L24_2 = self.FE83C40B52314EA56
     L26_2 = 0
     L27_2 = false
     L24_2 = L24_2(L25_2, L26_2, L27_2)
     if -1 ~= L24_2 then
-      L25_2 = A0_2[8]
+      L25_2 = self[8]
       L26_2 = L16_1
       L27_2 = {}
       L28_2 = {}
@@ -1456,7 +1428,7 @@ function L70_1(A0_2)
       L25_2[1] = L26_2
     end
   end
-  L24_2 = A0_2[8]
+  L24_2 = self[8]
   L24_2[0] = L23_2
   L24_2 = nil
   if 2 == L20_2 or 3 == L20_2 then
@@ -1533,14 +1505,14 @@ function L70_1(A0_2)
   L29_2 = L19_2.f3D9D438D
   L31_2 = "timeline"
   L29_2 = L29_2(L30_2, L31_2)
-  A0_2[14] = false
+  self[14] = false
   if "ee_wait23" == L29_2 then
-    A0_2[14] = true
+    self[14] = true
   end
-  L30_2 = A0_2[10]
+  L30_2 = self[10]
   L31_2 = L30_2
   L30_2 = L30_2.F7C68FEDB79AB6396
-  L32_2 = A0_2[2]
+  L32_2 = self[2]
   L33_2 = L31_1.string
   L34_2 = L31_1.string
   L35_2 = L31_1.string
@@ -1570,44 +1542,44 @@ function L70_1(A0_2)
   L35_2 = true
   L30_2(L31_2, L32_2, L33_2, L34_2, L35_2)
   if L26_2 then
-    L30_2 = A0_2[10]
+    L30_2 = self[10]
     L31_2 = L30_2
     L30_2 = L30_2.F508369557DB1AA2C
     L32_2 = L27_2
     L30_2(L31_2, L32_2)
   end
-  L30_2 = A0_2[8]
+  L30_2 = self[8]
   L30_2 = L30_2[0]
   L30_2 = L30_2.vPos
   if -1 ~= L30_2 then
     L30_2 = -1
-    L31_2 = A0_2[8]
+    L31_2 = self[8]
     L31_2 = L31_2[0]
     L31_2 = L31_2.isTrainer
     if false == L31_2 then
-      L31_2 = A0_2[1]
+      L31_2 = self[1]
       L32_2 = L31_2
       L31_2 = L31_2.FE5B871E4C1AF4B14
-      L33_2 = A0_2[8]
+      L33_2 = self[8]
       L33_2 = L33_2[0]
       L33_2 = L33_2.vPos
       L31_2 = L31_2(L32_2, L33_2)
       L32_2 = L31_2
-      L33_2 = A0_2[8]
+      L33_2 = self[8]
       L33_2 = L33_2[1]
       if nil ~= L33_2 then
-        L33_2 = A0_2[8]
+        L33_2 = self[8]
         L33_2 = L33_2[1]
         L33_2 = L33_2.isTrainer
         if false == L33_2 then
-          L33_2 = A0_2[8]
+          L33_2 = self[8]
           L33_2 = L33_2[1]
           L33_2 = L33_2.vPos
           if -1 ~= L33_2 then
-            L33_2 = A0_2[1]
+            L33_2 = self[1]
             L34_2 = L33_2
             L33_2 = L33_2.FE5B871E4C1AF4B14
-            L35_2 = A0_2[8]
+            L35_2 = self[8]
             L35_2 = L35_2[1]
             L35_2 = L35_2.vPos
             L33_2 = L33_2(L34_2, L35_2)
@@ -1615,54 +1587,54 @@ function L70_1(A0_2)
           end
         end
       end
-      L33_2 = A0_2[10]
+      L33_2 = self[10]
       L34_2 = L33_2
       L33_2 = L33_2.FED9666926137B367
       L35_2 = L31_2
       L36_2 = L32_2
       L33_2(L34_2, L35_2, L36_2)
-      L33_2 = A0_2[8]
+      L33_2 = self[8]
       L33_2 = L33_2[1]
       if nil ~= L33_2 then
-        L33_2 = A0_2[8]
+        L33_2 = self[8]
         L33_2 = L33_2[1]
         L33_2 = L33_2.isTrainer
         if L33_2 then
-          L33_2 = A0_2[8]
+          L33_2 = self[8]
           L33_2 = L33_2[1]
           L33_2 = L33_2.vPos
           if -1 ~= L33_2 then
-            L33_2 = A0_2[8]
+            L33_2 = self[8]
             L33_2 = L33_2[1]
             L30_2 = L33_2.vPos
           end
         end
       end
     else
-      L31_2 = A0_2[8]
+      L31_2 = self[8]
       L31_2 = L31_2[0]
       L30_2 = L31_2.vPos
     end
     if -1 ~= L30_2 then
       L31_2 = L30_2
-      L32_2 = A0_2[8]
+      L32_2 = self[8]
       L32_2 = L32_2[1]
       if nil ~= L32_2 then
-        L32_2 = A0_2[8]
+        L32_2 = self[8]
         L32_2 = L32_2[1]
         L32_2 = L32_2.isTrainer
         if L32_2 then
-          L32_2 = A0_2[8]
+          L32_2 = self[8]
           L32_2 = L32_2[1]
           L32_2 = L32_2.vPos
           if -1 ~= L32_2 then
-            L32_2 = A0_2[8]
+            L32_2 = self[8]
             L32_2 = L32_2[1]
             L31_2 = L32_2.vPos
           end
         end
       end
-      L32_2 = A0_2[10]
+      L32_2 = self[10]
       L33_2 = L32_2
       L32_2 = L32_2.FFB21D88EE4023B2F
       L34_2 = L30_2
@@ -1675,7 +1647,7 @@ function L70_1(A0_2)
   L31_2.length = 0
   L32_2 = 0
   L30_2 = L30_2(L31_2, L32_2)
-  A0_2[9] = L30_2
+  self[9] = L30_2
   L31_2 = L19_2
   L30_2 = L19_2.f3D9D438D
   L32_2 = "noRepeatID"
@@ -1738,7 +1710,7 @@ function L70_1(A0_2)
     L34_2 = 0
     while L33_2 > L34_2 do
       L34_2 = L34_2 + 1
-      L35_2 = A0_2[9]
+      L35_2 = self[9]
       L36_2 = L35_2
       L35_2 = L35_2.push
       L37_2 = L31_1.parseInt
@@ -1752,31 +1724,28 @@ function L70_1(A0_2)
   return L31_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F2474938969C43302"
-
-function L70_1(A0_2)
+--- main.battle.BattleIdleCameraManager.TerminateCurrentTimeline
+function CB3466CCC533D7688_prototype:F2474938969C43302()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = E87995251705228E4
   L2_2 = L2_2.WaitPlay
   if L1_2 ~= L2_2 then
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     L2_2 = E87995251705228E4
     L2_2 = L2_2.WaitSetup
     if L1_2 ~= L2_2 then
       goto lbl_103
     end
   end
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.F9E09A204E629F9F3
   L3_2 = 0
   L4_2 = true
   L1_2(L2_2, L3_2, L4_2)
   L1_2 = 0
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = false
   while true do
     L4_2 = L2_2.length
@@ -1790,7 +1759,7 @@ function L70_1(A0_2)
       if -1 ~= L5_2 then
         L5_2 = L4_2.isTrainer
         if L5_2 then
-          L5_2 = A0_2[1]
+          L5_2 = self[1]
           L6_2 = L5_2
           L5_2 = L5_2.F404D6A39D957D1E4
           L7_2 = L4_2.vPos
@@ -1814,7 +1783,7 @@ function L70_1(A0_2)
             L7_2(L8_2, L9_2)
           end
         else
-          L5_2 = A0_2[1]
+          L5_2 = self[1]
           L6_2 = L5_2
           L5_2 = L5_2.FE5B871E4C1AF4B14
           L7_2 = L4_2.vPos
@@ -1874,18 +1843,15 @@ function L70_1(A0_2)
   ::lbl_103::
   L1_2 = E87995251705228E4
   L1_2 = L1_2.Idle
-  A0_2[5] = L1_2
+  self[5] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F210938E4FD13F7D8"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleIdleCameraManager.F210938E4FD13F7D8
+function CB3466CCC533D7688_prototype:F210938E4FD13F7D8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = false
   L3_2 = 0
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.F9B089DD047C1BDC9
   L4_2 = L4_2(L5_2)
@@ -1900,7 +1866,7 @@ function L70_1(A0_2, A1_2)
     if nil ~= L6_2 then
       L2_2 = false
       L7_2 = 0
-      L8_2 = A0_2[8]
+      L8_2 = self[8]
       while true do
         L9_2 = L8_2.length
         if not (L7_2 < L9_2) then
@@ -1940,7 +1906,7 @@ function L70_1(A0_2, A1_2)
     end
   end
   L6_2 = 0
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.F98A13343A5C84B99
   L7_2 = L7_2(L8_2)
@@ -1955,7 +1921,7 @@ function L70_1(A0_2, A1_2)
     if nil ~= L9_2 then
       L2_2 = false
       L10_2 = 0
-      L11_2 = A0_2[8]
+      L11_2 = self[8]
       while true do
         L12_2 = L11_2.length
         if not (L10_2 < L12_2) then
@@ -1991,13 +1957,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "FD0AB9A7AD4A5C979"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleIdleCameraManager.GetPartyHpPercentage
+function CB3466CCC533D7688_prototype:FD0AB9A7AD4A5C979(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[24]
   L3_2 = L2_2
   L2_2 = L2_2.fC5DBCEE9
@@ -2036,11 +1999,8 @@ function L70_1(A0_2, A1_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "FDBAD1A85770F2EA9"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleIdleCameraManager.GetRandomPokemon
+function CB3466CCC533D7688_prototype:FDBAD1A85770F2EA9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
@@ -2048,8 +2008,8 @@ function L70_1(A0_2, A1_2)
   while L3_2 < 9 do
     L3_2 = L3_2 + 1
     L4_2 = L3_2 - 1
-    L6_2 = A0_2
-    L5_2 = A0_2.FAE98C1A56BD5416C
+    L6_2 = self
+    L5_2 = self.FAE98C1A56BD5416C
     L7_2 = L4_2
     L8_2 = A1_2
     L5_2 = L5_2(L6_2, L7_2, L8_2)
@@ -2078,11 +2038,8 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "FBC7973BF3746DC8D"
-
-function L70_1(A0_2)
+--- main.battle.BattleIdleCameraManager.GetRandomTrainer
+function CB3466CCC533D7688_prototype:FBC7973BF3746DC8D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
@@ -2090,7 +2047,7 @@ function L70_1(A0_2)
   while L2_2 < 9 do
     L2_2 = L2_2 + 1
     L3_2 = L2_2 - 1
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.F404D6A39D957D1E4
     L6_2 = L3_2
@@ -2120,20 +2077,17 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "FE83C40B52314EA56"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.BattleIdleCameraManager.FE83C40B52314EA56
+function CB3466CCC533D7688_prototype:FE83C40B52314EA56(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = L26_1.new
   L3_2 = L3_2()
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.F50CD37788F209E62
   L4_2 = L4_2(L5_2)
   if 1 == L4_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.FDE1DA0626D0BF920
     L6_2 = A1_2
@@ -2153,7 +2107,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L0_3 = nil
       L1_3 = A2_2
       if L1_3 then
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[1]
         L2_3 = L1_3
         L1_3 = L1_3.FDE1DA0626D0BF920
@@ -2161,7 +2115,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L1_3 = L1_3(L2_3, L3_3)
         L0_3 = L1_3
       else
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[1]
         L2_3 = L1_3
         L1_3 = L1_3.FDE1DA0626D0BF920
@@ -2177,13 +2131,13 @@ function L70_1(A0_2, A1_2, A2_2)
     while L5_2 < 10 do
       L5_2 = L5_2 + 1
       L6_2 = L5_2 - 1
-      L7_2 = A0_2[1]
+      L7_2 = self[1]
       L8_2 = L7_2
       L7_2 = L7_2.FDE1DA0626D0BF920
       L9_2 = L6_2
       L7_2 = L7_2(L8_2, L9_2)
       if L4_2 == L7_2 then
-        L7_2 = A0_2[1]
+        L7_2 = self[1]
         L8_2 = L7_2
         L7_2 = L7_2.F404D6A39D957D1E4
         L9_2 = L6_2
@@ -2215,17 +2169,14 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F90FBEF0E0084E681"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleIdleCameraManager.IsPokemonPresent
+function CB3466CCC533D7688_prototype:F90FBEF0E0084E681(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = 0
   while L2_2 < 9 do
     L2_2 = L2_2 + 1
-    L4_2 = A0_2
-    L3_2 = A0_2.FAE98C1A56BD5416C
+    L4_2 = self
+    L3_2 = self.FAE98C1A56BD5416C
     L5_2 = L2_2 - 1
     L6_2 = A1_2
     L3_2 = L3_2(L4_2, L5_2, L6_2)
@@ -2238,13 +2189,10 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "FA73C2C06D5224049"
-
-function L70_1(A0_2)
+--- main.battle.BattleIdleCameraManager.FA73C2C06D5224049
+function CB3466CCC533D7688_prototype:FA73C2C06D5224049()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.F50CD37788F209E62
   L1_2 = L1_2(L2_2)
@@ -2260,7 +2208,7 @@ function L70_1(A0_2)
     L4_2 = 2
     L2_2 = L2_2(L3_2, L4_2)
     L1_2 = L2_2
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.FE5B871E4C1AF4B14
     L4_2 = L52_1.__cast
@@ -2281,7 +2229,7 @@ function L70_1(A0_2)
         end
       end
     end
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.FE5B871E4C1AF4B14
     L5_2 = L52_1.__cast
@@ -2302,7 +2250,7 @@ function L70_1(A0_2)
         end
       end
     end
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.FE5B871E4C1AF4B14
     L6_2 = L52_1.__cast
@@ -2323,7 +2271,7 @@ function L70_1(A0_2)
         end
       end
     end
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.FE5B871E4C1AF4B14
     L7_2 = L52_1.__cast
@@ -2344,7 +2292,7 @@ function L70_1(A0_2)
         end
       end
     end
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = L6_2
     L6_2 = L6_2.FE5B871E4C1AF4B14
     L8_2 = L52_1.__cast
@@ -2365,7 +2313,7 @@ function L70_1(A0_2)
         end
       end
     end
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L8_2 = L7_2
     L7_2 = L7_2.FE5B871E4C1AF4B14
     L9_2 = L52_1.__cast
@@ -2386,7 +2334,7 @@ function L70_1(A0_2)
         end
       end
     end
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L9_2 = L8_2
     L8_2 = L8_2.FE5B871E4C1AF4B14
     L10_2 = L52_1.__cast
@@ -2407,7 +2355,7 @@ function L70_1(A0_2)
         end
       end
     end
-    L9_2 = A0_2[1]
+    L9_2 = self[1]
     L10_2 = L9_2
     L9_2 = L9_2.FE5B871E4C1AF4B14
     L11_2 = L52_1.__cast
@@ -2441,17 +2389,14 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F45B74AC90A926D03"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.BattleIdleCameraManager.F45B74AC90A926D03
+function CB3466CCC533D7688_prototype:F45B74AC90A926D03(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = 0
   while L3_2 < 9 do
     L3_2 = L3_2 + 1
     L4_2 = L3_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.FE5B871E4C1AF4B14
     L7_2 = L4_2
@@ -2461,13 +2406,13 @@ function L70_1(A0_2, A1_2, A2_2)
       L6_2 = L5_2.F746C50DD3115765E
       L6_2 = L6_2(L7_2)
       if L6_2 then
-        L7_2 = A0_2
-        L6_2 = A0_2.FAE98C1A56BD5416C
+        L7_2 = self
+        L6_2 = self.FAE98C1A56BD5416C
         L8_2 = L4_2
         L9_2 = A1_2
         L6_2 = L6_2(L7_2, L8_2, L9_2)
         if L6_2 then
-          L6_2 = A0_2[1]
+          L6_2 = self[1]
           L6_2 = L6_2[24]
           L7_2 = L6_2
           L6_2 = L6_2.f716B567C
@@ -2476,7 +2421,7 @@ function L70_1(A0_2, A1_2, A2_2)
           L10_2 = L19_1
           L8_2, L9_2, L10_2 = L8_2(L9_2, L10_2)
           L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-          L7_2 = A0_2[1]
+          L7_2 = self[1]
           L8_2 = L7_2
           L7_2 = L7_2.F404D6A39D957D1E4
           L9_2 = L6_2
@@ -2493,16 +2438,13 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "FDB1AE5CF346D0A7F"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleIdleCameraManager.FDB1AE5CF346D0A7F
+function CB3466CCC533D7688_prototype:FDB1AE5CF346D0A7F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
-  L4_2 = A0_2
-  L3_2 = A0_2.F45B74AC90A926D03
+  L4_2 = self
+  L3_2 = self.F45B74AC90A926D03
   L5_2 = A1_2
   L6_2 = L2_2
   L3_2(L4_2, L5_2, L6_2)
@@ -2515,16 +2457,13 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F2B4C5BA6523B4A15"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleIdleCameraManager.F2B4C5BA6523B4A15
+function CB3466CCC533D7688_prototype:F2B4C5BA6523B4A15(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
-  L4_2 = A0_2
-  L3_2 = A0_2.F45B74AC90A926D03
+  L4_2 = self
+  L3_2 = self.F45B74AC90A926D03
   L5_2 = A1_2
   L6_2 = L2_2
   L3_2(L4_2, L5_2, L6_2)
@@ -2546,20 +2485,17 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F4CA5C63C4E3F1D1D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.battle.BattleIdleCameraManager.F4CA5C63C4E3F1D1D
+function CB3466CCC533D7688_prototype:F4CA5C63C4E3F1D1D(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L5_2 = L26_1.new
   L5_2 = L5_2()
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L6_2
   L6_2 = L6_2.F50CD37788F209E62
   L6_2 = L6_2(L7_2)
   if 1 == L6_2 then
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = L6_2
     L6_2 = L6_2.FDE1DA0626D0BF920
     L8_2 = A1_2
@@ -2579,7 +2515,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       L0_3 = nil
       L1_3 = A2_2
       if L1_3 then
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[1]
         L2_3 = L1_3
         L1_3 = L1_3.FDE1DA0626D0BF920
@@ -2587,7 +2523,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
         L1_3 = L1_3(L2_3, L3_3)
         L0_3 = L1_3
       else
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[1]
         L2_3 = L1_3
         L1_3 = L1_3.FDE1DA0626D0BF920
@@ -2603,7 +2539,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     while L7_2 < 10 do
       L7_2 = L7_2 + 1
       L8_2 = L7_2 - 1
-      L9_2 = A0_2[1]
+      L9_2 = self[1]
       L10_2 = L9_2
       L9_2 = L9_2.FDE1DA0626D0BF920
       L11_2 = L8_2
@@ -2624,8 +2560,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     end
     L7_2 = L5_2[L6_2]
     L6_2 = L6_2 + 1
-    L9_2 = A0_2
-    L8_2 = A0_2.FAE98C1A56BD5416C
+    L9_2 = self
+    L8_2 = self.FAE98C1A56BD5416C
     L10_2 = L7_2
     L11_2 = A3_2
     L8_2 = L8_2(L9_2, L10_2, L11_2)
@@ -2638,16 +2574,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F075E50509378D6F0"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleIdleCameraManager.F075E50509378D6F0
+function CB3466CCC533D7688_prototype:F075E50509378D6F0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
-  L4_2 = A0_2
-  L3_2 = A0_2.F4CA5C63C4E3F1D1D
+  L4_2 = self
+  L3_2 = self.F4CA5C63C4E3F1D1D
   L5_2 = 0
   L6_2 = true
   L7_2 = A1_2
@@ -2662,8 +2595,8 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2.resize
   L5_2 = 0
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F4CA5C63C4E3F1D1D
+  L4_2 = self
+  L3_2 = self.F4CA5C63C4E3F1D1D
   L5_2 = 0
   L6_2 = false
   L7_2 = A1_2
@@ -2678,16 +2611,13 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "FD32DDEC45C6A05E4"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.battle.BattleIdleCameraManager.FD32DDEC45C6A05E4
+function CB3466CCC533D7688_prototype:FD32DDEC45C6A05E4(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L26_1.new
   L4_2 = L4_2()
-  L6_2 = A0_2
-  L5_2 = A0_2.F4CA5C63C4E3F1D1D
+  L6_2 = self
+  L5_2 = self.F4CA5C63C4E3F1D1D
   L7_2 = A1_2
   L8_2 = A2_2
   L9_2 = A3_2
@@ -2711,13 +2641,10 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "FAE98C1A56BD5416C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.BattleIdleCameraManager.FAE98C1A56BD5416C
+function CB3466CCC533D7688_prototype:FAE98C1A56BD5416C(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.FE5B871E4C1AF4B14
   L5_2 = A1_2
@@ -2772,16 +2699,13 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "FE83803C3129B5871"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleIdleCameraManager.FE83803C3129B5871
+function CB3466CCC533D7688_prototype:FE83803C3129B5871(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = 0
   while L2_2 < 9 do
     L2_2 = L2_2 + 1
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.FE5B871E4C1AF4B14
     L5_2 = L2_2 - 1
@@ -2811,11 +2735,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3466CCC533D7688"]["prototype"]
-L69_1 = "F2DB3087A3415ED83"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.BattleIdleCameraManager.F2DB3087A3415ED83
+function CB3466CCC533D7688_prototype:F2DB3087A3415ED83(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if "" ~= A2_2 then
     L3_2 = 1

@@ -1,3 +1,7 @@
+---@alias CEE37A9E797ADC099 main_pokepicnic_database_NormalPicnicTableInfo
+
+---@class main_pokepicnic_database_NormalPicnicTableInfo : CEE37A9E797ADC099_prototype
+---@field prototype CEE37A9E797ADC099_prototype
 L55_1 = _ENV
 L56_1 = "C80193ADA99675AFA"
 L57_1 = L15_1
@@ -42,11 +46,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C80193ADA99675AFA"]
 L69_1 = "__name__"
 L70_1 = "C80193ADA99675AFA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80193ADA99675AFA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CEE37A9E797ADC099_prototype
+CEE37A9E797ADC099_prototype = L15_1()
+CEE37A9E797ADC099.prototype = CEE37A9E797ADC099_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C80193ADA99675AFA"]["prototype"]
 L69_1 = _ENV["C80193ADA99675AFA"]

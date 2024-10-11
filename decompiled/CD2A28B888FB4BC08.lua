@@ -1,3 +1,7 @@
+---@alias CD2A28B888FB4BC08 main_pokepicnic_PicnicStartChecker
+
+---@class main_pokepicnic_PicnicStartChecker : CD2A28B888FB4BC08_prototype
+---@field prototype CD2A28B888FB4BC08_prototype
 L55_1 = _ENV
 L56_1 = "CD2A28B888FB4BC08"
 L57_1 = L15_1
@@ -37,34 +41,29 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD2A28B888FB4BC08"]
 L69_1 = "__name__"
 L70_1 = "CD2A28B888FB4BC08"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2A28B888FB4BC08"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2A28B888FB4BC08"]["prototype"]
-L69_1 = "FBB0D82E58A5D5F9E"
-
-function L70_1(A0_2)
+---@class CD2A28B888FB4BC08_prototype
+CD2A28B888FB4BC08_prototype = L15_1()
+CD2A28B888FB4BC08.prototype = CD2A28B888FB4BC08_prototype
+--- main.pokepicnic.PicnicStartChecker.CheckCommon
+function CD2A28B888FB4BC08_prototype:FBB0D82E58A5D5F9E()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FD82E923213E6749E
+  L2_2 = self
+  L1_2 = self.FD82E923213E6749E
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FF507BAD6FE91D84A
+    L2_2 = self
+    L1_2 = self.FF507BAD6FE91D84A
     L3_2 = "pokepicnic_main_error_08"
     L1_2(L2_2, L3_2)
     L1_2 = false
     return L1_2
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F59B53BFB9DE45EBA
+  L2_2 = self
+  L1_2 = self.F59B53BFB9DE45EBA
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FF507BAD6FE91D84A
+    L2_2 = self
+    L1_2 = self.FF507BAD6FE91D84A
     L3_2 = "pokepicnic_main_error_07"
     L1_2(L2_2, L3_2)
     L1_2 = false
@@ -74,94 +73,88 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2A28B888FB4BC08"]["prototype"]
-L69_1 = "FE4B5925356E0C5F1"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicStartChecker.CheckHost
+function CD2A28B888FB4BC08_prototype:FE4B5925356E0C5F1()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F11E284324EBF6439
+  L2_2 = self
+  L1_2 = self.F11E284324EBF6439
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FF507BAD6FE91D84A
+    L2_2 = self
+    L1_2 = self.FF507BAD6FE91D84A
     L3_2 = "pokepicnic_main_error_01"
     L1_2(L2_2, L3_2)
     L1_2 = false
     return L1_2
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F0DD8440B2E0D3B25
+  L2_2 = self
+  L1_2 = self.F0DD8440B2E0D3B25
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FF507BAD6FE91D84A
+    L2_2 = self
+    L1_2 = self.FF507BAD6FE91D84A
     L3_2 = "pokepicnic_main_error_02"
     L1_2(L2_2, L3_2)
     L1_2 = false
     return L1_2
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F9490FB5C57257012
+  L2_2 = self
+  L1_2 = self.F9490FB5C57257012
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FF507BAD6FE91D84A
+    L2_2 = self
+    L1_2 = self.FF507BAD6FE91D84A
     L3_2 = "pokepicnic_main_error_03"
     L1_2(L2_2, L3_2)
     L1_2 = false
     return L1_2
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F90201751636AA6E4
+  L2_2 = self
+  L1_2 = self.F90201751636AA6E4
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FF507BAD6FE91D84A
+    L2_2 = self
+    L1_2 = self.FF507BAD6FE91D84A
     L3_2 = "pokepicnic_main_error_04"
     L1_2(L2_2, L3_2)
     L1_2 = false
     return L1_2
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F061A0FC74EB81454
+  L2_2 = self
+  L1_2 = self.F061A0FC74EB81454
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FF507BAD6FE91D84A
+    L2_2 = self
+    L1_2 = self.FF507BAD6FE91D84A
     L3_2 = "pokepicnic_main_error_05"
     L1_2(L2_2, L3_2)
     L1_2 = false
     return L1_2
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F6C9E592D5DFABBD4
+  L2_2 = self
+  L1_2 = self.F6C9E592D5DFABBD4
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FF507BAD6FE91D84A
+    L2_2 = self
+    L1_2 = self.FF507BAD6FE91D84A
     L3_2 = "pokepicnic_main_error_06"
     L1_2(L2_2, L3_2)
     L1_2 = false
     return L1_2
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F949C0C980DF18675
+  L2_2 = self
+  L1_2 = self.F949C0C980DF18675
   L1_2(L2_2)
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2A28B888FB4BC08"]["prototype"]
-L69_1 = "FAE1A8B467E0D01DE"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicStartChecker.GetTableBasePos
+function CD2A28B888FB4BC08_prototype:FAE1A8B467E0D01DE()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   if nil ~= L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     if nil ~= L1_2 then
       goto lbl_71
     end
@@ -209,7 +202,7 @@ function L70_1(A0_2)
   L11_2 = L2_2[2]
   L12_2 = L2_2[3]
   L9_2(L10_2, L11_2, L12_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L9_2 = L1_2.owner
   L10_2 = L9_2
   L9_2 = L9_2.f750133BA
@@ -229,17 +222,14 @@ function L70_1(A0_2)
   L13_2[1] = L14_2
   L13_2[2] = L15_2
   L13_2[3] = L16_2
-  A0_2[1] = L13_2
+  self[1] = L13_2
   ::lbl_71::
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2A28B888FB4BC08"]["prototype"]
-L69_1 = "FF507BAD6FE91D84A"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.PicnicStartChecker.PlayMessage
+function CD2A28B888FB4BC08_prototype:FF507BAD6FE91D84A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L2_2 = cC9AD95E7
   L2_2 = L2_2.f101D811F
@@ -371,11 +361,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2A28B888FB4BC08"]["prototype"]
-L69_1 = "FD82E923213E6749E"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicStartChecker.CheckRiding
+function CD2A28B888FB4BC08_prototype:FD82E923213E6749E()
   local L1_2, L2_2, L3_2
   L1_2 = L3_1
   L2_2 = CFC8F368D91411014
@@ -407,11 +394,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2A28B888FB4BC08"]["prototype"]
-L69_1 = "F59B53BFB9DE45EBA"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicStartChecker.CheckSwimming
+function CD2A28B888FB4BC08_prototype:F59B53BFB9DE45EBA()
   local L1_2, L2_2, L3_2
   L1_2 = L3_1
   L2_2 = CFC8F368D91411014
@@ -430,11 +414,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2A28B888FB4BC08"]["prototype"]
-L69_1 = "F11E284324EBF6439"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicStartChecker.CheckNarrowArea
+function CD2A28B888FB4BC08_prototype:F11E284324EBF6439()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S93A017D496A6D000
@@ -458,14 +439,11 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2A28B888FB4BC08"]["prototype"]
-L69_1 = "F0DD8440B2E0D3B25"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicStartChecker.F0DD8440B2E0D3B25
+function CD2A28B888FB4BC08_prototype:F0DD8440B2E0D3B25()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FAE1A8B467E0D01DE
+  L2_2 = self
+  L1_2 = self.FAE1A8B467E0D01DE
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L3_2 = {}
@@ -566,8 +544,8 @@ function L70_1(A0_2)
     L15_2 = false
     return L15_2
   end
-  A0_2[3] = L2_2
-  A0_2[4] = L3_2
+  self[3] = L2_2
+  self[4] = L3_2
   L15_2 = CD9AE7C27B00EB066
   L15_2 = L15_2.S83677FF4EE3F1CBF
   L16_2 = {}
@@ -612,13 +590,10 @@ function L70_1(A0_2)
   return L16_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2A28B888FB4BC08"]["prototype"]
-L69_1 = "F9490FB5C57257012"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicStartChecker.CheckNoSpace
+function CD2A28B888FB4BC08_prototype:F9490FB5C57257012()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2, L51_2, L52_2, L53_2, L54_2, L55_2, L56_2, L57_2, L58_2, L59_2, L60_2, L61_2, L62_2, L63_2, L64_2, L65_2, L66_2, L67_2, L68_2, L69_2, L70_2, L71_2, L72_2, L73_2, L74_2, L75_2, L76_2, L77_2, L78_2, L79_2, L80_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = CD2A28B888FB4BC08
   L2_2 = L2_2.S8AE3E12C4F893D63
   L3_2 = L1_2[1]
@@ -630,7 +605,7 @@ function L70_1(A0_2)
   L5_2 = L1_2[3]
   L6_2 = L2_2[3]
   L5_2 = L5_2 + L6_2
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L7_2 = L6_2[1]
   L8_2 = L6_2[2]
   L8_2 = L8_2 + 0.5
@@ -691,8 +666,8 @@ function L70_1(A0_2)
     L13_2 = false
     return L13_2
   end
-  L14_2 = A0_2
-  L13_2 = A0_2.FAE1A8B467E0D01DE
+  L14_2 = self
+  L13_2 = self.FAE1A8B467E0D01DE
   L13_2 = L13_2(L14_2)
   L14_2 = CD2A28B888FB4BC08
   L14_2 = L14_2.S8AE3E12C4F893D63
@@ -776,7 +751,7 @@ function L70_1(A0_2)
   L25_2 = C1DB14DCC9D7634FA
   L25_2 = L25_2.S760DAE4C5371A78E
   L25_2()
-  L25_2 = A0_2[3]
+  L25_2 = self[3]
   L26_2 = CD2A28B888FB4BC08
   L26_2 = L26_2.S8AE3E12C4F893D63
   L27_2 = L25_2[1]
@@ -788,7 +763,7 @@ function L70_1(A0_2)
   L29_2 = L25_2[3]
   L30_2 = L26_2[3]
   L29_2 = L29_2 + L30_2
-  L30_2 = A0_2[3]
+  L30_2 = self[3]
   L31_2 = L30_2[1]
   L32_2 = L30_2[2]
   L32_2 = L32_2 + 1.0
@@ -805,7 +780,7 @@ function L70_1(A0_2)
   L39_2 = C1B0841969071389A
   L39_2 = L39_2.S5145CA65D6994F2A
   L35_2(L36_2, L37_2, L38_2, L39_2)
-  L35_2 = A0_2[2]
+  L35_2 = self[2]
   L36_2 = cD5675BA5
   L36_2 = L36_2.f0B717451
   L37_2 = 0
@@ -900,7 +875,7 @@ function L70_1(A0_2)
     L42_2 = L39_2
     L43_2 = L40_2 + 1.0
     L44_2 = L41_2
-    L45_2 = A0_2[2]
+    L45_2 = self[2]
     L46_2 = cD5675BA5
     L46_2 = L46_2.f0B717451
     L47_2 = 0
@@ -919,8 +894,8 @@ function L70_1(A0_2)
     L50_2 = L47_2
     L51_2 = L48_2
     L52_2 = L49_2
-    L54_2 = A0_2
-    L53_2 = A0_2.FAE1A8B467E0D01DE
+    L54_2 = self
+    L53_2 = self.FAE1A8B467E0D01DE
     L53_2 = L53_2(L54_2)
     L54_2 = L53_2[1]
     L54_2 = L50_2 + L54_2
@@ -987,8 +962,8 @@ function L70_1(A0_2)
     L63_2 = L60_2
     L64_2 = L61_2
     L65_2 = L62_2
-    L67_2 = A0_2
-    L66_2 = A0_2.FAE1A8B467E0D01DE
+    L67_2 = self
+    L66_2 = self.FAE1A8B467E0D01DE
     L66_2 = L66_2(L67_2)
     L67_2 = L66_2[1]
     L67_2 = L63_2 + L67_2
@@ -1052,11 +1027,8 @@ function L70_1(A0_2)
   return L39_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2A28B888FB4BC08"]["prototype"]
-L69_1 = "F90201751636AA6E4"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicStartChecker.CheckOpenCity
+function CD2A28B888FB4BC08_prototype:F90201751636AA6E4()
   local L1_2, L2_2
   L1_2 = C440DCA38121CB47F
   L1_2 = L1_2.S264F26F6894F3392
@@ -1082,14 +1054,11 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2A28B888FB4BC08"]["prototype"]
-L69_1 = "F061A0FC74EB81454"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicStartChecker.CheckNearNpc
+function CD2A28B888FB4BC08_prototype:F061A0FC74EB81454()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FAE1A8B467E0D01DE
+  L2_2 = self
+  L1_2 = self.FAE1A8B467E0D01DE
   L1_2 = L1_2(L2_2)
   L2_2 = cD126956D
   L2_2 = L2_2.f101D811F
@@ -1155,11 +1124,8 @@ function L70_1(A0_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2A28B888FB4BC08"]["prototype"]
-L69_1 = "F6C9E592D5DFABBD4"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicStartChecker.CheckOtherPlayerPicnic
+function CD2A28B888FB4BC08_prototype:F6C9E592D5DFABBD4()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CE6EE3F9C54FC6D83
   L1_2 = L1_2.S09EA163BBCC202EC
@@ -1193,11 +1159,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2A28B888FB4BC08"]["prototype"]
-L69_1 = "F949C0C980DF18675"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicStartChecker.CheckImapPokemon
+function CD2A28B888FB4BC08_prototype:F949C0C980DF18675()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S93A017D496A6D000

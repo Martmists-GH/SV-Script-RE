@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C3A36506FBC96ACBD"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "__name__"
-L70_1 = "C3A36506FBC96ACBD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "S74850FD92061A98A"
+---@alias C3A36506FBC96ACBD main_event_command_SoundCommand
 
-function L70_1(A0_2)
+---@class main_event_command_SoundCommand
+C3A36506FBC96ACBD = L15_1()
+C3A36506FBC96ACBD.new = {}
+C3A36506FBC96ACBD.__name__ = "C3A36506FBC96ACBD"
+--- main.event.command.SoundCommand.SoundPostEvent
+function C3A36506FBC96ACBD.S74850FD92061A98A(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = cB66A3C78
   L1_2 = L1_2.fAFC12FF1
@@ -25,11 +16,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "SC6181320B46854EE"
-
-function L70_1(A0_2)
+--- main.event.command.SoundCommand.PostEventGlobal
+function C3A36506FBC96ACBD.SC6181320B46854EE(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = cB66A3C78
   L1_2 = L1_2.fA925EE56
@@ -40,11 +28,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "S27D07D27B83030BF"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.SoundCommand.PostEventAtLocation
+function C3A36506FBC96ACBD.S27D07D27B83030BF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = cB66A3C78
   L2_2 = L2_2.fA925EE56
@@ -58,11 +43,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "SA564E888BC5A581E"
-
-function L70_1(A0_2)
+--- main.event.command.SoundCommand.IsActivePlayingId
+function C3A36506FBC96ACBD.SA564E888BC5A581E(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = cB66A3C78
   L1_2 = L1_2.fA925EE56
@@ -73,11 +55,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "S7FECE1243B23B9FB"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.SoundCommand.SetRTPCGlobal
+function C3A36506FBC96ACBD.S7FECE1243B23B9FB(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cB66A3C78
   L2_2 = L2_2.fA925EE56
@@ -90,11 +69,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "S0447962DA9E61E54"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.SoundCommand.SetState
+function C3A36506FBC96ACBD.S0447962DA9E61E54(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = cB66A3C78
   L2_2 = L2_2.fA925EE56
@@ -106,11 +82,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "S03FECD8EAF534C70"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.SoundCommand.StopPlayingID
+function C3A36506FBC96ACBD.S03FECD8EAF534C70(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A1_2 then
     A1_2 = 0
@@ -129,11 +102,8 @@ function L70_1(A0_2, A1_2)
   return L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "SCA4F0DE15CF52983"
-
-function L70_1()
+--- main.event.command.SoundCommand.get_ListenerPosition
+function C3A36506FBC96ACBD.SCA4F0DE15CF52983()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = cB66A3C78
   L0_2 = L0_2.fA925EE56
@@ -151,11 +121,8 @@ function L70_1()
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "SFB213EB4C71C8EFE"
-
-function L70_1(A0_2)
+--- main.event.command.SoundCommand.WaitPlaying
+function C3A36506FBC96ACBD.SFB213EB4C71C8EFE(A0_2)
   local L1_2, L2_2, L3_2
   while true do
     L1_2 = cB66A3C78
@@ -174,11 +141,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "S4CDC7D3B116A0234"
-
-function L70_1(A0_2)
+--- main.event.command.SoundCommand.WaitBGMPlaying
+function C3A36506FBC96ACBD.S4CDC7D3B116A0234(A0_2)
   local L1_2, L2_2
   while true do
     L1_2 = c6E61D36A
@@ -196,11 +160,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "SA641DB59F391FE76"
-
-function L70_1()
+--- main.event.command.SoundCommand.WaitME
+function C3A36506FBC96ACBD.SA641DB59F391FE76()
   local L0_2, L1_2
   while true do
     L0_2 = c6E61D36A
@@ -218,11 +179,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "SAC4C25C879379D3D"
-
-function L70_1(A0_2)
+--- main.event.command.SoundCommand.PostBGMEvent
+function C3A36506FBC96ACBD.SAC4C25C879379D3D(A0_2)
   local L1_2, L2_2
   L1_2 = CF4B448D8C3744CAF
   L1_2 = L1_2.SDDCF2C31DADBAB65
@@ -230,11 +188,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "SEB0E74C158AAE132"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.SoundCommand.PostEventStory
+function C3A36506FBC96ACBD.SEB0E74C158AAE132(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = cC40BFC68
   L2_2 = L2_2.f3113782D
@@ -243,11 +198,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "S9991453D64491D13"
-
-function L70_1(A0_2)
+--- main.event.command.SoundCommand.GetPostEventBGM
+function C3A36506FBC96ACBD.S9991453D64491D13(A0_2)
   local L1_2, L2_2
   L1_2 = cC40BFC68
   L1_2 = L1_2.f4BB3F62A
@@ -255,11 +207,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "S7C5A99309B5F5754"
-
-function L70_1(A0_2)
+--- main.event.command.SoundCommand.S7C5A99309B5F5754
+function C3A36506FBC96ACBD.S7C5A99309B5F5754(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A0_2 then
     L1_2 = C8F93126DACB9F8DD
@@ -334,11 +283,8 @@ function L70_1(A0_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A36506FBC96ACBD"]
-L69_1 = "SEDDE1BD6C1F15CFF"
-
-function L70_1(A0_2)
+--- main.event.command.SoundCommand.SEDDE1BD6C1F15CFF
+function C3A36506FBC96ACBD.SEDDE1BD6C1F15CFF(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = nil
   if 0 == A0_2 then

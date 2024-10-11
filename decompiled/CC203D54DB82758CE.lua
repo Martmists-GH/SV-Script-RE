@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CC203D54DB82758CE"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CC203D54DB82758CE"]
-L69_1 = "new"
+---@alias CC203D54DB82758CE main_field_behaviour_PokecenMonitor
 
-function L70_1(A0_2)
+---@class main_field_behaviour_PokecenMonitor : CC203D54DB82758CE_prototype
+---@field prototype CC203D54DB82758CE_prototype
+CC203D54DB82758CE = L15_1()
+function CC203D54DB82758CE.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CC203D54DB82758CE
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC203D54DB82758CE"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CC203D54DB82758CE
+function CC203D54DB82758CE.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[25] = -1
   A0_2[24] = nil
@@ -51,21 +45,15 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC203D54DB82758CE"]
 L69_1 = "__name__"
 L70_1 = "CC203D54DB82758CE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC203D54DB82758CE"]
-L69_1 = "S2CE8C97FBC07BDF8"
-
-function L70_1()
+--- main.field.behaviour.PokecenMonitor.StopMonitorUpdate
+function CC203D54DB82758CE.S2CE8C97FBC07BDF8()
   local L0_2, L1_2
   L0_2 = CC203D54DB82758CE
   L0_2.S7746E16F24D22F55 = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC203D54DB82758CE"]
-L69_1 = "SD6F62364C5DF77DE"
-
-function L70_1()
+--- main.field.behaviour.PokecenMonitor.StartMonitorUpdate
+function CC203D54DB82758CE.SD6F62364C5DF77DE()
   local L0_2, L1_2
   L0_2 = CC203D54DB82758CE
   L0_2.S7746E16F24D22F55 = false
@@ -73,23 +61,18 @@ function L70_1()
   L0_2.S089C729503AD212F = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC203D54DB82758CE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC203D54DB82758CE"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+---@class CC203D54DB82758CE_prototype
+CC203D54DB82758CE_prototype = L15_1()
+CC203D54DB82758CE.prototype = CC203D54DB82758CE_prototype
+--- main.field.behaviour.PokecenMonitor.onSetup
+function CC203D54DB82758CE_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2
   L1_2 = CCF23BBD95FD52C56
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F22C7B81A049FA20D
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[23]
+  L1_2 = self[23]
   L2_2 = nil
   
   function L3_2()
@@ -117,28 +100,25 @@ function L70_1(A0_2)
   end
   
   L3_2 = L3_2()
-  A0_2[24] = L3_2
-  L3_2 = A0_2[24]
+  self[24] = L3_2
+  L3_2 = self[24]
   if nil == L3_2 then
     return
   end
-  A0_2[25] = -1
+  self[25] = -1
   L3_2 = CC203D54DB82758CE
   L3_2.S7746E16F24D22F55 = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC203D54DB82758CE"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.PokecenMonitor.PreUpdate
+function CC203D54DB82758CE_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = CC203D54DB82758CE
   L2_2 = L2_2.S7746E16F24D22F55
   if not L2_2 then
-    L2_2 = A0_2[25]
+    L2_2 = self[25]
     if -1 == L2_2 then
-      L2_2 = A0_2[24]
+      L2_2 = self[24]
       L3_2 = nil
       L4_2 = nil
       L5_2 = cE35B3EB3
@@ -189,7 +169,7 @@ function L70_1(A0_2, A1_2)
       L9_2 = L6_2
       L7_2 = L7_2(L8_2, L9_2)
       if L7_2 then
-        L7_2 = A0_2[24]
+        L7_2 = self[24]
         L8_2 = nil
         L9_2 = nil
         L10_2 = cE35B3EB3
@@ -236,10 +216,10 @@ function L70_1(A0_2, A1_2)
           L12_2 = L12_2(L13_2, L14_2)
           L8_2 = L12_2
         end
-        A0_2[25] = L8_2
+        self[25] = L8_2
       end
     end
-    L2_2 = A0_2[25]
+    L2_2 = self[25]
     if -1 ~= L2_2 then
       L2_2 = C10578806AC30DCA3
       L2_2 = L2_2.SBA6FF574C1C9AA09
@@ -250,11 +230,11 @@ function L70_1(A0_2, A1_2)
         L2_2 = nil
       end
       if L2_2 then
-        L3_2 = A0_2[25]
-        L4_2 = A0_2[21]
+        L3_2 = self[25]
+        L4_2 = self[21]
         if L3_2 ~= L4_2 then
-          L3_2 = A0_2[24]
-          L4_2 = A0_2[21]
+          L3_2 = self[24]
+          L4_2 = self[21]
           L5_2 = nil
           L6_2 = cE35B3EB3
           L6_2 = L6_2.fDBA763D1
@@ -298,7 +278,7 @@ function L70_1(A0_2, A1_2)
             L11_2 = L4_2
             L8_2(L9_2, L10_2, L11_2)
           end
-          L7_2 = A0_2[24]
+          L7_2 = self[24]
           L8_2 = nil
           L9_2 = nil
           L10_2 = cE35B3EB3
@@ -345,15 +325,15 @@ function L70_1(A0_2, A1_2)
             L12_2 = L12_2(L13_2, L14_2)
             L8_2 = L12_2
           end
-          L11_2 = A0_2[21]
+          L11_2 = self[21]
           if L8_2 == L11_2 then
-            L11_2 = A0_2[21]
-            A0_2[25] = L11_2
+            L11_2 = self[21]
+            self[25] = L11_2
           end
         end
       else
-        L3_2 = A0_2[25]
-        L4_2 = A0_2[22]
+        L3_2 = self[25]
+        L4_2 = self[22]
         if L3_2 == L4_2 then
           L3_2 = CC203D54DB82758CE
           L3_2 = L3_2.S089C729503AD212F
@@ -361,8 +341,8 @@ function L70_1(A0_2, A1_2)
             goto lbl_315
           end
         end
-        L3_2 = A0_2[24]
-        L4_2 = A0_2[22]
+        L3_2 = self[24]
+        L4_2 = self[22]
         L5_2 = nil
         L6_2 = cE35B3EB3
         L6_2 = L6_2.fDBA763D1
@@ -406,7 +386,7 @@ function L70_1(A0_2, A1_2)
           L11_2 = L4_2
           L8_2(L9_2, L10_2, L11_2)
         end
-        L7_2 = A0_2[24]
+        L7_2 = self[24]
         L8_2 = nil
         L9_2 = nil
         L10_2 = cE35B3EB3
@@ -453,10 +433,10 @@ function L70_1(A0_2, A1_2)
           L12_2 = L12_2(L13_2, L14_2)
           L8_2 = L12_2
         end
-        L11_2 = A0_2[22]
+        L11_2 = self[22]
         if L8_2 == L11_2 then
-          L11_2 = A0_2[22]
-          A0_2[25] = L11_2
+          L11_2 = self[22]
+          self[25] = L11_2
           L11_2 = CC203D54DB82758CE
           L11_2.S089C729503AD212F = false
         end
@@ -466,11 +446,8 @@ function L70_1(A0_2, A1_2)
   ::lbl_315::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC203D54DB82758CE"]["prototype"]
-L69_1 = "FBDA175393973D042"
-
-function L70_1(A0_2)
+--- main.field.behaviour.PokecenMonitor.GetBehaviourType
+function CC203D54DB82758CE_prototype:FBDA175393973D042()
   local L1_2
   L1_2 = 17
   return L1_2

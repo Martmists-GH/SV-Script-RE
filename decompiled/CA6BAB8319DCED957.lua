@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CA6BAB8319DCED957"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CA6BAB8319DCED957"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA6BAB8319DCED957"]
-L69_1 = "__name__"
-L70_1 = "CA6BAB8319DCED957"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA6BAB8319DCED957"]
-L69_1 = "SEB9F543619D39416"
+---@alias CA6BAB8319DCED957 main_ui_shop_restaurant_ShopRestaurantUIUtil
 
-function L70_1()
+---@class main_ui_shop_restaurant_ShopRestaurantUIUtil
+CA6BAB8319DCED957 = L15_1()
+CA6BAB8319DCED957.new = {}
+CA6BAB8319DCED957.__name__ = "CA6BAB8319DCED957"
+--- main.ui.shop_restaurant.ShopRestaurantUIUtil.RestaurantBuyContextMenu
+function CA6BAB8319DCED957.SEB9F543619D39416()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = CF1D9D619D324F233
   L0_2 = L0_2.S44577E0D8E8F3819
@@ -127,11 +118,8 @@ function L70_1()
   return L0_2(L1_2, L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA6BAB8319DCED957"]
-L69_1 = "S52E0F01DCDD0709D"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.ShopRestaurantUIUtil.S52E0F01DCDD0709D
+function CA6BAB8319DCED957.S52E0F01DCDD0709D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = cC9AD95E7
   L1_2 = L1_2.f101D811F
@@ -181,11 +169,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA6BAB8319DCED957"]
-L69_1 = "SBBCFFE80033C34E4"
-
-function L70_1()
+--- main.ui.shop_restaurant.ShopRestaurantUIUtil.WaitEndMessage
+function CA6BAB8319DCED957.SBBCFFE80033C34E4()
   local L0_2, L1_2
   while true do
     L0_2 = CF1D9D619D324F233
@@ -200,11 +185,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA6BAB8319DCED957"]
-L69_1 = "S054918C23618C6F7"
-
-function L70_1()
+--- main.ui.shop_restaurant.ShopRestaurantUIUtil.WaitHideMessage
+function CA6BAB8319DCED957.S054918C23618C6F7()
   local L0_2, L1_2
   while true do
     L0_2 = CF1D9D619D324F233

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CAF02F2AE67BDBC51"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CAF02F2AE67BDBC51"]
-L69_1 = "new"
+---@alias CAF02F2AE67BDBC51 main_system_game_event_GameEventPhotomode
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventPhotomode : CAF02F2AE67BDBC51_prototype
+---@field prototype CAF02F2AE67BDBC51_prototype
+CAF02F2AE67BDBC51 = L15_1()
+function CAF02F2AE67BDBC51.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CAF02F2AE67BDBC51
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF02F2AE67BDBC51"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CAF02F2AE67BDBC51
+function CAF02F2AE67BDBC51.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   A0_2[30] = nil
   L3_2 = C57802178241C0D20
@@ -38,11 +32,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF02F2AE67BDBC51"]
-L69_1 = "__name__"
-L70_1 = "CAF02F2AE67BDBC51"
-L68_1[L69_1] = L70_1
+CAF02F2AE67BDBC51.__name__ = "CAF02F2AE67BDBC51"
 L68_1 = _ENV["CAF02F2AE67BDBC51"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -76,11 +66,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF02F2AE67BDBC51"]
-L69_1 = "S7C25EBA617CD146C"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPhotomode.SetPhotoUIMode
+function CAF02F2AE67BDBC51.S7C25EBA617CD146C(A0_2)
   local L1_2
   if nil == A0_2 then
     L1_2 = E400D8CAA1B9C4210
@@ -90,37 +77,26 @@ function L70_1(A0_2)
   L1_2.S6AFA756ABF94332B = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF02F2AE67BDBC51"]
-L69_1 = "SFE16FAEC57005908"
-
-function L70_1()
+--- main.system.game_event.GameEventPhotomode.SFE16FAEC57005908
+function CAF02F2AE67BDBC51.SFE16FAEC57005908()
   local L0_2, L1_2
   L0_2 = CAF02F2AE67BDBC51
   L0_2 = L0_2.S6AFA756ABF94332B
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF02F2AE67BDBC51"]
-L69_1 = "S72F203963C699DD9"
-
-function L70_1()
+--- main.system.game_event.GameEventPhotomode.ForceEnd
+function CAF02F2AE67BDBC51.S72F203963C699DD9()
   local L0_2, L1_2
   L0_2 = CAF02F2AE67BDBC51
   L0_2.SDEFF7388704D558F = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF02F2AE67BDBC51"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF02F2AE67BDBC51"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CAF02F2AE67BDBC51_prototype
+CAF02F2AE67BDBC51_prototype = L15_1()
+CAF02F2AE67BDBC51.prototype = CAF02F2AE67BDBC51_prototype
+--- main.system.game_event.GameEventPhotomode.onCreate
+function CAF02F2AE67BDBC51_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CAF02F2AE67BDBC51
   L1_2.SDEFF7388704D558F = false
@@ -151,41 +127,38 @@ function L70_1(A0_2)
       L1_2.strParams = L2_2
     end
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2[26] = L1_2
-  A0_2[24] = false
+  self[24] = false
   L2_2 = CB90497FB1A1A942B
   L2_2 = L2_2.S4D388A329B4BF9DC
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L2_2(L3_2)
   L2_2 = CB90497FB1A1A942B
   L2_2 = L2_2.S5354E2DCECC24613
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F36C3C771B93E3E8E
+  L3_2 = self
+  L2_2 = self.F36C3C771B93E3E8E
   L4_2 = 12
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F36C3C771B93E3E8E
+  L3_2 = self
+  L2_2 = self.F36C3C771B93E3E8E
   L4_2 = 18
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F36C3C771B93E3E8E
+  L3_2 = self
+  L2_2 = self.F36C3C771B93E3E8E
   L4_2 = 45
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF02F2AE67BDBC51"]["prototype"]
-L69_1 = "F6CCA4B32C52AC73C"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPhotomode.F6CCA4B32C52AC73C
+function CAF02F2AE67BDBC51_prototype:F6CCA4B32C52AC73C()
   local L1_2, L2_2
   L1_2 = C57802178241C0D20
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F6CCA4B32C52AC73C
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = CAF02F2AE67BDBC51
   L1_2 = L1_2.S6AFA756ABF94332B
@@ -199,18 +172,15 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF02F2AE67BDBC51"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPhotomode.onInitialize
+function CAF02F2AE67BDBC51_prototype:F239C282ED3F82676()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FE8C6D200C370048F
+  L2_2 = self
+  L1_2 = self.FE8C6D200C370048F
   L1_2(L2_2)
   while true do
-    L2_2 = A0_2
-    L1_2 = A0_2.FA0E994EE453A340F
+    L2_2 = self
+    L1_2 = self.FA0E994EE453A340F
     L1_2 = L1_2(L2_2)
     if L1_2 then
       break
@@ -242,28 +212,28 @@ function L70_1(A0_2)
   L1_2 = L1_2.fEF94D11D
   L2_2 = "photomode"
   L1_2 = L1_2(L2_2)
-  A0_2[29] = L1_2
+  self[29] = L1_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[29]
+  L3_2 = self[29]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = 1
     return L2_2
   end
-  L2_2 = A0_2[29]
+  L2_2 = self[29]
   L3_2 = L2_2
   L2_2 = L2_2.f0EF10D0C
   L2_2(L3_2)
   while true do
-    L2_2 = A0_2[29]
+    L2_2 = self[29]
     L3_2 = L2_2
     L2_2 = L2_2.f48F8C7FF
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[29]
+      L2_2 = self[29]
       L3_2 = L2_2
       L2_2 = L2_2.f9D8BC178
       L2_2 = L2_2(L3_2)
@@ -277,7 +247,7 @@ function L70_1(A0_2)
   end
   L2_2 = C6E074861269A51A2
   L2_2 = L2_2.S7C107A0FC15F1400
-  L3_2 = A0_2[29]
+  L3_2 = self[29]
   L4_2 = "photoLoaderObj is null"
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = L2_2
@@ -313,19 +283,19 @@ function L70_1(A0_2)
   L6_2 = L4_2
   L7_2 = C512E43A7799BC537
   L5_2 = L5_2(L6_2, L7_2)
-  A0_2[30] = L5_2
+  self[30] = L5_2
   L5_2 = CBBA8BC6DEECCDCB4
   L5_2 = L5_2.S7F42E7F3D9C028B1
   L6_2 = "Player"
   L7_2 = true
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[30]
+  L5_2 = self[30]
   L6_2 = L5_2
   L5_2 = L5_2.F7C25EBA617CD146C
   L7_2 = CAF02F2AE67BDBC51
   L7_2 = L7_2.S6AFA756ABF94332B
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[30]
+  L5_2 = self[30]
   L6_2 = L5_2
   L5_2 = L5_2.F6CD50E38B07C8EEE
   L5_2(L6_2)
@@ -333,11 +303,8 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF02F2AE67BDBC51"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPhotomode.onUpdate
+function CAF02F2AE67BDBC51_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -345,9 +312,9 @@ function L70_1(A0_2)
   L1_2 = L1_2[1]
   L1_2 = L1_2[9]
   L1_2[7] = false
-  L1_2 = A0_2[30]
+  L1_2 = self[30]
   if nil ~= L1_2 then
-    L1_2 = A0_2[30]
+    L1_2 = self[30]
     L2_2 = L1_2
     L1_2 = L1_2.F1033606A2A9C2929
     L1_2 = L1_2(L2_2)
@@ -355,30 +322,30 @@ function L70_1(A0_2)
       L1_2 = CAF02F2AE67BDBC51
       L1_2 = L1_2.SDEFF7388704D558F
       if L1_2 then
-        L1_2 = A0_2[30]
+        L1_2 = self[30]
         if nil ~= L1_2 then
-          L1_2 = A0_2[30]
+          L1_2 = self[30]
           L2_2 = L1_2
           L1_2 = L1_2.F72F203963C699DD9
           L1_2(L2_2)
-          L1_2 = A0_2[30]
+          L1_2 = self[30]
           L2_2 = L1_2
           L1_2 = L1_2.FA54B4EFAB3753B2B
           L1_2(L2_2)
         end
-        A0_2[18] = true
+        self[18] = true
       end
-      L1_2 = A0_2[18]
+      L1_2 = self[18]
       if L1_2 then
-        L1_2 = A0_2[30]
+        L1_2 = self[30]
         if nil ~= L1_2 then
-          L1_2 = A0_2[30]
+          L1_2 = self[30]
           L2_2 = L1_2
           L1_2 = L1_2.FDA0AA519A555B9B1
           L1_2 = L1_2(L2_2)
           if L1_2 then
-            L2_2 = A0_2
-            L1_2 = A0_2.F1FC0FA9F6A267B28
+            L2_2 = self
+            L1_2 = self.F1FC0FA9F6A267B28
             L1_2(L2_2)
           end
         end
@@ -393,34 +360,34 @@ function L70_1(A0_2)
   L1_2 = L1_2.S760DAE4C5371A78E
   L2_2 = nil
   L1_2(L2_2)
-  L1_2 = A0_2[30]
+  L1_2 = self[30]
   L2_2 = L1_2
   L1_2 = L1_2.F45419572079A9C88
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L1_2 = A0_2[30]
+    L1_2 = self[30]
     L2_2 = L1_2
     L1_2 = L1_2.FA54B4EFAB3753B2B
     L1_2(L2_2)
   end
-  L1_2 = A0_2[30]
+  L1_2 = self[30]
   L2_2 = L1_2
   L1_2 = L1_2.FE487FC8766DA6482
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FA49476B0B39D9363
+    L2_2 = self
+    L1_2 = self.FA49476B0B39D9363
     L1_2(L2_2)
   end
-  L1_2 = A0_2[30]
+  L1_2 = self[30]
   if nil ~= L1_2 then
-    L1_2 = A0_2[30]
+    L1_2 = self[30]
     L2_2 = L1_2
     L1_2 = L1_2.FDA0AA519A555B9B1
     L1_2 = L1_2(L2_2)
     if L1_2 then
-      L2_2 = A0_2
-      L1_2 = A0_2.F1FC0FA9F6A267B28
+      L2_2 = self
+      L1_2 = self.F1FC0FA9F6A267B28
       L1_2(L2_2)
     end
   end
@@ -428,11 +395,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF02F2AE67BDBC51"]["prototype"]
-L69_1 = "F4E09538E8F109EC2"
-
-function L70_1(A0_2, A1_2)
+--- main.system.game_event.GameEventPhotomode.onInterrupted
+function CAF02F2AE67BDBC51_prototype:F4E09538E8F109EC2(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = A1_2[11]
   if 12 ~= L2_2 then
@@ -446,14 +410,14 @@ function L70_1(A0_2, A1_2)
         L2_2 = L2_2[1]
         L2_2 = L2_2[9]
         L2_2[7] = true
-        L2_2 = A0_2[30]
+        L2_2 = self[30]
         if nil ~= L2_2 then
-          L2_2 = A0_2[30]
+          L2_2 = self[30]
           L3_2 = L2_2
           L2_2 = L2_2.F45419572079A9C88
           L2_2 = L2_2(L3_2)
           if not L2_2 then
-            L2_2 = A0_2[30]
+            L2_2 = self[30]
             L3_2 = L2_2
             L2_2 = L2_2.F72F203963C699DD9
             L2_2(L3_2)
@@ -465,7 +429,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = C57802178241C0D20
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F4E09538E8F109EC2
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   return L2_2(L3_2, L4_2)
 end
@@ -475,35 +439,32 @@ L68_1 = _ENV["CAF02F2AE67BDBC51"]
 L68_1 = L68_1.prototype
 L69_1 = "F1DC44B6ACECDC3C9"
 
-function L70_1(A0_2)
+function L70_1(self)
   local L1_2, L2_2
   L1_2 = C57802178241C0D20
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1DC44B6ACECDC3C9
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FA49476B0B39D9363
+  L2_2 = self
+  L1_2 = self.FA49476B0B39D9363
   L1_2(L2_2)
-  L1_2 = A0_2[30]
+  L1_2 = self[30]
   if nil ~= L1_2 then
-    L1_2 = A0_2[30]
+    L1_2 = self[30]
     L2_2 = L1_2
     L1_2 = L1_2.F8479670AA439E8BB
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF02F2AE67BDBC51"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPhotomode.onFinished
+function CAF02F2AE67BDBC51_prototype:F68499476069C0B1E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C57802178241C0D20
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F68499476069C0B1E
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = CAF02F2AE67BDBC51
   L1_2.SDEFF7388704D558F = false
@@ -644,11 +605,8 @@ function L70_1(A0_2)
   L4_2[7] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF02F2AE67BDBC51"]["prototype"]
-L69_1 = "FA49476B0B39D9363"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPhotomode.ForceCloseYMap
+function CAF02F2AE67BDBC51_prototype:FA49476B0B39D9363()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CAF02F2AE67BDBC51
   L1_2 = L1_2.S6AFA756ABF94332B

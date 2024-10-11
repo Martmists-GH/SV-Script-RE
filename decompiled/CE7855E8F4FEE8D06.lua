@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CE7855E8F4FEE8D06"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CE7855E8F4FEE8D06"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7855E8F4FEE8D06"]
-L69_1 = "__name__"
-L70_1 = "CE7855E8F4FEE8D06"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7855E8F4FEE8D06"]
-L69_1 = "SB21FA562BB1FB817"
+---@alias CE7855E8F4FEE8D06 main_ui_ymap_YMapSceneUtility
 
-function L70_1(A0_2)
+---@class main_ui_ymap_YMapSceneUtility
+CE7855E8F4FEE8D06 = L15_1()
+CE7855E8F4FEE8D06.new = {}
+CE7855E8F4FEE8D06.__name__ = "CE7855E8F4FEE8D06"
+--- main.ui.ymap.YMapSceneUtility.LoadScene
+function CE7855E8F4FEE8D06.SB21FA562BB1FB817(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -44,11 +35,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7855E8F4FEE8D06"]
-L69_1 = "S2C0B8078393E2004"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapSceneUtility.IsExistScene
+function CE7855E8F4FEE8D06.S2C0B8078393E2004(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D

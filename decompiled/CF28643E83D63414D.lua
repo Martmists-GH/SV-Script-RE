@@ -1,3 +1,6 @@
+---@alias C35F58F12EF91F091 main_ui_pokelist_debug_PokeListIconDebugUI
+
+---@class main_ui_pokelist_debug_PokeListIconDebugUI
 L55_1 = _ENV
 L56_1 = "CF28643E83D63414D"
 L57_1 = L15_1

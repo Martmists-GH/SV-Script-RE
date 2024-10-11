@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C2FC07B9A1CFD9ABA"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C2FC07B9A1CFD9ABA"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2FC07B9A1CFD9ABA"]
-L69_1 = "__name__"
-L70_1 = "C2FC07B9A1CFD9ABA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2FC07B9A1CFD9ABA"]
-L69_1 = "S865CB3799B9E1A00"
+---@alias C2FC07B9A1CFD9ABA main_ui_title__Title_Title_Fields_
 
-function L70_1(A0_2, A1_2)
+---@class main_ui_title__Title_Title_Fields_
+C2FC07B9A1CFD9ABA = L15_1()
+C2FC07B9A1CFD9ABA.new = {}
+C2FC07B9A1CFD9ABA.__name__ = "C2FC07B9A1CFD9ABA"
+--- main.ui.title._Title.Title_Fields_.GetStateBehaviorBackupStartFlow
+function C2FC07B9A1CFD9ABA.S865CB3799B9E1A00(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = A0_2
   L2_2 = A0_2.fD4E64AB7

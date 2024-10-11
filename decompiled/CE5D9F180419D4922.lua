@@ -1,3 +1,7 @@
+---@alias CE5D9F180419D4922 main_ui_loading_LoadingUI
+
+---@class main_ui_loading_LoadingUI : CE5D9F180419D4922_prototype
+---@field prototype CE5D9F180419D4922_prototype
 L55_1 = _ENV
 L56_1 = "CE5D9F180419D4922"
 L57_1 = L15_1
@@ -41,33 +45,25 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CE5D9F180419D4922"]
 L69_1 = "__name__"
 L70_1 = "CE5D9F180419D4922"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE5D9F180419D4922"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE5D9F180419D4922"]["prototype"]
-L69_1 = "FB68CFA277DC5D2A5"
-
-function L70_1(A0_2)
+---@class CE5D9F180419D4922_prototype
+CE5D9F180419D4922_prototype = L15_1()
+CE5D9F180419D4922.prototype = CE5D9F180419D4922_prototype
+--- main.ui.loading.LoadingUI.OpenUIScene
+function CE5D9F180419D4922_prototype:FB68CFA277DC5D2A5()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F052BEB8F702E7A17
-  L3_2 = A0_2[5]
+  L2_2 = self
+  L1_2 = self.F052BEB8F702E7A17
+  L3_2 = self[5]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE5D9F180419D4922"]["prototype"]
-L69_1 = "FC84A0D4D8CE89C7E"
-
-function L70_1(A0_2)
+--- main.ui.loading.LoadingUI.IsLoadEnd
+function CE5D9F180419D4922_prototype:FC84A0D4D8CE89C7E()
   local L1_2, L2_2
   L1_2 = CDAB51CABF01ACA9B
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC84A0D4D8CE89C7E
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
   if L1_2 then
     L1_2 = true

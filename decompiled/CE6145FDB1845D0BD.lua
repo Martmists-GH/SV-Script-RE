@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CE6145FDB1845D0BD"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CE6145FDB1845D0BD"]
-L69_1 = "new"
+---@alias CE6145FDB1845D0BD main_management_hairsalon_HairsalonPlayerPartsManager
 
-function L70_1()
+---@class main_management_hairsalon_HairsalonPlayerPartsManager : CE6145FDB1845D0BD_prototype
+---@field prototype CE6145FDB1845D0BD_prototype
+CE6145FDB1845D0BD = L15_1()
+function CE6145FDB1845D0BD.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = CE6145FDB1845D0BD
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE6145FDB1845D0BD"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 CE6145FDB1845D0BD
+function CE6145FDB1845D0BD.super(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
@@ -71,11 +65,7 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE6145FDB1845D0BD"]
-L69_1 = "__name__"
-L70_1 = "CE6145FDB1845D0BD"
-L68_1[L69_1] = L70_1
+CE6145FDB1845D0BD.__name__ = "CE6145FDB1845D0BD"
 L68_1 = _ENV["CE6145FDB1845D0BD"]
 L69_1 = "S385504EFF7E842C3"
 
@@ -95,21 +85,16 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE6145FDB1845D0BD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE6145FDB1845D0BD"]["prototype"]
-L69_1 = "FD23B8F6D2C77D3A4"
-
-function L70_1(A0_2)
+---@class CE6145FDB1845D0BD_prototype
+CE6145FDB1845D0BD_prototype = L15_1()
+CE6145FDB1845D0BD.prototype = CE6145FDB1845D0BD_prototype
+--- main.management.hairsalon.HairsalonPlayerPartsManager.LoadSaveData
+function CE6145FDB1845D0BD_prototype:FD23B8F6D2C77D3A4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
-  A0_2[1] = L1_2
-  L1_2 = A0_2[1]
+  self[1] = L1_2
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = cF38AFAAD
@@ -120,7 +105,7 @@ function L70_1(A0_2)
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2, L5_2, L6_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = cF38AFAAD
@@ -133,11 +118,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE6145FDB1845D0BD"]["prototype"]
-L69_1 = "FB22BD8F437A9EEF7"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.management.hairsalon.HairsalonPlayerPartsManager.SetParts
+function CE6145FDB1845D0BD_prototype:FB22BD8F437A9EEF7(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2
   if nil == A3_2 then
     A3_2 = false
@@ -166,13 +148,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L4_2 = false
     return L4_2
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2[A1_2] = A2_2
   if A3_2 then
     L4_2 = cF38AFAAD
     L4_2 = L4_2.f4942AB4F
     L5_2 = 7
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[0]
     L4_2(L5_2, L6_2)
     L4_2 = cF38AFAAD
@@ -181,7 +163,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L6_2 = 13
     L7_2 = L19_1
     L5_2 = L5_2(L6_2, L7_2)
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[1]
     L4_2(L5_2, L6_2)
   end
@@ -189,11 +171,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE6145FDB1845D0BD"]["prototype"]
-L69_1 = "F8904D35CE2995C5B"
-
-function L70_1(A0_2, A1_2)
+--- main.management.hairsalon.HairsalonPlayerPartsManager.GetParts
+function CE6145FDB1845D0BD_prototype:F8904D35CE2995C5B(A1_2)
   local L2_2
   
   function L2_2()
@@ -219,19 +198,16 @@ function L70_1(A0_2, A1_2)
     L2_2 = nil
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[A1_2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE6145FDB1845D0BD"]["prototype"]
-L69_1 = "F62FB23EFDCD08807"
-
-function L70_1(A0_2, A1_2)
+--- main.management.hairsalon.HairsalonPlayerPartsManager.F62FB23EFDCD08807
+function CE6145FDB1845D0BD_prototype:F62FB23EFDCD08807(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -248,11 +224,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE6145FDB1845D0BD"]["prototype"]
-L69_1 = "F7DD6C53DFAA9247A"
-
-function L70_1(A0_2)
+--- main.management.hairsalon.HairsalonPlayerPartsManager.SetParamNowParts
+function CE6145FDB1845D0BD_prototype:F7DD6C53DFAA9247A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -310,7 +283,7 @@ function L70_1(A0_2)
     return
   end
   L8_2 = -1
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L9_2 = L9_2[0]
   L10_2 = 0
   L12_2 = L3_2
@@ -365,7 +338,7 @@ function L70_1(A0_2)
     
     L14_2 = L14_2()
     L15_2 = L8_2
-    L16_2 = A0_2[1]
+    L16_2 = self[1]
     L16_2 = L16_2[1]
     L13_2(L14_2, L15_2, L16_2)
   end
@@ -404,13 +377,13 @@ function L70_1(A0_2)
   L15_2 = C947FAEDB1B28E7EA
   L15_2 = L15_2.SC42D142A356BEFFA
   L15_2 = L15_2[13]
-  L16_2 = A0_2[1]
+  L16_2 = self[1]
   L16_2 = L16_2[1]
   L13_2(L14_2, L15_2, L16_2)
   L13_2 = cF38AFAAD
   L13_2 = L13_2.f4942AB4F
   L14_2 = L5_2
-  L15_2 = A0_2[1]
+  L15_2 = self[1]
   L15_2 = L15_2[0]
   L13_2(L14_2, L15_2)
   L13_2 = cF38AFAAD
@@ -419,16 +392,13 @@ function L70_1(A0_2)
   L15_2 = 13
   L16_2 = L19_1
   L14_2 = L14_2(L15_2, L16_2)
-  L15_2 = A0_2[1]
+  L15_2 = self[1]
   L15_2 = L15_2[1]
   L13_2(L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE6145FDB1845D0BD"]["prototype"]
-L69_1 = "F911B0CE7F61365B5"
-
-function L70_1(A0_2, A1_2)
+--- main.management.hairsalon.HairsalonPlayerPartsManager.F911B0CE7F61365B5
+function CE6145FDB1845D0BD_prototype:F911B0CE7F61365B5(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S93A017D496A6D000

@@ -1,3 +1,7 @@
+---@alias CCC827D622B3723F2 main_field_gimmick_StreamingObjectCollection
+
+---@class main_field_gimmick_StreamingObjectCollection : CCC827D622B3723F2_prototype
+---@field prototype CCC827D622B3723F2_prototype
 L55_1 = _ENV
 L56_1 = "CCC827D622B3723F2"
 L57_1 = L15_1
@@ -52,21 +56,16 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCC827D622B3723F2"]
 L69_1 = "__name__"
 L70_1 = "CCC827D622B3723F2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC827D622B3723F2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC827D622B3723F2"]["prototype"]
-L69_1 = "F51D3B2DD453417F7"
-
-function L70_1(A0_2, A1_2)
+---@class CCC827D622B3723F2_prototype
+CCC827D622B3723F2_prototype = L15_1()
+CCC827D622B3723F2.prototype = CCC827D622B3723F2_prototype
+--- main.field.gimmick.StreamingObjectCollection.RegisterObject
+function CCC827D622B3723F2_prototype:F51D3B2DD453417F7(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L3_2 = A1_2
   L2_2 = A1_2.F7323ABD8A42DD2E5
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2.h
   while nil ~= L3_2 do
     L4_2 = L3_2.item
@@ -78,12 +77,12 @@ function L70_1(A0_2, A1_2)
       return
     end
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.add
   L6_2 = A1_2
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.add
   L6_2 = L2_2
@@ -93,37 +92,28 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC827D622B3723F2"]["prototype"]
-L69_1 = "F119A5D4210FCD553"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.StreamingObjectCollection.OnAdd
+function CCC827D622B3723F2_prototype:F119A5D4210FCD553(A1_2)
   local L2_2, L3_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F1165479268436C73 = L2_2
+  self.F1165479268436C73 = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC827D622B3723F2"]["prototype"]
-L69_1 = "FE45C29332EA0C8F8"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.StreamingObjectCollection.OnRemove
+function CCC827D622B3723F2_prototype:FE45C29332EA0C8F8(A1_2)
   local L2_2, L3_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F48C21E8327E09998 = L2_2
+  self.F48C21E8327E09998 = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC827D622B3723F2"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.field.gimmick.StreamingObjectCollection.Update
+function CCC827D622B3723F2_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L1_2 = L1_2.h
   while nil ~= L1_2 do
     L2_2 = L1_2.item
@@ -134,8 +124,8 @@ function L70_1(A0_2)
     L4_2 = L3_2[1]
     if 0 == L4_2 then
     elseif 1 == L4_2 then
-      L6_2 = A0_2
-      L5_2 = A0_2.FCD73A3271F73DAF4
+      L6_2 = self
+      L5_2 = self.FCD73A3271F73DAF4
       L7_2 = L16_1
       L8_2 = {}
       L9_2 = {}
@@ -147,18 +137,18 @@ function L70_1(A0_2)
       L8_2.item = L9_2
       L7_2, L8_2, L9_2 = L7_2(L8_2)
       L5_2(L6_2, L7_2, L8_2, L9_2)
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L6_2 = L5_2
       L5_2 = L5_2.remove
       L7_2 = L2_2
       L5_2(L6_2, L7_2)
     elseif 2 == L4_2 then
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L6_2 = L5_2
       L5_2 = L5_2.remove
       L7_2 = L2_2
       L5_2(L6_2, L7_2)
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L6_2 = L5_2
       L5_2 = L5_2.remove
       L8_2 = L2_2
@@ -171,7 +161,7 @@ function L70_1(A0_2)
     end
   end
   L2_2 = 0
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L3_2 = L3_2.h
   while nil ~= L3_2 do
     L4_2 = L3_2.item
@@ -186,36 +176,36 @@ function L70_1(A0_2)
       L6_2 = L5_2
       L5_2 = L5_2.F2B9DAFCC347DE61B
       L5_2(L6_2)
-      L6_2 = A0_2
-      L5_2 = A0_2.F8438030E4D34E89D
+      L6_2 = self
+      L5_2 = self.F8438030E4D34E89D
       L7_2 = L4_2
       L5_2(L6_2, L7_2)
-      L5_2 = A0_2[4]
+      L5_2 = self[4]
       if nil ~= L5_2 then
-        L5_2 = A0_2[4]
+        L5_2 = self[4]
         L5_2 = L5_2.idx
         if L2_2 < L5_2 then
-          L5_2 = A0_2[4]
-          L6_2 = A0_2[4]
+          L5_2 = self[4]
+          L6_2 = self[4]
           L6_2 = L6_2.idx
           L6_2 = L6_2 - 1
           L5_2.idx = L6_2
         else
-          L5_2 = A0_2[4]
+          L5_2 = self[4]
           L5_2 = L5_2.idx
           if L5_2 == L2_2 then
-            L5_2 = A0_2[4]
+            L5_2 = self[4]
             L5_2 = L5_2.itr
             L6_2 = L5_2
             L5_2 = L5_2.next
             L5_2(L6_2)
-            L5_2 = A0_2[4]
+            L5_2 = self[4]
             L5_2 = L5_2.itr
             L6_2 = L5_2
             L5_2 = L5_2.hasNext
             L5_2 = L5_2(L6_2)
             if not L5_2 then
-              A0_2[4] = nil
+              self[4] = nil
             end
           end
         end
@@ -224,13 +214,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC827D622B3723F2"]["prototype"]
-L69_1 = "F42D70449FF49DAF5"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.StreamingObjectCollection.Iterate
+function CCC827D622B3723F2_prototype:F42D70449FF49DAF5(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.h
   while nil ~= L2_2 do
     L3_2 = L2_2.item
@@ -241,13 +228,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC827D622B3723F2"]["prototype"]
-L69_1 = "FEF3A3B6876841F5A"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.StreamingObjectCollection.Find
+function CCC827D622B3723F2_prototype:FEF3A3B6876841F5A(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.h
   while nil ~= L2_2 do
     L3_2 = L2_2.item
@@ -264,39 +248,33 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC827D622B3723F2"]["prototype"]
-L69_1 = "FCD73A3271F73DAF4"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.StreamingObjectCollection.add
+function CCC827D622B3723F2_prototype:FCD73A3271F73DAF4(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.add
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F1165479268436C73
+  L3_2 = self
+  L2_2 = self.F1165479268436C73
   L4_2 = A1_2.item
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC827D622B3723F2"]["prototype"]
-L69_1 = "F8438030E4D34E89D"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.StreamingObjectCollection.remove
+function CCC827D622B3723F2_prototype:F8438030E4D34E89D(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.remove
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F48C21E8327E09998
+  L3_2 = self
+  L2_2 = self.F48C21E8327E09998
   L4_2 = A1_2.item
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.remove
   L4_2 = A1_2.registration

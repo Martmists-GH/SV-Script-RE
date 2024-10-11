@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CB3263348C3EF2C1F"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CB3263348C3EF2C1F"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3263348C3EF2C1F"]
-L69_1 = "__name__"
-L70_1 = "CB3263348C3EF2C1F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3263348C3EF2C1F"]
-L69_1 = "SBD3B76D9666489FA"
+---@alias CB3263348C3EF2C1F main_pokepicnic_cooking_IngredientType_ItemID
 
-function L70_1(A0_2)
+---@class main_pokepicnic_cooking_IngredientType_ItemID
+CB3263348C3EF2C1F = L15_1()
+CB3263348C3EF2C1F.new = {}
+CB3263348C3EF2C1F.__name__ = "CB3263348C3EF2C1F"
+--- main.pokepicnic.cooking.IngredientType_ItemID.ItemIDtoIndex
+function CB3263348C3EF2C1F.SBD3B76D9666489FA(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CB3263348C3EF2C1F
   L1_2 = L1_2.S0A0EAE3F3AFC912A

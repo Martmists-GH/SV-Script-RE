@@ -1,3 +1,7 @@
+---@alias C5D6581596953214C main_playables_network_NetPlayerBallThrow
+
+---@class main_playables_network_NetPlayerBallThrow : C5D6581596953214C_prototype
+---@field prototype C5D6581596953214C_prototype
 L55_1 = _ENV
 L56_1 = "C5D6581596953214C"
 L57_1 = L15_1
@@ -117,328 +121,302 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C5D6581596953214C"]
 L69_1 = "__name__"
 L70_1 = "C5D6581596953214C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D6581596953214C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D6581596953214C"]["prototype"]
-L69_1 = "F9E76A204E686CBD3"
-
-function L70_1(A0_2)
+---@class C5D6581596953214C_prototype
+C5D6581596953214C_prototype = L15_1()
+C5D6581596953214C.prototype = C5D6581596953214C_prototype
+--- main.playables.network.NetPlayerBallThrow.CleanUp
+function C5D6581596953214C_prototype:F9E76A204E686CBD3()
   local L1_2, L2_2
   L1_2 = cD80E2B8B
   L1_2 = L1_2.f1D031949
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D6581596953214C"]["prototype"]
-L69_1 = "F8CAD4D4B4B3A90A7"
-
-function L70_1(A0_2)
+--- main.playables.network.NetPlayerBallThrow.AttachToThrow
+function C5D6581596953214C_prototype:F8CAD4D4B4B3A90A7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.f8F2B0552
   L4_2 = 0
   L5_2 = 0
   L6_2 = 0
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.f24032F87
   L4_2 = cD5675BA5
   L4_2 = L4_2.f0151A26E
   L4_2, L5_2, L6_2 = L4_2()
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.f6CF71CE1
   L4_2 = true
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.fE91E20CA
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = "right_attach_off"
   L2_2(L3_2, L4_2, L5_2)
-  A0_2[10] = 2
-  A0_2[16] = false
-  A0_2[12] = nil
+  self[10] = 2
+  self[16] = false
+  self[12] = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D6581596953214C"]["prototype"]
-L69_1 = "F055CA2D749242D59"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.playables.network.NetPlayerBallThrow.DetachToThrow
+function C5D6581596953214C_prototype:F055CA2D749242D59(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = nil
   L4_2 = c016374C1
   L4_2 = L4_2.f4555D276
-  L5_2 = A0_2[11]
+  L5_2 = self[11]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
     return
   end
-  A0_2[13] = A1_2
-  A0_2[14] = A2_2
-  A0_2[10] = 3
+  self[13] = A1_2
+  self[14] = A2_2
+  self[10] = 3
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D6581596953214C"]["prototype"]
-L69_1 = "F3455888D2A53F75A"
-
-function L70_1(A0_2)
+--- main.playables.network.NetPlayerBallThrow.AttachToBack
+function C5D6581596953214C_prototype:F3455888D2A53F75A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.f8F2B0552
   L4_2 = 0
   L5_2 = 0
   L6_2 = 0
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.f24032F87
   L4_2 = cD5675BA5
   L4_2 = L4_2.f0151A26E
   L4_2, L5_2, L6_2 = L4_2()
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.f6CF71CE1
   L4_2 = true
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.fE91E20CA
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = "right_attach_off"
   L2_2(L3_2, L4_2, L5_2)
-  A0_2[10] = 0
-  L3_2 = A0_2
-  L2_2 = A0_2.F822CD87888FBD58A
+  self[10] = 0
+  L3_2 = self
+  L2_2 = self.F822CD87888FBD58A
   L4_2 = "PLAY_BA_SYS_FIELD_BALL_RETURN"
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D6581596953214C"]["prototype"]
-L69_1 = "FC2BF0B1C6EFF2DB7"
-
-function L70_1(A0_2)
+--- main.playables.network.NetPlayerBallThrow.FC2BF0B1C6EFF2DB7
+function C5D6581596953214C_prototype:FC2BF0B1C6EFF2DB7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.f8F2B0552
   L4_2 = 0
   L5_2 = 0
   L6_2 = 0
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.f24032F87
   L4_2 = cD5675BA5
   L4_2 = L4_2.f0151A26E
   L4_2, L5_2, L6_2 = L4_2()
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.f6CF71CE1
   L4_2 = true
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.fE91E20CA
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = "left_attach_off"
   L2_2(L3_2, L4_2, L5_2)
-  A0_2[10] = 0
-  L3_2 = A0_2
-  L2_2 = A0_2.F822CD87888FBD58A
+  self[10] = 0
+  L3_2 = self
+  L2_2 = self.F822CD87888FBD58A
   L4_2 = "PLAY_BA_SYS_FIELD_BALL_RETURN"
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D6581596953214C"]["prototype"]
-L69_1 = "FD167EE8ECF9DE3F0"
-
-function L70_1(A0_2)
+--- main.playables.network.NetPlayerBallThrow.DetachToBack
+function C5D6581596953214C_prototype:FD167EE8ECF9DE3F0()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.f407CE2C1
   L2_2(L3_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.f6CF71CE1
   L4_2 = false
   L2_2(L3_2, L4_2)
-  A0_2[10] = 0
+  self[10] = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D6581596953214C"]["prototype"]
-L69_1 = "FAB0012CEA526A2F4"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.network.NetPlayerBallThrow.ChangeBallType
+function C5D6581596953214C_prototype:FAB0012CEA526A2F4(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = cD80E2B8B
   L2_2 = L2_2.f1D031949
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L2_2(L3_2)
-  A0_2[11] = nil
+  self[11] = nil
   L2_2 = cD80E2B8B
   L2_2 = L2_2.fB7AA3AA5
   L3_2 = A1_2
-  L4_2 = A0_2[4]
-  L5_2 = A0_2[8]
+  L4_2 = self[4]
+  L5_2 = self[8]
   L6_2 = 0
   L7_2 = 0
   L8_2 = 0
   L9_2 = false
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
   if L2_2 then
-    A0_2[10] = 1
+    self[10] = 1
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D6581596953214C"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.network.NetPlayerBallThrow.Update
+function C5D6581596953214C_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   if 0 == L2_2 then
     L3_2 = nil
     L4_2 = cE35B3EB3
     L4_2 = L4_2.fDBA763D1
-    L5_2 = A0_2[6]
+    L5_2 = self[6]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
       L4_2 = cE35B3EB3
       L4_2 = L4_2.fB41FD22F
-      L5_2 = A0_2[5]
+      L5_2 = self[5]
       L4_2 = L4_2(L5_2)
-      A0_2[6] = L4_2
+      self[6] = L4_2
     end
     L4_2 = nil
     L5_2 = c70E2F99B
     L5_2 = L5_2.f81CAC361
-    L6_2 = A0_2[7]
+    L6_2 = self[7]
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
     if L5_2 then
       L5_2 = c70E2F99B
       L5_2 = L5_2.fC4235E43
-      L6_2 = A0_2[6]
+      L6_2 = self[6]
       L7_2 = L6_2
       L6_2 = L6_2.fB6561E14
       L8_2 = "default"
       L9_2 = "StateComponent"
       L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L6_2(L7_2, L8_2, L9_2)
       L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
-      A0_2[7] = L5_2
+      self[7] = L5_2
     end
   elseif 1 == L2_2 then
     L3_2 = cD80E2B8B
     L3_2 = L3_2.f88B20BC5
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     L3_2 = L3_2(L4_2)
     if L3_2 then
       L3_2 = cD80E2B8B
       L3_2 = L3_2.f6F41B608
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       L3_2 = L3_2(L4_2)
-      A0_2[11] = L3_2
-      A0_2[10] = 0
-      L3_2 = A0_2[11]
+      self[11] = L3_2
+      self[10] = 0
+      L3_2 = self[11]
       L4_2 = L3_2
       L3_2 = L3_2.f6CF71CE1
       L5_2 = false
       L3_2(L4_2, L5_2)
     end
   elseif 2 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F932BDDB4C3ED8BB7
+    L4_2 = self
+    L3_2 = self.F932BDDB4C3ED8BB7
     L3_2(L4_2)
   elseif 3 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F932BDDB4C3ED8BB7
+    L4_2 = self
+    L3_2 = self.F932BDDB4C3ED8BB7
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L3_2 = A0_2[11]
+      L3_2 = self[11]
       L4_2 = L3_2
       L3_2 = L3_2.f407CE2C1
       L3_2(L4_2)
-      L3_2 = A0_2[9]
+      L3_2 = self[9]
       L4_2 = L3_2
       L3_2 = L3_2.FBD85BEF51374A611
       L3_2(L4_2)
-      L3_2 = A0_2[9]
+      L3_2 = self[9]
       L4_2 = L3_2
       L3_2 = L3_2.FB273BAF437E771A0
-      L5_2 = A0_2[13]
-      L6_2 = A0_2[9]
+      L5_2 = self[13]
+      L6_2 = self[9]
       L7_2 = L6_2
       L6_2 = L6_2.F82BE83BA0A6B0432
-      L8_2 = A0_2[13]
-      L9_2 = A0_2[14]
-      L10_2 = A0_2[2]
+      L8_2 = self[13]
+      L9_2 = self[14]
+      L10_2 = self[2]
       L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
       L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
-      L3_2 = A0_2[15]
+      L3_2 = self[15]
       L4_2 = L3_2
       L3_2 = L3_2.fF5E28294
       L3_2(L4_2)
       L3_2 = cAA7097FF
       L3_2 = L3_2.fB41FD22F
-      L4_2 = A0_2[5]
+      L4_2 = self[5]
       L3_2 = L3_2(L4_2)
       L4_2 = nil
       L5_2 = cAA7097FF
@@ -453,18 +431,18 @@ function L70_1(A0_2, A1_2)
         L8_2 = 100
         L5_2(L6_2, L7_2, L8_2)
       end
-      A0_2[10] = 4
+      self[10] = 4
     end
   elseif 4 == L2_2 then
-    L3_2 = A0_2[15]
+    L3_2 = self[15]
     L4_2 = L3_2
     L3_2 = L3_2.f92A1FFA7
     L3_2(L4_2)
-    L3_2 = A0_2[11]
-    L4_2 = A0_2[9]
+    L3_2 = self[11]
+    L4_2 = self[9]
     L5_2 = L4_2
     L4_2 = L4_2.F44B05B2839E4DA9E
-    L6_2 = A0_2[15]
+    L6_2 = self[15]
     L7_2 = L6_2
     L6_2 = L6_2.fC0E2CAD0
     L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L6_2(L7_2)
@@ -475,15 +453,15 @@ function L70_1(A0_2, A1_2)
     L8_2 = L4_2[2]
     L9_2 = L4_2[3]
     L5_2(L6_2, L7_2, L8_2, L9_2)
-    L5_2 = A0_2[11]
+    L5_2 = self[11]
     L6_2 = L5_2
     L5_2 = L5_2.f64857644
     L5_2 = L5_2(L6_2)
     L6_2 = L5_2
     L5_2 = L5_2.f643B5D6F
     L5_2, L6_2, L7_2 = L5_2(L6_2)
-    L8_2 = A0_2[3]
-    L9_2 = A0_2[11]
+    L8_2 = self[3]
+    L9_2 = self[11]
     L10_2 = L9_2
     L9_2 = L9_2.f24032F87
     L11_2 = cD5675BA5
@@ -496,15 +474,15 @@ function L70_1(A0_2, A1_2)
     L14_2 = L7_2 + L14_2
     L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L11_2(L12_2, L13_2, L14_2)
     L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
-    L9_2 = A0_2[12]
+    L9_2 = self[12]
     if nil ~= L9_2 then
-      L9_2 = A0_2[12]
-      L10_2 = A0_2[11]
+      L9_2 = self[12]
+      L10_2 = self[11]
       L11_2 = L10_2
       L10_2 = L10_2.f7360ED03
       L10_2, L11_2, L12_2 = L10_2(L11_2)
-      L14_2 = A0_2
-      L13_2 = A0_2.FF929990578510402
+      L14_2 = self
+      L13_2 = self.FF929990578510402
       L15_2 = L9_2
       L16_2 = {}
       L17_2 = L10_2
@@ -536,20 +514,20 @@ function L70_1(A0_2, A1_2)
               goto lbl_178
             end
           end
-          L16_2 = A0_2
-          L15_2 = A0_2.F508B9758C5AA153C
+          L16_2 = self
+          L15_2 = self.F508B9758C5AA153C
           L15_2(L16_2)
         end
         ::lbl_178::
-        L15_2 = A0_2[11]
+        L15_2 = self[11]
         L16_2 = L15_2
         L15_2 = L15_2.f6CF71CE1
         L17_2 = false
         L15_2(L16_2, L17_2)
-        A0_2[10] = 0
+        self[10] = 0
       end
     end
-    L9_2 = A0_2[11]
+    L9_2 = self[11]
     L10_2 = L9_2
     L9_2 = L9_2.f7360ED03
     L9_2, L10_2, L11_2 = L9_2(L10_2)
@@ -560,24 +538,21 @@ function L70_1(A0_2, A1_2)
     L12_2[1] = L13_2
     L12_2[2] = L14_2
     L12_2[3] = L15_2
-    A0_2[12] = L12_2
+    self[12] = L12_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D6581596953214C"]["prototype"]
-L69_1 = "F508B9758C5AA153C"
-
-function L70_1(A0_2)
+--- main.playables.network.NetPlayerBallThrow.EmitBallOutEffect
+function C5D6581596953214C_prototype:F508B9758C5AA153C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     L3_2 = L2_2
     L2_2 = L2_2.f5439788F
     L4_2 = "ballout"
@@ -607,22 +582,19 @@ function L70_1(A0_2)
         L6_2(L7_2, L8_2, L9_2)
       end
     end
-    L5_2 = A0_2
-    L4_2 = A0_2.F822CD87888FBD58A
+    L5_2 = self
+    L4_2 = self.F822CD87888FBD58A
     L6_2 = "PLAY_BA_SYS_FIELD_POKE_APPERANCE"
     L4_2(L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D6581596953214C"]["prototype"]
-L69_1 = "F822CD87888FBD58A"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.network.NetPlayerBallThrow.PostSoundEvent
+function C5D6581596953214C_prototype:F822CD87888FBD58A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = cAA7097FF
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cAA7097FF
@@ -639,16 +611,13 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D6581596953214C"]["prototype"]
-L69_1 = "F932BDDB4C3ED8BB7"
-
-function L70_1(A0_2)
+--- main.playables.network.NetPlayerBallThrow.ReadyToThrow
+function C5D6581596953214C_prototype:F932BDDB4C3ED8BB7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = nil
   L2_2 = cE35B3EB3
   L2_2 = L2_2.fDBA763D1
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -658,21 +627,21 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = c70E2F99B
   L3_2 = L3_2.f81CAC361
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = true
     return L3_2
   end
-  L3_2 = A0_2[16]
+  L3_2 = self[16]
   if L3_2 then
     L3_2 = true
     return L3_2
   end
   L3_2 = L10_1.string
   L3_2 = L3_2.find
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L5_2 = L4_2
   L4_2 = L4_2.fA40BEAA2
   L6_2 = "default"
@@ -703,16 +672,16 @@ function L70_1(A0_2)
   
   L4_2 = L4_2()
   if -1 ~= L4_2 then
-    A0_2[16] = true
+    self[16] = true
   end
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L5_2 = L4_2
   L4_2 = L4_2.f8AC62936
   L6_2 = "upperbody_ride_add"
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = L10_1.string
   L5_2 = L5_2.find
-  L6_2 = A0_2[7]
+  L6_2 = self[7]
   L7_2 = L6_2
   L6_2 = L6_2.f7730DB33
   L8_2 = L4_2
@@ -743,17 +712,14 @@ function L70_1(A0_2)
   
   L6_2 = L6_2()
   if -1 ~= L6_2 then
-    A0_2[16] = true
+    self[16] = true
   end
-  L6_2 = A0_2[16]
+  L6_2 = self[16]
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D6581596953214C"]["prototype"]
-L69_1 = "FF929990578510402"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.playables.network.NetPlayerBallThrow.GetHitPos
+function C5D6581596953214C_prototype:FF929990578510402(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L3_2 = c95DC25DB
   L3_2 = L3_2.f544F902B
@@ -779,7 +745,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L10_2 = A2_2[1]
   L11_2 = A2_2[2]
   L12_2 = A2_2[3]
-  L13_2 = A0_2[1]
+  L13_2 = self[1]
   L14_2 = 10
   L15_2 = 0
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)

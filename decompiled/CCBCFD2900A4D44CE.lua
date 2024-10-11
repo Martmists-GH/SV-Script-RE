@@ -1,3 +1,5 @@
+---@class CCBCFD2900A4D44CE : CCBCFD2900A4D44CE_prototype
+---@field prototype CCBCFD2900A4D44CE_prototype
 L55_1 = _ENV
 L56_1 = "CCBCFD2900A4D44CE"
 L57_1 = L15_1
@@ -46,37 +48,29 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCBCFD2900A4D44CE"]
 L69_1 = "__name__"
 L70_1 = "CCBCFD2900A4D44CE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCBCFD2900A4D44CE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCBCFD2900A4D44CE"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2, A1_2)
+---@class CCBCFD2900A4D44CE_prototype
+CCBCFD2900A4D44CE_prototype = L15_1()
+CCBCFD2900A4D44CE.prototype = CCBCFD2900A4D44CE_prototype
+--- CCBCFD2900A4D44CE.onSetup
+function CCBCFD2900A4D44CE_prototype:F22C7B81A049FA20D(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C758A4480EDBFE879
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F22C7B81A049FA20D
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCBCFD2900A4D44CE"]["prototype"]
-L69_1 = "FAD5CCB7549BC2093"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CCBCFD2900A4D44CE.GetFloat
+function CCBCFD2900A4D44CE_prototype:FAD5CCB7549BC2093(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if A2_2 < A1_2 then
     L3_2 = A2_2
     A2_2 = A1_2
     A1_2 = L3_2
   end
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L4_2 = L3_2
   L3_2 = L3_2.f52C8AF50
   L5_2 = A2_2 - A1_2
@@ -86,18 +80,15 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCBCFD2900A4D44CE"]["prototype"]
-L69_1 = "F7153C11CA829BCB8"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CCBCFD2900A4D44CE.GetInt
+function CCBCFD2900A4D44CE_prototype:F7153C11CA829BCB8(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   if A2_2 < A1_2 then
     L3_2 = A2_2
     A2_2 = A1_2
     A1_2 = L3_2
   end
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L4_2 = L3_2
   L3_2 = L3_2.fDAAAA586
   L5_2 = A2_2 - A1_2

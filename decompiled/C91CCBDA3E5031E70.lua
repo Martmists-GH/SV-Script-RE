@@ -1,3 +1,7 @@
+---@alias C91CCBDA3E5031E70 main_ui_raid_matching_popup_RaidMatchingPopupView
+
+---@class main_ui_raid_matching_popup_RaidMatchingPopupView : C91CCBDA3E5031E70_prototype
+---@field prototype C91CCBDA3E5031E70_prototype
 L55_1 = _ENV
 L56_1 = "C91CCBDA3E5031E70"
 L57_1 = L15_1
@@ -54,45 +58,40 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C91CCBDA3E5031E70"]
 L69_1 = "__name__"
 L70_1 = "C91CCBDA3E5031E70"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91CCBDA3E5031E70"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91CCBDA3E5031E70"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C91CCBDA3E5031E70_prototype
+C91CCBDA3E5031E70_prototype = L15_1()
+C91CCBDA3E5031E70.prototype = C91CCBDA3E5031E70_prototype
+--- main.ui.raid_matching.popup.RaidMatchingPopupView.Setup
+function C91CCBDA3E5031E70_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = c69ACCC6F
   L2_2 = L2_2.f3F98EEAD
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[11] = L2_2
+  self[11] = L2_2
   L2_2 = C9CC979169E6BA3A6
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[12] = L2_2
+  self[12] = L2_2
   L2_2 = C85D42D96031A28AE
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[13] = L2_2
-  L2_2 = A0_2[13]
+  self[13] = L2_2
+  L2_2 = self[13]
   L3_2 = L2_2
   L2_2 = L2_2.F55C1B11A96DE900B
   L4_2 = nil
-  L5_2 = A0_2[10]
+  L5_2 = self[10]
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   L3_2 = L2_2
   L2_2 = L2_2.F0170EA75A6880AF5
   L4_2 = cEBF4B147
@@ -101,57 +100,57 @@ function L70_1(A0_2, A1_2)
   L6_2 = 0
   L4_2, L5_2, L6_2, L7_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   L3_2 = L2_2
   L2_2 = L2_2.F0AA93C9D949ACA08
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F0C469CDA943FEFD5
+  L5_2 = self
+  L6_2 = self.F0C469CDA943FEFD5
   L4_2, L5_2, L6_2, L7_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   L3_2 = L2_2
   L2_2 = L2_2.FD19861E47221CCD4
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F6FE8AF618C1504F3
+  L5_2 = self
+  L6_2 = self.F6FE8AF618C1504F3
   L4_2, L5_2, L6_2, L7_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.f89358001
   L2_2(L3_2)
   L2_2 = C04C2A679B8598CA6
   L2_2 = L2_2.SD071DF9D0379766A
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = 5
   L5_2 = false
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2[14] = L2_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F78D7A5CDFE8E4713
+  self[14] = L2_2
+  L3_2 = self
+  L2_2 = self.F78D7A5CDFE8E4713
   L4_2 = 0
   L2_2(L3_2, L4_2)
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "T_headline_00"
-  L5_2 = A0_2[2]
-  L6_2 = A0_2[4]
+  L5_2 = self[2]
+  L6_2 = self[4]
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "L_button_00/T_00"
-  L5_2 = A0_2[2]
-  L6_2 = A0_2[7]
+  L5_2 = self[2]
+  L6_2 = self[7]
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "L_button_01/T_00"
-  L5_2 = A0_2[2]
-  L6_2 = A0_2[8]
+  L5_2 = self[2]
+  L6_2 = self[8]
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.S5E67FD00348A0A28
@@ -162,8 +161,8 @@ function L70_1(A0_2, A1_2)
   L4_2 = 1
   L5_2 = c8C3BF576
   L5_2 = L5_2.fC8CEF9EF
-  L6_2 = A0_2[3]
-  L7_2 = A0_2[9]
+  L6_2 = self[3]
+  L7_2 = self[9]
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
   L2_2 = CF1D9D619D324F233
@@ -171,159 +170,126 @@ function L70_1(A0_2, A1_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91CCBDA3E5031E70"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.popup.RaidMatchingPopupView.PreUpdate
+function C91CCBDA3E5031E70_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   if nil ~= L2_2 then
-    L2_2 = A0_2[13]
+    L2_2 = self[13]
     L3_2 = L2_2
     L2_2 = L2_2.F3CDE8608003DBD80
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91CCBDA3E5031E70"]["prototype"]
-L69_1 = "F748A3DCD68216D1D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.popup.RaidMatchingPopupView.PlayAnime
+function C91CCBDA3E5031E70_prototype:F748A3DCD68216D1D(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   L3_2 = L2_2
   L2_2 = L2_2.F748A3DCD68216D1D
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91CCBDA3E5031E70"]["prototype"]
-L69_1 = "F810D8446A8612992"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.popup.RaidMatchingPopupView.IsEndAnime
+function C91CCBDA3E5031E70_prototype:F810D8446A8612992(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   if nil == L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   L3_2 = L2_2
   L2_2 = L2_2.F810D8446A8612992
   L4_2 = A1_2
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91CCBDA3E5031E70"]["prototype"]
-L69_1 = "F78D7A5CDFE8E4713"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.popup.RaidMatchingPopupView.UpdateMessage
+function C91CCBDA3E5031E70_prototype:F78D7A5CDFE8E4713(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = ""
   if 0 == A1_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
   elseif 1 == A1_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
   end
   L3_2 = c8C3BF576
   L3_2 = L3_2.f46674724
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = "T_intro_00"
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L7_2 = L2_2
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91CCBDA3E5031E70"]["prototype"]
-L69_1 = "F0C469CDA943FEFD5"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.popup.RaidMatchingPopupView.OnMoveCursorEvent
+function C91CCBDA3E5031E70_prototype:F0C469CDA943FEFD5(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F78D7A5CDFE8E4713
+  L3_2 = self
+  L2_2 = self.F78D7A5CDFE8E4713
   L4_2 = A1_2.index
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91CCBDA3E5031E70"]["prototype"]
-L69_1 = "F6FE8AF618C1504F3"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.popup.RaidMatchingPopupView.OnDecideItemEvnet
+function C91CCBDA3E5031E70_prototype:F6FE8AF618C1504F3(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2.F48D4C1A0C41A44F6
+  L2_2 = self.F48D4C1A0C41A44F6
   if nil ~= L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F48D4C1A0C41A44F6
+    L3_2 = self
+    L2_2 = self.F48D4C1A0C41A44F6
     L4_2 = A1_2.index
     L2_2(L3_2, L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91CCBDA3E5031E70"]["prototype"]
-L69_1 = "FBA3670E108393AFE"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.popup.RaidMatchingPopupView.SetDecidedCallback
+function C91CCBDA3E5031E70_prototype:FBA3670E108393AFE(A1_2)
   local L2_2, L3_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F48D4C1A0C41A44F6 = L2_2
+  self.F48D4C1A0C41A44F6 = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91CCBDA3E5031E70"]["prototype"]
-L69_1 = "F4B14418238E3E740"
-
-function L70_1(A0_2)
+--- main.ui.raid_matching.popup.RaidMatchingPopupView.IsStartControl
+function C91CCBDA3E5031E70_prototype:F4B14418238E3E740()
   local L1_2, L2_2
-  L1_2 = A0_2[11]
+  L1_2 = self[11]
   L2_2 = L1_2
   L1_2 = L1_2.fE09DCCE4
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91CCBDA3E5031E70"]["prototype"]
-L69_1 = "F4E7775FD894F78B0"
-
-function L70_1(A0_2)
+--- main.ui.raid_matching.popup.RaidMatchingPopupView.StartControl
+function C91CCBDA3E5031E70_prototype:F4E7775FD894F78B0()
   local L1_2, L2_2
-  L1_2 = A0_2[11]
+  L1_2 = self[11]
   L2_2 = L1_2
   L1_2 = L1_2.f89358001
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91CCBDA3E5031E70"]["prototype"]
-L69_1 = "FBFEB7956C3196D3E"
-
-function L70_1(A0_2)
+--- main.ui.raid_matching.popup.RaidMatchingPopupView.StopControl
+function C91CCBDA3E5031E70_prototype:FBFEB7956C3196D3E()
   local L1_2, L2_2
-  L1_2 = A0_2[11]
+  L1_2 = self[11]
   L2_2 = L1_2
   L1_2 = L1_2.f1EA0CCF2
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91CCBDA3E5031E70"]["prototype"]
-L69_1 = "F6E9709521FC397C1"
-
-function L70_1(A0_2)
+--- main.ui.raid_matching.popup.RaidMatchingPopupView.IsTriggerCancelButton
+function C91CCBDA3E5031E70_prototype:F6E9709521FC397C1()
   local L1_2, L2_2
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   L2_2 = L1_2
   L1_2 = L1_2.fDEEB3A8E
   return L1_2(L2_2)

@@ -1,3 +1,7 @@
+---@alias CE5E0C4441759F7E7 main_ui_btlspot_state_machine_rental_team_BattleSpotStateRentalTeam
+
+---@class main_ui_btlspot_state_machine_rental_team_BattleSpotStateRentalTeam : CE5E0C4441759F7E7_prototype
+---@field prototype CE5E0C4441759F7E7_prototype
 L55_1 = _ENV
 L56_1 = "CE5E0C4441759F7E7"
 L57_1 = L15_1
@@ -41,26 +45,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE5E0C4441759F7E7"]
 L69_1 = "__name__"
 L70_1 = "CE5E0C4441759F7E7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE5E0C4441759F7E7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE5E0C4441759F7E7"]["prototype"]
-L69_1 = "F5BE3D38738EE3C24"
-
-function L70_1(A0_2)
+---@class CE5E0C4441759F7E7_prototype
+CE5E0C4441759F7E7_prototype = L15_1()
+CE5E0C4441759F7E7.prototype = CE5E0C4441759F7E7_prototype
+--- main.ui.btlspot.state_machine.rental_team.BattleSpotStateRentalTeam.OnEntry
+function CE5E0C4441759F7E7_prototype:F5BE3D38738EE3C24()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FD8ABEE5C76044721
+  L2_2 = self
+  L1_2 = self.FD8ABEE5C76044721
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.F2FBB004A3763CEBD
   L3_2 = 0
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[13] = L1_2
-  L1_2 = A0_2[13]
+  self[13] = L1_2
+  L1_2 = self[13]
   L2_2 = L1_2
   L1_2 = L1_2.F51234A27614E7B10
   L3_2 = false
@@ -72,53 +71,50 @@ function L70_1(A0_2)
   L1_2 = L1_2.SDD88C054473B4E5A
   L2_2 = false
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FD8ABEE5C76044721
+  L2_2 = self
+  L1_2 = self.FD8ABEE5C76044721
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.F2FBB004A3763CEBD
   L3_2 = 17
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[11] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FD8ABEE5C76044721
+  self[11] = L1_2
+  L2_2 = self
+  L1_2 = self.FD8ABEE5C76044721
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.F2FBB004A3763CEBD
   L3_2 = 9
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[12] = L1_2
+  self[12] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE5E0C4441759F7E7"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.state_machine.rental_team.BattleSpotStateRentalTeam.OnUpdate
+function CE5E0C4441759F7E7_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = 0
   while true do
-    L3_2 = A0_2[14]
+    L3_2 = self[14]
     if 0 == L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.FBF9CB6148B611FC0
+      L4_2 = self
+      L3_2 = self.FBF9CB6148B611FC0
       L5_2 = A1_2
       L3_2 = L3_2(L4_2, L5_2)
       L2_2 = L3_2
     else
-      L3_2 = A0_2[14]
+      L3_2 = self[14]
       if 1 == L3_2 then
-        L4_2 = A0_2
-        L3_2 = A0_2.F4FB6C250D9C07CA3
+        L4_2 = self
+        L3_2 = self.F4FB6C250D9C07CA3
         L5_2 = A1_2
         L6_2 = 0
         L3_2 = L3_2(L4_2, L5_2, L6_2)
         L2_2 = L3_2
       else
-        L3_2 = A0_2[14]
+        L3_2 = self[14]
         if 2 == L3_2 then
-          L4_2 = A0_2
-          L3_2 = A0_2.F4FB6C250D9C07CA3
+          L4_2 = self
+          L3_2 = self.F4FB6C250D9C07CA3
           L5_2 = A1_2
           L6_2 = 1
           L3_2 = L3_2(L4_2, L5_2, L6_2)
@@ -126,8 +122,8 @@ function L70_1(A0_2, A1_2)
         end
       end
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.FFA8802D4CFD512DE
+    L4_2 = self
+    L3_2 = self.FFA8802D4CFD512DE
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
@@ -136,17 +132,14 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE5E0C4441759F7E7"]["prototype"]
-L69_1 = "FFA8802D4CFD512DE"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.state_machine.rental_team.BattleSpotStateRentalTeam.changeState
+function CE5E0C4441759F7E7_prototype:FFA8802D4CFD512DE(A1_2)
   local L2_2, L3_2, L4_2
   if -1 == A1_2 then
     L2_2 = CE3500B9833F1BB79
     L2_2 = L2_2.S768600CE8B68B7F8
     L2_2()
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L2_2
     L2_2 = L2_2.F28EAF3B3AA178E3E
     L4_2 = C6A7B159FE39E555C
@@ -159,35 +152,32 @@ function L70_1(A0_2, A1_2)
     L2_2 = true
     return L2_2
   elseif 0 == A1_2 then
-    A0_2[14] = 0
+    self[14] = 0
   elseif 1 == A1_2 then
-    A0_2[14] = 1
+    self[14] = 1
   elseif 2 == A1_2 then
-    A0_2[14] = 2
+    self[14] = 2
   end
   L2_2 = false
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE5E0C4441759F7E7"]["prototype"]
-L69_1 = "FBF9CB6148B611FC0"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.state_machine.rental_team.BattleSpotStateRentalTeam.OnUpdateTop
+function CE5E0C4441759F7E7_prototype:FBF9CB6148B611FC0(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FD8ABEE5C76044721
+  L3_2 = self
+  L2_2 = self.FD8ABEE5C76044721
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.F8E6976B9790C6FCC
   L4_2 = 17
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.F17A9FA2A5F3F280C
   L2_2(L3_2)
   while true do
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     L3_2 = L2_2
     L2_2 = L2_2.F02C094ED00192342
     L2_2 = L2_2(L3_2)
@@ -211,11 +201,11 @@ function L70_1(A0_2, A1_2)
     L3_2 = nil
     L2_2(L3_2)
   end
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.F572B09EC412C0B3B
   L2_2(L3_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.F7EED485852A4D25F
   L2_2(L3_2)
@@ -225,12 +215,12 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.S760DAE4C5371A78E
     L4_2 = nil
     L3_2(L4_2)
-    L3_2 = A0_2[11]
+    L3_2 = self[11]
     L4_2 = L3_2
     L3_2 = L3_2.FEB6685558281F194
     L5_2 = A1_2
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[11]
+    L3_2 = self[11]
     L4_2 = L3_2
     L3_2 = L3_2.FBB34C1C4A8FCD2CE
     L3_2 = L3_2(L4_2)
@@ -242,27 +232,24 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE5E0C4441759F7E7"]["prototype"]
-L69_1 = "F4FB6C250D9C07CA3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.btlspot.state_machine.rental_team.BattleSpotStateRentalTeam.OnUpdateRental
+function CE5E0C4441759F7E7_prototype:F4FB6C250D9C07CA3(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FD8ABEE5C76044721
+  L4_2 = self
+  L3_2 = self.FD8ABEE5C76044721
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.F8E6976B9790C6FCC
   L5_2 = 9
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[12]
+  L3_2 = self[12]
   L4_2 = L3_2
   L3_2 = L3_2.F96EA28F400597FA0
   L5_2 = E1731A5EFC21F1B20
   L5_2 = L5_2.Blank
   L3_2(L4_2, L5_2)
   while true do
-    L3_2 = A0_2[12]
+    L3_2 = self[12]
     L4_2 = L3_2
     L3_2 = L3_2.F02C094ED00192342
     L3_2 = L3_2(L4_2)
@@ -274,17 +261,14 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = nil
     L3_2(L4_2)
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FD73D11F19F28CF0D
+  L4_2 = self
+  L3_2 = self.FD73D11F19F28CF0D
   L5_2 = A2_2
   return L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE5E0C4441759F7E7"]["prototype"]
-L69_1 = "FD73D11F19F28CF0D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.state_machine.rental_team.BattleSpotStateRentalTeam.Flow_RentalTeam
+function CE5E0C4441759F7E7_prototype:FD73D11F19F28CF0D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c3876BF41
   L2_2 = L2_2.fFD1C08F3

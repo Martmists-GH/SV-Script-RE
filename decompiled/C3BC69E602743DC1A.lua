@@ -1,3 +1,7 @@
+---@alias C3BC69E602743DC1A main_nushi_jimen_JimenNushiRockClashEvent
+
+---@class main_nushi_jimen_JimenNushiRockClashEvent : C3BC69E602743DC1A_prototype
+---@field prototype C3BC69E602743DC1A_prototype
 L55_1 = _ENV
 L56_1 = "C3BC69E602743DC1A"
 L57_1 = L15_1
@@ -45,19 +49,14 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C3BC69E602743DC1A"]
 L69_1 = "__name__"
 L70_1 = "C3BC69E602743DC1A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3BC69E602743DC1A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3BC69E602743DC1A"]["prototype"]
-L69_1 = "F795CBC2B12F8956D"
-
-function L70_1(A0_2)
+---@class C3BC69E602743DC1A_prototype
+C3BC69E602743DC1A_prototype = L15_1()
+C3BC69E602743DC1A.prototype = C3BC69E602743DC1A_prototype
+--- main.nushi.jimen.JimenNushiRockClashEvent.OnSetup
+function C3BC69E602743DC1A_prototype:F795CBC2B12F8956D()
   local L1_2
   L1_2 = C3BC69E602743DC1A
-  L1_2.S7D1E199BBD384D72 = A0_2
+  L1_2.S7D1E199BBD384D72 = self
 end
 
 L68_1[L69_1] = L70_1

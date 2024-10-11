@@ -1,3 +1,5 @@
+---@class C59376AC345E4826D : C59376AC345E4826D_prototype
+---@field prototype C59376AC345E4826D_prototype
 L55_1 = _ENV
 L56_1 = "C59376AC345E4826D"
 L57_1 = L15_1
@@ -49,16 +51,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C59376AC345E4826D"]
 L69_1 = "__name__"
 L70_1 = "C59376AC345E4826D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59376AC345E4826D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59376AC345E4826D"]["prototype"]
-L69_1 = "F64EE637B4C25FC34"
-
-function L70_1(A0_2, A1_2)
+---@class C59376AC345E4826D_prototype
+C59376AC345E4826D_prototype = L15_1()
+C59376AC345E4826D.prototype = C59376AC345E4826D_prototype
+--- C59376AC345E4826D.LoadFiles
+function C59376AC345E4826D_prototype:F64EE637B4C25FC34(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = nil
   L3_2 = c919391D3
@@ -90,7 +87,7 @@ function L70_1(A0_2, A1_2)
     L10_2 = "FileName"
     L8_2, L9_2, L10_2, L11_2, L12_2 = L8_2(L9_2, L10_2)
     L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2)
-    L8_2 = A0_2[2]
+    L8_2 = self[2]
     L10_2 = L6_2
     L9_2 = L6_2.f55728F9C
     L9_2 = L9_2(L10_2)
@@ -106,11 +103,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59376AC345E4826D"]["prototype"]
-L69_1 = "F9F8C730771EF863B"
-
-function L70_1(A0_2, A1_2)
+--- C59376AC345E4826D.LoadUniques
+function C59376AC345E4826D_prototype:F9F8C730771EF863B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = nil
   L3_2 = c919391D3
@@ -149,7 +143,7 @@ function L70_1(A0_2, A1_2)
     L9_2 = L8_2
     L8_2 = L8_2.f55728F9C
     L8_2 = L8_2(L9_2)
-    L9_2 = A0_2[4]
+    L9_2 = self[4]
     L10_2 = L9_2
     L9_2 = L9_2.push
     L11_2 = L16_1
@@ -167,11 +161,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59376AC345E4826D"]["prototype"]
-L69_1 = "F1FA5CEA41871586E"
-
-function L70_1(A0_2, A1_2)
+--- C59376AC345E4826D.LoadClusters
+function C59376AC345E4826D_prototype:F1FA5CEA41871586E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L2_2 = nil
   L3_2 = c919391D3
@@ -219,8 +210,8 @@ function L70_1(A0_2, A1_2)
       L13_2 = L10_2
       L11_2 = L11_2(L12_2, L13_2)
       if L11_2 then
-        L12_2 = A0_2
-        L11_2 = A0_2.FC68A34FB33D0E3E3
+        L12_2 = self
+        L11_2 = self.FC68A34FB33D0E3E3
         L14_2 = L5_2
         L13_2 = L5_2.fF2819595
         L15_2 = L10_2
@@ -232,17 +223,17 @@ function L70_1(A0_2, A1_2)
           L14_2 = L11_2.first
           L15_2 = L11_2.second
           L12_2(L13_2, L14_2, L15_2)
-          L12_2 = A0_2[3]
+          L12_2 = self[3]
           L12_2 = L12_2.h
           L13_2 = L11_2.first
           L12_2 = L12_2[L13_2]
           if nil == L12_2 then
-            L12_2 = A0_2[3]
+            L12_2 = self[3]
             L12_2 = L12_2.h
             L13_2 = L11_2.first
             L12_2[L13_2] = 0
           end
-          L12_2 = A0_2[3]
+          L12_2 = self[3]
           L12_2 = L12_2.h
           L13_2 = L11_2.first
           L12_2 = L12_2[L13_2]
@@ -254,7 +245,7 @@ function L70_1(A0_2, A1_2)
           L14_2 = L13_2
           L14_2 = L13_2 + 1
           L15_2 = L11_2.first
-          L16_2 = A0_2[3]
+          L16_2 = self[3]
           if nil == L14_2 then
             L17_2 = L16_2.h
             L18_2 = L47_1.tnull
@@ -266,7 +257,7 @@ function L70_1(A0_2, A1_2)
         end
       end
     end
-    L10_2 = A0_2[1]
+    L10_2 = self[1]
     L12_2 = L6_2
     L11_2 = L6_2.f55728F9C
     L11_2 = L11_2(L12_2)
@@ -282,19 +273,16 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59376AC345E4826D"]["prototype"]
-L69_1 = "FCA4F22947FB5FF34"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C59376AC345E4826D.EnumerateEffect
+function C59376AC345E4826D_prototype:FCA4F22947FB5FF34(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   if nil == L3_2 then
     return
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   L4_2 = L42_1.tnull
@@ -308,11 +296,11 @@ function L70_1(A0_2, A1_2, A2_2)
     L6_2 = L4_2.item
     L4_2 = L4_2.next
     L7_2 = L6_2.fileId
-    L8_2 = A0_2[2]
+    L8_2 = self[2]
     L8_2 = L8_2.h
     L8_2 = L8_2[L7_2]
     if nil ~= L8_2 then
-      L8_2 = A0_2[2]
+      L8_2 = self[2]
       L8_2 = L8_2.h
       L8_2 = L8_2[L7_2]
       L9_2 = L42_1.tnull
@@ -331,18 +319,15 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59376AC345E4826D"]["prototype"]
-L69_1 = "FD58BBAC3584D147B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C59376AC345E4826D.EnumerateUniqueEffect
+function C59376AC345E4826D_prototype:FD58BBAC3584D147B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = L7_1
   L4_2 = 1
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = 0
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L6_2 = false
   while true do
     L7_2 = L5_2.length
@@ -356,12 +341,12 @@ function L70_1(A0_2, A1_2, A2_2)
     L10_2 = L3_2
     L8_2 = L8_2(L9_2, L10_2)
     if 0 ~= L8_2 then
-      L8_2 = A0_2[2]
+      L8_2 = self[2]
       L8_2 = L8_2.h
       L9_2 = L7_2.FileKey
       L8_2 = L8_2[L9_2]
       if nil ~= L8_2 then
-        L8_2 = A0_2[2]
+        L8_2 = self[2]
         L8_2 = L8_2.h
         L9_2 = L7_2.FileKey
         L8_2 = L8_2[L9_2]
@@ -382,18 +367,15 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59376AC345E4826D"]["prototype"]
-L69_1 = "F1477C622EE744CB4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C59376AC345E4826D.FindUniqueEffect
+function C59376AC345E4826D_prototype:F1477C622EE744CB4(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = L7_1
   L4_2 = 1
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = 0
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   while true do
     L6_2 = L5_2.length
     if not (L4_2 < L6_2) then
@@ -408,7 +390,7 @@ function L70_1(A0_2, A1_2, A2_2)
     if 0 ~= L7_2 then
       L7_2 = L6_2.EffectName
       if L7_2 == A2_2 then
-        L7_2 = A0_2[2]
+        L7_2 = self[2]
         L7_2 = L7_2.h
         L8_2 = L6_2.FileKey
         L7_2 = L7_2[L8_2]
@@ -424,13 +406,10 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59376AC345E4826D"]["prototype"]
-L69_1 = "F40EE09A046ED9B66"
-
-function L70_1(A0_2, A1_2)
+--- C59376AC345E4826D.EnumerateSlots
+function C59376AC345E4826D_prototype:F40EE09A046ED9B66(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.keys
   L2_2 = L2_2(L3_2)
@@ -449,20 +428,17 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59376AC345E4826D"]["prototype"]
-L69_1 = "FE5549C39B13A3807"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C59376AC345E4826D.FindEffect
+function C59376AC345E4826D_prototype:FE5549C39B13A3807(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   if nil == L3_2 then
     L3_2 = nil
     return L3_2
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   L4_2 = L42_1.tnull
@@ -484,7 +460,7 @@ function L70_1(A0_2, A1_2, A2_2)
   if L5_2 == L6_2 then
     L5_2 = nil
   end
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L6_2 = L6_2.h
   L6_2 = L6_2[L5_2]
   L7_2 = L42_1.tnull
@@ -494,11 +470,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59376AC345E4826D"]["prototype"]
-L69_1 = "FC68A34FB33D0E3E3"
-
-function L70_1(A0_2, A1_2)
+--- C59376AC345E4826D.ExtractPair_
+function C59376AC345E4826D_prototype:FC68A34FB33D0E3E3(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = nil
   L3_2 = c919391D3

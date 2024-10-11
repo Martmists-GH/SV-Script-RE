@@ -1,3 +1,7 @@
+---@alias C4BD68F67BC84BBEE main_pokepicnic_database_FoodPowerComboDatabase
+
+---@class main_pokepicnic_database_FoodPowerComboDatabase : C4BD68F67BC84BBEE_prototype
+---@field prototype C4BD68F67BC84BBEE_prototype
 L55_1 = _ENV
 L56_1 = "C4BD68F67BC84BBEE"
 L57_1 = L15_1
@@ -43,25 +47,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4BD68F67BC84BBEE"]
 L69_1 = "__name__"
 L70_1 = "C4BD68F67BC84BBEE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4BD68F67BC84BBEE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4BD68F67BC84BBEE"]["prototype"]
-L69_1 = "F795CBC2B12F8956D"
-
-function L70_1(A0_2)
+---@class C4BD68F67BC84BBEE_prototype
+C4BD68F67BC84BBEE_prototype = L15_1()
+C4BD68F67BC84BBEE.prototype = C4BD68F67BC84BBEE_prototype
+--- main.pokepicnic.database.FoodPowerComboDatabase.OnSetup
+function C4BD68F67BC84BBEE_prototype:F795CBC2B12F8956D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = 0
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.fE6B52E00
   L2_2 = L2_2(L3_2)
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f51241DA2
     L5_2 = L1_2 - 1
@@ -69,7 +68,7 @@ function L70_1(A0_2)
     L4_2 = C0D6823A913680978
     L4_2 = L4_2.new
     L4_2 = L4_2()
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.push
     L7_2 = L16_1

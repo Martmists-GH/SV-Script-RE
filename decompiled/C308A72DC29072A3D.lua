@@ -1,3 +1,7 @@
+---@alias C308A72DC29072A3D main_battle_ui_BattleUiSound
+
+---@class main_battle_ui_BattleUiSound : C308A72DC29072A3D_prototype
+---@field prototype C308A72DC29072A3D_prototype
 L55_1 = _ENV
 L56_1 = "C308A72DC29072A3D"
 L57_1 = L15_1
@@ -53,43 +57,35 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C308A72DC29072A3D"]
 L69_1 = "__name__"
 L70_1 = "C308A72DC29072A3D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C308A72DC29072A3D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C308A72DC29072A3D"]["prototype"]
-L69_1 = "FEF3391423AECF3DB"
-
-function L70_1(A0_2, A1_2)
+---@class C308A72DC29072A3D_prototype
+C308A72DC29072A3D_prototype = L15_1()
+C308A72DC29072A3D.prototype = C308A72DC29072A3D_prototype
+--- main.battle.ui.BattleUiSound.SetRaid
+function C308A72DC29072A3D_prototype:FEF3391423AECF3DB(A1_2)
   local L2_2, L3_2, L4_2
-  A0_2[3] = A1_2
-  L2_2 = A0_2[3]
+  self[3] = A1_2
+  L2_2 = self[3]
   if nil ~= L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F34D7200F169A6CAC
+    L3_2 = self
+    L2_2 = self.F34D7200F169A6CAC
     L4_2 = 2
     L2_2(L3_2, L4_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.F34D7200F169A6CAC
+    L3_2 = self
+    L2_2 = self.F34D7200F169A6CAC
     L4_2 = 4
     L2_2(L3_2, L4_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.F34D7200F169A6CAC
+    L3_2 = self
+    L2_2 = self.F34D7200F169A6CAC
     L4_2 = 6
     L2_2(L3_2, L4_2)
-    A0_2[9] = true
+    self[9] = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C308A72DC29072A3D"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiSound.PreUpdate
+function C308A72DC29072A3D_prototype:FE94F3E13286232CF()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   if not L1_2 then
     L1_2 = cB66A3C78
     L1_2 = L1_2.fAFC12FF1
@@ -100,75 +96,69 @@ function L70_1(A0_2)
     L3_2 = L3_2.S2C19551779991306
     L1_2 = L1_2(L2_2, L3_2)
     if L1_2 then
-      A0_2[7] = true
+      self[7] = true
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C308A72DC29072A3D"]["prototype"]
-L69_1 = "F20A40E2F8B95D5F6"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiSound.PostUpdate
+function C308A72DC29072A3D_prototype:F20A40E2F8B95D5F6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   if not L1_2 then
     return
   end
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   if L1_2 then
-    L1_2 = A0_2[6]
+    L1_2 = self[6]
     if 0 ~= L1_2 then
       L1_2 = cB66A3C78
       L1_2 = L1_2.fAFC12FF1
       L1_2 = L1_2()
       L2_2 = L1_2
       L1_2 = L1_2.f7674027D
-      L3_2 = A0_2[6]
+      L3_2 = self[6]
       L1_2 = L1_2(L2_2, L3_2)
       if not L1_2 then
-        A0_2[5] = false
-        A0_2[6] = 0
+        self[5] = false
+        self[6] = 0
     end
   end
   else
     L1_2 = 0
-    L3_2 = A0_2
-    L2_2 = A0_2.F752B03D4ACFD65E1
+    L3_2 = self
+    L2_2 = self.F752B03D4ACFD65E1
     L4_2 = L1_2
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.FE2C5FB85368AAC6F
     L7_2 = L1_2
     L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
     L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F752B03D4ACFD65E1
+      L3_2 = self
+      L2_2 = self.F752B03D4ACFD65E1
       L4_2 = 2
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L6_2 = L5_2
       L5_2 = L5_2.FE2C5FB85368AAC6F
       L7_2 = 2
       L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
       L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
     else
-      L2_2 = A0_2[9]
+      L2_2 = self[9]
       if L2_2 then
-        L3_2 = A0_2
-        L2_2 = A0_2.FAEE3DC0237BD78F9
+        L3_2 = self
+        L2_2 = self.FAEE3DC0237BD78F9
         L2_2(L3_2)
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C308A72DC29072A3D"]["prototype"]
-L69_1 = "F34D7200F169A6CAC"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiSound.initSeParam
+function C308A72DC29072A3D_prototype:F34D7200F169A6CAC(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L16_1
   L3_2 = {}
@@ -187,7 +177,7 @@ function L70_1(A0_2, A1_2)
   L3_2.pokeID = 0
   L3_2.isDispGauge = false
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = A1_2
   if nil == L2_2 then
     L5_2 = L3_2.h
@@ -199,13 +189,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C308A72DC29072A3D"]["prototype"]
-L69_1 = "FF2EAFDE351893FBC"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiSound.FF2EAFDE351893FBC
+function C308A72DC29072A3D_prototype:FF2EAFDE351893FBC(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L42_1.tnull
@@ -221,13 +208,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C308A72DC29072A3D"]["prototype"]
-L69_1 = "FC425F5079DA88BC0"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.ui.BattleUiSound.DispGauge
+function C308A72DC29072A3D_prototype:FC425F5079DA88BC0(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   L4_2 = L42_1.tnull
@@ -241,7 +225,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L4_2.isDispGauge = A2_2
       L5_2 = L4_2.isDispGauge
       if L5_2 then
-        L5_2 = A0_2[1]
+        L5_2 = self[1]
         L6_2 = L5_2
         L5_2 = L5_2.F67AA8D66977C3584
         L7_2 = A1_2
@@ -283,13 +267,10 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C308A72DC29072A3D"]["prototype"]
-L69_1 = "F752B03D4ACFD65E1"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.ui.BattleUiSound.PlayPinchSE
+function C308A72DC29072A3D_prototype:F752B03D4ACFD65E1(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   L4_2 = L42_1.tnull
@@ -320,7 +301,7 @@ function L70_1(A0_2, A1_2, A2_2)
   if L5_2 then
     L5_2 = L4_2.animeEndHp
     if L5_2 > 0 then
-      L5_2 = A0_2[5]
+      L5_2 = self[5]
       if not L5_2 then
         L5_2 = L4_2.isPlayedPinchSE
         if not L5_2 then
@@ -330,19 +311,16 @@ function L70_1(A0_2, A1_2, A2_2)
           L6_2 = C308A72DC29072A3D
           L6_2 = L6_2.S53B8C26400B17907
           L5_2 = L5_2(L6_2)
-          A0_2[6] = L5_2
-          A0_2[5] = true
+          self[6] = L5_2
+          self[5] = true
         end
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C308A72DC29072A3D"]["prototype"]
-L69_1 = "FAEE3DC0237BD78F9"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiSound.PlayRaidPinchSE
+function C308A72DC29072A3D_prototype:FAEE3DC0237BD78F9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -362,13 +340,13 @@ function L70_1(A0_2)
     end
     L3_2 = L1_2[L2_2]
     L2_2 = L2_2 + 1
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.FBB08150DFE11AC30
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
-    L6_2 = A0_2
-    L5_2 = A0_2.F752B03D4ACFD65E1
+    L6_2 = self
+    L5_2 = self.F752B03D4ACFD65E1
     L7_2 = L3_2
     L8_2 = L16_1
     L9_2 = {}

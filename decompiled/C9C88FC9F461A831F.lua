@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C9C88FC9F461A831F"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C9C88FC9F461A831F"]
-L69_1 = "new"
+---@alias C9C88FC9F461A831F main_nushi_hagane_HaganeNushiPath
 
-function L70_1(A0_2)
+---@class main_nushi_hagane_HaganeNushiPath : C9C88FC9F461A831F_prototype
+---@field prototype C9C88FC9F461A831F_prototype
+C9C88FC9F461A831F = L15_1()
+function C9C88FC9F461A831F.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C9C88FC9F461A831F
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C88FC9F461A831F"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C9C88FC9F461A831F
+function C9C88FC9F461A831F.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   A0_2[15] = false
   A0_2[14] = false
@@ -54,11 +48,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9C88FC9F461A831F"]
 L69_1 = "__name__"
 L70_1 = "C9C88FC9F461A831F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C88FC9F461A831F"]
-L69_1 = "SE3C74A9711D97D58"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.nushi.hagane.HaganeNushiPath.OnContactTriggerFunction
+function C9C88FC9F461A831F.SE3C74A9711D97D58(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L7_2 = A0_2
   L6_2 = A0_2.fB3CF1DEB
@@ -127,20 +118,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   ::lbl_58::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C88FC9F461A831F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C88FC9F461A831F"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2, A1_2)
+---@class C9C88FC9F461A831F_prototype
+C9C88FC9F461A831F_prototype = L15_1()
+C9C88FC9F461A831F.prototype = C9C88FC9F461A831F_prototype
+--- main.nushi.hagane.HaganeNushiPath.Init
+function C9C88FC9F461A831F_prototype:F90BBC6B0190BF053(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = cACBFA004
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f317EB6F9
@@ -150,7 +136,7 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = c7C4EA23C
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = 0
   L5_2 = L2_2
@@ -174,7 +160,7 @@ function L70_1(A0_2, A1_2)
       L6_2 = L5_2
       L5_2 = L5_2.f033BDCFE
       L5_2 = L5_2(L6_2)
-      A0_2[11] = L5_2
+      self[11] = L5_2
     end
     L6_2 = L2_2
     L5_2 = L2_2.fD717306E
@@ -188,59 +174,50 @@ function L70_1(A0_2, A1_2)
       L6_2 = L5_2
       L5_2 = L5_2.f033BDCFE
       L5_2 = L5_2(L6_2)
-      A0_2[12] = L5_2
+      self[12] = L5_2
     end
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.FF007675641C7FCA1
+  L6_2 = self
+  L5_2 = self.FF007675641C7FCA1
   L7_2 = false
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C88FC9F461A831F"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.hagane.HaganeNushiPath.Update
+function C9C88FC9F461A831F_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F8DDCDC246D527F8C
+  L3_2 = self
+  L2_2 = self.F8DDCDC246D527F8C
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C88FC9F461A831F"]["prototype"]
-L69_1 = "F326A97E929444F56"
-
-function L70_1(A0_2)
+--- main.nushi.hagane.HaganeNushiPath.DebugGizmo
+function C9C88FC9F461A831F_prototype:F326A97E929444F56()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C39EBE5E8F2288487
   L1_2 = L1_2.SE7A7F213F949A6D0
   if L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.f750133BA
     L1_2, L2_2, L3_2 = L1_2(L2_2)
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.f750133BA
     L4_2, L5_2, L6_2 = L4_2(L5_2)
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L8_2 = L7_2
     L7_2 = L7_2.f750133BA
     L7_2, L8_2, L9_2 = L7_2(L8_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C88FC9F461A831F"]["prototype"]
-L69_1 = "F8DDCDC246D527F8C"
-
-function L70_1(A0_2)
+--- main.nushi.hagane.HaganeNushiPath.AreaCheck
+function C9C88FC9F461A831F_prototype:F8DDCDC246D527F8C()
   local L1_2, L2_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   if L1_2 then
-    L1_2 = A0_2[15]
+    L1_2 = self[15]
     if L1_2 then
       L1_2 = C749327AA72D48137
       L1_2 = L1_2.S7D1E199BBD384D72
@@ -248,7 +225,7 @@ function L70_1(A0_2)
       L1_2 = L1_2.F436C5C9218C92B3D
       L1_2(L2_2)
     end
-    L1_2 = A0_2[14]
+    L1_2 = self[14]
     if L1_2 then
       L1_2 = C749327AA72D48137
       L1_2 = L1_2.S7D1E199BBD384D72
@@ -259,11 +236,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C88FC9F461A831F"]["prototype"]
-L69_1 = "F68C6D9871272F030"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.hagane.HaganeNushiPath.F68C6D9871272F030
+function C9C88FC9F461A831F_prototype:F68C6D9871272F030(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C39EBE5E8F2288487
   L2_2 = L2_2.SBC101C3F139B10E5
@@ -292,50 +266,44 @@ function L70_1(A0_2, A1_2)
   L7_2[1] = L8_2
   L7_2[2] = L9_2
   L7_2[3] = L10_2
-  A0_2[13] = L7_2
+  self[13] = L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C88FC9F461A831F"]["prototype"]
-L69_1 = "FFFA7E799A6F308BD"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.nushi.hagane.HaganeNushiPath.CollisionEventTriggerBehavior
+function C9C88FC9F461A831F_prototype:FFFA7E799A6F308BD(A1_2, A2_2)
   local L3_2
   if A1_2 then
     L3_2 = C9C88FC9F461A831F
     L3_2 = L3_2.S66F8A3ABB5C4DB7C
     if A2_2 == L3_2 then
-      A0_2[14] = true
+      self[14] = true
     else
       L3_2 = C9C88FC9F461A831F
       L3_2 = L3_2.S51CD91126E07EA5A
       if A2_2 == L3_2 then
-        A0_2[15] = true
+        self[15] = true
       end
     end
   else
     L3_2 = C9C88FC9F461A831F
     L3_2 = L3_2.S66F8A3ABB5C4DB7C
     if A2_2 == L3_2 then
-      A0_2[14] = false
+      self[14] = false
     else
       L3_2 = C9C88FC9F461A831F
       L3_2 = L3_2.S51CD91126E07EA5A
       if A2_2 == L3_2 then
-        A0_2[15] = false
+        self[15] = false
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C88FC9F461A831F"]["prototype"]
-L69_1 = "FBD85BEF51374A611"
-
-function L70_1(A0_2)
+--- main.nushi.hagane.HaganeNushiPath.ResetParam
+function C9C88FC9F461A831F_prototype:FBD85BEF51374A611()
   local L1_2
-  A0_2[14] = false
-  A0_2[15] = false
+  self[14] = false
+  self[15] = false
 end
 
 L68_1[L69_1] = L70_1

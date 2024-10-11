@@ -1,3 +1,7 @@
+---@alias C7C74005F4EB205E6 main_event_general_debug_DebugChangePartner
+
+---@class main_event_general_debug_DebugChangePartner : C7C74005F4EB205E6_prototype
+---@field prototype C7C74005F4EB205E6_prototype
 L55_1 = _ENV
 L56_1 = "C7C74005F4EB205E6"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C7C74005F4EB205E6"]
 L69_1 = "__name__"
 L70_1 = "C7C74005F4EB205E6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C74005F4EB205E6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C74005F4EB205E6"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C7C74005F4EB205E6_prototype
+C7C74005F4EB205E6_prototype = L15_1()
+C7C74005F4EB205E6.prototype = C7C74005F4EB205E6_prototype
+--- main.event.general.debug.DebugChangePartner.mainBody
+function C7C74005F4EB205E6_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = c2FB59E8B
   L1_2 = L1_2.fB900AE56

@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C40E0CACE7C87764C"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "__name__"
-L70_1 = "C40E0CACE7C87764C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "SE01E3BCB5EBCB170"
+---@alias C40E0CACE7C87764C main_battle_BattleTimelineCondition
 
-function L70_1(A0_2, A1_2, A2_2)
+---@class main_battle_BattleTimelineCondition
+C40E0CACE7C87764C = L15_1()
+C40E0CACE7C87764C.new = {}
+C40E0CACE7C87764C.__name__ = "C40E0CACE7C87764C"
+--- main.battle.BattleTimelineCondition.SetupRule
+function C40E0CACE7C87764C.SE01E3BCB5EBCB170(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = A0_2
   L3_2 = A0_2.F99C026E10A2BA109
@@ -205,11 +196,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "SD88893F557C7BBE9"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.BattleTimelineCondition.SetupSubObj
+function C40E0CACE7C87764C.SD88893F557C7BBE9(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2
   L3_2 = A1_2[17]
   if L3_2 then
@@ -1153,11 +1141,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "SD7E727CB4E586376"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.battle.BattleTimelineCondition.SD7E727CB4E586376
+function C40E0CACE7C87764C.SD7E727CB4E586376(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2
   L5_2 = c8A144091
   L5_2 = L5_2.f82588D3B
@@ -2546,11 +2531,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L38_2(L39_2, L40_2, L41_2, L42_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "S60890608C823116D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.battle.BattleTimelineCondition.S60890608C823116D
+function C40E0CACE7C87764C.S60890608C823116D(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2
   L4_2 = L52_1.__cast
   L5_2 = A3_2
@@ -3029,11 +3011,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L24_2(L25_2, L26_2, L27_2, L28_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "SCB079F76C369D52E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.BattleTimelineCondition.SetupTargetPoke
+function C40E0CACE7C87764C.SCB079F76C369D52E(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L3_2 = 1
   L4_2 = nil
@@ -3126,11 +3105,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "S071FB7BDBEC60345"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.battle.BattleTimelineCondition.SetupPokeConditions
+function C40E0CACE7C87764C.S071FB7BDBEC60345(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2
   L5_2 = c8A144091
   L5_2 = L5_2.f82588D3B
@@ -3623,11 +3599,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "SF4BDBFC0459CBEEC"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.battle.BattleTimelineCondition.SetupTrainerReplaceTableArray
+function C40E0CACE7C87764C.SF4BDBFC0459CBEEC(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L4_2 = 1
   L5_2 = c8A144091
@@ -3873,11 +3846,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "S591DE1515F4422FF"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleTimelineCondition.SetupPlayer
+function C40E0CACE7C87764C.S591DE1515F4422FF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = c8A144091
   L2_2 = L2_2.f82588D3B
@@ -3949,11 +3919,8 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "S6331E95EDBCF8E92"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.BattleTimelineCondition.SetupSelfOther
+function C40E0CACE7C87764C.S6331E95EDBCF8E92(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L4_2 = A0_2
   L3_2 = A0_2.F50CD37788F209E62
@@ -4006,11 +3973,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "S6AE85F251D35896C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.BattleTimelineCondition.SetupDropItem
+function C40E0CACE7C87764C.S6AE85F251D35896C(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = c8A144091
   L3_2 = L3_2.f82588D3B
@@ -4042,11 +4006,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "S77F4BF1D4EA5D726"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.BattleTimelineCondition.SetupBallFall
+function C40E0CACE7C87764C.S77F4BF1D4EA5D726(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = c8A144091
   L3_2 = L3_2.f82588D3B
@@ -4071,11 +4032,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "S56F55619D80C80B5"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.BattleTimelineCondition.SetupCamera
+function C40E0CACE7C87764C.S56F55619D80C80B5(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A2_2 then
     A2_2 = false
@@ -4318,11 +4276,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "S0ACD9784F00F4790"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleTimelineCondition.SetupPartner
+function C40E0CACE7C87764C.S0ACD9784F00F4790(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = c8A144091
   L2_2 = L2_2.f82588D3B
@@ -4354,11 +4309,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "S777862CB2343C93A"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleTimelineCondition.SetupRaid
+function C40E0CACE7C87764C.S777862CB2343C93A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = c8A144091
   L2_2 = L2_2.f82588D3B
@@ -4390,11 +4342,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "S2406ACE2A6AD6A23"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleTimelineCondition.S2406ACE2A6AD6A23
+function C40E0CACE7C87764C.S2406ACE2A6AD6A23(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = c8A144091
   L2_2 = L2_2.f82588D3B
@@ -4473,11 +4422,8 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "S0734BD1ACD5FC9FA"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleTimelineCondition.SetupPackageVersion
+function C40E0CACE7C87764C.S0734BD1ACD5FC9FA(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = c8A144091
   L2_2 = L2_2.f82588D3B
@@ -4505,11 +4451,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "SF1BD24A467E6C517"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleTimelineCondition.SetupSpecialBattle
+function C40E0CACE7C87764C.SF1BD24A467E6C517(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = c8A144091
   L2_2 = L2_2.f82588D3B
@@ -4610,11 +4553,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "SB170DBB99932F581"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.BattleTimelineCondition.SB170DBB99932F581
+function C40E0CACE7C87764C.SB170DBB99932F581(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = c8A144091
   L3_2 = L3_2.f82588D3B
@@ -4625,11 +4565,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "SE0FC915328EC2E28"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.battle.BattleTimelineCondition.SE0FC915328EC2E28
+function C40E0CACE7C87764C.SE0FC915328EC2E28(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   L4_2 = c8A144091
   L4_2 = L4_2.f82588D3B
@@ -4654,11 +4591,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40E0CACE7C87764C"]
-L69_1 = "S95FBDE4BEC81A01B"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.battle.BattleTimelineCondition.S95FBDE4BEC81A01B
+function C40E0CACE7C87764C.S95FBDE4BEC81A01B(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2
   L7_2 = c8A144091
   L7_2 = L7_2.f82588D3B

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C27C9E610DFC579C6"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C27C9E610DFC579C6"]
-L69_1 = "new"
+---@alias C27C9E610DFC579C6 main_ui_hand_cursor_HandCursorView
 
-function L70_1(A0_2)
+---@class main_ui_hand_cursor_HandCursorView : C27C9E610DFC579C6_prototype
+---@field prototype C27C9E610DFC579C6_prototype
+C27C9E610DFC579C6 = L15_1()
+function C27C9E610DFC579C6.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C27C9E610DFC579C6
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C27C9E610DFC579C6
+function C27C9E610DFC579C6.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   A0_2[6] = nil
   A0_2[5] = 0
@@ -88,11 +82,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C27C9E610DFC579C6"]
 L69_1 = "__name__"
 L70_1 = "C27C9E610DFC579C6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]
-L69_1 = "S3996449333168C14"
-
-function L70_1()
+--- main.ui.hand_cursor.HandCursorView.get_Handler
+function C27C9E610DFC579C6.S3996449333168C14()
   local L0_2, L1_2, L2_2
   L0_2 = L16_1
   L1_2 = {}
@@ -106,11 +97,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]
-L69_1 = "S285D8BA686C10434"
-
-function L70_1()
+--- main.ui.hand_cursor.HandCursorView.LoadView
+function C27C9E610DFC579C6.S285D8BA686C10434()
   local L0_2, L1_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -122,11 +110,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]
-L69_1 = "S265C16666949797B"
-
-function L70_1()
+--- main.ui.hand_cursor.HandCursorView.UnLoadView
+function C27C9E610DFC579C6.S265C16666949797B()
   local L0_2, L1_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -138,11 +123,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]
-L69_1 = "S4991204CB3AE67C7"
-
-function L70_1()
+--- main.ui.hand_cursor.HandCursorView.IsLoading
+function C27C9E610DFC579C6.S4991204CB3AE67C7()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -191,11 +173,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]
-L69_1 = "S0B3F69C4549A0284"
-
-function L70_1()
+--- main.ui.hand_cursor.HandCursorView.GetInstance
+function C27C9E610DFC579C6.S0B3F69C4549A0284()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -258,35 +237,27 @@ function L70_1()
   return L7_2(L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]["prototype"]
-L69_1 = "F32F3ED6FAC4BDC3F"
-
-function L70_1(A0_2, A1_2)
+---@class C27C9E610DFC579C6_prototype
+C27C9E610DFC579C6_prototype = L15_1()
+C27C9E610DFC579C6.prototype = C27C9E610DFC579C6_prototype
+--- main.ui.hand_cursor.HandCursorView.IsActive
+function C27C9E610DFC579C6_prototype:F32F3ED6FAC4BDC3F(A1_2)
   local L2_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[A1_2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]["prototype"]
-L69_1 = "F17234BCA67C447AD"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.hand_cursor.HandCursorView.SetActive
+function C27C9E610DFC579C6_prototype:F17234BCA67C447AD(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L3_2[A1_2] = A2_2
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = L31_1.string
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L5_2 = L5_2(L6_2)
   L6_2 = L31_1.string
   L7_2 = A1_2
@@ -296,56 +267,47 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]["prototype"]
-L69_1 = "FA3DBF3621223E0C9"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.hand_cursor.HandCursorView.GetCursorPos
+function C27C9E610DFC579C6_prototype:FA3DBF3621223E0C9(A1_2)
   local L2_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2[A1_2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]["prototype"]
-L69_1 = "F0170EA75A6880AF5"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.hand_cursor.HandCursorView.SetCursorPos
+function C27C9E610DFC579C6_prototype:F0170EA75A6880AF5(A1_2, A2_2)
   local L3_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L3_2[A1_2] = A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.hand_cursor.HandCursorView.Setup
+function C27C9E610DFC579C6_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[6] = L2_2
+  self[6] = L2_2
   L2_2 = 0
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[6]
+    L5_2 = self[6]
     L6_2 = L5_2
     L5_2 = L5_2.f3271DED8
     L7_2 = L31_1.string
-    L8_2 = A0_2[2]
+    L8_2 = self[2]
     L7_2 = L7_2(L8_2)
     L8_2 = L31_1.string
     L9_2 = L4_2
     L8_2 = L8_2(L9_2)
     L7_2 = L7_2 .. L8_2
     L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
-    L8_2 = A0_2[4]
+    L8_2 = self[4]
     L9_2 = {}
     L10_2 = L5_2
     L11_2 = L6_2
@@ -355,40 +317,34 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]["prototype"]
-L69_1 = "F6F8357AC41AF6353"
-
-function L70_1(A0_2)
+--- main.ui.hand_cursor.HandCursorView.IsSetupped
+function C27C9E610DFC579C6_prototype:F6F8357AC41AF6353()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cECF00344
   L2_2 = L2_2.fB3E547E8
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L4_2 = L1_2
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.hand_cursor.HandCursorView.PreUpdate
+function C27C9E610DFC579C6_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = 0
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L3_2 = L3_2.length
   L4_2 = false
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L5_2 = L2_2 - 1
-    L7_2 = A0_2
-    L6_2 = A0_2.F32F3ED6FAC4BDC3F
+    L7_2 = self
+    L6_2 = self.F32F3ED6FAC4BDC3F
     L8_2 = L5_2
     L6_2 = L6_2(L7_2, L8_2)
     if L6_2 then
       L6_2 = L31_1.string
-      L7_2 = A0_2[2]
+      L7_2 = self[2]
       L6_2 = L6_2(L7_2)
       L7_2 = L31_1.string
       L8_2 = L5_2
@@ -396,17 +352,17 @@ function L70_1(A0_2, A1_2)
       L6_2 = L6_2 .. L7_2
       L7_2 = L10_1.select
       L8_2 = 3
-      L9_2 = A0_2[6]
+      L9_2 = self[6]
       L10_2 = L9_2
       L9_2 = L9_2.f3271DED8
       L11_2 = L6_2
       L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L9_2(L10_2, L11_2)
       L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-      L9_2 = A0_2
-      L8_2 = A0_2.FA3DBF3621223E0C9
+      L9_2 = self
+      L8_2 = self.FA3DBF3621223E0C9
       L10_2 = L5_2
       L8_2 = L8_2(L9_2, L10_2)
-      L9_2 = A0_2[6]
+      L9_2 = self[6]
       L10_2 = L9_2
       L9_2 = L9_2.f0067ACC1
       L11_2 = L6_2
@@ -422,11 +378,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27C9E610DFC579C6"]["prototype"]
-L69_1 = "FA8C86C83F91037AE"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.hand_cursor.HandCursorView.SwitchMode
+function C27C9E610DFC579C6_prototype:FA8C86C83F91037AE(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = nil
   if 0 == A2_2 then
@@ -446,7 +399,7 @@ function L70_1(A0_2, A1_2, A2_2)
   else
     L4_2 = ""
   end
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = L5_2
   L5_2 = L5_2.fEAD9FB7D
   L7_2 = L4_2

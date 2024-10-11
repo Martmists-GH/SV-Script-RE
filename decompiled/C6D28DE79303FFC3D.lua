@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C6D28DE79303FFC3D"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "__name__"
-L70_1 = "C6D28DE79303FFC3D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "SEC38CB2E4A877425"
+---@alias C6D28DE79303FFC3D main_event_command_EffectCommand
 
-function L70_1(A0_2)
+---@class main_event_command_EffectCommand
+C6D28DE79303FFC3D = L15_1()
+C6D28DE79303FFC3D.new = {}
+C6D28DE79303FFC3D.__name__ = "C6D28DE79303FFC3D"
+--- main.event.command.EffectCommand.EffectWait
+function C6D28DE79303FFC3D.SEC38CB2E4A877425(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = nil
   L2_2 = c016374C1
@@ -74,11 +65,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "S1C1FC89C42FB9120"
-
-function L70_1(A0_2)
+--- main.event.command.EffectCommand.IsEmitEndWaitObjName
+function C6D28DE79303FFC3D.S1C1FC89C42FB9120(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C6D28DE79303FFC3D
   L1_2 = L1_2.SBC9981DEBB25025B
@@ -89,11 +77,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "SBC9981DEBB25025B"
-
-function L70_1(A0_2)
+--- main.event.command.EffectCommand.IsEmitEndWaitObj
+function C6D28DE79303FFC3D.SBC9981DEBB25025B(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   if nil == A0_2 then
     return
@@ -130,11 +115,8 @@ function L70_1(A0_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "S9E2F68490CC8359F"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.EffectCommand.IsEmitEndWaitParticleComponent
+function C6D28DE79303FFC3D.S9E2F68490CC8359F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A1_2 then
     A1_2 = false
@@ -183,11 +165,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "SB15B4478F89506F8"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.EffectCommand.PlayEffectObjName
+function C6D28DE79303FFC3D.SB15B4478F89506F8(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = false
@@ -206,11 +185,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "SEFC2579D7C023553"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.EffectCommand.PlayEffectObj
+function C6D28DE79303FFC3D.SEFC2579D7C023553(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = false
@@ -246,11 +222,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "SC134C56F90E951B8"
-
-function L70_1(A0_2)
+--- main.event.command.EffectCommand.LoadObjectTemplate
+function C6D28DE79303FFC3D.SC134C56F90E951B8(A0_2)
   local L1_2, L2_2
   L1_2 = c451059A3
   L1_2 = L1_2.f5776B6C6
@@ -258,11 +231,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "SDE540FD4582F8101"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.EffectCommand.LoadWaitObjectTemplate
+function C6D28DE79303FFC3D.SDE540FD4582F8101(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = nil
   L4_2 = c451059A3
@@ -323,11 +293,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L8_2(L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "S3CA245D440B8C1CB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.EffectCommand.PlayEffectObjectTemplate
+function C6D28DE79303FFC3D.S3CA245D440B8C1CB(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A3_2 then
     A3_2 = false
@@ -357,11 +324,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "SA5E909275F5FD4F6"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.EffectCommand.KillEffectObjName
+function C6D28DE79303FFC3D.SA5E909275F5FD4F6(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if nil == A1_2 then
     A1_2 = false
@@ -376,11 +340,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "S11957BA8A613A2B5"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.EffectCommand.KillEffectObj
+function C6D28DE79303FFC3D.S11957BA8A613A2B5(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     A1_2 = false
@@ -412,11 +373,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "S51769C7F2C26F088"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.EffectCommand.FadeEffectObjName
+function C6D28DE79303FFC3D.S51769C7F2C26F088(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if nil == A1_2 then
     A1_2 = false
@@ -431,11 +389,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "SD6DD5B0FB69A7423"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.EffectCommand.FadeEffectObj
+function C6D28DE79303FFC3D.SD6DD5B0FB69A7423(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     A1_2 = false
@@ -467,11 +422,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "S34004EC92DF43565"
-
-function L70_1()
+--- main.event.command.EffectCommand.DestroyObjTemplateEffect
+function C6D28DE79303FFC3D.S34004EC92DF43565()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = C6D28DE79303FFC3D
   L0_2 = L0_2.SC1C1D9D43C8E0701
@@ -505,11 +457,8 @@ function L70_1()
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "SADAD93B98F46653A"
-
-function L70_1(A0_2)
+--- main.event.command.EffectCommand.SADAD93B98F46653A
+function C6D28DE79303FFC3D.SADAD93B98F46653A(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -534,11 +483,8 @@ function L70_1(A0_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "S8DE5CA65F29048A1"
-
-function L70_1(A0_2)
+--- main.event.command.EffectCommand.S8DE5CA65F29048A1
+function C6D28DE79303FFC3D.S8DE5CA65F29048A1(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = c016374C1
@@ -575,11 +521,8 @@ function L70_1(A0_2)
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "SD06C21B307DE570F"
-
-function L70_1(A0_2)
+--- main.event.command.EffectCommand.EmitWait
+function C6D28DE79303FFC3D.SD06C21B307DE570F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = cE8D61D7D
@@ -615,11 +558,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "S858CE8C79AE0E171"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.EffectCommand.KillEffectWait
+function C6D28DE79303FFC3D.S858CE8C79AE0E171(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = nil
   L3_2 = cE8D61D7D
@@ -641,11 +581,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "S5443A5408AA27396"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.EffectCommand.FadeEffect
+function C6D28DE79303FFC3D.S5443A5408AA27396(A0_2, A1_2)
   local L2_2, L3_2
   L3_2 = A0_2
   L2_2 = A0_2.f61A204B1
@@ -658,11 +595,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D28DE79303FFC3D"]
-L69_1 = "S13CF70AA164DB166"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.EffectCommand.PlayEffect
+function C6D28DE79303FFC3D.S13CF70AA164DB166(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = false

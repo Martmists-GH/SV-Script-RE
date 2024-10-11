@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CCD22EFED4E9E5F89"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "__name__"
-L70_1 = "CCD22EFED4E9E5F89"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S1469E866897373B4"
+---@alias CCD22EFED4E9E5F89 main_event_command_PlayerCommand
 
-function L70_1()
+---@class main_event_command_PlayerCommand
+CCD22EFED4E9E5F89 = L15_1()
+CCD22EFED4E9E5F89.new = {}
+CCD22EFED4E9E5F89.__name__ = "CCD22EFED4E9E5F89"
+--- main.event.command.PlayerCommand.S1469E866897373B4
+function CCD22EFED4E9E5F89.S1469E866897373B4()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = CCD22EFED4E9E5F89
   L0_2 = L0_2.S4F2C0E8112CBE51D
@@ -96,11 +87,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S4F2C0E8112CBE51D"
-
-function L70_1(A0_2)
+--- main.event.command.PlayerCommand.NeedPlayerStuckCare
+function CCD22EFED4E9E5F89.S4F2C0E8112CBE51D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C4B092ECAC3E586CC
   L1_2 = L1_2.SC8223E31D3163519
@@ -237,11 +225,8 @@ function L70_1(A0_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "SA0F1CCFD6AF5E10E"
-
-function L70_1(A0_2)
+--- main.event.command.PlayerCommand.PlayerStuckCareCore
+function CCD22EFED4E9E5F89.SA0F1CCFD6AF5E10E(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L1_2 = C4B092ECAC3E586CC
   L1_2 = L1_2.SC8223E31D3163519
@@ -470,11 +455,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S3DAFEA6A26FE7D0E"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PlayerCommand.WarpPlayer
+function CCD22EFED4E9E5F89.S3DAFEA6A26FE7D0E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = C043642B35062DFB9
   L2_2 = L2_2.S3505487C5267EE2D
@@ -544,11 +526,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "SAE66B5762D12B1F4"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PlayerCommand.SAE66B5762D12B1F4
+function CCD22EFED4E9E5F89.SAE66B5762D12B1F4(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S10B32CE3FEC94B7B
@@ -603,11 +582,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "SD8ED9DB34F3D32AD"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.command.PlayerCommand.WarpPlayerForFlyLanding
+function CCD22EFED4E9E5F89.SD8ED9DB34F3D32AD(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   if nil == A6_2 then
     A6_2 = false
@@ -707,11 +683,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   L9_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S833E436FB08FB1BE"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.PlayerCommand.S833E436FB08FB1BE
+function CCD22EFED4E9E5F89.S833E436FB08FB1BE(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = CCD22EFED4E9E5F89
   L3_2 = L3_2.SD8ED9DB34F3D32AD
@@ -729,11 +702,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S3AFE9789CD4AC7BB"
-
-function L70_1(A0_2)
+--- main.event.command.PlayerCommand.PlayerLanding
+function CCD22EFED4E9E5F89.S3AFE9789CD4AC7BB(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S12AB211B0A58477E
@@ -752,11 +722,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "SA10AE4787B2E55A3"
-
-function L70_1()
+--- main.event.command.PlayerCommand.WaitPlayerIdle
+function CCD22EFED4E9E5F89.SA10AE4787B2E55A3()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.S12AB211B0A58477E
@@ -794,11 +761,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "SA0D6639C3903F08F"
-
-function L70_1()
+--- main.event.command.PlayerCommand.ForcePlayerIdle
+function CCD22EFED4E9E5F89.SA0D6639C3903F08F()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.S12AB211B0A58477E
@@ -817,11 +781,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S86E1B79F458ED8B4"
-
-function L70_1(A0_2)
+--- main.event.command.PlayerCommand.ForceResetState
+function CCD22EFED4E9E5F89.S86E1B79F458ED8B4(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S12AB211B0A58477E
@@ -845,11 +806,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S92F44AA7751BA6FC"
-
-function L70_1(A0_2)
+--- main.event.command.PlayerCommand.RideOff
+function CCD22EFED4E9E5F89.S92F44AA7751BA6FC(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     A0_2 = true
@@ -896,11 +854,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S3A14BAD0674763F4"
-
-function L70_1()
+--- main.event.command.PlayerCommand.S3A14BAD0674763F4
+function CCD22EFED4E9E5F89.S3A14BAD0674763F4()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.S12AB211B0A58477E
@@ -916,11 +871,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S11084CFB16A1F50A"
-
-function L70_1(A0_2)
+--- main.event.command.PlayerCommand.RideOn
+function CCD22EFED4E9E5F89.S11084CFB16A1F50A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   if nil == A0_2 then
     A0_2 = true
@@ -1055,11 +1007,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S71BC6955152940BC"
-
-function L70_1()
+--- main.event.command.PlayerCommand.S71BC6955152940BC
+function CCD22EFED4E9E5F89.S71BC6955152940BC()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.S0AA068F6900B5FF7
@@ -1108,11 +1057,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "SBD23E2A4040CD186"
-
-function L70_1(A0_2)
+--- main.event.command.PlayerCommand.RideOnEvent
+function CCD22EFED4E9E5F89.SBD23E2A4040CD186(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -1244,11 +1190,8 @@ function L70_1(A0_2)
   L16_2(L17_2, L18_2, L19_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "SED1ADEAA962DF019"
-
-function L70_1()
+--- main.event.command.PlayerCommand.Whistle
+function CCD22EFED4E9E5F89.SED1ADEAA962DF019()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.S8DB58249AC006158
@@ -1337,11 +1280,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "SF55DE12AD589DB08"
-
-function L70_1()
+--- main.event.command.PlayerCommand.IsRiding
+function CCD22EFED4E9E5F89.SF55DE12AD589DB08()
   local L0_2, L1_2, L2_2
   L0_2 = L3_1
   L1_2 = CFC8F368D91411014
@@ -1356,11 +1296,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "SEE9BD730D70EF060"
-
-function L70_1(A0_2)
+--- main.event.command.PlayerCommand.SitChair
+function CCD22EFED4E9E5F89.SEE9BD730D70EF060(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -1385,11 +1322,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S3CCF10C935D80957"
-
-function L70_1(A0_2)
+--- main.event.command.PlayerCommand.ObjSitChair
+function CCD22EFED4E9E5F89.S3CCF10C935D80957(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L1_2 = nil
   L2_2 = c016374C1
@@ -1540,11 +1474,8 @@ function L70_1(A0_2)
   L15_2(L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S260BB62EC36987D7"
-
-function L70_1(A0_2)
+--- main.event.command.PlayerCommand.StandUpChair
+function CCD22EFED4E9E5F89.S260BB62EC36987D7(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S10B32CE3FEC94B7B
@@ -1612,11 +1543,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S28B353AB454B4081"
-
-function L70_1()
+--- main.event.command.PlayerCommand.WaitSitChair
+function CCD22EFED4E9E5F89.S28B353AB454B4081()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.S10B32CE3FEC94B7B
@@ -1666,11 +1594,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S533CD7A8E898D447"
-
-function L70_1()
+--- main.event.command.PlayerCommand.GetPlayerGender
+function CCD22EFED4E9E5F89.S533CD7A8E898D447()
   local L0_2, L1_2
   L0_2 = c436B49F9
   L0_2 = L0_2.f4530466C
@@ -1684,11 +1609,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S93443174B4C9128E"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.PlayerCommand.OpenCurrencyWindow
+function CCD22EFED4E9E5F89.S93443174B4C9128E(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A3_2 then
     A3_2 = true
@@ -1762,11 +1684,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S4B3DD107F4CBB90C"
-
-function L70_1(A0_2)
+--- main.event.command.PlayerCommand.CloseCurrencyWindow
+function CCD22EFED4E9E5F89.S4B3DD107F4CBB90C(A0_2)
   local L1_2, L2_2
   if nil == A0_2 then
     A0_2 = false
@@ -1777,11 +1696,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "SAA2A94132854787E"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.PlayerCommand.SAA2A94132854787E
+function CCD22EFED4E9E5F89.SAA2A94132854787E(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A4_2 then
     A4_2 = true
@@ -1855,11 +1771,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "SED94BD15CC65533F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.PlayerCommand.SED94BD15CC65533F
+function CCD22EFED4E9E5F89.SED94BD15CC65533F(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L4_2 = C41AF1C042AB05442
   L4_2 = L4_2.S264F26F6894F3392
@@ -1897,11 +1810,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S53009D40E3F7ABEC"
-
-function L70_1(A0_2)
+--- main.event.command.PlayerCommand.GetCurrency
+function CCD22EFED4E9E5F89.S53009D40E3F7ABEC(A0_2)
   local L1_2, L2_2, L3_2
   if nil == A0_2 then
     A0_2 = 0
@@ -1927,11 +1837,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "SD2E4CE84341011D2"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PlayerCommand.SetPlayerDressupParts
+function CCD22EFED4E9E5F89.SD2E4CE84341011D2(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = C722EEE9E927245BA
   L2_2 = L2_2.S385504EFF7E842C3
@@ -2072,11 +1979,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S95EF8B2F5CAB5369"
-
-function L70_1(A0_2)
+--- main.event.command.PlayerCommand.SetPlayerNoDressupParts
+function CCD22EFED4E9E5F89.S95EF8B2F5CAB5369(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = C722EEE9E927245BA
   L1_2 = L1_2.S385504EFF7E842C3
@@ -2216,11 +2120,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S6B1FF43CBD5261BA"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PlayerCommand.SetPlayerDressupPartsVisibility
+function CCD22EFED4E9E5F89.S6B1FF43CBD5261BA(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S93A017D496A6D000
@@ -2316,11 +2217,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S51B838ABDB84E9DE"
-
-function L70_1()
+--- main.event.command.PlayerCommand.WaitDressup
+function CCD22EFED4E9E5F89.S51B838ABDB84E9DE()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = CC6FE82819C6E1D55
   L0_2 = L0_2.S12F63EE47FFCB183
@@ -2366,11 +2264,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "SD0A36DEBF988A5A0"
-
-function L70_1(A0_2)
+--- main.event.command.PlayerCommand.SD0A36DEBF988A5A0
+function CCD22EFED4E9E5F89.SD0A36DEBF988A5A0(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = cA8A7EF2F
   L1_2 = L1_2.fB7F5D193
@@ -2392,11 +2287,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "S4A74F02A1227047C"
-
-function L70_1()
+--- main.event.command.PlayerCommand.S4A74F02A1227047C
+function CCD22EFED4E9E5F89.S4A74F02A1227047C()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L0_2 = c2A8846F6
   L0_2 = L0_2.f3E170423
@@ -2649,11 +2541,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD22EFED4E9E5F89"]
-L69_1 = "SDB332600EEB65CC9"
-
-function L70_1()
+--- main.event.command.PlayerCommand.SDB332600EEB65CC9
+function CCD22EFED4E9E5F89.SDB332600EEB65CC9()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L0_2 = c2A8846F6
   L0_2 = L0_2.f3E170423

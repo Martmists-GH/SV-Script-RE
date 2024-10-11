@@ -1,3 +1,7 @@
+---@alias C9500C40F6B6E9AC1 main_bgm_BGMCommand
+
+---@class main_bgm_BGMCommand : C9500C40F6B6E9AC1_prototype
+---@field prototype C9500C40F6B6E9AC1_prototype
 L55_1 = _ENV
 L56_1 = "C9500C40F6B6E9AC1"
 L57_1 = L15_1
@@ -34,16 +38,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9500C40F6B6E9AC1"]
 L69_1 = "__name__"
 L70_1 = "C9500C40F6B6E9AC1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9500C40F6B6E9AC1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9500C40F6B6E9AC1"]["prototype"]
-L69_1 = "F866E66DA26EE7358"
-
-function L70_1(A0_2)
+---@class C9500C40F6B6E9AC1_prototype
+C9500C40F6B6E9AC1_prototype = L15_1()
+C9500C40F6B6E9AC1.prototype = C9500C40F6B6E9AC1_prototype
+--- main.bgm.BGMCommand.Execute
+function C9500C40F6B6E9AC1_prototype:F866E66DA26EE7358()
   local L1_2
 end
 

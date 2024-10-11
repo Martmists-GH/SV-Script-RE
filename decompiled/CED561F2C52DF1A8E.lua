@@ -1,3 +1,5 @@
+---@class CED561F2C52DF1A8E : CED561F2C52DF1A8E_prototype
+---@field prototype CED561F2C52DF1A8E_prototype
 L55_1 = _ENV
 L56_1 = "CED561F2C52DF1A8E"
 L57_1 = L15_1
@@ -58,67 +60,53 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CED561F2C52DF1A8E"]
 L69_1 = "__name__"
 L70_1 = "CED561F2C52DF1A8E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CED561F2C52DF1A8E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CED561F2C52DF1A8E"]["prototype"]
-L69_1 = "FA88D69D4604DBB0F"
-
-function L70_1(A0_2)
+---@class CED561F2C52DF1A8E_prototype
+CED561F2C52DF1A8E_prototype = L15_1()
+CED561F2C52DF1A8E.prototype = CED561F2C52DF1A8E_prototype
+--- CED561F2C52DF1A8E.onReset
+function CED561F2C52DF1A8E_prototype:FA88D69D4604DBB0F()
   local L1_2
-  A0_2[21] = false
-  A0_2[12] = false
-  A0_2[13] = false
-  A0_2[17] = false
-  A0_2[14] = false
-  A0_2[15] = nil
-  A0_2[16] = 0.0
-  A0_2[18] = false
-  A0_2[19] = false
-  A0_2[20] = false
-  A0_2[23] = false
-  A0_2[24] = false
-  A0_2[25] = false
-  A0_2[22] = true
+  self[21] = false
+  self[12] = false
+  self[13] = false
+  self[17] = false
+  self[14] = false
+  self[15] = nil
+  self[16] = 0.0
+  self[18] = false
+  self[19] = false
+  self[20] = false
+  self[23] = false
+  self[24] = false
+  self[25] = false
+  self[22] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CED561F2C52DF1A8E"]["prototype"]
-L69_1 = "F019AC076276FE4F6"
-
-function L70_1(A0_2)
+--- CED561F2C52DF1A8E.onEnter
+function CED561F2C52DF1A8E_prototype:F019AC076276FE4F6()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FA88D69D4604DBB0F
+  L2_2 = self
+  L1_2 = self.FA88D69D4604DBB0F
   L1_2(L2_2)
-  A0_2[21] = true
+  self[21] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CED561F2C52DF1A8E"]["prototype"]
-L69_1 = "F5BB3065BAE919CB1"
-
-function L70_1(A0_2, A1_2)
-  A0_2[22] = false
+--- CED561F2C52DF1A8E.onStartState
+function CED561F2C52DF1A8E_prototype:F5BB3065BAE919CB1(A1_2)
+  self[22] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CED561F2C52DF1A8E"]["prototype"]
-L69_1 = "F2D7638A0577ED142"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CED561F2C52DF1A8E.onUpdateState
+function CED561F2C52DF1A8E_prototype:F2D7638A0577ED142(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L3_2 = A0_2[12]
-  A0_2[12] = false
-  L4_2 = A0_2[13]
-  A0_2[13] = false
+  L3_2 = self[12]
+  self[12] = false
+  L4_2 = self[13]
+  self[13] = false
   L5_2 = false
-  L6_2 = A0_2[14]
-  A0_2[14] = false
-  L7_2 = A0_2[2]
+  L6_2 = self[14]
+  self[14] = false
+  L7_2 = self[2]
   L7_2 = L7_2[3]
   L7_2 = L7_2[1]
   L7_2 = L7_2[5]
@@ -137,31 +125,31 @@ function L70_1(A0_2, A1_2, A2_2)
   L10_2 = L10_2 / 0.03333333333333333
   L9_2 = L9_2 * L10_2
   if L8_2 <= L9_2 then
-    L8_2 = A0_2[22]
+    L8_2 = self[22]
     if L8_2 then
-      L8_2 = A0_2[17]
+      L8_2 = self[17]
       if L8_2 then
         L3_2 = true
-        A0_2[17] = false
+        self[17] = false
       end
-      L8_2 = A0_2[18]
+      L8_2 = self[18]
       if L8_2 then
         L5_2 = true
-        A0_2[18] = false
+        self[18] = false
       end
-      L8_2 = A0_2[19]
+      L8_2 = self[19]
       if L8_2 then
         L4_2 = true
-        A0_2[19] = false
+        self[19] = false
       end
-      L8_2 = A0_2[20]
+      L8_2 = self[20]
       if L8_2 then
         L6_2 = true
-        A0_2[20] = false
+        self[20] = false
       end
-      L8_2 = A0_2[25]
+      L8_2 = self[25]
       if not L8_2 then
-        L8_2 = A0_2[2]
+        L8_2 = self[2]
         L8_2 = L8_2[3]
         L8_2 = L8_2[1]
         L8_2 = L8_2[9]
@@ -174,28 +162,28 @@ function L70_1(A0_2, A1_2, A2_2)
           L9_2 = L9_2[3]
         end
         if not L9_2 or L5_2 then
-          L10_2 = A0_2
-          L9_2 = A0_2.FAFA651C652BD64CD
+          L10_2 = self
+          L9_2 = self.FAFA651C652BD64CD
           L9_2 = L9_2(L10_2)
           L9_2 = L9_2[32]
           if not L9_2 then
-            L10_2 = A0_2
-            L9_2 = A0_2.FAFA651C652BD64CD
+            L10_2 = self
+            L9_2 = self.FAFA651C652BD64CD
             L9_2 = L9_2(L10_2)
             L10_2 = L9_2
             L9_2 = L9_2.FDA6A5FC28E571E7C
             L9_2 = L9_2(L10_2)
             if not L9_2 then
-              L9_2 = A0_2[2]
+              L9_2 = self[2]
               L9_2 = L9_2[6]
-              L10_2 = A0_2[3]
+              L10_2 = self[3]
               L9_2 = L9_2[L10_2]
               L9_2 = L9_2[3]
               L10_2 = L9_2
               L9_2 = L9_2.F81863E625B28572D
               L11_2 = C10624F724A0F4F85
               L11_2 = L11_2.new
-              L12_2 = A0_2[2]
+              L12_2 = self[2]
               L11_2, L12_2 = L11_2(L12_2)
               L9_2(L10_2, L11_2, L12_2)
               return
@@ -205,19 +193,19 @@ function L70_1(A0_2, A1_2, A2_2)
       end
       L8_2 = C9B18926651A71FDA
       L8_2 = L8_2.S57669E023D07F721
-      L10_2 = A0_2
-      L9_2 = A0_2.FAFA651C652BD64CD
+      L10_2 = self
+      L9_2 = self.FAFA651C652BD64CD
       L9_2 = L9_2(L10_2)
       L10_2 = 4
       L8_2 = L8_2(L9_2, L10_2)
       if L8_2 then
-        L8_2 = A0_2[24]
+        L8_2 = self[24]
         if not L8_2 then
-          L8_2 = A0_2[2]
+          L8_2 = self[2]
           L8_2 = L8_2[33]
           if not L8_2 then
-            L9_2 = A0_2
-            L8_2 = A0_2.FAFA651C652BD64CD
+            L9_2 = self
+            L8_2 = self.FAFA651C652BD64CD
             L8_2 = L8_2(L9_2)
             L9_2 = L8_2
             L8_2 = L8_2.FDCE650A63694D724
@@ -225,7 +213,7 @@ function L70_1(A0_2, A1_2, A2_2)
             if L8_2 then
               L8_2 = nil
               if not L3_2 then
-                L9_2 = A0_2[2]
+                L9_2 = self[2]
                 L9_2 = L9_2[3]
                 L9_2 = L9_2[1]
                 L9_2 = L9_2[9]
@@ -247,16 +235,16 @@ function L70_1(A0_2, A1_2, A2_2)
                 L9_2 = L9_2.S3BB76EDEA65CBC78
                 L9_2 = L9_2()
                 if L9_2 then
-                  L9_2 = A0_2[2]
+                  L9_2 = self[2]
                   L9_2 = L9_2[6]
-                  L10_2 = A0_2[3]
+                  L10_2 = self[3]
                   L9_2 = L9_2[L10_2]
                   L9_2 = L9_2[3]
                   L10_2 = L9_2
                   L9_2 = L9_2.F81863E625B28572D
                   L11_2 = CC2F72290CC6F6AB8
                   L11_2 = L11_2.new
-                  L12_2 = A0_2[2]
+                  L12_2 = self[2]
                   L11_2, L12_2 = L11_2(L12_2)
                   L9_2(L10_2, L11_2, L12_2)
                   return
@@ -269,30 +257,30 @@ function L70_1(A0_2, A1_2, A2_2)
             end
           end
         end
-        L8_2 = A0_2[23]
+        L8_2 = self[23]
         if not L8_2 and L4_2 then
           L8_2 = L3_1
-          L9_2 = A0_2[2]
+          L9_2 = self[2]
           L9_2 = L9_2[49]
           L10_2 = 32
           L8_2 = L8_2(L9_2, L10_2)
           if 0 == L8_2 then
-            L8_2 = A0_2[2]
+            L8_2 = self[2]
             L8_2 = L8_2[3]
             L8_2 = L8_2[1]
             L8_2 = L8_2[9]
             L8_2 = L8_2[8]
             if not L8_2 then
-              L8_2 = A0_2[2]
+              L8_2 = self[2]
               L8_2 = L8_2[6]
-              L9_2 = A0_2[3]
+              L9_2 = self[3]
               L8_2 = L8_2[L9_2]
               L8_2 = L8_2[3]
               L9_2 = L8_2
               L8_2 = L8_2.F81863E625B28572D
               L10_2 = C12B8905A9D5D90F0
               L10_2 = L10_2.new
-              L11_2 = A0_2[2]
+              L11_2 = self[2]
               L10_2, L11_2, L12_2 = L10_2(L11_2)
               L8_2(L9_2, L10_2, L11_2, L12_2)
               return
@@ -303,27 +291,27 @@ function L70_1(A0_2, A1_2, A2_2)
       if L6_2 then
         L8_2 = CC712DB01FD93DA44
         L8_2 = L8_2.new
-        L9_2 = A0_2[2]
+        L9_2 = self[2]
         L8_2 = L8_2(L9_2)
-        L9_2 = A0_2[2]
+        L9_2 = self[2]
         L9_2 = L9_2[6]
-        L10_2 = A0_2[3]
+        L10_2 = self[3]
         L9_2 = L9_2[L10_2]
         L9_2 = L9_2[3]
         L10_2 = L9_2
         L9_2 = L9_2.F81863E625B28572D
         L11_2 = L8_2
         L9_2(L10_2, L11_2)
-        L9_2 = A0_2[15]
+        L9_2 = self[15]
         L8_2[18] = L9_2
-        L9_2 = A0_2[16]
+        L9_2 = self[16]
         L8_2[19] = L9_2
-        A0_2[15] = nil
-        A0_2[16] = 0.0
+        self[15] = nil
+        self[16] = 0.0
         return
       end
     else
-      L8_2 = A0_2[2]
+      L8_2 = self[2]
       L8_2 = L8_2[3]
       L8_2 = L8_2[1]
       L8_2 = L8_2[9]
@@ -335,10 +323,10 @@ function L70_1(A0_2, A1_2, A2_2)
         L9_2 = L9_2[4]
         L9_2 = L9_2[3]
         if not L9_2 then
-          A0_2[18] = true
+          self[18] = true
         end
       end
-      L9_2 = A0_2[2]
+      L9_2 = self[2]
       L9_2 = L9_2[3]
       L9_2 = L9_2[1]
       L9_2 = L9_2[9]
@@ -350,61 +338,55 @@ function L70_1(A0_2, A1_2, A2_2)
         L10_2 = L10_2[4]
         L10_2 = L10_2[6]
         if not L10_2 then
-          A0_2[17] = true
+          self[17] = true
         end
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CED561F2C52DF1A8E"]["prototype"]
-L69_1 = "F6D16D30FD1C59B4F"
-
-function L70_1(A0_2)
+--- CED561F2C52DF1A8E.onLeave
+function CED561F2C52DF1A8E_prototype:F6D16D30FD1C59B4F()
   local L1_2
-  A0_2[21] = false
+  self[21] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CED561F2C52DF1A8E"]["prototype"]
-L69_1 = "FC56059588F363F71"
-
-function L70_1(A0_2, A1_2)
+--- CED561F2C52DF1A8E.onRequest
+function CED561F2C52DF1A8E_prototype:FC56059588F363F71(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[21]
+  L2_2 = self[21]
   if L2_2 then
     L2_2 = A1_2[1]
     if 21 == L2_2 then
-      L3_2 = A0_2[22]
+      L3_2 = self[22]
       if L3_2 then
-        A0_2[14] = true
+        self[14] = true
       else
-        A0_2[20] = true
+        self[20] = true
       end
       L3_2 = A1_2
       L4_2 = L3_2[4]
-      A0_2[15] = L4_2
+      self[15] = L4_2
       L4_2 = L3_2[5]
-      A0_2[16] = L4_2
+      self[16] = L4_2
       L4_2 = true
       return L4_2
     elseif 32 == L2_2 then
-      L3_2 = A0_2[22]
+      L3_2 = self[22]
       if L3_2 then
-        A0_2[12] = true
+        self[12] = true
       else
-        A0_2[17] = true
+        self[17] = true
       end
       L3_2 = true
       return L3_2
     else
       if 33 == L2_2 then
-        L3_2 = A0_2[22]
+        L3_2 = self[22]
         if L3_2 then
-          A0_2[13] = true
+          self[13] = true
         else
-          A0_2[19] = true
+          self[19] = true
         end
         L3_2 = true
         return L3_2

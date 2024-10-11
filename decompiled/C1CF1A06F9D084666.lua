@@ -1,3 +1,7 @@
+---@alias C1CF1A06F9D084666 main_pokepicnic_contents_HostClosePicnic_PicnicContents
+
+---@class main_pokepicnic_contents_HostClosePicnic_PicnicContents : C1CF1A06F9D084666_prototype
+---@field prototype C1CF1A06F9D084666_prototype
 L55_1 = _ENV
 L56_1 = "C1CF1A06F9D084666"
 L57_1 = L15_1
@@ -49,41 +53,33 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1CF1A06F9D084666"]
 L69_1 = "__name__"
 L70_1 = "C1CF1A06F9D084666"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CF1A06F9D084666"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CF1A06F9D084666"]["prototype"]
-L69_1 = "FBF02A2AE63AF40EC"
-
-function L70_1(A0_2)
+---@class C1CF1A06F9D084666_prototype
+C1CF1A06F9D084666_prototype = L15_1()
+C1CF1A06F9D084666.prototype = C1CF1A06F9D084666_prototype
+--- main.pokepicnic.contents.HostClosePicnic_PicnicContents.OnStart
+function C1CF1A06F9D084666_prototype:FBF02A2AE63AF40EC()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F07745382E6C99BC2
+  L3_2 = self
+  L4_2 = self.F07745382E6C99BC2
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "HostClosePicnic_PicnicContents"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[5] = L1_2
+  self[5] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CF1A06F9D084666"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.contents.HostClosePicnic_PicnicContents.OnUpdate
+function C1CF1A06F9D084666_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = L10_1.coroutine
   L2_2 = L2_2.status
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2[1]
   L2_2 = L2_2(L3_2)
   if "dead" ~= L2_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = nil
     L4_2 = L62_1
     L5_2 = L64_1.pack
@@ -130,15 +126,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CF1A06F9D084666"]["prototype"]
-L69_1 = "F07745382E6C99BC2"
-
-function L70_1(A0_2)
+--- main.pokepicnic.contents.HostClosePicnic_PicnicContents.MainCoroutine
+function C1CF1A06F9D084666_prototype:F07745382E6C99BC2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = cE9AFE246
   L1_2 = L1_2.fB4A97AE8
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = c59FF1887
@@ -252,7 +245,7 @@ function L70_1(A0_2)
   L10_2 = L10_2.S707D7E7BFDD15535
   L11_2 = 0
   L10_2(L11_2)
-  A0_2[2] = true
+  self[2] = true
   L10_2 = CFC8F368D91411014
   L10_2 = L10_2.SDE9EF3CFD428417D
   L10_2 = L10_2[24]

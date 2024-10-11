@@ -1,3 +1,5 @@
+---@class C7C6546CFE321EDF2 : C7C6546CFE321EDF2_prototype
+---@field prototype C7C6546CFE321EDF2_prototype
 L55_1 = _ENV
 L56_1 = "C7C6546CFE321EDF2"
 L57_1 = L15_1
@@ -42,57 +44,52 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C7C6546CFE321EDF2"]
 L69_1 = "__name__"
 L70_1 = "C7C6546CFE321EDF2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C6546CFE321EDF2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C6546CFE321EDF2"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2, A1_2)
+---@class C7C6546CFE321EDF2_prototype
+C7C6546CFE321EDF2_prototype = L15_1()
+C7C6546CFE321EDF2.prototype = C7C6546CFE321EDF2_prototype
+--- C7C6546CFE321EDF2.Load
+function C7C6546CFE321EDF2_prototype:F6C5D0398122A6629(A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "SlideDropThreshold"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "VerticalMargin"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "WallHitAngle"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "WaterSurfaceMargin"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[6] = L2_2
+  self[6] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "WaterDraftLine"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "UnderWaterThreshold"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[7] = L2_2
+  self[7] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "ShallowWaterThreshold"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[8] = L2_2
+  self[8] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "AcceptableRadiusRate"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[9] = L2_2
+  self[9] = L2_2
 end
 
 L68_1[L69_1] = L70_1

@@ -1,3 +1,7 @@
+---@alias C073B45231AFAC360 main_bgm_BGMSetPendingCommand
+
+---@class main_bgm_BGMSetPendingCommand : C073B45231AFAC360_prototype
+---@field prototype C073B45231AFAC360_prototype
 L55_1 = _ENV
 L56_1 = "C073B45231AFAC360"
 L57_1 = L15_1
@@ -41,23 +45,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C073B45231AFAC360"]
 L69_1 = "__name__"
 L70_1 = "C073B45231AFAC360"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073B45231AFAC360"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073B45231AFAC360"]["prototype"]
-L69_1 = "F866E66DA26EE7358"
-
-function L70_1(A0_2)
+---@class C073B45231AFAC360_prototype
+C073B45231AFAC360_prototype = L15_1()
+C073B45231AFAC360.prototype = C073B45231AFAC360_prototype
+--- main.bgm.BGMSetPendingCommand.Execute
+function C073B45231AFAC360_prototype:F866E66DA26EE7358()
   local L1_2, L2_2, L3_2
   L1_2 = c6E61D36A
   L1_2 = L1_2.fA925EE56
   L1_2 = L1_2()
   L2_2 = L1_2
   L1_2 = L1_2.f84F962B8
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L1_2(L2_2, L3_2)
 end
 

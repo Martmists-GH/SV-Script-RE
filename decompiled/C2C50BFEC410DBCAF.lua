@@ -1,3 +1,5 @@
+---@class C2C50BFEC410DBCAF : C2C50BFEC410DBCAF_prototype
+---@field prototype C2C50BFEC410DBCAF_prototype
 L55_1 = _ENV
 L56_1 = "C2C50BFEC410DBCAF"
 L57_1 = L15_1
@@ -45,36 +47,28 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2C50BFEC410DBCAF"]
 L69_1 = "__name__"
 L70_1 = "C2C50BFEC410DBCAF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C50BFEC410DBCAF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C50BFEC410DBCAF"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C2C50BFEC410DBCAF_prototype
+C2C50BFEC410DBCAF_prototype = L15_1()
+C2C50BFEC410DBCAF.prototype = C2C50BFEC410DBCAF_prototype
+--- C2C50BFEC410DBCAF.preStart
+function C2C50BFEC410DBCAF_prototype:F92BA869F22AE5BC6()
   local L1_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.playerLook
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2.playerLook = true
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.targetLook
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2.targetLook = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C50BFEC410DBCAF"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- C2C50BFEC410DBCAF.mainBody
+function C2C50BFEC410DBCAF_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S4E44D50241EFAB61

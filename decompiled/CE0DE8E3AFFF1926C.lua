@@ -1,3 +1,7 @@
+---@alias CE0DE8E3AFFF1926C main_mystery_gift_MysteryGiftState
+
+---@class main_mystery_gift_MysteryGiftState : CE0DE8E3AFFF1926C_prototype
+---@field prototype CE0DE8E3AFFF1926C_prototype
 L55_1 = _ENV
 L56_1 = "CE0DE8E3AFFF1926C"
 L57_1 = L15_1
@@ -50,31 +54,26 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CE0DE8E3AFFF1926C"]
 L69_1 = "__name__"
 L70_1 = "CE0DE8E3AFFF1926C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CE0DE8E3AFFF1926C_prototype
+CE0DE8E3AFFF1926C_prototype = L15_1()
+CE0DE8E3AFFF1926C.prototype = CE0DE8E3AFFF1926C_prototype
+--- main.mystery_gift.MysteryGiftState.Setup
+function CE0DE8E3AFFF1926C_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L2_2 = c2A84524D
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
-  L2_2 = A0_2[2]
+  self[2] = L2_2
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.fDCDD45F6
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F7EF01FFF924693EA
+  L5_2 = self
+  L6_2 = self.F7EF01FFF924693EA
   L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f82A5B7C4
   L4_2 = "view_mystery_top_00"
@@ -90,8 +89,8 @@ function L70_1(A0_2, A1_2)
   if L3_2 == L4_2 then
     L3_2 = nil
   end
-  A0_2[3] = L3_2
-  L4_2 = A0_2[2]
+  self[3] = L3_2
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.f82A5B7C4
   L6_2 = "view_mystery_confirm_power_00"
@@ -107,8 +106,8 @@ function L70_1(A0_2, A1_2)
   if L5_2 == L6_2 then
     L5_2 = nil
   end
-  A0_2[4] = L5_2
-  L6_2 = A0_2[2]
+  self[4] = L5_2
+  L6_2 = self[2]
   L7_2 = L6_2
   L6_2 = L6_2.f82A5B7C4
   L8_2 = "view_mystery_serialcode_00"
@@ -124,8 +123,8 @@ function L70_1(A0_2, A1_2)
   if L7_2 == L8_2 then
     L7_2 = nil
   end
-  A0_2[5] = L7_2
-  L8_2 = A0_2[2]
+  self[5] = L7_2
+  L8_2 = self[2]
   L9_2 = L8_2
   L8_2 = L8_2.f82A5B7C4
   L10_2 = "view_mystery_progress_00"
@@ -141,8 +140,8 @@ function L70_1(A0_2, A1_2)
   if L9_2 == L10_2 then
     L9_2 = nil
   end
-  A0_2[6] = L9_2
-  L10_2 = A0_2[2]
+  self[6] = L9_2
+  L10_2 = self[2]
   L11_2 = L10_2
   L10_2 = L10_2.f82A5B7C4
   L12_2 = "view_mystery_receive_00"
@@ -158,8 +157,8 @@ function L70_1(A0_2, A1_2)
   if L11_2 == L12_2 then
     L11_2 = nil
   end
-  A0_2[7] = L11_2
-  L12_2 = A0_2[2]
+  self[7] = L11_2
+  L12_2 = self[2]
   L13_2 = L12_2
   L12_2 = L12_2.f82A5B7C4
   L14_2 = "view_mystery_complete_00"
@@ -175,8 +174,8 @@ function L70_1(A0_2, A1_2)
   if L13_2 == L14_2 then
     L13_2 = nil
   end
-  A0_2[8] = L13_2
-  L14_2 = A0_2[2]
+  self[8] = L13_2
+  L14_2 = self[2]
   L15_2 = L14_2
   L14_2 = L14_2.f82A5B7C4
   L16_2 = "view_mystery_history_00"
@@ -192,8 +191,8 @@ function L70_1(A0_2, A1_2)
   if L15_2 == L16_2 then
     L15_2 = nil
   end
-  A0_2[9] = L15_2
-  L16_2 = A0_2[2]
+  self[9] = L15_2
+  L16_2 = self[2]
   L17_2 = L16_2
   L16_2 = L16_2.f82A5B7C4
   L18_2 = "view_mystery_header_00"
@@ -209,8 +208,8 @@ function L70_1(A0_2, A1_2)
   if L17_2 == L18_2 then
     L17_2 = nil
   end
-  A0_2[10] = L17_2
-  L18_2 = A0_2[2]
+  self[10] = L17_2
+  L18_2 = self[2]
   L19_2 = L18_2
   L18_2 = L18_2.f82A5B7C4
   L20_2 = "view_mystery_go_00"
@@ -226,100 +225,88 @@ function L70_1(A0_2, A1_2)
   if L19_2 == L20_2 then
     L19_2 = nil
   end
-  A0_2[11] = L19_2
-  L20_2 = A0_2[2]
+  self[11] = L19_2
+  L20_2 = self[2]
   L21_2 = L20_2
   L20_2 = L20_2.f83FE57AE
   L20_2(L21_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftState.PreUpdate
+function CE0DE8E3AFFF1926C_prototype:FE94F3E13286232CF(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]["prototype"]
-L69_1 = "F20A40E2F8B95D5F6"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftState.PostUpdate
+function CE0DE8E3AFFF1926C_prototype:F20A40E2F8B95D5F6(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.mystery_gift.MysteryGiftState.Destroy
+function CE0DE8E3AFFF1926C_prototype:F1C2AA00ADAC52EC5()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]["prototype"]
-L69_1 = "F7EF01FFF924693EA"
-
-function L70_1(A0_2)
+--- main.mystery_gift.MysteryGiftState.OnAction
+function CE0DE8E3AFFF1926C_prototype:F7EF01FFF924693EA()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f44B92869
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f015A8108
   L2_2 = L2_2(L3_2)
   if "view_mystery_complete_00" == L1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F32224A060E3E6321
+    L4_2 = self
+    L3_2 = self.F32224A060E3E6321
     L5_2 = L2_2
     L3_2(L4_2, L5_2)
   elseif "view_mystery_confirm_power_00" == L1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F43F1ACF464F57DEA
+    L4_2 = self
+    L3_2 = self.F43F1ACF464F57DEA
     L5_2 = L2_2
     L3_2(L4_2, L5_2)
   elseif "view_mystery_go_00" == L1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F6D48A21BE15622A1
+    L4_2 = self
+    L3_2 = self.F6D48A21BE15622A1
     L5_2 = L2_2
     L3_2(L4_2, L5_2)
   elseif "view_mystery_header_00" == L1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F45B69DD3C76BC7D3
+    L4_2 = self
+    L3_2 = self.F45B69DD3C76BC7D3
     L5_2 = L2_2
     L3_2(L4_2, L5_2)
   elseif "view_mystery_history_00" == L1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FC78CD6279C292F5A
+    L4_2 = self
+    L3_2 = self.FC78CD6279C292F5A
     L5_2 = L2_2
     L3_2(L4_2, L5_2)
   elseif "view_mystery_progress_00" == L1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FA642440036037A60
+    L4_2 = self
+    L3_2 = self.FA642440036037A60
     L5_2 = L2_2
     L3_2(L4_2, L5_2)
   elseif "view_mystery_receive_00" == L1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F5C668921AE76CE9F
+    L4_2 = self
+    L3_2 = self.F5C668921AE76CE9F
     L5_2 = L2_2
     L3_2(L4_2, L5_2)
   elseif "view_mystery_serialcode_00" == L1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F7354406B92D59C63
+    L4_2 = self
+    L3_2 = self.F7354406B92D59C63
     L5_2 = L2_2
     L3_2(L4_2, L5_2)
   elseif "view_mystery_top_00" == L1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F48F806D703C31D4D
+    L4_2 = self
+    L3_2 = self.F48F806D703C31D4D
     L5_2 = L2_2
     L3_2(L4_2, L5_2)
   else
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.F6261005AD0DF9ED5
     L3_2(L4_2)
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.f54B24942
     L5_2 = "view_mystery_top_00"
@@ -327,63 +314,60 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]["prototype"]
-L69_1 = "F48F806D703C31D4D"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftState.OnActionTop
+function CE0DE8E3AFFF1926C_prototype:F48F806D703C31D4D(A1_2)
   local L2_2, L3_2, L4_2
   if "kNewsReceived" == A1_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.FB98085E3A60C7C0A
     L4_2 = 17
     L2_2(L3_2, L4_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_confirm_power_00"
     L2_2(L3_2, L4_2)
   elseif "kToHistory" == A1_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_history_00"
     L2_2(L3_2, L4_2)
   elseif "kToInternetReceive" == A1_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L3_2 = L2_2
     L2_2 = L2_2.F823BD57394E8754B
     L2_2(L3_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_progress_00"
     L2_2(L3_2, L4_2)
   elseif "kToPokeGoConnect" == A1_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_go_00"
     L2_2(L3_2, L4_2)
-    L2_2 = A0_2[10]
+    L2_2 = self[10]
     L3_2 = L2_2
     L2_2 = L2_2.F1BB2C5F716B25F79
     L4_2 = "msg_o_mystery_sel_go_01"
     L2_2(L3_2, L4_2)
   elseif "kToSerialAttention" == A1_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.FB98085E3A60C7C0A
     L4_2 = 9
     L2_2(L3_2, L4_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_confirm_power_00"
     L2_2(L3_2, L4_2)
   elseif "kToSerialReceive" == A1_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_serialcode_00"
@@ -391,44 +375,41 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]["prototype"]
-L69_1 = "F43F1ACF464F57DEA"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftState.F43F1ACF464F57DEA
+function CE0DE8E3AFFF1926C_prototype:F43F1ACF464F57DEA(A1_2)
   local L2_2, L3_2, L4_2
   if "kToInternetConnect" == A1_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.F67018F69CAE4B810
     L2_2(L3_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_top_00"
     L2_2(L3_2, L4_2)
   elseif "kToList" == A1_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_receive_00"
     L2_2(L3_2, L4_2)
   elseif "kToSerialInput" == A1_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L2_2
     L2_2 = L2_2.F1B77F7E57F5D0092
     L2_2(L3_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_serialcode_00"
     L2_2(L3_2, L4_2)
   elseif "kToTopMenu" == A1_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.F6261005AD0DF9ED5
     L2_2(L3_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_top_00"
@@ -436,43 +417,40 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]["prototype"]
-L69_1 = "F7354406B92D59C63"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftState.OnActionSerialCode
+function CE0DE8E3AFFF1926C_prototype:F7354406B92D59C63(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if "kToMenu" == A1_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.F6261005AD0DF9ED5
     L2_2(L3_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_top_00"
     L2_2(L3_2, L4_2)
   elseif "kToSerialCheck" == A1_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L3_2 = L2_2
     L2_2 = L2_2.FB3C527E8E00527C6
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L5_2 = L4_2
     L4_2 = L4_2.FC0C82488B5121DC2
     L4_2, L5_2 = L4_2(L5_2)
     L2_2(L3_2, L4_2, L5_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_progress_00"
     L2_2(L3_2, L4_2)
   elseif "kToShowLocked" == A1_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.FB98085E3A60C7C0A
     L4_2 = 10
     L2_2(L3_2, L4_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_confirm_power_00"
@@ -480,97 +458,94 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]["prototype"]
-L69_1 = "FA642440036037A60"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftState.OnActionProgressSerialcode
+function CE0DE8E3AFFF1926C_prototype:FA642440036037A60(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if "kToComplete" == A1_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L3_2 = L2_2
     L2_2 = L2_2.FE9A99C3BBE0FBB15
     L2_2 = L2_2(L3_2)
     if 1 == L2_2 then
-      L3_2 = A0_2[8]
+      L3_2 = self[8]
       L4_2 = L3_2
       L3_2 = L3_2.F375ED53BE52D92A4
       L3_2(L4_2)
     elseif 2 == L2_2 then
-      L3_2 = A0_2[8]
+      L3_2 = self[8]
       L4_2 = L3_2
       L3_2 = L3_2.F58D8A66ABC012E2E
       L3_2(L4_2)
     else
-      L3_2 = A0_2[8]
+      L3_2 = self[8]
       L4_2 = L3_2
       L3_2 = L3_2.FBFE942C1523E1E18
       L3_2(L4_2)
     end
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L4_2 = L3_2
     L3_2 = L3_2.FD774FB391042E51F
     L3_2 = L3_2(L4_2)
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     L5_2 = L4_2
     L4_2 = L4_2.FF464237616C92046
     L6_2 = L3_2
     L4_2(L5_2, L6_2)
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L4_2
     L4_2 = L4_2.f54B24942
     L6_2 = "view_mystery_complete_00"
     L4_2(L5_2, L6_2)
   elseif "kToErrorMessage" == A1_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.FB98085E3A60C7C0A
-    L4_2 = A0_2[6]
+    L4_2 = self[6]
     L5_2 = L4_2
     L4_2 = L4_2.F39271499E2766A96
     L4_2, L5_2, L6_2 = L4_2(L5_2)
     L2_2(L3_2, L4_2, L5_2, L6_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_confirm_power_00"
     L2_2(L3_2, L4_2)
   elseif "kToListInternet" == A1_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L3_2 = L2_2
     L2_2 = L2_2.F13C36F41EB04929A
     L2_2 = L2_2(L3_2)
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     L4_2 = L3_2
     L3_2 = L3_2.F17B2ED6118237F13
     L5_2 = L2_2
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.f54B24942
     L5_2 = "view_mystery_receive_00"
     L3_2(L4_2, L5_2)
   elseif "kToListSerial" == A1_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L3_2 = L2_2
     L2_2 = L2_2.F13C36F41EB04929A
     L2_2 = L2_2(L3_2)
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     L4_2 = L3_2
     L3_2 = L3_2.FB2C3DD767F040086
     L5_2 = L2_2
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.f54B24942
     L5_2 = "view_mystery_receive_00"
     L3_2(L4_2, L5_2)
   elseif "kToTopMenu" == A1_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.F6261005AD0DF9ED5
     L2_2(L3_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_top_00"
@@ -578,45 +553,42 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]["prototype"]
-L69_1 = "F5C668921AE76CE9F"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftState.OnActionReceive
+function CE0DE8E3AFFF1926C_prototype:F5C668921AE76CE9F(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if "kToReceive" == A1_2 then
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = L2_2
     L2_2 = L2_2.FBC69CACD3D281405
     L2_2 = L2_2(L3_2)
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     L4_2 = L3_2
     L3_2 = L3_2.F353D81520AC0848E
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L3_2 = A0_2[6]
+      L3_2 = self[6]
       L4_2 = L3_2
       L3_2 = L3_2.F4958E6479CF87A73
       L5_2 = L2_2
       L3_2(L4_2, L5_2)
     else
-      L3_2 = A0_2[6]
+      L3_2 = self[6]
       L4_2 = L3_2
       L3_2 = L3_2.F95A8C9F6DDB5B300
       L5_2 = L2_2
       L3_2(L4_2, L5_2)
     end
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.f54B24942
     L5_2 = "view_mystery_progress_00"
     L3_2(L4_2, L5_2)
   elseif "kToTopMenu" == A1_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.F6261005AD0DF9ED5
     L2_2(L3_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_top_00"
@@ -624,13 +596,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]["prototype"]
-L69_1 = "F32224A060E3E6321"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftState.OnActionComplete
+function CE0DE8E3AFFF1926C_prototype:F32224A060E3E6321(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.F8A1834E24FB6505F
   L2_2 = L2_2(L3_2)
@@ -651,28 +620,28 @@ function L70_1(A0_2, A1_2)
   
   L4_2 = L4_2()
   if L4_2 then
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L4_2
     L4_2 = L4_2.f54B24942
     L6_2 = "view_mystery_receive_00"
     L4_2(L5_2, L6_2)
   elseif "kEnd" == A1_2 then
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.F6261005AD0DF9ED5
     L4_2(L5_2)
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L4_2
     L4_2 = L4_2.f54B24942
     L6_2 = "view_mystery_top_00"
     L4_2(L5_2, L6_2)
   elseif "kReturnPokeGo" == A1_2 then
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L4_2
     L4_2 = L4_2.f54B24942
     L6_2 = "view_mystery_go_00"
     L4_2(L5_2, L6_2)
-    L4_2 = A0_2[10]
+    L4_2 = self[10]
     L5_2 = L4_2
     L4_2 = L4_2.F1BB2C5F716B25F79
     L6_2 = "msg_o_mystery_sel_go_01"
@@ -680,67 +649,58 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]["prototype"]
-L69_1 = "FC78CD6279C292F5A"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftState.OnActionHistory
+function CE0DE8E3AFFF1926C_prototype:FC78CD6279C292F5A(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F6261005AD0DF9ED5
   L2_2(L3_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f54B24942
   L4_2 = "view_mystery_top_00"
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]["prototype"]
-L69_1 = "F45B69DD3C76BC7D3"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftState.OnActionHeader
+function CE0DE8E3AFFF1926C_prototype:F45B69DD3C76BC7D3(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0DE8E3AFFF1926C"]["prototype"]
-L69_1 = "F6D48A21BE15622A1"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftState.F6D48A21BE15622A1
+function CE0DE8E3AFFF1926C_prototype:F6D48A21BE15622A1(A1_2)
   local L2_2, L3_2, L4_2
   if "kToHistory" == A1_2 then
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L3_2 = L2_2
     L2_2 = L2_2.F96B361175856B33F
     L2_2(L3_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_complete_00"
     L2_2(L3_2, L4_2)
   elseif "kToReceive" == A1_2 then
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L3_2 = L2_2
     L2_2 = L2_2.FA4B261CC48134882
     L2_2(L3_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_complete_00"
     L2_2(L3_2, L4_2)
   elseif "kToTopMenu" == A1_2 then
-    L2_2 = A0_2[10]
+    L2_2 = self[10]
     L3_2 = L2_2
     L2_2 = L2_2.F1BB2C5F716B25F79
     L4_2 = "msg_o_mystery_cap_19"
     L2_2(L3_2, L4_2)
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.F6261005AD0DF9ED5
     L2_2(L3_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f54B24942
     L4_2 = "view_mystery_top_00"

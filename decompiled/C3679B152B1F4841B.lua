@@ -1,3 +1,7 @@
+---@alias C3679B152B1F4841B main_field_behaviour_character_facial_system_PlayerLookAtSystem
+
+---@class main_field_behaviour_character_facial_system_PlayerLookAtSystem : C3679B152B1F4841B_prototype
+---@field prototype C3679B152B1F4841B_prototype
 L55_1 = _ENV
 L56_1 = "C3679B152B1F4841B"
 L57_1 = L15_1
@@ -53,19 +57,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3679B152B1F4841B"]
 L69_1 = "__name__"
 L70_1 = "C3679B152B1F4841B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3679B152B1F4841B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3679B152B1F4841B"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+---@class C3679B152B1F4841B_prototype
+C3679B152B1F4841B_prototype = L15_1()
+C3679B152B1F4841B.prototype = C3679B152B1F4841B_prototype
+--- main.field.behaviour.character_facial_system.PlayerLookAtSystem.PreUpdate
+function C3679B152B1F4841B_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = L52_1.__cast
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = CCB3F169844DF1164
   L2_2 = L2_2(L3_2, L4_2)
   if nil == L2_2 then
@@ -75,7 +74,7 @@ function L70_1(A0_2, A1_2)
   if nil == L3_2 then
     return
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.f0EDF2C28
   L6_2 = L3_1
@@ -87,7 +86,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = L6_2(L7_2, L8_2)
   L6_2 = 0 ~= L6_2
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.f00544BD3
   L6_2 = L3_1

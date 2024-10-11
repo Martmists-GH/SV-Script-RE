@@ -1,7 +1,8 @@
-L68_1 = _ENV["C9D96138EAA13A5D9"]
-L69_1 = "new"
+---@alias C9D96138EAA13A5D9 main_network_receiver_BattleNetworkNetReceiver
 
-function L70_1(A0_2)
+---@class main_network_receiver_BattleNetworkNetReceiver : C9D96138EAA13A5D9_prototype
+---@field prototype C9D96138EAA13A5D9_prototype
+function C9D96138EAA13A5D9.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C9D96138EAA13A5D9
@@ -17,11 +18,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9D96138EAA13A5D9"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C9D96138EAA13A5D9
+function C9D96138EAA13A5D9.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C3DC904811DECA844
   L2_2 = L2_2.super
@@ -37,11 +35,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9D96138EAA13A5D9"]
 L69_1 = "__name__"
 L70_1 = "C9D96138EAA13A5D9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9D96138EAA13A5D9"]
-L69_1 = "S30ED99F3BA06F16A"
-
-function L70_1()
+--- main.network.receiver.BattleNetworkNetReceiver.getSceneObject
+function C9D96138EAA13A5D9.S30ED99F3BA06F16A()
   local L0_2, L1_2, L2_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -53,11 +48,8 @@ function L70_1()
   return L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9D96138EAA13A5D9"]
-L69_1 = "SD93871594E1C3C61"
-
-function L70_1()
+--- main.network.receiver.BattleNetworkNetReceiver.getBehavior
+function C9D96138EAA13A5D9.SD93871594E1C3C61()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = C9D96138EAA13A5D9
   L0_2 = L0_2.S30ED99F3BA06F16A
@@ -79,11 +71,8 @@ function L70_1()
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9D96138EAA13A5D9"]
-L69_1 = "S2E71AD9087CC54E3"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.network.receiver.BattleNetworkNetReceiver.OnNetworkReceiverFunction
+function C9D96138EAA13A5D9.S2E71AD9087CC54E3(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L5_2 = 255
   L6_2 = nil
@@ -326,11 +315,8 @@ L68_1 = "C9D96138EAA13A5D9"
 L68_1 = L25_1[L68_1]
 L69_1 = "S2E71AD9087CC54E3"
 L70_1 = _ENV["C9D96138EAA13A5D9"]["S2E71AD9087CC54E3"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9D96138EAA13A5D9"]
-L69_1 = "S3F6F34DB63A3518F"
-
-function L70_1(A0_2)
+--- main.network.receiver.BattleNetworkNetReceiver.S3F6F34DB63A3518F
+function C9D96138EAA13A5D9.S3F6F34DB63A3518F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = cD0E10A32
   L1_2 = L1_2.fB41FD22F
@@ -377,11 +363,8 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9D96138EAA13A5D9"]
-L69_1 = "S801CDB391BF6BDA1"
-
-function L70_1(A0_2, A1_2)
+--- main.network.receiver.BattleNetworkNetReceiver.S801CDB391BF6BDA1
+function C9D96138EAA13A5D9.S801CDB391BF6BDA1(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L2_2 = c1A00019C
   L2_2 = L2_2.f898BA682
@@ -549,11 +532,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9D96138EAA13A5D9"]
-L69_1 = "SF3F320CE2E2660AF"
-
-function L70_1(A0_2, A1_2)
+--- main.network.receiver.BattleNetworkNetReceiver.SF3F320CE2E2660AF
+function C9D96138EAA13A5D9.SF3F320CE2E2660AF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = false
   if 0 == A0_2 then
@@ -728,49 +708,44 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9D96138EAA13A5D9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9D96138EAA13A5D9"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C9D96138EAA13A5D9_prototype
+C9D96138EAA13A5D9_prototype = L15_1()
+C9D96138EAA13A5D9.prototype = C9D96138EAA13A5D9_prototype
+--- main.network.receiver.BattleNetworkNetReceiver.Setup
+function C9D96138EAA13A5D9_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C3DC904811DECA844
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = cD0E10A32
   L2_2 = L2_2.f4F5C01BE
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "BattleNetwork"
   L5_2 = 3
   L2_2(L3_2, L4_2, L5_2)
   L2_2 = cD0E10A32
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L2_2 = nil
   L3_2 = cD0E10A32
   L3_2 = L3_2.f94A96AB5
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.f317EB6F9
     L5_2 = "OnNetworkReceiverFunction"
     L6_2 = 0.0
     L7_2 = 9
     L3_2(L4_2, L5_2, L6_2, L7_2)
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fCDB1F88D
     L5_2 = 0
@@ -814,23 +789,17 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9D96138EAA13A5D9"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.network.receiver.BattleNetworkNetReceiver.PreUpdate
+function C9D96138EAA13A5D9_prototype:FE94F3E13286232CF(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9D96138EAA13A5D9"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.network.receiver.BattleNetworkNetReceiver.Destroy
+function C9D96138EAA13A5D9_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = C3DC904811DECA844
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 

@@ -1,3 +1,7 @@
+---@alias C8F824939B37A601D main_event_popup_window_PopupWindowTableData
+
+---@class main_event_popup_window_PopupWindowTableData : C8F824939B37A601D_prototype
+---@field prototype C8F824939B37A601D_prototype
 L55_1 = _ENV
 L56_1 = "C8F824939B37A601D"
 L57_1 = L15_1
@@ -86,18 +90,13 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C8F824939B37A601D"]
 L69_1 = "__name__"
 L70_1 = "C8F824939B37A601D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F824939B37A601D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F824939B37A601D"]["prototype"]
-L69_1 = "FA72A230E1ABEE9F9"
-
-function L70_1(A0_2, A1_2)
+---@class C8F824939B37A601D_prototype
+C8F824939B37A601D_prototype = L15_1()
+C8F824939B37A601D.prototype = C8F824939B37A601D_prototype
+--- main.event.popup_window.PopupWindowTableData.GetTableData
+function C8F824939B37A601D_prototype:FA72A230E1ABEE9F9(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L47_1.tnull

@@ -1,3 +1,7 @@
+---@alias C1C9D6B48BF1F82A6 main_ui_status_database_StatusRibbonDataAccessor
+
+---@class main_ui_status_database_StatusRibbonDataAccessor : C1C9D6B48BF1F82A6_prototype
+---@field prototype C1C9D6B48BF1F82A6_prototype
 L55_1 = _ENV
 L56_1 = "C1C9D6B48BF1F82A6"
 L57_1 = L15_1
@@ -35,16 +39,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1C9D6B48BF1F82A6"]
 L69_1 = "__name__"
 L70_1 = "C1C9D6B48BF1F82A6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1C9D6B48BF1F82A6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1C9D6B48BF1F82A6"]["prototype"]
-L69_1 = "FE87812008A777C2C"
-
-function L70_1(A0_2, A1_2)
+---@class C1C9D6B48BF1F82A6_prototype
+C1C9D6B48BF1F82A6_prototype = L15_1()
+C1C9D6B48BF1F82A6.prototype = C1C9D6B48BF1F82A6_prototype
+--- main.ui.status.database.StatusRibbonDataAccessor.InitFbs
+function C1C9D6B48BF1F82A6_prototype:FE87812008A777C2C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
@@ -62,34 +61,31 @@ function L70_1(A0_2, A1_2)
   L5_2 = L2_2
   L4_2 = L2_2.f287946D6
   L4_2 = L4_2(L5_2)
-  A0_2[1] = L4_2
+  self[1] = L4_2
   L4_2 = nil
   L5_2 = c919391D3
   L5_2 = L5_2.f70B06B69
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
     return
   end
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f6902A503
   L7_2 = "values"
   L5_2 = L5_2(L6_2, L7_2)
-  A0_2[2] = L5_2
+  self[2] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1C9D6B48BF1F82A6"]["prototype"]
-L69_1 = "F5DB449EFE4B3D4A4"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.status.database.StatusRibbonDataAccessor.GetRibbonDataArray
+function C1C9D6B48BF1F82A6_prototype:F5DB449EFE4B3D4A4(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
   L3_2 = 0
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L5_2 = L3_2 - 1
@@ -101,8 +97,8 @@ function L70_1(A0_2, A1_2)
     L8_2, L9_2, L10_2 = L8_2(L9_2, L10_2)
     L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
     if L6_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.F0B5FB52F51030C27
+      L7_2 = self
+      L6_2 = self.F0B5FB52F51030C27
       L8_2 = L5_2
       L6_2 = L6_2(L7_2, L8_2)
       if nil ~= L6_2 then
@@ -131,21 +127,18 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1C9D6B48BF1F82A6"]["prototype"]
-L69_1 = "F0B5FB52F51030C27"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.status.database.StatusRibbonDataAccessor.GetRibbonData
+function C1C9D6B48BF1F82A6_prototype:F0B5FB52F51030C27(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f6902A503
   L5_2 = "values"
   L3_2 = L3_2(L4_2, L5_2)
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.f0CA5FEBC
     L6_2 = "values"
@@ -200,13 +193,10 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1C9D6B48BF1F82A6"]["prototype"]
-L69_1 = "FEE2F82B042AB4566"
-
-function L70_1(A0_2)
+--- main.ui.status.database.StatusRibbonDataAccessor.GetDataCount
+function C1C9D6B48BF1F82A6_prototype:FEE2F82B042AB4566()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 

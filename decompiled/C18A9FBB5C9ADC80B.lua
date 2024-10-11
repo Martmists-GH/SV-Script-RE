@@ -1,3 +1,7 @@
+---@alias C18A9FBB5C9ADC80B main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokeState
+
+---@class main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokeState : C18A9FBB5C9ADC80B_prototype
+---@field prototype C18A9FBB5C9ADC80B_prototype
 L55_1 = _ENV
 L56_1 = "C18A9FBB5C9ADC80B"
 L57_1 = L15_1
@@ -42,83 +46,57 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C18A9FBB5C9ADC80B"]
 L69_1 = "__name__"
 L70_1 = "C18A9FBB5C9ADC80B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18A9FBB5C9ADC80B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18A9FBB5C9ADC80B"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C18A9FBB5C9ADC80B_prototype
+C18A9FBB5C9ADC80B_prototype = L15_1()
+C18A9FBB5C9ADC80B.prototype = C18A9FBB5C9ADC80B_prototype
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeState.onCreate
+function C18A9FBB5C9ADC80B_prototype:FC87C731D11C58354()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18A9FBB5C9ADC80B"]["prototype"]
-L69_1 = "F7A3D296366E973CB"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeState.Initialize
+function C18A9FBB5C9ADC80B_prototype:F7A3D296366E973CB(A1_2)
   local L2_2, L3_2, L4_2
-  A0_2[3] = 0
-  A0_2[4] = 0.0
-  L3_2 = A0_2
-  L2_2 = A0_2.F239C282ED3F82676
+  self[3] = 0
+  self[4] = 0.0
+  L3_2 = self
+  L2_2 = self.F239C282ED3F82676
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18A9FBB5C9ADC80B"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeState.onInitialize
+function C18A9FBB5C9ADC80B_prototype:F239C282ED3F82676(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18A9FBB5C9ADC80B"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeState.PreUpdate
+function C18A9FBB5C9ADC80B_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F1993A419B4083AE8
+  L3_2 = self
+  L2_2 = self.F1993A419B4083AE8
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18A9FBB5C9ADC80B"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeState.onPreUpdate
+function C18A9FBB5C9ADC80B_prototype:F1993A419B4083AE8(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18A9FBB5C9ADC80B"]["prototype"]
-L69_1 = "F6D1EF40E74B6E9A4"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeState.Terminate
+function C18A9FBB5C9ADC80B_prototype:F6D1EF40E74B6E9A4()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F97D80368ACC86AEF
+  L2_2 = self
+  L1_2 = self.F97D80368ACC86AEF
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18A9FBB5C9ADC80B"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeState.onTerminate
+function C18A9FBB5C9ADC80B_prototype:F97D80368ACC86AEF()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18A9FBB5C9ADC80B"]["prototype"]
-L69_1 = "F1EE797C9D5E400F1"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeState.isNight
+function C18A9FBB5C9ADC80B_prototype:F1EE797C9D5E400F1()
   local L1_2, L2_2, L3_2
   L1_2 = C05D9E556B496A3DF
   L1_2 = L1_2.SC8223E31D3163519
@@ -136,13 +114,10 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18A9FBB5C9ADC80B"]["prototype"]
-L69_1 = "F5E4F9E91C16BC199"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeState.playerDistanceXZ
+function C18A9FBB5C9ADC80B_prototype:F5E4F9E91C16BC199(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.owner
   L3_2 = L2_2
   L2_2 = L2_2.f7360ED03
@@ -164,11 +139,8 @@ function L70_1(A0_2, A1_2)
   return L12_2(L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18A9FBB5C9ADC80B"]["prototype"]
-L69_1 = "F137BD4108A76AE25"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeState.getFollowPosition
+function C18A9FBB5C9ADC80B_prototype:F137BD4108A76AE25(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = A1_2.owner
   L3_2 = L2_2
@@ -181,7 +153,7 @@ function L70_1(A0_2, A1_2)
   L9_2 = L8_2
   L8_2 = L8_2.f64857644
   L8_2 = L8_2(L9_2)
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = L9_2
   L9_2 = L9_2.F520811965E140CED
   L9_2 = L9_2(L10_2)

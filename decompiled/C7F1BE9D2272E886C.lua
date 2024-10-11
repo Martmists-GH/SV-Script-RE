@@ -1,3 +1,5 @@
+---@class C7F1BE9D2272E886C : C7F1BE9D2272E886C_prototype
+---@field prototype C7F1BE9D2272E886C_prototype
 L55_1 = _ENV
 L56_1 = "C7F1BE9D2272E886C"
 L57_1 = L15_1
@@ -71,58 +73,40 @@ L69_1 = "__name__"
 L70_1 = "C7F1BE9D2272E886C"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C7F1BE9D2272E886C"]
-L69_1 = "__interfaces__"
-L70_1 = {}
-L68_1 = _ENV["C7F1BE9D2272E886C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F1BE9D2272E886C"]["prototype"]
-L69_1 = "F7C449750894121B6"
-
-function L70_1(A0_2)
+L69_1 = "__inte---@class C7F1BE9D2272E886C_prototype
+C7F1BE9D2272E886C_prototype = L15_1()
+C7F1BE9D2272E886C.prototype = C7F1BE9D2272E886C_prototype
+--- C7F1BE9D2272E886C.IsAlive
+function C7F1BE9D2272E886C_prototype:F7C449750894121B6()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F1BE9D2272E886C"]["prototype"]
-L69_1 = "FCFABE345057A5668"
-
-function L70_1(A0_2)
+--- C7F1BE9D2272E886C.GetLocatorName
+function C7F1BE9D2272E886C_prototype:FCFABE345057A5668()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F1BE9D2272E886C"]["prototype"]
-L69_1 = "F55C6870D40306E2A"
-
-function L70_1(A0_2)
+--- C7F1BE9D2272E886C.GetWorldPosition
+function C7F1BE9D2272E886C_prototype:F55C6870D40306E2A()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F1BE9D2272E886C"]["prototype"]
-L69_1 = "F624850472E7C907F"
-
-function L70_1(A0_2)
+--- C7F1BE9D2272E886C.GetWorldRotation
+function C7F1BE9D2272E886C_prototype:F624850472E7C907F()
   local L1_2
   L1_2 = cD5675BA5
   L1_2 = L1_2.f0151A26E
   return L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F1BE9D2272E886C"]["prototype"]
-L69_1 = "F821538F8BC945D78"
-
-function L70_1(A0_2, A1_2)
+--- C7F1BE9D2272E886C.GetScreenPosition
+function C7F1BE9D2272E886C_prototype:F821538F8BC945D78(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = nil
   L3_2 = c467D18B0
@@ -140,8 +124,8 @@ function L70_1(A0_2, A1_2)
     L3_2[3] = L6_2
     return L3_2
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F55C6870D40306E2A
+  L4_2 = self
+  L3_2 = self.F55C6870D40306E2A
   L3_2 = L3_2(L4_2)
   L4_2 = CCB9F9B48224C5C05
   L4_2 = L4_2.S87D0A7A23F902071
@@ -155,7 +139,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   L3_2 = L4_2
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = {}
   L6_2 = L3_2[1]
   L7_2 = L4_2[1]
@@ -173,11 +157,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F1BE9D2272E886C"]["prototype"]
-L69_1 = "F229DBCA684147CBC"
-
-function L70_1(A0_2)
+--- C7F1BE9D2272E886C.IsCulled
+function C7F1BE9D2272E886C_prototype:F229DBCA684147CBC()
   local L1_2
   L1_2 = false
   return L1_2

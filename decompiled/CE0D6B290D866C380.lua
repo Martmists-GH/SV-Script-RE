@@ -1,3 +1,7 @@
+---@alias CE0D6B290D866C380 main_event_general_common_EventPosStopper
+
+---@class main_event_general_common_EventPosStopper : CE0D6B290D866C380_prototype
+---@field prototype CE0D6B290D866C380_prototype
 L55_1 = _ENV
 L56_1 = "CE0D6B290D866C380"
 L57_1 = L15_1
@@ -46,34 +50,23 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE0D6B290D866C380"]
 L69_1 = "__name__"
 L70_1 = "CE0D6B290D866C380"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0D6B290D866C380"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0D6B290D866C380"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class CE0D6B290D866C380_prototype
+CE0D6B290D866C380_prototype = L15_1()
+CE0D6B290D866C380.prototype = CE0D6B290D866C380_prototype
+--- main.event.general.common.EventPosStopper.preStart
+function CE0D6B290D866C380_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0D6B290D866C380"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.general.common.EventPosStopper.postStart
+function CE0D6B290D866C380_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0D6B290D866C380"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.common.EventPosStopper.mainBody
+function CE0D6B290D866C380_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = nil
   
   function L3_2()
@@ -81,7 +74,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L2_2
@@ -89,7 +82,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -108,9 +101,9 @@ function L70_1(A0_2)
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.FAFA84AD17827E40D
-    L7_2 = A0_2[35]
+    L6_2 = self
+    L5_2 = self.FAFA84AD17827E40D
+    L7_2 = self[35]
     L5_2(L6_2, L7_2)
     return
   end
@@ -124,8 +117,8 @@ function L70_1(A0_2)
   L6_2 = L6_2(L7_2)
   L8_2 = L5_2
   L7_2 = L5_2.push
-  L10_2 = A0_2
-  L9_2 = A0_2.FB1C83F72A735E1C6
+  L10_2 = self
+  L9_2 = self.FB1C83F72A735E1C6
   L11_2 = L6_2
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L9_2(L10_2, L11_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
@@ -185,8 +178,8 @@ function L70_1(A0_2)
     L9_2 = L9_2 + 1
     L11_2 = C9B54BC04DD492B6D
     L11_2 = L11_2.S12FD376DC11712C8
-    L13_2 = A0_2
-    L12_2 = A0_2.FFD42831DB96C3BF7
+    L13_2 = self
+    L12_2 = self.FFD42831DB96C3BF7
     L14_2 = L10_2
     L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L12_2(L13_2, L14_2)
     L11_2(L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
@@ -238,7 +231,7 @@ function L70_1(A0_2)
   L13_2 = "playerMoveDistance"
   L11_2 = L11_2(L12_2, L13_2)
   if nil == L11_2 or 0.0 == L11_2 then
-    L11_2 = A0_2[35]
+    L11_2 = self[35]
   end
   L12_2 = CCD22EFED4E9E5F89
   L12_2 = L12_2.SA10AE4787B2E55A3
@@ -261,8 +254,8 @@ function L70_1(A0_2)
       L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L14_2(L15_2)
       L12_2 = L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
       if 0 == L12_2 then
-        L13_2 = A0_2
-        L12_2 = A0_2.FAFA84AD17827E40D
+        L13_2 = self
+        L12_2 = self.FAFA84AD17827E40D
         L14_2 = L11_2
         L12_2(L13_2, L14_2)
     end
@@ -271,8 +264,8 @@ function L70_1(A0_2)
     L13_2 = L3_2
     L12_2 = L3_2.fFFA0248C
     L12_2, L13_2, L14_2 = L12_2(L13_2)
-    L16_2 = A0_2
-    L15_2 = A0_2.FEDF142B35C3D02F1
+    L16_2 = self
+    L15_2 = self.FEDF142B35C3D02F1
     L17_2 = {}
     L18_2 = L12_2
     L19_2 = L13_2
@@ -292,43 +285,31 @@ function L70_1(A0_2)
     L12_2 = L12_2 + 1
     L14_2 = C9B54BC04DD492B6D
     L14_2 = L14_2.SEC5605D9D6B5E309
-    L16_2 = A0_2
-    L15_2 = A0_2.FFD42831DB96C3BF7
+    L16_2 = self
+    L15_2 = self.FFD42831DB96C3BF7
     L17_2 = L13_2
     L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L15_2(L16_2, L17_2)
     L14_2(L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0D6B290D866C380"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.common.EventPosStopper.mainBodyFinish
+function CE0D6B290D866C380_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0D6B290D866C380"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.common.EventPosStopper.preEnd
+function CE0D6B290D866C380_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0D6B290D866C380"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.general.common.EventPosStopper.postEnd
+function CE0D6B290D866C380_prototype:F3E13E4094D09A594()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0D6B290D866C380"]["prototype"]
-L69_1 = "FAFA84AD17827E40D"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.common.EventPosStopper.playerMove
+function CE0D6B290D866C380_prototype:FAFA84AD17827E40D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S93A017D496A6D000
@@ -382,11 +363,8 @@ function L70_1(A0_2, A1_2)
   L13_2(L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0D6B290D866C380"]["prototype"]
-L69_1 = "FB1C83F72A735E1C6"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.common.EventPosStopper.getMessageInfo
+function CE0D6B290D866C380_prototype:FB1C83F72A735E1C6(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L16_1
   L3_2 = {}
@@ -423,11 +401,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0D6B290D866C380"]["prototype"]
-L69_1 = "FFD42831DB96C3BF7"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.common.EventPosStopper.getMessageFilePath
+function CE0D6B290D866C380_prototype:FFD42831DB96C3BF7(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = L31_1.string
   L3_2 = L31_1.string
@@ -445,11 +420,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE0D6B290D866C380"]["prototype"]
-L69_1 = "FEDF142B35C3D02F1"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.common.EventPosStopper.playerMovePos
+function CE0D6B290D866C380_prototype:FEDF142B35C3D02F1(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S6325D39063BFCD33

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C40DD3A4D58A5EFB5"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C40DD3A4D58A5EFB5"]
-L69_1 = "new"
+---@alias C40DD3A4D58A5EFB5 main_field_management_PlayerGazeManager
 
-function L70_1(A0_2)
+---@class main_field_management_PlayerGazeManager : C40DD3A4D58A5EFB5_prototype
+---@field prototype C40DD3A4D58A5EFB5_prototype
+C40DD3A4D58A5EFB5 = L15_1()
+function C40DD3A4D58A5EFB5.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C40DD3A4D58A5EFB5
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40DD3A4D58A5EFB5"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C40DD3A4D58A5EFB5
+function C40DD3A4D58A5EFB5.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[4] = nil
   A0_2[3] = false
@@ -44,11 +38,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C40DD3A4D58A5EFB5"]
 L69_1 = "__name__"
 L70_1 = "C40DD3A4D58A5EFB5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40DD3A4D58A5EFB5"]
-L69_1 = "S1064023CCA1E86DB"
-
-function L70_1()
+--- main.field_management.PlayerGazeManager.get_PlayerLookAt
+function C40DD3A4D58A5EFB5.S1064023CCA1E86DB()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.S93A017D496A6D000
@@ -104,11 +95,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40DD3A4D58A5EFB5"]
-L69_1 = "S4D37387288A60F06"
-
-function L70_1(A0_2, A1_2)
+--- main.field_management.PlayerGazeManager.SetTarget
+function C40DD3A4D58A5EFB5.S4D37387288A60F06(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = C40DD3A4D58A5EFB5
   L2_2 = L2_2.SF3075AB31C9E8AF4
@@ -225,11 +213,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40DD3A4D58A5EFB5"]
-L69_1 = "SECAD0D380271F4FE"
-
-function L70_1(A0_2)
+--- main.field_management.PlayerGazeManager.SetBootableTarget
+function C40DD3A4D58A5EFB5.SECAD0D380271F4FE(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = C40DD3A4D58A5EFB5
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -466,11 +451,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40DD3A4D58A5EFB5"]
-L69_1 = "S5EA3C39F1D490BBF"
-
-function L70_1(A0_2)
+--- main.field_management.PlayerGazeManager.EnableTarget
+function C40DD3A4D58A5EFB5.S5EA3C39F1D490BBF(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C40DD3A4D58A5EFB5
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -516,11 +498,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40DD3A4D58A5EFB5"]
-L69_1 = "SE1EA4C8C89BEC715"
-
-function L70_1(A0_2)
+--- main.field_management.PlayerGazeManager.setLookAt
+function C40DD3A4D58A5EFB5.SE1EA4C8C89BEC715(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S10B32CE3FEC94B7B
@@ -593,16 +572,11 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40DD3A4D58A5EFB5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40DD3A4D58A5EFB5"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C40DD3A4D58A5EFB5_prototype
+C40DD3A4D58A5EFB5_prototype = L15_1()
+C40DD3A4D58A5EFB5.prototype = C40DD3A4D58A5EFB5_prototype
+--- main.field_management.PlayerGazeManager.Setup
+function C40DD3A4D58A5EFB5_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C40DD3A4D58A5EFB5
   L2_2 = L2_2.SF3075AB31C9E8AF4
@@ -610,10 +584,10 @@ function L70_1(A0_2, A1_2)
     return
   end
   L2_2 = C40DD3A4D58A5EFB5
-  L2_2.SF3075AB31C9E8AF4 = A0_2
+  L2_2.SF3075AB31C9E8AF4 = self
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f024ADB0D
@@ -621,24 +595,21 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
   L2_2 = L26_1.new
   L2_2 = L2_2()
-  A0_2[2] = L2_2
-  L2_2 = A0_2[2]
+  self[2] = L2_2
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.resize
   L4_2 = 4
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40DD3A4D58A5EFB5"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field_management.PlayerGazeManager.PreUpdate
+function C40DD3A4D58A5EFB5_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S722AB07CDD6DEDA4
   if nil ~= L2_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     if L3_2 then
       L4_2 = L2_2
       L3_2 = L2_2.F19754047EE2E554C
@@ -649,7 +620,7 @@ function L70_1(A0_2, A1_2)
         L4_2 = 2
         L5_2 = nil
         L3_2(L4_2, L5_2)
-        A0_2[3] = false
+        self[3] = false
       end
     else
       L4_2 = L2_2
@@ -664,13 +635,13 @@ function L70_1(A0_2, A1_2)
         L6_2 = L2_2[7]
         L5_2, L6_2 = L5_2(L6_2)
         L3_2(L4_2, L5_2, L6_2)
-        A0_2[3] = true
+        self[3] = true
       end
     end
   else
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     if not L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L3_2 = L3_2[2]
       if nil == L3_2 then
         goto lbl_46
@@ -681,16 +652,16 @@ function L70_1(A0_2, A1_2)
     L4_2 = 2
     L5_2 = nil
     L3_2(L4_2, L5_2)
-    A0_2[3] = false
+    self[3] = false
   end
   ::lbl_46::
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   if nil ~= L3_2 then
     L3_2 = C4B092ECAC3E586CC
     L3_2 = L3_2.SC8223E31D3163519
     L4_2 = L3_2
     L3_2 = L3_2.FEF805D0E28B92A6D
-    L5_2 = A0_2[4]
+    L5_2 = self[4]
     L3_2 = L3_2(L4_2, L5_2)
     if not L3_2 then
       L3_2 = C40DD3A4D58A5EFB5
@@ -698,7 +669,7 @@ function L70_1(A0_2, A1_2)
       L4_2 = 0
       L5_2 = nil
       L3_2(L4_2, L5_2)
-      A0_2[4] = nil
+      self[4] = nil
     end
   end
 end

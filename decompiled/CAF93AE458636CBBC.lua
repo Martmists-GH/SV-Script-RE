@@ -1,3 +1,7 @@
+---@alias CAF93AE458636CBBC main_event_general_gym_Gym_mushi_out_ball
+
+---@class main_event_general_gym_Gym_mushi_out_ball : CAF93AE458636CBBC_prototype
+---@field prototype CAF93AE458636CBBC_prototype
 L55_1 = _ENV
 L56_1 = "CAF93AE458636CBBC"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CAF93AE458636CBBC"]
 L69_1 = "__name__"
 L70_1 = "CAF93AE458636CBBC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF93AE458636CBBC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF93AE458636CBBC"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CAF93AE458636CBBC_prototype
+CAF93AE458636CBBC_prototype = L15_1()
+CAF93AE458636CBBC.prototype = CAF93AE458636CBBC_prototype
+--- main.event.general.gym.Gym_mushi_out_ball.mainBody
+function CAF93AE458636CBBC_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = nil
   
@@ -63,7 +62,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -71,7 +70,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -136,8 +135,8 @@ function L70_1(A0_2)
   L6_2 = nil
   L7_2 = C97020DF9B90A5322
   L7_2 = L7_2.S88DA81A76739C01A
-  L9_2 = A0_2
-  L8_2 = A0_2.F3DB9B9098E388268
+  L9_2 = self
+  L8_2 = self.F3DB9B9098E388268
   L8_2 = L8_2(L9_2)
   
   function L9_2()
@@ -145,7 +144,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L6_2
@@ -153,7 +152,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -203,11 +202,8 @@ function L70_1(A0_2)
   L7_2(L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF93AE458636CBBC"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.general.gym.Gym_mushi_out_ball.postEnd
+function CAF93AE458636CBBC_prototype:F3E13E4094D09A594()
   local L1_2
   L1_2 = C97020DF9B90A5322
   L1_2 = L1_2.S64FF24E1B76ED3CE
@@ -217,11 +213,8 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF93AE458636CBBC"]["prototype"]
-L69_1 = "F3DB9B9098E388268"
-
-function L70_1(A0_2)
+--- main.event.general.gym.Gym_mushi_out_ball.getDefaultScene
+function CAF93AE458636CBBC_prototype:F3DB9B9098E388268()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D

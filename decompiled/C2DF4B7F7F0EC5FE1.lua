@@ -1,3 +1,7 @@
+---@alias C2DF4B7F7F0EC5FE1 main_field_action_ActionPlayerWarp
+
+---@class main_field_action_ActionPlayerWarp : C2DF4B7F7F0EC5FE1_prototype
+---@field prototype C2DF4B7F7F0EC5FE1_prototype
 L55_1 = _ENV
 L56_1 = "C2DF4B7F7F0EC5FE1"
 L57_1 = L15_1
@@ -43,24 +47,19 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2DF4B7F7F0EC5FE1"]
 L69_1 = "__name__"
 L70_1 = "C2DF4B7F7F0EC5FE1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2DF4B7F7F0EC5FE1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2DF4B7F7F0EC5FE1"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+---@class C2DF4B7F7F0EC5FE1_prototype
+C2DF4B7F7F0EC5FE1_prototype = L15_1()
+C2DF4B7F7F0EC5FE1.prototype = C2DF4B7F7F0EC5FE1_prototype
+--- main.field.action.ActionPlayerWarp.onPreUpdate
+function C2DF4B7F7F0EC5FE1_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   L1_2 = L1_2.rotation
   L2_2 = L1_2
   L1_2 = L1_2.f1087DA78
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L1_2 = A0_2[16]
+    L1_2 = self[16]
     L1_2 = L1_2.rotation
     L3_2 = L1_2
     L2_2 = L1_2.fCCBD9548
@@ -77,9 +76,9 @@ function L70_1(A0_2)
     L2_2 = 2
     return L2_2
   end
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   L1_2 = L1_2.translation
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.owner
   L3_2 = L2_2
   L2_2 = L2_2.f8F2B0552
@@ -87,11 +86,11 @@ function L70_1(A0_2)
   L5_2 = L1_2[2]
   L6_2 = L1_2[3]
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.owner
   L3_2 = L2_2
   L2_2 = L2_2.f24032F87
-  L4_2 = A0_2[16]
+  L4_2 = self[16]
   L4_2 = L4_2.rotation
   L2_2(L3_2, L4_2)
   L2_2 = cAF8D78F3
@@ -147,7 +146,7 @@ function L70_1(A0_2)
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
-    L5_2 = A0_2[16]
+    L5_2 = self[16]
     L5_2 = L5_2.translation
     L6_2 = CFC8F368D91411014
     L6_2 = L6_2.S342007287416AA78
@@ -156,7 +155,7 @@ function L70_1(A0_2)
     L8_2 = L5_2[1]
     L9_2 = L5_2[2]
     L10_2 = L5_2[3]
-    L11_2 = A0_2[16]
+    L11_2 = self[16]
     L11_2 = L11_2.rotation
     L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
   end
@@ -167,13 +166,13 @@ function L70_1(A0_2)
     L5_2 = L5_2.S5C8618629D667D49
     L6_2 = L5_2
     L5_2 = L5_2.FA603C1E5B522916F
-    L7_2 = A0_2[16]
+    L7_2 = self[16]
     L7_2 = L7_2.translation
-    L8_2 = A0_2[16]
+    L8_2 = self[16]
     L8_2 = L8_2.rotation
     L5_2(L6_2, L7_2, L8_2)
   end
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = c6D662D55
   L6_2 = L6_2.fB41FD22F
   
@@ -198,14 +197,14 @@ function L70_1(A0_2)
   L10_2 = L7_2
   L8_2 = L8_2(L9_2, L10_2)
   if L8_2 then
-    L8_2 = A0_2[16]
+    L8_2 = self[16]
     L8_2 = L8_2.translation
     L10_2 = L6_2
     L9_2 = L6_2.fF8426577
     L11_2 = L8_2[1]
     L12_2 = L8_2[2]
     L13_2 = L8_2[3]
-    L14_2 = A0_2[16]
+    L14_2 = self[16]
     L14_2 = L14_2.rotation
     L9_2(L10_2, L11_2, L12_2, L13_2, L14_2)
   end

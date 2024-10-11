@@ -1,3 +1,7 @@
+---@alias C60A428F31AAD936B main_nushi_hagane_HaganeNushiFirstBattleEventManager
+
+---@class main_nushi_hagane_HaganeNushiFirstBattleEventManager : C60A428F31AAD936B_prototype
+---@field prototype C60A428F31AAD936B_prototype
 L55_1 = _ENV
 L56_1 = "C60A428F31AAD936B"
 L57_1 = L15_1
@@ -44,18 +48,13 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C60A428F31AAD936B"]
 L69_1 = "__name__"
 L70_1 = "C60A428F31AAD936B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A428F31AAD936B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A428F31AAD936B"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C60A428F31AAD936B_prototype
+C60A428F31AAD936B_prototype = L15_1()
+C60A428F31AAD936B.prototype = C60A428F31AAD936B_prototype
+--- main.nushi.hagane.HaganeNushiFirstBattleEventManager.Setup
+function C60A428F31AAD936B_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = C9AA363B3CCC264AA
   L3_2 = L3_2.SA5B8258582A90EF3
   L4_2 = "nushi_hagane_010"
@@ -64,16 +63,16 @@ function L70_1(A0_2, A1_2)
     return
   end
   L3_2 = C60A428F31AAD936B
-  L3_2.S7D1E199BBD384D72 = A0_2
+  L3_2.S7D1E199BBD384D72 = self
   L3_2 = C2EAC8AEE287A3A4D
   L3_2 = L3_2.new
   L3_2 = L3_2()
-  A0_2[3] = L3_2
+  self[3] = L3_2
   L3_2 = CC704789D12A0E0F2
   L3_2 = L3_2.new
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
-  A0_2[4] = L3_2
+  self[4] = L3_2
   L3_2 = C1DB14DCC9D7634FA
   L3_2 = L3_2.new
   
@@ -199,7 +198,7 @@ function L70_1(A0_2, A1_2)
   end
   
   L5_2 = L31_1.string
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L6_2
   L6_2 = L6_2.fE9C29DA1
   L6_2, L7_2 = L6_2(L7_2)
@@ -209,24 +208,21 @@ function L70_1(A0_2, A1_2)
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 .. L6_2
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[2] = L3_2
+  self[2] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A428F31AAD936B"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.hagane.HaganeNushiFirstBattleEventManager.PreUpdate
+function C60A428F31AAD936B_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = L62_1
       L4_2 = L64_1.pack
       L5_2 = L10_1.coroutine
@@ -271,17 +267,17 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   if nil ~= L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.F1EEC0C9E6E826C5B
     L4_2 = A1_2
     L2_2(L3_2, L4_2)
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil ~= L2_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.F3BC3E2DE6CE68A7D
     L4_2 = A1_2
@@ -289,67 +285,61 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A428F31AAD936B"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.nushi.hagane.HaganeNushiFirstBattleEventManager.Destroy
+function C60A428F31AAD936B_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   if nil ~= L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.FB50C9ACDC127E3B9
     L1_2(L2_2)
   end
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if nil ~= L1_2 then
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     L2_2 = L1_2
     L1_2 = L1_2.FB50C9ACDC127E3B9
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A428F31AAD936B"]["prototype"]
-L69_1 = "FF763B092829A9551"
-
-function L70_1(A0_2)
+--- main.nushi.hagane.HaganeNushiFirstBattleEventManager.NushiPop
+function C60A428F31AAD936B_prototype:FF763B092829A9551()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = cECB91E31
   L2_2 = L2_2.fB41FD22F
   L3_2 = c2FB59E8B
   L3_2 = L3_2.fB900AE56
   L3_2, L4_2, L5_2 = L3_2()
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2[17] = L2_2
+  self[17] = L2_2
   L2_2 = C18DF4E0745B920F9
   L2_2 = L2_2.S7D1E199BBD384D72
   L3_2 = L2_2
   L2_2 = L2_2.FB1AFE225DA3AE472
   L2_2(L3_2)
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   L3_2 = L2_2
   L2_2 = L2_2.F2CE29EE06B814825
-  L4_2 = A0_2[9]
+  L4_2 = self[9]
   L2_2(L3_2, L4_2)
   L2_2 = cAF8D78F3
   L2_2 = L2_2.f37537CF4
   L2_2 = L2_2()
   L3_2 = L2_2
   L2_2 = L2_2.f74CDFF75
-  L4_2 = A0_2[13]
+  L4_2 = self[13]
   L4_2 = L4_2[1]
   L5_2 = false
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   L3_2 = L2_2
   L2_2 = L2_2.f6754453E
   L4_2 = false
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F7EED485852A4D25F
   L4_2 = 4.5
@@ -374,19 +364,16 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A428F31AAD936B"]["prototype"]
-L69_1 = "FB16F0DEFAC1C34AD"
-
-function L70_1(A0_2)
+--- main.nushi.hagane.HaganeNushiFirstBattleEventManager.PlayerUp
+function C60A428F31AAD936B_prototype:FB16F0DEFAC1C34AD()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2
-  L2_2 = A0_2[13]
+  L1_2 = self
+  L2_2 = self[13]
   L3_2 = L2_2
   L2_2 = L2_2.F2CE29EE06B814825
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F7EED485852A4D25F
   L4_2 = 3
@@ -405,13 +392,10 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A428F31AAD936B"]["prototype"]
-L69_1 = "F605F9F50C37F1CA8"
-
-function L70_1(A0_2)
+--- main.nushi.hagane.HaganeNushiFirstBattleEventManager.NushiBattle
+function C60A428F31AAD936B_prototype:F605F9F50C37F1CA8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = c2FB59E8B
   L2_2 = L2_2.fB900AE56
   L2_2 = L2_2()
@@ -445,15 +429,15 @@ function L70_1(A0_2)
   L6_2 = L6_2.F1D64ECC0F78FA76F
   L8_2 = 1
   L6_2(L7_2, L8_2)
-  L6_2 = A0_2[13]
+  L6_2 = self[13]
   L7_2 = L6_2
   L6_2 = L6_2.F2CE29EE06B814825
-  L8_2 = A0_2[11]
+  L8_2 = self[11]
   L6_2(L7_2, L8_2)
   L6_2 = nil
   L7_2 = nil
   L8_2 = nil
-  L9_2 = A0_2[11]
+  L9_2 = self[11]
   L9_2 = L9_2[2]
   L10_2 = L9_2
   L9_2 = L9_2.f33A459EF
@@ -461,12 +445,12 @@ function L70_1(A0_2)
   L8_2 = L9_2
   L7_2 = L10_2
   L6_2 = L11_2
-  L12_2 = A0_2[11]
+  L12_2 = self[11]
   L12_2 = L12_2[2]
   L13_2 = L12_2
   L12_2 = L12_2.f40043336
   L12_2 = L12_2(L13_2)
-  L13_2 = A0_2[11]
+  L13_2 = self[11]
   L13_2 = L13_2[2]
   L14_2 = L13_2
   L13_2 = L13_2.f9BDF0F91
@@ -476,7 +460,7 @@ function L70_1(A0_2)
   L14_2 = 2 * L14_2
   L13_2 = L13_2 / L14_2
   L13_2 = L13_2 * 360.0
-  L14_2 = A0_2[3]
+  L14_2 = self[3]
   L15_2 = L14_2
   L14_2 = L14_2.F7EED485852A4D25F
   L16_2 = 1
@@ -636,14 +620,11 @@ function L70_1(A0_2)
   L14_2(L15_2, L16_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A428F31AAD936B"]["prototype"]
-L69_1 = "F82A69B062DA4EFED"
-
-function L70_1(A0_2)
+--- main.nushi.hagane.HaganeNushiFirstBattleEventManager.ReSetUp
+function C60A428F31AAD936B_prototype:F82A69B062DA4EFED()
   local L1_2, L2_2, L3_2
-  A0_2[15] = false
-  A0_2[16] = false
+  self[15] = false
+  self[16] = false
   L1_2 = C18DF4E0745B920F9
   L1_2 = L1_2.S7D1E199BBD384D72
   if nil ~= L1_2 then

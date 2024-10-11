@@ -1,3 +1,7 @@
+---@alias CC578323F904AC94D main_pokepicnic_database_RecipeDatabase
+
+---@class main_pokepicnic_database_RecipeDatabase : CC578323F904AC94D_prototype
+---@field prototype CC578323F904AC94D_prototype
 L55_1 = _ENV
 L56_1 = "CC578323F904AC94D"
 L57_1 = L15_1
@@ -39,52 +43,41 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC578323F904AC94D"]
 L69_1 = "__name__"
 L70_1 = "CC578323F904AC94D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC578323F904AC94D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC578323F904AC94D"]["prototype"]
-L69_1 = "FC956E297B076BA80"
-
-function L70_1(A0_2)
+---@class CC578323F904AC94D_prototype
+CC578323F904AC94D_prototype = L15_1()
+CC578323F904AC94D.prototype = CC578323F904AC94D_prototype
+--- main.pokepicnic.database.RecipeDatabase.get_DataNum
+function CC578323F904AC94D_prototype:FC956E297B076BA80()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c919391D3
   L2_2 = L2_2.f70B06B69
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = 0
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f6902A503
   L4_2 = "values"
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC578323F904AC94D"]["prototype"]
-L69_1 = "F795CBC2B12F8956D"
-
-function L70_1(A0_2)
+--- main.pokepicnic.database.RecipeDatabase.OnSetup
+function CC578323F904AC94D_prototype:F795CBC2B12F8956D()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FE061843D64753156
+  L2_2 = self
+  L1_2 = self.FE061843D64753156
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC578323F904AC94D"]["prototype"]
-L69_1 = "F87972F52753D499F"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.database.RecipeDatabase.GetData
+function CC578323F904AC94D_prototype:F87972F52753D499F(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L42_1.tnull
@@ -94,15 +87,12 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC578323F904AC94D"]["prototype"]
-L69_1 = "FC203D396AB60A703"
-
-function L70_1(A0_2)
+--- main.pokepicnic.database.RecipeDatabase.ResetCustomData
+function CC578323F904AC94D_prototype:FC203D396AB60A703()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
-  A0_2[5] = L1_2
+  self[5] = L1_2
   L1_2 = 0
   L2_2 = c1CBE15F4
   L2_2 = L2_2.f5FCAF436
@@ -131,7 +121,7 @@ function L70_1(A0_2)
       L7_2 = L6_2.F2D9FDBC91AE9A0AB
       L9_2 = L4_2
       L7_2(L8_2, L9_2)
-      L7_2 = A0_2[5]
+      L7_2 = self[5]
       L8_2 = L7_2
       L7_2 = L7_2.push
       L9_2 = L6_2
@@ -144,23 +134,20 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC578323F904AC94D"]["prototype"]
-L69_1 = "FE061843D64753156"
-
-function L70_1(A0_2)
+--- main.pokepicnic.database.RecipeDatabase.SetupData
+function CC578323F904AC94D_prototype:FE061843D64753156()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = L42_1.new
   L1_2 = L1_2()
-  A0_2[4] = L1_2
+  self[4] = L1_2
   L1_2 = 0
-  L3_2 = A0_2
-  L2_2 = A0_2.FC956E297B076BA80
+  L3_2 = self
+  L2_2 = self.FC956E297B076BA80
   L2_2 = L2_2(L3_2)
   L3_2 = false
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.f0CA5FEBC
     L6_2 = "values"
@@ -178,7 +165,7 @@ function L70_1(A0_2)
       L7_2 = L6_2.F7C68FEDB79AB6396
       L9_2 = L4_2
       L7_2(L8_2, L9_2)
-      L7_2 = A0_2[4]
+      L7_2 = self[4]
       if nil == L6_2 then
         L8_2 = L7_2.h
         L9_2 = L42_1.tnull
@@ -193,8 +180,8 @@ function L70_1(A0_2)
       break
     end
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.FC203D396AB60A703
+  L5_2 = self
+  L4_2 = self.FC203D396AB60A703
   L4_2(L5_2)
 end
 

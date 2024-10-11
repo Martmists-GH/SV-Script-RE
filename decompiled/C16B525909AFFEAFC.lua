@@ -1,3 +1,7 @@
+---@alias C16B525909AFFEAFC main_ui_btlspot_ui_BattleSpotUIPageOfficial
+
+---@class main_ui_btlspot_ui_BattleSpotUIPageOfficial : C16B525909AFFEAFC_prototype
+---@field prototype C16B525909AFFEAFC_prototype
 L55_1 = _ENV
 L56_1 = "C16B525909AFFEAFC"
 L57_1 = L15_1
@@ -42,32 +46,27 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C16B525909AFFEAFC"]
 L69_1 = "__name__"
 L70_1 = "C16B525909AFFEAFC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16B525909AFFEAFC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16B525909AFFEAFC"]["prototype"]
-L69_1 = "FE48BF10C376733AF"
-
-function L70_1(A0_2, A1_2)
+---@class C16B525909AFFEAFC_prototype
+C16B525909AFFEAFC_prototype = L15_1()
+C16B525909AFFEAFC.prototype = C16B525909AFFEAFC_prototype
+--- main.ui.btlspot.ui.BattleSpotUIPageOfficial.FE48BF10C376733AF
+function C16B525909AFFEAFC_prototype:FE48BF10C376733AF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FB69F3D00DFAE2D22
+  L3_2 = self
+  L2_2 = self.FB69F3D00DFAE2D22
   L4_2 = A1_2
   L5_2 = "T_title_09"
   L6_2 = "T_value_10"
   L7_2 = "T_value_09"
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F42469C6F04014FB9
+  L3_2 = self
+  L2_2 = self.F42469C6F04014FB9
   L4_2 = A1_2
   L5_2 = "T_title_08"
   L6_2 = "T_value_08"
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F8DFA932B840ABACD
+  L3_2 = self
+  L2_2 = self.F8DFA932B840ABACD
   L4_2 = A1_2
   L5_2 = "T_title_06"
   L6_2 = "T_date_11"
@@ -77,60 +76,57 @@ function L70_1(A0_2, A1_2)
   L10_2 = "T_date_07"
   L11_2 = "T_date_06"
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FFB133E248F84FFE4
+  L3_2 = self
+  L2_2 = self.FFB133E248F84FFE4
   L4_2 = A1_2
   L5_2 = "T_title_05"
   L6_2 = "T_value_00"
   L7_2 = "T_value_01"
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FFCEA68E668008CC2
+  L3_2 = self
+  L2_2 = self.FFCEA68E668008CC2
   L4_2 = A1_2
   L5_2 = "T_title_01"
   L6_2 = "T_detail_f_19"
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F9D042A3869DEFEFA
+  L3_2 = self
+  L2_2 = self.F9D042A3869DEFEFA
   L4_2 = A1_2
   L5_2 = "T_title_02"
   L6_2 = "T_detail_f_00"
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FBAFEC11EBA26F6FE
+  L3_2 = self
+  L2_2 = self.FBAFEC11EBA26F6FE
   L4_2 = A1_2
   L5_2 = "T_title_00"
   L6_2 = "T_detail_f_21"
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F204DE7F33B1A9ACD
+  L3_2 = self
+  L2_2 = self.F204DE7F33B1A9ACD
   L4_2 = "T_page_03"
   L5_2 = "T_page_04"
   L6_2 = "T_page_05"
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16B525909AFFEAFC"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUIPageOfficial.Update
+function C16B525909AFFEAFC_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F86BDCA600B62FB85
+  L3_2 = self
+  L2_2 = self.F86BDCA600B62FB85
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = -1
     return L2_2
   end
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   L3_2 = L2_2
   L2_2 = L2_2.fDEEB3A8E
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F6FCE9E4187792625
+    L3_2 = self
+    L2_2 = self.F6FCE9E4187792625
     L4_2 = false
     L2_2(L3_2, L4_2)
     L2_2 = C3A36506FBC96ACBD
@@ -143,7 +139,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = CCFC2CF6B7B1477C2
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FEB6685558281F194
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   return L2_2(L3_2, L4_2)
 end
@@ -153,11 +149,11 @@ L68_1 = _ENV["C16B525909AFFEAFC"]
 L68_1 = L68_1.prototype
 L69_1 = "FBAFEC11EBA26F6FE"
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+function L70_1(self, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L4_2 = C6EC1A2D33C58AA58
   L4_2 = L4_2.SA8DC316C3B340E48
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = A2_2
   L4_2(L5_2, L6_2)
   L4_2 = cB3DDDC2A
@@ -197,7 +193,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
   L5_2 = c8C3BF576
   L5_2 = L5_2.f316077B2
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = A3_2
   L9_2 = L4_2
   L8_2 = L4_2.f39DD249C
@@ -215,11 +211,11 @@ L68_1 = _ENV["C16B525909AFFEAFC"]
 L68_1 = L68_1.prototype
 L69_1 = "F9D042A3869DEFEFA"
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+function L70_1(self, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L4_2 = c8C3BF576
   L4_2 = L4_2.f46674724
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = A2_2
   L7_2 = "btlspot"
   L8_2 = "msg_ui_btlspot_sys_65"
@@ -237,7 +233,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
   L5_2 = c8C3BF576
   L5_2 = L5_2.f316077B2
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = A3_2
   L9_2 = L4_2
   L8_2 = L4_2.f39DD249C

@@ -1,3 +1,7 @@
+---@alias C4354AFC2412E4E07 main_event_general_danbattle_HealDrinkEvent
+
+---@class main_event_general_danbattle_HealDrinkEvent : C4354AFC2412E4E07_prototype
+---@field prototype C4354AFC2412E4E07_prototype
 L55_1 = _ENV
 L56_1 = "C4354AFC2412E4E07"
 L57_1 = L15_1
@@ -46,16 +50,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4354AFC2412E4E07"]
 L69_1 = "__name__"
 L70_1 = "C4354AFC2412E4E07"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4354AFC2412E4E07"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4354AFC2412E4E07"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C4354AFC2412E4E07_prototype
+C4354AFC2412E4E07_prototype = L15_1()
+C4354AFC2412E4E07.prototype = C4354AFC2412E4E07_prototype
+--- main.event.general.danbattle.HealDrinkEvent.mainBody
+function C4354AFC2412E4E07_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2
   L1_2 = C896E82AC366C8E8F
   L1_2 = L1_2.S4539FBABC0D19D63
@@ -80,16 +79,13 @@ function L70_1(A0_2)
   if L1_2 then
     return
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.FFEE91DA3585752C1
+  L2_2 = self
+  L1_2 = self.FFEE91DA3585752C1
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4354AFC2412E4E07"]["prototype"]
-L69_1 = "FFEE91DA3585752C1"
-
-function L70_1(A0_2)
+--- main.event.general.danbattle.HealDrinkEvent.choiseDanBattleTalk
+function C4354AFC2412E4E07_prototype:FFEE91DA3585752C1()
   local L1_2, L2_2, L3_2
   L1_2 = C896E82AC366C8E8F
   L1_2 = L1_2.S4539FBABC0D19D63
@@ -100,8 +96,8 @@ function L70_1(A0_2)
     L1_2()
     return
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F91E4526D2FA3A50F
+  L2_2 = self
+  L1_2 = self.F91E4526D2FA3A50F
   L1_2(L2_2)
   L1_2 = C896E82AC366C8E8F
   L1_2 = L1_2.S4539FBABC0D19D63
@@ -110,17 +106,14 @@ function L70_1(A0_2)
   L1_2 = L1_2.F1D75CCE15355A5E3
   L3_2 = C1EF5841295C37C2C
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[34] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F611A21809F1C818E
+  self[34] = L1_2
+  L2_2 = self
+  L1_2 = self.F611A21809F1C818E
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4354AFC2412E4E07"]["prototype"]
-L69_1 = "F611A21809F1C818E"
-
-function L70_1(A0_2)
+--- main.event.general.danbattle.HealDrinkEvent.healTemochi
+function C4354AFC2412E4E07_prototype:F611A21809F1C818E()
   local L1_2, L2_2, L3_2
   L1_2 = CD081B219DEE96EEF
   L1_2 = L1_2.SA3F85A17B10891E4
@@ -131,9 +124,9 @@ function L70_1(A0_2)
   L1_2 = L1_2.S218E2A14A790D265
   L2_2 = "BlackFade"
   L1_2(L2_2)
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   if not L1_2 then
-    L1_2 = A0_2[34]
+    L1_2 = self[34]
     L2_2 = L1_2
     L1_2 = L1_2.F64ACECD1CD3F476E
     L1_2(L2_2)
@@ -152,7 +145,7 @@ function L70_1(A0_2)
       if not L2_2 then
         break
       end
-      L2_2 = A0_2[33]
+      L2_2 = self[33]
       if L2_2 then
         break
       end
@@ -167,13 +160,10 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4354AFC2412E4E07"]["prototype"]
-L69_1 = "F91E4526D2FA3A50F"
-
-function L70_1(A0_2)
+--- main.event.general.danbattle.HealDrinkEvent.cancelEventSubscribe
+function C4354AFC2412E4E07_prototype:F91E4526D2FA3A50F()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = CDBCB33E53E70ED25
   L2_2 = L2_2.S511DEF29717431A3
   L2_2 = L2_2()
@@ -190,7 +180,7 @@ function L70_1(A0_2)
   end
   
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2.FC2A353573A43C587 = L2_2
+  self.FC2A353573A43C587 = L2_2
   L2_2 = CDBCB33E53E70ED25
   L2_2 = L2_2.S511DEF29717431A3
   L2_2 = L2_2()
@@ -205,7 +195,7 @@ function L70_1(A0_2)
   end
   
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2.F47624D7C8F6D0BDE = L2_2
+  self.F47624D7C8F6D0BDE = L2_2
   L2_2 = CDBCB33E53E70ED25
   L2_2 = L2_2.S511DEF29717431A3
   L2_2 = L2_2()
@@ -220,29 +210,23 @@ function L70_1(A0_2)
   end
   
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2.FCAC769158DBCBF1A = L2_2
+  self.FCAC769158DBCBF1A = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4354AFC2412E4E07"]["prototype"]
-L69_1 = "F88113BE8362370C0"
-
-function L70_1(A0_2)
+--- main.event.general.danbattle.HealDrinkEvent.forceCloseEvent
+function C4354AFC2412E4E07_prototype:F88113BE8362370C0()
   local L1_2, L2_2
-  A0_2[33] = true
+  self[33] = true
   L1_2 = C1E6D887767D3DC7E
   L1_2 = L1_2.S2A554FA1B22C8AD6
   L1_2()
-  L2_2 = A0_2
-  L1_2 = A0_2.FA2C827B56F56ABDF
+  L2_2 = self
+  L1_2 = self.FA2C827B56F56ABDF
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4354AFC2412E4E07"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- main.event.general.danbattle.HealDrinkEvent.onFinish
+function C4354AFC2412E4E07_prototype:FA2C827B56F56ABDF()
   local L1_2
   L1_2 = C4354AFC2412E4E07
   L1_2.S7B40F59D7CDDF93F = false

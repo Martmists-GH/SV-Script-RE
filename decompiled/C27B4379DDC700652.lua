@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C27B4379DDC700652"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "__name__"
-L70_1 = "C27B4379DDC700652"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "SE82D720FB7596898"
+---@alias C27B4379DDC700652 main_ui_bag_BagUIUtil
 
-function L70_1(A0_2)
+---@class main_ui_bag_BagUIUtil
+C27B4379DDC700652 = L15_1()
+C27B4379DDC700652.new = {}
+C27B4379DDC700652.__name__ = "C27B4379DDC700652"
+--- main.ui.bag.BagUIUtil.GetCategoryForFieldPocket
+function C27B4379DDC700652.SE82D720FB7596898(A0_2)
   local L1_2
   if 0 == A0_2 then
     L1_2 = 0
@@ -49,11 +40,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S1D3E242D65AD9C8F"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.S1D3E242D65AD9C8F
+function C27B4379DDC700652.S1D3E242D65AD9C8F(A0_2)
   local L1_2
   if 1231 == A0_2 then
     L1_2 = 1
@@ -124,11 +112,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S32C6D1E25F9CC300"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.IsBattleItem
+function C27B4379DDC700652.S32C6D1E25F9CC300(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C6BC8418E8E071EE6
   L1_2 = L1_2.S385504EFF7E842C3
@@ -141,11 +126,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "SC34BC5552404A7B5"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.IsRecoveryItem
+function C27B4379DDC700652.SC34BC5552404A7B5(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C27B4379DDC700652
   L1_2 = L1_2.SF7C5829DC69D0E66
@@ -288,11 +270,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S0C4312191AFEB7B3"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.IsSickRecoveryItem
+function C27B4379DDC700652.S0C4312191AFEB7B3(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C6BC8418E8E071EE6
   L1_2 = L1_2.S385504EFF7E842C3
@@ -353,11 +332,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "SD05D06C07A5902D4"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.SD05D06C07A5902D4
+function C27B4379DDC700652.SD05D06C07A5902D4(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C6BC8418E8E071EE6
   L1_2 = L1_2.S385504EFF7E842C3
@@ -429,11 +405,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S7E99ABE50488DBBB"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.IsSetToPoke
+function C27B4379DDC700652.S7E99ABE50488DBBB(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C6BC8418E8E071EE6
   L1_2 = L1_2.S385504EFF7E842C3
@@ -444,11 +417,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "SDBEBCA9F0486193E"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.IsPpRecovery
+function C27B4379DDC700652.SDBEBCA9F0486193E(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C6BC8418E8E071EE6
   L1_2 = L1_2.S385504EFF7E842C3
@@ -461,11 +431,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S2240FE4ED19DCA1C"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.GetPpRecoveryType
+function C27B4379DDC700652.S2240FE4ED19DCA1C(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C6BC8418E8E071EE6
   L1_2 = L1_2.S385504EFF7E842C3
@@ -476,11 +443,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "SF2D9F3A156D628AC"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.IsPpPointUp
+function C27B4379DDC700652.SF2D9F3A156D628AC(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C6BC8418E8E071EE6
   L1_2 = L1_2.S385504EFF7E842C3
@@ -493,31 +457,22 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "SF7C5829DC69D0E66"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.SF7C5829DC69D0E66
+function C27B4379DDC700652.SF7C5829DC69D0E66(A0_2)
   local L1_2
   L1_2 = 50 == A0_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S57E24F6D453A8360"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.S57E24F6D453A8360
+function C27B4379DDC700652.S57E24F6D453A8360(A0_2)
   local L1_2
   L1_2 = 703 == A0_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S87DFD8B470B8EB5A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIUtil.IsCanCombine
+function C27B4379DDC700652.S87DFD8B470B8EB5A(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A1_2
   L2_2 = A1_2.f0BD5134F
@@ -591,21 +546,15 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "SD283304EC9B98EE9"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.isRotomCatalog
+function C27B4379DDC700652.SD283304EC9B98EE9(A0_2)
   local L1_2
   L1_2 = 1278 == A0_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S2103AA3355E96989"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.IsMint
+function C27B4379DDC700652.S2103AA3355E96989(A0_2)
   local L1_2
   L1_2 = 1231
   if A0_2 >= L1_2 then
@@ -618,31 +567,22 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S4DF3F62CD3811F12"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.IsTokuseiCapsule
+function C27B4379DDC700652.S4DF3F62CD3811F12(A0_2)
   local L1_2
   L1_2 = 645 == A0_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S13B032B4ECDD2083"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.IsTokuseiPatch
+function C27B4379DDC700652.S13B032B4ECDD2083(A0_2)
   local L1_2
   L1_2 = 1606 == A0_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S1B00EDEC67136C85"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.IsExpAme
+function C27B4379DDC700652.S1B00EDEC67136C85(A0_2)
   local L1_2
   if 1124 ~= A0_2 and 1125 ~= A0_2 and 1126 ~= A0_2 and 1127 ~= A0_2 then
     L1_2 = 1128 == A0_2
@@ -653,11 +593,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S85C04873BAE33ADF"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.bag.BagUIUtil.SetWazaMachineInfo
+function C27B4379DDC700652.S85C04873BAE33ADF(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L5_2 = cECF00344
   L5_2 = L5_2.fEECE6995
@@ -892,11 +829,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L13_2(L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "SFFB25DD4CFE7EC3B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIUtil.CanTokuseiItemUse
+function C27B4379DDC700652.SFFB25DD4CFE7EC3B(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A0_2 then
     A0_2 = 1
@@ -951,11 +885,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S767F5F8AC775CAAC"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.BagUIUtil.S767F5F8AC775CAAC
+function C27B4379DDC700652.S767F5F8AC775CAAC(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = nil
   L3_2 = c8C3BF576
@@ -1108,11 +1039,8 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S4041B194E3E2EFCC"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.GetWazaAnimFrame
+function C27B4379DDC700652.S4041B194E3E2EFCC(A0_2)
   local L1_2, L2_2
   L1_2 = c87777D37
   L1_2 = L1_2.f60AC762F
@@ -1177,11 +1105,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "SABA1E69DEEFA2A52"
-
-function L70_1()
+--- main.ui.bag.BagUIUtil.SABA1E69DEEFA2A52
+function C27B4379DDC700652.SABA1E69DEEFA2A52()
   local L0_2, L1_2, L2_2
   L0_2 = cE461829E
   L0_2 = L0_2.fD0AD22FA
@@ -1216,22 +1141,16 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S6C9282781650F7A3"
-
-function L70_1()
+--- main.ui.bag.BagUIUtil.S6C9282781650F7A3
+function C27B4379DDC700652.S6C9282781650F7A3()
   local L0_2, L1_2
   L0_2 = C27B4379DDC700652
   L0_2 = L0_2.SB2C990F8EC563D62
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C27B4379DDC700652"]
-L69_1 = "S2C9FF9A11C2A04D5"
-
-function L70_1(A0_2)
+--- main.ui.bag.BagUIUtil.S2C9FF9A11C2A04D5
+function C27B4379DDC700652.S2C9FF9A11C2A04D5(A0_2)
   local L1_2
   L1_2 = C27B4379DDC700652
   L1_2.SB2C990F8EC563D62 = A0_2

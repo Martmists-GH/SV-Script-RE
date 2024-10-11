@@ -1,3 +1,7 @@
+---@alias C7057A403FB439355 main_ui_btlspot_ui_BattleSpotUITournament
+
+---@class main_ui_btlspot_ui_BattleSpotUITournament : C7057A403FB439355_prototype
+---@field prototype C7057A403FB439355_prototype
 L55_1 = _ENV
 L56_1 = "C7057A403FB439355"
 L57_1 = L15_1
@@ -45,90 +49,82 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C7057A403FB439355"]
 L69_1 = "__name__"
 L70_1 = "C7057A403FB439355"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7057A403FB439355"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7057A403FB439355"]["prototype"]
-L69_1 = "F798CCA603D6E6730"
-
-function L70_1(A0_2, A1_2)
+---@class C7057A403FB439355_prototype
+C7057A403FB439355_prototype = L15_1()
+C7057A403FB439355.prototype = C7057A403FB439355_prototype
+--- main.ui.btlspot.ui.BattleSpotUITournament.SetupUI
+function C7057A403FB439355_prototype:F798CCA603D6E6730(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cECD2E4A5
   L2_2 = L2_2.fBC1D4AC0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "GridPanel_00"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[10] = L2_2
+  self[10] = L2_2
   L2_2 = nil
   L3_2 = c3FAF3463
   L3_2 = L3_2.f8C71328E
-  L4_2 = A0_2[11]
+  L4_2 = self[11]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = C04C2A679B8598CA6
     L3_2 = L3_2.SD071DF9D0379766A
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = 5
     L6_2 = false
     L3_2 = L3_2(L4_2, L5_2, L6_2)
-    A0_2[11] = L3_2
+    self[11] = L3_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7057A403FB439355"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.btlspot.ui.BattleSpotUITournament.Reset
+function C7057A403FB439355_prototype:F96EA28F400597FA0(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2
-  A0_2[8] = A1_2
-  A0_2[9] = A2_2
-  L5_2 = A0_2[3]
+  self[8] = A1_2
+  self[9] = A2_2
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.fEAD9FB7D
   L7_2 = "pattern_layout"
-  L8_2 = A0_2[8]
+  L8_2 = self[8]
   L5_2(L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.FB69F3D00DFAE2D22
+  L6_2 = self
+  L5_2 = self.FB69F3D00DFAE2D22
   L7_2 = A3_2
   L5_2(L6_2, L7_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.FCB556593DD2413AA
+  L6_2 = self
+  L5_2 = self.FCB556593DD2413AA
   L7_2 = A3_2
   L5_2(L6_2, L7_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F8DFA932B840ABACD
+  L6_2 = self
+  L5_2 = self.F8DFA932B840ABACD
   L7_2 = A3_2
   L5_2(L6_2, L7_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.FFB133E248F84FFE4
+  L6_2 = self
+  L5_2 = self.FFB133E248F84FFE4
   L7_2 = A3_2
   L5_2(L6_2, L7_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.FFCEA68E668008CC2
+  L6_2 = self
+  L5_2 = self.FFCEA68E668008CC2
   L7_2 = A3_2
   L5_2(L6_2, L7_2)
   L5_2 = c8C3BF576
   L5_2 = L5_2.f46674724
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = "T_warning_00"
   L8_2 = "btlspot"
   L9_2 = "msg_ui_btlspot_newtournament_caveat_01"
   L5_2(L6_2, L7_2, L8_2, L9_2)
   L5_2 = c8C3BF576
   L5_2 = L5_2.f46674724
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = "L_button_05/T_detail_00"
   L8_2 = "btlspot"
   L9_2 = "msg_ui_btlspot_newtournament_button_01"
   L5_2(L6_2, L7_2, L8_2, L9_2)
   if A4_2 then
-    L5_2 = A0_2[10]
+    L5_2 = self[10]
     L6_2 = L5_2
     L5_2 = L5_2.f06E080B8
     L7_2 = cEBF4B147
@@ -142,72 +138,66 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7057A403FB439355"]["prototype"]
-L69_1 = "F7EED485852A4D25F"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.ui.BattleSpotUITournament.Start
+function C7057A403FB439355_prototype:F7EED485852A4D25F()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.f6277C172
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.f5B89E0DB
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.f7798D9F4
   L3_2 = "L_button_00_Copy0"
   L4_2 = false
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.f6F06128C
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F6FCE9E4187792625
+  L2_2 = self
+  L1_2 = self.F6FCE9E4187792625
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.f94487CEE
   L3_2 = "Button_05"
-  L4_2 = A0_2[8]
+  L4_2 = self[8]
   L4_2 = 1 == L4_2
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7057A403FB439355"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUITournament.Update
+function C7057A403FB439355_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if not A1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F6FCE9E4187792625
+    L3_2 = self
+    L2_2 = self.F6FCE9E4187792625
     L4_2 = false
     L2_2(L3_2, L4_2)
     L2_2 = -1
     return L2_2
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FE6D26144C79AE819
+  L3_2 = self
+  L2_2 = self.FE6D26144C79AE819
   L2_2 = L2_2(L3_2)
   if 0 ~= L2_2 then
     return L2_2
   end
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L4_2 = L3_2
   L3_2 = L3_2.fDEEB3A8E
   L3_2 = L3_2(L4_2)
   if L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F6FCE9E4187792625
+    L4_2 = self
+    L3_2 = self.F6FCE9E4187792625
     L5_2 = false
     L3_2(L4_2, L5_2)
     L3_2 = C3A36506FBC96ACBD
@@ -221,11 +211,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7057A403FB439355"]["prototype"]
-L69_1 = "FE6D26144C79AE819"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.ui.BattleSpotUITournament.FE6D26144C79AE819
+function C7057A403FB439355_prototype:FE6D26144C79AE819()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -264,8 +251,8 @@ function L70_1(A0_2)
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L5_2 = L3_2 - 1
-    L7_2 = A0_2
-    L6_2 = A0_2.FF6EDB45E9F351C6F
+    L7_2 = self
+    L6_2 = self.FF6EDB45E9F351C6F
     L8_2 = L1_2[L5_2]
     L6_2 = L6_2(L7_2, L8_2)
     if L6_2 then
@@ -277,15 +264,12 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7057A403FB439355"]["prototype"]
-L69_1 = "FB69F3D00DFAE2D22"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUITournament.UpdateTitle
+function C7057A403FB439355_prototype:FB69F3D00DFAE2D22(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C6EC1A2D33C58AA58
   L2_2 = L2_2.S7B4B2A1841AD4C46
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "L_button_00/T_title_00"
   L2_2(L3_2, L4_2)
   L2_2 = cE461829E
@@ -300,13 +284,13 @@ function L70_1(A0_2, A1_2)
   if L4_2 then
     L5_2 = c8C3BF576
     L5_2 = L5_2.fEA571470
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = "L_button_00/T_detail_00"
     L8_2 = A1_2.mainTitle
     L9_2 = L2_2
     L5_2(L6_2, L7_2, L8_2, L9_2)
   end
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.f7798D9F4
   L7_2 = "L_button_00/T_detail_00"
@@ -321,13 +305,13 @@ function L70_1(A0_2, A1_2)
   if L6_2 then
     L7_2 = c8C3BF576
     L7_2 = L7_2.fEA571470
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L9_2 = "L_button_00/T_detail_01"
     L10_2 = A1_2.subTitle
     L11_2 = L2_2
     L7_2(L8_2, L9_2, L10_2, L11_2)
   end
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L8_2 = L7_2
   L7_2 = L7_2.f7798D9F4
   L9_2 = "L_button_00/T_detail_01"
@@ -335,15 +319,12 @@ function L70_1(A0_2, A1_2)
   L7_2(L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7057A403FB439355"]["prototype"]
-L69_1 = "FCB556593DD2413AA"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUITournament.FCB556593DD2413AA
+function C7057A403FB439355_prototype:FCB556593DD2413AA(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "L_button_01/T_title_00"
   L5_2 = "btlspot"
   L6_2 = "msg_ui_btlspot_sys_32"
@@ -354,7 +335,7 @@ function L70_1(A0_2, A1_2)
     if 1 == L2_2 then
       L2_2 = c8C3BF576
       L2_2 = L2_2.f46674724
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L4_2 = "L_button_01/T_detail_00"
       L5_2 = "net_btl"
       L6_2 = "msg_ui_netbtl_battletype_00"
@@ -362,19 +343,19 @@ function L70_1(A0_2, A1_2)
     else
       L2_2 = c8C3BF576
       L2_2 = L2_2.f46674724
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L4_2 = "L_button_01/T_detail_00"
       L5_2 = "net_btl"
       L6_2 = "msg_ui_netbtl_battletype_01"
       L2_2(L3_2, L4_2, L5_2, L6_2)
     end
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f7798D9F4
     L4_2 = "L_button_01/T_detail_00"
     L5_2 = true
     L2_2(L3_2, L4_2, L5_2)
-    L2_2 = A0_2[9]
+    L2_2 = self[9]
     L3_2 = L2_2
     L2_2 = L2_2.F0824EC214DC84337
     L4_2 = A1_2.friendTaikaiRulePresetId
@@ -386,19 +367,19 @@ function L70_1(A0_2, A1_2)
       L3_2 = L3_2(L4_2)
       L4_2 = c8C3BF576
       L4_2 = L4_2.f46674724
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L6_2 = "L_button_01/T_detail_01"
       L7_2 = "regulation"
       L8_2 = L3_2
       L4_2(L5_2, L6_2, L7_2, L8_2)
-      L4_2 = A0_2[3]
+      L4_2 = self[3]
       L5_2 = L4_2
       L4_2 = L4_2.f7798D9F4
       L6_2 = "L_button_01/T_detail_01"
       L7_2 = true
       L4_2(L5_2, L6_2, L7_2)
     else
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L4_2 = L3_2
       L3_2 = L3_2.f7798D9F4
       L5_2 = "L_button_01/T_detail_01"
@@ -406,13 +387,13 @@ function L70_1(A0_2, A1_2)
       L3_2(L4_2, L5_2, L6_2)
     end
   else
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f7798D9F4
     L4_2 = "L_button_01/T_detail_00"
     L5_2 = false
     L2_2(L3_2, L4_2, L5_2)
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f7798D9F4
     L4_2 = "L_button_01/T_detail_01"
@@ -421,18 +402,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7057A403FB439355"]["prototype"]
-L69_1 = "F8DFA932B840ABACD"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUITournament.F8DFA932B840ABACD
+function C7057A403FB439355_prototype:F8DFA932B840ABACD(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = cB3DDDC2A
   L2_2 = L2_2.f5B6373D5
   L2_2 = L2_2()
   L3_2 = c8C3BF576
   L3_2 = L3_2.f46674724
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = "L_button_02/T_title_00"
   L6_2 = "btlspot"
   L7_2 = "msg_ui_btlspot_sys_19"
@@ -497,7 +475,7 @@ function L70_1(A0_2, A1_2)
     L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
     L5_2 = c8C3BF576
     L5_2 = L5_2.f316077B2
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = "L_button_02/T_detail_00"
     L9_2 = L2_2
     L8_2 = L2_2.f39DD249C
@@ -510,7 +488,7 @@ function L70_1(A0_2, A1_2)
     L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
     L5_2 = c8C3BF576
     L5_2 = L5_2.f46674724
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = "L_button_02/T_detail_01"
     L8_2 = "btlspot"
     L9_2 = "msg_ui_btlspot_sys_16"
@@ -572,7 +550,7 @@ function L70_1(A0_2, A1_2)
     L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
     L6_2 = c8C3BF576
     L6_2 = L6_2.f316077B2
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L8_2 = "L_button_02/T_detail_02"
     L10_2 = L2_2
     L9_2 = L2_2.f39DD249C
@@ -584,19 +562,19 @@ function L70_1(A0_2, A1_2)
     L9_2, L10_2, L11_2, L12_2, L13_2 = L9_2(L10_2, L11_2, L12_2, L13_2)
     L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
   end
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = "L_button_02/T_detail_00"
   L6_2 = A1_2.isSetupFriendTaikaiTime
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = "L_button_02/T_detail_01"
   L6_2 = A1_2.isSetupFriendTaikaiTime
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = "L_button_02/T_detail_02"
@@ -604,15 +582,12 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7057A403FB439355"]["prototype"]
-L69_1 = "FFB133E248F84FFE4"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUITournament.FFB133E248F84FFE4
+function C7057A403FB439355_prototype:FFB133E248F84FFE4(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "L_button_03/T_title_00"
   L5_2 = "btlspot"
   L6_2 = "msg_ui_btlspot_sys_27"
@@ -627,7 +602,7 @@ function L70_1(A0_2, A1_2)
     if 0 == L3_2 then
       L3_2 = c8C3BF576
       L3_2 = L3_2.f46674724
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = "L_button_03/T_detail_00"
       L6_2 = "competition_organize"
       L7_2 = "msg_ui_co_org_menu_27"
@@ -644,7 +619,7 @@ function L70_1(A0_2, A1_2)
       L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
       L3_2 = c8C3BF576
       L3_2 = L3_2.f316077B2
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = "L_button_03/T_detail_00"
       L7_2 = L2_2
       L6_2 = L2_2.f39DD249C
@@ -661,7 +636,7 @@ function L70_1(A0_2, A1_2)
     if 0 == L3_2 then
       L3_2 = c8C3BF576
       L3_2 = L3_2.f46674724
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = "L_button_03/T_detail_01"
       L6_2 = "competition_organize"
       L7_2 = "msg_ui_co_org_menu_28"
@@ -678,7 +653,7 @@ function L70_1(A0_2, A1_2)
       L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
       L3_2 = c8C3BF576
       L3_2 = L3_2.f316077B2
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = "L_button_03/T_detail_01"
       L7_2 = L2_2
       L6_2 = L2_2.f39DD249C
@@ -691,13 +666,13 @@ function L70_1(A0_2, A1_2)
       L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
     end
   end
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = "L_button_03/T_detail_00"
   L6_2 = A1_2.isSetupFriendsTaikaiBattleTimeLimit
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = "L_button_03/T_detail_01"
@@ -705,15 +680,12 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7057A403FB439355"]["prototype"]
-L69_1 = "FFCEA68E668008CC2"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUITournament.FFCEA68E668008CC2
+function C7057A403FB439355_prototype:FFCEA68E668008CC2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "L_button_04/T_title_00"
   L5_2 = "btlspot"
   L6_2 = "msg_ui_btlspot_sys_66"
@@ -724,7 +696,7 @@ function L70_1(A0_2, A1_2)
     if 0 == L2_2 then
       L2_2 = c8C3BF576
       L2_2 = L2_2.f46674724
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L4_2 = "L_button_04/T_detail_00"
       L5_2 = "competition_organize"
       L6_2 = "msg_ui_co_org_limit_setting_03"
@@ -743,7 +715,7 @@ function L70_1(A0_2, A1_2)
       L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
       L3_2 = c8C3BF576
       L3_2 = L3_2.f316077B2
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = "L_button_04/T_detail_00"
       L7_2 = L2_2
       L6_2 = L2_2.f39DD249C
@@ -756,19 +728,19 @@ function L70_1(A0_2, A1_2)
       L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
     end
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f7798D9F4
   L4_2 = "L_button_04/T_detail_00"
   L5_2 = A1_2.isDecideBattleRemain
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f7798D9F4
   L4_2 = "L_button_04/T_detail_01"
   L5_2 = false
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f7798D9F4
   L4_2 = "L_button_04/T_detail_02"

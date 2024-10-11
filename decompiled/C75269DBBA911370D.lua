@@ -1,3 +1,7 @@
+---@alias C75269DBBA911370D main_ui_btlspot_state_machine_competition_BattleSpotStateCompetitionEntryResult
+
+---@class main_ui_btlspot_state_machine_competition_BattleSpotStateCompetitionEntryResult : C75269DBBA911370D_prototype
+---@field prototype C75269DBBA911370D_prototype
 L55_1 = _ENV
 L56_1 = "C75269DBBA911370D"
 L57_1 = L15_1
@@ -37,19 +41,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C75269DBBA911370D"]
 L69_1 = "__name__"
 L70_1 = "C75269DBBA911370D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75269DBBA911370D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75269DBBA911370D"]["prototype"]
-L69_1 = "F5BE3D38738EE3C24"
-
-function L70_1(A0_2)
+---@class C75269DBBA911370D_prototype
+C75269DBBA911370D_prototype = L15_1()
+C75269DBBA911370D.prototype = C75269DBBA911370D_prototype
+--- main.ui.btlspot.state_machine.competition.BattleSpotStateCompetitionEntryResult.OnEntry
+function C75269DBBA911370D_prototype:F5BE3D38738EE3C24()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FD8ABEE5C76044721
+  L2_2 = self
+  L1_2 = self.FD8ABEE5C76044721
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.FA367E653AD7B2572
@@ -57,11 +56,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75269DBBA911370D"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.state_machine.competition.BattleSpotStateCompetitionEntryResult.OnUpdate
+function C75269DBBA911370D_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   while true do
     L2_2 = C1DB14DCC9D7634FA
@@ -80,8 +76,8 @@ function L70_1(A0_2, A1_2)
     L3_2 = "UI_DECIDE"
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F0BF10AFD6812CB3E
+      L3_2 = self
+      L2_2 = self.F0BF10AFD6812CB3E
       L2_2 = L2_2(L3_2)
       L3_2 = L2_2
       L2_2 = L2_2.F03341DA88A29FC91
@@ -90,21 +86,21 @@ function L70_1(A0_2, A1_2)
       break
     end
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F0BF10AFD6812CB3E
+  L3_2 = self
+  L2_2 = self.F0BF10AFD6812CB3E
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.F853B03F575E4BCC7
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F7C06F6BEA957F0E6
+    L3_2 = self
+    L2_2 = self.F7C06F6BEA957F0E6
     L4_2 = 49
     L2_2(L3_2, L4_2)
     L2_2 = CD950F4AD2C2702A1
     L2_2 = L2_2.S84E00A89DFBC380C
     L2_2()
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L2_2
     L2_2 = L2_2.F28EAF3B3AA178E3E
     L4_2 = CEB01CAB0E4499365
@@ -114,14 +110,14 @@ function L70_1(A0_2, A1_2)
     L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
     L2_2(L3_2, L4_2, L5_2, L6_2)
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.F7C06F6BEA957F0E6
+    L3_2 = self
+    L2_2 = self.F7C06F6BEA957F0E6
     L4_2 = 48
     L2_2(L3_2, L4_2)
     L2_2 = CD950F4AD2C2702A1
     L2_2 = L2_2.S84E00A89DFBC380C
     L2_2()
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L2_2
     L2_2 = L2_2.F28EAF3B3AA178E3E
     L4_2 = CFB833C95C7ADB0CD

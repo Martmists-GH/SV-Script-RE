@@ -1,3 +1,7 @@
+---@alias C76F9B9BFA73C9465 main_field_action_pokemon_legend_ActionEventLegendBreakRock
+
+---@class main_field_action_pokemon_legend_ActionEventLegendBreakRock : C76F9B9BFA73C9465_prototype
+---@field prototype C76F9B9BFA73C9465_prototype
 L55_1 = _ENV
 L56_1 = "C76F9B9BFA73C9465"
 L57_1 = L15_1
@@ -51,22 +55,17 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C76F9B9BFA73C9465"]
 L69_1 = "__name__"
 L70_1 = "C76F9B9BFA73C9465"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76F9B9BFA73C9465"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76F9B9BFA73C9465"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C76F9B9BFA73C9465_prototype
+C76F9B9BFA73C9465_prototype = L15_1()
+C76F9B9BFA73C9465.prototype = C76F9B9BFA73C9465_prototype
+--- main.field.action.pokemon.legend.ActionEventLegendBreakRock.onCreate
+function C76F9B9BFA73C9465_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2.useCoroutine = true
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   L2_2 = L2_2.rockObjectSceneName
   L1_2 = L1_2(L2_2)
   L2_2 = nil
@@ -80,20 +79,20 @@ function L70_1(A0_2)
   end
   L4_2 = L1_2
   L3_2 = L1_2.fD4E64AB7
-  L5_2 = A0_2[16]
+  L5_2 = self[16]
   L5_2 = L5_2.rockObjectName
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[17] = L3_2
+  self[17] = L3_2
   L3_2 = nil
   L4_2 = c016374C1
   L4_2 = L4_2.f4555D276
-  L5_2 = A0_2[17]
+  L5_2 = self[17]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
     return
   end
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = nil
   L6_2 = cE35B3EB3
   L6_2 = L6_2.fDBA763D1
@@ -111,76 +110,73 @@ function L70_1(A0_2)
   L7_2 = L6_2
   L6_2 = L6_2.fF56461AF
   L6_2 = L6_2(L7_2)
-  A0_2[18] = L6_2
+  self[18] = L6_2
   L6_2 = cE35B3EB3
   L6_2 = L6_2.fB41FD22F
-  L7_2 = A0_2[17]
+  L7_2 = self[17]
   L6_2 = L6_2(L7_2)
-  A0_2[19] = L6_2
+  self[19] = L6_2
   L6_2 = nil
   L7_2 = cE35B3EB3
   L7_2 = L7_2.f67745D00
-  L8_2 = A0_2[19]
+  L8_2 = self[19]
   L9_2 = L6_2
   L7_2 = L7_2(L8_2, L9_2)
   if L7_2 then
     L7_2 = cE35B3EB3
     L7_2 = L7_2.fB41FD22F
-    L8_2 = A0_2[17]
+    L8_2 = self[17]
     L7_2 = L7_2(L8_2)
     L8_2 = L7_2
     L7_2 = L7_2.fF56461AF
     L7_2 = L7_2(L8_2)
-    A0_2[20] = L7_2
+    self[20] = L7_2
   end
   L7_2 = c7B88F8F8
   L7_2 = L7_2.fB41FD22F
-  L8_2 = A0_2[17]
+  L8_2 = self[17]
   L7_2 = L7_2(L8_2)
   L8_2 = L7_2
   L7_2 = L7_2.f287946D6
   L9_2 = 0
   L7_2 = L7_2(L8_2, L9_2)
-  A0_2[24] = L7_2
+  self[24] = L7_2
   L7_2 = c7C4EA23C
   L7_2 = L7_2.fB41FD22F
-  L8_2 = A0_2[17]
+  L8_2 = self[17]
   L7_2 = L7_2(L8_2)
-  A0_2[21] = L7_2
+  self[21] = L7_2
   L7_2 = c2C5B03EA
   L7_2 = L7_2.fB41FD22F
   L8_2 = CFC8F368D91411014
   L8_2 = L8_2.SC942E0202B47E6F3
   L8_2, L9_2, L10_2 = L8_2()
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  A0_2[23] = L7_2
-  L7_2 = A0_2[23]
+  self[23] = L7_2
+  L7_2 = self[23]
   L8_2 = L7_2
   L7_2 = L7_2.fE06867BE
-  L10_2 = A0_2
-  L9_2 = A0_2.FC5F3EF10693F69E1
+  L10_2 = self
+  L9_2 = self.FC5F3EF10693F69E1
   L9_2, L10_2 = L9_2(L10_2)
   L7_2(L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76F9B9BFA73C9465"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.pokemon.legend.ActionEventLegendBreakRock.onPreUpdate
+function C76F9B9BFA73C9465_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f4555D276
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = 2
     return L3_2
   end
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L4_2 = L3_2
   L3_2 = L3_2.fFE05DDAD
   L5_2 = "one_attack_trigger"
@@ -200,25 +196,25 @@ function L70_1(A0_2)
     L5_2 = L5_2.S760DAE4C5371A78E
     L5_2()
   end
-  L5_2 = A0_2[21]
+  L5_2 = self[21]
   L6_2 = L5_2
   L5_2 = L5_2.fCE4317E9
   L5_2(L6_2)
   L5_2 = C1DB14DCC9D7634FA
   L5_2 = L5_2.S760DAE4C5371A78E
   L5_2()
-  L5_2 = A0_2[20]
+  L5_2 = self[20]
   L6_2 = L5_2
   L5_2 = L5_2.fCE5D5D87
   L7_2 = "prm_crash"
   L5_2 = L5_2(L6_2, L7_2)
-  L6_2 = A0_2[20]
+  L6_2 = self[20]
   L7_2 = L6_2
   L6_2 = L6_2.f50724FA8
   L8_2 = L5_2
   L9_2 = true
   L6_2(L7_2, L8_2, L9_2)
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L7_2 = nil
   L8_2 = cE35B3EB3
   L8_2 = L8_2.fDBA763D1
@@ -241,7 +237,7 @@ function L70_1(A0_2)
   L10_2 = "move"
   L11_2 = 0
   L8_2(L9_2, L10_2, L11_2)
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L8_2 = L8_2.owner
   L9_2 = L8_2
   L8_2 = L8_2.f5439788F
@@ -275,16 +271,16 @@ function L70_1(A0_2)
   L10_2 = nil
   L11_2 = c016374C1
   L11_2 = L11_2.f8C7D4F4D
-  L12_2 = A0_2[17]
+  L12_2 = self[17]
   L13_2 = L10_2
   L11_2 = L11_2(L12_2, L13_2)
   if L11_2 then
     L11_2 = CA5EA85D96A5EBA15
     L11_2 = L11_2.S4EAF82A0C1965109
-    L12_2 = A0_2[24]
+    L12_2 = self[24]
     L13_2 = "rock_info"
     L11_2 = L11_2(L12_2, L13_2)
-    L12_2 = A0_2[17]
+    L12_2 = self[17]
     L13_2 = L12_2
     L12_2 = L12_2.f5439788F
     L14_2 = CA5EA85D96A5EBA15
@@ -293,17 +289,17 @@ function L70_1(A0_2)
     L16_2 = "break_effect_child_obj_name"
     L14_2, L15_2, L16_2, L17_2, L18_2 = L14_2(L15_2, L16_2)
     L12_2 = L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2)
-    A0_2[22] = L12_2
+    self[22] = L12_2
     L12_2 = nil
     L13_2 = c016374C1
     L13_2 = L13_2.f8C7D4F4D
-    L14_2 = A0_2[22]
+    L14_2 = self[22]
     L15_2 = L12_2
     L13_2 = L13_2(L14_2, L15_2)
     if L13_2 then
       L13_2 = cE8D61D7D
       L13_2 = L13_2.fB41FD22F
-      L14_2 = A0_2[22]
+      L14_2 = self[22]
       L13_2 = L13_2(L14_2)
       L14_2 = nil
       L15_2 = cE8D61D7D
@@ -334,13 +330,13 @@ function L70_1(A0_2)
     L11_2 = L11_2.S760DAE4C5371A78E
     L11_2()
   end
-  L11_2 = A0_2[23]
+  L11_2 = self[23]
   L12_2 = L11_2
   L11_2 = L11_2.fA7FD1CB5
   L11_2(L12_2)
   L11_2 = CA5EA85D96A5EBA15
   L11_2 = L11_2.SAD5CCB7549BC2093
-  L12_2 = A0_2[24]
+  L12_2 = self[24]
   L13_2 = "begin_escape_delay_time"
   L11_2 = L11_2(L12_2, L13_2)
   L3_2 = L11_2
@@ -355,7 +351,7 @@ function L70_1(A0_2)
   end
   L11_2 = CA5EA85D96A5EBA15
   L11_2 = L11_2.S02C763F95B201F28
-  L12_2 = A0_2[24]
+  L12_2 = self[24]
   L13_2 = "escape_target_array"
   
   function L14_2(A0_3)
@@ -388,7 +384,7 @@ function L70_1(A0_2)
   L11_2(L12_2, L13_2, L14_2)
   L11_2 = CA5EA85D96A5EBA15
   L11_2 = L11_2.SAD5CCB7549BC2093
-  L12_2 = A0_2[24]
+  L12_2 = self[24]
   L13_2 = "called_escape_delay_time"
   L11_2 = L11_2(L12_2, L13_2)
   L3_2 = L11_2
@@ -405,29 +401,23 @@ function L70_1(A0_2)
   return L11_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76F9B9BFA73C9465"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- main.field.action.pokemon.legend.ActionEventLegendBreakRock.onFinish
+function C76F9B9BFA73C9465_prototype:FA2C827B56F56ABDF()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L2_2 = L1_2
   L1_2 = L1_2.fCDCB600D
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L2_2 = L1_2
   L1_2 = L1_2.fCDCB600D
   L3_2 = true
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76F9B9BFA73C9465"]["prototype"]
-L69_1 = "F5E207D5A8B795148"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.pokemon.legend.ActionEventLegendBreakRock.CallEscapeAction
+function C76F9B9BFA73C9465_prototype:F5E207D5A8B795148(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = nil
   L3_2 = c016374C1
@@ -525,11 +515,8 @@ function L70_1(A0_2, A1_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76F9B9BFA73C9465"]["prototype"]
-L69_1 = "FC5F3EF10693F69E1"
-
-function L70_1(A0_2)
+--- main.field.action.pokemon.legend.ActionEventLegendBreakRock.CreateLockonInput
+function C76F9B9BFA73C9465_prototype:FC5F3EF10693F69E1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = cCF0F1D82
   L1_2 = L1_2.f101D811F
@@ -567,7 +554,7 @@ function L70_1(A0_2)
   L4_2 = L2_2
   L3_2 = L2_2.fD25EF729
   L3_2 = L3_2(L4_2)
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L6_2 = L3_2
   L5_2 = L3_2.f30216B89
   
@@ -588,7 +575,7 @@ function L70_1(A0_2)
   L6_2 = L2_2
   L5_2 = L2_2.fD25EF729
   L5_2 = L5_2(L6_2)
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L7_2 = nil
   L8_2 = cECB91E31
   L8_2 = L8_2.fB6A00A1B

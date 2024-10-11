@@ -1,3 +1,7 @@
+---@alias CAED73FB29E39FF10 main_field_behaviour_module_ExclusionAdapterModule
+
+---@class main_field_behaviour_module_ExclusionAdapterModule : CAED73FB29E39FF10_prototype
+---@field prototype CAED73FB29E39FF10_prototype
 L55_1 = _ENV
 L56_1 = "CAED73FB29E39FF10"
 L57_1 = L15_1
@@ -39,51 +43,46 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CAED73FB29E39FF10"]
 L69_1 = "__name__"
 L70_1 = "CAED73FB29E39FF10"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED73FB29E39FF10"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED73FB29E39FF10"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+---@class CAED73FB29E39FF10_prototype
+CAED73FB29E39FF10_prototype = L15_1()
+CAED73FB29E39FF10.prototype = CAED73FB29E39FF10_prototype
+--- main.field.behaviour.module.ExclusionAdapterModule.onSetup
+function CAED73FB29E39FF10_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c452EA11F
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2[2]
   L1_2 = L1_2(L2_2)
-  A0_2[7] = L1_2
+  self[7] = L1_2
   L1_2 = nil
   L2_2 = c452EA11F
   L2_2 = L2_2.f5707BC2B
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = c5E18DDE8
     L2_2 = L2_2.f101D811F
     L2_2 = L2_2()
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.onInitializeDesc
     L5_2 = L2_2
     L3_2(L4_2, L5_2)
     L3_2 = c452EA11F
     L3_2 = L3_2.f76D869E4
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L4_2 = L4_2[2]
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
-    A0_2[7] = L3_2
-    L3_2 = A0_2[1]
+    self[7] = L3_2
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.onSetupComponent
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L5_2 = L5_2[2]
-    L6_2 = A0_2[7]
+    L6_2 = self[7]
     L3_2(L4_2, L5_2, L6_2)
   end
   L2_2 = EAD246EF28384B86B

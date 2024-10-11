@@ -1,3 +1,5 @@
+---@class C17AF49270C8CFEDC : C17AF49270C8CFEDC_prototype
+---@field prototype C17AF49270C8CFEDC_prototype
 L55_1 = _ENV
 L56_1 = "C17AF49270C8CFEDC"
 L57_1 = L15_1
@@ -39,26 +41,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C17AF49270C8CFEDC"]
 L69_1 = "__name__"
 L70_1 = "C17AF49270C8CFEDC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C17AF49270C8CFEDC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C17AF49270C8CFEDC"]["prototype"]
-L69_1 = "F0D776BF8BD56F066"
-
-function L70_1(A0_2)
+---@class C17AF49270C8CFEDC_prototype
+C17AF49270C8CFEDC_prototype = L15_1()
+C17AF49270C8CFEDC.prototype = C17AF49270C8CFEDC_prototype
+--- C17AF49270C8CFEDC.F0D776BF8BD56F066
+function C17AF49270C8CFEDC_prototype:F0D776BF8BD56F066()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C17AF49270C8CFEDC"]["prototype"]
-L69_1 = "F7B29AC6696E62600"
-
-function L70_1(A0_2)
+--- C17AF49270C8CFEDC.RequiredEventCategory
+function C17AF49270C8CFEDC_prototype:F7B29AC6696E62600()
   local L1_2, L2_2, L3_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -68,11 +62,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C17AF49270C8CFEDC"]["prototype"]
-L69_1 = "F75F6688F62DA7487"
-
-function L70_1(A0_2, A1_2)
+--- C17AF49270C8CFEDC.IsRequiredObject
+function C17AF49270C8CFEDC_prototype:F75F6688F62DA7487(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = c2FB59E8B
   L2_2 = L2_2.fBF27F333
@@ -269,11 +260,8 @@ function L70_1(A0_2, A1_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C17AF49270C8CFEDC"]["prototype"]
-L69_1 = "FDA98E87C57449F00"
-
-function L70_1(A0_2, A1_2)
+--- C17AF49270C8CFEDC.OnEventCheck
+function C17AF49270C8CFEDC_prototype:FDA98E87C57449F00(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   while true do
     L2_2 = A1_2.length

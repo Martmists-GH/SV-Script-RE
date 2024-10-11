@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C502A74E467A441C4"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "__name__"
-L70_1 = "C502A74E467A441C4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "SE458CA9EF855E909"
+---@alias C502A74E467A441C4 main_ui_pokedex_util_PokedexUIUtil
 
-function L70_1(A0_2, A1_2, A2_2)
+---@class main_ui_pokedex_util_PokedexUIUtil
+C502A74E467A441C4 = L15_1()
+C502A74E467A441C4.new = {}
+C502A74E467A441C4.__name__ = "C502A74E467A441C4"
+--- main.ui.pokedex.util.PokedexUIUtil.GetPokedexStateAnimeFrame
+function C502A74E467A441C4.SE458CA9EF855E909(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = cDD25B9DB
   L3_2 = L3_2.f4F92E4A5
@@ -80,11 +71,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "SC31A5CEBC955F683"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.util.PokedexUIUtil.SetRewardNewIconVisible
+function C502A74E467A441C4.SC31A5CEBC955F683(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = A0_2
   L2_2 = A0_2.FA23D39922B76B247
@@ -101,11 +89,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "S3C7429DEEF5B2C6D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.util.PokedexUIUtil.SetCompIconVisible
+function C502A74E467A441C4.S3C7429DEEF5B2C6D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A1_2 or nil == A2_2 then
     return
@@ -142,11 +127,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "SCC0EE799D8DF51CC"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokedex.util.PokedexUIUtil.CreatePokemonParamCore
+function C502A74E467A441C4.SCC0EE799D8DF51CC(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2
   L4_2 = cC99399C3
   L4_2 = L4_2.f101D811F
@@ -183,11 +165,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "SB4A0BDBEB4D10815"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.util.PokedexUIUtil.IsLegendPokemon
+function C502A74E467A441C4.SB4A0BDBEB4D10815(A0_2)
   local L1_2
   if 998 == A0_2 or 999 == A0_2 then
     L1_2 = true
@@ -205,11 +184,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "S09ABE594EBD26109"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.util.PokedexUIUtil.SetupRegistPokedexDemo
+function C502A74E467A441C4.S09ABE594EBD26109(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A2_2 then
     A2_2 = false
@@ -227,11 +203,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "S00F9D222427E4F6A"
-
-function L70_1()
+--- main.ui.pokedex.util.PokedexUIUtil.ObserveRegistPokedexDemo
+function C502A74E467A441C4.S00F9D222427E4F6A()
   local L0_2, L1_2
   L0_2 = C6825AC9B197940B4
   L0_2 = L0_2.SAE728AF193086C55
@@ -247,11 +220,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "SB51F724621BB2D1F"
-
-function L70_1()
+--- main.ui.pokedex.util.PokedexUIUtil.SB51F724621BB2D1F
+function C502A74E467A441C4.SB51F724621BB2D1F()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C8F93126DACB9F8DD
   L0_2 = L0_2.S93A2C11A3020463D
@@ -279,11 +249,8 @@ function L70_1()
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "S9C4B442AD04C1A56"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.util.PokedexUIUtil.S9C4B442AD04C1A56
+function C502A74E467A441C4.S9C4B442AD04C1A56(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C502A74E467A441C4
   L1_2 = L1_2.SB51F724621BB2D1F
@@ -346,11 +313,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "S6B460BB897D7982E"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.util.PokedexUIUtil.S6B460BB897D7982E
+function C502A74E467A441C4.S6B460BB897D7982E(A0_2)
   local L1_2
   if 0 == A0_2 then
     L1_2 = "pokedex_00_01"
@@ -367,11 +331,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "SD4E491B0B7EAECE2"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.util.PokedexUIUtil.SD4E491B0B7EAECE2
+function C502A74E467A441C4.SD4E491B0B7EAECE2(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = c1A1CBE3B
   L3_2 = L3_2.fC282EEF8
@@ -390,11 +351,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "SEFFA2B691AE228B4"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.util.PokedexUIUtil.SEFFA2B691AE228B4
+function C502A74E467A441C4.SEFFA2B691AE228B4(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c253ACC13
   L2_2 = L2_2.f97A6AE21
@@ -409,11 +367,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "S20EF9E10ACA31E55"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.util.PokedexUIUtil.S20EF9E10ACA31E55
+function C502A74E467A441C4.S20EF9E10ACA31E55(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2
   if 0 == A0_2 then
     L3_2 = C502A74E467A441C4
@@ -442,11 +397,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "SD3D7D544084F2A5C"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.util.PokedexUIUtil.SD3D7D544084F2A5C
+function C502A74E467A441C4.SD3D7D544084F2A5C(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C502A74E467A441C4
   L2_2 = L2_2.SD7E693DFC343AAE6
@@ -464,11 +416,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "SD7E693DFC343AAE6"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.pokedex.util.PokedexUIUtil.GetPokemonIconPath
+function C502A74E467A441C4.SD7E693DFC343AAE6(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A4_2 then
     A4_2 = false
@@ -489,11 +438,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "S1F8AACAC964BBFCD"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.util.PokedexUIUtil.S1F8AACAC964BBFCD
+function C502A74E467A441C4.S1F8AACAC964BBFCD(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c2C618D1A
   L2_2 = L2_2.f0C9CEB5B
@@ -508,11 +454,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "S6C05769D8EB4AC55"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.util.PokedexUIUtil.S6C05769D8EB4AC55
+function C502A74E467A441C4.S6C05769D8EB4AC55(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c2C618D1A
   L2_2 = L2_2.fFBAB3368
@@ -525,11 +468,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "S46BE88C63B04C571"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.util.PokedexUIUtil.S46BE88C63B04C571
+function C502A74E467A441C4.S46BE88C63B04C571(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c2C618D1A
   L2_2 = L2_2.f23E400D6
@@ -542,11 +482,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "S46BE85C63B04C058"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.util.PokedexUIUtil.S46BE85C63B04C058
+function C502A74E467A441C4.S46BE85C63B04C058(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c2C618D1A
   L2_2 = L2_2.f21A2BE8F
@@ -559,11 +496,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "S23B03F2C027A3D9A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.util.PokedexUIUtil.S23B03F2C027A3D9A
+function C502A74E467A441C4.S23B03F2C027A3D9A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c2C618D1A
   L2_2 = L2_2.f8E4A0018
@@ -576,11 +510,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "S23B03E2C027A3BE7"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.util.PokedexUIUtil.S23B03E2C027A3BE7
+function C502A74E467A441C4.S23B03E2C027A3BE7(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c2C618D1A
   L2_2 = L2_2.f8C0CBE41
@@ -593,11 +524,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "SD6C24B3C885256CA"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.util.PokedexUIUtil.SD6C24B3C885256CA
+function C502A74E467A441C4.SD6C24B3C885256CA(A0_2)
   local L1_2
   if 0 == A0_2 then
     L1_2 = "syoujyou_03_04"
@@ -614,11 +542,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C502A74E467A441C4"]
-L69_1 = "SB75A6E7FF3080F4A"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.util.PokedexUIUtil.SB75A6E7FF3080F4A
+function C502A74E467A441C4.SB75A6E7FF3080F4A(A0_2)
   local L1_2, L2_2, L3_2
   
   function L1_2()

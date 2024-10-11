@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C5345C7D4D80AB4D9"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C5345C7D4D80AB4D9"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5345C7D4D80AB4D9"]
-L69_1 = "__name__"
-L70_1 = "C5345C7D4D80AB4D9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5345C7D4D80AB4D9"]
-L69_1 = "S2E31AEFE60CB9071"
+---@alias C5345C7D4D80AB4D9 main_nushi_NushiPerlinNoize
 
-function L70_1(A0_2)
+---@class main_nushi_NushiPerlinNoize
+C5345C7D4D80AB4D9 = L15_1()
+C5345C7D4D80AB4D9.new = {}
+C5345C7D4D80AB4D9.__name__ = "C5345C7D4D80AB4D9"
+--- main.nushi.NushiPerlinNoize.NoiseVec2
+function C5345C7D4D80AB4D9.S2E31AEFE60CB9071(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C5345C7D4D80AB4D9
   L1_2 = L1_2.S096336A1840C8F8B
@@ -23,11 +14,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5345C7D4D80AB4D9"]
-L69_1 = "S096336A1840C8F8B"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiPerlinNoize.NoiseVec2Math
+function C5345C7D4D80AB4D9.S096336A1840C8F8B(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = L3_1
   L3_2 = C5345C7D4D80AB4D9
@@ -113,11 +101,8 @@ function L70_1(A0_2, A1_2)
   return L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5345C7D4D80AB4D9"]
-L69_1 = "S89CDB411499EB2D5"
-
-function L70_1(A0_2)
+--- main.nushi.NushiPerlinNoize.FloorToInt
+function C5345C7D4D80AB4D9.S89CDB411499EB2D5(A0_2)
   local L1_2, L2_2
   L1_2 = L10_1.math
   L1_2 = L1_2.floor
@@ -125,11 +110,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5345C7D4D80AB4D9"]
-L69_1 = "S338A50689CEDF233"
-
-function L70_1(A0_2)
+--- main.nushi.NushiPerlinNoize.Fade
+function C5345C7D4D80AB4D9.S338A50689CEDF233(A0_2)
   local L1_2, L2_2
   L1_2 = A0_2 * A0_2
   L1_2 = L1_2 * A0_2
@@ -141,11 +123,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5345C7D4D80AB4D9"]
-L69_1 = "SC32893984360DD68"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.nushi.NushiPerlinNoize.Lerp
+function C5345C7D4D80AB4D9.SC32893984360DD68(A0_2, A1_2, A2_2)
   local L3_2
   L3_2 = A2_2 - A1_2
   L3_2 = A0_2 * L3_2
@@ -153,11 +132,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5345C7D4D80AB4D9"]
-L69_1 = "S05836C7EB4D8DAD9"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.nushi.NushiPerlinNoize.GradVec2
+function C5345C7D4D80AB4D9.S05836C7EB4D8DAD9(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = C5345C7D4D80AB4D9
   L3_2 = L3_2.S521C820961B8F8EB

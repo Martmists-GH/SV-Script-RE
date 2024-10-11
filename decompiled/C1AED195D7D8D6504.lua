@@ -1,3 +1,7 @@
+---@alias C36BDEFD8FA8C0336 main_event_command_EasyTalkCommand
+
+---@class main_event_command_EasyTalkCommand : C36BDEFD8FA8C0336_prototype
+---@field prototype C36BDEFD8FA8C0336_prototype
 L55_1 = _ENV
 L56_1 = "C1AED195D7D8D6504"
 L57_1 = L15_1
@@ -38,11 +42,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1AED195D7D8D6504"]
 L69_1 = "__name__"
 L70_1 = "C1AED195D7D8D6504"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1AED195D7D8D6504"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C36BDEFD8FA8C0336_prototype
+C36BDEFD8FA8C0336_prototype = L15_1()
+C36BDEFD8FA8C0336.prototype = C36BDEFD8FA8C0336_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1AED195D7D8D6504"]["prototype"]
 L69_1 = _ENV["C1AED195D7D8D6504"]

@@ -1,3 +1,5 @@
+---@class CBFA190EC4FA70AB8 : CBFA190EC4FA70AB8_prototype
+---@field prototype CBFA190EC4FA70AB8_prototype
 L55_1 = _ENV
 L56_1 = "CBFA190EC4FA70AB8"
 L57_1 = L15_1
@@ -35,16 +37,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CBFA190EC4FA70AB8"]
 L69_1 = "__name__"
 L70_1 = "CBFA190EC4FA70AB8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBFA190EC4FA70AB8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBFA190EC4FA70AB8"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2)
+---@class CBFA190EC4FA70AB8_prototype
+CBFA190EC4FA70AB8_prototype = L15_1()
+CBFA190EC4FA70AB8.prototype = CBFA190EC4FA70AB8_prototype
+--- CBFA190EC4FA70AB8.Setup
+function CBFA190EC4FA70AB8_prototype:F7C68FEDB79AB6396()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = C282DAED1E1D374F6
@@ -56,8 +53,8 @@ function L70_1(A0_2)
   L4_2 = L4_2.S62775AB6BE59717D
   L5_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2[1] = L2_2
-  L2_2 = A0_2[1]
+  self[1] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F5B98E8D4C251422B
   L4_2 = true
@@ -88,26 +85,23 @@ function L70_1(A0_2)
   L3_2 = L2_2[1]
   L3_2 = L3_2.h
   L3_2.DisableHudAnnounce = true
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.F6C8DDC9A268EFAD5
   L5_2 = CBFA190EC4FA70AB8
   L5_2 = L5_2.S4BC61967D5C69E75
   L6_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2, L6_2)
-  A0_2[2] = L3_2
-  L3_2 = A0_2[2]
+  self[2] = L3_2
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.F5B98E8D4C251422B
   L5_2 = true
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBFA190EC4FA70AB8"]["prototype"]
-L69_1 = "F38D9DDADCFA7C023"
-
-function L70_1(A0_2)
+--- CBFA190EC4FA70AB8.SetupInReturn
+function CBFA190EC4FA70AB8_prototype:F38D9DDADCFA7C023()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = C282DAED1E1D374F6
@@ -119,8 +113,8 @@ function L70_1(A0_2)
   L4_2 = L4_2.S62775AB6BE59717D
   L5_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2[1] = L2_2
-  L2_2 = A0_2[1]
+  self[1] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F5B98E8D4C251422B
   L4_2 = true
@@ -271,30 +265,27 @@ function L70_1(A0_2)
   L3_2 = L2_2[1]
   L3_2 = L3_2.h
   L3_2.DisableHudAnnounce = true
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.F6C8DDC9A268EFAD5
   L5_2 = CBFA190EC4FA70AB8
   L5_2 = L5_2.S4BC61967D5C69E75
   L6_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2, L6_2)
-  A0_2[2] = L3_2
-  L3_2 = A0_2[2]
+  self[2] = L3_2
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.F5B98E8D4C251422B
   L5_2 = true
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBFA190EC4FA70AB8"]["prototype"]
-L69_1 = "F0DBBC2DA2C3EAC32"
-
-function L70_1(A0_2)
+--- CBFA190EC4FA70AB8.Finish
+function CBFA190EC4FA70AB8_prototype:F0DBBC2DA2C3EAC32()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   if nil ~= L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2[5]
     L3_2 = L2_2
     L2_2 = L2_2.iterator

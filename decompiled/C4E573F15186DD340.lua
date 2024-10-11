@@ -1,3 +1,7 @@
+---@alias C4E573F15186DD340 main_pokepicnic_database_FoodPowerParam
+
+---@class main_pokepicnic_database_FoodPowerParam : C4E573F15186DD340_prototype
+---@field prototype C4E573F15186DD340_prototype
 L55_1 = _ENV
 L56_1 = "C4E573F15186DD340"
 L57_1 = L15_1
@@ -43,67 +47,62 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4E573F15186DD340"]
 L69_1 = "__name__"
 L70_1 = "C4E573F15186DD340"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4E573F15186DD340"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4E573F15186DD340"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C4E573F15186DD340_prototype
+C4E573F15186DD340_prototype = L15_1()
+C4E573F15186DD340.prototype = C4E573F15186DD340_prototype
+--- main.pokepicnic.database.FoodPowerParam.Setup
+function C4E573F15186DD340_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A1_2
   L2_2 = A1_2.fCD31E312
   L4_2 = "EGG"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.fCD31E312
   L4_2 = "CAPTURE"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.fCD31E312
   L4_2 = "EXP"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.fCD31E312
   L4_2 = "LOST_PROPERTY"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.fCD31E312
   L4_2 = "RAID"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.fCD31E312
   L4_2 = "ANOTHER_NAME"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[6] = L2_2
+  self[6] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.fCD31E312
   L4_2 = "RARE"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[7] = L2_2
+  self[7] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.fCD31E312
   L4_2 = "GIGANT"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[8] = L2_2
+  self[8] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.fCD31E312
   L4_2 = "MIINIMUM"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[9] = L2_2
+  self[9] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.fCD31E312
   L4_2 = "ENCOUNT"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[10] = L2_2
+  self[10] = L2_2
 end
 
 L68_1[L69_1] = L70_1

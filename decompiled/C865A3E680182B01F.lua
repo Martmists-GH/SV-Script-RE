@@ -1,3 +1,7 @@
+---@alias CCC92F577FDC52C35 main_ui_btlspot_state_machine_competition_BattleSpotStateCompetitionStartOfficial
+
+---@class main_ui_btlspot_state_machine_competition_BattleSpotStateCompetitionStartOfficial : CCC92F577FDC52C35_prototype
+---@field prototype CCC92F577FDC52C35_prototype
 L55_1 = _ENV
 L56_1 = "C865A3E680182B01F"
 L57_1 = L15_1
@@ -45,11 +49,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C865A3E680182B01F"]
 L69_1 = "__name__"
 L70_1 = "C865A3E680182B01F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C865A3E680182B01F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CCC92F577FDC52C35_prototype
+CCC92F577FDC52C35_prototype = L15_1()
+CCC92F577FDC52C35.prototype = CCC92F577FDC52C35_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C865A3E680182B01F"]["prototype"]
 L69_1 = _ENV["C865A3E680182B01F"]

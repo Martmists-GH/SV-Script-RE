@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CBDE60C0367067915"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CBDE60C0367067915"]
-L69_1 = "new"
+---@alias CBDE60C0367067915 main_system_game_event_GameEventHikoNushiPlayerRockClash
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventHikoNushiPlayerRockClash : CBDE60C0367067915_prototype
+---@field prototype CBDE60C0367067915_prototype
+CBDE60C0367067915 = L15_1()
+function CBDE60C0367067915.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CBDE60C0367067915
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDE60C0367067915"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CBDE60C0367067915
+function CBDE60C0367067915.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CE0D511325372F946
   L3_2 = L3_2.super
@@ -37,11 +31,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDE60C0367067915"]
-L69_1 = "__name__"
-L70_1 = "CBDE60C0367067915"
-L68_1[L69_1] = L70_1
+CBDE60C0367067915.__name__ = "CBDE60C0367067915"
 L68_1 = _ENV["CBDE60C0367067915"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -83,24 +73,16 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDE60C0367067915"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDE60C0367067915"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CBDE60C0367067915_prototype
+CBDE60C0367067915_prototype = L15_1()
+CBDE60C0367067915.prototype = CBDE60C0367067915_prototype
+--- main.system.game_event.GameEventHikoNushiPlayerRockClash.onCreate
+function CBDE60C0367067915_prototype:FC87C731D11C58354()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDE60C0367067915"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventHikoNushiPlayerRockClash.onUpdate
+function CBDE60C0367067915_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -150,10 +132,10 @@ function L70_1(A0_2)
   L1_2 = L1_2[1]
   L1_2 = L1_2[9]
   L1_2[7] = true
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L1_2 = L1_2.endCallBack
   if nil ~= L1_2 then
-    L1_2 = A0_2[17]
+    L1_2 = self[17]
     L2_2 = L1_2
     L1_2 = L1_2.endCallBack
     L1_2(L2_2)
@@ -162,11 +144,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBDE60C0367067915"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventHikoNushiPlayerRockClash.onFinished
+function CBDE60C0367067915_prototype:F68499476069C0B1E()
   local L1_2
 end
 

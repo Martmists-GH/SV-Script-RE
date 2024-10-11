@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C14A8D35D72F56FE9"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]
-L69_1 = "new"
+---@alias C14A8D35D72F56FE9 main_management_bag_Bag
 
-function L70_1()
+---@class main_management_bag_Bag : C14A8D35D72F56FE9_prototype
+---@field prototype C14A8D35D72F56FE9_prototype
+C14A8D35D72F56FE9 = L15_1()
+function C14A8D35D72F56FE9.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C14A8D35D72F56FE9
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C14A8D35D72F56FE9
+function C14A8D35D72F56FE9.super(A0_2)
   local L1_2, L2_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
@@ -47,11 +41,7 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]
-L69_1 = "__name__"
-L70_1 = "C14A8D35D72F56FE9"
-L68_1[L69_1] = L70_1
+C14A8D35D72F56FE9.__name__ = "C14A8D35D72F56FE9"
 L68_1 = _ENV["C14A8D35D72F56FE9"]
 L69_1 = "S90D73F1D715BCBF4"
 
@@ -71,50 +61,45 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F1CB2E0F0219B0E66"
-
-function L70_1(A0_2)
+---@class C14A8D35D72F56FE9_prototype
+C14A8D35D72F56FE9_prototype = L15_1()
+C14A8D35D72F56FE9.prototype = C14A8D35D72F56FE9_prototype
+--- main.management.bag.Bag.SortProcSetup
+function C14A8D35D72F56FE9_prototype:F1CB2E0F0219B0E66()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = L42_1.new
   L1_2 = L1_2()
-  A0_2[5] = L1_2
+  self[5] = L1_2
   L1_2 = cFCDA3A84
   L1_2 = L1_2.f5B6373D5
   L1_2 = L1_2()
-  A0_2[4] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F95E85C17B3ADACA5
+  self[4] = L1_2
+  L2_2 = self
+  L1_2 = self.F95E85C17B3ADACA5
   L1_2(L2_2)
   L1_2 = _hx_tab_array
   L2_2 = {}
   L2_2.length = 0
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F3047F47ED417DEEE
+  L4_2 = self
+  L5_2 = self.F3047F47ED417DEEE
   L3_2 = L3_2(L4_2, L5_2)
   L2_2[0] = L3_2
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F8CDB8848ACC1C65D
+  L4_2 = self
+  L5_2 = self.F8CDB8848ACC1C65D
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.FDC5F4D5507923127
+  L5_2 = self
+  L6_2 = self.FDC5F4D5507923127
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.F3A85D9989E473FAA
+  L6_2 = self
+  L7_2 = self.F3A85D9989E473FAA
   L5_2 = L5_2(L6_2, L7_2)
   L6_2 = L55_1
-  L7_2 = A0_2
-  L8_2 = A0_2.F08EEE2D8853D0A00
+  L7_2 = self
+  L8_2 = self.F08EEE2D8853D0A00
   L6_2, L7_2, L8_2 = L6_2(L7_2, L8_2)
   L2_2[1] = L3_2
   L2_2[2] = L4_2
@@ -124,14 +109,11 @@ function L70_1(A0_2)
   L2_2[6] = L8_2
   L3_2 = 5
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[7] = L1_2
+  self[7] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F805820216475A3A9"
-
-function L70_1(A0_2)
+--- main.management.bag.Bag.F805820216475A3A9
+function C14A8D35D72F56FE9_prototype:F805820216475A3A9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2, L51_2, L52_2, L53_2, L54_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -2682,14 +2664,11 @@ function L70_1(A0_2)
   L2_2[252] = L54_2
   L3_2 = 231
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[8] = L1_2
+  self[8] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F613EF43048503816"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.management.bag.Bag.F613EF43048503816
+function C14A8D35D72F56FE9_prototype:F613EF43048503816(A1_2, A2_2)
   local L3_2
   if 3 ~= A1_2 then
     L3_2 = true
@@ -2704,17 +2683,14 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "FBD294D57E544DAF4"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.management.bag.Bag.GetArray
+function C14A8D35D72F56FE9_prototype:FBD294D57E544DAF4(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A3_2 then
     A3_2 = false
   end
   L4_2 = 12 == A1_2
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = _hx_tab_array
   L7_2 = {}
   L7_2.length = 0
@@ -2732,8 +2708,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     if L9_2 == A1_2 or L4_2 then
       L9_2 = L8_2.num
       if L9_2 > 0 then
-        L10_2 = A0_2
-        L9_2 = A0_2.F613EF43048503816
+        L10_2 = self
+        L9_2 = self.F613EF43048503816
         L11_2 = A1_2
         L12_2 = L8_2.itemID
         L9_2 = L9_2(L10_2, L11_2, L12_2)
@@ -2747,7 +2723,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
   end
   if 5 ~= A2_2 then
-    L8_2 = A0_2[7]
+    L8_2 = self[7]
     L8_2 = L8_2[A2_2]
     L9_2 = L6_2
     L8_2(L9_2)
@@ -2755,17 +2731,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F58A749F1EAA1992E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.management.bag.Bag.F58A749F1EAA1992E
+function C14A8D35D72F56FE9_prototype:F58A749F1EAA1992E(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A2_2 then
     A2_2 = false
   end
   L3_2 = 0
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   while true do
     L5_2 = L4_2.length
     if not (L3_2 < L5_2) then
@@ -2779,8 +2752,8 @@ function L70_1(A0_2, A1_2, A2_2)
       if L6_2 == A1_2 then
         L6_2 = L5_2.num
         if L6_2 > 0 then
-          L7_2 = A0_2
-          L6_2 = A0_2.F613EF43048503816
+          L7_2 = self
+          L6_2 = self.F613EF43048503816
           L8_2 = A1_2
           L9_2 = L5_2.itemID
           L6_2 = L6_2(L7_2, L8_2, L9_2)
@@ -2796,19 +2769,16 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F13D72EF77582090D"
-
-function L70_1(A0_2, A1_2)
+--- main.management.bag.Bag.FindItemById
+function C14A8D35D72F56FE9_prototype:F13D72EF77582090D(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[6]
+    L5_2 = self[6]
     L5_2 = L5_2[L4_2]
     L5_2 = L5_2.itemID
     if L5_2 == A1_2 then
@@ -2819,11 +2789,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F79CB4638754DB3C8"
-
-function L70_1(A0_2, A1_2)
+--- main.management.bag.Bag.GetDefaultData
+function C14A8D35D72F56FE9_prototype:F79CB4638754DB3C8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L16_1
   L3_2 = {}
@@ -2851,41 +2818,35 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F547A7E84715631C6"
-
-function L70_1(A0_2, A1_2)
+--- main.management.bag.Bag.GetNumItem
+function C14A8D35D72F56FE9_prototype:F547A7E84715631C6(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F13D72EF77582090D
+  L3_2 = self
+  L2_2 = self.F13D72EF77582090D
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if -1 == L2_2 then
     L3_2 = -1
     return L3_2
   end
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L3_2 = L3_2[L2_2]
   L3_2 = L3_2.num
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F550C650F0A01AD3D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.management.bag.Bag.SetNewFlag
+function C14A8D35D72F56FE9_prototype:F550C650F0A01AD3D(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F13D72EF77582090D
+  L4_2 = self
+  L3_2 = self.F13D72EF77582090D
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   if -1 == L3_2 then
     L4_2 = -1
     return L4_2
   end
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L4_2 = L4_2[L3_2]
   L4_2.newFlag = A2_2
   L4_2 = C985427E5D92698CE
@@ -2909,14 +2870,11 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F73191D6355C06B79"
-
-function L70_1(A0_2, A1_2)
+--- main.management.bag.Bag.IsFavorete
+function C14A8D35D72F56FE9_prototype:F73191D6355C06B79(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F13D72EF77582090D
+  L3_2 = self
+  L2_2 = self.F13D72EF77582090D
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if -1 == L2_2 then
@@ -2927,7 +2885,7 @@ function L70_1(A0_2, A1_2)
   function L3_2()
     local L0_3, L1_3, L2_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[6]
     L2_3 = L2_2
     L1_3 = L1_3[L2_3]
@@ -2943,14 +2901,11 @@ function L70_1(A0_2, A1_2)
   return L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "FA5D772AA1362EF87"
-
-function L70_1(A0_2, A1_2)
+--- main.management.bag.Bag.IsGet
+function C14A8D35D72F56FE9_prototype:FA5D772AA1362EF87(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F13D72EF77582090D
+  L3_2 = self
+  L2_2 = self.F13D72EF77582090D
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if -1 == L2_2 then
@@ -2961,7 +2916,7 @@ function L70_1(A0_2, A1_2)
   function L3_2()
     local L0_3, L1_3, L2_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[6]
     L2_3 = L2_2
     L1_3 = L1_3[L2_3]
@@ -2977,21 +2932,18 @@ function L70_1(A0_2, A1_2)
   return L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F9485C01B3872B57F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.management.bag.Bag.SetFavorete
+function C14A8D35D72F56FE9_prototype:F9485C01B3872B57F(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F13D72EF77582090D
+  L4_2 = self
+  L3_2 = self.F13D72EF77582090D
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   if -1 == L3_2 then
     L4_2 = -1
     return L4_2
   end
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L4_2 = L4_2[L3_2]
   L4_2.favorete = A2_2
   L4_2 = C985427E5D92698CE
@@ -3015,14 +2967,11 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "FB01A9B29CD4CC6CB"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.management.bag.Bag.AddItem
+function C14A8D35D72F56FE9_prototype:FB01A9B29CD4CC6CB(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F13D72EF77582090D
+  L4_2 = self
+  L3_2 = self.F13D72EF77582090D
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = C6BC8418E8E071EE6
@@ -3036,14 +2985,14 @@ function L70_1(A0_2, A1_2, A2_2)
     return
   end
   if 7 == L4_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.F248FE4CD071939F5
+    L6_2 = self
+    L5_2 = self.F248FE4CD071939F5
     L7_2 = A1_2
     L5_2(L6_2, L7_2)
   end
   if -1 == L3_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.F79CB4638754DB3C8
+    L6_2 = self
+    L5_2 = self.F79CB4638754DB3C8
     L7_2 = A1_2
     L5_2 = L5_2(L6_2, L7_2)
     if 12 == L4_2 then
@@ -3058,7 +3007,7 @@ function L70_1(A0_2, A1_2, A2_2)
     end
     L5_2.num = A2_2
     L5_2.isGet = true
-    L6_2 = A0_2[6]
+    L6_2 = self[6]
     L7_2 = L6_2
     L6_2 = L6_2.push
     L8_2 = L5_2
@@ -3084,7 +3033,7 @@ function L70_1(A0_2, A1_2, A2_2)
   if -1 == L3_2 then
     return
   end
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L5_2 = L5_2[L3_2]
   L6_2 = L5_2.num
   L6_2 = L6_2 + A2_2
@@ -3096,31 +3045,28 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = L6_2.F74042DD40BF93AB1
   L8_2 = A1_2
   L6_2 = L6_2(L7_2, L8_2)
-  L7_2 = A0_2[6]
+  L7_2 = self[6]
   L7_2 = L7_2[L3_2]
   L7_2 = L7_2.num
   if L6_2 < L7_2 then
-    L7_2 = A0_2[6]
+    L7_2 = self[6]
     L7_2 = L7_2[L3_2]
     L7_2.num = L6_2
   end
   L7_2 = C985427E5D92698CE
   L7_2 = L7_2.SAB9A64F8881E7F45
   L8_2 = A1_2
-  L9_2 = A0_2[6]
+  L9_2 = self[6]
   L9_2 = L9_2[L3_2]
   L9_2 = L9_2.num
   L7_2(L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F6C18EEC27ED4BA1E"
-
-function L70_1(A0_2, A1_2)
+--- main.management.bag.Bag.F6C18EEC27ED4BA1E
+function C14A8D35D72F56FE9_prototype:F6C18EEC27ED4BA1E(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F13D72EF77582090D
+  L3_2 = self
+  L2_2 = self.F13D72EF77582090D
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = C6BC8418E8E071EE6
@@ -3133,21 +3079,18 @@ function L70_1(A0_2, A1_2)
   if -1 == L2_2 then
     return L3_2
   end
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L4_2 = L4_2[L2_2]
   L4_2 = L4_2.num
   L4_2 = L3_2 - L4_2
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F2001F41E6B757BB1"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.management.bag.Bag.F2001F41E6B757BB1
+function C14A8D35D72F56FE9_prototype:F2001F41E6B757BB1(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F13D72EF77582090D
+  L4_2 = self
+  L3_2 = self.F13D72EF77582090D
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = C6BC8418E8E071EE6
@@ -3159,7 +3102,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = 0
   if -1 ~= L3_2 then
-    L6_2 = A0_2[6]
+    L6_2 = self[6]
     L6_2 = L6_2[L3_2]
     L6_2 = L6_2.num
     L5_2 = L6_2 + A2_2
@@ -3172,28 +3115,25 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "FE027A297CCA14276"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.management.bag.Bag.SubItem
+function C14A8D35D72F56FE9_prototype:FE027A297CCA14276(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F13D72EF77582090D
+  L4_2 = self
+  L3_2 = self.F13D72EF77582090D
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   if -1 == L3_2 then
     L4_2 = false
     return L4_2
   end
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L4_2 = L4_2[L3_2]
   L4_2 = L4_2.num
   if A2_2 > L4_2 then
     L4_2 = false
     return L4_2
   end
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L4_2 = L4_2[L3_2]
   L5_2 = L4_2.num
   L5_2 = L5_2 - A2_2
@@ -3201,7 +3141,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2 = C985427E5D92698CE
   L5_2 = L5_2.SAB9A64F8881E7F45
   L6_2 = A1_2
-  L7_2 = A0_2[6]
+  L7_2 = self[6]
   L7_2 = L7_2[L3_2]
   L7_2 = L7_2.num
   L5_2(L6_2, L7_2)
@@ -3220,15 +3160,12 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "FC3077009A231ABF6"
-
-function L70_1(A0_2, A1_2)
+--- main.management.bag.Bag.SetLoadDataEx
+function C14A8D35D72F56FE9_prototype:FC3077009A231ABF6(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
-  A0_2[6] = L2_2
+  self[6] = L2_2
   L2_2 = 0
   L3_2 = false
   while true do
@@ -3242,7 +3179,7 @@ function L70_1(A0_2, A1_2)
     if L5_2 then
       L5_2 = L4_2.itemID
       if 0 ~= L5_2 then
-        L5_2 = A0_2[6]
+        L5_2 = self[6]
         L6_2 = L5_2
         L5_2 = L5_2.push
         L7_2 = L4_2
@@ -3256,13 +3193,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F95E85C17B3ADACA5"
-
-function L70_1(A0_2)
+--- main.management.bag.Bag.LoadItemNameSortInfo
+function C14A8D35D72F56FE9_prototype:F95E85C17B3ADACA5()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C652C225D53D1B872
   L2_2 = L2_2.S511DEF29717431A3
   L2_2 = L2_2()
@@ -3392,41 +3326,32 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F3047F47ED417DEEE"
-
-function L70_1(A0_2, A1_2)
+--- main.management.bag.Bag.SetSortArraySortKind
+function C14A8D35D72F56FE9_prototype:F3047F47ED417DEEE(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L38_1.sort
   L3_2 = A1_2
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F1F0C9BC1F6272787
+  L5_2 = self
+  L6_2 = self.F1F0C9BC1F6272787
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F8CDB8848ACC1C65D"
-
-function L70_1(A0_2, A1_2)
+--- main.management.bag.Bag.SetSortArraySortNumber
+function C14A8D35D72F56FE9_prototype:F8CDB8848ACC1C65D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L38_1.sort
   L3_2 = A1_2
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F1F0C9BC1F6272787
+  L5_2 = self
+  L6_2 = self.F1F0C9BC1F6272787
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F1F0C9BC1F6272787"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.management.bag.Bag.ItemArraySort
+function C14A8D35D72F56FE9_prototype:F1F0C9BC1F6272787(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = C6BC8418E8E071EE6
   L3_2 = L3_2.S385504EFF7E842C3
@@ -3464,34 +3389,28 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "FDC5F4D5507923127"
-
-function L70_1(A0_2, A1_2)
+--- main.management.bag.Bag.SetSortArraySortName
+function C14A8D35D72F56FE9_prototype:FDC5F4D5507923127(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L38_1.sort
   L3_2 = A1_2
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F29A33763C30E74E4
+  L5_2 = self
+  L6_2 = self.F29A33763C30E74E4
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F29A33763C30E74E4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.management.bag.Bag.ItemArraySortName
+function C14A8D35D72F56FE9_prototype:F29A33763C30E74E4(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = -1
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L4_2 = L4_2.h
   L5_2 = A1_2.itemID
   L4_2 = L4_2[L5_2]
   if nil ~= L4_2 then
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L4_2 = L4_2.h
     L5_2 = A1_2.itemID
     L4_2 = L4_2[L5_2]
@@ -3505,12 +3424,12 @@ function L70_1(A0_2, A1_2, A2_2)
     return L4_2
   end
   L4_2 = -1
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L5_2 = L5_2.h
   L6_2 = A2_2.itemID
   L5_2 = L5_2[L6_2]
   if nil ~= L5_2 then
-    L5_2 = A0_2[5]
+    L5_2 = self[5]
     L5_2 = L5_2.h
     L6_2 = A2_2.itemID
     L5_2 = L5_2[L6_2]
@@ -3534,26 +3453,20 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F3A85D9989E473FAA"
-
-function L70_1(A0_2, A1_2)
+--- main.management.bag.Bag.SetSortArraySortNew
+function C14A8D35D72F56FE9_prototype:F3A85D9989E473FAA(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L38_1.sort
   L3_2 = A1_2
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.FE610C306F575FDCF
+  L5_2 = self
+  L6_2 = self.FE610C306F575FDCF
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "FE610C306F575FDCF"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.management.bag.Bag.ItemArraySortNewList
+function C14A8D35D72F56FE9_prototype:FE610C306F575FDCF(A1_2, A2_2)
   local L3_2
   L3_2 = A1_2.newFlag
   if true == L3_2 then
@@ -3576,26 +3489,20 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F08EEE2D8853D0A00"
-
-function L70_1(A0_2, A1_2)
+--- main.management.bag.Bag.SetSortArraySortFavorite
+function C14A8D35D72F56FE9_prototype:F08EEE2D8853D0A00(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L38_1.sort
   L3_2 = A1_2
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F4B2710D5F31FC5EB
+  L5_2 = self
+  L6_2 = self.F4B2710D5F31FC5EB
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F4B2710D5F31FC5EB"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.management.bag.Bag.F4B2710D5F31FC5EB
+function C14A8D35D72F56FE9_prototype:F4B2710D5F31FC5EB(A1_2, A2_2)
   local L3_2
   L3_2 = A1_2.favorete
   if true == L3_2 then
@@ -3618,11 +3525,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14A8D35D72F56FE9"]["prototype"]
-L69_1 = "F248FE4CD071939F5"
-
-function L70_1(A0_2, A1_2)
+--- main.management.bag.Bag.SetWazaMachineFlag
+function C14A8D35D72F56FE9_prototype:F248FE4CD071939F5(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
@@ -3653,19 +3557,19 @@ function L70_1(A0_2, A1_2)
     end
   end
   L4_2 = 0
-  L5_2 = A0_2[8]
+  L5_2 = self[8]
   L5_2 = L5_2.length
   while L4_2 < L5_2 do
     L4_2 = L4_2 + 1
     L6_2 = L4_2 - 1
-    L7_2 = A0_2[8]
+    L7_2 = self[8]
     L7_2 = L7_2[L6_2]
     L7_2 = L7_2.WazaID
     if L7_2 == L2_2 then
       L7_2 = C10578806AC30DCA3
       L7_2 = L7_2.SBA6FF574C1C9AA09
       L7_2 = L7_2.h
-      L8_2 = A0_2[8]
+      L8_2 = self[8]
       L8_2 = L8_2[L6_2]
       L8_2 = L8_2.WazaMachineFlag
       L7_2 = L7_2[L8_2]
@@ -3680,7 +3584,7 @@ function L70_1(A0_2, A1_2)
         L8_2(L9_2)
         L8_2 = C828F047963375FA0
         L8_2 = L8_2.S849063844732EB30
-        L9_2 = A0_2[8]
+        L9_2 = self[8]
         L9_2 = L9_2[L6_2]
         L9_2 = L9_2.WazaMachineFlag
         L8_2(L9_2)

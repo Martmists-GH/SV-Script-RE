@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C3375B87767F844DD"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C3375B87767F844DD"]
-L69_1 = "new"
+---@alias C3375B87767F844DD main_ui_waza_remember_database_WazaRememberUIDatabase
 
-function L70_1(A0_2)
+---@class main_ui_waza_remember_database_WazaRememberUIDatabase : C3375B87767F844DD_prototype
+---@field prototype C3375B87767F844DD_prototype
+C3375B87767F844DD = L15_1()
+function C3375B87767F844DD.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C3375B87767F844DD
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C3375B87767F844DD
+function C3375B87767F844DD.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C3375B87767F844DD"]
 L69_1 = "__name__"
 L70_1 = "C3375B87767F844DD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]
-L69_1 = "S4EF8C88F156C14B4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.SetRememberData
+function C3375B87767F844DD.S4EF8C88F156C14B4(A0_2, A1_2, A2_2)
   local L3_2
   if nil == A2_2 then
     A2_2 = 0
@@ -59,11 +50,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2.SD0AE820B8A8BB19B = A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]
-L69_1 = "S3105A6F4888F88ED"
-
-function L70_1()
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.WazaRememberSceneLoad
+function C3375B87767F844DD.S3105A6F4888F88ED()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -86,11 +74,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]
-L69_1 = "S10033E5846738FAF"
-
-function L70_1()
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.ResetRememberData
+function C3375B87767F844DD.S10033E5846738FAF()
   local L0_2, L1_2
   L0_2 = C3375B87767F844DD
   L0_2.S2C9815F9CDA54B8F = nil
@@ -107,11 +92,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]
-L69_1 = "SE8C2CF996CFF55FA"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.SetResultData
+function C3375B87767F844DD.SE8C2CF996CFF55FA(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C3375B87767F844DD
   L2_2 = L16_1
@@ -128,11 +110,8 @@ function L70_1(A0_2)
   L1_2.S1319C765D2F46A49 = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]
-L69_1 = "S1464D6B1979B7A6A"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.SetResult
+function C3375B87767F844DD.S1464D6B1979B7A6A(A0_2)
   local L1_2, L2_2
   L1_2 = C3375B87767F844DD
   L1_2.S4C31F568D84B8E71 = A0_2
@@ -149,54 +128,39 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]
-L69_1 = "S357A65DD82CA566E"
-
-function L70_1()
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.GetResultData
+function C3375B87767F844DD.S357A65DD82CA566E()
   local L0_2, L1_2
   L0_2 = C3375B87767F844DD
   L0_2 = L0_2.S1319C765D2F46A49
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]
-L69_1 = "SBB34C1C4A8FCD2CE"
-
-function L70_1()
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.GetResult
+function C3375B87767F844DD.SBB34C1C4A8FCD2CE()
   local L0_2, L1_2
   L0_2 = C3375B87767F844DD
   L0_2 = L0_2.S4C31F568D84B8E71
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]
-L69_1 = "S1FEEE10A0B7D7018"
-
-function L70_1()
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.GetState
+function C3375B87767F844DD.S1FEEE10A0B7D7018()
   local L0_2, L1_2
   L0_2 = C3375B87767F844DD
   L0_2 = L0_2.SECF78766DF1A2CAD
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]
-L69_1 = "S0447962DA9E61E54"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.SetState
+function C3375B87767F844DD.S0447962DA9E61E54(A0_2)
   local L1_2
   L1_2 = C3375B87767F844DD
   L1_2.SECF78766DF1A2CAD = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]
-L69_1 = "S1E981A0C61239062"
-
-function L70_1()
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.ResultDataInitialize
+function C3375B87767F844DD.S1E981A0C61239062()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C3375B87767F844DD
   L0_2.SECF78766DF1A2CAD = 1
@@ -215,42 +179,34 @@ function L70_1()
   L0_2.S1319C765D2F46A49 = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C3375B87767F844DD_prototype
+C3375B87767F844DD_prototype = L15_1()
+C3375B87767F844DD.prototype = C3375B87767F844DD_prototype
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.Setup
+function C3375B87767F844DD_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.new
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F0E47A597FB435DB7
+  L4_2 = self
+  L5_2 = self.F0E47A597FB435DB7
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = "waza_remember setup sequence"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]["prototype"]
-L69_1 = "F0E47A597FB435DB7"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.SetupSequence
+function C3375B87767F844DD_prototype:F0E47A597FB435DB7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   while true do
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.f462C9B70
     L1_2 = L1_2(L2_2)
@@ -264,7 +220,7 @@ function L70_1(A0_2)
     L1_2 = L1_2.S760DAE4C5371A78E
     L1_2()
   end
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
@@ -298,8 +254,8 @@ function L70_1(A0_2)
   if not L5_2 then
     return
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F469A9B260EDF81BB
+  L6_2 = self
+  L5_2 = self.F469A9B260EDF81BB
   L5_2 = L5_2(L6_2)
   if not L5_2 then
     return
@@ -313,7 +269,7 @@ function L70_1(A0_2)
   L9_2 = C3375B87767F844DD
   L9_2 = L9_2.SD0AE820B8A8BB19B
   L5_2(L6_2, L7_2, L8_2, L9_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f462C9B70
   L5_2 = L5_2(L6_2)
@@ -365,21 +321,18 @@ function L70_1(A0_2)
   L10_2(L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.PreUpdate
+function C3375B87767F844DD_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -427,11 +380,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]["prototype"]
-L69_1 = "F469A9B260EDF81BB"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.IsSetData
+function C3375B87767F844DD_prototype:F469A9B260EDF81BB()
   local L1_2, L2_2, L3_2
   L1_2 = true
   L2_2 = C6E074861269A51A2
@@ -453,11 +403,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3375B87767F844DD"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.database.WazaRememberUIDatabase.Destroy
+function C3375B87767F844DD_prototype:F1C2AA00ADAC52EC5()
   local L1_2
   L1_2 = C3375B87767F844DD
   L1_2.S0418F3FBAAC1B9C3 = nil

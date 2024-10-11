@@ -1,3 +1,7 @@
+---@alias C6386A40FD2650E03 main_event_general_fly_CliffReturnSubEvent
+
+---@class main_event_general_fly_CliffReturnSubEvent : C6386A40FD2650E03_prototype
+---@field prototype C6386A40FD2650E03_prototype
 L55_1 = _ENV
 L56_1 = "C6386A40FD2650E03"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6386A40FD2650E03"]
 L69_1 = "__name__"
 L70_1 = "C6386A40FD2650E03"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6386A40FD2650E03"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6386A40FD2650E03"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C6386A40FD2650E03_prototype
+C6386A40FD2650E03_prototype = L15_1()
+C6386A40FD2650E03.prototype = C6386A40FD2650E03_prototype
+--- main.event.general.fly.CliffReturnSubEvent.mainBody
+function C6386A40FD2650E03_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S12FD376DC11712C8
@@ -64,7 +63,7 @@ function L70_1(A0_2)
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S4E44D50241EFAB61
   L1_2()
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.SBAF9D8C76CD23F42
   L3_2 = C6386A40FD2650E03
@@ -79,22 +78,19 @@ function L70_1(A0_2)
   L2_2 = C6386A40FD2650E03
   L2_2 = L2_2.SDD7DFA6B1E60E450
   L1_2(L2_2)
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.isYes
   if L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F530F836D2142B300
-    L3_2 = A0_2[32]
+    L2_2 = self
+    L1_2 = self.F530F836D2142B300
+    L3_2 = self[32]
     L3_2 = L3_2.pos
     L1_2(L2_2, L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6386A40FD2650E03"]["prototype"]
-L69_1 = "F530F836D2142B300"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.fly.CliffReturnSubEvent.AutoReturn
+function C6386A40FD2650E03_prototype:F530F836D2142B300(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = 0.0
   L3_2 = C42D1CDB112422850
@@ -224,7 +220,7 @@ function L70_1(A0_2, A1_2)
     L7_2 = L7_2()
     L8_2 = false
     L5_2(L6_2, L7_2, L8_2)
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.f22D509B2
     L6_2 = 2

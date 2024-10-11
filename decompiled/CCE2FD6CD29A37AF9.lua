@@ -1,23 +1,14 @@
-L55_1 = _ENV
-L56_1 = "CCE2FD6CD29A37AF9"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
+---@alias CCE2FD6CD29A37AF9 main_event_common_scenario_main_team_TeamCommon
+
+---@class main_event_common_scenario_main_team_TeamCommon
+CCE2FD6CD29A37AF9 = L15_1()
 L55_1 = L15_1
 L55_1 = L55_1()
 C3C481E9222FC70D0 = L55_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "__name__"
-L70_1 = "CCE2FD6CD29A37AF9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "SA38F29380827298A"
-
-function L70_1(A0_2)
+CCE2FD6CD29A37AF9.new = {}
+CCE2FD6CD29A37AF9.__name__ = "CCE2FD6CD29A37AF9"
+--- main.event.common.scenario.main.team.TeamCommon.getTeamEventInfo
+function CCE2FD6CD29A37AF9.SA38F29380827298A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = 0
   L2_2 = CCE2FD6CD29A37AF9
@@ -60,11 +51,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "S6D7174E710A25E1D"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.team.TeamCommon.getTeamKeepOutInfo
+function CCE2FD6CD29A37AF9.S6D7174E710A25E1D(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = CCE2FD6CD29A37AF9
@@ -85,11 +73,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "SF9F92ECA89CA1B8E"
-
-function L70_1()
+--- main.event.common.scenario.main.team.TeamCommon.GetTeamClearCount
+function CCE2FD6CD29A37AF9.SF9F92ECA89CA1B8E()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = 0
   L1_2 = 0
@@ -113,11 +98,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "S4DAD9A3C1EF1EC7E"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.team.TeamCommon.IsTeamValid
+function CCE2FD6CD29A37AF9.S4DAD9A3C1EF1EC7E(A0_2)
   local L1_2, L2_2
   L1_2 = CCE2FD6CD29A37AF9
   L1_2 = L1_2.SA38F29380827298A
@@ -139,11 +121,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "S28F2579D50D0EC49"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.team.TeamCommon.IsTeamEventClear
+function CCE2FD6CD29A37AF9.S28F2579D50D0EC49(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CCE2FD6CD29A37AF9
   L1_2 = L1_2.SA38F29380827298A
@@ -159,11 +138,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "SA2809658B13A3778"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.team.TeamCommon.IsTeamKeepOutClear
+function CCE2FD6CD29A37AF9.SA2809658B13A3778(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CCE2FD6CD29A37AF9
   L1_2 = L1_2.SA322612A1B17CED4
@@ -174,11 +150,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "SA322612A1B17CED4"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.team.TeamCommon.IsTeamKeepOutClearFromInfo
+function CCE2FD6CD29A37AF9.SA322612A1B17CED4(A0_2)
   local L1_2, L2_2
   if nil ~= A0_2 then
     L1_2 = C9AA363B3CCC264AA
@@ -190,11 +163,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "S022FFD37AE139C96"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.team.TeamCommon.GetTeamType
+function CCE2FD6CD29A37AF9.S022FFD37AE139C96(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CCE2FD6CD29A37AF9
   L1_2 = L1_2.SA38F29380827298A
@@ -216,11 +186,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "SAB9332004B89E205"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.team.TeamCommon.DeleteEventSceneobject
+function CCE2FD6CD29A37AF9.SAB9332004B89E205(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = 0
   L2_2 = CCE2FD6CD29A37AF9
@@ -291,11 +258,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "SBD01D8B487DB524A"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.team.TeamCommon.SBD01D8B487DB524A
+function CCE2FD6CD29A37AF9.SBD01D8B487DB524A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = 0
   L2_2 = CCE2FD6CD29A37AF9
@@ -353,11 +317,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "SFED1C8913C7CA40C"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.team.TeamCommon.SFED1C8913C7CA40C
+function CCE2FD6CD29A37AF9.SFED1C8913C7CA40C(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = 0
   L2_2 = CCE2FD6CD29A37AF9
@@ -415,11 +376,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "SEBAF6FB38CEB8F93"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.common.scenario.main.team.TeamCommon.SEBAF6FB38CEB8F93
+function CCE2FD6CD29A37AF9.SEBAF6FB38CEB8F93(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A1_2 then
     A1_2 = false
@@ -434,11 +392,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "S7426123C05F42715"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.common.scenario.main.team.TeamCommon.S7426123C05F42715
+function CCE2FD6CD29A37AF9.S7426123C05F42715(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A1_2 then
     A1_2 = false
@@ -453,11 +408,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "S28A3E234783FF731"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.common.scenario.main.team.TeamCommon.callWarpEntryPoint
+function CCE2FD6CD29A37AF9.S28A3E234783FF731(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A1_2 then
     A1_2 = false
@@ -491,11 +443,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "SD0EC783D500AC1EF"
-
-function L70_1(A0_2, A1_2)
+--- main.event.common.scenario.main.team.TeamCommon.getWarpEntryPoint
+function CCE2FD6CD29A37AF9.SD0EC783D500AC1EF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = 0
   L3_2 = CCE2FD6CD29A37AF9
@@ -557,11 +506,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "SD4946583E13FF0EA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.common.scenario.main.team.TeamCommon.SD4946583E13FF0EA
+function CCE2FD6CD29A37AF9.SD4946583E13FF0EA(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil ~= A3_2 and nil ~= A4_2 then
     L5_2 = C8568A4DA5C1FB1A5
@@ -596,11 +542,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "S4BB241080181F815"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.team.TeamCommon.SetKeepOutEnable
+function CCE2FD6CD29A37AF9.S4BB241080181F815(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CCE2FD6CD29A37AF9
   L1_2 = L1_2.S254000B68F0DF49A
@@ -614,11 +557,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "S74EBD90A2EE8215F"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.team.TeamCommon.S74EBD90A2EE8215F
+function CCE2FD6CD29A37AF9.S74EBD90A2EE8215F(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CCE2FD6CD29A37AF9
   L1_2 = L1_2.S254000B68F0DF49A
@@ -628,11 +568,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "S1810B54A3C8AE04C"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.team.TeamCommon.S1810B54A3C8AE04C
+function CCE2FD6CD29A37AF9.S1810B54A3C8AE04C(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CCE2FD6CD29A37AF9
   L1_2 = L1_2.S254000B68F0DF49A
@@ -642,11 +579,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE2FD6CD29A37AF9"]
-L69_1 = "S31CF20D0C1659742"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.team.TeamCommon.AjitoClearReward
+function CCE2FD6CD29A37AF9.S31CF20D0C1659742(A0_2)
   local L1_2, L2_2, L3_2
   if 0 == A0_2 then
     L1_2 = C10578806AC30DCA3

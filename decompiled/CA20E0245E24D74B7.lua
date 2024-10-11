@@ -1,3 +1,5 @@
+---@class CA20E0245E24D74B7 : CA20E0245E24D74B7_prototype
+---@field prototype CA20E0245E24D74B7_prototype
 L55_1 = _ENV
 L56_1 = "CA20E0245E24D74B7"
 L57_1 = L15_1
@@ -50,27 +52,22 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CA20E0245E24D74B7"]
 L69_1 = "__name__"
 L70_1 = "CA20E0245E24D74B7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA20E0245E24D74B7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA20E0245E24D74B7"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CA20E0245E24D74B7_prototype
+CA20E0245E24D74B7_prototype = L15_1()
+CA20E0245E24D74B7.prototype = CA20E0245E24D74B7_prototype
+--- CA20E0245E24D74B7.Setup
+function CA20E0245E24D74B7_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = C9EF8FCA0AEE75664
   L3_2 = L3_2.prototype
   L3_2 = L3_2.F7C68FEDB79AB6396
-  L4_2 = A0_2
+  L4_2 = self
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FEF31A40F361A213A
-  L5_2 = A0_2[2]
+  L4_2 = self
+  L3_2 = self.FEF31A40F361A213A
+  L5_2 = self[2]
   
   function L6_2(A0_3)
     local L1_3, L2_3, L3_3, L4_3, L5_3, L6_3, L7_3, L8_3, L9_3, L10_3

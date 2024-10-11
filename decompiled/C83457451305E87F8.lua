@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C83457451305E87F8"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C83457451305E87F8"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83457451305E87F8"]
-L69_1 = "__name__"
-L70_1 = "C83457451305E87F8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83457451305E87F8"]
-L69_1 = "S40391097AE1E2D10"
+---@alias C83457451305E87F8 main_event_general_system_map_change_base_MapChangeCommonFunc
 
-function L70_1(A0_2)
+---@class main_event_general_system_map_change_base_MapChangeCommonFunc
+C83457451305E87F8 = L15_1()
+C83457451305E87F8.new = {}
+C83457451305E87F8.__name__ = "C83457451305E87F8"
+--- main.event.general.system.map_change.base.MapChangeCommonFunc.CallStopperEvent
+function C83457451305E87F8.S40391097AE1E2D10(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = true
   L2_2 = A0_2.stopperFlag
@@ -112,11 +103,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83457451305E87F8"]
-L69_1 = "S4B0558A11B1587D8"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.base.MapChangeCommonFunc.S4B0558A11B1587D8
+function C83457451305E87F8.S4B0558A11B1587D8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = CC6FE82819C6E1D55
   L1_2 = L1_2.SFBF86D7C138AB6C6
@@ -265,11 +253,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83457451305E87F8"]
-L69_1 = "S89C0D552B40092B3"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.base.MapChangeCommonFunc.S89C0D552B40092B3
+function C83457451305E87F8.S89C0D552B40092B3(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = C83457451305E87F8
   L1_2 = L1_2.S942F0AD49720722F
@@ -386,11 +371,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83457451305E87F8"]
-L69_1 = "S29422246DC300331"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.system.map_change.base.MapChangeCommonFunc.S29422246DC300331
+function C83457451305E87F8.S29422246DC300331(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = C83457451305E87F8
   L3_2 = L3_2.S942F0AD49720722F
@@ -411,11 +393,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83457451305E87F8"]
-L69_1 = "S942F0AD49720722F"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.base.MapChangeCommonFunc.PlaySE
+function C83457451305E87F8.S942F0AD49720722F(A0_2)
   local L1_2, L2_2, L3_2
   if nil ~= A0_2 and "" ~= A0_2 then
     L1_2 = cB66A3C78
@@ -428,11 +407,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83457451305E87F8"]
-L69_1 = "SB17ED0498F12916E"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.base.MapChangeCommonFunc.PlayerWarp
+function C83457451305E87F8.SB17ED0498F12916E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.SDE9EF3CFD428417D
@@ -564,11 +540,8 @@ function L70_1(A0_2, A1_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83457451305E87F8"]
-L69_1 = "S8F2B79FF06717049"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.base.MapChangeCommonFunc.FindLocation
+function C83457451305E87F8.S8F2B79FF06717049(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L3_2 = A0_2
   L2_2 = A0_2.fE9C29DA1
@@ -786,11 +759,8 @@ function L70_1(A0_2, A1_2)
   return L10_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83457451305E87F8"]
-L69_1 = "SBEFD39F0FA31D179"
-
-function L70_1()
+--- main.event.general.system.map_change.base.MapChangeCommonFunc.SceneChangeCheck
+function C83457451305E87F8.SBEFD39F0FA31D179()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = C3DD9809BE5B47111
   L0_2 = L0_2.SC8223E31D3163519
@@ -823,11 +793,8 @@ function L70_1()
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83457451305E87F8"]
-L69_1 = "S579DE87F20128D40"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.system.map_change.base.MapChangeCommonFunc.GetLocation
+function C83457451305E87F8.S579DE87F20128D40(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2
   L3_2 = c682D8E4F
   L3_2 = L3_2.fEF94D11D
@@ -974,11 +941,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L22_2(L23_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83457451305E87F8"]
-L69_1 = "S1330B0E8686BD7EE"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.base.MapChangeCommonFunc.GetDestSceneObject
+function C83457451305E87F8.S1330B0E8686BD7EE(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = c682D8E4F
   L2_2 = L2_2.fEF94D11D
@@ -1025,11 +989,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83457451305E87F8"]
-L69_1 = "S0F80D9FF3C5A1067"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.base.MapChangeCommonFunc.GetMapChangeInfo
+function C83457451305E87F8.S0F80D9FF3C5A1067(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   L1_2 = L16_1
   L2_2 = {}
@@ -1194,11 +1155,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83457451305E87F8"]
-L69_1 = "S0E133EC6CD1A768A"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.base.MapChangeCommonFunc.GetBoundingSphereX
+function C83457451305E87F8.S0E133EC6CD1A768A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = c7C4EA23C
   L1_2 = L1_2.fB41FD22F

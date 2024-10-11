@@ -1,3 +1,7 @@
+---@alias CD8F8CBFC53E25B45 main_ui_dressup_shop_view_DressupUIShopEndSequence
+
+---@class main_ui_dressup_shop_view_DressupUIShopEndSequence : CD8F8CBFC53E25B45_prototype
+---@field prototype CD8F8CBFC53E25B45_prototype
 L55_1 = _ENV
 L56_1 = "CD8F8CBFC53E25B45"
 L57_1 = L15_1
@@ -34,32 +38,24 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD8F8CBFC53E25B45"]
 L69_1 = "__name__"
 L70_1 = "CD8F8CBFC53E25B45"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD8F8CBFC53E25B45"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD8F8CBFC53E25B45"]["prototype"]
-L69_1 = "F8ECAA28B9538110D"
-
-function L70_1(A0_2)
+---@class CD8F8CBFC53E25B45_prototype
+CD8F8CBFC53E25B45_prototype = L15_1()
+CD8F8CBFC53E25B45.prototype = CD8F8CBFC53E25B45_prototype
+--- main.ui.dressup.shop.view.DressupUIShopEndSequence.CreateCoroutine
+function CD8F8CBFC53E25B45_prototype:F8ECAA28B9538110D()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.FBA9B43A0C3BA65D5
+  L3_2 = self
+  L4_2 = self.FBA9B43A0C3BA65D5
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "dressup_shop_ui_end_sequence"
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD8F8CBFC53E25B45"]["prototype"]
-L69_1 = "FBA9B43A0C3BA65D5"
-
-function L70_1(A0_2)
+--- main.ui.dressup.shop.view.DressupUIShopEndSequence.MainSequence
+function CD8F8CBFC53E25B45_prototype:FBA9B43A0C3BA65D5()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CA013767251B59A1D
   L1_2 = L1_2.S5FE29AA88D90A56E
@@ -73,12 +69,12 @@ function L70_1(A0_2)
   L2_2, L3_2, L4_2, L5_2 = L2_2(L3_2, L4_2, L5_2)
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2)
   if "yes" == L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.FBF9A6D5AD717FAF0
     L1_2(L2_2)
   else
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.FE0EBB34B8A1B41AB
     L3_2 = true

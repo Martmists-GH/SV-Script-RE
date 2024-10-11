@@ -1,3 +1,7 @@
+---@alias CE17C3CBE5FB17212 main_event_general_area_script_AreaEnter_a_sch_ground01
+
+---@class main_event_general_area_script_AreaEnter_a_sch_ground01 : CE17C3CBE5FB17212_prototype
+---@field prototype CE17C3CBE5FB17212_prototype
 L55_1 = _ENV
 L56_1 = "C0CC837C87147AD5E"
 L57_1 = L15_1
@@ -45,11 +49,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0CC837C87147AD5E"]
 L69_1 = "__name__"
 L70_1 = "C0CC837C87147AD5E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CC837C87147AD5E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CE17C3CBE5FB17212_prototype
+CE17C3CBE5FB17212_prototype = L15_1()
+CE17C3CBE5FB17212.prototype = CE17C3CBE5FB17212_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0CC837C87147AD5E"]["prototype"]
 L69_1 = _ENV["C0CC837C87147AD5E"]

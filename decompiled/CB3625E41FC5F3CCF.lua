@@ -1,3 +1,7 @@
+---@alias CB3625E41FC5F3CCF main_nushi_wall_JimenNushiWall
+
+---@class main_nushi_wall_JimenNushiWall : CB3625E41FC5F3CCF_prototype
+---@field prototype CB3625E41FC5F3CCF_prototype
 L55_1 = _ENV
 L56_1 = "CB3625E41FC5F3CCF"
 L57_1 = L15_1
@@ -42,26 +46,18 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CB3625E41FC5F3CCF"]
 L69_1 = "__name__"
 L70_1 = "CB3625E41FC5F3CCF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3625E41FC5F3CCF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3625E41FC5F3CCF"]["prototype"]
-L69_1 = "F3C28E641EBC0B5F6"
-
-function L70_1(A0_2, A1_2)
+---@class CB3625E41FC5F3CCF_prototype
+CB3625E41FC5F3CCF_prototype = L15_1()
+CB3625E41FC5F3CCF.prototype = CB3625E41FC5F3CCF_prototype
+--- main.nushi.wall.JimenNushiWall.setup
+function CB3625E41FC5F3CCF_prototype:F3C28E641EBC0B5F6(A1_2)
   local L2_2
   L2_2 = CB3625E41FC5F3CCF
-  L2_2.S7D1E199BBD384D72 = A0_2
+  L2_2.S7D1E199BBD384D72 = self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3625E41FC5F3CCF"]["prototype"]
-L69_1 = "F41AF6AC6ADB3B725"
-
-function L70_1(A0_2)
+--- main.nushi.wall.JimenNushiWall.destroy
+function CB3625E41FC5F3CCF_prototype:F41AF6AC6ADB3B725()
   local L1_2
   L1_2 = CB3625E41FC5F3CCF
   L1_2 = L1_2.S7D1E199BBD384D72

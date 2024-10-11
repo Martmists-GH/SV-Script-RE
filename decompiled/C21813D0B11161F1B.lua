@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "C21813D0B11161F1B"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C21813D0B11161F1B"]
-L69_1 = "new"
-
-function L70_1(A0_2)
+---@class C21813D0B11161F1B : C21813D0B11161F1B_prototype
+---@field prototype C21813D0B11161F1B_prototype
+C21813D0B11161F1B = L15_1()
+function C21813D0B11161F1B.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C21813D0B11161F1B
@@ -22,11 +17,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21813D0B11161F1B"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C21813D0B11161F1B
+function C21813D0B11161F1B.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C55F918CA2AB449DD
   L2_2 = L2_2.super
@@ -35,11 +27,7 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21813D0B11161F1B"]
-L69_1 = "__name__"
-L70_1 = "C21813D0B11161F1B"
-L68_1[L69_1] = L70_1
+C21813D0B11161F1B.__name__ = "C21813D0B11161F1B"
 L68_1 = _ENV["C21813D0B11161F1B"]
 L69_1 = "SA69DE65BC5609E4F"
 
@@ -133,11 +121,8 @@ function L70_1()
   return L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21813D0B11161F1B"]
-L69_1 = "S9461335AD364DBC6"
-
-function L70_1()
+--- C21813D0B11161F1B.setReturnPosition
+function C21813D0B11161F1B.S9461335AD364DBC6()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L0_2 = {}
   L1_2 = 0
@@ -366,36 +351,25 @@ function L70_1()
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21813D0B11161F1B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21813D0B11161F1B"]["prototype"]
-L69_1 = "F0D776BF8BD56F066"
-
-function L70_1(A0_2)
+---@class C21813D0B11161F1B_prototype
+C21813D0B11161F1B_prototype = L15_1()
+C21813D0B11161F1B.prototype = C21813D0B11161F1B_prototype
+--- C21813D0B11161F1B.F0D776BF8BD56F066
+function C21813D0B11161F1B_prototype:F0D776BF8BD56F066()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21813D0B11161F1B"]["prototype"]
-L69_1 = "FEBB6C7EABF14DA04"
-
-function L70_1(A0_2)
+--- C21813D0B11161F1B.BootEventTriggerId
+function C21813D0B11161F1B_prototype:FEBB6C7EABF14DA04()
   local L1_2
   L1_2 = 15
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21813D0B11161F1B"]["prototype"]
-L69_1 = "F7B29AC6696E62600"
-
-function L70_1(A0_2)
+--- C21813D0B11161F1B.RequiredEventCategory
+function C21813D0B11161F1B_prototype:F7B29AC6696E62600()
   local L1_2, L2_2, L3_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -404,11 +378,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21813D0B11161F1B"]["prototype"]
-L69_1 = "FDA98E87C57449F00"
-
-function L70_1(A0_2, A1_2)
+--- C21813D0B11161F1B.OnEventCheck
+function C21813D0B11161F1B_prototype:FDA98E87C57449F00(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = CF67A67452D018ECC
   L2_2 = L2_2.SC8223E31D3163519

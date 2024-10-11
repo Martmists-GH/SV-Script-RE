@@ -1,3 +1,7 @@
+---@alias C9E3E396EE6D1166E main_ui_btlspot_select_battle_team_BattleSpotSelectBattleTeam
+
+---@class main_ui_btlspot_select_battle_team_BattleSpotSelectBattleTeam : C9E3E396EE6D1166E_prototype
+---@field prototype C9E3E396EE6D1166E_prototype
 L55_1 = _ENV
 L56_1 = "C9E3E396EE6D1166E"
 L57_1 = L15_1
@@ -41,20 +45,15 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9E3E396EE6D1166E"]
 L69_1 = "__name__"
 L70_1 = "C9E3E396EE6D1166E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E3E396EE6D1166E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E3E396EE6D1166E"]["prototype"]
-L69_1 = "FCD42654B55E9E8CE"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class C9E3E396EE6D1166E_prototype
+C9E3E396EE6D1166E_prototype = L15_1()
+C9E3E396EE6D1166E.prototype = C9E3E396EE6D1166E_prototype
+--- main.ui.btlspot.select_battle_team.BattleSpotSelectBattleTeam.SelectBattleTeam
+function C9E3E396EE6D1166E_prototype:FCD42654B55E9E8CE(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   while true do
-    L5_2 = A0_2
-    L4_2 = A0_2.F656D165B277B717E
+    L5_2 = self
+    L4_2 = self.F656D165B277B717E
     L6_2 = A1_2
     L7_2 = A2_2
     L8_2 = A3_2
@@ -66,8 +65,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L4_2 = L4_2.FC4A37D88A8890909
     L4_2 = L4_2(L5_2)
     if 2 == L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F3CB7CF927863FE12
+      L5_2 = self
+      L4_2 = self.F3CB7CF927863FE12
       L4_2(L5_2)
     else
       break
@@ -79,11 +78,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E3E396EE6D1166E"]["prototype"]
-L69_1 = "F656D165B277B717E"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.btlspot.select_battle_team.BattleSpotSelectBattleTeam.StartBattleTeamUI
+function C9E3E396EE6D1166E_prototype:F656D165B277B717E(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = CC52C328A9EF68275
   L4_2 = L4_2.new
@@ -163,11 +159,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E3E396EE6D1166E"]["prototype"]
-L69_1 = "F3CB7CF927863FE12"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.select_battle_team.BattleSpotSelectBattleTeam.StartBoxUI
+function C9E3E396EE6D1166E_prototype:F3CB7CF927863FE12()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDFF37B3796670E22
   L1_2 = L1_2.new

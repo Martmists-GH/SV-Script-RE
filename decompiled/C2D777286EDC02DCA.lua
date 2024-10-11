@@ -1,3 +1,5 @@
+---@class C2D777286EDC02DCA : C2D777286EDC02DCA_prototype
+---@field prototype C2D777286EDC02DCA_prototype
 L55_1 = _ENV
 L56_1 = "C2D777286EDC02DCA"
 L57_1 = L15_1
@@ -40,44 +42,36 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2D777286EDC02DCA"]
 L69_1 = "__name__"
 L70_1 = "C2D777286EDC02DCA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2D777286EDC02DCA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2D777286EDC02DCA"]["prototype"]
-L69_1 = "F9337AE9F018B3C29"
-
-function L70_1(A0_2)
+---@class C2D777286EDC02DCA_prototype
+C2D777286EDC02DCA_prototype = L15_1()
+C2D777286EDC02DCA.prototype = C2D777286EDC02DCA_prototype
+--- C2D777286EDC02DCA.Open
+function C2D777286EDC02DCA_prototype:F9337AE9F018B3C29()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F052BEB8F702E7A17
-  L3_2 = A0_2[5]
+  L2_2 = self
+  L1_2 = self.F052BEB8F702E7A17
+  L3_2 = self[5]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2D777286EDC02DCA"]["prototype"]
-L69_1 = "F9C175DE53E8FB04D"
-
-function L70_1(A0_2)
+--- C2D777286EDC02DCA.GetViewInstance
+function C2D777286EDC02DCA_prototype:F9C175DE53E8FB04D()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDAB51CABF01ACA9B
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC84A0D4D8CE89C7E
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     L1_2 = nil
     return L1_2
   end
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   if nil == L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.fD4E64AB7
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L1_2 = L1_2(L2_2, L3_2)
     L2_2 = nil
     L3_2 = c016374C1
@@ -97,12 +91,12 @@ function L70_1(A0_2)
       if L4_2 == L5_2 then
         L4_2 = nil
       end
-      A0_2[7] = L4_2
+      self[7] = L4_2
     end
   end
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   if nil ~= L1_2 then
-    L1_2 = A0_2[7]
+    L1_2 = self[7]
     return L1_2
   else
     L1_2 = nil
@@ -110,22 +104,19 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2D777286EDC02DCA"]["prototype"]
-L69_1 = "FC84A0D4D8CE89C7E"
-
-function L70_1(A0_2)
+--- C2D777286EDC02DCA.IsLoadEnd
+function C2D777286EDC02DCA_prototype:FC84A0D4D8CE89C7E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CDAB51CABF01ACA9B
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC84A0D4D8CE89C7E
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.fD4E64AB7
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L1_2 = L1_2(L2_2, L3_2)
     L2_2 = nil
     L3_2 = c016374C1
@@ -148,8 +139,8 @@ function L70_1(A0_2)
     if L4_2 == L5_2 then
       L4_2 = nil
     end
-    A0_2[7] = L4_2
-    L5_2 = A0_2[7]
+    self[7] = L4_2
+    L5_2 = self[7]
     L6_2 = L5_2
     L5_2 = L5_2.FCE8975C56C10688D
     L5_2 = L5_2(L6_2)

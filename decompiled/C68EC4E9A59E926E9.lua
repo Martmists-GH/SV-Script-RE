@@ -1,3 +1,5 @@
+---@class C68EC4E9A59E926E9 : C68EC4E9A59E926E9_prototype
+---@field prototype C68EC4E9A59E926E9_prototype
 L55_1 = _ENV
 L56_1 = "C68EC4E9A59E926E9"
 L57_1 = L15_1
@@ -49,51 +51,46 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C68EC4E9A59E926E9"]
 L69_1 = "__name__"
 L70_1 = "C68EC4E9A59E926E9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C68EC4E9A59E926E9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C68EC4E9A59E926E9"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C68EC4E9A59E926E9_prototype
+C68EC4E9A59E926E9_prototype = L15_1()
+C68EC4E9A59E926E9.prototype = C68EC4E9A59E926E9_prototype
+--- C68EC4E9A59E926E9.Setup
+function C68EC4E9A59E926E9_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C42B8A058C2197F18
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C9CC979169E6BA3A6
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L2_2 = c69ACCC6F
   L2_2 = L2_2.f3F98EEAD
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[3] = L2_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F62AE9F72F31760C4
+  self[3] = L2_2
+  L3_2 = self
+  L2_2 = self.F62AE9F72F31760C4
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F928EB4BE54CFC441
+  L3_2 = self
+  L2_2 = self.F928EB4BE54CFC441
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F14DDDC076D3B6779
+  L3_2 = self
+  L2_2 = self.F14DDDC076D3B6779
   L4_2 = true
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F64E3D663DD2D5843
+  L3_2 = self
+  L2_2 = self.F64E3D663DD2D5843
   L4_2 = nil
   
   function L5_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[9]
     if L1_3 then
       L0_3 = "oniballoon_matching_06_01"
@@ -105,17 +102,17 @@ function L70_1(A0_2, A1_2)
   
   L5_2 = L5_2()
   L2_2(L3_2, L4_2, L5_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F64E3D663DD2D5843
+  L3_2 = self
+  L2_2 = self.F64E3D663DD2D5843
   L4_2 = nil
   L5_2 = "oniballoon_matching_06_02"
   L2_2(L3_2, L4_2, L5_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F64E3D663DD2D5843
+  L3_2 = self
+  L2_2 = self.F64E3D663DD2D5843
   L4_2 = nil
   L5_2 = "oniballoon_matching_06_03"
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.FA23D39922B76B247
   L4_2 = "L_cursor_00/N_keep_00"
@@ -127,24 +124,21 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C68EC4E9A59E926E9"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- C68EC4E9A59E926E9.PreUpdate
+function C68EC4E9A59E926E9_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F14DDDC076D3B6779
+  L3_2 = self
+  L2_2 = self.F14DDDC076D3B6779
   L2_2(L3_2)
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[10]
+    L3_2 = self[10]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[10]
+      L2_2 = self[10]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -191,21 +185,21 @@ function L70_1(A0_2, A1_2)
       return
     end
   end
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   if 0 == L2_2 then
     L3_2 = true
-    L4_2 = A0_2[7]
+    L4_2 = self[7]
     if nil == L4_2 then
       return
     end
     L4_2 = 0
-    L5_2 = A0_2[7]
+    L5_2 = self[7]
     L5_2 = L5_2.length
     L6_2 = false
     while L4_2 < L5_2 do
       L4_2 = L4_2 + 1
       L7_2 = L4_2 - 1
-      L8_2 = A0_2[7]
+      L8_2 = self[7]
       L8_2 = L8_2[L7_2]
       L9_2 = nil
       L10_2 = c073DB627
@@ -224,7 +218,7 @@ function L70_1(A0_2, A1_2)
       L3_2 = false
       goto lbl_110
       ::lbl_92::
-      L10_2 = A0_2[2]
+      L10_2 = self[2]
       L11_2 = L10_2
       L10_2 = L10_2.FB6D1FE1B1E10C33D
       L10_2 = L10_2(L11_2)
@@ -251,11 +245,11 @@ function L70_1(A0_2, A1_2)
       end
     end
     if L3_2 then
-      A0_2[8] = 1
+      self[8] = 1
     end
   elseif 1 == L2_2 then
-    A0_2[8] = 2
-    L3_2 = A0_2[2]
+    self[8] = 2
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.FB6D1FE1B1E10C33D
     L3_2 = L3_2(L4_2)
@@ -264,12 +258,12 @@ function L70_1(A0_2, A1_2)
     L5_2 = "A_alignment_00"
     L3_2(L4_2, L5_2)
     L3_2 = 0
-    L4_2 = A0_2[7]
+    L4_2 = self[7]
     L4_2 = L4_2.length
     L5_2 = false
     while L3_2 < L4_2 do
       L3_2 = L3_2 + 1
-      L6_2 = A0_2[7]
+      L6_2 = self[7]
       L7_2 = L3_2 - 1
       L6_2 = L6_2[L7_2]
       L7_2 = nil
@@ -290,7 +284,7 @@ function L70_1(A0_2, A1_2)
       end
     end
   elseif 3 == L2_2 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f462C9B70
     L3_2 = L3_2(L4_2)
@@ -321,7 +315,7 @@ function L70_1(A0_2, A1_2)
       L8_2 = "View is Null"
       L6_2(L7_2, L8_2)
     end
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L7_2 = L6_2
     L6_2 = L6_2.F748A3DCD68216D1D
     L8_2 = "f_out"
@@ -330,9 +324,9 @@ function L70_1(A0_2, A1_2)
     L6_2 = L6_2.SC6181320B46854EE
     L7_2 = "PLAY_UI_ONIBALLOON_CLOSE"
     L6_2(L7_2)
-    A0_2[8] = 4
+    self[8] = 4
   elseif 4 == L2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.F810D8446A8612992
     L5_2 = "f_out"
@@ -344,7 +338,7 @@ function L70_1(A0_2, A1_2)
       L4_2 = L3_2
       L3_2 = L3_2.F53CABB69990893DB
       L3_2(L4_2)
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L4_2 = L3_2
       L3_2 = L3_2.f462C9B70
       L3_2 = L3_2(L4_2)
@@ -353,14 +347,14 @@ function L70_1(A0_2, A1_2)
       L3_2(L4_2)
     end
   else
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     if nil ~= L3_2 then
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L3_2 = L3_2.length
-      L4_2 = A0_2[6]
+      L4_2 = self[6]
       if L3_2 > L4_2 then
-        L3_2 = A0_2[7]
-        L4_2 = A0_2[6]
+        L3_2 = self[7]
+        L4_2 = self[6]
         L3_2 = L3_2[L4_2]
         L4_2 = L3_2
         L3_2 = L3_2.f2A9CF058
@@ -372,37 +366,31 @@ function L70_1(A0_2, A1_2)
         L3_2(L4_2, L5_2)
       end
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.F56A1406E3A48A975
+    L4_2 = self
+    L3_2 = self.F56A1406E3A48A975
     L3_2(L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C68EC4E9A59E926E9"]["prototype"]
-L69_1 = "F62AE9F72F31760C4"
-
-function L70_1(A0_2)
+--- C68EC4E9A59E926E9.SetText
+function C68EC4E9A59E926E9_prototype:F62AE9F72F31760C4()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.f46674724
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = "T_header_00"
   L4_2 = "oniballoon_matching"
   L5_2 = "oniballoon_matching_00_00"
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C68EC4E9A59E926E9"]["prototype"]
-L69_1 = "F14DDDC076D3B6779"
-
-function L70_1(A0_2, A1_2)
+--- C68EC4E9A59E926E9.F14DDDC076D3B6779
+function C68EC4E9A59E926E9_prototype:F14DDDC076D3B6779(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = false
   end
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   L3_2 = C80B9D287C80C3286
   L3_2 = L3_2.S385504EFF7E842C3
   L3_2 = L3_2()
@@ -418,7 +406,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.FDF2358909DDF8D2C
   L2_2 = L2_2(L3_2)
-  A0_2[9] = L2_2
+  self[9] = L2_2
   if not A1_2 then
     L2_2 = C3A36506FBC96ACBD
     L2_2 = L2_2.SC6181320B46854EE
@@ -426,7 +414,7 @@ function L70_1(A0_2, A1_2)
     function L3_2()
       local L0_3, L1_3
       L0_3 = nil
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[9]
       if L1_3 then
         L0_3 = "PLAY_UI_ONLINE"
@@ -438,7 +426,7 @@ function L70_1(A0_2, A1_2)
     
     L3_2, L4_2, L5_2, L6_2 = L3_2()
     L2_2(L3_2, L4_2, L5_2, L6_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.F748A3DCD68216D1D
     L4_2 = "L_net_00/shortcut_select"
@@ -446,14 +434,14 @@ function L70_1(A0_2, A1_2)
   end
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "L_net_00/T_net_00"
   L5_2 = "hud_net"
   
   function L6_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[9]
     if L1_3 then
       L0_3 = "hud_net_status_online"
@@ -465,7 +453,7 @@ function L70_1(A0_2, A1_2)
   
   L6_2 = L6_2()
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.FF32CC3BE322652A8
   L4_2 = "L_net_00/off_on"
@@ -473,7 +461,7 @@ function L70_1(A0_2, A1_2)
   function L5_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[9]
     if L1_3 then
       L0_3 = 1
@@ -490,14 +478,14 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2()
   L2_2 = L2_2[3]
   if 0 == L2_2 then
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     if nil ~= L2_2 then
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       L2_2 = L2_2.length
-      L3_2 = A0_2[6]
+      L3_2 = self[6]
       if L2_2 > L3_2 then
-        L2_2 = A0_2[7]
-        L3_2 = A0_2[6]
+        L2_2 = self[7]
+        L3_2 = self[6]
         L2_2 = L2_2[L3_2]
         L3_2 = L2_2
         L2_2 = L2_2.f1EB62D8E
@@ -508,7 +496,7 @@ function L70_1(A0_2, A1_2)
         function L6_2()
           local L0_3, L1_3
           L0_3 = nil
-          L1_3 = A0_2
+          L1_3 = self
           L1_3 = L1_3[9]
           if L1_3 then
             L0_3 = "oniballoon_matching_06_01"
@@ -526,27 +514,24 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C68EC4E9A59E926E9"]["prototype"]
-L69_1 = "F64E3D663DD2D5843"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C68EC4E9A59E926E9.F64E3D663DD2D5843
+function C68EC4E9A59E926E9_prototype:F64E3D663DD2D5843(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L3_2 = L3_2.length
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   if L3_2 >= L4_2 then
     return
   end
   L3_2 = nil
   L4_2 = cECD2E4A5
   L4_2 = L4_2.f489BB3D8
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L31_1.string
   L7_2 = "OptionGuide_0"
   L6_2 = L6_2(L7_2)
   L7_2 = L31_1.string
-  L8_2 = A0_2[7]
+  L8_2 = self[7]
   L8_2 = L8_2.length
   L7_2 = L7_2(L8_2)
   L6_2 = L6_2 .. L7_2
@@ -576,27 +561,24 @@ function L70_1(A0_2, A1_2, A2_2)
   L9_2 = A2_2
   L7_2, L8_2, L9_2 = L7_2(L8_2, L9_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
-  L5_2 = A0_2[7]
+  L5_2 = self[7]
   L6_2 = L5_2
   L5_2 = L5_2.push
   L7_2 = L3_2
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C68EC4E9A59E926E9"]["prototype"]
-L69_1 = "F928EB4BE54CFC441"
-
-function L70_1(A0_2)
+--- C68EC4E9A59E926E9.F928EB4BE54CFC441
+function C68EC4E9A59E926E9_prototype:F928EB4BE54CFC441()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = 0
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = nil
     L4_2 = cECD2E4A5
     L4_2 = L4_2.f489BB3D8
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L31_1.string
     L7_2 = "OptionGuide_0"
     L6_2 = L6_2(L7_2)
@@ -619,9 +601,9 @@ function L70_1(A0_2)
       L5_2(L6_2, L7_2)
     end
   end
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   if nil ~= L3_2 then
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     L4_2 = L3_2
     L3_2 = L3_2.resize
     L5_2 = 0
@@ -629,20 +611,14 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C68EC4E9A59E926E9"]["prototype"]
-L69_1 = "F1D6E4D542A905D81"
-
-function L70_1(A0_2)
+--- C68EC4E9A59E926E9.F1D6E4D542A905D81
+function C68EC4E9A59E926E9_prototype:F1D6E4D542A905D81()
   local L1_2
-  A0_2[8] = 3
+  self[8] = 3
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C68EC4E9A59E926E9"]["prototype"]
-L69_1 = "F56A1406E3A48A975"
-
-function L70_1(A0_2)
+--- C68EC4E9A59E926E9.F56A1406E3A48A975
+function C68EC4E9A59E926E9_prototype:F56A1406E3A48A975()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = cF27D739D
   L1_2 = L1_2.f7264D75B
@@ -652,13 +628,13 @@ function L70_1(A0_2)
   L2_2 = L1_2.f3491A2B7
   L2_2 = L2_2(L3_2)
   if not L2_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.FB17D75E020F3DBFB
     L4_2 = "N_team_00"
     L2_2 = L2_2(L3_2, L4_2)
     if L2_2 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = L2_2
       L2_2 = L2_2.FA23D39922B76B247
       L4_2 = "N_team_00"
@@ -667,7 +643,7 @@ function L70_1(A0_2)
     end
     return
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.FB17D75E020F3DBFB
   L4_2 = "N_team_00"
@@ -688,7 +664,7 @@ function L70_1(A0_2)
   L3_2 = L3_2 == L4_2
   L4_2 = CA9F4C26977FB72E1
   L4_2 = L4_2.S7E46CD5F24D92663
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L2_2
   L7_2 = "T_player_00"
   L8_2 = "oniballoon_matching"
@@ -698,10 +674,10 @@ function L70_1(A0_2)
   if L3_2 then
     L4_2 = C5071F1FDB6B8E707
     L4_2 = L4_2.S22AE94E972CE1AAF
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = "P_icon_00"
     L4_2(L5_2, L6_2)
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L4_2
     L4_2 = L4_2.FA23D39922B76B247
     L6_2 = "N_team_00"
@@ -711,12 +687,12 @@ function L70_1(A0_2)
     L4_2 = cC65D64C8
     L4_2 = L4_2.fBDB981C5
     L5_2 = L2_2
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = "P_icon_00"
     L8_2 = 0
     L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
     if L4_2 then
-      L4_2 = A0_2[2]
+      L4_2 = self[2]
       L5_2 = L4_2
       L4_2 = L4_2.FA23D39922B76B247
       L6_2 = "N_team_00"
@@ -726,21 +702,18 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C68EC4E9A59E926E9"]["prototype"]
-L69_1 = "FEFCBD01781419982"
-
-function L70_1(A0_2, A1_2)
+--- C68EC4E9A59E926E9.FEFCBD01781419982
+function C68EC4E9A59E926E9_prototype:FEFCBD01781419982(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = 0
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = false
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L5_2 = L2_2 - 1
-    L6_2 = A0_2[6]
+    L6_2 = self[6]
     if L5_2 ~= L6_2 then
-      L6_2 = A0_2[7]
+      L6_2 = self[7]
       L6_2 = L6_2[L5_2]
       L7_2 = nil
       L8_2 = c073DB627

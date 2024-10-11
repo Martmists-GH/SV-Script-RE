@@ -1,3 +1,7 @@
+---@alias C18DAEFFEF200D39A main_event_debug_ui_DebugYMapNushiMissionStart
+
+---@class main_event_debug_ui_DebugYMapNushiMissionStart : C18DAEFFEF200D39A_prototype
+---@field prototype C18DAEFFEF200D39A_prototype
 L55_1 = _ENV
 L56_1 = "C18DAEFFEF200D39A"
 L57_1 = L15_1
@@ -45,40 +49,26 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C18DAEFFEF200D39A"]
 L69_1 = "__name__"
 L70_1 = "C18DAEFFEF200D39A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18DAEFFEF200D39A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18DAEFFEF200D39A"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C18DAEFFEF200D39A_prototype
+C18DAEFFEF200D39A_prototype = L15_1()
+C18DAEFFEF200D39A.prototype = C18DAEFFEF200D39A_prototype
+--- main.event.debug.ui.DebugYMapNushiMissionStart.onCreate
+function C18DAEFFEF200D39A_prototype:FC87C731D11C58354()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18DAEFFEF200D39A"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+--- main.event.debug.ui.DebugYMapNushiMissionStart.preStart
+function C18DAEFFEF200D39A_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18DAEFFEF200D39A"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.debug.ui.DebugYMapNushiMissionStart.postStart
+function C18DAEFFEF200D39A_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18DAEFFEF200D39A"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.debug.ui.DebugYMapNushiMissionStart.mainBody
+function C18DAEFFEF200D39A_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2
   L1_2 = CDFED4FD4576AE820
   L1_2 = L1_2.S3FEEFB06B65D4728
@@ -86,27 +76,18 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18DAEFFEF200D39A"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.debug.ui.DebugYMapNushiMissionStart.mainBodyFinish
+function C18DAEFFEF200D39A_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18DAEFFEF200D39A"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.debug.ui.DebugYMapNushiMissionStart.preEnd
+function C18DAEFFEF200D39A_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18DAEFFEF200D39A"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.debug.ui.DebugYMapNushiMissionStart.postEnd
+function C18DAEFFEF200D39A_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

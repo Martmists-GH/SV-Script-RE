@@ -1,3 +1,7 @@
+---@alias CC24F9205E21C20E6 main_field_behaviour_scenario_main_champion_gym_kusa_Gym_kusa_poke_hiding_07
+
+---@class main_field_behaviour_scenario_main_champion_gym_kusa_Gym_kusa_poke_hiding_07 : CC24F9205E21C20E6_prototype
+---@field prototype CC24F9205E21C20E6_prototype
 L55_1 = _ENV
 L56_1 = "CC24F9205E21C20E6"
 L57_1 = L15_1
@@ -42,16 +46,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC24F9205E21C20E6"]
 L69_1 = "__name__"
 L70_1 = "CC24F9205E21C20E6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC24F9205E21C20E6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC24F9205E21C20E6"]["prototype"]
-L69_1 = "FC9FB78329B27D7F8"
-
-function L70_1(A0_2)
+---@class CC24F9205E21C20E6_prototype
+CC24F9205E21C20E6_prototype = L15_1()
+CC24F9205E21C20E6.prototype = CC24F9205E21C20E6_prototype
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke_hiding_07.GetTreePosition
+function CC24F9205E21C20E6_prototype:FC9FB78329B27D7F8()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = {}
   L2_2 = 3721.029
@@ -63,11 +62,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC24F9205E21C20E6"]["prototype"]
-L69_1 = "F3878BF8DC799817B"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke_hiding_07.GetGroundPosition
+function CC24F9205E21C20E6_prototype:F3878BF8DC799817B()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = {}
   L2_2 = 3721.029
@@ -79,11 +75,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC24F9205E21C20E6"]["prototype"]
-L69_1 = "F992A6D672F123721"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke_hiding_07.GetPlayerPosition
+function CC24F9205E21C20E6_prototype:F992A6D672F123721()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = {}
   L2_2 = 3715.2505
@@ -95,11 +88,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC24F9205E21C20E6"]["prototype"]
-L69_1 = "FE7F501FE70943458"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke_hiding_07.GetPartnerPosition
+function CC24F9205E21C20E6_prototype:FE7F501FE70943458()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = {}
   L2_2 = 3717.41
@@ -111,11 +101,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC24F9205E21C20E6"]["prototype"]
-L69_1 = "F33AD503A9AEAEABE"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke_hiding_07.GetPokePositions
+function CC24F9205E21C20E6_prototype:F33AD503A9AEAEABE()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   L1_2 = _hx_tab_array
   L2_2 = {}

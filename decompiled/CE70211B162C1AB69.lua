@@ -1,3 +1,7 @@
+---@alias CE70211B162C1AB69 main_ui_shop_wazamachine_management_ShopWazamachineDataArray
+
+---@class main_ui_shop_wazamachine_management_ShopWazamachineDataArray : CE70211B162C1AB69_prototype
+---@field prototype CE70211B162C1AB69_prototype
 L55_1 = _ENV
 L56_1 = "CE70211B162C1AB69"
 L57_1 = L15_1
@@ -59,18 +63,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE70211B162C1AB69"]
 L69_1 = "__name__"
 L70_1 = "CE70211B162C1AB69"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "FB2F2EE243461C07F"
-
-function L70_1(A0_2)
+---@class CE70211B162C1AB69_prototype
+CE70211B162C1AB69_prototype = L15_1()
+CE70211B162C1AB69.prototype = CE70211B162C1AB69_prototype
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.LoadWazaNameSortInfo
+function CE70211B162C1AB69_prototype:FB2F2EE243461C07F()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C652C225D53D1B872
   L2_2 = L2_2.S511DEF29717431A3
   L2_2 = L2_2()
@@ -178,11 +177,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "F7B9F83DF440CA1B1"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.AddDataArray
+function CE70211B162C1AB69_prototype:F7B9F83DF440CA1B1(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   if 19 == A1_2 then
     return
@@ -190,7 +186,7 @@ function L70_1(A0_2, A1_2, A2_2)
   if 0 ~= A1_2 then
     L3_2 = C6E074861269A51A2
     L3_2 = L3_2.S7C107A0FC15F1400
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = "dataArray is null"
     L3_2 = L3_2(L4_2, L5_2)
     L3_2 = L3_2[A1_2]
@@ -201,7 +197,7 @@ function L70_1(A0_2, A1_2, A2_2)
   end
   L3_2 = C6E074861269A51A2
   L3_2 = L3_2.S7C107A0FC15F1400
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = "dataArray is null"
   L3_2 = L3_2(L4_2, L5_2)
   L3_2 = L3_2[0]
@@ -211,11 +207,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "F490AE049BDB3371C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.GetDataArray
+function CE70211B162C1AB69_prototype:F490AE049BDB3371C(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if 19 == A1_2 then
     L3_2 = nil
@@ -224,7 +217,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2 = L26_1.new
   L3_2 = L3_2()
   L4_2 = 0
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2[A1_2]
   L6_2 = false
   while true do
@@ -270,32 +263,26 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "F540502282BEBBCF0"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.SetSortArray
+function CE70211B162C1AB69_prototype:F540502282BEBBCF0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
   while L1_2 < 19 do
     L1_2 = L1_2 + 1
     L2_2 = L38_1.sort
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L1_2 - 1
     L3_2 = L3_2[L4_2]
     L4_2 = L55_1
-    L5_2 = A0_2
-    L6_2 = A0_2.F9C6A0639E410D795
+    L5_2 = self
+    L6_2 = self.F9C6A0639E410D795
     L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
     L2_2(L3_2, L4_2, L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "FBED0D7C944A95462"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.WazamachineArraySort
+function CE70211B162C1AB69_prototype:FBED0D7C944A95462(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L4_2 = A1_2
   L3_2 = A1_2.F683EEB58B3627754
@@ -322,11 +309,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "F9C6A0639E410D795"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.WazamachineArraySortWatchList
+function CE70211B162C1AB69_prototype:F9C6A0639E410D795(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L4_2 = A1_2
   L3_2 = A1_2.FAEB1D7F4F4F5B37E
@@ -353,39 +337,33 @@ function L70_1(A0_2, A1_2, A2_2)
       end
     end
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FBED0D7C944A95462
+  L4_2 = self
+  L3_2 = self.FBED0D7C944A95462
   L5_2 = A1_2
   L6_2 = A2_2
   return L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "F84A57EE82D9DBFF5"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.SetSortArraySortPower
+function CE70211B162C1AB69_prototype:F84A57EE82D9DBFF5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
   while L1_2 < 19 do
     L1_2 = L1_2 + 1
     L2_2 = L38_1.sort
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L1_2 - 1
     L3_2 = L3_2[L4_2]
     L4_2 = L55_1
-    L5_2 = A0_2
-    L6_2 = A0_2.F3C4E95CB9C8B9573
+    L5_2 = self
+    L6_2 = self.F3C4E95CB9C8B9573
     L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
     L2_2(L3_2, L4_2, L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "F3C4E95CB9C8B9573"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.WazamachineArraySortPower
+function CE70211B162C1AB69_prototype:F3C4E95CB9C8B9573(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = c87777D37
   L3_2 = L3_2.f439ABD92
@@ -484,18 +462,15 @@ function L70_1(A0_2, A1_2, A2_2)
       return L7_2
     end
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.FD5E73881A27B1D8B
+  L7_2 = self
+  L6_2 = self.FD5E73881A27B1D8B
   L8_2 = A1_2
   L9_2 = A2_2
   return L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "FD5E73881A27B1D8B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.FD5E73881A27B1D8B
+function CE70211B162C1AB69_prototype:FD5E73881A27B1D8B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = c87777D37
   L3_2 = L3_2.f656F40A5
@@ -556,18 +531,15 @@ function L70_1(A0_2, A1_2, A2_2)
       return L7_2
     end
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.FC1A7EBB884ED037D
+  L7_2 = self
+  L6_2 = self.FC1A7EBB884ED037D
   L8_2 = A1_2
   L9_2 = A2_2
   return L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "FC1A7EBB884ED037D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.WazamachineArraySortMaxPPInt
+function CE70211B162C1AB69_prototype:FC1A7EBB884ED037D(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = c87777D37
   L3_2 = L3_2.f3017503C
@@ -630,39 +602,33 @@ function L70_1(A0_2, A1_2, A2_2)
       return L7_2
     end
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.FBED0D7C944A95462
+  L7_2 = self
+  L6_2 = self.FBED0D7C944A95462
   L8_2 = A1_2
   L9_2 = A2_2
   return L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "F2CD8DAC3598DED8B"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.SetSortArraySortSkillClass
+function CE70211B162C1AB69_prototype:F2CD8DAC3598DED8B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
   while L1_2 < 19 do
     L1_2 = L1_2 + 1
     L2_2 = L38_1.sort
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L1_2 - 1
     L3_2 = L3_2[L4_2]
     L4_2 = L55_1
-    L5_2 = A0_2
-    L6_2 = A0_2.F49587A9FA58A2175
+    L5_2 = self
+    L6_2 = self.F49587A9FA58A2175
     L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
     L2_2(L3_2, L4_2, L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "F49587A9FA58A2175"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.WazamachineArraySkillClass
+function CE70211B162C1AB69_prototype:F49587A9FA58A2175(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = c87777D37
   L3_2 = L3_2.f4E9A07C5
@@ -691,46 +657,40 @@ function L70_1(A0_2, A1_2, A2_2)
       return L5_2
     end
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.FBED0D7C944A95462
+  L6_2 = self
+  L5_2 = self.FBED0D7C944A95462
   L7_2 = A1_2
   L8_2 = A2_2
   return L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "FA36256A936EDCD4A"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.SetSortArraySortCanCreate
+function CE70211B162C1AB69_prototype:FA36256A936EDCD4A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
   while L1_2 < 19 do
     L1_2 = L1_2 + 1
     L2_2 = L38_1.sort
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L1_2 - 1
     L3_2 = L3_2[L4_2]
     L4_2 = L55_1
-    L5_2 = A0_2
-    L6_2 = A0_2.FEDA3926DD2153ACC
+    L5_2 = self
+    L6_2 = self.FEDA3926DD2153ACC
     L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
     L2_2(L3_2, L4_2, L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "FEDA3926DD2153ACC"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.WazamachineArraySortCanCreate
+function CE70211B162C1AB69_prototype:FEDA3926DD2153ACC(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F45216AAF313D0499
+  L4_2 = self
+  L3_2 = self.F45216AAF313D0499
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F45216AAF313D0499
+  L5_2 = self
+  L4_2 = self.F45216AAF313D0499
   L6_2 = A2_2
   L4_2 = L4_2(L5_2, L6_2)
   if true == L3_2 and false == L4_2 then
@@ -740,18 +700,15 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2 = 1
     return L5_2
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.FBED0D7C944A95462
+  L6_2 = self
+  L5_2 = self.FBED0D7C944A95462
   L7_2 = A1_2
   L8_2 = A2_2
   return L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "F45216AAF313D0499"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.IsWazamachineCreate
+function CE70211B162C1AB69_prototype:F45216AAF313D0499(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = false
   L4_2 = A1_2
@@ -807,42 +764,36 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "FDC5F4D5507923127"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.SetSortArraySortName
+function CE70211B162C1AB69_prototype:FDC5F4D5507923127()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
   while L1_2 < 19 do
     L1_2 = L1_2 + 1
     L2_2 = L38_1.sort
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L1_2 - 1
     L3_2 = L3_2[L4_2]
     L4_2 = L55_1
-    L5_2 = A0_2
-    L6_2 = A0_2.F202F1C20DA3A8FC9
+    L5_2 = self
+    L6_2 = self.F202F1C20DA3A8FC9
     L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
     L2_2(L3_2, L4_2, L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE70211B162C1AB69"]["prototype"]
-L69_1 = "F202F1C20DA3A8FC9"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDataArray.WazamachineArraySortName
+function CE70211B162C1AB69_prototype:F202F1C20DA3A8FC9(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = -1
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L6_2 = A1_2
   L5_2 = A1_2.FEDD8CA766B7AB646
   L5_2 = L5_2(L6_2)
   L6_2 = L4_2.h
   L6_2 = L6_2[L5_2]
   if nil ~= L6_2 then
-    L6_2 = A0_2[3]
+    L6_2 = self[3]
     L8_2 = A1_2
     L7_2 = A1_2.FEDD8CA766B7AB646
     L7_2 = L7_2(L8_2)
@@ -855,14 +806,14 @@ function L70_1(A0_2, A1_2, A2_2)
     L3_2 = L8_2
   end
   L6_2 = -1
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L9_2 = A2_2
   L8_2 = A2_2.FEDD8CA766B7AB646
   L8_2 = L8_2(L9_2)
   L9_2 = L7_2.h
   L9_2 = L9_2[L8_2]
   if nil ~= L9_2 then
-    L9_2 = A0_2[3]
+    L9_2 = self[3]
     L11_2 = A2_2
     L10_2 = A2_2.FEDD8CA766B7AB646
     L10_2 = L10_2(L11_2)
@@ -881,8 +832,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L9_2 = -1
     return L9_2
   end
-  L10_2 = A0_2
-  L9_2 = A0_2.FBED0D7C944A95462
+  L10_2 = self
+  L9_2 = self.FBED0D7C944A95462
   L11_2 = A1_2
   L12_2 = A2_2
   return L9_2(L10_2, L11_2, L12_2)

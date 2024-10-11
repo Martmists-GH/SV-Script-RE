@@ -1,3 +1,7 @@
+---@alias C41D241F9A66558F4 main_ajito_chara_danboss_DanBossCarBehavior
+
+---@class main_ajito_chara_danboss_DanBossCarBehavior : C41D241F9A66558F4_prototype
+---@field prototype C41D241F9A66558F4_prototype
 L68_1 = _ENV["C41D241F9A66558F4"]
 L69_1 = "super"
 
@@ -39,28 +43,20 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C41D241F9A66558F4"]
 L69_1 = "__name__"
 L70_1 = "C41D241F9A66558F4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D241F9A66558F4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D241F9A66558F4"]["prototype"]
-L69_1 = "F25D6149FF9CE4528"
-
-function L70_1(A0_2)
+---@class C41D241F9A66558F4_prototype
+C41D241F9A66558F4_prototype = L15_1()
+C41D241F9A66558F4.prototype = C41D241F9A66558F4_prototype
+--- main.ajito.chara.danboss.DanBossCarBehavior.GetBossTrainerObj
+function C41D241F9A66558F4_prototype:F25D6149FF9CE4528()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D241F9A66558F4"]["prototype"]
-L69_1 = "F5BA6D78FA6BF18A5"
-
-function L70_1(A0_2)
+--- main.ajito.chara.danboss.DanBossCarBehavior.GetCenterPosition
+function C41D241F9A66558F4_prototype:F5BA6D78FA6BF18A5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.f7360ED03
   L1_2, L2_2, L3_2 = L1_2(L2_2)
@@ -74,13 +70,10 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D241F9A66558F4"]["prototype"]
-L69_1 = "F7260ACE699434D30"
-
-function L70_1(A0_2)
+--- main.ajito.chara.danboss.DanBossCarBehavior.GetBossTrainerPosition
+function C41D241F9A66558F4_prototype:F7260ACE699434D30()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f7360ED03
   L1_2, L2_2, L3_2 = L1_2(L2_2)
@@ -94,25 +87,19 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D241F9A66558F4"]["prototype"]
-L69_1 = "FF657426FC1B0D20A"
-
-function L70_1(A0_2)
+--- main.ajito.chara.danboss.DanBossCarBehavior.GetSceneObject
+function C41D241F9A66558F4_prototype:FF657426FC1B0D20A()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D241F9A66558F4"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.chara.danboss.DanBossCarBehavior.Setup
+function C41D241F9A66558F4_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = cCC3ADC8A
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fDAC9F542
@@ -120,7 +107,7 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f71FAA9DF
@@ -128,18 +115,12 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D241F9A66558F4"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.chara.danboss.DanBossCarBehavior.PreUpdate
+function C41D241F9A66558F4_prototype:FE94F3E13286232CF(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D241F9A66558F4"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ajito.chara.danboss.DanBossCarBehavior.Destroy
+function C41D241F9A66558F4_prototype:F1C2AA00ADAC52EC5()
   local L1_2
 end
 

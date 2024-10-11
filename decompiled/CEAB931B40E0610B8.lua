@@ -1,3 +1,7 @@
+---@alias CEAB931B40E0610B8 main_playables_camera_ActorCameraBehavior
+
+---@class main_playables_camera_ActorCameraBehavior : CEAB931B40E0610B8_prototype
+---@field prototype CEAB931B40E0610B8_prototype
 L55_1 = _ENV
 L56_1 = "CEAB931B40E0610B8"
 L57_1 = L15_1
@@ -69,35 +73,27 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CEAB931B40E0610B8"]
 L69_1 = "__name__"
 L70_1 = "CEAB931B40E0610B8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB931B40E0610B8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB931B40E0610B8"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+---@class CEAB931B40E0610B8_prototype
+CEAB931B40E0610B8_prototype = L15_1()
+CEAB931B40E0610B8.prototype = CEAB931B40E0610B8_prototype
+--- main.playables.camera.ActorCameraBehavior.PreUpdate
+function CEAB931B40E0610B8_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F1993A419B4083AE8
+  L3_2 = self
+  L2_2 = self.F1993A419B4083AE8
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB931B40E0610B8"]["prototype"]
-L69_1 = "F20A40E2F8B95D5F6"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.camera.ActorCameraBehavior.PostUpdate
+function CEAB931B40E0610B8_prototype:F20A40E2F8B95D5F6(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F9DACE3EAD6ACA1FA
+  L3_2 = self
+  L2_2 = self.F9DACE3EAD6ACA1FA
   L2_2 = L2_2(L3_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[23]
+  L2_2 = self[23]
   if nil == L2_2 then
     return
   end
@@ -108,112 +104,85 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.fC0E2CAD0
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[21]
+  L3_2 = self[21]
   L3_2 = L3_2 + L2_2
-  A0_2[21] = L3_2
-  A0_2[22] = 0
+  self[21] = L3_2
+  self[22] = 0
   while true do
-    L3_2 = A0_2[21]
+    L3_2 = self[21]
     L4_2 = 0.03333333333333333
     if not (L3_2 >= L4_2) then
       break
     end
-    L3_2 = A0_2[22]
+    L3_2 = self[22]
     L3_2 = L3_2 + 1
-    A0_2[22] = L3_2
-    L3_2 = A0_2[21]
+    self[22] = L3_2
+    L3_2 = self[21]
     L3_2 = L3_2 - 0.03333333333333333
-    A0_2[21] = L3_2
+    self[21] = L3_2
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FC0150FC2959FFA71
+  L4_2 = self
+  L3_2 = self.FC0150FC2959FFA71
   L5_2 = L2_2
-  L6_2 = A0_2[22]
+  L6_2 = self[22]
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB931B40E0610B8"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.playables.camera.ActorCameraBehavior.onPreUpdate
+function CEAB931B40E0610B8_prototype:F1993A419B4083AE8()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB931B40E0610B8"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.playables.camera.ActorCameraBehavior.onUpdate
+function CEAB931B40E0610B8_prototype:FC0150FC2959FFA71(A1_2, A2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB931B40E0610B8"]["prototype"]
-L69_1 = "F49E66403BBEC4C20"
-
-function L70_1(A0_2)
+--- main.playables.camera.ActorCameraBehavior.Stay
+function CEAB931B40E0610B8_prototype:F49E66403BBEC4C20()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB931B40E0610B8"]["prototype"]
-L69_1 = "FD6C3833B941DA336"
-
-function L70_1(A0_2)
+--- main.playables.camera.ActorCameraBehavior.FD6C3833B941DA336
+function CEAB931B40E0610B8_prototype:FD6C3833B941DA336()
   local L1_2, L2_2
-  L1_2 = A0_2[25]
+  L1_2 = self[25]
   L2_2 = L1_2
   L1_2 = L1_2.fB07C8B0C
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB931B40E0610B8"]["prototype"]
-L69_1 = "F9DACE3EAD6ACA1FA"
-
-function L70_1(A0_2)
+--- main.playables.camera.ActorCameraBehavior.get_Pause
+function CEAB931B40E0610B8_prototype:F9DACE3EAD6ACA1FA()
   local L1_2
   L1_2 = false
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB931B40E0610B8"]["prototype"]
-L69_1 = "F03F3C2CA67DD9C7E"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.camera.ActorCameraBehavior.set_Pause
+function CEAB931B40E0610B8_prototype:F03F3C2CA67DD9C7E(A1_2)
   local L2_2
   L2_2 = false
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB931B40E0610B8"]["prototype"]
-L69_1 = "FCC1AC0D72641C995"
-
-function L70_1(A0_2)
+--- main.playables.camera.ActorCameraBehavior.get_EnableInput
+function CEAB931B40E0610B8_prototype:FCC1AC0D72641C995()
   local L1_2
   L1_2 = false
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB931B40E0610B8"]["prototype"]
-L69_1 = "FE849672F1E41A271"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.camera.ActorCameraBehavior.set_EnableInput
+function CEAB931B40E0610B8_prototype:FE849672F1E41A271(A1_2)
   local L2_2
   L2_2 = false
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB931B40E0610B8"]["prototype"]
-L69_1 = "FDD84CFBB6EFB93C5"
-
-function L70_1(A0_2)
+--- main.playables.camera.ActorCameraBehavior.get_Forward
+function CEAB931B40E0610B8_prototype:FDD84CFBB6EFB93C5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f16155D9E
   L1_2 = L1_2(L2_2)
@@ -249,14 +218,11 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB931B40E0610B8"]["prototype"]
-L69_1 = "F41C069B0E2FF7619"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.camera.ActorCameraBehavior.set_Forward
+function CEAB931B40E0610B8_prototype:F41C069B0E2FF7619(A1_2)
   local L2_2, L3_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FDD84CFBB6EFB93C5
+  L3_2 = self
+  L2_2 = self.FDD84CFBB6EFB93C5
   return L2_2(L3_2)
 end
 
@@ -282,7 +248,7 @@ L68_1(L69_1, L70_1)
 L68_1 = C7C80EA6ED0D93EA7
 L69_1 = "new"
 
-function L70_1(A0_2)
+function L70_1(self)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C7C80EA6ED0D93EA7
@@ -293,7 +259,7 @@ function L70_1(A0_2)
   L2_2 = C7C80EA6ED0D93EA7
   L2_2 = L2_2.super
   L3_2 = L1_2
-  L4_2 = A0_2
+  L4_2 = self
   L2_2(L3_2, L4_2)
   return L1_2
 end

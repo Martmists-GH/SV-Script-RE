@@ -1,3 +1,5 @@
+---@class CE9086ECE6F6D963B : CE9086ECE6F6D963B_prototype
+---@field prototype CE9086ECE6F6D963B_prototype
 L55_1 = _ENV
 L56_1 = "CE9086ECE6F6D963B"
 L57_1 = L15_1
@@ -45,28 +47,23 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE9086ECE6F6D963B"]
 L69_1 = "__name__"
 L70_1 = "CE9086ECE6F6D963B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE9086ECE6F6D963B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE9086ECE6F6D963B"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CE9086ECE6F6D963B_prototype
+CE9086ECE6F6D963B_prototype = L15_1()
+CE9086ECE6F6D963B.prototype = CE9086ECE6F6D963B_prototype
+--- CE9086ECE6F6D963B.mainBody
+function CE9086ECE6F6D963B_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2
   
   function L1_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[32]
     L1_3 = L1_3.isTrainerRun
     if nil == L1_3 then
       L0_3 = false
     else
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[32]
       L0_3 = L1_3.isTrainerRun
     end

@@ -1,3 +1,6 @@
+---@alias CBDE60C0367067915 main_system_game_event_GameEventHikoNushiPlayerRockClash
+
+---@class main_system_game_event_GameEventHikoNushiPlayerRockClash
 L55_1 = _ENV
 L56_1 = "C1E0108BD2D9C0D87"
 L57_1 = L15_1

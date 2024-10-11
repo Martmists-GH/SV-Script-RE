@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C6F7249149A929D9A"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C6F7249149A929D9A"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6F7249149A929D9A"]
-L69_1 = "__name__"
-L70_1 = "C6F7249149A929D9A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6F7249149A929D9A"]
-L69_1 = "S30077CA850D6DBDC"
+---@alias C6F7249149A929D9A main_system_game_event_caller_GameEventBattleCaller
 
-function L70_1(A0_2, A1_2, A2_2)
+---@class main_system_game_event_caller_GameEventBattleCaller
+C6F7249149A929D9A = L15_1()
+C6F7249149A929D9A.new = {}
+C6F7249149A929D9A.__name__ = "C6F7249149A929D9A"
+--- main.system.game_event.caller.GameEventBattleCaller.CallNormalBattle
+function C6F7249149A929D9A.S30077CA850D6DBDC(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = A0_2.owner
   L4_2 = L3_2
@@ -63,11 +54,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6F7249149A929D9A"]
-L69_1 = "SCAD40BA600A416C8"
-
-function L70_1(A0_2)
+--- main.system.game_event.caller.GameEventBattleCaller.CallAutoBattle
+function C6F7249149A929D9A.SCAD40BA600A416C8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = A0_2.owner
   L2_2 = L1_2
@@ -107,11 +95,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6F7249149A929D9A"]
-L69_1 = "S01979B92AA22A0F1"
-
-function L70_1(A0_2, A1_2)
+--- main.system.game_event.caller.GameEventBattleCaller.CallDanAutoBattle
+function C6F7249149A929D9A.S01979B92AA22A0F1(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C6F7249149A929D9A
   L2_2 = L2_2.S006E72486CDBA058
@@ -127,11 +112,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6F7249149A929D9A"]
-L69_1 = "S006E72486CDBA058"
-
-function L70_1()
+--- main.system.game_event.caller.GameEventBattleCaller.S006E72486CDBA058
+function C6F7249149A929D9A.S006E72486CDBA058()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c1A1CBE3B
   L0_2 = L0_2.fFCE06E04

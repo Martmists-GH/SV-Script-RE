@@ -1,3 +1,5 @@
+---@class CB3032BC70C8097D5 : CB3032BC70C8097D5_prototype
+---@field prototype CB3032BC70C8097D5_prototype
 L55_1 = _ENV
 L56_1 = "CB3032BC70C8097D5"
 L57_1 = L15_1
@@ -35,17 +37,11 @@ L69_1 = "__name__"
 L70_1 = "CB3032BC70C8097D5"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CB3032BC70C8097D5"]
-L69_1 = "__interfaces__"
-L70_1 = {}
-L68_1 = _ENV["CB3032BC70C8097D5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB3032BC70C8097D5"]["prototype"]
-L69_1 = "F8474274F62D3A3FB"
-
-function L70_1(A0_2, A1_2)
+L69_1 = "__inte---@class CB3032BC70C8097D5_prototype
+CB3032BC70C8097D5_prototype = L15_1()
+CB3032BC70C8097D5.prototype = CB3032BC70C8097D5_prototype
+--- CB3032BC70C8097D5.Apply
+function CB3032BC70C8097D5_prototype:F8474274F62D3A3FB(A1_2)
   local L2_2
   if A1_2 >= 0 and A1_2 <= 1 then
     L2_2 = 0

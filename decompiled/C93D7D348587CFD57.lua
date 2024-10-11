@@ -1,3 +1,7 @@
+---@alias C93D7D348587CFD57 main_ui_net_btl_state_machine_NetworkBattleBattleCancel
+
+---@class main_ui_net_btl_state_machine_NetworkBattleBattleCancel : C93D7D348587CFD57_prototype
+---@field prototype C93D7D348587CFD57_prototype
 L55_1 = _ENV
 L56_1 = "C93D7D348587CFD57"
 L57_1 = L15_1
@@ -49,28 +53,23 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C93D7D348587CFD57"]
 L69_1 = "__name__"
 L70_1 = "C93D7D348587CFD57"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C93D7D348587CFD57"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C93D7D348587CFD57"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2)
+---@class C93D7D348587CFD57_prototype
+C93D7D348587CFD57_prototype = L15_1()
+C93D7D348587CFD57.prototype = C93D7D348587CFD57_prototype
+--- main.ui.net_btl.state_machine.NetworkBattleBattleCancel.OnUpdate
+function C93D7D348587CFD57_prototype:FE1B998C2DEC49E51()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L2_2 = L1_2
   L1_2 = L1_2.fDEEB3A8E
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L1_2 = A0_2[6]
+    L1_2 = self[6]
     L2_2 = L1_2
     L1_2 = L1_2.FCD0C0F7B35AA1D41
     L1_2 = L1_2(L2_2)
     if L1_2 then
-      L2_2 = A0_2[6]
+      L2_2 = self[6]
       L3_2 = L2_2
       L2_2 = L2_2.FB9C164906B2DAC4D
       L4_2 = false
@@ -125,30 +124,30 @@ function L70_1(A0_2)
       L4_2 = L3_2
       L3_2 = L3_2.FBDD0057A43E85739
       L3_2(L4_2)
-      L3_2 = A0_2[6]
+      L3_2 = self[6]
       L4_2 = L3_2
       L3_2 = L3_2.F2AE1A40EB91179D4
       L3_2 = L3_2(L4_2)
       L4_2 = L3_2
       L3_2 = L3_2.F29093AD87DB1230F
       L3_2(L4_2)
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L4_2 = L3_2
       L3_2 = L3_2.F28EAF3B3AA178E3E
       L5_2 = CE86CDE507FE0E511
       L5_2 = L5_2.new
       L5_2 = L5_2()
       L3_2(L4_2, L5_2)
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L4_2 = L3_2
       L3_2 = L3_2.F99197E1D935F7D22
       L5_2 = "exit"
       L3_2(L4_2, L5_2)
-      A0_2[8] = true
+      self[8] = true
       return
     end
     if L1_2 then
-      L3_2 = A0_2[6]
+      L3_2 = self[6]
       L4_2 = L3_2
       L3_2 = L3_2.FB9C164906B2DAC4D
       L5_2 = true
@@ -178,13 +177,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C93D7D348587CFD57"]["prototype"]
-L69_1 = "F355CFD251A574136"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.state_machine.NetworkBattleBattleCancel.IsBattleCancelled
+function C93D7D348587CFD57_prototype:F355CFD251A574136()
   local L1_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   return L1_2
 end
 

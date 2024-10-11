@@ -1,3 +1,7 @@
+---@alias CF78090999444A548 main_ui_pokedex_PokedexDiplomaSubEventScene
+
+---@class main_ui_pokedex_PokedexDiplomaSubEventScene : CF78090999444A548_prototype
+---@field prototype CF78090999444A548_prototype
 L55_1 = _ENV
 L56_1 = "CF78090999444A548"
 L57_1 = L15_1
@@ -43,50 +47,39 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF78090999444A548"]
 L69_1 = "__name__"
 L70_1 = "CF78090999444A548"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF78090999444A548"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF78090999444A548"]["prototype"]
-L69_1 = "F9F9A10C74A5D0AD8"
-
-function L70_1(A0_2)
+---@class CF78090999444A548_prototype
+CF78090999444A548_prototype = L15_1()
+CF78090999444A548.prototype = CF78090999444A548_prototype
+--- main.ui.pokedex.PokedexDiplomaSubEventScene.get_pokedexKind
+function CF78090999444A548_prototype:F9F9A10C74A5D0AD8()
   local L1_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF78090999444A548"]["prototype"]
-L69_1 = "FB68CFA277DC5D2A5"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.PokedexDiplomaSubEventScene.OpenUIScene
+function CF78090999444A548_prototype:FB68CFA277DC5D2A5(A1_2)
   local L2_2, L3_2, L4_2
-  A0_2[8] = A1_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F052BEB8F702E7A17
-  L4_2 = A0_2[5]
+  self[8] = A1_2
+  L3_2 = self
+  L2_2 = self.F052BEB8F702E7A17
+  L4_2 = self[5]
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF78090999444A548"]["prototype"]
-L69_1 = "FC84A0D4D8CE89C7E"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.PokedexDiplomaSubEventScene.IsLoadEnd
+function CF78090999444A548_prototype:FC84A0D4D8CE89C7E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CDAB51CABF01ACA9B
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC84A0D4D8CE89C7E
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.fD4E64AB7
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L1_2 = L1_2(L2_2, L3_2)
     L2_2 = nil
     L3_2 = c016374C1
@@ -109,12 +102,12 @@ function L70_1(A0_2)
     if L4_2 == L5_2 then
       L4_2 = nil
     end
-    A0_2[7] = L4_2
-    L5_2 = A0_2[7]
+    self[7] = L4_2
+    L5_2 = self[7]
     L6_2 = L5_2
     L5_2 = L5_2.F2035B0C259A8BE8C
-    L8_2 = A0_2
-    L7_2 = A0_2.F9F9A10C74A5D0AD8
+    L8_2 = self
+    L7_2 = self.F9F9A10C74A5D0AD8
     L7_2, L8_2 = L7_2(L8_2)
     L5_2(L6_2, L7_2, L8_2)
     L5_2 = true
@@ -124,35 +117,29 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF78090999444A548"]["prototype"]
-L69_1 = "FD7D37C5A967ABE41"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.PokedexDiplomaSubEventScene.CloseScene
+function CF78090999444A548_prototype:FD7D37C5A967ABE41()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.f25C936C9
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f5C99C0AC
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF78090999444A548"]["prototype"]
-L69_1 = "FA480585E08011D0F"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.PokedexDiplomaSubEventScene.GetCloseFlag
+function CF78090999444A548_prototype:FA480585E08011D0F()
   local L1_2, L2_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   if nil ~= L1_2 then
-    L1_2 = A0_2[7]
+    L1_2 = self[7]
     L2_2 = L1_2
     L1_2 = L1_2.FDF37C661C51FE614
     return L1_2(L2_2)

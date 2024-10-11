@@ -1,3 +1,7 @@
+---@alias C5E173A504594E551 main_ui_btlspot_ui_BattleSpotUIRankUp
+
+---@class main_ui_btlspot_ui_BattleSpotUIRankUp : C5E173A504594E551_prototype
+---@field prototype C5E173A504594E551_prototype
 L55_1 = _ENV
 L56_1 = "C5E173A504594E551"
 L57_1 = L15_1
@@ -42,29 +46,21 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C5E173A504594E551"]
 L69_1 = "__name__"
 L70_1 = "C5E173A504594E551"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5E173A504594E551"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5E173A504594E551"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2, A1_2)
+---@class C5E173A504594E551_prototype
+C5E173A504594E551_prototype = L15_1()
+C5E173A504594E551.prototype = C5E173A504594E551_prototype
+--- main.ui.btlspot.ui.BattleSpotUIRankUp.Reset
+function C5E173A504594E551_prototype:F96EA28F400597FA0(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F41AAFFA33C79118C
+  L3_2 = self
+  L2_2 = self.F41AAFFA33C79118C
   L4_2 = A1_2
   L5_2 = false
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5E173A504594E551"]["prototype"]
-L69_1 = "F7EED485852A4D25F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.btlspot.ui.BattleSpotUIRankUp.Start
+function C5E173A504594E551_prototype:F7EED485852A4D25F(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   L3_2 = CF1D9D619D324F233
   L3_2 = L3_2.S5E67FD00348A0A28
@@ -105,8 +101,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L12_2 = L12_2(L13_2)
   L13_2 = L12_2
   L14_2 = L12_2.rank
-  L16_2 = A0_2
-  L15_2 = A0_2.F693F188B447C4AEF
+  L16_2 = self
+  L15_2 = self.F693F188B447C4AEF
   L17_2 = L12_2.maxPoint
   L18_2 = L12_2.minPoint
   L17_2 = L17_2 - L18_2
@@ -118,8 +114,8 @@ function L70_1(A0_2, A1_2, A2_2)
   while 11 ~= L14_2 and L16_2 ~= L6_2 do
     if L8_2 then
       L8_2 = false
-      L18_2 = A0_2
-      L17_2 = A0_2.F7D42416D5F762259
+      L18_2 = self
+      L17_2 = self.F7D42416D5F762259
       L19_2 = "L_rankplate_00/keep_out"
       L17_2(L18_2, L19_2)
     end
@@ -136,8 +132,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L18_2 = L18_2.S428104CE9B27BF90
     L19_2 = L16_2
     L18_2 = L18_2(L19_2)
-    L20_2 = A0_2
-    L19_2 = A0_2.F693F188B447C4AEF
+    L20_2 = self
+    L19_2 = self.F693F188B447C4AEF
     L21_2 = L18_2.maxPoint
     L22_2 = L18_2.minPoint
     L21_2 = L21_2 - L22_2
@@ -148,8 +144,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L20_2 = L18_2.rank
     if L14_2 == L20_2 then
       L11_2 = true
-      L21_2 = A0_2
-      L20_2 = A0_2.F41F4D20D2DD50296
+      L21_2 = self
+      L20_2 = self.F41F4D20D2DD50296
       L22_2 = L15_2
       L23_2 = L19_2
       L24_2 = L17_2
@@ -162,8 +158,8 @@ function L70_1(A0_2, A1_2, A2_2)
       L21_2 = L18_2.rank
       L9_2 = L20_2[L21_2]
       L19_2 = 100
-      L21_2 = A0_2
-      L20_2 = A0_2.F41F4D20D2DD50296
+      L21_2 = self
+      L20_2 = self.F41F4D20D2DD50296
       L22_2 = L15_2
       L23_2 = 100
       L24_2 = L17_2
@@ -185,20 +181,20 @@ function L70_1(A0_2, A1_2, A2_2)
       L21_2.win = 0
       L21_2.lose = 0
       L20_2 = L20_2(L21_2)
-      L22_2 = A0_2
-      L21_2 = A0_2.F7F6871F0924569EC
+      L22_2 = self
+      L21_2 = self.F7F6871F0924569EC
       L23_2 = L20_2
       L21_2(L22_2, L23_2)
-      L22_2 = A0_2
-      L21_2 = A0_2.F7D42416D5F762259
+      L22_2 = self
+      L21_2 = self.F7D42416D5F762259
       L23_2 = "L_rankplate_00/gauge_eff"
       L21_2(L22_2, L23_2)
-      L22_2 = A0_2
-      L21_2 = A0_2.F7D42416D5F762259
+      L22_2 = self
+      L21_2 = self.F7D42416D5F762259
       L23_2 = "L_rankplate_00/rank_keep"
       L21_2(L22_2, L23_2)
-      L22_2 = A0_2
-      L21_2 = A0_2.F7D42416D5F762259
+      L22_2 = self
+      L21_2 = self.F7D42416D5F762259
       L23_2 = L31_1.string
       L24_2 = "L_rankplate_00/"
       L23_2 = L23_2(L24_2)
@@ -225,8 +221,8 @@ function L70_1(A0_2, A1_2, A2_2)
         L21_2(L22_2)
       end
       while true do
-        L22_2 = A0_2
-        L21_2 = A0_2.F810D8446A8612992
+        L22_2 = self
+        L21_2 = self.F810D8446A8612992
         L23_2 = L31_1.string
         L24_2 = "L_rankplate_00/"
         L23_2 = L23_2(L24_2)
@@ -242,8 +238,8 @@ function L70_1(A0_2, A1_2, A2_2)
         L21_2 = L21_2.S760DAE4C5371A78E
         L21_2()
       end
-      L22_2 = A0_2
-      L21_2 = A0_2.F7159826FA0DEF850
+      L22_2 = self
+      L21_2 = self.F7159826FA0DEF850
       L23_2 = L20_2
       L21_2(L22_2, L23_2)
       L8_2 = true
@@ -269,12 +265,12 @@ function L70_1(A0_2, A1_2, A2_2)
       L21_2.win = 0
       L21_2.lose = 0
       L20_2 = L20_2(L21_2)
-      L22_2 = A0_2
-      L21_2 = A0_2.F7F6871F0924569EC
+      L22_2 = self
+      L21_2 = self.F7F6871F0924569EC
       L23_2 = L20_2
       L21_2(L22_2, L23_2)
-      L22_2 = A0_2
-      L21_2 = A0_2.F7D42416D5F762259
+      L22_2 = self
+      L21_2 = self.F7D42416D5F762259
       L23_2 = "L_rankplate_00/rank_down"
       L21_2(L22_2, L23_2)
       L21_2 = C3A36506FBC96ACBD
@@ -282,8 +278,8 @@ function L70_1(A0_2, A1_2, A2_2)
       L22_2 = "PLAY_UI_COMMUNICATION_RANK_DOWN"
       L21_2(L22_2)
       while true do
-        L22_2 = A0_2
-        L21_2 = A0_2.F810D8446A8612992
+        L22_2 = self
+        L21_2 = self.F810D8446A8612992
         L23_2 = "L_rankplate_00/rank_down"
         L21_2 = L21_2(L22_2, L23_2)
         if false ~= L21_2 then
@@ -293,13 +289,13 @@ function L70_1(A0_2, A1_2, A2_2)
         L21_2 = L21_2.S760DAE4C5371A78E
         L21_2()
       end
-      L22_2 = A0_2
-      L21_2 = A0_2.F7159826FA0DEF850
+      L22_2 = self
+      L21_2 = self.F7159826FA0DEF850
       L23_2 = L20_2
       L21_2(L22_2, L23_2)
       L15_2 = 100
-      L22_2 = A0_2
-      L21_2 = A0_2.F41F4D20D2DD50296
+      L22_2 = self
+      L21_2 = self.F41F4D20D2DD50296
       L23_2 = 100
       L24_2 = L19_2
       L25_2 = L17_2
@@ -327,25 +323,25 @@ function L70_1(A0_2, A1_2, A2_2)
       L18_2 = "PLAY_UI_BTLSPOT_CLASS_MB"
       L17_2(L18_2)
     end
-    L18_2 = A0_2
-    L17_2 = A0_2.F7C06F6BEA957F0E6
+    L18_2 = self
+    L17_2 = self.F7C06F6BEA957F0E6
     L19_2 = L9_2.messid
     L17_2(L18_2, L19_2)
     if true == L8_2 then
-      L18_2 = A0_2
-      L17_2 = A0_2.F7D42416D5F762259
+      L18_2 = self
+      L17_2 = self.F7D42416D5F762259
       L19_2 = "L_rankplate_00/keep_out"
       L17_2(L18_2, L19_2)
     end
     if 11 == L14_2 then
-      L18_2 = A0_2
-      L17_2 = A0_2.F7C06F6BEA957F0E6
+      L18_2 = self
+      L17_2 = self.F7C06F6BEA957F0E6
       L19_2 = 27
       L17_2(L18_2, L19_2)
     end
   elseif true == L10_2 then
-    L18_2 = A0_2
-    L17_2 = A0_2.F7C06F6BEA957F0E6
+    L18_2 = self
+    L17_2 = self.F7C06F6BEA957F0E6
     L19_2 = 19
     L17_2(L18_2, L19_2)
   elseif true == L11_2 then
@@ -353,8 +349,8 @@ function L70_1(A0_2, A1_2, A2_2)
     if not L5_2 then
       L17_2 = 19
     end
-    L19_2 = A0_2
-    L18_2 = A0_2.F7C06F6BEA957F0E6
+    L19_2 = self
+    L18_2 = self.F7C06F6BEA957F0E6
     L20_2 = L17_2
     L18_2(L19_2, L20_2)
   end
@@ -362,8 +358,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L17_2 = L17_2.S84E00A89DFBC380C
   L17_2()
   if 11 == L14_2 then
-    L18_2 = A0_2
-    L17_2 = A0_2.F5E54760BD1F1A5F7
+    L18_2 = self
+    L17_2 = self.F5E54760BD1F1A5F7
     L19_2 = A2_2.ranking
     L17_2(L18_2, L19_2)
     L17_2 = C3A36506FBC96ACBD
@@ -381,8 +377,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L22_2 = 0
     L23_2 = 1
     L17_2(L18_2, L19_2, L20_2, L21_2, L22_2, L23_2)
-    L18_2 = A0_2
-    L17_2 = A0_2.F7C06F6BEA957F0E6
+    L18_2 = self
+    L17_2 = self.F7C06F6BEA957F0E6
     L19_2 = 20
     L17_2(L18_2, L19_2)
     L17_2 = CD950F4AD2C2702A1
@@ -391,11 +387,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5E173A504594E551"]["prototype"]
-L69_1 = "F41F4D20D2DD50296"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.btlspot.ui.BattleSpotUIRankUp.movGaugePos
+function C5E173A504594E551_prototype:F41F4D20D2DD50296(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   L4_2 = A1_2 <= A2_2
   L5_2 = A1_2
@@ -403,8 +396,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L6_2 = C1DB14DCC9D7634FA
     L6_2 = L6_2.S760DAE4C5371A78E
     L6_2()
-    L7_2 = A0_2
-    L6_2 = A0_2.F5E765CD3866D1BDB
+    L7_2 = self
+    L6_2 = self.F5E765CD3866D1BDB
     L8_2 = L5_2
     L6_2(L7_2, L8_2)
     if L4_2 then
@@ -419,17 +412,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       end
     end
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.F5E765CD3866D1BDB
+  L7_2 = self
+  L6_2 = self.F5E765CD3866D1BDB
   L8_2 = A2_2
   L6_2(L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5E173A504594E551"]["prototype"]
-L69_1 = "F693F188B447C4AEF"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.btlspot.ui.BattleSpotUIRankUp.calcGaugePos
+function C5E173A504594E551_prototype:F693F188B447C4AEF(A1_2, A2_2)
   local L3_2, L4_2
   L3_2 = L31_1.int
   L4_2 = A2_2 / A1_2
@@ -437,11 +427,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5E173A504594E551"]["prototype"]
-L69_1 = "F7C06F6BEA957F0E6"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.btlspot.ui.BattleSpotUIRankUp.StartUserMessageID
+function C5E173A504594E551_prototype:F7C06F6BEA957F0E6(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = true

@@ -1,3 +1,7 @@
+---@alias C9FF554A36EB277DD main_ui_cooking_CookingSelectView
+
+---@class main_ui_cooking_CookingSelectView : C9FF554A36EB277DD_prototype
+---@field prototype C9FF554A36EB277DD_prototype
 L55_1 = _ENV
 L56_1 = "C9FF554A36EB277DD"
 L57_1 = L15_1
@@ -46,135 +50,109 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9FF554A36EB277DD"]
 L69_1 = "__name__"
 L70_1 = "C9FF554A36EB277DD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9FF554A36EB277DD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9FF554A36EB277DD"]["prototype"]
-L69_1 = "F85F35D37A4B08E4D"
-
-function L70_1(A0_2)
+---@class C9FF554A36EB277DD_prototype
+C9FF554A36EB277DD_prototype = L15_1()
+C9FF554A36EB277DD.prototype = C9FF554A36EB277DD_prototype
+--- main.ui.cooking.CookingSelectView.GetLayout
+function C9FF554A36EB277DD_prototype:F85F35D37A4B08E4D()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9FF554A36EB277DD"]["prototype"]
-L69_1 = "FB7BFB8BDC6CEB612"
-
-function L70_1(A0_2)
+--- main.ui.cooking.CookingSelectView.GetView
+function C9FF554A36EB277DD_prototype:FB7BFB8BDC6CEB612()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9FF554A36EB277DD"]["prototype"]
-L69_1 = "FA0360AEA3CA3454B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.cooking.CookingSelectView.RegisterNextFunc
+function C9FF554A36EB277DD_prototype:FA0360AEA3CA3454B(A1_2)
   local L2_2, L3_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F6BE8C8D52FA80DEE = L2_2
+  self.F6BE8C8D52FA80DEE = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9FF554A36EB277DD"]["prototype"]
-L69_1 = "FFEBABC457D194B68"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.cooking.CookingSelectView.FFEBABC457D194B68
+function C9FF554A36EB277DD_prototype:FFEBABC457D194B68(A1_2)
   local L2_2, L3_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F412BE0B36007C60B = L2_2
+  self.F412BE0B36007C60B = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9FF554A36EB277DD"]["prototype"]
-L69_1 = "F814DAAFB6F431ABA"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.cooking.CookingSelectView.RegisterSelectButtonFunc
+function C9FF554A36EB277DD_prototype:F814DAAFB6F431ABA(A1_2)
   local L2_2, L3_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F3404F01FE8628743 = L2_2
+  self.F3404F01FE8628743 = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9FF554A36EB277DD"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.cooking.CookingSelectView.Setup
+function C9FF554A36EB277DD_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L2_2 = c69ACCC6F
   L2_2 = L2_2.f3F98EEAD
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9FF554A36EB277DD"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.cooking.CookingSelectView.PreUpdate
+function C9FF554A36EB277DD_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cDFF6D3D5
   L2_2 = L2_2.f6E019F84
   L3_2 = "UI_L"
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     if L2_2 then
-      L2_2 = A0_2.F412BE0B36007C60B
+      L2_2 = self.F412BE0B36007C60B
       if nil ~= L2_2 then
-        L3_2 = A0_2
-        L2_2 = A0_2.F412BE0B36007C60B
-        L4_2 = A0_2[1]
-        L5_2 = A0_2[2]
-        L6_2 = A0_2[3]
+        L3_2 = self
+        L2_2 = self.F412BE0B36007C60B
+        L4_2 = self[1]
+        L5_2 = self[2]
+        L6_2 = self[3]
         L2_2(L3_2, L4_2, L5_2, L6_2)
       end
     end
-    A0_2[4] = true
+    self[4] = true
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.fEB960553
   L2_2 = L2_2(L3_2)
   if 0 == L2_2 then
   elseif 1 == L2_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.f4045C398
     L3_2(L4_2)
   else
-    L4_2 = A0_2
-    L3_2 = A0_2.F531B0224CC1DC6A8
+    L4_2 = self
+    L3_2 = self.F531B0224CC1DC6A8
     L3_2(L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9FF554A36EB277DD"]["prototype"]
-L69_1 = "F531B0224CC1DC6A8"
-
-function L70_1(A0_2)
+--- main.ui.cooking.CookingSelectView.CheckControl
+function C9FF554A36EB277DD_prototype:F531B0224CC1DC6A8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L1_2 = A0_2[1]
-  L2_2 = A0_2[3]
+  L1_2 = self[1]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.fEB960553
   L2_2 = L2_2(L3_2)
@@ -223,16 +201,16 @@ function L70_1(A0_2)
     L9_2 = L9_2.fD51F4F1D
     L9_2 = L9_2(L10_2)
     if L9_2 then
-      L9_2 = A0_2.F412BE0B36007C60B
+      L9_2 = self.F412BE0B36007C60B
       if nil ~= L9_2 then
-        L10_2 = A0_2
-        L9_2 = A0_2.F412BE0B36007C60B
+        L10_2 = self
+        L9_2 = self.F412BE0B36007C60B
         L11_2 = L1_2
-        L12_2 = A0_2[2]
-        L13_2 = A0_2[3]
+        L12_2 = self[2]
+        L13_2 = self[3]
         L9_2(L10_2, L11_2, L12_2, L13_2)
       end
-      L9_2 = A0_2[3]
+      L9_2 = self[3]
       L10_2 = L9_2
       L9_2 = L9_2.f89358001
       L9_2(L10_2)
@@ -241,11 +219,11 @@ function L70_1(A0_2)
       L9_2 = L2_2.fD51F4F1D
       L9_2 = L9_2(L10_2)
       if L9_2 then
-        L10_2 = A0_2
-        L9_2 = A0_2.FA6423BBA287943E7
+        L10_2 = self
+        L9_2 = self.FA6423BBA287943E7
         L11_2 = 0
         L9_2(L10_2, L11_2)
-        L9_2 = A0_2[3]
+        L9_2 = self[3]
         L10_2 = L9_2
         L9_2 = L9_2.f89358001
         L9_2(L10_2)
@@ -254,11 +232,11 @@ function L70_1(A0_2)
         L9_2 = L3_2.fD51F4F1D
         L9_2 = L9_2(L10_2)
         if L9_2 then
-          L10_2 = A0_2
-          L9_2 = A0_2.FA6423BBA287943E7
+          L10_2 = self
+          L9_2 = self.FA6423BBA287943E7
           L11_2 = 1
           L9_2(L10_2, L11_2)
-          L9_2 = A0_2[3]
+          L9_2 = self[3]
           L10_2 = L9_2
           L9_2 = L9_2.f89358001
           L9_2(L10_2)
@@ -267,11 +245,11 @@ function L70_1(A0_2)
           L9_2 = L4_2.fD51F4F1D
           L9_2 = L9_2(L10_2)
           if L9_2 then
-            L10_2 = A0_2
-            L9_2 = A0_2.FA6423BBA287943E7
+            L10_2 = self
+            L9_2 = self.FA6423BBA287943E7
             L11_2 = 2
             L9_2(L10_2, L11_2)
-            L9_2 = A0_2[3]
+            L9_2 = self[3]
             L10_2 = L9_2
             L9_2 = L9_2.f89358001
             L9_2(L10_2)
@@ -280,11 +258,11 @@ function L70_1(A0_2)
             L9_2 = L5_2.fD51F4F1D
             L9_2 = L9_2(L10_2)
             if L9_2 then
-              L10_2 = A0_2
-              L9_2 = A0_2.FA6423BBA287943E7
+              L10_2 = self
+              L9_2 = self.FA6423BBA287943E7
               L11_2 = 3
               L9_2(L10_2, L11_2)
-              L9_2 = A0_2[3]
+              L9_2 = self[3]
               L10_2 = L9_2
               L9_2 = L9_2.f89358001
               L9_2(L10_2)
@@ -293,11 +271,11 @@ function L70_1(A0_2)
               L9_2 = L6_2.fD51F4F1D
               L9_2 = L9_2(L10_2)
               if L9_2 then
-                L10_2 = A0_2
-                L9_2 = A0_2.FA6423BBA287943E7
+                L10_2 = self
+                L9_2 = self.FA6423BBA287943E7
                 L11_2 = 4
                 L9_2(L10_2, L11_2)
-                L9_2 = A0_2[3]
+                L9_2 = self[3]
                 L10_2 = L9_2
                 L9_2 = L9_2.f89358001
                 L9_2(L10_2)
@@ -306,11 +284,11 @@ function L70_1(A0_2)
                 L9_2 = L7_2.fD51F4F1D
                 L9_2 = L9_2(L10_2)
                 if L9_2 then
-                  L10_2 = A0_2
-                  L9_2 = A0_2.FA6423BBA287943E7
+                  L10_2 = self
+                  L9_2 = self.FA6423BBA287943E7
                   L11_2 = 5
                   L9_2(L10_2, L11_2)
-                  L9_2 = A0_2[3]
+                  L9_2 = self[3]
                   L10_2 = L9_2
                   L9_2 = L9_2.f89358001
                   L9_2(L10_2)
@@ -320,29 +298,29 @@ function L70_1(A0_2)
                   L9_2 = L9_2(L10_2)
                   if L9_2 then
                     L9_2 = true
-                    L10_2 = A0_2.F6BE8C8D52FA80DEE
+                    L10_2 = self.F6BE8C8D52FA80DEE
                     if nil ~= L10_2 then
-                      L11_2 = A0_2
-                      L10_2 = A0_2.F6BE8C8D52FA80DEE
+                      L11_2 = self
+                      L10_2 = self.F6BE8C8D52FA80DEE
                       L12_2 = L1_2
-                      L13_2 = A0_2[2]
-                      L14_2 = A0_2[3]
+                      L13_2 = self[2]
+                      L14_2 = self[3]
                       L10_2 = L10_2(L11_2, L12_2, L13_2, L14_2)
                       L9_2 = L10_2
                     end
                     if L9_2 then
-                      L10_2 = A0_2[3]
+                      L10_2 = self[3]
                       L11_2 = L10_2
                       L10_2 = L10_2.fCDC3DEA9
                       L12_2 = "Next"
                       L10_2(L11_2, L12_2)
-                      L10_2 = A0_2[2]
+                      L10_2 = self[2]
                       L11_2 = L10_2
                       L10_2 = L10_2.f2A9CF058
                       L12_2 = false
                       L10_2(L11_2, L12_2)
                     end
-                    L10_2 = A0_2[3]
+                    L10_2 = self[3]
                     L11_2 = L10_2
                     L10_2 = L10_2.f89358001
                     L10_2(L11_2)
@@ -357,16 +335,13 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9FF554A36EB277DD"]["prototype"]
-L69_1 = "FA6423BBA287943E7"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.cooking.CookingSelectView.CallSelectButtonFunc
+function C9FF554A36EB277DD_prototype:FA6423BBA287943E7(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2.F3404F01FE8628743
+  L2_2 = self.F3404F01FE8628743
   if nil ~= L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F3404F01FE8628743
+    L3_2 = self
+    L2_2 = self.F3404F01FE8628743
     L4_2 = A1_2
     L2_2(L3_2, L4_2)
   end

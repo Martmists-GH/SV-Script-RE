@@ -1,3 +1,5 @@
+---@class CEC0B21BD39C74EC7 : CEC0B21BD39C74EC7_prototype
+---@field prototype CEC0B21BD39C74EC7_prototype
 L55_1 = _ENV
 L56_1 = "CEC0B21BD39C74EC7"
 L57_1 = L15_1
@@ -40,44 +42,36 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CEC0B21BD39C74EC7"]
 L69_1 = "__name__"
 L70_1 = "CEC0B21BD39C74EC7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC0B21BD39C74EC7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC0B21BD39C74EC7"]["prototype"]
-L69_1 = "FD5612F1B47C63602"
-
-function L70_1(A0_2)
+---@class CEC0B21BD39C74EC7_prototype
+CEC0B21BD39C74EC7_prototype = L15_1()
+CEC0B21BD39C74EC7.prototype = CEC0B21BD39C74EC7_prototype
+--- CEC0B21BD39C74EC7.lookAtPlayer
+function CEC0B21BD39C74EC7_prototype:FD5612F1B47C63602()
   local L1_2, L2_2
   L1_2 = CDA4434B92B6F8360
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FD5612F1B47C63602
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FB3673456874D60C8
+  L2_2 = self
+  L1_2 = self.FB3673456874D60C8
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC0B21BD39C74EC7"]["prototype"]
-L69_1 = "F0F2455EB3F08B1D1"
-
-function L70_1(A0_2)
+--- CEC0B21BD39C74EC7.onWait
+function CEC0B21BD39C74EC7_prototype:F0F2455EB3F08B1D1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = nil
   L2_2 = cE35B3EB3
   L2_2 = L2_2.fDBA763D1
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2[7]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = nil
   L4_2 = L10_1.string
   L4_2 = L4_2.find
@@ -132,12 +126,12 @@ function L70_1(A0_2)
   
   L5_2 = L5_2()
   if L5_2 >= 0 then
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.F9DEB10F3B940A275
     L5_2 = L5_2(L6_2)
-    A0_2[6] = L5_2
-    A0_2[3] = 2
+    self[6] = L5_2
+    self[3] = 2
   end
 end
 

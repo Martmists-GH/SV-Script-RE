@@ -1,3 +1,7 @@
+---@alias C8C47BFECD31B5F5C main_ui_title_handle_GameBackupHandle
+
+---@class main_ui_title_handle_GameBackupHandle : C8C47BFECD31B5F5C_prototype
+---@field prototype C8C47BFECD31B5F5C_prototype
 L55_1 = _ENV
 L56_1 = "C8C47BFECD31B5F5C"
 L57_1 = L15_1
@@ -37,16 +41,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8C47BFECD31B5F5C"]
 L69_1 = "__name__"
 L70_1 = "C8C47BFECD31B5F5C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8C47BFECD31B5F5C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8C47BFECD31B5F5C"]["prototype"]
-L69_1 = "FC2B4E3373C7EA149"
-
-function L70_1(A0_2, A1_2)
+---@class C8C47BFECD31B5F5C_prototype
+C8C47BFECD31B5F5C_prototype = L15_1()
+C8C47BFECD31B5F5C.prototype = C8C47BFECD31B5F5C_prototype
+--- main.ui.title.handle.GameBackupHandle.TriggerFunc
+function C8C47BFECD31B5F5C_prototype:FC2B4E3373C7EA149(A1_2)
   local L2_2, L3_2
   L2_2 = cDFF6D3D5
   L2_2 = L2_2.fFCB9D967
@@ -69,11 +68,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8C47BFECD31B5F5C"]["prototype"]
-L69_1 = "F6A6FFC2D096EDA19"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.title.handle.GameBackupHandle.ProcCoroutine
+function C8C47BFECD31B5F5C_prototype:F6A6FFC2D096EDA19(A1_2)
   local L2_2
   L2_2 = A1_2.output
   L2_2.startType = 2

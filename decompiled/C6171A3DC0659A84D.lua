@@ -1,3 +1,7 @@
+---@alias C6171A3DC0659A84D main_ui_dressup_base_DressupUIViewBase
+
+---@class main_ui_dressup_base_DressupUIViewBase : C6171A3DC0659A84D_prototype
+---@field prototype C6171A3DC0659A84D_prototype
 L55_1 = _ENV
 L56_1 = "C6171A3DC0659A84D"
 L57_1 = L15_1
@@ -76,26 +80,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6171A3DC0659A84D"]
 L69_1 = "__name__"
 L70_1 = "C6171A3DC0659A84D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6171A3DC0659A84D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6171A3DC0659A84D"]["prototype"]
-L69_1 = "FE4D10BC03DD99E02"
-
-function L70_1(A0_2)
+---@class C6171A3DC0659A84D_prototype
+C6171A3DC0659A84D_prototype = L15_1()
+C6171A3DC0659A84D.prototype = C6171A3DC0659A84D_prototype
+--- main.ui.dressup.base.DressupUIViewBase.SetupCameraModelSequenceUpdate
+function C6171A3DC0659A84D_prototype:FE4D10BC03DD99E02()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   if nil ~= L1_2 then
     L1_2 = L10_1.coroutine
     L1_2 = L1_2.status
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L2_2 = L2_2[1]
     L1_2 = L1_2(L2_2)
     if "dead" ~= L1_2 then
-      L1_2 = A0_2[2]
+      L1_2 = self[2]
       L2_2 = nil
       L3_2 = L62_1
       L4_2 = L64_1.pack
@@ -143,43 +142,37 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6171A3DC0659A84D"]["prototype"]
-L69_1 = "F2B311A98198B767E"
-
-function L70_1(A0_2)
+--- main.ui.dressup.base.DressupUIViewBase.ViewCompUpdate
+function C6171A3DC0659A84D_prototype:F2B311A98198B767E()
   local L1_2, L2_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if nil ~= L1_2 then
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     L2_2 = L1_2
     L1_2 = L1_2.F883971DC74D7D808
     L1_2(L2_2)
   end
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.FFFB7EBCF1B176AD7
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L1_2 = A0_2.FF4A3F4B5A6DDF4AC
+    L1_2 = self.FF4A3F4B5A6DDF4AC
     if nil ~= L1_2 then
-      L2_2 = A0_2
-      L1_2 = A0_2.FF4A3F4B5A6DDF4AC
+      L2_2 = self
+      L1_2 = self.FF4A3F4B5A6DDF4AC
       L1_2(L2_2)
-      A0_2.FF4A3F4B5A6DDF4AC = nil
+      self.FF4A3F4B5A6DDF4AC = nil
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6171A3DC0659A84D"]["prototype"]
-L69_1 = "FAA55CFCD5A9592A4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.dressup.base.DressupUIViewBase.SetLogoAnime
+function C6171A3DC0659A84D_prototype:FAA55CFCD5A9592A4(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = -1 ~= A1_2
   if L3_2 then
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.FF32CC3BE322652A8
     L6_2 = L31_1.string
@@ -198,7 +191,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L7_2 = A1_2
     L4_2(L5_2, L6_2, L7_2)
   else
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.FF32CC3BE322652A8
     L6_2 = L31_1.string
@@ -214,10 +207,10 @@ function L70_1(A0_2, A1_2, A2_2)
     L8_2 = "/logo_pattern"
     L7_2 = L7_2(L8_2)
     L6_2 = L6_2 .. L7_2
-    L7_2 = A0_2[6]
+    L7_2 = self[6]
     L4_2(L5_2, L6_2, L7_2)
   end
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.FA23D39922B76B247
   L6_2 = L31_1.string
@@ -235,7 +228,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = L6_2 .. L7_2
   L7_2 = L3_2
   L4_2(L5_2, L6_2, L7_2)
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.FA23D39922B76B247
   L6_2 = L31_1.string

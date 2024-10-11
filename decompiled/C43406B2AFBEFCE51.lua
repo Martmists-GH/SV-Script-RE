@@ -1,3 +1,5 @@
+---@class C43406B2AFBEFCE51 : C43406B2AFBEFCE51_prototype
+---@field prototype C43406B2AFBEFCE51_prototype
 L55_1 = _ENV
 L56_1 = "C43406B2AFBEFCE51"
 L57_1 = L15_1
@@ -41,19 +43,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C43406B2AFBEFCE51"]
 L69_1 = "__name__"
 L70_1 = "C43406B2AFBEFCE51"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43406B2AFBEFCE51"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43406B2AFBEFCE51"]["prototype"]
-L69_1 = "F65079E9D5273248C"
-
-function L70_1(A0_2)
+---@class C43406B2AFBEFCE51_prototype
+C43406B2AFBEFCE51_prototype = L15_1()
+C43406B2AFBEFCE51.prototype = C43406B2AFBEFCE51_prototype
+--- C43406B2AFBEFCE51.onStart
+function C43406B2AFBEFCE51_prototype:F65079E9D5273248C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2
-  L2_2 = A0_2[3]
+  L1_2 = self
+  L2_2 = self[3]
   L2_2 = L2_2[3]
   L2_2 = L2_2[1]
   L2_2 = L2_2[6]
@@ -71,8 +68,8 @@ function L70_1(A0_2)
   L4_2 = L3_2
   L3_2 = L3_2.f84AFAE2A
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FF790358D228F6230
+  L4_2 = self
+  L3_2 = self.FF790358D228F6230
   L5_2 = 0
   
   function L6_2()
@@ -167,16 +164,13 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43406B2AFBEFCE51"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2, A1_2)
+--- C43406B2AFBEFCE51.onUpdate
+function C43406B2AFBEFCE51_prototype:FC0150FC2959FFA71(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FCD817043038ADFCD
+  L3_2 = self
+  L2_2 = self.FCD817043038ADFCD
   L2_2(L3_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[3]
   L2_2 = L2_2[1]
   L2_2 = L2_2[9]
@@ -185,10 +179,10 @@ function L70_1(A0_2, A1_2)
   if L2_2 <= 0 then
     L2_2 = C930DD2282CCCB859
     L2_2 = L2_2.new
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L2_2 = L2_2(L3_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F09BA8F383E3C8AF6
+    L4_2 = self
+    L3_2 = self.F09BA8F383E3C8AF6
     L3_2 = L3_2(L4_2)
     L4_2 = L3_2
     L3_2 = L3_2.F81863E625B28572D
@@ -203,13 +197,10 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43406B2AFBEFCE51"]["prototype"]
-L69_1 = "FC5FDCCA7599A89D5"
-
-function L70_1(A0_2)
+--- C43406B2AFBEFCE51.onEnd
+function C43406B2AFBEFCE51_prototype:FC5FDCCA7599A89D5()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2[3]
   L1_2 = L1_2[1]
   L1_2 = L1_2[16]

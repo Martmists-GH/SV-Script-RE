@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C9F6C325569B7E07F"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "__name__"
-L70_1 = "C9F6C325569B7E07F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S78BBE9C0C6452E1E"
+---@alias C9F6C325569B7E07F main_event_command_CameraCommand
 
-function L70_1(A0_2)
+---@class main_event_command_CameraCommand
+C9F6C325569B7E07F = L15_1()
+C9F6C325569B7E07F.new = {}
+C9F6C325569B7E07F.__name__ = "C9F6C325569B7E07F"
+--- main.event.command.CameraCommand.CameraStart
+function C9F6C325569B7E07F.S78BBE9C0C6452E1E(A0_2)
   local L1_2, L2_2
   if nil == A0_2 then
     A0_2 = true
@@ -39,11 +30,8 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SAB50B037AF2BC20B"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.CameraCommand.CameraEnd
+function C9F6C325569B7E07F.SAB50B037AF2BC20B(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A1_2 then
     A1_2 = 2
@@ -232,11 +220,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S80490B58FD0F731A"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.CameraCommand.SwitchCamera
+function C9F6C325569B7E07F.S80490B58FD0F731A(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if nil == A1_2 then
     A1_2 = false
@@ -251,11 +236,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SE29389D94D7EC89E"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.command.CameraCommand.CameraMoveTarget
+function C9F6C325569B7E07F.SE29389D94D7EC89E(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A5_2 then
     A5_2 = 2
@@ -328,11 +310,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S2E9035BDE01AB38A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.command.CameraCommand.CameraMoveAngle
+function C9F6C325569B7E07F.S2E9035BDE01AB38A(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A5_2 then
     A5_2 = 2
@@ -349,11 +328,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S15F1FE666677756A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.CameraCommand.CameraMoveAngleUseBasisObject
+function C9F6C325569B7E07F.S15F1FE666677756A(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A6_2 then
     A6_2 = 2
@@ -400,11 +376,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SA3D5EDBCA4BF5CCB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.CameraCommand.CameraMoveAngleUseBasisTransform
+function C9F6C325569B7E07F.SA3D5EDBCA4BF5CCB(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A6_2 then
     A6_2 = 2
@@ -497,11 +470,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S483C1AAE6E34AA88"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.command.CameraCommand.CameraMoveRot
+function C9F6C325569B7E07F.S483C1AAE6E34AA88(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A5_2 then
     A5_2 = 2
@@ -518,11 +488,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S54EFEA7825AE7A50"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.CameraCommand.S54EFEA7825AE7A50
+function C9F6C325569B7E07F.S54EFEA7825AE7A50(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   if nil == A6_2 then
     A6_2 = 2
@@ -562,11 +529,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S20BB73C448AC672D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.CameraCommand.S20BB73C448AC672D
+function C9F6C325569B7E07F.S20BB73C448AC672D(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A6_2 then
     A6_2 = 2
@@ -621,11 +585,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SD6A4A7158737A563"
-
-function L70_1()
+--- main.event.command.CameraCommand.CameraWait
+function C9F6C325569B7E07F.SD6A4A7158737A563()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CA705BDBE7ADE7BAC
   L0_2 = L0_2.SCA7329942774246E
@@ -657,11 +618,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SD9F4FA172B437650"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.command.CameraCommand.actionCamera
+function C9F6C325569B7E07F.SD9F4FA172B437650(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L6_2 = CA705BDBE7ADE7BAC
   L6_2 = L6_2.SCA7329942774246E
@@ -767,11 +725,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SA5B431F0142C952D"
-
-function L70_1(A0_2)
+--- main.event.command.CameraCommand.SetFieldCameraAngle
+function C9F6C325569B7E07F.SA5B431F0142C952D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = C6E074861269A51A2
   L1_2 = L1_2.S7C107A0FC15F1400
@@ -825,11 +780,8 @@ function L70_1(A0_2)
   L5_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SA5968192AF156AE7"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.CameraCommand.SetFieldCameraForwardPitch
+function C9F6C325569B7E07F.SA5968192AF156AE7(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C6E074861269A51A2
   L2_2 = L2_2.S7C107A0FC15F1400
@@ -847,11 +799,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S5FC0FDC6E8C5C478"
-
-function L70_1(A0_2)
+--- main.event.command.CameraCommand.S5FC0FDC6E8C5C478
+function C9F6C325569B7E07F.S5FC0FDC6E8C5C478(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -1167,11 +1116,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S9C4AD4E56CA444FB"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.CameraCommand.StartShake
+function C9F6C325569B7E07F.S9C4AD4E56CA444FB(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A0_2 then
     A0_2 = 0.7
@@ -1207,11 +1153,8 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S23CF8654E6A520BC"
-
-function L70_1()
+--- main.event.command.CameraCommand.FinishShake
+function C9F6C325569B7E07F.S23CF8654E6A520BC()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CA705BDBE7ADE7BAC
   L0_2 = L0_2.SCA7329942774246E
@@ -1242,11 +1185,8 @@ function L70_1()
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SAA3F191C3771A337"
-
-function L70_1()
+--- main.event.command.CameraCommand.GetPos
+function C9F6C325569B7E07F.SAA3F191C3771A337()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = CA705BDBE7ADE7BAC
   L0_2 = L0_2.SCA7329942774246E
@@ -1289,11 +1229,8 @@ function L70_1()
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SBADB19F23618B59D"
-
-function L70_1()
+--- main.event.command.CameraCommand.GetPosX
+function C9F6C325569B7E07F.SBADB19F23618B59D()
   local L0_2, L1_2
   L0_2 = C9F6C325569B7E07F
   L0_2 = L0_2.SAA3F191C3771A337
@@ -1302,11 +1239,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SBADB18F23618B3EA"
-
-function L70_1()
+--- main.event.command.CameraCommand.GetPosY
+function C9F6C325569B7E07F.SBADB18F23618B3EA()
   local L0_2, L1_2
   L0_2 = C9F6C325569B7E07F
   L0_2 = L0_2.SAA3F191C3771A337
@@ -1315,11 +1249,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SBADB17F23618B237"
-
-function L70_1()
+--- main.event.command.CameraCommand.GetPosZ
+function C9F6C325569B7E07F.SBADB17F23618B237()
   local L0_2, L1_2
   L0_2 = C9F6C325569B7E07F
   L0_2 = L0_2.SAA3F191C3771A337
@@ -1328,11 +1259,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S0267A062C162C389"
-
-function L70_1()
+--- main.event.command.CameraCommand.GetLookAt
+function C9F6C325569B7E07F.S0267A062C162C389()
   local L0_2, L1_2, L2_2
   L0_2 = CA705BDBE7ADE7BAC
   L0_2 = L0_2.SCA7329942774246E
@@ -1354,11 +1282,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S78D958CE9AD2BC23"
-
-function L70_1()
+--- main.event.command.CameraCommand.GetLookAtX
+function C9F6C325569B7E07F.S78D958CE9AD2BC23()
   local L0_2, L1_2
   L0_2 = C9F6C325569B7E07F
   L0_2 = L0_2.S0267A062C162C389
@@ -1367,11 +1292,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S78D957CE9AD2BA70"
-
-function L70_1()
+--- main.event.command.CameraCommand.GetLookAtY
+function C9F6C325569B7E07F.S78D957CE9AD2BA70()
   local L0_2, L1_2
   L0_2 = C9F6C325569B7E07F
   L0_2 = L0_2.S0267A062C162C389
@@ -1380,11 +1302,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S78D95ACE9AD2BF89"
-
-function L70_1()
+--- main.event.command.CameraCommand.GetLookAtZ
+function C9F6C325569B7E07F.S78D95ACE9AD2BF89()
   local L0_2, L1_2
   L0_2 = C9F6C325569B7E07F
   L0_2 = L0_2.S0267A062C162C389
@@ -1393,11 +1312,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S30FE98B86123A22F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.command.CameraCommand.MoveOffset
+function C9F6C325569B7E07F.S30FE98B86123A22F(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A5_2 then
     A5_2 = 2
@@ -1434,11 +1350,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S315985F505B52F06"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.command.CameraCommand.MoveOffsetTranslation
+function C9F6C325569B7E07F.S315985F505B52F06(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2
   if nil == A5_2 then
     A5_2 = 2
@@ -1548,11 +1461,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L22_2(L23_2, L24_2, L25_2, L26_2, L27_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SCCEB699CDE936801"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.command.CameraCommand.MoveOffsetLookAt
+function C9F6C325569B7E07F.SCCEB699CDE936801(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   if nil == A5_2 then
     A5_2 = 2
@@ -1615,11 +1525,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L13_2(L14_2, L15_2, L16_2, L17_2, L18_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SBF32EF3B7E95B082"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.CameraCommand.MoveOffsetChr
+function C9F6C325569B7E07F.SBF32EF3B7E95B082(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   if nil == A4_2 then
     A4_2 = 0.5
@@ -1676,11 +1583,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L11_2(L12_2, L13_2, L14_2, L15_2, L16_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S00ADA16505721324"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.CameraCommand.MoveDist
+function C9F6C325569B7E07F.S00ADA16505721324(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A4_2 then
     A4_2 = 2
@@ -1750,11 +1654,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SC80DB71EF190883F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.CameraCommand.MoveDistChr
+function C9F6C325569B7E07F.SC80DB71EF190883F(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
   if nil == A4_2 then
     A4_2 = 2
@@ -1863,11 +1764,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L14_2(L15_2, L16_2, L17_2, L18_2, L19_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S5902C8819BB99F89"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.CameraCommand.MoveDistChrEasy
+function C9F6C325569B7E07F.S5902C8819BB99F89(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A4_2 then
     A4_2 = 0.5
@@ -1889,11 +1787,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S8DC451D7ECEF166B"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.CameraCommand.S8DC451D7ECEF166B
+function C9F6C325569B7E07F.S8DC451D7ECEF166B(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A4_2 then
     A4_2 = 0.5
@@ -1915,11 +1810,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S043CB0AF1A61D295"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.CameraCommand.MoveDistChrEasyPair
+function C9F6C325569B7E07F.S043CB0AF1A61D295(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A6_2 then
     A6_2 = 0.5
@@ -1946,11 +1838,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S399F0B1B9112C5DB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.CameraCommand.S399F0B1B9112C5DB
+function C9F6C325569B7E07F.S399F0B1B9112C5DB(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A6_2 then
     A6_2 = 0.5
@@ -1977,11 +1866,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S1A9B7A1B80F136AE"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.CameraCommand.CameraStartFollowTarget
+function C9F6C325569B7E07F.S1A9B7A1B80F136AE(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A2_2 then
     A2_2 = 0.0
@@ -2048,11 +1934,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S8819198EA52BC496"
-
-function L70_1()
+--- main.event.command.CameraCommand.CameraStopFollowTarget
+function C9F6C325569B7E07F.S8819198EA52BC496()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = CA705BDBE7ADE7BAC
   L0_2 = L0_2.SCA7329942774246E
@@ -2086,11 +1969,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S5819AB6BD77D1E78"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.command.CameraCommand.customMoveDistChrEasy
+function C9F6C325569B7E07F.S5819AB6BD77D1E78(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   if nil == A5_2 then
     A5_2 = 1.0
@@ -2204,11 +2084,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L13_2(L14_2, L15_2, L16_2, L17_2, L18_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S5717939BCB054BEC"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.command.CameraCommand.customMoveDistChrEasyPair
+function C9F6C325569B7E07F.S5717939BCB054BEC(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2
   if nil == A7_2 then
     A7_2 = 0.5
@@ -2347,11 +2224,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   L20_2(L21_2, L22_2, L23_2, L24_2, L25_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S56EE64BAD750892A"
-
-function L70_1(A0_2)
+--- main.event.command.CameraCommand.getChara
+function C9F6C325569B7E07F.S56EE64BAD750892A(A0_2)
   local L1_2, L2_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -2359,11 +2233,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "SCB8E171FEFEBA4F8"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.CameraCommand.SCB8E171FEFEBA4F8
+function C9F6C325569B7E07F.SCB8E171FEFEBA4F8(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = C9F6C325569B7E07F
   L2_2 = L2_2.S56EE64BAD750892A
@@ -2386,11 +2257,8 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S276B5D53D738771F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.CameraCommand.S276B5D53D738771F
+function C9F6C325569B7E07F.S276B5D53D738771F(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = {}
   L4_2 = A1_2[1]
@@ -2417,11 +2285,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S55A5238612F7B7FD"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.CameraCommand.S55A5238612F7B7FD
+function C9F6C325569B7E07F.S55A5238612F7B7FD(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = A0_2[1]
   L4_2 = A1_2[1]
@@ -2474,11 +2339,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F6C325569B7E07F"]
-L69_1 = "S97F9B30F4F1D7F3E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.CameraCommand.calcPos
+function C9F6C325569B7E07F.S97F9B30F4F1D7F3E(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = {}
   L4_2 = 0

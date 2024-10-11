@@ -1,3 +1,5 @@
+---@class C433CA1DB706B7318 : C433CA1DB706B7318_prototype
+---@field prototype C433CA1DB706B7318_prototype
 L55_1 = _ENV
 L56_1 = "C433CA1DB706B7318"
 L57_1 = L15_1
@@ -102,19 +104,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C433CA1DB706B7318"]
 L69_1 = "__name__"
 L70_1 = "C433CA1DB706B7318"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C433CA1DB706B7318"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C433CA1DB706B7318"]["prototype"]
-L69_1 = "F6D6EA343454EB203"
-
-function L70_1(A0_2, A1_2)
+---@class C433CA1DB706B7318_prototype
+C433CA1DB706B7318_prototype = L15_1()
+C433CA1DB706B7318.prototype = C433CA1DB706B7318_prototype
+--- C433CA1DB706B7318.F6D6EA343454EB203
+function C433CA1DB706B7318_prototype:F6D6EA343454EB203(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FA8D6E58BE27A23AC
+  L3_2 = self
+  L2_2 = self.FA8D6E58BE27A23AC
   L4_2 = A1_2
   L5_2 = false
   L2_2 = L2_2(L3_2, L4_2, L5_2)
@@ -130,14 +127,11 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C433CA1DB706B7318"]["prototype"]
-L69_1 = "F23C435B353D9B88E"
-
-function L70_1(A0_2, A1_2)
+--- C433CA1DB706B7318.RetrieveMainAreaName
+function C433CA1DB706B7318_prototype:F23C435B353D9B88E(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FA8D6E58BE27A23AC
+  L3_2 = self
+  L2_2 = self.FA8D6E58BE27A23AC
   L4_2 = A1_2
   L5_2 = false
   L2_2 = L2_2(L3_2, L4_2, L5_2)
@@ -155,39 +149,33 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C433CA1DB706B7318"]["prototype"]
-L69_1 = "F950701387FCECB31"
-
-function L70_1(A0_2, A1_2)
+--- C433CA1DB706B7318.F950701387FCECB31
+function C433CA1DB706B7318_prototype:F950701387FCECB31(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.resize
   L4_2 = 0
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FA8D6E58BE27A23AC
+  L3_2 = self
+  L2_2 = self.FA8D6E58BE27A23AC
   L4_2 = A1_2
   L5_2 = true
   L6_2 = nil
-  L7_2 = A0_2[11]
+  L7_2 = self[11]
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C433CA1DB706B7318"]["prototype"]
-L69_1 = "FA8D6E58BE27A23AC"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- C433CA1DB706B7318.retrieveAreaObjects
+function C433CA1DB706B7318_prototype:FA8D6E58BE27A23AC(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2
   L5_2 = nil
-  L6_2 = A0_2[12]
+  L6_2 = self[12]
   L6_2 = L6_2.posCache
   if nil ~= L6_2 then
-    L6_2 = A0_2[12]
+    L6_2 = self[12]
     L6_2 = L6_2.posCache
     L7_2 = c7A48E3FC
     L7_2 = L7_2.fCAD0B5F8
@@ -203,12 +191,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L5_2 = false
   end
   if L5_2 then
-    L6_2 = A0_2[12]
+    L6_2 = self[12]
     L6_2 = L6_2.result
     return L6_2
   end
   if nil == A4_2 then
-    A4_2 = A0_2[11]
+    A4_2 = self[11]
     L7_2 = A4_2
     L6_2 = A4_2.resize
     L8_2 = 0
@@ -226,7 +214,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L7_2 = L7_2 + 1
   L8_2 = A1_2[3]
   L8_2 = L8_2 + 0
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L10_2 = L9_2
   L9_2 = L9_2.f8DD3BB9D
   L11_2 = L6_2
@@ -257,7 +245,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L14_2 = _hx_tab_array
     L15_2 = {}
     L15_2.length = 0
-    L16_2 = A0_2[6]
+    L16_2 = self[6]
     L17_2 = L16_2
     L16_2 = L16_2.F4DB1165F45261338
     L18_2 = L13_2
@@ -348,7 +336,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
           L24_2, L25_2, L26_2, L27_2, L28_2, L29_2 = L24_2(L25_2, L26_2)
           L22_2 = L22_2(L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2)
           L20_2[0] = L22_2
-          L22_2 = A0_2[6]
+          L22_2 = self[6]
           L23_2 = L22_2
           L22_2 = L22_2.F4D91CC72AA058BCE
           L24_2 = L13_2
@@ -467,7 +455,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       end
     end
   end
-  L12_2 = A0_2[12]
+  L12_2 = self[12]
   L12_2 = L12_2.result
   L13_2 = L12_2
   L12_2 = L12_2.resize
@@ -482,7 +470,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       end
       L13_2 = A4_2[L12_2]
       L12_2 = L12_2 + 1
-      L14_2 = A0_2[12]
+      L14_2 = self[12]
       L14_2 = L14_2.result
       L15_2 = L14_2
       L14_2 = L14_2.push
@@ -536,7 +524,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
           L16_2 = L14_2.isWorldArea
           ::lbl_289::
           if not L16_2 then
-            L16_2 = A0_2[12]
+            L16_2 = self[12]
             L16_2 = L16_2.result
             L17_2 = L16_2
             L16_2 = L16_2.push
@@ -552,9 +540,9 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       end
     end
   end
-  L12_2 = A0_2[12]
+  L12_2 = self[12]
   L12_2.posCache = A1_2
-  L12_2 = A0_2[12]
+  L12_2 = self[12]
   L12_2 = L12_2.result
   return L12_2
 end

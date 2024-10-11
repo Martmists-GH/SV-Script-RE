@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C2E8D016DD410D06A"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "__name__"
-L70_1 = "C2E8D016DD410D06A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "SBD8846F9EF675F4A"
+---@alias C2E8D016DD410D06A main_ui_icon_IconUtility
 
-function L70_1(A0_2)
+---@class main_ui_icon_IconUtility
+C2E8D016DD410D06A = L15_1()
+C2E8D016DD410D06A.new = {}
+C2E8D016DD410D06A.__name__ = "C2E8D016DD410D06A"
+--- main.ui.icon.IconUtility.GetItemIconPath
+function C2E8D016DD410D06A.SBD8846F9EF675F4A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = L32_1.lpad
   L2_2 = L31_1.string
@@ -55,11 +46,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "SD7E693DFC343AAE6"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.icon.IconUtility.GetPokemonIconPath
+function C2E8D016DD410D06A.SD7E693DFC343AAE6(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = false
@@ -132,11 +120,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "S6CA149511A631554"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.icon.IconUtility.S6CA149511A631554
+function C2E8D016DD410D06A.S6CA149511A631554(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = false
@@ -208,11 +193,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "SA73C65B6BEC34C42"
-
-function L70_1(A0_2)
+--- main.ui.icon.IconUtility.GetLanguagePath
+function C2E8D016DD410D06A.SA73C65B6BEC34C42(A0_2)
   local L1_2
   L1_2 = ""
   if 1 == A0_2 then
@@ -240,11 +222,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "SCEB03D53039A924F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.icon.IconUtility.SCEB03D53039A924F
+function C2E8D016DD410D06A.SCEB03D53039A924F(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if nil == A1_2 then
     A1_2 = 1
@@ -256,11 +235,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "S5F1C1A8AAC640C63"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.icon.IconUtility.S5F1C1A8AAC640C63
+function C2E8D016DD410D06A.S5F1C1A8AAC640C63(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   if nil == A1_2 then
     A1_2 = 1
@@ -442,11 +418,8 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "S1B25ED36B085BC5C"
-
-function L70_1(A0_2)
+--- main.ui.icon.IconUtility.S1B25ED36B085BC5C
+function C2E8D016DD410D06A.S1B25ED36B085BC5C(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = L32_1.lpad
   L2_2 = L31_1.string
@@ -527,11 +500,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "S27763DB30954973C"
-
-function L70_1(A0_2)
+--- main.ui.icon.IconUtility.S27763DB30954973C
+function C2E8D016DD410D06A.S27763DB30954973C(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = L32_1.lpad
   L2_2 = L31_1.string
@@ -612,11 +582,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "SB0037024EFBA1EBF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.icon.IconUtility.SB0037024EFBA1EBF
+function C2E8D016DD410D06A.SB0037024EFBA1EBF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A1_2 then
     A1_2 = 1
@@ -715,11 +682,8 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "SFDD3C5FF4AD03660"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.icon.IconUtility.SFDD3C5FF4AD03660
+function C2E8D016DD410D06A.SFDD3C5FF4AD03660(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if nil == A1_2 then
     A1_2 = 1
@@ -760,11 +724,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "S55B8A5ED4CD2B381"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.icon.IconUtility.S55B8A5ED4CD2B381
+function C2E8D016DD410D06A.S55B8A5ED4CD2B381(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A1_2 then
     A1_2 = 1
@@ -863,11 +824,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "S07E540114FDB5AC6"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.icon.IconUtility.S07E540114FDB5AC6
+function C2E8D016DD410D06A.S07E540114FDB5AC6(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A1_2 then
     A1_2 = 0
@@ -939,11 +897,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "S45221E654BCFAD18"
-
-function L70_1(A0_2)
+--- main.ui.icon.IconUtility.S45221E654BCFAD18
+function C2E8D016DD410D06A.S45221E654BCFAD18(A0_2)
   local L1_2
   if 18 ~= A0_2 then
     L1_2 = A0_2 < 19
@@ -954,11 +909,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E8D016DD410D06A"]
-L69_1 = "SDA768DE8F8DA9CC5"
-
-function L70_1(A0_2)
+--- main.ui.icon.IconUtility.SDA768DE8F8DA9CC5
+function C2E8D016DD410D06A.SDA768DE8F8DA9CC5(A0_2)
   local L1_2
   if 18 == A0_2 or not (A0_2 < 19) then
     L1_2 = 99 == A0_2

@@ -1,3 +1,7 @@
+---@alias C4C1AAA6D59937B29 main_event_debug_DebugYanoChinhyon
+
+---@class main_event_debug_DebugYanoChinhyon : C4C1AAA6D59937B29_prototype
+---@field prototype C4C1AAA6D59937B29_prototype
 L55_1 = _ENV
 L56_1 = "C4C1AAA6D59937B29"
 L57_1 = L15_1
@@ -45,20 +49,15 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4C1AAA6D59937B29"]
 L69_1 = "__name__"
 L70_1 = "C4C1AAA6D59937B29"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C1AAA6D59937B29"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C1AAA6D59937B29"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C4C1AAA6D59937B29_prototype
+C4C1AAA6D59937B29_prototype = L15_1()
+C4C1AAA6D59937B29.prototype = C4C1AAA6D59937B29_prototype
+--- main.event.debug.DebugYanoChinhyon.onCreate
+function C4C1AAA6D59937B29_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.defaultMsgFileName = "common_0030"
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.useDefaultMsgFile = true
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -66,33 +65,24 @@ function L70_1(A0_2)
   L2_2[0] = "event_npc"
   L3_2 = 1
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[6] = L1_2
+  self[6] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C1AAA6D59937B29"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugYanoChinhyon.preStart
+function C4C1AAA6D59937B29_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C1AAA6D59937B29"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugYanoChinhyon.postStart
+function C4C1AAA6D59937B29_prototype:F2E6C9E25867BCE8D()
   local L1_2
   L1_2 = C9F6C325569B7E07F
   L1_2 = L1_2.S78BBE9C0C6452E1E
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C1AAA6D59937B29"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugYanoChinhyon.mainBody
+function C4C1AAA6D59937B29_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CBBA8BC6DEECCDCB4
   L1_2 = L1_2.S87C57D2B466CE242
@@ -100,7 +90,7 @@ function L70_1(A0_2)
   L1_2(L2_2)
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S3EDC50DEB344C642
-  L2_2 = A0_2[40]
+  L2_2 = self[40]
   L3_2 = "common_0030_mama_01"
   L4_2 = nil
   L5_2 = 0
@@ -124,30 +114,21 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C1AAA6D59937B29"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugYanoChinhyon.mainBodyFinish
+function C4C1AAA6D59937B29_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C1AAA6D59937B29"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugYanoChinhyon.preEnd
+function C4C1AAA6D59937B29_prototype:F740FB4E96926D103()
   local L1_2
   L1_2 = C9F6C325569B7E07F
   L1_2 = L1_2.SAB50B037AF2BC20B
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C1AAA6D59937B29"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugYanoChinhyon.postEnd
+function C4C1AAA6D59937B29_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

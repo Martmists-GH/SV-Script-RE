@@ -1,3 +1,7 @@
+---@alias C802C3CB6D4AB920F main_encount_EnvPokeVoiceRegister
+
+---@class main_encount_EnvPokeVoiceRegister : C802C3CB6D4AB920F_prototype
+---@field prototype C802C3CB6D4AB920F_prototype
 L55_1 = _ENV
 L56_1 = "C802C3CB6D4AB920F"
 L57_1 = L15_1
@@ -78,29 +82,23 @@ L69_1 = "__name__"
 L70_1 = "C802C3CB6D4AB920F"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C802C3CB6D4AB920F"]
-L69_1 = "__interfaces__"
-L70_1 = {}
-L68_1 = _ENV["C802C3CB6D4AB920F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C802C3CB6D4AB920F"]["prototype"]
-L69_1 = "F7A3D296366E973CB"
-
-function L70_1(A0_2, A1_2)
+L69_1 = "__inte---@class C802C3CB6D4AB920F_prototype
+C802C3CB6D4AB920F_prototype = L15_1()
+C802C3CB6D4AB920F.prototype = C802C3CB6D4AB920F_prototype
+--- main.encount.EnvPokeVoiceRegister.Initialize
+function C802C3CB6D4AB920F_prototype:F7A3D296366E973CB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  A0_2[1] = A1_2
+  self[1] = A1_2
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f8C7D4F4D
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = cF52F390B
     L3_2 = L3_2.fB41FD22F
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L3_2 = L3_2(L4_2)
     L4_2 = nil
     L5_2 = cF52F390B
@@ -134,47 +132,38 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C802C3CB6D4AB920F"]["prototype"]
-L69_1 = "F2861A2395B7BFC56"
-
-function L70_1(A0_2, A1_2)
-  A0_2[5] = A1_2
+--- main.encount.EnvPokeVoiceRegister.SetEnableUpdateLottery
+function C802C3CB6D4AB920F_prototype:F2861A2395B7BFC56(A1_2)
+  self[5] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C802C3CB6D4AB920F"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EnvPokeVoiceRegister.Update
+function C802C3CB6D4AB920F_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   if false == L2_2 then
     return
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2 - A1_2
-  A0_2[4] = L2_2
-  L2_2 = A0_2[4]
+  self[4] = L2_2
+  L2_2 = self[4]
   if L2_2 <= 0 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FE6836B3C27CC7BEE
+    L3_2 = self
+    L2_2 = self.FE6836B3C27CC7BEE
     L2_2(L3_2)
     L2_2 = L58_1
     L3_2 = C802C3CB6D4AB920F
     L3_2 = L3_2.SAB055697DFF93018
     L2_2 = L2_2(L3_2)
-    A0_2[4] = L2_2
+    self[4] = L2_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C802C3CB6D4AB920F"]["prototype"]
-L69_1 = "FE6836B3C27CC7BEE"
-
-function L70_1(A0_2)
+--- main.encount.EnvPokeVoiceRegister.Lottery
+function C802C3CB6D4AB920F_prototype:FE6836B3C27CC7BEE()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S93A017D496A6D000
   L2_2 = L2_2.owner
@@ -197,7 +186,7 @@ function L70_1(A0_2)
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2)
   if nil ~= L5_2 then
     L6_2 = L5_2.pos
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L8_2 = L7_2
     L7_2 = L7_2.f04AAF9A8
     L9_2 = L5_2.classification
@@ -210,11 +199,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C802C3CB6D4AB920F"]["prototype"]
-L69_1 = "F993763797090B9A6"
-
-function L70_1(A0_2)
+--- main.encount.EnvPokeVoiceRegister.OnHour
+function C802C3CB6D4AB920F_prototype:F993763797090B9A6()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C05D9E556B496A3DF
   L1_2 = L1_2.SC8223E31D3163519
@@ -232,7 +218,7 @@ function L70_1(A0_2)
   L3_2 = L3_2[L4_2]
   L3_2 = L3_2 / 3600
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.fDA8FA635
   L5_2 = L2_2

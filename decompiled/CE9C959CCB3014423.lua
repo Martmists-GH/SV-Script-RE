@@ -1,3 +1,5 @@
+---@class CE9C959CCB3014423 : CE9C959CCB3014423_prototype
+---@field prototype CE9C959CCB3014423_prototype
 L68_1 = _ENV["CE9C959CCB3014423"]
 L69_1 = "super"
 
@@ -20,16 +22,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CE9C959CCB3014423"]
 L69_1 = "__name__"
 L70_1 = "CE9C959CCB3014423"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE9C959CCB3014423"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE9C959CCB3014423"]["prototype"]
-L69_1 = "F0899D59AF0158D30"
-
-function L70_1(A0_2)
+---@class CE9C959CCB3014423_prototype
+CE9C959CCB3014423_prototype = L15_1()
+CE9C959CCB3014423.prototype = CE9C959CCB3014423_prototype
+--- CE9C959CCB3014423.F0899D59AF0158D30
+function CE9C959CCB3014423_prototype:F0899D59AF0158D30()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S50FC461CBDCA4B95
@@ -47,7 +44,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = "event_npc_sdc02_4kings_d_02_challenge_npc_01"
   L3_2 = "sdc02_4kings_d_02_enemy_a_03"
-  L4_2 = A0_2[35]
+  L4_2 = self[35]
   L5_2 = 0
   L6_2 = false
   L7_2 = false
@@ -72,11 +69,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE9C959CCB3014423"]["prototype"]
-L69_1 = "F26FD4D56C6878245"
-
-function L70_1(A0_2)
+--- CE9C959CCB3014423.F26FD4D56C6878245
+function CE9C959CCB3014423_prototype:F26FD4D56C6878245()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S50FC461CBDCA4B95
@@ -100,7 +94,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.S7EE10575FE8DA205
   L2_2 = "event_npc_sdc02_4kings_d_02_challenge_npc_01"
   L3_2 = "sdc02_4kings_d_02_enemy_a_01"
-  L4_2 = A0_2[35]
+  L4_2 = self[35]
   L5_2 = 0
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2)
   if true == L1_2 then
@@ -148,11 +142,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE9C959CCB3014423"]["prototype"]
-L69_1 = "FDDB65D797099DDC9"
-
-function L70_1(A0_2)
+--- CE9C959CCB3014423.FDDB65D797099DDC9
+function CE9C959CCB3014423_prototype:FDDB65D797099DDC9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S50FC461CBDCA4B95
@@ -170,7 +161,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = "event_npc_sdc02_4kings_d_02_challenge_npc_01"
   L3_2 = "sdc02_4kings_d_02_enemy_a_04"
-  L4_2 = A0_2[35]
+  L4_2 = self[35]
   L5_2 = 0
   L6_2 = false
   L7_2 = false
@@ -195,11 +186,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE9C959CCB3014423"]["prototype"]
-L69_1 = "F44DFF0E2A3D0505C"
-
-function L70_1(A0_2)
+--- CE9C959CCB3014423.F44DFF0E2A3D0505C
+function CE9C959CCB3014423_prototype:F44DFF0E2A3D0505C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CF4B448D8C3744CAF
   L1_2 = L1_2.SDDCF2C31DADBAB65
@@ -209,7 +197,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = "event_npc_sdc02_4kings_d_02_challenge_npc_01"
   L3_2 = "sdc02_4kings_d_02_enemy_a_02"
-  L4_2 = A0_2[35]
+  L4_2 = self[35]
   L5_2 = 0
   L6_2 = false
   L7_2 = false

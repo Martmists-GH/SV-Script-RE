@@ -1,3 +1,7 @@
+---@alias C79401A3A9C587CE1 main_field_action_auto_action_ActionAutoBlink
+
+---@class main_field_action_auto_action_ActionAutoBlink : C79401A3A9C587CE1_prototype
+---@field prototype C79401A3A9C587CE1_prototype
 L55_1 = _ENV
 L56_1 = "C79401A3A9C587CE1"
 L57_1 = L15_1
@@ -57,18 +61,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C79401A3A9C587CE1"]
 L69_1 = "__name__"
 L70_1 = "C79401A3A9C587CE1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79401A3A9C587CE1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79401A3A9C587CE1"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C79401A3A9C587CE1_prototype
+C79401A3A9C587CE1_prototype = L15_1()
+C79401A3A9C587CE1.prototype = C79401A3A9C587CE1_prototype
+--- main.field.action.auto_action.ActionAutoBlink.onCreate
+function C79401A3A9C587CE1_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = 8
   L1_2.updateInterval = L2_2
   L3_2 = nil
@@ -84,37 +83,34 @@ function L70_1(A0_2)
     L6_2 = L2_2
     L4_2(L5_2, L6_2)
   end
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   L5_2 = L4_2
   L4_2 = L4_2.f8C8B6BB6
   L4_2(L5_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F8A21587164298D45
+  L5_2 = self
+  L4_2 = self.F8A21587164298D45
   L4_2 = L4_2(L5_2)
-  A0_2[13] = L4_2
+  self[13] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79401A3A9C587CE1"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.auto_action.ActionAutoBlink.onPreUpdate
+function C79401A3A9C587CE1_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[13]
+  L1_2 = self[13]
   L2_2 = C79401A3A9C587CE1
   L2_2 = L2_2.S38394E98C8FB039C
   L1_2 = L1_2 - L2_2
-  A0_2[13] = L1_2
-  L1_2 = A0_2[13]
+  self[13] = L1_2
+  L1_2 = self[13]
   if L1_2 > 0 then
     L1_2 = 0
     return L1_2
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F8A21587164298D45
+  L2_2 = self
+  L1_2 = self.F8A21587164298D45
   L1_2 = L1_2(L2_2)
-  A0_2[13] = L1_2
-  L1_2 = A0_2[8]
+  self[13] = L1_2
+  L1_2 = self[8]
   L2_2 = nil
   
   function L3_2()
@@ -142,12 +138,12 @@ function L70_1(A0_2)
   
   L3_2 = L3_2()
   if L3_2 then
-    L3_2 = A0_2[8]
+    L3_2 = self[8]
     L4_2 = L3_2
     L3_2 = L3_2.F47F24713D257289C
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L4_2 = nil
       L5_2 = cE35B3EB3
       L5_2 = L5_2.fDBA763D1
@@ -197,21 +193,18 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79401A3A9C587CE1"]["prototype"]
-L69_1 = "F8A21587164298D45"
-
-function L70_1(A0_2)
+--- main.field.action.auto_action.ActionAutoBlink.F8A21587164298D45
+function C79401A3A9C587CE1_prototype:F8A21587164298D45()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L2_2 = L1_2
   L1_2 = L1_2.f52C8AF50
-  L3_2 = A0_2[11]
-  L4_2 = A0_2[10]
+  L3_2 = self[11]
+  L4_2 = self[10]
   L3_2 = L3_2 - L4_2
   L4_2 = true
   L1_2 = L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L1_2 = L1_2 + L2_2
   return L1_2
 end

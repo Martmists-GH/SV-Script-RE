@@ -1,11 +1,8 @@
-L55_1 = _ENV
-L56_1 = "CDE5AAC481C0C721F"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CDE5AAC481C0C721F"]
-L69_1 = "new"
-L70_1 = {}
+---@alias CDE5AAC481C0C721F main_network_connect_InternetFlow
+
+---@class main_network_connect_InternetFlow
+CDE5AAC481C0C721F = L15_1()
+CDE5AAC481C0C721F.new = {}
 L68_1[L69_1] = L70_1
 L68_1 = "CDE5AAC481C0C721F"
 L69_1 = _ENV["CDE5AAC481C0C721F"]
@@ -13,11 +10,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CDE5AAC481C0C721F"]
 L69_1 = "__name__"
 L70_1 = "CDE5AAC481C0C721F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDE5AAC481C0C721F"]
-L69_1 = "S5D786826E0341E8A"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.network.connect.InternetFlow.Run
+function CDE5AAC481C0C721F.S5D786826E0341E8A(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L3_2 = L16_1
   L4_2 = {}
@@ -538,11 +532,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L13_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDE5AAC481C0C721F"]
-L69_1 = "SA90092B17FA28C33"
-
-function L70_1()
+--- main.network.connect.InternetFlow.SA90092B17FA28C33
+function CDE5AAC481C0C721F.SA90092B17FA28C33()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c5260DB41
   L0_2 = L0_2.fE55DBD80
@@ -579,11 +570,8 @@ function L70_1()
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDE5AAC481C0C721F"]
-L69_1 = "S80E146BAAA36F3D7"
-
-function L70_1()
+--- main.network.connect.InternetFlow.ShouldSave
+function CDE5AAC481C0C721F.S80E146BAAA36F3D7()
   local L0_2, L1_2
   L0_2 = c5260DB41
   L0_2 = L0_2.f80069EA4
@@ -592,11 +580,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDE5AAC481C0C721F"]
-L69_1 = "S621A28066A864F5A"
-
-function L70_1(A0_2, A1_2)
+--- main.network.connect.InternetFlow.InPenaltyMessage
+function CDE5AAC481C0C721F.S621A28066A864F5A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = cB3DDDC2A
   L2_2 = L2_2.f5B6373D5
@@ -691,11 +676,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDE5AAC481C0C721F"]
-L69_1 = "S8D4D6424D939FC7B"
-
-function L70_1()
+--- main.network.connect.InternetFlow.Cancel
+function CDE5AAC481C0C721F.S8D4D6424D939FC7B()
   local L0_2, L1_2
   L0_2 = c3876BF41
   L0_2 = L0_2.f4BEE7DF4
@@ -719,11 +701,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDE5AAC481C0C721F"]
-L69_1 = "S066121F38E53874A"
-
-function L70_1(A0_2)
+--- main.network.connect.InternetFlow.StartNetLoad
+function CDE5AAC481C0C721F.S066121F38E53874A(A0_2)
   local L1_2, L2_2, L3_2
   L2_2 = A0_2
   L1_2 = A0_2.F659ECC64D6855C4A
@@ -737,11 +716,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDE5AAC481C0C721F"]
-L69_1 = "S84DA402AFB19E031"
-
-function L70_1(A0_2)
+--- main.network.connect.InternetFlow.EndNetLoad
+function CDE5AAC481C0C721F.S84DA402AFB19E031(A0_2)
   local L1_2, L2_2, L3_2
   L2_2 = A0_2
   L1_2 = A0_2.F6C50EE726797AC7F
@@ -754,11 +730,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDE5AAC481C0C721F"]
-L69_1 = "S873F60E06B63C5CB"
-
-function L70_1(A0_2, A1_2)
+--- main.network.connect.InternetFlow.WaitNetLoad
+function CDE5AAC481C0C721F.S873F60E06B63C5CB(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = c7F7A5192
   L2_2 = L2_2.f101D811F
@@ -791,27 +764,18 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDE5AAC481C0C721F"]
-L69_1 = "S702CF0073967C01D"
-
-function L70_1(A0_2)
+--- main.network.connect.InternetFlow.StartReportLoad
+function CDE5AAC481C0C721F.S702CF0073967C01D(A0_2)
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDE5AAC481C0C721F"]
-L69_1 = "SC0F13FBFC2D8752C"
-
-function L70_1(A0_2)
+--- main.network.connect.InternetFlow.EndReportLoad
+function CDE5AAC481C0C721F.SC0F13FBFC2D8752C(A0_2)
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDE5AAC481C0C721F"]
-L69_1 = "S6895CA4BBA515D72"
-
-function L70_1(A0_2, A1_2)
+--- main.network.connect.InternetFlow.WaitReportLoad
+function CDE5AAC481C0C721F.S6895CA4BBA515D72(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = c7F7A5192
   L2_2 = L2_2.f101D811F

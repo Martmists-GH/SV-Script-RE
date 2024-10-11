@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CB47ADC03D0387B30"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CB47ADC03D0387B30"]
-L69_1 = "new"
+---@alias CB47ADC03D0387B30 main_ui_leaguecard_SceneLeagueCard
 
-function L70_1(A0_2)
+---@class main_ui_leaguecard_SceneLeagueCard : CB47ADC03D0387B30_prototype
+---@field prototype CB47ADC03D0387B30_prototype
+CB47ADC03D0387B30 = L15_1()
+function CB47ADC03D0387B30.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CB47ADC03D0387B30
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CB47ADC03D0387B30
+function CB47ADC03D0387B30.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[6] = nil
   A0_2[5] = true
@@ -46,11 +40,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CB47ADC03D0387B30"]
 L69_1 = "__name__"
 L70_1 = "CB47ADC03D0387B30"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]
-L69_1 = "SB21FA562BB1FB817"
-
-function L70_1()
+--- main.ui.leaguecard.SceneLeagueCard.LoadScene
+function CB47ADC03D0387B30.SB21FA562BB1FB817()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CB47ADC03D0387B30
   L1_2 = c682D8E4F
@@ -80,11 +71,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]
-L69_1 = "S49149D2AFC5AE3BC"
-
-function L70_1()
+--- main.ui.leaguecard.SceneLeagueCard.S49149D2AFC5AE3BC
+function CB47ADC03D0387B30.S49149D2AFC5AE3BC()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = CB47ADC03D0387B30
   L0_2 = L0_2.SF0C324FD50515AD3
@@ -122,11 +110,8 @@ function L70_1()
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]
-L69_1 = "S6D1EF40E74B6E9A4"
-
-function L70_1()
+--- main.ui.leaguecard.SceneLeagueCard.Terminate
+function CB47ADC03D0387B30.S6D1EF40E74B6E9A4()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -152,21 +137,16 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CB47ADC03D0387B30_prototype
+CB47ADC03D0387B30_prototype = L15_1()
+CB47ADC03D0387B30.prototype = CB47ADC03D0387B30_prototype
+--- main.ui.leaguecard.SceneLeagueCard.Setup
+function CB47ADC03D0387B30_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C4B18D1723342EC1E
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = CB47ADC03D0387B30
@@ -178,8 +158,8 @@ function L70_1(A0_2, A1_2)
   L3_2 = CB47ADC03D0387B30
   L3_2 = L3_2.SF0C324FD50515AD3
   L2_2 = L2_2(L3_2)
-  A0_2[4] = L2_2
-  A0_2[5] = true
+  self[4] = L2_2
+  self[5] = true
   L2_2 = CB47ADC03D0387B30
   L2_2 = L2_2.SF0C324FD50515AD3
   L3_2 = L2_2
@@ -204,15 +184,12 @@ function L70_1(A0_2, A1_2)
     if L5_2 == L6_2 then
       L5_2 = nil
     end
-    A0_2[6] = L5_2
+    self[6] = L5_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]["prototype"]
-L69_1 = "F8AA2764CCCE4736E"
-
-function L70_1(A0_2)
+--- main.ui.leaguecard.SceneLeagueCard.IsStatusUpdate
+function CB47ADC03D0387B30_prototype:F8AA2764CCCE4736E()
   local L1_2
   L1_2 = CB47ADC03D0387B30
   L1_2 = L1_2.SFC1664ABE0552DCF
@@ -220,11 +197,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]["prototype"]
-L69_1 = "F378688EBBB528FAE"
-
-function L70_1(A0_2)
+--- main.ui.leaguecard.SceneLeagueCard.IsStatusWaitExit
+function CB47ADC03D0387B30_prototype:F378688EBBB528FAE()
   local L1_2
   L1_2 = CB47ADC03D0387B30
   L1_2 = L1_2.SFC1664ABE0552DCF
@@ -232,21 +206,15 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]["prototype"]
-L69_1 = "FD24A341C4AA9A4A2"
-
-function L70_1(A0_2)
+--- main.ui.leaguecard.SceneLeagueCard.SetStatusUnLoad
+function CB47ADC03D0387B30_prototype:FD24A341C4AA9A4A2()
   local L1_2
   L1_2 = CB47ADC03D0387B30
   L1_2.SFC1664ABE0552DCF = 20
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]["prototype"]
-L69_1 = "F794C2DB37D28566C"
-
-function L70_1(A0_2)
+--- main.ui.leaguecard.SceneLeagueCard.IsStatusUnLoadDone
+function CB47ADC03D0387B30_prototype:F794C2DB37D28566C()
   local L1_2
   L1_2 = CB47ADC03D0387B30
   L1_2 = L1_2.SFC1664ABE0552DCF
@@ -254,30 +222,24 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]["prototype"]
-L69_1 = "F9B9A8773C40C783B"
-
-function L70_1(A0_2)
+--- main.ui.leaguecard.SceneLeagueCard.StartFadeOut
+function CB47ADC03D0387B30_prototype:F9B9A8773C40C783B()
   local L1_2, L2_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if nil ~= L1_2 then
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     L2_2 = L1_2
     L1_2 = L1_2.FD9CC23D0CACFCDB5
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]["prototype"]
-L69_1 = "FFF18466C4B474DE0"
-
-function L70_1(A0_2)
+--- main.ui.leaguecard.SceneLeagueCard.IsEndFadeOut
+function CB47ADC03D0387B30_prototype:FFF18466C4B474DE0()
   local L1_2, L2_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if nil ~= L1_2 then
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     L2_2 = L1_2
     L1_2 = L1_2.FE4FD14DC959403DC
     return L1_2(L2_2)
@@ -286,19 +248,16 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.leaguecard.SceneLeagueCard.PreUpdate
+function CB47ADC03D0387B30_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = CB47ADC03D0387B30
   L2_2 = L2_2.SFC1664ABE0552DCF
   if 0 == L2_2 then
   elseif 2 == L2_2 then
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     if nil ~= L3_2 then
-      L3_2 = A0_2[6]
+      L3_2 = self[6]
       L4_2 = L3_2
       L3_2 = L3_2.FCE8975C56C10688D
       L3_2 = L3_2(L4_2)
@@ -306,26 +265,26 @@ function L70_1(A0_2, A1_2)
         return
       end
     end
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L4_2 = L3_2
     L3_2 = L3_2.F706FCB31D5565CDB
     L3_2(L4_2)
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.FAE238F9599B7532B
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L3_2 = A0_2[4]
+      L3_2 = self[4]
       L4_2 = L3_2
       L3_2 = L3_2.F224B3FD64D37FB15
       L3_2(L4_2)
     end
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.F0D4B0506B5A53537
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L3_2 = A0_2[4]
+      L3_2 = self[4]
       L4_2 = L3_2
       L3_2 = L3_2.F2D4F4BC40511B560
       L3_2(L4_2)
@@ -353,8 +312,8 @@ function L70_1(A0_2, A1_2)
     if L4_2 == L5_2 then
       L4_2 = nil
     end
-    A0_2[2] = L4_2
-    L5_2 = A0_2[2]
+    self[2] = L4_2
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.F90BBC6B0190BF053
     L7_2 = false
@@ -362,7 +321,7 @@ function L70_1(A0_2, A1_2)
     L5_2 = CB47ADC03D0387B30
     L5_2.SFC1664ABE0552DCF = 10
   elseif 10 == L2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.F1F1A12639CCE7C24
     L3_2 = L3_2(L4_2)
@@ -376,8 +335,8 @@ function L70_1(A0_2, A1_2)
     L3_2 = CB47ADC03D0387B30
     L3_2.SFC1664ABE0552DCF = 12
   elseif 12 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F7A839234FD25518B
+    L4_2 = self
+    L3_2 = self.F7A839234FD25518B
     L3_2 = L3_2(L4_2)
     if L3_2 then
       L3_2 = CB47ADC03D0387B30
@@ -401,11 +360,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]["prototype"]
-L69_1 = "F7A839234FD25518B"
-
-function L70_1(A0_2)
+--- main.ui.leaguecard.SceneLeagueCard.UpdateMenu
+function CB47ADC03D0387B30_prototype:F7A839234FD25518B()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = false
   L2_2 = CB47ADC03D0387B30
@@ -414,35 +370,35 @@ function L70_1(A0_2)
     L3_2 = CB47ADC03D0387B30
     L3_2.SFF414F9B8FC30D2B = 2
   elseif 2 == L2_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.F113E85C6235AC826
     L3_2 = L3_2(L4_2)
-    A0_2[3] = L3_2
-    L3_2 = A0_2[3]
+    self[3] = L3_2
+    L3_2 = self[3]
     if nil ~= L3_2 then
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L4_2 = L3_2
       L3_2 = L3_2.FE0EBB34B8A1B41AB
       L5_2 = true
       L3_2(L4_2, L5_2)
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L4_2 = L3_2
       L3_2 = L3_2.F0EECD81A89D3E5D7
       L5_2 = true
       L3_2(L4_2, L5_2)
-      A0_2[5] = true
+      self[5] = true
     end
     L3_2 = C388798CF80F2AF9D
     L3_2.SDA01981B6511F95E = 18
     L3_2 = CB47ADC03D0387B30
     L3_2.SFF414F9B8FC30D2B = 4
   elseif 4 == L2_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.FEB6685558281F194
     L3_2(L4_2)
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.FBCEDE9266300FA88
     L5_2 = E4224DD9032335D70
@@ -452,20 +408,20 @@ function L70_1(A0_2)
       L3_2 = false
       return L3_2
     end
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.FBCEDE9266300FA88
     L5_2 = E4224DD9032335D70
     L5_2 = L5_2.Top
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
-      L3_2 = A0_2[4]
+      L3_2 = self[4]
       L4_2 = L3_2
       L3_2 = L3_2.FCF7DCC3975624C28
       L3_2 = L3_2(L4_2)
-      L4_2 = A0_2[5]
+      L4_2 = self[5]
       if L4_2 ~= L3_2 then
-        L4_2 = A0_2[5]
+        L4_2 = self[5]
         if not L4_2 then
           L4_2 = C388798CF80F2AF9D
           L4_2.SDA01981B6511F95E = 18
@@ -473,28 +429,28 @@ function L70_1(A0_2)
           L4_2 = C388798CF80F2AF9D
           L4_2.SDA01981B6511F95E = 19
         end
-        A0_2[5] = L3_2
+        self[5] = L3_2
       end
     end
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.FBCEDE9266300FA88
     L5_2 = E4224DD9032335D70
     L5_2 = L5_2.Top
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.FC48CD87131C716EF
+      L4_2 = self
+      L3_2 = self.FC48CD87131C716EF
       L3_2 = L3_2(L4_2)
       if L3_2 then
-        L3_2 = A0_2[3]
+        L3_2 = self[3]
         if nil ~= L3_2 then
-          L3_2 = A0_2[3]
+          L3_2 = self[3]
           L4_2 = L3_2
           L3_2 = L3_2.FE0EBB34B8A1B41AB
           L5_2 = false
           L3_2(L4_2, L5_2)
-          L3_2 = A0_2[3]
+          L3_2 = self[3]
           L4_2 = L3_2
           L3_2 = L3_2.F0EECD81A89D3E5D7
           L5_2 = false
@@ -504,12 +460,12 @@ function L70_1(A0_2)
         L3_2.SFF414F9B8FC30D2B = 10
       end
     end
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.F75AE99905847976F
     L3_2 = L3_2(L4_2)
     if not L3_2 then
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L4_2 = L3_2
       L3_2 = L3_2.F98C4FBA696F9F32F
       L3_2 = L3_2(L4_2)
@@ -517,7 +473,7 @@ function L70_1(A0_2)
       L3_2 = L3_2.fDEEB3A8E
       L3_2 = L3_2(L4_2)
       if L3_2 then
-        L3_2 = A0_2[4]
+        L3_2 = self[4]
         L4_2 = L3_2
         L3_2 = L3_2.FFB6B390B1846B354
         L3_2 = L3_2(L4_2)
@@ -539,7 +495,7 @@ function L70_1(A0_2)
       L3_2.S738F8F405EF4CFD8 = true
     end
   elseif 10 == L2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.F9337AE9F018B3C29
     L3_2(L4_2)
@@ -556,7 +512,7 @@ function L70_1(A0_2)
       L3_2 = CB47ADC03D0387B30
       L3_2.SFF414F9B8FC30D2B = 100
     else
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.F662618219342164B
       L3_2 = L3_2(L4_2)
@@ -568,7 +524,7 @@ function L70_1(A0_2)
         L4_2 = "SET_STATE_Y_MAP_LEAGUE_CARD"
         L3_2(L4_2)
       else
-        L3_2 = A0_2[2]
+        L3_2 = self[2]
         L4_2 = L3_2
         L3_2 = L3_2.F7A667273D063B23A
         L3_2 = L3_2(L4_2)
@@ -584,18 +540,15 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB47ADC03D0387B30"]["prototype"]
-L69_1 = "FC48CD87131C716EF"
-
-function L70_1(A0_2)
+--- main.ui.leaguecard.SceneLeagueCard.IsTopMenuOpen
+function CB47ADC03D0387B30_prototype:FC48CD87131C716EF()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if nil == L1_2 then
     L1_2 = false
     return L1_2
   end
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.F810D8446A8612992
   L3_2 = "f_in_keep"
@@ -604,7 +557,7 @@ function L70_1(A0_2)
     L1_2 = false
     return L1_2
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.F7E9F2D53C89A450A
   L1_2 = L1_2(L2_2)
@@ -612,17 +565,17 @@ function L70_1(A0_2)
   L1_2 = L1_2.fDEEB3A8E
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     L2_2 = L1_2
     L1_2 = L1_2.FCF7DCC3975624C28
     L1_2 = L1_2(L2_2)
     if L1_2 then
-      L1_2 = A0_2[4]
+      L1_2 = self[4]
       L2_2 = L1_2
       L1_2 = L1_2.FFB6B390B1846B354
       L1_2 = L1_2(L2_2)
       if L1_2 then
-        L1_2 = A0_2[4]
+        L1_2 = self[4]
         L2_2 = L1_2
         L1_2 = L1_2.FB93F955D48DB6FDD
         L1_2 = L1_2(L2_2)

@@ -1,3 +1,5 @@
+---@class CD191CA517A76C916 : CD191CA517A76C916_prototype
+---@field prototype CD191CA517A76C916_prototype
 L55_1 = _ENV
 L56_1 = "CD191CA517A76C916"
 L57_1 = L15_1
@@ -36,17 +38,11 @@ L69_1 = "__name__"
 L70_1 = "CD191CA517A76C916"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD191CA517A76C916"]
-L69_1 = "__interfaces__"
-L70_1 = {}
-L68_1 = _ENV["CD191CA517A76C916"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD191CA517A76C916"]["prototype"]
-L69_1 = "FFF0CED4809A01400"
-
-function L70_1(A0_2)
+L69_1 = "__inte---@class CD191CA517A76C916_prototype
+CD191CA517A76C916_prototype = L15_1()
+CD191CA517A76C916.prototype = CD191CA517A76C916_prototype
+--- CD191CA517A76C916.CheckFinish
+function CD191CA517A76C916_prototype:FFF0CED4809A01400()
   local L1_2, L2_2, L3_2
   L1_2 = C4B092ECAC3E586CC
   L1_2 = L1_2.SC8223E31D3163519
@@ -54,12 +50,12 @@ function L70_1(A0_2)
   L1_2 = L1_2.FDAF7DA27DF957AF6
   L3_2 = 0
   L1_2 = L1_2(L2_2, L3_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   if nil ~= L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     if "" ~= L2_2 then
       if nil ~= L1_2 then
-        L2_2 = A0_2[1]
+        L2_2 = self[1]
         L3_2 = L1_2[2]
         if L2_2 == L3_2 then
           goto lbl_20

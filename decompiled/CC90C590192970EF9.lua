@@ -1,3 +1,7 @@
+---@alias CC90C590192970EF9 main_event_pokecen_recovery_PokecenCharacterAnimation
+
+---@class main_event_pokecen_recovery_PokecenCharacterAnimation : CC90C590192970EF9_prototype
+---@field prototype CC90C590192970EF9_prototype
 L55_1 = _ENV
 L56_1 = "CC90C590192970EF9"
 L57_1 = L15_1
@@ -43,19 +47,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC90C590192970EF9"]
 L69_1 = "__name__"
 L70_1 = "CC90C590192970EF9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC90C590192970EF9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC90C590192970EF9"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CC90C590192970EF9_prototype
+CC90C590192970EF9_prototype = L15_1()
+CC90C590192970EF9.prototype = CC90C590192970EF9_prototype
+--- main.event.pokecen_recovery.PokecenCharacterAnimation.Setup
+function CC90C590192970EF9_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  A0_2[11] = A1_2
-  L2_2 = A0_2[11]
+  self[11] = A1_2
+  L2_2 = self[11]
   L2_2 = L2_2.owner
   L3_2 = L2_2
   L2_2 = L2_2.fB3CF1DEB
@@ -84,66 +83,57 @@ function L70_1(A0_2, A1_2)
   L6_2 = CFC8F368D91411014
   L6_2 = L6_2.S93A017D496A6D000
   L5_2 = L5_2(L6_2)
-  A0_2[12] = L5_2
+  self[12] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC90C590192970EF9"]["prototype"]
-L69_1 = "FC311B21A7EE93826"
-
-function L70_1(A0_2, A1_2)
+--- main.event.pokecen_recovery.PokecenCharacterAnimation.FC311B21A7EE93826
+function CC90C590192970EF9_prototype:FC311B21A7EE93826(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = true
   end
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0650A3C4ED0BB621
-  L3_2 = A0_2[11]
-  L4_2 = A0_2[12]
+  L3_2 = self[11]
+  L4_2 = self[12]
   L5_2 = 1.0
   L6_2 = false
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0650A3C4ED0BB621
-  L3_2 = A0_2[12]
-  L4_2 = A0_2[11]
+  L3_2 = self[12]
+  L4_2 = self[11]
   L5_2 = 1.0
   L6_2 = false
   L2_2(L3_2, L4_2, L5_2, L6_2)
   if A1_2 then
     L2_2 = CDCBFD50A277E546D
     L2_2 = L2_2.S0EF01524F9F5DAC9
-    L3_2 = A0_2[11]
+    L3_2 = self[11]
     L2_2(L3_2)
     L2_2 = CDCBFD50A277E546D
     L2_2 = L2_2.S0EF01524F9F5DAC9
-    L3_2 = A0_2[12]
+    L3_2 = self[12]
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC90C590192970EF9"]["prototype"]
-L69_1 = "F7A0D417733F87729"
-
-function L70_1(A0_2, A1_2)
+--- main.event.pokecen_recovery.PokecenCharacterAnimation.F7A0D417733F87729
+function CC90C590192970EF9_prototype:F7A0D417733F87729(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0650A3C4ED0BB621
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC90C590192970EF9"]["prototype"]
-L69_1 = "F5F7700A1D5DC263E"
-
-function L70_1(A0_2, A1_2)
+--- main.event.pokecen_recovery.PokecenCharacterAnimation.F5F7700A1D5DC263E
+function CC90C590192970EF9_prototype:F5F7700A1D5DC263E(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   if nil ~= L2_2 then
-    L2_2 = A0_2[12]
+    L2_2 = self[12]
     if nil ~= L2_2 then
       goto lbl_8
     end
@@ -151,29 +141,26 @@ function L70_1(A0_2, A1_2)
   do return end
   ::lbl_8::
   if 1 == A1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F47EA8576754C2946
+    L3_2 = self
+    L2_2 = self.F47EA8576754C2946
     L2_2(L3_2)
   elseif 3 == A1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F9A459C7B9E1B0EB0
+    L3_2 = self
+    L2_2 = self.F9A459C7B9E1B0EB0
     L2_2(L3_2)
   elseif 5 == A1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FAB831654D4EF5B73
+    L3_2 = self
+    L2_2 = self.FAB831654D4EF5B73
     L2_2(L3_2)
   elseif 99 == A1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F07E7E902F4AE0CF7
+    L3_2 = self
+    L2_2 = self.F07E7E902F4AE0CF7
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC90C590192970EF9"]["prototype"]
-L69_1 = "FBA2095964AC9E5F1"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.pokecen_recovery.PokecenCharacterAnimation.playMotion
+function CC90C590192970EF9_prototype:FBA2095964AC9E5F1(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L5_2 = nil
   L6_2 = cE35B3EB3
@@ -263,21 +250,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC90C590192970EF9"]["prototype"]
-L69_1 = "F9A459C7B9E1B0EB0"
-
-function L70_1(A0_2)
+--- main.event.pokecen_recovery.PokecenCharacterAnimation.playReceiveAnime
+function CC90C590192970EF9_prototype:F9A459C7B9E1B0EB0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FBA2095964AC9E5F1
-  L3_2 = A0_2[11]
-  L4_2 = A0_2[1]
-  L5_2 = A0_2[5]
+  L2_2 = self
+  L1_2 = self.FBA2095964AC9E5F1
+  L3_2 = self[11]
+  L4_2 = self[1]
+  L5_2 = self[5]
   L6_2 = 3
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L1_2 = A0_2[12]
-  L2_2 = A0_2[10]
+  L1_2 = self[12]
+  L2_2 = self[10]
   L3_2 = nil
   L4_2 = cE35B3EB3
   L4_2 = L4_2.fDBA763D1
@@ -321,38 +305,32 @@ function L70_1(A0_2)
     L9_2 = 0
     L6_2(L7_2, L8_2, L9_2)
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.FBA2095964AC9E5F1
-  L7_2 = A0_2[12]
-  L8_2 = A0_2[8]
-  L9_2 = A0_2[9]
+  L6_2 = self
+  L5_2 = self.FBA2095964AC9E5F1
+  L7_2 = self[12]
+  L8_2 = self[8]
+  L9_2 = self[9]
   L10_2 = 5
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC90C590192970EF9"]["prototype"]
-L69_1 = "F47EA8576754C2946"
-
-function L70_1(A0_2)
+--- main.event.pokecen_recovery.PokecenCharacterAnimation.F47EA8576754C2946
+function CC90C590192970EF9_prototype:F47EA8576754C2946()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FBA2095964AC9E5F1
-  L3_2 = A0_2[11]
-  L4_2 = A0_2[3]
-  L5_2 = A0_2[7]
+  L2_2 = self
+  L1_2 = self.FBA2095964AC9E5F1
+  L3_2 = self[11]
+  L4_2 = self[3]
+  L5_2 = self[7]
   L6_2 = 1
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC90C590192970EF9"]["prototype"]
-L69_1 = "F07E7E902F4AE0CF7"
-
-function L70_1(A0_2)
+--- main.event.pokecen_recovery.PokecenCharacterAnimation.endTypingAnime
+function CC90C590192970EF9_prototype:F07E7E902F4AE0CF7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2[11]
-  L2_2 = A0_2[7]
+  L1_2 = self[11]
+  L2_2 = self[7]
   L3_2 = nil
   L4_2 = cE35B3EB3
   L4_2 = L4_2.fDBA763D1
@@ -398,29 +376,23 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC90C590192970EF9"]["prototype"]
-L69_1 = "FAB831654D4EF5B73"
-
-function L70_1(A0_2)
+--- main.event.pokecen_recovery.PokecenCharacterAnimation.playBowAnime
+function CC90C590192970EF9_prototype:FAB831654D4EF5B73()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FBA2095964AC9E5F1
-  L3_2 = A0_2[11]
-  L4_2 = A0_2[2]
-  L5_2 = A0_2[6]
+  L2_2 = self
+  L1_2 = self.FBA2095964AC9E5F1
+  L3_2 = self[11]
+  L4_2 = self[2]
+  L5_2 = self[6]
   L6_2 = 1
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC90C590192970EF9"]["prototype"]
-L69_1 = "FAB8182A0DE8A4EB3"
-
-function L70_1(A0_2, A1_2)
+--- main.event.pokecen_recovery.PokecenCharacterAnimation.PlayIdleAnime
+function CC90C590192970EF9_prototype:FAB8182A0DE8A4EB3(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[11]
-  L3_2 = A0_2[4]
+  L2_2 = self[11]
+  L3_2 = self[4]
   L4_2 = nil
   L5_2 = cE35B3EB3
   L5_2 = L5_2.fDBA763D1

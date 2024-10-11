@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C2B41F5A54D45C001"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "new"
+---@alias C2B41F5A54D45C001 main_ui_shop_wazamachine_management_ShopWazamachineDatabase
 
-function L70_1(A0_2)
+---@class main_ui_shop_wazamachine_management_ShopWazamachineDatabase : C2B41F5A54D45C001_prototype
+---@field prototype C2B41F5A54D45C001_prototype
+C2B41F5A54D45C001 = L15_1()
+function C2B41F5A54D45C001.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C2B41F5A54D45C001
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C2B41F5A54D45C001
+function C2B41F5A54D45C001.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[2] = false
   L2_2 = CDC3F92928A2194E6
@@ -43,33 +37,24 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C2B41F5A54D45C001"]
 L69_1 = "__name__"
 L70_1 = "C2B41F5A54D45C001"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "S2B973723ED8F2A59"
-
-function L70_1()
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.get_ShopEnd
+function C2B41F5A54D45C001.S2B973723ED8F2A59()
   local L0_2, L1_2
   L0_2 = C2B41F5A54D45C001
   L0_2 = L0_2.S9514FFBA23930EAE
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "S6908EBD517B4254B"
-
-function L70_1()
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.S6908EBD517B4254B
+function C2B41F5A54D45C001.S6908EBD517B4254B()
   local L0_2, L1_2
   L0_2 = C2B41F5A54D45C001
   L0_2 = L0_2.S7C09D32E922A3610
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "S2C700CBA10154947"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.S2C700CBA10154947
+function C2B41F5A54D45C001.S2C700CBA10154947(A0_2)
   local L1_2
   L1_2 = C2B41F5A54D45C001
   L1_2.S7C09D32E922A3610 = A0_2
@@ -78,11 +63,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "SC22C2773A68837D3"
-
-function L70_1()
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.SceneLoad
+function C2B41F5A54D45C001.SC22C2773A68837D3()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -106,11 +88,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "S768600CE8B68B7F8"
-
-function L70_1()
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.SceneUnLoad
+function C2B41F5A54D45C001.S768600CE8B68B7F8()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -132,11 +111,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "SFF7183F940493F38"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.RegisterBuyEvent
+function C2B41F5A54D45C001.SFF7183F940493F38(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C2B41F5A54D45C001
   L3_2 = L16_1
@@ -167,11 +143,8 @@ function L70_1(A0_2, A1_2)
   L2_2.S10BD73A9B2C159DF = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "SDFE7348A42D37D4B"
-
-function L70_1()
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.UnregisterBuyEvent
+function C2B41F5A54D45C001.SDFE7348A42D37D4B()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C2B41F5A54D45C001
   L1_2 = L16_1
@@ -196,11 +169,8 @@ function L70_1()
   L0_2.S10BD73A9B2C159DF = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "SCFF3715B673799E4"
-
-function L70_1()
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.NotifyBuyEvent
+function C2B41F5A54D45C001.SCFF3715B673799E4()
   local L0_2, L1_2
   L0_2 = C2B41F5A54D45C001
   L0_2 = L0_2.S10BD73A9B2C159DF
@@ -209,11 +179,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "S2992226719B6CA7B"
-
-function L70_1()
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.NotifyBuyEndEvent
+function C2B41F5A54D45C001.S2992226719B6CA7B()
   local L0_2, L1_2
   L0_2 = C2B41F5A54D45C001
   L0_2 = L0_2.S10BD73A9B2C159DF
@@ -222,11 +189,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "SC5CCA439D2C33BE9"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.RegisterSaleEvent
+function C2B41F5A54D45C001.SC5CCA439D2C33BE9(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C2B41F5A54D45C001
   L3_2 = L16_1
@@ -257,11 +221,8 @@ function L70_1(A0_2, A1_2)
   L2_2.S1270D5803A354394 = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "S182539B76606A2B0"
-
-function L70_1()
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.UnregisterSaleEvent
+function C2B41F5A54D45C001.S182539B76606A2B0()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C2B41F5A54D45C001
   L1_2 = L16_1
@@ -286,11 +247,8 @@ function L70_1()
   L0_2.S1270D5803A354394 = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "S9BF099A1C653C3B5"
-
-function L70_1()
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.NotifySaleEvent
+function C2B41F5A54D45C001.S9BF099A1C653C3B5()
   local L0_2, L1_2
   L0_2 = C2B41F5A54D45C001
   L0_2 = L0_2.S1270D5803A354394
@@ -299,11 +257,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "SC45AFADD5AEB1C1C"
-
-function L70_1()
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.NotifySaleEndEvent
+function C2B41F5A54D45C001.SC45AFADD5AEB1C1C()
   local L0_2, L1_2
   L0_2 = C2B41F5A54D45C001
   L0_2 = L0_2.S1270D5803A354394
@@ -312,49 +267,41 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C2B41F5A54D45C001_prototype
+C2B41F5A54D45C001_prototype = L15_1()
+C2B41F5A54D45C001.prototype = C2B41F5A54D45C001_prototype
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.Setup
+function C2B41F5A54D45C001_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.new
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F0E47A597FB435DB7
+  L4_2 = self
+  L5_2 = self.F0E47A597FB435DB7
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = "shop_wazamachine_setup_sequence"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.PreUpdate
+function C2B41F5A54D45C001_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[4]
+      L2_2 = self[4]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -402,11 +349,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]["prototype"]
-L69_1 = "F0E47A597FB435DB7"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.SetupSequence
+function C2B41F5A54D45C001_prototype:F0E47A597FB435DB7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = C75C4EA6382BB29CA
   L1_2 = L1_2.S385504EFF7E842C3
@@ -421,7 +365,7 @@ function L70_1(A0_2)
   L3_2 = CE70211B162C1AB69
   L3_2 = L3_2.new
   L3_2 = L3_2()
-  A0_2[3] = L3_2
+  self[3] = L3_2
   L3_2 = 0
   L4_2 = L2_2
   L5_2 = false
@@ -439,7 +383,7 @@ function L70_1(A0_2)
     L7_2 = L6_2.F0FEBC7230082866D
     L7_2 = L7_2(L8_2)
     if L7_2 then
-      L7_2 = A0_2[3]
+      L7_2 = self[3]
       L8_2 = L7_2
       L7_2 = L7_2.F7B9F83DF440CA1B1
       L10_2 = L6_2
@@ -453,22 +397,19 @@ function L70_1(A0_2)
       break
     end
   end
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L7_2 = L6_2
   L6_2 = L6_2.F540502282BEBBCF0
   L6_2(L7_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.FD97A32BF576E86FB
+  L7_2 = self
+  L6_2 = self.FD97A32BF576E86FB
   L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]["prototype"]
-L69_1 = "F79872D111AA2C466"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.IsEndSetupShopWazamachineView
+function C2B41F5A54D45C001_prototype:F79872D111AA2C466()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
@@ -507,13 +448,10 @@ function L70_1(A0_2)
   return L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]["prototype"]
-L69_1 = "FD97A32BF576E86FB"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.SendViewArray
+function C2B41F5A54D45C001_prototype:FD97A32BF576E86FB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
@@ -560,7 +498,7 @@ function L70_1(A0_2)
     L6_2 = L6_2.S760DAE4C5371A78E
     L6_2()
   end
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L6_2
   L6_2 = L6_2.f462C9B70
   L6_2 = L6_2(L7_2)
@@ -612,19 +550,16 @@ function L70_1(A0_2)
   L11_2(L12_2)
   L12_2 = L5_2
   L11_2 = L5_2.F5AC6E7B8647B7580
-  L13_2 = A0_2[3]
+  L13_2 = self[3]
   L14_2 = L55_1
-  L15_2 = A0_2
-  L16_2 = A0_2.F1A824F50A1955E0A
+  L15_2 = self
+  L16_2 = self.F1A824F50A1955E0A
   L14_2, L15_2, L16_2 = L14_2(L15_2, L16_2)
   L11_2(L12_2, L13_2, L14_2, L15_2, L16_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B41F5A54D45C001"]["prototype"]
-L69_1 = "F1A824F50A1955E0A"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.management.ShopWazamachineDatabase.ShopWazamachineEnd
+function C2B41F5A54D45C001_prototype:F1A824F50A1955E0A()
   local L1_2
   L1_2 = C2B41F5A54D45C001
   L1_2.S9514FFBA23930EAE = true

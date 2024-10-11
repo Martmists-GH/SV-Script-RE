@@ -1,3 +1,7 @@
+---@alias C8F3DE10965B834D0 main_event_general_gym_Gym_ghost_stopper
+
+---@class main_event_general_gym_Gym_ghost_stopper : C8F3DE10965B834D0_prototype
+---@field prototype C8F3DE10965B834D0_prototype
 L55_1 = _ENV
 L56_1 = "C8F3DE10965B834D0"
 L57_1 = L15_1
@@ -49,18 +53,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8F3DE10965B834D0"]
 L69_1 = "__name__"
 L70_1 = "C8F3DE10965B834D0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F3DE10965B834D0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F3DE10965B834D0"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C8F3DE10965B834D0_prototype
+C8F3DE10965B834D0_prototype = L15_1()
+C8F3DE10965B834D0.prototype = C8F3DE10965B834D0_prototype
+--- main.event.general.gym.Gym_ghost_stopper.mainBody
+function C8F3DE10965B834D0_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerName
   if "event_gym_020_stopper" == L1_2 then
     L1_2 = L31_1.string
@@ -68,7 +67,7 @@ function L70_1(A0_2)
     L3_2 = "message/dat/JPN/script/"
     L2_2 = L2_2(L3_2)
     L3_2 = L31_1.string
-    L4_2 = A0_2[35]
+    L4_2 = self[35]
     L3_2 = L3_2(L4_2)
     L2_2 = L2_2 .. L3_2
     L1_2 = L1_2(L2_2)
@@ -83,7 +82,7 @@ function L70_1(A0_2)
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.S55C1C1048729E0BB
     L3_2 = "gym_ghost_020_stopper_01"
-    L4_2 = A0_2[35]
+    L4_2 = self[35]
     L2_2(L3_2, L4_2)
     L2_2 = C07E4F1BF071B0460
     L2_2 = L2_2.S218E2A14A790D265
@@ -96,7 +95,7 @@ function L70_1(A0_2)
     L2_2(L3_2)
     L2_2 = c682D8E4F
     L2_2 = L2_2.fEF94D11D
-    L3_2 = A0_2[36]
+    L3_2 = self[36]
     L2_2 = L2_2(L3_2)
     L3_2 = nil
     L4_2 = cA042DA13
@@ -109,7 +108,7 @@ function L70_1(A0_2)
     end
     L5_2 = L2_2
     L4_2 = L2_2.f20AB1FEA
-    L6_2 = A0_2[37]
+    L6_2 = self[37]
     L4_2 = L4_2(L5_2, L6_2)
     L5_2 = nil
     L6_2 = cC5D48DC8
@@ -140,7 +139,7 @@ function L70_1(A0_2)
     end
     L7_2 = L2_2
     L6_2 = L2_2.f20AB1FEA
-    L8_2 = A0_2[38]
+    L8_2 = self[38]
     L6_2 = L6_2(L7_2, L8_2)
     L7_2 = nil
     L8_2 = cC5D48DC8

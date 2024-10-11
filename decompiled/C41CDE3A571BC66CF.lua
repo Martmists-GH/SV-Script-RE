@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C41CDE3A571BC66CF"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]
-L69_1 = "new"
+---@alias C41CDE3A571BC66CF main_event_debug_DebugMoriGeneralEvent
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class main_event_debug_DebugMoriGeneralEvent : C41CDE3A571BC66CF_prototype
+---@field prototype C41CDE3A571BC66CF_prototype
+C41CDE3A571BC66CF = L15_1()
+function C41CDE3A571BC66CF.new(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = C41CDE3A571BC66CF
@@ -25,11 +22,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@param A0_2 C41CDE3A571BC66CF
+function C41CDE3A571BC66CF.super(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   A0_2[36] = nil
   A0_2[35] = nil
@@ -50,11 +44,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C41CDE3A571BC66CF"]
 L69_1 = "__name__"
 L70_1 = "C41CDE3A571BC66CF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]
-L69_1 = "SA651A80315D6FA68"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.showTrainerMessage
+function C41CDE3A571BC66CF.SA651A80315D6FA68(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S55C1C1048729E0BB
@@ -63,25 +54,20 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C41CDE3A571BC66CF_prototype
+C41CDE3A571BC66CF_prototype = L15_1()
+C41CDE3A571BC66CF.prototype = C41CDE3A571BC66CF_prototype
+--- main.event.debug.DebugMoriGeneralEvent.onCreate
+function C41CDE3A571BC66CF_prototype:FC87C731D11C58354()
   local L1_2, L2_2
   L1_2 = C20F5CD372AAAA08C
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC87C731D11C58354
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.paralleled = false
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.useDefaultMsgFile = false
   L1_2 = C41CDE3A571BC66CF
   L1_2.S527F75129EF78CA8 = false
@@ -91,14 +77,11 @@ function L70_1(A0_2)
   L1_2.S6CCE78714959EDE5 = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.preStart
+function C41CDE3A571BC66CF_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F078E96BFF203BAB3
+  L2_2 = self
+  L1_2 = self.F078E96BFF203BAB3
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     return
@@ -108,14 +91,11 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.mainBody
+function C41CDE3A571BC66CF_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F6FC7E8DAA7D385C1
+  L2_2 = self
+  L1_2 = self.F6FC7E8DAA7D385C1
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     return
@@ -134,28 +114,22 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.preEnd
+function C41CDE3A571BC66CF_prototype:F740FB4E96926D103()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F7F66A92697B72C24
+  L2_2 = self
+  L1_2 = self.F7F66A92697B72C24
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     return
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "FE9E2B76E672BC5BD"
-
-function L70_1(A0_2, A1_2)
+--- main.event.debug.DebugMoriGeneralEvent.ResetSetup
+function C41CDE3A571BC66CF_prototype:FE9E2B76E672BC5BD(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F8DC8F70F656F2F35
+  L3_2 = self
+  L2_2 = self.F8DC8F70F656F2F35
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C41CDE3A571BC66CF
@@ -168,7 +142,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = C41CDE3A571BC66CF
   L3_2 = L3_2.S80AA9C66A482C9DA
   L2_2.S527F75129EF78CA8 = L3_2
-  L2_2 = A0_2[36]
+  L2_2 = self[36]
   L3_2 = L2_2
   L2_2 = L2_2.fBED4B947
   L2_2(L3_2)
@@ -177,11 +151,8 @@ function L70_1(A0_2, A1_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F078E96BFF203BAB3"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.preStartSetup
+function C41CDE3A571BC66CF_prototype:F078E96BFF203BAB3()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C41CDE3A571BC66CF
   L1_2 = L1_2.S527F75129EF78CA8
@@ -196,7 +167,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -204,7 +175,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -228,7 +199,7 @@ function L70_1(A0_2)
   
   L4_2 = L4_2()
   L3_2 = L3_2(L4_2)
-  A0_2[36] = L3_2
+  self[36] = L3_2
   L3_2 = C41CDE3A571BC66CF
   L3_2.S527F75129EF78CA8 = true
   L3_2 = C41CDE3A571BC66CF
@@ -236,11 +207,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F6FC7E8DAA7D385C1"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.mainBodySetup
+function C41CDE3A571BC66CF_prototype:F6FC7E8DAA7D385C1()
   local L1_2
   L1_2 = C41CDE3A571BC66CF
   L1_2 = L1_2.S80AA9C66A482C9DA
@@ -255,11 +223,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F7F66A92697B72C24"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.preEndSetup
+function C41CDE3A571BC66CF_prototype:F7F66A92697B72C24()
   local L1_2
   L1_2 = C41CDE3A571BC66CF
   L1_2 = L1_2.S6CCE78714959EDE5
@@ -274,11 +239,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F59C12FA4DDCE4A3B"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.DebugFutatsuna
+function C41CDE3A571BC66CF_prototype:F59C12FA4DDCE4A3B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = 0
   while L1_2 < 98 do
@@ -354,11 +316,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F19F24FF67FC645CA"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.F19F24FF67FC645CA
+function C41CDE3A571BC66CF_prototype:F19F24FF67FC645CA()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C4EFED6C5F8A7FCCD
   L1_2 = L1_2.S368218345BA4E554
@@ -382,11 +341,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "FF22478D4BE2CE092"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.DebugPokelistUIBattleCommand
+function C41CDE3A571BC66CF_prototype:FF22478D4BE2CE092()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C895301D3BFE8494C
   L1_2 = L1_2.new
@@ -421,11 +377,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F3762C77A7D17DF11"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.DebugBagUICommand
+function C41CDE3A571BC66CF_prototype:F3762C77A7D17DF11()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C14A8D35D72F56FE9
   L1_2 = L1_2.S90D73F1D715BCBF4
@@ -465,11 +418,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "FCEBA646C38E55452"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.DebugPartner
+function C41CDE3A571BC66CF_prototype:FCEBA646C38E55452()
   local L1_2, L2_2, L3_2
   L1_2 = c2FB59E8B
   L1_2 = L1_2.f1A7E5A5C
@@ -501,11 +451,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F209A2CA9CB3C08EC"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.DebugAddItem
+function C41CDE3A571BC66CF_prototype:F209A2CA9CB3C08EC()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C14A8D35D72F56FE9
   L1_2 = L1_2.S90D73F1D715BCBF4
@@ -586,11 +533,8 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F983DD3669B65B9B8"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.DebugBagUI
+function C41CDE3A571BC66CF_prototype:F983DD3669B65B9B8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L1_2 = C14A8D35D72F56FE9
   L1_2 = L1_2.S90D73F1D715BCBF4
@@ -882,11 +826,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "FA31FC54359826B41"
-
-function L70_1(A0_2, A1_2)
+--- main.event.debug.DebugMoriGeneralEvent.SetupToolIcon
+function C41CDE3A571BC66CF_prototype:FA31FC54359826B41(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
@@ -986,13 +927,10 @@ function L70_1(A0_2, A1_2)
   L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F464B178CD1858DA8"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.DebugEasyTalk
+function C41CDE3A571BC66CF_prototype:F464B178CD1858DA8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = "TestSceneObject"
   
   function L3_2(A0_3)
@@ -1103,11 +1041,8 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F32C31D7E68AA5AF4"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.DebugWeather
+function C41CDE3A571BC66CF_prototype:F32C31D7E68AA5AF4()
   local L1_2, L2_2, L3_2
   L1_2 = c4C26B52F
   L1_2 = L1_2.f544F902B
@@ -1125,11 +1060,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F45E2285A50D4C1AA"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.DebugMotion
+function C41CDE3A571BC66CF_prototype:F45E2285A50D4C1AA()
   local L1_2, L2_2, L3_2
   L1_2 = 2
   while true do
@@ -1191,19 +1123,13 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F18545B803F5DBDC3"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.DebugLambda
+function C41CDE3A571BC66CF_prototype:F18545B803F5DBDC3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "F7035CEB315AB348B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.debug.DebugMoriGeneralEvent.DebugObjGetVisibility
+function C41CDE3A571BC66CF_prototype:F7035CEB315AB348B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = true
@@ -1281,11 +1207,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41CDE3A571BC66CF"]["prototype"]
-L69_1 = "FD35B22F5C4DEB52F"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMoriGeneralEvent.DebugMessageWindow
+function C41CDE3A571BC66CF_prototype:FD35B22F5C4DEB52F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = cC9AD95E7
   L1_2 = L1_2.f101D811F

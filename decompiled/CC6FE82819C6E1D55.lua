@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CC6FE82819C6E1D55"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "__name__"
-L70_1 = "CC6FE82819C6E1D55"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S12F63EE47FFCB183"
+---@alias CC6FE82819C6E1D55 main_event_command_SystemCommand
 
-function L70_1()
+---@class main_event_command_SystemCommand
+CC6FE82819C6E1D55 = L15_1()
+CC6FE82819C6E1D55.new = {}
+CC6FE82819C6E1D55.__name__ = "CC6FE82819C6E1D55"
+--- main.event.command.SystemCommand.Suspend
+function CC6FE82819C6E1D55.S12F63EE47FFCB183()
   local L0_2, L1_2
   L0_2 = C1DB14DCC9D7634FA
   L0_2 = L0_2.S760DAE4C5371A78E
@@ -25,11 +16,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S32FAD7D4DF3ACA95"
-
-function L70_1(A0_2)
+--- main.event.command.SystemCommand.TimeWait
+function CC6FE82819C6E1D55.S32FAD7D4DF3ACA95(A0_2)
   local L1_2, L2_2
   L1_2 = 0.0
   while A0_2 > L1_2 do
@@ -40,11 +28,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S903489488FB9BA8D"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.SystemCommand.Await
+function CC6FE82819C6E1D55.S903489488FB9BA8D(A0_2, A1_2)
   local L2_2, L3_2
   L2_2 = 0.0
   while true do
@@ -72,11 +57,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "SC300054C3898528D"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.SystemCommand.SC300054C3898528D
+function CC6FE82819C6E1D55.SC300054C3898528D(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = 0.0
   while true do
@@ -106,11 +88,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "SFBF86D7C138AB6C6"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.SystemCommand.CallScript
+function CC6FE82819C6E1D55.SFBF86D7C138AB6C6(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = C4B092ECAC3E586CC
   L3_2 = L3_2.SC8223E31D3163519
@@ -132,11 +111,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S11BCAE33A13C945C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.SystemCommand.ReserveScript
+function CC6FE82819C6E1D55.S11BCAE33A13C945C(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = C9AA363B3CCC264AA
   L3_2 = L3_2.SF6FB800603736292
@@ -163,11 +139,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S7DF9E8489F8EFBCB"
-
-function L70_1(A0_2)
+--- main.event.command.SystemCommand.S7DF9E8489F8EFBCB
+function CC6FE82819C6E1D55.S7DF9E8489F8EFBCB(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.SF6FB800603736292
@@ -213,11 +186,8 @@ function L70_1(A0_2)
   L6_2(L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S461ACB8B9D0FD808"
-
-function L70_1(A0_2)
+--- main.event.command.SystemCommand.ResetEvent
+function CC6FE82819C6E1D55.S461ACB8B9D0FD808(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C4B092ECAC3E586CC
   L1_2 = L1_2.SC8223E31D3163519
@@ -231,11 +201,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S7555C4E72AD25E6A"
-
-function L70_1()
+--- main.event.command.SystemCommand.ResetCurrentScript
+function CC6FE82819C6E1D55.S7555C4E72AD25E6A()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C4B092ECAC3E586CC
   L0_2 = L0_2.SC8223E31D3163519
@@ -249,11 +216,8 @@ function L70_1()
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S0ED889E9F79D1891"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2)
+--- main.event.command.SystemCommand.MapChange
+function CC6FE82819C6E1D55.S0ED889E9F79D1891(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2)
   local L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   if nil == A8_2 then
     A8_2 = true
@@ -386,11 +350,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "SC22C2773A68837D3"
-
-function L70_1(A0_2)
+--- main.event.command.SystemCommand.SceneLoad
+function CC6FE82819C6E1D55.SC22C2773A68837D3(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -415,11 +376,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S4B29BA68DD122462"
-
-function L70_1(A0_2)
+--- main.event.command.SystemCommand.SceneWaitLoad
+function CC6FE82819C6E1D55.S4B29BA68DD122462(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -454,11 +412,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "SF8D8FFC774DA1818"
-
-function L70_1(A0_2)
+--- main.event.command.SystemCommand.SceneUnload
+function CC6FE82819C6E1D55.SF8D8FFC774DA1818(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -499,11 +454,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "SB008C24C6A077FD8"
-
-function L70_1(A0_2)
+--- main.event.command.SystemCommand.SB008C24C6A077FD8
+function CC6FE82819C6E1D55.SB008C24C6A077FD8(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -513,11 +465,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "SF42297B52592C534"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.SystemCommand.FixWeather
+function CC6FE82819C6E1D55.SF42297B52592C534(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = "Default"
@@ -532,11 +481,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "SFA080E90544CD37C"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.SystemCommand.ResetWeather
+function CC6FE82819C6E1D55.SFA080E90544CD37C(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     A1_2 = "Default"
@@ -550,11 +496,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "SDCE07F60FC71076F"
-
-function L70_1(A0_2)
+--- main.event.command.SystemCommand.EnableGemLight
+function CC6FE82819C6E1D55.SDCE07F60FC71076F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   if A0_2 then
     L1_2 = CA66BF560955C69B4
@@ -640,11 +583,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "SFE94C226821A5232"
-
-function L70_1(A0_2)
+--- main.event.command.SystemCommand.SetEnvChangeSpan
+function CC6FE82819C6E1D55.SFE94C226821A5232(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -660,11 +600,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "SCD581AE8B98326BF"
-
-function L70_1()
+--- main.event.command.SystemCommand.ResetEnvChangeSpan
+function CC6FE82819C6E1D55.SCD581AE8B98326BF()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -692,11 +629,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S58EF529F6D0A954C"
-
-function L70_1(A0_2)
+--- main.event.command.SystemCommand.FixLight
+function CC6FE82819C6E1D55.S58EF529F6D0A954C(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -742,11 +676,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "SFBB264B9BD1C3BF4"
-
-function L70_1()
+--- main.event.command.SystemCommand.ResetLight
+function CC6FE82819C6E1D55.SFBB264B9BD1C3BF4()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -781,11 +712,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S6DA8357EAF07E5D1"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.SystemCommand.OverwriteAreaLight
+function CC6FE82819C6E1D55.S6DA8357EAF07E5D1(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = CA66BF560955C69B4
   L3_2 = L3_2.SC8223E31D3163519
@@ -797,11 +725,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S719BBB9B28F07743"
-
-function L70_1(A0_2)
+--- main.event.command.SystemCommand.ResetAreaLight
+function CC6FE82819C6E1D55.S719BBB9B28F07743(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -811,11 +736,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S975C6D6600A6650B"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.SystemCommand.FixGameTime
+function CC6FE82819C6E1D55.S975C6D6600A6650B(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A3_2 then
     A3_2 = "Default"
@@ -870,11 +792,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2(L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S4522DCD2B1203CE3"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.SystemCommand.ResetGameTime
+function CC6FE82819C6E1D55.S4522DCD2B1203CE3(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A1_2 then
     A1_2 = "Default"
@@ -906,11 +825,8 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S382EF94083B73A74"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.SystemCommand.timeToDecimal
+function CC6FE82819C6E1D55.S382EF94083B73A74(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CD9AE7C27B00EB066
   L2_2 = L2_2.S05B90B9B5A6DE6BC
@@ -931,11 +847,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S145BFEA3C38369E8"
-
-function L70_1()
+--- main.event.command.SystemCommand.GetTimeZone
+function CC6FE82819C6E1D55.S145BFEA3C38369E8()
   local L0_2, L1_2, L2_2
   L0_2 = C05D9E556B496A3DF
   L0_2 = L0_2.SC8223E31D3163519
@@ -952,11 +865,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S39AB7174ED2F4AE3"
-
-function L70_1()
+--- main.event.command.SystemCommand.GetRealWeek
+function CC6FE82819C6E1D55.S39AB7174ED2F4AE3()
   local L0_2, L1_2
   L0_2 = CC6FE82819C6E1D55
   L0_2 = L0_2.S2E94018BB428249C
@@ -966,11 +876,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S7AB47C2CA914E33D"
-
-function L70_1()
+--- main.event.command.SystemCommand.GetRealHour
+function CC6FE82819C6E1D55.S7AB47C2CA914E33D()
   local L0_2, L1_2
   L0_2 = CC6FE82819C6E1D55
   L0_2 = L0_2.S2E94018BB428249C
@@ -980,11 +887,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S2E94018BB428249C"
-
-function L70_1()
+--- main.event.command.SystemCommand.GetRealDateTm
+function CC6FE82819C6E1D55.S2E94018BB428249C()
   local L0_2, L1_2, L2_2
   L0_2 = c4DDE9906
   L0_2 = L0_2.fEDD88BEB
@@ -997,11 +901,8 @@ function L70_1()
   return L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S03C74CCED292E948"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.SystemCommand.EnablePartner
+function CC6FE82819C6E1D55.S03C74CCED292E948(A0_2, A1_2)
   local L2_2, L3_2
   if nil == A1_2 then
     A1_2 = true
@@ -1018,11 +919,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S172BEAC9DD2E8674"
-
-function L70_1()
+--- main.event.command.SystemCommand.DeletePartner
+function CC6FE82819C6E1D55.S172BEAC9DD2E8674()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = c016374C1
@@ -1039,11 +937,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S3252424B748C9A31"
-
-function L70_1(A0_2)
+--- main.event.command.SystemCommand.CreatePartner
+function CC6FE82819C6E1D55.S3252424B748C9A31(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A0_2 then
     A0_2 = true
@@ -1129,11 +1024,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S2891C9F8A204FD80"
-
-function L70_1(A0_2)
+--- main.event.command.SystemCommand.S2891C9F8A204FD80
+function CC6FE82819C6E1D55.S2891C9F8A204FD80(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -1215,11 +1107,8 @@ function L70_1(A0_2)
   ::lbl_78::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S0D3D1CD2E13ED62F"
-
-function L70_1()
+--- main.event.command.SystemCommand.FirstReport
+function CC6FE82819C6E1D55.S0D3D1CD2E13ED62F()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = c25C59F56
   L0_2 = L0_2.f634EB1CD
@@ -1241,11 +1130,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S4EEC6683CE38C64B"
-
-function L70_1()
+--- main.event.command.SystemCommand.Report
+function CC6FE82819C6E1D55.S4EEC6683CE38C64B()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CC6FE82819C6E1D55
   L0_2 = L0_2.SCEE0760F5F4ABB48
@@ -1255,11 +1141,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S7B9B5B078CCB7DDC"
-
-function L70_1(A0_2)
+--- main.event.command.SystemCommand.EnableReport
+function CC6FE82819C6E1D55.S7B9B5B078CCB7DDC(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = not A0_2
   L2_2 = C10578806AC30DCA3
@@ -1279,11 +1162,8 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "SC57CA938D5038813"
-
-function L70_1()
+--- main.event.command.SystemCommand.SetClearFlagSave
+function CC6FE82819C6E1D55.SC57CA938D5038813()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CC6FE82819C6E1D55
   L0_2 = L0_2.SFA080E90544CD37C
@@ -1311,11 +1191,8 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S7E7F9E034FE17F8F"
-
-function L70_1()
+--- main.event.command.SystemCommand.S7E7F9E034FE17F8F
+function CC6FE82819C6E1D55.S7E7F9E034FE17F8F()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CC6FE82819C6E1D55
   L0_2 = L0_2.SFA080E90544CD37C
@@ -1343,11 +1220,8 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "SCEE0760F5F4ABB48"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.SystemCommand.save
+function CC6FE82819C6E1D55.SCEE0760F5F4ABB48(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   while true do
     L3_2 = C073521D193106184
@@ -1385,11 +1259,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S93943C38B249317B"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.SystemCommand.RandomInt
+function CC6FE82819C6E1D55.S93943C38B249317B(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if nil == A1_2 then
     A1_2 = 0
@@ -1408,11 +1279,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S078818907A8711C3"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.SystemCommand.StartTimeLapse
+function CC6FE82819C6E1D55.S078818907A8711C3(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A4_2 then
     A4_2 = false
@@ -1488,11 +1356,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6FE82819C6E1D55"]
-L69_1 = "S456C704648223659"
-
-function L70_1()
+--- main.event.command.SystemCommand.GetVersion
+function CC6FE82819C6E1D55.S456C704648223659()
   local L0_2, L1_2
   L0_2 = cDD25B9DB
   L0_2 = L0_2.f4F92E4A5

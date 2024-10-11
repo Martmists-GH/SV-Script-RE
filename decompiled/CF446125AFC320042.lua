@@ -1,3 +1,7 @@
+---@alias CF446125AFC320042 main_ui_net_btl_database_NetBattleRuleData
+
+---@class main_ui_net_btl_database_NetBattleRuleData : CF446125AFC320042_prototype
+---@field prototype CF446125AFC320042_prototype
 L55_1 = _ENV
 L56_1 = "CF446125AFC320042"
 L57_1 = L15_1
@@ -190,27 +194,19 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF446125AFC320042"]
 L69_1 = "__name__"
 L70_1 = "CF446125AFC320042"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF446125AFC320042"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF446125AFC320042"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2)
+---@class CF446125AFC320042_prototype
+CF446125AFC320042_prototype = L15_1()
+CF446125AFC320042.prototype = CF446125AFC320042_prototype
+--- main.ui.net_btl.database.NetBattleRuleData.Setup
+function CF446125AFC320042_prototype:F7C68FEDB79AB6396()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F0E47A597FB435DB7
+  L2_2 = self
+  L1_2 = self.F0E47A597FB435DB7
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF446125AFC320042"]["prototype"]
-L69_1 = "F835C1C190A901FB0"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.database.NetBattleRuleData.RegulationDataLoadSequence
+function CF446125AFC320042_prototype:F835C1C190A901FB0(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = c03E8ACDF
   L2_2 = L2_2.f5B6373D5
@@ -229,14 +225,11 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF446125AFC320042"]["prototype"]
-L69_1 = "F0E47A597FB435DB7"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleRuleData.SetupSequence
+function CF446125AFC320042_prototype:F0E47A597FB435DB7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L1_2 = 0
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = false
   while true do
     L4_2 = L2_2.length
@@ -245,8 +238,8 @@ function L70_1(A0_2)
     end
     L4_2 = L2_2[L1_2]
     L1_2 = L1_2 + 1
-    L6_2 = A0_2
-    L5_2 = A0_2.F835C1C190A901FB0
+    L6_2 = self
+    L5_2 = self.F835C1C190A901FB0
     L7_2 = L4_2.preset
     L5_2 = L5_2(L6_2, L7_2)
     L6_2 = nil
@@ -261,7 +254,7 @@ function L70_1(A0_2)
       L8_2 = L4_2
       L9_2 = L5_2
       L7_2 = L7_2(L8_2, L9_2)
-      L8_2 = A0_2[2]
+      L8_2 = self[2]
       L9_2 = L8_2
       L8_2 = L8_2.push
       L10_2 = L7_2
@@ -273,7 +266,7 @@ function L70_1(A0_2)
     end
   end
   L4_2 = 0
-  L5_2 = A0_2[9]
+  L5_2 = self[9]
   L6_2 = false
   while true do
     L7_2 = L5_2.length
@@ -282,8 +275,8 @@ function L70_1(A0_2)
     end
     L7_2 = L5_2[L4_2]
     L4_2 = L4_2 + 1
-    L9_2 = A0_2
-    L8_2 = A0_2.F835C1C190A901FB0
+    L9_2 = self
+    L8_2 = self.F835C1C190A901FB0
     L10_2 = L7_2.preset
     L8_2 = L8_2(L9_2, L10_2)
     L9_2 = nil
@@ -298,7 +291,7 @@ function L70_1(A0_2)
       L11_2 = L7_2
       L12_2 = L8_2
       L10_2 = L10_2(L11_2, L12_2)
-      L11_2 = A0_2[3]
+      L11_2 = self[3]
       L12_2 = L11_2
       L11_2 = L11_2.push
       L13_2 = L10_2
@@ -310,7 +303,7 @@ function L70_1(A0_2)
     end
   end
   L7_2 = 0
-  L8_2 = A0_2[10]
+  L8_2 = self[10]
   L9_2 = false
   while true do
     L10_2 = L8_2.length
@@ -319,8 +312,8 @@ function L70_1(A0_2)
     end
     L10_2 = L8_2[L7_2]
     L7_2 = L7_2 + 1
-    L12_2 = A0_2
-    L11_2 = A0_2.F835C1C190A901FB0
+    L12_2 = self
+    L11_2 = self.F835C1C190A901FB0
     L13_2 = L10_2.preset
     L11_2 = L11_2(L12_2, L13_2)
     L12_2 = nil
@@ -335,7 +328,7 @@ function L70_1(A0_2)
       L14_2 = L10_2
       L15_2 = L11_2
       L13_2 = L13_2(L14_2, L15_2)
-      L14_2 = A0_2[4]
+      L14_2 = self[4]
       L15_2 = L14_2
       L14_2 = L14_2.push
       L16_2 = L13_2
@@ -346,30 +339,24 @@ function L70_1(A0_2)
       break
     end
   end
-  A0_2[5] = true
+  self[5] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF446125AFC320042"]["prototype"]
-L69_1 = "FF1C9BF636E0F4F06"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleRuleData.IsSetup
+function CF446125AFC320042_prototype:FF1C9BF636E0F4F06()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF446125AFC320042"]["prototype"]
-L69_1 = "FB452108E6E1139F9"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.net_btl.database.NetBattleRuleData.GetRuleData
+function CF446125AFC320042_prototype:FB452108E6E1139F9(A1_2, A2_2)
   local L3_2, L4_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   if 1 == A2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
   elseif 2 == A2_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
   end
   L4_2 = L3_2.length
   if A1_2 >= L4_2 then
@@ -380,17 +367,14 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF446125AFC320042"]["prototype"]
-L69_1 = "F0824EC214DC84337"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.net_btl.database.NetBattleRuleData.GetRuleDataByPreset
+function CF446125AFC320042_prototype:F0824EC214DC84337(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   if 1 == A2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
   elseif 2 == A2_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
   end
   L4_2 = 0
   while true do
@@ -411,35 +395,29 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF446125AFC320042"]["prototype"]
-L69_1 = "F8D642A9B655785A1"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.database.NetBattleRuleData.GetRuleDataLength
+function CF446125AFC320042_prototype:F8D642A9B655785A1(A1_2)
   local L2_2
   if 1 == A1_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L2_2 = L2_2.length
     return L2_2
   elseif 2 == A1_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2.length
     return L2_2
   else
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L2_2 = L2_2.length
     return L2_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF446125AFC320042"]["prototype"]
-L69_1 = "F2ECDE43B26B1E1F1"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.database.NetBattleRuleData.F2ECDE43B26B1E1F1
+function CF446125AFC320042_prototype:F2ECDE43B26B1E1F1(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F835C1C190A901FB0
+  L3_2 = self
+  L2_2 = self.F835C1C190A901FB0
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = nil
@@ -460,17 +438,14 @@ function L70_1(A0_2, A1_2)
     L5_2 = L5_2(L6_2)
     L6_2 = L2_2
     L4_2 = L4_2(L5_2, L6_2)
-    A0_2[6] = L4_2
+    self[6] = L4_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF446125AFC320042"]["prototype"]
-L69_1 = "FEC9A7CA9630D927F"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleRuleData.FEC9A7CA9630D927F
+function CF446125AFC320042_prototype:FEC9A7CA9630D927F()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   return L1_2
 end
 

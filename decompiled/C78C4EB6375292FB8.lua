@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C78C4EB6375292FB8"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C78C4EB6375292FB8"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78C4EB6375292FB8"]
-L69_1 = "__name__"
-L70_1 = "C78C4EB6375292FB8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78C4EB6375292FB8"]
-L69_1 = "SA64AD4A429ED09CF"
+---@alias C78C4EB6375292FB8 main_event_command_HyperTrainingCommand
 
-function L70_1(A0_2, A1_2)
+---@class main_event_command_HyperTrainingCommand
+C78C4EB6375292FB8 = L15_1()
+C78C4EB6375292FB8.new = {}
+C78C4EB6375292FB8.__name__ = "C78C4EB6375292FB8"
+--- main.event.command.HyperTrainingCommand.OpenHyperTraining
+function C78C4EB6375292FB8.SA64AD4A429ED09CF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C7FA9D0451CA273B7
   L2_2 = L2_2.new
@@ -53,11 +44,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C78C4EB6375292FB8"]
-L69_1 = "SBB34C1C4A8FCD2CE"
-
-function L70_1()
+--- main.event.command.HyperTrainingCommand.GetResult
+function C78C4EB6375292FB8.SBB34C1C4A8FCD2CE()
   local L0_2, L1_2
   L0_2 = C78C4EB6375292FB8
   L0_2 = L0_2.SCF2BC8BB48169E64

@@ -1,3 +1,5 @@
+---@class C13F72BC99C1CEED4 : C13F72BC99C1CEED4_prototype
+---@field prototype C13F72BC99C1CEED4_prototype
 L55_1 = _ENV
 L56_1 = "C13F72BC99C1CEED4"
 L57_1 = L15_1
@@ -56,24 +58,19 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C13F72BC99C1CEED4"]
 L69_1 = "__name__"
 L70_1 = "C13F72BC99C1CEED4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13F72BC99C1CEED4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13F72BC99C1CEED4"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class C13F72BC99C1CEED4_prototype
+C13F72BC99C1CEED4_prototype = L15_1()
+C13F72BC99C1CEED4.prototype = C13F72BC99C1CEED4_prototype
+--- C13F72BC99C1CEED4.Update
+function C13F72BC99C1CEED4_prototype:FEB6685558281F194(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2
-  L3_2 = A0_2[3]
-  L4_2 = A0_2[2]
+  L3_2 = self[3]
+  L4_2 = self[2]
   L4_2 = L4_2[1]
   L4_2 = L4_2[9]
   L4_2 = L4_2[11]
   L4_2 = L4_2[3]
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L5_2 = L5_2[1]
   L5_2 = L5_2[9]
   L5_2 = L5_2[11]
@@ -81,13 +78,13 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = L3_2[4]
   L6_2 = L6_2 * A1_2
   L6_2 = L6_2 * A1_2
-  L7_2 = A0_2[9]
+  L7_2 = self[9]
   L6_2 = L6_2 * L7_2
   L7_2 = L3_2[2]
-  L8_2 = A0_2[6]
+  L8_2 = self[6]
   L7_2 = L7_2 * L8_2
   L7_2 = L7_2 * A1_2
-  L8_2 = A0_2[10]
+  L8_2 = self[10]
   if L8_2 then
     L7_2 = L7_2 * 0.25
   end
@@ -102,8 +99,8 @@ function L70_1(A0_2, A1_2, A2_2)
     return A0_3
   end
   
-  L9_2 = A0_2[5]
-  L10_2 = A0_2[2]
+  L9_2 = self[5]
+  L10_2 = self[2]
   L10_2 = L10_2[1]
   L10_2 = L10_2[1]
   L11_2 = nil
@@ -146,17 +143,17 @@ function L70_1(A0_2, A1_2, A2_2)
     L17_2[3] = L20_2
     L11_2 = L17_2
   end
-  L12_2 = A0_2[4]
+  L12_2 = self[4]
   if L12_2 then
-    L12_2 = A0_2[2]
+    L12_2 = self[2]
     L12_2 = L12_2[1]
     L12_2 = L12_2[5]
     L12_2 = L12_2[22]
     L12_2 = L12_2[1]
     if L12_2 then
-      L12_2 = A0_2[10]
+      L12_2 = self[10]
       if not L12_2 then
-        L12_2 = A0_2[2]
+        L12_2 = self[2]
         L12_2 = L12_2[1]
         L12_2 = L12_2[5]
         L12_2 = L12_2[22]
@@ -184,7 +181,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L16_2[2] = L18_2
         L16_2[3] = L19_2
         L9_2 = L16_2
-        L16_2 = A0_2[2]
+        L16_2 = self[2]
         L16_2 = L16_2[1]
         L16_2 = L16_2[1]
         L16_2 = L16_2[7]
@@ -261,7 +258,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L15_2[3] = L18_2
   L12_2 = L15_2
   if L4_2 > 0 then
-    L15_2 = A0_2[8]
+    L15_2 = self[8]
     if L15_2 then
       L15_2 = L3_2[6]
       L16_2 = L3_2[5]
@@ -275,7 +272,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L16_2 = L16_2 * L17_2
       L16_2 = L16_2 + L15_2
       L16_2 = L16_2 * A1_2
-      L17_2 = A0_2[5]
+      L17_2 = self[5]
       L18_2 = L10_1.math
       L18_2 = L18_2.acos
       L19_2 = CD9AE7C27B00EB066
@@ -303,7 +300,7 @@ function L70_1(A0_2, A1_2, A2_2)
       end
       L19_2 = 0.5
       if L18_2 > L19_2 then
-        L19_2 = A0_2[5]
+        L19_2 = self[5]
         L20_2 = c7A48E3FC
         L20_2 = L20_2.f3D88C322
         L21_2 = L19_2[1]
@@ -324,7 +321,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L28_2 = L28_2.pi
         L27_2 = L27_2 * L28_2
         L23_2 = L23_2(L24_2, L25_2, L26_2, L27_2)
-        L24_2 = A0_2[5]
+        L24_2 = self[5]
         L26_2 = L23_2
         L25_2 = L23_2.fCA247E7A
         L27_2 = L24_2[1]
@@ -338,8 +335,8 @@ function L70_1(A0_2, A1_2, A2_2)
         L28_2[1] = L29_2
         L28_2[2] = L30_2
         L28_2[3] = L31_2
-        A0_2[5] = L28_2
-        L28_2 = A0_2[5]
+        self[5] = L28_2
+        L28_2 = self[5]
         L29_2 = c7A48E3FC
         L29_2 = L29_2.fD9D3C136
         L30_2 = L28_2[1]
@@ -356,10 +353,10 @@ function L70_1(A0_2, A1_2, A2_2)
         L35_2 = L28_2[3]
         L32_2(L33_2, L34_2, L35_2)
       else
-        A0_2[5] = L5_2
+        self[5] = L5_2
       end
     end
-    L15_2 = A0_2[5]
+    L15_2 = self[5]
     L16_2 = c7A48E3FC
     L16_2 = L16_2.f04EE1F22
     L17_2 = L5_2[1]
@@ -370,7 +367,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L22_2 = L15_2[3]
     L16_2 = L16_2(L17_2, L18_2, L19_2, L20_2, L21_2, L22_2)
     if L16_2 >= 0 then
-      L16_2 = A0_2[7]
+      L16_2 = self[7]
       if L16_2 then
         if L7_2 >= L13_2 then
           L16_2 = L3_2[3]
@@ -477,7 +474,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L19_2[2] = L21_2
   L19_2[3] = L22_2
   L20_2 = 0
-  L21_2 = A0_2[2]
+  L21_2 = self[2]
   L21_2 = L21_2[1]
   L21_2 = L21_2[5]
   L21_2 = L21_2[17]
@@ -530,7 +527,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L19_2 = L25_2
     end
   end
-  L22_2 = A0_2[2]
+  L22_2 = self[2]
   L22_2 = L22_2[1]
   L22_2 = L22_2[1]
   L23_2 = nil
@@ -567,7 +564,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L29_2[3] = L32_2
     L23_2 = L29_2
   end
-  L24_2 = A0_2[4]
+  L24_2 = self[4]
   if L24_2 then
     L24_2 = {}
     L25_2 = 0
@@ -594,18 +591,15 @@ function L70_1(A0_2, A1_2, A2_2)
   return L24_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C13F72BC99C1CEED4"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2)
+--- C13F72BC99C1CEED4.Reset
+function C13F72BC99C1CEED4_prototype:F96EA28F400597FA0()
   local L1_2
-  A0_2[4] = false
-  A0_2[6] = 1
-  A0_2[7] = true
-  A0_2[8] = true
-  A0_2[9] = 1
-  A0_2[10] = false
+  self[4] = false
+  self[6] = 1
+  self[7] = true
+  self[8] = true
+  self[9] = 1
+  self[10] = false
 end
 
 L68_1[L69_1] = L70_1

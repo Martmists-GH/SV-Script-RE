@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C536287D73A404DD4"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C536287D73A404DD4"]
-L69_1 = "new"
+---@alias C536287D73A404DD4 main_event_general_system_ItemGet
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class main_event_general_system_ItemGet : C536287D73A404DD4_prototype
+---@field prototype C536287D73A404DD4_prototype
+C536287D73A404DD4 = L15_1()
+function C536287D73A404DD4.new(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = C536287D73A404DD4
@@ -25,11 +22,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C536287D73A404DD4"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@param A0_2 C536287D73A404DD4
+function C536287D73A404DD4.super(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L5_2 = C20F5CD372AAAA08C
   L5_2 = L5_2.super
@@ -41,11 +35,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C536287D73A404DD4"]
-L69_1 = "__name__"
-L70_1 = "C536287D73A404DD4"
-L68_1[L69_1] = L70_1
+C536287D73A404DD4.__name__ = "C536287D73A404DD4"
 L68_1 = _ENV["C536287D73A404DD4"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -136,11 +126,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C536287D73A404DD4"]
-L69_1 = "S30068E6B112C4536"
-
-function L70_1()
+--- main.event.general.system.ItemGet.IsRunningAny
+function C536287D73A404DD4.S30068E6B112C4536()
   local L0_2, L1_2, L2_2
   L0_2 = C4B092ECAC3E586CC
   L0_2 = L0_2.SC8223E31D3163519
@@ -159,11 +146,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C536287D73A404DD4"]
-L69_1 = "S458877ED5B14C305"
-
-function L70_1(A0_2)
+--- main.event.general.system.ItemGet.IsRunningTarget
+function C536287D73A404DD4.S458877ED5B14C305(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C4B092ECAC3E586CC
   L1_2 = L1_2.SC8223E31D3163519
@@ -245,26 +229,18 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C536287D73A404DD4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C536287D73A404DD4"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C536287D73A404DD4_prototype
+C536287D73A404DD4_prototype = L15_1()
+C536287D73A404DD4.prototype = C536287D73A404DD4_prototype
+--- main.event.general.system.ItemGet.onCreate
+function C536287D73A404DD4_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.paralleled = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C536287D73A404DD4"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.system.ItemGet.mainBody
+function C536287D73A404DD4_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L1_2 = nil
   
@@ -273,7 +249,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -281,14 +257,14 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
   end
   
   L2_2 = L2_2()
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.itemInfo
   L3_2 = nil == L3_2
   L4_2 = nil
@@ -348,13 +324,13 @@ function L70_1(A0_2)
       L4_2 = nil
     end
   else
-    L5_2 = A0_2[32]
+    L5_2 = self[32]
     L4_2 = L5_2.itemInfo
   end
-  L5_2 = A0_2[32]
+  L5_2 = self[32]
   L5_2 = L5_2.chara
   if nil ~= L5_2 then
-    L5_2 = A0_2[32]
+    L5_2 = self[32]
     L5_2 = L5_2.chara
     if 0 == L5_2 then
       L6_2 = CFC8F368D91411014
@@ -426,8 +402,8 @@ function L70_1(A0_2)
       L5_2(L6_2, L7_2, L8_2, L9_2)
     end
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F809442D196051A51
+  L6_2 = self
+  L5_2 = self.F809442D196051A51
   L5_2(L6_2)
   if nil ~= L2_2 then
     if L3_2 then
@@ -465,7 +441,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L6_2
@@ -473,7 +449,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -520,13 +496,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C536287D73A404DD4"]["prototype"]
-L69_1 = "F809442D196051A51"
-
-function L70_1(A0_2)
+--- main.event.general.system.ItemGet.F809442D196051A51
+function C536287D73A404DD4_prototype:F809442D196051A51()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.chara
   if 1 ~= L1_2 then
     return

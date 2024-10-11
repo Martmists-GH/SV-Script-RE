@@ -1,3 +1,7 @@
+---@alias C0346E1D2ECB9DE89 main_field_behaviour_scenario_main_champion_gym_denki_Gym_denki_uiCursor
+
+---@class main_field_behaviour_scenario_main_champion_gym_denki_Gym_denki_uiCursor : C0346E1D2ECB9DE89_prototype
+---@field prototype C0346E1D2ECB9DE89_prototype
 L55_1 = _ENV
 L56_1 = "CEF1F4DE84651134E"
 L57_1 = L15_1
@@ -45,11 +49,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CEF1F4DE84651134E"]
 L69_1 = "__name__"
 L70_1 = "CEF1F4DE84651134E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEF1F4DE84651134E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C0346E1D2ECB9DE89_prototype
+C0346E1D2ECB9DE89_prototype = L15_1()
+C0346E1D2ECB9DE89.prototype = C0346E1D2ECB9DE89_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CEF1F4DE84651134E"]["prototype"]
 L69_1 = _ENV["CEF1F4DE84651134E"]

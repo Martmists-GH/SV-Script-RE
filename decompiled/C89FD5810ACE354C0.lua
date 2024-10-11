@@ -1,3 +1,7 @@
+---@alias C89FD5810ACE354C0 main_ajito_test_AjitoPopupTestBehavior
+
+---@class main_ajito_test_AjitoPopupTestBehavior : C89FD5810ACE354C0_prototype
+---@field prototype C89FD5810ACE354C0_prototype
 L68_1 = _ENV["C89FD5810ACE354C0"]
 L69_1 = "super"
 
@@ -17,18 +21,13 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C89FD5810ACE354C0"]
 L69_1 = "__name__"
 L70_1 = "C89FD5810ACE354C0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89FD5810ACE354C0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89FD5810ACE354C0"]["prototype"]
-L69_1 = "F3B472FBEC1D6FBBF"
-
-function L70_1(A0_2)
+---@class C89FD5810ACE354C0_prototype
+C89FD5810ACE354C0_prototype = L15_1()
+C89FD5810ACE354C0.prototype = C89FD5810ACE354C0_prototype
+--- main.ajito.test.AjitoPopupTestBehavior.start
+function C89FD5810ACE354C0_prototype:F3B472FBEC1D6FBBF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
@@ -48,7 +47,7 @@ function L70_1(A0_2)
     L2_2 = nil
   end
   L3_2 = L2_2
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.f462C9B70
   L4_2 = L4_2(L5_2)
@@ -56,7 +55,7 @@ function L70_1(A0_2)
   L4_2 = L4_2.f20AB1FEA
   L6_2 = "M_Point"
   L4_2 = L4_2(L5_2, L6_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f462C9B70
   L5_2 = L5_2(L6_2)
@@ -66,7 +65,7 @@ function L70_1(A0_2)
   L5_2 = L5_2(L6_2, L7_2)
   L7_2 = L3_2
   L6_2 = L3_2.FB04D0FEEDD95EBEB
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L9_2 = _hx_tab_array
   L10_2 = {}
   L10_2.length = 0
@@ -81,15 +80,12 @@ function L70_1(A0_2)
   L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89FD5810ACE354C0"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.test.AjitoPopupTestBehavior.Setup
+function C89FD5810ACE354C0_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C31DC0DA86E5DCB8A
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f462C9B70
   L3_2 = L3_2(L4_2)
@@ -97,7 +93,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.f20AB1FEA
   L5_2 = "M_Data"
   L3_2 = L3_2(L4_2, L5_2)
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.f462C9B70
   L4_2 = L4_2(L5_2)
@@ -106,21 +102,15 @@ function L70_1(A0_2, A1_2)
   L6_2 = "F_Data"
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89FD5810ACE354C0"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.test.AjitoPopupTestBehavior.PreUpdate
+function C89FD5810ACE354C0_prototype:FE94F3E13286232CF(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89FD5810ACE354C0"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ajito.test.AjitoPopupTestBehavior.Destroy
+function C89FD5810ACE354C0_prototype:F1C2AA00ADAC52EC5()
   local L1_2
 end
 

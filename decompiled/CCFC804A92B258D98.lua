@@ -1,3 +1,5 @@
+---@class CCFC804A92B258D98 : CCFC804A92B258D98_prototype
+---@field prototype CCFC804A92B258D98_prototype
 L55_1 = _ENV
 L56_1 = "CCFC804A92B258D98"
 L57_1 = L15_1
@@ -39,16 +41,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCFC804A92B258D98"]
 L69_1 = "__name__"
 L70_1 = "CCFC804A92B258D98"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFC804A92B258D98"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFC804A92B258D98"]["prototype"]
-L69_1 = "F7B29AC6696E62600"
-
-function L70_1(A0_2)
+---@class CCFC804A92B258D98_prototype
+CCFC804A92B258D98_prototype = L15_1()
+CCFC804A92B258D98.prototype = CCFC804A92B258D98_prototype
+--- CCFC804A92B258D98.RequiredEventCategory
+function CCFC804A92B258D98_prototype:F7B29AC6696E62600()
   local L1_2, L2_2, L3_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -58,21 +55,15 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFC804A92B258D98"]["prototype"]
-L69_1 = "FEBB6C7EABF14DA04"
-
-function L70_1(A0_2)
+--- CCFC804A92B258D98.BootEventTriggerId
+function CCFC804A92B258D98_prototype:FEBB6C7EABF14DA04()
   local L1_2
   L1_2 = 0
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFC804A92B258D98"]["prototype"]
-L69_1 = "FDA98E87C57449F00"
-
-function L70_1(A0_2, A1_2)
+--- CCFC804A92B258D98.OnEventCheck
+function CCFC804A92B258D98_prototype:FDA98E87C57449F00(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
   while true do

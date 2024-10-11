@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C21877AADCE847B50"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C21877AADCE847B50"]
-L69_1 = "new"
+---@alias C21877AADCE847B50 main_field_behaviour_map_change_common_data_MapChangeCommonData
 
-function L70_1(A0_2)
+---@class main_field_behaviour_map_change_common_data_MapChangeCommonData : C21877AADCE847B50_prototype
+---@field prototype C21877AADCE847B50_prototype
+C21877AADCE847B50 = L15_1()
+function C21877AADCE847B50.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C21877AADCE847B50
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21877AADCE847B50"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C21877AADCE847B50
+function C21877AADCE847B50.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   A0_2[5] = 0.1
   L2_2 = _hx_tab_array
@@ -62,11 +56,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C21877AADCE847B50"]
 L69_1 = "__name__"
 L70_1 = "C21877AADCE847B50"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21877AADCE847B50"]
-L69_1 = "S3568CEAB0AAEB0D6"
-
-function L70_1()
+--- main.field.behaviour.map_change_common_data.MapChangeCommonData.GetLadderWait
+function C21877AADCE847B50.S3568CEAB0AAEB0D6()
   local L0_2, L1_2
   L0_2 = C21877AADCE847B50
   L0_2 = L0_2.SF3075AB31C9E8AF4
@@ -81,11 +72,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21877AADCE847B50"]
-L69_1 = "S369514AC2766E101"
-
-function L70_1()
+--- main.field.behaviour.map_change_common_data.MapChangeCommonData.GetLadderFadeDuration
+function C21877AADCE847B50.S369514AC2766E101()
   local L0_2, L1_2
   L0_2 = C21877AADCE847B50
   L0_2 = L0_2.SF3075AB31C9E8AF4
@@ -100,11 +88,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21877AADCE847B50"]
-L69_1 = "S686B6DB7F0BD13C6"
-
-function L70_1(A0_2)
+--- main.field.behaviour.map_change_common_data.MapChangeCommonData.GetDoorAngle
+function C21877AADCE847B50.S686B6DB7F0BD13C6(A0_2)
   local L1_2
   L1_2 = C21877AADCE847B50
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -120,11 +105,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21877AADCE847B50"]
-L69_1 = "SFBFE5198431B926C"
-
-function L70_1()
+--- main.field.behaviour.map_change_common_data.MapChangeCommonData.GetStickAngle
+function C21877AADCE847B50.SFBFE5198431B926C()
   local L0_2, L1_2
   L0_2 = C21877AADCE847B50
   L0_2 = L0_2.SF3075AB31C9E8AF4
@@ -139,22 +121,17 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21877AADCE847B50"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21877AADCE847B50"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C21877AADCE847B50_prototype
+C21877AADCE847B50_prototype = L15_1()
+C21877AADCE847B50.prototype = C21877AADCE847B50_prototype
+--- main.field.behaviour.map_change_common_data.MapChangeCommonData.Setup
+function C21877AADCE847B50_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L2_2 = C21877AADCE847B50
-  L2_2.SF3075AB31C9E8AF4 = A0_2
+  L2_2.SF3075AB31C9E8AF4 = self
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f287946D6
@@ -208,7 +185,7 @@ function L70_1(A0_2, A1_2)
       end
       
       L7_2 = L7_2()
-      A0_2[2] = L7_2
+      self[2] = L7_2
       L7_2 = nil
       
       function L8_2()
@@ -240,9 +217,9 @@ function L70_1(A0_2, A1_2)
       end
       
       L8_2 = L8_2()
-      A0_2[3] = L8_2
+      self[3] = L8_2
       L8_2 = nil
-      L9_2 = A0_2[4]
+      L9_2 = self[4]
       
       function L10_2()
         local L0_3, L1_3, L2_3, L3_3
@@ -275,7 +252,7 @@ function L70_1(A0_2, A1_2)
       L10_2 = L10_2()
       L9_2[0] = L10_2
       L9_2 = nil
-      L10_2 = A0_2[4]
+      L10_2 = self[4]
       
       function L11_2()
         local L0_3, L1_3, L2_3, L3_3
@@ -308,7 +285,7 @@ function L70_1(A0_2, A1_2)
       L11_2 = L11_2()
       L10_2[1] = L11_2
       L10_2 = nil
-      L11_2 = A0_2[4]
+      L11_2 = self[4]
       
       function L12_2()
         local L0_3, L1_3, L2_3, L3_3
@@ -341,7 +318,7 @@ function L70_1(A0_2, A1_2)
       L12_2 = L12_2()
       L11_2[2] = L12_2
       L11_2 = nil
-      L12_2 = A0_2[4]
+      L12_2 = self[4]
       
       function L13_2()
         local L0_3, L1_3, L2_3, L3_3
@@ -374,7 +351,7 @@ function L70_1(A0_2, A1_2)
       L13_2 = L13_2()
       L12_2[3] = L13_2
       L12_2 = nil
-      L13_2 = A0_2[4]
+      L13_2 = self[4]
       
       function L14_2()
         local L0_3, L1_3, L2_3, L3_3
@@ -407,7 +384,7 @@ function L70_1(A0_2, A1_2)
       L14_2 = L14_2()
       L13_2[4] = L14_2
       L13_2 = nil
-      L14_2 = A0_2[4]
+      L14_2 = self[4]
       
       function L15_2()
         local L0_3, L1_3, L2_3, L3_3
@@ -470,20 +447,17 @@ function L70_1(A0_2, A1_2)
       end
       
       L15_2 = L15_2()
-      A0_2[5] = L15_2
+      self[5] = L15_2
     end
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.fBE3B2D3B
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21877AADCE847B50"]["prototype"]
-L69_1 = "F8930BD5CE2BE71E4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.behaviour.map_change_common_data.MapChangeCommonData.GetParam
+function C21877AADCE847B50_prototype:F8930BD5CE2BE71E4(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = nil
   L4_2 = c919391D3

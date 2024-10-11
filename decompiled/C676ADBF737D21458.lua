@@ -1,3 +1,7 @@
+---@alias C676ADBF737D21458 main_pokepicnic_ui_jaker_CookingRecipeJacker
+
+---@class main_pokepicnic_ui_jaker_CookingRecipeJacker : C676ADBF737D21458_prototype
+---@field prototype C676ADBF737D21458_prototype
 L55_1 = _ENV
 L56_1 = "C676ADBF737D21458"
 L57_1 = L15_1
@@ -37,16 +41,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C676ADBF737D21458"]
 L69_1 = "__name__"
 L70_1 = "C676ADBF737D21458"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C676ADBF737D21458"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C676ADBF737D21458"]["prototype"]
-L69_1 = "F7EED485852A4D25F"
-
-function L70_1(A0_2)
+---@class C676ADBF737D21458_prototype
+C676ADBF737D21458_prototype = L15_1()
+C676ADBF737D21458.prototype = C676ADBF737D21458_prototype
+--- main.pokepicnic.ui.jaker.CookingRecipeJacker.Start
+function C676ADBF737D21458_prototype:F7EED485852A4D25F()
   local L1_2
 end
 

@@ -1,3 +1,7 @@
+---@alias CA6B7E8FDAC9A0ECF main_event_general_gym_base_Gym_esper_change_partner
+
+---@class main_event_general_gym_base_Gym_esper_change_partner : CA6B7E8FDAC9A0ECF_prototype
+---@field prototype CA6B7E8FDAC9A0ECF_prototype
 L55_1 = _ENV
 L56_1 = "CA6B7E8FDAC9A0ECF"
 L57_1 = L15_1
@@ -41,20 +45,15 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA6B7E8FDAC9A0ECF"]
 L69_1 = "__name__"
 L70_1 = "CA6B7E8FDAC9A0ECF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA6B7E8FDAC9A0ECF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA6B7E8FDAC9A0ECF"]["prototype"]
-L69_1 = "F9EF8B08DA4FDA9E4"
-
-function L70_1(A0_2)
+---@class CA6B7E8FDAC9A0ECF_prototype
+CA6B7E8FDAC9A0ECF_prototype = L15_1()
+CA6B7E8FDAC9A0ECF.prototype = CA6B7E8FDAC9A0ECF_prototype
+--- main.event.general.gym.base.Gym_esper_change_partner.mainCoroutineFunc
+function CA6B7E8FDAC9A0ECF_prototype:F9EF8B08DA4FDA9E4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F996BBF0959087C5F
-  L3_2 = A0_2[5]
+  L2_2 = self
+  L1_2 = self.F996BBF0959087C5F
+  L3_2 = self[5]
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = c2FB59E8B
   L2_2 = L2_2.fB900AE56
@@ -81,7 +80,7 @@ function L70_1(A0_2)
     L12_2 = L11_2.f9E160020
     L14_2 = c44F1402A
     L14_2 = L14_2.f24C0D5C1
-    L15_2 = A0_2[5]
+    L15_2 = self[5]
     L16_2 = 15
     L14_2, L15_2, L16_2 = L14_2(L15_2, L16_2)
     L12_2(L13_2, L14_2, L15_2, L16_2)
@@ -90,9 +89,9 @@ function L70_1(A0_2)
     L14_2 = L11_2
     L12_2(L13_2, L14_2)
   else
-    L11_2 = A0_2
-    L10_2 = A0_2.F996BBF0959087C5F
-    L12_2 = A0_2[5]
+    L11_2 = self
+    L10_2 = self.F996BBF0959087C5F
+    L12_2 = self[5]
     L10_2 = L10_2(L11_2, L12_2)
     L1_2 = L10_2
     L10_2 = c1A1CBE3B
@@ -141,11 +140,8 @@ function L70_1(A0_2)
   L10_2(L11_2, L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA6B7E8FDAC9A0ECF"]["prototype"]
-L69_1 = "F996BBF0959087C5F"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_change_partner.getPartyIndex
+function CA6B7E8FDAC9A0ECF_prototype:F996BBF0959087C5F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.fFCE06E04

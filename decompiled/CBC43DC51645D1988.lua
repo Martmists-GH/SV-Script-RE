@@ -1,3 +1,5 @@
+---@class CBC43DC51645D1988 : CBC43DC51645D1988_prototype
+---@field prototype CBC43DC51645D1988_prototype
 L55_1 = _ENV
 L56_1 = "CBC43DC51645D1988"
 L57_1 = L15_1
@@ -40,21 +42,16 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CBC43DC51645D1988"]
 L69_1 = "__name__"
 L70_1 = "CBC43DC51645D1988"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBC43DC51645D1988"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBC43DC51645D1988"]["prototype"]
-L69_1 = "F46013EC08BDF7153"
-
-function L70_1(A0_2)
+---@class CBC43DC51645D1988_prototype
+CBC43DC51645D1988_prototype = L15_1()
+CBC43DC51645D1988.prototype = CBC43DC51645D1988_prototype
+--- CBC43DC51645D1988.Entry
+function CBC43DC51645D1988_prototype:F46013EC08BDF7153()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C38D93B6EEE09613F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F46013EC08BDF7153
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S44577E0D8E8F3819
@@ -119,19 +116,16 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBC43DC51645D1988"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- CBC43DC51645D1988.Update
+function CBC43DC51645D1988_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C38D93B6EEE09613F
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FEB6685558281F194
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.F6E9709521FC397C1
   L2_2 = L2_2(L3_2)
@@ -143,12 +137,12 @@ function L70_1(A0_2, A1_2)
     L2_2(L3_2)
     L2_2 = c69ACCC6F
     L2_2 = L2_2.f3F98EEAD
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L2_2 = L2_2(L3_2)
     L3_2 = L2_2
     L2_2 = L2_2.f89358001
     L2_2(L3_2)
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F28EAF3B3AA178E3E
     L4_2 = C6F37A979564BA87B
@@ -158,16 +152,13 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBC43DC51645D1988"]["prototype"]
-L69_1 = "F2C02645014D5A2A5"
-
-function L70_1(A0_2)
+--- CBC43DC51645D1988.Exit
+function CBC43DC51645D1988_prototype:F2C02645014D5A2A5()
   local L1_2, L2_2
   L1_2 = C38D93B6EEE09613F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F2C02645014D5A2A5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 

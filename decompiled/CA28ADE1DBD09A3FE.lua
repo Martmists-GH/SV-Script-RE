@@ -1,3 +1,7 @@
+---@alias CA28ADE1DBD09A3FE main_battle_ui_BattleUiRaidFriendInfo
+
+---@class main_battle_ui_BattleUiRaidFriendInfo : CA28ADE1DBD09A3FE_prototype
+---@field prototype CA28ADE1DBD09A3FE_prototype
 L55_1 = _ENV
 L56_1 = "CA28ADE1DBD09A3FE"
 L57_1 = L15_1
@@ -619,98 +623,87 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA28ADE1DBD09A3FE"]
 L69_1 = "__name__"
 L70_1 = "CA28ADE1DBD09A3FE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "F7EED485852A4D25F"
-
-function L70_1(A0_2)
+---@class CA28ADE1DBD09A3FE_prototype
+CA28ADE1DBD09A3FE_prototype = L15_1()
+CA28ADE1DBD09A3FE.prototype = CA28ADE1DBD09A3FE_prototype
+--- main.battle.ui.BattleUiRaidFriendInfo.Start
+function CA28ADE1DBD09A3FE_prototype:F7EED485852A4D25F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.f2A9CF058
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fB4E9D030
   L3_2 = "in"
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FF74D6A46D30178D7
+  L2_2 = self
+  L1_2 = self.FF74D6A46D30178D7
   L3_2 = 0
   L4_2 = 2
   L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FF74D6A46D30178D7
+  L2_2 = self
+  L1_2 = self.FF74D6A46D30178D7
   L3_2 = 1
   L4_2 = 4
   L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FF74D6A46D30178D7
+  L2_2 = self
+  L1_2 = self.FF74D6A46D30178D7
   L3_2 = 2
   L4_2 = 6
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fB2AD1F5E
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F3051134F94755B83
+  L2_2 = self
+  L1_2 = self.F3051134F94755B83
   L3_2 = 2
-  L4_2 = A0_2[3]
-  L5_2 = A0_2[2]
+  L4_2 = self[3]
+  L5_2 = self[2]
   L6_2 = "L_friend_info_00/"
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F3051134F94755B83
+  L2_2 = self
+  L1_2 = self.F3051134F94755B83
   L3_2 = 4
-  L4_2 = A0_2[3]
-  L5_2 = A0_2[2]
+  L4_2 = self[3]
+  L5_2 = self[2]
   L6_2 = "L_friend_info_01/"
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F3051134F94755B83
+  L2_2 = self
+  L1_2 = self.F3051134F94755B83
   L3_2 = 6
-  L4_2 = A0_2[3]
-  L5_2 = A0_2[2]
+  L4_2 = self[3]
+  L5_2 = self[2]
   L6_2 = "L_friend_info_02/"
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "F96B4C3266FC0614A"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.End
+function CA28ADE1DBD09A3FE_prototype:F96B4C3266FC0614A()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fB4E9D030
   L3_2 = "out"
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "FF74D6A46D30178D7"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.SetPokeIcon
+function CA28ADE1DBD09A3FE_prototype:FF74D6A46D30178D7(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L3_2 = nil
   L4_2 = cECF00344
   L4_2 = L4_2.fB3E547E8
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     if nil ~= L4_2 then
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = L4_2
       L4_2 = L4_2.F0E33CE6FD7BD4E53
       L6_2 = A2_2
@@ -760,7 +753,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L8_2 = L8_2.F1808DCB1F3A9233F
       L10_2 = L6_2
       L8_2 = L8_2(L9_2, L10_2)
-      L9_2 = A0_2[3]
+      L9_2 = self[3]
       L10_2 = L9_2
       L9_2 = L9_2.f6889DAA9
       L11_2 = L31_1.string
@@ -780,7 +773,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L13_2 = L8_2[2]
       L14_2 = L8_2[3]
       L9_2(L10_2, L11_2, L12_2, L13_2, L14_2)
-      L9_2 = A0_2[3]
+      L9_2 = self[3]
       L10_2 = L9_2
       L9_2 = L9_2.fC6FA21BA
       L11_2 = A1_2
@@ -791,19 +784,16 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "F16A9EC217D603F95"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.DispInfoParts
+function CA28ADE1DBD09A3FE_prototype:F16A9EC217D603F95(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.f2A9CF058
   L5_2 = true
   L3_2(L4_2, L5_2)
   if A2_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.fB4E9D030
     L5_2 = L31_1.string
@@ -815,7 +805,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2 = L5_2 .. L6_2
     L3_2(L4_2, L5_2)
   else
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.fB4E9D030
     L5_2 = L31_1.string
@@ -829,13 +819,10 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "F0CD8B07DD9E546F5"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.DispInfo
+function CA28ADE1DBD09A3FE_prototype:F0CD8B07DD9E546F5(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L3_2 = L3_2[A1_2]
   L4_2 = false
   L5_2 = L3_2.isDisp
@@ -850,45 +837,39 @@ function L70_1(A0_2, A1_2, A2_2)
     end
   end
   if 2 == A1_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.F16A9EC217D603F95
+    L6_2 = self
+    L5_2 = self.F16A9EC217D603F95
     L7_2 = "L_friend_info_00/"
     L8_2 = L4_2
     L5_2(L6_2, L7_2, L8_2)
   elseif 4 == A1_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.F16A9EC217D603F95
+    L6_2 = self
+    L5_2 = self.F16A9EC217D603F95
     L7_2 = "L_friend_info_01/"
     L8_2 = L4_2
     L5_2(L6_2, L7_2, L8_2)
   elseif 6 == A1_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.F16A9EC217D603F95
+    L6_2 = self
+    L5_2 = self.F16A9EC217D603F95
     L7_2 = "L_friend_info_02/"
     L8_2 = L4_2
     L5_2(L6_2, L7_2, L8_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.PreUpdate
+function CA28ADE1DBD09A3FE_prototype:FE94F3E13286232CF()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FF22FCFA79B2A3334
+  L2_2 = self
+  L1_2 = self.FF22FCFA79B2A3334
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FA3DA04770C407124
+  L2_2 = self
+  L1_2 = self.FA3DA04770C407124
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "F3051134F94755B83"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.SetPlayerNameFunc
+function CA28ADE1DBD09A3FE_prototype:F3051134F94755B83(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L5_2 = L31_1.string
   L6_2 = A4_2
@@ -907,19 +888,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L8_2 = L5_2
   L9_2 = CF1B91014068D2D0A
   L9_2 = L9_2.SC90E3D4D85C0A7BF
-  L10_2 = A0_2[1]
+  L10_2 = self[1]
   L11_2 = A1_2
   L9_2, L10_2, L11_2 = L9_2(L10_2, L11_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "FED1CCF2D03F83AD3"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.SetEmoteFunc
+function CA28ADE1DBD09A3FE_prototype:FED1CCF2D03F83AD3(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L6_2 = L6_2[A1_2]
   L6_2.emoteDispCnt = 0
   L7_2 = L6_2.wazaDispNo
@@ -1035,13 +1013,10 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L7_2(L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "FFC76F5D3D1CA8174"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.SetWazaFunc
+function CA28ADE1DBD09A3FE_prototype:FFC76F5D3D1CA8174(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L6_2 = L6_2[A1_2]
   L6_2.wazaDispNo = A2_2
   L6_2.wazaDispCnt = 0
@@ -1066,8 +1041,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
   L7_2 = L6_2.emoteDispType
   if 0 ~= L7_2 then
-    L8_2 = A0_2
-    L7_2 = A0_2.FED1CCF2D03F83AD3
+    L8_2 = self
+    L7_2 = self.FED1CCF2D03F83AD3
     L9_2 = A1_2
     L10_2 = 0
     L11_2 = A3_2
@@ -1108,12 +1083,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L10_2 = L10_2(L11_2)
   L9_2 = L9_2 .. L10_2
   L7_2(L8_2, L9_2)
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L7_2 = L7_2[25]
   L9_2 = L7_2
   L8_2 = L7_2.fD499C005
   L10_2 = 0
-  L11_2 = A0_2[1]
+  L11_2 = self[1]
   L12_2 = L11_2
   L11_2 = L11_2.F9FAB167D54A6B90D
   L13_2 = A1_2
@@ -1151,11 +1126,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L9_2(L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "F4DA6C451B4204062"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.SetSickIconFunc
+function CA28ADE1DBD09A3FE_prototype:F4DA6C451B4204062(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L6_2 = A1_2
   L5_2 = A1_2.fE41B0EC1
@@ -1175,7 +1147,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L9_2 = L9_2 .. L10_2
   L10_2 = CF1B91014068D2D0A
   L10_2 = L10_2.S54833026A2A7F715
-  L11_2 = A0_2[1]
+  L11_2 = self[1]
   L12_2 = A1_2
   L10_2, L11_2, L12_2 = L10_2(L11_2, L12_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2)
@@ -1192,34 +1164,31 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L7_2(L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "F65348348DAFD0886"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.HpGaugeFunc
+function CA28ADE1DBD09A3FE_prototype:F65348348DAFD0886(A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L7_2 = L7_2[A1_2]
   L9_2 = A2_2
   L8_2 = A2_2.f55728F9C
   L10_2 = 14
   L8_2 = L8_2(L9_2, L10_2)
-  L9_2 = A0_2[8]
+  L9_2 = self[8]
   L10_2 = L7_2.dispHp
   L10_2 = L10_2 / L8_2
-  L11_2 = A0_2[8]
+  L11_2 = self[8]
   L10_2 = L10_2 * L11_2
   L9_2 = L9_2 - L10_2
-  L10_2 = A0_2[8]
+  L10_2 = self[8]
   if L9_2 == L10_2 then
     L10_2 = L7_2.dispHp
     if L10_2 > 0 then
       L9_2 = 1
     end
   end
-  L10_2 = A0_2[8]
+  L10_2 = self[8]
   if L9_2 > L10_2 then
-    L9_2 = A0_2[8]
+    L9_2 = self[8]
   end
   if L9_2 < 0 then
     L9_2 = 0
@@ -1236,7 +1205,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L12_2 = L12_2 .. L13_2
   L13_2 = L9_2
   L10_2(L11_2, L12_2, L13_2)
-  L10_2 = A0_2[10]
+  L10_2 = self[10]
   if L9_2 >= L10_2 then
     L11_2 = A3_2
     L10_2 = A3_2.fB4E9D030
@@ -1250,7 +1219,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
     L10_2(L11_2, L12_2)
     L7_2.isGaugeRed = true
   else
-    L10_2 = A0_2[9]
+    L10_2 = self[9]
     if L9_2 >= L10_2 then
       L11_2 = A3_2
       L10_2 = A3_2.fB4E9D030
@@ -1277,20 +1246,17 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "F7D42416D5F762259"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.StartAnime
+function CA28ADE1DBD09A3FE_prototype:F7D42416D5F762259(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2[A1_2]
   L2_2.isAnime = true
   L3_2 = L58_1
   L4_2 = L2_2.dispHp
   L3_2 = L3_2(L4_2)
   L2_2.animeStartHp = L3_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.F67AA8D66977C3584
   L5_2 = A1_2
@@ -1302,19 +1268,19 @@ function L70_1(A0_2, A1_2)
   L2_2.animeEndHp = L3_2
   L2_2.animeCnt = 0
   if 2 == A1_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.fB4E9D030
     L5_2 = "L_friend_info_00/damage"
     L3_2(L4_2, L5_2)
   elseif 4 == A1_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.fB4E9D030
     L5_2 = "L_friend_info_01/damage"
     L3_2(L4_2, L5_2)
   elseif 6 == A1_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.fB4E9D030
     L5_2 = "L_friend_info_02/damage"
@@ -1322,93 +1288,84 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "F5C0172120C9C14A7"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.F5C0172120C9C14A7
+function CA28ADE1DBD09A3FE_prototype:F5C0172120C9C14A7(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if 2 == A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FED1CCF2D03F83AD3
+    L4_2 = self
+    L3_2 = self.FED1CCF2D03F83AD3
     L5_2 = A1_2
     L6_2 = A2_2
-    L7_2 = A0_2[3]
-    L8_2 = A0_2[2]
+    L7_2 = self[3]
+    L8_2 = self[2]
     L9_2 = "L_friend_info_00/"
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
   elseif 4 == A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FED1CCF2D03F83AD3
+    L4_2 = self
+    L3_2 = self.FED1CCF2D03F83AD3
     L5_2 = A1_2
     L6_2 = A2_2
-    L7_2 = A0_2[3]
-    L8_2 = A0_2[2]
+    L7_2 = self[3]
+    L8_2 = self[2]
     L9_2 = "L_friend_info_01/"
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
   elseif 6 == A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FED1CCF2D03F83AD3
+    L4_2 = self
+    L3_2 = self.FED1CCF2D03F83AD3
     L5_2 = A1_2
     L6_2 = A2_2
-    L7_2 = A0_2[3]
-    L8_2 = A0_2[2]
+    L7_2 = self[3]
+    L8_2 = self[2]
     L9_2 = "L_friend_info_02/"
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "FEBE8A8EE49767C18"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.FEBE8A8EE49767C18
+function CA28ADE1DBD09A3FE_prototype:FEBE8A8EE49767C18(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if 2 == A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FFC76F5D3D1CA8174
+    L4_2 = self
+    L3_2 = self.FFC76F5D3D1CA8174
     L5_2 = A1_2
     L6_2 = A2_2
-    L7_2 = A0_2[3]
-    L8_2 = A0_2[2]
+    L7_2 = self[3]
+    L8_2 = self[2]
     L9_2 = "L_friend_info_00/"
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
   elseif 4 == A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FFC76F5D3D1CA8174
+    L4_2 = self
+    L3_2 = self.FFC76F5D3D1CA8174
     L5_2 = A1_2
     L6_2 = A2_2
-    L7_2 = A0_2[3]
-    L8_2 = A0_2[2]
+    L7_2 = self[3]
+    L8_2 = self[2]
     L9_2 = "L_friend_info_01/"
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
   elseif 6 == A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FFC76F5D3D1CA8174
+    L4_2 = self
+    L3_2 = self.FFC76F5D3D1CA8174
     L5_2 = A1_2
     L6_2 = A2_2
-    L7_2 = A0_2[3]
-    L8_2 = A0_2[2]
+    L7_2 = self[3]
+    L8_2 = self[2]
     L9_2 = "L_friend_info_02/"
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "FF22FCFA79B2A3334"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.UpdateAnime
+function CA28ADE1DBD09A3FE_prototype:FF22FCFA79B2A3334()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = 0
   while L1_2 < 10 do
     L1_2 = L1_2 + 1
     L2_2 = L1_2 - 1
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L3_2 = L3_2[L2_2]
     L4_2 = L3_2.isAnime
     if L4_2 then
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = L4_2
       L4_2 = L4_2.F67AA8D66977C3584
       L6_2 = L2_2
@@ -1445,8 +1402,8 @@ function L70_1(A0_2)
         L3_2.dispHp = L7_2
         L3_2.isAnime = false
       end
-      L8_2 = A0_2
-      L7_2 = A0_2.F008DDB44F0350197
+      L8_2 = self
+      L7_2 = self.F008DDB44F0350197
       L9_2 = L2_2
       L7_2(L8_2, L9_2)
     end
@@ -1462,30 +1419,30 @@ function L70_1(A0_2)
         L6_2 = L19_1
         L4_2 = L4_2(L5_2, L6_2)
         if 2 == L4_2 then
-          L6_2 = A0_2
-          L5_2 = A0_2.FED1CCF2D03F83AD3
+          L6_2 = self
+          L5_2 = self.FED1CCF2D03F83AD3
           L7_2 = L4_2
           L8_2 = 0
-          L9_2 = A0_2[3]
-          L10_2 = A0_2[2]
+          L9_2 = self[3]
+          L10_2 = self[2]
           L11_2 = "L_friend_info_00/"
           L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
         elseif 4 == L4_2 then
-          L6_2 = A0_2
-          L5_2 = A0_2.FED1CCF2D03F83AD3
+          L6_2 = self
+          L5_2 = self.FED1CCF2D03F83AD3
           L7_2 = L4_2
           L8_2 = 0
-          L9_2 = A0_2[3]
-          L10_2 = A0_2[2]
+          L9_2 = self[3]
+          L10_2 = self[2]
           L11_2 = "L_friend_info_01/"
           L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
         elseif 6 == L4_2 then
-          L6_2 = A0_2
-          L5_2 = A0_2.FED1CCF2D03F83AD3
+          L6_2 = self
+          L5_2 = self.FED1CCF2D03F83AD3
           L7_2 = L4_2
           L8_2 = 0
-          L9_2 = A0_2[3]
-          L10_2 = A0_2[2]
+          L9_2 = self[3]
+          L10_2 = self[2]
           L11_2 = "L_friend_info_02/"
           L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
         end
@@ -1503,30 +1460,30 @@ function L70_1(A0_2)
         L6_2 = L19_1
         L4_2 = L4_2(L5_2, L6_2)
         if 2 == L4_2 then
-          L6_2 = A0_2
-          L5_2 = A0_2.FFC76F5D3D1CA8174
+          L6_2 = self
+          L5_2 = self.FFC76F5D3D1CA8174
           L7_2 = L4_2
           L8_2 = 0
-          L9_2 = A0_2[3]
-          L10_2 = A0_2[2]
+          L9_2 = self[3]
+          L10_2 = self[2]
           L11_2 = "L_friend_info_00/"
           L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
         elseif 4 == L4_2 then
-          L6_2 = A0_2
-          L5_2 = A0_2.FFC76F5D3D1CA8174
+          L6_2 = self
+          L5_2 = self.FFC76F5D3D1CA8174
           L7_2 = L4_2
           L8_2 = 0
-          L9_2 = A0_2[3]
-          L10_2 = A0_2[2]
+          L9_2 = self[3]
+          L10_2 = self[2]
           L11_2 = "L_friend_info_01/"
           L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
         elseif 6 == L4_2 then
-          L6_2 = A0_2
-          L5_2 = A0_2.FFC76F5D3D1CA8174
+          L6_2 = self
+          L5_2 = self.FFC76F5D3D1CA8174
           L7_2 = L4_2
           L8_2 = 0
-          L9_2 = A0_2[3]
-          L10_2 = A0_2[2]
+          L9_2 = self[3]
+          L10_2 = self[2]
           L11_2 = "L_friend_info_02/"
           L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
         end
@@ -1535,150 +1492,141 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "F1A8C0B5789BA0368"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.UpdateInfo
+function CA28ADE1DBD09A3FE_prototype:F1A8C0B5789BA0368(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F67AA8D66977C3584
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.F0E33CE6FD7BD4E53
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
   if 2 == A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F4DA6C451B4204062
+    L4_2 = self
+    L3_2 = self.F4DA6C451B4204062
     L5_2 = L2_2
-    L6_2 = A0_2[3]
-    L7_2 = A0_2[2]
+    L6_2 = self[3]
+    L7_2 = self[2]
     L8_2 = "L_friend_info_00/"
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.FF74D6A46D30178D7
+    L4_2 = self
+    L3_2 = self.FF74D6A46D30178D7
     L5_2 = 0
     L6_2 = A1_2
     L3_2(L4_2, L5_2, L6_2)
   elseif 4 == A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F4DA6C451B4204062
+    L4_2 = self
+    L3_2 = self.F4DA6C451B4204062
     L5_2 = L2_2
-    L6_2 = A0_2[3]
-    L7_2 = A0_2[2]
+    L6_2 = self[3]
+    L7_2 = self[2]
     L8_2 = "L_friend_info_01/"
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.FF74D6A46D30178D7
+    L4_2 = self
+    L3_2 = self.FF74D6A46D30178D7
     L5_2 = 1
     L6_2 = A1_2
     L3_2(L4_2, L5_2, L6_2)
   elseif 6 == A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F4DA6C451B4204062
+    L4_2 = self
+    L3_2 = self.F4DA6C451B4204062
     L5_2 = L2_2
-    L6_2 = A0_2[3]
-    L7_2 = A0_2[2]
+    L6_2 = self[3]
+    L7_2 = self[2]
     L8_2 = "L_friend_info_02/"
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.FF74D6A46D30178D7
+    L4_2 = self
+    L3_2 = self.FF74D6A46D30178D7
     L5_2 = 2
     L6_2 = A1_2
     L3_2(L4_2, L5_2, L6_2)
   end
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L3_2 = L3_2[A1_2]
   L5_2 = L2_2
   L4_2 = L2_2.f55728F9C
   L6_2 = 13
   L4_2 = L4_2(L5_2, L6_2)
   L3_2.dispHp = L4_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F008DDB44F0350197
+  L4_2 = self
+  L3_2 = self.F008DDB44F0350197
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "F008DDB44F0350197"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.UpdateHpGauge
+function CA28ADE1DBD09A3FE_prototype:F008DDB44F0350197(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F67AA8D66977C3584
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if 2 == A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F65348348DAFD0886
+    L4_2 = self
+    L3_2 = self.F65348348DAFD0886
     L5_2 = A1_2
     L6_2 = L2_2
-    L7_2 = A0_2[3]
-    L8_2 = A0_2[2]
+    L7_2 = self[3]
+    L8_2 = self[2]
     L9_2 = "L_friend_info_00/"
     L10_2 = true
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
   elseif 4 == A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F65348348DAFD0886
+    L4_2 = self
+    L3_2 = self.F65348348DAFD0886
     L5_2 = A1_2
     L6_2 = L2_2
-    L7_2 = A0_2[3]
-    L8_2 = A0_2[2]
+    L7_2 = self[3]
+    L8_2 = self[2]
     L9_2 = "L_friend_info_01/"
     L10_2 = true
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
   elseif 6 == A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F65348348DAFD0886
+    L4_2 = self
+    L3_2 = self.F65348348DAFD0886
     L5_2 = A1_2
     L6_2 = L2_2
-    L7_2 = A0_2[3]
-    L8_2 = A0_2[2]
+    L7_2 = self[3]
+    L8_2 = self[2]
     L9_2 = "L_friend_info_02/"
     L10_2 = true
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "FA3DA04770C407124"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.UpdatePlayerIcon
+function CA28ADE1DBD09A3FE_prototype:FA3DA04770C407124()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L1_2 = cF27D739D
   L1_2 = L1_2.f7264D75B
   L2_2 = 5
   L1_2 = L1_2(L2_2)
   L2_2 = 0
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[7]
+    L5_2 = self[7]
     L5_2 = L5_2[L4_2]
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = L6_2
     L6_2 = L6_2.F66B251CF3F944938
     L8_2 = L5_2
     L6_2 = L6_2(L7_2, L8_2)
-    L7_2 = A0_2[6]
+    L7_2 = self[6]
     L7_2 = L7_2[L6_2]
     if not L7_2 then
       L8_2 = L1_2
       L7_2 = L1_2.f616C16A4
       L9_2 = CF1B91014068D2D0A
       L9_2 = L9_2.S3CD3343AAD740088
-      L10_2 = A0_2[1]
+      L10_2 = self[1]
       L11_2 = L5_2
       L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2 = L9_2(L10_2, L11_2)
       L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2)
@@ -1691,11 +1639,11 @@ function L70_1(A0_2)
         L10_2 = L7_2
         L8_2 = L8_2(L9_2, L10_2)
         if L8_2 then
-          L8_2 = A0_2[6]
+          L8_2 = self[6]
           L9_2 = cC65D64C8
           L9_2 = L9_2.fBDB981C5
           L10_2 = L7_2
-          L11_2 = A0_2[2]
+          L11_2 = self[2]
           L12_2 = L31_1.string
           L13_2 = L31_1.string
           L14_2 = "L_friend_info_0"
@@ -1716,12 +1664,12 @@ function L70_1(A0_2)
       else
         L8_2 = CF1B91014068D2D0A
         L8_2 = L8_2.S3603930C69111864
-        L9_2 = A0_2[1]
+        L9_2 = self[1]
         L10_2 = L5_2
         L8_2 = L8_2(L9_2, L10_2)
         if "" ~= L8_2 then
-          L9_2 = A0_2[6]
-          L10_2 = A0_2[3]
+          L9_2 = self[6]
+          L10_2 = self[3]
           L11_2 = L10_2
           L10_2 = L10_2.fC6FA21BA
           L12_2 = 3 + L4_2
@@ -1759,35 +1707,29 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "FBB08150DFE11AC30"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.GetInfoParam
+function CA28ADE1DBD09A3FE_prototype:FBB08150DFE11AC30(A1_2)
   local L2_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2[A1_2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA28ADE1DBD09A3FE"]["prototype"]
-L69_1 = "FF18E500164187380"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiRaidFriendInfo.FF18E500164187380
+function CA28ADE1DBD09A3FE_prototype:FF18E500164187380()
   local L1_2, L2_2, L3_2, L4_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FF74D6A46D30178D7
+  L2_2 = self
+  L1_2 = self.FF74D6A46D30178D7
   L3_2 = 0
   L4_2 = 2
   L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FF74D6A46D30178D7
+  L2_2 = self
+  L1_2 = self.FF74D6A46D30178D7
   L3_2 = 1
   L4_2 = 4
   L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FF74D6A46D30178D7
+  L2_2 = self
+  L1_2 = self.FF74D6A46D30178D7
   L3_2 = 2
   L4_2 = 6
   L1_2(L2_2, L3_2, L4_2)

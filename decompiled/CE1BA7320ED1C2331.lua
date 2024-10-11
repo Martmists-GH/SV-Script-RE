@@ -1,3 +1,7 @@
+---@alias CE1BA7320ED1C2331 main_encount_EncountLottery
+
+---@class main_encount_EncountLottery : CE1BA7320ED1C2331_prototype
+---@field prototype CE1BA7320ED1C2331_prototype
 L55_1 = _ENV
 L56_1 = "CE1BA7320ED1C2331"
 L57_1 = L15_1
@@ -41,23 +45,18 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CE1BA7320ED1C2331"]
 L69_1 = "__name__"
 L70_1 = "CE1BA7320ED1C2331"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "FCEEA7F4134055567"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@class CE1BA7320ED1C2331_prototype
+CE1BA7320ED1C2331_prototype = L15_1()
+CE1BA7320ED1C2331.prototype = CE1BA7320ED1C2331_prototype
+--- main.encount.EncountLottery.LotteryMain
+function CE1BA7320ED1C2331_prototype:FCEEA7F4134055567(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   L5_2 = L26_1.new
   L5_2 = L5_2()
   L6_2 = L26_1.new
   L6_2 = L6_2()
-  L8_2 = A0_2
-  L7_2 = A0_2.F2F6C7BBE115AFBCB
+  L8_2 = self
+  L7_2 = self.F2F6C7BBE115AFBCB
   L9_2 = A1_2
   L10_2 = A3_2
   L11_2 = A4_2
@@ -181,11 +180,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "F2F6C7BBE115AFBCB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.encount.EncountLottery.LotteryPokemon
+function CE1BA7320ED1C2331_prototype:F2F6C7BBE115AFBCB(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L6_2 = 0
   L7_2 = L15_1
@@ -197,7 +193,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L9_2 = cDD25B9DB
   L9_2 = L9_2.f4F92E4A5
   L9_2 = L9_2()
-  A0_2[2] = L9_2
+  self[2] = L9_2
   L9_2 = nil
   if nil ~= A2_2 then
     L11_2 = A2_2
@@ -212,8 +208,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
       L14_2 = L11_2
       L12_2 = L12_2(L13_2, L14_2)
       if L12_2 then
-        L13_2 = A0_2
-        L12_2 = A0_2.F45E44A60A5D5DFC1
+        L13_2 = self
+        L12_2 = self.F45E44A60A5D5DFC1
         L14_2 = A1_2
         L15_2 = L10_2
         L16_2 = L7_2
@@ -246,7 +242,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L10_2 = 0
   while L8_2 > L10_2 do
     L10_2 = L10_2 + 1
-    A0_2[1] = 0
+    self[1] = 0
     L11_2 = cFB7F03A4
     L11_2 = L11_2.f53AC4205
     L12_2 = L10_2 - 1
@@ -258,7 +254,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
       L0_3 = nil
       L1_3 = A3_2
       if not L1_3 then
-        L1_3 = A0_2
+        L1_3 = self
         L2_3 = L1_3
         L1_3 = L1_3.F67A9C2A9373A0AC6
         L3_3 = A1_2
@@ -267,7 +263,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
         L1_3 = L1_3(L2_3, L3_3, L4_3, L5_3)
         L0_3 = L1_3
       else
-        L1_3 = A0_2
+        L1_3 = self
         L2_3 = L1_3
         L1_3 = L1_3.F45E44A60A5D5DFC1
         L3_3 = A1_2
@@ -364,13 +360,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
         L16_2 = L13_2
         L14_2(L15_2, L16_2)
       else
-        L13_2 = A0_2[1]
+        L13_2 = self[1]
         if 0 ~= L13_2 then
-          L13_2 = A0_2[1]
+          L13_2 = self[1]
           L6_2 = L6_2 + L13_2
           L14_2 = A5_2
           L13_2 = A5_2.push
-          L15_2 = A0_2[1]
+          L15_2 = self[1]
           L13_2(L14_2, L15_2)
         else
           L14_2 = L11_2
@@ -392,14 +388,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "F67A9C2A9373A0AC6"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.encount.EncountLottery.LotteryOneData
+function CE1BA7320ED1C2331_prototype:F67A9C2A9373A0AC6(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FDD49633B07553677
+  L5_2 = self
+  L4_2 = self.FDD49633B07553677
   L6_2 = A1_2
   L7_2 = A2_2
   L4_2 = L4_2(L5_2, L6_2, L7_2)
@@ -415,8 +408,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   if L5_2 then
     L4_2 = true
   else
-    L6_2 = A0_2
-    L5_2 = A0_2.F3CC4A1292F2B4947
+    L6_2 = self
+    L5_2 = self.F3CC4A1292F2B4947
     L7_2 = "CheckArea"
     L5_2(L6_2, L7_2)
     L4_2 = false
@@ -427,14 +420,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
   L5_2 = A3_2.rayResult
   if nil == L5_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.F54E536CE2E580FE2
+    L6_2 = self
+    L5_2 = self.F54E536CE2E580FE2
     L7_2 = A1_2
     L5_2 = L5_2(L6_2, L7_2)
     A3_2.rayResult = L5_2
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.FE0425CCD9B2AA29B
+  L6_2 = self
+  L5_2 = self.FE0425CCD9B2AA29B
   L7_2 = A1_2
   L8_2 = A2_2
   L9_2 = A3_2.rayResult
@@ -443,8 +436,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L5_2 = false
     return L5_2
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.FEBF2C34B5FCB3E58
+  L6_2 = self
+  L5_2 = self.FEBF2C34B5FCB3E58
   L7_2 = A1_2
   L8_2 = A2_2
   L5_2 = L5_2(L6_2, L7_2, L8_2)
@@ -452,8 +445,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L5_2 = false
     return L5_2
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.FF8167B710C9837D6
+  L6_2 = self
+  L5_2 = self.FF8167B710C9837D6
   L7_2 = A1_2
   L8_2 = A2_2
   L5_2 = L5_2(L6_2, L7_2, L8_2)
@@ -461,8 +454,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L5_2 = false
     return L5_2
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.FD652B2F57FF5E3C9
+  L6_2 = self
+  L5_2 = self.FD652B2F57FF5E3C9
   L7_2 = A1_2
   L8_2 = A2_2
   L5_2 = L5_2(L6_2, L7_2, L8_2)
@@ -470,8 +463,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L5_2 = false
     return L5_2
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F988CE9DC9DB08BB9
+  L6_2 = self
+  L5_2 = self.F988CE9DC9DB08BB9
   L7_2 = A1_2
   L8_2 = A2_2
   L5_2 = L5_2(L6_2, L7_2, L8_2)
@@ -518,8 +511,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   if L7_2 then
     L6_2 = true
   else
-    L8_2 = A0_2
-    L7_2 = A0_2.F3CC4A1292F2B4947
+    L8_2 = self
+    L7_2 = self.F3CC4A1292F2B4947
     L9_2 = "CheckLocation"
     L7_2(L8_2, L9_2)
     L6_2 = false
@@ -528,8 +521,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L7_2 = false
     return L7_2
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.F5FA408062AE2EFB1
+  L8_2 = self
+  L7_2 = self.F5FA408062AE2EFB1
   L9_2 = A1_2
   L10_2 = A2_2
   L7_2 = L7_2(L8_2, L9_2, L10_2)
@@ -541,14 +534,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "F45E44A60A5D5DFC1"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.encount.EncountLottery.F45E44A60A5D5DFC1
+function CE1BA7320ED1C2331_prototype:F45E44A60A5D5DFC1(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L7_2 = A0_2
-  L6_2 = A0_2.FDD49633B07553677
+  L7_2 = self
+  L6_2 = self.FDD49633B07553677
   L8_2 = A1_2
   L9_2 = A2_2
   L6_2 = L6_2(L7_2, L8_2, L9_2)
@@ -564,8 +554,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   if L7_2 then
     L6_2 = true
   else
-    L8_2 = A0_2
-    L7_2 = A0_2.F3CC4A1292F2B4947
+    L8_2 = self
+    L7_2 = self.F3CC4A1292F2B4947
     L9_2 = "CheckArea"
     L7_2(L8_2, L9_2)
     L6_2 = false
@@ -577,14 +567,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   if not A4_2 then
     L7_2 = A3_2.rayResult
     if nil == L7_2 then
-      L8_2 = A0_2
-      L7_2 = A0_2.F54E536CE2E580FE2
+      L8_2 = self
+      L7_2 = self.F54E536CE2E580FE2
       L9_2 = A1_2
       L7_2 = L7_2(L8_2, L9_2)
       A3_2.rayResult = L7_2
     end
-    L8_2 = A0_2
-    L7_2 = A0_2.FE0425CCD9B2AA29B
+    L8_2 = self
+    L7_2 = self.FE0425CCD9B2AA29B
     L9_2 = A1_2
     L10_2 = A2_2
     L11_2 = A3_2.rayResult
@@ -594,8 +584,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
       return L7_2
     end
   else
-    L8_2 = A0_2
-    L7_2 = A0_2.FA8002F8DB2DCFB58
+    L8_2 = self
+    L7_2 = self.FA8002F8DB2DCFB58
     L9_2 = A1_2
     L10_2 = A2_2
     L7_2 = L7_2(L8_2, L9_2, L10_2)
@@ -604,8 +594,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
       return L7_2
     end
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.FEBF2C34B5FCB3E58
+  L8_2 = self
+  L7_2 = self.FEBF2C34B5FCB3E58
   L9_2 = A1_2
   L10_2 = A2_2
   L7_2 = L7_2(L8_2, L9_2, L10_2)
@@ -613,8 +603,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L7_2 = false
     return L7_2
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.FD652B2F57FF5E3C9
+  L8_2 = self
+  L7_2 = self.FD652B2F57FF5E3C9
   L9_2 = A1_2
   L10_2 = A2_2
   L7_2 = L7_2(L8_2, L9_2, L10_2)
@@ -622,8 +612,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L7_2 = false
     return L7_2
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.F988CE9DC9DB08BB9
+  L8_2 = self
+  L7_2 = self.F988CE9DC9DB08BB9
   L9_2 = A1_2
   L10_2 = A2_2
   L7_2 = L7_2(L8_2, L9_2, L10_2)
@@ -671,8 +661,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     if L9_2 then
       L8_2 = true
     else
-      L10_2 = A0_2
-      L9_2 = A0_2.F3CC4A1292F2B4947
+      L10_2 = self
+      L9_2 = self.F3CC4A1292F2B4947
       L11_2 = "CheckLocation"
       L9_2(L10_2, L11_2)
       L8_2 = false
@@ -682,8 +672,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
       return L9_2
     end
   else
-    L8_2 = A0_2
-    L7_2 = A0_2.F823269FFA63FFEE1
+    L8_2 = self
+    L7_2 = self.F823269FFA63FFEE1
     L9_2 = A1_2
     L10_2 = A2_2
     L7_2 = L7_2(L8_2, L9_2, L10_2)
@@ -693,8 +683,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     end
   end
   if not A5_2 then
-    L8_2 = A0_2
-    L7_2 = A0_2.F5FA408062AE2EFB1
+    L8_2 = self
+    L7_2 = self.F5FA408062AE2EFB1
     L9_2 = A1_2
     L10_2 = A2_2
     L7_2 = L7_2(L8_2, L9_2, L10_2)
@@ -707,11 +697,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "F5FA408062AE2EFB1"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountLottery.CheckBiome
+function CE1BA7320ED1C2331_prototype:F5FA408062AE2EFB1(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = A1_2.biome
   L5_2 = A2_2
@@ -721,7 +708,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = A2_2
     L3_2 = A2_2.f1F3E99D8
     L3_2 = L3_2(L4_2)
-    A0_2[1] = L3_2
+    self[1] = L3_2
     L3_2 = true
     return L3_2
   end
@@ -733,7 +720,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = A2_2
     L3_2 = A2_2.f91B19E3B
     L3_2 = L3_2(L4_2)
-    A0_2[1] = L3_2
+    self[1] = L3_2
     L3_2 = true
     return L3_2
   end
@@ -745,7 +732,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = A2_2
     L3_2 = A2_2.f5D1B9EA5
     L3_2 = L3_2(L4_2)
-    A0_2[1] = L3_2
+    self[1] = L3_2
     L3_2 = true
     return L3_2
   end
@@ -757,31 +744,28 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = A2_2
     L3_2 = A2_2.f57DE97BC
     L3_2 = L3_2(L4_2)
-    A0_2[1] = L3_2
+    self[1] = L3_2
     L3_2 = true
     return L3_2
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F3CC4A1292F2B4947
+  L4_2 = self
+  L3_2 = self.F3CC4A1292F2B4947
   L5_2 = "CheckBiome"
   L3_2(L4_2, L5_2)
   L3_2 = false
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "FDD49633B07553677"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountLottery.CheckLevel
+function CE1BA7320ED1C2331_prototype:FDD49633B07553677(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = A1_2.max_level
   L5_2 = A2_2
   L4_2 = A2_2.f4646F546
   L4_2 = L4_2(L5_2)
   if L3_2 < L4_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F3CC4A1292F2B4947
+    L4_2 = self
+    L3_2 = self.F3CC4A1292F2B4947
     L5_2 = "CheckLevel"
     L3_2(L4_2, L5_2)
     L3_2 = false
@@ -792,8 +776,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = A2_2.f61FD9277
   L4_2 = L4_2(L5_2)
   if L3_2 > L4_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F3CC4A1292F2B4947
+    L4_2 = self
+    L3_2 = self.F3CC4A1292F2B4947
     L5_2 = "CheckLevel"
     L3_2(L4_2, L5_2)
     L3_2 = false
@@ -803,11 +787,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "F54E536CE2E580FE2"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountLottery.TryRay
+function CE1BA7320ED1C2331_prototype:F54E536CE2E580FE2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2
   L2_2 = A1_2.pos
   L3_2 = L2_2[1]
@@ -888,11 +869,8 @@ function L70_1(A0_2, A1_2)
   return L10_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "FEE5C232731993517"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountLottery.FEE5C232731993517
+function CE1BA7320ED1C2331_prototype:FEE5C232731993517(A1_2, A2_2)
   if A1_2 < A2_2 then
     return A1_2
   else
@@ -900,11 +878,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "FE0425CCD9B2AA29B"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.encount.EncountLottery.CheckCategory
+function CE1BA7320ED1C2331_prototype:FE0425CCD9B2AA29B(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L4_2 = false
   L5_2 = false
@@ -1016,19 +991,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L11_2 = true
     return L11_2
   end
-  L12_2 = A0_2
-  L11_2 = A0_2.F3CC4A1292F2B4947
+  L12_2 = self
+  L11_2 = self.F3CC4A1292F2B4947
   L13_2 = "CheckCategory"
   L11_2(L12_2, L13_2)
   L11_2 = false
   return L11_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "FA8002F8DB2DCFB58"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountLottery.FA8002F8DB2DCFB58
+function CE1BA7320ED1C2331_prototype:FA8002F8DB2DCFB58(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = A1_2.enable_table
   L5_2 = A2_2
@@ -1084,19 +1056,16 @@ function L70_1(A0_2, A1_2, A2_2)
       return L5_2
     end
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F3CC4A1292F2B4947
+  L6_2 = self
+  L5_2 = self.F3CC4A1292F2B4947
   L7_2 = "CheckCategoryParam"
   L5_2(L6_2, L7_2)
   L5_2 = false
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "FEBF2C34B5FCB3E58"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountLottery.CheckHeight
+function CE1BA7320ED1C2331_prototype:FEBF2C34B5FCB3E58(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L4_2 = A2_2
   L3_2 = A2_2.fA8F07D10
@@ -1108,8 +1077,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = A2_2.fA8F07D10
     L4_2 = L4_2(L5_2)
     if L3_2 < L4_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F3CC4A1292F2B4947
+      L4_2 = self
+      L3_2 = self.F3CC4A1292F2B4947
       L5_2 = "CheckHeight"
       L3_2(L4_2, L5_2)
       L3_2 = false
@@ -1126,8 +1095,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = A2_2.fF909C64D
     L4_2 = L4_2(L5_2)
     if L3_2 > L4_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F3CC4A1292F2B4947
+      L4_2 = self
+      L3_2 = self.F3CC4A1292F2B4947
       L5_2 = "CheckHeight"
       L3_2(L4_2, L5_2)
       L3_2 = false
@@ -1138,11 +1107,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "FB21D0005B773107A"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountLottery.CheckArea
+function CE1BA7320ED1C2331_prototype:FB21D0005B773107A(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L4_2 = A2_2
   L3_2 = A2_2.fE7D7824D
@@ -1152,19 +1118,16 @@ function L70_1(A0_2, A1_2, A2_2)
     L3_2 = true
     return L3_2
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F3CC4A1292F2B4947
+  L4_2 = self
+  L3_2 = self.F3CC4A1292F2B4947
   L5_2 = "CheckArea"
   L3_2(L4_2, L5_2)
   L3_2 = false
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "FD45091BAC881E790"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.encount.EncountLottery.CheckLocation
+function CE1BA7320ED1C2331_prototype:FD45091BAC881E790(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2
   
   function L4_2()
@@ -1189,19 +1152,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L4_2 = true
     return L4_2
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F3CC4A1292F2B4947
+  L5_2 = self
+  L4_2 = self.F3CC4A1292F2B4947
   L6_2 = "CheckLocation"
   L4_2(L5_2, L6_2)
   L4_2 = false
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "F823269FFA63FFEE1"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountLottery.F823269FFA63FFEE1
+function CE1BA7320ED1C2331_prototype:F823269FFA63FFEE1(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L4_2 = A2_2
   L3_2 = A2_2.fC9941B79
@@ -1218,19 +1178,16 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2 = true
   do return L3_2 end
   ::lbl_12::
-  L4_2 = A0_2
-  L3_2 = A0_2.F3CC4A1292F2B4947
+  L4_2 = self
+  L3_2 = self.F3CC4A1292F2B4947
   L5_2 = "CheckLocationParam"
   L3_2(L4_2, L5_2)
   L3_2 = false
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "FF8167B710C9837D6"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountLottery.CheckTime
+function CE1BA7320ED1C2331_prototype:FF8167B710C9837D6(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = C05D9E556B496A3DF
   L3_2 = L3_2.SC8223E31D3163519
@@ -1286,19 +1243,16 @@ function L70_1(A0_2, A1_2, A2_2)
       return L5_2
     end
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F3CC4A1292F2B4947
+  L6_2 = self
+  L5_2 = self.F3CC4A1292F2B4947
   L7_2 = "CheckTime"
   L5_2(L6_2, L7_2)
   L5_2 = false
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "F988CE9DC9DB08BB9"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountLottery.CheckFlag
+function CE1BA7320ED1C2331_prototype:F988CE9DC9DB08BB9(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = nil
   L5_2 = A2_2
@@ -1324,21 +1278,18 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = true
     return L4_2
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F3CC4A1292F2B4947
+  L5_2 = self
+  L4_2 = self.F3CC4A1292F2B4947
   L6_2 = "CheckFlag"
   L4_2(L5_2, L6_2)
   L4_2 = false
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "FD652B2F57FF5E3C9"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountLottery.CheckVersion
+function CE1BA7320ED1C2331_prototype:FD652B2F57FF5E3C9(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   if 0 == L3_2 then
     L4_2 = A2_2
     L3_2 = A2_2.fBE422FB4
@@ -1351,7 +1302,7 @@ function L70_1(A0_2, A1_2, A2_2)
       return L3_2
     end
   end
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   if 1 == L3_2 then
     L4_2 = A2_2
     L3_2 = A2_2.fBE422FB4
@@ -1364,19 +1315,16 @@ function L70_1(A0_2, A1_2, A2_2)
       return L3_2
     end
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F3CC4A1292F2B4947
+  L4_2 = self
+  L3_2 = self.F3CC4A1292F2B4947
   L5_2 = "CheckVersion"
   L3_2(L4_2, L5_2)
   L3_2 = false
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1BA7320ED1C2331"]["prototype"]
-L69_1 = "F3CC4A1292F2B4947"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountLottery.DumpLog
+function CE1BA7320ED1C2331_prototype:F3CC4A1292F2B4947(A1_2)
 end
 
 L68_1[L69_1] = L70_1

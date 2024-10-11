@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C51ADDCB57D6F59D9"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C51ADDCB57D6F59D9"]
-L69_1 = "new"
+---@alias C51ADDCB57D6F59D9 main_ui_fade_LayoutEventFadeObject
 
-function L70_1(A0_2)
+---@class main_ui_fade_LayoutEventFadeObject : C51ADDCB57D6F59D9_prototype
+---@field prototype C51ADDCB57D6F59D9_prototype
+C51ADDCB57D6F59D9 = L15_1()
+function C51ADDCB57D6F59D9.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C51ADDCB57D6F59D9
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51ADDCB57D6F59D9"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C51ADDCB57D6F59D9
+function C51ADDCB57D6F59D9.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C51ADDCB57D6F59D9"]
 L69_1 = "__name__"
 L70_1 = "C51ADDCB57D6F59D9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51ADDCB57D6F59D9"]
-L69_1 = "S120F3807BD4C22FE"
-
-function L70_1()
+--- main.ui.fade.LayoutEventFadeObject.In
+function C51ADDCB57D6F59D9.S120F3807BD4C22FE()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cECF00344
@@ -71,11 +62,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51ADDCB57D6F59D9"]
-L69_1 = "SEA575B269E476B3F"
-
-function L70_1()
+--- main.ui.fade.LayoutEventFadeObject.Out
+function C51ADDCB57D6F59D9.SEA575B269E476B3F()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cECF00344
@@ -121,11 +109,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51ADDCB57D6F59D9"]
-L69_1 = "S60DD6554228290A5"
-
-function L70_1()
+--- main.ui.fade.LayoutEventFadeObject.IsEndIn
+function C51ADDCB57D6F59D9.S60DD6554228290A5()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cECF00344
@@ -146,11 +131,8 @@ function L70_1()
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51ADDCB57D6F59D9"]
-L69_1 = "S2D1C62F6AE89F70E"
-
-function L70_1()
+--- main.ui.fade.LayoutEventFadeObject.IsEndOut
+function C51ADDCB57D6F59D9.S2D1C62F6AE89F70E()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cECF00344
@@ -171,11 +153,8 @@ function L70_1()
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51ADDCB57D6F59D9"]
-L69_1 = "S37DA1BB732E46529"
-
-function L70_1(A0_2)
+--- main.ui.fade.LayoutEventFadeObject.SetLayout
+function C51ADDCB57D6F59D9.S37DA1BB732E46529(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C51ADDCB57D6F59D9
   L2_2 = cECF00344
@@ -185,11 +164,8 @@ function L70_1(A0_2)
   L1_2.SD0297389167D38FF = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51ADDCB57D6F59D9"]
-L69_1 = "S2682B19B6C78D0E2"
-
-function L70_1()
+--- main.ui.fade.LayoutEventFadeObject.Clear
+function C51ADDCB57D6F59D9.S2682B19B6C78D0E2()
   local L0_2, L1_2, L2_2
   L0_2 = C51ADDCB57D6F59D9
   L0_2 = L0_2.SD0297389167D38FF
@@ -206,19 +182,14 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51ADDCB57D6F59D9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51ADDCB57D6F59D9"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C51ADDCB57D6F59D9_prototype
+C51ADDCB57D6F59D9_prototype = L15_1()
+C51ADDCB57D6F59D9.prototype = C51ADDCB57D6F59D9_prototype
+--- main.ui.fade.LayoutEventFadeObject.Setup
+function C51ADDCB57D6F59D9_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2
   L2_2 = C51ADDCB57D6F59D9
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2.S78C60F2C21C6B49A = L3_2
   L2_2 = C51ADDCB57D6F59D9
   L2_2 = L2_2.S78C60F2C21C6B49A
@@ -227,11 +198,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51ADDCB57D6F59D9"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.fade.LayoutEventFadeObject.PreUpdate
+function C51ADDCB57D6F59D9_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = nil
   L3_2 = cECF00344

@@ -1,3 +1,7 @@
+---@alias CDBAF45097F5C581B main_event_debug_ci_Debug_ci_check_loading
+
+---@class main_event_debug_ci_Debug_ci_check_loading : CDBAF45097F5C581B_prototype
+---@field prototype CDBAF45097F5C581B_prototype
 L55_1 = _ENV
 L56_1 = "CDBAF45097F5C581B"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CDBAF45097F5C581B"]
 L69_1 = "__name__"
 L70_1 = "CDBAF45097F5C581B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDBAF45097F5C581B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDBAF45097F5C581B"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CDBAF45097F5C581B_prototype
+CDBAF45097F5C581B_prototype = L15_1()
+CDBAF45097F5C581B.prototype = CDBAF45097F5C581B_prototype
+--- main.event.debug.ci.Debug_ci_check_loading.mainBody
+function CDBAF45097F5C581B_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = _hx_tab_array
   L2_2 = {}

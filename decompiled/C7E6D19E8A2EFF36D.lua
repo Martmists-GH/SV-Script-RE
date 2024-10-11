@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C7E6D19E8A2EFF36D"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C7E6D19E8A2EFF36D"]
-L69_1 = "new"
+---@alias C7E6D19E8A2EFF36D main_savedata_accessor_EncountOutbreakSaveAccessor
 
-function L70_1()
+---@class main_savedata_accessor_EncountOutbreakSaveAccessor : C7E6D19E8A2EFF36D_prototype
+---@field prototype C7E6D19E8A2EFF36D_prototype
+C7E6D19E8A2EFF36D = L15_1()
+function C7E6D19E8A2EFF36D.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C7E6D19E8A2EFF36D
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E6D19E8A2EFF36D"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C7E6D19E8A2EFF36D
+function C7E6D19E8A2EFF36D.super(A0_2)
   local L1_2, L2_2
   L1_2 = C1DAF90683584C5A0
   L1_2 = L1_2.super
@@ -33,11 +27,7 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E6D19E8A2EFF36D"]
-L69_1 = "__name__"
-L70_1 = "C7E6D19E8A2EFF36D"
-L68_1[L69_1] = L70_1
+C7E6D19E8A2EFF36D.__name__ = "C7E6D19E8A2EFF36D"
 L68_1 = _ENV["C7E6D19E8A2EFF36D"]
 L69_1 = "S505B9BA0599B1BB6"
 
@@ -66,16 +56,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E6D19E8A2EFF36D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E6D19E8A2EFF36D"]["prototype"]
-L69_1 = "FC580B87FDF415E58"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class C7E6D19E8A2EFF36D_prototype
+C7E6D19E8A2EFF36D_prototype = L15_1()
+C7E6D19E8A2EFF36D.prototype = C7E6D19E8A2EFF36D_prototype
+--- main.savedata.accessor.EncountOutbreakSaveAccessor.FC580B87FDF415E58
+function C7E6D19E8A2EFF36D_prototype:FC580B87FDF415E58(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L3_2 = L16_1
   L4_2 = {}
@@ -437,13 +422,10 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E6D19E8A2EFF36D"]["prototype"]
-L69_1 = "F042B860498E558B2"
-
-function L70_1(A0_2)
+--- main.savedata.accessor.EncountOutbreakSaveAccessor.Format
+function C7E6D19E8A2EFF36D_prototype:F042B860498E558B2()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = "EncountOutbreakSave"
   L3_2 = C4FA38E6F845A4A51
   L3_2 = L3_2.SFED404825799B099
@@ -570,11 +552,8 @@ function L70_1(A0_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E6D19E8A2EFF36D"]["prototype"]
-L69_1 = "FA7B9750360BF2368"
-
-function L70_1(A0_2)
+--- main.savedata.accessor.EncountOutbreakSaveAccessor.Save
+function C7E6D19E8A2EFF36D_prototype:FA7B9750360BF2368()
   local L1_2, L2_2, L3_2
   L1_2 = C4EE52E49562F8277
   L1_2 = L1_2.SEF7B7EB6D2DB3393
@@ -849,11 +828,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E6D19E8A2EFF36D"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2)
+--- main.savedata.accessor.EncountOutbreakSaveAccessor.Load
+function C7E6D19E8A2EFF36D_prototype:F6C5D0398122A6629()
   local L1_2
   L1_2 = CF5708627F06AEA2A
   L1_2 = L1_2.SA2151A5A4CE83990

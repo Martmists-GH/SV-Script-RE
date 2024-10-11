@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CD55465D82AD2C978"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CD55465D82AD2C978"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD55465D82AD2C978"]
-L69_1 = "__name__"
-L70_1 = "CD55465D82AD2C978"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD55465D82AD2C978"]
-L69_1 = "SE3599883D8A61A0E"
+---@alias CD55465D82AD2C978 main_event_base_BaseEventUtil
 
-function L70_1(A0_2, A1_2)
+---@class main_event_base_BaseEventUtil
+CD55465D82AD2C978 = L15_1()
+CD55465D82AD2C978.new = {}
+CD55465D82AD2C978.__name__ = "CD55465D82AD2C978"
+--- main.event.base.BaseEventUtil.SetCommonSetting
+function CD55465D82AD2C978.SE3599883D8A61A0E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = nil
   L3_2 = c023144F8
@@ -149,11 +140,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD55465D82AD2C978"]
-L69_1 = "SF603A2741AD3909C"
-
-function L70_1()
+--- main.event.base.BaseEventUtil.SF603A2741AD3909C
+function CD55465D82AD2C978.SF603A2741AD3909C()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = CCD22EFED4E9E5F89
   L0_2 = L0_2.S92F44AA7751BA6FC
@@ -223,11 +211,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD55465D82AD2C978"]
-L69_1 = "S45CEA0754072DDDA"
-
-function L70_1(A0_2)
+--- main.event.base.BaseEventUtil.DeleteSymbol
+function CD55465D82AD2C978.S45CEA0754072DDDA(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S212306608C652DCA
@@ -236,11 +221,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD55465D82AD2C978"]
-L69_1 = "SDF29267E0999FE15"
-
-function L70_1(A0_2)
+--- main.event.base.BaseEventUtil.DeleteNpc
+function CD55465D82AD2C978.SDF29267E0999FE15(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA412F80CB1F1E083
   L1_2 = L1_2.S3AC900C595C9D6DA
@@ -249,11 +231,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD55465D82AD2C978"]
-L69_1 = "SE89C52580A78E1F6"
-
-function L70_1(A0_2)
+--- main.event.base.BaseEventUtil.DeleteNpcTraffic
+function CD55465D82AD2C978.SE89C52580A78E1F6(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CAA65E782763AD2EF
   L1_2 = L1_2.S264F26F6894F3392
@@ -263,11 +242,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD55465D82AD2C978"]
-L69_1 = "S537A84C779EB63B0"
-
-function L70_1(A0_2)
+--- main.event.base.BaseEventUtil.EffectDisable
+function CD55465D82AD2C978.S537A84C779EB63B0(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
   L2_2 = CD55465D82AD2C978
@@ -290,11 +266,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD55465D82AD2C978"]
-L69_1 = "S949548F100BD2F09"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.base.BaseEventUtil.AreaDynamicExclude
+function CD55465D82AD2C978.S949548F100BD2F09(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L3_2 = CDCBFD50A277E546D
   L3_2 = L3_2.S6612534C26E6ACEC
@@ -428,11 +401,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD55465D82AD2C978"]
-L69_1 = "S4E83502EEE46D57F"
-
-function L70_1(A0_2)
+--- main.event.base.BaseEventUtil.AreaDynamicExcludeSuspend
+function CD55465D82AD2C978.S4E83502EEE46D57F(A0_2)
   local L1_2, L2_2
   L1_2 = C6C53F5DDF74F5897
   L1_2 = L1_2.S305D16B6341A8088
@@ -444,11 +414,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD55465D82AD2C978"]
-L69_1 = "SA7FA0CB34A8F442D"
-
-function L70_1(A0_2)
+--- main.event.base.BaseEventUtil.EventCharaDelete
+function CD55465D82AD2C978.SA7FA0CB34A8F442D(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA365C8AF

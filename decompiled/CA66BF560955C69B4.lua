@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CA66BF560955C69B4"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "new"
+---@alias CA66BF560955C69B4 main_env_weather_WeatherManager
 
-function L70_1(A0_2)
+---@class main_env_weather_WeatherManager : CA66BF560955C69B4_prototype
+---@field prototype CA66BF560955C69B4_prototype
+CA66BF560955C69B4 = L15_1()
+function CA66BF560955C69B4.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CA66BF560955C69B4
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CA66BF560955C69B4
+function CA66BF560955C69B4.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CA66BF560955C69B4"]
 L69_1 = "__name__"
 L70_1 = "CA66BF560955C69B4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "SB4B5759D65F5972C"
-
-function L70_1(A0_2, A1_2)
+--- main.env.weather.WeatherManager.SB4B5759D65F5972C
+function CA66BF560955C69B4.SB4B5759D65F5972C(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CA66BF560955C69B4
   L2_2 = L2_2.SC8223E31D3163519
@@ -57,11 +48,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "SD116FBCCD47245CD"
-
-function L70_1(A0_2)
+--- main.env.weather.WeatherManager.SD116FBCCD47245CD
+function CA66BF560955C69B4.SD116FBCCD47245CD(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -71,11 +59,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S88ABE885C8E33C8E"
-
-function L70_1(A0_2)
+--- main.env.weather.WeatherManager.S88ABE885C8E33C8E
+function CA66BF560955C69B4.S88ABE885C8E33C8E(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -85,11 +70,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "SF42297B52592C534"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.env.weather.WeatherManager.FixWeather
+function CA66BF560955C69B4.SF42297B52592C534(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = CA66BF560955C69B4
   L3_2 = L3_2.SC8223E31D3163519
@@ -101,11 +83,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S94E16271BD3B6E0C"
-
-function L70_1(A0_2)
+--- main.env.weather.WeatherManager.UpdateWeatherBySchedule
+function CA66BF560955C69B4.S94E16271BD3B6E0C(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -115,11 +94,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S86341B7D94F32542"
-
-function L70_1(A0_2, A1_2)
+--- main.env.weather.WeatherManager.RestoreDefaultWeather
+function CA66BF560955C69B4.S86341B7D94F32542(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CA66BF560955C69B4
   L2_2 = L2_2.SC8223E31D3163519
@@ -130,11 +106,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S77B617A62FE10AF9"
-
-function L70_1()
+--- main.env.weather.WeatherManager.S77B617A62FE10AF9
+function CA66BF560955C69B4.S77B617A62FE10AF9()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -158,11 +131,8 @@ function L70_1()
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S04D149DCA86F800F"
-
-function L70_1()
+--- main.env.weather.WeatherManager.IsWeatherFixed
+function CA66BF560955C69B4.S04D149DCA86F800F()
   local L0_2, L1_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -178,11 +148,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "SE1493216E22D85B6"
-
-function L70_1(A0_2)
+--- main.env.weather.WeatherManager.SE1493216E22D85B6
+function CA66BF560955C69B4.SE1493216E22D85B6(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -195,11 +162,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S9191B545B68EC8BB"
-
-function L70_1(A0_2)
+--- main.env.weather.WeatherManager.RegistListener
+function CA66BF560955C69B4.S9191B545B68EC8BB(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -209,11 +173,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S58EF529F6D0A954C"
-
-function L70_1(A0_2)
+--- main.env.weather.WeatherManager.FixLight
+function CA66BF560955C69B4.S58EF529F6D0A954C(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -259,11 +220,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "SFED6DFC24DA46109"
-
-function L70_1()
+--- main.env.weather.WeatherManager.FixGemLight
+function CA66BF560955C69B4.SFED6DFC24DA46109()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -309,11 +267,8 @@ function L70_1()
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S4644857FE48F3111"
-
-function L70_1()
+--- main.env.weather.WeatherManager.ResetGemLight
+function CA66BF560955C69B4.S4644857FE48F3111()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -354,11 +309,8 @@ function L70_1()
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "SB117DE28B83C7406"
-
-function L70_1()
+--- main.env.weather.WeatherManager.RestoreDefaultLight
+function CA66BF560955C69B4.SB117DE28B83C7406()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -393,11 +345,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S9A88C5C61CF71CBB"
-
-function L70_1()
+--- main.env.weather.WeatherManager.IsLightFixed
+function CA66BF560955C69B4.S9A88C5C61CF71CBB()
   local L0_2, L1_2, L2_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -407,11 +356,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S6DA8357EAF07E5D1"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.env.weather.WeatherManager.OverwriteAreaLight
+function CA66BF560955C69B4.S6DA8357EAF07E5D1(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = CA66BF560955C69B4
   L3_2 = L3_2.SC8223E31D3163519
@@ -423,11 +369,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S719BBB9B28F07743"
-
-function L70_1(A0_2)
+--- main.env.weather.WeatherManager.ResetAreaLight
+function CA66BF560955C69B4.S719BBB9B28F07743(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -437,11 +380,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S7F58C1C1C1936899"
-
-function L70_1(A0_2)
+--- main.env.weather.WeatherManager.RemoveListener
+function CA66BF560955C69B4.S7F58C1C1C1936899(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -451,11 +391,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S6EB79EDA6243D7B2"
-
-function L70_1(A0_2)
+--- main.env.weather.WeatherManager.LotteryWeatherHappening
+function CA66BF560955C69B4.S6EB79EDA6243D7B2(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -479,11 +416,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S9B2711059BD10366"
-
-function L70_1()
+--- main.env.weather.WeatherManager.IsChanging
+function CA66BF560955C69B4.S9B2711059BD10366()
   local L0_2, L1_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -495,11 +429,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "SFE94C226821A5232"
-
-function L70_1(A0_2)
+--- main.env.weather.WeatherManager.SetEnvChangeSpan
+function CA66BF560955C69B4.SFE94C226821A5232(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -515,11 +446,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S48FAB23AAE71DAF6"
-
-function L70_1()
+--- main.env.weather.WeatherManager.GetEnvChangeSpan
+function CA66BF560955C69B4.S48FAB23AAE71DAF6()
   local L0_2, L1_2, L2_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -530,11 +458,8 @@ function L70_1()
   return L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "SCD581AE8B98326BF"
-
-function L70_1()
+--- main.env.weather.WeatherManager.ResetEnvChangeSpan
+function CA66BF560955C69B4.SCD581AE8B98326BF()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -562,11 +487,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S673A2139C10E9F2B"
-
-function L70_1()
+--- main.env.weather.WeatherManager.BeginSyncWeather
+function CA66BF560955C69B4.S673A2139C10E9F2B()
   local L0_2, L1_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -576,11 +498,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S7E44AA30D4F2D5DA"
-
-function L70_1(A0_2)
+--- main.env.weather.WeatherManager.SyncWeather
+function CA66BF560955C69B4.S7E44AA30D4F2D5DA(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -591,11 +510,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S75942D5A439C1194"
-
-function L70_1()
+--- main.env.weather.WeatherManager.get_WeatherController
+function CA66BF560955C69B4.S75942D5A439C1194()
   local L0_2, L1_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -603,11 +519,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "SDB0B955173CFCB04"
-
-function L70_1()
+--- main.env.weather.WeatherManager.SDB0B955173CFCB04
+function CA66BF560955C69B4.SDB0B955173CFCB04()
   local L0_2, L1_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -617,11 +530,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S140D4AF66303E453"
-
-function L70_1()
+--- main.env.weather.WeatherManager.get_CurrentWeatherType
+function CA66BF560955C69B4.S140D4AF66303E453()
   local L0_2, L1_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -630,11 +540,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S75913830658A499B"
-
-function L70_1()
+--- main.env.weather.WeatherManager.get_PrevWeatherType
+function CA66BF560955C69B4.S75913830658A499B()
   local L0_2, L1_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -642,11 +549,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S8450E23FF2FCF710"
-
-function L70_1()
+--- main.env.weather.WeatherManager.get_LightUpdateInterval
+function CA66BF560955C69B4.S8450E23FF2FCF710()
   local L0_2, L1_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -655,11 +559,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S02AAB7CF91AF5C94"
-
-function L70_1(A0_2)
+--- main.env.weather.WeatherManager.set_LightUpdateInterval
+function CA66BF560955C69B4.S02AAB7CF91AF5C94(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C111EAD6042B6202C
   L1_2 = L1_2.S264F26F6894F3392
@@ -670,11 +571,8 @@ function L70_1(A0_2)
   return A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S21511A28D08A3988"
-
-function L70_1()
+--- main.env.weather.WeatherManager.ResetLightUpdateInterval
+function CA66BF560955C69B4.S21511A28D08A3988()
   local L0_2, L1_2, L2_2
   L0_2 = C111EAD6042B6202C
   L0_2 = L0_2.S264F26F6894F3392
@@ -690,11 +588,8 @@ function L70_1()
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "S64A7444D7F834402"
-
-function L70_1()
+--- main.env.weather.WeatherManager.S64A7444D7F834402
+function CA66BF560955C69B4.S64A7444D7F834402()
   local L0_2, L1_2
   L0_2 = CA66BF560955C69B4
   L0_2 = L0_2.SC8223E31D3163519
@@ -704,30 +599,22 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CA66BF560955C69B4_prototype
+CA66BF560955C69B4_prototype = L15_1()
+CA66BF560955C69B4.prototype = CA66BF560955C69B4_prototype
+--- main.env.weather.WeatherManager.Setup
+function CA66BF560955C69B4_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CA66BF560955C69B4
   L2_2 = L2_2.SC8223E31D3163519
   L3_2 = L2_2
   L2_2 = L2_2.F7A3D296366E973CB
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA66BF560955C69B4"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.env.weather.WeatherManager.PreUpdate
+function CA66BF560955C69B4_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CA66BF560955C69B4
   L2_2 = L2_2.SC8223E31D3163519

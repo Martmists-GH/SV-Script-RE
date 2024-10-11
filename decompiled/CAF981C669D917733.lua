@@ -1,3 +1,7 @@
+---@alias CAF981C669D917733 main_event_general_area_script_AreaEnter_a_sch_room02
+
+---@class main_event_general_area_script_AreaEnter_a_sch_room02 : CAF981C669D917733_prototype
+---@field prototype CAF981C669D917733_prototype
 L55_1 = _ENV
 L56_1 = "CAF981C669D917733"
 L57_1 = L15_1
@@ -142,16 +146,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CAF981C669D917733"]
 L69_1 = "__name__"
 L70_1 = "CAF981C669D917733"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF981C669D917733"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF981C669D917733"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CAF981C669D917733_prototype
+CAF981C669D917733_prototype = L15_1()
+CAF981C669D917733.prototype = CAF981C669D917733_prototype
+--- main.event.general.area_script.AreaEnter_a_sch_room02.mainBody
+function CAF981C669D917733_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C3770542F1DC790BF
   L1_2 = L1_2.S33CE0AFC746835E9
@@ -174,21 +173,18 @@ function L70_1(A0_2)
   if nil == L1_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F99EE90FA02B8F23B
+  L3_2 = self
+  L2_2 = self.F99EE90FA02B8F23B
   L4_2 = L1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF981C669D917733"]["prototype"]
-L69_1 = "F99EE90FA02B8F23B"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.area_script.AreaEnter_a_sch_room02.studyObjSwitch
+function CAF981C669D917733_prototype:F99EE90FA02B8F23B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = 39
   L3_2 = 0
-  L4_2 = A0_2[33]
+  L4_2 = self[33]
   while true do
     L5_2 = L4_2.length
     if not (L3_2 < L5_2) then
@@ -208,7 +204,7 @@ function L70_1(A0_2, A1_2)
       L2_2 = L5_2.npcId
     end
   end
-  L5_2 = A0_2[34]
+  L5_2 = self[34]
   L6_2 = L5_2
   L5_2 = L5_2.keys
   L5_2 = L5_2(L6_2)
@@ -222,15 +218,15 @@ function L70_1(A0_2, A1_2)
     L7_2 = L5_2
     L6_2 = L5_2.next
     L6_2 = L6_2(L7_2)
-    L7_2 = A0_2[34]
+    L7_2 = self[34]
     L7_2 = L7_2.h
     L7_2 = L7_2[L6_2]
     L8_2 = L42_1.tnull
     if L7_2 == L8_2 then
       L7_2 = nil
     end
-    L9_2 = A0_2
-    L8_2 = A0_2.F9DB6161F4D48E70F
+    L9_2 = self
+    L8_2 = self.F9DB6161F4D48E70F
     L10_2 = L7_2
     L8_2 = L8_2(L9_2, L10_2)
     if L2_2 ~= L6_2 then
@@ -269,11 +265,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAF981C669D917733"]["prototype"]
-L69_1 = "F9DB6161F4D48E70F"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.area_script.AreaEnter_a_sch_room02.waitStudyObjSetup
+function CAF981C669D917733_prototype:F9DB6161F4D48E70F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = C3770542F1DC790BF
   L2_2 = L2_2.S9182F8FAB7796D47

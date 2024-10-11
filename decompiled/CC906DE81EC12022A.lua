@@ -1,3 +1,6 @@
+---@alias C58981921B0B96786 main_system_game_event_GameEventGrantExpPoke
+
+---@class main_system_game_event_GameEventGrantExpPoke
 L55_1 = _ENV
 L56_1 = "CC906DE81EC12022A"
 L57_1 = L15_1

@@ -1,3 +1,7 @@
+---@alias C16FDC807FDDEF1EA main_field_behaviour_module_base_BehaviorModuleCollection
+
+---@class main_field_behaviour_module_base_BehaviorModuleCollection : C16FDC807FDDEF1EA_prototype
+---@field prototype C16FDC807FDDEF1EA_prototype
 L55_1 = _ENV
 L56_1 = "C16FDC807FDDEF1EA"
 L57_1 = L15_1
@@ -54,16 +58,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C16FDC807FDDEF1EA"]
 L69_1 = "__name__"
 L70_1 = "C16FDC807FDDEF1EA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16FDC807FDDEF1EA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16FDC807FDDEF1EA"]["prototype"]
-L69_1 = "F7A3D296366E973CB"
-
-function L70_1(A0_2, A1_2)
+---@class C16FDC807FDDEF1EA_prototype
+C16FDC807FDDEF1EA_prototype = L15_1()
+C16FDC807FDDEF1EA.prototype = C16FDC807FDDEF1EA_prototype
+--- main.field.behaviour.module.base.BehaviorModuleCollection.Initialize
+function C16FDC807FDDEF1EA_prototype:F7A3D296366E973CB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = 0
   while true do
@@ -79,9 +78,9 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2(L5_2)
     L6_2 = L4_2
     L5_2 = L4_2.F7A3D296366E973CB
-    L7_2 = A0_2
+    L7_2 = self
     L5_2(L6_2, L7_2)
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.push
     L7_2 = L4_2
@@ -89,15 +88,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16FDC807FDDEF1EA"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2)
+--- main.field.behaviour.module.base.BehaviorModuleCollection.Setup
+function C16FDC807FDDEF1EA_prototype:F7C68FEDB79AB6396()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = true
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -138,18 +134,15 @@ function L70_1(A0_2)
       end
     end
   end
-  A0_2[4] = L1_2
-  L4_2 = A0_2[4]
+  self[4] = L1_2
+  L4_2 = self[4]
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16FDC807FDDEF1EA"]["prototype"]
-L69_1 = "F1F1E2C2E65471013"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.module.base.BehaviorModuleCollection.GetModule
+function C16FDC807FDDEF1EA_prototype:F1F1E2C2E65471013(A1_2)
   local L2_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[A1_2]
   return L2_2
 end

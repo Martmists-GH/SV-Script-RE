@@ -1,3 +1,7 @@
+---@alias C3CD034145355EA2B main_event_general_pokecen_PokecenRecovery
+
+---@class main_event_general_pokecen_PokecenRecovery : C3CD034145355EA2B_prototype
+---@field prototype C3CD034145355EA2B_prototype
 L55_1 = _ENV
 L56_1 = "C3CD034145355EA2B"
 L57_1 = L15_1
@@ -50,16 +54,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3CD034145355EA2B"]
 L69_1 = "__name__"
 L70_1 = "C3CD034145355EA2B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3CD034145355EA2B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3CD034145355EA2B"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C3CD034145355EA2B_prototype
+C3CD034145355EA2B_prototype = L15_1()
+C3CD034145355EA2B.prototype = C3CD034145355EA2B_prototype
+--- main.event.general.pokecen.PokecenRecovery.onCreate
+function C3CD034145355EA2B_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L1_2 = L16_1
   L2_2 = {}
@@ -76,12 +75,12 @@ function L70_1(A0_2)
   L2_2.scene = L3_2
   L2_2.lyt = nil
   L1_2 = L1_2(L2_2)
-  A0_2[36] = L1_2
+  self[36] = L1_2
   
   function L1_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[32]
     L1_3 = L1_3.isFront
     if L1_3 then
@@ -100,7 +99,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L2_2
@@ -108,7 +107,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -142,7 +141,7 @@ function L70_1(A0_2)
     L7_2 = L7_2(L8_2)
     L6_2.anim = L7_2
     L5_2 = L5_2(L6_2)
-    A0_2[37] = L5_2
+    self[37] = L5_2
   end
   L5_2 = c1A1CBE3B
   L5_2 = L5_2.fFCE06E04
@@ -150,21 +149,21 @@ function L70_1(A0_2)
   L7_2 = L5_2
   L6_2 = L5_2.f62782BA1
   L6_2 = L6_2(L7_2)
-  A0_2[41] = L6_2
+  self[41] = L6_2
   L6_2 = _hx_tab_array
   L7_2 = {}
   L7_2.length = 0
   L8_2 = 0
   L6_2 = L6_2(L7_2, L8_2)
-  A0_2[39] = L6_2
+  self[39] = L6_2
   L6_2 = _hx_tab_array
   L7_2 = {}
   L7_2.length = 0
   L8_2 = 0
   L6_2 = L6_2(L7_2, L8_2)
-  A0_2[38] = L6_2
+  self[38] = L6_2
   L6_2 = 0
-  L7_2 = A0_2[41]
+  L7_2 = self[41]
   while L6_2 < L7_2 do
     L6_2 = L6_2 + 1
     L9_2 = L5_2
@@ -174,12 +173,12 @@ function L70_1(A0_2)
     L9_2 = L8_2
     L8_2 = L8_2.f4268C997
     L8_2 = L8_2(L9_2)
-    L9_2 = A0_2[35]
+    L9_2 = self[35]
     if L8_2 >= L9_2 then
-      L9_2 = A0_2[35]
+      L9_2 = self[35]
       L8_2 = L9_2 - 1
     end
-    L9_2 = A0_2[38]
+    L9_2 = self[38]
     L10_2 = L9_2
     L9_2 = L9_2.push
     L11_2 = c451059A3
@@ -197,7 +196,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L8_2
@@ -205,7 +204,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -238,26 +237,23 @@ function L70_1(A0_2)
     L13_2 = L13_2(L14_2)
     L12_2.anim = L13_2
     L11_2 = L11_2(L12_2)
-    A0_2[40] = L11_2
+    self[40] = L11_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3CD034145355EA2B"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+--- main.event.general.pokecen.PokecenRecovery.preStart
+function C3CD034145355EA2B_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = C9F6C325569B7E07F
   L1_2 = L1_2.S78BBE9C0C6452E1E
   L1_2()
-  L1_2 = A0_2[36]
+  L1_2 = self[36]
   L1_2 = L1_2.scene
   L2_2 = L1_2
   L1_2 = L1_2.f0EF10D0C
   L1_2(L2_2)
   while true do
-    L1_2 = A0_2[36]
+    L1_2 = self[36]
     L1_2 = L1_2.scene
     L2_2 = L1_2
     L1_2 = L1_2.f9D8BC178
@@ -270,7 +266,7 @@ function L70_1(A0_2)
     L2_2 = nil
     L1_2(L2_2)
   end
-  L1_2 = A0_2[36]
+  L1_2 = self[36]
   L1_2 = L1_2.scene
   L2_2 = L1_2
   L1_2 = L1_2.fD4E64AB7
@@ -290,20 +286,20 @@ function L70_1(A0_2)
   L3_2 = L1_2
   L2_2 = L1_2.f64E49307
   L2_2(L3_2)
-  L2_2 = A0_2[36]
+  L2_2 = self[36]
   L3_2 = cECF00344
   L3_2 = L3_2.fEECE6995
   L4_2 = L1_2
   L3_2 = L3_2(L4_2)
   L2_2.lyt = L3_2
-  L2_2 = A0_2[36]
+  L2_2 = self[36]
   L2_2 = L2_2.lyt
   L3_2 = L2_2
   L2_2 = L2_2.f7A48F855
-  L4_2 = A0_2[41]
+  L4_2 = self[41]
   L2_2(L3_2, L4_2)
   L2_2 = 0
-  L3_2 = A0_2[41]
+  L3_2 = self[41]
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
@@ -318,7 +314,7 @@ function L70_1(A0_2)
     L6_2 = L6_2(L7_2, L8_2)
     L7_2 = true
     L5_2 = L5_2(L6_2, L7_2)
-    L6_2 = A0_2[36]
+    L6_2 = self[36]
     L6_2 = L6_2.lyt
     L7_2 = L6_2
     L6_2 = L6_2.f1B274C53
@@ -332,7 +328,7 @@ function L70_1(A0_2)
     L9_2 = L9_2 .. L10_2
     L10_2 = 0
     L6_2(L7_2, L8_2, L9_2, L10_2)
-    L6_2 = A0_2[36]
+    L6_2 = self[36]
     L6_2 = L6_2.lyt
     L7_2 = L6_2
     L6_2 = L6_2.fC6FA21BA
@@ -342,7 +338,7 @@ function L70_1(A0_2)
     L6_2(L7_2, L8_2, L9_2, L10_2)
   end
   L4_2 = 0
-  L5_2 = A0_2[38]
+  L5_2 = self[38]
   L5_2 = L5_2.length
   while L4_2 < L5_2 do
     L4_2 = L4_2 + 1
@@ -350,7 +346,7 @@ function L70_1(A0_2)
     L7_2 = nil
     L8_2 = c451059A3
     L8_2 = L8_2.fCEA5CEED
-    L9_2 = A0_2[38]
+    L9_2 = self[38]
     L9_2 = L9_2[L6_2]
     L10_2 = L7_2
     L8_2 = L8_2(L9_2, L10_2)
@@ -358,7 +354,7 @@ function L70_1(A0_2)
       return
     end
     while true do
-      L8_2 = A0_2[38]
+      L8_2 = self[38]
       L8_2 = L8_2[L6_2]
       L9_2 = L8_2
       L8_2 = L8_2.f900312E7
@@ -373,11 +369,11 @@ function L70_1(A0_2)
     end
   end
   L6_2 = 0
-  L7_2 = A0_2[41]
+  L7_2 = self[41]
   while L6_2 < L7_2 do
     L6_2 = L6_2 + 1
     L8_2 = L6_2 - 1
-    L9_2 = A0_2[18]
+    L9_2 = self[18]
     L9_2 = L9_2.ownerScene
     L10_2 = L9_2
     L9_2 = L9_2.f68159593
@@ -388,13 +384,13 @@ function L70_1(A0_2)
     L13_2 = L8_2
     L12_2 = L12_2(L13_2)
     L11_2 = L11_2 .. L12_2
-    L12_2 = A0_2[38]
+    L12_2 = self[38]
     L12_2 = L12_2[L8_2]
     L9_2 = L9_2(L10_2, L11_2, L12_2)
     L10_2 = nil
     L12_2 = L9_2
     L11_2 = L9_2.fE91E20CA
-    L13_2 = A0_2[37]
+    L13_2 = self[37]
     L13_2 = L13_2.obj
     L14_2 = L31_1.string
     L15_2 = "ball_attach_0"
@@ -414,7 +410,7 @@ function L70_1(A0_2)
       L11_2[3] = L14_2
       L10_2 = L11_2
     else
-      L11_2 = A0_2[37]
+      L11_2 = self[37]
       L11_2 = L11_2.obj
       L12_2 = L11_2
       L11_2 = L11_2.f7360ED03
@@ -434,7 +430,7 @@ function L70_1(A0_2)
     L14_2 = L10_2[2]
     L15_2 = L10_2[3]
     L11_2(L12_2, L13_2, L14_2, L15_2)
-    L11_2 = A0_2[39]
+    L11_2 = self[39]
     L12_2 = L11_2
     L11_2 = L11_2.push
     L13_2 = L16_1
@@ -451,7 +447,7 @@ function L70_1(A0_2)
   while true do
     L8_2 = true
     L9_2 = 0
-    L10_2 = A0_2[39]
+    L10_2 = self[39]
     while true do
       L11_2 = L10_2.length
       if not (L9_2 < L11_2) then
@@ -498,11 +494,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3CD034145355EA2B"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.pokecen.PokecenRecovery.mainBody
+function C3CD034145355EA2B_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L1_2 = C3A36506FBC96ACBD
   L1_2 = L1_2.SC6181320B46854EE
@@ -513,7 +506,7 @@ function L70_1(A0_2)
   L2_2 = 0.2
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[37]
+  L1_2 = self[37]
   L1_2 = L1_2.obj
   L2_2 = L1_2
   L1_2 = L1_2.f7360ED03
@@ -522,7 +515,7 @@ function L70_1(A0_2)
   function L4_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[32]
     L1_3 = L1_3.region
     if 2 == L1_3 then
@@ -557,7 +550,7 @@ function L70_1(A0_2)
   L9_2 = L9_2.PITCH
   L10_2 = L10_1.select
   L11_2 = 2
-  L12_2 = A0_2[37]
+  L12_2 = self[37]
   L12_2 = L12_2.obj
   L13_2 = L12_2
   L12_2 = L12_2.f64857644
@@ -579,7 +572,7 @@ function L70_1(A0_2)
   function L9_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[32]
     L1_3 = L1_3.region
     if 2 == L1_3 then
@@ -728,7 +721,7 @@ function L70_1(A0_2)
     L15_2 = false
     L13_2(L14_2, L15_2)
   end
-  L12_2 = A0_2[37]
+  L12_2 = self[37]
   L12_2 = L12_2.anim
   L13_2 = L12_2
   L12_2 = L12_2.fF56461AF
@@ -736,14 +729,14 @@ function L70_1(A0_2)
   L13_2 = L12_2
   L12_2 = L12_2.fE5760654
   L14_2 = "ball_count"
-  L15_2 = A0_2[41]
+  L15_2 = self[41]
   L12_2(L13_2, L14_2, L15_2)
   L12_2 = 0
-  L13_2 = A0_2[41]
+  L13_2 = self[41]
   while L12_2 < L13_2 do
     L12_2 = L12_2 + 1
     L14_2 = L12_2 - 1
-    L15_2 = A0_2[36]
+    L15_2 = self[36]
     L15_2 = L15_2.lyt
     L16_2 = L15_2
     L15_2 = L15_2.f542FC647
@@ -756,7 +749,7 @@ function L70_1(A0_2)
     L17_2 = L17_2 .. L18_2
     L18_2 = 255
     L15_2(L16_2, L17_2, L18_2)
-    L15_2 = A0_2[39]
+    L15_2 = self[39]
     L15_2 = L15_2[L14_2]
     L15_2 = L15_2.model
     L16_2 = L15_2
@@ -764,9 +757,9 @@ function L70_1(A0_2)
     L17_2 = true
     L15_2(L16_2, L17_2)
   end
-  L14_2 = A0_2[40]
+  L14_2 = self[40]
   if nil ~= L14_2 then
-    L14_2 = A0_2[40]
+    L14_2 = self[40]
     L14_2 = L14_2.anim
     L15_2 = L14_2
     L14_2 = L14_2.fF56461AF
@@ -776,7 +769,7 @@ function L70_1(A0_2)
     L16_2 = "loop_action_type_int"
     L17_2 = 1
     L14_2(L15_2, L16_2, L17_2)
-    L14_2 = A0_2[40]
+    L14_2 = self[40]
     L14_2 = L14_2.anim
     L15_2 = L14_2
     L14_2 = L14_2.fF56461AF
@@ -800,18 +793,18 @@ function L70_1(A0_2)
   L14_2 = L14_2.SAC4C25C879379D3D
   L15_2 = C3CD034145355EA2B
   L15_2 = L15_2.SC18A37AB258F0373
-  L16_2 = A0_2[32]
+  L16_2 = self[32]
   L16_2 = L16_2.region
   L15_2 = L15_2[L16_2]
   L14_2(L15_2)
-  L14_2 = A0_2[36]
+  L14_2 = self[36]
   L14_2 = L14_2.lyt
   L15_2 = L14_2
   L14_2 = L14_2.fB4E9D030
   L16_2 = "recovery_out"
   L14_2(L15_2, L16_2)
   while true do
-    L14_2 = A0_2[36]
+    L14_2 = self[36]
     L14_2 = L14_2.lyt
     L15_2 = L14_2
     L14_2 = L14_2.fF8C77C75
@@ -825,9 +818,9 @@ function L70_1(A0_2)
     L15_2 = nil
     L14_2(L15_2)
   end
-  L14_2 = A0_2[40]
+  L14_2 = self[40]
   if nil ~= L14_2 then
-    L14_2 = A0_2[40]
+    L14_2 = self[40]
     L14_2 = L14_2.anim
     L15_2 = L14_2
     L14_2 = L14_2.fF56461AF
@@ -840,24 +833,21 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3CD034145355EA2B"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.pokecen.PokecenRecovery.mainBodyFinish
+function C3CD034145355EA2B_prototype:F84C84FA1590CD2A3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = C07E4F1BF071B0460
   L1_2 = L1_2.S9B4504DCB28F82DF
   L2_2 = 0.2
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[36]
+  L1_2 = self[36]
   L1_2 = L1_2.scene
   L2_2 = L1_2
   L1_2 = L1_2.f5C99C0AC
   L1_2(L2_2)
   L1_2 = 0
-  L2_2 = A0_2[39]
+  L2_2 = self[39]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -871,7 +861,7 @@ function L70_1(A0_2)
     L6_2 = true
     L4_2(L5_2, L6_2)
   end
-  L3_2 = A0_2[37]
+  L3_2 = self[37]
   L3_2 = L3_2.anim
   L4_2 = L3_2
   L3_2 = L3_2.fF56461AF

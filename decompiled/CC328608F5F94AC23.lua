@@ -1,3 +1,7 @@
+---@alias CC328608F5F94AC23 main_ui_btlspot_ui_BattleSpotUIHeader
+
+---@class main_ui_btlspot_ui_BattleSpotUIHeader : CC328608F5F94AC23_prototype
+---@field prototype CC328608F5F94AC23_prototype
 L55_1 = _ENV
 L56_1 = "CC328608F5F94AC23"
 L57_1 = L15_1
@@ -341,105 +345,97 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC328608F5F94AC23"]
 L69_1 = "__name__"
 L70_1 = "CC328608F5F94AC23"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC328608F5F94AC23"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC328608F5F94AC23"]["prototype"]
-L69_1 = "FA367E653AD7B2572"
-
-function L70_1(A0_2, A1_2)
+---@class CC328608F5F94AC23_prototype
+CC328608F5F94AC23_prototype = L15_1()
+CC328608F5F94AC23.prototype = CC328608F5F94AC23_prototype
+--- main.ui.btlspot.ui.BattleSpotUIHeader.SetHeader
+function CC328608F5F94AC23_prototype:FA367E653AD7B2572(A1_2)
   local L2_2, L3_2, L4_2
-  A0_2[15] = A1_2
-  L2_2 = A0_2[14]
-  L3_2 = A0_2[15]
+  self[15] = A1_2
+  L2_2 = self[14]
+  L3_2 = self[15]
   if L2_2 == L3_2 then
     return
   end
   L2_2 = L58_1
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L3_2 = L3_2[A1_2]
   L3_2 = L3_2.mstxt
   L2_2 = L2_2(L3_2)
-  A0_2[10] = L2_2
+  self[10] = L2_2
   L2_2 = L58_1
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L3_2 = L3_2[A1_2]
   L3_2 = L3_2.label
   L2_2 = L2_2(L3_2)
-  A0_2[9] = L2_2
+  self[9] = L2_2
   L2_2 = L58_1
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L3_2 = L3_2[A1_2]
   L3_2 = L3_2.smstxt
   L2_2 = L2_2(L3_2)
-  A0_2[12] = L2_2
+  self[12] = L2_2
   L2_2 = L58_1
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L3_2 = L3_2[A1_2]
   L3_2 = L3_2.slabel
   L2_2 = L2_2(L3_2)
-  A0_2[11] = L2_2
-  L2_2 = A0_2[9]
-  L3_2 = A0_2[16]
+  self[11] = L2_2
+  L2_2 = self[9]
+  L3_2 = self[16]
   if L2_2 == L3_2 then
-    L2_2 = A0_2[11]
-    L3_2 = A0_2[17]
+    L2_2 = self[11]
+    L3_2 = self[17]
     if L2_2 == L3_2 then
       return
     end
   end
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   if "" == L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.fB4E9D030
     L4_2 = "out"
     L2_2(L3_2, L4_2)
   else
-    L2_2 = A0_2[16]
+    L2_2 = self[16]
     if "" == L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FBBFC4E21FC988746
+      L3_2 = self
+      L2_2 = self.FBBFC4E21FC988746
       L2_2(L3_2)
-      L3_2 = A0_2
-      L2_2 = A0_2.F523D818D59F79912
+      L3_2 = self
+      L2_2 = self.F523D818D59F79912
       L2_2 = L2_2(L3_2)
       if L2_2 then
-        L2_2 = A0_2[3]
+        L2_2 = self[3]
         L3_2 = L2_2
         L2_2 = L2_2.fB4E9D030
         L4_2 = "in"
         L2_2(L3_2, L4_2)
       end
     else
-      L3_2 = A0_2
-      L2_2 = A0_2.FBBFC4E21FC988746
+      L3_2 = self
+      L2_2 = self.FBBFC4E21FC988746
       L2_2(L3_2)
       L2_2 = ECE1129D096ACFC66
       L2_2 = L2_2.None
-      A0_2[8] = L2_2
+      self[8] = L2_2
     end
   end
-  L2_2 = A0_2[9]
-  A0_2[16] = L2_2
-  L2_2 = A0_2[11]
-  A0_2[17] = L2_2
-  L2_2 = A0_2[15]
-  A0_2[14] = L2_2
+  L2_2 = self[9]
+  self[16] = L2_2
+  L2_2 = self[11]
+  self[17] = L2_2
+  L2_2 = self[15]
+  self[14] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC328608F5F94AC23"]["prototype"]
-L69_1 = "F798CCA603D6E6730"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUIHeader.SetupUI
+function CC328608F5F94AC23_prototype:F798CCA603D6E6730(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = cECD2E4A5
   L2_2 = L2_2.f2C9293F5
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "Body_00"
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = L2_2
@@ -450,95 +446,89 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC328608F5F94AC23"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUIHeader.PreUpdate
+function CC328608F5F94AC23_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L2_2 = L2_2[1]
   if 0 == L2_2 then
   elseif 1 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F1FCC23570D66FF15
+    L4_2 = self
+    L3_2 = self.F1FCC23570D66FF15
     L3_2 = L3_2(L4_2)
     if not L3_2 then
       return
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.FBBFC4E21FC988746
+    L4_2 = self
+    L3_2 = self.FBBFC4E21FC988746
     L3_2(L4_2)
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.fB4E9D030
     L5_2 = "in"
     L3_2(L4_2, L5_2)
     L3_2 = ECE1129D096ACFC66
     L3_2 = L3_2.WaitFadeIn
-    A0_2[8] = L3_2
+    self[8] = L3_2
   elseif 2 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FA975481BDC1BD430
+    L4_2 = self
+    L3_2 = self.FA975481BDC1BD430
     L3_2 = L3_2(L4_2)
     if not L3_2 then
       return
     end
     L3_2 = ECE1129D096ACFC66
     L3_2 = L3_2.None
-    A0_2[8] = L3_2
+    self[8] = L3_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC328608F5F94AC23"]["prototype"]
-L69_1 = "FBBFC4E21FC988746"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.ui.BattleSpotUIHeader.SetString
+function CC328608F5F94AC23_prototype:FBBFC4E21FC988746()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = 0
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   L2_2 = "" ~= L2_2
   if L2_2 then
     L3_2 = c8C3BF576
     L3_2 = L3_2.f46674724
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = "T_headder_large_00"
-    L6_2 = A0_2[10]
-    L7_2 = A0_2[9]
+    L6_2 = self[10]
+    L7_2 = self[9]
     L3_2(L4_2, L5_2, L6_2, L7_2)
   end
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = "T_headder_large_00"
   L6_2 = L2_2
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L3_2 = "" ~= L3_2
   if L3_2 then
     L4_2 = c8C3BF576
     L4_2 = L4_2.f46674724
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = "T_headder_large_02"
-    L7_2 = A0_2[12]
-    L8_2 = A0_2[11]
+    L7_2 = self[12]
+    L8_2 = self[11]
     L4_2(L5_2, L6_2, L7_2, L8_2)
     L1_2 = 1
   end
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.f7798D9F4
   L6_2 = "T_headder_large_02"
   L7_2 = L3_2
   L4_2(L5_2, L6_2, L7_2)
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.fEAD9FB7D
   L6_2 = "pattern_layout"
   L7_2 = L1_2
   L4_2(L5_2, L6_2, L7_2)
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.f49A729B6
   L6_2 = "A_alignment_00"

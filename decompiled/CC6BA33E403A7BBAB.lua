@@ -1,7 +1,8 @@
-L68_1 = _ENV["CC6BA33E403A7BBAB"]
-L69_1 = "new"
+---@alias CC6BA33E403A7BBAB main_nushi_iwa_IwaNushiManager
 
-function L70_1(A0_2)
+---@class main_nushi_iwa_IwaNushiManager : CC6BA33E403A7BBAB_prototype
+---@field prototype CC6BA33E403A7BBAB_prototype
+function CC6BA33E403A7BBAB.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CC6BA33E403A7BBAB
@@ -17,11 +18,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6BA33E403A7BBAB"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CC6BA33E403A7BBAB
+function CC6BA33E403A7BBAB.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   A0_2[16] = false
   A0_2[13] = true
@@ -53,11 +51,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC6BA33E403A7BBAB"]
 L69_1 = "__name__"
 L70_1 = "CC6BA33E403A7BBAB"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6BA33E403A7BBAB"]
-L69_1 = "S2C00E31A4B070414"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.nushi.iwa.IwaNushiManager.OnTriggerFunction
+function CC6BA33E403A7BBAB.S2C00E31A4B070414(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L6_2 = cAD7C739C
   L6_2 = L6_2.f3BB1CD49
@@ -136,51 +131,46 @@ L68_1 = "CC6BA33E403A7BBAB"
 L68_1 = L25_1[L68_1]
 L69_1 = "S2C00E31A4B070414"
 L70_1 = _ENV["CC6BA33E403A7BBAB"]["S2C00E31A4B070414"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6BA33E403A7BBAB"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6BA33E403A7BBAB"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CC6BA33E403A7BBAB_prototype
+CC6BA33E403A7BBAB_prototype = L15_1()
+CC6BA33E403A7BBAB.prototype = CC6BA33E403A7BBAB_prototype
+--- main.nushi.iwa.IwaNushiManager.Setup
+function CC6BA33E403A7BBAB_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2
-  A0_2[10] = false
+  L2_2 = self
+  self[10] = false
   L3_2 = CC6BA33E403A7BBAB
-  L3_2.S7D1E199BBD384D72 = A0_2
-  L3_2 = A0_2[1]
+  L3_2.S7D1E199BBD384D72 = self
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f462C9B70
   L3_2 = L3_2(L4_2)
-  A0_2[5] = L3_2
-  L3_2 = A0_2[5]
+  self[5] = L3_2
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.fD4E64AB7
   L5_2 = "IwaNushiBody"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[6] = L3_2
+  self[6] = L3_2
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L3_2 = L3_2(L4_2)
-  A0_2[7] = L3_2
+  self[7] = L3_2
   L3_2 = CC704789D12A0E0F2
   L3_2 = L3_2.new
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L3_2 = L3_2(L4_2)
-  A0_2[9] = L3_2
-  L3_2 = A0_2[5]
+  self[9] = L3_2
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.fD4E64AB7
   L5_2 = "DestinationsRoot"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[2] = L3_2
+  self[2] = L3_2
   L3_2 = 5
   L4_2 = 0
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.f908F485A
   
@@ -337,29 +327,26 @@ function L70_1(A0_2, A1_2)
     L1_3(L2_3)
   end
   
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.fE9C29DA1
   L7_2, L8_2 = L7_2(L8_2)
   L5_2 = L5_2(L6_2, L7_2, L8_2)
-  A0_2[15] = L5_2
+  self[15] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6BA33E403A7BBAB"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.iwa.IwaNushiManager.PreUpdate
+function CC6BA33E403A7BBAB_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[15]
+  L2_2 = self[15]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[15]
+    L3_2 = self[15]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[15]
+      L2_2 = self[15]
       L3_2 = L62_1
       L4_2 = L64_1.pack
       L5_2 = L10_1.coroutine
@@ -404,7 +391,7 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   if L2_2 then
     L2_2 = C5D574133A1DF6D2D
     L2_2 = L2_2.S7D1E199BBD384D72
@@ -428,9 +415,9 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   if nil ~= L2_2 then
-    L2_2 = A0_2[9]
+    L2_2 = self[9]
     L3_2 = L2_2
     L2_2 = L2_2.F3BC3E2DE6CE68A7D
     L4_2 = A1_2
@@ -438,17 +425,14 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6BA33E403A7BBAB"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiManager.Destroy
+function CC6BA33E403A7BBAB_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CC6BA33E403A7BBAB
   L1_2.S7D1E199BBD384D72 = nil
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   if nil ~= L1_2 then
-    L1_2 = A0_2[9]
+    L1_2 = self[9]
     L2_2 = L1_2
     L1_2 = L1_2.FB50C9ACDC127E3B9
     L1_2(L2_2)

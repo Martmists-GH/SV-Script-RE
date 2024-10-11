@@ -1,3 +1,7 @@
+---@alias C6D72D21223D0ED15 main_ui_net_btl_state_machine_NetworkBattleStateWaitTeamAssign
+
+---@class main_ui_net_btl_state_machine_NetworkBattleStateWaitTeamAssign : C6D72D21223D0ED15_prototype
+---@field prototype C6D72D21223D0ED15_prototype
 L55_1 = _ENV
 L56_1 = "C6D72D21223D0ED15"
 L57_1 = L15_1
@@ -39,77 +43,69 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6D72D21223D0ED15"]
 L69_1 = "__name__"
 L70_1 = "C6D72D21223D0ED15"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D72D21223D0ED15"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D72D21223D0ED15"]["prototype"]
-L69_1 = "F5BE3D38738EE3C24"
-
-function L70_1(A0_2)
+---@class C6D72D21223D0ED15_prototype
+C6D72D21223D0ED15_prototype = L15_1()
+C6D72D21223D0ED15.prototype = C6D72D21223D0ED15_prototype
+--- main.ui.net_btl.state_machine.NetworkBattleStateWaitTeamAssign.OnEntry
+function C6D72D21223D0ED15_prototype:F5BE3D38738EE3C24()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.F2FBB004A3763CEBD
   L3_2 = 3
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[8] = L1_2
-  L1_2 = A0_2[8]
+  self[8] = L1_2
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.F88E265ADB86ACC71
   L1_2(L2_2)
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.F5244DD5572E59B59
   L3_2 = C5A4B97A873A16656
   L3_2 = L3_2.SC97360EC6F635D7F
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.FFC3AB797CA6E3105
   L1_2(L2_2)
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.FB038BC9C646EA9A0
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.F837233999D634B7A
   L1_2(L2_2)
   L1_2 = C93D7D348587CFD57
   L1_2 = L1_2.new
-  L2_2 = A0_2[5]
-  L3_2 = A0_2
-  L4_2 = A0_2[8]
+  L2_2 = self[5]
+  L3_2 = self
+  L4_2 = self[8]
   L1_2 = L1_2(L2_2, L3_2, L4_2)
-  A0_2[9] = L1_2
+  self[9] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D72D21223D0ED15"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateWaitTeamAssign.OnUpdate
+function C6D72D21223D0ED15_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L2_2 = C99FCBF1B467C7135
   L2_2.SB9F9ECDF7829C7C1 = 0
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.F837233999D634B7A
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FB9C164906B2DAC4D
+  L3_2 = self
+  L2_2 = self.FB9C164906B2DAC4D
   L4_2 = false
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.F7EFD5D88256C5B07
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F60FE15ADA54A1B82
+  L3_2 = self
+  L2_2 = self.F60FE15ADA54A1B82
   L2_2(L3_2)
   L2_2 = C99FCBF1B467C7135
   L2_2 = L2_2.SA64ABBE5B55E89E0
@@ -168,19 +164,19 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.S760DAE4C5371A78E
     L4_2 = nil
     L3_2(L4_2)
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     L4_2 = L3_2
     L3_2 = L3_2.FE1B998C2DEC49E51
     L3_2(L4_2)
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     L4_2 = L3_2
     L3_2 = L3_2.F355CFD251A574136
     L3_2 = L3_2(L4_2)
     if L3_2 then
       return
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.F60FE15ADA54A1B82
+    L4_2 = self
+    L3_2 = self.F60FE15ADA54A1B82
     L3_2(L4_2)
     L3_2 = C99FCBF1B467C7135
     L3_2 = L3_2.SA72CC16A0C761630
@@ -255,14 +251,14 @@ function L70_1(A0_2, A1_2)
           L10_2 = c45907372
           L10_2 = L10_2.fA3902F40
           L10_2()
-          L10_2 = A0_2[5]
+          L10_2 = self[5]
           L11_2 = L10_2
           L10_2 = L10_2.F28EAF3B3AA178E3E
           L12_2 = CE86CDE507FE0E511
           L12_2 = L12_2.new
           L12_2, L13_2, L14_2, L15_2, L16_2, L17_2 = L12_2()
           L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
-          L10_2 = A0_2[8]
+          L10_2 = self[8]
           L11_2 = L10_2
           L10_2 = L10_2.F99197E1D935F7D22
           L12_2 = "exit"
@@ -297,8 +293,8 @@ function L70_1(A0_2, A1_2)
           L10_2 = L10_2 + 1
         end
       end
-      L9_2 = A0_2
-      L8_2 = A0_2.F7C06F6BEA957F0E6
+      L9_2 = self
+      L8_2 = self.F7C06F6BEA957F0E6
       L10_2 = 19
       L11_2 = false
       L8_2(L9_2, L10_2, L11_2)
@@ -308,26 +304,23 @@ function L70_1(A0_2, A1_2)
       break
     end
   end
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.F28EAF3B3AA178E3E
   L5_2 = C11DD84659E21A495
   L5_2 = L5_2.new
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2 = L5_2()
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L4_2 = L3_2
   L3_2 = L3_2.F218E2A14A790D265
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D72D21223D0ED15"]["prototype"]
-L69_1 = "F60FE15ADA54A1B82"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateWaitTeamAssign.UpdatePlayerName
+function C6D72D21223D0ED15_prototype:F60FE15ADA54A1B82()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.FE1B5B4F793A217C1
   L1_2 = L1_2(L2_2)
@@ -354,7 +347,7 @@ function L70_1(A0_2)
     L4_2 = L4_2.fFF2EAB5A
     L4_2 = L4_2()
     if L3_2 ~= L4_2 then
-      L3_2 = A0_2[8]
+      L3_2 = self[8]
       L4_2 = L3_2
       L3_2 = L3_2.F60FE15ADA54A1B82
       L5_2 = 0
@@ -364,7 +357,7 @@ function L70_1(A0_2)
       L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
   end
   else
-    L3_2 = A0_2[8]
+    L3_2 = self[8]
     L4_2 = L3_2
     L3_2 = L3_2.F79A2A3CF3532DDC7
     L5_2 = 0
@@ -384,7 +377,7 @@ function L70_1(A0_2)
     L5_2 = L5_2.fFF2EAB5A
     L5_2 = L5_2()
     if L4_2 ~= L5_2 then
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       L5_2 = L4_2
       L4_2 = L4_2.F60FE15ADA54A1B82
       L6_2 = 1
@@ -394,7 +387,7 @@ function L70_1(A0_2)
       L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
   end
   else
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     L5_2 = L4_2
     L4_2 = L4_2.F79A2A3CF3532DDC7
     L6_2 = 1
@@ -414,7 +407,7 @@ function L70_1(A0_2)
     L6_2 = L6_2.fFF2EAB5A
     L6_2 = L6_2()
     if L5_2 ~= L6_2 then
-      L5_2 = A0_2[8]
+      L5_2 = self[8]
       L6_2 = L5_2
       L5_2 = L5_2.F60FE15ADA54A1B82
       L7_2 = 2
@@ -424,7 +417,7 @@ function L70_1(A0_2)
       L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
   end
   else
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     L6_2 = L5_2
     L5_2 = L5_2.F79A2A3CF3532DDC7
     L7_2 = 2
@@ -444,7 +437,7 @@ function L70_1(A0_2)
     L7_2 = L7_2.fFF2EAB5A
     L7_2 = L7_2()
     if L6_2 ~= L7_2 then
-      L6_2 = A0_2[8]
+      L6_2 = self[8]
       L7_2 = L6_2
       L6_2 = L6_2.F60FE15ADA54A1B82
       L8_2 = 3
@@ -454,7 +447,7 @@ function L70_1(A0_2)
       L6_2(L7_2, L8_2, L9_2, L10_2)
   end
   else
-    L6_2 = A0_2[8]
+    L6_2 = self[8]
     L7_2 = L6_2
     L6_2 = L6_2.F79A2A3CF3532DDC7
     L8_2 = 3
@@ -462,41 +455,35 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D72D21223D0ED15"]["prototype"]
-L69_1 = "FB9C164906B2DAC4D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateWaitTeamAssign.SetUikitActive
+function C6D72D21223D0ED15_prototype:FB9C164906B2DAC4D(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C70EFEB0F33DD68D6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FB9C164906B2DAC4D
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.F7885CED7EE714B0D
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.F29066ABFE315665B
   L4_2 = 4
   L5_2 = A1_2
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.F6FCE9E4187792625
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6D72D21223D0ED15"]["prototype"]
-L69_1 = "FEB16F27ECF5C4C90"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateWaitTeamAssign.OnForceEnd
+function C6D72D21223D0ED15_prototype:FEB16F27ECF5C4C90()
   local L1_2
   L1_2 = C99FCBF1B467C7135
   L1_2 = L1_2.SA8C854E3713B2F10

@@ -1,3 +1,5 @@
+---@class CB2DCC287A7876860 : CB2DCC287A7876860_prototype
+---@field prototype CB2DCC287A7876860_prototype
 L55_1 = _ENV
 L56_1 = "CB2DCC287A7876860"
 L57_1 = L15_1
@@ -43,51 +45,40 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CB2DCC287A7876860"]
 L69_1 = "__name__"
 L70_1 = "CB2DCC287A7876860"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB2DCC287A7876860"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB2DCC287A7876860"]["prototype"]
-L69_1 = "F66F7C8106FF88D89"
-
-function L70_1(A0_2, A1_2)
-  A0_2[3] = A1_2
+---@class CB2DCC287A7876860_prototype
+CB2DCC287A7876860_prototype = L15_1()
+CB2DCC287A7876860.prototype = CB2DCC287A7876860_prototype
+--- CB2DCC287A7876860.SetMapIconManager
+function CB2DCC287A7876860_prototype:F66F7C8106FF88D89(A1_2)
+  self[3] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB2DCC287A7876860"]["prototype"]
-L69_1 = "FD9F89A206B111A0E"
-
-function L70_1(A0_2, A1_2)
+--- CB2DCC287A7876860.GetDataByIdStr
+function CB2DCC287A7876860_prototype:FD9F89A206B111A0E(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F1E3C77B8049F40D4
+  L3_2 = self
+  L2_2 = self.F1E3C77B8049F40D4
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if -1 == L2_2 then
     L3_2 = nil
     return L3_2
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[L2_2]
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB2DCC287A7876860"]["prototype"]
-L69_1 = "F1E3C77B8049F40D4"
-
-function L70_1(A0_2, A1_2)
+--- CB2DCC287A7876860.F1E3C77B8049F40D4
+function CB2DCC287A7876860_prototype:F1E3C77B8049F40D4(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[L4_2]
     L5_2 = L5_2.ID
     if L5_2 == A1_2 then
@@ -98,11 +89,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB2DCC287A7876860"]["prototype"]
-L69_1 = "FC6AD99A3538445BE"
-
-function L70_1(A0_2, A1_2)
+--- CB2DCC287A7876860.UpdatePos
+function CB2DCC287A7876860_prototype:FC6AD99A3538445BE(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = A1_2.PosType
   if 0 == L2_2 then
@@ -111,7 +99,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2(L4_2)
     A1_2.NowFieldPos = L3_2
   elseif 1 == L2_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.F4A491D288AE384A5
     L5_2 = A1_2.MapIconID
@@ -136,15 +124,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB2DCC287A7876860"]["prototype"]
-L69_1 = "F584AD3ED067D371F"
-
-function L70_1(A0_2)
+--- CB2DCC287A7876860.F584AD3ED067D371F
+function CB2DCC287A7876860_prototype:F584AD3ED067D371F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = cF52F390B
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.f287946D6
@@ -157,8 +142,8 @@ function L70_1(A0_2)
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L6_2 = A0_2
-    L5_2 = A0_2.F80B5D892ADA38C8B
+    L6_2 = self
+    L5_2 = self.F80B5D892ADA38C8B
     L8_2 = L1_2
     L7_2 = L1_2.f0CA5FEBC
     L9_2 = "values"
@@ -169,32 +154,26 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB2DCC287A7876860"]["prototype"]
-L69_1 = "F80B5D892ADA38C8B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CB2DCC287A7876860.setData
+function CB2DCC287A7876860_prototype:F80B5D892ADA38C8B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F18FFA1904F2051CE
+  L4_2 = self
+  L3_2 = self.F18FFA1904F2051CE
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FC6AD99A3538445BE
+  L5_2 = self
+  L4_2 = self.FC6AD99A3538445BE
   L6_2 = L3_2
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2[A2_2] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB2DCC287A7876860"]["prototype"]
-L69_1 = "F18FFA1904F2051CE"
-
-function L70_1(A0_2, A1_2)
+--- CB2DCC287A7876860.F18FFA1904F2051CE
+function CB2DCC287A7876860_prototype:F18FFA1904F2051CE(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FCE76AAAB92EC5028
+  L3_2 = self
+  L2_2 = self.FCE76AAAB92EC5028
   L2_2 = L2_2(L3_2)
   L4_2 = A1_2
   L3_2 = A1_2.f3D9D438D
@@ -235,11 +214,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB2DCC287A7876860"]["prototype"]
-L69_1 = "FCE76AAAB92EC5028"
-
-function L70_1(A0_2)
+--- CB2DCC287A7876860.getDefaultData
+function CB2DCC287A7876860_prototype:FCE76AAAB92EC5028()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L16_1
   L2_2 = {}

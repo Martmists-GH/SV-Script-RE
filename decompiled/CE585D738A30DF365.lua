@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CE585D738A30DF365"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CE585D738A30DF365"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE585D738A30DF365"]
-L69_1 = "__name__"
-L70_1 = "CE585D738A30DF365"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE585D738A30DF365"]
-L69_1 = "SF436BA81AC9AFBA8"
+---@alias CE585D738A30DF365 main_pokepicnic_cooking_CookingUtil
 
-function L70_1(A0_2)
+---@class main_pokepicnic_cooking_CookingUtil
+CE585D738A30DF365 = L15_1()
+CE585D738A30DF365.new = {}
+CE585D738A30DF365.__name__ = "CE585D738A30DF365"
+--- main.pokepicnic.cooking.CookingUtil.GetBaseRotation
+function CE585D738A30DF365.SF436BA81AC9AFBA8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = cD5675BA5
   L1_2 = L1_2.f2135E276
@@ -31,11 +22,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE585D738A30DF365"]
-L69_1 = "S42215A2E57F24ADE"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.cooking.CookingUtil.GetFoodPowerLabel
+function CE585D738A30DF365.S42215A2E57F24ADE(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -155,11 +143,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE585D738A30DF365"]
-L69_1 = "SD30E90299E5A2390"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.cooking.CookingUtil.SearchMatchRecipe
+function CE585D738A30DF365.SD30E90299E5A2390(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   L2_2 = 10000000
   L3_2 = 0
@@ -353,11 +338,8 @@ function L70_1(A0_2, A1_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE585D738A30DF365"]
-L69_1 = "S6C7BABC3DC1FCC30"
-
-function L70_1(A0_2)
+--- main.pokepicnic.cooking.CookingUtil.MakeIngredientObjTempPath
+function CE585D738A30DF365.S6C7BABC3DC1FCC30(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CD9BA9F83E7149568
   L1_2 = L1_2.S264F26F6894F3392
@@ -407,11 +389,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE585D738A30DF365"]
-L69_1 = "S6D9BF981AA7300C6"
-
-function L70_1(A0_2)
+--- main.pokepicnic.cooking.CookingUtil.MakeSeasoningObjTempPath
+function CE585D738A30DF365.S6D9BF981AA7300C6(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CD9BA9F83E7149568
   L1_2 = L1_2.S264F26F6894F3392
@@ -459,11 +438,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE585D738A30DF365"]
-L69_1 = "SDE6459D00C33B672"
-
-function L70_1(A0_2)
+--- main.pokepicnic.cooking.CookingUtil.MakePickObjTempPath
+function CE585D738A30DF365.SDE6459D00C33B672(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -542,11 +518,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE585D738A30DF365"]
-L69_1 = "SBD81E216C7C308B7"
-
-function L70_1(A0_2)
+--- main.pokepicnic.cooking.CookingUtil.IsTopBaguette
+function CE585D738A30DF365.SBD81E216C7C308B7(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -566,11 +539,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE585D738A30DF365"]
-L69_1 = "S5AC3E751016F2795"
-
-function L70_1(A0_2)
+--- main.pokepicnic.cooking.CookingUtil.IsBottomBaguette
+function CE585D738A30DF365.S5AC3E751016F2795(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -590,11 +560,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE585D738A30DF365"]
-L69_1 = "SB5C3DD7B264FF18A"
-
-function L70_1(A0_2)
+--- main.pokepicnic.cooking.CookingUtil.IsBaguette
+function CE585D738A30DF365.SB5C3DD7B264FF18A(A0_2)
   local L1_2, L2_2
   L1_2 = CE585D738A30DF365
   L1_2 = L1_2.SBD81E216C7C308B7
@@ -616,11 +583,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE585D738A30DF365"]
-L69_1 = "SC88BBF37254FC4EF"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.pokepicnic.cooking.CookingUtil.PerfectMatchCombo
+function CE585D738A30DF365.SC88BBF37254FC4EF(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L5_2 = A0_2[6]
   if L5_2 == A2_2 then

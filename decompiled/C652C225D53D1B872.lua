@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C652C225D53D1B872"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C652C225D53D1B872"]
-L69_1 = "new"
+---@alias C652C225D53D1B872 main_util_CoroutineLapper
 
-function L70_1(A0_2)
+---@class main_util_CoroutineLapper : C652C225D53D1B872_prototype
+---@field prototype C652C225D53D1B872_prototype
+C652C225D53D1B872 = L15_1()
+function C652C225D53D1B872.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C652C225D53D1B872
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C652C225D53D1B872"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C652C225D53D1B872
+function C652C225D53D1B872.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[4] = 0
   L2_2 = L26_1.new
@@ -48,42 +42,31 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C652C225D53D1B872"]
 L69_1 = "__name__"
 L70_1 = "C652C225D53D1B872"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C652C225D53D1B872"]
-L69_1 = "S511DEF29717431A3"
-
-function L70_1()
+--- main.util.CoroutineLapper.get_instance
+function C652C225D53D1B872.S511DEF29717431A3()
   local L0_2, L1_2
   L0_2 = C652C225D53D1B872
   L0_2 = L0_2.S7D1E199BBD384D72
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C652C225D53D1B872"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C652C225D53D1B872"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C652C225D53D1B872_prototype
+C652C225D53D1B872_prototype = L15_1()
+C652C225D53D1B872.prototype = C652C225D53D1B872_prototype
+--- main.util.CoroutineLapper.Setup
+function C652C225D53D1B872_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C652C225D53D1B872"]["prototype"]
-L69_1 = "F6BB6C94367FB8083"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.util.CoroutineLapper.Regist
+function C652C225D53D1B872_prototype:F6BB6C94367FB8083(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = C1DB14DCC9D7634FA
   L4_2 = L4_2.new
   L5_2 = A1_2
@@ -98,17 +81,17 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2 = nil
   L6_2 = cCF781FB6
   L6_2 = L6_2.f581990CA
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
   if L6_2 then
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L7_2 = L6_2
     L6_2 = L6_2.f71FAA9DF
     L8_2 = false
     L6_2(L7_2, L8_2)
   end
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L7_2 = L6_2
   L6_2 = L6_2.push
   L8_2 = L4_2
@@ -126,24 +109,18 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C652C225D53D1B872"]["prototype"]
-L69_1 = "F15FE998D8B2A4634"
-
-function L70_1(A0_2, A1_2)
+--- main.util.CoroutineLapper.Unregist
+function C652C225D53D1B872_prototype:F15FE998D8B2A4634(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.remove
   L4_2 = A1_2
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C652C225D53D1B872"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.util.CoroutineLapper.PreUpdate
+function C652C225D53D1B872_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L3_2 = A1_2
   L2_2 = A1_2.f22D509B2
@@ -152,18 +129,18 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.fC0E2CAD0
   L2_2 = L2_2(L3_2)
-  A0_2[4] = L2_2
-  L2_2 = A0_2[3]
+  self[4] = L2_2
+  L2_2 = self[3]
   L2_2 = L2_2.length
   if 0 == L2_2 then
     L2_2 = nil
     L3_2 = cCF781FB6
     L3_2 = L3_2.f581990CA
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.f71FAA9DF
       L5_2 = true
@@ -171,7 +148,7 @@ function L70_1(A0_2, A1_2)
     end
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = _hx_tab_array
   L4_2 = {}
   L4_2.length = 0
@@ -253,21 +230,18 @@ function L70_1(A0_2, A1_2)
       L7_2(L8_2, L9_2)
     end
   end
-  A0_2[3] = L3_2
+  self[3] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C652C225D53D1B872"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.util.CoroutineLapper.Destroy
+function C652C225D53D1B872_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  A0_2[3] = nil
+  self[3] = nil
   L1_2 = C652C225D53D1B872
   L1_2.S7D1E199BBD384D72 = nil
 end

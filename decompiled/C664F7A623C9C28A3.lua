@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C664F7A623C9C28A3"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "__name__"
-L70_1 = "C664F7A623C9C28A3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "SB391F158BA389B73"
+---@alias C664F7A623C9C28A3 main_event_general_gym_base_Gym_common
 
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+---@class main_event_general_gym_base_Gym_common
+C664F7A623C9C28A3 = L15_1()
+C664F7A623C9C28A3.new = {}
+C664F7A623C9C28A3.__name__ = "C664F7A623C9C28A3"
+--- main.event.general.gym.base.Gym_common.GymLeaderBattle
+function C664F7A623C9C28A3.SB391F158BA389B73(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A6_2 then
     A6_2 = false
@@ -70,11 +61,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "SEC7D4E7AAC1B80D7"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.general.gym.base.Gym_common.GymTrainerBattle
+function C664F7A623C9C28A3.SEC7D4E7AAC1B80D7(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A7_2 then
     A7_2 = false
@@ -101,11 +89,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   return L8_2(L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "S12788950B452E236"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.general.gym.base.Gym_common.S12788950B452E236
+function C664F7A623C9C28A3.S12788950B452E236(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A4_2 then
     A4_2 = true
@@ -131,11 +116,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "S9AC765D79D9CBD58"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_common.GymBattleCustomizeResult
+function C664F7A623C9C28A3.S9AC765D79D9CBD58(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = false
@@ -178,11 +160,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "S8BD66C277AC80BAC"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_common.WaitFieldObjectSetup
+function C664F7A623C9C28A3.S8BD66C277AC80BAC(A0_2)
   local L1_2, L2_2, L3_2
   while true do
     L1_2 = CDCBFD50A277E546D
@@ -204,11 +183,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "S3B2B71E4F901EAF0"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_common.ObjFaceEachOther
+function C664F7A623C9C28A3.S3B2B71E4F901EAF0(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S93A017D496A6D000
@@ -238,11 +214,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "SB6E05FC14AF12DAD"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_common.FaceEachOther
+function C664F7A623C9C28A3.SB6E05FC14AF12DAD(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S38F4FBAC61A2A586
@@ -268,11 +241,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "S2AF85665D58422D2"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_common.FaceTheTarget
+function C664F7A623C9C28A3.S2AF85665D58422D2(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S38F4FBAC61A2A586
@@ -287,11 +257,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "SAFFAD7037987D1CC"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_common.FaceThePosition
+function C664F7A623C9C28A3.SAFFAD7037987D1CC(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S6325D39063BFCD33
@@ -306,11 +273,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "SE3108E884EC182C6"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.general.gym.base.Gym_common.playView
+function C664F7A623C9C28A3.SE3108E884EC182C6(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L4_2 = A2_2
   L5_2 = nil
@@ -361,11 +325,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L9_2(L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "S1AB0478FF3408AF1"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_common.waitView
+function C664F7A623C9C28A3.S1AB0478FF3408AF1(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = A2_2
   L3_2 = L3_2()
@@ -397,11 +358,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "SC1736716652A52E0"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_common.PlayTestStartView
+function C664F7A623C9C28A3.SC1736716652A52E0(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = true
@@ -423,11 +381,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "S090E0CD08C8BA3E9"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_common.WaitTestStartView
+function C664F7A623C9C28A3.S090E0CD08C8BA3E9()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C664F7A623C9C28A3
   L0_2 = L0_2.S1AB0478FF3408AF1
@@ -440,11 +395,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "S4586CE78D486773D"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_common.PlayTestEndView
+function C664F7A623C9C28A3.S4586CE78D486773D(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = true
@@ -466,11 +418,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "S17DBBB6093792D24"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_common.WaitTestEndView
+function C664F7A623C9C28A3.S17DBBB6093792D24()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C664F7A623C9C28A3
   L0_2 = L0_2.S1AB0478FF3408AF1
@@ -483,53 +432,38 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "SA173C1E0054EAC8C"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_common.SetStartView
+function C664F7A623C9C28A3.SA173C1E0054EAC8C(A0_2)
   local L1_2
   L1_2 = C664F7A623C9C28A3
   L1_2.SA3F6792EE56E03EA = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "S5B903B45CA20B661"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_common.SetEndView
+function C664F7A623C9C28A3.S5B903B45CA20B661(A0_2)
   local L1_2
   L1_2 = C664F7A623C9C28A3
   L1_2.S24574FECE533DB03 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "S374B6FE38F9F3BE0"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_common.GetStartView
+function C664F7A623C9C28A3.S374B6FE38F9F3BE0()
   local L0_2, L1_2
   L0_2 = C664F7A623C9C28A3
   L0_2 = L0_2.SA3F6792EE56E03EA
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "SD57515697982383D"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_common.GetEndView
+function C664F7A623C9C28A3.SD57515697982383D()
   local L0_2, L1_2
   L0_2 = C664F7A623C9C28A3
   L0_2 = L0_2.S24574FECE533DB03
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "S873A0AAF30359709"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_common.IsDoubleBattlePossible
+function C664F7A623C9C28A3.S873A0AAF30359709()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = CD081B219DEE96EEF
   L0_2 = L0_2.S05EDF33FC818F6B8
@@ -583,11 +517,8 @@ function L70_1()
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C664F7A623C9C28A3"]
-L69_1 = "SCC13046115925173"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_common.SCC13046115925173
+function C664F7A623C9C28A3.SCC13046115925173(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = cDDCCFBA7
   L2_2 = L2_2.fFA7FBE0B

@@ -1,3 +1,6 @@
+---@alias C7B027B11B33E9DEA main_field_behaviour_scenario_main_champion_gym_esper_Gym_esper_reward
+
+---@class main_field_behaviour_scenario_main_champion_gym_esper_Gym_esper_reward
 L55_1 = _ENV
 L56_1 = "C469C8336DE4B45DE"
 L57_1 = L15_1

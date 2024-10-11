@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C10173CCF90A7EFFF"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C10173CCF90A7EFFF"]
-L69_1 = "new"
+---@alias C10173CCF90A7EFFF main_event_base_manager_EventCrossFadeManager
 
-function L70_1(A0_2)
+---@class main_event_base_manager_EventCrossFadeManager : C10173CCF90A7EFFF_prototype
+---@field prototype C10173CCF90A7EFFF_prototype
+C10173CCF90A7EFFF = L15_1()
+function C10173CCF90A7EFFF.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C10173CCF90A7EFFF
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C10173CCF90A7EFFF"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C10173CCF90A7EFFF
+function C10173CCF90A7EFFF.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -48,11 +42,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C10173CCF90A7EFFF"]
 L69_1 = "__name__"
 L70_1 = "C10173CCF90A7EFFF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C10173CCF90A7EFFF"]
-L69_1 = "S37DA1BB732E46529"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventCrossFadeManager.SetLayout
+function C10173CCF90A7EFFF.S37DA1BB732E46529(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C10173CCF90A7EFFF
   L1_2 = L1_2.SC8223E31D3163519
@@ -62,11 +53,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C10173CCF90A7EFFF"]
-L69_1 = "S7C929E9743443BAF"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventCrossFadeManager.SetMaxDuration
+function C10173CCF90A7EFFF.S7C929E9743443BAF(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C10173CCF90A7EFFF
   L1_2 = L1_2.SC8223E31D3163519
@@ -76,11 +64,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C10173CCF90A7EFFF"]
-L69_1 = "S120F3807BD4C22FE"
-
-function L70_1()
+--- main.event.base.manager.EventCrossFadeManager.In
+function C10173CCF90A7EFFF.S120F3807BD4C22FE()
   local L0_2, L1_2
   L0_2 = C10173CCF90A7EFFF
   L0_2 = L0_2.SC8223E31D3163519
@@ -89,11 +74,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C10173CCF90A7EFFF"]
-L69_1 = "SEA575B269E476B3F"
-
-function L70_1()
+--- main.event.base.manager.EventCrossFadeManager.Out
+function C10173CCF90A7EFFF.SEA575B269E476B3F()
   local L0_2, L1_2
   L0_2 = C10173CCF90A7EFFF
   L0_2 = L0_2.SC8223E31D3163519
@@ -102,11 +84,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C10173CCF90A7EFFF"]
-L69_1 = "SE08FDF7C8547293B"
-
-function L70_1()
+--- main.event.base.manager.EventCrossFadeManager.ForceIn
+function C10173CCF90A7EFFF.SE08FDF7C8547293B()
   local L0_2, L1_2
   L0_2 = C10173CCF90A7EFFF
   L0_2 = L0_2.SC8223E31D3163519
@@ -115,11 +94,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C10173CCF90A7EFFF"]
-L69_1 = "SC942B7966D374308"
-
-function L70_1()
+--- main.event.base.manager.EventCrossFadeManager.ForceOut
+function C10173CCF90A7EFFF.SC942B7966D374308()
   local L0_2, L1_2
   L0_2 = C10173CCF90A7EFFF
   L0_2 = L0_2.SC8223E31D3163519
@@ -128,11 +104,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C10173CCF90A7EFFF"]
-L69_1 = "S60DD6554228290A5"
-
-function L70_1()
+--- main.event.base.manager.EventCrossFadeManager.IsEndIn
+function C10173CCF90A7EFFF.S60DD6554228290A5()
   local L0_2, L1_2
   L0_2 = C10173CCF90A7EFFF
   L0_2 = L0_2.SC8223E31D3163519
@@ -141,11 +114,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C10173CCF90A7EFFF"]
-L69_1 = "S2D1C62F6AE89F70E"
-
-function L70_1()
+--- main.event.base.manager.EventCrossFadeManager.IsEndOut
+function C10173CCF90A7EFFF.S2D1C62F6AE89F70E()
   local L0_2, L1_2
   L0_2 = C10173CCF90A7EFFF
   L0_2 = L0_2.SC8223E31D3163519
@@ -154,16 +124,11 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C10173CCF90A7EFFF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C10173CCF90A7EFFF"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+---@class C10173CCF90A7EFFF_prototype
+C10173CCF90A7EFFF_prototype = L15_1()
+C10173CCF90A7EFFF.prototype = C10173CCF90A7EFFF_prototype
+--- main.event.base.manager.EventCrossFadeManager.PreUpdate
+function C10173CCF90A7EFFF_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = C10173CCF90A7EFFF
   L2_2 = L2_2.SC8223E31D3163519

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C4B7E919837B1F2F0"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C4B7E919837B1F2F0"]
-L69_1 = "new"
+---@alias C4B7E919837B1F2F0 main_pokepicnic_ui_state_CookingGameMenuState
 
-function L70_1(A0_2)
+---@class main_pokepicnic_ui_state_CookingGameMenuState : C4B7E919837B1F2F0_prototype
+---@field prototype C4B7E919837B1F2F0_prototype
+C4B7E919837B1F2F0 = L15_1()
+function C4B7E919837B1F2F0.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C4B7E919837B1F2F0
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B7E919837B1F2F0"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C4B7E919837B1F2F0
+function C4B7E919837B1F2F0.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[2] = nil
   L2_2 = CDC3F92928A2194E6
@@ -43,11 +37,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C4B7E919837B1F2F0"]
 L69_1 = "__name__"
 L70_1 = "C4B7E919837B1F2F0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B7E919837B1F2F0"]
-L69_1 = "S942BD2D38DEC97F8"
-
-function L70_1(A0_2)
+--- main.pokepicnic.ui.state.CookingGameMenuState.CastBehavior
+function C4B7E919837B1F2F0.S942BD2D38DEC97F8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = A0_2
   L1_2 = A0_2.fB3CF1DEB
@@ -85,47 +76,36 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B7E919837B1F2F0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B7E919837B1F2F0"]["prototype"]
-L69_1 = "F706FCB31D5565CDB"
-
-function L70_1(A0_2)
+---@class C4B7E919837B1F2F0_prototype
+C4B7E919837B1F2F0_prototype = L15_1()
+C4B7E919837B1F2F0.prototype = C4B7E919837B1F2F0_prototype
+--- main.pokepicnic.ui.state.CookingGameMenuState.StartFlow
+function C4B7E919837B1F2F0_prototype:F706FCB31D5565CDB()
   local L1_2, L2_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f83FE57AE
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B7E919837B1F2F0"]["prototype"]
-L69_1 = "F1BEBE27672EC9F89"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.ui.state.CookingGameMenuState.NextView
+function C4B7E919837B1F2F0_prototype:F1BEBE27672EC9F89(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f54B24942
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B7E919837B1F2F0"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.ui.state.CookingGameMenuState.Setup
+function C4B7E919837B1F2F0_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2
   L2_2 = c2A84524D
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
 end
 
 L68_1[L69_1] = L70_1

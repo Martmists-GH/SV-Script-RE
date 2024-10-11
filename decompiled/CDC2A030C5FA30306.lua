@@ -1,3 +1,7 @@
+---@alias CDC2A030C5FA30306 main_field_behaviour_scenario_main_champion_gym_ghost_Gym_ghost_npc_pokemon
+
+---@class main_field_behaviour_scenario_main_champion_gym_ghost_Gym_ghost_npc_pokemon : CDC2A030C5FA30306_prototype
+---@field prototype CDC2A030C5FA30306_prototype
 L55_1 = _ENV
 L56_1 = "CDC2A030C5FA30306"
 L57_1 = L15_1
@@ -42,16 +46,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CDC2A030C5FA30306"]
 L69_1 = "__name__"
 L70_1 = "CDC2A030C5FA30306"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC2A030C5FA30306"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC2A030C5FA30306"]["prototype"]
-L69_1 = "F2C2D0B7F283325A7"
-
-function L70_1(A0_2)
+---@class CDC2A030C5FA30306_prototype
+CDC2A030C5FA30306_prototype = L15_1()
+CDC2A030C5FA30306.prototype = CDC2A030C5FA30306_prototype
+--- main.field.behaviour.scenario.main.champion.gym.ghost.Gym_ghost_npc_pokemon.GetPokeVoiceProbability
+function CDC2A030C5FA30306_prototype:F2C2D0B7F283325A7()
   local L1_2
   L1_2 = CF3CED01D902BAF5B
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -59,11 +58,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC2A030C5FA30306"]["prototype"]
-L69_1 = "F9B395BBF7A51343A"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.ghost.Gym_ghost_npc_pokemon.F9B395BBF7A51343A
+function CDC2A030C5FA30306_prototype:F9B395BBF7A51343A()
   local L1_2
   L1_2 = 2
   return L1_2

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C8DB5F4B417928E9D"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C8DB5F4B417928E9D"]
-L69_1 = "new"
+---@alias C8DB5F4B417928E9D main_ui_pokeicon_PokeIconScaleGeneralManager
 
-function L70_1(A0_2)
+---@class main_ui_pokeicon_PokeIconScaleGeneralManager : C8DB5F4B417928E9D_prototype
+---@field prototype C8DB5F4B417928E9D_prototype
+C8DB5F4B417928E9D = L15_1()
+function C8DB5F4B417928E9D.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C8DB5F4B417928E9D
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB5F4B417928E9D"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C8DB5F4B417928E9D
+function C8DB5F4B417928E9D.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,39 +36,31 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C8DB5F4B417928E9D"]
 L69_1 = "__name__"
 L70_1 = "C8DB5F4B417928E9D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB5F4B417928E9D"]
-L69_1 = "S0B3F69C4549A0284"
-
-function L70_1()
+--- main.ui.pokeicon.PokeIconScaleGeneralManager.GetInstance
+function C8DB5F4B417928E9D.S0B3F69C4549A0284()
   local L0_2, L1_2
   L0_2 = C8DB5F4B417928E9D
   L0_2 = L0_2.S032897EBFF9CC1F2
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB5F4B417928E9D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB5F4B417928E9D"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C8DB5F4B417928E9D_prototype
+C8DB5F4B417928E9D_prototype = L15_1()
+C8DB5F4B417928E9D.prototype = C8DB5F4B417928E9D_prototype
+--- main.ui.pokeicon.PokeIconScaleGeneralManager.Setup
+function C8DB5F4B417928E9D_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C8DB5F4B417928E9D
-  L2_2.S032897EBFF9CC1F2 = A0_2
+  L2_2.S032897EBFF9CC1F2 = self
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cF52F390B
@@ -97,8 +83,8 @@ function L70_1(A0_2, A1_2)
   if L6_2 then
     return
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.FC7A9B997928E1344
+  L7_2 = self
+  L6_2 = self.FC7A9B997928E1344
   L9_2 = L4_2
   L8_2 = L4_2.f6902A503
   L10_2 = "values"
@@ -107,11 +93,8 @@ function L70_1(A0_2, A1_2)
   L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB5F4B417928E9D"]["prototype"]
-L69_1 = "F1808DCB1F3A9233F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokeicon.PokeIconScaleGeneralManager.GetScaleData
+function C8DB5F4B417928E9D_prototype:F1808DCB1F3A9233F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = nil
   L3_2 = c113335A8
@@ -155,8 +138,8 @@ function L70_1(A0_2, A1_2)
     L5_2 = L5_2.next
     L7_2 = L6_2.devID
     if L7_2 == L3_2 then
-      L8_2 = A0_2
-      L7_2 = A0_2.F53C31A80A2BD4124
+      L8_2 = self
+      L7_2 = self.F53C31A80A2BD4124
       L9_2 = L6_2
       L7_2 = L7_2(L8_2, L9_2)
       L4_2 = L7_2
@@ -224,11 +207,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB5F4B417928E9D"]["prototype"]
-L69_1 = "FC052AC8ACAFEE219"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokeicon.PokeIconScaleGeneralManager.FC052AC8ACAFEE219
+function C8DB5F4B417928E9D_prototype:FC052AC8ACAFEE219(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = A1_2
   L2_2 = A1_2.fCE2A7CF8
@@ -258,8 +238,8 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2.next
     L6_2 = L5_2.devID
     if L6_2 == L2_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.F53C31A80A2BD4124
+      L7_2 = self
+      L6_2 = self.F53C31A80A2BD4124
       L8_2 = L5_2
       L6_2 = L6_2(L7_2, L8_2)
       L3_2 = L6_2
@@ -327,11 +307,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB5F4B417928E9D"]["prototype"]
-L69_1 = "F8EAC003764ECB9B7"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokeicon.PokeIconScaleGeneralManager.F8EAC003764ECB9B7
+function C8DB5F4B417928E9D_prototype:F8EAC003764ECB9B7(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = nil
   L3_2 = c113335A8
@@ -375,8 +352,8 @@ function L70_1(A0_2, A1_2)
     L5_2 = L5_2.next
     L7_2 = L6_2.devID
     if L7_2 == L3_2 then
-      L8_2 = A0_2
-      L7_2 = A0_2.F53C31A80A2BD4124
+      L8_2 = self
+      L7_2 = self.F53C31A80A2BD4124
       L9_2 = L6_2
       L7_2 = L7_2(L8_2, L9_2)
       L4_2 = L7_2
@@ -444,11 +421,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB5F4B417928E9D"]["prototype"]
-L69_1 = "FC7A9B997928E1344"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokeicon.PokeIconScaleGeneralManager.SetFBSData
+function C8DB5F4B417928E9D_prototype:FC7A9B997928E1344(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = 0
   while A1_2 > L3_2 do
@@ -493,8 +467,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L10_2.scaleSize = true
     L9_2.__fields__ = L10_2
     L9_2.devID = L5_2
-    L11_2 = A0_2
-    L10_2 = A0_2.F9D194EABA9E1459E
+    L11_2 = self
+    L10_2 = self.F9D194EABA9E1459E
     L12_2 = L6_2
     L10_2 = L10_2(L11_2, L12_2)
     L9_2.scaleType = L10_2
@@ -509,11 +483,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB5F4B417928E9D"]["prototype"]
-L69_1 = "F9D194EABA9E1459E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokeicon.PokeIconScaleGeneralManager.F9D194EABA9E1459E
+function C8DB5F4B417928E9D_prototype:F9D194EABA9E1459E(A1_2)
   local L2_2
   if 0 == A1_2 then
     L2_2 = 0
@@ -533,11 +504,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB5F4B417928E9D"]["prototype"]
-L69_1 = "F53C31A80A2BD4124"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokeicon.PokeIconScaleGeneralManager.Copy
+function C8DB5F4B417928E9D_prototype:F53C31A80A2BD4124(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L16_1
   L3_2 = {}
@@ -555,16 +523,13 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB5F4B417928E9D"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ui.pokeicon.PokeIconScaleGeneralManager.Destroy
+function C8DB5F4B417928E9D_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 

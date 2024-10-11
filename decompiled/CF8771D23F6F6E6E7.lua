@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "CF8771D23F6F6E6E7"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CF8771D23F6F6E6E7"]
-L69_1 = "new"
-
-function L70_1(A0_2, A1_2)
+---@class CF8771D23F6F6E6E7 : CF8771D23F6F6E6E7_prototype
+---@field prototype CF8771D23F6F6E6E7_prototype
+CF8771D23F6F6E6E7 = L15_1()
+function CF8771D23F6F6E6E7.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CF8771D23F6F6E6E7
@@ -23,20 +18,13 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8771D23F6F6E6E7"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CF8771D23F6F6E6E7
+function CF8771D23F6F6E6E7.super(A0_2, A1_2, A2_2)
   A0_2[1] = A1_2
   A0_2[2] = A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8771D23F6F6E6E7"]
-L69_1 = "__name__"
-L70_1 = "CF8771D23F6F6E6E7"
-L68_1[L69_1] = L70_1
+CF8771D23F6F6E6E7.__name__ = "CF8771D23F6F6E6E7"
 L68_1 = _ENV["CF8771D23F6F6E6E7"]
 L69_1 = "S988D7D0A4EEF693D"
 
@@ -49,16 +37,11 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8771D23F6F6E6E7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8771D23F6F6E6E7"]["prototype"]
-L69_1 = "F6578A04FA49328FF"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class CF8771D23F6F6E6E7_prototype
+CF8771D23F6F6E6E7_prototype = L15_1()
+CF8771D23F6F6E6E7.prototype = CF8771D23F6F6E6E7_prototype
+--- CF8771D23F6F6E6E7.Ease
+function CF8771D23F6F6E6E7_prototype:F6578A04FA49328FF(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L3_2 = nil
   if 0 == A2_2 then
@@ -158,8 +141,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = L3_2
   L5_2 = A1_2
   L4_2 = L4_2(L5_2)
-  L5_2 = A0_2[1]
-  L6_2 = A0_2[2]
+  L5_2 = self[1]
+  L6_2 = self[2]
   L7_2 = c7A48E3FC
   L7_2 = L7_2.f74C1A5DE
   L8_2 = L5_2[1]

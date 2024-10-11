@@ -1,3 +1,7 @@
+---@alias CAEE1F3EE22B3BAEF main_ui_shop_restaurant_buff_ShopRestaurantUIBuff
+
+---@class main_ui_shop_restaurant_buff_ShopRestaurantUIBuff : CAEE1F3EE22B3BAEF_prototype
+---@field prototype CAEE1F3EE22B3BAEF_prototype
 L55_1 = _ENV
 L56_1 = "CAEE1F3EE22B3BAEF"
 L57_1 = L15_1
@@ -37,41 +41,33 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CAEE1F3EE22B3BAEF"]
 L69_1 = "__name__"
 L70_1 = "CAEE1F3EE22B3BAEF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEE1F3EE22B3BAEF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEE1F3EE22B3BAEF"]["prototype"]
-L69_1 = "F520A436D0EDF5F08"
-
-function L70_1(A0_2)
+---@class CAEE1F3EE22B3BAEF_prototype
+CAEE1F3EE22B3BAEF_prototype = L15_1()
+CAEE1F3EE22B3BAEF.prototype = CAEE1F3EE22B3BAEF_prototype
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuff.OpenUISceneSequence
+function CAEE1F3EE22B3BAEF_prototype:F520A436D0EDF5F08()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.FA7F77D015FD8480A
   L3_2 = "shop_restaurant_buff"
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEE1F3EE22B3BAEF"]["prototype"]
-L69_1 = "FFC40D715BF1230DA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuff.StartFlowSequence
+function CAEE1F3EE22B3BAEF_prototype:FFC40D715BF1230DA(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = nil
   L5_2 = cA042DA13
   L5_2 = L5_2.fB1E655AE
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
     return
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.FE744212C12ED8D05
+  L6_2 = self
+  L5_2 = self.FE744212C12ED8D05
   L5_2 = L5_2(L6_2)
   L6_2 = L5_2
   L5_2 = L5_2.FBE13CC3641320857
@@ -88,24 +84,21 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2(L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEE1F3EE22B3BAEF"]["prototype"]
-L69_1 = "F61BA6603D3C2CCAC"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuff.CloseSceneSequence
+function CAEE1F3EE22B3BAEF_prototype:F61BA6603D3C2CCAC()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = nil
   L3_2 = cA042DA13
   L3_2 = L3_2.fB1E655AE
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     return
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FE744212C12ED8D05
+  L4_2 = self
+  L3_2 = self.FE744212C12ED8D05
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.FBE13CC3641320857

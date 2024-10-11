@@ -1,11 +1,8 @@
-L55_1 = _ENV
-L56_1 = "C3A254CF9689A1A18"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C3A254CF9689A1A18"]
-L69_1 = "new"
-L70_1 = {}
+---@alias C3A254CF9689A1A18 main_battle_parts_trainer_parts_BattleNPCPlayerUtil
+
+---@class main_battle_parts_trainer_parts_BattleNPCPlayerUtil
+C3A254CF9689A1A18 = L15_1()
+C3A254CF9689A1A18.new = {}
 L68_1[L69_1] = L70_1
 L68_1 = "C3A254CF9689A1A18"
 L69_1 = _ENV["C3A254CF9689A1A18"]
@@ -13,11 +10,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C3A254CF9689A1A18"]
 L69_1 = "__name__"
 L70_1 = "C3A254CF9689A1A18"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A254CF9689A1A18"]
-L69_1 = "S56C558A6E6549174"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.parts.trainer_parts.BattleNPCPlayerUtil.CreatePlayerLoad
+function C3A254CF9689A1A18.S56C558A6E6549174(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = nil
   if A2_2 then
@@ -42,11 +36,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A254CF9689A1A18"]
-L69_1 = "SB0108975C1CD40BC"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.parts.trainer_parts.BattleNPCPlayerUtil.SetupNPCPlayer
+function C3A254CF9689A1A18.SB0108975C1CD40BC(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = cC05A2C1B
   L2_2 = L2_2.fB41FD22F
@@ -86,11 +77,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A254CF9689A1A18"]
-L69_1 = "S53D52BD88E301F7B"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.parts.trainer_parts.BattleNPCPlayerUtil.SetupPlayerBodyParts
+function C3A254CF9689A1A18.S53D52BD88E301F7B(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
@@ -197,11 +185,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A254CF9689A1A18"]
-L69_1 = "S9FD53EFA8DA6BEB6"
-
-function L70_1(A0_2)
+--- main.battle.parts.trainer_parts.BattleNPCPlayerUtil.ModelStateWait
+function C3A254CF9689A1A18.S9FD53EFA8DA6BEB6(A0_2)
   local L1_2, L2_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.S760DAE4C5371A78E
@@ -219,11 +204,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A254CF9689A1A18"]
-L69_1 = "S911B0CE7F61365B5"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.parts.trainer_parts.BattleNPCPlayerUtil.GetLabelIndex
+function C3A254CF9689A1A18.S911B0CE7F61365B5(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = 0
   L5_2 = A0_2
@@ -246,11 +228,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A254CF9689A1A18"]
-L69_1 = "SC575843194B338F4"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.parts.trainer_parts.BattleNPCPlayerUtil.SetupPlayerFaceParts
+function C3A254CF9689A1A18.SC575843194B338F4(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = _hx_tab_array
   L3_2 = {}

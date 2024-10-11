@@ -1,3 +1,5 @@
+---@class CF795460372F301E9 : CF795460372F301E9_prototype
+---@field prototype CF795460372F301E9_prototype
 L55_1 = _ENV
 L56_1 = "CF795460372F301E9"
 L57_1 = L15_1
@@ -44,47 +46,36 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF795460372F301E9"]
 L69_1 = "__name__"
 L70_1 = "CF795460372F301E9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF795460372F301E9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF795460372F301E9"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CF795460372F301E9_prototype
+CF795460372F301E9_prototype = L15_1()
+CF795460372F301E9.prototype = CF795460372F301E9_prototype
+--- CF795460372F301E9.Setup
+function CF795460372F301E9_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C9CC979169E6BA3A6
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF795460372F301E9"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- CF795460372F301E9.PreUpdate
+function CF795460372F301E9_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F9C88B7EFD8BB9396
-  L4_2 = A0_2[3]
+  L3_2 = self
+  L2_2 = self.F9C88B7EFD8BB9396
+  L4_2 = self[3]
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF795460372F301E9"]["prototype"]
-L69_1 = "F9C88B7EFD8BB9396"
-
-function L70_1(A0_2, A1_2)
+--- CF795460372F301E9.UpdateCoroutine
+function CF795460372F301E9_prototype:F9C88B7EFD8BB9396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil ~= A1_2 then
     L2_2 = L10_1.coroutine
@@ -139,22 +130,19 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF795460372F301E9"]["prototype"]
-L69_1 = "FA9DD627E1DBFA710"
-
-function L70_1(A0_2, A1_2)
+--- CF795460372F301E9.FA9DD627E1DBFA710
+function CF795460372F301E9_prototype:FA9DD627E1DBFA710(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = 0
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F1D489397484DC19C
+  L3_2 = self
+  L2_2 = self.F1D489397484DC19C
   L4_2 = cE461829E
   L4_2 = L4_2.fD0AD22FA
   L4_2, L5_2, L6_2 = L4_2()
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.FB6D1FE1B1E10C33D
   L3_2 = L3_2(L4_2)
@@ -164,7 +152,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = L2_2
   L3_2(L4_2, L5_2, L6_2)
   if 0 == A1_2 or 1 == A1_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.F748A3DCD68216D1D
     L5_2 = "main_start"
@@ -178,7 +166,7 @@ function L70_1(A0_2, A1_2)
     L4_2 = "SYS_TITLE_SDC02"
     L3_2(L4_2)
     while true do
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.F810D8446A8612992
       L5_2 = "main_start"
@@ -192,7 +180,7 @@ function L70_1(A0_2, A1_2)
     end
   end
   if 0 == A1_2 or 2 == A1_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.F748A3DCD68216D1D
     L5_2 = "dlc2_00"
@@ -202,7 +190,7 @@ function L70_1(A0_2, A1_2)
     L4_2 = "PLAY_UI_TITLE_LOGO_SDC2"
     L3_2(L4_2)
     while true do
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.F810D8446A8612992
       L5_2 = "dlc2_00"
@@ -215,9 +203,9 @@ function L70_1(A0_2, A1_2)
       L3_2()
     end
   end
-  A0_2[4] = true
+  self[4] = true
   if 0 == A1_2 or 2 == A1_2 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f462C9B70
     L3_2 = L3_2(L4_2)
@@ -227,11 +215,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF795460372F301E9"]["prototype"]
-L69_1 = "F1D489397484DC19C"
-
-function L70_1(A0_2, A1_2)
+--- CF795460372F301E9.F1D489397484DC19C
+function CF795460372F301E9_prototype:F1D489397484DC19C(A1_2)
   local L2_2
   if 1 == A1_2 then
     L2_2 = 0
@@ -266,27 +251,24 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF795460372F301E9"]["prototype"]
-L69_1 = "F748A3DCD68216D1D"
-
-function L70_1(A0_2, A1_2)
+--- CF795460372F301E9.PlayAnime
+function CF795460372F301E9_prototype:F748A3DCD68216D1D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = 0
   end
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = C9CC979169E6BA3A6
   L3_2 = L3_2.new
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
-  A0_2[2] = L3_2
-  A0_2[4] = false
-  L3_2 = A0_2[2]
+  self[2] = L3_2
+  self[4] = false
+  L3_2 = self[2]
   if nil == L3_2 then
     return
   end
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.FA23D39922B76B247
   L5_2 = nil
@@ -306,16 +288,13 @@ function L70_1(A0_2, A1_2)
   
   L5_2 = "dlc_animation_sequence"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[3] = L3_2
+  self[3] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF795460372F301E9"]["prototype"]
-L69_1 = "F810D8446A8612992"
-
-function L70_1(A0_2)
+--- CF795460372F301E9.IsEndAnime
+function CF795460372F301E9_prototype:F810D8446A8612992()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   return L1_2
 end
 

@@ -1,3 +1,7 @@
+---@alias C55070442BA660888 main_field_contents_camera_ContactContentsCamera
+
+---@class main_field_contents_camera_ContactContentsCamera : C55070442BA660888_prototype
+---@field prototype C55070442BA660888_prototype
 L55_1 = _ENV
 L56_1 = "C55070442BA660888"
 L57_1 = L15_1
@@ -81,43 +85,35 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C55070442BA660888"]
 L69_1 = "__name__"
 L70_1 = "C55070442BA660888"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55070442BA660888"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55070442BA660888"]["prototype"]
-L69_1 = "FBF02A2AE63AF40EC"
-
-function L70_1(A0_2)
+---@class C55070442BA660888_prototype
+C55070442BA660888_prototype = L15_1()
+C55070442BA660888.prototype = C55070442BA660888_prototype
+--- main.field.contents.camera.ContactContentsCamera.OnStart
+function C55070442BA660888_prototype:FBF02A2AE63AF40EC()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L3_2 = L3_2.LookObject
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L2_2 = L2_2.LookObject
     L3_2 = L2_2
     L2_2 = L2_2.f12329E64
     L4_2 = true
     L2_2(L3_2, L4_2)
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F56CCEEDABDCA21C5
+  L3_2 = self
+  L2_2 = self.F56CCEEDABDCA21C5
   L2_2(L3_2)
-  A0_2[11] = 0.0
+  self[11] = 0.0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55070442BA660888"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.camera.ContactContentsCamera.OnUpdate
+function C55070442BA660888_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2, L51_2, L52_2, L53_2, L54_2, L55_2
   L3_2 = A1_2
   L2_2 = A1_2.f22D509B2
@@ -126,17 +122,17 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.fC0E2CAD0
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L3_2 = L3_2 + L2_2
-  A0_2[11] = L3_2
+  self[11] = L3_2
   L3_2 = CD9AE7C27B00EB066
   L3_2 = L3_2.S05B90B9B5A6DE6BC
-  L4_2 = A0_2[11]
+  L4_2 = self[11]
   L5_2 = 0.0
-  L6_2 = A0_2[7]
+  L6_2 = self[7]
   L3_2 = L3_2(L4_2, L5_2, L6_2)
-  A0_2[11] = L3_2
-  L3_2 = A0_2[8]
+  self[11] = L3_2
+  L3_2 = self[8]
   L3_2 = L3_2.LookObject
   L4_2 = nil
   L5_2 = c016374C1
@@ -183,14 +179,14 @@ function L70_1(A0_2, A1_2)
   L20_2 = L3_2
   L19_2 = L3_2.f7360ED03
   L19_2, L20_2, L21_2 = L19_2(L20_2)
-  L22_2 = A0_2[3]
+  L22_2 = self[3]
   L23_2 = L10_2 * L22_2
   L23_2 = L19_2 + L23_2
   L24_2 = L11_2 * L22_2
   L24_2 = L20_2 + L24_2
   L25_2 = L12_2 * L22_2
   L25_2 = L21_2 + L25_2
-  L26_2 = A0_2[6]
+  L26_2 = self[6]
   L24_2 = L24_2 + L26_2
   L27_2 = L3_2
   L26_2 = L3_2.f7360ED03
@@ -230,7 +226,7 @@ function L70_1(A0_2, A1_2)
   L33_2 = L3_2
   L32_2 = L3_2.f64857644
   L32_2 = L32_2(L33_2)
-  L33_2 = A0_2[4]
+  L33_2 = self[4]
   L35_2 = L32_2
   L34_2 = L32_2.fCA247E7A
   L36_2 = L33_2[1]
@@ -250,27 +246,27 @@ function L70_1(A0_2, A1_2)
   L29_2 = L37_2
   L37_2 = L10_1.math
   L37_2 = L37_2.abs
-  L38_2 = A0_2[11]
-  L39_2 = A0_2[7]
+  L38_2 = self[11]
+  L39_2 = self[7]
   L38_2 = L38_2 - L39_2
   L37_2 = L37_2(L38_2)
   L38_2 = CD9AE7C27B00EB066
   L38_2 = L38_2.SFB8A67CFE7F5605D
   if not (L37_2 < L38_2) then
-    A0_2[12] = L29_2
+    self[12] = L29_2
   else
     L37_2 = CD9AE7C27B00EB066
     L37_2 = L37_2.SF6B1543657D10AD3
-    L38_2 = A0_2[12]
+    L38_2 = self[12]
     L39_2 = L29_2
-    L40_2 = A0_2[13]
-    L41_2 = A0_2[5]
+    L40_2 = self[13]
+    L41_2 = self[5]
     L42_2 = 1000.0
     L43_2 = L2_2
     L37_2 = L37_2(L38_2, L39_2, L40_2, L41_2, L42_2, L43_2)
-    A0_2[12] = L37_2
+    self[12] = L37_2
   end
-  L37_2 = A0_2[12]
+  L37_2 = self[12]
   L38_2 = nil
   L39_2 = nil
   L40_2 = {}
@@ -309,8 +305,8 @@ function L70_1(A0_2, A1_2)
   L44_2 = L42_2
   L43_2 = L42_2.f1087DA78
   L43_2(L44_2)
-  L43_2 = A0_2[11]
-  L44_2 = A0_2[7]
+  L43_2 = self[11]
+  L44_2 = self[7]
   L43_2 = L43_2 / L44_2
   
   function L44_2()
@@ -339,8 +335,8 @@ function L70_1(A0_2, A1_2)
   end
   
   L44_2 = L44_2()
-  L45_2 = A0_2[2]
-  L46_2 = A0_2[9]
+  L45_2 = self[2]
+  L46_2 = self[9]
   L47_2 = c7A48E3FC
   L47_2 = L47_2.f74C1A5DE
   L48_2 = L46_2[1]
@@ -357,25 +353,22 @@ function L70_1(A0_2, A1_2)
   L53_2 = L48_2
   L54_2 = L49_2
   L50_2(L51_2, L52_2, L53_2, L54_2)
-  L50_2 = A0_2[2]
+  L50_2 = self[2]
   L51_2 = L50_2
   L50_2 = L50_2.f5E2B847F
   L52_2 = cD5675BA5
   L52_2 = L52_2.f74C1A5DE
-  L53_2 = A0_2[10]
+  L53_2 = self[10]
   L54_2 = L42_2
   L55_2 = L44_2
   L52_2, L53_2, L54_2, L55_2 = L52_2(L53_2, L54_2, L55_2)
   L50_2(L51_2, L52_2, L53_2, L54_2, L55_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55070442BA660888"]["prototype"]
-L69_1 = "F56CCEEDABDCA21C5"
-
-function L70_1(A0_2)
+--- main.field.contents.camera.ContactContentsCamera.SetStartPos
+function C55070442BA660888_prototype:F56CCEEDABDCA21C5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L1_2 = L1_2.LookObject
   L2_2 = nil
   L3_2 = c016374C1
@@ -408,7 +401,7 @@ function L70_1(A0_2)
   L7_2 = L5_2
   L6_2 = L5_2.f9A76A9E5
   L6_2 = L6_2(L7_2)
-  A0_2[3] = L6_2
+  self[3] = L6_2
   L7_2 = L5_2
   L6_2 = L5_2.f71169027
   L6_2, L7_2, L8_2 = L6_2(L7_2)
@@ -419,7 +412,7 @@ function L70_1(A0_2)
   L9_2[1] = L10_2
   L9_2[2] = L11_2
   L9_2[3] = L12_2
-  A0_2[4] = L9_2
+  self[4] = L9_2
   L10_2 = L1_2
   L9_2 = L1_2.f64857644
   L9_2 = L9_2(L10_2)
@@ -456,7 +449,7 @@ function L70_1(A0_2)
   L24_2 = L1_2
   L23_2 = L1_2.f7360ED03
   L23_2, L24_2, L25_2 = L23_2(L24_2)
-  L26_2 = A0_2[3]
+  L26_2 = self[3]
   L27_2 = {}
   L28_2 = L14_2 * L26_2
   L28_2 = L23_2 + L28_2
@@ -468,7 +461,7 @@ function L70_1(A0_2)
   L27_2[2] = L29_2
   L27_2[3] = L30_2
   L28_2 = L27_2[2]
-  L29_2 = A0_2[6]
+  L29_2 = self[6]
   L28_2 = L28_2 + L29_2
   L27_2[2] = L28_2
   L29_2 = L1_2
@@ -482,10 +475,10 @@ function L70_1(A0_2)
   L31_2[2] = L33_2
   L31_2[3] = L34_2
   L32_2 = L31_2[2]
-  L33_2 = A0_2[6]
+  L33_2 = self[6]
   L32_2 = L32_2 + L33_2
   L31_2[2] = L32_2
-  A0_2[12] = L31_2
+  self[12] = L31_2
   L32_2 = {}
   L33_2 = 0
   L34_2 = 0
@@ -493,7 +486,7 @@ function L70_1(A0_2)
   L32_2[1] = L33_2
   L32_2[2] = L34_2
   L32_2[3] = L35_2
-  A0_2[13] = L32_2
+  self[13] = L32_2
   L32_2 = nil
   L33_2 = nil
   L34_2 = {}
@@ -535,8 +528,8 @@ function L70_1(A0_2)
   L38_2 = L36_2
   L37_2 = L36_2.f1087DA78
   L37_2(L38_2)
-  A0_2[9] = L27_2
-  A0_2[10] = L36_2
+  self[9] = L27_2
+  self[10] = L36_2
 end
 
 L68_1[L69_1] = L70_1

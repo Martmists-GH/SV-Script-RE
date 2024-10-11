@@ -1,3 +1,7 @@
+---@alias C8D2B5A1F4A0CBF84 main_pokepicnic_object_controller_Database_ObjectController
+
+---@class main_pokepicnic_object_controller_Database_ObjectController : C8D2B5A1F4A0CBF84_prototype
+---@field prototype C8D2B5A1F4A0CBF84_prototype
 L55_1 = _ENV
 L56_1 = "C8D2B5A1F4A0CBF84"
 L57_1 = L15_1
@@ -41,16 +45,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8D2B5A1F4A0CBF84"]
 L69_1 = "__name__"
 L70_1 = "C8D2B5A1F4A0CBF84"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8D2B5A1F4A0CBF84"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8D2B5A1F4A0CBF84"]["prototype"]
-L69_1 = "FB4B5759D65F5972C"
-
-function L70_1(A0_2)
+---@class C8D2B5A1F4A0CBF84_prototype
+C8D2B5A1F4A0CBF84_prototype = L15_1()
+C8D2B5A1F4A0CBF84.prototype = C8D2B5A1F4A0CBF84_prototype
+--- main.pokepicnic.object_controller.Database_ObjectController.OnLoad
+function C8D2B5A1F4A0CBF84_prototype:FB4B5759D65F5972C()
   local L1_2, L2_2, L3_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -72,17 +71,14 @@ function L70_1(A0_2)
         break
       end
     end
-    L3_2 = A0_2
-    L2_2 = A0_2.F8996DF23037F23E3
+    L3_2 = self
+    L2_2 = self.F8996DF23037F23E3
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8D2B5A1F4A0CBF84"]["prototype"]
-L69_1 = "F7A48ED910AD701E3"
-
-function L70_1(A0_2)
+--- main.pokepicnic.object_controller.Database_ObjectController.OnUnLoad
+function C8D2B5A1F4A0CBF84_prototype:F7A48ED910AD701E3()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D

@@ -1,3 +1,5 @@
+---@class C0F5EBFEBBCC296A5 : C0F5EBFEBBCC296A5_prototype
+---@field prototype C0F5EBFEBBCC296A5_prototype
 L55_1 = _ENV
 L56_1 = "C0F5EBFEBBCC296A5"
 L57_1 = L15_1
@@ -45,41 +47,36 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C0F5EBFEBBCC296A5"]
 L69_1 = "__name__"
 L70_1 = "C0F5EBFEBBCC296A5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F5EBFEBBCC296A5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F5EBFEBBCC296A5"]["prototype"]
-L69_1 = "F5D76AF58B4AC9AE0"
-
-function L70_1(A0_2, A1_2)
+---@class C0F5EBFEBBCC296A5_prototype
+C0F5EBFEBBCC296A5_prototype = L15_1()
+C0F5EBFEBBCC296A5.prototype = C0F5EBFEBBCC296A5_prototype
+--- C0F5EBFEBBCC296A5.F5D76AF58B4AC9AE0
+function C0F5EBFEBBCC296A5_prototype:F5D76AF58B4AC9AE0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = CF55DAF634B863600
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F5D76AF58B4AC9AE0
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = nil
   L3_2 = cCC3ADC8A
   L3_2 = L3_2.f7C7BED7E
-  L4_2 = A0_2[65]
+  L4_2 = self[65]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[67]
-    L4_2 = A0_2[69]
+    L3_2 = self[67]
+    L4_2 = self[69]
     if L3_2 ~= L4_2 then
-      L3_2 = A0_2[67]
-      L4_2 = A0_2[70]
+      L3_2 = self[67]
+      L4_2 = self[70]
       if L3_2 ~= L4_2 then
         goto lbl_49
       end
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.F66048296A6CFC088
+    L4_2 = self
+    L3_2 = self.F66048296A6CFC088
     L6_2 = A1_2
     L5_2 = A1_2.f22D509B2
     L7_2 = 2
@@ -91,12 +88,12 @@ function L70_1(A0_2, A1_2)
     L3_2 = nil
     L4_2 = cECB91E31
     L4_2 = L4_2.f04ACC3F2
-    L5_2 = A0_2[58]
+    L5_2 = self[58]
     L5_2 = L5_2.modelComp
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L4_2 = A0_2[58]
+      L4_2 = self[58]
       L4_2 = L4_2.modelComp
       L5_2 = L4_2
       L4_2 = L4_2.f949BDB20
@@ -104,25 +101,22 @@ function L70_1(A0_2, A1_2)
       L7_2 = "default"
       L4_2(L5_2, L6_2, L7_2)
     end
-    L4_2 = A0_2[65]
+    L4_2 = self[65]
     L5_2 = L4_2
     L4_2 = L4_2.f528F9D60
-    L6_2 = A0_2[77]
+    L6_2 = self[77]
     L4_2(L5_2, L6_2)
   end
   ::lbl_49::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F5EBFEBBCC296A5"]["prototype"]
-L69_1 = "F66048296A6CFC088"
-
-function L70_1(A0_2, A1_2)
+--- C0F5EBFEBBCC296A5.F66048296A6CFC088
+function C0F5EBFEBBCC296A5_prototype:F66048296A6CFC088(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[76]
-  L3_2 = A0_2[75]
+  L2_2 = self[76]
+  L3_2 = self[75]
   if L2_2 >= L3_2 then
-    L2_2 = A0_2[65]
+    L2_2 = self[65]
     L3_2 = L2_2
     L2_2 = L2_2.f9EBE283F
     L4_2 = true
@@ -136,19 +130,19 @@ function L70_1(A0_2, A1_2)
     L5_2 = true
     L2_2 = L2_2(L3_2, L4_2, L5_2)
     L2_2 = L2_2 + 3
-    A0_2[75] = L2_2
-    A0_2[76] = 0
-    A0_2[77] = 1
+    self[75] = L2_2
+    self[76] = 0
+    self[77] = 1
   else
-    L2_2 = A0_2[76]
+    L2_2 = self[76]
     L2_2 = L2_2 + A1_2
-    A0_2[76] = L2_2
+    self[76] = L2_2
     L2_2 = CD9AE7C27B00EB066
     L2_2 = L2_2.S05B90B9B5A6DE6BC
     L3_2 = L10_1.math
     L3_2 = L3_2.abs
-    L4_2 = A0_2[76]
-    L5_2 = A0_2[75]
+    L4_2 = self[76]
+    L5_2 = self[75]
     L5_2 = L5_2 / 2
     L4_2 = L4_2 / L5_2
     L5_2 = 1
@@ -157,7 +151,7 @@ function L70_1(A0_2, A1_2)
     L4_2 = 0
     L5_2 = 1
     L2_2 = L2_2(L3_2, L4_2, L5_2)
-    A0_2[77] = L2_2
+    self[77] = L2_2
   end
 end
 

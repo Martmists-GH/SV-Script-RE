@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C0629717F9C43219E"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C0629717F9C43219E"]
-L69_1 = "new"
+---@alias C0629717F9C43219E main_management_dressupItem_DressupStylePartsManager
 
-function L70_1()
+---@class main_management_dressupItem_DressupStylePartsManager : C0629717F9C43219E_prototype
+---@field prototype C0629717F9C43219E_prototype
+C0629717F9C43219E = L15_1()
+function C0629717F9C43219E.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C0629717F9C43219E
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0629717F9C43219E"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C0629717F9C43219E
+function C0629717F9C43219E.super(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
@@ -62,11 +56,7 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0629717F9C43219E"]
-L69_1 = "__name__"
-L70_1 = "C0629717F9C43219E"
-L68_1[L69_1] = L70_1
+C0629717F9C43219E.__name__ = "C0629717F9C43219E"
 L68_1 = _ENV["C0629717F9C43219E"]
 L69_1 = "S385504EFF7E842C3"
 
@@ -86,11 +76,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0629717F9C43219E"]
-L69_1 = "S68E8F23552155F6C"
-
-function L70_1(A0_2)
+--- main.management.dressupItem.DressupStylePartsManager.ConvertDressupCategoryToStyleCategory
+function C0629717F9C43219E.S68E8F23552155F6C(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 14
   if 0 == A0_2 then
@@ -122,24 +109,16 @@ function L70_1(A0_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0629717F9C43219E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0629717F9C43219E"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2, A1_2)
-  A0_2[2] = A1_2
+---@class C0629717F9C43219E_prototype
+C0629717F9C43219E_prototype = L15_1()
+C0629717F9C43219E.prototype = C0629717F9C43219E_prototype
+--- main.management.dressupItem.DressupStylePartsManager.Init
+function C0629717F9C43219E_prototype:F90BBC6B0190BF053(A1_2)
+  self[2] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0629717F9C43219E"]["prototype"]
-L69_1 = "F48C68B56CE10A2C7"
-
-function L70_1(A0_2)
+--- main.management.dressupItem.DressupStylePartsManager.IsWearHat
+function C0629717F9C43219E_prototype:F48C68B56CE10A2C7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S93A017D496A6D000
@@ -183,11 +162,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0629717F9C43219E"]["prototype"]
-L69_1 = "FB22BD8F437A9EEF7"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.management.dressupItem.DressupStylePartsManager.SetParts
+function C0629717F9C43219E_prototype:FB22BD8F437A9EEF7(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2
   
   function L5_2()
@@ -212,7 +188,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   if not L5_2 then
     return
   end
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L5_2[A1_2] = A2_2
   L5_2 = CFC8F368D91411014
   L5_2 = L5_2.SDE9EF3CFD428417D
@@ -235,7 +211,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     end
     
     L7_2 = L7_2()
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L8_2 = L8_2[A1_2]
     L9_2 = A3_2
     L6_2(L7_2, L8_2, L9_2)
@@ -246,7 +222,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L6_2 = L6_2[8]
     L7_2 = L6_2
     L6_2 = L6_2.FF41688BE4DD1DA00
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L8_2 = L8_2[A1_2]
     L9_2 = A3_2
     L6_2(L7_2, L8_2, L9_2)
@@ -259,18 +235,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L6_2 = L6_2(L7_2)
   L7_2 = A3_2
   L5_2(L6_2, L7_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.FD7959C4AF955D0C3
+  L6_2 = self
+  L5_2 = self.FD7959C4AF955D0C3
   L7_2 = A1_2
   L8_2 = A4_2
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0629717F9C43219E"]["prototype"]
-L69_1 = "FD7959C4AF955D0C3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.management.dressupItem.DressupStylePartsManager.SetMultipleParts
+function C0629717F9C43219E_prototype:FD7959C4AF955D0C3(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if (2 == A1_2 or 4 == A1_2) and nil ~= A2_2 then
     L3_2 = 6
@@ -329,11 +302,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0629717F9C43219E"]["prototype"]
-L69_1 = "F8904D35CE2995C5B"
-
-function L70_1(A0_2, A1_2)
+--- main.management.dressupItem.DressupStylePartsManager.GetParts
+function C0629717F9C43219E_prototype:F8904D35CE2995C5B(A1_2)
   local L2_2
   
   function L2_2()
@@ -359,19 +329,16 @@ function L70_1(A0_2, A1_2)
     L2_2 = nil
     return L2_2
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2[A1_2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0629717F9C43219E"]["prototype"]
-L69_1 = "F2167E332EA9AFAF1"
-
-function L70_1(A0_2, A1_2)
+--- main.management.dressupItem.DressupStylePartsManager.F2167E332EA9AFAF1
+function C0629717F9C43219E_prototype:F2167E332EA9AFAF1(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then

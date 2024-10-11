@@ -1,3 +1,7 @@
+---@alias CE175D790F3D115F1 main_util_CatmullRomSpline
+
+---@class main_util_CatmullRomSpline : CE175D790F3D115F1_prototype
+---@field prototype CE175D790F3D115F1_prototype
 L55_1 = _ENV
 L56_1 = "CE175D790F3D115F1"
 L57_1 = L15_1
@@ -49,16 +53,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE175D790F3D115F1"]
 L69_1 = "__name__"
 L70_1 = "CE175D790F3D115F1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE175D790F3D115F1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE175D790F3D115F1"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class CE175D790F3D115F1_prototype
+CE175D790F3D115F1_prototype = L15_1()
+CE175D790F3D115F1.prototype = CE175D790F3D115F1_prototype
+--- main.util.CatmullRomSpline.Setup
+function CE175D790F3D115F1_prototype:F7C68FEDB79AB6396(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   if nil == A2_2 then
     A2_2 = 16
@@ -72,14 +71,14 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2.length = 0
   L5_2 = 0
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[1] = L3_2
+  self[1] = L3_2
   L3_2 = _hx_tab_array
   L4_2 = {}
   L4_2.length = 0
   L5_2 = 0
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[2] = L3_2
-  A0_2[3] = A2_2
+  self[2] = L3_2
+  self[3] = A2_2
   L3_2 = 0
   L4_2 = A1_2.length
   L4_2 = L4_2 - 1
@@ -186,12 +185,12 @@ function L70_1(A0_2, A1_2, A2_2)
       L12_2[3] = L15_2
       L9_2 = L12_2
     end
-    L10_2 = A0_2[2]
+    L10_2 = self[2]
     L11_2 = L10_2
     L10_2 = L10_2.push
     L12_2 = 0.0
     L10_2(L11_2, L12_2)
-    L10_2 = A0_2[1]
+    L10_2 = self[1]
     L11_2 = L10_2
     L10_2 = L10_2.push
     L12_2 = L16_1
@@ -234,7 +233,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L19_2 = L19_2 / A2_2
       L19_2 = L19_2 * L12_2
       L14_2 = L14_2(L15_2, L16_2, L17_2, L18_2, L19_2)
-      L15_2 = A0_2[2]
+      L15_2 = self[2]
       L16_2 = L15_2[L5_2]
       L17_2 = c7A48E3FC
       L17_2 = L17_2.f92852F73
@@ -254,17 +253,14 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE175D790F3D115F1"]["prototype"]
-L69_1 = "FF16489921CD8EBEF"
-
-function L70_1(A0_2, A1_2)
+--- main.util.CatmullRomSpline.GetPoint
+function CE175D790F3D115F1_prototype:FF16489921CD8EBEF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FD97ADB40DF28FCA2
+  L3_2 = self
+  L2_2 = self.FD97ADB40DF28FCA2
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L2_2.Index
   L3_2 = L3_2[L4_2]
   L4_2 = CD9AE7C27B00EB066
@@ -277,15 +273,12 @@ function L70_1(A0_2, A1_2)
   return L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE175D790F3D115F1"]["prototype"]
-L69_1 = "FD97ADB40DF28FCA2"
-
-function L70_1(A0_2, A1_2)
+--- main.util.CatmullRomSpline.GetTargetInfo
+function CE175D790F3D115F1_prototype:FD97ADB40DF28FCA2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = 0.0
   L3_2 = 0
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   while true do
     L5_2 = L4_2.length
     if not (L3_2 < L5_2) then
@@ -299,22 +292,22 @@ function L70_1(A0_2, A1_2)
   L6_2 = 0.0
   L7_2 = 0
   L8_2 = 0
-  L9_2 = A0_2[2]
+  L9_2 = self[2]
   L9_2 = L9_2.length
   while L8_2 < L9_2 do
     L8_2 = L8_2 + 1
     L10_2 = L8_2 - 1
-    L11_2 = A0_2[2]
+    L11_2 = self[2]
     L11_2 = L11_2[L10_2]
     L11_2 = L5_2 - L11_2
     if L11_2 <= 0 then
-      L11_2 = A0_2[2]
+      L11_2 = self[2]
       L11_2 = L11_2[L10_2]
       L6_2 = L5_2 / L11_2
       L7_2 = L10_2
       break
     end
-    L11_2 = A0_2[2]
+    L11_2 = self[2]
     L11_2 = L11_2[L10_2]
     L5_2 = L5_2 - L11_2
   end

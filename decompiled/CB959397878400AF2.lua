@@ -1,3 +1,5 @@
+---@class CB959397878400AF2 : CB959397878400AF2_prototype
+---@field prototype CB959397878400AF2_prototype
 L55_1 = _ENV
 L56_1 = "CB959397878400AF2"
 L57_1 = L15_1
@@ -39,23 +41,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CB959397878400AF2"]
 L69_1 = "__name__"
 L70_1 = "CB959397878400AF2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB959397878400AF2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB959397878400AF2"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2, A1_2)
+---@class CB959397878400AF2_prototype
+CB959397878400AF2_prototype = L15_1()
+CB959397878400AF2.prototype = CB959397878400AF2_prototype
+--- CB959397878400AF2.Load
+function CB959397878400AF2_prototype:F6C5D0398122A6629(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "Time"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
-  L2_2 = A0_2[1]
+  self[2] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F6C5D0398122A6629
   L5_2 = A1_2
@@ -70,7 +67,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.f55728F9C
   L2_2 = L2_2(L3_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
 end
 
 L68_1[L69_1] = L70_1

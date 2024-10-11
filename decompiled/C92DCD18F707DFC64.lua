@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C92DCD18F707DFC64"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C92DCD18F707DFC64"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92DCD18F707DFC64"]
-L69_1 = "__name__"
-L70_1 = "C92DCD18F707DFC64"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92DCD18F707DFC64"]
-L69_1 = "S9CF7576F8D41DED0"
+---@alias C92DCD18F707DFC64 main_playables_misc_LandUtil
 
-function L70_1(A0_2, A1_2)
+---@class main_playables_misc_LandUtil
+C92DCD18F707DFC64 = L15_1()
+C92DCD18F707DFC64.new = {}
+C92DCD18F707DFC64.__name__ = "C92DCD18F707DFC64"
+--- main.playables.misc.LandUtil.GetAttr
+function C92DCD18F707DFC64.S9CF7576F8D41DED0(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil ~= A0_2 then
     L2_2 = c5D5DE885
@@ -67,11 +58,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92DCD18F707DFC64"]
-L69_1 = "SB895832DC01017C5"
-
-function L70_1(A0_2)
+--- main.playables.misc.LandUtil.GetTerrainLayerInfo
+function C92DCD18F707DFC64.SB895832DC01017C5(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = ""
   L2_2 = 0

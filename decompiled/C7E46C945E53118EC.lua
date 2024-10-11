@@ -1,3 +1,7 @@
+---@alias C7E46C945E53118EC main_ui_staff_list_StaffListView
+
+---@class main_ui_staff_list_StaffListView : C7E46C945E53118EC_prototype
+---@field prototype C7E46C945E53118EC_prototype
 L55_1 = _ENV
 L56_1 = "C7E46C945E53118EC"
 L57_1 = L15_1
@@ -72,48 +76,43 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C7E46C945E53118EC"]
 L69_1 = "__name__"
 L70_1 = "C7E46C945E53118EC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E46C945E53118EC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E46C945E53118EC"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C7E46C945E53118EC_prototype
+C7E46C945E53118EC_prototype = L15_1()
+C7E46C945E53118EC.prototype = C7E46C945E53118EC_prototype
+--- main.ui.staff_list.StaffListView.Setup
+function C7E46C945E53118EC_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = CDC3F92928A2194E6
   L3_2 = L3_2.prototype
   L3_2 = L3_2.F7C68FEDB79AB6396
-  L4_2 = A0_2
+  L4_2 = self
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
   L3_2 = c7F7A5192
   L3_2 = L3_2.f101D811F
   L3_2 = L3_2()
-  A0_2[6] = L3_2
+  self[6] = L3_2
   L3_2 = c69ACCC6F
   L3_2 = L3_2.f3F98EEAD
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
-  A0_2[17] = L3_2
+  self[17] = L3_2
   L3_2 = C9CC979169E6BA3A6
   L3_2 = L3_2.new
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
-  A0_2[18] = L3_2
+  self[18] = L3_2
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.f287946D6
   L3_2 = L3_2(L4_2)
-  A0_2[19] = L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F11EB9D7D1BA3764D
+  self[19] = L3_2
+  L4_2 = self
+  L3_2 = self.F11EB9D7D1BA3764D
   L3_2(L4_2)
   L3_2 = C007587C569A8BC4E
   L3_2 = L3_2.S385504EFF7E842C3
@@ -121,31 +120,31 @@ function L70_1(A0_2, A1_2)
   L4_2 = L3_2
   L3_2 = L3_2.FD03EC0D05FE41C78
   L3_2 = L3_2(L4_2)
-  A0_2[7] = L3_2
+  self[7] = L3_2
   L3_2 = C007587C569A8BC4E
   L3_2 = L3_2.S385504EFF7E842C3
   L3_2 = L3_2()
   L4_2 = L3_2
   L3_2 = L3_2.F63836EE8FD1FA240
   L3_2 = L3_2(L4_2)
-  A0_2[11] = L3_2
+  self[11] = L3_2
   L3_2 = C007587C569A8BC4E
   L3_2 = L3_2.S385504EFF7E842C3
   L3_2 = L3_2()
   L4_2 = L3_2
   L3_2 = L3_2.F3F00DC1451DA2954
   L3_2 = L3_2(L4_2)
-  A0_2[8] = L3_2
+  self[8] = L3_2
   L3_2 = C007587C569A8BC4E
   L3_2 = L3_2.S385504EFF7E842C3
   L3_2 = L3_2()
   L4_2 = L3_2
   L3_2 = L3_2.FD77E878DE2C042CF
   L3_2 = L3_2(L4_2)
-  A0_2[10] = L3_2
+  self[10] = L3_2
   L3_2 = L10_1.select
   L4_2 = 2
-  L5_2 = A0_2[18]
+  L5_2 = self[18]
   L6_2 = L5_2
   L5_2 = L5_2.FB6D1FE1B1E10C33D
   L5_2 = L5_2(L6_2)
@@ -154,31 +153,31 @@ function L70_1(A0_2, A1_2)
   L7_2 = "T_00"
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
-  A0_2[15] = L3_2
-  L3_2 = A0_2[11]
+  self[15] = L3_2
+  L3_2 = self[11]
   if L3_2 < 0.0 then
     L3_2 = L58_1
     L4_2 = C63AFF94AAB36CB96
     L4_2 = L4_2.S3C4DD0C7E1D12E89
     L3_2 = L3_2(L4_2)
-    A0_2[11] = L3_2
+    self[11] = L3_2
   end
-  L3_2 = A0_2[13]
-  L4_2 = A0_2[11]
+  L3_2 = self[13]
+  L4_2 = self[11]
   L3_2 = L3_2 - L4_2
-  A0_2[13] = L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F6B3F66C5324362B3
+  self[13] = L3_2
+  L4_2 = self
+  L3_2 = self.F6B3F66C5324362B3
   L3_2(L4_2)
-  L3_2 = A0_2[11]
-  L4_2 = A0_2[15]
-  L5_2 = A0_2[21]
+  L3_2 = self[11]
+  L4_2 = self[15]
+  L5_2 = self[21]
   L5_2 = L5_2.length
   L4_2 = L4_2 * L5_2
   L3_2 = L3_2 + L4_2
-  A0_2[12] = L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FC0E62E6360C93EC3
+  self[12] = L3_2
+  L4_2 = self
+  L3_2 = self.FC0E62E6360C93EC3
   L3_2(L4_2)
   L3_2 = C1DB14DCC9D7634FA
   L3_2 = L3_2.new
@@ -194,14 +193,14 @@ function L70_1(A0_2, A1_2)
   
   L5_2 = "StaffListView_mainflow"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[25] = L3_2
-  L3_2 = A0_2[18]
+  self[25] = L3_2
+  L3_2 = self[18]
   L4_2 = L3_2
   L3_2 = L3_2.FA23D39922B76B247
   L5_2 = nil
   L6_2 = true
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L4_2 = L3_2
   L3_2 = L3_2.FF32CC3BE322652A8
   L5_2 = "switch_logo"
@@ -211,19 +210,16 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E46C945E53118EC"]["prototype"]
-L69_1 = "F11EB9D7D1BA3764D"
-
-function L70_1(A0_2)
+--- main.ui.staff_list.StaffListView.F11EB9D7D1BA3764D
+function C7E46C945E53118EC_prototype:F11EB9D7D1BA3764D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.fD4E64AB7
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = nil
   L3_2 = C7BD28C2CE195DB4E
@@ -246,14 +242,11 @@ function L70_1(A0_2)
   if L4_2 == L5_2 then
     L4_2 = nil
   end
-  A0_2[20] = L4_2
+  self[20] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E46C945E53118EC"]["prototype"]
-L69_1 = "F9C88B7EFD8BB9396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.staff_list.StaffListView.UpdateCoroutine
+function C7E46C945E53118EC_prototype:F9C88B7EFD8BB9396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil ~= A1_2 then
     L2_2 = L10_1.coroutine
@@ -308,18 +301,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E46C945E53118EC"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.staff_list.StaffListView.PreUpdate
+function C7E46C945E53118EC_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.fC0E2CAD0
   L2_2 = L2_2(L3_2)
-  A0_2[24] = L2_2
-  L2_2 = A0_2[24]
+  self[24] = L2_2
+  L2_2 = self[24]
   L3_2 = 0.25
   if L2_2 > L3_2 then
     L3_2 = A1_2
@@ -329,37 +319,34 @@ function L70_1(A0_2, A1_2)
     L3_2 = L2_2
     L2_2 = L2_2.fC0E2CAD0
     L2_2 = L2_2(L3_2)
-    A0_2[24] = L2_2
+    self[24] = L2_2
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.f92A1FFA7
   L2_2(L3_2)
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.fF5E28294
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F9C88B7EFD8BB9396
-  L4_2 = A0_2[25]
+  L3_2 = self
+  L2_2 = self.F9C88B7EFD8BB9396
+  L4_2 = self[25]
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E46C945E53118EC"]["prototype"]
-L69_1 = "F6B3F66C5324362B3"
-
-function L70_1(A0_2)
+--- main.ui.staff_list.StaffListView.CreateStaffTable
+function C7E46C945E53118EC_prototype:F6B3F66C5324362B3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L1_2 = A0_2[19]
+  L1_2 = self[19]
   L2_2 = L1_2
   L1_2 = L1_2.f6902A503
   L3_2 = "values"
   L1_2 = L1_2(L2_2, L3_2)
-  L2_2 = A0_2[21]
+  L2_2 = self[21]
   L2_2 = L2_2.length
   if 0 ~= L2_2 then
-    L2_2 = A0_2[21]
+    L2_2 = self[21]
     L3_2 = L2_2
     L2_2 = L2_2.resize
     L4_2 = 0
@@ -369,7 +356,7 @@ function L70_1(A0_2)
   L3_2 = L1_2
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
-    L4_2 = A0_2[19]
+    L4_2 = self[19]
     L5_2 = L4_2
     L4_2 = L4_2.f0CA5FEBC
     L6_2 = "values"
@@ -395,12 +382,12 @@ function L70_1(A0_2)
     L9_2 = L4_2
     L10_2 = "right_staff"
     L8_2 = L8_2(L9_2, L10_2)
-    L10_2 = A0_2
-    L9_2 = A0_2.FDC9EA6298D5E4B85
+    L10_2 = self
+    L9_2 = self.FDC9EA6298D5E4B85
     L11_2 = L7_2
     L9_2 = L9_2(L10_2, L11_2)
     L7_2 = L9_2
-    L9_2 = A0_2[21]
+    L9_2 = self[21]
     L10_2 = L9_2
     L9_2 = L9_2.push
     L11_2 = L16_1
@@ -420,11 +407,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E46C945E53118EC"]["prototype"]
-L69_1 = "FDC9EA6298D5E4B85"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.staff_list.StaffListView.FDC9EA6298D5E4B85
+function C7E46C945E53118EC_prototype:FDC9EA6298D5E4B85(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L10_1.string
   L2_2 = L2_2.find
@@ -479,11 +463,8 @@ function L70_1(A0_2, A1_2)
   return A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E46C945E53118EC"]["prototype"]
-L69_1 = "FBA9B43A0C3BA65D5"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.staff_list.StaffListView.MainSequence
+function C7E46C945E53118EC_prototype:FBA9B43A0C3BA65D5(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = C07E4F1BF071B0460
   L2_2 = L2_2.S2D4F4BC40511B560
@@ -495,9 +476,9 @@ function L70_1(A0_2, A1_2)
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.S760DAE4C5371A78E
   L2_2()
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L2_2 = -L2_2
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L4_2 = L3_2
   L3_2 = L3_2.FB6D1FE1B1E10C33D
   L3_2 = L3_2(L4_2)
@@ -512,57 +493,57 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.SAC4C25C879379D3D
   L4_2 = "SYS_ST_02_START"
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F83134F084443EF8A
-  L5_2 = A0_2[8]
+  L4_2 = self
+  L3_2 = self.F83134F084443EF8A
+  L5_2 = self[8]
   L6_2 = A1_2
   L3_2(L4_2, L5_2, L6_2)
   L3_2 = 0
   while true do
-    L4_2 = A0_2[9]
-    L5_2 = A0_2[7]
+    L4_2 = self[9]
+    L5_2 = self[7]
     if not (L4_2 < L5_2) then
       break
     end
-    L4_2 = A0_2[13]
-    L5_2 = A0_2[12]
-    L6_2 = A0_2[7]
+    L4_2 = self[13]
+    L5_2 = self[12]
+    L6_2 = self[7]
     L5_2 = L5_2 / L6_2
-    L6_2 = A0_2[24]
+    L6_2 = self[24]
     L5_2 = L5_2 * L6_2
     L4_2 = L4_2 + L5_2
-    A0_2[13] = L4_2
-    L4_2 = A0_2[9]
-    L5_2 = A0_2[24]
+    self[13] = L4_2
+    L4_2 = self[9]
+    L5_2 = self[24]
     L4_2 = L4_2 + L5_2
-    A0_2[9] = L4_2
+    self[9] = L4_2
     L4_2 = L31_1.int
-    L5_2 = A0_2[13]
-    L6_2 = A0_2[15]
+    L5_2 = self[13]
+    L6_2 = self[15]
     L5_2 = L5_2 / L6_2
     L4_2 = L4_2(L5_2)
     L4_2 = L4_2 + 1
     L5_2 = L31_1.int
-    L6_2 = A0_2[13]
+    L6_2 = self[13]
     L7_2 = C63AFF94AAB36CB96
     L7_2 = L7_2.S3C4DD0C7E1D12E89
     L6_2 = L6_2 + L7_2
-    L7_2 = A0_2[15]
+    L7_2 = self[15]
     L6_2 = L6_2 / L7_2
     L5_2 = L5_2(L6_2)
     L5_2 = L5_2 + 1
-    L6_2 = A0_2[13]
+    L6_2 = self[13]
     if L6_2 < 0.0 then
       L4_2 = 0
-      A0_2[14] = 0
+      self[14] = 0
     end
     if L5_2 <= 0 then
       L3_2 = 0
     end
-    L6_2 = A0_2[14]
+    L6_2 = self[14]
     if L6_2 ~= L4_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.FC0E62E6360C93EC3
+      L7_2 = self
+      L6_2 = self.FC0E62E6360C93EC3
       L6_2(L7_2)
     end
     if L3_2 ~= L5_2 then
@@ -570,16 +551,16 @@ function L70_1(A0_2, A1_2)
       while L5_2 > L6_2 do
         L6_2 = L6_2 + 1
         L7_2 = L6_2 - 1
-        L8_2 = A0_2[21]
+        L8_2 = self[21]
         L8_2 = L8_2.length
         if L7_2 >= L8_2 then
           break
         end
-        L8_2 = A0_2[21]
+        L8_2 = self[21]
         L8_2 = L8_2[L7_2]
         L8_2 = L8_2.event
         if L7_2 >= 0 and "" ~= L8_2 then
-          L9_2 = A0_2[20]
+          L9_2 = self[20]
           L10_2 = L9_2
           L9_2 = L9_2.F748A3DCD68216D1D
           L11_2 = L8_2
@@ -587,18 +568,18 @@ function L70_1(A0_2, A1_2)
         end
       end
     end
-    A0_2[14] = L4_2
+    self[14] = L4_2
     L3_2 = L5_2
     L6_2 = L10_1.math
     L6_2 = L6_2.fmod
-    L7_2 = A0_2[13]
-    L8_2 = A0_2[15]
+    L7_2 = self[13]
+    L8_2 = self[15]
     L6_2 = L6_2(L7_2, L8_2)
-    L7_2 = A0_2[13]
+    L7_2 = self[13]
     if L7_2 < 0 then
-      L6_2 = A0_2[13]
+      L6_2 = self[13]
     end
-    L7_2 = A0_2[18]
+    L7_2 = self[18]
     L8_2 = L7_2
     L7_2 = L7_2.FB6D1FE1B1E10C33D
     L7_2 = L7_2(L8_2)
@@ -617,8 +598,8 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2.SAC4C25C879379D3D
   L5_2 = "SYS_ST_02_A01"
   L4_2(L5_2)
-  A0_2[23] = true
-  L4_2 = A0_2[18]
+  self[23] = true
+  L4_2 = self[18]
   L5_2 = L4_2
   L4_2 = L4_2.FB6D1FE1B1E10C33D
   L4_2 = L4_2(L5_2)
@@ -631,13 +612,13 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2.SAC4C25C879379D3D
   L5_2 = "SYS_ST_02_A02"
   L4_2(L5_2)
-  L4_2 = A0_2[20]
+  L4_2 = self[20]
   L5_2 = L4_2
   L4_2 = L4_2.F748A3DCD68216D1D
   L6_2 = "in_13"
   L4_2(L5_2, L6_2)
   while true do
-    L4_2 = A0_2[20]
+    L4_2 = self[20]
     L5_2 = L4_2
     L4_2 = L4_2.F810D8446A8612992
     L6_2 = "in_13"
@@ -651,11 +632,11 @@ function L70_1(A0_2, A1_2)
   end
   L4_2 = 0.0
   while true do
-    L5_2 = A0_2[10]
+    L5_2 = self[10]
     if not (L4_2 < L5_2) then
       break
     end
-    L5_2 = A0_2[24]
+    L5_2 = self[24]
     L4_2 = L4_2 + L5_2
     L5_2 = C1DB14DCC9D7634FA
     L5_2 = L5_2.S760DAE4C5371A78E
@@ -665,13 +646,13 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2.SAC4C25C879379D3D
   L6_2 = "SYS_ST_02_B01"
   L5_2(L6_2)
-  L5_2 = A0_2[20]
+  L5_2 = self[20]
   L6_2 = L5_2
   L5_2 = L5_2.F748A3DCD68216D1D
   L7_2 = "in_11"
   L5_2(L6_2, L7_2)
   while true do
-    L5_2 = A0_2[20]
+    L5_2 = self[20]
     L6_2 = L5_2
     L5_2 = L5_2.F810D8446A8612992
     L7_2 = "in_11"
@@ -686,11 +667,11 @@ function L70_1(A0_2, A1_2)
   L5_2 = false
   L6_2 = 0.0
   while not L5_2 do
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     if not (L6_2 < L7_2) then
       break
     end
-    L7_2 = A0_2[24]
+    L7_2 = self[24]
     L6_2 = L6_2 + L7_2
     L7_2 = cDFF6D3D5
     L7_2 = L7_2.f6E019F84
@@ -719,13 +700,13 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2.SAC4C25C879379D3D
   L8_2 = "SYS_ST_02_B02"
   L7_2(L8_2)
-  L7_2 = A0_2[20]
+  L7_2 = self[20]
   L8_2 = L7_2
   L7_2 = L7_2.F748A3DCD68216D1D
   L9_2 = "in_12"
   L7_2(L8_2, L9_2)
   while true do
-    L7_2 = A0_2[20]
+    L7_2 = self[20]
     L8_2 = L7_2
     L7_2 = L7_2.F810D8446A8612992
     L9_2 = "in_12"
@@ -741,7 +722,7 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2.SAC4C25C879379D3D
   L8_2 = "SYS_ST_02_FINISH"
   L7_2(L8_2)
-  L7_2 = A0_2[22]
+  L7_2 = self[22]
   if not L7_2 then
     L7_2 = C07E4F1BF071B0460
     L7_2 = L7_2.S218E2A14A790D265
@@ -755,13 +736,13 @@ function L70_1(A0_2, A1_2)
     if not (L7_2 < L8_2) then
       break
     end
-    L8_2 = A0_2[24]
+    L8_2 = self[24]
     L7_2 = L7_2 + L8_2
     L8_2 = C1DB14DCC9D7634FA
     L8_2 = L8_2.S760DAE4C5371A78E
     L8_2()
   end
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = L8_2
   L8_2 = L8_2.f462C9B70
   L8_2 = L8_2(L9_2)
@@ -770,28 +751,25 @@ function L70_1(A0_2, A1_2)
   L8_2(L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E46C945E53118EC"]["prototype"]
-L69_1 = "FC0E62E6360C93EC3"
-
-function L70_1(A0_2)
+--- main.ui.staff_list.StaffListView.UpdateText
+function C7E46C945E53118EC_prototype:FC0E62E6360C93EC3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = 0
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L4_2 = A0_2[14]
+    L4_2 = self[14]
     L4_2 = L4_2 + L3_2
-    L5_2 = A0_2[13]
+    L5_2 = self[13]
     if L5_2 < 0.0 then
       L4_2 = L3_2
     end
     L5_2 = nil
-    L6_2 = A0_2[21]
+    L6_2 = self[21]
     L6_2 = L6_2.length
     if L4_2 < L6_2 then
-      L6_2 = A0_2[21]
+      L6_2 = self[21]
       L5_2 = L6_2[L4_2]
     else
       L6_2 = L16_1
@@ -829,7 +807,7 @@ function L70_1(A0_2)
     if nil ~= L5_2 then
       L7_2 = L5_2.left
       if "" ~= L7_2 then
-        L7_2 = A0_2[18]
+        L7_2 = self[18]
         L8_2 = L7_2
         L7_2 = L7_2.FB6D1FE1B1E10C33D
         L7_2 = L7_2(L8_2)
@@ -840,14 +818,14 @@ function L70_1(A0_2)
         L7_2(L8_2, L9_2, L10_2)
         L7_2 = c8C3BF576
         L7_2 = L7_2.f46674724
-        L8_2 = A0_2[1]
+        L8_2 = self[1]
         L9_2 = L6_2
         L10_2 = "staff_list"
         L11_2 = L5_2.left
         L7_2(L8_2, L9_2, L10_2, L11_2)
     end
     else
-      L7_2 = A0_2[18]
+      L7_2 = self[18]
       L8_2 = L7_2
       L7_2 = L7_2.FB6D1FE1B1E10C33D
       L7_2 = L7_2(L8_2)
@@ -866,7 +844,7 @@ function L70_1(A0_2)
     L11_2 = ""
     L10_2 = L10_2(L11_2)
     L11_2 = L31_1.string
-    L12_2 = A0_2[16]
+    L12_2 = self[16]
     L12_2 = L12_2 * 2
     L12_2 = L3_2 + L12_2
     L11_2 = L11_2(L12_2)
@@ -879,7 +857,7 @@ function L70_1(A0_2)
     if nil ~= L5_2 then
       L8_2 = L5_2.center
       if "" ~= L8_2 then
-        L8_2 = A0_2[18]
+        L8_2 = self[18]
         L9_2 = L8_2
         L8_2 = L8_2.FB6D1FE1B1E10C33D
         L8_2 = L8_2(L9_2)
@@ -890,14 +868,14 @@ function L70_1(A0_2)
         L8_2(L9_2, L10_2, L11_2)
         L8_2 = c8C3BF576
         L8_2 = L8_2.f46674724
-        L9_2 = A0_2[1]
+        L9_2 = self[1]
         L10_2 = L7_2
         L11_2 = "staff_list"
         L12_2 = L5_2.center
         L8_2(L9_2, L10_2, L11_2, L12_2)
     end
     else
-      L8_2 = A0_2[18]
+      L8_2 = self[18]
       L9_2 = L8_2
       L8_2 = L8_2.FB6D1FE1B1E10C33D
       L8_2 = L8_2(L9_2)
@@ -916,7 +894,7 @@ function L70_1(A0_2)
     L12_2 = ""
     L11_2 = L11_2(L12_2)
     L12_2 = L31_1.string
-    L13_2 = A0_2[16]
+    L13_2 = self[16]
     L13_2 = L3_2 + L13_2
     L12_2 = L12_2(L13_2)
     L11_2 = L11_2 .. L12_2
@@ -928,7 +906,7 @@ function L70_1(A0_2)
     if nil ~= L5_2 then
       L9_2 = L5_2.right
       if "" ~= L9_2 then
-        L9_2 = A0_2[18]
+        L9_2 = self[18]
         L10_2 = L9_2
         L9_2 = L9_2.FB6D1FE1B1E10C33D
         L9_2 = L9_2(L10_2)
@@ -939,14 +917,14 @@ function L70_1(A0_2)
         L9_2(L10_2, L11_2, L12_2)
         L9_2 = c8C3BF576
         L9_2 = L9_2.f46674724
-        L10_2 = A0_2[1]
+        L10_2 = self[1]
         L11_2 = L8_2
         L12_2 = "staff_list"
         L13_2 = L5_2.right
         L9_2(L10_2, L11_2, L12_2, L13_2)
     end
     else
-      L9_2 = A0_2[18]
+      L9_2 = self[18]
       L10_2 = L9_2
       L9_2 = L9_2.FB6D1FE1B1E10C33D
       L9_2 = L9_2(L10_2)
@@ -959,41 +937,32 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E46C945E53118EC"]["prototype"]
-L69_1 = "FB033C7D6EBFEEBB7"
-
-function L70_1(A0_2)
+--- main.ui.staff_list.StaffListView.IsEndCredit
+function C7E46C945E53118EC_prototype:FB033C7D6EBFEEBB7()
   local L1_2
-  L1_2 = A0_2[23]
+  L1_2 = self[23]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E46C945E53118EC"]["prototype"]
-L69_1 = "FE5961C61A15F7870"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.staff_list.StaffListView.SetPlayTime
+function C7E46C945E53118EC_prototype:FE5961C61A15F7870(A1_2)
   if nil == A1_2 then
     A1_2 = -1.0
   end
   if A1_2 >= 0.0 then
-    A0_2[7] = A1_2
+    self[7] = A1_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E46C945E53118EC"]["prototype"]
-L69_1 = "F83134F084443EF8A"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.staff_list.StaffListView.WaitCoroutine
+function C7E46C945E53118EC_prototype:F83134F084443EF8A(A1_2, A2_2)
   local L3_2, L4_2
   L3_2 = 0.0
   while A1_2 > L3_2 do
     L4_2 = C1DB14DCC9D7634FA
     L4_2 = L4_2.S760DAE4C5371A78E
     L4_2()
-    L4_2 = A0_2[24]
+    L4_2 = self[24]
     L3_2 = L3_2 + L4_2
   end
 end

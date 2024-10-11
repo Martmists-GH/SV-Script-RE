@@ -1,3 +1,7 @@
+---@alias C7CFD9A90D5F4DBB1 main_ui_mapicon_OnCursorDataTownAccessor
+
+---@class main_ui_mapicon_OnCursorDataTownAccessor : C7CFD9A90D5F4DBB1_prototype
+---@field prototype C7CFD9A90D5F4DBB1_prototype
 L55_1 = _ENV
 L56_1 = "C7CFD9A90D5F4DBB1"
 L57_1 = L15_1
@@ -43,43 +47,35 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C7CFD9A90D5F4DBB1"]
 L69_1 = "__name__"
 L70_1 = "C7CFD9A90D5F4DBB1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CFD9A90D5F4DBB1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CFD9A90D5F4DBB1"]["prototype"]
-L69_1 = "FD9F89A206B111A0E"
-
-function L70_1(A0_2, A1_2)
+---@class C7CFD9A90D5F4DBB1_prototype
+C7CFD9A90D5F4DBB1_prototype = L15_1()
+C7CFD9A90D5F4DBB1.prototype = C7CFD9A90D5F4DBB1_prototype
+--- main.ui.mapicon.OnCursorDataTownAccessor.GetDataByIdStr
+function C7CFD9A90D5F4DBB1_prototype:FD9F89A206B111A0E(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F1E3C77B8049F40D4
+  L3_2 = self
+  L2_2 = self.F1E3C77B8049F40D4
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if -1 == L2_2 then
     L3_2 = nil
     return L3_2
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[L2_2]
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CFD9A90D5F4DBB1"]["prototype"]
-L69_1 = "F1E3C77B8049F40D4"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.OnCursorDataTownAccessor.F1E3C77B8049F40D4
+function C7CFD9A90D5F4DBB1_prototype:F1E3C77B8049F40D4(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[L4_2]
     L5_2 = L5_2.ID
     if L5_2 == A1_2 then
@@ -90,31 +86,25 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CFD9A90D5F4DBB1"]["prototype"]
-L69_1 = "F80B5D892ADA38C8B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.mapicon.OnCursorDataTownAccessor.setData
+function C7CFD9A90D5F4DBB1_prototype:F80B5D892ADA38C8B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F18FFA1904F2051CE
+  L4_2 = self
+  L3_2 = self.F18FFA1904F2051CE
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.push
   L6_2 = L3_2
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CFD9A90D5F4DBB1"]["prototype"]
-L69_1 = "F18FFA1904F2051CE"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.OnCursorDataTownAccessor.F18FFA1904F2051CE
+function C7CFD9A90D5F4DBB1_prototype:F18FFA1904F2051CE(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F0F22FD96455B663B
+  L3_2 = self
+  L2_2 = self.F0F22FD96455B663B
   L2_2 = L2_2(L3_2)
   L4_2 = A1_2
   L3_2 = A1_2.f3D9D438D
@@ -318,11 +308,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CFD9A90D5F4DBB1"]["prototype"]
-L69_1 = "F0F22FD96455B663B"
-
-function L70_1(A0_2)
+--- main.ui.mapicon.OnCursorDataTownAccessor.F0F22FD96455B663B
+function C7CFD9A90D5F4DBB1_prototype:F0F22FD96455B663B()
   local L1_2, L2_2, L3_2
   L1_2 = L16_1
   L2_2 = {}

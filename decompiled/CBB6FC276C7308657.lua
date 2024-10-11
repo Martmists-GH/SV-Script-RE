@@ -1,3 +1,7 @@
+---@alias CBB6FC276C7308657 main_nushi_NushiMessage
+
+---@class main_nushi_NushiMessage : CBB6FC276C7308657_prototype
+---@field prototype CBB6FC276C7308657_prototype
 L55_1 = _ENV
 L56_1 = "CBB6FC276C7308657"
 L57_1 = L15_1
@@ -42,31 +46,23 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CBB6FC276C7308657"]
 L69_1 = "__name__"
 L70_1 = "CBB6FC276C7308657"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBB6FC276C7308657"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBB6FC276C7308657"]["prototype"]
-L69_1 = "F9EF8B08DA4FDA9E4"
-
-function L70_1(A0_2)
+---@class CBB6FC276C7308657_prototype
+CBB6FC276C7308657_prototype = L15_1()
+CBB6FC276C7308657.prototype = CBB6FC276C7308657_prototype
+--- main.nushi.NushiMessage.mainCoroutineFunc
+function CBB6FC276C7308657_prototype:F9EF8B08DA4FDA9E4()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBB6FC276C7308657"]["prototype"]
-L69_1 = "F7EED485852A4D25F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.nushi.NushiMessage.Start
+function CBB6FC276C7308657_prototype:F7EED485852A4D25F(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     L3_2 = E366415E12D9CEAB1
     A2_2 = L3_2.BATTLE
   end
-  L3_2 = A0_2
-  A0_2[5] = A2_2
+  L3_2 = self
+  self[5] = A2_2
   L4_2 = C1DB14DCC9D7634FA
   L4_2 = L4_2.new
   
@@ -119,32 +115,29 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L6_2 = "NushiMessage"
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[4] = L4_2
-  return A0_2
+  self[4] = L4_2
+  return self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBB6FC276C7308657"]["prototype"]
-L69_1 = "FD3CF58695CBD5774"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiMessage.update
+function CBB6FC276C7308657_prototype:FD3CF58695CBD5774(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FD079E1CF944CF798
+      L3_2 = self
+      L2_2 = self.FD079E1CF944CF798
       L2_2 = L2_2(L3_2)
       L3_2 = E5918BECABEC63037
       L3_2 = L3_2.Finished
       if L2_2 ~= L3_2 then
-        L3_2 = A0_2
-        L2_2 = A0_2.FEB6685558281F194
+        L3_2 = self
+        L2_2 = self.FEB6685558281F194
         L4_2 = A1_2
         L2_2(L3_2, L4_2)
       end
@@ -152,33 +145,24 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBB6FC276C7308657"]["prototype"]
-L69_1 = "FA8D358BEE8456391"
-
-function L70_1(A0_2, A1_2)
-  A0_2[6] = A1_2
-  return A0_2
+--- main.nushi.NushiMessage.SetDevNo
+function CBB6FC276C7308657_prototype:FA8D358BEE8456391(A1_2)
+  self[6] = A1_2
+  return self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBB6FC276C7308657"]["prototype"]
-L69_1 = "F69B87B4FB92AC1C7"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiMessage.OnComp
+function CBB6FC276C7308657_prototype:F69B87B4FB92AC1C7(A1_2)
   local L2_2, L3_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F0085F7055F019927 = L2_2
-  return A0_2
+  self.F0085F7055F019927 = L2_2
+  return self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBB6FC276C7308657"]["prototype"]
-L69_1 = "FDDFF7E30178868EC"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiMessage.GetLabelName
+function CBB6FC276C7308657_prototype:FDDFF7E30178868EC(A1_2)
   local L2_2, L3_2
   L2_2 = A1_2[1]
   if 0 == L2_2 then
@@ -190,17 +174,14 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBB6FC276C7308657"]["prototype"]
-L69_1 = "FFDA9FDCF981A0210"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiMessage.GetText
+function CBB6FC276C7308657_prototype:FFDA9FDCF981A0210(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = cB3DDDC2A
   L2_2 = L2_2.f5B6373D5
   L2_2 = L2_2()
-  L4_2 = A0_2
-  L3_2 = A0_2.FDDFF7E30178868EC
+  L4_2 = self
+  L3_2 = self.FDDFF7E30178868EC
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = A1_2[1]
@@ -208,13 +189,13 @@ function L70_1(A0_2, A1_2)
     L6_2 = L2_2
     L5_2 = L2_2.fEB298455
     L7_2 = 0
-    L8_2 = A0_2[6]
+    L8_2 = self[6]
     L5_2(L6_2, L7_2, L8_2)
   elseif 1 == L4_2 then
     L6_2 = L2_2
     L5_2 = L2_2.fEB298455
     L7_2 = 0
-    L8_2 = A0_2[6]
+    L8_2 = self[6]
     L5_2(L6_2, L7_2, L8_2)
   end
   L5_2 = c8C3BF576
@@ -230,15 +211,12 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBB6FC276C7308657"]["prototype"]
-L69_1 = "F6405958DD833A7BD"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiMessage.F6405958DD833A7BD
+function CBB6FC276C7308657_prototype:F6405958DD833A7BD(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = C53A6A53FD96EBE88
   L2_2 = L2_2.new
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = 0
   L5_2 = L16_1
   L6_2 = {}

@@ -1,3 +1,7 @@
+---@alias C405672167497470B main_event_general_danbattle_DanRushLoseEvent
+
+---@class main_event_general_danbattle_DanRushLoseEvent : C405672167497470B_prototype
+---@field prototype C405672167497470B_prototype
 L55_1 = _ENV
 L56_1 = "C405672167497470B"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C405672167497470B"]
 L69_1 = "__name__"
 L70_1 = "C405672167497470B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C405672167497470B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C405672167497470B"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C405672167497470B_prototype
+C405672167497470B_prototype = L15_1()
+C405672167497470B.prototype = C405672167497470B_prototype
+--- main.event.general.danbattle.DanRushLoseEvent.mainBody
+function C405672167497470B_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S75C6A1A02973ADBA

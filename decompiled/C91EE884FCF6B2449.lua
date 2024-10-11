@@ -1,3 +1,7 @@
+---@alias C91EE884FCF6B2449 main_event_general_gym_base_Gym_normal_taxidrivar_popup
+
+---@class main_event_general_gym_base_Gym_normal_taxidrivar_popup : C91EE884FCF6B2449_prototype
+---@field prototype C91EE884FCF6B2449_prototype
 L55_1 = _ENV
 L56_1 = "C91EE884FCF6B2449"
 L57_1 = L15_1
@@ -44,43 +48,35 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C91EE884FCF6B2449"]
 L69_1 = "__name__"
 L70_1 = "C91EE884FCF6B2449"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91EE884FCF6B2449"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91EE884FCF6B2449"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C91EE884FCF6B2449_prototype
+C91EE884FCF6B2449_prototype = L15_1()
+C91EE884FCF6B2449.prototype = C91EE884FCF6B2449_prototype
+--- main.event.general.gym.base.Gym_normal_taxidrivar_popup.Setup
+function C91EE884FCF6B2449_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91EE884FCF6B2449"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_normal_taxidrivar_popup.PreUpdate
+function C91EE884FCF6B2449_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   if not L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FFF11D16830B46861
+    L3_2 = self
+    L2_2 = self.FFF11D16830B46861
     L2_2 = L2_2(L3_2)
-    A0_2[3] = L2_2
+    self[3] = L2_2
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   if L2_2 then
     L2_2 = cCF781FB6
     L2_2 = L2_2.fB41FD22F
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L2_2 = L2_2(L3_2)
     L3_2 = nil
     L4_2 = cCF781FB6
@@ -96,11 +92,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91EE884FCF6B2449"]["prototype"]
-L69_1 = "FFF11D16830B46861"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_normal_taxidrivar_popup.SetupContinuousPopup
+function C91EE884FCF6B2449_prototype:FFF11D16830B46861()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L1_2 = C8F93126DACB9F8DD
   L1_2 = L1_2.S93A2C11A3020463D
@@ -110,8 +103,8 @@ function L70_1(A0_2)
     L1_2 = false
     return L1_2
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F6F716122E4605372
+  L2_2 = self
+  L1_2 = self.F6F716122E4605372
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = c016374C1
@@ -141,11 +134,11 @@ function L70_1(A0_2)
   if L4_2 == L5_2 then
     L4_2 = nil
   end
-  A0_2[2] = L4_2
-  L5_2 = A0_2[2]
+  self[2] = L4_2
+  L5_2 = self[2]
   if nil ~= L5_2 then
     L5_2 = L52_1.__instanceof
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L7_2 = C6CC175E0087BF599
     L5_2 = L5_2(L6_2, L7_2)
     if L5_2 then
@@ -155,11 +148,11 @@ function L70_1(A0_2)
   L6_2 = L1_2
   L5_2 = L1_2.fE9C29DA1
   L5_2(L6_2)
-  A0_2[2] = nil
+  self[2] = nil
   L5_2 = true
   do return L5_2 end
   ::lbl_52::
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.F251E79D67A695BED
   L5_2 = L5_2(L6_2)
@@ -273,7 +266,7 @@ function L70_1(A0_2)
   L6_2 = L6_2(L7_2, L8_2)
   L5_2[1] = L6_2
   L5_2[7] = 4.0
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L6_2 = L6_2[22]
   L7_2 = L6_2
   L6_2 = L6_2.F1F1E2C2E65471013
@@ -287,11 +280,8 @@ function L70_1(A0_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91EE884FCF6B2449"]["prototype"]
-L69_1 = "F6F716122E4605372"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_normal_taxidrivar_popup.GetTaxidrivarObject
+function C91EE884FCF6B2449_prototype:F6F716122E4605372()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -341,15 +331,12 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91EE884FCF6B2449"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_normal_taxidrivar_popup.Destroy
+function C91EE884FCF6B2449_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   if nil ~= L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L1_2 = L1_2[22]
     L2_2 = L1_2
     L1_2 = L1_2.F1F1E2C2E65471013

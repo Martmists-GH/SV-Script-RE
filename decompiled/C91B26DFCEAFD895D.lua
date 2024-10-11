@@ -1,3 +1,7 @@
+---@alias C075A638F130352C3 main_system_GameSystemManager
+
+---@class main_system_GameSystemManager : C075A638F130352C3_prototype
+---@field prototype C075A638F130352C3_prototype
 L55_1 = _ENV
 L56_1 = "C91B26DFCEAFD895D"
 L57_1 = L15_1
@@ -42,11 +46,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C91B26DFCEAFD895D"]
 L69_1 = "__name__"
 L70_1 = "C91B26DFCEAFD895D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91B26DFCEAFD895D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C075A638F130352C3_prototype
+C075A638F130352C3_prototype = L15_1()
+C075A638F130352C3.prototype = C075A638F130352C3_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C91B26DFCEAFD895D"]["prototype"]
 L69_1 = _ENV["C91B26DFCEAFD895D"]

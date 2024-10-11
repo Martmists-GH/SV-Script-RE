@@ -1,3 +1,7 @@
+---@alias C87D89AB4A1B3729A main_event_general_paralleled_ParallelMotionCommandLipSync
+
+---@class main_event_general_paralleled_ParallelMotionCommandLipSync : C87D89AB4A1B3729A_prototype
+---@field prototype C87D89AB4A1B3729A_prototype
 L55_1 = _ENV
 L56_1 = "C87D89AB4A1B3729A"
 L57_1 = L15_1
@@ -46,47 +50,39 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C87D89AB4A1B3729A"]
 L69_1 = "__name__"
 L70_1 = "C87D89AB4A1B3729A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87D89AB4A1B3729A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87D89AB4A1B3729A"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C87D89AB4A1B3729A_prototype
+C87D89AB4A1B3729A_prototype = L15_1()
+C87D89AB4A1B3729A.prototype = C87D89AB4A1B3729A_prototype
+--- main.event.general.paralleled.ParallelMotionCommandLipSync.preStart
+function C87D89AB4A1B3729A_prototype:F92BA869F22AE5BC6()
   local L1_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   if nil == L1_2 then
     return
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87D89AB4A1B3729A"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelMotionCommandLipSync.mainBody
+function C87D89AB4A1B3729A_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   if nil == L1_2 then
     return
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.FA8730A4C6327796B
+  L2_2 = self
+  L1_2 = self.FA8730A4C6327796B
   L1_2(L2_2)
   while true do
-    L1_2 = A0_2[34]
-    L2_2 = A0_2[32]
+    L1_2 = self[34]
+    L2_2 = self[32]
     L2_2 = L2_2.seconds
     if not (L1_2 < L2_2) then
       break
     end
-    L1_2 = A0_2[34]
-    L2_2 = A0_2[3]
+    L1_2 = self[34]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f22D509B2
     L4_2 = 2
@@ -95,41 +91,35 @@ function L70_1(A0_2)
     L2_2 = L2_2.fC0E2CAD0
     L2_2 = L2_2(L3_2)
     L1_2 = L1_2 + L2_2
-    A0_2[34] = L1_2
+    self[34] = L1_2
     L1_2 = CC6FE82819C6E1D55
     L1_2 = L1_2.S12F63EE47FFCB183
     L1_2()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87D89AB4A1B3729A"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelMotionCommandLipSync.postEnd
+function C87D89AB4A1B3729A_prototype:F3E13E4094D09A594()
   local L1_2, L2_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   if nil == L1_2 then
     return
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.FBB4CCCA228E3D019
+  L2_2 = self
+  L1_2 = self.FBB4CCCA228E3D019
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87D89AB4A1B3729A"]["prototype"]
-L69_1 = "FA8730A4C6327796B"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelMotionCommandLipSync.startLipSync
+function C87D89AB4A1B3729A_prototype:FA8730A4C6327796B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   if nil == L1_2 then
     return
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   L2_2 = nil
   L3_2 = cE35B3EB3
@@ -170,7 +160,7 @@ function L70_1(A0_2)
     L6_2 = L6_2.f91C8CA18
     L8_2 = "mouth"
     L6_2 = L6_2(L7_2, L8_2)
-    L7_2 = A0_2[32]
+    L7_2 = self[32]
     L7_2 = L7_2.object
     L8_2 = C082CF09B8C4A351D
     L8_2 = L8_2.S799FF892E4C2551D
@@ -202,18 +192,15 @@ function L70_1(A0_2)
   L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87D89AB4A1B3729A"]["prototype"]
-L69_1 = "FBB4CCCA228E3D019"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelMotionCommandLipSync.stopLipSync
+function C87D89AB4A1B3729A_prototype:FBB4CCCA228E3D019()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   if nil == L1_2 then
     return
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   L2_2 = nil
   L3_2 = cE35B3EB3

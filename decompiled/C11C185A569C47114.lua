@@ -1,3 +1,7 @@
+---@alias C11C185A569C47114 main_event_general_common_EventBed
+
+---@class main_event_general_common_EventBed : C11C185A569C47114_prototype
+---@field prototype C11C185A569C47114_prototype
 L55_1 = _ENV
 L56_1 = "C11C185A569C47114"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C11C185A569C47114"]
 L69_1 = "__name__"
 L70_1 = "C11C185A569C47114"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C11C185A569C47114"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C11C185A569C47114"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C11C185A569C47114_prototype
+C11C185A569C47114_prototype = L15_1()
+C11C185A569C47114.prototype = C11C185A569C47114_prototype
+--- main.event.general.common.EventBed.preStart
+function C11C185A569C47114_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S12FD376DC11712C8
@@ -63,19 +62,13 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C11C185A569C47114"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.general.common.EventBed.postStart
+function C11C185A569C47114_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C11C185A569C47114"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.common.EventBed.mainBody
+function C11C185A569C47114_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S7EE10575FE8DA205
@@ -160,19 +153,13 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C11C185A569C47114"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.common.EventBed.mainBodyFinish
+function C11C185A569C47114_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C11C185A569C47114"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.common.EventBed.preEnd
+function C11C185A569C47114_prototype:F740FB4E96926D103()
   local L1_2, L2_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.SEC5605D9D6B5E309
@@ -181,11 +168,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C11C185A569C47114"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.general.common.EventBed.postEnd
+function C11C185A569C47114_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

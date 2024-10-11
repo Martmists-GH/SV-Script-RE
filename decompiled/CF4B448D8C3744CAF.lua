@@ -1,7 +1,8 @@
-L68_1 = _ENV["CF4B448D8C3744CAF"]
-L69_1 = "new"
+---@alias CF4B448D8C3744CAF main_bgm_BGMEventManager
 
-function L70_1(A0_2)
+---@class main_bgm_BGMEventManager : CF4B448D8C3744CAF_prototype
+---@field prototype CF4B448D8C3744CAF_prototype
+function CF4B448D8C3744CAF.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CF4B448D8C3744CAF
@@ -17,11 +18,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF4B448D8C3744CAF"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CF4B448D8C3744CAF
+function CF4B448D8C3744CAF.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L47_1.new
   L2_2 = L2_2()
@@ -40,11 +38,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF4B448D8C3744CAF"]
 L69_1 = "__name__"
 L70_1 = "CF4B448D8C3744CAF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF4B448D8C3744CAF"]
-L69_1 = "SDDCF2C31DADBAB65"
-
-function L70_1(A0_2)
+--- main.bgm.BGMEventManager.PostEvent
+function CF4B448D8C3744CAF.SDDCF2C31DADBAB65(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF4B448D8C3744CAF
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -63,21 +58,16 @@ L68_1 = "CF4B448D8C3744CAF"
 L68_1 = L25_1[L68_1]
 L69_1 = "SDDCF2C31DADBAB65"
 L70_1 = _ENV["CF4B448D8C3744CAF"]["SDDCF2C31DADBAB65"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF4B448D8C3744CAF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF4B448D8C3744CAF"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CF4B448D8C3744CAF_prototype
+CF4B448D8C3744CAF_prototype = L15_1()
+CF4B448D8C3744CAF.prototype = CF4B448D8C3744CAF_prototype
+--- main.bgm.BGMEventManager.Setup
+function CF4B448D8C3744CAF_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = CF4B448D8C3744CAF
@@ -86,24 +76,21 @@ function L70_1(A0_2, A1_2)
     return
   end
   L2_2 = CF4B448D8C3744CAF
-  L2_2.SF3075AB31C9E8AF4 = A0_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FAA38276E44CED22C
+  L2_2.SF3075AB31C9E8AF4 = self
+  L3_2 = self
+  L2_2 = self.FAA38276E44CED22C
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF4B448D8C3744CAF"]["prototype"]
-L69_1 = "FAA38276E44CED22C"
-
-function L70_1(A0_2)
+--- main.bgm.BGMEventManager.LoadBGMEvents
+function CF4B448D8C3744CAF_prototype:FAA38276E44CED22C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = {}
   L1_2.h = L2_2
   L1_2 = cF52F390B
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L3_2 = L1_2
   L2_2 = L1_2.f287946D6
@@ -131,7 +118,7 @@ function L70_1(A0_2)
     L11_2 = "type"
     L9_2 = L9_2(L10_2, L11_2)
     if "" ~= L8_2 then
-      L10_2 = A0_2[2]
+      L10_2 = self[2]
       L10_2 = L10_2.h
       L10_2 = L10_2[L8_2]
       L10_2 = nil ~= L10_2
@@ -139,7 +126,7 @@ function L70_1(A0_2)
         L10_2 = C75E4E6BDA6D903D0
         L10_2 = L10_2.new
         L10_2 = L10_2()
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         if nil == L10_2 then
           L12_2 = L11_2.h
           L13_2 = L47_1.tnull
@@ -153,7 +140,7 @@ function L70_1(A0_2)
       L10_2 = L9_2.f0DDC856C
       L10_2 = L10_2(L11_2)
       if "Lock" == L10_2 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2.h
         L11_2 = L11_2[L8_2]
         L12_2 = L47_1.tnull
@@ -173,7 +160,7 @@ function L70_1(A0_2)
         L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L14_2(L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
         L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
       elseif "Play" == L10_2 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2.h
         L11_2 = L11_2[L8_2]
         L12_2 = L47_1.tnull
@@ -193,7 +180,7 @@ function L70_1(A0_2)
         L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L14_2(L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
         L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
       elseif "PlayWait" == L10_2 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2.h
         L11_2 = L11_2[L8_2]
         L12_2 = L47_1.tnull
@@ -213,7 +200,7 @@ function L70_1(A0_2)
         L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L14_2(L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
         L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
       elseif "PostEvent" == L10_2 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2.h
         L11_2 = L11_2[L8_2]
         L12_2 = L47_1.tnull
@@ -236,7 +223,7 @@ function L70_1(A0_2)
         L13_2 = "wwiseEventName"
         L11_2 = L11_2(L12_2, L13_2)
         if "" ~= L11_2 then
-          L11_2 = A0_2[2]
+          L11_2 = self[2]
           L11_2 = L11_2.h
           L11_2 = L11_2[L8_2]
           L12_2 = L47_1.tnull
@@ -254,7 +241,7 @@ function L70_1(A0_2)
           L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L14_2(L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
           L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
         else
-          L11_2 = A0_2[2]
+          L11_2 = self[2]
           L11_2 = L11_2.h
           L11_2 = L11_2[L8_2]
           L12_2 = L47_1.tnull
@@ -275,7 +262,7 @@ function L70_1(A0_2)
           L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
         end
       elseif "Set" == L10_2 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2.h
         L11_2 = L11_2[L8_2]
         L12_2 = L47_1.tnull
@@ -297,7 +284,7 @@ function L70_1(A0_2)
         L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L14_2(L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
         L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
       elseif "SetPending" == L10_2 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2.h
         L11_2 = L11_2[L8_2]
         L12_2 = L47_1.tnull
@@ -312,7 +299,7 @@ function L70_1(A0_2)
         L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L14_2(L15_2)
         L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
       elseif "SetPlay" == L10_2 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2.h
         L11_2 = L11_2[L8_2]
         L12_2 = L47_1.tnull
@@ -335,7 +322,7 @@ function L70_1(A0_2)
         L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L14_2(L15_2, L16_2, L17_2)
         L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
       elseif "SetState" == L10_2 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2.h
         L11_2 = L11_2[L8_2]
         L12_2 = L47_1.tnull
@@ -357,7 +344,7 @@ function L70_1(A0_2)
         L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L14_2(L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
         L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
       elseif "Stop" == L10_2 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2.h
         L11_2 = L11_2[L8_2]
         L12_2 = L47_1.tnull
@@ -377,7 +364,7 @@ function L70_1(A0_2)
         L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L14_2(L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
         L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
       elseif "StopWait" == L10_2 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2.h
         L11_2 = L11_2[L8_2]
         L12_2 = L47_1.tnull
@@ -397,7 +384,7 @@ function L70_1(A0_2)
         L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L14_2(L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
         L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
       elseif "Unlock" == L10_2 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2.h
         L11_2 = L11_2[L8_2]
         L12_2 = L47_1.tnull
@@ -417,7 +404,7 @@ function L70_1(A0_2)
         L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L14_2(L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
         L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
       elseif "UnlockForce" == L10_2 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2.h
         L11_2 = L11_2[L8_2]
         L12_2 = L47_1.tnull
@@ -437,7 +424,7 @@ function L70_1(A0_2)
         L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L14_2(L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
         L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
       elseif "UnsetPending" == L10_2 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2.h
         L11_2 = L11_2[L8_2]
         L12_2 = L47_1.tnull
@@ -482,7 +469,7 @@ function L70_1(A0_2)
     L14_2 = "eventName"
     L12_2 = L12_2(L13_2, L14_2)
     if "" ~= L12_2 then
-      L13_2 = A0_2[2]
+      L13_2 = self[2]
       L13_2 = L13_2.h
       L13_2 = L13_2[L12_2]
       if nil ~= L13_2 then
@@ -630,7 +617,7 @@ function L70_1(A0_2)
           L17_2, L18_2, L19_2, L20_2 = L17_2(L18_2, L19_2)
           L15_2(L16_2, L17_2, L18_2, L19_2, L20_2)
         end
-        L15_2 = A0_2[2]
+        L15_2 = self[2]
         L15_2 = L15_2.h
         L15_2 = L15_2[L12_2]
         L16_2 = L47_1.tnull
@@ -650,31 +637,25 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF4B448D8C3744CAF"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.bgm.BGMEventManager.Destroy
+function CF4B448D8C3744CAF_prototype:F1C2AA00ADAC52EC5()
   local L1_2
   L1_2 = CF4B448D8C3744CAF
   L1_2 = L1_2.SF3075AB31C9E8AF4
-  if L1_2 == A0_2 then
+  if L1_2 == self then
     L1_2 = CF4B448D8C3744CAF
     L1_2.SF3075AB31C9E8AF4 = nil
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF4B448D8C3744CAF"]["prototype"]
-L69_1 = "F240DF65951FE2820"
-
-function L70_1(A0_2, A1_2)
+--- main.bgm.BGMEventManager.PostEventInternal
+function CF4B448D8C3744CAF_prototype:F240DF65951FE2820(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   if nil ~= L2_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L2_2 = L2_2.h
     L2_2 = L2_2[A1_2]
     L3_2 = L47_1.tnull

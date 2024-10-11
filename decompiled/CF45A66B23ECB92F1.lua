@@ -1,3 +1,7 @@
+---@alias CF45A66B23ECB92F1 main_npc_management_NpcSwitcherDataExpression
+
+---@class main_npc_management_NpcSwitcherDataExpression : CF45A66B23ECB92F1_prototype
+---@field prototype CF45A66B23ECB92F1_prototype
 L55_1 = _ENV
 L56_1 = "CF45A66B23ECB92F1"
 L57_1 = L15_1
@@ -34,31 +38,23 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF45A66B23ECB92F1"]
 L69_1 = "__name__"
 L70_1 = "CF45A66B23ECB92F1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF45A66B23ECB92F1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF45A66B23ECB92F1"]["prototype"]
-L69_1 = "FDCB414451D128926"
-
-function L70_1(A0_2)
+---@class CF45A66B23ECB92F1_prototype
+CF45A66B23ECB92F1_prototype = L15_1()
+CF45A66B23ECB92F1.prototype = CF45A66B23ECB92F1_prototype
+--- main.npc_management.NpcSwitcherDataExpression.FDCB414451D128926
+function CF45A66B23ECB92F1_prototype:FDCB414451D128926()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f6DAE9B28
   L3_2 = "not"
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF45A66B23ECB92F1"]["prototype"]
-L69_1 = "F0B7292CF0F0040CF"
-
-function L70_1(A0_2)
+--- main.npc_management.NpcSwitcherDataExpression.GetType
+function CF45A66B23ECB92F1_prototype:F0B7292CF0F0040CF()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.fBAF32369
   L3_2 = "type"
@@ -68,13 +64,10 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF45A66B23ECB92F1"]["prototype"]
-L69_1 = "F268ABF48867F3AF7"
-
-function L70_1(A0_2)
+--- main.npc_management.NpcSwitcherDataExpression.GetOperator
+function CF45A66B23ECB92F1_prototype:F268ABF48867F3AF7()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.fBAF32369
   L3_2 = "operator"
@@ -84,13 +77,10 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF45A66B23ECB92F1"]["prototype"]
-L69_1 = "FD8CE1118633877EB"
-
-function L70_1(A0_2)
+--- main.npc_management.NpcSwitcherDataExpression.GetVariable
+function CF45A66B23ECB92F1_prototype:FD8CE1118633877EB()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f3D9D438D
   L3_2 = "variable"

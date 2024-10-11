@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C36BDEFD8FA8C0336"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "__name__"
-L70_1 = "C36BDEFD8FA8C0336"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S5B9308751AF4B594"
+---@alias C36BDEFD8FA8C0336 main_event_command_EasyTalkCommand
 
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2)
+---@class main_event_command_EasyTalkCommand
+C36BDEFD8FA8C0336 = L15_1()
+C36BDEFD8FA8C0336.new = {}
+C36BDEFD8FA8C0336.__name__ = "C36BDEFD8FA8C0336"
+--- main.event.command.EasyTalkCommand.EasyTalkNpc
+function C36BDEFD8FA8C0336.S5B9308751AF4B594(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2)
   local L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   if nil == A8_2 then
     A8_2 = false
@@ -59,11 +50,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2)
   L9_2(L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S361687ADBAD6B8F1"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.command.EasyTalkCommand.S361687ADBAD6B8F1
+function C36BDEFD8FA8C0336.S361687ADBAD6B8F1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A7_2 then
     A7_2 = true
@@ -94,11 +82,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "SBDF61F91BA22FAE7"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2)
+--- main.event.command.EasyTalkCommand.EasyTalkNpcMF
+function C36BDEFD8FA8C0336.SBDF61F91BA22FAE7(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2)
   local L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   if nil == A10_2 then
     A10_2 = false
@@ -144,11 +129,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2
   L11_2(L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S44893CE15DC873A6"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2)
+--- main.event.command.EasyTalkCommand.S44893CE15DC873A6
+function C36BDEFD8FA8C0336.S44893CE15DC873A6(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2)
   local L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   if nil == A9_2 then
     A9_2 = true
@@ -181,11 +163,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2)
   L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S60E591FB1ECA63A9"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.EasyTalkCommand.EasyTalkNpcPoke
+function C36BDEFD8FA8C0336.S60E591FB1ECA63A9(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A4_2 then
     A4_2 = true
@@ -217,11 +196,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "SA70D8F5F7D339389"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.EasyTalkCommand.EasySystemMessage
+function C36BDEFD8FA8C0336.SA70D8F5F7D339389(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A6_2 then
     A6_2 = false
@@ -255,11 +231,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S521421A30F2C2A7B"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.EasyTalkCommand.EasyTalkCharaPreStart
+function C36BDEFD8FA8C0336.S521421A30F2C2A7B(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A6_2 then
     A6_2 = false
@@ -329,11 +302,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S6E464540D1357D59"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.EasyTalkCommand.EasyTalkPokemonPreStart
+function C36BDEFD8FA8C0336.S6E464540D1357D59(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A4_2 then
     A4_2 = false
@@ -395,11 +365,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "SE5722C5EDFD3C75B"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2, A11_2)
+--- main.event.command.EasyTalkCommand.EasyTalkStart
+function C36BDEFD8FA8C0336.SE5722C5EDFD3C75B(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2, A11_2)
   local L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   if nil == A11_2 then
     A11_2 = false
@@ -456,11 +423,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2
   L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S3DFFC2F0160079CA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2)
+--- main.event.command.EasyTalkCommand.S3DFFC2F0160079CA
+function C36BDEFD8FA8C0336.S3DFFC2F0160079CA(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2)
   local L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2
   if nil == A10_2 then
     A10_2 = false
@@ -503,11 +467,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2
   L11_2(L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S0BF38152309EFB2C"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2, A11_2, A12_2)
+--- main.event.command.EasyTalkCommand.EasyTalkStartMF
+function C36BDEFD8FA8C0336.S0BF38152309EFB2C(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2, A11_2, A12_2)
   local L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2
   if nil == A12_2 then
     A12_2 = false
@@ -562,11 +523,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2
   L13_2(L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S3F62D8E9E255E1C9"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2, A11_2)
+--- main.event.command.EasyTalkCommand.S3F62D8E9E255E1C9
+function C36BDEFD8FA8C0336.S3F62D8E9E255E1C9(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2, A11_2)
   local L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   if nil == A11_2 then
     A11_2 = false
@@ -607,11 +565,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2
   L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S2B5E7170EB737FF5"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.EasyTalkCommand.S2B5E7170EB737FF5
+function C36BDEFD8FA8C0336.S2B5E7170EB737FF5(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A4_2 then
     A4_2 = false
@@ -635,11 +590,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "SFFE6D7FF344C42E7"
-
-function L70_1(A0_2)
+--- main.event.command.EasyTalkCommand.SFFE6D7FF344C42E7
+function C36BDEFD8FA8C0336.SFFE6D7FF344C42E7(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -947,11 +899,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S872DB27533BD0C3E"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.EasyTalkCommand.EasyTalkEnd
+function C36BDEFD8FA8C0336.S872DB27533BD0C3E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.S7C91080775560DF8
@@ -999,11 +948,8 @@ function L70_1(A0_2, A1_2)
   L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S367CA09C44CEC74F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.EasyTalkCommand.S367CA09C44CEC74F
+function C36BDEFD8FA8C0336.S367CA09C44CEC74F(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   if nil == A6_2 then
     A6_2 = false
@@ -1036,22 +982,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L7_2(L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S177AD87E35E0DCCC"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.EasyTalkCommand.S177AD87E35E0DCCC
+function C36BDEFD8FA8C0336.S177AD87E35E0DCCC(A0_2, A1_2)
   local L2_2
   L2_2 = C36BDEFD8FA8C0336
   L2_2 = L2_2.S9C72F6DDD74BE330
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S9F49AD7A97E95617"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.EasyTalkCommand.CommonPreStart
+function C36BDEFD8FA8C0336.S9F49AD7A97E95617(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A6_2 then
     A6_2 = false
@@ -1162,11 +1102,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L7_2(L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S90FE534C0D538C39"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.EasyTalkCommand.TurnLook
+function C36BDEFD8FA8C0336.S90FE534C0D538C39(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A3_2 then
     A3_2 = false
@@ -1197,11 +1134,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "SACE6364FD493CFA3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.EasyTalkCommand.PlayerHalfSit
+function C36BDEFD8FA8C0336.SACE6364FD493CFA3(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if A1_2 then
     L3_2 = CFC8F368D91411014
@@ -1282,11 +1216,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36BDEFD8FA8C0336"]
-L69_1 = "S9C72F6DDD74BE330"
-
-function L70_1()
+--- main.event.command.EasyTalkCommand.PlayerHalfSitEnd
+function C36BDEFD8FA8C0336.S9C72F6DDD74BE330()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.SA9BA6F9B9C3B2D73

@@ -1,3 +1,7 @@
+---@alias C061E77624541EB5A main_pokepicnic_contents_Wagon_PicnicContents
+
+---@class main_pokepicnic_contents_Wagon_PicnicContents : C061E77624541EB5A_prototype
+---@field prototype C061E77624541EB5A_prototype
 L55_1 = _ENV
 L56_1 = "C061E77624541EB5A"
 L57_1 = L15_1
@@ -43,16 +47,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C061E77624541EB5A"]
 L69_1 = "__name__"
 L70_1 = "C061E77624541EB5A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C061E77624541EB5A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C061E77624541EB5A"]["prototype"]
-L69_1 = "FBF02A2AE63AF40EC"
-
-function L70_1(A0_2)
+---@class C061E77624541EB5A_prototype
+C061E77624541EB5A_prototype = L15_1()
+C061E77624541EB5A.prototype = C061E77624541EB5A_prototype
+--- main.pokepicnic.contents.Wagon_PicnicContents.OnStart
+function C061E77624541EB5A_prototype:FBF02A2AE63AF40EC()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -60,7 +59,7 @@ function L70_1(A0_2)
   L1_2 = L1_2[1]
   L1_2 = L1_2[9]
   L1_2[7] = false
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.F8E196859DA69007C
   L1_2 = L1_2(L2_2)
@@ -68,27 +67,24 @@ function L70_1(A0_2)
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.FA631D252EB4B0064
+  L3_2 = self
+  L4_2 = self.FA631D252EB4B0064
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "wagon_msg_coroutine"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[5] = L1_2
+  self[5] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C061E77624541EB5A"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.contents.Wagon_PicnicContents.OnUpdate
+function C061E77624541EB5A_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = L10_1.coroutine
   L2_2 = L2_2.status
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2[1]
   L2_2 = L2_2(L3_2)
   if "dead" ~= L2_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = nil
     L4_2 = L62_1
     L5_2 = L64_1.pack
@@ -135,11 +131,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C061E77624541EB5A"]["prototype"]
-L69_1 = "FC106B0B5B59826BF"
-
-function L70_1(A0_2)
+--- main.pokepicnic.contents.Wagon_PicnicContents.OnFinish
+function C061E77624541EB5A_prototype:FC106B0B5B59826BF()
   local L1_2, L2_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -147,20 +140,17 @@ function L70_1(A0_2)
   L1_2 = L1_2[1]
   L1_2 = L1_2[9]
   L1_2[7] = true
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.F8E196859DA69007C
   L1_2 = L1_2(L2_2)
   L1_2[1] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C061E77624541EB5A"]["prototype"]
-L69_1 = "FA631D252EB4B0064"
-
-function L70_1(A0_2)
+--- main.pokepicnic.contents.Wagon_PicnicContents.MsgCoroutine
+function C061E77624541EB5A_prototype:FA631D252EB4B0064()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = cB3DDDC2A
   L2_2 = L2_2.f5B6373D5
   L2_2 = L2_2()
@@ -255,7 +245,7 @@ function L70_1(A0_2)
   L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2 = L11_2(L12_2, L13_2)
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2 = L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
-  L8_2 = A0_2[4]
+  L8_2 = self[4]
   L9_2 = L8_2
   L8_2 = L8_2.F8E196859DA69007C
   L8_2 = L8_2(L9_2)
@@ -279,7 +269,7 @@ function L70_1(A0_2)
     L9_2 = _hx_tab_array
     L10_2 = {}
     L10_2.length = 0
-    L11_2 = A0_2[4]
+    L11_2 = self[4]
     L12_2 = L11_2
     L11_2 = L11_2.F8E196859DA69007C
     L11_2 = L11_2(L12_2)
@@ -526,7 +516,7 @@ function L70_1(A0_2)
         end
       end
     end
-    L12_2 = A0_2[4]
+    L12_2 = self[4]
     L13_2 = L12_2
     L12_2 = L12_2.F8E196859DA69007C
     L12_2 = L12_2(L13_2)

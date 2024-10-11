@@ -1,3 +1,5 @@
+---@class C0F5EBEEBBCC294F2 : C0F5EBEEBBCC294F2_prototype
+---@field prototype C0F5EBEEBBCC294F2_prototype
 L55_1 = _ENV
 L56_1 = "C0F5EBEEBBCC294F2"
 L57_1 = L15_1
@@ -44,19 +46,14 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C0F5EBEEBBCC294F2"]
 L69_1 = "__name__"
 L70_1 = "C0F5EBEEBBCC294F2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F5EBEEBBCC294F2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F5EBEEBBCC294F2"]["prototype"]
-L69_1 = "F13968232A9FBB848"
-
-function L70_1(A0_2)
+---@class C0F5EBEEBBCC294F2_prototype
+C0F5EBEEBBCC294F2_prototype = L15_1()
+C0F5EBEEBBCC294F2.prototype = C0F5EBEEBBCC294F2_prototype
+--- C0F5EBEEBBCC294F2.F13968232A9FBB848
+function C0F5EBEEBBCC294F2_prototype:F13968232A9FBB848()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2
-  L2_2 = A0_2[75]
+  L1_2 = self
+  L2_2 = self[75]
   if nil == L2_2 then
     L2_2 = C1DB14DCC9D7634FA
     L2_2 = L2_2.new
@@ -82,7 +79,7 @@ function L70_1(A0_2)
     L6_2 = ""
     L5_2 = L5_2(L6_2)
     L6_2 = L31_1.string
-    L7_2 = A0_2[7]
+    L7_2 = self[7]
     L7_2 = L7_2.owner
     L8_2 = L7_2
     L7_2 = L7_2.fE9C29DA1
@@ -95,17 +92,17 @@ function L70_1(A0_2)
     L5_2 = L5_2(L6_2)
     L4_2 = L4_2 .. L5_2
     L2_2 = L2_2(L3_2, L4_2)
-    A0_2[75] = L2_2
+    self[75] = L2_2
   else
-    L2_2 = A0_2[75]
+    L2_2 = self[75]
     if nil ~= L2_2 then
       L2_2 = L10_1.coroutine
       L2_2 = L2_2.status
-      L3_2 = A0_2[75]
+      L3_2 = self[75]
       L3_2 = L3_2[1]
       L2_2 = L2_2(L3_2)
       if "dead" ~= L2_2 then
-        L2_2 = A0_2[75]
+        L2_2 = self[75]
         L3_2 = nil
         L4_2 = L62_1
         L5_2 = L64_1.pack
@@ -151,15 +148,15 @@ function L70_1(A0_2)
         end
         L5_2 = L4_2.result
         if nil ~= L5_2 and true == L5_2 then
-          L7_2 = A0_2
-          L6_2 = A0_2.FF01DE558D3F19E47
+          L7_2 = self
+          L6_2 = self.FF01DE558D3F19E47
           L8_2 = 2
           L6_2(L7_2, L8_2)
-          A0_2[75] = nil
+          self[75] = nil
           L6_2 = CF55DAF634B863600
           L6_2 = L6_2.prototype
           L6_2 = L6_2.F13968232A9FBB848
-          L7_2 = A0_2
+          L7_2 = self
           L6_2(L7_2)
         end
       end
@@ -167,13 +164,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F5EBEEBBCC294F2"]["prototype"]
-L69_1 = "FF01DE558D3F19E47"
-
-function L70_1(A0_2, A1_2)
+--- C0F5EBEEBBCC294F2.FF01DE558D3F19E47
+function C0F5EBEEBBCC294F2_prototype:FF01DE558D3F19E47(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fB41FD22F
   

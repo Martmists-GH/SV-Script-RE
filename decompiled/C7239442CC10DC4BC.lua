@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C7239442CC10DC4BC"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C7239442CC10DC4BC"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7239442CC10DC4BC"]
-L69_1 = "__name__"
-L70_1 = "C7239442CC10DC4BC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7239442CC10DC4BC"]
-L69_1 = "SC709896C7FA11D95"
+---@alias C7239442CC10DC4BC main_ui_mapicon_MapIconUtility
 
-function L70_1(A0_2, A1_2)
+---@class main_ui_mapicon_MapIconUtility
+C7239442CC10DC4BC = L15_1()
+C7239442CC10DC4BC.new = {}
+C7239442CC10DC4BC.__name__ = "C7239442CC10DC4BC"
+--- main.ui.mapicon.MapIconUtility.SC709896C7FA11D95
+function C7239442CC10DC4BC.SC709896C7FA11D95(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L3_2 = A0_2
   L2_2 = A0_2.fF2819595
@@ -46,11 +37,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7239442CC10DC4BC"]
-L69_1 = "SC33BFF6A59C0AE89"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.MapIconUtility.SC33BFF6A59C0AE89
+function C7239442CC10DC4BC.SC33BFF6A59C0AE89(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = L10_1.math
   L2_2 = L2_2.pi
@@ -83,11 +71,8 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7239442CC10DC4BC"]
-L69_1 = "S5B6A5DC02AAC9374"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.MapIconUtility.S5B6A5DC02AAC9374
+function C7239442CC10DC4BC.S5B6A5DC02AAC9374(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L2_2 = L16_1
   L3_2 = {}
@@ -331,11 +316,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7239442CC10DC4BC"]
-L69_1 = "S3ADBEBEAE11284DA"
-
-function L70_1(A0_2)
+--- main.ui.mapicon.MapIconUtility.CalcRotationDegree
+function C7239442CC10DC4BC.S3ADBEBEAE11284DA(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = L28_1.isNaN
   L3_2 = A0_2

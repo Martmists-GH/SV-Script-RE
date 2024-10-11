@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C00C0FC1CD42E423A"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C00C0FC1CD42E423A"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00C0FC1CD42E423A"]
-L69_1 = "__name__"
-L70_1 = "C00C0FC1CD42E423A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00C0FC1CD42E423A"]
-L69_1 = "S65597C81493C750C"
+---@alias C00C0FC1CD42E423A main_ui_util_waza_UIWazaUtil
 
-function L70_1(A0_2)
+---@class main_ui_util_waza_UIWazaUtil
+C00C0FC1CD42E423A = L15_1()
+C00C0FC1CD42E423A.new = {}
+C00C0FC1CD42E423A.__name__ = "C00C0FC1CD42E423A"
+--- main.ui.util.waza.UIWazaUtil.ConvertWazaDamageTypeToAnimeFrame
+function C00C0FC1CD42E423A.S65597C81493C750C(A0_2)
   local L1_2
   if 0 == A0_2 then
     L1_2 = 2

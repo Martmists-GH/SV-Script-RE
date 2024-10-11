@@ -1,3 +1,6 @@
+---@alias CD9BA9F83E7149568 main_pokepicnic_database_PicnicDatabaseManager
+
+---@class main_pokepicnic_database_PicnicDatabaseManager
 L55_1 = _ENV
 L56_1 = "CF67A67452D018ECC"
 L57_1 = L15_1

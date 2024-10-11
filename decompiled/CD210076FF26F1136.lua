@@ -1,3 +1,7 @@
+---@alias CD210076FF26F1136 main_ui_reward_RewardTopUISceneLoader
+
+---@class main_ui_reward_RewardTopUISceneLoader : CD210076FF26F1136_prototype
+---@field prototype CD210076FF26F1136_prototype
 L55_1 = _ENV
 L56_1 = "CD210076FF26F1136"
 L57_1 = L15_1
@@ -43,37 +47,29 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CD210076FF26F1136"]
 L69_1 = "__name__"
 L70_1 = "CD210076FF26F1136"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD210076FF26F1136"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD210076FF26F1136"]["prototype"]
-L69_1 = "F9337AE9F018B3C29"
-
-function L70_1(A0_2, A1_2)
+---@class CD210076FF26F1136_prototype
+CD210076FF26F1136_prototype = L15_1()
+CD210076FF26F1136.prototype = CD210076FF26F1136_prototype
+--- main.ui.reward.RewardTopUISceneLoader.Open
+function CD210076FF26F1136_prototype:F9337AE9F018B3C29(A1_2)
   local L2_2, L3_2, L4_2
-  A0_2[8] = A1_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F052BEB8F702E7A17
-  L4_2 = A0_2[5]
+  self[8] = A1_2
+  L3_2 = self
+  L2_2 = self.F052BEB8F702E7A17
+  L4_2 = self[5]
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD210076FF26F1136"]["prototype"]
-L69_1 = "FC84A0D4D8CE89C7E"
-
-function L70_1(A0_2)
+--- main.ui.reward.RewardTopUISceneLoader.IsLoadEnd
+function CD210076FF26F1136_prototype:FC84A0D4D8CE89C7E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CDAB51CABF01ACA9B
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC84A0D4D8CE89C7E
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.fD4E64AB7
     L3_2 = "view_reward_top_00"
@@ -99,11 +95,11 @@ function L70_1(A0_2)
     if L4_2 == L5_2 then
       L4_2 = nil
     end
-    A0_2[6] = L4_2
-    L5_2 = A0_2[6]
+    self[6] = L4_2
+    L5_2 = self[6]
     L6_2 = L5_2
     L5_2 = L5_2.FE8C2CF996CFF55FA
-    L7_2 = A0_2[8]
+    L7_2 = self[8]
     L5_2(L6_2, L7_2)
     L5_2 = true
     return L5_2
@@ -112,23 +108,20 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD210076FF26F1136"]["prototype"]
-L69_1 = "FD7D37C5A967ABE41"
-
-function L70_1(A0_2)
+--- main.ui.reward.RewardTopUISceneLoader.CloseScene
+function CD210076FF26F1136_prototype:FD7D37C5A967ABE41()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.f25C936C9
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = CF1D9D619D324F233
     L2_2 = L2_2.S5E67FD00348A0A28
     L2_2()
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.fD4E64AB7
     L4_2 = "reward_top_ui"
@@ -151,16 +144,16 @@ function L70_1(A0_2)
       if L5_2 == L6_2 then
         L5_2 = nil
       end
-      A0_2[7] = L5_2
+      self[7] = L5_2
     end
-    L4_2 = A0_2[7]
+    L4_2 = self[7]
     if nil ~= L4_2 then
-      L4_2 = A0_2[7]
+      L4_2 = self[7]
       L5_2 = L4_2
       L4_2 = L4_2.FBAF9F852DD831935
       L4_2(L5_2)
     else
-      L4_2 = A0_2[3]
+      L4_2 = self[3]
       L5_2 = L4_2
       L4_2 = L4_2.f5C99C0AC
       L4_2(L5_2)

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CD18DAFF9E9ECC595"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CD18DAFF9E9ECC595"]
-L69_1 = "new"
+---@alias CD18DAFF9E9ECC595 main_savedata_system_LoadProcess
 
-function L70_1(A0_2, A1_2)
+---@class main_savedata_system_LoadProcess : CD18DAFF9E9ECC595_prototype
+---@field prototype CD18DAFF9E9ECC595_prototype
+CD18DAFF9E9ECC595 = L15_1()
+function CD18DAFF9E9ECC595.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CD18DAFF9E9ECC595
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD18DAFF9E9ECC595"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CD18DAFF9E9ECC595
+function CD18DAFF9E9ECC595.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = C0A5D597C4D3893F7
   L3_2 = L3_2.super
@@ -37,11 +31,7 @@ function L70_1(A0_2, A1_2, A2_2)
   A0_2[5] = A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD18DAFF9E9ECC595"]
-L69_1 = "__name__"
-L70_1 = "CD18DAFF9E9ECC595"
-L68_1[L69_1] = L70_1
+CD18DAFF9E9ECC595.__name__ = "CD18DAFF9E9ECC595"
 L68_1 = _ENV["CD18DAFF9E9ECC595"]
 L69_1 = "S988D7D0A4EEF693D"
 
@@ -60,20 +50,15 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD18DAFF9E9ECC595"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD18DAFF9E9ECC595"]["prototype"]
-L69_1 = "F9EF8B08DA4FDA9E4"
-
-function L70_1(A0_2)
+---@class CD18DAFF9E9ECC595_prototype
+CD18DAFF9E9ECC595_prototype = L15_1()
+CD18DAFF9E9ECC595.prototype = CD18DAFF9E9ECC595_prototype
+--- main.savedata.system.LoadProcess.mainCoroutineFunc
+function CD18DAFF9E9ECC595_prototype:F9EF8B08DA4FDA9E4()
   local L1_2, L2_2
   L1_2 = c639BAEBC
   L1_2 = L1_2.f8D96BF42
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     return

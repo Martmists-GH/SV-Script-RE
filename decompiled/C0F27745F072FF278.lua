@@ -1,3 +1,7 @@
+---@alias C0F27745F072FF278 main_ui_shop_restaurant_data_ShopRestaurantUIProperty
+
+---@class main_ui_shop_restaurant_data_ShopRestaurantUIProperty : C0F27745F072FF278_prototype
+---@field prototype C0F27745F072FF278_prototype
 L55_1 = _ENV
 L56_1 = "C0F27745F072FF278"
 L57_1 = L15_1
@@ -199,53 +203,39 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0F27745F072FF278"]
 L69_1 = "__name__"
 L70_1 = "C0F27745F072FF278"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F27745F072FF278"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F27745F072FF278"]["prototype"]
-L69_1 = "F4F6B6E5FD999AC49"
-
-function L70_1(A0_2)
+---@class C0F27745F072FF278_prototype
+C0F27745F072FF278_prototype = L15_1()
+C0F27745F072FF278.prototype = C0F27745F072FF278_prototype
+--- main.ui.shop_restaurant.data.ShopRestaurantUIProperty.get_shopID
+function C0F27745F072FF278_prototype:F4F6B6E5FD999AC49()
   local L1_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F27745F072FF278"]["prototype"]
-L69_1 = "FA0CEEE69619F899F"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.data.ShopRestaurantUIProperty.get_shopName
+function C0F27745F072FF278_prototype:FA0CEEE69619F899F()
   local L1_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F27745F072FF278"]["prototype"]
-L69_1 = "F6B4E736F43C1495B"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.data.ShopRestaurantUIProperty.get_currencyType
+function C0F27745F072FF278_prototype:F6B4E736F43C1495B()
   local L1_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F27745F072FF278"]["prototype"]
-L69_1 = "FB2888E42894C8AA4"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.data.ShopRestaurantUIProperty.GetMenuArrayCopy
+function C0F27745F072FF278_prototype:FB2888E42894C8AA4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   if nil == L1_2 then
     L1_2 = nil
     return L1_2
   end
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L2_2 = _hx_tab_array
   L3_2 = {}
   L3_2.length = 0

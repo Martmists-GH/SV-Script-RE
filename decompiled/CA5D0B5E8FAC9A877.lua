@@ -1,15 +1,10 @@
-L68_1 = _ENV["CA5D0B5E8FAC9A877"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5D0B5E8FAC9A877"]
-L69_1 = "__name__"
-L70_1 = "CA5D0B5E8FAC9A877"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5D0B5E8FAC9A877"]
-L69_1 = "SD29CDB6B095CC2DB"
+---@alias CA5D0B5E8FAC9A877 main_ajito_system_AjitoSceneFinder
 
-function L70_1()
+---@class main_ajito_system_AjitoSceneFinder
+CA5D0B5E8FAC9A877.new = {}
+CA5D0B5E8FAC9A877.__name__ = "CA5D0B5E8FAC9A877"
+--- main.ajito.system.AjitoSceneFinder.GetRushScene
+function CA5D0B5E8FAC9A877.SD29CDB6B095CC2DB()
   local L0_2, L1_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -18,11 +13,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5D0B5E8FAC9A877"]
-L69_1 = "S7E3A8191E19B1470"
-
-function L70_1(A0_2)
+--- main.ajito.system.AjitoSceneFinder.GetAjitoPointDataScene
+function CA5D0B5E8FAC9A877.S7E3A8191E19B1470(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -45,11 +37,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5D0B5E8FAC9A877"]
-L69_1 = "SADEA4569FB8F3F79"
-
-function L70_1(A0_2)
+--- main.ajito.system.AjitoSceneFinder.GetPokemonPopPointDataScene
+function CA5D0B5E8FAC9A877.SADEA4569FB8F3F79(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -72,11 +61,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5D0B5E8FAC9A877"]
-L69_1 = "S481F07A6B6D88D49"
-
-function L70_1()
+--- main.ajito.system.AjitoSceneFinder.GetPokemonPopScene
+function CA5D0B5E8FAC9A877.S481F07A6B6D88D49()
   local L0_2, L1_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -85,11 +71,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5D0B5E8FAC9A877"]
-L69_1 = "S8D4C2F5AE9F74BA7"
-
-function L70_1()
+--- main.ajito.system.AjitoSceneFinder.GetTableDataScene
+function CA5D0B5E8FAC9A877.S8D4C2F5AE9F74BA7()
   local L0_2, L1_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -98,11 +81,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5D0B5E8FAC9A877"]
-L69_1 = "S01EB7F560D88CC51"
-
-function L70_1()
+--- main.ajito.system.AjitoSceneFinder.GetRushUIScene
+function CA5D0B5E8FAC9A877.S01EB7F560D88CC51()
   local L0_2, L1_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -111,11 +91,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5D0B5E8FAC9A877"]
-L69_1 = "S0AF6CF4E42DD7658"
-
-function L70_1(A0_2)
+--- main.ajito.system.AjitoSceneFinder.GetAutoBuildingObjectsScene
+function CA5D0B5E8FAC9A877.S0AF6CF4E42DD7658(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -126,11 +103,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5D0B5E8FAC9A877"]
-L69_1 = "S34E9CDE09A1D72CF"
-
-function L70_1()
+--- main.ajito.system.AjitoSceneFinder.GetBossStartDemoScene
+function CA5D0B5E8FAC9A877.S34E9CDE09A1D72CF()
   local L0_2, L1_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D

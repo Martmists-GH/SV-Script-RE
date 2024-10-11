@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "C8299D6F59EAD5E44"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C8299D6F59EAD5E44"]
-L69_1 = "new"
-
-function L70_1(A0_2)
+---@class C8299D6F59EAD5E44 : C8299D6F59EAD5E44_prototype
+---@field prototype C8299D6F59EAD5E44_prototype
+C8299D6F59EAD5E44 = L15_1()
+function C8299D6F59EAD5E44.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C8299D6F59EAD5E44
@@ -22,11 +17,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8299D6F59EAD5E44"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C8299D6F59EAD5E44
+function C8299D6F59EAD5E44.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C55F918CA2AB449DD
   L2_2 = L2_2.super
@@ -35,11 +27,7 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8299D6F59EAD5E44"]
-L69_1 = "__name__"
-L70_1 = "C8299D6F59EAD5E44"
-L68_1[L69_1] = L70_1
+C8299D6F59EAD5E44.__name__ = "C8299D6F59EAD5E44"
 L68_1 = _ENV["C8299D6F59EAD5E44"]
 L69_1 = "SE4215241F9B6E540"
 
@@ -75,11 +63,8 @@ function L70_1()
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8299D6F59EAD5E44"]
-L69_1 = "S746DA208CC31E250"
-
-function L70_1()
+--- C8299D6F59EAD5E44.S746DA208CC31E250
+function C8299D6F59EAD5E44.S746DA208CC31E250()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L0_2 = c2FB59E8B
   L0_2 = L0_2.fB900AE56
@@ -180,26 +165,18 @@ function L70_1()
   return L11_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8299D6F59EAD5E44"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8299D6F59EAD5E44"]["prototype"]
-L69_1 = "FEBB6C7EABF14DA04"
-
-function L70_1(A0_2)
+---@class C8299D6F59EAD5E44_prototype
+C8299D6F59EAD5E44_prototype = L15_1()
+C8299D6F59EAD5E44.prototype = C8299D6F59EAD5E44_prototype
+--- C8299D6F59EAD5E44.BootEventTriggerId
+function C8299D6F59EAD5E44_prototype:FEBB6C7EABF14DA04()
   local L1_2
   L1_2 = 8
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8299D6F59EAD5E44"]["prototype"]
-L69_1 = "FDA98E87C57449F00"
-
-function L70_1(A0_2, A1_2)
+--- C8299D6F59EAD5E44.OnEventCheck
+function C8299D6F59EAD5E44_prototype:FDA98E87C57449F00(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = nil
   L3_2 = C10578806AC30DCA3
@@ -220,8 +197,8 @@ function L70_1(A0_2, A1_2)
       L4_2 = L4_2.S36407BBD944692D1
       L4_2 = L4_2()
       if L4_2 then
-        L5_2 = A0_2
-        L4_2 = A0_2.FB161B45E9210E867
+        L5_2 = self
+        L4_2 = self.FB161B45E9210E867
         L4_2 = L4_2(L5_2)
         if L4_2 then
           L4_2 = c2FB59E8B
@@ -268,11 +245,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8299D6F59EAD5E44"]["prototype"]
-L69_1 = "FB161B45E9210E867"
-
-function L70_1(A0_2)
+--- C8299D6F59EAD5E44.checkBootable
+function C8299D6F59EAD5E44_prototype:FB161B45E9210E867()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -388,15 +362,15 @@ function L70_1(A0_2)
       end
     end
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.F687F22366A67AD06
+  L8_2 = self
+  L7_2 = self.F687F22366A67AD06
   L7_2 = L7_2(L8_2)
   if not L7_2 then
     L7_2 = false
     return L7_2
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.F4DD281F5F060B090
+  L8_2 = self
+  L7_2 = self.F4DD281F5F060B090
   L7_2 = L7_2(L8_2)
   if not L7_2 then
     L7_2 = false
@@ -406,11 +380,8 @@ function L70_1(A0_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8299D6F59EAD5E44"]["prototype"]
-L69_1 = "F687F22366A67AD06"
-
-function L70_1(A0_2)
+--- C8299D6F59EAD5E44.F687F22366A67AD06
+function C8299D6F59EAD5E44_prototype:F687F22366A67AD06()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -567,11 +538,8 @@ function L70_1(A0_2)
   return L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8299D6F59EAD5E44"]["prototype"]
-L69_1 = "F4DD281F5F060B090"
-
-function L70_1(A0_2)
+--- C8299D6F59EAD5E44.F4DD281F5F060B090
+function C8299D6F59EAD5E44_prototype:F4DD281F5F060B090()
   local L1_2
   L1_2 = c2FB59E8B
   L1_2 = L1_2.fBF27F333

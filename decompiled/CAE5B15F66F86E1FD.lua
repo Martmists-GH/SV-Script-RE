@@ -1,3 +1,5 @@
+---@class CAE5B15F66F86E1FD : CAE5B15F66F86E1FD_prototype
+---@field prototype CAE5B15F66F86E1FD_prototype
 L55_1 = _ENV
 L56_1 = "CAE5B15F66F86E1FD"
 L57_1 = L15_1
@@ -48,19 +50,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CAE5B15F66F86E1FD"]
 L69_1 = "__name__"
 L70_1 = "CAE5B15F66F86E1FD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAE5B15F66F86E1FD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAE5B15F66F86E1FD"]["prototype"]
-L69_1 = "F85F214A759C3756E"
-
-function L70_1(A0_2)
+---@class CAE5B15F66F86E1FD_prototype
+CAE5B15F66F86E1FD_prototype = L15_1()
+CAE5B15F66F86E1FD.prototype = CAE5B15F66F86E1FD_prototype
+--- CAE5B15F66F86E1FD.F85F214A759C3756E
+function CAE5B15F66F86E1FD_prototype:F85F214A759C3756E()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -80,13 +77,10 @@ function L70_1(A0_2)
   L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAE5B15F66F86E1FD"]["prototype"]
-L69_1 = "F7A3D296366E973CB"
-
-function L70_1(A0_2)
+--- CAE5B15F66F86E1FD.Initialize
+function CAE5B15F66F86E1FD_prototype:F7A3D296366E973CB()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = c639BAEBC
   L2_2 = L2_2.f6798B339
   
@@ -211,14 +205,11 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAE5B15F66F86E1FD"]["prototype"]
-L69_1 = "FE0C59F62854E3861"
-
-function L70_1(A0_2, A1_2)
+--- CAE5B15F66F86E1FD.FE0C59F62854E3861
+function CAE5B15F66F86E1FD_prototype:FE0C59F62854E3861(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = 0
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -238,11 +229,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAE5B15F66F86E1FD"]["prototype"]
-L69_1 = "FDD225426F9C67B37"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CAE5B15F66F86E1FD.StartSaveProcess
+function CAE5B15F66F86E1FD_prototype:FDD225426F9C67B37(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = false
@@ -274,19 +262,19 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2 = false
     return L5_2
   end
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   if nil ~= L5_2 then
     L5_2 = false
     return L5_2
   end
   L5_2 = not A2_2
-  A0_2[5] = L5_2
+  self[5] = L5_2
   L5_2 = C02B3E6571816B75E
   L5_2 = L5_2.S988D7D0A4EEF693D
   L6_2 = A1_2
   L5_2 = L5_2(L6_2)
-  A0_2[2] = L5_2
-  L5_2 = A0_2[1]
+  self[2] = L5_2
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f47BAE49D
   L5_2(L6_2)
@@ -294,13 +282,10 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAE5B15F66F86E1FD"]["prototype"]
-L69_1 = "F25388FDA7D8AE244"
-
-function L70_1(A0_2, A1_2)
+--- CAE5B15F66F86E1FD.StartLoadProcess
+function CAE5B15F66F86E1FD_prototype:F25388FDA7D8AE244(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil ~= L2_2 then
     L2_2 = false
     return L2_2
@@ -313,8 +298,8 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.S988D7D0A4EEF693D
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
-  L2_2 = A0_2[1]
+  self[2] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f47BAE49D
   L2_2(L3_2)
@@ -322,13 +307,10 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAE5B15F66F86E1FD"]["prototype"]
-L69_1 = "FEBD55FFD8EF97D80"
-
-function L70_1(A0_2, A1_2)
+--- CAE5B15F66F86E1FD.RequestAutoSave
+function CAE5B15F66F86E1FD_prototype:FEBD55FFD8EF97D80(A1_2)
   local L2_2, L3_2, L4_2
-  A0_2[4] = A1_2
+  self[4] = A1_2
   L2_2 = C00099C1DFBF96B11
   L2_2 = L2_2.S264F26F6894F3392
   if nil ~= L2_2 then
@@ -342,9 +324,9 @@ function L70_1(A0_2, A1_2)
       L2_2 = L2_2.FD2FD44E9CDC5F7C5
       L2_2(L3_2)
     else
-      L2_2 = A0_2[4]
+      L2_2 = self[4]
       if 3 ~= L2_2 then
-        L2_2 = A0_2[4]
+        L2_2 = self[4]
         if 1 ~= L2_2 then
           goto lbl_26
         end
@@ -383,23 +365,20 @@ function L70_1(A0_2, A1_2)
         goto lbl_55
       end
     end
-    L3_2 = A0_2
-    L2_2 = A0_2.F5C900CE699281CD9
+    L3_2 = self
+    L2_2 = self.F5C900CE699281CD9
     L2_2(L3_2)
     goto lbl_57
     ::lbl_55::
-    L3_2 = A0_2
-    L2_2 = A0_2.FF6849A21448E8B3A
+    L3_2 = self
+    L2_2 = self.FF6849A21448E8B3A
     L2_2(L3_2)
   end
   ::lbl_57::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAE5B15F66F86E1FD"]["prototype"]
-L69_1 = "F94A404EAD6C0D436"
-
-function L70_1(A0_2)
+--- CAE5B15F66F86E1FD.F94A404EAD6C0D436
+function CAE5B15F66F86E1FD_prototype:F94A404EAD6C0D436()
   local L1_2, L2_2
   L1_2 = c639BAEBC
   L1_2 = L1_2.fB8F5417F
@@ -407,47 +386,41 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAE5B15F66F86E1FD"]["prototype"]
-L69_1 = "FF6849A21448E8B3A"
-
-function L70_1(A0_2)
+--- CAE5B15F66F86E1FD.CancelAutoSaveRequest
+function CAE5B15F66F86E1FD_prototype:FF6849A21448E8B3A()
   local L1_2
-  A0_2[4] = nil
+  self[4] = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAE5B15F66F86E1FD"]["prototype"]
-L69_1 = "F5C900CE699281CD9"
-
-function L70_1(A0_2)
+--- CAE5B15F66F86E1FD.RunAutoSaveRequest
+function CAE5B15F66F86E1FD_prototype:F5C900CE699281CD9()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if nil ~= L1_2 then
     L1_2 = cCB5F4E51
     L1_2 = L1_2.f791D1CED
     L1_2 = L1_2()
     if L1_2 then
-      L2_2 = A0_2
-      L1_2 = A0_2.FDD225426F9C67B37
-      L3_2 = A0_2[4]
+      L2_2 = self
+      L1_2 = self.FDD225426F9C67B37
+      L3_2 = self[4]
       L1_2(L2_2, L3_2)
     else
-      L1_2 = A0_2[4]
+      L1_2 = self[4]
       if 3 ~= L1_2 then
-        L1_2 = A0_2[4]
+        L1_2 = self[4]
         if 1 ~= L1_2 then
           goto lbl_28
         end
       end
-      A0_2[5] = false
-      L2_2 = A0_2
-      L1_2 = A0_2.FDD225426F9C67B37
+      self[5] = false
+      L2_2 = self
+      L1_2 = self.FDD225426F9C67B37
       L3_2 = 4
       L4_2 = true
       L1_2 = L1_2(L2_2, L3_2, L4_2)
       if not L1_2 then
-        A0_2[5] = true
+        self[5] = true
         goto lbl_31
         ::lbl_28::
         L1_2 = c639BAEBC
@@ -456,15 +429,12 @@ function L70_1(A0_2)
       end
     end
     ::lbl_31::
-    A0_2[4] = nil
+    self[4] = nil
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAE5B15F66F86E1FD"]["prototype"]
-L69_1 = "F92B19281F706E0DD"
-
-function L70_1(A0_2)
+--- CAE5B15F66F86E1FD.SetReportData
+function CAE5B15F66F86E1FD_prototype:F92B19281F706E0DD()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = c25C59F56
   L1_2 = L1_2.f9E75526F

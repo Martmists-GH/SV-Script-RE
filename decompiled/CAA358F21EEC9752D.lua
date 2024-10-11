@@ -1,3 +1,7 @@
+---@alias C40DD3A4D58A5EFB5 main_field_management_PlayerGazeManager
+
+---@class main_field_management_PlayerGazeManager : C40DD3A4D58A5EFB5_prototype
+---@field prototype C40DD3A4D58A5EFB5_prototype
 L55_1 = _ENV
 L56_1 = "CAA358F21EEC9752D"
 L57_1 = L15_1
@@ -42,11 +46,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CAA358F21EEC9752D"]
 L69_1 = "__name__"
 L70_1 = "CAA358F21EEC9752D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA358F21EEC9752D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C40DD3A4D58A5EFB5_prototype
+C40DD3A4D58A5EFB5_prototype = L15_1()
+C40DD3A4D58A5EFB5.prototype = C40DD3A4D58A5EFB5_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CAA358F21EEC9752D"]["prototype"]
 L69_1 = _ENV["CAA358F21EEC9752D"]

@@ -1,3 +1,7 @@
+---@alias C3C7D6227912AFE27 main_ui_pokelist_PokeListBase
+
+---@class main_ui_pokelist_PokeListBase : C3C7D6227912AFE27_prototype
+---@field prototype C3C7D6227912AFE27_prototype
 L55_1 = _ENV
 L56_1 = "C3C7D6227912AFE27"
 L57_1 = L15_1
@@ -91,24 +95,19 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C3C7D6227912AFE27"]
 L69_1 = "__name__"
 L70_1 = "C3C7D6227912AFE27"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FAD0070D590ADE9E4"
-
-function L70_1(A0_2)
+---@class C3C7D6227912AFE27_prototype
+C3C7D6227912AFE27_prototype = L15_1()
+C3C7D6227912AFE27.prototype = C3C7D6227912AFE27_prototype
+--- main.ui.pokelist.PokeListBase.IsSelected
+function C3C7D6227912AFE27_prototype:FAD0070D590ADE9E4()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.length
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L4_2 = L4_2[L3_2]
     L5_2 = L4_2
     L4_2 = L4_2.fD51F4F1D
@@ -121,19 +120,16 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F4D67EEC9E329A2E7"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.PokeListBase.IsBattle
+function C3C7D6227912AFE27_prototype:F4D67EEC9E329A2E7()
   local L1_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   if 0 ~= L1_2 then
-    L1_2 = A0_2[10]
+    L1_2 = self[10]
     if 1 ~= L1_2 then
-      L1_2 = A0_2[10]
+      L1_2 = self[10]
       if 2 ~= L1_2 then
-        L1_2 = A0_2[10]
+        L1_2 = self[10]
         if 3 ~= L1_2 then
           goto lbl_15
         end
@@ -147,33 +143,30 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F51F4D8E6BF1D6282"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.PokeListBase.SetupVariable
+function C3C7D6227912AFE27_prototype:F51F4D8E6BF1D6282()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L1_2 = c69ACCC6F
   L1_2 = L1_2.f3F98EEAD
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L1_2 = L1_2(L2_2)
-  A0_2[5] = L1_2
+  self[5] = L1_2
   L1_2 = nil
   L2_2 = c69ACCC6F
   L2_2 = L2_2.fEFEFCCBE
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L1_2
   L2_2(L3_2, L4_2)
   L2_2 = 0
-  L3_2 = A0_2[15]
+  L3_2 = self[15]
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.push
     L6_2 = cECD2E4A5
     L6_2 = L6_2.f6906455E
-    L7_2 = A0_2[2]
+    L7_2 = self[2]
     L8_2 = L31_1.string
     L9_2 = "Button_0"
     L8_2 = L8_2(L9_2)
@@ -186,26 +179,26 @@ function L70_1(A0_2)
   end
   L4_2 = cECF00344
   L4_2 = L4_2.fEECE6995
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L4_2 = L4_2(L5_2)
-  A0_2[4] = L4_2
+  self[4] = L4_2
   L4_2 = nil
   L5_2 = cECF00344
   L5_2 = L5_2.f9758FA9B
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = L4_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L6_2 = L5_2
   L5_2 = L5_2.f7A48F855
-  L7_2 = A0_2[19]
+  L7_2 = self[19]
   L5_2(L6_2, L7_2)
   L5_2 = 0
-  L6_2 = A0_2[14]
+  L6_2 = self[14]
   while L5_2 < L6_2 do
     L5_2 = L5_2 + 1
     L7_2 = L5_2 - 1
-    L8_2 = A0_2[4]
+    L8_2 = self[4]
     L9_2 = L8_2
     L8_2 = L8_2.f1B274C53
     L10_2 = L7_2
@@ -224,10 +217,10 @@ function L70_1(A0_2)
     L11_2 = L11_2 .. L12_2
     L12_2 = 0
     L8_2(L9_2, L10_2, L11_2, L12_2)
-    L8_2 = A0_2[4]
+    L8_2 = self[4]
     L9_2 = L8_2
     L8_2 = L8_2.f1B274C53
-    L10_2 = A0_2[17]
+    L10_2 = self[17]
     L10_2 = L10_2 + L7_2
     L11_2 = L31_1.string
     L12_2 = L31_1.string
@@ -244,10 +237,10 @@ function L70_1(A0_2)
     L11_2 = L11_2 .. L12_2
     L12_2 = 0
     L8_2(L9_2, L10_2, L11_2, L12_2)
-    L8_2 = A0_2[4]
+    L8_2 = self[4]
     L9_2 = L8_2
     L8_2 = L8_2.f1B274C53
-    L10_2 = A0_2[18]
+    L10_2 = self[18]
     L10_2 = L10_2 + L7_2
     L11_2 = L31_1.string
     L12_2 = L31_1.string
@@ -265,93 +258,90 @@ function L70_1(A0_2)
     L12_2 = 0
     L8_2(L9_2, L10_2, L11_2, L12_2)
   end
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = L7_2
   L7_2 = L7_2.f1B274C53
-  L9_2 = A0_2[16]
+  L9_2 = self[16]
   L10_2 = "L_temochi_00/L_ride_00/P_poke_ride"
   L11_2 = 0
   L7_2(L8_2, L9_2, L10_2, L11_2)
   L7_2 = CB1D39F2242E7D623
   L7_2 = L7_2.new
-  L8_2 = A0_2
-  L9_2 = A0_2[2]
+  L8_2 = self
+  L9_2 = self[2]
   L7_2 = L7_2(L8_2, L9_2)
-  A0_2[6] = L7_2
+  self[6] = L7_2
   L7_2 = c2A84524D
   L7_2 = L7_2.fB41FD22F
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L9_2 = L8_2
   L8_2 = L8_2.f5B268E4E
   L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L8_2(L9_2)
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-  A0_2[8] = L7_2
+  self[8] = L7_2
   L7_2 = C04C2A679B8598CA6
   L7_2 = L7_2.SD071DF9D0379766A
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L9_2 = 5
   L10_2 = false
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  A0_2[13] = L7_2
+  self[13] = L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F021237A930633162"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokelist.PokeListBase.SetPokeButton
+function C3C7D6227912AFE27_prototype:F021237A930633162(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = A2_2
   L3_2 = A2_2.fCE2A7CF8
   L5_2 = 2
   L3_2 = L3_2(L4_2, L5_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F52BDBF92A920C8AB
+  L5_2 = self
+  L4_2 = self.F52BDBF92A920C8AB
   L6_2 = A1_2
   L7_2 = not L3_2
   L4_2(L5_2, L6_2, L7_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F6D1FA94DEF65A721
+  L5_2 = self
+  L4_2 = self.F6D1FA94DEF65A721
   L6_2 = A1_2
   L7_2 = A2_2
   L4_2(L5_2, L6_2, L7_2)
   if not L3_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F0FFFA1ED239A9636
+    L5_2 = self
+    L4_2 = self.F0FFFA1ED239A9636
     L6_2 = A1_2
     L7_2 = A2_2
     L4_2(L5_2, L6_2, L7_2)
-    L4_2 = A0_2[7]
+    L4_2 = self[7]
     if 1 ~= L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.FA0BA57E3193A9AD8
+      L5_2 = self
+      L4_2 = self.FA0BA57E3193A9AD8
       L6_2 = A1_2
       L7_2 = A2_2
       L4_2(L5_2, L6_2, L7_2)
     end
-    L4_2 = A0_2[7]
+    L4_2 = self[7]
     if 0 == L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F0E84C53E56B0D292
+      L5_2 = self
+      L4_2 = self.F0E84C53E56B0D292
       L6_2 = A1_2
       L7_2 = A2_2
       L4_2(L5_2, L6_2, L7_2)
     end
-    L4_2 = A0_2[7]
+    L4_2 = self[7]
     if 1 ~= L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.FAD52CD7C1E8A9FFA
+      L5_2 = self
+      L4_2 = self.FAD52CD7C1E8A9FFA
       L6_2 = A1_2
       L7_2 = A2_2
       L4_2(L5_2, L6_2, L7_2)
-      L5_2 = A0_2
-      L4_2 = A0_2.F610C96F343FAAABC
+      L5_2 = self
+      L4_2 = self.F610C96F343FAAABC
       L6_2 = A1_2
       L7_2 = A2_2
       L4_2(L5_2, L6_2, L7_2)
     end
   else
-    L4_2 = A0_2[4]
+    L4_2 = self[4]
     L5_2 = L4_2
     L4_2 = L4_2.f7798D9F4
     L6_2 = L31_1.string
@@ -369,7 +359,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L6_2 = L6_2 .. L7_2
     L7_2 = false
     L4_2(L5_2, L6_2, L7_2)
-    L4_2 = A0_2[4]
+    L4_2 = self[4]
     L5_2 = L4_2
     L4_2 = L4_2.f7798D9F4
     L6_2 = L31_1.string
@@ -388,23 +378,20 @@ function L70_1(A0_2, A1_2, A2_2)
     L7_2 = false
     L4_2(L5_2, L6_2, L7_2)
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F4FB73D7B10911CEC
+  L5_2 = self
+  L4_2 = self.F4FB73D7B10911CEC
   L6_2 = A1_2
   L7_2 = A2_2
   L4_2(L5_2, L6_2, L7_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FF74D6A46D30178D7
+  L5_2 = self
+  L4_2 = self.FF74D6A46D30178D7
   L6_2 = A1_2
   L7_2 = A2_2
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F52BDBF92A920C8AB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokelist.PokeListBase.SetDispInfo
+function C3C7D6227912AFE27_prototype:F52BDBF92A920C8AB(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A3_2 then
     A3_2 = false
@@ -434,7 +421,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = L5_2.S3200E487068CAA0E
   L5_2 = L5_2()
   L5_2 = L5_2 and 0 == A1_2
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = L6_2
   L6_2 = L6_2.f7798D9F4
   L8_2 = L31_1.string
@@ -455,7 +442,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L9_2 = not L5_2
   end
   L6_2(L7_2, L8_2, L9_2)
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = L6_2
   L6_2 = L6_2.f7798D9F4
   L8_2 = L31_1.string
@@ -476,7 +463,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L9_2 = not L5_2
   end
   L6_2(L7_2, L8_2, L9_2)
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = L6_2
   L6_2 = L6_2.f7798D9F4
   L8_2 = L31_1.string
@@ -497,7 +484,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L9_2 = not L5_2
   end
   L6_2(L7_2, L8_2, L9_2)
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = L6_2
   L6_2 = L6_2.f7798D9F4
   L8_2 = L31_1.string
@@ -518,7 +505,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L9_2 = not L5_2
   end
   L6_2(L7_2, L8_2, L9_2)
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = L6_2
   L6_2 = L6_2.f7798D9F4
   L8_2 = L31_1.string
@@ -539,7 +526,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L9_2 = not L5_2
   end
   L6_2(L7_2, L8_2, L9_2)
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = L6_2
   L6_2 = L6_2.f7798D9F4
   L8_2 = L31_1.string
@@ -562,11 +549,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F6D1FA94DEF65A721"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokelist.PokeListBase.SetPokeName
+function C3C7D6227912AFE27_prototype:F6D1FA94DEF65A721(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A3_2 then
     A3_2 = false
@@ -603,14 +587,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   if A3_2 then
     L7_2 = c8C3BF576
     L7_2 = L7_2.f316077B2
-    L8_2 = A0_2[2]
+    L8_2 = self[2]
     L9_2 = "L_temochi_00/L_temochi_btn_00_Copy0/T_pokename_00"
     L10_2 = L6_2
     L7_2(L8_2, L9_2, L10_2)
   else
     L7_2 = c8C3BF576
     L7_2 = L7_2.f316077B2
-    L8_2 = A0_2[2]
+    L8_2 = self[2]
     L9_2 = L31_1.string
     L10_2 = L31_1.string
     L11_2 = "L_temochi_00/L_temochi_btn_0"
@@ -629,11 +613,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FA0BA57E3193A9AD8"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokelist.PokeListBase.SetPokeLevel
+function C3C7D6227912AFE27_prototype:FA0BA57E3193A9AD8(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A3_2 then
     A3_2 = false
@@ -662,14 +643,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   if A3_2 then
     L6_2 = c8C3BF576
     L6_2 = L6_2.f316077B2
-    L7_2 = A0_2[2]
+    L7_2 = self[2]
     L8_2 = "L_temochi_00/L_temochi_btn_00_Copy0/T_lv_00"
     L9_2 = L5_2
     L6_2(L7_2, L8_2, L9_2)
   else
     L6_2 = c8C3BF576
     L6_2 = L6_2.f316077B2
-    L7_2 = A0_2[2]
+    L7_2 = self[2]
     L8_2 = L31_1.string
     L9_2 = L31_1.string
     L10_2 = "L_temochi_00/L_temochi_btn_0"
@@ -688,17 +669,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F0E84C53E56B0D292"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokelist.PokeListBase.SetPokeHP
+function C3C7D6227912AFE27_prototype:F0E84C53E56B0D292(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A3_2 then
     A3_2 = false
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.FFE11AC2AAFC95411
+  L5_2 = self
+  L4_2 = self.FFE11AC2AAFC95411
   L6_2 = A1_2
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = cB3DDDC2A
@@ -733,14 +711,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   if A3_2 then
     L7_2 = c8C3BF576
     L7_2 = L7_2.f316077B2
-    L8_2 = A0_2[2]
+    L8_2 = self[2]
     L9_2 = "L_temochi_00/L_temochi_btn_00_Copy0/L_HP_00/T_number_00"
     L10_2 = L6_2
     L7_2(L8_2, L9_2, L10_2)
   else
     L7_2 = c8C3BF576
     L7_2 = L7_2.f316077B2
-    L8_2 = A0_2[2]
+    L8_2 = self[2]
     L9_2 = L31_1.string
     L10_2 = L31_1.string
     L11_2 = "L_temochi_00/L_temochi_btn_0"
@@ -757,11 +735,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L10_2 = L6_2
     L7_2(L8_2, L9_2, L10_2)
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.FAD31B3E33C8AC663
+  L8_2 = self
+  L7_2 = self.FAD31B3E33C8AC663
   L9_2 = A1_2
-  L11_2 = A0_2
-  L10_2 = A0_2.FA62C7B6EEC9DB06F
+  L11_2 = self
+  L10_2 = self.FA62C7B6EEC9DB06F
   L12_2 = L4_2
   L14_2 = A2_2
   L13_2 = A2_2.f5E588EF6
@@ -771,11 +749,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2(L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F7C6CCE034F0F5465"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.pokelist.PokeListBase.SetPokeHPTextForEffect
+function C3C7D6227912AFE27_prototype:F7C6CCE034F0F5465(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A4_2 then
     A4_2 = false
@@ -810,14 +785,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   if A4_2 then
     L7_2 = c8C3BF576
     L7_2 = L7_2.f316077B2
-    L8_2 = A0_2[2]
+    L8_2 = self[2]
     L9_2 = "L_temochi_00/L_temochi_btn_00_Copy0/L_HP_00/T_number_00"
     L10_2 = L6_2
     L7_2(L8_2, L9_2, L10_2)
   else
     L7_2 = c8C3BF576
     L7_2 = L7_2.f316077B2
-    L8_2 = A0_2[2]
+    L8_2 = self[2]
     L9_2 = L31_1.string
     L10_2 = L31_1.string
     L11_2 = "L_temochi_00/L_temochi_btn_0"
@@ -836,11 +811,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FB9FD49F46CCCFB04"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.FB9FD49F46CCCFB04
+function C3C7D6227912AFE27_prototype:FB9FD49F46CCCFB04(A1_2)
   local L2_2
   L2_2 = C3C7D6227912AFE27
   L2_2 = L2_2.S676FDA01D8D4C262
@@ -852,16 +824,13 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FAD31B3E33C8AC663"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokelist.PokeListBase.SetPokeHPFrame
+function C3C7D6227912AFE27_prototype:FAD31B3E33C8AC663(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L4_2 = nil
   L5_2 = cECF00344
   L5_2 = L5_2.fB3E547E8
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
@@ -886,7 +855,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
     
     L5_2 = L5_2()
-    L6_2 = A0_2[4]
+    L6_2 = self[4]
     L7_2 = L6_2
     L6_2 = L6_2.fEAD9FB7D
     L8_2 = L31_1.string
@@ -904,9 +873,9 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L8_2 = L8_2 .. L9_2
     L9_2 = A2_2
     L6_2(L7_2, L8_2, L9_2)
-    L6_2 = A0_2[24]
+    L6_2 = self[24]
     if A2_2 >= L6_2 then
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L7_2 = L6_2
       L6_2 = L6_2.fB4E9D030
       L8_2 = L31_1.string
@@ -924,9 +893,9 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L8_2 = L8_2 .. L9_2
       L6_2(L7_2, L8_2)
     else
-      L6_2 = A0_2[23]
+      L6_2 = self[23]
       if A2_2 >= L6_2 then
-        L6_2 = A0_2[4]
+        L6_2 = self[4]
         L7_2 = L6_2
         L6_2 = L6_2.fB4E9D030
         L8_2 = L31_1.string
@@ -944,7 +913,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
         L8_2 = L8_2 .. L9_2
         L6_2(L7_2, L8_2)
       else
-        L6_2 = A0_2[4]
+        L6_2 = self[4]
         L7_2 = L6_2
         L6_2 = L6_2.fB4E9D030
         L8_2 = L31_1.string
@@ -966,21 +935,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F82AA78476484498B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.SetPokeHaveItem
+function C3C7D6227912AFE27_prototype:F82AA78476484498B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A1_2 then
     A1_2 = true
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FA2A7173B282DC50E
+  L3_2 = self
+  L2_2 = self.FA2A7173B282DC50E
   L2_2 = L2_2(L3_2)
   if L2_2 >= 0 then
     if not A1_2 then
-      L3_2 = A0_2[4]
+      L3_2 = self[4]
       L4_2 = L3_2
       L3_2 = L3_2.f7798D9F4
       L5_2 = L31_1.string
@@ -1000,19 +966,19 @@ function L70_1(A0_2, A1_2)
       L3_2(L4_2, L5_2, L6_2)
       return
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.F5012D8AAF254701F
+    L4_2 = self
+    L3_2 = self.F5012D8AAF254701F
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     L4_2 = CF1D9D619D324F233
     L4_2 = L4_2.S036FE38553339EEE
     L4_2 = L4_2()
-    L6_2 = A0_2
-    L5_2 = A0_2.F8B5CA828A448E96D
+    L6_2 = self
+    L5_2 = self.F8B5CA828A448E96D
     L7_2 = L2_2
     L5_2 = L5_2(L6_2, L7_2)
     L6_2 = 0 ~= L5_2 and ("bag" == L4_2 or "storage" == L4_2)
-    L7_2 = A0_2[4]
+    L7_2 = self[4]
     L8_2 = L7_2
     L7_2 = L7_2.f7798D9F4
     L9_2 = L31_1.string
@@ -1035,10 +1001,10 @@ function L70_1(A0_2, A1_2)
       L7_2 = L7_2.SBD8846F9EF675F4A
       L8_2 = L5_2
       L7_2 = L7_2(L8_2)
-      L8_2 = A0_2[4]
+      L8_2 = self[4]
       L9_2 = L8_2
       L8_2 = L8_2.fC6FA21BA
-      L10_2 = A0_2[18]
+      L10_2 = self[18]
       L10_2 = L10_2 + L2_2
       L11_2 = L7_2
       L12_2 = 0
@@ -1066,7 +1032,7 @@ function L70_1(A0_2, A1_2)
       L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
       L9_2 = c8C3BF576
       L9_2 = L9_2.f316077B2
-      L10_2 = A0_2[2]
+      L10_2 = self[2]
       L11_2 = L31_1.string
       L12_2 = L31_1.string
       L13_2 = "L_temochi_00/L_temochi_btn_0"
@@ -1086,44 +1052,38 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F016741D3A3F6D6F6"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.SetHaveItem
+function C3C7D6227912AFE27_prototype:F016741D3A3F6D6F6(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F8B5CA828A448E96D
+  L3_2 = self
+  L2_2 = self.F8B5CA828A448E96D
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if 0 ~= L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F9BFC43FFE436E776
+    L4_2 = self
+    L3_2 = self.F9BFC43FFE436E776
     L5_2 = A1_2
     L6_2 = L2_2
     L3_2(L4_2, L5_2, L6_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F3349E307133DDAA0
+    L4_2 = self
+    L3_2 = self.F3349E307133DDAA0
     L5_2 = A1_2
     L6_2 = L2_2
     L3_2(L4_2, L5_2, L6_2)
   end
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
-  L6_2 = A0_2
-  L5_2 = A0_2.F042CA406D76E2BE7
+  L6_2 = self
+  L5_2 = self.F042CA406D76E2BE7
   L7_2 = A1_2
   L5_2 = L5_2(L6_2, L7_2)
   L6_2 = 0 ~= L2_2
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F9BFC43FFE436E776"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokelist.PokeListBase.SetHaveItemItemName
+function C3C7D6227912AFE27_prototype:F9BFC43FFE436E776(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = cB3DDDC2A
   L3_2 = L3_2.f5B6373D5
@@ -1144,48 +1104,42 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
   L5_2 = c8C3BF576
   L5_2 = L5_2.f316077B2
-  L6_2 = A0_2[2]
-  L8_2 = A0_2
-  L7_2 = A0_2.F0A28B8DE78D5251C
+  L6_2 = self[2]
+  L8_2 = self
+  L7_2 = self.F0A28B8DE78D5251C
   L9_2 = A1_2
   L7_2 = L7_2(L8_2, L9_2)
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F3349E307133DDAA0"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokelist.PokeListBase.SetHaveItemItemIcon
+function C3C7D6227912AFE27_prototype:F3349E307133DDAA0(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = C2E8D016DD410D06A
   L3_2 = L3_2.SBD8846F9EF675F4A
   L4_2 = A2_2
   L3_2 = L3_2(L4_2)
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   L5_2 = L4_2
   L4_2 = L4_2.fC6FA21BA
-  L6_2 = A0_2[18]
+  L6_2 = self[18]
   L6_2 = L6_2 + A1_2
   L7_2 = L3_2
   L8_2 = 0
   L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F042CA406D76E2BE7"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.F042CA406D76E2BE7
+function C3C7D6227912AFE27_prototype:F042CA406D76E2BE7(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = L31_1.string
   L3_2 = L31_1.string
   L4_2 = ""
   L3_2 = L3_2(L4_2)
   L4_2 = L31_1.string
-  L6_2 = A0_2
-  L5_2 = A0_2.FE6F12099D0CD14A2
+  L6_2 = self
+  L5_2 = self.FE6F12099D0CD14A2
   L7_2 = A1_2
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2)
@@ -1198,19 +1152,16 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F0A28B8DE78D5251C"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.F0A28B8DE78D5251C
+function C3C7D6227912AFE27_prototype:F0A28B8DE78D5251C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = L31_1.string
   L3_2 = L31_1.string
   L4_2 = ""
   L3_2 = L3_2(L4_2)
   L4_2 = L31_1.string
-  L6_2 = A0_2
-  L5_2 = A0_2.FE6F12099D0CD14A2
+  L6_2 = self
+  L5_2 = self.FE6F12099D0CD14A2
   L7_2 = A1_2
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2)
@@ -1223,11 +1174,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FE6F12099D0CD14A2"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.GetButtonPaneName
+function C3C7D6227912AFE27_prototype:FE6F12099D0CD14A2(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L31_1.string
   L3_2 = "L_temochi_00/L_temochi_btn_0"
@@ -1239,11 +1187,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FAD52CD7C1E8A9FFA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokelist.PokeListBase.SetPokeHaveItemIcon
+function C3C7D6227912AFE27_prototype:FAD52CD7C1E8A9FFA(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A3_2 then
     A3_2 = false
@@ -1275,12 +1220,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
   
   L4_2 = L4_2()
-  L6_2 = A0_2
-  L5_2 = A0_2.F8B5CA828A448E96D
+  L6_2 = self
+  L5_2 = self.F8B5CA828A448E96D
   L7_2 = A1_2
   L5_2 = L5_2(L6_2, L7_2)
   L6_2 = 0 ~= L5_2
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = L7_2
   L7_2 = L7_2.f7798D9F4
   L9_2 = L31_1.string
@@ -1298,7 +1243,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L9_2 = L9_2 .. L10_2
   L10_2 = L6_2
   L7_2(L8_2, L9_2, L10_2)
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = L7_2
   L7_2 = L7_2.f7798D9F4
   L9_2 = L31_1.string
@@ -1321,10 +1266,10 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L7_2 = L7_2.SBD8846F9EF675F4A
     L8_2 = L5_2
     L7_2 = L7_2(L8_2)
-    L8_2 = A0_2[4]
+    L8_2 = self[4]
     L9_2 = L8_2
     L8_2 = L8_2.fC6FA21BA
-    L10_2 = A0_2[17]
+    L10_2 = self[17]
     L10_2 = L10_2 + A1_2
     L11_2 = L7_2
     L12_2 = 0
@@ -1332,11 +1277,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F610C96F343FAAABC"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokelist.PokeListBase.SetPokeSick
+function C3C7D6227912AFE27_prototype:F610C96F343FAAABC(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A3_2 then
     A3_2 = false
@@ -1344,16 +1286,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2 = nil
   L5_2 = cECF00344
   L5_2 = L5_2.fB3E547E8
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.FF18058D54896F3CD
+    L6_2 = self
+    L5_2 = self.FF18058D54896F3CD
     L7_2 = A1_2
     L5_2 = L5_2(L6_2, L7_2)
-    L7_2 = A0_2
-    L6_2 = A0_2.FFE11AC2AAFC95411
+    L7_2 = self
+    L6_2 = self.FFE11AC2AAFC95411
     L8_2 = A1_2
     L6_2 = L6_2(L7_2, L8_2)
     L6_2 = 0 == L6_2
@@ -1384,7 +1326,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
     
     L7_2 = L7_2()
-    L8_2 = A0_2[4]
+    L8_2 = self[4]
     L9_2 = L8_2
     L8_2 = L8_2.f7798D9F4
     L10_2 = L7_2
@@ -1418,8 +1360,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       end
       
       L9_2 = L9_2()
-      L11_2 = A0_2
-      L10_2 = A0_2.F4D67EEC9E329A2E7
+      L11_2 = self
+      L10_2 = self.F4D67EEC9E329A2E7
       L10_2 = L10_2(L11_2)
       if L10_2 then
         L10_2 = CC31A25AF0A315E23
@@ -1485,7 +1427,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L10_2 = C56064F8EC2EC133B
       L10_2 = L10_2.S58B1C312546F66F2
       L11_2 = L9_2
-      L12_2 = A0_2[2]
+      L12_2 = self[2]
       L13_2 = L31_1.string
       L14_2 = L31_1.string
       L15_2 = ""
@@ -1501,7 +1443,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L13_2 = L13_2 .. L14_2
       L14_2 = 0
       L10_2(L11_2, L12_2, L13_2, L14_2)
-      L10_2 = A0_2[4]
+      L10_2 = self[4]
       L11_2 = L10_2
       L10_2 = L10_2.fB4E9D030
       L12_2 = L31_1.string
@@ -1522,11 +1464,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F0FFFA1ED239A9636"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokelist.PokeListBase.SetPokeSex
+function C3C7D6227912AFE27_prototype:F0FFFA1ED239A9636(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A3_2 then
     A3_2 = false
@@ -1556,7 +1495,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = A2_2.fB31DF589
   L5_2 = L5_2(L6_2)
   if 0 == L5_2 then
-    L5_2 = A0_2[4]
+    L5_2 = self[4]
     L6_2 = L5_2
     L5_2 = L5_2.f7798D9F4
     L7_2 = L31_1.string
@@ -1574,7 +1513,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L7_2 = L7_2 .. L8_2
     L8_2 = true
     L5_2(L6_2, L7_2, L8_2)
-    L5_2 = A0_2[4]
+    L5_2 = self[4]
     L6_2 = L5_2
     L5_2 = L5_2.fEAD9FB7D
     L7_2 = L31_1.string
@@ -1597,7 +1536,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L5_2 = A2_2.fB31DF589
     L5_2 = L5_2(L6_2)
     if 1 == L5_2 then
-      L5_2 = A0_2[4]
+      L5_2 = self[4]
       L6_2 = L5_2
       L5_2 = L5_2.f7798D9F4
       L7_2 = L31_1.string
@@ -1615,7 +1554,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L7_2 = L7_2 .. L8_2
       L8_2 = true
       L5_2(L6_2, L7_2, L8_2)
-      L5_2 = A0_2[4]
+      L5_2 = self[4]
       L6_2 = L5_2
       L5_2 = L5_2.fEAD9FB7D
       L7_2 = L31_1.string
@@ -1634,7 +1573,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L8_2 = 1
       L5_2(L6_2, L7_2, L8_2)
     else
-      L5_2 = A0_2[4]
+      L5_2 = self[4]
       L6_2 = L5_2
       L5_2 = L5_2.f7798D9F4
       L7_2 = L31_1.string
@@ -1656,11 +1595,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F4FB73D7B10911CEC"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokelist.PokeListBase.SetPokeIconOffset
+function C3C7D6227912AFE27_prototype:F4FB73D7B10911CEC(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A3_2 then
     A3_2 = false
@@ -1682,7 +1618,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L10_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
   if A3_2 then
-    L7_2 = A0_2[4]
+    L7_2 = self[4]
     L8_2 = L7_2
     L7_2 = L7_2.f0067ACC1
     L9_2 = "L_temochi_00/L_temochi_btn_00_Copy0/N_pos_program_00"
@@ -1691,7 +1627,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L12_2 = L6_2[3]
     L7_2(L8_2, L9_2, L10_2, L11_2, L12_2)
   else
-    L7_2 = A0_2[4]
+    L7_2 = self[4]
     L8_2 = L7_2
     L7_2 = L7_2.f0067ACC1
     L9_2 = L31_1.string
@@ -1714,11 +1650,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FF74D6A46D30178D7"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokelist.PokeListBase.SetPokeIcon
+function C3C7D6227912AFE27_prototype:FF74D6A46D30178D7(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A3_2 then
     A3_2 = false
@@ -1727,7 +1660,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = nil
   L6_2 = cECF00344
   L6_2 = L6_2.fB3E547E8
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
   if L6_2 then
@@ -1752,15 +1685,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       return
     end
     if A3_2 then
-      L7_2 = A0_2[4]
+      L7_2 = self[4]
       L8_2 = L7_2
       L7_2 = L7_2.fC6FA21BA
-      L9_2 = A0_2[14]
+      L9_2 = self[14]
       L10_2 = L6_2
       L11_2 = 0
       L7_2(L8_2, L9_2, L10_2, L11_2)
     else
-      L7_2 = A0_2[4]
+      L7_2 = self[4]
       L8_2 = L7_2
       L7_2 = L7_2.fC6FA21BA
       L9_2 = A1_2
@@ -1769,8 +1702,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L7_2(L8_2, L9_2, L10_2, L11_2)
     end
     L7_2 = false
-    L9_2 = A0_2
-    L8_2 = A0_2.F4D67EEC9E329A2E7
+    L9_2 = self
+    L8_2 = self.F4D67EEC9E329A2E7
     L8_2 = L8_2(L9_2)
     if L8_2 then
       L8_2 = CC31A25AF0A315E23
@@ -1781,12 +1714,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L8_2 = L8_2(L9_2)
       L7_2 = L8_2
     end
-    L9_2 = A0_2
-    L8_2 = A0_2.FFE11AC2AAFC95411
+    L9_2 = self
+    L8_2 = self.FFE11AC2AAFC95411
     L10_2 = A1_2
     L8_2 = L8_2(L9_2, L10_2)
     if L8_2 > 0 and not L7_2 then
-      L8_2 = A0_2[4]
+      L8_2 = self[4]
       L9_2 = L8_2
       L8_2 = L8_2.fB4E9D030
       L10_2 = L31_1.string
@@ -1804,7 +1737,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L10_2 = L10_2 .. L11_2
       L8_2(L9_2, L10_2)
     else
-      L8_2 = A0_2[4]
+      L8_2 = self[4]
       L9_2 = L8_2
       L8_2 = L8_2.fB4E9D030
       L10_2 = L31_1.string
@@ -1825,36 +1758,30 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FA62C7B6EEC9DB06F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokelist.PokeListBase.GetHpGaugeFrame
+function C3C7D6227912AFE27_prototype:FA62C7B6EEC9DB06F(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L3_2 = A0_2[21]
+  L3_2 = self[21]
   L4_2 = A1_2 / A2_2
-  L5_2 = A0_2[21]
+  L5_2 = self[21]
   L4_2 = L4_2 * L5_2
   L3_2 = L3_2 - L4_2
-  L4_2 = A0_2[22]
+  L4_2 = self[22]
   if L3_2 > L4_2 and A1_2 > 0 then
-    L3_2 = A0_2[22]
+    L3_2 = self[22]
   end
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F6E331BDED018E0C2"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.PlayButtonSelectAnim
+function C3C7D6227912AFE27_prototype:F6E331BDED018E0C2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C3C7D6227912AFE27
   L2_2 = L2_2.S676FDA01D8D4C262
   if A1_2 == L2_2 then
     return
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.fB4E9D030
   L4_2 = L31_1.string
@@ -1873,26 +1800,23 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FF4A92A5DB204471F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.FF4A92A5DB204471F
+function C3C7D6227912AFE27_prototype:FF4A92A5DB204471F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FE8EFC9097B6BBFAF
+  L3_2 = self
+  L2_2 = self.FE8EFC9097B6BBFAF
   L2_2(L3_2)
   L2_2 = C3C7D6227912AFE27
   L2_2 = L2_2.S676FDA01D8D4C262
   if A1_2 == L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FFE11AC2AAFC95411
+  L3_2 = self
+  L2_2 = self.FFE11AC2AAFC95411
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 > 0 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.fB4E9D030
     L4_2 = L31_1.string
@@ -1912,18 +1836,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FE8EFC9097B6BBFAF"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.PokeListBase.FE8EFC9097B6BBFAF
+function C3C7D6227912AFE27_prototype:FE8EFC9097B6BBFAF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = 0
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L4_2 = A0_2[4]
+    L4_2 = self[4]
     L5_2 = L4_2
     L4_2 = L4_2.fEAD9FB7D
     L6_2 = L31_1.string
@@ -1941,7 +1862,7 @@ function L70_1(A0_2)
     L6_2 = L6_2 .. L7_2
     L7_2 = 0
     L4_2(L5_2, L6_2, L7_2)
-    L4_2 = A0_2[4]
+    L4_2 = self[4]
     L5_2 = L4_2
     L4_2 = L4_2.fB4E9D030
     L6_2 = L31_1.string
@@ -1961,14 +1882,11 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F5012D8AAF254701F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.GetPokeParam
+function C3C7D6227912AFE27_prototype:F5012D8AAF254701F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4D67EEC9E329A2E7
+  L3_2 = self
+  L2_2 = self.F4D67EEC9E329A2E7
   L2_2 = L2_2(L3_2)
   if L2_2 then
     L2_2 = CC31A25AF0A315E23
@@ -2010,14 +1928,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FFE11AC2AAFC95411"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.GetNowHP
+function C3C7D6227912AFE27_prototype:FFE11AC2AAFC95411(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4D67EEC9E329A2E7
+  L3_2 = self
+  L2_2 = self.F4D67EEC9E329A2E7
   L2_2 = L2_2(L3_2)
   if L2_2 then
     L2_2 = CC31A25AF0A315E23
@@ -2065,14 +1980,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FF18058D54896F3CD"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.GetSick
+function C3C7D6227912AFE27_prototype:FF18058D54896F3CD(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4D67EEC9E329A2E7
+  L3_2 = self
+  L2_2 = self.F4D67EEC9E329A2E7
   L2_2 = L2_2(L3_2)
   if L2_2 then
     L2_2 = CC31A25AF0A315E23
@@ -2120,14 +2032,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F8B5CA828A448E96D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.GetItemID
+function C3C7D6227912AFE27_prototype:F8B5CA828A448E96D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4D67EEC9E329A2E7
+  L3_2 = self
+  L2_2 = self.F4D67EEC9E329A2E7
   L2_2 = L2_2(L3_2)
   if L2_2 then
     L2_2 = CF1B91014068D2D0A
@@ -2135,8 +2044,8 @@ function L70_1(A0_2, A1_2)
     L3_2 = A1_2
     return L2_2(L3_2)
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.F5012D8AAF254701F
+    L3_2 = self
+    L2_2 = self.F5012D8AAF254701F
     L4_2 = A1_2
     L2_2 = L2_2(L3_2, L4_2)
     L3_2 = nil
@@ -2155,19 +2064,16 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FE1DAC5C470537D23"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.FE1DAC5C470537D23
+function C3C7D6227912AFE27_prototype:FE1DAC5C470537D23(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.f7798D9F4
   L4_2 = "L_temochi_00/L_ride_00/T_ride_00"
   L5_2 = A1_2
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.f7798D9F4
   L4_2 = "L_temochi_00/L_ride_00/P_key_00"
@@ -2175,33 +2081,27 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F0332B283E219C08D"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.PokeListBase.F0332B283E219C08D
+function C3C7D6227912AFE27_prototype:F0332B283E219C08D()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.fB4E9D030
   L3_2 = "L_temochi_00/L_ride_00/shortcut_select"
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FA2A7173B282DC50E"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.PokeListBase.GetTargetIndex
+function C3C7D6227912AFE27_prototype:FA2A7173B282DC50E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.length
   L3_2 = false
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L4_2 = L1_2 - 1
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L5_2 = L5_2[L4_2]
     L6_2 = L5_2
     L5_2 = L5_2.f3ED070C9
@@ -2218,11 +2118,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FA537B912371145DC"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.ResumeCoroutine
+function C3C7D6227912AFE27_prototype:FA537B912371145DC(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = nil
   L3_2 = L62_1
@@ -2269,60 +2166,51 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F0168E0005910798F"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.PokeListBase.StartViewControl
+function C3C7D6227912AFE27_prototype:F0168E0005910798F()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c69ACCC6F
   L2_2 = L2_2.f8C317F18
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L2_2
     L2_2 = L2_2.f89358001
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FDA942DE822BE124D"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.PokeListBase.StopViewControl
+function C3C7D6227912AFE27_prototype:FDA942DE822BE124D()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c69ACCC6F
   L2_2 = L2_2.f8C317F18
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L2_2
     L2_2 = L2_2.f1EA0CCF2
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F4B14418238E3E740"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.PokeListBase.IsStartControl
+function C3C7D6227912AFE27_prototype:F4B14418238E3E740()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c69ACCC6F
   L2_2 = L2_2.f8C317F18
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L2_2
     L2_2 = L2_2.fE09DCCE4
     return L2_2(L3_2)
@@ -2331,20 +2219,17 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FA23D39922B76B247"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.SetVisible
+function C3C7D6227912AFE27_prototype:FA23D39922B76B247(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = nil
   L3_2 = cECF00344
   L3_2 = L3_2.fB3E547E8
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.f2A9CF058
     L5_2 = A1_2
@@ -2352,11 +2237,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F32CCA7D33220F265"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.PokeListBase.SetRideButton
+function C3C7D6227912AFE27_prototype:F32CCA7D33220F265()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = CCD22EFED4E9E5F89
   L1_2 = L1_2.SF55DE12AD589DB08
@@ -2364,7 +2246,7 @@ function L70_1(A0_2)
   L2_2 = cCDB92DE8
   L2_2 = L2_2.f9A6EFC5C
   L2_2 = L2_2()
-  A0_2[11] = L2_2
+  self[11] = L2_2
   L2_2 = C2E8D016DD410D06A
   L2_2 = L2_2.SD7E693DFC343AAE6
   L3_2 = C3593E4C449170AC1
@@ -2374,10 +2256,10 @@ function L70_1(A0_2)
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = #L2_2
   if L3_2 > 0 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.fC6FA21BA
-    L5_2 = A0_2[16]
+    L5_2 = self[16]
     L6_2 = L2_2
     L7_2 = 0
     L3_2(L4_2, L5_2, L6_2, L7_2)
@@ -2388,11 +2270,11 @@ function L70_1(A0_2)
   L5_2 = L3_2
   L4_2 = L3_2.fD499C005
   L6_2 = 0
-  L7_2 = A0_2[11]
+  L7_2 = self[11]
   L4_2(L5_2, L6_2, L7_2)
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = "L_temochi_00/L_ride_00/T_pokename_00"
   L8_2 = L3_2
   L7_2 = L3_2.f39DD249C
@@ -2405,7 +2287,7 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = "L_temochi_00/L_ride_00/T_ride_00"
   L7_2 = c8C3BF576
   L7_2 = L7_2.fC8CEF9EF
@@ -2460,11 +2342,11 @@ function L70_1(A0_2)
   else
     L4_2 = false
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.FE1DAC5C470537D23
+  L7_2 = self
+  L6_2 = self.FE1DAC5C470537D23
   L8_2 = L4_2
   L6_2(L7_2, L8_2)
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = L6_2
   L6_2 = L6_2.fEAD9FB7D
   L8_2 = "L_temochi_00/L_ride_00/off_on"
@@ -2474,10 +2356,10 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = L1_2
     if L1_3 then
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[27]
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[28]
     end
     return L0_3
@@ -2487,20 +2369,17 @@ function L70_1(A0_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F218E2A14A790D265"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.PokeListBase.FadeOut
+function C3C7D6227912AFE27_prototype:F218E2A14A790D265()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cECF00344
   L2_2 = L2_2.fB3E547E8
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.fB4E9D030
     L4_2 = "f_out"
@@ -2508,36 +2387,30 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F1FCC23570D66FF15"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.PokeListBase.IsFadeOut
+function C3C7D6227912AFE27_prototype:F1FCC23570D66FF15()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cECF00344
   L2_2 = L2_2.f9758FA9B
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.fF8C77C75
   L4_2 = "f_out"
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "FD6DAE088C3E06D07"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.GetButtonTranslate
+function C3C7D6227912AFE27_prototype:FD6DAE088C3E06D07(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[A1_2]
   L3_2 = L2_2
   L2_2 = L2_2.fDC667AD2
@@ -2552,17 +2425,14 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F4FBBE0DEF890C0E4"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.GetContextPos
+function C3C7D6227912AFE27_prototype:F4FBBE0DEF890C0E4(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FD6DAE088C3E06D07
+  L3_2 = self
+  L2_2 = self.FD6DAE088C3E06D07
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.f3271DED8
   L5_2 = L31_1.string
@@ -2579,7 +2449,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 .. L6_2
   L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
-  L6_2 = A0_2[29]
+  L6_2 = self[29]
   L7_2 = {}
   L8_2 = L6_2[1]
   L9_2 = L2_2[1]
@@ -2599,21 +2469,15 @@ function L70_1(A0_2, A1_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F9F8C2211E081236F"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.PokeListBase.GetRidePokemonParam
+function C3C7D6227912AFE27_prototype:F9F8C2211E081236F()
   local L1_2
-  L1_2 = A0_2[11]
+  L1_2 = self[11]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F446F151C92B9E25F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.RideFormAnime
+function C3C7D6227912AFE27_prototype:F446F151C92B9E25F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.fFCE06E04
@@ -2621,18 +2485,18 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.f62782BA1
   L2_2 = L2_2(L3_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FAD0070D590ADE9E4
+  L4_2 = self
+  L3_2 = self.FAD0070D590ADE9E4
   L3_2 = L3_2(L4_2)
   L4_2 = C3C7D6227912AFE27
   L4_2 = L4_2.S676FDA01D8D4C262
   L4_2 = L4_2 == L3_2
   L5_2 = 0
-  L6_2 = A0_2[14]
+  L6_2 = self[14]
   while L5_2 < L6_2 do
     L5_2 = L5_2 + 1
     L7_2 = L5_2 - 1
-    L8_2 = A0_2[4]
+    L8_2 = self[4]
     L9_2 = L8_2
     L8_2 = L8_2.f7798D9F4
     L10_2 = L31_1.string
@@ -2645,14 +2509,14 @@ function L70_1(A0_2, A1_2)
     L11_2 = L7_2 == L3_2
     L8_2(L9_2, L10_2, L11_2)
   end
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = L7_2
   L7_2 = L7_2.fB4E9D030
   L9_2 = L31_1.string
   L10_2 = "L_temochi_00/"
   L9_2 = L9_2(L10_2)
   L10_2 = L31_1.string
-  L11_2 = A0_2[12]
+  L11_2 = self[12]
   L11_2 = L11_2[A1_2]
   L10_2 = L10_2(L11_2)
   L9_2 = L9_2 .. L10_2
@@ -2676,40 +2540,34 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F15549B66ABC179A3"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.F15549B66ABC179A3
+function C3C7D6227912AFE27_prototype:F15549B66ABC179A3(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.fF8C77C75
   L4_2 = L31_1.string
   L5_2 = "L_temochi_00/"
   L4_2 = L4_2(L5_2)
   L5_2 = L31_1.string
-  L6_2 = A0_2[12]
+  L6_2 = self[12]
   L6_2 = L6_2[A1_2]
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F9AFB3304B5247E1F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.PokeListBase.StopRideFormAnime
+function C3C7D6227912AFE27_prototype:F9AFB3304B5247E1F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.f550AECFE
   L4_2 = L31_1.string
   L5_2 = "L_temochi_00/"
   L4_2 = L4_2(L5_2)
   L5_2 = L31_1.string
-  L6_2 = A0_2[12]
+  L6_2 = self[12]
   L6_2 = L6_2[A1_2]
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
@@ -2717,20 +2575,17 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F662618219342164B"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.PokeListBase.IsCancel
+function C3C7D6227912AFE27_prototype:F662618219342164B()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c3FAF3463
   L2_2 = L2_2.fEFAF8128
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[13]
+    L2_2 = self[13]
     L3_2 = L2_2
     L2_2 = L2_2.fDEEB3A8E
     return L2_2(L3_2)
@@ -2739,13 +2594,10 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C7D6227912AFE27"]["prototype"]
-L69_1 = "F67591134A25A3C5D"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.PokeListBase.F67591134A25A3C5D
+function C3C7D6227912AFE27_prototype:F67591134A25A3C5D()
   local L1_2
-  L1_2 = A0_2[13]
+  L1_2 = self[13]
   return L1_2
 end
 

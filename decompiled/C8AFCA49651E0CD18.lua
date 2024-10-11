@@ -1,3 +1,7 @@
+---@alias C771F06EAB7BF857F main_field_action_partner_pokemon_ActionPartnerPoke
+
+---@class main_field_action_partner_pokemon_ActionPartnerPoke : C771F06EAB7BF857F_prototype
+---@field prototype C771F06EAB7BF857F_prototype
 L55_1 = _ENV
 L56_1 = "C8AFCA49651E0CD18"
 L57_1 = L15_1
@@ -37,11 +41,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8AFCA49651E0CD18"]
 L69_1 = "__name__"
 L70_1 = "C8AFCA49651E0CD18"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8AFCA49651E0CD18"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C771F06EAB7BF857F_prototype
+C771F06EAB7BF857F_prototype = L15_1()
+C771F06EAB7BF857F.prototype = C771F06EAB7BF857F_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8AFCA49651E0CD18"]["prototype"]
 L69_1 = _ENV["C8AFCA49651E0CD18"]

@@ -1,5 +1,5 @@
 ---@class cF8391D27 : cF8391D27_instance
-  ---@field fB3A41E6A fun(x:c3639F54E):userdata
+---@field fB3A41E6A fun(x:c3639F54E):userdata
 ---@field fEE6C17D6 fun(x:cF8391D27_instance,y:cF8391D27_instance):boolean @ IsEqual
 ---@field f1F0426AA fun(x:cF8391D27_instance,y:cF8391D27_instance):boolean @ NotEqual
 c4971BFCA = {}  -- dummy

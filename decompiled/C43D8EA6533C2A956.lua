@@ -1,3 +1,7 @@
+---@alias C43D8EA6533C2A956 main_system_subgame_SubGameManager
+
+---@class main_system_subgame_SubGameManager : C43D8EA6533C2A956_prototype
+---@field prototype C43D8EA6533C2A956_prototype
 L55_1 = _ENV
 L56_1 = "C43D8EA6533C2A956"
 L57_1 = L15_1
@@ -40,25 +44,17 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C43D8EA6533C2A956"]
 L69_1 = "__name__"
 L70_1 = "C43D8EA6533C2A956"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43D8EA6533C2A956"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43D8EA6533C2A956"]["prototype"]
-L69_1 = "FE39DFCDD37942A85"
-
-function L70_1(A0_2, A1_2)
-  A0_2[2] = A1_2
+---@class C43D8EA6533C2A956_prototype
+C43D8EA6533C2A956_prototype = L15_1()
+C43D8EA6533C2A956.prototype = C43D8EA6533C2A956_prototype
+--- main.system.subgame.SubGameManager.RegisterControl
+function C43D8EA6533C2A956_prototype:FE39DFCDD37942A85(A1_2)
+  self[2] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43D8EA6533C2A956"]["prototype"]
-L69_1 = "F992D60197D58F9C4"
-
-function L70_1(A0_2, A1_2)
-  A0_2[2] = nil
+--- main.system.subgame.SubGameManager.UnregisterControl
+function C43D8EA6533C2A956_prototype:F992D60197D58F9C4(A1_2)
+  self[2] = nil
 end
 
 L68_1[L69_1] = L70_1

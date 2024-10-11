@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C8D17EA0ADD83CA45"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C8D17EA0ADD83CA45"]
-L69_1 = "new"
+---@alias C8D17EA0ADD83CA45 main_field_behaviour_scenario_sub_sub_012_Sub_012_reward
 
-function L70_1(A0_2)
+---@class main_field_behaviour_scenario_sub_sub_012_Sub_012_reward : C8D17EA0ADD83CA45_prototype
+---@field prototype C8D17EA0ADD83CA45_prototype
+C8D17EA0ADD83CA45 = L15_1()
+function C8D17EA0ADD83CA45.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C8D17EA0ADD83CA45
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8D17EA0ADD83CA45"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C8D17EA0ADD83CA45
+function C8D17EA0ADD83CA45.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C8D17EA0ADD83CA45"]
 L69_1 = "__name__"
 L70_1 = "C8D17EA0ADD83CA45"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8D17EA0ADD83CA45"]
-L69_1 = "S2DE75F6D2BC86258"
-
-function L70_1()
+--- main.field.behaviour.scenario.sub.sub_012.Sub_012_reward.DrawLottery
+function C8D17EA0ADD83CA45.S2DE75F6D2BC86258()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L0_2 = _hx_tab_array
   L1_2 = {}
@@ -121,11 +112,8 @@ function L70_1()
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8D17EA0ADD83CA45"]
-L69_1 = "SAA5AF58D7FA9AA3F"
-
-function L70_1()
+--- main.field.behaviour.scenario.sub.sub_012.Sub_012_reward.LotteryBall
+function C8D17EA0ADD83CA45.SAA5AF58D7FA9AA3F()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C8D17EA0ADD83CA45
   L0_2 = L0_2.S5E2C96CB96973DE8
@@ -154,11 +142,8 @@ function L70_1()
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8D17EA0ADD83CA45"]
-L69_1 = "S8ABF2F410DBA3A8A"
-
-function L70_1()
+--- main.field.behaviour.scenario.sub.sub_012.Sub_012_reward.LotteryMint
+function C8D17EA0ADD83CA45.S8ABF2F410DBA3A8A()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C8D17EA0ADD83CA45
   L0_2 = L0_2.S5E2C96CB96973DE8
@@ -187,11 +172,8 @@ function L70_1()
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8D17EA0ADD83CA45"]
-L69_1 = "S4ECC478E00341930"
-
-function L70_1()
+--- main.field.behaviour.scenario.sub.sub_012.Sub_012_reward.LotteryTakara
+function C8D17EA0ADD83CA45.S4ECC478E00341930()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C8D17EA0ADD83CA45
   L0_2 = L0_2.S5E2C96CB96973DE8
@@ -220,21 +202,16 @@ function L70_1()
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8D17EA0ADD83CA45"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8D17EA0ADD83CA45"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C8D17EA0ADD83CA45_prototype
+C8D17EA0ADD83CA45_prototype = L15_1()
+C8D17EA0ADD83CA45.prototype = C8D17EA0ADD83CA45_prototype
+--- main.field.behaviour.scenario.sub.sub_012.Sub_012_reward.Setup
+function C8D17EA0ADD83CA45_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C8D17EA0ADD83CA45
@@ -242,20 +219,17 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.f8C8B6BB6
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FC0345553D75921A3
+  L3_2 = self
+  L2_2 = self.FC0345553D75921A3
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8D17EA0ADD83CA45"]["prototype"]
-L69_1 = "FC0345553D75921A3"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.sub.sub_012.Sub_012_reward.loadTable
+function C8D17EA0ADD83CA45_prototype:FC0345553D75921A3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = cF52F390B
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cF52F390B
@@ -265,19 +239,16 @@ function L70_1(A0_2)
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = C8D17EA0ADD83CA45
-    L5_2 = A0_2
-    L4_2 = A0_2.F43FC50202720D80A
+    L5_2 = self
+    L4_2 = self.F43FC50202720D80A
     L6_2 = L1_2
     L4_2 = L4_2(L5_2, L6_2)
     L3_2.SEFB745E7683BC128 = L4_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8D17EA0ADD83CA45"]["prototype"]
-L69_1 = "F43FC50202720D80A"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.sub.sub_012.Sub_012_reward.loadRewardTable
+function C8D17EA0ADD83CA45_prototype:F43FC50202720D80A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = _hx_tab_array
   L3_2 = {}

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C8F6AF0AA89306E73"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C8F6AF0AA89306E73"]
-L69_1 = "new"
+---@alias C8F6AF0AA89306E73 main_field_behaviour_scenario_main_champion_gym_koori_Gym_koori_course_flag
 
-function L70_1(A0_2)
+---@class main_field_behaviour_scenario_main_champion_gym_koori_Gym_koori_course_flag : C8F6AF0AA89306E73_prototype
+---@field prototype C8F6AF0AA89306E73_prototype
+C8F6AF0AA89306E73 = L15_1()
+function C8F6AF0AA89306E73.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C8F6AF0AA89306E73
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F6AF0AA89306E73"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C8F6AF0AA89306E73
+function C8F6AF0AA89306E73.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C86C131E89425706E
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C8F6AF0AA89306E73"]
 L69_1 = "__name__"
 L70_1 = "C8F6AF0AA89306E73"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F6AF0AA89306E73"]
-L69_1 = "S2C00E31A4B070414"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_flag.OnTriggerFunction
+function C8F6AF0AA89306E73.S2C00E31A4B070414(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2
   L6_2 = C86C131E89425706E
   L6_2 = L6_2.S0D9933378C9A0EC5
@@ -75,25 +66,20 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F6AF0AA89306E73"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F6AF0AA89306E73"]["prototype"]
-L69_1 = "F4B8A9042310A3025"
-
-function L70_1(A0_2)
+---@class C8F6AF0AA89306E73_prototype
+C8F6AF0AA89306E73_prototype = L15_1()
+C8F6AF0AA89306E73.prototype = C8F6AF0AA89306E73_prototype
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_flag.OnHit
+function C8F6AF0AA89306E73_prototype:F4B8A9042310A3025()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C86C131E89425706E
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F4B8A9042310A3025
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = cE35B3EB3
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cE35B3EB3
@@ -113,7 +99,7 @@ function L70_1(A0_2)
   end
   L3_2 = cAA7097FF
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = nil
   L5_2 = cAA7097FF
@@ -137,11 +123,11 @@ function L70_1(A0_2)
     L5_2 = L5_2.S264F26F6894F3392
     L6_2 = L5_2
     L5_2 = L5_2.F16938B6A79052623
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L5_2(L6_2, L7_2)
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.FD59E5ED5F9F2AAE3
+  L6_2 = self
+  L5_2 = self.FD59E5ED5F9F2AAE3
   L5_2(L6_2)
 end
 

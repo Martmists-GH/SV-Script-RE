@@ -1,3 +1,7 @@
+---@alias C82CF5D7FFD710ADA main_ui_bag_bag_ui_state_machine_BagUIHaveItemPokeListSelectState
+
+---@class main_ui_bag_bag_ui_state_machine_BagUIHaveItemPokeListSelectState : C82CF5D7FFD710ADA_prototype
+---@field prototype C82CF5D7FFD710ADA_prototype
 L55_1 = _ENV
 L56_1 = "C82CF5D7FFD710ADA"
 L57_1 = L15_1
@@ -47,22 +51,17 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C82CF5D7FFD710ADA"]
 L69_1 = "__name__"
 L70_1 = "C82CF5D7FFD710ADA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C82CF5D7FFD710ADA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C82CF5D7FFD710ADA"]["prototype"]
-L69_1 = "F46013EC08BDF7153"
-
-function L70_1(A0_2)
+---@class C82CF5D7FFD710ADA_prototype
+C82CF5D7FFD710ADA_prototype = L15_1()
+C82CF5D7FFD710ADA.prototype = C82CF5D7FFD710ADA_prototype
+--- main.ui.bag.bag_ui_state_machine.BagUIHaveItemPokeListSelectState.Entry
+function C82CF5D7FFD710ADA_prototype:F46013EC08BDF7153()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C38D93B6EEE09613F
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F46013EC08BDF7153
-  L3_2 = A0_2
+  L3_2 = self
   L2_2(L3_2)
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.fFCE06E04
@@ -95,17 +94,17 @@ function L70_1(A0_2)
   end
   
   L6_2 = L6_2()
-  A0_2[4] = L6_2
-  L7_2 = A0_2
-  L6_2 = A0_2.F29C7432BFDEAE4FC
+  self[4] = L6_2
+  L7_2 = self
+  L6_2 = self.F29C7432BFDEAE4FC
   L6_2(L7_2)
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   if L6_2 then
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L7_2 = L6_2
     L6_2 = L6_2.F700595001C631FE6
     L8_2 = 1
-    L9_2 = A0_2[6]
+    L9_2 = self[6]
     L6_2(L7_2, L8_2, L9_2)
   else
     L6_2 = C1DB14DCC9D7634FA
@@ -137,26 +136,23 @@ function L70_1(A0_2)
     
     L8_2 = "no_have_pokemon_sequence"
     L6_2 = L6_2(L7_2, L8_2)
-    A0_2[5] = L6_2
+    self[5] = L6_2
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.F1C9CF28834043D07
+  L7_2 = self
+  L6_2 = self.F1C9CF28834043D07
   L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C82CF5D7FFD710ADA"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.bag.bag_ui_state_machine.BagUIHaveItemPokeListSelectState.Update
+function C82CF5D7FFD710ADA_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C38D93B6EEE09613F
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FEB6685558281F194
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if L2_2 then
     L2_2 = CD39F1D6E7FAA0284
     L2_2 = L2_2.S385504EFF7E842C3
@@ -181,7 +177,7 @@ function L70_1(A0_2, A1_2)
       L0_3 = L1_3
       goto lbl_18
       ::lbl_13::
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[2]
       L2_3 = L1_3
       L1_3 = L1_3.F199225B411A16F27
@@ -192,17 +188,17 @@ function L70_1(A0_2, A1_2)
     end
     
     L3_2 = L3_2()
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L4_2
     L4_2 = L4_2.FA4BE7D46134A5A61
     L6_2 = L3_2
     L4_2(L5_2, L6_2)
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L4_2
     L4_2 = L4_2.FDFF4E012F2E445D1
     L4_2 = L4_2(L5_2)
     if L4_2 then
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = L4_2
       L4_2 = L4_2.F28EAF3B3AA178E3E
       L6_2 = C2E2666B807BB55E5
@@ -210,12 +206,12 @@ function L70_1(A0_2, A1_2)
       L6_2, L7_2, L8_2, L9_2, L10_2, L11_2 = L6_2()
       L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
     end
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L4_2
     L4_2 = L4_2.F6E9709521FC397C1
     L4_2 = L4_2(L5_2)
     if L4_2 then
-      L4_2 = A0_2[2]
+      L4_2 = self[2]
       L5_2 = L4_2
       L4_2 = L4_2.F700595001C631FE6
       L6_2 = 0
@@ -231,21 +227,21 @@ function L70_1(A0_2, A1_2)
       L4_2(L5_2)
       L4_2 = c69ACCC6F
       L4_2 = L4_2.f3F98EEAD
-      L5_2 = A0_2[3]
+      L5_2 = self[3]
       L4_2 = L4_2(L5_2)
       L5_2 = L4_2
       L4_2 = L4_2.f89358001
       L4_2(L5_2)
-      L4_2 = A0_2[2]
+      L4_2 = self[2]
       L5_2 = L4_2
       L4_2 = L4_2.F50562D3FC3F9FC2C
-      L6_2 = A0_2[2]
+      L6_2 = self[2]
       L6_2 = L6_2[4]
       L7_2 = L6_2
       L6_2 = L6_2.fD1CE535D
       L6_2, L7_2, L8_2, L9_2, L10_2, L11_2 = L6_2(L7_2)
       L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = L4_2
       L4_2 = L4_2.F28EAF3B3AA178E3E
       L6_2 = C6F37A979564BA87B
@@ -254,15 +250,15 @@ function L70_1(A0_2, A1_2)
       L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
     end
   else
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     if nil ~= L2_2 then
       L2_2 = L10_1.coroutine
       L2_2 = L2_2.status
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L3_2 = L3_2[1]
       L2_2 = L2_2(L3_2)
       if "dead" ~= L2_2 then
-        L2_2 = A0_2[5]
+        L2_2 = self[5]
         L3_2 = nil
         L4_2 = L62_1
         L5_2 = L64_1.pack
@@ -311,24 +307,18 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C82CF5D7FFD710ADA"]["prototype"]
-L69_1 = "F2C02645014D5A2A5"
-
-function L70_1(A0_2)
+--- main.ui.bag.bag_ui_state_machine.BagUIHaveItemPokeListSelectState.Exit
+function C82CF5D7FFD710ADA_prototype:F2C02645014D5A2A5()
   local L1_2, L2_2
   L1_2 = C38D93B6EEE09613F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F2C02645014D5A2A5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C82CF5D7FFD710ADA"]["prototype"]
-L69_1 = "F1C9CF28834043D07"
-
-function L70_1(A0_2)
+--- main.ui.bag.bag_ui_state_machine.BagUIHaveItemPokeListSelectState.SetOptionBar
+function C82CF5D7FFD710ADA_prototype:F1C9CF28834043D07()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S5E67FD00348A0A28
@@ -349,11 +339,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C82CF5D7FFD710ADA"]["prototype"]
-L69_1 = "F29C7432BFDEAE4FC"
-
-function L70_1(A0_2)
+--- main.ui.bag.bag_ui_state_machine.BagUIHaveItemPokeListSelectState.DisplayHaveText
+function C82CF5D7FFD710ADA_prototype:F29C7432BFDEAE4FC()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = cC9AD95E7
   L1_2 = L1_2.f101D811F
@@ -364,7 +351,7 @@ function L70_1(A0_2)
   L3_2 = L1_2
   L2_2 = L1_2.fB6B9CC52
   L2_2(L3_2)
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if L2_2 then
     L3_2 = L1_2
     L2_2 = L1_2.f1FFBFCBD
@@ -386,7 +373,7 @@ function L70_1(A0_2)
   end
   L3_2 = L1_2
   L2_2 = L1_2.fC814A67F
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   L4_2 = not L4_2
   L2_2(L3_2, L4_2)
   L3_2 = L1_2
@@ -401,11 +388,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C82CF5D7FFD710ADA"]["prototype"]
-L69_1 = "F229B282C5A7F9736"
-
-function L70_1(A0_2)
+--- main.ui.bag.bag_ui_state_machine.BagUIHaveItemPokeListSelectState.BackItemListState
+function C82CF5D7FFD710ADA_prototype:F229B282C5A7F9736()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S84E00A89DFBC380C
@@ -414,21 +398,21 @@ function L70_1(A0_2)
   L1_2(L2_2)
   L1_2 = c69ACCC6F
   L1_2 = L1_2.f3F98EEAD
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.f89358001
   L1_2(L2_2)
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.F50562D3FC3F9FC2C
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2[4]
   L4_2 = L3_2
   L3_2 = L3_2.fD1CE535D
   L3_2, L4_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.F28EAF3B3AA178E3E
   L3_2 = C6F37A979564BA87B

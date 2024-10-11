@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CFC2DE9C924277A7B"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "new"
+---@alias CFC2DE9C924277A7B main_ui_net_common_message_NetCommonUIMessageWindow
 
-function L70_1(A0_2)
+---@class main_ui_net_common_message_NetCommonUIMessageWindow : CFC2DE9C924277A7B_prototype
+---@field prototype CFC2DE9C924277A7B_prototype
+CFC2DE9C924277A7B = L15_1()
+function CFC2DE9C924277A7B.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CFC2DE9C924277A7B
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CFC2DE9C924277A7B
+function CFC2DE9C924277A7B.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CFC2DE9C924277A7B"]
 L69_1 = "__name__"
 L70_1 = "CFC2DE9C924277A7B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "SC22C2773A68837D3"
-
-function L70_1()
+--- main.ui.net_common.message.NetCommonUIMessageWindow.SceneLoad
+function CFC2DE9C924277A7B.SC22C2773A68837D3()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -93,11 +84,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "S768600CE8B68B7F8"
-
-function L70_1()
+--- main.ui.net_common.message.NetCommonUIMessageWindow.SceneUnLoad
+function CFC2DE9C924277A7B.S768600CE8B68B7F8()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -123,11 +111,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "S835CD4880022DA57"
-
-function L70_1(A0_2)
+--- main.ui.net_common.message.NetCommonUIMessageWindow.SetFadeAnime
+function CFC2DE9C924277A7B.S835CD4880022DA57(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -154,11 +139,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "S32746082E4D743AB"
-
-function L70_1(A0_2)
+--- main.ui.net_common.message.NetCommonUIMessageWindow.SetCursorPaneVisible
+function CFC2DE9C924277A7B.S32746082E4D743AB(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -196,11 +178,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "S7158A1081C493F7D"
-
-function L70_1()
+--- main.ui.net_common.message.NetCommonUIMessageWindow.IsCursorPaneVisible
+function CFC2DE9C924277A7B.S7158A1081C493F7D()
   local L0_2, L1_2, L2_2
   L0_2 = CFC2DE9C924277A7B
   L0_2 = L0_2.SEE2A2CBA4F67ACCF
@@ -217,11 +196,8 @@ function L70_1()
   return L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "S24D348BE9FE1E2BB"
-
-function L70_1(A0_2)
+--- main.ui.net_common.message.NetCommonUIMessageWindow.PlayCursorAnime
+function CFC2DE9C924277A7B.S24D348BE9FE1E2BB(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -248,11 +224,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "SA6A3644F2DAF8B90"
-
-function L70_1(A0_2)
+--- main.ui.net_common.message.NetCommonUIMessageWindow.SetTimerPaneVisible
+function CFC2DE9C924277A7B.SA6A3644F2DAF8B90(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -290,11 +263,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "S2485ED27E93C24B8"
-
-function L70_1(A0_2)
+--- main.ui.net_common.message.NetCommonUIMessageWindow.PlayTimerAnime
+function CFC2DE9C924277A7B.S2485ED27E93C24B8(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -321,11 +291,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "SDEA5E6606749E503"
-
-function L70_1()
+--- main.ui.net_common.message.NetCommonUIMessageWindow.EndSequence
+function CFC2DE9C924277A7B.SDEA5E6606749E503()
   local L0_2, L1_2, L2_2
   L0_2 = CFC2DE9C924277A7B
   L0_2 = L0_2.SEE2A2CBA4F67ACCF
@@ -390,11 +357,8 @@ function L70_1()
   L0_2.SABFFEAC5EAF278A5 = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "SACA945AF33A2375A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_common.message.NetCommonUIMessageWindow.PlayAnimeRequest
+function CFC2DE9C924277A7B.SACA945AF33A2375A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = CFC2DE9C924277A7B
   L2_2 = L2_2.SEE2A2CBA4F67ACCF
@@ -492,11 +456,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "SBD9CBDAEDA6CD51A"
-
-function L70_1(A0_2)
+--- main.ui.net_common.message.NetCommonUIMessageWindow.PushRequest
+function CFC2DE9C924277A7B.SBD9CBDAEDA6CD51A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = C1DB14DCC9D7634FA
@@ -512,11 +473,8 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "SFCB27026FB04B26D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.net_common.message.NetCommonUIMessageWindow.IsEndAnimeVisibleRequest
+function CFC2DE9C924277A7B.SFCB27026FB04B26D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CFC2DE9C924277A7B
   L3_2 = L3_2.SEE2A2CBA4F67ACCF
@@ -547,11 +505,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "S62AE9F72F31760C4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.net_common.message.NetCommonUIMessageWindow.SetText
+function CFC2DE9C924277A7B.S62AE9F72F31760C4(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = true
@@ -573,11 +528,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "S25ECD4857BE8350C"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_common.message.NetCommonUIMessageWindow.SetTextStrBuf
+function CFC2DE9C924277A7B.S25ECD4857BE8350C(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if nil == A1_2 then
     A1_2 = true
@@ -589,11 +541,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "S7FD1C5F2B1DC1304"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_common.message.NetCommonUIMessageWindow.ShowTextRequest
+function CFC2DE9C924277A7B.S7FD1C5F2B1DC1304(A0_2, A1_2)
   local L2_2, L3_2
   L2_2 = CFC2DE9C924277A7B
   L2_2 = L2_2.SBD9CBDAEDA6CD51A
@@ -621,11 +570,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "SB0F602BDA49A1193"
-
-function L70_1()
+--- main.ui.net_common.message.NetCommonUIMessageWindow.IsSceneExists
+function CFC2DE9C924277A7B.SB0F602BDA49A1193()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -636,11 +582,8 @@ function L70_1()
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "SEE2A2CBA4F67ACCF"
-
-function L70_1()
+--- main.ui.net_common.message.NetCommonUIMessageWindow.IsLayoutExists
+function CFC2DE9C924277A7B.SEE2A2CBA4F67ACCF()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -668,11 +611,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "S87C7668643F71AE5"
-
-function L70_1(A0_2)
+--- main.ui.net_common.message.NetCommonUIMessageWindow.SetTextString
+function CFC2DE9C924277A7B.S87C7668643F71AE5(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CFC2DE9C924277A7B
   L1_2 = L1_2.SEE2A2CBA4F67ACCF
@@ -699,31 +639,26 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CFC2DE9C924277A7B_prototype
+CFC2DE9C924277A7B_prototype = L15_1()
+CFC2DE9C924277A7B.prototype = CFC2DE9C924277A7B_prototype
+--- main.ui.net_common.message.NetCommonUIMessageWindow.Setup
+function CFC2DE9C924277A7B_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = CFC2DE9C924277A7B
   L3_2 = cECF00344
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L2_2.S321B56DCAFF9479D = L3_2
   L2_2 = CFC2DE9C924277A7B
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2.S9C02C4EE56C5C78C = L3_2
   L2_2 = CFC2DE9C924277A7B
   L2_2 = L2_2.S321B56DCAFF9479D
@@ -731,8 +666,8 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.f2A9CF058
   L4_2 = true
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F11CDEDD901912D4B
+  L3_2 = self
+  L2_2 = self.F11CDEDD901912D4B
   L2_2(L3_2)
   L2_2 = CFC2DE9C924277A7B
   L2_2 = L2_2.S321B56DCAFF9479D
@@ -750,11 +685,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_common.message.NetCommonUIMessageWindow.PreUpdate
+function CFC2DE9C924277A7B_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = CFC2DE9C924277A7B
   L2_2 = L2_2.SEE2A2CBA4F67ACCF
@@ -762,8 +694,8 @@ function L70_1(A0_2, A1_2)
   if not L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F11CDEDD901912D4B
+  L3_2 = self
+  L2_2 = self.F11CDEDD901912D4B
   L2_2(L3_2)
   L2_2 = CFC2DE9C924277A7B
   L2_2 = L2_2.S055D984AADD915D0
@@ -824,11 +756,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC2DE9C924277A7B"]["prototype"]
-L69_1 = "F11CDEDD901912D4B"
-
-function L70_1(A0_2)
+--- main.ui.net_common.message.NetCommonUIMessageWindow.RequestUpdate
+function CFC2DE9C924277A7B_prototype:F11CDEDD901912D4B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = 0
   L2_2 = CFC2DE9C924277A7B

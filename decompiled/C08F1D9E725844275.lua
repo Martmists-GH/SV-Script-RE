@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C08F1D9E725844275"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C08F1D9E725844275"]
-L69_1 = "new"
+---@alias C08F1D9E725844275 main_field_behaviour_add_pokemon_AddPokemonManager
 
-function L70_1(A0_2)
+---@class main_field_behaviour_add_pokemon_AddPokemonManager : C08F1D9E725844275_prototype
+---@field prototype C08F1D9E725844275_prototype
+C08F1D9E725844275 = L15_1()
+function C08F1D9E725844275.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C08F1D9E725844275
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08F1D9E725844275"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C08F1D9E725844275
+function C08F1D9E725844275.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L47_1.new
   L2_2 = L2_2()
@@ -45,11 +39,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C08F1D9E725844275"]
 L69_1 = "__name__"
 L70_1 = "C08F1D9E725844275"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08F1D9E725844275"]
-L69_1 = "S9C6BD8A5917026B7"
-
-function L70_1(A0_2)
+--- main.field.behaviour.add_pokemon.AddPokemonManager.GetAddPokeData
+function C08F1D9E725844275.S9C6BD8A5917026B7(A0_2)
   local L1_2, L2_2
   L1_2 = C08F1D9E725844275
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -70,11 +61,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08F1D9E725844275"]
-L69_1 = "S1AB37D4C4C86A619"
-
-function L70_1(A0_2)
+--- main.field.behaviour.add_pokemon.AddPokemonManager.GetAddPokePara
+function C08F1D9E725844275.S1AB37D4C4C86A619(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C08F1D9E725844275
   L1_2 = L1_2.S9C6BD8A5917026B7
@@ -140,11 +128,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08F1D9E725844275"]
-L69_1 = "SD7D4F327AA083E42"
-
-function L70_1(A0_2)
+--- main.field.behaviour.add_pokemon.AddPokemonManager.SD7D4F327AA083E42
+function C08F1D9E725844275.SD7D4F327AA083E42(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C08F1D9E725844275
   L1_2 = L1_2.S9C6BD8A5917026B7
@@ -214,22 +199,17 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08F1D9E725844275"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08F1D9E725844275"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C08F1D9E725844275_prototype
+C08F1D9E725844275_prototype = L15_1()
+C08F1D9E725844275.prototype = C08F1D9E725844275_prototype
+--- main.field.behaviour.add_pokemon.AddPokemonManager.Setup
+function C08F1D9E725844275_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C08F1D9E725844275
-  L2_2.SF3075AB31C9E8AF4 = A0_2
+  L2_2.SF3075AB31C9E8AF4 = self
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f287946D6
@@ -244,7 +224,7 @@ function L70_1(A0_2, A1_2)
     L5_2 = L2_2.f51241DA2
     L7_2 = L3_2 - 1
     L5_2 = L5_2(L6_2, L7_2)
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L8_2 = L5_2
     L7_2 = L5_2.f3D9D438D
     L9_2 = "label"
@@ -263,7 +243,7 @@ function L70_1(A0_2, A1_2)
       L10_2[L7_2] = L8_2
     end
   end
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.fBE3B2D3B
   L5_2(L6_2)

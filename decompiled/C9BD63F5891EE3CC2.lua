@@ -1,3 +1,7 @@
+---@alias C9BD63F5891EE3CC2 main_ui_pokedex_view_detail_capture_PokedexUICaptureDetailView
+
+---@class main_ui_pokedex_view_detail_capture_PokedexUICaptureDetailView : C9BD63F5891EE3CC2_prototype
+---@field prototype C9BD63F5891EE3CC2_prototype
 L55_1 = _ENV
 L56_1 = "C9BD63F5891EE3CC2"
 L57_1 = L15_1
@@ -42,75 +46,61 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9BD63F5891EE3CC2"]
 L69_1 = "__name__"
 L70_1 = "C9BD63F5891EE3CC2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9BD63F5891EE3CC2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9BD63F5891EE3CC2"]["prototype"]
-L69_1 = "FDC023C7EB810E65A"
-
-function L70_1(A0_2)
+---@class C9BD63F5891EE3CC2_prototype
+C9BD63F5891EE3CC2_prototype = L15_1()
+C9BD63F5891EE3CC2.prototype = C9BD63F5891EE3CC2_prototype
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureDetailView.get_layoutUtil
+function C9BD63F5891EE3CC2_prototype:FDC023C7EB810E65A()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9BD63F5891EE3CC2"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureDetailView.Setup
+function C9BD63F5891EE3CC2_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C9CC979169E6BA3A6
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "pokedex"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
-  L2_2 = A0_2[3]
+  self[3] = L2_2
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.FF32CC3BE322652A8
   L4_2 = "ptn_layout"
   L5_2 = 0
   L2_2(L3_2, L4_2, L5_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FE93BB4B92826B005
+  L3_2 = self
+  L2_2 = self.FE93BB4B92826B005
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9BD63F5891EE3CC2"]["prototype"]
-L69_1 = "F178E9393F3CF962D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureDetailView.DetailView
+function C9BD63F5891EE3CC2_prototype:F178E9393F3CF962D(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F79A7090BBD9EDA80
+  L4_2 = self
+  L3_2 = self.F79A7090BBD9EDA80
   L5_2 = A1_2
   L6_2 = A2_2
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9BD63F5891EE3CC2"]["prototype"]
-L69_1 = "FE93BB4B92826B005"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureDetailView.SetupText
+function C9BD63F5891EE3CC2_prototype:FE93BB4B92826B005()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fC8CEF9EF
   L2_2 = "pokedex"
   L3_2 = "pokedex_07_00"
   L1_2 = L1_2(L2_2, L3_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.FC8489078C201C47F
   L2_2 = L2_2(L3_2)
@@ -124,7 +114,7 @@ function L70_1(A0_2)
   L3_2 = "pokedex"
   L4_2 = "pokedex_08_00"
   L2_2 = L2_2(L3_2, L4_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.FC8489078C201C47F
   L3_2 = L3_2(L4_2)
@@ -138,7 +128,7 @@ function L70_1(A0_2)
   L4_2 = "pokedex"
   L5_2 = "pokedex_03_01"
   L3_2 = L3_2(L4_2, L5_2)
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.FC8489078C201C47F
   L4_2 = L4_2(L5_2)
@@ -149,11 +139,8 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9BD63F5891EE3CC2"]["prototype"]
-L69_1 = "F79A7090BBD9EDA80"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureDetailView.PokeInfo
+function C9BD63F5891EE3CC2_prototype:F79A7090BBD9EDA80(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2
   L4_2 = A2_2
   L3_2 = A2_2.f0BD5134F
@@ -183,7 +170,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L9_2 = "pokedex_03_00"
   L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2 = L7_2(L8_2, L9_2)
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2)
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L7_2 = L6_2
   L6_2 = L6_2.FC8489078C201C47F
   L6_2 = L6_2(L7_2)
@@ -224,7 +211,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L12_2 = "pokedex_03_04"
   L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2 = L10_2(L11_2, L12_2)
   L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2)
-  L9_2 = A0_2[3]
+  L9_2 = self[3]
   L10_2 = L9_2
   L9_2 = L9_2.FC8489078C201C47F
   L9_2 = L9_2(L10_2)
@@ -346,7 +333,7 @@ function L70_1(A0_2, A1_2, A2_2)
   end
   
   L11_2 = L11_2()
-  L12_2 = A0_2[3]
+  L12_2 = self[3]
   L13_2 = L12_2
   L12_2 = L12_2.FC8489078C201C47F
   L12_2 = L12_2(L13_2)
@@ -355,7 +342,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L14_2 = "T_comment_00"
   L15_2 = L11_2
   L12_2(L13_2, L14_2, L15_2)
-  L12_2 = A0_2[3]
+  L12_2 = self[3]
   L13_2 = L12_2
   L12_2 = L12_2.FA23D39922B76B247
   L14_2 = "T_comment_00"
@@ -413,7 +400,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L15_2 = L15_2 .. L16_2
   L16_2 = L12_2
   L13_2 = L13_2(L14_2, L15_2, L16_2)
-  L14_2 = A0_2[3]
+  L14_2 = self[3]
   L15_2 = L14_2
   L14_2 = L14_2.FC8489078C201C47F
   L14_2 = L14_2(L15_2)
@@ -474,7 +461,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L17_2 = L17_2 .. L18_2
   L18_2 = L14_2
   L15_2 = L15_2(L16_2, L17_2, L18_2)
-  L16_2 = A0_2[3]
+  L16_2 = self[3]
   L17_2 = L16_2
   L16_2 = L16_2.FC8489078C201C47F
   L16_2 = L16_2(L17_2)
@@ -576,7 +563,7 @@ function L70_1(A0_2, A1_2, A2_2)
   end
   
   L18_2 = L18_2()
-  L19_2 = A0_2[3]
+  L19_2 = self[3]
   L20_2 = L19_2
   L19_2 = L19_2.FC8489078C201C47F
   L19_2 = L19_2(L20_2)
@@ -637,7 +624,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L22_2 = L22_2 .. L23_2
   L23_2 = L19_2
   L20_2 = L20_2(L21_2, L22_2, L23_2)
-  L21_2 = A0_2[3]
+  L21_2 = self[3]
   L22_2 = L21_2
   L21_2 = L21_2.FC8489078C201C47F
   L21_2 = L21_2(L22_2)
@@ -646,7 +633,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L23_2 = "T_forme_00"
   L24_2 = L20_2
   L21_2(L22_2, L23_2, L24_2)
-  L21_2 = A0_2[3]
+  L21_2 = self[3]
   L22_2 = L21_2
   L21_2 = L21_2.FA23D39922B76B247
   L23_2 = "P_icon_rare_00"
@@ -670,31 +657,31 @@ function L70_1(A0_2, A1_2, A2_2)
   L24_2 = L24_2.fD0AD22FA
   L24_2, L25_2, L26_2, L27_2, L28_2, L29_2 = L24_2()
   L23_2 = L23_2(L24_2, L25_2, L26_2, L27_2, L28_2, L29_2)
-  L24_2 = A0_2[3]
+  L24_2 = self[3]
   L25_2 = L24_2
   L24_2 = L24_2.FF32CC3BE322652A8
   L26_2 = "L_type_00/lang"
   L27_2 = L23_2
   L24_2(L25_2, L26_2, L27_2)
-  L24_2 = A0_2[3]
+  L24_2 = self[3]
   L25_2 = L24_2
   L24_2 = L24_2.FF32CC3BE322652A8
   L26_2 = "L_type_01/lang"
   L27_2 = L23_2
   L24_2(L25_2, L26_2, L27_2)
-  L24_2 = A0_2[3]
+  L24_2 = self[3]
   L25_2 = L24_2
   L24_2 = L24_2.FF32CC3BE322652A8
   L26_2 = "L_type_00/type"
   L27_2 = L21_2
   L24_2(L25_2, L26_2, L27_2)
-  L24_2 = A0_2[3]
+  L24_2 = self[3]
   L25_2 = L24_2
   L24_2 = L24_2.FF32CC3BE322652A8
   L26_2 = "L_type_01/type"
   L27_2 = L22_2
   L24_2(L25_2, L26_2, L27_2)
-  L24_2 = A0_2[3]
+  L24_2 = self[3]
   L25_2 = L24_2
   L24_2 = L24_2.FA23D39922B76B247
   L26_2 = "L_type_01"
@@ -702,13 +689,10 @@ function L70_1(A0_2, A1_2, A2_2)
   L24_2(L25_2, L26_2, L27_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9BD63F5891EE3CC2"]["prototype"]
-L69_1 = "F94D93144AC810819"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureDetailView.SetVisibleCaptureEntry
+function C9BD63F5891EE3CC2_prototype:F94D93144AC810819(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.FA23D39922B76B247
   L4_2 = "P_grptext_00"

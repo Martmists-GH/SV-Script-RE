@@ -1,3 +1,7 @@
+---@alias C2CC95974B158E510 main_pokepicnic_pokemon_PicnicPokemonParam
+
+---@class main_pokepicnic_pokemon_PicnicPokemonParam : C2CC95974B158E510_prototype
+---@field prototype C2CC95974B158E510_prototype
 L55_1 = _ENV
 L56_1 = "C2CC95974B158E510"
 L57_1 = L15_1
@@ -35,22 +39,17 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2CC95974B158E510"]
 L69_1 = "__name__"
 L70_1 = "C2CC95974B158E510"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2CC95974B158E510"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2CC95974B158E510"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C2CC95974B158E510_prototype
+C2CC95974B158E510_prototype = L15_1()
+C2CC95974B158E510.prototype = C2CC95974B158E510_prototype
+--- main.pokepicnic.pokemon.PicnicPokemonParam.Setup
+function C2CC95974B158E510_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C6A020EA7144B5C09
   L2_2 = L2_2.new
   L2_2 = L2_2()
-  A0_2[1] = L2_2
-  L2_2 = A0_2[1]
+  self[1] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F7C68FEDB79AB6396
   L5_2 = A1_2
@@ -61,8 +60,8 @@ function L70_1(A0_2, A1_2)
   L2_2 = C9B5FE419C45AD8A7
   L2_2 = L2_2.new
   L2_2 = L2_2()
-  A0_2[2] = L2_2
-  L2_2 = A0_2[2]
+  self[2] = L2_2
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.F7C68FEDB79AB6396
   L5_2 = A1_2

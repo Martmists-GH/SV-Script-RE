@@ -1,3 +1,7 @@
+---@alias C69C312A0829D5E3E main_nushi_jimen_a_JimenNushiEvent020Setup_A
+
+---@class main_nushi_jimen_a_JimenNushiEvent020Setup_A : C69C312A0829D5E3E_prototype
+---@field prototype C69C312A0829D5E3E_prototype
 L55_1 = _ENV
 L56_1 = "C69C312A0829D5E3E"
 L57_1 = L15_1
@@ -45,25 +49,20 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C69C312A0829D5E3E"]
 L69_1 = "__name__"
 L70_1 = "C69C312A0829D5E3E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69C312A0829D5E3E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69C312A0829D5E3E"]["prototype"]
-L69_1 = "F903B84488FBFD0BC"
-
-function L70_1(A0_2)
+---@class C69C312A0829D5E3E_prototype
+C69C312A0829D5E3E_prototype = L15_1()
+C69C312A0829D5E3E.prototype = C69C312A0829D5E3E_prototype
+--- main.nushi.jimen.a.JimenNushiEvent020Setup_A.Awake
+function C69C312A0829D5E3E_prototype:F903B84488FBFD0BC()
   local L1_2, L2_2, L3_2
   L1_2 = CD6E40BD5CE9657FC
   L1_2 = L1_2.S149E3C1323E2E20C
   L1_2 = L1_2()
   if L1_2 then
     L1_2 = C69C312A0829D5E3E
-    L1_2.S7D1E199BBD384D72 = A0_2
+    L1_2.S7D1E199BBD384D72 = self
   else
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.fCDCB600D
     L3_2 = true
@@ -71,17 +70,14 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69C312A0829D5E3E"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2)
+--- main.nushi.jimen.a.JimenNushiEvent020Setup_A.Init
+function C69C312A0829D5E3E_prototype:F90BBC6B0190BF053()
   local L1_2, L2_2, L3_2
   L1_2 = CD6E40BD5CE9657FC
   L1_2 = L1_2.S149E3C1323E2E20C
   L1_2 = L1_2()
   if L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.f6754453E
     L3_2 = true

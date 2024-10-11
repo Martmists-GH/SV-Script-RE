@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CFB60EA6EF5BBFD21"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CFB60EA6EF5BBFD21"]
-L69_1 = "new"
+---@alias CFB60EA6EF5BBFD21 main_system_game_event_GameEventTeamCircleDisconnect
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventTeamCircleDisconnect : CFB60EA6EF5BBFD21_prototype
+---@field prototype CFB60EA6EF5BBFD21_prototype
+CFB60EA6EF5BBFD21 = L15_1()
+function CFB60EA6EF5BBFD21.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CFB60EA6EF5BBFD21
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFB60EA6EF5BBFD21"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CFB60EA6EF5BBFD21
+function CFB60EA6EF5BBFD21.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   A0_2[22] = "message/dat/JPN/common/hud_net.dat"
   A0_2[21] = "hud_net"
@@ -51,11 +45,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CFB60EA6EF5BBFD21"]
 L69_1 = "__name__"
 L70_1 = "CFB60EA6EF5BBFD21"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFB60EA6EF5BBFD21"]
-L69_1 = "SFCE091807173F6E9"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventTeamCircleDisconnect.Call
+function CFB60EA6EF5BBFD21.SFCE091807173F6E9(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = L16_1
   L2_2 = {}
@@ -85,11 +76,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFB60EA6EF5BBFD21"]
-L69_1 = "S84BAB7176F93A4B2"
-
-function L70_1()
+--- main.system.game_event.GameEventTeamCircleDisconnect.disconnectRebootWorld
+function CFB60EA6EF5BBFD21.S84BAB7176F93A4B2()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L0_2 = CC9D1BDB320C003DA
   L0_2 = L0_2.S5813078F3F1EA0BF
@@ -332,51 +320,40 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFB60EA6EF5BBFD21"]
-L69_1 = "S3EEBC521ACE6E2CD"
-
-function L70_1()
+--- main.system.game_event.GameEventTeamCircleDisconnect.S3EEBC521ACE6E2CD
+function CFB60EA6EF5BBFD21.S3EEBC521ACE6E2CD()
   local L0_2, L1_2
   L0_2 = CFB60EA6EF5BBFD21
   L0_2.S8562AD96FB157CCC = 4
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFB60EA6EF5BBFD21"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFB60EA6EF5BBFD21"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CFB60EA6EF5BBFD21_prototype
+CFB60EA6EF5BBFD21_prototype = L15_1()
+CFB60EA6EF5BBFD21.prototype = CFB60EA6EF5BBFD21_prototype
+--- main.system.game_event.GameEventTeamCircleDisconnect.onCreate
+function CFB60EA6EF5BBFD21_prototype:FC87C731D11C58354()
   local L1_2, L2_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.f49D44378
-  L2_2 = A0_2[22]
+  L2_2 = self[22]
   L1_2(L2_2)
   L1_2 = CA9F4C26977FB72E1
   L1_2 = L1_2.SB8C07FB7EF5AB1AA
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFB60EA6EF5BBFD21"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventTeamCircleDisconnect.onUpdate
+function CFB60EA6EF5BBFD21_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.f58A93CBE
-  L2_2 = A0_2[22]
+  L2_2 = self[22]
   L1_2 = L1_2(L2_2)
   if false == L1_2 then
     L1_2 = 0
     return L1_2
   end
-  L1_2 = A0_2[20]
+  L1_2 = self[20]
   if true == L1_2 then
     L1_2 = 2
     return L1_2
@@ -392,10 +369,10 @@ function L70_1(A0_2)
     L1_2 = 0
     return L1_2
   end
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2[1]
   if 0 == L1_2 then
-    L2_2 = A0_2[17]
+    L2_2 = self[17]
     L2_2 = L2_2.disconnectType
     L2_2 = L2_2[1]
     if 0 == L2_2 then
@@ -403,13 +380,13 @@ function L70_1(A0_2)
       L4_2 = C1DB14DCC9D7634FA
       L4_2 = L4_2.new
       L5_2 = L55_1
-      L6_2 = A0_2
-      L7_2 = A0_2.F133913A621465B2F
+      L6_2 = self
+      L7_2 = self.F133913A621465B2F
       L5_2 = L5_2(L6_2, L7_2)
       L6_2 = L3_2
       L4_2 = L4_2(L5_2, L6_2)
-      A0_2[19] = L4_2
-      L4_2 = A0_2[19]
+      self[19] = L4_2
+      L4_2 = self[19]
       L5_2 = nil
       L6_2 = L62_1
       L7_2 = L64_1.pack
@@ -453,8 +430,8 @@ function L70_1(A0_2)
         L9_2 = L9_2 .. L10_2
         L7_2(L8_2, L9_2)
       end
-      L8_2 = A0_2
-      L7_2 = A0_2.F88882BC18F0F0011
+      L8_2 = self
+      L7_2 = self.F88882BC18F0F0011
       L9_2 = EA0D5CB7A688EBC4C
       L9_2 = L9_2.MessageWait
       L7_2(L8_2, L9_2)
@@ -463,13 +440,13 @@ function L70_1(A0_2)
       L4_2 = C1DB14DCC9D7634FA
       L4_2 = L4_2.new
       L5_2 = L55_1
-      L6_2 = A0_2
-      L7_2 = A0_2.FC0905D1EBEAEA808
+      L6_2 = self
+      L7_2 = self.FC0905D1EBEAEA808
       L5_2 = L5_2(L6_2, L7_2)
       L6_2 = L3_2
       L4_2 = L4_2(L5_2, L6_2)
-      A0_2[19] = L4_2
-      L4_2 = A0_2[19]
+      self[19] = L4_2
+      L4_2 = self[19]
       L5_2 = nil
       L6_2 = L62_1
       L7_2 = L64_1.pack
@@ -513,8 +490,8 @@ function L70_1(A0_2)
         L9_2 = L9_2 .. L10_2
         L7_2(L8_2, L9_2)
       end
-      L8_2 = A0_2
-      L7_2 = A0_2.F88882BC18F0F0011
+      L8_2 = self
+      L7_2 = self.F88882BC18F0F0011
       L9_2 = EA0D5CB7A688EBC4C
       L9_2 = L9_2.MessageWait
       L7_2(L8_2, L9_2)
@@ -522,7 +499,7 @@ function L70_1(A0_2)
   elseif 1 == L1_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[19]
+    L3_2 = self[19]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" == L2_2 then
@@ -531,7 +508,7 @@ function L70_1(A0_2)
     elseif "normal" == L2_2 then
     elseif "running" == L2_2 then
     elseif "suspended" == L2_2 then
-      L3_2 = A0_2[19]
+      L3_2 = self[19]
       L4_2 = nil
       L5_2 = L62_1
       L6_2 = L64_1.pack
@@ -581,28 +558,19 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFB60EA6EF5BBFD21"]["prototype"]
-L69_1 = "F88882BC18F0F0011"
-
-function L70_1(A0_2, A1_2)
-  A0_2[18] = A1_2
+--- main.system.game_event.GameEventTeamCircleDisconnect.SetRoutine
+function CFB60EA6EF5BBFD21_prototype:F88882BC18F0F0011(A1_2)
+  self[18] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFB60EA6EF5BBFD21"]["prototype"]
-L69_1 = "F7D11DCE54B8B31A0"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventTeamCircleDisconnect.SetAbortRequest
+function CFB60EA6EF5BBFD21_prototype:F7D11DCE54B8B31A0()
   local L1_2
-  A0_2[20] = true
+  self[20] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFB60EA6EF5BBFD21"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventTeamCircleDisconnect.onFinished
+function CFB60EA6EF5BBFD21_prototype:F68499476069C0B1E()
   local L1_2
   L1_2 = CFB60EA6EF5BBFD21
   L1_2.S8562AD96FB157CCC = -1
@@ -614,11 +582,8 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFB60EA6EF5BBFD21"]["prototype"]
-L69_1 = "FC0905D1EBEAEA808"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventTeamCircleDisconnect.FC0905D1EBEAEA808
+function CFB60EA6EF5BBFD21_prototype:FC0905D1EBEAEA808()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C8459054F689D29BC
   L1_2 = L1_2.S74A0B0E2F2D208EF
@@ -635,7 +600,7 @@ function L70_1(A0_2)
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = ""
   L4_2 = "hud_net_team_circle_message00"
-  L5_2 = A0_2[21]
+  L5_2 = self[21]
   L6_2 = 3
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = C8459054F689D29BC
@@ -651,11 +616,8 @@ function L70_1(A0_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFB60EA6EF5BBFD21"]["prototype"]
-L69_1 = "F133913A621465B2F"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventTeamCircleDisconnect.F133913A621465B2F
+function CFB60EA6EF5BBFD21_prototype:F133913A621465B2F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CD635EC376A258FDD
   L1_2 = L1_2.SE3378E3279BB7D66
@@ -669,7 +631,7 @@ function L70_1(A0_2)
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = ""
   L4_2 = "hud_net_confirmation_message00"
-  L5_2 = A0_2[21]
+  L5_2 = self[21]
   L6_2 = 3
   L2_2(L3_2, L4_2, L5_2, L6_2)
   if L1_2 then

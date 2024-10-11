@@ -1,3 +1,7 @@
+---@alias C8ACAB0CF52706E27 main_ui_pokedex_view_detail_capture_PokedexUICaptureSequence
+
+---@class main_ui_pokedex_view_detail_capture_PokedexUICaptureSequence : C8ACAB0CF52706E27_prototype
+---@field prototype C8ACAB0CF52706E27_prototype
 L55_1 = _ENV
 L56_1 = "C2C7B39AC5054DC1F"
 L57_1 = L15_1
@@ -33,11 +37,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2C7B39AC5054DC1F"]
 L69_1 = "__name__"
 L70_1 = "C2C7B39AC5054DC1F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C7B39AC5054DC1F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C8ACAB0CF52706E27_prototype
+C8ACAB0CF52706E27_prototype = L15_1()
+C8ACAB0CF52706E27.prototype = C8ACAB0CF52706E27_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2C7B39AC5054DC1F"]["prototype"]
 L69_1 = _ENV["C2C7B39AC5054DC1F"]

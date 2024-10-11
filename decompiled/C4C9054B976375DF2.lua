@@ -1,3 +1,7 @@
+---@alias C4C9054B976375DF2 main_ui_btlspot_net_BattleSpotNetData
+
+---@class main_ui_btlspot_net_BattleSpotNetData : C4C9054B976375DF2_prototype
+---@field prototype C4C9054B976375DF2_prototype
 L55_1 = _ENV
 L56_1 = "C4C9054B976375DF2"
 L57_1 = L15_1
@@ -36,16 +40,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4C9054B976375DF2"]
 L69_1 = "__name__"
 L70_1 = "C4C9054B976375DF2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C9054B976375DF2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C9054B976375DF2"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2)
+---@class C4C9054B976375DF2_prototype
+C4C9054B976375DF2_prototype = L15_1()
+C4C9054B976375DF2.prototype = C4C9054B976375DF2_prototype
+--- main.ui.btlspot.net.BattleSpotNetData.Init
+function C4C9054B976375DF2_prototype:F90BBC6B0190BF053()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = cBD14C444
   L1_2 = L1_2.f5B6373D5
@@ -56,29 +55,26 @@ function L70_1(A0_2)
   L4_2 = L19_1
   L2_2, L3_2, L4_2 = L2_2(L3_2, L4_2)
   L1_2 = L1_2(L2_2, L3_2, L4_2)
-  A0_2[1] = L1_2
+  self[1] = L1_2
   L1_2 = nil
   L2_2 = cBD14C444
   L2_2 = L2_2.f2DCF715D
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C9054B976375DF2"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetData.Update
+function C4C9054B976375DF2_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = cC5DFE716
   L2_2 = L2_2.f8FF4B341
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f122A6743
     L2_2(L3_2)
@@ -86,34 +82,28 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = c937B6144
   L3_2 = L3_2.f1DE68FCC
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.f122A6743
     L3_2(L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C9054B976375DF2"]["prototype"]
-L69_1 = "F2CB7223B6F52CF09"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetData.F2CB7223B6F52CF09
+function C4C9054B976375DF2_prototype:F2CB7223B6F52CF09()
   local L1_2
   L1_2 = cC5DFE716
   L1_2 = L1_2.f5B6373D5
   L1_2 = L1_2()
-  A0_2[2] = L1_2
+  self[2] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C9054B976375DF2"]["prototype"]
-L69_1 = "FF42557CDC366CDBA"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.net.BattleSpotNetData.CreateBattleReporter
+function C4C9054B976375DF2_prototype:FF42557CDC366CDBA(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = c937B6144
   L2_2 = L2_2.f5B6373D5
@@ -122,26 +112,23 @@ function L70_1(A0_2, A1_2)
   L4_2 = A1_2
   L3_2, L4_2 = L3_2(L4_2)
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C9054B976375DF2"]["prototype"]
-L69_1 = "F9C6D33E1F00D490A"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.btlspot.net.BattleSpotNetData.F9C6D33E1F00D490A
+function C4C9054B976375DF2_prototype:F9C6D33E1F00D490A(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = nil
   L4_2 = cBD14C444
   L4_2 = L4_2.f2DCF715D
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
     L4_2 = nil
     return L4_2
   else
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.f3DB13DAC
     L6_2 = A1_2

@@ -1,3 +1,7 @@
+---@alias C4A9057A3AC29B634 main_nushi_NushiJitterMotion
+
+---@class main_nushi_NushiJitterMotion : C4A9057A3AC29B634_prototype
+---@field prototype C4A9057A3AC29B634_prototype
 L55_1 = _ENV
 L56_1 = "CD357FF376A31683F"
 L57_1 = L15_1
@@ -51,11 +55,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD357FF376A31683F"]
 L69_1 = "__name__"
 L70_1 = "CD357FF376A31683F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD357FF376A31683F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C4A9057A3AC29B634_prototype
+C4A9057A3AC29B634_prototype = L15_1()
+C4A9057A3AC29B634.prototype = C4A9057A3AC29B634_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD357FF376A31683F"]["prototype"]
 L69_1 = _ENV["CD357FF376A31683F"]

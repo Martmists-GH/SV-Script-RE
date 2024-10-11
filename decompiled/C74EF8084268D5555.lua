@@ -1,3 +1,7 @@
+---@alias C74EF8084268D5555 main_playables_network_module_NetPlayerAudioModule
+
+---@class main_playables_network_module_NetPlayerAudioModule : C74EF8084268D5555_prototype
+---@field prototype C74EF8084268D5555_prototype
 L55_1 = _ENV
 L56_1 = "C74EF8084268D5555"
 L57_1 = L15_1
@@ -57,18 +61,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C74EF8084268D5555"]
 L69_1 = "__name__"
 L70_1 = "C74EF8084268D5555"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74EF8084268D5555"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74EF8084268D5555"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2)
+---@class C74EF8084268D5555_prototype
+C74EF8084268D5555_prototype = L15_1()
+C74EF8084268D5555.prototype = C74EF8084268D5555_prototype
+--- main.playables.network.module.NetPlayerAudioModule.Setup
+function C74EF8084268D5555_prototype:F7C68FEDB79AB6396()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f7360ED03
   L1_2, L2_2, L3_2 = L1_2(L2_2)
@@ -79,45 +78,45 @@ function L70_1(A0_2)
   L4_2[1] = L5_2
   L4_2[2] = L6_2
   L4_2[3] = L7_2
-  A0_2[7] = L4_2
+  self[7] = L4_2
   L4_2 = nil
   L5_2 = c09ADBEA6
   L5_2 = L5_2.fCB8C01A0
-  L6_2 = A0_2[6]
+  L6_2 = self[6]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
     L5_2 = c09ADBEA6
     L5_2 = L5_2.fB41FD22F
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L5_2 = L5_2(L6_2)
-    A0_2[6] = L5_2
+    self[6] = L5_2
   end
   L5_2 = nil
   L6_2 = cAA7097FF
   L6_2 = L6_2.f64102291
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
   if L6_2 then
     L6_2 = cAA7097FF
     L6_2 = L6_2.fB41FD22F
-    L7_2 = A0_2[2]
+    L7_2 = self[2]
     L6_2 = L6_2(L7_2)
-    A0_2[4] = L6_2
+    self[4] = L6_2
     L6_2 = nil
     L7_2 = cAA7097FF
     L7_2 = L7_2.fBD747484
-    L8_2 = A0_2[4]
+    L8_2 = self[4]
     L9_2 = L6_2
     L7_2 = L7_2(L8_2, L9_2)
     if L7_2 then
-      L7_2 = A0_2[4]
+      L7_2 = self[4]
       L8_2 = L7_2
       L7_2 = L7_2.fD683E697
       L9_2 = "Player/NetPlayer"
       L7_2(L8_2, L9_2)
-      L7_2 = A0_2[4]
+      L7_2 = self[4]
       L8_2 = L7_2
       L7_2 = L7_2.fFAD92763
       L9_2 = "VIB_NETWORK"
@@ -129,28 +128,28 @@ function L70_1(A0_2)
   L6_2 = nil
   L7_2 = c016374C1
   L7_2 = L7_2.f4555D276
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L6_2
   L7_2 = L7_2(L8_2, L9_2)
   if L7_2 then
     L7_2 = cB8F92879
     L7_2 = L7_2.f2197FF94
-    L8_2 = A0_2[8]
+    L8_2 = self[8]
     L7_2 = L7_2(L8_2)
-    A0_2[3] = L7_2
+    self[3] = L7_2
   end
   L7_2 = nil
   L8_2 = nil
   L9_2 = c016374C1
   L9_2 = L9_2.f8C7D4F4D
-  L10_2 = A0_2[3]
+  L10_2 = self[3]
   L11_2 = L8_2
   L9_2 = L9_2(L10_2, L11_2)
   if L9_2 then
     L9_2 = nil
     L10_2 = cAA7097FF
     L10_2 = L10_2.f64102291
-    L11_2 = A0_2[5]
+    L11_2 = self[5]
     L12_2 = L9_2
     L10_2 = L10_2(L11_2, L12_2)
     L7_2 = L10_2
@@ -160,22 +159,22 @@ function L70_1(A0_2)
   if L7_2 then
     L9_2 = cAA7097FF
     L9_2 = L9_2.fB41FD22F
-    L10_2 = A0_2[3]
+    L10_2 = self[3]
     L9_2 = L9_2(L10_2)
-    A0_2[5] = L9_2
+    self[5] = L9_2
     L9_2 = nil
     L10_2 = cAA7097FF
     L10_2 = L10_2.fBD747484
-    L11_2 = A0_2[5]
+    L11_2 = self[5]
     L12_2 = L9_2
     L10_2 = L10_2(L11_2, L12_2)
     if L10_2 then
-      L10_2 = A0_2[5]
+      L10_2 = self[5]
       L11_2 = L10_2
       L10_2 = L10_2.fD683E697
       L12_2 = "Player/NetPlayer"
       L10_2(L11_2, L12_2)
-      L10_2 = A0_2[5]
+      L10_2 = self[5]
       L11_2 = L10_2
       L10_2 = L10_2.fFAD92763
       L12_2 = "VIB_NETWORK"
@@ -186,7 +185,7 @@ function L70_1(A0_2)
       L10_2 = L10_2.fB4A97AE8
       L11_2 = cB8F92879
       L11_2 = L11_2.fD668567B
-      L12_2 = A0_2[2]
+      L12_2 = self[2]
       L11_2, L12_2, L13_2, L14_2, L15_2, L16_2 = L11_2(L12_2)
       L10_2 = L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
       L11_2 = nil
@@ -201,14 +200,14 @@ function L70_1(A0_2)
         L13_2 = L10_2
         L12_2 = L12_2(L13_2)
         if 50 == L12_2 then
-          L13_2 = A0_2[5]
+          L13_2 = self[5]
           L14_2 = L13_2
           L13_2 = L13_2.f46807668
           L15_2 = "RIDE_VERSION"
           L16_2 = "PAST"
           L13_2(L14_2, L15_2, L16_2)
         elseif 51 == L12_2 then
-          L13_2 = A0_2[5]
+          L13_2 = self[5]
           L14_2 = L13_2
           L13_2 = L13_2.f46807668
           L15_2 = "RIDE_VERSION"
@@ -223,14 +222,14 @@ function L70_1(A0_2)
   L11_2 = nil
   L12_2 = c09ADBEA6
   L12_2 = L12_2.f61B99B27
-  L13_2 = A0_2[6]
+  L13_2 = self[6]
   L14_2 = L11_2
   L12_2 = L12_2(L13_2, L14_2)
   if L12_2 then
     L12_2 = nil
     L13_2 = cAA7097FF
     L13_2 = L13_2.fBD747484
-    L14_2 = A0_2[4]
+    L14_2 = self[4]
     L15_2 = L12_2
     L13_2 = L13_2(L14_2, L15_2)
     L10_2 = L13_2
@@ -241,31 +240,28 @@ function L70_1(A0_2)
     L12_2 = nil
     L13_2 = cAA7097FF
     L13_2 = L13_2.fBD747484
-    L14_2 = A0_2[5]
+    L14_2 = self[5]
     L15_2 = L12_2
     L13_2 = L13_2(L14_2, L15_2)
     L9_2 = L13_2
   else
     L9_2 = false
   end
-  A0_2[9] = L9_2
+  self[9] = L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74EF8084268D5555"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.network.module.NetPlayerAudioModule.Update
+function C74EF8084268D5555_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   if false == L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F7C68FEDB79AB6396
+    L3_2 = self
+    L2_2 = self.F7C68FEDB79AB6396
     L2_2(L3_2)
     return
   end
-  L2_2 = A0_2[7]
-  L3_2 = A0_2[2]
+  L2_2 = self[7]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.f7360ED03
   L3_2, L4_2, L5_2 = L3_2(L4_2)
@@ -280,7 +276,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
   L6_2 = L6_2 / A1_2
   L7_2 = L6_2
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = L8_2
   L8_2 = L8_2.FF55DE12AD589DB08
   L8_2 = L8_2(L9_2)
@@ -309,21 +305,21 @@ function L70_1(A0_2, A1_2)
     L8_2 = L8_2(L9_2, L10_2, L11_2)
     L7_2 = L8_2
   end
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L9_2 = L8_2
   L8_2 = L8_2.fFAD92763
   L10_2 = "CHARA_VELOCITY"
   L11_2 = L7_2
   L12_2 = 0
   L8_2(L9_2, L10_2, L11_2, L12_2)
-  L8_2 = A0_2[4]
+  L8_2 = self[4]
   L9_2 = L8_2
   L8_2 = L8_2.fFAD92763
   L10_2 = "CHARA_VELOCITY"
   L11_2 = L7_2
   L12_2 = 0
   L8_2(L9_2, L10_2, L11_2, L12_2)
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L9_2 = L8_2
   L8_2 = L8_2.f7360ED03
   L8_2, L9_2, L10_2 = L8_2(L9_2)
@@ -334,13 +330,13 @@ function L70_1(A0_2, A1_2)
   L11_2[1] = L12_2
   L11_2[2] = L13_2
   L11_2[3] = L14_2
-  A0_2[7] = L11_2
-  L11_2 = A0_2[6]
+  self[7] = L11_2
+  L11_2 = self[6]
   L12_2 = L11_2
   L11_2 = L11_2.f4B814EA7
   L11_2 = L11_2(L12_2)
   if L11_2 then
-    L11_2 = A0_2[6]
+    L11_2 = self[6]
     L12_2 = L11_2
     L11_2 = L11_2.f4364264B
     L11_2 = L11_2(L12_2)
@@ -348,14 +344,14 @@ function L70_1(A0_2, A1_2)
     L11_2 = L11_2.f08B84075
     L13_2 = "SoundTag"
     L11_2 = L11_2(L12_2, L13_2)
-    L12_2 = A0_2[6]
+    L12_2 = self[6]
     L13_2 = L12_2
     L12_2 = L12_2.f2A1A9093
     L12_2 = L12_2(L13_2)
     if L12_2 then
       L12_2 = L10_1.select
       L13_2 = 2
-      L14_2 = A0_2[6]
+      L14_2 = self[6]
       L15_2 = L14_2
       L14_2 = L14_2.f632A2310
       L14_2 = L14_2(L15_2)
@@ -365,7 +361,7 @@ function L70_1(A0_2, A1_2)
       L12_2 = L12_2(L13_2, L14_2, L15_2, L16_2)
       L13_2 = L10_1.select
       L14_2 = 2
-      L15_2 = A0_2[6]
+      L15_2 = self[6]
       L16_2 = L15_2
       L15_2 = L15_2.fC666E86A
       L15_2 = L15_2(L16_2)
@@ -374,7 +370,7 @@ function L70_1(A0_2, A1_2)
       L15_2, L16_2 = L15_2(L16_2)
       L13_2 = L13_2(L14_2, L15_2, L16_2)
       if L12_2 > L13_2 then
-        L12_2 = A0_2[6]
+        L12_2 = self[6]
         L13_2 = L12_2
         L12_2 = L12_2.f051A376C
         L12_2 = L12_2(L13_2)
@@ -386,13 +382,13 @@ function L70_1(A0_2, A1_2)
       end
     end
     if "" ~= L11_2 then
-      L12_2 = A0_2[5]
+      L12_2 = self[5]
       L13_2 = L12_2
       L12_2 = L12_2.f46807668
       L14_2 = "Materials"
       L15_2 = L11_2
       L12_2(L13_2, L14_2, L15_2)
-      L12_2 = A0_2[4]
+      L12_2 = self[4]
       L13_2 = L12_2
       L12_2 = L12_2.f46807668
       L14_2 = "Materials"
@@ -402,21 +398,18 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74EF8084268D5555"]["prototype"]
-L69_1 = "FA94761ADE61A1854"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.network.module.NetPlayerAudioModule.SetRideProgression
+function C74EF8084268D5555_prototype:FA94761ADE61A1854(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = nil
   L3_2 = cAA7097FF
   L3_2 = L3_2.fBD747484
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = A1_2
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L5_2 = L4_2
     L4_2 = L4_2.fFAD92763
     L6_2 = "RIDE_PROGRESSION"
@@ -441,20 +434,17 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74EF8084268D5555"]["prototype"]
-L69_1 = "FDDCF2C31DADBAB65"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.network.module.NetPlayerAudioModule.PostEvent
+function C74EF8084268D5555_prototype:FDDCF2C31DADBAB65(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = nil
   L3_2 = cAA7097FF
   L3_2 = L3_2.fBD747484
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.fB0CA2B80
     L5_2 = A1_2
@@ -463,26 +453,23 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74EF8084268D5555"]["prototype"]
-L69_1 = "F2206338A73CAD3F3"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.playables.network.module.NetPlayerAudioModule.SetSwitch
+function C74EF8084268D5555_prototype:F2206338A73CAD3F3(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   L4_2 = c016374C1
   L4_2 = L4_2.f4555D276
   L5_2 = A1_2
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
     L4_2 = nil
     L5_2 = cAA7097FF
     L5_2 = L5_2.fBD747484
-    L6_2 = A0_2[4]
+    L6_2 = self[4]
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
     if L5_2 then
-      L5_2 = A0_2[4]
+      L5_2 = self[4]
       L6_2 = L5_2
       L5_2 = L5_2.f46807668
       L7_2 = A2_2
@@ -493,17 +480,17 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L4_2 = c016374C1
     L4_2 = L4_2.f4555D276
     L5_2 = A1_2
-    L6_2 = A0_2[3]
+    L6_2 = self[3]
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
       L4_2 = nil
       L5_2 = cAA7097FF
       L5_2 = L5_2.fBD747484
-      L6_2 = A0_2[5]
+      L6_2 = self[5]
       L7_2 = L4_2
       L5_2 = L5_2(L6_2, L7_2)
       if L5_2 then
-        L5_2 = A0_2[5]
+        L5_2 = self[5]
         L6_2 = L5_2
         L5_2 = L5_2.f46807668
         L7_2 = A2_2

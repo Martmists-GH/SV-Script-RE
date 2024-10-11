@@ -1,3 +1,5 @@
+---@class C55BBF2D65814CA68 : C55BBF2D65814CA68_prototype
+---@field prototype C55BBF2D65814CA68_prototype
 L55_1 = _ENV
 L56_1 = "C55BBF2D65814CA68"
 L57_1 = L15_1
@@ -51,53 +53,48 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C55BBF2D65814CA68"]
 L69_1 = "__name__"
 L70_1 = "C55BBF2D65814CA68"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55BBF2D65814CA68"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55BBF2D65814CA68"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2, A1_2)
+---@class C55BBF2D65814CA68_prototype
+C55BBF2D65814CA68_prototype = L15_1()
+C55BBF2D65814CA68.prototype = C55BBF2D65814CA68_prototype
+--- C55BBF2D65814CA68.Load
+function C55BBF2D65814CA68_prototype:F6C5D0398122A6629(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "GlideTurnCameraFactor"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "IdlingIntervalMin"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "IdlingIntervalMax"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "ImpactAngle"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "FrontLegDistance"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[6] = L2_2
+  self[6] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "RearLegDistance"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[7] = L2_2
+  self[7] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "RollbackDepth"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[12] = L2_2
-  L2_2 = A0_2[13]
+  self[12] = L2_2
+  L2_2 = self[13]
   L3_2 = L2_2
   L2_2 = L2_2.F6C5D0398122A6629
   L5_2 = A1_2
@@ -105,7 +102,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = "ChangeOffset_A"
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   L3_2 = L2_2
   L2_2 = L2_2.F6C5D0398122A6629
   L5_2 = A1_2

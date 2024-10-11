@@ -1,3 +1,7 @@
+---@alias C8B7AB7793AA4D479 main_field_behaviour_scenario_main_legend_Derubiru
+
+---@class main_field_behaviour_scenario_main_legend_Derubiru : C8B7AB7793AA4D479_prototype
+---@field prototype C8B7AB7793AA4D479_prototype
 L55_1 = _ENV
 L56_1 = "C8B7AB7793AA4D479"
 L57_1 = L15_1
@@ -42,16 +46,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C8B7AB7793AA4D479"]
 L69_1 = "__name__"
 L70_1 = "C8B7AB7793AA4D479"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B7AB7793AA4D479"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B7AB7793AA4D479"]["prototype"]
-L69_1 = "FBDA175393973D042"
-
-function L70_1(A0_2)
+---@class C8B7AB7793AA4D479_prototype
+C8B7AB7793AA4D479_prototype = L15_1()
+C8B7AB7793AA4D479.prototype = C8B7AB7793AA4D479_prototype
+--- main.field.behaviour.scenario.main.legend.Derubiru.GetBehaviourType
+function C8B7AB7793AA4D479_prototype:FBDA175393973D042()
   local L1_2
   L1_2 = 13
   return L1_2

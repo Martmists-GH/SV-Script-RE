@@ -1,3 +1,7 @@
+---@alias C617BB7AA69B69A6A main_ui_box_wallpaper_BoxWallpaperScene
+
+---@class main_ui_box_wallpaper_BoxWallpaperScene : C617BB7AA69B69A6A_prototype
+---@field prototype C617BB7AA69B69A6A_prototype
 L55_1 = _ENV
 L56_1 = "C617BB7AA69B69A6A"
 L57_1 = L15_1
@@ -41,50 +45,39 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C617BB7AA69B69A6A"]
 L69_1 = "__name__"
 L70_1 = "C617BB7AA69B69A6A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C617BB7AA69B69A6A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C617BB7AA69B69A6A"]["prototype"]
-L69_1 = "FB68CFA277DC5D2A5"
-
-function L70_1(A0_2)
+---@class C617BB7AA69B69A6A_prototype
+C617BB7AA69B69A6A_prototype = L15_1()
+C617BB7AA69B69A6A.prototype = C617BB7AA69B69A6A_prototype
+--- main.ui.box.wallpaper.BoxWallpaperScene.OpenUIScene
+function C617BB7AA69B69A6A_prototype:FB68CFA277DC5D2A5()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F052BEB8F702E7A17
+  L2_2 = self
+  L1_2 = self.F052BEB8F702E7A17
   L3_2 = "box_wallpaper"
   L1_2(L2_2, L3_2)
-  A0_2[8] = 0
-  A0_2[5] = false
+  self[8] = 0
+  self[5] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C617BB7AA69B69A6A"]["prototype"]
-L69_1 = "F2DE9671B72D6D27F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.box.wallpaper.BoxWallpaperScene.RegisterOnUIEndCallBack
+function C617BB7AA69B69A6A_prototype:F2DE9671B72D6D27F(A1_2)
   local L2_2, L3_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F9AB763D714984198 = L2_2
+  self.F9AB763D714984198 = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C617BB7AA69B69A6A"]["prototype"]
-L69_1 = "F3592B2A02150A47F"
-
-function L70_1(A0_2)
+--- main.ui.box.wallpaper.BoxWallpaperScene.SceneUpdateProcess
+function C617BB7AA69B69A6A_prototype:F3592B2A02150A47F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   if 0 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FC84A0D4D8CE89C7E
+    L3_2 = self
+    L2_2 = self.FC84A0D4D8CE89C7E
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[3]
+      L2_2 = self[3]
       L3_2 = L2_2
       L2_2 = L2_2.fD4E64AB7
       L4_2 = "box_wallpaper_ui"
@@ -109,8 +102,8 @@ function L70_1(A0_2)
       if L5_2 == L6_2 then
         L5_2 = nil
       end
-      A0_2[7] = L5_2
-      L6_2 = A0_2[3]
+      self[7] = L5_2
+      L6_2 = self[3]
       L7_2 = L6_2
       L6_2 = L6_2.fD4E64AB7
       L8_2 = "view_box_wallpaper"
@@ -135,52 +128,52 @@ function L70_1(A0_2)
       if L9_2 == L10_2 then
         L9_2 = nil
       end
-      A0_2[6] = L9_2
-      A0_2[8] = 1
+      self[6] = L9_2
+      self[8] = 1
     end
   elseif 1 == L1_2 then
-    L2_2 = A0_2[9]
+    L2_2 = self[9]
     if L2_2 then
-      A0_2[8] = 2
-      A0_2[5] = false
+      self[8] = 2
+      self[5] = false
     end
   elseif 2 == L1_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L3_2 = L2_2
     L2_2 = L2_2.F99B39449ADCB11E7
-    L4_2 = A0_2[11]
+    L4_2 = self[11]
     L2_2(L3_2, L4_2)
-    L2_2 = A0_2[10]
+    L2_2 = self[10]
     if L2_2 then
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       L3_2 = L2_2
       L2_2 = L2_2.F509A6A442B8D4302
       L2_2(L3_2)
-      A0_2[10] = false
+      self[10] = false
     else
-      L2_2 = A0_2[6]
+      L2_2 = self[6]
       L3_2 = L2_2
       L2_2 = L2_2.F51FA9E1C39CFB395
       L2_2(L3_2)
     end
-    A0_2[8] = 3
+    self[8] = 3
   elseif 3 == L1_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L3_2 = L2_2
     L2_2 = L2_2.FA794CBDA3B138BAF
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      A0_2[8] = 4
+      self[8] = 4
     end
   elseif 4 == L1_2 then
-    A0_2[9] = false
-    A0_2[5] = true
-    A0_2[8] = 1
-    L2_2 = A0_2.F9AB763D714984198
+    self[9] = false
+    self[5] = true
+    self[8] = 1
+    L2_2 = self.F9AB763D714984198
     if nil ~= L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F9AB763D714984198
-      L4_2 = A0_2[6]
+      L3_2 = self
+      L2_2 = self.F9AB763D714984198
+      L4_2 = self[6]
       L5_2 = L4_2
       L4_2 = L4_2.FC83E2B62CB4DB0CC
       L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L4_2(L5_2)
@@ -188,21 +181,18 @@ function L70_1(A0_2)
     end
   else
     if 5 == L1_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FD7D37C5A967ABE41
+      L3_2 = self
+      L2_2 = self.FD7D37C5A967ABE41
       L2_2(L3_2)
     else
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C617BB7AA69B69A6A"]["prototype"]
-L69_1 = "F771FD5A908C503EB"
-
-function L70_1(A0_2, A1_2)
-  A0_2[9] = true
-  A0_2[11] = A1_2
+--- main.ui.box.wallpaper.BoxWallpaperScene.WallpaperStart
+function C617BB7AA69B69A6A_prototype:F771FD5A908C503EB(A1_2)
+  self[9] = true
+  self[11] = A1_2
 end
 
 L68_1[L69_1] = L70_1

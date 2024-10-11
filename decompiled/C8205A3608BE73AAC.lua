@@ -1,3 +1,7 @@
+---@alias C8205A3608BE73AAC main_pokepicnic_database_IngCommonParam
+
+---@class main_pokepicnic_database_IngCommonParam : C8205A3608BE73AAC_prototype
+---@field prototype C8205A3608BE73AAC_prototype
 L55_1 = _ENV
 L56_1 = "C8205A3608BE73AAC"
 L57_1 = L15_1
@@ -47,28 +51,23 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8205A3608BE73AAC"]
 L69_1 = "__name__"
 L70_1 = "C8205A3608BE73AAC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8205A3608BE73AAC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8205A3608BE73AAC"]["prototype"]
-L69_1 = "F96B4914039B0D517"
-
-function L70_1(A0_2, A1_2)
+---@class C8205A3608BE73AAC_prototype
+C8205A3608BE73AAC_prototype = L15_1()
+C8205A3608BE73AAC.prototype = C8205A3608BE73AAC_prototype
+--- main.pokepicnic.database.IngCommonParam.SetupParam
+function C8205A3608BE73AAC_prototype:F96B4914039B0D517(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L3_2 = A1_2
   L2_2 = A1_2.f3D9D438D
   L4_2 = "ObjTempName"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.fCD31E312
   L4_2 = "SetNum"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[5] = L2_2
-  L2_2 = A0_2[1]
+  self[5] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F96B4914039B0D517
   L5_2 = A1_2
@@ -76,7 +75,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = "Param"
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.F7C68FEDB79AB6396
   L5_2 = A1_2
@@ -84,7 +83,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = "Power"
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F7C68FEDB79AB6396
   L5_2 = A1_2

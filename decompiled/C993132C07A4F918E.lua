@@ -1,3 +1,7 @@
+---@alias C993132C07A4F918E main_event_general_fly_AutoReturnEvent
+
+---@class main_event_general_fly_AutoReturnEvent : C993132C07A4F918E_prototype
+---@field prototype C993132C07A4F918E_prototype
 L55_1 = _ENV
 L56_1 = "C993132C07A4F918E"
 L57_1 = L15_1
@@ -45,28 +49,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C993132C07A4F918E"]
 L69_1 = "__name__"
 L70_1 = "C993132C07A4F918E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C993132C07A4F918E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C993132C07A4F918E"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C993132C07A4F918E_prototype
+C993132C07A4F918E_prototype = L15_1()
+C993132C07A4F918E.prototype = C993132C07A4F918E_prototype
+--- main.event.general.fly.AutoReturnEvent.onCreate
+function C993132C07A4F918E_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.skipPlayerStuckCheck = true
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.forceNonFreeMoveEvent = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C993132C07A4F918E"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.fly.AutoReturnEvent.mainBody
+function C993132C07A4F918E_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = 0.0
   L2_2 = C15A829DA3D306710
@@ -85,11 +81,11 @@ function L70_1(A0_2)
   L2_2 = L2_2.FE849672F1E41A271
   L4_2 = false
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.drown
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FF3A941DC9D41B32A
+    L3_2 = self
+    L2_2 = self.FF3A941DC9D41B32A
     L2_2(L3_2)
   else
     L2_2 = C07E4F1BF071B0460
@@ -109,7 +105,7 @@ function L70_1(A0_2)
     L3_2 = L3_2.None
     L2_2(L3_2)
   end
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.drown
   if not L2_2 then
     L2_2 = CCD22EFED4E9E5F89
@@ -155,7 +151,7 @@ function L70_1(A0_2)
       L3_2()
     end
   end
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.pos
   if nil == L2_2 then
     L2_2 = C42D1CDB112422850
@@ -165,8 +161,8 @@ function L70_1(A0_2)
       L2_2 = C6D182891100F211D
       L2_2 = L2_2.S0B3F69C4549A0284
       L2_2 = L2_2()
-      L4_2 = A0_2
-      L3_2 = A0_2.F4453AF39D1F0341E
+      L4_2 = self
+      L3_2 = self.F4453AF39D1F0341E
       L5_2 = L16_1
       L6_2 = {}
       L7_2 = {}
@@ -211,14 +207,14 @@ function L70_1(A0_2)
         L2_2 = L2_2.S530F836D2142B300
         L2_2()
       else
-        L3_2 = A0_2
-        L2_2 = A0_2.F8AB295270FA49076
+        L3_2 = self
+        L2_2 = self.F8AB295270FA49076
         L2_2(L3_2)
       end
     end
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.F972B30D9DE428BA8
+    L3_2 = self
+    L2_2 = self.F972B30D9DE428BA8
     L2_2(L3_2)
     L2_2 = CFC8F368D91411014
     L2_2 = L2_2.S342007287416AA78
@@ -291,7 +287,7 @@ function L70_1(A0_2)
     L5_2 = L5_2()
     L6_2 = false
     L3_2(L4_2, L5_2, L6_2)
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f22D509B2
     L4_2 = 2
@@ -328,26 +324,20 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C993132C07A4F918E"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.fly.AutoReturnEvent.mainBodyFinish
+function C993132C07A4F918E_prototype:F84C84FA1590CD2A3()
   local L1_2, L2_2
   L1_2 = C20F5CD372AAAA08C
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F84C84FA1590CD2A3
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = CEB7F2D99ABFA6197
   L1_2.S0CF5E04A8E9D0B22 = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C993132C07A4F918E"]["prototype"]
-L69_1 = "FF3A941DC9D41B32A"
-
-function L70_1(A0_2)
+--- main.event.general.fly.AutoReturnEvent.drownProcess
+function C993132C07A4F918E_prototype:FF3A941DC9D41B32A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CB13C1ADBEB1B2C41
   L1_2 = L1_2.S84366ECEA1B2ED8B
@@ -401,11 +391,8 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C993132C07A4F918E"]["prototype"]
-L69_1 = "F972B30D9DE428BA8"
-
-function L70_1(A0_2)
+--- main.event.general.fly.AutoReturnEvent.mapChangeToReturnPoint
+function C993132C07A4F918E_prototype:F972B30D9DE428BA8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = L16_1
   L2_2 = {}
@@ -435,10 +422,10 @@ function L70_1(A0_2)
   L4_2.destOffset = L5_2
   L3_2 = L3_2(L4_2)
   L2_2.mapChangeInfo = L3_2
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.pos
   L2_2.forcePosition = L3_2
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.rot
   L2_2.forceRotation = L3_2
   L1_2 = L1_2(L2_2)
@@ -512,8 +499,8 @@ function L70_1(A0_2)
         L2_2 = L2_2.SB1B0B792BAC0AE86
         L2_2 = L2_2()
         if "oniballoon" == L2_2 then
-          L3_2 = A0_2
-          L2_2 = A0_2.F4453AF39D1F0341E
+          L3_2 = self
+          L2_2 = self.F4453AF39D1F0341E
           L4_2 = L1_2
           L2_2(L3_2, L4_2)
         else
@@ -555,11 +542,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C993132C07A4F918E"]["prototype"]
-L69_1 = "F8AB295270FA49076"
-
-function L70_1(A0_2)
+--- main.event.general.fly.AutoReturnEvent.F8AB295270FA49076
+function C993132C07A4F918E_prototype:F8AB295270FA49076()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = CE66BC04D5613CDEA
   L1_2 = L1_2.S9F896AB8A185E250
@@ -649,11 +633,8 @@ function L70_1(A0_2)
   L12_2(L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C993132C07A4F918E"]["prototype"]
-L69_1 = "F4453AF39D1F0341E"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.fly.AutoReturnEvent.F4453AF39D1F0341E
+function C993132C07A4F918E_prototype:F4453AF39D1F0341E(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C6D182891100F211D
   L2_2 = L2_2.S0B3F69C4549A0284

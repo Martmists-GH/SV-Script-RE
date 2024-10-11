@@ -1,3 +1,7 @@
+---@alias C8AA6CE5C64923117 main_event_general_raid_BootRaidMatching
+
+---@class main_event_general_raid_BootRaidMatching : C8AA6CE5C64923117_prototype
+---@field prototype C8AA6CE5C64923117_prototype
 L55_1 = _ENV
 L56_1 = "C8AA6CE5C64923117"
 L57_1 = L15_1
@@ -46,32 +50,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8AA6CE5C64923117"]
 L69_1 = "__name__"
 L70_1 = "C8AA6CE5C64923117"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8AA6CE5C64923117"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8AA6CE5C64923117"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C8AA6CE5C64923117_prototype
+C8AA6CE5C64923117_prototype = L15_1()
+C8AA6CE5C64923117.prototype = C8AA6CE5C64923117_prototype
+--- main.event.general.raid.BootRaidMatching.preStart
+function C8AA6CE5C64923117_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8AA6CE5C64923117"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.general.raid.BootRaidMatching.postStart
+function C8AA6CE5C64923117_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8AA6CE5C64923117"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.raid.BootRaidMatching.mainBody
+function C8AA6CE5C64923117_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C10578806AC30DCA3
   L1_2 = L1_2.SBA6FF574C1C9AA09
@@ -97,13 +90,13 @@ function L70_1(A0_2)
   L2_2 = C061D7D12C87267AA
   L2_2 = L2_2.new
   L2_2 = L2_2()
-  A0_2[35] = L2_2
-  L2_2 = A0_2[35]
+  self[35] = L2_2
+  L2_2 = self[35]
   L3_2 = L2_2
   L2_2 = L2_2.F9337AE9F018B3C29
   L2_2(L3_2)
   while true do
-    L2_2 = A0_2[35]
+    L2_2 = self[35]
     L3_2 = L2_2
     L2_2 = L2_2.FC84A0D4D8CE89C7E
     L2_2 = L2_2(L3_2)
@@ -115,7 +108,7 @@ function L70_1(A0_2)
     L2_2()
   end
   while true do
-    L2_2 = A0_2[35]
+    L2_2 = self[35]
     L3_2 = L2_2
     L2_2 = L2_2.F9D7588710454A953
     L2_2 = L2_2(L3_2)
@@ -128,27 +121,18 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8AA6CE5C64923117"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.raid.BootRaidMatching.mainBodyFinish
+function C8AA6CE5C64923117_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8AA6CE5C64923117"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.raid.BootRaidMatching.preEnd
+function C8AA6CE5C64923117_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8AA6CE5C64923117"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.general.raid.BootRaidMatching.postEnd
+function C8AA6CE5C64923117_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

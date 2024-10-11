@@ -1,3 +1,5 @@
+---@class C02CBB31823045729 : C02CBB31823045729_prototype
+---@field prototype C02CBB31823045729_prototype
 L55_1 = _ENV
 L56_1 = "C02CBB31823045729"
 L57_1 = L15_1
@@ -43,37 +45,32 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C02CBB31823045729"]
 L69_1 = "__name__"
 L70_1 = "C02CBB31823045729"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02CBB31823045729"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02CBB31823045729"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2, A1_2)
+---@class C02CBB31823045729_prototype
+C02CBB31823045729_prototype = L15_1()
+C02CBB31823045729.prototype = C02CBB31823045729_prototype
+--- C02CBB31823045729.Load
+function C02CBB31823045729_prototype:F6C5D0398122A6629(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "Duration"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "YawLimit"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "PitchLimit"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "KillTime"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[6] = L2_2
+  self[6] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.fBAF32369
   L4_2 = "KillEase"
@@ -81,7 +78,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.f55728F9C
   L2_2 = L2_2(L3_2)
-  A0_2[7] = L2_2
+  self[7] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f88DE0826
   L4_2 = "Intensities"
@@ -100,7 +97,7 @@ function L70_1(A0_2, A1_2)
     L10_2 = L3_2 - 1
     L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L7_2(L8_2, L9_2, L10_2)
     L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.push
     L7_2 = L4_2
@@ -124,7 +121,7 @@ function L70_1(A0_2, A1_2)
     L12_2 = L5_2 - 1
     L9_2, L10_2, L11_2, L12_2 = L9_2(L10_2, L11_2, L12_2)
     L7_2(L8_2, L9_2, L10_2, L11_2, L12_2)
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L8_2 = L7_2
     L7_2 = L7_2.push
     L9_2 = L6_2

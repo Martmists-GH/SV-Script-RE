@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CF1C3BF67297830CA"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CF1C3BF67297830CA"]
-L69_1 = "new"
+---@alias CF1C3BF67297830CA main_system_game_event_partner_GameEventEncountRePopPartner
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_partner_GameEventEncountRePopPartner : CF1C3BF67297830CA_prototype
+---@field prototype CF1C3BF67297830CA_prototype
+CF1C3BF67297830CA = L15_1()
+function CF1C3BF67297830CA.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CF1C3BF67297830CA
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1C3BF67297830CA"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CF1C3BF67297830CA
+function CF1C3BF67297830CA.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CE0D511325372F946
   L3_2 = L3_2.super
@@ -37,11 +31,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1C3BF67297830CA"]
-L69_1 = "__name__"
-L70_1 = "CF1C3BF67297830CA"
-L68_1[L69_1] = L70_1
+CF1C3BF67297830CA.__name__ = "CF1C3BF67297830CA"
 L68_1 = _ENV["CF1C3BF67297830CA"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -74,30 +64,22 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1C3BF67297830CA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1C3BF67297830CA"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CF1C3BF67297830CA_prototype
+CF1C3BF67297830CA_prototype = L15_1()
+CF1C3BF67297830CA.prototype = CF1C3BF67297830CA_prototype
+--- main.system.game_event.partner.GameEventEncountRePopPartner.onCreate
+function CF1C3BF67297830CA_prototype:FC87C731D11C58354()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F7D0BC67DA3504E48
+  L2_2 = self
+  L1_2 = self.F7D0BC67DA3504E48
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F82D8A59FFE0DC3A4
+  L2_2 = self
+  L1_2 = self.F82D8A59FFE0DC3A4
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1C3BF67297830CA"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.partner.GameEventEncountRePopPartner.onUpdate
+function CF1C3BF67297830CA_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = c2FB59E8B
   L1_2 = L1_2.fBF27F333
@@ -110,7 +92,7 @@ function L70_1(A0_2)
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[17]
+  L3_2 = self[17]
   L3_2 = L3_2.ballObject
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
@@ -118,7 +100,7 @@ function L70_1(A0_2)
     L2_2 = 2
     return L2_2
   end
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   L2_2 = L2_2.ballObject
   L3_2 = L2_2
   L2_2 = L2_2.fB3CF1DEB
@@ -169,21 +151,18 @@ function L70_1(A0_2)
   end
   L7_2 = C42D11EE6DC41D8CE
   L7_2 = L7_2.SE2448C74A0D2B134
-  L8_2 = A0_2[17]
+  L8_2 = self[17]
   L8_2 = L8_2.target
   L9_2 = L6_2
-  L10_2 = A0_2[17]
+  L10_2 = self[17]
   L10_2 = L10_2.ballObject
   L7_2(L8_2, L9_2, L10_2)
   L7_2 = 2
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1C3BF67297830CA"]["prototype"]
-L69_1 = "F7D0BC67DA3504E48"
-
-function L70_1(A0_2)
+--- main.system.game_event.partner.GameEventEncountRePopPartner.SetFeedback
+function CF1C3BF67297830CA_prototype:F7D0BC67DA3504E48()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L16_1
   L2_2 = {}
@@ -212,15 +191,12 @@ function L70_1(A0_2)
       L1_2.strParams = L2_2
     end
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2[24] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1C3BF67297830CA"]["prototype"]
-L69_1 = "F82D8A59FFE0DC3A4"
-
-function L70_1(A0_2)
+--- main.system.game_event.partner.GameEventEncountRePopPartner.SetFacialLookAtSystem
+function CF1C3BF67297830CA_prototype:F82D8A59FFE0DC3A4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SA9BA6F9B9C3B2D73
@@ -230,14 +206,14 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f8C7D4F4D
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.target
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = CFC8F368D91411014
     L1_2 = L3_2.SA9BA6F9B9C3B2D73
-    L3_2 = A0_2[17]
+    L3_2 = self[17]
     L3_2 = L3_2.target
     L4_2 = nil
     L6_2 = L1_2

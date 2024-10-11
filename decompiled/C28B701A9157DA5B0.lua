@@ -1,3 +1,7 @@
+---@alias C28B701A9157DA5B0 main_ui_dressup_dress_view_main_DressupUIDressEndSequence
+
+---@class main_ui_dressup_dress_view_main_DressupUIDressEndSequence : C28B701A9157DA5B0_prototype
+---@field prototype C28B701A9157DA5B0_prototype
 L55_1 = _ENV
 L56_1 = "C28B701A9157DA5B0"
 L57_1 = L15_1
@@ -84,29 +88,24 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C28B701A9157DA5B0"]
 L69_1 = "__name__"
 L70_1 = "C28B701A9157DA5B0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C28B701A9157DA5B0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C28B701A9157DA5B0"]["prototype"]
-L69_1 = "F8ECAA28B9538110D"
-
-function L70_1(A0_2)
+---@class C28B701A9157DA5B0_prototype
+C28B701A9157DA5B0_prototype = L15_1()
+C28B701A9157DA5B0.prototype = C28B701A9157DA5B0_prototype
+--- main.ui.dressup.dress.view.main.DressupUIDressEndSequence.CreateCoroutine
+function C28B701A9157DA5B0_prototype:F8ECAA28B9538110D()
   local L1_2
   
   function L1_2()
     local L0_3, L1_3, L2_3, L3_3, L4_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[1]
     if L1_3 then
       L1_3 = C1DB14DCC9D7634FA
       L1_3 = L1_3.new
       L2_3 = L55_1
-      L3_3 = A0_2
-      L4_3 = A0_2.FD73DE52516A3629C
+      L3_3 = self
+      L4_3 = self.FD73DE52516A3629C
       L2_3 = L2_3(L3_3, L4_3)
       L3_3 = "dressup_end_sequence"
       L1_3 = L1_3(L2_3, L3_3)
@@ -115,8 +114,8 @@ function L70_1(A0_2)
       L1_3 = C1DB14DCC9D7634FA
       L1_3 = L1_3.new
       L2_3 = L55_1
-      L3_3 = A0_2
-      L4_3 = A0_2.F6F2C71EF0972D8B1
+      L3_3 = self
+      L4_3 = self.F6F2C71EF0972D8B1
       L2_3 = L2_3(L3_3, L4_3)
       L3_3 = "dressup_end_sequence"
       L1_3 = L1_3(L2_3, L3_3)
@@ -128,14 +127,11 @@ function L70_1(A0_2)
   return L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C28B701A9157DA5B0"]["prototype"]
-L69_1 = "FD73DE52516A3629C"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressEndSequence.DressUpdateSequence
+function C28B701A9157DA5B0_prototype:FD73DE52516A3629C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FC6E3FA57414E2704
+  L2_2 = self
+  L1_2 = self.FC6E3FA57414E2704
   L1_2 = L1_2(L2_2)
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.S84E00A89DFBC380C
@@ -152,31 +148,31 @@ function L70_1(A0_2)
     L2_2 = L2_2.SF0D718A83F15CDCC
     L3_2 = C1C60E6E1EAFEE72D
     L3_2 = L3_2.S25B8AE921E6391A8
-    L4_2 = A0_2[2]
-    L5_2 = A0_2[3]
+    L4_2 = self[2]
+    L5_2 = self[3]
     L6_2 = L5_2
     L5_2 = L5_2.FC82C929CB775E5C5
     L5_2, L6_2 = L5_2(L6_2)
     L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2, L5_2, L6_2)
     L2_2(L3_2, L4_2, L5_2, L6_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.F118B9E1030B5DC9D
+    L3_2 = self
+    L2_2 = self.F118B9E1030B5DC9D
     L2_2(L3_2)
   elseif "noUpdateEnd" == L1_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.FEAD2A3AEA54D791F
     L4_2 = 0
     L2_2(L3_2, L4_2)
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.F742C938EDE23D5AC
     L2_2(L3_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.F118B9E1030B5DC9D
+    L3_2 = self
+    L2_2 = self.F118B9E1030B5DC9D
     L2_2(L3_2)
   else
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.FE0EBB34B8A1B41AB
     L4_2 = true
@@ -184,22 +180,16 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C28B701A9157DA5B0"]["prototype"]
-L69_1 = "F6F2C71EF0972D8B1"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressEndSequence.NoDressUpdateSequence
+function C28B701A9157DA5B0_prototype:F6F2C71EF0972D8B1()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F118B9E1030B5DC9D
+  L2_2 = self
+  L1_2 = self.F118B9E1030B5DC9D
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C28B701A9157DA5B0"]["prototype"]
-L69_1 = "FC6E3FA57414E2704"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressEndSequence.IsDressupUpdateSelect
+function C28B701A9157DA5B0_prototype:FC6E3FA57414E2704()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fC8CEF9EF
@@ -292,13 +282,10 @@ function L70_1(A0_2)
   return L4_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C28B701A9157DA5B0"]["prototype"]
-L69_1 = "F118B9E1030B5DC9D"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressEndSequence.SceneEndSequence
+function C28B701A9157DA5B0_prototype:F118B9E1030B5DC9D()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.FBF9A6D5AD717FAF0
   L1_2(L2_2)

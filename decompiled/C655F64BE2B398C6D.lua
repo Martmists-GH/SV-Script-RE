@@ -1,3 +1,5 @@
+---@class C655F64BE2B398C6D : C655F64BE2B398C6D_prototype
+---@field prototype C655F64BE2B398C6D_prototype
 L55_1 = _ENV
 L56_1 = "C655F64BE2B398C6D"
 L57_1 = L15_1
@@ -43,18 +45,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C655F64BE2B398C6D"]
 L69_1 = "__name__"
 L70_1 = "C655F64BE2B398C6D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C655F64BE2B398C6D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C655F64BE2B398C6D"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C655F64BE2B398C6D_prototype
+C655F64BE2B398C6D_prototype = L15_1()
+C655F64BE2B398C6D.prototype = C655F64BE2B398C6D_prototype
+--- C655F64BE2B398C6D.onCreate
+function C655F64BE2B398C6D_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = 0
   L1_2.updateInterval = L2_2
   L3_2 = nil
@@ -72,11 +69,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C655F64BE2B398C6D"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- C655F64BE2B398C6D.onTerminate
+function C655F64BE2B398C6D_prototype:F97D80368ACC86AEF()
   local L1_2
   L1_2 = true
   return L1_2

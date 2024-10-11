@@ -1,3 +1,7 @@
+---@alias C76A9F46E7D4FCE9E main_nushi_hiko_HikoNushiClashRockVfx
+
+---@class main_nushi_hiko_HikoNushiClashRockVfx : C76A9F46E7D4FCE9E_prototype
+---@field prototype C76A9F46E7D4FCE9E_prototype
 L55_1 = _ENV
 L56_1 = "C76A9F46E7D4FCE9E"
 L57_1 = L15_1
@@ -46,19 +50,14 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C76A9F46E7D4FCE9E"]
 L69_1 = "__name__"
 L70_1 = "C76A9F46E7D4FCE9E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76A9F46E7D4FCE9E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76A9F46E7D4FCE9E"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C76A9F46E7D4FCE9E_prototype
+C76A9F46E7D4FCE9E_prototype = L15_1()
+C76A9F46E7D4FCE9E.prototype = C76A9F46E7D4FCE9E_prototype
+--- main.nushi.hiko.HikoNushiClashRockVfx.Setup
+function C76A9F46E7D4FCE9E_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
-  L3_2 = A0_2[2]
+  L2_2 = self
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.F7EED485852A4D25F
   L5_2 = 3
@@ -79,15 +78,12 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76A9F46E7D4FCE9E"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.hiko.HikoNushiClashRockVfx.PreUpdate
+function C76A9F46E7D4FCE9E_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil ~= L2_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.F1EEC0C9E6E826C5B
     L4_2 = A1_2
@@ -95,15 +91,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76A9F46E7D4FCE9E"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.nushi.hiko.HikoNushiClashRockVfx.Destroy
+function C76A9F46E7D4FCE9E_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   if nil ~= L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.FB50C9ACDC127E3B9
     L1_2(L2_2)

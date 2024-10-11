@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "C92B8BA1FA00BD7F7"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]
-L69_1 = "new"
-
-function L70_1()
+---@class C92B8BA1FA00BD7F7 : C92B8BA1FA00BD7F7_prototype
+---@field prototype C92B8BA1FA00BD7F7_prototype
+C92B8BA1FA00BD7F7 = L15_1()
+function C92B8BA1FA00BD7F7.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C92B8BA1FA00BD7F7
@@ -21,11 +16,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C92B8BA1FA00BD7F7
+function C92B8BA1FA00BD7F7.super(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   A0_2[3] = false
   L1_2 = _hx_tab_array
@@ -60,11 +52,7 @@ function L70_1(A0_2)
   A0_2[1] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]
-L69_1 = "__name__"
-L70_1 = "C92B8BA1FA00BD7F7"
-L68_1[L69_1] = L70_1
+C92B8BA1FA00BD7F7.__name__ = "C92B8BA1FA00BD7F7"
 L68_1 = _ENV["C92B8BA1FA00BD7F7"]
 L69_1 = "S385504EFF7E842C3"
 
@@ -84,38 +72,30 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]["prototype"]
-L69_1 = "F8E873B7D1F37DF9B"
-
-function L70_1(A0_2)
+---@class C92B8BA1FA00BD7F7_prototype
+C92B8BA1FA00BD7F7_prototype = L15_1()
+C92B8BA1FA00BD7F7.prototype = C92B8BA1FA00BD7F7_prototype
+--- C92B8BA1FA00BD7F7.GetWatchListArray
+function C92B8BA1FA00BD7F7_prototype:F8E873B7D1F37DF9B()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FD6996C35F819A1ED
+  L2_2 = self
+  L1_2 = self.FD6996C35F819A1ED
   L1_2(L2_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]["prototype"]
-L69_1 = "F9A7307E1B56D0549"
-
-function L70_1(A0_2)
+--- C92B8BA1FA00BD7F7.SortWatchListArray
+function C92B8BA1FA00BD7F7_prototype:F9A7307E1B56D0549()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FD6996C35F819A1ED
+  L2_2 = self
+  L1_2 = self.FD6996C35F819A1ED
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     return
   end
   L1_2 = L38_1.sort
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   
   function L3_2(A0_3, A1_3)
     local L2_3, L3_3
@@ -138,16 +118,16 @@ function L70_1(A0_2)
   
   L1_2(L2_2, L3_2)
   while true do
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L1_2 = L1_2.length
     if not (L1_2 > 0) then
       break
     end
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L1_2 = L1_2[0]
     L1_2 = L1_2.m_WazaItemID
     if L1_2 < 1 then
-      L1_2 = A0_2[1]
+      L1_2 = self[1]
       L2_2 = L1_2
       L1_2 = L1_2.shift
       L1_2(L2_2)
@@ -155,16 +135,13 @@ function L70_1(A0_2)
       break
     end
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F99CD8A2D04628EE5
+  L2_2 = self
+  L1_2 = self.F99CD8A2D04628EE5
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]["prototype"]
-L69_1 = "FD23B8F6D2C77D3A4"
-
-function L70_1(A0_2)
+--- C92B8BA1FA00BD7F7.LoadSaveData
+function C92B8BA1FA00BD7F7_prototype:FD23B8F6D2C77D3A4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C75C4EA6382BB29CA
   L1_2 = L1_2.S385504EFF7E842C3
@@ -173,7 +150,7 @@ function L70_1(A0_2)
     return
   end
   L1_2 = 0
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -196,30 +173,27 @@ function L70_1(A0_2)
       L6_2 = L5_2
       L5_2 = L5_2.F29EBA39D549488F2
       L5_2 = L5_2(L6_2)
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L7_2 = L6_2
       L6_2 = L6_2.push
       L8_2 = L5_2
       L6_2(L7_2, L8_2)
     end
   end
-  A0_2[3] = true
+  self[3] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]["prototype"]
-L69_1 = "F99CD8A2D04628EE5"
-
-function L70_1(A0_2)
+--- C92B8BA1FA00BD7F7.F99CD8A2D04628EE5
+function C92B8BA1FA00BD7F7_prototype:F99CD8A2D04628EE5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FD6996C35F819A1ED
+  L2_2 = self
+  L1_2 = self.FD6996C35F819A1ED
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     return
   end
   L1_2 = 0
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -234,38 +208,35 @@ function L70_1(A0_2)
     L4_2(L5_2, L6_2)
   end
   L3_2 = 0
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2.length
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L5_2 = L3_2 - 1
     L6_2 = c37452BA0
     L6_2 = L6_2.fA2F08AB4
-    L7_2 = A0_2[2]
+    L7_2 = self[2]
     L7_2 = L7_2[L5_2]
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L8_2 = L8_2[L5_2]
     L8_2 = L8_2.m_WazaItemID
     L6_2(L7_2, L8_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]["prototype"]
-L69_1 = "FCDCFD5F1A713E55F"
-
-function L70_1(A0_2, A1_2)
+--- C92B8BA1FA00BD7F7.IsAddWatchList
+function C92B8BA1FA00BD7F7_prototype:FCDCFD5F1A713E55F(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F496ADA7B514E90F2
+  L3_2 = self
+  L2_2 = self.F496ADA7B514E90F2
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = false
     return L2_2
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FECF4224E6369E8F4
+  L3_2 = self
+  L2_2 = self.FECF4224E6369E8F4
   L2_2 = L2_2(L3_2)
   if -1 == L2_2 then
     L2_2 = false
@@ -275,43 +246,37 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]["prototype"]
-L69_1 = "F6E3952DFFB6564CF"
-
-function L70_1(A0_2, A1_2)
+--- C92B8BA1FA00BD7F7.AddWatchList
+function C92B8BA1FA00BD7F7_prototype:F6E3952DFFB6564CF(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FCDCFD5F1A713E55F
+  L3_2 = self
+  L2_2 = self.FCDCFD5F1A713E55F
   L4_2 = A1_2.m_WazaItemID
   L2_2 = L2_2(L3_2, L4_2)
   if not L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FECF4224E6369E8F4
+  L3_2 = self
+  L2_2 = self.FECF4224E6369E8F4
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2[L2_2] = A1_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F99CD8A2D04628EE5
+  L4_2 = self
+  L3_2 = self.F99CD8A2D04628EE5
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]["prototype"]
-L69_1 = "FF22FC551B257E2E0"
-
-function L70_1(A0_2, A1_2)
+--- C92B8BA1FA00BD7F7.SubWatchList
+function C92B8BA1FA00BD7F7_prototype:FF22FC551B257E2E0(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FD6996C35F819A1ED
+  L3_2 = self
+  L2_2 = self.FD6996C35F819A1ED
   L2_2 = L2_2(L3_2)
   if not L2_2 then
     return
   end
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -325,26 +290,23 @@ function L70_1(A0_2, A1_2)
       break
     end
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F99CD8A2D04628EE5
+  L5_2 = self
+  L4_2 = self.F99CD8A2D04628EE5
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]["prototype"]
-L69_1 = "F496ADA7B514E90F2"
-
-function L70_1(A0_2, A1_2)
+--- C92B8BA1FA00BD7F7.IsRegisterItemID
+function C92B8BA1FA00BD7F7_prototype:F496ADA7B514E90F2(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FD6996C35F819A1ED
+  L3_2 = self
+  L2_2 = self.FD6996C35F819A1ED
   L2_2 = L2_2(L3_2)
   if not L2_2 then
     L2_2 = false
     return L2_2
   end
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -362,51 +324,45 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]["prototype"]
-L69_1 = "FECF4224E6369E8F4"
-
-function L70_1(A0_2)
+--- C92B8BA1FA00BD7F7.FECF4224E6369E8F4
+function C92B8BA1FA00BD7F7_prototype:FECF4224E6369E8F4()
   local L1_2, L2_2, L3_2, L4_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FD6996C35F819A1ED
+  L2_2 = self
+  L1_2 = self.FD6996C35F819A1ED
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     L1_2 = -1
     return L1_2
   end
   L1_2 = 0
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.length
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L4_2 = L4_2[L3_2]
     L4_2 = L4_2.m_WazaItemID
     if L4_2 <= 0 then
       return L3_2
     end
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   if L3_2 >= 5 then
     L3_2 = -1
     return L3_2
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]["prototype"]
-L69_1 = "FB7B27633B1B99431"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C92B8BA1FA00BD7F7.FB7B27633B1B99431
+function C92B8BA1FA00BD7F7_prototype:FB7B27633B1B99431(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FD6996C35F819A1ED
+  L4_2 = self
+  L3_2 = self.FD6996C35F819A1ED
   L3_2 = L3_2(L4_2)
   if not L3_2 then
     return
@@ -415,7 +371,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2 = L3_2.S90D73F1D715BCBF4
   L3_2 = L3_2()
   L4_2 = 0
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2.length
   L6_2 = false
   while L4_2 < L5_2 do
@@ -423,14 +379,14 @@ function L70_1(A0_2, A1_2, A2_2)
     L7_2 = L4_2 - 1
     L8_2 = false
     L9_2 = 0
-    L10_2 = A0_2[1]
+    L10_2 = self[1]
     L10_2 = L10_2[L7_2]
     L10_2 = L10_2.m_NeedItemArray
     L10_2 = L10_2.length
     L11_2 = false
     while L9_2 < L10_2 do
       L9_2 = L9_2 + 1
-      L12_2 = A0_2[1]
+      L12_2 = self[1]
       L12_2 = L12_2[L7_2]
       L12_2 = L12_2.m_NeedItemArray
       L13_2 = L9_2 - 1
@@ -477,13 +433,10 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92B8BA1FA00BD7F7"]["prototype"]
-L69_1 = "FD6996C35F819A1ED"
-
-function L70_1(A0_2)
+--- C92B8BA1FA00BD7F7.FD6996C35F819A1ED
+function C92B8BA1FA00BD7F7_prototype:FD6996C35F819A1ED()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   if not L1_2 then
     L1_2 = false
     return L1_2

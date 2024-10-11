@@ -1,3 +1,7 @@
+---@alias CE07340F6A135751D main_playables_misc_StateGroup
+
+---@class main_playables_misc_StateGroup : CE07340F6A135751D_prototype
+---@field prototype CE07340F6A135751D_prototype
 L55_1 = _ENV
 L56_1 = "CE07340F6A135751D"
 L57_1 = L15_1
@@ -34,53 +38,33 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE07340F6A135751D"]
 L69_1 = "__name__"
 L70_1 = "CE07340F6A135751D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE07340F6A135751D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE07340F6A135751D"]["prototype"]
-L69_1 = "F019AC076276FE4F6"
-
-function L70_1(A0_2)
+---@class CE07340F6A135751D_prototype
+CE07340F6A135751D_prototype = L15_1()
+CE07340F6A135751D.prototype = CE07340F6A135751D_prototype
+--- main.playables.misc.StateGroup.onEnter
+function CE07340F6A135751D_prototype:F019AC076276FE4F6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE07340F6A135751D"]["prototype"]
-L69_1 = "F6D16D30FD1C59B4F"
-
-function L70_1(A0_2)
+--- main.playables.misc.StateGroup.onLeave
+function CE07340F6A135751D_prototype:F6D16D30FD1C59B4F()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE07340F6A135751D"]["prototype"]
-L69_1 = "F5BB3065BAE919CB1"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.misc.StateGroup.onStartState
+function CE07340F6A135751D_prototype:F5BB3065BAE919CB1(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE07340F6A135751D"]["prototype"]
-L69_1 = "F2D7638A0577ED142"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.playables.misc.StateGroup.onUpdateState
+function CE07340F6A135751D_prototype:F2D7638A0577ED142(A1_2, A2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE07340F6A135751D"]["prototype"]
-L69_1 = "F4B310C496C076CA6"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.misc.StateGroup.onEndState
+function CE07340F6A135751D_prototype:F4B310C496C076CA6(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE07340F6A135751D"]["prototype"]
-L69_1 = "FA88D69D4604DBB0F"
-
-function L70_1(A0_2)
+--- main.playables.misc.StateGroup.onReset
+function CE07340F6A135751D_prototype:FA88D69D4604DBB0F()
   local L1_2
 end
 

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CEEED6DB45C342E1A"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]
-L69_1 = "new"
+---@alias CEEED6DB45C342E1A main_ui_dressup_style_DressupStyleSceneLoader
 
-function L70_1(A0_2)
+---@class main_ui_dressup_style_DressupStyleSceneLoader : CEEED6DB45C342E1A_prototype
+---@field prototype CEEED6DB45C342E1A_prototype
+CEEED6DB45C342E1A = L15_1()
+function CEEED6DB45C342E1A.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CEEED6DB45C342E1A
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CEEED6DB45C342E1A
+function CEEED6DB45C342E1A.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,33 +36,24 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CEEED6DB45C342E1A"]
 L69_1 = "__name__"
 L70_1 = "CEEED6DB45C342E1A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]
-L69_1 = "S34A6CA142AC90594"
-
-function L70_1()
+--- main.ui.dressup_style.DressupStyleSceneLoader.get_dressupStyleMode
+function CEEED6DB45C342E1A.S34A6CA142AC90594()
   local L0_2, L1_2
   L0_2 = CEEED6DB45C342E1A
   L0_2 = L0_2.S4F01F1532AA57D65
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]
-L69_1 = "SFC7970D9C6DF9FB6"
-
-function L70_1()
+--- main.ui.dressup_style.DressupStyleSceneLoader.get_isDataSend
+function CEEED6DB45C342E1A.SFC7970D9C6DF9FB6()
   local L0_2, L1_2
   L0_2 = CEEED6DB45C342E1A
   L0_2 = L0_2.S7A85F44A546F229F
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]
-L69_1 = "S1C97C225FFEDBEDE"
-
-function L70_1()
+--- main.ui.dressup_style.DressupStyleSceneLoader.DressupStyleSceneLoad
+function CEEED6DB45C342E1A.S1C97C225FFEDBEDE()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -92,11 +77,8 @@ function L70_1()
   L2_2.S4F01F1532AA57D65 = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]
-L69_1 = "SB6E10F15F4D32651"
-
-function L70_1()
+--- main.ui.dressup_style.DressupStyleSceneLoader.DressupStyleSceneUnload
+function CEEED6DB45C342E1A.SB6E10F15F4D32651()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -134,11 +116,8 @@ function L70_1()
   L1_2.S7A85F44A546F229F = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]
-L69_1 = "S61920ADBEB993B9A"
-
-function L70_1(A0_2)
+--- main.ui.dressup_style.DressupStyleSceneLoader.UIStartForTitle
+function CEEED6DB45C342E1A.S61920ADBEB993B9A(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -167,11 +146,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]
-L69_1 = "SCA3BE436AA3D0608"
-
-function L70_1()
+--- main.ui.dressup_style.DressupStyleSceneLoader.UIEnd
+function CEEED6DB45C342E1A.SCA3BE436AA3D0608()
   local L0_2, L1_2
   L0_2 = CEEED6DB45C342E1A
   L0_2 = L0_2.SE8AA57EBB95DA538
@@ -189,21 +165,15 @@ function L70_1()
   L0_2.S4F01F1532AA57D65 = 5
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]
-L69_1 = "S79C3AA3A05158607"
-
-function L70_1(A0_2)
+--- main.ui.dressup_style.DressupStyleSceneLoader.SetDressupStyleMode
+function CEEED6DB45C342E1A.S79C3AA3A05158607(A0_2)
   local L1_2
   L1_2 = CEEED6DB45C342E1A
   L1_2.S4F01F1532AA57D65 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]
-L69_1 = "S21D09AAD3D5D9B9C"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup_style.DressupStyleSceneLoader.FindBehavior
+function CEEED6DB45C342E1A.S21D09AAD3D5D9B9C(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = A0_2
   L2_2 = A0_2.fD4E64AB7
@@ -242,25 +212,20 @@ function L70_1(A0_2, A1_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CEEED6DB45C342E1A_prototype
+CEEED6DB45C342E1A_prototype = L15_1()
+CEEED6DB45C342E1A.prototype = CEEED6DB45C342E1A_prototype
+--- main.ui.dressup_style.DressupStyleSceneLoader.Setup
+function CEEED6DB45C342E1A_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = CEEED6DB45C342E1A
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f462C9B70
   L3_2 = L3_2(L4_2)
@@ -268,29 +233,26 @@ function L70_1(A0_2, A1_2)
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.new
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F0936EB0C99950F56
+  L4_2 = self
+  L5_2 = self.F0936EB0C99950F56
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = "dressup_style_ui_data_send_sequence"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup_style.DressupStyleSceneLoader.PreUpdate
+function CEEED6DB45C342E1A_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -338,29 +300,23 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ui.dressup_style.DressupStyleSceneLoader.Destroy
+function CEEED6DB45C342E1A_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = CEEED6DB45C342E1A
   L1_2.S7A85F44A546F229F = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEED6DB45C342E1A"]["prototype"]
-L69_1 = "F0936EB0C99950F56"
-
-function L70_1(A0_2)
+--- main.ui.dressup_style.DressupStyleSceneLoader.DataSendSequence
+function CEEED6DB45C342E1A_prototype:F0936EB0C99950F56()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   while true do
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.f462C9B70
     L1_2 = L1_2(L2_2)
@@ -376,7 +332,7 @@ function L70_1(A0_2)
   end
   L1_2 = CEEED6DB45C342E1A
   L1_2 = L1_2.S21D09AAD3D5D9B9C
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f462C9B70
   L2_2 = L2_2(L3_2)
@@ -384,7 +340,7 @@ function L70_1(A0_2)
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = CEEED6DB45C342E1A
   L2_2 = L2_2.S21D09AAD3D5D9B9C
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f462C9B70
   L3_2 = L3_2(L4_2)

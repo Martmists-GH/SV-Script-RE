@@ -1,3 +1,7 @@
+---@alias C9CD15CFC776AE967 main_ui_title_first_start_language_player_select_state_LanguagePlayerSelectCheckUIState
+
+---@class main_ui_title_first_start_language_player_select_state_LanguagePlayerSelectCheckUIState : C9CD15CFC776AE967_prototype
+---@field prototype C9CD15CFC776AE967_prototype
 L55_1 = _ENV
 L56_1 = "C9CD15CFC776AE967"
 L57_1 = L15_1
@@ -42,75 +46,61 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9CD15CFC776AE967"]
 L69_1 = "__name__"
 L70_1 = "C9CD15CFC776AE967"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9CD15CFC776AE967"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9CD15CFC776AE967"]["prototype"]
-L69_1 = "FB1B20E221BBC2BE0"
-
-function L70_1(A0_2)
+---@class C9CD15CFC776AE967_prototype
+C9CD15CFC776AE967_prototype = L15_1()
+C9CD15CFC776AE967.prototype = C9CD15CFC776AE967_prototype
+--- main.ui.title.first_start.language_player_select.state.LanguagePlayerSelectCheckUIState.get_selectButtonIndex
+function C9CD15CFC776AE967_prototype:FB1B20E221BBC2BE0()
   local L1_2, L2_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   if nil == L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F50CB2B4EB5CE75C1
+    L2_2 = self
+    L1_2 = self.F50CB2B4EB5CE75C1
     L1_2 = L1_2(L2_2)
-    A0_2[8] = L1_2
+    self[8] = L1_2
   end
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.FB1B20E221BBC2BE0
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9CD15CFC776AE967"]["prototype"]
-L69_1 = "FAE728AF193086C55"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.language_player_select.state.LanguagePlayerSelectCheckUIState.get_isEnd
+function C9CD15CFC776AE967_prototype:FAE728AF193086C55()
   local L1_2, L2_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   if nil == L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F50CB2B4EB5CE75C1
+    L2_2 = self
+    L1_2 = self.F50CB2B4EB5CE75C1
     L1_2 = L1_2(L2_2)
-    A0_2[8] = L1_2
+    self[8] = L1_2
   end
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.FAE728AF193086C55
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9CD15CFC776AE967"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.title.first_start.language_player_select.state.LanguagePlayerSelectCheckUIState.Setup
+function C9CD15CFC776AE967_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CCA1882187FABCCCE
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F50CB2B4EB5CE75C1
+  L3_2 = self
+  L2_2 = self.F50CB2B4EB5CE75C1
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9CD15CFC776AE967"]["prototype"]
-L69_1 = "F706FCB31D5565CDB"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.language_player_select.state.LanguagePlayerSelectCheckUIState.StartFlow
+function C9CD15CFC776AE967_prototype:F706FCB31D5565CDB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C41004305AA276DEE
   L1_2 = L1_2.new
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f462C9B70
   L2_2 = L2_2(L3_2)
@@ -125,66 +115,60 @@ function L70_1(A0_2)
   L3_2 = L1_2
   L2_2 = L1_2.F9FD53EFA8DA6BEB6
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FCCB2F18C42DF4EDB
+  L3_2 = self
+  L2_2 = self.FCCB2F18C42DF4EDB
   L2_2(L3_2)
   L2_2 = CCA1882187FABCCCE
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F706FCB31D5565CDB
-  L3_2 = A0_2
+  L3_2 = self
   L2_2(L3_2)
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   if nil == L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F50CB2B4EB5CE75C1
+    L3_2 = self
+    L2_2 = self.F50CB2B4EB5CE75C1
     L2_2 = L2_2(L3_2)
-    A0_2[8] = L2_2
+    self[8] = L2_2
   end
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.FE2823709CB81AA04
   L2_2(L3_2)
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.FA7C7BEFF8934C784
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F3250254222F75035
+  L5_2 = self
+  L6_2 = self.F3250254222F75035
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9CD15CFC776AE967"]["prototype"]
-L69_1 = "FC8B881897EB6BA4C"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.language_player_select.state.LanguagePlayerSelectCheckUIState.ReStart
+function C9CD15CFC776AE967_prototype:FC8B881897EB6BA4C()
   local L1_2, L2_2
   L1_2 = CCA1882187FABCCCE
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC8B881897EB6BA4C
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   if nil == L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F50CB2B4EB5CE75C1
+    L2_2 = self
+    L1_2 = self.F50CB2B4EB5CE75C1
     L1_2 = L1_2(L2_2)
-    A0_2[8] = L1_2
+    self[8] = L1_2
   end
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.FF08FA96480201A13
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9CD15CFC776AE967"]["prototype"]
-L69_1 = "F50CB2B4EB5CE75C1"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.language_player_select.state.LanguagePlayerSelectCheckUIState.GetBehavior
+function C9CD15CFC776AE967_prototype:F50CB2B4EB5CE75C1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
@@ -221,15 +205,12 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9CD15CFC776AE967"]["prototype"]
-L69_1 = "FCCB2F18C42DF4EDB"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.language_player_select.state.LanguagePlayerSelectCheckUIState.CreateModelView
+function C9CD15CFC776AE967_prototype:FCCB2F18C42DF4EDB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = cECB91E31
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f462C9B70
   L2_2 = L2_2(L3_2)
@@ -264,7 +245,7 @@ function L70_1(A0_2)
   end
   L3_2 = c467D18B0
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.f462C9B70
   L4_2 = L4_2(L5_2)
@@ -284,7 +265,7 @@ function L70_1(A0_2)
   end
   L5_2 = cECF00344
   L5_2 = L5_2.fEECE6995
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L6_2
   L6_2 = L6_2.f462C9B70
   L6_2 = L6_2(L7_2)
@@ -338,7 +319,7 @@ function L70_1(A0_2)
   L7_2 = L5_2.f2A9CF058
   L9_2 = true
   L7_2(L8_2, L9_2)
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.f12329E64
   L9_2 = true

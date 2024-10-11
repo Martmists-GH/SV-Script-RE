@@ -1,11 +1,8 @@
-L55_1 = _ENV
-L56_1 = "CD950F4AD2C2702A1"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "new"
-L70_1 = {}
+---@alias CD950F4AD2C2702A1 main_ui_btlspot_ui_BattleSpotUIMessage
+
+---@class main_ui_btlspot_ui_BattleSpotUIMessage
+CD950F4AD2C2702A1 = L15_1()
+CD950F4AD2C2702A1.new = {}
 L68_1[L69_1] = L70_1
 L68_1 = "CD950F4AD2C2702A1"
 L69_1 = _ENV["CD950F4AD2C2702A1"]
@@ -13,22 +10,16 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CD950F4AD2C2702A1"]
 L69_1 = "__name__"
 L70_1 = "CD950F4AD2C2702A1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "S44C3C84D7B81D6D8"
-
-function L70_1()
+--- main.ui.btlspot.ui.BattleSpotUIMessage.get_wordset
+function CD950F4AD2C2702A1.S44C3C84D7B81D6D8()
   local L0_2, L1_2
   L0_2 = C0841C92D10956D35
   L0_2 = L0_2.S959FD3B9C781D60B
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "S9BE217E32E5DE9E3"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.ui.BattleSpotUIMessage.StartMessageID
+function CD950F4AD2C2702A1.S9BE217E32E5DE9E3(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CD950F4AD2C2702A1
   L1_2 = L1_2.S7D05D34C291DA69E
@@ -47,11 +38,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "SDF772D84F5ADBC74"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUIMessage.SDF772D84F5ADBC74
+function CD950F4AD2C2702A1.SDF772D84F5ADBC74(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CD950F4AD2C2702A1
   L2_2 = L2_2.S7D05D34C291DA69E
@@ -61,11 +49,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "S7D05D34C291DA69E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.btlspot.ui.BattleSpotUIMessage.StartMessage
+function CD950F4AD2C2702A1.S7D05D34C291DA69E(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = CD950F4AD2C2702A1
   L3_2.S94F6D8046156E35A = A2_2
@@ -162,11 +147,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "SA64ABBE5B55E89E0"
-
-function L70_1()
+--- main.ui.btlspot.ui.BattleSpotUIMessage.Wait
+function CD950F4AD2C2702A1.SA64ABBE5B55E89E0()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L0_2 = CD950F4AD2C2702A1
   L0_2 = L0_2.S94F6D8046156E35A
@@ -265,11 +247,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "S84E00A89DFBC380C"
-
-function L70_1()
+--- main.ui.btlspot.ui.BattleSpotUIMessage.HideMessage
+function CD950F4AD2C2702A1.S84E00A89DFBC380C()
   local L0_2, L1_2
   L0_2 = CF1D9D619D324F233
   L0_2 = L0_2.S84E00A89DFBC380C
@@ -278,11 +257,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "SBFB9EB45D5AD74F0"
-
-function L70_1()
+--- main.ui.btlspot.ui.BattleSpotUIMessage.IsOpenMessage
+function CD950F4AD2C2702A1.SBFB9EB45D5AD74F0()
   local L0_2, L1_2
   L0_2 = CF1D9D619D324F233
   L0_2 = L0_2.SBFB9EB45D5AD74F0
@@ -291,22 +267,16 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "S05CC708B4B258959"
-
-function L70_1()
+--- main.ui.btlspot.ui.BattleSpotUIMessage.GetResultContext
+function CD950F4AD2C2702A1.S05CC708B4B258959()
   local L0_2, L1_2
   L0_2 = CF1D9D619D324F233
   L0_2 = L0_2.S036FE38553339EEE
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "S35D93EC78C27896E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUIMessage.StartComMessageID
+function CD950F4AD2C2702A1.S35D93EC78C27896E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = false
@@ -329,11 +299,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "SEEC764BD5D5780A3"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.btlspot.ui.BattleSpotUIMessage.StartComMessage
+function CD950F4AD2C2702A1.SEEC764BD5D5780A3(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A3_2 then
     A3_2 = false
@@ -358,22 +325,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "S302B9F4AD833CC27"
-
-function L70_1()
+--- main.ui.btlspot.ui.BattleSpotUIMessage.CloseComMessage
+function CD950F4AD2C2702A1.S302B9F4AD833CC27()
   local L0_2, L1_2
   L0_2 = CFC2DE9C924277A7B
   L0_2 = L0_2.S768600CE8B68B7F8
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "S9CF4C87773E52996"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.btlspot.ui.BattleSpotUIMessage.RegisterPlayerName
+function CD950F4AD2C2702A1.S9CF4C87773E52996(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = CD950F4AD2C2702A1
   L4_2 = L4_2.S44C3C84D7B81D6D8
@@ -387,11 +348,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "S41DF61C7039C622D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUIMessage.S41DF61C7039C622D
+function CD950F4AD2C2702A1.S41DF61C7039C622D(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = CD950F4AD2C2702A1
   L2_2 = L2_2.S44C3C84D7B81D6D8
@@ -406,11 +364,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "S4E377B7B1B2B1B21"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUIMessage.S4E377B7B1B2B1B21
+function CD950F4AD2C2702A1.S4E377B7B1B2B1B21(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = CD950F4AD2C2702A1
   L2_2 = L2_2.S44C3C84D7B81D6D8
@@ -429,11 +384,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "S01D78A3F074BA509"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUIMessage.S01D78A3F074BA509
+function CD950F4AD2C2702A1.S01D78A3F074BA509(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = CD950F4AD2C2702A1
   L2_2 = L2_2.S44C3C84D7B81D6D8
@@ -448,11 +400,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "S66EDB494164E5C8F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUIMessage.S66EDB494164E5C8F
+function CD950F4AD2C2702A1.S66EDB494164E5C8F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = CD950F4AD2C2702A1
   L2_2 = L2_2.S44C3C84D7B81D6D8
@@ -479,11 +428,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "SB6D8F685FFC90858"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.ui.BattleSpotUIMessage.SB6D8F685FFC90858
+function CD950F4AD2C2702A1.SB6D8F685FFC90858(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = {}
   L2_2[1] = "msg_ui_btlspot_entryoption_select_category01"
@@ -505,11 +451,8 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "SBF557836781B258A"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.btlspot.ui.BattleSpotUIMessage.SBF557836781B258A
+function CD950F4AD2C2702A1.SBF557836781B258A(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = CD950F4AD2C2702A1
   L3_2 = L3_2.S44C3C84D7B81D6D8
@@ -522,11 +465,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD950F4AD2C2702A1"]
-L69_1 = "S9E1055D83B2E9920"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.btlspot.ui.BattleSpotUIMessage.S9E1055D83B2E9920
+function CD950F4AD2C2702A1.S9E1055D83B2E9920(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = L10_1.math
   L3_2 = L3_2.floor

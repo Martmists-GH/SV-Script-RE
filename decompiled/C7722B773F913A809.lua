@@ -1,3 +1,7 @@
+---@alias C7722B773F913A809 main_ui_shop_ShopUICommonLayout
+
+---@class main_ui_shop_ShopUICommonLayout : C7722B773F913A809_prototype
+---@field prototype C7722B773F913A809_prototype
 L55_1 = _ENV
 L56_1 = "C7722B773F913A809"
 L57_1 = L15_1
@@ -34,16 +38,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C7722B773F913A809"]
 L69_1 = "__name__"
 L70_1 = "C7722B773F913A809"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7722B773F913A809"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7722B773F913A809"]["prototype"]
-L69_1 = "F0E47A597FB435DB7"
-
-function L70_1(A0_2, A1_2)
+---@class C7722B773F913A809_prototype
+C7722B773F913A809_prototype = L15_1()
+C7722B773F913A809.prototype = C7722B773F913A809_prototype
+--- main.ui.shop.ShopUICommonLayout.SetupSequence
+function C7722B773F913A809_prototype:F0E47A597FB435DB7(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   while true do
     L3_2 = A1_2
@@ -75,7 +74,7 @@ function L70_1(A0_2, A1_2)
   if L4_2 == L5_2 then
     L4_2 = nil
   end
-  A0_2[2] = L4_2
+  self[2] = L4_2
   L6_2 = A1_2
   L5_2 = A1_2.fD4E64AB7
   L7_2 = "view_common_bag_shop_list_00"
@@ -95,8 +94,8 @@ function L70_1(A0_2, A1_2)
   if L7_2 == L8_2 then
     L7_2 = nil
   end
-  A0_2[3] = L7_2
-  L8_2 = A0_2[3]
+  self[3] = L7_2
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.FE53FB02F92557D98
   L10_2 = L31_1.string
@@ -114,36 +113,30 @@ function L70_1(A0_2, A1_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7722B773F913A809"]["prototype"]
-L69_1 = "F538A8B3DC3EADD60"
-
-function L70_1(A0_2)
+--- main.ui.shop.ShopUICommonLayout.CommonStartFlow
+function C7722B773F913A809_prototype:F538A8B3DC3EADD60()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.F8ECAA28B9538110D
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F02FA94C8F7D9711D
+  L4_2 = self
+  L5_2 = self.F02FA94C8F7D9711D
   L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7722B773F913A809"]["prototype"]
-L69_1 = "F02FA94C8F7D9711D"
-
-function L70_1(A0_2)
+--- main.ui.shop.ShopUICommonLayout.CommonStartFlowSequence
+function C7722B773F913A809_prototype:F02FA94C8F7D9711D()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if not L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.F509A6A442B8D4302
     L1_2(L2_2)
     while true do
-      L1_2 = A0_2[3]
+      L1_2 = self[3]
       L2_2 = L1_2
       L1_2 = L1_2.F4B14418238E3E740
       L1_2 = L1_2(L2_2)
@@ -159,30 +152,27 @@ function L70_1(A0_2)
     L1_2 = L1_2.SC6181320B46854EE
     L2_2 = "PLAY_UI_COMMON_OPEN"
     L1_2(L2_2)
-    L2_2 = A0_2
-    L1_2 = A0_2.FA23D39922B76B247
+    L2_2 = self
+    L1_2 = self.FA23D39922B76B247
     L3_2 = true
     L1_2(L2_2, L3_2)
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.FB3189E9A352B2D04
   L3_2 = false
   L1_2(L2_2, L3_2)
-  A0_2[4] = true
+  self[4] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7722B773F913A809"]["prototype"]
-L69_1 = "FD4B60EEA339D9F5F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.ShopUICommonLayout.SetCommonLayoutMode
+function C7722B773F913A809_prototype:FD4B60EEA339D9F5F(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.FF32CC3BE322652A8
   L4_2 = "layout_00"
@@ -190,17 +180,14 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7722B773F913A809"]["prototype"]
-L69_1 = "FA23D39922B76B247"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.ShopUICommonLayout.SetVisible
+function C7722B773F913A809_prototype:FA23D39922B76B247(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F3697F703C19063FF
   L2_2 = L2_2(L3_2)
@@ -211,28 +198,22 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7722B773F913A809"]["prototype"]
-L69_1 = "FB3189E9A352B2D04"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.ShopUICommonLayout.SetControl
+function C7722B773F913A809_prototype:FB3189E9A352B2D04(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.FB3189E9A352B2D04
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7722B773F913A809"]["prototype"]
-L69_1 = "F7850102A6B99FE56"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.shop.ShopUICommonLayout.SetNormalQuantityPrice
+function C7722B773F913A809_prototype:F7850102A6B99FE56(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A4_2 then
     A4_2 = 0
@@ -240,11 +221,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   if nil == A3_2 then
     A3_2 = false
   end
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   if nil == L5_2 then
     return
   end
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.FE53FB02F92557D98
   L7_2 = L31_1.string
@@ -334,7 +315,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L13_2 = L6_2
   L11_2, L12_2, L13_2, L14_2, L15_2 = L11_2(L12_2, L13_2)
   L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
-  L10_2 = A0_2[3]
+  L10_2 = self[3]
   L11_2 = L10_2
   L10_2 = L10_2.FE53FB02F92557D98
   L12_2 = L31_1.string
@@ -348,11 +329,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L10_2(L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7722B773F913A809"]["prototype"]
-L69_1 = "FDD0BA2CE83BFC4BE"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.shop.ShopUICommonLayout.SetMultiQuantityPrice
+function C7722B773F913A809_prototype:FDD0BA2CE83BFC4BE(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A3_2 then
     A3_2 = 0
@@ -360,11 +338,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   if nil == A2_2 then
     A2_2 = false
   end
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   if nil == L4_2 then
     return
   end
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.FF32CC3BE322652A8
   L6_2 = L31_1.string
@@ -389,7 +367,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   
   L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L7_2()
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.FE53FB02F92557D98
   L6_2 = L31_1.string
@@ -405,7 +383,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L9_2 = "shop_20"
   L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L7_2(L8_2, L9_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.FE53FB02F92557D98
   L6_2 = L31_1.string
@@ -421,7 +399,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L9_2 = "shop_21"
   L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L7_2(L8_2, L9_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.FE53FB02F92557D98
   L6_2 = L31_1.string
@@ -467,7 +445,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L10_2 = L4_2
   L8_2, L9_2, L10_2, L11_2, L12_2 = L8_2(L9_2, L10_2)
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L8_2 = L7_2
   L7_2 = L7_2.FE53FB02F92557D98
   L9_2 = L31_1.string
@@ -481,13 +459,10 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2(L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7722B773F913A809"]["prototype"]
-L69_1 = "F9DC0BD22BBB1DDF1"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.shop.ShopUICommonLayout.ScrollPanelViewStart
+function C7722B773F913A809_prototype:F9DC0BD22BBB1DDF1(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   if nil == L5_2 then
     return
   end
@@ -495,7 +470,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2 = L5_2.SC6181320B46854EE
   L6_2 = "PLAY_UI_SHOP_RECEIPT"
   L5_2(L6_2)
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.F9DC0BD22BBB1DDF1
   L7_2 = A1_2
@@ -503,7 +478,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L9_2 = A3_2
   L10_2 = A4_2
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.FB3189E9A352B2D04
   L7_2 = true

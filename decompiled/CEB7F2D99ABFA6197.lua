@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CEB7F2D99ABFA6197"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CEB7F2D99ABFA6197"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEB7F2D99ABFA6197"]
-L69_1 = "__name__"
-L70_1 = "CEB7F2D99ABFA6197"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEB7F2D99ABFA6197"]
-L69_1 = "SB0E6639C374E257F"
+---@alias CEB7F2D99ABFA6197 main_ui_ride_SystemRideUtility
 
-function L70_1()
+---@class main_ui_ride_SystemRideUtility
+CEB7F2D99ABFA6197 = L15_1()
+CEB7F2D99ABFA6197.new = {}
+CEB7F2D99ABFA6197.__name__ = "CEB7F2D99ABFA6197"
+--- main.ui.ride.SystemRideUtility.IsCanRide
+function CEB7F2D99ABFA6197.SB0E6639C374E257F()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = CEB7F2D99ABFA6197
   L0_2 = L0_2.S17EA60CAB59790AC
@@ -60,11 +51,8 @@ function L70_1()
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEB7F2D99ABFA6197"]
-L69_1 = "S9E5ACAAAE7DE98FC"
-
-function L70_1(A0_2)
+--- main.ui.ride.SystemRideUtility.S9E5ACAAAE7DE98FC
+function CEB7F2D99ABFA6197.S9E5ACAAAE7DE98FC(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C502A74E467A441C4
   L1_2 = L1_2.SB4A0BDBEB4D10815
@@ -84,11 +72,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEB7F2D99ABFA6197"]
-L69_1 = "S1B542482816C630E"
-
-function L70_1()
+--- main.ui.ride.SystemRideUtility.IsNo1Value
+function CEB7F2D99ABFA6197.S1B542482816C630E()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = c1A1CBE3B
   L0_2 = L0_2.fFCE06E04
@@ -115,11 +100,8 @@ function L70_1()
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEB7F2D99ABFA6197"]
-L69_1 = "S17EA60CAB59790AC"
-
-function L70_1()
+--- main.ui.ride.SystemRideUtility.IsChangeRideEventRunning
+function CEB7F2D99ABFA6197.S17EA60CAB59790AC()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = CF67A67452D018ECC
   L0_2 = L0_2.SC8223E31D3163519
@@ -176,11 +158,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEB7F2D99ABFA6197"]
-L69_1 = "S82AD8FED255BFD51"
-
-function L70_1()
+--- main.ui.ride.SystemRideUtility.S82AD8FED255BFD51
+function CEB7F2D99ABFA6197.S82AD8FED255BFD51()
   local L0_2, L1_2
   L0_2 = cCDB92DE8
   L0_2 = L0_2.fF8320392
@@ -199,11 +178,8 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEB7F2D99ABFA6197"]
-L69_1 = "S3A0EA21525CCEC3D"
-
-function L70_1(A0_2)
+--- main.ui.ride.SystemRideUtility.ChangeRideForm
+function CEB7F2D99ABFA6197.S3A0EA21525CCEC3D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A0_2 then
     A0_2 = true

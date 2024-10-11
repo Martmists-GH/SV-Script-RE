@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CEA153C6AE12204BC"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "__name__"
-L70_1 = "CEA153C6AE12204BC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "S84B36A916A73EAB8"
+---@alias CEA153C6AE12204BC main_evolution_EvolutionUtil
 
-function L70_1(A0_2)
+---@class main_evolution_EvolutionUtil
+CEA153C6AE12204BC = L15_1()
+CEA153C6AE12204BC.new = {}
+CEA153C6AE12204BC.__name__ = "CEA153C6AE12204BC"
+--- main.evolution.EvolutionUtil.CreateEvolveSituation
+function CEA153C6AE12204BC.S84B36A916A73EAB8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = c0248285D
   L1_2 = L1_2.f101D811F
@@ -121,11 +112,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "S714F10F7E47A83C1"
-
-function L70_1(A0_2)
+--- main.evolution.EvolutionUtil.GetCanEvolutionTarget
+function CEA153C6AE12204BC.S714F10F7E47A83C1(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
   L1_2 = false
   L2_2 = A0_2.pokeparty
@@ -327,11 +315,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "S88B40ABC9819000F"
-
-function L70_1(A0_2)
+--- main.evolution.EvolutionUtil.GetCanEvolutionTargetByItem
+function CEA153C6AE12204BC.S88B40ABC9819000F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
@@ -425,11 +410,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "S8AA5A43E920DC930"
-
-function L70_1(A0_2)
+--- main.evolution.EvolutionUtil.SetupPokemonParam
+function CEA153C6AE12204BC.S8AA5A43E920DC930(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C14A8D35D72F56FE9
   L1_2 = L1_2.S90D73F1D715BCBF4
@@ -450,11 +432,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "S819345637C7F4302"
-
-function L70_1(A0_2)
+--- main.evolution.EvolutionUtil.PostProcessPokemonParam
+function CEA153C6AE12204BC.S819345637C7F4302(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L2_2 = A0_2
   L1_2 = A0_2.f0BD5134F
@@ -474,11 +453,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "S59EE6BCC2A893FB5"
-
-function L70_1(A0_2)
+--- main.evolution.EvolutionUtil.S59EE6BCC2A893FB5
+function CEA153C6AE12204BC.S59EE6BCC2A893FB5(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CEA153C6AE12204BC
   L1_2 = L1_2.S17F97D21630FD34F
@@ -490,11 +466,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "S17F97D21630FD34F"
-
-function L70_1(A0_2)
+--- main.evolution.EvolutionUtil.S17F97D21630FD34F
+function CEA153C6AE12204BC.S17F97D21630FD34F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
@@ -557,11 +530,8 @@ function L70_1(A0_2)
   return L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "S6518E75111CB5731"
-
-function L70_1(A0_2)
+--- main.evolution.EvolutionUtil.S6518E75111CB5731
+function CEA153C6AE12204BC.S6518E75111CB5731(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   
   function L1_2(A0_3)
@@ -614,11 +584,8 @@ function L70_1(A0_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "SFEEF254A99C42A3C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.evolution.EvolutionUtil.SetupEvolveDemo
+function CEA153C6AE12204BC.SFEEF254A99C42A3C(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = cB3292B34
   L3_2 = L3_2.f101D811F
@@ -650,11 +617,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "S7F3A6732D31AE909"
-
-function L70_1()
+--- main.evolution.EvolutionUtil.ObserveEvolveDemo
+function CEA153C6AE12204BC.S7F3A6732D31AE909()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CEA153C6AE12204BC
   L0_2 = L0_2.S5E6DAF35DC5A13CA
@@ -688,11 +652,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "SD7C7F5CA2C591B1C"
-
-function L70_1(A0_2)
+--- main.evolution.EvolutionUtil.GetPartnerPokemonDataHandler
+function CEA153C6AE12204BC.SD7C7F5CA2C591B1C(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = c4E28AB7C
   L1_2 = L1_2.fB41FD22F
@@ -727,11 +688,8 @@ function L70_1(A0_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "SD0E0ECA457201221"
-
-function L70_1(A0_2)
+--- main.evolution.EvolutionUtil.GetObonFloaterSize
+function CEA153C6AE12204BC.SD0E0ECA457201221(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CEA153C6AE12204BC
   L1_2 = L1_2.SD7C7F5CA2C591B1C
@@ -752,11 +710,8 @@ function L70_1(A0_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "S14BC8DDC921895EE"
-
-function L70_1(A0_2, A1_2)
+--- main.evolution.EvolutionUtil.GetWaitType
+function CEA153C6AE12204BC.S14BC8DDC921895EE(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = CEA153C6AE12204BC
   L2_2 = L2_2.SD7C7F5CA2C591B1C
@@ -794,11 +749,8 @@ function L70_1(A0_2, A1_2)
   return L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "S694A715E8E781BE1"
-
-function L70_1(A0_2, A1_2)
+--- main.evolution.EvolutionUtil.GetWaitAnimationState
+function CEA153C6AE12204BC.S694A715E8E781BE1(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CEA153C6AE12204BC
   L2_2 = L2_2.S14BC8DDC921895EE
@@ -820,11 +772,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA153C6AE12204BC"]
-L69_1 = "S47AD1FFC3EAE1608"
-
-function L70_1(A0_2, A1_2)
+--- main.evolution.EvolutionUtil.S47AD1FFC3EAE1608
+function CEA153C6AE12204BC.S47AD1FFC3EAE1608(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C15CC1ED2CD40DD0C
   L2_2 = L2_2.S47AD1FFC3EAE1608

@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C5A1B1F295B2A231A"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C5A1B1F295B2A231A"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A1B1F295B2A231A"]
-L69_1 = "__name__"
-L70_1 = "C5A1B1F295B2A231A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A1B1F295B2A231A"]
-L69_1 = "S911598616BAC06BC"
+---@alias C5A1B1F295B2A231A main_field_contents_ContentsUtil
 
-function L70_1(A0_2, A1_2)
+---@class main_field_contents_ContentsUtil
+C5A1B1F295B2A231A = L15_1()
+C5A1B1F295B2A231A.new = {}
+C5A1B1F295B2A231A.__name__ = "C5A1B1F295B2A231A"
+--- main.field.contents.ContentsUtil.SetModelVisibility
+function C5A1B1F295B2A231A.S911598616BAC06BC(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cECB91E31
   L2_2 = L2_2.fB41FD22F
@@ -34,11 +25,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A1B1F295B2A231A"]
-L69_1 = "S0CE7E7BC4FFC7C77"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.ContentsUtil.RequestEmotion
+function C5A1B1F295B2A231A.S0CE7E7BC4FFC7C77(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = c44F58C26
   L2_2 = L2_2.fFA4E39DA
@@ -71,11 +59,8 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A1B1F295B2A231A"]
-L69_1 = "SC660675BA011EB41"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.ContentsUtil.SetEyeState
+function C5A1B1F295B2A231A.SC660675BA011EB41(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = c44F58C26
   L2_2 = L2_2.fFA4E39DA
@@ -127,11 +112,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A1B1F295B2A231A"]
-L69_1 = "SE568D9B835C7FB44"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.contents.ContentsUtil.GetNodePosition
+function C5A1B1F295B2A231A.SE568D9B835C7FB44(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = A1_2
   L3_2 = A1_2.fEFEBD7E3
@@ -158,11 +140,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A1B1F295B2A231A"]
-L69_1 = "SC5F43AE816E8DBF2"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.ContentsUtil.GetNodeIndexPosition
+function C5A1B1F295B2A231A.SC5F43AE816E8DBF2(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = A0_2
   L2_2 = A0_2.f4D93367B
@@ -194,11 +173,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A1B1F295B2A231A"]
-L69_1 = "S9C660A3B7A4323C1"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.contents.ContentsUtil.GetNodeLocalPosition
+function C5A1B1F295B2A231A.S9C660A3B7A4323C1(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L4_2 = A1_2
   L3_2 = A1_2.fEEF8EB33
@@ -234,11 +210,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A1B1F295B2A231A"]
-L69_1 = "S3BB7FFDC81E54643"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.contents.ContentsUtil.GetNodeIndexLocalPosition
+function C5A1B1F295B2A231A.S3BB7FFDC81E54643(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A2_2 then
     A2_2 = "default"
@@ -277,11 +250,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A1B1F295B2A231A"]
-L69_1 = "SCF2D95BED79A8F57"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.ContentsUtil.GetNodeIndexRotation
+function C5A1B1F295B2A231A.SCF2D95BED79A8F57(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cD5675BA5
   L2_2 = L2_2.f17EF09C7
@@ -293,11 +263,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A1B1F295B2A231A"]
-L69_1 = "S82C5A2BBE6EE9317"
-
-function L70_1(A0_2)
+--- main.field.contents.ContentsUtil.OpenPicnic
+function C5A1B1F295B2A231A.S82C5A2BBE6EE9317(A0_2)
   local L1_2, L2_2
   L1_2 = CB4E56E9599A85891
   L1_2 = L1_2.S93B4A5B138AB6569
@@ -305,11 +272,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A1B1F295B2A231A"]
-L69_1 = "S707D7E7BFDD15535"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.ContentsUtil.ClosePicnic
+function C5A1B1F295B2A231A.S707D7E7BFDD15535(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if nil == A1_2 then
     A1_2 = false

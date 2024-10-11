@@ -1,15 +1,10 @@
-L68_1 = _ENV["CDEA41987CB3BEE4F"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDEA41987CB3BEE4F"]
-L69_1 = "__name__"
-L70_1 = "CDEA41987CB3BEE4F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDEA41987CB3BEE4F"]
-L69_1 = "S77E0D5189BA07DC5"
+---@alias CDEA41987CB3BEE4F main_ajito_util_AjitoObjectData
 
-function L70_1(A0_2)
+---@class main_ajito_util_AjitoObjectData
+CDEA41987CB3BEE4F.new = {}
+CDEA41987CB3BEE4F.__name__ = "CDEA41987CB3BEE4F"
+--- main.ajito.util.AjitoObjectData.S77E0D5189BA07DC5
+function CDEA41987CB3BEE4F.S77E0D5189BA07DC5(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = L31_1.string
   L2_2 = L31_1.string
@@ -30,11 +25,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDEA41987CB3BEE4F"]
-L69_1 = "SE9D67A1A05F6B629"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoObjectData.SE9D67A1A05F6B629
+function CDEA41987CB3BEE4F.SE9D67A1A05F6B629(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = L31_1.string
   L2_2 = L31_1.string

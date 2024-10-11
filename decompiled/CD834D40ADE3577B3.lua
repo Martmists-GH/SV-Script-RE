@@ -1,31 +1,19 @@
-L55_1 = _ENV
-L56_1 = "CD834D40ADE3577B3"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "__name__"
-L70_1 = "CD834D40ADE3577B3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "S3A84A5747CA48480"
+---@alias CD834D40ADE3577B3 main_event_common_scenario_main_champion_ChampCommon
 
-function L70_1()
+---@class main_event_common_scenario_main_champion_ChampCommon
+CD834D40ADE3577B3 = L15_1()
+CD834D40ADE3577B3.new = {}
+CD834D40ADE3577B3.__name__ = "CD834D40ADE3577B3"
+--- main.event.common.scenario.main.champion.ChampCommon.GetGymBadgeCount
+function CD834D40ADE3577B3.S3A84A5747CA48480()
   local L0_2, L1_2
   L0_2 = CD834D40ADE3577B3
   L0_2 = L0_2.SE04FE1B8806D9FAA
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "SE04FE1B8806D9FAA"
-
-function L70_1()
+--- main.event.common.scenario.main.champion.ChampCommon.GetGymClearCount
+function CD834D40ADE3577B3.SE04FE1B8806D9FAA()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = 0
   L1_2 = 0
@@ -49,11 +37,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "S9CABCEFEFF4460D1"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.champion.ChampCommon.S9CABCEFEFF4460D1
+function CD834D40ADE3577B3.S9CABCEFEFF4460D1(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = 0
   L2_2 = A0_2
@@ -92,11 +77,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "S519101AF87DEDB82"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.champion.ChampCommon.GetGymType
+function CD834D40ADE3577B3.S519101AF87DEDB82(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = CD834D40ADE3577B3
@@ -118,11 +100,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "S0CB71CE7C7CA9CB6"
-
-function L70_1()
+--- main.event.common.scenario.main.champion.ChampCommon.S0CB71CE7C7CA9CB6
+function CD834D40ADE3577B3.S0CB71CE7C7CA9CB6()
   local L0_2, L1_2, L2_2
   L0_2 = CD834D40ADE3577B3
   L0_2 = L0_2.S519101AF87DEDB82
@@ -139,11 +118,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "SFF222D7CE0A91D82"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.champion.ChampCommon.SFF222D7CE0A91D82
+function CD834D40ADE3577B3.SFF222D7CE0A91D82(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = CD834D40ADE3577B3
@@ -165,11 +141,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "SDBEEE3477CE34ED8"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.champion.ChampCommon.UIOAAAAAAAAAAAAAAAS7m.Gym_esper_
+function CD834D40ADE3577B3.SDBEEE3477CE34ED8(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = CD834D40ADE3577B3
@@ -191,11 +164,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "SBF718E1F0292C3E9"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.champion.ChampCommon.GetGymSceneName
+function CD834D40ADE3577B3.SBF718E1F0292C3E9(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = ""
   L2_2 = CD834D40ADE3577B3
@@ -227,11 +197,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "S5EA7DDAB5C3070EF"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.champion.ChampCommon.GetGymReceptionLocationName
+function CD834D40ADE3577B3.S5EA7DDAB5C3070EF(A0_2)
   local L1_2
   L1_2 = ""
   if -1 ~= A0_2 and 8 ~= A0_2 then
@@ -242,11 +209,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "S098BA219616472DD"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.champion.ChampCommon.IsGymClear
+function CD834D40ADE3577B3.S098BA219616472DD(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
   L2_2 = CD834D40ADE3577B3
@@ -270,22 +234,16 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "SDF0C255E6E08D740"
-
-function L70_1()
+--- main.event.common.scenario.main.champion.ChampCommon.SDF0C255E6E08D740
+function CD834D40ADE3577B3.SDF0C255E6E08D740()
   local L0_2, L1_2
   L0_2 = CA4C5F9FA83D2AF80
   L0_2 = L0_2.SDF0C255E6E08D740
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "S4D397DDABA665927"
-
-function L70_1()
+--- main.event.common.scenario.main.champion.ChampCommon.S4D397DDABA665927
+function CD834D40ADE3577B3.S4D397DDABA665927()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = CD834D40ADE3577B3
   L0_2 = L0_2.SE04FE1B8806D9FAA
@@ -324,11 +282,8 @@ function L70_1()
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD834D40ADE3577B3"]
-L69_1 = "S190E3365E5D77C88"
-
-function L70_1(A0_2, A1_2)
+--- main.event.common.scenario.main.champion.ChampCommon.S190E3365E5D77C88
+function CD834D40ADE3577B3.S190E3365E5D77C88(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A1_2 then
     A1_2 = -1

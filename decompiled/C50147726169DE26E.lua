@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C50147726169DE26E"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C50147726169DE26E"]
-L69_1 = "new"
+---@alias C50147726169DE26E main_ui_ymap_topmenu_YMapTopMenuViewObject
 
-function L70_1(A0_2)
+---@class main_ui_ymap_topmenu_YMapTopMenuViewObject : C50147726169DE26E_prototype
+---@field prototype C50147726169DE26E_prototype
+C50147726169DE26E = L15_1()
+function C50147726169DE26E.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C50147726169DE26E
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50147726169DE26E"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C50147726169DE26E
+function C50147726169DE26E.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[7] = nil
   A0_2[6] = nil
@@ -47,81 +41,70 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C50147726169DE26E"]
 L69_1 = "__name__"
 L70_1 = "C50147726169DE26E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50147726169DE26E"]
-L69_1 = "S85F35D37A4B08E4D"
-
-function L70_1()
+--- main.ui.ymap.topmenu.YMapTopMenuViewObject.GetLayout
+function C50147726169DE26E.S85F35D37A4B08E4D()
   local L0_2, L1_2
   L0_2 = C50147726169DE26E
   L0_2 = L0_2.SD0297389167D38FF
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50147726169DE26E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50147726169DE26E"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C50147726169DE26E_prototype
+C50147726169DE26E_prototype = L15_1()
+C50147726169DE26E.prototype = C50147726169DE26E_prototype
+--- main.ui.ymap.topmenu.YMapTopMenuViewObject.Setup
+function C50147726169DE26E_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C50147726169DE26E
   L3_2 = cECF00344
   L3_2 = L3_2.fEECE6995
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L2_2.SD0297389167D38FF = L3_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FE07948BEB30B3094
+  L3_2 = self
+  L2_2 = self.FE07948BEB30B3094
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50147726169DE26E"]["prototype"]
-L69_1 = "FE07948BEB30B3094"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.YMapTopMenuViewObject.SetupShortcutInput
+function C50147726169DE26E_prototype:FE07948BEB30B3094()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C04C2A679B8598CA6
   L2_2 = L2_2.SD071DF9D0379766A
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = 5
   L5_2 = false
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
   L2_2 = C04C2A679B8598CA6
   L2_2 = L2_2.SD071DF9D0379766A
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = 4
   L5_2 = false
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
   L2_2 = C04C2A679B8598CA6
   L2_2 = L2_2.SD071DF9D0379766A
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = 6
   L5_2 = false
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2[6] = L2_2
+  self[6] = L2_2
   L2_2 = C04C2A679B8598CA6
   L2_2 = L2_2.SD071DF9D0379766A
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = 7
   L5_2 = false
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2[7] = L2_2
-  L2_2 = A0_2[4]
+  self[7] = L2_2
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.f52779085
   
@@ -138,7 +121,7 @@ function L70_1(A0_2)
   end
   
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.f52779085
   
@@ -155,7 +138,7 @@ function L70_1(A0_2)
   end
   
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.f52779085
   
@@ -172,7 +155,7 @@ function L70_1(A0_2)
   end
   
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.f52779085
   
@@ -191,18 +174,15 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50147726169DE26E"]["prototype"]
-L69_1 = "FA1193F62C8CE9E2D"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.YMapTopMenuViewObject.IsCloseTopMenu
+function C50147726169DE26E_prototype:FA1193F62C8CE9E2D()
   local L1_2, L2_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.fDEEB3A8E
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L1_2 = A0_2[6]
+    L1_2 = self[6]
     L2_2 = L1_2
     L1_2 = L1_2.fDEEB3A8E
     return L1_2(L2_2)
@@ -212,52 +192,40 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50147726169DE26E"]["prototype"]
-L69_1 = "F1017C98594D892AD"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.YMapTopMenuViewObject.IsGotoMiniMap
+function C50147726169DE26E_prototype:F1017C98594D892AD()
   local L1_2, L2_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.fDEEB3A8E
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50147726169DE26E"]["prototype"]
-L69_1 = "F662618219342164B"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.YMapTopMenuViewObject.IsCancel
+function C50147726169DE26E_prototype:F662618219342164B()
   local L1_2, L2_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.fDEEB3A8E
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50147726169DE26E"]["prototype"]
-L69_1 = "F05BE586ACE456D71"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.YMapTopMenuViewObject.IsDecide
+function C50147726169DE26E_prototype:F05BE586ACE456D71()
   local L1_2, L2_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.fDEEB3A8E
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50147726169DE26E"]["prototype"]
-L69_1 = "F8FAAA0B73A0E0167"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.topmenu.YMapTopMenuViewObject.SetTriggerEvent
+function C50147726169DE26E_prototype:F8FAAA0B73A0E0167(A1_2)
   local L2_2, L3_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F4765FE783F55682D = L2_2
+  self.F4765FE783F55682D = L2_2
 end
 
 L68_1[L69_1] = L70_1

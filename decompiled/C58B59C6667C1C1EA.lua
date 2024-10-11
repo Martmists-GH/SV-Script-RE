@@ -1,3 +1,7 @@
+---@alias C58B59C6667C1C1EA main_ui_shop_base_ShopUICursorLayoutBase
+
+---@class main_ui_shop_base_ShopUICursorLayoutBase : C58B59C6667C1C1EA_prototype
+---@field prototype C58B59C6667C1C1EA_prototype
 L55_1 = _ENV
 L56_1 = "C58B59C6667C1C1EA"
 L57_1 = L15_1
@@ -40,30 +44,25 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C58B59C6667C1C1EA"]
 L69_1 = "__name__"
 L70_1 = "C58B59C6667C1C1EA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C58B59C6667C1C1EA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C58B59C6667C1C1EA"]["prototype"]
-L69_1 = "F7CD5FEDB7A083576"
-
-function L70_1(A0_2, A1_2)
+---@class C58B59C6667C1C1EA_prototype
+C58B59C6667C1C1EA_prototype = L15_1()
+C58B59C6667C1C1EA.prototype = C58B59C6667C1C1EA_prototype
+--- main.ui.shop.base.ShopUICursorLayoutBase.SetUp
+function C58B59C6667C1C1EA_prototype:F7CD5FEDB7A083576(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FA23D39922B76B247
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = true
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FAA3F191C3771A337
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FC408B64E96A326C4
+  L4_2 = self
+  L3_2 = self.FC408B64E96A326C4
   L3_2 = L3_2(L4_2)
   L4_2 = {}
   L5_2 = L2_2[1]
@@ -75,28 +74,25 @@ function L70_1(A0_2, A1_2)
   L4_2[1] = L5_2
   L4_2[2] = L6_2
   L2_2 = L4_2
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = L4_2
   L4_2 = L4_2.F0E7190F04DBC09B3
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L2_2
   L4_2(L5_2, L6_2, L7_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FDDA2AFCC5C59FA03
+  L5_2 = self
+  L4_2 = self.FDDA2AFCC5C59FA03
   L6_2 = 1
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C58B59C6667C1C1EA"]["prototype"]
-L69_1 = "F53EE397E2BD0D098"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.base.ShopUICursorLayoutBase.PlayAnimeUP
+function C58B59C6667C1C1EA_prototype:F53EE397E2BD0D098(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A1_2 then
     A1_2 = true
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.F748A3DCD68216D1D
   L4_2 = L31_1.string
@@ -104,7 +100,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = ""
   L5_2 = L5_2(L6_2)
   L6_2 = L31_1.string
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 .. L6_2
   L4_2 = L4_2(L5_2)
@@ -122,16 +118,13 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C58B59C6667C1C1EA"]["prototype"]
-L69_1 = "FF35E85408B7BEE2D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.base.ShopUICursorLayoutBase.PlayAnimeDown
+function C58B59C6667C1C1EA_prototype:FF35E85408B7BEE2D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A1_2 then
     A1_2 = true
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.F748A3DCD68216D1D
   L4_2 = L31_1.string
@@ -139,7 +132,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = ""
   L5_2 = L5_2(L6_2)
   L6_2 = L31_1.string
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 .. L6_2
   L4_2 = L4_2(L5_2)
@@ -157,13 +150,10 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C58B59C6667C1C1EA"]["prototype"]
-L69_1 = "F7885CED7EE714B0D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.base.ShopUICursorLayoutBase.SetCursorVisible
+function C58B59C6667C1C1EA_prototype:F7885CED7EE714B0D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FA23D39922B76B247
   L4_2 = L31_1.string
@@ -171,7 +161,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = ""
   L5_2 = L5_2(L6_2)
   L6_2 = L31_1.string
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 .. L6_2
   L4_2 = L4_2(L5_2)
@@ -183,14 +173,11 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C58B59C6667C1C1EA"]["prototype"]
-L69_1 = "FDDA2AFCC5C59FA03"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.base.ShopUICursorLayoutBase.SetItemNumText
+function C58B59C6667C1C1EA_prototype:FDDA2AFCC5C59FA03(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[3]
-  L3_2 = A0_2[4]
+  L2_2 = self[3]
+  L3_2 = self[4]
   L4_2 = 0
   L5_2 = C828F047963375FA0
   L5_2 = L5_2.S480298DAE2C025D0
@@ -217,7 +204,7 @@ function L70_1(A0_2, A1_2)
   L9_2 = L3_2
   L7_2, L8_2, L9_2, L10_2, L11_2 = L7_2(L8_2, L9_2)
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L7_2 = L6_2
   L6_2 = L6_2.FC8489078C201C47F
   L6_2 = L6_2(L7_2)
@@ -228,7 +215,7 @@ function L70_1(A0_2, A1_2)
   L10_2 = ""
   L9_2 = L9_2(L10_2)
   L10_2 = L31_1.string
-  L11_2 = A0_2[2]
+  L11_2 = self[2]
   L10_2 = L10_2(L11_2)
   L9_2 = L9_2 .. L10_2
   L8_2 = L8_2(L9_2)
@@ -240,13 +227,10 @@ function L70_1(A0_2, A1_2)
   L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C58B59C6667C1C1EA"]["prototype"]
-L69_1 = "FC408B64E96A326C4"
-
-function L70_1(A0_2)
+--- main.ui.shop.base.ShopUICursorLayoutBase.GetPararentPos
+function C58B59C6667C1C1EA_prototype:FC408B64E96A326C4()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.FAA3F191C3771A337
   L3_2 = "L_item_panel_00/S_scissor_00"

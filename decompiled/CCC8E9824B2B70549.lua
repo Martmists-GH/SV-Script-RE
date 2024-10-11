@@ -1,3 +1,7 @@
+---@alias CCC8E9824B2B70549 main_event_debug_ui_DebugHUDButtonGuideEvent
+
+---@class main_event_debug_ui_DebugHUDButtonGuideEvent : CCC8E9824B2B70549_prototype
+---@field prototype CCC8E9824B2B70549_prototype
 L55_1 = _ENV
 L56_1 = "CCC8E9824B2B70549"
 L57_1 = L15_1
@@ -45,20 +49,15 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCC8E9824B2B70549"]
 L69_1 = "__name__"
 L70_1 = "CCC8E9824B2B70549"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC8E9824B2B70549"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC8E9824B2B70549"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CCC8E9824B2B70549_prototype
+CCC8E9824B2B70549_prototype = L15_1()
+CCC8E9824B2B70549.prototype = CCC8E9824B2B70549_prototype
+--- main.event.debug.ui.DebugHUDButtonGuideEvent.mainBody
+function CCC8E9824B2B70549_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2
   L1_2 = C25887F29D07C2887
   L1_2 = L1_2.S32842824C2FD8FAE
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.hudButtonGuideID
   L1_2(L2_2)
 end

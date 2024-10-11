@@ -1,3 +1,7 @@
+---@alias C6A7B159FE39E555C main_ui_btlspot_state_machine_top_BattleSpotStateTopStart
+
+---@class main_ui_btlspot_state_machine_top_BattleSpotStateTopStart : C6A7B159FE39E555C_prototype
+---@field prototype C6A7B159FE39E555C_prototype
 L55_1 = _ENV
 L56_1 = "CCCB97693971F2C93"
 L57_1 = L15_1
@@ -45,11 +49,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCCB97693971F2C93"]
 L69_1 = "__name__"
 L70_1 = "CCCB97693971F2C93"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCCB97693971F2C93"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C6A7B159FE39E555C_prototype
+C6A7B159FE39E555C_prototype = L15_1()
+C6A7B159FE39E555C.prototype = C6A7B159FE39E555C_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCCB97693971F2C93"]["prototype"]
 L69_1 = _ENV["CCCB97693971F2C93"]

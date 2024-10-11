@@ -1,3 +1,5 @@
+---@class C70609931E9535F46 : C70609931E9535F46_prototype
+---@field prototype C70609931E9535F46_prototype
 L55_1 = _ENV
 L56_1 = "C70609931E9535F46"
 L57_1 = L15_1
@@ -46,21 +48,16 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C70609931E9535F46"]
 L69_1 = "__name__"
 L70_1 = "C70609931E9535F46"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C70609931E9535F46"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C70609931E9535F46"]["prototype"]
-L69_1 = "FCD817043038ADFCD"
-
-function L70_1(A0_2, A1_2)
+---@class C70609931E9535F46_prototype
+C70609931E9535F46_prototype = L15_1()
+C70609931E9535F46.prototype = C70609931E9535F46_prototype
+--- C70609931E9535F46.SetEnableShiftState
+function C70609931E9535F46_prototype:FCD817043038ADFCD(A1_2)
   local L2_2
   if nil == A1_2 then
     A1_2 = true
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[42]
   L2_2[19] = A1_2
 end

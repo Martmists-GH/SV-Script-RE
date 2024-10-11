@@ -1,3 +1,7 @@
+---@alias C9D1EEAF03ED64F86 main_pokepicnic_ui_PicnicMainUiController
+
+---@class main_pokepicnic_ui_PicnicMainUiController : C9D1EEAF03ED64F86_prototype
+---@field prototype C9D1EEAF03ED64F86_prototype
 L55_1 = _ENV
 L56_1 = "C9F5492D0C7113B53"
 L57_1 = L15_1
@@ -35,11 +39,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9F5492D0C7113B53"]
 L69_1 = "__name__"
 L70_1 = "C9F5492D0C7113B53"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9F5492D0C7113B53"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C9D1EEAF03ED64F86_prototype
+C9D1EEAF03ED64F86_prototype = L15_1()
+C9D1EEAF03ED64F86.prototype = C9D1EEAF03ED64F86_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9F5492D0C7113B53"]["prototype"]
 L69_1 = _ENV["C9F5492D0C7113B53"]

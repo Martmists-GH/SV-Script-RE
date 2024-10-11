@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C39EBE5E8F2288487"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "new"
+---@alias C39EBE5E8F2288487 main_nushi_NushiDebug
 
-function L70_1(A0_2)
+---@class main_nushi_NushiDebug : C39EBE5E8F2288487_prototype
+---@field prototype C39EBE5E8F2288487_prototype
+C39EBE5E8F2288487 = L15_1()
+function C39EBE5E8F2288487.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C39EBE5E8F2288487
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C39EBE5E8F2288487
+function C39EBE5E8F2288487.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[7] = nil
   A0_2[6] = nil
@@ -47,11 +41,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C39EBE5E8F2288487"]
 L69_1 = "__name__"
 L70_1 = "C39EBE5E8F2288487"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "S6702EB740449E945"
-
-function L70_1(A0_2)
+--- main.nushi.NushiDebug.GetBtlNushiObj
+function C39EBE5E8F2288487.S6702EB740449E945(A0_2)
   local L1_2, L2_2
   L1_2 = nil
   if 4 == A0_2 then
@@ -70,11 +61,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "S90F051E75C3A60EA"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiDebug.SetBtlNushiRT
+function C39EBE5E8F2288487.S90F051E75C3A60EA(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = C39EBE5E8F2288487
   L2_2 = L2_2.S6702EB740449E945
@@ -93,11 +81,8 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "S842EDB2C677B1266"
-
-function L70_1(A0_2)
+--- main.nushi.NushiDebug.GetBtlNushiFP
+function C39EBE5E8F2288487.S842EDB2C677B1266(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = c4E28AB7C
   L1_2 = L1_2.fB41FD22F
@@ -108,11 +93,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "S8BA1D72D0EF503A7"
-
-function L70_1(A0_2)
+--- main.nushi.NushiDebug.ResetBtlNushiPos
+function C39EBE5E8F2288487.S8BA1D72D0EF503A7(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = {}
   L2_2 = 1000
@@ -133,11 +115,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "S1D4B57AC73894557"
-
-function L70_1()
+--- main.nushi.NushiDebug.SpawnBtlFrendPartner
+function C39EBE5E8F2288487.S1D4B57AC73894557()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = cC99399C3
   L0_2 = L0_2.f101D811F
@@ -183,21 +162,15 @@ function L70_1()
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "S4C5B1F8DFFDDC294"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiDebug.DrawSetColor
+function C39EBE5E8F2288487.S4C5B1F8DFFDDC294(A0_2, A1_2)
   if nil == A1_2 then
     A1_2 = 1
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "SBC101C3F139B10E5"
-
-function L70_1(A0_2)
+--- main.nushi.NushiDebug.GetDrawVectorColor
+function C39EBE5E8F2288487.SBC101C3F139B10E5(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = A0_2[1]
   if 0 == L1_2 then
@@ -284,38 +257,26 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "SA86B4F7E48130011"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiDebug.DrawSetVectorColor
+function C39EBE5E8F2288487.SA86B4F7E48130011(A0_2, A1_2)
   if nil == A1_2 then
     A1_2 = 1
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "S74102A1362764939"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiDebug.DrawLine
+function C39EBE5E8F2288487.S74102A1362764939(A0_2, A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "SA53FDE9F882B3E52"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.nushi.NushiDebug.DrawArrowLine
+function C39EBE5E8F2288487.SA53FDE9F882B3E52(A0_2, A1_2, A2_2)
   if nil == A2_2 then
     A2_2 = 0.2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "S4C085B5ADC3EE80E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.nushi.NushiDebug.DrawSphere
+function C39EBE5E8F2288487.S4C085B5ADC3EE80E(A0_2, A1_2, A2_2)
   if nil == A2_2 then
     A2_2 = 4
   end
@@ -324,62 +285,42 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "S51ACBB3842EF428F"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiDebug.DrawAsterisk
+function C39EBE5E8F2288487.S51ACBB3842EF428F(A0_2, A1_2)
   if nil == A1_2 then
     A1_2 = 1
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "S4F2104199F38E70F"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiDebug.DrawRoot
+function C39EBE5E8F2288487.S4F2104199F38E70F(A0_2, A1_2)
   if nil == A1_2 then
     A1_2 = 0.5
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "S2C08B3718BC65B49"
-
-function L70_1(A0_2)
+--- main.nushi.NushiDebug.LogInfo
+function C39EBE5E8F2288487.S2C08B3718BC65B49(A0_2)
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "S0DA3AEF0C3C42403"
-
-function L70_1(A0_2)
+--- main.nushi.NushiDebug.LogWarning
+function C39EBE5E8F2288487.S0DA3AEF0C3C42403(A0_2)
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "SA754F9CFA5FCF7B5"
-
-function L70_1(A0_2)
+--- main.nushi.NushiDebug.LogError
+function C39EBE5E8F2288487.SA754F9CFA5FCF7B5(A0_2)
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]["prototype"]
-L69_1 = "F760BFF42C786A21E"
-
-function L70_1(A0_2)
+---@class C39EBE5E8F2288487_prototype
+C39EBE5E8F2288487_prototype = L15_1()
+C39EBE5E8F2288487.prototype = C39EBE5E8F2288487_prototype
+--- main.nushi.NushiDebug.BtlSetup
+function C39EBE5E8F2288487_prototype:F760BFF42C786A21E()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.new
   
@@ -629,29 +570,20 @@ function L70_1(A0_2)
   
   L4_2 = "NushiDebug_btl_setup"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[8] = L2_2
+  self[8] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiDebug.Setup
+function C39EBE5E8F2288487_prototype:F7C68FEDB79AB6396(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.nushi.NushiDebug.Destroy
+function C39EBE5E8F2288487_prototype:F1C2AA00ADAC52EC5()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]["prototype"]
-L69_1 = "F465633C207099A9B"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiDebug.F465633C207099A9B
+function C39EBE5E8F2288487_prototype:F465633C207099A9B(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = {}
   L3_2 = A1_2[1]
@@ -666,11 +598,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39EBE5E8F2288487"]["prototype"]
-L69_1 = "FA846EF267FBCC610"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiDebug.SceneIndexToType
+function C39EBE5E8F2288487_prototype:FA846EF267FBCC610(A1_2)
   local L2_2
   if 0 == A1_2 then
     L2_2 = 0

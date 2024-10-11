@@ -1,3 +1,7 @@
+---@alias CB69EAFF1AFB702AA main_system_light_direct_applier_param_LightDirectApplierPresetParamTable
+
+---@class main_system_light_direct_applier_param_LightDirectApplierPresetParamTable : CB69EAFF1AFB702AA_prototype
+---@field prototype CB69EAFF1AFB702AA_prototype
 L55_1 = _ENV
 L56_1 = "CB69EAFF1AFB702AA"
 L57_1 = L15_1
@@ -46,18 +50,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CB69EAFF1AFB702AA"]
 L69_1 = "__name__"
 L70_1 = "CB69EAFF1AFB702AA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB69EAFF1AFB702AA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB69EAFF1AFB702AA"]["prototype"]
-L69_1 = "F6AD3545FA534D6F1"
-
-function L70_1(A0_2, A1_2)
+---@class CB69EAFF1AFB702AA_prototype
+CB69EAFF1AFB702AA_prototype = L15_1()
+CB69EAFF1AFB702AA.prototype = CB69EAFF1AFB702AA_prototype
+--- main.system.light_direct_applier.param.LightDirectApplierPresetParamTable.GetPresetParam
+function CB69EAFF1AFB702AA_prototype:F6AD3545FA534D6F1(A1_2)
   local L2_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[A1_2]
   return L2_2
 end

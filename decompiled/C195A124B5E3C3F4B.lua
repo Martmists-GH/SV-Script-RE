@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C195A124B5E3C3F4B"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]
-L69_1 = "new"
+---@alias C195A124B5E3C3F4B main_event_general_system_map_change_MapChangeCore
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class main_event_general_system_map_change_MapChangeCore : C195A124B5E3C3F4B_prototype
+---@field prototype C195A124B5E3C3F4B_prototype
+C195A124B5E3C3F4B = L15_1()
+function C195A124B5E3C3F4B.new(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = C195A124B5E3C3F4B
@@ -25,11 +22,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@param A0_2 C195A124B5E3C3F4B
+function C195A124B5E3C3F4B.super(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L5_2 = L16_1
   L6_2 = {}
@@ -51,11 +45,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]
-L69_1 = "__name__"
-L70_1 = "C195A124B5E3C3F4B"
-L68_1[L69_1] = L70_1
+C195A124B5E3C3F4B.__name__ = "C195A124B5E3C3F4B"
 L68_1 = _ENV["C195A124B5E3C3F4B"]
 L69_1 = "S46F3CAE9CC7A7A8D"
 
@@ -114,11 +104,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]
-L69_1 = "S174378B0CAD4F895"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeCore.S174378B0CAD4F895
+function C195A124B5E3C3F4B.S174378B0CAD4F895(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = A0_2.forcePosition
   if nil ~= L1_2 then
@@ -164,11 +151,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]
-L69_1 = "S0E43F6C0C9A4D526"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeCore.getRoomMapInfo
+function C195A124B5E3C3F4B.S0E43F6C0C9A4D526(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = L16_1
   L2_2 = {}
@@ -287,11 +271,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]
-L69_1 = "S38D08A3425331F08"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeCore.isBattleBg
+function C195A124B5E3C3F4B.S38D08A3425331F08(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = L10_1.string
   L1_2 = L1_2.find
@@ -322,11 +303,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]
-L69_1 = "SB2BA2B891FF5699F"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeCore.getRoomScenePath
+function C195A124B5E3C3F4B.SB2BA2B891FF5699F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L31_1.string
   L2_2 = L31_1.string
@@ -356,11 +334,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]
-L69_1 = "SB89DB1BE9D8F37C9"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeCore.SB89DB1BE9D8F37C9
+function C195A124B5E3C3F4B.SB89DB1BE9D8F37C9(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = A0_2
   L1_2 = A0_2.fE9C29DA1
@@ -439,11 +414,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]
-L69_1 = "S2BEB7582D36DE430"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.MapChangeCore.CheckRoom
+function C195A124B5E3C3F4B.S2BEB7582D36DE430(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C195A124B5E3C3F4B
   L2_2 = L2_2.S46F3CAE9CC7A7A8D
@@ -487,11 +459,8 @@ function L70_1(A0_2, A1_2)
   return L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]
-L69_1 = "S6549D3AA488F1D6D"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeCore.PreLoadRoom
+function C195A124B5E3C3F4B.S6549D3AA488F1D6D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -553,28 +522,20 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C195A124B5E3C3F4B_prototype
+C195A124B5E3C3F4B_prototype = L15_1()
+C195A124B5E3C3F4B.prototype = C195A124B5E3C3F4B_prototype
+--- main.event.general.system.map_change.MapChangeCore.onCreate
+function C195A124B5E3C3F4B_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.skipPlayerStuckCheck = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeCore.preStart
+function C195A124B5E3C3F4B_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.callFromContinue
   if L1_2 then
     L1_2 = CF4B448D8C3744CAF
@@ -625,11 +586,11 @@ function L70_1(A0_2)
   L1_2 = CF1462856EABD3400
   L1_2 = L1_2.S97A061B7D84DD84F
   L1_2()
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.mapChangeInfo
   L1_2 = L1_2.fieldId
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.mapChangeInfo
     L2_2 = C8F93126DACB9F8DD
     L2_2 = L2_2.S93A2C11A3020463D
@@ -637,13 +598,13 @@ function L70_1(A0_2)
     L2_2 = L2_2[2]
     L1_2.fieldId = L2_2
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.mapChangeInfo
   L1_2 = L1_2.destScene
   if nil ~= L1_2 then
     L1_2 = C195A124B5E3C3F4B
     L1_2 = L1_2.S0E43F6C0C9A4D526
-    L2_2 = A0_2[32]
+    L2_2 = self[32]
     L2_2 = L2_2.mapChangeInfo
     L2_2 = L2_2.destScene
     L1_2 = L1_2(L2_2)
@@ -655,7 +616,7 @@ function L70_1(A0_2)
       L2_2 = L2_2.F356B89F4BFD13967
       L4_2 = L1_2.mapName
       L2_2 = L2_2(L3_2, L4_2)
-      L3_2 = A0_2[32]
+      L3_2 = self[32]
       L3_2 = L3_2.mapChangeInfo
       L4_2 = L58_1
       L5_2 = L2_2.fieldId
@@ -663,63 +624,63 @@ function L70_1(A0_2)
       L3_2.fieldId = L4_2
     end
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.mapChangeInfo
   L1_2 = L1_2.destLocation
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.mapChangeInfo
     L1_2.destLocation = ""
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.mapChangeInfo
   L1_2 = L1_2.destSubField
   if "" ~= L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.mapChangeInfo
     L1_2 = L1_2.destSubField
     if "default" ~= L1_2 then
       goto lbl_112
     end
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.mapChangeInfo
   L1_2.destSubField = "field_outside"
   ::lbl_112::
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.fadeType
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2.fadeType = 0
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.fadeDuration
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2.fadeDuration = 0.5
   end
   L1_2 = cBB54324F
   L1_2 = L1_2.fD413187D
   L2_2 = 2
   L1_2(L2_2)
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.fadeType
   if 0 ~= L1_2 then
     L1_2 = C07E4F1BF071B0460
     L1_2 = L1_2.S218E2A14A790D265
     L2_2 = C627F5070F4874E9A
     L2_2 = L2_2.SC0A4102FF5A48272
-    L3_2 = A0_2[32]
+    L3_2 = self[32]
     L3_2 = L3_2.fadeType
     L2_2 = L2_2(L3_2)
-    L3_2 = A0_2[32]
+    L3_2 = self[32]
     L3_2 = L3_2.fadeDuration
     L1_2(L2_2, L3_2)
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.noLoadingUI
   if not L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.mapChangeInfo
     L1_2 = L1_2.fieldId
     L2_2 = CF9BB704C82165E0D
@@ -779,44 +740,41 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeCore.mainBody
+function C195A124B5E3C3F4B_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.mapChangeInfo
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.forcePosition
   if nil ~= L2_2 then
     L2_2 = C23E5342B132D5323
     L2_2 = L2_2.S8CED43592045F1F1
-    L3_2 = A0_2[32]
+    L3_2 = self[32]
     L3_2 = L3_2.forcePosition
     L2_2(L3_2)
   end
   L2_2 = nil
   L3_2 = cD5675BA5
   L3_2 = L3_2.f1C9D9E00
-  L4_2 = A0_2[32]
+  L4_2 = self[32]
   L4_2 = L4_2.forceRotation
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if not L3_2 then
     L3_2 = C23E5342B132D5323
     L3_2 = L3_2.SEBF89A530DC44FF1
-    L4_2 = A0_2[32]
+    L4_2 = self[32]
     L4_2 = L4_2.forceRotation
     L3_2(L4_2)
   end
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.forcePosition
   if nil == L3_2 then
     L3_2 = L1_2.destScene
     if "" == L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F9F5311661E286F1A
+      L4_2 = self
+      L3_2 = self.F9F5311661E286F1A
       L3_2(L4_2)
       return
     end
@@ -824,7 +782,7 @@ function L70_1(A0_2)
   L3_2 = cA1BBDB34
   L3_2 = L3_2.fF6B91C4E
   L3_2()
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.callFromFieldStart
   if L3_2 then
     L3_2 = L1_2.fieldId
@@ -835,29 +793,29 @@ function L70_1(A0_2)
       L3_2(L4_2)
     end
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F1AC7C862F5E94353
+  L4_2 = self
+  L3_2 = self.F1AC7C862F5E94353
   L5_2 = L1_2.fieldId
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = C195A124B5E3C3F4B
   L4_2 = L4_2.S2BEB7582D36DE430
   L5_2 = L1_2.destScene
-  L6_2 = A0_2[32]
+  L6_2 = self[32]
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = L4_2.preLocation
   L6_2 = L58_1
   L7_2 = L4_2.roomMapInfo
   L6_2 = L6_2(L7_2)
-  A0_2[35] = L6_2
-  L6_2 = A0_2[32]
+  self[35] = L6_2
+  L6_2 = self[32]
   L6_2 = L6_2.fieldType
   if nil == L6_2 then
-    L6_2 = A0_2[32]
+    L6_2 = self[32]
     L7_2 = L58_1
     L8_2 = L4_2.destFieldType
     L7_2 = L7_2(L8_2)
     L6_2.fieldType = L7_2
-    L6_2 = A0_2[35]
+    L6_2 = self[35]
     L6_2 = L6_2.mapName
     if "" == L6_2 and nil ~= L5_2 then
       L6_2 = CD1AB2595B97752F1
@@ -865,12 +823,12 @@ function L70_1(A0_2)
       L7_2 = L5_2.translation
       L6_2 = L6_2(L7_2)
       if L6_2 then
-        L6_2 = A0_2[32]
+        L6_2 = self[32]
         L6_2.fieldType = 0
       end
     end
   else
-    L6_2 = A0_2[32]
+    L6_2 = self[32]
     L6_2 = L6_2.fieldType
     if 2 == L6_2 then
       L6_2 = nil
@@ -894,11 +852,11 @@ function L70_1(A0_2)
         L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2 = L8_2(L9_2)
         L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2)
         if L7_2 then
-          L7_2 = A0_2[32]
+          L7_2 = self[32]
           L7_2.fieldType = 1
       end
       else
-        L7_2 = A0_2[32]
+        L7_2 = self[32]
         L8_2 = L58_1
         L9_2 = L4_2.destFieldType
         L8_2 = L8_2(L9_2)
@@ -909,7 +867,7 @@ function L70_1(A0_2)
   if nil ~= L5_2 then
     L6_2 = L5_2.possibleSubField
     if nil ~= L6_2 then
-      L6_2 = A0_2[32]
+      L6_2 = self[32]
       L6_2 = L6_2.mapChangeInfo
       L7_2 = L58_1
       L8_2 = L5_2.possibleSubField
@@ -917,7 +875,7 @@ function L70_1(A0_2)
       L6_2.destSubField = L7_2
   end
   else
-    L6_2 = A0_2[32]
+    L6_2 = self[32]
     L6_2 = L6_2.mapChangeInfo
     L6_2 = L6_2.destSubField
     if nil == L6_2 then
@@ -927,7 +885,7 @@ function L70_1(A0_2)
       L7_2 = L7_2.S62549C7FA456CA60
       L7_2 = L7_2.lastSubField
       L6_2 = L6_2(L7_2)
-      L7_2 = A0_2[32]
+      L7_2 = self[32]
       L7_2 = L7_2.mapChangeInfo
       L7_2.destSubField = L6_2
     end
@@ -943,10 +901,10 @@ function L70_1(A0_2)
   L7_2 = L7_2.S62549C7FA456CA60
   L7_2 = L7_2.lastRoomMapName
   L6_2 = L6_2(L7_2)
-  L7_2 = A0_2[32]
+  L7_2 = self[32]
   L7_2 = L7_2.fieldType
   if 0 == L7_2 then
-    L7_2 = A0_2[32]
+    L7_2 = self[32]
     L7_2 = L7_2.enableFieldReload
     if not L7_2 then
       L7_2 = C8F93126DACB9F8DD
@@ -963,9 +921,9 @@ function L70_1(A0_2)
           L7_2 = L7_2()
           L7_2 = L7_2.isD10Cave
           if not L7_2 and "" ~= L6_2 then
-            L7_2 = A0_2[32]
-            L9_2 = A0_2
-            L8_2 = A0_2.F767F168A34CD68E8
+            L7_2 = self[32]
+            L9_2 = self
+            L8_2 = self.F767F168A34CD68E8
             L10_2 = L6_2
             L8_2 = L8_2(L9_2, L10_2)
             L7_2.enableFieldReload = L8_2
@@ -973,8 +931,8 @@ function L70_1(A0_2)
         end
       end
     end
-    L8_2 = A0_2
-    L7_2 = A0_2.F16DEE0A4DAE35C8A
+    L8_2 = self
+    L7_2 = self.F16DEE0A4DAE35C8A
     L9_2 = L5_2
     L7_2 = L7_2(L8_2, L9_2)
     if L3_2 or L7_2 then
@@ -984,7 +942,7 @@ function L70_1(A0_2)
       L9_2 = L9_2.S93A2C11A3020463D
       L9_2 = L9_2.currentFieldId
       L9_2 = L9_2[2]
-      L10_2 = A0_2[32]
+      L10_2 = self[32]
       L10_2 = L10_2.mapChangeInfo
       L10_2 = L10_2.destSubField
       L8_2(L9_2, L10_2)
@@ -993,20 +951,20 @@ function L70_1(A0_2)
     L7_2 = C89EDEA229C2677B4
     L7_2 = L7_2.SBD9A67233ED8E612
     L7_2()
-    L7_2 = A0_2[35]
+    L7_2 = self[35]
     L7_2 = L7_2.mapName
     if "a_w23_field" == L7_2 then
-      L8_2 = A0_2
-      L7_2 = A0_2.F1E93192FF7F85456
+      L8_2 = self
+      L7_2 = self.F1E93192FF7F85456
       L9_2 = false
       L10_2 = true
       L7_2(L8_2, L9_2, L10_2)
     end
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.F242663372FB60090
+  L8_2 = self
+  L7_2 = self.F242663372FB60090
   L9_2 = L6_2
-  L10_2 = A0_2[35]
+  L10_2 = self[35]
   L10_2 = L10_2.mapName
   L7_2(L8_2, L9_2, L10_2)
   L7_2 = nil
@@ -1018,7 +976,7 @@ function L70_1(A0_2)
     L8_2 = L8_2(L9_2)
     L7_2 = L8_2
     L8_2 = nil
-    L9_2 = A0_2[32]
+    L9_2 = self[32]
     L9_2 = L9_2.fieldType
     if 0 == L9_2 then
       L9_2 = nil
@@ -1032,8 +990,8 @@ function L70_1(A0_2)
       L8_2 = false
     end
     if L8_2 then
-      L10_2 = A0_2
-      L9_2 = A0_2.F9F5311661E286F1A
+      L10_2 = self
+      L9_2 = self.F9F5311661E286F1A
       L9_2(L10_2)
       return
     end
@@ -1048,7 +1006,7 @@ function L70_1(A0_2)
       L10_2 = L7_2.f48F8C7FF
       L10_2 = L10_2(L11_2)
       if L10_2 then
-        L10_2 = A0_2[32]
+        L10_2 = self[32]
         L10_2 = L10_2.forcePosition
         if nil == L10_2 then
           L10_2 = C83457451305E87F8
@@ -1057,8 +1015,8 @@ function L70_1(A0_2)
           L12_2 = L1_2.destLocation
           L10_2 = L10_2(L11_2, L12_2)
           if nil == L10_2 then
-            L11_2 = A0_2
-            L10_2 = A0_2.F9F5311661E286F1A
+            L11_2 = self
+            L10_2 = self.F9F5311661E286F1A
             L10_2(L11_2)
             return
           end
@@ -1076,10 +1034,10 @@ function L70_1(A0_2)
   L11_2 = L8_2
   L9_2 = L9_2(L10_2, L11_2)
   if L9_2 then
-    L9_2 = A0_2[32]
+    L9_2 = self[32]
     L9_2 = L9_2.fieldType
     if 0 ~= L9_2 then
-      L9_2 = A0_2[35]
+      L9_2 = self[35]
       L9_2 = L9_2.mapName
       if "" == L9_2 then
         goto lbl_344
@@ -1091,7 +1049,7 @@ function L70_1(A0_2)
       L10_2 = L9_2
       L9_2 = L9_2.fE9C29DA1
       L9_2 = L9_2(L10_2)
-      L10_2 = A0_2[35]
+      L10_2 = self[35]
       L10_2 = L10_2.mapName
       if L9_2 == L10_2 then
         goto lbl_344
@@ -1103,8 +1061,8 @@ function L70_1(A0_2)
     L10_2 = L9_2
     L9_2 = L9_2.F48278486A69BFE34
     L9_2(L10_2)
-    L10_2 = A0_2
-    L9_2 = A0_2.FC6844117666B9AEA
+    L10_2 = self
+    L9_2 = self.FC6844117666B9AEA
     L11_2 = CFC8F368D91411014
     L11_2 = L11_2.S474A279FC41C6D90
     L11_2 = L11_2()
@@ -1149,7 +1107,7 @@ function L70_1(A0_2)
   L12_2 = L9_2
   L10_2 = L10_2(L11_2, L12_2)
   if L10_2 then
-    L10_2 = A0_2[35]
+    L10_2 = self[35]
     L10_2 = L10_2.mapName
     if "" ~= L10_2 then
       L10_2 = nil
@@ -1161,8 +1119,8 @@ function L70_1(A0_2)
       L13_2 = L10_2
       L11_2 = L11_2(L12_2, L13_2)
       if L11_2 then
-        L12_2 = A0_2
-        L11_2 = A0_2.F9F5311661E286F1A
+        L12_2 = self
+        L11_2 = self.F9F5311661E286F1A
         L11_2(L12_2)
         return
       end
@@ -1196,7 +1154,7 @@ function L70_1(A0_2)
       else
         L13_2 = CA412F80CB1F1E083
         L13_2 = L13_2.S17E19B29567167EE
-        L14_2 = A0_2[35]
+        L14_2 = self[35]
         L14_2 = L14_2.mapName
         L13_2 = L13_2(L14_2)
         L11_2 = L13_2
@@ -1213,7 +1171,7 @@ function L70_1(A0_2)
         else
           L14_2 = C195A124B5E3C3F4B
           L14_2 = L14_2.SB2BA2B891FF5699F
-          L15_2 = A0_2[35]
+          L15_2 = self[35]
           L15_2 = L15_2.mapName
           L14_2 = L14_2(L15_2)
           if nil ~= L5_2 then
@@ -1260,8 +1218,8 @@ function L70_1(A0_2)
           L11_2 = L16_2
         end
       end
-      L14_2 = A0_2
-      L13_2 = A0_2.F6AA77DA61BE18EC1
+      L14_2 = self
+      L13_2 = self.F6AA77DA61BE18EC1
       L15_2 = L11_2
       L13_2(L14_2, L15_2)
       L13_2 = CFC8F368D91411014
@@ -1339,10 +1297,10 @@ function L70_1(A0_2)
   L13_2 = L12_2
   L12_2 = L12_2.f64857644
   L12_2 = L12_2(L13_2)
-  L13_2 = A0_2[32]
+  L13_2 = self[32]
   L13_2 = L13_2.forcePosition
   if nil ~= L13_2 then
-    L13_2 = A0_2[32]
+    L13_2 = self[32]
     L11_2 = L13_2.forcePosition
   else
     L13_2 = C83457451305E87F8
@@ -1351,8 +1309,8 @@ function L70_1(A0_2)
     L15_2 = L1_2.destLocation
     L13_2 = L13_2(L14_2, L15_2)
     if nil == L13_2 then
-      L15_2 = A0_2
-      L14_2 = A0_2.F9F5311661E286F1A
+      L15_2 = self
+      L14_2 = self.F9F5311661E286F1A
       L14_2(L15_2)
       return
     end
@@ -1370,12 +1328,12 @@ function L70_1(A0_2)
   L13_2 = nil
   L14_2 = cD5675BA5
   L14_2 = L14_2.f15834BF3
-  L15_2 = A0_2[32]
+  L15_2 = self[32]
   L15_2 = L15_2.forceRotation
   L16_2 = L13_2
   L14_2 = L14_2(L15_2, L16_2)
   if L14_2 then
-    L14_2 = A0_2[32]
+    L14_2 = self[32]
     L12_2 = L14_2.forceRotation
   end
   L15_2 = L12_2
@@ -1469,11 +1427,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeCore.postEnd
+function C195A124B5E3C3F4B_prototype:F3E13E4094D09A594()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -1498,8 +1453,8 @@ function L70_1(A0_2)
   L4_2 = L3_2
   L3_2 = L3_2.f7360ED03
   L3_2, L4_2, L5_2 = L3_2(L4_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.FD915D4F189CD7DE5
+  L7_2 = self
+  L6_2 = self.FD915D4F189CD7DE5
   L8_2 = {}
   L9_2 = L3_2
   L10_2 = L4_2
@@ -1507,7 +1462,7 @@ function L70_1(A0_2)
   L8_2[1] = L9_2
   L8_2[2] = L10_2
   L8_2[3] = L11_2
-  L9_2 = A0_2[35]
+  L9_2 = self[35]
   L9_2 = L9_2.isBattleBg
   L6_2 = L6_2(L7_2, L8_2, L9_2)
   L7_2 = c2EA22DC9
@@ -1541,13 +1496,13 @@ function L70_1(A0_2)
     L8_2 = L8_2.S760DAE4C5371A78E
     L9_2 = nil
     L8_2(L9_2)
-    L9_2 = A0_2
-    L8_2 = A0_2.F6E55F5795773D71B
+    L9_2 = self
+    L8_2 = self.F6E55F5795773D71B
     L10_2 = true
-    L11_2 = A0_2[36]
+    L11_2 = self[36]
     L8_2(L9_2, L10_2, L11_2)
-    L9_2 = A0_2
-    L8_2 = A0_2.FCD887A41CB5661DD
+    L9_2 = self
+    L8_2 = self.FCD887A41CB5661DD
     L10_2 = true
     L8_2 = L8_2(L9_2, L10_2)
     L7_2 = L8_2
@@ -1625,13 +1580,13 @@ function L70_1(A0_2)
     L9_2 = L9_2.S6F80957324805FF4
     L9_2 = L9_2()
     if L9_2 then
-      L10_2 = A0_2
-      L9_2 = A0_2.F6E55F5795773D71B
+      L10_2 = self
+      L9_2 = self.F6E55F5795773D71B
       L11_2 = false
       L9_2(L10_2, L11_2)
     end
-    L10_2 = A0_2
-    L9_2 = A0_2.FCD887A41CB5661DD
+    L10_2 = self
+    L9_2 = self.FCD887A41CB5661DD
     L11_2 = false
     L9_2 = L9_2(L10_2, L11_2)
     L7_2 = L9_2
@@ -1752,14 +1707,14 @@ function L70_1(A0_2)
     L13_2 = false
     L10_2(L11_2, L12_2, L13_2)
   end
-  L9_2 = A0_2
-  L8_2 = A0_2.F00539823E2C96104
+  L9_2 = self
+  L8_2 = self.F00539823E2C96104
   L8_2(L9_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.F480347A3DF8AA9D8
+  L9_2 = self
+  L8_2 = self.F480347A3DF8AA9D8
   L10_2 = L6_2
   L8_2(L9_2, L10_2)
-  L8_2 = A0_2[32]
+  L8_2 = self[32]
   L8_2 = L8_2.spawnPartner
   if L8_2 then
     L8_2 = CC6FE82819C6E1D55
@@ -1853,17 +1808,17 @@ function L70_1(A0_2)
   L10_2 = C043642B35062DFB9
   L10_2 = L10_2.SE51139D1B4556545
   L10_2()
-  L10_2 = A0_2[32]
+  L10_2 = self[32]
   L10_2 = L10_2.fadeType
   if 0 ~= L10_2 then
     L10_2 = C07E4F1BF071B0460
     L10_2 = L10_2.S2D4F4BC40511B560
     L11_2 = C627F5070F4874E9A
     L11_2 = L11_2.SC0A4102FF5A48272
-    L12_2 = A0_2[32]
+    L12_2 = self[32]
     L12_2 = L12_2.fadeType
     L11_2 = L11_2(L12_2)
-    L12_2 = A0_2[32]
+    L12_2 = self[32]
     L12_2 = L12_2.fadeDuration
     L10_2(L11_2, L12_2)
   end
@@ -1887,7 +1842,7 @@ function L70_1(A0_2)
   L10_2 = L10_2.S70B6A53F6612A13A
   L11_2 = true
   L10_2(L11_2)
-  L10_2 = A0_2[35]
+  L10_2 = self[35]
   L10_2 = L10_2.isBattleBg
   if not L10_2 then
     L10_2 = C42D1CDB112422850
@@ -1918,7 +1873,7 @@ function L70_1(A0_2)
     L10_2 = CD1AB2595B97752F1
     L10_2 = L10_2.S18CBCBB832B56E3F
     L10_2()
-    L10_2 = A0_2[32]
+    L10_2 = self[32]
     L10_2 = L10_2.callFromFieldStart
     if L10_2 then
       L10_2 = C42D1CDB112422850
@@ -1949,7 +1904,7 @@ function L70_1(A0_2)
   L14_2[2] = L16_2
   L14_2[3] = L17_2
   L13_2(L14_2)
-  L13_2 = A0_2[32]
+  L13_2 = self[32]
   L13_2 = L13_2.noLoadingUI
   if not L13_2 then
     L13_2 = CF9BB704C82165E0D
@@ -1959,7 +1914,7 @@ function L70_1(A0_2)
     L13_2 = L13_2.FA8103A76508CB0CE
     L13_2(L14_2)
   end
-  L13_2 = A0_2[32]
+  L13_2 = self[32]
   L13_2 = L13_2.callFromContinue
   if L13_2 then
     L13_2 = C05C7D15ECE099E1D
@@ -1978,11 +1933,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "F00539823E2C96104"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeCore.updateEventScene
+function C195A124B5E3C3F4B_prototype:F00539823E2C96104()
   local L1_2, L2_2
   L1_2 = C8568A4DA5C1FB1A5
   L1_2 = L1_2.S4C0F1ED581C39D7C
@@ -2011,11 +1963,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "F6AA77DA61BE18EC1"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.MapChangeCore.waitRoomScene
+function C195A124B5E3C3F4B_prototype:F6AA77DA61BE18EC1(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   while true do
     L3_2 = A1_2
@@ -2201,11 +2150,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "F5CE08C58B9248EA4"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.MapChangeCore.F5CE08C58B9248EA4
+function C195A124B5E3C3F4B_prototype:F5CE08C58B9248EA4(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   
   function L2_2(A0_3)
@@ -2277,11 +2223,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "FC6844117666B9AEA"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.MapChangeCore.removeCurrentRoomCamera
+function C195A124B5E3C3F4B_prototype:FC6844117666B9AEA(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -2383,11 +2326,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "F9F5311661E286F1A"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeCore.resetPlayerPosition
+function C195A124B5E3C3F4B_prototype:F9F5311661E286F1A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = nil
   L2_2 = nil
@@ -2397,7 +2337,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L2_2
@@ -2405,7 +2345,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -2435,7 +2375,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = c016374C1
       L1_3 = L1_3.f4555D276
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[12]
       L2_3 = L2_3.owner
       L3_3 = L3_2
@@ -2443,7 +2383,7 @@ function L70_1(A0_2)
       if L1_3 then
         L0_3 = nil
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[12]
       end
       return L0_3
@@ -2471,7 +2411,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L4_2
@@ -2479,7 +2419,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -2502,7 +2442,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = c016374C1
       L1_3 = L1_3.f4555D276
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[12]
       L2_3 = L2_3.owner
       L3_3 = L5_2
@@ -2510,7 +2450,7 @@ function L70_1(A0_2)
       if L1_3 then
         L0_3 = nil
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[12]
       end
       return L0_3
@@ -2545,11 +2485,8 @@ function L70_1(A0_2)
   L8_2(L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "FD915D4F189CD7DE5"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.system.map_change.MapChangeCore.updateArea
+function C195A124B5E3C3F4B_prototype:FD915D4F189CD7DE5(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2
   if A2_2 then
     L3_2 = CD1AB2595B97752F1
@@ -3507,11 +3444,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "F480347A3DF8AA9D8"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.MapChangeCore.runAreaCallback
+function C195A124B5E3C3F4B_prototype:F480347A3DF8AA9D8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = L16_1
   L3_2 = {}
@@ -3520,7 +3454,7 @@ function L70_1(A0_2, A1_2)
   L4_2.areaExitScriptList = true
   L4_2.areaEnterScriptList = true
   L3_2.__fields__ = L4_2
-  L4_2 = A0_2[32]
+  L4_2 = self[32]
   L4_2 = L4_2.callFromFieldStart
   L3_2.callFromFieldStart = L4_2
   L4_2 = _hx_tab_array
@@ -3674,11 +3608,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "F6E55F5795773D71B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.system.map_change.MapChangeCore.waitFieldReady
+function C195A124B5E3C3F4B_prototype:F6E55F5795773D71B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L3_2 = _hx_tab_array
   L4_2 = {}
@@ -3853,11 +3784,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "FCD887A41CB5661DD"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.MapChangeCore.waitGrounding
+function C195A124B5E3C3F4B_prototype:FCD887A41CB5661DD(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S93A017D496A6D000
@@ -3891,7 +3819,7 @@ function L70_1(A0_2, A1_2)
   L13_2[2] = L15_2
   L13_2[3] = L16_2
   L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2)
-  L10_2 = A0_2[32]
+  L10_2 = self[32]
   L10_2 = L10_2.skipGrounding
   if L10_2 then
     L10_2 = CFC8F368D91411014
@@ -3916,7 +3844,7 @@ function L70_1(A0_2, A1_2)
     L9_2 = L13_2
   end
   if nil ~= L9_2 then
-    L10_2 = A0_2[32]
+    L10_2 = self[32]
     L10_2 = L10_2.callFromContinue
     if L10_2 then
       L10_2 = L10_1.select
@@ -4036,17 +3964,14 @@ function L70_1(A0_2, A1_2)
   return L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "F1AC7C862F5E94353"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.MapChangeCore.F1AC7C862F5E94353
+function C195A124B5E3C3F4B_prototype:F1AC7C862F5E94353(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C8F93126DACB9F8DD
   L2_2 = L2_2.S93A2C11A3020463D
   L2_2 = L2_2.currentFieldId
   L2_2 = L2_2[2]
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L2_2 ~= A1_2 or L3_2
   if not L3_2 then
     L4_2 = nil
@@ -4069,8 +3994,8 @@ function L70_1(A0_2, A1_2)
     L6_2 = A1_2
     L4_2(L5_2, L6_2)
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F0977E6F7BE6574D8
+  L5_2 = self
+  L4_2 = self.F0977E6F7BE6574D8
   L6_2 = A1_2
   L4_2(L5_2, L6_2)
   if L3_2 then
@@ -4083,11 +4008,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "F0977E6F7BE6574D8"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.MapChangeCore.F0977E6F7BE6574D8
+function C195A124B5E3C3F4B_prototype:F0977E6F7BE6574D8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = nil
   L3_2 = cA042DA13
@@ -4106,8 +4028,8 @@ function L70_1(A0_2, A1_2)
     if L3_2 == A1_2 then
       return
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.F1E93192FF7F85456
+    L4_2 = self
+    L3_2 = self.F1E93192FF7F85456
     L5_2 = true
     L6_2 = true
     L3_2(L4_2, L5_2, L6_2)
@@ -4128,8 +4050,8 @@ function L70_1(A0_2, A1_2)
     L5_2 = nil
     L4_2(L5_2)
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F5CE08C58B9248EA4
+  L5_2 = self
+  L4_2 = self.F5CE08C58B9248EA4
   L6_2 = L3_2[1]
   L4_2(L5_2, L6_2)
   L4_2 = CFC8F368D91411014
@@ -4147,20 +4069,17 @@ function L70_1(A0_2, A1_2)
   L5_2[2] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "F16DEE0A4DAE35C8A"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.MapChangeCore.reloadSubField
+function C195A124B5E3C3F4B_prototype:F16DEE0A4DAE35C8A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.startPos
   if nil ~= L2_2 then
     L2_2 = L58_1
-    L3_2 = A0_2[32]
+    L3_2 = self[32]
     L3_2 = L3_2.startPos
     L2_2 = L2_2(L3_2)
-    A0_2[36] = L2_2
+    self[36] = L2_2
   else
     L2_2 = CFC8F368D91411014
     L2_2 = L2_2.S93A017D496A6D000
@@ -4175,12 +4094,12 @@ function L70_1(A0_2, A1_2)
     L5_2[1] = L6_2
     L5_2[2] = L7_2
     L5_2[3] = L8_2
-    A0_2[36] = L5_2
+    self[36] = L5_2
   end
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S474A279FC41C6D90
   L2_2 = L2_2()
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.mapChangeInfo
   L3_2 = L3_2.destSubField
   L4_2 = CBBA04D729643ACEE
@@ -4198,7 +4117,7 @@ function L70_1(A0_2, A1_2)
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
-    L5_2 = A0_2[32]
+    L5_2 = self[32]
     L5_2 = L5_2.enableFieldReload
     if L5_2 then
       L5_2 = C6203DB0FCEC43FB4
@@ -4224,14 +4143,14 @@ function L70_1(A0_2, A1_2)
     L7_2 = L6_2
     L6_2 = L6_2.fE9C29DA1
     L6_2(L7_2)
-    L7_2 = A0_2
-    L6_2 = A0_2.F1E93192FF7F85456
+    L7_2 = self
+    L6_2 = self.F1E93192FF7F85456
     L8_2 = false
     L9_2 = true
     L6_2(L7_2, L8_2, L9_2)
     if L5_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.F8DC8F70F656F2F35
+      L7_2 = self
+      L6_2 = self.F8DC8F70F656F2F35
       L8_2 = 1
       L6_2(L7_2, L8_2)
     end
@@ -4268,8 +4187,8 @@ function L70_1(A0_2, A1_2)
     L7_2 = nil
     L6_2(L7_2)
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.F5CE08C58B9248EA4
+  L7_2 = self
+  L6_2 = self.F5CE08C58B9248EA4
   L8_2 = L5_2[1]
   L6_2(L7_2, L8_2)
   L6_2 = L5_2[1]
@@ -4291,16 +4210,13 @@ function L70_1(A0_2, A1_2)
   L6_2.SF13B4FE7EDC636A9 = L7_2
   L6_2 = C6203DB0FCEC43FB4
   L6_2.SF5705EE657C1CD38 = false
-  A0_2[36] = nil
+  self[36] = nil
   L6_2 = true
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "F1E93192FF7F85456"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.system.map_change.MapChangeCore.F1E93192FF7F85456
+function C195A124B5E3C3F4B_prototype:F1E93192FF7F85456(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = CFC8F368D91411014
   L3_2 = L3_2.S12AB211B0A58477E
@@ -4418,11 +4334,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "F767F168A34CD68E8"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.MapChangeCore.F767F168A34CD68E8
+function C195A124B5E3C3F4B_prototype:F767F168A34CD68E8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -4454,11 +4367,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C195A124B5E3C3F4B"]["prototype"]
-L69_1 = "F242663372FB60090"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.system.map_change.MapChangeCore.updateFieldScene
+function C195A124B5E3C3F4B_prototype:F242663372FB60090(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = _hx_tab_array
   L4_2 = {}

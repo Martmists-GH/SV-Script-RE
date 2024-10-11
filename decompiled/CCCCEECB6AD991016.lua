@@ -1,3 +1,7 @@
+---@alias C97862D1842859795 main_nushi_hiko_HikoNushiEscapePerformance
+
+---@class main_nushi_hiko_HikoNushiEscapePerformance : C97862D1842859795_prototype
+---@field prototype C97862D1842859795_prototype
 L55_1 = _ENV
 L56_1 = "CCCCEECB6AD991016"
 L57_1 = L15_1
@@ -53,11 +57,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCCCEECB6AD991016"]
 L69_1 = "__name__"
 L70_1 = "CCCCEECB6AD991016"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCCCEECB6AD991016"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C97862D1842859795_prototype
+C97862D1842859795_prototype = L15_1()
+C97862D1842859795.prototype = C97862D1842859795_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCCCEECB6AD991016"]["prototype"]
 L69_1 = _ENV["CCCCEECB6AD991016"]

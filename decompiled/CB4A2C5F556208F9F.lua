@@ -1,3 +1,7 @@
+---@alias CD7B21A32280F097C main_event_general_waza_machine_machine_WazaMachineMachine
+
+---@class main_event_general_waza_machine_machine_WazaMachineMachine : CD7B21A32280F097C_prototype
+---@field prototype CD7B21A32280F097C_prototype
 L55_1 = _ENV
 L56_1 = "CB4A2C5F556208F9F"
 L57_1 = L15_1
@@ -36,11 +40,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CB4A2C5F556208F9F"]
 L69_1 = "__name__"
 L70_1 = "CB4A2C5F556208F9F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB4A2C5F556208F9F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CD7B21A32280F097C_prototype
+CD7B21A32280F097C_prototype = L15_1()
+CD7B21A32280F097C.prototype = CD7B21A32280F097C_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CB4A2C5F556208F9F"]["prototype"]
 L69_1 = _ENV["CB4A2C5F556208F9F"]

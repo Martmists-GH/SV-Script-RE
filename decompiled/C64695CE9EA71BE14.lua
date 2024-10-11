@@ -1,3 +1,5 @@
+---@class C64695CE9EA71BE14 : C64695CE9EA71BE14_prototype
+---@field prototype C64695CE9EA71BE14_prototype
 L55_1 = _ENV
 L56_1 = "C64695CE9EA71BE14"
 L57_1 = L15_1
@@ -43,23 +45,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C64695CE9EA71BE14"]
 L69_1 = "__name__"
 L70_1 = "C64695CE9EA71BE14"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C64695CE9EA71BE14"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C64695CE9EA71BE14"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C64695CE9EA71BE14_prototype
+C64695CE9EA71BE14_prototype = L15_1()
+C64695CE9EA71BE14.prototype = C64695CE9EA71BE14_prototype
+--- C64695CE9EA71BE14.onCreate
+function C64695CE9EA71BE14_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CD2E7E7FFB87F4019
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC87C731D11C58354
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2.runParalleled = true
   L3_2 = L1_2
   L2_2 = L1_2.runParalleledCallbackFunc
@@ -67,24 +64,18 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C64695CE9EA71BE14"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- C64695CE9EA71BE14.onPreUpdate
+function C64695CE9EA71BE14_prototype:F1993A419B4083AE8()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F0CBE1DDFD502E349
+  L2_2 = self
+  L1_2 = self.F0CBE1DDFD502E349
   L1_2(L2_2)
   L1_2 = 0
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C64695CE9EA71BE14"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- C64695CE9EA71BE14.onTerminate
+function C64695CE9EA71BE14_prototype:F97D80368ACC86AEF()
   local L1_2
   L1_2 = true
   return L1_2

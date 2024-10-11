@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C5648AAEE3425CE6C"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "new"
+---@alias C5648AAEE3425CE6C main_field_behaviour_scenario_main_champion_gym_koori_Gym_koori_course
 
-function L70_1(A0_2)
+---@class main_field_behaviour_scenario_main_champion_gym_koori_Gym_koori_course : C5648AAEE3425CE6C_prototype
+---@field prototype C5648AAEE3425CE6C_prototype
+C5648AAEE3425CE6C = L15_1()
+function C5648AAEE3425CE6C.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C5648AAEE3425CE6C
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C5648AAEE3425CE6C
+function C5648AAEE3425CE6C.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C5648AAEE3425CE6C"]
 L69_1 = "__name__"
 L70_1 = "C5648AAEE3425CE6C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SBCFE4ECF7149C757"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.GetCurrentCourseTable
+function C5648AAEE3425CE6C.SBCFE4ECF7149C757()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S5F560793FAAE7616
@@ -55,11 +46,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S5F560793FAAE7616"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.GetCourseTable
+function C5648AAEE3425CE6C.S5F560793FAAE7616(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C5648AAEE3425CE6C
@@ -80,11 +68,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S2AE80E9B240DD188"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.GetBestRecord
+function C5648AAEE3425CE6C.S2AE80E9B240DD188(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C5648AAEE3425CE6C
   L1_2 = L1_2.S5F560793FAAE7616
@@ -109,11 +94,8 @@ function L70_1(A0_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S524953FEE039AC8B"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.setCourseState
+function C5648AAEE3425CE6C.S524953FEE039AC8B(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C5648AAEE3425CE6C
   L1_2.SD55C563B8386E657 = A0_2
@@ -130,11 +112,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SF249BC95978D5349"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.RegisterCourseStateCallback
+function C5648AAEE3425CE6C.SF249BC95978D5349(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C5648AAEE3425CE6C
   L1_2 = L1_2.S640882CE3C4ADBD9
@@ -144,11 +123,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S8007E3F73DB266D6"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.RemoveCourseStateCallback
+function C5648AAEE3425CE6C.S8007E3F73DB266D6(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C5648AAEE3425CE6C
   L1_2 = L1_2.S640882CE3C4ADBD9
@@ -158,11 +134,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S7819745075199A34"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.StartProhibit
+function C5648AAEE3425CE6C.S7819745075199A34()
   local L0_2, L1_2, L2_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.SE577585E25140410
@@ -191,11 +164,8 @@ function L70_1()
   L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SD5E67B37BA2ADA51"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.EndProhibit
+function C5648AAEE3425CE6C.SD5E67B37BA2ADA51()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.SE577585E25140410
@@ -221,11 +191,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SB005A5F1D87C5FE2"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.StartOutProhibit
+function C5648AAEE3425CE6C.SB005A5F1D87C5FE2()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S9CF49FFB47DC73FE
@@ -247,11 +214,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S5E6BEBD3D0E70A45"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.EndOutProhibit
+function C5648AAEE3425CE6C.S5E6BEBD3D0E70A45()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S9CF49FFB47DC73FE
@@ -271,11 +235,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S97A38B5EAF4EEF28"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.S97A38B5EAF4EEF28
+function C5648AAEE3425CE6C.S97A38B5EAF4EEF28()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S5E0050B9D86C4BF4
@@ -297,11 +258,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S6F93A583352C01A5"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.S6F93A583352C01A5
+function C5648AAEE3425CE6C.S6F93A583352C01A5()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S5E0050B9D86C4BF4
@@ -321,11 +279,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SB8145DD95BC3DE5B"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.SB8145DD95BC3DE5B
+function C5648AAEE3425CE6C.SB8145DD95BC3DE5B()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S547A08BCC773A2C5
@@ -347,11 +302,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SBBEB1F39552E7906"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.SBBEB1F39552E7906
+function C5648AAEE3425CE6C.SBBEB1F39552E7906()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S547A08BCC773A2C5
@@ -371,11 +323,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S989F697F6EC8998D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.GameStart
+function C5648AAEE3425CE6C.S989F697F6EC8998D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = C5648AAEE3425CE6C
   L3_2 = L3_2.S5F560793FAAE7616
@@ -408,32 +357,23 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SC5308813DFCC7894"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.GameEnd
+function C5648AAEE3425CE6C.SC5308813DFCC7894()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2.S116CB2324E532569 = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SFBF56ABD13E8DFBB"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.IsGamePlaying
+function C5648AAEE3425CE6C.SFBF56ABD13E8DFBB()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S116CB2324E532569
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SCF9D89FF5BC6D008"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.IsGameClear
+function C5648AAEE3425CE6C.SCF9D89FF5BC6D008()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S007ED4DEB8533D2B
@@ -447,33 +387,24 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SB6D139220FA90E3F"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.IsShowNewRecord
+function C5648AAEE3425CE6C.SB6D139220FA90E3F()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S86C4700B1D00ED51
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S717F2A8E03073E18"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.IsShowClearTime
+function C5648AAEE3425CE6C.S717F2A8E03073E18()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S00B92B2FF1E3679A
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SFB730E13EADA7545"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.IsPlaying
+function C5648AAEE3425CE6C.SFB730E13EADA7545()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.SD55C563B8386E657
@@ -483,22 +414,16 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S46FA3430F937329D"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.IsPause
+function C5648AAEE3425CE6C.S46FA3430F937329D()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S5A6F620A895E38D7
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S4097278AAB477DF4"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.IsGymTest
+function C5648AAEE3425CE6C.S4097278AAB477DF4()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S88FD7653C3C108C2
@@ -506,22 +431,16 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S3219481D5C52345B"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.GetCourseResult
+function C5648AAEE3425CE6C.S3219481D5C52345B()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S007ED4DEB8533D2B
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S6C31A7B71EA4987F"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CallCourseGoal
+function C5648AAEE3425CE6C.S6C31A7B71EA4987F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = A1_2.bestRecordTime
   L2_2 = L2_2[5]
@@ -573,11 +492,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S7FF135CDDD0D6330"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CallCourseTimeup
+function C5648AAEE3425CE6C.S7FF135CDDD0D6330()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.SF6EC53B08253162A
@@ -588,11 +504,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SE520EA6407A67718"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CallCourseOut
+function C5648AAEE3425CE6C.SE520EA6407A67718(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A0_2 then
     A0_2 = false
@@ -615,11 +528,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SCE4F80561ABE34DE"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CallCourseRetry
+function C5648AAEE3425CE6C.SCE4F80561ABE34DE()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.SC50E7EF24468ABAC
@@ -630,11 +540,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S2826BA4FEC1D7463"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CallCourseRetire
+function C5648AAEE3425CE6C.S2826BA4FEC1D7463()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S6BC24FAA5683B03D
@@ -645,11 +552,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S2902E4230C7FA424"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CourseStart
+function C5648AAEE3425CE6C.S2902E4230C7FA424()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S524953FEE039AC8B
@@ -880,11 +784,8 @@ function L70_1()
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S8078012D665B195F"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.playBeforeStartCamera
+function C5648AAEE3425CE6C.S8078012D665B195F()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S1A0EA56735BD4B3F
@@ -1033,11 +934,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SC50E7EF24468ABAC"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.InitCourseRetry
+function C5648AAEE3425CE6C.SC50E7EF24468ABAC()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S524953FEE039AC8B
@@ -1046,11 +944,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S206403166F99E7FA"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CourseRetry
+function C5648AAEE3425CE6C.S206403166F99E7FA()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S4097278AAB477DF4
@@ -1235,11 +1130,8 @@ function L70_1()
   L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S6BC24FAA5683B03D"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.InitCourseRetire
+function C5648AAEE3425CE6C.S6BC24FAA5683B03D()
   local L0_2, L1_2, L2_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S524953FEE039AC8B
@@ -1280,11 +1172,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SDCECFB1F31EF1A7F"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CourseRetire
+function C5648AAEE3425CE6C.SDCECFB1F31EF1A7F()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S4097278AAB477DF4
@@ -1315,11 +1204,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S4E5CE533F81E2EA3"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CourseCountDown
+function C5648AAEE3425CE6C.S4E5CE533F81E2EA3()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S524953FEE039AC8B
@@ -1346,11 +1232,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SBDE2D81916EF645A"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CoursePlay
+function C5648AAEE3425CE6C.SBDE2D81916EF645A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A0_2 then
     A0_2 = false
@@ -1428,11 +1311,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SB177799885BB939B"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.playGoalCamera
+function C5648AAEE3425CE6C.SB177799885BB939B()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = C9F6C325569B7E07F
   L0_2 = L0_2.S15F1FE666677756A
@@ -1487,11 +1367,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S898550FF9F3DC899"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.InitCourseGoal
+function C5648AAEE3425CE6C.S898550FF9F3DC899()
   local L0_2, L1_2, L2_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S524953FEE039AC8B
@@ -1535,11 +1412,8 @@ function L70_1()
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S626F1CDC639576EB"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CourseGoal
+function C5648AAEE3425CE6C.S626F1CDC639576EB()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = C043642B35062DFB9
   L0_2 = L0_2.S37BB39776E9CB702
@@ -1653,11 +1527,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SBE8F207A1F88ABC3"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.playGoalIn
+function C5648AAEE3425CE6C.SBE8F207A1F88ABC3(A0_2, A1_2)
   local L2_2, L3_2
   if A0_2 then
     L2_2 = CC6FE82819C6E1D55
@@ -1692,11 +1563,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SEF4A60EBB2A51413"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CourseNewRecord
+function C5648AAEE3425CE6C.SEF4A60EBB2A51413(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C3A36506FBC96ACBD
   L1_2 = L1_2.SC6181320B46854EE
@@ -1725,11 +1593,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S979A36FEF91A638A"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.InitCourseOut
+function C5648AAEE3425CE6C.S979A36FEF91A638A(A0_2)
   local L1_2, L2_2, L3_2
   if nil == A0_2 then
     A0_2 = false
@@ -1778,11 +1643,8 @@ function L70_1(A0_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S67B69AA19851D61C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CourseOut
+function C5648AAEE3425CE6C.S67B69AA19851D61C(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2
   if nil == A2_2 then
     A2_2 = false
@@ -1818,11 +1680,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SF6EC53B08253162A"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.InitCourseTimeup
+function C5648AAEE3425CE6C.SF6EC53B08253162A()
   local L0_2, L1_2, L2_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S524953FEE039AC8B
@@ -1866,11 +1725,8 @@ function L70_1()
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S98CDE5DE89516BF4"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CourseTimeup
+function C5648AAEE3425CE6C.S98CDE5DE89516BF4()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S0739851835AEF1C5
@@ -1896,11 +1752,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S05F8DCFAD5487B0D"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CoursePenalty
+function C5648AAEE3425CE6C.S05F8DCFAD5487B0D()
   local L0_2, L1_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S9A2943361E45C912
@@ -1913,11 +1766,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SA35B862F8CDE4419"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CourseExitWait
+function C5648AAEE3425CE6C.SA35B862F8CDE4419()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L0_2 = C42D1CDB112422850
   L0_2 = L0_2.S2FA25650F123CB4F
@@ -2126,11 +1976,8 @@ function L70_1()
   L9_2(L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S2497E1CB269A1A28"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CourseExit
+function C5648AAEE3425CE6C.S2497E1CB269A1A28()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C07E4F1BF071B0460
   L0_2 = L0_2.S218E2A14A790D265
@@ -2196,11 +2043,8 @@ function L70_1()
   L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S3E5EE1CB630CFBDA"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CoursePause
+function C5648AAEE3425CE6C.S3E5EE1CB630CFBDA()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C5648AAEE3425CE6C
   L0_2.S5A6F620A895E38D7 = true
@@ -2219,11 +2063,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S9DF859B75DEC8409"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CourseContinue
+function C5648AAEE3425CE6C.S9DF859B75DEC8409()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C5648AAEE3425CE6C
   L0_2.S5A6F620A895E38D7 = false
@@ -2242,11 +2083,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SAE04CF29BB8C6B73"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.CourseFreeMove
+function C5648AAEE3425CE6C.SAE04CF29BB8C6B73(A0_2)
   local L1_2, L2_2, L3_2
   if A0_2 then
     L1_2 = CFC8F368D91411014
@@ -2291,11 +2129,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S826EA6B5EF324454"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.loadView
+function C5648AAEE3425CE6C.S826EA6B5EF324454()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -2354,11 +2189,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SF4EE6F5D57F48B7B"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.unloadView
+function C5648AAEE3425CE6C.SF4EE6F5D57F48B7B()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = C5648AAEE3425CE6C
   L0_2.S0739851835AEF1C5 = nil
@@ -2402,11 +2234,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S5E76D6B9790115ED"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.getLayout
+function C5648AAEE3425CE6C.S5E76D6B9790115ED(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = A0_2
   L2_2 = A0_2.fD4E64AB7
@@ -2455,11 +2284,8 @@ function L70_1(A0_2, A1_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S5FBD4D6E70D27CA4"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.FindCourseObject
+function C5648AAEE3425CE6C.S5FBD4D6E70D27CA4(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -2495,11 +2321,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SD2547BD57E08FF34"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.loadCourse
+function C5648AAEE3425CE6C.SD2547BD57E08FF34()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.SBCFE4ECF7149C757
@@ -2537,11 +2360,8 @@ function L70_1()
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SEF96E5FA660B1A4F"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.unloadCourse
+function C5648AAEE3425CE6C.SEF96E5FA660B1A4F()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -2564,11 +2384,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S80C7A941DD5C8B35"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.setPlayerStartPosition
+function C5648AAEE3425CE6C.S80C7A941DD5C8B35()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S5FBD4D6E70D27CA4
@@ -2685,11 +2502,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S3583DF1B473351C2"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.setPlayerStartPositionParallel
+function C5648AAEE3425CE6C.S3583DF1B473351C2()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2
   L0_2 = C5648AAEE3425CE6C
   L0_2 = L0_2.S5FBD4D6E70D27CA4
@@ -2904,11 +2718,8 @@ function L70_1()
   L33_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S1F9EC60D43F4A9DB"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.getGroundPosition
+function C5648AAEE3425CE6C.S1F9EC60D43F4A9DB(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = A0_2[1]
   L2_2 = A0_2[2]
@@ -2967,11 +2778,8 @@ function L70_1(A0_2)
   return A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SC46F740C849A289F"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.setPlayerReturnPosition
+function C5648AAEE3425CE6C.SC46F740C849A289F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2
   L2_2 = C5648AAEE3425CE6C
   L2_2 = L2_2.S1F9EC60D43F4A9DB
@@ -3163,11 +2971,8 @@ function L70_1(A0_2, A1_2)
   L17_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SE580A5FD30B6FF27"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.NoticeCurrentTime
+function C5648AAEE3425CE6C.SE580A5FD30B6FF27(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C5648AAEE3425CE6C
   L1_2 = L1_2.S71E762328637BB53
@@ -3181,11 +2986,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S52F8C5FE7D42842F"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.RegisterCurrentTimeCallback
+function C5648AAEE3425CE6C.S52F8C5FE7D42842F(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C5648AAEE3425CE6C
   L1_2 = L1_2.S71E762328637BB53
@@ -3195,11 +2997,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "S461190B926E7FAAC"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.RemoveCurrentTimeCallback
+function C5648AAEE3425CE6C.S461190B926E7FAAC(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C5648AAEE3425CE6C
   L1_2 = L1_2.S71E762328637BB53
@@ -3209,11 +3008,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SD1CFE0C1F71BA5B0"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.NoticeCourseInfo
+function C5648AAEE3425CE6C.SD1CFE0C1F71BA5B0(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C5648AAEE3425CE6C
   L1_2 = L1_2.SE849D39A2D8C3E5A
@@ -3227,11 +3023,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SE8B55B638982DB06"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.RegisterCourseInfoCallback
+function C5648AAEE3425CE6C.SE8B55B638982DB06(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C5648AAEE3425CE6C
   L1_2 = L1_2.SE849D39A2D8C3E5A
@@ -3241,11 +3034,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "SEF2ADD9338FE2377"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.RemoveCourseInfoCallback
+function C5648AAEE3425CE6C.SEF2ADD9338FE2377(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C5648AAEE3425CE6C
   L1_2 = L1_2.SE849D39A2D8C3E5A
@@ -3255,50 +3045,39 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C5648AAEE3425CE6C_prototype
+C5648AAEE3425CE6C_prototype = L15_1()
+C5648AAEE3425CE6C.prototype = C5648AAEE3425CE6C_prototype
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.Setup
+function C5648AAEE3425CE6C_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FC0345553D75921A3
+  L3_2 = self
+  L2_2 = self.FC0345553D75921A3
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.Destroy
+function C5648AAEE3425CE6C_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]["prototype"]
-L69_1 = "FC0345553D75921A3"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.loadTable
+function C5648AAEE3425CE6C_prototype:FC0345553D75921A3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = cF52F390B
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cF52F390B
@@ -3308,19 +3087,16 @@ function L70_1(A0_2)
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = C5648AAEE3425CE6C
-    L5_2 = A0_2
-    L4_2 = A0_2.FCFDBD30961031E48
+    L5_2 = self
+    L4_2 = self.FCFDBD30961031E48
     L6_2 = L1_2
     L4_2 = L4_2(L5_2, L6_2)
     L3_2.S38219578837B5DAF = L4_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5648AAEE3425CE6C"]["prototype"]
-L69_1 = "FCFDBD30961031E48"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course.loadCourseTable
+function C5648AAEE3425CE6C_prototype:FCFDBD30961031E48(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = _hx_tab_array
   L3_2 = {}

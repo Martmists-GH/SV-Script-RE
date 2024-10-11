@@ -1,3 +1,5 @@
+---@class CDCC18A39F8976D97 : CDCC18A39F8976D97_prototype
+---@field prototype CDCC18A39F8976D97_prototype
 L55_1 = _ENV
 L56_1 = "CDCC18A39F8976D97"
 L57_1 = L15_1
@@ -132,42 +134,34 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CDCC18A39F8976D97"]
 L69_1 = "__name__"
 L70_1 = "CDCC18A39F8976D97"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCC18A39F8976D97"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCC18A39F8976D97"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CDCC18A39F8976D97_prototype
+CDCC18A39F8976D97_prototype = L15_1()
+CDCC18A39F8976D97.prototype = CDCC18A39F8976D97_prototype
+--- CDCC18A39F8976D97.Setup
+function CDCC18A39F8976D97_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[3] = L2_2
-  L2_2 = A0_2[3]
+  self[3] = L2_2
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.fF327F826
   L4_2 = true
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCC18A39F8976D97"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- CDCC18A39F8976D97.PreUpdate
+function CDCC18A39F8976D97_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = 0
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -177,7 +171,7 @@ function L70_1(A0_2, A1_2)
     L2_2 = L2_2 + 1
     L5_2 = L4_2.isPlayedAnim
     if not L5_2 then
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L6_2 = L5_2
       L5_2 = L5_2.f08866A83
       L7_2 = L4_2.soundPainName
@@ -210,13 +204,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCC18A39F8976D97"]["prototype"]
-L69_1 = "F748A3DCD68216D1D"
-
-function L70_1(A0_2, A1_2)
+--- CDCC18A39F8976D97.PlayAnime
+function CDCC18A39F8976D97_prototype:F748A3DCD68216D1D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2
+  L2_2 = self
   
   function L3_2(A0_3)
     local L1_3, L2_3, L3_3, L4_3
@@ -258,7 +249,7 @@ function L70_1(A0_2, A1_2)
     L5_2(L6_2)
   elseif "oni_perfectclear" == A1_2 then
     L4_2 = "N_oniclear_01"
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.f7798D9F4
     L7_2 = "N_main_00"
@@ -290,37 +281,34 @@ function L70_1(A0_2, A1_2)
     L5_2(L6_2)
     L4_2 = "N_timeup_00"
   end
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.f7798D9F4
   L7_2 = L4_2
   L8_2 = true
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.fB4E9D030
   L7_2 = A1_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.fF327F826
   L7_2 = false
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCC18A39F8976D97"]["prototype"]
-L69_1 = "F7739DC1194DDD2CC"
-
-function L70_1(A0_2, A1_2)
+--- CDCC18A39F8976D97.F7739DC1194DDD2CC
+function CDCC18A39F8976D97_prototype:F7739DC1194DDD2CC(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.fF8C77C75
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.fF327F826
     L5_2 = true

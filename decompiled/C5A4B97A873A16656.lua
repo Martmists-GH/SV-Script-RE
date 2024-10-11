@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C5A4B97A873A16656"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C5A4B97A873A16656"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A4B97A873A16656"]
-L69_1 = "__name__"
-L70_1 = "C5A4B97A873A16656"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A4B97A873A16656"]
-L69_1 = "SA3DEF3906037F7B8"
+---@alias C5A4B97A873A16656 main_ui_netcontens_NetContentsParamGlobal
 
-function L70_1()
+---@class main_ui_netcontens_NetContentsParamGlobal
+C5A4B97A873A16656 = L15_1()
+C5A4B97A873A16656.new = {}
+C5A4B97A873A16656.__name__ = "C5A4B97A873A16656"
+--- main.ui.netcontens.NetContentsParamGlobal.DisposeMemberData
+function C5A4B97A873A16656.SA3DEF3906037F7B8()
   local L0_2, L1_2, L2_2
   L0_2 = C5A4B97A873A16656
   L0_2 = L0_2.S9EAD7C0EC24516B7
@@ -24,11 +15,8 @@ function L70_1()
   L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A4B97A873A16656"]
-L69_1 = "S65C0DA3FECD3A85E"
-
-function L70_1(A0_2)
+--- main.ui.netcontens.NetContentsParamGlobal.GetComMemberData
+function C5A4B97A873A16656.S65C0DA3FECD3A85E(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C5A4B97A873A16656
@@ -49,11 +37,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A4B97A873A16656"]
-L69_1 = "S476CC31F584EB1A7"
-
-function L70_1()
+--- main.ui.netcontens.NetContentsParamGlobal.S476CC31F584EB1A7
+function C5A4B97A873A16656.S476CC31F584EB1A7()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = 0
   L1_2 = C5A4B97A873A16656
@@ -82,11 +67,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A4B97A873A16656"]
-L69_1 = "SE02BA20608B283B8"
-
-function L70_1(A0_2)
+--- main.ui.netcontens.NetContentsParamGlobal.SE02BA20608B283B8
+function C5A4B97A873A16656.SE02BA20608B283B8(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C5A4B97A873A16656
@@ -107,11 +89,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A4B97A873A16656"]
-L69_1 = "S5CBD519A19FB201C"
-
-function L70_1()
+--- main.ui.netcontens.NetContentsParamGlobal.S5CBD519A19FB201C
+function C5A4B97A873A16656.S5CBD519A19FB201C()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = 0
   L1_2 = C5A4B97A873A16656
@@ -140,11 +119,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A4B97A873A16656"]
-L69_1 = "SB1706D86C75E3A76"
-
-function L70_1(A0_2)
+--- main.ui.netcontens.NetContentsParamGlobal.SetRulePreset
+function C5A4B97A873A16656.SB1706D86C75E3A76(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C5A4B97A873A16656
   L1_2.S883752746C11F50D = A0_2

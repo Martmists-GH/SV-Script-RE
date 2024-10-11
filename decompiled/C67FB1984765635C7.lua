@@ -1,3 +1,7 @@
+---@alias C85757F94FC419372 main_field_behaviour_base_BehaviorTree
+
+---@class main_field_behaviour_base_BehaviorTree : C85757F94FC419372_prototype
+---@field prototype C85757F94FC419372_prototype
 L55_1 = _ENV
 L56_1 = "C67FB1984765635C7"
 L57_1 = L15_1
@@ -37,11 +41,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C67FB1984765635C7"]
 L69_1 = "__name__"
 L70_1 = "C67FB1984765635C7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C67FB1984765635C7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C85757F94FC419372_prototype
+C85757F94FC419372_prototype = L15_1()
+C85757F94FC419372.prototype = C85757F94FC419372_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C67FB1984765635C7"]["prototype"]
 L69_1 = _ENV["C67FB1984765635C7"]

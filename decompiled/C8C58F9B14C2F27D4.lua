@@ -1,3 +1,7 @@
+---@alias C8C58F9B14C2F27D4 main_pokepicnic_database_PicnicDatabaseBase
+
+---@class main_pokepicnic_database_PicnicDatabaseBase : C8C58F9B14C2F27D4_prototype
+---@field prototype C8C58F9B14C2F27D4_prototype
 L55_1 = _ENV
 L56_1 = "C8C58F9B14C2F27D4"
 L57_1 = L15_1
@@ -34,28 +38,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8C58F9B14C2F27D4"]
 L69_1 = "__name__"
 L70_1 = "C8C58F9B14C2F27D4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8C58F9B14C2F27D4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8C58F9B14C2F27D4"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C8C58F9B14C2F27D4_prototype
+C8C58F9B14C2F27D4_prototype = L15_1()
+C8C58F9B14C2F27D4.prototype = C8C58F9B14C2F27D4_prototype
+--- main.pokepicnic.database.PicnicDatabaseBase.Setup
+function C8C58F9B14C2F27D4_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2
-  A0_2[1] = A1_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F795CBC2B12F8956D
+  self[1] = A1_2
+  L3_2 = self
+  L2_2 = self.F795CBC2B12F8956D
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8C58F9B14C2F27D4"]["prototype"]
-L69_1 = "F795CBC2B12F8956D"
-
-function L70_1(A0_2)
+--- main.pokepicnic.database.PicnicDatabaseBase.OnSetup
+function C8C58F9B14C2F27D4_prototype:F795CBC2B12F8956D()
   local L1_2
 end
 

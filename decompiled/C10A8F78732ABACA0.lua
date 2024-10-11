@@ -1,3 +1,7 @@
+---@alias C2B428A63695FD2C7 main_encount_EncountCreatePokepara
+
+---@class main_encount_EncountCreatePokepara : C2B428A63695FD2C7_prototype
+---@field prototype C2B428A63695FD2C7_prototype
 L55_1 = _ENV
 L56_1 = "C10A8F78732ABACA0"
 L57_1 = L15_1
@@ -39,11 +43,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C10A8F78732ABACA0"]
 L69_1 = "__name__"
 L70_1 = "C10A8F78732ABACA0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C10A8F78732ABACA0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C2B428A63695FD2C7_prototype
+C2B428A63695FD2C7_prototype = L15_1()
+C2B428A63695FD2C7.prototype = C2B428A63695FD2C7_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C10A8F78732ABACA0"]["prototype"]
 L69_1 = _ENV["C10A8F78732ABACA0"]

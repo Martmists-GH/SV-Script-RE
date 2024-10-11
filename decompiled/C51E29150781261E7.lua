@@ -1,3 +1,5 @@
+---@class C51E29150781261E7 : C51E29150781261E7_prototype
+---@field prototype C51E29150781261E7_prototype
 L55_1 = _ENV
 L56_1 = "C51E29150781261E7"
 L57_1 = L15_1
@@ -33,37 +35,32 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C51E29150781261E7"]
 L69_1 = "__name__"
 L70_1 = "C51E29150781261E7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51E29150781261E7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51E29150781261E7"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2, A1_2)
+---@class C51E29150781261E7_prototype
+C51E29150781261E7_prototype = L15_1()
+C51E29150781261E7.prototype = C51E29150781261E7_prototype
+--- C51E29150781261E7.Load
+function C51E29150781261E7_prototype:F6C5D0398122A6629(A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "Red"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "Green"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "Blue"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "Alpha"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
 end
 
 L68_1[L69_1] = L70_1

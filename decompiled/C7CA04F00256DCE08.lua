@@ -1,3 +1,7 @@
+---@alias C7CA04F00256DCE08 main_battle_ui_last_battle_event_BattleUiLastBattleEventParticle
+
+---@class main_battle_ui_last_battle_event_BattleUiLastBattleEventParticle : C7CA04F00256DCE08_prototype
+---@field prototype C7CA04F00256DCE08_prototype
 L55_1 = _ENV
 L56_1 = "C7CA04F00256DCE08"
 L57_1 = L15_1
@@ -56,39 +60,28 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C7CA04F00256DCE08"]
 L69_1 = "__name__"
 L70_1 = "C7CA04F00256DCE08"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CA04F00256DCE08"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CA04F00256DCE08"]["prototype"]
-L69_1 = "F8A30BC6DC7EC37A3"
-
-function L70_1(A0_2)
+---@class C7CA04F00256DCE08_prototype
+C7CA04F00256DCE08_prototype = L15_1()
+C7CA04F00256DCE08.prototype = C7CA04F00256DCE08_prototype
+--- main.battle.ui.last_battle_event.BattleUiLastBattleEventParticle.get_particleParam
+function C7CA04F00256DCE08_prototype:F8A30BC6DC7EC37A3()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CA04F00256DCE08"]["prototype"]
-L69_1 = "FCE8975C56C10688D"
-
-function L70_1(A0_2)
+--- main.battle.ui.last_battle_event.BattleUiLastBattleEventParticle.get_isSetup
+function C7CA04F00256DCE08_prototype:FCE8975C56C10688D()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CA04F00256DCE08"]["prototype"]
-L69_1 = "F0E47A597FB435DB7"
-
-function L70_1(A0_2)
+--- main.battle.ui.last_battle_event.BattleUiLastBattleEventParticle.SetupSequence
+function C7CA04F00256DCE08_prototype:F0E47A597FB435DB7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   while true do
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.f9D8BC178
     L1_2 = L1_2(L2_2)
@@ -109,8 +102,8 @@ function L70_1(A0_2)
   L4_2.onCursorRideButtonParticle = true
   L4_2.onClickRideButtonParticle = true
   L3_2.__fields__ = L4_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F363A1D9C1A18BBD4
+  L5_2 = self
+  L4_2 = self.F363A1D9C1A18BBD4
   
   function L6_2()
     local L0_3, L1_3, L2_3, L3_3
@@ -142,8 +135,8 @@ function L70_1(A0_2)
   L7_2 = "hint_particle"
   L4_2 = L4_2(L5_2, L6_2, L7_2)
   L3_2.hintParticle = L4_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F363A1D9C1A18BBD4
+  L5_2 = self
+  L4_2 = self.F363A1D9C1A18BBD4
   
   function L6_2()
     local L0_3, L1_3, L2_3, L3_3
@@ -175,8 +168,8 @@ function L70_1(A0_2)
   L7_2 = "on_cursor_particle"
   L4_2 = L4_2(L5_2, L6_2, L7_2)
   L3_2.onCursorRideButtonParticle = L4_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F363A1D9C1A18BBD4
+  L5_2 = self
+  L4_2 = self.F363A1D9C1A18BBD4
   
   function L6_2()
     local L0_3, L1_3, L2_3, L3_3
@@ -209,58 +202,55 @@ function L70_1(A0_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2)
   L3_2.onClickRideButtonParticle = L4_2
   L2_2 = L2_2(L3_2)
-  A0_2[1] = L2_2
-  A0_2[2] = true
-  L2_2 = A0_2[5]
+  self[1] = L2_2
+  self[2] = true
+  L2_2 = self[5]
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FD6410F72F950F7AC
+    L3_2 = self
+    L2_2 = self.FD6410F72F950F7AC
     L2_2(L3_2)
-    A0_2[5] = false
+    self[5] = false
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FCBEFFC9571A0CF8E
+    L3_2 = self
+    L2_2 = self.FCBEFFC9571A0CF8E
     L2_2(L3_2)
-    A0_2[6] = false
+    self[6] = false
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F8BF92AEF5E241AA0
+    L3_2 = self
+    L2_2 = self.F8BF92AEF5E241AA0
     L2_2(L3_2)
-    A0_2[7] = false
+    self[7] = false
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CA04F00256DCE08"]["prototype"]
-L69_1 = "FD6410F72F950F7AC"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.last_battle_event.BattleUiLastBattleEventParticle.PlayHintParticle
+function C7CA04F00256DCE08_prototype:FD6410F72F950F7AC(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = nil
   L3_2 = cE8D61D7D
   L3_2 = L3_2.fEFB8CD3A
-  L5_2 = A0_2
-  L4_2 = A0_2.F8A30BC6DC7EC37A3
+  L5_2 = self
+  L4_2 = self.F8A30BC6DC7EC37A3
   L4_2 = L4_2(L5_2)
   L4_2 = L4_2.hintParticle
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FCE8975C56C10688D
+    L4_2 = self
+    L3_2 = self.FCE8975C56C10688D
     L3_2 = L3_2(L4_2)
     if not L3_2 then
-      A0_2[5] = true
+      self[5] = true
     end
     return
   end
   if nil ~= A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F2507838F491E7E36
+    L4_2 = self
+    L3_2 = self.F2507838F491E7E36
     L5_2 = "hint_particle"
     L3_2 = L3_2(L4_2, L5_2)
     L4_2 = L3_2
@@ -270,8 +260,8 @@ function L70_1(A0_2, A1_2)
     L7_2 = A1_2[3]
     L3_2(L4_2, L5_2, L6_2, L7_2)
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F8A30BC6DC7EC37A3
+  L4_2 = self
+  L3_2 = self.F8A30BC6DC7EC37A3
   L3_2 = L3_2(L4_2)
   L3_2 = L3_2.hintParticle
   L4_2 = L3_2
@@ -281,33 +271,30 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CA04F00256DCE08"]["prototype"]
-L69_1 = "FCBEFFC9571A0CF8E"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.last_battle_event.BattleUiLastBattleEventParticle.PlayOnCursorParticle
+function C7CA04F00256DCE08_prototype:FCBEFFC9571A0CF8E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = nil
   L3_2 = cE8D61D7D
   L3_2 = L3_2.fEFB8CD3A
-  L5_2 = A0_2
-  L4_2 = A0_2.F8A30BC6DC7EC37A3
+  L5_2 = self
+  L4_2 = self.F8A30BC6DC7EC37A3
   L4_2 = L4_2(L5_2)
   L4_2 = L4_2.onCursorRideButtonParticle
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FCE8975C56C10688D
+    L4_2 = self
+    L3_2 = self.FCE8975C56C10688D
     L3_2 = L3_2(L4_2)
     if not L3_2 then
-      A0_2[6] = true
+      self[6] = true
     end
     return
   end
   if nil ~= A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F2507838F491E7E36
+    L4_2 = self
+    L3_2 = self.F2507838F491E7E36
     L5_2 = "on_cursor_particle"
     L3_2 = L3_2(L4_2, L5_2)
     L4_2 = L3_2
@@ -317,8 +304,8 @@ function L70_1(A0_2, A1_2)
     L7_2 = A1_2[3]
     L3_2(L4_2, L5_2, L6_2, L7_2)
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F8A30BC6DC7EC37A3
+  L4_2 = self
+  L3_2 = self.F8A30BC6DC7EC37A3
   L3_2 = L3_2(L4_2)
   L3_2 = L3_2.onCursorRideButtonParticle
   L4_2 = L3_2
@@ -328,33 +315,30 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CA04F00256DCE08"]["prototype"]
-L69_1 = "F8BF92AEF5E241AA0"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.last_battle_event.BattleUiLastBattleEventParticle.PlayOnClickParticle
+function C7CA04F00256DCE08_prototype:F8BF92AEF5E241AA0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = nil
   L3_2 = cE8D61D7D
   L3_2 = L3_2.fEFB8CD3A
-  L5_2 = A0_2
-  L4_2 = A0_2.F8A30BC6DC7EC37A3
+  L5_2 = self
+  L4_2 = self.F8A30BC6DC7EC37A3
   L4_2 = L4_2(L5_2)
   L4_2 = L4_2.onClickRideButtonParticle
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FCE8975C56C10688D
+    L4_2 = self
+    L3_2 = self.FCE8975C56C10688D
     L3_2 = L3_2(L4_2)
     if not L3_2 then
-      A0_2[7] = true
+      self[7] = true
     end
     return
   end
   if nil ~= A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F2507838F491E7E36
+    L4_2 = self
+    L3_2 = self.F2507838F491E7E36
     L5_2 = "on_click_particle"
     L3_2 = L3_2(L4_2, L5_2)
     L4_2 = L3_2
@@ -364,8 +348,8 @@ function L70_1(A0_2, A1_2)
     L7_2 = A1_2[3]
     L3_2(L4_2, L5_2, L6_2, L7_2)
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F8A30BC6DC7EC37A3
+  L4_2 = self
+  L3_2 = self.F8A30BC6DC7EC37A3
   L3_2 = L3_2(L4_2)
   L3_2 = L3_2.onClickRideButtonParticle
   L4_2 = L3_2
@@ -375,32 +359,29 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CA04F00256DCE08"]["prototype"]
-L69_1 = "F952FD5912300F5DE"
-
-function L70_1(A0_2)
+--- main.battle.ui.last_battle_event.BattleUiLastBattleEventParticle.KillHintParticle
+function C7CA04F00256DCE08_prototype:F952FD5912300F5DE()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cE8D61D7D
   L2_2 = L2_2.fEFB8CD3A
-  L4_2 = A0_2
-  L3_2 = A0_2.F8A30BC6DC7EC37A3
+  L4_2 = self
+  L3_2 = self.F8A30BC6DC7EC37A3
   L3_2 = L3_2(L4_2)
   L3_2 = L3_2.hintParticle
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FCE8975C56C10688D
+    L3_2 = self
+    L2_2 = self.FCE8975C56C10688D
     L2_2 = L2_2(L3_2)
     if not L2_2 then
-      A0_2[5] = false
+      self[5] = false
     end
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F8A30BC6DC7EC37A3
+  L3_2 = self
+  L2_2 = self.F8A30BC6DC7EC37A3
   L2_2 = L2_2(L3_2)
   L2_2 = L2_2.hintParticle
   L3_2 = L2_2
@@ -408,32 +389,29 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CA04F00256DCE08"]["prototype"]
-L69_1 = "F277AC728C6BE91A8"
-
-function L70_1(A0_2)
+--- main.battle.ui.last_battle_event.BattleUiLastBattleEventParticle.KillOnCursorParticle
+function C7CA04F00256DCE08_prototype:F277AC728C6BE91A8()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cE8D61D7D
   L2_2 = L2_2.fEFB8CD3A
-  L4_2 = A0_2
-  L3_2 = A0_2.F8A30BC6DC7EC37A3
+  L4_2 = self
+  L3_2 = self.F8A30BC6DC7EC37A3
   L3_2 = L3_2(L4_2)
   L3_2 = L3_2.onCursorRideButtonParticle
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FCE8975C56C10688D
+    L3_2 = self
+    L2_2 = self.FCE8975C56C10688D
     L2_2 = L2_2(L3_2)
     if not L2_2 then
-      A0_2[6] = false
+      self[6] = false
     end
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F8A30BC6DC7EC37A3
+  L3_2 = self
+  L2_2 = self.F8A30BC6DC7EC37A3
   L2_2 = L2_2(L3_2)
   L2_2 = L2_2.onCursorRideButtonParticle
   L3_2 = L2_2
@@ -441,17 +419,14 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CA04F00256DCE08"]["prototype"]
-L69_1 = "F6353FB03C911E3B8"
-
-function L70_1(A0_2)
+--- main.battle.ui.last_battle_event.BattleUiLastBattleEventParticle.IsEmitEndHintParticle
+function C7CA04F00256DCE08_prototype:F6353FB03C911E3B8()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cE8D61D7D
   L2_2 = L2_2.fEFB8CD3A
-  L4_2 = A0_2
-  L3_2 = A0_2.F8A30BC6DC7EC37A3
+  L4_2 = self
+  L3_2 = self.F8A30BC6DC7EC37A3
   L3_2 = L3_2(L4_2)
   L3_2 = L3_2.hintParticle
   L4_2 = L1_2
@@ -460,8 +435,8 @@ function L70_1(A0_2)
     L2_2 = false
     return L2_2
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F8A30BC6DC7EC37A3
+  L3_2 = self
+  L2_2 = self.F8A30BC6DC7EC37A3
   L2_2 = L2_2(L3_2)
   L2_2 = L2_2.hintParticle
   L3_2 = L2_2
@@ -469,17 +444,14 @@ function L70_1(A0_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CA04F00256DCE08"]["prototype"]
-L69_1 = "F07B9E55D7C8C915A"
-
-function L70_1(A0_2)
+--- main.battle.ui.last_battle_event.BattleUiLastBattleEventParticle.IsEmitEndOnCursorParticle
+function C7CA04F00256DCE08_prototype:F07B9E55D7C8C915A()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cE8D61D7D
   L2_2 = L2_2.fEFB8CD3A
-  L4_2 = A0_2
-  L3_2 = A0_2.F8A30BC6DC7EC37A3
+  L4_2 = self
+  L3_2 = self.F8A30BC6DC7EC37A3
   L3_2 = L3_2(L4_2)
   L3_2 = L3_2.onCursorRideButtonParticle
   L4_2 = L1_2
@@ -488,8 +460,8 @@ function L70_1(A0_2)
     L2_2 = false
     return L2_2
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F8A30BC6DC7EC37A3
+  L3_2 = self
+  L2_2 = self.F8A30BC6DC7EC37A3
   L2_2 = L2_2(L3_2)
   L2_2 = L2_2.onCursorRideButtonParticle
   L3_2 = L2_2
@@ -497,14 +469,11 @@ function L70_1(A0_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CA04F00256DCE08"]["prototype"]
-L69_1 = "F3CC990DA6C6A7C4A"
-
-function L70_1(A0_2)
+--- main.battle.ui.last_battle_event.BattleUiLastBattleEventParticle.Delete
+function C7CA04F00256DCE08_prototype:F3CC990DA6C6A7C4A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -519,14 +488,11 @@ function L70_1(A0_2)
   end
   L3_2 = L26_1.new
   L3_2 = L3_2()
-  A0_2[4] = L3_2
+  self[4] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CA04F00256DCE08"]["prototype"]
-L69_1 = "F363A1D9C1A18BBD4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.ui.last_battle_event.BattleUiLastBattleEventParticle.GetParticleSequence
+function C7CA04F00256DCE08_prototype:F363A1D9C1A18BBD4(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = c451059A3
   L3_2 = L3_2.f5776B6C6
@@ -556,14 +522,14 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2 = nil
   L6_2 = cA042DA13
   L6_2 = L6_2.fB1E655AE
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
   if L6_2 then
     L6_2 = nil
     return L6_2
   end
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L7_2 = L6_2
   L6_2 = L6_2.f68159593
   L8_2 = A2_2
@@ -580,7 +546,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L7_2 = L7_2.S760DAE4C5371A78E
     L7_2()
   end
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = L7_2
   L7_2 = L7_2.push
   L9_2 = L6_2
@@ -605,20 +571,17 @@ function L70_1(A0_2, A1_2, A2_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7CA04F00256DCE08"]["prototype"]
-L69_1 = "F2507838F491E7E36"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.last_battle_event.BattleUiLastBattleEventParticle.GetParticleObject
+function C7CA04F00256DCE08_prototype:F2507838F491E7E36(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil == L2_2 then
     L2_2 = nil
     return L2_2
   end
   L2_2 = nil
   L3_2 = 0
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   while true do
     L5_2 = L4_2.length
     if not (L3_2 < L5_2) then

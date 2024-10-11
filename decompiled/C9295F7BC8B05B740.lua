@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C9295F7BC8B05B740"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C9295F7BC8B05B740"]
-L69_1 = "new"
+---@alias C9295F7BC8B05B740 main_field_behaviour_scenario_main_champion_gym_mushi_Gym_mushi_poke_olive
 
-function L70_1(A0_2)
+---@class main_field_behaviour_scenario_main_champion_gym_mushi_Gym_mushi_poke_olive : C9295F7BC8B05B740_prototype
+---@field prototype C9295F7BC8B05B740_prototype
+C9295F7BC8B05B740 = L15_1()
+function C9295F7BC8B05B740.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C9295F7BC8B05B740
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9295F7BC8B05B740"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C9295F7BC8B05B740
+function C9295F7BC8B05B740.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[64] = false
   L2_2 = CF575A0A98B1068BC
@@ -43,11 +37,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9295F7BC8B05B740"]
 L69_1 = "__name__"
 L70_1 = "C9295F7BC8B05B740"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9295F7BC8B05B740"]
-L69_1 = "S2C00E31A4B070414"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_olive.OnTriggerFunction
+function C9295F7BC8B05B740.S2C00E31A4B070414(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L6_2 = CF67A67452D018ECC
   L6_2 = L6_2.SC8223E31D3163519
@@ -142,32 +133,27 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9295F7BC8B05B740"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9295F7BC8B05B740"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+---@class C9295F7BC8B05B740_prototype
+C9295F7BC8B05B740_prototype = L15_1()
+C9295F7BC8B05B740.prototype = C9295F7BC8B05B740_prototype
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_olive.onSetup
+function C9295F7BC8B05B740_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CF575A0A98B1068BC
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F22C7B81A049FA20D
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = C97020DF9B90A5322
   L1_2 = L1_2.SF809A9FB8A31532C
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F1884706F85EBEF03
+  L3_2 = self
+  L4_2 = self.F1884706F85EBEF03
   L2_2, L3_2, L4_2, L5_2, L6_2, L7_2 = L2_2(L3_2, L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2)
   L1_2 = cACBFA004
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cACBFA004
@@ -185,84 +171,72 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9295F7BC8B05B740"]["prototype"]
-L69_1 = "FE9D694A7E455EB0B"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_olive.setupState
+function C9295F7BC8B05B740_prototype:FE9D694A7E455EB0B()
   local L1_2, L2_2, L3_2
   L1_2 = CF575A0A98B1068BC
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FE9D694A7E455EB0B
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = C0E04662B6E9633CA
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
-  A0_2[60] = L1_2
+  self[60] = L1_2
   L1_2 = C2EEB4C4EA9C6DA40
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
-  A0_2[61] = L1_2
+  self[61] = L1_2
   L1_2 = CA4C1C0F634C2C03C
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
-  A0_2[62] = L1_2
+  self[62] = L1_2
   L1_2 = CE1FCAAF65C6AB7D2
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
-  A0_2[63] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F28EAF3B3AA178E3E
-  L3_2 = A0_2[60]
+  self[63] = L1_2
+  L2_2 = self
+  L1_2 = self.F28EAF3B3AA178E3E
+  L3_2 = self[60]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9295F7BC8B05B740"]["prototype"]
-L69_1 = "F883A2367DD0011CA"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_olive.onDestroy
+function C9295F7BC8B05B740_prototype:F883A2367DD0011CA()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C97020DF9B90A5322
   L1_2 = L1_2.SD431D153955F7931
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F1884706F85EBEF03
+  L3_2 = self
+  L4_2 = self.F1884706F85EBEF03
   L2_2, L3_2, L4_2 = L2_2(L3_2, L4_2)
   L1_2(L2_2, L3_2, L4_2)
   L1_2 = CF575A0A98B1068BC
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F883A2367DD0011CA
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9295F7BC8B05B740"]["prototype"]
-L69_1 = "F1884706F85EBEF03"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_olive.onGoal
+function C9295F7BC8B05B740_prototype:F1884706F85EBEF03()
   local L1_2
-  A0_2[64] = true
+  self[64] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9295F7BC8B05B740"]["prototype"]
-L69_1 = "FF1426ED0077F5B68"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_olive.OnOliveHit
+function C9295F7BC8B05B740_prototype:FF1426ED0077F5B68()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[53]
-  L2_2 = A0_2[61]
+  L1_2 = self[53]
+  L2_2 = self[61]
   if L1_2 ~= L2_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F28EAF3B3AA178E3E
-    L3_2 = A0_2[61]
+    L2_2 = self
+    L1_2 = self.F28EAF3B3AA178E3E
+    L3_2 = self[61]
     L1_2(L2_2, L3_2)
   end
 end

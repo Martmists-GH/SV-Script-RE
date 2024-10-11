@@ -1,15 +1,10 @@
-L68_1 = _ENV["CDB4AAE1C2B105276"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDB4AAE1C2B105276"]
-L69_1 = "__name__"
-L70_1 = "CDB4AAE1C2B105276"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDB4AAE1C2B105276"]
-L69_1 = "S32FCD63E7D2F7A0D"
+---@alias CDB4AAE1C2B105276 main_event_common_scenario_main_nushi_NushiObjectSwitcher
 
-function L70_1(A0_2, A1_2, A2_2)
+---@class main_event_common_scenario_main_nushi_NushiObjectSwitcher
+CDB4AAE1C2B105276.new = {}
+CDB4AAE1C2B105276.__name__ = "CDB4AAE1C2B105276"
+--- main.event.common.scenario.main.nushi.NushiObjectSwitcher.SwitcherCallback
+function CDB4AAE1C2B105276.S32FCD63E7D2F7A0D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = CDB4AAE1C2B105276
   L3_2 = L3_2.S8E5849AB4140AC18
@@ -44,11 +39,8 @@ L68_1 = "CDB4AAE1C2B105276"
 L68_1 = L25_1[L68_1]
 L69_1 = "S32FCD63E7D2F7A0D"
 L70_1 = _ENV["CDB4AAE1C2B105276"]["S32FCD63E7D2F7A0D"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDB4AAE1C2B105276"]
-L69_1 = "S77647FFCD947CA10"
-
-function L70_1()
+--- main.event.common.scenario.main.nushi.NushiObjectSwitcher.S77647FFCD947CA10
+function CDB4AAE1C2B105276.S77647FFCD947CA10()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L0_2 = CDB4AAE1C2B105276
   L0_2 = L0_2.S8E5849AB4140AC18

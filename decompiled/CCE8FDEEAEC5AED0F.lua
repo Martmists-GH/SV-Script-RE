@@ -1,3 +1,7 @@
+---@alias CCE8FDEEAEC5AED0F main_ui_net_btl_ui_NetworkBattleUIMatching
+
+---@class main_ui_net_btl_ui_NetworkBattleUIMatching : CCE8FDEEAEC5AED0F_prototype
+---@field prototype CCE8FDEEAEC5AED0F_prototype
 L55_1 = _ENV
 L56_1 = "CCE8FDEEAEC5AED0F"
 L57_1 = L15_1
@@ -46,54 +50,46 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CCE8FDEEAEC5AED0F"]
 L69_1 = "__name__"
 L70_1 = "CCE8FDEEAEC5AED0F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE8FDEEAEC5AED0F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE8FDEEAEC5AED0F"]["prototype"]
-L69_1 = "F798CCA603D6E6730"
-
-function L70_1(A0_2, A1_2)
+---@class CCE8FDEEAEC5AED0F_prototype
+CCE8FDEEAEC5AED0F_prototype = L15_1()
+CCE8FDEEAEC5AED0F.prototype = CCE8FDEEAEC5AED0F_prototype
+--- main.ui.net_btl.ui.NetworkBattleUIMatching.SetupUI
+function CCE8FDEEAEC5AED0F_prototype:F798CCA603D6E6730(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C04C2A679B8598CA6
   L2_2 = L2_2.SD071DF9D0379766A
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = 5
   L5_2 = false
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2[13] = L2_2
-  L2_2 = A0_2[13]
+  self[13] = L2_2
+  L2_2 = self[13]
   L3_2 = L2_2
   L2_2 = L2_2.f0C6AF179
   L4_2 = "PLAY_UI_COMMON_CANCEL"
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE8FDEEAEC5AED0F"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.ui.NetworkBattleUIMatching.PreUpdate
+function CCE8FDEEAEC5AED0F_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = 0
-  L3_2 = A0_2[14]
+  L3_2 = self[14]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[14]
+    L5_2 = self[14]
     L5_2 = L5_2[L4_2]
     if nil ~= L5_2 then
       L5_2 = L10_1.coroutine
       L5_2 = L5_2.status
-      L6_2 = A0_2[14]
+      L6_2 = self[14]
       L6_2 = L6_2[L4_2]
       L6_2 = L6_2[1]
       L5_2 = L5_2(L6_2)
       if "dead" ~= L5_2 then
-        L5_2 = A0_2[14]
+        L5_2 = self[14]
         L5_2 = L5_2[L4_2]
         L6_2 = nil
         L7_2 = L62_1
@@ -139,24 +135,21 @@ function L70_1(A0_2, A1_2)
           L8_2(L9_2, L10_2)
         end
       else
-        L5_2 = A0_2[14]
+        L5_2 = self[14]
         L5_2[L4_2] = nil
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE8FDEEAEC5AED0F"]["prototype"]
-L69_1 = "F837233999D634B7A"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.ui.NetworkBattleUIMatching.UpdateLayout
+function CCE8FDEEAEC5AED0F_prototype:F837233999D634B7A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C99FCBF1B467C7135
   L2_2 = L2_2.SDB288F1BB0568E33
   L2_2 = L2_2()
-  L3_2 = A0_2[14]
+  L3_2 = self[14]
   L4_2 = L3_2
   L3_2 = L3_2.resize
   L5_2 = L2_2.length
@@ -165,7 +158,7 @@ function L70_1(A0_2)
   L4_2 = L2_2.length
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
-    L5_2 = A0_2[14]
+    L5_2 = self[14]
     L6_2 = L3_2 - 1
     L5_2[L6_2] = nil
   end
@@ -195,7 +188,7 @@ function L70_1(A0_2)
     L9_2 = L9_2(L10_2)
     L10_2 = L2_2[L7_2]
     L10_2 = L10_2 == L9_2
-    L11_2 = A0_2[8]
+    L11_2 = self[8]
     L12_2 = L11_2
     L11_2 = L11_2.f7798D9F4
     L13_2 = L31_1.string
@@ -216,7 +209,7 @@ function L70_1(A0_2)
     if L10_2 then
       L11_2 = c8C3BF576
       L11_2 = L11_2.f46674724
-      L12_2 = A0_2[1]
+      L12_2 = self[1]
       L13_2 = L31_1.string
       L14_2 = L31_1.string
       L15_2 = ""
@@ -235,7 +228,7 @@ function L70_1(A0_2)
       L11_2(L12_2, L13_2, L14_2, L15_2)
       L11_2 = C5071F1FDB6B8E707
       L11_2 = L11_2.S22AE94E972CE1AAF
-      L12_2 = A0_2[1]
+      L12_2 = self[1]
       L13_2 = L31_1.string
       L14_2 = L31_1.string
       L15_2 = ""
@@ -250,7 +243,7 @@ function L70_1(A0_2)
       L14_2 = L14_2(L15_2)
       L13_2 = L13_2 .. L14_2
       L11_2(L12_2, L13_2)
-      L11_2 = A0_2[8]
+      L11_2 = self[8]
       L12_2 = L11_2
       L11_2 = L11_2.f7798D9F4
       L13_2 = L31_1.string
@@ -283,7 +276,7 @@ function L70_1(A0_2)
       if L13_2 then
         L13_2 = c8C3BF576
         L13_2 = L13_2.f316077B2
-        L14_2 = A0_2[1]
+        L14_2 = self[1]
         L15_2 = L31_1.string
         L16_2 = L31_1.string
         L17_2 = ""
@@ -314,7 +307,7 @@ function L70_1(A0_2)
       L12_2[0] = L13_2
       L13_2 = 1
       L11_2 = L11_2(L12_2, L13_2)
-      L12_2 = A0_2[14]
+      L12_2 = self[14]
       L13_2 = C1DB14DCC9D7634FA
       L13_2 = L13_2.new
       
@@ -406,7 +399,7 @@ function L70_1(A0_2)
       if L14_2 then
         L14_2 = c8C3BF576
         L14_2 = L14_2.f316077B2
-        L15_2 = A0_2[1]
+        L15_2 = self[1]
         L16_2 = L31_1.string
         L17_2 = L31_1.string
         L18_2 = ""
@@ -424,7 +417,7 @@ function L70_1(A0_2)
         L14_2(L15_2, L16_2, L17_2)
       end
     end
-    L11_2 = A0_2[8]
+    L11_2 = self[8]
     L12_2 = L11_2
     L11_2 = L11_2.f7798D9F4
     L13_2 = L31_1.string
@@ -445,11 +438,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE8FDEEAEC5AED0F"]["prototype"]
-L69_1 = "FFB8AA94FE7506A38"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.ui.NetworkBattleUIMatching.SelectFukidashiRulePlayer
+function CCE8FDEEAEC5AED0F_prototype:FFB8AA94FE7506A38()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = C99FCBF1B467C7135
   L1_2 = L1_2.SDB288F1BB0568E33
@@ -481,7 +471,7 @@ function L70_1(A0_2)
   L7_2 = L3_2
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 .. L6_2
-  L6_2 = A0_2[8]
+  L6_2 = self[8]
   L7_2 = L6_2
   L6_2 = L6_2.f7798D9F4
   L8_2 = L31_1.string
@@ -501,7 +491,7 @@ function L70_1(A0_2)
   L6_2(L7_2, L8_2, L9_2)
   L6_2 = c8C3BF576
   L6_2 = L6_2.f46674724
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L31_1.string
   L9_2 = L31_1.string
   L10_2 = ""
@@ -520,11 +510,8 @@ function L70_1(A0_2)
   L6_2(L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE8FDEEAEC5AED0F"]["prototype"]
-L69_1 = "FDC300D4DDC778B2F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.ui.NetworkBattleUIMatching.FDC300D4DDC778B2F
+function CCE8FDEEAEC5AED0F_prototype:FDC300D4DDC778B2F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C99FCBF1B467C7135
   L2_2 = L2_2.SDB288F1BB0568E33
@@ -543,17 +530,14 @@ function L70_1(A0_2, A1_2)
     end
     L3_2 = L3_2 + 1
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.FB253AC8D9CD8C520
+  L6_2 = self
+  L5_2 = self.FB253AC8D9CD8C520
   L7_2 = L3_2
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE8FDEEAEC5AED0F"]["prototype"]
-L69_1 = "F7061B076B123A2A8"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.ui.NetworkBattleUIMatching.F7061B076B123A2A8
+function CCE8FDEEAEC5AED0F_prototype:F7061B076B123A2A8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C99FCBF1B467C7135
   L2_2 = L2_2.SDB288F1BB0568E33
@@ -572,17 +556,14 @@ function L70_1(A0_2, A1_2)
     end
     L3_2 = L3_2 + 1
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F67EB6DFC1FC1D3A3
+  L6_2 = self
+  L5_2 = self.F67EB6DFC1FC1D3A3
   L7_2 = L3_2
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE8FDEEAEC5AED0F"]["prototype"]
-L69_1 = "FB253AC8D9CD8C520"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.ui.NetworkBattleUIMatching.FixFukidashi
+function CCE8FDEEAEC5AED0F_prototype:FB253AC8D9CD8C520(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = L31_1.string
   L3_2 = "L_panel_0"
@@ -591,7 +572,7 @@ function L70_1(A0_2, A1_2)
   L4_2 = A1_2
   L3_2 = L3_2(L4_2)
   L2_2 = L2_2 .. L3_2
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = L31_1.string
@@ -611,7 +592,7 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
   L3_2 = c8C3BF576
   L3_2 = L3_2.f46674724
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L31_1.string
   L6_2 = L31_1.string
   L7_2 = ""
@@ -630,11 +611,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCE8FDEEAEC5AED0F"]["prototype"]
-L69_1 = "F67EB6DFC1FC1D3A3"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.ui.NetworkBattleUIMatching.SelectFukidashi
+function CCE8FDEEAEC5AED0F_prototype:F67EB6DFC1FC1D3A3(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = L31_1.string
   L3_2 = "L_panel_0"
@@ -643,7 +621,7 @@ function L70_1(A0_2, A1_2)
   L4_2 = A1_2
   L3_2 = L3_2(L4_2)
   L2_2 = L2_2 .. L3_2
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = L31_1.string
@@ -663,7 +641,7 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
   L3_2 = c8C3BF576
   L3_2 = L3_2.f46674724
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L31_1.string
   L6_2 = L31_1.string
   L7_2 = ""

@@ -1,3 +1,7 @@
+---@alias CC962FEC3D45B00B0 main_ajito_data_formatter_AjitoLevelFormatter
+
+---@class main_ajito_data_formatter_AjitoLevelFormatter : CC962FEC3D45B00B0_prototype
+---@field prototype CC962FEC3D45B00B0_prototype
 L68_1 = _ENV["CC962FEC3D45B00B0"]
 L69_1 = "super"
 
@@ -185,11 +189,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   A0_2[1] = L12_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC962FEC3D45B00B0"]
-L69_1 = "__name__"
-L70_1 = "CC962FEC3D45B00B0"
-L68_1[L69_1] = L70_1
+CC962FEC3D45B00B0.__name__ = "CC962FEC3D45B00B0"
 L68_1 = _ENV["CC962FEC3D45B00B0"]
 L69_1 = "SB59E8DEB2EA1B1EA"
 
@@ -231,16 +231,11 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC962FEC3D45B00B0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC962FEC3D45B00B0"]["prototype"]
-L69_1 = "F6724DE7C5004AB95"
-
-function L70_1(A0_2, A1_2)
+---@class CC962FEC3D45B00B0_prototype
+CC962FEC3D45B00B0_prototype = L15_1()
+CC962FEC3D45B00B0.prototype = CC962FEC3D45B00B0_prototype
+--- main.ajito.data.formatter.AjitoLevelFormatter.createPokeparam
+function CC962FEC3D45B00B0_prototype:F6724DE7C5004AB95(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = cC99399C3
   L2_2 = L2_2.f101D811F
@@ -251,14 +246,14 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
   L4_2 = L2_2
   L3_2 = L2_2.f02983AD3
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = L5_2
   L5_2 = L5_2.fDAAAA586
-  L7_2 = A0_2[3]
-  L8_2 = A0_2[2]
+  L7_2 = self[3]
+  L8_2 = self[2]
   L7_2 = L7_2 - L8_2
   L5_2 = L5_2(L6_2, L7_2)
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L5_2 = L5_2 + L6_2
   L3_2(L4_2, L5_2)
   L4_2 = L2_2
@@ -284,7 +279,7 @@ L68_1.__class__ = L69_1
 L68_1 = CF6FCFA560F2C1E23
 L69_1 = "new"
 
-function L70_1(A0_2, A1_2, A2_2)
+function L70_1(self, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = L2_1
   L4_2 = CF6FCFA560F2C1E23
@@ -295,7 +290,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = CF6FCFA560F2C1E23
   L4_2 = L4_2.super
   L5_2 = L3_2
-  L6_2 = A0_2
+  L6_2 = self
   L7_2 = A1_2
   L8_2 = A2_2
   L4_2(L5_2, L6_2, L7_2, L8_2)

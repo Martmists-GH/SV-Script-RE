@@ -1,3 +1,7 @@
+---@alias CBAC693B01AB095F0 main_util_reactive_ReactiveQuaternion
+
+---@class main_util_reactive_ReactiveQuaternion : CBAC693B01AB095F0_prototype
+---@field prototype CBAC693B01AB095F0_prototype
 L55_1 = _ENV
 L56_1 = "CBAC693B01AB095F0"
 L57_1 = L15_1
@@ -40,16 +44,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CBAC693B01AB095F0"]
 L69_1 = "__name__"
 L70_1 = "CBAC693B01AB095F0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBAC693B01AB095F0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBAC693B01AB095F0"]["prototype"]
-L69_1 = "F38A3ED592849BB13"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class CBAC693B01AB095F0_prototype
+CBAC693B01AB095F0_prototype = L15_1()
+CBAC693B01AB095F0.prototype = CBAC693B01AB095F0_prototype
+--- main.util.reactive.ReactiveQuaternion.NoticeCheck
+function CBAC693B01AB095F0_prototype:F38A3ED592849BB13(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2
   L4_2 = C6E074861269A51A2
   L4_2 = L4_2.SB5C93A8891F98240
@@ -106,7 +105,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   if L4_2 then
     L4_2 = C6E074861269A51A2
     L4_2 = L4_2.SB5C93A8891F98240
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L4_2 = L4_2(L5_2)
     if L4_2 then
       L4_2 = CD9AE7C27B00EB066
@@ -114,56 +113,56 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L6_2 = A1_2
       L5_2 = A1_2.fCCBD9548
       L5_2 = L5_2(L6_2)
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L4_2(L5_2, L6_2)
       L4_2 = CD9AE7C27B00EB066
       L4_2 = L4_2.S28102DAA82AC58FD
       L6_2 = A1_2
       L5_2 = A1_2.fBBBAA5DE
       L5_2 = L5_2(L6_2)
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L4_2(L5_2, L6_2)
       L4_2 = CD9AE7C27B00EB066
       L4_2 = L4_2.S28102DAA82AC58FD
       L6_2 = A1_2
       L5_2 = A1_2.f22B3F464
       L5_2 = L5_2(L6_2)
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L4_2(L5_2, L6_2)
       L4_2 = CD9AE7C27B00EB066
       L4_2 = L4_2.S28102DAA82AC58FD
       L6_2 = A1_2
       L5_2 = A1_2.f5C0288D9
       L5_2 = L5_2(L6_2)
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L4_2(L5_2, L6_2)
       L4_2 = CD9AE7C27B00EB066
       L4_2 = L4_2.S28102DAA82AC58FD
       L6_2 = A2_2
       L5_2 = A2_2.fCCBD9548
       L5_2 = L5_2(L6_2)
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L4_2(L5_2, L6_2)
       L4_2 = CD9AE7C27B00EB066
       L4_2 = L4_2.S28102DAA82AC58FD
       L6_2 = A2_2
       L5_2 = A2_2.fBBBAA5DE
       L5_2 = L5_2(L6_2)
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L4_2(L5_2, L6_2)
       L4_2 = CD9AE7C27B00EB066
       L4_2 = L4_2.S28102DAA82AC58FD
       L6_2 = A2_2
       L5_2 = A2_2.f22B3F464
       L5_2 = L5_2(L6_2)
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L4_2(L5_2, L6_2)
       L4_2 = CD9AE7C27B00EB066
       L4_2 = L4_2.S28102DAA82AC58FD
       L6_2 = A2_2
       L5_2 = A2_2.f5C0288D9
       L5_2 = L5_2(L6_2)
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L4_2(L5_2, L6_2)
     end
     L5_2 = A3_2

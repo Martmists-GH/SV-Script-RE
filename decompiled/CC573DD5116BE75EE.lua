@@ -1,3 +1,7 @@
+---@alias CC573DD5116BE75EE main_event_debug_ui_DebugQuestStartEvent
+
+---@class main_event_debug_ui_DebugQuestStartEvent : CC573DD5116BE75EE_prototype
+---@field prototype CC573DD5116BE75EE_prototype
 L55_1 = _ENV
 L56_1 = "CC573DD5116BE75EE"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC573DD5116BE75EE"]
 L69_1 = "__name__"
 L70_1 = "CC573DD5116BE75EE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC573DD5116BE75EE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC573DD5116BE75EE"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CC573DD5116BE75EE_prototype
+CC573DD5116BE75EE_prototype = L15_1()
+CC573DD5116BE75EE.prototype = CC573DD5116BE75EE_prototype
+--- main.event.debug.ui.DebugQuestStartEvent.mainBody
+function CC573DD5116BE75EE_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2
   L1_2 = C0CDCD9C63039FCBD
   L1_2 = L1_2.S0D896EC84FC59430

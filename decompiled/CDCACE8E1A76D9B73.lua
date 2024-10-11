@@ -1,3 +1,7 @@
+---@alias CDCACE8E1A76D9B73 main_ui_net_btl_NetworkBattleUIManager
+
+---@class main_ui_net_btl_NetworkBattleUIManager : CDCACE8E1A76D9B73_prototype
+---@field prototype CDCACE8E1A76D9B73_prototype
 L55_1 = _ENV
 L56_1 = "CDCACE8E1A76D9B73"
 L57_1 = L15_1
@@ -61,43 +65,38 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CDCACE8E1A76D9B73"]
 L69_1 = "__name__"
 L70_1 = "CDCACE8E1A76D9B73"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCACE8E1A76D9B73"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCACE8E1A76D9B73"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+---@class CDCACE8E1A76D9B73_prototype
+CDCACE8E1A76D9B73_prototype = L15_1()
+CDCACE8E1A76D9B73.prototype = CDCACE8E1A76D9B73_prototype
+--- main.ui.net_btl.NetworkBattleUIManager.Update
+function CDCACE8E1A76D9B73_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2[1]
   if 0 == L2_2 then
     L3_2 = C45130763CBCE323F
     L3_2 = L3_2.new
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L3_2 = L3_2(L4_2)
-    A0_2[3] = L3_2
+    self[3] = L3_2
     L3_2 = CF694DCD551631D51
     L3_2 = L3_2.new
-    L4_2 = A0_2
+    L4_2 = self
     L3_2 = L3_2(L4_2)
-    A0_2[4] = L3_2
+    self[4] = L3_2
     L3_2 = CF446125AFC320042
     L3_2 = L3_2.new
     L3_2 = L3_2()
-    A0_2[5] = L3_2
-    L3_2 = A0_2[5]
+    self[5] = L3_2
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.F7C68FEDB79AB6396
     L3_2(L4_2)
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.FEB6685558281F194
     L3_2(L4_2)
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.F93E432AA090A48FA
     L3_2 = L3_2(L4_2)
@@ -106,7 +105,7 @@ function L70_1(A0_2, A1_2)
     end
     L3_2 = E7170874584D6BE2A
     L3_2 = L3_2.Main
-    A0_2[2] = L3_2
+    self[2] = L3_2
     L3_2 = CF1BC0419D30C42CE
     L3_2 = L3_2.SC7567AA81B856AE3
     L4_2 = 49
@@ -114,7 +113,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = C99FCBF1B467C7135
     L3_2 = L3_2.SA9971AC0DECB7601
     if false == L3_2 then
-      L3_2 = A0_2[4]
+      L3_2 = self[4]
       L4_2 = L3_2
       L3_2 = L3_2.F28EAF3B3AA178E3E
       L5_2 = C419964F01AD6227B
@@ -122,7 +121,7 @@ function L70_1(A0_2, A1_2)
       L5_2, L6_2, L7_2 = L5_2()
       L3_2(L4_2, L5_2, L6_2, L7_2)
     else
-      L3_2 = A0_2[4]
+      L3_2 = self[4]
       L4_2 = L3_2
       L3_2 = L3_2.F28EAF3B3AA178E3E
       L5_2 = CBE9090E99A4507FD
@@ -140,7 +139,7 @@ function L70_1(A0_2, A1_2)
       L3_2()
       L3_2 = E7170874584D6BE2A
       L3_2 = L3_2.WaitMessage
-      A0_2[2] = L3_2
+      self[2] = L3_2
       L3_2 = CF1BC0419D30C42CE
       L3_2 = L3_2.SC7567AA81B856AE3
       L4_2 = 49
@@ -152,34 +151,34 @@ function L70_1(A0_2, A1_2)
     L3_2()
     L3_2 = E7170874584D6BE2A
     L3_2 = L3_2.Init
-    A0_2[2] = L3_2
+    self[2] = L3_2
   elseif 2 == L2_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.FEB6685558281F194
     L5_2 = A1_2
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.F89BD96BA3DA013AD
     L3_2 = L3_2(L4_2)
     L4_2 = L3_2
     L3_2 = L3_2.F17F3A41C3B455A51
     L3_2(L4_2)
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.F75AE99905847976F
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L3_2 = A0_2[9]
+      L3_2 = self[9]
       if L3_2 then
-        L4_2 = A0_2
-        L3_2 = A0_2.F52984028B56D6B99
+        L4_2 = self
+        L3_2 = self.F52984028B56D6B99
         L5_2 = true
         L3_2(L4_2, L5_2)
       else
-        L4_2 = A0_2
-        L3_2 = A0_2.F52984028B56D6B99
+        L4_2 = self
+        L3_2 = self.F52984028B56D6B99
         L5_2 = C99FCBF1B467C7135
         L5_2 = L5_2.SA9971AC0DECB7601
         L3_2(L4_2, L5_2)
@@ -190,11 +189,11 @@ function L70_1(A0_2, A1_2)
       L4_2 = L3_2
       L3_2 = L3_2.F3C1C09FF28DA60D1
       L3_2 = L3_2(L4_2)
-      A0_2[8] = L3_2
-      L3_2 = A0_2[8]
+      self[8] = L3_2
+      L3_2 = self[8]
       L3_2 = L3_2[1]
       if 0 == L3_2 then
-        L4_2 = A0_2[4]
+        L4_2 = self[4]
         L5_2 = L4_2
         L4_2 = L4_2.F28EAF3B3AA178E3E
         L6_2 = CE86CDE507FE0E511
@@ -204,7 +203,7 @@ function L70_1(A0_2, A1_2)
       elseif 1 == L3_2 or 2 == L3_2 then
         L4_2 = E7170874584D6BE2A
         L4_2 = L4_2.WaitStateClose
-        A0_2[2] = L4_2
+        self[2] = L4_2
       elseif 3 == L3_2 then
       end
     end
@@ -212,19 +211,19 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.SEB6685558281F194
     L3_2()
   elseif 3 == L2_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.FEB6685558281F194
     L5_2 = A1_2
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.F89BD96BA3DA013AD
     L3_2 = L3_2(L4_2)
     L4_2 = L3_2
     L3_2 = L3_2.F17F3A41C3B455A51
     L3_2(L4_2)
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.F89BD96BA3DA013AD
     L3_2 = L3_2(L4_2)
@@ -240,7 +239,7 @@ function L70_1(A0_2, A1_2)
       L3_2()
       L3_2 = E7170874584D6BE2A
       L3_2 = L3_2.WaitMessageClose
-      A0_2[2] = L3_2
+      self[2] = L3_2
     end
   elseif 4 == L2_2 then
     L3_2 = CF1D9D619D324F233
@@ -253,7 +252,7 @@ function L70_1(A0_2, A1_2)
       L3_2 = L3_2.S75C6A1A02973ADBA
       L3_2 = L3_2()
       if L3_2 then
-        L3_2 = A0_2[8]
+        L3_2 = self[8]
         L4_2 = E6E90F62953FBDA38
         L4_2 = L4_2.NetworkError
         if L3_2 == L4_2 then
@@ -268,7 +267,7 @@ function L70_1(A0_2, A1_2)
         end
         L3_2 = E7170874584D6BE2A
         L3_2 = L3_2.WaitMessage
-        A0_2[2] = L3_2
+        self[2] = L3_2
       end
     end
   elseif 5 == L2_2 then
@@ -285,8 +284,8 @@ function L70_1(A0_2, A1_2)
         L3_2 = CB70DB0084AFDD907
         L3_2 = L3_2.S84E00A89DFBC380C
         L3_2()
-        L4_2 = A0_2
-        L3_2 = A0_2.F52984028B56D6B99
+        L4_2 = self
+        L3_2 = self.F52984028B56D6B99
         L5_2 = true
         L3_2(L4_2, L5_2)
       end
@@ -299,11 +298,11 @@ function L70_1(A0_2, A1_2)
       L3_2 = nil
       L4_2 = c5C2B0B8B
       L4_2 = L4_2.fD719AA50
-      L5_2 = A0_2[7]
+      L5_2 = self[7]
       L6_2 = L3_2
       L4_2 = L4_2(L5_2, L6_2)
       if not L4_2 then
-        L4_2 = A0_2[7]
+        L4_2 = self[7]
         L5_2 = L4_2
         L4_2 = L4_2.f56196AF4
         L4_2 = L4_2(L5_2)
@@ -311,30 +310,30 @@ function L70_1(A0_2, A1_2)
       if L4_2 then
         L4_2 = E7170874584D6BE2A
         L4_2 = L4_2.End
-        A0_2[2] = L4_2
+        self[2] = L4_2
         L4_2 = nil
         L5_2 = cA042DA13
         L5_2 = L5_2.f25C936C9
-        L6_2 = A0_2[1]
+        L6_2 = self[1]
         L7_2 = L4_2
         L5_2 = L5_2(L6_2, L7_2)
         if L5_2 then
-          L5_2 = A0_2[1]
+          L5_2 = self[1]
           L6_2 = L5_2
           L5_2 = L5_2.f5C99C0AC
           L5_2(L6_2)
-          A0_2[1] = nil
+          self[1] = nil
         end
       end
     else
       L3_2 = nil
       L4_2 = cF769AB0C
       L4_2 = L4_2.fB02C730E
-      L5_2 = A0_2[6]
+      L5_2 = self[6]
       L6_2 = L3_2
       L4_2 = L4_2(L5_2, L6_2)
       if not L4_2 then
-        L4_2 = A0_2[6]
+        L4_2 = self[6]
         L5_2 = L4_2
         L4_2 = L4_2.f56196AF4
         L4_2 = L4_2(L5_2)
@@ -349,24 +348,24 @@ function L70_1(A0_2, A1_2)
           L4_2()
           L4_2 = E7170874584D6BE2A
           L4_2 = L4_2.CleanupNetwork
-          A0_2[2] = L4_2
+          self[2] = L4_2
           return
         end
         L4_2 = E7170874584D6BE2A
         L4_2 = L4_2.End
-        A0_2[2] = L4_2
+        self[2] = L4_2
         L4_2 = nil
         L5_2 = cA042DA13
         L5_2 = L5_2.f25C936C9
-        L6_2 = A0_2[1]
+        L6_2 = self[1]
         L7_2 = L4_2
         L5_2 = L5_2(L6_2, L7_2)
         if L5_2 then
-          L5_2 = A0_2[1]
+          L5_2 = self[1]
           L6_2 = L5_2
           L5_2 = L5_2.f5C99C0AC
           L5_2(L6_2)
-          A0_2[1] = nil
+          self[1] = nil
         end
       end
     end
@@ -380,30 +379,27 @@ function L70_1(A0_2, A1_2)
       L3_2()
       L3_2 = E7170874584D6BE2A
       L3_2 = L3_2.End
-      A0_2[2] = L3_2
+      self[2] = L3_2
       L3_2 = nil
       L4_2 = cA042DA13
       L4_2 = L4_2.f25C936C9
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L6_2 = L3_2
       L4_2 = L4_2(L5_2, L6_2)
       if L4_2 then
-        L4_2 = A0_2[1]
+        L4_2 = self[1]
         L5_2 = L4_2
         L4_2 = L4_2.f5C99C0AC
         L4_2(L5_2)
-        A0_2[1] = nil
+        self[1] = nil
       end
     end
   elseif 8 == L2_2 then
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCACE8E1A76D9B73"]["prototype"]
-L69_1 = "F52984028B56D6B99"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.NetworkBattleUIManager.ToEnd
+function CDCACE8E1A76D9B73_prototype:F52984028B56D6B99(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CFC2DE9C924277A7B
   L2_2 = L2_2.S768600CE8B68B7F8
@@ -430,12 +426,12 @@ function L70_1(A0_2, A1_2)
       L3_2 = L3_2.F9CFCA472501762A5
       L3_2, L4_2, L5_2 = L3_2(L4_2)
       L2_2 = L2_2(L3_2, L4_2, L5_2)
-      A0_2[7] = L2_2
+      self[7] = L2_2
     else
       L2_2 = cE9AFE246
       L2_2 = L2_2.f52EFC7D5
       L2_2 = L2_2()
-      A0_2[6] = L2_2
+      self[6] = L2_2
       L2_2 = c13E192B2
       L2_2 = L2_2.f643DE857
       L2_2()
@@ -448,79 +444,64 @@ function L70_1(A0_2, A1_2)
     L2_2()
     L2_2 = E7170874584D6BE2A
     L2_2 = L2_2.LeaveSession
-    A0_2[2] = L2_2
+    self[2] = L2_2
   elseif not A1_2 then
     L2_2 = nil
     L3_2 = cA042DA13
     L3_2 = L3_2.f25C936C9
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L4_2 = L3_2
       L3_2 = L3_2.f5C99C0AC
       L3_2(L4_2)
-      A0_2[1] = nil
+      self[1] = nil
     end
     L3_2 = E7170874584D6BE2A
     L3_2 = L3_2.End
-    A0_2[2] = L3_2
+    self[2] = L3_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCACE8E1A76D9B73"]["prototype"]
-L69_1 = "F93E432AA090A48FA"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.NetworkBattleUIManager.IsEnd
+function CDCACE8E1A76D9B73_prototype:F93E432AA090A48FA()
   local L1_2, L2_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = E7170874584D6BE2A
   L2_2 = L2_2.End
   L1_2 = L1_2 == L2_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCACE8E1A76D9B73"]["prototype"]
-L69_1 = "F2FBB004A3763CEBD"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.NetworkBattleUIManager.GetUI
+function CDCACE8E1A76D9B73_prototype:F2FBB004A3763CEBD(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F2FBB004A3763CEBD
   L4_2 = A1_2
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCACE8E1A76D9B73"]["prototype"]
-L69_1 = "FBB5E1195256ACC96"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.NetworkBattleUIManager.GetRuleDataObject
+function CDCACE8E1A76D9B73_prototype:FBB5E1195256ACC96()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCACE8E1A76D9B73"]["prototype"]
-L69_1 = "F29093AD87DB1230F"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.NetworkBattleUIManager.SetBattleCancel
+function CDCACE8E1A76D9B73_prototype:F29093AD87DB1230F()
   local L1_2
-  A0_2[9] = true
+  self[9] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCACE8E1A76D9B73"]["prototype"]
-L69_1 = "F117C04B51A5D5534"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.NetworkBattleUIManager.F117C04B51A5D5534
+function CDCACE8E1A76D9B73_prototype:F117C04B51A5D5534()
   local L1_2, L2_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = E6E90F62953FBDA38
   L2_2 = L2_2.Valid
   L1_2 = L1_2 == L2_2

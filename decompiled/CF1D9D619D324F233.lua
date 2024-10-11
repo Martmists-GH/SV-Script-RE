@@ -1,7 +1,8 @@
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "new"
+---@alias CF1D9D619D324F233 main_ui_system_ui_SystemUi
 
-function L70_1(A0_2)
+---@class main_ui_system_ui_SystemUi : CF1D9D619D324F233_prototype
+---@field prototype CF1D9D619D324F233_prototype
+function CF1D9D619D324F233.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CF1D9D619D324F233
@@ -17,11 +18,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CF1D9D619D324F233
+function CF1D9D619D324F233.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -37,11 +35,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF1D9D619D324F233"]
 L69_1 = "__name__"
 L70_1 = "CF1D9D619D324F233"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S7D05D34C291DA69E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.system_ui.SystemUi.StartMessage
+function CF1D9D619D324F233.S7D05D34C291DA69E(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A2_2 then
     A2_2 = 4
@@ -184,11 +179,8 @@ L68_1 = "CF1D9D619D324F233"
 L68_1 = L25_1[L68_1]
 L69_1 = "S7D05D34C291DA69E"
 L70_1 = _ENV["CF1D9D619D324F233"]["S7D05D34C291DA69E"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "SBFB9EB45D5AD74F0"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.IsOpenMessage
+function CF1D9D619D324F233.SBFB9EB45D5AD74F0(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     L1_2 = E048715B79C692C5A
@@ -219,11 +211,8 @@ L68_1 = "CF1D9D619D324F233"
 L68_1 = L25_1[L68_1]
 L69_1 = "SBFB9EB45D5AD74F0"
 L70_1 = _ENV["CF1D9D619D324F233"]["SBFB9EB45D5AD74F0"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "SB237EB8902E0B201"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.IsEndMessage
+function CF1D9D619D324F233.SB237EB8902E0B201(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     L1_2 = E048715B79C692C5A
@@ -254,11 +243,8 @@ L68_1 = "CF1D9D619D324F233"
 L68_1 = L25_1[L68_1]
 L69_1 = "SB237EB8902E0B201"
 L70_1 = _ENV["CF1D9D619D324F233"]["SB237EB8902E0B201"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S42A63AECD45A3F7C"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.IsPauseMessage
+function CF1D9D619D324F233.S42A63AECD45A3F7C(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     L1_2 = E048715B79C692C5A
@@ -289,11 +275,8 @@ L68_1 = "CF1D9D619D324F233"
 L68_1 = L25_1[L68_1]
 L69_1 = "S42A63AECD45A3F7C"
 L70_1 = _ENV["CF1D9D619D324F233"]["S42A63AECD45A3F7C"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S8D8432E167321DE0"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.OpenMessage
+function CF1D9D619D324F233.S8D8432E167321DE0(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     L1_2 = E048715B79C692C5A
@@ -322,11 +305,8 @@ L68_1 = "CF1D9D619D324F233"
 L68_1 = L25_1[L68_1]
 L69_1 = "S8D8432E167321DE0"
 L70_1 = _ENV["CF1D9D619D324F233"]["S8D8432E167321DE0"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S462C59A485A62D22"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.ResetMessageSpeed
+function CF1D9D619D324F233.S462C59A485A62D22(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     L1_2 = E048715B79C692C5A
@@ -355,11 +335,8 @@ L68_1 = "CF1D9D619D324F233"
 L68_1 = L25_1[L68_1]
 L69_1 = "S462C59A485A62D22"
 L70_1 = _ENV["CF1D9D619D324F233"]["S462C59A485A62D22"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S84E00A89DFBC380C"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.HideMessage
+function CF1D9D619D324F233.S84E00A89DFBC380C(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     L1_2 = E048715B79C692C5A
@@ -388,11 +365,8 @@ L68_1 = "CF1D9D619D324F233"
 L68_1 = L25_1[L68_1]
 L69_1 = "S84E00A89DFBC380C"
 L70_1 = _ENV["CF1D9D619D324F233"]["S84E00A89DFBC380C"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S8F2C56D5FD6B0358"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.ShowTimerIcon
+function CF1D9D619D324F233.S8F2C56D5FD6B0358(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   if nil == A0_2 then
     A0_2 = false
@@ -416,11 +390,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S40372458B8826201"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.GetContextMenuControlName
+function CF1D9D619D324F233.S40372458B8826201(A0_2)
   local L1_2
   L1_2 = E810BF82B6CB36555
   L1_2 = L1_2.Normal
@@ -438,11 +409,8 @@ L68_1 = "CF1D9D619D324F233"
 L68_1 = L25_1[L68_1]
 L69_1 = "S40372458B8826201"
 L70_1 = _ENV["CF1D9D619D324F233"]["S40372458B8826201"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S7285B60A348BD331"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.GetContextMenu
+function CF1D9D619D324F233.S7285B60A348BD331(A0_2)
   local L1_2
   L1_2 = E810BF82B6CB36555
   L1_2 = L1_2.Normal
@@ -457,11 +425,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S44577E0D8E8F3819"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.ClearContextMenuItem
+function CF1D9D619D324F233.S44577E0D8E8F3819(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     L1_2 = E810BF82B6CB36555
@@ -496,11 +461,8 @@ L68_1 = "CF1D9D619D324F233"
 L68_1 = L25_1[L68_1]
 L69_1 = "S44577E0D8E8F3819"
 L70_1 = _ENV["CF1D9D619D324F233"]["S44577E0D8E8F3819"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S65A017628BC83C66"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.SystemUi.SetContextStartIndex
+function CF1D9D619D324F233.S65A017628BC83C66(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     L2_2 = E810BF82B6CB36555
@@ -525,11 +487,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "SDC4D1E69741D12BD"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.ClearContextStartIndex
+function CF1D9D619D324F233.SDC4D1E69741D12BD(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     L1_2 = E810BF82B6CB36555
@@ -554,11 +513,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S56418036C3B7BCD7"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.system_ui.SystemUi.AddContextMenuItem
+function CF1D9D619D324F233.S56418036C3B7BCD7(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A2_2 then
     L3_2 = E810BF82B6CB36555
@@ -596,11 +552,8 @@ L68_1 = "CF1D9D619D324F233"
 L68_1 = L25_1[L68_1]
 L69_1 = "S56418036C3B7BCD7"
 L70_1 = _ENV["CF1D9D619D324F233"]["S56418036C3B7BCD7"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S4FAFEA784668D159"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.system_ui.SystemUi.StartContextMenu
+function CF1D9D619D324F233.S4FAFEA784668D159(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A4_2 then
     A4_2 = 4
@@ -696,11 +649,8 @@ L68_1 = "CF1D9D619D324F233"
 L68_1 = L25_1[L68_1]
 L69_1 = "S4FAFEA784668D159"
 L70_1 = _ENV["CF1D9D619D324F233"]["S4FAFEA784668D159"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S2E218A7B9B949ADA"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.IsEndContextMenu
+function CF1D9D619D324F233.S2E218A7B9B949ADA(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     L1_2 = E810BF82B6CB36555
@@ -731,11 +681,8 @@ L68_1 = "CF1D9D619D324F233"
 L68_1 = L25_1[L68_1]
 L69_1 = "S2E218A7B9B949ADA"
 L70_1 = _ENV["CF1D9D619D324F233"]["S2E218A7B9B949ADA"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S036FE38553339EEE"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.GetResultContextMenu
+function CF1D9D619D324F233.S036FE38553339EEE(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     L1_2 = E810BF82B6CB36555
@@ -761,11 +708,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S02F8612F11FC630D"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.CloseContextMenu
+function CF1D9D619D324F233.S02F8612F11FC630D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A0_2 then
     L1_2 = E810BF82B6CB36555
@@ -803,11 +747,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S75C6A1A02973ADBA"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.IsCloseContext
+function CF1D9D619D324F233.S75C6A1A02973ADBA(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     L1_2 = E810BF82B6CB36555
@@ -833,11 +774,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S0C089FCEAD3626BE"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.SetMessageCharaName
+function CF1D9D619D324F233.S0C089FCEAD3626BE(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fDE6D594F
@@ -868,11 +806,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "SABF87260B65DCD19"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.SetMessageCharaVisible
+function CF1D9D619D324F233.SABF87260B65DCD19(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S77133E00A0E5587F
@@ -898,11 +833,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S13738B7D0393BBF5"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.S13738B7D0393BBF5
+function CF1D9D619D324F233.S13738B7D0393BBF5(A0_2)
   local L1_2, L2_2
   L1_2 = A0_2[1]
   if 0 == L1_2 then
@@ -917,11 +849,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S0805DE4C58FCD54A"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.GetMessageWindow
+function CF1D9D619D324F233.S0805DE4C58FCD54A(A0_2)
   local L1_2, L2_2
   L1_2 = A0_2[1]
   if 0 == L1_2 then
@@ -939,11 +868,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S5E67FD00348A0A28"
-
-function L70_1()
+--- main.ui.system_ui.SystemUi.ClearOptionBar
+function CF1D9D619D324F233.S5E67FD00348A0A28()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = c016374C1
@@ -970,11 +896,8 @@ function L70_1()
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S64E3D663DD2D5843"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.system_ui.SystemUi.AddOptionGuide
+function CF1D9D619D324F233.S64E3D663DD2D5843(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = nil
   L4_2 = c016374C1
@@ -1015,11 +938,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "SDE3248A50E86E62B"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.StartOptionBar
+function CF1D9D619D324F233.SDE3248A50E86E62B(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     A0_2 = false
@@ -1071,11 +991,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "SD82B5A2DAA6E8E6B"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.SetOptionBarVisible
+function CF1D9D619D324F233.SD82B5A2DAA6E8E6B(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = cECF00344
@@ -1130,11 +1047,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "S1CC0DF102277B6D0"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.SystemUi.RegisterMessageCallBack
+function CF1D9D619D324F233.S1CC0DF102277B6D0(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if nil == A0_2 then
     L2_2 = E048715B79C692C5A
@@ -1150,11 +1064,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "SBB1654DAF7636560"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.SystemUi.SBB1654DAF7636560
+function CF1D9D619D324F233.SBB1654DAF7636560(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = "PLAY_UI_COMMON_DECIDE"
   if not A0_2 then
@@ -1175,11 +1086,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "SCE331312E45FB89B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.SystemUi.SCE331312E45FB89B
+function CF1D9D619D324F233.SCE331312E45FB89B(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.S4AFC10380E7E4413
@@ -1190,24 +1098,19 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CF1D9D619D324F233_prototype
+CF1D9D619D324F233_prototype = L15_1()
+CF1D9D619D324F233.prototype = CF1D9D619D324F233_prototype
+--- main.ui.system_ui.SystemUi.Setup
+function CF1D9D619D324F233_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = CF1D9D619D324F233
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2.SF37C8F6C2CB56394 = L3_2
   L2_2 = CF1D9D619D324F233
   L3_2 = c69ACCC6F
   L3_2 = L3_2.f3F98EEAD
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L2_2.SC3BD0BF7667DA578 = L3_2
   L2_2 = CF1D9D619D324F233
@@ -1289,7 +1192,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = CF1D9D619D324F233
   L3_2 = cECF00344
   L3_2 = L3_2.fEECE6995
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L2_2.S77133E00A0E5587F = L3_2
   L2_2 = CF1D9D619D324F233
@@ -1311,17 +1214,14 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2.f49D44378
   L6_2 = "message/dat/JPN/common/namelist.dat"
   L5_2(L6_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.fBE3B2D3B
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1D9D619D324F233"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.SystemUi.PreUpdate
+function CF1D9D619D324F233_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.S0805DE4C58FCD54A
@@ -1376,7 +1276,7 @@ function L70_1(A0_2, A1_2)
               L4_2 = "L_optionbar_01"
               L2_2 = L2_2(L3_2, L4_2)
               if not L2_2 then
-                L2_2 = A0_2[1]
+                L2_2 = self[1]
                 L3_2 = L2_2
                 L2_2 = L2_2.fBE3B2D3B
                 L2_2(L3_2)

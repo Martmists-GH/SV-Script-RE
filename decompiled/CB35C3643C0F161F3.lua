@@ -1,3 +1,7 @@
+---@alias CB35C3643C0F161F3 main_event_debug_DebugAreaJump
+
+---@class main_event_debug_DebugAreaJump : CB35C3643C0F161F3_prototype
+---@field prototype CB35C3643C0F161F3_prototype
 L55_1 = _ENV
 L56_1 = "CB35C3643C0F161F3"
 L57_1 = L15_1
@@ -45,36 +49,28 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CB35C3643C0F161F3"]
 L69_1 = "__name__"
 L70_1 = "CB35C3643C0F161F3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB35C3643C0F161F3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB35C3643C0F161F3"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CB35C3643C0F161F3_prototype
+CB35C3643C0F161F3_prototype = L15_1()
+CB35C3643C0F161F3.prototype = CB35C3643C0F161F3_prototype
+--- main.event.debug.DebugAreaJump.onCreate
+function CB35C3643C0F161F3_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.skipPlayerStuckCheck = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB35C3643C0F161F3"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugAreaJump.mainBody
+function CB35C3643C0F161F3_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = 0
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.destScene
   if nil == L2_2 then
     L1_2 = nil
-    L2_2 = A0_2[32]
+    L2_2 = self[32]
     L2_2.destScene = ""
   else
-    L2_2 = A0_2[32]
+    L2_2 = self[32]
     L2_2 = L2_2.destScene
     if "" ~= L2_2 then
       L1_2 = nil
@@ -104,11 +100,11 @@ function L70_1(A0_2)
   L9_2.destLocation = true
   L9_2.destOffset = true
   L8_2.__fields__ = L9_2
-  L9_2 = A0_2[32]
+  L9_2 = self[32]
   L9_2 = L9_2.fieldId
   L8_2.fieldId = L9_2
   L8_2.type = 3
-  L9_2 = A0_2[32]
+  L9_2 = self[32]
   L9_2 = L9_2.destScene
   L8_2.destScene = L9_2
   L8_2.destLocation = ""
@@ -122,16 +118,16 @@ function L70_1(A0_2)
   L8_2.destOffset = L9_2
   L7_2 = L7_2(L8_2)
   L6_2.mapChangeInfo = L7_2
-  L7_2 = A0_2[32]
+  L7_2 = self[32]
   L7_2 = L7_2.pos
   L6_2.forcePosition = L7_2
-  L7_2 = A0_2[32]
+  L7_2 = self[32]
   L7_2 = L7_2.rot
   L6_2.forceRotation = L7_2
   L6_2.fadeType = 1
   L6_2.fadeDuration = 0.1
   L6_2.fieldType = L1_2
-  L7_2 = A0_2[32]
+  L7_2 = self[32]
   L7_2 = L7_2.skipGrounding
   L6_2.debugSkipGrounding = L7_2
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L5_2(L6_2)
@@ -139,7 +135,7 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = cD5675BA5
   L3_2 = L3_2.f15834BF3
-  L4_2 = A0_2[32]
+  L4_2 = self[32]
   L4_2 = L4_2.cameraRotation
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
@@ -149,7 +145,7 @@ function L70_1(A0_2)
     L3_2 = L3_2()
     L4_2 = L3_2
     L3_2 = L3_2.FD60D9744B375600F
-    L5_2 = A0_2[32]
+    L5_2 = self[32]
     L5_2 = L5_2.cameraRotation
     L6_2 = L5_2
     L5_2 = L5_2.fBBBAA5DE
@@ -160,7 +156,7 @@ function L70_1(A0_2)
     L3_2 = L3_2()
     L4_2 = L3_2
     L3_2 = L3_2.F361D9688F43640FA
-    L5_2 = A0_2[32]
+    L5_2 = self[32]
     L5_2 = L5_2.cameraRotation
     L6_2 = L5_2
     L5_2 = L5_2.fCCBD9548

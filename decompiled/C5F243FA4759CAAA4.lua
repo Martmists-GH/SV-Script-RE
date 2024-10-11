@@ -1,3 +1,7 @@
+---@alias C5F243FA4759CAAA4 main_pokepicnic_wagon_EggCreateModule
+
+---@class main_pokepicnic_wagon_EggCreateModule : C5F243FA4759CAAA4_prototype
+---@field prototype C5F243FA4759CAAA4_prototype
 L55_1 = _ENV
 L56_1 = "C5F243FA4759CAAA4"
 L57_1 = L15_1
@@ -44,16 +48,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C5F243FA4759CAAA4"]
 L69_1 = "__name__"
 L70_1 = "C5F243FA4759CAAA4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5F243FA4759CAAA4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5F243FA4759CAAA4"]["prototype"]
-L69_1 = "FACD186E24ED6E1AE"
-
-function L70_1(A0_2)
+---@class C5F243FA4759CAAA4_prototype
+C5F243FA4759CAAA4_prototype = L15_1()
+C5F243FA4759CAAA4.prototype = C5F243FA4759CAAA4_prototype
+--- main.pokepicnic.wagon.EggCreateModule.CreateEgg
+function C5F243FA4759CAAA4_prototype:FACD186E24ED6E1AE()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   L1_2 = CB4E56E9599A85891
   L1_2 = L1_2.S0B3F69C4549A0284
@@ -147,12 +146,12 @@ function L70_1(A0_2)
     L12_2 = L10_2
     L11_2 = L10_2.fA8FAC6B9
     L11_2 = L11_2(L12_2)
-    L12_2 = A0_2[1]
+    L12_2 = self[1]
     if L11_2 ~= L12_2 then
       L12_2 = L10_2
       L11_2 = L10_2.fA8FAC6B9
       L11_2 = L11_2(L12_2)
-      L12_2 = A0_2[2]
+      L12_2 = self[2]
       if L11_2 ~= L12_2 then
         goto lbl_99
       end
@@ -174,13 +173,13 @@ function L70_1(A0_2)
   L9_2 = L9_2(L10_2)
   L10_2 = L7_2.length
   if L10_2 >= 2 then
-    L11_2 = A0_2
-    L10_2 = A0_2.F026A57CB2C761F1E
+    L11_2 = self
+    L10_2 = self.F026A57CB2C761F1E
     L12_2 = L7_2
     L10_2 = L10_2(L11_2, L12_2)
     L11_2 = L10_2.length
     if L11_2 > 0 then
-      L11_2 = A0_2[3]
+      L11_2 = self[3]
       L12_2 = L11_2
       L11_2 = L11_2.fDAAAA586
       L13_2 = L10_2.length
@@ -191,14 +190,14 @@ function L70_1(A0_2)
   end
   L10_2 = L7_2.length
   if 1 == L10_2 then
-    L11_2 = A0_2
-    L10_2 = A0_2.F69CCE7A93EE9460E
+    L11_2 = self
+    L10_2 = self.F69CCE7A93EE9460E
     L12_2 = L7_2[0]
     L13_2 = L5_2
     L10_2 = L10_2(L11_2, L12_2, L13_2)
     L11_2 = L10_2.length
     if L11_2 > 0 then
-      L11_2 = A0_2[3]
+      L11_2 = self[3]
       L12_2 = L11_2
       L11_2 = L11_2.fDAAAA586
       L13_2 = L10_2.length
@@ -209,13 +208,13 @@ function L70_1(A0_2)
   end
   L10_2 = L7_2.length
   if 0 == L10_2 then
-    L11_2 = A0_2
-    L10_2 = A0_2.F026A57CB2C761F1E
+    L11_2 = self
+    L10_2 = self.F026A57CB2C761F1E
     L12_2 = L5_2
     L10_2 = L10_2(L11_2, L12_2)
     L11_2 = L10_2.length
     if L11_2 > 0 then
-      L11_2 = A0_2[3]
+      L11_2 = self[3]
       L12_2 = L11_2
       L11_2 = L11_2.fDAAAA586
       L13_2 = L10_2.length
@@ -307,7 +306,7 @@ function L70_1(A0_2)
       break
     end
   end
-  L17_2 = A0_2[3]
+  L17_2 = self[3]
   L18_2 = L17_2
   L17_2 = L17_2.f52C8AF50
   L19_2 = 100.0
@@ -342,11 +341,8 @@ function L70_1(A0_2)
   return L17_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5F243FA4759CAAA4"]["prototype"]
-L69_1 = "F026A57CB2C761F1E"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.wagon.EggCreateModule.CreateCoupling
+function C5F243FA4759CAAA4_prototype:F026A57CB2C761F1E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -419,11 +415,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5F243FA4759CAAA4"]["prototype"]
-L69_1 = "F69CCE7A93EE9460E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.pokepicnic.wagon.EggCreateModule.CreateCouplingPolygamy
+function C5F243FA4759CAAA4_prototype:F69CCE7A93EE9460E(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = L26_1.new
   L3_2 = L3_2()

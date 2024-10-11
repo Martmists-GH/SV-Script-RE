@@ -1,53 +1,35 @@
-L55_1 = _ENV
-L56_1 = "C16986444D0DAA818"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C16986444D0DAA818"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16986444D0DAA818"]
-L69_1 = "__name__"
-L70_1 = "C16986444D0DAA818"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16986444D0DAA818"]
-L69_1 = "S500A0A8EF3DD25EA"
+---@alias C16986444D0DAA818 main_ui_quest_clear_QuestClearUISceneLoader
 
-function L70_1()
+---@class main_ui_quest_clear_QuestClearUISceneLoader
+C16986444D0DAA818 = L15_1()
+C16986444D0DAA818.new = {}
+C16986444D0DAA818.__name__ = "C16986444D0DAA818"
+--- main.ui.quest_clear.QuestClearUISceneLoader.get_eventScenarioType
+function C16986444D0DAA818.S500A0A8EF3DD25EA()
   local L0_2, L1_2
   L0_2 = C16986444D0DAA818
   L0_2 = L0_2.S0EB6CE00F5BBB345
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16986444D0DAA818"]
-L69_1 = "SB31600E49B3AB87F"
-
-function L70_1()
+--- main.ui.quest_clear.QuestClearUISceneLoader.get_eventNo
+function C16986444D0DAA818.SB31600E49B3AB87F()
   local L0_2, L1_2
   L0_2 = C16986444D0DAA818
   L0_2 = L0_2.SBE850E95598B6A84
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16986444D0DAA818"]
-L69_1 = "S56DF3DB84C1757B8"
-
-function L70_1()
+--- main.ui.quest_clear.QuestClearUISceneLoader.get_eventOrder
+function C16986444D0DAA818.S56DF3DB84C1757B8()
   local L0_2, L1_2
   L0_2 = C16986444D0DAA818
   L0_2 = L0_2.S90FD4AFC48E3E0B1
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16986444D0DAA818"]
-L69_1 = "S4EA6AA789143FC58"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.quest_clear.QuestClearUISceneLoader.QuestClearUISceneLoad
+function C16986444D0DAA818.S4EA6AA789143FC58(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A2_2 then
     A2_2 = 0
@@ -138,11 +120,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C16986444D0DAA818"]
-L69_1 = "S033E49CDBC69DE7F"
-
-function L70_1()
+--- main.ui.quest_clear.QuestClearUISceneLoader.S033E49CDBC69DE7F
+function C16986444D0DAA818.S033E49CDBC69DE7F()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cA042DA13

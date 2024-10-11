@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C0A31D8BE0D90D45F"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C0A31D8BE0D90D45F"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A31D8BE0D90D45F"]
-L69_1 = "__name__"
-L70_1 = "C0A31D8BE0D90D45F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A31D8BE0D90D45F"]
-L69_1 = "S9F30ECDD39F896EF"
+---@alias C0A31D8BE0D90D45F main_util_Vector3Wrapper
 
-function L70_1(A0_2, A1_2)
+---@class main_util_Vector3Wrapper
+C0A31D8BE0D90D45F = L15_1()
+C0A31D8BE0D90D45F.new = {}
+C0A31D8BE0D90D45F.__name__ = "C0A31D8BE0D90D45F"
+--- main.util.Vector3Wrapper.Equal
+function C0A31D8BE0D90D45F.S9F30ECDD39F896EF(A0_2, A1_2)
   local L2_2, L3_2
   L2_2 = A0_2[1]
   L3_2 = A1_2[1]
@@ -33,11 +24,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A31D8BE0D90D45F"]
-L69_1 = "SD5DE97B20A42AB72"
-
-function L70_1(A0_2)
+--- main.util.Vector3Wrapper.GetLandRayCastPosition
+function C0A31D8BE0D90D45F.SD5DE97B20A42AB72(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = {}
   L2_2 = A0_2[1]

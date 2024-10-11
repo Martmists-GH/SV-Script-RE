@@ -1,3 +1,7 @@
+---@alias CF3C1067DEF5BE1FF main_pokepicnic_cooking_CookingMultiplayWaitMember
+
+---@class main_pokepicnic_cooking_CookingMultiplayWaitMember : CF3C1067DEF5BE1FF_prototype
+---@field prototype CF3C1067DEF5BE1FF_prototype
 L55_1 = _ENV
 L56_1 = "CF3C1067DEF5BE1FF"
 L57_1 = L15_1
@@ -45,26 +49,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF3C1067DEF5BE1FF"]
 L69_1 = "__name__"
 L70_1 = "CF3C1067DEF5BE1FF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF3C1067DEF5BE1FF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF3C1067DEF5BE1FF"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+---@class CF3C1067DEF5BE1FF_prototype
+CF3C1067DEF5BE1FF_prototype = L15_1()
+CF3C1067DEF5BE1FF.prototype = CF3C1067DEF5BE1FF_prototype
+--- main.pokepicnic.cooking.CookingMultiplayWaitMember.Update
+function CF3C1067DEF5BE1FF_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   if nil ~= L1_2 then
     L1_2 = L10_1.coroutine
     L1_2 = L1_2.status
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2[1]
     L1_2 = L1_2(L2_2)
     if "dead" ~= L1_2 then
-      L1_2 = A0_2[3]
+      L1_2 = self[3]
       L2_2 = nil
       L3_2 = L62_1
       L4_2 = L64_1.pack
@@ -112,11 +111,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF3C1067DEF5BE1FF"]["prototype"]
-L69_1 = "F24F9373585499274"
-
-function L70_1(A0_2)
+--- main.pokepicnic.cooking.CookingMultiplayWaitMember.WaitMemberCoroutine
+function CF3C1067DEF5BE1FF_prototype:F24F9373585499274()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L1_2 = C930BB59927F8B30F
   L1_2 = L1_2.S1C2F0F214CE9B8A5
@@ -140,8 +136,8 @@ function L70_1(A0_2)
     L2_2 = L1_2.fE54B2B39
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      A0_2[2] = true
-      A0_2[1] = true
+      self[2] = true
+      self[1] = true
       return
     end
   else
@@ -163,8 +159,8 @@ function L70_1(A0_2)
     L2_2 = L1_2.fE54B2B39
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      A0_2[2] = true
-      A0_2[1] = true
+      self[2] = true
+      self[1] = true
       return
     end
   end
@@ -529,7 +525,7 @@ function L70_1(A0_2)
         L10_2()
       end
     elseif not L9_2 and ("pokepicnic_main_cooking_select_02" == L8_2 or "pokepicnic_main_cooking_select_03" == L8_2) then
-      A0_2[2] = true
+      self[2] = true
       L10_2 = nil
       if "pokepicnic_main_cooking_select_02" == L8_2 then
         L11_2 = C930BB59927F8B30F
@@ -563,7 +559,7 @@ function L70_1(A0_2)
       end
     end
   end
-  A0_2[1] = true
+  self[1] = true
 end
 
 L68_1[L69_1] = L70_1

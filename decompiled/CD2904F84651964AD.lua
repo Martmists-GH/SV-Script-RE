@@ -1,3 +1,7 @@
+---@alias CCEECB15FBDFAE157 main_ui_shop_data_friendly_ShopItemDataProperty
+
+---@class main_ui_shop_data_friendly_ShopItemDataProperty : CCEECB15FBDFAE157_prototype
+---@field prototype CCEECB15FBDFAE157_prototype
 L55_1 = _ENV
 L56_1 = "CD2904F84651964AD"
 L57_1 = L15_1
@@ -41,11 +45,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD2904F84651964AD"]
 L69_1 = "__name__"
 L70_1 = "CD2904F84651964AD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD2904F84651964AD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CCEECB15FBDFAE157_prototype
+CCEECB15FBDFAE157_prototype = L15_1()
+CCEECB15FBDFAE157.prototype = CCEECB15FBDFAE157_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD2904F84651964AD"]["prototype"]
 L69_1 = _ENV["CD2904F84651964AD"]

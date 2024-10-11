@@ -1,3 +1,7 @@
+---@alias CC9735816CD9D96FC main_playables_free_move_trig_AutoReturnExcludeEventTrigger
+
+---@class main_playables_free_move_trig_AutoReturnExcludeEventTrigger : CC9735816CD9D96FC_prototype
+---@field prototype CC9735816CD9D96FC_prototype
 L68_1 = _ENV["CC9735816CD9D96FC"]
 L69_1 = "super"
 
@@ -18,11 +22,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC9735816CD9D96FC"]
 L69_1 = "__name__"
 L70_1 = "CC9735816CD9D96FC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9735816CD9D96FC"]
-L69_1 = "SD40D3A64E8B633BD"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.playables.free_move.trig.AutoReturnExcludeEventTrigger.OnTriggered
+function CC9735816CD9D96FC.SD40D3A64E8B633BD(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L7_2 = A0_2
   L6_2 = A0_2.fB3CF1DEB
@@ -108,34 +109,29 @@ L68_1 = "CC9735816CD9D96FC"
 L68_1 = L25_1[L68_1]
 L69_1 = "SD40D3A64E8B633BD"
 L70_1 = _ENV["CC9735816CD9D96FC"]["SD40D3A64E8B633BD"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9735816CD9D96FC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9735816CD9D96FC"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CC9735816CD9D96FC_prototype
+CC9735816CD9D96FC_prototype = L15_1()
+CC9735816CD9D96FC.prototype = CC9735816CD9D96FC_prototype
+--- main.playables.free_move.trig.AutoReturnExcludeEventTrigger.Setup
+function CC9735816CD9D96FC_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  A0_2[4] = false
+  self[4] = false
   L2_2 = cACBFA004
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
-  L2_2 = A0_2[2]
+  self[2] = L2_2
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f317EB6F9
   L4_2 = "OnTriggered"
   L5_2 = 0.0
   L6_2 = 9
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cCF781FB6
@@ -151,31 +147,28 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9735816CD9D96FC"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.playables.free_move.trig.AutoReturnExcludeEventTrigger.Destroy
+function CC9735816CD9D96FC_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cACBFA004
   L2_2 = L2_2.f05FAAF59
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     if L2_2 >= 0 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = L2_2
       L2_2 = L2_2.fFB78ACF1
-      L4_2 = A0_2[3]
+      L4_2 = self[3]
       L2_2(L3_2, L4_2)
     end
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if L2_2 then
-    A0_2[4] = false
+    self[4] = false
     L2_2 = C42D1CDB112422850
     L2_2 = L2_2.S2E89DD1F7763EC80
     L2_2()

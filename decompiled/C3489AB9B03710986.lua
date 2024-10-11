@@ -1,3 +1,7 @@
+---@alias C9798141731D2FD73 main_ui_ymap_overall_SceneYMapOverall
+
+---@class main_ui_ymap_overall_SceneYMapOverall : C9798141731D2FD73_prototype
+---@field prototype C9798141731D2FD73_prototype
 L55_1 = _ENV
 L56_1 = "C3489AB9B03710986"
 L57_1 = L15_1
@@ -38,11 +42,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3489AB9B03710986"]
 L69_1 = "__name__"
 L70_1 = "C3489AB9B03710986"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3489AB9B03710986"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C9798141731D2FD73_prototype
+C9798141731D2FD73_prototype = L15_1()
+C9798141731D2FD73.prototype = C9798141731D2FD73_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3489AB9B03710986"]["prototype"]
 L69_1 = _ENV["C3489AB9B03710986"]

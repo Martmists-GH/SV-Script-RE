@@ -1,3 +1,5 @@
+---@class CD1C6E7A17346AF65 : CD1C6E7A17346AF65_prototype
+---@field prototype CD1C6E7A17346AF65_prototype
 L55_1 = _ENV
 L56_1 = "CD1C6E7A17346AF65"
 L57_1 = L15_1
@@ -42,23 +44,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD1C6E7A17346AF65"]
 L69_1 = "__name__"
 L70_1 = "CD1C6E7A17346AF65"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1C6E7A17346AF65"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1C6E7A17346AF65"]["prototype"]
-L69_1 = "F1A44AA0319F9FB14"
-
-function L70_1(A0_2, A1_2)
+---@class CD1C6E7A17346AF65_prototype
+CD1C6E7A17346AF65_prototype = L15_1()
+CD1C6E7A17346AF65.prototype = CD1C6E7A17346AF65_prototype
+--- CD1C6E7A17346AF65.set_pp
+function CD1C6E7A17346AF65_prototype:F1A44AA0319F9FB14(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.fA58B2564
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  A0_2[1] = A1_2
+  self[1] = A1_2
   L2_2 = nil
   L3_2 = c113335A8
   L3_2 = L3_2.fB91A909C
@@ -69,9 +66,9 @@ function L70_1(A0_2, A1_2)
     L4_2 = A1_2
     L3_2 = A1_2.f0BD5134F
     L3_2 = L3_2(L4_2)
-    A0_2[3] = L3_2
+    self[3] = L3_2
   else
-    A0_2[3] = 0
+    self[3] = 0
   end
   return A1_2
 end

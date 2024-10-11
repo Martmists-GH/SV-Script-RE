@@ -1,3 +1,7 @@
+---@alias C691EE07F350A2B2E main_field_action_ActionAbsorbMove
+
+---@class main_field_action_ActionAbsorbMove : C691EE07F350A2B2E_prototype
+---@field prototype C691EE07F350A2B2E_prototype
 L55_1 = _ENV
 L56_1 = "C691EE07F350A2B2E"
 L57_1 = L15_1
@@ -43,32 +47,24 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C691EE07F350A2B2E"]
 L69_1 = "__name__"
 L70_1 = "C691EE07F350A2B2E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C691EE07F350A2B2E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C691EE07F350A2B2E"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C691EE07F350A2B2E_prototype
+C691EE07F350A2B2E_prototype = L15_1()
+C691EE07F350A2B2E.prototype = C691EE07F350A2B2E_prototype
+--- main.field.action.ActionAbsorbMove.onCreate
+function C691EE07F350A2B2E_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2.useCoroutine = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C691EE07F350A2B2E"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.ActionAbsorbMove.onPreUpdate
+function C691EE07F350A2B2E_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2, L51_2, L52_2
   
   function L1_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[16]
     L1_3 = L1_3.isRun
     if L1_3 then
@@ -82,14 +78,14 @@ function L70_1(A0_2)
   end
   
   L1_2 = L1_2()
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   L2_2 = L2_2.moveSpeedRate
   L1_2 = L1_2 * L2_2
   
   function L2_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[16]
     L1_3 = L1_3.isRun
     if L1_3 then
@@ -103,7 +99,7 @@ function L70_1(A0_2)
   L2_2 = L2_2()
   L3_2 = 0.0
   L4_2 = 0.0
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L5_2 = L5_2.owner
   L6_2 = L5_2
   L5_2 = L5_2.f750133BA
@@ -115,12 +111,12 @@ function L70_1(A0_2)
   L8_2[1] = L9_2
   L8_2[2] = L10_2
   L8_2[3] = L11_2
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L9_2 = L9_2.owner
   L10_2 = L9_2
   L9_2 = L9_2.f16155D9E
   L9_2 = L9_2(L10_2)
-  L10_2 = A0_2[16]
+  L10_2 = self[16]
   L10_2 = L10_2.turnToDir
   L11_2 = nil
   L12_2 = nil
@@ -154,7 +150,7 @@ function L70_1(A0_2)
   L23_2 = L14_2[2]
   L24_2 = L14_2[3]
   L15_2 = L15_2(L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2)
-  L16_2 = A0_2[5]
+  L16_2 = self[5]
   L17_2 = nil
   L18_2 = nil
   L19_2 = cE35B3EB3
@@ -201,9 +197,9 @@ function L70_1(A0_2)
     L21_2 = L21_2(L22_2, L23_2)
     L17_2 = L21_2
   end
-  L20_2 = A0_2[16]
+  L20_2 = self[16]
   L20_2 = L20_2.targetPosXZ
-  L21_2 = A0_2[5]
+  L21_2 = self[5]
   L21_2 = L21_2.owner
   L22_2 = L21_2
   L21_2 = L21_2.f750133BA
@@ -233,7 +229,7 @@ function L70_1(A0_2)
   L36_2 = L32_2
   L33_2(L34_2, L35_2, L36_2)
   while true do
-    L33_2 = A0_2[5]
+    L33_2 = self[5]
     L34_2 = L10_1.select
     L35_2 = 2
     L36_2 = L33_2.owner
@@ -248,9 +244,9 @@ function L70_1(A0_2)
     L38_2 = L34_2
     L39_2 = L8_2[3]
     L35_2(L36_2, L37_2, L38_2, L39_2)
-    L35_2 = A0_2[16]
+    L35_2 = self[16]
     L35_2 = L35_2.targetPosXZ
-    L36_2 = A0_2[5]
+    L36_2 = self[5]
     L36_2 = L36_2.owner
     L37_2 = L36_2
     L36_2 = L36_2.f750133BA
@@ -282,7 +278,7 @@ function L70_1(A0_2)
     L44_2 = 1.0
     L41_2 = L41_2(L42_2, L43_2, L44_2)
     L4_2 = L41_2
-    L41_2 = A0_2[5]
+    L41_2 = self[5]
     L42_2 = nil
     L43_2 = cE35B3EB3
     L43_2 = L43_2.fDBA763D1
@@ -340,7 +336,7 @@ function L70_1(A0_2)
     L47_2 = 1.0
     L44_2 = L44_2(L45_2, L46_2, L47_2)
     L3_2 = L44_2
-    L44_2 = A0_2[5]
+    L44_2 = self[5]
     L45_2 = cD5675BA5
     L45_2 = L45_2.fBE61A5F8
     L46_2 = L9_2
@@ -353,7 +349,7 @@ function L70_1(A0_2)
     L48_2 = L45_2
     L46_2(L47_2, L48_2)
     if L40_2 then
-      L46_2 = A0_2[16]
+      L46_2 = self[16]
       L8_2 = L46_2.targetPosXZ
     else
       L46_2 = C075A638F130352C3
@@ -393,7 +389,7 @@ function L70_1(A0_2)
     L46_2 = L46_2.S760DAE4C5371A78E
     L46_2()
   end
-  L33_2 = A0_2[5]
+  L33_2 = self[5]
   L34_2 = nil
   L35_2 = cE35B3EB3
   L35_2 = L35_2.fDBA763D1
@@ -416,8 +412,8 @@ function L70_1(A0_2)
   L37_2 = "move_front"
   L38_2 = 0.0
   L35_2(L36_2, L37_2, L38_2)
-  L35_2 = A0_2[5]
-  L36_2 = A0_2[16]
+  L35_2 = self[5]
+  L36_2 = self[16]
   L36_2 = L36_2.targetPosXZ
   L37_2 = L10_1.select
   L38_2 = 2
@@ -433,7 +429,7 @@ function L70_1(A0_2)
   L41_2 = L37_2
   L42_2 = L36_2[3]
   L38_2(L39_2, L40_2, L41_2, L42_2)
-  L38_2 = A0_2[5]
+  L38_2 = self[5]
   L38_2 = L38_2.owner
   L39_2 = L38_2
   L38_2 = L38_2.f24032F87

@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C8568A4DA5C1FB1A5"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "__name__"
-L70_1 = "C8568A4DA5C1FB1A5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "S1EBAF7F7BD6ECF1B"
+---@alias C8568A4DA5C1FB1A5 main_event_base_manager_EventSceneManager
 
-function L70_1()
+---@class main_event_base_manager_EventSceneManager
+C8568A4DA5C1FB1A5 = L15_1()
+C8568A4DA5C1FB1A5.new = {}
+C8568A4DA5C1FB1A5.__name__ = "C8568A4DA5C1FB1A5"
+--- main.event.base.manager.EventSceneManager.InitializeEventMasterInfo
+function C8568A4DA5C1FB1A5.S1EBAF7F7BD6ECF1B()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = C8568A4DA5C1FB1A5
   L1_2 = L47_1.new
@@ -492,11 +483,8 @@ function L70_1()
   L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "S8C980C4E50D57A68"
-
-function L70_1()
+--- main.event.base.manager.EventSceneManager.S8C980C4E50D57A68
+function C8568A4DA5C1FB1A5.S8C980C4E50D57A68()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L0_2 = C8568A4DA5C1FB1A5
   L0_2 = L0_2.S2CF07719D4D2AFD9
@@ -691,11 +679,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "SDBCDDEF0E211B576"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventSceneManager.FindEventScene
+function C8568A4DA5C1FB1A5.SDBCDDEF0E211B576(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C8568A4DA5C1FB1A5
   L2_2 = L2_2.S73185C5E274F94E6
@@ -716,11 +701,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "S1C8CB450B9E4ECF1"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventSceneManager.FindObject
+function C8568A4DA5C1FB1A5.S1C8CB450B9E4ECF1(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C8568A4DA5C1FB1A5
   L1_2 = L1_2.S73185C5E274F94E6
@@ -746,11 +728,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "S17F3FAF66BB41341"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventSceneManager.LoadEventScene
+function C8568A4DA5C1FB1A5.S17F3FAF66BB41341(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = nil
   if 1 == A1_2 then
@@ -804,11 +783,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "S478A05429F4CAE14"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventSceneManager.TerminateEventScene
+function C8568A4DA5C1FB1A5.S478A05429F4CAE14(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C8568A4DA5C1FB1A5
   L2_2 = L2_2.S73185C5E274F94E6
@@ -835,11 +811,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "S461ACB8B9D0FD808"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventSceneManager.ResetEvent
+function C8568A4DA5C1FB1A5.S461ACB8B9D0FD808(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   
   function L1_2(A0_3)
@@ -1082,11 +1055,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "S7037396A9C04F588"
-
-function L70_1()
+--- main.event.base.manager.EventSceneManager.IsEventSceneLoaded
+function C8568A4DA5C1FB1A5.S7037396A9C04F588()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C8568A4DA5C1FB1A5
   L0_2 = L0_2.S73185C5E274F94E6
@@ -1109,11 +1079,8 @@ function L70_1()
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "SC39E070EE83BFE83"
-
-function L70_1()
+--- main.event.base.manager.EventSceneManager.WaitEventSceneUnload
+function C8568A4DA5C1FB1A5.SC39E070EE83BFE83()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C8568A4DA5C1FB1A5
   L0_2 = L0_2.S73185C5E274F94E6
@@ -1133,11 +1100,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "S16FF23B69F6B8930"
-
-function L70_1()
+--- main.event.base.manager.EventSceneManager.S16FF23B69F6B8930
+function C8568A4DA5C1FB1A5.S16FF23B69F6B8930()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C8568A4DA5C1FB1A5
   L0_2 = L0_2.S73185C5E274F94E6
@@ -1157,11 +1121,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "S4C0F1ED581C39D7C"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventSceneManager.ReloadEventScene
+function C8568A4DA5C1FB1A5.S4C0F1ED581C39D7C(A0_2)
   local L1_2, L2_2
   if nil == A0_2 then
     A0_2 = true
@@ -1178,11 +1139,8 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "S0460BFF50AE96FF4"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventSceneManager.S0460BFF50AE96FF4
+function C8568A4DA5C1FB1A5.S0460BFF50AE96FF4(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if A0_2 then
     L1_2 = cA1BBDB34
@@ -1201,11 +1159,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "S45F37AF53E4A3EBB"
-
-function L70_1()
+--- main.event.base.manager.EventSceneManager.S45F37AF53E4A3EBB
+function C8568A4DA5C1FB1A5.S45F37AF53E4A3EBB()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = C8568A4DA5C1FB1A5
   L0_2 = L0_2.S73185C5E274F94E6
@@ -1233,11 +1188,8 @@ function L70_1()
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "S69F7A126863639AE"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventSceneManager.S69F7A126863639AE
+function C8568A4DA5C1FB1A5.S69F7A126863639AE(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
   while true do
@@ -1268,11 +1220,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "SC09D2A0B0F1428A6"
-
-function L70_1()
+--- main.event.base.manager.EventSceneManager.SC09D2A0B0F1428A6
+function C8568A4DA5C1FB1A5.SC09D2A0B0F1428A6()
   local L0_2, L1_2, L2_2
   L0_2 = C8568A4DA5C1FB1A5
   L0_2 = L0_2.SD5E889837534F2B6
@@ -1291,11 +1240,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8568A4DA5C1FB1A5"]
-L69_1 = "SE24CDD6D3EF6A8DC"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventSceneManager.IsForceDisabled
+function C8568A4DA5C1FB1A5.SE24CDD6D3EF6A8DC(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C8568A4DA5C1FB1A5
   L1_2 = L1_2.SD5E889837534F2B6

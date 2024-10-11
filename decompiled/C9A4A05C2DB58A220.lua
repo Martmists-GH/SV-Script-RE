@@ -1,3 +1,4 @@
+---@class C626AF55C67EA75B9
 L68_1 = _ENV["C9A4A05C2DB58A220"]
 L69_1 = "new"
 L70_1 = {}

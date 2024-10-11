@@ -1,3 +1,7 @@
+---@alias CAB155339E76DF633 main_field_behaviour_scenario_main_champion_gym_koori_ProhibitTable
+
+---@class main_field_behaviour_scenario_main_champion_gym_koori_ProhibitTable : CAB155339E76DF633_prototype
+---@field prototype CAB155339E76DF633_prototype
 L55_1 = _ENV
 L56_1 = "CAB155339E76DF633"
 L57_1 = L15_1
@@ -81,36 +85,25 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CAB155339E76DF633"]
 L69_1 = "__name__"
 L70_1 = "CAB155339E76DF633"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB155339E76DF633"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB155339E76DF633"]["prototype"]
-L69_1 = "F02681F44065B9940"
-
-function L70_1(A0_2)
+---@class CAB155339E76DF633_prototype
+CAB155339E76DF633_prototype = L15_1()
+CAB155339E76DF633.prototype = CAB155339E76DF633_prototype
+--- main.field.behaviour.scenario.main.champion.gym.koori.ProhibitTable.getRootName
+function CAB155339E76DF633_prototype:F02681F44065B9940()
   local L1_2
   L1_2 = "gym_koori_test"
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB155339E76DF633"]["prototype"]
-L69_1 = "F9951A168A9F31DA7"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.ProhibitTable.getProhibitName
+function CAB155339E76DF633_prototype:F9951A168A9F31DA7()
   local L1_2
   L1_2 = "default"
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB155339E76DF633"]["prototype"]
-L69_1 = "F824228AD713FE300"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.ProhibitTable.createProperty
+function CAB155339E76DF633_prototype:F824228AD713FE300()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C7EA57C5A2FE7B13B
   L1_2 = L1_2.new
@@ -279,50 +272,41 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB155339E76DF633"]["prototype"]
-L69_1 = "FF63038921D0742CE"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.ProhibitTable.Enable
+function CAB155339E76DF633_prototype:FF63038921D0742CE()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.F5B98E8D4C251422B
   L3_2 = true
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB155339E76DF633"]["prototype"]
-L69_1 = "FD59E5ED5F9F2AAE3"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.ProhibitTable.Disable
+function CAB155339E76DF633_prototype:FD59E5ED5F9F2AAE3()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.F5B98E8D4C251422B
   L3_2 = false
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB155339E76DF633"]["prototype"]
-L69_1 = "FC290A70B39892E57"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.ProhibitTable.Destory
+function CAB155339E76DF633_prototype:FC290A70B39892E57()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   if nil ~= L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.F605C41A086E2A75D
-    L4_2 = A0_2
-    L3_2 = A0_2.F9951A168A9F31DA7
+    L4_2 = self
+    L3_2 = self.F9951A168A9F31DA7
     L3_2, L4_2, L5_2, L6_2, L7_2 = L3_2(L4_2)
     L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2)
     L1_2 = 0
     L2_2 = 0
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L3_2 = L3_2[6]
     while true do
       L4_2 = L3_2.length
@@ -338,8 +322,8 @@ function L70_1(A0_2)
       L4_2 = L4_2[3]
       L5_2 = L4_2
       L4_2 = L4_2.F605C41A086E2A75D
-      L7_2 = A0_2
-      L6_2 = A0_2.F02681F44065B9940
+      L7_2 = self
+      L6_2 = self.F02681F44065B9940
       L6_2, L7_2 = L6_2(L7_2)
       L4_2(L5_2, L6_2, L7_2)
     end

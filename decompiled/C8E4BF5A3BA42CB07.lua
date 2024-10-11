@@ -1,3 +1,5 @@
+---@class C8E4BF5A3BA42CB07 : C8E4BF5A3BA42CB07_prototype
+---@field prototype C8E4BF5A3BA42CB07_prototype
 L55_1 = _ENV
 L56_1 = "C8E4BF5A3BA42CB07"
 L57_1 = L15_1
@@ -39,21 +41,15 @@ L69_1 = "__name__"
 L70_1 = "C8E4BF5A3BA42CB07"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8E4BF5A3BA42CB07"]
-L69_1 = "__interfaces__"
-L70_1 = {}
-L68_1 = _ENV["C8E4BF5A3BA42CB07"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8E4BF5A3BA42CB07"]["prototype"]
-L69_1 = "F7A3D296366E973CB"
-
-function L70_1(A0_2, A1_2)
+L69_1 = "__inte---@class C8E4BF5A3BA42CB07_prototype
+C8E4BF5A3BA42CB07_prototype = L15_1()
+C8E4BF5A3BA42CB07.prototype = C8E4BF5A3BA42CB07_prototype
+--- C8E4BF5A3BA42CB07.Initialize
+function C8E4BF5A3BA42CB07_prototype:F7A3D296366E973CB(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
-  A0_2[1] = A1_2
-  L3_2 = A0_2[1]
+  L2_2 = self
+  self[1] = A1_2
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f462C9B70
   L3_2 = L3_2(L4_2)
@@ -96,32 +92,26 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.SC8223E31D3163519
   L4_2 = L3_2
   L3_2 = L3_2.F9191B545B68EC8BB
-  L5_2 = A0_2
+  L5_2 = self
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8E4BF5A3BA42CB07"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- C8E4BF5A3BA42CB07.Destroy
+function C8E4BF5A3BA42CB07_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
   L2_2 = L1_2
   L1_2 = L1_2.F7F58C1C1C1936899
-  L3_2 = A0_2
+  L3_2 = self
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8E4BF5A3BA42CB07"]["prototype"]
-L69_1 = "FBFEBD268F15274EC"
-
-function L70_1(A0_2, A1_2)
+--- C8E4BF5A3BA42CB07.SetEnable
+function C8E4BF5A3BA42CB07_prototype:FBFEBD268F15274EC(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = 0
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -155,15 +145,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8E4BF5A3BA42CB07"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- C8E4BF5A3BA42CB07.Update
+function C8E4BF5A3BA42CB07_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L2_2 = false
   L3_2 = 0
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   while true do
     L5_2 = L4_2.length
     if not (L3_2 < L5_2) then
@@ -190,11 +177,11 @@ function L70_1(A0_2, A1_2)
         function L8_2()
           local L0_3, L1_3, L2_3
           L0_3 = nil
-          L1_3 = A0_2
+          L1_3 = self
           L1_3 = L1_3[2]
           if L1_3 > 0 then
             L1_3 = A1_2
-            L2_3 = A0_2
+            L2_3 = self
             L2_3 = L2_3[2]
             L0_3 = L1_3 * L2_3
           else
@@ -242,11 +229,11 @@ function L70_1(A0_2, A1_2)
           function L8_2()
             local L0_3, L1_3, L2_3
             L0_3 = nil
-            L1_3 = A0_2
+            L1_3 = self
             L1_3 = L1_3[2]
             if L1_3 > 0 then
               L1_3 = A1_2
-              L2_3 = A0_2
+              L2_3 = self
               L2_3 = L2_3[2]
               L0_3 = L1_3 * L2_3
             else
@@ -294,18 +281,15 @@ function L70_1(A0_2, A1_2)
     end
   end
   if not L2_2 then
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.fBE3B2D3B
     L5_2(L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8E4BF5A3BA42CB07"]["prototype"]
-L69_1 = "F7787DABC4320BA43"
-
-function L70_1(A0_2, A1_2)
+--- C8E4BF5A3BA42CB07.setupCloud
+function C8E4BF5A3BA42CB07_prototype:F7787DABC4320BA43(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = cECB91E31
   L2_2 = L2_2.fB41FD22F
@@ -401,7 +385,7 @@ function L70_1(A0_2, A1_2)
     L7_2 = L4_2.targetWeather
     L7_2 = L7_2.length
     if L7_2 > 0 then
-      L7_2 = A0_2[3]
+      L7_2 = self[3]
       L8_2 = L7_2
       L7_2 = L7_2.push
       L9_2 = L4_2
@@ -410,13 +394,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8E4BF5A3BA42CB07"]["prototype"]
-L69_1 = "F970217BDDC4A3AC8"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C8E4BF5A3BA42CB07.OnWeatherChanged
+function C8E4BF5A3BA42CB07_prototype:F970217BDDC4A3AC8(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f47BAE49D
   L3_2(L4_2)
@@ -426,7 +407,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = L3_2
   L3_2 = L3_2.f6D324D20
   L3_2 = L3_2(L4_2)
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L4_2 = L4_2 < 0
   
   function L5_2()
@@ -444,10 +425,10 @@ function L70_1(A0_2, A1_2, A2_2)
   end
   
   L5_2 = L5_2()
-  A0_2[2] = L5_2
+  self[2] = L5_2
   if L4_2 then
     L5_2 = 0
-    L6_2 = A0_2[3]
+    L6_2 = self[3]
     while true do
       L7_2 = L6_2.length
       if not (L5_2 < L7_2) then
@@ -477,7 +458,7 @@ function L70_1(A0_2, A1_2, A2_2)
     end
   else
     L5_2 = 0
-    L6_2 = A0_2[3]
+    L6_2 = self[3]
     while true do
       L7_2 = L6_2.length
       if not (L5_2 < L7_2) then

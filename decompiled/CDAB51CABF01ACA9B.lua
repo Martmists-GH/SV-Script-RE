@@ -1,3 +1,7 @@
+---@alias CDAB51CABF01ACA9B main_ui_util_UISceneBase
+
+---@class main_ui_util_UISceneBase : CDAB51CABF01ACA9B_prototype
+---@field prototype CDAB51CABF01ACA9B_prototype
 L55_1 = _ENV
 L56_1 = "CDAB51CABF01ACA9B"
 L57_1 = L15_1
@@ -39,68 +43,54 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CDAB51CABF01ACA9B"]
 L69_1 = "__name__"
 L70_1 = "CDAB51CABF01ACA9B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDAB51CABF01ACA9B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDAB51CABF01ACA9B"]["prototype"]
-L69_1 = "F1E901DABB3976DEA"
-
-function L70_1(A0_2)
+---@class CDAB51CABF01ACA9B_prototype
+CDAB51CABF01ACA9B_prototype = L15_1()
+CDAB51CABF01ACA9B.prototype = CDAB51CABF01ACA9B_prototype
+--- main.ui.util.UISceneBase.get_uiScene
+function CDAB51CABF01ACA9B_prototype:F1E901DABB3976DEA()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDAB51CABF01ACA9B"]["prototype"]
-L69_1 = "FE744212C12ED8D05"
-
-function L70_1(A0_2)
+--- main.ui.util.UISceneBase.get_Sequence
+function CDAB51CABF01ACA9B_prototype:FE744212C12ED8D05()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDAB51CABF01ACA9B"]["prototype"]
-L69_1 = "F052BEB8F702E7A17"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.UISceneBase.OpenScene
+function CDAB51CABF01ACA9B_prototype:F052BEB8F702E7A17(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F14238D9CBE0A6888
+  L3_2 = self
+  L2_2 = self.F14238D9CBE0A6888
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F18C43F47AE088605
+  L3_2 = self
+  L2_2 = self.F18C43F47AE088605
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDAB51CABF01ACA9B"]["prototype"]
-L69_1 = "FC84A0D4D8CE89C7E"
-
-function L70_1(A0_2)
+--- main.ui.util.UISceneBase.IsLoadEnd
+function CDAB51CABF01ACA9B_prototype:FC84A0D4D8CE89C7E()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f48F8C7FF
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f9D8BC178
     return L2_2(L3_2)
@@ -110,14 +100,11 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDAB51CABF01ACA9B"]["prototype"]
-L69_1 = "FDCC89D158E22EBDE"
-
-function L70_1(A0_2)
+--- main.ui.util.UISceneBase.IsOpenEnd
+function CDAB51CABF01ACA9B_prototype:FDCC89D158E22EBDE()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FC84A0D4D8CE89C7E
+  L2_2 = self
+  L1_2 = self.FC84A0D4D8CE89C7E
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     L1_2 = false
@@ -127,43 +114,37 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDAB51CABF01ACA9B"]["prototype"]
-L69_1 = "FD7D37C5A967ABE41"
-
-function L70_1(A0_2)
+--- main.ui.util.UISceneBase.CloseScene
+function CDAB51CABF01ACA9B_prototype:FD7D37C5A967ABE41()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.f25C936C9
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f5C99C0AC
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDAB51CABF01ACA9B"]["prototype"]
-L69_1 = "F9D7588710454A953"
-
-function L70_1(A0_2)
+--- main.ui.util.UISceneBase.IsClose
+function CDAB51CABF01ACA9B_prototype:F9D7588710454A953()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f48F8C7FF
   L2_2 = L2_2(L3_2)
@@ -171,21 +152,18 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDAB51CABF01ACA9B"]["prototype"]
-L69_1 = "F14238D9CBE0A6888"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.UISceneBase.SetFindScene
+function CDAB51CABF01ACA9B_prototype:F14238D9CBE0A6888(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = c682D8E4F
   L2_2 = L2_2.fEF94D11D
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L2_2 = nil
   L3_2 = cA042DA13
   L3_2 = L3_2.fB1E655AE
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
@@ -196,23 +174,20 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDAB51CABF01ACA9B"]["prototype"]
-L69_1 = "F18C43F47AE088605"
-
-function L70_1(A0_2)
+--- main.ui.util.UISceneBase.LoadUiScene
+function CDAB51CABF01ACA9B_prototype:F18C43F47AE088605()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f0EF10D0C
   return L2_2(L3_2)

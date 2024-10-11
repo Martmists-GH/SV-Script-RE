@@ -1,3 +1,7 @@
+---@alias C86BE7543C8D6C933 main_field_audio_DragSoundTrigger
+
+---@class main_field_audio_DragSoundTrigger : C86BE7543C8D6C933_prototype
+---@field prototype C86BE7543C8D6C933_prototype
 L55_1 = _ENV
 L56_1 = "C86BE7543C8D6C933"
 L57_1 = L15_1
@@ -50,89 +54,75 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C86BE7543C8D6C933"]
 L69_1 = "__name__"
 L70_1 = "C86BE7543C8D6C933"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86BE7543C8D6C933"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86BE7543C8D6C933"]["prototype"]
-L69_1 = "FFB730E13EADA7545"
-
-function L70_1(A0_2)
+---@class C86BE7543C8D6C933_prototype
+C86BE7543C8D6C933_prototype = L15_1()
+C86BE7543C8D6C933.prototype = C86BE7543C8D6C933_prototype
+--- main.field.audio.DragSoundTrigger.IsPlaying
+function C86BE7543C8D6C933_prototype:FFB730E13EADA7545()
   local L1_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2 = 0 ~= L1_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86BE7543C8D6C933"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.field.audio.DragSoundTrigger.Update
+function C86BE7543C8D6C933_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   if 0 ~= L2_2 then
     L2_2 = false
     L3_2 = A1_2[5]
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L3_2 = L3_2 - L4_2
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     if L3_2 > L4_2 then
       L2_2 = true
     else
       L3_2 = A1_2[7]
-      L4_2 = A0_2[3]
+      L4_2 = self[3]
       if L3_2 < L4_2 then
         L2_2 = true
       end
     end
     if L2_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F4A086903BC093B05
+      L4_2 = self
+      L3_2 = self.F4A086903BC093B05
       L3_2(L4_2)
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86BE7543C8D6C933"]["prototype"]
-L69_1 = "F4A086903BC093B05"
-
-function L70_1(A0_2)
+--- main.field.audio.DragSoundTrigger.Stop
+function C86BE7543C8D6C933_prototype:F4A086903BC093B05()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   if 0 ~= L1_2 then
     L1_2 = cB66A3C78
     L1_2 = L1_2.fA925EE56
     L1_2 = L1_2()
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     if nil == L2_2 then
       L2_2 = 0
     end
     L4_2 = L1_2
     L3_2 = L1_2.fD09DDCAA
-    L5_2 = A0_2[10]
+    L5_2 = self[10]
     L6_2 = L2_2
     L3_2(L4_2, L5_2, L6_2)
-    A0_2[10] = 0
+    self[10] = 0
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86BE7543C8D6C933"]["prototype"]
-L69_1 = "FAEDFABEFBBDE593E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.audio.DragSoundTrigger.OnCollide
+function C86BE7543C8D6C933_prototype:FAEDFABEFBBDE593E(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = false
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2.length
   if 0 == L4_2 then
     L3_2 = true
   else
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L4_2 = L4_2.h
     while nil ~= L4_2 do
       L5_2 = L4_2.item
@@ -183,19 +173,19 @@ function L70_1(A0_2, A1_2, A2_2)
   end
   if L3_2 then
     L4_2 = A2_2[5]
-    L5_2 = A0_2[5]
+    L5_2 = self[5]
     L4_2 = L4_2 - L5_2
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     if L4_2 < L5_2 then
       L4_2 = A2_2[7]
-      L5_2 = A0_2[3]
+      L5_2 = self[3]
       if L4_2 >= L5_2 then
-        L4_2 = A0_2[10]
+        L4_2 = self[10]
         if 0 ~= L4_2 then
           L4_2 = A2_2[5]
-          L5_2 = A0_2[9]
+          L5_2 = self[9]
           L4_2 = L4_2 - L5_2
-          L5_2 = A0_2[6]
+          L5_2 = self[6]
           if not (L4_2 > L5_2) then
             goto lbl_72
           end
@@ -203,17 +193,17 @@ function L70_1(A0_2, A1_2, A2_2)
         L4_2 = A2_2[2]
         L5_2 = L4_2
         L4_2 = L4_2.fB0CA2B80
-        L6_2 = A0_2[2]
+        L6_2 = self[2]
         L7_2 = 100
         L4_2 = L4_2(L5_2, L6_2, L7_2)
-        A0_2[10] = L4_2
+        self[10] = L4_2
         L4_2 = A2_2[5]
-        A0_2[9] = L4_2
+        self[9] = L4_2
       end
     end
     ::lbl_72::
     L4_2 = A2_2[5]
-    A0_2[5] = L4_2
+    self[5] = L4_2
   end
   return L3_2
 end

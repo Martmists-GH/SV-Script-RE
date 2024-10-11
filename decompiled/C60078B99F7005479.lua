@@ -1,3 +1,7 @@
+---@alias C60078B99F7005479 main_ui_title_BaseTitleHandle
+
+---@class main_ui_title_BaseTitleHandle : C60078B99F7005479_prototype
+---@field prototype C60078B99F7005479_prototype
 L55_1 = _ENV
 L56_1 = "C60078B99F7005479"
 L57_1 = L15_1
@@ -33,26 +37,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C60078B99F7005479"]
 L69_1 = "__name__"
 L70_1 = "C60078B99F7005479"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60078B99F7005479"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60078B99F7005479"]["prototype"]
-L69_1 = "FC2B4E3373C7EA149"
-
-function L70_1(A0_2, A1_2)
+---@class C60078B99F7005479_prototype
+C60078B99F7005479_prototype = L15_1()
+C60078B99F7005479.prototype = C60078B99F7005479_prototype
+--- main.ui.title.BaseTitleHandle.TriggerFunc
+function C60078B99F7005479_prototype:FC2B4E3373C7EA149(A1_2)
   local L2_2
   L2_2 = false
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60078B99F7005479"]["prototype"]
-L69_1 = "F6A6FFC2D096EDA19"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.title.BaseTitleHandle.ProcCoroutine
+function C60078B99F7005479_prototype:F6A6FFC2D096EDA19(A1_2)
 end
 
 L68_1[L69_1] = L70_1

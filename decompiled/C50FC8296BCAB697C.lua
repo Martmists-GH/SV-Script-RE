@@ -1,3 +1,5 @@
+---@class C50FC8296BCAB697C : C50FC8296BCAB697C_prototype
+---@field prototype C50FC8296BCAB697C_prototype
 L55_1 = _ENV
 L56_1 = "C50FC8296BCAB697C"
 L57_1 = L15_1
@@ -45,18 +47,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C50FC8296BCAB697C"]
 L69_1 = "__name__"
 L70_1 = "C50FC8296BCAB697C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50FC8296BCAB697C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50FC8296BCAB697C"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C50FC8296BCAB697C_prototype
+C50FC8296BCAB697C_prototype = L15_1()
+C50FC8296BCAB697C.prototype = C50FC8296BCAB697C_prototype
+--- C50FC8296BCAB697C.onCreate
+function C50FC8296BCAB697C_prototype:FC87C731D11C58354()
   local L1_2
-  A0_2[35] = "restaurant12"
+  self[35] = "restaurant12"
 end
 
 L68_1[L69_1] = L70_1

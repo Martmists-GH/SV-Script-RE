@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CFAA34E314C487375"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CFAA34E314C487375"]
-L69_1 = "new"
+---@alias CFAA34E314C487375 main_field_behaviour_myhome_SwitchColoring
 
-function L70_1(A0_2)
+---@class main_field_behaviour_myhome_SwitchColoring : CFAA34E314C487375_prototype
+---@field prototype CFAA34E314C487375_prototype
+CFAA34E314C487375 = L15_1()
+function CFAA34E314C487375.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CFAA34E314C487375
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFAA34E314C487375"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CFAA34E314C487375
+function CFAA34E314C487375.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CFAA34E314C487375"]
 L69_1 = "__name__"
 L70_1 = "CFAA34E314C487375"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFAA34E314C487375"]
-L69_1 = "S201683C1B90E15E8"
-
-function L70_1(A0_2)
+--- main.field.behaviour.myhome.SwitchColoring.S201683C1B90E15E8
+function CFAA34E314C487375.S201683C1B90E15E8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = {}
   L2_2 = A0_2[1]
@@ -72,11 +63,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFAA34E314C487375"]
-L69_1 = "S81A09A91E92FFBA3"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.myhome.SwitchColoring.nonZeroOr
+function CFAA34E314C487375.S81A09A91E92FFBA3(A0_2, A1_2)
   local L2_2
   L2_2 = A0_2[1]
   if 0 == L2_2 then
@@ -95,11 +83,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFAA34E314C487375"]
-L69_1 = "S4F47DA6AFE6C507F"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.myhome.SwitchColoring.isEqual
+function CFAA34E314C487375.S4F47DA6AFE6C507F(A0_2, A1_2)
   local L2_2, L3_2
   L2_2 = A0_2[1]
   L3_2 = A1_2[1]
@@ -122,24 +107,19 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFAA34E314C487375"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFAA34E314C487375"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CFAA34E314C487375_prototype
+CFAA34E314C487375_prototype = L15_1()
+CFAA34E314C487375.prototype = CFAA34E314C487375_prototype
+--- main.field.behaviour.myhome.SwitchColoring.Setup
+function CFAA34E314C487375_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = nil
   
   function L4_2()

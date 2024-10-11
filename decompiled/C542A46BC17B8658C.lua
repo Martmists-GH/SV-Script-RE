@@ -1,11 +1,8 @@
-L55_1 = _ENV
-L56_1 = "C542A46BC17B8658C"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "new"
-L70_1 = {}
+---@alias C542A46BC17B8658C main_nushi_data_NushiData
+
+---@class main_nushi_data_NushiData
+C542A46BC17B8658C = L15_1()
+C542A46BC17B8658C.new = {}
 L68_1[L69_1] = L70_1
 L68_1 = "C542A46BC17B8658C"
 L69_1 = _ENV["C542A46BC17B8658C"]
@@ -13,11 +10,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C542A46BC17B8658C"]
 L69_1 = "__name__"
 L70_1 = "C542A46BC17B8658C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "SB67F2555543975C5"
-
-function L70_1()
+--- main.nushi.data.NushiData.AllUpdate
+function C542A46BC17B8658C.SB67F2555543975C5()
   local L0_2, L1_2
   L0_2 = C542A46BC17B8658C
   L0_2 = L0_2.S51E0A5E160AFA2F5
@@ -30,11 +24,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "SBE951C6049DE6D32"
-
-function L70_1()
+--- main.nushi.data.NushiData.AllUpdateNushiData
+function C542A46BC17B8658C.SBE951C6049DE6D32()
   local L0_2, L1_2
   L0_2 = C542A46BC17B8658C
   L0_2 = L0_2.SEB6685558281F194
@@ -50,11 +41,8 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "SEB6685558281F194"
-
-function L70_1()
+--- main.nushi.data.NushiData.Update
+function C542A46BC17B8658C.SEB6685558281F194()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -151,11 +139,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "S7147C5FA61F494F2"
-
-function L70_1(A0_2)
+--- main.nushi.data.NushiData.SetHikoData
+function C542A46BC17B8658C.S7147C5FA61F494F2(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C542A46BC17B8658C
   L2_2 = CF163251573CC843B
@@ -253,11 +238,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "SB88DF4FC462CE719"
-
-function L70_1(A0_2)
+--- main.nushi.data.NushiData.SetHaganeData
+function C542A46BC17B8658C.SB88DF4FC462CE719(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C542A46BC17B8658C
   L2_2 = C6053952EB1D8587E
@@ -296,11 +278,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "SB6AA91A743624DBE"
-
-function L70_1(A0_2)
+--- main.nushi.data.NushiData.SetIwaData
+function C542A46BC17B8658C.SB6AA91A743624DBE(A0_2)
   local L1_2, L2_2
   L1_2 = C542A46BC17B8658C
   L2_2 = CB4A2C5F556208F9F
@@ -318,11 +297,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "S4CE9769FC0D05F56"
-
-function L70_1(A0_2)
+--- main.nushi.data.NushiData.SetJimenData
+function C542A46BC17B8658C.S4CE9769FC0D05F56(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C542A46BC17B8658C
   L2_2 = C33F74D60EA7C2057
@@ -389,11 +365,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "S9407B74B08CFD954"
-
-function L70_1(A0_2)
+--- main.nushi.data.NushiData.SetDragonData
+function C542A46BC17B8658C.S9407B74B08CFD954(A0_2)
   local L1_2, L2_2
   L1_2 = C542A46BC17B8658C
   L2_2 = CDB74261116C6FE31
@@ -411,11 +384,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "S53AA4BA66EAF00F1"
-
-function L70_1()
+--- main.nushi.data.NushiData.BtlCamSetup
+function C542A46BC17B8658C.S53AA4BA66EAF00F1()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -514,11 +484,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "S63BC804BD4B8B8A5"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.data.NushiData.S63BC804BD4B8B8A5
+function C542A46BC17B8658C.S63BC804BD4B8B8A5(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C868D1637A3AF1EBD
   L2_2 = L2_2.new
@@ -633,11 +600,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "S65DFF65A0ED33B2C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.nushi.data.NushiData.BtlCamData
+function C542A46BC17B8658C.S65DFF65A0ED33B2C(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = nil
   if 0 == A1_2 then
@@ -716,11 +680,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "S760BFF42C786A21E"
-
-function L70_1()
+--- main.nushi.data.NushiData.BtlSetup
+function C542A46BC17B8658C.S760BFF42C786A21E()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -779,11 +740,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "S29982FF5E2D308DD"
-
-function L70_1(A0_2)
+--- main.nushi.data.NushiData.BtlData
+function C542A46BC17B8658C.S29982FF5E2D308DD(A0_2)
   local L1_2, L2_2, L3_2
   if 4 == A0_2 then
     L1_2 = CD6E40BD5CE9657FC
@@ -816,11 +774,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "SE841E98243707E3C"
-
-function L70_1()
+--- main.nushi.data.NushiData.AnimCurveSetup
+function C542A46BC17B8658C.SE841E98243707E3C()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -876,11 +831,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C542A46BC17B8658C"]
-L69_1 = "SE9D5CD0DC650AE61"
-
-function L70_1(A0_2)
+--- main.nushi.data.NushiData.GetAnimCurve
+function C542A46BC17B8658C.SE9D5CD0DC650AE61(A0_2)
   local L1_2, L2_2
   L1_2 = C542A46BC17B8658C
   L1_2 = L1_2.S3B167451A864C675

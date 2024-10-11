@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C6825AC9B197940B4"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C6825AC9B197940B4"]
-L69_1 = "new"
+---@alias C6825AC9B197940B4 main_ui_pokedex_PokedexRegisterManager
 
-function L70_1(A0_2)
+---@class main_ui_pokedex_PokedexRegisterManager : C6825AC9B197940B4_prototype
+---@field prototype C6825AC9B197940B4_prototype
+C6825AC9B197940B4 = L15_1()
+function C6825AC9B197940B4.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C6825AC9B197940B4
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6825AC9B197940B4"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C6825AC9B197940B4
+function C6825AC9B197940B4.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,22 +36,16 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C6825AC9B197940B4"]
 L69_1 = "__name__"
 L70_1 = "C6825AC9B197940B4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6825AC9B197940B4"]
-L69_1 = "SAE728AF193086C55"
-
-function L70_1()
+--- main.ui.pokedex.PokedexRegisterManager.get_isEnd
+function C6825AC9B197940B4.SAE728AF193086C55()
   local L0_2, L1_2
   L0_2 = C6825AC9B197940B4
   L0_2 = L0_2.SD63B5A0CCE93091A
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6825AC9B197940B4"]
-L69_1 = "SC22C2773A68837D3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.PokedexRegisterManager.SceneLoad
+function C6825AC9B197940B4.SC22C2773A68837D3(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = false
@@ -112,11 +100,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6825AC9B197940B4"]
-L69_1 = "S768600CE8B68B7F8"
-
-function L70_1()
+--- main.ui.pokedex.PokedexRegisterManager.SceneUnLoad
+function C6825AC9B197940B4.S768600CE8B68B7F8()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C6825AC9B197940B4
   L0_2 = L0_2.SAE728AF193086C55
@@ -160,63 +145,52 @@ function L70_1()
   L1_2.SD63B5A0CCE93091A = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6825AC9B197940B4"]
-L69_1 = "SE400CD406086B89D"
-
-function L70_1()
+--- main.ui.pokedex.PokedexRegisterManager.GetSelectIndex
+function C6825AC9B197940B4.SE400CD406086B89D()
   local L0_2, L1_2
   L0_2 = C6825AC9B197940B4
   L0_2 = L0_2.SE3B70D2F469650D3
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6825AC9B197940B4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6825AC9B197940B4"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C6825AC9B197940B4_prototype
+C6825AC9B197940B4_prototype = L15_1()
+C6825AC9B197940B4.prototype = C6825AC9B197940B4_prototype
+--- main.ui.pokedex.PokedexRegisterManager.Setup
+function C6825AC9B197940B4_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = nil
   L3_2 = C1DB14DCC9D7634FA
   L3_2 = L3_2.new
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F97BB0540C86A2A36
+  L5_2 = self
+  L6_2 = self.F97BB0540C86A2A36
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[2] = L3_2
+  self[2] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6825AC9B197940B4"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.PokedexRegisterManager.PreUpdate
+function C6825AC9B197940B4_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil == L2_2 then
     return
   end
   L2_2 = L10_1.coroutine
   L2_2 = L2_2.status
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2[1]
   L2_2 = L2_2(L3_2)
   if "dead" ~= L2_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = nil
     L4_2 = L62_1
     L5_2 = L64_1.pack
@@ -263,27 +237,21 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6825AC9B197940B4"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.PokedexRegisterManager.Destroy
+function C6825AC9B197940B4_prototype:F1C2AA00ADAC52EC5()
   local L1_2
   L1_2 = C6825AC9B197940B4
   L1_2.SB511C70B9F655EB6 = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6825AC9B197940B4"]["prototype"]
-L69_1 = "F97BB0540C86A2A36"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.PokedexRegisterManager.PokedexCaptureViewCoroutine
+function C6825AC9B197940B4_prototype:F97BB0540C86A2A36()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = C887E2CF46CDFCF41
   L1_2 = L1_2.S142A5FCF556F5DFD
   L1_2()
   while true do
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.f462C9B70
     L1_2 = L1_2(L2_2)
@@ -297,11 +265,11 @@ function L70_1(A0_2)
     L1_2 = L1_2.S760DAE4C5371A78E
     L1_2()
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.FF68040BACCDE0833
+  L2_2 = self
+  L1_2 = self.FF68040BACCDE0833
   L1_2 = L1_2(L2_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F8EFB7390F3FE2A36
+  L3_2 = self
+  L2_2 = self.F8EFB7390F3FE2A36
   L2_2 = L2_2(L3_2)
   if nil == L1_2 or nil == L2_2 then
     L3_2 = C6825AC9B197940B4
@@ -330,7 +298,7 @@ function L70_1(A0_2)
   L8_2 = L8_2.SA907FD83DBE2A224
   L9_2 = C6825AC9B197940B4
   L9_2 = L9_2.S1212C34A0ABCE5CA
-  L10_2 = A0_2[1]
+  L10_2 = self[1]
   L11_2 = L10_2
   L10_2 = L10_2.f462C9B70
   L10_2, L11_2 = L10_2(L11_2)
@@ -362,13 +330,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6825AC9B197940B4"]["prototype"]
-L69_1 = "FF68040BACCDE0833"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.PokedexRegisterManager.GetPokedexDetailView
+function C6825AC9B197940B4_prototype:FF68040BACCDE0833()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
@@ -405,13 +370,10 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6825AC9B197940B4"]["prototype"]
-L69_1 = "F8EFB7390F3FE2A36"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.PokedexRegisterManager.GetPokedexCaptureView
+function C6825AC9B197940B4_prototype:F8EFB7390F3FE2A36()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)

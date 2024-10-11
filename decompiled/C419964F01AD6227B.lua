@@ -1,3 +1,7 @@
+---@alias C419964F01AD6227B main_ui_net_btl_state_machine_NetworkBattleStateMatching
+
+---@class main_ui_net_btl_state_machine_NetworkBattleStateMatching : C419964F01AD6227B_prototype
+---@field prototype C419964F01AD6227B_prototype
 L55_1 = _ENV
 L56_1 = "C419964F01AD6227B"
 L57_1 = L15_1
@@ -39,59 +43,51 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C419964F01AD6227B"]
 L69_1 = "__name__"
 L70_1 = "C419964F01AD6227B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C419964F01AD6227B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C419964F01AD6227B"]["prototype"]
-L69_1 = "F5BE3D38738EE3C24"
-
-function L70_1(A0_2)
+---@class C419964F01AD6227B_prototype
+C419964F01AD6227B_prototype = L15_1()
+C419964F01AD6227B.prototype = C419964F01AD6227B_prototype
+--- main.ui.net_btl.state_machine.NetworkBattleStateMatching.OnEntry
+function C419964F01AD6227B_prototype:F5BE3D38738EE3C24()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.F2FBB004A3763CEBD
   L3_2 = 0
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[8] = L1_2
-  L1_2 = A0_2[8]
+  self[8] = L1_2
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.F88E265ADB86ACC71
   L1_2(L2_2)
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.F5244DD5572E59B59
   L3_2 = C5A4B97A873A16656
   L3_2 = L3_2.SC97360EC6F635D7F
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.FB038BC9C646EA9A0
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.F837233999D634B7A
   L1_2(L2_2)
   L1_2 = C93D7D348587CFD57
   L1_2 = L1_2.new
-  L2_2 = A0_2[5]
-  L3_2 = A0_2
-  L4_2 = A0_2[8]
+  L2_2 = self[5]
+  L3_2 = self
+  L4_2 = self[8]
   L1_2 = L1_2(L2_2, L3_2, L4_2)
-  A0_2[9] = L1_2
+  self[9] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C419964F01AD6227B"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateMatching.OnUpdate
+function C419964F01AD6227B_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   while true do
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L3_2 = L2_2
     L2_2 = L2_2.F02C094ED00192342
     L2_2 = L2_2(L3_2)
@@ -125,7 +121,7 @@ function L70_1(A0_2, A1_2)
   if L4_2 then
     return
   end
-  L4_2 = A0_2[8]
+  L4_2 = self[8]
   L5_2 = L4_2
   L4_2 = L4_2.F7EED485852A4D25F
   L4_2(L5_2)
@@ -143,29 +139,29 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2.F3E9CAF685815C48B
   L4_2 = L4_2(L5_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F7C06F6BEA957F0E6
+    L5_2 = self
+    L4_2 = self.F7C06F6BEA957F0E6
     L6_2 = 5
     L4_2(L5_2, L6_2)
     L4_2 = C5A4B97A873A16656
     L4_2 = L4_2.SC97360EC6F635D7F
     if 3 == L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F7C06F6BEA957F0E6
+      L5_2 = self
+      L4_2 = self.F7C06F6BEA957F0E6
       L6_2 = 1
       L4_2(L5_2, L6_2)
     end
     L4_2 = CB70DB0084AFDD907
     L4_2 = L4_2.S84E00A89DFBC380C
     L4_2()
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L5_2 = L4_2
     L4_2 = L4_2.F28EAF3B3AA178E3E
     L6_2 = C5CFA2E0AFF4F41D2
     L6_2 = L6_2.new
     L6_2, L7_2, L8_2, L9_2, L10_2 = L6_2()
     L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     L5_2 = L4_2
     L4_2 = L4_2.F99197E1D935F7D22
     L6_2 = "SetRule"
@@ -200,12 +196,12 @@ function L70_1(A0_2, A1_2)
     L8_2 = L4_2.Sex
     L9_2 = L4_2.LanguageId
     L5_2(L6_2, L7_2, L8_2, L9_2)
-    L6_2 = A0_2
-    L5_2 = A0_2.F7C06F6BEA957F0E6
+    L6_2 = self
+    L5_2 = self.F7C06F6BEA957F0E6
     L7_2 = 6
     L5_2(L6_2, L7_2)
-    L6_2 = A0_2
-    L5_2 = A0_2.F7C06F6BEA957F0E6
+    L6_2 = self
+    L5_2 = self.F7C06F6BEA957F0E6
     L7_2 = 7
     L5_2(L6_2, L7_2)
     L5_2 = CF1D9D619D324F233
@@ -225,13 +221,13 @@ function L70_1(A0_2, A1_2)
     L5_2 = L5_2.SDE3248A50E86E62B
     L6_2 = true
     L5_2(L6_2)
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     L5_2[15] = true
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     L6_2 = L5_2
     L5_2 = L5_2.F837233999D634B7A
     L5_2(L6_2)
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     L6_2 = L5_2
     L5_2 = L5_2.FFB8AA94FE7506A38
     L5_2(L6_2)
@@ -239,8 +235,8 @@ function L70_1(A0_2, A1_2)
     L5_2 = L5_2.S066121F38E53874A
     L5_2()
     while true do
-      L6_2 = A0_2
-      L5_2 = A0_2.F2FB1EFEA0279BD51
+      L6_2 = self
+      L5_2 = self.F2FB1EFEA0279BD51
       L5_2 = L5_2(L6_2)
       if L5_2 then
         break
@@ -259,17 +255,14 @@ function L70_1(A0_2, A1_2)
   L4_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C419964F01AD6227B"]["prototype"]
-L69_1 = "F2FB1EFEA0279BD51"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateMatching.WaitingSelectBattlePreset
+function C419964F01AD6227B_prototype:F2FB1EFEA0279BD51()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L2_2 = L1_2
   L1_2 = L1_2.FE1B998C2DEC49E51
   L1_2(L2_2)
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L2_2 = L1_2
   L1_2 = L1_2.F355CFD251A574136
   L1_2 = L1_2(L2_2)
@@ -300,11 +293,11 @@ function L70_1(A0_2)
       L3_2 = L2_2
       L2_2 = L2_2.F836BBCB1196454FE
       L2_2(L3_2)
-      L3_2 = A0_2
-      L2_2 = A0_2.F7C06F6BEA957F0E6
+      L3_2 = self
+      L2_2 = self.F7C06F6BEA957F0E6
       L4_2 = 8
       L2_2(L3_2, L4_2)
-      L2_2 = A0_2[5]
+      L2_2 = self[5]
       L3_2 = L2_2
       L2_2 = L2_2.F28EAF3B3AA178E3E
       L4_2 = C419964F01AD6227B
@@ -326,18 +319,18 @@ function L70_1(A0_2)
       L3_2 = L1_2.fC01E69C4
       L3_2, L4_2 = L3_2(L4_2)
       L2_2(L3_2, L4_2)
-      L3_2 = A0_2
-      L2_2 = A0_2.F7C06F6BEA957F0E6
+      L3_2 = self
+      L2_2 = self.F7C06F6BEA957F0E6
       L4_2 = 9
       L2_2(L3_2, L4_2)
-      L2_2 = A0_2[5]
+      L2_2 = self[5]
       L3_2 = L2_2
       L2_2 = L2_2.F28EAF3B3AA178E3E
       L4_2 = C43A9B871EC31C8E2
       L4_2 = L4_2.new
       L4_2 = L4_2()
       L2_2(L3_2, L4_2)
-      L2_2 = A0_2[8]
+      L2_2 = self[8]
       L3_2 = L2_2
       L2_2 = L2_2.F99197E1D935F7D22
       L4_2 = "CheckRule"
@@ -350,11 +343,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C419964F01AD6227B"]["prototype"]
-L69_1 = "FEB16F27ECF5C4C90"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateMatching.OnForceEnd
+function C419964F01AD6227B_prototype:FEB16F27ECF5C4C90()
   local L1_2
   L1_2 = C99FCBF1B467C7135
   L1_2 = L1_2.SA8C854E3713B2F10

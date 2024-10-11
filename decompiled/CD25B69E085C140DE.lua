@@ -1,11 +1,8 @@
-L55_1 = _ENV
-L56_1 = "CD25B69E085C140DE"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CD25B69E085C140DE"]
-L69_1 = "new"
-L70_1 = {}
+---@alias CD25B69E085C140DE main_field_gimmick_item_FieldItemSwitcher
+
+---@class main_field_gimmick_item_FieldItemSwitcher
+CD25B69E085C140DE = L15_1()
+CD25B69E085C140DE.new = {}
 L68_1[L69_1] = L70_1
 L68_1 = "CD25B69E085C140DE"
 L69_1 = _ENV["CD25B69E085C140DE"]
@@ -13,11 +10,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CD25B69E085C140DE"]
 L69_1 = "__name__"
 L70_1 = "CD25B69E085C140DE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD25B69E085C140DE"]
-L69_1 = "S8EE24AA5B0ADD11C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.gimmick.item.FieldItemSwitcher.SwitcherFunc
+function CD25B69E085C140DE.S8EE24AA5B0ADD11C(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = c1907740A
   L3_2 = L3_2.f3161B24D
@@ -55,11 +49,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD25B69E085C140DE"]
-L69_1 = "S2FF72BA90BCB8085"
-
-function L70_1(A0_2)
+--- main.field.gimmick.item.FieldItemSwitcher.GetIsGet
+function CD25B69E085C140DE.S2FF72BA90BCB8085(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = c1907740A
   L1_2 = L1_2.f3161B24D
@@ -92,11 +83,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD25B69E085C140DE"]
-L69_1 = "S6B2B29DA66265A41"
-
-function L70_1(A0_2)
+--- main.field.gimmick.item.FieldItemSwitcher.SetIsGet
+function CD25B69E085C140DE.S6B2B29DA66265A41(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = c1907740A
   L1_2 = L1_2.f1F2493DF
@@ -130,11 +118,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD25B69E085C140DE"]
-L69_1 = "S5DA5348E2F249E43"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.item.FieldItemSwitcher.toKey
+function CD25B69E085C140DE.S5DA5348E2F249E43(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = L31_1.string
   L3_2 = L31_1.string

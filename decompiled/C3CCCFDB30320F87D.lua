@@ -1,3 +1,5 @@
+---@class C3CCCFDB30320F87D : C3CCCFDB30320F87D_prototype
+---@field prototype C3CCCFDB30320F87D_prototype
 L55_1 = _ENV
 L56_1 = "C3CCCFDB30320F87D"
 L57_1 = L15_1
@@ -51,22 +53,17 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C3CCCFDB30320F87D"]
 L69_1 = "__name__"
 L70_1 = "C3CCCFDB30320F87D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3CCCFDB30320F87D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3CCCFDB30320F87D"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class C3CCCFDB30320F87D_prototype
+C3CCCFDB30320F87D_prototype = L15_1()
+C3CCCFDB30320F87D.prototype = C3CCCFDB30320F87D_prototype
+--- C3CCCFDB30320F87D.Reset
+function C3CCCFDB30320F87D_prototype:F96EA28F400597FA0(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = C0BBB2E5957694EB8
   L4_2 = L4_2.prototype
   L4_2 = L4_2.F96EA28F400597FA0
-  L5_2 = A0_2
+  L5_2 = self
   L6_2 = A1_2
   L7_2 = A2_2
   L4_2(L5_2, L6_2, L7_2)
@@ -87,13 +84,13 @@ function L70_1(A0_2, A1_2, A2_2)
     L7_2.scrollIndex = 0
     L7_2.cursorIndex = 0
     L6_2 = L6_2(L7_2)
-    A0_2[2] = L6_2
+    self[2] = L6_2
   else
-    L7_2 = A0_2
-    L6_2 = A0_2.FBB4E99B82241F57B
+    L7_2 = self
+    L6_2 = self.FBB4E99B82241F57B
     L8_2 = L5_2
     L9_2 = "ScrollPanel_00"
-    L10_2 = A0_2[2]
+    L10_2 = self[2]
     L11_2 = 0
     L12_2 = CC6A81B5255DC7579
     L12_2 = L12_2.new
@@ -109,7 +106,7 @@ function L70_1(A0_2, A1_2, A2_2)
     
     L12_2, L13_2, L14_2, L15_2 = L12_2(L13_2, L14_2, L15_2)
     L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
-    A0_2[3] = L6_2
+    self[3] = L6_2
   end
   L6_2 = CD950F4AD2C2702A1
   L6_2 = L6_2.S35D93EC78C27896E
@@ -231,30 +228,27 @@ function L70_1(A0_2, A1_2, A2_2)
   end
   
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.FBB4E99B82241F57B
+  L9_2 = self
+  L8_2 = self.FBB4E99B82241F57B
   L10_2 = L5_2
   L11_2 = "ScrollPanel_00"
-  L12_2 = A0_2[2]
+  L12_2 = self[2]
   L13_2 = L6_2.length
   L14_2 = L7_2
   L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-  A0_2[3] = L8_2
+  self[3] = L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3CCCFDB30320F87D"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- C3CCCFDB30320F87D.Update
+function C3CCCFDB30320F87D_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   if 0 ~= L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     return L2_2
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F580006A3CE7932F5
+  L3_2 = self
+  L2_2 = self.F580006A3CE7932F5
   L4_2 = A1_2
   return L2_2(L3_2, L4_2)
 end

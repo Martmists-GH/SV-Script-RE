@@ -1,3 +1,7 @@
+---@alias C1829F0388930DB95 main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokeIdleState
+
+---@class main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokeIdleState : C1829F0388930DB95_prototype
+---@field prototype C1829F0388930DB95_prototype
 L55_1 = _ENV
 L56_1 = "C1829F0388930DB95"
 L57_1 = L15_1
@@ -40,119 +44,108 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1829F0388930DB95"]
 L69_1 = "__name__"
 L70_1 = "C1829F0388930DB95"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1829F0388930DB95"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1829F0388930DB95"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C1829F0388930DB95_prototype
+C1829F0388930DB95_prototype = L15_1()
+C1829F0388930DB95.prototype = C1829F0388930DB95_prototype
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeIdleState.onCreate
+function C1829F0388930DB95_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.SD42C48D92B12CCC5
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.owner
   L3_2 = L2_2
   L2_2 = L2_2.fE9C29DA1
   L2_2, L3_2 = L2_2(L3_2)
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[7] = L1_2
+  self[7] = L1_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S6C32D9175AB19C68
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.owner
   L3_2 = L2_2
   L2_2 = L2_2.fE9C29DA1
   L2_2, L3_2 = L2_2(L3_2)
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[8] = L1_2
+  self[8] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1829F0388930DB95"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeIdleState.onInitialize
+function C1829F0388930DB95_prototype:F239C282ED3F82676(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L58_1
   L3_2 = CFC8F368D91411014
   L3_2 = L3_2.S93A017D496A6D000
   L2_2 = L2_2(L3_2)
-  A0_2[6] = L2_2
-  L2_2 = A0_2[1]
+  self[6] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F86A0FB324C31FB7B
   L4_2 = E38B7F1DDED5027FE
   L4_2 = L4_2.Idle
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.FAC93F8BEE25E2F74
   L4_2 = C1829F0388930DB95
   L4_2 = L4_2.S725CD6B5C2488630
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.FCABB3EC3073D60AC
   L4_2 = true
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1829F0388930DB95"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeIdleState.onPreUpdate
+function C1829F0388930DB95_prototype:F1993A419B4083AE8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F600962F7A7FE0DAD
+  L3_2 = self
+  L2_2 = self.F600962F7A7FE0DAD
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F1EE797C9D5E400F1
+    L3_2 = self
+    L2_2 = self.F1EE797C9D5E400F1
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L3_2 = L2_2
       L2_2 = L2_2.F28EAF3B3AA178E3E
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L4_2 = L4_2[60]
       L2_2(L3_2, L4_2)
       return
     end
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FCA0F6B5C46120E4B
+  L3_2 = self
+  L2_2 = self.FCA0F6B5C46120E4B
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F28EAF3B3AA178E3E
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L4_2 = L4_2[59]
     L2_2(L3_2, L4_2)
     return
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2.owner
   L3_2 = L2_2
   L2_2 = L2_2.f7360ED03
   L2_2, L3_2, L4_2 = L2_2(L3_2)
   L5_2 = L2_2
   L6_2 = L4_2
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L7_2 = L7_2.owner
   L8_2 = L7_2
   L7_2 = L7_2.f7360ED03
@@ -165,7 +158,7 @@ function L70_1(A0_2, A1_2)
   L14_2 = 0.0
   L15_2 = L11_2
   L12_2 = L12_2(L13_2, L14_2, L15_2)
-  L13_2 = A0_2[5]
+  L13_2 = self[5]
   if L12_2 > L13_2 then
     return
   end
@@ -205,7 +198,7 @@ function L70_1(A0_2, A1_2)
   L17_2 = L16_2.f1087DA78
   L17_2 = L17_2(L18_2)
   if L17_2 then
-    L17_2 = A0_2[2]
+    L17_2 = self[2]
     L17_2 = L17_2.owner
     L18_2 = L17_2
     L17_2 = L17_2.f24032F87
@@ -214,31 +207,25 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1829F0388930DB95"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeIdleState.onTerminate
+function C1829F0388930DB95_prototype:F97D80368ACC86AEF()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FAC93F8BEE25E2F74
   L3_2 = 0
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FCABB3EC3073D60AC
   L3_2 = false
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1829F0388930DB95"]["prototype"]
-L69_1 = "FCA0F6B5C46120E4B"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeIdleState.updateRestless
+function C1829F0388930DB95_prototype:FCA0F6B5C46120E4B(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L4_2 = A1_2
   L3_2 = A1_2.f22D509B2
   L5_2 = 2
@@ -247,13 +234,13 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.fC0E2CAD0
   L3_2 = L3_2(L4_2)
   L2_2 = L2_2 + L3_2
-  A0_2[4] = L2_2
-  L2_2 = A0_2[4]
+  self[4] = L2_2
+  L2_2 = self[4]
   L3_2 = C1829F0388930DB95
   L3_2 = L3_2.S8BF88BB4EBC8BB6E
   if L2_2 >= L3_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F5E4F9E91C16BC199
+    L3_2 = self
+    L2_2 = self.F5E4F9E91C16BC199
     L4_2 = CFC8F368D91411014
     L4_2 = L4_2.S93A017D496A6D000
     L2_2 = L2_2(L3_2, L4_2)
@@ -270,13 +257,10 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1829F0388930DB95"]["prototype"]
-L69_1 = "F600962F7A7FE0DAD"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeIdleState.canSleepCondition
+function C1829F0388930DB95_prototype:F600962F7A7FE0DAD()
   local L1_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   if L1_2 then
     L1_2 = false
     return L1_2

@@ -1,3 +1,6 @@
+---@alias C2633CF9260C5FBEB main_ui_hud_item_get_SceneHudItemGetManager
+
+---@class main_ui_hud_item_get_SceneHudItemGetManager
 L55_1 = _ENV
 L56_1 = "C4014691676007574"
 L57_1 = L15_1

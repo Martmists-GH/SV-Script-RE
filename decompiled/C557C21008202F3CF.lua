@@ -1,3 +1,5 @@
+---@class C557C21008202F3CF : C557C21008202F3CF_prototype
+---@field prototype C557C21008202F3CF_prototype
 L55_1 = _ENV
 L56_1 = "C557C21008202F3CF"
 L57_1 = L15_1
@@ -41,18 +43,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C557C21008202F3CF"]
 L69_1 = "__name__"
 L70_1 = "C557C21008202F3CF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C557C21008202F3CF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C557C21008202F3CF"]["prototype"]
-L69_1 = "FFDD0D16194BC3831"
-
-function L70_1(A0_2, A1_2)
+---@class C557C21008202F3CF_prototype
+C557C21008202F3CF_prototype = L15_1()
+C557C21008202F3CF.prototype = C557C21008202F3CF_prototype
+--- C557C21008202F3CF.FFDD0D16194BC3831
+function C557C21008202F3CF_prototype:FFDD0D16194BC3831(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.length
   L3_2 = L2_2 < 0
   L4_2 = nil
@@ -114,22 +111,19 @@ function L70_1(A0_2, A1_2)
   L7_2.sceneObject = true
   L7_2.particle = true
   L6_2.__fields__ = L7_2
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L7_2 = L7_2[A1_2]
   L6_2.sceneObject = L7_2
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L7_2 = L7_2[A1_2]
   L6_2.particle = L7_2
   return L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C557C21008202F3CF"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2, A1_2)
+--- C557C21008202F3CF.Init
+function C557C21008202F3CF_prototype:F90BBC6B0190BF053(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  A0_2[1] = A1_2
+  self[1] = A1_2
   L2_2 = c451059A3
   L2_2 = L2_2.f5776B6C6
   L3_2 = L31_1.string
@@ -158,16 +152,13 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2(L5_2)
   L3_2 = L3_2 .. L4_2
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C557C21008202F3CF"]["prototype"]
-L69_1 = "F4EAE69991E1D052D"
-
-function L70_1(A0_2, A1_2)
+--- C557C21008202F3CF.F4EAE69991E1D052D
+function C557C21008202F3CF_prototype:F4EAE69991E1D052D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f900312E7
   L2_2 = L2_2(L3_2)
@@ -175,13 +166,13 @@ function L70_1(A0_2, A1_2)
     L2_2 = true
     return L2_2
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.length
   if 0 == L2_2 then
     L2_2 = 0
     while L2_2 < 10 do
       L2_2 = L2_2 + 1
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L4_2 = L3_2
       L3_2 = L3_2.push
       L6_2 = A1_2
@@ -192,7 +183,7 @@ function L70_1(A0_2, A1_2)
       L10_2 = ""
       L9_2 = L9_2(L10_2)
       L10_2 = L31_1.string
-      L11_2 = A0_2[1]
+      L11_2 = self[1]
       L10_2 = L10_2(L11_2)
       L9_2 = L9_2 .. L10_2
       L8_2 = L8_2(L9_2)
@@ -205,13 +196,13 @@ function L70_1(A0_2, A1_2)
       L9_2 = L2_2 - 1
       L8_2 = L8_2(L9_2)
       L7_2 = L7_2 .. L8_2
-      L8_2 = A0_2[2]
+      L8_2 = self[2]
       L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2 = L5_2(L6_2, L7_2, L8_2)
       L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
     end
   end
   L2_2 = 0
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -227,11 +218,11 @@ function L70_1(A0_2, A1_2)
       return L5_2
     end
   end
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   L4_2 = L4_2.length
   if 0 == L4_2 then
     L4_2 = 0
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     while true do
       L6_2 = L5_2.length
       if not (L4_2 < L6_2) then
@@ -239,7 +230,7 @@ function L70_1(A0_2, A1_2)
       end
       L6_2 = L5_2[L4_2]
       L4_2 = L4_2 + 1
-      L7_2 = A0_2[4]
+      L7_2 = self[4]
       L8_2 = L7_2
       L7_2 = L7_2.push
       L9_2 = cE8D61D7D

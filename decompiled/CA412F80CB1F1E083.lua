@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CA412F80CB1F1E083"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "__name__"
-L70_1 = "CA412F80CB1F1E083"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "S7A3D296366E973CB"
+---@alias CA412F80CB1F1E083 main_field_FieldSceneManager
 
-function L70_1(A0_2)
+---@class main_field_FieldSceneManager
+CA412F80CB1F1E083 = L15_1()
+CA412F80CB1F1E083.new = {}
+CA412F80CB1F1E083.__name__ = "CA412F80CB1F1E083"
+--- main.field.FieldSceneManager.Initialize
+function CA412F80CB1F1E083.S7A3D296366E973CB(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA412F80CB1F1E083
   L1_2.SC9561F947B977499 = A0_2
@@ -34,22 +25,16 @@ function L70_1(A0_2)
   L1_2.eventMaster = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "SC228A8D4D8D3DAB4"
-
-function L70_1()
+--- main.field.FieldSceneManager.SC228A8D4D8D3DAB4
+function CA412F80CB1F1E083.SC228A8D4D8D3DAB4()
   local L0_2, L1_2
   L0_2 = CA412F80CB1F1E083
   L0_2 = L0_2.SCD5C2AA9C9DFD103
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "S17E19B29567167EE"
-
-function L70_1(A0_2)
+--- main.field.FieldSceneManager.FindFieldScene
+function CA412F80CB1F1E083.S17E19B29567167EE(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -78,11 +63,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "SBC35F8E6BF6C9320"
-
-function L70_1(A0_2)
+--- main.field.FieldSceneManager.SBC35F8E6BF6C9320
+function CA412F80CB1F1E083.SBC35F8E6BF6C9320(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = CF8100B8CD9025FBB
   L1_2 = L1_2.new
@@ -120,11 +102,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "SC4CD82B21613E893"
-
-function L70_1(A0_2, A1_2)
+--- main.field.FieldSceneManager.LoadSubField
+function CA412F80CB1F1E083.SC4CD82B21613E893(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = CF8100B8CD9025FBB
   L2_2 = L2_2.new
@@ -186,11 +165,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "S014CB34FD0594F27"
-
-function L70_1(A0_2)
+--- main.field.FieldSceneManager.S014CB34FD0594F27
+function CA412F80CB1F1E083.S014CB34FD0594F27(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA412F80CB1F1E083
   L1_2 = L1_2.SC9561F947B977499
@@ -200,11 +176,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "S86469321094586FE"
-
-function L70_1(A0_2)
+--- main.field.FieldSceneManager.FindTargetSrt
+function CA412F80CB1F1E083.S86469321094586FE(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = cEE286767
   L1_2 = L1_2.f82F0B42A
@@ -214,11 +187,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "SBBB00820E43186BF"
-
-function L70_1()
+--- main.field.FieldSceneManager.LoadWorldResident
+function CA412F80CB1F1E083.SBBB00820E43186BF()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CA412F80CB1F1E083
   L0_2 = L0_2.SC9561F947B977499
@@ -244,11 +214,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "S9B5F2E705F2BDC4F"
-
-function L70_1(A0_2)
+--- main.field.FieldSceneManager.LoadEventMasterScene
+function CA412F80CB1F1E083.S9B5F2E705F2BDC4F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -277,11 +244,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "S151A46DB973492A2"
-
-function L70_1()
+--- main.field.FieldSceneManager.IsEventMasterSceneLoaded
+function CA412F80CB1F1E083.S151A46DB973492A2()
   local L0_2, L1_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.S474A279FC41C6D90
@@ -304,11 +268,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "S755501BFAD4E5EAA"
-
-function L70_1()
+--- main.field.FieldSceneManager.TerminateEventMasterScene
+function CA412F80CB1F1E083.S755501BFAD4E5EAA()
   local L0_2, L1_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.S474A279FC41C6D90
@@ -319,11 +280,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "SA7E479BE1A61ED7E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.FieldSceneManager.OnDiscardField
+function CA412F80CB1F1E083.SA7E479BE1A61ED7E(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A2_2 then
     A2_2 = true
@@ -508,11 +466,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "S3AC900C595C9D6DA"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.FieldSceneManager.OnDiscardStreamingEvent
+function CA412F80CB1F1E083.S3AC900C595C9D6DA(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   if nil == A2_2 then
     A2_2 = true
@@ -807,11 +762,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA412F80CB1F1E083"]
-L69_1 = "S6F4863F04B0576F2"
-
-function L70_1(A0_2)
+--- main.field.FieldSceneManager.onMapChange
+function CA412F80CB1F1E083.S6F4863F04B0576F2(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = CA412F80CB1F1E083
   L1_2.S4D066B032E12E975 = A0_2

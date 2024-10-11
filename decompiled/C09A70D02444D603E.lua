@@ -1,3 +1,7 @@
+---@alias C09A70D02444D603E main_ui_schoolmap_SchoolMapUI
+
+---@class main_ui_schoolmap_SchoolMapUI : C09A70D02444D603E_prototype
+---@field prototype C09A70D02444D603E_prototype
 L55_1 = _ENV
 L56_1 = "C09A70D02444D603E"
 L57_1 = L15_1
@@ -205,54 +209,43 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C09A70D02444D603E"]
 L69_1 = "__name__"
 L70_1 = "C09A70D02444D603E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C09A70D02444D603E_prototype
+C09A70D02444D603E_prototype = L15_1()
+C09A70D02444D603E.prototype = C09A70D02444D603E_prototype
+--- main.ui.schoolmap.SchoolMapUI.Setup
+function C09A70D02444D603E_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.schoolmap.SchoolMapUI.PreUpdate
+function C09A70D02444D603E_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if not L2_2 then
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F883971DC74D7D808
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FD4AB797B5A987437
+  L3_2 = self
+  L2_2 = self.FD4AB797B5A987437
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapUI.Destroy
+function C09A70D02444D603E_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S5E67FD00348A0A28
@@ -262,37 +255,31 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "FF1C9BF636E0F4F06"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapUI.IsSetup
+function C09A70D02444D603E_prototype:FF1C9BF636E0F4F06()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.schoolmap.SchoolMapUI.Init
+function C09A70D02444D603E_prototype:F90BBC6B0190BF053(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FDDFD4BA06E5C2BB0
+  L3_2 = self
+  L2_2 = self.FDDFD4BA06E5C2BB0
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F87F3593AA5CC175F
+  L3_2 = self
+  L2_2 = self.F87F3593AA5CC175F
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FE3AEE261D106FBD6
+  L3_2 = self
+  L2_2 = self.FE3AEE261D106FBD6
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FB0926188CB5B6FF1
+  L3_2 = self
+  L2_2 = self.FB0926188CB5B6FF1
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FFAB63A01BCFCC594
+  L3_2 = self
+  L2_2 = self.FFAB63A01BCFCC594
   L2_2(L3_2)
   L2_2 = CF1BC0419D30C42CE
   L2_2 = L2_2.SC7567AA81B856AE3
@@ -300,117 +287,102 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
   L2_2 = C04C2A679B8598CA6
   L2_2 = L2_2.SD071DF9D0379766A
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = 5
   L5_2 = false
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2[20] = L2_2
-  A0_2[4] = true
+  self[20] = L2_2
+  self[4] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F240554B9A0DBC5D3"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapUI.IsEndFadeIn
+function C09A70D02444D603E_prototype:F240554B9A0DBC5D3()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cECF00344
   L2_2 = L2_2.f9758FA9B
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.fF8C77C75
   L4_2 = "in"
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F218E2A14A790D265"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapUI.FadeOut
+function C09A70D02444D603E_prototype:F218E2A14A790D265()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cECF00344
   L2_2 = L2_2.f9758FA9B
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.FB3189E9A352B2D04
   L4_2 = false
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.fB4E9D030
   L4_2 = "out"
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "FFF18466C4B474DE0"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapUI.IsEndFadeOut
+function C09A70D02444D603E_prototype:FFF18466C4B474DE0()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cECF00344
   L2_2 = L2_2.f9758FA9B
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.fF8C77C75
   L4_2 = "out"
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F9AF194ADBE1B6374"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapUI.RestartSelect
+function C09A70D02444D603E_prototype:F9AF194ADBE1B6374()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.FB3189E9A352B2D04
   L3_2 = true
   L1_2(L2_2, L3_2)
-  A0_2[6] = 28
+  self[6] = 28
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "FDDFD4BA06E5C2BB0"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapUI.SetupLayout
+function C09A70D02444D603E_prototype:FDDFD4BA06E5C2BB0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = cECF00344
   L1_2 = L1_2.fEECE6995
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
-  A0_2[2] = L1_2
+  self[2] = L1_2
   L1_2 = C0DE12FA3B2F4F07C
   L1_2 = L1_2.new
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
-  A0_2[3] = L1_2
+  self[3] = L1_2
   
   function L1_2()
     local L0_3, L1_3
@@ -419,17 +391,17 @@ function L70_1(A0_2)
     L1_3 = L1_3.f4F92E4A5
     L1_3 = L1_3()
     if 0 == L1_3 then
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[18]
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[19]
     end
     return L0_3
   end
   
   L1_2 = L1_2()
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.fEAD9FB7D
   L4_2 = "pattern_version"
@@ -462,30 +434,30 @@ function L70_1(A0_2)
     L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
     L5_2 = c8C3BF576
     L5_2 = L5_2.f316077B2
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = "T_crt_loc_name_00"
     L8_2 = L4_2
     L5_2(L6_2, L7_2, L8_2)
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.f7A48F855
     L7_2 = 4
     L5_2(L6_2, L7_2)
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.f1B274C53
     L7_2 = 1
     L8_2 = "P_icon_chara_img_00"
     L9_2 = 0
     L5_2(L6_2, L7_2, L8_2, L9_2)
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.f1B274C53
     L7_2 = 2
     L8_2 = "P_icon_chara_img_01"
     L9_2 = 0
     L5_2(L6_2, L7_2, L8_2, L9_2)
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.f1B274C53
     L7_2 = 3
@@ -494,27 +466,24 @@ function L70_1(A0_2)
     L5_2(L6_2, L7_2, L8_2, L9_2)
     L5_2 = C5071F1FDB6B8E707
     L5_2 = L5_2.S22AE94E972CE1AAF
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = "P_icon_me_loc_00"
     L5_2(L6_2, L7_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F2D843B5FA171F1BB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.schoolmap.SchoolMapUI.DecideEvent
+function C09A70D02444D603E_prototype:F2D843B5FA171F1BB(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F9DB146BCDA8C39BD
-  L6_2 = A0_2[7]
+  L5_2 = self
+  L4_2 = self.F9DB146BCDA8C39BD
+  L6_2 = self[7]
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L4_2 = A0_2[7]
-    A0_2[6] = L4_2
+    L4_2 = self[7]
+    self[6] = L4_2
   else
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.FB3189E9A352B2D04
     L6_2 = true
@@ -522,26 +491,23 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F47F07D625F4909F2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.schoolmap.SchoolMapUI.CursorMoveEvent
+function C09A70D02444D603E_prototype:F47F07D625F4909F2(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L4_2 = A0_2[8]
+  L4_2 = self[8]
   L4_2 = L4_2[A1_2]
-  A0_2[7] = L4_2
-  A0_2[12] = A3_2
-  L4_2 = A0_2[5]
+  self[7] = L4_2
+  self[12] = A3_2
+  L4_2 = self[5]
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F005F218B8C144BE5
-    L6_2 = A0_2[7]
+    L5_2 = self
+    L4_2 = self.F005F218B8C144BE5
+    L6_2 = self[7]
     L4_2(L5_2, L6_2)
   end
   L4_2 = CD1243CF9D7FD96CC
   L4_2 = L4_2.S5B61A6CA232CFD53
-  L5_2 = A0_2[7]
+  L5_2 = self[7]
   L4_2 = L4_2(L5_2)
   L4_2 = L4_2.descLabelName
   L5_2 = C828F047963375FA0
@@ -562,21 +528,21 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
   L6_2 = c8C3BF576
   L6_2 = L6_2.f316077B2
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = "T_loc_desc_00"
   L9_2 = L5_2
   L6_2(L7_2, L8_2, L9_2)
   L6_2 = CD1243CF9D7FD96CC
   L6_2 = L6_2.S547AF1A994FA7089
-  L7_2 = A0_2[7]
+  L7_2 = self[7]
   L6_2 = L6_2(L7_2)
   if L6_2 then
     L6_2 = CD1243CF9D7FD96CC
     L6_2 = L6_2.S550C650F0A01AD3D
-    L7_2 = A0_2[7]
+    L7_2 = self[7]
     L8_2 = false
     L6_2(L7_2, L8_2)
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L7_2 = L6_2
     L6_2 = L6_2.f7798D9F4
     L8_2 = L31_1.string
@@ -584,7 +550,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L10_2 = ""
     L9_2 = L9_2(L10_2)
     L10_2 = L31_1.string
-    L11_2 = A0_2[12]
+    L11_2 = self[12]
     L10_2 = L10_2(L11_2)
     L9_2 = L9_2 .. L10_2
     L8_2 = L8_2(L9_2)
@@ -595,21 +561,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L9_2 = false
     L6_2(L7_2, L8_2, L9_2)
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.FF5DA94A0AEB43EAA
+  L7_2 = self
+  L6_2 = self.FF5DA94A0AEB43EAA
   L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "FFBF23C8DE8293903"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.schoolmap.SchoolMapUI.FrameInEvent
+function C09A70D02444D603E_prototype:FFBF23C8DE8293903(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L4_2 = CD1243CF9D7FD96CC
   L4_2 = L4_2.SED0AB4DC6EC260E0
   L4_2 = L4_2()
-  L5_2 = A0_2[8]
+  L5_2 = self[8]
   L5_2 = L5_2[A1_2]
   L6_2 = CD1243CF9D7FD96CC
   L6_2 = L6_2.S5B61A6CA232CFD53
@@ -634,7 +597,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
   L8_2 = c8C3BF576
   L8_2 = L8_2.f316077B2
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = L31_1.string
   L11_2 = L31_1.string
   L12_2 = ""
@@ -650,7 +613,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L10_2 = L10_2 .. L11_2
   L11_2 = L7_2
   L8_2(L9_2, L10_2, L11_2)
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L9_2 = L8_2
   L8_2 = L8_2.f7798D9F4
   L10_2 = L31_1.string
@@ -671,7 +634,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L12_2 = L5_2
   L11_2, L12_2, L13_2, L14_2 = L11_2(L12_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L9_2 = L8_2
   L8_2 = L8_2.f7798D9F4
   L10_2 = L31_1.string
@@ -692,9 +655,9 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L12_2 = L5_2
   L11_2, L12_2, L13_2, L14_2 = L11_2(L12_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-  L8_2 = A0_2[7]
+  L8_2 = self[7]
   if L8_2 ~= L5_2 then
-    L8_2 = A0_2[2]
+    L8_2 = self[2]
     L9_2 = L8_2
     L8_2 = L8_2.fB4E9D030
     L10_2 = L31_1.string
@@ -712,7 +675,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L10_2 = L10_2 .. L11_2
     L8_2(L9_2, L10_2)
   end
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L9_2 = L8_2
   L8_2 = L8_2.fB4E9D030
   L10_2 = L31_1.string
@@ -751,18 +714,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L8_2(L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F87F3593AA5CC175F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.schoolmap.SchoolMapUI.SetupScrollPanel
+function C09A70D02444D603E_prototype:F87F3593AA5CC175F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = cECD2E4A5
   L2_2 = L2_2.fBCD0707E
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "ScrollPanel_00"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[10] = L2_2
+  self[10] = L2_2
   L2_2 = 0
   while L2_2 < 27 do
     L2_2 = L2_2 + 1
@@ -772,57 +732,57 @@ function L70_1(A0_2, A1_2)
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       L5_2 = L4_2
       L4_2 = L4_2.push
       L6_2 = L3_2
       L4_2(L5_2, L6_2)
     end
   end
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.f8139EB06
-  L5_2 = A0_2[8]
+  L5_2 = self[8]
   L5_2 = L5_2.length
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.f1D8A575B
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.F2D843B5FA171F1BB
+  L6_2 = self
+  L7_2 = self.F2D843B5FA171F1BB
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.f4F8C7B75
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.F47F07D625F4909F2
+  L6_2 = self
+  L7_2 = self.F47F07D625F4909F2
   L5_2 = L5_2(L6_2, L7_2)
   L6_2 = false
   L7_2 = false
   L3_2(L4_2, L5_2, L6_2, L7_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.fEDF77BF9
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.FFBF23C8DE8293903
+  L6_2 = self
+  L7_2 = self.FFBF23C8DE8293903
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.f05D9B2C0
   L5_2 = false
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.fB46AEBA1
   L5_2 = 0
   L6_2 = false
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.f223F0381
   L5_2 = CCA4E2E16F360EA78
@@ -830,7 +790,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = CCA4E2E16F360EA78
   L6_2 = L6_2.SA1B220166618D8AF
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.fC5760380
   L5_2 = 1
@@ -838,76 +798,64 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "FE3AEE261D106FBD6"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapUI.SetupMapLayout
+function C09A70D02444D603E_prototype:FE3AEE261D106FBD6()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f7798D9F4
   L3_2 = "L_smap_arrow_00"
   L4_2 = false
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.fB4E9D030
   L3_2 = "L_smap_arrow_00/keep"
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F48D951BAD8187944"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapUI.SetupCursor
+function C09A70D02444D603E_prototype:F48D951BAD8187944()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F005F218B8C144BE5
-  L3_2 = A0_2[7]
+  L2_2 = self
+  L1_2 = self.F005F218B8C144BE5
+  L3_2 = self[7]
   L1_2(L2_2, L3_2)
-  A0_2[5] = true
+  self[5] = true
   L1_2 = cECD2E4A5
   L1_2 = L1_2.fD4E920D9
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = "Cursor_00"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[11] = L1_2
-  L1_2 = A0_2[9]
+  self[11] = L1_2
+  L1_2 = self[9]
   L2_2 = E2B2BFF6A9A5AA267
   L2_2 = L2_2.Tutorial
   if L1_2 == L2_2 then
-    L1_2 = A0_2[11]
+    L1_2 = self[11]
     L2_2 = L1_2
     L1_2 = L1_2.f6F06128C
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "FB0926188CB5B6FF1"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapUI.SetupNPC
+function C09A70D02444D603E_prototype:FB0926188CB5B6FF1()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FF5DA94A0AEB43EAA
+  L2_2 = self
+  L1_2 = self.FF5DA94A0AEB43EAA
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "FF5DA94A0AEB43EAA"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapUI.UpdateNPCIcon
+function C09A70D02444D603E_prototype:FF5DA94A0AEB43EAA()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L1_2 = CD1243CF9D7FD96CC
   L1_2 = L1_2.S5657365C301D7B1F
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L1_2 = L1_2(L2_2)
   if nil == L1_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.fEAD9FB7D
     L4_2 = "pattern_meet_ppl"
@@ -926,7 +874,7 @@ function L70_1(A0_2)
       L7_2 = L1_2[L6_2]
       L8_2 = L7_2.isDisp
       if L8_2 then
-        L8_2 = A0_2[14]
+        L8_2 = self[14]
         L8_2 = L8_2.h
         L9_2 = L7_2.npcID
         L8_2 = L8_2[L9_2]
@@ -971,7 +919,7 @@ function L70_1(A0_2)
           L14_2 = L14_2 .. L15_2
           L10_2 = L14_2
         end
-        L12_2 = A0_2[2]
+        L12_2 = self[2]
         L13_2 = L12_2
         L12_2 = L12_2.fC6FA21BA
         L14_2 = 1 + L6_2
@@ -1010,7 +958,7 @@ function L70_1(A0_2)
       break
     end
   end
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L7_2 = L6_2
   L6_2 = L6_2.fEAD9FB7D
   L8_2 = "pattern_meet_ppl"
@@ -1018,15 +966,12 @@ function L70_1(A0_2)
   L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "FFAB63A01BCFCC594"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapUI.StopPlayInSE
+function C09A70D02444D603E_prototype:FFAB63A01BCFCC594()
   local L1_2, L2_2, L3_2
   L1_2 = cECD2E4A5
   L1_2 = L1_2.f2C9293F5
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = "Body_00"
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = L1_2
@@ -1037,41 +982,35 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F578DA4A2FD64D8FA"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapUI.GetSelectMapID
+function C09A70D02444D603E_prototype:F578DA4A2FD64D8FA()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F005F218B8C144BE5"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.schoolmap.SchoolMapUI.SetMapCursorPos
+function C09A70D02444D603E_prototype:F005F218B8C144BE5(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if A1_2 >= 27 then
     return
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f3271DED8
-  L4_2 = A0_2[13]
+  L4_2 = self[13]
   L4_2 = L4_2[A1_2]
   L2_2, L3_2, L4_2 = L2_2(L3_2, L4_2)
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.f0067ACC1
   L7_2 = "N_meet_ppl_00"
   L8_2 = L2_2
-  L9_2 = A0_2[15]
+  L9_2 = self[15]
   L9_2 = L3_2 + L9_2
   L10_2 = L4_2
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.f7798D9F4
   L7_2 = "L_smap_arrow_00"
@@ -1079,47 +1018,44 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F13435483188D9D0D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.schoolmap.SchoolMapUI.SetListCursorPos
+function C09A70D02444D603E_prototype:F13435483188D9D0D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if A1_2 >= 27 then
     return
   end
   L2_2 = 0
   L3_2 = 0
-  L4_2 = A0_2[8]
+  L4_2 = self[8]
   L4_2 = L4_2.length
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L5_2 = L3_2 - 1
-    L6_2 = A0_2[8]
+    L6_2 = self[8]
     L6_2 = L6_2[L5_2]
     if A1_2 == L6_2 then
       L2_2 = L5_2
       break
     end
   end
-  L5_2 = A0_2[10]
+  L5_2 = self[10]
   L6_2 = L5_2
   L5_2 = L5_2.fB46AEBA1
   L7_2 = L2_2
   L8_2 = false
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[9]
+  L5_2 = self[9]
   L6_2 = E2B2BFF6A9A5AA267
   L6_2 = L6_2.Tutorial
   if L5_2 == L6_2 then
-    L5_2 = A0_2[11]
+    L5_2 = self[11]
     L6_2 = L5_2
     L5_2 = L5_2.f6F06128C
     L5_2(L6_2)
     L5_2 = CC6FE82819C6E1D55
     L5_2 = L5_2.S12F63EE47FFCB183
     L5_2()
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.fB4E9D030
     L7_2 = L31_1.string
@@ -1127,7 +1063,7 @@ function L70_1(A0_2, A1_2)
     L9_2 = ""
     L8_2 = L8_2(L9_2)
     L9_2 = L31_1.string
-    L10_2 = A0_2[12]
+    L10_2 = self[12]
     L9_2 = L9_2(L10_2)
     L8_2 = L8_2 .. L9_2
     L7_2 = L7_2(L8_2)
@@ -1139,59 +1075,50 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "FD4AB797B5A987437"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapUI.CheckButton
+function C09A70D02444D603E_prototype:FD4AB797B5A987437()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L2_2 = E2B2BFF6A9A5AA267
   L2_2 = L2_2.Tutorial
   if L1_2 == L2_2 then
     return
   end
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if L1_2 then
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     if L1_2 then
       goto lbl_14
     end
   end
   do return end
   ::lbl_14::
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   if 28 ~= L1_2 then
     return
   end
-  L1_2 = A0_2[20]
+  L1_2 = self[20]
   L2_2 = L1_2
   L1_2 = L1_2.fDEEB3A8E
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.FB3189E9A352B2D04
     L3_2 = false
     L1_2(L2_2, L3_2)
-    A0_2[6] = 29
+    self[6] = 29
     return
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F17A9FA2A5F3F280C"
-
-function L70_1(A0_2, A1_2)
-  A0_2[9] = A1_2
+--- main.ui.schoolmap.SchoolMapUI.SetMode
+function C09A70D02444D603E_prototype:F17A9FA2A5F3F280C(A1_2)
+  self[9] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09A70D02444D603E"]["prototype"]
-L69_1 = "F9DB146BCDA8C39BD"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.schoolmap.SchoolMapUI.IsCanSelect
+function C09A70D02444D603E_prototype:F9DB146BCDA8C39BD(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CD1243CF9D7FD96CC
   L2_2 = L2_2.SE1D6D6D6D3B134F5

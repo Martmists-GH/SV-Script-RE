@@ -1,3 +1,7 @@
+---@alias CA171C63E2623C966 main_event_general_system_TrainerBattle
+
+---@class main_event_general_system_TrainerBattle : CA171C63E2623C966_prototype
+---@field prototype CA171C63E2623C966_prototype
 L55_1 = _ENV
 L56_1 = "CA171C63E2623C966"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA171C63E2623C966"]
 L69_1 = "__name__"
 L70_1 = "CA171C63E2623C966"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA171C63E2623C966"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA171C63E2623C966"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CA171C63E2623C966_prototype
+CA171C63E2623C966_prototype = L15_1()
+CA171C63E2623C966.prototype = CA171C63E2623C966_prototype
+--- main.event.general.system.TrainerBattle.mainBody
+function CA171C63E2623C966_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D

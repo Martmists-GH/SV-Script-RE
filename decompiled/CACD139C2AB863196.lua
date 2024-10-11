@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "CACD139C2AB863196"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CACD139C2AB863196"]
-L69_1 = "new"
-
-function L70_1()
+---@class CACD139C2AB863196 : CACD139C2AB863196_prototype
+---@field prototype CACD139C2AB863196_prototype
+CACD139C2AB863196 = L15_1()
+function CACD139C2AB863196.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = CACD139C2AB863196
@@ -21,20 +16,13 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CACD139C2AB863196"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 CACD139C2AB863196
+function CACD139C2AB863196.super(A0_2)
   local L1_2
   A0_2[1] = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CACD139C2AB863196"]
-L69_1 = "__name__"
-L70_1 = "CACD139C2AB863196"
-L68_1[L69_1] = L70_1
+CACD139C2AB863196.__name__ = "CACD139C2AB863196"
 L68_1 = _ENV["CACD139C2AB863196"]
 L69_1 = "S385504EFF7E842C3"
 
@@ -54,21 +42,16 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CACD139C2AB863196"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CACD139C2AB863196"]["prototype"]
-L69_1 = "FC801BF4564C7B4CB"
-
-function L70_1(A0_2, A1_2)
+---@class CACD139C2AB863196_prototype
+CACD139C2AB863196_prototype = L15_1()
+CACD139C2AB863196.prototype = CACD139C2AB863196_prototype
+--- CACD139C2AB863196.FC801BF4564C7B4CB
+function CACD139C2AB863196_prototype:FC801BF4564C7B4CB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
-  A0_2[1] = L2_2
-  L2_2 = A0_2[1]
+  self[1] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.resize
   L4_2 = 0
@@ -81,7 +64,7 @@ function L70_1(A0_2, A1_2)
     end
     L3_2 = A1_2[L2_2]
     L2_2 = L2_2 + 1
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.push
     L6_2 = L3_2
@@ -89,25 +72,19 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CACD139C2AB863196"]["prototype"]
-L69_1 = "FAF6004869809BCD1"
-
-function L70_1(A0_2)
+--- CACD139C2AB863196.FAF6004869809BCD1
+function CACD139C2AB863196_prototype:FAF6004869809BCD1()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CACD139C2AB863196"]["prototype"]
-L69_1 = "F646B65AE8CA63480"
-
-function L70_1(A0_2)
+--- CACD139C2AB863196.F646B65AE8CA63480
+function CACD139C2AB863196_prototype:F646B65AE8CA63480()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   if nil ~= L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.resize
     L3_2 = 0

@@ -1,3 +1,7 @@
+---@alias C87A67F9F34313469 main_ui_btlspot_BattleSpotUISceneLoader
+
+---@class main_ui_btlspot_BattleSpotUISceneLoader : C87A67F9F34313469_prototype
+---@field prototype C87A67F9F34313469_prototype
 L55_1 = _ENV
 L56_1 = "C87A67F9F34313469"
 L57_1 = L15_1
@@ -91,21 +95,16 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C87A67F9F34313469"]
 L69_1 = "__name__"
 L70_1 = "C87A67F9F34313469"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87A67F9F34313469"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87A67F9F34313469"]["prototype"]
-L69_1 = "F12F6E192BEC1E791"
-
-function L70_1(A0_2, A1_2)
+---@class C87A67F9F34313469_prototype
+C87A67F9F34313469_prototype = L15_1()
+C87A67F9F34313469.prototype = C87A67F9F34313469_prototype
+--- main.ui.btlspot.BattleSpotUISceneLoader.GetSceneObjName
+function C87A67F9F34313469_prototype:F12F6E192BEC1E791(A1_2)
   local L2_2
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   L2_2 = L2_2.length
   if A1_2 < L2_2 then
-    L2_2 = A0_2[9]
+    L2_2 = self[9]
     L2_2 = L2_2[A1_2]
     return L2_2
   end
@@ -113,17 +112,14 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87A67F9F34313469"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.BattleSpotUISceneLoader.Update
+function C87A67F9F34313469_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = E48486A097C7F111B
   L2_2 = L2_2.Init
   if L1_2 ~= L2_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = E48486A097C7F111B
     L2_2 = L2_2.LoadEnd
     if L1_2 ~= L2_2 then
@@ -132,7 +128,7 @@ function L70_1(A0_2)
   end
   do return end
   ::lbl_12::
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L1_2 = L1_2[1]
   if 0 == L1_2 then
   elseif 1 == L1_2 then
@@ -140,24 +136,24 @@ function L70_1(A0_2)
     L2_2 = L2_2.fEF94D11D
     L3_2 = "btlspot"
     L2_2 = L2_2(L3_2)
-    A0_2[2] = L2_2
+    self[2] = L2_2
     L2_2 = nil
     L3_2 = cA042DA13
     L3_2 = L3_2.fB1E655AE
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
       L3_2 = E48486A097C7F111B
       L3_2 = L3_2.Init
-      A0_2[1] = L3_2
+      self[1] = L3_2
       return
     end
     L3_2 = E48486A097C7F111B
     L3_2 = L3_2.WaitSceneSetup
-    A0_2[1] = L3_2
+    self[1] = L3_2
   elseif 2 == L1_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f9D8BC178
     L2_2 = L2_2(L3_2)
@@ -166,32 +162,32 @@ function L70_1(A0_2)
     end
     L2_2 = E48486A097C7F111B
     L2_2 = L2_2.LoadParentSceneObject
-    A0_2[1] = L2_2
+    self[1] = L2_2
   elseif 3 == L1_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.fD4E64AB7
     L4_2 = "btlspot_ui"
     L2_2 = L2_2(L3_2, L4_2)
-    A0_2[3] = L2_2
-    L2_2 = A0_2[2]
+    self[3] = L2_2
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.fD4E64AB7
     L4_2 = "btlspot_ui_header"
     L2_2 = L2_2(L3_2, L4_2)
-    A0_2[4] = L2_2
+    self[4] = L2_2
     L2_2 = nil
     L3_2 = nil
     L4_2 = c016374C1
     L4_2 = L4_2.f4555D276
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if not L4_2 then
       L4_2 = nil
       L5_2 = c016374C1
       L5_2 = L5_2.f4555D276
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L7_2 = L4_2
       L5_2 = L5_2(L6_2, L7_2)
       L2_2 = L5_2
@@ -203,14 +199,14 @@ function L70_1(A0_2)
     end
     L4_2 = E48486A097C7F111B
     L4_2 = L4_2.LoadObject
-    A0_2[1] = L4_2
+    self[1] = L4_2
   elseif 4 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F4AA46FB5DBA9C989
+    L3_2 = self
+    L2_2 = self.F4AA46FB5DBA9C989
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F940D89D51261C484
+      L3_2 = self
+      L2_2 = self.F940D89D51261C484
       L2_2 = L2_2(L3_2)
       if L2_2 then
         goto lbl_99
@@ -220,14 +216,14 @@ function L70_1(A0_2)
     ::lbl_99::
     L2_2 = E48486A097C7F111B
     L2_2 = L2_2.WaitSetup
-    A0_2[1] = L2_2
+    self[1] = L2_2
   elseif 5 == L1_2 then
     L2_2 = 0
-    L3_2 = A0_2[8]
+    L3_2 = self[8]
     L3_2 = L3_2.length
     while L2_2 < L3_2 do
       L2_2 = L2_2 + 1
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       L5_2 = L2_2 - 1
       L4_2 = L4_2[L5_2]
       L5_2 = L4_2
@@ -237,7 +233,7 @@ function L70_1(A0_2)
         return
       end
     end
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L5_2 = L4_2
     L4_2 = L4_2.FF1C9BF636E0F4F06
     L4_2 = L4_2(L5_2)
@@ -246,34 +242,31 @@ function L70_1(A0_2)
     end
     L4_2 = E48486A097C7F111B
     L4_2 = L4_2.LoadEnd
-    A0_2[1] = L4_2
+    self[1] = L4_2
   elseif 6 == L1_2 then
   elseif 7 == L1_2 then
-    A0_2[3] = nil
-    A0_2[4] = nil
-    A0_2[5] = nil
-    A0_2[6] = nil
+    self[3] = nil
+    self[4] = nil
+    self[5] = nil
+    self[6] = nil
     L2_2 = L26_1.new
     L2_2 = L2_2()
-    A0_2[7] = L2_2
+    self[7] = L2_2
     L2_2 = L26_1.new
     L2_2 = L2_2()
-    A0_2[8] = L2_2
+    self[8] = L2_2
     L2_2 = E48486A097C7F111B
     L2_2 = L2_2.Init
-    A0_2[1] = L2_2
+    self[1] = L2_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87A67F9F34313469"]["prototype"]
-L69_1 = "F4AA46FB5DBA9C989"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.BattleSpotUISceneLoader.LoadStateComponent
+function C87A67F9F34313469_prototype:F4AA46FB5DBA9C989()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   if nil == L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.fB3CF1DEB
     L1_2 = L1_2(L2_2)
@@ -285,11 +278,11 @@ function L70_1(A0_2)
     if L2_2 == L3_2 then
       L2_2 = nil
     end
-    A0_2[5] = L2_2
+    self[5] = L2_2
   end
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   if nil == L1_2 then
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     L2_2 = L1_2
     L1_2 = L1_2.fB3CF1DEB
     L1_2 = L1_2(L2_2)
@@ -301,23 +294,20 @@ function L70_1(A0_2)
     if L2_2 == L3_2 then
       L2_2 = nil
     end
-    A0_2[6] = L2_2
+    self[6] = L2_2
   end
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = nil ~= L1_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87A67F9F34313469"]["prototype"]
-L69_1 = "F940D89D51261C484"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.BattleSpotUISceneLoader.LoadUIObject
+function C87A67F9F34313469_prototype:F940D89D51261C484()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = true
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L2_2 = L2_2.length
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L3_2 = L3_2.length
   while true do
     if not (L2_2 < L3_2) then
@@ -325,9 +315,9 @@ function L70_1(A0_2)
     end
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[7]
+    L5_2 = self[7]
     L5_2 = L5_2.length
-    L6_2 = A0_2[8]
+    L6_2 = self[8]
     L6_2 = L6_2.length
     if L5_2 == L6_2 then
       function L5_2()
@@ -336,10 +326,10 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = L4_2
         if 0 == L1_3 then
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[4]
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[3]
         end
         return L0_3
@@ -348,7 +338,7 @@ function L70_1(A0_2)
       L5_2 = L5_2()
       L6_2 = L5_2
       L5_2 = L5_2.f5439788F
-      L7_2 = A0_2[9]
+      L7_2 = self[9]
       L7_2 = L7_2[L4_2]
       L5_2 = L5_2(L6_2, L7_2)
       L6_2 = nil
@@ -358,7 +348,7 @@ function L70_1(A0_2)
       L9_2 = L6_2
       L7_2 = L7_2(L8_2, L9_2)
       if L7_2 then
-        L7_2 = A0_2[7]
+        L7_2 = self[7]
         L8_2 = L7_2
         L7_2 = L7_2.push
         L9_2 = L5_2
@@ -368,7 +358,7 @@ function L70_1(A0_2)
         break
       end
     end
-    L5_2 = A0_2[7]
+    L5_2 = self[7]
     L5_2 = L5_2[L4_2]
     L6_2 = L5_2
     L5_2 = L5_2.fB3CF1DEB
@@ -385,9 +375,9 @@ function L70_1(A0_2)
     if nil ~= L7_2 then
       L9_2 = L7_2
       L8_2 = L7_2.FB038BC9C646EA9A0
-      L10_2 = A0_2[10]
+      L10_2 = self[10]
       L8_2(L9_2, L10_2)
-      L8_2 = A0_2[8]
+      L8_2 = self[8]
       L9_2 = L8_2
       L8_2 = L8_2.push
       L10_2 = L7_2
@@ -401,88 +391,67 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87A67F9F34313469"]["prototype"]
-L69_1 = "FE38A1F010EEF9597"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.BattleSpotUISceneLoader.StartLoad
+function C87A67F9F34313469_prototype:FE38A1F010EEF9597()
   local L1_2
   L1_2 = E48486A097C7F111B
   L1_2 = L1_2.LoadScene
-  A0_2[1] = L1_2
+  self[1] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87A67F9F34313469"]["prototype"]
-L69_1 = "FCA867698998FA410"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.BattleSpotUISceneLoader.IsLoaded
+function C87A67F9F34313469_prototype:FCA867698998FA410()
   local L1_2, L2_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = E48486A097C7F111B
   L2_2 = L2_2.LoadEnd
   L1_2 = L1_2 == L2_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87A67F9F34313469"]["prototype"]
-L69_1 = "F6D1EF40E74B6E9A4"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.BattleSpotUISceneLoader.Terminate
+function C87A67F9F34313469_prototype:F6D1EF40E74B6E9A4()
   local L1_2
   L1_2 = E48486A097C7F111B
   L1_2 = L1_2.TerminateScene
-  A0_2[1] = L1_2
+  self[1] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87A67F9F34313469"]["prototype"]
-L69_1 = "F5D82AA314D110D70"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.BattleSpotUISceneLoader.IsTerminated
+function C87A67F9F34313469_prototype:F5D82AA314D110D70()
   local L1_2, L2_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = E48486A097C7F111B
   L2_2 = L2_2.Init
   L1_2 = L1_2 == L2_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87A67F9F34313469"]["prototype"]
-L69_1 = "F2FBB004A3763CEBD"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.BattleSpotUISceneLoader.GetUI
+function C87A67F9F34313469_prototype:F2FBB004A3763CEBD(A1_2)
   local L2_2
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L2_2 = L2_2.length
   if A1_2 >= L2_2 then
     L2_2 = nil
     return L2_2
   end
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L2_2 = L2_2[A1_2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87A67F9F34313469"]["prototype"]
-L69_1 = "F897AB46DBF80890F"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.BattleSpotUISceneLoader.GetStateObject
+function C87A67F9F34313469_prototype:F897AB46DBF80890F()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87A67F9F34313469"]["prototype"]
-L69_1 = "FF5EC3E70917702F8"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.BattleSpotUISceneLoader.GetHeaderStateObject
+function C87A67F9F34313469_prototype:FF5EC3E70917702F8()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   return L1_2
 end
 

@@ -1,3 +1,5 @@
+---@class C3D6F443DEA6CDF60 : C3D6F443DEA6CDF60_prototype
+---@field prototype C3D6F443DEA6CDF60_prototype
 L55_1 = _ENV
 L56_1 = "C3D6F443DEA6CDF60"
 L57_1 = L15_1
@@ -45,25 +47,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3D6F443DEA6CDF60"]
 L69_1 = "__name__"
 L70_1 = "C3D6F443DEA6CDF60"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D6F443DEA6CDF60"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D6F443DEA6CDF60"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C3D6F443DEA6CDF60_prototype
+C3D6F443DEA6CDF60_prototype = L15_1()
+C3D6F443DEA6CDF60.prototype = C3D6F443DEA6CDF60_prototype
+--- C3D6F443DEA6CDF60.onCreate
+function C3D6F443DEA6CDF60_prototype:FC87C731D11C58354()
   local L1_2, L2_2
   L1_2 = CD97C3616AD9D5C46
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC87C731D11C58354
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  A0_2[35] = "c"
-  A0_2[36] = "trade_c03"
-  A0_2[37] = "FEVT_SUB_044_TRADE_C"
+  self[35] = "c"
+  self[36] = "trade_c03"
+  self[37] = "FEVT_SUB_044_TRADE_C"
 end
 
 L68_1[L69_1] = L70_1

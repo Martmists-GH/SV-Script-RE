@@ -1,3 +1,7 @@
+---@alias C52DD4BA1F6CFF444 main_ui_msg_doctor_effect_MsgDoctorNoiseffect
+
+---@class main_ui_msg_doctor_effect_MsgDoctorNoiseffect : C52DD4BA1F6CFF444_prototype
+---@field prototype C52DD4BA1F6CFF444_prototype
 L55_1 = _ENV
 L56_1 = "C52DD4BA1F6CFF444"
 L57_1 = L15_1
@@ -54,26 +58,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C52DD4BA1F6CFF444"]
 L69_1 = "__name__"
 L70_1 = "C52DD4BA1F6CFF444"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52DD4BA1F6CFF444"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52DD4BA1F6CFF444"]["prototype"]
-L69_1 = "F2B8F4D1A92BBC209"
-
-function L70_1(A0_2, A1_2)
+---@class C52DD4BA1F6CFF444_prototype
+C52DD4BA1F6CFF444_prototype = L15_1()
+C52DD4BA1F6CFF444.prototype = C52DD4BA1F6CFF444_prototype
+--- main.ui.msg_doctor.effect.MsgDoctorNoiseffect.UpdateProcess
+function C52DD4BA1F6CFF444_prototype:F2B8F4D1A92BBC209(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[15]
+  L2_2 = self[15]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[15]
+    L3_2 = self[15]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[15]
+      L2_2 = self[15]
       L3_2 = L62_1
       L4_2 = L64_1.pack
       L5_2 = L10_1.coroutine
@@ -118,15 +117,15 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[16]
+    L3_2 = self[16]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[16]
+      L2_2 = self[16]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -172,7 +171,7 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   L2_2 = L2_2[5]
   if L2_2 then
     L2_2 = C17F73F1CF4C378CC
@@ -181,26 +180,23 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52DD4BA1F6CFF444"]["prototype"]
-L69_1 = "FD3193307ED4084F9"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.msg_doctor.effect.MsgDoctorNoiseffect.MessageSequence
+function C52DD4BA1F6CFF444_prototype:FD3193307ED4084F9(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2.length
   if 0 == L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F55C1C1048729E0BB
-  L4_2 = A0_2[6]
-  L5_2 = A0_2[11]
+  L3_2 = self
+  L2_2 = self.F55C1C1048729E0BB
+  L4_2 = self[6]
+  L5_2 = self[11]
   L4_2 = L4_2[L5_2]
-  L5_2 = A0_2[14]
+  L5_2 = self[14]
   L2_2(L3_2, L4_2, L5_2)
   while true do
-    L2_2 = A0_2[13]
+    L2_2 = self[13]
     L3_2 = L2_2
     L2_2 = L2_2.f901C892F
     L2_2 = L2_2(L3_2)
@@ -212,7 +208,7 @@ function L70_1(A0_2, A1_2)
     L2_2()
   end
   while true do
-    L2_2 = A0_2[13]
+    L2_2 = self[13]
     L3_2 = L2_2
     L2_2 = L2_2.f901C892F
     L2_2 = L2_2(L3_2)
@@ -230,16 +226,16 @@ function L70_1(A0_2, A1_2)
     L2_2 = L2_2.S760DAE4C5371A78E
     L2_2()
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FE9CB00793F9AC858
+  L3_2 = self
+  L2_2 = self.FE9CB00793F9AC858
   L4_2 = A1_2
-  L5_2 = A0_2[8]
+  L5_2 = self[8]
   L2_2(L3_2, L4_2, L5_2)
   while true do
     L2_2 = nil
     L3_2 = cE8D61D7D
     L3_2 = L3_2.fEFB8CD3A
-    L4_2 = A0_2[7]
+    L4_2 = self[7]
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if not L3_2 then
@@ -249,83 +245,80 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.S760DAE4C5371A78E
     L3_2()
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.fA5130C84
   L4_2 = true
   L5_2 = 0
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2.F0691C2770B876CA2
+  L2_2 = self.F0691C2770B876CA2
   if nil ~= L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F0691C2770B876CA2
+    L3_2 = self
+    L2_2 = self.F0691C2770B876CA2
     L2_2(L3_2)
   end
-  A0_2[11] = 1
-  L3_2 = A0_2
-  L2_2 = A0_2.FE9CB00793F9AC858
+  self[11] = 1
+  L3_2 = self
+  L2_2 = self.FE9CB00793F9AC858
   L4_2 = A1_2
-  L5_2 = A0_2[9]
+  L5_2 = self[9]
   L2_2(L3_2, L4_2, L5_2)
   while true do
-    L2_2 = A0_2[11]
-    L3_2 = A0_2[6]
+    L2_2 = self[11]
+    L3_2 = self[6]
     L3_2 = L3_2.length
     if not (L2_2 < L3_2) then
       break
     end
-    L2_2 = A0_2[11]
-    L3_2 = A0_2[6]
+    L2_2 = self[11]
+    L3_2 = self[6]
     L3_2 = L3_2.length
     L3_2 = L3_2 - 1
     if L2_2 == L3_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F55C1C1048729E0BB
-      L4_2 = A0_2[6]
-      L5_2 = A0_2[11]
+      L3_2 = self
+      L2_2 = self.F55C1C1048729E0BB
+      L4_2 = self[6]
+      L5_2 = self[11]
       L4_2 = L4_2[L5_2]
-      L5_2 = A0_2[14]
+      L5_2 = self[14]
       L2_2(L3_2, L4_2, L5_2)
     else
-      L3_2 = A0_2
-      L2_2 = A0_2.F39410A905A3D2EDC
-      L4_2 = A0_2[6]
-      L5_2 = A0_2[11]
+      L3_2 = self
+      L2_2 = self.F39410A905A3D2EDC
+      L4_2 = self[6]
+      L5_2 = self[11]
       L4_2 = L4_2[L5_2]
       L2_2(L3_2, L4_2)
     end
-    L3_2 = A0_2
-    L2_2 = A0_2.FE9CB00793F9AC858
+    L3_2 = self
+    L2_2 = self.FE9CB00793F9AC858
     L4_2 = A1_2
-    L5_2 = A0_2[10]
+    L5_2 = self[10]
     L2_2(L3_2, L4_2, L5_2)
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     L2_2 = L2_2 + 1
-    A0_2[11] = L2_2
+    self[11] = L2_2
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.f61A204B1
   L2_2(L3_2)
-  L2_2 = A0_2.F8BFBBF183549708D
+  L2_2 = self.F8BFBBF183549708D
   if nil ~= L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F8BFBBF183549708D
+    L3_2 = self
+    L2_2 = self.F8BFBBF183549708D
     L2_2(L3_2)
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FE9CB00793F9AC858
+  L3_2 = self
+  L2_2 = self.FE9CB00793F9AC858
   L4_2 = A1_2
-  L5_2 = A0_2[8]
+  L5_2 = self[8]
   L2_2(L3_2, L4_2, L5_2)
-  A0_2[1] = true
+  self[1] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52DD4BA1F6CFF444"]["prototype"]
-L69_1 = "FE9CB00793F9AC858"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.msg_doctor.effect.MsgDoctorNoiseffect.TimeWaitSequence
+function C52DD4BA1F6CFF444_prototype:FE9CB00793F9AC858(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = 0
   while A2_2 > L3_2 do
@@ -343,11 +336,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52DD4BA1F6CFF444"]["prototype"]
-L69_1 = "F258F1CC1252E6610"
-
-function L70_1(A0_2)
+--- main.ui.msg_doctor.effect.MsgDoctorNoiseffect.SetParticleSequence
+function C52DD4BA1F6CFF444_prototype:F258F1CC1252E6610()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = c451059A3
   L1_2 = L1_2.f5776B6C6
@@ -367,13 +357,13 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = cA042DA13
   L3_2 = L3_2.fB1E655AE
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     return
   end
-  L3_2 = A0_2[12]
+  L3_2 = self[12]
   L4_2 = L3_2
   L3_2 = L3_2.f68159593
   L5_2 = "noise_particle"
@@ -390,7 +380,7 @@ function L70_1(A0_2)
     L4_2 = L4_2.S760DAE4C5371A78E
     L4_2()
   end
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L6_2 = L3_2
   L5_2 = L3_2.f8F2B0552
   L7_2 = L4_2[1]
@@ -401,68 +391,59 @@ function L70_1(A0_2)
   L5_2 = L5_2.fB41FD22F
   L6_2 = L3_2
   L5_2 = L5_2(L6_2)
-  A0_2[7] = L5_2
+  self[7] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52DD4BA1F6CFF444"]["prototype"]
-L69_1 = "F366A133B13DF9EB2"
-
-function L70_1(A0_2)
+--- main.ui.msg_doctor.effect.MsgDoctorNoiseffect.StartNoiseMessage
+function C52DD4BA1F6CFF444_prototype:F366A133B13DF9EB2()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.FD3193307ED4084F9
+  L3_2 = self
+  L4_2 = self.FD3193307ED4084F9
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "message_noise_sequence"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[15] = L1_2
+  self[15] = L1_2
   L1_2 = nil
   L2_2 = cE8D61D7D
   L2_2 = L2_2.fEFB8CD3A
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = C1DB14DCC9D7634FA
     L2_2 = L2_2.new
     L3_2 = L55_1
-    L4_2 = A0_2
-    L5_2 = A0_2.F258F1CC1252E6610
+    L4_2 = self
+    L5_2 = self.F258F1CC1252E6610
     L3_2 = L3_2(L4_2, L5_2)
     L4_2 = "message_noise_objTemplate_sequence"
     L2_2 = L2_2(L3_2, L4_2)
-    A0_2[16] = L2_2
+    self[16] = L2_2
   end
-  A0_2[1] = false
+  self[1] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52DD4BA1F6CFF444"]["prototype"]
-L69_1 = "FFFD34635734A6BC3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.msg_doctor.effect.MsgDoctorNoiseffect.AddText
+function C52DD4BA1F6CFF444_prototype:FFFD34635734A6BC3(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = c8C3BF576
   L3_2 = L3_2.fC8CEF9EF
   L4_2 = A2_2
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L5_2 = L4_2
   L4_2 = L4_2.push
   L6_2 = L3_2
   L4_2(L5_2, L6_2)
-  return A0_2
+  return self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52DD4BA1F6CFF444"]["prototype"]
-L69_1 = "F55C1C1048729E0BB"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.msg_doctor.effect.MsgDoctorNoiseffect.ShowMessage
+function C52DD4BA1F6CFF444_prototype:F55C1C1048729E0BB(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = nil
   if nil ~= A2_2 then
@@ -524,18 +505,15 @@ function L70_1(A0_2, A1_2, A2_2)
     end
     L3_2 = L4_2
   end
-  L4_2 = A0_2[13]
+  L4_2 = self[13]
   L5_2 = L4_2
   L4_2 = L4_2.f7291B8B9
   L6_2 = L3_2
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52DD4BA1F6CFF444"]["prototype"]
-L69_1 = "F39410A905A3D2EDC"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.msg_doctor.effect.MsgDoctorNoiseffect.ChangeMessage
+function C52DD4BA1F6CFF444_prototype:F39410A905A3D2EDC(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cC9AD95E7
   L2_2 = L2_2.f101D811F
@@ -560,43 +538,34 @@ function L70_1(A0_2, A1_2)
     L6_2 = A1_2
     L4_2(L5_2, L6_2)
   end
-  L4_2 = A0_2[13]
+  L4_2 = self[13]
   L5_2 = L4_2
   L4_2 = L4_2.f7291B8B9
   L6_2 = L2_2
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52DD4BA1F6CFF444"]["prototype"]
-L69_1 = "F9F45AE9CFD8A8D4A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.msg_doctor.effect.MsgDoctorNoiseffect.F9F45AE9CFD8A8D4A
+function C52DD4BA1F6CFF444_prototype:F9F45AE9CFD8A8D4A(A1_2)
   local L2_2, L3_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F0691C2770B876CA2 = L2_2
+  self.F0691C2770B876CA2 = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52DD4BA1F6CFF444"]["prototype"]
-L69_1 = "FCEB5E43EA23F527D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.msg_doctor.effect.MsgDoctorNoiseffect.SetKeepAnimeCallBack
+function C52DD4BA1F6CFF444_prototype:FCEB5E43EA23F527D(A1_2)
   local L2_2, L3_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F8BFBBF183549708D = L2_2
+  self.F8BFBBF183549708D = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52DD4BA1F6CFF444"]["prototype"]
-L69_1 = "F5366FFBEC6328443"
-
-function L70_1(A0_2, A1_2)
-  A0_2[14] = A1_2
+--- main.ui.msg_doctor.effect.MsgDoctorNoiseffect.F5366FFBEC6328443
+function C52DD4BA1F6CFF444_prototype:F5366FFBEC6328443(A1_2)
+  self[14] = A1_2
 end
 
 L68_1[L69_1] = L70_1

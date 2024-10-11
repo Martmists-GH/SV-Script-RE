@@ -1,3 +1,5 @@
+---@class C1F78B258B9E1ACBC : C1F78B258B9E1ACBC_prototype
+---@field prototype C1F78B258B9E1ACBC_prototype
 L55_1 = _ENV
 L56_1 = "C1F78B258B9E1ACBC"
 L57_1 = L15_1
@@ -43,45 +45,37 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1F78B258B9E1ACBC"]
 L69_1 = "__name__"
 L70_1 = "C1F78B258B9E1ACBC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1F78B258B9E1ACBC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1F78B258B9E1ACBC"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C1F78B258B9E1ACBC_prototype
+C1F78B258B9E1ACBC_prototype = L15_1()
+C1F78B258B9E1ACBC.prototype = C1F78B258B9E1ACBC_prototype
+--- C1F78B258B9E1ACBC.onCreate
+function C1F78B258B9E1ACBC_prototype:FC87C731D11C58354()
   local L1_2, L2_2
   L1_2 = C221B436A6ABCBB72
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC87C731D11C58354
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  A0_2[21] = 1
+  self[21] = 1
   L1_2 = ECE308D88B01858C4
   L1_2 = L1_2.Wait
-  A0_2[17] = L1_2
+  self[17] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1F78B258B9E1ACBC"]["prototype"]
-L69_1 = "F0F2455EB3F08B1D1"
-
-function L70_1(A0_2)
+--- C1F78B258B9E1ACBC.onWait
+function C1F78B258B9E1ACBC_prototype:F0F2455EB3F08B1D1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = nil
   L2_2 = cE35B3EB3
   L2_2 = L2_2.fDBA763D1
-  L3_2 = A0_2[19]
+  L3_2 = self[19]
   L3_2 = L3_2[7]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[19]
+  L2_2 = self[19]
   L3_2 = nil
   L4_2 = L10_1.string
   L4_2 = L4_2.find
@@ -136,31 +130,28 @@ function L70_1(A0_2)
   
   L5_2 = L5_2()
   if L5_2 >= 0 then
-    L5_2 = A0_2[15]
+    L5_2 = self[15]
     L6_2 = L5_2
     L5_2 = L5_2.F9DEB10F3B940A275
     L5_2 = L5_2(L6_2)
-    A0_2[20] = L5_2
+    self[20] = L5_2
     L5_2 = ECE308D88B01858C4
     L5_2 = L5_2.WaitArrival
-    A0_2[17] = L5_2
+    self[17] = L5_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1F78B258B9E1ACBC"]["prototype"]
-L69_1 = "F4A340DC482FA71A2"
-
-function L70_1(A0_2)
+--- C1F78B258B9E1ACBC.EasyTalkPreStart
+function C1F78B258B9E1ACBC_prototype:F4A340DC482FA71A2()
   local L1_2, L2_2
   L1_2 = C221B436A6ABCBB72
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F4A340DC482FA71A2
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = ECE308D88B01858C4
   L1_2 = L1_2.None
-  A0_2[17] = L1_2
+  self[17] = L1_2
 end
 
 L68_1[L69_1] = L70_1

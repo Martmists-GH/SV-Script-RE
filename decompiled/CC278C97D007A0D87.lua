@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CC278C97D007A0D87"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CC278C97D007A0D87"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC278C97D007A0D87"]
-L69_1 = "__name__"
-L70_1 = "CC278C97D007A0D87"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC278C97D007A0D87"]
-L69_1 = "S55F858BB3AF9B49E"
+---@alias CC278C97D007A0D87 main_common_TerrainManager
 
-function L70_1(A0_2, A1_2, A2_2)
+---@class main_common_TerrainManager
+CC278C97D007A0D87 = L15_1()
+CC278C97D007A0D87.new = {}
+CC278C97D007A0D87.__name__ = "CC278C97D007A0D87"
+--- main.common.TerrainManager.CalcGroundPositionNearest
+function CC278C97D007A0D87.S55F858BB3AF9B49E(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L3_2 = CC278C97D007A0D87
   L3_2 = L3_2.SBD7D996DD5E05C6F
@@ -348,11 +339,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC278C97D007A0D87"]
-L69_1 = "S1FFFE0BA541E6621"
-
-function L70_1(A0_2)
+--- main.common.TerrainManager.CalcGroundPositionNearestCore
+function CC278C97D007A0D87.S1FFFE0BA541E6621(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
   L1_2 = L16_1
   L2_2 = {}
@@ -573,11 +561,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC278C97D007A0D87"]
-L69_1 = "S6E5A26C562F58DAB"
-
-function L70_1(A0_2)
+--- main.common.TerrainManager.CastPencil
+function CC278C97D007A0D87.S6E5A26C562F58DAB(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2
   L1_2 = A0_2[1]
   L2_2 = CC278C97D007A0D87
@@ -724,11 +709,8 @@ function L70_1(A0_2)
   return L20_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC278C97D007A0D87"]
-L69_1 = "SA77C9E174D0203A1"
-
-function L70_1(A0_2)
+--- main.common.TerrainManager.SA77C9E174D0203A1
+function CC278C97D007A0D87.SA77C9E174D0203A1(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = L16_1
   L2_2 = {}
@@ -923,11 +905,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC278C97D007A0D87"]
-L69_1 = "S52202BBF42EB6AD5"
-
-function L70_1(A0_2, A1_2)
+--- main.common.TerrainManager.S52202BBF42EB6AD5
+function CC278C97D007A0D87.S52202BBF42EB6AD5(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   
   function L2_2()

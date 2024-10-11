@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CDD18C7CA3E537D06"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CDD18C7CA3E537D06"]
-L69_1 = "new"
+---@alias CDD18C7CA3E537D06 main_system_game_event_GameEventFieldStart
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventFieldStart : CDD18C7CA3E537D06_prototype
+---@field prototype CDD18C7CA3E537D06_prototype
+CDD18C7CA3E537D06 = L15_1()
+function CDD18C7CA3E537D06.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CDD18C7CA3E537D06
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD18C7CA3E537D06"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CDD18C7CA3E537D06
+function CDD18C7CA3E537D06.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CE0D511325372F946
   L3_2 = L3_2.super
@@ -37,11 +31,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD18C7CA3E537D06"]
-L69_1 = "__name__"
-L70_1 = "CDD18C7CA3E537D06"
-L68_1[L69_1] = L70_1
+CDD18C7CA3E537D06.__name__ = "CDD18C7CA3E537D06"
 L68_1 = _ENV["CDD18C7CA3E537D06"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -83,24 +73,16 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD18C7CA3E537D06"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD18C7CA3E537D06"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CDD18C7CA3E537D06_prototype
+CDD18C7CA3E537D06_prototype = L15_1()
+CDD18C7CA3E537D06.prototype = CDD18C7CA3E537D06_prototype
+--- main.system.game_event.GameEventFieldStart.onCreate
+function CDD18C7CA3E537D06_prototype:FC87C731D11C58354()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD18C7CA3E537D06"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventFieldStart.onUpdate
+function CDD18C7CA3E537D06_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.S1877DC26B9B0F18D
@@ -113,8 +95,8 @@ function L70_1(A0_2)
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.SDC83386A1A3A2990
   L1_2()
-  L2_2 = A0_2
-  L1_2 = A0_2.F53BAC1D0FF73DB0F
+  L2_2 = self
+  L1_2 = self.F53BAC1D0FF73DB0F
   L1_2(L2_2)
   L1_2 = CD31A5A9042C66765
   L1_2 = L1_2.S7A3D296366E973CB
@@ -202,22 +184,22 @@ function L70_1(A0_2)
   L1_2 = L1_2.f216900C5
   L2_2 = true
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F66F7E5A90EF2ECFB
+  L2_2 = self
+  L1_2 = self.F66F7E5A90EF2ECFB
   L1_2(L2_2)
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L1_2 = L1_2.startType
   if 0 ~= L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F82A397A8DA8AE489
+    L2_2 = self
+    L1_2 = self.F82A397A8DA8AE489
     L1_2(L2_2)
   end
   L1_2 = cC01E1952
   L1_2 = L1_2.fBA6E823F
   L2_2 = true
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F2665800944B2AF93
+  L2_2 = self
+  L1_2 = self.F2665800944B2AF93
   L1_2(L2_2)
   L1_2 = C10578806AC30DCA3
   L1_2 = L1_2.SBA6FF574C1C9AA09
@@ -268,18 +250,15 @@ function L70_1(A0_2)
     L2_2 = L2_2.F7EED485852A4D25F
     L2_2(L3_2)
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FADD7FD2E0B4A8C46
+  L3_2 = self
+  L2_2 = self.FADD7FD2E0B4A8C46
   L2_2(L3_2)
   L2_2 = 2
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD18C7CA3E537D06"]["prototype"]
-L69_1 = "F53BAC1D0FF73DB0F"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventFieldStart.initializeEventMaster
+function CDD18C7CA3E537D06_prototype:F53BAC1D0FF73DB0F()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -324,11 +303,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD18C7CA3E537D06"]["prototype"]
-L69_1 = "F82A397A8DA8AE489"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventFieldStart.initializePlayerLocation
+function CDD18C7CA3E537D06_prototype:F82A397A8DA8AE489()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L1_2 = C8F93126DACB9F8DD
   L1_2 = L1_2.S93A2C11A3020463D
@@ -423,7 +399,7 @@ function L70_1(A0_2)
   L13_2.forcePosition = L7_2
   L13_2.forceRotation = L8_2
   L13_2.callFromFieldStart = true
-  L14_2 = A0_2[17]
+  L14_2 = self[17]
   L14_2 = L14_2.startType
   L14_2 = 1 == L14_2
   L13_2.callFromContinue = L14_2
@@ -464,11 +440,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD18C7CA3E537D06"]["prototype"]
-L69_1 = "F66F7E5A90EF2ECFB"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventFieldStart.initializeLocalBridge
+function CDD18C7CA3E537D06_prototype:F66F7E5A90EF2ECFB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = c37452BA0
   L1_2 = L1_2.fD8C39FA5
@@ -557,11 +530,8 @@ function L70_1(A0_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD18C7CA3E537D06"]["prototype"]
-L69_1 = "FADD7FD2E0B4A8C46"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventFieldStart.partyPokemonFormChange
+function CDD18C7CA3E537D06_prototype:FADD7FD2E0B4A8C46()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.fFCE06E04
@@ -701,11 +671,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD18C7CA3E537D06"]["prototype"]
-L69_1 = "F2665800944B2AF93"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventFieldStart.F2665800944B2AF93
+function CDD18C7CA3E537D06_prototype:F2665800944B2AF93()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = CF1462856EABD3400
   L1_2 = L1_2.S0D9054147D2262BC

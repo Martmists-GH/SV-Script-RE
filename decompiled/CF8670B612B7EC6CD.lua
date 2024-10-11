@@ -1,3 +1,7 @@
+---@alias CF8670B612B7EC6CD main_ajito_data_collector_DanBossCarBattleStructFinder
+
+---@class main_ajito_data_collector_DanBossCarBattleStructFinder : CF8670B612B7EC6CD_prototype
+---@field prototype CF8670B612B7EC6CD_prototype
 L68_1 = _ENV["CF8670B612B7EC6CD"]
 L69_1 = "super"
 
@@ -32,26 +36,18 @@ L69_1 = "__interfaces__"
 L70_1 = {}
 L71_1 = C506E192DDC28E8B5
 L70_1[1] = L71_1
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8670B612B7EC6CD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8670B612B7EC6CD"]["prototype"]
-L69_1 = "F87972F52753D499F"
-
-function L70_1(A0_2)
+---@class CF8670B612B7EC6CD_prototype
+CF8670B612B7EC6CD_prototype = L15_1()
+CF8670B612B7EC6CD.prototype = CF8670B612B7EC6CD_prototype
+--- main.ajito.data.collector.DanBossCarBattleStructFinder.GetData
+function CF8670B612B7EC6CD_prototype:F87972F52753D499F()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8670B612B7EC6CD"]["prototype"]
-L69_1 = "F80B5D892ADA38C8B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ajito.data.collector.DanBossCarBattleStructFinder.setData
+function CF8670B612B7EC6CD_prototype:F80B5D892ADA38C8B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2
   L4_2 = A2_2
   L3_2 = A2_2.fF2819595
@@ -198,7 +194,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L24_2 = L3_2.f3D9D438D
   L26_2 = "eventId"
   L24_2 = L24_2(L25_2, L26_2)
-  L25_2 = A0_2[1]
+  L25_2 = self[1]
   L26_2 = L25_2
   L25_2 = L25_2.push
   L27_2 = L16_1

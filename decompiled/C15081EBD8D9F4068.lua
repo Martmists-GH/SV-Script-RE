@@ -1,3 +1,7 @@
+---@alias C15081EBD8D9F4068 main_ui_dressup_dress_view_main_DressupUIDressMainView
+
+---@class main_ui_dressup_dress_view_main_DressupUIDressMainView : C15081EBD8D9F4068_prototype
+---@field prototype C15081EBD8D9F4068_prototype
 L55_1 = _ENV
 L56_1 = "C15081EBD8D9F4068"
 L57_1 = L15_1
@@ -132,18 +136,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C15081EBD8D9F4068"]
 L69_1 = "__name__"
 L70_1 = "C15081EBD8D9F4068"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FC82C929CB775E5C5"
-
-function L70_1(A0_2)
+---@class C15081EBD8D9F4068_prototype
+C15081EBD8D9F4068_prototype = L15_1()
+C15081EBD8D9F4068.prototype = C15081EBD8D9F4068_prototype
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.get_currentDressupParts
+function C15081EBD8D9F4068_prototype:FC82C929CB775E5C5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[19]
+  L1_2 = self[19]
   L2_2 = _hx_tab_array
   L3_2 = {}
   L3_2.length = 0
@@ -165,16 +164,13 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FF4A9AE446ABC4573"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.FF4A9AE446ABC4573
+function C15081EBD8D9F4068_prototype:FF4A9AE446ABC4573()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
-  A0_2[8] = L1_2
-  L1_2 = A0_2[8]
+  self[8] = L1_2
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.resize
   L3_2 = 8
@@ -186,7 +182,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.F898D9A9C44354379
   L1_2 = L1_2(L2_2)
   L2_2 = 0
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L3_2 = L3_2.length
   L4_2 = false
   while L2_2 < L3_2 do
@@ -198,7 +194,7 @@ function L70_1(A0_2)
     L8_2 = L1_2[L5_2]
     L6_2 = L6_2(L7_2, L8_2)
     if nil ~= L6_2 then
-      L7_2 = A0_2[8]
+      L7_2 = self[8]
       L7_2[L5_2] = L6_2
     end
     if L4_2 then
@@ -208,25 +204,22 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FDE8FFDCFC3B2E06E"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.LayoutUpdate
+function C15081EBD8D9F4068_prototype:FDE8FFDCFC3B2E06E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.FF32CC3BE322652A8
   L3_2 = "ptn_00"
   L4_2 = 1
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.FA23D39922B76B247
   L3_2 = "P_l_00"
   L4_2 = false
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.FA23D39922B76B247
   L3_2 = "P_r_00"
@@ -236,7 +229,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.SFCC4239F6EE52B9E
   L2_2 = "appli_header_00_05"
   L1_2(L2_2)
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.FC8489078C201C47F
   L1_2 = L1_2(L2_2)
@@ -251,32 +244,26 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FBF9A6D5AD717FAF0"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.ViewEndSequence
+function C15081EBD8D9F4068_prototype:FBF9A6D5AD717FAF0()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.FBF9A6D5AD717FAF0
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FD75C9FE19A4A2B60"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.OnCategoryChange
+function C15081EBD8D9F4068_prototype:FD75C9FE19A4A2B60(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C6E074861269A51A2
   L2_2 = L2_2.S12755407BDA305C4
   L3_2 = C6E074861269A51A2
   L3_2 = L3_2.S7C107A0FC15F1400
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F60C28D510A4A6AA5
+  L5_2 = self
+  L6_2 = self.F60C28D510A4A6AA5
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = "CategoryChangeListener is null"
   L3_2 = L3_2(L4_2, L5_2)
@@ -290,51 +277,48 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F473B660093398659"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.ViewUpdate
+function C15081EBD8D9F4068_prototype:F473B660093398659(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   L3_2 = L2_2
   L2_2 = L2_2.F5BFB78AEF85D3D52
   L2_2(L3_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   if nil ~= L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F1401CFD6E3A7A8C0
     L2_2(L3_2)
     L2_2 = C1C60E6E1EAFEE72D
     L2_2 = L2_2.SDC1C4573CB1580EE
     L2_2 = L2_2()
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.FC84A0D4D8CE89C7E
     L3_2 = L3_2(L4_2)
     if L2_2 ~= L3_2 then
       L2_2 = C1C60E6E1EAFEE72D
       L2_2 = L2_2.SA9EFCFC080075332
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L4_2 = L3_2
       L3_2 = L3_2.FC84A0D4D8CE89C7E
       L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2 = L3_2(L4_2)
       L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
     end
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FE4D10BC03DD99E02
+  L3_2 = self
+  L2_2 = self.FE4D10BC03DD99E02
   L2_2(L3_2)
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[17]
+    L3_2 = self[17]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[17]
+      L2_2 = self[17]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -381,14 +365,14 @@ function L70_1(A0_2, A1_2)
       return
     end
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F2B311A98198B767E
+  L3_2 = self
+  L2_2 = self.F2B311A98198B767E
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FAED06C15DD4BE55A
+  L3_2 = self
+  L2_2 = self.FAED06C15DD4BE55A
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L2_2 = A0_2[13]
+    L2_2 = self[13]
     L3_2 = nil
     L4_2 = L62_1
     L5_2 = L64_1.pack
@@ -434,18 +418,18 @@ function L70_1(A0_2, A1_2)
     end
     return
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   if nil ~= L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F5355D244FF2900B7
     L2_2(L3_2)
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.FE8266E5DA7D6F49A
   L2_2(L3_2)
@@ -455,9 +439,9 @@ function L70_1(A0_2, A1_2)
   if not L2_2 then
     return
   end
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   if not L2_2 then
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = L2_2
     L2_2 = L2_2.FBF22ED874F9A417F
     L2_2 = L2_2(L3_2)
@@ -465,86 +449,77 @@ function L70_1(A0_2, A1_2)
       goto lbl_162
     end
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F6CDE543BEA65A3AA
+  L3_2 = self
+  L2_2 = self.F6CDE543BEA65A3AA
   L2_2(L3_2)
   do return end
   ::lbl_162::
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.F3238153B95FBE21C
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FD2DFD7097126E054
+    L3_2 = self
+    L2_2 = self.FD2DFD7097126E054
     L2_2(L3_2)
     return
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.F46783EAF187C7DA3
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FEA0910CB87F2B98D
+    L3_2 = self
+    L2_2 = self.FEA0910CB87F2B98D
     L2_2(L3_2)
     return
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.FE3834056A3808D85
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F7A526FAE3CF2F395
+    L3_2 = self
+    L2_2 = self.F7A526FAE3CF2F395
     L2_2(L3_2)
     return
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FE0EBB34B8A1B41AB"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.SetViewControl
+function C15081EBD8D9F4068_prototype:FE0EBB34B8A1B41AB(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.FE0EBB34B8A1B41AB
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FEAD2A3AEA54D791F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.SetAlphaModelArea
+function C15081EBD8D9F4068_prototype:FEAD2A3AEA54D791F(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.FEB78C135FE0D6725
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F6E8C907C786A49D1"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.ActionStyleView
+function C15081EBD8D9F4068_prototype:F6E8C907C786A49D1(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FEAD2A3AEA54D791F
+  L2_2 = self
+  L4_2 = self
+  L3_2 = self.FEAD2A3AEA54D791F
   L5_2 = 0
   L3_2(L4_2, L5_2)
   if A1_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F742C938EDE23D5AC
+    L4_2 = self
+    L3_2 = self.F742C938EDE23D5AC
     L3_2(L4_2)
   end
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.F1E7AA382D9514174
   L3_2 = L3_2(L4_2)
@@ -552,16 +527,16 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.fCDC3DEA9
   L5_2 = "Style"
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   if not L3_2 then
-    L3_2 = A0_2[15]
+    L3_2 = self[15]
     L4_2 = L3_2
     L3_2 = L3_2.F22BD1D5FC5D55F13
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L3_2(L4_2, L5_2)
-    A0_2[18] = true
+    self[18] = true
   else
-    L3_2 = A0_2[15]
+    L3_2 = self[15]
     L4_2 = L3_2
     L3_2 = L3_2.F669458250810A116
     L3_2(L4_2)
@@ -582,7 +557,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2()
   L5_2 = L3_2
   L4_2 = L3_2.push
-  L6_2 = A0_2[19]
+  L6_2 = self[19]
   L7_2 = L52_1.__cast
   L8_2 = 5
   L9_2 = L19_1
@@ -591,20 +566,20 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2)
   L5_2 = L3_2
   L4_2 = L3_2.push
-  L6_2 = A0_2[19]
+  L6_2 = self[19]
   L7_2 = L52_1.__cast
   L8_2 = 6
   L9_2 = L19_1
   L7_2 = L7_2(L8_2, L9_2)
   L6_2 = L6_2[L7_2]
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[15]
+  L4_2 = self[15]
   L5_2 = L4_2
   L4_2 = L4_2.F8B7B7F3FD8EAA671
   L6_2 = C1C60E6E1EAFEE72D
   L6_2 = L6_2.S25B8AE921E6391A8
-  L7_2 = A0_2[8]
-  L8_2 = A0_2[19]
+  L7_2 = self[8]
+  L8_2 = self[19]
   L6_2 = L6_2(L7_2, L8_2)
   L7_2 = L3_2
   
@@ -620,17 +595,14 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FC0F27F1660D17CC9"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.StyleRestart
+function C15081EBD8D9F4068_prototype:FC0F27F1660D17CC9()
   local L1_2, L2_2
   L1_2 = CA50554C628E1BC75
   L1_2 = L1_2.SFCC4239F6EE52B9E
   L2_2 = "appli_header_00_07"
   L1_2(L2_2)
-  L1_2 = A0_2[15]
+  L1_2 = self[15]
   L2_2 = L1_2
   L1_2 = L1_2.F30CFC1FE0E0AC7B3
   L1_2(L2_2)
@@ -640,39 +612,36 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F4978C9CA3CF43B94"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.DataUpdate
+function C15081EBD8D9F4068_prototype:F4978C9CA3CF43B94(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil ~= A1_2 then
-    A0_2[12] = A1_2
+    self[12] = A1_2
   end
   L2_2 = CF142AD871E7B1304
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
   L3_2 = L2_2
   L2_2 = L2_2.FFF16B9FB4CE5935A
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   L2_2 = L2_2(L3_2, L4_2)
-  L3_2 = A0_2[14]
+  L3_2 = self[14]
   L4_2 = L3_2
   L3_2 = L3_2.FE799BF97188D001A
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F3B1E4178E11B5B5B
-  L5_2 = A0_2[12]
+  L4_2 = self
+  L3_2 = self.F3B1E4178E11B5B5B
+  L5_2 = self[12]
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F37744781ADA31C03
+  L4_2 = self
+  L3_2 = self.F37744781ADA31C03
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F0D244241C683B3FA
-  L5_2 = A0_2[12]
+  L4_2 = self
+  L3_2 = self.F0D244241C683B3FA
+  L5_2 = self[12]
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.FE8CEAEA98066C0AA
   L3_2 = L3_2(L4_2)
@@ -681,7 +650,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = L2_2.length
   L5_2 = 0 ~= L5_2
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.FF32CC3BE322652A8
   L5_2 = "L_panel_00/ptn_00"
@@ -700,7 +669,7 @@ function L70_1(A0_2, A1_2)
   
   L6_2 = L6_2()
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.FC8489078C201C47F
   L3_2 = L3_2(L4_2)
@@ -709,41 +678,38 @@ function L70_1(A0_2, A1_2)
   L5_2 = "L_panel_00/T_non_00"
   L6_2 = "dressup_02_06"
   L3_2(L4_2, L5_2, L6_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F1C9CF28834043D07
+  L4_2 = self
+  L3_2 = self.F1C9CF28834043D07
   L5_2 = L2_2.length
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F37744781ADA31C03"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.ScrollPanelUpdate
+function C15081EBD8D9F4068_prototype:F37744781ADA31C03(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   if nil == L2_2 then
     return
   end
   L2_2 = A1_2.length
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.FF7208E213DA7B4AE
-  L5_2 = A0_2[10]
+  L5_2 = self[10]
   L6_2 = L5_2
   L5_2 = L5_2.F7DE4E8717BE1E3EB
   L5_2 = L5_2(L6_2)
-  L6_2 = A0_2[10]
+  L6_2 = self[10]
   L7_2 = L6_2
   L6_2 = L6_2.F7DE4E8717BE1E3EB
   L6_2, L7_2 = L6_2(L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.FBD90BD4212B06A12
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.FF7208E213DA7B4AE
   L5_2 = 1
@@ -751,13 +717,10 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F3B1E4178E11B5B5B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.CategoryTextUpdate
+function C15081EBD8D9F4068_prototype:F3B1E4178E11B5B5B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.FC8489078C201C47F
   L2_2 = L2_2(L3_2)
@@ -775,7 +738,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.F65967B5817D6F3F3
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.FA23D39922B76B247
   L5_2 = "T_wear_00"
@@ -797,7 +760,7 @@ function L70_1(A0_2, A1_2)
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if nil ~= L4_2 then
-      L5_2 = A0_2[3]
+      L5_2 = self[3]
       L6_2 = L5_2
       L5_2 = L5_2.FC8489078C201C47F
       L5_2 = L5_2(L6_2)
@@ -814,7 +777,7 @@ function L70_1(A0_2, A1_2)
       L6_2 = L4_2.F21CE9C6D25818071
       L6_2 = L6_2(L7_2)
       if "0" ~= L6_2 then
-        L6_2 = A0_2[3]
+        L6_2 = self[3]
         L7_2 = L6_2
         L6_2 = L6_2.FC8489078C201C47F
         L6_2 = L6_2(L7_2)
@@ -828,7 +791,7 @@ function L70_1(A0_2, A1_2)
         L6_2(L7_2, L8_2, L9_2, L10_2)
         L5_2 = 255
       end
-      L6_2 = A0_2[3]
+      L6_2 = self[3]
       L7_2 = L6_2
       L6_2 = L6_2.FB6D1FE1B1E10C33D
       L6_2 = L6_2(L7_2)
@@ -864,7 +827,7 @@ function L70_1(A0_2, A1_2)
     L8_2 = L3_2
     L6_2, L7_2, L8_2, L9_2, L10_2 = L6_2(L7_2, L8_2)
     L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L6_2 = L5_2
     L5_2 = L5_2.FC8489078C201C47F
     L5_2 = L5_2(L6_2)
@@ -876,7 +839,7 @@ function L70_1(A0_2, A1_2)
     L8_2 = L8_2(L9_2)
     L9_2 = "dressup_item_name"
     L5_2(L6_2, L7_2, L8_2, L9_2)
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L6_2 = L5_2
     L5_2 = L5_2.FB6D1FE1B1E10C33D
     L5_2 = L5_2(L6_2)
@@ -888,18 +851,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F0098F0C8194C6B5F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.DressupItemInfoView
+function C15081EBD8D9F4068_prototype:F0098F0C8194C6B5F(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L3_2 = CF142AD871E7B1304
   L3_2 = L3_2.S385504EFF7E842C3
   L3_2 = L3_2()
   L4_2 = L3_2
   L3_2 = L3_2.FFF16B9FB4CE5935A
-  L5_2 = A0_2[12]
+  L5_2 = self[12]
   L3_2 = L3_2(L4_2, L5_2)
   if nil == L3_2 then
     return
@@ -919,7 +879,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2 = L5_2(L6_2, L7_2)
   L6_2 = false
   if nil ~= L5_2 then
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L8_2 = L7_2
     L7_2 = L7_2.FC8489078C201C47F
     L7_2 = L7_2(L8_2)
@@ -948,7 +908,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L7_2 = L7_2(L8_2)
     L7_2 = "0" ~= L7_2
     if L7_2 then
-      L8_2 = A0_2[3]
+      L8_2 = self[3]
       L9_2 = L8_2
       L8_2 = L8_2.FC8489078C201C47F
       L8_2 = L8_2(L9_2)
@@ -973,7 +933,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L12_2 = "dressup_item_name"
       L8_2(L9_2, L10_2, L11_2, L12_2)
     end
-    L8_2 = A0_2[3]
+    L8_2 = self[3]
     L9_2 = L8_2
     L8_2 = L8_2.FA23D39922B76B247
     L10_2 = L31_1.string
@@ -991,7 +951,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L10_2 = L10_2 .. L11_2
     L11_2 = L7_2
     L8_2(L9_2, L10_2, L11_2)
-    L8_2 = A0_2[12]
+    L8_2 = self[12]
     if 7 ~= L8_2 then
       L8_2 = C722EEE9E927245BA
       L8_2 = L8_2.S385504EFF7E842C3
@@ -1017,10 +977,10 @@ function L70_1(A0_2, A1_2, A2_2)
     L8_2 = L5_2.F2DBE7FC23B9B23DE
     L8_2 = L8_2(L9_2)
     if 7 == L8_2 then
-      L8_2 = A0_2[11]
+      L8_2 = self[11]
       L9_2 = L8_2
       L8_2 = L8_2.F716F089496100A12
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       L11_2 = L31_1.string
       L12_2 = L31_1.string
       L13_2 = ""
@@ -1038,10 +998,10 @@ function L70_1(A0_2, A1_2, A2_2)
       L12_2 = L5_2.FE3059C1D9BBBFF38
       L12_2, L13_2, L14_2 = L12_2(L13_2)
       L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-      L8_2 = A0_2[11]
+      L8_2 = self[11]
       L9_2 = L8_2
       L8_2 = L8_2.F716F089496100A12
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       L11_2 = L31_1.string
       L12_2 = L31_1.string
       L13_2 = ""
@@ -1060,10 +1020,10 @@ function L70_1(A0_2, A1_2, A2_2)
       L12_2, L13_2, L14_2 = L12_2(L13_2)
       L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
     else
-      L8_2 = A0_2[11]
+      L8_2 = self[11]
       L9_2 = L8_2
       L8_2 = L8_2.F178361E1D870E452
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       L11_2 = L31_1.string
       L12_2 = L31_1.string
       L13_2 = ""
@@ -1078,10 +1038,10 @@ function L70_1(A0_2, A1_2, A2_2)
       L12_2 = L12_2(L13_2)
       L11_2 = L11_2 .. L12_2
       L8_2(L9_2, L10_2, L11_2)
-      L8_2 = A0_2[11]
+      L8_2 = self[11]
       L9_2 = L8_2
       L8_2 = L8_2.F178361E1D870E452
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       L11_2 = L31_1.string
       L12_2 = L31_1.string
       L13_2 = ""
@@ -1097,15 +1057,15 @@ function L70_1(A0_2, A1_2, A2_2)
       L11_2 = L11_2 .. L12_2
       L8_2(L9_2, L10_2, L11_2)
     end
-    L9_2 = A0_2
-    L8_2 = A0_2.FAA55CFCD5A9592A4
+    L9_2 = self
+    L8_2 = self.FAA55CFCD5A9592A4
     L11_2 = L5_2
     L10_2 = L5_2.F1CE0C5BD3866E179
     L10_2 = L10_2(L11_2)
     L11_2 = A2_2
     L8_2(L9_2, L10_2, L11_2)
   end
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L8_2 = L7_2
   L7_2 = L7_2.FA23D39922B76B247
   L9_2 = L31_1.string
@@ -1130,7 +1090,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L7_2 = L7_2.F97E8BB4AE3725D36
   L9_2 = L4_2
   L7_2 = L7_2(L8_2, L9_2)
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.FA23D39922B76B247
   L10_2 = L31_1.string
@@ -1148,7 +1108,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L10_2 = L10_2 .. L11_2
   L11_2 = L7_2
   L8_2(L9_2, L10_2, L11_2)
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.FA23D39922B76B247
   L10_2 = L31_1.string
@@ -1166,7 +1126,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L10_2 = L10_2 .. L11_2
   L11_2 = false
   L8_2(L9_2, L10_2, L11_2)
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.FA23D39922B76B247
   L10_2 = L31_1.string
@@ -1186,18 +1146,15 @@ function L70_1(A0_2, A1_2, A2_2)
   L8_2(L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F610E58EBB85F3B10"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.OnDecide
+function C15081EBD8D9F4068_prototype:F610E58EBB85F3B10(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = CF142AD871E7B1304
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
   L3_2 = L2_2
   L2_2 = L2_2.FFF16B9FB4CE5935A
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   L2_2 = L2_2(L3_2, L4_2)
   if nil == L2_2 then
     return
@@ -1208,7 +1165,7 @@ function L70_1(A0_2, A1_2)
   end
   L3_2 = L2_2[A1_2]
   L3_2 = L3_2.dressupID
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   if 5 == L4_2 then
     L4_2 = CF142AD871E7B1304
     L4_2 = L4_2.S385504EFF7E842C3
@@ -1217,7 +1174,7 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2.F13318482E8E10C41
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.FDC7EEA048B5E1F2F
     L8_2 = L4_2
@@ -1228,38 +1185,38 @@ function L70_1(A0_2, A1_2)
     L7_2 = L5_2
     L6_2(L7_2)
     if not L5_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.FE0EBB34B8A1B41AB
+      L7_2 = self
+      L6_2 = self.FE0EBB34B8A1B41AB
       L8_2 = false
       L6_2(L7_2, L8_2)
       L6_2 = C1312348E64426118
       L6_2 = L6_2.new
-      L7_2 = A0_2
+      L7_2 = self
       L6_2 = L6_2(L7_2)
       L7_2 = L6_2
       L6_2 = L6_2.F8ECAA28B9538110D
       L6_2 = L6_2(L7_2)
-      A0_2[13] = L6_2
+      self[13] = L6_2
       return
     end
   end
-  L4_2 = A0_2[19]
-  L5_2 = A0_2[12]
+  L4_2 = self[19]
+  L5_2 = self[12]
   L4_2[L5_2] = L3_2
   L4_2 = C1C60E6E1EAFEE72D
   L4_2 = L4_2.S8360ED8517F5E572
-  L5_2 = A0_2[12]
+  L5_2 = self[12]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if nil ~= L4_2 then
-    L5_2 = A0_2[12]
+    L5_2 = self[12]
     if 7 ~= L5_2 then
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L6_2 = L5_2
       L5_2 = L5_2.FE0798533C90C7CCB
       L7_2 = C722EEE9E927245BA
       L7_2 = L7_2.SD3E3C02B7CFEBD3D
-      L8_2 = A0_2[12]
+      L8_2 = self[12]
       L7_2 = L7_2[L8_2]
       L8_2 = L4_2
       L5_2(L6_2, L7_2, L8_2)
@@ -1284,33 +1241,30 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2()
   L6_2 = L5_2
   L5_2 = L5_2.FB22BD8F437A9EEF7
-  L7_2 = A0_2[12]
+  L7_2 = self[12]
   L8_2 = L3_2
   L9_2 = false
   L10_2 = false
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F444F754FD0E7B5BF
+  L6_2 = self
+  L5_2 = self.F444F754FD0E7B5BF
   L7_2 = A1_2
   L5_2(L6_2, L7_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F0D244241C683B3FA
-  L7_2 = A0_2[12]
+  L6_2 = self
+  L5_2 = self.F0D244241C683B3FA
+  L7_2 = self[12]
   L5_2(L6_2, L7_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F1C9CF28834043D07
+  L6_2 = self
+  L5_2 = self.F1C9CF28834043D07
   L7_2 = L2_2.length
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F6CDE543BEA65A3AA"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.OnCancel
+function C15081EBD8D9F4068_prototype:F6CDE543BEA65A3AA()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FE0EBB34B8A1B41AB
+  L2_2 = self
+  L1_2 = self.FE0EBB34B8A1B41AB
   L3_2 = false
   L1_2(L2_2, L3_2)
   L1_2 = C3A36506FBC96ACBD
@@ -1319,45 +1273,39 @@ function L70_1(A0_2)
   L1_2(L2_2)
   L1_2 = C28B701A9157DA5B0
   L1_2 = L1_2.new
-  L2_2 = A0_2
-  L3_2 = A0_2[8]
+  L2_2 = self
+  L3_2 = self[8]
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = L1_2
   L1_2 = L1_2.F8ECAA28B9538110D
   L1_2 = L1_2(L2_2)
-  A0_2[13] = L1_2
+  self[13] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FD2DFD7097126E054"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.OnPreview
+function C15081EBD8D9F4068_prototype:FD2DFD7097126E054()
   local L1_2, L2_2, L3_2, L4_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FE0EBB34B8A1B41AB
+  L2_2 = self
+  L1_2 = self.FE0EBB34B8A1B41AB
   L3_2 = false
   L1_2(L2_2, L3_2)
   L1_2 = CA93FD44EEE1C1ED9
   L1_2 = L1_2.new
-  L2_2 = A0_2[3]
-  L3_2 = A0_2
-  L4_2 = A0_2[1]
+  L2_2 = self[3]
+  L3_2 = self
+  L4_2 = self[1]
   L1_2 = L1_2(L2_2, L3_2, L4_2)
   L2_2 = L1_2
   L1_2 = L1_2.F8ECAA28B9538110D
   L1_2 = L1_2(L2_2)
-  A0_2[13] = L1_2
+  self[13] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F7A526FAE3CF2F395"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.OnStyle
+function C15081EBD8D9F4068_prototype:F7A526FAE3CF2F395()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FE0EBB34B8A1B41AB
+  L2_2 = self
+  L1_2 = self.FE0EBB34B8A1B41AB
   L3_2 = false
   L1_2(L2_2, L3_2)
   L1_2 = C3A36506FBC96ACBD
@@ -1366,35 +1314,32 @@ function L70_1(A0_2)
   L1_2(L2_2)
   L1_2 = C6EF28CA67790248B
   L1_2 = L1_2.new
-  L2_2 = A0_2[3]
-  L3_2 = A0_2
-  L4_2 = A0_2[1]
-  L5_2 = A0_2[8]
+  L2_2 = self[3]
+  L3_2 = self
+  L4_2 = self[1]
+  L5_2 = self[8]
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2)
   L2_2 = L1_2
   L1_2 = L1_2.F8ECAA28B9538110D
   L1_2 = L1_2(L2_2)
-  A0_2[13] = L1_2
+  self[13] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FEA0910CB87F2B98D"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.RemoveParts
+function C15081EBD8D9F4068_prototype:FEA0910CB87F2B98D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C15081EBD8D9F4068
   L1_2 = L1_2.S9A4C1939E385CE42
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   L1_2 = L1_2[L2_2]
   if false ~= L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F71D43D559A2B7423
+    L2_2 = self
+    L1_2 = self.F71D43D559A2B7423
     L1_2 = L1_2(L2_2)
     if L1_2 then
-      L2_2 = A0_2
-      L1_2 = A0_2.F40439DC12124E002
-      L3_2 = A0_2[12]
+      L2_2 = self
+      L1_2 = self.F40439DC12124E002
+      L3_2 = self[12]
       L1_2 = L1_2(L2_2, L3_2)
       if not L1_2 then
         goto lbl_17
@@ -1412,60 +1357,57 @@ function L70_1(A0_2)
   L1_2 = L1_2()
   L2_2 = L1_2
   L1_2 = L1_2.FEA0910CB87F2B98D
-  L3_2 = A0_2[12]
+  L3_2 = self[12]
   L4_2 = false
   L5_2 = false
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[19]
-  L2_2 = A0_2[12]
+  L1_2 = self[19]
+  L2_2 = self[12]
   L1_2[L2_2] = -1
   L1_2 = C722EEE9E927245BA
   L1_2 = L1_2.S52C054CDE36C4826
   L1_2 = L1_2.h
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   L1_2 = L1_2[L2_2]
   L2_2 = L42_1.tnull
   if L1_2 == L2_2 then
     L1_2 = nil
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.FE0798533C90C7CCB
   L4_2 = C722EEE9E927245BA
   L4_2 = L4_2.SD3E3C02B7CFEBD3D
-  L5_2 = A0_2[12]
+  L5_2 = self[12]
   L4_2 = L4_2[L5_2]
   L5_2 = L1_2
   L6_2 = false
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F444F754FD0E7B5BF
-  L4_2 = A0_2[9]
+  L3_2 = self
+  L2_2 = self.F444F754FD0E7B5BF
+  L4_2 = self[9]
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F0D244241C683B3FA
-  L4_2 = A0_2[12]
+  L3_2 = self
+  L2_2 = self.F0D244241C683B3FA
+  L4_2 = self[12]
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F1C9CF28834043D07
+  L3_2 = self
+  L2_2 = self.F1C9CF28834043D07
   L4_2 = CF142AD871E7B1304
   L4_2 = L4_2.S385504EFF7E842C3
   L4_2 = L4_2()
   L5_2 = L4_2
   L4_2 = L4_2.FFF16B9FB4CE5935A
-  L6_2 = A0_2[12]
+  L6_2 = self[12]
   L4_2 = L4_2(L5_2, L6_2)
   L4_2 = L4_2.length
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F40439DC12124E002"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.F40439DC12124E002
+function C15081EBD8D9F4068_prototype:F40439DC12124E002(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[19]
+  L2_2 = self[19]
   L2_2 = L2_2[A1_2]
   if -1 ~= L2_2 then
     L2_2 = CF142AD871E7B1304
@@ -1473,7 +1415,7 @@ function L70_1(A0_2, A1_2)
     L2_2 = L2_2()
     L3_2 = L2_2
     L2_2 = L2_2.F13318482E8E10C41
-    L4_2 = A0_2[19]
+    L4_2 = self[19]
     L4_2 = L4_2[A1_2]
     L2_2 = L2_2(L3_2, L4_2)
     L3_2 = L2_2
@@ -1495,38 +1437,32 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FDF384D72B8313D5E"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.ScrollPanelListenerSet
+function C15081EBD8D9F4068_prototype:FDF384D72B8313D5E(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   if nil == L4_2 then
     return
   end
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L5_2 = L4_2
   L4_2 = L4_2.F6C145066EAC49665
   L6_2 = A1_2
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L5_2 = L4_2
   L4_2 = L4_2.FD19861E47221CCD4
   L6_2 = A2_2
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L5_2 = L4_2
   L4_2 = L4_2.F0AA93C9D949ACA08
   L6_2 = A3_2
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F0D244241C683B3FA"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.SetCategoryPartsSetText
+function C15081EBD8D9F4068_prototype:F0D244241C683B3FA(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = C722EEE9E927245BA
   L2_2 = L2_2.S385504EFF7E842C3
@@ -1550,7 +1486,7 @@ function L70_1(A0_2, A1_2)
     L4_2, L5_2, L6_2, L7_2, L8_2 = L4_2(L5_2, L6_2)
     L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
     if nil ~= L2_2 then
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L4_2 = L3_2
       L3_2 = L3_2.FC8489078C201C47F
       L3_2 = L3_2(L4_2)
@@ -1567,7 +1503,7 @@ function L70_1(A0_2, A1_2)
       L4_2 = L2_2.F21CE9C6D25818071
       L4_2 = L4_2(L5_2)
       if "0" ~= L4_2 then
-        L4_2 = A0_2[3]
+        L4_2 = self[3]
         L5_2 = L4_2
         L4_2 = L4_2.FC8489078C201C47F
         L4_2 = L4_2(L5_2)
@@ -1581,7 +1517,7 @@ function L70_1(A0_2, A1_2)
         L4_2(L5_2, L6_2, L7_2, L8_2)
         L3_2 = 255
       end
-      L4_2 = A0_2[3]
+      L4_2 = self[3]
       L5_2 = L4_2
       L4_2 = L4_2.FB6D1FE1B1E10C33D
       L4_2 = L4_2(L5_2)
@@ -1617,7 +1553,7 @@ function L70_1(A0_2, A1_2)
     L7_2 = L2_2
     L5_2, L6_2, L7_2, L8_2 = L5_2(L6_2, L7_2)
     L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.FC8489078C201C47F
     L4_2 = L4_2(L5_2)
@@ -1629,7 +1565,7 @@ function L70_1(A0_2, A1_2)
     L7_2 = L7_2(L8_2)
     L8_2 = "dressup_item_name"
     L4_2(L5_2, L6_2, L7_2, L8_2)
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.FB6D1FE1B1E10C33D
     L4_2 = L4_2(L5_2)
@@ -1641,11 +1577,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F1C9CF28834043D07"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.SetOptionBar
+function C15081EBD8D9F4068_prototype:F1C9CF28834043D07(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.S5E67FD00348A0A28
@@ -1663,12 +1596,12 @@ function L70_1(A0_2, A1_2)
     L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
     L2_2 = C15081EBD8D9F4068
     L2_2 = L2_2.S9A4C1939E385CE42
-    L3_2 = A0_2[12]
+    L3_2 = self[12]
     L2_2 = L2_2[L3_2]
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F40439DC12124E002
-      L4_2 = A0_2[12]
+      L3_2 = self
+      L2_2 = self.F40439DC12124E002
+      L4_2 = self[12]
       L2_2 = L2_2(L3_2, L4_2)
       if not L2_2 then
         L2_2 = CF1D9D619D324F233
@@ -1710,20 +1643,17 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FAED06C15DD4BE55A"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.IsCoroutineResume
+function C15081EBD8D9F4068_prototype:FAED06C15DD4BE55A()
   local L1_2, L2_2
-  L1_2 = A0_2[13]
+  L1_2 = self[13]
   if nil == L1_2 then
     L1_2 = false
     return L1_2
   end
   L1_2 = L10_1.coroutine
   L1_2 = L1_2.status
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   L2_2 = L2_2[1]
   L1_2 = L1_2(L2_2)
   if "dead" ~= L1_2 then
@@ -1734,20 +1664,17 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FFBF23C8DE8293903"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.FrameInEvent
+function C15081EBD8D9F4068_prototype:FFBF23C8DE8293903(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F0098F0C8194C6B5F
+  L5_2 = self
+  L4_2 = self.F0098F0C8194C6B5F
   L6_2 = A1_2
   L7_2 = A3_2
   L4_2(L5_2, L6_2, L7_2)
   L4_2 = cECD2E4A5
   L4_2 = L4_2.f6906455E
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.F5FD6C6C1BD0F1C4F
   L5_2 = L5_2(L6_2)
@@ -1769,18 +1696,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F71D43D559A2B7423"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.F71D43D559A2B7423
+function C15081EBD8D9F4068_prototype:F71D43D559A2B7423()
   local L1_2, L2_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FC84A0D4D8CE89C7E
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.F758B9E27AA1CC5C8
     return L1_2(L2_2)
@@ -1790,13 +1714,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F296BBE54655C6496"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.DecideItemEvent
+function C15081EBD8D9F4068_prototype:F296BBE54655C6496(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2
-  L4_2 = A0_2
+  L4_2 = self
   L5_2 = C1DB14DCC9D7634FA
   L5_2 = L5_2.new
   
@@ -1847,32 +1768,29 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   
   L7_2 = "DressupUIDressMainView m_decidePushSuspendCoroutine"
   L5_2 = L5_2(L6_2, L7_2)
-  A0_2[17] = L5_2
+  self[17] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F47F07D625F4909F2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.CursorMoveEvent
+function C15081EBD8D9F4068_prototype:F47F07D625F4909F2(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L4_2 = A0_2
-  A0_2[9] = A1_2
+  L4_2 = self
+  self[9] = A1_2
   L5_2 = CF142AD871E7B1304
   L5_2 = L5_2.S385504EFF7E842C3
   L5_2 = L5_2()
   L6_2 = L5_2
   L5_2 = L5_2.FFF16B9FB4CE5935A
-  L7_2 = A0_2[12]
+  L7_2 = self[12]
   L5_2 = L5_2(L6_2, L7_2)
   if nil == L5_2 then
     return
   end
   L6_2 = L5_2[A1_2]
-  L7_2 = A0_2[12]
+  L7_2 = self[12]
   L8_2 = L6_2.isNew
   if true == L8_2 then
-    L8_2 = A0_2[14]
+    L8_2 = self[14]
     L9_2 = L8_2
     L8_2 = L8_2.F6624DD28F3DECC06
     L10_2 = L31_1.string
@@ -1942,21 +1860,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F5D3E0AF1270AEA65"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.CategoryNewIconSetup
+function C15081EBD8D9F4068_prototype:F5D3E0AF1270AEA65()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = 0
   while L1_2 < 8 do
     L1_2 = L1_2 + 1
     L2_2 = L1_2 - 1
-    L4_2 = A0_2
-    L3_2 = A0_2.FFF46371213AC9D4D
+    L4_2 = self
+    L3_2 = self.FFF46371213AC9D4D
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.FA23D39922B76B247
     L6_2 = L31_1.string
@@ -1987,18 +1902,15 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FFF46371213AC9D4D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.IsCategoryNew
+function C15081EBD8D9F4068_prototype:FFF46371213AC9D4D(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CF142AD871E7B1304
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
   L3_2 = L2_2
   L2_2 = L2_2.FFF16B9FB4CE5935A
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = 0
   while true do
@@ -2018,30 +1930,27 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F444F754FD0E7B5BF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.Rewrite
+function C15081EBD8D9F4068_prototype:F444F754FD0E7B5BF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L3_2 = L2_2
   L2_2 = L2_2.FF7208E213DA7B4AE
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L5_2 = L4_2
   L4_2 = L4_2.F7DE4E8717BE1E3EB
   L4_2 = L4_2(L5_2)
-  L5_2 = A0_2[10]
+  L5_2 = self[10]
   L6_2 = L5_2
   L5_2 = L5_2.F7DE4E8717BE1E3EB
   L5_2, L6_2 = L5_2(L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L3_2 = L2_2
   L2_2 = L2_2.F444F754FD0E7B5BF
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L3_2 = L2_2
   L2_2 = L2_2.FF7208E213DA7B4AE
   L4_2 = 1
@@ -2049,19 +1958,16 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F8D1011CC3E17A935"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.ResetModelAreaView
+function C15081EBD8D9F4068_prototype:F8D1011CC3E17A935(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L2_2 = L2_2[A1_2]
   if nil == L2_2 then
     return
   end
   if 7 ~= A1_2 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.F8B51B602EF384495
     L5_2 = C722EEE9E927245BA
@@ -2095,7 +2001,7 @@ function L70_1(A0_2, A1_2)
   L8_2 = true
   L9_2 = false
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
-  L4_2 = A0_2[19]
+  L4_2 = self[19]
   L5_2 = C722EEE9E927245BA
   L5_2 = L5_2.S385504EFF7E842C3
   L5_2 = L5_2()
@@ -2106,16 +2012,13 @@ function L70_1(A0_2, A1_2)
   L4_2[A1_2] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F742C938EDE23D5AC"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.ResetModelPartsAll
+function C15081EBD8D9F4068_prototype:F742C938EDE23D5AC()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C1C60E6E1EAFEE72D
   L1_2 = L1_2.S25B8AE921E6391A8
-  L2_2 = A0_2[8]
-  L3_2 = A0_2[19]
+  L2_2 = self[8]
+  L3_2 = self[19]
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = 0
   L3_2 = L1_2.length
@@ -2125,8 +2028,8 @@ function L70_1(A0_2)
     L5_2 = L2_2 - 1
     L6_2 = L1_2[L5_2]
     if -2 ~= L6_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.F8D1011CC3E17A935
+      L7_2 = self
+      L6_2 = self.F8D1011CC3E17A935
       L8_2 = L5_2
       L6_2(L7_2, L8_2)
     end
@@ -2135,7 +2038,7 @@ function L70_1(A0_2)
       break
     end
   end
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.FC96F149924287DCD
   L5_2(L6_2)
@@ -2143,8 +2046,8 @@ function L70_1(A0_2)
   L5_2 = L5_2.S760DAE4C5371A78E
   L5_2()
   while true do
-    L6_2 = A0_2
-    L5_2 = A0_2.F019F6CFDCADEA49F
+    L6_2 = self
+    L5_2 = self.F019F6CFDCADEA49F
     L5_2 = L5_2(L6_2)
     if not L5_2 then
       break
@@ -2155,25 +2058,19 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "F019F6CFDCADEA49F"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.F019F6CFDCADEA49F
+function C15081EBD8D9F4068_prototype:F019F6CFDCADEA49F()
   local L1_2, L2_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.F84011CCF36B9CFD9
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15081EBD8D9F4068"]["prototype"]
-L69_1 = "FD70C9EBCF631D9E8"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainView.SetFaceCancel
+function C15081EBD8D9F4068_prototype:FD70C9EBCF631D9E8()
   local L1_2
-  A0_2[16] = true
+  self[16] = true
 end
 
 L68_1[L69_1] = L70_1

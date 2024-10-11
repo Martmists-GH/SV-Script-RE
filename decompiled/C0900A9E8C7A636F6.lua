@@ -1,3 +1,6 @@
+---@alias C111EAD6042B6202C main_env_weather_WeatherLightUpdater
+
+---@class main_env_weather_WeatherLightUpdater
 L55_1 = _ENV
 L56_1 = "C0900A9E8C7A636F6"
 L57_1 = L15_1

@@ -1,15 +1,12 @@
-L55_1 = _ENV
-L56_1 = "CAA65E782763AD2EF"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
+---@alias CAA65E782763AD2EF main_npc_management_traffic_NpcTrafficManager
+
+---@class main_npc_management_traffic_NpcTrafficManager : CAA65E782763AD2EF_prototype
+---@field prototype CAA65E782763AD2EF_prototype
+CAA65E782763AD2EF = L15_1()
 L55_1 = L15_1
 L55_1 = L55_1()
 C2E2D9DF9163A754B = L55_1
-L68_1 = _ENV["CAA65E782763AD2EF"]
-L69_1 = "new"
-
-function L70_1(A0_2)
+function CAA65E782763AD2EF.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CAA65E782763AD2EF
@@ -25,11 +22,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CAA65E782763AD2EF
+function CAA65E782763AD2EF.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
@@ -92,11 +86,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]
-L69_1 = "SD93AEA38E86253DE"
-
-function L70_1(A0_2)
+--- main.npc_management.traffic.NpcTrafficManager.createPath
+function CAA65E782763AD2EF.SD93AEA38E86253DE(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C890366F7A3F0AC53
   L1_2 = L1_2.new
@@ -147,11 +138,8 @@ function L70_1(A0_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]
-L69_1 = "S045A5FF10ECD1439"
-
-function L70_1(A0_2)
+--- main.npc_management.traffic.NpcTrafficManager.createPath_P
+function CAA65E782763AD2EF.S045A5FF10ECD1439(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C890366F7A3F0AC53
   L1_2 = L1_2.S8C7D88A4D7F72BCB
@@ -191,28 +179,23 @@ function L70_1(A0_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CAA65E782763AD2EF_prototype
+CAA65E782763AD2EF_prototype = L15_1()
+CAA65E782763AD2EF.prototype = CAA65E782763AD2EF_prototype
+--- main.npc_management.traffic.NpcTrafficManager.Setup
+function CAA65E782763AD2EF_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = CAA65E782763AD2EF
   L3_2 = L3_2.S264F26F6894F3392
   if nil ~= L3_2 then
     return
   end
   L3_2 = CAA65E782763AD2EF
-  L3_2.S264F26F6894F3392 = A0_2
+  L3_2.S264F26F6894F3392 = self
   L3_2 = cCF781FB6
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.f024ADB0D
@@ -222,20 +205,20 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.new
   L4_2 = cF52F390B
   L4_2 = L4_2.fB41FD22F
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
   L5_2 = L4_2
   L4_2 = L4_2.f287946D6
   L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L4_2(L5_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-  A0_2[5] = L3_2
+  self[5] = L3_2
   L3_2 = CAA65E782763AD2EF
   L3_2 = L3_2.S2CF3571E7DF5D487
   L4_2 = L3_2
   L3_2 = L3_2.FE45C29332EA0C8F8
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.F0F6A49D47602D80F
+  L6_2 = self
+  L7_2 = self.F0F6A49D47602D80F
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
   L3_2 = CAA65E782763AD2EF
@@ -243,12 +226,12 @@ function L70_1(A0_2, A1_2)
   L4_2 = L3_2
   L3_2 = L3_2.FE45C29332EA0C8F8
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.F0F6A49D47602D80F
+  L6_2 = self
+  L7_2 = self.F0F6A49D47602D80F
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
   L3_2 = 6
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.f462C9B70
   L4_2 = L4_2(L5_2)
@@ -276,7 +259,7 @@ function L70_1(A0_2, A1_2)
   L7_2.func = L8_2
   L6_2 = L6_2(L7_2)
   L7_2 = L5_2[3]
-  L8_2 = A0_2
+  L8_2 = self
   L9_2 = L7_2.h
   L9_2[L8_2] = L6_2
   L9_2 = L7_2.k
@@ -320,33 +303,30 @@ function L70_1(A0_2, A1_2)
   L9_2 = L9_2.F7953855FED0388FF
   L11_2 = "NpcTraffic"
   L12_2 = L55_1
-  L13_2 = A0_2
-  L14_2 = A0_2.FC4FD342B50229D4B
+  L13_2 = self
+  L14_2 = self.FC4FD342B50229D4B
   L12_2, L13_2, L14_2 = L12_2(L13_2, L14_2)
   L9_2(L10_2, L11_2, L12_2, L13_2, L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]["prototype"]
-L69_1 = "F5F0E47BB0745F30D"
-
-function L70_1(A0_2, A1_2)
+--- main.npc_management.traffic.NpcTrafficManager.updateNpcNumMax
+function CAA65E782763AD2EF_prototype:F5F0E47BB0745F30D(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2.npcNumMax
   if L2_2 ~= A1_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L2_2.npcNumMax = A1_2
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     if L2_2 then
-      L2_2 = A0_2[3]
+      L2_2 = self[3]
       if not L2_2 then
-        L3_2 = A0_2
-        L2_2 = A0_2.FBFEBD268F15274EC
+        L3_2 = self
+        L2_2 = self.FBFEBD268F15274EC
         L4_2 = false
         L2_2(L3_2, L4_2)
-        L3_2 = A0_2
-        L2_2 = A0_2.FBFEBD268F15274EC
+        L3_2 = self
+        L2_2 = self.FBFEBD268F15274EC
         L4_2 = true
         L2_2(L3_2, L4_2)
       end
@@ -354,17 +334,14 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.npc_management.traffic.NpcTrafficManager.PreUpdate
+function CAA65E782763AD2EF_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2
   L2_2 = L58_1
   L3_2 = C075A638F130352C3
   L3_2 = L3_2.S44460EB93267F798
   L2_2 = L2_2(L3_2)
-  A0_2[8] = L2_2
+  self[8] = L2_2
   L2_2 = CAA65E782763AD2EF
   L2_2 = L2_2.S2CF3571E7DF5D487
   L3_2 = L2_2
@@ -375,9 +352,9 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.FEB6685558281F194
   L2_2(L3_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     if not L2_2 then
       goto lbl_21
     end
@@ -389,8 +366,8 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.F42D70449FF49DAF5
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F08631D47EC5C540A
+  L5_2 = self
+  L6_2 = self.F08631D47EC5C540A
   L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2)
   L2_2 = CAA65E782763AD2EF
@@ -398,28 +375,28 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.F42D70449FF49DAF5
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F08631D47EC5C540A
+  L5_2 = self
+  L6_2 = self.F08631D47EC5C540A
   L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2)
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L2_2 = L2_2.h
   while nil ~= L2_2 do
     L3_2 = L2_2.item
     L2_2 = L2_2.next
     L5_2 = L3_2
     L4_2 = L3_2.F8AABDEBD73E1E5AD
-    L6_2 = A0_2[8]
+    L6_2 = self[8]
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L4_2 = A0_2[7]
+      L4_2 = self[7]
       L5_2 = L4_2
       L4_2 = L4_2.remove
       L6_2 = L3_2
       L4_2(L5_2, L6_2)
     end
   end
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L4_2 = L3_2
   L3_2 = L3_2.FB205734ADD6E24F9
   L3_2(L4_2)
@@ -428,8 +405,8 @@ function L70_1(A0_2, A1_2)
   L4_2 = L3_2
   L3_2 = L3_2.F42D70449FF49DAF5
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.FD1A8FF919DD11371
+  L6_2 = self
+  L7_2 = self.FD1A8FF919DD11371
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2)
   L3_2 = CAA65E782763AD2EF
@@ -437,11 +414,11 @@ function L70_1(A0_2, A1_2)
   L4_2 = L3_2
   L3_2 = L3_2.F42D70449FF49DAF5
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.FD1A8FF919DD11371
+  L6_2 = self
+  L7_2 = self.FD1A8FF919DD11371
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2)
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L4_2 = L3_2
   L3_2 = L3_2.resize
   L5_2 = 0
@@ -451,8 +428,8 @@ function L70_1(A0_2, A1_2)
   L4_2 = L3_2
   L3_2 = L3_2.F42D70449FF49DAF5
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.FCB207D4B231C76E7
+  L6_2 = self
+  L7_2 = self.FCB207D4B231C76E7
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2)
   L3_2 = CAA65E782763AD2EF
@@ -460,20 +437,20 @@ function L70_1(A0_2, A1_2)
   L4_2 = L3_2
   L3_2 = L3_2.F42D70449FF49DAF5
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.FCB207D4B231C76E7
+  L6_2 = self
+  L7_2 = self.FCB207D4B231C76E7
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2)
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L3_2 = L3_2.npcNumMax
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L3_2 = L3_2 - L4_2
   if L3_2 < 0 then
     L3_2 = 0
   end
   L4_2 = C764E5AE41553760D
   L4_2 = L4_2.S1EF2A87CA2BE25CA
-  L5_2 = A0_2[11]
+  L5_2 = self[11]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = 0
@@ -594,12 +571,12 @@ function L70_1(A0_2, A1_2)
             L6_2 = true
             break
           end
-          L21_2 = A0_2[9]
+          L21_2 = self[9]
           L21_2 = L21_2 + 1
-          A0_2[9] = L21_2
-          L21_2 = A0_2[10]
+          self[9] = L21_2
+          L21_2 = self[10]
           L21_2 = L21_2 + L20_2
-          A0_2[10] = L21_2
+          self[10] = L21_2
           L21_2 = L16_1
           L22_2 = {}
           L23_2 = {}
@@ -614,7 +591,7 @@ function L70_1(A0_2, A1_2)
           L22_2.index = L23_2
           L21_2 = L21_2(L22_2)
           L22_2 = L8_2.path
-          L23_2 = A0_2[1]
+          L23_2 = self[1]
           L24_2 = L23_2
           L23_2 = L23_2.f462C9B70
           L23_2 = L23_2(L24_2)
@@ -650,7 +627,7 @@ function L70_1(A0_2, A1_2)
           L25_2 = L25_2.add
           L27_2 = L24_2
           L25_2(L26_2, L27_2)
-          L25_2 = A0_2[7]
+          L25_2 = self[7]
           L26_2 = L25_2
           L25_2 = L25_2.push
           L27_2 = L24_2
@@ -686,49 +663,40 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]["prototype"]
-L69_1 = "FBFEBD268F15274EC"
-
-function L70_1(A0_2, A1_2)
+--- main.npc_management.traffic.NpcTrafficManager.SetEnable
+function CAA65E782763AD2EF_prototype:FBFEBD268F15274EC(A1_2)
   local L2_2, L3_2
-  A0_2[2] = A1_2
-  L2_2 = A0_2[2]
+  self[2] = A1_2
+  L2_2 = self[2]
   if not L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F044D59774D5C1DBD
+    L3_2 = self
+    L2_2 = self.F044D59774D5C1DBD
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]["prototype"]
-L69_1 = "FC55C1F2AE4AA4546"
-
-function L70_1(A0_2, A1_2)
+--- main.npc_management.traffic.NpcTrafficManager.FC55C1F2AE4AA4546
+function CAA65E782763AD2EF_prototype:FC55C1F2AE4AA4546(A1_2)
   local L2_2, L3_2
-  A0_2[3] = A1_2
-  L2_2 = A0_2[3]
+  self[3] = A1_2
+  L2_2 = self[3]
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F044D59774D5C1DBD
+    L3_2 = self
+    L2_2 = self.F044D59774D5C1DBD
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]["prototype"]
-L69_1 = "F044D59774D5C1DBD"
-
-function L70_1(A0_2)
+--- main.npc_management.traffic.NpcTrafficManager.F044D59774D5C1DBD
+function CAA65E782763AD2EF_prototype:F044D59774D5C1DBD()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CAA65E782763AD2EF
   L1_2 = L1_2.S2CF3571E7DF5D487
   L2_2 = L1_2
   L1_2 = L1_2.F42D70449FF49DAF5
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F883A2367DD0011CA
+  L4_2 = self
+  L5_2 = self.F883A2367DD0011CA
   L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
   L1_2 = CAA65E782763AD2EF
@@ -736,30 +704,27 @@ function L70_1(A0_2)
   L2_2 = L1_2
   L1_2 = L1_2.F42D70449FF49DAF5
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F883A2367DD0011CA
+  L4_2 = self
+  L5_2 = self.F883A2367DD0011CA
   L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]["prototype"]
-L69_1 = "F883A2367DD0011CA"
-
-function L70_1(A0_2, A1_2)
+--- main.npc_management.traffic.NpcTrafficManager.onDestroy
+function CAA65E782763AD2EF_prototype:F883A2367DD0011CA(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = A1_2.units
   L2_2 = L2_2.h
   while nil ~= L2_2 do
     L3_2 = L2_2.item
     L2_2 = L2_2.next
-    L4_2 = A0_2[9]
+    L4_2 = self[9]
     L4_2 = L4_2 - 1
-    A0_2[9] = L4_2
-    L4_2 = A0_2[10]
+    self[9] = L4_2
+    L4_2 = self[10]
     L5_2 = L3_2[5]
     L4_2 = L4_2 - L5_2
-    A0_2[10] = L4_2
+    self[10] = L4_2
     L5_2 = L3_2
     L4_2 = L3_2.F1C2AA00ADAC52EC5
     L4_2(L5_2)
@@ -771,35 +736,29 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]["prototype"]
-L69_1 = "F0F6A49D47602D80F"
-
-function L70_1(A0_2, A1_2)
+--- main.npc_management.traffic.NpcTrafficManager.onRemovePath
+function CAA65E782763AD2EF_prototype:F0F6A49D47602D80F(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = A1_2.units
   L2_2 = L2_2.h
   while nil ~= L2_2 do
     L3_2 = L2_2.item
     L2_2 = L2_2.next
-    L4_2 = A0_2[9]
+    L4_2 = self[9]
     L4_2 = L4_2 - 1
-    A0_2[9] = L4_2
-    L4_2 = A0_2[10]
+    self[9] = L4_2
+    L4_2 = self[10]
     L5_2 = L3_2[5]
     L4_2 = L4_2 - L5_2
-    A0_2[10] = L4_2
+    self[10] = L4_2
     L5_2 = L3_2
     L4_2 = L3_2.F1C2AA00ADAC52EC5
     L4_2(L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]["prototype"]
-L69_1 = "FC4FD342B50229D4B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.npc_management.traffic.NpcTrafficManager.FC4FD342B50229D4B
+function CAA65E782763AD2EF_prototype:FC4FD342B50229D4B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CAA65E782763AD2EF
   L3_2 = L3_2.S2CF3571E7DF5D487
@@ -826,18 +785,15 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2 = not A2_2
   L4_2[5] = L5_2
   if false == A2_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F0F6A49D47602D80F
+    L5_2 = self
+    L4_2 = self.F0F6A49D47602D80F
     L6_2 = L3_2
     L4_2(L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]["prototype"]
-L69_1 = "F08631D47EC5C540A"
-
-function L70_1(A0_2, A1_2)
+--- main.npc_management.traffic.NpcTrafficManager.onUpdatePath
+function CAA65E782763AD2EF_prototype:F08631D47EC5C540A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = 0
   L3_2 = A1_2.path
@@ -852,18 +808,15 @@ function L70_1(A0_2, A1_2)
     L5_2 = L4_2[1]
     if L5_2 > 0 then
       L5_2 = L4_2[1]
-      L6_2 = A0_2[8]
+      L6_2 = self[8]
       L5_2 = L5_2 - L6_2
       L4_2[1] = L5_2
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]["prototype"]
-L69_1 = "FD1A8FF919DD11371"
-
-function L70_1(A0_2, A1_2)
+--- main.npc_management.traffic.NpcTrafficManager.optimizeUnits
+function CAA65E782763AD2EF_prototype:FD1A8FF919DD11371(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = A1_2.units
   L2_2 = L2_2.h
@@ -880,13 +833,13 @@ function L70_1(A0_2, A1_2)
         goto lbl_31
       end
     end
-    L5_2 = A0_2[9]
+    L5_2 = self[9]
     L5_2 = L5_2 - 1
-    A0_2[9] = L5_2
-    L5_2 = A0_2[10]
+    self[9] = L5_2
+    L5_2 = self[10]
     L6_2 = L4_2[5]
     L5_2 = L5_2 - L6_2
-    A0_2[10] = L5_2
+    self[10] = L5_2
     L5_2 = A1_2.units
     L6_2 = L5_2
     L5_2 = L5_2.remove
@@ -955,13 +908,13 @@ function L70_1(A0_2, A1_2)
       L5_2 = false
       ::lbl_86::
       if L5_2 then
-        L7_2 = A0_2[9]
+        L7_2 = self[9]
         L7_2 = L7_2 - 1
-        A0_2[9] = L7_2
-        L7_2 = A0_2[10]
+        self[9] = L7_2
+        L7_2 = self[10]
         L8_2 = L4_2[5]
         L7_2 = L7_2 - L8_2
-        A0_2[10] = L7_2
+        self[10] = L7_2
         L8_2 = L4_2
         L7_2 = L4_2.F1C2AA00ADAC52EC5
         L7_2(L8_2)
@@ -973,19 +926,19 @@ function L70_1(A0_2, A1_2)
         goto lbl_164
       end
     else
-      L5_2 = A0_2[6]
+      L5_2 = self[6]
       L6_2 = L5_2
       L5_2 = L5_2.F8D410C8A96B2DED5
       L7_2 = L4_2
       L5_2 = L5_2(L6_2, L7_2)
       if L5_2 then
-        L5_2 = A0_2[9]
+        L5_2 = self[9]
         L5_2 = L5_2 - 1
-        A0_2[9] = L5_2
-        L5_2 = A0_2[10]
+        self[9] = L5_2
+        L5_2 = self[10]
         L6_2 = L4_2[5]
         L5_2 = L5_2 - L6_2
-        A0_2[10] = L5_2
+        self[10] = L5_2
         L6_2 = L4_2
         L5_2 = L4_2.F1C2AA00ADAC52EC5
         L5_2(L6_2)
@@ -998,7 +951,7 @@ function L70_1(A0_2, A1_2)
       end
     end
     ::lbl_127::
-    L5_2 = A0_2[6]
+    L5_2 = self[6]
     L6_2 = L5_2
     L5_2 = L5_2.F9A748DD08AB05A5E
     L7_2 = L4_2
@@ -1051,11 +1004,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA65E782763AD2EF"]["prototype"]
-L69_1 = "FCB207D4B231C76E7"
-
-function L70_1(A0_2, A1_2)
+--- main.npc_management.traffic.NpcTrafficManager.FCB207D4B231C76E7
+function CAA65E782763AD2EF_prototype:FCB207D4B231C76E7(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = A1_2.path
   L2_2 = L2_2[5]
@@ -1075,7 +1025,7 @@ function L70_1(A0_2, A1_2)
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L6_2 = L3_2 - 1
-    L7_2 = A0_2[6]
+    L7_2 = self[6]
     L8_2 = A1_2.path
     L8_2 = L8_2[3]
     L8_2 = L8_2[L6_2]
@@ -1172,7 +1122,7 @@ function L70_1(A0_2, A1_2)
     end
     L8_2 = L6_2[L7_2]
     L7_2 = L7_2 + 1
-    L9_2 = A0_2[11]
+    L9_2 = self[11]
     L10_2 = L9_2
     L9_2 = L9_2.push
     L11_2 = L16_1

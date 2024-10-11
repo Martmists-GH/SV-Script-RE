@@ -1,3 +1,6 @@
+---@alias C32E21AA2D5D0A69E main_nushi_jimen_b_JimenNushiEvent020Setup_B
+
+---@class main_nushi_jimen_b_JimenNushiEvent020Setup_B
 L55_1 = _ENV
 L56_1 = "C76B12AFC23616527"
 L57_1 = L15_1

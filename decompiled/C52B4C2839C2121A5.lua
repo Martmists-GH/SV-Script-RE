@@ -1,3 +1,5 @@
+---@class C52B4C2839C2121A5 : C52B4C2839C2121A5_prototype
+---@field prototype C52B4C2839C2121A5_prototype
 L55_1 = _ENV
 L56_1 = "C52B4C2839C2121A5"
 L57_1 = L15_1
@@ -98,53 +100,42 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C52B4C2839C2121A5"]
 L69_1 = "__name__"
 L70_1 = "C52B4C2839C2121A5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52B4C2839C2121A5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52B4C2839C2121A5"]["prototype"]
-L69_1 = "F353D11E1B9A692C4"
-
-function L70_1(A0_2)
+---@class C52B4C2839C2121A5_prototype
+C52B4C2839C2121A5_prototype = L15_1()
+C52B4C2839C2121A5.prototype = C52B4C2839C2121A5_prototype
+--- C52B4C2839C2121A5.get_Length
+function C52B4C2839C2121A5_prototype:F353D11E1B9A692C4()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L1_2 = L1_2.length
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52B4C2839C2121A5"]["prototype"]
-L69_1 = "F87972F52753D499F"
-
-function L70_1(A0_2, A1_2)
+--- C52B4C2839C2121A5.GetData
+function C52B4C2839C2121A5_prototype:F87972F52753D499F(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[1]
-  L4_2 = A0_2
-  L3_2 = A0_2.FF2D4608C8E7FB328
+  L2_2 = self[1]
+  L4_2 = self
+  L3_2 = self.FF2D4608C8E7FB328
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   L2_2 = L2_2[L3_2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52B4C2839C2121A5"]["prototype"]
-L69_1 = "FF2D4608C8E7FB328"
-
-function L70_1(A0_2, A1_2)
+--- C52B4C2839C2121A5.fitIndex
+function C52B4C2839C2121A5_prototype:FF2D4608C8E7FB328(A1_2)
   local L2_2, L3_2
   if A1_2 < 0 then
     L2_2 = 0
     return L2_2
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.F353D11E1B9A692C4
+    L3_2 = self
+    L2_2 = self.F353D11E1B9A692C4
     L2_2 = L2_2(L3_2)
     if A1_2 >= L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F353D11E1B9A692C4
+      L3_2 = self
+      L2_2 = self.F353D11E1B9A692C4
       L2_2 = L2_2(L3_2)
       L2_2 = L2_2 - 1
       return L2_2

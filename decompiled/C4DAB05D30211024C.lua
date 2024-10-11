@@ -1,3 +1,5 @@
+---@class C4DAB05D30211024C : C4DAB05D30211024C_prototype
+---@field prototype C4DAB05D30211024C_prototype
 L55_1 = _ENV
 L56_1 = "C4DAB05D30211024C"
 L57_1 = L15_1
@@ -43,36 +45,28 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4DAB05D30211024C"]
 L69_1 = "__name__"
 L70_1 = "C4DAB05D30211024C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAB05D30211024C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAB05D30211024C"]["prototype"]
-L69_1 = "F7A3D296366E973CB"
-
-function L70_1(A0_2)
+---@class C4DAB05D30211024C_prototype
+C4DAB05D30211024C_prototype = L15_1()
+C4DAB05D30211024C.prototype = C4DAB05D30211024C_prototype
+--- C4DAB05D30211024C.Initialize
+function C4DAB05D30211024C_prototype:F7A3D296366E973CB()
   local L1_2
-  A0_2[3] = 0.0
+  self[3] = 0.0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAB05D30211024C"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- C4DAB05D30211024C.Update
+function C4DAB05D30211024C_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2 + A1_2
-  A0_2[3] = L2_2
-  L2_2 = A0_2[3]
-  L3_2 = A0_2[2]
+  self[3] = L2_2
+  L2_2 = self[3]
+  L3_2 = self[2]
   if L2_2 >= L3_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F28EAF3B3AA178E3E
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L4_2 = L4_2[12]
     L2_2(L3_2, L4_2)
   end

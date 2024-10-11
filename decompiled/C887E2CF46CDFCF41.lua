@@ -1,63 +1,42 @@
-L55_1 = _ENV
-L56_1 = "C887E2CF46CDFCF41"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "__name__"
-L70_1 = "C887E2CF46CDFCF41"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "S812885FD68C7A691"
+---@alias C887E2CF46CDFCF41 main_ui_result_BattleResultUIManager
 
-function L70_1()
+---@class main_ui_result_BattleResultUIManager
+C887E2CF46CDFCF41 = L15_1()
+C887E2CF46CDFCF41.new = {}
+C887E2CF46CDFCF41.__name__ = "C887E2CF46CDFCF41"
+--- main.ui.result.BattleResultUIManager.get_resultData
+function C887E2CF46CDFCF41.S812885FD68C7A691()
   local L0_2, L1_2
   L0_2 = C887E2CF46CDFCF41
   L0_2 = L0_2.S598AB94D7D4D5A0C
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "S5B2496ED69BB45C8"
-
-function L70_1()
+--- main.ui.result.BattleResultUIManager.get_wazaResultData
+function C887E2CF46CDFCF41.S5B2496ED69BB45C8()
   local L0_2, L1_2
   L0_2 = C887E2CF46CDFCF41
   L0_2 = L0_2.S0587446F8BC5588D
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "S5042625DD665C5BF"
-
-function L70_1(A0_2)
+--- main.ui.result.BattleResultUIManager.S5042625DD665C5BF
+function C887E2CF46CDFCF41.S5042625DD665C5BF(A0_2)
   local L1_2
   L1_2 = C887E2CF46CDFCF41
   L1_2.SF4DC7E136774ADA0 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "SC2F5309BAAE1F710"
-
-function L70_1()
+--- main.ui.result.BattleResultUIManager.SC2F5309BAAE1F710
+function C887E2CF46CDFCF41.SC2F5309BAAE1F710()
   local L0_2, L1_2
   L0_2 = C887E2CF46CDFCF41
   L0_2 = L0_2.SBB4C5BEC82544675
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "SBBBB901C7E36781C"
-
-function L70_1(A0_2)
+--- main.ui.result.BattleResultUIManager.SBBBB901C7E36781C
+function C887E2CF46CDFCF41.SBBBB901C7E36781C(A0_2)
   local L1_2
   L1_2 = C887E2CF46CDFCF41
   L1_2.SBB4C5BEC82544675 = A0_2
@@ -66,11 +45,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "S2DC096BD650D7748"
-
-function L70_1(A0_2)
+--- main.ui.result.BattleResultUIManager.IsLevelUp
+function C887E2CF46CDFCF41.S2DC096BD650D7748(A0_2)
   local L1_2
   L1_2 = C887E2CF46CDFCF41
   L1_2 = L1_2.S5B2496ED69BB45C8
@@ -90,22 +66,16 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "S3C09EF82EE5C8C84"
-
-function L70_1()
+--- main.ui.result.BattleResultUIManager.get_isResultWait
+function C887E2CF46CDFCF41.S3C09EF82EE5C8C84()
   local L0_2, L1_2
   L0_2 = C887E2CF46CDFCF41
   L0_2 = L0_2.S6DC9C06BDFB93785
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "SDA66571CB43AD463"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.result.BattleResultUIManager.DataSet
+function C887E2CF46CDFCF41.SDA66571CB43AD463(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = C887E2CF46CDFCF41
   L3_2 = L16_1
@@ -164,11 +134,8 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "SC22C2773A68837D3"
-
-function L70_1(A0_2)
+--- main.ui.result.BattleResultUIManager.SceneLoad
+function C887E2CF46CDFCF41.SC22C2773A68837D3(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = nil
   L2_2 = c5800AB1A
@@ -237,11 +204,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "S818A414373478AEB"
-
-function L70_1(A0_2)
+--- main.ui.result.BattleResultUIManager.CheckSetupTimeout
+function C887E2CF46CDFCF41.S818A414373478AEB(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C887E2CF46CDFCF41
   L1_2 = L1_2.S884C725157E96A03
@@ -312,11 +276,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "S768600CE8B68B7F8"
-
-function L70_1()
+--- main.ui.result.BattleResultUIManager.SceneUnLoad
+function C887E2CF46CDFCF41.S768600CE8B68B7F8()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = C887E2CF46CDFCF41
   L0_2.S884C725157E96A03 = false
@@ -353,11 +314,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "S142A5FCF556F5DFD"
-
-function L70_1()
+--- main.ui.result.BattleResultUIManager.ResultSequenceForceEnd
+function C887E2CF46CDFCF41.S142A5FCF556F5DFD()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -411,11 +369,8 @@ function L70_1()
   L7_2(L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C887E2CF46CDFCF41"]
-L69_1 = "S5AD517659B856976"
-
-function L70_1(A0_2)
+--- main.ui.result.BattleResultUIManager.IsWazaLearning
+function C887E2CF46CDFCF41.S5AD517659B856976(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = C887E2CF46CDFCF41
   L1_2 = L1_2.S5B2496ED69BB45C8

@@ -1,3 +1,7 @@
+---@alias C8937517D6B25B7C0 main_ui_btlspot_state_machine_base_BattleSpotStateBase
+
+---@class main_ui_btlspot_state_machine_base_BattleSpotStateBase : C8937517D6B25B7C0_prototype
+---@field prototype C8937517D6B25B7C0_prototype
 L55_1 = _ENV
 L56_1 = "C8937517D6B25B7C0"
 L57_1 = L15_1
@@ -37,49 +41,35 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8937517D6B25B7C0"]
 L69_1 = "__name__"
 L70_1 = "C8937517D6B25B7C0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8937517D6B25B7C0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8937517D6B25B7C0"]["prototype"]
-L69_1 = "FD8ABEE5C76044721"
-
-function L70_1(A0_2)
+---@class C8937517D6B25B7C0_prototype
+C8937517D6B25B7C0_prototype = L15_1()
+C8937517D6B25B7C0.prototype = C8937517D6B25B7C0_prototype
+--- main.ui.btlspot.state_machine.base.BattleSpotStateBase.get_uiManager
+function C8937517D6B25B7C0_prototype:FD8ABEE5C76044721()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L1_2 = L1_2[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8937517D6B25B7C0"]["prototype"]
-L69_1 = "F8359A416BFC9A70B"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.base.BattleSpotStateBase.get_netData
+function C8937517D6B25B7C0_prototype:F8359A416BFC9A70B()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L1_2 = L1_2[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8937517D6B25B7C0"]["prototype"]
-L69_1 = "F0BF10AFD6812CB3E"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.base.BattleSpotStateBase.get_networkData
+function C8937517D6B25B7C0_prototype:F0BF10AFD6812CB3E()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L1_2 = L1_2[4]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8937517D6B25B7C0"]["prototype"]
-L69_1 = "FA6AEAE2E9B0CF940"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.state_machine.base.BattleSpotStateBase.StartContextMessageID
+function C8937517D6B25B7C0_prototype:FA6AEAE2E9B0CF940(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CD950F4AD2C2702A1
   L2_2 = L2_2.S7D05D34C291DA69E
@@ -113,11 +103,8 @@ function L70_1(A0_2, A1_2)
   return L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8937517D6B25B7C0"]["prototype"]
-L69_1 = "F7C06F6BEA957F0E6"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.btlspot.state_machine.base.BattleSpotStateBase.StartUserMessageID
+function C8937517D6B25B7C0_prototype:F7C06F6BEA957F0E6(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = true
@@ -170,11 +157,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8937517D6B25B7C0"]["prototype"]
-L69_1 = "F56BA4E60249011BB"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.state_machine.base.BattleSpotStateBase.F56BA4E60249011BB
+function C8937517D6B25B7C0_prototype:F56BA4E60249011BB(A1_2)
   local L2_2, L3_2
   L2_2 = c7A86676E
   L2_2 = L2_2.fA10D181B
@@ -195,11 +179,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8937517D6B25B7C0"]["prototype"]
-L69_1 = "F6D4A28EDDE86017A"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.base.BattleSpotStateBase.F6D4A28EDDE86017A
+function C8937517D6B25B7C0_prototype:F6D4A28EDDE86017A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C1A74EACB965E9126
   L1_2 = L1_2.SB74BA11BEA4B1B2C
@@ -224,19 +205,16 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8937517D6B25B7C0"]["prototype"]
-L69_1 = "F89E3FF4E67DF166D"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.base.BattleSpotStateBase.F89E3FF4E67DF166D
+function C8937517D6B25B7C0_prototype:F89E3FF4E67DF166D()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C8937517D6B25B7C0
   L1_2 = L1_2.S0193A626A4F33D34
   if false == L1_2 then
     L1_2 = C8937517D6B25B7C0
     L1_2.S0193A626A4F33D34 = true
-    L2_2 = A0_2
-    L1_2 = A0_2.F6D4A28EDDE86017A
+    L2_2 = self
+    L1_2 = self.F6D4A28EDDE86017A
     L1_2 = L1_2(L2_2)
     L2_2 = C1A74EACB965E9126
     L2_2 = L2_2.SF98592F286BB6BAF
@@ -271,8 +249,8 @@ function L70_1(A0_2)
       L4_2 = nil
       L3_2(L4_2)
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.FD8ABEE5C76044721
+    L4_2 = self
+    L3_2 = self.FD8ABEE5C76044721
     L3_2 = L3_2(L4_2)
     L4_2 = L3_2
     L3_2 = L3_2.F2FBB004A3763CEBD

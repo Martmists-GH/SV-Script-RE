@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C02F0E8673B660BDF"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "__name__"
-L70_1 = "C02F0E8673B660BDF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S911598616BAC06BC"
+---@alias C02F0E8673B660BDF main_pokepicnic_PicnicUtil
 
-function L70_1(A0_2, A1_2)
+---@class main_pokepicnic_PicnicUtil
+C02F0E8673B660BDF = L15_1()
+C02F0E8673B660BDF.new = {}
+C02F0E8673B660BDF.__name__ = "C02F0E8673B660BDF"
+--- main.pokepicnic.PicnicUtil.SetModelVisibility
+function C02F0E8673B660BDF.S911598616BAC06BC(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cECB91E31
   L2_2 = L2_2.fB41FD22F
@@ -34,11 +25,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S37EA5FA9EA9F84D2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.pokepicnic.PicnicUtil.RiseFriendShip
+function C02F0E8673B660BDF.S37EA5FA9EA9F84D2(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   if nil == A4_2 then
     A4_2 = false
@@ -158,11 +146,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S442529D086E3EA3B"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicUtil.GetFriendShipRank
+function C02F0E8673B660BDF.S442529D086E3EA3B(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if 255 == A0_2 then
     L1_2 = 7
@@ -301,11 +286,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S296DC3767495E29B"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicUtil.GetExParam
+function C02F0E8673B660BDF.S296DC3767495E29B(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.fFCE06E04
@@ -332,11 +314,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S472247507263D60D"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicUtil.GetPokeEffScale
+function C02F0E8673B660BDF.S472247507263D60D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = c4E28AB7C
@@ -396,11 +375,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S8469CFC3565A8A96"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.PicnicUtil.ImapPicnicPokeRequest
+function C02F0E8673B660BDF.S8469CFC3565A8A96(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = nil
   L3_2 = c113335A8
@@ -450,22 +426,16 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S4CCF469264DD2611"
-
-function L70_1()
+--- main.pokepicnic.PicnicUtil.PartnerDestroy
+function C02F0E8673B660BDF.S4CCF469264DD2611()
   local L0_2, L1_2
   L0_2 = c2FB59E8B
   L0_2 = L0_2.f4DEAA13C
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S92F44AA7751BA6FC"
-
-function L70_1()
+--- main.pokepicnic.PicnicUtil.RideOff
+function C02F0E8673B660BDF.S92F44AA7751BA6FC()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = L3_1
   L1_2 = CFC8F368D91411014
@@ -559,11 +529,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S9939D62829E47C68"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicUtil.S9939D62829E47C68
+function C02F0E8673B660BDF.S9939D62829E47C68(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CB4E56E9599A85891
   L1_2 = L1_2.SB32F8056822F914F
@@ -587,11 +554,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S681F2DFDCCD5100E"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicUtil.S681F2DFDCCD5100E
+function C02F0E8673B660BDF.S681F2DFDCCD5100E(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = c452EA11F
@@ -637,11 +601,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "SA175AFA25D95E5F2"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicUtil.SA175AFA25D95E5F2
+function C02F0E8673B660BDF.SA175AFA25D95E5F2(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c452EA11F
@@ -662,11 +623,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "SB36119A267E7022F"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicUtil.SB36119A267E7022F
+function C02F0E8673B660BDF.SB36119A267E7022F(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c452EA11F
@@ -687,11 +645,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S0B8BC4363B711499"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicUtil.S0B8BC4363B711499
+function C02F0E8673B660BDF.S0B8BC4363B711499(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = c452EA11F
@@ -723,11 +678,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S2F9F171453B072D2"
-
-function L70_1()
+--- main.pokepicnic.PicnicUtil.S2F9F171453B072D2
+function C02F0E8673B660BDF.S2F9F171453B072D2()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = c452EA11F
@@ -749,11 +701,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S67CB793C6F88100E"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicUtil.S67CB793C6F88100E
+function C02F0E8673B660BDF.S67CB793C6F88100E(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = nil
   L2_2 = c016374C1
@@ -796,11 +745,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S1552B6F42503A176"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.PicnicUtil.SetEffectVisibility
+function C02F0E8673B660BDF.S1552B6F42503A176(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = nil
   L3_2 = c016374C1
@@ -842,11 +788,8 @@ function L70_1(A0_2, A1_2)
   L7_2(L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S7EFD73121270D16C"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicUtil.S7EFD73121270D16C
+function C02F0E8673B660BDF.S7EFD73121270D16C(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = L52_1.__instanceof
   L2_2 = A0_2
@@ -877,11 +820,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "SF1FFE455F0FCAC68"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicUtil.SF1FFE455F0FCAC68
+function C02F0E8673B660BDF.SF1FFE455F0FCAC68(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CB4E56E9599A85891
   L1_2 = L1_2.S0B3F69C4549A0284
@@ -911,11 +851,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "SC2B7F8928D19ACB2"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicUtil.SC2B7F8928D19ACB2
+function C02F0E8673B660BDF.SC2B7F8928D19ACB2(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CB4E56E9599A85891
   L1_2 = L1_2.S0B3F69C4549A0284
@@ -939,11 +876,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C02F0E8673B660BDF"]
-L69_1 = "S711E827F33C3AFAF"
-
-function L70_1(A0_2)
+--- main.pokepicnic.PicnicUtil.S711E827F33C3AFAF
+function C02F0E8673B660BDF.S711E827F33C3AFAF(A0_2)
   local L1_2, L2_2
   L2_2 = A0_2
   L1_2 = A0_2.FA25A67F387673186

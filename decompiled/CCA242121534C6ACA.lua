@@ -1,3 +1,7 @@
+---@alias CF7739C6C4D25CC45 main_field_behaviour_trade_pokemon_TradePokemonManager
+
+---@class main_field_behaviour_trade_pokemon_TradePokemonManager : CF7739C6C4D25CC45_prototype
+---@field prototype CF7739C6C4D25CC45_prototype
 L55_1 = _ENV
 L56_1 = "CCA242121534C6ACA"
 L57_1 = L15_1
@@ -64,11 +68,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCA242121534C6ACA"]
 L69_1 = "__name__"
 L70_1 = "CCA242121534C6ACA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCA242121534C6ACA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CF7739C6C4D25CC45_prototype
+CF7739C6C4D25CC45_prototype = L15_1()
+CF7739C6C4D25CC45.prototype = CF7739C6C4D25CC45_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCA242121534C6ACA"]["prototype"]
 L69_1 = _ENV["CCA242121534C6ACA"]

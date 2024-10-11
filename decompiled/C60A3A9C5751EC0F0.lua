@@ -1,3 +1,7 @@
+---@alias CF50ACB1F8A14EBFA main_event_general_area_script_AreaExit_subarea_combatteam
+
+---@class main_event_general_area_script_AreaExit_subarea_combatteam : CF50ACB1F8A14EBFA_prototype
+---@field prototype CF50ACB1F8A14EBFA_prototype
 L55_1 = _ENV
 L56_1 = "C60A3A9C5751EC0F0"
 L57_1 = L15_1
@@ -45,11 +49,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C60A3A9C5751EC0F0"]
 L69_1 = "__name__"
 L70_1 = "C60A3A9C5751EC0F0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A3A9C5751EC0F0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CF50ACB1F8A14EBFA_prototype
+CF50ACB1F8A14EBFA_prototype = L15_1()
+CF50ACB1F8A14EBFA.prototype = CF50ACB1F8A14EBFA_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C60A3A9C5751EC0F0"]["prototype"]
 L69_1 = _ENV["C60A3A9C5751EC0F0"]

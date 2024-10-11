@@ -1,3 +1,5 @@
+---@class C719C3DC47E0899B8 : C719C3DC47E0899B8_prototype
+---@field prototype C719C3DC47E0899B8_prototype
 L68_1 = _ENV["CAE4A090462DA878F"]
 L69_1 = "super"
 
@@ -20,11 +22,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CAE4A090462DA878F"]
 L69_1 = "__name__"
 L70_1 = "CAE4A090462DA878F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAE4A090462DA878F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C719C3DC47E0899B8_prototype
+C719C3DC47E0899B8_prototype = L15_1()
+C719C3DC47E0899B8.prototype = C719C3DC47E0899B8_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CAE4A090462DA878F"]["prototype"]
 L69_1 = _ENV["CAE4A090462DA878F"]
@@ -42,7 +42,7 @@ L68_1(L69_1, L70_1)
 L68_1 = C769940D94563E263
 L69_1 = "new"
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+function L70_1(self, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = C769940D94563E263
@@ -53,7 +53,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = C769940D94563E263
   L5_2 = L5_2.super
   L6_2 = L4_2
-  L7_2 = A0_2
+  L7_2 = self
   L8_2 = A1_2
   L9_2 = A2_2
   L10_2 = A3_2
@@ -70,7 +70,7 @@ L68_1(L69_1, L70_1)
 L68_1 = CDA81F25BDF92D7DB
 L69_1 = "new"
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+function L70_1(self, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = CDA81F25BDF92D7DB
@@ -81,7 +81,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = CDA81F25BDF92D7DB
   L5_2 = L5_2.super
   L6_2 = L4_2
-  L7_2 = A0_2
+  L7_2 = self
   L8_2 = A1_2
   L9_2 = A2_2
   L10_2 = A3_2
@@ -98,7 +98,7 @@ L68_1(L69_1, L70_1)
 L68_1 = CEFD394F260390EA5
 L69_1 = "new"
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+function L70_1(self, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = CEFD394F260390EA5
@@ -109,7 +109,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = CEFD394F260390EA5
   L5_2 = L5_2.super
   L6_2 = L4_2
-  L7_2 = A0_2
+  L7_2 = self
   L8_2 = A1_2
   L9_2 = A2_2
   L10_2 = A3_2

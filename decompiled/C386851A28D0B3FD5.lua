@@ -1,3 +1,7 @@
+---@alias C386851A28D0B3FD5 main_event_general_gym_base_Gym_kusa_tree_process
+
+---@class main_event_general_gym_base_Gym_kusa_tree_process : C386851A28D0B3FD5_prototype
+---@field prototype C386851A28D0B3FD5_prototype
 L55_1 = _ENV
 L56_1 = "C386851A28D0B3FD5"
 L57_1 = L15_1
@@ -44,25 +48,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C386851A28D0B3FD5"]
 L69_1 = "__name__"
 L70_1 = "C386851A28D0B3FD5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C386851A28D0B3FD5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C386851A28D0B3FD5"]["prototype"]
-L69_1 = "F9EF8B08DA4FDA9E4"
-
-function L70_1(A0_2)
+---@class C386851A28D0B3FD5_prototype
+C386851A28D0B3FD5_prototype = L15_1()
+C386851A28D0B3FD5.prototype = C386851A28D0B3FD5_prototype
+--- main.event.general.gym.base.Gym_kusa_tree_process.mainCoroutineFunc
+function C386851A28D0B3FD5_prototype:F9EF8B08DA4FDA9E4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     L3_2 = L2_2
     L2_2 = L2_2.fB3CF1DEB
     L2_2 = L2_2(L3_2)

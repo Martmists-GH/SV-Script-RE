@@ -1,3 +1,5 @@
+---@class CD03C4F2A038DF506 : CD03C4F2A038DF506_prototype
+---@field prototype CD03C4F2A038DF506_prototype
 L55_1 = _ENV
 L56_1 = "CD03C4F2A038DF506"
 L57_1 = L15_1
@@ -46,21 +48,16 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CD03C4F2A038DF506"]
 L69_1 = "__name__"
 L70_1 = "CD03C4F2A038DF506"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD03C4F2A038DF506"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD03C4F2A038DF506"]["prototype"]
-L69_1 = "FED89B77B7E80512A"
-
-function L70_1(A0_2, A1_2)
+---@class CD03C4F2A038DF506_prototype
+CD03C4F2A038DF506_prototype = L15_1()
+CD03C4F2A038DF506.prototype = CD03C4F2A038DF506_prototype
+--- CD03C4F2A038DF506.SetProperty
+function CD03C4F2A038DF506_prototype:FED89B77B7E80512A(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C8F7AE2638186E74F
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FED89B77B7E80512A
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = CA5EA85D96A5EBA15
@@ -68,49 +65,43 @@ function L70_1(A0_2, A1_2)
   L3_2 = A1_2
   L4_2 = "max_radius"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L2_2 = CA5EA85D96A5EBA15
   L2_2 = L2_2.SAD5CCB7549BC2093
   L3_2 = A1_2
   L4_2 = "min_radius"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
-  L2_2 = A0_2[3]
-  L3_2 = A0_2[4]
+  self[4] = L2_2
+  L2_2 = self[3]
+  L3_2 = self[4]
   L2_2 = L2_2 - L3_2
-  A0_2[5] = L2_2
+  self[5] = L2_2
   L2_2 = CA5EA85D96A5EBA15
   L2_2 = L2_2.SAD5CCB7549BC2093
   L3_2 = A1_2
   L4_2 = "start_fade_time"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[6] = L2_2
+  self[6] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD03C4F2A038DF506"]["prototype"]
-L69_1 = "F03C3FD12F7D1656D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- CD03C4F2A038DF506.OnCheckDestroyInstance
+function CD03C4F2A038DF506_prototype:F03C3FD12F7D1656D(A1_2, A2_2, A3_2)
   local L4_2, L5_2
   L4_2 = A2_2.time
   L5_2 = A1_2.elapsedSeconds
   L4_2 = L4_2 + L5_2
   A2_2.time = L4_2
   L4_2 = A2_2.time
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L4_2 = L4_2 > L5_2
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD03C4F2A038DF506"]["prototype"]
-L69_1 = "F44D5992771D0D72A"
-
-function L70_1(A0_2, A1_2)
+--- CD03C4F2A038DF506.calcRayPos
+function CD03C4F2A038DF506_prototype:F44D5992771D0D72A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F47052D9C4C5CCDBF
+  L3_2 = self
+  L2_2 = self.F47052D9C4C5CCDBF
   L2_2 = L2_2(L3_2)
   L3_2 = {}
   L4_2 = A1_2[1]
@@ -128,20 +119,17 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD03C4F2A038DF506"]["prototype"]
-L69_1 = "F47052D9C4C5CCDBF"
-
-function L70_1(A0_2)
+--- CD03C4F2A038DF506.F47052D9C4C5CCDBF
+function CD03C4F2A038DF506_prototype:F47052D9C4C5CCDBF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = CCFAFBD3A1EB693D9
   L1_2 = L1_2.SF01AF38CFB48F8C2
   L2_2 = L1_2
   L1_2 = L1_2.f52C8AF50
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = true
   L1_2 = L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L1_2 = L1_2 + L2_2
   L2_2 = CCFAFBD3A1EB693D9
   L2_2 = L2_2.SF01AF38CFB48F8C2

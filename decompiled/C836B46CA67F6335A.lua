@@ -1,3 +1,7 @@
+---@alias C836B46CA67F6335A main_event_general_team_circle_Boot_TeamCircle
+
+---@class main_event_general_team_circle_Boot_TeamCircle : C836B46CA67F6335A_prototype
+---@field prototype C836B46CA67F6335A_prototype
 L55_1 = _ENV
 L56_1 = "C836B46CA67F6335A"
 L57_1 = L15_1
@@ -45,37 +49,29 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C836B46CA67F6335A"]
 L69_1 = "__name__"
 L70_1 = "C836B46CA67F6335A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C836B46CA67F6335A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C836B46CA67F6335A"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C836B46CA67F6335A_prototype
+C836B46CA67F6335A_prototype = L15_1()
+C836B46CA67F6335A.prototype = C836B46CA67F6335A_prototype
+--- main.event.general.team_circle.Boot_TeamCircle.preStart
+function C836B46CA67F6335A_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2
   L1_2 = C20F5CD372AAAA08C
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F92BA869F22AE5BC6
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C836B46CA67F6335A"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.team_circle.Boot_TeamCircle.mainBody
+function C836B46CA67F6335A_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C20F5CD372AAAA08C
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FD8D5F3745B4B5174
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F6342D37557495755
+  L2_2 = self
+  L1_2 = self.F6342D37557495755
   L1_2 = L1_2(L2_2)
   if false == L1_2 then
     return
@@ -151,11 +147,8 @@ function L70_1(A0_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C836B46CA67F6335A"]["prototype"]
-L69_1 = "F6342D37557495755"
-
-function L70_1(A0_2)
+--- main.event.general.team_circle.Boot_TeamCircle.IsEnableTeamCircleUI
+function C836B46CA67F6335A_prototype:F6342D37557495755()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = false
   L2_2 = nil

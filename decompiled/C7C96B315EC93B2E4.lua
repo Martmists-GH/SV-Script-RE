@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C7C96B315EC93B2E4"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C7C96B315EC93B2E4"]
-L69_1 = "new"
+---@alias C7C96B315EC93B2E4 main_ui_util_raderchart_UIRaderChartUtil
 
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@class main_ui_util_raderchart_UIRaderChartUtil : C7C96B315EC93B2E4_prototype
+---@field prototype C7C96B315EC93B2E4_prototype
+C7C96B315EC93B2E4 = L15_1()
+function C7C96B315EC93B2E4.new(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L5_2 = L2_1
   L6_2 = C7C96B315EC93B2E4
@@ -26,11 +23,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C96B315EC93B2E4"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+---@param A0_2 C7C96B315EC93B2E4
+function C7C96B315EC93B2E4.super(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A4_2 then
     A4_2 = 0.0
@@ -74,11 +68,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C96B315EC93B2E4"]
-L69_1 = "__name__"
-L70_1 = "C7C96B315EC93B2E4"
-L68_1[L69_1] = L70_1
+C7C96B315EC93B2E4.__name__ = "C7C96B315EC93B2E4"
 L68_1 = _ENV["C7C96B315EC93B2E4"]
 L69_1 = "S823E05DAF82410E1"
 
@@ -109,11 +99,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L12_2(L13_2, L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C96B315EC93B2E4"]
-L69_1 = "S784BF8525A78CE38"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.util.raderchart.UIRaderChartUtil.S784BF8525A78CE38
+function C7C96B315EC93B2E4.S784BF8525A78CE38(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if 0 == A2_2 then
     L3_2 = 0.0
@@ -177,21 +164,16 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C96B315EC93B2E4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C96B315EC93B2E4"]["prototype"]
-L69_1 = "F27FD059EF7385F39"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@class C7C96B315EC93B2E4_prototype
+C7C96B315EC93B2E4_prototype = L15_1()
+C7C96B315EC93B2E4.prototype = C7C96B315EC93B2E4_prototype
+--- main.ui.util.raderchart.UIRaderChartUtil.ChartDraw
+function C7C96B315EC93B2E4_prototype:F27FD059EF7385F39(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A3_2 then
     A3_2 = 255
   end
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.fD53BE221
   L7_2 = A1_2
@@ -201,7 +183,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L5_2 = C7C96B315EC93B2E4
     A2_2 = L5_2.S801ACD5BD86101A9
   end
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.fBA258C79
   L7_2 = A1_2
@@ -209,7 +191,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L9_2 = A2_2[2]
   L10_2 = A2_2[3]
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.f0C93FDFA
   L7_2 = A1_2
@@ -233,7 +215,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L8_2 = L8_2 / 100.0
     L8_2 = L8_2 * A3_2
     L8_2 = L8_2 / A3_2
-    L9_2 = A0_2[3]
+    L9_2 = self[3]
     L10_2 = L9_2
     L9_2 = L9_2.f7A256017
     L11_2 = A1_2
@@ -243,10 +225,10 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       local L0_3, L1_3, L2_3
       L0_3 = nil
       L1_3 = L8_2
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[1]
       if L1_3 < L2_3 then
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[1]
       else
         L0_3 = L8_2
@@ -257,7 +239,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L13_2 = L13_2()
     L9_2(L10_2, L11_2, L12_2, L13_2)
   end
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L8_2 = L7_2
   L7_2 = L7_2.fD53BE221
   L9_2 = A1_2
@@ -265,13 +247,10 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L7_2(L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C96B315EC93B2E4"]["prototype"]
-L69_1 = "FD90B412B1624C6BC"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.util.raderchart.UIRaderChartUtil.SetForwordDraw
+function C7C96B315EC93B2E4_prototype:FD90B412B1624C6BC(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.fD53BE221
   L5_2 = A1_2
@@ -279,13 +258,10 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C96B315EC93B2E4"]["prototype"]
-L69_1 = "F6E97A6FC998305F0"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.util.raderchart.UIRaderChartUtil.SetPosition
+function C7C96B315EC93B2E4_prototype:F6E97A6FC998305F0(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.f317BF87B
   L5_2 = A1_2
@@ -293,22 +269,19 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C96B315EC93B2E4"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ui.util.raderchart.UIRaderChartUtil.Destroy
+function C7C96B315EC93B2E4_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.f8C276B4F
   L3_2 = false
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fB01D2EBC
   L1_2(L2_2)
-  A0_2[3] = nil
+  self[3] = nil
 end
 
 L68_1[L69_1] = L70_1

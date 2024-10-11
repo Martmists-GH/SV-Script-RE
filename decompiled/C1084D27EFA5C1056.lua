@@ -1,3 +1,7 @@
+---@alias C1084D27EFA5C1056 main_system_light_direct_applier_control_PostEffectBlurCoroutine
+
+---@class main_system_light_direct_applier_control_PostEffectBlurCoroutine : C1084D27EFA5C1056_prototype
+---@field prototype C1084D27EFA5C1056_prototype
 L55_1 = _ENV
 L56_1 = "C1084D27EFA5C1056"
 L57_1 = L15_1
@@ -61,53 +65,42 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1084D27EFA5C1056"]
 L69_1 = "__name__"
 L70_1 = "C1084D27EFA5C1056"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1084D27EFA5C1056"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1084D27EFA5C1056"]["prototype"]
-L69_1 = "FB273BAF437E771A0"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+---@class C1084D27EFA5C1056_prototype
+C1084D27EFA5C1056_prototype = L15_1()
+C1084D27EFA5C1056.prototype = C1084D27EFA5C1056_prototype
+--- main.system.light_direct_applier.control.PostEffectBlurCoroutine.SetParam
+function C1084D27EFA5C1056_prototype:FB273BAF437E771A0(A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L8_2.x = A1_2
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L8_2.y = A2_2
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L8_2.intensity = A3_2
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L8_2.offset = A4_2
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L8_2.inTime = A5_2
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L8_2.keepTime = A6_2
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L8_2.outTime = A7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1084D27EFA5C1056"]["prototype"]
-L69_1 = "F8930BD5CE2BE71E4"
-
-function L70_1(A0_2)
+--- main.system.light_direct_applier.control.PostEffectBlurCoroutine.GetParam
+function C1084D27EFA5C1056_prototype:F8930BD5CE2BE71E4()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1084D27EFA5C1056"]["prototype"]
-L69_1 = "F9EF8B08DA4FDA9E4"
-
-function L70_1(A0_2)
+--- main.system.light_direct_applier.control.PostEffectBlurCoroutine.mainCoroutineFunc
+function C1084D27EFA5C1056_prototype:F9EF8B08DA4FDA9E4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2.inTime
   while L1_2 > 0 do
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f22D509B2
     L4_2 = 2
@@ -116,26 +109,26 @@ function L70_1(A0_2)
     L2_2 = L2_2.fC0E2CAD0
     L2_2 = L2_2(L3_2)
     L1_2 = L1_2 - L2_2
-    L2_2 = A0_2[5]
-    L3_2 = A0_2[5]
+    L2_2 = self[5]
+    L3_2 = self[5]
     L3_2 = L3_2.intensity
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L4_2 = L4_2.inTime
     L4_2 = L4_2 - L1_2
-    L5_2 = A0_2[5]
+    L5_2 = self[5]
     L5_2 = L5_2.inTime
     L4_2 = L4_2 / L5_2
     L3_2 = L3_2 * L4_2
     L2_2.nowIntensity = L3_2
     L2_2 = C633B39AA77B60DA3
     L2_2 = L2_2.SCF46FAF62E55F7AC
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L3_2 = L3_2.x
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L4_2 = L4_2.y
-    L5_2 = A0_2[5]
+    L5_2 = self[5]
     L5_2 = L5_2.nowIntensity
-    L6_2 = A0_2[5]
+    L6_2 = self[5]
     L6_2 = L6_2.offset
     L2_2(L3_2, L4_2, L5_2, L6_2)
     L2_2 = C1DB14DCC9D7634FA
@@ -143,17 +136,17 @@ function L70_1(A0_2)
     L3_2 = nil
     L2_2(L3_2)
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L1_2 = L2_2.keepTime
   while true do
     if not (L1_2 > 0) then
-      L2_2 = A0_2[5]
+      L2_2 = self[5]
       L2_2 = L2_2.keepTime
       if not (L2_2 < 0) then
         break
       end
     end
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f22D509B2
     L4_2 = 2
@@ -162,21 +155,21 @@ function L70_1(A0_2)
     L2_2 = L2_2.fC0E2CAD0
     L2_2 = L2_2(L3_2)
     L1_2 = L1_2 - L2_2
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L58_1
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L4_2 = L4_2.intensity
     L3_2 = L3_2(L4_2)
     L2_2.nowIntensity = L3_2
     L2_2 = C633B39AA77B60DA3
     L2_2 = L2_2.SCF46FAF62E55F7AC
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L3_2 = L3_2.x
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L4_2 = L4_2.y
-    L5_2 = A0_2[5]
+    L5_2 = self[5]
     L5_2 = L5_2.nowIntensity
-    L6_2 = A0_2[5]
+    L6_2 = self[5]
     L6_2 = L6_2.offset
     L2_2(L3_2, L4_2, L5_2, L6_2)
     L2_2 = C1DB14DCC9D7634FA
@@ -184,10 +177,10 @@ function L70_1(A0_2)
     L3_2 = nil
     L2_2(L3_2)
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L1_2 = L2_2.outTime
   while L1_2 > 0 do
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f22D509B2
     L4_2 = 2
@@ -196,15 +189,15 @@ function L70_1(A0_2)
     L2_2 = L2_2.fC0E2CAD0
     L2_2 = L2_2(L3_2)
     L1_2 = L1_2 - L2_2
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L2_2 = L2_2.intensity
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = 0.0
     L4_2 = L4_2 - L2_2
-    L5_2 = A0_2[5]
+    L5_2 = self[5]
     L5_2 = L5_2.outTime
     L5_2 = L5_2 - L1_2
-    L6_2 = A0_2[5]
+    L6_2 = self[5]
     L6_2 = L6_2.outTime
     L5_2 = L5_2 / L6_2
     L4_2 = L4_2 * L5_2
@@ -212,13 +205,13 @@ function L70_1(A0_2)
     L3_2.nowIntensity = L4_2
     L3_2 = C633B39AA77B60DA3
     L3_2 = L3_2.SCF46FAF62E55F7AC
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L4_2 = L4_2.x
-    L5_2 = A0_2[5]
+    L5_2 = self[5]
     L5_2 = L5_2.y
-    L6_2 = A0_2[5]
+    L6_2 = self[5]
     L6_2 = L6_2.nowIntensity
-    L7_2 = A0_2[5]
+    L7_2 = self[5]
     L7_2 = L7_2.offset
     L3_2(L4_2, L5_2, L6_2, L7_2)
     L3_2 = C1DB14DCC9D7634FA

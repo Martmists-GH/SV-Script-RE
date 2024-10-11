@@ -1,3 +1,7 @@
+---@alias C6E98DB3A95AEF77E main_field_behaviour_MotherBehavior
+
+---@class main_field_behaviour_MotherBehavior : C6E98DB3A95AEF77E_prototype
+---@field prototype C6E98DB3A95AEF77E_prototype
 L55_1 = _ENV
 L56_1 = "C6E98DB3A95AEF77E"
 L57_1 = L15_1
@@ -48,22 +52,17 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C6E98DB3A95AEF77E"]
 L69_1 = "__name__"
 L70_1 = "C6E98DB3A95AEF77E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6E98DB3A95AEF77E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6E98DB3A95AEF77E"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+---@class C6E98DB3A95AEF77E_prototype
+C6E98DB3A95AEF77E_prototype = L15_1()
+C6E98DB3A95AEF77E.prototype = C6E98DB3A95AEF77E_prototype
+--- main.field.behaviour.MotherBehavior.onSetup
+function C6E98DB3A95AEF77E_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = CCF23BBD95FD52C56
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F22C7B81A049FA20D
-  L3_2 = A0_2
+  L3_2 = self
   L2_2(L3_2)
   L2_2 = cF38AFAAD
   L2_2 = L2_2.fC7E15128
@@ -71,7 +70,7 @@ function L70_1(A0_2)
   L2_2 = L2_2(L3_2)
   L3_2 = cBF82D018
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[23]
+  L4_2 = self[23]
   L3_2 = L3_2(L4_2)
   L4_2 = nil
   L5_2 = cBF82D018
@@ -82,8 +81,8 @@ function L70_1(A0_2)
   if L5_2 then
     L6_2 = L3_2
     L5_2 = L3_2.f6F3A572B
-    L7_2 = A0_2[21]
-    L8_2 = A0_2[22]
+    L7_2 = self[21]
+    L8_2 = self[22]
     L9_2 = L2_2
     L5_2(L6_2, L7_2, L8_2, L9_2)
   else
@@ -132,7 +131,7 @@ function L70_1(A0_2)
     end
     
     L7_2 = L31_1.string
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L9_2 = L8_2
     L8_2 = L8_2.fE9C29DA1
     L8_2, L9_2 = L8_2(L9_2)
@@ -142,25 +141,22 @@ function L70_1(A0_2)
     L8_2 = L8_2(L9_2)
     L7_2 = L7_2 .. L8_2
     L5_2 = L5_2(L6_2, L7_2)
-    A0_2[24] = L5_2
+    self[24] = L5_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6E98DB3A95AEF77E"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.MotherBehavior.PreUpdate
+function C6E98DB3A95AEF77E_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[24]
+  L2_2 = self[24]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[24]
+    L3_2 = self[24]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[24]
+      L2_2 = self[24]
       L3_2 = L62_1
       L4_2 = L64_1.pack
       L5_2 = L10_1.coroutine
@@ -207,11 +203,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6E98DB3A95AEF77E"]["prototype"]
-L69_1 = "FBDA175393973D042"
-
-function L70_1(A0_2)
+--- main.field.behaviour.MotherBehavior.GetBehaviourType
+function C6E98DB3A95AEF77E_prototype:FBDA175393973D042()
   local L1_2
   L1_2 = 16
   return L1_2

@@ -1,3 +1,7 @@
+---@alias CB75ED7BCAC569E8D main_field_behaviour_network_NetworkEvolutionEventReceiver
+
+---@class main_field_behaviour_network_NetworkEvolutionEventReceiver : CB75ED7BCAC569E8D_prototype
+---@field prototype CB75ED7BCAC569E8D_prototype
 L55_1 = _ENV
 L56_1 = "CB75ED7BCAC569E8D"
 L57_1 = L15_1
@@ -42,16 +46,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CB75ED7BCAC569E8D"]
 L69_1 = "__name__"
 L70_1 = "CB75ED7BCAC569E8D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB75ED7BCAC569E8D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB75ED7BCAC569E8D"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+---@class CB75ED7BCAC569E8D_prototype
+CB75ED7BCAC569E8D_prototype = L15_1()
+CB75ED7BCAC569E8D.prototype = CB75ED7BCAC569E8D_prototype
+--- main.field.behaviour.network.NetworkEvolutionEventReceiver.PreUpdate
+function CB75ED7BCAC569E8D_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cB1E824B9
   L2_2 = L2_2.fB59AD874

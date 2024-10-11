@@ -1,3 +1,7 @@
+---@alias C224D7DA1CF557861 main_ui_title_title_backup_state_TitleBackUpUIState
+
+---@class main_ui_title_title_backup_state_TitleBackUpUIState : C224D7DA1CF557861_prototype
+---@field prototype C224D7DA1CF557861_prototype
 L55_1 = _ENV
 L56_1 = "C224D7DA1CF557861"
 L57_1 = L15_1
@@ -44,86 +48,69 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C224D7DA1CF557861"]
 L69_1 = "__name__"
 L70_1 = "C224D7DA1CF557861"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C224D7DA1CF557861"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C224D7DA1CF557861"]["prototype"]
-L69_1 = "FA6B65616855BCAAC"
-
-function L70_1(A0_2)
+---@class C224D7DA1CF557861_prototype
+C224D7DA1CF557861_prototype = L15_1()
+C224D7DA1CF557861.prototype = C224D7DA1CF557861_prototype
+--- main.ui.title.title_backup.state.TitleBackUpUIState.get_isBackupViewEnd
+function C224D7DA1CF557861_prototype:FA6B65616855BCAAC()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C224D7DA1CF557861"]["prototype"]
-L69_1 = "F17770E5F914D9509"
-
-function L70_1(A0_2)
+--- main.ui.title.title_backup.state.TitleBackUpUIState.F17770E5F914D9509
+function C224D7DA1CF557861_prototype:F17770E5F914D9509()
   local L1_2, L2_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.FC03760BB6134D807
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C224D7DA1CF557861"]["prototype"]
-L69_1 = "FCE8975C56C10688D"
-
-function L70_1(A0_2)
+--- main.ui.title.title_backup.state.TitleBackUpUIState.get_isSetup
+function C224D7DA1CF557861_prototype:FCE8975C56C10688D()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C224D7DA1CF557861"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.title.title_backup.state.TitleBackUpUIState.Setup
+function C224D7DA1CF557861_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = c2A84524D
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[5] = L2_2
-  L2_2 = A0_2[5]
+  self[5] = L2_2
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.fDCDD45F6
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.FBE696F4C6924A789
+  L5_2 = self
+  L6_2 = self.FBE696F4C6924A789
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  A0_2[4] = true
+  self[4] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C224D7DA1CF557861"]["prototype"]
-L69_1 = "FBE696F4C6924A789"
-
-function L70_1(A0_2)
+--- main.ui.title.title_backup.state.TitleBackUpUIState.ActionNotifiedEvent
+function C224D7DA1CF557861_prototype:FBE696F4C6924A789()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.f44B92869
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.f015A8108
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.fF88F34BC
   L5_2 = L1_2
@@ -131,26 +118,20 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C224D7DA1CF557861"]["prototype"]
-L69_1 = "F3250254222F75035"
-
-function L70_1(A0_2)
+--- main.ui.title.title_backup.state.TitleBackUpUIState.OnEnd
+function C224D7DA1CF557861_prototype:F3250254222F75035()
   local L1_2
-  A0_2[2] = true
+  self[2] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C224D7DA1CF557861"]["prototype"]
-L69_1 = "F706FCB31D5565CDB"
-
-function L70_1(A0_2)
+--- main.ui.title.title_backup.state.TitleBackUpUIState.StartFlow
+function C224D7DA1CF557861_prototype:F706FCB31D5565CDB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.f83FE57AE
   L1_2(L2_2)
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.f82A5B7C4
   L3_2 = "view_title_backup_top_00"
@@ -166,25 +147,22 @@ function L70_1(A0_2)
   if L2_2 == L3_2 then
     L2_2 = nil
   end
-  A0_2[6] = L2_2
-  L3_2 = A0_2[6]
+  self[6] = L2_2
+  L3_2 = self[6]
   L4_2 = L3_2
   L3_2 = L3_2.FA7C7BEFF8934C784
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.F3250254222F75035
+  L6_2 = self
+  L7_2 = self.F3250254222F75035
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
-  A0_2[2] = false
+  self[2] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C224D7DA1CF557861"]["prototype"]
-L69_1 = "FC8B881897EB6BA4C"
-
-function L70_1(A0_2)
+--- main.ui.title.title_backup.state.TitleBackUpUIState.ReStart
+function C224D7DA1CF557861_prototype:FC8B881897EB6BA4C()
   local L1_2
-  A0_2[2] = false
+  self[2] = false
 end
 
 L68_1[L69_1] = L70_1

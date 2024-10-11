@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C01128C4F4E359AEB"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C01128C4F4E359AEB"]
-L69_1 = "new"
+---@alias C01128C4F4E359AEB main_system_game_event_GameEventFailedRideOnMessage
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventFailedRideOnMessage : C01128C4F4E359AEB_prototype
+---@field prototype C01128C4F4E359AEB_prototype
+C01128C4F4E359AEB = L15_1()
+function C01128C4F4E359AEB.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = C01128C4F4E359AEB
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01128C4F4E359AEB"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 C01128C4F4E359AEB
+function C01128C4F4E359AEB.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CE0D511325372F946
   L3_2 = L3_2.super
@@ -37,11 +31,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01128C4F4E359AEB"]
-L69_1 = "__name__"
-L70_1 = "C01128C4F4E359AEB"
-L68_1[L69_1] = L70_1
+C01128C4F4E359AEB.__name__ = "C01128C4F4E359AEB"
 L68_1 = _ENV["C01128C4F4E359AEB"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -107,22 +97,17 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01128C4F4E359AEB"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01128C4F4E359AEB"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+---@class C01128C4F4E359AEB_prototype
+C01128C4F4E359AEB_prototype = L15_1()
+C01128C4F4E359AEB.prototype = C01128C4F4E359AEB_prototype
+--- main.system.game_event.GameEventFailedRideOnMessage.onUpdate
+function C01128C4F4E359AEB_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   
   function L1_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[17]
     L1_3 = L1_3.backSafeErea
     if L1_3 then
@@ -143,7 +128,7 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
   L2_2 = ""
   L3_2 = ""
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.failedType
   L4_2 = L4_2[1]
   if 0 == L4_2 then
@@ -217,13 +202,10 @@ function L70_1(A0_2)
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01128C4F4E359AEB"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventFailedRideOnMessage.onFinished
+function C01128C4F4E359AEB_prototype:F68499476069C0B1E()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L1_2 = L1_2.backSafeErea
   if L1_2 then
     L1_2 = C3DD9809BE5B47111

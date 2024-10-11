@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "CCC8D38B1E5489159"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CCC8D38B1E5489159"]
-L69_1 = "new"
-
-function L70_1(A0_2, A1_2)
+---@class CCC8D38B1E5489159 : CCC8D38B1E5489159_prototype
+---@field prototype CCC8D38B1E5489159_prototype
+CCC8D38B1E5489159 = L15_1()
+function CCC8D38B1E5489159.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CCC8D38B1E5489159
@@ -23,20 +18,13 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC8D38B1E5489159"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CCC8D38B1E5489159
+function CCC8D38B1E5489159.super(A0_2, A1_2, A2_2)
   A0_2[1] = A1_2
   A0_2[2] = A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC8D38B1E5489159"]
-L69_1 = "__name__"
-L70_1 = "CCC8D38B1E5489159"
-L68_1[L69_1] = L70_1
+CCC8D38B1E5489159.__name__ = "CCC8D38B1E5489159"
 L68_1 = _ENV["CCC8D38B1E5489159"]
 L69_1 = "S988D7D0A4EEF693D"
 
@@ -49,16 +37,11 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC8D38B1E5489159"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC8D38B1E5489159"]["prototype"]
-L69_1 = "F6578A04FA49328FF"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class CCC8D38B1E5489159_prototype
+CCC8D38B1E5489159_prototype = L15_1()
+CCC8D38B1E5489159.prototype = CCC8D38B1E5489159_prototype
+--- CCC8D38B1E5489159.Ease
+function CCC8D38B1E5489159_prototype:F6578A04FA49328FF(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = nil
   if 0 == A2_2 then
@@ -160,8 +143,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = L4_2(L5_2)
   L5_2 = cD5675BA5
   L5_2 = L5_2.fBE61A5F8
-  L6_2 = A0_2[1]
-  L7_2 = A0_2[2]
+  L6_2 = self[1]
+  L7_2 = self[2]
   L8_2 = L4_2
   return L5_2(L6_2, L7_2, L8_2)
 end

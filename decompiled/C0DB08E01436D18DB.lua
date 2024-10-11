@@ -1,3 +1,7 @@
+---@alias C0DB08E01436D18DB main_env_weather_happening_SpShootingStar
+
+---@class main_env_weather_happening_SpShootingStar : C0DB08E01436D18DB_prototype
+---@field prototype C0DB08E01436D18DB_prototype
 L55_1 = _ENV
 L56_1 = "C0DB08E01436D18DB"
 L57_1 = L15_1
@@ -38,26 +42,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0DB08E01436D18DB"]
 L69_1 = "__name__"
 L70_1 = "C0DB08E01436D18DB"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0DB08E01436D18DB"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0DB08E01436D18DB"]["prototype"]
-L69_1 = "FC8998AA36ADC82E6"
-
-function L70_1(A0_2)
+---@class C0DB08E01436D18DB_prototype
+C0DB08E01436D18DB_prototype = L15_1()
+C0DB08E01436D18DB.prototype = C0DB08E01436D18DB_prototype
+--- main.env.weather.happening.SpShootingStar.getTemplatePath
+function C0DB08E01436D18DB_prototype:FC8998AA36ADC82E6()
   local L1_2
   L1_2 = "world/obj_template/field/weather/sp_shootingstar_/sp_shootingstar.trsot"
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0DB08E01436D18DB"]["prototype"]
-L69_1 = "FC30191BCDD645CCB"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.SpShootingStar.beginCondition
+function C0DB08E01436D18DB_prototype:FC30191BCDD645CCB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C05D9E556B496A3DF
   L1_2 = L1_2.SC8223E31D3163519
@@ -75,7 +71,7 @@ function L70_1(A0_2)
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.currentType
   if 0 == L2_2 then
     L2_2 = CA66BF560955C69B4
@@ -87,7 +83,7 @@ function L70_1(A0_2)
     else
       L3_2 = L2_2[3]
       L4_2 = L3_2[4]
-      L5_2 = A0_2[13]
+      L5_2 = self[13]
       L4_2 = L4_2[L5_2]
       L5_2 = L3_2[2]
       L5_2 = L5_2[1]
@@ -104,14 +100,11 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0DB08E01436D18DB"]["prototype"]
-L69_1 = "F97D691F2BAB2649F"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.SpShootingStar.endCondition
+function C0DB08E01436D18DB_prototype:F97D691F2BAB2649F()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.currentType
   if 0 == L2_2 then
     L2_2 = C05D9E556B496A3DF

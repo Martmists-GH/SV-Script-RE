@@ -1,3 +1,7 @@
+---@alias CF412310BA274E05A main_ui_pokelist_pokelist_state_machine_pokelist_one_select_type_PokelistOpenOneSelectTypeState
+
+---@class main_ui_pokelist_pokelist_state_machine_pokelist_one_select_type_PokelistOpenOneSelectTypeState : CF412310BA274E05A_prototype
+---@field prototype CF412310BA274E05A_prototype
 L55_1 = _ENV
 L56_1 = "CF412310BA274E05A"
 L57_1 = L15_1
@@ -44,19 +48,14 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF412310BA274E05A"]
 L69_1 = "__name__"
 L70_1 = "CF412310BA274E05A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF412310BA274E05A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF412310BA274E05A"]["prototype"]
-L69_1 = "F46013EC08BDF7153"
-
-function L70_1(A0_2)
+---@class CF412310BA274E05A_prototype
+CF412310BA274E05A_prototype = L15_1()
+CF412310BA274E05A.prototype = CF412310BA274E05A_prototype
+--- main.ui.pokelist.pokelist_state_machine.pokelist_one_select_type.PokelistOpenOneSelectTypeState.Entry
+function CF412310BA274E05A_prototype:F46013EC08BDF7153()
   local L1_2, L2_2, L3_2, L4_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F51F4D8E6BF1D6282
+  L2_2 = self
+  L1_2 = self.F51F4D8E6BF1D6282
   L1_2(L2_2)
   L1_2 = CA7B7EE572282ACBA
   L1_2 = L1_2.S385504EFF7E842C3
@@ -68,83 +67,74 @@ function L70_1(A0_2)
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F9B182DC9C7A846DA
+  L3_2 = self
+  L4_2 = self.F9B182DC9C7A846DA
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "PokelistOpenOneSelectTypeProcCoroutine"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[6] = L1_2
-  L1_2 = A0_2[2]
+  self[6] = L1_2
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.FA537B912371145DC
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF412310BA274E05A"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_one_select_type.PokelistOpenOneSelectTypeState.Update
+function CF412310BA274E05A_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2
   L1_2 = C36A5513B438B1EC7
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FEB6685558281F194
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   if L1_2 then
     return
   end
   L1_2 = L10_1.coroutine
   L1_2 = L1_2.status
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2[1]
   L1_2 = L1_2(L2_2)
   if "dead" ~= L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.FA537B912371145DC
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L1_2(L2_2, L3_2)
   else
     L1_2 = CF1D9D619D324F233
     L1_2 = L1_2.S5E67FD00348A0A28
     L1_2()
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.f462C9B70
     L1_2 = L1_2(L2_2)
     L2_2 = L1_2
     L1_2 = L1_2.f5C99C0AC
     L1_2(L2_2)
-    A0_2[7] = true
+    self[7] = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF412310BA274E05A"]["prototype"]
-L69_1 = "F2C02645014D5A2A5"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_one_select_type.PokelistOpenOneSelectTypeState.Exit
+function CF412310BA274E05A_prototype:F2C02645014D5A2A5()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF412310BA274E05A"]["prototype"]
-L69_1 = "F9B182DC9C7A846DA"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_one_select_type.PokelistOpenOneSelectTypeState.Process
+function CF412310BA274E05A_prototype:F9B182DC9C7A846DA()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   while true do
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.F4B14418238E3E740
     L1_2 = L1_2(L2_2)
     if L1_2 then
       break
     end
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.F0168E0005910798F
     L1_2(L2_2)
@@ -159,7 +149,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.S760DAE4C5371A78E
   L1_2()
   while true do
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.FAD0070D590ADE9E4
     L1_2 = L1_2(L2_2)
@@ -175,8 +165,8 @@ function L70_1(A0_2)
       L1_2 = L1_2.S760DAE4C5371A78E
       L1_2()
     else
-      L2_2 = A0_2
-      L1_2 = A0_2.FD4E4CD507DCFDD8C
+      L2_2 = self
+      L1_2 = self.FD4E4CD507DCFDD8C
       L1_2(L2_2)
       while true do
         L1_2 = CF1D9D619D324F233
@@ -189,7 +179,7 @@ function L70_1(A0_2)
         L1_2 = L1_2.S760DAE4C5371A78E
         L1_2()
       end
-      L1_2 = A0_2[8]
+      L1_2 = self[8]
       L2_2 = CF1D9D619D324F233
       L2_2 = L2_2.S036FE38553339EEE
       L2_2 = L2_2()
@@ -205,7 +195,7 @@ function L70_1(A0_2)
         break
       end
       while true do
-        L4_2 = A0_2[2]
+        L4_2 = self[2]
         L5_2 = L4_2
         L4_2 = L4_2.FAD0070D590ADE9E4
         L4_2 = L4_2(L5_2)
@@ -223,11 +213,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF412310BA274E05A"]["prototype"]
-L69_1 = "FD4E4CD507DCFDD8C"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_one_select_type.PokelistOpenOneSelectTypeState.DisplayContext
+function CF412310BA274E05A_prototype:FD4E4CD507DCFDD8C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C9A888D871C1FF42A
   L1_2 = L1_2.S0B3F69C4549A0284
@@ -274,14 +261,11 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF412310BA274E05A"]["prototype"]
-L69_1 = "F51F4D8E6BF1D6282"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_one_select_type.PokelistOpenOneSelectTypeState.SetupVariable
+function CF412310BA274E05A_prototype:F51F4D8E6BF1D6282()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2
-  L2_2 = A0_2[8]
+  L1_2 = self
+  L2_2 = self[8]
   
   function L3_2()
     local L0_3, L1_3, L2_3, L3_3
@@ -312,7 +296,7 @@ function L70_1(A0_2)
     L4_2 = L2_2.h
     L4_2.select = L3_2
   end
-  L4_2 = A0_2[8]
+  L4_2 = self[8]
   
   function L5_2()
     local L0_3, L1_3, L2_3

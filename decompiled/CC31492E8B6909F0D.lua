@@ -1,3 +1,5 @@
+---@class CC31492E8B6909F0D : CC31492E8B6909F0D_prototype
+---@field prototype CC31492E8B6909F0D_prototype
 L55_1 = _ENV
 L56_1 = "CC31492E8B6909F0D"
 L57_1 = L15_1
@@ -44,53 +46,42 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC31492E8B6909F0D"]
 L69_1 = "__name__"
 L70_1 = "CC31492E8B6909F0D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC31492E8B6909F0D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC31492E8B6909F0D"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2, A1_2)
-  A0_2[5] = A1_2
+---@class CC31492E8B6909F0D_prototype
+CC31492E8B6909F0D_prototype = L15_1()
+CC31492E8B6909F0D.prototype = CC31492E8B6909F0D_prototype
+--- CC31492E8B6909F0D.Init
+function CC31492E8B6909F0D_prototype:F90BBC6B0190BF053(A1_2)
+  self[5] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC31492E8B6909F0D"]["prototype"]
-L69_1 = "FCB83D071E5B6F285"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CC31492E8B6909F0D.FCB83D071E5B6F285
+function CC31492E8B6909F0D_prototype:FCB83D071E5B6F285(A1_2, A2_2)
   local L3_2
   L3_2 = E9EE3FE1D27877D8E
   L3_2 = L3_2.kCountupAnime
-  A0_2[1] = L3_2
-  A0_2[4] = 0.0
-  A0_2[2] = A1_2
-  A0_2[3] = A2_2
+  self[1] = L3_2
+  self[4] = 0.0
+  self[2] = A1_2
+  self[3] = A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC31492E8B6909F0D"]["prototype"]
-L69_1 = "F0B5FBF707A7FA642"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CC31492E8B6909F0D.ManualUpdate
+function CC31492E8B6909F0D_prototype:F0B5FBF707A7FA642(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[1]
   if 0 == L3_2 then
-    L4_2 = A0_2[4]
+    L4_2 = self[4]
     L4_2 = L4_2 + A1_2
-    A0_2[4] = L4_2
-    L4_2 = A0_2[4]
-    L5_2 = A0_2[5]
+    self[4] = L4_2
+    L4_2 = self[4]
+    L5_2 = self[5]
     L4_2 = L4_2 / L5_2
     L5_2 = 0
     while L5_2 < 4 do
       L5_2 = L5_2 + 1
       L6_2 = L5_2 - 1
-      L7_2 = A0_2[2]
+      L7_2 = self[2]
       L7_2 = L7_2[L6_2]
       
       function L8_2()
@@ -108,7 +99,7 @@ function L70_1(A0_2, A1_2, A2_2)
       end
       
       L8_2 = L8_2()
-      L9_2 = A0_2[3]
+      L9_2 = self[3]
       L9_2 = L9_2[L6_2]
       L10_2 = L31_1.int
       
@@ -134,7 +125,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L11_2 = CD9AE7C27B00EB066
       L11_2 = L11_2.SACD3B639AAC4B738
       L12_2 = L10_2
-      L13_2 = A0_2[3]
+      L13_2 = self[3]
       L13_2 = L13_2[L6_2]
       L11_2 = L11_2(L12_2, L13_2)
       L10_2 = L11_2
@@ -144,8 +135,8 @@ function L70_1(A0_2, A1_2, A2_2)
       L14_2 = L10_2
       L11_2(L12_2, L13_2, L14_2)
     end
-    L6_2 = A0_2[4]
-    L7_2 = A0_2[5]
+    L6_2 = self[4]
+    L7_2 = self[5]
     if L6_2 >= L7_2 then
       L6_2 = 0
       while L6_2 < 4 do
@@ -154,7 +145,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L9_2 = A2_2
         L8_2 = A2_2.F2FBA2A190315CA42
         L10_2 = L7_2
-        L11_2 = A0_2[3]
+        L11_2 = self[3]
         L11_2 = L11_2[L7_2]
         L8_2(L9_2, L10_2, L11_2)
       end
@@ -164,7 +155,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L7_2(L8_2, L9_2)
       L7_2 = E9EE3FE1D27877D8E
       L7_2 = L7_2.kLayoutAnime
-      A0_2[1] = L7_2
+      self[1] = L7_2
     end
   elseif 1 == L3_2 then
     L5_2 = A2_2

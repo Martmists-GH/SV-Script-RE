@@ -1,3 +1,7 @@
+---@alias CC52E3EEFD5458D81 main_savedata_accessor_BattleTeamUISaveAccessor
+
+---@class main_savedata_accessor_BattleTeamUISaveAccessor : CC52E3EEFD5458D81_prototype
+---@field prototype CC52E3EEFD5458D81_prototype
 L55_1 = _ENV
 L56_1 = "CC52E3EEFD5458D81"
 L57_1 = L15_1
@@ -37,21 +41,16 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC52E3EEFD5458D81"]
 L69_1 = "__name__"
 L70_1 = "CC52E3EEFD5458D81"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC52E3EEFD5458D81"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC52E3EEFD5458D81"]["prototype"]
-L69_1 = "F042B860498E558B2"
-
-function L70_1(A0_2)
+---@class CC52E3EEFD5458D81_prototype
+CC52E3EEFD5458D81_prototype = L15_1()
+CC52E3EEFD5458D81.prototype = CC52E3EEFD5458D81_prototype
+--- main.savedata.accessor.BattleTeamUISaveAccessor.Format
+function CC52E3EEFD5458D81_prototype:F042B860498E558B2()
   local L1_2, L2_2, L3_2
   L1_2 = C1DAF90683584C5A0
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F042B860498E558B2
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = c37452BA0
   L1_2 = L1_2.fF0E5BBA6
@@ -62,16 +61,13 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC52E3EEFD5458D81"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2)
+--- main.savedata.accessor.BattleTeamUISaveAccessor.Load
+function CC52E3EEFD5458D81_prototype:F6C5D0398122A6629()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C1DAF90683584C5A0
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F6C5D0398122A6629
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = CEBAF1EAFE90BF1A6
   L1_2 = L1_2.S385504EFF7E842C3

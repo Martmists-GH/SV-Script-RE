@@ -1,3 +1,7 @@
+---@alias CC3A35B099E93E3A8 main_ui_box_search_state_BoxSearchInitialJpnState
+
+---@class main_ui_box_search_state_BoxSearchInitialJpnState : CC3A35B099E93E3A8_prototype
+---@field prototype CC3A35B099E93E3A8_prototype
 L55_1 = _ENV
 L56_1 = "CC3A35B099E93E3A8"
 L57_1 = L15_1
@@ -43,25 +47,20 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC3A35B099E93E3A8"]
 L69_1 = "__name__"
 L70_1 = "CC3A35B099E93E3A8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC3A35B099E93E3A8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC3A35B099E93E3A8"]["prototype"]
-L69_1 = "F706FCB31D5565CDB"
-
-function L70_1(A0_2)
+---@class CC3A35B099E93E3A8_prototype
+CC3A35B099E93E3A8_prototype = L15_1()
+CC3A35B099E93E3A8.prototype = CC3A35B099E93E3A8_prototype
+--- main.ui.box.search.state.BoxSearchInitialJpnState.StartFlow
+function CC3A35B099E93E3A8_prototype:F706FCB31D5565CDB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = nil
   L2_2 = c2A84524D
   L2_2 = L2_2.fD80568B4
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = L2_2
     L2_2 = L2_2.f82A5B7C4
     L4_2 = "view_pokebox_search_window_06"
@@ -77,41 +76,38 @@ function L70_1(A0_2)
     if L3_2 == L4_2 then
       L3_2 = nil
     end
-    A0_2[8] = L3_2
-    L4_2 = A0_2[8]
+    self[8] = L3_2
+    L4_2 = self[8]
     if nil ~= L4_2 then
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       L5_2 = L4_2
       L4_2 = L4_2.FDFED30A85620F740
-      L7_2 = A0_2
-      L6_2 = A0_2.F666D98A1C52F178C
+      L7_2 = self
+      L6_2 = self.F666D98A1C52F178C
       L6_2, L7_2 = L6_2(L7_2)
       L4_2(L5_2, L6_2, L7_2)
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       L5_2 = L4_2
       L4_2 = L4_2.F1A62376D7D959B99
       L4_2(L5_2)
     end
-    L4_2 = A0_2[7]
+    L4_2 = self[7]
     L5_2 = L4_2
     L4_2 = L4_2.f83FE57AE
     L4_2(L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC3A35B099E93E3A8"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.box.search.state.BoxSearchInitialJpnState.PreUpdate
+function CC3A35B099E93E3A8_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.FF931DFB41F34B8C1
   L2_2 = L2_2(L3_2)
   if 3 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F3A028D8E4560B2E8
+    L4_2 = self
+    L3_2 = self.F3A028D8E4560B2E8
     L5_2 = 1
     L3_2(L4_2, L5_2)
     return
@@ -120,20 +116,20 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.S2F272D82A04BC240
     L3_2 = L3_2()
     if -2 == L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F3A028D8E4560B2E8
+      L4_2 = self
+      L3_2 = self.F3A028D8E4560B2E8
       L5_2 = 4
       L3_2(L4_2, L5_2)
     else
-      L4_2 = A0_2
-      L3_2 = A0_2.F3A028D8E4560B2E8
+      L4_2 = self
+      L3_2 = self.F3A028D8E4560B2E8
       L5_2 = 2
       L3_2(L4_2, L5_2)
     end
     return
   elseif 2 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F3A028D8E4560B2E8
+    L4_2 = self
+    L3_2 = self.F3A028D8E4560B2E8
     L5_2 = 3
     L3_2(L4_2, L5_2)
     return

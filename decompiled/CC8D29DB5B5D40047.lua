@@ -1,3 +1,7 @@
+---@alias CC8D29DB5B5D40047 main_ui_photomode_main_camera_presenter_PhotomodeCameraPresenter
+
+---@class main_ui_photomode_main_camera_presenter_PhotomodeCameraPresenter : CC8D29DB5B5D40047_prototype
+---@field prototype CC8D29DB5B5D40047_prototype
 L55_1 = _ENV
 L56_1 = "CC8D29DB5B5D40047"
 L57_1 = L15_1
@@ -661,65 +665,54 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC8D29DB5B5D40047"]
 L69_1 = "__name__"
 L70_1 = "CC8D29DB5B5D40047"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D29DB5B5D40047"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D29DB5B5D40047"]["prototype"]
-L69_1 = "FEA33074D1E54303D"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class CC8D29DB5B5D40047_prototype
+CC8D29DB5B5D40047_prototype = L15_1()
+CC8D29DB5B5D40047.prototype = CC8D29DB5B5D40047_prototype
+--- main.ui.photomode.main.camera.presenter.PhotomodeCameraPresenter.FEA33074D1E54303D
+function CC8D29DB5B5D40047_prototype:FEA33074D1E54303D(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L4_2 = A1_2
   L3_2 = A1_2.F932DCF2D0137C70F
   L5_2 = A2_2[1]
-  L6_2 = A0_2[6]
+  L6_2 = self[6]
   L7_2 = L6_2
   L6_2 = L6_2.F82D66A659C802CE0
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 + L6_2
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L5_2 = L5_2 <= L6_2
   L3_2(L4_2, L5_2)
   L4_2 = A1_2
   L3_2 = A1_2.FCD71A26BE272B7C1
   L5_2 = A2_2[1]
-  L6_2 = A0_2[6]
+  L6_2 = self[6]
   L7_2 = L6_2
   L6_2 = L6_2.F82D66A659C802CE0
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 - L6_2
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L6_2 = -L6_2
   L5_2 = L5_2 >= L6_2
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D29DB5B5D40047"]["prototype"]
-L69_1 = "F1A6D43583C850355"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.photomode.main.camera.presenter.PhotomodeCameraPresenter.F1A6D43583C850355
+function CC8D29DB5B5D40047_prototype:F1A6D43583C850355(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FEA341FB12052991B
+  L4_2 = self
+  L3_2 = self.FEA341FB12052991B
   L5_2 = A1_2
   L6_2 = 2 ~= A2_2
   L3_2(L4_2, L5_2, L6_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FB847A548439CF039
+  L4_2 = self
+  L3_2 = self.FB847A548439CF039
   L5_2 = A1_2
   L6_2 = 1 ~= A2_2
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D29DB5B5D40047"]["prototype"]
-L69_1 = "FEA341FB12052991B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.photomode.main.camera.presenter.PhotomodeCameraPresenter.FEA341FB12052991B
+function CC8D29DB5B5D40047_prototype:FEA341FB12052991B(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L4_2 = A1_2
   L3_2 = A1_2.F932DCF2D0137C70F
@@ -727,11 +720,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D29DB5B5D40047"]["prototype"]
-L69_1 = "FB847A548439CF039"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.photomode.main.camera.presenter.PhotomodeCameraPresenter.FB847A548439CF039
+function CC8D29DB5B5D40047_prototype:FB847A548439CF039(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L4_2 = A1_2
   L3_2 = A1_2.FCD71A26BE272B7C1
@@ -739,23 +729,17 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D29DB5B5D40047"]["prototype"]
-L69_1 = "F12B234D43C1340D1"
-
-function L70_1(A0_2)
+--- main.ui.photomode.main.camera.presenter.PhotomodeCameraPresenter.CloseUI
+function CC8D29DB5B5D40047_prototype:F12B234D43C1340D1()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.F12B234D43C1340D1
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D29DB5B5D40047"]["prototype"]
-L69_1 = "F54686DD1E7ADB2FB"
-
-function L70_1(A0_2)
+--- main.ui.photomode.main.camera.presenter.PhotomodeCameraPresenter.F54686DD1E7ADB2FB
+function CC8D29DB5B5D40047_prototype:F54686DD1E7ADB2FB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -780,11 +764,8 @@ function L70_1(A0_2)
   return L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D29DB5B5D40047"]["prototype"]
-L69_1 = "F0ABEB6B1F139ECC8"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.photomode.main.camera.presenter.PhotomodeCameraPresenter.F0ABEB6B1F139ECC8
+function CC8D29DB5B5D40047_prototype:F0ABEB6B1F139ECC8(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   L5_2 = A1_2
   L4_2 = A1_2.F8BF2F4157BE1E89D
@@ -793,18 +774,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2 = A1_2
   L5_2 = A1_2.F5BC83A97D400C2C7
   L5_2(L6_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F1A6D43583C850355
+  L6_2 = self
+  L5_2 = self.F1A6D43583C850355
   L7_2 = A2_2
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8D29DB5B5D40047"]["prototype"]
-L69_1 = "F0C9F36EA97409E1E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.photomode.main.camera.presenter.PhotomodeCameraPresenter.F0C9F36EA97409E1E
+function CC8D29DB5B5D40047_prototype:F0C9F36EA97409E1E(A1_2)
   local L2_2, L3_2
   L3_2 = A1_2
   L2_2 = A1_2.F93F48D5D8B39E9ED

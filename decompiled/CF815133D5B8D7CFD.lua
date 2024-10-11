@@ -1,3 +1,7 @@
+---@alias CF815133D5B8D7CFD main_field_action_pokemon_legend_ActionEventLegendForceMove
+
+---@class main_field_action_pokemon_legend_ActionEventLegendForceMove : CF815133D5B8D7CFD_prototype
+---@field prototype CF815133D5B8D7CFD_prototype
 L55_1 = _ENV
 L56_1 = "CF815133D5B8D7CFD"
 L57_1 = L15_1
@@ -45,20 +49,15 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF815133D5B8D7CFD"]
 L69_1 = "__name__"
 L70_1 = "CF815133D5B8D7CFD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF815133D5B8D7CFD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF815133D5B8D7CFD"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CF815133D5B8D7CFD_prototype
+CF815133D5B8D7CFD_prototype = L15_1()
+CF815133D5B8D7CFD.prototype = CF815133D5B8D7CFD_prototype
+--- main.field.action.pokemon.legend.ActionEventLegendForceMove.onCreate
+function CF815133D5B8D7CFD_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2.useCoroutine = true
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2.owner
   L2_2 = L1_2
   L1_2 = L1_2.f750133BA
@@ -70,17 +69,14 @@ function L70_1(A0_2)
   L4_2[1] = L5_2
   L4_2[2] = L6_2
   L4_2[3] = L7_2
-  A0_2[18] = L4_2
+  self[18] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF815133D5B8D7CFD"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.pokemon.legend.ActionEventLegendForceMove.onPreUpdate
+function CF815133D5B8D7CFD_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2
-  L1_2 = A0_2
-  L2_2 = A0_2[5]
+  L1_2 = self
+  L2_2 = self[5]
   L3_2 = nil
   L4_2 = cE35B3EB3
   L4_2 = L4_2.fDBA763D1
@@ -174,7 +170,7 @@ function L70_1(A0_2)
   end
   L6_2 = 0.0
   L7_2 = 0.0
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L9_2 = nil
   L10_2 = nil
   L11_2 = cE35B3EB3
@@ -221,7 +217,7 @@ function L70_1(A0_2)
     L13_2 = L13_2(L14_2, L15_2)
     L9_2 = L13_2
   end
-  L12_2 = A0_2[5]
+  L12_2 = self[5]
   L13_2 = nil
   L14_2 = cE35B3EB3
   L14_2 = L14_2.fDBA763D1
@@ -264,8 +260,8 @@ function L70_1(A0_2)
   end
   L15_2 = CD9AE7C27B00EB066
   L15_2 = L15_2.S05B90B9B5A6DE6BC
-  L17_2 = A0_2
-  L16_2 = A0_2.F9903F9181E4EA752
+  L17_2 = self
+  L16_2 = self.F9903F9181E4EA752
   L16_2 = L16_2(L17_2)
   L17_2 = L10_1.math
   L17_2 = L17_2.pi
@@ -276,7 +272,7 @@ function L70_1(A0_2)
   L18_2 = 1
   L15_2 = L15_2(L16_2, L17_2, L18_2)
   while true do
-    L16_2 = A0_2[17]
+    L16_2 = self[17]
     if L16_2 then
       break
     end
@@ -292,7 +288,7 @@ function L70_1(A0_2)
     L19_2 = 1.0
     L16_2 = L16_2(L17_2, L18_2, L19_2)
     L7_2 = L16_2
-    L16_2 = A0_2[5]
+    L16_2 = self[5]
     L17_2 = nil
     L18_2 = cE35B3EB3
     L18_2 = L18_2.fDBA763D1
@@ -340,9 +336,9 @@ function L70_1(A0_2)
       L23_2 = L23_2 + L9_2
       L20_2(L21_2, L22_2, L23_2)
     end
-    L19_2 = A0_2[16]
+    L19_2 = self[16]
     L19_2 = L19_2.targetPosXZ
-    L20_2 = A0_2[5]
+    L20_2 = self[5]
     L20_2 = L20_2.owner
     L21_2 = L20_2
     L20_2 = L20_2.f750133BA
@@ -431,10 +427,10 @@ function L70_1(A0_2)
       L39_2 = L30_2[2]
       L40_2 = L30_2[3]
       L31_2 = L31_2(L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2)
-      L32_2 = A0_2[5]
+      L32_2 = self[5]
       L33_2 = cD5675BA5
       L33_2 = L33_2.fBE61A5F8
-      L34_2 = A0_2[5]
+      L34_2 = self[5]
       L34_2 = L34_2.owner
       L35_2 = L34_2
       L34_2 = L34_2.f16155D9E
@@ -448,9 +444,9 @@ function L70_1(A0_2)
       L36_2 = L33_2
       L34_2(L35_2, L36_2)
     end
-    L27_2 = A0_2[19]
+    L27_2 = self[19]
     if L27_2 then
-      L27_2 = A0_2[5]
+      L27_2 = self[5]
       L28_2 = nil
       L29_2 = cE35B3EB3
       L29_2 = L29_2.fDBA763D1
@@ -560,7 +556,7 @@ function L70_1(A0_2)
     end
   end
   
-  L17_2 = A0_2[5]
+  L17_2 = self[5]
   L18_2 = nil
   L19_2 = cE35B3EB3
   L19_2 = L19_2.fDBA763D1
@@ -601,10 +597,10 @@ function L70_1(A0_2)
     L24_2 = "default"
     L21_2(L22_2, L23_2, L24_2)
   end
-  L20_2 = A0_2[16]
+  L20_2 = self[16]
   L20_2 = L20_2.isTransitionWait
   if L20_2 then
-    L20_2 = A0_2[5]
+    L20_2 = self[5]
     L21_2 = nil
     L22_2 = nil
     L23_2 = cE35B3EB3
@@ -670,7 +666,7 @@ function L70_1(A0_2)
       L25_2 = L25_2.S44460EB93267F798
       L24_2 = L24_2 + L25_2
     end
-    L25_2 = A0_2[5]
+    L25_2 = self[5]
     L26_2 = nil
     L27_2 = cE35B3EB3
     L27_2 = L27_2.fDBA763D1
@@ -716,19 +712,16 @@ function L70_1(A0_2)
   return L20_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF815133D5B8D7CFD"]["prototype"]
-L69_1 = "FB9EEE315620F5E73"
-
-function L70_1(A0_2)
+--- main.field.action.pokemon.legend.ActionEventLegendForceMove.onPostUpdate
+function CF815133D5B8D7CFD_prototype:FB9EEE315620F5E73()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   while true do
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     L1_2 = L1_2.owner
     L2_2 = L1_2
     L1_2 = L1_2.f750133BA
     L1_2, L2_2, L3_2 = L1_2(L2_2)
-    L4_2 = A0_2[18]
+    L4_2 = self[18]
     L5_2 = c7A48E3FC
     L5_2 = L5_2.f38BA082F
     L6_2 = L1_2
@@ -738,8 +731,8 @@ function L70_1(A0_2)
     L10_2 = L4_2[2]
     L11_2 = L4_2[3]
     L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
-    L6_2 = A0_2[18]
-    L7_2 = A0_2[16]
+    L6_2 = self[18]
+    L7_2 = self[16]
     L7_2 = L7_2.targetPosXZ
     L8_2 = c7A48E3FC
     L8_2 = L8_2.f38BA082F
@@ -750,12 +743,12 @@ function L70_1(A0_2)
     L13_2 = L7_2[2]
     L14_2 = L7_2[3]
     L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-    L9_2 = A0_2[15]
+    L9_2 = self[15]
     L9_2 = L9_2[9]
     if L9_2 then
       L9_2 = CC19222E56D8434C9
       L9_2 = L9_2.S52DF90C5B69BFBBE
-      L10_2 = A0_2[5]
+      L10_2 = self[5]
       L9_2(L10_2)
     end
     if not (L5_2 >= L8_2) then
@@ -765,10 +758,10 @@ function L70_1(A0_2)
         goto lbl_43
       end
     end
-    A0_2[17] = true
+    self[17] = true
     do break end
     ::lbl_43::
-    L9_2 = A0_2[5]
+    L9_2 = self[5]
     L9_2 = L9_2.owner
     L10_2 = L9_2
     L9_2 = L9_2.f750133BA
@@ -780,13 +773,13 @@ function L70_1(A0_2)
     L12_2[1] = L13_2
     L12_2[2] = L14_2
     L12_2[3] = L15_2
-    A0_2[18] = L12_2
+    self[18] = L12_2
     L12_2 = C1DB14DCC9D7634FA
     L12_2 = L12_2.S760DAE4C5371A78E
     L12_2()
   end
-  L1_2 = A0_2[5]
-  L2_2 = A0_2[16]
+  L1_2 = self[5]
+  L2_2 = self[16]
   L2_2 = L2_2.targetPosXZ
   L3_2 = L10_1.select
   L4_2 = 2
@@ -802,19 +795,16 @@ function L70_1(A0_2)
   L7_2 = L3_2
   L8_2 = L2_2[3]
   L4_2(L5_2, L6_2, L7_2, L8_2)
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   L5_2 = L4_2
   L4_2 = L4_2.fAECC5172
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF815133D5B8D7CFD"]["prototype"]
-L69_1 = "F9903F9181E4EA752"
-
-function L70_1(A0_2)
+--- main.field.action.pokemon.legend.ActionEventLegendForceMove.CalcVectorAngle
+function CF815133D5B8D7CFD_prototype:F9903F9181E4EA752()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2.owner
   L2_2 = L1_2
   L1_2 = L1_2.f64857644
@@ -838,9 +828,9 @@ function L70_1(A0_2)
   L7_2[1] = L8_2
   L7_2[2] = L9_2
   L7_2[3] = L10_2
-  L8_2 = A0_2[16]
+  L8_2 = self[16]
   L8_2 = L8_2.targetPosXZ
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L9_2 = L9_2.owner
   L10_2 = L9_2
   L9_2 = L9_2.f750133BA
@@ -867,13 +857,10 @@ function L70_1(A0_2)
   return L15_2(L16_2, L17_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF815133D5B8D7CFD"]["prototype"]
-L69_1 = "F72F203963C699DD9"
-
-function L70_1(A0_2)
+--- main.field.action.pokemon.legend.ActionEventLegendForceMove.ForceEnd
+function CF815133D5B8D7CFD_prototype:F72F203963C699DD9()
   local L1_2
-  A0_2[19] = true
+  self[19] = true
 end
 
 L68_1[L69_1] = L70_1

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C0CD5F1264684CB04"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C0CD5F1264684CB04"]
-L69_1 = "new"
+---@alias C0CD5F1264684CB04 main_env_distant_view_DistantViewEffectManager
 
-function L70_1(A0_2)
+---@class main_env_distant_view_DistantViewEffectManager : C0CD5F1264684CB04_prototype
+---@field prototype C0CD5F1264684CB04_prototype
+C0CD5F1264684CB04 = L15_1()
+function C0CD5F1264684CB04.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C0CD5F1264684CB04
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CD5F1264684CB04"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C0CD5F1264684CB04
+function C0CD5F1264684CB04.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -90,11 +84,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CD5F1264684CB04"]
-L69_1 = "SC9BC65AB67CEFD2D"
-
-function L70_1(A0_2)
+--- main.env.distant_view.DistantViewEffectManager.SC9BC65AB67CEFD2D
+function C0CD5F1264684CB04.SC9BC65AB67CEFD2D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C0CD5F1264684CB04
   L1_2.SCAE76A386530A03D = A0_2
@@ -126,20 +117,15 @@ function L70_1(A0_2)
   L2_2.S54167D5571C717B5 = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CD5F1264684CB04"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CD5F1264684CB04"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C0CD5F1264684CB04_prototype
+C0CD5F1264684CB04_prototype = L15_1()
+C0CD5F1264684CB04.prototype = C0CD5F1264684CB04_prototype
+--- main.env.distant_view.DistantViewEffectManager.Setup
+function C0CD5F1264684CB04_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = C0CD5F1264684CB04
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.f462C9B70
   L4_2 = L4_2(L5_2)
@@ -151,15 +137,15 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2)
   L3_2 = c7B88F8F8
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
-  A0_2[4] = L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FB56EFB69463A5866
+  self[4] = L3_2
+  L4_2 = self
+  L3_2 = self.FB56EFB69463A5866
   L3_2(L4_2)
   L3_2 = cCF781FB6
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.fC9F06BB8
@@ -223,7 +209,7 @@ function L70_1(A0_2, A1_2)
   L6_2.func = L7_2
   L5_2 = L5_2(L6_2)
   L6_2 = L4_2[3]
-  L7_2 = A0_2
+  L7_2 = self
   L8_2 = L6_2.h
   L8_2[L7_2] = L5_2
   L8_2 = L6_2.k
@@ -272,34 +258,28 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CD5F1264684CB04"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.env.distant_view.DistantViewEffectManager.PreUpdate
+function C0CD5F1264684CB04_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F731C3A7F4EBAF29E
+  L3_2 = self
+  L2_2 = self.F731C3A7F4EBAF29E
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CD5F1264684CB04"]["prototype"]
-L69_1 = "FB56EFB69463A5866"
-
-function L70_1(A0_2)
+--- main.env.distant_view.DistantViewEffectManager.CreateControl
+function C0CD5F1264684CB04_prototype:FB56EFB69463A5866()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = C0E827A83A1A200CD
   L3_2 = L3_2.new
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2, L4_2, L5_2, L6_2, L7_2, L8_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
   L1_2 = 0
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -309,7 +289,7 @@ function L70_1(A0_2)
     L1_2 = L1_2 + 1
     L5_2 = L3_2
     L4_2 = L3_2.FED89B77B7E80512A
-    L6_2 = A0_2[4]
+    L6_2 = self[4]
     L4_2(L5_2, L6_2)
     L4_2 = CA66BF560955C69B4
     L4_2 = L4_2.SC8223E31D3163519
@@ -347,19 +327,16 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CD5F1264684CB04"]["prototype"]
-L69_1 = "F731C3A7F4EBAF29E"
-
-function L70_1(A0_2, A1_2)
+--- main.env.distant_view.DistantViewEffectManager.ActiveUpdate
+function C0CD5F1264684CB04_prototype:F731C3A7F4EBAF29E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.add
   L3_2 = L2_2
   L2_2 = L2_2.resize
   L4_2 = 0
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.remove
   L3_2 = L2_2
   L2_2 = L2_2.resize
@@ -390,13 +367,13 @@ function L70_1(A0_2, A1_2)
     L9_2 = L8_2
     L8_2 = L8_2.f3749E8D8
     L10_2 = L55_1
-    L11_2 = A0_2
-    L12_2 = A0_2.FC4F473FA9CA35F4B
+    L11_2 = self
+    L12_2 = self.FC4F473FA9CA35F4B
     L10_2, L11_2, L12_2 = L10_2(L11_2, L12_2)
     L8_2(L9_2, L10_2, L11_2, L12_2)
   end
   L4_2 = 0
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   while true do
     L6_2 = L5_2.length
     if not (L4_2 < L6_2) then
@@ -407,16 +384,13 @@ function L70_1(A0_2, A1_2)
     L8_2 = L6_2
     L7_2 = L6_2.FEB6685558281F194
     L9_2 = A1_2
-    L10_2 = A0_2[2]
+    L10_2 = self[2]
     L7_2(L8_2, L9_2, L10_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CD5F1264684CB04"]["prototype"]
-L69_1 = "FC4F473FA9CA35F4B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.env.distant_view.DistantViewEffectManager.onReadPoints
+function C0CD5F1264684CB04_prototype:FC4F473FA9CA35F4B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if 0 == A1_2 then
   elseif 1 == A1_2 then
@@ -444,8 +418,8 @@ function L70_1(A0_2, A1_2, A2_2)
       L7_2.id = true
       L7_2.point = true
       L6_2.__fields__ = L7_2
-      L8_2 = A0_2
-      L7_2 = A0_2.FD51470DDF2A04C4D
+      L8_2 = self
+      L7_2 = self.FD51470DDF2A04C4D
       L9_2 = A2_2
       L7_2 = L7_2(L8_2, L9_2)
       L6_2.id = L7_2
@@ -457,7 +431,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L6_2 = L6_2.push
       L8_2 = L5_2
       L6_2(L7_2, L8_2)
-      L6_2 = A0_2[2]
+      L6_2 = self[2]
       L6_2 = L6_2.add
       L7_2 = L6_2
       L6_2 = L6_2.push
@@ -490,7 +464,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L6_2 = L6_2.remove
       L8_2 = L5_2
       L6_2(L7_2, L8_2)
-      L6_2 = A0_2[2]
+      L6_2 = self[2]
       L6_2 = L6_2.remove
       L7_2 = L6_2
       L6_2 = L6_2.push
@@ -500,11 +474,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CD5F1264684CB04"]["prototype"]
-L69_1 = "FD51470DDF2A04C4D"
-
-function L70_1(A0_2, A1_2)
+--- main.env.distant_view.DistantViewEffectManager.pointToId
+function C0CD5F1264684CB04_prototype:FD51470DDF2A04C4D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = L31_1.string
   L3_2 = L31_1.string

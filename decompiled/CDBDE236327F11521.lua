@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "CDBDE236327F11521"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CDBDE236327F11521"]
-L69_1 = "new"
-
-function L70_1(A0_2, A1_2)
+---@class CDBDE236327F11521 : CDBDE236327F11521_prototype
+---@field prototype CDBDE236327F11521_prototype
+CDBDE236327F11521 = L15_1()
+function CDBDE236327F11521.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CDBDE236327F11521
@@ -23,11 +18,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDBDE236327F11521"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CDBDE236327F11521
+function CDBDE236327F11521.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   A0_2[20] = nil
   L3_2 = E2EA0D4F30300BEA6
@@ -42,11 +34,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDBDE236327F11521"]
-L69_1 = "__name__"
-L70_1 = "CDBDE236327F11521"
-L68_1[L69_1] = L70_1
+CDBDE236327F11521.__name__ = "CDBDE236327F11521"
 L68_1 = _ENV["CDBDE236327F11521"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -73,16 +61,11 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDBDE236327F11521"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDBDE236327F11521"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CDBDE236327F11521_prototype
+CDBDE236327F11521_prototype = L15_1()
+CDBDE236327F11521.prototype = CDBDE236327F11521_prototype
+--- CDBDE236327F11521.onCreate
+function CDBDE236327F11521_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = CCD22EFED4E9E5F89
   L1_2 = L1_2.SED1ADEAA962DF019
@@ -100,7 +83,7 @@ function L70_1(A0_2)
   L4_2[1] = L5_2
   L4_2[2] = L6_2
   L4_2[3] = L7_2
-  A0_2[18] = L4_2
+  self[18] = L4_2
   L4_2 = CFC8F368D91411014
   L4_2 = L4_2.SA9BA6F9B9C3B2D73
   L4_2 = L4_2[7]
@@ -126,47 +109,44 @@ function L70_1(A0_2)
   L10_2 = "StateComponent"
   L7_2, L8_2, L9_2, L10_2 = L7_2(L8_2, L9_2, L10_2)
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  A0_2[20] = L6_2
+  self[20] = L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDBDE236327F11521"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- CDBDE236327F11521.onUpdate
+function CDBDE236327F11521_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L1_2 = A0_2[19]
+  L1_2 = self[19]
   L1_2 = L1_2[1]
   if 0 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F2A495AC497E404DD
+    L3_2 = self
+    L2_2 = self.F2A495AC497E404DD
     L2_2 = L2_2(L3_2)
     if L2_2 then
       L2_2 = E2EA0D4F30300BEA6
       L2_2 = L2_2.Update
-      A0_2[19] = L2_2
+      self[19] = L2_2
     end
   elseif 1 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F2A495AC497E404DD
+    L3_2 = self
+    L2_2 = self.F2A495AC497E404DD
     L2_2 = L2_2(L3_2)
     if not L2_2 then
       L2_2 = 2
       return L2_2
     end
-    L2_2 = A0_2[17]
+    L2_2 = self[17]
     L2_2 = L2_2.roarData
     L2_2 = L2_2.roarDistance
-    L3_2 = A0_2[17]
+    L3_2 = self[17]
     L3_2 = L3_2.roarData
     L3_2 = L3_2.roarAngle
-    L4_2 = A0_2[17]
+    L4_2 = self[17]
     L4_2 = L4_2.roarData
     L4_2 = L4_2.roarBaseFrontPos
-    L5_2 = A0_2[17]
+    L5_2 = self[17]
     L5_2 = L5_2.roarData
     L5_2 = L5_2.roarRangeType
-    L6_2 = A0_2[18]
+    L6_2 = self[18]
     L7_2 = C71758071AC16ED58
     L7_2 = L7_2.SFDCCF8B82E022CEF
     L7_2 = L7_2()
@@ -175,25 +155,25 @@ function L70_1(A0_2)
       return L8_2
     end
     if 0 == L5_2 then
-      L9_2 = A0_2
-      L8_2 = A0_2.FEA5B4913A48DBD91
+      L9_2 = self
+      L8_2 = self.FEA5B4913A48DBD91
       L10_2 = L6_2
       L11_2 = L7_2
       L12_2 = L2_2
       L8_2(L9_2, L10_2, L11_2, L12_2)
     elseif 1 == L5_2 then
-      L9_2 = A0_2
-      L8_2 = A0_2.FB7C1A991BFC228E1
+      L9_2 = self
+      L8_2 = self.FB7C1A991BFC228E1
       L10_2 = L6_2
       L11_2 = L7_2
       L12_2 = L2_2
       L13_2 = L3_2
       L8_2(L9_2, L10_2, L11_2, L12_2, L13_2)
     elseif 2 == L5_2 then
-      L9_2 = A0_2
-      L8_2 = A0_2.FEA5B4913A48DBD91
-      L11_2 = A0_2
-      L10_2 = A0_2.F164B29CEF055459E
+      L9_2 = self
+      L8_2 = self.FEA5B4913A48DBD91
+      L11_2 = self
+      L10_2 = self.F164B29CEF055459E
       L12_2 = L6_2
       L13_2 = L4_2
       L10_2 = L10_2(L11_2, L12_2, L13_2)
@@ -206,13 +186,10 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDBDE236327F11521"]["prototype"]
-L69_1 = "F2A495AC497E404DD"
-
-function L70_1(A0_2)
+--- CDBDE236327F11521.F2A495AC497E404DD
+function CDBDE236327F11521_prototype:F2A495AC497E404DD()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[20]
+  L1_2 = self[20]
   L2_2 = L1_2
   L1_2 = L1_2.f7730DB33
   L3_2 = 0
@@ -224,11 +201,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDBDE236327F11521"]["prototype"]
-L69_1 = "FEA5B4913A48DBD91"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- CDBDE236327F11521.FEA5B4913A48DBD91
+function CDBDE236327F11521_prototype:FEA5B4913A48DBD91(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L4_2 = 0
   L5_2 = false
@@ -280,11 +254,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDBDE236327F11521"]["prototype"]
-L69_1 = "FB7C1A991BFC228E1"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- CDBDE236327F11521.FB7C1A991BFC228E1
+function CDBDE236327F11521_prototype:FB7C1A991BFC228E1(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   L5_2 = CFC8F368D91411014
   L5_2 = L5_2.S93A017D496A6D000
@@ -419,11 +390,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDBDE236327F11521"]["prototype"]
-L69_1 = "F164B29CEF055459E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CDBDE236327F11521.F164B29CEF055459E
+function CDBDE236327F11521_prototype:F164B29CEF055459E(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L3_2 = CFC8F368D91411014
   L3_2 = L3_2.S93A017D496A6D000

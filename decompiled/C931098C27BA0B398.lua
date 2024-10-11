@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C931098C27BA0B398"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C931098C27BA0B398"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C931098C27BA0B398"]
-L69_1 = "__name__"
-L70_1 = "C931098C27BA0B398"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C931098C27BA0B398"]
-L69_1 = "S228F4FB4F1CF220E"
+---@alias C931098C27BA0B398 main_event_command_TipsCommand
 
-function L70_1(A0_2, A1_2)
+---@class main_event_command_TipsCommand
+C931098C27BA0B398 = L15_1()
+C931098C27BA0B398.new = {}
+C931098C27BA0B398.__name__ = "C931098C27BA0B398"
+--- main.event.command.TipsCommand.ShowTips
+function C931098C27BA0B398.S228F4FB4F1CF220E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C931098C27BA0B398
   L3_2 = c682D8E4F
@@ -129,11 +120,8 @@ function L70_1(A0_2, A1_2)
   L4_2.S01A3531F6B7E2484 = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C931098C27BA0B398"]
-L69_1 = "SC152E568CEDF016D"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.TipsCommand.ShowTipsOnUIEventStart
+function C931098C27BA0B398.SC152E568CEDF016D(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   while true do
     L2_2 = C38031D3FA506665C
@@ -159,11 +147,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C931098C27BA0B398"]
-L69_1 = "S55046ADC71034512"
-
-function L70_1(A0_2)
+--- main.event.command.TipsCommand.IsTipsFirstShow
+function C931098C27BA0B398.S55046ADC71034512(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C7FFC3A021777A120
   L1_2 = L1_2.S0B3F69C4549A0284
@@ -187,11 +172,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C931098C27BA0B398"]
-L69_1 = "SC5FB8238D522F8BA"
-
-function L70_1()
+--- main.event.command.TipsCommand.ForceTeaminate
+function C931098C27BA0B398.SC5FB8238D522F8BA()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cA042DA13

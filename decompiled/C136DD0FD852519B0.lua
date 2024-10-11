@@ -1,3 +1,5 @@
+---@class C136DD0FD852519B0 : C136DD0FD852519B0_prototype
+---@field prototype C136DD0FD852519B0_prototype
 L55_1 = _ENV
 L56_1 = "C136DD0FD852519B0"
 L57_1 = L15_1
@@ -47,18 +49,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C136DD0FD852519B0"]
 L69_1 = "__name__"
 L70_1 = "C136DD0FD852519B0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C136DD0FD852519B0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C136DD0FD852519B0"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C136DD0FD852519B0_prototype
+C136DD0FD852519B0_prototype = L15_1()
+C136DD0FD852519B0.prototype = C136DD0FD852519B0_prototype
+--- C136DD0FD852519B0.mainBody
+function C136DD0FD852519B0_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerName
   if "event_npc_gym_mizu_receptionist" == L1_2 then
     L1_2 = C9AA363B3CCC264AA
@@ -70,12 +67,12 @@ function L70_1(A0_2)
     L3_2 = "gym_mizu_040"
     L2_2 = L2_2(L3_2)
     if L1_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.FF49FDBC545623217
+      L4_2 = self
+      L3_2 = self.FF49FDBC545623217
       L3_2(L4_2)
     elseif L2_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F14899B9324AD7699
+      L4_2 = self
+      L3_2 = self.F14899B9324AD7699
       L3_2(L4_2)
     else
       L3_2 = L31_1.string
@@ -83,7 +80,7 @@ function L70_1(A0_2)
       L5_2 = "message/dat/JPN/script/"
       L4_2 = L4_2(L5_2)
       L5_2 = L31_1.string
-      L6_2 = A0_2[36]
+      L6_2 = self[36]
       L5_2 = L5_2(L6_2)
       L4_2 = L4_2 .. L5_2
       L3_2 = L3_2(L4_2)
@@ -100,10 +97,10 @@ function L70_1(A0_2)
       L4_2()
       L4_2 = C9B54BC04DD492B6D
       L4_2 = L4_2.S3EDC50DEB344C642
-      L5_2 = A0_2[18]
+      L5_2 = self[18]
       L5_2 = L5_2.ownerName
       L6_2 = "gym_mizu_040_receptionist_00"
-      L7_2 = A0_2[36]
+      L7_2 = self[36]
       L8_2 = 0
       L4_2(L5_2, L6_2, L7_2, L8_2)
       L4_2 = C9B54BC04DD492B6D
@@ -114,18 +111,15 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C136DD0FD852519B0"]["prototype"]
-L69_1 = "F14899B9324AD7699"
-
-function L70_1(A0_2)
+--- C136DD0FD852519B0.eventFinished
+function C136DD0FD852519B0_prototype:F14899B9324AD7699()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = L31_1.string
   L2_2 = L31_1.string
   L3_2 = "message/dat/JPN/script/"
   L2_2 = L2_2(L3_2)
   L3_2 = L31_1.string
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L3_2 = L3_2(L4_2)
   L2_2 = L2_2 .. L3_2
   L1_2 = L1_2(L2_2)
@@ -146,7 +140,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L2_2
@@ -154,7 +148,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -166,7 +160,7 @@ function L70_1(A0_2)
   L4_2 = L4_2.fE9C29DA1
   L4_2 = L4_2(L5_2)
   L5_2 = "gym_mizu_040_receptionist_04"
-  L6_2 = A0_2[36]
+  L6_2 = self[36]
   L7_2 = 0
   L3_2(L4_2, L5_2, L6_2, L7_2)
   L3_2 = C9B54BC04DD492B6D
@@ -175,18 +169,15 @@ function L70_1(A0_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C136DD0FD852519B0"]["prototype"]
-L69_1 = "FF49FDBC545623217"
-
-function L70_1(A0_2)
+--- C136DD0FD852519B0.event020
+function C136DD0FD852519B0_prototype:FF49FDBC545623217()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = L31_1.string
   L2_2 = L31_1.string
   L3_2 = "message/dat/JPN/script/"
   L2_2 = L2_2(L3_2)
   L3_2 = L31_1.string
-  L4_2 = A0_2[35]
+  L4_2 = self[35]
   L3_2 = L3_2(L4_2)
   L2_2 = L2_2 .. L3_2
   L1_2 = L1_2(L2_2)
@@ -207,7 +198,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L2_2
@@ -215,7 +206,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -227,7 +218,7 @@ function L70_1(A0_2)
   L4_2 = L4_2.fE9C29DA1
   L4_2 = L4_2(L5_2)
   L5_2 = "gym_mizu_020_receptionist_01"
-  L6_2 = A0_2[35]
+  L6_2 = self[35]
   L7_2 = 0
   L3_2(L4_2, L5_2, L6_2, L7_2)
   L3_2 = nil
@@ -239,7 +230,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L3_2
@@ -247,7 +238,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -259,7 +250,7 @@ function L70_1(A0_2)
   L5_2 = L5_2.fE9C29DA1
   L5_2 = L5_2(L6_2)
   L6_2 = "gym_mizu_020_receptionist_02"
-  L7_2 = A0_2[35]
+  L7_2 = self[35]
   L8_2 = 0
   L4_2(L5_2, L6_2, L7_2, L8_2)
   L4_2 = C9B54BC04DD492B6D

@@ -1,3 +1,7 @@
+---@alias C5B393B2F25E0A77B main_event_general_system_PlayerOverlapEvent
+
+---@class main_event_general_system_PlayerOverlapEvent : C5B393B2F25E0A77B_prototype
+---@field prototype C5B393B2F25E0A77B_prototype
 L55_1 = _ENV
 L56_1 = "C5B393B2F25E0A77B"
 L57_1 = L15_1
@@ -52,16 +56,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C5B393B2F25E0A77B"]
 L69_1 = "__name__"
 L70_1 = "C5B393B2F25E0A77B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5B393B2F25E0A77B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5B393B2F25E0A77B"]["prototype"]
-L69_1 = "F06F437AA4AE87B7A"
-
-function L70_1(A0_2)
+---@class C5B393B2F25E0A77B_prototype
+C5B393B2F25E0A77B_prototype = L15_1()
+C5B393B2F25E0A77B.prototype = C5B393B2F25E0A77B_prototype
+--- main.event.general.system.PlayerOverlapEvent.IsHit
+function C5B393B2F25E0A77B_prototype:F06F437AA4AE87B7A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = c95DC25DB
   L1_2 = L1_2.f544F902B
@@ -69,7 +68,7 @@ function L70_1(A0_2)
   L2_2 = L1_2
   L1_2 = L1_2.f5E1D7445
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[36]
+  L2_2 = self[36]
   L3_2 = CFC8F368D91411014
   L3_2 = L3_2.S93A017D496A6D000
   L3_2 = L3_2.owner
@@ -83,7 +82,7 @@ function L70_1(A0_2)
   L10_2 = L4_2
   L11_2 = L5_2
   L12_2 = 0
-  L13_2 = A0_2[35]
+  L13_2 = self[35]
   L14_2 = 1
   L15_2 = 0
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
@@ -114,26 +113,20 @@ function L70_1(A0_2)
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5B393B2F25E0A77B"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+--- main.event.general.system.PlayerOverlapEvent.preStart
+function C5B393B2F25E0A77B_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5B393B2F25E0A77B"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.general.system.PlayerOverlapEvent.postStart
+function C5B393B2F25E0A77B_prototype:F2E6C9E25867BCE8D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S342007287416AA78
   L2_2 = L1_2
   L1_2 = L1_2.f416AE862
   L1_2 = L1_2(L2_2)
-  A0_2[36] = L1_2
+  self[36] = L1_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S93A017D496A6D000
   L2_2 = c85FE83D4
@@ -157,7 +150,7 @@ function L70_1(A0_2)
   L3_2 = L2_2.f53D9EAAE
   L3_2 = L3_2(L4_2)
   if 7 == L3_2 then
-    L3_2 = A0_2[36]
+    L3_2 = self[36]
     L4_2 = L3_2
     L3_2 = L3_2.f9B7C9C73
     L6_2 = L2_2
@@ -167,7 +160,7 @@ function L70_1(A0_2)
     L5_2 = L5_2.f033BDCFE
     L5_2, L6_2 = L5_2(L6_2)
     L3_2(L4_2, L5_2, L6_2)
-    L3_2 = A0_2[36]
+    L3_2 = self[36]
     L4_2 = L3_2
     L3_2 = L3_2.f340F31A5
     L6_2 = L2_2
@@ -178,11 +171,11 @@ function L70_1(A0_2)
     L5_2, L6_2 = L5_2(L6_2)
     L3_2(L4_2, L5_2, L6_2)
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F06F437AA4AE87B7A
+  L4_2 = self
+  L3_2 = self.F06F437AA4AE87B7A
   L3_2 = L3_2(L4_2)
-  A0_2[33] = L3_2
-  L3_2 = A0_2[33]
+  self[33] = L3_2
+  L3_2 = self[33]
   if L3_2 then
     L3_2 = c95DC25DB
     L3_2 = L3_2.f544F902B
@@ -192,36 +185,27 @@ function L70_1(A0_2)
     L3_2 = L3_2(L4_2)
     L4_2 = L3_2
     L3_2 = L3_2.f840D6713
-    L5_2 = A0_2[34]
-    L6_2 = A0_2[35]
+    L5_2 = self[34]
+    L6_2 = self[35]
     L3_2(L4_2, L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5B393B2F25E0A77B"]["prototype"]
-L69_1 = "F367E56C9AF7477A9"
-
-function L70_1(A0_2)
+--- main.event.general.system.PlayerOverlapEvent.preReset
+function C5B393B2F25E0A77B_prototype:F367E56C9AF7477A9()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5B393B2F25E0A77B"]["prototype"]
-L69_1 = "F7D3239FB83157FC6"
-
-function L70_1(A0_2)
+--- main.event.general.system.PlayerOverlapEvent.postReset
+function C5B393B2F25E0A77B_prototype:F7D3239FB83157FC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5B393B2F25E0A77B"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.system.PlayerOverlapEvent.mainBody
+function C5B393B2F25E0A77B_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
-  L2_2 = A0_2[33]
+  L1_2 = self
+  L2_2 = self[33]
   if L2_2 then
     L2_2 = CC6FE82819C6E1D55
     L2_2 = L2_2.S903489488FB9BA8D
@@ -246,17 +230,14 @@ function L70_1(A0_2)
     L2_2 = L2_2(L3_2)
     L3_2 = L2_2
     L2_2 = L2_2.fEAABE396
-    L4_2 = A0_2[34]
-    L5_2 = A0_2[35]
+    L4_2 = self[34]
+    L5_2 = self[35]
     L2_2(L3_2, L4_2, L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5B393B2F25E0A77B"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.system.PlayerOverlapEvent.mainBodyFinish
+function C5B393B2F25E0A77B_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 

@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C3E9C636B87393B84"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C3E9C636B87393B84"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3E9C636B87393B84"]
-L69_1 = "__name__"
-L70_1 = "C3E9C636B87393B84"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3E9C636B87393B84"]
-L69_1 = "SF9E34F10DF577FF6"
+---@alias C3E9C636B87393B84 main_event_command_OriginalBookCommand
 
-function L70_1(A0_2)
+---@class main_event_command_OriginalBookCommand
+C3E9C636B87393B84 = L15_1()
+C3E9C636B87393B84.new = {}
+C3E9C636B87393B84.__name__ = "C3E9C636B87393B84"
+--- main.event.command.OriginalBookCommand.ShowOriginalBook
+function C3E9C636B87393B84.SF9E34F10DF577FF6(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D

@@ -1,3 +1,7 @@
+---@alias CC8A8EB69187AB311 main_field_action_ActionPlayerLookAt
+
+---@class main_field_action_ActionPlayerLookAt : CC8A8EB69187AB311_prototype
+---@field prototype CC8A8EB69187AB311_prototype
 L55_1 = _ENV
 L56_1 = "CC8A8EB69187AB311"
 L57_1 = L15_1
@@ -43,23 +47,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC8A8EB69187AB311"]
 L69_1 = "__name__"
 L70_1 = "CC8A8EB69187AB311"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8A8EB69187AB311"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8A8EB69187AB311"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CC8A8EB69187AB311_prototype
+CC8A8EB69187AB311_prototype = L15_1()
+CC8A8EB69187AB311.prototype = CC8A8EB69187AB311_prototype
+--- main.field.action.ActionPlayerLookAt.onCreate
+function CC8A8EB69187AB311_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CAE77CEB266C9024A
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC87C731D11C58354
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = 8
   L1_2.updateInterval = L2_2
   L3_2 = nil
@@ -75,7 +74,7 @@ function L70_1(A0_2)
     L6_2 = L2_2
     L4_2(L5_2, L6_2)
   end
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L4_2.runParalleled = true
   L6_2 = L4_2
   L5_2 = L4_2.runParalleledCallbackFunc
@@ -83,13 +82,10 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8A8EB69187AB311"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPlayerLookAt.onSetup
+function CC8A8EB69187AB311_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = nil
   L3_2 = nil
   L4_2 = cE35B3EB3
@@ -146,12 +142,12 @@ function L70_1(A0_2)
     L6_2 = false
     return L6_2
   end
-  L6_2 = A0_2[16]
+  L6_2 = self[16]
   L6_2 = L6_2.targetObject
   if nil ~= L6_2 then
-    L6_2 = A0_2[16]
+    L6_2 = self[16]
     L6_2 = L6_2.targetObject
-    L7_2 = A0_2[15]
+    L7_2 = self[15]
     L8_2 = L7_2
     L7_2 = L7_2.F139E405DC499CC35
     L9_2 = L16_1
@@ -177,10 +173,10 @@ function L70_1(A0_2)
     L9_2, L10_2, L11_2, L12_2, L13_2 = L9_2(L10_2)
     L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
   else
-    L6_2 = A0_2[16]
+    L6_2 = self[16]
     L6_2 = L6_2.targetPosition
     if nil ~= L6_2 then
-      L6_2 = A0_2[15]
+      L6_2 = self[15]
       L7_2 = L6_2
       L6_2 = L6_2.F139E405DC499CC35
       L8_2 = L16_1
@@ -188,7 +184,7 @@ function L70_1(A0_2)
       L10_2 = {}
       L10_2.position = true
       L9_2.__fields__ = L10_2
-      L10_2 = A0_2[16]
+      L10_2 = self[16]
       L10_2 = L10_2.targetPosition
       L9_2.position = L10_2
       L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L8_2(L9_2)
@@ -199,33 +195,24 @@ function L70_1(A0_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8A8EB69187AB311"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPlayerLookAt.onPreUpdate
+function CC8A8EB69187AB311_prototype:F1993A419B4083AE8()
   local L1_2
   L1_2 = 0
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8A8EB69187AB311"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPlayerLookAt.onTerminate
+function CC8A8EB69187AB311_prototype:F97D80368ACC86AEF()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8A8EB69187AB311"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPlayerLookAt.onFinish
+function CC8A8EB69187AB311_prototype:FA2C827B56F56ABDF()
   local L1_2, L2_2
-  L1_2 = A0_2[15]
+  L1_2 = self[15]
   L2_2 = L1_2
   L1_2 = L1_2.FCA52E6D9711CCD16
   L1_2(L2_2)

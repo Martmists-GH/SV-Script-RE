@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C84AAFEB169AAF498"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C84AAFEB169AAF498"]
-L69_1 = "new"
+---@alias C84AAFEB169AAF498 main_system_light_direct_applier_control_PostEffectCoroutineManager
 
-function L70_1()
+---@class main_system_light_direct_applier_control_PostEffectCoroutineManager : C84AAFEB169AAF498_prototype
+---@field prototype C84AAFEB169AAF498_prototype
+C84AAFEB169AAF498 = L15_1()
+function C84AAFEB169AAF498.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C84AAFEB169AAF498
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84AAFEB169AAF498"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C84AAFEB169AAF498
+function C84AAFEB169AAF498.super(A0_2)
   local L1_2
   L1_2 = L43_1.new
   L1_2 = L1_2()
@@ -34,11 +28,7 @@ function L70_1(A0_2)
   L1_2.SF3075AB31C9E8AF4 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84AAFEB169AAF498"]
-L69_1 = "__name__"
-L70_1 = "C84AAFEB169AAF498"
-L68_1[L69_1] = L70_1
+C84AAFEB169AAF498.__name__ = "C84AAFEB169AAF498"
 L68_1 = _ENV["C84AAFEB169AAF498"]
 L69_1 = "S0F049C465A28972C"
 
@@ -90,11 +80,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84AAFEB169AAF498"]
-L69_1 = "S64A33B401A621738"
-
-function L70_1(A0_2)
+--- main.system.light_direct_applier.control.PostEffectCoroutineManager.StopBlur
+function C84AAFEB169AAF498.S64A33B401A621738(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = C84AAFEB169AAF498
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -155,11 +142,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84AAFEB169AAF498"]
-L69_1 = "S0AF76D1FC7422258"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.system.light_direct_applier.control.PostEffectCoroutineManager.StartScreenBlurCoroutine
+function C84AAFEB169AAF498.S0AF76D1FC7422258(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = C84AAFEB169AAF498
   L3_2 = L3_2.SF3075AB31C9E8AF4
@@ -203,11 +187,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84AAFEB169AAF498"]
-L69_1 = "SA811BB295BC57024"
-
-function L70_1()
+--- main.system.light_direct_applier.control.PostEffectCoroutineManager.StopScreenBlur
+function C84AAFEB169AAF498.SA811BB295BC57024()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C84AAFEB169AAF498
   L0_2 = L0_2.SF3075AB31C9E8AF4
@@ -234,11 +215,8 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84AAFEB169AAF498"]
-L69_1 = "S52E0F7DA77DAB95D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.system.light_direct_applier.control.PostEffectCoroutineManager.StartEyeAdaptationCoroutine
+function C84AAFEB169AAF498.S52E0F7DA77DAB95D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = C84AAFEB169AAF498
   L3_2 = L3_2.SF3075AB31C9E8AF4
@@ -282,11 +260,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84AAFEB169AAF498"]
-L69_1 = "S67C9CD1DD385E60F"
-
-function L70_1()
+--- main.system.light_direct_applier.control.PostEffectCoroutineManager.StopEyeAdaptation
+function C84AAFEB169AAF498.S67C9CD1DD385E60F()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C84AAFEB169AAF498
   L0_2 = L0_2.SF3075AB31C9E8AF4
@@ -318,11 +293,8 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84AAFEB169AAF498"]
-L69_1 = "SD8B97CCB08766448"
-
-function L70_1(A0_2, A1_2)
+--- main.system.light_direct_applier.control.PostEffectCoroutineManager.StartFixLightCoroutine
+function C84AAFEB169AAF498.SD8B97CCB08766448(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = C84AAFEB169AAF498
   L2_2 = L2_2.SF3075AB31C9E8AF4
@@ -369,11 +341,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84AAFEB169AAF498"]
-L69_1 = "S623520681C905F86"
-
-function L70_1(A0_2)
+--- main.system.light_direct_applier.control.PostEffectCoroutineManager.S623520681C905F86
+function C84AAFEB169AAF498.S623520681C905F86(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C84AAFEB169AAF498
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -419,18 +388,13 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84AAFEB169AAF498"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84AAFEB169AAF498"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+---@class C84AAFEB169AAF498_prototype
+C84AAFEB169AAF498_prototype = L15_1()
+C84AAFEB169AAF498.prototype = C84AAFEB169AAF498_prototype
+--- main.system.light_direct_applier.control.PostEffectCoroutineManager.PreUpdate
+function C84AAFEB169AAF498_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.h
   while nil ~= L2_2 do
     L3_2 = L2_2.item
@@ -450,7 +414,7 @@ function L70_1(A0_2, A1_2)
         L6_2 = A1_2
         L4_2(L5_2, L6_2)
       else
-        L4_2 = A0_2[1]
+        L4_2 = self[1]
         L5_2 = L4_2
         L4_2 = L4_2.remove
         L6_2 = L3_2
@@ -460,13 +424,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84AAFEB169AAF498"]["prototype"]
-L69_1 = "F45B1160D9E4044EC"
-
-function L70_1(A0_2, A1_2)
+--- main.system.light_direct_applier.control.PostEffectCoroutineManager.findCoroutine
+function C84AAFEB169AAF498_prototype:F45B1160D9E4044EC(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.h
   while nil ~= L2_2 do
     L3_2 = L2_2.item

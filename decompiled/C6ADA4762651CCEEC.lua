@@ -1,3 +1,5 @@
+---@class C6ADA4762651CCEEC : C6ADA4762651CCEEC_prototype
+---@field prototype C6ADA4762651CCEEC_prototype
 L55_1 = _ENV
 L56_1 = "C6ADA4762651CCEEC"
 L57_1 = L15_1
@@ -54,19 +56,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6ADA4762651CCEEC"]
 L69_1 = "__name__"
 L70_1 = "C6ADA4762651CCEEC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6ADA4762651CCEEC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6ADA4762651CCEEC"]["prototype"]
-L69_1 = "F65079E9D5273248C"
-
-function L70_1(A0_2)
+---@class C6ADA4762651CCEEC_prototype
+C6ADA4762651CCEEC_prototype = L15_1()
+C6ADA4762651CCEEC.prototype = C6ADA4762651CCEEC_prototype
+--- C6ADA4762651CCEEC.onStart
+function C6ADA4762651CCEEC_prototype:F65079E9D5273248C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L1_2 = A0_2
-  L2_2 = A0_2[3]
+  L1_2 = self
+  L2_2 = self[3]
   L2_2 = L2_2[3]
   L2_2 = L2_2[1]
   L2_2 = L2_2[1]
@@ -75,23 +72,23 @@ function L70_1(A0_2)
   L4_2 = C391BF1E7455E19D6
   L5_2 = nil
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F5F8086F9890674D0
-  L4_2 = A0_2[22]
+  L4_2 = self[22]
   L2_2 = L2_2(L3_2, L4_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L3_2 = L3_2[3]
   L3_2 = L3_2[1]
   L3_2 = L3_2[0]
   L3_2 = L3_2[6]
   L3_2 = L3_2[1]
   L3_2 = L2_2 / L3_2
-  L4_2 = A0_2[21]
+  L4_2 = self[21]
   L5_2 = 1
   L5_2 = L5_2 / L3_2
-  L6_2 = A0_2[23]
-  L7_2 = A0_2[3]
+  L6_2 = self[23]
+  L7_2 = self[3]
   L7_2 = L7_2[3]
   L7_2 = L7_2[1]
   L7_2 = L7_2[1]
@@ -116,10 +113,10 @@ function L70_1(A0_2)
   L8_2[3] = L11_2
   L7_2[7] = L8_2
   L7_2 = L3_2 / 2
-  A0_2[20] = L7_2
+  self[20] = L7_2
   L7_2 = L3_1
-  L9_2 = A0_2
-  L8_2 = A0_2.FAFA651C652BD64CD
+  L9_2 = self
+  L8_2 = self.FAFA651C652BD64CD
   L8_2 = L8_2(L9_2)
   L8_2 = L8_2[24]
   L8_2 = L8_2[1]
@@ -128,7 +125,7 @@ function L70_1(A0_2)
   L9_2 = 2
   L7_2 = L7_2(L8_2, L9_2)
   if 0 ~= L7_2 then
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L7_2 = L7_2[3]
     L7_2 = L7_2[1]
     L7_2 = L7_2[6]
@@ -142,7 +139,7 @@ function L70_1(A0_2)
     L7_2 = L7_2.f3813B586
     L7_2 = L7_2(L8_2)
     if 0 ~= L7_2 then
-      L7_2 = A0_2[3]
+      L7_2 = self[3]
       L7_2 = L7_2[3]
       L7_2 = L7_2[1]
       L7_2 = L7_2[19]
@@ -150,7 +147,7 @@ function L70_1(A0_2)
       L7_2 = L7_2.F7E6AF9E3988157B7
       L9_2 = nil
       L7_2(L8_2, L9_2)
-      L7_2 = A0_2[3]
+      L7_2 = self[3]
       L7_2 = L7_2[3]
       L7_2 = L7_2[1]
       L7_2 = L7_2[6]
@@ -165,7 +162,7 @@ function L70_1(A0_2)
       L8_2(L9_2, L10_2)
     end
   end
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L7_2 = L7_2[3]
   L7_2 = L7_2[1]
   L7_2 = L7_2[6]
@@ -183,7 +180,7 @@ function L70_1(A0_2)
   L9_2 = L8_2
   L8_2 = L8_2.f84AFAE2A
   L8_2(L9_2)
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L8_2 = L8_2[3]
   L8_2 = L8_2[1]
   L8_2 = L8_2[6]
@@ -191,8 +188,8 @@ function L70_1(A0_2)
   L8_2 = L8_2.FFC761266B655C015
   L10_2 = 85
   L8_2(L9_2, L10_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.FF790358D228F6230
+  L9_2 = self
+  L8_2 = self.FF790358D228F6230
   L10_2 = 0
   
   function L11_2()
@@ -211,8 +208,8 @@ function L70_1(A0_2)
   end
   
   L8_2(L9_2, L10_2, L11_2, L12_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.FF790358D228F6230
+  L9_2 = self
+  L8_2 = self.FF790358D228F6230
   L10_2 = 1
   
   function L11_2()
@@ -231,22 +228,22 @@ function L70_1(A0_2)
   end
   
   L8_2(L9_2, L10_2, L11_2, L12_2)
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L8_2 = L8_2[3]
   L8_2 = L8_2[1]
   L8_2 = L8_2[0]
   L8_2[8] = true
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L8_2 = L8_2[3]
   L8_2 = L8_2[1]
   L8_2 = L8_2[5]
   L8_2[69] = true
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L8_2 = L8_2[3]
   L8_2 = L8_2[1]
   L8_2 = L8_2[2]
   L8_2[9] = 0
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L8_2 = L8_2[3]
   L8_2 = L8_2[1]
   L8_2 = L8_2[2]
@@ -258,8 +255,8 @@ function L70_1(A0_2)
   L9_2[2] = L11_2
   L9_2[3] = L12_2
   L8_2[10] = L9_2
-  L8_2 = A0_2[21]
-  L9_2 = A0_2[3]
+  L8_2 = self[21]
+  L9_2 = self[3]
   L9_2 = L9_2[3]
   L9_2 = L9_2[1]
   L9_2 = L9_2[2]
@@ -274,28 +271,25 @@ function L70_1(A0_2)
   L10_2[2] = L12_2
   L10_2[3] = L13_2
   L9_2[7] = L10_2
-  L9_2 = A0_2[3]
+  L9_2 = self[3]
   L9_2 = L9_2[3]
   L9_2 = L9_2[1]
   L9_2 = L9_2[5]
   L9_2[26] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6ADA4762651CCEEC"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2, A1_2)
+--- C6ADA4762651CCEEC.onUpdate
+function C6ADA4762651CCEEC_prototype:FC0150FC2959FFA71(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   if not L2_2 then
     L2_2 = E8E40DFB6EBDAB388
     L2_2 = L2_2.kFinish
     return L2_2
   end
   L2_2 = L3_1
-  L4_2 = A0_2
-  L3_2 = A0_2.FAFA651C652BD64CD
+  L4_2 = self
+  L3_2 = self.FAFA651C652BD64CD
   L3_2 = L3_2(L4_2)
   L3_2 = L3_2[24]
   L3_2 = L3_2[1]
@@ -304,61 +298,55 @@ function L70_1(A0_2, A1_2)
   L4_2 = 2
   L2_2 = L2_2(L3_2, L4_2)
   if 0 ~= L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F964799D856353A3D
+    L3_2 = self
+    L2_2 = self.F964799D856353A3D
     L4_2 = A1_2
     return L2_2(L3_2, L4_2)
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.FB91B351A766059F4
+    L3_2 = self
+    L2_2 = self.FB91B351A766059F4
     L4_2 = A1_2
     return L2_2(L3_2, L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6ADA4762651CCEEC"]["prototype"]
-L69_1 = "FC5FDCCA7599A89D5"
-
-function L70_1(A0_2)
+--- C6ADA4762651CCEEC.onEnd
+function C6ADA4762651CCEEC_prototype:FC5FDCCA7599A89D5()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2[3]
   L1_2 = L1_2[1]
   L1_2 = L1_2[0]
   L1_2[8] = false
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2[3]
   L1_2 = L1_2[1]
   L1_2 = L1_2[5]
   L1_2[69] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6ADA4762651CCEEC"]["prototype"]
-L69_1 = "FB91B351A766059F4"
-
-function L70_1(A0_2, A1_2)
+--- C6ADA4762651CCEEC.onUpdate_Player_
+function C6ADA4762651CCEEC_prototype:FB91B351A766059F4(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[3]
   L2_2 = L2_2[1]
   L2_2 = L2_2[5]
   L2_2 = L2_2[7]
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F09BA8F383E3C8AF6
+    L3_2 = self
+    L2_2 = self.F09BA8F383E3C8AF6
     L2_2 = L2_2(L3_2)
     L2_2 = L2_2[9]
     L2_2 = L2_2 + A1_2
-    L3_2 = A0_2[20]
+    L3_2 = self[20]
     if L2_2 > L3_2 then
       L2_2 = C31ED5C87AA955EE8
       L2_2 = L2_2.new
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L2_2 = L2_2(L3_2)
-      L4_2 = A0_2
-      L3_2 = A0_2.F09BA8F383E3C8AF6
+      L4_2 = self
+      L3_2 = self.F09BA8F383E3C8AF6
       L3_2 = L3_2(L4_2)
       L4_2 = L3_2
       L3_2 = L3_2.F81863E625B28572D
@@ -370,11 +358,11 @@ function L70_1(A0_2, A1_2)
       return L3_2
   end
   else
-    L2_2 = A0_2[19]
+    L2_2 = self[19]
     if not L2_2 then
-      L2_2 = A0_2[18]
+      L2_2 = self[18]
       if L2_2 then
-        L2_2 = A0_2[3]
+        L2_2 = self[3]
         L2_2 = L2_2[3]
         L2_2 = L2_2[1]
         L2_2 = L2_2[6]
@@ -387,25 +375,25 @@ function L70_1(A0_2, A1_2)
         L3_2 = L2_2.FFC761266B655C015
         L5_2 = 14
         L3_2(L4_2, L5_2)
-        A0_2[19] = true
+        self[19] = true
       end
     end
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F80B957F187C50232
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F9675F802742DA5B6
+    L3_2 = self
+    L2_2 = self.F9675F802742DA5B6
     L2_2 = L2_2(L3_2)
     if L2_2 then
       L2_2 = C730AA95FA1F3BA40
       L2_2 = L2_2.new
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L2_2 = L2_2(L3_2)
-      L4_2 = A0_2
-      L3_2 = A0_2.F09BA8F383E3C8AF6
+      L4_2 = self
+      L3_2 = self.F09BA8F383E3C8AF6
       L3_2 = L3_2(L4_2)
       L4_2 = L3_2
       L3_2 = L3_2.F81863E625B28572D
@@ -417,11 +405,11 @@ function L70_1(A0_2, A1_2)
       return L3_2
     end
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F584D1C1D2C1917AD
+  L3_2 = self
+  L2_2 = self.F584D1C1D2C1917AD
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2[3]
     L2_2 = L2_2[1]
     L2_2 = L2_2[16]
@@ -429,7 +417,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = L2_2
     L2_2 = L2_2.FCE9CAF4FE077B20A
     L4_2 = "Fall_Sea_Player"
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L5_2 = L5_2[3]
     L5_2 = L5_2[1]
     L5_2 = L5_2[5]
@@ -438,7 +426,7 @@ function L70_1(A0_2, A1_2)
     L6_2 = nil
     L7_2 = false
     L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2[3]
     L2_2 = L2_2[1]
     L2_2 = L2_2[14]
@@ -454,30 +442,27 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6ADA4762651CCEEC"]["prototype"]
-L69_1 = "F964799D856353A3D"
-
-function L70_1(A0_2, A1_2)
+--- C6ADA4762651CCEEC.onUpdate_Ride_
+function C6ADA4762651CCEEC_prototype:F964799D856353A3D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[3]
   L2_2 = L2_2[1]
   L2_2 = L2_2[5]
   L2_2 = L2_2[7]
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F09BA8F383E3C8AF6
+    L3_2 = self
+    L2_2 = self.F09BA8F383E3C8AF6
     L2_2 = L2_2(L3_2)
     L2_2 = L2_2[9]
-    L3_2 = A0_2[20]
+    L3_2 = self[20]
     if L2_2 > L3_2 then
       L2_2 = C31ED5C87AA955EE8
       L2_2 = L2_2.new
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L2_2 = L2_2(L3_2)
-      L4_2 = A0_2
-      L3_2 = A0_2.F09BA8F383E3C8AF6
+      L4_2 = self
+      L3_2 = self.F09BA8F383E3C8AF6
       L3_2 = L3_2(L4_2)
       L4_2 = L3_2
       L3_2 = L3_2.F81863E625B28572D
@@ -490,11 +475,11 @@ function L70_1(A0_2, A1_2)
       return L3_2
   end
   else
-    L2_2 = A0_2[19]
+    L2_2 = self[19]
     if not L2_2 then
-      L2_2 = A0_2[18]
+      L2_2 = self[18]
       if L2_2 then
-        L2_2 = A0_2[3]
+        L2_2 = self[3]
         L2_2 = L2_2[3]
         L2_2 = L2_2[1]
         L2_2 = L2_2[6]
@@ -507,21 +492,21 @@ function L70_1(A0_2, A1_2)
         L3_2 = L2_2.FFC761266B655C015
         L5_2 = 14
         L3_2(L4_2, L5_2)
-        A0_2[19] = true
+        self[19] = true
       end
     end
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F80B957F187C50232
   L2_2 = L2_2(L3_2)
   if L2_2 then
     L2_2 = C7FC73C47B315F73C
     L2_2 = L2_2.new
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L2_2 = L2_2(L3_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F09BA8F383E3C8AF6
+    L4_2 = self
+    L3_2 = self.F09BA8F383E3C8AF6
     L3_2 = L3_2(L4_2)
     L4_2 = L3_2
     L3_2 = L3_2.F81863E625B28572D

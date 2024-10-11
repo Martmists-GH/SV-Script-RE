@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C1092AFBBC73569E8"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C1092AFBBC73569E8"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1092AFBBC73569E8"]
-L69_1 = "__name__"
-L70_1 = "C1092AFBBC73569E8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1092AFBBC73569E8"]
-L69_1 = "S8C4C5E3432A74188"
+---@alias C1092AFBBC73569E8 main_ui_option_util_OptionUiUtil
 
-function L70_1(A0_2)
+---@class main_ui_option_util_OptionUiUtil
+C1092AFBBC73569E8 = L15_1()
+C1092AFBBC73569E8.new = {}
+C1092AFBBC73569E8.__name__ = "C1092AFBBC73569E8"
+--- main.ui.option.util.OptionUiUtil.SetOptionConfig
+function C1092AFBBC73569E8.S8C4C5E3432A74188(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A0_2 then
     A0_2 = false
@@ -140,11 +131,8 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1092AFBBC73569E8"]
-L69_1 = "SDABD713831D6912D"
-
-function L70_1(A0_2)
+--- main.ui.option.util.OptionUiUtil.SetMessageSpeed
+function C1092AFBBC73569E8.SDABD713831D6912D(A0_2)
   local L1_2, L2_2
   L1_2 = cD3FECF8E
   L1_2 = L1_2.fEE27DD8D
@@ -162,11 +150,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1092AFBBC73569E8"]
-L69_1 = "SDEFD7C7FAC1AE99F"
-
-function L70_1()
+--- main.ui.option.util.OptionUiUtil.SDEFD7C7FAC1AE99F
+function C1092AFBBC73569E8.SDEFD7C7FAC1AE99F()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = CCB9F9B48224C5C05
   L0_2 = L0_2.S75F58CF0A3D96A6C

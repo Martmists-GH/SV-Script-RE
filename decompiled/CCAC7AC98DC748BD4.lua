@@ -1,3 +1,7 @@
+---@alias CCAC7AC98DC748BD4 main_field_action_scenario_champion_gym_ActionEscapeMove
+
+---@class main_field_action_scenario_champion_gym_ActionEscapeMove : CCAC7AC98DC748BD4_prototype
+---@field prototype CCAC7AC98DC748BD4_prototype
 L55_1 = _ENV
 L56_1 = "CCAC7AC98DC748BD4"
 L57_1 = L15_1
@@ -77,39 +81,34 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCAC7AC98DC748BD4"]
 L69_1 = "__name__"
 L70_1 = "CCAC7AC98DC748BD4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCAC7AC98DC748BD4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCAC7AC98DC748BD4"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CCAC7AC98DC748BD4_prototype
+CCAC7AC98DC748BD4_prototype = L15_1()
+CCAC7AC98DC748BD4.prototype = CCAC7AC98DC748BD4_prototype
+--- main.field.action.scenario.champion.gym.ActionEscapeMove.onCreate
+function CCAC7AC98DC748BD4_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   L1_2 = L1_2.noGoalRot
   if nil == L1_2 then
-    L1_2 = A0_2[16]
+    L1_2 = self[16]
     L1_2.noGoalRot = false
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.FD87570561C5839CE
+  L2_2 = self
+  L1_2 = self.FD87570561C5839CE
   L1_2 = L1_2(L2_2)
-  A0_2[21] = L1_2
-  L1_2 = A0_2[21]
-  A0_2[22] = L1_2
-  L1_2 = A0_2[21]
+  self[21] = L1_2
+  L1_2 = self[21]
+  self[22] = L1_2
+  L1_2 = self[21]
   if nil == L1_2 then
-    A0_2[18] = true
-    L1_2 = A0_2[5]
+    self[18] = true
+    L1_2 = self[5]
     L1_2 = L1_2.owner
     L2_2 = L1_2
     L1_2 = L1_2.fE9C29DA1
     L1_2(L2_2)
   end
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = cE35B3EB3
   L2_2 = L2_2.fB41FD22F
   
@@ -139,29 +138,26 @@ function L70_1(A0_2)
     L4_2 = L4_2(L5_2)
     L5_2 = L4_2
     L4_2 = L4_2.f993C6050
-    L6_2 = A0_2[16]
+    L6_2 = self[16]
     L6_2 = L6_2.moveAnimName
     L4_2 = L4_2(L5_2, L6_2)
-    A0_2[27] = L4_2
+    self[27] = L4_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCAC7AC98DC748BD4"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.scenario.champion.gym.ActionEscapeMove.onPreUpdate
+function CCAC7AC98DC748BD4_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   if L1_2 then
     L1_2 = 2
     return L1_2
   end
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = nil
   L3_2 = cB4CCDA56
   L3_2 = L3_2.f0B848559
-  L4_2 = A0_2[25]
+  L4_2 = self[25]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
@@ -182,12 +178,12 @@ function L70_1(A0_2)
     
     L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2 = L4_2()
     L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2)
-    A0_2[25] = L3_2
+    self[25] = L3_2
   end
   L3_2 = nil
   L4_2 = c7C4EA23C
   L4_2 = L4_2.fD9BDDDC9
-  L5_2 = A0_2[26]
+  L5_2 = self[26]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
@@ -249,20 +245,20 @@ function L70_1(A0_2)
         end
       end
     end
-    A0_2[26] = L4_2
+    self[26] = L4_2
   end
   L4_2 = nil
   L5_2 = nil
   L6_2 = cB4CCDA56
   L6_2 = L6_2.f0B848559
-  L7_2 = A0_2[25]
+  L7_2 = self[25]
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
   if not L6_2 then
     L6_2 = nil
     L7_2 = c7C4EA23C
     L7_2 = L7_2.fD9BDDDC9
-    L8_2 = A0_2[26]
+    L8_2 = self[26]
     L9_2 = L6_2
     L7_2 = L7_2(L8_2, L9_2)
     L4_2 = L7_2
@@ -286,14 +282,14 @@ function L70_1(A0_2)
   L13_2 = L8_2
   L14_2 = L9_2
   L10_2(L11_2, L12_2, L13_2, L14_2)
-  L10_2 = A0_2[26]
+  L10_2 = self[26]
   L11_2 = L10_2
   L10_2 = L10_2.f90159384
   L10_2, L11_2, L12_2 = L10_2(L11_2)
   L13_2 = L10_2
   L14_2 = L11_2
   L15_2 = L12_2
-  L16_2 = A0_2[26]
+  L16_2 = self[26]
   L17_2 = L16_2
   L16_2 = L16_2.f6041DA0B
   L16_2 = L16_2(L17_2)
@@ -301,7 +297,7 @@ function L70_1(A0_2)
   L16_2 = L16_2.f69C546D1
   L16_2 = L16_2(L17_2)
   if 2 == L16_2 then
-    L16_2 = A0_2[26]
+    L16_2 = self[26]
     L17_2 = L16_2
     L16_2 = L16_2.f6041DA0B
     L16_2 = L16_2(L17_2)
@@ -351,7 +347,7 @@ function L70_1(A0_2)
     L21_2 = L16_2[3]
     L17_2(L18_2, L19_2, L20_2, L21_2)
   end
-  L16_2 = A0_2[22]
+  L16_2 = self[22]
   L18_2 = L6_2
   L17_2 = L6_2.fE1A92E36
   L19_2 = L16_2[1]
@@ -367,7 +363,7 @@ function L70_1(A0_2)
   L18_2 = L6_2
   L17_2 = L6_2.f79EE6EBB
   L17_2(L18_2)
-  L17_2 = A0_2[25]
+  L17_2 = self[25]
   L18_2 = L17_2
   L17_2 = L17_2.fB18408BC
   L19_2 = L6_2
@@ -376,13 +372,10 @@ function L70_1(A0_2)
   return L17_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCAC7AC98DC748BD4"]["prototype"]
-L69_1 = "FB9EEE315620F5E73"
-
-function L70_1(A0_2)
+--- main.field.action.scenario.champion.gym.ActionEscapeMove.onPostUpdate
+function CCAC7AC98DC748BD4_prototype:FB9EEE315620F5E73()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   if L1_2 then
     return
   end
@@ -390,14 +383,14 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = cB4CCDA56
   L3_2 = L3_2.f0B848559
-  L4_2 = A0_2[25]
+  L4_2 = self[25]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if not L3_2 then
     L3_2 = nil
     L4_2 = c7C4EA23C
     L4_2 = L4_2.fD9BDDDC9
-    L5_2 = A0_2[26]
+    L5_2 = self[26]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     L1_2 = L4_2
@@ -407,7 +400,7 @@ function L70_1(A0_2)
   if L1_2 then
     return
   end
-  L3_2 = A0_2[25]
+  L3_2 = self[25]
   L4_2 = L3_2
   L3_2 = L3_2.fE5B5EEA2
   L3_2 = L3_2(L4_2)
@@ -415,12 +408,12 @@ function L70_1(A0_2)
   L4_2 = L3_2.f3491A2B7
   L4_2 = L4_2(L5_2)
   if L4_2 then
-    L4_2 = A0_2[20]
+    L4_2 = self[20]
     if not L4_2 then
       L4_2 = cA53A767B
       L4_2 = L4_2.f101D811F
       L4_2 = L4_2()
-      L5_2 = A0_2[5]
+      L5_2 = self[5]
       L5_2 = L5_2.owner
       L6_2 = L5_2
       L5_2 = L5_2.f7360ED03
@@ -437,8 +430,8 @@ function L70_1(A0_2)
       L10_2.length = 0
       L11_2 = 0
       L9_2 = L9_2(L10_2, L11_2)
-      A0_2[23] = L9_2
-      L9_2 = A0_2[23]
+      self[23] = L9_2
+      L9_2 = self[23]
       L10_2 = L9_2
       L9_2 = L9_2.push
       L11_2 = L8_2
@@ -489,7 +482,7 @@ function L70_1(A0_2)
         L12_2[3] = L15_2
         L13_2 = L8_2[2]
         L12_2[2] = L13_2
-        L13_2 = A0_2[23]
+        L13_2 = self[23]
         L14_2 = L13_2
         L13_2 = L13_2.push
         L15_2 = L12_2
@@ -509,30 +502,30 @@ function L70_1(A0_2)
       L9_2 = L4_2.fBAB53919
       L9_2 = L9_2(L10_2)
       L9_2 = 1 == L9_2
-      A0_2[20] = L9_2
-      L9_2 = A0_2[20]
+      self[20] = L9_2
+      L9_2 = self[20]
       if L9_2 then
-        L9_2 = A0_2[5]
+        L9_2 = self[5]
         L9_2 = L9_2.owner
         L10_2 = L9_2
         L9_2 = L9_2.fE9C29DA1
         L9_2(L10_2)
         L9_2 = 2.0
-        L10_2 = A0_2[16]
+        L10_2 = self[16]
         L10_2 = L10_2.animSpeedRate
         if L10_2 < 1 then
-          L10_2 = A0_2[16]
+          L10_2 = self[16]
           L10_2 = L10_2.animSpeedRate
           L9_2 = 2.0 * L10_2
         end
         L10_2 = nil
         L11_2 = cB476C6DC
         L11_2 = L11_2.fFB285883
-        L12_2 = A0_2[27]
+        L12_2 = self[27]
         L13_2 = L10_2
         L11_2 = L11_2(L12_2, L13_2)
         if L11_2 then
-          L11_2 = A0_2[27]
+          L11_2 = self[27]
           L12_2 = L11_2
           L11_2 = L11_2.f4AB15406
           L13_2 = L9_2
@@ -550,15 +543,15 @@ function L70_1(A0_2)
           goto lbl_160
         end
       end
-      L9_2 = A0_2[17]
-      L10_2 = A0_2[19]
+      L9_2 = self[17]
+      L10_2 = self[19]
       if L9_2 >= L10_2 then
-        L9_2 = A0_2[19]
+        L9_2 = self[19]
         L9_2 = L9_2 + 1
-        A0_2[19] = L9_2
+        self[19] = L9_2
       else
-        A0_2[18] = true
-        L9_2 = A0_2[5]
+        self[18] = true
+        L9_2 = self[5]
         L9_2 = L9_2.owner
         L10_2 = L9_2
         L9_2 = L9_2.fE9C29DA1
@@ -567,9 +560,9 @@ function L70_1(A0_2)
     end
   end
   ::lbl_160::
-  L4_2 = A0_2[20]
+  L4_2 = self[20]
   if L4_2 then
-    L4_2 = A0_2[25]
+    L4_2 = self[25]
     L5_2 = L4_2
     L4_2 = L4_2.f33DC8B6A
     L4_2 = L4_2(L5_2)
@@ -589,8 +582,8 @@ function L70_1(A0_2)
     L12_2[1] = L13_2
     L12_2[2] = L14_2
     L12_2[3] = L15_2
-    A0_2[24] = L12_2
-    L12_2 = A0_2[24]
+    self[24] = L12_2
+    L12_2 = self[24]
     L14_2 = L4_2
     L13_2 = L4_2.fE309C3DD
     L13_2, L14_2, L15_2 = L13_2(L14_2)
@@ -613,12 +606,12 @@ function L70_1(A0_2)
     L20_2[1] = L21_2
     L20_2[2] = L22_2
     L20_2[3] = L23_2
-    A0_2[24] = L20_2
-    L20_2 = A0_2[16]
+    self[24] = L20_2
+    L20_2 = self[16]
     L20_2 = L20_2.noGoalRot
     if not L20_2 then
-      L20_2 = A0_2[5]
-      L21_2 = A0_2[24]
+      L20_2 = self[5]
+      L21_2 = self[24]
       L22_2 = nil
       L23_2 = nil
       L24_2 = {}
@@ -657,10 +650,10 @@ function L70_1(A0_2)
       L29_2 = L26_2
       L27_2(L28_2, L29_2)
     end
-    L20_2 = A0_2[24]
-    L21_2 = A0_2[16]
+    L20_2 = self[24]
+    L21_2 = self[16]
     L21_2 = L21_2.speedRate
-    L22_2 = A0_2[5]
+    L22_2 = self[5]
     L22_2 = L22_2.owner
     L23_2 = L22_2
     L22_2 = L22_2.fC98FCA27
@@ -671,12 +664,12 @@ function L70_1(A0_2)
     L26_2 = L20_2[3]
     L26_2 = L26_2 * L21_2
     L22_2(L23_2, L24_2, L25_2, L26_2)
-    L22_2 = A0_2[5]
+    L22_2 = self[5]
     L22_2 = L22_2.owner
     L23_2 = L22_2
     L22_2 = L22_2.f7360ED03
     L22_2, L23_2, L24_2 = L22_2(L23_2)
-    L25_2 = A0_2[22]
+    L25_2 = self[22]
     L26_2 = nil
     L27_2 = c7A48E3FC
     L27_2 = L27_2.f38BA082F
@@ -688,7 +681,7 @@ function L70_1(A0_2)
     L33_2 = L25_2[3]
     L27_2 = L27_2(L28_2, L29_2, L30_2, L31_2, L32_2, L33_2)
     if L27_2 < 3 then
-      L27_2 = A0_2[24]
+      L27_2 = self[24]
       L28_2 = c7A48E3FC
       L28_2 = L28_2.f92852F73
       L29_2 = L27_2[1]
@@ -701,20 +694,20 @@ function L70_1(A0_2)
       L26_2 = false
     end
     if L26_2 then
-      L28_2 = A0_2
-      L27_2 = A0_2.F62700A68AE745BD6
+      L28_2 = self
+      L27_2 = self.F62700A68AE745BD6
       L27_2(L28_2)
-      L27_2 = A0_2[5]
+      L27_2 = self[5]
       L27_2 = L27_2.owner
       L28_2 = L27_2
       L27_2 = L27_2.fE9C29DA1
       L27_2(L28_2)
     else
-      L27_2 = A0_2[16]
+      L27_2 = self[16]
       L27_2 = L27_2.noGoalRot
       if L27_2 then
-        L27_2 = A0_2[5]
-        L28_2 = A0_2[24]
+        L27_2 = self[5]
+        L28_2 = self[24]
         L29_2 = nil
         L30_2 = nil
         L31_2 = {}
@@ -757,13 +750,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCAC7AC98DC748BD4"]["prototype"]
-L69_1 = "FD87570561C5839CE"
-
-function L70_1(A0_2)
+--- main.field.action.scenario.champion.gym.ActionEscapeMove.getGoalPoint
+function CCAC7AC98DC748BD4_prototype:FD87570561C5839CE()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   L1_2 = L1_2.points
   if nil == L1_2 then
     L2_2 = {}
@@ -777,15 +767,15 @@ function L70_1(A0_2)
   end
   L2_2 = L1_2.length
   if 1 == L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F5E6D3976EF98ADC5
+    L3_2 = self
+    L2_2 = self.F5E6D3976EF98ADC5
     L4_2 = L1_2[0]
     return L2_2(L3_2, L4_2)
   end
   L2_2 = nil
   L3_2 = nil
   L4_2 = nil
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L5_2 = L5_2.owner
   L6_2 = L5_2
   L5_2 = L5_2.f7360ED03
@@ -847,7 +837,7 @@ function L70_1(A0_2)
   L9_2 = nil
   L10_2 = 0.0
   L11_2 = 0
-  L12_2 = A0_2[16]
+  L12_2 = self[16]
   L12_2 = L12_2.targetObj
   L13_2 = L12_2
   L12_2 = L12_2.f7360ED03
@@ -927,34 +917,31 @@ function L70_1(A0_2)
     L23_2 = nil
     return L23_2
   end
-  L24_2 = A0_2
-  L23_2 = A0_2.F5E6D3976EF98ADC5
+  L24_2 = self
+  L23_2 = self.F5E6D3976EF98ADC5
   L25_2 = L9_2
   return L23_2(L24_2, L25_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCAC7AC98DC748BD4"]["prototype"]
-L69_1 = "F62700A68AE745BD6"
-
-function L70_1(A0_2)
+--- main.field.action.scenario.champion.gym.ActionEscapeMove.goal
+function CCAC7AC98DC748BD4_prototype:F62700A68AE745BD6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  A0_2[18] = true
-  A0_2[20] = false
+  self[18] = true
+  self[20] = false
   L1_2 = nil
   L2_2 = cB476C6DC
   L2_2 = L2_2.fFB285883
-  L3_2 = A0_2[27]
+  L3_2 = self[27]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[27]
+    L2_2 = self[27]
     L3_2 = L2_2
     L2_2 = L2_2.f4AB15406
     L4_2 = 0.0
     L2_2(L3_2, L4_2)
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.owner
   L3_2 = L2_2
   L2_2 = L2_2.fC98FCA27
@@ -964,11 +951,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCAC7AC98DC748BD4"]["prototype"]
-L69_1 = "F5E6D3976EF98ADC5"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.scenario.champion.gym.ActionEscapeMove.F5E6D3976EF98ADC5
+function CCAC7AC98DC748BD4_prototype:F5E6D3976EF98ADC5(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = c273CF98E
   L2_2 = L2_2.f544F902B
@@ -1021,14 +1005,11 @@ function L70_1(A0_2, A1_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCAC7AC98DC748BD4"]["prototype"]
-L69_1 = "FB4A3A45A4E289F8F"
-
-function L70_1(A0_2)
+--- main.field.action.scenario.champion.gym.ActionEscapeMove.ForceGoal
+function CCAC7AC98DC748BD4_prototype:FB4A3A45A4E289F8F()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F62700A68AE745BD6
+  L2_2 = self
+  L1_2 = self.F62700A68AE745BD6
   L1_2(L2_2)
 end
 

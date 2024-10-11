@@ -1,3 +1,7 @@
+---@alias C490192CEE44CDE0B main_field_area_base_AreaInfo
+
+---@class main_field_area_base_AreaInfo : C490192CEE44CDE0B_prototype
+---@field prototype C490192CEE44CDE0B_prototype
 L55_1 = _ENV
 L56_1 = "C490192CEE44CDE0B"
 L57_1 = L15_1
@@ -1133,24 +1137,19 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C490192CEE44CDE0B"]
 L69_1 = "__name__"
 L70_1 = "C490192CEE44CDE0B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C490192CEE44CDE0B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C490192CEE44CDE0B"]["prototype"]
-L69_1 = "F10309DF846A43669"
-
-function L70_1(A0_2, A1_2)
+---@class C490192CEE44CDE0B_prototype
+C490192CEE44CDE0B_prototype = L15_1()
+C490192CEE44CDE0B.prototype = C490192CEE44CDE0B_prototype
+--- main.field.area.base.AreaInfo.F10309DF846A43669
+function C490192CEE44CDE0B_prototype:F10309DF846A43669(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[L4_2]
     L6_2 = L5_2.paramIntTable
     L6_2 = L6_2.h
@@ -1161,7 +1160,7 @@ function L70_1(A0_2, A1_2)
     end
     L7_2 = L6_2
     if 0 == L7_2 then
-      L8_2 = A0_2[1]
+      L8_2 = self[1]
       L8_2 = L8_2.length
       L8_2 = L8_2 - 1
       if L4_2 ~= L8_2 then
@@ -1188,25 +1187,22 @@ function L70_1(A0_2, A1_2)
   L6_2.areaName = true
   L6_2.value = true
   L5_2.__fields__ = L6_2
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L5_2.areaName = L6_2
   L5_2.value = 0
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C490192CEE44CDE0B"]["prototype"]
-L69_1 = "FE84EB6DC93CDD2B0"
-
-function L70_1(A0_2, A1_2)
+--- main.field.area.base.AreaInfo.GetFloatParam
+function C490192CEE44CDE0B_prototype:FE84EB6DC93CDD2B0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[L4_2]
     L6_2 = L5_2.paramFloatTable
     L6_2 = L6_2.h
@@ -1217,7 +1213,7 @@ function L70_1(A0_2, A1_2)
     end
     L7_2 = L6_2
     if 0 == L7_2 then
-      L8_2 = A0_2[1]
+      L8_2 = self[1]
       L8_2 = L8_2.length
       L8_2 = L8_2 - 1
       if L4_2 ~= L8_2 then
@@ -1244,17 +1240,14 @@ function L70_1(A0_2, A1_2)
   L6_2.areaName = true
   L6_2.value = true
   L5_2.__fields__ = L6_2
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L5_2.areaName = L6_2
   L5_2.value = 0
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C490192CEE44CDE0B"]["prototype"]
-L69_1 = "F0D7AAE723FEA6B6F"
-
-function L70_1(A0_2, A1_2)
+--- main.field.area.base.AreaInfo.GetStrParam
+function C490192CEE44CDE0B_prototype:F0D7AAE723FEA6B6F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = C5B27787C074AE161
   L2_2 = L2_2.SD9261B65F9173C0F
@@ -1263,21 +1256,21 @@ function L70_1(A0_2, A1_2)
     if "lightFile_p1" == A1_2 then
       L3_2 = C5B27787C074AE161
       L3_2 = L3_2.S40D81375623CB39E
-      L4_2 = A0_2[2]
+      L4_2 = self[2]
       L5_2 = 0
       L3_2 = L3_2(L4_2, L5_2)
       L2_2 = L3_2
     elseif "lightFile_p2" == A1_2 then
       L3_2 = C5B27787C074AE161
       L3_2 = L3_2.S40D81375623CB39E
-      L4_2 = A0_2[2]
+      L4_2 = self[2]
       L5_2 = 1
       L3_2 = L3_2(L4_2, L5_2)
       L2_2 = L3_2
     elseif "lightFile_p3" == A1_2 then
       L3_2 = C5B27787C074AE161
       L3_2 = L3_2.S40D81375623CB39E
-      L4_2 = A0_2[2]
+      L4_2 = self[2]
       L5_2 = 2
       L3_2 = L3_2(L4_2, L5_2)
       L2_2 = L3_2
@@ -1289,19 +1282,19 @@ function L70_1(A0_2, A1_2)
       L5_2.areaName = true
       L5_2.value = true
       L4_2.__fields__ = L5_2
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L4_2.areaName = L5_2
       L4_2.value = L2_2
       return L3_2(L4_2)
     end
   end
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[L4_2]
     L6_2 = L5_2.paramStringTable
     L6_2 = L6_2.h
@@ -1312,7 +1305,7 @@ function L70_1(A0_2, A1_2)
     end
     L7_2 = L6_2
     if "" == L7_2 then
-      L8_2 = A0_2[1]
+      L8_2 = self[1]
       L8_2 = L8_2.length
       L8_2 = L8_2 - 1
       if L4_2 ~= L8_2 then
@@ -1339,25 +1332,22 @@ function L70_1(A0_2, A1_2)
   L6_2.areaName = true
   L6_2.value = true
   L5_2.__fields__ = L6_2
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L5_2.areaName = L6_2
   L5_2.value = ""
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C490192CEE44CDE0B"]["prototype"]
-L69_1 = "FE92E7D75E2739D7F"
-
-function L70_1(A0_2, A1_2)
+--- main.field.area.base.AreaInfo.GetEnumParam
+function C490192CEE44CDE0B_prototype:FE92E7D75E2739D7F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[L4_2]
     L6_2 = L5_2.paramEnumTable
     L6_2 = L6_2.h
@@ -1369,7 +1359,7 @@ function L70_1(A0_2, A1_2)
     L7_2 = L6_2
     L8_2 = L7_2.value
     if not (L8_2 > 0) then
-      L8_2 = A0_2[1]
+      L8_2 = self[1]
       L8_2 = L8_2.length
       L8_2 = L8_2 - 1
       if L4_2 ~= L8_2 then
@@ -1407,7 +1397,7 @@ function L70_1(A0_2, A1_2)
   L6_2.areaName = true
   L6_2.value = true
   L5_2.__fields__ = L6_2
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L5_2.areaName = L6_2
   L6_2 = L16_1
   L7_2 = {}
@@ -1422,19 +1412,16 @@ function L70_1(A0_2, A1_2)
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C490192CEE44CDE0B"]["prototype"]
-L69_1 = "FCA1366FB25A53DA0"
-
-function L70_1(A0_2, A1_2)
+--- main.field.area.base.AreaInfo.GetBoolParam
+function C490192CEE44CDE0B_prototype:FCA1366FB25A53DA0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[L4_2]
     L6_2 = L5_2.paramBoolTable
     L6_2 = L6_2.h
@@ -1445,7 +1432,7 @@ function L70_1(A0_2, A1_2)
     end
     L7_2 = L6_2
     if not L7_2 then
-      L8_2 = A0_2[1]
+      L8_2 = self[1]
       L8_2 = L8_2.length
       L8_2 = L8_2 - 1
       if L4_2 ~= L8_2 then
@@ -1472,20 +1459,17 @@ function L70_1(A0_2, A1_2)
   L6_2.areaName = true
   L6_2.value = true
   L5_2.__fields__ = L6_2
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L5_2.areaName = L6_2
   L5_2.value = false
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C490192CEE44CDE0B"]["prototype"]
-L69_1 = "F9F919F4A55FC5A2A"
-
-function L70_1(A0_2)
+--- main.field.area.base.AreaInfo.GetAreaType
+function C490192CEE44CDE0B_prototype:F9F919F4A55FC5A2A()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FE92E7D75E2739D7F
+  L2_2 = self
+  L1_2 = self.FE92E7D75E2739D7F
   L3_2 = "type"
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = L1_2.value
@@ -1516,14 +1500,11 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C490192CEE44CDE0B"]["prototype"]
-L69_1 = "FF2B7E9484881FFE9"
-
-function L70_1(A0_2)
+--- main.field.area.base.AreaInfo.IsAllWorldArea
+function C490192CEE44CDE0B_prototype:FF2B7E9484881FFE9()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then

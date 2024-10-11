@@ -1,3 +1,7 @@
+---@alias CDC3D3697DC88D450 main_ui_box_search_view_BoxSearchTypeSelectView
+
+---@class main_ui_box_search_view_BoxSearchTypeSelectView : CDC3D3697DC88D450_prototype
+---@field prototype CDC3D3697DC88D450_prototype
 L55_1 = _ENV
 L56_1 = "CF163251573CC843B"
 L57_1 = L15_1
@@ -36,11 +40,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF163251573CC843B"]
 L69_1 = "__name__"
 L70_1 = "CF163251573CC843B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF163251573CC843B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CDC3D3697DC88D450_prototype
+CDC3D3697DC88D450_prototype = L15_1()
+CDC3D3697DC88D450.prototype = CDC3D3697DC88D450_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF163251573CC843B"]["prototype"]
 L69_1 = _ENV["CF163251573CC843B"]

@@ -1,3 +1,7 @@
+---@alias C47443F66F80346AA main_ui_title_first_start_TitleUIFirstStartView
+
+---@class main_ui_title_first_start_TitleUIFirstStartView : C47443F66F80346AA_prototype
+---@field prototype C47443F66F80346AA_prototype
 L55_1 = _ENV
 L56_1 = "CC8EE3CAED8F23EEB"
 L57_1 = L15_1
@@ -41,11 +45,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC8EE3CAED8F23EEB"]
 L69_1 = "__name__"
 L70_1 = "CC8EE3CAED8F23EEB"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8EE3CAED8F23EEB"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C47443F66F80346AA_prototype
+C47443F66F80346AA_prototype = L15_1()
+C47443F66F80346AA.prototype = C47443F66F80346AA_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC8EE3CAED8F23EEB"]["prototype"]
 L69_1 = _ENV["CC8EE3CAED8F23EEB"]

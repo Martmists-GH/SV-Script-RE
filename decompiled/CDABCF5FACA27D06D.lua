@@ -1,3 +1,7 @@
+---@alias CDABCF5FACA27D06D main_event_general_danbattle_DanBossEvent
+
+---@class main_event_general_danbattle_DanBossEvent : CDABCF5FACA27D06D_prototype
+---@field prototype CDABCF5FACA27D06D_prototype
 L55_1 = _ENV
 L56_1 = "CDABCF5FACA27D06D"
 L57_1 = L15_1
@@ -46,20 +50,15 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CDABCF5FACA27D06D"]
 L69_1 = "__name__"
 L70_1 = "CDABCF5FACA27D06D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDABCF5FACA27D06D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDABCF5FACA27D06D"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CDABCF5FACA27D06D_prototype
+CDABCF5FACA27D06D_prototype = L15_1()
+CDABCF5FACA27D06D.prototype = CDABCF5FACA27D06D_prototype
+--- main.event.general.danbattle.DanBossEvent.mainBody
+function CDABCF5FACA27D06D_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = C7124A45F44943684
   L1_2 = L1_2.S9796D6E932FC7980
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.AjitoType
   L1_2 = L1_2(L2_2)
   if L1_2 then
@@ -70,17 +69,17 @@ function L70_1(A0_2)
   else
     L1_2 = C1E6D887767D3DC7E
     L1_2 = L1_2.SC7EDDF5CAA1C3585
-    L2_2 = A0_2[32]
+    L2_2 = self[32]
     L2_2 = L2_2.AjitoType
     L1_2(L2_2)
   end
   L1_2 = L58_1
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.AjitoType
   L1_2 = L1_2(L2_2)
-  A0_2[33] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FCBBE5A1A4C9C2745
+  self[33] = L1_2
+  L2_2 = self
+  L1_2 = self.FCBBE5A1A4C9C2745
   L1_2(L2_2)
   L1_2 = CEA49ACA52B2A0AE0
   L1_2 = L1_2.SFBEC5F9F2748863D
@@ -94,9 +93,9 @@ function L70_1(A0_2)
   L1_2 = L1_2()
   L2_2 = C0BB86BC6125943AF
   L2_2 = L2_2.S791949A44F3DC919
-  L3_2 = A0_2[33]
+  L3_2 = self[33]
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[33]
+  L3_2 = self[33]
   L5_2 = L2_2
   L4_2 = L2_2.f750133BA
   L4_2, L5_2, L6_2 = L4_2(L5_2)
@@ -117,22 +116,22 @@ function L70_1(A0_2)
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
   L8_2 = CBDFC33B85C3B4551
   L8_2 = L8_2.S4175FDC34B58A882
-  L9_2 = A0_2[33]
+  L9_2 = self[33]
   L8_2(L9_2)
   L8_2 = C7124A45F44943684
   L8_2 = L8_2.SFA1C6EA8B41993E5
-  L9_2 = A0_2[33]
+  L9_2 = self[33]
   L8_2(L9_2)
   L8_2 = CDABCF5FACA27D06D
   L8_2 = L8_2.SCD40147F39487F4F
   if L8_2 then
-    L9_2 = A0_2
-    L8_2 = A0_2.FFB4F4BAA58B7F7ED
+    L9_2 = self
+    L8_2 = self.FFB4F4BAA58B7F7ED
     L8_2(L9_2)
     return
   end
-  L9_2 = A0_2
-  L8_2 = A0_2.F310F57D82AEDCC71
+  L9_2 = self
+  L8_2 = self.F310F57D82AEDCC71
   L10_2 = L7_2
   L8_2(L9_2, L10_2)
   L8_2 = CFC8F368D91411014
@@ -145,62 +144,50 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDABCF5FACA27D06D"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.danbattle.DanBossEvent.mainBodyFinish
+function CDABCF5FACA27D06D_prototype:F84C84FA1590CD2A3()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[34]
+  L1_2 = self[34]
   if L1_2 then
     L1_2 = C7124A45F44943684
     L1_2 = L1_2.S9E462CE63B57CCBC
-    L2_2 = A0_2[33]
-    L3_2 = A0_2[32]
+    L2_2 = self[33]
+    L3_2 = self[32]
     L3_2 = L3_2.IsBPoint
     L1_2(L2_2, L3_2)
     return
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDABCF5FACA27D06D"]["prototype"]
-L69_1 = "FCBBE5A1A4C9C2745"
-
-function L70_1(A0_2)
+--- main.event.general.danbattle.DanBossEvent.checkScenario
+function CDABCF5FACA27D06D_prototype:FCBBE5A1A4C9C2745()
   local L1_2, L2_2
   L1_2 = C7124A45F44943684
   L1_2 = L1_2.S02298C32B55C06C7
-  L2_2 = A0_2[33]
+  L2_2 = self[33]
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     return
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDABCF5FACA27D06D"]["prototype"]
-L69_1 = "FFB4F4BAA58B7F7ED"
-
-function L70_1(A0_2)
+--- main.event.general.danbattle.DanBossEvent.debugSkipEvent
+function CDABCF5FACA27D06D_prototype:FFB4F4BAA58B7F7ED()
   local L1_2, L2_2
   L1_2 = L58_1
   L2_2 = CDABCF5FACA27D06D
   L2_2 = L2_2.S01F3310223B5B6B6
   L1_2 = L1_2(L2_2)
-  A0_2[34] = L1_2
+  self[34] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDABCF5FACA27D06D"]["prototype"]
-L69_1 = "F310F57D82AEDCC71"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.danbattle.DanBossEvent.startGameEventDanBossBattle
+function CDABCF5FACA27D06D_prototype:F310F57D82AEDCC71(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CC34D4BD9EEE1FE77
   L2_2 = L2_2.SFCE091807173F6E9
   L3_2 = A1_2
-  L4_2 = A0_2[32]
+  L4_2 = self[32]
   L4_2 = L4_2.AjitoType
   L5_2 = E16103B24B7B3BD27
   L5_2 = L5_2.Easy
@@ -242,14 +229,11 @@ function L70_1(A0_2, A1_2)
   L4_2 = L3_2
   L3_2 = L3_2.F1C41ECA9C5BE4209
   L3_2 = L3_2(L4_2)
-  A0_2[34] = L3_2
+  self[34] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDABCF5FACA27D06D"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- main.event.general.danbattle.DanBossEvent.onFinish
+function CDABCF5FACA27D06D_prototype:FA2C827B56F56ABDF()
   local L1_2
   L1_2 = C363A3F2E418C5340
   L1_2 = L1_2.SB267A45AAB386165

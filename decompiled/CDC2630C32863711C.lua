@@ -1,3 +1,7 @@
+---@alias CDC2630C32863711C main_ui_leaguecard_ui_badge_LeagueCardUIBadgeSingle
+
+---@class main_ui_leaguecard_ui_badge_LeagueCardUIBadgeSingle : CDC2630C32863711C_prototype
+---@field prototype CDC2630C32863711C_prototype
 L55_1 = _ENV
 L56_1 = "CDC2630C32863711C"
 L57_1 = L15_1
@@ -48,39 +52,34 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CDC2630C32863711C"]
 L69_1 = "__name__"
 L70_1 = "CDC2630C32863711C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC2630C32863711C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC2630C32863711C"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CDC2630C32863711C_prototype
+CDC2630C32863711C_prototype = L15_1()
+CDC2630C32863711C.prototype = CDC2630C32863711C_prototype
+--- main.ui.leaguecard.ui.badge.LeagueCardUIBadgeSingle.Setup
+function CDC2630C32863711C_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = CEF1E2BA6D7D6A234
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f2A9CF058
   L4_2 = true
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f7A48F855
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   L2_2(L3_2, L4_2)
   L2_2 = 0
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.f1B274C53
     L7_2 = L4_2
@@ -94,108 +93,90 @@ function L70_1(A0_2, A1_2)
     L9_2 = 0
     L5_2(L6_2, L7_2, L8_2, L9_2)
   end
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.f1B274C53
-  L6_2 = A0_2[11]
+  L6_2 = self[11]
   L7_2 = "P_bg_chara_00"
   L8_2 = 0
   L4_2(L5_2, L6_2, L7_2, L8_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F218E2A14A790D265
+  L5_2 = self
+  L4_2 = self.F218E2A14A790D265
   L4_2(L5_2)
-  A0_2[3] = true
+  self[3] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC2630C32863711C"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.leaguecard.ui.badge.LeagueCardUIBadgeSingle.PreUpdate
+function CDC2630C32863711C_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   L3_2 = E870AAD913338EE01
   L3_2 = L3_2.Fade
   if L2_2 == L3_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F240554B9A0DBC5D3
+    L3_2 = self
+    L2_2 = self.F240554B9A0DBC5D3
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FFF18466C4B474DE0
+      L3_2 = self
+      L2_2 = self.FFF18466C4B474DE0
       L2_2 = L2_2(L3_2)
       if L2_2 then
         L2_2 = E870AAD913338EE01
         L2_2 = L2_2.WaitInput
-        A0_2[9] = L2_2
+        self[9] = L2_2
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC2630C32863711C"]["prototype"]
-L69_1 = "FFB6B390B1846B354"
-
-function L70_1(A0_2)
+--- main.ui.leaguecard.ui.badge.LeagueCardUIBadgeSingle.IsWaitInput
+function CDC2630C32863711C_prototype:FFB6B390B1846B354()
   local L1_2, L2_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L2_2 = E870AAD913338EE01
   L2_2 = L2_2.WaitInput
   L1_2 = L1_2 == L2_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC2630C32863711C"]["prototype"]
-L69_1 = "FDA9B45D8384A5B2B"
-
-function L70_1(A0_2, A1_2)
-  A0_2[10] = A1_2
+--- main.ui.leaguecard.ui.badge.LeagueCardUIBadgeSingle.SetBadgeTopUI
+function CDC2630C32863711C_prototype:FDA9B45D8384A5B2B(A1_2)
+  self[10] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC2630C32863711C"]["prototype"]
-L69_1 = "F3401160B7C569626"
-
-function L70_1(A0_2)
+--- main.ui.leaguecard.ui.badge.LeagueCardUIBadgeSingle.StartBadgeSingle
+function CDC2630C32863711C_prototype:F3401160B7C569626()
   local L1_2, L2_2
   L1_2 = E870AAD913338EE01
   L1_2 = L1_2.Fade
-  A0_2[9] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FDDFD4BA06E5C2BB0
+  self[9] = L1_2
+  L2_2 = self
+  L1_2 = self.FDDFD4BA06E5C2BB0
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F2D4F4BC40511B560
+  L2_2 = self
+  L1_2 = self.F2D4F4BC40511B560
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC2630C32863711C"]["prototype"]
-L69_1 = "FE7AAD7B94A95D2E5"
-
-function L70_1(A0_2)
+--- main.ui.leaguecard.ui.badge.LeagueCardUIBadgeSingle.EndBadgeSingle
+function CDC2630C32863711C_prototype:FE7AAD7B94A95D2E5()
   local L1_2, L2_2
   L1_2 = E870AAD913338EE01
   L1_2 = L1_2.Fade
-  A0_2[9] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F218E2A14A790D265
+  self[9] = L1_2
+  L2_2 = self
+  L1_2 = self.F218E2A14A790D265
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC2630C32863711C"]["prototype"]
-L69_1 = "FDDFD4BA06E5C2BB0"
-
-function L70_1(A0_2)
+--- main.ui.leaguecard.ui.badge.LeagueCardUIBadgeSingle.SetupLayout
+function CDC2630C32863711C_prototype:FDDFD4BA06E5C2BB0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.FACBF24F45D1D50D2
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L3_2 = L2_2
   L2_2 = L2_2.F72CDF4B71FE86A3B
   L4_2 = L1_2
@@ -211,7 +192,7 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2, L7_2, L8_2)
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = "T_heading_00"
   L8_2 = L3_2
   L7_2 = L3_2.f39DD249C
@@ -248,7 +229,7 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = "T_time_00"
   L8_2 = L3_2
   L7_2 = L3_2.f39DD249C
@@ -261,7 +242,7 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = "T_time_01"
   L7_2 = c8C3BF576
   L7_2 = L7_2.fC8CEF9EF
@@ -287,7 +268,7 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = "T_time_02"
   L8_2 = L3_2
   L7_2 = L3_2.f39DD249C
@@ -298,8 +279,8 @@ function L70_1(A0_2)
   L9_2, L10_2, L11_2, L12_2, L13_2 = L9_2(L10_2, L11_2)
   L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FA81FDCE9CE73B5AB
+  L5_2 = self
+  L4_2 = self.FA81FDCE9CE73B5AB
   L6_2 = L2_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
@@ -317,7 +298,7 @@ function L70_1(A0_2)
     L4_2(L5_2, L6_2, L7_2, L8_2)
     L4_2 = c8C3BF576
     L4_2 = L4_2.f316077B2
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = "T_description_00"
     L8_2 = L3_2
     L7_2 = L3_2.f39DD249C
@@ -329,8 +310,8 @@ function L70_1(A0_2)
     L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
     L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
   else
-    L5_2 = A0_2
-    L4_2 = A0_2.F8DC5B643EC371BC3
+    L5_2 = self
+    L4_2 = self.F8DC5B643EC371BC3
     L6_2 = L2_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
@@ -354,7 +335,7 @@ function L70_1(A0_2)
       L4_2(L5_2, L6_2, L7_2, L8_2)
       L4_2 = c8C3BF576
       L4_2 = L4_2.f316077B2
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L6_2 = "T_description_00"
       L8_2 = L3_2
       L7_2 = L3_2.f39DD249C
@@ -366,8 +347,8 @@ function L70_1(A0_2)
       L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
       L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
     else
-      L5_2 = A0_2
-      L4_2 = A0_2.FB1973041751237F9
+      L5_2 = self
+      L4_2 = self.FB1973041751237F9
       L6_2 = L2_2
       L4_2 = L4_2(L5_2, L6_2)
       if L4_2 then
@@ -385,7 +366,7 @@ function L70_1(A0_2)
         L4_2(L5_2, L6_2, L7_2, L8_2)
         L4_2 = c8C3BF576
         L4_2 = L4_2.f316077B2
-        L5_2 = A0_2[1]
+        L5_2 = self[1]
         L6_2 = "T_description_00"
         L8_2 = L3_2
         L7_2 = L3_2.f39DD249C
@@ -399,7 +380,7 @@ function L70_1(A0_2)
       else
         L4_2 = c8C3BF576
         L4_2 = L4_2.f316077B2
-        L5_2 = A0_2[1]
+        L5_2 = self[1]
         L6_2 = "T_description_00"
         L7_2 = c8C3BF576
         L7_2 = L7_2.fC8CEF9EF
@@ -417,12 +398,12 @@ function L70_1(A0_2)
   L4_2 = L4_2.f62782BA1
   L4_2 = L4_2(L5_2)
   L5_2 = 0
-  L6_2 = A0_2[11]
+  L6_2 = self[11]
   while L5_2 < L6_2 do
     L5_2 = L5_2 + 1
     L7_2 = L5_2 - 1
     L8_2 = L4_2 < 0
-    L9_2 = A0_2[2]
+    L9_2 = self[2]
     L10_2 = L9_2
     L9_2 = L9_2.f7798D9F4
     L11_2 = L31_1.string
@@ -454,7 +435,7 @@ function L70_1(A0_2)
   end
   L7_2 = c8C3BF576
   L7_2 = L7_2.f316077B2
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = "T_time_01"
   L10_2 = c8C3BF576
   L10_2 = L10_2.fC8CEF9EF
@@ -462,7 +443,7 @@ function L70_1(A0_2)
   L12_2 = "leaguecard_06_04"
   L10_2, L11_2, L12_2, L13_2 = L10_2(L11_2, L12_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L8_2 = L7_2
   L7_2 = L7_2.fEAD9FB7D
   L9_2 = "ptn_type"
@@ -470,11 +451,8 @@ function L70_1(A0_2)
   L7_2(L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC2630C32863711C"]["prototype"]
-L69_1 = "FA81FDCE9CE73B5AB"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.leaguecard.ui.badge.LeagueCardUIBadgeSingle.IsGymBadge
+function CDC2630C32863711C_prototype:FA81FDCE9CE73B5AB(A1_2)
   local L2_2
   if 0 == A1_2 or 1 == A1_2 or 2 == A1_2 or 3 == A1_2 or 4 == A1_2 or 5 == A1_2 or 6 == A1_2 or 7 == A1_2 then
     L2_2 = true
@@ -484,11 +462,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC2630C32863711C"]["prototype"]
-L69_1 = "F8DC5B643EC371BC3"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.leaguecard.ui.badge.LeagueCardUIBadgeSingle.IsDanBadge
+function CDC2630C32863711C_prototype:F8DC5B643EC371BC3(A1_2)
   local L2_2
   if 8 == A1_2 or 9 == A1_2 or 10 == A1_2 or 11 == A1_2 or 12 == A1_2 then
     L2_2 = true
@@ -498,11 +473,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC2630C32863711C"]["prototype"]
-L69_1 = "FB1973041751237F9"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.leaguecard.ui.badge.LeagueCardUIBadgeSingle.IsNushiBadge
+function CDC2630C32863711C_prototype:FB1973041751237F9(A1_2)
   local L2_2
   if 13 == A1_2 or 14 == A1_2 or 15 == A1_2 or 16 == A1_2 or 17 == A1_2 then
     L2_2 = true

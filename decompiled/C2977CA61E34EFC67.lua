@@ -1,3 +1,5 @@
+---@class C2977CA61E34EFC67 : C2977CA61E34EFC67_prototype
+---@field prototype C2977CA61E34EFC67_prototype
 L55_1 = _ENV
 L56_1 = "C2977CA61E34EFC67"
 L57_1 = L15_1
@@ -39,26 +41,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2977CA61E34EFC67"]
 L69_1 = "__name__"
 L70_1 = "C2977CA61E34EFC67"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2977CA61E34EFC67"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2977CA61E34EFC67"]["prototype"]
-L69_1 = "FEBB6C7EABF14DA04"
-
-function L70_1(A0_2)
+---@class C2977CA61E34EFC67_prototype
+C2977CA61E34EFC67_prototype = L15_1()
+C2977CA61E34EFC67.prototype = C2977CA61E34EFC67_prototype
+--- C2977CA61E34EFC67.BootEventTriggerId
+function C2977CA61E34EFC67_prototype:FEBB6C7EABF14DA04()
   local L1_2
   L1_2 = 6
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2977CA61E34EFC67"]["prototype"]
-L69_1 = "FDA98E87C57449F00"
-
-function L70_1(A0_2, A1_2)
+--- C2977CA61E34EFC67.OnEventCheck
+function C2977CA61E34EFC67_prototype:FDA98E87C57449F00(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = CC830FE38763222DF
   L2_2 = L2_2.SDAC1412E65E46444
@@ -67,8 +61,8 @@ function L70_1(A0_2, A1_2)
     L2_2 = nil
     return L2_2
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FA82C3B40C4666459
+  L3_2 = self
+  L2_2 = self.FA82C3B40C4666459
   L2_2 = L2_2(L3_2)
   if false == L2_2 then
     L2_2 = nil
@@ -179,11 +173,8 @@ function L70_1(A0_2, A1_2)
   return L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2977CA61E34EFC67"]["prototype"]
-L69_1 = "FA82C3B40C4666459"
-
-function L70_1(A0_2)
+--- C2977CA61E34EFC67.IsOpen
+function C2977CA61E34EFC67_prototype:FA82C3B40C4666459()
   local L1_2, L2_2
   L1_2 = C8F93126DACB9F8DD
   L1_2 = L1_2.S93A2C11A3020463D

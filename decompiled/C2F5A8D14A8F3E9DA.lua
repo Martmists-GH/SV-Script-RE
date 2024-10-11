@@ -1,3 +1,7 @@
+---@alias C2F5A8D14A8F3E9DA main_ui_shop_restaurant_buff_ShopRestaurantUIBuffView
+
+---@class main_ui_shop_restaurant_buff_ShopRestaurantUIBuffView : C2F5A8D14A8F3E9DA_prototype
+---@field prototype C2F5A8D14A8F3E9DA_prototype
 L55_1 = _ENV
 L56_1 = "C2F5A8D14A8F3E9DA"
 L57_1 = L15_1
@@ -43,66 +47,55 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C2F5A8D14A8F3E9DA"]
 L69_1 = "__name__"
 L70_1 = "C2F5A8D14A8F3E9DA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F5A8D14A8F3E9DA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F5A8D14A8F3E9DA"]["prototype"]
-L69_1 = "FCE8975C56C10688D"
-
-function L70_1(A0_2)
+---@class C2F5A8D14A8F3E9DA_prototype
+C2F5A8D14A8F3E9DA_prototype = L15_1()
+C2F5A8D14A8F3E9DA.prototype = C2F5A8D14A8F3E9DA_prototype
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuffView.get_isSetup
+function C2F5A8D14A8F3E9DA_prototype:FCE8975C56C10688D()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F5A8D14A8F3E9DA"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuffView.Setup
+function C2F5A8D14A8F3E9DA_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C9CC979169E6BA3A6
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "shop_restaurant"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
-  A0_2[2] = true
+  self[3] = L2_2
+  self[2] = true
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[5] = L2_2
-  L2_2 = A0_2[5]
+  self[5] = L2_2
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.f3DCFA517
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F5A8D14A8F3E9DA"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuffView.PreUpdate
+function C2F5A8D14A8F3E9DA_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[4]
+      L2_2 = self[4]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -150,21 +143,18 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F5A8D14A8F3E9DA"]["prototype"]
-L69_1 = "FF0F83F2C1816D563"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuffView.EndView
+function C2F5A8D14A8F3E9DA_prototype:FF0F83F2C1816D563(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = nil
   L4_2 = cCF781FB6
   L4_2 = L4_2.f581990CA
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L5_2 = L4_2
     L4_2 = L4_2.f954D4B3D
     L4_2(L5_2)
@@ -184,20 +174,17 @@ function L70_1(A0_2, A1_2)
   
   L6_2 = "shop_restaurant_ui_buff_end_sequence"
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[4] = L4_2
+  self[4] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F5A8D14A8F3E9DA"]["prototype"]
-L69_1 = "FE4498BD427E169B2"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuffView.EndViewSequence
+function C2F5A8D14A8F3E9DA_prototype:FE4498BD427E169B2()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   if nil == L1_2 then
     return
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.FE744212C12ED8D05
   L1_2 = L1_2(L2_2)
@@ -207,29 +194,26 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F5A8D14A8F3E9DA"]["prototype"]
-L69_1 = "F102DA004A9EF0903"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuffView.StartViewSequence
+function C2F5A8D14A8F3E9DA_prototype:F102DA004A9EF0903(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   if nil == L4_2 then
     L4_2 = C9CC979169E6BA3A6
     L4_2 = L4_2.new
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = "shop_restaurant"
     L4_2 = L4_2(L5_2, L6_2)
-    A0_2[3] = L4_2
+    self[3] = L4_2
   end
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.FE744212C12ED8D05
   L4_2 = L4_2(L5_2)
   L5_2 = L4_2
   L4_2 = L4_2.FEEDD180FB066D88D
   L4_2(L5_2)
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.FC8489078C201C47F
   L4_2 = L4_2(L5_2)
@@ -256,7 +240,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L8_2 = "shop_restaurant_01_03"
   L6_2, L7_2, L8_2 = L6_2(L7_2, L8_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.FC8489078C201C47F
   L5_2 = L5_2(L6_2)
@@ -265,23 +249,20 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2 = "T_title_01"
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F288D07668B10B6FE
+  L6_2 = self
+  L5_2 = self.F288D07668B10B6FE
   L7_2 = A1_2
   L5_2(L6_2, L7_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.FBCE8853059A65EE3
+  L6_2 = self
+  L5_2 = self.FBCE8853059A65EE3
   L7_2 = A2_2
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F5A8D14A8F3E9DA"]["prototype"]
-L69_1 = "F288D07668B10B6FE"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuffView.NowBuffPowerView
+function C2F5A8D14A8F3E9DA_prototype:F288D07668B10B6FE(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.FC8489078C201C47F
   L2_2 = L2_2(L3_2)
@@ -290,19 +271,16 @@ function L70_1(A0_2, A1_2)
   L4_2 = "T_buff_headder_01"
   L5_2 = "shop_restaurant_03_00"
   L2_2(L3_2, L4_2, L5_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F53D8EF492BFE1248
+  L3_2 = self
+  L2_2 = self.F53D8EF492BFE1248
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F5A8D14A8F3E9DA"]["prototype"]
-L69_1 = "FBCE8853059A65EE3"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuffView.NextBuffPowerView
+function C2F5A8D14A8F3E9DA_prototype:FBCE8853059A65EE3(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.FC8489078C201C47F
   L2_2 = L2_2(L3_2)
@@ -311,18 +289,15 @@ function L70_1(A0_2, A1_2)
   L4_2 = "T_buff_headder_00"
   L5_2 = "shop_restaurant_03_01"
   L2_2(L3_2, L4_2, L5_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F53D8EF492BFE1248
+  L3_2 = self
+  L2_2 = self.F53D8EF492BFE1248
   L4_2 = A1_2
   L5_2 = 3
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F5A8D14A8F3E9DA"]["prototype"]
-L69_1 = "F53D8EF492BFE1248"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop_restaurant.buff.ShopRestaurantUIBuffView.BuffPowerView
+function C2F5A8D14A8F3E9DA_prototype:F53D8EF492BFE1248(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A2_2 then
     A2_2 = 0
@@ -334,7 +309,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2 = L3_2 - 1
     L6_2 = A1_2.length
     L6_2 = L5_2 < L6_2
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L8_2 = L7_2
     L7_2 = L7_2.FA23D39922B76B247
     L9_2 = L31_1.string
@@ -356,7 +331,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L9_2 = L9_2 .. L10_2
     L10_2 = L6_2
     L7_2(L8_2, L9_2, L10_2)
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L8_2 = L7_2
     L7_2 = L7_2.FA23D39922B76B247
     L9_2 = L31_1.string
@@ -379,7 +354,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L10_2 = L6_2
     L7_2(L8_2, L9_2, L10_2)
     if L6_2 then
-      L7_2 = A0_2[3]
+      L7_2 = self[3]
       L8_2 = L7_2
       L7_2 = L7_2.FC8489078C201C47F
       L7_2 = L7_2(L8_2)
@@ -439,7 +414,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L13_2 = "shop_restaurant_02_01"
       L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2 = L11_2(L12_2, L13_2)
       L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       L11_2 = L10_2
       L10_2 = L10_2.FC8489078C201C47F
       L10_2 = L10_2(L11_2)

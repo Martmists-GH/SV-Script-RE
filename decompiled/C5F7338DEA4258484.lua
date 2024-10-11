@@ -1,3 +1,5 @@
+---@class C5F7338DEA4258484 : C5F7338DEA4258484_prototype
+---@field prototype C5F7338DEA4258484_prototype
 L55_1 = _ENV
 L56_1 = "C5F7338DEA4258484"
 L57_1 = L15_1
@@ -40,16 +42,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C5F7338DEA4258484"]
 L69_1 = "__name__"
 L70_1 = "C5F7338DEA4258484"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5F7338DEA4258484"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5F7338DEA4258484"]["prototype"]
-L69_1 = "F9337AE9F018B3C29"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@class C5F7338DEA4258484_prototype
+C5F7338DEA4258484_prototype = L15_1()
+C5F7338DEA4258484.prototype = C5F7338DEA4258484_prototype
+--- C5F7338DEA4258484.Open
+function C5F7338DEA4258484_prototype:F9337AE9F018B3C29(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A4_2 then
     A4_2 = false
@@ -63,11 +60,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   if nil == A1_2 then
     A1_2 = 1.0
   end
-  A0_2[5] = "staff_list_dlc"
+  self[5] = "staff_list_dlc"
   L5_2 = C81E717B56A38EE2C
   L5_2 = L5_2.prototype
   L5_2 = L5_2.F9337AE9F018B3C29
-  L6_2 = A0_2
+  L6_2 = self
   L7_2 = A1_2
   L8_2 = A2_2
   L9_2 = A3_2

@@ -1,3 +1,7 @@
+---@alias CD65D3437D968BF0B main_ui_shop_base_ShopUISequenceBase
+
+---@class main_ui_shop_base_ShopUISequenceBase : CD65D3437D968BF0B_prototype
+---@field prototype CD65D3437D968BF0B_prototype
 L55_1 = _ENV
 L56_1 = "CD65D3437D968BF0B"
 L57_1 = L15_1
@@ -34,16 +38,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD65D3437D968BF0B"]
 L69_1 = "__name__"
 L70_1 = "CD65D3437D968BF0B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD65D3437D968BF0B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD65D3437D968BF0B"]["prototype"]
-L69_1 = "F7352D052BB21456B"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class CD65D3437D968BF0B_prototype
+CD65D3437D968BF0B_prototype = L15_1()
+CD65D3437D968BF0B.prototype = CD65D3437D968BF0B_prototype
+--- main.ui.shop.base.ShopUISequenceBase.ShowPriceQuantityYesNoText
+function CD65D3437D968BF0B_prototype:F7352D052BB21456B(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   L4_2 = cC9AD95E7
   L4_2 = L4_2.f101D811F
@@ -113,8 +112,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L6_2 = L6_2.S760DAE4C5371A78E
     L6_2()
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.F7C91080775560DF8
+  L7_2 = self
+  L6_2 = self.F7C91080775560DF8
   L6_2(L7_2)
   L6_2 = L31_1.parseInt
   L7_2 = CF1D9D619D324F233
@@ -123,11 +122,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L6_2(L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD65D3437D968BF0B"]["prototype"]
-L69_1 = "F7C91080775560DF8"
-
-function L70_1(A0_2)
+--- main.ui.shop.base.ShopUISequenceBase.MessageClose
+function CD65D3437D968BF0B_prototype:F7C91080775560DF8()
   local L1_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S84E00A89DFBC380C
@@ -145,11 +141,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD65D3437D968BF0B"]["prototype"]
-L69_1 = "FB6FB0A1BAD862674"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop.base.ShopUISequenceBase.GetPremiumBallCount
+function CD65D3437D968BF0B_prototype:FB6FB0A1BAD862674(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = C6BC8418E8E071EE6
   L3_2 = L3_2.S385504EFF7E842C3
@@ -167,11 +160,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD65D3437D968BF0B"]["prototype"]
-L69_1 = "FF2B34DBC6FCCC2D6"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop.base.ShopUISequenceBase.PremiumBallSequence
+function CD65D3437D968BF0B_prototype:FF2B34DBC6FCCC2D6(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if 0 == A2_2 then
     return

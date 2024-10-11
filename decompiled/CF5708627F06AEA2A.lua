@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CF5708627F06AEA2A"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CF5708627F06AEA2A"]
-L69_1 = "new"
+---@alias CF5708627F06AEA2A main_encount_EncountOutbreakManager
 
-function L70_1(A0_2)
+---@class main_encount_EncountOutbreakManager : CF5708627F06AEA2A_prototype
+---@field prototype CF5708627F06AEA2A_prototype
+CF5708627F06AEA2A = L15_1()
+function CF5708627F06AEA2A.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CF5708627F06AEA2A
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CF5708627F06AEA2A
+function CF5708627F06AEA2A.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L42_1.new
   L2_2 = L2_2()
@@ -116,11 +110,7 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]
-L69_1 = "__name__"
-L70_1 = "CF5708627F06AEA2A"
-L68_1[L69_1] = L70_1
+CF5708627F06AEA2A.__name__ = "CF5708627F06AEA2A"
 L68_1 = _ENV["CF5708627F06AEA2A"]
 L69_1 = "S47BF515E9B963BEC"
 
@@ -130,21 +120,15 @@ function L70_1()
   L0_2.S7B70D6961ED6F2B7 = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]
-L69_1 = "SA2151A5A4CE83990"
-
-function L70_1()
+--- main.encount.EncountOutbreakManager.SetSaveLoadFlag
+function CF5708627F06AEA2A.SA2151A5A4CE83990()
   local L0_2, L1_2
   L0_2 = CF5708627F06AEA2A
   L0_2.SFA7E6139AB9F3CDA = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]
-L69_1 = "SC9802D397943D398"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountOutbreakManager.SC9802D397943D398
+function CF5708627F06AEA2A.SC9802D397943D398(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A2_2 then
     L3_2 = CFC8F368D91411014
@@ -221,16 +205,11 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F746C50DD3115765E"
-
-function L70_1(A0_2)
+---@class CF5708627F06AEA2A_prototype
+CF5708627F06AEA2A_prototype = L15_1()
+CF5708627F06AEA2A.prototype = CF5708627F06AEA2A_prototype
+--- main.encount.EncountOutbreakManager.IsEnable
+function CF5708627F06AEA2A_prototype:F746C50DD3115765E()
   local L1_2, L2_2
   L1_2 = C10578806AC30DCA3
   L1_2 = L1_2.SBA6FF574C1C9AA09
@@ -243,11 +222,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F7A3D296366E973CB"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountOutbreakManager.Initialize
+function CF5708627F06AEA2A_prototype:F7A3D296366E973CB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = A1_2
   L2_2 = A1_2.f5439788F
@@ -312,13 +288,13 @@ function L70_1(A0_2, A1_2)
   L6_2 = L6_2()
   L5_2.zoneSu2 = L6_2
   L4_2 = L4_2(L5_2)
-  A0_2[10] = L4_2
-  L4_2 = A0_2[6]
+  self[10] = L4_2
+  L4_2 = self[6]
   L5_2 = L4_2
   L4_2 = L4_2.F7A3D296366E973CB
   L4_2(L5_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F746C50DD3115765E
+  L5_2 = self
+  L4_2 = self.F746C50DD3115765E
   L4_2 = L4_2(L5_2)
   if L4_2 then
     L4_2 = CF5708627F06AEA2A
@@ -329,24 +305,21 @@ function L70_1(A0_2, A1_2)
       L4_2()
     end
   else
-    A0_2[3] = true
+    self[3] = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountOutbreakManager.Update
+function CF5708627F06AEA2A_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F746C50DD3115765E
+  L2_2 = self
+  L4_2 = self
+  L3_2 = self.F746C50DD3115765E
   L3_2 = L3_2(L4_2)
   if false == L3_2 then
     return
   end
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   if L3_2 then
     L3_2 = c2A8846F6
     L3_2 = L3_2.f3E170423
@@ -355,27 +328,27 @@ function L70_1(A0_2, A1_2)
       L3_2 = c7C2CBD95
       L3_2 = L3_2.f2FD91927
       L3_2()
-      A0_2[4] = false
+      self[4] = false
     end
   end
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   if L3_2 then
     L3_2 = CF5708627F06AEA2A
     L3_2 = L3_2.S47BF515E9B963BEC
     L3_2()
-    A0_2[3] = false
+    self[3] = false
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F3F26181E49086576
+  L4_2 = self
+  L3_2 = self.F3F26181E49086576
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F9CB1FAB20BAFF1DF
+  L4_2 = self
+  L3_2 = self.F9CB1FAB20BAFF1DF
   L3_2(L4_2)
   L3_2 = CF5708627F06AEA2A
   L3_2 = L3_2.S7B70D6961ED6F2B7
   if L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F8E695027041DA6EC
+    L4_2 = self
+    L3_2 = self.F8E695027041DA6EC
     L3_2(L4_2)
     L3_2 = C4FA38E6F845A4A51
     L3_2 = L3_2.SFED404825799B099
@@ -463,21 +436,21 @@ function L70_1(A0_2, A1_2)
     L3_2 = CF5708627F06AEA2A
     L3_2.S7B70D6961ED6F2B7 = false
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   if L3_2 > 10 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.remove
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[0]
     L3_2(L4_2, L5_2)
   end
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   if L3_2 > 0 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L3_2 = L3_2 - 1
-    A0_2[2] = L3_2
+    self[2] = L3_2
   end
   L3_2 = false
   L4_2 = C4FA38E6F845A4A51
@@ -1428,13 +1401,10 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F9CB1FAB20BAFF1DF"
-
-function L70_1(A0_2)
+--- main.encount.EncountOutbreakManager.F9CB1FAB20BAFF1DF
+function CF5708627F06AEA2A_prototype:F9CB1FAB20BAFF1DF()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = CF5708627F06AEA2A
   L2_2 = L2_2.SFA7E6139AB9F3CDA
   if false == L2_2 then
@@ -1785,11 +1755,8 @@ function L70_1(A0_2)
   L2_2.SFA7E6139AB9F3CDA = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F3F26181E49086576"
-
-function L70_1(A0_2)
+--- main.encount.EncountOutbreakManager.F3F26181E49086576
+function CF5708627F06AEA2A_prototype:F3F26181E49086576()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = cFB7F03A4
   L1_2 = L1_2.f90197CAA
@@ -1798,21 +1765,21 @@ function L70_1(A0_2)
     return
   end
   L1_2 = false
-  L3_2 = A0_2
-  L2_2 = A0_2.FD59FA0FACF00F334
+  L3_2 = self
+  L2_2 = self.FD59FA0FACF00F334
   L2_2 = L2_2(L3_2)
   if L2_2 then
     L1_2 = true
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.F7A3D296366E973CB
   L2_2(L3_2)
   if L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F735145397AC4883E
+    L3_2 = self
+    L2_2 = self.F735145397AC4883E
     L2_2 = L2_2(L3_2)
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     L3_2 = L3_2.h
     L3_2 = L3_2[2]
     L4_2 = L42_1.tnull
@@ -1852,8 +1819,8 @@ function L70_1(A0_2)
       while nil ~= L9_2 do
         L10_2 = L9_2.item
         L9_2 = L9_2.next
-        L12_2 = A0_2
-        L11_2 = A0_2.F8D20E57D672BE01A
+        L12_2 = self
+        L11_2 = self.F8D20E57D672BE01A
         L13_2 = L10_2[4]
         L14_2 = L2_2
         L15_2 = L8_2
@@ -1862,8 +1829,8 @@ function L70_1(A0_2)
         L11_2(L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
         L2_2 = false
       end
-      L10_2 = A0_2[7]
-      L11_2 = A0_2[6]
+      L10_2 = self[7]
+      L11_2 = self[6]
       L12_2 = L11_2
       L11_2 = L11_2.FB7B813237374944B
       L13_2 = L8_2
@@ -1885,11 +1852,8 @@ function L70_1(A0_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FD59FA0FACF00F334"
-
-function L70_1(A0_2)
+--- main.encount.EncountOutbreakManager.FD59FA0FACF00F334
+function CF5708627F06AEA2A_prototype:FD59FA0FACF00F334()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = c40C301DD
   L1_2 = L1_2.f28F5D894
@@ -1903,7 +1867,7 @@ function L70_1(A0_2)
   L4_2 = c40C301DD
   L4_2 = L4_2.f1D48A588
   L4_2 = L4_2()
-  L5_2 = A0_2[10]
+  L5_2 = self[10]
   L5_2 = L5_2.poke
   L5_2 = L5_2 ~= L1_2
   L6_2 = L16_1
@@ -1919,17 +1883,14 @@ function L70_1(A0_2)
   L7_2.zoneSu1 = L3_2
   L7_2.zoneSu2 = L4_2
   L6_2 = L6_2(L7_2)
-  A0_2[10] = L6_2
+  self[10] = L6_2
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FF3822D55BFDC1525"
-
-function L70_1(A0_2)
+--- main.encount.EncountOutbreakManager.FF3822D55BFDC1525
+function CF5708627F06AEA2A_prototype:FF3822D55BFDC1525()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L1_2 = L1_2.h
   L1_2 = L1_2[2]
   L2_2 = L42_1.tnull
@@ -1957,7 +1918,7 @@ function L70_1(A0_2)
       return L3_2
     end
   end
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L3_2 = L3_2.h
   L3_2 = L3_2[0]
   L4_2 = L42_1.tnull
@@ -1989,13 +1950,10 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FFE939D394D082B0A"
-
-function L70_1(A0_2)
+--- main.encount.EncountOutbreakManager.FFE939D394D082B0A
+function CF5708627F06AEA2A_prototype:FFE939D394D082B0A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L1_2 = L1_2.h
   L1_2 = L1_2[3]
   L2_2 = L42_1.tnull
@@ -2023,7 +1981,7 @@ function L70_1(A0_2)
       return L3_2
     end
   end
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L3_2 = L3_2.h
   L3_2 = L3_2[1]
   L4_2 = L42_1.tnull
@@ -2055,11 +2013,8 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F735145397AC4883E"
-
-function L70_1(A0_2)
+--- main.encount.EncountOutbreakManager.F735145397AC4883E
+function CF5708627F06AEA2A_prototype:F735145397AC4883E()
   local L1_2
   L1_2 = c2A8846F6
   L1_2 = L1_2.f3E170423
@@ -2073,11 +2028,8 @@ function L70_1(A0_2)
   return L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F649451D4B4318701"
-
-function L70_1(A0_2)
+--- main.encount.EncountOutbreakManager.F649451D4B4318701
+function CF5708627F06AEA2A_prototype:F649451D4B4318701()
   local L1_2
   L1_2 = c2A8846F6
   L1_2 = L1_2.f3E170423
@@ -2094,11 +2046,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F66A3336EBD1E3962"
-
-function L70_1(A0_2)
+--- main.encount.EncountOutbreakManager.F66A3336EBD1E3962
+function CF5708627F06AEA2A_prototype:F66A3336EBD1E3962()
   local L1_2
   L1_2 = c2A8846F6
   L1_2 = L1_2.f3E170423
@@ -2118,23 +2067,17 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F06244184146DBED5"
-
-function L70_1(A0_2)
+--- main.encount.EncountOutbreakManager.F06244184146DBED5
+function CF5708627F06AEA2A_prototype:F06244184146DBED5()
   local L1_2
-  A0_2[2] = 5
+  self[2] = 5
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F087493A638C7328B"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountOutbreakManager.F087493A638C7328B
+function CF5708627F06AEA2A_prototype:F087493A638C7328B(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F6870CDE7E0FE5D29
+  L3_2 = self
+  L2_2 = self.F6870CDE7E0FE5D29
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   A1_2 = L2_2
@@ -2147,7 +2090,7 @@ function L70_1(A0_2, A1_2)
   if L2_2 == L3_2 then
     L2_2 = nil
   end
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2[20]
   L4_2 = L3_2
   L3_2 = L3_2.fDAAAA586
@@ -2158,11 +2101,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FE6836B3C27CC7BEE"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountOutbreakManager.Lottery
+function CF5708627F06AEA2A_prototype:FE6836B3C27CC7BEE(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2
   L3_2 = A2_2
   if nil == A2_2 then
@@ -2179,8 +2119,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
   if L6_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F3CC4A1292F2B4947
+    L7_2 = self
+    L6_2 = self.F3CC4A1292F2B4947
     L8_2 = L31_1.string
     L9_2 = L31_1.string
     L10_2 = "Point not found! -> areaNo("
@@ -2198,33 +2138,33 @@ function L70_1(A0_2, A1_2, A2_2)
     L6_2 = nil
     return L6_2
   end
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L7_2 = L6_2
   L6_2 = L6_2.F654580D678C85C0E
   L8_2 = L4_2
   L6_2 = L6_2(L7_2, L8_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F19AA42226E02E090
+  L8_2 = self
+  L7_2 = self.F19AA42226E02E090
   L9_2 = L6_2.pos
   L10_2 = A1_2
   L7_2 = L7_2(L8_2, L9_2, L10_2)
   if L7_2 then
-    L8_2 = A0_2
-    L7_2 = A0_2.F8BC2D3B2BBFE6F25
+    L8_2 = self
+    L7_2 = self.F8BC2D3B2BBFE6F25
     L9_2 = L6_2.pos
     L7_2 = L7_2(L8_2, L9_2)
     if L7_2 then
       goto lbl_54
     end
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.F3CC4A1292F2B4947
+  L8_2 = self
+  L7_2 = self.F3CC4A1292F2B4947
   L9_2 = "Distance check"
   L7_2(L8_2, L9_2)
   L7_2 = nil
   do return L7_2 end
   ::lbl_54::
-  L7_2 = A0_2[5]
+  L7_2 = self[5]
   L8_2 = L7_2
   L7_2 = L7_2.F7311680568F59F20
   L9_2 = L6_2
@@ -2238,8 +2178,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L11_2 = L8_2
   L9_2 = L9_2(L10_2, L11_2)
   if L9_2 then
-    L10_2 = A0_2
-    L9_2 = A0_2.F3CC4A1292F2B4947
+    L10_2 = self
+    L9_2 = self.F3CC4A1292F2B4947
     L11_2 = L31_1.string
     L12_2 = L31_1.string
     L13_2 = L31_1.string
@@ -2288,15 +2228,15 @@ function L70_1(A0_2, A1_2, A2_2)
       end
     end
   end
-  L10_2 = A0_2
-  L9_2 = A0_2.F3CC4A1292F2B4947
+  L10_2 = self
+  L9_2 = self.F3CC4A1292F2B4947
   L11_2 = L31_1.string
   L12_2 = L31_1.string
   L13_2 = "DevId("
   L12_2 = L12_2(L13_2)
   L13_2 = L31_1.string
-  L15_2 = A0_2
-  L14_2 = A0_2.F3516262E81CDB055
+  L15_2 = self
+  L14_2 = self.F3516262E81CDB055
   L17_2 = L7_2
   L16_2 = L7_2.f2BF366A2
   L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2 = L16_2(L17_2)
@@ -2313,7 +2253,7 @@ function L70_1(A0_2, A1_2, A2_2)
   do return L9_2 end
   ::lbl_132::
   L9_2 = 0
-  L10_2 = A0_2[1]
+  L10_2 = self[1]
   while true do
     L11_2 = L10_2.length
     if not (L9_2 < L11_2) then
@@ -2325,15 +2265,15 @@ function L70_1(A0_2, A1_2, A2_2)
     L12_2 = L7_2.f2BF366A2
     L12_2 = L12_2(L13_2)
     if L11_2 == L12_2 then
-      L13_2 = A0_2
-      L12_2 = A0_2.F3CC4A1292F2B4947
+      L13_2 = self
+      L12_2 = self.F3CC4A1292F2B4947
       L14_2 = L31_1.string
       L15_2 = L31_1.string
       L16_2 = "DevId("
       L15_2 = L15_2(L16_2)
       L16_2 = L31_1.string
-      L18_2 = A0_2
-      L17_2 = A0_2.F3516262E81CDB055
+      L18_2 = self
+      L17_2 = self.F3516262E81CDB055
       L20_2 = L7_2
       L19_2 = L7_2.f2BF366A2
       L19_2, L20_2, L21_2, L22_2, L23_2 = L19_2(L20_2)
@@ -2350,7 +2290,7 @@ function L70_1(A0_2, A1_2, A2_2)
       return L12_2
     end
   end
-  L11_2 = A0_2[9]
+  L11_2 = self[9]
   L11_2 = L11_2.h
   L11_2 = L11_2[0]
   L12_2 = L42_1.tnull
@@ -2379,15 +2319,15 @@ function L70_1(A0_2, A1_2, A2_2)
       L16_2 = L7_2.f2BF366A2
       L16_2 = L16_2(L17_2)
       if L15_2 == L16_2 then
-        L16_2 = A0_2
-        L15_2 = A0_2.F3CC4A1292F2B4947
+        L16_2 = self
+        L15_2 = self.F3CC4A1292F2B4947
         L17_2 = L31_1.string
         L18_2 = L31_1.string
         L19_2 = "DevId("
         L18_2 = L18_2(L19_2)
         L19_2 = L31_1.string
-        L21_2 = A0_2
-        L20_2 = A0_2.F3516262E81CDB055
+        L21_2 = self
+        L20_2 = self.F3516262E81CDB055
         L23_2 = L7_2
         L22_2 = L7_2.f2BF366A2
         L22_2, L23_2 = L22_2(L23_2)
@@ -2405,15 +2345,15 @@ function L70_1(A0_2, A1_2, A2_2)
       end
     end
   end
-  L14_2 = A0_2
-  L13_2 = A0_2.F0AFE20D127570C9A
+  L14_2 = self
+  L13_2 = self.F0AFE20D127570C9A
   L15_2 = L6_2.pos
   L16_2 = L7_2
   L17_2 = false
   L13_2 = L13_2(L14_2, L15_2, L16_2, L17_2)
   if not L13_2 then
-    L14_2 = A0_2
-    L13_2 = A0_2.F3CC4A1292F2B4947
+    L14_2 = self
+    L13_2 = self.F3CC4A1292F2B4947
     L15_2 = L31_1.string
     L16_2 = L31_1.string
     L17_2 = L31_1.string
@@ -2445,8 +2385,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L16_2 = L16_2 .. L17_2
     L15_2 = L15_2(L16_2)
     L16_2 = L31_1.string
-    L18_2 = A0_2
-    L17_2 = A0_2.F3516262E81CDB055
+    L18_2 = self
+    L17_2 = self.F3516262E81CDB055
     L20_2 = L7_2
     L19_2 = L7_2.f2BF366A2
     L19_2, L20_2, L21_2, L22_2, L23_2 = L19_2(L20_2)
@@ -2457,24 +2397,21 @@ function L70_1(A0_2, A1_2, A2_2)
     L13_2 = nil
     return L13_2
   end
-  L14_2 = A0_2
-  L13_2 = A0_2.F59C1CF97D4FB009D
+  L14_2 = self
+  L13_2 = self.F59C1CF97D4FB009D
   L15_2 = L6_2
   L16_2 = L7_2
   L17_2 = nil
-  L19_2 = A0_2
-  L18_2 = A0_2.F5E1607780C0675CB
+  L19_2 = self
+  L18_2 = self.F5E1607780C0675CB
   L20_2 = L6_2
   L21_2 = L7_2
   L18_2, L19_2, L20_2, L21_2, L22_2, L23_2 = L18_2(L19_2, L20_2, L21_2)
   return L13_2(L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F7F17D6B80CB4FF7E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountOutbreakManager.F7F17D6B80CB4FF7E
+function CF5708627F06AEA2A_prototype:F7F17D6B80CB4FF7E(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L3_2 = A2_2.pokedata
   L4_2 = L3_2
@@ -2486,7 +2423,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L0_3 = nil
     L1_3 = L3_2
     if 0 == L1_3 then
-      L1_3 = A0_2
+      L1_3 = self
       L2_3 = L1_3
       L1_3 = L1_3.F087493A638C7328B
       L3_3 = A1_2
@@ -2496,7 +2433,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L1_3 = A2_2.pokedata
       L2_3 = L1_3
       L1_3 = L1_3.fDF27589A
-      L3_3 = A0_2
+      L3_3 = self
       L3_3 = L3_3[5]
       L3_3 = L3_3[20]
       L4_3 = L3_3
@@ -2512,8 +2449,8 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L4_2 = L4_2()
   if 0 == A1_2 and (3 == L4_2 or 23 == L4_2) then
-    L6_2 = A0_2
-    L5_2 = A0_2.F3CC4A1292F2B4947
+    L6_2 = self
+    L5_2 = self.F3CC4A1292F2B4947
     L7_2 = L31_1.string
     L8_2 = L31_1.string
     L9_2 = "Point except -> Field_0 && areaNo("
@@ -2546,8 +2483,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L10_2 = L7_2
   L8_2 = L8_2(L9_2, L10_2)
   if L8_2 then
-    L9_2 = A0_2
-    L8_2 = A0_2.F3CC4A1292F2B4947
+    L9_2 = self
+    L8_2 = self.F3CC4A1292F2B4947
     L10_2 = L31_1.string
     L11_2 = L31_1.string
     L12_2 = "Point not found! -> areaNo("
@@ -2565,41 +2502,41 @@ function L70_1(A0_2, A1_2, A2_2)
     L8_2 = nil
     return L8_2
   end
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L9_2 = L8_2
   L8_2 = L8_2.F654580D678C85C0E
   L10_2 = L6_2
   L8_2 = L8_2(L9_2, L10_2)
-  L10_2 = A0_2
-  L9_2 = A0_2.F19AA42226E02E090
+  L10_2 = self
+  L9_2 = self.F19AA42226E02E090
   L11_2 = L8_2.pos
   L12_2 = A1_2
   L9_2 = L9_2(L10_2, L11_2, L12_2)
   if L9_2 then
-    L10_2 = A0_2
-    L9_2 = A0_2.F8BC2D3B2BBFE6F25
+    L10_2 = self
+    L9_2 = self.F8BC2D3B2BBFE6F25
     L11_2 = L8_2.pos
     L9_2 = L9_2(L10_2, L11_2)
     if L9_2 then
       goto lbl_82
     end
   end
-  L10_2 = A0_2
-  L9_2 = A0_2.F3CC4A1292F2B4947
+  L10_2 = self
+  L9_2 = self.F3CC4A1292F2B4947
   L11_2 = "Distance check"
   L9_2(L10_2, L11_2)
   L9_2 = nil
   do return L9_2 end
   ::lbl_82::
-  L10_2 = A0_2
-  L9_2 = A0_2.F0AFE20D127570C9A
+  L10_2 = self
+  L9_2 = self.F0AFE20D127570C9A
   L11_2 = L8_2.pos
   L12_2 = A2_2.pokedata
   L13_2 = true
   L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2)
   if not L9_2 then
-    L10_2 = A0_2
-    L9_2 = A0_2.F3CC4A1292F2B4947
+    L10_2 = self
+    L9_2 = self.F3CC4A1292F2B4947
     L11_2 = L31_1.string
     L12_2 = L31_1.string
     L13_2 = L31_1.string
@@ -2632,8 +2569,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L9_2 = nil
     return L9_2
   end
-  L10_2 = A0_2
-  L9_2 = A0_2.F59C1CF97D4FB009D
+  L10_2 = self
+  L9_2 = self.F59C1CF97D4FB009D
   L11_2 = L8_2
   L12_2 = A2_2.pokedata
   L13_2 = A2_2
@@ -2644,13 +2581,10 @@ function L70_1(A0_2, A1_2, A2_2)
   return L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F19AA42226E02E090"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountOutbreakManager.F19AA42226E02E090
+function CF5708627F06AEA2A_prototype:F19AA42226E02E090(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L3_2 = L3_2.h
   L3_2 = L3_2[2]
   L4_2 = L42_1.tnull
@@ -2683,8 +2617,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L9_2 = CF5708627F06AEA2A
     L9_2 = L9_2.S4E3E20AD61F14266
     if L8_2 < L9_2 then
-      L10_2 = A0_2
-      L9_2 = A0_2.F3CC4A1292F2B4947
+      L10_2 = self
+      L9_2 = self.F3CC4A1292F2B4947
       L11_2 = L31_1.string
       L12_2 = L31_1.string
       L13_2 = L31_1.string
@@ -2736,7 +2670,7 @@ function L70_1(A0_2, A1_2, A2_2)
       return L9_2
     end
   end
-  L6_2 = A0_2[9]
+  L6_2 = self[9]
   L6_2 = L6_2.h
   L6_2 = L6_2[0]
   L7_2 = L42_1.tnull
@@ -2769,8 +2703,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L12_2 = CF5708627F06AEA2A
     L12_2 = L12_2.S4E3E20AD61F14266
     if L11_2 < L12_2 then
-      L13_2 = A0_2
-      L12_2 = A0_2.F3CC4A1292F2B4947
+      L13_2 = self
+      L12_2 = self.F3CC4A1292F2B4947
       L14_2 = L31_1.string
       L15_2 = L31_1.string
       L16_2 = L31_1.string
@@ -2826,11 +2760,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F8BC2D3B2BBFE6F25"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountOutbreakManager.F8BC2D3B2BBFE6F25
+function CF5708627F06AEA2A_prototype:F8BC2D3B2BBFE6F25(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S93A017D496A6D000
@@ -2860,8 +2791,8 @@ function L70_1(A0_2, A1_2)
   L7_2 = CF5708627F06AEA2A
   L7_2 = L7_2.S266D3F6388D940BE
   if L6_2 < L7_2 then
-    L8_2 = A0_2
-    L7_2 = A0_2.F3CC4A1292F2B4947
+    L8_2 = self
+    L7_2 = self.F3CC4A1292F2B4947
     L9_2 = L31_1.string
     L10_2 = L31_1.string
     L11_2 = L31_1.string
@@ -2916,11 +2847,8 @@ function L70_1(A0_2, A1_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F0AFE20D127570C9A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.encount.EncountOutbreakManager.F0AFE20D127570C9A
+function CF5708627F06AEA2A_prototype:F0AFE20D127570C9A(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L4_2 = c44F1402A
   L4_2 = L4_2.f5A60C406
@@ -2944,7 +2872,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L9_2 = L9_2.f81028232
     L10_2 = L6_2 - 1
     L9_2 = L9_2(L10_2)
-    L10_2 = A0_2[5]
+    L10_2 = self[5]
     L11_2 = L10_2
     L10_2 = L10_2.F654580D678C85C0E
     L12_2 = L9_2
@@ -2965,7 +2893,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L13_2 = CF5708627F06AEA2A
     L13_2 = L13_2.SF5483122D4ACA6C1
     if not (L12_2 > L13_2) then
-      L12_2 = A0_2[5]
+      L12_2 = self[5]
       L13_2 = L12_2
       L12_2 = L12_2.F3A696F8948953E85
       L12_2 = L12_2(L13_2)
@@ -2992,8 +2920,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L9_2 = CF5708627F06AEA2A
   L9_2 = L9_2.S422690F40809DE44
   if L4_2 < L9_2 then
-    L10_2 = A0_2
-    L9_2 = A0_2.F3CC4A1292F2B4947
+    L10_2 = self
+    L9_2 = self.F3CC4A1292F2B4947
     L11_2 = L31_1.string
     L12_2 = L31_1.string
     L13_2 = L31_1.string
@@ -3034,11 +2962,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F5E1607780C0675CB"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountOutbreakManager.F5E1607780C0675CB
+function CF5708627F06AEA2A_prototype:F5E1607780C0675CB(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L4_2 = A2_2
   L3_2 = A2_2.f2BF366A2
@@ -3090,11 +3015,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F59C1CF97D4FB009D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.encount.EncountOutbreakManager.CreateData
+function CF5708627F06AEA2A_prototype:F59C1CF97D4FB009D(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L5_2 = CEEA840FA8B531E93
   L5_2 = L5_2.new
@@ -3115,7 +3037,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L7_2 = L5_2[2]
   L8_2 = L5_2[2]
   L8_2 = L8_2[1]
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L9_2 = L9_2[20]
   L10_2 = L9_2
   L9_2 = L9_2.f52C8AF50
@@ -3132,7 +3054,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L7_2 = L5_2[2]
   L8_2 = L5_2[2]
   L8_2 = L8_2[3]
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L9_2 = L9_2[20]
   L10_2 = L9_2
   L9_2 = L9_2.f52C8AF50
@@ -3159,7 +3081,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2[7] = 0
   L7_2 = CF5708627F06AEA2A
   L7_2 = L7_2.S14745BCE2B05ED6D
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L8_2 = L8_2[20]
   L9_2 = L8_2
   L8_2 = L8_2.fDAAAA586
@@ -3199,17 +3121,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FF9F48844AC2DF708"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountOutbreakManager.FF9F48844AC2DF708
+function CF5708627F06AEA2A_prototype:FF9F48844AC2DF708(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L4_2 = A1_2
   L3_2 = A1_2.F18897A8A3027A9D8
   L3_2 = L3_2(L4_2)
   if L3_2 then
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L4_2 = L3_2
     L3_2 = L3_2.F3B83AB34E6D34983
     L5_2 = A2_2
@@ -3259,18 +3178,15 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FE463E17AC196A88B"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountOutbreakManager.FE463E17AC196A88B
+function CF5708627F06AEA2A_prototype:FE463E17AC196A88B(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F735145397AC4883E
+  L3_2 = self
+  L2_2 = self.F735145397AC4883E
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FF3822D55BFDC1525
+    L3_2 = self
+    L2_2 = self.FF3822D55BFDC1525
     L2_2 = L2_2(L3_2)
     if L2_2 then
       L2_2 = C5871932D02D179E6
@@ -3282,14 +3198,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FAA3FC7EF9FECECF4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountOutbreakManager.FAA3FC7EF9FECECF4
+function CF5708627F06AEA2A_prototype:FAA3FC7EF9FECECF4(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F66A3336EBD1E3962
+  L4_2 = self
+  L3_2 = self.F66A3336EBD1E3962
   L3_2 = L3_2(L4_2)
   if L3_2 then
     L4_2 = A1_2
@@ -3306,11 +3219,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F2CB091F5C3F0DEE9"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountOutbreakManager.OnNetwork_Start
+function CF5708627F06AEA2A_prototype:F2CB091F5C3F0DEE9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = c7A86676E
   L2_2 = L2_2.fE8E53DDE
@@ -3318,8 +3228,8 @@ function L70_1(A0_2, A1_2)
   if L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F3F26181E49086576
+  L3_2 = self
+  L2_2 = self.F3F26181E49086576
   L2_2(L3_2)
   L2_2 = CEEA840FA8B531E93
   L2_2 = L2_2.new
@@ -3328,8 +3238,8 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2.FC928A013A739C982
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FF9F48844AC2DF708
+  L4_2 = self
+  L3_2 = self.FF9F48844AC2DF708
   L5_2 = L2_2
   L7_2 = A1_2
   L6_2 = A1_2.fBF57EE1C
@@ -3338,19 +3248,19 @@ function L70_1(A0_2, A1_2)
   if not L3_2 then
     return
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F7B908267AF3E1934
+  L4_2 = self
+  L3_2 = self.F7B908267AF3E1934
   L6_2 = A1_2
   L5_2 = A1_2.fBF57EE1C
   L5_2 = L5_2(L6_2)
   L6_2 = true
-  L8_2 = A0_2
-  L7_2 = A0_2.FA3DD46A3BA6F61C5
+  L8_2 = self
+  L7_2 = self.FA3DD46A3BA6F61C5
   L9_2 = L2_2[10]
   L7_2, L8_2, L9_2 = L7_2(L8_2, L9_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FFE939D394D082B0A
+  L5_2 = self
+  L4_2 = self.FFE939D394D082B0A
   L4_2 = L4_2(L5_2)
   if L4_2 then
     L4_2 = C5871932D02D179E6
@@ -3365,11 +3275,8 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F8D60382D361E11D8"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountOutbreakManager.OnNetwork_End
+function CF5708627F06AEA2A_prototype:F8D60382D361E11D8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = c7A86676E
   L2_2 = L2_2.fE8E53DDE
@@ -3377,8 +3284,8 @@ function L70_1(A0_2, A1_2)
   if L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F8D20E57D672BE01A
+  L3_2 = self
+  L2_2 = self.F8D20E57D672BE01A
   L5_2 = A1_2
   L4_2 = A1_2.f9B1CC5FE
   L4_2 = L4_2(L5_2)
@@ -3393,14 +3300,11 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FD974A236A5B54BE8"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountOutbreakManager.OnNetwork_Increment
+function CF5708627F06AEA2A_prototype:FD974A236A5B54BE8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F568920C7F9838B69
+  L3_2 = self
+  L2_2 = self.F568920C7F9838B69
   L5_2 = A1_2
   L4_2 = A1_2.fBF57EE1C
   L4_2 = L4_2(L5_2)
@@ -3410,35 +3314,32 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FDF97F8BF96A3D416"
-
-function L70_1(A0_2)
+--- main.encount.EncountOutbreakManager.ChangeToMultimode
+function CF5708627F06AEA2A_prototype:FDF97F8BF96A3D416()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c7C2CBD95
   L1_2 = L1_2.fF982E42A
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F2CB091F5C3F0DEE9
+  L3_2 = self
+  L4_2 = self.F2CB091F5C3F0DEE9
   L2_2, L3_2, L4_2, L5_2, L6_2 = L2_2(L3_2, L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
   L1_2 = c7C2CBD95
   L1_2 = L1_2.f84D5CC11
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F8D60382D361E11D8
+  L3_2 = self
+  L4_2 = self.F8D60382D361E11D8
   L2_2, L3_2, L4_2, L5_2, L6_2 = L2_2(L3_2, L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
   L1_2 = c7C2CBD95
   L1_2 = L1_2.fF4D54449
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.FD974A236A5B54BE8
+  L3_2 = self
+  L4_2 = self.FD974A236A5B54BE8
   L2_2, L3_2, L4_2, L5_2, L6_2 = L2_2(L3_2, L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  A0_2[4] = true
-  L1_2 = A0_2[9]
+  self[4] = true
+  L1_2 = self[9]
   L1_2 = L1_2.h
   L1_2 = L1_2[3]
   L2_2 = L42_1.tnull
@@ -3462,7 +3363,7 @@ function L70_1(A0_2)
     L3_2 = L3_2.clear
     L3_2(L4_2)
   end
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L3_2 = L3_2.h
   L3_2 = L3_2[1]
   L4_2 = L42_1.tnull
@@ -3486,18 +3387,15 @@ function L70_1(A0_2)
     L5_2 = L5_2.clear
     L5_2(L6_2)
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F3F26181E49086576
+  L6_2 = self
+  L5_2 = self.F3F26181E49086576
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FB30E965C6D1C9990"
-
-function L70_1(A0_2)
+--- main.encount.EncountOutbreakManager.DispatchOutbreak
+function CF5708627F06AEA2A_prototype:FB30E965C6D1C9990()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = c7A86676E
   L2_2 = L2_2.fE8E53DDE
   L2_2 = L2_2()
@@ -3560,11 +3458,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FDCCDAF4C1D58AECA"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountOutbreakManager.CheckOutbreakZone
+function CF5708627F06AEA2A_prototype:FDCCDAF4C1D58AECA(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   
   function L2_2(A0_3)
@@ -3600,8 +3495,8 @@ function L70_1(A0_2, A1_2)
   end
   
   L3_2 = L2_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F7B908267AF3E1934
+  L5_2 = self
+  L4_2 = self.F7B908267AF3E1934
   L6_2 = nil
   L7_2 = nil
   L8_2 = true
@@ -3609,8 +3504,8 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
   if nil == L3_2 then
     L4_2 = L2_2
-    L6_2 = A0_2
-    L5_2 = A0_2.F7B908267AF3E1934
+    L6_2 = self
+    L5_2 = self.F7B908267AF3E1934
     L7_2 = nil
     L8_2 = nil
     L9_2 = false
@@ -3621,28 +3516,25 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F7B908267AF3E1934"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.encount.EncountOutbreakManager.GetOutbreakData
+function CF5708627F06AEA2A_prototype:F7B908267AF3E1934(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2
   if nil == A3_2 then
     A3_2 = false
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F6870CDE7E0FE5D29
+  L5_2 = self
+  L4_2 = self.F6870CDE7E0FE5D29
   L6_2 = A1_2
   L4_2 = L4_2(L5_2, L6_2)
   A1_2 = L4_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FDFDAA97A83DAEF00
+  L5_2 = self
+  L4_2 = self.FDFDAA97A83DAEF00
   L6_2 = A2_2
   L4_2 = L4_2(L5_2, L6_2)
   A2_2 = L4_2
   if A3_2 then
     if A2_2 then
-      L4_2 = A0_2[9]
+      L4_2 = self[9]
       L4_2 = L4_2.h
       L4_2 = L4_2[3]
       L5_2 = L42_1.tnull
@@ -3657,7 +3549,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       end
       return L5_2
     else
-      L4_2 = A0_2[9]
+      L4_2 = self[9]
       L4_2 = L4_2.h
       L4_2 = L4_2[2]
       L5_2 = L42_1.tnull
@@ -3673,7 +3565,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       return L5_2
     end
   elseif A2_2 then
-    L4_2 = A0_2[9]
+    L4_2 = self[9]
     L4_2 = L4_2.h
     L4_2 = L4_2[1]
     L5_2 = L42_1.tnull
@@ -3688,7 +3580,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
     return L5_2
   else
-    L4_2 = A0_2[9]
+    L4_2 = self[9]
     L4_2 = L4_2.h
     L4_2 = L4_2[0]
     L5_2 = L42_1.tnull
@@ -3705,11 +3597,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FF73387FCCE6B5205"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.encount.EncountOutbreakManager.FF73387FCCE6B5205
+function CF5708627F06AEA2A_prototype:FF73387FCCE6B5205(A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A2_2 then
     L7_2 = CFC8F368D91411014
@@ -3727,13 +3616,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
     L10_2[3] = L13_2
     A2_2 = L10_2
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.F6870CDE7E0FE5D29
+  L8_2 = self
+  L7_2 = self.F6870CDE7E0FE5D29
   L9_2 = A3_2
   L7_2 = L7_2(L8_2, L9_2)
   A3_2 = L7_2
-  L8_2 = A0_2
-  L7_2 = A0_2.FDFDAA97A83DAEF00
+  L8_2 = self
+  L7_2 = self.FDFDAA97A83DAEF00
   L9_2 = A4_2
   L7_2 = L7_2(L8_2, L9_2)
   A4_2 = L7_2
@@ -3774,8 +3663,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   
   L10_2 = nil
   if A5_2 == L10_2 then
-    L12_2 = A0_2
-    L11_2 = A0_2.F7B908267AF3E1934
+    L12_2 = self
+    L11_2 = self.F7B908267AF3E1934
     L13_2 = A3_2
     L14_2 = A4_2
     L15_2 = true
@@ -3788,8 +3677,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
     L11_2 = L11_2.map
     L13_2 = L8_2
     L11_2(L12_2, L13_2)
-    L12_2 = A0_2
-    L11_2 = A0_2.F7B908267AF3E1934
+    L12_2 = self
+    L11_2 = self.F7B908267AF3E1934
     L13_2 = A3_2
     L14_2 = A4_2
     L15_2 = false
@@ -3803,13 +3692,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
     L13_2 = L8_2
     L11_2(L12_2, L13_2)
   end
-  L12_2 = A0_2
-  L11_2 = A0_2.FA3DD46A3BA6F61C5
+  L12_2 = self
+  L11_2 = self.FA3DD46A3BA6F61C5
   L13_2 = A5_2
   L11_2 = L11_2(L12_2, L13_2)
   if not L11_2 then
-    L12_2 = A0_2
-    L11_2 = A0_2.F7B908267AF3E1934
+    L12_2 = self
+    L11_2 = self.F7B908267AF3E1934
     L13_2 = A3_2
     L14_2 = A4_2
     L15_2 = false
@@ -3832,8 +3721,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
       return L1_3
     end
     
-    L13_2 = A0_2
-    L12_2 = A0_2.F7B908267AF3E1934
+    L13_2 = self
+    L12_2 = self.F7B908267AF3E1934
     L14_2 = A3_2
     L15_2 = A4_2
     L16_2 = true
@@ -3861,21 +3750,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   return L11_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F8D20E57D672BE01A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.encount.EncountOutbreakManager.DeleteData
+function CF5708627F06AEA2A_prototype:F8D20E57D672BE01A(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A2_2 then
     A2_2 = true
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.FA3DD46A3BA6F61C5
+  L7_2 = self
+  L6_2 = self.FA3DD46A3BA6F61C5
   L8_2 = A5_2
   L6_2 = L6_2(L7_2, L8_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F7B908267AF3E1934
+  L8_2 = self
+  L7_2 = self.F7B908267AF3E1934
   L9_2 = A3_2
   L10_2 = A4_2
   L11_2 = L6_2
@@ -3895,20 +3781,20 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     end
     if L11_2 == A1_2 then
       if A2_2 then
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         if L11_2 <= 0 then
           L11_2 = C5871932D02D179E6
           L11_2 = L11_2.SCF8651A15BD005FA
           L12_2 = 40
           L13_2 = L10_2[4]
           L11_2(L12_2, L13_2)
-          L12_2 = A0_2
-          L11_2 = A0_2.F06244184146DBED5
+          L12_2 = self
+          L11_2 = self.F06244184146DBED5
           L11_2(L12_2)
         end
       end
-      L12_2 = A0_2
-      L11_2 = A0_2.F66A3336EBD1E3962
+      L12_2 = self
+      L11_2 = self.F66A3336EBD1E3962
       L11_2 = L11_2(L12_2)
       if L11_2 then
         L12_2 = L10_2
@@ -3942,16 +3828,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F8E695027041DA6EC"
-
-function L70_1(A0_2)
+--- main.encount.EncountOutbreakManager.F8E695027041DA6EC
+function CF5708627F06AEA2A_prototype:F8E695027041DA6EC()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F735145397AC4883E
+  L2_2 = self
+  L1_2 = self.F735145397AC4883E
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   L2_2 = L2_2.h
   L2_2 = L2_2[2]
   L3_2 = L42_1.tnull
@@ -3991,8 +3874,8 @@ function L70_1(A0_2)
     while nil ~= L8_2 do
       L9_2 = L8_2.item
       L8_2 = L8_2.next
-      L11_2 = A0_2
-      L10_2 = A0_2.F8D20E57D672BE01A
+      L11_2 = self
+      L10_2 = self.F8D20E57D672BE01A
       L12_2 = L9_2[4]
       L13_2 = L1_2
       L14_2 = L7_2
@@ -4002,7 +3885,7 @@ function L70_1(A0_2)
       L1_2 = false
     end
   end
-  L5_2 = A0_2[9]
+  L5_2 = self[9]
   L5_2 = L5_2.h
   L5_2 = L5_2[0]
   L6_2 = L42_1.tnull
@@ -4042,8 +3925,8 @@ function L70_1(A0_2)
     while nil ~= L11_2 do
       L12_2 = L11_2.item
       L11_2 = L11_2.next
-      L14_2 = A0_2
-      L13_2 = A0_2.F8D20E57D672BE01A
+      L14_2 = self
+      L13_2 = self.F8D20E57D672BE01A
       L15_2 = L12_2[4]
       L16_2 = L1_2
       L17_2 = L10_2
@@ -4055,13 +3938,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F654D1824A9F1DB22"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.encount.EncountOutbreakManager.F654D1824A9F1DB22
+function CF5708627F06AEA2A_prototype:F654D1824A9F1DB22(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L5_2 = A0_2
+  L5_2 = self
   
   function L6_2(A0_3, A1_3, A2_3, A3_3)
     local L4_3, L5_3, L6_3, L7_3, L8_3, L9_3, L10_3, L11_3, L12_3
@@ -4127,12 +4007,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     end
   end
   
-  L8_2 = A0_2
-  L7_2 = A0_2.FF73387FCCE6B5205
+  L8_2 = self
+  L7_2 = self.FF73387FCCE6B5205
   L9_2 = A1_2
   L10_2 = A2_2
-  L12_2 = A0_2
-  L11_2 = A0_2.F6870CDE7E0FE5D29
+  L12_2 = self
+  L11_2 = self.F6870CDE7E0FE5D29
   L13_2 = A3_2
   L11_2 = L11_2(L12_2, L13_2)
   L12_2 = false
@@ -4141,13 +4021,10 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F568920C7F9838B69"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountOutbreakManager.F568920C7F9838B69
+function CF5708627F06AEA2A_prototype:F568920C7F9838B69(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L3_2 = A0_2
+  L3_2 = self
   
   function L4_2(A0_3, A1_3, A2_3, A3_3)
     local L4_3, L5_3, L6_3, L7_3, L8_3, L9_3, L10_3, L11_3, L12_3, L13_3, L14_3
@@ -4202,8 +4079,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L9_3(L10_3, L11_3, L12_3, L13_3, L14_3)
   end
   
-  L6_2 = A0_2
-  L5_2 = A0_2.FF73387FCCE6B5205
+  L6_2 = self
+  L5_2 = self.FF73387FCCE6B5205
   L7_2 = nil
   L8_2 = nil
   L9_2 = A1_2
@@ -4213,11 +4090,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F7A69AE2B99E3154E"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.encount.EncountOutbreakManager.F7A69AE2B99E3154E
+function CF5708627F06AEA2A_prototype:F7A69AE2B99E3154E(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L5_2 = A4_2
   L6_2 = L5_2 - A2_2
@@ -4283,14 +4157,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FE1380487ABA13B34"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.encount.EncountOutbreakManager.FE1380487ABA13B34
+function CF5708627F06AEA2A_prototype:FE1380487ABA13B34(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FF73387FCCE6B5205
+  L5_2 = self
+  L4_2 = self.FF73387FCCE6B5205
   L6_2 = A1_2
   L7_2 = A3_2
   L8_2 = nil
@@ -4331,11 +4202,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F6870CDE7E0FE5D29"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountOutbreakManager.F6870CDE7E0FE5D29
+function CF5708627F06AEA2A_prototype:F6870CDE7E0FE5D29(A1_2)
   local L2_2
   if nil == A1_2 then
     L2_2 = C8F93126DACB9F8DD
@@ -4348,59 +4216,41 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FDFDAA97A83DAEF00"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountOutbreakManager.FDFDAA97A83DAEF00
+function CF5708627F06AEA2A_prototype:FDFDAA97A83DAEF00(A1_2)
   local L2_2, L3_2
   if nil == A1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F649451D4B4318701
+    L3_2 = self
+    L2_2 = self.F649451D4B4318701
     return L2_2(L3_2)
   else
     return A1_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FA3DD46A3BA6F61C5"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountOutbreakManager.FA3DD46A3BA6F61C5
+function CF5708627F06AEA2A_prototype:FA3DD46A3BA6F61C5(A1_2)
   local L2_2
   L2_2 = 0 ~= A1_2
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F9F84495875FAAF78"
-
-function L70_1(A0_2)
+--- main.encount.EncountOutbreakManager.F9F84495875FAAF78
+function CF5708627F06AEA2A_prototype:F9F84495875FAAF78()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "FF05D2D2904559574"
-
-function L70_1(A0_2)
+--- main.encount.EncountOutbreakManager.FF05D2D2904559574
+function CF5708627F06AEA2A_prototype:FF05D2D2904559574()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F3CC4A1292F2B4947"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountOutbreakManager.DumpLog
+function CF5708627F06AEA2A_prototype:F3CC4A1292F2B4947(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5708627F06AEA2A"]["prototype"]
-L69_1 = "F3516262E81CDB055"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountOutbreakManager.F3516262E81CDB055
+function CF5708627F06AEA2A_prototype:F3516262E81CDB055(A1_2)
   local L2_2
   L2_2 = ""
   return L2_2

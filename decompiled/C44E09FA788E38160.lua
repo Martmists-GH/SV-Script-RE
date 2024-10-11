@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C44E09FA788E38160"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C44E09FA788E38160"]
-L69_1 = "new"
+---@alias C44E09FA788E38160 main_nushi_hagane_HaganeNushiBattleEventPoint
 
-function L70_1(A0_2)
+---@class main_nushi_hagane_HaganeNushiBattleEventPoint : C44E09FA788E38160_prototype
+---@field prototype C44E09FA788E38160_prototype
+C44E09FA788E38160 = L15_1()
+function C44E09FA788E38160.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C44E09FA788E38160
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44E09FA788E38160"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C44E09FA788E38160
+function C44E09FA788E38160.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = {}
   L3_2 = 0
@@ -51,11 +45,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C44E09FA788E38160"]
 L69_1 = "__name__"
 L70_1 = "C44E09FA788E38160"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44E09FA788E38160"]
-L69_1 = "SE3C74A9711D97D58"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.nushi.hagane.HaganeNushiBattleEventPoint.OnContactTriggerFunction
+function C44E09FA788E38160.SE3C74A9711D97D58(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L7_2 = A0_2
   L6_2 = A0_2.fB3CF1DEB
@@ -105,24 +96,19 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44E09FA788E38160"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44E09FA788E38160"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2, A1_2)
+---@class C44E09FA788E38160_prototype
+C44E09FA788E38160_prototype = L15_1()
+C44E09FA788E38160.prototype = C44E09FA788E38160_prototype
+--- main.nushi.hagane.HaganeNushiBattleEventPoint.Init
+function C44E09FA788E38160_prototype:F90BBC6B0190BF053(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FF007675641C7FCA1
+  L3_2 = self
+  L2_2 = self.FF007675641C7FCA1
   L4_2 = false
   L2_2(L3_2, L4_2)
   L2_2 = cACBFA004
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f317EB6F9
@@ -132,18 +118,18 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = c7C4EA23C
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[13] = L2_2
-  L2_2 = A0_2[13]
+  self[13] = L2_2
+  L2_2 = self[13]
   L3_2 = L2_2
   L2_2 = L2_2.f0D6520E6
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f033BDCFE
   L2_2 = L2_2(L3_2)
-  A0_2[11] = L2_2
-  L2_2 = A0_2[1]
+  self[11] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f7360ED03
   L2_2, L3_2, L4_2 = L2_2(L3_2)
@@ -154,8 +140,8 @@ function L70_1(A0_2, A1_2)
   L5_2[1] = L6_2
   L5_2[2] = L7_2
   L5_2[3] = L8_2
-  A0_2[12] = L5_2
-  L5_2 = A0_2[1]
+  self[12] = L5_2
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f5439788F
   L7_2 = "e_nushisteel_ground_hole03"
@@ -192,37 +178,28 @@ function L70_1(A0_2, A1_2)
   L6_2 = L6_2.fB41FD22F
   L7_2 = L5_2
   L6_2 = L6_2(L7_2)
-  A0_2[14] = L6_2
+  self[14] = L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44E09FA788E38160"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.hagane.HaganeNushiBattleEventPoint.Update
+function C44E09FA788E38160_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F326A97E929444F56
+  L3_2 = self
+  L2_2 = self.F326A97E929444F56
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44E09FA788E38160"]["prototype"]
-L69_1 = "F326A97E929444F56"
-
-function L70_1(A0_2)
+--- main.nushi.hagane.HaganeNushiBattleEventPoint.DebugGizmo
+function C44E09FA788E38160_prototype:F326A97E929444F56()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44E09FA788E38160"]["prototype"]
-L69_1 = "FDE4234535432A011"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.hagane.HaganeNushiBattleEventPoint.IsVisible
+function C44E09FA788E38160_prototype:FDE4234535432A011(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if A1_2 then
-    L2_2 = A0_2[12]
-    L3_2 = A0_2[1]
+    L2_2 = self[12]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f8F2B0552
     L5_2 = L2_2[1]
@@ -230,7 +207,7 @@ function L70_1(A0_2, A1_2)
     L7_2 = L2_2[3]
     L3_2(L4_2, L5_2, L6_2, L7_2)
   else
-    L2_2 = A0_2[12]
+    L2_2 = self[12]
     L3_2 = {}
     L4_2 = L2_2[1]
     L4_2 = L4_2 - 0
@@ -241,7 +218,7 @@ function L70_1(A0_2, A1_2)
     L3_2[1] = L4_2
     L3_2[2] = L5_2
     L3_2[3] = L6_2
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.f8F2B0552
     L6_2 = L3_2[1]
@@ -251,32 +228,26 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44E09FA788E38160"]["prototype"]
-L69_1 = "FF26C9795A8BCFC72"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.hagane.HaganeNushiBattleEventPoint.IsPhysics
+function C44E09FA788E38160_prototype:FF26C9795A8BCFC72(A1_2)
   local L2_2, L3_2
   if A1_2 then
-    L2_2 = A0_2[13]
+    L2_2 = self[13]
     L3_2 = L2_2
     L2_2 = L2_2.fBED4B947
     L2_2(L3_2)
   else
-    L2_2 = A0_2[13]
+    L2_2 = self[13]
     L3_2 = L2_2
     L2_2 = L2_2.fCE4317E9
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44E09FA788E38160"]["prototype"]
-L69_1 = "F4CBA751D2ECF3CFE"
-
-function L70_1(A0_2)
+--- main.nushi.hagane.HaganeNushiBattleEventPoint.GetAppearanceLongEffect
+function C44E09FA788E38160_prototype:F4CBA751D2ECF3CFE()
   local L1_2
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   return L1_2
 end
 

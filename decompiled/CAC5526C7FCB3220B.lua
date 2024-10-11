@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CAC5526C7FCB3220B"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CAC5526C7FCB3220B"]
-L69_1 = "new"
+---@alias CAC5526C7FCB3220B main_event_base_common_EventBgObjectState
 
-function L70_1(A0_2)
+---@class main_event_base_common_EventBgObjectState : CAC5526C7FCB3220B_prototype
+---@field prototype CAC5526C7FCB3220B_prototype
+CAC5526C7FCB3220B = L15_1()
+function CAC5526C7FCB3220B.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CAC5526C7FCB3220B
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC5526C7FCB3220B"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CAC5526C7FCB3220B
+function CAC5526C7FCB3220B.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L43_1.new
   L2_2 = L2_2()
@@ -48,11 +42,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CAC5526C7FCB3220B"]
 L69_1 = "__name__"
 L70_1 = "CAC5526C7FCB3220B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC5526C7FCB3220B"]
-L69_1 = "SA542232677361537"
-
-function L70_1(A0_2)
+--- main.event.base.common.EventBgObjectState.Get
+function CAC5526C7FCB3220B.SA542232677361537(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L2_2 = A0_2
   L1_2 = A0_2.f5439788F
@@ -83,106 +74,95 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC5526C7FCB3220B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC5526C7FCB3220B"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CAC5526C7FCB3220B_prototype
+CAC5526C7FCB3220B_prototype = L15_1()
+CAC5526C7FCB3220B.prototype = CAC5526C7FCB3220B_prototype
+--- main.event.base.common.EventBgObjectState.Setup
+function CAC5526C7FCB3220B_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f5B268E4E
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
-  L2_2 = A0_2[2]
+  self[2] = L2_2
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.fE9C29DA1
   L2_2 = L2_2(L3_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L2_2 = c8E7BA6E5
   L2_2 = L2_2.f29E325EC
   L3_2 = c8E7BA6E5
   L3_2 = L3_2.f7CBB4838
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = 0
   L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2, L5_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
   L2_2 = C33B3066BCFFA12E2
   L2_2 = L2_2.S032897EBFF9CC1F2
   L3_2 = L2_2
   L2_2 = L2_2.F89A45747518C0238
-  L4_2 = A0_2
+  L4_2 = self
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.add
   L4_2 = C1940279469EBA94B
   L4_2 = L4_2.new
-  L5_2 = A0_2[2]
-  L6_2 = A0_2[5]
+  L5_2 = self[2]
+  L6_2 = self[5]
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = C85D45576C79404E5
   L2_2 = L2_2.SCB056E061B37CE58
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L3_2 = L2_2
     L2_2 = L2_2.add
     L4_2 = C85D45576C79404E5
     L4_2 = L4_2.new
-    L5_2 = A0_2[2]
-    L6_2 = A0_2[5]
+    L5_2 = self[2]
+    L6_2 = self[5]
     L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
     L2_2(L3_2, L4_2, L5_2, L6_2)
   end
   L2_2 = C9C97DF0BD8F60B77
   L2_2 = L2_2.SCB056E061B37CE58
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L3_2 = L2_2
     L2_2 = L2_2.add
     L4_2 = C9C97DF0BD8F60B77
     L4_2 = L4_2.new
-    L5_2 = A0_2[2]
-    L6_2 = A0_2[5]
+    L5_2 = self[2]
+    L6_2 = self[5]
     L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
     L2_2(L3_2, L4_2, L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC5526C7FCB3220B"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.event.base.common.EventBgObjectState.Destroy
+function CAC5526C7FCB3220B_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2
   L1_2 = C33B3066BCFFA12E2
   L1_2 = L1_2.S032897EBFF9CC1F2
   L2_2 = L1_2
   L1_2 = L1_2.F3CC990DA6C6A7C4A
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC5526C7FCB3220B"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.common.EventBgObjectState.PreUpdate
+function CAC5526C7FCB3220B_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if not L2_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L2_2 = L2_2.h
     while nil ~= L2_2 do
       L3_2 = L2_2.item
@@ -191,89 +171,83 @@ function L70_1(A0_2, A1_2)
       L4_2 = L3_2.F7C68FEDB79AB6396
       L4_2 = L4_2(L5_2)
       if L4_2 then
-        L4_2 = A0_2[6]
+        L4_2 = self[6]
         L5_2 = L4_2
         L4_2 = L4_2.remove
         L6_2 = L3_2
         L4_2(L5_2, L6_2)
       end
     end
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L4_2 = L3_2
     L3_2 = L3_2.isEmpty
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F91597B0F76E8CFED
+      L4_2 = self
+      L3_2 = self.F91597B0F76E8CFED
       L3_2(L4_2)
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC5526C7FCB3220B"]["prototype"]
-L69_1 = "F28EAF3B3AA178E3E"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.common.EventBgObjectState.ChangeState
+function CAC5526C7FCB3220B_prototype:F28EAF3B3AA178E3E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  A0_2[5] = A1_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F8067DF69C88ABDC9
+  self[5] = A1_2
+  L3_2 = self
+  L2_2 = self.F8067DF69C88ABDC9
   L4_2 = C1940279469EBA94B
   L4_2 = L4_2.new
-  L5_2 = A0_2[2]
-  L6_2 = A0_2[5]
+  L5_2 = self[2]
+  L6_2 = self[5]
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = C1940279469EBA94B
   L2_2(L3_2, L4_2, L5_2)
   L2_2 = C85D45576C79404E5
   L2_2 = L2_2.SCB056E061B37CE58
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F8067DF69C88ABDC9
+    L3_2 = self
+    L2_2 = self.F8067DF69C88ABDC9
     L4_2 = C85D45576C79404E5
     L4_2 = L4_2.new
-    L5_2 = A0_2[2]
-    L6_2 = A0_2[5]
+    L5_2 = self[2]
+    L6_2 = self[5]
     L4_2 = L4_2(L5_2, L6_2)
     L5_2 = C85D45576C79404E5
     L2_2(L3_2, L4_2, L5_2)
   end
   L2_2 = C9C97DF0BD8F60B77
   L2_2 = L2_2.SCB056E061B37CE58
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F8067DF69C88ABDC9
+    L3_2 = self
+    L2_2 = self.F8067DF69C88ABDC9
     L4_2 = C9C97DF0BD8F60B77
     L4_2 = L4_2.new
-    L5_2 = A0_2[2]
-    L6_2 = A0_2[5]
+    L5_2 = self[2]
+    L6_2 = self[5]
     L4_2 = L4_2(L5_2, L6_2)
     L5_2 = C9C97DF0BD8F60B77
     L2_2(L3_2, L4_2, L5_2)
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.isEmpty
   L2_2 = L2_2(L3_2)
   if not L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F76198832D282940A
+    L3_2 = self
+    L2_2 = self.F76198832D282940A
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC5526C7FCB3220B"]["prototype"]
-L69_1 = "F8067DF69C88ABDC9"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.base.common.EventBgObjectState.F8067DF69C88ABDC9
+function CAC5526C7FCB3220B_prototype:F8067DF69C88ABDC9(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L3_2 = L3_2.h
   while nil ~= L3_2 do
     L4_2 = L3_2.item
@@ -283,7 +257,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L7_2 = A2_2
     L5_2 = L5_2(L6_2, L7_2)
     if L5_2 then
-      L5_2 = A0_2[6]
+      L5_2 = self[6]
       L6_2 = L5_2
       L5_2 = L5_2.remove
       L7_2 = L4_2
@@ -295,7 +269,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = A1_2.F7C68FEDB79AB6396
   L4_2 = L4_2(L5_2)
   if not L4_2 then
-    L4_2 = A0_2[6]
+    L4_2 = self[6]
     L5_2 = L4_2
     L4_2 = L4_2.add
     L6_2 = A1_2
@@ -303,38 +277,32 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC5526C7FCB3220B"]["prototype"]
-L69_1 = "F76198832D282940A"
-
-function L70_1(A0_2)
+--- main.event.base.common.EventBgObjectState.F76198832D282940A
+function CAC5526C7FCB3220B_prototype:F76198832D282940A()
   local L1_2, L2_2, L3_2
   L1_2 = cCF781FB6
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.fC9F06BB8
   L3_2 = 0
   L1_2(L2_2, L3_2)
-  A0_2[4] = false
+  self[4] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC5526C7FCB3220B"]["prototype"]
-L69_1 = "F91597B0F76E8CFED"
-
-function L70_1(A0_2)
+--- main.event.base.common.EventBgObjectState.F91597B0F76E8CFED
+function CAC5526C7FCB3220B_prototype:F91597B0F76E8CFED()
   local L1_2, L2_2, L3_2
   L1_2 = cCF781FB6
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.f71FAA9DF
   L3_2 = true
   L1_2(L2_2, L3_2)
-  A0_2[4] = true
+  self[4] = true
 end
 
 L68_1[L69_1] = L70_1

@@ -1,3 +1,5 @@
+---@class CEAB798A575C25957 : CEAB798A575C25957_prototype
+---@field prototype CEAB798A575C25957_prototype
 L55_1 = _ENV
 L56_1 = "CEAB798A575C25957"
 L57_1 = L15_1
@@ -45,16 +47,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CEAB798A575C25957"]
 L69_1 = "__name__"
 L70_1 = "CEAB798A575C25957"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB798A575C25957"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB798A575C25957"]["prototype"]
-L69_1 = "F46013EC08BDF7153"
-
-function L70_1(A0_2)
+---@class CEAB798A575C25957_prototype
+CEAB798A575C25957_prototype = L15_1()
+CEAB798A575C25957.prototype = CEAB798A575C25957_prototype
+--- CEAB798A575C25957.Entry
+function CEAB798A575C25957_prototype:F46013EC08BDF7153()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S44577E0D8E8F3819
@@ -86,15 +83,12 @@ function L70_1(A0_2)
   end
   L3_2 = CF1D9D619D324F233
   L3_2 = L3_2.S4FAFEA784668D159
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB798A575C25957"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- CEAB798A575C25957.Update
+function CEAB798A575C25957_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S2E218A7B9B949ADA
@@ -112,7 +106,7 @@ function L70_1(A0_2)
     L2_2 = L2_2.SC6181320B46854EE
     L3_2 = "SET_STATE_GAME_CYCLE_WAZA"
     L2_2(L3_2)
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F28EAF3B3AA178E3E
     L4_2 = CA5B0A01E53956BAF
@@ -125,7 +119,7 @@ function L70_1(A0_2)
     L2_2 = L2_2.SC6181320B46854EE
     L3_2 = "SET_STATE_GAME_CYCLE_WAZA"
     L2_2(L3_2)
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F28EAF3B3AA178E3E
     L4_2 = CA7EB8F2321733B61
@@ -134,7 +128,7 @@ function L70_1(A0_2)
     L2_2(L3_2, L4_2)
     return
   elseif 2 == L1_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F28EAF3B3AA178E3E
     L4_2 = C0D09798123D2343E
@@ -143,12 +137,12 @@ function L70_1(A0_2)
     L2_2(L3_2, L4_2)
     return
   elseif 3 == L1_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.FE1428A018FFD8182
     L4_2 = true
     L2_2(L3_2, L4_2)
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F28EAF3B3AA178E3E
     L4_2 = C3071A56DB3D315C8
@@ -163,11 +157,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEAB798A575C25957"]["prototype"]
-L69_1 = "F2C02645014D5A2A5"
-
-function L70_1(A0_2)
+--- CEAB798A575C25957.Exit
+function CEAB798A575C25957_prototype:F2C02645014D5A2A5()
   local L1_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S44577E0D8E8F3819

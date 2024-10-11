@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C1A33E075C650D36C"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C1A33E075C650D36C"]
-L69_1 = "new"
+---@alias C1A33E075C650D36C main_field_gimmick_hidden_item_HiddenItemTable
 
-function L70_1(A0_2)
+---@class main_field_gimmick_hidden_item_HiddenItemTable : C1A33E075C650D36C_prototype
+---@field prototype C1A33E075C650D36C_prototype
+C1A33E075C650D36C = L15_1()
+function C1A33E075C650D36C.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C1A33E075C650D36C
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1A33E075C650D36C"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C1A33E075C650D36C
+function C1A33E075C650D36C.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L47_1.new
   L2_2 = L2_2()
@@ -128,11 +122,7 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1A33E075C650D36C"]
-L69_1 = "__name__"
-L70_1 = "C1A33E075C650D36C"
-L68_1[L69_1] = L70_1
+C1A33E075C650D36C.__name__ = "C1A33E075C650D36C"
 L68_1 = _ENV["C1A33E075C650D36C"]
 L69_1 = "S1B46681C3E6B316B"
 
@@ -142,25 +132,20 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1A33E075C650D36C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1A33E075C650D36C"]["prototype"]
-L69_1 = "FCA2E495BAE69A56E"
-
-function L70_1(A0_2, A1_2)
+---@class C1A33E075C650D36C_prototype
+C1A33E075C650D36C_prototype = L15_1()
+C1A33E075C650D36C.prototype = C1A33E075C650D36C_prototype
+--- main.field.gimmick.hidden_item.HiddenItemTable.RouletteHiddenItem
+function C1A33E075C650D36C_prototype:FCA2E495BAE69A56E(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   if nil == L2_2 then
     L2_2 = nil
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L47_1.tnull
@@ -184,18 +169,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1A33E075C650D36C"]["prototype"]
-L69_1 = "F3D084DA220C9C7C2"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.gimmick.hidden_item.HiddenItemTable.GetTableItem
+function C1A33E075C650D36C_prototype:F3D084DA220C9C7C2(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L3_2 = nil
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2.h
   L4_2 = L4_2[A1_2]
   if nil ~= L4_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L4_2 = L4_2.h
     L4_2 = L4_2[A1_2]
     L5_2 = L47_1.tnull
@@ -214,7 +196,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = nil
   L5_2 = 0.0
   L6_2 = 0
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L7_2 = L7_2.h
   L7_2 = L7_2[A1_2]
   L8_2 = L47_1.tnull
@@ -235,7 +217,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L9_2 = L5_2 * A2_2
   L10_2 = 0.0
   L11_2 = 0
-  L12_2 = A0_2[1]
+  L12_2 = self[1]
   L12_2 = L12_2.h
   L12_2 = L12_2[A1_2]
   L13_2 = L47_1.tnull
@@ -258,14 +240,14 @@ function L70_1(A0_2, A1_2, A2_2)
     end
   end
   if nil == L4_2 then
-    L14_2 = A0_2[1]
+    L14_2 = self[1]
     L14_2 = L14_2.h
     L14_2 = L14_2[A1_2]
     L15_2 = L47_1.tnull
     if L14_2 == L15_2 then
       L14_2 = nil
     end
-    L15_2 = A0_2[1]
+    L15_2 = self[1]
     L15_2 = L15_2.h
     L15_2 = L15_2[A1_2]
     L16_2 = L47_1.tnull

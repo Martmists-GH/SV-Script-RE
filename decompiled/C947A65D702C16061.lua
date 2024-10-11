@@ -1,3 +1,5 @@
+---@class C947A65D702C16061 : C947A65D702C16061_prototype
+---@field prototype C947A65D702C16061_prototype
 L55_1 = _ENV
 L56_1 = "C947A65D702C16061"
 L57_1 = L15_1
@@ -41,29 +43,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C947A65D702C16061"]
 L69_1 = "__name__"
 L70_1 = "C947A65D702C16061"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C947A65D702C16061"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C947A65D702C16061"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2)
+---@class C947A65D702C16061_prototype
+C947A65D702C16061_prototype = L15_1()
+C947A65D702C16061.prototype = C947A65D702C16061_prototype
+--- C947A65D702C16061.Reset
+function C947A65D702C16061_prototype:F96EA28F400597FA0()
   local L1_2
-  A0_2[6] = 0.0
-  A0_2[7] = 0.0
+  self[6] = 0.0
+  self[7] = 0.0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C947A65D702C16061"]["prototype"]
-L69_1 = "FFCE09A8071740634"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- C947A65D702C16061.FFCE09A8071740634
+function C947A65D702C16061_prototype:FFCE09A8071740634(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if A2_2 then
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     if not L4_2 then
       L4_2 = C764E5AE41553760D
       L4_2 = L4_2.S9690841ED751ADD5
@@ -73,27 +67,27 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L6_2 = 1.0
       L7_2 = true
       L4_2 = L4_2(L5_2, L6_2, L7_2)
-      L5_2 = A0_2[5]
+      L5_2 = self[5]
       if nil == L5_2 then
         L5_2 = 1
       end
       L6_2 = c2D970A17
       L6_2 = L6_2.f15057D37
-      L7_2 = A0_2[4]
+      L7_2 = self[4]
       L8_2 = L4_2
       L9_2 = 0.0
       L10_2 = L5_2
       L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
       L6_2 = A1_2 * L6_2
-      A0_2[7] = L6_2
+      self[7] = L6_2
     end
   else
-    A0_2[7] = 0.0
+    self[7] = 0.0
   end
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   A1_2 = A1_2 + L4_2
-  A0_2[8] = A2_2
-  L4_2 = A0_2[6]
+  self[8] = A2_2
+  L4_2 = self[6]
   
   function L5_2()
     local L0_3, L1_3
@@ -110,18 +104,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   
   L5_2 = L5_2()
   L4_2 = L4_2 + L5_2
-  A0_2[6] = L4_2
+  self[6] = L4_2
   L4_2 = CD9AE7C27B00EB066
   L4_2 = L4_2.S05B90B9B5A6DE6BC
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = 0.0
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L4_2 = L4_2(L5_2, L6_2, L7_2)
-  A0_2[6] = L4_2
-  L4_2 = A0_2[3]
+  self[6] = L4_2
+  L4_2 = self[3]
   if A3_2 < L4_2 then
     L4_2 = A3_2
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     if nil == L5_2 then
       L5_2 = 1
     end
@@ -130,9 +124,9 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
     L6_2 = c2D970A17
     L6_2 = L6_2.f15057D37
-    L7_2 = A0_2[1]
-    L8_2 = A0_2[6]
-    L9_2 = A0_2[2]
+    L7_2 = self[1]
+    L8_2 = self[6]
+    L9_2 = self[2]
     L8_2 = L8_2 / L9_2
     L9_2 = L4_2
     L10_2 = L5_2

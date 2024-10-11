@@ -1,3 +1,7 @@
+---@alias C849FF496D0E93636 main_system_game_event_GameEventNetworkBattleRaid
+
+---@class main_system_game_event_GameEventNetworkBattleRaid : C849FF496D0E93636_prototype
+---@field prototype C849FF496D0E93636_prototype
 L55_1 = _ENV
 L56_1 = "C64B8D3715D09DA74"
 L57_1 = L15_1
@@ -39,11 +43,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C64B8D3715D09DA74"]
 L69_1 = "__name__"
 L70_1 = "C64B8D3715D09DA74"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C64B8D3715D09DA74"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C849FF496D0E93636_prototype
+C849FF496D0E93636_prototype = L15_1()
+C849FF496D0E93636.prototype = C849FF496D0E93636_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C64B8D3715D09DA74"]["prototype"]
 L69_1 = _ENV["C64B8D3715D09DA74"]

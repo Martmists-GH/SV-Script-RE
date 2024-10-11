@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C4AEB940EA50B30C0"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C4AEB940EA50B30C0"]
-L69_1 = "new"
+---@alias C4AEB940EA50B30C0 main_form_change_FormChangeTimeLine
 
-function L70_1(A0_2)
+---@class main_form_change_FormChangeTimeLine : C4AEB940EA50B30C0_prototype
+---@field prototype C4AEB940EA50B30C0_prototype
+C4AEB940EA50B30C0 = L15_1()
+function C4AEB940EA50B30C0.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C4AEB940EA50B30C0
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4AEB940EA50B30C0"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C4AEB940EA50B30C0
+function C4AEB940EA50B30C0.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     L2_2 = E8B9FEE2834B98ACE
@@ -71,11 +65,7 @@ function L70_1(A0_2, A1_2)
   L2_2.S9F7C4A0D5B3C51D6 = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4AEB940EA50B30C0"]
-L69_1 = "__name__"
-L70_1 = "C4AEB940EA50B30C0"
-L68_1[L69_1] = L70_1
+C4AEB940EA50B30C0.__name__ = "C4AEB940EA50B30C0"
 L68_1 = _ENV["C4AEB940EA50B30C0"]
 L69_1 = "SE4835183E71C2E1B"
 
@@ -107,16 +97,11 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4AEB940EA50B30C0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4AEB940EA50B30C0"]["prototype"]
-L69_1 = "F4A2454B61B846B2D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@class C4AEB940EA50B30C0_prototype
+C4AEB940EA50B30C0_prototype = L15_1()
+C4AEB940EA50B30C0.prototype = C4AEB940EA50B30C0_prototype
+--- main.form_change.FormChangeTimeLine.SetupTimeLine
+function C4AEB940EA50B30C0_prototype:F4A2454B61B846B2D(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2
   L5_2 = C5196F2C433539EDA
   L5_2 = L5_2.SE9B0B6B3B6BBDF24
@@ -124,7 +109,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2)
   L5_2 = L26_1.new
   L5_2 = L5_2()
-  A0_2[7] = L5_2
+  self[7] = L5_2
   L5_2 = L26_1.new
   L5_2 = L5_2()
   L6_2 = C4AEB940EA50B30C0
@@ -138,7 +123,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L8_2 = 0
     L6_2 = L6_2(L7_2, L8_2)
     L7_2 = 0
-    L8_2 = A0_2[5]
+    L8_2 = self[5]
     while true do
       L9_2 = L8_2.length
       if not (L7_2 < L9_2) then
@@ -159,7 +144,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L8_2 = 0
     L6_2 = L6_2(L7_2, L8_2)
     L7_2 = 0
-    L8_2 = A0_2[6]
+    L8_2 = self[6]
     while true do
       L9_2 = L8_2.length
       if not (L7_2 < L9_2) then
@@ -177,7 +162,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L6_2 = c8A144091
   L6_2 = L6_2.fE459D175
   L6_2 = L6_2()
-  L7_2 = A0_2[7]
+  L7_2 = self[7]
   L8_2 = L7_2
   L7_2 = L7_2.push
   L9_2 = L6_2
@@ -288,8 +273,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L25_2 = L6_2
   L26_2 = "Attribute"
   L27_2 = "Ground"
-  L29_2 = A0_2
-  L28_2 = A0_2.FD6340B7ECF9791B3
+  L29_2 = self
+  L28_2 = self.FD6340B7ECF9791B3
   L30_2 = L22_2
   L31_2 = 0
   L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2 = L28_2(L29_2, L30_2, L31_2)
@@ -299,8 +284,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L25_2 = L6_2
   L26_2 = "Attribute"
   L27_2 = "Water"
-  L29_2 = A0_2
-  L28_2 = A0_2.FD6340B7ECF9791B3
+  L29_2 = self
+  L28_2 = self.FD6340B7ECF9791B3
   L30_2 = L23_2
   L31_2 = 2
   L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2 = L28_2(L29_2, L30_2, L31_2)
@@ -400,8 +385,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L28_2 = c8A144091
   L28_2 = L28_2.f9DCF42D7
   L29_2 = L6_2
-  L30_2 = A0_2[8]
-  L31_2 = A0_2[8]
+  L30_2 = self[8]
+  L31_2 = self[8]
   L28_2(L29_2, L30_2, L31_2)
   L28_2 = c8A144091
   L28_2 = L28_2.f9DCF42D7
@@ -507,18 +492,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L29_2(L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4AEB940EA50B30C0"]["prototype"]
-L69_1 = "FEA4C6DFD3D68E0A3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.form_change.FormChangeTimeLine.Play
+function C4AEB940EA50B30C0_prototype:FEA4C6DFD3D68E0A3(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = C5196F2C433539EDA
   L4_2 = L4_2.SE9B0B6B3B6BBDF24
   L5_2 = "FormChangeTimeLine_Play"
   L4_2(L5_2)
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L4_2 = L4_2[A1_2]
   L5_2 = C1DB14DCC9D7634FA
   L5_2 = L5_2.new
@@ -545,14 +527,11 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L7_2 = "FormChangeTimeLine_play"
   L5_2 = L5_2(L6_2, L7_2)
-  A0_2[4] = L5_2
+  self[4] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4AEB940EA50B30C0"]["prototype"]
-L69_1 = "FA9E8F15CE7E811C0"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.form_change.FormChangeTimeLine.TimeLineCoroutine
+function C4AEB940EA50B30C0_prototype:FA9E8F15CE7E811C0(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = 0
   while true do
@@ -631,23 +610,20 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4AEB940EA50B30C0"]["prototype"]
-L69_1 = "FD3CF58695CBD5774"
-
-function L70_1(A0_2, A1_2)
+--- main.form_change.FormChangeTimeLine.update
+function C4AEB940EA50B30C0_prototype:FD3CF58695CBD5774(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" == L2_2 then
       return
     end
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L62_1
     L4_2 = L64_1.pack
     L5_2 = L10_1.coroutine
@@ -693,14 +669,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4AEB940EA50B30C0"]["prototype"]
-L69_1 = "F7A10518ACA3668FB"
-
-function L70_1(A0_2)
+--- main.form_change.FormChangeTimeLine.AllTerminate
+function C4AEB940EA50B30C0_prototype:F7A10518ACA3668FB()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -715,11 +688,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4AEB940EA50B30C0"]["prototype"]
-L69_1 = "FD6340B7ECF9791B3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.form_change.FormChangeTimeLine.CheckRayCastResult
+function C4AEB940EA50B30C0_prototype:FD6340B7ECF9791B3(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L4_2 = A1_2
   L3_2 = A1_2.f47E8DE1F

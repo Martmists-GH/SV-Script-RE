@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C7BE183DC9144DB60"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "new"
+---@alias C7BE183DC9144DB60 main_event_general_system_map_change_MapChangeSchool
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class main_event_general_system_map_change_MapChangeSchool : C7BE183DC9144DB60_prototype
+---@field prototype C7BE183DC9144DB60_prototype
+C7BE183DC9144DB60 = L15_1()
+function C7BE183DC9144DB60.new(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = C7BE183DC9144DB60
@@ -25,11 +22,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@param A0_2 C7BE183DC9144DB60
+function C7BE183DC9144DB60.super(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L5_2 = C20F5CD372AAAA08C
   L5_2 = L5_2.super
@@ -41,11 +35,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "__name__"
-L70_1 = "C7BE183DC9144DB60"
-L68_1[L69_1] = L70_1
+C7BE183DC9144DB60.__name__ = "C7BE183DC9144DB60"
 L68_1 = _ENV["C7BE183DC9144DB60"]
 L69_1 = "S31CD0A8CE206B033"
 
@@ -71,11 +61,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "S0E40499A338C1511"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.general.system.map_change.MapChangeSchool.OpenSchoolMap
+function C7BE183DC9144DB60.S0E40499A338C1511(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A3_2 then
     A3_2 = true
@@ -198,11 +185,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "S219B32A8E93B345D"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeSchool.GetMessagePath
+function C7BE183DC9144DB60.S219B32A8E93B345D(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L31_1.string
   L2_2 = L31_1.string
@@ -220,11 +204,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "SB6E1E5C3E02E3CEA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.general.system.map_change.MapChangeSchool.OpenSchoolMapCmn270
+function C7BE183DC9144DB60.SB6E1E5C3E02E3CEA(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A3_2 then
     A3_2 = true
@@ -348,11 +329,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "SB6CD61C3E01CB394"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.general.system.map_change.MapChangeSchool.OpenSchoolMapCmn290
+function C7BE183DC9144DB60.SB6CD61C3E01CB394(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A3_2 then
     A3_2 = true
@@ -478,11 +456,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "S067021AF03C4326E"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.MapChangeSchool.OpenSchoolMapCommon0250To0260
+function C7BE183DC9144DB60.S067021AF03C4326E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   if nil == A1_2 then
     A1_2 = true
@@ -738,11 +713,8 @@ function L70_1(A0_2, A1_2)
   return L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "S324272F44F90BE5B"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.general.system.map_change.MapChangeSchool.OpenSchoolMap250to260
+function C7BE183DC9144DB60.S324272F44F90BE5B(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A3_2 then
     A3_2 = true
@@ -880,11 +852,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "S6417D8E2B79D4614"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.MapChangeSchool.S6417D8E2B79D4614
+function C7BE183DC9144DB60.S6417D8E2B79D4614(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A1_2 then
     A1_2 = true
@@ -1080,11 +1049,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "S5256888985CDD575"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.general.system.map_change.MapChangeSchool.OpenSchoolMap2000to2010
+function C7BE183DC9144DB60.S5256888985CDD575(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A3_2 then
     A3_2 = true
@@ -1214,11 +1180,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "SD9739919070C0893"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.MapChangeSchool.playerReturnMove
+function C7BE183DC9144DB60.SD9739919070C0893(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   if nil == A1_2 then
     A1_2 = 0.5
@@ -1291,11 +1254,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "S6F182A31850F0685"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeSchool.getReturnInfo
+function C7BE183DC9144DB60.S6F182A31850F0685(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C7BE183DC9144DB60
@@ -1316,11 +1276,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "S598DCBB6CC29FC3D"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.system.map_change.MapChangeSchool.SchoolMapChange
+function C7BE183DC9144DB60.S598DCBB6CC29FC3D(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A1_2 then
     A1_2 = true
@@ -1354,11 +1311,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "SBA63DBBA5A02ADE3"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeSchool.setDestinationFlag
+function C7BE183DC9144DB60.SBA63DBBA5A02ADE3(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
   while L1_2 < 27 do
@@ -1385,24 +1339,16 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C7BE183DC9144DB60_prototype
+C7BE183DC9144DB60_prototype = L15_1()
+C7BE183DC9144DB60.prototype = C7BE183DC9144DB60_prototype
+--- main.event.general.system.map_change.MapChangeSchool.preStart
+function C7BE183DC9144DB60_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeSchool.mainBody
+function C7BE183DC9144DB60_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.SE7175DE65882221F
@@ -1437,7 +1383,7 @@ function L70_1(A0_2)
             L0_3 = nil
             L1_3 = c016374C1
             L1_3 = L1_3.f4555D276
-            L2_3 = A0_2
+            L2_3 = self
             L2_3 = L2_3[12]
             L2_3 = L2_3.owner
             L3_3 = L1_2
@@ -1445,7 +1391,7 @@ function L70_1(A0_2)
             if L1_3 then
               L0_3 = nil
             else
-              L1_3 = A0_2
+              L1_3 = self
               L0_3 = L1_3[12]
             end
             return L0_3
@@ -1631,7 +1577,7 @@ function L70_1(A0_2)
             L0_3 = nil
             L1_3 = c016374C1
             L1_3 = L1_3.f4555D276
-            L2_3 = A0_2
+            L2_3 = self
             L2_3 = L2_3[12]
             L2_3 = L2_3.owner
             L3_3 = L1_2
@@ -1639,7 +1585,7 @@ function L70_1(A0_2)
             if L1_3 then
               L0_3 = nil
             else
-              L1_3 = A0_2
+              L1_3 = self
               L0_3 = L1_3[12]
             end
             return L0_3
@@ -1751,7 +1697,7 @@ function L70_1(A0_2)
                   L0_3 = nil
                   L1_3 = c016374C1
                   L1_3 = L1_3.f4555D276
-                  L2_3 = A0_2
+                  L2_3 = self
                   L2_3 = L2_3[12]
                   L2_3 = L2_3.owner
                   L3_3 = L1_2
@@ -1759,7 +1705,7 @@ function L70_1(A0_2)
                   if L1_3 then
                     L0_3 = nil
                   else
-                    L1_3 = A0_2
+                    L1_3 = self
                     L0_3 = L1_3[12]
                   end
                   return L0_3
@@ -1951,7 +1897,7 @@ function L70_1(A0_2)
                     L0_3 = nil
                     L1_3 = c016374C1
                     L1_3 = L1_3.f4555D276
-                    L2_3 = A0_2
+                    L2_3 = self
                     L2_3 = L2_3[12]
                     L2_3 = L2_3.owner
                     L3_3 = L1_2
@@ -1959,7 +1905,7 @@ function L70_1(A0_2)
                     if L1_3 then
                       L0_3 = nil
                     else
-                      L1_3 = A0_2
+                      L1_3 = self
                       L0_3 = L1_3[12]
                     end
                     return L0_3
@@ -2042,7 +1988,7 @@ function L70_1(A0_2)
                       L0_3 = nil
                       L1_3 = c016374C1
                       L1_3 = L1_3.f4555D276
-                      L2_3 = A0_2
+                      L2_3 = self
                       L2_3 = L2_3[12]
                       L2_3 = L2_3.owner
                       L3_3 = L1_2
@@ -2050,7 +1996,7 @@ function L70_1(A0_2)
                       if L1_3 then
                         L0_3 = nil
                       else
-                        L1_3 = A0_2
+                        L1_3 = self
                         L0_3 = L1_3[12]
                       end
                       return L0_3
@@ -2118,7 +2064,7 @@ function L70_1(A0_2)
                         L0_3 = nil
                         L1_3 = c016374C1
                         L1_3 = L1_3.f4555D276
-                        L2_3 = A0_2
+                        L2_3 = self
                         L2_3 = L2_3[12]
                         L2_3 = L2_3.owner
                         L3_3 = L4_2
@@ -2126,7 +2072,7 @@ function L70_1(A0_2)
                         if L1_3 then
                           L0_3 = nil
                         else
-                          L1_3 = A0_2
+                          L1_3 = self
                           L0_3 = L1_3[12]
                         end
                         return L0_3
@@ -2296,7 +2242,7 @@ function L70_1(A0_2)
                       L0_3 = nil
                       L1_3 = c016374C1
                       L1_3 = L1_3.f4555D276
-                      L2_3 = A0_2
+                      L2_3 = self
                       L2_3 = L2_3[12]
                       L2_3 = L2_3.owner
                       L3_3 = L1_2
@@ -2304,7 +2250,7 @@ function L70_1(A0_2)
                       if L1_3 then
                         L0_3 = nil
                       else
-                        L1_3 = A0_2
+                        L1_3 = self
                         L0_3 = L1_3[12]
                       end
                       return L0_3
@@ -2331,11 +2277,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7BE183DC9144DB60"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeSchool.preEnd
+function C7BE183DC9144DB60_prototype:F740FB4E96926D103()
   local L1_2
 end
 

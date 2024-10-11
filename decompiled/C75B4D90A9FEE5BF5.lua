@@ -1,3 +1,7 @@
+---@alias C75B4D90A9FEE5BF5 main_playables_camera_LongShotCameraEventTrigger
+
+---@class main_playables_camera_LongShotCameraEventTrigger : C75B4D90A9FEE5BF5_prototype
+---@field prototype C75B4D90A9FEE5BF5_prototype
 L68_1 = _ENV["C75B4D90A9FEE5BF5"]
 L69_1 = "super"
 
@@ -21,11 +25,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C75B4D90A9FEE5BF5"]
 L69_1 = "__name__"
 L70_1 = "C75B4D90A9FEE5BF5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75B4D90A9FEE5BF5"]
-L69_1 = "SD40D3A64E8B633BD"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.playables.camera.LongShotCameraEventTrigger.OnTriggered
+function C75B4D90A9FEE5BF5.SD40D3A64E8B633BD(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L7_2 = A0_2
   L6_2 = A0_2.fB3CF1DEB
@@ -167,31 +168,26 @@ L68_1 = "C75B4D90A9FEE5BF5"
 L68_1 = L25_1[L68_1]
 L69_1 = "SD40D3A64E8B633BD"
 L70_1 = _ENV["C75B4D90A9FEE5BF5"]["SD40D3A64E8B633BD"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75B4D90A9FEE5BF5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75B4D90A9FEE5BF5"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C75B4D90A9FEE5BF5_prototype
+C75B4D90A9FEE5BF5_prototype = L15_1()
+C75B4D90A9FEE5BF5.prototype = C75B4D90A9FEE5BF5_prototype
+--- main.playables.camera.LongShotCameraEventTrigger.Setup
+function C75B4D90A9FEE5BF5_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = cACBFA004
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
-  L2_2 = A0_2[2]
+  self[2] = L2_2
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f317EB6F9
   L4_2 = "OnTriggered"
   L5_2 = 0.0
   L6_2 = 9
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
-  A0_2[3] = L2_2
-  L2_2 = A0_2[1]
+  self[3] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f462C9B70
   L2_2 = L2_2(L3_2)
@@ -213,11 +209,11 @@ function L70_1(A0_2, A1_2)
     L6_2 = L2_2
     L5_2, L6_2, L7_2, L8_2, L9_2 = L5_2(L6_2)
     L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
-    A0_2[5] = L4_2
+    self[5] = L4_2
   end
   L4_2 = c7B88F8F8
   L4_2 = L4_2.fB41FD22F
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
   L5_2 = nil
   L6_2 = c7B88F8F8
@@ -234,19 +230,19 @@ function L70_1(A0_2, A1_2)
     L7_2 = L6_2.f0288B057
     L9_2 = "Traceable"
     L7_2 = L7_2(L8_2, L9_2)
-    A0_2[6] = L7_2
+    self[6] = L7_2
     L8_2 = L6_2
     L7_2 = L6_2.f22FC612C
     L9_2 = "Duration"
     L7_2 = L7_2(L8_2, L9_2)
-    A0_2[7] = L7_2
-    L7_2 = A0_2[6]
+    self[7] = L7_2
+    L7_2 = self[6]
     if nil == L7_2 then
-      A0_2[6] = false
+      self[6] = false
     end
-    L7_2 = A0_2[7]
+    L7_2 = self[7]
     if nil == L7_2 then
-      A0_2[7] = 0
+      self[7] = 0
     end
   end
   L6_2 = nil
@@ -272,29 +268,26 @@ function L70_1(A0_2, A1_2)
     if L8_2 == L9_2 then
       L8_2 = nil
     end
-    A0_2[4] = L8_2
+    self[4] = L8_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75B4D90A9FEE5BF5"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.playables.camera.LongShotCameraEventTrigger.Destroy
+function C75B4D90A9FEE5BF5_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cACBFA004
   L2_2 = L2_2.f05FAAF59
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     if L2_2 >= 0 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = L2_2
       L2_2 = L2_2.fFB78ACF1
-      L4_2 = A0_2[3]
+      L4_2 = self[3]
       L2_2(L3_2, L4_2)
     end
   end

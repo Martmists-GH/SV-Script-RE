@@ -1,3 +1,5 @@
+---@class C75FD1496E7D12860 : C75FD1496E7D12860_prototype
+---@field prototype C75FD1496E7D12860_prototype
 L55_1 = _ENV
 L56_1 = "C75FD1496E7D12860"
 L57_1 = L15_1
@@ -46,26 +48,21 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C75FD1496E7D12860"]
 L69_1 = "__name__"
 L70_1 = "C75FD1496E7D12860"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75FD1496E7D12860"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75FD1496E7D12860"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+---@class C75FD1496E7D12860_prototype
+C75FD1496E7D12860_prototype = L15_1()
+C75FD1496E7D12860.prototype = C75FD1496E7D12860_prototype
+--- C75FD1496E7D12860.PreUpdate
+function C75FD1496E7D12860_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[11]
+    L3_2 = self[11]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[11]
+      L2_2 = self[11]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -113,29 +110,26 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75FD1496E7D12860"]["prototype"]
-L69_1 = "FB7FE1C29906DA881"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- C75FD1496E7D12860.FB7FE1C29906DA881
+function C75FD1496E7D12860_prototype:FB7FE1C29906DA881(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
-  L6_2 = A0_2
+  L6_2 = self
   L7_2 = c69ACCC6F
   L7_2 = L7_2.f3F98EEAD
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L7_2 = L7_2(L8_2)
   L8_2 = cECF00344
   L8_2 = L8_2.fEECE6995
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L8_2 = L8_2(L9_2)
-  A0_2[10] = L8_2
+  self[10] = L8_2
   L8_2 = cECD2E4A5
   L8_2 = L8_2.fAD5AE364
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = "MessageWindow_00"
   L8_2 = L8_2(L9_2, L10_2)
-  A0_2[5] = L8_2
-  L8_2 = A0_2[5]
+  self[5] = L8_2
+  L8_2 = self[5]
   L9_2 = L8_2
   L8_2 = L8_2.f52F0B364
   L10_2 = "PLAY_UI_MESSAGE_MONUMENT_EVENT"
@@ -151,7 +145,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L10_2 = nil
     L11_2 = cECF00344
     L11_2 = L11_2.f9758FA9B
-    L12_2 = A0_2[10]
+    L12_2 = self[10]
     L13_2 = L10_2
     L11_2 = L11_2(L12_2, L13_2)
     L8_2 = L11_2
@@ -161,9 +155,9 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   if L8_2 then
     return
   end
-  L10_2 = A0_2[13]
+  L10_2 = self[13]
   if not L10_2 then
-    L10_2 = A0_2[5]
+    L10_2 = self[5]
     L11_2 = L10_2
     L10_2 = L10_2.fF5772138
     L12_2 = L31_1.string
@@ -180,7 +174,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L13_2 = L13_2(L14_2)
     L12_2 = L12_2 .. L13_2
     L10_2(L11_2, L12_2)
-    L10_2 = A0_2[5]
+    L10_2 = self[5]
     L11_2 = L10_2
     L10_2 = L10_2.f21BA40F0
     L12_2 = L31_1.string
@@ -197,7 +191,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L13_2 = L13_2(L14_2)
     L12_2 = L12_2 .. L13_2
     L10_2(L11_2, L12_2)
-    L10_2 = A0_2[10]
+    L10_2 = self[10]
     L11_2 = L10_2
     L10_2 = L10_2.fB4E9D030
     L12_2 = L31_1.string
@@ -522,26 +516,20 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   
   L13_2 = L10_2
   L11_2 = L11_2(L12_2, L13_2)
-  A0_2[11] = L11_2
-  A0_2[12] = true
+  self[11] = L11_2
+  self[12] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75FD1496E7D12860"]["prototype"]
-L69_1 = "F43A1E7C34716A2B2"
-
-function L70_1(A0_2)
+--- C75FD1496E7D12860.F43A1E7C34716A2B2
+function C75FD1496E7D12860_prototype:F43A1E7C34716A2B2()
   local L1_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75FD1496E7D12860"]["prototype"]
-L69_1 = "F09E05880EEA75384"
-
-function L70_1(A0_2, A1_2)
-  A0_2[12] = A1_2
+--- C75FD1496E7D12860.F09E05880EEA75384
+function C75FD1496E7D12860_prototype:F09E05880EEA75384(A1_2)
+  self[12] = A1_2
 end
 
 L68_1[L69_1] = L70_1

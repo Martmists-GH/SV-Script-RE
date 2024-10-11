@@ -1,7 +1,8 @@
-L68_1 = _ENV["C4F8C6F3D75871C44"]
-L69_1 = "new"
+---@alias C4F8C6F3D75871C44 main_nushi_jimen_a_JimenNushiActor
 
-function L70_1(A0_2)
+---@class main_nushi_jimen_a_JimenNushiActor : C4F8C6F3D75871C44_prototype
+---@field prototype C4F8C6F3D75871C44_prototype
+function C4F8C6F3D75871C44.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C4F8C6F3D75871C44
@@ -17,11 +18,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F8C6F3D75871C44"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C4F8C6F3D75871C44
+function C4F8C6F3D75871C44.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C14CCD524DC83A9EA
   L2_2 = L2_2.super
@@ -37,11 +35,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C4F8C6F3D75871C44"]
 L69_1 = "__name__"
 L70_1 = "C4F8C6F3D75871C44"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F8C6F3D75871C44"]
-L69_1 = "SCC860BAD7CEC0C92"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.nushi.jimen.a.JimenNushiActor.OnTriggerFunction2
+function C4F8C6F3D75871C44.SCC860BAD7CEC0C92(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L6_2 = cAD7C739C
   L6_2 = L6_2.f3BB1CD49
@@ -105,24 +100,19 @@ L68_1 = "C4F8C6F3D75871C44"
 L68_1 = L25_1[L68_1]
 L69_1 = "SCC860BAD7CEC0C92"
 L70_1 = _ENV["C4F8C6F3D75871C44"]["SCC860BAD7CEC0C92"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F8C6F3D75871C44"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F8C6F3D75871C44"]["prototype"]
-L69_1 = "F48F52B866CE024F2"
-
-function L70_1(A0_2, A1_2)
+---@class C4F8C6F3D75871C44_prototype
+C4F8C6F3D75871C44_prototype = L15_1()
+C4F8C6F3D75871C44.prototype = C4F8C6F3D75871C44_prototype
+--- main.nushi.jimen.a.JimenNushiActor.OnActorSetup
+function C4F8C6F3D75871C44_prototype:F48F52B866CE024F2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = CD6E40BD5CE9657FC
   L2_2 = L2_2.S149E3C1323E2E20C
   L2_2 = L2_2()
   if L2_2 then
     L2_2 = C4F8C6F3D75871C44
-    L2_2.S7D1E199BBD384D72 = A0_2
-    L2_2 = A0_2[1]
+    L2_2.S7D1E199BBD384D72 = self
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.f5439788F
     L4_2 = "BattleEvent"
@@ -137,7 +127,7 @@ function L70_1(A0_2, A1_2)
       if not L4_2 then
         break
       end
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = L4_2
       L4_2 = L4_2.f5439788F
       L6_2 = "BattleEvent"
@@ -157,33 +147,33 @@ function L70_1(A0_2, A1_2)
     L6_2 = 0.0
     L7_2 = 9
     L3_2(L4_2, L5_2, L6_2, L7_2)
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f5439788F
     L5_2 = "escape_eff_point"
     L3_2 = L3_2(L4_2, L5_2)
-    A0_2[31] = L3_2
+    self[31] = L3_2
     while true do
       L3_2 = nil
       L4_2 = c016374C1
       L4_2 = L4_2.f4555D276
-      L5_2 = A0_2[31]
+      L5_2 = self[31]
       L6_2 = L3_2
       L4_2 = L4_2(L5_2, L6_2)
       if not L4_2 then
         break
       end
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = L4_2
       L4_2 = L4_2.f5439788F
       L6_2 = "escape_eff_point"
       L4_2 = L4_2(L5_2, L6_2)
-      A0_2[31] = L4_2
+      self[31] = L4_2
       L4_2 = C1DB14DCC9D7634FA
       L4_2 = L4_2.S760DAE4C5371A78E
       L4_2()
     end
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f462C9B70
     L3_2 = L3_2(L4_2)
@@ -191,18 +181,18 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.fD4E64AB7
     L5_2 = "escape_eff"
     L3_2 = L3_2(L4_2, L5_2)
-    A0_2[32] = L3_2
+    self[32] = L3_2
     while true do
       L3_2 = nil
       L4_2 = c016374C1
       L4_2 = L4_2.f4555D276
-      L5_2 = A0_2[32]
+      L5_2 = self[32]
       L6_2 = L3_2
       L4_2 = L4_2(L5_2, L6_2)
       if not L4_2 then
         break
       end
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = L4_2
       L4_2 = L4_2.f462C9B70
       L4_2 = L4_2(L5_2)
@@ -210,7 +200,7 @@ function L70_1(A0_2, A1_2)
       L4_2 = L4_2.fD4E64AB7
       L6_2 = "escape_eff"
       L4_2 = L4_2(L5_2, L6_2)
-      A0_2[32] = L4_2
+      self[32] = L4_2
       L4_2 = C1DB14DCC9D7634FA
       L4_2 = L4_2.S760DAE4C5371A78E
       L4_2()
@@ -218,9 +208,9 @@ function L70_1(A0_2, A1_2)
     L3_2 = C2EAC8AEE287A3A4D
     L3_2 = L3_2.new
     L3_2 = L3_2()
-    A0_2[33] = L3_2
+    self[33] = L3_2
   else
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.fCDCB600D
     L4_2 = true
@@ -228,22 +218,19 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F8C6F3D75871C44"]["prototype"]
-L69_1 = "F046AD14230C4BB4B"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.jimen.a.JimenNushiActor.OnActorPreUpdate
+function C4F8C6F3D75871C44_prototype:F046AD14230C4BB4B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = nil
   L3_2 = c32245D3F
   L3_2 = L3_2.f9D6118A2
-  L4_2 = A0_2[25]
+  L4_2 = self[25]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = CD6E40BD5CE9657FC
     L3_2 = L3_2.S8872BCB4C6058B45
-    L4_2 = A0_2[25]
+    L4_2 = self[25]
     L5_2 = L4_2
     L4_2 = L4_2.f5CB2CDFD
     L6_2 = 1 * L3_2
@@ -251,9 +238,9 @@ function L70_1(A0_2, A1_2)
     L8_2 = 1 * L3_2
     L4_2(L5_2, L6_2, L7_2, L8_2)
   end
-  L3_2 = A0_2[33]
+  L3_2 = self[33]
   if nil ~= L3_2 then
-    L3_2 = A0_2[33]
+    L3_2 = self[33]
     L4_2 = L3_2
     L3_2 = L3_2.F1EEC0C9E6E826C5B
     L5_2 = A1_2
@@ -261,67 +248,55 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F8C6F3D75871C44"]["prototype"]
-L69_1 = "FC397BEECBBC06F69"
-
-function L70_1(A0_2)
+--- main.nushi.jimen.a.JimenNushiActor.OnActorDestroy
+function C4F8C6F3D75871C44_prototype:FC397BEECBBC06F69()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F8C6F3D75871C44"]["prototype"]
-L69_1 = "F30788B89F5D9CD7B"
-
-function L70_1(A0_2)
+--- main.nushi.jimen.a.JimenNushiActor.OnSetupPathMove
+function C4F8C6F3D75871C44_prototype:F30788B89F5D9CD7B()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F687ADA8FF9A54939
+  L2_2 = self
+  L1_2 = self.F687ADA8FF9A54939
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F8C6F3D75871C44"]["prototype"]
-L69_1 = "F65165948471B31E7"
-
-function L70_1(A0_2)
+--- main.nushi.jimen.a.JimenNushiActor.MoveResume
+function C4F8C6F3D75871C44_prototype:F65165948471B31E7()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F687ADA8FF9A54939
+  L2_2 = self
+  L1_2 = self.F687ADA8FF9A54939
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F57FE8D8E4280CCB9
+  L2_2 = self
+  L1_2 = self.F57FE8D8E4280CCB9
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F8C6F3D75871C44"]["prototype"]
-L69_1 = "F687ADA8FF9A54939"
-
-function L70_1(A0_2)
+--- main.nushi.jimen.a.JimenNushiActor.PathMovePlay
+function C4F8C6F3D75871C44_prototype:F687ADA8FF9A54939()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = L10_1.math
   L2_2 = L2_2.random
   L2_2 = L2_2()
   L2_2 = 5.0 * L2_2
   L2_2 = L2_2 + 5.0
-  L4_2 = A0_2
-  L3_2 = A0_2.FD6A96676C4EA6455
+  L4_2 = self
+  L3_2 = self.FD6A96676C4EA6455
   L5_2 = 5
   L6_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2, L6_2)
-  L4_2 = A0_2[30]
-  L5_2 = A0_2[30]
+  L4_2 = self[30]
+  L5_2 = self[30]
   L5_2 = L5_2 + L3_2
-  A0_2[30] = L5_2
-  L5_2 = A0_2[27]
+  self[30] = L5_2
+  L5_2 = self[27]
   L6_2 = L5_2
   L5_2 = L5_2.fA5130C84
   L7_2 = false
   L8_2 = 0
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[19]
+  L5_2 = self[19]
   L6_2 = L5_2
   L5_2 = L5_2.F7364C99F171973B4
   L7_2 = L2_2
@@ -441,14 +416,11 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F8C6F3D75871C44"]["prototype"]
-L69_1 = "F4E4BE9A32DDE4D24"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.nushi.jimen.a.JimenNushiActor.PlayEscape
+function C4F8C6F3D75871C44_prototype:F4E4BE9A32DDE4D24(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L4_2 = A0_2[33]
+  L3_2 = self
+  L4_2 = self[33]
   L5_2 = L4_2
   L4_2 = L4_2.F7EED485852A4D25F
   L6_2 = 1
@@ -566,19 +538,16 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F8C6F3D75871C44"]["prototype"]
-L69_1 = "FAFF7471D79D21F82"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.jimen.a.JimenNushiActor.FirstBattleMoveStop
+function C4F8C6F3D75871C44_prototype:FAFF7471D79D21F82(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if A1_2 then
-    A0_2[22] = true
-    L2_2 = A0_2[27]
+    self[22] = true
+    L2_2 = self[27]
     L3_2 = L2_2
     L2_2 = L2_2.f61A204B1
     L2_2(L3_2)
-    L2_2 = A0_2[9]
+    L2_2 = self[9]
     L3_2 = L2_2
     L2_2 = L2_2.fF56461AF
     L2_2 = L2_2(L3_2)
@@ -587,10 +556,10 @@ function L70_1(A0_2, A1_2)
     L4_2 = "move"
     L5_2 = 0
     L2_2(L3_2, L4_2, L5_2)
-    L2_2 = A0_2.F9A1D66A7FD98F17C
+    L2_2 = self.F9A1D66A7FD98F17C
     if nil ~= L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F9A1D66A7FD98F17C
+      L3_2 = self
+      L2_2 = self.F9A1D66A7FD98F17C
       L4_2 = A1_2
       L2_2(L3_2, L4_2)
     end

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CE7D449FCC72861BF"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CE7D449FCC72861BF"]
-L69_1 = "new"
+---@alias CE7D449FCC72861BF main_system_game_event_GameEventInfoarea
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventInfoarea : CE7D449FCC72861BF_prototype
+---@field prototype CE7D449FCC72861BF_prototype
+CE7D449FCC72861BF = L15_1()
+function CE7D449FCC72861BF.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CE7D449FCC72861BF
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7D449FCC72861BF"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CE7D449FCC72861BF
+function CE7D449FCC72861BF.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = C57802178241C0D20
   L3_2 = L3_2.super
@@ -37,11 +31,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7D449FCC72861BF"]
-L69_1 = "__name__"
-L70_1 = "CE7D449FCC72861BF"
-L68_1[L69_1] = L70_1
+CE7D449FCC72861BF.__name__ = "CE7D449FCC72861BF"
 L68_1 = _ENV["CE7D449FCC72861BF"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -69,46 +59,35 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7D449FCC72861BF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7D449FCC72861BF"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CE7D449FCC72861BF_prototype
+CE7D449FCC72861BF_prototype = L15_1()
+CE7D449FCC72861BF.prototype = CE7D449FCC72861BF_prototype
+--- main.system.game_event.GameEventInfoarea.onCreate
+function CE7D449FCC72861BF_prototype:FC87C731D11C58354()
   local L1_2, L2_2
   L1_2 = CB90497FB1A1A942B
   L1_2 = L1_2.S4D388A329B4BF9DC
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L1_2(L2_2)
   L1_2 = CB90497FB1A1A942B
   L1_2 = L1_2.S5354E2DCECC24613
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7D449FCC72861BF"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventInfoarea.onInitialize
+function CE7D449FCC72861BF_prototype:F239C282ED3F82676()
   local L1_2
   L1_2 = 0
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7D449FCC72861BF"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventInfoarea.onUpdate
+function CE7D449FCC72861BF_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2
-  A0_2[24] = true
-  L2_2 = A0_2
-  L1_2 = A0_2.FE8C6D200C370048F
+  self[24] = true
+  L2_2 = self
+  L1_2 = self.FE8C6D200C370048F
   L1_2(L2_2)
   L1_2 = C512D905984DB3137
   L1_2 = L1_2.S9151AC84A1BCAA83
@@ -131,8 +110,8 @@ function L70_1(A0_2)
   L2_2 = true
   L1_2(L2_2)
   while true do
-    L2_2 = A0_2
-    L1_2 = A0_2.FA0E994EE453A340F
+    L2_2 = self
+    L1_2 = self.FA0E994EE453A340F
     L1_2 = L1_2(L2_2)
     if L1_2 then
       break
@@ -143,7 +122,7 @@ function L70_1(A0_2)
     L1_2(L2_2)
   end
   while true do
-    L1_2 = A0_2[20]
+    L1_2 = self[20]
     if L1_2 then
       break
     end
@@ -151,12 +130,12 @@ function L70_1(A0_2)
     L1_2 = L1_2.S12F63EE47FFCB183
     L1_2()
   end
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   if L1_2 then
     L1_2 = 2
     return L1_2
   end
-  L1_2 = A0_2[21]
+  L1_2 = self[21]
   if not L1_2 then
     L1_2 = 2
     return L1_2
@@ -175,7 +154,7 @@ function L70_1(A0_2)
     if false ~= L1_2 then
       break
     end
-    L1_2 = A0_2[18]
+    L1_2 = self[18]
     if L1_2 then
       break
     end
@@ -215,34 +194,28 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7D449FCC72861BF"]["prototype"]
-L69_1 = "F4E09538E8F109EC2"
-
-function L70_1(A0_2, A1_2)
+--- main.system.game_event.GameEventInfoarea.onInterrupted
+function CE7D449FCC72861BF_prototype:F4E09538E8F109EC2(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C8F188876D8892944
   L2_2 = L2_2.S12F63EE47FFCB183
   L2_2()
-  A0_2[21] = false
+  self[21] = false
   L2_2 = C57802178241C0D20
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F4E09538E8F109EC2
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7D449FCC72861BF"]["prototype"]
-L69_1 = "F1DC44B6ACECDC3C9"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventInfoarea.OnUIOpenFailedEvent
+function CE7D449FCC72861BF_prototype:F1DC44B6ACECDC3C9()
   local L1_2, L2_2
   L1_2 = C57802178241C0D20
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1DC44B6ACECDC3C9
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = C8F188876D8892944
   L1_2 = L1_2.S12F63EE47FFCB183

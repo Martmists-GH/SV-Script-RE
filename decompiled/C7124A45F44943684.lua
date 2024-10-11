@@ -1,15 +1,10 @@
-L68_1 = _ENV["C7124A45F44943684"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7124A45F44943684"]
-L69_1 = "__name__"
-L70_1 = "C7124A45F44943684"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7124A45F44943684"]
-L69_1 = "S5387F61EC3258B6B"
+---@alias C7124A45F44943684 main_ajito_util_AjitoGameScriptPlayer
 
-function L70_1(A0_2)
+---@class main_ajito_util_AjitoGameScriptPlayer
+C7124A45F44943684.new = {}
+C7124A45F44943684.__name__ = "C7124A45F44943684"
+--- main.ajito.util.AjitoGameScriptPlayer.GetDifficult
+function C7124A45F44943684.S5387F61EC3258B6B(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.SA5B8258582A90EF3
@@ -38,11 +33,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7124A45F44943684"]
-L69_1 = "S78F6FA447CBC3638"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoGameScriptPlayer.IsRushSkip
+function C7124A45F44943684.S78F6FA447CBC3638(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.SA5B8258582A90EF3
@@ -69,11 +61,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7124A45F44943684"]
-L69_1 = "SF950013E0FEB9975"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.util.AjitoGameScriptPlayer.GetEventIdByType
+function C7124A45F44943684.SF950013E0FEB9975(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = nil
   L3_2 = A0_2[1]
@@ -116,11 +105,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7124A45F44943684"]
-L69_1 = "S9E462CE63B57CCBC"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.util.AjitoGameScriptPlayer.S9E462CE63B57CCBC
+function C7124A45F44943684.S9E462CE63B57CCBC(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = nil
   L3_2 = A0_2[1]
@@ -155,11 +141,8 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7124A45F44943684"]
-L69_1 = "SDB657769A610C1BD"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ajito.util.AjitoGameScriptPlayer.PlayRushEasyFinishScriptAsync
+function C7124A45F44943684.SDB657769A610C1BD(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = CF8CAB9D587FCCA0D
   L4_2 = L4_2.S264F26F6894F3392
@@ -295,11 +278,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2(L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7124A45F44943684"]
-L69_1 = "S7B306194D6734011"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.ajito.util.AjitoGameScriptPlayer.S7B306194D6734011
+function C7124A45F44943684.S7B306194D6734011(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L6_2 = C0D02CEE5FD6D6D49
   L6_2 = L6_2.S7ACF571686ABA88B
@@ -329,11 +309,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7124A45F44943684"]
-L69_1 = "S02298C32B55C06C7"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoGameScriptPlayer.S02298C32B55C06C7
+function C7124A45F44943684.S02298C32B55C06C7(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = A0_2[1]
@@ -354,11 +331,8 @@ function L70_1(A0_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7124A45F44943684"]
-L69_1 = "S9796D6E932FC7980"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoGameScriptPlayer.S9796D6E932FC7980
+function C7124A45F44943684.S9796D6E932FC7980(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = A0_2[1]
@@ -379,11 +353,8 @@ function L70_1(A0_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7124A45F44943684"]
-L69_1 = "SFA1C6EA8B41993E5"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoGameScriptPlayer.PlayStartBossScriptAsync
+function C7124A45F44943684.SFA1C6EA8B41993E5(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = A0_2[1]
@@ -414,11 +385,8 @@ function L70_1(A0_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7124A45F44943684"]
-L69_1 = "S73CBF357B96ED7CD"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoGameScriptPlayer.eventPlay
+function C7124A45F44943684.S73CBF357B96ED7CD(A0_2)
   local L1_2, L2_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.SA5B8258582A90EF3
@@ -461,11 +429,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7124A45F44943684"]
-L69_1 = "SE0A2B14DA406E0E8"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoGameScriptPlayer.SE0A2B14DA406E0E8
+function C7124A45F44943684.SE0A2B14DA406E0E8(A0_2)
   local L1_2, L2_2
   L1_2 = A0_2[1]
   if 0 == L1_2 then

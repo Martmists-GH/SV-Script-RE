@@ -1,3 +1,7 @@
+---@alias C1E4D1C6D199FFCD0 main_ui_util_UIOffScreenModelUtil
+
+---@class main_ui_util_UIOffScreenModelUtil : C1E4D1C6D199FFCD0_prototype
+---@field prototype C1E4D1C6D199FFCD0_prototype
 L55_1 = _ENV
 L56_1 = "C1E4D1C6D199FFCD0"
 L57_1 = L15_1
@@ -35,16 +39,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1E4D1C6D199FFCD0"]
 L69_1 = "__name__"
 L70_1 = "C1E4D1C6D199FFCD0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E4D1C6D199FFCD0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E4D1C6D199FFCD0"]["prototype"]
-L69_1 = "FE61B8EF68D0F7843"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+---@class C1E4D1C6D199FFCD0_prototype
+C1E4D1C6D199FFCD0_prototype = L15_1()
+C1E4D1C6D199FFCD0.prototype = C1E4D1C6D199FFCD0_prototype
+--- main.ui.util.UIOffScreenModelUtil.SetupCameraModelSequence
+function C1E4D1C6D199FFCD0_prototype:FE61B8EF68D0F7843(A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
   if nil == A6_2 then
     A6_2 = true
@@ -52,7 +51,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L7_2 = nil
   L8_2 = cA042DA13
   L8_2 = L8_2.fB1E655AE
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = L7_2
   L8_2 = L8_2(L9_2, L10_2)
   if L8_2 then
@@ -67,7 +66,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   if L9_2 then
     return
   end
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = L9_2
   L9_2 = L9_2.fD4E64AB7
   L11_2 = A4_2
@@ -98,7 +97,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   if L13_2 then
     return
   end
-  L13_2 = A0_2[1]
+  L13_2 = self[1]
   L14_2 = L13_2
   L13_2 = L13_2.fD4E64AB7
   L15_2 = A5_2
@@ -116,8 +115,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L15_2 = L15_2.S7B6179AB425A98A0
   L16_2 = L13_2
   L15_2(L16_2)
-  L16_2 = A0_2
-  L15_2 = A0_2.FA7FD15CA07A2D18E
+  L16_2 = self
+  L15_2 = self.FA7FD15CA07A2D18E
   L17_2 = A1_2
   L18_2 = A2_2
   L19_2 = A3_2
@@ -127,11 +126,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L15_2(L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E4D1C6D199FFCD0"]["prototype"]
-L69_1 = "FA7FD15CA07A2D18E"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.ui.util.UIOffScreenModelUtil.SetupCameraModelSequenceBase
+function C1E4D1C6D199FFCD0_prototype:FA7FD15CA07A2D18E(A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A6_2 then
     A6_2 = true
@@ -139,7 +135,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L7_2 = nil
   L8_2 = cA042DA13
   L8_2 = L8_2.fB1E655AE
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = L7_2
   L8_2 = L8_2(L9_2, L10_2)
   if L8_2 then
@@ -163,7 +159,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   if L10_2 then
     return
   end
-  A0_2[4] = A4_2
+  self[4] = A4_2
   L10_2 = nil
   L11_2 = c016374C1
   L11_2 = L11_2.f4555D276
@@ -173,47 +169,47 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   if L11_2 then
     return
   end
-  A0_2[2] = A5_2
-  L11_2 = A0_2[2]
+  self[2] = A5_2
+  L11_2 = self[2]
   L12_2 = L11_2
   L11_2 = L11_2.f12329E64
   L13_2 = true
   L11_2(L12_2, L13_2)
   L11_2 = cECB91E31
   L11_2 = L11_2.fB41FD22F
-  L12_2 = A0_2[2]
+  L12_2 = self[2]
   L11_2 = L11_2(L12_2)
-  A0_2[3] = L11_2
+  self[3] = L11_2
   L11_2 = nil
   L12_2 = cECB91E31
   L12_2 = L12_2.fB6A00A1B
-  L13_2 = A0_2[3]
+  L13_2 = self[3]
   L14_2 = L11_2
   L12_2 = L12_2(L13_2, L14_2)
   if L12_2 then
     return
   end
-  L12_2 = A0_2[3]
+  L12_2 = self[3]
   L13_2 = L12_2
   L12_2 = L12_2.f6754453E
   L14_2 = true
   L12_2(L13_2, L14_2)
-  L13_2 = A0_2
-  L12_2 = A0_2.FBF62EA88D3098355
+  L13_2 = self
+  L12_2 = self.FBF62EA88D3098355
   L12_2(L13_2)
   L12_2 = cE35B3EB3
   L12_2 = L12_2.fB41FD22F
-  L13_2 = A0_2[2]
+  L13_2 = self[2]
   L12_2 = L12_2(L13_2)
-  A0_2[6] = L12_2
+  self[6] = L12_2
   L12_2 = nil
   L13_2 = cE35B3EB3
   L13_2 = L13_2.f67745D00
-  L14_2 = A0_2[6]
+  L14_2 = self[6]
   L15_2 = L12_2
   L13_2 = L13_2(L14_2, L15_2)
   if L13_2 then
-    L13_2 = A0_2[6]
+    L13_2 = self[6]
     L14_2 = L13_2
     L13_2 = L13_2.f558733FC
     L15_2 = 1
@@ -231,12 +227,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L14_2 = A1_2
   L13_2 = A1_2.fA6D1BE1D
   L15_2 = A3_2
-  L16_2 = A0_2[4]
+  L16_2 = self[4]
   L13_2(L14_2, L15_2, L16_2)
   L14_2 = A1_2
   L13_2 = A1_2.f1DE076B8
   L15_2 = A3_2
-  L16_2 = A0_2[3]
+  L16_2 = self[3]
   L13_2(L14_2, L15_2, L16_2)
   if A6_2 then
     L14_2 = A1_2
@@ -247,19 +243,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E4D1C6D199FFCD0"]["prototype"]
-L69_1 = "FBF62EA88D3098355"
-
-function L70_1(A0_2)
+--- main.ui.util.UIOffScreenModelUtil.SetupLod
+function C1E4D1C6D199FFCD0_prototype:FBF62EA88D3098355()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fD1703C5B
   L3_2 = 0
   L1_2(L2_2, L3_2)
   while true do
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.f5BCBC57C
     L1_2 = L1_2(L2_2)
@@ -272,22 +265,19 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E4D1C6D199FFCD0"]["prototype"]
-L69_1 = "F9D8974FF45A7D033"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.UIOffScreenModelUtil.F9D8974FF45A7D033
+function C1E4D1C6D199FFCD0_prototype:F9D8974FF45A7D033(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = nil
   L3_2 = cECB91E31
   L3_2 = L3_2.fB6A00A1B
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     return
   end
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = C0A41A503D1191D2F
   L4_2 = L4_2.SFA22B50412EF95B9
   L5_2 = A1_2
@@ -310,16 +300,13 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E4D1C6D199FFCD0"]["prototype"]
-L69_1 = "F5355D244FF2900B7"
-
-function L70_1(A0_2)
+--- main.ui.util.UIOffScreenModelUtil.F5355D244FF2900B7
+function C1E4D1C6D199FFCD0_prototype:F5355D244FF2900B7()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -331,7 +318,7 @@ function L70_1(A0_2)
   L4_2 = L4_2.fA32A6B81
   L5_2 = "SUB_STICK"
   L4_2 = L4_2(L5_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L4_2 = L4_2 * L5_2
   L5_2 = 0
   L2_2[1] = L3_2
@@ -339,7 +326,7 @@ function L70_1(A0_2)
   L2_2[3] = L5_2
   L3_2 = C7EA595BB1E217145
   L3_2 = L3_2.S8B8A69EFCA71ACDC
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
 end

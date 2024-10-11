@@ -1,3 +1,5 @@
+---@class C67C3F9799A25C281 : C67C3F9799A25C281_prototype
+---@field prototype C67C3F9799A25C281_prototype
 L55_1 = _ENV
 L56_1 = "C67C3F9799A25C281"
 L57_1 = L15_1
@@ -105,16 +107,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C67C3F9799A25C281"]
 L69_1 = "__name__"
 L70_1 = "C67C3F9799A25C281"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C67C3F9799A25C281"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C67C3F9799A25C281"]["prototype"]
-L69_1 = "F490AE049BDB3371C"
-
-function L70_1(A0_2, A1_2)
+---@class C67C3F9799A25C281_prototype
+C67C3F9799A25C281_prototype = L15_1()
+C67C3F9799A25C281.prototype = C67C3F9799A25C281_prototype
+--- C67C3F9799A25C281.GetDataArray
+function C67C3F9799A25C281_prototype:F490AE049BDB3371C(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = nil
   if 1 == A1_2 then
@@ -158,11 +155,8 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C67C3F9799A25C281"]["prototype"]
-L69_1 = "F6FDAC9ED27C45E04"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C67C3F9799A25C281.F6FDAC9ED27C45E04
+function C67C3F9799A25C281_prototype:F6FDAC9ED27C45E04(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = nil
   L4_2 = c016374C1
@@ -192,20 +186,20 @@ function L70_1(A0_2, A1_2, A2_2)
     return L6_2
   end
   L6_2 = false
-  L8_2 = A0_2
-  L7_2 = A0_2.F739C8A72D9681853
+  L8_2 = self
+  L7_2 = self.F739C8A72D9681853
   L9_2 = A1_2
   L7_2 = L7_2(L8_2, L9_2)
   if L7_2 then
-    L8_2 = A0_2
-    L7_2 = A0_2.F108C25E16D307B2C
+    L8_2 = self
+    L7_2 = self.F108C25E16D307B2C
     L9_2 = L4_2
     L10_2 = A1_2
     L7_2 = L7_2(L8_2, L9_2, L10_2)
     L6_2 = L7_2
   else
-    L8_2 = A0_2
-    L7_2 = A0_2.F4342942E6AFAAFEB
+    L8_2 = self
+    L7_2 = self.F4342942E6AFAAFEB
     L9_2 = L4_2
     L10_2 = A1_2
     L7_2 = L7_2(L8_2, L9_2, L10_2)
@@ -214,14 +208,11 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C67C3F9799A25C281"]["prototype"]
-L69_1 = "F4342942E6AFAAFEB"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C67C3F9799A25C281.F4342942E6AFAAFEB
+function C67C3F9799A25C281_prototype:F4342942E6AFAAFEB(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L3_2 = 0
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   while true do
     L5_2 = L4_2.length
     if not (L3_2 < L5_2) then
@@ -229,8 +220,8 @@ function L70_1(A0_2, A1_2, A2_2)
     end
     L5_2 = L4_2[L3_2]
     L3_2 = L3_2 + 1
-    L7_2 = A0_2
-    L6_2 = A0_2.FA56C3962D84975C5
+    L7_2 = self
+    L6_2 = self.FA56C3962D84975C5
     L8_2 = A2_2
     L10_2 = A1_2
     L9_2 = A1_2.fB0CF28AD
@@ -249,11 +240,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C67C3F9799A25C281"]["prototype"]
-L69_1 = "F108C25E16D307B2C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C67C3F9799A25C281.F108C25E16D307B2C
+function C67C3F9799A25C281_prototype:F108C25E16D307B2C(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = nil
   if 0 == A2_2 then
@@ -270,7 +258,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L8_2 = L19_1
   L6_2, L7_2, L8_2 = L6_2(L7_2, L8_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L5_2 = L5_2.h
   L5_2 = L5_2[L3_2]
   L6_2 = L42_1.tnull
@@ -281,14 +269,11 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C67C3F9799A25C281"]["prototype"]
-L69_1 = "F739C8A72D9681853"
-
-function L70_1(A0_2, A1_2)
+--- C67C3F9799A25C281.F739C8A72D9681853
+function C67C3F9799A25C281_prototype:F739C8A72D9681853(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -305,18 +290,15 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C67C3F9799A25C281"]["prototype"]
-L69_1 = "FA56C3962D84975C5"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C67C3F9799A25C281.FA56C3962D84975C5
+function C67C3F9799A25C281_prototype:FA56C3962D84975C5(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   if nil ~= L3_2 then
     L3_2 = 0
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L4_2 = L4_2.h
     L4_2 = L4_2[A1_2]
     L5_2 = L42_1.tnull

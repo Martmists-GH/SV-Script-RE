@@ -1,11 +1,8 @@
-L55_1 = _ENV
-L56_1 = "CB70DB0084AFDD907"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CB70DB0084AFDD907"]
-L69_1 = "new"
-L70_1 = {}
+---@alias CB70DB0084AFDD907 main_ui_net_btl_ui_NetworkBattleUIMessage
+
+---@class main_ui_net_btl_ui_NetworkBattleUIMessage
+CB70DB0084AFDD907 = L15_1()
+CB70DB0084AFDD907.new = {}
 L68_1[L69_1] = L70_1
 L68_1 = "CB70DB0084AFDD907"
 L69_1 = _ENV["CB70DB0084AFDD907"]
@@ -13,11 +10,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CB70DB0084AFDD907"]
 L69_1 = "__name__"
 L70_1 = "CB70DB0084AFDD907"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB70DB0084AFDD907"]
-L69_1 = "S9BE217E32E5DE9E3"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.ui.NetworkBattleUIMessage.StartMessageID
+function CB70DB0084AFDD907.S9BE217E32E5DE9E3(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CB70DB0084AFDD907
   L1_2 = L1_2.S7D05D34C291DA69E
@@ -36,11 +30,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB70DB0084AFDD907"]
-L69_1 = "S9CF4C87773E52996"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.net_btl.ui.NetworkBattleUIMessage.RegisterPlayerName
+function CB70DB0084AFDD907.S9CF4C87773E52996(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = CB70DB0084AFDD907
   L4_2 = L4_2.S959FD3B9C781D60B
@@ -53,11 +44,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB70DB0084AFDD907"]
-L69_1 = "S95F2BA259A724915"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.net_btl.ui.NetworkBattleUIMessage.ComRegisterPlayerName
+function CB70DB0084AFDD907.S95F2BA259A724915(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = CB70DB0084AFDD907
   L4_2 = L4_2.SA35C8E68C6B236DA
@@ -70,11 +58,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB70DB0084AFDD907"]
-L69_1 = "S7D05D34C291DA69E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.net_btl.ui.NetworkBattleUIMessage.StartMessage
+function CB70DB0084AFDD907.S7D05D34C291DA69E(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = CB70DB0084AFDD907
   L3_2.S272AE16878B2E07D = A0_2
@@ -160,11 +145,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB70DB0084AFDD907"]
-L69_1 = "SEB6685558281F194"
-
-function L70_1()
+--- main.ui.net_btl.ui.NetworkBattleUIMessage.Update
+function CB70DB0084AFDD907.SEB6685558281F194()
   local L0_2, L1_2
   L0_2 = CB70DB0084AFDD907
   L0_2 = L0_2.SADD21CDF47DE0A50
@@ -186,11 +168,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB70DB0084AFDD907"]
-L69_1 = "SA64ABBE5B55E89E0"
-
-function L70_1()
+--- main.ui.net_btl.ui.NetworkBattleUIMessage.Wait
+function CB70DB0084AFDD907.SA64ABBE5B55E89E0()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L0_2 = CB70DB0084AFDD907
   L0_2 = L0_2.SADD21CDF47DE0A50
@@ -276,11 +255,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB70DB0084AFDD907"]
-L69_1 = "S84E00A89DFBC380C"
-
-function L70_1()
+--- main.ui.net_btl.ui.NetworkBattleUIMessage.HideMessage
+function CB70DB0084AFDD907.S84E00A89DFBC380C()
   local L0_2, L1_2
   L0_2 = CF1D9D619D324F233
   L0_2 = L0_2.S84E00A89DFBC380C
@@ -289,22 +265,16 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB70DB0084AFDD907"]
-L69_1 = "S05CC708B4B258959"
-
-function L70_1()
+--- main.ui.net_btl.ui.NetworkBattleUIMessage.GetResultContext
+function CB70DB0084AFDD907.S05CC708B4B258959()
   local L0_2, L1_2
   L0_2 = CF1D9D619D324F233
   L0_2 = L0_2.S036FE38553339EEE
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB70DB0084AFDD907"]
-L69_1 = "S35D93EC78C27896E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.ui.NetworkBattleUIMessage.StartComMessageID
+function CB70DB0084AFDD907.S35D93EC78C27896E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = false
@@ -327,11 +297,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB70DB0084AFDD907"]
-L69_1 = "SEEC764BD5D5780A3"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.net_btl.ui.NetworkBattleUIMessage.StartComMessage
+function CB70DB0084AFDD907.SEEC764BD5D5780A3(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A3_2 then
     A3_2 = false

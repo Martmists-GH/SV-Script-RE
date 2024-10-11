@@ -1,3 +1,5 @@
+---@class C90C07C6DD814971C : C90C07C6DD814971C_prototype
+---@field prototype C90C07C6DD814971C_prototype
 L55_1 = _ENV
 L56_1 = "C90C07C6DD814971C"
 L57_1 = L15_1
@@ -37,23 +39,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C90C07C6DD814971C"]
 L69_1 = "__name__"
 L70_1 = "C90C07C6DD814971C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C90C07C6DD814971C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C90C07C6DD814971C"]["prototype"]
-L69_1 = "F8E6075EFA415C80B"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class C90C07C6DD814971C_prototype
+C90C07C6DD814971C_prototype = L15_1()
+C90C07C6DD814971C.prototype = C90C07C6DD814971C_prototype
+--- C90C07C6DD814971C.F8E6075EFA415C80B
+function C90C07C6DD814971C_prototype:F8E6075EFA415C80B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = nil
   if A2_2 == L3_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     A2_2 = L4_2.length
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2.length
   L5_2 = A2_2 < 0
   
@@ -75,13 +72,13 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L6_2 = L6_2()
   if L6_2 then
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = L6_2
     L6_2 = L6_2.resize
     L8_2 = A2_2 + 1
     L6_2(L7_2, L8_2)
   end
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L6_2[A2_2] = A1_2
   return A1_2
 end

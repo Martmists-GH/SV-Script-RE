@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C58981921B0B96786"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C58981921B0B96786"]
-L69_1 = "new"
+---@alias C58981921B0B96786 main_system_game_event_GameEventGrantExpPoke
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventGrantExpPoke : C58981921B0B96786_prototype
+---@field prototype C58981921B0B96786_prototype
+C58981921B0B96786 = L15_1()
+function C58981921B0B96786.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = C58981921B0B96786
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C58981921B0B96786"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 C58981921B0B96786
+function C58981921B0B96786.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   A0_2[19] = 30
   A0_2[18] = 1.0
@@ -39,11 +33,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C58981921B0B96786"]
-L69_1 = "__name__"
-L70_1 = "C58981921B0B96786"
-L68_1[L69_1] = L70_1
+C58981921B0B96786.__name__ = "C58981921B0B96786"
 L68_1 = _ENV["C58981921B0B96786"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -70,20 +60,15 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C58981921B0B96786"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C58981921B0B96786"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+---@class C58981921B0B96786_prototype
+C58981921B0B96786_prototype = L15_1()
+C58981921B0B96786.prototype = C58981921B0B96786_prototype
+--- main.system.game_event.GameEventGrantExpPoke.onUpdate
+function C58981921B0B96786_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   L1_2 = true
   L2_2 = 0
-  L3_2 = A0_2[17]
+  L3_2 = self[17]
   L3_2 = L3_2.getExpArray
   while true do
     L4_2 = L3_2.length
@@ -101,7 +86,7 @@ function L70_1(A0_2)
     L4_2 = 2
     return L4_2
   end
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.getExpArray
   L4_2 = L4_2.length
   L5_2 = c03C8030E
@@ -132,7 +117,7 @@ function L70_1(A0_2)
       L13_2 = 2
       L11_2 = L11_2(L12_2, L13_2)
       if L11_2 then
-        L11_2 = A0_2[17]
+        L11_2 = self[17]
         L11_2 = L11_2.getExpArray
         L11_2[L10_2] = 0
       end
@@ -154,7 +139,7 @@ function L70_1(A0_2)
   L11_2 = C887E2CF46CDFCF41
   L11_2 = L11_2.SDA66571CB43AD463
   L12_2 = L5_2
-  L13_2 = A0_2[17]
+  L13_2 = self[17]
   L13_2 = L13_2.getExpArray
   L11_2(L12_2, L13_2)
   L11_2 = C887E2CF46CDFCF41
@@ -169,7 +154,7 @@ function L70_1(A0_2)
   L12_2 = true
   L11_2 = L11_2(L12_2)
   L12_2 = false
-  L13_2 = A0_2[18]
+  L13_2 = self[18]
   if nil == L13_2 then
     L13_2 = 0
   end
@@ -277,7 +262,7 @@ function L70_1(A0_2)
       L23_2 = L20_2
       L22_2 = L20_2.fD2EF1BBB
       L22_2 = L22_2(L23_2)
-      L23_2 = A0_2[19]
+      L23_2 = self[19]
       L24_2 = L22_2 < 0
       
       function L25_2()
@@ -346,10 +331,10 @@ function L70_1(A0_2)
     L21_2 = nil
     L20_2(L21_2)
   end
-  L20_2 = A0_2[17]
+  L20_2 = self[17]
   L20_2 = L20_2.isBtlResultUIWait
   if nil ~= L20_2 then
-    L20_2 = A0_2[17]
+    L20_2 = self[17]
     L20_2 = L20_2.isBtlResultUIWait
     if true == L20_2 then
       while true do

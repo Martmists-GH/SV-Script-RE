@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C59AFF27357967808"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C59AFF27357967808"]
-L69_1 = "new"
+---@alias C59AFF27357967808 main_system_game_event_GameEventEncount
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventEncount : C59AFF27357967808_prototype
+---@field prototype C59AFF27357967808_prototype
+C59AFF27357967808 = L15_1()
+function C59AFF27357967808.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = C59AFF27357967808
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 C59AFF27357967808
+function C59AFF27357967808.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   A0_2[26] = 0
   L3_2 = E632E770702F22F60
@@ -43,11 +37,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]
-L69_1 = "__name__"
-L70_1 = "C59AFF27357967808"
-L68_1[L69_1] = L70_1
+C59AFF27357967808.__name__ = "C59AFF27357967808"
 L68_1 = _ENV["C59AFF27357967808"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -228,11 +218,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]
-L69_1 = "S39B168FF4846A5D0"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEncount.IsSleeping
+function C59AFF27357967808.S39B168FF4846A5D0(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A0_2 then
     L1_2 = false
@@ -283,11 +270,8 @@ function L70_1(A0_2)
   return L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]
-L69_1 = "S52F41086C74BA82A"
-
-function L70_1()
+--- main.system.game_event.GameEventEncount.IsKnockbackStatus
+function C59AFF27357967808.S52F41086C74BA82A()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.SDE9EF3CFD428417D
@@ -323,11 +307,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]
-L69_1 = "SD826D7C5869739D7"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEncount.PlayerKnockback
+function C59AFF27357967808.SD826D7C5869739D7(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S93A017D496A6D000
@@ -375,16 +356,11 @@ function L70_1(A0_2)
   L14_2(L15_2, L16_2, L17_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2)
+---@class C59AFF27357967808_prototype
+C59AFF27357967808_prototype = L15_1()
+C59AFF27357967808.prototype = C59AFF27357967808_prototype
+--- main.system.game_event.GameEventEncount.onInitialize
+function C59AFF27357967808_prototype:F239C282ED3F82676()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -408,14 +384,14 @@ function L70_1(A0_2)
       return L2_2
     end
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FBAADB6650BF4B8E8
+  L3_2 = self
+  L2_2 = self.FBAADB6650BF4B8E8
   L2_2 = L2_2(L3_2)
   if not L2_2 then
     L2_2 = 1
     return L2_2
   end
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   L2_2 = L2_2.isBackAttack
   if L2_2 then
     L2_2 = C00099C1DFBF96B11
@@ -430,9 +406,9 @@ function L70_1(A0_2)
     L6_2 = 1
     L2_2(L3_2, L4_2, L5_2, L6_2)
   end
-  L2_2 = A0_2[19]
+  L2_2 = self[19]
   if nil ~= L2_2 then
-    L2_2 = A0_2[19]
+    L2_2 = self[19]
     L2_2 = L2_2[53]
     if L2_2 then
       L2_2 = 0
@@ -472,12 +448,12 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f4555D276
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.ballObject
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[17]
+    L3_2 = self[17]
     L3_2 = L3_2.encountPoke
     L4_2 = cECB91E31
     L4_2 = L4_2.fB41FD22F
@@ -496,7 +472,7 @@ function L70_1(A0_2)
     
     L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2 = L5_2()
     L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
-    L5_2 = A0_2[17]
+    L5_2 = self[17]
     L5_2 = L5_2.encountPoke
     L6_2 = C5A1B1F295B2A231A
     L6_2 = L6_2.S9C660A3B7A4323C1
@@ -517,7 +493,7 @@ function L70_1(A0_2)
     L8_2 = L4_2
     L9_2 = "eff_headcenter01"
     L6_2 = L6_2(L7_2, L8_2, L9_2)
-    L7_2 = A0_2[17]
+    L7_2 = self[17]
     L7_2 = L7_2.encountPoke
     L8_2 = C2327240ACCAC0F06
     L8_2 = L8_2.SCB7FFF6089740353
@@ -559,16 +535,13 @@ function L70_1(A0_2)
   end
   L3_2 = E74199BDEC018C7D5
   L3_2 = L3_2.Init
-  A0_2[20] = L3_2
+  self[20] = L3_2
   L3_2 = 0
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]["prototype"]
-L69_1 = "F9823F695150208FE"
-
-function L70_1(A0_2, A1_2)
+--- main.system.game_event.GameEventEncount.F9823F695150208FE
+function C59AFF27357967808_prototype:F9823F695150208FE(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = c2CA78EB7
   L2_2 = L2_2.f0C0792E0
@@ -609,11 +582,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEncount.onCreate
+function C59AFF27357967808_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L16_1
   L2_2 = {}
@@ -642,30 +612,27 @@ function L70_1(A0_2)
       L1_2.strParams = L2_2
     end
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2[28] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEncount.onUpdate
+function C59AFF27357967808_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L1_2 = A0_2
-  L2_2 = A0_2[20]
+  L1_2 = self
+  L2_2 = self[20]
   L2_2 = L2_2[1]
   if 0 == L2_2 then
     L3_2 = nil
     L4_2 = nil
     L5_2 = c016374C1
     L5_2 = L5_2.f4555D276
-    L6_2 = A0_2[17]
+    L6_2 = self[17]
     L6_2 = L6_2.ballObject
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
     if L5_2 then
-      L5_2 = A0_2[17]
+      L5_2 = self[17]
       L5_2 = L5_2.encountPoke
       L6_2 = C42D11EE6DC41D8CE
       L6_2 = L6_2.S198188BEE0D950D4
@@ -689,10 +656,10 @@ function L70_1(A0_2)
       L3_2 = false
     end
     if L3_2 then
-      L5_2 = A0_2[17]
+      L5_2 = self[17]
       L5_2 = L5_2.encountPoke
-      L7_2 = A0_2
-      L6_2 = A0_2.F9823F695150208FE
+      L7_2 = self
+      L6_2 = self.F9823F695150208FE
       
       function L8_2()
         local L0_3, L1_3
@@ -730,11 +697,11 @@ function L70_1(A0_2)
       L8_2 = 0
       return L8_2
     end
-    L9_2 = A0_2
-    L8_2 = A0_2.F7590F38FF62B6002
+    L9_2 = self
+    L8_2 = self.F7590F38FF62B6002
     L8_2 = L8_2(L9_2)
     if L8_2 then
-      L8_2 = A0_2[17]
+      L8_2 = self[17]
       L8_2 = L8_2.encountPoke
       L9_2 = nil
       L10_2 = cC1C0FEFA
@@ -761,32 +728,32 @@ function L70_1(A0_2)
       if L10_2 then
         L10_2 = E74199BDEC018C7D5
         L10_2 = L10_2.NetInitStart
-        A0_2[20] = L10_2
+        self[20] = L10_2
         L10_2 = 1
         return L10_2
       else
         L10_2 = cBB54324F
         L10_2 = L10_2.fC080A612
         L10_2 = L10_2()
-        A0_2[26] = L10_2
-        L10_2 = A0_2[26]
+        self[26] = L10_2
+        L10_2 = self[26]
         if 2 ~= L10_2 then
           L10_2 = cBB54324F
           L10_2 = L10_2.fD413187D
           L11_2 = 1
           L10_2(L11_2)
         end
-        L11_2 = A0_2
-        L10_2 = A0_2.F97B7A02FD3401ACD
+        L11_2 = self
+        L10_2 = self.F97B7A02FD3401ACD
         L10_2(L11_2)
       end
     else
-      L9_2 = A0_2
-      L8_2 = A0_2.F97B7A02FD3401ACD
+      L9_2 = self
+      L8_2 = self.F97B7A02FD3401ACD
       L8_2(L9_2)
     end
   elseif 1 == L2_2 then
-    L3_2 = A0_2[17]
+    L3_2 = self[17]
     L3_2 = L3_2.encountPoke
     L4_2 = c2CA78EB7
     L4_2 = L4_2.fD9478137
@@ -831,25 +798,25 @@ function L70_1(A0_2)
     if L4_2 then
       L4_2 = E74199BDEC018C7D5
       L4_2 = L4_2.NetInitWait
-      A0_2[20] = L4_2
+      self[20] = L4_2
     else
       L4_2 = 2
       return L4_2
     end
   elseif 2 == L2_2 then
-    L3_2 = A0_2[25]
+    L3_2 = self[25]
     L3_2 = L3_2[1]
     if 0 == L3_2 then
       L4_2 = 0
       return L4_2
     elseif 1 == L3_2 then
-      L4_2 = A0_2[17]
+      L4_2 = self[17]
       L4_2 = L4_2.encountPoke
       if nil == L4_2 then
         L4_2 = 2
         return L4_2
       end
-      L4_2 = A0_2[17]
+      L4_2 = self[17]
       L4_2 = L4_2.encountPoke
       L5_2 = nil
       L6_2 = c4E28AB7C
@@ -880,15 +847,15 @@ function L70_1(A0_2)
       L6_2 = cBB54324F
       L6_2 = L6_2.fC080A612
       L6_2 = L6_2()
-      A0_2[26] = L6_2
-      L6_2 = A0_2[26]
+      self[26] = L6_2
+      L6_2 = self[26]
       if 2 ~= L6_2 then
         L6_2 = cBB54324F
         L6_2 = L6_2.fD413187D
         L7_2 = 1
         L6_2(L7_2)
       end
-      L6_2 = A0_2[17]
+      L6_2 = self[17]
       L6_2 = L6_2.encountPoke
       L7_2 = cB8F92879
       L7_2 = L7_2.f8CBFEA0B
@@ -907,21 +874,21 @@ function L70_1(A0_2)
       
       L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2 = L8_2()
       L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
-      L8_2 = A0_2
-      L7_2 = A0_2.FCAB891F929972FFE
+      L8_2 = self
+      L7_2 = self.FCAB891F929972FFE
       L7_2(L8_2)
-      L8_2 = A0_2
-      L7_2 = A0_2.F97B7A02FD3401ACD
+      L8_2 = self
+      L7_2 = self.F97B7A02FD3401ACD
       L7_2(L8_2)
     elseif 2 == L3_2 then
       L4_2 = 2
       return L4_2
     end
   elseif 3 == L2_2 then
-    L3_2 = A0_2[22]
+    L3_2 = self[22]
     if nil == L3_2 then
-      L3_2 = A0_2[23]
-      L4_2 = A0_2[3]
+      L3_2 = self[23]
+      L4_2 = self[3]
       L5_2 = L4_2
       L4_2 = L4_2.f22D509B2
       L6_2 = 2
@@ -930,26 +897,26 @@ function L70_1(A0_2)
       L4_2 = L4_2.fC0E2CAD0
       L4_2 = L4_2(L5_2)
       L3_2 = L3_2 - L4_2
-      A0_2[23] = L3_2
-      L3_2 = A0_2[23]
+      self[23] = L3_2
+      L3_2 = self[23]
       if L3_2 < 0 then
         L3_2 = L31_1.string
         L4_2 = "encount_"
         L3_2 = L3_2(L4_2)
         L4_2 = L31_1.string
-        L5_2 = A0_2[18]
+        L5_2 = self[18]
         L6_2 = L5_2
         L5_2 = L5_2.FC95685167B63F601
         L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2 = L5_2(L6_2)
         L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
         L3_2 = L3_2 .. L4_2
-        A0_2[22] = L3_2
-        L3_2 = A0_2[18]
+        self[22] = L3_2
+        L3_2 = self[18]
         L3_2 = L3_2[10]
         L4_2 = L3_2
         L3_2 = L3_2.FE2B0F655375C9D87
         L3_2 = L3_2(L4_2)
-        L4_2 = A0_2[22]
+        L4_2 = self[22]
         L6_2 = L3_2
         L5_2 = L3_2.f98B5C529
         L5_2, L6_2, L7_2 = L5_2(L6_2)
@@ -1007,46 +974,46 @@ function L70_1(A0_2)
         L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
       end
     end
-    L3_2 = A0_2[18]
+    L3_2 = self[18]
     L4_2 = L3_2
     L3_2 = L3_2.F640C3B2CAC905B11
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L3_2 = A0_2[18]
+      L3_2 = self[18]
       L4_2 = L3_2
       L3_2 = L3_2.F4D67EEC9E329A2E7
       L3_2 = L3_2(L4_2)
       if L3_2 then
         L3_2 = CF691A32ECACF4ACF
         L3_2 = L3_2.SF5277C19AA8AF2E4
-        L4_2 = A0_2[17]
+        L4_2 = self[17]
         L4_2 = L4_2.encountPoke
-        L5_2 = A0_2[18]
+        L5_2 = self[18]
         L3_2(L4_2, L5_2)
       else
         L3_2 = C889F6553EDFCD011
         L3_2 = L3_2.SFCE091807173F6E9
         L4_2 = 0
-        L5_2 = A0_2[19]
-        L6_2 = A0_2[18]
+        L5_2 = self[19]
+        L6_2 = self[18]
         L7_2 = L6_2
         L6_2 = L6_2.F357A65DD82CA566E
         L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2 = L6_2(L7_2)
         L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
         L3_2 = C6C53F5DDF74F5897
         L3_2 = L3_2.S78A4E2BC73E26A22
-        L4_2 = A0_2[18]
+        L4_2 = self[18]
         L3_2(L4_2)
       end
       L3_2 = E74199BDEC018C7D5
       L3_2 = L3_2.End
-      A0_2[20] = L3_2
+      self[20] = L3_2
     end
   elseif 4 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FA0B1BC7F8336E40B
+    L4_2 = self
+    L3_2 = self.FA0B1BC7F8336E40B
     L3_2(L4_2)
-    L3_2 = A0_2[21]
+    L3_2 = self[21]
     if "fp_448_jw" == L3_2 then
       L3_2 = C0D02CEE5FD6D6D49
       L3_2 = L3_2.SFCE091807173F6E9
@@ -1065,34 +1032,28 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEncount.onFinished
+function C59AFF27357967808_prototype:F68499476069C0B1E()
   local L1_2, L2_2
-  A0_2[19] = nil
-  A0_2[18] = nil
-  L1_2 = A0_2[22]
+  self[19] = nil
+  self[18] = nil
+  L1_2 = self[22]
   if nil ~= L1_2 then
     L1_2 = CF0DEE4ECC004F8C6
     L1_2 = L1_2.S27F22D6813E3BE44
-    L2_2 = A0_2[22]
+    L2_2 = self[22]
     L1_2(L2_2)
   end
   L1_2 = cBB54324F
   L1_2 = L1_2.fD413187D
-  L2_2 = A0_2[26]
+  L2_2 = self[26]
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]["prototype"]
-L69_1 = "FBAADB6650BF4B8E8"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEncount.CreateBattleSetupData
+function C59AFF27357967808_prototype:FBAADB6650BF4B8E8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L1_2 = L1_2.encountPoke
   if nil == L1_2 then
     L1_2 = false
@@ -1101,10 +1062,10 @@ function L70_1(A0_2)
   L1_2 = C2D7F486425487755
   L1_2 = L1_2.new
   L1_2 = L1_2()
-  A0_2[19] = L1_2
-  L1_2 = A0_2[17]
+  self[19] = L1_2
+  L1_2 = self[17]
   L1_2 = L1_2.encountPoke
-  L2_2 = A0_2[19]
+  L2_2 = self[19]
   L3_2 = L2_2
   L2_2 = L2_2.F6C0CA27ACB2FEEAF
   
@@ -1122,66 +1083,66 @@ function L70_1(A0_2)
   
   L4_2 = L4_2()
   L5_2 = false
-  L7_2 = A0_2
-  L6_2 = A0_2.F7590F38FF62B6002
+  L7_2 = self
+  L6_2 = self.F7590F38FF62B6002
   L6_2 = L6_2(L7_2)
-  L7_2 = A0_2[17]
+  L7_2 = self[17]
   L7_2 = L7_2.isBackAttack
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-  L2_2 = A0_2[19]
+  L2_2 = self[19]
   L3_2 = L58_1
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.isBackAttack
   L3_2 = L3_2(L4_2)
   L2_2[33] = L3_2
-  L2_2 = A0_2[19]
+  L2_2 = self[19]
   L3_2 = L58_1
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.isSleeping
   L3_2 = L3_2(L4_2)
   L2_2[34] = L3_2
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f8C7D4F4D
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.ballObject
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[19]
+    L3_2 = self[19]
     L4_2 = L58_1
-    L5_2 = A0_2[17]
+    L5_2 = self[17]
     L5_2 = L5_2.ballObject
     L4_2 = L4_2(L5_2)
     L3_2[36] = L4_2
-    L3_2 = A0_2[19]
+    L3_2 = self[19]
     L3_2[35] = 0
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F7590F38FF62B6002
+  L4_2 = self
+  L3_2 = self.F7590F38FF62B6002
   L3_2 = L3_2(L4_2)
   if L3_2 then
-    L3_2 = A0_2[19]
+    L3_2 = self[19]
     L4_2 = cEE005CCF
     L4_2 = L4_2.f74FA2B05
     L4_2 = L4_2()
     L3_2[68] = L4_2
-    L3_2 = A0_2[19]
+    L3_2 = self[19]
     L3_2[81] = true
-    L3_2 = A0_2[19]
+    L3_2 = self[19]
     L4_2 = cEE005CCF
     L4_2 = L4_2.f8B496013
-    L5_2 = A0_2[19]
+    L5_2 = self[19]
     L5_2 = L5_2[68]
     L4_2 = L4_2(L5_2)
     L3_2[82] = L4_2
-    L3_2 = A0_2[19]
+    L3_2 = self[19]
     L4_2 = L3_2
     L3_2 = L3_2.F6211E1B9E3520C48
-    L5_2 = A0_2[19]
+    L5_2 = self[19]
     L5_2 = L5_2[82]
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[19]
+    L3_2 = self[19]
     L3_2 = L3_2[82]
     L4_2 = L3_2
     L3_2 = L3_2.fD8E195CA
@@ -1189,12 +1150,12 @@ function L70_1(A0_2)
     L5_2 = L5_2.SCA6CA24F2EA5840C
     L5_2, L6_2, L7_2, L8_2 = L5_2()
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
-    L3_2 = A0_2[19]
+    L3_2 = self[19]
     L3_2 = L3_2[82]
     L5_2 = L3_2
     L4_2 = L3_2.f4891D27C
     L6_2 = L52_1.__cast
-    L7_2 = A0_2[19]
+    L7_2 = self[19]
     L7_2 = L7_2[19]
     L8_2 = L19_1
     L6_2, L7_2, L8_2 = L6_2(L7_2, L8_2)
@@ -1202,7 +1163,7 @@ function L70_1(A0_2)
     L5_2 = L3_2
     L4_2 = L3_2.fD185AB33
     L6_2 = L52_1.__cast
-    L7_2 = A0_2[19]
+    L7_2 = self[19]
     L7_2 = L7_2[19]
     L8_2 = L19_1
     L6_2 = L6_2(L7_2, L8_2)
@@ -1215,52 +1176,43 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]["prototype"]
-L69_1 = "F97B7A02FD3401ACD"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEncount.StartBattle
+function C59AFF27357967808_prototype:F97B7A02FD3401ACD()
   local L1_2, L2_2
   L1_2 = C6C53F5DDF74F5897
   L1_2 = L1_2.S8EE5537A8C98172D
-  L2_2 = A0_2[19]
+  L2_2 = self[19]
   L1_2(L2_2)
   L1_2 = C6C53F5DDF74F5897
   L1_2 = L1_2.SC10246118071CC26
-  L2_2 = A0_2[19]
+  L2_2 = self[19]
   L1_2 = L1_2(L2_2)
-  A0_2[18] = L1_2
-  L1_2 = A0_2[17]
+  self[18] = L1_2
+  L1_2 = self[17]
   L1_2 = L1_2.encountPoke
   L1_2 = L1_2.owner
   L2_2 = L1_2
   L1_2 = L1_2.fE9C29DA1
   L1_2 = L1_2(L2_2)
-  A0_2[21] = L1_2
+  self[21] = L1_2
   L1_2 = E74199BDEC018C7D5
   L1_2 = L1_2.Battle
-  A0_2[20] = L1_2
+  self[20] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]["prototype"]
-L69_1 = "F7590F38FF62B6002"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEncount.IsNetworkMode
+function C59AFF27357967808_prototype:F7590F38FF62B6002()
   local L1_2
   L1_2 = c2A8846F6
   L1_2 = L1_2.f3E170423
   return L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]["prototype"]
-L69_1 = "FCAB891F929972FFE"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEncount.BroadcastSetupParam
+function C59AFF27357967808_prototype:FCAB891F929972FFE()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F7590F38FF62B6002
+  L2_2 = self
+  L1_2 = self.F7590F38FF62B6002
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     return
@@ -1271,11 +1223,11 @@ function L70_1(A0_2)
   L2_2 = L2_2.S30ED99F3BA06F16A
   L2_2, L3_2, L4_2, L5_2, L6_2, L7_2 = L2_2()
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2)
-  A0_2[24] = L1_2
+  self[24] = L1_2
   L1_2 = nil
   L2_2 = cD0E10A32
   L2_2 = L2_2.f94A96AB5
-  L3_2 = A0_2[24]
+  L3_2 = self[24]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -1284,17 +1236,17 @@ function L70_1(A0_2)
     L2_2 = L2_2()
     L4_2 = L2_2
     L3_2 = L2_2.f88CA952A
-    L5_2 = A0_2[19]
+    L5_2 = self[19]
     L5_2 = L5_2[82]
     L3_2(L4_2, L5_2)
     L4_2 = L2_2
     L3_2 = L2_2.f47519EC5
-    L5_2 = A0_2[19]
+    L5_2 = self[19]
     L5_2 = L5_2[49]
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[17]
+    L3_2 = self[17]
     L3_2 = L3_2.encountPoke
-    L4_2 = A0_2[24]
+    L4_2 = self[24]
     L5_2 = L4_2
     L4_2 = L4_2.f556D4351
     L6_2 = L2_2
@@ -1316,14 +1268,11 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59AFF27357967808"]["prototype"]
-L69_1 = "FA0B1BC7F8336E40B"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEncount.BroadcastEndBattle
+function C59AFF27357967808_prototype:FA0B1BC7F8336E40B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F7590F38FF62B6002
+  L2_2 = self
+  L1_2 = self.F7590F38FF62B6002
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     return
@@ -1334,18 +1283,18 @@ function L70_1(A0_2)
   L2_2 = L2_2.S30ED99F3BA06F16A
   L2_2, L3_2, L4_2, L5_2, L6_2 = L2_2()
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  A0_2[24] = L1_2
+  self[24] = L1_2
   L1_2 = nil
   L2_2 = cD0E10A32
   L2_2 = L2_2.f94A96AB5
-  L3_2 = A0_2[24]
+  L3_2 = self[24]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = cF459D581
     L2_2 = L2_2.f101D811F
     L2_2 = L2_2()
-    L3_2 = A0_2[24]
+    L3_2 = self[24]
     L4_2 = L3_2
     L3_2 = L3_2.f556D4351
     L5_2 = L2_2

@@ -1,3 +1,7 @@
+---@alias CD447F165B150550D main_nushi_hiko_HikoNushi020DammyActor
+
+---@class main_nushi_hiko_HikoNushi020DammyActor : CD447F165B150550D_prototype
+---@field prototype CD447F165B150550D_prototype
 L55_1 = _ENV
 L56_1 = "C80979966ECB966DD"
 L57_1 = L15_1
@@ -38,11 +42,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C80979966ECB966DD"]
 L69_1 = "__name__"
 L70_1 = "C80979966ECB966DD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80979966ECB966DD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CD447F165B150550D_prototype
+CD447F165B150550D_prototype = L15_1()
+CD447F165B150550D.prototype = CD447F165B150550D_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C80979966ECB966DD"]["prototype"]
 L69_1 = _ENV["C80979966ECB966DD"]

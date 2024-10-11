@@ -1,3 +1,7 @@
+---@alias CD36F8201F6F4916D main_event_general_paralleled_ParallelPlayerCreation
+
+---@class main_event_general_paralleled_ParallelPlayerCreation : CD36F8201F6F4916D_prototype
+---@field prototype CD36F8201F6F4916D_prototype
 L55_1 = _ENV
 L56_1 = "CD36F8201F6F4916D"
 L57_1 = L15_1
@@ -45,18 +49,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD36F8201F6F4916D"]
 L69_1 = "__name__"
 L70_1 = "CD36F8201F6F4916D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD36F8201F6F4916D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD36F8201F6F4916D"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CD36F8201F6F4916D_prototype
+CD36F8201F6F4916D_prototype = L15_1()
+CD36F8201F6F4916D.prototype = CD36F8201F6F4916D_prototype
+--- main.event.general.paralleled.ParallelPlayerCreation.onCreate
+function CD36F8201F6F4916D_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C196136934693419F
   L2_2 = L2_2.new
   L3_2 = CD36F8201F6F4916D
@@ -96,21 +95,18 @@ function L70_1(A0_2)
   end
   
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
-  A0_2[33] = L2_2
+  self[33] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD36F8201F6F4916D"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelPlayerCreation.mainBody
+function CD36F8201F6F4916D_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   while true do
-    L1_2 = A0_2[33]
+    L1_2 = self[33]
     L2_2 = L1_2
     L1_2 = L1_2.FEB6685558281F194
     L1_2(L2_2)
-    L1_2 = A0_2[33]
+    L1_2 = self[33]
     L2_2 = L1_2
     L1_2 = L1_2.F4FF8AC4D684C747E
     L1_2 = L1_2(L2_2)

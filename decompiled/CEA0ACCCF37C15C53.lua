@@ -1,3 +1,5 @@
+---@class CEA0ACCCF37C15C53 : CEA0ACCCF37C15C53_prototype
+---@field prototype CEA0ACCCF37C15C53_prototype
 L55_1 = _ENV
 L56_1 = "CEA0ACCCF37C15C53"
 L57_1 = L15_1
@@ -43,19 +45,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CEA0ACCCF37C15C53"]
 L69_1 = "__name__"
 L70_1 = "CEA0ACCCF37C15C53"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA0ACCCF37C15C53"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEA0ACCCF37C15C53"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CEA0ACCCF37C15C53_prototype
+CEA0ACCCF37C15C53_prototype = L15_1()
+CEA0ACCCF37C15C53.prototype = CEA0ACCCF37C15C53_prototype
+--- CEA0ACCCF37C15C53.Setup
+function CEA0ACCCF37C15C53_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  A0_2[1] = A1_2
-  L2_2 = A0_2[2]
+  self[1] = A1_2
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.resize
   L4_2 = 9
@@ -126,12 +123,12 @@ function L70_1(A0_2, A1_2)
     L9_2 = L9_2(L10_2, L11_2)
     L8_2.maxGenerationNum = L9_2
     L7_2 = L7_2(L8_2)
-    L8_2 = A0_2[2]
+    L8_2 = self[2]
     L9_2 = L7_2.type
     L8_2[L9_2] = L7_2
   end
-  A0_2[4] = true
-  L5_2 = A0_2[3]
+  self[4] = true
+  L5_2 = self[3]
   L7_2 = L5_2
   L6_2 = L5_2.keys
   L6_2 = L6_2(L7_2)
@@ -148,7 +145,7 @@ function L70_1(A0_2, A1_2)
     L9_2 = L6_2.next
     L9_2, L10_2, L11_2 = L9_2(L10_2)
     L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2)
-    L8_2 = A0_2[2]
+    L8_2 = self[2]
     L9_2 = L7_2.type
     L8_2 = L8_2[L9_2]
     if nil ~= L8_2 then

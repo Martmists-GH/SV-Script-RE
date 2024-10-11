@@ -1,3 +1,7 @@
+---@alias C75E4E6BDA6D903D0 main_bgm_BGMEvent
+
+---@class main_bgm_BGMEvent : C75E4E6BDA6D903D0_prototype
+---@field prototype C75E4E6BDA6D903D0_prototype
 L55_1 = _ENV
 L56_1 = "C75E4E6BDA6D903D0"
 L57_1 = L15_1
@@ -36,32 +40,24 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C75E4E6BDA6D903D0"]
 L69_1 = "__name__"
 L70_1 = "C75E4E6BDA6D903D0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75E4E6BDA6D903D0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75E4E6BDA6D903D0"]["prototype"]
-L69_1 = "FE43A294AF83BCB7D"
-
-function L70_1(A0_2, A1_2)
+---@class C75E4E6BDA6D903D0_prototype
+C75E4E6BDA6D903D0_prototype = L15_1()
+C75E4E6BDA6D903D0.prototype = C75E4E6BDA6D903D0_prototype
+--- main.bgm.BGMEvent.AddCommand
+function C75E4E6BDA6D903D0_prototype:FE43A294AF83BCB7D(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.push
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75E4E6BDA6D903D0"]["prototype"]
-L69_1 = "F866E66DA26EE7358"
-
-function L70_1(A0_2)
+--- main.bgm.BGMEvent.Execute
+function C75E4E6BDA6D903D0_prototype:F866E66DA26EE7358()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -75,14 +71,11 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75E4E6BDA6D903D0"]["prototype"]
-L69_1 = "F77F7339CE102110B"
-
-function L70_1(A0_2, A1_2)
+--- main.bgm.BGMEvent.SetOverride
+function C75E4E6BDA6D903D0_prototype:F77F7339CE102110B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then

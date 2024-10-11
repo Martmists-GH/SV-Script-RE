@@ -1,3 +1,7 @@
+---@alias C57DA66ED70A46A23 main_ui_dressup_style_data_DressupUIStyleData
+
+---@class main_ui_dressup_style_data_DressupUIStyleData : C57DA66ED70A46A23_prototype
+---@field prototype C57DA66ED70A46A23_prototype
 L55_1 = _ENV
 L56_1 = "CD996052A031EF86F"
 L57_1 = L15_1
@@ -48,11 +52,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD996052A031EF86F"]
 L69_1 = "__name__"
 L70_1 = "CD996052A031EF86F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD996052A031EF86F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C57DA66ED70A46A23_prototype
+C57DA66ED70A46A23_prototype = L15_1()
+C57DA66ED70A46A23.prototype = C57DA66ED70A46A23_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD996052A031EF86F"]["prototype"]
 L69_1 = _ENV["CD996052A031EF86F"]

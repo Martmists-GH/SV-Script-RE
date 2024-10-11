@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C633B39AA77B60DA3"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "__name__"
-L70_1 = "C633B39AA77B60DA3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SF63038921D0742CE"
+---@alias C633B39AA77B60DA3 main_event_command_PostEffectCommand
 
-function L70_1(A0_2)
+---@class main_event_command_PostEffectCommand
+C633B39AA77B60DA3 = L15_1()
+C633B39AA77B60DA3.new = {}
+C633B39AA77B60DA3.__name__ = "C633B39AA77B60DA3"
+--- main.event.command.PostEffectCommand.Enable
+function C633B39AA77B60DA3.SF63038921D0742CE(A0_2)
   local L1_2
   if 0 == A0_2 then
     L1_2 = C633B39AA77B60DA3
@@ -23,11 +14,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SD59E5ED5F9F2AAE3"
-
-function L70_1(A0_2)
+--- main.event.command.PostEffectCommand.Disable
+function C633B39AA77B60DA3.SD59E5ED5F9F2AAE3(A0_2)
   local L1_2
   if 0 == A0_2 then
     L1_2 = C633B39AA77B60DA3
@@ -36,11 +24,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S9CB059B6AE61EC7D"
-
-function L70_1(A0_2)
+--- main.event.command.PostEffectCommand.EnablePreset
+function C633B39AA77B60DA3.S9CB059B6AE61EC7D(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C633B39AA77B60DA3
   L1_2 = L1_2.SD9E30F1D7325ACAF
@@ -71,11 +56,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S1F79CFD93738DD64"
-
-function L70_1(A0_2)
+--- main.event.command.PostEffectCommand.DisablePreset
+function C633B39AA77B60DA3.S1F79CFD93738DD64(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C633B39AA77B60DA3
   L1_2 = L1_2.S57EB53D9C63C3F20
@@ -85,11 +67,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S726F07BA83934907"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.PostEffectCommand.EnableDirectionalMain
+function C633B39AA77B60DA3.S726F07BA83934907(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L4_2 = C633B39AA77B60DA3
   L4_2 = L4_2.S9EF07410FCEE0914
@@ -118,11 +97,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S9EF07410FCEE0914"
-
-function L70_1(A0_2)
+--- main.event.command.PostEffectCommand.EnableDirectionalMainParam
+function C633B39AA77B60DA3.S9EF07410FCEE0914(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C633B39AA77B60DA3
   L1_2 = L1_2.S8930BD5CE2BE71E4
@@ -149,11 +125,8 @@ function L70_1(A0_2)
   L1_2[1] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S12163E7D552BA804"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.DisableDirectionalMain
+function C633B39AA77B60DA3.S12163E7D552BA804()
   local L0_2, L1_2, L2_2
   L0_2 = C633B39AA77B60DA3
   L0_2 = L0_2.S8930BD5CE2BE71E4
@@ -171,11 +144,8 @@ function L70_1()
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S60D30BE1A38CB966"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.PostEffectCommand.EnableShadowTransform
+function C633B39AA77B60DA3.S60D30BE1A38CB966(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L4_2 = C633B39AA77B60DA3
   L4_2 = L4_2.S9C46D1AE7DEDADC7
@@ -204,11 +174,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S9C46D1AE7DEDADC7"
-
-function L70_1(A0_2)
+--- main.event.command.PostEffectCommand.EnableShadowTransformParam
+function C633B39AA77B60DA3.S9C46D1AE7DEDADC7(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C633B39AA77B60DA3
   L1_2 = L1_2.S8930BD5CE2BE71E4
@@ -235,11 +202,8 @@ function L70_1(A0_2)
   L1_2[1] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SEDD70432D71DF125"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.DisableShadowTransform
+function C633B39AA77B60DA3.SEDD70432D71DF125()
   local L0_2, L1_2, L2_2
   L0_2 = C633B39AA77B60DA3
   L0_2 = L0_2.S8930BD5CE2BE71E4
@@ -257,11 +221,8 @@ function L70_1()
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SC94ECA72F18A6845"
-
-function L70_1(A0_2)
+--- main.event.command.PostEffectCommand.EnableDropShadowAlpha
+function C633B39AA77B60DA3.SC94ECA72F18A6845(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C633B39AA77B60DA3
   L1_2 = L1_2.S8930BD5CE2BE71E4
@@ -331,11 +292,8 @@ function L70_1(A0_2)
   L1_2[1] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S680CD5F812AC28CA"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.DisableDropShadowAlpha
+function C633B39AA77B60DA3.S680CD5F812AC28CA()
   local L0_2, L1_2, L2_2
   L0_2 = C633B39AA77B60DA3
   L0_2 = L0_2.S8930BD5CE2BE71E4
@@ -353,11 +311,8 @@ function L70_1()
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S5FC7AE548F38957A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.event.command.PostEffectCommand.StartBlur
+function C633B39AA77B60DA3.S5FC7AE548F38957A(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L7_2 = C84AAFEB169AAF498
   L7_2 = L7_2.S0F049C465A28972C
@@ -371,11 +326,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S64A33B401A621738"
-
-function L70_1(A0_2)
+--- main.event.command.PostEffectCommand.StopBlur
+function C633B39AA77B60DA3.S64A33B401A621738(A0_2)
   local L1_2, L2_2
   L1_2 = C84AAFEB169AAF498
   L1_2 = L1_2.S64A33B401A621738
@@ -383,11 +335,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S44BCA74DD28D803F"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.EnableBlur
+function C633B39AA77B60DA3.S44BCA74DD28D803F()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C633B39AA77B60DA3
   L0_2 = L0_2.SA48E545325BBB5E8
@@ -405,11 +354,8 @@ function L70_1()
   L0_2[1] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SCF46FAF62E55F7AC"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.PostEffectCommand.EnableBlurParam
+function C633B39AA77B60DA3.SCF46FAF62E55F7AC(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = C633B39AA77B60DA3
   L4_2 = L4_2.S8930BD5CE2BE71E4
@@ -461,11 +407,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2[1] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SF249585A42B903EE"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.DisableBlur
+function C633B39AA77B60DA3.SF249585A42B903EE()
   local L0_2, L1_2, L2_2
   L0_2 = C633B39AA77B60DA3
   L0_2 = L0_2.SA48E545325BBB5E8
@@ -482,11 +425,8 @@ function L70_1()
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S168DFBCB35622E1E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.PostEffectCommand.StartScreenBlur
+function C633B39AA77B60DA3.S168DFBCB35622E1E(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = C84AAFEB169AAF498
   L3_2 = L3_2.S0AF76D1FC7422258
@@ -496,22 +436,16 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SA811BB295BC57024"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.StopScreenBlur
+function C633B39AA77B60DA3.SA811BB295BC57024()
   local L0_2, L1_2
   L0_2 = C84AAFEB169AAF498
   L0_2 = L0_2.SA811BB295BC57024
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S181AB234AC97CF43"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.EnableScreenBlur
+function C633B39AA77B60DA3.S181AB234AC97CF43()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C633B39AA77B60DA3
   L0_2 = L0_2.SA48E545325BBB5E8
@@ -529,11 +463,8 @@ function L70_1()
   L0_2[1] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S4DAE20D38EA10A40"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.PostEffectCommand.EnableScreenBlurParam
+function C633B39AA77B60DA3.S4DAE20D38EA10A40(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = C633B39AA77B60DA3
   L4_2 = L4_2.S8930BD5CE2BE71E4
@@ -579,11 +510,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2[1] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S73D0C600A0CD7D9A"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.DisableScreenBlur
+function C633B39AA77B60DA3.S73D0C600A0CD7D9A()
   local L0_2, L1_2, L2_2
   L0_2 = C633B39AA77B60DA3
   L0_2 = L0_2.SA48E545325BBB5E8
@@ -600,11 +528,8 @@ function L70_1()
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S74820EDF1ACFA98D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.PostEffectCommand.StartEyeAdaptation
+function C633B39AA77B60DA3.S74820EDF1ACFA98D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = C84AAFEB169AAF498
   L3_2 = L3_2.S52E0F7DA77DAB95D
@@ -614,22 +539,16 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S67C9CD1DD385E60F"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.StopEyeAdaptation
+function C633B39AA77B60DA3.S67C9CD1DD385E60F()
   local L0_2, L1_2
   L0_2 = C84AAFEB169AAF498
   L0_2 = L0_2.S67C9CD1DD385E60F
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SA90B57FA2FA2B1F6"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.EnableEyeAdaptation
+function C633B39AA77B60DA3.SA90B57FA2FA2B1F6()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C633B39AA77B60DA3
   L0_2 = L0_2.SA48E545325BBB5E8
@@ -647,11 +566,8 @@ function L70_1()
   L0_2[1] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SF56194CFD448F0B7"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PostEffectCommand.EnableEyeAdaptationParam
+function C633B39AA77B60DA3.SF56194CFD448F0B7(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C633B39AA77B60DA3
   L2_2 = L2_2.S8930BD5CE2BE71E4
@@ -685,11 +601,8 @@ function L70_1(A0_2, A1_2)
   L2_2[1] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S68E53985CCEA1B41"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.DisableEyeAdaptation
+function C633B39AA77B60DA3.S68E53985CCEA1B41()
   local L0_2, L1_2, L2_2
   L0_2 = C633B39AA77B60DA3
   L0_2 = L0_2.SA48E545325BBB5E8
@@ -706,11 +619,8 @@ function L70_1()
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S9B02CEA67CAE86D7"
-
-function L70_1(A0_2)
+--- main.event.command.PostEffectCommand.EnableCloudSpeedParam
+function C633B39AA77B60DA3.S9B02CEA67CAE86D7(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C633B39AA77B60DA3
   L1_2 = L1_2.S8930BD5CE2BE71E4
@@ -738,11 +648,8 @@ function L70_1(A0_2)
   L1_2[1] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SCA1A4485E8FC9D70"
-
-function L70_1(A0_2)
+--- main.event.command.PostEffectCommand.SetCloudSpeedParam
+function C633B39AA77B60DA3.SCA1A4485E8FC9D70(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C633B39AA77B60DA3
   L1_2 = L1_2.S8930BD5CE2BE71E4
@@ -760,11 +667,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SED4E82DC6C08D4D3"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.DisableCloudSpeed
+function C633B39AA77B60DA3.SED4E82DC6C08D4D3()
   local L0_2, L1_2, L2_2
   L0_2 = C633B39AA77B60DA3
   L0_2 = L0_2.S8930BD5CE2BE71E4
@@ -782,11 +686,8 @@ function L70_1()
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SEBC6B018340FE97A"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.EnablePhotoFilterSepia
+function C633B39AA77B60DA3.SEBC6B018340FE97A()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CAEA636D5598C61A0
   L0_2 = L0_2.S385504EFF7E842C3
@@ -798,11 +699,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S2B77E375C40F0713"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.S2B77E375C40F0713
+function C633B39AA77B60DA3.S2B77E375C40F0713()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CAEA636D5598C61A0
   L0_2 = L0_2.S385504EFF7E842C3
@@ -814,11 +712,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SC3D442CDA699FCD0"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.EnablePhotoFilterRetro
+function C633B39AA77B60DA3.SC3D442CDA699FCD0()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CAEA636D5598C61A0
   L0_2 = L0_2.S385504EFF7E842C3
@@ -830,11 +725,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S71E6FDD0BFD46C91"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.EnablePhotoFilterCool
+function C633B39AA77B60DA3.S71E6FDD0BFD46C91()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CAEA636D5598C61A0
   L0_2 = L0_2.S385504EFF7E842C3
@@ -846,11 +738,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S18BF7B0B15983690"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.EnablePhotoFilterVivid
+function C633B39AA77B60DA3.S18BF7B0B15983690()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CAEA636D5598C61A0
   L0_2 = L0_2.S385504EFF7E842C3
@@ -862,11 +751,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S725999E46BBB4A92"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.EnablePhotoFilterKawaii
+function C633B39AA77B60DA3.S725999E46BBB4A92()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CAEA636D5598C61A0
   L0_2 = L0_2.S385504EFF7E842C3
@@ -878,11 +764,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S2182B790F6ED7F60"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.EnablePhotoFilterToy
+function C633B39AA77B60DA3.S2182B790F6ED7F60()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CAEA636D5598C61A0
   L0_2 = L0_2.S385504EFF7E842C3
@@ -894,11 +777,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SEBB7A97BF3149FEA"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.EnablePhotoFilterScratch
+function C633B39AA77B60DA3.SEBB7A97BF3149FEA()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CAEA636D5598C61A0
   L0_2 = L0_2.S385504EFF7E842C3
@@ -910,11 +790,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S5DDFA04B3C32928A"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.EnablePhotoFilterCrossFilter
+function C633B39AA77B60DA3.S5DDFA04B3C32928A()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CAEA636D5598C61A0
   L0_2 = L0_2.S385504EFF7E842C3
@@ -926,11 +803,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SBB8B48C6196F3089"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.EnablePhotoFilterBlur
+function C633B39AA77B60DA3.SBB8B48C6196F3089()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CAEA636D5598C61A0
   L0_2 = L0_2.S385504EFF7E842C3
@@ -942,11 +816,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S92E488BF96494A9B"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.S92E488BF96494A9B
+function C633B39AA77B60DA3.S92E488BF96494A9B()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CAEA636D5598C61A0
   L0_2 = L0_2.S385504EFF7E842C3
@@ -958,11 +829,8 @@ function L70_1()
   L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S386D3DCE2989826F"
-
-function L70_1()
+--- main.event.command.PostEffectCommand.DisablePhotoFilter
+function C633B39AA77B60DA3.S386D3DCE2989826F()
   local L0_2, L1_2
   L0_2 = CAEA636D5598C61A0
   L0_2 = L0_2.S385504EFF7E842C3
@@ -972,11 +840,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SD9E30F1D7325ACAF"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PostEffectCommand.EnableParam
+function C633B39AA77B60DA3.SD9E30F1D7325ACAF(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CE8E3FC751F6F89B8
   L2_2 = L2_2.S5B01DC4716781F51
@@ -986,11 +851,8 @@ function L70_1(A0_2, A1_2)
   A0_2[1] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S57EB53D9C63C3F20"
-
-function L70_1(A0_2)
+--- main.event.command.PostEffectCommand.DisableParam
+function C633B39AA77B60DA3.S57EB53D9C63C3F20(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CE8E3FC751F6F89B8
   L1_2 = L1_2.S8930BD5CE2BE71E4
@@ -1006,11 +868,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "SA48E545325BBB5E8"
-
-function L70_1(A0_2)
+--- main.event.command.PostEffectCommand.GetPresetData
+function C633B39AA77B60DA3.SA48E545325BBB5E8(A0_2)
   local L1_2, L2_2, L3_2
   if 0 == A0_2 then
     function L1_2()
@@ -1152,11 +1011,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C633B39AA77B60DA3"]
-L69_1 = "S8930BD5CE2BE71E4"
-
-function L70_1(A0_2)
+--- main.event.command.PostEffectCommand.GetParam
+function C633B39AA77B60DA3.S8930BD5CE2BE71E4(A0_2)
   local L1_2, L2_2
   L1_2 = CE8E3FC751F6F89B8
   L1_2 = L1_2.S8930BD5CE2BE71E4

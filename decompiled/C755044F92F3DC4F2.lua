@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C755044F92F3DC4F2"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "new"
+---@alias C755044F92F3DC4F2 main_field_behaviour_scenario_main_champion_gym_mizu_Gym_mizu_seri
 
-function L70_1(A0_2)
+---@class main_field_behaviour_scenario_main_champion_gym_mizu_Gym_mizu_seri : C755044F92F3DC4F2_prototype
+---@field prototype C755044F92F3DC4F2_prototype
+C755044F92F3DC4F2 = L15_1()
+function C755044F92F3DC4F2.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C755044F92F3DC4F2
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C755044F92F3DC4F2
+function C755044F92F3DC4F2.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -56,11 +50,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S467BD6713DF79752"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.CreateEventVenue
+function C755044F92F3DC4F2.S467BD6713DF79752()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = L16_1
   L1_2 = {}
@@ -87,11 +78,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SA5C17E5544762212"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.GetVenue
+function C755044F92F3DC4F2.SA5C17E5544762212(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = nil
   L2_2 = 0
@@ -141,11 +129,8 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S946EC648FC186EBF"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.GetVenueId
+function C755044F92F3DC4F2.S946EC648FC186EBF(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C755044F92F3DC4F2
@@ -166,11 +151,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S05C70BE6959094E6"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.GetVenueTable
+function C755044F92F3DC4F2.S05C70BE6959094E6(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C755044F92F3DC4F2
@@ -191,11 +173,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S34C77FCD0A9E2114"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.GetItemTable
+function C755044F92F3DC4F2.S34C77FCD0A9E2114(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C755044F92F3DC4F2
@@ -216,11 +195,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S859A8A1B65FE6F0A"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.GetNpcTable
+function C755044F92F3DC4F2.S859A8A1B65FE6F0A(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C755044F92F3DC4F2
@@ -241,11 +217,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SC1AA7F2A10D3A926"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.GetFixTable
+function C755044F92F3DC4F2.SC1AA7F2A10D3A926(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C755044F92F3DC4F2
@@ -266,22 +239,16 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S30D87A5453B4D981"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.ResetRaffleVenue
+function C755044F92F3DC4F2.S30D87A5453B4D981()
   local L0_2, L1_2
   L0_2 = C755044F92F3DC4F2
   L0_2 = L0_2.SCEB1FD40944BC3A7
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SA9712762707EB27C"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.SA9712762707EB27C
+function C755044F92F3DC4F2.SA9712762707EB27C()
   local L0_2, L1_2, L2_2
   L0_2 = C10578806AC30DCA3
   L0_2 = L0_2.S971699EB064C6350
@@ -303,11 +270,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S82173DA584C1344E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.S82173DA584C1344E
+function C755044F92F3DC4F2.S82173DA584C1344E(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   if nil == A2_2 then
     A2_2 = false
@@ -614,11 +578,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L15_2(L16_2, L17_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SF74B9E4A486C06DD"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.SF74B9E4A486C06DD
+function C755044F92F3DC4F2.SF74B9E4A486C06DD(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A1_2 then
     A1_2 = false
@@ -680,11 +641,8 @@ function L70_1(A0_2, A1_2)
   L8_2(L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SCEB1FD40944BC3A7"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.CreateRaffleVenues
+function C755044F92F3DC4F2.SCEB1FD40944BC3A7()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = C755044F92F3DC4F2
   L1_2 = _hx_tab_array
@@ -748,11 +706,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SB89507F0D8343DEB"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.HourChange
+function C755044F92F3DC4F2.SB89507F0D8343DEB(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C755044F92F3DC4F2
   L1_2 = L1_2.SB81C27AD726E5825
@@ -779,11 +734,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SB81C27AD726E5825"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.isChangeDay
+function C755044F92F3DC4F2.SB81C27AD726E5825(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C05D9E556B496A3DF
   L1_2 = L1_2.SC8223E31D3163519
@@ -817,11 +769,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S48DD6CA29377406A"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.loadRaffleVenue
+function C755044F92F3DC4F2.S48DD6CA29377406A()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L0_2 = C755044F92F3DC4F2
   L1_2 = _hx_tab_array
@@ -930,11 +879,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S6D097F802FB0FC8D"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.S6D097F802FB0FC8D
+function C755044F92F3DC4F2.S6D097F802FB0FC8D()
   local L0_2, L1_2
   L0_2 = C755044F92F3DC4F2
   L0_2 = L0_2.SC155197A73A990E4
@@ -942,11 +888,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SBDF9959C80D9BE0E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.SBDF9959C80D9BE0E
+function C755044F92F3DC4F2.SBDF9959C80D9BE0E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C755044F92F3DC4F2
   L2_2 = L2_2.SC155197A73A990E4
@@ -1004,11 +947,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SC254FD635D6338AF"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.SC254FD635D6338AF
+function C755044F92F3DC4F2.SC254FD635D6338AF(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C755044F92F3DC4F2
   L1_2 = L1_2.S34C77FCD0A9E2114
@@ -1056,11 +996,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S2B82D1F2AF322B9C"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.RaffleItem
+function C755044F92F3DC4F2.S2B82D1F2AF322B9C(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = C755044F92F3DC4F2
   L1_2 = L1_2.S946EC648FC186EBF
@@ -1166,11 +1103,8 @@ function L70_1(A0_2)
   return L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S19A7D72611004671"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.S19A7D72611004671
+function C755044F92F3DC4F2.S19A7D72611004671(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C755044F92F3DC4F2
   L1_2 = L1_2.SA707EF2DC63BDCBB
@@ -1180,11 +1114,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S0F1F0A466FDB8DCE"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.RemoveRaffleVenue
+function C755044F92F3DC4F2.S0F1F0A466FDB8DCE(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C755044F92F3DC4F2
   L1_2 = L1_2.SA707EF2DC63BDCBB
@@ -1194,11 +1125,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S0A6B65CE9A6C03B1"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.S0A6B65CE9A6C03B1
+function C755044F92F3DC4F2.S0A6B65CE9A6C03B1(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = false
@@ -1218,33 +1146,24 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S0449136478634D10"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.VenueCanPlay
+function C755044F92F3DC4F2.S0449136478634D10(A0_2)
   local L1_2
   L1_2 = A0_2.progress
   L1_2 = 1 == L1_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S42D126E8826DB542"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.VenueIsFinished
+function C755044F92F3DC4F2.S42D126E8826DB542(A0_2)
   local L1_2
   L1_2 = A0_2.progress
   L1_2 = 2 == L1_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SEB66D42C4DE78E74"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.VenueFinishedPlay
+function C755044F92F3DC4F2.SEB66D42C4DE78E74(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   A0_2.progress = 2
   L1_2 = C755044F92F3DC4F2
@@ -1263,11 +1182,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S9CE8BC0299327827"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.CreateEventItemObject
+function C755044F92F3DC4F2.S9CE8BC0299327827(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C755044F92F3DC4F2
   L2_2 = L2_2.S6B7A9CDA60E90482
@@ -1281,11 +1197,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S89371741EE8E2279"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.RemoveMcItemObject
+function C755044F92F3DC4F2.S89371741EE8E2279(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C755044F92F3DC4F2
   L1_2 = L1_2.S6B7A9CDA60E90482
@@ -1301,11 +1214,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SE7B52D85C6D012A5"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.RemoveMcBoxObject
+function C755044F92F3DC4F2.SE7B52D85C6D012A5(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C755044F92F3DC4F2
   L1_2 = L1_2.S6B7A9CDA60E90482
@@ -1318,11 +1228,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S6B7A9CDA60E90482"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.FindMc
+function C755044F92F3DC4F2.S6B7A9CDA60E90482(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -1350,11 +1257,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SAB358A972B2E5099"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.FindMcObject
+function C755044F92F3DC4F2.SAB358A972B2E5099(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -1381,33 +1285,24 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SED0131EF83E4A2E3"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.AreaEnable
+function C755044F92F3DC4F2.SED0131EF83E4A2E3()
   local L0_2, L1_2
   L0_2 = C755044F92F3DC4F2
   L0_2 = L0_2.S3765DA69F0867849
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S6BFE7EF1CAF0FDA7"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.IsLoadedMessage
+function C755044F92F3DC4F2.S6BFE7EF1CAF0FDA7()
   local L0_2, L1_2
   L0_2 = C755044F92F3DC4F2
   L0_2 = L0_2.S3ED2EB120DA89481
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S33CE0AFC746835E9"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.OnAreaEnter
+function C755044F92F3DC4F2.S33CE0AFC746835E9()
   local L0_2, L1_2
   L0_2 = C755044F92F3DC4F2
   L0_2.S3765DA69F0867849 = true
@@ -1424,11 +1319,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SC2CC353A02437669"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.OnAreaExit
+function C755044F92F3DC4F2.SC2CC353A02437669()
   local L0_2, L1_2
   L0_2 = C755044F92F3DC4F2
   L0_2.S3765DA69F0867849 = false
@@ -1445,42 +1337,31 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "S8D5C87AF21406846"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.PopupEnable
+function C755044F92F3DC4F2.S8D5C87AF21406846()
   local L0_2, L1_2
   L0_2 = C755044F92F3DC4F2
   L0_2 = L0_2.S048CBF14E6B33D40
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "SCE31AC4C127082A4"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.SetPopupEnable
+function C755044F92F3DC4F2.SCE31AC4C127082A4(A0_2)
   local L1_2
   L1_2 = C755044F92F3DC4F2
   L1_2.S048CBF14E6B33D40 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C755044F92F3DC4F2_prototype
+C755044F92F3DC4F2_prototype = L15_1()
+C755044F92F3DC4F2.prototype = C755044F92F3DC4F2_prototype
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.Setup
+function C755044F92F3DC4F2_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C755044F92F3DC4F2
@@ -1488,8 +1369,8 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.f8C8B6BB6
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FC0345553D75921A3
+  L3_2 = self
+  L2_2 = self.FC0345553D75921A3
   L2_2(L3_2)
   L2_2 = C755044F92F3DC4F2
   L2_2 = L2_2.SA9712762707EB27C
@@ -1498,11 +1379,8 @@ function L70_1(A0_2, A1_2)
   L2_2.SAFD728667E96696C = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.Destroy
+function C755044F92F3DC4F2_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C05D9E556B496A3DF
   L1_2 = L1_2.SC8223E31D3163519
@@ -1520,7 +1398,7 @@ function L70_1(A0_2)
       L5_2 = L4_2.item
       L4_2 = L4_2.next
       L6_2 = L5_2.owner
-      if L6_2 == A0_2 then
+      if L6_2 == self then
         L7_2 = L3_2
         L6_2 = L3_2.remove
         L8_2 = L5_2
@@ -1531,19 +1409,16 @@ function L70_1(A0_2)
   L3_2 = CDC3F92928A2194E6
   L3_2 = L3_2.prototype
   L3_2 = L3_2.F1C2AA00ADAC52EC5
-  L4_2 = A0_2
+  L4_2 = self
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]["prototype"]
-L69_1 = "FC0345553D75921A3"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.loadTable
+function C755044F92F3DC4F2_prototype:FC0345553D75921A3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = cF52F390B
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cF52F390B
@@ -1553,37 +1428,34 @@ function L70_1(A0_2)
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = C755044F92F3DC4F2
-    L5_2 = A0_2
-    L4_2 = A0_2.F108795BEE218B951
+    L5_2 = self
+    L4_2 = self.F108795BEE218B951
     L6_2 = L1_2
     L4_2 = L4_2(L5_2, L6_2)
     L3_2.SC155197A73A990E4 = L4_2
     L3_2 = C755044F92F3DC4F2
-    L5_2 = A0_2
-    L4_2 = A0_2.FFD2F4CEF7B42C719
+    L5_2 = self
+    L4_2 = self.FFD2F4CEF7B42C719
     L6_2 = L1_2
     L4_2 = L4_2(L5_2, L6_2)
     L3_2.S4BB679BE2FE1F458 = L4_2
     L3_2 = C755044F92F3DC4F2
-    L5_2 = A0_2
-    L4_2 = A0_2.F201FC56EAAF720BD
+    L5_2 = self
+    L4_2 = self.F201FC56EAAF720BD
     L6_2 = L1_2
     L4_2 = L4_2(L5_2, L6_2)
     L3_2.S58C458FE4388D494 = L4_2
     L3_2 = C755044F92F3DC4F2
-    L5_2 = A0_2
-    L4_2 = A0_2.F06C4684D5C94DC2D
+    L5_2 = self
+    L4_2 = self.F06C4684D5C94DC2D
     L6_2 = L1_2
     L4_2 = L4_2(L5_2, L6_2)
     L3_2.SC878774FC4EE8A10 = L4_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]["prototype"]
-L69_1 = "F108795BEE218B951"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.loadSeriItemTable
+function C755044F92F3DC4F2_prototype:F108795BEE218B951(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -1736,11 +1608,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]["prototype"]
-L69_1 = "FFD2F4CEF7B42C719"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.loadSeriNpcTable
+function C755044F92F3DC4F2_prototype:FFD2F4CEF7B42C719(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -1857,11 +1726,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]["prototype"]
-L69_1 = "F201FC56EAAF720BD"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.loadSeriVenueTable
+function C755044F92F3DC4F2_prototype:F201FC56EAAF720BD(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -2057,11 +1923,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]["prototype"]
-L69_1 = "F06C4684D5C94DC2D"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.loadSeriFixTable
+function C755044F92F3DC4F2_prototype:F06C4684D5C94DC2D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -2142,14 +2005,11 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]["prototype"]
-L69_1 = "F993763797090B9A6"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.OnHour
+function C755044F92F3DC4F2_prototype:F993763797090B9A6()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F87BF9BF63156CB99
+  L2_2 = self
+  L1_2 = self.F87BF9BF63156CB99
   L1_2 = L1_2(L2_2)
   if L1_2 then
     L1_2 = C755044F92F3DC4F2
@@ -2158,11 +2018,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C755044F92F3DC4F2"]["prototype"]
-L69_1 = "F87BF9BF63156CB99"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri.resetTime
+function C755044F92F3DC4F2_prototype:F87BF9BF63156CB99()
   local L1_2, L2_2, L3_2
   L1_2 = C05D9E556B496A3DF
   L1_2 = L1_2.SC8223E31D3163519

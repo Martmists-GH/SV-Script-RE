@@ -1,3 +1,7 @@
+---@alias CA96A2BA27902BAE4 main_ui_tips_TipsOpen
+
+---@class main_ui_tips_TipsOpen : CA96A2BA27902BAE4_prototype
+---@field prototype CA96A2BA27902BAE4_prototype
 L55_1 = _ENV
 L56_1 = "C2CBC80BA6C0525BB"
 L57_1 = L15_1
@@ -38,11 +42,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2CBC80BA6C0525BB"]
 L69_1 = "__name__"
 L70_1 = "C2CBC80BA6C0525BB"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2CBC80BA6C0525BB"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CA96A2BA27902BAE4_prototype
+CA96A2BA27902BAE4_prototype = L15_1()
+CA96A2BA27902BAE4.prototype = CA96A2BA27902BAE4_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2CBC80BA6C0525BB"]["prototype"]
 L69_1 = _ENV["C2CBC80BA6C0525BB"]

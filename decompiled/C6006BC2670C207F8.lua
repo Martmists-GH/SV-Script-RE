@@ -1,3 +1,7 @@
+---@alias C86D7C25BE8F75289 main_field_action_base_IAutoAction
+
+---@class main_field_action_base_IAutoAction : C86D7C25BE8F75289_prototype
+---@field prototype C86D7C25BE8F75289_prototype
 L55_1 = _ENV
 L56_1 = "C6006BC2670C207F8"
 L57_1 = L15_1
@@ -12,12 +16,9 @@ L69_1 = "__name__"
 L70_1 = "C6006BC2670C207F8"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6006BC2670C207F8"]
-L69_1 = "__interfaces__"
-L70_1 = {}
-L68_1 = _ENV["C6006BC2670C207F8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+L69_1 = "__inte---@class C86D7C25BE8F75289_prototype
+C86D7C25BE8F75289_prototype = L15_1()
+C86D7C25BE8F75289.prototype = C86D7C25BE8F75289_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6006BC2670C207F8"]["prototype"]
 L69_1 = _ENV["C6006BC2670C207F8"]

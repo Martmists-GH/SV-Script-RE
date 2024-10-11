@@ -1,7 +1,8 @@
-L68_1 = _ENV["C896E82AC366C8E8F"]
-L69_1 = "new"
+---@alias C896E82AC366C8E8F main_ajito_util_DanServiceLocator
 
-function L70_1(A0_2)
+---@class main_ajito_util_DanServiceLocator : C896E82AC366C8E8F_prototype
+---@field prototype C896E82AC366C8E8F_prototype
+function C896E82AC366C8E8F.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C896E82AC366C8E8F
@@ -17,11 +18,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C896E82AC366C8E8F"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C896E82AC366C8E8F
+function C896E82AC366C8E8F.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L46_1.new
   L2_2 = L2_2()
@@ -48,11 +46,8 @@ L69_1 = "__interfaces__"
 L70_1 = {}
 L71_1 = C7CD28A9CFBEC3B73
 L70_1[1] = L71_1
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C896E82AC366C8E8F"]
-L69_1 = "S4539FBABC0D19D63"
-
-function L70_1()
+--- main.ajito.util.DanServiceLocator.get_I
+function C896E82AC366C8E8F.S4539FBABC0D19D63()
   local L0_2, L1_2
   L0_2 = C896E82AC366C8E8F
   L0_2 = L0_2.SAF66A44C8606A664
@@ -65,40 +60,29 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C896E82AC366C8E8F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C896E82AC366C8E8F"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C896E82AC366C8E8F_prototype
+C896E82AC366C8E8F_prototype = L15_1()
+C896E82AC366C8E8F.prototype = C896E82AC366C8E8F_prototype
+--- main.ajito.util.DanServiceLocator.Setup
+function C896E82AC366C8E8F_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.fBE3B2D3B
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C896E82AC366C8E8F"]["prototype"]
-L69_1 = "FF657426FC1B0D20A"
-
-function L70_1(A0_2)
+--- main.ajito.util.DanServiceLocator.GetSceneObject
+function C896E82AC366C8E8F_prototype:FF657426FC1B0D20A()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C896E82AC366C8E8F"]["prototype"]
-L69_1 = "F1D75CCE15355A5E3"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.util.DanServiceLocator.Resolve
+function C896E82AC366C8E8F_prototype:F1D75CCE15355A5E3(A1_2)
   local L2_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   if nil == L2_2 then
@@ -111,19 +95,16 @@ function L70_1(A0_2, A1_2)
     
     L2_2()
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C896E82AC366C8E8F"]["prototype"]
-L69_1 = "F9F5142F6AC5F41E0"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ajito.util.DanServiceLocator.Register
+function C896E82AC366C8E8F_prototype:F9F5142F6AC5F41E0(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   if nil ~= L3_2 then
@@ -139,7 +120,7 @@ function L70_1(A0_2, A1_2, A2_2)
     
     L4_2()
   end
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = A1_2
   L5_2 = L3_2.h
   L5_2[L4_2] = A2_2
@@ -155,37 +136,28 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C896E82AC366C8E8F"]["prototype"]
-L69_1 = "F2BB3C188D614E103"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.util.DanServiceLocator.UnRegister
+function C896E82AC366C8E8F_prototype:F2BB3C188D614E103(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.remove
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C896E82AC366C8E8F"]["prototype"]
-L69_1 = "FF4FB29B821A97CD9"
-
-function L70_1(A0_2)
+--- main.ajito.util.DanServiceLocator.ClearAll
+function C896E82AC366C8E8F_prototype:FF4FB29B821A97CD9()
   local L1_2, L2_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = {}
   L1_2.h = L2_2
   L2_2 = {}
   L1_2.k = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C896E82AC366C8E8F"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ajito.util.DanServiceLocator.Destroy
+function C896E82AC366C8E8F_prototype:F1C2AA00ADAC52EC5()
   local L1_2
   L1_2 = C896E82AC366C8E8F
   L1_2.SAF66A44C8606A664 = nil

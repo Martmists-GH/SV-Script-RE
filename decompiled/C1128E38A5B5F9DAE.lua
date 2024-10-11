@@ -1,3 +1,5 @@
+---@class C1128E38A5B5F9DAE : C1128E38A5B5F9DAE_prototype
+---@field prototype C1128E38A5B5F9DAE_prototype
 L55_1 = _ENV
 L56_1 = "C1128E38A5B5F9DAE"
 L57_1 = L15_1
@@ -51,18 +53,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1128E38A5B5F9DAE"]
 L69_1 = "__name__"
 L70_1 = "C1128E38A5B5F9DAE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1128E38A5B5F9DAE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1128E38A5B5F9DAE"]["prototype"]
-L69_1 = "F6BB6C94367FB8083"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class C1128E38A5B5F9DAE_prototype
+C1128E38A5B5F9DAE_prototype = L15_1()
+C1128E38A5B5F9DAE.prototype = C1128E38A5B5F9DAE_prototype
+--- C1128E38A5B5F9DAE.Regist
+function C1128E38A5B5F9DAE_prototype:F6BB6C94367FB8083(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[A1_2]
   L4_2 = L3_2
   L3_2 = L3_2.push
@@ -78,14 +75,11 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1128E38A5B5F9DAE"]["prototype"]
-L69_1 = "F1782F451C3A07312"
-
-function L70_1(A0_2, A1_2)
+--- C1128E38A5B5F9DAE.F1782F451C3A07312
+function C1128E38A5B5F9DAE_prototype:F1782F451C3A07312(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -110,14 +104,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1128E38A5B5F9DAE"]["prototype"]
-L69_1 = "F105A04390211BC8D"
-
-function L70_1(A0_2, A1_2)
+--- C1128E38A5B5F9DAE.F105A04390211BC8D
+function C1128E38A5B5F9DAE_prototype:F105A04390211BC8D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -142,21 +133,18 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1128E38A5B5F9DAE"]["prototype"]
-L69_1 = "FDABBE62A96B8422D"
-
-function L70_1(A0_2, A1_2)
+--- C1128E38A5B5F9DAE.FDABBE62A96B8422D
+function C1128E38A5B5F9DAE_prototype:FDABBE62A96B8422D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = 4
   L3_2 = 0
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2.length
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L5_2 = L3_2 - 1
     L6_2 = L27_1.exists
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L7_2 = L7_2[L5_2]
     
     function L8_2(A0_3)
@@ -212,14 +200,11 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1128E38A5B5F9DAE"]["prototype"]
-L69_1 = "FDE446F7EB0AEEA99"
-
-function L70_1(A0_2, A1_2)
+--- C1128E38A5B5F9DAE.FDE446F7EB0AEEA99
+function C1128E38A5B5F9DAE_prototype:FDE446F7EB0AEEA99(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[A1_2]
   while true do
     L4_2 = L3_2.length

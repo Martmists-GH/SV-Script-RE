@@ -1,3 +1,7 @@
+---@alias C3AD548C1B2DFE39F main_battle_director_BattleOutPoke
+
+---@class main_battle_director_BattleOutPoke : C3AD548C1B2DFE39F_prototype
+---@field prototype C3AD548C1B2DFE39F_prototype
 L55_1 = _ENV
 L56_1 = "C365E2F1914395600"
 L57_1 = L15_1
@@ -39,11 +43,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C365E2F1914395600"]
 L69_1 = "__name__"
 L70_1 = "C365E2F1914395600"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C365E2F1914395600"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C3AD548C1B2DFE39F_prototype
+C3AD548C1B2DFE39F_prototype = L15_1()
+C3AD548C1B2DFE39F.prototype = C3AD548C1B2DFE39F_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C365E2F1914395600"]["prototype"]
 L69_1 = _ENV["C365E2F1914395600"]

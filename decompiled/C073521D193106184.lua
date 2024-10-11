@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C073521D193106184"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C073521D193106184"]
-L69_1 = "new"
+---@alias C073521D193106184 main_savedata_system_SaveLoadManager
 
-function L70_1(A0_2)
+---@class main_savedata_system_SaveLoadManager : C073521D193106184_prototype
+---@field prototype C073521D193106184_prototype
+C073521D193106184 = L15_1()
+function C073521D193106184.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C073521D193106184
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073521D193106184"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C073521D193106184
+function C073521D193106184.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -48,11 +42,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C073521D193106184"]
 L69_1 = "__name__"
 L70_1 = "C073521D193106184"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073521D193106184"]
-L69_1 = "S7A3D296366E973CB"
-
-function L70_1()
+--- main.savedata.system.SaveLoadManager.Initialize
+function C073521D193106184.S7A3D296366E973CB()
   local L0_2, L1_2
   L0_2 = C073521D193106184
   L0_2 = L0_2.SC8223E31D3163519
@@ -61,11 +52,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073521D193106184"]
-L69_1 = "SF5C4C8B77D06EA80"
-
-function L70_1()
+--- main.savedata.system.SaveLoadManager.SF5C4C8B77D06EA80
+function C073521D193106184.SF5C4C8B77D06EA80()
   local L0_2, L1_2
   L0_2 = C073521D193106184
   L0_2 = L0_2.SC8223E31D3163519
@@ -74,11 +62,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073521D193106184"]
-L69_1 = "SDD225426F9C67B37"
-
-function L70_1(A0_2, A1_2)
+--- main.savedata.system.SaveLoadManager.StartSaveProcess
+function C073521D193106184.SDD225426F9C67B37(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     A1_2 = false
@@ -92,11 +77,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073521D193106184"]
-L69_1 = "S25388FDA7D8AE244"
-
-function L70_1(A0_2)
+--- main.savedata.system.SaveLoadManager.StartLoadProcess
+function C073521D193106184.S25388FDA7D8AE244(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C073521D193106184
   L1_2 = L1_2.SC8223E31D3163519
@@ -106,11 +88,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073521D193106184"]
-L69_1 = "SEBD55FFD8EF97D80"
-
-function L70_1(A0_2)
+--- main.savedata.system.SaveLoadManager.RequestAutoSave
+function C073521D193106184.SEBD55FFD8EF97D80(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C073521D193106184
   L1_2 = L1_2.SC8223E31D3163519
@@ -120,11 +99,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073521D193106184"]
-L69_1 = "S94A404EAD6C0D436"
-
-function L70_1()
+--- main.savedata.system.SaveLoadManager.S94A404EAD6C0D436
+function C073521D193106184.S94A404EAD6C0D436()
   local L0_2, L1_2
   L0_2 = C073521D193106184
   L0_2 = L0_2.SC8223E31D3163519
@@ -133,11 +109,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073521D193106184"]
-L69_1 = "SE0C59F62854E3861"
-
-function L70_1(A0_2)
+--- main.savedata.system.SaveLoadManager.SE0C59F62854E3861
+function C073521D193106184.SE0C59F62854E3861(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C073521D193106184
   L1_2 = L1_2.SC8223E31D3163519
@@ -147,11 +120,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073521D193106184"]
-L69_1 = "SF6849A21448E8B3A"
-
-function L70_1()
+--- main.savedata.system.SaveLoadManager.CancelAutoSaveRequest
+function C073521D193106184.SF6849A21448E8B3A()
   local L0_2, L1_2
   L0_2 = C073521D193106184
   L0_2 = L0_2.SC8223E31D3163519
@@ -160,11 +130,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073521D193106184"]
-L69_1 = "S5C900CE699281CD9"
-
-function L70_1()
+--- main.savedata.system.SaveLoadManager.RunAutoSaveRequest
+function C073521D193106184.S5C900CE699281CD9()
   local L0_2, L1_2
   L0_2 = C073521D193106184
   L0_2 = L0_2.SC8223E31D3163519
@@ -173,16 +140,11 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073521D193106184"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073521D193106184"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+---@class C073521D193106184_prototype
+C073521D193106184_prototype = L15_1()
+C073521D193106184.prototype = C073521D193106184_prototype
+--- main.savedata.system.SaveLoadManager.Destroy
+function C073521D193106184_prototype:F1C2AA00ADAC52EC5()
   local L1_2
   L1_2 = c37452BA0
   L1_2 = L1_2.f8618480C
@@ -192,11 +154,8 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C073521D193106184"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.savedata.system.SaveLoadManager.PreUpdate
+function C073521D193106184_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C073521D193106184
   L2_2 = L2_2.SC8223E31D3163519

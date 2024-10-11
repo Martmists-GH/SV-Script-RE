@@ -1,3 +1,7 @@
+---@alias CD65C44A08D7E6CF4 main_field_action_ActionRideTakingInAndOut
+
+---@class main_field_action_ActionRideTakingInAndOut : CD65C44A08D7E6CF4_prototype
+---@field prototype CD65C44A08D7E6CF4_prototype
 L55_1 = _ENV
 L56_1 = "CD65C44A08D7E6CF4"
 L57_1 = L15_1
@@ -47,26 +51,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD65C44A08D7E6CF4"]
 L69_1 = "__name__"
 L70_1 = "CD65C44A08D7E6CF4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD65C44A08D7E6CF4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD65C44A08D7E6CF4"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CD65C44A08D7E6CF4_prototype
+CD65C44A08D7E6CF4_prototype = L15_1()
+CD65C44A08D7E6CF4.prototype = CD65C44A08D7E6CF4_prototype
+--- main.field.action.ActionRideTakingInAndOut.onCreate
+function CD65C44A08D7E6CF4_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2.useCoroutine = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD65C44A08D7E6CF4"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.ActionRideTakingInAndOut.onPreUpdate
+function CD65C44A08D7E6CF4_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CB4E56E9599A85891
   L1_2 = L1_2.S0B3F69C4549A0284
@@ -82,37 +78,34 @@ function L70_1(A0_2)
   L1_2 = L1_2.F9677BDB468AA77A3
   L3_2 = 0
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[18] = L1_2
+  self[18] = L1_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F36F19AEECC3F900C
+    L3_2 = self
+    L2_2 = self.F36F19AEECC3F900C
     L2_2(L3_2)
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.F597B67452DD2CE14
+    L3_2 = self
+    L2_2 = self.F597B67452DD2CE14
     L2_2(L3_2)
   end
   L2_2 = 2
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD65C44A08D7E6CF4"]["prototype"]
-L69_1 = "F597B67452DD2CE14"
-
-function L70_1(A0_2)
+--- main.field.action.ActionRideTakingInAndOut.TakeBackUpdate
+function CD65C44A08D7E6CF4_prototype:F597B67452DD2CE14()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L1_2 = C9EDE8A2011D9A329
   L1_2 = L1_2.S50CB2B4EB5CE75C1
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L1_2 = L1_2(L2_2)
-  A0_2[19] = L1_2
+  self[19] = L1_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S8DB58249AC006158
   L2_2 = nil
@@ -203,15 +196,15 @@ function L70_1(A0_2)
     L11_2 = 1
     L8_2(L9_2, L10_2, L11_2)
   end
-  L7_2 = A0_2[19]
+  L7_2 = self[19]
   L8_2 = L7_2
   L7_2 = L7_2.FB3747F1F6F866CD1
   L7_2(L8_2)
-  L7_2 = A0_2[19]
+  L7_2 = self[19]
   L8_2 = L7_2
   L7_2 = L7_2.F5390E3E4718893F8
   L7_2(L8_2)
-  L7_2 = A0_2[19]
+  L7_2 = self[19]
   L8_2 = L7_2
   L7_2 = L7_2.F43BB3D3E5AF1F352
   L7_2 = L7_2(L8_2)
@@ -244,7 +237,7 @@ function L70_1(A0_2)
   L9_2 = L9_2.S760DAE4C5371A78E
   L9_2()
   while true do
-    L9_2 = A0_2[19]
+    L9_2 = self[19]
     L10_2 = L9_2
     L9_2 = L9_2.F5BE043F41BD6E098
     L9_2 = L9_2(L10_2)
@@ -271,11 +264,8 @@ function L70_1(A0_2)
   L9_2(L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD65C44A08D7E6CF4"]["prototype"]
-L69_1 = "F36F19AEECC3F900C"
-
-function L70_1(A0_2)
+--- main.field.action.ActionRideTakingInAndOut.PopUpUpdate
+function CD65C44A08D7E6CF4_prototype:F36F19AEECC3F900C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   L1_2 = CB4E56E9599A85891
   L1_2 = L1_2.S0B3F69C4549A0284
@@ -415,12 +405,12 @@ function L70_1(A0_2)
     L7_2 = L7_2.S760DAE4C5371A78E
     L7_2()
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.FD1294B621C504526
+  L8_2 = self
+  L7_2 = self.FD1294B621C504526
   L7_2(L8_2)
   while true do
-    L8_2 = A0_2
-    L7_2 = A0_2.F743652AF912C3101
+    L8_2 = self
+    L7_2 = self.F743652AF912C3101
     L7_2 = L7_2(L8_2)
     if not L7_2 then
       break
@@ -559,12 +549,12 @@ function L70_1(A0_2)
     L17_2 = false
     L14_2(L15_2, L16_2, L17_2)
   end
-  L14_2 = A0_2
-  L13_2 = A0_2.FD1294B621C504526
+  L14_2 = self
+  L13_2 = self.FD1294B621C504526
   L13_2(L14_2)
   while true do
-    L14_2 = A0_2
-    L13_2 = A0_2.F743652AF912C3101
+    L14_2 = self
+    L13_2 = self.F743652AF912C3101
     L13_2 = L13_2(L14_2)
     if not L13_2 then
       break
@@ -608,7 +598,7 @@ function L70_1(A0_2)
         L17_2 = L17_2(L18_2)
         L18_2 = 0.4
         if L17_2 >= L18_2 then
-          L17_2 = A0_2[20]
+          L17_2 = self[20]
           if not L17_2 then
             L17_2 = CB4E56E9599A85891
             L17_2 = L17_2.S0B3F69C4549A0284
@@ -640,7 +630,7 @@ function L70_1(A0_2)
             L22_2[2] = L24_2
             L22_2[3] = L25_2
             L20_2(L21_2, L22_2)
-            A0_2[20] = true
+            self[20] = true
           end
         end
       end
@@ -659,37 +649,28 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD65C44A08D7E6CF4"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- main.field.action.ActionRideTakingInAndOut.onTerminate
+function CD65C44A08D7E6CF4_prototype:F97D80368ACC86AEF()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD65C44A08D7E6CF4"]["prototype"]
-L69_1 = "FD1294B621C504526"
-
-function L70_1(A0_2)
+--- main.field.action.ActionRideTakingInAndOut.StartInsuranceTimer
+function CD65C44A08D7E6CF4_prototype:FD1294B621C504526()
   local L1_2
-  A0_2[17] = 0.0
+  self[17] = 0.0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD65C44A08D7E6CF4"]["prototype"]
-L69_1 = "F743652AF912C3101"
-
-function L70_1(A0_2)
+--- main.field.action.ActionRideTakingInAndOut.CheckInsurance
+function CD65C44A08D7E6CF4_prototype:F743652AF912C3101()
   local L1_2, L2_2
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L2_2 = C075A638F130352C3
   L2_2 = L2_2.S44460EB93267F798
   L1_2 = L1_2 + L2_2
-  A0_2[17] = L1_2
-  L1_2 = A0_2[17]
+  self[17] = L1_2
+  L1_2 = self[17]
   L2_2 = CD65C44A08D7E6CF4
   L2_2 = L2_2.SBBBB91F07FB00A57
   if L1_2 > L2_2 then

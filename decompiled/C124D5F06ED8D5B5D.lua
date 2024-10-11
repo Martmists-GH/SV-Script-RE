@@ -1,3 +1,7 @@
+---@alias C124D5F06ED8D5B5D main_nushi_iwa_IwaNushiEffectTest
+
+---@class main_nushi_iwa_IwaNushiEffectTest : C124D5F06ED8D5B5D_prototype
+---@field prototype C124D5F06ED8D5B5D_prototype
 L55_1 = _ENV
 L56_1 = "C124D5F06ED8D5B5D"
 L57_1 = L15_1
@@ -44,52 +48,47 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C124D5F06ED8D5B5D"]
 L69_1 = "__name__"
 L70_1 = "C124D5F06ED8D5B5D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C124D5F06ED8D5B5D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C124D5F06ED8D5B5D"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C124D5F06ED8D5B5D_prototype
+C124D5F06ED8D5B5D_prototype = L15_1()
+C124D5F06ED8D5B5D.prototype = C124D5F06ED8D5B5D_prototype
+--- main.nushi.iwa.IwaNushiEffectTest.Setup
+function C124D5F06ED8D5B5D_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = CC704789D12A0E0F2
   L3_2 = L3_2.new
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
-  A0_2[7] = L3_2
+  self[7] = L3_2
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
-  A0_2[3] = L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FF6DB9805E356A5E3
+  self[3] = L3_2
+  L4_2 = self
+  L3_2 = self.FF6DB9805E356A5E3
   L3_2(L4_2)
   L3_2 = c451059A3
   L3_2 = L3_2.f5776B6C6
   L4_2 = C124D5F06ED8D5B5D
   L4_2 = L4_2.SC997AC7270F1FE5D
   L3_2 = L3_2(L4_2)
-  A0_2[2] = L3_2
-  L3_2 = A0_2[1]
+  self[2] = L3_2
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f5439788F
   L5_2 = "effect_pos_R"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[5] = L3_2
-  L3_2 = A0_2[1]
+  self[5] = L3_2
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f5439788F
   L5_2 = "effect_pos_L"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[6] = L3_2
-  A0_2[4] = nil
+  self[6] = L3_2
+  self[4] = nil
   L3_2 = 0
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L5_2 = L4_2
   L4_2 = L4_2.F7364C99F171973B4
   L6_2 = 1
@@ -118,15 +117,12 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C124D5F06ED8D5B5D"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.iwa.IwaNushiEffectTest.PreUpdate
+function C124D5F06ED8D5B5D_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if nil ~= L2_2 then
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = L2_2
     L2_2 = L2_2.F3BC3E2DE6CE68A7D
     L4_2 = A1_2
@@ -134,28 +130,22 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C124D5F06ED8D5B5D"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiEffectTest.Destroy
+function C124D5F06ED8D5B5D_prototype:F1C2AA00ADAC52EC5()
   local L1_2
-  A0_2[4] = nil
+  self[4] = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C124D5F06ED8D5B5D"]["prototype"]
-L69_1 = "FF6DB9805E356A5E3"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiEffectTest.WallIdle
+function C124D5F06ED8D5B5D_prototype:FF6DB9805E356A5E3()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fD0B5837E
   L3_2 = false
   L4_2 = "default"
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fF56461AF
   L1_2 = L1_2(L2_2)
@@ -164,7 +154,7 @@ function L70_1(A0_2)
   L3_2 = "poke_state_int"
   L4_2 = 0
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fF56461AF
   L1_2 = L1_2(L2_2)
@@ -173,7 +163,7 @@ function L70_1(A0_2)
   L3_2 = "wallaction_bool"
   L4_2 = true
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fF56461AF
   L1_2 = L1_2(L2_2)
@@ -184,22 +174,19 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C124D5F06ED8D5B5D"]["prototype"]
-L69_1 = "F08B3264C8817988A"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiEffectTest.InstanceRockMove
+function C124D5F06ED8D5B5D_prototype:F08B3264C8817988A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.f68159593
   L3_2 = "moveRock_R"
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L1_2 = L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.f7360ED03
   L2_2, L3_2, L4_2 = L2_2(L3_2)
@@ -211,21 +198,21 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
   L6_2 = L1_2
   L5_2 = L1_2.f24032F87
-  L7_2 = A0_2[5]
+  L7_2 = self[5]
   L8_2 = L7_2
   L7_2 = L7_2.f64857644
   L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2 = L7_2(L8_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f462C9B70
   L5_2 = L5_2(L6_2)
   L6_2 = L5_2
   L5_2 = L5_2.f68159593
   L7_2 = "moveRock_L"
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L5_2 = L5_2(L6_2, L7_2, L8_2)
-  L6_2 = A0_2[6]
+  L6_2 = self[6]
   L7_2 = L6_2
   L6_2 = L6_2.f7360ED03
   L6_2, L7_2, L8_2 = L6_2(L7_2)
@@ -237,12 +224,12 @@ function L70_1(A0_2)
   L9_2(L10_2, L11_2, L12_2, L13_2)
   L10_2 = L5_2
   L9_2 = L5_2.f24032F87
-  L11_2 = A0_2[6]
+  L11_2 = self[6]
   L12_2 = L11_2
   L11_2 = L11_2.f64857644
   L11_2, L12_2, L13_2, L14_2, L15_2 = L11_2(L12_2)
   L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
-  L9_2 = A0_2[8]
+  L9_2 = self[8]
   L10_2 = {}
   L11_2 = 1 * L9_2
   L12_2 = 1 * L9_2

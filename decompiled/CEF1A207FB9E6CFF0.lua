@@ -1,3 +1,7 @@
+---@alias CEF1A207FB9E6CFF0 main_ui_btlspot_state_machine_competition_BattleSpotStateCompetitionMatchingFriends
+
+---@class main_ui_btlspot_state_machine_competition_BattleSpotStateCompetitionMatchingFriends : CEF1A207FB9E6CFF0_prototype
+---@field prototype CEF1A207FB9E6CFF0_prototype
 L55_1 = _ENV
 L56_1 = "CEF1A207FB9E6CFF0"
 L57_1 = L15_1
@@ -40,29 +44,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CEF1A207FB9E6CFF0"]
 L69_1 = "__name__"
 L70_1 = "CEF1A207FB9E6CFF0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEF1A207FB9E6CFF0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEF1A207FB9E6CFF0"]["prototype"]
-L69_1 = "F5BE3D38738EE3C24"
-
-function L70_1(A0_2)
+---@class CEF1A207FB9E6CFF0_prototype
+CEF1A207FB9E6CFF0_prototype = L15_1()
+CEF1A207FB9E6CFF0.prototype = CEF1A207FB9E6CFF0_prototype
+--- main.ui.btlspot.state_machine.competition.BattleSpotStateCompetitionMatchingFriends.OnEntry
+function CEF1A207FB9E6CFF0_prototype:F5BE3D38738EE3C24()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEF1A207FB9E6CFF0"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.state_machine.competition.BattleSpotStateCompetitionMatchingFriends.OnUpdate
+function CEF1A207FB9E6CFF0_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FD8ABEE5C76044721
+  L3_2 = self
+  L2_2 = self.FD8ABEE5C76044721
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L4_2 = c1A1CBE3B
   L4_2 = L4_2.fFCE06E04
   L4_2 = L4_2()
@@ -137,8 +133,8 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2.S302B9F4AD833CC27
   L7_2()
   if L6_2 then
-    L8_2 = A0_2
-    L7_2 = A0_2.F7C06F6BEA957F0E6
+    L8_2 = self
+    L7_2 = self.F7C06F6BEA957F0E6
     L9_2 = 11
     L7_2(L8_2, L9_2)
     L7_2 = CD950F4AD2C2702A1
@@ -193,8 +189,8 @@ function L70_1(A0_2, A1_2)
     L8_2(L9_2, L10_2, L11_2, L12_2, L13_2)
     L8_2 = C5E6798DC4ABDB8A2
     L8_2 = L8_2.SF116FC8CD80CE544
-    L10_2 = A0_2
-    L9_2 = A0_2.FD8ABEE5C76044721
+    L10_2 = self
+    L9_2 = self.FD8ABEE5C76044721
     L9_2 = L9_2(L10_2)
     L10_2 = L7_2
     L8_2(L9_2, L10_2)
@@ -208,7 +204,7 @@ function L70_1(A0_2, A1_2)
       L9_2 = "UI_DECIDE"
       L8_2 = L8_2(L9_2)
       if L8_2 then
-        L8_2 = A0_2[5]
+        L8_2 = self[5]
         L9_2 = L8_2
         L8_2 = L8_2.F28EAF3B3AA178E3E
         L10_2 = C7F46A8EE8D89C65A
@@ -219,14 +215,14 @@ function L70_1(A0_2, A1_2)
       end
     end
   else
-    L8_2 = A0_2
-    L7_2 = A0_2.F7C06F6BEA957F0E6
+    L8_2 = self
+    L7_2 = self.F7C06F6BEA957F0E6
     L9_2 = 16
     L7_2(L8_2, L9_2)
     L7_2 = CD950F4AD2C2702A1
     L7_2 = L7_2.S84E00A89DFBC380C
     L7_2()
-    L7_2 = A0_2[5]
+    L7_2 = self[5]
     L8_2 = L7_2
     L7_2 = L7_2.F28EAF3B3AA178E3E
     L9_2 = CEB01CAB0E4499365

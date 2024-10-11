@@ -1,3 +1,7 @@
+---@alias CDFB73C57B78A1F2F main_nushi_NushiCamera
+
+---@class main_nushi_NushiCamera : CDFB73C57B78A1F2F_prototype
+---@field prototype CDFB73C57B78A1F2F_prototype
 L55_1 = _ENV
 L56_1 = "CDFB73C57B78A1F2F"
 L57_1 = L15_1
@@ -81,20 +85,15 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CDFB73C57B78A1F2F"]
 L69_1 = "__name__"
 L70_1 = "CDFB73C57B78A1F2F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFB73C57B78A1F2F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFB73C57B78A1F2F"]["prototype"]
-L69_1 = "FB579D37DE311A155"
-
-function L70_1(A0_2, A1_2)
+---@class CDFB73C57B78A1F2F_prototype
+CDFB73C57B78A1F2F_prototype = L15_1()
+CDFB73C57B78A1F2F.prototype = CDFB73C57B78A1F2F_prototype
+--- main.nushi.NushiCamera.EffectUpdate
+function CDFB73C57B78A1F2F_prototype:FB579D37DE311A155(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   if nil ~= L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.F3BC3E2DE6CE68A7D
     L4_2 = A1_2
@@ -102,11 +101,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFB73C57B78A1F2F"]["prototype"]
-L69_1 = "F98315270D8F5FB96"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.nushi.NushiCamera.F98315270D8F5FB96
+function CDFB73C57B78A1F2F_prototype:F98315270D8F5FB96(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A4_2 then
     A4_2 = 14
@@ -120,12 +116,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   if nil == A1_2 then
     A1_2 = 0.05
   end
-  L5_2 = A0_2
-  L6_2 = A0_2[7]
+  L5_2 = self
+  L6_2 = self[7]
   if false == L6_2 then
-    A0_2[7] = true
-    L7_2 = A0_2
-    L6_2 = A0_2.FC9CA6EBD11D5365F
+    self[7] = true
+    L7_2 = self
+    L6_2 = self.FC9CA6EBD11D5365F
     L8_2 = A2_2
     L9_2 = false
     L10_2 = A3_2
@@ -144,7 +140,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       L1_3(L2_3, L3_3, L4_3)
     end
     
-    A0_2.F193AFECA6D8B951B = L6_2
+    self.F193AFECA6D8B951B = L6_2
     
     function L6_2(A0_3)
       local L1_3
@@ -152,15 +148,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       L1_3[7] = false
     end
     
-    A0_2.FC974AAE7B3BC3D0C = L6_2
+    self.FC974AAE7B3BC3D0C = L6_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFB73C57B78A1F2F"]["prototype"]
-L69_1 = "FC9CA6EBD11D5365F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.nushi.NushiCamera.FC9CA6EBD11D5365F
+function CDFB73C57B78A1F2F_prototype:FC9CA6EBD11D5365F(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A4_2 then
     A4_2 = 0.05
@@ -171,9 +164,9 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   if nil == A2_2 then
     A2_2 = false
   end
-  L5_2 = A0_2
-  A0_2[4] = A2_2
-  A0_2[5] = A4_2
+  L5_2 = self
+  self[4] = A2_2
+  self[5] = A4_2
   L6_2 = {}
   L7_2 = 0
   L8_2 = 0
@@ -195,7 +188,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
   
   L7_2 = L7_2()
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.F7364C99F171973B4
   L10_2 = A1_2
@@ -425,17 +418,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L8_2(L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFB73C57B78A1F2F"]["prototype"]
-L69_1 = "FEB1D464569D7D084"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.nushi.NushiCamera.SimpleNoizeFadeOut
+function CDFB73C57B78A1F2F_prototype:FEB1D464569D7D084(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A2_2 then
     A2_2 = 0
   end
-  L3_2 = A0_2
-  L4_2 = A0_2[4]
+  L3_2 = self
+  L4_2 = self[4]
   if L4_2 then
     L4_2 = {}
     L5_2 = 0
@@ -444,19 +434,19 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2[1] = L5_2
     L4_2[2] = L6_2
     L4_2[3] = L7_2
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L6_2 = L5_2
     L5_2 = L5_2.FB50C9ACDC127E3B9
     L5_2(L6_2)
-    L5_2 = A0_2[6]
-    L6_2 = A0_2[2]
+    L5_2 = self[6]
+    L6_2 = self[2]
     L7_2 = L6_2
     L6_2 = L6_2.f4CBAEA98
     L8_2 = L5_2[1]
     L9_2 = L5_2[2]
     L10_2 = L5_2[3]
     L6_2(L7_2, L8_2, L9_2, L10_2)
-    L6_2 = A0_2[3]
+    L6_2 = self[3]
     L7_2 = L6_2
     L6_2 = L6_2.F7364C99F171973B4
     L8_2 = A1_2
@@ -567,11 +557,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFB73C57B78A1F2F"]["prototype"]
-L69_1 = "F052E7D940B27B8B7"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiCamera.NoizeVec3
+function CDFB73C57B78A1F2F_prototype:F052E7D940B27B8B7(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A1_2 then
     A1_2 = 0.05
@@ -604,13 +591,10 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFB73C57B78A1F2F"]["prototype"]
-L69_1 = "F2CE29EE06B814825"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiCamera.F2CE29EE06B814825
+function CDFB73C57B78A1F2F_prototype:F2CE29EE06B814825(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = A1_2[2]
   L4_2 = L3_2
   L3_2 = L3_2.f33A459EF
@@ -621,7 +605,7 @@ function L70_1(A0_2, A1_2)
   L9_2 = L4_2
   L10_2 = L5_2
   L6_2(L7_2, L8_2, L9_2, L10_2)
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L7_2 = L6_2
   L6_2 = L6_2.f5E2B847F
   L8_2 = A1_2[2]
@@ -629,7 +613,7 @@ function L70_1(A0_2, A1_2)
   L8_2 = L8_2.f40043336
   L8_2, L9_2, L10_2 = L8_2(L9_2)
   L6_2(L7_2, L8_2, L9_2, L10_2)
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L7_2 = L6_2
   L6_2 = L6_2.f084EB74C
   L8_2 = A1_2[2]

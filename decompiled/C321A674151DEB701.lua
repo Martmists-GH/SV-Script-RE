@@ -1,3 +1,7 @@
+---@alias C321A674151DEB701 main_gem_setting_tool_GemSettingFB
+
+---@class main_gem_setting_tool_GemSettingFB : C321A674151DEB701_prototype
+---@field prototype C321A674151DEB701_prototype
 L55_1 = _ENV
 L56_1 = "C321A674151DEB701"
 L57_1 = L15_1
@@ -59,25 +63,20 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C321A674151DEB701"]
 L69_1 = "__name__"
 L70_1 = "C321A674151DEB701"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "F7CD5FEDB7A083576"
-
-function L70_1(A0_2)
+---@class C321A674151DEB701_prototype
+C321A674151DEB701_prototype = L15_1()
+C321A674151DEB701.prototype = C321A674151DEB701_prototype
+--- main.gem.setting_tool.GemSettingFB.SetUp
+function C321A674151DEB701_prototype:F7CD5FEDB7A083576()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.fE6B52E00
   L2_2 = L2_2(L3_2)
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.f51241DA2
     L5_2 = L1_2 - 1
@@ -86,7 +85,7 @@ function L70_1(A0_2)
     L4_2 = L3_2.f3D9D438D
     L6_2 = "name"
     L4_2 = L4_2(L5_2, L6_2)
-    L5_2 = A0_2[4]
+    L5_2 = self[4]
     if nil == L3_2 then
       L6_2 = L5_2.h
       L7_2 = L47_1.tnull
@@ -98,14 +97,11 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "F87CF72E75CE055BB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.gem.setting_tool.GemSettingFB.GetFBdata
+function C321A674151DEB701_prototype:F87CF72E75CE055BB(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FCA9643A5EB10CF7D
+  L5_2 = self
+  L4_2 = self.FCA9643A5EB10CF7D
   L6_2 = C8FB6CAF7F89386B8
   L6_2 = L6_2.S1516029C3FBACEC7
   L7_2 = A1_2
@@ -119,11 +115,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L9_2 = A3_2
   L8_2, L9_2 = L8_2(L9_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L5_2 = L5_2.h
   L5_2 = L5_2[L4_2]
   if nil == L5_2 then
-    L5_2 = A0_2[4]
+    L5_2 = self[4]
     L5_2 = L5_2.h
     L5_2 = L5_2._defult
     L6_2 = L47_1.tnull
@@ -132,7 +128,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
     return L5_2
   end
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L5_2 = L5_2.h
   L5_2 = L5_2[L4_2]
   L6_2 = L47_1.tnull
@@ -142,11 +138,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "FCA9643A5EB10CF7D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.gem.setting_tool.GemSettingFB.CheckSexFBdata
+function C321A674151DEB701_prototype:FCA9643A5EB10CF7D(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = L31_1.string
   L5_2 = L31_1.string
@@ -173,7 +166,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2 = A3_2
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L5_2 = L5_2.h
   L5_2 = L5_2[L4_2]
   if nil == L5_2 then
@@ -190,7 +183,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L7_2 = A3_2
     L6_2 = L6_2(L7_2)
     L5_2 = L5_2 .. L6_2
-    L6_2 = A0_2[4]
+    L6_2 = self[4]
     L6_2 = L6_2.h
     L6_2 = L6_2[L5_2]
     if nil ~= L6_2 then
@@ -202,16 +195,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "FC73BD52326BC8241"
-
-function L70_1(A0_2)
+--- main.gem.setting_tool.GemSettingFB.GetDefultData
+function C321A674151DEB701_prototype:FC73BD52326BC8241()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C6A7833A660E225B0
   L1_2 = L1_2.new
   L1_2 = L1_2()
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2.h
   L2_2 = L2_2._defult
   L3_2 = L47_1.tnull
@@ -219,8 +209,8 @@ function L70_1(A0_2)
     L2_2 = nil
   end
   L3_2 = L2_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F6FB5F07FEB1CE473
+  L5_2 = self
+  L4_2 = self.F6FB5F07FEB1CE473
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = L4_2[4]
@@ -231,8 +221,8 @@ function L70_1(A0_2)
   L1_2[6] = L5_2
   L5_2 = L4_2[7]
   L1_2[7] = L5_2
-  L6_2 = A0_2
-  L5_2 = A0_2.FEAA655796EE5EF1B
+  L6_2 = self
+  L5_2 = self.FEAA655796EE5EF1B
   L7_2 = L3_2
   L5_2 = L5_2(L6_2, L7_2)
   L4_2 = L5_2
@@ -247,11 +237,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "FA1F6081C6D5BC760"
-
-function L70_1(A0_2, A1_2)
+--- main.gem.setting_tool.GemSettingFB.FA1F6081C6D5BC760
+function C321A674151DEB701_prototype:FA1F6081C6D5BC760(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C6A7833A660E225B0
   L2_2 = L2_2.new
@@ -262,8 +249,8 @@ function L70_1(A0_2, A1_2)
   L2_2[2] = L3_2
   L3_2 = A1_2[3]
   L2_2[3] = L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FA2E0B48DFC8190F2
+  L4_2 = self
+  L3_2 = self.FA2E0B48DFC8190F2
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = L3_2[4]
@@ -274,8 +261,8 @@ function L70_1(A0_2, A1_2)
   L2_2[6] = L4_2
   L4_2 = L3_2[7]
   L2_2[7] = L4_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FEC90B7C26FF2BDEC
+  L5_2 = self
+  L4_2 = self.FEC90B7C26FF2BDEC
   L6_2 = A1_2
   L4_2 = L4_2(L5_2, L6_2)
   L3_2 = L4_2
@@ -290,19 +277,16 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "FA2E0B48DFC8190F2"
-
-function L70_1(A0_2, A1_2)
+--- main.gem.setting_tool.GemSettingFB.GetModelDefultData
+function C321A674151DEB701_prototype:FA2E0B48DFC8190F2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = C6A7833A660E225B0
   L2_2 = L2_2.new
   L2_2 = L2_2()
-  L4_2 = A0_2
-  L3_2 = A0_2.F6FB5F07FEB1CE473
-  L6_2 = A0_2
-  L5_2 = A0_2.F87CF72E75CE055BB
+  L4_2 = self
+  L3_2 = self.F6FB5F07FEB1CE473
+  L6_2 = self
+  L5_2 = self.F87CF72E75CE055BB
   L7_2 = A1_2[1]
   L8_2 = A1_2[2]
   L9_2 = A1_2[3]
@@ -319,11 +303,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "F6FB5F07FEB1CE473"
-
-function L70_1(A0_2, A1_2)
+--- main.gem.setting_tool.GemSettingFB.F6FB5F07FEB1CE473
+function C321A674151DEB701_prototype:F6FB5F07FEB1CE473(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C6A7833A660E225B0
   L2_2 = L2_2.new
@@ -392,17 +373,14 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "FF0C22F89323FDB9B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.gem.setting_tool.GemSettingFB.GetGemModelData
+function C321A674151DEB701_prototype:FF0C22F89323FDB9B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = C6A7833A660E225B0
   L3_2 = L3_2.new
   L3_2 = L3_2()
-  L5_2 = A0_2
-  L4_2 = A0_2.F87CF72E75CE055BB
+  L5_2 = self
+  L4_2 = self.F87CF72E75CE055BB
   L6_2 = A1_2[1]
   L7_2 = A1_2[2]
   L8_2 = A1_2[3]
@@ -434,16 +412,16 @@ function L70_1(A0_2, A1_2, A2_2)
   L10_2 = "scale"
   L8_2 = L8_2(L9_2, L10_2)
   L3_2[5] = L8_2
-  L9_2 = A0_2
-  L8_2 = A0_2.FAC8CF2536C34F40B
+  L9_2 = self
+  L8_2 = self.FAC8CF2536C34F40B
   L11_2 = L7_2
   L10_2 = L7_2.f08C48539
   L12_2 = "pos"
   L10_2, L11_2, L12_2 = L10_2(L11_2, L12_2)
   L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2)
   L3_2[6] = L8_2
-  L9_2 = A0_2
-  L8_2 = A0_2.FAC8CF2536C34F40B
+  L9_2 = self
+  L8_2 = self.FAC8CF2536C34F40B
   L11_2 = L7_2
   L10_2 = L7_2.f08C48539
   L12_2 = "rot"
@@ -461,19 +439,16 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "FEC90B7C26FF2BDEC"
-
-function L70_1(A0_2, A1_2)
+--- main.gem.setting_tool.GemSettingFB.GetEffectDefultData
+function C321A674151DEB701_prototype:FEC90B7C26FF2BDEC(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = C6A7833A660E225B0
   L2_2 = L2_2.new
   L2_2 = L2_2()
-  L4_2 = A0_2
-  L3_2 = A0_2.FEAA655796EE5EF1B
-  L6_2 = A0_2
-  L5_2 = A0_2.F87CF72E75CE055BB
+  L4_2 = self
+  L3_2 = self.FEAA655796EE5EF1B
+  L6_2 = self
+  L5_2 = self.F87CF72E75CE055BB
   L7_2 = A1_2[1]
   L8_2 = A1_2[2]
   L9_2 = A1_2[3]
@@ -490,11 +465,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "FEAA655796EE5EF1B"
-
-function L70_1(A0_2, A1_2)
+--- main.gem.setting_tool.GemSettingFB.FEAA655796EE5EF1B
+function C321A674151DEB701_prototype:FEAA655796EE5EF1B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C6A7833A660E225B0
   L2_2 = L2_2.new
@@ -563,11 +535,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "F9DAED49B14C24187"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.gem.setting_tool.GemSettingFB.F9DAED49B14C24187
+function C321A674151DEB701_prototype:F9DAED49B14C24187(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A3_2 then
     A3_2 = false
@@ -578,7 +547,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L0_3 = nil
     L1_3 = A3_2
     if not L1_3 then
-      L1_3 = A0_2
+      L1_3 = self
       L2_3 = L1_3
       L1_3 = L1_3.FC73BD52326BC8241
       L1_3 = L1_3(L2_3)
@@ -590,8 +559,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
   
   L4_2 = L4_2()
-  L6_2 = A0_2
-  L5_2 = A0_2.F87CF72E75CE055BB
+  L6_2 = self
+  L5_2 = self.F87CF72E75CE055BB
   L7_2 = A1_2[1]
   L8_2 = A1_2[2]
   L9_2 = A1_2[3]
@@ -621,8 +590,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L9_2 = true
     return L9_2
   end
-  L10_2 = A0_2
-  L9_2 = A0_2.F9D2B87E4C2009D85
+  L10_2 = self
+  L9_2 = self.F9D2B87E4C2009D85
   L12_2 = L8_2
   L11_2 = L8_2.f08C48539
   L13_2 = "pos"
@@ -633,8 +602,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L9_2 = true
     return L9_2
   end
-  L10_2 = A0_2
-  L9_2 = A0_2.F9D2B87E4C2009D85
+  L10_2 = self
+  L9_2 = self.F9D2B87E4C2009D85
   L12_2 = L8_2
   L11_2 = L8_2.f08C48539
   L13_2 = "rot"
@@ -661,14 +630,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "F9D2B87E4C2009D85"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.gem.setting_tool.GemSettingFB.CheckVector3
+function C321A674151DEB701_prototype:F9D2B87E4C2009D85(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FAC8CF2536C34F40B
+  L4_2 = self
+  L3_2 = self.FAC8CF2536C34F40B
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = L3_2[1]
@@ -688,14 +654,11 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "F9D2B86E4C2009BD2"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.gem.setting_tool.GemSettingFB.CheckVector2
+function C321A674151DEB701_prototype:F9D2B86E4C2009BD2(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FAC8CF1536C34F258
+  L4_2 = self
+  L3_2 = self.FAC8CF1536C34F258
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = L3_2[1]
@@ -711,11 +674,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "FAC8CF2536C34F40B"
-
-function L70_1(A0_2, A1_2)
+--- main.gem.setting_tool.GemSettingFB.FBstructToVector3
+function C321A674151DEB701_prototype:FAC8CF2536C34F40B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = {}
   L4_2 = A1_2
@@ -738,11 +698,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C321A674151DEB701"]["prototype"]
-L69_1 = "FAC8CF1536C34F258"
-
-function L70_1(A0_2, A1_2)
+--- main.gem.setting_tool.GemSettingFB.FAC8CF1536C34F258
+function C321A674151DEB701_prototype:FAC8CF1536C34F258(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = {}
   L4_2 = A1_2

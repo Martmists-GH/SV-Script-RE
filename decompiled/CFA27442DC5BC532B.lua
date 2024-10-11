@@ -1,3 +1,7 @@
+---@alias CFA27442DC5BC532B main_event_debug_DebugYamamotoSatoru
+
+---@class main_event_debug_DebugYamamotoSatoru : CFA27442DC5BC532B_prototype
+---@field prototype CFA27442DC5BC532B_prototype
 L55_1 = _ENV
 L56_1 = "CFA27442DC5BC532B"
 L57_1 = L15_1
@@ -45,32 +49,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CFA27442DC5BC532B"]
 L69_1 = "__name__"
 L70_1 = "CFA27442DC5BC532B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFA27442DC5BC532B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFA27442DC5BC532B"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class CFA27442DC5BC532B_prototype
+CFA27442DC5BC532B_prototype = L15_1()
+CFA27442DC5BC532B.prototype = CFA27442DC5BC532B_prototype
+--- main.event.debug.DebugYamamotoSatoru.preStart
+function CFA27442DC5BC532B_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFA27442DC5BC532B"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugYamamotoSatoru.postStart
+function CFA27442DC5BC532B_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFA27442DC5BC532B"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugYamamotoSatoru.mainBody
+function CFA27442DC5BC532B_prototype:FD8D5F3745B4B5174()
   local L1_2
 end
 

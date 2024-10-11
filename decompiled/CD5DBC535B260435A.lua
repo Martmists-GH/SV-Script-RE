@@ -1,3 +1,7 @@
+---@alias CD5DBC535B260435A main_ui_shop_wazamachine_view_buy_ShopWazamachineWazaRemember
+
+---@class main_ui_shop_wazamachine_view_buy_ShopWazamachineWazaRemember : CD5DBC535B260435A_prototype
+---@field prototype CD5DBC535B260435A_prototype
 L55_1 = _ENV
 L56_1 = "CD5DBC535B260435A"
 L57_1 = L15_1
@@ -77,16 +81,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD5DBC535B260435A"]
 L69_1 = "__name__"
 L70_1 = "CD5DBC535B260435A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5DBC535B260435A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5DBC535B260435A"]["prototype"]
-L69_1 = "F1DE3C0D07B43F2E1"
-
-function L70_1(A0_2)
+---@class CD5DBC535B260435A_prototype
+CD5DBC535B260435A_prototype = L15_1()
+CD5DBC535B260435A.prototype = CD5DBC535B260435A_prototype
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineWazaRemember.WazaRememberStart
+function CD5DBC535B260435A_prototype:F1DE3C0D07B43F2E1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = cB3DDDC2A
   L1_2 = L1_2.f5B6373D5
@@ -94,7 +93,7 @@ function L70_1(A0_2)
   L3_2 = L1_2
   L2_2 = L1_2.fCB6BF1D5
   L4_2 = 0
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.FEDD8CA766B7AB646
   L5_2, L6_2 = L5_2(L6_2)
@@ -107,8 +106,8 @@ function L70_1(A0_2)
   L6_2 = "shop_waza_16_01"
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FA3A73B86E0102A87
+  L4_2 = self
+  L3_2 = self.FA3A73B86E0102A87
   L3_2 = L3_2(L4_2)
   L5_2 = L3_2
   L4_2 = L3_2.f1FFBFCBD
@@ -155,21 +154,18 @@ function L70_1(A0_2)
   L4_2 = L4_2()
   L4_2 = "1" == L4_2
   if L4_2 then
-    A0_2[3] = 0
-    A0_2[4] = 0
-    L6_2 = A0_2
-    L5_2 = A0_2.F7E9CB7315260D0B2
+    self[3] = 0
+    self[4] = 0
+    L6_2 = self
+    L5_2 = self.F7E9CB7315260D0B2
     L5_2 = L5_2(L6_2)
     L4_2 = L5_2
   end
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5DBC535B260435A"]["prototype"]
-L69_1 = "F7E9CB7315260D0B2"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineWazaRemember.WazaRememberPokeSelect
+function CD5DBC535B260435A_prototype:F7E9CB7315260D0B2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = cC9AD95E7
   L1_2 = L1_2.f101D811F
@@ -181,14 +177,14 @@ function L70_1(A0_2)
   L3_2 = L1_2
   L2_2 = L1_2.fB6B9CC52
   L2_2(L3_2)
-  A0_2[5] = true
+  self[5] = true
   L2_2 = cB3DDDC2A
   L2_2 = L2_2.f5B6373D5
   L2_2 = L2_2()
   L4_2 = L2_2
   L3_2 = L2_2.fCB6BF1D5
   L5_2 = 0
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L6_2
   L6_2 = L6_2.FEDD8CA766B7AB646
   L6_2, L7_2, L8_2, L9_2 = L6_2(L7_2)
@@ -210,7 +206,7 @@ function L70_1(A0_2)
   L5_2 = E048715B79C692C5A
   L5_2 = L5_2.System
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.F4421ADEA5C23F93E
   L3_2 = L3_2(L4_2)
@@ -218,10 +214,10 @@ function L70_1(A0_2)
   L3_2 = L3_2.FF690887254598F4C
   L5_2 = true
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FD1D1EF258C7F6030
+  L4_2 = self
+  L3_2 = self.FD1D1EF258C7F6030
   L3_2 = L3_2(L4_2)
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.F4421ADEA5C23F93E
   L4_2 = L4_2(L5_2)
@@ -229,7 +225,7 @@ function L70_1(A0_2)
   L4_2 = L4_2.FF690887254598F4C
   L6_2 = false
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.F4421ADEA5C23F93E
   L4_2 = L4_2(L5_2)
@@ -241,15 +237,12 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5DBC535B260435A"]["prototype"]
-L69_1 = "FD1D1EF258C7F6030"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineWazaRemember.WazamachineUse
+function CD5DBC535B260435A_prototype:FD1D1EF258C7F6030()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  A0_2[4] = 0
-  L2_2 = A0_2
-  L1_2 = A0_2.FC9C2EFB22DACAAE4
+  self[4] = 0
+  L2_2 = self
+  L1_2 = self.FC9C2EFB22DACAAE4
   L1_2 = L1_2(L2_2)
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.S760DAE4C5371A78E
@@ -312,7 +305,7 @@ function L70_1(A0_2)
         L4_2 = L4_2.S760DAE4C5371A78E
         L4_2()
       end
-      L4_2 = A0_2[2]
+      L4_2 = self[2]
       L5_2 = L4_2
       L4_2 = L4_2.FF690887254598F4C
       L6_2 = false
@@ -320,8 +313,8 @@ function L70_1(A0_2)
       L4_2 = false
       return L4_2
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.F1DEC48E492198829
+    L4_2 = self
+    L3_2 = self.F1DEC48E492198829
     L5_2 = L1_2.selectIndex
     L3_2 = L3_2(L4_2, L5_2)
     L2_2 = L3_2
@@ -341,7 +334,7 @@ function L70_1(A0_2)
   else
     L3_2 = L1_2.select
     if 2 == L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.FF690887254598F4C
       L5_2 = false
@@ -351,14 +344,11 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5DBC535B260435A"]["prototype"]
-L69_1 = "FC9C2EFB22DACAAE4"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineWazaRemember.PokeSelect
+function CD5DBC535B260435A_prototype:FC9C2EFB22DACAAE4()
   local L1_2, L2_2, L3_2
   while true do
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     if 0 ~= L1_2 then
       break
     end
@@ -367,7 +357,7 @@ function L70_1(A0_2)
     L2_2 = "UI_CANCEL"
     L1_2 = L1_2(L2_2)
     if L1_2 then
-      A0_2[4] = 2
+      self[4] = 2
     end
     L1_2 = C1DB14DCC9D7634FA
     L1_2 = L1_2.S760DAE4C5371A78E
@@ -379,18 +369,15 @@ function L70_1(A0_2)
   L3_2.select = true
   L3_2.selectIndex = true
   L2_2.__fields__ = L3_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L2_2.select = L3_2
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L2_2.selectIndex = L3_2
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5DBC535B260435A"]["prototype"]
-L69_1 = "F1DEC48E492198829"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineWazaRemember.StartWazaRemember
+function CD5DBC535B260435A_prototype:F1DEC48E492198829(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.fFCE06E04
@@ -401,7 +388,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = C828F047963375FA0
   L3_2 = L3_2.S9D25C0BA1A393C61
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.FEDD8CA766B7AB646
   L4_2 = L4_2(L5_2)
@@ -425,7 +412,7 @@ function L70_1(A0_2, A1_2)
     L8_2 = "shop_waza_17_02"
     L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L6_2(L7_2, L8_2)
     L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.FEDD8CA766B7AB646
     L4_2 = L4_2(L5_2)
@@ -446,8 +433,8 @@ function L70_1(A0_2, A1_2)
     L9_2 = "shop_waza_17_02"
     L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L7_2(L8_2, L9_2)
     L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-    L7_2 = A0_2
-    L6_2 = A0_2.FA3A73B86E0102A87
+    L7_2 = self
+    L6_2 = self.FA3A73B86E0102A87
     L8_2 = true
     L6_2 = L6_2(L7_2, L8_2)
     L8_2 = L6_2
@@ -481,7 +468,7 @@ function L70_1(A0_2, A1_2)
     L8_2 = "msg_ui_bag_wazamashine_msg_02"
     L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L6_2(L7_2, L8_2)
     L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.FEDD8CA766B7AB646
     L4_2 = L4_2(L5_2)
@@ -502,8 +489,8 @@ function L70_1(A0_2, A1_2)
     L9_2 = "msg_ui_bag_wazamashine_msg_02"
     L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L7_2(L8_2, L9_2)
     L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-    L7_2 = A0_2
-    L6_2 = A0_2.FA3A73B86E0102A87
+    L7_2 = self
+    L6_2 = self.FA3A73B86E0102A87
     L8_2 = true
     L6_2 = L6_2(L7_2, L8_2)
     L8_2 = L6_2
@@ -521,15 +508,15 @@ function L70_1(A0_2, A1_2)
   end
   L5_2 = L2_2
   L4_2 = L2_2.fEAF2F1A0
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L6_2
   L6_2 = L6_2.FEDD8CA766B7AB646
   L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L6_2(L7_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
   L5_2 = false
   if 0 == L4_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.FA3A73B86E0102A87
+    L7_2 = self
+    L6_2 = self.FA3A73B86E0102A87
     L8_2 = true
     L6_2 = L6_2(L7_2, L8_2)
     L7_2 = C828F047963375FA0
@@ -539,7 +526,7 @@ function L70_1(A0_2, A1_2)
     L9_2 = 0
     L10_2 = L2_2
     L7_2(L8_2, L9_2, L10_2)
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L8_2 = L7_2
     L7_2 = L7_2.FEDD8CA766B7AB646
     L7_2 = L7_2(L8_2)
@@ -589,8 +576,8 @@ function L70_1(A0_2, A1_2)
     L8_2(L9_2, L10_2)
     L5_2 = true
   elseif 1 == L4_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F08F0729969D83042
+    L7_2 = self
+    L6_2 = self.F08F0729969D83042
     L8_2 = L2_2
     L6_2 = L6_2(L7_2, L8_2)
     L5_2 = L6_2
@@ -606,7 +593,7 @@ function L70_1(A0_2, A1_2)
     L8_2 = L8_2()
     L9_2 = L8_2
     L8_2 = L8_2.F44E3303AD8B7397D
-    L10_2 = A0_2[1]
+    L10_2 = self[1]
     L11_2 = L10_2
     L10_2 = L10_2.FF90F33FEF3B10F27
     L10_2, L11_2, L12_2, L13_2, L14_2 = L10_2(L11_2)
@@ -616,14 +603,11 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5DBC535B260435A"]["prototype"]
-L69_1 = "F08F0729969D83042"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineWazaRemember.WazaRememberSequence
+function CD5DBC535B260435A_prototype:F08F0729969D83042(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FA3A73B86E0102A87
+  L3_2 = self
+  L2_2 = self.FA3A73B86E0102A87
   L4_2 = true
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = cB3DDDC2A
@@ -632,7 +616,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = L3_2
   L4_2 = L3_2.fCB6BF1D5
   L6_2 = 0
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.FEDD8CA766B7AB646
   L7_2, L8_2 = L7_2(L8_2)
@@ -676,7 +660,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = C3375B87767F844DD
   L5_2 = L5_2.S4EF8C88F156C14B4
   L6_2 = A1_2
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.FEDD8CA766B7AB646
   L7_2, L8_2 = L7_2(L8_2)
@@ -687,7 +671,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = C3375B87767F844DD
   L5_2 = L5_2.S3105A6F4888F88ED
   L5_2()
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.FA23D39922B76B247
   L7_2 = false
@@ -706,15 +690,15 @@ function L70_1(A0_2, A1_2)
   L5_2 = C1DB14DCC9D7634FA
   L5_2 = L5_2.S760DAE4C5371A78E
   L5_2()
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.F1C9CF28834043D07
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L8_2 = L7_2
   L7_2 = L7_2.F37FE4BFE9551C669
   L7_2, L8_2 = L7_2(L8_2)
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.FA23D39922B76B247
   L7_2 = true
@@ -731,8 +715,8 @@ function L70_1(A0_2, A1_2)
   L6_2 = L6_2()
   if 1 == L6_2 then
     L5_2 = true
-    L7_2 = A0_2
-    L6_2 = A0_2.F36952E6E7355718D
+    L7_2 = self
+    L6_2 = self.F36952E6E7355718D
     L8_2 = A1_2
     L6_2(L7_2, L8_2)
     while true do
@@ -748,25 +732,22 @@ function L70_1(A0_2, A1_2)
       L6_2 = L6_2.S760DAE4C5371A78E
       L6_2()
     end
-    L7_2 = A0_2
-    L6_2 = A0_2.F4C93B22286F1BC15
+    L7_2 = self
+    L6_2 = self.F4C93B22286F1BC15
     L8_2 = A1_2
     L6_2(L7_2, L8_2)
   end
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5DBC535B260435A"]["prototype"]
-L69_1 = "F36952E6E7355718D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineWazaRemember.WazaRememberSuccessMessage
+function CD5DBC535B260435A_prototype:F36952E6E7355718D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = C3375B87767F844DD
   L2_2 = L2_2.S357A65DD82CA566E
   L2_2 = L2_2()
-  L4_2 = A0_2
-  L3_2 = A0_2.FA3A73B86E0102A87
+  L4_2 = self
+  L3_2 = self.FA3A73B86E0102A87
   L5_2 = true
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = cB3DDDC2A
@@ -833,11 +814,8 @@ function L70_1(A0_2, A1_2)
   L6_2(L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5DBC535B260435A"]["prototype"]
-L69_1 = "FA3A73B86E0102A87"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineWazaRemember.CreateTemplateMessageRequest
+function CD5DBC535B260435A_prototype:FA3A73B86E0102A87(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = true
@@ -860,21 +838,15 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5DBC535B260435A"]["prototype"]
-L69_1 = "FC32629F8D30E8691"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineWazaRemember.FC32629F8D30E8691
+function CD5DBC535B260435A_prototype:FC32629F8D30E8691()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD5DBC535B260435A"]["prototype"]
-L69_1 = "F4C93B22286F1BC15"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineWazaRemember.F4C93B22286F1BC15
+function CD5DBC535B260435A_prototype:F4C93B22286F1BC15(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = A1_2
   L2_2 = A1_2.f0BD5134F
@@ -892,7 +864,7 @@ function L70_1(A0_2, A1_2)
   if L2_2 == L3_2 then
     return
   end
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.FD9BD9ED70856AE22
   L5_2 = false
@@ -919,7 +891,7 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2.S64886ABD075C4D07
   L5_2 = A1_2
   L6_2 = L3_2
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.FF90F33FEF3B10F27
   L7_2, L8_2 = L7_2(L8_2)
@@ -934,7 +906,7 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2.S760DAE4C5371A78E
     L4_2()
   end
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.FD9BD9ED70856AE22
   L6_2 = true

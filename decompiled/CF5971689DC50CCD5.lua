@@ -1,3 +1,5 @@
+---@class CF5971689DC50CCD5 : CF5971689DC50CCD5_prototype
+---@field prototype CF5971689DC50CCD5_prototype
 L55_1 = _ENV
 L56_1 = "CF5971689DC50CCD5"
 L57_1 = L15_1
@@ -46,40 +48,32 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF5971689DC50CCD5"]
 L69_1 = "__name__"
 L70_1 = "CF5971689DC50CCD5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5971689DC50CCD5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5971689DC50CCD5"]["prototype"]
-L69_1 = "FCD817043038ADFCD"
-
-function L70_1(A0_2, A1_2)
+---@class CF5971689DC50CCD5_prototype
+CF5971689DC50CCD5_prototype = L15_1()
+CF5971689DC50CCD5.prototype = CF5971689DC50CCD5_prototype
+--- CF5971689DC50CCD5.SetEnableShiftState
+function CF5971689DC50CCD5_prototype:FCD817043038ADFCD(A1_2)
   local L2_2
   if nil == A1_2 then
     A1_2 = true
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[36]
   L2_2[13] = A1_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[38]
   L2_2[34] = A1_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2[37]
   L2_2[13] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF5971689DC50CCD5"]["prototype"]
-L69_1 = "F9D91FA2BC63B90B4"
-
-function L70_1(A0_2)
+--- CF5971689DC50CCD5.get_IsAbleDash
+function CF5971689DC50CCD5_prototype:F9D91FA2BC63B90B4()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = L3_1
-  L3_2 = A0_2
-  L2_2 = A0_2.FAFA651C652BD64CD
+  L3_2 = self
+  L2_2 = self.FAFA651C652BD64CD
   L2_2 = L2_2(L3_2)
   L2_2 = L2_2[24]
   L2_2 = L2_2[1]
@@ -90,24 +84,24 @@ function L70_1(A0_2)
   if 0 ~= L1_2 then
     L1_2 = C9B18926651A71FDA
     L1_2 = L1_2.S57669E023D07F721
-    L3_2 = A0_2
-    L2_2 = A0_2.FAFA651C652BD64CD
+    L3_2 = self
+    L2_2 = self.FAFA651C652BD64CD
     L2_2 = L2_2(L3_2)
     L3_2 = 0
     L1_2 = L1_2(L2_2, L3_2)
     if L1_2 then
-      L1_2 = A0_2[3]
+      L1_2 = self[3]
       L1_2 = L1_2[36]
       L2_2 = L1_2
       L1_2 = L1_2.FCF33B84EB8D3067F
       L1_2 = L1_2(L2_2)
-      L2_2 = A0_2[3]
+      L2_2 = self[3]
       L2_2 = L2_2[36]
       L3_2 = L2_2
       L2_2 = L2_2.F9C5F9F8D16A6E16D
       L2_2 = L2_2(L3_2)
       L2_2 = L2_2[3]
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L3_2 = L3_2[3]
       L3_2 = L3_2[1]
       L3_2 = L3_2[7]

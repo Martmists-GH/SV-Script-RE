@@ -1,3 +1,7 @@
+---@alias CF1BC0419D30C42CE main_ui_system_ui_SystemBg
+
+---@class main_ui_system_ui_SystemBg : CF1BC0419D30C42CE_prototype
+---@field prototype CF1BC0419D30C42CE_prototype
 L55_1 = _ENV
 L56_1 = "CC337352B042E54E4"
 L57_1 = L15_1
@@ -56,11 +60,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC337352B042E54E4"]
 L69_1 = "__name__"
 L70_1 = "CC337352B042E54E4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC337352B042E54E4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CF1BC0419D30C42CE_prototype
+CF1BC0419D30C42CE_prototype = L15_1()
+CF1BC0419D30C42CE.prototype = CF1BC0419D30C42CE_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC337352B042E54E4"]["prototype"]
 L69_1 = _ENV["CC337352B042E54E4"]

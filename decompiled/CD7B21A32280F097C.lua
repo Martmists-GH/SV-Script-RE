@@ -1,3 +1,7 @@
+---@alias CD7B21A32280F097C main_event_general_waza_machine_machine_WazaMachineMachine
+
+---@class main_event_general_waza_machine_machine_WazaMachineMachine : CD7B21A32280F097C_prototype
+---@field prototype CD7B21A32280F097C_prototype
 L55_1 = _ENV
 L56_1 = "CD7B21A32280F097C"
 L57_1 = L15_1
@@ -47,50 +51,42 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD7B21A32280F097C"]
 L69_1 = "__name__"
 L70_1 = "CD7B21A32280F097C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD7B21A32280F097C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD7B21A32280F097C"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class CD7B21A32280F097C_prototype
+CD7B21A32280F097C_prototype = L15_1()
+CD7B21A32280F097C.prototype = CD7B21A32280F097C_prototype
+--- main.event.general.waza_machine_machine.WazaMachineMachine.preStart
+function CD7B21A32280F097C_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
   L2_2 = "waza_machine_machine"
   L1_2 = L1_2(L2_2)
-  A0_2[36] = L1_2
+  self[36] = L1_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[36]
+  L3_2 = self[36]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[36]
+  L2_2 = self[36]
   L3_2 = L2_2
   L2_2 = L2_2.f0EF10D0C
   L2_2(L3_2)
-  A0_2[35] = true
+  self[35] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD7B21A32280F097C"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.waza_machine_machine.WazaMachineMachine.mainBody
+function CD7B21A32280F097C_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   if not L1_2 then
     return
   end
   while true do
-    L1_2 = A0_2[36]
+    L1_2 = self[36]
     L2_2 = L1_2
     L1_2 = L1_2.f9D8BC178
     L1_2 = L1_2(L2_2)
@@ -103,7 +99,7 @@ function L70_1(A0_2)
     L1_2(L2_2)
   end
   while true do
-    L1_2 = A0_2[36]
+    L1_2 = self[36]
     L2_2 = L1_2
     L1_2 = L1_2.f9D8BC178
     L1_2 = L1_2(L2_2)
@@ -117,20 +113,17 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD7B21A32280F097C"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.waza_machine_machine.WazaMachineMachine.mainBodyFinish
+function CD7B21A32280F097C_prototype:F84C84FA1590CD2A3()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.f25C936C9
-  L3_2 = A0_2[36]
+  L3_2 = self[36]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[36]
+    L2_2 = self[36]
     L3_2 = L2_2
     L2_2 = L2_2.f5C99C0AC
     L2_2(L3_2)

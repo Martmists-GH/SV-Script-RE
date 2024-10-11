@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C7F73645FFC59EF85"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C7F73645FFC59EF85"]
-L69_1 = "new"
+---@alias C7F73645FFC59EF85 main_ui_net_btl_database_NetBattleDataProperty
 
-function L70_1(A0_2, A1_2)
+---@class main_ui_net_btl_database_NetBattleDataProperty : C7F73645FFC59EF85_prototype
+---@field prototype C7F73645FFC59EF85_prototype
+C7F73645FFC59EF85 = L15_1()
+function C7F73645FFC59EF85.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = C7F73645FFC59EF85
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 C7F73645FFC59EF85
+function C7F73645FFC59EF85.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L3_2 = _hx_tab_array
   L4_2 = {}
@@ -229,11 +223,7 @@ function L70_1(A0_2, A1_2, A2_2)
   A0_2[39] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]
-L69_1 = "__name__"
-L70_1 = "C7F73645FFC59EF85"
-L68_1[L69_1] = L70_1
+C7F73645FFC59EF85.__name__ = "C7F73645FFC59EF85"
 L68_1 = _ENV["C7F73645FFC59EF85"]
 L69_1 = "SB7E35B72068DE7CE"
 
@@ -273,11 +263,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]
-L69_1 = "SD4EE617C483DED0D"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleDataProperty.GetSpecialPokemonRule
+function C7F73645FFC59EF85.SD4EE617C483DED0D(A0_2)
   local L1_2, L2_2
   L1_2 = C7F73645FFC59EF85
   L1_2 = L1_2.SB7E35B72068DE7CE
@@ -306,154 +293,110 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]["prototype"]
-L69_1 = "F21E6D3A0F08057CA"
-
-function L70_1(A0_2)
+---@class C7F73645FFC59EF85_prototype
+C7F73645FFC59EF85_prototype = L15_1()
+C7F73645FFC59EF85.prototype = C7F73645FFC59EF85_prototype
+--- main.ui.net_btl.database.NetBattleDataProperty.get_presetID
+function C7F73645FFC59EF85_prototype:F21E6D3A0F08057CA()
   local L1_2
-  L1_2 = A0_2[21]
+  L1_2 = self[21]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]["prototype"]
-L69_1 = "FDC1FE1BD96388B45"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleDataProperty.FDC1FE1BD96388B45
+function C7F73645FFC59EF85_prototype:FDC1FE1BD96388B45()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]["prototype"]
-L69_1 = "F6906720696F41077"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleDataProperty.get_selectPokeMin
+function C7F73645FFC59EF85_prototype:F6906720696F41077()
   local L1_2
-  L1_2 = A0_2[26]
+  L1_2 = self[26]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]["prototype"]
-L69_1 = "F69218006970AEFF9"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleDataProperty.get_selectPokeMax
+function C7F73645FFC59EF85_prototype:F69218006970AEFF9()
   local L1_2
-  L1_2 = A0_2[27]
+  L1_2 = self[27]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]["prototype"]
-L69_1 = "F3CE97C689ED25EFE"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleDataProperty.get_joinLevel
+function C7F73645FFC59EF85_prototype:F3CE97C689ED25EFE()
   local L1_2
-  L1_2 = A0_2[28]
+  L1_2 = self[28]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]["prototype"]
-L69_1 = "F94D5B8B844851252"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleDataProperty.F94D5B8B844851252
+function C7F73645FFC59EF85_prototype:F94D5B8B844851252()
   local L1_2
-  L1_2 = A0_2[29]
+  L1_2 = self[29]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]["prototype"]
-L69_1 = "F15049903B6498365"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleDataProperty.F15049903B6498365
+function C7F73645FFC59EF85_prototype:F15049903B6498365()
   local L1_2
-  L1_2 = A0_2[30]
+  L1_2 = self[30]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]["prototype"]
-L69_1 = "FB21703B0916439A7"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleDataProperty.FB21703B0916439A7
+function C7F73645FFC59EF85_prototype:FB21703B0916439A7()
   local L1_2
-  L1_2 = A0_2[31]
+  L1_2 = self[31]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]["prototype"]
-L69_1 = "FB10BB11E209C0878"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleDataProperty.get_timeLimitType
+function C7F73645FFC59EF85_prototype:FB10BB11E209C0878()
   local L1_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]["prototype"]
-L69_1 = "F7744758A127DEDA2"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleDataProperty.get_limitTime
+function C7F73645FFC59EF85_prototype:F7744758A127DEDA2()
   local L1_2
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]["prototype"]
-L69_1 = "F87CC0A5D9AF8B6E0"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleDataProperty.get_waitTime
+function C7F73645FFC59EF85_prototype:F87CC0A5D9AF8B6E0()
   local L1_2
-  L1_2 = A0_2[34]
+  L1_2 = self[34]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]["prototype"]
-L69_1 = "FB994392E53F4C1E5"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleDataProperty.get_pokeShowTime
+function C7F73645FFC59EF85_prototype:FB994392E53F4C1E5()
   local L1_2
-  L1_2 = A0_2[37]
+  L1_2 = self[37]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]["prototype"]
-L69_1 = "FFCA5F1E6E31995BE"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleDataProperty.FFCA5F1E6E31995BE
+function C7F73645FFC59EF85_prototype:FFCA5F1E6E31995BE()
   local L1_2
-  L1_2 = A0_2[39]
+  L1_2 = self[39]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F73645FFC59EF85"]["prototype"]
-L69_1 = "FEB281B5F43F7A418"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.database.NetBattleDataProperty.GetRuleNameLabel
+function C7F73645FFC59EF85_prototype:FEB281B5F43F7A418()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = "msg_reg_rulename_"
   L2_2 = L31_1.string
   L3_2 = ""
   L2_2 = L2_2(L3_2)
   L3_2 = L31_1.string
-  L5_2 = A0_2
-  L4_2 = A0_2.F21E6D3A0F08057CA
+  L5_2 = self
+  L4_2 = self.F21E6D3A0F08057CA
   L4_2, L5_2 = L4_2(L5_2)
   L3_2 = L3_2(L4_2, L5_2)
   L2_2 = L2_2 .. L3_2

@@ -1,3 +1,7 @@
+---@alias C9E0FB0CF68BCD1E3 main_event_general_paralleled_ParallelNpcTalkMotionSync
+
+---@class main_event_general_paralleled_ParallelNpcTalkMotionSync : C9E0FB0CF68BCD1E3_prototype
+---@field prototype C9E0FB0CF68BCD1E3_prototype
 L55_1 = _ENV
 L56_1 = "C9E0FB0CF68BCD1E3"
 L57_1 = L15_1
@@ -49,23 +53,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9E0FB0CF68BCD1E3"]
 L69_1 = "__name__"
 L70_1 = "C9E0FB0CF68BCD1E3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E0FB0CF68BCD1E3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E0FB0CF68BCD1E3"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C9E0FB0CF68BCD1E3_prototype
+C9E0FB0CF68BCD1E3_prototype = L15_1()
+C9E0FB0CF68BCD1E3.prototype = C9E0FB0CF68BCD1E3_prototype
+--- main.event.general.paralleled.ParallelNpcTalkMotionSync.preStart
+function C9E0FB0CF68BCD1E3_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   if nil == L1_2 then
     return
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   L2_2 = C082CF09B8C4A351D
   L2_2 = L2_2.S98673387FD32CA27
@@ -84,19 +83,16 @@ function L70_1(A0_2)
   
   L3_2 = L3_2()
   L2_2 = L2_2(L3_2)
-  A0_2[33] = L2_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FDBED33EEDFE747F1
+  self[33] = L2_2
+  L3_2 = self
+  L2_2 = self.FDBED33EEDFE747F1
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E0FB0CF68BCD1E3"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelNpcTalkMotionSync.mainBody
+function C9E0FB0CF68BCD1E3_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   if nil == L1_2 then
     return
@@ -105,13 +101,13 @@ function L70_1(A0_2)
   L1_2 = L1_2.S760DAE4C5371A78E
   L2_2 = nil
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FA8730A4C6327796B
+  L2_2 = self
+  L1_2 = self.FA8730A4C6327796B
   L1_2(L2_2)
   while true do
     L1_2 = CF1D9D619D324F233
     L1_2 = L1_2.SBFB9EB45D5AD74F0
-    L2_2 = A0_2[32]
+    L2_2 = self[32]
     L2_2 = L2_2.messageType
     L1_2 = L1_2(L2_2)
     if not L1_2 then
@@ -120,10 +116,10 @@ function L70_1(A0_2)
     L1_2 = CC6FE82819C6E1D55
     L1_2 = L1_2.S12F63EE47FFCB183
     L1_2()
-    L1_2 = A0_2[34]
+    L1_2 = self[34]
     if L1_2 then
-      L1_2 = A0_2[35]
-      L2_2 = A0_2[3]
+      L1_2 = self[35]
+      L2_2 = self[3]
       L3_2 = L2_2
       L2_2 = L2_2.f22D509B2
       L4_2 = 2
@@ -132,26 +128,26 @@ function L70_1(A0_2)
       L2_2 = L2_2.fC0E2CAD0
       L2_2 = L2_2(L3_2)
       L1_2 = L1_2 + L2_2
-      A0_2[35] = L1_2
-      L1_2 = A0_2[35]
+      self[35] = L1_2
+      L1_2 = self[35]
       L2_2 = C5C8B55BAAD4BE712
       L2_2 = L2_2.S04AA435A98B675D6
       if L1_2 > L2_2 then
-        L2_2 = A0_2
-        L1_2 = A0_2.FBB4CCCA228E3D019
+        L2_2 = self
+        L1_2 = self.FBB4CCCA228E3D019
         L1_2(L2_2)
-        L1_2 = A0_2[32]
+        L1_2 = self[32]
         L1_2 = L1_2.talkMotionSyncWithLip
         if L1_2 then
-          L2_2 = A0_2
-          L1_2 = A0_2.F1DB119C7DE5E9413
+          L2_2 = self
+          L1_2 = self.F1DB119C7DE5E9413
           L1_2(L2_2)
         end
       end
     end
     L1_2 = CF1D9D619D324F233
     L1_2 = L1_2.S42A63AECD45A3F7C
-    L2_2 = A0_2[32]
+    L2_2 = self[32]
     L2_2 = L2_2.messageType
     L1_2 = L1_2(L2_2)
     if L1_2 then
@@ -160,14 +156,14 @@ function L70_1(A0_2)
       L2_2 = "UI_DECIDE"
       L1_2 = L1_2(L2_2)
       if L1_2 then
-        L2_2 = A0_2
-        L1_2 = A0_2.FA8730A4C6327796B
+        L2_2 = self
+        L1_2 = self.FA8730A4C6327796B
         L1_2(L2_2)
-        L1_2 = A0_2[32]
+        L1_2 = self[32]
         L1_2 = L1_2.talkMotionSyncWithLip
         if L1_2 then
-          L2_2 = A0_2
-          L1_2 = A0_2.FDBED33EEDFE747F1
+          L2_2 = self
+          L1_2 = self.FDBED33EEDFE747F1
           L1_2(L2_2)
         end
       end
@@ -175,66 +171,54 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E0FB0CF68BCD1E3"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelNpcTalkMotionSync.postEnd
+function C9E0FB0CF68BCD1E3_prototype:F3E13E4094D09A594()
   local L1_2, L2_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   if nil == L1_2 then
     return
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.FBB4CCCA228E3D019
+  L2_2 = self
+  L1_2 = self.FBB4CCCA228E3D019
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F1DB119C7DE5E9413
+  L2_2 = self
+  L1_2 = self.F1DB119C7DE5E9413
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E0FB0CF68BCD1E3"]["prototype"]
-L69_1 = "FDBED33EEDFE747F1"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelNpcTalkMotionSync.playSpeakMotion
+function C9E0FB0CF68BCD1E3_prototype:FDBED33EEDFE747F1()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F4FC55789BFA36793
+  L2_2 = self
+  L1_2 = self.F4FC55789BFA36793
   L3_2 = true
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E0FB0CF68BCD1E3"]["prototype"]
-L69_1 = "F1DB119C7DE5E9413"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelNpcTalkMotionSync.stopSpeakMotion
+function C9E0FB0CF68BCD1E3_prototype:F1DB119C7DE5E9413()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F4FC55789BFA36793
+  L2_2 = self
+  L1_2 = self.F4FC55789BFA36793
   L3_2 = false
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E0FB0CF68BCD1E3"]["prototype"]
-L69_1 = "F4FC55789BFA36793"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.paralleled.ParallelNpcTalkMotionSync.speakMotion
+function C9E0FB0CF68BCD1E3_prototype:F4FC55789BFA36793(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.talkMotion
   if not L2_2 then
     return
   end
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.object
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.object
   L3_2 = nil
   L4_2 = cE35B3EB3
@@ -283,7 +267,7 @@ function L70_1(A0_2, A1_2)
           local L0_3, L1_3
           
           L0_3 = nil
-          L1_3 = A0_2
+          L1_3 = self
           L1_3 = L1_3[32]
           L1_3 = L1_3.additiveMotion
           if L1_3 then
@@ -323,18 +307,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E0FB0CF68BCD1E3"]["prototype"]
-L69_1 = "FA8730A4C6327796B"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelNpcTalkMotionSync.startLipSync
+function C9E0FB0CF68BCD1E3_prototype:FA8730A4C6327796B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   if nil == L1_2 then
     return
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   L2_2 = nil
   L3_2 = cE35B3EB3
@@ -377,7 +358,7 @@ function L70_1(A0_2)
     L6_2 = L6_2(L7_2, L8_2)
     L7_2 = C082CF09B8C4A351D
     L7_2 = L7_2.S59FDCA91C09E239A
-    L8_2 = A0_2[33]
+    L8_2 = self[33]
     L9_2 = L6_2
     L7_2 = L7_2(L8_2, L9_2)
     L5_2 = L7_2
@@ -390,23 +371,20 @@ function L70_1(A0_2)
   L8_2 = "speak"
   L9_2 = L5_2
   L6_2(L7_2, L8_2, L9_2)
-  A0_2[34] = true
-  A0_2[35] = 0.0
-  A0_2[36] = L5_2
+  self[34] = true
+  self[35] = 0.0
+  self[36] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E0FB0CF68BCD1E3"]["prototype"]
-L69_1 = "FBB4CCCA228E3D019"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelNpcTalkMotionSync.stopLipSync
+function C9E0FB0CF68BCD1E3_prototype:FBB4CCCA228E3D019()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   if nil == L1_2 then
     return
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   L2_2 = nil
   L3_2 = cE35B3EB3
@@ -451,24 +429,21 @@ function L70_1(A0_2)
     L8_2 = 0
     L5_2(L6_2, L7_2, L8_2)
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F1E638C9EE49275F0
+  L5_2 = self
+  L4_2 = self.F1E638C9EE49275F0
   L4_2(L5_2)
-  A0_2[34] = false
+  self[34] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E0FB0CF68BCD1E3"]["prototype"]
-L69_1 = "F1E638C9EE49275F0"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelNpcTalkMotionSync.F1E638C9EE49275F0
+function C9E0FB0CF68BCD1E3_prototype:F1E638C9EE49275F0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.restoreMouth
   if not L1_2 then
     return
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.object
   L2_2 = nil
   L3_2 = cE35B3EB3
@@ -503,8 +478,8 @@ function L70_1(A0_2)
   if L5_2 then
     L5_2 = C082CF09B8C4A351D
     L5_2 = L5_2.S8B1370C7177167EB
-    L6_2 = A0_2[33]
-    L7_2 = A0_2[36]
+    L6_2 = self[33]
+    L7_2 = self[36]
     L5_2 = L5_2(L6_2, L7_2)
     L7_2 = L3_2
     L6_2 = L3_2.fF56461AF

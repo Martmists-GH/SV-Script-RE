@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C0C6AB1B6C36C2025"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C0C6AB1B6C36C2025"]
-L69_1 = "new"
+---@alias C0C6AB1B6C36C2025 main_ui_emote_EmoteUISceneLoader
 
-function L70_1(A0_2)
+---@class main_ui_emote_EmoteUISceneLoader : C0C6AB1B6C36C2025_prototype
+---@field prototype C0C6AB1B6C36C2025_prototype
+C0C6AB1B6C36C2025 = L15_1()
+function C0C6AB1B6C36C2025.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C0C6AB1B6C36C2025
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0C6AB1B6C36C2025"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C0C6AB1B6C36C2025
+function C0C6AB1B6C36C2025.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,22 +36,16 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C0C6AB1B6C36C2025"]
 L69_1 = "__name__"
 L70_1 = "C0C6AB1B6C36C2025"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0C6AB1B6C36C2025"]
-L69_1 = "S7873371626EFF572"
-
-function L70_1()
+--- main.ui.emote.EmoteUISceneLoader.GetStateBehavior
+function C0C6AB1B6C36C2025.S7873371626EFF572()
   local L0_2, L1_2
   L0_2 = C0C6AB1B6C36C2025
   L0_2 = L0_2.S430E85D9E755BBE2
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0C6AB1B6C36C2025"]
-L69_1 = "S7C357795FDF68089"
-
-function L70_1(A0_2)
+--- main.ui.emote.EmoteUISceneLoader.S7C357795FDF68089
+function C0C6AB1B6C36C2025.S7C357795FDF68089(A0_2)
   local L1_2
   L1_2 = C0C6AB1B6C36C2025
   L1_2.S27C5476C5D505CFF = A0_2
@@ -68,11 +56,8 @@ function L70_1(A0_2)
   return L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0C6AB1B6C36C2025"]
-L69_1 = "SABBCCCBC9BE9733E"
-
-function L70_1(A0_2)
+--- main.ui.emote.EmoteUISceneLoader.SABBCCCBC9BE9733E
+function C0C6AB1B6C36C2025.SABBCCCBC9BE9733E(A0_2)
   local L1_2
   L1_2 = C0C6AB1B6C36C2025
   L1_2.S27C5476C5D505CFF = A0_2
@@ -83,11 +68,8 @@ function L70_1(A0_2)
   return L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0C6AB1B6C36C2025"]
-L69_1 = "S081A5A57111231A7"
-
-function L70_1()
+--- main.ui.emote.EmoteUISceneLoader.SetEmoteMenuFadeIn
+function C0C6AB1B6C36C2025.S081A5A57111231A7()
   local L0_2, L1_2, L2_2
   L0_2 = C0C6AB1B6C36C2025
   L0_2 = L0_2.S430E85D9E755BBE2
@@ -102,11 +84,8 @@ function L70_1()
   L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0C6AB1B6C36C2025"]
-L69_1 = "S0CA844F220CE83AC"
-
-function L70_1()
+--- main.ui.emote.EmoteUISceneLoader.SetEmoteMenuFadeOut
+function C0C6AB1B6C36C2025.S0CA844F220CE83AC()
   local L0_2, L1_2, L2_2
   L0_2 = C0C6AB1B6C36C2025
   L0_2 = L0_2.S430E85D9E755BBE2
@@ -121,11 +100,8 @@ function L70_1()
   L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0C6AB1B6C36C2025"]
-L69_1 = "S6BEC9C5FEB213E12"
-
-function L70_1()
+--- main.ui.emote.EmoteUISceneLoader.S6BEC9C5FEB213E12
+function C0C6AB1B6C36C2025.S6BEC9C5FEB213E12()
   local L0_2, L1_2
   L0_2 = C0C6AB1B6C36C2025
   L0_2 = L0_2.S430E85D9E755BBE2
@@ -142,11 +118,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0C6AB1B6C36C2025"]
-L69_1 = "S0DC49BCA3C4A9BFD"
-
-function L70_1()
+--- main.ui.emote.EmoteUISceneLoader.EmoteSceneLoad
+function C0C6AB1B6C36C2025.S0DC49BCA3C4A9BFD()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -163,22 +136,17 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0C6AB1B6C36C2025"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0C6AB1B6C36C2025"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C0C6AB1B6C36C2025_prototype
+C0C6AB1B6C36C2025_prototype = L15_1()
+C0C6AB1B6C36C2025.prototype = C0C6AB1B6C36C2025_prototype
+--- main.ui.emote.EmoteUISceneLoader.Setup
+function C0C6AB1B6C36C2025_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = CDC3F92928A2194E6
   L3_2 = L3_2.prototype
   L3_2 = L3_2.F7C68FEDB79AB6396
-  L4_2 = A0_2
+  L4_2 = self
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
   L3_2 = C0C6AB1B6C36C2025
@@ -218,11 +186,8 @@ function L70_1(A0_2, A1_2)
   L3_2.S3B21D303B2BD4D62 = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0C6AB1B6C36C2025"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.emote.EmoteUISceneLoader.PreUpdate
+function C0C6AB1B6C36C2025_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C0C6AB1B6C36C2025
   L2_2 = L2_2.S3B21D303B2BD4D62
@@ -283,16 +248,13 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0C6AB1B6C36C2025"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ui.emote.EmoteUISceneLoader.Destroy
+function C0C6AB1B6C36C2025_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = C0C6AB1B6C36C2025
   L1_2 = L1_2.S27C5476C5D505CFF
@@ -307,14 +269,11 @@ function L70_1(A0_2)
   L1_2.S430E85D9E755BBE2 = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0C6AB1B6C36C2025"]["prototype"]
-L69_1 = "F7EA2956EC9956DBF"
-
-function L70_1(A0_2)
+--- main.ui.emote.EmoteUISceneLoader.GetEmoteStateSequence
+function C0C6AB1B6C36C2025_prototype:F7EA2956EC9956DBF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   while true do
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.f462C9B70
     L1_2 = L1_2(L2_2)
@@ -328,7 +287,7 @@ function L70_1(A0_2)
     L1_2 = L1_2.S760DAE4C5371A78E
     L1_2()
   end
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)

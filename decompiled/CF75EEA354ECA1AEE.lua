@@ -1,3 +1,7 @@
+---@alias CF75EEA354ECA1AEE main_ajito_system_rush_AjitoRushManager
+
+---@class main_ajito_system_rush_AjitoRushManager : CF75EEA354ECA1AEE_prototype
+---@field prototype CF75EEA354ECA1AEE_prototype
 L68_1 = _ENV["CF75EEA354ECA1AEE"]
 L69_1 = "super"
 
@@ -22,11 +26,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2.S7F7ABD0894A14A2F = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]
-L69_1 = "__name__"
-L70_1 = "CF75EEA354ECA1AEE"
-L68_1[L69_1] = L70_1
+CF75EEA354ECA1AEE.__name__ = "CF75EEA354ECA1AEE"
 L68_1 = _ENV["CF75EEA354ECA1AEE"]
 L69_1 = "S23640603EC2AFB6C"
 
@@ -37,22 +37,16 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]
-L69_1 = "S5E5CB20B4C5A4E0C"
-
-function L70_1()
+--- main.ajito.system.rush.AjitoRushManager.S5E5CB20B4C5A4E0C
+function CF75EEA354ECA1AEE.S5E5CB20B4C5A4E0C()
   local L0_2, L1_2
   L0_2 = CF75EEA354ECA1AEE
   L0_2 = L0_2.SBD3ED915AF92BC51
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]
-L69_1 = "S5652EAC94ECC9C6E"
-
-function L70_1()
+--- main.ajito.system.rush.AjitoRushManager.GetRandomPokemons
+function CF75EEA354ECA1AEE.S5652EAC94ECC9C6E()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L0_2 = CF75EEA354ECA1AEE
   L0_2 = L0_2.S144C9AD8BBEDA90B
@@ -92,16 +86,11 @@ function L70_1()
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]["prototype"]
-L69_1 = "F34F7DD3C602676BA"
-
-function L70_1(A0_2)
+---@class CF75EEA354ECA1AEE_prototype
+CF75EEA354ECA1AEE_prototype = L15_1()
+CF75EEA354ECA1AEE.prototype = CF75EEA354ECA1AEE_prototype
+--- main.ajito.system.rush.AjitoRushManager.PreloadAsync
+function CF75EEA354ECA1AEE_prototype:F34F7DD3C602676BA()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L1_2 = C363A3F2E418C5340
   L1_2 = L1_2.SCBDB11C31561BA68
@@ -111,7 +100,7 @@ function L70_1(A0_2)
   L1_2()
   L1_2 = C363A3F2E418C5340
   L1_2 = L1_2.S8DF90A65564F7F35
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2(L2_2)
   L1_2 = CF75EEA354ECA1AEE
   L2_2 = CC962FEC3D45B00B0
@@ -119,8 +108,8 @@ function L70_1(A0_2)
   L3_2 = CA5D0B5E8FAC9A877
   L3_2 = L3_2.S8D4C2F5AE9F74BA7
   L3_2 = L3_2()
-  L4_2 = A0_2[1]
-  L5_2 = A0_2[2]
+  L4_2 = self[1]
+  L5_2 = self[2]
   L2_2 = L2_2(L3_2, L4_2, L5_2)
   L1_2.S144C9AD8BBEDA90B = L2_2
   L1_2 = CA5D0B5E8FAC9A877
@@ -136,7 +125,7 @@ function L70_1(A0_2)
   L3_2 = L3_2 .. L4_2
   L2_2 = L3_2
   L3_2 = nil
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L4_2 = L4_2[1]
   if 0 == L4_2 then
     L3_2 = L2_2
@@ -169,7 +158,7 @@ function L70_1(A0_2)
   L8_2 = L8_2 .. L9_2
   L7_2 = L8_2
   L8_2 = nil
-  L9_2 = A0_2[2]
+  L9_2 = self[2]
   L9_2 = L9_2[1]
   if 0 == L9_2 then
     L8_2 = L7_2
@@ -193,21 +182,18 @@ function L70_1(A0_2)
   L14_2 = L8_2
   L12_2, L13_2, L14_2 = L12_2(L13_2, L14_2)
   L10_2 = L10_2(L11_2, L12_2, L13_2, L14_2)
-  A0_2[10] = L10_2
+  self[10] = L10_2
   L10_2 = C7E63B1C6A22F0EAB
   L10_2 = L10_2.S4BDF2DB4EA258948
   L10_2()
-  L10_2 = A0_2[3]
+  L10_2 = self[3]
   L11_2 = L10_2
   L10_2 = L10_2.FF63038921D0742CE
   L10_2(L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]["prototype"]
-L69_1 = "F51C92A6A420558BC"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoRushManager.RequiredBackgroundLoadAsync
+function CF75EEA354ECA1AEE_prototype:F51C92A6A420558BC()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = CF75EEA354ECA1AEE
   L1_2 = L1_2.S144C9AD8BBEDA90B
@@ -304,9 +290,9 @@ function L70_1(A0_2)
   L8_2 = CF75EEA354ECA1AEE
   L8_2 = L8_2.S144C9AD8BBEDA90B
   L8_2 = L8_2[4]
-  L9_2 = A0_2[2]
+  L9_2 = self[2]
   L6_2 = L6_2(L7_2, L8_2, L9_2)
-  A0_2[4] = L6_2
+  self[4] = L6_2
   L6_2 = C1EF5841295C37C2C
   L6_2 = L6_2.new
   L7_2 = CA5D0B5E8FAC9A877
@@ -316,22 +302,22 @@ function L70_1(A0_2)
   L8_2 = L8_2.S01EB7F560D88CC51
   L8_2, L9_2, L10_2, L11_2, L12_2 = L8_2()
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  A0_2[5] = L6_2
+  self[5] = L6_2
   L6_2 = C896E82AC366C8E8F
   L6_2 = L6_2.S4539FBABC0D19D63
   L6_2 = L6_2()
   L7_2 = L6_2
   L6_2 = L6_2.F9F5142F6AC5F41E0
   L8_2 = C1EF5841295C37C2C
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L6_2(L7_2, L8_2, L9_2)
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L7_2 = L6_2
   L6_2 = L6_2.FD188E07C3687431A
   L6_2(L7_2)
   L6_2 = C363A3F2E418C5340
   L6_2 = L6_2.S7AF72D77E4FE2A5B
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L6_2(L7_2)
   L6_2 = CA5D0B5E8FAC9A877
   L6_2 = L6_2.SD29CDB6B095CC2DB
@@ -352,13 +338,13 @@ function L70_1(A0_2)
   if L7_2 == L8_2 then
     L7_2 = nil
   end
-  A0_2[13] = L7_2
-  L8_2 = A0_2[13]
+  self[13] = L7_2
+  L8_2 = self[13]
   L9_2 = L8_2
   L8_2 = L8_2.F8D280BE9A6B76006
   L10_2 = CA5D0B5E8FAC9A877
   L10_2 = L10_2.SADEA4569FB8F3F79
-  L11_2 = A0_2[1]
+  L11_2 = self[1]
   L10_2 = L10_2(L11_2)
   L11_2 = CA5D0B5E8FAC9A877
   L11_2 = L11_2.S481F07A6B6D88D49
@@ -366,28 +352,22 @@ function L70_1(A0_2)
   L12_2 = CF75EEA354ECA1AEE
   L12_2 = L12_2.S5652EAC94ECC9C6E
   L8_2(L9_2, L10_2, L11_2, L12_2)
-  A0_2[6] = true
+  self[6] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]["prototype"]
-L69_1 = "F25DC92513545D2DB"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoRushManager.BackgroundLoadAsync
+function CF75EEA354ECA1AEE_prototype:F25DC92513545D2DB()
   local L1_2, L2_2
   L1_2 = C363A3F2E418C5340
   L1_2 = L1_2.SB0C76D93FD9B0D3C
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]["prototype"]
-L69_1 = "F7E2CE9B2077DBBD4"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoRushManager.StartAjitoRushAsync
+function CF75EEA354ECA1AEE_prototype:F7E2CE9B2077DBBD4()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = CDBCB33E53E70ED25
   L2_2 = L2_2.S511DEF29717431A3
   L2_2 = L2_2()
@@ -612,7 +592,7 @@ function L70_1(A0_2)
   end
   
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   L3_2 = L2_2
   L2_2 = L2_2.F7EED485852A4D25F
   L2_2(L3_2)
@@ -628,11 +608,11 @@ function L70_1(A0_2)
   L2_2 = L2_2.SC6181320B46854EE
   L3_2 = "PLAY_BA_SYS_DAN_RUSH_AT_START"
   L2_2(L3_2)
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.F3FA01713288FF891
   L2_2(L3_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.F1A28A0E09A0CF6ED
   L4_2 = true
@@ -643,11 +623,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]["prototype"]
-L69_1 = "F2FFB40F2D36C323D"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoRushManager.AfterStartAsync
+function CF75EEA354ECA1AEE_prototype:F2FFB40F2D36C323D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -656,7 +633,7 @@ function L70_1(A0_2)
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = C363A3F2E418C5340
   L2_2 = L2_2.S2F79DD91D88CF9F3
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f50926311
@@ -698,29 +675,26 @@ function L70_1(A0_2)
   if L3_2 == L4_2 then
     L3_2 = nil
   end
-  A0_2[12] = L3_2
-  L4_2 = A0_2[12]
+  self[12] = L3_2
+  L4_2 = self[12]
   L5_2 = L4_2
   L4_2 = L4_2.FB04D0FEEDD95EBEB
-  L6_2 = A0_2[10]
+  L6_2 = self[10]
   L7_2 = L1_2
   L4_2(L5_2, L6_2, L7_2)
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   L5_2 = L4_2
   L4_2 = L4_2.F7EED485852A4D25F
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]["prototype"]
-L69_1 = "FD4CC5470F7FB7FB1"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoRushManager.prevFinishAsync
+function CF75EEA354ECA1AEE_prototype:FD4CC5470F7FB7FB1()
   local L1_2
   L1_2 = C6CA348C9ADB98BD9
   L1_2 = L1_2.SFCE091807173F6E9
   L1_2 = L1_2()
-  A0_2[14] = L1_2
+  self[14] = L1_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.S760DAE4C5371A78E
   L1_2()
@@ -729,31 +703,25 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]["prototype"]
-L69_1 = "F7A0893C734E6F282"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoRushManager.ReleaseStopEvent
+function CF75EEA354ECA1AEE_prototype:F7A0893C734E6F282()
   local L1_2, L2_2
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   L1_2 = L1_2.event
   L2_2 = L1_2
   L1_2 = L1_2.F1CA18C388B03DCEE
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]["prototype"]
-L69_1 = "F6A957B9DBCF331F8"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.rush.AjitoRushManager.clearRushAsync
+function CF75EEA354ECA1AEE_prototype:F6A957B9DBCF331F8(A1_2)
   local L2_2, L3_2
-  A0_2[7] = true
+  self[7] = true
   L2_2 = CF4B448D8C3744CAF
   L2_2 = L2_2.SDDCF2C31DADBAB65
   L3_2 = "TEAM_RUSH_BATTLE_CLEAR"
   L2_2(L3_2)
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.F88204026DBA3A87B
   L2_2(L3_2)
@@ -763,13 +731,10 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]["prototype"]
-L69_1 = "F1F174699605657A7"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.rush.AjitoRushManager.afterTimeupAsync
+function CF75EEA354ECA1AEE_prototype:F1F174699605657A7(A1_2)
   local L2_2, L3_2
-  A0_2[7] = false
+  self[7] = false
   L2_2 = C3A36506FBC96ACBD
   L2_2 = L2_2.SC6181320B46854EE
   L3_2 = "PLAY_BA_SYS_DAN_MEMBERS_RUSH_TIMEUP"
@@ -778,36 +743,30 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.SDDCF2C31DADBAB65
   L3_2 = "TEAM_RUSH_BATTLE_FAILED"
   L2_2(L3_2)
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.FFC5D610FA6D8D1A8
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]["prototype"]
-L69_1 = "F3F616030CC095DE3"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.rush.AjitoRushManager.cancelRushAsync
+function CF75EEA354ECA1AEE_prototype:F3F616030CC095DE3(A1_2)
   local L2_2, L3_2
-  A0_2[7] = false
+  self[7] = false
   L2_2 = CF4B448D8C3744CAF
   L2_2 = L2_2.SDDCF2C31DADBAB65
   L3_2 = "TEAM_RUSH_BATTLE_RETIRED"
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]["prototype"]
-L69_1 = "F86D094C7CA95346D"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.rush.AjitoRushManager.gameOverRushAsync
+function CF75EEA354ECA1AEE_prototype:F86D094C7CA95346D(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.F12B234D43C1340D1
   L2_2(L3_2)
-  A0_2[7] = false
+  self[7] = false
   L2_2 = C0D02CEE5FD6D6D49
   L2_2 = L2_2.SFCE091807173F6E9
   L3_2 = "dan_rush_lose_event"
@@ -846,11 +805,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]["prototype"]
-L69_1 = "FF7F6D27A082CB691"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoRushManager.closeRush
+function CF75EEA354ECA1AEE_prototype:FF7F6D27A082CB691()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = C07E4F1BF071B0460
   L1_2 = L1_2.S218E2A14A790D265
@@ -940,11 +896,11 @@ function L70_1(A0_2)
   L6_2 = L6_2.S45CCAD78DCD81731
   L7_2 = L3_2
   L6_2(L7_2)
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = L6_2
   L6_2 = L6_2.F12B234D43C1340D1
   L6_2(L7_2)
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L7_2 = L6_2
   L6_2 = L6_2.F2F92371F2391633E
   L6_2(L7_2)
@@ -954,22 +910,19 @@ function L70_1(A0_2)
   L6_2 = C1DB14DCC9D7634FA
   L6_2 = L6_2.S760DAE4C5371A78E
   L6_2()
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L7_2 = L6_2
   L6_2 = L6_2.FD59E5ED5F9F2AAE3
   L6_2(L7_2)
-  A0_2[8] = true
+  self[8] = true
   L6_2 = CF75EEA354ECA1AEE
   L6_2.SBD3ED915AF92BC51 = false
   L6_2 = CF75EEA354ECA1AEE
   L6_2.S7F7ABD0894A14A2F = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75EEA354ECA1AEE"]["prototype"]
-L69_1 = "F3B4BD5B65D443F6A"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoRushManager.destructionMessage
+function CF75EEA354ECA1AEE_prototype:F3B4BD5B65D443F6A()
   local L1_2, L2_2, L3_2
   L1_2 = CDBCB33E53E70ED25
   L1_2 = L1_2.S511DEF29717431A3
@@ -1022,7 +975,7 @@ L68_1.__class__ = L69_1
 L68_1 = C83B5054ADD43B06A
 L69_1 = "new"
 
-function L70_1(A0_2)
+function L70_1(self)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C83B5054ADD43B06A
@@ -1033,7 +986,7 @@ function L70_1(A0_2)
   L2_2 = C83B5054ADD43B06A
   L2_2 = L2_2.super
   L3_2 = L1_2
-  L4_2 = A0_2
+  L4_2 = self
   L2_2(L3_2, L4_2)
   return L1_2
 end

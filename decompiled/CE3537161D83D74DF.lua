@@ -1,3 +1,7 @@
+---@alias CE3537161D83D74DF main_event_debug_DebugMatsudaKoya
+
+---@class main_event_debug_DebugMatsudaKoya : CE3537161D83D74DF_prototype
+---@field prototype CE3537161D83D74DF_prototype
 L55_1 = _ENV
 L56_1 = "CE3537161D83D74DF"
 L57_1 = L15_1
@@ -45,24 +49,16 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE3537161D83D74DF"]
 L69_1 = "__name__"
 L70_1 = "CE3537161D83D74DF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3537161D83D74DF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3537161D83D74DF"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+---@class CE3537161D83D74DF_prototype
+CE3537161D83D74DF_prototype = L15_1()
+CE3537161D83D74DF.prototype = CE3537161D83D74DF_prototype
+--- main.event.debug.DebugMatsudaKoya.postStart
+function CE3537161D83D74DF_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3537161D83D74DF"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMatsudaKoya.mainBody
+function CE3537161D83D74DF_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2
   L1_2 = CE3537161D83D74DF
   L1_2 = L1_2.S78E6153B4FCD81B0
@@ -85,11 +81,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3537161D83D74DF"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugMatsudaKoya.preStart
+function CE3537161D83D74DF_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 

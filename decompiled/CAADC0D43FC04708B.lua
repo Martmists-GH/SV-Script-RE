@@ -1,3 +1,7 @@
+---@alias CAADC0D43FC04708B main_ui_dressup_shop_view_input_DressupUIShopInput
+
+---@class main_ui_dressup_shop_view_input_DressupUIShopInput : CAADC0D43FC04708B_prototype
+---@field prototype CAADC0D43FC04708B_prototype
 L55_1 = _ENV
 L56_1 = "CAADC0D43FC04708B"
 L57_1 = L15_1
@@ -87,149 +91,126 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CAADC0D43FC04708B"]
 L69_1 = "__name__"
 L70_1 = "CAADC0D43FC04708B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAADC0D43FC04708B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAADC0D43FC04708B"]["prototype"]
-L69_1 = "FBF22ED874F9A417F"
-
-function L70_1(A0_2)
+---@class CAADC0D43FC04708B_prototype
+CAADC0D43FC04708B_prototype = L15_1()
+CAADC0D43FC04708B.prototype = CAADC0D43FC04708B_prototype
+--- main.ui.dressup.shop.view.input.DressupUIShopInput.FBF22ED874F9A417F
+function CAADC0D43FC04708B_prototype:FBF22ED874F9A417F()
   local L1_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L1_2 = L1_2.m_isTriggerButton
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAADC0D43FC04708B"]["prototype"]
-L69_1 = "F056519ABC0A5DAF6"
-
-function L70_1(A0_2, A1_2)
-  A0_2[8] = A1_2
+--- main.ui.dressup.shop.view.input.DressupUIShopInput.ControlDisable
+function CAADC0D43FC04708B_prototype:F056519ABC0A5DAF6(A1_2)
+  self[8] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAADC0D43FC04708B"]["prototype"]
-L69_1 = "F1B53F0F218972266"
-
-function L70_1(A0_2)
+--- main.ui.dressup.shop.view.input.DressupUIShopInput.IsControlDisable
+function CAADC0D43FC04708B_prototype:F1B53F0F218972266()
   local L1_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAADC0D43FC04708B"]["prototype"]
-L69_1 = "FE8266E5DA7D6F49A"
-
-function L70_1(A0_2)
+--- main.ui.dressup.shop.view.input.DressupUIShopInput.InputUpdate
+function CAADC0D43FC04708B_prototype:FE8266E5DA7D6F49A()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.f6277C172
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.fE09DCCE4
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[7]
-  L2_2 = A0_2[7]
+  L1_2 = self[7]
+  L2_2 = self[7]
   L2_2 = L2_2.m_shotcutInput
   L3_2 = L2_2
   L2_2 = L2_2.fDEEB3A8E
   L2_2 = L2_2(L3_2)
   L1_2.m_isTriggerButton = L2_2
-  L1_2 = A0_2[6]
-  L2_2 = A0_2[4]
+  L1_2 = self[6]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.f5BDFC7C3
   L2_2 = L2_2(L3_2)
   if L1_2 ~= L2_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FE0EBB34B8A1B41AB
+    L2_2 = self
+    L1_2 = self.FE0EBB34B8A1B41AB
     L3_2 = false
     L1_2(L2_2, L3_2)
-    L2_2 = A0_2
-    L1_2 = A0_2.F056519ABC0A5DAF6
+    L2_2 = self
+    L1_2 = self.F056519ABC0A5DAF6
     L3_2 = true
     L1_2(L2_2, L3_2)
-    L2_2 = A0_2
-    L1_2 = A0_2.F1B53F0F218972266
+    L2_2 = self
+    L1_2 = self.F1B53F0F218972266
     L1_2(L2_2)
-    L2_2 = A0_2
-    L1_2 = A0_2.FD654D5E2F6B556FD
+    L2_2 = self
+    L1_2 = self.FD654D5E2F6B556FD
     L1_2(L2_2)
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.FD75C9FE19A4A2B60
-    L3_2 = A0_2[5]
-    L4_2 = A0_2[4]
+    L3_2 = self[5]
+    L4_2 = self[4]
     L5_2 = L4_2
     L4_2 = L4_2.f5BDFC7C3
     L4_2 = L4_2(L5_2)
     L3_2 = L3_2[L4_2]
     L1_2(L2_2, L3_2)
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     L2_2 = L1_2
     L1_2 = L1_2.f5BDFC7C3
     L1_2 = L1_2(L2_2)
-    A0_2[6] = L1_2
+    self[6] = L1_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAADC0D43FC04708B"]["prototype"]
-L69_1 = "FE0EBB34B8A1B41AB"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.shop.view.input.DressupUIShopInput.SetViewControl
+function CAADC0D43FC04708B_prototype:FE0EBB34B8A1B41AB(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   if true == L2_2 then
     return
   end
   if true == A1_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f89358001
     L2_2(L3_2)
   else
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f1EA0CCF2
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAADC0D43FC04708B"]["prototype"]
-L69_1 = "FD654D5E2F6B556FD"
-
-function L70_1(A0_2)
+--- main.ui.dressup.shop.view.input.DressupUIShopInput.IsViewControl
+function CAADC0D43FC04708B_prototype:FD654D5E2F6B556FD()
   local L1_2, L2_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.fE09DCCE4
   L1_2(L2_2)
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.fE09DCCE4
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAADC0D43FC04708B"]["prototype"]
-L69_1 = "F9C1AC4C2FD2D9BB5"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.shop.view.input.DressupUIShopInput.CategoryTabSetup
+function CAADC0D43FC04708B_prototype:F9C1AC4C2FD2D9BB5(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.f33F66DA9
   L3_2(L4_2)
@@ -271,11 +252,11 @@ function L70_1(A0_2, A1_2)
     L8_2 = false
     L6_2(L7_2, L8_2)
     L6_2 = 0
-    L7_2 = A0_2[5]
+    L7_2 = self[5]
     L7_2 = L7_2.length
     while L6_2 < L7_2 do
       L6_2 = L6_2 + 1
-      L8_2 = A0_2[5]
+      L8_2 = self[5]
       L9_2 = L6_2 - 1
       L8_2 = L8_2[L9_2]
       if L5_2 == L8_2 then
@@ -287,7 +268,7 @@ function L70_1(A0_2, A1_2)
     end
   end
   L5_2 = 0
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L6_2 = L6_2.length
   while L5_2 < L6_2 do
     L5_2 = L5_2 + 1
@@ -307,7 +288,7 @@ function L70_1(A0_2, A1_2)
     L12_2 = ""
     L11_2 = L11_2(L12_2)
     L12_2 = L31_1.string
-    L13_2 = A0_2[5]
+    L13_2 = self[5]
     L13_2 = L13_2[L7_2]
     L12_2 = L12_2(L13_2)
     L11_2 = L11_2 .. L12_2
@@ -316,7 +297,7 @@ function L70_1(A0_2, A1_2)
     L10_2, L11_2, L12_2, L13_2, L14_2 = L10_2(L11_2, L12_2, L13_2)
     L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2, L14_2)
     L8_2 = L8_2 .. L9_2
-    L9_2 = A0_2[4]
+    L9_2 = self[4]
     L10_2 = L9_2
     L9_2 = L9_2.f6096B7A4
     L11_2 = L8_2
@@ -365,10 +346,10 @@ function L70_1(A0_2, A1_2)
       L9_2(L10_2, L11_2, L12_2)
     end
   end
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L8_2 = L8_2.length
   if 1 == L8_2 then
-    L8_2 = A0_2[4]
+    L8_2 = self[4]
     L9_2 = L8_2
     L8_2 = L8_2.f6277C172
     L10_2 = false
@@ -376,11 +357,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAADC0D43FC04708B"]["prototype"]
-L69_1 = "F7B42D0DC8B8D84DB"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.shop.view.input.DressupUIShopInput.SetupShotcutInputs
+function CAADC0D43FC04708B_prototype:F7B42D0DC8B8D84DB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = L16_1
   L3_2 = {}
@@ -397,7 +375,7 @@ function L70_1(A0_2, A1_2)
   L3_2.m_shotcutInput = L4_2
   L3_2.m_isTriggerButton = false
   L2_2 = L2_2(L3_2)
-  A0_2[7] = L2_2
+  self[7] = L2_2
 end
 
 L68_1[L69_1] = L70_1

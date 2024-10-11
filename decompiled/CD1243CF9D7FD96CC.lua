@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CD1243CF9D7FD96CC"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "__name__"
-L70_1 = "CD1243CF9D7FD96CC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "S5B61A6CA232CFD53"
+---@alias CD1243CF9D7FD96CC main_ui_schoolmap_SchoolMapData
 
-function L70_1(A0_2)
+---@class main_ui_schoolmap_SchoolMapData
+CD1243CF9D7FD96CC = L15_1()
+CD1243CF9D7FD96CC.new = {}
+CD1243CF9D7FD96CC.__name__ = "CD1243CF9D7FD96CC"
+--- main.ui.schoolmap.SchoolMapData.GetSchoolMapChangeInfo
+function CD1243CF9D7FD96CC.S5B61A6CA232CFD53(A0_2)
   local L1_2, L2_2
   L1_2 = CD1243CF9D7FD96CC
   L1_2 = L1_2.S0CD5737A3E495A09
@@ -104,11 +95,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "S550C650F0A01AD3D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.schoolmap.SchoolMapData.SetNewFlag
+function CD1243CF9D7FD96CC.S550C650F0A01AD3D(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if A0_2 >= 27 then
     return
@@ -148,11 +136,8 @@ function L70_1(A0_2, A1_2)
   L6_2(L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "S547AF1A994FA7089"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapData.GetNewFlag
+function CD1243CF9D7FD96CC.S547AF1A994FA7089(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   if A0_2 >= 27 then
     L1_2 = false
@@ -177,11 +162,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "S6853E9CC00654903"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.schoolmap.SchoolMapData.SetDestinationFlag
+function CD1243CF9D7FD96CC.S6853E9CC00654903(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if A0_2 >= 27 then
     return
@@ -234,11 +216,8 @@ function L70_1(A0_2, A1_2)
   L6_2(L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "SD9B4695DD7B22C6F"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapData.GetDestinationFlag
+function CD1243CF9D7FD96CC.SD9B4695DD7B22C6F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   if A0_2 >= 27 then
     L1_2 = false
@@ -263,11 +242,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "SACE1BA2A46BCFE84"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapData.SetNowPosID
+function CD1243CF9D7FD96CC.SACE1BA2A46BCFE84(A0_2)
   local L1_2
   if A0_2 >= 27 then
     return
@@ -276,11 +252,8 @@ function L70_1(A0_2)
   L1_2.S8DD84C847D093C3A = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "SD62AF7365310C277"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapData.SD62AF7365310C277
+function CD1243CF9D7FD96CC.SD62AF7365310C277(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = 0
   L2_2 = 0
@@ -338,63 +311,45 @@ function L70_1(A0_2)
   L4_2.S8DD84C847D093C3A = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "SED0AB4DC6EC260E0"
-
-function L70_1()
+--- main.ui.schoolmap.SchoolMapData.GetNowPosID
+function CD1243CF9D7FD96CC.SED0AB4DC6EC260E0()
   local L0_2, L1_2
   L0_2 = CD1243CF9D7FD96CC
   L0_2 = L0_2.S8DD84C847D093C3A
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "S0001065FC2F11609"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapData.SetLimitPosID
+function CD1243CF9D7FD96CC.S0001065FC2F11609(A0_2)
   local L1_2
   L1_2 = CD1243CF9D7FD96CC
   L1_2.S9A02C365FEB581DE = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "SE1D6D6D6D3B134F5"
-
-function L70_1()
+--- main.ui.schoolmap.SchoolMapData.GetLimitPosID
+function CD1243CF9D7FD96CC.SE1D6D6D6D3B134F5()
   local L0_2, L1_2
   L0_2 = CD1243CF9D7FD96CC
   L0_2 = L0_2.S9A02C365FEB581DE
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "S30D8EDA5F09DC955"
-
-function L70_1()
+--- main.ui.schoolmap.SchoolMapData.ClearLimitPos
+function CD1243CF9D7FD96CC.S30D8EDA5F09DC955()
   local L0_2, L1_2
   L0_2 = CD1243CF9D7FD96CC
   L0_2.S9A02C365FEB581DE = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "S7015599243B17EC2"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapData.SetNPCData
+function CD1243CF9D7FD96CC.S7015599243B17EC2(A0_2)
   local L1_2
   L1_2 = CD1243CF9D7FD96CC
   L1_2.SD87D8A7AB120E798 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "S5657365C301D7B1F"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapData.GetNPCArray
+function CD1243CF9D7FD96CC.S5657365C301D7B1F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CD1243CF9D7FD96CC
   L1_2 = L1_2.SD87D8A7AB120E798
@@ -427,42 +382,30 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "S7CD5D7DB7A07F331"
-
-function L70_1(A0_2)
+--- main.ui.schoolmap.SchoolMapData.SetUI
+function CD1243CF9D7FD96CC.S7CD5D7DB7A07F331(A0_2)
   local L1_2
   L1_2 = CD1243CF9D7FD96CC
   L1_2.SB281CDF65DA9509B = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "S2FBB004A3763CEBD"
-
-function L70_1()
+--- main.ui.schoolmap.SchoolMapData.GetUI
+function CD1243CF9D7FD96CC.S2FBB004A3763CEBD()
   local L0_2, L1_2
   L0_2 = CD1243CF9D7FD96CC
   L0_2 = L0_2.SB281CDF65DA9509B
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "S7B404AF2C15BBB6C"
-
-function L70_1()
+--- main.ui.schoolmap.SchoolMapData.DeleteUI
+function CD1243CF9D7FD96CC.S7B404AF2C15BBB6C()
   local L0_2, L1_2
   L0_2 = CD1243CF9D7FD96CC
   L0_2.SB281CDF65DA9509B = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD1243CF9D7FD96CC"]
-L69_1 = "SBF477D76D71E4A99"
-
-function L70_1()
+--- main.ui.schoolmap.SchoolMapData.SBF477D76D71E4A99
+function CD1243CF9D7FD96CC.SBF477D76D71E4A99()
   local L0_2, L1_2
   L0_2 = CD1243CF9D7FD96CC
   L0_2 = L0_2.SED0AB4DC6EC260E0

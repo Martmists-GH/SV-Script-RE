@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CC8C76CCB3FD465AC"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CC8C76CCB3FD465AC"]
-L69_1 = "new"
+---@alias CC8C76CCB3FD465AC main_ui_ymap_place_name_SceneYmapPlaceNameDataManager
 
-function L70_1(A0_2)
+---@class main_ui_ymap_place_name_SceneYmapPlaceNameDataManager : CC8C76CCB3FD465AC_prototype
+---@field prototype CC8C76CCB3FD465AC_prototype
+CC8C76CCB3FD465AC = L15_1()
+function CC8C76CCB3FD465AC.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CC8C76CCB3FD465AC
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8C76CCB3FD465AC"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CC8C76CCB3FD465AC
+function CC8C76CCB3FD465AC.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[4] = "ymap_place_name_dlc2_data"
   A0_2[3] = "ymap_place_name_dlc1_data"
@@ -49,11 +43,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC8C76CCB3FD465AC"]
 L69_1 = "__name__"
 L70_1 = "CC8C76CCB3FD465AC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8C76CCB3FD465AC"]
-L69_1 = "SB21FA562BB1FB817"
-
-function L70_1()
+--- main.ui.ymap.place_name.SceneYmapPlaceNameDataManager.LoadScene
+function CC8C76CCB3FD465AC.SB21FA562BB1FB817()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CC8C76CCB3FD465AC
   L1_2 = c682D8E4F
@@ -85,11 +76,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8C76CCB3FD465AC"]
-L69_1 = "S6D1EF40E74B6E9A4"
-
-function L70_1()
+--- main.ui.ymap.place_name.SceneYmapPlaceNameDataManager.Terminate
+function CC8C76CCB3FD465AC.S6D1EF40E74B6E9A4()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -116,11 +104,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8C76CCB3FD465AC"]
-L69_1 = "S50CB2B4EB5CE75C1"
-
-function L70_1()
+--- main.ui.ymap.place_name.SceneYmapPlaceNameDataManager.GetBehavior
+function CC8C76CCB3FD465AC.S50CB2B4EB5CE75C1()
   local L0_2, L1_2
   L0_2 = CC8C76CCB3FD465AC
   L0_2 = L0_2.SA47D97BA4309D7DE
@@ -133,11 +118,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8C76CCB3FD465AC"]
-L69_1 = "SEF012A816AF83994"
-
-function L70_1(A0_2)
+--- main.ui.ymap.place_name.SceneYmapPlaceNameDataManager.SEF012A816AF83994
+function CC8C76CCB3FD465AC.SEF012A816AF83994(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CC8C76CCB3FD465AC
   L1_2 = L1_2.SF59D6970DA792983
@@ -147,37 +129,32 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8C76CCB3FD465AC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8C76CCB3FD465AC"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CC8C76CCB3FD465AC_prototype
+CC8C76CCB3FD465AC_prototype = L15_1()
+CC8C76CCB3FD465AC.prototype = CC8C76CCB3FD465AC_prototype
+--- main.ui.ymap.place_name.SceneYmapPlaceNameDataManager.Setup
+function CC8C76CCB3FD465AC_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = CC8C76CCB3FD465AC
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2.S62F707FF4824A0BA = L3_2
   L2_2 = CC8C76CCB3FD465AC
   L3_2 = CAB05B6AEEE3E56B2
   L3_2 = L3_2.new
   L3_2 = L3_2()
   L2_2.SF59D6970DA792983 = L3_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F584AD3ED067D371F
+  L3_2 = self
+  L2_2 = self.F584AD3ED067D371F
   L2_2(L3_2)
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fF327F826
@@ -200,17 +177,14 @@ function L70_1(A0_2, A1_2)
   L4_2.SA47D97BA4309D7DE = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8C76CCB3FD465AC"]["prototype"]
-L69_1 = "F584AD3ED067D371F"
-
-function L70_1(A0_2)
+--- main.ui.ymap.place_name.SceneYmapPlaceNameDataManager.F584AD3ED067D371F
+function CC8C76CCB3FD465AC_prototype:F584AD3ED067D371F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = CC8C76CCB3FD465AC
   L1_2 = L1_2.S62F707FF4824A0BA
   L2_2 = L1_2
   L1_2 = L1_2.f5439788F
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = nil
   L3_2 = C7BD28C2CE195DB4E
@@ -224,7 +198,7 @@ function L70_1(A0_2)
   L6_2 = "[YMap] Not Found "
   L5_2 = L5_2(L6_2)
   L6_2 = L31_1.string
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 .. L6_2
   L3_2(L4_2, L5_2)
@@ -239,7 +213,7 @@ function L70_1(A0_2)
   L3_2 = L3_2.S62F707FF4824A0BA
   L4_2 = L3_2
   L3_2 = L3_2.f5439788F
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = nil
   L5_2 = C7BD28C2CE195DB4E
@@ -253,7 +227,7 @@ function L70_1(A0_2)
   L8_2 = "[YMap] Not Found "
   L7_2 = L7_2(L8_2)
   L8_2 = L31_1.string
-  L9_2 = A0_2[3]
+  L9_2 = self[3]
   L8_2 = L8_2(L9_2)
   L7_2 = L7_2 .. L8_2
   L5_2(L6_2, L7_2)
@@ -268,7 +242,7 @@ function L70_1(A0_2)
   L5_2 = L5_2.S62F707FF4824A0BA
   L6_2 = L5_2
   L5_2 = L5_2.f5439788F
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L5_2 = L5_2(L6_2, L7_2)
   L6_2 = nil
   L7_2 = C7BD28C2CE195DB4E
@@ -282,7 +256,7 @@ function L70_1(A0_2)
   L10_2 = "[YMap] Not Found "
   L9_2 = L9_2(L10_2)
   L10_2 = L31_1.string
-  L11_2 = A0_2[4]
+  L11_2 = self[4]
   L10_2 = L10_2(L11_2)
   L9_2 = L9_2 .. L10_2
   L7_2(L8_2, L9_2)
@@ -295,11 +269,8 @@ function L70_1(A0_2)
   L7_2(L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8C76CCB3FD465AC"]["prototype"]
-L69_1 = "F490AE049BDB3371C"
-
-function L70_1(A0_2)
+--- main.ui.ymap.place_name.SceneYmapPlaceNameDataManager.GetDataArray
+function CC8C76CCB3FD465AC_prototype:F490AE049BDB3371C()
   local L1_2, L2_2
   L1_2 = CC8C76CCB3FD465AC
   L1_2 = L1_2.SF59D6970DA792983
@@ -308,11 +279,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC8C76CCB3FD465AC"]["prototype"]
-L69_1 = "FB1F116EF4D05480E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.place_name.SceneYmapPlaceNameDataManager.GetDataByIndex
+function CC8C76CCB3FD465AC_prototype:FB1F116EF4D05480E(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CC8C76CCB3FD465AC
   L2_2 = L2_2.SF59D6970DA792983

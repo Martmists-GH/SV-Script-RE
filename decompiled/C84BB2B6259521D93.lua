@@ -1,3 +1,7 @@
+---@alias C84BB2B6259521D93 main_event_base_IEventScript
+
+---@class main_event_base_IEventScript : C84BB2B6259521D93_prototype
+---@field prototype C84BB2B6259521D93_prototype
 L68_1 = _ENV["C84BB2B6259521D93"]
 L69_1 = "super"
 
@@ -186,25 +190,20 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C84BB2B6259521D93"]
 L69_1 = "__name__"
 L70_1 = "C84BB2B6259521D93"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+---@class C84BB2B6259521D93_prototype
+C84BB2B6259521D93_prototype = L15_1()
+C84BB2B6259521D93.prototype = C84BB2B6259521D93_prototype
+--- main.event.base.IEventScript.Update
+function C84BB2B6259521D93_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CE9041C201AA7E53F
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FEB6685558281F194
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if not L2_2 then
-    L2_2 = A0_2[30]
+    L2_2 = self[30]
     return L2_2
   else
     L2_2 = true
@@ -212,41 +211,35 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.IEventScript.Reset
+function C84BB2B6259521D93_prototype:F96EA28F400597FA0(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[29]
+  L2_2 = self[29]
   if not L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F367E56C9AF7477A9
+  L3_2 = self
+  L2_2 = self.F367E56C9AF7477A9
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F27AFB77F8F899793
+  L3_2 = self
+  L2_2 = self.F27AFB77F8F899793
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F7D3239FB83157FC6
+  L3_2 = self
+  L2_2 = self.F7D3239FB83157FC6
   L2_2(L3_2)
-  A0_2[30] = true
+  self[30] = true
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.S760DAE4C5371A78E
   L3_2 = nil
   L2_2(L3_2)
-  A0_2[4] = nil
+  self[4] = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "FBB6451669DF1A9A7"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.base.IEventScript.addBodySection
+function C84BB2B6259521D93_prototype:FBB6451669DF1A9A7(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.add
   L5_2 = L16_1
@@ -258,14 +251,14 @@ function L70_1(A0_2, A1_2, A2_2)
   L7_2 = C1DB14DCC9D7634FA
   L7_2 = L7_2.new
   L8_2 = A1_2
-  L9_2 = A0_2[2]
+  L9_2 = self[2]
   L7_2 = L7_2(L8_2, L9_2)
   L6_2.coroutine = L7_2
   L6_2.skippable = true
   L5_2, L6_2, L7_2, L8_2, L9_2 = L5_2(L6_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
   if nil ~= A2_2 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.add
     L5_2 = L16_1
@@ -277,7 +270,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L7_2 = C1DB14DCC9D7634FA
     L7_2 = L7_2.new
     L8_2 = A2_2
-    L9_2 = A0_2[2]
+    L9_2 = self[2]
     L7_2 = L7_2(L8_2, L9_2)
     L6_2.coroutine = L7_2
     L6_2.skippable = false
@@ -286,57 +279,48 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F1574845D709C67C5"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.onCreateCommon
+function C84BB2B6259521D93_prototype:F1574845D709C67C5()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "FE9E24103D8C29D2C"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.checkBootCondition
+function C84BB2B6259521D93_prototype:FE9E24103D8C29D2C()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F9EF8B08DA4FDA9E4"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.mainCoroutineFunc
+function C84BB2B6259521D93_prototype:F9EF8B08DA4FDA9E4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2.skipPlayerStuckCheck
   if not L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FA179ACFBFEDA7A8A
+    L2_2 = self
+    L1_2 = self.FA179ACFBFEDA7A8A
     L1_2(L2_2)
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F92BA869F22AE5BC6
+  L2_2 = self
+  L1_2 = self.F92BA869F22AE5BC6
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F8AE8E31376B20038
+  L2_2 = self
+  L1_2 = self.F8AE8E31376B20038
   L1_2(L2_2)
-  A0_2[29] = true
-  L2_2 = A0_2
-  L1_2 = A0_2.F2E6C9E25867BCE8D
+  self[29] = true
+  L2_2 = self
+  L1_2 = self.F2E6C9E25867BCE8D
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F092AD7969D1EAB32
+  L2_2 = self
+  L1_2 = self.F092AD7969D1EAB32
   L1_2(L2_2)
   while true do
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     L1_2 = L1_2.length
     if not (L1_2 > 0) then
       break
     end
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     L2_2 = L1_2
     L1_2 = L1_2.pop
     L1_2 = L1_2(L2_2)
@@ -350,13 +334,13 @@ function L70_1(A0_2)
       if "dead" == L3_2 then
         break
       end
-      L3_2 = A0_2[10]
+      L3_2 = self[10]
       if 1 == L3_2 then
-        L5_2 = A0_2
-        L4_2 = A0_2.F2C3690081379B29D
+        L5_2 = self
+        L4_2 = self.F2C3690081379B29D
         L4_2(L5_2)
         while true do
-          L4_2 = A0_2[11]
+          L4_2 = self[11]
           L5_2 = L4_2
           L4_2 = L4_2.FD079E1CF944CF798
           L4_2 = L4_2(L5_2)
@@ -370,21 +354,21 @@ function L70_1(A0_2)
           L5_2 = nil
           L4_2(L5_2)
         end
-        L5_2 = A0_2
-        L4_2 = A0_2.F4E09538E8F109EC2
-        L6_2 = A0_2[11]
+        L5_2 = self
+        L4_2 = self.F4E09538E8F109EC2
+        L6_2 = self[11]
         L4_2 = L4_2(L5_2, L6_2)
-        A0_2[10] = L4_2
-        A0_2[11] = nil
-        L4_2 = A0_2[10]
+        self[10] = L4_2
+        self[11] = nil
+        L4_2 = self[10]
         if 3 == L4_2 then
           goto lbl_132
         end
-        L4_2 = A0_2[10]
+        L4_2 = self[10]
         if 4 == L4_2 then
           goto lbl_132
         end
-        A0_2[10] = 0
+        self[10] = 0
       elseif 3 == L3_2 then
         L4_2 = L1_2.skippable
         if L4_2 then
@@ -393,12 +377,12 @@ function L70_1(A0_2)
         end
       else
         if 4 == L3_2 then
-          L5_2 = A0_2
-          L4_2 = A0_2.F2E8BC7C88CC5C107
+          L5_2 = self
+          L4_2 = self.F2E8BC7C88CC5C107
           L4_2(L5_2)
-          L5_2 = A0_2
-          L4_2 = A0_2.F96EA28F400597FA0
-          L6_2 = A0_2[2]
+          L5_2 = self
+          L4_2 = self.F96EA28F400597FA0
+          L6_2 = self[2]
           L4_2(L5_2, L6_2)
           return
         else
@@ -410,7 +394,7 @@ function L70_1(A0_2)
       L7_2 = L10_1.coroutine
       L7_2 = L7_2.resume
       L8_2 = L4_2[1]
-      L9_2 = A0_2[18]
+      L9_2 = self[18]
       L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L7_2(L8_2, L9_2)
       L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
       L7_2 = {}
@@ -465,57 +449,48 @@ function L70_1(A0_2)
       end
     end
   end
-  A0_2[29] = false
-  L2_2 = A0_2
-  L1_2 = A0_2.F740FB4E96926D103
+  self[29] = false
+  L2_2 = self
+  L1_2 = self.F740FB4E96926D103
   L1_2(L2_2)
-  A0_2[31] = true
-  L2_2 = A0_2
-  L1_2 = A0_2.F5D1A3239AAEE5709
+  self[31] = true
+  L2_2 = self
+  L1_2 = self.F5D1A3239AAEE5709
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FE32506C4CCCF3A5C
+  L2_2 = self
+  L1_2 = self.FE32506C4CCCF3A5C
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F3E13E4094D09A594
+  L2_2 = self
+  L1_2 = self.F3E13E4094D09A594
   L1_2(L2_2)
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   if 3 == L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F2E8BC7C88CC5C107
+    L2_2 = self
+    L1_2 = self.F2E8BC7C88CC5C107
     L1_2(L2_2)
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.FA2C827B56F56ABDF
+  L2_2 = self
+  L1_2 = self.FA2C827B56F56ABDF
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "FA179ACFBFEDA7A8A"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.FA179ACFBFEDA7A8A
+function C84BB2B6259521D93_prototype:FA179ACFBFEDA7A8A()
   local L1_2
   L1_2 = CCD22EFED4E9E5F89
   L1_2 = L1_2.S1469E866897373B4
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.preStart
+function C84BB2B6259521D93_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F8AE8E31376B20038"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.commonStart
+function C84BB2B6259521D93_prototype:F8AE8E31376B20038()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2.disablePopupPause
   if not L1_2 then
     L1_2 = CA7CF9DA40689C95A
@@ -528,136 +503,91 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.postStart
+function C84BB2B6259521D93_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F092AD7969D1EAB32"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.commonBodyHead
+function C84BB2B6259521D93_prototype:F092AD7969D1EAB32()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.mainBody
+function C84BB2B6259521D93_prototype:FD8D5F3745B4B5174()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.mainBodyFinish
+function C84BB2B6259521D93_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.preEnd
+function C84BB2B6259521D93_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.onFinish
+function C84BB2B6259521D93_prototype:FA2C827B56F56ABDF()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F5D1A3239AAEE5709"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.commonEnd
+function C84BB2B6259521D93_prototype:F5D1A3239AAEE5709()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.postEnd
+function C84BB2B6259521D93_prototype:F3E13E4094D09A594()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F367E56C9AF7477A9"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.preReset
+function C84BB2B6259521D93_prototype:F367E56C9AF7477A9()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F27AFB77F8F899793"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.IEventScript.commonReset
+function C84BB2B6259521D93_prototype:F27AFB77F8F899793(A1_2)
   local L2_2, L3_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FE32506C4CCCF3A5C
+  L3_2 = self
+  L2_2 = self.FE32506C4CCCF3A5C
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F7D3239FB83157FC6"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.postReset
+function C84BB2B6259521D93_prototype:F7D3239FB83157FC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F4E09538E8F109EC2"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.IEventScript.onInterrupted
+function C84BB2B6259521D93_prototype:F4E09538E8F109EC2(A1_2)
   local L2_2
   L2_2 = 0
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F2C3690081379B29D"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.onSuspended
+function C84BB2B6259521D93_prototype:F2C3690081379B29D()
   local L1_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S7C91080775560DF8
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F2E8BC7C88CC5C107"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.onSkip
+function C84BB2B6259521D93_prototype:F2E8BC7C88CC5C107()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F2C3690081379B29D
+  L2_2 = self
+  L1_2 = self.F2C3690081379B29D
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "FE32506C4CCCF3A5C"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.resumePopup
+function C84BB2B6259521D93_prototype:FE32506C4CCCF3A5C()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2.disablePopupPause
   if not L1_2 then
     L1_2 = CA7CF9DA40689C95A
@@ -673,11 +603,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F0A528C2F9F2670CD"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.base.IEventScript.makeVector3
+function C84BB2B6259521D93_prototype:F0A528C2F9F2670CD(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2
   L4_2 = {}
   L5_2 = A1_2
@@ -689,11 +616,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F4F324272BC26BDD7"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.IEventScript.F4F324272BC26BDD7
+function C84BB2B6259521D93_prototype:F4F324272BC26BDD7(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = nil
   L3_2 = cEFEF7BE0
@@ -712,13 +636,13 @@ function L70_1(A0_2, A1_2)
   L3_2 = A1_2.FEFA7DDEF3516A612
   L5_2 = true
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L4_2 = L3_2
   L3_2 = L3_2.contains
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   if not L3_2 then
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     L4_2 = L3_2
     L3_2 = L3_2.push
     L5_2 = A1_2
@@ -726,14 +650,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F345C9F2C8900B803"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.F345C9F2C8900B803
+function C84BB2B6259521D93_prototype:F345C9F2C8900B803()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = 0
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -774,33 +695,30 @@ function L70_1(A0_2)
       L6_2(L7_2, L8_2)
     end
   end
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L4_2 = L3_2
   L3_2 = L3_2.resize
   L5_2 = 0
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F15B27EE05C3FB590"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.IEventScript.Interrupt
+function C84BB2B6259521D93_prototype:F15B27EE05C3FB590(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4E09538E8F109EC2
+  L3_2 = self
+  L2_2 = self.F4E09538E8F109EC2
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[10] = L2_2
-  L2_2 = A0_2[10]
+  self[10] = L2_2
+  L2_2 = self[10]
   if 0 == L2_2 then
     L3_2 = 0
     return L3_2
   else
     if 1 == L2_2 then
-      L3_2 = A0_2[11]
+      L3_2 = self[11]
       if nil == L3_2 then
-        A0_2[11] = A1_2
+        self[11] = A1_2
       end
       L3_2 = 0
       return L3_2
@@ -811,16 +729,13 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F5FD6C6C1BD0F1C4F"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.get_Owner
+function C84BB2B6259521D93_prototype:F5FD6C6C1BD0F1C4F()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[12]
+  L3_2 = self[12]
   L3_2 = L3_2.owner
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
@@ -828,40 +743,31 @@ function L70_1(A0_2)
     L2_2 = nil
     return L2_2
   else
-    L2_2 = A0_2[12]
+    L2_2 = self[12]
     return L2_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F899DB7699171E12D"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.get_OwnerScene
+function C84BB2B6259521D93_prototype:F899DB7699171E12D()
   local L1_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerScene
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F51A9A424E81E48AC"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.get_OwnerName
+function C84BB2B6259521D93_prototype:F51A9A424E81E48AC()
   local L1_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerName
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F55C10AB5C4214779"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.get_OwnerWorldScale
+function C84BB2B6259521D93_prototype:F55C10AB5C4214779()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerSRT
   L2_2 = L1_2
   L1_2 = L1_2.fA443F22C
@@ -876,26 +782,20 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "FEE3A9CE6653993A7"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.get_OwnerWorldRotation
+function C84BB2B6259521D93_prototype:FEE3A9CE6653993A7()
   local L1_2, L2_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerSRT
   L2_2 = L1_2
   L1_2 = L1_2.fEFCC7C01
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F1E5C5FFFCE018CB4"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.get_OwnerWorldTranslation
+function C84BB2B6259521D93_prototype:F1E5C5FFFCE018CB4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerSRT
   L2_2 = L1_2
   L1_2 = L1_2.f4F794CCF
@@ -910,114 +810,84 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F77BBD39690411500"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.F77BBD39690411500
+function C84BB2B6259521D93_prototype:F77BBD39690411500()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2.callFromReserve
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "FA44A9D9B3415C01C"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.IEventScript.FA44A9D9B3415C01C
+function C84BB2B6259521D93_prototype:FA44A9D9B3415C01C(A1_2)
   local L2_2
-  L2_2 = A0_2[22]
+  L2_2 = self[22]
   L2_2.callFromReserve = A1_2
   return A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F21F63F1796E2FE3B"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.get_RunParalleled
+function C84BB2B6259521D93_prototype:F21F63F1796E2FE3B()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2.paralleled
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "FA8705C928AD9F449"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.get_DefaultMessageFileName
+function C84BB2B6259521D93_prototype:FA8705C928AD9F449()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2.defaultMsgFileName
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F4AEAFD78FC6C5237"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.get_DisableFieldCamera
+function C84BB2B6259521D93_prototype:F4AEAFD78FC6C5237()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2.disableFieldCamera
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F275008C3DA7BD42B"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.IEventScript.set_DisableFieldCamera
+function C84BB2B6259521D93_prototype:F275008C3DA7BD42B(A1_2)
   local L2_2
-  L2_2 = A0_2[22]
+  L2_2 = self[22]
   L2_2.disableFieldCamera = A1_2
-  L2_2 = A0_2[22]
+  L2_2 = self[22]
   L2_2 = L2_2.disableFieldCamera
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "FF392B62A9207C40A"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.get_DisablePlayerForceIdle
+function C84BB2B6259521D93_prototype:FF392B62A9207C40A()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2.disablePlayerForceIdle
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F2C089260CC660A57"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.F2C089260CC660A57
+function C84BB2B6259521D93_prototype:F2C089260CC660A57()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2.forceNonFreeMoveEvent
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "F44CE074A44076D23"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.get_NpcRestrictionLevel
+function C84BB2B6259521D93_prototype:F44CE074A44076D23()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2.npcRestrictionLevel
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84BB2B6259521D93"]["prototype"]
-L69_1 = "FC27A3BABC7887EF7"
-
-function L70_1(A0_2)
+--- main.event.base.IEventScript.get_IsRideOff
+function C84BB2B6259521D93_prototype:FC27A3BABC7887EF7()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2.isRideOff
   return L1_2
 end
@@ -1054,7 +924,7 @@ L68_1.__class__ = L69_1
 L68_1 = C916675E6CD711E0A
 L69_1 = "new"
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+function L70_1(self, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = C916675E6CD711E0A
@@ -1065,7 +935,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = C916675E6CD711E0A
   L5_2 = L5_2.super
   L6_2 = L4_2
-  L7_2 = A0_2
+  L7_2 = self
   L8_2 = A1_2
   L9_2 = A2_2
   L10_2 = A3_2

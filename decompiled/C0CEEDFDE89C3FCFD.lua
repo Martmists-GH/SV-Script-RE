@@ -1,3 +1,7 @@
+---@alias C0CEEDFDE89C3FCFD main_ui_tips_TipsView
+
+---@class main_ui_tips_TipsView : C0CEEDFDE89C3FCFD_prototype
+---@field prototype C0CEEDFDE89C3FCFD_prototype
 L55_1 = _ENV
 L56_1 = "C0CEEDFDE89C3FCFD"
 L57_1 = L15_1
@@ -51,31 +55,26 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C0CEEDFDE89C3FCFD"]
 L69_1 = "__name__"
 L70_1 = "C0CEEDFDE89C3FCFD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CEEDFDE89C3FCFD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CEEDFDE89C3FCFD"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C0CEEDFDE89C3FCFD_prototype
+C0CEEDFDE89C3FCFD_prototype = L15_1()
+C0CEEDFDE89C3FCFD.prototype = C0CEEDFDE89C3FCFD_prototype
+--- main.ui.tips.TipsView.Setup
+function C0CEEDFDE89C3FCFD_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  A0_2[6] = 0
-  L2_2 = A0_2[1]
-  A0_2[2] = L2_2
-  A0_2[10] = true
+  self[6] = 0
+  L2_2 = self[1]
+  self[2] = L2_2
+  self[10] = true
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f4555D276
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
@@ -83,13 +82,13 @@ function L70_1(A0_2, A1_2)
   end
   L3_2 = c69ACCC6F
   L3_2 = L3_2.f3F98EEAD
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
-  A0_2[3] = L3_2
+  self[3] = L3_2
   L3_2 = nil
   L4_2 = c69ACCC6F
   L4_2 = L4_2.fEFEFCCBE
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
@@ -97,31 +96,31 @@ function L70_1(A0_2, A1_2)
   end
   L4_2 = cECF00344
   L4_2 = L4_2.fEECE6995
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
-  A0_2[4] = L4_2
+  self[4] = L4_2
   L4_2 = nil
   L5_2 = cECF00344
   L5_2 = L5_2.f9758FA9B
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
     return
   end
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L6_2 = L5_2
   L5_2 = L5_2.f7A48F855
   L7_2 = 1
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L6_2 = L5_2
   L5_2 = L5_2.f1B274C53
   L7_2 = 0
   L8_2 = "L_window_00/P_picture_00"
   L9_2 = 0
   L5_2(L6_2, L7_2, L8_2, L9_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f5B268E4E
   L5_2 = L5_2(L6_2)
@@ -140,82 +139,79 @@ function L70_1(A0_2, A1_2)
   L8_2 = L6_2
   L9_2 = C00687E06D9FD2919
   L7_2 = L7_2(L8_2, L9_2)
-  A0_2[5] = L7_2
+  self[5] = L7_2
   L7_2 = cB3DDDC2A
   L7_2 = L7_2.f5B6373D5
   L7_2 = L7_2()
-  A0_2[13] = L7_2
+  self[13] = L7_2
   L7_2 = C04C2A679B8598CA6
   L7_2 = L7_2.SD071DF9D0379766A
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = 4
   L10_2 = false
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  A0_2[15] = L7_2
+  self[15] = L7_2
   L7_2 = C04C2A679B8598CA6
   L7_2 = L7_2.SD071DF9D0379766A
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = 5
   L10_2 = false
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  A0_2[16] = L7_2
+  self[16] = L7_2
   L7_2 = C04C2A679B8598CA6
   L7_2 = L7_2.SD071DF9D0379766A
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = 11
   L10_2 = false
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  A0_2[17] = L7_2
+  self[17] = L7_2
   L7_2 = C04C2A679B8598CA6
   L7_2 = L7_2.SD071DF9D0379766A
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = 3
   L10_2 = false
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  A0_2[18] = L7_2
+  self[18] = L7_2
   L7_2 = C04C2A679B8598CA6
   L7_2 = L7_2.SD071DF9D0379766A
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = 10
   L10_2 = false
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  A0_2[19] = L7_2
+  self[19] = L7_2
   L7_2 = C04C2A679B8598CA6
   L7_2 = L7_2.SD071DF9D0379766A
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = 2
   L10_2 = false
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  A0_2[20] = L7_2
+  self[20] = L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CEEDFDE89C3FCFD"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.tips.TipsView.PreUpdate
+function C0CEEDFDE89C3FCFD_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   if 0 == L2_2 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.FF1C9BF636E0F4F06
     L3_2 = L3_2(L4_2)
     if true == L3_2 then
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       if L3_2 >= 0 then
-        L3_2 = A0_2[11]
+        L3_2 = self[11]
         if L3_2 then
-          A0_2[6] = 2
+          self[6] = 2
           return
         end
-        L4_2 = A0_2
-        L3_2 = A0_2.F59815C5421532938
+        L4_2 = self
+        L3_2 = self.F59815C5421532938
         L3_2(L4_2)
-        L4_2 = A0_2
-        L3_2 = A0_2.F10E2C6DDFB0C290D
+        L4_2 = self
+        L3_2 = self.F10E2C6DDFB0C290D
         L3_2(L4_2)
-        L3_2 = A0_2[5]
+        L3_2 = self[5]
         L4_2 = L3_2
         L3_2 = L3_2.F706FCB31D5565CDB
         L3_2(L4_2)
@@ -223,21 +219,21 @@ function L70_1(A0_2, A1_2)
         L3_2 = L3_2.SC6181320B46854EE
         L4_2 = "PLAY_UI_TUTORIAL_WINDOW_DISPLAY"
         L3_2(L4_2)
-        A0_2[6] = 1
+        self[6] = 1
       end
     end
   elseif 1 == L2_2 then
-    L3_2 = A0_2[15]
+    L3_2 = self[15]
     L4_2 = L3_2
     L3_2 = L3_2.fDEEB3A8E
     L3_2 = L3_2(L4_2)
     if not L3_2 then
-      L4_2 = A0_2[18]
+      L4_2 = self[18]
       L5_2 = L4_2
       L4_2 = L4_2.fDEEB3A8E
       L4_2 = L4_2(L5_2)
       if not L4_2 then
-        L4_2 = A0_2[17]
+        L4_2 = self[17]
         L5_2 = L4_2
         L4_2 = L4_2.fDEEB3A8E
         L4_2 = L4_2(L5_2)
@@ -246,16 +242,16 @@ function L70_1(A0_2, A1_2)
         end
       end
     end
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     L4_2 = L4_2 + 1
-    A0_2[8] = L4_2
-    L4_2 = A0_2[8]
-    L5_2 = A0_2[9]
+    self[8] = L4_2
+    L4_2 = self[8]
+    L5_2 = self[9]
     L6_2 = L5_2
     L5_2 = L5_2.FD26E50F33CE37502
     L5_2 = L5_2(L6_2)
     if L4_2 >= L5_2 and L3_2 then
-      L4_2 = A0_2[4]
+      L4_2 = self[4]
       L5_2 = L4_2
       L4_2 = L4_2.fB4E9D030
       L6_2 = "f_out"
@@ -264,23 +260,23 @@ function L70_1(A0_2, A1_2)
       L4_2 = L4_2.SC6181320B46854EE
       L5_2 = "PLAY_UI_TUTORIAL_WINDOW_DISPLAY_CLOSE"
       L4_2(L5_2)
-      A0_2[6] = 2
+      self[6] = 2
     else
-      L4_2 = A0_2[8]
-      L5_2 = A0_2[9]
+      L4_2 = self[8]
+      L5_2 = self[9]
       L6_2 = L5_2
       L5_2 = L5_2.FD26E50F33CE37502
       L5_2 = L5_2(L6_2)
       if L4_2 >= L5_2 then
-        L4_2 = A0_2[9]
+        L4_2 = self[9]
         L5_2 = L4_2
         L4_2 = L4_2.FD26E50F33CE37502
         L4_2 = L4_2(L5_2)
         L4_2 = L4_2 - 1
-        A0_2[8] = L4_2
+        self[8] = L4_2
         return
       end
-      L4_2 = A0_2[4]
+      L4_2 = self[4]
       L5_2 = L4_2
       L4_2 = L4_2.fB4E9D030
       L6_2 = "L_window_00/L_arrow_01/select"
@@ -289,44 +285,44 @@ function L70_1(A0_2, A1_2)
       L4_2 = L4_2.SC6181320B46854EE
       L5_2 = "PLAY_UI_TUTORIAL_PAGE"
       L4_2(L5_2)
-      L5_2 = A0_2
-      L4_2 = A0_2.F59815C5421532938
+      L5_2 = self
+      L4_2 = self.F59815C5421532938
       L4_2(L5_2)
     end
     do return end
     ::lbl_93::
-    L4_2 = A0_2[16]
+    L4_2 = self[16]
     L5_2 = L4_2
     L4_2 = L4_2.fDEEB3A8E
     L4_2 = L4_2(L5_2)
     if not L4_2 then
-      L4_2 = A0_2[20]
+      L4_2 = self[20]
       L5_2 = L4_2
       L4_2 = L4_2.fDEEB3A8E
       L4_2 = L4_2(L5_2)
       if not L4_2 then
-        L4_2 = A0_2[19]
+        L4_2 = self[19]
         L5_2 = L4_2
         L4_2 = L4_2.fDEEB3A8E
         L4_2 = L4_2(L5_2)
       end
     end
     if L4_2 then
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       if L4_2 <= 0 then
         return
       end
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       L4_2 = L4_2 - 1
-      A0_2[8] = L4_2
+      self[8] = L4_2
       L4_2 = C3A36506FBC96ACBD
       L4_2 = L4_2.SC6181320B46854EE
       L5_2 = "PLAY_UI_TUTORIAL_PAGE"
       L4_2(L5_2)
-      L5_2 = A0_2
-      L4_2 = A0_2.F59815C5421532938
+      L5_2 = self
+      L4_2 = self.F59815C5421532938
       L4_2(L5_2)
-      L4_2 = A0_2[4]
+      L4_2 = self[4]
       L5_2 = L4_2
       L4_2 = L4_2.fB4E9D030
       L6_2 = "L_window_00/L_arrow_00/select"
@@ -334,27 +330,24 @@ function L70_1(A0_2, A1_2)
       return
     end
   elseif 2 == L2_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.fF8C77C75
     L5_2 = "f_out"
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L4_2 = L3_2
       L3_2 = L3_2.F497C51A2F06AA4A6
       L3_2(L4_2)
-      A0_2[6] = 3
+      self[6] = 3
     end
   elseif 3 == L2_2 then
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CEEDFDE89C3FCFD"]["prototype"]
-L69_1 = "FD10487F585450DF8"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.tips.TipsView.SetTipsID
+function C0CEEDFDE89C3FCFD_prototype:FD10487F585450DF8(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = C7FFC3A021777A120
   L3_2 = L3_2.S0B3F69C4549A0284
@@ -367,7 +360,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L3_2 = false
     return L3_2
   end
-  A0_2[7] = A1_2
+  self[7] = A1_2
   L3_2 = C7FFC3A021777A120
   L3_2 = L3_2.S0B3F69C4549A0284
   L3_2 = L3_2()
@@ -375,9 +368,9 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2 = L3_2.F98A87F7F4F26A099
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[9] = L3_2
-  A0_2[8] = 0
-  L3_2 = A0_2[9]
+  self[9] = L3_2
+  self[8] = 0
+  L3_2 = self[9]
   L4_2 = L3_2
   L3_2 = L3_2.F6E4885159B9B973D
   L3_2 = L3_2(L4_2)
@@ -397,20 +390,17 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2 = true
     return L5_2
   end
-  A0_2[12] = true
+  self[12] = true
   L5_2 = true
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CEEDFDE89C3FCFD"]["prototype"]
-L69_1 = "F10E2C6DDFB0C290D"
-
-function L70_1(A0_2)
+--- main.ui.tips.TipsView.SetFlag
+function C0CEEDFDE89C3FCFD_prototype:F10E2C6DDFB0C290D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   if L1_2 then
-    L1_2 = A0_2[9]
+    L1_2 = self[9]
     L2_2 = L1_2
     L1_2 = L1_2.F6E4885159B9B973D
     L1_2 = L1_2(L2_2)
@@ -423,7 +413,7 @@ function L70_1(A0_2)
       L2_2 = nil
     end
     if not L2_2 then
-      L3_2 = A0_2[9]
+      L3_2 = self[9]
       L4_2 = L3_2
       L3_2 = L3_2.F9CEAF416C5F33E5B
       L3_2 = L3_2(L4_2)
@@ -438,7 +428,7 @@ function L70_1(A0_2)
       L4_2(L5_2, L6_2)
     end
   else
-    L1_2 = A0_2[9]
+    L1_2 = self[9]
     L2_2 = L1_2
     L1_2 = L1_2.F9CEAF416C5F33E5B
     L1_2 = L1_2(L2_2)
@@ -452,7 +442,7 @@ function L70_1(A0_2)
     L4_2 = true
     L2_2(L3_2, L4_2)
   end
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L2_2 = L1_2
   L1_2 = L1_2.F6E4885159B9B973D
   L1_2 = L1_2(L2_2)
@@ -467,70 +457,64 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CEEDFDE89C3FCFD"]["prototype"]
-L69_1 = "F868C8FD3C51947ED"
-
-function L70_1(A0_2)
+--- main.ui.tips.TipsView.IsViewEnd
+function C0CEEDFDE89C3FCFD_prototype:F868C8FD3C51947ED()
   local L1_2, L2_2
-  L1_2 = A0_2[11]
+  L1_2 = self[11]
   if L1_2 then
     L1_2 = true
     return L1_2
   end
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   if not L1_2 then
     L1_2 = false
     return L1_2
   end
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.FD5230D611F6A5476
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CEEDFDE89C3FCFD"]["prototype"]
-L69_1 = "F59815C5421532938"
-
-function L70_1(A0_2)
+--- main.ui.tips.TipsView.SetPage
+function C0CEEDFDE89C3FCFD_prototype:F59815C5421532938()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L2_2 = L1_2
   L1_2 = L1_2.F3B51E007EC8E5EBC
   L1_2 = L1_2(L2_2)
   L2_2 = c8C3BF576
   L2_2 = L2_2.fC8CEF9EF
-  L3_2 = A0_2[14]
-  L4_2 = A0_2[8]
+  L3_2 = self[14]
+  L4_2 = self[8]
   L4_2 = L1_2[L4_2]
   L4_2 = L4_2.titletext
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = c8C3BF576
   L3_2 = L3_2.f316077B2
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = "L_window_00/T_title_00"
   L6_2 = L2_2
   L3_2(L4_2, L5_2, L6_2)
   L3_2 = c8C3BF576
   L3_2 = L3_2.fC8CEF9EF
-  L4_2 = A0_2[14]
-  L5_2 = A0_2[8]
+  L4_2 = self[14]
+  L5_2 = self[8]
   L5_2 = L1_2[L5_2]
   L5_2 = L5_2.tipstext
   L3_2 = L3_2(L4_2, L5_2)
   L2_2 = L3_2
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L3_2 = L1_2[L3_2]
   L3_2 = L3_2.isPicture
   if L3_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.f7798D9F4
     L5_2 = "L_window_00/N_contents_00"
     L6_2 = false
     L3_2(L4_2, L5_2, L6_2)
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.f7798D9F4
     L5_2 = "L_window_00/N_contents_01"
@@ -538,14 +522,14 @@ function L70_1(A0_2)
     L3_2(L4_2, L5_2, L6_2)
     L3_2 = c8C3BF576
     L3_2 = L3_2.f316077B2
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = "L_window_00/T_text_01"
     L6_2 = L2_2
     L3_2(L4_2, L5_2, L6_2)
-    L3_2 = A0_2[8]
+    L3_2 = self[8]
     L3_2 = L1_2[L3_2]
     L3_2 = L3_2.pictureName
-    L4_2 = A0_2[4]
+    L4_2 = self[4]
     L5_2 = L4_2
     L4_2 = L4_2.fC6FA21BA
     L6_2 = 0
@@ -577,13 +561,13 @@ function L70_1(A0_2)
     L8_2 = 0
     L4_2(L5_2, L6_2, L7_2, L8_2)
   else
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.f7798D9F4
     L5_2 = "L_window_00/N_contents_00"
     L6_2 = true
     L3_2(L4_2, L5_2, L6_2)
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.f7798D9F4
     L5_2 = "L_window_00/N_contents_01"
@@ -591,12 +575,12 @@ function L70_1(A0_2)
     L3_2(L4_2, L5_2, L6_2)
     L3_2 = c8C3BF576
     L3_2 = L3_2.f316077B2
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = "L_window_00/T_text_00"
     L6_2 = L2_2
     L3_2(L4_2, L5_2, L6_2)
   end
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = "L_window_00/L_arrow_00"
@@ -604,7 +588,7 @@ function L70_1(A0_2)
   function L6_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[8]
     if 0 == L1_3 then
       L0_3 = false
@@ -616,7 +600,7 @@ function L70_1(A0_2)
   
   L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L6_2()
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = "L_window_00/L_arrow_01"
@@ -624,9 +608,9 @@ function L70_1(A0_2)
   function L6_2()
     local L0_3, L1_3, L2_3, L3_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[8]
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[9]
     L3_3 = L2_3
     L2_3 = L2_3.FD26E50F33CE37502
@@ -642,21 +626,21 @@ function L70_1(A0_2)
   
   L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L6_2()
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L4_2 = L3_2
   L3_2 = L3_2.fABEB9F55
   L5_2 = 0
-  L6_2 = A0_2[8]
+  L6_2 = self[8]
   L6_2 = L6_2 + 1
   L7_2 = 2
   L8_2 = 1
   L9_2 = 1
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L4_2 = L3_2
   L3_2 = L3_2.fABEB9F55
   L5_2 = 1
-  L6_2 = A0_2[9]
+  L6_2 = self[9]
   L7_2 = L6_2
   L6_2 = L6_2.FD26E50F33CE37502
   L6_2 = L6_2(L7_2)
@@ -664,41 +648,38 @@ function L70_1(A0_2)
   L8_2 = 1
   L9_2 = 1
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L4_2 = L3_2
   L3_2 = L3_2.f39DD249C
   L5_2 = c8C3BF576
   L5_2 = L5_2.fC8CEF9EF
-  L6_2 = A0_2[14]
+  L6_2 = self[14]
   L7_2 = "msg_ui_tips_page"
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L5_2(L6_2, L7_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = "L_window_00/T_page_00"
   L7_2 = L3_2
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CEEDFDE89C3FCFD"]["prototype"]
-L69_1 = "F12F63EE47FFCB183"
-
-function L70_1(A0_2)
+--- main.ui.tips.TipsView.Suspend
+function C0CEEDFDE89C3FCFD_prototype:F12F63EE47FFCB183()
   local L1_2, L2_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   if 0 == L1_2 then
-    A0_2[11] = true
+    self[11] = true
     return
   end
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   if 1 == L1_2 then
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     L2_2 = L1_2
     L1_2 = L1_2.F497C51A2F06AA4A6
     L1_2(L2_2)
-    A0_2[6] = 2
+    self[6] = 2
     return
   end
 end

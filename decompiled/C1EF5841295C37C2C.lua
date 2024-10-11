@@ -1,3 +1,7 @@
+---@alias C1EF5841295C37C2C main_ajito_system_DanPartnerManager
+
+---@class main_ajito_system_DanPartnerManager : C1EF5841295C37C2C_prototype
+---@field prototype C1EF5841295C37C2C_prototype
 L68_1 = _ENV["C1EF5841295C37C2C"]
 L69_1 = "super"
 
@@ -69,19 +73,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1EF5841295C37C2C"]
 L69_1 = "__name__"
 L70_1 = "C1EF5841295C37C2C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "FDF80F15671AA98C1"
-
-function L70_1(A0_2)
+---@class C1EF5841295C37C2C_prototype
+C1EF5841295C37C2C_prototype = L15_1()
+C1EF5841295C37C2C.prototype = C1EF5841295C37C2C_prototype
+--- main.ajito.system.DanPartnerManager.setNowPartner
+function C1EF5841295C37C2C_prototype:FDF80F15671AA98C1()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C1EF5841295C37C2C
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.F2F87B6843A7D2EE5
   L2_2 = L2_2(L3_2)
@@ -112,14 +111,11 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "FD188E07C3687431A"
-
-function L70_1(A0_2)
+--- main.ajito.system.DanPartnerManager.CreatePartnersAsync
+function C1EF5841295C37C2C_prototype:FD188E07C3687431A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   while true do
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     L1_2 = L1_2[2]
     if L1_2 then
       break
@@ -128,15 +124,15 @@ function L70_1(A0_2)
     L1_2 = L1_2.S760DAE4C5371A78E
     L1_2()
   end
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.F7E6B3A9A9BA6D813
-  L4_2 = A0_2
-  L3_2 = A0_2.F462B84F9EF9890CC
+  L4_2 = self
+  L3_2 = self.F462B84F9EF9890CC
   L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F462B84F9EF9890CC
+  L2_2 = self
+  L1_2 = self.F462B84F9EF9890CC
   L1_2 = L1_2(L2_2)
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -148,13 +144,13 @@ function L70_1(A0_2)
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L5_2 = L3_2 - 1
-    L7_2 = A0_2
-    L6_2 = A0_2.FE771D332F374F8EA
+    L7_2 = self
+    L6_2 = self.FE771D332F374F8EA
     L8_2 = L1_2[L5_2]
     L9_2 = L5_2
     L6_2 = L6_2(L7_2, L8_2, L9_2)
     L7_2 = L1_2[L5_2]
-    L8_2 = A0_2[3]
+    L8_2 = self[3]
     L9_2 = CFC8F368D91411014
     L9_2 = L9_2.S93A017D496A6D000
     L9_2 = L9_2.owner
@@ -183,7 +179,7 @@ function L70_1(A0_2)
   L6_2 = C91B78F1802B84B80
   L6_2 = L6_2.new
   L7_2 = L2_2
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   
   function L9_2()
     local L0_3, L1_3
@@ -199,9 +195,9 @@ function L70_1(A0_2)
   
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L9_2()
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
-  A0_2[7] = L6_2
-  L7_2 = A0_2
-  L6_2 = A0_2.FDF80F15671AA98C1
+  self[7] = L6_2
+  L7_2 = self
+  L6_2 = self.FDF80F15671AA98C1
   L6_2(L7_2)
   L6_2 = C1DB14DCC9D7634FA
   L6_2 = L6_2.S760DAE4C5371A78E
@@ -216,8 +212,8 @@ function L70_1(A0_2)
   L6_2 = L6_2.F8D199D645E588A83
   L8_2 = C88883C6A8DDAEE7E
   L9_2 = L55_1
-  L10_2 = A0_2
-  L11_2 = A0_2.FB6017582AC37B123
+  L10_2 = self
+  L11_2 = self.FB6017582AC37B123
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L9_2(L10_2, L11_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
   L6_2 = CDBCB33E53E70ED25
@@ -227,8 +223,8 @@ function L70_1(A0_2)
   L6_2 = L6_2.F8D199D645E588A83
   L8_2 = C9A3D19E8A0B2AF41
   L9_2 = L55_1
-  L10_2 = A0_2
-  L11_2 = A0_2.FA7158FC8B59A443C
+  L10_2 = self
+  L11_2 = self.FA7158FC8B59A443C
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L9_2(L10_2, L11_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
   L6_2 = CDBCB33E53E70ED25
@@ -238,8 +234,8 @@ function L70_1(A0_2)
   L6_2 = L6_2.F8D199D645E588A83
   L8_2 = C4A92631DB525BA35
   L9_2 = L55_1
-  L10_2 = A0_2
-  L11_2 = A0_2.FA62C4E9C05B94D8D
+  L10_2 = self
+  L11_2 = self.FA62C4E9C05B94D8D
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L9_2(L10_2, L11_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
   L6_2 = CDBCB33E53E70ED25
@@ -249,8 +245,8 @@ function L70_1(A0_2)
   L6_2 = L6_2.F8D199D645E588A83
   L8_2 = C58D16AB89DCF550C
   L9_2 = L55_1
-  L10_2 = A0_2
-  L11_2 = A0_2.F11653B6E01DE5CB7
+  L10_2 = self
+  L11_2 = self.F11653B6E01DE5CB7
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L9_2(L10_2, L11_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
   L6_2 = CDBCB33E53E70ED25
@@ -260,38 +256,32 @@ function L70_1(A0_2)
   L6_2 = L6_2.F8D199D645E588A83
   L8_2 = C79500C0F0B70EF4B
   L9_2 = L55_1
-  L10_2 = A0_2
-  L11_2 = A0_2.F5231367AB564B4B6
+  L10_2 = self
+  L11_2 = self.F5231367AB564B4B6
   L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L9_2(L10_2, L11_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "F1A28A0E09A0CF6ED"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.DanPartnerManager.SetVisibleUI
+function C1EF5841295C37C2C_prototype:F1A28A0E09A0CF6ED(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.FA23D39922B76B247
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.FA23D39922B76B247
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "FD3E3E5212E513465"
-
-function L70_1(A0_2)
+--- main.ajito.system.DanPartnerManager.CollectRequestAll
+function C1EF5841295C37C2C_prototype:FD3E3E5212E513465()
   local L1_2, L2_2, L3_2
   L1_2 = L27_1.iter
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.FB501853D5D384FDD
   L2_2 = L2_2(L3_2)
@@ -306,14 +296,11 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "F50E2ED15C92C038D"
-
-function L70_1(A0_2)
+--- main.ajito.system.DanPartnerManager.leaveByTemochiPokemon
+function C1EF5841295C37C2C_prototype:F50E2ED15C92C038D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2
-  L2_2 = A0_2[7]
+  L1_2 = self
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.F6B2623D4D022826C
   L2_2 = L2_2(L3_2)
@@ -369,15 +356,15 @@ function L70_1(A0_2)
   
   L6_2 = ""
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.F5F1BC417FB369CF4
-  L5_2 = A0_2[7]
+  L5_2 = self[7]
   L6_2 = L5_2
   L5_2 = L5_2.F18470452C96A4DB4
   L5_2, L6_2 = L5_2(L6_2)
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.FE0BEAFFCC94D9D60
   L5_2 = L2_2.FirstInitIndex
@@ -385,20 +372,17 @@ function L70_1(A0_2)
   L6_2 = L6_2.S81C828D2C473AE7B
   L6_2 = L6_2[1]
   L3_2(L4_2, L5_2, L6_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FDF80F15671AA98C1
+  L4_2 = self
+  L3_2 = self.FDF80F15671AA98C1
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "F64ACECD1CD3F476E"
-
-function L70_1(A0_2)
+--- main.ajito.system.DanPartnerManager.F64ACECD1CD3F476E
+function C1EF5841295C37C2C_prototype:F64ACECD1CD3F476E()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = L27_1.iter
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.F78CF0139FCE0CD45
   L3_2 = L3_2(L4_2)
@@ -416,25 +400,22 @@ function L70_1(A0_2)
   L2_2 = C1EF5841295C37C2C
   L2_2 = L2_2.S81C828D2C473AE7B
   if nil == L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FDF80F15671AA98C1
+    L3_2 = self
+    L2_2 = self.FDF80F15671AA98C1
     L2_2(L3_2)
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.F5F1BC417FB369CF4
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L5_2 = L4_2
   L4_2 = L4_2.F18470452C96A4DB4
   L4_2, L5_2 = L4_2(L5_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "FB6017582AC37B123"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.DanPartnerManager.registBattleStart
+function C1EF5841295C37C2C_prototype:FB6017582AC37B123(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C6F7249149A929D9A
   L2_2 = L2_2.S01979B92AA22A0F1
@@ -488,18 +469,15 @@ function L70_1(A0_2, A1_2)
       L6_2 = L5_2
       L5_2 = L5_2.fE9C29DA1
       L5_2(L6_2)
-      L6_2 = A0_2
-      L5_2 = A0_2.F50E2ED15C92C038D
+      L6_2 = self
+      L5_2 = self.F50E2ED15C92C038D
       L5_2(L6_2)
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "FA7158FC8B59A443C"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.DanPartnerManager.registBattleDamage
+function C1EF5841295C37C2C_prototype:FA7158FC8B59A443C(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = A1_2[1]
   if nil == L2_2 then
@@ -515,22 +493,19 @@ function L70_1(A0_2, A1_2)
   if L3_2 then
     return
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FCD84C12843199456
+  L4_2 = self
+  L3_2 = self.FCD84C12843199456
   L5_2 = A1_2[1]
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "F11653B6E01DE5CB7"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.DanPartnerManager.F11653B6E01DE5CB7
+function C1EF5841295C37C2C_prototype:F11653B6E01DE5CB7(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FA1029755362E0507
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L5_2 = L4_2
   L4_2 = L4_2.F46BCC309F6B4EF97
   L6_2 = A1_2[1]
@@ -541,13 +516,10 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "FA62C4E9C05B94D8D"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.DanPartnerManager.registBackPokemon
+function C1EF5841295C37C2C_prototype:FA62C4E9C05B94D8D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = A1_2[1]
   L4_2 = L3_2
   L3_2 = L3_2.fB3CF1DEB
@@ -561,7 +533,7 @@ function L70_1(A0_2, A1_2)
     L4_2 = nil
   end
   L5_2 = L4_2[21]
-  L6_2 = A0_2[7]
+  L6_2 = self[7]
   L7_2 = L6_2
   L6_2 = L6_2.FF64842CAFC9A0471
   L8_2 = A1_2[1]
@@ -573,7 +545,7 @@ function L70_1(A0_2, A1_2)
   L8_2 = L7_2
   L7_2 = L7_2.fE9C29DA1
   L7_2(L8_2)
-  L7_2 = A0_2[7]
+  L7_2 = self[7]
   L8_2 = L7_2
   L7_2 = L7_2.F1D8252ADFDDA5402
   L7_2(L8_2)
@@ -611,10 +583,10 @@ function L70_1(A0_2, A1_2)
     L8_2 = "PLAY_UI_DAN_COME_BACK_ICON"
     L7_2(L8_2)
   end
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = L7_2
   L7_2 = L7_2.F5F1BC417FB369CF4
-  L9_2 = A0_2[7]
+  L9_2 = self[7]
   L10_2 = L9_2
   L9_2 = L9_2.F18470452C96A4DB4
   L9_2, L10_2 = L9_2(L10_2)
@@ -625,11 +597,11 @@ function L70_1(A0_2, A1_2)
   L7_2 = C1EF5841295C37C2C
   L7_2 = L7_2.S81C828D2C473AE7B
   if nil == L7_2 then
-    L8_2 = A0_2
-    L7_2 = A0_2.FDF80F15671AA98C1
+    L8_2 = self
+    L7_2 = self.FDF80F15671AA98C1
     L7_2(L8_2)
   end
-  L7_2 = A0_2[7]
+  L7_2 = self[7]
   L8_2 = L7_2
   L7_2 = L7_2.F135753386837F4AD
   L7_2 = L7_2(L8_2)
@@ -646,11 +618,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "F5231367AB564B4B6"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.DanPartnerManager.F5231367AB564B4B6
+function C1EF5841295C37C2C_prototype:F5231367AB564B4B6(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = c4E28AB7C
   L2_2 = L2_2.fB41FD22F
@@ -733,13 +702,10 @@ function L70_1(A0_2, A1_2)
   L8_2(L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "FCD84C12843199456"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.DanPartnerManager.updateHPUI
+function C1EF5841295C37C2C_prototype:FCD84C12843199456(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.F46BCC309F6B4EF97
   L4_2 = A1_2[1]
@@ -747,11 +713,11 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2.fE9C29DA1
   L4_2, L5_2, L6_2, L7_2 = L4_2(L5_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FC097D4CF4020FCE9
+  L4_2 = self
+  L3_2 = self.FC097D4CF4020FCE9
   L5_2 = A1_2[10]
   L3_2 = L3_2(L4_2, L5_2)
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   L5_2 = L4_2
   L4_2 = L4_2.F7CB0DCDB79E8DF73
   L6_2 = L2_2
@@ -759,11 +725,8 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "F5553B2C159C6F75B"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.DanPartnerManager.healHP
+function C1EF5841295C37C2C_prototype:F5553B2C159C6F75B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A1_2 then
     return
@@ -777,7 +740,7 @@ function L70_1(A0_2, A1_2)
   if L3_2 then
     return
   end
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.F46BCC309F6B4EF97
   L5_2 = A1_2[1]
@@ -785,16 +748,16 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2.fE9C29DA1
   L5_2, L6_2, L7_2, L8_2 = L5_2(L6_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FC097D4CF4020FCE9
+  L5_2 = self
+  L4_2 = self.FC097D4CF4020FCE9
   L6_2 = A1_2[10]
   L4_2 = L4_2(L5_2, L6_2)
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L6_2 = L5_2
   L5_2 = L5_2.F959800095DA7D3F0
   L7_2 = L3_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L6_2 = L5_2
   L5_2 = L5_2.F7CB0DCDB79E8DF73
   L7_2 = L3_2
@@ -802,11 +765,8 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "FC097D4CF4020FCE9"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.DanPartnerManager.calcHPFrame
+function C1EF5841295C37C2C_prototype:FC097D4CF4020FCE9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = C1EF5841295C37C2C
   L2_2 = L2_2.S2A1E1FAE8AA7AE44
@@ -875,11 +835,8 @@ function L70_1(A0_2, A1_2)
   return L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "FE771D332F374F8EA"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ajito.system.DanPartnerManager.createPartnerName
+function C1EF5841295C37C2C_prototype:FE771D332F374F8EA(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = L31_1.string
   L4_2 = L31_1.string
@@ -905,18 +862,15 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "F462B84F9EF9890CC"
-
-function L70_1(A0_2)
+--- main.ajito.system.DanPartnerManager.getPartnersFromParty
+function C1EF5841295C37C2C_prototype:F462B84F9EF9890CC()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = _hx_tab_array
   L2_2 = {}
   L2_2.length = 0
   L3_2 = 0
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[1] = L1_2
+  self[1] = L1_2
   L1_2 = _hx_tab_array
   L2_2 = {}
   L2_2.length = 0
@@ -978,7 +932,7 @@ function L70_1(A0_2)
       L7_2 = false
     end
     if L7_2 then
-      L8_2 = A0_2[1]
+      L8_2 = self[1]
       L9_2 = L8_2
       L8_2 = L8_2.push
       L10_2 = L4_2
@@ -996,14 +950,11 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1EF5841295C37C2C"]["prototype"]
-L69_1 = "F2F92371F2391633E"
-
-function L70_1(A0_2)
+--- main.ajito.system.DanPartnerManager.DestroyPartners
+function C1EF5841295C37C2C_prototype:F2F92371F2391633E()
   local L1_2, L2_2, L3_2
   L1_2 = L27_1.iter
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.FB501853D5D384FDD
   L2_2 = L2_2(L3_2)
@@ -1062,7 +1013,7 @@ L68_1[L69_1] = "CA38099409FBF81CC"
 L68_1 = CA38099409FBF81CC
 L69_1 = "SB802D985636AA6ED"
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+function L70_1(self, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = C9C018BF0431B5277
   L4_2 = L4_2.S0A9B16CE40AA51E6
@@ -1073,7 +1024,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L9_2 = "world/obj_template/parts/ajito/BossCarTemplate/AjitoBossCar"
   L8_2 = L8_2(L9_2)
   L9_2 = L31_1.string
-  L10_2 = A0_2[0]
+  L10_2 = self[0]
   L9_2 = L9_2(L10_2)
   L8_2 = L8_2 .. L9_2
   L7_2 = L7_2(L8_2)
@@ -1083,7 +1034,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2 = L7_2 .. L8_2
   L6_2 = L6_2(L7_2)
   L7_2 = L31_1.string
-  L8_2 = A0_2[0]
+  L8_2 = self[0]
   L7_2 = L7_2(L8_2)
   L6_2 = L6_2 .. L7_2
   L5_2 = L5_2(L6_2)
@@ -1115,7 +1066,7 @@ L68_1[L69_1] = L70_1
 L68_1 = C8300BA3450287106
 L69_1 = "new"
 
-function L70_1(A0_2)
+function L70_1(self)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C8300BA3450287106
@@ -1126,7 +1077,7 @@ function L70_1(A0_2)
   L2_2 = C8300BA3450287106
   L2_2 = L2_2.super
   L3_2 = L1_2
-  L4_2 = A0_2
+  L4_2 = self
   L2_2(L3_2, L4_2)
   return L1_2
 end

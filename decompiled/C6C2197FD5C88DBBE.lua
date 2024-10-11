@@ -1,3 +1,7 @@
+---@alias C6C2197FD5C88DBBE main_ui_util_uikit_ShortcutInputModule
+
+---@class main_ui_util_uikit_ShortcutInputModule : C6C2197FD5C88DBBE_prototype
+---@field prototype C6C2197FD5C88DBBE_prototype
 L55_1 = _ENV
 L56_1 = "C6C2197FD5C88DBBE"
 L57_1 = L15_1
@@ -43,27 +47,22 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C6C2197FD5C88DBBE"]
 L69_1 = "__name__"
 L70_1 = "C6C2197FD5C88DBBE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C2197FD5C88DBBE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C2197FD5C88DBBE"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class C6C2197FD5C88DBBE_prototype
+C6C2197FD5C88DBBE_prototype = L15_1()
+C6C2197FD5C88DBBE.prototype = C6C2197FD5C88DBBE_prototype
+--- main.ui.util.uikit.ShortcutInputModule.Setup
+function C6C2197FD5C88DBBE_prototype:F7C68FEDB79AB6396(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   if nil ~= L3_2 then
     return
   end
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = C04C2A679B8598CA6
   L4_2 = L4_2.SD071DF9D0379766A
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = A1_2
   L7_2 = A2_2
   L4_2 = L4_2(L5_2, L6_2, L7_2)
@@ -79,19 +78,16 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C2197FD5C88DBBE"]["prototype"]
-L69_1 = "FEB1DE254F2D0862E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.util.uikit.ShortcutInputModule.SetupButtonSE
+function C6C2197FD5C88DBBE_prototype:FEB1DE254F2D0862E(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   if nil == L3_2 then
     return
   end
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   L4_2 = L42_1.tnull
@@ -104,20 +100,17 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C2197FD5C88DBBE"]["prototype"]
-L69_1 = "F87FB06F62EB491BF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.uikit.ShortcutInputModule.GetShortcutInputUtil
+function C6C2197FD5C88DBBE_prototype:F87FB06F62EB491BF(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   if nil == L2_2 then
     L2_2 = nil
     return L2_2
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L42_1.tnull
@@ -127,20 +120,17 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C2197FD5C88DBBE"]["prototype"]
-L69_1 = "FF27E98FDE7F51A7B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.uikit.ShortcutInputModule.IsClickEventTrigger
+function C6C2197FD5C88DBBE_prototype:FF27E98FDE7F51A7B(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   if nil == L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L42_1.tnull
@@ -152,20 +142,17 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C2197FD5C88DBBE"]["prototype"]
-L69_1 = "F6312C4A7BE4DAA02"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.uikit.ShortcutInputModule.IsClickEventRepeat
+function C6C2197FD5C88DBBE_prototype:F6312C4A7BE4DAA02(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   if nil == L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L42_1.tnull
@@ -177,20 +164,17 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C2197FD5C88DBBE"]["prototype"]
-L69_1 = "F522068716C394296"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.uikit.ShortcutInputModule.IsClickEventRelease
+function C6C2197FD5C88DBBE_prototype:F522068716C394296(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   if nil == L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L42_1.tnull
@@ -202,20 +186,17 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C2197FD5C88DBBE"]["prototype"]
-L69_1 = "FF3290682E0157DA0"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.uikit.ShortcutInputModule.IsClickEventHold
+function C6C2197FD5C88DBBE_prototype:FF3290682E0157DA0(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   if nil == L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L42_1.tnull
@@ -227,19 +208,16 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C2197FD5C88DBBE"]["prototype"]
-L69_1 = "F17234BCA67C447AD"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.util.uikit.ShortcutInputModule.SetActive
+function C6C2197FD5C88DBBE_prototype:F17234BCA67C447AD(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   if nil == L3_2 then
     return
   end
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   L4_2 = L42_1.tnull
@@ -252,13 +230,10 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C2197FD5C88DBBE"]["prototype"]
-L69_1 = "F31B77E64A68D1E3C"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.uikit.ShortcutInputModule.SetActiveAll
+function C6C2197FD5C88DBBE_prototype:F31B77E64A68D1E3C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.keys
   L2_2 = L2_2(L3_2)
@@ -272,7 +247,7 @@ function L70_1(A0_2, A1_2)
     L4_2 = L2_2
     L3_2 = L2_2.next
     L3_2 = L3_2(L4_2)
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L4_2 = L4_2.h
     L4_2 = L4_2[L3_2]
     L5_2 = L42_1.tnull
@@ -286,13 +261,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C2197FD5C88DBBE"]["prototype"]
-L69_1 = "FA9582E70E32586E5"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.uikit.ShortcutInputModule.FA9582E70E32586E5
+function C6C2197FD5C88DBBE_prototype:FA9582E70E32586E5(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.keys
   L2_2 = L2_2(L3_2)
@@ -306,7 +278,7 @@ function L70_1(A0_2, A1_2)
     L4_2 = L2_2
     L3_2 = L2_2.next
     L3_2 = L3_2(L4_2)
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L4_2 = L4_2.h
     L4_2 = L4_2[L3_2]
     L5_2 = L42_1.tnull

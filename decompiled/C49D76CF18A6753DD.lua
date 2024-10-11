@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C49D76CF18A6753DD"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C49D76CF18A6753DD"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49D76CF18A6753DD"]
-L69_1 = "__name__"
-L70_1 = "C49D76CF18A6753DD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49D76CF18A6753DD"]
-L69_1 = "S7A3D296366E973CB"
+---@alias C49D76CF18A6753DD main_field_btpos_FieldBtPosManager
 
-function L70_1()
+---@class main_field_btpos_FieldBtPosManager
+C49D76CF18A6753DD = L15_1()
+C49D76CF18A6753DD.new = {}
+C49D76CF18A6753DD.__name__ = "C49D76CF18A6753DD"
+--- main.field.btpos.FieldBtPosManager.Initialize
+function C49D76CF18A6753DD.S7A3D296366E973CB()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C49D76CF18A6753DD
   L1_2 = c682D8E4F
@@ -44,11 +35,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49D76CF18A6753DD"]
-L69_1 = "S921E8C7579F3AB06"
-
-function L70_1()
+--- main.field.btpos.FieldBtPosManager.WaitInitialize
+function C49D76CF18A6753DD.S921E8C7579F3AB06()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -91,21 +79,15 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49D76CF18A6753DD"]
-L69_1 = "SFC76E25594BC8CC5"
-
-function L70_1()
+--- main.field.btpos.FieldBtPosManager.SFC76E25594BC8CC5
+function C49D76CF18A6753DD.SFC76E25594BC8CC5()
   local L0_2, L1_2
   L0_2 = true
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49D76CF18A6753DD"]
-L69_1 = "S909B9BC418CFEA0B"
-
-function L70_1()
+--- main.field.btpos.FieldBtPosManager.S909B9BC418CFEA0B
+function C49D76CF18A6753DD.S909B9BC418CFEA0B()
   local L0_2, L1_2, L2_2
   L0_2 = C49D76CF18A6753DD
   L0_2 = L0_2.S958F2512AD684AD3
@@ -202,11 +184,8 @@ function L70_1()
   L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49D76CF18A6753DD"]
-L69_1 = "SFF1B837B9541D80C"
-
-function L70_1(A0_2, A1_2)
+--- main.field.btpos.FieldBtPosManager.FindPoint
+function C49D76CF18A6753DD.SFF1B837B9541D80C(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C49D76CF18A6753DD
   L2_2 = L2_2.SD4F3123BAD5ACC5F
@@ -228,11 +207,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49D76CF18A6753DD"]
-L69_1 = "SEF3A3B6876841F5A"
-
-function L70_1(A0_2)
+--- main.field.btpos.FieldBtPosManager.Find
+function C49D76CF18A6753DD.SEF3A3B6876841F5A(A0_2)
   local L1_2, L2_2
   L1_2 = C49D76CF18A6753DD
   L1_2 = L1_2.SD4F3123BAD5ACC5F
@@ -245,11 +221,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49D76CF18A6753DD"]
-L69_1 = "SD7C53B77F31F05E5"
-
-function L70_1(A0_2)
+--- main.field.btpos.FieldBtPosManager.Enumerate
+function C49D76CF18A6753DD.SD7C53B77F31F05E5(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C49D76CF18A6753DD
   L1_2 = L1_2.SD4F3123BAD5ACC5F

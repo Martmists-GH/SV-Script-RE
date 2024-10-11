@@ -1,3 +1,7 @@
+---@alias C0FEA049F2C3923AB main_field_action_base_AutoActionManager
+
+---@class main_field_action_base_AutoActionManager : C0FEA049F2C3923AB_prototype
+---@field prototype C0FEA049F2C3923AB_prototype
 L55_1 = _ENV
 L56_1 = "C0FEA049F2C3923AB"
 L57_1 = L15_1
@@ -34,20 +38,15 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0FEA049F2C3923AB"]
 L69_1 = "__name__"
 L70_1 = "C0FEA049F2C3923AB"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0FEA049F2C3923AB"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0FEA049F2C3923AB"]["prototype"]
-L69_1 = "FEF3A3B6876841F5A"
-
-function L70_1(A0_2, A1_2)
+---@class C0FEA049F2C3923AB_prototype
+C0FEA049F2C3923AB_prototype = L15_1()
+C0FEA049F2C3923AB.prototype = C0FEA049F2C3923AB_prototype
+--- main.field.action.base.AutoActionManager.Find
+function C0FEA049F2C3923AB_prototype:FEF3A3B6876841F5A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   if nil ~= L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L2_2 = L2_2.h
     while nil ~= L2_2 do
       L3_2 = L2_2.item
@@ -65,15 +64,12 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0FEA049F2C3923AB"]["prototype"]
-L69_1 = "F7B1493ADECD2288D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.action.base.AutoActionManager.Pause
+function C0FEA049F2C3923AB_prototype:F7B1493ADECD2288D(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   if nil ~= L3_2 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L3_2 = L3_2.h
     while nil ~= L3_2 do
       L4_2 = L3_2.item
@@ -93,15 +89,12 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0FEA049F2C3923AB"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.field.action.base.AutoActionManager.Destroy
+function C0FEA049F2C3923AB_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   if nil ~= L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L1_2 = L1_2.h
     while nil ~= L1_2 do
       L2_2 = L1_2.item
@@ -120,7 +113,7 @@ function L70_1(A0_2)
         L2_2[4] = nil
       end
     end
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.clear
     L2_2(L3_2)

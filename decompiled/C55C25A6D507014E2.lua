@@ -1,3 +1,7 @@
+---@alias C55C25A6D507014E2 main_event_general_coin_symbol_CoinSymbolWalkEvent
+
+---@class main_event_general_coin_symbol_CoinSymbolWalkEvent : C55C25A6D507014E2_prototype
+---@field prototype C55C25A6D507014E2_prototype
 L55_1 = _ENV
 L56_1 = "C55C25A6D507014E2"
 L57_1 = L15_1
@@ -45,32 +49,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C55C25A6D507014E2"]
 L69_1 = "__name__"
 L70_1 = "C55C25A6D507014E2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55C25A6D507014E2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55C25A6D507014E2"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C55C25A6D507014E2_prototype
+C55C25A6D507014E2_prototype = L15_1()
+C55C25A6D507014E2.prototype = C55C25A6D507014E2_prototype
+--- main.event.general.coin_symbol.CoinSymbolWalkEvent.preStart
+function C55C25A6D507014E2_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55C25A6D507014E2"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.general.coin_symbol.CoinSymbolWalkEvent.postStart
+function C55C25A6D507014E2_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55C25A6D507014E2"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.coin_symbol.CoinSymbolWalkEvent.mainBody
+function C55C25A6D507014E2_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2
   L1_2 = nil
   
@@ -79,7 +72,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -87,7 +80,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -332,27 +325,18 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55C25A6D507014E2"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.coin_symbol.CoinSymbolWalkEvent.mainBodyFinish
+function C55C25A6D507014E2_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55C25A6D507014E2"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.coin_symbol.CoinSymbolWalkEvent.preEnd
+function C55C25A6D507014E2_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55C25A6D507014E2"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.general.coin_symbol.CoinSymbolWalkEvent.postEnd
+function C55C25A6D507014E2_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

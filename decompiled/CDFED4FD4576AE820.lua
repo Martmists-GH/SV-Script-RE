@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CDFED4FD4576AE820"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CDFED4FD4576AE820"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFED4FD4576AE820"]
-L69_1 = "__name__"
-L70_1 = "CDFED4FD4576AE820"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFED4FD4576AE820"]
-L69_1 = "S3FEEFB06B65D4728"
+---@alias CDFED4FD4576AE820 main_event_command_YMapMissionDemoCommand
 
-function L70_1(A0_2)
+---@class main_event_command_YMapMissionDemoCommand
+CDFED4FD4576AE820 = L15_1()
+CDFED4FD4576AE820.new = {}
+CDFED4FD4576AE820.__name__ = "CDFED4FD4576AE820"
+--- main.event.command.YMapMissionDemoCommand.PlayDemo
+function CDFED4FD4576AE820.S3FEEFB06B65D4728(A0_2)
   local L1_2, L2_2
   if 3 == A0_2 then
     L1_2 = CDFED4FD4576AE820
@@ -51,11 +42,8 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFED4FD4576AE820"]
-L69_1 = "S266E709FF2040F8E"
-
-function L70_1()
+--- main.event.command.YMapMissionDemoCommand.S266E709FF2040F8E
+function CDFED4FD4576AE820.S266E709FF2040F8E()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -126,11 +114,8 @@ function L70_1()
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFED4FD4576AE820"]
-L69_1 = "SD19EB2BA42D6CB1B"
-
-function L70_1()
+--- main.event.command.YMapMissionDemoCommand.SD19EB2BA42D6CB1B
+function CDFED4FD4576AE820.SD19EB2BA42D6CB1B()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D

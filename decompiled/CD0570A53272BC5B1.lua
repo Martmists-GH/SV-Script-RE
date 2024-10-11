@@ -1,3 +1,7 @@
+---@alias CD0570A53272BC5B1 main_ui_waza_remember_view_WazaRememberUIView
+
+---@class main_ui_waza_remember_view_WazaRememberUIView : CD0570A53272BC5B1_prototype
+---@field prototype CD0570A53272BC5B1_prototype
 L55_1 = _ENV
 L56_1 = "CD0570A53272BC5B1"
 L57_1 = L15_1
@@ -45,81 +49,67 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CD0570A53272BC5B1"]
 L69_1 = "__name__"
 L70_1 = "CD0570A53272BC5B1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F3C702BC988E27E18"
-
-function L70_1(A0_2)
+---@class CD0570A53272BC5B1_prototype
+CD0570A53272BC5B1_prototype = L15_1()
+CD0570A53272BC5B1.prototype = CD0570A53272BC5B1_prototype
+--- main.ui.waza_remember.view.WazaRememberUIView.get_RememberMode
+function CD0570A53272BC5B1_prototype:F3C702BC988E27E18()
   local L1_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F71D75C6E97678B52"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.F71D75C6E97678B52
+function CD0570A53272BC5B1_prototype:F71D75C6E97678B52()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.Setup
+function CD0570A53272BC5B1_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C96419CBDFAC4414C
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
   L2_2 = C6CA03C429771C8F9
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[17] = L2_2
+  self[17] = L2_2
   L2_2 = C8A59E4619D32AA7D
   L2_2 = L2_2.new
-  L3_2 = A0_2
+  L3_2 = self
   L2_2 = L2_2(L3_2)
-  A0_2[7] = L2_2
+  self[7] = L2_2
   L2_2 = C9CC979169E6BA3A6
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "view_waza_remember_top_00"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[13] = L2_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F1C9CF28834043D07
+  self[13] = L2_2
+  L3_2 = self
+  L2_2 = self.F1C9CF28834043D07
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.PreUpdate
+function CD0570A53272BC5B1_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FAED06C15DD4BE55A
-  L4_2 = A0_2[6]
+  L3_2 = self
+  L2_2 = self.FAED06C15DD4BE55A
+  L4_2 = self[6]
   L2_2 = L2_2(L3_2, L4_2)
   if true == L2_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L3_2 = nil
     L4_2 = L62_1
     L5_2 = L64_1.pack
@@ -165,11 +155,11 @@ function L70_1(A0_2, A1_2)
     end
     return
   end
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   if 0 == L2_2 then
-    L2_2 = A0_2[14]
+    L2_2 = self[14]
     if 0 == L2_2 then
-      L3_2 = A0_2[13]
+      L3_2 = self[13]
       L4_2 = L3_2
       L3_2 = L3_2.FB6D1FE1B1E10C33D
       L3_2 = L3_2(L4_2)
@@ -177,8 +167,8 @@ function L70_1(A0_2, A1_2)
       L3_2 = L3_2.f5B3110C4
       L5_2 = "L_soudan_00/N_soudan_00"
       L3_2 = L3_2(L4_2, L5_2)
-      A0_2[15] = L3_2
-      L3_2 = A0_2[13]
+      self[15] = L3_2
+      L3_2 = self[13]
       L4_2 = L3_2
       L3_2 = L3_2.FB6D1FE1B1E10C33D
       L3_2 = L3_2(L4_2)
@@ -191,147 +181,144 @@ function L70_1(A0_2, A1_2)
       L7_2 = L4_2
       L5_2[1] = L6_2
       L5_2[2] = L7_2
-      A0_2[16] = L5_2
-      A0_2[14] = 1
+      self[16] = L5_2
+      self[14] = 1
     elseif 1 == L2_2 then
-      L3_2 = A0_2[13]
+      L3_2 = self[13]
       L4_2 = L3_2
       L3_2 = L3_2.FB6D1FE1B1E10C33D
       L3_2 = L3_2(L4_2)
       L4_2 = L3_2
       L3_2 = L3_2.f542FC647
       L5_2 = "L_soudan_00/N_soudan_00"
-      L6_2 = A0_2[15]
+      L6_2 = self[15]
       L3_2(L4_2, L5_2, L6_2)
-      L3_2 = A0_2[13]
+      L3_2 = self[13]
       L4_2 = L3_2
       L3_2 = L3_2.FB6D1FE1B1E10C33D
       L3_2 = L3_2(L4_2)
-      L4_2 = A0_2[16]
+      L4_2 = self[16]
       L6_2 = L3_2
       L5_2 = L3_2.f867ED779
       L7_2 = "L_soudan_00/W_option_00"
       L8_2 = L4_2[1]
       L9_2 = L4_2[2]
       L5_2(L6_2, L7_2, L8_2, L9_2)
-      L5_2 = A0_2[13]
+      L5_2 = self[13]
       L6_2 = L5_2
       L5_2 = L5_2.F748A3DCD68216D1D
       L7_2 = "L_soudan_00/in"
       L5_2(L6_2, L7_2)
-      A0_2[14] = 2
+      self[14] = 2
     elseif 2 == L2_2 then
-      L3_2 = A0_2[13]
+      L3_2 = self[13]
       L4_2 = L3_2
       L3_2 = L3_2.F810D8446A8612992
       L5_2 = "L_soudan_00/in"
       L3_2 = L3_2(L4_2, L5_2)
       if L3_2 then
-        L3_2 = A0_2[13]
+        L3_2 = self[13]
         L4_2 = L3_2
         L3_2 = L3_2.F748A3DCD68216D1D
         L5_2 = "L_soudan_00/keep"
         L3_2(L4_2, L5_2)
-        A0_2[14] = 3
+        self[14] = 3
       end
     elseif 3 == L2_2 then
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L4_2 = L3_2
       L3_2 = L3_2.FABBC7CEF43A8F1B4
       L3_2 = L3_2(L4_2)
       if L3_2 then
-        L3_2 = A0_2[13]
+        L3_2 = self[13]
         L4_2 = L3_2
         L3_2 = L3_2.F25CFEB0E023C588F
         L5_2 = "L_soudan_00/keep"
         L3_2(L4_2, L5_2)
-        L3_2 = A0_2[13]
+        L3_2 = self[13]
         L4_2 = L3_2
         L3_2 = L3_2.F748A3DCD68216D1D
         L5_2 = "L_soudan_00/soudan"
         L3_2(L4_2, L5_2)
-        L4_2 = A0_2
-        L3_2 = A0_2.F8A13EF1090A38E4C
+        L4_2 = self
+        L3_2 = self.F8A13EF1090A38E4C
         L3_2(L4_2)
-        A0_2[14] = 4
+        self[14] = 4
       end
     elseif 4 == L2_2 then
     end
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FEB6685558281F194
   L2_2(L3_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.F12CFE59AAA0D4907
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FF5AA6DCD138E1B8F
-    L4_2 = A0_2[5]
+    L3_2 = self
+    L2_2 = self.FF5AA6DCD138E1B8F
+    L4_2 = self[5]
     L5_2 = L4_2
     L4_2 = L4_2.FB9981BD2FA00B89E
     L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2 = L4_2(L5_2)
     L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.F2348C886BA3C169A
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FC2168F2796A05732
+    L3_2 = self
+    L2_2 = self.FC2168F2796A05732
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F4EF8C88F156C14B4"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.SetRememberData
+function CD0570A53272BC5B1_prototype:F4EF8C88F156C14B4(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   if nil == A3_2 then
     A3_2 = 0
   end
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   L4_2 = 2 == L4_2 and 0 == A3_2
-  A0_2[4] = L4_2
-  A0_2[8] = A1_2
-  A0_2[9] = A2_2
-  A0_2[12] = A3_2
-  L4_2 = A0_2[13]
+  self[4] = L4_2
+  self[8] = A1_2
+  self[9] = A2_2
+  self[12] = A3_2
+  L4_2 = self[13]
   L5_2 = L4_2
   L4_2 = L4_2.FA23D39922B76B247
   L6_2 = "T_title_00"
-  L7_2 = A0_2[12]
+  L7_2 = self[12]
   L7_2 = 0 == L7_2
   L4_2(L5_2, L6_2, L7_2)
-  L4_2 = A0_2[13]
+  L4_2 = self[13]
   L5_2 = L4_2
   L4_2 = L4_2.FA23D39922B76B247
   L6_2 = "T_title_01"
-  L7_2 = A0_2[12]
+  L7_2 = self[12]
   L7_2 = 1 == L7_2
   L4_2(L5_2, L6_2, L7_2)
-  L4_2 = A0_2[13]
+  L4_2 = self[13]
   L5_2 = L4_2
   L4_2 = L4_2.FA23D39922B76B247
   L6_2 = "T_title_02"
-  L7_2 = A0_2[12]
+  L7_2 = self[12]
   L7_2 = 2 == L7_2
   L4_2(L5_2, L6_2, L7_2)
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   if 0 ~= L4_2 then
-    L4_2 = A0_2[12]
+    L4_2 = self[12]
     if 1 ~= L4_2 then
       goto lbl_433
     end
   end
   L4_2 = L26_1.new
   L4_2 = L4_2()
-  A0_2[11] = L4_2
+  self[11] = L4_2
   L4_2 = L26_1.new
   L4_2 = L4_2()
   L5_2 = 0
@@ -341,7 +328,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   while L5_2 < L6_2 do
     L5_2 = L5_2 + 1
     L7_2 = L5_2 - 1
-    L8_2 = A0_2[11]
+    L8_2 = self[11]
     L9_2 = L8_2
     L8_2 = L8_2.push
     L11_2 = A1_2
@@ -370,15 +357,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2 = L10_2(L11_2)
     L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2)
   end
-  L7_2 = A0_2[12]
+  L7_2 = self[12]
   if 0 == L7_2 then
-    L8_2 = A0_2[13]
+    L8_2 = self[13]
     L9_2 = L8_2
     L8_2 = L8_2.FF32CC3BE322652A8
     L10_2 = "layout"
     L11_2 = 0
     L8_2(L9_2, L10_2, L11_2)
-    L8_2 = A0_2[13]
+    L8_2 = self[13]
     L9_2 = L8_2
     L8_2 = L8_2.FC8489078C201C47F
     L8_2 = L8_2(L9_2)
@@ -388,7 +375,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L11_2 = "msg_ui_oshie_waza_title"
     L12_2 = "waza_remember"
     L8_2(L9_2, L10_2, L11_2, L12_2)
-    L8_2 = A0_2[13]
+    L8_2 = self[13]
     L9_2 = L8_2
     L8_2 = L8_2.FC8489078C201C47F
     L8_2 = L8_2(L9_2)
@@ -398,7 +385,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L11_2 = "msg_ui_oshie_waza_auto_select"
     L12_2 = "waza_remember"
     L8_2(L9_2, L10_2, L11_2, L12_2)
-    L8_2 = A0_2[11]
+    L8_2 = self[11]
     L9_2 = L8_2
     L8_2 = L8_2.push
     L10_2 = A2_2
@@ -425,15 +412,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L11_2.max = L12_2
     L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2 = L10_2(L11_2)
     L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2)
-    A0_2[14] = 0
+    self[14] = 0
   elseif 1 == L7_2 then
-    L8_2 = A0_2[13]
+    L8_2 = self[13]
     L9_2 = L8_2
     L8_2 = L8_2.FF32CC3BE322652A8
     L10_2 = "layout"
     L11_2 = 2
     L8_2(L9_2, L10_2, L11_2)
-    L8_2 = A0_2[13]
+    L8_2 = self[13]
     L9_2 = L8_2
     L8_2 = L8_2.FC8489078C201C47F
     L8_2 = L8_2(L9_2)
@@ -452,18 +439,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L10_2 = 0
   L9_2 = L9_2(L10_2)
   L8_2 = L8_2 .. L9_2
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L10_2 = L9_2
   L9_2 = L9_2.FC0778FCF6261E1D6
   L9_2 = L9_2(L10_2)
   L10_2 = L9_2
   L9_2 = L9_2.f94487CEE
   L11_2 = L8_2
-  L12_2 = A0_2[11]
+  L12_2 = self[11]
   L12_2 = L12_2.length
   L12_2 = L12_2 > 0
   L9_2(L10_2, L11_2, L12_2)
-  L9_2 = A0_2[13]
+  L9_2 = self[13]
   L10_2 = L9_2
   L9_2 = L9_2.FA23D39922B76B247
   L11_2 = L31_1.string
@@ -473,23 +460,23 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L13_2 = 0
   L12_2 = L12_2(L13_2)
   L11_2 = L11_2 .. L12_2
-  L12_2 = A0_2[11]
+  L12_2 = self[11]
   L12_2 = L12_2.length
   L12_2 = L12_2 > 0
   L9_2(L10_2, L11_2, L12_2)
   L9_2 = cECD2E4A5
   L9_2 = L9_2.f6906455E
-  L10_2 = A0_2[1]
+  L10_2 = self[1]
   L11_2 = L8_2
   L9_2 = L9_2(L10_2, L11_2)
-  L10_2 = A0_2[11]
+  L10_2 = self[11]
   L10_2 = L10_2.length
   if L10_2 > 0 then
     L11_2 = L9_2
     L10_2 = L9_2.f6325C626
     L12_2 = L55_1
-    L13_2 = A0_2
-    L14_2 = A0_2.FA27DDDB196FD8024
+    L13_2 = self
+    L14_2 = self.FA27DDDB196FD8024
     L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2 = L12_2(L13_2, L14_2)
     L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2)
   else
@@ -509,18 +496,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L12_2 = 1
   L11_2 = L11_2(L12_2)
   L10_2 = L10_2 .. L11_2
-  L11_2 = A0_2[5]
+  L11_2 = self[5]
   L12_2 = L11_2
   L11_2 = L11_2.FC0778FCF6261E1D6
   L11_2 = L11_2(L12_2)
   L12_2 = L11_2
   L11_2 = L11_2.f94487CEE
   L13_2 = L10_2
-  L14_2 = A0_2[11]
+  L14_2 = self[11]
   L14_2 = L14_2.length
   L14_2 = L14_2 > 1
   L11_2(L12_2, L13_2, L14_2)
-  L11_2 = A0_2[13]
+  L11_2 = self[13]
   L12_2 = L11_2
   L11_2 = L11_2.FA23D39922B76B247
   L13_2 = L31_1.string
@@ -530,23 +517,23 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L15_2 = 1
   L14_2 = L14_2(L15_2)
   L13_2 = L13_2 .. L14_2
-  L14_2 = A0_2[11]
+  L14_2 = self[11]
   L14_2 = L14_2.length
   L14_2 = L14_2 > 1
   L11_2(L12_2, L13_2, L14_2)
   L11_2 = cECD2E4A5
   L11_2 = L11_2.f6906455E
-  L12_2 = A0_2[1]
+  L12_2 = self[1]
   L13_2 = L10_2
   L11_2 = L11_2(L12_2, L13_2)
-  L12_2 = A0_2[11]
+  L12_2 = self[11]
   L12_2 = L12_2.length
   if L12_2 > 1 then
     L13_2 = L11_2
     L12_2 = L11_2.f6325C626
     L14_2 = L55_1
-    L15_2 = A0_2
-    L16_2 = A0_2.FA27DDDB196FD8024
+    L15_2 = self
+    L16_2 = self.FA27DDDB196FD8024
     L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2 = L14_2(L15_2, L16_2)
     L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2)
   else
@@ -566,18 +553,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L14_2 = 2
   L13_2 = L13_2(L14_2)
   L12_2 = L12_2 .. L13_2
-  L13_2 = A0_2[5]
+  L13_2 = self[5]
   L14_2 = L13_2
   L13_2 = L13_2.FC0778FCF6261E1D6
   L13_2 = L13_2(L14_2)
   L14_2 = L13_2
   L13_2 = L13_2.f94487CEE
   L15_2 = L12_2
-  L16_2 = A0_2[11]
+  L16_2 = self[11]
   L16_2 = L16_2.length
   L16_2 = L16_2 > 2
   L13_2(L14_2, L15_2, L16_2)
-  L13_2 = A0_2[13]
+  L13_2 = self[13]
   L14_2 = L13_2
   L13_2 = L13_2.FA23D39922B76B247
   L15_2 = L31_1.string
@@ -587,23 +574,23 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L17_2 = 2
   L16_2 = L16_2(L17_2)
   L15_2 = L15_2 .. L16_2
-  L16_2 = A0_2[11]
+  L16_2 = self[11]
   L16_2 = L16_2.length
   L16_2 = L16_2 > 2
   L13_2(L14_2, L15_2, L16_2)
   L13_2 = cECD2E4A5
   L13_2 = L13_2.f6906455E
-  L14_2 = A0_2[1]
+  L14_2 = self[1]
   L15_2 = L12_2
   L13_2 = L13_2(L14_2, L15_2)
-  L14_2 = A0_2[11]
+  L14_2 = self[11]
   L14_2 = L14_2.length
   if L14_2 > 2 then
     L15_2 = L13_2
     L14_2 = L13_2.f6325C626
     L16_2 = L55_1
-    L17_2 = A0_2
-    L18_2 = A0_2.FA27DDDB196FD8024
+    L17_2 = self
+    L18_2 = self.FA27DDDB196FD8024
     L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2 = L16_2(L17_2, L18_2)
     L14_2(L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2)
   else
@@ -623,18 +610,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L16_2 = 3
   L15_2 = L15_2(L16_2)
   L14_2 = L14_2 .. L15_2
-  L15_2 = A0_2[5]
+  L15_2 = self[5]
   L16_2 = L15_2
   L15_2 = L15_2.FC0778FCF6261E1D6
   L15_2 = L15_2(L16_2)
   L16_2 = L15_2
   L15_2 = L15_2.f94487CEE
   L17_2 = L14_2
-  L18_2 = A0_2[11]
+  L18_2 = self[11]
   L18_2 = L18_2.length
   L18_2 = L18_2 > 3
   L15_2(L16_2, L17_2, L18_2)
-  L15_2 = A0_2[13]
+  L15_2 = self[13]
   L16_2 = L15_2
   L15_2 = L15_2.FA23D39922B76B247
   L17_2 = L31_1.string
@@ -644,23 +631,23 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L19_2 = 3
   L18_2 = L18_2(L19_2)
   L17_2 = L17_2 .. L18_2
-  L18_2 = A0_2[11]
+  L18_2 = self[11]
   L18_2 = L18_2.length
   L18_2 = L18_2 > 3
   L15_2(L16_2, L17_2, L18_2)
   L15_2 = cECD2E4A5
   L15_2 = L15_2.f6906455E
-  L16_2 = A0_2[1]
+  L16_2 = self[1]
   L17_2 = L14_2
   L15_2 = L15_2(L16_2, L17_2)
-  L16_2 = A0_2[11]
+  L16_2 = self[11]
   L16_2 = L16_2.length
   if L16_2 > 3 then
     L17_2 = L15_2
     L16_2 = L15_2.f6325C626
     L18_2 = L55_1
-    L19_2 = A0_2
-    L20_2 = A0_2.FA27DDDB196FD8024
+    L19_2 = self
+    L20_2 = self.FA27DDDB196FD8024
     L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2 = L18_2(L19_2, L20_2)
     L16_2(L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2)
   else
@@ -680,18 +667,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L18_2 = 4
   L17_2 = L17_2(L18_2)
   L16_2 = L16_2 .. L17_2
-  L17_2 = A0_2[5]
+  L17_2 = self[5]
   L18_2 = L17_2
   L17_2 = L17_2.FC0778FCF6261E1D6
   L17_2 = L17_2(L18_2)
   L18_2 = L17_2
   L17_2 = L17_2.f94487CEE
   L19_2 = L16_2
-  L20_2 = A0_2[11]
+  L20_2 = self[11]
   L20_2 = L20_2.length
   L20_2 = L20_2 > 4
   L17_2(L18_2, L19_2, L20_2)
-  L17_2 = A0_2[13]
+  L17_2 = self[13]
   L18_2 = L17_2
   L17_2 = L17_2.FA23D39922B76B247
   L19_2 = L31_1.string
@@ -701,23 +688,23 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L21_2 = 4
   L20_2 = L20_2(L21_2)
   L19_2 = L19_2 .. L20_2
-  L20_2 = A0_2[11]
+  L20_2 = self[11]
   L20_2 = L20_2.length
   L20_2 = L20_2 > 4
   L17_2(L18_2, L19_2, L20_2)
   L17_2 = cECD2E4A5
   L17_2 = L17_2.f6906455E
-  L18_2 = A0_2[1]
+  L18_2 = self[1]
   L19_2 = L16_2
   L17_2 = L17_2(L18_2, L19_2)
-  L18_2 = A0_2[11]
+  L18_2 = self[11]
   L18_2 = L18_2.length
   if L18_2 > 4 then
     L19_2 = L17_2
     L18_2 = L17_2.f6325C626
     L20_2 = L55_1
-    L21_2 = A0_2
-    L22_2 = A0_2.FA27DDDB196FD8024
+    L21_2 = self
+    L22_2 = self.FA27DDDB196FD8024
     L20_2, L21_2, L22_2, L23_2, L24_2 = L20_2(L21_2, L22_2)
     L18_2(L19_2, L20_2, L21_2, L22_2, L23_2, L24_2)
   else
@@ -730,21 +717,21 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     
     L18_2(L19_2, L20_2)
   end
-  L19_2 = A0_2
-  L18_2 = A0_2.FE80EC1A77DA27067
+  L19_2 = self
+  L18_2 = self.FE80EC1A77DA27067
   L20_2 = L4_2
   L18_2(L19_2, L20_2)
   goto lbl_713
   ::lbl_433::
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   if 2 == L4_2 then
-    L4_2 = A0_2[13]
+    L4_2 = self[13]
     L5_2 = L4_2
     L4_2 = L4_2.FF32CC3BE322652A8
     L6_2 = "layout"
     L7_2 = 3
     L4_2(L5_2, L6_2, L7_2)
-    L4_2 = A0_2[13]
+    L4_2 = self[13]
     L5_2 = L4_2
     L4_2 = L4_2.FC8489078C201C47F
     L4_2 = L4_2(L5_2)
@@ -754,12 +741,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L7_2 = "msg_ui_omoidashi__waza_title"
     L8_2 = "waza_remember"
     L4_2(L5_2, L6_2, L7_2, L8_2)
-    L5_2 = A0_2
-    L4_2 = A0_2.FE144991FA9F4B640
+    L5_2 = self
+    L4_2 = self.FE144991FA9F4B640
     L4_2(L5_2)
     L4_2 = L26_1.new
     L4_2 = L4_2()
-    A0_2[18] = L4_2
+    self[18] = L4_2
     L4_2 = C6BC8418E8E071EE6
     L4_2 = L4_2.S385504EFF7E842C3
     L4_2 = L4_2()
@@ -776,16 +763,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L5_2 = L5_2 + 1
       L7_2 = C2209AB9DB5E5D02A
       L7_2 = L7_2.SEC30E3F008E05D8E
-      L8_2 = A0_2[8]
+      L8_2 = self[8]
       L9_2 = L6_2.m_wazaIndex
       L7_2 = L7_2(L8_2, L9_2)
       if L7_2 then
-        L8_2 = A0_2
-        L7_2 = A0_2.FFDE278EC58373CA1
+        L8_2 = self
+        L7_2 = self.FFDE278EC58373CA1
         L9_2 = L6_2.m_wazaID
         L7_2 = L7_2(L8_2, L9_2)
         if L7_2 then
-          L7_2 = A0_2[18]
+          L7_2 = self[18]
           L8_2 = L7_2
           L7_2 = L7_2.push
           L9_2 = L6_2.m_wazaID
@@ -793,71 +780,71 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
         end
       end
     end
-    L6_2 = A0_2[8]
+    L6_2 = self[8]
     L7_2 = L6_2
     L6_2 = L6_2.fCAFE5CE7
     L8_2 = 0
     L6_2 = L6_2(L7_2, L8_2)
-    L8_2 = A0_2
-    L7_2 = A0_2.FFDE278EC58373CA1
+    L8_2 = self
+    L7_2 = self.FFDE278EC58373CA1
     L9_2 = L6_2
     L7_2 = L7_2(L8_2, L9_2)
     if L7_2 then
-      L7_2 = A0_2[18]
+      L7_2 = self[18]
       L8_2 = L7_2
       L7_2 = L7_2.push
       L9_2 = L6_2
       L7_2(L8_2, L9_2)
     end
-    L7_2 = A0_2[8]
+    L7_2 = self[8]
     L8_2 = L7_2
     L7_2 = L7_2.fCAFE5CE7
     L9_2 = 1
     L7_2 = L7_2(L8_2, L9_2)
-    L9_2 = A0_2
-    L8_2 = A0_2.FFDE278EC58373CA1
+    L9_2 = self
+    L8_2 = self.FFDE278EC58373CA1
     L10_2 = L7_2
     L8_2 = L8_2(L9_2, L10_2)
     if L8_2 then
-      L8_2 = A0_2[18]
+      L8_2 = self[18]
       L9_2 = L8_2
       L8_2 = L8_2.push
       L10_2 = L7_2
       L8_2(L9_2, L10_2)
     end
-    L8_2 = A0_2[8]
+    L8_2 = self[8]
     L9_2 = L8_2
     L8_2 = L8_2.fCAFE5CE7
     L10_2 = 2
     L8_2 = L8_2(L9_2, L10_2)
-    L10_2 = A0_2
-    L9_2 = A0_2.FFDE278EC58373CA1
+    L10_2 = self
+    L9_2 = self.FFDE278EC58373CA1
     L11_2 = L8_2
     L9_2 = L9_2(L10_2, L11_2)
     if L9_2 then
-      L9_2 = A0_2[18]
+      L9_2 = self[18]
       L10_2 = L9_2
       L9_2 = L9_2.push
       L11_2 = L8_2
       L9_2(L10_2, L11_2)
     end
-    L9_2 = A0_2[8]
+    L9_2 = self[8]
     L10_2 = L9_2
     L9_2 = L9_2.fCAFE5CE7
     L11_2 = 3
     L9_2 = L9_2(L10_2, L11_2)
-    L11_2 = A0_2
-    L10_2 = A0_2.FFDE278EC58373CA1
+    L11_2 = self
+    L10_2 = self.FFDE278EC58373CA1
     L12_2 = L9_2
     L10_2 = L10_2(L11_2, L12_2)
     if L10_2 then
-      L10_2 = A0_2[18]
+      L10_2 = self[18]
       L11_2 = L10_2
       L10_2 = L10_2.push
       L12_2 = L9_2
       L10_2(L11_2, L12_2)
     end
-    L10_2 = A0_2[8]
+    L10_2 = self[8]
     L11_2 = L10_2
     L10_2 = L10_2.fB0DB59B4
     L10_2 = L10_2(L11_2)
@@ -871,19 +858,19 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L13_2 = L10_2.f48EE46CF
       L15_2 = L11_2 - 1
       L13_2 = L13_2(L14_2, L15_2)
-      L15_2 = A0_2
-      L14_2 = A0_2.FFDE278EC58373CA1
+      L15_2 = self
+      L14_2 = self.FFDE278EC58373CA1
       L16_2 = L13_2
       L14_2 = L14_2(L15_2, L16_2)
       if L14_2 then
-        L14_2 = A0_2[18]
+        L14_2 = self[18]
         L15_2 = L14_2
         L14_2 = L14_2.push
         L16_2 = L13_2
         L14_2(L15_2, L16_2)
       end
     end
-    L13_2 = A0_2[8]
+    L13_2 = self[8]
     L14_2 = L13_2
     L13_2 = L13_2.f268E184E
     L13_2 = L13_2(L14_2)
@@ -897,19 +884,19 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L16_2 = L13_2.f48EE46CF
       L18_2 = L14_2 - 1
       L16_2 = L16_2(L17_2, L18_2)
-      L18_2 = A0_2
-      L17_2 = A0_2.FFDE278EC58373CA1
+      L18_2 = self
+      L17_2 = self.FFDE278EC58373CA1
       L19_2 = L16_2
       L17_2 = L17_2(L18_2, L19_2)
       if L17_2 then
-        L17_2 = A0_2[18]
+        L17_2 = self[18]
         L18_2 = L17_2
         L17_2 = L17_2.push
         L19_2 = L16_2
         L17_2(L18_2, L19_2)
       end
     end
-    L16_2 = A0_2[8]
+    L16_2 = self[8]
     L17_2 = L16_2
     L16_2 = L16_2.fD2EF1BBB
     L16_2 = L16_2(L17_2)
@@ -933,7 +920,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       if not L18_2 then
         break
       end
-      L18_2 = A0_2[8]
+      L18_2 = self[8]
       L19_2 = L18_2
       L18_2 = L18_2.f6C19FB12
       L20_2 = L16_2
@@ -948,12 +935,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
         L21_2 = L18_2.f48EE46CF
         L23_2 = L19_2 - 1
         L21_2 = L21_2(L22_2, L23_2)
-        L23_2 = A0_2
-        L22_2 = A0_2.FFDE278EC58373CA1
+        L23_2 = self
+        L22_2 = self.FFDE278EC58373CA1
         L24_2 = L21_2
         L22_2 = L22_2(L23_2, L24_2)
         if L22_2 then
-          L22_2 = A0_2[18]
+          L22_2 = self[18]
           L23_2 = L22_2
           L22_2 = L22_2.push
           L24_2 = L21_2
@@ -962,7 +949,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       end
       L16_2 = L16_2 - 1
     end
-    L17_2 = A0_2[8]
+    L17_2 = self[8]
     L18_2 = L17_2
     L17_2 = L17_2.f8AA5A4B4
     L17_2 = L17_2(L18_2)
@@ -976,67 +963,67 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L20_2 = L17_2.f48EE46CF
       L22_2 = L18_2 - 1
       L20_2 = L20_2(L21_2, L22_2)
-      L22_2 = A0_2
-      L21_2 = A0_2.FFDE278EC58373CA1
+      L22_2 = self
+      L21_2 = self.FFDE278EC58373CA1
       L23_2 = L20_2
       L21_2 = L21_2(L22_2, L23_2)
       if L21_2 then
-        L21_2 = A0_2[18]
+        L21_2 = self[18]
         L22_2 = L21_2
         L21_2 = L21_2.push
         L23_2 = L20_2
         L21_2(L22_2, L23_2)
       end
     end
-    L20_2 = A0_2[17]
+    L20_2 = self[17]
     L21_2 = L20_2
     L20_2 = L20_2.FBD90BD4212B06A12
-    L22_2 = A0_2[18]
+    L22_2 = self[18]
     L22_2 = L22_2.length
     L20_2(L21_2, L22_2)
-    L20_2 = A0_2[17]
+    L20_2 = self[17]
     L21_2 = L20_2
     L20_2 = L20_2.FE8CEAEA98066C0AA
     L20_2 = L20_2(L21_2)
     L21_2 = L20_2
     L20_2 = L20_2.FA23D39922B76B247
-    L22_2 = A0_2[18]
+    L22_2 = self[18]
     L22_2 = L22_2.length
     L22_2 = 0 ~= L22_2
     L20_2(L21_2, L22_2)
-    L20_2 = A0_2[13]
+    L20_2 = self[13]
     L21_2 = L20_2
     L20_2 = L20_2.FA23D39922B76B247
     L22_2 = "N_skill_info_00"
-    L23_2 = A0_2[18]
+    L23_2 = self[18]
     L23_2 = L23_2.length
     L23_2 = 0 ~= L23_2
     L20_2(L21_2, L22_2, L23_2)
-    L20_2 = A0_2[13]
+    L20_2 = self[13]
     L21_2 = L20_2
     L20_2 = L20_2.FA23D39922B76B247
     L22_2 = "P_dot_line_00"
-    L23_2 = A0_2[18]
+    L23_2 = self[18]
     L23_2 = L23_2.length
     L23_2 = 0 ~= L23_2
     L20_2(L21_2, L22_2, L23_2)
-    L20_2 = A0_2[13]
+    L20_2 = self[13]
     L21_2 = L20_2
     L20_2 = L20_2.FA23D39922B76B247
     L22_2 = "T_skill_detail_param_00"
-    L23_2 = A0_2[18]
+    L23_2 = self[18]
     L23_2 = L23_2.length
     L23_2 = 0 ~= L23_2
     L20_2(L21_2, L22_2, L23_2)
-    L20_2 = A0_2[13]
+    L20_2 = self[13]
     L21_2 = L20_2
     L20_2 = L20_2.FA23D39922B76B247
     L22_2 = "N_nothing_00"
-    L23_2 = A0_2[18]
+    L23_2 = self[18]
     L23_2 = L23_2.length
     L23_2 = 0 == L23_2
     L20_2(L21_2, L22_2, L23_2)
-    L20_2 = A0_2[13]
+    L20_2 = self[13]
     L21_2 = L20_2
     L20_2 = L20_2.FC8489078C201C47F
     L20_2 = L20_2(L21_2)
@@ -1048,45 +1035,42 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L20_2(L21_2, L22_2, L23_2, L24_2)
   end
   ::lbl_713::
-  L4_2 = A0_2[20]
+  L4_2 = self[20]
   if nil == L4_2 then
     L4_2 = C8B5D36DC7762787B
     L4_2 = L4_2.new
-    L5_2 = A0_2
+    L5_2 = self
     L4_2 = L4_2(L5_2)
-    A0_2[20] = L4_2
+    self[20] = L4_2
   end
-  L4_2 = A0_2[19]
+  L4_2 = self[19]
   if nil == L4_2 then
     L4_2 = CEC845CE3BBEAFE9F
     L4_2 = L4_2.new
-    L5_2 = A0_2[13]
+    L5_2 = self[13]
     L4_2 = L4_2(L5_2)
-    A0_2[19] = L4_2
+    self[19] = L4_2
   end
-  L4_2 = A0_2[19]
+  L4_2 = self[19]
   L5_2 = L4_2
   L4_2 = L4_2.FE2823709CB81AA04
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = A1_2
-  L8_2 = A0_2[12]
+  L8_2 = self[12]
   L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FFDE278EC58373CA1"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.FFDE278EC58373CA1
+function CD0570A53272BC5B1_prototype:FFDE278EC58373CA1(A1_2)
   local L2_2, L3_2, L4_2
   if A1_2 > 0 then
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L3_2 = L2_2
     L2_2 = L2_2.f1FBDE290
     L4_2 = A1_2
     L2_2 = L2_2(L3_2, L4_2)
     if not L2_2 then
-      L2_2 = A0_2[18]
+      L2_2 = self[18]
       L3_2 = L2_2
       L2_2 = L2_2.contains
       L4_2 = A1_2
@@ -1100,89 +1084,77 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FE80EC1A77DA27067"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.SetupView
+function CD0570A53272BC5B1_prototype:FE80EC1A77DA27067(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4A24CA2EFA25DF86
+  L3_2 = self
+  L2_2 = self.F4A24CA2EFA25DF86
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FC1B2393918B84CAC
+  L3_2 = self
+  L2_2 = self.FC1B2393918B84CAC
   L4_2 = 0
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FC1B2393918B84CAC"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.StatusSkillViewUpdate
+function CD0570A53272BC5B1_prototype:FC1B2393918B84CAC(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L2_2 = L2_2[A1_2]
-  L4_2 = A0_2
-  L3_2 = A0_2.F7B3EC539E67C1305
+  L4_2 = self
+  L3_2 = self.F7B3EC539E67C1305
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F4D4BAA7708B0E3C0
+  L4_2 = self
+  L3_2 = self.F4D4BAA7708B0E3C0
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FB1F3D9A18072994E
+  L4_2 = self
+  L3_2 = self.FB1F3D9A18072994E
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F799EB76A27A2C2D8
+  L4_2 = self
+  L3_2 = self.F799EB76A27A2C2D8
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FE144991FA9F4B640"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.ScrollPanelInit
+function CD0570A53272BC5B1_prototype:FE144991FA9F4B640()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L2_2 = L1_2
   L1_2 = L1_2.F6C145066EAC49665
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.FFBF23C8DE8293903
+  L4_2 = self
+  L5_2 = self.FFBF23C8DE8293903
   L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L2_2 = L1_2
   L1_2 = L1_2.FD19861E47221CCD4
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F296BBE54655C6496
+  L4_2 = self
+  L5_2 = self.F296BBE54655C6496
   L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L2_2 = L1_2
   L1_2 = L1_2.F0AA93C9D949ACA08
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F47F07D625F4909F2
+  L4_2 = self
+  L5_2 = self.F47F07D625F4909F2
   L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FFBF23C8DE8293903"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.FrameInEvent
+function CD0570A53272BC5B1_prototype:FFBF23C8DE8293903(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L4_2 = A0_2[18]
+  L4_2 = self[18]
   if nil ~= L4_2 then
-    L4_2 = A0_2[18]
+    L4_2 = self[18]
     L4_2 = L4_2.length
     if 0 ~= L4_2 then
       goto lbl_9
@@ -1190,15 +1162,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
   do return end
   ::lbl_9::
-  L4_2 = A0_2[18]
+  L4_2 = self[18]
   L4_2 = L4_2[A1_2]
-  L6_2 = A0_2
-  L5_2 = A0_2.F2314CC369A85AC93
+  L6_2 = self
+  L5_2 = self.F2314CC369A85AC93
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   L6_2 = c8C3BF576
   L6_2 = L6_2.f316077B2
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L31_1.string
   L9_2 = L31_1.string
   L10_2 = ""
@@ -1278,7 +1250,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L10_2 = L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
   L11_2 = c8C3BF576
   L11_2 = L11_2.f316077B2
-  L12_2 = A0_2[1]
+  L12_2 = self[1]
   L13_2 = L31_1.string
   L14_2 = L31_1.string
   L15_2 = ""
@@ -1294,7 +1266,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L13_2 = L13_2 .. L14_2
   L14_2 = L10_2
   L11_2(L12_2, L13_2, L14_2)
-  L11_2 = A0_2[13]
+  L11_2 = self[13]
   L12_2 = L11_2
   L11_2 = L11_2.FA23D39922B76B247
   L13_2 = L31_1.string
@@ -1321,7 +1293,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L14_2 = L4_2
   L13_2, L14_2, L15_2, L16_2, L17_2 = L13_2(L14_2)
   L12_2 = L12_2(L13_2, L14_2, L15_2, L16_2, L17_2)
-  L13_2 = A0_2[1]
+  L13_2 = self[1]
   L14_2 = L31_1.string
   L15_2 = L31_1.string
   L16_2 = ""
@@ -1339,15 +1311,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L11_2(L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F296BBE54655C6496"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.DecideItemEvent
+function CD0570A53272BC5B1_prototype:F296BBE54655C6496(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2
-  L4_2 = A0_2[18]
+  L4_2 = self[18]
   if nil ~= L4_2 then
-    L4_2 = A0_2[18]
+    L4_2 = self[18]
     L4_2 = L4_2.length
     if 0 ~= L4_2 then
       goto lbl_9
@@ -1355,20 +1324,17 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
   do return end
   ::lbl_9::
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L5_2 = L4_2
   L4_2 = L4_2.FB43C999956771BE7
-  L6_2 = A0_2[18]
+  L6_2 = self[18]
   L6_2 = L6_2[A1_2]
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[6] = L4_2
+  self[6] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F3369DD7A624A0A8C"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.WazaRecollectSequence
+function CD0570A53272BC5B1_prototype:F3369DD7A624A0A8C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = C6E074861269A51A2
   L2_2 = L2_2.SB5C93A8891F98240
@@ -1377,7 +1343,7 @@ function L70_1(A0_2, A1_2)
   if L2_2 then
     L2_2 = C6E074861269A51A2
     L2_2 = L2_2.SB5C93A8891F98240
-    L3_2 = A0_2[8]
+    L3_2 = self[8]
     L2_2 = L2_2(L3_2)
     if L2_2 then
       goto lbl_14
@@ -1385,17 +1351,17 @@ function L70_1(A0_2, A1_2)
   end
   do return end
   ::lbl_14::
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.fEAF2F1A0
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if 0 == L2_2 then
-    L3_2 = A0_2[19]
+    L3_2 = self[19]
     L4_2 = L3_2
     L3_2 = L3_2.F923B921829013E3E
-    L5_2 = A0_2[1]
-    L6_2 = A0_2[8]
+    L5_2 = self[1]
+    L6_2 = self[8]
     L3_2(L4_2, L5_2, L6_2)
     while true do
       L3_2 = CF1D9D619D324F233
@@ -1415,7 +1381,7 @@ function L70_1(A0_2, A1_2)
     L4_2 = L3_2
     L3_2 = L3_2.fD499C005
     L5_2 = 0
-    L6_2 = A0_2[8]
+    L6_2 = self[8]
     L3_2(L4_2, L5_2, L6_2)
     L3_2 = C828F047963375FA0
     L3_2 = L3_2.S7F96B3B929C8C9AB
@@ -1511,8 +1477,8 @@ function L70_1(A0_2, A1_2)
     L6_2 = L6_2.S0447962DA9E61E54
     L7_2 = 2
     L6_2(L7_2)
-    L7_2 = A0_2
-    L6_2 = A0_2.F6D1EF40E74B6E9A4
+    L7_2 = self
+    L6_2 = self.F6D1EF40E74B6E9A4
     L6_2(L7_2)
   elseif 1 == L2_2 then
     L3_2 = C828F047963375FA0
@@ -1577,12 +1543,12 @@ function L70_1(A0_2, A1_2)
       L6_2 = L6_2.S760DAE4C5371A78E
       L6_2()
     end
-    L6_2 = A0_2[5]
+    L6_2 = self[5]
     L7_2 = L6_2
     L6_2 = L6_2.FE0EBB34B8A1B41AB
     L8_2 = false
     L6_2(L7_2, L8_2)
-    L6_2 = A0_2[13]
+    L6_2 = self[13]
     L7_2 = L6_2
     L6_2 = L6_2.FE744212C12ED8D05
     L6_2 = L6_2(L7_2)
@@ -1590,13 +1556,13 @@ function L70_1(A0_2, A1_2)
     L6_2 = L6_2.FAC63FB6628846950
     L8_2 = "out"
     L6_2(L7_2, L8_2)
-    L7_2 = A0_2
-    L6_2 = A0_2.F4EF8C88F156C14B4
-    L8_2 = A0_2[8]
+    L7_2 = self
+    L6_2 = self.F4EF8C88F156C14B4
+    L8_2 = self[8]
     L9_2 = A1_2
     L10_2 = 0
     L6_2(L7_2, L8_2, L9_2, L10_2)
-    L6_2 = A0_2[13]
+    L6_2 = self[13]
     L7_2 = L6_2
     L6_2 = L6_2.FE744212C12ED8D05
     L6_2 = L6_2(L7_2)
@@ -1604,13 +1570,13 @@ function L70_1(A0_2, A1_2)
     L6_2 = L6_2.FAC63FB6628846950
     L8_2 = "in"
     L6_2(L7_2, L8_2)
-    L6_2 = A0_2[5]
+    L6_2 = self[5]
     L7_2 = L6_2
     L6_2 = L6_2.FE0EBB34B8A1B41AB
     L8_2 = true
     L6_2(L7_2, L8_2)
-    L7_2 = A0_2
-    L6_2 = A0_2.F07A9C1198E970058
+    L7_2 = self
+    L6_2 = self.F07A9C1198E970058
     L8_2 = true
     L6_2(L7_2, L8_2)
   elseif 2 == L2_2 then
@@ -1618,15 +1584,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F47F07D625F4909F2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.CursorMoveEvent
+function CD0570A53272BC5B1_prototype:F47F07D625F4909F2(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2
-  L4_2 = A0_2[18]
+  L4_2 = self[18]
   if nil ~= L4_2 then
-    L4_2 = A0_2[18]
+    L4_2 = self[18]
     L4_2 = L4_2.length
     if 0 ~= L4_2 then
       goto lbl_9
@@ -1634,31 +1597,28 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
   do return end
   ::lbl_9::
-  L4_2 = A0_2[18]
+  L4_2 = self[18]
   L4_2 = L4_2[A1_2]
-  L6_2 = A0_2
-  L5_2 = A0_2.F7B3EC539E67C1305
+  L6_2 = self
+  L5_2 = self.F7B3EC539E67C1305
   L7_2 = L4_2
   L5_2(L6_2, L7_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F4D4BAA7708B0E3C0
+  L6_2 = self
+  L5_2 = self.F4D4BAA7708B0E3C0
   L7_2 = L4_2
   L5_2(L6_2, L7_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.FB1F3D9A18072994E
+  L6_2 = self
+  L5_2 = self.FB1F3D9A18072994E
   L7_2 = L4_2
   L5_2(L6_2, L7_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F799EB76A27A2C2D8
+  L6_2 = self
+  L5_2 = self.F799EB76A27A2C2D8
   L7_2 = L4_2
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F98DC29A282C39067"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.CancelWazaTeach
+function CD0570A53272BC5B1_prototype:F98DC29A282C39067()
   local L1_2, L2_2
   L1_2 = C3375B87767F844DD
   L1_2 = L1_2.S0447962DA9E61E54
@@ -1668,25 +1628,22 @@ function L70_1(A0_2)
   L1_2 = L1_2.S1464D6B1979B7A6A
   L2_2 = 3
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F6D1EF40E74B6E9A4
+  L2_2 = self
+  L1_2 = self.F6D1EF40E74B6E9A4
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F1DEC48E492198829"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.StartWazaRemember
+function CD0570A53272BC5B1_prototype:F1DEC48E492198829()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C6E074861269A51A2
   L1_2 = L1_2.SB5C93A8891F98240
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   L1_2 = L1_2(L2_2)
   if L1_2 then
     L1_2 = C6E074861269A51A2
     L1_2 = L1_2.SB5C93A8891F98240
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L1_2 = L1_2(L2_2)
     if L1_2 then
       goto lbl_14
@@ -1694,58 +1651,52 @@ function L70_1(A0_2)
   end
   do return end
   ::lbl_14::
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.fB788228B
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.FB9981BD2FA00B89E
   L3_2, L4_2, L5_2, L6_2, L7_2 = L3_2(L4_2)
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2)
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.F1DEC48E492198829
   L4_2 = L1_2
-  L5_2 = A0_2[9]
-  L6_2 = A0_2[5]
+  L5_2 = self[9]
+  L6_2 = self[5]
   L7_2 = L6_2
   L6_2 = L6_2.FB9981BD2FA00B89E
   L6_2, L7_2 = L6_2(L7_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-  A0_2[6] = L2_2
+  self[6] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FD0A446DECC2E30C5"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.CancelWazaRemember
+function CD0570A53272BC5B1_prototype:FD0A446DECC2E30C5(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C6E074861269A51A2
   L2_2 = L2_2.SB5C93A8891F98240
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L2_2 = L2_2(L3_2)
   if not L2_2 then
     return
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.FD0A446DECC2E30C5
-  L4_2 = A0_2[9]
+  L4_2 = self[9]
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[6] = L2_2
-  L2_2 = A0_2[5]
+  self[6] = L2_2
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FE0EBB34B8A1B41AB
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FF36AB2ED20E5AAC4"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.EndWazaRemember
+function CD0570A53272BC5B1_prototype:FF36AB2ED20E5AAC4(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A3_2 then
     A3_2 = 0
@@ -1767,12 +1718,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2, L7_2, L8_2, L9_2 = L6_2(L7_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
   if true == A1_2 then
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     L6_2 = L5_2
     L5_2 = L5_2.fB788228B
     L7_2 = A3_2
     L5_2 = L5_2(L6_2, L7_2)
-    L6_2 = A0_2[8]
+    L6_2 = self[8]
     L7_2 = L6_2
     L6_2 = L6_2.fC482D86E
     L8_2 = A3_2
@@ -1796,49 +1747,43 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = L5_2.S1464D6B1979B7A6A
   L6_2 = L4_2
   L5_2(L6_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F6D1EF40E74B6E9A4
+  L6_2 = self
+  L5_2 = self.F6D1EF40E74B6E9A4
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F535BBF6346F3B4CF"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.StartWazaForget
+function CD0570A53272BC5B1_prototype:F535BBF6346F3B4CF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C6E074861269A51A2
   L1_2 = L1_2.SB5C93A8891F98240
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     return
   end
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.fB788228B
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.FB9981BD2FA00B89E
   L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2)
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.F535BBF6346F3B4CF
   L4_2 = L1_2
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L5_2
   L5_2 = L5_2.FB9981BD2FA00B89E
   L5_2, L6_2 = L5_2(L6_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
-  A0_2[6] = L2_2
+  self[6] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F6305E9CCE031DCEA"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.EndWazaForget
+function CD0570A53272BC5B1_prototype:F6305E9CCE031DCEA(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A2_2 then
     A2_2 = 0
@@ -1846,7 +1791,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2 = 2
   L4_2 = nil
   if true == A1_2 then
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     L6_2 = L5_2
     L5_2 = L5_2.f6269FACE
     L5_2 = L5_2(L6_2)
@@ -1874,13 +1819,13 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = false
   end
   if L4_2 then
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     L6_2 = L5_2
     L5_2 = L5_2.fB788228B
     L7_2 = A2_2
     L5_2 = L5_2(L6_2, L7_2)
     L6_2 = A2_2
-    L7_2 = A0_2[8]
+    L7_2 = self[8]
     L8_2 = L7_2
     L7_2 = L7_2.f6269FACE
     L7_2 = L7_2(L8_2)
@@ -1888,17 +1833,17 @@ function L70_1(A0_2, A1_2, A2_2)
     while L6_2 < L7_2 do
       L6_2 = L6_2 + 1
       L8_2 = L6_2 - 1
-      L9_2 = A0_2[8]
+      L9_2 = self[8]
       L10_2 = L9_2
       L9_2 = L9_2.fBCB53160
       L11_2 = L8_2
       L12_2 = L8_2 + 1
       L9_2(L10_2, L11_2, L12_2)
     end
-    L8_2 = A0_2[8]
+    L8_2 = self[8]
     L9_2 = L8_2
     L8_2 = L8_2.f8F36C38E
-    L10_2 = A0_2[8]
+    L10_2 = self[8]
     L11_2 = L10_2
     L10_2 = L10_2.f6269FACE
     L10_2 = L10_2(L11_2)
@@ -1922,35 +1867,29 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2 = L5_2.S1464D6B1979B7A6A
   L6_2 = L3_2
   L5_2(L6_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F6D1EF40E74B6E9A4
+  L6_2 = self
+  L5_2 = self.F6D1EF40E74B6E9A4
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FEF3A554A610BEAAB"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.CancelWazaForget
+function CD0570A53272BC5B1_prototype:FEF3A554A610BEAAB()
   local L1_2, L2_2
   L1_2 = C3375B87767F844DD
   L1_2 = L1_2.S1464D6B1979B7A6A
   L2_2 = 2
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F6D1EF40E74B6E9A4
+  L2_2 = self
+  L1_2 = self.F6D1EF40E74B6E9A4
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F3DE4161DAED2D8D2"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.StartPokemonDiscuss
+function CD0570A53272BC5B1_prototype:F3DE4161DAED2D8D2()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C6E074861269A51A2
   L1_2 = L1_2.SB5C93A8891F98240
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     return
@@ -1958,31 +1897,28 @@ function L70_1(A0_2)
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.FEB4FE78B30E632BD
+  L3_2 = self
+  L4_2 = self.FEB4FE78B30E632BD
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "poke_discuss_sequence"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[6] = L1_2
+  self[6] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FEB4FE78B30E632BD"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.PokemonDiscussSequence
+function CD0570A53272BC5B1_prototype:FEB4FE78B30E632BD()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F07A9C1198E970058
+  L2_2 = self
+  L1_2 = self.F07A9C1198E970058
   L3_2 = false
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.FE0EBB34B8A1B41AB
   L3_2 = false
   L1_2(L2_2, L3_2)
   while true do
-    L1_2 = A0_2[13]
+    L1_2 = self[13]
     L2_2 = L1_2
     L1_2 = L1_2.F810D8446A8612992
     L3_2 = "L_soudan_00/soudan"
@@ -1996,25 +1932,25 @@ function L70_1(A0_2)
   end
   L1_2 = CA882C28639E07AF8
   L1_2 = L1_2.new
-  L2_2 = A0_2[8]
-  L3_2 = A0_2[9]
+  L2_2 = self[8]
+  L3_2 = self[9]
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = L1_2
   L1_2 = L1_2.FD4D831BDFEC7E51E
   L1_2 = L1_2(L2_2)
-  A0_2[10] = L1_2
+  self[10] = L1_2
   L1_2 = 0
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L2_2 = L2_2.length
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L4_2 = A0_2[11]
+    L4_2 = self[11]
     L4_2 = L4_2[L3_2]
-    L5_2 = A0_2[10]
-    L6_2 = A0_2[9]
+    L5_2 = self[10]
+    L6_2 = self[9]
     if L5_2 ~= L6_2 then
-      L5_2 = A0_2[13]
+      L5_2 = self[13]
       L6_2 = L5_2
       L5_2 = L5_2.FA23D39922B76B247
       L7_2 = L31_1.string
@@ -2030,13 +1966,13 @@ function L70_1(A0_2)
       L9_2 = "/N_select_line_00"
       L8_2 = L8_2(L9_2)
       L7_2 = L7_2 .. L8_2
-      L8_2 = A0_2[9]
+      L8_2 = self[9]
       L8_2 = L4_2 == L8_2
       L5_2(L6_2, L7_2, L8_2)
     end
-    L5_2 = A0_2[10]
+    L5_2 = self[10]
     if L4_2 == L5_2 then
-      L5_2 = A0_2[13]
+      L5_2 = self[13]
       L6_2 = L5_2
       L5_2 = L5_2.F748A3DCD68216D1D
       L7_2 = L31_1.string
@@ -2055,50 +1991,47 @@ function L70_1(A0_2)
       L5_2(L6_2, L7_2)
     end
   end
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.F3DE4161DAED2D8D2
-  L5_2 = A0_2[8]
-  L6_2 = A0_2[10]
-  L7_2 = A0_2[9]
+  L5_2 = self[8]
+  L6_2 = self[10]
+  L7_2 = self[9]
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F58132DAC91AC25DF"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.EndPokemonDiscuss
+function CD0570A53272BC5B1_prototype:F58132DAC91AC25DF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = 2
-  L2_2 = A0_2[10]
-  L3_2 = A0_2[9]
+  L2_2 = self[10]
+  L3_2 = self[9]
   if L2_2 ~= L3_2 then
     L2_2 = -1
     L3_2 = 0
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     L5_2 = L4_2
     L4_2 = L4_2.f6269FACE
     L4_2 = L4_2(L5_2)
     while L3_2 < L4_2 do
       L3_2 = L3_2 + 1
       L5_2 = L3_2 - 1
-      L6_2 = A0_2[8]
+      L6_2 = self[8]
       L7_2 = L6_2
       L6_2 = L6_2.fB788228B
       L8_2 = L5_2
       L6_2 = L6_2(L7_2, L8_2)
-      L7_2 = A0_2[10]
+      L7_2 = self[10]
       if L6_2 == L7_2 then
         L2_2 = L5_2
         break
       end
     end
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     L6_2 = L5_2
     L5_2 = L5_2.fC482D86E
     L7_2 = L2_2
-    L8_2 = A0_2[9]
+    L8_2 = self[9]
     L5_2(L6_2, L7_2, L8_2)
     L1_2 = 1
     L5_2 = C3375B87767F844DD
@@ -2109,9 +2042,9 @@ function L70_1(A0_2)
     L8_2.overWriteID = true
     L8_2.forgetID = true
     L7_2.__fields__ = L8_2
-    L8_2 = A0_2[9]
+    L8_2 = self[9]
     L7_2.overWriteID = L8_2
-    L8_2 = A0_2[10]
+    L8_2 = self[10]
     L7_2.forgetID = L8_2
     L6_2, L7_2, L8_2 = L6_2(L7_2)
     L5_2(L6_2, L7_2, L8_2)
@@ -2129,7 +2062,7 @@ function L70_1(A0_2)
     L5_2.overWriteID = true
     L5_2.forgetID = true
     L4_2.__fields__ = L5_2
-    L5_2 = A0_2[9]
+    L5_2 = self[9]
     L4_2.overWriteID = L5_2
     L4_2.forgetID = 0
     L3_2, L4_2, L5_2, L6_2, L7_2, L8_2 = L3_2(L4_2)
@@ -2139,26 +2072,23 @@ function L70_1(A0_2)
   L2_2 = L2_2.S1464D6B1979B7A6A
   L3_2 = L1_2
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F6D1EF40E74B6E9A4
+  L3_2 = self
+  L2_2 = self.F6D1EF40E74B6E9A4
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F468C8FB4EC36F0D6"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.CancelPokemonDiscuss
+function CD0570A53272BC5B1_prototype:F468C8FB4EC36F0D6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = 0
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L2_2 = L2_2.length
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L4_2 = A0_2[11]
+    L4_2 = self[11]
     L4_2 = L4_2[L3_2]
-    L5_2 = A0_2[13]
+    L5_2 = self[13]
     L6_2 = L5_2
     L5_2 = L5_2.FB17D75E020F3DBFB
     L7_2 = L31_1.string
@@ -2176,7 +2106,7 @@ function L70_1(A0_2)
     L7_2 = L7_2 .. L8_2
     L5_2 = L5_2(L6_2, L7_2)
     if L5_2 then
-      L5_2 = A0_2[13]
+      L5_2 = self[13]
       L6_2 = L5_2
       L5_2 = L5_2.FA23D39922B76B247
       L7_2 = L31_1.string
@@ -2195,9 +2125,9 @@ function L70_1(A0_2)
       L8_2 = false
       L5_2(L6_2, L7_2, L8_2)
     end
-    L5_2 = A0_2[10]
+    L5_2 = self[10]
     if L4_2 == L5_2 then
-      L5_2 = A0_2[13]
+      L5_2 = self[13]
       L6_2 = L5_2
       L5_2 = L5_2.F748A3DCD68216D1D
       L7_2 = L31_1.string
@@ -2216,30 +2146,27 @@ function L70_1(A0_2)
       L5_2(L6_2, L7_2)
     end
   end
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L4_2 = L3_2
   L3_2 = L3_2.F25CFEB0E023C588F
   L5_2 = "L_soudan_00/soudan"
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.FE0EBB34B8A1B41AB
   L5_2 = true
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F07A9C1198E970058
+  L4_2 = self
+  L3_2 = self.F07A9C1198E970058
   L5_2 = true
   L3_2(L4_2, L5_2)
-  A0_2[14] = 1
+  self[14] = 1
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F07A9C1198E970058"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.SetGridPanelEnable
+function CD0570A53272BC5B1_prototype:F07A9C1198E970058(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FC0778FCF6261E1D6
   L2_2 = L2_2(L3_2)
@@ -2248,7 +2175,7 @@ function L70_1(A0_2, A1_2)
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   if A1_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L2_2
     L2_2 = L2_2.FC0778FCF6261E1D6
     L2_2 = L2_2(L3_2)
@@ -2256,7 +2183,7 @@ function L70_1(A0_2, A1_2)
     L2_2 = L2_2.f6F06128C
     L2_2(L3_2)
   else
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L2_2
     L2_2 = L2_2.FC0778FCF6261E1D6
     L2_2 = L2_2(L3_2)
@@ -2266,34 +2193,25 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FA26178851D4E78C1"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.BackSelectMode
+function CD0570A53272BC5B1_prototype:FA26178851D4E78C1()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.FE0EBB34B8A1B41AB
   L3_2 = true
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F5012D8AAF254701F"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.GetPokeParam
+function CD0570A53272BC5B1_prototype:F5012D8AAF254701F()
   local L1_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FAED06C15DD4BE55A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.IsCoroutineResume
+function CD0570A53272BC5B1_prototype:FAED06C15DD4BE55A(A1_2)
   local L2_2, L3_2
   if nil == A1_2 then
     L2_2 = false
@@ -2311,17 +2229,14 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FF5AA6DCD138E1B8F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.OnCursorMove
+function CD0570A53272BC5B1_prototype:FF5AA6DCD138E1B8F(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C6E074861269A51A2
   L2_2 = L2_2.S12755407BDA305C4
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.FB1C0120DE753161A
+  L4_2 = self
+  L5_2 = self.FB1C0120DE753161A
   L3_2 = L3_2(L4_2, L5_2)
   
   function L4_2(A0_3)
@@ -2333,17 +2248,14 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FA27DDDB196FD8024"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.OnDecideButton
+function CD0570A53272BC5B1_prototype:FA27DDDB196FD8024()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C6E074861269A51A2
   L1_2 = L1_2.SB5C93A8891F98240
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.FEE2A02CA039A2081
+  L3_2 = self
+  L4_2 = self.FEE2A02CA039A2081
   L2_2, L3_2, L4_2, L5_2 = L2_2(L3_2, L4_2)
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2)
   if not L1_2 then
@@ -2352,8 +2264,8 @@ function L70_1(A0_2)
   L1_2 = C6E074861269A51A2
   L1_2 = L1_2.S7C107A0FC15F1400
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.FEE2A02CA039A2081
+  L3_2 = self
+  L4_2 = self.FEE2A02CA039A2081
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "DecideButtonListener is null"
   L1_2 = L1_2(L2_2, L3_2)
@@ -2363,8 +2275,8 @@ function L70_1(A0_2)
   L4_2.uiView = true
   L4_2.cursorIndex = true
   L3_2.__fields__ = L4_2
-  L3_2.uiView = A0_2
-  L4_2 = A0_2[5]
+  L3_2.uiView = self
+  L4_2 = self[5]
   L5_2 = L4_2
   L4_2 = L4_2.FB9981BD2FA00B89E
   L4_2 = L4_2(L5_2)
@@ -2373,17 +2285,14 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FC2168F2796A05732"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.OnCancelButton
+function CD0570A53272BC5B1_prototype:FC2168F2796A05732()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C6E074861269A51A2
   L1_2 = L1_2.S12755407BDA305C4
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F33D46ED9071B613B
+  L3_2 = self
+  L4_2 = self.F33D46ED9071B613B
   L2_2 = L2_2(L3_2, L4_2)
   
   function L3_2(A0_3)
@@ -2391,22 +2300,19 @@ function L70_1(A0_2)
   end
   
   L1_2 = L1_2(L2_2, L3_2)
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F8A13EF1090A38E4C"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.OnXButton
+function CD0570A53272BC5B1_prototype:F8A13EF1090A38E4C()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C6E074861269A51A2
   L2_2 = L2_2.S12755407BDA305C4
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F6795F4F50A7DF617
+  L4_2 = self
+  L5_2 = self.F6795F4F50A7DF617
   L3_2 = L3_2(L4_2, L5_2)
   
   function L4_2(A0_3)
@@ -2418,31 +2324,28 @@ function L70_1(A0_2)
   end
   
   L2_2 = L2_2(L3_2, L4_2)
-  L3_2 = A0_2
+  L3_2 = self
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F4A24CA2EFA25DF86"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.ViewSkillName
+function CD0570A53272BC5B1_prototype:F4A24CA2EFA25DF86(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L2_2 = 0
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[11]
+    L5_2 = self[11]
     L5_2 = L5_2[L4_2]
-    L7_2 = A0_2
-    L6_2 = A0_2.F2314CC369A85AC93
+    L7_2 = self
+    L6_2 = self.F2314CC369A85AC93
     L8_2 = L5_2
     L6_2 = L6_2(L7_2, L8_2)
     L7_2 = c8C3BF576
     L7_2 = L7_2.f316077B2
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L9_2 = L31_1.string
     L10_2 = L31_1.string
     L11_2 = "L_btn_skill_0"
@@ -2516,7 +2419,7 @@ function L70_1(A0_2, A1_2)
     L11_2 = L11_2(L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2)
     L12_2 = c8C3BF576
     L12_2 = L12_2.f316077B2
-    L13_2 = A0_2[1]
+    L13_2 = self[1]
     L14_2 = L31_1.string
     L15_2 = L31_1.string
     L16_2 = "L_btn_skill_0"
@@ -2532,8 +2435,8 @@ function L70_1(A0_2, A1_2)
     L14_2 = L14_2 .. L15_2
     L15_2 = L11_2
     L12_2(L13_2, L14_2, L15_2)
-    L13_2 = A0_2
-    L12_2 = A0_2.F87512A63C3A39E9C
+    L13_2 = self
+    L12_2 = self.F87512A63C3A39E9C
     L14_2 = L31_1.string
     L15_2 = L31_1.string
     L16_2 = "L_btn_skill_0"
@@ -2553,7 +2456,7 @@ function L70_1(A0_2, A1_2)
     L16_2 = L16_2.max
     L15_2 = L15_2 / L16_2
     L12_2(L13_2, L14_2, L15_2)
-    L12_2 = A0_2[13]
+    L12_2 = self[13]
     L13_2 = L12_2
     L12_2 = L12_2.FA23D39922B76B247
     L14_2 = L31_1.string
@@ -2569,7 +2472,7 @@ function L70_1(A0_2, A1_2)
     L16_2 = "/L_new_00"
     L15_2 = L15_2(L16_2)
     L14_2 = L14_2 .. L15_2
-    L15_2 = A0_2[9]
+    L15_2 = self[9]
     L15_2 = L5_2 == L15_2
     L12_2(L13_2, L14_2, L15_2)
     L12_2 = C56064F8EC2EC133B
@@ -2581,7 +2484,7 @@ function L70_1(A0_2, A1_2)
     L15_2 = L5_2
     L14_2, L15_2, L16_2, L17_2, L18_2 = L14_2(L15_2)
     L13_2 = L13_2(L14_2, L15_2, L16_2, L17_2, L18_2)
-    L14_2 = A0_2[1]
+    L14_2 = self[1]
     L15_2 = L31_1.string
     L16_2 = L31_1.string
     L17_2 = "L_btn_skill_0"
@@ -2600,14 +2503,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F87512A63C3A39E9C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.SetWazaNameColor
+function CD0570A53272BC5B1_prototype:F87512A63C3A39E9C(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if 0 == A2_2 then
-    L3_2 = A0_2[13]
+    L3_2 = self[13]
     L4_2 = L3_2
     L3_2 = L3_2.FB6D1FE1B1E10C33D
     L3_2 = L3_2(L4_2)
@@ -2620,7 +2520,7 @@ function L70_1(A0_2, A1_2, A2_2)
   end
   L3_2 = 0.25
   if A2_2 <= L3_2 then
-    L3_2 = A0_2[13]
+    L3_2 = self[13]
     L4_2 = L3_2
     L3_2 = L3_2.FB6D1FE1B1E10C33D
     L3_2 = L3_2(L4_2)
@@ -2633,7 +2533,7 @@ function L70_1(A0_2, A1_2, A2_2)
   end
   L3_2 = 0.5
   if A2_2 <= L3_2 then
-    L3_2 = A0_2[13]
+    L3_2 = self[13]
     L4_2 = L3_2
     L3_2 = L3_2.FB6D1FE1B1E10C33D
     L3_2 = L3_2(L4_2)
@@ -2644,7 +2544,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L3_2(L4_2, L5_2, L6_2)
     return
   end
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L4_2 = L3_2
   L3_2 = L3_2.FB6D1FE1B1E10C33D
   L3_2 = L3_2(L4_2)
@@ -2655,11 +2555,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F2314CC369A85AC93"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.SetSkillName
+function CD0570A53272BC5B1_prototype:F2314CC369A85AC93(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cB3DDDC2A
   L2_2 = L2_2.f5B6373D5
@@ -2682,11 +2579,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F7B3EC539E67C1305"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.ViewSkillInfo
+function CD0570A53272BC5B1_prototype:F7B3EC539E67C1305(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.fC8CEF9EF
@@ -2711,21 +2605,18 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = c8C3BF576
   L3_2 = L3_2.f316077B2
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = "T_skill_detail_param_00"
   L6_2 = L2_2
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "FB1F3D9A18072994E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.ViewSkillClassIcon
+function CD0570A53272BC5B1_prototype:FB1F3D9A18072994E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "T_class_name_00"
   L5_2 = "waza_remember"
   L6_2 = "msg_ui_waza_bunlui"
@@ -2734,7 +2625,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.f4E9A07C5
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L4_2 = L3_2
   L3_2 = L3_2.FB6D1FE1B1E10C33D
   L3_2 = L3_2(L4_2)
@@ -2747,15 +2638,12 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F4D4BAA7708B0E3C0"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.ViewSkillDamage
+function CD0570A53272BC5B1_prototype:F4D4BAA7708B0E3C0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "T_damage_name_00"
   L5_2 = "waza_remember"
   L6_2 = "msg_ui_waza_waza_power_00"
@@ -2800,21 +2688,18 @@ function L70_1(A0_2, A1_2)
   end
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = "T_damage_param_00"
   L7_2 = L3_2
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F799EB76A27A2C2D8"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.ViewSkillHitrate
+function CD0570A53272BC5B1_prototype:F799EB76A27A2C2D8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "T_hitrate_name_00"
   L5_2 = "waza_remember"
   L6_2 = "msg_ui_waza_waza_hit_00"
@@ -2847,17 +2732,14 @@ function L70_1(A0_2, A1_2)
   end
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = "T_hitrate_param_00"
   L7_2 = L3_2
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F1C9CF28834043D07"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.SetOptionBar
+function CD0570A53272BC5B1_prototype:F1C9CF28834043D07()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S5E67FD00348A0A28
@@ -2878,11 +2760,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0570A53272BC5B1"]["prototype"]
-L69_1 = "F6D1EF40E74B6E9A4"
-
-function L70_1(A0_2)
+--- main.ui.waza_remember.view.WazaRememberUIView.Terminate
+function CD0570A53272BC5B1_prototype:F6D1EF40E74B6E9A4()
   local L1_2, L2_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S5E67FD00348A0A28
@@ -2890,7 +2769,7 @@ function L70_1(A0_2)
   L1_2 = C3375B87767F844DD
   L1_2 = L1_2.S10033E5846738FAF
   L1_2()
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CA1F5014C1C7F3381"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]
-L69_1 = "new"
+---@alias CA1F5014C1C7F3381 main_ui_shop_ShopUIManager
 
-function L70_1(A0_2)
+---@class main_ui_shop_ShopUIManager : CA1F5014C1C7F3381_prototype
+---@field prototype CA1F5014C1C7F3381_prototype
+CA1F5014C1C7F3381 = L15_1()
+function CA1F5014C1C7F3381.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CA1F5014C1C7F3381
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CA1F5014C1C7F3381
+function CA1F5014C1C7F3381.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,44 +36,32 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CA1F5014C1C7F3381"]
 L69_1 = "__name__"
 L70_1 = "CA1F5014C1C7F3381"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]
-L69_1 = "SAE728AF193086C55"
-
-function L70_1()
+--- main.ui.shop.ShopUIManager.get_isEnd
+function CA1F5014C1C7F3381.SAE728AF193086C55()
   local L0_2, L1_2
   L0_2 = CA1F5014C1C7F3381
   L0_2 = L0_2.SD63B5A0CCE93091A
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]
-L69_1 = "SD442E89A59951310"
-
-function L70_1()
+--- main.ui.shop.ShopUIManager.get_isShopStart
+function CA1F5014C1C7F3381.SD442E89A59951310()
   local L0_2, L1_2
   L0_2 = CA1F5014C1C7F3381
   L0_2 = L0_2.S32992520756C1BED
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]
-L69_1 = "SF315D0B46DE7EE62"
-
-function L70_1()
+--- main.ui.shop.ShopUIManager.SF315D0B46DE7EE62
+function CA1F5014C1C7F3381.SF315D0B46DE7EE62()
   local L0_2, L1_2
   L0_2 = CA1F5014C1C7F3381
   L0_2 = L0_2.S3AAD0A54433C9371
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]
-L69_1 = "SC22C2773A68837D3"
-
-function L70_1()
+--- main.ui.shop.ShopUIManager.SceneLoad
+function CA1F5014C1C7F3381.SC22C2773A68837D3()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -105,11 +87,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]
-L69_1 = "S21385509F30B97C5"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop.ShopUIManager.SetShopStart
+function CA1F5014C1C7F3381.S21385509F30B97C5(A0_2, A1_2, A2_2)
   local L3_2
   if nil == A2_2 then
     A2_2 = false
@@ -124,11 +103,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2.S3AAD0A54433C9371 = A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]
-L69_1 = "SF8D8FFC774DA1818"
-
-function L70_1()
+--- main.ui.shop.ShopUIManager.SceneUnload
+function CA1F5014C1C7F3381.SF8D8FFC774DA1818()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -152,31 +128,22 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]
-L69_1 = "SBCB3159E22AE1F58"
-
-function L70_1(A0_2)
+--- main.ui.shop.ShopUIManager.RegisterOnBuyCallBack
+function CA1F5014C1C7F3381.SBCB3159E22AE1F58(A0_2)
   local L1_2
   L1_2 = CA1F5014C1C7F3381
   L1_2.SB4E557E5D7E7C735 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]
-L69_1 = "S28B6B4DC689ED9A5"
-
-function L70_1(A0_2)
+--- main.ui.shop.ShopUIManager.RegisterOnSaleCallBack
+function CA1F5014C1C7F3381.S28B6B4DC689ED9A5(A0_2)
   local L1_2
   L1_2 = CA1F5014C1C7F3381
   L1_2.S914A69003DDCDF42 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]
-L69_1 = "S9853C398B33B8A3B"
-
-function L70_1()
+--- main.ui.shop.ShopUIManager.OnBuyCallBack
+function CA1F5014C1C7F3381.S9853C398B33B8A3B()
   local L0_2, L1_2
   L0_2 = CA1F5014C1C7F3381
   L0_2 = L0_2.SB4E557E5D7E7C735
@@ -187,11 +154,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]
-L69_1 = "S2A53B65021838194"
-
-function L70_1()
+--- main.ui.shop.ShopUIManager.OnSaleCallBack
+function CA1F5014C1C7F3381.S2A53B65021838194()
   local L0_2, L1_2
   L0_2 = CA1F5014C1C7F3381
   L0_2 = L0_2.S914A69003DDCDF42
@@ -202,44 +166,36 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CA1F5014C1C7F3381_prototype
+CA1F5014C1C7F3381_prototype = L15_1()
+CA1F5014C1C7F3381.prototype = CA1F5014C1C7F3381_prototype
+--- main.ui.shop.ShopUIManager.Setup
+function CA1F5014C1C7F3381_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.new
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F0E47A597FB435DB7
+  L4_2 = self
+  L5_2 = self.F0E47A597FB435DB7
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = "shop_setup_sequence"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ui.shop.ShopUIManager.Destroy
+function CA1F5014C1C7F3381_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = CA1F5014C1C7F3381
   L1_2.SC9B82A2EBC687A36 = nil
@@ -251,21 +207,18 @@ function L70_1(A0_2)
   L1_2.S3AAD0A54433C9371 = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.ShopUIManager.PreUpdate
+function CA1F5014C1C7F3381_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -313,25 +266,22 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]["prototype"]
-L69_1 = "F0E47A597FB435DB7"
-
-function L70_1(A0_2)
+--- main.ui.shop.ShopUIManager.SetupSequence
+function CA1F5014C1C7F3381_prototype:F0E47A597FB435DB7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = C7722B773F913A809
   L1_2 = L1_2.new
   L1_2 = L1_2()
   L3_2 = L1_2
   L2_2 = L1_2.F0E47A597FB435DB7
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.f462C9B70
   L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L4_2(L5_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
   L2_2 = CCC490B7ED6327909
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f462C9B70
   L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L3_2(L4_2)
@@ -339,8 +289,8 @@ function L70_1(A0_2)
   L4_2 = L2_2
   L3_2 = L2_2.F0E47A597FB435DB7
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FD1F2FC5D6118742C
+  L4_2 = self
+  L3_2 = self.FD1F2FC5D6118742C
   L5_2 = nil
   L6_2 = "shop_ui"
   L3_2 = L3_2(L4_2, L5_2, L6_2)
@@ -396,7 +346,7 @@ function L70_1(A0_2)
   else
     L4_2 = CCC490B7ED6327909
     L4_2 = L4_2.new
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.f462C9B70
     L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L5_2(L6_2)
@@ -433,16 +383,13 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]["prototype"]
-L69_1 = "FB61F64E2486E1EC3"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.ShopUIManager.GetSceneObjectSequence
+function CA1F5014C1C7F3381_prototype:FB61F64E2486E1EC3(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F155F52A5852449F8
+  L3_2 = self
+  L2_2 = self.F155F52A5852449F8
   L2_2(L3_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f462C9B70
   L2_2 = L2_2(L3_2)
@@ -463,14 +410,11 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]["prototype"]
-L69_1 = "FD1F2FC5D6118742C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop.ShopUIManager.GetBehaviorSequence
+function CA1F5014C1C7F3381_prototype:FD1F2FC5D6118742C(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F155F52A5852449F8
+  L4_2 = self
+  L3_2 = self.F155F52A5852449F8
   L3_2(L4_2)
   L3_2 = nil
   L4_2 = nil
@@ -483,8 +427,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L3_2 = A1_2
   end
   if nil ~= A2_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.FB61F64E2486E1EC3
+    L6_2 = self
+    L5_2 = self.FB61F64E2486E1EC3
     L7_2 = A2_2
     L5_2 = L5_2(L6_2, L7_2)
     L3_2 = L5_2
@@ -522,14 +466,11 @@ function L70_1(A0_2, A1_2, A2_2)
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1F5014C1C7F3381"]["prototype"]
-L69_1 = "F155F52A5852449F8"
-
-function L70_1(A0_2)
+--- main.ui.shop.ShopUIManager.WaitSceneSetupSequence
+function CA1F5014C1C7F3381_prototype:F155F52A5852449F8()
   local L1_2, L2_2
   while true do
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.f462C9B70
     L1_2 = L1_2(L2_2)
@@ -544,7 +485,7 @@ function L70_1(A0_2)
     L1_2()
   end
   while true do
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.f462C9B70
     L1_2 = L1_2(L2_2)

@@ -1,3 +1,7 @@
+---@alias C6F248004882A49B8 main_env_weather_happening_WeatherHappeningManager
+
+---@class main_env_weather_happening_WeatherHappeningManager : C6F248004882A49B8_prototype
+---@field prototype C6F248004882A49B8_prototype
 L55_1 = _ENV
 L56_1 = "CF4B11725315D9ED4"
 L57_1 = L15_1
@@ -42,11 +46,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF4B11725315D9ED4"]
 L69_1 = "__name__"
 L70_1 = "CF4B11725315D9ED4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF4B11725315D9ED4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C6F248004882A49B8_prototype
+C6F248004882A49B8_prototype = L15_1()
+C6F248004882A49B8.prototype = C6F248004882A49B8_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF4B11725315D9ED4"]["prototype"]
 L69_1 = _ENV["CF4B11725315D9ED4"]

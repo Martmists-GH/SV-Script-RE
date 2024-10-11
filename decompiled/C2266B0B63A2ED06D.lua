@@ -1,3 +1,7 @@
+---@alias C2266B0B63A2ED06D main_ui_ymap_mapicon_YMapIconInfoArray
+
+---@class main_ui_ymap_mapicon_YMapIconInfoArray : C2266B0B63A2ED06D_prototype
+---@field prototype C2266B0B63A2ED06D_prototype
 L55_1 = _ENV
 L56_1 = "C2266B0B63A2ED06D"
 L57_1 = L15_1
@@ -47,32 +51,24 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2266B0B63A2ED06D"]
 L69_1 = "__name__"
 L70_1 = "C2266B0B63A2ED06D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2)
+---@class C2266B0B63A2ED06D_prototype
+C2266B0B63A2ED06D_prototype = L15_1()
+C2266B0B63A2ED06D.prototype = C2266B0B63A2ED06D_prototype
+--- main.ui.ymap.mapicon.YMapIconInfoArray.Init
+function C2266B0B63A2ED06D_prototype:F90BBC6B0190BF053()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.resize
   L3_2 = 0
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "FF3EE2A2BAE193057"
-
-function L70_1(A0_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.FF3EE2A2BAE193057
+function C2266B0B63A2ED06D_prototype:FF3EE2A2BAE193057()
   local L1_2, L2_2, L3_2
   L1_2 = L27_1.filter
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   
   function L3_2(A0_3)
     local L1_3
@@ -82,26 +78,23 @@ function L70_1(A0_2)
   end
   
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[1] = L1_2
+  self[1] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F87B9F13F0DA88B57"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.IsValidIndex
+function C2266B0B63A2ED06D_prototype:F87B9F13F0DA88B57(A1_2)
   local L2_2
   if -1 == A1_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.length
   if 0 == L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.length
   if A1_2 >= L2_2 then
     L2_2 = false
@@ -111,60 +104,54 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F1543358A9D79F82C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.AddIconLayoutArray
+function C2266B0B63A2ED06D_prototype:F1543358A9D79F82C(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = false
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F18400FDDB8FE5C8D
+  L4_2 = self
+  L3_2 = self.F18400FDDB8FE5C8D
   L5_2 = A1_2.ID
   L6_2 = A2_2
   L3_2 = L3_2(L4_2, L5_2, L6_2)
   if -1 == L3_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.FA8EE872889428C67
+    L5_2 = self
+    L4_2 = self.FA8EE872889428C67
     L4_2 = L4_2(L5_2)
     L3_2 = L4_2
     if -1 == L3_2 then
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L3_2 = L4_2.length
     end
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2[L3_2] = A1_2
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F18400FDDB8FE5C8D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.findIdIconLayoutArray
+function C2266B0B63A2ED06D_prototype:F18400FDDB8FE5C8D(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = false
   end
   L3_2 = 0
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2.length
   L5_2 = false
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L6_2 = L3_2 - 1
     if not A2_2 then
-      L7_2 = A0_2[1]
+      L7_2 = self[1]
       L7_2 = L7_2[L6_2]
       L7_2 = L7_2.IsValid
       if false == L7_2 then
         goto lbl_27
       end
     end
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L7_2 = L7_2[L6_2]
     L7_2 = L7_2.ID
     if L7_2 == A1_2 then
@@ -180,19 +167,16 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "FA8EE872889428C67"
-
-function L70_1(A0_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.findInValidIndex
+function C2266B0B63A2ED06D_prototype:FA8EE872889428C67()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.length
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L4_2 = L4_2[L3_2]
     L4_2 = L4_2.IsValid
     if false == L4_2 then
@@ -203,32 +187,29 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F34EACB75C7FE613A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.F34EACB75C7FE613A
+function C2266B0B63A2ED06D_prototype:F34EACB75C7FE613A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if -1 == A1_2 then
     L2_2 = -1
     return L2_2
   end
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   L4_2 = false
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L5_2 = L2_2 - 1
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[L5_2]
     L6_2 = L6_2.IsValid
     if false ~= L6_2 then
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L6_2 = L6_2[L5_2]
       L6_2 = L6_2.groupKind
       if 1 == L6_2 then
-        L6_2 = A0_2[1]
+        L6_2 = self[1]
         L6_2 = L6_2[L5_2]
         L6_2 = L6_2.GroupKindDataArrayIndex
         if L6_2 == A1_2 then
@@ -245,74 +226,62 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F76F91BE3FC3F75B5"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.F76F91BE3FC3F75B5
+function C2266B0B63A2ED06D_prototype:F76F91BE3FC3F75B5(A1_2)
   local L2_2, L3_2, L4_2
   if -1 == A1_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F4A6C2DACAEC35855
-  L4_2 = A0_2[1]
+  L3_2 = self
+  L2_2 = self.F4A6C2DACAEC35855
+  L4_2 = self[1]
   L4_2 = L4_2[A1_2]
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F4A6C2DACAEC35855"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.EraseData
+function C2266B0B63A2ED06D_prototype:F4A6C2DACAEC35855(A1_2)
   A1_2.IsValid = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F2772CE6FFE189C5C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.F2772CE6FFE189C5C
+function C2266B0B63A2ED06D_prototype:F2772CE6FFE189C5C(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F18400FDDB8FE5C8D
+  L4_2 = self
+  L3_2 = self.F18400FDDB8FE5C8D
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   if -1 == L3_2 then
     return
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2[L3_2]
   L4_2 = L4_2.kind
   if 5 ~= L4_2 then
     return
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F76F91BE3FC3F75B5
+  L5_2 = self
+  L4_2 = self.F76F91BE3FC3F75B5
   L6_2 = L3_2
   L4_2(L5_2, L6_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F3CE004D294D1B8CD
+  L5_2 = self
+  L4_2 = self.F3CE004D294D1B8CD
   L6_2 = L3_2
   L7_2 = false
   L8_2 = A2_2
   L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F67F4F34892ABCAB1"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.InvisibleAllIconLayoutArray
+function C2266B0B63A2ED06D_prototype:F67F4F34892ABCAB1(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
-    L5_2 = A0_2
-    L4_2 = A0_2.F3CE004D294D1B8CD
+    L5_2 = self
+    L4_2 = self.F3CE004D294D1B8CD
     L6_2 = L2_2 - 1
     L7_2 = false
     L8_2 = A1_2
@@ -320,35 +289,29 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F3CE004D294D1B8CD"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.F3CE004D294D1B8CD
+function C2266B0B63A2ED06D_prototype:F3CE004D294D1B8CD(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F87B9F13F0DA88B57
+  L5_2 = self
+  L4_2 = self.F87B9F13F0DA88B57
   L6_2 = A1_2
   L4_2 = L4_2(L5_2, L6_2)
   if false == L4_2 then
     return
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2[A1_2]
   L4_2.IsVisiable = A2_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FA040FBA0388D3F8E
-  L6_2 = A0_2[1]
+  L5_2 = self
+  L4_2 = self.FA040FBA0388D3F8E
+  L6_2 = self[1]
   L6_2 = L6_2[A1_2]
   L7_2 = A3_2
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "FA040FBA0388D3F8E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.FA040FBA0388D3F8E
+function C2266B0B63A2ED06D_prototype:FA040FBA0388D3F8E(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = A1_2.paneNameInfo
   L3_2 = L3_2.valid
@@ -426,19 +389,16 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2 = A1_2.IsVisiable
   if false == L3_2 then
     A1_2.IconState = 0
-    L4_2 = A0_2
-    L3_2 = A0_2.F47EA9B525154D782
+    L4_2 = self
+    L3_2 = self.F47EA9B525154D782
     L5_2 = A1_2
     L6_2 = A2_2
     L3_2(L4_2, L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F47EA9B525154D782"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.F47EA9B525154D782
+function C2266B0B63A2ED06D_prototype:F47EA9B525154D782(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = A1_2.paneNameInfo
   L3_2 = L3_2.valid
@@ -460,8 +420,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L6_2 = true
     L3_2(L4_2, L5_2, L6_2)
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F13CC71D6D2336E38
+  L4_2 = self
+  L3_2 = self.F13CC71D6D2336E38
   L5_2 = A1_2
   L6_2 = A2_2
   L3_2(L4_2, L5_2, L6_2)
@@ -477,11 +437,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F13CC71D6D2336E38"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.F13CC71D6D2336E38
+function C2266B0B63A2ED06D_prototype:F13CC71D6D2336E38(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = A1_2.addonPaneNameInfo
   L3_2 = L3_2.valid
@@ -505,19 +462,16 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F029645D70094AFD2"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.SetNaviTarget
+function C2266B0B63A2ED06D_prototype:F029645D70094AFD2(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if -1 == A1_2 then
     return
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[A1_2]
   L3_2.IsNaviTarget = A2_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[A1_2]
   L4_2 = {}
   L5_2 = 0
@@ -529,32 +483,26 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2.LastLayoutPos = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "FB1F116EF4D05480E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.GetDataByIndex
+function C2266B0B63A2ED06D_prototype:FB1F116EF4D05480E(A1_2)
   local L2_2
   if A1_2 < 0 then
     L2_2 = nil
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.length
   if A1_2 >= L2_2 then
     L2_2 = nil
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[A1_2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F79CB4638754DB3C8"
-
-function L70_1(A0_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.GetDefaultData
+function C2266B0B63A2ED06D_prototype:F79CB4638754DB3C8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L16_1
   L2_2 = {}
@@ -684,11 +632,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F6989296E4DCD066C"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.F6989296E4DCD066C
+function C2266B0B63A2ED06D_prototype:F6989296E4DCD066C(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   if nil == A3_2 then
     A3_2 = false
@@ -716,21 +661,21 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L9_2 = L9_2.SFE866B6820CC37E8
   L9_2 = L9_2()
   L8_2 = L8_2 * L9_2
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   if L9_2 ~= A2_2 then
     L9_2 = L26_1.new
     L9_2 = L9_2()
-    A0_2[2] = L9_2
-    A0_2[5] = A2_2
+    self[2] = L9_2
+    self[5] = A2_2
   end
   L9_2 = 0
-  L10_2 = A0_2[1]
+  L10_2 = self[1]
   L10_2 = L10_2.length
   L11_2 = false
   while L9_2 < L10_2 do
     L9_2 = L9_2 + 1
     L12_2 = L9_2 - 1
-    L13_2 = A0_2[1]
+    L13_2 = self[1]
     L13_2 = L13_2[L12_2]
     L14_2 = L13_2.IsValid
     if false ~= L14_2 then
@@ -805,8 +750,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L13_2 = L13_2(L14_2, L15_2)
   L14_2 = 0
   while true do
-    L16_2 = A0_2
-    L15_2 = A0_2.F8E5D891220B15016
+    L16_2 = self
+    L15_2 = self.F8E5D891220B15016
     L17_2 = L5_2
     L15_2 = L15_2(L16_2, L17_2)
     if -1 == L15_2 then
@@ -819,7 +764,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L5_2[L15_2] = -1
     L14_2 = L14_2 + 1
   end
-  L15_2 = A0_2[4]
+  L15_2 = self[4]
   if L15_2 < 0 then
     L15_2 = _hx_tab_array
     L16_2 = {}
@@ -839,24 +784,24 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L20_2 = L17_2
       L18_2(L19_2, L20_2)
     end
-    A0_2[2] = L15_2
-    A0_2[4] = 0
-    L17_2 = A0_2[4]
+    self[2] = L15_2
+    self[4] = 0
+    L17_2 = self[4]
     L17_2 = L12_2[L17_2]
     return L17_2
   end
-  L16_2 = A0_2
-  L15_2 = A0_2.F89977235CCF11FE0
-  L17_2 = A0_2[2]
+  L16_2 = self
+  L15_2 = self.F89977235CCF11FE0
+  L17_2 = self[2]
   L18_2 = L12_2
   L15_2 = L15_2(L16_2, L17_2, L18_2)
   if true == L15_2 and true == A3_2 then
-    L16_2 = A0_2[2]
+    L16_2 = self[2]
     L16_2 = L16_2.length
-    L17_2 = A0_2[4]
+    L17_2 = self[4]
     if L16_2 > L17_2 then
-      L16_2 = A0_2[2]
-      L17_2 = A0_2[4]
+      L16_2 = self[2]
+      L17_2 = self[4]
       L16_2 = L16_2[L17_2]
       L17_2 = 0
       L18_2 = L12_2.length
@@ -888,31 +833,28 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L21_2 = L18_2
     L19_2(L20_2, L21_2)
   end
-  A0_2[2] = L16_2
+  self[2] = L16_2
   if false == L15_2 then
-    A0_2[4] = 0
-    L18_2 = A0_2[4]
+    self[4] = 0
+    L18_2 = self[4]
     L18_2 = L12_2[L18_2]
     return L18_2
   end
-  L18_2 = A0_2[4]
+  L18_2 = self[4]
   L18_2 = L18_2 + 1
-  A0_2[4] = L18_2
-  L18_2 = A0_2[4]
+  self[4] = L18_2
+  L18_2 = self[4]
   L19_2 = L12_2.length
   if L18_2 >= L19_2 then
-    A0_2[4] = 0
+    self[4] = 0
   end
-  L18_2 = A0_2[4]
+  L18_2 = self[4]
   L18_2 = L12_2[L18_2]
   return L18_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F8E5D891220B15016"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.getMinimumRange
+function C2266B0B63A2ED06D_prototype:F8E5D891220B15016(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = -1
   L3_2 = -1
@@ -942,11 +884,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F89977235CCF11FE0"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.IsSameArray
+function C2266B0B63A2ED06D_prototype:F89977235CCF11FE0(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = A1_2.length
   L4_2 = A2_2.length
@@ -970,20 +909,17 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2266B0B63A2ED06D"]["prototype"]
-L69_1 = "F91D85B1C6055F7C6"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapIconInfoArray.F91D85B1C6055F7C6
+function C2266B0B63A2ED06D_prototype:F91D85B1C6055F7C6(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   L4_2 = false
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L5_2 = L2_2 - 1
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[L5_2]
     L7_2 = L6_2.IsValid
     if false ~= L7_2 then

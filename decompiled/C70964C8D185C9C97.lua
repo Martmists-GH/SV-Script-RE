@@ -1,3 +1,7 @@
+---@alias C70964C8D185C9C97 main_field_action_ActionPokeComm
+
+---@class main_field_action_ActionPokeComm : C70964C8D185C9C97_prototype
+---@field prototype C70964C8D185C9C97_prototype
 L55_1 = _ENV
 L56_1 = "C70964C8D185C9C97"
 L57_1 = L15_1
@@ -62,27 +66,19 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C70964C8D185C9C97"]
 L69_1 = "__name__"
 L70_1 = "C70964C8D185C9C97"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C70964C8D185C9C97"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C70964C8D185C9C97"]["prototype"]
-L69_1 = "F52984028B56D6B99"
-
-function L70_1(A0_2)
+---@class C70964C8D185C9C97_prototype
+C70964C8D185C9C97_prototype = L15_1()
+C70964C8D185C9C97.prototype = C70964C8D185C9C97_prototype
+--- main.field.action.ActionPokeComm.ToEnd
+function C70964C8D185C9C97_prototype:F52984028B56D6B99()
   local L1_2
-  A0_2[18] = 3
+  self[18] = 3
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C70964C8D185C9C97"]["prototype"]
-L69_1 = "F351B5BF106DDCD17"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPokeComm.IsTurnEnd
+function C70964C8D185C9C97_prototype:F351B5BF106DDCD17()
   local L1_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   if L1_2 >= 2 then
     L1_2 = true
     return L1_2
@@ -91,19 +87,13 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C70964C8D185C9C97"]["prototype"]
-L69_1 = "F9347050049EADC82"
-
-function L70_1(A0_2, A1_2)
-  A0_2[21] = A1_2
+--- main.field.action.ActionPokeComm.SetTargetPokeIdx
+function C70964C8D185C9C97_prototype:F9347050049EADC82(A1_2)
+  self[21] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C70964C8D185C9C97"]["prototype"]
-L69_1 = "FD39E313CBE745684"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPokeComm.PlayNod
+function C70964C8D185C9C97_prototype:FD39E313CBE745684()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S8DB58249AC006158
@@ -242,24 +232,18 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C70964C8D185C9C97"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPokeComm.onCreate
+function C70964C8D185C9C97_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2.useCoroutine = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C70964C8D185C9C97"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPokeComm.onPreUpdate
+function C70964C8D185C9C97_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
-  A0_2[18] = 0
-  L1_2 = A0_2[16]
+  self[18] = 0
+  L1_2 = self[16]
   L1_2 = L1_2.Pokemons
   L1_2 = L1_2[0]
   L2_2 = nil
@@ -298,11 +282,11 @@ function L70_1(A0_2)
     L6_2 = 2
     return L6_2
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.F40FAE76AE74782D1
+  L7_2 = self
+  L6_2 = self.F40FAE76AE74782D1
   L8_2 = L1_2
   L6_2 = L6_2(L7_2, L8_2)
-  A0_2[19] = L6_2
+  self[19] = L6_2
   L6_2 = CFC8F368D91411014
   L6_2 = L6_2.S8DB58249AC006158
   L7_2 = nil
@@ -352,7 +336,7 @@ function L70_1(A0_2)
     L11_2 = L11_2(L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2)
     L7_2 = L11_2
   end
-  A0_2[18] = 1
+  self[18] = 1
   L10_2 = C1DB14DCC9D7634FA
   L10_2 = L10_2.S760DAE4C5371A78E
   L10_2()
@@ -562,9 +546,9 @@ function L70_1(A0_2)
       end
     end
   end
-  A0_2[18] = 2
+  self[18] = 2
   while true do
-    L15_2 = A0_2[18]
+    L15_2 = self[18]
     if not (L15_2 <= 2) then
       break
     end
@@ -691,21 +675,15 @@ function L70_1(A0_2)
   return L19_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C70964C8D185C9C97"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPokeComm.onTerminate
+function C70964C8D185C9C97_prototype:F97D80368ACC86AEF()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C70964C8D185C9C97"]["prototype"]
-L69_1 = "FB9EEE315620F5E73"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPokeComm.onPostUpdate
+function C70964C8D185C9C97_prototype:FB9EEE315620F5E73()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S8DB58249AC006158
@@ -756,40 +734,40 @@ function L70_1(A0_2)
     L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
     L2_2 = L6_2
   end
-  L5_2 = A0_2[18]
+  L5_2 = self[18]
   if L5_2 >= 3 then
     L6_2 = L2_2
     L5_2 = L2_2.fD92F5122
     L5_2(L6_2)
   else
-    L5_2 = A0_2[18]
+    L5_2 = self[18]
     if L5_2 >= 1 then
-      L5_2 = A0_2[21]
+      L5_2 = self[21]
       if L5_2 >= 0 then
-        L5_2 = A0_2[21]
-        L6_2 = A0_2[16]
+        L5_2 = self[21]
+        L6_2 = self[16]
         L6_2 = L6_2.Pokemons
         L6_2 = L6_2.length
         if L5_2 < L6_2 then
-          L6_2 = A0_2
-          L5_2 = A0_2.F40FAE76AE74782D1
-          L7_2 = A0_2[16]
+          L6_2 = self
+          L5_2 = self.F40FAE76AE74782D1
+          L7_2 = self[16]
           L7_2 = L7_2.Pokemons
-          L8_2 = A0_2[21]
+          L8_2 = self[21]
           L7_2 = L7_2[L8_2]
           L5_2 = L5_2(L6_2, L7_2)
           L6_2 = CD9AE7C27B00EB066
           L6_2 = L6_2.SF6B1543657D10AD3
-          L7_2 = A0_2[19]
+          L7_2 = self[19]
           L8_2 = L5_2
-          L9_2 = A0_2[20]
-          L10_2 = A0_2[17]
+          L9_2 = self[20]
+          L10_2 = self[17]
           L11_2 = 1000
           L12_2 = C075A638F130352C3
           L12_2 = L12_2.S44460EB93267F798
           L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-          A0_2[19] = L6_2
-          L6_2 = A0_2[19]
+          self[19] = L6_2
+          L6_2 = self[19]
           L8_2 = L2_2
           L7_2 = L2_2.f17818073
           L9_2 = L6_2[1]
@@ -803,11 +781,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C70964C8D185C9C97"]["prototype"]
-L69_1 = "F40FAE76AE74782D1"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.ActionPokeComm.GetHeadPos
+function C70964C8D185C9C97_prototype:F40FAE76AE74782D1(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = nil
   L3_2 = c016374C1

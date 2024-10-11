@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C99FCBF1B467C7135"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "__name__"
-L70_1 = "C99FCBF1B467C7135"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "SA72CC16A0C761630"
+---@alias C99FCBF1B467C7135 main_ui_net_btl_NetworkBattleGlobal
 
-function L70_1()
+---@class main_ui_net_btl_NetworkBattleGlobal
+C99FCBF1B467C7135 = L15_1()
+C99FCBF1B467C7135.new = {}
+C99FCBF1B467C7135.__name__ = "C99FCBF1B467C7135"
+--- main.ui.net_btl.NetworkBattleGlobal.GetNbrClientHandler
+function C99FCBF1B467C7135.SA72CC16A0C761630()
   local L0_2, L1_2
   L0_2 = C99FCBF1B467C7135
   L0_2 = L0_2.S09AFC575B11465AA
@@ -29,11 +20,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "S12BC11E82325A612"
-
-function L70_1()
+--- main.ui.net_btl.NetworkBattleGlobal.CreateNbrClient
+function C99FCBF1B467C7135.S12BC11E82325A612()
   local L0_2, L1_2
   L0_2 = C99FCBF1B467C7135
   L1_2 = C61F1503868A6C836
@@ -53,11 +41,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "S807A7DA4872A7023"
-
-function L70_1()
+--- main.ui.net_btl.NetworkBattleGlobal.DisposeNbrClient
+function C99FCBF1B467C7135.S807A7DA4872A7023()
   local L0_2, L1_2
   L0_2 = C99FCBF1B467C7135
   L0_2 = L0_2.S09AFC575B11465AA
@@ -74,11 +59,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "S4FFD32C768C5CC62"
-
-function L70_1()
+--- main.ui.net_btl.NetworkBattleGlobal.RegisterMemberData
+function C99FCBF1B467C7135.S4FFD32C768C5CC62()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L0_2 = C99FCBF1B467C7135
   L0_2 = L0_2.SA72CC16A0C761630
@@ -180,11 +162,8 @@ function L70_1()
   L3_2.SA33B5779F11E9D80 = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "S65C0DA3FECD3A85E"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.NetworkBattleGlobal.GetComMemberData
+function C99FCBF1B467C7135.S65C0DA3FECD3A85E(A0_2)
   local L1_2, L2_2
   L1_2 = C5A4B97A873A16656
   L1_2 = L1_2.S65C0DA3FECD3A85E
@@ -192,11 +171,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "S8E98AD8C98D91D40"
-
-function L70_1()
+--- main.ui.net_btl.NetworkBattleGlobal.GetMyComMemberData
+function C99FCBF1B467C7135.S8E98AD8C98D91D40()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = 0
   L1_2 = C5A4B97A873A16656
@@ -225,11 +201,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "SDB288F1BB0568E33"
-
-function L70_1()
+--- main.ui.net_btl.NetworkBattleGlobal.SDB288F1BB0568E33
+function C99FCBF1B467C7135.SDB288F1BB0568E33()
   local L0_2, L1_2
   L0_2 = C99FCBF1B467C7135
   L0_2 = L0_2.S09AFC575B11465AA
@@ -238,11 +211,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "SDAD15F0CE850D4D6"
-
-function L70_1()
+--- main.ui.net_btl.NetworkBattleGlobal.GetNbrClientStatus
+function C99FCBF1B467C7135.SDAD15F0CE850D4D6()
   local L0_2, L1_2
   L0_2 = C99FCBF1B467C7135
   L0_2 = L0_2.S09AFC575B11465AA
@@ -251,11 +221,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "S066121F38E53874A"
-
-function L70_1()
+--- main.ui.net_btl.NetworkBattleGlobal.StartNetLoad
+function C99FCBF1B467C7135.S066121F38E53874A()
   local L0_2, L1_2, L2_2
   L0_2 = C99FCBF1B467C7135
   L0_2 = L0_2.S09AFC575B11465AA
@@ -273,11 +240,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "S84DA402AFB19E031"
-
-function L70_1()
+--- main.ui.net_btl.NetworkBattleGlobal.EndNetLoad
+function C99FCBF1B467C7135.S84DA402AFB19E031()
   local L0_2, L1_2
   L0_2 = C99FCBF1B467C7135
   L0_2 = L0_2.S09AFC575B11465AA
@@ -294,11 +258,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "SA8C854E3713B2F10"
-
-function L70_1()
+--- main.ui.net_btl.NetworkBattleGlobal.ForceEndNetLoad
+function C99FCBF1B467C7135.SA8C854E3713B2F10()
   local L0_2, L1_2
   L0_2 = C99FCBF1B467C7135
   L0_2 = L0_2.S09AFC575B11465AA
@@ -320,11 +281,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "S873F60E06B63C5CB"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.NetworkBattleGlobal.WaitNetLoad
+function C99FCBF1B467C7135.S873F60E06B63C5CB(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = c7F7A5192
   L1_2 = L1_2.f101D811F
@@ -367,11 +325,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "SA64ABBE5B55E89E0"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.NetworkBattleGlobal.Wait
+function C99FCBF1B467C7135.SA64ABBE5B55E89E0(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = c7F7A5192
   L1_2 = L1_2.f101D811F
@@ -395,11 +350,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "S6461AFA7E455BCE3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.net_btl.NetworkBattleGlobal.S6461AFA7E455BCE3
+function C99FCBF1B467C7135.S6461AFA7E455BCE3(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = cB3DDDC2A
   L3_2 = L3_2.f5B6373D5
@@ -418,11 +370,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99FCBF1B467C7135"]
-L69_1 = "S8EE6063D87EBCD35"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.net_btl.NetworkBattleGlobal.S8EE6063D87EBCD35
+function C99FCBF1B467C7135.S8EE6063D87EBCD35(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L4_2 = cE9AFE246
   L4_2 = L4_2.fB4A97AE8

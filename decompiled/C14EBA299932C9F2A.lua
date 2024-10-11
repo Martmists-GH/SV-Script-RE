@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "C14EBA299932C9F2A"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C14EBA299932C9F2A"]
-L69_1 = "new"
-
-function L70_1(A0_2, A1_2)
+---@class C14EBA299932C9F2A : C14EBA299932C9F2A_prototype
+---@field prototype C14EBA299932C9F2A_prototype
+C14EBA299932C9F2A = L15_1()
+function C14EBA299932C9F2A.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = C14EBA299932C9F2A
@@ -23,11 +18,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14EBA299932C9F2A"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 C14EBA299932C9F2A
+function C14EBA299932C9F2A.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   A0_2[19] = nil
   A0_2[18] = false
@@ -39,11 +31,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14EBA299932C9F2A"]
-L69_1 = "__name__"
-L70_1 = "C14EBA299932C9F2A"
-L68_1[L69_1] = L70_1
+C14EBA299932C9F2A.__name__ = "C14EBA299932C9F2A"
 L68_1 = _ENV["C14EBA299932C9F2A"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -77,38 +65,27 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14EBA299932C9F2A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14EBA299932C9F2A"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C14EBA299932C9F2A_prototype
+C14EBA299932C9F2A_prototype = L15_1()
+C14EBA299932C9F2A.prototype = C14EBA299932C9F2A_prototype
+--- C14EBA299932C9F2A.onCreate
+function C14EBA299932C9F2A_prototype:FC87C731D11C58354()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F0F38D25344E74628
+  L2_2 = self
+  L1_2 = self.F0F38D25344E74628
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14EBA299932C9F2A"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- C14EBA299932C9F2A.onFinished
+function C14EBA299932C9F2A_prototype:F68499476069C0B1E()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F1449967F1F35B6E9
+  L2_2 = self
+  L1_2 = self.F1449967F1F35B6E9
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14EBA299932C9F2A"]["prototype"]
-L69_1 = "F0F38D25344E74628"
-
-function L70_1(A0_2)
+--- C14EBA299932C9F2A.F0F38D25344E74628
+function C14EBA299932C9F2A_prototype:F0F38D25344E74628()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = C282DAED1E1D374F6
@@ -119,8 +96,8 @@ function L70_1(A0_2)
   L4_2 = "GameEventSynchroStartShortcutProhibit"
   L5_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2[19] = L2_2
-  L2_2 = A0_2[19]
+  self[19] = L2_2
+  L2_2 = self[19]
   L3_2 = L2_2
   L2_2 = L2_2.F5B98E8D4C251422B
   L4_2 = true
@@ -138,7 +115,7 @@ function L70_1(A0_2)
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
   L3_2[L4_2] = false
-  L3_2 = A0_2[19]
+  L3_2 = self[19]
   L4_2 = L3_2
   L3_2 = L3_2.F6C8DDC9A268EFAD5
   L5_2 = "GameEventSynchroStartShortcutProhibitChild"
@@ -150,13 +127,10 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14EBA299932C9F2A"]["prototype"]
-L69_1 = "F1449967F1F35B6E9"
-
-function L70_1(A0_2)
+--- C14EBA299932C9F2A.F1449967F1F35B6E9
+function C14EBA299932C9F2A_prototype:F1449967F1F35B6E9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[19]
+  L1_2 = self[19]
   L2_2 = L1_2[5]
   L3_2 = L2_2
   L2_2 = L2_2.iterator
@@ -178,13 +152,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14EBA299932C9F2A"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- C14EBA299932C9F2A.onUpdate
+function C14EBA299932C9F2A_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = L3_1
   L3_2 = CFC8F368D91411014
   L3_2 = L3_2.SDE9EF3CFD428417D
@@ -361,13 +332,10 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C14EBA299932C9F2A"]["prototype"]
-L69_1 = "FA62240C120C4B846"
-
-function L70_1(A0_2)
+--- C14EBA299932C9F2A.FA62240C120C4B846
+function C14EBA299932C9F2A_prototype:FA62240C120C4B846()
   local L1_2
-  A0_2[18] = true
+  self[18] = true
 end
 
 L68_1[L69_1] = L70_1

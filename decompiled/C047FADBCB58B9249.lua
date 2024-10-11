@@ -1,3 +1,6 @@
+---@alias C91EE884FCF6B2449 main_event_general_gym_base_Gym_normal_taxidrivar_popup
+
+---@class main_event_general_gym_base_Gym_normal_taxidrivar_popup
 L55_1 = _ENV
 L56_1 = "C047FADBCB58B9249"
 L57_1 = L15_1

@@ -1,11 +1,8 @@
-L55_1 = _ENV
-L56_1 = "C6C6AD5246ABFE1B0"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C6C6AD5246ABFE1B0"]
-L69_1 = "new"
-L70_1 = {}
+---@alias C6C6AD5246ABFE1B0 main_util_tween_TweenMathUtil
+
+---@class main_util_tween_TweenMathUtil
+C6C6AD5246ABFE1B0 = L15_1()
+C6C6AD5246ABFE1B0.new = {}
 L68_1[L69_1] = L70_1
 L68_1 = "C6C6AD5246ABFE1B0"
 L69_1 = _ENV["C6C6AD5246ABFE1B0"]
@@ -13,11 +10,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C6C6AD5246ABFE1B0"]
 L69_1 = "__name__"
 L70_1 = "C6C6AD5246ABFE1B0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C6AD5246ABFE1B0"]
-L69_1 = "S4F742D7FCA3ECDA6"
-
-function L70_1(A0_2, A1_2)
+--- main.util.tween.TweenMathUtil.DistanceToSecondsSimple
+function C6C6AD5246ABFE1B0.S4F742D7FCA3ECDA6(A0_2, A1_2)
   local L2_2
   L2_2 = A0_2 * 0.001
   L2_2 = L2_2 / A1_2
@@ -25,11 +19,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C6AD5246ABFE1B0"]
-L69_1 = "S3F70035184E21EE4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.util.tween.TweenMathUtil.DistanceToSeconds
+function C6C6AD5246ABFE1B0.S3F70035184E21EE4(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = C6C6AD5246ABFE1B0
   L3_2 = L3_2.S4F742D7FCA3ECDA6
@@ -46,11 +37,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C6AD5246ABFE1B0"]
-L69_1 = "S6A6C1881AA58AAE1"
-
-function L70_1(A0_2, A1_2)
+--- main.util.tween.TweenMathUtil.ArrayDistanceToSeconds
+function C6C6AD5246ABFE1B0.S6A6C1881AA58AAE1(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C6C6AD5246ABFE1B0
   L2_2 = L2_2.S4F742D7FCA3ECDA6
@@ -62,11 +50,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C6AD5246ABFE1B0"]
-L69_1 = "S4F314783E0C46AED"
-
-function L70_1(A0_2)
+--- main.util.tween.TweenMathUtil.ArrayDistance
+function C6C6AD5246ABFE1B0.S4F314783E0C46AED(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = 0.0
   L2_2 = 0
@@ -95,11 +80,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C6AD5246ABFE1B0"]
-L69_1 = "SBA941559F53ECC9A"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.util.tween.TweenMathUtil.InverseLerp
+function C6C6AD5246ABFE1B0.SBA941559F53ECC9A(A0_2, A1_2, A2_2)
   local L3_2, L4_2
   L3_2 = A2_2 - A0_2
   L4_2 = A1_2 - A0_2

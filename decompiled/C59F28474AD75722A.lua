@@ -1,3 +1,5 @@
+---@class C59F28474AD75722A : C59F28474AD75722A_prototype
+---@field prototype C59F28474AD75722A_prototype
 L55_1 = _ENV
 L56_1 = "C59F28474AD75722A"
 L57_1 = L15_1
@@ -134,119 +136,108 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C59F28474AD75722A"]
 L69_1 = "__name__"
 L70_1 = "C59F28474AD75722A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59F28474AD75722A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59F28474AD75722A"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C59F28474AD75722A_prototype
+C59F28474AD75722A_prototype = L15_1()
+C59F28474AD75722A.prototype = C59F28474AD75722A_prototype
+--- C59F28474AD75722A.Setup
+function C59F28474AD75722A_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C53C4062FD417098A
   L2_2.SDA89FAB0CFA83802 = 0
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f462C9B70
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.fD4E64AB7
-  L4_2 = A0_2[8]
+  L4_2 = self[8]
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[13] = L2_2
+  self[13] = L2_2
   L2_2 = nil
   L3_2 = c0BE27187
   L3_2 = L3_2.f3993F912
   L4_2 = c016374C1
   L4_2 = L4_2.f8C7D4F4D
-  L5_2 = A0_2[13]
+  L5_2 = self[13]
   L6_2 = L2_2
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = L31_1.string
   L6_2 = "Not found "
   L5_2 = L5_2(L6_2)
   L6_2 = L31_1.string
-  L7_2 = A0_2[8]
+  L7_2 = self[8]
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 .. L6_2
   L3_2(L4_2, L5_2)
   L3_2 = c2A84524D
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[13]
+  L4_2 = self[13]
   L3_2 = L3_2(L4_2)
-  A0_2[14] = L3_2
+  self[14] = L3_2
   L3_2 = E649909B9ED4D8E59
   L3_2 = L3_2.kStatus_SetupView
-  A0_2[17] = L3_2
+  self[17] = L3_2
   L3_2 = C9447A93851CFDD18
   L3_2 = L3_2.SB21FA562BB1FB817
   L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59F28474AD75722A"]["prototype"]
-L69_1 = "F49AB1A730C0CD5BD"
-
-function L70_1(A0_2)
+--- C59F28474AD75722A.F49AB1A730C0CD5BD
+function C59F28474AD75722A_prototype:F49AB1A730C0CD5BD()
   local L1_2, L2_2
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L2_2 = E649909B9ED4D8E59
   L2_2 = L2_2.kStatusEnd
   L1_2 = L1_2 == L2_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59F28474AD75722A"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- C59F28474AD75722A.PreUpdate
+function C59F28474AD75722A_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   L2_2 = L2_2[1]
   if 0 == L2_2 then
-    L3_2 = A0_2[13]
+    L3_2 = self[13]
     L4_2 = L3_2
     L3_2 = L3_2.f9D8BC178
     L3_2 = L3_2(L4_2)
     if false == L3_2 then
       return
     end
-    L3_2 = A0_2[13]
+    L3_2 = self[13]
     L4_2 = L3_2
     L3_2 = L3_2.f5439788F
-    L5_2 = A0_2[9]
+    L5_2 = self[9]
     L3_2 = L3_2(L4_2, L5_2)
-    A0_2[15] = L3_2
+    self[15] = L3_2
     L3_2 = nil
     L4_2 = c0BE27187
     L4_2 = L4_2.f3993F912
     L5_2 = c016374C1
     L5_2 = L5_2.f8C7D4F4D
-    L6_2 = A0_2[15]
+    L6_2 = self[15]
     L7_2 = L3_2
     L5_2 = L5_2(L6_2, L7_2)
     L6_2 = L31_1.string
     L7_2 = "Not found "
     L6_2 = L6_2(L7_2)
     L7_2 = L31_1.string
-    L8_2 = A0_2[9]
+    L8_2 = self[9]
     L7_2 = L7_2(L8_2)
     L6_2 = L6_2 .. L7_2
     L4_2(L5_2, L6_2)
     L4_2 = E649909B9ED4D8E59
     L4_2 = L4_2.kStatus_SetupLayout
-    A0_2[17] = L4_2
+    self[17] = L4_2
   elseif 1 == L2_2 then
-    L3_2 = A0_2[15]
+    L3_2 = self[15]
     L4_2 = L3_2
     L3_2 = L3_2.f9D8BC178
     L3_2 = L3_2(L4_2)
@@ -255,41 +246,41 @@ function L70_1(A0_2, A1_2)
     end
     L3_2 = C9CC979169E6BA3A6
     L3_2 = L3_2.new
-    L4_2 = A0_2[15]
+    L4_2 = self[15]
     L5_2 = "ymap_mission_character"
     L3_2 = L3_2(L4_2, L5_2)
-    A0_2[16] = L3_2
-    L3_2 = A0_2[16]
+    self[16] = L3_2
+    L3_2 = self[16]
     L4_2 = L3_2
     L3_2 = L3_2.FC224278F5E1BEBEF
     L3_2 = L3_2(L4_2)
     if not L3_2 then
       return
     end
-    L3_2 = A0_2[16]
+    L3_2 = self[16]
     L4_2 = L3_2
     L3_2 = L3_2.FC4D2BDDB205D2A02
-    L5_2 = A0_2[10]
+    L5_2 = self[10]
     L3_2(L4_2, L5_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.FD1EB13EA75221250
+    L4_2 = self
+    L3_2 = self.FD1EB13EA75221250
     L3_2(L4_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.FF1D21AD1725DEA3A
+    L4_2 = self
+    L3_2 = self.FF1D21AD1725DEA3A
     L3_2(L4_2)
     L3_2 = C5071F1FDB6B8E707
     L3_2 = L3_2.S22AE94E972CE1AAF
-    L4_2 = A0_2[15]
+    L4_2 = self[15]
     L5_2 = "P_icon_01"
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[14]
+    L3_2 = self[14]
     L4_2 = L3_2
     L3_2 = L3_2.f83FE57AE
     L3_2(L4_2)
-    L3_2 = A0_2[16]
+    L3_2 = self[16]
     L4_2 = L3_2
     L3_2 = L3_2.F748A3DCD68216D1D
-    L5_2 = A0_2[6]
+    L5_2 = self[6]
     L3_2(L4_2, L5_2)
     L3_2 = C3A36506FBC96ACBD
     L3_2 = L3_2.SC6181320B46854EE
@@ -301,12 +292,12 @@ function L70_1(A0_2, A1_2)
     L3_2(L4_2)
     L3_2 = E649909B9ED4D8E59
     L3_2 = L3_2.kStatusStart
-    A0_2[17] = L3_2
+    self[17] = L3_2
   elseif 2 == L2_2 then
-    L3_2 = A0_2[16]
+    L3_2 = self[16]
     L4_2 = L3_2
     L3_2 = L3_2.F810D8446A8612992
-    L5_2 = A0_2[5]
+    L5_2 = self[5]
     L3_2 = L3_2(L4_2, L5_2)
     if false == L3_2 then
       return
@@ -325,11 +316,11 @@ function L70_1(A0_2, A1_2)
     L3_2 = C9447A93851CFDD18
     L3_2 = L3_2.SCA3DC3164E3FF2BA
     L3_2()
-    A0_2[12] = 0
-    L3_2 = A0_2[16]
+    self[12] = 0
+    L3_2 = self[16]
     L4_2 = L3_2
     L3_2 = L3_2.F748A3DCD68216D1D
-    L5_2 = A0_2[4]
+    L5_2 = self[4]
     L3_2(L4_2, L5_2)
     L3_2 = C3A36506FBC96ACBD
     L3_2 = L3_2.SC6181320B46854EE
@@ -337,17 +328,17 @@ function L70_1(A0_2, A1_2)
     L3_2(L4_2)
     L3_2 = E649909B9ED4D8E59
     L3_2 = L3_2.kStatusAnimeEndWait
-    A0_2[17] = L3_2
+    self[17] = L3_2
   elseif 3 == L2_2 then
-    L3_2 = A0_2[16]
+    L3_2 = self[16]
     L4_2 = L3_2
     L3_2 = L3_2.F810D8446A8612992
-    L5_2 = A0_2[4]
+    L5_2 = self[4]
     L3_2 = L3_2(L4_2, L5_2)
     if false == L3_2 then
       return
     end
-    L3_2 = A0_2[12]
+    L3_2 = self[12]
     L5_2 = A1_2
     L4_2 = A1_2.f22D509B2
     L6_2 = 2
@@ -356,16 +347,16 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2.fC0E2CAD0
     L4_2 = L4_2(L5_2)
     L3_2 = L3_2 + L4_2
-    A0_2[12] = L3_2
-    L3_2 = A0_2[12]
-    L4_2 = A0_2[11]
+    self[12] = L3_2
+    L3_2 = self[12]
+    L4_2 = self[11]
     if L3_2 >= L4_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F74F5DF8DE8183826
+      L4_2 = self
+      L3_2 = self.F74F5DF8DE8183826
       L3_2(L4_2)
       L3_2 = E649909B9ED4D8E59
       L3_2 = L3_2.kStatusMessageWait
-      A0_2[17] = L3_2
+      self[17] = L3_2
     end
   elseif 4 == L2_2 then
     L3_2 = CF1D9D619D324F233
@@ -376,27 +367,27 @@ function L70_1(A0_2, A1_2)
     if L3_2 then
       return
     end
-    L3_2 = A0_2[16]
+    L3_2 = self[16]
     L4_2 = L3_2
     L3_2 = L3_2.F748A3DCD68216D1D
-    L5_2 = A0_2[7]
+    L5_2 = self[7]
     L3_2(L4_2, L5_2)
     L3_2 = C9447A93851CFDD18
     L3_2 = L3_2.SACEA25E294F2462F
     L3_2()
     L3_2 = E649909B9ED4D8E59
     L3_2 = L3_2.kStatusEndWait
-    A0_2[17] = L3_2
+    self[17] = L3_2
   elseif 5 == L2_2 then
-    L3_2 = A0_2[16]
+    L3_2 = self[16]
     L4_2 = L3_2
     L3_2 = L3_2.F810D8446A8612992
-    L5_2 = A0_2[7]
+    L5_2 = self[7]
     L3_2 = L3_2(L4_2, L5_2)
     if false == L3_2 then
       return
     end
-    L3_2 = A0_2[16]
+    L3_2 = self[16]
     L4_2 = L3_2
     L3_2 = L3_2.FA23D39922B76B247
     L5_2 = nil
@@ -404,52 +395,46 @@ function L70_1(A0_2, A1_2)
     L3_2(L4_2, L5_2, L6_2)
     L3_2 = E649909B9ED4D8E59
     L3_2 = L3_2.kStatusEnd
-    A0_2[17] = L3_2
+    self[17] = L3_2
   elseif 6 == L2_2 then
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59F28474AD75722A"]["prototype"]
-L69_1 = "FD1EB13EA75221250"
-
-function L70_1(A0_2)
+--- C59F28474AD75722A.SetupCharactorName
+function C59F28474AD75722A_prototype:FD1EB13EA75221250()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.length
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L4_2 = A0_2[16]
+    L4_2 = self[16]
     L5_2 = L4_2
     L4_2 = L4_2.FC8489078C201C47F
     L4_2 = L4_2(L5_2)
     L5_2 = L4_2
     L4_2 = L4_2.FE53FB02F92557D98
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L6_2 = L6_2[L3_2]
     L6_2 = L6_2.paneName
-    L7_2 = A0_2[2]
+    L7_2 = self[2]
     L7_2 = L7_2[L3_2]
     L7_2 = L7_2.labelName
     L4_2(L5_2, L6_2, L7_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59F28474AD75722A"]["prototype"]
-L69_1 = "FF1D21AD1725DEA3A"
-
-function L70_1(A0_2)
+--- C59F28474AD75722A.SetupCharactorIcon
+function C59F28474AD75722A_prototype:FF1D21AD1725DEA3A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = 0
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.length
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L4_2 = A0_2[16]
+    L4_2 = self[16]
     L5_2 = L4_2
     L4_2 = L4_2.FC28050BEE22C8085
     L6_2 = L3_2
@@ -458,7 +443,7 @@ function L70_1(A0_2)
     L9_2 = ""
     L8_2 = L8_2(L9_2)
     L9_2 = L31_1.string
-    L10_2 = A0_2[3]
+    L10_2 = self[3]
     L10_2 = L10_2[L3_2]
     L10_2 = L10_2.paneName
     L9_2 = L9_2(L10_2)
@@ -470,11 +455,11 @@ function L70_1(A0_2)
     L7_2 = L7_2 .. L8_2
     L8_2 = 0
     L4_2(L5_2, L6_2, L7_2, L8_2)
-    L4_2 = A0_2[16]
+    L4_2 = self[16]
     L5_2 = L4_2
     L4_2 = L4_2.F8DF8314F1AE486E3
     L6_2 = L3_2
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L7_2 = L7_2[L3_2]
     L7_2 = L7_2.pathName
     L8_2 = 0
@@ -482,11 +467,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C59F28474AD75722A"]["prototype"]
-L69_1 = "F74F5DF8DE8183826"
-
-function L70_1(A0_2)
+--- C59F28474AD75722A.ShowAddMissionMessage
+function C59F28474AD75722A_prototype:F74F5DF8DE8183826()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fC8CEF9EF

@@ -1,3 +1,7 @@
+---@alias C3CA1EADB683184F2 main_field_behaviour_ScriptableBehavior
+
+---@class main_field_behaviour_ScriptableBehavior : C3CA1EADB683184F2_prototype
+---@field prototype C3CA1EADB683184F2_prototype
 L55_1 = _ENV
 L56_1 = "C3CA1EADB683184F2"
 L57_1 = L15_1
@@ -42,20 +46,15 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C3CA1EADB683184F2"]
 L69_1 = "__name__"
 L70_1 = "C3CA1EADB683184F2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3CA1EADB683184F2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3CA1EADB683184F2"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+---@class C3CA1EADB683184F2_prototype
+C3CA1EADB683184F2_prototype = L15_1()
+C3CA1EADB683184F2.prototype = C3CA1EADB683184F2_prototype
+--- main.field.behaviour.ScriptableBehavior.onSetup
+function C3CA1EADB683184F2_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = cCF781FB6
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cCF781FB6

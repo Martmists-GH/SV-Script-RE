@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C26B37882CB4A95DB"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C26B37882CB4A95DB"]
-L69_1 = "new"
+---@alias C26B37882CB4A95DB main_network_multi_play_MultiPlay
 
-function L70_1(A0_2)
+---@class main_network_multi_play_MultiPlay : C26B37882CB4A95DB_prototype
+---@field prototype C26B37882CB4A95DB_prototype
+C26B37882CB4A95DB = L15_1()
+function C26B37882CB4A95DB.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C26B37882CB4A95DB
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C26B37882CB4A95DB
+function C26B37882CB4A95DB.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -220,21 +214,15 @@ function L70_1()
   L9_2.S117490ECEF0CFD80 = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]
-L69_1 = "SA0F117FCCCF00858"
-
-function L70_1()
+--- main.network.multi_play.MultiPlay.WildBattleSerialIdMax
+function C26B37882CB4A95DB.SA0F117FCCCF00858()
   local L0_2, L1_2
   L0_2 = 2000
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]
-L69_1 = "SCA6CA24F2EA5840C"
-
-function L70_1()
+--- main.network.multi_play.MultiPlay.MakeWildBattleId
+function C26B37882CB4A95DB.SCA6CA24F2EA5840C()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = C26B37882CB4A95DB
   L0_2 = L0_2.SA0F117FCCCF00858
@@ -283,11 +271,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]
-L69_1 = "S5F19CB51F77CE964"
-
-function L70_1()
+--- main.network.multi_play.MultiPlay.ShowFukidashi
+function C26B37882CB4A95DB.S5F19CB51F77CE964()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.S8DB58249AC006158
@@ -313,11 +298,8 @@ function L70_1()
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]
-L69_1 = "SBD2F626C08C7BD23"
-
-function L70_1()
+--- main.network.multi_play.MultiPlay.HideFukidashi
+function C26B37882CB4A95DB.SBD2F626C08C7BD23()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.S8DB58249AC006158
@@ -343,50 +325,39 @@ function L70_1()
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C26B37882CB4A95DB_prototype
+C26B37882CB4A95DB_prototype = L15_1()
+C26B37882CB4A95DB.prototype = C26B37882CB4A95DB_prototype
+--- main.network.multi_play.MultiPlay.Setup
+function C26B37882CB4A95DB_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CF67A67452D018ECC
   L2_2 = L2_2.SC8223E31D3163519
   L3_2 = L2_2
   L2_2 = L2_2.F9191B545B68EC8BB
-  L4_2 = A0_2
+  L4_2 = self
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.network.multi_play.MultiPlay.Destroy
+function C26B37882CB4A95DB_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CF67A67452D018ECC
   L1_2 = L1_2.SC8223E31D3163519
-  L3_2 = A0_2
-  L2_2 = A0_2.FBDA175393973D042
+  L3_2 = self
+  L2_2 = self.FBDA175393973D042
   L2_2 = L2_2(L3_2)
   if -1 ~= L2_2 then
     L2_2 = L1_2[7]
     L3_2 = L2_2
     L2_2 = L2_2.remove
-    L4_2 = A0_2
+    L4_2 = self
     L2_2(L3_2, L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.network.multi_play.MultiPlay.PreUpdate
+function C26B37882CB4A95DB_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C26B37882CB4A95DB
   L2_2 = L2_2.S66EBCA06ED6645F5
@@ -476,55 +447,40 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]["prototype"]
-L69_1 = "FC7612CB88D1EA432"
-
-function L70_1(A0_2)
+--- main.network.multi_play.MultiPlay.GetOwner
+function C26B37882CB4A95DB_prototype:FC7612CB88D1EA432()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]["prototype"]
-L69_1 = "F59A996B38A291DD4"
-
-function L70_1(A0_2)
+--- main.network.multi_play.MultiPlay.GetListenerName
+function C26B37882CB4A95DB_prototype:F59A996B38A291DD4()
   local L1_2
   L1_2 = "MultiPlay"
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]["prototype"]
-L69_1 = "F6C886FC694510481"
-
-function L70_1(A0_2)
+--- main.network.multi_play.MultiPlay.IsValid
+function C26B37882CB4A95DB_prototype:F6C886FC694510481()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L1_2
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]["prototype"]
-L69_1 = "FBDA175393973D042"
-
-function L70_1(A0_2)
+--- main.network.multi_play.MultiPlay.GetBehaviourType
+function C26B37882CB4A95DB_prototype:FBDA175393973D042()
   local L1_2
   L1_2 = 26
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]["prototype"]
-L69_1 = "F94EAD65A0728F824"
-
-function L70_1(A0_2, A1_2)
+--- main.network.multi_play.MultiPlay.OnEventStart
+function C26B37882CB4A95DB_prototype:F94EAD65A0728F824(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = c2A8846F6
   L2_2 = L2_2.f3E170423
@@ -588,8 +544,8 @@ function L70_1(A0_2, A1_2)
     end
   end
   ::lbl_47::
-  L3_2 = A0_2
-  L2_2 = A0_2.FA5633FB5786FCB03
+  L3_2 = self
+  L2_2 = self.FA5633FB5786FCB03
   L4_2 = A1_2[11]
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -624,11 +580,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]["prototype"]
-L69_1 = "F8B168038FBC3EA27"
-
-function L70_1(A0_2, A1_2)
+--- main.network.multi_play.MultiPlay.OnEventFinish
+function C26B37882CB4A95DB_prototype:F8B168038FBC3EA27(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c2A8846F6
   L2_2 = L2_2.f3E170423
@@ -732,8 +685,8 @@ function L70_1(A0_2, A1_2)
     end
   end
   ::lbl_81::
-  L3_2 = A0_2
-  L2_2 = A0_2.FA5633FB5786FCB03
+  L3_2 = self
+  L2_2 = self.FA5633FB5786FCB03
   L4_2 = A1_2[11]
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -768,11 +721,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C26B37882CB4A95DB"]["prototype"]
-L69_1 = "FA5633FB5786FCB03"
-
-function L70_1(A0_2, A1_2)
+--- main.network.multi_play.MultiPlay.NeedFukidashi
+function C26B37882CB4A95DB_prototype:FA5633FB5786FCB03(A1_2)
   local L2_2
   if 13 == A1_2 or 8 == A1_2 then
     L2_2 = false

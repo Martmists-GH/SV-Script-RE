@@ -1,3 +1,7 @@
+---@alias C2E6294EDF016B01B main_ui_photomode_main_ui_presenter_PhotomodeUIPresenter
+
+---@class main_ui_photomode_main_ui_presenter_PhotomodeUIPresenter : C2E6294EDF016B01B_prototype
+---@field prototype C2E6294EDF016B01B_prototype
 L55_1 = _ENV
 L56_1 = "C2E6294EDF016B01B"
 L57_1 = L15_1
@@ -381,38 +385,33 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2E6294EDF016B01B"]
 L69_1 = "__name__"
 L70_1 = "C2E6294EDF016B01B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E6294EDF016B01B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E6294EDF016B01B"]["prototype"]
-L69_1 = "F0854CF90A4C54D47"
-
-function L70_1(A0_2)
+---@class C2E6294EDF016B01B_prototype
+C2E6294EDF016B01B_prototype = L15_1()
+C2E6294EDF016B01B.prototype = C2E6294EDF016B01B_prototype
+--- main.ui.photomode.main.ui.presenter.PhotomodeUIPresenter.EyeCameraLookAt
+function C2E6294EDF016B01B_prototype:F0854CF90A4C54D47()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   if nil == L1_2 then
     return
   end
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FA237ADE83105046A
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = nil
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.F139E405DC499CC35
     L6_2 = L16_1
@@ -471,89 +470,80 @@ function L70_1(A0_2)
     L6_2, L7_2, L8_2, L9_2, L10_2 = L6_2(L7_2)
     L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.F7E7E08C9EAF473B8
+    L3_2 = self
+    L2_2 = self.F7E7E08C9EAF473B8
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E6294EDF016B01B"]["prototype"]
-L69_1 = "F7E7E08C9EAF473B8"
-
-function L70_1(A0_2)
+--- main.ui.photomode.main.ui.presenter.PhotomodeUIPresenter.ResetEyeCameraLookAt
+function C2E6294EDF016B01B_prototype:F7E7E08C9EAF473B8()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   if nil == L1_2 then
     return
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.FCA52E6D9711CCD16
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E6294EDF016B01B"]["prototype"]
-L69_1 = "F4C5B0CCD3193B65C"
-
-function L70_1(A0_2)
+--- main.ui.photomode.main.ui.presenter.PhotomodeUIPresenter.F4C5B0CCD3193B65C
+function C2E6294EDF016B01B_prototype:F4C5B0CCD3193B65C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.FED6B9A786AF39194
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.F61D38B4B2F89BD68
   L2_2 = L2_2(L3_2)
   L3_2 = 0
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L4_2 = L4_2.length
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L5_2 = L3_2 - 1
-    L6_2 = A0_2[7]
+    L6_2 = self[7]
     L6_2 = L6_2[L5_2]
     L6_2 = L6_2.effectActive
     if L1_2 == L6_2 then
-      L6_2 = A0_2[7]
+      L6_2 = self[7]
       L6_2 = L6_2[L5_2]
       L6_2 = L6_2.shareActive
       if L2_2 == L6_2 then
-        A0_2[6] = L5_2
+        self[6] = L5_2
         return
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E6294EDF016B01B"]["prototype"]
-L69_1 = "FDCC3601E946AFAFC"
-
-function L70_1(A0_2)
+--- main.ui.photomode.main.ui.presenter.PhotomodeUIPresenter.FDCC3601E946AFAFC
+function C2E6294EDF016B01B_prototype:FDCC3601E946AFAFC()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   if nil ~= L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     if nil ~= L1_2 then
       goto lbl_8
     end
   end
   do return end
   ::lbl_8::
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.F27CC6F7E5F56FBC8
   L1_2 = L1_2(L2_2)
   L2_2 = E400D8CAA1B9C4210
   L2_2 = L2_2.Top
   if L1_2 == L2_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     if nil ~= L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F97DF2C1C76C2F216
+      L3_2 = self
+      L2_2 = self.F97DF2C1C76C2F216
       L2_2(L3_2)
     end
   else
@@ -566,7 +556,7 @@ function L70_1(A0_2)
         goto lbl_33
       end
     end
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.F58AB1CF7737D7B95
     L2_2(L3_2)
@@ -575,7 +565,7 @@ function L70_1(A0_2)
     L2_2 = E400D8CAA1B9C4210
     L2_2 = L2_2.FieldWork
     if L1_2 == L2_2 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = L2_2
       L2_2 = L2_2.F58AB1CF7737D7B95
       L2_2(L3_2)
@@ -584,13 +574,10 @@ function L70_1(A0_2)
   ::lbl_40::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E6294EDF016B01B"]["prototype"]
-L69_1 = "F97DF2C1C76C2F216"
-
-function L70_1(A0_2)
+--- main.ui.photomode.main.ui.presenter.PhotomodeUIPresenter.F97DF2C1C76C2F216
+function C2E6294EDF016B01B_prototype:F97DF2C1C76C2F216()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.F7F74B3BC9AC7BD14
   L1_2 = L1_2(L2_2)
@@ -600,16 +587,16 @@ function L70_1(A0_2)
   if L2_2 and L1_2 then
     L3_2 = L10_1.math
     L3_2 = L3_2.fmod
-    L4_2 = A0_2[6]
+    L4_2 = self[6]
     L4_2 = L4_2 + 1
-    L5_2 = A0_2[7]
+    L5_2 = self[7]
     L5_2 = L5_2.length
     L3_2 = L3_2(L4_2, L5_2)
-    A0_2[6] = L3_2
+    self[6] = L3_2
   elseif L2_2 then
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     if 0 ~= L3_2 then
-      L3_2 = A0_2[6]
+      L3_2 = self[6]
       if 3 ~= L3_2 then
         goto lbl_33
       end
@@ -618,7 +605,7 @@ function L70_1(A0_2)
     function L3_2()
       local L0_3, L1_3
       L0_3 = nil
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[6]
       if 0 == L1_3 then
         L0_3 = 3
@@ -629,19 +616,19 @@ function L70_1(A0_2)
     end
     
     L3_2 = L3_2()
-    A0_2[6] = L3_2
+    self[6] = L3_2
     goto lbl_64
     ::lbl_33::
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     if 1 ~= L3_2 then
-      L3_2 = A0_2[6]
+      L3_2 = self[6]
     end
     if 2 == L3_2 then
       function L3_2()
         local L0_3, L1_3
         
         L0_3 = nil
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[6]
         if 1 == L1_3 then
           L0_3 = 2
@@ -652,12 +639,12 @@ function L70_1(A0_2)
       end
       
       L3_2 = L3_2()
-      A0_2[6] = L3_2
+      self[6] = L3_2
     end
   elseif L1_2 then
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     if 0 ~= L3_2 then
-      L3_2 = A0_2[6]
+      L3_2 = self[6]
       if 1 ~= L3_2 then
         goto lbl_55
       end
@@ -666,7 +653,7 @@ function L70_1(A0_2)
     function L3_2()
       local L0_3, L1_3
       L0_3 = nil
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[6]
       if 0 == L1_3 then
         L0_3 = 1
@@ -677,12 +664,12 @@ function L70_1(A0_2)
     end
     
     L3_2 = L3_2()
-    A0_2[6] = L3_2
+    self[6] = L3_2
     goto lbl_64
     ::lbl_55::
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     if 2 ~= L3_2 then
-      L3_2 = A0_2[6]
+      L3_2 = self[6]
       if 3 ~= L3_2 then
         goto lbl_64
       end
@@ -691,7 +678,7 @@ function L70_1(A0_2)
     function L3_2()
       local L0_3, L1_3
       L0_3 = nil
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[6]
       if 2 == L1_3 then
         L0_3 = 3
@@ -702,13 +689,13 @@ function L70_1(A0_2)
     end
     
     L3_2 = L3_2()
-    A0_2[6] = L3_2
+    self[6] = L3_2
   end
   ::lbl_64::
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   if not (L3_2 < 0) then
-    L3_2 = A0_2[6]
-    L4_2 = A0_2[7]
+    L3_2 = self[6]
+    L4_2 = self[7]
     L4_2 = L4_2.length
     if not (L3_2 >= L4_2) then
       goto lbl_77
@@ -720,25 +707,25 @@ function L70_1(A0_2)
   L5_2 = "error out of range : m_activeIndex"
   L3_2(L4_2, L5_2)
   ::lbl_77::
-  L3_2 = A0_2[7]
-  L4_2 = A0_2[6]
+  L3_2 = self[7]
+  L4_2 = self[6]
   L3_2 = L3_2[L4_2]
   L3_2 = L3_2.shareActive
-  L4_2 = A0_2[7]
-  L5_2 = A0_2[6]
+  L4_2 = self[7]
+  L5_2 = self[6]
   L4_2 = L4_2[L5_2]
   L4_2 = L4_2.effectActive
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L5_2
   L5_2 = L5_2.F4AB0D809948F9F2C
   L7_2 = L3_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L5_2
   L5_2 = L5_2.F1BB592950BCF4570
   L7_2 = L4_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.F55CEE8DCC4CC8ED4
   L7_2 = L3_2 or L7_2
@@ -746,7 +733,7 @@ function L70_1(A0_2)
     L7_2 = L2_2
   end
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.F3FF3D3E92B5C6D98
   L7_2 = L4_2

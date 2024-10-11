@@ -1,3 +1,7 @@
+---@alias C34B559D8D79D8F86 main_ui_pokedex_view_base_PokedexViewBase
+
+---@class main_ui_pokedex_view_base_PokedexViewBase : C34B559D8D79D8F86_prototype
+---@field prototype C34B559D8D79D8F86_prototype
 L55_1 = _ENV
 L56_1 = "C34B559D8D79D8F86"
 L57_1 = L15_1
@@ -45,82 +49,65 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C34B559D8D79D8F86"]
 L69_1 = "__name__"
 L70_1 = "C34B559D8D79D8F86"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "FEDFCB8429ECE1FD2"
-
-function L70_1(A0_2)
+---@class C34B559D8D79D8F86_prototype
+C34B559D8D79D8F86_prototype = L15_1()
+C34B559D8D79D8F86.prototype = C34B559D8D79D8F86_prototype
+--- main.ui.pokedex.view.base.PokedexViewBase.get_isViewState
+function C34B559D8D79D8F86_prototype:FEDFCB8429ECE1FD2()
   local L1_2
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "FCE8975C56C10688D"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.get_isSetup
+function C34B559D8D79D8F86_prototype:FCE8975C56C10688D()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "F1EDCE9F436C682F7"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.StopModelAnime__6lZmizu
+function C34B559D8D79D8F86_prototype:F1EDCE9F436C682F7()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.Setup
+function C34B559D8D79D8F86_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C9CC979169E6BA3A6
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "pokedex"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[6] = L2_2
+  self[6] = L2_2
   L2_2 = c69ACCC6F
   L2_2 = L2_2.f3F98EEAD
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[7] = L2_2
-  A0_2[3] = true
+  self[7] = L2_2
+  self[3] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.PreUpdate
+function C34B559D8D79D8F86_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[13]
+    L3_2 = self[13]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[13]
+      L2_2 = self[13]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -168,36 +155,30 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "FE2823709CB81AA04"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.ViewStart
+function C34B559D8D79D8F86_prototype:FE2823709CB81AA04()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c69ACCC6F
   L2_2 = L2_2.fEFEFCCBE
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = c69ACCC6F
     L2_2 = L2_2.f3F98EEAD
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L2_2 = L2_2(L3_2)
-    A0_2[7] = L2_2
+    self[7] = L2_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "F473B660093398659"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.ViewUpdate
+function C34B559D8D79D8F86_prototype:F473B660093398659()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[15]
+  L1_2 = self[15]
   if nil ~= L1_2 then
-    L1_2 = A0_2[15]
+    L1_2 = self[15]
     L2_2 = L1_2
     L1_2 = L1_2.FF27E98FDE7F51A7B
     L3_2 = 7
@@ -208,15 +189,15 @@ function L70_1(A0_2)
       L1_2()
     end
   end
-  L1_2 = A0_2[11]
+  L1_2 = self[11]
   if nil ~= L1_2 then
     L1_2 = L10_1.coroutine
     L1_2 = L1_2.status
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     L2_2 = L2_2[1]
     L1_2 = L1_2(L2_2)
     if "dead" ~= L1_2 then
-      L1_2 = A0_2[11]
+      L1_2 = self[11]
       L2_2 = nil
       L3_2 = L62_1
       L4_2 = L64_1.pack
@@ -260,19 +241,19 @@ function L70_1(A0_2)
         L6_2 = L6_2 .. L7_2
         L4_2(L5_2, L6_2)
       end
-      A0_2[14] = 1
+      self[14] = 1
       return
     end
   end
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   if nil ~= L1_2 then
     L1_2 = L10_1.coroutine
     L1_2 = L1_2.status
-    L2_2 = A0_2[12]
+    L2_2 = self[12]
     L2_2 = L2_2[1]
     L1_2 = L1_2(L2_2)
     if "dead" ~= L1_2 then
-      L1_2 = A0_2[12]
+      L1_2 = self[12]
       L2_2 = nil
       L3_2 = L62_1
       L4_2 = L64_1.pack
@@ -316,20 +297,17 @@ function L70_1(A0_2)
         L6_2 = L6_2 .. L7_2
         L4_2(L5_2, L6_2)
       end
-      A0_2[14] = 1
+      self[14] = 1
       return
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "FB2651C2F0ACEEDFD"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.ViewEnd
+function C34B559D8D79D8F86_prototype:FB2651C2F0ACEEDFD(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
-  L3_2 = A0_2[13]
+  L2_2 = self
+  L3_2 = self[13]
   if nil ~= L3_2 then
     return
   end
@@ -363,66 +341,51 @@ function L70_1(A0_2, A1_2)
   
   L5_2 = "pokedex end sequence"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[13] = L3_2
+  self[13] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "FA083AFA3630E5D06"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.FA083AFA3630E5D06
+function C34B559D8D79D8F86_prototype:FA083AFA3630E5D06()
   local L1_2
   L1_2 = false
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "FE75515C2B6F3DC3A"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.FE75515C2B6F3DC3A
+function C34B559D8D79D8F86_prototype:FE75515C2B6F3DC3A(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FE07D31049D7FB0AB
+  L4_2 = self
+  L3_2 = self.FE07D31049D7FB0AB
   L5_2 = A1_2
   L6_2 = A2_2
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "FD3A14038FF7D08DA"
-
-function L70_1(A0_2, A1_2)
-  A0_2[9] = A1_2
+--- main.ui.pokedex.view.base.PokedexViewBase.SetPokedexView
+function C34B559D8D79D8F86_prototype:FD3A14038FF7D08DA(A1_2)
+  self[9] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "FE0EBB34B8A1B41AB"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.SetViewControl
+function C34B559D8D79D8F86_prototype:FE0EBB34B8A1B41AB(A1_2)
   local L2_2, L3_2
   if A1_2 then
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = L2_2
     L2_2 = L2_2.f89358001
     L2_2(L3_2)
   else
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = L2_2
     L2_2 = L2_2.f1EA0CCF2
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "FA23D39922B76B247"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.SetVisible
+function C34B559D8D79D8F86_prototype:FA23D39922B76B247(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L4_2 = L3_2
   L3_2 = L3_2.FA23D39922B76B247
   L5_2 = A1_2
@@ -430,74 +393,65 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "F1BEBE27672EC9F89"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.NextView
+function C34B559D8D79D8F86_prototype:F1BEBE27672EC9F89(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   if L2_2 == A1_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F16D522CA6781E0B1
+  L3_2 = self
+  L2_2 = self.F16D522CA6781E0B1
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   L3_2 = L2_2
   L2_2 = L2_2.FAB03172B79C338E0
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = A1_2
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "F0CEB621B2A7D0D8B"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.BackView
+function C34B559D8D79D8F86_prototype:F0CEB621B2A7D0D8B()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.f1EA0CCF2
   L1_2(L2_2)
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L2_2 = L1_2
   L1_2 = L1_2.F0CEB621B2A7D0D8B
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L1_2 = L1_2(L2_2, L3_2)
   if nil == L1_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F16D522CA6781E0B1
+  L3_2 = self
+  L2_2 = self.F16D522CA6781E0B1
   L4_2 = L1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "F16D522CA6781E0B1"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.SetAction
+function C34B559D8D79D8F86_prototype:F16D522CA6781E0B1(A1_2)
   local L2_2, L3_2, L4_2
   if 0 == A1_2 then
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = L2_2
     L2_2 = L2_2.fCDC3DEA9
     L4_2 = "Top"
     L2_2(L3_2, L4_2)
   end
   if 1 == A1_2 then
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = L2_2
     L2_2 = L2_2.fCDC3DEA9
     L4_2 = "List"
     L2_2(L3_2, L4_2)
   end
   if 2 == A1_2 then
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = L2_2
     L2_2 = L2_2.fCDC3DEA9
     L4_2 = "Detail"
@@ -505,13 +459,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "F74B8F08F4EBC769A"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.CreateDeteilCoroutine
+function C34B559D8D79D8F86_prototype:F74B8F08F4EBC769A()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.new
   
@@ -573,29 +524,26 @@ function L70_1(A0_2)
   
   L4_2 = "pokedex details sequence"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[11] = L2_2
+  self[11] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "FE07D31049D7FB0AB"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.CreateDistributionCoroutine
+function C34B559D8D79D8F86_prototype:FE07D31049D7FB0AB(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L3_2 = A0_2
-  L4_2 = A0_2[9]
+  L3_2 = self
+  L4_2 = self[9]
   L5_2 = L4_2
   L4_2 = L4_2.F24DAB180A2F4D679
   L6_2 = 5
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L5_2 = L4_2
   L4_2 = L4_2.f1EA0CCF2
   L4_2(L5_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F1EDCE9F436C682F7
+  L5_2 = self
+  L4_2 = self.F1EDCE9F436C682F7
   L4_2 = L4_2(L5_2)
-  A0_2[4] = 15
+  self[4] = 15
   L5_2 = nil
   L6_2 = C1DB14DCC9D7634FA
   L6_2 = L6_2.new
@@ -667,36 +615,27 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
-  A0_2[12] = L6_2
+  self[12] = L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "F6704FDB2D1133909"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.OnDetailEndCallBack
+function C34B559D8D79D8F86_prototype:F6704FDB2D1133909()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "F83288EAFCB695827"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.F83288EAFCB695827
+function C34B559D8D79D8F86_prototype:F83288EAFCB695827()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "FF68040BACCDE0833"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.GetPokedexDetailView
+function C34B559D8D79D8F86_prototype:FF68040BACCDE0833()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   if nil ~= L1_2 then
     return
   end
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
@@ -728,20 +667,17 @@ function L70_1(A0_2)
   if nil == L5_2 then
     return
   end
-  A0_2[8] = L5_2
+  self[8] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C34B559D8D79D8F86"]["prototype"]
-L69_1 = "FFCF46A0C5931564F"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.base.PokedexViewBase.IsCoroutineStart
+function C34B559D8D79D8F86_prototype:FFCF46A0C5931564F()
   local L1_2, L2_2
-  L1_2 = A0_2[11]
+  L1_2 = self[11]
   if nil ~= L1_2 then
     L1_2 = L10_1.coroutine
     L1_2 = L1_2.status
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     L2_2 = L2_2[1]
     L1_2 = L1_2(L2_2)
     if "dead" ~= L1_2 then

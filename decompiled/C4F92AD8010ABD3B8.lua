@@ -1,3 +1,7 @@
+---@alias C4F92AD8010ABD3B8 main_event_general_area_script_AreaExit_subarea_evilteam
+
+---@class main_event_general_area_script_AreaExit_subarea_evilteam : C4F92AD8010ABD3B8_prototype
+---@field prototype C4F92AD8010ABD3B8_prototype
 L55_1 = _ENV
 L56_1 = "C4F92AD8010ABD3B8"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4F92AD8010ABD3B8"]
 L69_1 = "__name__"
 L70_1 = "C4F92AD8010ABD3B8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F92AD8010ABD3B8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F92AD8010ABD3B8"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C4F92AD8010ABD3B8_prototype
+C4F92AD8010ABD3B8_prototype = L15_1()
+C4F92AD8010ABD3B8.prototype = C4F92AD8010ABD3B8_prototype
+--- main.event.general.area_script.AreaExit_subarea_evilteam.mainBody
+function C4F92AD8010ABD3B8_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C896E82AC366C8E8F
   L1_2 = L1_2.S4539FBABC0D19D63

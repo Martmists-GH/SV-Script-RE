@@ -1,3 +1,7 @@
+---@alias C4DF0202BDAF8FC33 main_event_debug_ui_DebugHyperTrainingGoldCrownEvent
+
+---@class main_event_debug_ui_DebugHyperTrainingGoldCrownEvent : C4DF0202BDAF8FC33_prototype
+---@field prototype C4DF0202BDAF8FC33_prototype
 L55_1 = _ENV
 L56_1 = "C4DF0202BDAF8FC33"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4DF0202BDAF8FC33"]
 L69_1 = "__name__"
 L70_1 = "C4DF0202BDAF8FC33"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DF0202BDAF8FC33"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DF0202BDAF8FC33"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C4DF0202BDAF8FC33_prototype
+C4DF0202BDAF8FC33_prototype = L15_1()
+C4DF0202BDAF8FC33.prototype = C4DF0202BDAF8FC33_prototype
+--- main.event.debug.ui.DebugHyperTrainingGoldCrownEvent.preStart
+function C4DF0202BDAF8FC33_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C78C4EB6375292FB8
   L1_2 = L1_2.SA64AD4A429ED09CF

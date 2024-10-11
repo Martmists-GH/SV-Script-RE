@@ -1,3 +1,7 @@
+---@alias CD680468142FD0648 main_env_wind_WindManager
+
+---@class main_env_wind_WindManager : CD680468142FD0648_prototype
+---@field prototype CD680468142FD0648_prototype
 L55_1 = _ENV
 L56_1 = "CD680468142FD0648"
 L57_1 = L15_1
@@ -154,74 +158,62 @@ L69_1 = "__name__"
 L70_1 = "CD680468142FD0648"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD680468142FD0648"]
-L69_1 = "__interfaces__"
-L70_1 = {}
-L68_1 = _ENV["CD680468142FD0648"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "FBAA93ED1610B61B5"
-
-function L70_1(A0_2)
+L69_1 = "__inte---@class CD680468142FD0648_prototype
+CD680468142FD0648_prototype = L15_1()
+CD680468142FD0648.prototype = CD680468142FD0648_prototype
+--- main.env.wind.WindManager.get_windEnable
+function CD680468142FD0648_prototype:FBAA93ED1610B61B5()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "F5801FD62BDF59B89"
-
-function L70_1(A0_2, A1_2)
+--- main.env.wind.WindManager.set_windEnable
+function CD680468142FD0648_prototype:F5801FD62BDF59B89(A1_2)
   local L2_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if nil ~= L2_2 then
     if A1_2 then
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       L2_2[1] = true
     else
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       L2_2[1] = false
     end
   end
-  A0_2[2] = A1_2
-  L2_2 = A0_2[2]
+  self[2] = A1_2
+  L2_2 = self[2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.env.wind.WindManager.Setup
+function CD680468142FD0648_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = CD680468142FD0648
   L2_2 = L2_2.S7D1E199BBD384D72
   if nil == L2_2 then
     L2_2 = CD680468142FD0648
-    L2_2.S7D1E199BBD384D72 = A0_2
+    L2_2.S7D1E199BBD384D72 = self
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FED89B77B7E80512A
+  L3_2 = self
+  L2_2 = self.FED89B77B7E80512A
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FCE4BD7630EA54C2A
+  L3_2 = self
+  L2_2 = self.FCE4BD7630EA54C2A
   L2_2(L3_2)
   L2_2 = CE8E3FC751F6F89B8
   L2_2 = L2_2.S5B01DC4716781F51
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = CD680468142FD0648
   L4_2 = L4_2.S080141127901232F
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L2_2[1] = true
   L2_2 = CA66BF560955C69B4
   L2_2 = L2_2.SC8223E31D3163519
   L3_2 = L2_2
   L2_2 = L2_2.F9191B545B68EC8BB
-  L4_2 = A0_2
+  L4_2 = self
   L2_2(L3_2, L4_2)
   L2_2 = C05D9E556B496A3DF
   L2_2 = L2_2.SC8223E31D3163519
@@ -235,13 +227,13 @@ function L70_1(A0_2, A1_2)
   L6_2.owner = true
   L6_2.callbackFunc = true
   L5_2.__fields__ = L6_2
-  L5_2.owner = A0_2
+  L5_2.owner = self
   
   function L6_2(A0_3, ...)
     local L1_3, L2_3, L3_3
     L1_3 = L55_1
-    L2_3 = A0_2
-    L3_3 = A0_2.F993763797090B9A6
+    L2_3 = self
+    L3_3 = self.F993763797090B9A6
     L1_3 = L1_3(L2_3, L3_3)
     L2_3, L3_3 = ...
     return L1_3(L2_3, L3_3)
@@ -250,32 +242,29 @@ function L70_1(A0_2, A1_2)
   L5_2.callbackFunc = L6_2
   L4_2, L5_2, L6_2 = L4_2(L5_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.fBE3B2D3B
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.env.wind.WindManager.PreUpdate
+function CD680468142FD0648_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.isSetup
   if not L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FED89B77B7E80512A
+    L3_2 = self
+    L2_2 = self.FED89B77B7E80512A
     L2_2(L3_2)
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2.isSetup
     if not L2_2 then
       return
     end
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FBAA93ED1610B61B5
+  L3_2 = self
+  L2_2 = self.FBAA93ED1610B61B5
   L2_2 = L2_2(L3_2)
   if not L2_2 then
     return
@@ -287,30 +276,27 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.fC0E2CAD0
   L2_2 = L2_2(L3_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FCAF62CBF3A3CD77C
+  L4_2 = self
+  L3_2 = self.FCAF62CBF3A3CD77C
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F7A6A76E6D5BF4A10
+  L4_2 = self
+  L3_2 = self.F7A6A76E6D5BF4A10
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FDFCA271B742A3198
+  L4_2 = self
+  L3_2 = self.FDFCA271B742A3198
   L3_2 = L3_2(L4_2)
   if not L3_2 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.fBE3B2D3B
     L3_2(L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.env.wind.WindManager.Destroy
+function CD680468142FD0648_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CE8E3FC751F6F89B8
   L1_2 = L1_2.S866C89BCD59BF200
@@ -319,13 +305,10 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "FCE4BD7630EA54C2A"
-
-function L70_1(A0_2)
+--- main.env.wind.WindManager.InitializeWindParam
+function CD680468142FD0648_prototype:FCE4BD7630EA54C2A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L2_2 = C764E5AE41553760D
   L2_2 = L2_2.S9690841ED751ADD5
   L2_2 = L2_2()
@@ -338,34 +321,34 @@ function L70_1(A0_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2)
   L1_2[1] = 0
   L1_2[2] = L2_2
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L4_2 = L3_2
   L3_2 = L3_2.f1EE06F7C
   L5_2 = cD5675BA5
   L5_2 = L5_2.fFA44D7AF
-  L6_2 = A0_2[9]
+  L6_2 = self[9]
   L6_2 = L6_2[2]
-  L7_2 = A0_2[9]
+  L7_2 = self[9]
   L7_2 = L7_2[1]
   L8_2 = 0
   L5_2, L6_2, L7_2, L8_2 = L5_2(L6_2, L7_2, L8_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.F85F7820C9615DFF7
   L5_2 = CD680468142FD0648
   L5_2 = L5_2.SFBC27DBA14E8A781
-  L6_2 = A0_2[8]
+  L6_2 = self[8]
   L3_2(L4_2, L5_2, L6_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F308FEC51F8FBA32C
+  L4_2 = self
+  L3_2 = self.F308FEC51F8FBA32C
   L5_2 = CA66BF560955C69B4
   L5_2 = L5_2.SC8223E31D3163519
   L5_2 = L5_2[5]
   L5_2 = L5_2.type
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F54733CB0134ABDB3
+  L4_2 = self
+  L3_2 = self.F54733CB0134ABDB3
   L5_2 = L10_1.math
   L5_2 = L5_2.pi
   L5_2 = L5_2 * 2
@@ -378,84 +361,78 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "FCAF62CBF3A3CD77C"
-
-function L70_1(A0_2, A1_2)
+--- main.env.wind.WindManager.UpdateEasingWindDirection
+function CD680468142FD0648_prototype:FCAF62CBF3A3CD77C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.isEasing
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F7141F41530ADA3D6
-    L4_2 = A0_2[5]
+    L3_2 = self
+    L2_2 = self.F7141F41530ADA3D6
+    L4_2 = self[5]
     L5_2 = A1_2
     L2_2 = L2_2(L3_2, L4_2, L5_2)
     L3_2 = L2_2.endEasing
     if L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F5831E592B06069CD
+      L4_2 = self
+      L3_2 = self.F5831E592B06069CD
       L3_2 = L3_2(L4_2)
-      A0_2[5] = L3_2
+      self[5] = L3_2
     end
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     L4_2 = L2_2.value
     L3_2[2] = L4_2
-    L3_2 = A0_2[8]
+    L3_2 = self[8]
     L4_2 = L3_2
     L3_2 = L3_2.f1EE06F7C
     L5_2 = cD5675BA5
     L5_2 = L5_2.fFA44D7AF
-    L6_2 = A0_2[9]
+    L6_2 = self[9]
     L6_2 = L6_2[2]
-    L7_2 = A0_2[9]
+    L7_2 = self[9]
     L7_2 = L7_2[1]
     L8_2 = 0
     L5_2, L6_2, L7_2, L8_2 = L5_2(L6_2, L7_2, L8_2)
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     L4_2 = L3_2
     L3_2 = L3_2.F85F7820C9615DFF7
     L5_2 = CD680468142FD0648
     L5_2 = L5_2.SFBC27DBA14E8A781
-    L6_2 = A0_2[8]
+    L6_2 = self[8]
     L3_2(L4_2, L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "F7A6A76E6D5BF4A10"
-
-function L70_1(A0_2, A1_2)
+--- main.env.wind.WindManager.UpdateEasingWindParam
+function CD680468142FD0648_prototype:F7A6A76E6D5BF4A10(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2.speed
   if nil ~= L2_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L2_2 = L2_2.speed
     L2_2 = L2_2.isEasing
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F7141F41530ADA3D6
-      L4_2 = A0_2[6]
+      L3_2 = self
+      L2_2 = self.F7141F41530ADA3D6
+      L4_2 = self[6]
       L4_2 = L4_2.speed
       L5_2 = A1_2
       L2_2 = L2_2(L3_2, L4_2, L5_2)
       L3_2 = L2_2.endEasing
       if L3_2 then
-        L3_2 = A0_2[6]
-        L5_2 = A0_2
-        L4_2 = A0_2.F5831E592B06069CD
+        L3_2 = self[6]
+        L5_2 = self
+        L4_2 = self.F5831E592B06069CD
         L4_2 = L4_2(L5_2)
         L3_2.speed = L4_2
       end
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L4_2 = L3_2
       L3_2 = L3_2.F4C5EA998514D9674
       L5_2 = CD680468142FD0648
@@ -478,28 +455,28 @@ function L70_1(A0_2, A1_2)
       L3_2(L4_2, L5_2, L6_2, L7_2)
     end
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2.noise
   if nil ~= L2_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L2_2 = L2_2.noise
     L2_2 = L2_2.isEasing
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F7141F41530ADA3D6
-      L4_2 = A0_2[6]
+      L3_2 = self
+      L2_2 = self.F7141F41530ADA3D6
+      L4_2 = self[6]
       L4_2 = L4_2.noise
       L5_2 = A1_2
       L2_2 = L2_2(L3_2, L4_2, L5_2)
       L3_2 = L2_2.endEasing
       if L3_2 then
-        L3_2 = A0_2[6]
-        L5_2 = A0_2
-        L4_2 = A0_2.F5831E592B06069CD
+        L3_2 = self[6]
+        L5_2 = self
+        L4_2 = self.F5831E592B06069CD
         L4_2 = L4_2(L5_2)
         L3_2.noise = L4_2
       end
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L4_2 = L3_2
       L3_2 = L3_2.F4C5EA998514D9674
       L5_2 = CD680468142FD0648
@@ -509,28 +486,28 @@ function L70_1(A0_2, A1_2)
       L3_2(L4_2, L5_2, L6_2, L7_2)
     end
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2.strength
   if nil ~= L2_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L2_2 = L2_2.strength
     L2_2 = L2_2.isEasing
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F7141F41530ADA3D6
-      L4_2 = A0_2[6]
+      L3_2 = self
+      L2_2 = self.F7141F41530ADA3D6
+      L4_2 = self[6]
       L4_2 = L4_2.strength
       L5_2 = A1_2
       L2_2 = L2_2(L3_2, L4_2, L5_2)
       L3_2 = L2_2.endEasing
       if L3_2 then
-        L3_2 = A0_2[6]
-        L5_2 = A0_2
-        L4_2 = A0_2.F5831E592B06069CD
+        L3_2 = self[6]
+        L5_2 = self
+        L4_2 = self.F5831E592B06069CD
         L4_2 = L4_2(L5_2)
         L3_2.strength = L4_2
       end
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L4_2 = L3_2
       L3_2 = L3_2.F4C5EA998514D9674
       L5_2 = CD680468142FD0648
@@ -542,11 +519,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "F5831E592B06069CD"
-
-function L70_1(A0_2)
+--- main.env.wind.WindManager.GetInitEasingParam
+function CD680468142FD0648_prototype:F5831E592B06069CD()
   local L1_2, L2_2, L3_2
   L1_2 = L16_1
   L2_2 = {}
@@ -560,18 +534,15 @@ function L70_1(A0_2)
   L2_2.start = 0.0
   L2_2.target = 0.0
   L2_2.cntTime = 0.0
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L3_2 = L3_2.easingTime
   L2_2.maxTime = L3_2
   L2_2.isEasing = false
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "F7141F41530ADA3D6"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.env.wind.WindManager.CalcEasingValue
+function CD680468142FD0648_prototype:F7141F41530ADA3D6(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = A1_2.cntTime
   L3_2 = L3_2 + A2_2
@@ -618,24 +589,21 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "FDFCA271B742A3198"
-
-function L70_1(A0_2)
+--- main.env.wind.WindManager.IsEasing
+function CD680468142FD0648_prototype:FDFCA271B742A3198()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2.isEasing
   if not L1_2 then
-    L1_2 = A0_2[6]
+    L1_2 = self[6]
     L1_2 = L1_2.speed
     L1_2 = L1_2.isEasing
     if not L1_2 then
-      L1_2 = A0_2[6]
+      L1_2 = self[6]
       L1_2 = L1_2.noise
       L1_2 = L1_2.isEasing
       if not L1_2 then
-        L1_2 = A0_2[6]
+        L1_2 = self[6]
         L1_2 = L1_2.strength
         L1_2 = L1_2.isEasing
         return L1_2
@@ -647,11 +615,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "F970217BDDC4A3AC8"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.env.wind.WindManager.OnWeatherChanged
+function CD680468142FD0648_prototype:F970217BDDC4A3AC8(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = CA66BF560955C69B4
   L3_2 = L3_2.SC8223E31D3163519
@@ -666,58 +631,52 @@ function L70_1(A0_2, A1_2, A2_2)
   if L3_2 > 0 then
     return
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FDFC99FC677ABE447
+  L4_2 = self
+  L3_2 = self.FDFC99FC677ABE447
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FDFC99FC677ABE447
+  L5_2 = self
+  L4_2 = self.FDFC99FC677ABE447
   L6_2 = A2_2
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[4] = L4_2
+  self[4] = L4_2
   if L4_2 ~= L3_2 and 0 ~= L4_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.F54733CB0134ABDB3
-    L7_2 = A0_2[3]
+    L6_2 = self
+    L5_2 = self.F54733CB0134ABDB3
+    L7_2 = self[3]
     L7_2 = L7_2.maxValueByPressure
-    L8_2 = A0_2[3]
+    L8_2 = self[3]
     L8_2 = L8_2.minValueByPressure
     L5_2(L6_2, L7_2, L8_2)
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F308FEC51F8FBA32C
+  L6_2 = self
+  L5_2 = self.F308FEC51F8FBA32C
   L7_2 = A2_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f47BAE49D
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "F993763797090B9A6"
-
-function L70_1(A0_2)
+--- main.env.wind.WindManager.OnHour
+function CD680468142FD0648_prototype:F993763797090B9A6()
   local L1_2, L2_2, L3_2, L4_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F54733CB0134ABDB3
-  L3_2 = A0_2[3]
+  L2_2 = self
+  L1_2 = self.F54733CB0134ABDB3
+  L3_2 = self[3]
   L3_2 = L3_2.maxValueByTime
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L4_2 = L4_2.minValueByTime
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f47BAE49D
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "F54733CB0134ABDB3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.env.wind.WindManager.SetEasingParam
+function CD680468142FD0648_prototype:F54733CB0134ABDB3(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = CD9AE7C27B00EB066
   L3_2 = L3_2.S05B90B9B5A6DE6BC
@@ -738,36 +697,33 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = L10_1.math
   L4_2 = L4_2.pi
   L3_2 = L3_2 * L4_2
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   if 1 == L4_2 then
     L3_2 = L3_2 * -1
   end
-  L4_2 = A0_2[5]
-  L5_2 = A0_2[9]
+  L4_2 = self[5]
+  L5_2 = self[9]
   L5_2 = L5_2[2]
   L4_2.start = L5_2
-  L4_2 = A0_2[5]
-  L5_2 = A0_2[5]
+  L4_2 = self[5]
+  L5_2 = self[5]
   L5_2 = L5_2.start
   L5_2 = L5_2 + L3_2
   L4_2.target = L5_2
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L4_2.cntTime = 0
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = L58_1
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L6_2 = L6_2.easingTime
   L5_2 = L5_2(L6_2)
   L4_2.maxTime = L5_2
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L4_2.isEasing = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "FDFC99FC677ABE447"
-
-function L70_1(A0_2, A1_2)
+--- main.env.wind.WindManager.FDFC99FC677ABE447
+function CD680468142FD0648_prototype:FDFC99FC677ABE447(A1_2)
   local L2_2
   if 0 == A1_2 or 1 == A1_2 or 7 == A1_2 then
     L2_2 = 1
@@ -781,15 +737,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "FED89B77B7E80512A"
-
-function L70_1(A0_2)
+--- main.env.wind.WindManager.SetProperty
+function CD680468142FD0648_prototype:FED89B77B7E80512A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L1_2 = c7B88F8F8
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = c7B88F8F8
@@ -819,7 +772,7 @@ function L70_1(A0_2)
   L7_2 = L3_2
   L8_2 = "wind_pattern"
   L6_2 = L6_2(L7_2, L8_2)
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L8_2 = CA5EA85D96A5EBA15
   L8_2 = L8_2.SAD5CCB7549BC2093
   L9_2 = L3_2
@@ -827,14 +780,14 @@ function L70_1(A0_2)
   L8_2 = L8_2(L9_2, L10_2)
   L7_2.easingTime = L8_2
   if nil ~= L4_2 then
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L8_2 = CA5EA85D96A5EBA15
     L8_2 = L8_2.SAD5CCB7549BC2093
     L9_2 = L4_2
     L10_2 = "max"
     L8_2 = L8_2(L9_2, L10_2)
     L7_2.maxValueByTime = L8_2
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L8_2 = CA5EA85D96A5EBA15
     L8_2 = L8_2.SAD5CCB7549BC2093
     L9_2 = L4_2
@@ -843,14 +796,14 @@ function L70_1(A0_2)
     L7_2.minValueByTime = L8_2
   end
   if nil ~= L5_2 then
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L8_2 = CA5EA85D96A5EBA15
     L8_2 = L8_2.SAD5CCB7549BC2093
     L9_2 = L5_2
     L10_2 = "max"
     L8_2 = L8_2(L9_2, L10_2)
     L7_2.maxValueByPressure = L8_2
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L8_2 = CA5EA85D96A5EBA15
     L8_2 = L8_2.SAD5CCB7549BC2093
     L9_2 = L5_2
@@ -859,7 +812,7 @@ function L70_1(A0_2)
     L7_2.minValueByPressure = L8_2
   end
   if nil ~= L6_2 then
-    L7_2 = A0_2[10]
+    L7_2 = self[10]
     L8_2 = L7_2
     L7_2 = L7_2.resize
     L9_2 = L52_1.__cast
@@ -904,7 +857,7 @@ function L70_1(A0_2)
     end
     
     L8_2 = 0
-    L9_2 = A0_2[10]
+    L9_2 = self[10]
     L9_2 = L9_2.length
     while L8_2 < L9_2 do
       L8_2 = L8_2 + 1
@@ -946,27 +899,24 @@ function L70_1(A0_2)
         L14_2 = L14_2(L15_2, L16_2)
         L13_2.strength = L14_2
         L12_2 = L12_2(L13_2)
-        L13_2 = A0_2[10]
+        L13_2 = self[10]
         L13_2[L10_2] = L12_2
       end
     end
   end
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L7_2.isSetup = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD680468142FD0648"]["prototype"]
-L69_1 = "F308FEC51F8FBA32C"
-
-function L70_1(A0_2, A1_2)
+--- main.env.wind.WindManager.SetWindLightParam
+function CD680468142FD0648_prototype:F308FEC51F8FBA32C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L2_2 = L2_2.length
   if L2_2 <= 0 then
     return
   end
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L3_2 = L52_1.__cast
   L4_2 = A1_2
   L5_2 = L19_1
@@ -978,14 +928,14 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2.speed
   L4_2 = L2_2.noise
   L5_2 = L2_2.strength
-  L6_2 = A0_2[7]
+  L6_2 = self[7]
   L7_2 = L6_2
   L6_2 = L6_2.FE84EB6DC93CDD2B0
   L8_2 = CD680468142FD0648
   L8_2 = L8_2.SFBC27DBA14E8A781
   L9_2 = "Speed"
   L6_2 = L6_2(L7_2, L8_2, L9_2)
-  L7_2 = A0_2[6]
+  L7_2 = self[6]
   L8_2 = L16_1
   L9_2 = {}
   L10_2 = {}
@@ -1012,7 +962,7 @@ function L70_1(A0_2, A1_2)
   L9_2.start = L10_2
   L9_2.target = L3_2
   L9_2.cntTime = 0
-  L10_2 = A0_2[3]
+  L10_2 = self[3]
   L10_2 = L10_2.easingTime
   L9_2.maxTime = L10_2
   L9_2.isEasing = true
@@ -1044,14 +994,14 @@ function L70_1(A0_2, A1_2)
   L10_2 = 100.0 * L10_2
   L11_2 = 0
   L7_2(L8_2, L9_2, L10_2, L11_2)
-  L7_2 = A0_2[7]
+  L7_2 = self[7]
   L8_2 = L7_2
   L7_2 = L7_2.FE84EB6DC93CDD2B0
   L9_2 = CD680468142FD0648
   L9_2 = L9_2.SFBC27DBA14E8A781
   L10_2 = "NoiseScale"
   L7_2 = L7_2(L8_2, L9_2, L10_2)
-  L8_2 = A0_2[6]
+  L8_2 = self[6]
   L9_2 = L16_1
   L10_2 = {}
   L11_2 = {}
@@ -1078,20 +1028,20 @@ function L70_1(A0_2, A1_2)
   L10_2.start = L11_2
   L10_2.target = L4_2
   L10_2.cntTime = 0
-  L11_2 = A0_2[3]
+  L11_2 = self[3]
   L11_2 = L11_2.easingTime
   L10_2.maxTime = L11_2
   L10_2.isEasing = true
   L9_2 = L9_2(L10_2)
   L8_2.noise = L9_2
-  L8_2 = A0_2[7]
+  L8_2 = self[7]
   L9_2 = L8_2
   L8_2 = L8_2.FE84EB6DC93CDD2B0
   L10_2 = CD680468142FD0648
   L10_2 = L10_2.SFBC27DBA14E8A781
   L11_2 = "Strength"
   L8_2 = L8_2(L9_2, L10_2, L11_2)
-  L9_2 = A0_2[6]
+  L9_2 = self[6]
   L10_2 = L16_1
   L11_2 = {}
   L12_2 = {}
@@ -1118,7 +1068,7 @@ function L70_1(A0_2, A1_2)
   L11_2.start = L12_2
   L11_2.target = L5_2
   L11_2.cntTime = 0
-  L12_2 = A0_2[3]
+  L12_2 = self[3]
   L12_2 = L12_2.easingTime
   L11_2.maxTime = L12_2
   L11_2.isEasing = true

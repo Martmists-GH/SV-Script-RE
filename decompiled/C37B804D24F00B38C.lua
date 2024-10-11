@@ -1,3 +1,5 @@
+---@class C37B804D24F00B38C : C37B804D24F00B38C_prototype
+---@field prototype C37B804D24F00B38C_prototype
 L55_1 = _ENV
 L56_1 = "C37B804D24F00B38C"
 L57_1 = L15_1
@@ -348,19 +350,13 @@ L69_1 = "__name__"
 L70_1 = "C37B804D24F00B38C"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C37B804D24F00B38C"]
-L69_1 = "__interfaces__"
-L70_1 = {}
-L68_1 = _ENV["C37B804D24F00B38C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37B804D24F00B38C"]["prototype"]
-L69_1 = "F87972F52753D499F"
-
-function L70_1(A0_2)
+L69_1 = "__inte---@class C37B804D24F00B38C_prototype
+C37B804D24F00B38C_prototype = L15_1()
+C37B804D24F00B38C.prototype = C37B804D24F00B38C_prototype
+--- C37B804D24F00B38C.GetData
+function C37B804D24F00B38C_prototype:F87972F52753D499F()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 

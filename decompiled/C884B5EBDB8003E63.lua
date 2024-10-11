@@ -1,3 +1,7 @@
+---@alias C124D5F06ED8D5B5D main_nushi_iwa_IwaNushiEffectTest
+
+---@class main_nushi_iwa_IwaNushiEffectTest : C124D5F06ED8D5B5D_prototype
+---@field prototype C124D5F06ED8D5B5D_prototype
 L55_1 = _ENV
 L56_1 = "C884B5EBDB8003E63"
 L57_1 = L15_1
@@ -59,11 +63,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C884B5EBDB8003E63"]
 L69_1 = "__name__"
 L70_1 = "C884B5EBDB8003E63"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C884B5EBDB8003E63"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C124D5F06ED8D5B5D_prototype
+C124D5F06ED8D5B5D_prototype = L15_1()
+C124D5F06ED8D5B5D.prototype = C124D5F06ED8D5B5D_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C884B5EBDB8003E63"]["prototype"]
 L69_1 = _ENV["C884B5EBDB8003E63"]

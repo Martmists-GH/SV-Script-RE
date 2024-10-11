@@ -1,3 +1,7 @@
+---@alias C9223941934063ACC main_ui_box_search_state_BoxSearchTypeSelectState
+
+---@class main_ui_box_search_state_BoxSearchTypeSelectState : C9223941934063ACC_prototype
+---@field prototype C9223941934063ACC_prototype
 L55_1 = _ENV
 L56_1 = "C06E44E490868A15D"
 L57_1 = L15_1
@@ -42,11 +46,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C06E44E490868A15D"]
 L69_1 = "__name__"
 L70_1 = "C06E44E490868A15D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C06E44E490868A15D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C9223941934063ACC_prototype
+C9223941934063ACC_prototype = L15_1()
+C9223941934063ACC.prototype = C9223941934063ACC_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C06E44E490868A15D"]["prototype"]
 L69_1 = _ENV["C06E44E490868A15D"]

@@ -1,3 +1,7 @@
+---@alias CA5E54139D368ADB5 main_ui_btlspot_state_machine_web_BattleSpotStateWebTerms
+
+---@class main_ui_btlspot_state_machine_web_BattleSpotStateWebTerms : CA5E54139D368ADB5_prototype
+---@field prototype CA5E54139D368ADB5_prototype
 L55_1 = _ENV
 L56_1 = "CA5E54139D368ADB5"
 L57_1 = L15_1
@@ -41,48 +45,40 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CA5E54139D368ADB5"]
 L69_1 = "__name__"
 L70_1 = "CA5E54139D368ADB5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5E54139D368ADB5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5E54139D368ADB5"]["prototype"]
-L69_1 = "F5BE3D38738EE3C24"
-
-function L70_1(A0_2)
+---@class CA5E54139D368ADB5_prototype
+CA5E54139D368ADB5_prototype = L15_1()
+CA5E54139D368ADB5.prototype = CA5E54139D368ADB5_prototype
+--- main.ui.btlspot.state_machine.web.BattleSpotStateWebTerms.OnEntry
+function CA5E54139D368ADB5_prototype:F5BE3D38738EE3C24()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FD8ABEE5C76044721
+  L2_2 = self
+  L1_2 = self.FD8ABEE5C76044721
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.F8E6976B9790C6FCC
   L3_2 = 9
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FD8ABEE5C76044721
+  L2_2 = self
+  L1_2 = self.FD8ABEE5C76044721
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.F2FBB004A3763CEBD
   L3_2 = 9
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[11] = L1_2
+  self[11] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5E54139D368ADB5"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.state_machine.web.BattleSpotStateWebTerms.OnUpdate
+function CA5E54139D368ADB5_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.F96EA28F400597FA0
   L4_2 = E1731A5EFC21F1B20
   L4_2 = L4_2.Blank
   L2_2(L3_2, L4_2)
   while true do
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     L3_2 = L2_2
     L2_2 = L2_2.F02C094ED00192342
     L2_2 = L2_2(L3_2)
@@ -95,8 +91,8 @@ function L70_1(A0_2, A1_2)
     L2_2(L3_2)
   end
   L2_2 = false
-  L4_2 = A0_2
-  L3_2 = A0_2.F5C9172B2FBCAEF25
+  L4_2 = self
+  L3_2 = self.F5C9172B2FBCAEF25
   L3_2 = L3_2(L4_2)
   L2_2 = L3_2
   L3_2 = C10578806AC30DCA3
@@ -115,7 +111,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = L2_2
   L4_2(L5_2, L6_2)
   if true == L2_2 then
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L5_2 = L4_2
     L4_2 = L4_2.F28EAF3B3AA178E3E
     L6_2 = C6F7DA200CD50F13F
@@ -123,7 +119,7 @@ function L70_1(A0_2, A1_2)
     L6_2 = L6_2()
     L4_2(L5_2, L6_2)
   else
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L5_2 = L4_2
     L4_2 = L4_2.F28EAF3B3AA178E3E
     L6_2 = C42FEBF8E516AEB2D
@@ -133,11 +129,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5E54139D368ADB5"]["prototype"]
-L69_1 = "F5C9172B2FBCAEF25"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.web.BattleSpotStateWebTerms.FlowWebApplet
+function CA5E54139D368ADB5_prototype:F5C9172B2FBCAEF25()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = cF9268A0D
   L1_2 = L1_2.f5B6373D5

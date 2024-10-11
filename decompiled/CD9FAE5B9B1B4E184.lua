@@ -1,3 +1,7 @@
+---@alias C87A67F9F34313469 main_ui_btlspot_BattleSpotUISceneLoader
+
+---@class main_ui_btlspot_BattleSpotUISceneLoader : C87A67F9F34313469_prototype
+---@field prototype C87A67F9F34313469_prototype
 L55_1 = _ENV
 L56_1 = "CD9FAE5B9B1B4E184"
 L57_1 = L15_1
@@ -41,11 +45,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD9FAE5B9B1B4E184"]
 L69_1 = "__name__"
 L70_1 = "CD9FAE5B9B1B4E184"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD9FAE5B9B1B4E184"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C87A67F9F34313469_prototype
+C87A67F9F34313469_prototype = L15_1()
+C87A67F9F34313469.prototype = C87A67F9F34313469_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD9FAE5B9B1B4E184"]["prototype"]
 L69_1 = _ENV["CD9FAE5B9B1B4E184"]

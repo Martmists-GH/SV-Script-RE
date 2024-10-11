@@ -1,3 +1,7 @@
+---@alias C830A244A90BD12F6 main_ui_net_topmenu_NetTopMenuUIManager
+
+---@class main_ui_net_topmenu_NetTopMenuUIManager : C830A244A90BD12F6_prototype
+---@field prototype C830A244A90BD12F6_prototype
 L55_1 = _ENV
 L56_1 = "C830A244A90BD12F6"
 L57_1 = L15_1
@@ -63,32 +67,27 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C830A244A90BD12F6"]
 L69_1 = "__name__"
 L70_1 = "C830A244A90BD12F6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C830A244A90BD12F6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C830A244A90BD12F6"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+---@class C830A244A90BD12F6_prototype
+C830A244A90BD12F6_prototype = L15_1()
+C830A244A90BD12F6.prototype = C830A244A90BD12F6_prototype
+--- main.ui.net_topmenu.NetTopMenuUIManager.Update
+function C830A244A90BD12F6_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2[1]
   if 0 == L2_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.FEB6685558281F194
     L3_2(L4_2)
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.F93E432AA090A48FA
     L3_2 = L3_2(L4_2)
     if not L3_2 then
       return
     end
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.F28EAF3B3AA178E3E
     L5_2 = C30AA91A129933E1F
@@ -98,14 +97,14 @@ function L70_1(A0_2, A1_2)
     L3_2(L4_2, L5_2, L6_2)
     L3_2 = EDF002B45CA145036
     L3_2 = L3_2.Main
-    A0_2[4] = L3_2
+    self[4] = L3_2
   elseif 1 == L2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.FEB6685558281F194
     L5_2 = A1_2
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.F75AE99905847976F
     L3_2 = L3_2(L4_2)
@@ -115,33 +114,27 @@ function L70_1(A0_2, A1_2)
       L3_2()
       L3_2 = EDF002B45CA145036
       L3_2 = L3_2.End
-      A0_2[4] = L3_2
+      self[4] = L3_2
     end
   elseif 2 == L2_2 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f5C99C0AC
     L3_2(L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C830A244A90BD12F6"]["prototype"]
-L69_1 = "FED7B72847C791472"
-
-function L70_1(A0_2)
+--- main.ui.net_topmenu.NetTopMenuUIManager.GetSceneLoader
+function C830A244A90BD12F6_prototype:FED7B72847C791472()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C830A244A90BD12F6"]["prototype"]
-L69_1 = "F2FBB004A3763CEBD"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_topmenu.NetTopMenuUIManager.GetUI
+function C830A244A90BD12F6_prototype:F2FBB004A3763CEBD(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F2FBB004A3763CEBD
   L4_2 = A1_2

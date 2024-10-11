@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CB7346660FD903783"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "__name__"
-L70_1 = "CB7346660FD903783"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S0FC914CD732E4287"
+---@alias CB7346660FD903783 main_event_command_NushiCommand
 
-function L70_1(A0_2)
+---@class main_event_command_NushiCommand
+CB7346660FD903783 = L15_1()
+CB7346660FD903783.new = {}
+CB7346660FD903783.__name__ = "CB7346660FD903783"
+--- main.event.command.NushiCommand.HikoBattleResult
+function CB7346660FD903783.S0FC914CD732E4287(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C52DCD4C002C629D9
   L1_2 = L1_2.S7D1E199BBD384D72
@@ -28,11 +19,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SB7B4E8BFC3CFE838"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.NushiCommand.HaganeBattleResult
+function CB7346660FD903783.SB7B4E8BFC3CFE838(A0_2, A1_2)
   local L2_2, L3_2
   L2_2 = C749327AA72D48137
   L2_2 = L2_2.S7D1E199BBD384D72
@@ -55,11 +43,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S17DAD6025D12B8BB"
-
-function L70_1(A0_2)
+--- main.event.command.NushiCommand.S17DAD6025D12B8BB
+function CB7346660FD903783.S17DAD6025D12B8BB(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C15231F1A682818BF
   L1_2 = L1_2.S7D1E199BBD384D72
@@ -73,11 +58,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S865E7D30526D4322"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.NushiCommand.SetActiveModel
+function CB7346660FD903783.S865E7D30526D4322(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if A1_2 then
     if 0 == A0_2 then
@@ -124,11 +106,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SB012453970749631"
-
-function L70_1(A0_2)
+--- main.event.command.NushiCommand.SetDefultPos
+function CB7346660FD903783.SB012453970749631(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -168,11 +147,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SD766C135E519A454"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.NushiCommand.SetForcePos
+function CB7346660FD903783.SD766C135E519A454(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -213,11 +189,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S13FB1E2BA39130E9"
-
-function L70_1(A0_2)
+--- main.event.command.NushiCommand.WallDestructionPlay
+function CB7346660FD903783.S13FB1E2BA39130E9(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C15231F1A682818BF
   L1_2 = L1_2.S7D1E199BBD384D72
@@ -233,11 +206,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SECCB009FF55D29E0"
-
-function L70_1(A0_2)
+--- main.event.command.NushiCommand.ForceSceneLoad
+function CB7346660FD903783.SECCB009FF55D29E0(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C15231F1A682818BF
   L1_2 = L1_2.S7D1E199BBD384D72
@@ -275,11 +245,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SFD497B6E6B35ABC0"
-
-function L70_1()
+--- main.event.command.NushiCommand.CallLegendEvent
+function CB7346660FD903783.SFD497B6E6B35ABC0()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = C0947699205C3B87B
   L0_2 = L0_2.SD86497717211930C
@@ -307,11 +274,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S8704DF69BC652D87"
-
-function L70_1(A0_2)
+--- main.event.command.NushiCommand.IwaNushiJumpEvent
+function CB7346660FD903783.S8704DF69BC652D87(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -444,11 +408,8 @@ function L70_1(A0_2)
   L7_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S88DE5A65659B369D"
-
-function L70_1()
+--- main.event.command.NushiCommand.IwaNushiExcapeEvent
+function CB7346660FD903783.S88DE5A65659B369D()
   local L0_2, L1_2
   L0_2 = C7A48B67ECD6FFD3B
   L0_2 = L0_2.S7D1E199BBD384D72
@@ -468,11 +429,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S4C0751AD5312B9B7"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.NushiCommand.RockClashEvent
+function CB7346660FD903783.S4C0751AD5312B9B7(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L2_2 = CD6E40BD5CE9657FC
   L2_2 = L2_2.SEBA16B993EA0E484
@@ -1239,11 +1197,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S86DA049D01B9FFCB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.NushiCommand.CallBattle
+function CB7346660FD903783.S86DA049D01B9FFCB(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2
   if nil == A2_2 then
     A2_2 = false
@@ -1853,11 +1808,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L11_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S4D3D34BF8BFC555A"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.NushiCommand.S4D3D34BF8BFC555A
+function CB7346660FD903783.S4D3D34BF8BFC555A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = A1_2
   L2_2 = A1_2.F357A65DD82CA566E
@@ -1911,11 +1863,8 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S931FCFB0A39CDB90"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.NushiCommand.GetBattleID
+function CB7346660FD903783.S931FCFB0A39CDB90(A0_2, A1_2)
   local L2_2
   if 0 == A0_2 then
     if not A1_2 then
@@ -1971,11 +1920,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SB77DA7B290E8B663"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.NushiCommand.SB77DA7B290E8B663
+function CB7346660FD903783.SB77DA7B290E8B663(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = A0_2.owner
   L3_2 = L2_2
@@ -2006,11 +1952,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SC80E11D5C336BD74"
-
-function L70_1(A0_2)
+--- main.event.command.NushiCommand.SC80E11D5C336BD74
+function CB7346660FD903783.SC80E11D5C336BD74(A0_2)
   local L1_2, L2_2, L3_2
   if 0 == A0_2 then
     L1_2 = L31_1.string
@@ -2054,11 +1997,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SF3B520963F8DE62F"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.NushiCommand.SecondBattleExcapeEvent
+function CB7346660FD903783.SF3B520963F8DE62F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = nil
   L3_2 = nil
@@ -2219,11 +2159,8 @@ function L70_1(A0_2, A1_2)
   L9_2.SC161BCE18E8AF456 = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S3672666E60B23DF6"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.NushiCommand.DragonSecondBattleExcapeEvent
+function CB7346660FD903783.S3672666E60B23DF6(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A0_2
   L2_2 = A0_2.FA48EDE715E501A78
@@ -2248,11 +2185,8 @@ function L70_1(A0_2, A1_2)
   L2_2.SC161BCE18E8AF456 = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S31FCB9B33F32EA43"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.NushiCommand.SushiDragonBattleEndEvent
+function CB7346660FD903783.S31FCB9B33F32EA43(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = C39256DA3C22DD6D4
   L2_2 = L2_2.S7D1E199BBD384D72
@@ -2428,11 +2362,8 @@ function L70_1(A0_2, A1_2)
   L9_2(L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SE6353C0CF2BC3560"
-
-function L70_1(A0_2)
+--- main.event.command.NushiCommand.HaganeNushiFirstBattleEvent
+function CB7346660FD903783.SE6353C0CF2BC3560(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = C929486B36C03E170
   L1_2 = L1_2.S6A657E3C827E0DC3
@@ -2531,11 +2462,8 @@ function L70_1(A0_2)
   L5_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S351725B06D3D5222"
-
-function L70_1()
+--- main.event.command.NushiCommand.HaganeNushiExcapeEvent
+function CB7346660FD903783.S351725B06D3D5222()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L0_2 = C139D57D042200137
   L0_2 = L0_2.S7D1E199BBD384D72
@@ -2634,11 +2562,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S08B5F684559FBE92"
-
-function L70_1()
+--- main.event.command.NushiCommand.S08B5F684559FBE92
+function CB7346660FD903783.S08B5F684559FBE92()
   local L0_2, L1_2, L2_2
   L0_2 = CB7346660FD903783
   L0_2 = L0_2.SC161BCE18E8AF456
@@ -2658,11 +2583,8 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SAD05FF57A89C616D"
-
-function L70_1(A0_2)
+--- main.event.command.NushiCommand.HikoNushiFirstBattleEvent
+function CB7346660FD903783.SAD05FF57A89C616D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C52DCD4C002C629D9
   L1_2 = L1_2.S7D1E199BBD384D72
@@ -2733,11 +2655,8 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S96AC0EE312A4BB9B"
-
-function L70_1(A0_2)
+--- main.event.command.NushiCommand.DragonNushiFirstBattleEvent
+function CB7346660FD903783.S96AC0EE312A4BB9B(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CEC47F5D6AD9A0D95
   L1_2 = L1_2.S7D1E199BBD384D72
@@ -2794,11 +2713,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SF3809275028DAF4C"
-
-function L70_1(A0_2)
+--- main.event.command.NushiCommand.SushiDragonBattleEvent
+function CB7346660FD903783.SF3809275028DAF4C(A0_2)
   local L1_2, L2_2
   L1_2 = CD6E40BD5CE9657FC
   L1_2.S643F130630AFAA29 = true
@@ -2845,11 +2761,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SE344CF52845F8368"
-
-function L70_1()
+--- main.event.command.NushiCommand.SushiDragonCallBattle
+function CB7346660FD903783.SE344CF52845F8368()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = C39256DA3C22DD6D4
   L0_2 = L0_2.S7D1E199BBD384D72
@@ -2944,11 +2857,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SC1A3969725E25C76"
-
-function L70_1()
+--- main.event.command.NushiCommand.HikoNushiEscapeEvent
+function CB7346660FD903783.SC1A3969725E25C76()
   local L0_2, L1_2
   L0_2 = C97862D1842859795
   L0_2 = L0_2.S7D1E199BBD384D72
@@ -2968,11 +2878,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S0ED3DFCA20ED583D"
-
-function L70_1(A0_2)
+--- main.event.command.NushiCommand.JimenNushiFirstBattleEvent
+function CB7346660FD903783.S0ED3DFCA20ED583D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = CC6FE82819C6E1D55
   L1_2 = L1_2.S32FAD7D4DF3ACA95
@@ -3068,11 +2975,8 @@ function L70_1(A0_2)
   L5_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "S196DF57D14C35D61"
-
-function L70_1()
+--- main.event.command.NushiCommand.JimenNushiExcapeEvent
+function CB7346660FD903783.S196DF57D14C35D61()
   local L0_2, L1_2
   L0_2 = CE613880BFE6C0E5F
   L0_2 = L0_2.S7D1E199BBD384D72
@@ -3092,11 +2996,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SC6911A9404DD3CEE"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.NushiCommand.Fade_020
+function CB7346660FD903783.SC6911A9404DD3CEE(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if nil == A1_2 then
     A1_2 = 0.5
@@ -3127,11 +3028,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7346660FD903783"]
-L69_1 = "SEE3BC534DAE6C513"
-
-function L70_1()
+--- main.event.command.NushiCommand.SEE3BC534DAE6C513
+function CB7346660FD903783.SEE3BC534DAE6C513()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = nil
   L1_2 = c016374C1

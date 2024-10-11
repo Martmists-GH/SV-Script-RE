@@ -1,3 +1,7 @@
+---@alias C8F8E9870BDBF8FE8 main_ui_scan_parts_ScanCamerawork
+
+---@class main_ui_scan_parts_ScanCamerawork : C8F8E9870BDBF8FE8_prototype
+---@field prototype C8F8E9870BDBF8FE8_prototype
 L55_1 = _ENV
 L56_1 = "C8F8E9870BDBF8FE8"
 L57_1 = L15_1
@@ -160,45 +164,34 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8F8E9870BDBF8FE8"]
 L69_1 = "__name__"
 L70_1 = "C8F8E9870BDBF8FE8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "FFF5B28DDA11F803C"
-
-function L70_1(A0_2, A1_2)
-  A0_2[9] = A1_2
+---@class C8F8E9870BDBF8FE8_prototype
+C8F8E9870BDBF8FE8_prototype = L15_1()
+C8F8E9870BDBF8FE8.prototype = C8F8E9870BDBF8FE8_prototype
+--- main.ui.scan.parts.ScanCamerawork.SetCallback
+function C8F8E9870BDBF8FE8_prototype:FFF5B28DDA11F803C(A1_2)
+  self[9] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "F529A4726D96BF663"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.scan.parts.ScanCamerawork.Set
+function C8F8E9870BDBF8FE8_prototype:F529A4726D96BF663(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2.angle = A1_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F9C6BCE2B7B79D70F
+  L3_2 = self
+  L2_2 = self.F9C6BCE2B7B79D70F
   L2_2(L3_2)
-  A0_2[4] = 0
-  L2_2 = A0_2[5]
+  self[4] = 0
+  L2_2 = self[5]
   L3_2 = L58_1
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L4_2 = L4_2[2]
   L4_2 = L4_2.aim
   L3_2 = L3_2(L4_2)
   L2_2.aim_dist = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "F74C093E903CBE9F1"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.scan.parts.ScanCamerawork.SetEase
+function C8F8E9870BDBF8FE8_prototype:F74C093E903CBE9F1(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L5_2 = A2_2
   L4_2 = A2_2.fCA247E7A
@@ -209,14 +202,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2 = L4_2
   L8_2 = L5_2
   L9_2 = L6_2
-  L10_2 = A0_2[2]
+  L10_2 = self[2]
   L10_2 = L10_2[2]
   L10_2 = L10_2.dist
-  L11_2 = A0_2[2]
+  L11_2 = self[2]
   L11_2 = L11_2[2]
   L11_2 = L11_2.aim
   L10_2 = L10_2 + L11_2
-  L11_2 = A0_2[2]
+  L11_2 = self[2]
   L11_2 = L11_2[2]
   L11_2 = L11_2.dist
   L12_2 = L16_1
@@ -267,19 +260,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L14_2 = L14_2(L15_2)
   L13_2.value = L14_2
   L12_2 = L12_2(L13_2)
-  A0_2[8] = L12_2
+  self[8] = L12_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.scan.parts.ScanCamerawork.Update
+function C8F8E9870BDBF8FE8_prototype:FEB6685558281F194(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2.same_id_lockon_wait_time
   if L3_2 > 0 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2.same_id_lockon_wait_time
     L4_2 = L4_2 - A2_2
     L3_2.same_id_lockon_wait_time = L4_2
@@ -300,81 +290,78 @@ function L70_1(A0_2, A1_2, A2_2)
     L3_2 = L3_2 * -1
     A1_2[2] = L3_2
   end
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = {}
   L5_2 = A1_2[1]
   L6_2 = A1_2[2]
   L4_2[1] = L5_2
   L4_2[2] = L6_2
   L3_2.input = L4_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   if 1 == L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FD757032AECFE0526
-    L5_2 = A0_2[3]
+    L4_2 = self
+    L3_2 = self.FD757032AECFE0526
+    L5_2 = self[3]
     L5_2 = L5_2.aim
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.FF7B422B33C161DD6
+      L4_2 = self
+      L3_2 = self.FF7B422B33C161DD6
       L3_2(L4_2)
     end
   end
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   if 0 == L3_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F65BAFED43CECE00A
+    L5_2 = self
+    L4_2 = self.F65BAFED43CECE00A
     L6_2 = A1_2
     L4_2(L5_2, L6_2)
   elseif 1 == L3_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.FD5C94A9B54CDE90D
+    L5_2 = self
+    L4_2 = self.FD5C94A9B54CDE90D
     L6_2 = A1_2
     L7_2 = A2_2
     L4_2(L5_2, L6_2, L7_2)
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F9C6BCE2B7B79D70F
+  L5_2 = self
+  L4_2 = self.F9C6BCE2B7B79D70F
   L4_2(L5_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FF014786CC8ECB108
+  L5_2 = self
+  L4_2 = self.FF014786CC8ECB108
   L6_2 = A2_2
   L4_2(L5_2, L6_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F7F57D1F7C666F59E
+  L5_2 = self
+  L4_2 = self.F7F57D1F7C666F59E
   L4_2(L5_2)
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   if 1 == L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F21531C7CE58478D3
+    L5_2 = self
+    L4_2 = self.F21531C7CE58478D3
     L4_2(L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "F95AB1C03564F8AA8"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.scan.parts.ScanCamerawork.Scan
+function C8F8E9870BDBF8FE8_prototype:F95AB1C03564F8AA8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2[10]
   if L2_2 then
     L2_2 = nil
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     if 1 == L3_2 then
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L3_2 = L3_2.input
       L3_2 = L3_2[1]
       if 0.0 == L3_2 then
-        L3_2 = A0_2[5]
+        L3_2 = self[5]
         L3_2 = L3_2.input
         L3_2 = L3_2[2]
         if 0.0 == L3_2 then
           L3_2 = nil
           L4_2 = c016374C1
           L4_2 = L4_2.f8C7D4F4D
-          L5_2 = A0_2[3]
+          L5_2 = self[3]
           L5_2 = L5_2.aim
           L6_2 = L3_2
           L4_2 = L4_2(L5_2, L6_2)
@@ -388,10 +375,10 @@ function L70_1(A0_2, A1_2)
       return
     end
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2[6]
   if not L2_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     if 1 == L2_2 then
       return
     end
@@ -426,16 +413,16 @@ function L70_1(A0_2, A1_2)
   L15_2 = L7_2
   L16_2 = L9_2
   L10_2 = L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
-  L11_2 = A0_2[2]
+  L11_2 = self[2]
   L11_2 = L11_2[6]
   if L11_2 then
-    L11_2 = A0_2[4]
+    L11_2 = self[4]
     if 1 == L11_2 then
       L11_2 = nil
       L12_2 = nil
       L13_2 = c016374C1
       L13_2 = L13_2.f4555D276
-      L14_2 = A0_2[3]
+      L14_2 = self[3]
       L14_2 = L14_2.aim
       L15_2 = L12_2
       L13_2 = L13_2(L14_2, L15_2)
@@ -451,7 +438,7 @@ function L70_1(A0_2, A1_2)
         L11_2 = true
       end
       if not L11_2 then
-        L13_2 = A0_2[3]
+        L13_2 = self[3]
         L13_2 = L13_2.aim
         L14_2 = L13_2
         L13_2 = L13_2.fB3CF1DEB
@@ -467,14 +454,14 @@ function L70_1(A0_2, A1_2)
     end
   end
   ::lbl_103::
-  L11_2 = A0_2[5]
+  L11_2 = self[5]
   L11_2 = L11_2.same_id_lockon_wait_time
   if L11_2 > 0 then
     L11_2 = nil
     L12_2 = nil
     L13_2 = c016374C1
     L13_2 = L13_2.f4555D276
-    L14_2 = A0_2[3]
+    L14_2 = self[3]
     L14_2 = L14_2.aim
     L15_2 = L12_2
     L13_2 = L13_2(L14_2, L15_2)
@@ -493,7 +480,7 @@ function L70_1(A0_2, A1_2)
       L14_2 = L10_2
       L13_2 = L10_2.fB3CF1DEB
       L13_2 = L13_2(L14_2)
-      L14_2 = A0_2[5]
+      L14_2 = self[5]
       L14_2 = L14_2.prev_id
       if L13_2 == L14_2 then
         return
@@ -507,7 +494,7 @@ function L70_1(A0_2, A1_2)
   L14_2 = L11_2
   L12_2 = L12_2(L13_2, L14_2)
   if L12_2 then
-    L12_2 = A0_2[4]
+    L12_2 = self[4]
     if 0 == L12_2 then
       L12_2 = c452EA11F
       L12_2 = L12_2.fB41FD22F
@@ -564,7 +551,7 @@ function L70_1(A0_2, A1_2)
         L20_2 = nil
         L21_2 = c016374C1
         L21_2 = L21_2.f8C7D4F4D
-        L22_2 = A0_2[3]
+        L22_2 = self[3]
         L22_2 = L22_2.aim
         L23_2 = L20_2
         L21_2 = L21_2(L22_2, L23_2)
@@ -573,22 +560,22 @@ function L70_1(A0_2, A1_2)
           L21_2 = L21_2.SC6181320B46854EE
           L22_2 = "PLAY_UI_LOCK_ON_END"
           L21_2(L22_2)
-          L21_2 = A0_2[3]
+          L21_2 = self[3]
           L21_2.aim = nil
         end
-        A0_2[4] = 0
+        self[4] = 0
         return
       end
     end
-    L13_2 = A0_2
-    L12_2 = A0_2.FD757032AECFE0526
+    L13_2 = self
+    L12_2 = self.FD757032AECFE0526
     L14_2 = L10_2
     L12_2 = L12_2(L13_2, L14_2)
     if not L12_2 then
       L12_2 = nil
       L13_2 = c016374C1
       L13_2 = L13_2.f4555D276
-      L14_2 = A0_2[3]
+      L14_2 = self[3]
       L14_2 = L14_2.aim
       L15_2 = L12_2
       L13_2 = L13_2(L14_2, L15_2)
@@ -597,13 +584,13 @@ function L70_1(A0_2, A1_2)
         L13_2 = L13_2.SC6181320B46854EE
         L14_2 = "PLAY_UI_LOCK_ON_START"
         L13_2(L14_2)
-        L13_2 = A0_2[9]
+        L13_2 = self[9]
         L14_2 = L13_2
         L13_2 = L13_2.onScan
         L15_2 = L10_2
         L13_2(L14_2, L15_2)
       else
-        L13_2 = A0_2[3]
+        L13_2 = self[3]
         L13_2 = L13_2.aim
         L14_2 = L13_2
         L13_2 = L13_2.fB3CF1DEB
@@ -616,7 +603,7 @@ function L70_1(A0_2, A1_2)
           L13_2 = L13_2.SC6181320B46854EE
           L14_2 = "PLAY_UI_LOCK_ON_START"
           L13_2(L14_2)
-          L13_2 = A0_2[9]
+          L13_2 = self[9]
           L14_2 = L13_2
           L13_2 = L13_2.onScan
           L15_2 = L10_2
@@ -625,9 +612,9 @@ function L70_1(A0_2, A1_2)
           return
         end
       end
-      L13_2 = A0_2[3]
+      L13_2 = self[3]
       L13_2.aim = L10_2
-      A0_2[4] = 1
+      self[4] = 1
       L13_2 = L16_1
       L14_2 = {}
       L15_2 = {}
@@ -635,17 +622,17 @@ function L70_1(A0_2, A1_2)
       L15_2.elasped = true
       L15_2.value = true
       L14_2.__fields__ = L15_2
-      L15_2 = A0_2[2]
+      L15_2 = self[2]
       L15_2 = L15_2[4]
       L14_2.duration = L15_2
       L14_2.elasped = 0
-      L15_2 = A0_2[6]
+      L15_2 = self[6]
       L14_2.value = L15_2
       L13_2 = L13_2(L14_2)
-      A0_2[8] = L13_2
-      L13_2 = A0_2[5]
+      self[8] = L13_2
+      L13_2 = self[5]
       L13_2 = L13_2.input
-      L14_2 = A0_2[5]
+      L14_2 = self[5]
       L15_2 = {}
       L16_2 = L13_2[1]
       L17_2 = L13_2[2]
@@ -653,10 +640,10 @@ function L70_1(A0_2, A1_2)
       L15_2[2] = L17_2
       L14_2.collect_input = L15_2
     else
-      L12_2 = A0_2[4]
+      L12_2 = self[4]
       if 1 == L12_2 then
-        L13_2 = A0_2
-        L12_2 = A0_2.FF7B422B33C161DD6
+        L13_2 = self
+        L12_2 = self.FF7B422B33C161DD6
         L12_2(L13_2)
       end
     end
@@ -664,7 +651,7 @@ function L70_1(A0_2, A1_2)
     L12_2 = nil
     L13_2 = c016374C1
     L13_2 = L13_2.f8C7D4F4D
-    L14_2 = A0_2[3]
+    L14_2 = self[3]
     L14_2 = L14_2.aim
     L15_2 = L12_2
     L13_2 = L13_2(L14_2, L15_2)
@@ -674,23 +661,20 @@ function L70_1(A0_2, A1_2)
       L14_2 = "PLAY_UI_LOCK_ON_END"
       L13_2(L14_2)
     end
-    L13_2 = A0_2[3]
+    L13_2 = self[3]
     L13_2.aim = nil
-    A0_2[4] = 0
+    self[4] = 0
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "F65BAFED43CECE00A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.scan.parts.ScanCamerawork.updateFree
+function C8F8E9870BDBF8FE8_prototype:F65BAFED43CECE00A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2.angle
   L4_2 = L2_2.angle
   L4_2 = L4_2[1]
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L5_2 = L5_2[1]
   L5_2 = L5_2.rotation
   L6_2 = A1_2[2]
@@ -700,7 +684,7 @@ function L70_1(A0_2, A1_2)
   function L6_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[1]
     L1_3 = L1_3[1]
     L1_3 = L1_3.reversePitch
@@ -716,20 +700,20 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2 * L6_2
   L4_2 = L4_2 + L5_2
   L3_2[1] = L4_2
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2.angle
-  L5_2 = A0_2
-  L4_2 = A0_2.F0379D34FB991C1A2
-  L6_2 = A0_2[5]
+  L5_2 = self
+  L4_2 = self.F0379D34FB991C1A2
+  L6_2 = self[5]
   L6_2 = L6_2.angle
   L6_2 = L6_2[1]
   L4_2 = L4_2(L5_2, L6_2)
   L3_2[1] = L4_2
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L3_2.angle
   L5_2 = L3_2.angle
   L5_2 = L5_2[2]
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L6_2 = L6_2[1]
   L6_2 = L6_2.rotation
   L7_2 = A1_2[1]
@@ -739,7 +723,7 @@ function L70_1(A0_2, A1_2)
   function L7_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[1]
     L1_3 = L1_3[1]
     L1_3 = L1_3.reverseYaw
@@ -755,21 +739,21 @@ function L70_1(A0_2, A1_2)
   L6_2 = L6_2 * L7_2
   L5_2 = L5_2 + L6_2
   L4_2[2] = L5_2
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L4_2 = L4_2.angle
-  L6_2 = A0_2
-  L5_2 = A0_2.FDE04517993167EC7
-  L7_2 = A0_2[5]
+  L6_2 = self
+  L5_2 = self.FDE04517993167EC7
+  L7_2 = self[5]
   L7_2 = L7_2.angle
   L7_2 = L7_2[2]
   L5_2 = L5_2(L6_2, L7_2)
   L4_2[2] = L5_2
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L4_2 = L4_2[11]
   if not L4_2 then
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L5_2 = L58_1
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L6_2 = L6_2[2]
     L6_2 = L6_2.aim
     L5_2 = L5_2(L6_2)
@@ -777,22 +761,19 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "FD5C94A9B54CDE90D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.scan.parts.ScanCamerawork.updateAim
+function C8F8E9870BDBF8FE8_prototype:FD5C94A9B54CDE90D(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2[8]
   if L3_2 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L3_2 = L3_2.collect_input
     L3_2 = L3_2[1]
     L4_2 = A1_2[1]
     if L3_2 ~= L4_2 then
       L3_2 = A1_2[1]
-      L4_2 = A0_2[5]
+      L4_2 = self[5]
       L4_2 = L4_2.collect_input
       L4_2 = L4_2[1]
       L3_2 = L3_2 - L4_2
@@ -800,32 +781,32 @@ function L70_1(A0_2, A1_2, A2_2)
       L4_2 = L4_2.abs
       L5_2 = L3_2
       L4_2 = L4_2(L5_2)
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L5_2 = L5_2[9]
       if L4_2 > L5_2 then
         if L3_2 > 0 then
-          L4_2 = A0_2[2]
+          L4_2 = self[2]
           L3_2 = L4_2[9]
         else
-          L4_2 = A0_2[2]
+          L4_2 = self[2]
           L4_2 = L4_2[9]
           L3_2 = -L4_2
         end
       end
-      L4_2 = A0_2[5]
+      L4_2 = self[5]
       L5_2 = L4_2.collect_input
       L6_2 = L4_2.collect_input
       L6_2 = L6_2[1]
       L6_2 = L6_2 + L3_2
       L5_2[1] = L6_2
     end
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L3_2 = L3_2.collect_input
     L3_2 = L3_2[2]
     L4_2 = A1_2[2]
     if L3_2 ~= L4_2 then
       L3_2 = A1_2[2]
-      L4_2 = A0_2[5]
+      L4_2 = self[5]
       L4_2 = L4_2.collect_input
       L4_2 = L4_2[2]
       L3_2 = L3_2 - L4_2
@@ -833,19 +814,19 @@ function L70_1(A0_2, A1_2, A2_2)
       L4_2 = L4_2.abs
       L5_2 = L3_2
       L4_2 = L4_2(L5_2)
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L5_2 = L5_2[9]
       if L4_2 > L5_2 then
         if L3_2 > 0 then
-          L4_2 = A0_2[2]
+          L4_2 = self[2]
           L3_2 = L4_2[9]
         else
-          L4_2 = A0_2[2]
+          L4_2 = self[2]
           L4_2 = L4_2[9]
           L3_2 = -L4_2
         end
       end
-      L4_2 = A0_2[5]
+      L4_2 = self[5]
       L5_2 = L4_2.collect_input
       L6_2 = L4_2.collect_input
       L6_2 = L6_2[2]
@@ -857,12 +838,12 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = nil
   L5_2 = c016374C1
   L5_2 = L5_2.f8C7D4F4D
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L6_2 = L6_2.owner
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L5_2 = L5_2.owner
     L6_2 = L5_2
     L5_2 = L5_2.f7360ED03
@@ -889,14 +870,14 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = nil
   L7_2 = c016374C1
   L7_2 = L7_2.f8C7D4F4D
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L8_2 = L8_2.aim
   L9_2 = L6_2
   L7_2 = L7_2(L8_2, L9_2)
   if L7_2 then
     L7_2 = c4E28AB7C
     L7_2 = L7_2.f8E5B5B63
-    L8_2 = A0_2[3]
+    L8_2 = self[3]
     L8_2 = L8_2.aim
     L7_2, L8_2, L9_2 = L7_2(L8_2)
     L10_2 = {}
@@ -933,20 +914,20 @@ function L70_1(A0_2, A1_2, A2_2)
   L12_2 = L8_2
   L13_2 = L9_2
   L10_2 = L10_2(L11_2, L12_2, L13_2)
-  L11_2 = A0_2[2]
+  L11_2 = self[2]
   L11_2 = L11_2[3]
   L11_2 = L11_2.min_vector_length2
   if L10_2 < L11_2 then
     return
   end
-  L11_2 = A0_2[5]
+  L11_2 = self[5]
   L11_2 = L11_2.angle
   L12_2 = {}
   L13_2 = L11_2[1]
   L14_2 = L11_2[2]
   L12_2[1] = L13_2
   L12_2[2] = L14_2
-  L13_2 = A0_2[2]
+  L13_2 = self[2]
   L13_2 = L13_2[2]
   L13_2 = L13_2.right
   L14_2 = L10_1.math
@@ -977,7 +958,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L16_2 = L16_2(L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2)
     L15_2 = L16_2
   end
-  L16_2 = A0_2[5]
+  L16_2 = self[5]
   L16_2 = L16_2.angle
   L17_2 = L10_1.math
   L17_2 = L17_2.atan2
@@ -988,7 +969,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L16_2[2] = L17_2
   L16_2 = cD5675BA5
   L16_2 = L16_2.fFA44D7AF
-  L17_2 = A0_2[5]
+  L17_2 = self[5]
   L17_2 = L17_2.angle
   L17_2 = L17_2[2]
   L18_2 = 0
@@ -997,7 +978,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L17_2 = L16_2
   L16_2 = L16_2.fCA247E7A
   L18_2 = -L13_2
-  L19_2 = A0_2[2]
+  L19_2 = self[2]
   L19_2 = L19_2[2]
   L19_2 = L19_2.up
   L20_2 = 0
@@ -1014,7 +995,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L21_2 = L21_2 + L18_2
   L22_2 = L5_2[3]
   L21_2 = L21_2 - L22_2
-  L22_2 = A0_2[5]
+  L22_2 = self[5]
   L23_2 = c7A48E3FC
   L23_2 = L23_2.f92852F73
   L24_2 = L19_2
@@ -1023,16 +1004,16 @@ function L70_1(A0_2, A1_2, A2_2)
   L23_2 = L23_2(L24_2, L25_2, L26_2)
   L22_2.aim_dist = L23_2
   L22_2 = 0.0
-  L23_2 = A0_2[2]
+  L23_2 = self[2]
   L23_2 = L23_2[13]
   if L23_2 > 0 then
-    L23_2 = A0_2[2]
+    L23_2 = self[2]
     L23_2 = L23_2[13]
     L24_2 = 0.0
     L24_2 = L24_2 - L23_2
-    L25_2 = A0_2[5]
+    L25_2 = self[5]
     L25_2 = L25_2.aim_dist
-    L26_2 = A0_2[2]
+    L26_2 = self[2]
     L26_2 = L26_2[3]
     L26_2 = L26_2.scan_dist
     L25_2 = L25_2 / L26_2
@@ -1079,7 +1060,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L40_2 = L36_2
   L41_2 = L37_2
   L38_2(L39_2, L40_2, L41_2)
-  L38_2 = A0_2[5]
+  L38_2 = self[5]
   L38_2 = L38_2.angle
   L39_2 = L10_1.math
   L39_2 = L39_2.acos
@@ -1122,12 +1103,12 @@ function L70_1(A0_2, A1_2, A2_2)
   L40_2 = L40_2()
   L39_2 = L39_2 * L40_2
   L38_2[1] = L39_2
-  L38_2 = A0_2[2]
+  L38_2 = self[2]
   L38_2 = L38_2[8]
   if L38_2 then
-    L38_2 = A0_2[5]
+    L38_2 = self[5]
     L38_2 = L38_2.collect_input
-    L39_2 = A0_2[5]
+    L39_2 = self[5]
     L39_2 = L39_2.collect_input
     L40_2 = L10_1.math
     L40_2 = L40_2.sin
@@ -1149,21 +1130,21 @@ function L70_1(A0_2, A1_2, A2_2)
     L45_2 = L38_2[2]
     L46_2 = L40_2
     L41_2, L42_2 = L41_2(L42_2, L43_2, L44_2, L45_2, L46_2)
-    L43_2 = A0_2[2]
+    L43_2 = self[2]
     L43_2 = L43_2[1]
     L43_2 = L43_2.aim_tilt
     L43_2 = L43_2 + L22_2
-    L44_2 = A0_2[5]
+    L44_2 = self[5]
     L44_2 = L44_2.angle
-    L45_2 = A0_2[5]
+    L45_2 = self[5]
     L45_2 = L45_2.angle
     L45_2 = L45_2[1]
     L46_2 = L42_2 * L43_2
     L45_2 = L45_2 - L46_2
     L44_2[1] = L45_2
-    L44_2 = A0_2[5]
+    L44_2 = self[5]
     L44_2 = L44_2.angle
-    L45_2 = A0_2[5]
+    L45_2 = self[5]
     L45_2 = L45_2.angle
     L45_2 = L45_2[2]
     L46_2 = L41_2 * L43_2
@@ -1190,57 +1171,57 @@ function L70_1(A0_2, A1_2, A2_2)
     L43_2 = A1_2[2]
     L44_2 = L38_2
     L39_2, L40_2 = L39_2(L40_2, L41_2, L42_2, L43_2, L44_2)
-    L41_2 = A0_2[2]
+    L41_2 = self[2]
     L41_2 = L41_2[1]
     L41_2 = L41_2.aim_tilt
     L41_2 = L41_2 + L22_2
-    L42_2 = A0_2[5]
+    L42_2 = self[5]
     L42_2 = L42_2.angle
-    L43_2 = A0_2[5]
+    L43_2 = self[5]
     L43_2 = L43_2.angle
     L43_2 = L43_2[1]
     L44_2 = L40_2 * L41_2
     L43_2 = L43_2 - L44_2
     L42_2[1] = L43_2
-    L42_2 = A0_2[5]
+    L42_2 = self[5]
     L42_2 = L42_2.angle
-    L43_2 = A0_2[5]
+    L43_2 = self[5]
     L43_2 = L43_2.angle
     L43_2 = L43_2[2]
     L44_2 = L39_2 * L41_2
     L43_2 = L43_2 - L44_2
     L42_2[2] = L43_2
   end
-  L38_2 = A0_2[2]
+  L38_2 = self[2]
   L38_2 = L38_2[7]
   if L38_2 then
-    L38_2 = A0_2[8]
+    L38_2 = self[8]
     if nil == L38_2 then
-      L39_2 = A0_2
-      L38_2 = A0_2.F27DCE05D4FA504D3
+      L39_2 = self
+      L38_2 = self.F27DCE05D4FA504D3
       L38_2(L39_2)
       return
     end
-    L38_2 = A0_2[8]
+    L38_2 = self[8]
     L39_2 = L38_2.elasped
     L39_2 = L39_2 + A2_2
     L38_2.elasped = L39_2
-    L39_2 = A0_2[8]
+    L39_2 = self[8]
     L39_2 = L39_2.elasped
-    L40_2 = A0_2[8]
+    L40_2 = self[8]
     L40_2 = L40_2.duration
     if L39_2 >= L40_2 then
-      A0_2[8] = nil
-      L40_2 = A0_2
-      L39_2 = A0_2.F27DCE05D4FA504D3
+      self[8] = nil
+      L40_2 = self
+      L39_2 = self.F27DCE05D4FA504D3
       L39_2(L40_2)
       return
     end
     L39_2 = L10_1.math
     L39_2 = L39_2.sin
-    L40_2 = A0_2[8]
+    L40_2 = self[8]
     L40_2 = L40_2.elasped
-    L41_2 = A0_2[8]
+    L41_2 = self[8]
     L41_2 = L41_2.duration
     L40_2 = L40_2 / L41_2
     L41_2 = L10_1.math
@@ -1248,22 +1229,22 @@ function L70_1(A0_2, A1_2, A2_2)
     L40_2 = L40_2 * L41_2
     L40_2 = L40_2 / 2
     L39_2 = L39_2(L40_2)
-    L40_2 = A0_2[5]
-    L42_2 = A0_2
-    L41_2 = A0_2.F6A6BCEB02D4A6386
+    L40_2 = self[5]
+    L42_2 = self
+    L41_2 = self.F6A6BCEB02D4A6386
     L43_2 = L12_2
-    L44_2 = A0_2[5]
+    L44_2 = self[5]
     L44_2 = L44_2.angle
     L45_2 = L39_2
     L41_2 = L41_2(L42_2, L43_2, L44_2, L45_2)
     L40_2.angle = L41_2
-    L40_2 = A0_2[5]
+    L40_2 = self[5]
     L40_2 = L40_2.angle
     L40_2 = L40_2[1]
     L41_2 = L10_1.math
     L41_2 = L41_2.pi
     if L40_2 > L41_2 then
-      L40_2 = A0_2[5]
+      L40_2 = self[5]
       L41_2 = L40_2.angle
       L42_2 = L40_2.angle
       L42_2 = L42_2[1]
@@ -1274,42 +1255,36 @@ function L70_1(A0_2, A1_2, A2_2)
       L41_2[1] = L42_2
     end
   end
-  L39_2 = A0_2
-  L38_2 = A0_2.F27DCE05D4FA504D3
+  L39_2 = self
+  L38_2 = self.F27DCE05D4FA504D3
   L38_2(L39_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "F27DCE05D4FA504D3"
-
-function L70_1(A0_2)
+--- main.ui.scan.parts.ScanCamerawork.F27DCE05D4FA504D3
+function C8F8E9870BDBF8FE8_prototype:F27DCE05D4FA504D3()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2.angle
-  L3_2 = A0_2
-  L2_2 = A0_2.F0379D34FB991C1A2
-  L4_2 = A0_2[5]
+  L3_2 = self
+  L2_2 = self.F0379D34FB991C1A2
+  L4_2 = self[5]
   L4_2 = L4_2.angle
   L4_2 = L4_2[1]
   L2_2 = L2_2(L3_2, L4_2)
   L1_2[1] = L2_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2.angle
-  L3_2 = A0_2
-  L2_2 = A0_2.FDE04517993167EC7
-  L4_2 = A0_2[5]
+  L3_2 = self
+  L2_2 = self.FDE04517993167EC7
+  L4_2 = self[5]
   L4_2 = L4_2.angle
   L4_2 = L4_2[2]
   L2_2 = L2_2(L3_2, L4_2)
   L1_2[2] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "F52F49FE01422990B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.scan.parts.ScanCamerawork.F52F49FE01422990B
+function C8F8E9870BDBF8FE8_prototype:F52F49FE01422990B(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L10_1.math
   L2_2 = L2_2.fmod
@@ -1328,19 +1303,16 @@ function L70_1(A0_2, A1_2)
   return A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "F73C99B3CABD580CB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.scan.parts.ScanCamerawork.F73C99B3CABD580CB
+function C8F8E9870BDBF8FE8_prototype:F73C99B3CABD580CB(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2
-  L6_2 = A0_2
-  L5_2 = A0_2.F52F49FE01422990B
+  L6_2 = self
+  L5_2 = self.F52F49FE01422990B
   L7_2 = A1_2
   L5_2 = L5_2(L6_2, L7_2)
   A1_2 = L5_2
-  L6_2 = A0_2
-  L5_2 = A0_2.F52F49FE01422990B
+  L6_2 = self
+  L5_2 = self.F52F49FE01422990B
   L7_2 = A2_2
   L5_2 = L5_2(L6_2, L7_2)
   A2_2 = L5_2
@@ -1356,22 +1328,19 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       A2_2 = A2_2 + A3_2
     end
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.F52F49FE01422990B
+  L7_2 = self
+  L6_2 = self.F52F49FE01422990B
   L8_2 = A2_2 - A1_2
   L8_2 = L8_2 * A4_2
   L8_2 = L8_2 + A1_2
   return L6_2(L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "F6A6BCEB02D4A6386"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.scan.parts.ScanCamerawork.F6A6BCEB02D4A6386
+function C8F8E9870BDBF8FE8_prototype:F6A6BCEB02D4A6386(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F73C99B3CABD580CB
+  L5_2 = self
+  L4_2 = self.F73C99B3CABD580CB
   L6_2 = A1_2[1]
   L7_2 = A2_2[1]
   L8_2 = L10_1.math
@@ -1380,8 +1349,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L9_2 = A3_2
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
   A1_2[1] = L4_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F73C99B3CABD580CB
+  L5_2 = self
+  L4_2 = self.F73C99B3CABD580CB
   L6_2 = A1_2[2]
   L7_2 = A2_2[2]
   L8_2 = L10_1.math
@@ -1393,22 +1362,19 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "F9C6BCE2B7B79D70F"
-
-function L70_1(A0_2)
+--- main.ui.scan.parts.ScanCamerawork.calculate
+function C8F8E9870BDBF8FE8_prototype:F9C6BCE2B7B79D70F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L1_2 = nil
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f8C7D4F4D
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L4_2 = L4_2.owner
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L3_2 = L3_2.owner
     L4_2 = L3_2
     L3_2 = L3_2.f7360ED03
@@ -1433,7 +1399,7 @@ function L70_1(A0_2)
   end
   L3_2 = cD5675BA5
   L3_2 = L3_2.fFA44D7AF
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L4_2 = L4_2.angle
   L4_2 = L4_2[2]
   L5_2 = 0
@@ -1441,11 +1407,11 @@ function L70_1(A0_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2)
   L4_2 = L3_2
   L3_2 = L3_2.fCA247E7A
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L5_2 = L5_2[2]
   L5_2 = L5_2.right
   L5_2 = -L5_2
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L6_2 = L6_2[2]
   L6_2 = L6_2.up
   L7_2 = 0
@@ -1462,10 +1428,10 @@ function L70_1(A0_2)
   L6_2[3] = L9_2
   L7_2 = cD5675BA5
   L7_2 = L7_2.fFA44D7AF
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L8_2 = L8_2.angle
   L8_2 = L8_2[2]
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L9_2 = L9_2.angle
   L9_2 = L9_2[1]
   L10_2 = 0
@@ -1479,10 +1445,10 @@ function L70_1(A0_2)
   L10_2 = L7_2
   L11_2 = L8_2
   L12_2 = L9_2
-  L13_2 = A0_2[2]
+  L13_2 = self[2]
   L13_2 = L13_2[2]
   L13_2 = L13_2.dist
-  L14_2 = A0_2[5]
+  L14_2 = self[5]
   L14_2 = L14_2.aim_dist
   L15_2 = L16_1
   L16_2 = {}
@@ -1521,44 +1487,41 @@ function L70_1(A0_2)
   L16_2.aim = L17_2
   L16_2.shoulder = L6_2
   L15_2 = L15_2(L16_2)
-  A0_2[6] = L15_2
+  self[6] = L15_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "FF014786CC8ECB108"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.scan.parts.ScanCamerawork.easing
+function C8F8E9870BDBF8FE8_prototype:FF014786CC8ECB108(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2[7]
   if L2_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     if 1 == L2_2 then
       return
     end
   end
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2.elasped
   L3_2 = L3_2 + A1_2
   L2_2.elasped = L3_2
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L3_2 = L3_2.elasped
-  L4_2 = A0_2[8]
+  L4_2 = self[8]
   L4_2 = L4_2.duration
   if L3_2 >= L4_2 then
-    A0_2[8] = nil
+    self[8] = nil
     return
   end
   L3_2 = L10_1.math
   L3_2 = L3_2.sin
-  L4_2 = A0_2[8]
+  L4_2 = self[8]
   L4_2 = L4_2.elasped
-  L5_2 = A0_2[8]
+  L5_2 = self[8]
   L5_2 = L5_2.duration
   L4_2 = L4_2 / L5_2
   L5_2 = L10_1.math
@@ -1566,10 +1529,10 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2 * L5_2
   L4_2 = L4_2 / 2
   L3_2 = L3_2(L4_2)
-  L4_2 = A0_2[8]
+  L4_2 = self[8]
   L4_2 = L4_2.value
   L4_2 = L4_2.translation
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L5_2 = L5_2.translation
   L6_2 = c7A48E3FC
   L6_2 = L6_2.f74C1A5DE
@@ -1581,7 +1544,7 @@ function L70_1(A0_2, A1_2)
   L12_2 = L5_2[3]
   L13_2 = L3_2
   L6_2, L7_2, L8_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
-  L9_2 = A0_2[6]
+  L9_2 = self[6]
   L10_2 = {}
   L11_2 = L6_2
   L12_2 = L7_2
@@ -1590,10 +1553,10 @@ function L70_1(A0_2, A1_2)
   L10_2[2] = L12_2
   L10_2[3] = L13_2
   L9_2.translation = L10_2
-  L9_2 = A0_2[8]
+  L9_2 = self[8]
   L9_2 = L9_2.value
   L9_2 = L9_2.aim
-  L10_2 = A0_2[6]
+  L10_2 = self[6]
   L10_2 = L10_2.aim
   L11_2 = c7A48E3FC
   L11_2 = L11_2.f74C1A5DE
@@ -1605,7 +1568,7 @@ function L70_1(A0_2, A1_2)
   L17_2 = L10_2[3]
   L18_2 = L3_2
   L11_2, L12_2, L13_2 = L11_2(L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2)
-  L14_2 = A0_2[6]
+  L14_2 = self[6]
   L15_2 = {}
   L16_2 = L11_2
   L17_2 = L12_2
@@ -1614,10 +1577,10 @@ function L70_1(A0_2, A1_2)
   L15_2[2] = L17_2
   L15_2[3] = L18_2
   L14_2.aim = L15_2
-  L14_2 = A0_2[8]
+  L14_2 = self[8]
   L14_2 = L14_2.value
   L14_2 = L14_2.shoulder
-  L15_2 = A0_2[6]
+  L15_2 = self[6]
   L15_2 = L15_2.shoulder
   L16_2 = c7A48E3FC
   L16_2 = L16_2.f74C1A5DE
@@ -1629,7 +1592,7 @@ function L70_1(A0_2, A1_2)
   L22_2 = L15_2[3]
   L23_2 = L3_2
   L16_2, L17_2, L18_2 = L16_2(L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2)
-  L19_2 = A0_2[6]
+  L19_2 = self[6]
   L20_2 = {}
   L21_2 = L16_2
   L22_2 = L17_2
@@ -1640,27 +1603,24 @@ function L70_1(A0_2, A1_2)
   L19_2.shoulder = L20_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "F7F57D1F7C666F59E"
-
-function L70_1(A0_2)
+--- main.ui.scan.parts.ScanCamerawork.adjust
+function C8F8E9870BDBF8FE8_prototype:F7F57D1F7C666F59E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L1_2 = L1_2.translation
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2.aim
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L3_2 = L3_2.shoulder
-  L5_2 = A0_2
-  L4_2 = A0_2.F5D16D7704F0D05EE
+  L5_2 = self
+  L4_2 = self.F5D16D7704F0D05EE
   L6_2 = L2_2
   L7_2 = L1_2
   L8_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
   L1_2 = L4_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FB29E13DB3B061156
+  L5_2 = self
+  L4_2 = self.FB29E13DB3B061156
   L6_2 = L2_2
   L7_2 = L1_2
   L8_2 = L3_2
@@ -1778,14 +1738,11 @@ function L70_1(A0_2)
   L23_2.rotation = L24_2
   L23_2.aim = L2_2
   L22_2 = L22_2(L23_2)
-  A0_2[7] = L22_2
+  self[7] = L22_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "FD757032AECFE0526"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.scan.parts.ScanCamerawork.isStopAim
+function C8F8E9870BDBF8FE8_prototype:FD757032AECFE0526(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2
   L2_2 = nil
   L3_2 = c016374C1
@@ -1809,7 +1766,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.f8E5B5B63
   L4_2 = A1_2
   L3_2, L4_2, L5_2 = L3_2(L4_2)
-  L6_2 = A0_2[7]
+  L6_2 = self[7]
   L6_2 = L6_2.translation
   L7_2 = L6_2[1]
   L7_2 = L3_2 - L7_2
@@ -1823,7 +1780,7 @@ function L70_1(A0_2, A1_2)
   L12_2 = L8_2
   L13_2 = L9_2
   L10_2 = L10_2(L11_2, L12_2, L13_2)
-  L11_2 = A0_2[2]
+  L11_2 = self[2]
   L11_2 = L11_2[3]
   L11_2 = L11_2.scan_dist
   if L10_2 > L11_2 then
@@ -1848,7 +1805,7 @@ function L70_1(A0_2, A1_2)
   L18_2 = L14_2
   L19_2 = L15_2
   L16_2(L17_2, L18_2, L19_2)
-  L16_2 = A0_2[7]
+  L16_2 = self[7]
   L16_2 = L16_2.rotation
   L17_2 = L16_2
   L16_2 = L16_2.fCA247E7A
@@ -1878,10 +1835,10 @@ function L70_1(A0_2, A1_2)
   L20_2 = 2 * L20_2
   L19_2 = L19_2 / L20_2
   L19_2 = L19_2 * 360.0
-  L20_2 = A0_2[2]
+  L20_2 = self[2]
   L20_2 = L20_2[3]
   L20_2 = L20_2.scan_tilt
-  L21_2 = A0_2[2]
+  L21_2 = self[2]
   L21_2 = L21_2[3]
   L21_2 = L21_2.scan_diff
   L20_2 = L20_2 + L21_2
@@ -1933,7 +1890,7 @@ function L70_1(A0_2, A1_2)
     L23_2 = nil
     L24_2 = c016374C1
     L24_2 = L24_2.f8C7D4F4D
-    L25_2 = A0_2[3]
+    L25_2 = self[3]
     L25_2 = L25_2.aim
     L26_2 = L23_2
     L24_2 = L24_2(L25_2, L26_2)
@@ -1943,9 +1900,9 @@ function L70_1(A0_2, A1_2)
       L25_2 = "PLAY_UI_LOCK_ON_END"
       L24_2(L25_2)
     end
-    L24_2 = A0_2[3]
+    L24_2 = self[3]
     L24_2.aim = nil
-    A0_2[4] = 0
+    self[4] = 0
     L24_2 = true
     return L24_2
   end
@@ -1953,29 +1910,23 @@ function L70_1(A0_2, A1_2)
   return L23_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "F21531C7CE58478D3"
-
-function L70_1(A0_2)
+--- main.ui.scan.parts.ScanCamerawork.checkTranslationAim
+function C8F8E9870BDBF8FE8_prototype:F21531C7CE58478D3()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FD757032AECFE0526
-  L3_2 = A0_2[3]
+  L2_2 = self
+  L1_2 = self.FD757032AECFE0526
+  L3_2 = self[3]
   L3_2 = L3_2.aim
   L1_2 = L1_2(L2_2, L3_2)
   if L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FF7B422B33C161DD6
+    L2_2 = self
+    L1_2 = self.FF7B422B33C161DD6
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "F5D16D7704F0D05EE"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.scan.parts.ScanCamerawork.wallHitPosition_
+function C8F8E9870BDBF8FE8_prototype:F5D16D7704F0D05EE(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2
   L4_2 = {}
   L5_2 = A2_2[1]
@@ -2070,7 +2021,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2 = L21_2(L22_2, L23_2, L24_2)
       L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2 = L20_2(L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2)
       L19_2 = L19_2(L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2)
-      L20_2 = A0_2[2]
+      L20_2 = self[2]
       L20_2 = L20_2[5]
       L20_2 = L20_2.wall_angle
       L20_2 = L20_2 / 360.0
@@ -2080,7 +2031,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L20_2 = L20_2 * L21_2
       if L19_2 > L20_2 then
         L19_2 = L16_2[2]
-        L20_2 = A0_2[2]
+        L20_2 = self[2]
         L20_2 = L20_2[5]
         L20_2 = L20_2.wall_offset
         L21_2 = {}
@@ -2103,11 +2054,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "FB29E13DB3B061156"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.scan.parts.ScanCamerawork.floorHitPosition_
+function C8F8E9870BDBF8FE8_prototype:FB29E13DB3B061156(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2
   L4_2 = A1_2[1]
   L5_2 = A2_2[1]
@@ -2165,13 +2113,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L22_2[2] = L24_2
   L22_2[3] = L25_2
   L23_2 = A2_2[2]
-  L24_2 = A0_2[2]
+  L24_2 = self[2]
   L24_2 = L24_2[5]
   L24_2 = L24_2.floor_offset
   L25_2 = A3_2[2]
   L24_2 = L24_2 + L25_2
   if L23_2 < L24_2 then
-    L23_2 = A0_2[2]
+    L23_2 = self[2]
     L23_2 = L23_2[5]
     L23_2 = L23_2.floor_offset
     L24_2 = A3_2[2]
@@ -2223,17 +2171,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L22_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "F0379D34FB991C1A2"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.scan.parts.ScanCamerawork.normalizePitch
+function C8F8E9870BDBF8FE8_prototype:F0379D34FB991C1A2(A1_2)
   local L2_2, L3_2
   L2_2 = L10_1.math
   L2_2 = L2_2.abs
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2[3]
   L3_2 = L3_2.pitch
   if L2_2 > L3_2 then
@@ -2241,7 +2186,7 @@ function L70_1(A0_2, A1_2)
     L2_2 = L2_2.SEC5E960387714AA4
     L3_2 = A1_2
     L2_2 = L2_2(L3_2)
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L3_2 = L3_2[3]
     L3_2 = L3_2.pitch
     L2_2 = L2_2 * L3_2
@@ -2250,11 +2195,8 @@ function L70_1(A0_2, A1_2)
   return A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "FDE04517993167EC7"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.scan.parts.ScanCamerawork.normalizeYaw
+function C8F8E9870BDBF8FE8_prototype:FDE04517993167EC7(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L10_1.math
   L2_2 = L2_2.fmod
@@ -2265,43 +2207,40 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F8E9870BDBF8FE8"]["prototype"]
-L69_1 = "FF7B422B33C161DD6"
-
-function L70_1(A0_2)
+--- main.ui.scan.parts.ScanCamerawork.FF7B422B33C161DD6
+function C8F8E9870BDBF8FE8_prototype:FF7B422B33C161DD6()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if 1 == L1_2 then
     L1_2 = nil
     L2_2 = c016374C1
     L2_2 = L2_2.f4555D276
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L3_2 = L3_2.aim
     L4_2 = L1_2
     L2_2 = L2_2(L3_2, L4_2)
     if L2_2 then
-      L2_2 = A0_2[5]
+      L2_2 = self[5]
       L2_2.prev_id = -1
     else
-      L2_2 = A0_2[5]
-      L3_2 = A0_2[3]
+      L2_2 = self[5]
+      L3_2 = self[3]
       L3_2 = L3_2.aim
       L4_2 = L3_2
       L3_2 = L3_2.fB3CF1DEB
       L3_2 = L3_2(L4_2)
       L2_2.prev_id = L3_2
-      L2_2 = A0_2[5]
-      L3_2 = A0_2[2]
+      L2_2 = self[5]
+      L3_2 = self[2]
       L3_2 = L3_2[12]
       L2_2.same_id_lockon_wait_time = L3_2
     end
   end
-  A0_2[4] = 0
-  A0_2[8] = nil
-  L1_2 = A0_2[3]
+  self[4] = 0
+  self[8] = nil
+  L1_2 = self[3]
   L1_2.aim = nil
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L2_2 = L1_2
   L1_2 = L1_2.onUnScan
   L1_2(L2_2)

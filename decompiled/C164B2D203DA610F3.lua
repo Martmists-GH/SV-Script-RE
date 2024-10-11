@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C164B2D203DA610F3"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C164B2D203DA610F3"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C164B2D203DA610F3"]
-L69_1 = "__name__"
-L70_1 = "C164B2D203DA610F3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C164B2D203DA610F3"]
-L69_1 = "S592E1E7DD7C1AE27"
+---@alias C164B2D203DA610F3 main_ui_shop_data_ShopUIMessageData
 
-function L70_1(A0_2, A1_2)
+---@class main_ui_shop_data_ShopUIMessageData
+C164B2D203DA610F3 = L15_1()
+C164B2D203DA610F3.new = {}
+C164B2D203DA610F3.__name__ = "C164B2D203DA610F3"
+--- main.ui.shop.data.ShopUIMessageData.GetSelectListLabel
+function C164B2D203DA610F3.S592E1E7DD7C1AE27(A0_2, A1_2)
   local L2_2, L3_2
   L2_2 = nil
   if 0 == A0_2 then
@@ -45,11 +36,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C164B2D203DA610F3"]
-L69_1 = "S615AF9E2D9C2FF69"
-
-function L70_1(A0_2)
+--- main.ui.shop.data.ShopUIMessageData.GetShopKindLabel
+function C164B2D203DA610F3.S615AF9E2D9C2FF69(A0_2)
   local L1_2, L2_2
   L1_2 = ""
   if 0 == A0_2 then
@@ -88,11 +76,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C164B2D203DA610F3"]
-L69_1 = "S2B427339EA95032A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.data.ShopUIMessageData.GetShopMsgLabel
+function C164B2D203DA610F3.S2B427339EA95032A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = L31_1.string
   L3_2 = L31_1.string
@@ -129,11 +114,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C164B2D203DA610F3"]
-L69_1 = "S9518BD40C3979305"
-
-function L70_1(A0_2)
+--- main.ui.shop.data.ShopUIMessageData.GetWelcomeLabel
+function C164B2D203DA610F3.S9518BD40C3979305(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L31_1.string
   L2_2 = L31_1.string

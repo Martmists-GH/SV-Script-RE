@@ -1,3 +1,7 @@
+---@alias CCB3F169844DF1164 main_playables_free_move_actor_PlayerActorBehavior
+
+---@class main_playables_free_move_actor_PlayerActorBehavior : CCB3F169844DF1164_prototype
+---@field prototype CCB3F169844DF1164_prototype
 L55_1 = _ENV
 L56_1 = "CBA9ECED4A75F45B7"
 L57_1 = L15_1
@@ -36,11 +40,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CBA9ECED4A75F45B7"]
 L69_1 = "__name__"
 L70_1 = "CBA9ECED4A75F45B7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBA9ECED4A75F45B7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CCB3F169844DF1164_prototype
+CCB3F169844DF1164_prototype = L15_1()
+CCB3F169844DF1164.prototype = CCB3F169844DF1164_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CBA9ECED4A75F45B7"]["prototype"]
 L69_1 = _ENV["CBA9ECED4A75F45B7"]

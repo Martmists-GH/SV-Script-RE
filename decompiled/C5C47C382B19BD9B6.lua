@@ -1,3 +1,7 @@
+---@alias C5C47C382B19BD9B6 main_battle_parts_BattleLandSmoke
+
+---@class main_battle_parts_BattleLandSmoke : C5C47C382B19BD9B6_prototype
+---@field prototype C5C47C382B19BD9B6_prototype
 L55_1 = _ENV
 L56_1 = "C5C47C382B19BD9B6"
 L57_1 = L15_1
@@ -35,21 +39,16 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C5C47C382B19BD9B6"]
 L69_1 = "__name__"
 L70_1 = "C5C47C382B19BD9B6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5C47C382B19BD9B6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5C47C382B19BD9B6"]["prototype"]
-L69_1 = "FE38A1F010EEF9597"
-
-function L70_1(A0_2, A1_2)
+---@class C5C47C382B19BD9B6_prototype
+C5C47C382B19BD9B6_prototype = L15_1()
+C5C47C382B19BD9B6.prototype = C5C47C382B19BD9B6_prototype
+--- main.battle.parts.BattleLandSmoke.StartLoad
+function C5C47C382B19BD9B6_prototype:FE38A1F010EEF9597(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FE828682F404959F2
+    L3_2 = self
+    L2_2 = self.FE828682F404959F2
     L2_2(L3_2)
   end
   L2_2 = false
@@ -62,7 +61,7 @@ function L70_1(A0_2, A1_2)
   end
   L4_2 = false
   L5_2 = ""
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L6_2 = L6_2[9]
   L7_2 = L6_2
   L6_2 = L6_2.F5AB4431A9E135F39
@@ -196,7 +195,7 @@ function L70_1(A0_2, A1_2)
   if not L4_2 then
     return
   end
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = L8_2
   L8_2 = L8_2.FE5B871E4C1AF4B14
   L10_2 = A1_2
@@ -205,9 +204,9 @@ function L70_1(A0_2, A1_2)
   L8_2 = L8_2.FFB85E8318E635806
   L10_2 = true
   L8_2 = L8_2(L9_2, L10_2)
-  A0_2[4] = L8_2
+  self[4] = L8_2
   L8_2 = ""
-  L9_2 = A0_2[4]
+  L9_2 = self[4]
   if 0 == L9_2 then
     L8_2 = "s"
   elseif 1 == L9_2 then
@@ -245,18 +244,15 @@ function L70_1(A0_2, A1_2)
   L12_2 = L12_2(L13_2)
   L11_2 = L11_2 .. L12_2
   L10_2 = L10_2(L11_2)
-  A0_2[2] = L10_2
-  A0_2[3] = nil
-  A0_2[5] = true
+  self[2] = L10_2
+  self[3] = nil
+  self[5] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5C47C382B19BD9B6"]["prototype"]
-L69_1 = "FC8D6066915A05C06"
-
-function L70_1(A0_2)
+--- main.battle.parts.BattleLandSmoke.IsLoadFinish
+function C5C47C382B19BD9B6_prototype:FC8D6066915A05C06()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   if not L1_2 then
     L1_2 = true
     return L1_2
@@ -264,16 +260,16 @@ function L70_1(A0_2)
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.f900312E7
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L3_2 = L2_2
       L2_2 = L2_2.F20A3B8BDAB3333B5
       L2_2 = L2_2(L3_2)
@@ -288,12 +284,12 @@ function L70_1(A0_2)
       L6_2 = L6_2()
       L5_2 = L5_2(L6_2)
       L4_2 = L4_2 .. L5_2
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L2_2 = L2_2(L3_2, L4_2, L5_2)
-      A0_2[3] = L2_2
+      self[3] = L2_2
     end
   else
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f9D8BC178
     L2_2 = L2_2(L3_2)
@@ -306,46 +302,40 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5C47C382B19BD9B6"]["prototype"]
-L69_1 = "FE828682F404959F2"
-
-function L70_1(A0_2)
+--- main.battle.parts.BattleLandSmoke.UnLoad
+function C5C47C382B19BD9B6_prototype:FE828682F404959F2()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   if not L1_2 then
     return
   end
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.fCDCB600D
     L4_2 = true
     L2_2(L3_2, L4_2)
   end
-  A0_2[3] = nil
-  A0_2[2] = nil
-  A0_2[5] = false
+  self[3] = nil
+  self[2] = nil
+  self[5] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5C47C382B19BD9B6"]["prototype"]
-L69_1 = "FCE9CAF4FE077B20A"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.parts.BattleLandSmoke.Emit
+function C5C47C382B19BD9B6_prototype:FCE9CAF4FE077B20A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   if not L2_2 then
     return
   end
   L2_2 = ""
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   if 0 == L3_2 then
     L2_2 = "s"
   elseif 1 == L3_2 then
@@ -355,7 +345,7 @@ function L70_1(A0_2, A1_2)
   elseif 3 == L3_2 then
     L2_2 = "ll"
   end
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.f5439788F
   L6_2 = L31_1.string

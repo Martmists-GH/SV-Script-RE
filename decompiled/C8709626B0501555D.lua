@@ -1,7 +1,8 @@
-L68_1 = _ENV["C8709626B0501555D"]
-L69_1 = "new"
+---@alias C8709626B0501555D main_field_global_event_check_event_trigger_PlayerEventTrigger
 
-function L70_1(A0_2)
+---@class main_field_global_event_check_event_trigger_PlayerEventTrigger : C8709626B0501555D_prototype
+---@field prototype C8709626B0501555D_prototype
+function C8709626B0501555D.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C8709626B0501555D
@@ -17,11 +18,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C8709626B0501555D
+function C8709626B0501555D.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[7] = false
   L2_2 = CDC3F92928A2194E6
@@ -38,22 +36,16 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C8709626B0501555D"]
 L69_1 = "__name__"
 L70_1 = "C8709626B0501555D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]
-L69_1 = "S0B3F69C4549A0284"
-
-function L70_1()
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.GetInstance
+function C8709626B0501555D.S0B3F69C4549A0284()
   local L0_2, L1_2
   L0_2 = C8709626B0501555D
   L0_2 = L0_2.S5C8618629D667D49
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]
-L69_1 = "S2C00E31A4B070414"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.OnTriggerFunction
+function C8709626B0501555D.S2C00E31A4B070414(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L6_2 = C8709626B0501555D
   L6_2 = L6_2.S5C8618629D667D49
@@ -97,11 +89,8 @@ L68_1 = "C8709626B0501555D"
 L68_1 = L25_1[L68_1]
 L69_1 = "S2C00E31A4B070414"
 L70_1 = _ENV["C8709626B0501555D"]["S2C00E31A4B070414"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]
-L69_1 = "SB979724AE7296B39"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.triggerAsEventCategory
+function C8709626B0501555D.SB979724AE7296B39(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L6_2 = L16_1
   L7_2 = {}
@@ -219,78 +208,67 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C8709626B0501555D_prototype
+C8709626B0501555D_prototype = L15_1()
+C8709626B0501555D.prototype = C8709626B0501555D_prototype
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.Setup
+function C8709626B0501555D_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C8709626B0501555D
-  L2_2.S5C8618629D667D49 = A0_2
+  L2_2.S5C8618629D667D49 = self
   L2_2 = c7C4EA23C
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[6] = L2_2
-  L2_2 = A0_2[6]
+  self[6] = L2_2
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.fFA965033
   L4_2 = "normal"
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.fE3420658
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
-  L2_2 = A0_2[6]
+  self[2] = L2_2
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.fFA965033
   L4_2 = "ride"
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.fE3420658
   L2_2 = L2_2(L3_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L2_2 = cACBFA004
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[4] = L2_2
-  L2_2 = A0_2[4]
+  self[4] = L2_2
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.f317EB6F9
   L4_2 = "OnTriggerFunction"
   L5_2 = 0.0
   L6_2 = 9
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]["prototype"]
-L69_1 = "FF657426FC1B0D20A"
-
-function L70_1(A0_2)
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.GetSceneObject
+function C8709626B0501555D_prototype:FF657426FC1B0D20A()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]["prototype"]
-L69_1 = "F2E94227CA43D5306"
-
-function L70_1(A0_2, A1_2)
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.IsMatch
+function C8709626B0501555D_prototype:F2E94227CA43D5306(A1_2)
   local L2_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if A1_2 ~= L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = A1_2 == L2_2
     return L2_2
   else
@@ -299,18 +277,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]["prototype"]
-L69_1 = "FF63038921D0742CE"
-
-function L70_1(A0_2, A1_2)
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.Enable
+function C8709626B0501555D_prototype:FF63038921D0742CE(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if not L2_2 then
     return
   end
   if A1_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.f5B268E4E
     L2_2 = L2_2(L3_2)
@@ -324,16 +299,16 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.fB3CF1DEB
     L3_2 = L3_2(L4_2)
     if L2_2 == L3_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F61CC973B7CC06BC7
+      L3_2 = self
+      L2_2 = self.F61CC973B7CC06BC7
       L2_2(L3_2)
     else
-      L3_2 = A0_2
-      L2_2 = A0_2.FF5A8159AC299F46C
+      L3_2 = self
+      L2_2 = self.FF5A8159AC299F46C
       L2_2(L3_2)
     end
   else
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L3_2 = 0
     L5_2 = L2_2
     L4_2 = L2_2.f6E6D652B
@@ -355,15 +330,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]["prototype"]
-L69_1 = "FA603C1E5B522916F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.Warp
+function C8709626B0501555D_prototype:FA603C1E5B522916F(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   if L3_2 then
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L4_2 = 0
     L6_2 = L3_2
     L5_2 = L3_2.f6E6D652B
@@ -391,20 +363,17 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]["prototype"]
-L69_1 = "F616F0125BCE14AD6"
-
-function L70_1(A0_2)
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.syncLocalPosition
+function C8709626B0501555D_prototype:F616F0125BCE14AD6()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f8F2B0552
   L3_2 = 0
   L4_2 = 0
   L5_2 = 0
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f24032F87
   L3_2 = cD5675BA5
@@ -413,82 +382,73 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]["prototype"]
-L69_1 = "F61CC973B7CC06BC7"
-
-function L70_1(A0_2)
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.enableNormalCollision
+function C8709626B0501555D_prototype:F61CC973B7CC06BC7()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.fAA678A01
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.fBED4B947
   L1_2(L2_2)
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.fAA678A01
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.fCE4317E9
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F4239790804A9DACA
+  L2_2 = self
+  L1_2 = self.F4239790804A9DACA
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]["prototype"]
-L69_1 = "FF5A8159AC299F46C"
-
-function L70_1(A0_2)
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.enableRideCollision
+function C8709626B0501555D_prototype:FF5A8159AC299F46C()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.fAA678A01
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.fBED4B947
   L1_2(L2_2)
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.fAA678A01
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.fCE4317E9
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F4239790804A9DACA
+  L2_2 = self
+  L1_2 = self.F4239790804A9DACA
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]["prototype"]
-L69_1 = "F4239790804A9DACA"
-
-function L70_1(A0_2)
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.SyncCollision
+function C8709626B0501555D_prototype:F4239790804A9DACA()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F616F0125BCE14AD6
+  L2_2 = self
+  L1_2 = self.F616F0125BCE14AD6
   L1_2(L2_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f5B268E4E
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.f7360ED03
   L1_2, L2_2, L3_2 = L1_2(L2_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FA603C1E5B522916F
+  L5_2 = self
+  L4_2 = self.FA603C1E5B522916F
   L6_2 = {}
   L7_2 = L1_2
   L8_2 = L2_2
@@ -496,7 +456,7 @@ function L70_1(A0_2)
   L6_2[1] = L7_2
   L6_2[2] = L8_2
   L6_2[3] = L9_2
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.f5B268E4E
   L7_2 = L7_2(L8_2)
@@ -506,24 +466,21 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]["prototype"]
-L69_1 = "FE4CF9DCEBF68BA6E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.OnRideChange
+function C8709626B0501555D_prototype:FE4CF9DCEBF68BA6E(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if not L2_2 then
     return
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f407CE2C1
   L2_2(L3_2)
   if A1_2 then
     L2_2 = CFC8F368D91411014
     L2_2 = L2_2.S0AA068F6900B5FF7
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f4D31CD40
     
@@ -541,13 +498,13 @@ function L70_1(A0_2, A1_2)
     
     L5_2 = L5_2()
     L3_2(L4_2, L5_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.FF5A8159AC299F46C
+    L4_2 = self
+    L3_2 = self.FF5A8159AC299F46C
     L3_2(L4_2)
   else
     L2_2 = CFC8F368D91411014
     L2_2 = L2_2.S8DB58249AC006158
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f4D31CD40
     
@@ -565,8 +522,8 @@ function L70_1(A0_2, A1_2)
     
     L5_2 = L5_2()
     L3_2(L4_2, L5_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F61CC973B7CC06BC7
+    L4_2 = self
+    L3_2 = self.F61CC973B7CC06BC7
     L3_2(L4_2)
   end
   L2_2 = C900497CF09EBB337
@@ -574,13 +531,10 @@ function L70_1(A0_2, A1_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.PreUpdate
+function C8709626B0501555D_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if not L2_2 then
     L2_2 = CFC8F368D91411014
     L2_2 = L2_2.SDE9EF3CFD428417D
@@ -605,7 +559,7 @@ function L70_1(A0_2, A1_2)
         if 0 ~= L2_2 then
           L2_2 = CFC8F368D91411014
           L2_2 = L2_2.S0AA068F6900B5FF7
-          L3_2 = A0_2[1]
+          L3_2 = self[1]
           L4_2 = L3_2
           L3_2 = L3_2.f4D31CD40
           
@@ -623,7 +577,7 @@ function L70_1(A0_2, A1_2)
           
           L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L5_2()
           L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
-          L3_2 = A0_2[1]
+          L3_2 = self[1]
           L4_2 = L3_2
           L3_2 = L3_2.f5B268E4E
           L3_2 = L3_2(L4_2)
@@ -633,7 +587,7 @@ function L70_1(A0_2, A1_2)
         else
           L2_2 = CFC8F368D91411014
           L2_2 = L2_2.S8DB58249AC006158
-          L3_2 = A0_2[1]
+          L3_2 = self[1]
           L4_2 = L3_2
           L3_2 = L3_2.f4D31CD40
           
@@ -651,7 +605,7 @@ function L70_1(A0_2, A1_2)
           
           L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L5_2()
           L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
-          L3_2 = A0_2[1]
+          L3_2 = self[1]
           L4_2 = L3_2
           L3_2 = L3_2.f5B268E4E
           L3_2 = L3_2(L4_2)
@@ -659,18 +613,18 @@ function L70_1(A0_2, A1_2)
           L3_2 = L3_2.fE9C29DA1
           L3_2(L4_2)
         end
-        L3_2 = A0_2
-        L2_2 = A0_2.F4239790804A9DACA
+        L3_2 = self
+        L2_2 = self.F4239790804A9DACA
         L2_2(L3_2)
         L2_2 = cCF781FB6
         L2_2 = L2_2.fB41FD22F
-        L3_2 = A0_2[1]
+        L3_2 = self[1]
         L2_2 = L2_2(L3_2)
         L3_2 = L2_2
         L2_2 = L2_2.fC9F06BB8
         L4_2 = 4
         L2_2(L3_2, L4_2)
-        A0_2[7] = true
+        self[7] = true
       end
     end
   end
@@ -702,12 +656,12 @@ function L70_1(A0_2, A1_2)
   
   L3_2 = L3_2()
   if not L3_2 then
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     if L3_2 then
       L3_2 = CFC8F368D91411014
       L3_2 = L3_2.S52271CF2FB4598E5
       if 0 == L3_2 then
-        L3_2 = A0_2[1]
+        L3_2 = self[1]
         L4_2 = L3_2
         L3_2 = L3_2.f7360ED03
         L3_2, L4_2, L5_2 = L3_2(L4_2)
@@ -1044,25 +998,22 @@ function L70_1(A0_2, A1_2)
   ::lbl_332::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.Destroy
+function C8709626B0501555D_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cACBFA004
   L2_2 = L2_2.f05FAAF59
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     if L2_2 >= 0 then
-      L2_2 = A0_2[4]
+      L2_2 = self[4]
       L3_2 = L2_2
       L2_2 = L2_2.fFB78ACF1
-      L4_2 = A0_2[5]
+      L4_2 = self[5]
       L2_2(L3_2, L4_2)
     end
   end
@@ -1070,18 +1021,15 @@ function L70_1(A0_2)
   L2_2.S5C8618629D667D49 = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8709626B0501555D"]["prototype"]
-L69_1 = "FD915D4F189CD7DE5"
-
-function L70_1(A0_2)
+--- main.field.global_event_check.event_trigger.PlayerEventTrigger.updateArea
+function C8709626B0501555D_prototype:FD915D4F189CD7DE5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   if L1_2 then
     L1_2 = CFC8F368D91411014
     L1_2 = L1_2.S52271CF2FB4598E5
     if 0 == L1_2 then
-      L1_2 = A0_2[1]
+      L1_2 = self[1]
       L2_2 = L1_2
       L1_2 = L1_2.f7360ED03
       L1_2, L2_2, L3_2 = L1_2(L2_2)

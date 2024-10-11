@@ -1,3 +1,7 @@
+---@alias C4539440E808BD945 main_event_debug_DebugAibaNoriko
+
+---@class main_event_debug_DebugAibaNoriko : C4539440E808BD945_prototype
+---@field prototype C4539440E808BD945_prototype
 L55_1 = _ENV
 L56_1 = "C4539440E808BD945"
 L57_1 = L15_1
@@ -45,48 +49,31 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4539440E808BD945"]
 L69_1 = "__name__"
 L70_1 = "C4539440E808BD945"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4539440E808BD945"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4539440E808BD945"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C4539440E808BD945_prototype
+C4539440E808BD945_prototype = L15_1()
+C4539440E808BD945.prototype = C4539440E808BD945_prototype
+--- main.event.debug.DebugAibaNoriko.preStart
+function C4539440E808BD945_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4539440E808BD945"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugAibaNoriko.postStart
+function C4539440E808BD945_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4539440E808BD945"]["prototype"]
-L69_1 = "F367E56C9AF7477A9"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugAibaNoriko.preReset
+function C4539440E808BD945_prototype:F367E56C9AF7477A9()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4539440E808BD945"]["prototype"]
-L69_1 = "F7D3239FB83157FC6"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugAibaNoriko.postReset
+function C4539440E808BD945_prototype:F7D3239FB83157FC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4539440E808BD945"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugAibaNoriko.mainBody
+function C4539440E808BD945_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S93A017D496A6D000
@@ -102,27 +89,18 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4539440E808BD945"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugAibaNoriko.mainBodyFinish
+function C4539440E808BD945_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4539440E808BD945"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugAibaNoriko.preEnd
+function C4539440E808BD945_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4539440E808BD945"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugAibaNoriko.postEnd
+function C4539440E808BD945_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CBBA8BC6DEECCDCB4"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "__name__"
-L70_1 = "CBBA8BC6DEECCDCB4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SE868EE80CBC5C603"
+---@alias CBBA8BC6DEECCDCB4 main_event_command_MotionCommand
 
-function L70_1(A0_2, A1_2)
+---@class main_event_command_MotionCommand
+CBBA8BC6DEECCDCB4 = L15_1()
+CBBA8BC6DEECCDCB4.new = {}
+CBBA8BC6DEECCDCB4.__name__ = "CBBA8BC6DEECCDCB4"
+--- main.event.command.MotionCommand.ToBattleWait
+function CBBA8BC6DEECCDCB4.SE868EE80CBC5C603(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     A1_2 = false
@@ -34,11 +25,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SE79EBEFC04A18418"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.ObjToBattleWait
+function CBBA8BC6DEECCDCB4.SE79EBEFC04A18418(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A1_2 then
     A1_2 = false
@@ -280,11 +268,8 @@ function L70_1(A0_2, A1_2)
   L9_2(L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SBCCC0C6092DBD1E9"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.ToFieldWait
+function CBBA8BC6DEECCDCB4.SBCCC0C6092DBD1E9(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -300,11 +285,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SF61447C69A3DD2CC"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.ObjToFieldWait
+function CBBA8BC6DEECCDCB4.SF61447C69A3DD2CC(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A0_2 then
     return
@@ -632,11 +614,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S9DEB10F3B940A275"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.MotionCommand.MotionPlay
+function CBBA8BC6DEECCDCB4.S9DEB10F3B940A275(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = false
@@ -657,11 +636,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S8687DB3D7972D192"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.MotionCommand.ObjMotionPlay
+function CBBA8BC6DEECCDCB4.S8687DB3D7972D192(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2
   if nil == A2_2 then
     A2_2 = false
@@ -1111,11 +1087,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S874A3D5CE4EF02C4"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.MotionCommand.GetStateInfo
+function CBBA8BC6DEECCDCB4.S874A3D5CE4EF02C4(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L4_2 = nil
   L5_2 = cE35B3EB3
@@ -1249,11 +1222,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S6EFB6BD692E0CEBF"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.MotionStop
+function CBBA8BC6DEECCDCB4.S6EFB6BD692E0CEBF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     A1_2 = false
@@ -1272,11 +1242,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S95BB0056059BA2A8"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.ObjMotionStop
+function CBBA8BC6DEECCDCB4.S95BB0056059BA2A8(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A1_2 then
     A1_2 = false
@@ -1366,11 +1333,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S96EA28F400597FA0"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.Reset
+function CBBA8BC6DEECCDCB4.S96EA28F400597FA0(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = C4B092ECAC3E586CC
   L1_2 = L1_2.SC8223E31D3163519
@@ -1500,11 +1464,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S2A10F66CB039ABE6"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.MotionReset
+function CBBA8BC6DEECCDCB4.S2A10F66CB039ABE6(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = false
@@ -1524,11 +1485,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S39B6D7628AC18E0F"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.ObjMotionReset
+function CBBA8BC6DEECCDCB4.S39B6D7628AC18E0F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     A1_2 = true
@@ -1544,11 +1502,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S35A3483535E0CE7B"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.S35A3483535E0CE7B
+function CBBA8BC6DEECCDCB4.S35A3483535E0CE7B(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = false
@@ -1568,11 +1523,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S843E013CC2EC218E"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.S843E013CC2EC218E
+function CBBA8BC6DEECCDCB4.S843E013CC2EC218E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     A1_2 = true
@@ -1588,11 +1540,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S47BF3F0785A759D4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.MotionCommand.S47BF3F0785A759D4
+function CBBA8BC6DEECCDCB4.S47BF3F0785A759D4(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L3_2 = nil
   L4_2 = cE35B3EB3
@@ -1745,11 +1694,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L8_2(L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SF8F6FEB8146F5E3E"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.MotionWait
+function CBBA8BC6DEECCDCB4.SF8F6FEB8146F5E3E(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -1764,11 +1710,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SA1BE6578D07E12D1"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.ObjMotionWait
+function CBBA8BC6DEECCDCB4.SA1BE6578D07E12D1(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A0_2 then
     return
@@ -2107,11 +2050,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S3ABE3BD75A42B659"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.MotionStateWait
+function CBBA8BC6DEECCDCB4.S3ABE3BD75A42B659(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -2127,11 +2067,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SF72B18CFE531F240"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.ObjMotionStateWait
+function CBBA8BC6DEECCDCB4.SF72B18CFE531F240(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
   if nil == A0_2 then
     return
@@ -2420,11 +2357,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S34BAB326AF178DAE"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.MotionStateWaitByStateName
+function CBBA8BC6DEECCDCB4.S34BAB326AF178DAE(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -2440,11 +2374,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S2F733A893ADE7D6D"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.ObjMotionStateWaitByStateName
+function CBBA8BC6DEECCDCB4.S2F733A893ADE7D6D(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A0_2 then
     return
@@ -2541,11 +2472,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S7F42E7F3D9C028B1"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.EnableForceFaceState
+function CBBA8BC6DEECCDCB4.S7F42E7F3D9C028B1(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CBBA8BC6DEECCDCB4
   L2_2 = L2_2.SEB3175FBD814D0CA
@@ -2557,11 +2485,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SEB3175FBD814D0CA"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.ObjEnableForceFaceState
+function CBBA8BC6DEECCDCB4.SEB3175FBD814D0CA(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = A0_2.owner
   L3_2 = L2_2
@@ -2621,11 +2546,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SEE6738E890EC4A8F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.MotionCommand.SetFaceState
+function CBBA8BC6DEECCDCB4.SEE6738E890EC4A8F(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CBBA8BC6DEECCDCB4
   L3_2 = L3_2.S3808054636436824
@@ -2638,11 +2560,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S3808054636436824"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.MotionCommand.ObjSetFaceState
+function CBBA8BC6DEECCDCB4.S3808054636436824(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A0_2 then
     return
@@ -2685,11 +2604,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S5C18359B5FB40EF4"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.SetFaceStateBoth
+function CBBA8BC6DEECCDCB4.S5C18359B5FB40EF4(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CBBA8BC6DEECCDCB4
   L2_2 = L2_2.S3808054636436824
@@ -2702,11 +2618,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SE2B901D4B76EC653"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.ObjSetFaceStateBoth
+function CBBA8BC6DEECCDCB4.SE2B901D4B76EC653(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CBBA8BC6DEECCDCB4
   L2_2 = L2_2.S3808054636436824
@@ -2716,11 +2629,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S16BFEE1F70ABC572"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.ResetFaceState
+function CBBA8BC6DEECCDCB4.S16BFEE1F70ABC572(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CBBA8BC6DEECCDCB4
   L1_2 = L1_2.S3808054636436824
@@ -2733,11 +2643,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SB32E4EF066525F49"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.ObjResetFaceState
+function CBBA8BC6DEECCDCB4.SB32E4EF066525F49(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CBBA8BC6DEECCDCB4
   L1_2 = L1_2.S3808054636436824
@@ -2747,11 +2654,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SA3E2057F67E89779"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.LipSync
+function CBBA8BC6DEECCDCB4.SA3E2057F67E89779(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -2767,11 +2671,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S38F98A5791B08DE4"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.ObjLipSync
+function CBBA8BC6DEECCDCB4.S38F98A5791B08DE4(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A0_2 then
     return
@@ -2818,11 +2719,8 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SB1D74D5D533FBA32"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.SetEyeBlink
+function CBBA8BC6DEECCDCB4.SB1D74D5D533FBA32(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CBBA8BC6DEECCDCB4
   L2_2 = L2_2.S4FE7FC5B1048EDAF
@@ -2834,11 +2732,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S4FE7FC5B1048EDAF"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.SetEyeBlinkObj
+function CBBA8BC6DEECCDCB4.S4FE7FC5B1048EDAF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A0_2 then
     return
@@ -2867,11 +2762,8 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S983A011C2FA07424"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.S983A011C2FA07424
+function CBBA8BC6DEECCDCB4.S983A011C2FA07424(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CBBA8BC6DEECCDCB4
   L2_2 = L2_2.S2CDCC6A06DC0370B
@@ -2883,11 +2775,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S2CDCC6A06DC0370B"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.S2CDCC6A06DC0370B
+function CBBA8BC6DEECCDCB4.S2CDCC6A06DC0370B(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = A0_2.owner
   L3_2 = L2_2
@@ -2915,11 +2804,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S87C57D2B466CE242"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.MotionCommand.RotomPhoneStart
+function CBBA8BC6DEECCDCB4.S87C57D2B466CE242(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A4_2 then
     A4_2 = false
@@ -3024,11 +2910,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S59A0231279A05774"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.RotomPhoneLookAt
+function CBBA8BC6DEECCDCB4.S59A0231279A05774(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -3094,11 +2977,8 @@ function L70_1(A0_2)
   L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S11524313EC3F9FE9"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.RotomPhoneAnimationWait
+function CBBA8BC6DEECCDCB4.S11524313EC3F9FE9(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   
   function L1_2()
@@ -3167,11 +3047,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S43C4B2BD08C5F367"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.RotomPhoneEnd
+function CBBA8BC6DEECCDCB4.S43C4B2BD08C5F367(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A1_2 then
     A1_2 = false
@@ -3249,11 +3126,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SDE16689E0A912DF7"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.IsRotomPhoneEnd
+function CBBA8BC6DEECCDCB4.SDE16689E0A912DF7(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -3297,11 +3171,8 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SA21CDA761830A830"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.IsStartRotomPhone
+function CBBA8BC6DEECCDCB4.SA21CDA761830A830(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   
   function L1_2()
@@ -3371,11 +3242,8 @@ function L70_1(A0_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S22BA6CE38D14A925"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.S22BA6CE38D14A925
+function CBBA8BC6DEECCDCB4.S22BA6CE38D14A925(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   
   function L2_2()
@@ -3437,11 +3305,8 @@ function L70_1(A0_2, A1_2)
   L7_2(L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S29E8B1686BF43A64"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.MotionCommand.SetAnimationFloatValue
+function CBBA8BC6DEECCDCB4.S29E8B1686BF43A64(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = CDCBFD50A277E546D
   L3_2 = L3_2.S0C6378C0E23B592D
@@ -3494,11 +3359,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S3B5203C3A622222D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.MotionCommand.SetAnimationIntValue
+function CBBA8BC6DEECCDCB4.S3B5203C3A622222D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = CDCBFD50A277E546D
   L3_2 = L3_2.S0C6378C0E23B592D
@@ -3551,11 +3413,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S8F54F39FC8DD4A14"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.MotionCommand.SetAnimationBoolValue
+function CBBA8BC6DEECCDCB4.S8F54F39FC8DD4A14(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = CDCBFD50A277E546D
   L3_2 = L3_2.S0C6378C0E23B592D
@@ -3608,11 +3467,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S522E0FDD52DD6AE5"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.SetAnimationTrigger
+function CBBA8BC6DEECCDCB4.S522E0FDD52DD6AE5(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -3665,11 +3521,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SEA44C6AE4C2CD726"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.MotionCommand.SetAnimationSpeed
+function CBBA8BC6DEECCDCB4.SEA44C6AE4C2CD726(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -3698,11 +3551,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SD9991CDA721251C0"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.MotionCommand.SD9991CDA721251C0
+function CBBA8BC6DEECCDCB4.SD9991CDA721251C0(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = nil
   if 0 == A0_2 then
@@ -3808,11 +3658,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S8CE5B8B43C2DFD5D"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.ObjMotionStopPlayer
+function CBBA8BC6DEECCDCB4.S8CE5B8B43C2DFD5D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = nil
   L2_2 = cE35B3EB3
@@ -3949,11 +3796,8 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SB46B5201BF9533DF"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.ObjMotionStopNpc
+function CBBA8BC6DEECCDCB4.SB46B5201BF9533DF(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L1_2 = nil
   L2_2 = cE35B3EB3
@@ -4125,11 +3969,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S0BB0D4BA288DC24E"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.CheckCharacterType
+function CBBA8BC6DEECCDCB4.S0BB0D4BA288DC24E(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = A0_2.owner
   L2_2 = L1_2
@@ -4176,11 +4017,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "SF04AF7CBE2B7CD00"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.CheckStateType
+function CBBA8BC6DEECCDCB4.SF04AF7CBE2B7CD00(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = nil
   L2_2 = nil
@@ -4275,11 +4113,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S81EC39DE28B5939C"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.MotionCommand.FindStateParam
+function CBBA8BC6DEECCDCB4.S81EC39DE28B5939C(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2
   L4_2 = nil
   if 0 == A2_2 then
@@ -4350,11 +4185,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S477DAD51DA0AE6DD"
-
-function L70_1(A0_2)
+--- main.event.command.MotionCommand.S477DAD51DA0AE6DD
+function CBBA8BC6DEECCDCB4.S477DAD51DA0AE6DD(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   
   function L1_2()
@@ -4418,11 +4250,8 @@ function L70_1(A0_2)
   return L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S9CEF7AD7561AB3CC"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.MotionCommand.S9CEF7AD7561AB3CC
+function CBBA8BC6DEECCDCB4.S9CEF7AD7561AB3CC(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = false
@@ -4441,11 +4270,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBBA8BC6DEECCDCB4"]
-L69_1 = "S2F0A59B51946A96D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.MotionCommand.S2F0A59B51946A96D
+function CBBA8BC6DEECCDCB4.S2F0A59B51946A96D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A2_2 then
     A2_2 = false

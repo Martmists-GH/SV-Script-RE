@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CFC38B9FC7090ACD9"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CFC38B9FC7090ACD9"]
-L69_1 = "new"
+---@alias CFC38B9FC7090ACD9 main_system_game_event_GameEventPokePicnic
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventPokePicnic : CFC38B9FC7090ACD9_prototype
+---@field prototype CFC38B9FC7090ACD9_prototype
+CFC38B9FC7090ACD9 = L15_1()
+function CFC38B9FC7090ACD9.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CFC38B9FC7090ACD9
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC38B9FC7090ACD9"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CFC38B9FC7090ACD9
+function CFC38B9FC7090ACD9.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CD2A28B888FB4BC08
   L3_2 = L3_2.new
@@ -41,11 +35,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC38B9FC7090ACD9"]
-L69_1 = "__name__"
-L70_1 = "CFC38B9FC7090ACD9"
-L68_1[L69_1] = L70_1
+CFC38B9FC7090ACD9.__name__ = "CFC38B9FC7090ACD9"
 L68_1 = _ENV["CFC38B9FC7090ACD9"]
 L69_1 = "S8EACE3B4EF837193"
 
@@ -56,11 +46,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC38B9FC7090ACD9"]
-L69_1 = "SFCE091807173F6E9"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPokePicnic.Call
+function CFC38B9FC7090ACD9.SFCE091807173F6E9(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = L16_1
   L2_2 = {}
@@ -90,16 +77,11 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC38B9FC7090ACD9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC38B9FC7090ACD9"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CFC38B9FC7090ACD9_prototype
+CFC38B9FC7090ACD9_prototype = L15_1()
+CFC38B9FC7090ACD9.prototype = CFC38B9FC7090ACD9_prototype
+--- main.system.game_event.GameEventPokePicnic.onCreate
+function CFC38B9FC7090ACD9_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = L16_1
   L2_2 = {}
@@ -128,7 +110,7 @@ function L70_1(A0_2)
       L1_2.strParams = L2_2
     end
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2[26] = L1_2
   L2_2 = L16_1
   L3_2 = {}
@@ -157,7 +139,7 @@ function L70_1(A0_2)
       L2_2.strParams = L3_2
     end
   end
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2[24] = L2_2
   L3_2 = L16_1
   L4_2 = {}
@@ -186,7 +168,7 @@ function L70_1(A0_2)
       L3_2.strParams = L4_2
     end
   end
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L4_2[12] = L3_2
   L4_2 = L16_1
   L5_2 = {}
@@ -215,7 +197,7 @@ function L70_1(A0_2)
       L4_2.strParams = L5_2
     end
   end
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L5_2[28] = L4_2
   L5_2 = CB4E56E9599A85891
   L5_2 = L5_2.S528BE272270F9397
@@ -226,24 +208,21 @@ function L70_1(A0_2)
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC38B9FC7090ACD9"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPokePicnic.onUpdate
+function CFC38B9FC7090ACD9_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L1_2 = L1_2.bootType
   if 0 == L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F8D48E9B387242660
+    L2_2 = self
+    L1_2 = self.F8D48E9B387242660
     L1_2 = L1_2(L2_2)
     if not L1_2 then
       L2_2 = 2
       return L2_2
     end
-    L3_2 = A0_2
-    L2_2 = A0_2.F1AE176DE1C0A03C1
+    L3_2 = self
+    L2_2 = self.F1AE176DE1C0A03C1
     L2_2 = L2_2(L3_2)
     L1_2 = L2_2
     if not L1_2 then
@@ -251,7 +230,7 @@ function L70_1(A0_2)
       return L2_2
     end
   end
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L1_2 = L1_2.bootType
   if 2 ~= L1_2 then
     L1_2 = CFC38B9FC7090ACD9
@@ -354,7 +333,7 @@ function L70_1(A0_2)
   function L2_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[17]
     L1_3 = L1_3.bootType
     if 2 == L1_3 then
@@ -454,11 +433,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC38B9FC7090ACD9"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPokePicnic.onFinished
+function CFC38B9FC7090ACD9_prototype:F68499476069C0B1E()
   local L1_2, L2_2
   L1_2 = CB4E56E9599A85891
   L1_2 = L1_2.SBAA7E8F9E9C471CF
@@ -471,11 +447,8 @@ function L70_1(A0_2)
   L1_2.S599C5202449991EC = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC38B9FC7090ACD9"]["prototype"]
-L69_1 = "F4E09538E8F109EC2"
-
-function L70_1(A0_2, A1_2)
+--- main.system.game_event.GameEventPokePicnic.onInterrupted
+function CFC38B9FC7090ACD9_prototype:F4E09538E8F109EC2(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C02F0E8673B660BDF
   L2_2 = L2_2.S7EFD73121270D16C
@@ -490,16 +463,13 @@ function L70_1(A0_2, A1_2)
   L2_2 = CE0D511325372F946
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F4E09538E8F109EC2
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC38B9FC7090ACD9"]["prototype"]
-L69_1 = "F1AE176DE1C0A03C1"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPokePicnic.F1AE176DE1C0A03C1
+function CFC38B9FC7090ACD9_prototype:F1AE176DE1C0A03C1()
   local L1_2, L2_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -507,7 +477,7 @@ function L70_1(A0_2)
   L1_2 = L1_2[1]
   L1_2 = L1_2[9]
   L1_2[7] = false
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L2_2 = L1_2
   L1_2 = L1_2.FE4B5925356E0C5F1
   L1_2 = L1_2(L2_2)
@@ -547,11 +517,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFC38B9FC7090ACD9"]["prototype"]
-L69_1 = "F8D48E9B387242660"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPokePicnic.onSetupForUpdateCommon
+function CFC38B9FC7090ACD9_prototype:F8D48E9B387242660()
   local L1_2, L2_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -559,7 +526,7 @@ function L70_1(A0_2)
   L1_2 = L1_2[1]
   L1_2 = L1_2[9]
   L1_2[7] = false
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L2_2 = L1_2
   L1_2 = L1_2.FBB0D82E58A5D5F9E
   L1_2 = L1_2(L2_2)

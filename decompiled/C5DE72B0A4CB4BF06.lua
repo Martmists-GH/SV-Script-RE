@@ -1,3 +1,7 @@
+---@alias C5DE72B0A4CB4BF06 main_ajito_data_collector_AjitoPokemonTableFinder
+
+---@class main_ajito_data_collector_AjitoPokemonTableFinder : C5DE72B0A4CB4BF06_prototype
+---@field prototype C5DE72B0A4CB4BF06_prototype
 L68_1 = _ENV["C5DE72B0A4CB4BF06"]
 L69_1 = "super"
 
@@ -32,26 +36,18 @@ L69_1 = "__interfaces__"
 L70_1 = {}
 L71_1 = C506E192DDC28E8B5
 L70_1[1] = L71_1
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DE72B0A4CB4BF06"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DE72B0A4CB4BF06"]["prototype"]
-L69_1 = "F87972F52753D499F"
-
-function L70_1(A0_2)
+---@class C5DE72B0A4CB4BF06_prototype
+C5DE72B0A4CB4BF06_prototype = L15_1()
+C5DE72B0A4CB4BF06.prototype = C5DE72B0A4CB4BF06_prototype
+--- main.ajito.data.collector.AjitoPokemonTableFinder.GetData
+function C5DE72B0A4CB4BF06_prototype:F87972F52753D499F()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DE72B0A4CB4BF06"]["prototype"]
-L69_1 = "F80B5D892ADA38C8B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ajito.data.collector.AjitoPokemonTableFinder.setData
+function C5DE72B0A4CB4BF06_prototype:F80B5D892ADA38C8B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L4_2 = A2_2
   L3_2 = A2_2.fF2819595
@@ -72,7 +68,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = L3_2.fCD31E312
   L8_2 = "formNo"
   L6_2 = L6_2(L7_2, L8_2)
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.push
   L9_2 = L16_1
@@ -96,7 +92,7 @@ L68_1.__class__ = L69_1
 L68_1 = CD4B6FB3CA19BC831
 L69_1 = "new"
 
-function L70_1(A0_2)
+function L70_1(self)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CD4B6FB3CA19BC831
@@ -107,7 +103,7 @@ function L70_1(A0_2)
   L2_2 = CD4B6FB3CA19BC831
   L2_2 = L2_2.super
   L3_2 = L1_2
-  L4_2 = A0_2
+  L4_2 = self
   L2_2(L3_2, L4_2)
   return L1_2
 end

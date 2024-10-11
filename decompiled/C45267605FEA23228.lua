@@ -1,3 +1,7 @@
+---@alias C45267605FEA23228 main_event_general_pokecen_BootPokecen
+
+---@class main_event_general_pokecen_BootPokecen : C45267605FEA23228_prototype
+---@field prototype C45267605FEA23228_prototype
 L55_1 = _ENV
 L56_1 = "C45267605FEA23228"
 L57_1 = L15_1
@@ -45,19 +49,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C45267605FEA23228"]
 L69_1 = "__name__"
 L70_1 = "C45267605FEA23228"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C45267605FEA23228"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C45267605FEA23228"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C45267605FEA23228_prototype
+C45267605FEA23228_prototype = L15_1()
+C45267605FEA23228.prototype = C45267605FEA23228_prototype
+--- main.event.general.pokecen.BootPokecen.preStart
+function C45267605FEA23228_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F98960DCB69061A3C
+  L2_2 = self
+  L1_2 = self.F98960DCB69061A3C
   L1_2 = L1_2(L2_2)
   if L1_2 then
     L1_2 = nil
@@ -67,7 +66,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = c016374C1
       L1_3 = L1_3.f4555D276
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[12]
       L2_3 = L2_3.owner
       L3_3 = L1_2
@@ -75,7 +74,7 @@ function L70_1(A0_2)
       if L1_3 then
         L0_3 = nil
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[12]
       end
       return L0_3
@@ -104,8 +103,8 @@ function L70_1(A0_2)
     L8_2 = {}
     L8_2.isLeapYear = true
     L7_2.__fields__ = L8_2
-    L9_2 = A0_2
-    L8_2 = A0_2.FC5D477BC60F30426
+    L9_2 = self
+    L8_2 = self.FC5D477BC60F30426
     L8_2 = L8_2(L9_2)
     L7_2.isLeapYear = L8_2
     L6_2, L7_2, L8_2, L9_2 = L6_2(L7_2)
@@ -118,7 +117,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = c016374C1
       L1_3 = L1_3.f4555D276
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[12]
       L2_3 = L2_3.owner
       L3_3 = L1_2
@@ -126,7 +125,7 @@ function L70_1(A0_2)
       if L1_3 then
         L0_3 = nil
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[12]
       end
       return L0_3
@@ -155,8 +154,8 @@ function L70_1(A0_2)
     L8_2 = {}
     L8_2.canInputBirthDay = true
     L7_2.__fields__ = L8_2
-    L9_2 = A0_2
-    L8_2 = A0_2.FE6964C8F0EEA2BCA
+    L9_2 = self
+    L8_2 = self.FE6964C8F0EEA2BCA
     L8_2 = L8_2(L9_2)
     L7_2.canInputBirthDay = L8_2
     L6_2, L7_2, L8_2, L9_2 = L6_2(L7_2)
@@ -164,11 +163,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C45267605FEA23228"]["prototype"]
-L69_1 = "F98960DCB69061A3C"
-
-function L70_1(A0_2)
+--- main.event.general.pokecen.BootPokecen.isBirthDay
+function C45267605FEA23228_prototype:F98960DCB69061A3C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = C10578806AC30DCA3
   L1_2 = L1_2.SBA6FF574C1C9AA09
@@ -219,8 +215,8 @@ function L70_1(A0_2)
   L10_2 = L6_2
   L8_2(L9_2, L10_2)
   if L5_2 ~= L6_2 then
-    L9_2 = A0_2
-    L8_2 = A0_2.FC5D477BC60F30426
+    L9_2 = self
+    L8_2 = self.FC5D477BC60F30426
     L8_2 = L8_2(L9_2)
     if false == L8_2 and 2 == L3_2 and 29 == L4_2 then
       L9_2 = L2_2
@@ -288,11 +284,8 @@ function L70_1(A0_2)
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C45267605FEA23228"]["prototype"]
-L69_1 = "FC5D477BC60F30426"
-
-function L70_1(A0_2)
+--- main.event.general.pokecen.BootPokecen.isLeapYear
+function C45267605FEA23228_prototype:FC5D477BC60F30426()
   local L1_2, L2_2, L3_2
   L1_2 = c4DDE9906
   L1_2 = L1_2.f0989FE4D
@@ -312,11 +305,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C45267605FEA23228"]["prototype"]
-L69_1 = "FE6964C8F0EEA2BCA"
-
-function L70_1(A0_2)
+--- main.event.general.pokecen.BootPokecen.canInputBirthDay
+function C45267605FEA23228_prototype:FE6964C8F0EEA2BCA()
   local L1_2, L2_2
   L1_2 = C10578806AC30DCA3
   L1_2 = L1_2.SBA6FF574C1C9AA09

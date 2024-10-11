@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CAEA636D5598C61A0"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CAEA636D5598C61A0"]
-L69_1 = "new"
+---@alias CAEA636D5598C61A0 main_ui_photomode_main_PhotoFilterController
 
-function L70_1()
+---@class main_ui_photomode_main_PhotoFilterController : CAEA636D5598C61A0_prototype
+---@field prototype CAEA636D5598C61A0_prototype
+CAEA636D5598C61A0 = L15_1()
+function CAEA636D5598C61A0.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = CAEA636D5598C61A0
@@ -21,19 +18,12 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEA636D5598C61A0"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 CAEA636D5598C61A0
+function CAEA636D5598C61A0.super(A0_2)
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEA636D5598C61A0"]
-L69_1 = "__name__"
-L70_1 = "CAEA636D5598C61A0"
-L68_1[L69_1] = L70_1
+CAEA636D5598C61A0.__name__ = "CAEA636D5598C61A0"
 L68_1 = _ENV["CAEA636D5598C61A0"]
 L69_1 = "S385504EFF7E842C3"
 
@@ -53,16 +43,11 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEA636D5598C61A0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEA636D5598C61A0"]["prototype"]
-L69_1 = "F8E7AA61914DEB22D"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class CAEA636D5598C61A0_prototype
+CAEA636D5598C61A0_prototype = L15_1()
+CAEA636D5598C61A0.prototype = CAEA636D5598C61A0_prototype
+--- main.ui.photomode.main.PhotoFilterController.SetFilter
+function CAEA636D5598C61A0_prototype:F8E7AA61914DEB22D(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = L31_1.int
   L4_2 = A1_2
@@ -213,11 +198,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEA636D5598C61A0"]["prototype"]
-L69_1 = "F386D3DCE2989826F"
-
-function L70_1(A0_2)
+--- main.ui.photomode.main.PhotoFilterController.DisablePhotoFilter
+function CAEA636D5598C61A0_prototype:F386D3DCE2989826F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519

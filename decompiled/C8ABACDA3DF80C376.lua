@@ -1,3 +1,7 @@
+---@alias C8ABACDA3DF80C376 main_ui_title_first_start_title_demo_view_TitleDemoUIView
+
+---@class main_ui_title_first_start_title_demo_view_TitleDemoUIView : C8ABACDA3DF80C376_prototype
+---@field prototype C8ABACDA3DF80C376_prototype
 L55_1 = _ENV
 L56_1 = "C8ABACDA3DF80C376"
 L57_1 = L15_1
@@ -46,31 +50,26 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C8ABACDA3DF80C376"]
 L69_1 = "__name__"
 L70_1 = "C8ABACDA3DF80C376"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ABACDA3DF80C376"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ABACDA3DF80C376"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C8ABACDA3DF80C376_prototype
+C8ABACDA3DF80C376_prototype = L15_1()
+C8ABACDA3DF80C376.prototype = C8ABACDA3DF80C376_prototype
+--- main.ui.title.first_start.title_demo.view.TitleDemoUIView.Setup
+function C8ABACDA3DF80C376_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C5A03B25F2E5CB3E2
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = c69ACCC6F
   L2_2 = L2_2.f3F98EEAD
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
   L2_2 = cECD2E4A5
   L2_2 = L2_2.f2C9293F5
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "Body_00"
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = L2_2
@@ -83,34 +82,31 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.f808E4D8A
   L3_2 = 3
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.FA2076D5424AD3087
+  L5_2 = self
+  L6_2 = self.FA2076D5424AD3087
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F5170F383B865EC5F
+  L3_2 = self
+  L2_2 = self.F5170F383B865EC5F
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F62AE9F72F31760C4
+  L3_2 = self
+  L2_2 = self.F62AE9F72F31760C4
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F75D979006BE65113
+  L3_2 = self
+  L2_2 = self.F75D979006BE65113
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F6F4A9C19881101A6
+  L3_2 = self
+  L2_2 = self.F6F4A9C19881101A6
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ABACDA3DF80C376"]["prototype"]
-L69_1 = "FE2823709CB81AA04"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.title_demo.view.TitleDemoUIView.ViewStart
+function C8ABACDA3DF80C376_prototype:FE2823709CB81AA04()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C5A03B25F2E5CB3E2
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FE2823709CB81AA04
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = CF4B448D8C3744CAF
   L1_2 = L1_2.SDDCF2C31DADBAB65
@@ -119,65 +115,59 @@ function L70_1(A0_2)
   L1_2 = nil
   L2_2 = cE8D61D7D
   L2_2 = L2_2.fEFB8CD3A
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.fEACE829B
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ABACDA3DF80C376"]["prototype"]
-L69_1 = "FC830DB3477DEA391"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.title_demo.view.TitleDemoUIView.ReStartSequence
+function C8ABACDA3DF80C376_prototype:FC830DB3477DEA391()
   local L1_2, L2_2, L3_2
   L1_2 = C5A03B25F2E5CB3E2
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC830DB3477DEA391
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F62AE9F72F31760C4
+  L2_2 = self
+  L1_2 = self.F62AE9F72F31760C4
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F75D979006BE65113
+  L2_2 = self
+  L1_2 = self.F75D979006BE65113
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FAC63FB6628846950
+  L2_2 = self
+  L1_2 = self.FAC63FB6628846950
   L3_2 = "in"
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ABACDA3DF80C376"]["prototype"]
-L69_1 = "F2B8F4D1A92BBC209"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.title.first_start.title_demo.view.TitleDemoUIView.UpdateProcess
+function C8ABACDA3DF80C376_prototype:F2B8F4D1A92BBC209(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C5A03B25F2E5CB3E2
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F2B8F4D1A92BBC209
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = cC65D64C8
   L2_2 = L2_2.f846621C6
   L2_2()
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.f84FEDF67
   L2_2 = L2_2(L3_2)
   if not L2_2 then
-    L2_2 = A0_2[8]
-    L3_2 = A0_2[7]
+    L2_2 = self[8]
+    L3_2 = self[7]
     if L2_2 < L3_2 then
-      L2_2 = A0_2[8]
+      L2_2 = self[8]
       L4_2 = A1_2
       L3_2 = A1_2.f22D509B2
       L5_2 = 2
@@ -186,17 +176,17 @@ function L70_1(A0_2, A1_2)
       L3_2 = L3_2.fC0E2CAD0
       L3_2 = L3_2(L4_2)
       L2_2 = L2_2 + L3_2
-      A0_2[8] = L2_2
+      self[8] = L2_2
     end
   end
   L2_2 = nil
   L3_2 = c69ACCC6F
   L3_2 = L3_2.f8C317F18
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.fE09DCCE4
     L3_2 = L3_2(L4_2)
@@ -204,16 +194,13 @@ function L70_1(A0_2, A1_2)
       return
     end
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F4CEF9FBF49CC8C18
+  L4_2 = self
+  L3_2 = self.F4CEF9FBF49CC8C18
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ABACDA3DF80C376"]["prototype"]
-L69_1 = "FA2076D5424AD3087"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.title.first_start.title_demo.view.TitleDemoUIView.SetReplaceTextureCallback
+function C8ABACDA3DF80C376_prototype:FA2076D5424AD3087(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = nil
   L3_2 = cE2FA79C6
@@ -224,25 +211,22 @@ function L70_1(A0_2, A1_2)
   if L3_2 then
     L3_2 = cC65D64C8
     L3_2 = L3_2.f474C8BC5
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = "P_photo_00"
     L6_2 = 0
     L7_2 = A1_2
     L3_2(L4_2, L5_2, L6_2, L7_2)
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FE2823709CB81AA04
+  L4_2 = self
+  L3_2 = self.FE2823709CB81AA04
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ABACDA3DF80C376"]["prototype"]
-L69_1 = "F4CEF9FBF49CC8C18"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.title_demo.view.TitleDemoUIView.UpdateInput
+function C8ABACDA3DF80C376_prototype:F4CEF9FBF49CC8C18()
   local L1_2, L2_2
-  L1_2 = A0_2[8]
-  L2_2 = A0_2[7]
+  L1_2 = self[8]
+  L2_2 = self[7]
   if L1_2 < L2_2 then
     return
   end
@@ -251,10 +235,10 @@ function L70_1(A0_2)
   L2_2 = "UI_DECIDE"
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F99D83F59F72A66CB
+    L2_2 = self
+    L1_2 = self.F99D83F59F72A66CB
     L1_2 = L1_2(L2_2)
-    A0_2[3] = L1_2
+    self[3] = L1_2
     L1_2 = C3A36506FBC96ACBD
     L1_2 = L1_2.SC6181320B46854EE
     L2_2 = "PLAY_UI_COMMON_DECIDE"
@@ -266,13 +250,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ABACDA3DF80C376"]["prototype"]
-L69_1 = "F5170F383B865EC5F"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.title_demo.view.TitleDemoUIView.ParticlePause
+function C8ABACDA3DF80C376_prototype:F5170F383B865EC5F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
@@ -293,31 +274,28 @@ function L70_1(A0_2)
   L3_2 = L3_2.fB41FD22F
   L4_2 = L1_2
   L3_2 = L3_2(L4_2)
-  A0_2[6] = L3_2
+  self[6] = L3_2
   L3_2 = nil
   L4_2 = cE8D61D7D
   L4_2 = L4_2.fEFB8CD3A
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
     return
   end
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L5_2 = L4_2
   L4_2 = L4_2.fBD0145F6
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ABACDA3DF80C376"]["prototype"]
-L69_1 = "F62AE9F72F31760C4"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.title_demo.view.TitleDemoUIView.SetText
+function C8ABACDA3DF80C376_prototype:F62AE9F72F31760C4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.f46674724
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = "T_title_00"
   L4_2 = "player_select"
   L5_2 = "player_select_07_00"
@@ -340,7 +318,7 @@ function L70_1(A0_2)
   L1_2 = L1_2()
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "T_schoolname_00"
   L5_2 = "player_select"
   L6_2 = L31_1.string
@@ -363,21 +341,21 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "T_title_01"
   L5_2 = "player_select"
   L6_2 = "player_select_03_00"
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "T_title_02"
   L5_2 = "player_select"
   L6_2 = "player_select_03_01"
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "T_title_03"
   L5_2 = "player_select"
   L6_2 = "player_select_04_00"
@@ -400,17 +378,14 @@ function L70_1(A0_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
   L3_2 = c8C3BF576
   L3_2 = L3_2.f316077B2
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = "T_title_04"
   L6_2 = L2_2
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ABACDA3DF80C376"]["prototype"]
-L69_1 = "F6F4A9C19881101A6"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.title_demo.view.TitleDemoUIView.SetOptionGuide
+function C8ABACDA3DF80C376_prototype:F6F4A9C19881101A6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S5E67FD00348A0A28
@@ -430,11 +405,8 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ABACDA3DF80C376"]["prototype"]
-L69_1 = "F75D979006BE65113"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.title_demo.view.TitleDemoUIView.SetLayoutVersion
+function C8ABACDA3DF80C376_prototype:F75D979006BE65113()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   
   function L1_2()
@@ -453,7 +425,7 @@ function L70_1(A0_2)
   
   L1_2 = L1_2()
   L2_2 = L1_2
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.fEAD9FB7D
   L5_2 = "ptn_version"
@@ -476,7 +448,7 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
   L3_2 = c8C3BF576
   L3_2 = L3_2.f46674724
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = "T_schoolname_00"
   L6_2 = "player_select"
   L7_2 = L31_1.string
@@ -499,26 +471,23 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ABACDA3DF80C376"]["prototype"]
-L69_1 = "FDEA5E6606749E503"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.title_demo.view.TitleDemoUIView.EndSequence
+function C8ABACDA3DF80C376_prototype:FDEA5E6606749E503()
   local L1_2, L2_2, L3_2
   L1_2 = C5A03B25F2E5CB3E2
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FDEA5E6606749E503
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FAC63FB6628846950
+  L2_2 = self
+  L1_2 = self.FAC63FB6628846950
   L3_2 = "f_out"
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.f1EA0CCF2
   L1_2(L2_2)
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f2A9CF058
   L3_2 = false

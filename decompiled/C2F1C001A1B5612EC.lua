@@ -1,3 +1,7 @@
+---@alias C2F1C001A1B5612EC main_ui_box_BoxTopState
+
+---@class main_ui_box_BoxTopState : C2F1C001A1B5612EC_prototype
+---@field prototype C2F1C001A1B5612EC_prototype
 L55_1 = _ENV
 L56_1 = "C2F1C001A1B5612EC"
 L57_1 = L15_1
@@ -42,41 +46,33 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C2F1C001A1B5612EC"]
 L69_1 = "__name__"
 L70_1 = "C2F1C001A1B5612EC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F1C001A1B5612EC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F1C001A1B5612EC"]["prototype"]
-L69_1 = "F0E47A597FB435DB7"
-
-function L70_1(A0_2)
+---@class C2F1C001A1B5612EC_prototype
+C2F1C001A1B5612EC_prototype = L15_1()
+C2F1C001A1B5612EC.prototype = C2F1C001A1B5612EC_prototype
+--- main.ui.box.BoxTopState.SetupSequence
+function C2F1C001A1B5612EC_prototype:F0E47A597FB435DB7()
   local L1_2, L2_2
   L1_2 = C368EEDD37E362639
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F0E47A597FB435DB7
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F509A6A442B8D4302
+  L2_2 = self
+  L1_2 = self.F509A6A442B8D4302
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F1C001A1B5612EC"]["prototype"]
-L69_1 = "FBE696F4C6924A789"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.box.BoxTopState.ActionNotifiedEvent
+function C2F1C001A1B5612EC_prototype:FBE696F4C6924A789(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = C368EEDD37E362639
   L3_2 = L3_2.prototype
   L3_2 = L3_2.FBE696F4C6924A789
-  L4_2 = A0_2
+  L4_2 = self
   L5_2 = A1_2
   L6_2 = A2_2
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.fF88F34BC
   L5_2 = A2_2

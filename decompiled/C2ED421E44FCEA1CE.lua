@@ -1,3 +1,7 @@
+---@alias C2ED421E44FCEA1CE main_pokepicnic_object_controller_PicnicObjectController
+
+---@class main_pokepicnic_object_controller_PicnicObjectController : C2ED421E44FCEA1CE_prototype
+---@field prototype C2ED421E44FCEA1CE_prototype
 L55_1 = _ENV
 L56_1 = "C2ED421E44FCEA1CE"
 L57_1 = L15_1
@@ -108,33 +112,25 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2ED421E44FCEA1CE"]
 L69_1 = "__name__"
 L70_1 = "C2ED421E44FCEA1CE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2ED421E44FCEA1CE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2ED421E44FCEA1CE"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2)
+---@class C2ED421E44FCEA1CE_prototype
+C2ED421E44FCEA1CE_prototype = L15_1()
+C2ED421E44FCEA1CE.prototype = C2ED421E44FCEA1CE_prototype
+--- main.pokepicnic.object_controller.PicnicObjectController.Setup
+function C2ED421E44FCEA1CE_prototype:F7C68FEDB79AB6396()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FE5B871E4C1AF4B14
+  L2_2 = self
+  L1_2 = self.FE5B871E4C1AF4B14
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.F7C68FEDB79AB6396
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2ED421E44FCEA1CE"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.object_controller.PicnicObjectController.Update
+function C2ED421E44FCEA1CE_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -149,14 +145,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2ED421E44FCEA1CE"]["prototype"]
-L69_1 = "F4991204CB3AE67C7"
-
-function L70_1(A0_2)
+--- main.pokepicnic.object_controller.PicnicObjectController.IsLoading
+function C2ED421E44FCEA1CE_prototype:F4991204CB3AE67C7()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -172,7 +165,7 @@ function L70_1(A0_2)
       return L4_2
     end
   end
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L3_2 = L3_2[2]
   L4_2 = L3_2
   L3_2 = L3_2.F4991204CB3AE67C7
@@ -185,75 +178,57 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2ED421E44FCEA1CE"]["prototype"]
-L69_1 = "F4684863EDDB0E6E2"
-
-function L70_1(A0_2)
+--- main.pokepicnic.object_controller.PicnicObjectController.GetDatabase
+function C2ED421E44FCEA1CE_prototype:F4684863EDDB0E6E2()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L1_2 = L1_2[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2ED421E44FCEA1CE"]["prototype"]
-L69_1 = "FE5B871E4C1AF4B14"
-
-function L70_1(A0_2)
+--- main.pokepicnic.object_controller.PicnicObjectController.GetPokemon
+function C2ED421E44FCEA1CE_prototype:FE5B871E4C1AF4B14()
   local L1_2, L2_2, L3_2
   L1_2 = L52_1.__cast
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[0]
   L3_2 = C84AC15BD924106BC
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2ED421E44FCEA1CE"]["prototype"]
-L69_1 = "FD11CA95D4337EC3F"
-
-function L70_1(A0_2)
+--- main.pokepicnic.object_controller.PicnicObjectController.GetTableSet
+function C2ED421E44FCEA1CE_prototype:FD11CA95D4337EC3F()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L1_2 = L1_2[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2ED421E44FCEA1CE"]["prototype"]
-L69_1 = "FF12C42645B0588FA"
-
-function L70_1(A0_2)
+--- main.pokepicnic.object_controller.PicnicObjectController.GetBall
+function C2ED421E44FCEA1CE_prototype:FF12C42645B0588FA()
   local L1_2, L2_2, L3_2
   L1_2 = L52_1.__cast
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[2]
   L3_2 = CBF2919626B3F762C
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2ED421E44FCEA1CE"]["prototype"]
-L69_1 = "F00D5938E012F68A8"
-
-function L70_1(A0_2)
+--- main.pokepicnic.object_controller.PicnicObjectController.GetMenu
+function C2ED421E44FCEA1CE_prototype:F00D5938E012F68A8()
   local L1_2, L2_2, L3_2
   L1_2 = L52_1.__cast
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[3]
   L3_2 = CCD823E62A1C103D8
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2ED421E44FCEA1CE"]["prototype"]
-L69_1 = "F5CF2F3BDB59EFA3D"
-
-function L70_1(A0_2)
+--- main.pokepicnic.object_controller.PicnicObjectController.GetCooking
+function C2ED421E44FCEA1CE_prototype:F5CF2F3BDB59EFA3D()
   local L1_2, L2_2, L3_2
   L1_2 = L52_1.__cast
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[4]
   L3_2 = C76754FC887B7EF21
   return L1_2(L2_2, L3_2)

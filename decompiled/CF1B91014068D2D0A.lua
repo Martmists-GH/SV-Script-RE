@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CF1B91014068D2D0A"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "__name__"
-L70_1 = "CF1B91014068D2D0A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "SEBF321AC7EA0BEF4"
+---@alias CF1B91014068D2D0A main_battle_ui_BattleUiUtil
 
-function L70_1(A0_2)
+---@class main_battle_ui_BattleUiUtil
+CF1B91014068D2D0A = L15_1()
+CF1B91014068D2D0A.new = {}
+CF1B91014068D2D0A.__name__ = "CF1B91014068D2D0A"
+--- main.battle.ui.BattleUiUtil.SEBF321AC7EA0BEF4
+function CF1B91014068D2D0A.SEBF321AC7EA0BEF4(A0_2)
   local L1_2, L2_2
   L1_2 = A0_2[24]
   L2_2 = L1_2
@@ -30,11 +21,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S093E31A4015BD53E"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.battle.ui.BattleUiUtil.GetWazaType
+function CF1B91014068D2D0A.S093E31A4015BD53E(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A3_2 then
     A3_2 = 0
@@ -148,11 +136,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S3EA028EDD26A7447"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.ui.BattleUiUtil.S3EA028EDD26A7447
+function CF1B91014068D2D0A.S3EA028EDD26A7447(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = nil
   L4_2 = C7BD28C2CE195DB4E
@@ -177,11 +162,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S2F7DB02DFE670353"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiUtil.S2F7DB02DFE670353
+function CF1B91014068D2D0A.S2F7DB02DFE670353(A0_2)
   local L1_2, L2_2, L3_2
   if A0_2 < 2 then
     L1_2 = CC31A25AF0A315E23
@@ -196,11 +178,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "SE3B749BE6E8C4767"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiUtil.SE3B749BE6E8C4767
+function CF1B91014068D2D0A.SE3B749BE6E8C4767(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   if nil == A0_2 then
     A0_2 = 10
@@ -278,11 +257,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S0B960986853596B2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.battle.ui.BattleUiUtil.S0B960986853596B2
+function CF1B91014068D2D0A.S0B960986853596B2(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   if nil == A3_2 then
     A3_2 = false
@@ -472,11 +448,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "SD3D356E6C094FD7C"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiUtil.SD3D356E6C094FD7C
+function CF1B91014068D2D0A.SD3D356E6C094FD7C(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L3_2 = A0_2
   L2_2 = A0_2.F67AA8D66977C3584
@@ -500,11 +473,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S924F0F946F2F76AE"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.battle.ui.BattleUiUtil.S924F0F946F2F76AE
+function CF1B91014068D2D0A.S924F0F946F2F76AE(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L6_2 = 0
   L8_2 = A0_2
@@ -548,11 +518,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "SD30B7939AE606994"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiUtil.ConvertTypeAffinity
+function CF1B91014068D2D0A.SD30B7939AE606994(A0_2)
   local L1_2
   if 0 == A0_2 then
     L1_2 = 0
@@ -569,11 +536,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "SC90E3D4D85C0A7BF"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiUtil.GetTrainerName
+function CF1B91014068D2D0A.SC90E3D4D85C0A7BF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L3_2 = A0_2
   L2_2 = A0_2.F66B251CF3F944938
@@ -644,11 +608,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S8B5CA828A448E96D"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiUtil.GetItemID
+function CF1B91014068D2D0A.S8B5CA828A448E96D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = 0
   L2_2 = CC31A25AF0A315E23
@@ -684,11 +645,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S13AD958196796ED6"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiUtil.S13AD958196796ED6
+function CF1B91014068D2D0A.S13AD958196796ED6(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = 0
   L3_2 = A0_2
@@ -716,11 +674,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "SC86A14DCA0460486"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiUtil.SC86A14DCA0460486
+function CF1B91014068D2D0A.SC86A14DCA0460486(A0_2, A1_2)
   local L2_2
   if -1 == A1_2 then
     L2_2 = true
@@ -730,11 +685,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S4319591DC772839F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.battle.ui.BattleUiUtil.ReplacePlayerIcon
+function CF1B91014068D2D0A.S4319591DC772839F(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L4_2 = L16_1
   L5_2 = {}
@@ -824,11 +776,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S3603930C69111864"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiUtil.GetRaidNPCIconPath
+function CF1B91014068D2D0A.S3603930C69111864(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = A0_2
   L2_2 = A0_2.F66B251CF3F944938
@@ -892,11 +841,8 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S609BEF7698C766AD"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiUtil.GetMultiNPCIconPath
+function CF1B91014068D2D0A.S609BEF7698C766AD(A0_2, A1_2)
   local L2_2, L3_2
   L3_2 = A0_2
   L2_2 = A0_2.F091397B4B2804EF0
@@ -924,11 +870,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S3CD3343AAD740088"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiUtil.S3CD3343AAD740088
+function CF1B91014068D2D0A.S3CD3343AAD740088(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = 0
   L4_2 = A0_2
@@ -1030,11 +973,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S54833026A2A7F715"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiUtil.GetSickIconAnimeFrame
+function CF1B91014068D2D0A.S54833026A2A7F715(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = nil
   L3_2 = cB99A1783
@@ -1077,11 +1017,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S002A3867667D96BA"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiUtil.S002A3867667D96BA
+function CF1B91014068D2D0A.S002A3867667D96BA(A0_2)
   local L1_2
   if 99 == A0_2 then
     L1_2 = 18
@@ -1090,11 +1027,8 @@ function L70_1(A0_2)
   return A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S0DC0D11C1C3A54DC"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiUtil.S0DC0D11C1C3A54DC
+function CF1B91014068D2D0A.S0DC0D11C1C3A54DC(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if 851 == A0_2 and A1_2 then
     L2_2 = c8C3BF576
@@ -1127,11 +1061,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "SC4987CB1594E97D4"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.ui.BattleUiUtil.SC4987CB1594E97D4
+function CF1B91014068D2D0A.SC4987CB1594E97D4(A0_2, A1_2)
   local L2_2, L3_2
   if 851 == A0_2 and A1_2 then
     L2_2 = CF1B91014068D2D0A
@@ -1144,11 +1075,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S51144EAE549CD565"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.battle.ui.BattleUiUtil.S51144EAE549CD565
+function CF1B91014068D2D0A.S51144EAE549CD565(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A0_2 then
     L3_2 = false
@@ -1182,11 +1110,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "SFEE937F5DB228335"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiUtil.SFEE937F5DB228335
+function CF1B91014068D2D0A.SFEE937F5DB228335(A0_2)
   local L1_2, L2_2
   L1_2 = CF1B91014068D2D0A
   L1_2 = L1_2.S1C2B6C3D3F89AC71
@@ -1209,11 +1134,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1B91014068D2D0A"]
-L69_1 = "S1C2B6C3D3F89AC71"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiUtil.S1C2B6C3D3F89AC71
+function CF1B91014068D2D0A.S1C2B6C3D3F89AC71(A0_2)
   local L1_2
   if nil == A0_2 then
     L1_2 = false

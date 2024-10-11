@@ -1,15 +1,10 @@
-L68_1 = _ENV["C840197B1FB1E2D1C"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C840197B1FB1E2D1C"]
-L69_1 = "__name__"
-L70_1 = "C840197B1FB1E2D1C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C840197B1FB1E2D1C"]
-L69_1 = "S32FCD63E7D2F7A0D"
+---@alias C840197B1FB1E2D1C main_event_common_scenario_main_team_SwitcherTeamScenarioTrg
 
-function L70_1(A0_2, A1_2, A2_2)
+---@class main_event_common_scenario_main_team_SwitcherTeamScenarioTrg
+C840197B1FB1E2D1C.new = {}
+C840197B1FB1E2D1C.__name__ = "C840197B1FB1E2D1C"
+--- main.event.common.scenario.main.team.SwitcherTeamScenarioTrg.SwitcherCallback
+function C840197B1FB1E2D1C.S32FCD63E7D2F7A0D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = CCE2FD6CD29A37AF9
   L3_2 = L3_2.S4DAD9A3C1EF1EC7E
@@ -62,11 +57,8 @@ L68_1 = "C840197B1FB1E2D1C"
 L68_1 = L25_1[L68_1]
 L69_1 = "S32FCD63E7D2F7A0D"
 L70_1 = _ENV["C840197B1FB1E2D1C"]["S32FCD63E7D2F7A0D"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C840197B1FB1E2D1C"]
-L69_1 = "S6E96C0F9C12E8B74"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.common.scenario.main.team.SwitcherTeamScenarioTrg.SwitcherCallback_Team_0170
+function C840197B1FB1E2D1C.S6E96C0F9C12E8B74(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = C9AA363B3CCC264AA
   L3_2 = L3_2.SA5B8258582A90EF3

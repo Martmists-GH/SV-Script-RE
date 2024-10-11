@@ -1,15 +1,10 @@
-L68_1 = _ENV["CA744D1E8C276D578"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA744D1E8C276D578"]
-L69_1 = "__name__"
-L70_1 = "CA744D1E8C276D578"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA744D1E8C276D578"]
-L69_1 = "S32FCD63E7D2F7A0D"
+---@alias CA744D1E8C276D578 main_npc_management_NpcSwitcher_Sub_025
 
-function L70_1(A0_2, A1_2, A2_2)
+---@class main_npc_management_NpcSwitcher_Sub_025
+CA744D1E8C276D578.new = {}
+CA744D1E8C276D578.__name__ = "CA744D1E8C276D578"
+--- main.npc_management.NpcSwitcher_Sub_025.SwitcherCallback
+function CA744D1E8C276D578.S32FCD63E7D2F7A0D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = "event_npc_sub_025_oldman"
   L4_2 = CA4C5F9FA83D2AF80

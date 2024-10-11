@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C680C7391D6A50337"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C680C7391D6A50337"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C680C7391D6A50337"]
-L69_1 = "__name__"
-L70_1 = "C680C7391D6A50337"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C680C7391D6A50337"]
-L69_1 = "S19DBEB1FEFA3D6BB"
+---@alias C680C7391D6A50337 main_event_command_DemoCommand
 
-function L70_1(A0_2)
+---@class main_event_command_DemoCommand
+C680C7391D6A50337 = L15_1()
+C680C7391D6A50337.new = {}
+C680C7391D6A50337.__name__ = "C680C7391D6A50337"
+--- main.event.command.DemoCommand.JudgeSkip
+function C680C7391D6A50337.S19DBEB1FEFA3D6BB(A0_2)
   local L1_2, L2_2
   L1_2 = cCB5F4E51
   L1_2 = L1_2.f8A47C838
@@ -28,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C680C7391D6A50337"]
-L69_1 = "S3FB16F1511F175D2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.DemoCommand.PlayEventDemo
+function C680C7391D6A50337.S3FB16F1511F175D2(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A2_2 then
     A2_2 = true
@@ -51,11 +39,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C680C7391D6A50337"]
-L69_1 = "SD917744D858A22F9"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.DemoCommand.PlayMovie
+function C680C7391D6A50337.SD917744D858A22F9(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = C680C7391D6A50337
   L3_2 = L3_2.S19DBEB1FEFA3D6BB
@@ -193,11 +178,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C680C7391D6A50337"]
-L69_1 = "S9A0016161ECE8748"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.command.DemoCommand.playDemo
+function C680C7391D6A50337.S9A0016161ECE8748(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L6_2 = C680C7391D6A50337
   L6_2 = L6_2.S19DBEB1FEFA3D6BB
@@ -364,11 +346,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C680C7391D6A50337"]
-L69_1 = "S401A379FA25D93A7"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.DemoCommand.playDemoCore
+function C680C7391D6A50337.S401A379FA25D93A7(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = C680C7391D6A50337
   L3_2 = L3_2.S3C28E641EBC0B5F6
@@ -449,11 +428,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C680C7391D6A50337"]
-L69_1 = "S3C28E641EBC0B5F6"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.DemoCommand.setup
+function C680C7391D6A50337.S3C28E641EBC0B5F6(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if "" == A0_2 then
     L3_2 = -1
@@ -483,11 +459,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C680C7391D6A50337"]
-L69_1 = "SB1B29FFF181FCDBA"
-
-function L70_1(A0_2)
+--- main.event.command.DemoCommand.setWait
+function C680C7391D6A50337.SB1B29FFF181FCDBA(A0_2)
   local L1_2, L2_2
   while true do
     L1_2 = c8A144091
@@ -512,11 +485,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C680C7391D6A50337"]
-L69_1 = "SE771B2AD632AD264"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.DemoCommand.SetCondition
+function C680C7391D6A50337.SE771B2AD632AD264(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C37AC6A084F2BA540
   L2_2 = L2_2.S1982CECB2BB4A7F7
@@ -553,11 +523,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C680C7391D6A50337"]
-L69_1 = "S8800B523AB66A93A"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.DemoCommand.ReplaceTargetTable
+function C680C7391D6A50337.S8800B523AB66A93A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     return

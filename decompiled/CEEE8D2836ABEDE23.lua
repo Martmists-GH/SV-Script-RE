@@ -1,3 +1,5 @@
+---@class CEEE8D2836ABEDE23 : CEEE8D2836ABEDE23_prototype
+---@field prototype CEEE8D2836ABEDE23_prototype
 L55_1 = _ENV
 L56_1 = "CEEE8D2836ABEDE23"
 L57_1 = L15_1
@@ -48,18 +50,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CEEE8D2836ABEDE23"]
 L69_1 = "__name__"
 L70_1 = "CEEE8D2836ABEDE23"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEE8D2836ABEDE23"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEE8D2836ABEDE23"]["prototype"]
-L69_1 = "FC6F6D46BC7093E33"
-
-function L70_1(A0_2, A1_2)
+---@class CEEE8D2836ABEDE23_prototype
+CEEE8D2836ABEDE23_prototype = L15_1()
+CEEE8D2836ABEDE23.prototype = CEEE8D2836ABEDE23_prototype
+--- CEEE8D2836ABEDE23.FC6F6D46BC7093E33
+function CEEE8D2836ABEDE23_prototype:FC6F6D46BC7093E33(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  A0_2[2] = false
+  self[2] = false
   if 1 == A1_2 or 2 == A1_2 then
     L2_2 = c0BE27187
     L2_2 = L2_2.f3993F912
@@ -75,8 +72,8 @@ function L70_1(A0_2, A1_2)
     L2_2 = false
     return L2_2
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F4E61560C81D929C5
+  L3_2 = self
+  L2_2 = self.F4E61560C81D929C5
   L4_2 = c7A86676E
   L4_2 = L4_2.f37193BD2
   L4_2 = L4_2()
@@ -115,23 +112,20 @@ function L70_1(A0_2, A1_2)
     L4_2 = C1DB14DCC9D7634FA
     L4_2 = L4_2.S760DAE4C5371A78E
     L4_2()
-    L5_2 = A0_2
-    L4_2 = A0_2.FCCBCE7EC8EACA507
+    L5_2 = self
+    L4_2 = self.FCCBCE7EC8EACA507
     L6_2 = A1_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
       break
     end
   end
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEE8D2836ABEDE23"]["prototype"]
-L69_1 = "FCCBCE7EC8EACA507"
-
-function L70_1(A0_2, A1_2)
+--- CEEE8D2836ABEDE23.FCCBCE7EC8EACA507
+function CEEE8D2836ABEDE23_prototype:FCCBCE7EC8EACA507(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = c7A86676E
   L2_2 = L2_2.f970961EF
@@ -157,7 +151,7 @@ function L70_1(A0_2, A1_2)
           L4_2 = L4_2.f37193BD2
           L4_2 = L4_2()
           L5_2 = 0
-          L6_2 = A0_2[3]
+          L6_2 = self[3]
           L7_2 = false
           while L5_2 < L6_2 do
             L5_2 = L5_2 + 1
@@ -175,7 +169,7 @@ function L70_1(A0_2, A1_2)
               L12_2 = L9_2
               L10_2 = L10_2(L11_2, L12_2)
               if L10_2 then
-                L10_2 = A0_2[1]
+                L10_2 = self[1]
                 L10_2 = L10_2[L8_2]
                 if L10_2 ~= A1_2 then
                   L10_2 = false
@@ -193,31 +187,28 @@ function L70_1(A0_2, A1_2)
             L8_2 = false
             return L8_2
           end
-          A0_2[2] = true
+          self[2] = true
           L8_2 = true
           return L8_2
       end
     end
   end
   else
-    A0_2[2] = false
+    self[2] = false
     L3_2 = true
     return L3_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEEE8D2836ABEDE23"]["prototype"]
-L69_1 = "F4E61560C81D929C5"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CEEE8D2836ABEDE23.F4E61560C81D929C5
+function CEEE8D2836ABEDE23_prototype:F4E61560C81D929C5(A1_2, A2_2)
   local L3_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   if A1_2 >= L3_2 then
     return
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2[A1_2] = A2_2
 end
 

@@ -1,3 +1,7 @@
+---@alias CB7516F181FFC9BAE main_ui_system_ui_message_window_message_window_parts_MessageWindowPartsForBook
+
+---@class main_ui_system_ui_message_window_message_window_parts_MessageWindowPartsForBook : CB7516F181FFC9BAE_prototype
+---@field prototype CB7516F181FFC9BAE_prototype
 L55_1 = _ENV
 L56_1 = "CB7516F181FFC9BAE"
 L57_1 = L15_1
@@ -46,26 +50,21 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CB7516F181FFC9BAE"]
 L69_1 = "__name__"
 L70_1 = "CB7516F181FFC9BAE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7516F181FFC9BAE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7516F181FFC9BAE"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+---@class CB7516F181FFC9BAE_prototype
+CB7516F181FFC9BAE_prototype = L15_1()
+CB7516F181FFC9BAE.prototype = CB7516F181FFC9BAE_prototype
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsForBook.PreUpdate
+function CB7516F181FFC9BAE_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[11]
+    L3_2 = self[11]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[11]
+      L2_2 = self[11]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -113,25 +112,22 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7516F181FFC9BAE"]["prototype"]
-L69_1 = "F27D57803C57D5461"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsForBook.MessageWindowRequestForBook
+function CB7516F181FFC9BAE_prototype:F27D57803C57D5461(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   if nil == A4_2 then
     A4_2 = false
   end
-  L5_2 = A0_2
+  L5_2 = self
   L6_2 = c69ACCC6F
   L6_2 = L6_2.f3F98EEAD
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L6_2 = L6_2(L7_2)
   L7_2 = cECF00344
   L7_2 = L7_2.fEECE6995
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L7_2 = L7_2(L8_2)
-  A0_2[10] = L7_2
+  self[10] = L7_2
   L7_2 = nil
   L8_2 = nil
   L9_2 = c69ACCC6F
@@ -143,7 +139,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L9_2 = nil
     L10_2 = cECF00344
     L10_2 = L10_2.fB3E547E8
-    L11_2 = A0_2[10]
+    L11_2 = self[10]
     L12_2 = L9_2
     L10_2 = L10_2(L11_2, L12_2)
     L7_2 = L10_2
@@ -155,14 +151,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L9_2 = L9_2.SC8223E31D3163519
     L9_2 = L9_2[4]
     if A4_2 then
-      L10_2 = A0_2[10]
+      L10_2 = self[10]
       L11_2 = L10_2
       L10_2 = L10_2.fEAD9FB7D
       L12_2 = "layout"
       L13_2 = 1
       L10_2(L11_2, L12_2, L13_2)
     else
-      L10_2 = A0_2[10]
+      L10_2 = self[10]
       L11_2 = L10_2
       L10_2 = L10_2.fEAD9FB7D
       L12_2 = "layout"
@@ -173,7 +169,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     if nil ~= L10_2 then
       L10_2 = c8C3BF576
       L10_2 = L10_2.f316077B2
-      L11_2 = A0_2[1]
+      L11_2 = self[1]
       L12_2 = "T_01"
       L14_2 = L9_2
       L13_2 = L9_2.f39DD249C
@@ -207,7 +203,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     if L11_2 then
       L11_2 = c8C3BF576
       L11_2 = L11_2.f316077B2
-      L12_2 = A0_2[1]
+      L12_2 = self[1]
       L13_2 = "T_00"
       L15_2 = L9_2
       L14_2 = L9_2.f39DD249C
@@ -217,7 +213,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     else
       L11_2 = c8C3BF576
       L11_2 = L11_2.f316077B2
-      L12_2 = A0_2[1]
+      L12_2 = self[1]
       L13_2 = "T_00"
       L15_2 = L9_2
       L14_2 = L9_2.f39DD249C
@@ -232,12 +228,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L11_2 = CC6FE82819C6E1D55
     L11_2 = L11_2.S12F63EE47FFCB183
     L11_2()
-    L11_2 = A0_2[13]
+    L11_2 = self[13]
     if not L11_2 then
       L12_2 = A2_2
       L11_2 = A2_2.f83FE57AE
       L11_2(L12_2)
-      A0_2[13] = true
+      self[13] = true
     end
     L11_2 = nil
     L12_2 = C1DB14DCC9D7634FA
@@ -296,28 +292,22 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     
     L14_2 = L11_2
     L12_2 = L12_2(L13_2, L14_2)
-    A0_2[11] = L12_2
-    A0_2[12] = true
+    self[11] = L12_2
+    self[12] = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7516F181FFC9BAE"]["prototype"]
-L69_1 = "F26D083E42E9191C7"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsForBook.GetIsKeyWait
+function CB7516F181FFC9BAE_prototype:F26D083E42E9191C7()
   local L1_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7516F181FFC9BAE"]["prototype"]
-L69_1 = "F5740566D15644DE5"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsForBook.GetContextMenuPos
+function CB7516F181FFC9BAE_prototype:F5740566D15644DE5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.f3271DED8
   L3_2 = "N_context"

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CB620170A150BC6F6"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CB620170A150BC6F6"]
-L69_1 = "new"
+---@alias CB620170A150BC6F6 main_egg_hatch_EggHatchTimeLine
 
-function L70_1(A0_2)
+---@class main_egg_hatch_EggHatchTimeLine : CB620170A150BC6F6_prototype
+---@field prototype CB620170A150BC6F6_prototype
+CB620170A150BC6F6 = L15_1()
+function CB620170A150BC6F6.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CB620170A150BC6F6
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB620170A150BC6F6"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CB620170A150BC6F6
+function CB620170A150BC6F6.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   if nil == A1_2 then
     L2_2 = E51FB8B36D6855CC5
@@ -88,11 +82,7 @@ function L70_1(A0_2, A1_2)
   L2_2.S9F7C4A0D5B3C51D6 = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB620170A150BC6F6"]
-L69_1 = "__name__"
-L70_1 = "CB620170A150BC6F6"
-L68_1[L69_1] = L70_1
+CB620170A150BC6F6.__name__ = "CB620170A150BC6F6"
 L68_1 = _ENV["CB620170A150BC6F6"]
 L69_1 = "S8B864D37BA7FFCF0"
 
@@ -124,16 +114,11 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB620170A150BC6F6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB620170A150BC6F6"]["prototype"]
-L69_1 = "F4A2454B61B846B2D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+---@class CB620170A150BC6F6_prototype
+CB620170A150BC6F6_prototype = L15_1()
+CB620170A150BC6F6.prototype = CB620170A150BC6F6_prototype
+--- main.egg_hatch.EggHatchTimeLine.SetupTimeLine
+function CB620170A150BC6F6_prototype:F4A2454B61B846B2D(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2
   L6_2 = CF386404FBF43B2AC
   L6_2 = L6_2.SE9B0B6B3B6BBDF24
@@ -141,14 +126,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L6_2(L7_2)
   L6_2 = L26_1.new
   L6_2 = L6_2()
-  A0_2[6] = L6_2
+  self[6] = L6_2
   L6_2 = _hx_tab_array
   L7_2 = {}
   L7_2.length = 0
   L8_2 = 0
   L6_2 = L6_2(L7_2, L8_2)
   L7_2 = 0
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   while true do
     L9_2 = L8_2.length
     if not (L7_2 < L9_2) then
@@ -164,7 +149,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L9_2 = c8A144091
   L9_2 = L9_2.fE459D175
   L9_2 = L9_2()
-  L10_2 = A0_2[6]
+  L10_2 = self[6]
   L11_2 = L10_2
   L10_2 = L10_2.push
   L12_2 = L9_2
@@ -275,8 +260,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L28_2 = L9_2
   L29_2 = "Attribute"
   L30_2 = "Ground"
-  L32_2 = A0_2
-  L31_2 = A0_2.FD6340B7ECF9791B3
+  L32_2 = self
+  L31_2 = self.FD6340B7ECF9791B3
   L33_2 = L25_2
   L34_2 = 0
   L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2 = L31_2(L32_2, L33_2, L34_2)
@@ -286,8 +271,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L28_2 = L9_2
   L29_2 = "Attribute"
   L30_2 = "Water"
-  L32_2 = A0_2
-  L31_2 = A0_2.FD6340B7ECF9791B3
+  L32_2 = self
+  L31_2 = self.FD6340B7ECF9791B3
   L33_2 = L26_2
   L34_2 = 2
   L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2 = L31_2(L32_2, L33_2, L34_2)
@@ -401,8 +386,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L31_2 = c8A144091
   L31_2 = L31_2.f9DCF42D7
   L32_2 = L9_2
-  L33_2 = A0_2[7]
-  L34_2 = A0_2[7]
+  L33_2 = self[7]
+  L34_2 = self[7]
   L31_2(L32_2, L33_2, L34_2)
   L31_2 = CB620170A150BC6F6
   L31_2 = L31_2.S9F7C4A0D5B3C51D6
@@ -514,18 +499,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L32_2(L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB620170A150BC6F6"]["prototype"]
-L69_1 = "FEA4C6DFD3D68E0A3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.egg_hatch.EggHatchTimeLine.Play
+function CB620170A150BC6F6_prototype:FEA4C6DFD3D68E0A3(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = CF386404FBF43B2AC
   L4_2 = L4_2.SE9B0B6B3B6BBDF24
   L5_2 = "EggHatchTimeLine_Play"
   L4_2(L5_2)
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L4_2 = L4_2[A1_2]
   L5_2 = C1DB14DCC9D7634FA
   L5_2 = L5_2.new
@@ -552,14 +534,11 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L7_2 = "EggHatchTimeLine_play"
   L5_2 = L5_2(L6_2, L7_2)
-  A0_2[4] = L5_2
+  self[4] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB620170A150BC6F6"]["prototype"]
-L69_1 = "FA9E8F15CE7E811C0"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.egg_hatch.EggHatchTimeLine.TimeLineCoroutine
+function CB620170A150BC6F6_prototype:FA9E8F15CE7E811C0(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = 0
   while true do
@@ -638,23 +617,20 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB620170A150BC6F6"]["prototype"]
-L69_1 = "FD3CF58695CBD5774"
-
-function L70_1(A0_2, A1_2)
+--- main.egg_hatch.EggHatchTimeLine.update
+function CB620170A150BC6F6_prototype:FD3CF58695CBD5774(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" == L2_2 then
       return
     end
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L62_1
     L4_2 = L64_1.pack
     L5_2 = L10_1.coroutine
@@ -700,14 +676,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB620170A150BC6F6"]["prototype"]
-L69_1 = "F7A10518ACA3668FB"
-
-function L70_1(A0_2)
+--- main.egg_hatch.EggHatchTimeLine.AllTerminate
+function CB620170A150BC6F6_prototype:F7A10518ACA3668FB()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -722,11 +695,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB620170A150BC6F6"]["prototype"]
-L69_1 = "FD6340B7ECF9791B3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.egg_hatch.EggHatchTimeLine.CheckRayCastResult
+function CB620170A150BC6F6_prototype:FD6340B7ECF9791B3(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L4_2 = A1_2
   L3_2 = A1_2.f47E8DE1F

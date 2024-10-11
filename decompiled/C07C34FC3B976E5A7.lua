@@ -1,3 +1,7 @@
+---@alias C07C34FC3B976E5A7 main_battle_BattleRewardData
+
+---@class main_battle_BattleRewardData : C07C34FC3B976E5A7_prototype
+---@field prototype C07C34FC3B976E5A7_prototype
 L55_1 = _ENV
 L56_1 = "C07C34FC3B976E5A7"
 L57_1 = L15_1
@@ -47,16 +51,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C07C34FC3B976E5A7"]
 L69_1 = "__name__"
 L70_1 = "C07C34FC3B976E5A7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07C34FC3B976E5A7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07C34FC3B976E5A7"]["prototype"]
-L69_1 = "F46A164534291F04D"
-
-function L70_1(A0_2, A1_2)
+---@class C07C34FC3B976E5A7_prototype
+C07C34FC3B976E5A7_prototype = L15_1()
+C07C34FC3B976E5A7.prototype = C07C34FC3B976E5A7_prototype
+--- main.battle.BattleRewardData.CalcResult
+function C07C34FC3B976E5A7_prototype:F46A164534291F04D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = cEE005CCF
   L2_2 = L2_2.fEB1D03C3
@@ -69,12 +68,12 @@ function L70_1(A0_2, A1_2)
   L4_2 = L2_2
   L3_2 = L2_2.f49DE6DBD
   L3_2 = L3_2(L4_2)
-  A0_2[1] = L3_2
+  self[1] = L3_2
   L4_2 = L2_2
   L3_2 = L2_2.f3BB4B250
   L3_2 = L3_2(L4_2)
   if L3_2 > 0 then
-    A0_2[8] = true
+    self[8] = true
     L4_2 = 0
     while L3_2 > L4_2 do
       L4_2 = L4_2 + 1
@@ -89,7 +88,7 @@ function L70_1(A0_2, A1_2)
       L7_2 = L6_2.fEFB3ECFD
       L9_2 = L5_2
       L7_2(L8_2, L9_2)
-      L7_2 = A0_2[9]
+      L7_2 = self[9]
       L8_2 = L7_2
       L7_2 = L7_2.push
       L9_2 = L6_2
@@ -98,16 +97,13 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07C34FC3B976E5A7"]["prototype"]
-L69_1 = "F8975ECC0360F96CE"
-
-function L70_1(A0_2)
+--- main.battle.BattleRewardData.F8975ECC0360F96CE
+function C07C34FC3B976E5A7_prototype:F8975ECC0360F96CE()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
   L2_2 = 0
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -180,14 +176,11 @@ function L70_1(A0_2)
     L9_2 = L6_2
     L7_2(L8_2, L9_2)
   end
-  A0_2[3] = L4_2
+  self[3] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07C34FC3B976E5A7"]["prototype"]
-L69_1 = "F316609DEA110601D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.battle.BattleRewardData.F316609DEA110601D
+function C07C34FC3B976E5A7_prototype:F316609DEA110601D(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L5_2 = cC1523134
   L5_2 = L5_2.f818F268F
@@ -236,7 +229,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L11_2 = L26_1.new
   L11_2 = L11_2()
   L12_2 = 0
-  L13_2 = A0_2[3]
+  L13_2 = self[3]
   while true do
     L14_2 = L13_2.length
     if not (L12_2 < L14_2) then
@@ -323,7 +316,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L19_2 = L16_2
     L17_2(L18_2, L19_2)
   end
-  A0_2[3] = L14_2
+  self[3] = L14_2
   return L8_2
 end
 

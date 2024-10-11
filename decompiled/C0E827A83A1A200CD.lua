@@ -1,3 +1,5 @@
+---@class C0E827A83A1A200CD : C0E827A83A1A200CD_prototype
+---@field prototype C0E827A83A1A200CD_prototype
 L55_1 = _ENV
 L56_1 = "C0E827A83A1A200CD"
 L57_1 = L15_1
@@ -44,18 +46,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0E827A83A1A200CD"]
 L69_1 = "__name__"
 L70_1 = "C0E827A83A1A200CD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E827A83A1A200CD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E827A83A1A200CD"]["prototype"]
-L69_1 = "FED89B77B7E80512A"
-
-function L70_1(A0_2, A1_2)
+---@class C0E827A83A1A200CD_prototype
+C0E827A83A1A200CD_prototype = L15_1()
+C0E827A83A1A200CD.prototype = C0E827A83A1A200CD_prototype
+--- C0E827A83A1A200CD.SetProperty
+function C0E827A83A1A200CD_prototype:FED89B77B7E80512A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2
+  L2_2 = self
   L4_2 = A1_2
   L3_2 = A1_2.f287946D6
   L5_2 = 0
@@ -97,23 +94,23 @@ function L70_1(A0_2, A1_2)
   L6_2 = L6_2(L7_2, L8_2)
   L5_2.GenerateWeatherType = L6_2
   L4_2 = L4_2(L5_2)
-  A0_2[12] = L4_2
-  L4_2 = A0_2[12]
+  self[12] = L4_2
+  L4_2 = self[12]
   L5_2 = L31_1.int
   L6_2 = L10_1.math
   L6_2 = L6_2.fmod
-  L7_2 = A0_2[12]
+  L7_2 = self[12]
   L7_2 = L7_2.GenerateBeginTime
   L8_2 = 24
   L6_2 = L6_2(L7_2, L8_2)
   L6_2 = L6_2 * 3600
   L5_2 = L5_2(L6_2)
   L4_2.GenerateBeginTime = L5_2
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   L5_2 = L31_1.int
   L6_2 = L10_1.math
   L6_2 = L6_2.fmod
-  L7_2 = A0_2[12]
+  L7_2 = self[12]
   L7_2 = L7_2.GenerateEndTime
   L8_2 = 24
   L6_2 = L6_2(L7_2, L8_2)
@@ -165,23 +162,17 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E827A83A1A200CD"]["prototype"]
-L69_1 = "F6D2BEA21B2529B09"
-
-function L70_1(A0_2)
+--- C0E827A83A1A200CD.get_TemplateName
+function C0E827A83A1A200CD_prototype:F6D2BEA21B2529B09()
   local L1_2
   L1_2 = "fog"
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E827A83A1A200CD"]["prototype"]
-L69_1 = "F54BBEB24C960519B"
-
-function L70_1(A0_2, A1_2)
+--- C0E827A83A1A200CD.OnAddPoint
+function C0E827A83A1A200CD_prototype:F54BBEB24C960519B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   if L2_2 then
     L2_2 = 0
     while true do
@@ -191,8 +182,8 @@ function L70_1(A0_2, A1_2)
       end
       L3_2 = A1_2[L2_2]
       L2_2 = L2_2 + 1
-      L5_2 = A0_2
-      L4_2 = A0_2.FA4BA4E37DFA6AF91
+      L5_2 = self
+      L4_2 = self.FA4BA4E37DFA6AF91
       L6_2 = L10_1.select
       L7_2 = 2
       L8_2 = L3_2.point
@@ -210,8 +201,8 @@ function L70_1(A0_2, A1_2)
         L6_2 = L5_2
         L5_2 = L5_2.fFFA0248C
         L5_2, L6_2, L7_2 = L5_2(L6_2)
-        L9_2 = A0_2
-        L8_2 = A0_2.F3493AFBBAE35473B
+        L9_2 = self
+        L8_2 = self.F3493AFBBAE35473B
         L10_2 = L4_2
         L11_2 = {}
         L12_2 = L5_2
@@ -226,11 +217,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E827A83A1A200CD"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- C0E827A83A1A200CD.OnUpdate
+function C0E827A83A1A200CD_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L58_1
   L3_2 = CA66BF560955C69B4
@@ -238,7 +226,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2[5]
   L3_2 = L3_2.type
   L2_2 = L2_2(L3_2)
-  A0_2[10] = L2_2
+  self[10] = L2_2
   L2_2 = C05D9E556B496A3DF
   L2_2 = L2_2.SC8223E31D3163519
   L4_2 = L2_2
@@ -251,40 +239,34 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2.currentFieldId
   L4_2 = L4_2[2]
   L3_2 = L3_2[L4_2]
-  A0_2[11] = L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F4D3B97787E38F15A
+  self[11] = L3_2
+  L4_2 = self
+  L3_2 = self.F4D3B97787E38F15A
   L3_2 = L3_2(L4_2)
-  A0_2[14] = L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FA3FAD88BAA680965
+  self[14] = L3_2
+  L4_2 = self
+  L3_2 = self.FA3FAD88BAA680965
   L3_2 = L3_2(L4_2)
-  A0_2[13] = L3_2
+  self[13] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E827A83A1A200CD"]["prototype"]
-L69_1 = "F3C0E861388862442"
-
-function L70_1(A0_2)
+--- C0E827A83A1A200CD.IsGenerate
+function C0E827A83A1A200CD_prototype:F3C0E861388862442()
   local L1_2, L2_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   if L1_2 then
     L1_2 = false
     return L1_2
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.FA8D96AF242C1CE1B
+  L2_2 = self
+  L1_2 = self.FA8D96AF242C1CE1B
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E827A83A1A200CD"]["prototype"]
-L69_1 = "F9AA4F70E3E01F86F"
-
-function L70_1(A0_2)
+--- C0E827A83A1A200CD.OnGenerate
+function C0E827A83A1A200CD_prototype:F9AA4F70E3E01F86F()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C0CD5F1264684CB04
   L2_2 = L2_2.S3C3DF76B88506FC1
   
@@ -324,25 +306,22 @@ function L70_1(A0_2)
   end
   
   L2_2(L3_2)
-  A0_2[9] = true
+  self[9] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E827A83A1A200CD"]["prototype"]
-L69_1 = "FA7F54464D6E5F65F"
-
-function L70_1(A0_2, A1_2)
+--- C0E827A83A1A200CD.UpdateStopEmit
+function C0E827A83A1A200CD_prototype:FA7F54464D6E5F65F(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   if not L2_2 then
-    A0_2[9] = false
+    self[9] = false
     L2_2 = true
     return L2_2
   end
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F7C86C9616DC1CBAB
+    L3_2 = self
+    L2_2 = self.F7C86C9616DC1CBAB
     L4_2 = A1_2
     L2_2(L3_2, L4_2)
   end
@@ -350,26 +329,23 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E827A83A1A200CD"]["prototype"]
-L69_1 = "F970217BDDC4A3AC8"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C0E827A83A1A200CD.OnWeatherChanged
+function C0E827A83A1A200CD_prototype:F970217BDDC4A3AC8(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = L58_1
   L5_2 = CA66BF560955C69B4
   L5_2 = L5_2.SC8223E31D3163519
   L5_2 = L5_2[5]
   L5_2 = L5_2.type
   L4_2 = L4_2(L5_2)
-  A0_2[10] = L4_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FA3FAD88BAA680965
+  self[10] = L4_2
+  L5_2 = self
+  L4_2 = self.FA3FAD88BAA680965
   L4_2 = L4_2(L5_2)
   if not L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.FC41D5D7E2A321A3D
+    L5_2 = self
+    L4_2 = self.FC41D5D7E2A321A3D
     
     function L6_2(A0_3)
       local L1_3, L2_3, L3_3
@@ -385,8 +361,8 @@ function L70_1(A0_2, A1_2, A2_2)
     
     L4_2(L5_2, L6_2)
   else
-    L5_2 = A0_2
-    L4_2 = A0_2.FC41D5D7E2A321A3D
+    L5_2 = self
+    L4_2 = self.FC41D5D7E2A321A3D
     
     function L6_2(A0_3)
       local L1_3, L2_3, L3_3
@@ -404,13 +380,10 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E827A83A1A200CD"]["prototype"]
-L69_1 = "F993763797090B9A6"
-
-function L70_1(A0_2)
+--- C0E827A83A1A200CD.OnHour
+function C0E827A83A1A200CD_prototype:F993763797090B9A6()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C05D9E556B496A3DF
   L2_2 = L2_2.SC8223E31D3163519
   L4_2 = L2_2
@@ -423,13 +396,13 @@ function L70_1(A0_2)
   L4_2 = L4_2.currentFieldId
   L4_2 = L4_2[2]
   L3_2 = L3_2[L4_2]
-  A0_2[11] = L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F4D3B97787E38F15A
+  self[11] = L3_2
+  L4_2 = self
+  L3_2 = self.F4D3B97787E38F15A
   L3_2 = L3_2(L4_2)
   if not L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FC41D5D7E2A321A3D
+    L4_2 = self
+    L3_2 = self.FC41D5D7E2A321A3D
     
     function L5_2(A0_3)
       local L1_3, L2_3, L3_3
@@ -444,37 +417,34 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E827A83A1A200CD"]["prototype"]
-L69_1 = "F4D3B97787E38F15A"
-
-function L70_1(A0_2)
+--- C0E827A83A1A200CD.CheckValidTime
+function C0E827A83A1A200CD_prototype:F4D3B97787E38F15A()
   local L1_2, L2_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L1_2 = L1_2.GenerateBeginTime
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   L2_2 = L2_2.GenerateEndTime
   if L1_2 == L2_2 then
     L1_2 = true
     return L1_2
   end
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L1_2 = L1_2.GenerateBeginTime
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   L2_2 = L2_2.GenerateEndTime
   if L1_2 > L2_2 then
-    L1_2 = A0_2[11]
-    L2_2 = A0_2[12]
+    L1_2 = self[11]
+    L2_2 = self[12]
     L2_2 = L2_2.GenerateBeginTime
     if not (L1_2 > L2_2) then
-      L1_2 = A0_2[11]
-      L2_2 = A0_2[12]
+      L1_2 = self[11]
+      L2_2 = self[12]
       L2_2 = L2_2.GenerateEndTime
       if not (L1_2 < L2_2) then
         goto lbl_32
       end
     end
-    L1_2 = A0_2[11]
+    L1_2 = self[11]
     L1_2 = L1_2 >= 0
     do return L1_2 end
     goto lbl_54
@@ -482,15 +452,15 @@ function L70_1(A0_2)
     L1_2 = false
     return L1_2
   else
-    L1_2 = A0_2[12]
+    L1_2 = self[12]
     L1_2 = L1_2.GenerateBeginTime
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     if L1_2 < L2_2 then
-      L1_2 = A0_2[12]
+      L1_2 = self[12]
       L1_2 = L1_2.GenerateEndTime
-      L2_2 = A0_2[11]
+      L2_2 = self[11]
       if L1_2 > L2_2 then
-        L1_2 = A0_2[11]
+        L1_2 = self[11]
         L1_2 = L1_2 >= 0
         return L1_2
     end
@@ -502,49 +472,40 @@ function L70_1(A0_2)
   ::lbl_54::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E827A83A1A200CD"]["prototype"]
-L69_1 = "FA3FAD88BAA680965"
-
-function L70_1(A0_2)
+--- C0E827A83A1A200CD.CheckValidWeather
+function C0E827A83A1A200CD_prototype:FA3FAD88BAA680965()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L1_2 = L1_2.GenerateWeatherType
   L1_2 = L1_2.length
   if 0 == L1_2 then
     L1_2 = true
     return L1_2
   end
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L1_2 = L1_2.GenerateWeatherType
   L2_2 = L1_2
   L1_2 = L1_2.indexOf
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L1_2 = L1_2(L2_2, L3_2)
   L1_2 = L1_2 >= 0
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E827A83A1A200CD"]["prototype"]
-L69_1 = "FA8D96AF242C1CE1B"
-
-function L70_1(A0_2)
+--- C0E827A83A1A200CD.IsValidEmitCondition
+function C0E827A83A1A200CD_prototype:FA8D96AF242C1CE1B()
   local L1_2
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   if L1_2 then
-    L1_2 = A0_2[13]
+    L1_2 = self[13]
   end
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E827A83A1A200CD"]["prototype"]
-L69_1 = "FA4BA4E37DFA6AF91"
-
-function L70_1(A0_2, A1_2)
+--- C0E827A83A1A200CD.IsGenerateHeight
+function C0E827A83A1A200CD_prototype:FA4BA4E37DFA6AF91(A1_2)
   local L2_2
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   L2_2 = L2_2.GenerateHeight
   L2_2 = A1_2 <= L2_2
   return L2_2

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C0BCF364067528E9C"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "new"
+---@alias C0BCF364067528E9C main_field_behaviour_scenario_main_champion_gym_kusa_Gym_kusa_poke
 
-function L70_1(A0_2)
+---@class main_field_behaviour_scenario_main_champion_gym_kusa_Gym_kusa_poke : C0BCF364067528E9C_prototype
+---@field prototype C0BCF364067528E9C_prototype
+C0BCF364067528E9C = L15_1()
+function C0BCF364067528E9C.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C0BCF364067528E9C
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C0BCF364067528E9C
+function C0BCF364067528E9C.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C0BCF364067528E9C"]
 L69_1 = "__name__"
 L70_1 = "C0BCF364067528E9C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S5CD7525960470392"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.getFlgIndex
+function C0BCF364067528E9C.S5CD7525960470392(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C0BCF364067528E9C
@@ -67,11 +58,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "SBB1BD676DB5FB6A1"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.isValid
+function C0BCF364067528E9C.SBB1BD676DB5FB6A1(A0_2)
   local L1_2, L2_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S5CD7525960470392
@@ -85,11 +73,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S94693C87339ED135"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.IsRanch
+function C0BCF364067528E9C.S94693C87339ED135(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S5CD7525960470392
@@ -109,11 +94,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "SE71F0259656A6605"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.GetRanchIndex
+function C0BCF364067528E9C.SE71F0259656A6605(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
   L2_2 = 0
@@ -146,11 +128,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S8912B3F4013BA380"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.IsFollow
+function C0BCF364067528E9C.S8912B3F4013BA380(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S5CD7525960470392
@@ -170,11 +149,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S14B5421DE5AF107B"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.IsFinded
+function C0BCF364067528E9C.S14B5421DE5AF107B(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S5CD7525960470392
@@ -194,11 +170,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S4C739F498E7093EE"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.IsPokemon
+function C0BCF364067528E9C.S4C739F498E7093EE(A0_2)
   local L1_2, L2_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S5CD7525960470392
@@ -212,11 +185,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S7FA5CCC40E43A90F"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.IsEnableGrounding
+function C0BCF364067528E9C.S7FA5CCC40E43A90F(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = true
   L2_2 = C0BCF364067528E9C
@@ -240,11 +210,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S31FE159E6B23BA41"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.S31FE159E6B23BA41
+function C0BCF364067528E9C.S31FE159E6B23BA41(A0_2)
   local L1_2, L2_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S5CD7525960470392
@@ -262,11 +229,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "SD42C48D92B12CCC5"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.IsFeatureShopping
+function C0BCF364067528E9C.SD42C48D92B12CCC5(A0_2)
   local L1_2, L2_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S5CD7525960470392
@@ -284,11 +248,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S6C32D9175AB19C68"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.IsFeatureRunaway
+function C0BCF364067528E9C.S6C32D9175AB19C68(A0_2)
   local L1_2, L2_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S5CD7525960470392
@@ -306,11 +267,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "SC5FC9035F3C100B4"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.GetBattleMessage
+function C0BCF364067528E9C.SC5FC9035F3C100B4(A0_2)
   local L1_2, L2_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S5CD7525960470392
@@ -327,11 +285,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S58A2C24103FBC81E"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.GetRanchMessage
+function C0BCF364067528E9C.S58A2C24103FBC81E(A0_2)
   local L1_2, L2_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S5CD7525960470392
@@ -348,11 +303,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S4A4804EAFA1C539F"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.S4A4804EAFA1C539F
+function C0BCF364067528E9C.S4A4804EAFA1C539F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A0_2 then
     A0_2 = true
@@ -402,11 +354,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S8AC34A1167FD1C0F"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.S8AC34A1167FD1C0F
+function C0BCF364067528E9C.S8AC34A1167FD1C0F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     A1_2 = true
@@ -432,11 +381,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S80881CEF6C7F896D"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.S80881CEF6C7F896D
+function C0BCF364067528E9C.S80881CEF6C7F896D()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L0_2 = 0
   L1_2 = C0BCF364067528E9C
@@ -489,11 +435,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "SFF438FCD02AD215C"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.SFF438FCD02AD215C
+function C0BCF364067528E9C.SFF438FCD02AD215C(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     A1_2 = true
@@ -519,11 +462,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S3FC31718F27B1A63"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.SetPokemonPosition
+function C0BCF364067528E9C.S3FC31718F27B1A63(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L2_2 = C0BCF364067528E9C
   L2_2 = L2_2.S5CD7525960470392
@@ -617,11 +557,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "SABADD54FDE8E80E7"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.GetPokemonPosition
+function C0BCF364067528E9C.SABADD54FDE8E80E7(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S5CD7525960470392
@@ -697,11 +634,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S8E65ED1638DF1504"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.IsBattlePokemon
+function C0BCF364067528E9C.S8E65ED1638DF1504(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S5CD7525960470392
@@ -734,11 +668,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S931FAFB0A39CA530"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.GetBattleId
+function C0BCF364067528E9C.S931FAFB0A39CA530(A0_2)
   local L1_2, L2_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S5CD7525960470392
@@ -755,11 +686,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S51898AAA6E99D0FF"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.BattleWin
+function C0BCF364067528E9C.S51898AAA6E99D0FF(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S5CD7525960470392
@@ -788,11 +716,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S94D56946FBF01B27"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.IsFindPokemon
+function C0BCF364067528E9C.S94D56946FBF01B27(A0_2, A1_2)
   local L2_2
   L2_2 = false
   if 0 == A1_2 then
@@ -834,11 +759,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "SC05CC3550F816834"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.SetFindPokemonFlg
+function C0BCF364067528E9C.SC05CC3550F816834(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C0BCF364067528E9C
   L2_2 = L2_2.S7210FB87613FB518
@@ -873,11 +795,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "SEA9A50E66E4EE53D"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.SEA9A50E66E4EE53D
+function C0BCF364067528E9C.SEA9A50E66E4EE53D(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = A0_2.findFlgName
   L3_2 = C10578806AC30DCA3
@@ -899,11 +818,8 @@ function L70_1(A0_2, A1_2)
   A0_2.findFlg = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "SABA0EDB244883157"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.GetFindPokemonNames
+function C0BCF364067528E9C.SABA0EDB244883157()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = _hx_tab_array
   L1_2 = {}
@@ -935,11 +851,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "SD90011AE847245E0"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.SD90011AE847245E0
+function C0BCF364067528E9C.SD90011AE847245E0()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = _hx_tab_array
   L1_2 = {}
@@ -971,11 +884,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S2F34C992F36C2710"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.S2F34C992F36C2710
+function C0BCF364067528E9C.S2F34C992F36C2710()
   local L0_2, L1_2
   L0_2 = C0BCF364067528E9C
   L0_2 = L0_2.SD40FB2DDCF42671E
@@ -984,11 +894,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "SD40FB2DDCF42671E"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.GetFollowPokeCount
+function C0BCF364067528E9C.SD40FB2DDCF42671E()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = 0
   L1_2 = 0
@@ -1012,11 +919,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "SA3C8ADF14DD38775"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.GetFollowPokeNames
+function C0BCF364067528E9C.SA3C8ADF14DD38775()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = _hx_tab_array
   L1_2 = {}
@@ -1047,11 +951,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S57F3A5E2C40D08EE"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.getFollowIndex
+function C0BCF364067528E9C.S57F3A5E2C40D08EE(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
   L2_2 = 0
@@ -1079,11 +980,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S520811965E140CED"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.GetFollowOffset
+function C0BCF364067528E9C.S520811965E140CED(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.SD40FB2DDCF42671E
@@ -1113,11 +1011,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S62C6CBD7A44375EB"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.GetAnimationUpdateInterval
+function C0BCF364067528E9C.S62C6CBD7A44375EB(A0_2)
   local L1_2, L2_2
   L1_2 = C0BCF364067528E9C
   L1_2 = L1_2.S8912B3F4013BA380
@@ -1144,19 +1039,13 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "SB2C4C30C5F8A0B1C"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.localLogger
+function C0BCF364067528E9C.SB2C4C30C5F8A0B1C(A0_2)
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S93943C38B249317B"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.RandomInt
+function C0BCF364067528E9C.S93943C38B249317B(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if A1_2 < A0_2 then
     return A0_2
@@ -1181,11 +1070,8 @@ function L70_1(A0_2, A1_2)
   return A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "SCC87B7A6291F34A0"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.RandomFloat
+function C0BCF364067528E9C.SCC87B7A6291F34A0(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if A1_2 < A0_2 then
     return A0_2
@@ -1211,11 +1097,8 @@ function L70_1(A0_2, A1_2)
   return A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "S0642EEEA0A9D0C7E"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.GetRandomRotation
+function C0BCF364067528E9C.S0642EEEA0A9D0C7E()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = cD5675BA5
   L0_2 = L0_2.fFA44D7AF
@@ -1234,25 +1117,20 @@ function L70_1()
   return L0_2(L1_2, L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C0BCF364067528E9C_prototype
+C0BCF364067528E9C_prototype = L15_1()
+C0BCF364067528E9C.prototype = C0BCF364067528E9C_prototype
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.Setup
+function C0BCF364067528E9C_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FC0345553D75921A3
+  L3_2 = self
+  L2_2 = self.FC0345553D75921A3
   L2_2(L3_2)
   L2_2 = C0BCF364067528E9C
   L3_2 = c1A00019C
@@ -1261,30 +1139,24 @@ function L70_1(A0_2, A1_2)
   L2_2.S5E2C96CB96973DE8 = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.Destroy
+function C0BCF364067528E9C_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = C0BCF364067528E9C
   L1_2.S5E2C96CB96973DE8 = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0BCF364067528E9C"]["prototype"]
-L69_1 = "FC0345553D75921A3"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.loadTable
+function C0BCF364067528E9C_prototype:FC0345553D75921A3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2
   L1_2 = cF52F390B
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cF52F390B

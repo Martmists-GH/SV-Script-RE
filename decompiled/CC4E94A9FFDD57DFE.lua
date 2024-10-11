@@ -1,3 +1,5 @@
+---@class CC4E94A9FFDD57DFE : CC4E94A9FFDD57DFE_prototype
+---@field prototype CC4E94A9FFDD57DFE_prototype
 L55_1 = _ENV
 L56_1 = "CC4E94A9FFDD57DFE"
 L57_1 = L15_1
@@ -42,32 +44,24 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC4E94A9FFDD57DFE"]
 L69_1 = "__name__"
 L70_1 = "CC4E94A9FFDD57DFE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4E94A9FFDD57DFE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4E94A9FFDD57DFE"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2, A1_2)
+---@class CC4E94A9FFDD57DFE_prototype
+CC4E94A9FFDD57DFE_prototype = L15_1()
+CC4E94A9FFDD57DFE.prototype = CC4E94A9FFDD57DFE_prototype
+--- CC4E94A9FFDD57DFE.onSetup
+function CC4E94A9FFDD57DFE_prototype:F22C7B81A049FA20D(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C758A4480EDBFE879
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F22C7B81A049FA20D
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4E94A9FFDD57DFE"]["prototype"]
-L69_1 = "FEE379E06C95CAE5F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CC4E94A9FFDD57DFE.StaminaUpdate
+function CC4E94A9FFDD57DFE_prototype:FEE379E06C95CAE5F(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L3_2 = L3_2.h
   while nil ~= L3_2 do
     L4_2 = L3_2.item
@@ -83,18 +77,15 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4E94A9FFDD57DFE"]["prototype"]
-L69_1 = "F87E2A908DD3095FF"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CC4E94A9FFDD57DFE.CreateUnit
+function CC4E94A9FFDD57DFE_prototype:F87E2A908DD3095FF(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = C5F75512E3A8D3E3E
   L3_2 = L3_2.new
   L4_2 = A1_2
   L5_2 = A2_2
   L3_2 = L3_2(L4_2, L5_2)
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L5_2 = L4_2
   L4_2 = L4_2.add
   L6_2 = L3_2

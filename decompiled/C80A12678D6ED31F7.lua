@@ -1,7 +1,8 @@
-L68_1 = _ENV["C80A12678D6ED31F7"]
-L69_1 = "new"
+---@alias C80A12678D6ED31F7 main_encount_EncountRaidManager
 
-function L70_1(A0_2)
+---@class main_encount_EncountRaidManager : C80A12678D6ED31F7_prototype
+---@field prototype C80A12678D6ED31F7_prototype
+function C80A12678D6ED31F7.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C80A12678D6ED31F7
@@ -17,11 +18,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C80A12678D6ED31F7
+function C80A12678D6ED31F7.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   A0_2[1] = nil
   A0_2[1] = A1_2
@@ -111,22 +109,16 @@ L68_1 = "C80A12678D6ED31F7"
 L68_1 = L25_1[L68_1]
 L69_1 = "S47BF515E9B963BEC"
 L70_1 = _ENV["C80A12678D6ED31F7"]["S47BF515E9B963BEC"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]
-L69_1 = "S0B3F69C4549A0284"
-
-function L70_1()
+--- main.encount.EncountRaidManager.GetInstance
+function C80A12678D6ED31F7.S0B3F69C4549A0284()
   local L0_2, L1_2
   L0_2 = C80A12678D6ED31F7
   L0_2 = L0_2.S264F26F6894F3392
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]
-L69_1 = "S5898DB6D1BDA2F9F"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.CheckTamperingRaidParam
+function C80A12678D6ED31F7.S5898DB6D1BDA2F9F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.f859EFF3C
@@ -335,11 +327,8 @@ L68_1 = "C80A12678D6ED31F7"
 L68_1 = L25_1[L68_1]
 L69_1 = "S5898DB6D1BDA2F9F"
 L70_1 = _ENV["C80A12678D6ED31F7"]["S5898DB6D1BDA2F9F"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]
-L69_1 = "SBC3DDD71C6F2511C"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.CheckTamperingPokemonParam
+function C80A12678D6ED31F7.SBC3DDD71C6F2511C(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.f859EFF3C
@@ -451,11 +440,8 @@ L68_1 = "C80A12678D6ED31F7"
 L68_1 = L25_1[L68_1]
 L69_1 = "SBC3DDD71C6F2511C"
 L70_1 = _ENV["C80A12678D6ED31F7"]["SBC3DDD71C6F2511C"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]
-L69_1 = "SBB7985AE9C4415E7"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.CheckTamperingRewardItemDataArray
+function C80A12678D6ED31F7.SBB7985AE9C4415E7(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = L26_1.new
   L2_2()
@@ -794,44 +780,39 @@ L68_1 = "C80A12678D6ED31F7"
 L68_1 = L25_1[L68_1]
 L69_1 = "SBB7985AE9C4415E7"
 L70_1 = _ENV["C80A12678D6ED31F7"]["SBB7985AE9C4415E7"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F7A3D296366E973CB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class C80A12678D6ED31F7_prototype
+C80A12678D6ED31F7_prototype = L15_1()
+C80A12678D6ED31F7.prototype = C80A12678D6ED31F7_prototype
+--- main.encount.EncountRaidManager.Initialize
+function C80A12678D6ED31F7_prototype:F7A3D296366E973CB(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L4_2 = CA9EDE4D3987F8C47
   L4_2 = L4_2.SA542232677361537
   L5_2 = A1_2
   L4_2 = L4_2(L5_2)
-  A0_2[3] = L4_2
+  self[3] = L4_2
   L4_2 = CA9EDE4D3987F8C47
   L4_2 = L4_2.SA542232677361537
   L5_2 = A2_2
   L4_2 = L4_2(L5_2)
-  A0_2[4] = L4_2
+  self[4] = L4_2
   L4_2 = CA9EDE4D3987F8C47
   L4_2 = L4_2.SA542232677361537
   L5_2 = A3_2
   L4_2 = L4_2(L5_2)
-  A0_2[5] = L4_2
+  self[5] = L4_2
   L4_2 = c046C3097
   L4_2 = L4_2.f101D811F
   L4_2 = L4_2()
   L6_2 = L4_2
   L5_2 = L4_2.fA7877573
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L7_2 = L7_2.gem
   L7_2 = L7_2.gemFetchLength
   L5_2(L6_2, L7_2)
   L6_2 = L4_2
   L5_2 = L4_2.fA850C432
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L7_2 = L7_2.gem
   L7_2 = L7_2.gemReleaseLength
   L5_2(L6_2, L7_2)
@@ -851,7 +832,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = L5_2()
   L6_2 = L5_2
   L5_2 = L5_2.f1AEA1D0D
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L5_2(L6_2, L7_2)
   L5_2 = c1A1CBE3B
   L5_2 = L5_2.f859EFF3C
@@ -859,19 +840,19 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2 = L5_2
   L5_2 = L5_2.fF10FC659
   L7_2 = 0
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L8_2 = L8_2.gem
   L8_2 = L8_2.areaMax
-  L9_2 = A0_2[3]
+  L9_2 = self[3]
   L9_2 = L9_2.gem
   L9_2 = L9_2.groupMax
-  L10_2 = A0_2[3]
+  L10_2 = self[3]
   L10_2 = L10_2.gem
   L10_2 = L10_2.gemMax
-  L11_2 = A0_2[3]
+  L11_2 = self[3]
   L11_2 = L11_2.gem
   L11_2 = L11_2.lotteryGroupMax
-  L12_2 = A0_2[3]
+  L12_2 = self[3]
   L12_2 = L12_2.gem
   L12_2 = L12_2.lotteryKwmMax
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
@@ -881,19 +862,19 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2 = L5_2
   L5_2 = L5_2.fF10FC659
   L7_2 = 1
-  L8_2 = A0_2[4]
+  L8_2 = self[4]
   L8_2 = L8_2.gem
   L8_2 = L8_2.areaMax
-  L9_2 = A0_2[4]
+  L9_2 = self[4]
   L9_2 = L9_2.gem
   L9_2 = L9_2.groupMax
-  L10_2 = A0_2[4]
+  L10_2 = self[4]
   L10_2 = L10_2.gem
   L10_2 = L10_2.gemMax
-  L11_2 = A0_2[4]
+  L11_2 = self[4]
   L11_2 = L11_2.gem
   L11_2 = L11_2.lotteryGroupMax
-  L12_2 = A0_2[4]
+  L12_2 = self[4]
   L12_2 = L12_2.gem
   L12_2 = L12_2.lotteryKwmMax
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
@@ -903,29 +884,26 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2 = L5_2
   L5_2 = L5_2.fF10FC659
   L7_2 = 2
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L8_2 = L8_2.gem
   L8_2 = L8_2.areaMax
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L9_2 = L9_2.gem
   L9_2 = L9_2.groupMax
-  L10_2 = A0_2[5]
+  L10_2 = self[5]
   L10_2 = L10_2.gem
   L10_2 = L10_2.gemMax
-  L11_2 = A0_2[5]
+  L11_2 = self[5]
   L11_2 = L11_2.gem
   L11_2 = L11_2.lotteryGroupMax
-  L12_2 = A0_2[5]
+  L12_2 = self[5]
   L12_2 = L12_2.gem
   L12_2 = L12_2.lotteryKwmMax
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F46DDD05F6CDC1529"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.InitializeEnemyInfo
+function C80A12678D6ED31F7_prototype:F46DDD05F6CDC1529(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.f859EFF3C
@@ -936,11 +914,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F7CD51BA672A4CAA4"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.InitializeTrainerInfo
+function C80A12678D6ED31F7_prototype:F7CD51BA672A4CAA4(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C80A12678D6ED31F7
   L2_2.S1DDD9580904D55C7 = A1_2
@@ -952,11 +927,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "FFF06A29F1D954863"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.InitializeTrainerPresetInfo
+function C80A12678D6ED31F7_prototype:FFF06A29F1D954863(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C80A12678D6ED31F7
   L2_2.S0E1D847FC324DDDC = A1_2
@@ -968,11 +940,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "FF08A0657BF2556DB"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.InitializeLotteryRewardSlot
+function C80A12678D6ED31F7_prototype:FF08A0657BF2556DB(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C80A12678D6ED31F7
   L2_2.S62B1251862804678 = A1_2
@@ -984,11 +953,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F2EF19F03D12E0B9D"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.F2EF19F03D12E0B9D
+function C80A12678D6ED31F7_prototype:F2EF19F03D12E0B9D(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C80A12678D6ED31F7
   L2_2.S7F53A98478C564EA = A1_2
@@ -1000,11 +966,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F6F3C4927900C2A80"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.InitializeLotteryRewardItem
+function C80A12678D6ED31F7_prototype:F6F3C4927900C2A80(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.f859EFF3C
@@ -1015,11 +978,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F4792F45F5D7671CF"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.InitializeFixedRewardItem
+function C80A12678D6ED31F7_prototype:F4792F45F5D7671CF(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.f859EFF3C
@@ -1030,11 +990,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F6ED00695A86F9FD8"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.GetRaidTrainerInfo
+function C80A12678D6ED31F7_prototype:F6ED00695A86F9FD8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
@@ -1084,11 +1041,8 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F5038DD4FEEF45C4F"
-
-function L70_1(A0_2)
+--- main.encount.EncountRaidManager.F5038DD4FEEF45C4F
+function C80A12678D6ED31F7_prototype:F5038DD4FEEF45C4F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = cF52F390B
   L1_2 = L1_2.fB41FD22F
@@ -1121,11 +1075,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "FE7A0FECB4E63AF4C"
-
-function L70_1(A0_2)
+--- main.encount.EncountRaidManager.GetDifficultyGroupID
+function C80A12678D6ED31F7_prototype:FE7A0FECB4E63AF4C()
   local L1_2, L2_2
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.f859EFF3C
@@ -1135,11 +1086,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F8F31F5BDC36653F9"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.F8F31F5BDC36653F9
+function C80A12678D6ED31F7_prototype:F8F31F5BDC36653F9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
@@ -1187,11 +1135,8 @@ function L70_1(A0_2, A1_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "FF39987649221AAB0"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.FF39987649221AAB0
+function C80A12678D6ED31F7_prototype:FF39987649221AAB0(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.f859EFF3C
@@ -1202,11 +1147,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "FA7D34CE490FC6ECD"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.FA7D34CE490FC6ECD
+function C80A12678D6ED31F7_prototype:FA7D34CE490FC6ECD(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.f859EFF3C
@@ -1217,11 +1159,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F9B76F2540C4CDC13"
-
-function L70_1(A0_2)
+--- main.encount.EncountRaidManager.F9B76F2540C4CDC13
+function C80A12678D6ED31F7_prototype:F9B76F2540C4CDC13()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = nil
   L2_2 = c016374C1
@@ -1265,14 +1204,11 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "FBCCAA3FDD92CC520"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountRaidManager.FBCCAA3FDD92CC520
+function C80A12678D6ED31F7_prototype:FBCCAA3FDD92CC520(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F6ED00695A86F9FD8
+  L4_2 = self
+  L3_2 = self.F6ED00695A86F9FD8
   L5_2 = A2_2
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = nil
@@ -1372,14 +1308,11 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F82DA58B403DB712D"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.F82DA58B403DB712D
+function C80A12678D6ED31F7_prototype:F82DA58B403DB712D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F5038DD4FEEF45C4F
+  L3_2 = self
+  L2_2 = self.F5038DD4FEEF45C4F
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = c919391D3
@@ -1417,14 +1350,11 @@ function L70_1(A0_2, A1_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.Update
+function C80A12678D6ED31F7_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F43F18A93C4E944F9
+  L3_2 = self
+  L2_2 = self.F43F18A93C4E944F9
   L2_2(L3_2)
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.f859EFF3C
@@ -1496,8 +1426,8 @@ function L70_1(A0_2, A1_2)
         L3_2 = L2_2
         L2_2 = L2_2.f3749E8D8
         L4_2 = L55_1
-        L5_2 = A0_2
-        L6_2 = A0_2.FC4F473FA9CA35F4B
+        L5_2 = self
+        L6_2 = self.FC4F473FA9CA35F4B
         L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L4_2(L5_2, L6_2)
         L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
       end
@@ -1512,39 +1442,30 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F77647FFCD947CA10"
-
-function L70_1(A0_2)
+--- main.encount.EncountRaidManager.OnDateChanged
+function C80A12678D6ED31F7_prototype:F77647FFCD947CA10()
   local L1_2
   L1_2 = C80A12678D6ED31F7
   L1_2 = L1_2.S47BF515E9B963BEC
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F395D10A4104479ED"
-
-function L70_1(A0_2)
+--- main.encount.EncountRaidManager.OnReflection
+function C80A12678D6ED31F7_prototype:F395D10A4104479ED()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C80A12678D6ED31F7
   L1_2 = L1_2.S179F25EECD45E137
   L2_2 = L1_2
   L1_2 = L1_2.fECA49C6C
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F68AE0F2A5FFA757E
+  L4_2 = self
+  L5_2 = self.F68AE0F2A5FFA757E
   L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F32550510B0E2DB63"
-
-function L70_1(A0_2)
+--- main.encount.EncountRaidManager.F32550510B0E2DB63
+function C80A12678D6ED31F7_prototype:F32550510B0E2DB63()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = c7DDA29B5
@@ -1559,18 +1480,15 @@ function L70_1(A0_2)
     L3_2 = L2_2
     L2_2 = L2_2.fECA49C6C
     L4_2 = L55_1
-    L5_2 = A0_2
-    L6_2 = A0_2.F68AE0F2A5FFA757E
+    L5_2 = self
+    L6_2 = self.F68AE0F2A5FFA757E
     L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
     L2_2(L3_2, L4_2, L5_2, L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F43F18A93C4E944F9"
-
-function L70_1(A0_2)
+--- main.encount.EncountRaidManager.F43F18A93C4E944F9
+function C80A12678D6ED31F7_prototype:F43F18A93C4E944F9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.f859EFF3C
@@ -1926,11 +1844,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "FC4F473FA9CA35F4B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountRaidManager.onReadPoints
+function C80A12678D6ED31F7_prototype:FC4F473FA9CA35F4B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = c1A1CBE3B
   L3_2 = L3_2.f859EFF3C
@@ -1942,11 +1857,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F68AE0F2A5FFA757E"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.onReflectionPoints
+function C80A12678D6ED31F7_prototype:F68AE0F2A5FFA757E(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.f859EFF3C
@@ -1957,11 +1869,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "FE3E7EF9576663B08"
-
-function L70_1(A0_2, A1_2)
+--- main.encount.EncountRaidManager.GetLeaguePay
+function C80A12678D6ED31F7_prototype:FE3E7EF9576663B08(A1_2)
   local L2_2, L3_2
   L2_2 = C8F93126DACB9F8DD
   L2_2 = L2_2.S93A2C11A3020463D
@@ -1969,17 +1878,17 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2[2]
   if 7 == A1_2 then
     if 1 == L2_2 then
-      L3_2 = A0_2[4]
+      L3_2 = self[4]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty07
       return L3_2
     elseif 2 == L2_2 then
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty07
       return L3_2
     else
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty07
       return L3_2
@@ -1987,17 +1896,17 @@ function L70_1(A0_2, A1_2)
   end
   if 6 == A1_2 then
     if 1 == L2_2 then
-      L3_2 = A0_2[4]
+      L3_2 = self[4]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty06
       return L3_2
     elseif 2 == L2_2 then
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty06
       return L3_2
     else
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty06
       return L3_2
@@ -2005,17 +1914,17 @@ function L70_1(A0_2, A1_2)
   end
   if 5 == A1_2 then
     if 1 == L2_2 then
-      L3_2 = A0_2[4]
+      L3_2 = self[4]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty05
       return L3_2
     elseif 2 == L2_2 then
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty05
       return L3_2
     else
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty05
       return L3_2
@@ -2023,17 +1932,17 @@ function L70_1(A0_2, A1_2)
   end
   if 4 == A1_2 then
     if 1 == L2_2 then
-      L3_2 = A0_2[4]
+      L3_2 = self[4]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty04
       return L3_2
     elseif 2 == L2_2 then
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty04
       return L3_2
     else
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty04
       return L3_2
@@ -2041,17 +1950,17 @@ function L70_1(A0_2, A1_2)
   end
   if 3 == A1_2 then
     if 1 == L2_2 then
-      L3_2 = A0_2[4]
+      L3_2 = self[4]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty03
       return L3_2
     elseif 2 == L2_2 then
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty03
       return L3_2
     else
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty03
       return L3_2
@@ -2059,45 +1968,42 @@ function L70_1(A0_2, A1_2)
   end
   if 2 == A1_2 then
     if 1 == L2_2 then
-      L3_2 = A0_2[4]
+      L3_2 = self[4]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty02
       return L3_2
     elseif 2 == L2_2 then
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty02
       return L3_2
     else
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L3_2 = L3_2.gem
       L3_2 = L3_2.leaguePayDifficulty02
       return L3_2
     end
   end
   if 1 == L2_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L3_2 = L3_2.gem
     L3_2 = L3_2.leaguePayDifficulty01
     return L3_2
   elseif 2 == L2_2 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L3_2 = L3_2.gem
     L3_2 = L3_2.leaguePayDifficulty01
     return L3_2
   else
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L3_2 = L3_2.gem
     L3_2 = L3_2.leaguePayDifficulty01
     return L3_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "FCA062F7CD84E5A35"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.encount.EncountRaidManager.FCA062F7CD84E5A35
+function C80A12678D6ED31F7_prototype:FCA062F7CD84E5A35(A1_2, A2_2)
   local L3_2
   L3_2 = C80A12678D6ED31F7
   L3_2.S26D5F7CF91335DF3 = A1_2
@@ -2105,22 +2011,16 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2.S230296A8C08E6A9F = A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "F1D2FFFEE6C91193D"
-
-function L70_1(A0_2)
+--- main.encount.EncountRaidManager.F1D2FFFEE6C91193D
+function C80A12678D6ED31F7_prototype:F1D2FFFEE6C91193D()
   local L1_2
   L1_2 = C80A12678D6ED31F7
   L1_2 = L1_2.S26D5F7CF91335DF3
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80A12678D6ED31F7"]["prototype"]
-L69_1 = "FDE7271BA74375981"
-
-function L70_1(A0_2)
+--- main.encount.EncountRaidManager.FDE7271BA74375981
+function C80A12678D6ED31F7_prototype:FDE7271BA74375981()
   local L1_2
   L1_2 = C80A12678D6ED31F7
   L1_2 = L1_2.S230296A8C08E6A9F

@@ -1,3 +1,7 @@
+---@alias C8B1FA665F6D11A44 main_egg_hatch_EggHatchMessage
+
+---@class main_egg_hatch_EggHatchMessage : C8B1FA665F6D11A44_prototype
+---@field prototype C8B1FA665F6D11A44_prototype
 L55_1 = _ENV
 L56_1 = "C8B1FA665F6D11A44"
 L57_1 = L15_1
@@ -46,26 +50,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8B1FA665F6D11A44"]
 L69_1 = "__name__"
 L70_1 = "C8B1FA665F6D11A44"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1FA665F6D11A44"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1FA665F6D11A44"]["prototype"]
-L69_1 = "F9EF8B08DA4FDA9E4"
-
-function L70_1(A0_2)
+---@class C8B1FA665F6D11A44_prototype
+C8B1FA665F6D11A44_prototype = L15_1()
+C8B1FA665F6D11A44.prototype = C8B1FA665F6D11A44_prototype
+--- main.egg_hatch.EggHatchMessage.mainCoroutineFunc
+function C8B1FA665F6D11A44_prototype:F9EF8B08DA4FDA9E4()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1FA665F6D11A44"]["prototype"]
-L69_1 = "F7EED485852A4D25F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.egg_hatch.EggHatchMessage.Start
+function C8B1FA665F6D11A44_prototype:F7EED485852A4D25F(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = C1DB14DCC9D7634FA
   L4_2 = L4_2.new
   
@@ -158,32 +154,29 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L6_2 = "EggHatchMessage"
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[4] = L4_2
-  return A0_2
+  self[4] = L4_2
+  return self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1FA665F6D11A44"]["prototype"]
-L69_1 = "FD3CF58695CBD5774"
-
-function L70_1(A0_2, A1_2)
+--- main.egg_hatch.EggHatchMessage.update
+function C8B1FA665F6D11A44_prototype:FD3CF58695CBD5774(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FD079E1CF944CF798
+      L3_2 = self
+      L2_2 = self.FD079E1CF944CF798
       L2_2 = L2_2(L3_2)
       L3_2 = E5918BECABEC63037
       L3_2 = L3_2.Finished
       if L2_2 ~= L3_2 then
-        L3_2 = A0_2
-        L2_2 = A0_2.FEB6685558281F194
+        L3_2 = self
+        L2_2 = self.FEB6685558281F194
         L4_2 = A1_2
         L2_2(L3_2, L4_2)
       end
@@ -191,24 +184,18 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1FA665F6D11A44"]["prototype"]
-L69_1 = "F69B87B4FB92AC1C7"
-
-function L70_1(A0_2, A1_2)
+--- main.egg_hatch.EggHatchMessage.OnComp
+function C8B1FA665F6D11A44_prototype:F69B87B4FB92AC1C7(A1_2)
   local L2_2, L3_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F0085F7055F019927 = L2_2
-  return A0_2
+  self.F0085F7055F019927 = L2_2
+  return self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1FA665F6D11A44"]["prototype"]
-L69_1 = "FDDFF7E30178868EC"
-
-function L70_1(A0_2, A1_2)
+--- main.egg_hatch.EggHatchMessage.GetLabelName
+function C8B1FA665F6D11A44_prototype:FDDFF7E30178868EC(A1_2)
   local L2_2, L3_2
   L2_2 = A1_2[1]
   if 0 == L2_2 then
@@ -223,17 +210,14 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1FA665F6D11A44"]["prototype"]
-L69_1 = "FFDA9FDCF981A0210"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.egg_hatch.EggHatchMessage.GetText
+function C8B1FA665F6D11A44_prototype:FFDA9FDCF981A0210(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = cB3DDDC2A
   L3_2 = L3_2.f5B6373D5
   L3_2 = L3_2()
-  L5_2 = A0_2
-  L4_2 = A0_2.FDDFF7E30178868EC
+  L5_2 = self
+  L4_2 = self.FDDFF7E30178868EC
   L6_2 = A1_2
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = A1_2[1]

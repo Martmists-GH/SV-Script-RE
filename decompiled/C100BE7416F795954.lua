@@ -1,3 +1,7 @@
+---@alias C100BE7416F795954 main_event_general_gym_base_Gym_esper_UI
+
+---@class main_event_general_gym_base_Gym_esper_UI : C100BE7416F795954_prototype
+---@field prototype C100BE7416F795954_prototype
 L55_1 = _ENV
 L56_1 = "C100BE7416F795954"
 L57_1 = L15_1
@@ -42,20 +46,15 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C100BE7416F795954"]
 L69_1 = "__name__"
 L70_1 = "C100BE7416F795954"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C100BE7416F795954"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C100BE7416F795954"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C100BE7416F795954_prototype
+C100BE7416F795954_prototype = L15_1()
+C100BE7416F795954.prototype = C100BE7416F795954_prototype
+--- main.event.general.gym.base.Gym_esper_UI.Setup
+function C100BE7416F795954_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cECF00344
@@ -68,43 +67,37 @@ function L70_1(A0_2, A1_2)
     L4_2 = L2_2.f2A9CF058
     L6_2 = true
     L4_2(L5_2, L6_2)
-    L5_2 = A0_2
-    L4_2 = A0_2.F24BC65B0545AC4C4
+    L5_2 = self
+    L4_2 = self.F24BC65B0545AC4C4
     L4_2(L5_2)
   else
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.fE9C29DA1
     L4_2(L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C100BE7416F795954"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_UI.Destroy
+function C100BE7416F795954_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C100BE7416F795954"]["prototype"]
-L69_1 = "F24BC65B0545AC4C4"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_UI.AllHide
+function C100BE7416F795954_prototype:F24BC65B0545AC4C4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.fE9C29DA1
   L1_2(L2_2)
   L1_2 = cECF00344
   L1_2 = L1_2.fEECE6995
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cECF00344
@@ -144,64 +137,58 @@ function L70_1(A0_2)
     L6_2 = false
     L3_2(L4_2, L5_2, L6_2)
   else
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.fE9C29DA1
     L3_2(L4_2)
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.fE9C29DA1
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C100BE7416F795954"]["prototype"]
-L69_1 = "F808DA9EC2EE71FE7"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_UI.OpenUI
+function C100BE7416F795954_prototype:F808DA9EC2EE71FE7()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.fE9C29DA1
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F24BC65B0545AC4C4
+  L2_2 = self
+  L1_2 = self.F24BC65B0545AC4C4
   L1_2(L2_2)
   L1_2 = nil
   L2_2 = cECF00344
   L2_2 = L2_2.f9758FA9B
   L3_2 = cECF00344
   L3_2 = L3_2.fEECE6995
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.fE9C29DA1
     L2_2(L3_2)
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.fE9C29DA1
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C100BE7416F795954"]["prototype"]
-L69_1 = "FA23D39922B76B247"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_UI.SetVisible
+function C100BE7416F795954_prototype:FA23D39922B76B247(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.fE9C29DA1
   L2_2(L3_2)
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cECF00344
@@ -248,30 +235,27 @@ function L70_1(A0_2, A1_2)
       L4_2(L5_2, L6_2, L7_2)
     end
   else
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.fE9C29DA1
     L4_2(L5_2)
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.fE9C29DA1
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C100BE7416F795954"]["prototype"]
-L69_1 = "F7C4D115B78464DA6"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_UI.StartAnim
+function C100BE7416F795954_prototype:F7C4D115B78464DA6(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.fE9C29DA1
   L2_2(L3_2)
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cECF00344
@@ -280,8 +264,8 @@ function L70_1(A0_2, A1_2)
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.FA23D39922B76B247
+    L5_2 = self
+    L4_2 = self.FA23D39922B76B247
     L6_2 = A1_2
     L4_2(L5_2, L6_2)
     L5_2 = L2_2
@@ -289,26 +273,23 @@ function L70_1(A0_2, A1_2)
     L6_2 = A1_2
     L4_2(L5_2, L6_2)
   else
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.fE9C29DA1
     L4_2(L5_2)
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.fE9C29DA1
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C100BE7416F795954"]["prototype"]
-L69_1 = "F03C1FF6AC2FDA105"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_UI.IsAnimEnd
+function C100BE7416F795954_prototype:F03C1FF6AC2FDA105(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = true
   L4_2 = nil
@@ -324,7 +305,7 @@ function L70_1(A0_2, A1_2)
     L5_2 = L5_2(L6_2, L7_2)
     L3_2 = L5_2
   else
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.fE9C29DA1
     L5_2(L6_2)
@@ -332,15 +313,12 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C100BE7416F795954"]["prototype"]
-L69_1 = "F026B6DB6F055794A"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_UI.WaitAnimEnd
+function C100BE7416F795954_prototype:F026B6DB6F055794A(A1_2)
   local L2_2, L3_2, L4_2
   while true do
-    L3_2 = A0_2
-    L2_2 = A0_2.F03C1FF6AC2FDA105
+    L3_2 = self
+    L2_2 = self.F03C1FF6AC2FDA105
     L4_2 = A1_2
     L2_2 = L2_2(L3_2, L4_2)
     if L2_2 then
@@ -352,15 +330,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C100BE7416F795954"]["prototype"]
-L69_1 = "FDA9EB5E16AF17DD6"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_UI.StartButtonAnim
+function C100BE7416F795954_prototype:FDA9EB5E16AF17DD6(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cECF00344
@@ -369,7 +344,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.fE9C29DA1
     L4_2(L5_2)
@@ -408,18 +383,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C100BE7416F795954"]["prototype"]
-L69_1 = "FBE5A8D89D4E39D44"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.general.gym.base.Gym_esper_UI.MessageOpen
+function C100BE7416F795954_prototype:FBE5A8D89D4E39D44(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A3_2 then
     A3_2 = "gym_esper_020"
   end
   L4_2 = cECF00344
   L4_2 = L4_2.fEECE6995
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
   L5_2 = nil
   L6_2 = cECF00344
@@ -428,7 +400,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
   if L6_2 then
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = L6_2
     L6_2 = L6_2.fE9C29DA1
     L6_2(L7_2)
@@ -446,26 +418,23 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2(L7_2, L8_2, L9_2)
   L6_2 = c8C3BF576
   L6_2 = L6_2.f46674724
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = "L_sizi_all/T_window"
   L9_2 = A3_2
   L10_2 = A2_2
   L6_2(L7_2, L8_2, L9_2, L10_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.F7C4D115B78464DA6
+  L7_2 = self
+  L6_2 = self.F7C4D115B78464DA6
   L8_2 = "text_open"
   L6_2(L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C100BE7416F795954"]["prototype"]
-L69_1 = "F598A3FFF5207D0CF"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.general.gym.base.Gym_esper_UI.UpdateGauge
+function C100BE7416F795954_prototype:F598A3FFF5207D0CF(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = cECF00344
   L4_2 = L4_2.fEECE6995
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
   if A2_2 < A1_2 then
     A1_2 = A2_2
@@ -486,27 +455,21 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C100BE7416F795954"]["prototype"]
-L69_1 = "F7C91080775560DF8"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_UI.MessageClose
+function C100BE7416F795954_prototype:F7C91080775560DF8()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F7C4D115B78464DA6
+  L2_2 = self
+  L1_2 = self.F7C4D115B78464DA6
   L3_2 = "text_close"
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C100BE7416F795954"]["prototype"]
-L69_1 = "F154AA7E60E227DCB"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_UI.SetMessageIconVisible
+function C100BE7416F795954_prototype:F154AA7E60E227DCB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cECF00344

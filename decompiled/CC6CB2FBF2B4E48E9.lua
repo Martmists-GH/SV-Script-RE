@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CC6CB2FBF2B4E48E9"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CC6CB2FBF2B4E48E9"]
-L69_1 = "new"
+---@alias CC6CB2FBF2B4E48E9 main_system_game_event_danbattle_GameEventDanAutoBattle
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_danbattle_GameEventDanAutoBattle : CC6CB2FBF2B4E48E9_prototype
+---@field prototype CC6CB2FBF2B4E48E9_prototype
+CC6CB2FBF2B4E48E9 = L15_1()
+function CC6CB2FBF2B4E48E9.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CC6CB2FBF2B4E48E9
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6CB2FBF2B4E48E9"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CC6CB2FBF2B4E48E9
+function CC6CB2FBF2B4E48E9.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CE0D511325372F946
   L3_2 = L3_2.super
@@ -37,11 +31,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6CB2FBF2B4E48E9"]
-L69_1 = "__name__"
-L70_1 = "CC6CB2FBF2B4E48E9"
-L68_1[L69_1] = L70_1
+CC6CB2FBF2B4E48E9.__name__ = "CC6CB2FBF2B4E48E9"
 L68_1 = _ENV["CC6CB2FBF2B4E48E9"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -77,23 +67,18 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6CB2FBF2B4E48E9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6CB2FBF2B4E48E9"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CC6CB2FBF2B4E48E9_prototype
+CC6CB2FBF2B4E48E9_prototype = L15_1()
+CC6CB2FBF2B4E48E9.prototype = CC6CB2FBF2B4E48E9_prototype
+--- main.system.game_event.danbattle.GameEventDanAutoBattle.onCreate
+function CC6CB2FBF2B4E48E9_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   L1_2.paralleled = true
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L1_2 = L1_2.partnerPoke
   if nil ~= L1_2 then
-    L1_2 = A0_2[17]
+    L1_2 = self[17]
     L1_2 = L1_2.enemyPoke
     if nil ~= L1_2 then
       goto lbl_12
@@ -101,21 +86,21 @@ function L70_1(A0_2)
   end
   do return end
   ::lbl_12::
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L1_2 = L1_2.enemyPoke
   L1_2 = L1_2.owner
   L2_2 = L1_2
   L1_2 = L1_2.fE9C29DA1
   L1_2 = L1_2(L2_2)
-  A0_2[20] = L1_2
-  L1_2 = A0_2[17]
+  self[20] = L1_2
+  L1_2 = self[17]
   L1_2 = L1_2.partnerPoke
   L1_2 = L1_2.owner
   L2_2 = L1_2
   L1_2 = L1_2.fE9C29DA1
   L1_2 = L1_2(L2_2)
-  A0_2[21] = L1_2
-  L1_2 = A0_2[17]
+  self[21] = L1_2
+  L1_2 = self[17]
   L1_2 = L1_2.enemyPoke
   L1_2 = L1_2.owner
   L2_2 = L1_2
@@ -129,8 +114,8 @@ function L70_1(A0_2)
   if L2_2 == L3_2 then
     L2_2 = nil
   end
-  A0_2[18] = L2_2
-  L3_2 = A0_2[17]
+  self[18] = L2_2
+  L3_2 = self[17]
   L3_2 = L3_2.partnerPoke
   L3_2 = L3_2.owner
   L4_2 = L3_2
@@ -145,8 +130,8 @@ function L70_1(A0_2)
     L4_2 = nil
   end
   L5_2 = L4_2[21]
-  A0_2[19] = L5_2
-  L5_2 = A0_2[18]
+  self[19] = L5_2
+  L5_2 = self[18]
   L6_2 = L5_2
   L5_2 = L5_2.FE191B31C867462D3
   L5_2(L6_2)
@@ -154,9 +139,9 @@ function L70_1(A0_2)
   L5_2 = L5_2.new
   L5_2 = L5_2()
   L5_2[2] = true
-  L6_2 = A0_2[17]
+  L6_2 = self[17]
   L6_2 = L6_2.partnerPoke
-  L7_2 = A0_2[17]
+  L7_2 = self[17]
   L7_2 = L7_2.enemyPoke
   L8_2 = CB30BB4BC8719DFE7
   L8_2 = L8_2.new
@@ -190,37 +175,31 @@ function L70_1(A0_2)
   L10_2 = L10_2()
   L11_2 = L5_2
   L8_2 = L8_2(L9_2, L10_2, L11_2)
-  A0_2[22] = L8_2
+  self[22] = L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6CB2FBF2B4E48E9"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.danbattle.GameEventDanAutoBattle.onUpdate
+function CC6CB2FBF2B4E48E9_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   if nil == L1_2 then
     L1_2 = 2
     return L1_2
   end
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L2_2 = L1_2
   L1_2 = L1_2.F7EED485852A4D25F
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FF8974FBD16DCF74E
+  L2_2 = self
+  L1_2 = self.FF8974FBD16DCF74E
   L1_2(L2_2)
   L1_2 = 2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6CB2FBF2B4E48E9"]["prototype"]
-L69_1 = "FF8974FBD16DCF74E"
-
-function L70_1(A0_2)
+--- main.system.game_event.danbattle.GameEventDanAutoBattle.battleResult
+function CC6CB2FBF2B4E48E9_prototype:FF8974FBD16DCF74E()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CDBCB33E53E70ED25
   L1_2 = L1_2.S511DEF29717431A3
@@ -229,37 +208,37 @@ function L70_1(A0_2)
   L1_2 = L1_2.FD26E24B1CE8AB4A8
   L3_2 = C9A3D19E8A0B2AF41
   L3_2 = L3_2.new
-  L4_2 = A0_2[19]
+  L4_2 = self[19]
   L3_2, L4_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2[12]
   if 0 == L1_2 then
-    L2_2 = A0_2[18]
+    L2_2 = self[18]
     if nil ~= L2_2 then
-      L2_2 = A0_2[18]
+      L2_2 = self[18]
       L3_2 = L2_2
       L2_2 = L2_2.F0553AB33FE84E504
       L2_2(L3_2)
     end
-    L2_2 = A0_2[19]
+    L2_2 = self[19]
     if nil ~= L2_2 then
-      L2_2 = A0_2[19]
+      L2_2 = self[19]
       L3_2 = L2_2
       L2_2 = L2_2.F940FF46D8F9D7CB5
       L2_2(L3_2)
     end
   elseif 1 == L1_2 then
-    L2_2 = A0_2[18]
+    L2_2 = self[18]
     if nil ~= L2_2 then
-      L2_2 = A0_2[18]
+      L2_2 = self[18]
       L3_2 = L2_2
       L2_2 = L2_2.F827E03BC4E032475
       L2_2(L3_2)
     end
-    L2_2 = A0_2[19]
+    L2_2 = self[19]
     if nil ~= L2_2 then
-      L2_2 = A0_2[19]
+      L2_2 = self[19]
       L3_2 = L2_2
       L2_2 = L2_2.F7741686674E4D744
       L2_2(L3_2)
@@ -267,11 +246,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC6CB2FBF2B4E48E9"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- main.system.game_event.danbattle.GameEventDanAutoBattle.onFinished
+function CC6CB2FBF2B4E48E9_prototype:F68499476069C0B1E()
   local L1_2
 end
 

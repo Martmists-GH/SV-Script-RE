@@ -1,3 +1,7 @@
+---@alias C3849D6AE07FDE2B7 main_event_debug_DebugNakayamaHiroki
+
+---@class main_event_debug_DebugNakayamaHiroki : C3849D6AE07FDE2B7_prototype
+---@field prototype C3849D6AE07FDE2B7_prototype
 L55_1 = _ENV
 L56_1 = "C3849D6AE07FDE2B7"
 L57_1 = L15_1
@@ -68,75 +72,58 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3849D6AE07FDE2B7"]
 L69_1 = "__name__"
 L70_1 = "C3849D6AE07FDE2B7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C3849D6AE07FDE2B7_prototype
+C3849D6AE07FDE2B7_prototype = L15_1()
+C3849D6AE07FDE2B7.prototype = C3849D6AE07FDE2B7_prototype
+--- main.event.debug.DebugNakayamaHiroki.preStart
+function C3849D6AE07FDE2B7_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugNakayamaHiroki.postStart
+function C3849D6AE07FDE2B7_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]["prototype"]
-L69_1 = "F367E56C9AF7477A9"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugNakayamaHiroki.preReset
+function C3849D6AE07FDE2B7_prototype:F367E56C9AF7477A9()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]["prototype"]
-L69_1 = "F7D3239FB83157FC6"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugNakayamaHiroki.postReset
+function C3849D6AE07FDE2B7_prototype:F7D3239FB83157FC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugNakayamaHiroki.mainBody
+function C3849D6AE07FDE2B7_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F1B94116B29287D67
+  L2_2 = self
+  L1_2 = self.F1B94116B29287D67
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FAEA01362096748E2
+  L2_2 = self
+  L1_2 = self.FAEA01362096748E2
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F39A68ECEE3A4A398
+  L2_2 = self
+  L1_2 = self.F39A68ECEE3A4A398
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F5BB6D7D31705C621
+  L2_2 = self
+  L1_2 = self.F5BB6D7D31705C621
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FC20560E40AF8F0E0
+  L2_2 = self
+  L1_2 = self.FC20560E40AF8F0E0
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F6472D4854BF6FC25
+  L2_2 = self
+  L1_2 = self.F6472D4854BF6FC25
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FE4916B94B50AAD21
+  L2_2 = self
+  L1_2 = self.FE4916B94B50AAD21
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FC745BCFEB0596E9F
+  L2_2 = self
+  L1_2 = self.FC745BCFEB0596E9F
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FA9FFCBD25DB83818
+  L2_2 = self
+  L1_2 = self.FA9FFCBD25DB83818
   L1_2(L2_2)
   L1_2 = CC924006D5C703655
   L1_2 = L1_2.SCDD4F86BA9421575
@@ -244,13 +231,10 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]["prototype"]
-L69_1 = "FA9FFCBD25DB83818"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugNakayamaHiroki.PokeTotalEffortTest
+function C3849D6AE07FDE2B7_prototype:FA9FFCBD25DB83818()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L1_2 = L1_2[8]
   if L1_2 then
     L1_2 = CD081B219DEE96EEF
@@ -297,13 +281,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]["prototype"]
-L69_1 = "FC745BCFEB0596E9F"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugNakayamaHiroki.RibbonMeTest
+function C3849D6AE07FDE2B7_prototype:FC745BCFEB0596E9F()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L1_2 = L1_2[7]
   if L1_2 then
     L1_2 = CD081B219DEE96EEF
@@ -339,13 +320,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]["prototype"]
-L69_1 = "FE4916B94B50AAD21"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugNakayamaHiroki.RibbonTest
+function C3849D6AE07FDE2B7_prototype:FE4916B94B50AAD21()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L1_2 = L1_2[6]
   if L1_2 then
     L1_2 = L52_1.__cast
@@ -399,13 +377,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]["prototype"]
-L69_1 = "F6472D4854BF6FC25"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugNakayamaHiroki.BgObjectTest
+function C3849D6AE07FDE2B7_prototype:F6472D4854BF6FC25()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L1_2 = L1_2[5]
   if L1_2 then
     L1_2 = CDCBFD50A277E546D
@@ -437,13 +412,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]["prototype"]
-L69_1 = "FC20560E40AF8F0E0"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugNakayamaHiroki.AttachTest
+function C3849D6AE07FDE2B7_prototype:FC20560E40AF8F0E0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L1_2 = L1_2[4]
   if L1_2 then
     L1_2 = CDCBFD50A277E546D
@@ -498,13 +470,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]["prototype"]
-L69_1 = "F5BB6D7D31705C621"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugNakayamaHiroki.F5BB6D7D31705C621
+function C3849D6AE07FDE2B7_prototype:F5BB6D7D31705C621()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L1_2 = L1_2[3]
   if L1_2 then
     L1_2 = CDCBFD50A277E546D
@@ -528,13 +497,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]["prototype"]
-L69_1 = "F39A68ECEE3A4A398"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugNakayamaHiroki.IkLimitTest
+function C3849D6AE07FDE2B7_prototype:F39A68ECEE3A4A398()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L1_2 = L1_2[2]
   if L1_2 then
     L1_2 = CDCBFD50A277E546D
@@ -566,13 +532,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]["prototype"]
-L69_1 = "FAEA01362096748E2"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugNakayamaHiroki.FlyTest
+function C3849D6AE07FDE2B7_prototype:FAEA01362096748E2()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L1_2 = L1_2[1]
   if L1_2 then
     L1_2 = C10578806AC30DCA3
@@ -603,13 +566,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3849D6AE07FDE2B7"]["prototype"]
-L69_1 = "F1B94116B29287D67"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugNakayamaHiroki.FadeTest
+function C3849D6AE07FDE2B7_prototype:F1B94116B29287D67()
   local L1_2, L2_2
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L1_2 = L1_2[0]
   if L1_2 then
     L1_2 = C07E4F1BF071B0460

@@ -1,3 +1,7 @@
+---@alias C31C0AD4340FC665A main_field_behaviour_scenario_main_champion_gym_mizu_Gym_mizu_seri_field_mc
+
+---@class main_field_behaviour_scenario_main_champion_gym_mizu_Gym_mizu_seri_field_mc : C31C0AD4340FC665A_prototype
+---@field prototype C31C0AD4340FC665A_prototype
 L55_1 = _ENV
 L56_1 = "C31C0AD4340FC665A"
 L57_1 = L15_1
@@ -72,47 +76,42 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C31C0AD4340FC665A"]
 L69_1 = "__name__"
 L70_1 = "C31C0AD4340FC665A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+---@class C31C0AD4340FC665A_prototype
+C31C0AD4340FC665A_prototype = L15_1()
+C31C0AD4340FC665A.prototype = C31C0AD4340FC665A_prototype
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.onSetup
+function C31C0AD4340FC665A_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C672C3EA3AD5F8F24
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F22C7B81A049FA20D
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = cECB91E31
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
-  A0_2[62] = L1_2
+  self[62] = L1_2
   L1_2 = nil
   L2_2 = cECB91E31
   L2_2 = L2_2.f04ACC3F2
-  L3_2 = A0_2[62]
+  L3_2 = self[62]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[62]
+    L2_2 = self[62]
     L3_2 = L2_2
     L2_2 = L2_2.fD74EB814
     L2_2 = L2_2(L3_2)
     L3_2 = 0
     while L2_2 > L3_2 do
       L3_2 = L3_2 + 1
-      L4_2 = A0_2[62]
+      L4_2 = self[62]
       L5_2 = L4_2
       L4_2 = L4_2.fEEF8EB33
       L6_2 = L3_2 - 1
       L4_2 = L4_2(L5_2, L6_2)
-      L5_2 = A0_2[63]
+      L5_2 = self[63]
       L6_2 = L5_2
       L5_2 = L5_2.push
       L7_2 = L4_2
@@ -121,7 +120,7 @@ function L70_1(A0_2)
       if nil == L4_2 then
         L5_2 = ""
       end
-      L6_2 = A0_2[62]
+      L6_2 = self[62]
       L7_2 = L6_2
       L6_2 = L6_2.f949BDB20
       L8_2 = true
@@ -131,68 +130,68 @@ function L70_1(A0_2)
   end
   L2_2 = c7C4EA23C
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[64] = L2_2
+  self[64] = L2_2
   L2_2 = L58_1
   L3_2 = C755044F92F3DC4F2
   L3_2 = L3_2.SC1AA7F2A10D3A926
-  L4_2 = A0_2[48]
+  L4_2 = self[48]
   L3_2 = L3_2(L4_2)
   L3_2 = L3_2.popupDistance
   L2_2 = L2_2(L3_2)
-  A0_2[51] = L2_2
+  self[51] = L2_2
   L2_2 = C755044F92F3DC4F2
   L2_2 = L2_2.SA5C17E5544762212
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L3_2 = L3_2.owner
   L4_2 = L3_2
   L3_2 = L3_2.fE9C29DA1
   L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2 = L3_2(L4_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  A0_2[50] = L2_2
+  self[50] = L2_2
   L2_2 = L58_1
   L3_2 = C755044F92F3DC4F2
   L3_2 = L3_2.S05C70BE6959094E6
-  L4_2 = A0_2[50]
+  L4_2 = self[50]
   L4_2 = L4_2.venueTableId
   L3_2 = L3_2(L4_2)
   L3_2 = L3_2.isLegend
   L2_2 = L2_2(L3_2)
-  A0_2[49] = L2_2
-  A0_2[77] = true
-  L2_2 = A0_2[49]
+  self[49] = L2_2
+  self[77] = true
+  L2_2 = self[49]
   if L2_2 then
     L2_2 = c2EA22DC9
     L2_2 = L2_2.f3F6B057D
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = true
     L2_2(L3_2, L4_2)
   end
   L2_2 = C755044F92F3DC4F2
   L2_2 = L2_2.S19A7D72611004671
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F3BDEC08D177B4CBF
+  L4_2 = self
+  L5_2 = self.F3BDEC08D177B4CBF
   L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2 = L3_2(L4_2, L5_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L2_2 = A0_2[49]
+  L2_2 = self[49]
   if L2_2 then
     L2_2 = C755044F92F3DC4F2
     L2_2 = L2_2.SC254FD635D6338AF
-    L3_2 = A0_2[50]
+    L3_2 = self[50]
     L2_2 = L2_2(L3_2)
     if not L2_2 then
       L2_2 = C755044F92F3DC4F2
       L2_2 = L2_2.SF74B9E4A486C06DD
-      L3_2 = A0_2[50]
+      L3_2 = self[50]
       L3_2 = L3_2.venueTableId
       L2_2(L3_2)
     end
   end
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cCF781FB6
@@ -209,10 +208,10 @@ function L70_1(A0_2)
     L6_2 = false
     L4_2(L5_2, L6_2)
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.FE9D694A7E455EB0B
+  L5_2 = self
+  L4_2 = self.FE9D694A7E455EB0B
   L4_2(L5_2)
-  L4_2 = A0_2[21]
+  L4_2 = self[21]
   L5_2 = L4_2
   L4_2 = L4_2.FD64742C3B1BCE111
   L4_2 = L4_2(L5_2)
@@ -222,134 +221,122 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "FE9D694A7E455EB0B"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.setupState
+function C31C0AD4340FC665A_prototype:FE9D694A7E455EB0B()
   local L1_2, L2_2, L3_2
   L1_2 = C761A6FDB430471E9
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
-  A0_2[68] = L1_2
+  self[68] = L1_2
   L1_2 = C2D51744D220D6C49
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
-  A0_2[69] = L1_2
+  self[69] = L1_2
   L1_2 = C3E8E7D7849AFDE8D
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
-  A0_2[70] = L1_2
+  self[70] = L1_2
   L1_2 = C2A232C30137486F7
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
-  A0_2[71] = L1_2
+  self[71] = L1_2
   L1_2 = C69F727E43A9C37BA
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
-  A0_2[72] = L1_2
+  self[72] = L1_2
   L1_2 = C08612BA9CD0AF28F
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
-  A0_2[73] = L1_2
+  self[73] = L1_2
   L1_2 = C2389F27728189323
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
-  A0_2[74] = L1_2
+  self[74] = L1_2
   L1_2 = C0732B56D38D15A94
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
-  A0_2[75] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F28EAF3B3AA178E3E
-  L3_2 = A0_2[68]
+  self[75] = L1_2
+  L2_2 = self
+  L1_2 = self.F28EAF3B3AA178E3E
+  L3_2 = self[68]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F883A2367DD0011CA"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.onDestroy
+function C31C0AD4340FC665A_prototype:F883A2367DD0011CA()
   local L1_2, L2_2, L3_2, L4_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F5F07F37BC0FCA57D
+  L2_2 = self
+  L1_2 = self.F5F07F37BC0FCA57D
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F5CECEDF31F836771
+  L2_2 = self
+  L1_2 = self.F5CECEDF31F836771
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F0B8F5F942901F7BB
+  L2_2 = self
+  L1_2 = self.F0B8F5F942901F7BB
   L1_2(L2_2)
   L1_2 = C755044F92F3DC4F2
   L1_2 = L1_2.S0F1F0A466FDB8DCE
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F3BDEC08D177B4CBF
+  L3_2 = self
+  L4_2 = self.F3BDEC08D177B4CBF
   L2_2, L3_2, L4_2 = L2_2(L3_2, L4_2)
   L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F28EAF3B3AA178E3E
+  L2_2 = self
+  L1_2 = self.F28EAF3B3AA178E3E
   L3_2 = nil
   L1_2(L2_2, L3_2)
   L1_2 = C672C3EA3AD5F8F24
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F883A2367DD0011CA
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F3BDEC08D177B4CBF"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.updateVenue
+function C31C0AD4340FC665A_prototype:F3BDEC08D177B4CBF(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L3_2 = A0_2[50]
+  L3_2 = self[50]
   L3_2 = L3_2.venueTableId
   if L3_2 == A1_2 then
     L3_2 = C755044F92F3DC4F2
     L3_2 = L3_2.SA5C17E5544762212
-    L4_2 = A0_2[7]
+    L4_2 = self[7]
     L4_2 = L4_2.owner
     L5_2 = L4_2
     L4_2 = L4_2.fE9C29DA1
     L4_2, L5_2 = L4_2(L5_2)
     L3_2 = L3_2(L4_2, L5_2)
-    A0_2[50] = L3_2
+    self[50] = L3_2
     if A2_2 then
-      L3_2 = A0_2[50]
+      L3_2 = self[50]
       L3_2 = L3_2.itemTableId
       if 0 == L3_2 then
-        L4_2 = A0_2
-        L3_2 = A0_2.F28EAF3B3AA178E3E
-        L5_2 = A0_2[71]
+        L4_2 = self
+        L3_2 = self.F28EAF3B3AA178E3E
+        L5_2 = self[71]
         L3_2(L4_2, L5_2)
       else
-        L4_2 = A0_2
-        L3_2 = A0_2.F28EAF3B3AA178E3E
-        L5_2 = A0_2[70]
+        L4_2 = self
+        L3_2 = self.F28EAF3B3AA178E3E
+        L5_2 = self[70]
         L3_2(L4_2, L5_2)
       end
     else
-      A0_2[77] = true
+      self[77] = true
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F3E1E41BEC724D3D9"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.getBarkerMessage
+function C31C0AD4340FC665A_prototype:F3E1E41BEC724D3D9(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C755044F92F3DC4F2
   L2_2 = L2_2.S05C70BE6959094E6
@@ -377,11 +364,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F9CE8BC0299327827"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.CreateEventItemObject
+function C31C0AD4340FC665A_prototype:F9CE8BC0299327827(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C755044F92F3DC4F2
   L2_2 = L2_2.S34C77FCD0A9E2114
@@ -391,8 +375,8 @@ function L70_1(A0_2, A1_2)
   if nil ~= L3_2 then
     L3_2 = L2_2.itemObjectName
     if "" ~= L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F59AAC949B9613FD9
+      L4_2 = self
+      L3_2 = self.F59AAC949B9613FD9
       L5_2 = A1_2
       L3_2(L4_2, L5_2)
     end
@@ -401,8 +385,8 @@ function L70_1(A0_2, A1_2)
   if nil ~= L3_2 then
     L3_2 = L2_2.boxObjectName
     if "" ~= L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.FD2FDE07D6C996805
+      L4_2 = self
+      L3_2 = self.FD2FDE07D6C996805
       L5_2 = A1_2
       L3_2(L4_2, L5_2)
     end
@@ -411,34 +395,31 @@ function L70_1(A0_2, A1_2)
   if nil ~= L3_2 then
     L3_2 = L2_2.effectName
     if "" ~= L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F0030CC3CEBC35180
+      L4_2 = self
+      L3_2 = self.F0030CC3CEBC35180
       L5_2 = A1_2
       L3_2(L4_2, L5_2)
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "FDBE9A053F43C24FD"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.CreateItemObject
+function C31C0AD4340FC665A_prototype:FDBE9A053F43C24FD()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C755044F92F3DC4F2
   L2_2 = L2_2.S34C77FCD0A9E2114
-  L3_2 = A0_2[50]
+  L3_2 = self[50]
   L3_2 = L3_2.itemTableId
   L2_2 = L2_2(L3_2)
-  A0_2[65] = true
-  A0_2[66] = true
-  A0_2[67] = true
+  self[65] = true
+  self[66] = true
+  self[67] = true
   L3_2 = L2_2.itemObjectName
   if nil ~= L3_2 then
     L3_2 = L2_2.itemObjectName
     if "" ~= L3_2 then
-      A0_2[65] = false
+      self[65] = false
       L3_2 = C1DB14DCC9D7634FA
       L3_2 = L3_2.new
       
@@ -452,7 +433,7 @@ function L70_1(A0_2)
       
       L5_2 = "LoadItemObject"
       L3_2 = L3_2(L4_2, L5_2)
-      L4_2 = A0_2[52]
+      L4_2 = self[52]
       L5_2 = L4_2
       L4_2 = L4_2.push
       L6_2 = L3_2
@@ -472,7 +453,7 @@ function L70_1(A0_2)
     
     L5_2 = "RemoveLoadItem"
     L3_2 = L3_2(L4_2, L5_2)
-    L4_2 = A0_2[52]
+    L4_2 = self[52]
     L5_2 = L4_2
     L4_2 = L4_2.push
     L6_2 = L3_2
@@ -482,7 +463,7 @@ function L70_1(A0_2)
   if nil ~= L3_2 then
     L3_2 = L2_2.boxObjectName
     if "" ~= L3_2 then
-      A0_2[66] = false
+      self[66] = false
       L3_2 = C1DB14DCC9D7634FA
       L3_2 = L3_2.new
       
@@ -496,7 +477,7 @@ function L70_1(A0_2)
       
       L5_2 = "LoadBoxObject"
       L3_2 = L3_2(L4_2, L5_2)
-      L4_2 = A0_2[52]
+      L4_2 = self[52]
       L5_2 = L4_2
       L4_2 = L4_2.push
       L6_2 = L3_2
@@ -516,7 +497,7 @@ function L70_1(A0_2)
     
     L5_2 = "RemoveLoadBox"
     L3_2 = L3_2(L4_2, L5_2)
-    L4_2 = A0_2[52]
+    L4_2 = self[52]
     L5_2 = L4_2
     L4_2 = L4_2.push
     L6_2 = L3_2
@@ -526,7 +507,7 @@ function L70_1(A0_2)
   if nil ~= L3_2 then
     L3_2 = L2_2.effectName
     if "" ~= L3_2 then
-      A0_2[67] = false
+      self[67] = false
       L3_2 = C1DB14DCC9D7634FA
       L3_2 = L3_2.new
       
@@ -540,7 +521,7 @@ function L70_1(A0_2)
       
       L5_2 = "LoadEffect"
       L3_2 = L3_2(L4_2, L5_2)
-      L4_2 = A0_2[52]
+      L4_2 = self[52]
       L5_2 = L4_2
       L4_2 = L4_2.push
       L6_2 = L3_2
@@ -560,7 +541,7 @@ function L70_1(A0_2)
     
     L5_2 = "RemoveLoadEffect"
     L3_2 = L3_2(L4_2, L5_2)
-    L4_2 = A0_2[52]
+    L4_2 = self[52]
     L5_2 = L4_2
     L4_2 = L4_2.push
     L6_2 = L3_2
@@ -568,83 +549,71 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F5F07F37BC0FCA57D"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.RemoveItemObject
+function C31C0AD4340FC665A_prototype:F5F07F37BC0FCA57D()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[54]
+  L3_2 = self[54]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[54]
+    L2_2 = self[54]
     L3_2 = L2_2
     L2_2 = L2_2.fCDCB600D
     L4_2 = true
     L2_2(L3_2, L4_2)
-    A0_2[54] = nil
-    A0_2[55] = nil
+    self[54] = nil
+    self[55] = nil
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F5CECEDF31F836771"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.RemoveBoxObject
+function C31C0AD4340FC665A_prototype:F5CECEDF31F836771()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[57]
+  L3_2 = self[57]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[57]
+    L2_2 = self[57]
     L3_2 = L2_2
     L2_2 = L2_2.fCDCB600D
     L4_2 = true
     L2_2(L3_2, L4_2)
-    A0_2[57] = nil
-    A0_2[58] = nil
+    self[57] = nil
+    self[58] = nil
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F0B8F5F942901F7BB"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.RemoveEffectObject
+function C31C0AD4340FC665A_prototype:F0B8F5F942901F7BB()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[60]
+  L3_2 = self[60]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[60]
+    L2_2 = self[60]
     L3_2 = L2_2
     L2_2 = L2_2.fCDCB600D
     L4_2 = true
     L2_2(L3_2, L4_2)
-    A0_2[60] = nil
-    A0_2[61] = nil
+    self[60] = nil
+    self[61] = nil
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "FD0486AAD8B5EBEFA"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.removeLoadItem
+function C31C0AD4340FC665A_prototype:FD0486AAD8B5EBEFA()
   local L1_2, L2_2
   while true do
-    L1_2 = A0_2[53]
+    L1_2 = self[53]
     if not L1_2 then
       break
     end
@@ -652,19 +621,16 @@ function L70_1(A0_2)
     L1_2 = L1_2.S12F63EE47FFCB183
     L1_2()
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F5F07F37BC0FCA57D
+  L2_2 = self
+  L1_2 = self.F5F07F37BC0FCA57D
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F3E18460E6D7B756E"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.removeLoadBox
+function C31C0AD4340FC665A_prototype:F3E18460E6D7B756E()
   local L1_2, L2_2
   while true do
-    L1_2 = A0_2[56]
+    L1_2 = self[56]
     if not L1_2 then
       break
     end
@@ -672,19 +638,16 @@ function L70_1(A0_2)
     L1_2 = L1_2.S12F63EE47FFCB183
     L1_2()
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F5CECEDF31F836771
+  L2_2 = self
+  L1_2 = self.F5CECEDF31F836771
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F316A54795707B818"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.removeLoadEffect
+function C31C0AD4340FC665A_prototype:F316A54795707B818()
   local L1_2, L2_2
   while true do
-    L1_2 = A0_2[59]
+    L1_2 = self[59]
     if not L1_2 then
       break
     end
@@ -692,16 +655,13 @@ function L70_1(A0_2)
     L1_2 = L1_2.S12F63EE47FFCB183
     L1_2()
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F0B8F5F942901F7BB
+  L2_2 = self
+  L1_2 = self.F0B8F5F942901F7BB
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F0E205E50B3446746"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.loadObject
+function C31C0AD4340FC665A_prototype:F0E205E50B3446746(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L4_2 = c451059A3
   L4_2 = L4_2.f5776B6C6
@@ -730,7 +690,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
   
   L6_2(L7_2, L8_2)
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L6_2
   L6_2 = L6_2.f462C9B70
   L6_2 = L6_2(L7_2)
@@ -770,7 +730,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
   
   L7_2(L8_2, L9_2)
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.f462C9B70
   L7_2 = L7_2(L8_2)
@@ -818,14 +778,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F59AAC949B9613FD9"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.loadItemObject
+function C31C0AD4340FC665A_prototype:F59AAC949B9613FD9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   while true do
-    L2_2 = A0_2[53]
+    L2_2 = self[53]
     if not L2_2 then
       break
     end
@@ -837,7 +794,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = "SeriItem_"
   L2_2 = L2_2(L3_2)
   L3_2 = L31_1.string
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.fE9C29DA1
   L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L4_2(L5_2)
@@ -846,37 +803,37 @@ function L70_1(A0_2, A1_2)
   L3_2 = nil
   L4_2 = c016374C1
   L4_2 = L4_2.f8C7D4F4D
-  L5_2 = A0_2[54]
+  L5_2 = self[54]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L4_2 = A0_2[54]
+    L4_2 = self[54]
     L5_2 = L4_2
     L4_2 = L4_2.fE9C29DA1
     L4_2 = L4_2(L5_2)
     if L4_2 == L2_2 then
-      A0_2[65] = true
+      self[65] = true
       return
     end
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F5F07F37BC0FCA57D
+  L5_2 = self
+  L4_2 = self.F5F07F37BC0FCA57D
   L4_2(L5_2)
-  L4_2 = A0_2[50]
+  L4_2 = self[50]
   L4_2 = L4_2.progress
   if 2 == L4_2 then
-    A0_2[65] = true
-    A0_2[53] = false
+    self[65] = true
+    self[53] = false
     return
   end
-  A0_2[53] = true
+  self[53] = true
   
   function L4_2()
     local L0_3, L1_3
     L0_3 = nil
     L1_3 = A1_2
     if nil == L1_3 then
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[50]
     else
       L0_3 = A1_2
@@ -889,8 +846,8 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2.S05C70BE6959094E6
   L6_2 = L4_2.venueTableId
   L5_2 = L5_2(L6_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.F0E205E50B3446746
+  L7_2 = self
+  L6_2 = self.F0E205E50B3446746
   L8_2 = C755044F92F3DC4F2
   L8_2 = L8_2.S34C77FCD0A9E2114
   L9_2 = L4_2.itemTableId
@@ -899,35 +856,35 @@ function L70_1(A0_2, A1_2)
   L9_2 = L2_2
   L10_2 = L5_2.itemPositionObjectName
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  A0_2[54] = L6_2
+  self[54] = L6_2
   L6_2 = nil
   L7_2 = c016374C1
   L7_2 = L7_2.f8C7D4F4D
-  L8_2 = A0_2[54]
+  L8_2 = self[54]
   L9_2 = L6_2
   L7_2 = L7_2(L8_2, L9_2)
   if L7_2 then
     L7_2 = cECB91E31
     L7_2 = L7_2.fB41FD22F
-    L8_2 = A0_2[54]
+    L8_2 = self[54]
     L7_2 = L7_2(L8_2)
-    A0_2[55] = L7_2
+    self[55] = L7_2
     L7_2 = nil
     L8_2 = cECB91E31
     L8_2 = L8_2.f04ACC3F2
-    L9_2 = A0_2[55]
+    L9_2 = self[55]
     L10_2 = L7_2
     L8_2 = L8_2(L9_2, L10_2)
     if L8_2 then
       L8_2 = L5_2.isEventOnly
       if not L8_2 then
-        L8_2 = A0_2[55]
+        L8_2 = self[55]
         L9_2 = L8_2
         L8_2 = L8_2.f949BDB20
         L10_2 = true
         L11_2 = "default"
         L8_2(L9_2, L10_2, L11_2)
-        L8_2 = A0_2[55]
+        L8_2 = self[55]
         L9_2 = L8_2
         L8_2 = L8_2.fB619BC7D
         L10_2 = "ObjectAlpha"
@@ -938,18 +895,15 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  A0_2[53] = false
-  A0_2[65] = true
+  self[53] = false
+  self[65] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "FD2FDE07D6C996805"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.loadBoxObject
+function C31C0AD4340FC665A_prototype:FD2FDE07D6C996805(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   while true do
-    L2_2 = A0_2[56]
+    L2_2 = self[56]
     if not L2_2 then
       break
     end
@@ -961,7 +915,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = "SeriBox_"
   L2_2 = L2_2(L3_2)
   L3_2 = L31_1.string
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.fE9C29DA1
   L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L4_2(L5_2)
@@ -970,30 +924,30 @@ function L70_1(A0_2, A1_2)
   L3_2 = nil
   L4_2 = c016374C1
   L4_2 = L4_2.f8C7D4F4D
-  L5_2 = A0_2[57]
+  L5_2 = self[57]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L4_2 = A0_2[57]
+    L4_2 = self[57]
     L5_2 = L4_2
     L4_2 = L4_2.fE9C29DA1
     L4_2 = L4_2(L5_2)
     if L4_2 == L2_2 then
-      A0_2[66] = true
+      self[66] = true
       return
     end
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F5CECEDF31F836771
+  L5_2 = self
+  L4_2 = self.F5CECEDF31F836771
   L4_2(L5_2)
-  A0_2[56] = true
+  self[56] = true
   
   function L4_2()
     local L0_3, L1_3
     L0_3 = nil
     L1_3 = A1_2
     if nil == L1_3 then
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[50]
     else
       L0_3 = A1_2
@@ -1006,8 +960,8 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2.S05C70BE6959094E6
   L6_2 = L4_2.venueTableId
   L5_2 = L5_2(L6_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.F0E205E50B3446746
+  L7_2 = self
+  L6_2 = self.F0E205E50B3446746
   L8_2 = C755044F92F3DC4F2
   L8_2 = L8_2.S34C77FCD0A9E2114
   L9_2 = L4_2.itemTableId
@@ -1017,7 +971,7 @@ function L70_1(A0_2, A1_2)
   L10_2 = "SeriBox_"
   L9_2 = L9_2(L10_2)
   L10_2 = L31_1.string
-  L11_2 = A0_2[1]
+  L11_2 = self[1]
   L12_2 = L11_2
   L11_2 = L11_2.fE9C29DA1
   L11_2, L12_2, L13_2 = L11_2(L12_2)
@@ -1025,35 +979,35 @@ function L70_1(A0_2, A1_2)
   L9_2 = L9_2 .. L10_2
   L10_2 = L5_2.itemPositionObjectName
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  A0_2[57] = L6_2
+  self[57] = L6_2
   L6_2 = nil
   L7_2 = c016374C1
   L7_2 = L7_2.f8C7D4F4D
-  L8_2 = A0_2[57]
+  L8_2 = self[57]
   L9_2 = L6_2
   L7_2 = L7_2(L8_2, L9_2)
   if L7_2 then
     L7_2 = cECB91E31
     L7_2 = L7_2.fB41FD22F
-    L8_2 = A0_2[57]
+    L8_2 = self[57]
     L7_2 = L7_2(L8_2)
-    A0_2[58] = L7_2
+    self[58] = L7_2
     L7_2 = nil
     L8_2 = cECB91E31
     L8_2 = L8_2.f04ACC3F2
-    L9_2 = A0_2[58]
+    L9_2 = self[58]
     L10_2 = L7_2
     L8_2 = L8_2(L9_2, L10_2)
     if L8_2 then
       L8_2 = L5_2.isEventOnly
       if not L8_2 then
-        L8_2 = A0_2[58]
+        L8_2 = self[58]
         L9_2 = L8_2
         L8_2 = L8_2.f949BDB20
         L10_2 = true
         L11_2 = "default"
         L8_2(L9_2, L10_2, L11_2)
-        L8_2 = A0_2[58]
+        L8_2 = self[58]
         L9_2 = L8_2
         L8_2 = L8_2.fB619BC7D
         L10_2 = "ObjectAlpha"
@@ -1064,18 +1018,15 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  A0_2[56] = false
-  A0_2[66] = true
+  self[56] = false
+  self[66] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F0030CC3CEBC35180"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.loadEffect
+function C31C0AD4340FC665A_prototype:F0030CC3CEBC35180(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   while true do
-    L2_2 = A0_2[59]
+    L2_2 = self[59]
     if not L2_2 then
       break
     end
@@ -1087,7 +1038,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = "SeriEffect_"
   L2_2 = L2_2(L3_2)
   L3_2 = L31_1.string
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.fE9C29DA1
   L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L4_2(L5_2)
@@ -1096,37 +1047,37 @@ function L70_1(A0_2, A1_2)
   L3_2 = nil
   L4_2 = c016374C1
   L4_2 = L4_2.f8C7D4F4D
-  L5_2 = A0_2[60]
+  L5_2 = self[60]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L4_2 = A0_2[60]
+    L4_2 = self[60]
     L5_2 = L4_2
     L4_2 = L4_2.fE9C29DA1
     L4_2 = L4_2(L5_2)
     if L4_2 == L2_2 then
-      A0_2[67] = true
+      self[67] = true
       return
     end
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F0B8F5F942901F7BB
+  L5_2 = self
+  L4_2 = self.F0B8F5F942901F7BB
   L4_2(L5_2)
-  L4_2 = A0_2[50]
+  L4_2 = self[50]
   L4_2 = L4_2.progress
   if 2 == L4_2 then
-    A0_2[67] = true
-    A0_2[59] = false
+    self[67] = true
+    self[59] = false
     return
   end
-  A0_2[59] = true
+  self[59] = true
   
   function L4_2()
     local L0_3, L1_3
     L0_3 = nil
     L1_3 = A1_2
     if nil == L1_3 then
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[50]
     else
       L0_3 = A1_2
@@ -1139,8 +1090,8 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2.S05C70BE6959094E6
   L6_2 = L4_2.venueTableId
   L5_2 = L5_2(L6_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.F0E205E50B3446746
+  L7_2 = self
+  L6_2 = self.F0E205E50B3446746
   L8_2 = C755044F92F3DC4F2
   L8_2 = L8_2.S34C77FCD0A9E2114
   L9_2 = L4_2.itemTableId
@@ -1150,7 +1101,7 @@ function L70_1(A0_2, A1_2)
   L10_2 = "SeriEffect_"
   L9_2 = L9_2(L10_2)
   L10_2 = L31_1.string
-  L11_2 = A0_2[1]
+  L11_2 = self[1]
   L12_2 = L11_2
   L11_2 = L11_2.fE9C29DA1
   L11_2, L12_2, L13_2 = L11_2(L12_2)
@@ -1158,35 +1109,35 @@ function L70_1(A0_2, A1_2)
   L9_2 = L9_2 .. L10_2
   L10_2 = L5_2.itemPositionObjectName
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  A0_2[60] = L6_2
+  self[60] = L6_2
   L6_2 = nil
   L7_2 = c016374C1
   L7_2 = L7_2.f8C7D4F4D
-  L8_2 = A0_2[60]
+  L8_2 = self[60]
   L9_2 = L6_2
   L7_2 = L7_2(L8_2, L9_2)
   if L7_2 then
     L7_2 = cECB91E31
     L7_2 = L7_2.fB41FD22F
-    L8_2 = A0_2[60]
+    L8_2 = self[60]
     L7_2 = L7_2(L8_2)
-    A0_2[61] = L7_2
+    self[61] = L7_2
     L7_2 = nil
     L8_2 = cECB91E31
     L8_2 = L8_2.f04ACC3F2
-    L9_2 = A0_2[61]
+    L9_2 = self[61]
     L10_2 = L7_2
     L8_2 = L8_2(L9_2, L10_2)
     if L8_2 then
       L8_2 = L5_2.isEventOnly
       if not L8_2 then
-        L8_2 = A0_2[61]
+        L8_2 = self[61]
         L9_2 = L8_2
         L8_2 = L8_2.f949BDB20
         L10_2 = true
         L11_2 = "default"
         L8_2(L9_2, L10_2, L11_2)
-        L8_2 = A0_2[61]
+        L8_2 = self[61]
         L9_2 = L8_2
         L8_2 = L8_2.fB619BC7D
         L10_2 = "ObjectAlpha"
@@ -1197,36 +1148,33 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  A0_2[59] = false
-  A0_2[67] = true
+  self[59] = false
+  self[67] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.PreUpdate
+function C31C0AD4340FC665A_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = C672C3EA3AD5F8F24
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FE94F3E13286232CF
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F0CBE1DDFD502E349
+  L3_2 = self
+  L2_2 = self.F0CBE1DDFD502E349
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F2EBC945A346494F9
+  L3_2 = self
+  L2_2 = self.F2EBC945A346494F9
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F7BCCE4FEF4A3B3B5
+  L3_2 = self
+  L2_2 = self.F7BCCE4FEF4A3B3B5
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = 0
-  L3_2 = A0_2[52]
+  L3_2 = self[52]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -1282,7 +1230,7 @@ function L70_1(A0_2, A1_2)
     L8_2 = L4_2[1]
     L7_2 = L7_2(L8_2)
     if "dead" == L7_2 then
-      L7_2 = A0_2[52]
+      L7_2 = self[52]
       L8_2 = L7_2
       L7_2 = L7_2.remove
       L9_2 = L4_2
@@ -1291,106 +1239,94 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F7BCCE4FEF4A3B3B5"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.updateLegend
+function C31C0AD4340FC665A_prototype:F7BCCE4FEF4A3B3B5(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[49]
+  L2_2 = self[49]
   if not L2_2 then
     return
   end
   L2_2 = C755044F92F3DC4F2
   L2_2 = L2_2.SBDF9959C80D9BE0E
-  L3_2 = A0_2[79]
-  L4_2 = A0_2[50]
+  L3_2 = self[79]
+  L4_2 = self[50]
   L4_2 = L4_2.venueTableId
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[80]
+    L2_2 = self[80]
     L2_2 = L2_2 + 1
-    A0_2[80] = L2_2
+    self[80] = L2_2
   end
-  L2_2 = A0_2[79]
+  L2_2 = self[79]
   L2_2 = L2_2 + 1
-  A0_2[79] = L2_2
-  L2_2 = A0_2[79]
+  self[79] = L2_2
+  L2_2 = self[79]
   L3_2 = C755044F92F3DC4F2
   L3_2 = L3_2.S6D097F802FB0FC8D
   L3_2 = L3_2()
   if L2_2 >= L3_2 then
     L2_2 = C755044F92F3DC4F2
     L2_2 = L2_2.SC254FD635D6338AF
-    L3_2 = A0_2[50]
+    L3_2 = self[50]
     L2_2 = L2_2(L3_2)
     if not L2_2 then
       L2_2 = C755044F92F3DC4F2
       L2_2 = L2_2.SF74B9E4A486C06DD
-      L3_2 = A0_2[50]
+      L3_2 = self[50]
       L3_2 = L3_2.venueTableId
       L2_2(L3_2)
     else
-      L2_2 = A0_2[50]
+      L2_2 = self[50]
       L2_2 = L2_2.itemTableId
       if 0 == L2_2 then
-        L2_2 = A0_2[80]
+        L2_2 = self[80]
         if L2_2 > 0 then
           L2_2 = C755044F92F3DC4F2
           L2_2 = L2_2.SF74B9E4A486C06DD
-          L3_2 = A0_2[50]
+          L3_2 = self[50]
           L3_2 = L3_2.venueTableId
           L2_2(L3_2)
         end
       else
-        L2_2 = A0_2[80]
+        L2_2 = self[80]
         if 0 == L2_2 then
           L2_2 = C755044F92F3DC4F2
           L2_2 = L2_2.SF74B9E4A486C06DD
-          L3_2 = A0_2[50]
+          L3_2 = self[50]
           L3_2 = L3_2.venueTableId
           L2_2(L3_2)
         end
       end
     end
-    A0_2[79] = 0
-    A0_2[80] = 0
+    self[79] = 0
+    self[80] = 0
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "FD41C00E3BD50422A"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.ResetVenueUpdate
+function C31C0AD4340FC665A_prototype:FD41C00E3BD50422A()
   local L1_2
-  A0_2[77] = false
+  self[77] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F116CBD27A010DFEC"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.F116CBD27A010DFEC
+function C31C0AD4340FC665A_prototype:F116CBD27A010DFEC()
   local L1_2
-  A0_2[77] = true
+  self[77] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F5C5E9ECB8CC263C5"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.SetDitherRate
+function C31C0AD4340FC665A_prototype:F5C5E9ECB8CC263C5(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = nil
   L3_2 = cECB91E31
   L3_2 = L3_2.f04ACC3F2
-  L4_2 = A0_2[62]
+  L4_2 = self[62]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = 0
-    L4_2 = A0_2[63]
+    L4_2 = self[63]
     while true do
       L5_2 = L4_2.length
       if not (L3_2 < L5_2) then
@@ -1403,13 +1339,13 @@ function L70_1(A0_2, A1_2)
         if nil == L5_2 then
           L6_2 = ""
         end
-        L7_2 = A0_2[62]
+        L7_2 = self[62]
         L8_2 = L7_2
         L7_2 = L7_2.f949BDB20
         L9_2 = true
         L10_2 = L6_2
         L7_2(L8_2, L9_2, L10_2)
-        L7_2 = A0_2[62]
+        L7_2 = self[62]
         L8_2 = L7_2
         L7_2 = L7_2.fB619BC7D
         L9_2 = "ObjectAlpha"
@@ -1422,7 +1358,7 @@ function L70_1(A0_2, A1_2)
         if nil == L5_2 then
           L6_2 = ""
         end
-        L7_2 = A0_2[62]
+        L7_2 = self[62]
         L8_2 = L7_2
         L7_2 = L7_2.f949BDB20
         L9_2 = false
@@ -1434,39 +1370,39 @@ function L70_1(A0_2, A1_2)
   L3_2 = nil
   L4_2 = c016374C1
   L4_2 = L4_2.f8C7D4F4D
-  L5_2 = A0_2[54]
+  L5_2 = self[54]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
     L4_2 = nil
     L5_2 = cECB91E31
     L5_2 = L5_2.fB6A00A1B
-    L6_2 = A0_2[55]
+    L6_2 = self[55]
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
     if L5_2 then
       L5_2 = cECB91E31
       L5_2 = L5_2.fB41FD22F
-      L6_2 = A0_2[54]
+      L6_2 = self[54]
       L5_2 = L5_2(L6_2)
-      A0_2[55] = L5_2
+      self[55] = L5_2
     end
   end
   L4_2 = nil
   L5_2 = cECB91E31
   L5_2 = L5_2.f04ACC3F2
-  L6_2 = A0_2[55]
+  L6_2 = self[55]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
     if A1_2 < 1.0 then
-      L5_2 = A0_2[55]
+      L5_2 = self[55]
       L6_2 = L5_2
       L5_2 = L5_2.f949BDB20
       L7_2 = true
       L8_2 = "default"
       L5_2(L6_2, L7_2, L8_2)
-      L5_2 = A0_2[55]
+      L5_2 = self[55]
       L6_2 = L5_2
       L5_2 = L5_2.fB619BC7D
       L7_2 = "ObjectAlpha"
@@ -1475,7 +1411,7 @@ function L70_1(A0_2, A1_2)
       L10_2 = ""
       L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
     else
-      L5_2 = A0_2[55]
+      L5_2 = self[55]
       L6_2 = L5_2
       L5_2 = L5_2.f949BDB20
       L7_2 = false
@@ -1486,39 +1422,39 @@ function L70_1(A0_2, A1_2)
   L5_2 = nil
   L6_2 = c016374C1
   L6_2 = L6_2.f8C7D4F4D
-  L7_2 = A0_2[57]
+  L7_2 = self[57]
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
   if L6_2 then
     L6_2 = nil
     L7_2 = cECB91E31
     L7_2 = L7_2.fB6A00A1B
-    L8_2 = A0_2[58]
+    L8_2 = self[58]
     L9_2 = L6_2
     L7_2 = L7_2(L8_2, L9_2)
     if L7_2 then
       L7_2 = cECB91E31
       L7_2 = L7_2.fB41FD22F
-      L8_2 = A0_2[57]
+      L8_2 = self[57]
       L7_2 = L7_2(L8_2)
-      A0_2[58] = L7_2
+      self[58] = L7_2
     end
   end
   L6_2 = nil
   L7_2 = cECB91E31
   L7_2 = L7_2.f04ACC3F2
-  L8_2 = A0_2[58]
+  L8_2 = self[58]
   L9_2 = L6_2
   L7_2 = L7_2(L8_2, L9_2)
   if L7_2 then
     if A1_2 < 1.0 then
-      L7_2 = A0_2[58]
+      L7_2 = self[58]
       L8_2 = L7_2
       L7_2 = L7_2.f949BDB20
       L9_2 = true
       L10_2 = "default"
       L7_2(L8_2, L9_2, L10_2)
-      L7_2 = A0_2[58]
+      L7_2 = self[58]
       L8_2 = L7_2
       L7_2 = L7_2.fB619BC7D
       L9_2 = "ObjectAlpha"
@@ -1527,7 +1463,7 @@ function L70_1(A0_2, A1_2)
       L12_2 = ""
       L7_2(L8_2, L9_2, L10_2, L11_2, L12_2)
     else
-      L7_2 = A0_2[58]
+      L7_2 = self[58]
       L8_2 = L7_2
       L7_2 = L7_2.f949BDB20
       L9_2 = false
@@ -1538,39 +1474,39 @@ function L70_1(A0_2, A1_2)
   L7_2 = nil
   L8_2 = c016374C1
   L8_2 = L8_2.f8C7D4F4D
-  L9_2 = A0_2[60]
+  L9_2 = self[60]
   L10_2 = L7_2
   L8_2 = L8_2(L9_2, L10_2)
   if L8_2 then
     L8_2 = nil
     L9_2 = cECB91E31
     L9_2 = L9_2.fB6A00A1B
-    L10_2 = A0_2[61]
+    L10_2 = self[61]
     L11_2 = L8_2
     L9_2 = L9_2(L10_2, L11_2)
     if L9_2 then
       L9_2 = cECB91E31
       L9_2 = L9_2.fB41FD22F
-      L10_2 = A0_2[60]
+      L10_2 = self[60]
       L9_2 = L9_2(L10_2)
-      A0_2[61] = L9_2
+      self[61] = L9_2
     end
   end
   L8_2 = nil
   L9_2 = cECB91E31
   L9_2 = L9_2.f04ACC3F2
-  L10_2 = A0_2[61]
+  L10_2 = self[61]
   L11_2 = L8_2
   L9_2 = L9_2(L10_2, L11_2)
   if L9_2 then
     if A1_2 < 1.0 then
-      L9_2 = A0_2[61]
+      L9_2 = self[61]
       L10_2 = L9_2
       L9_2 = L9_2.f949BDB20
       L11_2 = true
       L12_2 = "default"
       L9_2(L10_2, L11_2, L12_2)
-      L9_2 = A0_2[61]
+      L9_2 = self[61]
       L10_2 = L9_2
       L9_2 = L9_2.fB619BC7D
       L11_2 = "ObjectAlpha"
@@ -1579,7 +1515,7 @@ function L70_1(A0_2, A1_2)
       L14_2 = ""
       L9_2(L10_2, L11_2, L12_2, L13_2, L14_2)
     else
-      L9_2 = A0_2[61]
+      L9_2 = self[61]
       L10_2 = L9_2
       L9_2 = L9_2.f949BDB20
       L11_2 = false
@@ -1589,13 +1525,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F7540AD9112902649"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.ShowModel
+function C31C0AD4340FC665A_prototype:F7540AD9112902649()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = nil
   L3_2 = cECB91E31
   L3_2 = L3_2.fB6A00A1B
@@ -1728,13 +1661,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F90CFBECCB93B7402"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.HideModel
+function C31C0AD4340FC665A_prototype:F90CFBECCB93B7402()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = nil
   L3_2 = cECB91E31
   L3_2 = L3_2.fB6A00A1B
@@ -1867,13 +1797,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F5164B2636022E819"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.F5164B2636022E819
+function C31C0AD4340FC665A_prototype:F5164B2636022E819()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = false
   L3_2 = nil
   L4_2 = cECB91E31
@@ -1969,20 +1896,17 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F03EB18C0E53A3727"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.EnablePhysics
+function C31C0AD4340FC665A_prototype:F03EB18C0E53A3727()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = nil
   L2_2 = c7C4EA23C
   L2_2 = L2_2.fAACBFED0
-  L3_2 = A0_2[64]
+  L3_2 = self[64]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[64]
+    L2_2 = self[64]
     L3_2 = 0
     L5_2 = L2_2
     L4_2 = L2_2.f6E6D652B
@@ -2004,20 +1928,17 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "FA20F65460CF1D9B8"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.DisablePhysics
+function C31C0AD4340FC665A_prototype:FA20F65460CF1D9B8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = nil
   L2_2 = c7C4EA23C
   L2_2 = L2_2.fAACBFED0
-  L3_2 = A0_2[64]
+  L3_2 = self[64]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[64]
+    L2_2 = self[64]
     L3_2 = 0
     L5_2 = L2_2
     L4_2 = L2_2.f6E6D652B
@@ -2039,19 +1960,16 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "FE349B1AE2D3D0F86"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.ShowPopup
+function C31C0AD4340FC665A_prototype:FE349B1AE2D3D0F86()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F3E1E41BEC724D3D9
-  L3_2 = A0_2[50]
+  L2_2 = self
+  L1_2 = self.F3E1E41BEC724D3D9
+  L3_2 = self[50]
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = C755044F92F3DC4F2
   L2_2 = L2_2.S05C70BE6959094E6
-  L3_2 = A0_2[50]
+  L3_2 = self[50]
   L3_2 = L3_2.venueTableId
   L2_2 = L2_2(L3_2)
   L3_2 = CA529F4EF201AFCCC
@@ -2062,13 +1980,13 @@ function L70_1(A0_2)
   L5_2 = 9
   L6_2 = C755044F92F3DC4F2
   L6_2 = L6_2.S34C77FCD0A9E2114
-  L7_2 = A0_2[50]
+  L7_2 = self[50]
   L7_2 = L7_2.itemTableId
   L6_2 = L6_2(L7_2)
   L6_2 = L6_2.itemId
   L7_2 = 1
   L3_2(L4_2, L5_2, L6_2, L7_2)
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L3_2 = L3_2.owner
   L4_2 = L3_2
   L3_2 = L3_2.f7360ED03
@@ -2083,7 +2001,7 @@ function L70_1(A0_2)
   L6_2[3] = L9_2
   L7_2 = C9B54BC04DD492B6D
   L7_2 = L7_2.S45F2EF24C3E8120F
-  L8_2 = A0_2[7]
+  L8_2 = self[7]
   L8_2 = L8_2.owner
   L9_2 = L8_2
   L8_2 = L8_2.fE9C29DA1
@@ -2097,15 +2015,12 @@ function L70_1(A0_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F95851FE85450DB3B"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.ClosePopup
+function C31C0AD4340FC665A_prototype:F95851FE85450DB3B()
   local L1_2, L2_2, L3_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S4846844FA403A98B
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L2_2 = L2_2.owner
   L3_2 = L2_2
   L2_2 = L2_2.fE9C29DA1
@@ -2113,15 +2028,12 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F0CBE1DDFD502E349"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.updateState
+function C31C0AD4340FC665A_prototype:F0CBE1DDFD502E349(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[76]
+  L2_2 = self[76]
   if nil ~= L2_2 then
-    L2_2 = A0_2[76]
+    L2_2 = self[76]
     L3_2 = L2_2
     L2_2 = L2_2.FE94F3E13286232CF
     L4_2 = A1_2
@@ -2129,48 +2041,39 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F28EAF3B3AA178E3E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.ChangeState
+function C31C0AD4340FC665A_prototype:F28EAF3B3AA178E3E(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[76]
+  L2_2 = self[76]
   if nil ~= L2_2 then
-    L2_2 = A0_2[76]
+    L2_2 = self[76]
     L3_2 = L2_2
     L2_2 = L2_2.F6D1EF40E74B6E9A4
     L2_2(L3_2)
   end
-  A0_2[76] = A1_2
-  L2_2 = A0_2[76]
+  self[76] = A1_2
+  L2_2 = self[76]
   if nil ~= L2_2 then
-    L2_2 = A0_2[76]
+    L2_2 = self[76]
     L3_2 = L2_2
     L2_2 = L2_2.F7A3D296366E973CB
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F29DE5D2B03B9CA57"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.F29DE5D2B03B9CA57
+function C31C0AD4340FC665A_prototype:F29DE5D2B03B9CA57()
   local L1_2
-  L1_2 = A0_2[49]
+  L1_2 = self[49]
   if L1_2 then
-    A0_2[78] = true
+    self[78] = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F2EBC945A346494F9"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.F2EBC945A346494F9
+function C31C0AD4340FC665A_prototype:F2EBC945A346494F9(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[78]
+  L2_2 = self[78]
   if not L2_2 then
     return
   end
@@ -2184,33 +2087,27 @@ function L70_1(A0_2, A1_2)
   end
   L2_2 = c2EA22DC9
   L2_2 = L2_2.f3F6B057D
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = true
   L2_2(L3_2, L4_2)
-  A0_2[78] = false
+  self[78] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "F2BB488D5CD248B2F"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.F2BB488D5CD248B2F
+function C31C0AD4340FC665A_prototype:F2BB488D5CD248B2F()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F28EAF3B3AA178E3E
-  L3_2 = A0_2[74]
+  L2_2 = self
+  L1_2 = self.F28EAF3B3AA178E3E
+  L3_2 = self[74]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C31C0AD4340FC665A"]["prototype"]
-L69_1 = "FD3EF31766E6D5BF2"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mizu.Gym_mizu_seri_field_mc.FD3EF31766E6D5BF2
+function C31C0AD4340FC665A_prototype:FD3EF31766E6D5BF2()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F28EAF3B3AA178E3E
-  L3_2 = A0_2[75]
+  L2_2 = self
+  L1_2 = self.F28EAF3B3AA178E3E
+  L3_2 = self[75]
   L1_2(L2_2, L3_2)
 end
 

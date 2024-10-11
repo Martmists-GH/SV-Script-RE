@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CEFB9402243239830"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CEFB9402243239830"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFB9402243239830"]
-L69_1 = "__name__"
-L70_1 = "CEFB9402243239830"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFB9402243239830"]
-L69_1 = "SD980FA023150AF4B"
+---@alias CEFB9402243239830 main_ui_shop_wazamachine_ShopWazamachineText
 
-function L70_1()
+---@class main_ui_shop_wazamachine_ShopWazamachineText
+CEFB9402243239830 = L15_1()
+CEFB9402243239830.new = {}
+CEFB9402243239830.__name__ = "CEFB9402243239830"
+--- main.ui.shop_wazamachine.ShopWazamachineText.YesNoContextMenuStart
+function CEFB9402243239830.SD980FA023150AF4B()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CF1D9D619D324F233
   L0_2 = L0_2.S44577E0D8E8F3819
@@ -42,11 +33,8 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFB9402243239830"]
-L69_1 = "SA317697A76B05E74"
-
-function L70_1()
+--- main.ui.shop_wazamachine.ShopWazamachineText.AllMessageCloseWait
+function CEFB9402243239830.SA317697A76B05E74()
   local L0_2, L1_2
   L0_2 = CF1D9D619D324F233
   L0_2 = L0_2.S84E00A89DFBC380C

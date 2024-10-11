@@ -1,3 +1,5 @@
+---@class CDC0C248B09066156 : CDC0C248B09066156_prototype
+---@field prototype CDC0C248B09066156_prototype
 L55_1 = _ENV
 L56_1 = "CDC0C248B09066156"
 L57_1 = L15_1
@@ -44,47 +46,42 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CDC0C248B09066156"]
 L69_1 = "__name__"
 L70_1 = "CDC0C248B09066156"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC0C248B09066156"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDC0C248B09066156"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2, A1_2)
+---@class CDC0C248B09066156_prototype
+CDC0C248B09066156_prototype = L15_1()
+CDC0C248B09066156.prototype = CDC0C248B09066156_prototype
+--- CDC0C248B09066156.Load
+function CDC0C248B09066156_prototype:F6C5D0398122A6629(A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "Accel"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "Friction"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "MaxGripAngle"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[6] = L2_2
+  self[6] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "MinGripAngle"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "SelfSpeedMax"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "GravityRate"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[7] = L2_2
+  self[7] = L2_2
 end
 
 L68_1[L69_1] = L70_1

@@ -1,3 +1,6 @@
+---@alias C57802178241C0D20 main_system_game_event_base_BaseUIGameEvent
+
+---@class main_system_game_event_base_BaseUIGameEvent
 L55_1 = _ENV
 L56_1 = "CBFCD8815955F2BA3"
 L57_1 = L15_1

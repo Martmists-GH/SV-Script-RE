@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "CF691A32ECACF4ACF"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CF691A32ECACF4ACF"]
-L69_1 = "new"
-
-function L70_1(A0_2, A1_2)
+---@class CF691A32ECACF4ACF : CF691A32ECACF4ACF_prototype
+---@field prototype CF691A32ECACF4ACF_prototype
+CF691A32ECACF4ACF = L15_1()
+function CF691A32ECACF4ACF.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CF691A32ECACF4ACF
@@ -23,11 +18,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF691A32ECACF4ACF"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CF691A32ECACF4ACF
+function CF691A32ECACF4ACF.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   A0_2[20] = 0
   A0_2[19] = 0
@@ -39,11 +31,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF691A32ECACF4ACF"]
-L69_1 = "__name__"
-L70_1 = "CF691A32ECACF4ACF"
-L68_1[L69_1] = L70_1
+CF691A32ECACF4ACF.__name__ = "CF691A32ECACF4ACF"
 L68_1 = _ENV["CF691A32ECACF4ACF"]
 L69_1 = "SF5277C19AA8AF2E4"
 
@@ -81,28 +69,23 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF691A32ECACF4ACF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF691A32ECACF4ACF"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CF691A32ECACF4ACF_prototype
+CF691A32ECACF4ACF_prototype = L15_1()
+CF691A32ECACF4ACF.prototype = CF691A32ECACF4ACF_prototype
+--- CF691A32ECACF4ACF.onCreate
+function CF691A32ECACF4ACF_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L58_1
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   L2_2 = L2_2.btlView
   L1_2 = L1_2(L2_2)
-  A0_2[18] = L1_2
-  L1_2 = A0_2[18]
+  self[18] = L1_2
+  L1_2 = self[18]
   if nil == L1_2 then
     L1_2 = C2D7F486425487755
     L1_2 = L1_2.new
     L1_2 = L1_2()
-    L2_2 = A0_2[17]
+    L2_2 = self[17]
     L2_2 = L2_2.encountPoke
     L4_2 = L1_2
     L3_2 = L1_2.F6C0CA27ACB2FEEAF
@@ -126,14 +109,14 @@ function L70_1(A0_2)
     L3_2 = L3_2.SB71B95C99899BF49
     L4_2 = L1_2
     L3_2 = L3_2(L4_2)
-    A0_2[18] = L3_2
+    self[18] = L3_2
     L3_2 = C6C53F5DDF74F5897
     L3_2 = L3_2.S8EE5537A8C98172D
     L4_2 = L1_2
     L5_2 = true
     L3_2(L4_2, L5_2)
   end
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   L1_2.paralleled = true
   L1_2 = 12
   L2_2 = CB90497FB1A1A942B
@@ -160,50 +143,47 @@ function L70_1(A0_2)
       L2_2.strParams = L3_2
     end
   end
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2[L1_2] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF691A32ECACF4ACF"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- CF691A32ECACF4ACF.onUpdate
+function CF691A32ECACF4ACF_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2
-  L1_2 = A0_2[19]
+  L1_2 = self[19]
   if 0 == L1_2 then
-    L2_2 = A0_2[18]
+    L2_2 = self[18]
     L3_2 = L2_2
     L2_2 = L2_2.F4D67EEC9E329A2E7
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[19]
+      L2_2 = self[19]
       L2_2 = L2_2 + 1
-      A0_2[19] = L2_2
-      L2_2 = A0_2[17]
+      self[19] = L2_2
+      L2_2 = self[17]
       L2_2 = L2_2.moveCamera
       if L2_2 then
-        A0_2[20] = 1
+        self[20] = 1
       end
     end
   elseif 1 == L1_2 then
-    L2_2 = A0_2[18]
+    L2_2 = self[18]
     L3_2 = L2_2
     L2_2 = L2_2.F4D67EEC9E329A2E7
     L2_2 = L2_2(L3_2)
     if not L2_2 then
-      L2_2 = A0_2[19]
+      L2_2 = self[19]
       L2_2 = L2_2 + 1
-      A0_2[19] = L2_2
+      self[19] = L2_2
       L2_2 = C6C53F5DDF74F5897
       L2_2 = L2_2.S78A4E2BC73E26A22
-      L3_2 = A0_2[18]
+      L3_2 = self[18]
       L2_2(L3_2)
       L2_2 = 2
       return L2_2
     end
   end
-  L2_2 = A0_2[20]
+  L2_2 = self[20]
   if 0 == L2_2 then
   elseif 1 == L2_2 then
     L3_2 = C9F6C325569B7E07F
@@ -219,7 +199,7 @@ function L70_1(A0_2)
     L4_2 = L4_2.f426683B4
     L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2 = L4_2(L5_2)
     L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2)
-    L4_2 = A0_2[18]
+    L4_2 = self[18]
     L4_2 = L4_2[9]
     L4_2 = L4_2[2]
     L6_2 = L3_2
@@ -265,7 +245,7 @@ function L70_1(A0_2)
     L21_2 = L12_2[2]
     L22_2 = L12_2[3]
     L13_2 = L13_2(L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2)
-    L14_2 = A0_2[18]
+    L14_2 = self[18]
     L15_2 = L14_2
     L14_2 = L14_2.F9C61AD53B85A8AA9
     L16_2 = 0
@@ -280,7 +260,7 @@ function L70_1(A0_2)
     L17_2[1] = L18_2
     L17_2[2] = L19_2
     L17_2[3] = L20_2
-    L18_2 = A0_2[18]
+    L18_2 = self[18]
     L19_2 = L18_2
     L18_2 = L18_2.F9C61AD53B85A8AA9
     L20_2 = 1
@@ -340,34 +320,31 @@ function L70_1(A0_2)
     L24_2 = L21_2.Translation
     L25_2 = L21_2.Target
     L22_2(L23_2, L24_2, L25_2)
-    L22_2 = A0_2[20]
+    L22_2 = self[20]
     L22_2 = L22_2 + 1
-    A0_2[20] = L22_2
+    self[20] = L22_2
   elseif 2 == L2_2 then
     L3_2 = C9F6C325569B7E07F
     L3_2 = L3_2.SD6A4A7158737A563
     L3_2()
-    L4_2 = A0_2
-    L3_2 = A0_2.F8DC8F70F656F2F35
+    L4_2 = self
+    L3_2 = self.F8DC8F70F656F2F35
     L5_2 = 0.5
     L3_2(L4_2, L5_2)
     L3_2 = C9F6C325569B7E07F
     L3_2 = L3_2.SAB50B037AF2BC20B
     L4_2 = 0.7
     L3_2(L4_2)
-    L3_2 = A0_2[20]
+    L3_2 = self[20]
     L3_2 = L3_2 + 1
-    A0_2[20] = L3_2
+    self[20] = L3_2
   end
   L3_2 = 0
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF691A32ECACF4ACF"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- CF691A32ECACF4ACF.onFinished
+function CF691A32ECACF4ACF_prototype:F68499476069C0B1E()
   local L1_2
 end
 

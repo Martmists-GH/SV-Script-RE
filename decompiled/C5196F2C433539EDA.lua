@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C5196F2C433539EDA"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C5196F2C433539EDA"]
-L69_1 = "new"
+---@alias C5196F2C433539EDA main_form_change_FormChangeManager
 
-function L70_1(A0_2)
+---@class main_form_change_FormChangeManager : C5196F2C433539EDA_prototype
+---@field prototype C5196F2C433539EDA_prototype
+C5196F2C433539EDA = L15_1()
+function C5196F2C433539EDA.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C5196F2C433539EDA
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C5196F2C433539EDA
+function C5196F2C433539EDA.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C6AE03B39EBF2B897
   L2_2 = L2_2.new
@@ -56,11 +50,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C5196F2C433539EDA"]
 L69_1 = "__name__"
 L70_1 = "C5196F2C433539EDA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]
-L69_1 = "SB21FA562BB1FB817"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.form_change.FormChangeManager.LoadScene
+function C5196F2C433539EDA.SB21FA562BB1FB817(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2
   if nil == A4_2 then
     A4_2 = false
@@ -146,11 +137,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2.S89BB524E93EFC6B3 = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]
-L69_1 = "SD267ACD186DA64DA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.form_change.FormChangeManager.SD267ACD186DA64DA
+function C5196F2C433539EDA.SD267ACD186DA64DA(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2
   if nil == A5_2 then
     A5_2 = false
@@ -233,11 +221,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L6_2.S89BB524E93EFC6B3 = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]
-L69_1 = "S64886ABD075C4D07"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.form_change.FormChangeManager.S64886ABD075C4D07
+function C5196F2C433539EDA.S64886ABD075C4D07(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2
   if nil == A4_2 then
     A4_2 = false
@@ -322,21 +307,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2.S89BB524E93EFC6B3 = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]
-L69_1 = "S2EF3CA050E6A7E61"
-
-function L70_1(A0_2)
+--- main.form_change.FormChangeManager.SetDemoSkipFlag
+function C5196F2C433539EDA.S2EF3CA050E6A7E61(A0_2)
   local L1_2
   L1_2 = C5196F2C433539EDA
   L1_2.SDD61DD0F4032EF15 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]
-L69_1 = "S351A01D17EB26796"
-
-function L70_1()
+--- main.form_change.FormChangeManager.SceneTerminate
+function C5196F2C433539EDA.S351A01D17EB26796()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C5196F2C433539EDA
   L0_2 = L0_2.SE9B0B6B3B6BBDF24
@@ -434,63 +413,45 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]
-L69_1 = "S9828020A812B2A12"
-
-function L70_1()
+--- main.form_change.FormChangeManager.S9828020A812B2A12
+function C5196F2C433539EDA.S9828020A812B2A12()
   local L0_2, L1_2
   L0_2 = C5196F2C433539EDA
   L0_2 = L0_2.S65002DC890035A38
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]
-L69_1 = "SFBA031BFE5CD4DF5"
-
-function L70_1()
+--- main.form_change.FormChangeManager.SFBA031BFE5CD4DF5
+function C5196F2C433539EDA.SFBA031BFE5CD4DF5()
   local L0_2, L1_2
   L0_2 = C5196F2C433539EDA
   L0_2 = L0_2.SCA55381943CDB0A5
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]
-L69_1 = "S2FB05466A7E7AC0F"
-
-function L70_1()
+--- main.form_change.FormChangeManager.S2FB05466A7E7AC0F
+function C5196F2C433539EDA.S2FB05466A7E7AC0F()
   local L0_2, L1_2
   L0_2 = C5196F2C433539EDA
   L0_2 = L0_2.S3D1C431BC3D5757D
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]
-L69_1 = "SE36E658926E612CA"
-
-function L70_1()
+--- main.form_change.FormChangeManager.SE36E658926E612CA
+function C5196F2C433539EDA.SE36E658926E612CA()
   local L0_2, L1_2
   L0_2 = C5196F2C433539EDA
   L0_2 = L0_2.SD4E16B11F9594F7A
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]
-L69_1 = "SE9B0B6B3B6BBDF24"
-
-function L70_1(A0_2)
+--- main.form_change.FormChangeManager.DebugInfo
+function C5196F2C433539EDA.SE9B0B6B3B6BBDF24(A0_2)
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]
-L69_1 = "S0E3838CE593963E2"
-
-function L70_1()
+--- main.form_change.FormChangeManager.CFunc_IsDemo
+function C5196F2C433539EDA.S0E3838CE593963E2()
   local L0_2, L1_2
   L0_2 = C5196F2C433539EDA
   L0_2 = L0_2.SE2916E447C1A3B83
@@ -512,16 +473,11 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+---@class C5196F2C433539EDA_prototype
+C5196F2C433539EDA_prototype = L15_1()
+C5196F2C433539EDA.prototype = C5196F2C433539EDA_prototype
+--- main.form_change.FormChangeManager.Destroy
+function C5196F2C433539EDA_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = C5196F2C433539EDA
   L1_2 = L1_2.S528D054E2F2AE1EE
@@ -532,37 +488,34 @@ function L70_1(A0_2)
     L1_2 = L1_2.F1C2AA00ADAC52EC5
     L1_2(L2_2)
   end
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   if nil ~= L1_2 then
-    L1_2 = A0_2[6]
+    L1_2 = self[6]
     L2_2 = L1_2
     L1_2 = L1_2.F7A10518ACA3668FB
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "F1020EAFD5F411E61"
-
-function L70_1(A0_2)
+--- main.form_change.FormChangeManager.F1020EAFD5F411E61
+function C5196F2C433539EDA_prototype:F1020EAFD5F411E61()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C61F1AB51A219817F
   L1_2 = L1_2.SBA853FBC3CDE1E2F
-  L2_2 = A0_2[23]
+  L2_2 = self[23]
   L3_2 = L2_2
   L2_2 = L2_2.FD45A28F999D20C16
   L2_2(L3_2)
-  L2_2 = A0_2[23]
+  L2_2 = self[23]
   L3_2 = L2_2
   L2_2 = L2_2.F17C1734F39ADA822
   L2_2(L3_2)
-  L2_2 = A0_2[23]
+  L2_2 = self[23]
   L3_2 = L2_2
   L2_2 = L2_2.F5AE5FDC11540902D
   L4_2 = L1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[23]
+  L2_2 = self[23]
   L3_2 = L2_2
   L2_2 = L2_2.FA92E2BD924485F3F
   L4_2 = L1_2
@@ -587,29 +540,26 @@ function L70_1(A0_2)
     L8_2, L9_2 = L8_2(L9_2)
     L6_2(L7_2, L8_2, L9_2)
   end
-  L5_2 = A0_2[23]
+  L5_2 = self[23]
   L6_2 = L5_2
   L5_2 = L5_2.F381896E5DEE6DB92
   L7_2 = L1_2
   L8_2 = L2_2
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[23]
+  L5_2 = self[23]
   L6_2 = L5_2
   L5_2 = L5_2.F3D37CC5CA6225263
   return L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.form_change.FormChangeManager.Setup
+function C5196F2C433539EDA_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = C5196F2C433539EDA
   L3_2 = L3_2.SE9B0B6B3B6BBDF24
   L4_2 = L31_1.string
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.fE9C29DA1
   L5_2, L6_2, L7_2, L8_2, L9_2 = L5_2(L6_2)
@@ -619,22 +569,22 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
   L3_2(L4_2)
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f462C9B70
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.fE9C29DA1
   L3_2 = L3_2(L4_2)
-  A0_2[2] = L3_2
-  A0_2[12] = false
+  self[2] = L3_2
+  self[12] = false
   L3_2 = cAF8D78F3
   L3_2 = L3_2.f37537CF4
   L3_2 = L3_2()
   L4_2 = L3_2
   L3_2 = L3_2.f426683B4
   L3_2 = L3_2(L4_2)
-  A0_2[8] = L3_2
+  self[8] = L3_2
   L3_2 = CA7CF9DA40689C95A
   L3_2 = L3_2.S264F26F6894F3392
   if nil ~= L3_2 then
@@ -1558,7 +1508,7 @@ function L70_1(A0_2, A1_2)
   end
   
   L7_2 = L31_1.string
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = L8_2
   L8_2 = L8_2.fE9C29DA1
   L8_2, L9_2 = L8_2(L9_2)
@@ -1568,16 +1518,13 @@ function L70_1(A0_2, A1_2)
   L8_2 = L8_2(L9_2)
   L7_2 = L7_2 .. L8_2
   L5_2 = L5_2(L6_2, L7_2)
-  A0_2[10] = L5_2
+  self[10] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "F16D35E15B8F75531"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.form_change.FormChangeManager.FormChangeStart
+function C5196F2C433539EDA_prototype:F16D35E15B8F75531(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = C5196F2C433539EDA
   L4_2 = L4_2.SE9B0B6B3B6BBDF24
   L5_2 = "FormChangeDemo_Start"
@@ -1598,7 +1545,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = C5196F2C433539EDA
   L4_2 = L4_2.SDD61DD0F4032EF15
   if not L4_2 then
-    L4_2 = A0_2[6]
+    L4_2 = self[6]
     L5_2 = L4_2
     L4_2 = L4_2.FEA4C6DFD3D68E0A3
     L6_2 = 0
@@ -1743,7 +1690,7 @@ function L70_1(A0_2, A1_2, A2_2)
           L5_2[0] = false
           L6_2 = 1
           L4_2 = L4_2(L5_2, L6_2)
-          L5_2 = A0_2[9]
+          L5_2 = self[9]
           L6_2 = L5_2
           L5_2 = L5_2.F7EED485852A4D25F
           L7_2 = E91D41B47D038D592
@@ -1793,7 +1740,7 @@ function L70_1(A0_2, A1_2, A2_2)
           L4_2 = L4_2.SFBAF1401E92D29CD
           L4_2 = L4_2()
           if 1 == L4_2 then
-            L4_2 = A0_2[12]
+            L4_2 = self[12]
             if L4_2 then
               L4_2 = A1_2[2]
               L5_2 = L4_2
@@ -1803,18 +1750,18 @@ function L70_1(A0_2, A1_2, A2_2)
                 L4_2 = C5196F2C433539EDA
                 L4_2 = L4_2.S9B46CDD544AC0F2F
                 if L4_2 then
-                  L5_2 = A0_2
-                  L4_2 = A0_2.FE81D7516CC50BCFC
+                  L5_2 = self
+                  L4_2 = self.FE81D7516CC50BCFC
                   L6_2 = A1_2
                   L4_2(L5_2, L6_2)
               end
               else
-                L5_2 = A0_2
-                L4_2 = A0_2.F9D25C0BA1A393C61
+                L5_2 = self
+                L4_2 = self.F9D25C0BA1A393C61
                 L6_2 = A1_2
                 L4_2(L5_2, L6_2)
               end
-              A0_2[12] = false
+              self[12] = false
               break
             end
             L4_2 = C02035928BDA1EAC1
@@ -1873,12 +1820,12 @@ function L70_1(A0_2, A1_2, A2_2)
         L5_2 = L5_2.S528D054E2F2AE1EE
         L6_2 = L5_2
         L5_2 = L5_2.F6650451124F7A79E
-        L7_2 = A0_2[5]
+        L7_2 = self[5]
         L8_2 = false
         L5_2(L6_2, L7_2, L8_2)
       end
       L5_2 = false
-      L6_2 = A0_2[9]
+      L6_2 = self[9]
       L7_2 = L6_2
       L6_2 = L6_2.F7EED485852A4D25F
       L8_2 = E91D41B47D038D592
@@ -1901,7 +1848,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L6_2()
       end
     end
-    L5_2 = A0_2[12]
+    L5_2 = self[12]
     if L5_2 then
       L5_2 = A1_2[2]
       L6_2 = L5_2
@@ -1911,31 +1858,28 @@ function L70_1(A0_2, A1_2, A2_2)
         L5_2 = C5196F2C433539EDA
         L5_2 = L5_2.S9B46CDD544AC0F2F
         if L5_2 then
-          L6_2 = A0_2
-          L5_2 = A0_2.FE81D7516CC50BCFC
+          L6_2 = self
+          L5_2 = self.FE81D7516CC50BCFC
           L7_2 = A1_2
           L5_2(L6_2, L7_2)
       end
       else
-        L6_2 = A0_2
-        L5_2 = A0_2.F9D25C0BA1A393C61
+        L6_2 = self
+        L5_2 = self.F9D25C0BA1A393C61
         L7_2 = A1_2
         L5_2(L6_2, L7_2)
       end
     else
-      L6_2 = A0_2
-      L5_2 = A0_2.FBA262F53C2F08AD0
+      L6_2 = self
+      L5_2 = self.FBA262F53C2F08AD0
       L5_2(L6_2)
     end
   end
   ::lbl_185::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "FBA262F53C2F08AD0"
-
-function L70_1(A0_2)
+--- main.form_change.FormChangeManager.FormChangeEnd
+function C5196F2C433539EDA_prototype:FBA262F53C2F08AD0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C5196F2C433539EDA
   L1_2 = L1_2.S9F7C4A0D5B3C51D6
@@ -1944,7 +1888,7 @@ function L70_1(A0_2)
   if L1_2 == L2_2 then
     L1_2 = c467D18B0
     L1_2 = L1_2.fB41FD22F
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L1_2 = L1_2(L2_2)
     L2_2 = nil
     L3_2 = c467D18B0
@@ -1963,19 +1907,19 @@ function L70_1(A0_2)
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = cECB91E31
     L2_2 = L2_2.fB41FD22F
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L2_2 = L2_2(L3_2)
     L3_2 = L2_2
     L2_2 = L2_2.fE08FDDDD
     L4_2 = false
     L2_2(L3_2, L4_2)
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.fFDBC8E95
     L4_2 = 1
@@ -1984,11 +1928,11 @@ function L70_1(A0_2)
     L2_2(L3_2, L4_2, L5_2, L6_2)
     L2_2 = c05424CF6
     L2_2 = L2_2.fAE1D228E
-    L3_2 = A0_2[13]
+    L3_2 = self[13]
     L2_2(L3_2)
     L2_2 = c05424CF6
     L2_2 = L2_2.fAE1D228E
-    L3_2 = A0_2[14]
+    L3_2 = self[14]
     L2_2(L3_2)
   end
   L2_2 = C5196F2C433539EDA
@@ -1996,26 +1940,26 @@ function L70_1(A0_2)
   L3_2 = E8B9FEE2834B98ACE
   L3_2 = L3_2.Field
   if L2_2 == L3_2 then
-    L2_2 = A0_2[20]
+    L2_2 = self[20]
     if L2_2 then
       L2_2 = nil
       L3_2 = c563F1B37
       L3_2 = L3_2.f9E308E89
-      L4_2 = A0_2[19]
+      L4_2 = self[19]
       L5_2 = L2_2
       L3_2 = L3_2(L4_2, L5_2)
       if L3_2 then
-        L3_2 = A0_2[19]
+        L3_2 = self[19]
         L4_2 = L3_2
         L3_2 = L3_2.fFD7B70D7
         L5_2 = true
         L3_2(L4_2, L5_2)
-        L3_2 = A0_2[19]
+        L3_2 = self[19]
         L4_2 = L3_2
         L3_2 = L3_2.fCBC04754
         L5_2 = 4
         L3_2(L4_2, L5_2)
-        L3_2 = A0_2[19]
+        L3_2 = self[19]
         L4_2 = L3_2
         L3_2 = L3_2.fE08FDDDD
         L5_2 = false
@@ -2026,16 +1970,16 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f8C7D4F4D
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.fCDCB600D
     L5_2 = true
     L3_2(L4_2, L5_2)
-    A0_2[5] = nil
+    self[5] = nil
   end
   L3_2 = C5196F2C433539EDA
   L3_2 = L3_2.SE9B0B6B3B6BBDF24
@@ -2043,23 +1987,20 @@ function L70_1(A0_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.form_change.FormChangeManager.PreUpdate
+function C5196F2C433539EDA_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   if nil ~= L2_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L3_2 = L2_2
     L2_2 = L2_2.FD3CF58695CBD5774
     L4_2 = A1_2
     L2_2(L3_2, L4_2)
   end
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   if nil ~= L2_2 then
-    L2_2 = A0_2[9]
+    L2_2 = self[9]
     L3_2 = L2_2
     L2_2 = L2_2.FD3CF58695CBD5774
     L4_2 = A1_2
@@ -2081,35 +2022,32 @@ function L70_1(A0_2, A1_2)
       L2_2(L3_2, L4_2)
     end
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if nil ~= L2_2 then
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = L2_2
     L2_2 = L2_2.F1EEC0C9E6E826C5B
     L4_2 = A1_2
     L2_2(L3_2, L4_2)
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F9C88B7EFD8BB9396
+  L3_2 = self
+  L2_2 = self.F9C88B7EFD8BB9396
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "F9C88B7EFD8BB9396"
-
-function L70_1(A0_2, A1_2)
+--- main.form_change.FormChangeManager.UpdateCoroutine
+function C5196F2C433539EDA_prototype:F9C88B7EFD8BB9396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[10]
+    L3_2 = self[10]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[10]
+      L2_2 = self[10]
       L3_2 = L62_1
       L4_2 = L64_1.pack
       L5_2 = L10_1.coroutine
@@ -2154,15 +2092,15 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[16]
+    L3_2 = self[16]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[16]
+      L2_2 = self[16]
       L3_2 = L62_1
       L4_2 = L64_1.pack
       L5_2 = L10_1.coroutine
@@ -2209,13 +2147,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "F9D25C0BA1A393C61"
-
-function L70_1(A0_2, A1_2)
+--- main.form_change.FormChangeManager.CheckWazaRemember
+function C5196F2C433539EDA_prototype:F9D25C0BA1A393C61(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = C5196F2C433539EDA
   L3_2 = L3_2.SE9B0B6B3B6BBDF24
   L4_2 = "CheckWazaRemember"
@@ -2646,16 +2581,13 @@ function L70_1(A0_2, A1_2)
   
   L6_2 = "\230\138\128\232\166\154\227\129\136"
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[16] = L4_2
+  self[16] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "FE81D7516CC50BCFC"
-
-function L70_1(A0_2, A1_2)
+--- main.form_change.FormChangeManager.FE81D7516CC50BCFC
+function C5196F2C433539EDA_prototype:FE81D7516CC50BCFC(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = C1DB14DCC9D7634FA
   L3_2 = L3_2.new
   
@@ -2766,14 +2698,11 @@ function L70_1(A0_2, A1_2)
   
   L5_2 = "\230\138\128\232\166\154\227\129\136"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[16] = L3_2
+  self[16] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "F9749CBAECA449CB8"
-
-function L70_1(A0_2, A1_2)
+--- main.form_change.FormChangeManager.F9749CBAECA449CB8
+function C5196F2C433539EDA_prototype:F9749CBAECA449CB8(A1_2)
   local L2_2
   if 14 == A1_2 then
     L2_2 = true
@@ -2922,11 +2851,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "F4CA22FA02B6B1450"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.form_change.FormChangeManager.SetActorAnimationStateName
+function C5196F2C433539EDA_prototype:F4CA22FA02B6B1450(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = cE35B3EB3
   L4_2 = L4_2.fB41FD22F
@@ -3019,11 +2945,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "FEB8D4216F59A8B11"
-
-function L70_1(A0_2)
+--- main.form_change.FormChangeManager.CreateTmlObject
+function C5196F2C433539EDA_prototype:FEB8D4216F59A8B11()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = nil
   L2_2 = C5196F2C433539EDA
@@ -3049,7 +2972,7 @@ function L70_1(A0_2)
     L4_2 = L4_2.S760DAE4C5371A78E
     L4_2()
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.f462C9B70
   L4_2 = L4_2(L5_2)
@@ -3072,18 +2995,15 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "F0523F2D1C8F701F6"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.form_change.FormChangeManager.CreatePokemon
+function C5196F2C433539EDA_prototype:F0523F2D1C8F701F6(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A5_2 then
     A5_2 = true
   end
   L6_2 = c05424CF6
   L6_2 = L6_2.fF104BCD4
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.f462C9B70
   L7_2 = L7_2(L8_2)
@@ -3155,7 +3075,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L9_2 = CEA153C6AE12204BC
     L9_2 = L9_2.S694A715E8E781BE1
     L10_2 = L6_2
-    L11_2 = A0_2[15]
+    L11_2 = self[15]
     L9_2 = L9_2(L10_2, L11_2)
     L11_2 = L7_2
     L10_2 = L7_2.fF56461AF
@@ -3169,14 +3089,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "FA23D39922B76B247"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.form_change.FormChangeManager.SetVisible
+function C5196F2C433539EDA_prototype:FA23D39922B76B247(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F807F526B04701D9A
+  L4_2 = self
+  L3_2 = self.F807F526B04701D9A
   L5_2 = A1_2
   L6_2 = A2_2
   L3_2(L4_2, L5_2, L6_2)
@@ -3209,11 +3126,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "F807F526B04701D9A"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.form_change.FormChangeManager.SetEnableDitherFade
+function C5196F2C433539EDA_prototype:F807F526B04701D9A(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = cCC3ADC8A
   L3_2 = L3_2.fB41FD22F
@@ -3241,11 +3155,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "FB4850F4CC0C8992B"
-
-function L70_1(A0_2, A1_2)
+--- main.form_change.FormChangeManager.CheckWaterLayer
+function C5196F2C433539EDA_prototype:FB4850F4CC0C8992B(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C6AE03B39EBF2B897
   L2_2 = L2_2.SC4D570495D988F36
@@ -3273,17 +3184,14 @@ function L70_1(A0_2, A1_2)
   end
   
   L3_2 = L3_2()
-  A0_2[15] = L3_2
-  L3_2 = A0_2[15]
+  self[15] = L3_2
+  L3_2 = self[15]
   L3_2 = 2 == L3_2
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "FC8A7D96437DFB7E9"
-
-function L70_1(A0_2, A1_2)
+--- main.form_change.FormChangeManager.GetStartDemoPosition
+function C5196F2C433539EDA_prototype:FC8A7D96437DFB7E9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L2_2 = A1_2[1]
   L3_2 = A1_2[2]
@@ -3351,11 +3259,8 @@ function L70_1(A0_2, A1_2)
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "FA2B73950D56E50AC"
-
-function L70_1(A0_2)
+--- main.form_change.FormChangeManager.CheckStagingType
+function C5196F2C433539EDA_prototype:FA2B73950D56E50AC()
   local L1_2, L2_2
   L1_2 = C8F93126DACB9F8DD
   L1_2 = L1_2.S93A2C11A3020463D
@@ -3375,11 +3280,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5196F2C433539EDA"]["prototype"]
-L69_1 = "FD26F1AED82BB47EE"
-
-function L70_1(A0_2, A1_2)
+--- main.form_change.FormChangeManager.FD26F1AED82BB47EE
+function C5196F2C433539EDA_prototype:FD26F1AED82BB47EE(A1_2)
   local L2_2, L3_2
   L3_2 = A1_2
   L2_2 = A1_2.f0BD5134F

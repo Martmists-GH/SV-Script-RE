@@ -1,3 +1,7 @@
+---@alias C7D2E388ADCD67626 main_event_debug_DebugYoshidaTakaya
+
+---@class main_event_debug_DebugYoshidaTakaya : C7D2E388ADCD67626_prototype
+---@field prototype C7D2E388ADCD67626_prototype
 L55_1 = _ENV
 L56_1 = "C7D2E388ADCD67626"
 L57_1 = L15_1
@@ -46,16 +50,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C7D2E388ADCD67626"]
 L69_1 = "__name__"
 L70_1 = "C7D2E388ADCD67626"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7D2E388ADCD67626"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7D2E388ADCD67626"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C7D2E388ADCD67626_prototype
+C7D2E388ADCD67626_prototype = L15_1()
+C7D2E388ADCD67626.prototype = C7D2E388ADCD67626_prototype
+--- main.event.debug.DebugYoshidaTakaya.mainBody
+function C7D2E388ADCD67626_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2
   L1_2 = C7D2E388ADCD67626
   L1_2 = L1_2.SCDC96F60B754A957
@@ -71,43 +70,34 @@ function L70_1(A0_2)
   L1_2 = C7D2E388ADCD67626
   L1_2 = L1_2.S68FEC5E119E69094
   if L1_2 > 120 then
-    L1_2 = A0_2[33]
+    L1_2 = self[33]
     L1_2 = L1_2 + 1
-    A0_2[33] = L1_2
+    self[33] = L1_2
     L1_2 = C7D2E388ADCD67626
     L1_2.S68FEC5E119E69094 = 0
-    L2_2 = A0_2
-    L1_2 = A0_2.F84C84FA1590CD2A3
+    L2_2 = self
+    L1_2 = self.F84C84FA1590CD2A3
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7D2E388ADCD67626"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugYoshidaTakaya.mainBodyFinish
+function C7D2E388ADCD67626_prototype:F84C84FA1590CD2A3()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F84C84FA1590CD2A3
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7D2E388ADCD67626"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugYoshidaTakaya.preEnd
+function C7D2E388ADCD67626_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7D2E388ADCD67626"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugYoshidaTakaya.postEnd
+function C7D2E388ADCD67626_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

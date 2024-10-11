@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CB0BEBEE40B9DEABD"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CB0BEBEE40B9DEABD"]
-L69_1 = "new"
+---@alias CB0BEBEE40B9DEABD main_system_game_event_GameEventPokeTalk
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventPokeTalk : CB0BEBEE40B9DEABD_prototype
+---@field prototype CB0BEBEE40B9DEABD_prototype
+CB0BEBEE40B9DEABD = L15_1()
+function CB0BEBEE40B9DEABD.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CB0BEBEE40B9DEABD
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB0BEBEE40B9DEABD"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CB0BEBEE40B9DEABD
+function CB0BEBEE40B9DEABD.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   A0_2[18] = nil
   L3_2 = CE0D511325372F946
@@ -38,11 +32,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB0BEBEE40B9DEABD"]
-L69_1 = "__name__"
-L70_1 = "CB0BEBEE40B9DEABD"
-L68_1[L69_1] = L70_1
+CB0BEBEE40B9DEABD.__name__ = "CB0BEBEE40B9DEABD"
 L68_1 = _ENV["CB0BEBEE40B9DEABD"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -81,38 +71,30 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB0BEBEE40B9DEABD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB0BEBEE40B9DEABD"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CB0BEBEE40B9DEABD_prototype
+CB0BEBEE40B9DEABD_prototype = L15_1()
+CB0BEBEE40B9DEABD.prototype = CB0BEBEE40B9DEABD_prototype
+--- main.system.game_event.GameEventPokeTalk.onCreate
+function CB0BEBEE40B9DEABD_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2
   L1_2 = C84402048F601B87E
   L1_2 = L1_2.new
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   L2_2 = L2_2.pokemon
-  L3_2 = A0_2[17]
+  L3_2 = self[17]
   L3_2 = L3_2.mode
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[18] = L1_2
+  self[18] = L1_2
   L1_2 = C6F1822A717AC599D
   L1_2 = L1_2.S264F26F6894F3392
   L2_2 = L1_2
   L1_2 = L1_2.F148649E258BA8EBB
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB0BEBEE40B9DEABD"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPokeTalk.onUpdate
+function CB0BEBEE40B9DEABD_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2
   L1_2 = C043642B35062DFB9
   L1_2 = L1_2.SA23D39922B76B247
@@ -124,7 +106,7 @@ function L70_1(A0_2)
   L3_2 = 48
   L1_2(L2_2, L3_2)
   while true do
-    L1_2 = A0_2[18]
+    L1_2 = self[18]
     L1_2 = L1_2[1]
     if L1_2 then
       break

@@ -1,3 +1,7 @@
+---@alias C916675E6CD711E0A main_event_base_BaseScenarioEvent
+
+---@class main_event_base_BaseScenarioEvent : C916675E6CD711E0A_prototype
+---@field prototype C916675E6CD711E0A_prototype
 L68_1 = _ENV["C916675E6CD711E0A"]
 L69_1 = "super"
 
@@ -66,11 +70,8 @@ L69_1 = "__interfaces__"
 L70_1 = {}
 L71_1 = CC816F24BFEF8251B
 L70_1[1] = L71_1
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]
-L69_1 = "S1D4B5AABA97AB0B6"
-
-function L70_1(A0_2)
+--- main.event.base.BaseScenarioEvent.CheckStartCondition
+function C916675E6CD711E0A.S1D4B5AABA97AB0B6(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L16_1
   L2_2 = {}
@@ -97,11 +98,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]
-L69_1 = "S3B03B51567A1510A"
-
-function L70_1(A0_2)
+--- main.event.base.BaseScenarioEvent.CheckSceneLoadCondition
+function C916675E6CD711E0A.S3B03B51567A1510A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L16_1
   L2_2 = {}
@@ -128,11 +126,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]
-L69_1 = "S7D73920C10329F93"
-
-function L70_1(A0_2)
+--- main.event.base.BaseScenarioEvent.processEventEnd
+function C916675E6CD711E0A.S7D73920C10329F93(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.S9ACD1CC9C7683E7D
@@ -175,22 +170,17 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "F1574845D709C67C5"
-
-function L70_1(A0_2)
+---@class C916675E6CD711E0A_prototype
+C916675E6CD711E0A_prototype = L15_1()
+C916675E6CD711E0A.prototype = C916675E6CD711E0A_prototype
+--- main.event.base.BaseScenarioEvent.onCreateCommon
+function C916675E6CD711E0A_prototype:F1574845D709C67C5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.useDefaultMsgFile = true
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.npcRestrictionLevel = 1
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   if nil == L1_2 then
     L1_2 = L16_1
     L2_2 = {}
@@ -201,20 +191,20 @@ function L70_1(A0_2)
     L2_2.mode = 0
     L2_2.bootable = true
     L1_2 = L1_2(L2_2)
-    A0_2[32] = L1_2
+    self[32] = L1_2
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.mode
   if nil == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FC87C731D11C58354
+    L3_2 = self
+    L2_2 = self.FC87C731D11C58354
     L2_2(L3_2)
     L2_2 = L31_1.string
     L3_2 = L31_1.string
     L4_2 = "message/dat/JPN/script/"
     L3_2 = L3_2(L4_2)
     L4_2 = L31_1.string
-    L5_2 = A0_2[22]
+    L5_2 = self[22]
     L5_2 = L5_2.defaultMsgFileName
     L4_2 = L4_2(L5_2)
     L3_2 = L3_2 .. L4_2
@@ -223,20 +213,20 @@ function L70_1(A0_2)
     L4_2 = ".dat"
     L3_2 = L3_2(L4_2)
     L2_2 = L2_2 .. L3_2
-    A0_2[33] = L2_2
+    self[33] = L2_2
     L2_2 = C9AA363B3CCC264AA
     L2_2 = L2_2.SF6FB800603736292
     L2_2 = L2_2.h
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L2_2 = L2_2[L3_2]
     L3_2 = L47_1.tnull
     if L2_2 == L3_2 then
       L2_2 = nil
     end
-    A0_2[34] = L2_2
-    L3_2 = A0_2[34]
+    self[34] = L2_2
+    L3_2 = self[34]
     if nil ~= L3_2 then
-      L3_2 = A0_2[34]
+      L3_2 = self[34]
       L3_2 = L3_2.progress
       L5_2 = L3_2
       L4_2 = L3_2.f67841428
@@ -245,12 +235,12 @@ function L70_1(A0_2)
       L6_2, L7_2 = L6_2(L7_2)
       L4_2 = L4_2(L5_2, L6_2, L7_2)
       L4_2 = "Start" == L4_2
-      A0_2[41] = L4_2
+      self[41] = L4_2
     end
   elseif 1 == L1_2 then
-    L2_2 = A0_2[32]
-    L4_2 = A0_2
-    L3_2 = A0_2.F9FD376B7D7006716
+    L2_2 = self[32]
+    L4_2 = self
+    L3_2 = self.F9FD376B7D7006716
     L3_2 = L3_2(L4_2)
     L2_2.bootable = L3_2
   elseif 2 == L1_2 then
@@ -277,22 +267,22 @@ function L70_1(A0_2)
     end
     
     L2_2 = L2_2()
-    L3_2 = A0_2[32]
-    L5_2 = A0_2
-    L4_2 = A0_2.FABDBBD7CAA141EAA
+    L3_2 = self[32]
+    L5_2 = self
+    L4_2 = self.FABDBBD7CAA141EAA
     L6_2 = L2_2
     L4_2 = L4_2(L5_2, L6_2)
     L3_2.bootable = L4_2
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.FC87C731D11C58354
+    L3_2 = self
+    L2_2 = self.FC87C731D11C58354
     L2_2(L3_2)
     L2_2 = L31_1.string
     L3_2 = L31_1.string
     L4_2 = "message/dat/JPN/script/"
     L3_2 = L3_2(L4_2)
     L4_2 = L31_1.string
-    L5_2 = A0_2[22]
+    L5_2 = self[22]
     L5_2 = L5_2.defaultMsgFileName
     L4_2 = L4_2(L5_2)
     L3_2 = L3_2 .. L4_2
@@ -301,20 +291,20 @@ function L70_1(A0_2)
     L4_2 = ".dat"
     L3_2 = L3_2(L4_2)
     L2_2 = L2_2 .. L3_2
-    A0_2[33] = L2_2
+    self[33] = L2_2
     L2_2 = C9AA363B3CCC264AA
     L2_2 = L2_2.SF6FB800603736292
     L2_2 = L2_2.h
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L2_2 = L2_2[L3_2]
     L3_2 = L47_1.tnull
     if L2_2 == L3_2 then
       L2_2 = nil
     end
-    A0_2[34] = L2_2
-    L3_2 = A0_2[34]
+    self[34] = L2_2
+    L3_2 = self[34]
     if nil ~= L3_2 then
-      L3_2 = A0_2[34]
+      L3_2 = self[34]
       L3_2 = L3_2.progress
       L5_2 = L3_2
       L4_2 = L3_2.f67841428
@@ -323,49 +313,37 @@ function L70_1(A0_2)
       L6_2, L7_2 = L6_2(L7_2)
       L4_2 = L4_2(L5_2, L6_2, L7_2)
       L4_2 = "Start" == L4_2
-      A0_2[41] = L4_2
+      self[41] = L4_2
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+--- main.event.base.BaseScenarioEvent.onCreate
+function C916675E6CD711E0A_prototype:FC87C731D11C58354()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "F9FD376B7D7006716"
-
-function L70_1(A0_2)
+--- main.event.base.BaseScenarioEvent.checkStartCondition
+function C916675E6CD711E0A_prototype:F9FD376B7D7006716()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "FABDBBD7CAA141EAA"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.BaseScenarioEvent.checkSceneLoadCondition
+function C916675E6CD711E0A_prototype:FABDBBD7CAA141EAA(A1_2)
   local L2_2
   L2_2 = true
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "F8AE8E31376B20038"
-
-function L70_1(A0_2)
+--- main.event.base.BaseScenarioEvent.commonStart
+function C916675E6CD711E0A_prototype:F8AE8E31376B20038()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F8AE8E31376B20038
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = CF4B448D8C3744CAF
   L1_2 = L1_2.SDDCF2C31DADBAB65
@@ -375,9 +353,9 @@ function L70_1(A0_2)
   L1_2 = L1_2.f147A85CD
   L2_2 = true
   L1_2(L2_2)
-  L1_2 = A0_2[34]
+  L1_2 = self[34]
   if nil ~= L1_2 then
-    L1_2 = A0_2[34]
+    L1_2 = self[34]
     L1_2 = L1_2.openVersion
     if 0 ~= L1_2 then
       goto lbl_27
@@ -392,9 +370,9 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
   ::lbl_27::
   L1_2 = nil
-  L2_2 = A0_2[34]
+  L2_2 = self[34]
   if nil ~= L2_2 then
-    L2_2 = A0_2[34]
+    L2_2 = self[34]
     L2_2 = L2_2.progress
     L4_2 = L2_2
     L3_2 = L2_2.f67841428
@@ -407,7 +385,7 @@ function L70_1(A0_2)
     L1_2 = false
   end
   if L1_2 then
-    L2_2 = A0_2[34]
+    L2_2 = self[34]
     L2_2 = L2_2.progress
     L4_2 = L2_2
     L3_2 = L2_2.f22F95077
@@ -422,33 +400,33 @@ function L70_1(A0_2)
     L5_2, L6_2 = L5_2(L6_2)
     L3_2(L4_2, L5_2, L6_2)
   end
-  L2_2 = A0_2[22]
+  L2_2 = self[22]
   L2_2 = L2_2.useDefaultMsgFile
   if L2_2 then
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.S12FD376DC11712C8
-    L3_2 = A0_2[33]
+    L3_2 = self[33]
     L2_2(L3_2)
   end
   L2_2 = C8568A4DA5C1FB1A5
   L2_2 = L2_2.S478A05429F4CAE14
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = 1
   L2_2(L3_2, L4_2)
   L2_2 = CD55465D82AD2C978
   L2_2 = L2_2.SE3599883D8A61A0E
-  L3_2 = A0_2[2]
-  L4_2 = A0_2[22]
+  L3_2 = self[2]
+  L4_2 = self[22]
   L4_2 = L4_2.isRideOff
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[36] = L2_2
+  self[36] = L2_2
   L2_2 = C0BA32C14E3E6BD60
   L2_2 = L2_2.SBE25B4DB148E77F0
   L3_2 = true
   L2_2(L3_2)
   L2_2 = C8568A4DA5C1FB1A5
   L2_2 = L2_2.S17F3FAF66BB41341
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = 2
   L2_2(L3_2, L4_2)
   while true do
@@ -463,7 +441,7 @@ function L70_1(A0_2)
     L3_2 = nil
     L2_2(L3_2)
   end
-  L2_2 = A0_2[22]
+  L2_2 = self[22]
   L2_2 = L2_2.disableFieldCamera
   if L2_2 then
     L2_2 = C9F6C325569B7E07F
@@ -486,19 +464,16 @@ function L70_1(A0_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "F092AD7969D1EAB32"
-
-function L70_1(A0_2)
+--- main.event.base.BaseScenarioEvent.commonBodyHead
+function C916675E6CD711E0A_prototype:F092AD7969D1EAB32()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F092AD7969D1EAB32
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = 0
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -515,47 +490,44 @@ function L70_1(A0_2)
   L4_2 = nil
   L5_2 = cA365C8AF
   L5_2 = L5_2.f3DCF9137
-  L6_2 = A0_2[36]
+  L6_2 = self[36]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
-    L5_2 = A0_2[36]
+    L5_2 = self[36]
     L6_2 = L5_2
     L5_2 = L5_2.f2EF5BDEB
     L5_2 = L5_2(L6_2)
     L3_2 = 2 ~= L5_2
   end
-  L5_2 = A0_2[37]
+  L5_2 = self[37]
   L5_2 = L5_2.enable
   if L5_2 and L3_2 then
     L5_2 = CD55465D82AD2C978
     L5_2 = L5_2.S949548F100BD2F09
-    L6_2 = A0_2[2]
-    L7_2 = A0_2[37]
+    L6_2 = self[2]
+    L7_2 = self[37]
     L7_2 = L7_2.outerSpace
-    L8_2 = A0_2[37]
+    L8_2 = self[37]
     L8_2 = L8_2.exclusions
     L5_2(L6_2, L7_2, L8_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "F5D1A3239AAEE5709"
-
-function L70_1(A0_2)
+--- main.event.base.BaseScenarioEvent.commonEnd
+function C916675E6CD711E0A_prototype:F5D1A3239AAEE5709()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L1_2 = CD55465D82AD2C978
   L1_2 = L1_2.SA7FA0CB34A8F442D
-  L2_2 = A0_2[36]
+  L2_2 = self[36]
   L1_2(L2_2)
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F5D1A3239AAEE5709
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = 0
-  L2_2 = A0_2[39]
+  L2_2 = self[39]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -570,7 +542,7 @@ function L70_1(A0_2)
   end
   L3_2 = CD324589B0BB60887
   L3_2 = L3_2.S88369BBD4268FED7
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L3_2(L4_2)
   while true do
     L3_2 = CD324589B0BB60887
@@ -585,10 +557,10 @@ function L70_1(A0_2)
   end
   L3_2 = C916675E6CD711E0A
   L3_2 = L3_2.S7D73920C10329F93
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L3_2(L4_2)
   L3_2 = 0
-  L4_2 = A0_2[38]
+  L4_2 = self[38]
   L5_2 = false
   while true do
     L6_2 = L4_2.length
@@ -648,25 +620,22 @@ function L70_1(A0_2)
       break
     end
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.FC3216CC0B8BBB073
+  L7_2 = self
+  L6_2 = self.FC3216CC0B8BBB073
   L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "F27AFB77F8F899793"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.BaseScenarioEvent.commonReset
+function C916675E6CD711E0A_prototype:F27AFB77F8F899793(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = CAE4A090462DA878F
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F27AFB77F8F899793
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = 0
-  L3_2 = A0_2[39]
+  L3_2 = self[39]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -681,7 +650,7 @@ function L70_1(A0_2, A1_2)
   end
   L4_2 = CD55465D82AD2C978
   L4_2 = L4_2.SA7FA0CB34A8F442D
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L4_2(L5_2)
   L4_2 = C8568A4DA5C1FB1A5
   L4_2 = L4_2.S461ACB8B9D0FD808
@@ -726,18 +695,15 @@ function L70_1(A0_2, A1_2)
     L6_2 = L6_2.S12F63EE47FFCB183
     L6_2()
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.FC3216CC0B8BBB073
+  L7_2 = self
+  L6_2 = self.FC3216CC0B8BBB073
   L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "FC3216CC0B8BBB073"
-
-function L70_1(A0_2)
+--- main.event.base.BaseScenarioEvent.cleanUp
+function C916675E6CD711E0A_prototype:FC3216CC0B8BBB073()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2.isDressupPartsVisibility
   if L1_2 then
     L1_2 = CCD22EFED4E9E5F89
@@ -759,15 +725,15 @@ function L70_1(A0_2)
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S0BD3EB40F59D9798
   L1_2()
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2.useDefaultMsgFile
   if L1_2 then
     L1_2 = C9B54BC04DD492B6D
     L1_2 = L1_2.SEC5605D9D6B5E309
-    L2_2 = A0_2[33]
+    L2_2 = self[33]
     L1_2(L2_2)
   end
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   if L1_2 then
     L1_2 = C4B092ECAC3E586CC
     L1_2 = L1_2.SC8223E31D3163519
@@ -775,13 +741,13 @@ function L70_1(A0_2)
     L1_2 = L1_2.F17A092D38F13047B
     L1_2 = L1_2(L2_2)
     if not L1_2 then
-      A0_2[35] = false
+      self[35] = false
     end
   end
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2 = L1_2.disableFieldCamera
   if L1_2 then
-    L1_2 = A0_2[35]
+    L1_2 = self[35]
     if not L1_2 then
       L1_2 = C9F6C325569B7E07F
       L1_2 = L1_2.SAB50B037AF2BC20B
@@ -807,7 +773,7 @@ function L70_1(A0_2)
   L1_2.S8BBF3AFBCEDACF54 = nil
   L1_2 = CF0DEE4ECC004F8C6
   L1_2 = L1_2.S27F22D6813E3BE44
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L1_2(L2_2)
   L1_2 = cECFF5CEA
   L1_2 = L1_2.f147A85CD
@@ -836,7 +802,7 @@ function L70_1(A0_2)
   L3_2 = "BGM_EV_SCENARIO_END"
   L2_2(L3_2)
   L2_2 = 0
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -849,8 +815,8 @@ function L70_1(A0_2)
     L6_2 = L4_2
     L5_2(L6_2)
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F345C9F2C8900B803
+  L5_2 = self
+  L4_2 = self.F345C9F2C8900B803
   L4_2(L5_2)
   L4_2 = CFC8F368D91411014
   L4_2 = L4_2.S12AB211B0A58477E
@@ -876,22 +842,19 @@ function L70_1(A0_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "F1AF8567C0A2D8EE3"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.BaseScenarioEvent.ReserveNextScenarioScript
+function C916675E6CD711E0A_prototype:F1AF8567C0A2D8EE3(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A1_2 then
     A1_2 = false
   end
-  A0_2[35] = A1_2
-  L2_2 = A0_2[34]
+  self[35] = A1_2
+  L2_2 = self[34]
   if nil == L2_2 then
     return
   end
   L2_2 = 0
-  L3_2 = A0_2[34]
+  L3_2 = self[34]
   L3_2 = L3_2.next
   L4_2 = false
   while true do
@@ -905,11 +868,11 @@ function L70_1(A0_2, A1_2)
     L7_2 = L6_2
     L6_2 = L6_2.fE9C29DA1
     L6_2 = L6_2(L7_2)
-    L7_2 = A0_2[34]
+    L7_2 = self[34]
     L7_2 = L7_2.isMainEvent
     L8_2 = L5_2.isMainEvent
     if L7_2 == L8_2 then
-      L7_2 = A0_2[31]
+      L7_2 = self[31]
       if L7_2 then
         L7_2 = L5_2.progress
         L9_2 = L7_2
@@ -947,13 +910,13 @@ function L70_1(A0_2, A1_2)
           end
         end
       else
-        L7_2 = A0_2[38]
+        L7_2 = self[38]
         L8_2 = L7_2
         L7_2 = L7_2.indexOf
         L9_2 = L6_2
         L7_2 = L7_2(L8_2, L9_2)
         if L7_2 < 0 then
-          L7_2 = A0_2[38]
+          L7_2 = self[38]
           L8_2 = L7_2
           L7_2 = L7_2.push
           L9_2 = L6_2
@@ -970,11 +933,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "F7DF9E8489F8EFBCB"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.base.BaseScenarioEvent.F7DF9E8489F8EFBCB
+function C916675E6CD711E0A_prototype:F7DF9E8489F8EFBCB(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A2_2 then
     A2_2 = false
@@ -991,8 +951,8 @@ function L70_1(A0_2, A1_2, A2_2)
   if nil == L4_2 then
     return
   end
-  A0_2[35] = A2_2
-  L5_2 = A0_2[31]
+  self[35] = A2_2
+  L5_2 = self[31]
   if L5_2 then
     L5_2 = L4_2.progress
     L7_2 = L5_2
@@ -1030,13 +990,13 @@ function L70_1(A0_2, A1_2, A2_2)
       end
     end
   else
-    L5_2 = A0_2[38]
+    L5_2 = self[38]
     L6_2 = L5_2
     L5_2 = L5_2.indexOf
     L7_2 = A1_2
     L5_2 = L5_2(L6_2, L7_2)
     if L5_2 < 0 then
-      L5_2 = A0_2[38]
+      L5_2 = self[38]
       L6_2 = L5_2
       L5_2 = L5_2.push
       L7_2 = A1_2
@@ -1045,17 +1005,14 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "F72F203963C699DD9"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.BaseScenarioEvent.ForceEnd
+function C916675E6CD711E0A_prototype:F72F203963C699DD9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if L2_2 == A1_2 then
     return
   end
-  L2_2 = A0_2[31]
+  L2_2 = self[31]
   if L2_2 then
     return
   end
@@ -1101,13 +1058,13 @@ function L70_1(A0_2, A1_2)
   end
   do return end
   ::lbl_43::
-  L6_2 = A0_2[39]
+  L6_2 = self[39]
   L7_2 = L6_2
   L6_2 = L6_2.indexOf
   L8_2 = A1_2
   L6_2 = L6_2(L7_2, L8_2)
   if L6_2 < 0 then
-    L6_2 = A0_2[39]
+    L6_2 = self[39]
     L7_2 = L6_2
     L6_2 = L6_2.push
     L8_2 = A1_2
@@ -1115,53 +1072,44 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "FCB3B1A213D375E75"
-
-function L70_1(A0_2)
+--- main.event.base.BaseScenarioEvent.isImportant
+function C916675E6CD711E0A_prototype:FCB3B1A213D375E75()
   local L1_2
   L1_2 = false
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "FF5806C363F7F7CCF"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.base.BaseScenarioEvent.SetNpcDeleteFlag
+function C916675E6CD711E0A_prototype:FF5806C363F7F7CCF(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2
   L4_2 = nil
   L5_2 = cA365C8AF
   L5_2 = L5_2.f50CB118A
-  L6_2 = A0_2[36]
+  L6_2 = self[36]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
     return
   end
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = L5_2
   L5_2 = L5_2.fF28CB694
   L7_2 = A1_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = L5_2
   L5_2 = L5_2.f2278B1E5
   L7_2 = A2_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = L5_2
   L5_2 = L5_2.fF4924CE7
   L7_2 = A3_2
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C916675E6CD711E0A"]["prototype"]
-L69_1 = "F4E09538E8F109EC2"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.BaseScenarioEvent.onInterrupted
+function C916675E6CD711E0A_prototype:F4E09538E8F109EC2(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S12AB211B0A58477E
@@ -1263,7 +1211,7 @@ L68_1(L69_1, L70_1)
 L68_1 = C1A60972875EFA3B6
 L69_1 = "new"
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+function L70_1(self, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = C1A60972875EFA3B6
@@ -1274,7 +1222,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = C1A60972875EFA3B6
   L5_2 = L5_2.super
   L6_2 = L4_2
-  L7_2 = A0_2
+  L7_2 = self
   L8_2 = A1_2
   L9_2 = A2_2
   L10_2 = A3_2

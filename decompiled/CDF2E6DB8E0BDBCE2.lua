@@ -1,3 +1,5 @@
+---@class CDF2E6DB8E0BDBCE2 : CDF2E6DB8E0BDBCE2_prototype
+---@field prototype CDF2E6DB8E0BDBCE2_prototype
 L55_1 = _ENV
 L56_1 = "CDF2E6DB8E0BDBCE2"
 L57_1 = L15_1
@@ -42,29 +44,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CDF2E6DB8E0BDBCE2"]
 L69_1 = "__name__"
 L70_1 = "CDF2E6DB8E0BDBCE2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDF2E6DB8E0BDBCE2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDF2E6DB8E0BDBCE2"]["prototype"]
-L69_1 = "F775591A40478B2A0"
-
-function L70_1(A0_2)
+---@class CDF2E6DB8E0BDBCE2_prototype
+CDF2E6DB8E0BDBCE2_prototype = L15_1()
+CDF2E6DB8E0BDBCE2.prototype = CDF2E6DB8E0BDBCE2_prototype
+--- CDF2E6DB8E0BDBCE2.F775591A40478B2A0
+function CDF2E6DB8E0BDBCE2_prototype:F775591A40478B2A0()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = E094400AA4EB2328D
   L2_2 = L2_2.kWaitResumeCommand
   L1_2 = L1_2 == L2_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDF2E6DB8E0BDBCE2"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- CDF2E6DB8E0BDBCE2.Init
+function CDF2E6DB8E0BDBCE2_prototype:F90BBC6B0190BF053(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2
   L5_2 = cAF8D78F3
   L5_2 = L5_2.f37537CF4
@@ -72,11 +66,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L6_2 = L5_2
   L5_2 = L5_2.f426683B4
   L5_2 = L5_2(L6_2)
-  A0_2[2] = L5_2
+  self[2] = L5_2
   L5_2 = c8A144091
   L5_2 = L5_2.fE459D175
   L5_2 = L5_2()
-  A0_2[1] = L5_2
+  self[1] = L5_2
   L5_2 = 0
   L6_2 = _hx_tab_array
   L7_2 = {}
@@ -91,14 +85,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L8_2 = 4
   L6_2 = L6_2(L7_2, L8_2)
   L7_2 = 0
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   while L7_2 < L8_2 do
     L7_2 = L7_2 + 1
     L9_2 = L7_2 - 1
     L9_2 = L9_2 + 1
     L10_2 = c8A144091
     L10_2 = L10_2.f9DCF42D7
-    L11_2 = A0_2[1]
+    L11_2 = self[1]
     L12_2 = L31_1.string
     L13_2 = "Camera_"
     L12_2 = L12_2(L13_2)
@@ -143,7 +137,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L9_2 = L9_2 + 1
     L11_2 = c8A144091
     L11_2 = L11_2.f9DCF42D7
-    L12_2 = A0_2[1]
+    L12_2 = self[1]
     L13_2 = L10_2
     L14_2 = L31_1.string
     L15_2 = L31_1.string
@@ -173,7 +167,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L11_2(L12_2, L13_2, L14_2)
   end
   L10_2 = 12000
-  L11_2 = A0_2[4]
+  L11_2 = self[4]
   L12_2 = CFC8F368D91411014
   L12_2 = L12_2.S8DB58249AC006158
   L13_2 = nil
@@ -311,7 +305,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L23_2 = L23_2()
     L24_2 = 1
     L25_2 = 0
-    L26_2 = A0_2[5]
+    L26_2 = self[5]
     L27_2 = false
     while L25_2 < L26_2 do
       L25_2 = L25_2 + 1
@@ -334,14 +328,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       if L28_2 == L22_2 then
         L29_2 = c8A144091
         L29_2 = L29_2.f9DCF42D7
-        L30_2 = A0_2[1]
+        L30_2 = self[1]
         L31_2 = L6_2[0]
         L32_2 = "playables.Player"
         L29_2(L30_2, L31_2, L32_2)
       else
         L29_2 = c8A144091
         L29_2 = L29_2.f9DCF42D7
-        L30_2 = A0_2[1]
+        L30_2 = self[1]
         L31_2 = L6_2[L24_2]
         L32_2 = L31_1.string
         L33_2 = "playables.other_player_"
@@ -372,11 +366,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
         L33_2 = L30_2
         L31_2 = L31_2(L32_2, L33_2)
         if L31_2 then
-          L32_2 = A0_2
-          L31_2 = A0_2.FFAC0704F34CE5504
+          L32_2 = self
+          L31_2 = self.FFAC0704F34CE5504
           L33_2 = L29_2
           L31_2 = L31_2(L32_2, L33_2)
-          L32_2 = A0_2[4]
+          L32_2 = self[4]
           L34_2 = L31_2
           L33_2 = L31_2.fD46D5949
           L35_2 = 0
@@ -415,7 +409,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   else
     L22_2 = c8A144091
     L22_2 = L22_2.f9DCF42D7
-    L23_2 = A0_2[1]
+    L23_2 = self[1]
     L24_2 = L6_2[0]
     L25_2 = "playables.Player"
     L22_2(L23_2, L24_2, L25_2)
@@ -433,13 +427,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L24_2 = 4
   L22_2 = L22_2(L23_2, L24_2)
   L23_2 = 0
-  L24_2 = A0_2[5]
+  L24_2 = self[5]
   while L23_2 < L24_2 do
     L23_2 = L23_2 + 1
     L25_2 = L23_2 - 1
     L26_2 = c8A144091
     L26_2 = L26_2.f82588D3B
-    L27_2 = A0_2[1]
+    L27_2 = self[1]
     L28_2 = "OniballoonMemberNum"
     L29_2 = L22_2[L25_2]
     L30_2 = L25_2 == L5_2
@@ -517,7 +511,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L28_2 = L28_2 + 1
     L30_2 = c8A144091
     L30_2 = L30_2.f82588D3B
-    L31_2 = A0_2[1]
+    L31_2 = self[1]
     L32_2 = "OniballoonPokemonPattern"
     L33_2 = L29_2.name
     L34_2 = L29_2.isCondition
@@ -525,7 +519,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
   L29_2 = c8A144091
   L29_2 = L29_2.f8C342581
-  L30_2 = A0_2[1]
+  L30_2 = self[1]
   L31_2 = c4D8F1342
   L31_2 = L31_2.f69D04ADF
   L32_2 = "demo/sd/sd8040_fu_result/sd8040_fu_result.trtml"
@@ -533,32 +527,29 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L29_2(L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDF2E6DB8E0BDBCE2"]["prototype"]
-L69_1 = "F0B5FBF707A7FA642"
-
-function L70_1(A0_2)
+--- CDF2E6DB8E0BDBCE2.ManualUpdate
+function CDF2E6DB8E0BDBCE2_prototype:F0B5FBF707A7FA642()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2[1]
   if 0 == L1_2 then
     L2_2 = c8A144091
     L2_2 = L2_2.f75C96ED8
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L2_2 = L2_2(L3_2)
     if 2 == L2_2 then
       L2_2 = E094400AA4EB2328D
       L2_2 = L2_2.kPlayTimeline
-      A0_2[3] = L2_2
+      self[3] = L2_2
     end
     L2_2 = c8A144091
     L2_2 = L2_2.f75C96ED8
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L2_2 = L2_2(L3_2)
     if 3 == L2_2 then
       L2_2 = c8A144091
       L2_2 = L2_2.f12AF8664
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L2_2(L3_2)
       L2_2 = true
       return L2_2
@@ -566,11 +557,11 @@ function L70_1(A0_2)
   elseif 1 == L1_2 then
     L2_2 = c8A144091
     L2_2 = L2_2.f40B8C6B1
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L2_2(L3_2)
     L2_2 = E094400AA4EB2328D
     L2_2 = L2_2.kWaitRequestPauseCommand
-    A0_2[3] = L2_2
+    self[3] = L2_2
   elseif 2 == L1_2 then
     L2_2 = CD0DF8BCDB4A3F466
     L2_2 = L2_2.S46FA3430F937329D
@@ -580,7 +571,7 @@ function L70_1(A0_2)
     end
     L2_2 = E094400AA4EB2328D
     L2_2 = L2_2.kWaitResumeCommand
-    A0_2[3] = L2_2
+    self[3] = L2_2
   elseif 3 == L1_2 then
     L2_2 = CD0DF8BCDB4A3F466
     L2_2 = L2_2.S46FA3430F937329D
@@ -590,11 +581,11 @@ function L70_1(A0_2)
     end
     L2_2 = E094400AA4EB2328D
     L2_2 = L2_2.kWaitFinishTimeline
-    A0_2[3] = L2_2
+    self[3] = L2_2
   elseif 4 == L1_2 then
     L2_2 = c8A144091
     L2_2 = L2_2.f59D006EE
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L2_2 = L2_2(L3_2)
     if not L2_2 then
       L2_2 = false
@@ -602,14 +593,14 @@ function L70_1(A0_2)
     end
     L2_2 = c8A144091
     L2_2 = L2_2.f12AF8664
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L2_2(L3_2)
     L2_2 = cAF8D78F3
     L2_2 = L2_2.f37537CF4
     L2_2 = L2_2()
     L3_2 = L2_2
     L2_2 = L2_2.f74CDFF75
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = false
     L2_2(L3_2, L4_2, L5_2)
     L2_2 = CFC8F368D91411014
@@ -661,7 +652,7 @@ function L70_1(A0_2)
       L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
       L3_2 = L7_2
     end
-    L6_2 = A0_2[4]
+    L6_2 = self[4]
     L6_2 = L6_2.h
     L6_2 = L6_2.MyPlayer
     L7_2 = L47_1.tnull
@@ -678,7 +669,7 @@ function L70_1(A0_2)
     L7_2 = L7_2()
     if L7_2 then
       L7_2 = 0
-      L8_2 = A0_2[5]
+      L8_2 = self[5]
       while L7_2 < L8_2 do
         L7_2 = L7_2 + 1
         L9_2 = L7_2 - 1
@@ -703,11 +694,11 @@ function L70_1(A0_2)
         L14_2 = L11_2
         L12_2 = L12_2(L13_2, L14_2)
         if L12_2 then
-          L13_2 = A0_2
-          L12_2 = A0_2.FFAC0704F34CE5504
+          L13_2 = self
+          L12_2 = self.FFAC0704F34CE5504
           L14_2 = L10_2
           L12_2 = L12_2(L13_2, L14_2)
-          L13_2 = A0_2[4]
+          L13_2 = self[4]
           L13_2 = L13_2.h
           L14_2 = L31_1.string
           L15_2 = "other_player_"
@@ -736,11 +727,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDF2E6DB8E0BDBCE2"]["prototype"]
-L69_1 = "FFAC0704F34CE5504"
-
-function L70_1(A0_2, A1_2)
+--- CDF2E6DB8E0BDBCE2.FFAC0704F34CE5504
+function CDF2E6DB8E0BDBCE2_prototype:FFAC0704F34CE5504(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = c67D732E6
   L2_2 = L2_2.fBFF82B4E

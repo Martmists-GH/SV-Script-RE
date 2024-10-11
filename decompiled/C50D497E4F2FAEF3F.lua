@@ -1,3 +1,5 @@
+---@class C50D497E4F2FAEF3F : C50D497E4F2FAEF3F_prototype
+---@field prototype C50D497E4F2FAEF3F_prototype
 L55_1 = _ENV
 L56_1 = "C50D497E4F2FAEF3F"
 L57_1 = L15_1
@@ -43,21 +45,16 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C50D497E4F2FAEF3F"]
 L69_1 = "__name__"
 L70_1 = "C50D497E4F2FAEF3F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50D497E4F2FAEF3F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50D497E4F2FAEF3F"]["prototype"]
-L69_1 = "FBDA51D3CC289A015"
-
-function L70_1(A0_2, A1_2)
+---@class C50D497E4F2FAEF3F_prototype
+C50D497E4F2FAEF3F_prototype = L15_1()
+C50D497E4F2FAEF3F.prototype = C50D497E4F2FAEF3F_prototype
+--- C50D497E4F2FAEF3F.OnSetupAnimation
+function C50D497E4F2FAEF3F_prototype:FBDA51D3CC289A015(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CFB426AE68C29918F
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FBDA51D3CC289A015
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = nil
@@ -89,24 +86,21 @@ function L70_1(A0_2, A1_2)
   end
   
   L3_2 = L3_2()
-  A0_2[23] = L3_2
-  L3_2 = A0_2[23]
+  self[23] = L3_2
+  L3_2 = self[23]
   L4_2 = L3_2
   L3_2 = L3_2.f4CAD79CA
   L5_2 = 1
   L3_2(L4_2, L5_2)
   L3_2 = EAF85302BE96D9BA7
   L3_2 = L3_2.Wait
-  A0_2[17] = L3_2
+  self[17] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50D497E4F2FAEF3F"]["prototype"]
-L69_1 = "F0F2455EB3F08B1D1"
-
-function L70_1(A0_2)
+--- C50D497E4F2FAEF3F.onWait
+function C50D497E4F2FAEF3F_prototype:F0F2455EB3F08B1D1()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[23]
+  L1_2 = self[23]
   L2_2 = L1_2
   L1_2 = L1_2.f4CAD79CA
   L3_2 = C764E5AE41553760D
@@ -120,7 +114,7 @@ function L70_1(A0_2)
   function L4_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[21]
     if nil == L1_3 then
       L0_3 = 2
@@ -135,7 +129,7 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
   L1_2 = EAF85302BE96D9BA7
   L1_2 = L1_2.Motion
-  A0_2[17] = L1_2
+  self[17] = L1_2
   L1_2 = C764E5AE41553760D
   L1_2 = L1_2.S9690841ED751ADD5
   L1_2 = L1_2()
@@ -145,85 +139,73 @@ function L70_1(A0_2)
   L4_2 = true
   L1_2 = L1_2(L2_2, L3_2, L4_2)
   L1_2 = 2.0 + L1_2
-  A0_2[18] = L1_2
+  self[18] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50D497E4F2FAEF3F"]["prototype"]
-L69_1 = "FC901E1B80A665072"
-
-function L70_1(A0_2)
+--- C50D497E4F2FAEF3F.onMotion
+function C50D497E4F2FAEF3F_prototype:FC901E1B80A665072()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[23]
+  L1_2 = self[23]
   L2_2 = L1_2
   L1_2 = L1_2.f4CAD79CA
   L3_2 = 1
   L1_2(L2_2, L3_2)
   L1_2 = EAF85302BE96D9BA7
   L1_2 = L1_2.Wait
-  A0_2[17] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F4A6A8A5598025726
+  self[17] = L1_2
+  L2_2 = self
+  L1_2 = self.F4A6A8A5598025726
   L1_2 = L1_2(L2_2)
-  A0_2[18] = L1_2
+  self[18] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50D497E4F2FAEF3F"]["prototype"]
-L69_1 = "FDE5E110C9A132332"
-
-function L70_1(A0_2)
+--- C50D497E4F2FAEF3F.onBeginLookAtPlayer
+function C50D497E4F2FAEF3F_prototype:FDE5E110C9A132332()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[23]
+  L1_2 = self[23]
   L2_2 = L1_2
   L1_2 = L1_2.f4CAD79CA
   L3_2 = 1
   L1_2(L2_2, L3_2)
   L1_2 = EAF85302BE96D9BA7
   L1_2 = L1_2.Wait
-  A0_2[17] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F4A6A8A5598025726
+  self[17] = L1_2
+  L2_2 = self
+  L1_2 = self.F4A6A8A5598025726
   L1_2 = L1_2(L2_2)
-  A0_2[18] = L1_2
+  self[18] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50D497E4F2FAEF3F"]["prototype"]
-L69_1 = "F90122194950F2E45"
-
-function L70_1(A0_2)
+--- C50D497E4F2FAEF3F.onReturnRotate
+function C50D497E4F2FAEF3F_prototype:F90122194950F2E45()
   local L1_2, L2_2, L3_2
   L1_2 = CFB426AE68C29918F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F90122194950F2E45
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[23]
+  L1_2 = self[23]
   L2_2 = L1_2
   L1_2 = L1_2.f4CAD79CA
   L3_2 = 1
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50D497E4F2FAEF3F"]["prototype"]
-L69_1 = "F4A340DC482FA71A2"
-
-function L70_1(A0_2, A1_2)
+--- C50D497E4F2FAEF3F.EasyTalkPreStart
+function C50D497E4F2FAEF3F_prototype:F4A340DC482FA71A2(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CFB426AE68C29918F
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F4A340DC482FA71A2
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[23]
+  L2_2 = self[23]
   L3_2 = L2_2
   L2_2 = L2_2.f3813B586
   L2_2 = L2_2(L3_2)
   if 0 ~= L2_2 then
-    L2_2 = A0_2[23]
+    L2_2 = self[23]
     L3_2 = L2_2
     L2_2 = L2_2.f4CAD79CA
     L4_2 = 1
@@ -231,18 +213,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50D497E4F2FAEF3F"]["prototype"]
-L69_1 = "F2D02B9DF56ECB923"
-
-function L70_1(A0_2)
+--- C50D497E4F2FAEF3F.onResume
+function C50D497E4F2FAEF3F_prototype:F2D02B9DF56ECB923()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
-  L1_2 = A0_2[15]
+  L1_2 = self[15]
   L1_2 = L1_2[43]
   if L1_2 then
-    L1_2 = A0_2[21]
+    L1_2 = self[21]
     if nil ~= L1_2 then
-      L1_2 = A0_2[21]
+      L1_2 = self[21]
       L3_2 = L1_2
       L2_2 = L1_2.F97D80368ACC86AEF
       L2_2 = L2_2(L3_2)
@@ -515,27 +494,27 @@ function L70_1(A0_2)
     L1_2 = nil
     L2_2 = cBBE823D7
     L2_2 = L2_2.f330A53DF
-    L3_2 = A0_2[12]
+    L3_2 = self[12]
     L4_2 = L1_2
     L2_2 = L2_2(L3_2, L4_2)
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FA2C827B56F56ABDF
+      L3_2 = self
+      L2_2 = self.FA2C827B56F56ABDF
       L2_2(L3_2)
-      L2_2 = A0_2[8]
+      L2_2 = self[8]
       if nil ~= L2_2 then
-        L2_2 = A0_2[8]
-        L3_2 = A0_2[7]
+        L2_2 = self[8]
+        L3_2 = self[7]
         L2_2[7] = L3_2
       end
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       if nil ~= L2_2 then
-        L2_2 = A0_2[7]
-        L3_2 = A0_2[8]
+        L2_2 = self[7]
+        L3_2 = self[8]
         L2_2[8] = L3_2
-        L2_2 = A0_2[8]
+        L2_2 = self[8]
         if nil == L2_2 then
-          L2_2 = A0_2[7]
+          L2_2 = self[7]
           L3_2 = nil
           L4_2 = cBBE823D7
           L4_2 = L4_2.f330A53DF
@@ -741,50 +720,47 @@ function L70_1(A0_2)
           end
         end
       end
-      L2_2 = A0_2[11]
+      L2_2 = self[11]
       L3_2 = L2_2[1]
       L4_2 = L3_2
       L3_2 = L3_2.remove
-      L5_2 = A0_2
+      L5_2 = self
       L3_2(L4_2, L5_2)
       L3_2 = L2_2[2]
       if nil ~= L3_2 then
         L3_2 = L52_1.__instanceof
-        L4_2 = A0_2
+        L4_2 = self
         L5_2 = C190C831375BA1994
         L3_2 = L3_2(L4_2, L5_2)
         if L3_2 then
           L3_2 = L2_2[2]
           L4_2 = L3_2
           L3_2 = L3_2.remove
-          L5_2 = A0_2
+          L5_2 = self
           L3_2(L4_2, L5_2)
         end
       end
       L3_2 = nil
       L4_2 = cBBE823D7
       L4_2 = L4_2.f330A53DF
-      L5_2 = A0_2[12]
+      L5_2 = self[12]
       L6_2 = L3_2
       L4_2 = L4_2(L5_2, L6_2)
       if L4_2 then
-        L4_2 = A0_2[12]
+        L4_2 = self[12]
         L5_2 = L4_2
         L4_2 = L4_2.f5C99C0AC
         L4_2(L5_2)
-        A0_2[12] = nil
+        self[12] = nil
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50D497E4F2FAEF3F"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- C50D497E4F2FAEF3F.onFinish
+function C50D497E4F2FAEF3F_prototype:FA2C827B56F56ABDF()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[15]
+  L1_2 = self[15]
   L2_2 = L1_2
   L1_2 = L1_2.F3582CAF5D32A7297
   L3_2 = C269421DADA4889E6

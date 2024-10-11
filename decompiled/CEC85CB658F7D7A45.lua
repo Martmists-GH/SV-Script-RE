@@ -1,3 +1,7 @@
+---@alias CEC85CB658F7D7A45 main_event_general_danbattle_DanAreaOutWarpEvent
+
+---@class main_event_general_danbattle_DanAreaOutWarpEvent : CEC85CB658F7D7A45_prototype
+---@field prototype CEC85CB658F7D7A45_prototype
 L55_1 = _ENV
 L56_1 = "CEC85CB658F7D7A45"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CEC85CB658F7D7A45"]
 L69_1 = "__name__"
 L70_1 = "CEC85CB658F7D7A45"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC85CB658F7D7A45"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC85CB658F7D7A45"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CEC85CB658F7D7A45_prototype
+CEC85CB658F7D7A45_prototype = L15_1()
+CEC85CB658F7D7A45.prototype = CEC85CB658F7D7A45_prototype
+--- main.event.general.danbattle.DanAreaOutWarpEvent.mainBody
+function CEC85CB658F7D7A45_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2
   L1_2 = C07E4F1BF071B0460
   L1_2 = L1_2.S218E2A14A790D265
@@ -66,7 +65,7 @@ function L70_1(A0_2)
   L1_2()
   L1_2 = C1B899F51B71FF0D7
   L1_2 = L1_2.SB3FE06CC707A4009
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.AjitoType
   L3_2 = false
   L1_2(L2_2, L3_2)
@@ -77,11 +76,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC85CB658F7D7A45"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- main.event.general.danbattle.DanAreaOutWarpEvent.onFinish
+function CEC85CB658F7D7A45_prototype:FA2C827B56F56ABDF()
   local L1_2, L2_2, L3_2
   L1_2 = CDBCB33E53E70ED25
   L1_2 = L1_2.S511DEF29717431A3

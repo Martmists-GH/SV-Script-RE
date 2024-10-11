@@ -1,3 +1,6 @@
+---@alias CB3225057CDBCE3D1 main_battle_director_BattleRaidPowerchargeStart
+
+---@class main_battle_director_BattleRaidPowerchargeStart
 L70_1 = _ENV["C5494463B93586D5E"]["S32FCD63E7D2F7A0D"]
 L68_1[L69_1] = L70_1
 L68_1 = CD40180462054B933

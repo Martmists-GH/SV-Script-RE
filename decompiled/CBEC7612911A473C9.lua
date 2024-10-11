@@ -1,3 +1,7 @@
+---@alias CBEC7612911A473C9 main_ui_system_ui_message_window_message_window_parts_MessageWindowPartsBase
+
+---@class main_ui_system_ui_message_window_message_window_parts_MessageWindowPartsBase : CBEC7612911A473C9_prototype
+---@field prototype CBEC7612911A473C9_prototype
 L55_1 = _ENV
 L56_1 = "CBEC7612911A473C9"
 L57_1 = L15_1
@@ -50,78 +54,64 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CBEC7612911A473C9"]
 L69_1 = "__name__"
 L70_1 = "CBEC7612911A473C9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBEC7612911A473C9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBEC7612911A473C9"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CBEC7612911A473C9_prototype
+CBEC7612911A473C9_prototype = L15_1()
+CBEC7612911A473C9.prototype = CBEC7612911A473C9_prototype
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsBase.Setup
+function CBEC7612911A473C9_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBEC7612911A473C9"]["prototype"]
-L69_1 = "F47F416B87A281F2C"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsBase.IsOpenMessageWindow
+function CBEC7612911A473C9_prototype:F47F416B87A281F2C()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cD3FECF8E
   L2_2 = L2_2.f5226FDB0
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.f193C9E36
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBEC7612911A473C9"]["prototype"]
-L69_1 = "FB237EB8902E0B201"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsBase.IsEndMessage
+function CBEC7612911A473C9_prototype:FB237EB8902E0B201()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cD3FECF8E
   L2_2 = L2_2.f5226FDB0
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.f901C892F
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBEC7612911A473C9"]["prototype"]
-L69_1 = "F0C089FCEAD3626BE"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsBase.SetMessageCharaName
+function CBEC7612911A473C9_prototype:F0C089FCEAD3626BE(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L4_2 = cECF00344
   L4_2 = L4_2.fEECE6995
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
   L5_2 = c8C3BF576
   L5_2 = L5_2.fDE6D594F
@@ -143,7 +133,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L8_2 = L8_2(L9_2, L10_2)
       L9_2 = c8C3BF576
       L9_2 = L9_2.f316077B2
-      L10_2 = A0_2[1]
+      L10_2 = self[1]
       L11_2 = L31_1.string
       L12_2 = L31_1.string
       L13_2 = ""
@@ -182,10 +172,10 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L0_3 = nil
       L1_3 = L6_2
       if L1_3 then
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[9]
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[8]
       end
       return L0_3
@@ -196,29 +186,26 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBEC7612911A473C9"]["prototype"]
-L69_1 = "FE86CE14E4CF30949"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsBase.MessageWindowRequest
+function CBEC7612911A473C9_prototype:FE86CE14E4CF30949(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A5_2 then
     A5_2 = 4
   end
   L6_2 = c69ACCC6F
   L6_2 = L6_2.f3F98EEAD
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L6_2 = L6_2(L7_2)
   L7_2 = cECF00344
   L7_2 = L7_2.fEECE6995
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L7_2 = L7_2(L8_2)
   L8_2 = cECD2E4A5
   L8_2 = L8_2.fAD5AE364
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = "MessageWindow_00"
   L8_2 = L8_2(L9_2, L10_2)
-  A0_2[5] = L8_2
+  self[5] = L8_2
   L8_2 = nil
   L9_2 = nil
   L10_2 = nil
@@ -242,7 +229,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L11_2 = nil
     L12_2 = cD3FECF8E
     L12_2 = L12_2.f31F84E16
-    L13_2 = A0_2[5]
+    L13_2 = self[5]
     L14_2 = L11_2
     L12_2 = L12_2(L13_2, L14_2)
     L8_2 = L12_2
@@ -250,42 +237,39 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L8_2 = false
   end
   if L8_2 then
-    L11_2 = A0_2[5]
+    L11_2 = self[5]
     L12_2 = L11_2
     L11_2 = L11_2.f7291B8B9
     L13_2 = A1_2
     L11_2(L12_2, L13_2)
     if 4 ~= A5_2 then
-      L11_2 = A0_2[5]
+      L11_2 = self[5]
       L12_2 = L11_2
       L11_2 = L11_2.fBAB12DCB
       L13_2 = A5_2
       L11_2(L12_2, L13_2)
     end
-    L11_2 = A0_2[4]
+    L11_2 = self[4]
     if not L11_2 then
       L12_2 = A3_2
       L11_2 = A3_2.f83FE57AE
       L11_2(L12_2)
-      A0_2[4] = true
+      self[4] = true
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBEC7612911A473C9"]["prototype"]
-L69_1 = "F1ACA09763020A6EC"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsBase.MessageTextRequest
+function CBEC7612911A473C9_prototype:F1ACA09763020A6EC(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = nil
   L3_2 = cD3FECF8E
   L3_2 = L3_2.f31F84E16
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.f7291B8B9
     L5_2 = A1_2
@@ -293,15 +277,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBEC7612911A473C9"]["prototype"]
-L69_1 = "F951721F06005846C"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsBase.MessageWindowClose
+function CBEC7612911A473C9_prototype:F951721F06005846C(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = cECF00344
   L4_2 = L4_2.fEECE6995
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
   L5_2 = false
   
@@ -364,7 +345,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
     L8_2 = cECD2E4A5
     L8_2 = L8_2.fAD5AE364
-    L9_2 = A0_2[1]
+    L9_2 = self[1]
     L10_2 = "MessageWindow_00"
     L8_2 = L8_2(L9_2, L10_2)
     L9_2 = L8_2
@@ -402,15 +383,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBEC7612911A473C9"]["prototype"]
-L69_1 = "F90172F07E0168042"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsBase.SetIcon
+function CBEC7612911A473C9_prototype:F90172F07E0168042(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L4_2 = cECF00344
   L4_2 = L4_2.fEECE6995
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
   L5_2 = nil
   L6_2 = cECF00344
@@ -421,15 +399,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   if L6_2 then
     return
   end
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   if false == L6_2 then
     L7_2 = L4_2
     L6_2 = L4_2.f7A48F855
-    L8_2 = A0_2[6]
+    L8_2 = self[6]
     L6_2(L7_2, L8_2)
-    A0_2[2] = true
+    self[2] = true
   end
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   if not L6_2 then
     L6_2 = E366415E12D9CEAB1
     L6_2 = L6_2.ITEM_FIRST
@@ -514,7 +492,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
         end
       end
     end
-    A0_2[3] = true
+    self[3] = true
   end
   L7_2 = L4_2
   L6_2 = L4_2.fC6FA21BA
@@ -524,25 +502,19 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2(L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBEC7612911A473C9"]["prototype"]
-L69_1 = "F85F35D37A4B08E4D"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsBase.GetLayout
+function CBEC7612911A473C9_prototype:F85F35D37A4B08E4D()
   local L1_2, L2_2
   L1_2 = cECF00344
   L1_2 = L1_2.fEECE6995
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBEC7612911A473C9"]["prototype"]
-L69_1 = "FF232DE04210742F0"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsBase.RegisterMessageCallback
+function CBEC7612911A473C9_prototype:FF232DE04210742F0(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.f7684CC3A
   L4_2 = A1_2

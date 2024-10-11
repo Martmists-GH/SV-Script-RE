@@ -1,3 +1,7 @@
+---@alias C5648AAEE3425CE6C main_field_behaviour_scenario_main_champion_gym_koori_Gym_koori_course
+
+---@class main_field_behaviour_scenario_main_champion_gym_koori_Gym_koori_course : C5648AAEE3425CE6C_prototype
+---@field prototype C5648AAEE3425CE6C_prototype
 L55_1 = _ENV
 L56_1 = "C77A4201DAEDFF388"
 L57_1 = L15_1
@@ -42,11 +46,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C77A4201DAEDFF388"]
 L69_1 = "__name__"
 L70_1 = "C77A4201DAEDFF388"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C77A4201DAEDFF388"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C5648AAEE3425CE6C_prototype
+C5648AAEE3425CE6C_prototype = L15_1()
+C5648AAEE3425CE6C.prototype = C5648AAEE3425CE6C_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C77A4201DAEDFF388"]["prototype"]
 L69_1 = _ENV["C77A4201DAEDFF388"]

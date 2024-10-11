@@ -1,3 +1,7 @@
+---@alias C68C2E8DAFBC7ADDA main_ui_shop_data_friendly_ShopFriendlyData
+
+---@class main_ui_shop_data_friendly_ShopFriendlyData : C68C2E8DAFBC7ADDA_prototype
+---@field prototype C68C2E8DAFBC7ADDA_prototype
 L55_1 = _ENV
 L56_1 = "C68C2E8DAFBC7ADDA"
 L57_1 = L15_1
@@ -46,16 +50,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C68C2E8DAFBC7ADDA"]
 L69_1 = "__name__"
 L70_1 = "C68C2E8DAFBC7ADDA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C68C2E8DAFBC7ADDA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C68C2E8DAFBC7ADDA"]["prototype"]
-L69_1 = "F29E50B6CEA16E80C"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class C68C2E8DAFBC7ADDA_prototype
+C68C2E8DAFBC7ADDA_prototype = L15_1()
+C68C2E8DAFBC7ADDA.prototype = C68C2E8DAFBC7ADDA_prototype
+--- main.ui.shop.data.friendly.ShopFriendlyData.SetFriendlyShopData
+function C68C2E8DAFBC7ADDA_prototype:F29E50B6CEA16E80C(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L4_2 = A2_2
   L3_2 = A2_2.f287946D6
@@ -97,11 +96,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C68C2E8DAFBC7ADDA"]["prototype"]
-L69_1 = "FBEA9C1E023BC4B34"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop.data.friendly.ShopFriendlyData.SetLineupData
+function C68C2E8DAFBC7ADDA_prototype:FBEA9C1E023BC4B34(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L3_2 = L26_1.new
   L3_2 = L3_2()

@@ -1,3 +1,7 @@
+---@alias C8C37C27569D144F1 main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokePotSleepState
+
+---@class main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokePotSleepState : C8C37C27569D144F1_prototype
+---@field prototype C8C37C27569D144F1_prototype
 L55_1 = _ENV
 L56_1 = "C8C37C27569D144F1"
 L57_1 = L15_1
@@ -39,18 +43,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8C37C27569D144F1"]
 L69_1 = "__name__"
 L70_1 = "C8C37C27569D144F1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8C37C27569D144F1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8C37C27569D144F1"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C8C37C27569D144F1_prototype
+C8C37C27569D144F1_prototype = L15_1()
+C8C37C27569D144F1.prototype = C8C37C27569D144F1_prototype
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokePotSleepState.onCreate
+function C8C37C27569D144F1_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L1_2 = L1_2.owner
   L2_2 = L1_2
   L1_2 = L1_2.fB3CF1DEB
@@ -63,22 +62,19 @@ function L70_1(A0_2)
   if L2_2 == L3_2 then
     L2_2 = nil
   end
-  A0_2[5] = L2_2
+  self[5] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8C37C27569D144F1"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokePotSleepState.onInitialize
+function C8C37C27569D144F1_prototype:F239C282ED3F82676(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F86A0FB324C31FB7B
   L4_2 = E38B7F1DDED5027FE
   L4_2 = L4_2.Sleep
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.FAC93F8BEE25E2F74
   L4_2 = C8C37C27569D144F1
@@ -86,39 +82,33 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8C37C27569D144F1"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokePotSleepState.onPreUpdate
+function C8C37C27569D144F1_prototype:F1993A419B4083AE8(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F1EE797C9D5E400F1
+  L3_2 = self
+  L2_2 = self.F1EE797C9D5E400F1
   L2_2 = L2_2(L3_2)
   if not L2_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L2_2
     L2_2 = L2_2.F28EAF3B3AA178E3E
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L4_2 = L4_2[77]
     L2_2(L3_2, L4_2)
     return
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8C37C27569D144F1"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokePotSleepState.onTerminate
+function C8C37C27569D144F1_prototype:F97D80368ACC86AEF()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FB009193A4192439D
   L3_2 = E38B7F1DDED5027FE
   L3_2 = L3_2.Sleep
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FAC93F8BEE25E2F74
   L3_2 = 0

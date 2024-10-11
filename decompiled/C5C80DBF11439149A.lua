@@ -1,3 +1,7 @@
+---@alias C5C80DBF11439149A main_field_behaviour_FieldC02Elevator
+
+---@class main_field_behaviour_FieldC02Elevator : C5C80DBF11439149A_prototype
+---@field prototype C5C80DBF11439149A_prototype
 L55_1 = _ENV
 L56_1 = "C5C80DBF11439149A"
 L57_1 = L15_1
@@ -42,16 +46,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C5C80DBF11439149A"]
 L69_1 = "__name__"
 L70_1 = "C5C80DBF11439149A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5C80DBF11439149A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5C80DBF11439149A"]["prototype"]
-L69_1 = "FBDA175393973D042"
-
-function L70_1(A0_2)
+---@class C5C80DBF11439149A_prototype
+C5C80DBF11439149A_prototype = L15_1()
+C5C80DBF11439149A.prototype = C5C80DBF11439149A_prototype
+--- main.field.behaviour.FieldC02Elevator.GetBehaviourType
+function C5C80DBF11439149A_prototype:FBDA175393973D042()
   local L1_2
   L1_2 = 6
   return L1_2

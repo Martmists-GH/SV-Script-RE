@@ -1,3 +1,5 @@
+---@class C9107ED6EEF0588D6 : C9107ED6EEF0588D6_prototype
+---@field prototype C9107ED6EEF0588D6_prototype
 L55_1 = _ENV
 L56_1 = "C9107ED6EEF0588D6"
 L57_1 = L15_1
@@ -38,49 +40,38 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9107ED6EEF0588D6"]
 L69_1 = "__name__"
 L70_1 = "C9107ED6EEF0588D6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9107ED6EEF0588D6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9107ED6EEF0588D6"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2, A1_2, A2_2)
-  A0_2[1] = A1_2
-  A0_2[2] = A2_2
+---@class C9107ED6EEF0588D6_prototype
+C9107ED6EEF0588D6_prototype = L15_1()
+C9107ED6EEF0588D6.prototype = C9107ED6EEF0588D6_prototype
+--- C9107ED6EEF0588D6.Init
+function C9107ED6EEF0588D6_prototype:F90BBC6B0190BF053(A1_2, A2_2)
+  self[1] = A1_2
+  self[2] = A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9107ED6EEF0588D6"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2)
+--- C9107ED6EEF0588D6.Reset
+function C9107ED6EEF0588D6_prototype:F96EA28F400597FA0()
   local L1_2, L2_2
-  A0_2[4] = false
-  L1_2 = A0_2[3]
+  self[4] = false
+  L1_2 = self[3]
   if nil ~= L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.F96EA28F400597FA0
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9107ED6EEF0588D6"]["prototype"]
-L69_1 = "F7EED485852A4D25F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- C9107ED6EEF0588D6.Start
+function C9107ED6EEF0588D6_prototype:F7EED485852A4D25F(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2
   L5_2 = A2_2
   L4_2 = A2_2.fDAAAA586
-  L6_2 = A0_2[2]
-  L7_2 = A0_2[1]
+  L6_2 = self[2]
+  L7_2 = self[1]
   L6_2 = L6_2 - L7_2
   L4_2 = L4_2(L5_2, L6_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2 + L5_2
   L5_2 = C21951E0D771D37C7
   L5_2 = L5_2.new
@@ -102,38 +93,35 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2 = L6_2()
   L6_2 = L6_2 * A3_2
   L5_2 = L5_2(L6_2)
-  A0_2[3] = L5_2
-  A0_2[4] = true
+  self[3] = L5_2
+  self[4] = true
   L5_2 = L58_1
   L6_2 = A1_2
   L5_2 = L5_2(L6_2)
-  A0_2.F792BA3826A6A0ABB = L5_2
+  self.F792BA3826A6A0ABB = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9107ED6EEF0588D6"]["prototype"]
-L69_1 = "FC26332A0F0EC9F7A"
-
-function L70_1(A0_2)
+--- C9107ED6EEF0588D6.FC26332A0F0EC9F7A
+function C9107ED6EEF0588D6_prototype:FC26332A0F0EC9F7A()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   if nil ~= L1_2 then
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     if L1_2 then
       goto lbl_8
     end
   end
   do return end
   ::lbl_8::
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.FEB6685558281F194
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F792BA3826A6A0ABB
+    L2_2 = self
+    L1_2 = self.F792BA3826A6A0ABB
     L1_2(L2_2)
-    A0_2[4] = false
+    self[4] = false
   end
 end
 

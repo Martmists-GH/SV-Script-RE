@@ -1,3 +1,7 @@
+---@alias CE5E0C4441759F7E7 main_ui_btlspot_state_machine_rental_team_BattleSpotStateRentalTeam
+
+---@class main_ui_btlspot_state_machine_rental_team_BattleSpotStateRentalTeam : CE5E0C4441759F7E7_prototype
+---@field prototype CE5E0C4441759F7E7_prototype
 L55_1 = _ENV
 L56_1 = "C92BE7F9ED292F389"
 L57_1 = L15_1
@@ -42,11 +46,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C92BE7F9ED292F389"]
 L69_1 = "__name__"
 L70_1 = "C92BE7F9ED292F389"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C92BE7F9ED292F389"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CE5E0C4441759F7E7_prototype
+CE5E0C4441759F7E7_prototype = L15_1()
+CE5E0C4441759F7E7.prototype = CE5E0C4441759F7E7_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C92BE7F9ED292F389"]["prototype"]
 L69_1 = _ENV["C92BE7F9ED292F389"]

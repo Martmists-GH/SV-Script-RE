@@ -1,3 +1,7 @@
+---@alias CF88D453D710A6A9A main_pokepicnic_contents_RideTakingInAndOut_PicnicContents
+
+---@class main_pokepicnic_contents_RideTakingInAndOut_PicnicContents : CF88D453D710A6A9A_prototype
+---@field prototype CF88D453D710A6A9A_prototype
 L55_1 = _ENV
 L56_1 = "CF88D453D710A6A9A"
 L57_1 = L15_1
@@ -43,43 +47,35 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF88D453D710A6A9A"]
 L69_1 = "__name__"
 L70_1 = "CF88D453D710A6A9A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF88D453D710A6A9A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF88D453D710A6A9A"]["prototype"]
-L69_1 = "FBF02A2AE63AF40EC"
-
-function L70_1(A0_2)
+---@class CF88D453D710A6A9A_prototype
+CF88D453D710A6A9A_prototype = L15_1()
+CF88D453D710A6A9A.prototype = CF88D453D710A6A9A_prototype
+--- main.pokepicnic.contents.RideTakingInAndOut_PicnicContents.OnStart
+function CF88D453D710A6A9A_prototype:FBF02A2AE63AF40EC()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.FBACD9799FA273FE2
+  L3_2 = self
+  L4_2 = self.FBACD9799FA273FE2
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "RideTakingInAndOutCoroutine"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[5] = L1_2
+  self[5] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF88D453D710A6A9A"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.contents.RideTakingInAndOut_PicnicContents.OnUpdate
+function CF88D453D710A6A9A_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[5]
+      L2_2 = self[5]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -127,11 +123,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF88D453D710A6A9A"]["prototype"]
-L69_1 = "FBACD9799FA273FE2"
-
-function L70_1(A0_2)
+--- main.pokepicnic.contents.RideTakingInAndOut_PicnicContents.mainCoroutine
+function CF88D453D710A6A9A_prototype:FBACD9799FA273FE2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -142,7 +135,7 @@ function L70_1(A0_2)
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.F68213DDDAE5764D3
   L3_2 = L3_2(L4_2)
@@ -156,12 +149,12 @@ function L70_1(A0_2)
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F4CFA8A6ED4C66723
+    L3_2 = self
+    L2_2 = self.F4CFA8A6ED4C66723
     L2_2 = L2_2(L3_2)
     if not L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FBB710FA191F9DBDE
+      L3_2 = self
+      L2_2 = self.FBB710FA191F9DBDE
       L2_2(L3_2)
       L2_2 = CFC8F368D91411014
       L2_2 = L2_2.SDE9EF3CFD428417D
@@ -169,7 +162,7 @@ function L70_1(A0_2)
       L2_2 = L2_2[1]
       L2_2 = L2_2[9]
       L2_2[7] = true
-      A0_2[2] = true
+      self[2] = true
       return
     end
   end
@@ -251,14 +244,11 @@ function L70_1(A0_2)
   L3_2 = L3_2[1]
   L3_2 = L3_2[9]
   L3_2[7] = true
-  A0_2[2] = true
+  self[2] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF88D453D710A6A9A"]["prototype"]
-L69_1 = "F4CFA8A6ED4C66723"
-
-function L70_1(A0_2)
+--- main.pokepicnic.contents.RideTakingInAndOut_PicnicContents.F4CFA8A6ED4C66723
+function CF88D453D710A6A9A_prototype:F4CFA8A6ED4C66723()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S8DB58249AC006158
@@ -316,7 +306,7 @@ function L70_1(A0_2)
   L10_2 = L9_2
   L9_2 = L9_2.F5B45367A72929278
   L9_2(L10_2)
-  L9_2 = A0_2[4]
+  L9_2 = self[4]
   L10_2 = L9_2
   L9_2 = L9_2.F68213DDDAE5764D3
   L9_2 = L9_2(L10_2)
@@ -326,7 +316,7 @@ function L70_1(A0_2)
   L10_2 = L9_2
   L9_2 = L9_2.FF61DC28F12A03E7C
   L9_2(L10_2)
-  L9_2 = A0_2[4]
+  L9_2 = self[4]
   L10_2 = L9_2
   L9_2 = L9_2.F68213DDDAE5764D3
   L9_2 = L9_2(L10_2)
@@ -358,11 +348,8 @@ function L70_1(A0_2)
   return L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF88D453D710A6A9A"]["prototype"]
-L69_1 = "FBB710FA191F9DBDE"
-
-function L70_1(A0_2)
+--- main.pokepicnic.contents.RideTakingInAndOut_PicnicContents.PlayImpossiblePopRideMessage
+function CF88D453D710A6A9A_prototype:FBB710FA191F9DBDE()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = cCDB92DE8
   L1_2 = L1_2.f9A6EFC5C

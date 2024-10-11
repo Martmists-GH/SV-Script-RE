@@ -1,3 +1,5 @@
+---@class C74096D1DAC67BD8A : C74096D1DAC67BD8A_prototype
+---@field prototype C74096D1DAC67BD8A_prototype
 L55_1 = _ENV
 L56_1 = "C74096D1DAC67BD8A"
 L57_1 = L15_1
@@ -41,20 +43,15 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C74096D1DAC67BD8A"]
 L69_1 = "__name__"
 L70_1 = "C74096D1DAC67BD8A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74096D1DAC67BD8A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74096D1DAC67BD8A"]["prototype"]
-L69_1 = "F584D1C1D2C1917AD"
-
-function L70_1(A0_2)
+---@class C74096D1DAC67BD8A_prototype
+C74096D1DAC67BD8A_prototype = L15_1()
+C74096D1DAC67BD8A.prototype = C74096D1DAC67BD8A_prototype
+--- C74096D1DAC67BD8A.F584D1C1D2C1917AD
+function C74096D1DAC67BD8A_prototype:F584D1C1D2C1917AD()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L3_1
-  L3_2 = A0_2
-  L2_2 = A0_2.FAFA651C652BD64CD
+  L3_2 = self
+  L2_2 = self.FAFA651C652BD64CD
   L2_2 = L2_2(L3_2)
   L2_2 = L2_2[24]
   L2_2 = L2_2[1]
@@ -63,8 +60,8 @@ function L70_1(A0_2)
   L3_2 = 2
   L1_2 = L1_2(L2_2, L3_2)
   if 0 == L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FAFA651C652BD64CD
+    L2_2 = self
+    L1_2 = self.FAFA651C652BD64CD
     L1_2 = L1_2(L2_2)
     L2_2 = nil
     L3_2 = L1_2[43]
@@ -87,14 +84,14 @@ function L70_1(A0_2)
       end
     end
     if not L2_2 then
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L3_2 = L3_2[3]
       L3_2 = L3_2[1]
       L3_2 = L3_2[5]
       L3_2 = L3_2[22]
       L3_2 = L3_2[2]
       L3_2 = L3_2[2]
-      L4_2 = A0_2[3]
+      L4_2 = self[3]
       L4_2 = L4_2[3]
       L4_2 = L4_2[1]
       L4_2 = L4_2[5]
@@ -102,14 +99,14 @@ function L70_1(A0_2)
       L4_2 = L4_2[2]
       L4_2 = L4_2[2]
       L3_2 = L3_2 - L4_2
-      L4_2 = A0_2[3]
+      L4_2 = self[3]
       L4_2 = L4_2[3]
       L4_2 = L4_2[1]
       L4_2 = L4_2[5]
       L4_2 = L4_2[6]
       L4_2 = L4_2[5]
       if L3_2 > L4_2 then
-        L3_2 = A0_2[3]
+        L3_2 = self[3]
         L3_2 = L3_2[3]
         L3_2 = L3_2[1]
         L3_2 = L3_2[5]
@@ -128,18 +125,15 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74096D1DAC67BD8A"]["prototype"]
-L69_1 = "F9675F802742DA5B6"
-
-function L70_1(A0_2)
+--- C74096D1DAC67BD8A.get_IsEnabledRideOn
+function C74096D1DAC67BD8A_prototype:F9675F802742DA5B6()
   local L1_2, L2_2, L3_2
   L1_2 = CEB7F2D99ABFA6197
   L1_2 = L1_2.SB0E6639C374E257F
   L1_2 = L1_2()
   if L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FAFA651C652BD64CD
+    L2_2 = self
+    L1_2 = self.FAFA651C652BD64CD
     L1_2 = L1_2(L2_2)
     L2_2 = L1_2[43]
     if 1 == L2_2 then

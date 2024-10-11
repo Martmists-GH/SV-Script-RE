@@ -1,3 +1,5 @@
+---@class CF43AD18CB9EB4E5D : CF43AD18CB9EB4E5D_prototype
+---@field prototype CF43AD18CB9EB4E5D_prototype
 L55_1 = _ENV
 L56_1 = "CF43AD18CB9EB4E5D"
 L57_1 = L15_1
@@ -45,32 +47,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF43AD18CB9EB4E5D"]
 L69_1 = "__name__"
 L70_1 = "CF43AD18CB9EB4E5D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF43AD18CB9EB4E5D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF43AD18CB9EB4E5D"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CF43AD18CB9EB4E5D_prototype
+CF43AD18CB9EB4E5D_prototype = L15_1()
+CF43AD18CB9EB4E5D.prototype = CF43AD18CB9EB4E5D_prototype
+--- CF43AD18CB9EB4E5D.onCreate
+function CF43AD18CB9EB4E5D_prototype:FC87C731D11C58354()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF43AD18CB9EB4E5D"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+--- CF43AD18CB9EB4E5D.preStart
+function CF43AD18CB9EB4E5D_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF43AD18CB9EB4E5D"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- CF43AD18CB9EB4E5D.postStart
+function CF43AD18CB9EB4E5D_prototype:F2E6C9E25867BCE8D()
   local L1_2, L2_2, L3_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -78,14 +69,11 @@ function L70_1(A0_2)
   L2_2[0] = "event_npc_gym_esper_040_esper"
   L3_2 = 1
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[6] = L1_2
+  self[6] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF43AD18CB9EB4E5D"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- CF43AD18CB9EB4E5D.mainBody
+function CF43AD18CB9EB4E5D_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CF4B448D8C3744CAF
   L1_2 = L1_2.SDDCF2C31DADBAB65
@@ -117,27 +105,18 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF43AD18CB9EB4E5D"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- CF43AD18CB9EB4E5D.mainBodyFinish
+function CF43AD18CB9EB4E5D_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF43AD18CB9EB4E5D"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- CF43AD18CB9EB4E5D.preEnd
+function CF43AD18CB9EB4E5D_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF43AD18CB9EB4E5D"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- CF43AD18CB9EB4E5D.postEnd
+function CF43AD18CB9EB4E5D_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

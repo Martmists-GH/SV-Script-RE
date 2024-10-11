@@ -1,3 +1,7 @@
+---@alias C57D6EBF8FDF2D59F main_ui_shop_restaurant_data_ShopRestaurantUIMenuProperty
+
+---@class main_ui_shop_restaurant_data_ShopRestaurantUIMenuProperty : C57D6EBF8FDF2D59F_prototype
+---@field prototype C57D6EBF8FDF2D59F_prototype
 L55_1 = _ENV
 L56_1 = "C57D6EBF8FDF2D59F"
 L57_1 = L15_1
@@ -437,107 +441,75 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C57D6EBF8FDF2D59F"]
 L69_1 = "__name__"
 L70_1 = "C57D6EBF8FDF2D59F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C57D6EBF8FDF2D59F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C57D6EBF8FDF2D59F"]["prototype"]
-L69_1 = "FE3059C1D9BBBFF38"
-
-function L70_1(A0_2)
+---@class C57D6EBF8FDF2D59F_prototype
+C57D6EBF8FDF2D59F_prototype = L15_1()
+C57D6EBF8FDF2D59F.prototype = C57D6EBF8FDF2D59F_prototype
+--- main.ui.shop_restaurant.data.ShopRestaurantUIMenuProperty.get_textureName
+function C57D6EBF8FDF2D59F_prototype:FE3059C1D9BBBFF38()
   local L1_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C57D6EBF8FDF2D59F"]["prototype"]
-L69_1 = "F8F127E793C9AA905"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.data.ShopRestaurantUIMenuProperty.get_price
+function C57D6EBF8FDF2D59F_prototype:F8F127E793C9AA905()
   local L1_2
-  L1_2 = A0_2[20]
+  L1_2 = self[20]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C57D6EBF8FDF2D59F"]["prototype"]
-L69_1 = "FCE878B1A9BC562BC"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.data.ShopRestaurantUIMenuProperty.get_menuName
+function C57D6EBF8FDF2D59F_prototype:FCE878B1A9BC562BC()
   local L1_2
-  L1_2 = A0_2[21]
+  L1_2 = self[21]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C57D6EBF8FDF2D59F"]["prototype"]
-L69_1 = "F9499716F1182B3A4"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.data.ShopRestaurantUIMenuProperty.get_menuNameStrBuf
+function C57D6EBF8FDF2D59F_prototype:F9499716F1182B3A4()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C57D6EBF8FDF2D59F"]["prototype"]
-L69_1 = "F5CD06453115738B0"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_restaurant.data.ShopRestaurantUIMenuProperty.set_menuNameStrBuf
+function C57D6EBF8FDF2D59F_prototype:F5CD06453115738B0(A1_2)
   local L2_2
-  A0_2[22] = A1_2
-  L2_2 = A0_2[22]
+  self[22] = A1_2
+  L2_2 = self[22]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C57D6EBF8FDF2D59F"]["prototype"]
-L69_1 = "F0DCBF46D0C49227C"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.data.ShopRestaurantUIMenuProperty.get_menuInfoText
+function C57D6EBF8FDF2D59F_prototype:F0DCBF46D0C49227C()
   local L1_2
-  L1_2 = A0_2[23]
+  L1_2 = self[23]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C57D6EBF8FDF2D59F"]["prototype"]
-L69_1 = "F3A06A490019F2113"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.data.ShopRestaurantUIMenuProperty.F3A06A490019F2113
+function C57D6EBF8FDF2D59F_prototype:F3A06A490019F2113()
   local L1_2
-  L1_2 = A0_2[25]
+  L1_2 = self[25]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C57D6EBF8FDF2D59F"]["prototype"]
-L69_1 = "F30DBB30D142BE5B0"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.data.ShopRestaurantUIMenuProperty.get_category
+function C57D6EBF8FDF2D59F_prototype:F30DBB30D142BE5B0()
   local L1_2
-  L1_2 = A0_2[26]
+  L1_2 = self[26]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C57D6EBF8FDF2D59F"]["prototype"]
-L69_1 = "F5A6C37B3B8309D7A"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.data.ShopRestaurantUIMenuProperty.F5A6C37B3B8309D7A
+function C57D6EBF8FDF2D59F_prototype:F5A6C37B3B8309D7A()
   local L1_2
-  L1_2 = A0_2[27]
+  L1_2 = self[27]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C57D6EBF8FDF2D59F"]["prototype"]
-L69_1 = "F1B8EA5FC43312DC6"
-
-function L70_1(A0_2)
+--- main.ui.shop_restaurant.data.ShopRestaurantUIMenuProperty.F1B8EA5FC43312DC6
+function C57D6EBF8FDF2D59F_prototype:F1B8EA5FC43312DC6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = L31_1.string
   L2_2 = "picnic_sand_"
@@ -548,7 +520,7 @@ function L70_1(A0_2)
   L5_2 = ""
   L4_2 = L4_2(L5_2)
   L5_2 = L31_1.string
-  L6_2 = A0_2[17]
+  L6_2 = self[17]
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
   L5_2 = "0"
@@ -587,7 +559,7 @@ function L70_1(A0_2)
   L4_2 = ".bntx"
   L3_2 = L3_2(L4_2)
   L2_2 = L2_2 .. L3_2
-  A0_2[18] = L2_2
+  self[18] = L2_2
 end
 
 L68_1[L69_1] = L70_1

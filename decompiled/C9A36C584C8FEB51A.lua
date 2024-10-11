@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C9A36C584C8FEB51A"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]
-L69_1 = "new"
+---@alias C9A36C584C8FEB51A main_ui_ymap_topmenu_SceneYMapTopMenu
 
-function L70_1(A0_2)
+---@class main_ui_ymap_topmenu_SceneYMapTopMenu : C9A36C584C8FEB51A_prototype
+---@field prototype C9A36C584C8FEB51A_prototype
+C9A36C584C8FEB51A = L15_1()
+function C9A36C584C8FEB51A.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C9A36C584C8FEB51A
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C9A36C584C8FEB51A
+function C9A36C584C8FEB51A.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   A0_2[19] = false
   A0_2[18] = 0
@@ -99,11 +93,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9A36C584C8FEB51A"]
 L69_1 = "__name__"
 L70_1 = "C9A36C584C8FEB51A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]
-L69_1 = "SB21FA562BB1FB817"
-
-function L70_1()
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.LoadScene
+function C9A36C584C8FEB51A.SB21FA562BB1FB817()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C9A36C584C8FEB51A
   L1_2 = CE7855E8F4FEE8D06
@@ -120,22 +111,16 @@ function L70_1()
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]
-L69_1 = "SF1C9BF636E0F4F06"
-
-function L70_1()
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.IsSetup
+function C9A36C584C8FEB51A.SF1C9BF636E0F4F06()
   local L0_2, L1_2
   L0_2 = C9A36C584C8FEB51A
   L0_2 = L0_2.S08E49734001CF64C
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]
-L69_1 = "SF657426FC1B0D20A"
-
-function L70_1()
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.GetSceneObject
+function C9A36C584C8FEB51A.SF657426FC1B0D20A()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = c016374C1
@@ -153,11 +138,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]
-L69_1 = "SACEA25E294F2462F"
-
-function L70_1()
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.StartAnimeOutAndUnLoad
+function C9A36C584C8FEB51A.SACEA25E294F2462F()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cECF00344
@@ -182,11 +164,8 @@ function L70_1()
   L1_2.SE83A0AB2F46D0D71 = 100
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]
-L69_1 = "S5AAB9CD9D695CE39"
-
-function L70_1()
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.IsReadyState
+function C9A36C584C8FEB51A.S5AAB9CD9D695CE39()
   local L0_2, L1_2
   L0_2 = C9A36C584C8FEB51A
   L0_2 = L0_2.SE83A0AB2F46D0D71
@@ -194,11 +173,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]
-L69_1 = "SBE83BF2D6DA3A4B4"
-
-function L70_1()
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.SBE83BF2D6DA3A4B4
+function C9A36C584C8FEB51A.SBE83BF2D6DA3A4B4()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -230,46 +206,38 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "F2C3EDEB3ABC309BE"
-
-function L70_1(A0_2)
+---@class C9A36C584C8FEB51A_prototype
+C9A36C584C8FEB51A_prototype = L15_1()
+C9A36C584C8FEB51A.prototype = C9A36C584C8FEB51A_prototype
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.IsEnableTopMenu
+function C9A36C584C8FEB51A_prototype:F2C3EDEB3ABC309BE()
   local L1_2
   L1_2 = C388798CF80F2AF9D
   L1_2 = L1_2.SB38415D8BAD3CCF8
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.Setup
+function C9A36C584C8FEB51A_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = c2A84524D
   L2_2 = L2_2.fB41FD22F
   L3_2 = C9A36C584C8FEB51A
   L3_2 = L3_2.S62F707FF4824A0BA
   L2_2 = L2_2(L3_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
   L2_2 = nil
   L3_2 = c2A84524D
   L3_2 = L3_2.f6A09A15D
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
   L3_2 = cCF781FB6
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
-  A0_2[6] = L3_2
-  L3_2 = A0_2[6]
+  self[6] = L3_2
+  L3_2 = self[6]
   L4_2 = L3_2
   L3_2 = L3_2.fC9F06BB8
   L5_2 = C388798CF80F2AF9D
@@ -277,27 +245,21 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.Init
+function C9A36C584C8FEB51A_prototype:F90BBC6B0190BF053(A1_2)
   local L2_2, L3_2
-  A0_2[15] = A1_2
+  self[15] = A1_2
   L2_2 = C9A36C584C8FEB51A
   L2_2.SE83A0AB2F46D0D71 = 8
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.f1EA0CCF2
   L2_2(L3_2)
-  A0_2[9] = 0
+  self[9] = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "FD0B7C9965A458580"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.SetupButtonPane
+function C9A36C584C8FEB51A_prototype:FD0B7C9965A458580()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C9A36C584C8FEB51A
   L1_2 = L1_2.SCF907CCCE0CB5143
@@ -336,11 +298,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "FD014229B3B926D03"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.Close
+function C9A36C584C8FEB51A_prototype:FD014229B3B926D03()
   local L1_2, L2_2, L3_2
   L1_2 = C388798CF80F2AF9D
   L1_2 = L1_2.SB38415D8BAD3CCF8
@@ -421,7 +380,7 @@ function L70_1(A0_2)
     L3_2 = "L_button_04/unselect"
     L1_2(L2_2, L3_2)
   end
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.f1EA0CCF2
   L1_2(L2_2)
@@ -429,11 +388,8 @@ function L70_1(A0_2)
   L1_2.SED27A43B32BF661C = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "F9337AE9F018B3C29"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.Open
+function C9A36C584C8FEB51A_prototype:F9337AE9F018B3C29()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C388798CF80F2AF9D
   L1_2 = L1_2.SB38415D8BAD3CCF8
@@ -446,8 +402,8 @@ function L70_1(A0_2)
   L1_2 = L1_2.f2A9CF058
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FE2AED0B25257248F
+  L2_2 = self
+  L1_2 = self.FE2AED0B25257248F
   L3_2 = true
   L1_2(L2_2, L3_2)
   L1_2 = C9A36C584C8FEB51A
@@ -502,8 +458,8 @@ function L70_1(A0_2)
     L5_2 = "L_button_0"
     L4_2 = L4_2(L5_2)
     L5_2 = L31_1.string
-    L7_2 = A0_2
-    L6_2 = A0_2.FCA914AB0A20397A5
+    L7_2 = self
+    L6_2 = self.FCA914AB0A20397A5
     L6_2, L7_2 = L6_2(L7_2)
     L5_2 = L5_2(L6_2, L7_2)
     L4_2 = L4_2 .. L5_2
@@ -514,7 +470,7 @@ function L70_1(A0_2)
     L3_2 = L3_2 .. L4_2
     L1_2(L2_2, L3_2)
   end
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.f89358001
   L1_2(L2_2)
@@ -524,11 +480,8 @@ function L70_1(A0_2)
   L1_2.SED27A43B32BF661C = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "F748A3DCD68216D1D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.PlayAnime
+function C9A36C584C8FEB51A_prototype:F748A3DCD68216D1D(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C388798CF80F2AF9D
   L2_2 = L2_2.SB38415D8BAD3CCF8
@@ -543,11 +496,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "F810D8446A8612992"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.IsEndAnime
+function C9A36C584C8FEB51A_prototype:F810D8446A8612992(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C388798CF80F2AF9D
   L2_2 = L2_2.SB38415D8BAD3CCF8
@@ -563,24 +513,18 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "F6F3F0623245D7B2D"
-
-function L70_1(A0_2, A1_2)
-  A0_2[16] = A1_2
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.SetKeyInputEnable
+function C9A36C584C8FEB51A_prototype:F6F3F0623245D7B2D(A1_2)
+  self[16] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "FCA914AB0A20397A5"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.GetCurrentCursorPosition
+function C9A36C584C8FEB51A_prototype:FCA914AB0A20397A5()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -590,14 +534,14 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = c27E0D07E
   L3_2 = L3_2.fFC04274B
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = 0
     return L3_2
   end
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.f09FE563B
   L3_2 = L3_2(L4_2)
@@ -606,16 +550,13 @@ function L70_1(A0_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "FFB4B39E1BF089C29"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.SetCurrentCursorPosition
+function C9A36C584C8FEB51A_prototype:FFB4B39E1BF089C29(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f4555D276
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
@@ -624,13 +565,13 @@ function L70_1(A0_2, A1_2)
   L3_2 = nil
   L4_2 = c27E0D07E
   L4_2 = L4_2.fFC04274B
-  L5_2 = A0_2[10]
+  L5_2 = self[10]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
     return
   end
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L5_2 = L4_2
   L4_2 = L4_2.f06E080B8
   L6_2 = cEBF4B147
@@ -661,21 +602,15 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "F1F1A12639CCE7C24"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.IsReady
+function C9A36C584C8FEB51A_prototype:F1F1A12639CCE7C24()
   local L1_2
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.PreUpdate
+function C9A36C584C8FEB51A_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = C9A36C584C8FEB51A
   L2_2 = L2_2.SE83A0AB2F46D0D71
@@ -683,7 +618,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = nil
     L4_2 = c016374C1
     L4_2 = L4_2.f4555D276
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
@@ -693,18 +628,18 @@ function L70_1(A0_2, A1_2)
       L4_2 = L4_2.f5439788F
       L6_2 = "view_ymap_topmenu_00"
       L4_2 = L4_2(L5_2, L6_2)
-      A0_2[2] = L4_2
+      self[2] = L4_2
       L4_2 = nil
       L5_2 = c016374C1
       L5_2 = L5_2.f4555D276
-      L6_2 = A0_2[2]
+      L6_2 = self[2]
       L7_2 = L4_2
       L5_2 = L5_2(L6_2, L7_2)
       if L5_2 then
         return
       end
     end
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L4_2
     L4_2 = L4_2.f9D8BC178
     L4_2 = L4_2(L5_2)
@@ -722,7 +657,7 @@ function L70_1(A0_2, A1_2)
       L5_2 = C9A36C584C8FEB51A
       L6_2 = cECF00344
       L6_2 = L6_2.fEECE6995
-      L7_2 = A0_2[2]
+      L7_2 = self[2]
       L6_2 = L6_2(L7_2)
       L5_2.SCF907CCCE0CB5143 = L6_2
       L5_2 = nil
@@ -745,39 +680,39 @@ function L70_1(A0_2, A1_2)
     L5_2 = nil
     L6_2 = c69ACCC6F
     L6_2 = L6_2.fEFEFCCBE
-    L7_2 = A0_2[4]
+    L7_2 = self[4]
     L8_2 = L5_2
     L6_2 = L6_2(L7_2, L8_2)
     if L6_2 then
       L6_2 = c69ACCC6F
       L6_2 = L6_2.f3F98EEAD
-      L7_2 = A0_2[2]
+      L7_2 = self[2]
       L6_2 = L6_2(L7_2)
-      A0_2[4] = L6_2
+      self[4] = L6_2
       L6_2 = nil
       L7_2 = c69ACCC6F
       L7_2 = L7_2.fEFEFCCBE
-      L8_2 = A0_2[4]
+      L8_2 = self[4]
       L9_2 = L6_2
       L7_2 = L7_2(L8_2, L9_2)
       if L7_2 then
         return
       end
-      L7_2 = A0_2[4]
+      L7_2 = self[4]
       L8_2 = L7_2
       L7_2 = L7_2.fC1509E74
       L9_2 = false
       L7_2(L8_2, L9_2)
     end
-    L7_2 = A0_2
-    L6_2 = A0_2.FF5DD8004CB1398A0
+    L7_2 = self
+    L6_2 = self.FF5DD8004CB1398A0
     L6_2 = L6_2(L7_2)
     if false == L6_2 then
       return
     end
-    L6_2 = A0_2[7]
+    L6_2 = self[7]
     if nil == L6_2 then
-      L6_2 = A0_2[2]
+      L6_2 = self[2]
       L7_2 = L6_2
       L6_2 = L6_2.fB3CF1DEB
       L6_2 = L6_2(L7_2)
@@ -789,17 +724,17 @@ function L70_1(A0_2, A1_2)
       if L7_2 == L8_2 then
         L7_2 = nil
       end
-      A0_2[7] = L7_2
-      L8_2 = A0_2[7]
+      self[7] = L7_2
+      L8_2 = self[7]
       if nil == L8_2 then
         return
       end
-      L8_2 = A0_2[7]
+      L8_2 = self[7]
       L9_2 = L8_2
       L8_2 = L8_2.F8FAAA0B73A0E0167
       L10_2 = L55_1
-      L11_2 = A0_2
-      L12_2 = A0_2.FB3E04B59049E4A0A
+      L11_2 = self
+      L12_2 = self.FB3E04B59049E4A0A
       L10_2, L11_2, L12_2 = L10_2(L11_2, L12_2)
       L8_2(L9_2, L10_2, L11_2, L12_2)
     end
@@ -835,7 +770,7 @@ function L70_1(A0_2, A1_2)
       L5_2 = C9A36C584C8FEB51A
       L5_2.SE83A0AB2F46D0D71 = 12
     else
-      A0_2[17] = true
+      self[17] = true
       L5_2 = C388798CF80F2AF9D
       L5_2.SB38415D8BAD3CCF8 = false
       L5_2 = C9A36C584C8FEB51A
@@ -845,25 +780,25 @@ function L70_1(A0_2, A1_2)
   elseif 12 == L2_2 then
     L3_2 = C388798CF80F2AF9D
     L3_2.SB38415D8BAD3CCF8 = true
-    L4_2 = A0_2
-    L3_2 = A0_2.FD0B7C9965A458580
+    L4_2 = self
+    L3_2 = self.FD0B7C9965A458580
     L3_2(L4_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.FE2AED0B25257248F
+    L4_2 = self
+    L3_2 = self.FE2AED0B25257248F
     L5_2 = false
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.f1EA0CCF2
     L3_2(L4_2)
-    L3_2 = A0_2[17]
+    L3_2 = self[17]
     if false == L3_2 then
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L4_2 = L3_2
       L3_2 = L3_2.f83FE57AE
       L3_2(L4_2)
     else
-      L3_2 = A0_2[15]
+      L3_2 = self[15]
       if L3_2 then
         L3_2 = C9A36C584C8FEB51A
         L3_2 = L3_2.SCF907CCCE0CB5143
@@ -921,22 +856,22 @@ function L70_1(A0_2, A1_2)
     L7_2 = L6_2
     if L3_2 and L5_2 then
       if not L7_2 then
-        L8_2 = A0_2[13]
+        L8_2 = self[13]
         L8_2[0] = true
-        L8_2 = A0_2[14]
+        L8_2 = self[14]
         L8_2 = L8_2[0]
         L9_2 = L8_2
         L8_2 = L8_2.f2A9CF058
-        L10_2 = A0_2[13]
+        L10_2 = self[13]
         L10_2 = L10_2[0]
         L8_2(L9_2, L10_2)
-        L8_2 = A0_2[13]
+        L8_2 = self[13]
         L8_2[2] = true
-        L8_2 = A0_2[14]
+        L8_2 = self[14]
         L8_2 = L8_2[2]
         L9_2 = L8_2
         L8_2 = L8_2.f2A9CF058
-        L10_2 = A0_2[13]
+        L10_2 = self[13]
         L10_2 = L10_2[2]
         L8_2(L9_2, L10_2)
         L8_2 = C10578806AC30DCA3
@@ -958,7 +893,7 @@ function L70_1(A0_2, A1_2)
       L8_2 = L8_2.fB4E9D030
       L10_2 = "unlock_1"
       L8_2(L9_2, L10_2)
-      A0_2[18] = 0
+      self[18] = 0
       L8_2 = C9A36C584C8FEB51A
       L8_2.SE83A0AB2F46D0D71 = 22
     end
@@ -966,7 +901,7 @@ function L70_1(A0_2, A1_2)
     function L3_2()
       local L0_3, L1_3, L2_3, L3_3
       
-      L0_3 = A0_2
+      L0_3 = self
       L1_3 = 18
       L2_3 = L0_3[L1_3]
       L3_3 = L0_3[L1_3]
@@ -998,22 +933,22 @@ function L70_1(A0_2, A1_2)
     if false == L3_2 then
       return
     end
-    L3_2 = A0_2[13]
+    L3_2 = self[13]
     L3_2[0] = true
-    L3_2 = A0_2[14]
+    L3_2 = self[14]
     L3_2 = L3_2[0]
     L4_2 = L3_2
     L3_2 = L3_2.f2A9CF058
-    L5_2 = A0_2[13]
+    L5_2 = self[13]
     L5_2 = L5_2[0]
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[13]
+    L3_2 = self[13]
     L3_2[2] = true
-    L3_2 = A0_2[14]
+    L3_2 = self[14]
     L3_2 = L3_2[2]
     L4_2 = L3_2
     L3_2 = L3_2.f2A9CF058
-    L5_2 = A0_2[13]
+    L5_2 = self[13]
     L5_2 = L5_2[2]
     L3_2(L4_2, L5_2)
     L3_2 = C10578806AC30DCA3
@@ -1068,13 +1003,13 @@ function L70_1(A0_2, A1_2)
     if false == L3_2 then
       return
     end
-    L3_2 = A0_2[13]
+    L3_2 = self[13]
     L3_2[1] = true
-    L3_2 = A0_2[14]
+    L3_2 = self[14]
     L3_2 = L3_2[1]
     L4_2 = L3_2
     L3_2 = L3_2.f2A9CF058
-    L5_2 = A0_2[13]
+    L5_2 = self[13]
     L5_2 = L5_2[1]
     L3_2(L4_2, L5_2)
     L3_2 = C10578806AC30DCA3
@@ -1089,20 +1024,20 @@ function L70_1(A0_2, A1_2)
     L3_2 = C9A36C584C8FEB51A
     L3_2.SE83A0AB2F46D0D71 = 50
   elseif 50 == L2_2 then
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     L4_2 = L3_2
     L3_2 = L3_2.F662618219342164B
     L3_2 = L3_2(L4_2)
     if false == L3_2 then
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L4_2 = L3_2
       L3_2 = L3_2.F05BE586ACE456D71
       L3_2 = L3_2(L4_2)
       if false == L3_2 then
-        L4_2 = A0_2
-        L3_2 = A0_2.F833A879A8FDB26CA
+        L4_2 = self
+        L3_2 = self.F833A879A8FDB26CA
         L3_2(L4_2)
-        A0_2[17] = true
+        self[17] = true
         L3_2 = C9A36C584C8FEB51A
         L3_2.S481169A2A6574DF1 = 0
         L3_2 = C9A36C584C8FEB51A
@@ -1110,8 +1045,8 @@ function L70_1(A0_2, A1_2)
       end
     end
   elseif 60 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FEB6685558281F194
+    L4_2 = self
+    L3_2 = self.FEB6685558281F194
     L5_2 = A1_2
     L3_2(L4_2, L5_2)
   elseif 100 == L2_2 then
@@ -1133,8 +1068,8 @@ function L70_1(A0_2, A1_2)
         L6_2 = false
         L4_2(L5_2, L6_2)
       end
-      L5_2 = A0_2
-      L4_2 = A0_2.F6D1EF40E74B6E9A4
+      L5_2 = self
+      L4_2 = self.F6D1EF40E74B6E9A4
       L4_2(L5_2)
       L4_2 = C9A36C584C8FEB51A
       L4_2.SE83A0AB2F46D0D71 = 120
@@ -1151,8 +1086,8 @@ function L70_1(A0_2, A1_2)
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F6D1EF40E74B6E9A4
+      L5_2 = self
+      L4_2 = self.F6D1EF40E74B6E9A4
       L4_2(L5_2)
       L4_2 = C9A36C584C8FEB51A
       L4_2.SE83A0AB2F46D0D71 = 120
@@ -1180,13 +1115,13 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2.f2A9CF058
     L6_2 = false
     L4_2(L5_2, L6_2)
-    L5_2 = A0_2
-    L4_2 = A0_2.F6D1EF40E74B6E9A4
+    L5_2 = self
+    L4_2 = self.F6D1EF40E74B6E9A4
     L4_2(L5_2)
     L4_2 = C9A36C584C8FEB51A
     L4_2.SE83A0AB2F46D0D71 = 120
     ::lbl_496::
-    L4_2 = A0_2[9]
+    L4_2 = self[9]
     L6_2 = A1_2
     L5_2 = A1_2.f22D509B2
     L7_2 = 2
@@ -1195,15 +1130,15 @@ function L70_1(A0_2, A1_2)
     L5_2 = L5_2.fC0E2CAD0
     L5_2 = L5_2(L6_2)
     L4_2 = L4_2 + L5_2
-    A0_2[9] = L4_2
+    self[9] = L4_2
     L4_2 = C828F047963375FA0
     L4_2 = L4_2.SC9F8663AFEAB245A
-    L5_2 = A0_2[9]
+    L5_2 = self[9]
     L6_2 = "SceneYMapTopMenu PreUpdate STATUS_UNLOAD TimeOut"
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F6D1EF40E74B6E9A4
+      L5_2 = self
+      L4_2 = self.F6D1EF40E74B6E9A4
       L4_2(L5_2)
       L4_2 = C9A36C584C8FEB51A
       L4_2.SE83A0AB2F46D0D71 = 120
@@ -1213,11 +1148,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "F6D1EF40E74B6E9A4"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.Terminate
+function C9A36C584C8FEB51A_prototype:F6D1EF40E74B6E9A4()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -1235,22 +1167,19 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "FF5DD8004CB1398A0"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.setupUikitButton
+function C9A36C584C8FEB51A_prototype:FF5DD8004CB1398A0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = cECD2E4A5
   L1_2 = L1_2.fBC1D4AC0
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = "GridPanel_00"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[10] = L1_2
+  self[10] = L1_2
   L1_2 = nil
   L2_2 = c27E0D07E
   L2_2 = L2_2.fFC04274B
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -1261,7 +1190,7 @@ function L70_1(A0_2)
   while L2_2 < 5 do
     L2_2 = L2_2 + 1
     L3_2 = L2_2 - 1
-    L4_2 = A0_2[12]
+    L4_2 = self[12]
     L5_2 = L4_2
     L4_2 = L4_2.push
     L6_2 = L31_1.string
@@ -1279,14 +1208,14 @@ function L70_1(A0_2)
     L6_2 = L3_2
     L5_2 = L5_2(L6_2)
     L4_2 = L4_2 .. L5_2
-    L5_2 = A0_2[11]
+    L5_2 = self[11]
     L6_2 = L5_2
     L5_2 = L5_2.push
     L7_2 = L4_2
     L5_2(L6_2, L7_2)
     L5_2 = cECD2E4A5
     L5_2 = L5_2.f6906455E
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
     L6_2 = nil
@@ -1299,7 +1228,7 @@ function L70_1(A0_2)
       L7_2 = false
       return L7_2
     end
-    L7_2 = A0_2[14]
+    L7_2 = self[14]
     L8_2 = L7_2
     L7_2 = L7_2.push
     L9_2 = L5_2
@@ -1311,7 +1240,7 @@ function L70_1(A0_2)
     L4_2 = L3_2 - 1
     L5_2 = c8C3BF576
     L5_2 = L5_2.f316077B2
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L7_2 = L31_1.string
     L8_2 = L31_1.string
     L9_2 = "L_button_0"
@@ -1347,7 +1276,7 @@ function L70_1(A0_2)
     L4_2 = nil
   end
   if L4_2 then
-    L5_2 = A0_2[13]
+    L5_2 = self[13]
     L5_2[1] = true
   end
   L5_2 = C10578806AC30DCA3
@@ -1359,39 +1288,33 @@ function L70_1(A0_2)
     L5_2 = nil
   end
   if L5_2 then
-    L6_2 = A0_2[13]
+    L6_2 = self[13]
     L6_2[0] = true
-    L6_2 = A0_2[13]
+    L6_2 = self[13]
     L6_2[2] = true
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.FE2AED0B25257248F
+  L7_2 = self
+  L6_2 = self.FE2AED0B25257248F
   L8_2 = false
   L6_2(L7_2, L8_2)
   L6_2 = true
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "F662618219342164B"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.IsCancel
+function C9A36C584C8FEB51A_prototype:F662618219342164B()
   local L1_2
-  L1_2 = A0_2[19]
+  L1_2 = self[19]
   if L1_2 then
     L1_2 = C9A36C584C8FEB51A
     L1_2.S481169A2A6574DF1 = 20
   end
-  L1_2 = A0_2[19]
+  L1_2 = self[19]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "FE3600F0A5BDB8875"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.IsClosed
+function C9A36C584C8FEB51A_prototype:FE3600F0A5BDB8875()
   local L1_2
   L1_2 = C9A36C584C8FEB51A
   L1_2 = L1_2.S481169A2A6574DF1
@@ -1399,11 +1322,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "F7A667273D063B23A"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.F7A667273D063B23A
+function C9A36C584C8FEB51A_prototype:F7A667273D063B23A()
   local L1_2, L2_2
   L1_2 = C53C4062FD417098A
   L1_2 = L1_2.SA5EFC176C819A19B
@@ -1427,7 +1347,7 @@ function L70_1(A0_2)
       end
     end
   end
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.f89358001
   L1_2(L2_2)
@@ -1435,43 +1355,37 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "FB3E04B59049E4A0A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.FB3E04B59049E4A0A
+function C9A36C584C8FEB51A_prototype:FB3E04B59049E4A0A(A1_2)
   local L2_2
   L2_2 = C9A36C584C8FEB51A
   L2_2 = L2_2.S481169A2A6574DF1
   if 10 == L2_2 then
-    L2_2 = A0_2[16]
+    L2_2 = self[16]
     if L2_2 then
       goto lbl_9
     end
   end
   do return end
   ::lbl_9::
-  A0_2[8] = A1_2
+  self[8] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.Update
+function C9A36C584C8FEB51A_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FCA914AB0A20397A5
+  L3_2 = self
+  L2_2 = self.FCA914AB0A20397A5
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   if L3_2 ~= L2_2 then
-    A0_2[3] = L2_2
+    self[3] = L2_2
   end
-  A0_2[19] = false
+  self[19] = false
   L3_2 = C9A36C584C8FEB51A
   L3_2 = L3_2.S481169A2A6574DF1
   if 0 == L3_2 then
-    L4_2 = A0_2[4]
+    L4_2 = self[4]
     L5_2 = L4_2
     L4_2 = L4_2.fE09DCCE4
     L4_2 = L4_2(L5_2)
@@ -1480,48 +1394,48 @@ function L70_1(A0_2, A1_2)
     end
     L4_2 = C9A36C584C8FEB51A
     L4_2.S481169A2A6574DF1 = 10
-    A0_2[8] = 21
+    self[8] = 21
   elseif 10 == L3_2 then
-    L4_2 = A0_2[16]
+    L4_2 = self[16]
     if false == L4_2 then
       return
     end
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     if 5 ~= L4_2 then
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       if 6 ~= L4_2 then
         goto lbl_36
       end
     end
-    A0_2[19] = true
+    self[19] = true
     goto lbl_79
     ::lbl_36::
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     if 4 == L4_2 then
       L4_2 = C3A36506FBC96ACBD
       L4_2 = L4_2.SC6181320B46854EE
       L5_2 = "PLAY_UI_COMMON_DECIDE"
       L4_2(L5_2)
-      L4_2 = A0_2[3]
+      L4_2 = self[3]
       L5_2 = C53C4062FD417098A
       L5_2 = L5_2.SDA89FAB0CFA83802
       if L4_2 ~= L5_2 then
         L4_2 = C53C4062FD417098A
-        L5_2 = A0_2[3]
+        L5_2 = self[3]
         L4_2.SA5EFC176C819A19B = L5_2
       else
-        A0_2[19] = true
+        self[19] = true
       end
     else
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       if 7 == L4_2 then
         L4_2 = C388798CF80F2AF9D
         L4_2.S738F8F405EF4CFD8 = true
       end
     end
   elseif 20 == L3_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.FD014229B3B926D03
+    L5_2 = self
+    L4_2 = self.FD014229B3B926D03
     L4_2(L5_2)
     L4_2 = C9A36C584C8FEB51A
     L4_2.S481169A2A6574DF1 = 22
@@ -1539,19 +1453,16 @@ function L70_1(A0_2, A1_2)
     L4_2.S481169A2A6574DF1 = 0
   end
   ::lbl_79::
-  A0_2[8] = 21
+  self[8] = 21
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "FE2AED0B25257248F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.UikitSetVisible
+function C9A36C584C8FEB51A_prototype:FE2AED0B25257248F(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f4555D276
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
@@ -1559,50 +1470,47 @@ function L70_1(A0_2, A1_2)
   end
   L3_2 = cECD2E4A5
   L3_2 = L3_2.fD4E920D9
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = "Cursor_00"
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = L3_2
   L3_2 = L3_2.f2A9CF058
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F833A879A8FDB26CA
+  L4_2 = self
+  L3_2 = self.F833A879A8FDB26CA
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A36C584C8FEB51A"]["prototype"]
-L69_1 = "F833A879A8FDB26CA"
-
-function L70_1(A0_2)
+--- main.ui.ymap.topmenu.SceneYMapTopMenu.F833A879A8FDB26CA
+function C9A36C584C8FEB51A_prototype:F833A879A8FDB26CA()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
   while L1_2 < 5 do
     L1_2 = L1_2 + 1
     L2_2 = L1_2 - 1
-    L3_2 = A0_2[14]
+    L3_2 = self[14]
     L3_2 = L3_2[L2_2]
     L4_2 = L3_2
     L3_2 = L3_2.f2A9CF058
-    L5_2 = A0_2[13]
+    L5_2 = self[13]
     L5_2 = L5_2[L2_2]
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[10]
+    L3_2 = self[10]
     L4_2 = L3_2
     L3_2 = L3_2.f94487CEE
-    L5_2 = A0_2[11]
+    L5_2 = self[11]
     L5_2 = L5_2[L2_2]
-    L6_2 = A0_2[13]
+    L6_2 = self[13]
     L6_2 = L6_2[L2_2]
     L3_2(L4_2, L5_2, L6_2)
     L3_2 = C9A36C584C8FEB51A
     L3_2 = L3_2.SCF907CCCE0CB5143
     L4_2 = L3_2
     L3_2 = L3_2.f7798D9F4
-    L5_2 = A0_2[12]
+    L5_2 = self[12]
     L5_2 = L5_2[L2_2]
-    L6_2 = A0_2[13]
+    L6_2 = self[13]
     L6_2 = L6_2[L2_2]
     L3_2(L4_2, L5_2, L6_2)
   end

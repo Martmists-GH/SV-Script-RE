@@ -1,3 +1,7 @@
+---@alias C5DAAF20D9CDEAE47 main_playables_network_NetIttekoi
+
+---@class main_playables_network_NetIttekoi : C5DAAF20D9CDEAE47_prototype
+---@field prototype C5DAAF20D9CDEAE47_prototype
 L55_1 = _ENV
 L56_1 = "C5DAAF20D9CDEAE47"
 L57_1 = L15_1
@@ -60,136 +64,125 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C5DAAF20D9CDEAE47"]
 L69_1 = "__name__"
 L70_1 = "C5DAAF20D9CDEAE47"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DAAF20D9CDEAE47"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DAAF20D9CDEAE47"]["prototype"]
-L69_1 = "F9E76A204E686CBD3"
-
-function L70_1(A0_2)
+---@class C5DAAF20D9CDEAE47_prototype
+C5DAAF20D9CDEAE47_prototype = L15_1()
+C5DAAF20D9CDEAE47.prototype = C5DAAF20D9CDEAE47_prototype
+--- main.playables.network.NetIttekoi.CleanUp
+function C5DAAF20D9CDEAE47_prototype:F9E76A204E686CBD3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f8C7D4F4D
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L3_2 = L2_2
     L2_2 = L2_2.fCDCB600D
     L4_2 = true
     L2_2(L3_2, L4_2)
-    A0_2[4] = nil
+    self[4] = nil
   end
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f8C7D4F4D
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.fCDCB600D
     L5_2 = true
     L3_2(L4_2, L5_2)
-    A0_2[5] = nil
+    self[5] = nil
   end
   L3_2 = nil
   L4_2 = c016374C1
   L4_2 = L4_2.f8C7D4F4D
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L4_2 = A0_2[6]
+    L4_2 = self[6]
     L5_2 = L4_2
     L4_2 = L4_2.fCDCB600D
     L6_2 = true
     L4_2(L5_2, L6_2)
-    A0_2[6] = nil
+    self[6] = nil
   end
   L4_2 = nil
   L5_2 = c016374C1
   L5_2 = L5_2.f8C7D4F4D
-  L6_2 = A0_2[7]
+  L6_2 = self[7]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
-    L5_2 = A0_2[7]
+    L5_2 = self[7]
     L6_2 = L5_2
     L5_2 = L5_2.fCDCB600D
     L7_2 = true
     L5_2(L6_2, L7_2)
-    A0_2[7] = nil
+    self[7] = nil
   end
   L5_2 = nil
   L6_2 = c016374C1
   L6_2 = L6_2.f8C7D4F4D
-  L7_2 = A0_2[8]
+  L7_2 = self[8]
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
   if L6_2 then
-    L6_2 = A0_2[8]
+    L6_2 = self[8]
     L7_2 = L6_2
     L6_2 = L6_2.fCDCB600D
     L8_2 = true
     L6_2(L7_2, L8_2)
-    A0_2[8] = nil
+    self[8] = nil
   end
-  L6_2 = A0_2[9]
+  L6_2 = self[9]
   if nil ~= L6_2 then
-    L6_2 = A0_2[9]
+    L6_2 = self[9]
     L7_2 = L6_2
     L6_2 = L6_2.F1C2AA00ADAC52EC5
     L6_2(L7_2)
-    A0_2[9] = nil
+    self[9] = nil
   end
-  A0_2[1] = nil
-  A0_2[2] = nil
-  A0_2[3] = nil
+  self[1] = nil
+  self[2] = nil
+  self[3] = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DAAF20D9CDEAE47"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.playables.network.NetIttekoi.Update
+function C5DAAF20D9CDEAE47_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F46879D8E850EB808
+  L2_2 = self
+  L1_2 = self.F46879D8E850EB808
   L1_2(L2_2)
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   if nil ~= L1_2 then
-    L1_2 = A0_2[9]
+    L1_2 = self[9]
     L2_2 = L1_2
     L1_2 = L1_2.FEB6685558281F194
     L1_2(L2_2)
-    L1_2 = A0_2[9]
+    L1_2 = self[9]
     L2_2 = L1_2[6]
     if nil ~= L2_2 then
       L2_2 = L1_2[6]
       L2_2 = L2_2[4]
       if 5 == L2_2 then
-        L2_2 = A0_2[9]
+        L2_2 = self[9]
         L3_2 = L2_2
         L2_2 = L2_2.F1C2AA00ADAC52EC5
         L2_2(L3_2)
-        A0_2[9] = nil
+        self[9] = nil
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DAAF20D9CDEAE47"]["prototype"]
-L69_1 = "F7EED485852A4D25F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.playables.network.NetIttekoi.Start
+function C5DAAF20D9CDEAE47_prototype:F7EED485852A4D25F(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L5_2 = cB8F92879
   L5_2 = L5_2.f6F41B608
@@ -217,41 +210,41 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   if L9_2 then
     return
   end
-  L9_2 = A0_2[4]
+  L9_2 = self[4]
   L10_2 = L9_2
   L9_2 = L9_2.f9D8BC178
   L9_2 = L9_2(L10_2)
   if not L9_2 then
     return
   end
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L10_2 = L9_2
   L9_2 = L9_2.f9D8BC178
   L9_2 = L9_2(L10_2)
   if not L9_2 then
     return
   end
-  L9_2 = A0_2[6]
+  L9_2 = self[6]
   L10_2 = L9_2
   L9_2 = L9_2.f9D8BC178
   L9_2 = L9_2(L10_2)
   if not L9_2 then
     return
   end
-  L9_2 = A0_2[7]
+  L9_2 = self[7]
   L10_2 = L9_2
   L9_2 = L9_2.f9D8BC178
   L9_2 = L9_2(L10_2)
   if not L9_2 then
     return
   end
-  L9_2 = A0_2[9]
+  L9_2 = self[9]
   if nil ~= L9_2 then
-    L9_2 = A0_2[9]
+    L9_2 = self[9]
     L10_2 = L9_2
     L9_2 = L9_2.F1C2AA00ADAC52EC5
     L9_2(L10_2)
-    A0_2[9] = nil
+    self[9] = nil
   end
   L9_2 = c4E28AB7C
   L9_2 = L9_2.fB41FD22F
@@ -276,33 +269,33 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       L14_2 = L7_2
       L15_2 = A4_2
       L11_2 = L11_2(L12_2, L13_2, L14_2, L15_2)
-      A0_2[9] = L11_2
-      L11_2 = A0_2[9]
+      self[9] = L11_2
+      L11_2 = self[9]
       L12_2 = L11_2
       L11_2 = L11_2.F988D7D0A4EEF693D
       L11_2(L12_2)
-      L11_2 = A0_2[9]
+      L11_2 = self[9]
       L12_2 = L58_1
       L13_2 = L55_1
-      L14_2 = A0_2
-      L15_2 = A0_2.FCE9CAF4FE077B20A
+      L14_2 = self
+      L15_2 = self.FCE9CAF4FE077B20A
       L13_2, L14_2, L15_2, L16_2 = L13_2(L14_2, L15_2)
       L12_2 = L12_2(L13_2, L14_2, L15_2, L16_2)
       L11_2.F7C86C9616DC1CBAB = L12_2
-      L11_2 = A0_2[9]
+      L11_2 = self[9]
       L12_2 = L58_1
       L13_2 = L55_1
-      L14_2 = A0_2
-      L15_2 = A0_2.F338A50689CEDF233
+      L14_2 = self
+      L15_2 = self.F338A50689CEDF233
       L13_2, L14_2, L15_2, L16_2 = L13_2(L14_2, L15_2)
       L12_2 = L12_2(L13_2, L14_2, L15_2, L16_2)
       L11_2.FEB4CC06C7D521886 = L12_2
     end
   end
-  L11_2 = A0_2[9]
+  L11_2 = self[9]
   if nil == L11_2 then
-    L12_2 = A0_2
-    L11_2 = A0_2.FCE9CAF4FE077B20A
+    L12_2 = self
+    L11_2 = self.FCE9CAF4FE077B20A
     L13_2 = L5_2
     L14_2 = A2_2
     L15_2 = L7_2
@@ -311,11 +304,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DAAF20D9CDEAE47"]["prototype"]
-L69_1 = "F2AB184F7269913EB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.playables.network.NetIttekoi.F2AB184F7269913EB
+function C5DAAF20D9CDEAE47_prototype:F2AB184F7269913EB(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L5_2 = cB8F92879
   L5_2 = L5_2.f6F41B608
@@ -330,41 +320,41 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   if L7_2 then
     return
   end
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = L7_2
   L7_2 = L7_2.f9D8BC178
   L7_2 = L7_2(L8_2)
   if not L7_2 then
     return
   end
-  L7_2 = A0_2[5]
+  L7_2 = self[5]
   L8_2 = L7_2
   L7_2 = L7_2.f9D8BC178
   L7_2 = L7_2(L8_2)
   if not L7_2 then
     return
   end
-  L7_2 = A0_2[6]
+  L7_2 = self[6]
   L8_2 = L7_2
   L7_2 = L7_2.f9D8BC178
   L7_2 = L7_2(L8_2)
   if not L7_2 then
     return
   end
-  L7_2 = A0_2[7]
+  L7_2 = self[7]
   L8_2 = L7_2
   L7_2 = L7_2.f9D8BC178
   L7_2 = L7_2(L8_2)
   if not L7_2 then
     return
   end
-  L7_2 = A0_2[9]
+  L7_2 = self[9]
   if nil ~= L7_2 then
-    L7_2 = A0_2[9]
+    L7_2 = self[9]
     L8_2 = L7_2
     L7_2 = L7_2.F1C2AA00ADAC52EC5
     L7_2(L8_2)
-    A0_2[9] = nil
+    self[9] = nil
   end
   L7_2 = c4E28AB7C
   L7_2 = L7_2.fB41FD22F
@@ -389,33 +379,33 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       L12_2 = L5_2
       L13_2 = A4_2
       L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2)
-      A0_2[9] = L9_2
-      L9_2 = A0_2[9]
+      self[9] = L9_2
+      L9_2 = self[9]
       L10_2 = L9_2
       L9_2 = L9_2.F988D7D0A4EEF693D
       L9_2(L10_2)
-      L9_2 = A0_2[9]
+      L9_2 = self[9]
       L10_2 = L58_1
       L11_2 = L55_1
-      L12_2 = A0_2
-      L13_2 = A0_2.FCE9CAF4FE077B20A
+      L12_2 = self
+      L13_2 = self.FCE9CAF4FE077B20A
       L11_2, L12_2, L13_2, L14_2 = L11_2(L12_2, L13_2)
       L10_2 = L10_2(L11_2, L12_2, L13_2, L14_2)
       L9_2.F7C86C9616DC1CBAB = L10_2
-      L9_2 = A0_2[9]
+      L9_2 = self[9]
       L10_2 = L58_1
       L11_2 = L55_1
-      L12_2 = A0_2
-      L13_2 = A0_2.F338A50689CEDF233
+      L12_2 = self
+      L13_2 = self.F338A50689CEDF233
       L11_2, L12_2, L13_2, L14_2 = L11_2(L12_2, L13_2)
       L10_2 = L10_2(L11_2, L12_2, L13_2, L14_2)
       L9_2.FEB4CC06C7D521886 = L10_2
     end
   end
-  L9_2 = A0_2[9]
+  L9_2 = self[9]
   if nil == L9_2 then
-    L10_2 = A0_2
-    L9_2 = A0_2.FCE9CAF4FE077B20A
+    L10_2 = self
+    L9_2 = self.FCE9CAF4FE077B20A
     L11_2 = A1_2
     L12_2 = A2_2
     L13_2 = L5_2
@@ -424,31 +414,25 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DAAF20D9CDEAE47"]["prototype"]
-L69_1 = "F96B4C3266FC0614A"
-
-function L70_1(A0_2)
+--- main.playables.network.NetIttekoi.End
+function C5DAAF20D9CDEAE47_prototype:F96B4C3266FC0614A()
   local L1_2, L2_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   if nil ~= L1_2 then
-    L1_2 = A0_2[9]
+    L1_2 = self[9]
     L2_2 = L1_2
     L1_2 = L1_2.F1C2AA00ADAC52EC5
     L1_2(L2_2)
-    A0_2[9] = nil
+    self[9] = nil
   else
-    L2_2 = A0_2
-    L1_2 = A0_2.F338A50689CEDF233
+    L2_2 = self
+    L1_2 = self.F338A50689CEDF233
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DAAF20D9CDEAE47"]["prototype"]
-L69_1 = "FCE9CAF4FE077B20A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.playables.network.NetIttekoi.Emit
+function C5DAAF20D9CDEAE47_prototype:FCE9CAF4FE077B20A(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L5_2 = cAA7097FF
   L5_2 = L5_2.fB41FD22F
@@ -483,76 +467,70 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L8_2(L9_2, L10_2, L11_2)
   end
   if 2 == A2_2 then
-    L8_2 = A0_2
-    L7_2 = A0_2.F410FDAC3D09D3D92
+    L8_2 = self
+    L7_2 = self.F410FDAC3D09D3D92
     L9_2 = A1_2
-    L10_2 = A0_2[4]
+    L10_2 = self[4]
     L7_2(L8_2, L9_2, L10_2)
   else
     if 3 == A2_2 then
-      L8_2 = A0_2
-      L7_2 = A0_2.F410FDAC3D09D3D92
+      L8_2 = self
+      L7_2 = self.F410FDAC3D09D3D92
       L9_2 = A1_2
-      L10_2 = A0_2[5]
+      L10_2 = self[5]
       L7_2(L8_2, L9_2, L10_2)
     else
     end
   end
   if 2 == A4_2 then
-    L8_2 = A0_2
-    L7_2 = A0_2.F410FDAC3D09D3D92
+    L8_2 = self
+    L7_2 = self.F410FDAC3D09D3D92
     L9_2 = A3_2
-    L10_2 = A0_2[6]
+    L10_2 = self[6]
     L7_2(L8_2, L9_2, L10_2)
   else
     if 3 == A4_2 then
-      L8_2 = A0_2
-      L7_2 = A0_2.F410FDAC3D09D3D92
+      L8_2 = self
+      L7_2 = self.F410FDAC3D09D3D92
       L9_2 = A3_2
-      L10_2 = A0_2[7]
+      L10_2 = self[7]
       L7_2(L8_2, L9_2, L10_2)
     else
     end
   end
-  L8_2 = A0_2
-  L7_2 = A0_2.FB88CB03690E2EC85
+  L8_2 = self
+  L7_2 = self.FB88CB03690E2EC85
   L9_2 = A1_2
   L10_2 = A3_2
   L7_2(L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DAAF20D9CDEAE47"]["prototype"]
-L69_1 = "F338A50689CEDF233"
-
-function L70_1(A0_2)
+--- main.playables.network.NetIttekoi.Fade
+function C5DAAF20D9CDEAE47_prototype:F338A50689CEDF233()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F07470BDBA27C00BB
-  L3_2 = A0_2[4]
+  L2_2 = self
+  L1_2 = self.F07470BDBA27C00BB
+  L3_2 = self[4]
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F07470BDBA27C00BB
-  L3_2 = A0_2[5]
+  L2_2 = self
+  L1_2 = self.F07470BDBA27C00BB
+  L3_2 = self[5]
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F07470BDBA27C00BB
-  L3_2 = A0_2[6]
+  L2_2 = self
+  L1_2 = self.F07470BDBA27C00BB
+  L3_2 = self[6]
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F07470BDBA27C00BB
-  L3_2 = A0_2[7]
+  L2_2 = self
+  L1_2 = self.F07470BDBA27C00BB
+  L3_2 = self[7]
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FF28BB71EBF3217F4
+  L2_2 = self
+  L1_2 = self.FF28BB71EBF3217F4
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DAAF20D9CDEAE47"]["prototype"]
-L69_1 = "F410FDAC3D09D3D92"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.playables.network.NetIttekoi.ResultEffectEmit
+function C5DAAF20D9CDEAE47_prototype:F410FDAC3D09D3D92(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L3_2 = nil
   L4_2 = c016374C1
@@ -633,11 +611,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L10_2(L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DAAF20D9CDEAE47"]["prototype"]
-L69_1 = "F07470BDBA27C00BB"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.network.NetIttekoi.ResultEffectFade
+function C5DAAF20D9CDEAE47_prototype:F07470BDBA27C00BB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = nil
   L3_2 = c016374C1
@@ -676,11 +651,8 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DAAF20D9CDEAE47"]["prototype"]
-L69_1 = "FB88CB03690E2EC85"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.playables.network.NetIttekoi.ImpactEffectEmit
+function C5DAAF20D9CDEAE47_prototype:FB88CB03690E2EC85(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = nil
   L4_2 = c016374C1
@@ -703,33 +675,33 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2 = nil
   L6_2 = c016374C1
   L6_2 = L6_2.f4555D276
-  L7_2 = A0_2[8]
+  L7_2 = self[8]
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
   if L6_2 then
     return
   end
-  L6_2 = A0_2[8]
+  L6_2 = self[8]
   L7_2 = L6_2
   L6_2 = L6_2.f9D8BC178
   L6_2 = L6_2(L7_2)
   if not L6_2 then
     return
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.F847A38445EEF1656
+  L7_2 = self
+  L6_2 = self.F847A38445EEF1656
   L8_2 = A1_2
   L9_2 = A2_2
   L6_2 = L6_2(L7_2, L8_2, L9_2)
   if nil == L6_2 then
     return
   end
-  L7_2 = A0_2[8]
+  L7_2 = self[8]
   L8_2 = L7_2
   L7_2 = L7_2.f6CF71CE1
   L9_2 = true
   L7_2(L8_2, L9_2)
-  L7_2 = A0_2[8]
+  L7_2 = self[8]
   L8_2 = L7_2
   L7_2 = L7_2.f8F2B0552
   L9_2 = L6_2[1]
@@ -738,7 +710,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L7_2(L8_2, L9_2, L10_2, L11_2)
   L7_2 = cE8D61D7D
   L7_2 = L7_2.fB41FD22F
-  L8_2 = A0_2[8]
+  L8_2 = self[8]
   L7_2 = L7_2(L8_2)
   L8_2 = nil
   L9_2 = cE8D61D7D
@@ -755,36 +727,33 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DAAF20D9CDEAE47"]["prototype"]
-L69_1 = "FF28BB71EBF3217F4"
-
-function L70_1(A0_2)
+--- main.playables.network.NetIttekoi.ImpactEffectFade
+function C5DAAF20D9CDEAE47_prototype:FF28BB71EBF3217F4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.f9D8BC178
   L2_2 = L2_2(L3_2)
   if not L2_2 then
     return
   end
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.f6CF71CE1
   L4_2 = false
   L2_2(L3_2, L4_2)
   L2_2 = cE8D61D7D
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cE8D61D7D
@@ -799,11 +768,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DAAF20D9CDEAE47"]["prototype"]
-L69_1 = "F847A38445EEF1656"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.playables.network.NetIttekoi.F847A38445EEF1656
+function C5DAAF20D9CDEAE47_prototype:F847A38445EEF1656(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L3_2 = cECB91E31
   L3_2 = L3_2.fB41FD22F
@@ -881,20 +847,17 @@ function L70_1(A0_2, A1_2, A2_2)
   return L14_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5DAAF20D9CDEAE47"]["prototype"]
-L69_1 = "F46879D8E850EB808"
-
-function L70_1(A0_2)
+--- main.playables.network.NetIttekoi.PrepareObjects
+function C5DAAF20D9CDEAE47_prototype:F46879D8E850EB808()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = nil
   L2_2 = c451059A3
   L2_2 = L2_2.f17C198F8
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.f900312E7
     L2_2 = L2_2(L3_2)
@@ -913,18 +876,18 @@ function L70_1(A0_2)
         L4_2 = nil
         L5_2 = c016374C1
         L5_2 = L5_2.f4555D276
-        L6_2 = A0_2[4]
+        L6_2 = self[4]
         L7_2 = L4_2
         L5_2 = L5_2(L6_2, L7_2)
         if L5_2 then
           L6_2 = L2_2
           L5_2 = L2_2.fF11CC429
           L7_2 = "IttekoiPositiveEffect"
-          L8_2 = A0_2[1]
+          L8_2 = self[1]
           L9_2 = true
           L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2)
-          A0_2[4] = L5_2
-          L5_2 = A0_2[4]
+          self[4] = L5_2
+          L5_2 = self[4]
           L6_2 = L5_2
           L5_2 = L5_2.f6CF71CE1
           L7_2 = false
@@ -933,18 +896,18 @@ function L70_1(A0_2)
         L5_2 = nil
         L6_2 = c016374C1
         L6_2 = L6_2.f4555D276
-        L7_2 = A0_2[6]
+        L7_2 = self[6]
         L8_2 = L5_2
         L6_2 = L6_2(L7_2, L8_2)
         if L6_2 then
           L7_2 = L2_2
           L6_2 = L2_2.fF11CC429
           L8_2 = "IttekoiPositiveEffect"
-          L9_2 = A0_2[1]
+          L9_2 = self[1]
           L10_2 = true
           L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-          A0_2[6] = L6_2
-          L6_2 = A0_2[6]
+          self[6] = L6_2
+          L6_2 = self[6]
           L7_2 = L6_2
           L6_2 = L6_2.f6CF71CE1
           L8_2 = false
@@ -955,11 +918,11 @@ function L70_1(A0_2)
     L2_2 = nil
     L3_2 = c016374C1
     L3_2 = L3_2.f8C7D4F4D
-    L4_2 = A0_2[4]
+    L4_2 = self[4]
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
-      L3_2 = A0_2[4]
+      L3_2 = self[4]
       L4_2 = L3_2
       L3_2 = L3_2.f9D8BC178
       L3_2 = L3_2(L4_2)
@@ -967,16 +930,16 @@ function L70_1(A0_2)
         L3_2 = nil
         L4_2 = c016374C1
         L4_2 = L4_2.f8C7D4F4D
-        L5_2 = A0_2[6]
+        L5_2 = self[6]
         L6_2 = L3_2
         L4_2 = L4_2(L5_2, L6_2)
         if L4_2 then
-          L4_2 = A0_2[6]
+          L4_2 = self[6]
           L5_2 = L4_2
           L4_2 = L4_2.f9D8BC178
           L4_2 = L4_2(L5_2)
           if L4_2 then
-            A0_2[1] = nil
+            self[1] = nil
           end
         end
       end
@@ -985,11 +948,11 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = c451059A3
   L3_2 = L3_2.f17C198F8
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.f900312E7
     L3_2 = L3_2(L4_2)
@@ -1008,18 +971,18 @@ function L70_1(A0_2)
         L5_2 = nil
         L6_2 = c016374C1
         L6_2 = L6_2.f4555D276
-        L7_2 = A0_2[5]
+        L7_2 = self[5]
         L8_2 = L5_2
         L6_2 = L6_2(L7_2, L8_2)
         if L6_2 then
           L7_2 = L3_2
           L6_2 = L3_2.fF11CC429
           L8_2 = "IttekoiNegativeEffect"
-          L9_2 = A0_2[2]
+          L9_2 = self[2]
           L10_2 = true
           L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-          A0_2[5] = L6_2
-          L6_2 = A0_2[5]
+          self[5] = L6_2
+          L6_2 = self[5]
           L7_2 = L6_2
           L6_2 = L6_2.f6CF71CE1
           L8_2 = false
@@ -1028,18 +991,18 @@ function L70_1(A0_2)
         L6_2 = nil
         L7_2 = c016374C1
         L7_2 = L7_2.f4555D276
-        L8_2 = A0_2[7]
+        L8_2 = self[7]
         L9_2 = L6_2
         L7_2 = L7_2(L8_2, L9_2)
         if L7_2 then
           L8_2 = L3_2
           L7_2 = L3_2.fF11CC429
           L9_2 = "IttekoiNegativeEffect"
-          L10_2 = A0_2[2]
+          L10_2 = self[2]
           L11_2 = true
           L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2)
-          A0_2[7] = L7_2
-          L7_2 = A0_2[7]
+          self[7] = L7_2
+          L7_2 = self[7]
           L8_2 = L7_2
           L7_2 = L7_2.f6CF71CE1
           L9_2 = false
@@ -1050,11 +1013,11 @@ function L70_1(A0_2)
     L3_2 = nil
     L4_2 = c016374C1
     L4_2 = L4_2.f8C7D4F4D
-    L5_2 = A0_2[5]
+    L5_2 = self[5]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L4_2 = A0_2[5]
+      L4_2 = self[5]
       L5_2 = L4_2
       L4_2 = L4_2.f9D8BC178
       L4_2 = L4_2(L5_2)
@@ -1062,16 +1025,16 @@ function L70_1(A0_2)
         L4_2 = nil
         L5_2 = c016374C1
         L5_2 = L5_2.f8C7D4F4D
-        L6_2 = A0_2[7]
+        L6_2 = self[7]
         L7_2 = L4_2
         L5_2 = L5_2(L6_2, L7_2)
         if L5_2 then
-          L5_2 = A0_2[7]
+          L5_2 = self[7]
           L6_2 = L5_2
           L5_2 = L5_2.f9D8BC178
           L5_2 = L5_2(L6_2)
           if L5_2 then
-            A0_2[2] = nil
+            self[2] = nil
           end
         end
       end
@@ -1080,11 +1043,11 @@ function L70_1(A0_2)
   L3_2 = nil
   L4_2 = c451059A3
   L4_2 = L4_2.f17C198F8
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.f900312E7
     L4_2 = L4_2(L5_2)
@@ -1103,18 +1066,18 @@ function L70_1(A0_2)
         L6_2 = nil
         L7_2 = c016374C1
         L7_2 = L7_2.f4555D276
-        L8_2 = A0_2[8]
+        L8_2 = self[8]
         L9_2 = L6_2
         L7_2 = L7_2(L8_2, L9_2)
         if L7_2 then
           L8_2 = L4_2
           L7_2 = L4_2.fF11CC429
           L9_2 = "IttekoiImpactEffect"
-          L10_2 = A0_2[3]
+          L10_2 = self[3]
           L11_2 = true
           L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2)
-          A0_2[8] = L7_2
-          L7_2 = A0_2[8]
+          self[8] = L7_2
+          L7_2 = self[8]
           L8_2 = L7_2
           L7_2 = L7_2.f6CF71CE1
           L9_2 = false
@@ -1125,16 +1088,16 @@ function L70_1(A0_2)
     L4_2 = nil
     L5_2 = c016374C1
     L5_2 = L5_2.f8C7D4F4D
-    L6_2 = A0_2[8]
+    L6_2 = self[8]
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
     if L5_2 then
-      L5_2 = A0_2[8]
+      L5_2 = self[8]
       L6_2 = L5_2
       L5_2 = L5_2.f9D8BC178
       L5_2 = L5_2(L6_2)
       if L5_2 then
-        A0_2[3] = nil
+        self[3] = nil
       end
     end
   end

@@ -1,3 +1,5 @@
+---@class C308DED36EB628CF6 : C308DED36EB628CF6_prototype
+---@field prototype C308DED36EB628CF6_prototype
 L68_1 = _ENV["C308DED36EB628CF6"]
 L69_1 = "super"
 
@@ -23,16 +25,11 @@ L69_1 = "__interfaces__"
 L70_1 = {}
 L71_1 = CC816F24BFEF8251B
 L70_1[1] = L71_1
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C308DED36EB628CF6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C308DED36EB628CF6"]["prototype"]
-L69_1 = "FCB3B1A213D375E75"
-
-function L70_1(A0_2)
+---@class C308DED36EB628CF6_prototype
+C308DED36EB628CF6_prototype = L15_1()
+C308DED36EB628CF6.prototype = C308DED36EB628CF6_prototype
+--- C308DED36EB628CF6.isImportant
+function C308DED36EB628CF6_prototype:FCB3B1A213D375E75()
   local L1_2
   L1_2 = true
   return L1_2

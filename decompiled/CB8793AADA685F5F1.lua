@@ -1,3 +1,5 @@
+---@class CB8793AADA685F5F1 : CB8793AADA685F5F1_prototype
+---@field prototype CB8793AADA685F5F1_prototype
 L68_1 = _ENV["CB8793AADA685F5F1"]
 L69_1 = "super"
 
@@ -13,11 +15,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB8793AADA685F5F1"]
-L69_1 = "__name__"
-L70_1 = "CB8793AADA685F5F1"
-L68_1[L69_1] = L70_1
+CB8793AADA685F5F1.__name__ = "CB8793AADA685F5F1"
 L68_1 = _ENV["CB8793AADA685F5F1"]
 L69_1 = "SA557824531175B20"
 
@@ -43,11 +41,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB8793AADA685F5F1"]
-L69_1 = "S49E32B2B2687AF65"
-
-function L70_1()
+--- CB8793AADA685F5F1.S49E32B2B2687AF65
+function CB8793AADA685F5F1.S49E32B2B2687AF65()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = CB8793AADA685F5F1
   L0_2 = L0_2.S61888C7F4A015D1F
@@ -112,32 +107,21 @@ function L70_1()
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB8793AADA685F5F1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB8793AADA685F5F1"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class CB8793AADA685F5F1_prototype
+CB8793AADA685F5F1_prototype = L15_1()
+CB8793AADA685F5F1.prototype = CB8793AADA685F5F1_prototype
+--- CB8793AADA685F5F1.preStart
+function CB8793AADA685F5F1_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB8793AADA685F5F1"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- CB8793AADA685F5F1.postStart
+function CB8793AADA685F5F1_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB8793AADA685F5F1"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- CB8793AADA685F5F1.mainBody
+function CB8793AADA685F5F1_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2
   L1_2 = nil
   
@@ -146,7 +130,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -154,7 +138,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -183,27 +167,18 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB8793AADA685F5F1"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- CB8793AADA685F5F1.mainBodyFinish
+function CB8793AADA685F5F1_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB8793AADA685F5F1"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- CB8793AADA685F5F1.preEnd
+function CB8793AADA685F5F1_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB8793AADA685F5F1"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- CB8793AADA685F5F1.postEnd
+function CB8793AADA685F5F1_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

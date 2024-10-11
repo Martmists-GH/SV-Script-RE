@@ -1,3 +1,7 @@
+---@alias C4007335B3531AC2B main_field_behaviour_module_PopupDataModule
+
+---@class main_field_behaviour_module_PopupDataModule : C4007335B3531AC2B_prototype
+---@field prototype C4007335B3531AC2B_prototype
 L55_1 = _ENV
 L56_1 = "C4007335B3531AC2B"
 L57_1 = L15_1
@@ -40,26 +44,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4007335B3531AC2B"]
 L69_1 = "__name__"
 L70_1 = "C4007335B3531AC2B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4007335B3531AC2B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4007335B3531AC2B"]["prototype"]
-L69_1 = "F032771006F681789"
-
-function L70_1(A0_2, A1_2)
-  A0_2[7] = A1_2
+---@class C4007335B3531AC2B_prototype
+C4007335B3531AC2B_prototype = L15_1()
+C4007335B3531AC2B.prototype = C4007335B3531AC2B_prototype
+--- main.field.behaviour.module.PopupDataModule.RegisterProperty
+function C4007335B3531AC2B_prototype:F032771006F681789(A1_2)
+  self[7] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4007335B3531AC2B"]["prototype"]
-L69_1 = "F8D125015FC0833E6"
-
-function L70_1(A0_2)
+--- main.field.behaviour.module.PopupDataModule.GetProperty
+function C4007335B3531AC2B_prototype:F8D125015FC0833E6()
   local L1_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   return L1_2
 end
 

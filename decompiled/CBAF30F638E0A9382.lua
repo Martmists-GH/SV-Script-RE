@@ -1,3 +1,7 @@
+---@alias CBAF30F638E0A9382 main_field_action_ActionPicnicContents
+
+---@class main_field_action_ActionPicnicContents : CBAF30F638E0A9382_prototype
+---@field prototype CBAF30F638E0A9382_prototype
 L55_1 = _ENV
 L56_1 = "CBAF30F638E0A9382"
 L57_1 = L15_1
@@ -44,29 +48,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CBAF30F638E0A9382"]
 L69_1 = "__name__"
 L70_1 = "CBAF30F638E0A9382"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBAF30F638E0A9382"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBAF30F638E0A9382"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CBAF30F638E0A9382_prototype
+CBAF30F638E0A9382_prototype = L15_1()
+CBAF30F638E0A9382.prototype = CBAF30F638E0A9382_prototype
+--- main.field.action.ActionPicnicContents.onCreate
+function CBAF30F638E0A9382_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2.useCoroutine = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBAF30F638E0A9382"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPicnicContents.onPreUpdate
+function CBAF30F638E0A9382_prototype:F1993A419B4083AE8()
   local L1_2
   while true do
-    L1_2 = A0_2[17]
+    L1_2 = self[17]
     if L1_2 then
       break
     end
@@ -84,11 +80,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBAF30F638E0A9382"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPicnicContents.onTerminate
+function CBAF30F638E0A9382_prototype:F97D80368ACC86AEF()
   local L1_2
   L1_2 = true
   return L1_2

@@ -1,3 +1,7 @@
+---@alias C40CDD12E9BC1781B main_ui_btlspot_BattleSpotManager
+
+---@class main_ui_btlspot_BattleSpotManager : C40CDD12E9BC1781B_prototype
+---@field prototype C40CDD12E9BC1781B_prototype
 L55_1 = _ENV
 L56_1 = "C40CDD12E9BC1781B"
 L57_1 = L15_1
@@ -82,46 +86,41 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C40CDD12E9BC1781B"]
 L69_1 = "__name__"
 L70_1 = "C40CDD12E9BC1781B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40CDD12E9BC1781B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40CDD12E9BC1781B"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+---@class C40CDD12E9BC1781B_prototype
+C40CDD12E9BC1781B_prototype = L15_1()
+C40CDD12E9BC1781B.prototype = C40CDD12E9BC1781B_prototype
+--- main.ui.btlspot.BattleSpotManager.Update
+function C40CDD12E9BC1781B_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.FEB6685558281F194
   L2_2(L3_2)
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.FEB6685558281F194
   L2_2(L3_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil ~= L2_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.FEB6685558281F194
     L2_2(L3_2)
   end
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   L2_2 = L2_2[1]
   if 0 == L2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.F9454501C6ED3B0AC
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.FD17EBB16851E9C18
       L3_2(L4_2)
-      A0_2[8] = true
-      L3_2 = A0_2[2]
+      self[8] = true
+      L3_2 = self[2]
       L3_2 = L3_2[7]
       L4_2 = L3_2
       L3_2 = L3_2.F706FCB31D5565CDB
@@ -129,7 +128,7 @@ function L70_1(A0_2, A1_2)
       L3_2 = C87113CC41B111F69
       L3_2 = L3_2.SA9971AC0DECB7601
       if false == L3_2 then
-        L3_2 = A0_2[7]
+        L3_2 = self[7]
         L4_2 = L3_2
         L3_2 = L3_2.F28EAF3B3AA178E3E
         L5_2 = C6A7B159FE39E555C
@@ -140,7 +139,7 @@ function L70_1(A0_2, A1_2)
         L3_2 = C5A4B97A873A16656
         L3_2 = L3_2.S2A18A83263CF4BE0
         if 3 == L3_2 then
-          L3_2 = A0_2[7]
+          L3_2 = self[7]
           L4_2 = L3_2
           L3_2 = L3_2.F28EAF3B3AA178E3E
           L5_2 = C7F46A8EE8D89C65A
@@ -151,33 +150,33 @@ function L70_1(A0_2, A1_2)
       end
       L3_2 = EBA6B4276B2F2F11F
       L3_2 = L3_2.Run
-      A0_2[9] = L3_2
+      self[9] = L3_2
     end
   elseif 1 == L2_2 then
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     L4_2 = L3_2
     L3_2 = L3_2.FEB6685558281F194
     L5_2 = A1_2
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.F93E432AA090A48FA
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      A0_2[2] = nil
+      self[2] = nil
       L3_2 = EBA6B4276B2F2F11F
       L3_2 = L3_2.WaitTerminate
-      A0_2[9] = L3_2
+      self[9] = L3_2
     end
   elseif 2 == L2_2 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f5C99C0AC
     L3_2 = L3_2(L4_2)
     if L3_2 then
       L3_2 = EBA6B4276B2F2F11F
       L3_2 = L3_2.End
-      A0_2[9] = L3_2
+      self[9] = L3_2
     end
   elseif 3 == L2_2 then
   end

@@ -1,3 +1,7 @@
+---@alias CA98C2A0CC94B3ECF main_event_debug_DebugImamuraHiroaki
+
+---@class main_event_debug_DebugImamuraHiroaki : CA98C2A0CC94B3ECF_prototype
+---@field prototype CA98C2A0CC94B3ECF_prototype
 L55_1 = _ENV
 L56_1 = "CA98C2A0CC94B3ECF"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA98C2A0CC94B3ECF"]
 L69_1 = "__name__"
 L70_1 = "CA98C2A0CC94B3ECF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA98C2A0CC94B3ECF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA98C2A0CC94B3ECF"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CA98C2A0CC94B3ECF_prototype
+CA98C2A0CC94B3ECF_prototype = L15_1()
+CA98C2A0CC94B3ECF.prototype = CA98C2A0CC94B3ECF_prototype
+--- main.event.debug.DebugImamuraHiroaki.mainBody
+function CA98C2A0CC94B3ECF_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2
   L1_2 = C043642B35062DFB9
   L1_2 = L1_2.SDE4234535432A011

@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C929486B36C03E170"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C929486B36C03E170"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C929486B36C03E170"]
-L69_1 = "__name__"
-L70_1 = "C929486B36C03E170"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C929486B36C03E170"]
-L69_1 = "S459DD50AF92A5178"
+---@alias C929486B36C03E170 main_nushi_sound_NushiSoundUtil
 
-function L70_1(A0_2)
+---@class main_nushi_sound_NushiSoundUtil
+C929486B36C03E170 = L15_1()
+C929486B36C03E170.new = {}
+C929486B36C03E170.__name__ = "C929486B36C03E170"
+--- main.nushi.sound.NushiSoundUtil.PlayGlobal
+function C929486B36C03E170.S459DD50AF92A5178(A0_2)
   local L1_2, L2_2
   L1_2 = C3A36506FBC96ACBD
   L1_2 = L1_2.SC6181320B46854EE
@@ -22,11 +13,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C929486B36C03E170"]
-L69_1 = "S1568648E89DE2B2C"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.sound.NushiSoundUtil.PlayAudioComp
+function C929486B36C03E170.S1568648E89DE2B2C(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L3_2 = A1_2
   L2_2 = A1_2.fB0CA2B80
@@ -35,11 +23,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C929486B36C03E170"]
-L69_1 = "SD58CFF1947A64F94"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.sound.NushiSoundUtil.PlayLocation
+function C929486B36C03E170.SD58CFF1947A64F94(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C3A36506FBC96ACBD
   L2_2 = L2_2.S27D07D27B83030BF
@@ -48,11 +33,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C929486B36C03E170"]
-L69_1 = "S0E50E37567C91364"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.sound.NushiSoundUtil.PlayRockClashGlobal
+function C929486B36C03E170.S0E50E37567C91364(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = nil
   L3_2 = A0_2[1]
@@ -125,11 +107,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C929486B36C03E170"]
-L69_1 = "S3D391315950A1DD8"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.nushi.sound.NushiSoundUtil.PlayRockClashAudioComp
+function C929486B36C03E170.S3D391315950A1DD8(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = nil
   L4_2 = A0_2[1]
@@ -225,11 +204,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C929486B36C03E170"]
-L69_1 = "S6A657E3C827E0DC3"
-
-function L70_1(A0_2)
+--- main.nushi.sound.NushiSoundUtil.PlayBGM
+function C929486B36C03E170.S6A657E3C827E0DC3(A0_2)
   local L1_2, L2_2
   L1_2 = C3A36506FBC96ACBD
   L1_2 = L1_2.SAC4C25C879379D3D
@@ -237,11 +213,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C929486B36C03E170"]
-L69_1 = "SAFD42EEB02E2F1D7"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.sound.NushiSoundUtil.PlayRockClashBGM
+function C929486B36C03E170.SAFD42EEB02E2F1D7(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = nil
   L3_2 = A0_2[1]

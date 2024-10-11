@@ -1,3 +1,7 @@
+---@alias C8BC643A49E1AD8B3 main_event_general_common_EventBgBook
+
+---@class main_event_general_common_EventBgBook : C8BC643A49E1AD8B3_prototype
+---@field prototype C8BC643A49E1AD8B3_prototype
 L55_1 = _ENV
 L56_1 = "C8BC643A49E1AD8B3"
 L57_1 = L15_1
@@ -51,16 +55,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8BC643A49E1AD8B3"]
 L69_1 = "__name__"
 L70_1 = "C8BC643A49E1AD8B3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8BC643A49E1AD8B3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8BC643A49E1AD8B3"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C8BC643A49E1AD8B3_prototype
+C8BC643A49E1AD8B3_prototype = L15_1()
+C8BC643A49E1AD8B3.prototype = C8BC643A49E1AD8B3_prototype
+--- main.event.general.common.EventBgBook.preStart
+function C8BC643A49E1AD8B3_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2
   L1_2 = CCD22EFED4E9E5F89
   L1_2 = L1_2.SA0D6639C3903F08F
@@ -68,20 +67,17 @@ function L70_1(A0_2)
   L1_2 = CCD22EFED4E9E5F89
   L1_2 = L1_2.SA10AE4787B2E55A3
   L1_2()
-  L2_2 = A0_2
-  L1_2 = A0_2.FE9D5EFA6A6F8C563
+  L2_2 = self
+  L1_2 = self.FE9D5EFA6A6F8C563
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8BC643A49E1AD8B3"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.common.EventBgBook.mainBody
+function C8BC643A49E1AD8B3_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FC8588FE806E2D114
-  L3_2 = A0_2[18]
+  L2_2 = self
+  L1_2 = self.FC8588FE806E2D114
+  L3_2 = self[18]
   L3_2 = L3_2.ownerName
   L1_2 = L1_2(L2_2, L3_2)
   if nil == L1_2 then
@@ -94,7 +90,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L2_2
@@ -102,7 +98,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -126,8 +122,8 @@ function L70_1(A0_2)
   L9_2 = 1.0
   L10_2 = false
   L6_2(L7_2, L8_2, L9_2, L10_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.F71E15E1EBB3A856C
+  L7_2 = self
+  L6_2 = self.F71E15E1EBB3A856C
   L8_2 = L1_2.book_type
   L9_2 = L1_2.book_id
   L6_2 = L6_2(L7_2, L8_2, L9_2)
@@ -162,19 +158,13 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8BC643A49E1AD8B3"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.common.EventBgBook.preEnd
+function C8BC643A49E1AD8B3_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8BC643A49E1AD8B3"]["prototype"]
-L69_1 = "F71E15E1EBB3A856C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.common.EventBgBook.SetupBookText
+function C8BC643A49E1AD8B3_prototype:F71E15E1EBB3A856C(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if 0 == A1_2 then
     if 1 == A2_2 then
@@ -934,13 +924,10 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8BC643A49E1AD8B3"]["prototype"]
-L69_1 = "FE9D5EFA6A6F8C563"
-
-function L70_1(A0_2)
+--- main.event.general.common.EventBgBook.SetupBookData
+function C8BC643A49E1AD8B3_prototype:FE9D5EFA6A6F8C563()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -959,7 +946,7 @@ function L70_1(A0_2)
   L4_2.book_id = 1
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -978,7 +965,7 @@ function L70_1(A0_2)
   L4_2.book_id = 2
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1001,7 +988,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.SDF0C255E6E08D740
   L1_2 = L1_2()
   if L1_2 then
-    L1_2 = A0_2[35]
+    L1_2 = self[35]
     L2_2 = L1_2
     L1_2 = L1_2.push
     L3_2 = L16_1
@@ -1021,7 +1008,7 @@ function L70_1(A0_2)
     L3_2, L4_2, L5_2 = L3_2(L4_2)
     L1_2(L2_2, L3_2, L4_2, L5_2)
   else
-    L1_2 = A0_2[35]
+    L1_2 = self[35]
     L2_2 = L1_2
     L1_2 = L1_2.push
     L3_2 = L16_1
@@ -1041,7 +1028,7 @@ function L70_1(A0_2)
     L3_2, L4_2, L5_2 = L3_2(L4_2)
     L1_2(L2_2, L3_2, L4_2, L5_2)
   end
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1060,7 +1047,7 @@ function L70_1(A0_2)
   L4_2.book_id = 5
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1079,7 +1066,7 @@ function L70_1(A0_2)
   L4_2.book_id = 6
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1098,7 +1085,7 @@ function L70_1(A0_2)
   L4_2.book_id = 7
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1117,7 +1104,7 @@ function L70_1(A0_2)
   L4_2.book_id = 8
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1136,7 +1123,7 @@ function L70_1(A0_2)
   L4_2.book_id = 9
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1155,7 +1142,7 @@ function L70_1(A0_2)
   L4_2.book_id = 10
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1174,7 +1161,7 @@ function L70_1(A0_2)
   L4_2.book_id = 11
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1193,7 +1180,7 @@ function L70_1(A0_2)
   L4_2.book_id = 12
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1212,7 +1199,7 @@ function L70_1(A0_2)
   L4_2.book_id = 13
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1231,7 +1218,7 @@ function L70_1(A0_2)
   L4_2.book_id = 14
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1250,7 +1237,7 @@ function L70_1(A0_2)
   L4_2.book_id = 15
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1269,7 +1256,7 @@ function L70_1(A0_2)
   L4_2.book_id = 16
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1288,7 +1275,7 @@ function L70_1(A0_2)
   L4_2.book_id = 17
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1307,7 +1294,7 @@ function L70_1(A0_2)
   L4_2.book_id = 18
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1326,7 +1313,7 @@ function L70_1(A0_2)
   L4_2.book_id = 19
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1345,7 +1332,7 @@ function L70_1(A0_2)
   L4_2.book_id = 1
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1364,7 +1351,7 @@ function L70_1(A0_2)
   L4_2.book_id = 2
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1383,7 +1370,7 @@ function L70_1(A0_2)
   L4_2.book_id = 3
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1402,7 +1389,7 @@ function L70_1(A0_2)
   L4_2.book_id = 4
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1421,7 +1408,7 @@ function L70_1(A0_2)
   L4_2.book_id = 5
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1440,7 +1427,7 @@ function L70_1(A0_2)
   L4_2.book_id = 6
   L3_2, L4_2, L5_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -1463,7 +1450,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.SDF0C255E6E08D740
   L1_2 = L1_2()
   if L1_2 then
-    L1_2 = A0_2[35]
+    L1_2 = self[35]
     L2_2 = L1_2
     L1_2 = L1_2.push
     L3_2 = L16_1
@@ -1482,7 +1469,7 @@ function L70_1(A0_2)
     L4_2.book_id = 999
     L3_2, L4_2, L5_2 = L3_2(L4_2)
     L1_2(L2_2, L3_2, L4_2, L5_2)
-    L1_2 = A0_2[35]
+    L1_2 = self[35]
     L2_2 = L1_2
     L1_2 = L1_2.push
     L3_2 = L16_1
@@ -1501,7 +1488,7 @@ function L70_1(A0_2)
     L4_2.book_id = 999
     L3_2, L4_2, L5_2 = L3_2(L4_2)
     L1_2(L2_2, L3_2, L4_2, L5_2)
-    L1_2 = A0_2[35]
+    L1_2 = self[35]
     L2_2 = L1_2
     L1_2 = L1_2.push
     L3_2 = L16_1
@@ -1521,7 +1508,7 @@ function L70_1(A0_2)
     L3_2, L4_2, L5_2 = L3_2(L4_2)
     L1_2(L2_2, L3_2, L4_2, L5_2)
   else
-    L1_2 = A0_2[35]
+    L1_2 = self[35]
     L2_2 = L1_2
     L1_2 = L1_2.push
     L3_2 = L16_1
@@ -1540,7 +1527,7 @@ function L70_1(A0_2)
     L4_2.book_id = 999
     L3_2, L4_2, L5_2 = L3_2(L4_2)
     L1_2(L2_2, L3_2, L4_2, L5_2)
-    L1_2 = A0_2[35]
+    L1_2 = self[35]
     L2_2 = L1_2
     L1_2 = L1_2.push
     L3_2 = L16_1
@@ -1559,7 +1546,7 @@ function L70_1(A0_2)
     L4_2.book_id = 999
     L3_2, L4_2, L5_2 = L3_2(L4_2)
     L1_2(L2_2, L3_2, L4_2, L5_2)
-    L1_2 = A0_2[35]
+    L1_2 = self[35]
     L2_2 = L1_2
     L1_2 = L1_2.push
     L3_2 = L16_1
@@ -1581,14 +1568,11 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8BC643A49E1AD8B3"]["prototype"]
-L69_1 = "FC8588FE806E2D114"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.common.EventBgBook.SearchBookData
+function C8BC643A49E1AD8B3_prototype:FC8588FE806E2D114(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
-  L3_2 = A0_2[35]
+  L3_2 = self[35]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then

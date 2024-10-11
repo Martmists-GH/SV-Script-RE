@@ -1,3 +1,5 @@
+---@class CC4A18B36C10BD2A4 : CC4A18B36C10BD2A4_prototype
+---@field prototype CC4A18B36C10BD2A4_prototype
 L68_1 = _ENV["CC4A18B36C10BD2A4"]
 L69_1 = "super"
 
@@ -18,16 +20,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC4A18B36C10BD2A4"]
 L69_1 = "__name__"
 L70_1 = "CC4A18B36C10BD2A4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4A18B36C10BD2A4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4A18B36C10BD2A4"]["prototype"]
-L69_1 = "FAFA84AD17827E40D"
-
-function L70_1(A0_2)
+---@class CC4A18B36C10BD2A4_prototype
+CC4A18B36C10BD2A4_prototype = L15_1()
+CC4A18B36C10BD2A4.prototype = CC4A18B36C10BD2A4_prototype
+--- CC4A18B36C10BD2A4.playerMove
+function CC4A18B36C10BD2A4_prototype:FAFA84AD17827E40D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = nil
   
@@ -36,7 +33,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -44,7 +41,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -63,9 +60,9 @@ function L70_1(A0_2)
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F5C42CC268049E48A
-    L6_2 = A0_2[35]
+    L5_2 = self
+    L4_2 = self.F5C42CC268049E48A
+    L6_2 = self[35]
     L4_2(L5_2, L6_2)
     return
   end
@@ -87,9 +84,9 @@ function L70_1(A0_2)
       L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L6_2(L7_2)
       L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
       if 0 == L4_2 then
-        L5_2 = A0_2
-        L4_2 = A0_2.F5C42CC268049E48A
-        L6_2 = A0_2[35]
+        L5_2 = self
+        L4_2 = self.F5C42CC268049E48A
+        L6_2 = self[35]
         L4_2(L5_2, L6_2)
     end
   end
@@ -97,8 +94,8 @@ function L70_1(A0_2)
     L5_2 = L2_2
     L4_2 = L2_2.fFFA0248C
     L4_2, L5_2, L6_2 = L4_2(L5_2)
-    L8_2 = A0_2
-    L7_2 = A0_2.FEDF142B35C3D02F1
+    L8_2 = self
+    L7_2 = self.FEDF142B35C3D02F1
     L9_2 = {}
     L10_2 = L4_2
     L11_2 = L5_2
@@ -110,11 +107,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4A18B36C10BD2A4"]["prototype"]
-L69_1 = "F5C42CC268049E48A"
-
-function L70_1(A0_2, A1_2)
+--- CC4A18B36C10BD2A4.F5C42CC268049E48A
+function CC4A18B36C10BD2A4_prototype:F5C42CC268049E48A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L2_2 = CCD22EFED4E9E5F89
   L2_2 = L2_2.SA10AE4787B2E55A3
@@ -171,11 +165,8 @@ function L70_1(A0_2, A1_2)
   L13_2(L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4A18B36C10BD2A4"]["prototype"]
-L69_1 = "FEDF142B35C3D02F1"
-
-function L70_1(A0_2, A1_2)
+--- CC4A18B36C10BD2A4.playerMovePos
+function CC4A18B36C10BD2A4_prototype:FEDF142B35C3D02F1(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = CCD22EFED4E9E5F89
   L2_2 = L2_2.SA10AE4787B2E55A3
@@ -217,7 +208,7 @@ L68_1(L69_1, L70_1)
 L68_1 = CA0C82C60E0D6369D
 L69_1 = "new"
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+function L70_1(self, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = CA0C82C60E0D6369D
@@ -228,7 +219,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = CA0C82C60E0D6369D
   L5_2 = L5_2.super
   L6_2 = L4_2
-  L7_2 = A0_2
+  L7_2 = self
   L8_2 = A1_2
   L9_2 = A2_2
   L10_2 = A3_2
@@ -245,7 +236,7 @@ L68_1(L69_1, L70_1)
 L68_1 = CB8793AADA685F5F1
 L69_1 = "new"
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+function L70_1(self, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = CB8793AADA685F5F1
@@ -256,7 +247,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = CB8793AADA685F5F1
   L5_2 = L5_2.super
   L6_2 = L4_2
-  L7_2 = A0_2
+  L7_2 = self
   L8_2 = A1_2
   L9_2 = A2_2
   L10_2 = A3_2

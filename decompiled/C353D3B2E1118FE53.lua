@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C353D3B2E1118FE53"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C353D3B2E1118FE53"]
-L69_1 = "new"
+---@alias C353D3B2E1118FE53 main_event_general_gym_base_Gym_mushi_invisible_wall
 
-function L70_1(A0_2)
+---@class main_event_general_gym_base_Gym_mushi_invisible_wall : C353D3B2E1118FE53_prototype
+---@field prototype C353D3B2E1118FE53_prototype
+C353D3B2E1118FE53 = L15_1()
+function C353D3B2E1118FE53.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C353D3B2E1118FE53
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C353D3B2E1118FE53"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C353D3B2E1118FE53
+function C353D3B2E1118FE53.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C353D3B2E1118FE53"]
 L69_1 = "__name__"
 L70_1 = "C353D3B2E1118FE53"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C353D3B2E1118FE53"]
-L69_1 = "S2C00E31A4B070414"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.general.gym.base.Gym_mushi_invisible_wall.OnTriggerFunction
+function C353D3B2E1118FE53.S2C00E31A4B070414(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L6_2 = cAD7C739C
   L6_2 = L6_2.f3BB1CD49
@@ -133,24 +124,19 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C353D3B2E1118FE53"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C353D3B2E1118FE53"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C353D3B2E1118FE53_prototype
+C353D3B2E1118FE53_prototype = L15_1()
+C353D3B2E1118FE53.prototype = C353D3B2E1118FE53_prototype
+--- main.event.general.gym.base.Gym_mushi_invisible_wall.Setup
+function C353D3B2E1118FE53_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.fE9C29DA1
   L2_2(L3_2)
   L2_2 = cACBFA004
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cACBFA004
@@ -166,14 +152,14 @@ function L70_1(A0_2, A1_2)
     L8_2 = 9
     L4_2(L5_2, L6_2, L7_2, L8_2)
   else
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.fE9C29DA1
     L4_2(L5_2)
   end
   L4_2 = cCF781FB6
   L4_2 = L4_2.fB41FD22F
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
   L5_2 = nil
   L6_2 = cCF781FB6
@@ -186,7 +172,7 @@ function L70_1(A0_2, A1_2)
     L6_2 = L4_2.f3DCFA517
     L6_2(L7_2)
   end
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L6_2
   L6_2 = L6_2.fE9C29DA1
   L6_2(L7_2)

@@ -1,3 +1,7 @@
+---@alias C3BC0516F71D5BDCD main_event_general_team_TeamKeepOut
+
+---@class main_event_general_team_TeamKeepOut : C3BC0516F71D5BDCD_prototype
+---@field prototype C3BC0516F71D5BDCD_prototype
 L55_1 = _ENV
 L56_1 = "C3BC0516F71D5BDCD"
 L57_1 = L15_1
@@ -45,26 +49,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3BC0516F71D5BDCD"]
 L69_1 = "__name__"
 L70_1 = "C3BC0516F71D5BDCD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3BC0516F71D5BDCD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3BC0516F71D5BDCD"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C3BC0516F71D5BDCD_prototype
+C3BC0516F71D5BDCD_prototype = L15_1()
+C3BC0516F71D5BDCD.prototype = C3BC0516F71D5BDCD_prototype
+--- main.event.general.team.TeamKeepOut.onCreate
+function C3BC0516F71D5BDCD_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.skipPlayerStuckCheck = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3BC0516F71D5BDCD"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.team.TeamKeepOut.mainBody
+function C3BC0516F71D5BDCD_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L1_2 = L31_1.string
   L2_2 = L31_1.string
@@ -84,8 +80,8 @@ function L70_1(A0_2)
   L2_2 = L2_2.S12FD376DC11712C8
   L3_2 = L1_2
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FEEE2771F07678E73
+  L3_2 = self
+  L2_2 = self.FEEE2771F07678E73
   L2_2 = L2_2(L3_2)
   L3_2 = CFC8F368D91411014
   L3_2 = L3_2.S93A017D496A6D000
@@ -117,7 +113,7 @@ function L70_1(A0_2)
   L7_2(L8_2)
   L7_2 = C9B54BC04DD492B6D
   L7_2 = L7_2.S3EDC50DEB344C642
-  L8_2 = A0_2[18]
+  L8_2 = self[18]
   L8_2 = L8_2.ownerName
   L9_2 = "stopper_dan_ajito_00"
   L10_2 = C3BC0516F71D5BDCD
@@ -126,8 +122,8 @@ function L70_1(A0_2)
   L12_2 = false
   L13_2 = false
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.FCF0BCAC3D6C8A2B9
+  L8_2 = self
+  L7_2 = self.FCF0BCAC3D6C8A2B9
   L9_2 = L2_2
   L7_2(L8_2, L9_2)
   L7_2 = C9F6C325569B7E07F
@@ -143,8 +139,8 @@ function L70_1(A0_2)
   L9_2 = 2
   L7_2 = L7_2(L8_2, L9_2)
   L7_2 = 0 ~= L7_2
-  L9_2 = A0_2
-  L8_2 = A0_2.FBF0FA5F4631E8B87
+  L9_2 = self
+  L8_2 = self.FBF0FA5F4631E8B87
   L10_2 = L2_2
   L8_2(L9_2, L10_2)
   L8_2 = CC6FE82819C6E1D55
@@ -158,8 +154,8 @@ function L70_1(A0_2)
   L8_2 = L8_2.SAC4C25C879379D3D
   L9_2 = "EV_TEAM_STOPPER_A"
   L8_2(L9_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.F38090FB2E2A581E0
+  L9_2 = self
+  L8_2 = self.F38090FB2E2A581E0
   L10_2 = L2_2
   L8_2(L9_2, L10_2)
   L8_2 = CC6FE82819C6E1D55
@@ -168,7 +164,7 @@ function L70_1(A0_2)
   L8_2(L9_2)
   L8_2 = C9B54BC04DD492B6D
   L8_2 = L8_2.S3EDC50DEB344C642
-  L9_2 = A0_2[18]
+  L9_2 = self[18]
   L9_2 = L9_2.ownerName
   L10_2 = "stopper_dan_ajito_01"
   L11_2 = C3BC0516F71D5BDCD
@@ -187,8 +183,8 @@ function L70_1(A0_2)
   L8_2 = C9B54BC04DD492B6D
   L8_2 = L8_2.S159D70CB960CF475
   L8_2()
-  L9_2 = A0_2
-  L8_2 = A0_2.FB9549A0F21225F93
+  L9_2 = self
+  L8_2 = self.FB9549A0F21225F93
   L10_2 = L2_2
   L8_2(L9_2, L10_2)
   L8_2 = CC6FE82819C6E1D55
@@ -197,7 +193,7 @@ function L70_1(A0_2)
   L8_2(L9_2)
   L8_2 = C9B54BC04DD492B6D
   L8_2 = L8_2.S3EDC50DEB344C642
-  L9_2 = A0_2[18]
+  L9_2 = self[18]
   L9_2 = L9_2.ownerName
   L10_2 = "stopper_dan_ajito_02"
   L11_2 = C3BC0516F71D5BDCD
@@ -230,8 +226,8 @@ function L70_1(A0_2)
   L8_2 = L8_2.SEC5605D9D6B5E309
   L9_2 = L1_2
   L8_2(L9_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.F016FFBD7EE4D26A9
+  L9_2 = self
+  L8_2 = self.F016FFBD7EE4D26A9
   L10_2 = L6_2
   L11_2 = L7_2
   L8_2(L9_2, L10_2, L11_2)
@@ -250,11 +246,8 @@ function L70_1(A0_2)
   L8_2(L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3BC0516F71D5BDCD"]["prototype"]
-L69_1 = "FEEE2771F07678E73"
-
-function L70_1(A0_2)
+--- main.event.general.team.TeamKeepOut.searchCameraParam
+function C3BC0516F71D5BDCD_prototype:FEEE2771F07678E73()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L1_2 = nil
   L2_2 = 0
@@ -268,7 +261,7 @@ function L70_1(A0_2)
     L4_2 = L3_2[L2_2]
     L2_2 = L2_2 + 1
     L5_2 = L4_2.ownerName
-    L6_2 = A0_2[18]
+    L6_2 = self[18]
     L6_2 = L6_2.ownerName
     if L5_2 == L6_2 then
       if nil == L1_2 then
@@ -315,11 +308,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3BC0516F71D5BDCD"]["prototype"]
-L69_1 = "FB9549A0F21225F93"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.team.TeamKeepOut.playGateCamera
+function C3BC0516F71D5BDCD_prototype:FB9549A0F21225F93(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A1_2 then
     return
@@ -347,11 +337,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3BC0516F71D5BDCD"]["prototype"]
-L69_1 = "F005712E6E96AA191"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.team.TeamKeepOut.F005712E6E96AA191
+function C3BC0516F71D5BDCD_prototype:F005712E6E96AA191(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L2_2 = A1_2.gatePos
   L3_2 = nil
@@ -361,7 +348,7 @@ function L70_1(A0_2, A1_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L3_2
@@ -369,7 +356,7 @@ function L70_1(A0_2, A1_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -424,17 +411,14 @@ function L70_1(A0_2, A1_2)
   return L11_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3BC0516F71D5BDCD"]["prototype"]
-L69_1 = "FCF0BCAC3D6C8A2B9"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.team.TeamKeepOut.playOverLookCamera
+function C3BC0516F71D5BDCD_prototype:FCF0BCAC3D6C8A2B9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A1_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F005712E6E96AA191
+  L3_2 = self
+  L2_2 = self.F005712E6E96AA191
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = nil
@@ -446,7 +430,7 @@ function L70_1(A0_2, A1_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L3_2
@@ -454,7 +438,7 @@ function L70_1(A0_2, A1_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -475,7 +459,7 @@ function L70_1(A0_2, A1_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L4_2
@@ -483,7 +467,7 @@ function L70_1(A0_2, A1_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -508,17 +492,14 @@ function L70_1(A0_2, A1_2)
   L8_2(L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3BC0516F71D5BDCD"]["prototype"]
-L69_1 = "F38090FB2E2A581E0"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.team.TeamKeepOut.F38090FB2E2A581E0
+function C3BC0516F71D5BDCD_prototype:F38090FB2E2A581E0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A1_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F005712E6E96AA191
+  L3_2 = self
+  L2_2 = self.F005712E6E96AA191
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = L2_2[2]
@@ -543,11 +524,8 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3BC0516F71D5BDCD"]["prototype"]
-L69_1 = "FBF0FA5F4631E8B87"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.team.TeamKeepOut.setPlayerVisiblePosition
+function C3BC0516F71D5BDCD_prototype:FBF0FA5F4631E8B87(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.SE7C09D712FDFAC67
@@ -563,18 +541,15 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3BC0516F71D5BDCD"]["prototype"]
-L69_1 = "F016FFBD7EE4D26A9"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.team.TeamKeepOut.F016FFBD7EE4D26A9
+function C3BC0516F71D5BDCD_prototype:F016FFBD7EE4D26A9(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2
   L3_2 = CDCBFD50A277E546D
   L3_2 = L3_2.SE7C09D712FDFAC67
   L4_2 = "Player"
   L5_2 = true
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.returnPositions
   L4_2 = 0.0
   L5_2 = 0
@@ -598,7 +573,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L4_2 = L10_2
     end
   end
-  L8_2 = A0_2[32]
+  L8_2 = self[32]
   L8_2 = L8_2.centerPosition
   L9_2 = L8_2[1]
   L10_2 = L8_2[2]

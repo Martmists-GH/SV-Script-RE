@@ -1,3 +1,7 @@
+---@alias C15231F1A682818BF main_nushi_NushiManager
+
+---@class main_nushi_NushiManager : C15231F1A682818BF_prototype
+---@field prototype C15231F1A682818BF_prototype
 L55_1 = _ENV
 L56_1 = "C15231F1A682818BF"
 L57_1 = L15_1
@@ -60,40 +64,29 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C15231F1A682818BF"]
 L69_1 = "__name__"
 L70_1 = "C15231F1A682818BF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15231F1A682818BF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15231F1A682818BF"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C15231F1A682818BF_prototype
+C15231F1A682818BF_prototype = L15_1()
+C15231F1A682818BF.prototype = C15231F1A682818BF_prototype
+--- main.nushi.NushiManager.Setup
+function C15231F1A682818BF_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2
   L2_2 = C15231F1A682818BF
-  L2_2.S7D1E199BBD384D72 = A0_2
+  L2_2.S7D1E199BBD384D72 = self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15231F1A682818BF"]["prototype"]
-L69_1 = "FF5BE30AB6D69E4C7"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiManager.FF5BE30AB6D69E4C7
+function C15231F1A682818BF_prototype:FF5BE30AB6D69E4C7(A1_2)
   local L2_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2[A1_2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15231F1A682818BF"]["prototype"]
-L69_1 = "F72BDF2D40FE818F0"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiManager.F72BDF2D40FE818F0
+function C15231F1A682818BF_prototype:F72BDF2D40FE818F0(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FF5BE30AB6D69E4C7
+  L3_2 = self
+  L2_2 = self.FF5BE30AB6D69E4C7
   L4_2 = C846A814F4476602B
   L4_2 = L4_2.SE01EA9E7422BC919
   L5_2 = A1_2
@@ -101,17 +94,14 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15231F1A682818BF"]["prototype"]
-L69_1 = "F684FAB5B1103C02C"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiManager.NushiInArea
+function C15231F1A682818BF_prototype:F684FAB5B1103C02C(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C542A46BC17B8658C
   L2_2 = L2_2.SB67F2555543975C5
   L2_2()
-  L3_2 = A0_2
-  L2_2 = A0_2.FF5BE30AB6D69E4C7
+  L3_2 = self
+  L2_2 = self.FF5BE30AB6D69E4C7
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = L2_2
@@ -119,14 +109,11 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15231F1A682818BF"]["prototype"]
-L69_1 = "F41EFAAE1A81F8793"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiManager.NushiOutArea
+function C15231F1A682818BF_prototype:F41EFAAE1A81F8793(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FF5BE30AB6D69E4C7
+  L3_2 = self
+  L2_2 = self.FF5BE30AB6D69E4C7
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = L2_2
@@ -134,11 +121,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15231F1A682818BF"]["prototype"]
-L69_1 = "F3A0ECFF460C80E82"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiManager.OnMapChanged
+function C15231F1A682818BF_prototype:F3A0ECFF460C80E82(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = c682D8E4F
   L2_2 = L2_2.fEF94D11D
@@ -164,20 +148,17 @@ function L70_1(A0_2, A1_2)
       goto lbl_25
     end
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F68EF06AF27516FEC
+  L5_2 = self
+  L4_2 = self.F68EF06AF27516FEC
   L4_2(L5_2)
   ::lbl_25::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15231F1A682818BF"]["prototype"]
-L69_1 = "F68EF06AF27516FEC"
-
-function L70_1(A0_2)
+--- main.nushi.NushiManager.resetAllNushiScene
+function C15231F1A682818BF_prototype:F68EF06AF27516FEC()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -191,11 +172,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15231F1A682818BF"]["prototype"]
-L69_1 = "F13FB1E2BA39130E9"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiManager.WallDestructionPlay
+function C15231F1A682818BF_prototype:F13FB1E2BA39130E9(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = false
   L3_2 = false
@@ -263,11 +241,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C15231F1A682818BF"]["prototype"]
-L69_1 = "FB8E8CD3E9C9D0DB0"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiManager.WallReset
+function C15231F1A682818BF_prototype:FB8E8CD3E9C9D0DB0(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = false
   if 0 == A1_2 then

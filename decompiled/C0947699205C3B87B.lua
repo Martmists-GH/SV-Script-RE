@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C0947699205C3B87B"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C0947699205C3B87B"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0947699205C3B87B"]
-L69_1 = "__name__"
-L70_1 = "C0947699205C3B87B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0947699205C3B87B"]
-L69_1 = "SD86497717211930C"
+---@alias C0947699205C3B87B main_event_common_scenario_main_nushi_NushiCommon
 
-function L70_1()
+---@class main_event_common_scenario_main_nushi_NushiCommon
+C0947699205C3B87B = L15_1()
+C0947699205C3B87B.new = {}
+C0947699205C3B87B.__name__ = "C0947699205C3B87B"
+--- main.event.common.scenario.main.nushi.NushiCommon.GetNushiClearCount
+function C0947699205C3B87B.SD86497717211930C()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = 0
   L1_2 = 0
@@ -38,11 +29,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0947699205C3B87B"]
-L69_1 = "S3EDC2396C94DA723"
-
-function L70_1()
+--- main.event.common.scenario.main.nushi.NushiCommon.SetNushiClearFlag
+function C0947699205C3B87B.S3EDC2396C94DA723()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L0_2 = nil
   L1_2 = C10578806AC30DCA3
@@ -260,11 +248,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0947699205C3B87B"]
-L69_1 = "SF01D8A21C7FA1288"
-
-function L70_1()
+--- main.event.common.scenario.main.nushi.NushiCommon.SF01D8A21C7FA1288
+function C0947699205C3B87B.SF01D8A21C7FA1288()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L0_2 = nil
   L1_2 = C10578806AC30DCA3
@@ -432,11 +417,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0947699205C3B87B"]
-L69_1 = "SC8BB6C8C8CB3E970"
-
-function L70_1(A0_2)
+--- main.event.common.scenario.main.nushi.NushiCommon.NushiClearDemo
+function C0947699205C3B87B.SC8BB6C8C8CB3E970(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = nil
   L2_2 = C10578806AC30DCA3
@@ -599,11 +581,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0947699205C3B87B"]
-L69_1 = "SDF0C255E6E08D740"
-
-function L70_1()
+--- main.event.common.scenario.main.nushi.NushiCommon.SDF0C255E6E08D740
+function C0947699205C3B87B.SDF0C255E6E08D740()
   local L0_2, L1_2
   L0_2 = CA4C5F9FA83D2AF80
   L0_2 = L0_2.SDF0C255E6E08D740

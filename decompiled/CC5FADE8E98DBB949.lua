@@ -1,3 +1,5 @@
+---@class CC5FADE8E98DBB949 : CC5FADE8E98DBB949_prototype
+---@field prototype CC5FADE8E98DBB949_prototype
 L55_1 = _ENV
 L56_1 = "CC5FADE8E98DBB949"
 L57_1 = L15_1
@@ -45,16 +47,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC5FADE8E98DBB949"]
 L69_1 = "__name__"
 L70_1 = "CC5FADE8E98DBB949"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC5FADE8E98DBB949"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC5FADE8E98DBB949"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CC5FADE8E98DBB949_prototype
+CC5FADE8E98DBB949_prototype = L15_1()
+CC5FADE8E98DBB949.prototype = CC5FADE8E98DBB949_prototype
+--- CC5FADE8E98DBB949.mainBody
+function CC5FADE8E98DBB949_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = 3
   L2_2 = 0
@@ -74,7 +71,7 @@ function L70_1(A0_2)
   L3_2 = L3_2()
   L4_2 = L1_2
   if 0 == L4_2 or 1 == L4_2 then
-    L5_2 = A0_2[18]
+    L5_2 = self[18]
     L5_2 = L5_2.ownerScene
     L6_2 = L5_2
     L5_2 = L5_2.f1FC07C91
@@ -111,8 +108,8 @@ function L70_1(A0_2)
       L7_2 = L7_2.S760DAE4C5371A78E
       L7_2()
     end
-    L8_2 = A0_2
-    L7_2 = A0_2.F2B636494263B1E85
+    L8_2 = self
+    L7_2 = self.F2B636494263B1E85
     L9_2 = L1_2
     L10_2 = L6_2
     L7_2 = L7_2(L8_2, L9_2, L10_2)
@@ -145,8 +142,8 @@ function L70_1(A0_2)
     L9_2 = 0 ~= L9_2
     L10_2 = "[BootOniballoonFinishTalkEvent] rewardItemData is not found..."
     L8_2(L9_2, L10_2)
-    L9_2 = A0_2
-    L8_2 = A0_2.F98540B988B27F62D
+    L9_2 = self
+    L8_2 = self.F98540B988B27F62D
     L10_2 = L1_2
     L11_2 = L3_2
     L8_2(L9_2, L10_2, L11_2)
@@ -238,11 +235,8 @@ function L70_1(A0_2)
   L8_2(L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC5FADE8E98DBB949"]["prototype"]
-L69_1 = "F2B636494263B1E85"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CC5FADE8E98DBB949.F2B636494263B1E85
+function CC5FADE8E98DBB949_prototype:F2B636494263B1E85(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
@@ -306,11 +300,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC5FADE8E98DBB949"]["prototype"]
-L69_1 = "F98540B988B27F62D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CC5FADE8E98DBB949.F98540B988B27F62D
+function CC5FADE8E98DBB949_prototype:F98540B988B27F62D(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = _hx_tab_array
   L4_2 = {}

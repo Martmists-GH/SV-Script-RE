@@ -1,3 +1,7 @@
+---@alias C9B5FE419C45AD8A7 main_pokepicnic_pokemon_WashData
+
+---@class main_pokepicnic_pokemon_WashData : C9B5FE419C45AD8A7_prototype
+---@field prototype C9B5FE419C45AD8A7_prototype
 L55_1 = _ENV
 L56_1 = "C9B5FE419C45AD8A7"
 L57_1 = L15_1
@@ -35,20 +39,15 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9B5FE419C45AD8A7"]
 L69_1 = "__name__"
 L70_1 = "C9B5FE419C45AD8A7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B5FE419C45AD8A7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9B5FE419C45AD8A7"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C9B5FE419C45AD8A7_prototype
+C9B5FE419C45AD8A7_prototype = L15_1()
+C9B5FE419C45AD8A7.prototype = C9B5FE419C45AD8A7_prototype
+--- main.pokepicnic.pokemon.WashData.Setup
+function C9B5FE419C45AD8A7_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L2_2 = 0
   L3_2 = false
   while L2_2 < 5 do
@@ -68,7 +67,7 @@ function L70_1(A0_2, A1_2)
     L6_2 = L6_2 .. L7_2
     L4_2 = L4_2(L5_2, L6_2)
     if "" ~= L4_2 then
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L6_2 = L5_2
       L5_2 = L5_2.push
       L7_2 = L4_2
@@ -79,10 +78,10 @@ function L70_1(A0_2, A1_2)
       break
     end
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2.length
   if 0 == L4_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.push
     L6_2 = "hips"
@@ -90,7 +89,7 @@ function L70_1(A0_2, A1_2)
   end
   L4_2 = L26_1.new
   L4_2 = L4_2()
-  A0_2[2] = L4_2
+  self[2] = L4_2
   L4_2 = 0
   L5_2 = false
   while L4_2 < 5 do
@@ -110,7 +109,7 @@ function L70_1(A0_2, A1_2)
     L8_2 = L8_2 .. L9_2
     L6_2 = L6_2(L7_2, L8_2)
     if "" ~= L6_2 then
-      L7_2 = A0_2[2]
+      L7_2 = self[2]
       L8_2 = L7_2
       L7_2 = L7_2.push
       L9_2 = L6_2
@@ -121,10 +120,10 @@ function L70_1(A0_2, A1_2)
       break
     end
   end
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L6_2 = L6_2.length
   if 0 == L6_2 then
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L7_2 = L6_2
     L6_2 = L6_2.push
     L8_2 = "head"

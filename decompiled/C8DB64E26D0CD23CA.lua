@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C8DB64E26D0CD23CA"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C8DB64E26D0CD23CA"]
-L69_1 = "new"
+---@alias C8DB64E26D0CD23CA main_event_general_gym_base_Gym_mushi_default_goal
 
-function L70_1(A0_2)
+---@class main_event_general_gym_base_Gym_mushi_default_goal : C8DB64E26D0CD23CA_prototype
+---@field prototype C8DB64E26D0CD23CA_prototype
+C8DB64E26D0CD23CA = L15_1()
+function C8DB64E26D0CD23CA.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C8DB64E26D0CD23CA
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB64E26D0CD23CA"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C8DB64E26D0CD23CA
+function C8DB64E26D0CD23CA.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[3] = 0.0
   A0_2[2] = 0.0
@@ -44,11 +38,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C8DB64E26D0CD23CA"]
 L69_1 = "__name__"
 L70_1 = "C8DB64E26D0CD23CA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB64E26D0CD23CA"]
-L69_1 = "S2C00E31A4B070414"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.general.gym.base.Gym_mushi_default_goal.OnTriggerFunction
+function C8DB64E26D0CD23CA.S2C00E31A4B070414(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L6_2 = cAD7C739C
   L6_2 = L6_2.f3BB1CD49
@@ -108,30 +99,22 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB64E26D0CD23CA"]
-L69_1 = "S7E2006FE713EA4F5"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_mushi_default_goal.RestIsTrigger
+function C8DB64E26D0CD23CA.S7E2006FE713EA4F5()
   local L0_2, L1_2
   L0_2 = C8DB64E26D0CD23CA
   L0_2.SA20DE4628386E5F3 = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB64E26D0CD23CA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB64E26D0CD23CA"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C8DB64E26D0CD23CA_prototype
+C8DB64E26D0CD23CA_prototype = L15_1()
+C8DB64E26D0CD23CA.prototype = C8DB64E26D0CD23CA_prototype
+--- main.event.general.gym.base.Gym_mushi_default_goal.Setup
+function C8DB64E26D0CD23CA_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cACBFA004
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f317EB6F9
@@ -141,7 +124,7 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cCF781FB6
@@ -163,19 +146,16 @@ function L70_1(A0_2, A1_2)
   L6_2 = L4_2.freeMoveParam
   L6_2 = L6_2.goalBallVelocity
   L5_2 = L5_2(L6_2)
-  A0_2[2] = L5_2
+  self[2] = L5_2
   L5_2 = L58_1
   L6_2 = L4_2.freeMoveParam
   L6_2 = L6_2.goalTimeOut
   L5_2 = L5_2(L6_2)
-  A0_2[3] = L5_2
+  self[3] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8DB64E26D0CD23CA"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_mushi_default_goal.PreUpdate
+function C8DB64E26D0CD23CA_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = C8DB64E26D0CD23CA
   L2_2 = L2_2.SA20DE4628386E5F3
@@ -207,13 +187,13 @@ function L70_1(A0_2, A1_2)
     L11_2 = L6_2
     L12_2 = L7_2
     L9_2 = L9_2(L10_2, L11_2, L12_2)
-    L10_2 = A0_2[2]
+    L10_2 = self[2]
     if L9_2 <= L10_2 then
       L8_2 = true
     else
       L9_2 = C8DB64E26D0CD23CA
       L9_2 = L9_2.SE23A6668D5F59F22
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       if L9_2 >= L10_2 then
         L8_2 = true
       end

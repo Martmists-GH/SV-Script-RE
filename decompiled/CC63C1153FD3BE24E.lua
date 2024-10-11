@@ -1,3 +1,7 @@
+---@alias C5F9A8726981434F8 main_event_general_school_base_School_history_switcher
+
+---@class main_event_general_school_base_School_history_switcher : C5F9A8726981434F8_prototype
+---@field prototype C5F9A8726981434F8_prototype
 L55_1 = _ENV
 L56_1 = "CC63C1153FD3BE24E"
 L57_1 = L15_1
@@ -37,11 +41,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC63C1153FD3BE24E"]
 L69_1 = "__name__"
 L70_1 = "CC63C1153FD3BE24E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC63C1153FD3BE24E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C5F9A8726981434F8_prototype
+C5F9A8726981434F8_prototype = L15_1()
+C5F9A8726981434F8.prototype = C5F9A8726981434F8_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC63C1153FD3BE24E"]["prototype"]
 L69_1 = _ENV["CC63C1153FD3BE24E"]

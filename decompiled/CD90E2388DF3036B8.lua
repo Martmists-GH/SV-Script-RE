@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CD90E2388DF3036B8"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CD90E2388DF3036B8"]
-L69_1 = "new"
+---@alias CD90E2388DF3036B8 main_event_general_system_BGEvent
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class main_event_general_system_BGEvent : CD90E2388DF3036B8_prototype
+---@field prototype CD90E2388DF3036B8_prototype
+CD90E2388DF3036B8 = L15_1()
+function CD90E2388DF3036B8.new(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = CD90E2388DF3036B8
@@ -25,11 +22,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD90E2388DF3036B8"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@param A0_2 CD90E2388DF3036B8
+function CD90E2388DF3036B8.super(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L5_2 = C20F5CD372AAAA08C
   L5_2 = L5_2.super
@@ -41,11 +35,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD90E2388DF3036B8"]
-L69_1 = "__name__"
-L70_1 = "CD90E2388DF3036B8"
-L68_1[L69_1] = L70_1
+CD90E2388DF3036B8.__name__ = "CD90E2388DF3036B8"
 L68_1 = _ENV["CD90E2388DF3036B8"]
 L69_1 = "S6D4AD99B050CEF99"
 
@@ -125,16 +115,11 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD90E2388DF3036B8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD90E2388DF3036B8"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CD90E2388DF3036B8_prototype
+CD90E2388DF3036B8_prototype = L15_1()
+CD90E2388DF3036B8.prototype = CD90E2388DF3036B8_prototype
+--- main.event.general.system.BGEvent.mainBody
+function CD90E2388DF3036B8_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = nil
   
@@ -143,7 +128,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -151,7 +136,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3

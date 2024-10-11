@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CBC618B78400C85EC"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CBC618B78400C85EC"]
-L69_1 = "new"
+---@alias CBC618B78400C85EC main_system_game_event_danbattle_GameEventDanRushCancel
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_danbattle_GameEventDanRushCancel : CBC618B78400C85EC_prototype
+---@field prototype CBC618B78400C85EC_prototype
+CBC618B78400C85EC = L15_1()
+function CBC618B78400C85EC.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CBC618B78400C85EC
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBC618B78400C85EC"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CBC618B78400C85EC
+function CBC618B78400C85EC.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CE0D511325372F946
   L3_2 = L3_2.super
@@ -37,11 +31,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBC618B78400C85EC"]
-L69_1 = "__name__"
-L70_1 = "CBC618B78400C85EC"
-L68_1[L69_1] = L70_1
+CBC618B78400C85EC.__name__ = "CBC618B78400C85EC"
 L68_1 = _ENV["CBC618B78400C85EC"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -76,47 +66,33 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBC618B78400C85EC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBC618B78400C85EC"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CBC618B78400C85EC_prototype
+CBC618B78400C85EC_prototype = L15_1()
+CBC618B78400C85EC.prototype = CBC618B78400C85EC_prototype
+--- main.system.game_event.danbattle.GameEventDanRushCancel.onCreate
+function CBC618B78400C85EC_prototype:FC87C731D11C58354()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBC618B78400C85EC"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2)
+--- main.system.game_event.danbattle.GameEventDanRushCancel.onInitialize
+function CBC618B78400C85EC_prototype:F239C282ED3F82676()
   local L1_2
   L1_2 = 0
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBC618B78400C85EC"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.danbattle.GameEventDanRushCancel.onUpdate
+function CBC618B78400C85EC_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F30691C9B3B925B7C
+  L2_2 = self
+  L1_2 = self.F30691C9B3B925B7C
   L1_2(L2_2)
   L1_2 = 2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBC618B78400C85EC"]["prototype"]
-L69_1 = "F30691C9B3B925B7C"
-
-function L70_1(A0_2)
+--- main.system.game_event.danbattle.GameEventDanRushCancel.choiseCancel
+function CBC618B78400C85EC_prototype:F30691C9B3B925B7C()
   local L1_2, L2_2, L3_2
   L1_2 = C1E6D887767D3DC7E
   L1_2 = L1_2.S214AA3ABB69B1674
@@ -135,19 +111,13 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBC618B78400C85EC"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- main.system.game_event.danbattle.GameEventDanRushCancel.onFinished
+function CBC618B78400C85EC_prototype:F68499476069C0B1E()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBC618B78400C85EC"]["prototype"]
-L69_1 = "F4E09538E8F109EC2"
-
-function L70_1(A0_2, A1_2)
+--- main.system.game_event.danbattle.GameEventDanRushCancel.onInterrupted
+function CBC618B78400C85EC_prototype:F4E09538E8F109EC2(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = L52_1.__instanceof
   L3_2 = A1_2
@@ -169,7 +139,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = CE0D511325372F946
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F4E09538E8F109EC2
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   return L2_2(L3_2, L4_2)
 end

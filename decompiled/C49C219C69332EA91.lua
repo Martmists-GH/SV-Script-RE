@@ -1,3 +1,7 @@
+---@alias C49C219C69332EA91 main_event_general_tipslist_Boot_TipsList
+
+---@class main_event_general_tipslist_Boot_TipsList : C49C219C69332EA91_prototype
+---@field prototype C49C219C69332EA91_prototype
 L55_1 = _ENV
 L56_1 = "C49C219C69332EA91"
 L57_1 = L15_1
@@ -45,34 +49,26 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C49C219C69332EA91"]
 L69_1 = "__name__"
 L70_1 = "C49C219C69332EA91"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49C219C69332EA91"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49C219C69332EA91"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C49C219C69332EA91_prototype
+C49C219C69332EA91_prototype = L15_1()
+C49C219C69332EA91.prototype = C49C219C69332EA91_prototype
+--- main.event.general.tipslist.Boot_TipsList.preStart
+function C49C219C69332EA91_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2
   L1_2 = C20F5CD372AAAA08C
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F92BA869F22AE5BC6
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49C219C69332EA91"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.tipslist.Boot_TipsList.mainBody
+function C49C219C69332EA91_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C20F5CD372AAAA08C
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FD8D5F3745B4B5174
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = C10578806AC30DCA3
   L1_2 = L1_2.SBA6FF574C1C9AA09

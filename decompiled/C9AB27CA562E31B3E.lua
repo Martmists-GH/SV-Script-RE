@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C9AB27CA562E31B3E"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C9AB27CA562E31B3E"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AB27CA562E31B3E"]
-L69_1 = "__name__"
-L70_1 = "C9AB27CA562E31B3E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AB27CA562E31B3E"]
-L69_1 = "S9A15771651F94FF5"
+---@alias C9AB27CA562E31B3E main_ui_box_wallpaper_BoxWallpaperUtil
 
-function L70_1(A0_2)
+---@class main_ui_box_wallpaper_BoxWallpaperUtil
+C9AB27CA562E31B3E = L15_1()
+C9AB27CA562E31B3E.new = {}
+C9AB27CA562E31B3E.__name__ = "C9AB27CA562E31B3E"
+--- main.ui.box.wallpaper.BoxWallpaperUtil.SetBoxWallpaperBg
+function C9AB27CA562E31B3E.S9A15771651F94FF5(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C9AB27CA562E31B3E
   L1_2 = L1_2.S6552C22CD6D96321
@@ -82,11 +73,8 @@ function L70_1(A0_2)
   L2_2.SF0E051372F1DA73C = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AB27CA562E31B3E"]
-L69_1 = "S6552C22CD6D96321"
-
-function L70_1()
+--- main.ui.box.wallpaper.BoxWallpaperUtil.IsReadyBoxWallpaper
+function C9AB27CA562E31B3E.S6552C22CD6D96321()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CF1BC0419D30C42CE
   L0_2 = L0_2.SB42FE8119608D3EA
@@ -118,11 +106,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AB27CA562E31B3E"]
-L69_1 = "SC02566C3BE17050A"
-
-function L70_1(A0_2)
+--- main.ui.box.wallpaper.BoxWallpaperUtil.GetAnimeName
+function C9AB27CA562E31B3E.SC02566C3BE17050A(A0_2)
   local L1_2
   L1_2 = C9AB27CA562E31B3E
   L1_2 = L1_2.SD567171A08DE35F3
@@ -139,11 +124,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AB27CA562E31B3E"]
-L69_1 = "S071B81F26076AD42"
-
-function L70_1(A0_2)
+--- main.ui.box.wallpaper.BoxWallpaperUtil.GetAnimeFrame
+function C9AB27CA562E31B3E.S071B81F26076AD42(A0_2)
   local L1_2
   if 19 == A0_2 then
     L1_2 = cDD25B9DB
@@ -154,11 +136,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AB27CA562E31B3E"]
-L69_1 = "S94B8B01FFF496A71"
-
-function L70_1()
+--- main.ui.box.wallpaper.BoxWallpaperUtil.ResetValue
+function C9AB27CA562E31B3E.S94B8B01FFF496A71()
   local L0_2, L1_2
   L0_2 = C9AB27CA562E31B3E
   L0_2.SF0E051372F1DA73C = -1

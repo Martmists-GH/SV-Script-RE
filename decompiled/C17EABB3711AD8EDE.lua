@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C17EABB3711AD8EDE"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C17EABB3711AD8EDE"]
-L69_1 = "new"
+---@alias C17EABB3711AD8EDE main_battle_parts_BattleDropItem
 
-function L70_1(A0_2)
+---@class main_battle_parts_BattleDropItem : C17EABB3711AD8EDE_prototype
+---@field prototype C17EABB3711AD8EDE_prototype
+C17EABB3711AD8EDE = L15_1()
+function C17EABB3711AD8EDE.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C17EABB3711AD8EDE
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C17EABB3711AD8EDE"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C17EABB3711AD8EDE
+function C17EABB3711AD8EDE.super(A0_2, A1_2)
   local L2_2, L3_2
   L2_2 = L15_1
   L2_2 = L2_2()
@@ -40,11 +34,7 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C17EABB3711AD8EDE"]
-L69_1 = "__name__"
-L70_1 = "C17EABB3711AD8EDE"
-L68_1[L69_1] = L70_1
+C17EABB3711AD8EDE.__name__ = "C17EABB3711AD8EDE"
 L68_1 = _ENV["C17EABB3711AD8EDE"]
 L69_1 = "SE1A4D932631D2B63"
 
@@ -270,27 +260,19 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C17EABB3711AD8EDE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C17EABB3711AD8EDE"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2)
+---@class C17EABB3711AD8EDE_prototype
+C17EABB3711AD8EDE_prototype = L15_1()
+C17EABB3711AD8EDE.prototype = C17EABB3711AD8EDE_prototype
+--- main.battle.parts.BattleDropItem.Reset
+function C17EABB3711AD8EDE_prototype:F96EA28F400597FA0()
   local L1_2
-  A0_2[2] = 0
-  A0_2[3] = 0
-  A0_2[4] = false
+  self[2] = 0
+  self[3] = 0
+  self[4] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C17EABB3711AD8EDE"]["prototype"]
-L69_1 = "FCE211E7B9F378AFE"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.battle.parts.BattleDropItem.LottelyItem_Battle
+function C17EABB3711AD8EDE_prototype:FCE211E7B9F378AFE(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A4_2 then
     A4_2 = 0
@@ -299,16 +281,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     A3_2 = 0
   end
   if A3_2 > 0 then
-    A0_2[2] = A3_2
-    A0_2[3] = A4_2
-    A0_2[4] = false
+    self[2] = A3_2
+    self[3] = A4_2
+    self[4] = false
   else
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.F4C18CD8C4185E777
     L5_2 = L5_2(L6_2)
     if L5_2 then
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L6_2 = L5_2
       L5_2 = L5_2.F83EEAD33A23837CC
       L5_2 = L5_2(L6_2)
@@ -321,15 +303,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       L7_2 = L58_1
       L8_2 = L6_2.itemNo
       L7_2 = L7_2(L8_2)
-      A0_2[2] = L7_2
+      self[2] = L7_2
       L7_2 = L58_1
       L8_2 = L6_2.itemNum
       L7_2 = L7_2(L8_2)
-      A0_2[3] = L7_2
+      self[3] = L7_2
       L7_2 = L58_1
       L8_2 = L6_2.isBonus
       L7_2 = L7_2(L8_2)
-      A0_2[4] = L7_2
+      self[4] = L7_2
       if L5_2 then
         L7_2 = C6C53F5DDF74F5897
         L7_2 = L7_2.S2F1033EC0C59A64F
@@ -337,20 +319,17 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
         L7_2 = L7_2.f7E5D2869
         L9_2 = "fieldgem_dropup_rate"
         L7_2 = L7_2(L8_2, L9_2)
-        L8_2 = A0_2[3]
+        L8_2 = self[3]
         L8_2 = L8_2 * L7_2
-        A0_2[3] = L8_2
-        A0_2[4] = true
+        self[3] = L8_2
+        self[4] = true
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C17EABB3711AD8EDE"]["prototype"]
-L69_1 = "F97B1E29DF02996F4"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.parts.BattleDropItem.F97B1E29DF02996F4
+function C17EABB3711AD8EDE_prototype:F97B1E29DF02996F4(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = A1_2[4]
   L3_2 = nil
@@ -374,7 +353,7 @@ function L70_1(A0_2, A1_2)
       L6_2 = L5_2
       L5_2 = L5_2.f7360ED03
       L5_2, L6_2, L7_2 = L5_2(L6_2)
-      L8_2 = A0_2[5]
+      L8_2 = self[5]
       L9_2 = L16_1
       L10_2 = {}
       L11_2 = {}

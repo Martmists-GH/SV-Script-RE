@@ -1,3 +1,7 @@
+---@alias C00B1D62EE9D003D3 main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokeEscapeArrivalState
+
+---@class main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokeEscapeArrivalState : C00B1D62EE9D003D3_prototype
+---@field prototype C00B1D62EE9D003D3_prototype
 L55_1 = _ENV
 L56_1 = "C00B1D62EE9D003D3"
 L57_1 = L15_1
@@ -39,18 +43,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C00B1D62EE9D003D3"]
 L69_1 = "__name__"
 L70_1 = "C00B1D62EE9D003D3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00B1D62EE9D003D3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00B1D62EE9D003D3"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C00B1D62EE9D003D3_prototype
+C00B1D62EE9D003D3_prototype = L15_1()
+C00B1D62EE9D003D3.prototype = C00B1D62EE9D003D3_prototype
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeEscapeArrivalState.onCreate
+function C00B1D62EE9D003D3_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L1_2 = L1_2.owner
   L2_2 = L1_2
   L1_2 = L1_2.fB3CF1DEB
@@ -63,16 +62,13 @@ function L70_1(A0_2)
   if L2_2 == L3_2 then
     L2_2 = nil
   end
-  A0_2[5] = L2_2
+  self[5] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00B1D62EE9D003D3"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeEscapeArrivalState.onPreUpdate
+function C00B1D62EE9D003D3_prototype:F1993A419B4083AE8(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L4_2 = A1_2
   L3_2 = A1_2.f22D509B2
   L5_2 = 2
@@ -81,15 +77,15 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.fC0E2CAD0
   L3_2 = L3_2(L4_2)
   L2_2 = L2_2 + L3_2
-  A0_2[4] = L2_2
-  L2_2 = A0_2[4]
+  self[4] = L2_2
+  L2_2 = self[4]
   L3_2 = C00B1D62EE9D003D3
   L3_2 = L3_2.SA8A1038733C17A06
   if L2_2 >= L3_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L2_2
     L2_2 = L2_2.F28EAF3B3AA178E3E
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L4_2 = L4_2[82]
     L2_2(L3_2, L4_2)
   end

@@ -1,3 +1,7 @@
+---@alias CD81788569BA388D2 main_event_debug_DebugKunikataMasaki
+
+---@class main_event_debug_DebugKunikataMasaki : CD81788569BA388D2_prototype
+---@field prototype CD81788569BA388D2_prototype
 L55_1 = _ENV
 L56_1 = "CD81788569BA388D2"
 L57_1 = L15_1
@@ -48,24 +52,16 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CD81788569BA388D2"]
 L69_1 = "__name__"
 L70_1 = "CD81788569BA388D2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD81788569BA388D2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD81788569BA388D2"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class CD81788569BA388D2_prototype
+CD81788569BA388D2_prototype = L15_1()
+CD81788569BA388D2.prototype = CD81788569BA388D2_prototype
+--- main.event.debug.DebugKunikataMasaki.preStart
+function CD81788569BA388D2_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD81788569BA388D2"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugKunikataMasaki.postStart
+function CD81788569BA388D2_prototype:F2E6C9E25867BCE8D()
   local L1_2, L2_2, L3_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -73,14 +69,11 @@ function L70_1(A0_2)
   L2_2[0] = "event_npc_common_2020_normal_020_normal"
   L3_2 = 1
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[6] = L1_2
+  self[6] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD81788569BA388D2"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugKunikataMasaki.mainBody
+function CD81788569BA388D2_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S4E44D50241EFAB61
@@ -129,27 +122,18 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD81788569BA388D2"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugKunikataMasaki.mainBodyFinish
+function CD81788569BA388D2_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD81788569BA388D2"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugKunikataMasaki.preEnd
+function CD81788569BA388D2_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD81788569BA388D2"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugKunikataMasaki.postEnd
+function CD81788569BA388D2_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

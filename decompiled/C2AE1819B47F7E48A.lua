@@ -1,3 +1,6 @@
+---@alias C48ED0604CDC42907 main_ui_contents_poke_wash_state_PokeWashUiState
+
+---@class main_ui_contents_poke_wash_state_PokeWashUiState
 L55_1 = _ENV
 L56_1 = "C2AE1819B47F7E48A"
 L57_1 = L15_1

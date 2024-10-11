@@ -1,3 +1,7 @@
+---@alias C01FCA11B3F7945A7 main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokeFollowWaterState
+
+---@class main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokeFollowWaterState : C01FCA11B3F7945A7_prototype
+---@field prototype C01FCA11B3F7945A7_prototype
 L55_1 = _ENV
 L56_1 = "C01FCA11B3F7945A7"
 L57_1 = L15_1
@@ -39,28 +43,23 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C01FCA11B3F7945A7"]
 L69_1 = "__name__"
 L70_1 = "C01FCA11B3F7945A7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FCA11B3F7945A7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FCA11B3F7945A7"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2, A1_2)
+---@class C01FCA11B3F7945A7_prototype
+C01FCA11B3F7945A7_prototype = L15_1()
+C01FCA11B3F7945A7.prototype = C01FCA11B3F7945A7_prototype
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeFollowWaterState.onInitialize
+function C01FCA11B3F7945A7_prototype:F239C282ED3F82676(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.FAC93F8BEE25E2F74
   L4_2 = C01FCA11B3F7945A7
   L4_2 = L4_2.S725CD6B5C2488630
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F0CD0BA769ED68472
   L2_2(L3_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = nil
   L4_2 = cECB91E31
   L4_2 = L4_2.fB6A00A1B
@@ -193,11 +192,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FCA11B3F7945A7"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeFollowWaterState.onPreUpdate
+function C01FCA11B3F7945A7_prototype:F1993A419B4083AE8(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CF67A67452D018ECC
   L2_2 = L2_2.SC8223E31D3163519
@@ -208,28 +204,28 @@ function L70_1(A0_2, A1_2)
   end
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S93A017D496A6D000
-  L4_2 = A0_2
-  L3_2 = A0_2.F5E4F9E91C16BC199
+  L4_2 = self
+  L3_2 = self.F5E4F9E91C16BC199
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = C01FCA11B3F7945A7
   L4_2 = L4_2.S3313E9E8B9408B4B
   if L3_2 >= L4_2 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.F4F9D9832C5497778
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L4_2 = L3_2
       L3_2 = L3_2.F002BA3C03A81D919
       L3_2 = L3_2(L4_2)
       if not L3_2 then
-        L3_2 = A0_2[1]
+        L3_2 = self[1]
         L4_2 = L3_2
         L3_2 = L3_2.F28EAF3B3AA178E3E
-        L5_2 = A0_2[1]
+        L5_2 = self[1]
         L5_2 = L5_2[62]
         L3_2(L4_2, L5_2)
       end
@@ -238,22 +234,19 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FCA11B3F7945A7"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeFollowWaterState.onTerminate
+function C01FCA11B3F7945A7_prototype:F97D80368ACC86AEF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FAC93F8BEE25E2F74
   L3_2 = 0
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FC016F09A4B700263
   L1_2(L2_2)
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = nil
   L3_2 = cECB91E31
   L3_2 = L3_2.fB6A00A1B

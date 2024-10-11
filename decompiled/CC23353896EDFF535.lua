@@ -1,3 +1,5 @@
+---@class CC23353896EDFF535 : CC23353896EDFF535_prototype
+---@field prototype CC23353896EDFF535_prototype
 L55_1 = _ENV
 L56_1 = "CC23353896EDFF535"
 L57_1 = L15_1
@@ -45,18 +47,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC23353896EDFF535"]
 L69_1 = "__name__"
 L70_1 = "CC23353896EDFF535"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC23353896EDFF535"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC23353896EDFF535"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CC23353896EDFF535_prototype
+CC23353896EDFF535_prototype = L15_1()
+CC23353896EDFF535.prototype = CC23353896EDFF535_prototype
+--- CC23353896EDFF535.onCreate
+function CC23353896EDFF535_prototype:FC87C731D11C58354()
   local L1_2
-  A0_2[35] = "shop_hairsalon"
+  self[35] = "shop_hairsalon"
 end
 
 L68_1[L69_1] = L70_1

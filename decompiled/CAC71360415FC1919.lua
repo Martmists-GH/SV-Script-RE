@@ -1,3 +1,7 @@
+---@alias CAC71360415FC1919 main_pokepicnic_database_RecipeDataParam
+
+---@class main_pokepicnic_database_RecipeDataParam : CAC71360415FC1919_prototype
+---@field prototype CAC71360415FC1919_prototype
 L55_1 = _ENV
 L56_1 = "CAC71360415FC1919"
 L57_1 = L15_1
@@ -45,22 +49,17 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CAC71360415FC1919"]
 L69_1 = "__name__"
 L70_1 = "CAC71360415FC1919"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC71360415FC1919"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC71360415FC1919"]["prototype"]
-L69_1 = "F8F780E01AD596782"
-
-function L70_1(A0_2)
+---@class CAC71360415FC1919_prototype
+CAC71360415FC1919_prototype = L15_1()
+CAC71360415FC1919.prototype = CAC71360415FC1919_prototype
+--- main.pokepicnic.database.RecipeDataParam.clone
+function CAC71360415FC1919_prototype:F8F780E01AD596782()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = CAC71360415FC1919
   L1_2 = L1_2.new
   L1_2 = L1_2()
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -77,7 +76,7 @@ function L70_1(A0_2)
     L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
   end
   L4_2 = 0
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   while true do
     L6_2 = L5_2.length
     if not (L4_2 < L6_2) then
@@ -96,18 +95,15 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC71360415FC1919"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.database.RecipeDataParam.Setup
+function CAC71360415FC1919_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = _hx_tab_array
   L3_2 = {}
   L3_2.length = 0
   L4_2 = 0
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L2_2 = 0
   L3_2 = CD991C7DDFC4B7B0C
   L3_2 = L3_2.S86F5335876BECCA3
@@ -127,7 +123,7 @@ function L70_1(A0_2, A1_2)
     if 0 ~= L5_2 then
       L6_2 = true
       L7_2 = 0
-      L8_2 = A0_2[1]
+      L8_2 = self[1]
       while true do
         L9_2 = L8_2.length
         if not (L7_2 < L9_2) then
@@ -145,7 +141,7 @@ function L70_1(A0_2, A1_2)
         end
       end
       if L6_2 then
-        L9_2 = A0_2[1]
+        L9_2 = self[1]
         L10_2 = L9_2
         L9_2 = L9_2.push
         L11_2 = L16_1
@@ -170,7 +166,7 @@ function L70_1(A0_2, A1_2)
   L6_2.length = 0
   L7_2 = 0
   L5_2 = L5_2(L6_2, L7_2)
-  A0_2[2] = L5_2
+  self[2] = L5_2
   L5_2 = 0
   L6_2 = C89075C62D660EAD4
   L6_2 = L6_2.S86F5335876BECCA3
@@ -190,7 +186,7 @@ function L70_1(A0_2, A1_2)
     if 0 ~= L8_2 then
       L9_2 = true
       L10_2 = 0
-      L11_2 = A0_2[2]
+      L11_2 = self[2]
       while true do
         L12_2 = L11_2.length
         if not (L10_2 < L12_2) then
@@ -208,7 +204,7 @@ function L70_1(A0_2, A1_2)
         end
       end
       if L9_2 then
-        L12_2 = A0_2[2]
+        L12_2 = self[2]
         L13_2 = L12_2
         L12_2 = L12_2.push
         L14_2 = L16_1
@@ -230,18 +226,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC71360415FC1919"]["prototype"]
-L69_1 = "F2D9FDBC91AE9A0AB"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.database.RecipeDataParam.CustomSetup
+function CAC71360415FC1919_prototype:F2D9FDBC91AE9A0AB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = _hx_tab_array
   L3_2 = {}
   L3_2.length = 0
   L4_2 = 0
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L2_2 = 0
   L3_2 = c1CBE15F4
   L3_2 = L3_2.f175FA2C6
@@ -256,7 +249,7 @@ function L70_1(A0_2, A1_2)
     if 0 ~= L5_2 then
       L6_2 = true
       L7_2 = 0
-      L8_2 = A0_2[1]
+      L8_2 = self[1]
       while true do
         L9_2 = L8_2.length
         if not (L7_2 < L9_2) then
@@ -274,7 +267,7 @@ function L70_1(A0_2, A1_2)
         end
       end
       if L6_2 then
-        L9_2 = A0_2[1]
+        L9_2 = self[1]
         L10_2 = L9_2
         L9_2 = L9_2.push
         L11_2 = L16_1
@@ -299,7 +292,7 @@ function L70_1(A0_2, A1_2)
   L6_2.length = 0
   L7_2 = 0
   L5_2 = L5_2(L6_2, L7_2)
-  A0_2[2] = L5_2
+  self[2] = L5_2
   L5_2 = 0
   L6_2 = c1CBE15F4
   L6_2 = L6_2.f2869A0E7
@@ -314,7 +307,7 @@ function L70_1(A0_2, A1_2)
     if 0 ~= L8_2 then
       L9_2 = true
       L10_2 = 0
-      L11_2 = A0_2[2]
+      L11_2 = self[2]
       while true do
         L12_2 = L11_2.length
         if not (L10_2 < L12_2) then
@@ -332,7 +325,7 @@ function L70_1(A0_2, A1_2)
         end
       end
       if L9_2 then
-        L12_2 = A0_2[2]
+        L12_2 = self[2]
         L13_2 = L12_2
         L12_2 = L12_2.push
         L14_2 = L16_1

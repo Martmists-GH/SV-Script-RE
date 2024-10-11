@@ -1,3 +1,7 @@
+---@alias C91E21FEEDB2EF368 main_ui_shop_purchase_view_ShopUIPurchaseSequence
+
+---@class main_ui_shop_purchase_view_ShopUIPurchaseSequence : C91E21FEEDB2EF368_prototype
+---@field prototype C91E21FEEDB2EF368_prototype
 L55_1 = _ENV
 L56_1 = "C951257B28BC0DD9C"
 L57_1 = L15_1
@@ -10,11 +14,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C951257B28BC0DD9C"]
 L69_1 = "__name__"
 L70_1 = "C951257B28BC0DD9C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C951257B28BC0DD9C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C91E21FEEDB2EF368_prototype
+C91E21FEEDB2EF368_prototype = L15_1()
+C91E21FEEDB2EF368.prototype = C91E21FEEDB2EF368_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C951257B28BC0DD9C"]["prototype"]
 L69_1 = _ENV["C951257B28BC0DD9C"]

@@ -1,3 +1,7 @@
+---@alias C0075A7EDE1FB9BE0 main_event_general_system_map_change_MapChangeAtlantis
+
+---@class main_event_general_system_map_change_MapChangeAtlantis : C0075A7EDE1FB9BE0_prototype
+---@field prototype C0075A7EDE1FB9BE0_prototype
 L55_1 = _ENV
 L56_1 = "C0075A7EDE1FB9BE0"
 L57_1 = L15_1
@@ -47,28 +51,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0075A7EDE1FB9BE0"]
 L69_1 = "__name__"
 L70_1 = "C0075A7EDE1FB9BE0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0075A7EDE1FB9BE0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0075A7EDE1FB9BE0"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C0075A7EDE1FB9BE0_prototype
+C0075A7EDE1FB9BE0_prototype = L15_1()
+C0075A7EDE1FB9BE0.prototype = C0075A7EDE1FB9BE0_prototype
+--- main.event.general.system.map_change.MapChangeAtlantis.onCreate
+function C0075A7EDE1FB9BE0_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.skipPlayerStuckCheck = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0075A7EDE1FB9BE0"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.system.map_change.MapChangeAtlantis.mainBody
+function C0075A7EDE1FB9BE0_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.isIn
   if L1_2 then
     L1_2 = C9AA363B3CCC264AA
@@ -86,7 +82,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.S0C6378C0E23B592D
   L2_2 = "Player"
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.isIn
   if L2_2 then
     L2_2 = C83457451305E87F8
@@ -127,7 +123,7 @@ function L70_1(A0_2)
     L4_2.effectId = L5_2
     L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L3_2(L4_2)
     L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
-    A0_2[35] = L2_2
+    self[35] = L2_2
   else
     L2_2 = C83457451305E87F8
     L2_2 = L2_2.S942F0AD49720722F
@@ -167,30 +163,30 @@ function L70_1(A0_2)
     L4_2.effectId = L5_2
     L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L3_2(L4_2)
     L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
-    A0_2[35] = L2_2
+    self[35] = L2_2
   end
-  L2_2 = A0_2[35]
+  L2_2 = self[35]
   if nil ~= L2_2 then
-    L2_2 = A0_2[35]
+    L2_2 = self[35]
     L3_2 = L2_2
     L2_2 = L2_2.F7C68FEDB79AB6396
     L2_2(L3_2)
     while true do
-      L2_2 = A0_2[35]
+      L2_2 = self[35]
       L3_2 = L2_2
       L2_2 = L2_2.F1F1A12639CCE7C24
       L2_2 = L2_2(L3_2)
       if L2_2 then
         break
       end
-      L2_2 = A0_2[35]
+      L2_2 = self[35]
       L3_2 = L2_2
       L2_2 = L2_2.FA5B8258582A90EF3
       L2_2 = L2_2(L3_2)
       if L2_2 then
         break
       end
-      L2_2 = A0_2[35]
+      L2_2 = self[35]
       L3_2 = L2_2
       L2_2 = L2_2.FEB6685558281F194
       L2_2(L3_2)
@@ -200,21 +196,21 @@ function L70_1(A0_2)
       L2_2(L3_2)
     end
     while true do
-      L2_2 = A0_2[36]
-      L3_2 = A0_2[32]
+      L2_2 = self[36]
+      L3_2 = self[32]
       L3_2 = L3_2.wait
       if not (L2_2 < L3_2) then
         break
       end
-      L2_2 = A0_2[35]
+      L2_2 = self[35]
       L3_2 = L2_2
       L2_2 = L2_2.FA5B8258582A90EF3
       L2_2 = L2_2(L3_2)
       if L2_2 then
         break
       end
-      L2_2 = A0_2[36]
-      L3_2 = A0_2[3]
+      L2_2 = self[36]
+      L3_2 = self[3]
       L4_2 = L3_2
       L3_2 = L3_2.f22D509B2
       L5_2 = 2
@@ -223,8 +219,8 @@ function L70_1(A0_2)
       L3_2 = L3_2.fC0E2CAD0
       L3_2 = L3_2(L4_2)
       L2_2 = L2_2 + L3_2
-      A0_2[36] = L2_2
-      L2_2 = A0_2[35]
+      self[36] = L2_2
+      L2_2 = self[35]
       L3_2 = L2_2
       L2_2 = L2_2.FEB6685558281F194
       L2_2(L3_2)
@@ -243,27 +239,27 @@ function L70_1(A0_2)
   L2_2 = L2_2.S86E1B79F458ED8B4
   L3_2 = 0
   L2_2(L3_2)
-  L2_2 = A0_2[35]
+  L2_2 = self[35]
   if nil ~= L2_2 then
-    L2_2 = A0_2[35]
+    L2_2 = self[35]
     L3_2 = L2_2
     L2_2 = L2_2.F96B4C3266FC0614A
     L2_2(L3_2)
-    A0_2[35] = nil
+    self[35] = nil
   end
   L2_2 = nil
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.forcePosition
   if nil ~= L3_2 then
-    L3_2 = A0_2[32]
+    L3_2 = self[32]
     L3_2 = L3_2.forcePosition
     L3_2 = L3_2[1]
     if 0 == L3_2 then
-      L3_2 = A0_2[32]
+      L3_2 = self[32]
       L3_2 = L3_2.forcePosition
       L3_2 = L3_2[2]
       if 0 == L3_2 then
-        L3_2 = A0_2[32]
+        L3_2 = self[32]
         L3_2 = L3_2.forcePosition
         L3_2 = L3_2[3]
         if 0 == L3_2 then
@@ -271,7 +267,7 @@ function L70_1(A0_2)
         end
       end
     end
-    L3_2 = A0_2[32]
+    L3_2 = self[32]
     L2_2 = L3_2.forcePosition
   end
   ::lbl_170::
@@ -295,13 +291,13 @@ function L70_1(A0_2)
   L10_2.destOffset = true
   L9_2.__fields__ = L10_2
   L9_2.type = 3
-  L10_2 = A0_2[32]
+  L10_2 = self[32]
   L10_2 = L10_2.destScene
   L9_2.destScene = L10_2
-  L10_2 = A0_2[32]
+  L10_2 = self[32]
   L10_2 = L10_2.destLocation
   L9_2.destLocation = L10_2
-  L10_2 = A0_2[32]
+  L10_2 = self[32]
   L10_2 = L10_2.destOffset
   L9_2.destOffset = L10_2
   L8_2 = L8_2(L9_2)
@@ -311,7 +307,7 @@ function L70_1(A0_2)
   function L8_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[32]
     L1_3 = L1_3.isIn
     if L1_3 then
@@ -328,7 +324,7 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
   L3_2 = C83457451305E87F8
   L3_2 = L3_2.S29422246DC300331
-  L4_2 = A0_2[32]
+  L4_2 = self[32]
   L4_2 = L4_2.destSE
   L5_2 = 1
   L6_2 = 0.5

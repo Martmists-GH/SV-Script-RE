@@ -1,7 +1,8 @@
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "new"
+---@alias C79A8A2641CC135A3 main_network_receiver_RaidNetReceiver
 
-function L70_1(A0_2)
+---@class main_network_receiver_RaidNetReceiver : C79A8A2641CC135A3_prototype
+---@field prototype C79A8A2641CC135A3_prototype
+function C79A8A2641CC135A3.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C79A8A2641CC135A3
@@ -17,11 +18,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C79A8A2641CC135A3
+function C79A8A2641CC135A3.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C3DC904811DECA844
   L2_2 = L2_2.super
@@ -37,11 +35,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C79A8A2641CC135A3"]
 L69_1 = "__name__"
 L70_1 = "C79A8A2641CC135A3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "S30ED99F3BA06F16A"
-
-function L70_1()
+--- main.network.receiver.RaidNetReceiver.getSceneObject
+function C79A8A2641CC135A3.S30ED99F3BA06F16A()
   local L0_2, L1_2, L2_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -53,11 +48,8 @@ function L70_1()
   return L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "SD93871594E1C3C61"
-
-function L70_1()
+--- main.network.receiver.RaidNetReceiver.getBehavior
+function C79A8A2641CC135A3.SD93871594E1C3C61()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CF1D074B6B410BDB8
   L0_2 = L0_2.S30ED99F3BA06F16A
@@ -79,11 +71,8 @@ function L70_1()
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "S2E71AD9087CC54E3"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.network.receiver.RaidNetReceiver.OnNetworkReceiverFunction
+function C79A8A2641CC135A3.S2E71AD9087CC54E3(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L5_2 = cF27D739D
   L5_2 = L5_2.f7264D75B
@@ -858,11 +847,8 @@ L68_1 = "C79A8A2641CC135A3"
 L68_1 = L25_1[L68_1]
 L69_1 = "S2E71AD9087CC54E3"
 L70_1 = _ENV["C79A8A2641CC135A3"]["S2E71AD9087CC54E3"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "S137A5F9455FBF976"
-
-function L70_1()
+--- main.network.receiver.RaidNetReceiver.getDefaultBattleSetting
+function C79A8A2641CC135A3.S137A5F9455FBF976()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = L16_1
   L1_2 = {}
@@ -1063,11 +1049,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "SCF74A9D6C21CBD84"
-
-function L70_1(A0_2, A1_2)
+--- main.network.receiver.RaidNetReceiver.SCF74A9D6C21CBD84
+function C79A8A2641CC135A3.SCF74A9D6C21CBD84(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L3_2 = A0_2
   L2_2 = A0_2.fEACB4263
@@ -1541,11 +1524,8 @@ function L70_1(A0_2, A1_2)
   L3_2.doubleActionRate = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "SDD07B4AE136D1BCD"
-
-function L70_1(A0_2, A1_2)
+--- main.network.receiver.RaidNetReceiver.SDD07B4AE136D1BCD
+function C79A8A2641CC135A3.SDD07B4AE136D1BCD(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L3_2 = A0_2
   L2_2 = A0_2.fEACB4263
@@ -1679,11 +1659,8 @@ function L70_1(A0_2, A1_2)
   A1_2[7] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "S5648D1DFFE27CF65"
-
-function L70_1()
+--- main.network.receiver.RaidNetReceiver.IsDisconnectSession
+function C79A8A2641CC135A3.S5648D1DFFE27CF65()
   local L0_2, L1_2, L2_2
   L0_2 = cF27D739D
   L0_2 = L0_2.f7264D75B
@@ -1707,11 +1684,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "S4284B8919B6CE5B6"
-
-function L70_1()
+--- main.network.receiver.RaidNetReceiver.IsDisconnectLeader
+function C79A8A2641CC135A3.S4284B8919B6CE5B6()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = cF27D739D
   L0_2 = L0_2.f7264D75B
@@ -1737,11 +1711,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "SCE078798DDD6F94D"
-
-function L70_1()
+--- main.network.receiver.RaidNetReceiver.SCE078798DDD6F94D
+function C79A8A2641CC135A3.SCE078798DDD6F94D()
   local L0_2, L1_2, L2_2
   L0_2 = cF27D739D
   L0_2 = L0_2.f7264D75B
@@ -1781,22 +1752,16 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "S9E144AA054A40EF3"
-
-function L70_1()
+--- main.network.receiver.RaidNetReceiver.S9E144AA054A40EF3
+function C79A8A2641CC135A3.S9E144AA054A40EF3()
   local L0_2, L1_2
   L0_2 = CF1D074B6B410BDB8
   L0_2 = L0_2.S9E144AA054A40EF3
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "SB35A033DB26DC388"
-
-function L70_1()
+--- main.network.receiver.RaidNetReceiver.IsRaidOwner
+function C79A8A2641CC135A3.SB35A033DB26DC388()
   local L0_2, L1_2, L2_2
   L0_2 = cF27D739D
   L0_2 = L0_2.f7264D75B
@@ -1820,11 +1785,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "S4C0E1762AF4170B7"
-
-function L70_1(A0_2)
+--- main.network.receiver.RaidNetReceiver.GetSubSessionListIndex
+function C79A8A2641CC135A3.S4C0E1762AF4170B7(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = cF27D739D
   L1_2 = L1_2.f7264D75B
@@ -1864,11 +1826,8 @@ function L70_1(A0_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "SAA40E9FE64546E0A"
-
-function L70_1(A0_2)
+--- main.network.receiver.RaidNetReceiver.SAA40E9FE64546E0A
+function C79A8A2641CC135A3.SAA40E9FE64546E0A(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = c3876BF41
   L1_2 = L1_2.fC6A3A3F4
@@ -1888,11 +1847,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "S8C162FA2F813BF53"
-
-function L70_1(A0_2, A1_2)
+--- main.network.receiver.RaidNetReceiver.S8C162FA2F813BF53
+function C79A8A2641CC135A3.S8C162FA2F813BF53(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = c3876BF41
   L2_2 = L2_2.fC6A3A3F4
@@ -1910,11 +1866,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "SDEAD47A0FE37CD95"
-
-function L70_1(A0_2, A1_2)
+--- main.network.receiver.RaidNetReceiver.SDEAD47A0FE37CD95
+function C79A8A2641CC135A3.SDEAD47A0FE37CD95(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = c3876BF41
   L2_2 = L2_2.fC6A3A3F4
@@ -1932,11 +1885,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "S18AFE7A688210E29"
-
-function L70_1()
+--- main.network.receiver.RaidNetReceiver.resetReadyFlag
+function C79A8A2641CC135A3.S18AFE7A688210E29()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C79A8A2641CC135A3
   L0_2.S000FC92D3A9DE1D7 = false
@@ -1964,11 +1914,8 @@ function L70_1()
   L2_2.S55D733AF8B0604BE = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "S09E6E1D04CAF87A0"
-
-function L70_1(A0_2, A1_2)
+--- main.network.receiver.RaidNetReceiver.S09E6E1D04CAF87A0
+function C79A8A2641CC135A3.S09E6E1D04CAF87A0(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C79A8A2641CC135A3
   L2_2 = L2_2.S5C5EBAF635551D32
@@ -2000,11 +1947,8 @@ function L70_1(A0_2, A1_2)
   L4_2[A0_2] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "S51F49C70B9ED3A8C"
-
-function L70_1(A0_2)
+--- main.network.receiver.RaidNetReceiver.S51F49C70B9ED3A8C
+function C79A8A2641CC135A3.S51F49C70B9ED3A8C(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C79A8A2641CC135A3
   L1_2 = L1_2.S5C5EBAF635551D32
@@ -2038,11 +1982,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "SAD82CB0D62D76302"
-
-function L70_1(A0_2, A1_2)
+--- main.network.receiver.RaidNetReceiver.setRaidReady
+function C79A8A2641CC135A3.SAD82CB0D62D76302(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C79A8A2641CC135A3
   L2_2 = L2_2.S7550C5DB94C0E318
@@ -2074,11 +2015,8 @@ function L70_1(A0_2, A1_2)
   L4_2[A0_2] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "SF5F3DC8A108C8246"
-
-function L70_1(A0_2)
+--- main.network.receiver.RaidNetReceiver.getRaidReady
+function C79A8A2641CC135A3.SF5F3DC8A108C8246(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C79A8A2641CC135A3
   L1_2 = L1_2.S7550C5DB94C0E318
@@ -2112,11 +2050,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "SCDC76D2923F51D31"
-
-function L70_1(A0_2, A1_2)
+--- main.network.receiver.RaidNetReceiver.setPokemonParam
+function C79A8A2641CC135A3.SCDC76D2923F51D31(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C79A8A2641CC135A3
   L2_2 = L2_2.S22B3579286160D5F
@@ -2148,11 +2083,8 @@ function L70_1(A0_2, A1_2)
   L4_2[A0_2] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "SB287A8833D8A6935"
-
-function L70_1(A0_2)
+--- main.network.receiver.RaidNetReceiver.getPokemonParam
+function C79A8A2641CC135A3.SB287A8833D8A6935(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C79A8A2641CC135A3
   L1_2 = L1_2.S22B3579286160D5F
@@ -2186,11 +2118,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "S2272B4B9320E6E57"
-
-function L70_1(A0_2, A1_2)
+--- main.network.receiver.RaidNetReceiver.S2272B4B9320E6E57
+function C79A8A2641CC135A3.S2272B4B9320E6E57(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C79A8A2641CC135A3
   L2_2 = L2_2.S16BB27A4DE57AA5D
@@ -2222,11 +2151,8 @@ function L70_1(A0_2, A1_2)
   L4_2[A0_2] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "S6A6A304F962CD95B"
-
-function L70_1(A0_2)
+--- main.network.receiver.RaidNetReceiver.S6A6A304F962CD95B
+function C79A8A2641CC135A3.S6A6A304F962CD95B(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C79A8A2641CC135A3
   L1_2 = L1_2.S16BB27A4DE57AA5D
@@ -2260,11 +2186,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "SD59734AC1001C05D"
-
-function L70_1()
+--- main.network.receiver.RaidNetReceiver.SD59734AC1001C05D
+function C79A8A2641CC135A3.SD59734AC1001C05D()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L0_2 = C79A8A2641CC135A3
   L0_2 = L0_2.S0546CE08AD8C9D86
@@ -2354,42 +2277,37 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C79A8A2641CC135A3_prototype
+C79A8A2641CC135A3_prototype = L15_1()
+C79A8A2641CC135A3.prototype = C79A8A2641CC135A3_prototype
+--- main.network.receiver.RaidNetReceiver.Setup
+function C79A8A2641CC135A3_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = C3DC904811DECA844
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = cD0E10A32
   L2_2 = L2_2.f4F5C01BE
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "Raid"
   L5_2 = 4
   L2_2(L3_2, L4_2, L5_2)
   L2_2 = cD0E10A32
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L2_2 = nil
   L3_2 = cD0E10A32
   L3_2 = L3_2.f94A96AB5
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.f317EB6F9
     L5_2 = "OnNetworkReceiverFunction"
@@ -2436,23 +2354,17 @@ function L70_1(A0_2, A1_2)
   L5_2.S02359B3BEB77215A = L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.network.receiver.RaidNetReceiver.PreUpdate
+function C79A8A2641CC135A3_prototype:FE94F3E13286232CF(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C79A8A2641CC135A3"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.network.receiver.RaidNetReceiver.Destroy
+function C79A8A2641CC135A3_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = C3DC904811DECA844
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 

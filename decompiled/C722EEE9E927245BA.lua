@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C722EEE9E927245BA"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C722EEE9E927245BA"]
-L69_1 = "new"
+---@alias C722EEE9E927245BA main_management_dressupItem_DressupPlayerPartsManager
 
-function L70_1()
+---@class main_management_dressupItem_DressupPlayerPartsManager : C722EEE9E927245BA_prototype
+---@field prototype C722EEE9E927245BA_prototype
+C722EEE9E927245BA = L15_1()
+function C722EEE9E927245BA.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C722EEE9E927245BA
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C722EEE9E927245BA"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C722EEE9E927245BA
+function C722EEE9E927245BA.super(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
@@ -40,11 +34,7 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C722EEE9E927245BA"]
-L69_1 = "__name__"
-L70_1 = "C722EEE9E927245BA"
-L68_1[L69_1] = L70_1
+C722EEE9E927245BA.__name__ = "C722EEE9E927245BA"
 L68_1 = _ENV["C722EEE9E927245BA"]
 L69_1 = "S385504EFF7E842C3"
 
@@ -64,18 +54,13 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C722EEE9E927245BA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C722EEE9E927245BA"]["prototype"]
-L69_1 = "F898D9A9C44354379"
-
-function L70_1(A0_2)
+---@class C722EEE9E927245BA_prototype
+C722EEE9E927245BA_prototype = L15_1()
+C722EEE9E927245BA.prototype = C722EEE9E927245BA_prototype
+--- main.management.dressupItem.DressupPlayerPartsManager.get_dressupPartsArray
+function C722EEE9E927245BA_prototype:F898D9A9C44354379()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = _hx_tab_array
   L3_2 = {}
   L3_2.length = 0
@@ -97,32 +82,26 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C722EEE9E927245BA"]["prototype"]
-L69_1 = "FD23B8F6D2C77D3A4"
-
-function L70_1(A0_2)
+--- main.management.dressupItem.DressupPlayerPartsManager.LoadSaveData
+function C722EEE9E927245BA_prototype:FD23B8F6D2C77D3A4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.length
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L4_2 = A0_2[2]
-    L6_2 = A0_2
-    L5_2 = A0_2.F8B8BC6BBB13DC82C
+    L4_2 = self[2]
+    L6_2 = self
+    L5_2 = self.F8B8BC6BBB13DC82C
     L7_2 = L3_2
     L5_2 = L5_2(L6_2, L7_2)
     L4_2[L3_2] = L5_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C722EEE9E927245BA"]["prototype"]
-L69_1 = "F8B8BC6BBB13DC82C"
-
-function L70_1(A0_2, A1_2)
+--- main.management.dressupItem.DressupPlayerPartsManager.LoadPartsID
+function C722EEE9E927245BA_prototype:F8B8BC6BBB13DC82C(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
   if 7 ~= A1_2 then
@@ -149,11 +128,8 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C722EEE9E927245BA"]["prototype"]
-L69_1 = "FB22BD8F437A9EEF7"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.management.dressupItem.DressupPlayerPartsManager.SetParts
+function C722EEE9E927245BA_prototype:FB22BD8F437A9EEF7(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A4_2 then
     A4_2 = true
@@ -184,7 +160,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   if not L5_2 then
     return
   end
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L5_2[A1_2] = A2_2
   if 7 == A1_2 then
     return
@@ -399,11 +375,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C722EEE9E927245BA"]["prototype"]
-L69_1 = "FEA0910CB87F2B98D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.management.dressupItem.DressupPlayerPartsManager.RemoveParts
+function C722EEE9E927245BA_prototype:FEA0910CB87F2B98D(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A3_2 then
     A3_2 = true
@@ -483,7 +456,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L8_2 = L5_2
       L6_2(L7_2, L8_2)
     end
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L4_2[A1_2] = -1
   end
   if 4 == A1_2 then
@@ -561,11 +534,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C722EEE9E927245BA"]["prototype"]
-L69_1 = "F79A71F04D94D2C8E"
-
-function L70_1(A0_2, A1_2)
+--- main.management.dressupItem.DressupPlayerPartsManager.GetUnEquipmentLabel
+function C722EEE9E927245BA_prototype:F79A71F04D94D2C8E(A1_2)
   local L2_2, L3_2
   L2_2 = C722EEE9E927245BA
   L2_2 = L2_2.S52C054CDE36C4826
@@ -586,11 +556,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C722EEE9E927245BA"]["prototype"]
-L69_1 = "F8904D35CE2995C5B"
-
-function L70_1(A0_2, A1_2)
+--- main.management.dressupItem.DressupPlayerPartsManager.GetParts
+function C722EEE9E927245BA_prototype:F8904D35CE2995C5B(A1_2)
   local L2_2
   
   function L2_2()
@@ -616,16 +583,13 @@ function L70_1(A0_2, A1_2)
     L2_2 = nil
     return L2_2
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2[A1_2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C722EEE9E927245BA"]["prototype"]
-L69_1 = "F65967B5817D6F3F3"
-
-function L70_1(A0_2, A1_2)
+--- main.management.dressupItem.DressupPlayerPartsManager.IsPartsSet
+function C722EEE9E927245BA_prototype:F65967B5817D6F3F3(A1_2)
   local L2_2
   
   function L2_2()
@@ -655,20 +619,17 @@ function L70_1(A0_2, A1_2)
     L2_2 = true
     return L2_2
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2[A1_2]
   L2_2 = -1 ~= L2_2
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C722EEE9E927245BA"]["prototype"]
-L69_1 = "F329D6919F3A3BA18"
-
-function L70_1(A0_2, A1_2)
+--- main.management.dressupItem.DressupPlayerPartsManager.IsDressupIDSet
+function C722EEE9E927245BA_prototype:F329D6919F3A3BA18(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then

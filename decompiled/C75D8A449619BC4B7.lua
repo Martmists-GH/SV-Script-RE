@@ -1,3 +1,7 @@
+---@alias C5196F2C433539EDA main_form_change_FormChangeManager
+
+---@class main_form_change_FormChangeManager : C5196F2C433539EDA_prototype
+---@field prototype C5196F2C433539EDA_prototype
 L55_1 = _ENV
 L56_1 = "C75D8A449619BC4B7"
 L57_1 = L15_1
@@ -35,11 +39,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C75D8A449619BC4B7"]
 L69_1 = "__name__"
 L70_1 = "C75D8A449619BC4B7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75D8A449619BC4B7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C5196F2C433539EDA_prototype
+C5196F2C433539EDA_prototype = L15_1()
+C5196F2C433539EDA.prototype = C5196F2C433539EDA_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C75D8A449619BC4B7"]["prototype"]
 L69_1 = _ENV["C75D8A449619BC4B7"]

@@ -1,3 +1,7 @@
+---@alias CCFE295C92478F6BD main_field_global_event_check_event_trigger_GlobalButtonTrigger
+
+---@class main_field_global_event_check_event_trigger_GlobalButtonTrigger : CCFE295C92478F6BD_prototype
+---@field prototype CCFE295C92478F6BD_prototype
 L68_1 = _ENV["CCFE295C92478F6BD"]
 L69_1 = "super"
 
@@ -17,11 +21,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CCFE295C92478F6BD"]
 L69_1 = "__name__"
 L70_1 = "CCFE295C92478F6BD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFE295C92478F6BD"]
-L69_1 = "S0155882C6B637887"
-
-function L70_1(A0_2)
+--- main.field.global_event_check.event_trigger.GlobalButtonTrigger.IsButtonTrigger
+function CCFE295C92478F6BD.S0155882C6B637887(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = CCFE295C92478F6BD
@@ -43,11 +44,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFE295C92478F6BD"]
-L69_1 = "S2C00E31A4B070414"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.field.global_event_check.event_trigger.GlobalButtonTrigger.OnTriggerFunction
+function CCFE295C92478F6BD.S2C00E31A4B070414(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = CF67A67452D018ECC
   L4_2 = L4_2.SC8223E31D3163519
@@ -110,55 +108,47 @@ L68_1 = "CCFE295C92478F6BD"
 L68_1 = L25_1[L68_1]
 L69_1 = "S2C00E31A4B070414"
 L70_1 = _ENV["CCFE295C92478F6BD"]["S2C00E31A4B070414"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFE295C92478F6BD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFE295C92478F6BD"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CCFE295C92478F6BD_prototype
+CCFE295C92478F6BD_prototype = L15_1()
+CCFE295C92478F6BD.prototype = CCFE295C92478F6BD_prototype
+--- main.field.global_event_check.event_trigger.GlobalButtonTrigger.Setup
+function CCFE295C92478F6BD_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c1BF355EA
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
-  L2_2 = A0_2[2]
+  self[2] = L2_2
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f317EB6F9
   L4_2 = "OnTriggerFunction"
   L5_2 = 0.0
   L6_2 = 9
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
-  A0_2[3] = L2_2
-  L2_2 = A0_2[1]
+  self[3] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.fBE3B2D3B
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFE295C92478F6BD"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.field.global_event_check.event_trigger.GlobalButtonTrigger.Destroy
+function CCFE295C92478F6BD_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c1BF355EA
   L2_2 = L2_2.f3516679E
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     if L2_2 >= 0 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = L2_2
       L2_2 = L2_2.fFB78ACF1
-      L4_2 = A0_2[3]
+      L4_2 = self[3]
       L2_2(L3_2, L4_2)
     end
   end

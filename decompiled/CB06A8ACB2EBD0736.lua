@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CB06A8ACB2EBD0736"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CB06A8ACB2EBD0736"]
-L69_1 = "new"
+---@alias CB06A8ACB2EBD0736 main_field_behaviour_scenario_main_champion_gym_koori_Gym_koori_course_flag_line
 
-function L70_1(A0_2)
+---@class main_field_behaviour_scenario_main_champion_gym_koori_Gym_koori_course_flag_line : CB06A8ACB2EBD0736_prototype
+---@field prototype CB06A8ACB2EBD0736_prototype
+CB06A8ACB2EBD0736 = L15_1()
+function CB06A8ACB2EBD0736.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CB06A8ACB2EBD0736
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB06A8ACB2EBD0736"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CB06A8ACB2EBD0736
+function CB06A8ACB2EBD0736.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C86C131E89425706E
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CB06A8ACB2EBD0736"]
 L69_1 = "__name__"
 L70_1 = "CB06A8ACB2EBD0736"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB06A8ACB2EBD0736"]
-L69_1 = "S2C00E31A4B070414"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.Gym_koori_course_flag_line.OnTriggerFunction
+function CB06A8ACB2EBD0736.S2C00E31A4B070414(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2
   L6_2 = C86C131E89425706E
   L6_2 = L6_2.S0D9933378C9A0EC5
@@ -75,11 +66,9 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB06A8ACB2EBD0736"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CB06A8ACB2EBD0736_prototype
+CB06A8ACB2EBD0736_prototype = L15_1()
+CB06A8ACB2EBD0736.prototype = CB06A8ACB2EBD0736_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CB06A8ACB2EBD0736"]["prototype"]
 L69_1 = _ENV["CB06A8ACB2EBD0736"]

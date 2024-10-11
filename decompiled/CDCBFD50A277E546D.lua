@@ -1,15 +1,10 @@
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "__name__"
-L70_1 = "CDCBFD50A277E546D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S0C6378C0E23B592D"
+---@alias CDCBFD50A277E546D main_event_command_FieldObjectCommand
 
-function L70_1(A0_2, A1_2, A2_2)
+---@class main_event_command_FieldObjectCommand
+CDCBFD50A277E546D.new = {}
+CDCBFD50A277E546D.__name__ = "CDCBFD50A277E546D"
+--- main.event.command.FieldObjectCommand.FindFieldObject
+function CDCBFD50A277E546D.S0C6378C0E23B592D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if "Player" == A0_2 then
     L3_2 = CFC8F368D91411014
@@ -83,11 +78,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S85408C520C8BD28D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FieldObjectCommand.findFieldObject
+function CDCBFD50A277E546D.S85408C520C8BD28D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L3_2 = nil
   L4_2 = nil
@@ -463,11 +455,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SCE23C56454F4849D"
-
-function L70_1()
+--- main.event.command.FieldObjectCommand.FindParticipantObjects
+function CDCBFD50A277E546D.SCE23C56454F4849D()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = _hx_tab_array
   L1_2 = {}
@@ -505,11 +494,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S6612534C26E6ACEC"
-
-function L70_1()
+--- main.event.command.FieldObjectCommand.S6612534C26E6ACEC
+function CDCBFD50A277E546D.S6612534C26E6ACEC()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L0_2 = _hx_tab_array
   L1_2 = {}
@@ -564,11 +550,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S1D94463A0F1402FC"
-
-function L70_1()
+--- main.event.command.FieldObjectCommand.S1D94463A0F1402FC
+function CDCBFD50A277E546D.S1D94463A0F1402FC()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L0_2 = nil
   L1_2 = CFC8F368D91411014
@@ -630,11 +613,8 @@ function L70_1()
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SEBBDBFA72E571A56"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.SEBBDBFA72E571A56
+function CDCBFD50A277E546D.SEBBDBFA72E571A56(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C49D76CF18A6753DD
   L1_2 = L1_2.SEF3A3B6876841F5A
@@ -657,11 +637,8 @@ function L70_1(A0_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S0C79A595EC923681"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.FindSceneObject
+function CDCBFD50A277E546D.S0C79A595EC923681(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = nil
   L3_2 = cA042DA13
@@ -690,11 +667,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S64F7A3F9F19879FE"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.FindBtposInfo
+function CDCBFD50A277E546D.S64F7A3F9F19879FE(A0_2)
   local L1_2, L2_2
   L1_2 = C49D76CF18A6753DD
   L1_2 = L1_2.SEF3A3B6876841F5A
@@ -787,11 +761,8 @@ function L70_1(A0_2)
   return L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S3523D53480B7F7FC"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.TerminateScene
+function CDCBFD50A277E546D.S3523D53480B7F7FC(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -814,11 +785,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S552F4A8B437198FB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.AddSceneObject
+function CDCBFD50A277E546D.S552F4A8B437198FB(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A1_2 then
     A1_2 = ""
@@ -896,11 +864,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SA6AF2D15051A7948"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.AddWaitSceneObject
+function CDCBFD50A277E546D.SA6AF2D15051A7948(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A0_2 then
     return
@@ -984,11 +949,8 @@ function L70_1(A0_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S3AEDFF4411CD4DF1"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FieldObjectCommand.DeleteSceneobject
+function CDCBFD50A277E546D.S3AEDFF4411CD4DF1(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CDCBFD50A277E546D
   L3_2 = L3_2.S0C6378C0E23B592D
@@ -1006,22 +968,16 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S8693633A4BDD11B3"
-
-function L70_1()
+--- main.event.command.FieldObjectCommand.FindPlayer
+function CDCBFD50A277E546D.S8693633A4BDD11B3()
   local L0_2, L1_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.S93A017D496A6D000
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S2C3E5C1C81181A39"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.GetAng
+function CDCBFD50A277E546D.S2C3E5C1C81181A39(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -1037,11 +993,8 @@ function L70_1(A0_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SC46BC0E70D986AD2"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.objGetAng
+function CDCBFD50A277E546D.SC46BC0E70D986AD2(A0_2)
   local L1_2, L2_2
   L1_2 = C7EA595BB1E217145
   L1_2 = L1_2.S4462D8980ACED15A
@@ -1069,11 +1022,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S0E7190F04DBC09B3"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.SetPos
+function CDCBFD50A277E546D.S0E7190F04DBC09B3(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L4_2 = CDCBFD50A277E546D
   L4_2 = L4_2.S0C6378C0E23B592D
@@ -1170,11 +1120,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L8_2(L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S57B48B7940399B1D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.SetPosAng
+function CDCBFD50A277E546D.S57B48B7940399B1D(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   L4_2 = CDCBFD50A277E546D
   L4_2 = L4_2.S6F7E9F164FF5AE10
@@ -1188,11 +1135,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S6F7E9F164FF5AE10"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.ObjSetPosAng
+function CDCBFD50A277E546D.S6F7E9F164FF5AE10(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A0_2 then
     return
@@ -1260,11 +1204,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L9_2(L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S00CC50675CBE7EDA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.FieldObjectCommand.S00CC50675CBE7EDA
+function CDCBFD50A277E546D.S00CC50675CBE7EDA(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L5_2 = CDCBFD50A277E546D
   L5_2 = L5_2.S55D9A1D9E0BC5055
@@ -1279,11 +1220,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S55D9A1D9E0BC5055"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.FieldObjectCommand.S55D9A1D9E0BC5055
+function CDCBFD50A277E546D.S55D9A1D9E0BC5055(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2
   if nil == A0_2 or nil == A1_2 then
     return
@@ -1357,11 +1295,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L24_2(L25_2, L26_2, L27_2, L28_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S5A937C79956D645E"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.PlayerSetPosAng
+function CDCBFD50A277E546D.S5A937C79956D645E(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L4_2 = CFC8F368D91411014
   L4_2 = L4_2.S93A017D496A6D000
@@ -1482,11 +1417,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L11_2(L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SB142F51224CAD18C"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.SetHeight
+function CDCBFD50A277E546D.SB142F51224CAD18C(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.SB015B5FCF31F7039
@@ -1498,11 +1430,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SB015B5FCF31F7039"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.ObjSetHeight
+function CDCBFD50A277E546D.SB015B5FCF31F7039(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A0_2 then
     return
@@ -1545,11 +1474,8 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S3FF322FFC8DB03C9"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.FieldObjectCommand.S3FF322FFC8DB03C9
+function CDCBFD50A277E546D.S3FF322FFC8DB03C9(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L5_2 = CDCBFD50A277E546D
   L5_2 = L5_2.S4355CF1BEE6A6A36
@@ -1564,11 +1490,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S4355CF1BEE6A6A36"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.FieldObjectCommand.S4355CF1BEE6A6A36
+function CDCBFD50A277E546D.S4355CF1BEE6A6A36(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A0_2 then
     return
@@ -1611,11 +1534,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SE7C09D712FDFAC67"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FieldObjectCommand.SetVisibility
+function CDCBFD50A277E546D.SE7C09D712FDFAC67(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = false
@@ -1631,11 +1551,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S3A7F6680A834C902"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FieldObjectCommand.ObjSetVisibility
+function CDCBFD50A277E546D.S3A7F6680A834C902(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A2_2 then
     A2_2 = false
@@ -1830,11 +1747,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S24B8E031C1A8D985"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FieldObjectCommand.SetVisibilityDitherFade
+function CDCBFD50A277E546D.S24B8E031C1A8D985(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = false
@@ -1850,11 +1764,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SDA59AA9826502FA0"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FieldObjectCommand.ObjSetVisibilityDitherFade
+function CDCBFD50A277E546D.SDA59AA9826502FA0(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A2_2 then
     A2_2 = false
@@ -2001,11 +1912,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SCD7E4ADEF365E153"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.GetVisibility
+function CDCBFD50A277E546D.SCD7E4ADEF365E153(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -2060,11 +1968,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S2BF93626AFD9A206"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.ObjGetVisibility
+function CDCBFD50A277E546D.S2BF93626AFD9A206(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A1_2 then
     A1_2 = "ObjGetVisibility"
@@ -2151,11 +2056,8 @@ function L70_1(A0_2, A1_2)
   return L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S24237A50A2A56957"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.ObjIsPlayer
+function CDCBFD50A277E546D.S24237A50A2A56957(A0_2)
   local L1_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S93A017D496A6D000
@@ -2163,11 +2065,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S0E216DE61D520213"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.S0E216DE61D520213
+function CDCBFD50A277E546D.S0E216DE61D520213(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -2215,11 +2114,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S4C739F498E7093EE"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.IsPokemon
+function CDCBFD50A277E546D.S4C739F498E7093EE(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -2235,11 +2131,8 @@ function L70_1(A0_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S04EC23C6FCFFBBEB"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.S04EC23C6FCFFBBEB
+function CDCBFD50A277E546D.S04EC23C6FCFFBBEB(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A0_2 then
     L1_2 = false
@@ -2277,11 +2170,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S8AD7E2AF8E1ADC60"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.SetBodyLookAtAngle
+function CDCBFD50A277E546D.S8AD7E2AF8E1ADC60(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A1_2 then
     return
@@ -2320,11 +2210,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SCA0085B12F5826C0"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FieldObjectCommand.SetBodyLookAtTarget
+function CDCBFD50A277E546D.SCA0085B12F5826C0(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A2_2 then
     L3_2 = {}
@@ -2387,11 +2274,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S2AD4CE79229BD07A"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.SetBodyLookAtTargetPos
+function CDCBFD50A277E546D.S2AD4CE79229BD07A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -2434,11 +2318,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S38F4FBAC61A2A586"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.BodyLookAtTarget
+function CDCBFD50A277E546D.S38F4FBAC61A2A586(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A3_2 then
     A3_2 = true
@@ -2461,11 +2342,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S0650A3C4ED0BB621"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.ObjBodyLookAtTarget
+function CDCBFD50A277E546D.S0650A3C4ED0BB621(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A3_2 then
     A3_2 = true
@@ -2535,11 +2413,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L10_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S6325D39063BFCD33"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.BodyLookAtPos
+function CDCBFD50A277E546D.S6325D39063BFCD33(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A3_2 then
     A3_2 = true
@@ -2559,11 +2434,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SB5B4512FA75A6112"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.ObjBodyLookAtPos
+function CDCBFD50A277E546D.SB5B4512FA75A6112(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A3_2 then
     A3_2 = true
@@ -2618,11 +2490,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SCF1C3E900FADB22D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.BodyLookAtAng
+function CDCBFD50A277E546D.SCF1C3E900FADB22D(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A3_2 then
     A3_2 = true
@@ -2642,11 +2511,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S49BE062FFB6CB278"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.ObjBodyLookAtAng
+function CDCBFD50A277E546D.S49BE062FFB6CB278(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A3_2 then
     A3_2 = true
@@ -2720,11 +2586,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S36037C0FB19864EA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.FieldObjectCommand.BodyLookAtAngBasisObject
+function CDCBFD50A277E546D.S36037C0FB19864EA(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A4_2 then
     A4_2 = true
@@ -2745,11 +2608,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SC5AB6821CD7AB5FD"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.FieldObjectCommand.SC5AB6821CD7AB5FD
+function CDCBFD50A277E546D.SC5AB6821CD7AB5FD(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil == A4_2 then
     A4_2 = true
@@ -2785,11 +2645,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S01EB0151877E3732"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FieldObjectCommand.ResetBodyLookAt
+function CDCBFD50A277E546D.S01EB0151877E3732(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = false
@@ -2813,11 +2670,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S22F7D6761E3EE47B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FieldObjectCommand.ObjResetBodyLookAt
+function CDCBFD50A277E546D.S22F7D6761E3EE47B(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A2_2 then
     A2_2 = false
@@ -2885,11 +2739,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S3BE936E2C594A22C"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.beginBodyLookAt
+function CDCBFD50A277E546D.S3BE936E2C594A22C(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L2_2 = A0_2[2]
   L3_2 = L2_2
@@ -3187,11 +3038,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SF2A52007F22C8572"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.WaitBodyLookAt
+function CDCBFD50A277E546D.SF2A52007F22C8572(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0EF01524F9F5DAC9
@@ -3202,11 +3050,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S0EF01524F9F5DAC9"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.ObjWaitBodyLookAt
+function CDCBFD50A277E546D.S0EF01524F9F5DAC9(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A0_2 then
     return
@@ -3240,11 +3085,8 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S50FC461CBDCA4B95"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.HeadLookAt
+function CDCBFD50A277E546D.S50FC461CBDCA4B95(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = CDCBFD50A277E546D
   L4_2 = L4_2.S0C6378C0E23B592D
@@ -3268,11 +3110,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S8E8F8B54A12AE5BA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.ObjHeadLookAt
+function CDCBFD50A277E546D.S8E8F8B54A12AE5BA(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A0_2 or nil == A1_2 then
     return
@@ -3319,11 +3158,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SC9FEDFD2BE9E787A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.HeadLookAtPosition
+function CDCBFD50A277E546D.SC9FEDFD2BE9E787A(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A3_2 then
     A3_2 = true
@@ -3346,11 +3182,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S99DD65426A26F985"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.objHeadLookAtPosition
+function CDCBFD50A277E546D.S99DD65426A26F985(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L4_2 = A0_2.owner
   L5_2 = L4_2
@@ -3385,11 +3218,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2(L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SDA02DDE5FF139FDA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.FieldObjectCommand.HeadLookAtDirection
+function CDCBFD50A277E546D.SDA02DDE5FF139FDA(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A4_2 then
     A4_2 = true
@@ -3414,11 +3244,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S7F2121308C22D81F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.FieldObjectCommand.ObjHeadLookAtDirection
+function CDCBFD50A277E546D.S7F2121308C22D81F(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A4_2 then
     A4_2 = true
@@ -3494,11 +3321,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L11_2(L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SDA9FAC3B251BA47A"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.HeadLookAtEnd
+function CDCBFD50A277E546D.SDA9FAC3B251BA47A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     A1_2 = 1.0
@@ -3516,11 +3340,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S1B4B8FBDBC79C247"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.ObjHeadLookAtEnd
+function CDCBFD50A277E546D.S1B4B8FBDBC79C247(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A1_2 then
     A1_2 = 1.0
@@ -3554,11 +3375,8 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SA3225B056BBB1D3B"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.HeadLookAtEndImmediate
+function CDCBFD50A277E546D.SA3225B056BBB1D3B(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.SCD560250208FCB90
@@ -3569,11 +3387,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SCD560250208FCB90"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.ObjHeadLookAtEndImmediate
+function CDCBFD50A277E546D.SCD560250208FCB90(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = A0_2.owner
   L2_2 = L1_2
@@ -3593,11 +3408,8 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SAFE8F5494D85D0FA"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.WaitAction
+function CDCBFD50A277E546D.SAFE8F5494D85D0FA(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   while true do
     L1_2 = nil
@@ -3615,11 +3427,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S0CCE22E3D1FE9B61"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.WaitActionAll
+function CDCBFD50A277E546D.S0CCE22E3D1FE9B61(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.SD9CE938D7BA51724
@@ -3630,11 +3439,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SD9CE938D7BA51724"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.ObjWaitActionAll
+function CDCBFD50A277E546D.SD9CE938D7BA51724(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   if nil == A0_2 then
     return
@@ -3665,11 +3471,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S212306608C652DCA"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.EncountPokeSetVisible
+function CDCBFD50A277E546D.S212306608C652DCA(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if A0_2 then
     L2_2 = CDCBFD50A277E546D
@@ -3745,11 +3548,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S0D66E0ACE6D2B8E2"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.EncountPokeEnableSpawn
+function CDCBFD50A277E546D.S0D66E0ACE6D2B8E2(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if A0_2 then
     L1_2 = C4EE52E49562F8277
@@ -3823,11 +3623,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S44126F7CF6C4E1D1"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.S44126F7CF6C4E1D1
+function CDCBFD50A277E546D.S44126F7CF6C4E1D1(A0_2)
   local L1_2, L2_2
   L1_2 = C9E831FC5F1224923
   L1_2 = L1_2.S4602BDD8FBD72954
@@ -3835,11 +3632,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S6EF2E75F6E1DFC90"
-
-function L70_1()
+--- main.event.command.FieldObjectCommand.RaidGemForceLottery
+function CDCBFD50A277E546D.S6EF2E75F6E1DFC90()
   local L0_2, L1_2
   L0_2 = C4EE52E49562F8277
   L0_2 = L0_2.S6AAE15137894F95E
@@ -3854,11 +3648,8 @@ L68_1 = "CDCBFD50A277E546D"
 L68_1 = L25_1[L68_1]
 L69_1 = "S6EF2E75F6E1DFC90"
 L70_1 = _ENV["CDCBFD50A277E546D"]["S6EF2E75F6E1DFC90"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S167F7D45243180BE"
-
-function L70_1()
+--- main.event.command.FieldObjectCommand.RaidGemForceReflection
+function CDCBFD50A277E546D.S167F7D45243180BE()
   local L0_2, L1_2
   L0_2 = C4EE52E49562F8277
   L0_2 = L0_2.S6AAE15137894F95E
@@ -3873,11 +3664,8 @@ L68_1 = "CDCBFD50A277E546D"
 L68_1 = L25_1[L68_1]
 L69_1 = "S167F7D45243180BE"
 L70_1 = _ENV["CDCBFD50A277E546D"]["S167F7D45243180BE"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S9328F99DF0ACCEF8"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.GetMainAreaName
+function CDCBFD50A277E546D.S9328F99DF0ACCEF8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -3906,11 +3694,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S9BD6764C4AFE90F0"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.command.FieldObjectCommand.PlayEffectHukidashi
+function CDCBFD50A277E546D.S9BD6764C4AFE90F0(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A7_2 then
     A7_2 = false
@@ -3960,11 +3745,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   return L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S559E290D2DFFD971"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.command.FieldObjectCommand.ObjPlayEffectHukidashi
+function CDCBFD50A277E546D.S559E290D2DFFD971(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A7_2 then
     A7_2 = false
@@ -4017,11 +3799,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   return L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SED284BA8628FAE0C"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.SetGrounding
+function CDCBFD50A277E546D.SED284BA8628FAE0C(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -4048,11 +3827,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S57BD167E280131EF"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.isEnableGrounding
+function CDCBFD50A277E546D.S57BD167E280131EF(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     L1_2 = false
@@ -4080,11 +3856,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SECE4F281862A4A91"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.doGrounding
+function CDCBFD50A277E546D.SECE4F281862A4A91(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S57BD167E280131EF
@@ -4153,11 +3926,8 @@ function L70_1(A0_2)
   L7_2(L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S2D6D9798D130CB71"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.S2D6D9798D130CB71
+function CDCBFD50A277E546D.S2D6D9798D130CB71(A0_2)
   local L1_2, L2_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.SECE4F281862A4A91
@@ -4165,11 +3935,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SDDAA63E7048A47B7"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.ResetDynamicObjects
+function CDCBFD50A277E546D.SDDAA63E7048A47B7(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if nil == A1_2 then
     A1_2 = 20
@@ -4184,11 +3951,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S66F05AB6C23FB2D2"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.S66F05AB6C23FB2D2
+function CDCBFD50A277E546D.S66F05AB6C23FB2D2(A0_2, A1_2)
   local L2_2, L3_2
   if nil == A1_2 then
     A1_2 = 20
@@ -4202,11 +3966,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SA357C87E0DB5355F"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.ResetDynamicObjectsExecution
+function CDCBFD50A277E546D.SA357C87E0DB5355F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A1_2 then
     A1_2 = 20
@@ -4234,11 +3995,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S3AF6C29F429B65C8"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.S3AF6C29F429B65C8
+function CDCBFD50A277E546D.S3AF6C29F429B65C8(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A1_2 then
     A1_2 = 1
@@ -4313,11 +4071,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SE0C76CA1545AAF54"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.SE0C76CA1545AAF54
+function CDCBFD50A277E546D.SE0C76CA1545AAF54(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -4367,11 +4122,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S4182A1BAB54EF0A3"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.ObjAttach
+function CDCBFD50A277E546D.S4182A1BAB54EF0A3(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L4_2 = CDCBFD50A277E546D
   L4_2 = L4_2.S0C6378C0E23B592D
@@ -4450,11 +4202,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S181F36D626B85F0D"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.ObjDetach
+function CDCBFD50A277E546D.S181F36D626B85F0D(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = false
   L2_2 = CDCBFD50A277E546D
@@ -4470,11 +4219,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S28EF085C39A799AA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FieldObjectCommand.S28EF085C39A799AA
+function CDCBFD50A277E546D.S28EF085C39A799AA(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A2_2 then
     A2_2 = "state"
@@ -4528,11 +4274,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S06AD3DD8F7385046"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.S06AD3DD8F7385046
+function CDCBFD50A277E546D.S06AD3DD8F7385046(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A1_2 then
     A1_2 = "state"
@@ -4592,11 +4335,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SB8285E99DF0CA46F"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.SB8285E99DF0CA46F
+function CDCBFD50A277E546D.SB8285E99DF0CA46F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S85408C520C8BD28D
@@ -4649,11 +4389,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S42834CDE15B1DE06"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.S42834CDE15B1DE06
+function CDCBFD50A277E546D.S42834CDE15B1DE06(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.SB8285E99DF0CA46F
@@ -4662,11 +4399,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S8E7EBB612D814F3B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FieldObjectCommand.SetAnimation
+function CDCBFD50A277E546D.S8E7EBB612D814F3B(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CDCBFD50A277E546D
   L3_2 = L3_2.SB606C49B1CB0B258
@@ -4679,11 +4413,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SB606C49B1CB0B258"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FieldObjectCommand.SB606C49B1CB0B258
+function CDCBFD50A277E546D.SB606C49B1CB0B258(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = nil
   if nil ~= A0_2 then
@@ -4778,11 +4509,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S7197E81C3755FDBF"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.GetAnimation
+function CDCBFD50A277E546D.S7197E81C3755FDBF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -4839,11 +4567,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S5B3ED510AC466662"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FieldObjectCommand.ObjDressupPartsVisibility
+function CDCBFD50A277E546D.S5B3ED510AC466662(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if 0 == A1_2 then
     L3_2 = CDCBFD50A277E546D
@@ -4869,11 +4594,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S04B220261886D75E"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.S04B220261886D75E
+function CDCBFD50A277E546D.S04B220261886D75E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = 1.0
@@ -4899,11 +4621,8 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S25ABC56682033DCF"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.S25ABC56682033DCF
+function CDCBFD50A277E546D.S25ABC56682033DCF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A1_2 then
     A1_2 = 1.0
@@ -4951,11 +4670,8 @@ function L70_1(A0_2, A1_2)
   return L14_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SA33B256981A12675"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.BeginEventNpc
+function CDCBFD50A277E546D.SA33B256981A12675(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -5017,11 +4733,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S2CC7AB8061366F21"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.EndEventNpc
+function CDCBFD50A277E546D.S2CC7AB8061366F21(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -5301,11 +5014,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SBFE8679D6D021DE4"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.AddEventTag
+function CDCBFD50A277E546D.SBFE8679D6D021DE4(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S85408C520C8BD28D
@@ -5333,11 +5043,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SBFC00CB86C14D9DD"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.RemoveEventTag
+function CDCBFD50A277E546D.SBFC00CB86C14D9DD(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S85408C520C8BD28D
@@ -5365,11 +5072,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S4081F0C6112C0DD0"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.S4081F0C6112C0DD0
+function CDCBFD50A277E546D.S4081F0C6112C0DD0(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S85408C520C8BD28D
@@ -5426,11 +5130,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S90DCF34205C2A7B4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FieldObjectCommand.S90DCF34205C2A7B4
+function CDCBFD50A277E546D.S90DCF34205C2A7B4(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = CDCBFD50A277E546D
   L3_2 = L3_2.S0C6378C0E23B592D
@@ -5468,11 +5169,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SE4F1CC84063EA069"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.SE4F1CC84063EA069
+function CDCBFD50A277E546D.SE4F1CC84063EA069(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -5508,11 +5206,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S86DCD23D08B51882"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.S86DCD23D08B51882
+function CDCBFD50A277E546D.S86DCD23D08B51882(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -5548,11 +5243,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SB0AC0F18338A472E"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.SB0AC0F18338A472E
+function CDCBFD50A277E546D.SB0AC0F18338A472E(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -5567,11 +5259,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S9A88C5F3BCFC5251"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.S9A88C5F3BCFC5251
+function CDCBFD50A277E546D.S9A88C5F3BCFC5251(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A0_2 then
     return
@@ -5600,11 +5289,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SE2A991C2DB7AEA2F"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.SE2A991C2DB7AEA2F
+function CDCBFD50A277E546D.SE2A991C2DB7AEA2F(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -5619,11 +5305,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S9927F8CD5EC9663C"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.S9927F8CD5EC9663C
+function CDCBFD50A277E546D.S9927F8CD5EC9663C(A0_2)
   local L1_2, L2_2, L3_2
   if nil == A0_2 then
     return
@@ -5635,11 +5318,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SFED03C4AC5003D1D"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.SFED03C4AC5003D1D
+function CDCBFD50A277E546D.SFED03C4AC5003D1D(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -5654,11 +5334,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SFCE97F78783101F6"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.SFCE97F78783101F6
+function CDCBFD50A277E546D.SFCE97F78783101F6(A0_2)
   local L1_2, L2_2, L3_2
   if nil == A0_2 then
     return
@@ -5670,11 +5347,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "SD10B834B3A2511CF"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.SD10B834B3A2511CF
+function CDCBFD50A277E546D.SD10B834B3A2511CF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = A0_2.owner
   L3_2 = L2_2
@@ -5701,11 +5375,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S480AA84BD5316698"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FieldObjectCommand.S480AA84BD5316698
+function CDCBFD50A277E546D.S480AA84BD5316698(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -5720,11 +5391,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S44630B9DF07FD969"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FieldObjectCommand.S44630B9DF07FD969
+function CDCBFD50A277E546D.S44630B9DF07FD969(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = c682D8E4F
   L3_2 = L3_2.fEF94D11D
@@ -5756,11 +5424,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S32C6717237EE2F9F"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.S32C6717237EE2F9F
+function CDCBFD50A277E546D.S32C6717237EE2F9F(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S56AEFDE20A27674E
@@ -5771,11 +5436,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDCBFD50A277E546D"]
-L69_1 = "S56AEFDE20A27674E"
-
-function L70_1(A0_2)
+--- main.event.command.FieldObjectCommand.S56AEFDE20A27674E
+function CDCBFD50A277E546D.S56AEFDE20A27674E(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A0_2 then
     return

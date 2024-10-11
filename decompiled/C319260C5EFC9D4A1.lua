@@ -1,3 +1,5 @@
+---@class C319260C5EFC9D4A1 : C319260C5EFC9D4A1_prototype
+---@field prototype C319260C5EFC9D4A1_prototype
 L55_1 = _ENV
 L56_1 = "C319260C5EFC9D4A1"
 L57_1 = L15_1
@@ -33,40 +35,32 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C319260C5EFC9D4A1"]
 L69_1 = "__name__"
 L70_1 = "C319260C5EFC9D4A1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C319260C5EFC9D4A1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C319260C5EFC9D4A1"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2, A1_2)
+---@class C319260C5EFC9D4A1_prototype
+C319260C5EFC9D4A1_prototype = L15_1()
+C319260C5EFC9D4A1.prototype = C319260C5EFC9D4A1_prototype
+--- C319260C5EFC9D4A1.Load
+function C319260C5EFC9D4A1_prototype:F6C5D0398122A6629(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F6DDAE37E961B7D8B
+  L3_2 = self
+  L2_2 = self.F6DDAE37E961B7D8B
   L5_2 = A1_2
   L4_2 = A1_2.f08C48539
   L6_2 = "Trans"
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
-  A0_2[1] = L2_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F6DDAE37E961B7D8B
+  self[1] = L2_2
+  L3_2 = self
+  L2_2 = self.F6DDAE37E961B7D8B
   L5_2 = A1_2
   L4_2 = A1_2.f08C48539
   L6_2 = "Rot"
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C319260C5EFC9D4A1"]["prototype"]
-L69_1 = "F6DDAE37E961B7D8B"
-
-function L70_1(A0_2, A1_2)
+--- C319260C5EFC9D4A1.loadVector_
+function C319260C5EFC9D4A1_prototype:F6DDAE37E961B7D8B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = {}
   L3_2 = 0

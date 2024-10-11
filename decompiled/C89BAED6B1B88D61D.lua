@@ -1,7 +1,8 @@
-L68_1 = _ENV["C89BAED6B1B88D61D"]
-L69_1 = "new"
+---@alias C89BAED6B1B88D61D main_event_base_manager_EventObjectLifeTimeManager
 
-function L70_1(A0_2)
+---@class main_event_base_manager_EventObjectLifeTimeManager : C89BAED6B1B88D61D_prototype
+---@field prototype C89BAED6B1B88D61D_prototype
+function C89BAED6B1B88D61D.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C89BAED6B1B88D61D
@@ -17,11 +18,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C89BAED6B1B88D61D
+function C89BAED6B1B88D61D.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L47_1.new
   L2_2 = L2_2()
@@ -45,11 +43,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C89BAED6B1B88D61D"]
 L69_1 = "__name__"
 L70_1 = "C89BAED6B1B88D61D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]
-L69_1 = "SA5BE0B82E22213BC"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.checkLifeTime
+function C89BAED6B1B88D61D.SA5BE0B82E22213BC(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = A1_2.progress
   L3_2 = false
@@ -211,11 +206,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]
-L69_1 = "S4C14F7C7515C855C"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.CheckLifeTime
+function C89BAED6B1B88D61D.S4C14F7C7515C855C(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = A0_2.eventInfo
   L1_2 = L1_2.objLifeTimeTable
@@ -251,11 +243,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]
-L69_1 = "SB02BFBB76DD56A4F"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.SB02BFBB76DD56A4F
+function C89BAED6B1B88D61D.SB02BFBB76DD56A4F(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C89BAED6B1B88D61D
   L1_2 = L1_2.S264F26F6894F3392
@@ -278,11 +267,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]
-L69_1 = "S79372B6BB7AD74DF"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.EventObjectSwitcher
+function C89BAED6B1B88D61D.S79372B6BB7AD74DF(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = nil
   L4_2 = c016374C1
@@ -313,18 +299,13 @@ L68_1 = "C89BAED6B1B88D61D"
 L68_1 = L25_1[L68_1]
 L69_1 = "S79372B6BB7AD74DF"
 L70_1 = _ENV["C89BAED6B1B88D61D"]["S79372B6BB7AD74DF"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+---@class C89BAED6B1B88D61D_prototype
+C89BAED6B1B88D61D_prototype = L15_1()
+C89BAED6B1B88D61D.prototype = C89BAED6B1B88D61D_prototype
+--- main.event.base.manager.EventObjectLifeTimeManager.PreUpdate
+function C89BAED6B1B88D61D_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L3_2 = false
   while nil ~= L2_2 do
@@ -335,7 +316,7 @@ function L70_1(A0_2, A1_2)
     L6_2 = L4_2.scene
     L5_2 = L5_2(L6_2)
     if L5_2 then
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L6_2 = L5_2
       L5_2 = L5_2.remove
       L7_2 = L4_2
@@ -346,23 +327,20 @@ function L70_1(A0_2, A1_2)
       break
     end
   end
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L4_2 = L4_2.length
   if 0 == L4_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.fBE3B2D3B
     L4_2(L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]["prototype"]
-L69_1 = "F92914BE7C5533886"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.RegistStandardHelper
+function C89BAED6B1B88D61D_prototype:F92914BE7C5533886(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2.h
   while nil ~= L3_2 do
     L4_2 = L3_2.item
@@ -383,19 +361,16 @@ function L70_1(A0_2, A1_2)
   L4_2 = L2_2.push
   L6_2 = A1_2
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.f47BAE49D
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]["prototype"]
-L69_1 = "F7CA85BC3026B4C57"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.UpdateLifeTime
+function C89BAED6B1B88D61D_prototype:F7CA85BC3026B4C57(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L3_2 = L3_2.h
   L4_2 = A1_2.eventInfo
   L4_2 = L4_2.sceneName
@@ -465,11 +440,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]["prototype"]
-L69_1 = "F9A4D36372E44D3F2"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.F9A4D36372E44D3F2
+function C89BAED6B1B88D61D_prototype:F9A4D36372E44D3F2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = nil
   L3_2 = cA042DA13
@@ -480,7 +452,7 @@ function L70_1(A0_2, A1_2)
   if L3_2 then
     return
   end
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.remove
   L5_2 = A1_2.scene
@@ -494,13 +466,10 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]["prototype"]
-L69_1 = "F87449D35B6BEDA45"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.F87449D35B6BEDA45
+function C89BAED6B1B88D61D_prototype:F87449D35B6BEDA45(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L47_1.tnull
@@ -536,13 +505,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]["prototype"]
-L69_1 = "FEF2A07AF72D3E194"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.Refresh
+function C89BAED6B1B88D61D_prototype:FEF2A07AF72D3E194()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L3_2 = L1_2
   L2_2 = L1_2.keys
   L2_2 = L2_2(L3_2)
@@ -578,7 +544,7 @@ function L70_1(A0_2)
     end
     L7_2 = CF4AF17E02F03AC33
     L7_2 = L7_2.S2682B19B6C78D0E2
-    L8_2 = A0_2[4]
+    L8_2 = self[4]
     L9_2 = L4_2
     L7_2(L8_2, L9_2)
     goto lbl_57
@@ -617,19 +583,13 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.Destroy
+function C89BAED6B1B88D61D_prototype:F1C2AA00ADAC52EC5()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]["prototype"]
-L69_1 = "FA1D571D9EFE7A763"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.regist
+function C89BAED6B1B88D61D_prototype:FA1D571D9EFE7A763(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L5_2 = A2_2
   L4_2 = A2_2.fE9C29DA1
@@ -637,7 +597,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = L4_2
   L6_2 = C635BBC1473B1BEF8
   L6_2 = L6_2.SEF3A3B6876841F5A
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   
   function L8_2(A0_3)
     local L1_3, L2_3
@@ -654,7 +614,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
   L7_2 = CF4AF17E02F03AC33
   L7_2 = L7_2.SB76A832681BACE94
-  L8_2 = A0_2[4]
+  L8_2 = self[4]
   L9_2 = L4_2
   L10_2 = A1_2
   L11_2 = A3_2
@@ -664,14 +624,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L8_2 = false
     return L8_2
   end
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   if nil == L8_2 then
     L8_2 = CBDC614B48A5B21E6
     L8_2 = L8_2.new
     L8_2 = L8_2()
-    A0_2[3] = L8_2
+    self[3] = L8_2
   end
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L8_2 = L8_2[1]
   L8_2 = L8_2.h
   L8_2 = L8_2[L4_2]
@@ -749,39 +709,30 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L10_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]["prototype"]
-L69_1 = "F08DB6FE6DF9D3A26"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.OnEventFinished
+function C89BAED6B1B88D61D_prototype:F08DB6FE6DF9D3A26()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FEF2A07AF72D3E194
+  L2_2 = self
+  L1_2 = self.FEF2A07AF72D3E194
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]["prototype"]
-L69_1 = "FBDE6A8F7E83E725D"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.Exists
+function C89BAED6B1B88D61D_prototype:FBDE6A8F7E83E725D(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F704D3C6F8FF5E83A
+  L3_2 = self
+  L2_2 = self.F704D3C6F8FF5E83A
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   L2_2 = nil ~= L2_2
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]["prototype"]
-L69_1 = "FD98302FFB73828AF"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.FD98302FFB73828AF
+function C89BAED6B1B88D61D_prototype:FD98302FFB73828AF(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F704D3C6F8FF5E83A
+  L3_2 = self
+  L2_2 = self.F704D3C6F8FF5E83A
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if nil == L2_2 then
@@ -793,11 +744,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]["prototype"]
-L69_1 = "F6B406FEDAC98DC75"
-
-function L70_1(A0_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.IsSetupNearPlayer
+function C89BAED6B1B88D61D_prototype:F6B406FEDAC98DC75()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S93A017D496A6D000
@@ -814,7 +762,7 @@ function L70_1(A0_2)
   L4_2 = L1_2
   L5_2 = L2_2
   L6_2 = L3_2
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = L7_2
   L7_2 = L7_2.iterator
   L7_2 = L7_2(L8_2)
@@ -894,13 +842,10 @@ function L70_1(A0_2)
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C89BAED6B1B88D61D"]["prototype"]
-L69_1 = "F704D3C6F8FF5E83A"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventObjectLifeTimeManager.find
+function C89BAED6B1B88D61D_prototype:F704D3C6F8FF5E83A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L4_2 = A1_2
   L3_2 = A1_2.f462C9B70
   L3_2 = L3_2(L4_2)

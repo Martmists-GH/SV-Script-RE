@@ -1,3 +1,7 @@
+---@alias CB6FF05496B39C2BC main_field_global_event_check_event_checker_EventCheckerGo
+
+---@class main_field_global_event_check_event_checker_EventCheckerGo : CB6FF05496B39C2BC_prototype
+---@field prototype CB6FF05496B39C2BC_prototype
 L55_1 = _ENV
 L56_1 = "CB6FF05496B39C2BC"
 L57_1 = L15_1
@@ -39,26 +43,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CB6FF05496B39C2BC"]
 L69_1 = "__name__"
 L70_1 = "CB6FF05496B39C2BC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB6FF05496B39C2BC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB6FF05496B39C2BC"]["prototype"]
-L69_1 = "FEBB6C7EABF14DA04"
-
-function L70_1(A0_2)
+---@class CB6FF05496B39C2BC_prototype
+CB6FF05496B39C2BC_prototype = L15_1()
+CB6FF05496B39C2BC.prototype = CB6FF05496B39C2BC_prototype
+--- main.field.global_event_check.event_checker.EventCheckerGo.BootEventTriggerId
+function CB6FF05496B39C2BC_prototype:FEBB6C7EABF14DA04()
   local L1_2
   L1_2 = 8
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB6FF05496B39C2BC"]["prototype"]
-L69_1 = "FDA98E87C57449F00"
-
-function L70_1(A0_2, A1_2)
+--- main.field.global_event_check.event_checker.EventCheckerGo.OnEventCheck
+function CB6FF05496B39C2BC_prototype:FDA98E87C57449F00(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C10578806AC30DCA3
   L2_2 = L2_2.SBA6FF574C1C9AA09

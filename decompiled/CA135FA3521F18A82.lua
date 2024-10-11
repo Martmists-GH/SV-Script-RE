@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CA135FA3521F18A82"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CA135FA3521F18A82"]
-L69_1 = "new"
+---@alias CA135FA3521F18A82 main_system_game_event_GameEventEmote
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventEmote : CA135FA3521F18A82_prototype
+---@field prototype CA135FA3521F18A82_prototype
+CA135FA3521F18A82 = L15_1()
+function CA135FA3521F18A82.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CA135FA3521F18A82
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA135FA3521F18A82"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CA135FA3521F18A82
+function CA135FA3521F18A82.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   A0_2[29] = nil
   L3_2 = C57802178241C0D20
@@ -38,11 +32,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA135FA3521F18A82"]
-L69_1 = "__name__"
-L70_1 = "CA135FA3521F18A82"
-L68_1[L69_1] = L70_1
+CA135FA3521F18A82.__name__ = "CA135FA3521F18A82"
 L68_1 = _ENV["CA135FA3521F18A82"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -72,41 +62,30 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA135FA3521F18A82"]
-L69_1 = "SF6A9350B3E6C3B5E"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEmote.SetEmoteMenuType
+function CA135FA3521F18A82.SF6A9350B3E6C3B5E(A0_2)
   local L1_2
   L1_2 = CA135FA3521F18A82
   L1_2.S05F09A5D440B1322 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA135FA3521F18A82"]
-L69_1 = "SD514007492DBD8E0"
-
-function L70_1()
+--- main.system.game_event.GameEventEmote.SetSuspendFromPhotomode
+function CA135FA3521F18A82.SD514007492DBD8E0()
   local L0_2, L1_2
   L0_2 = CA135FA3521F18A82
   L0_2.S9E2F92680B12F0A6 = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA135FA3521F18A82"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA135FA3521F18A82"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CA135FA3521F18A82_prototype
+CA135FA3521F18A82_prototype = L15_1()
+CA135FA3521F18A82.prototype = CA135FA3521F18A82_prototype
+--- main.system.game_event.GameEventEmote.onCreate
+function CA135FA3521F18A82_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C57802178241C0D20
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC87C731D11C58354
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = L16_1
   L2_2 = {}
@@ -135,23 +114,20 @@ function L70_1(A0_2)
       L1_2.strParams = L2_2
     end
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2[26] = L1_2
   L2_2 = CB90497FB1A1A942B
   L2_2 = L2_2.S4D388A329B4BF9DC
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L2_2(L3_2)
   L2_2 = CB90497FB1A1A942B
   L2_2 = L2_2.S5354E2DCECC24613
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA135FA3521F18A82"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEmote.onInitialize
+function CA135FA3521F18A82_prototype:F239C282ED3F82676()
   local L1_2, L2_2
   L1_2 = CA135FA3521F18A82
   L1_2 = L1_2.S05F09A5D440B1322
@@ -169,28 +145,25 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA135FA3521F18A82"]["prototype"]
-L69_1 = "F1DC44B6ACECDC3C9"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEmote.OnUIOpenFailedEvent
+function CA135FA3521F18A82_prototype:F1DC44B6ACECDC3C9()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C57802178241C0D20
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1DC44B6ACECDC3C9
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[29]
+  L3_2 = self[29]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
   while true do
-    L2_2 = A0_2[29]
+    L2_2 = self[29]
     L3_2 = L2_2
     L2_2 = L2_2.f9D8BC178
     L2_2 = L2_2(L3_2)
@@ -201,21 +174,18 @@ function L70_1(A0_2)
     L2_2 = L2_2.S760DAE4C5371A78E
     L2_2()
   end
-  L2_2 = A0_2[29]
+  L2_2 = self[29]
   L3_2 = L2_2
   L2_2 = L2_2.f5C99C0AC
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA135FA3521F18A82"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEmote.onUpdate
+function CA135FA3521F18A82_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2
   while true do
-    L2_2 = A0_2
-    L1_2 = A0_2.FA0E994EE453A340F
+    L2_2 = self
+    L1_2 = self.FA0E994EE453A340F
     L1_2 = L1_2(L2_2)
     if L1_2 then
       break
@@ -258,12 +228,12 @@ function L70_1(A0_2)
   end
   
   L1_2 = L1_2()
-  A0_2[29] = L1_2
+  self[29] = L1_2
   L1_2 = CA135FA3521F18A82
   L1_2 = L1_2.S05F09A5D440B1322
   if 0 == L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FE8C6D200C370048F
+    L2_2 = self
+    L1_2 = self.FE8C6D200C370048F
     L1_2(L2_2)
   else
     L1_2 = cDFF6D3D5
@@ -274,7 +244,7 @@ function L70_1(A0_2)
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[29]
+  L3_2 = self[29]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -282,14 +252,14 @@ function L70_1(A0_2)
     return L2_2
   end
   while true do
-    L2_2 = A0_2[29]
+    L2_2 = self[29]
     L3_2 = L2_2
     L2_2 = L2_2.f9D8BC178
     L2_2 = L2_2(L3_2)
     if L2_2 then
       break
     end
-    L2_2 = A0_2[18]
+    L2_2 = self[18]
     if L2_2 then
       break
     end
@@ -300,7 +270,7 @@ function L70_1(A0_2)
   end
   L2_2 = false
   while true do
-    L3_2 = A0_2[29]
+    L3_2 = self[29]
     L4_2 = L3_2
     L3_2 = L3_2.f48F8C7FF
     L3_2 = L3_2(L4_2)
@@ -310,13 +280,13 @@ function L70_1(A0_2)
     L3_2 = CA135FA3521F18A82
     L3_2 = L3_2.S9E2F92680B12F0A6
     if true == L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F7B6B89C79D39B71D
+      L4_2 = self
+      L3_2 = self.F7B6B89C79D39B71D
       L3_2(L4_2)
       L2_2 = true
       break
     end
-    L3_2 = A0_2[18]
+    L3_2 = self[18]
     if L3_2 then
       break
     end
@@ -325,7 +295,7 @@ function L70_1(A0_2)
     L4_2 = nil
     L3_2(L4_2)
   end
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   if L3_2 or L2_2 then
     L3_2 = 2
     return L3_2
@@ -349,18 +319,15 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA135FA3521F18A82"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEmote.onFinished
+function CA135FA3521F18A82_prototype:F68499476069C0B1E()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C57802178241C0D20
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F68499476069C0B1E
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[19]
+  L1_2 = self[19]
   if L1_2 then
     L1_2 = CA135FA3521F18A82
     L1_2 = L1_2.S05F09A5D440B1322
@@ -397,16 +364,13 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA135FA3521F18A82"]["prototype"]
-L69_1 = "F7B6B89C79D39B71D"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventEmote.F7B6B89C79D39B71D
+function CA135FA3521F18A82_prototype:F7B6B89C79D39B71D()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[29]
+  L3_2 = self[29]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -416,7 +380,7 @@ function L70_1(A0_2)
   L2_2 = L2_2.S6BEC9C5FEB213E12
   L2_2()
   while true do
-    L2_2 = A0_2[29]
+    L2_2 = self[29]
     L3_2 = L2_2
     L2_2 = L2_2.f48F8C7FF
     L2_2 = L2_2(L3_2)
@@ -428,7 +392,7 @@ function L70_1(A0_2)
     L3_2 = nil
     L2_2(L3_2)
   end
-  A0_2[29] = nil
+  self[29] = nil
 end
 
 L68_1[L69_1] = L70_1

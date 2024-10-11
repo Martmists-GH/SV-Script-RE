@@ -1,3 +1,5 @@
+---@class CF543F3DECBF6194A : CF543F3DECBF6194A_prototype
+---@field prototype CF543F3DECBF6194A_prototype
 L55_1 = _ENV
 L56_1 = "CF543F3DECBF6194A"
 L57_1 = L15_1
@@ -96,18 +98,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF543F3DECBF6194A"]
 L69_1 = "__name__"
 L70_1 = "CF543F3DECBF6194A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF543F3DECBF6194A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF543F3DECBF6194A"]["prototype"]
-L69_1 = "F8AABDEBD73E1E5AD"
-
-function L70_1(A0_2, A1_2)
+---@class CF543F3DECBF6194A_prototype
+CF543F3DECBF6194A_prototype = L15_1()
+CF543F3DECBF6194A.prototype = CF543F3DECBF6194A_prototype
+--- CF543F3DECBF6194A.UpdateCreation
+function CF543F3DECBF6194A_prototype:F8AABDEBD73E1E5AD(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2[1]
   if 0 == L3_2 then
     L4_2 = L2_2[2]
@@ -139,11 +136,11 @@ function L70_1(A0_2, A1_2)
     end
     L5_2 = EEE6A7D4177FA23E3
     L5_2 = L5_2.Failed
-    A0_2[2] = L5_2
+    self[2] = L5_2
     L5_2 = true
     do return L5_2 end
     ::lbl_35::
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L5_2 = L5_2.primary
     L6_2 = C6FE667E9E95CDF8E
     L6_2 = L6_2.SC276B4D9A4274248
@@ -152,7 +149,7 @@ function L70_1(A0_2, A1_2)
     L9_2 = ""
     L8_2 = L8_2(L9_2)
     L9_2 = L31_1.string
-    L10_2 = A0_2[4]
+    L10_2 = self[4]
     L9_2 = L9_2(L10_2)
     L8_2 = L8_2 .. L9_2
     L7_2 = L7_2(L8_2)
@@ -179,7 +176,7 @@ function L70_1(A0_2, A1_2)
       L10_2 = ""
       L9_2 = L9_2(L10_2)
       L10_2 = L31_1.string
-      L11_2 = A0_2[4]
+      L11_2 = self[4]
       L10_2 = L10_2(L11_2)
       L9_2 = L9_2 .. L10_2
       L8_2 = L8_2(L9_2)
@@ -199,7 +196,7 @@ function L70_1(A0_2, A1_2)
       L10_2 = ""
       L9_2 = L9_2(L10_2)
       L10_2 = L31_1.string
-      L11_2 = A0_2[4]
+      L11_2 = self[4]
       L10_2 = L10_2(L11_2)
       L9_2 = L9_2 .. L10_2
       L8_2 = L8_2(L9_2)
@@ -211,7 +208,7 @@ function L70_1(A0_2, A1_2)
       L7_2 = L7_2(L8_2, L9_2)
       L6_2 = L7_2
     end
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L7_2 = L7_2.secondary
     L7_2.factory = L6_2
     L7_2 = EEE6A7D4177FA23E3
@@ -219,13 +216,13 @@ function L70_1(A0_2, A1_2)
     L8_2 = L4_2
     L9_2 = 0
     L7_2 = L7_2(L8_2, L9_2)
-    A0_2[2] = L7_2
+    self[2] = L7_2
   elseif 1 == L3_2 then
     L4_2 = L2_2[2]
     L5_2 = L2_2[3]
     L6_2 = L5_2
     L7_2 = nil
-    L8_2 = A0_2[3]
+    L8_2 = self[3]
     L8_2 = L8_2.primary
     L9_2 = nil
     L10_2 = L8_2.factory
@@ -394,7 +391,7 @@ function L70_1(A0_2, A1_2)
       L9_2 = nil ~= L12_2
     end
     if L9_2 then
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       L10_2 = L10_2.secondary
       L11_2 = L10_2.factory
       if nil == L11_2 then
@@ -569,7 +566,7 @@ function L70_1(A0_2, A1_2)
       L10_2 = L10_2.Begin
       L11_2 = L4_2
       L10_2 = L10_2(L11_2)
-      A0_2[2] = L10_2
+      self[2] = L10_2
     else
       L6_2 = L5_2 + A1_2
       L10_2 = CF543F3DECBF6194A
@@ -580,13 +577,13 @@ function L70_1(A0_2, A1_2)
         L11_2 = L4_2
         L12_2 = L6_2
         L10_2 = L10_2(L11_2, L12_2)
-        A0_2[2] = L10_2
+        self[2] = L10_2
       else
         L10_2 = EEE6A7D4177FA23E3
         L10_2 = L10_2.Failed
-        A0_2[2] = L10_2
-        L11_2 = A0_2
-        L10_2 = A0_2.F1C2AA00ADAC52EC5
+        self[2] = L10_2
+        L11_2 = self
+        L10_2 = self.F1C2AA00ADAC52EC5
         L10_2(L11_2)
         L10_2 = true
         return L10_2
@@ -599,7 +596,7 @@ function L70_1(A0_2, A1_2)
     L6_2 = L4_2.generate
     L5_2 = L5_2(L6_2)
     if 0 == L5_2 then
-      L6_2 = A0_2[3]
+      L6_2 = self[3]
       L6_2 = L6_2.primary
       L6_2 = L6_2.module
       L7_2 = L6_2
@@ -625,7 +622,7 @@ function L70_1(A0_2, A1_2)
       L11_2 = EF664AB8067853EAC
       L11_2 = L11_2.Alone
       L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
-      L6_2 = A0_2[3]
+      L6_2 = self[3]
       L6_2 = L6_2.primary
       L6_2 = L6_2.module
       L7_2 = L6_2
@@ -637,7 +634,7 @@ function L70_1(A0_2, A1_2)
       L8_2 = L4_2.dataInfo
       L6_2(L7_2, L8_2)
     elseif 1 == L5_2 or 2 == L5_2 then
-      L6_2 = A0_2[3]
+      L6_2 = self[3]
       L6_2 = L6_2.primary
       L6_2 = L6_2.module
       L7_2 = L6_2
@@ -662,7 +659,7 @@ function L70_1(A0_2, A1_2)
       L10_2 = L10_2(L11_2, L12_2)
       L11_2 = EF664AB8067853EAC
       L11_2 = L11_2.Primary
-      L12_2 = A0_2[3]
+      L12_2 = self[3]
       L12_2 = L12_2.secondary
       L12_2 = L12_2.module
       L13_2 = L12_2
@@ -671,7 +668,7 @@ function L70_1(A0_2, A1_2)
       L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L12_2(L13_2, L14_2)
       L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L11_2(L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
       L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
-      L6_2 = A0_2[3]
+      L6_2 = self[3]
       L6_2 = L6_2.secondary
       L6_2 = L6_2.module
       L7_2 = L6_2
@@ -696,7 +693,7 @@ function L70_1(A0_2, A1_2)
       L10_2 = L10_2(L11_2, L12_2)
       L11_2 = EF664AB8067853EAC
       L11_2 = L11_2.Secondary
-      L12_2 = A0_2[3]
+      L12_2 = self[3]
       L12_2 = L12_2.primary
       L12_2 = L12_2.module
       L13_2 = L12_2
@@ -705,7 +702,7 @@ function L70_1(A0_2, A1_2)
       L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L12_2(L13_2, L14_2)
       L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L11_2(L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
       L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
-      L6_2 = A0_2[3]
+      L6_2 = self[3]
       L6_2 = L6_2.primary
       L6_2 = L6_2.module
       L7_2 = L6_2
@@ -716,7 +713,7 @@ function L70_1(A0_2, A1_2)
       L6_2 = L6_2.F5A6338473B4B0EAF
       L8_2 = L4_2.dataInfo
       L6_2(L7_2, L8_2)
-      L6_2 = A0_2[3]
+      L6_2 = self[3]
       L6_2 = L6_2.secondary
       L6_2 = L6_2.module
       L7_2 = L6_2
@@ -730,7 +727,7 @@ function L70_1(A0_2, A1_2)
     end
     L6_2 = cCC3ADC8A
     L6_2 = L6_2.fB41FD22F
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L7_2 = L7_2.primary
     L7_2 = L7_2.object
     L6_2 = L6_2(L7_2)
@@ -747,7 +744,7 @@ function L70_1(A0_2, A1_2)
     end
     L8_2 = cCC3ADC8A
     L8_2 = L8_2.fB41FD22F
-    L9_2 = A0_2[3]
+    L9_2 = self[3]
     L9_2 = L9_2.secondary
     L9_2 = L9_2.object
     L8_2 = L8_2(L9_2)
@@ -762,25 +759,25 @@ function L70_1(A0_2, A1_2)
       L10_2 = L8_2.f64521F55
       L10_2(L11_2)
     end
-    L11_2 = A0_2
-    L10_2 = A0_2.F6F628BDE3059BC8D
+    L11_2 = self
+    L10_2 = self.F6F628BDE3059BC8D
     L12_2 = true
     L10_2(L11_2, L12_2)
     L10_2 = c2EA22DC9
     L10_2 = L10_2.f4BA5994A
-    L11_2 = A0_2[3]
+    L11_2 = self[3]
     L11_2 = L11_2.primary
     L11_2 = L11_2.object
     L10_2(L11_2)
     L10_2 = c2EA22DC9
     L10_2 = L10_2.f4BA5994A
-    L11_2 = A0_2[3]
+    L11_2 = self[3]
     L11_2 = L11_2.secondary
     L11_2 = L11_2.object
     L10_2(L11_2)
     L10_2 = EEE6A7D4177FA23E3
     L10_2 = L10_2.Succeeded
-    A0_2[2] = L10_2
+    self[2] = L10_2
     L10_2 = true
     return L10_2
   else
@@ -791,13 +788,10 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF543F3DECBF6194A"]["prototype"]
-L69_1 = "F6F628BDE3059BC8D"
-
-function L70_1(A0_2, A1_2)
+--- CF543F3DECBF6194A.SetFade
+function CF543F3DECBF6194A_prototype:F6F628BDE3059BC8D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.primary
   L3_2 = L2_2.module
   if nil ~= L3_2 then
@@ -833,7 +827,7 @@ function L70_1(A0_2, A1_2)
       L5_2(L6_2, L7_2, L8_2)
     end
   end
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L3_2 = L3_2.secondary
   L4_2 = L3_2.module
   if nil ~= L4_2 then
@@ -871,57 +865,54 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF543F3DECBF6194A"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- CF543F3DECBF6194A.Destroy
+function CF543F3DECBF6194A_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2.primary
   L1_2 = L1_2.factory
   if nil ~= L1_2 then
     L1_2 = C6FE667E9E95CDF8E
     L1_2 = L1_2.S3CC990DA6C6A7C4A
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2.primary
     L2_2 = L2_2.factory
     L1_2(L2_2)
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2.secondary
   L1_2 = L1_2.factory
   if nil ~= L1_2 then
     L1_2 = C6FE667E9E95CDF8E
     L1_2 = L1_2.S3CC990DA6C6A7C4A
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2.secondary
     L2_2 = L2_2.factory
     L1_2(L2_2)
   end
   L1_2 = c2EA22DC9
   L1_2 = L1_2.f70DEE6A6
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.primary
   L2_2 = L2_2.object
   L1_2(L2_2)
   L1_2 = c2EA22DC9
   L1_2 = L1_2.f70DEE6A6
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.secondary
   L2_2 = L2_2.object
   L1_2(L2_2)
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L15_1
   L2_2 = L2_2()
   L1_2.primary = L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L15_1
   L2_2 = L2_2()
   L1_2.secondary = L2_2
   L1_2 = EEE6A7D4177FA23E3
   L1_2 = L1_2.Deleted
-  A0_2[2] = L1_2
+  self[2] = L1_2
 end
 
 L68_1[L69_1] = L70_1

@@ -1,3 +1,7 @@
+---@alias C3F1C25675442BC39 main_field_behaviour__PokePicnicPokemon_TimerEvent
+
+---@class main_field_behaviour__PokePicnicPokemon_TimerEvent : C3F1C25675442BC39_prototype
+---@field prototype C3F1C25675442BC39_prototype
 L55_1 = _ENV
 L56_1 = "C09E73DE1CABEBA66"
 L57_1 = L15_1
@@ -66,11 +70,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C09E73DE1CABEBA66"]
 L69_1 = "__name__"
 L70_1 = "C09E73DE1CABEBA66"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C09E73DE1CABEBA66"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C3F1C25675442BC39_prototype
+C3F1C25675442BC39_prototype = L15_1()
+C3F1C25675442BC39.prototype = C3F1C25675442BC39_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C09E73DE1CABEBA66"]["prototype"]
 L69_1 = _ENV["C09E73DE1CABEBA66"]

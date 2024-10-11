@@ -1,3 +1,7 @@
+---@alias C865E09E9EA785B4F main_ui_hairsalon_database_HairsalonShopItemProperty
+
+---@class main_ui_hairsalon_database_HairsalonShopItemProperty : C865E09E9EA785B4F_prototype
+---@field prototype C865E09E9EA785B4F_prototype
 L55_1 = _ENV
 L56_1 = "C865E09E9EA785B4F"
 L57_1 = L15_1
@@ -78,108 +82,79 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C865E09E9EA785B4F"]
 L69_1 = "__name__"
 L70_1 = "C865E09E9EA785B4F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C865E09E9EA785B4F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C865E09E9EA785B4F"]["prototype"]
-L69_1 = "F6F45C28F10198A9C"
-
-function L70_1(A0_2)
+---@class C865E09E9EA785B4F_prototype
+C865E09E9EA785B4F_prototype = L15_1()
+C865E09E9EA785B4F.prototype = C865E09E9EA785B4F_prototype
+--- main.ui.hairsalon.database.HairsalonShopItemProperty.get_hairsalonID
+function C865E09E9EA785B4F_prototype:F6F45C28F10198A9C()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FDA9D0F15240BF579
+  L2_2 = self
+  L1_2 = self.FDA9D0F15240BF579
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C865E09E9EA785B4F"]["prototype"]
-L69_1 = "F8D95F1BEE277DDB1"
-
-function L70_1(A0_2)
+--- main.ui.hairsalon.database.HairsalonShopItemProperty.get_modelHash
+function C865E09E9EA785B4F_prototype:F8D95F1BEE277DDB1()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C865E09E9EA785B4F"]["prototype"]
-L69_1 = "FEB47C869518C3F88"
-
-function L70_1(A0_2)
+--- main.ui.hairsalon.database.HairsalonShopItemProperty.FEB47C869518C3F88
+function C865E09E9EA785B4F_prototype:FEB47C869518C3F88()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C865E09E9EA785B4F"]["prototype"]
-L69_1 = "F30DBB30D142BE5B0"
-
-function L70_1(A0_2)
+--- main.ui.hairsalon.database.HairsalonShopItemProperty.get_category
+function C865E09E9EA785B4F_prototype:F30DBB30D142BE5B0()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C865E09E9EA785B4F"]["prototype"]
-L69_1 = "F52C4B0D833097DFB"
-
-function L70_1(A0_2)
+--- main.ui.hairsalon.database.HairsalonShopItemProperty.get_name
+function C865E09E9EA785B4F_prototype:F52C4B0D833097DFB()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C865E09E9EA785B4F"]["prototype"]
-L69_1 = "FB9D4F615C1C16574"
-
-function L70_1(A0_2)
+--- main.ui.hairsalon.database.HairsalonShopItemProperty.get_sortNum
+function C865E09E9EA785B4F_prototype:FB9D4F615C1C16574()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C865E09E9EA785B4F"]["prototype"]
-L69_1 = "FCB2E05F1A415582D"
-
-function L70_1(A0_2)
+--- main.ui.hairsalon.database.HairsalonShopItemProperty.get_isHat
+function C865E09E9EA785B4F_prototype:FCB2E05F1A415582D()
   local L1_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C865E09E9EA785B4F"]["prototype"]
-L69_1 = "FD63200E8EC45951C"
-
-function L70_1(A0_2)
+--- main.ui.hairsalon.database.HairsalonShopItemProperty.FD63200E8EC45951C
+function C865E09E9EA785B4F_prototype:FD63200E8EC45951C()
   local L1_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C865E09E9EA785B4F"]["prototype"]
-L69_1 = "FDA9D0F15240BF579"
-
-function L70_1(A0_2)
+--- main.ui.hairsalon.database.HairsalonShopItemProperty.GetHairsalonID
+function C865E09E9EA785B4F_prototype:FDA9D0F15240BF579()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F30DBB30D142BE5B0
+  L2_2 = self
+  L1_2 = self.F30DBB30D142BE5B0
   L1_2 = L1_2(L2_2)
   if 0 == L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F8D95F1BEE277DDB1
+    L2_2 = self
+    L1_2 = self.F8D95F1BEE277DDB1
     return L1_2(L2_2)
   else
-    L2_2 = A0_2
-    L1_2 = A0_2.FEB47C869518C3F88
+    L2_2 = self
+    L1_2 = self.FEB47C869518C3F88
     return L1_2(L2_2)
   end
 end

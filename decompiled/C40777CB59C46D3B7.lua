@@ -1,3 +1,7 @@
+---@alias C40777CB59C46D3B7 main_pokepicnic_ui_view_CookingRecipeView
+
+---@class main_pokepicnic_ui_view_CookingRecipeView : C40777CB59C46D3B7_prototype
+---@field prototype C40777CB59C46D3B7_prototype
 L55_1 = _ENV
 L56_1 = "C40777CB59C46D3B7"
 L57_1 = L15_1
@@ -62,18 +66,13 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C40777CB59C46D3B7"]
 L69_1 = "__name__"
 L70_1 = "C40777CB59C46D3B7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]["prototype"]
-L69_1 = "F795CBC2B12F8956D"
-
-function L70_1(A0_2, A1_2)
+---@class C40777CB59C46D3B7_prototype
+C40777CB59C46D3B7_prototype = L15_1()
+C40777CB59C46D3B7.prototype = C40777CB59C46D3B7_prototype
+--- main.pokepicnic.ui.view.CookingRecipeView.OnSetup
+function C40777CB59C46D3B7_prototype:F795CBC2B12F8956D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = 0
   L4_2 = c1CBE15F4
   L4_2 = L4_2.f0D13D414
@@ -89,7 +88,7 @@ function L70_1(A0_2, A1_2)
     L7_2 = L6_2.f23319E5D
     L7_2 = L7_2(L8_2)
     if L7_2 then
-      L7_2 = A0_2[17]
+      L7_2 = self[17]
       L8_2 = L7_2
       L7_2 = L7_2.push
       L10_2 = L6_2
@@ -107,44 +106,44 @@ function L70_1(A0_2, A1_2)
   L7_2 = CD991C7DDFC4B7B0C
   L7_2 = L7_2.S86F5335876BECCA3
   L6_2 = L6_2 + L7_2
-  L7_2 = A0_2[17]
+  L7_2 = self[17]
   L7_2 = L7_2.length
   L6_2 = L6_2 + L7_2
   L7_2 = C4A5783CC4C07C40F
   L7_2 = L7_2.new
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L6_2
   L7_2 = L7_2(L8_2, L9_2)
-  A0_2[16] = L7_2
+  self[16] = L7_2
   L7_2 = C9CC979169E6BA3A6
   L7_2 = L7_2.new
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L7_2 = L7_2(L8_2)
-  A0_2[12] = L7_2
+  self[12] = L7_2
   L7_2 = C14DC189A182A9FDD
   L7_2 = L7_2.new
-  L8_2 = A0_2[12]
+  L8_2 = self[12]
   L7_2 = L7_2(L8_2)
-  A0_2[13] = L7_2
-  L8_2 = A0_2
-  L7_2 = A0_2.F39E0DED104C2C6C1
-  L9_2 = A0_2[15]
+  self[13] = L7_2
+  L8_2 = self
+  L7_2 = self.F39E0DED104C2C6C1
+  L9_2 = self[15]
   L7_2(L8_2, L9_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F00EF68D3D165E0C0
+  L8_2 = self
+  L7_2 = self.F00EF68D3D165E0C0
   L7_2(L8_2)
-  L7_2 = A0_2[8]
+  L7_2 = self[8]
   if 0 == L7_2 then
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L8_2 = L7_2
     L7_2 = L7_2.fB4E9D030
     L9_2 = "text_in_00"
     L7_2(L8_2, L9_2)
   else
-    L7_2 = A0_2[5]
+    L7_2 = self[5]
     L7_2 = L7_2[1]
     L7_2.IsSelectRecip = false
-    A0_2[21] = 2
+    self[21] = 2
     L7_2 = C1DB14DCC9D7634FA
     L7_2 = L7_2.new
     
@@ -158,9 +157,9 @@ function L70_1(A0_2, A1_2)
     
     L9_2 = "switchToCustom"
     L7_2 = L7_2(L8_2, L9_2)
-    A0_2[23] = L7_2
-    A0_2[7] = false
-    L7_2 = A0_2[3]
+    self[23] = L7_2
+    self[7] = false
+    L7_2 = self[3]
     L8_2 = L7_2
     L7_2 = L7_2.f2A9CF058
     L9_2 = false
@@ -168,44 +167,38 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]["prototype"]
-L69_1 = "FBF02A2AE63AF40EC"
-
-function L70_1(A0_2)
+--- main.pokepicnic.ui.view.CookingRecipeView.OnStart
+function C40777CB59C46D3B7_prototype:FBF02A2AE63AF40EC()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F6F4A9C19881101A6
+  L2_2 = self
+  L1_2 = self.F6F4A9C19881101A6
   L1_2(L2_2)
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2[2]
   if nil ~= L1_2 then
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     L1_2 = L1_2[2]
     L2_2 = L1_2
     L1_2 = L1_2.F1BB2C5F716B25F79
     L3_2 = 0
     L1_2(L2_2, L3_2)
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fB4E9D030
   L3_2 = "text_in_00"
   L1_2(L2_2, L3_2)
-  A0_2[21] = 0
+  self[21] = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]["prototype"]
-L69_1 = "F9014E7ACED499C2E"
-
-function L70_1(A0_2)
+--- main.pokepicnic.ui.view.CookingRecipeView.StartAnimeEndCheck
+function C40777CB59C46D3B7_prototype:F9014E7ACED499C2E()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[21]
+  L1_2 = self[21]
   if 0 ~= L1_2 then
     return
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fF8C77C75
   L3_2 = "text_in_00"
@@ -213,7 +206,7 @@ function L70_1(A0_2)
   if not L1_2 then
     return
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.fF8C77C75
   L3_2 = "f_in"
@@ -221,24 +214,21 @@ function L70_1(A0_2)
   if not L1_2 then
     return
   end
-  A0_2[21] = 1
+  self[21] = 1
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]["prototype"]
-L69_1 = "F78736B99C9FA12E9"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.ui.view.CookingRecipeView.OnPlaySeq
+function C40777CB59C46D3B7_prototype:F78736B99C9FA12E9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[22]
+  L2_2 = self[22]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[22]
+    L3_2 = self[22]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[22]
+      L2_2 = self[22]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -284,15 +274,15 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[23]
+  L2_2 = self[23]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[23]
+    L3_2 = self[23]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[23]
+      L2_2 = self[23]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -338,30 +328,27 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   if nil ~= L2_2 then
-    L2_2 = A0_2[13]
+    L2_2 = self[13]
     L3_2 = L2_2
     L2_2 = L2_2.F5BFB78AEF85D3D52
     L2_2(L3_2)
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F9014E7ACED499C2E
+  L3_2 = self
+  L2_2 = self.F9014E7ACED499C2E
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F94BEAC41F894F389
+  L3_2 = self
+  L2_2 = self.F94BEAC41F894F389
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]["prototype"]
-L69_1 = "F94BEAC41F894F389"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.ui.view.CookingRecipeView.UpdateDefault
+function C40777CB59C46D3B7_prototype:F94BEAC41F894F389(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2
-  L3_2 = A0_2[21]
+  L2_2 = self
+  L3_2 = self[21]
   if 1 ~= L3_2 then
     return
   end
@@ -370,10 +357,10 @@ function L70_1(A0_2, A1_2)
   L4_2 = "UI_SP_1"
   L3_2 = L3_2(L4_2)
   if L3_2 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L3_2 = L3_2[1]
     L3_2.IsSelectRecip = false
-    A0_2[21] = 2
+    self[21] = 2
     L3_2 = C1DB14DCC9D7634FA
     L3_2 = L3_2.new
     
@@ -387,7 +374,7 @@ function L70_1(A0_2, A1_2)
     
     L5_2 = "switchToCustom"
     L3_2 = L3_2(L4_2, L5_2)
-    A0_2[23] = L3_2
+    self[23] = L3_2
     L3_2 = C3A36506FBC96ACBD
     L3_2 = L3_2.SC6181320B46854EE
     L4_2 = "PLAY_UI_COMMON_OPEN"
@@ -400,7 +387,7 @@ function L70_1(A0_2, A1_2)
     if L3_2 then
       L3_2 = c61159071
       L3_2 = L3_2.f753868F8
-      L4_2 = A0_2[19]
+      L4_2 = self[19]
       L3_2 = L3_2(L4_2)
       L5_2 = L3_2
       L4_2 = L3_2.f9EDDBD8A
@@ -431,11 +418,11 @@ function L70_1(A0_2, A1_2)
       L6_2 = L3_2.f069AFD07
       L6_2, L7_2, L8_2 = L6_2(L7_2)
       L4_2(L5_2, L6_2, L7_2, L8_2)
-      L4_2 = A0_2[3]
+      L4_2 = self[3]
       L5_2 = L4_2
       L4_2 = L4_2.f7798D9F4
       L6_2 = L31_1.string
-      L7_2 = A0_2[20]
+      L7_2 = self[20]
       L6_2 = L6_2(L7_2)
       L7_2 = L31_1.string
       L8_2 = "/P_favo_00"
@@ -465,8 +452,8 @@ function L70_1(A0_2, A1_2)
       L4_2 = "UI_PLUS"
       L3_2 = L3_2(L4_2)
       if L3_2 then
-        L4_2 = A0_2
-        L3_2 = A0_2.F31990A330A0FAF8C
+        L4_2 = self
+        L3_2 = self.F31990A330A0FAF8C
         L5_2 = A1_2
         L3_2(L4_2, L5_2)
         L3_2 = C3A36506FBC96ACBD
@@ -493,7 +480,7 @@ function L70_1(A0_2, A1_2)
               return
             end
           end
-          L3_2 = A0_2[5]
+          L3_2 = self[5]
           L3_2 = L3_2[1]
           L3_2.IsCookingEnd = true
           L3_2 = C3A36506FBC96ACBD
@@ -504,23 +491,20 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L3_2 = A0_2[14]
+  L3_2 = self[14]
   L4_2 = L3_2
   L3_2 = L3_2.fDEC8DBE3
   L3_2 = L3_2(L4_2)
   if L3_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.f89358001
     L3_2(L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]["prototype"]
-L69_1 = "F57D47B3182DA8525"
-
-function L70_1(A0_2)
+--- main.pokepicnic.ui.view.CookingRecipeView.SwitchToCustomAnimeCoroutine
+function C40777CB59C46D3B7_prototype:F57D47B3182DA8525()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C7FE15FC938ADE4D2
   L1_2 = L1_2.S32F3ED6FAC4BDC3F
@@ -528,7 +512,7 @@ function L70_1(A0_2)
   function L2_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[8]
     if 0 == L1_3 then
       L0_3 = 0
@@ -548,13 +532,13 @@ function L70_1(A0_2)
   L2_2 = false
   L1_2(L2_2)
   L1_2 = "text_out"
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.fB4E9D030
   L4_2 = L1_2
   L2_2(L3_2, L4_2)
   while true do
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.fF8C77C75
     L4_2 = L1_2
@@ -566,18 +550,15 @@ function L70_1(A0_2)
     L2_2 = L2_2.S760DAE4C5371A78E
     L2_2()
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FBA2E75551F81E992
   L4_2 = 0
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]["prototype"]
-L69_1 = "F6F4A9C19881101A6"
-
-function L70_1(A0_2)
+--- main.pokepicnic.ui.view.CookingRecipeView.SetOptionGuide
+function C40777CB59C46D3B7_prototype:F6F4A9C19881101A6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S5E67FD00348A0A28
@@ -623,26 +604,23 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]["prototype"]
-L69_1 = "F00EF68D3D165E0C0"
-
-function L70_1(A0_2)
+--- main.pokepicnic.ui.view.CookingRecipeView.SetupDefaultScrollPanel
+function C40777CB59C46D3B7_prototype:F00EF68D3D165E0C0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = cECD2E4A5
   L2_2 = L2_2.fBCD0707E
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "ScrollPanel_00"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[14] = L2_2
-  L2_2 = A0_2[14]
+  self[14] = L2_2
+  L2_2 = self[14]
   L3_2 = L2_2
   L2_2 = L2_2.f8139EB06
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.length
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   L3_2 = L2_2
   L2_2 = L2_2.f223F0381
   L4_2 = CCA4E2E16F360EA78
@@ -1107,29 +1085,29 @@ function L70_1(A0_2)
     end
   end
   
-  L5_2 = A0_2[14]
+  L5_2 = self[14]
   L6_2 = L5_2
   L5_2 = L5_2.f1D8A575B
   L7_2 = L2_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[14]
+  L5_2 = self[14]
   L6_2 = L5_2
   L5_2 = L5_2.fEDF77BF9
   L7_2 = L4_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[14]
+  L5_2 = self[14]
   L6_2 = L5_2
   L5_2 = L5_2.f4F8C7B75
   L7_2 = L3_2
   L8_2 = false
   L9_2 = false
   L5_2(L6_2, L7_2, L8_2, L9_2)
-  L5_2 = A0_2[14]
+  L5_2 = self[14]
   L6_2 = L5_2
   L5_2 = L5_2.f05D9B2C0
   L7_2 = false
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[14]
+  L5_2 = self[14]
   L6_2 = L5_2
   L5_2 = L5_2.fB46AEBA1
   L7_2 = 0
@@ -1137,11 +1115,8 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]["prototype"]
-L69_1 = "F08F41C4CD3609B4A"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.ui.view.CookingRecipeView.IsReqNumItem
+function C40777CB59C46D3B7_prototype:F08F41C4CD3609B4A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C14A8D35D72F56FE9
   L2_2 = L2_2.S90D73F1D715BCBF4
@@ -1231,36 +1206,30 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]["prototype"]
-L69_1 = "F31990A330A0FAF8C"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.ui.view.CookingRecipeView.OnPlusTrigger
+function C40777CB59C46D3B7_prototype:F31990A330A0FAF8C(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[15]
+  L2_2 = self[15]
   if 0 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F39E0DED104C2C6C1
+    L4_2 = self
+    L3_2 = self.F39E0DED104C2C6C1
     L5_2 = 1
     L3_2(L4_2, L5_2)
   elseif 1 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F39E0DED104C2C6C1
+    L4_2 = self
+    L3_2 = self.F39E0DED104C2C6C1
     L5_2 = 0
     L3_2(L4_2, L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]["prototype"]
-L69_1 = "F39E0DED104C2C6C1"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.ui.view.CookingRecipeView.SwitchInfoType
+function C40777CB59C46D3B7_prototype:F39E0DED104C2C6C1(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = ""
   L3_2 = ""
   if 0 == A1_2 then
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.fEAD9FB7D
     L6_2 = "pattern_info"
@@ -1269,7 +1238,7 @@ function L70_1(A0_2, A1_2)
     L2_2 = "pokepicnic_cooking_12_02"
     L3_2 = "pokepicnic_cooking_18_02"
   elseif 1 == A1_2 then
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.fEAD9FB7D
     L6_2 = "pattern_info"
@@ -1280,7 +1249,7 @@ function L70_1(A0_2, A1_2)
   end
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = "T_guide_00"
   L7_2 = c8C3BF576
   L7_2 = L7_2.fC8CEF9EF
@@ -1288,10 +1257,10 @@ function L70_1(A0_2, A1_2)
   L9_2 = L2_2
   L7_2, L8_2, L9_2 = L7_2(L8_2, L9_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
-  A0_2[15] = A1_2
+  self[15] = A1_2
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = "T_guide_01"
   L7_2 = c8C3BF576
   L7_2 = L7_2.fC8CEF9EF
@@ -1301,15 +1270,12 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]["prototype"]
-L69_1 = "F1A395D4E599E2780"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.ui.view.CookingRecipeView.SetIngredientInfo
+function C40777CB59C46D3B7_prototype:F1A395D4E599E2780(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.f316077B2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "T_title_00"
   L5_2 = c8C3BF576
   L5_2 = L5_2.fC8CEF9EF
@@ -1319,7 +1285,7 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2)
   L2_2 = c8C3BF576
   L2_2 = L2_2.f316077B2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "T_title_01"
   L5_2 = c8C3BF576
   L5_2 = L5_2.fC8CEF9EF
@@ -1356,7 +1322,7 @@ function L70_1(A0_2, A1_2)
         L8_2 = L8_2 + 1
         L10_2 = L8_2 - 1
         if L7_2 > L10_2 then
-          L10_2 = A0_2[3]
+          L10_2 = self[3]
           L11_2 = L10_2
           L10_2 = L10_2.f7798D9F4
           L12_2 = L31_1.string
@@ -1369,7 +1335,7 @@ function L70_1(A0_2, A1_2)
           L13_2 = true
           L10_2(L11_2, L12_2, L13_2)
         else
-          L10_2 = A0_2[3]
+          L10_2 = self[3]
           L11_2 = L10_2
           L10_2 = L10_2.f7798D9F4
           L12_2 = L31_1.string
@@ -1389,7 +1355,7 @@ function L70_1(A0_2, A1_2)
         L12_2 = L2_2
         L11_2 = L11_2(L12_2)
         L10_2 = L10_2 .. L11_2
-        L11_2 = A0_2[3]
+        L11_2 = self[3]
         L12_2 = L11_2
         L11_2 = L11_2.f7798D9F4
         L13_2 = L10_2
@@ -1402,10 +1368,10 @@ function L70_1(A0_2, A1_2)
         L13_2 = L6_2.Type
         L12_2 = L12_2[L13_2]
         L11_2 = L11_2(L12_2)
-        L12_2 = A0_2[16]
+        L12_2 = self[16]
         L13_2 = L12_2
         L12_2 = L12_2.F716F089496100A12
-        L14_2 = A0_2[3]
+        L14_2 = self[3]
         L15_2 = L10_2
         L16_2 = L10_2
         L17_2 = L11_2
@@ -1421,7 +1387,7 @@ function L70_1(A0_2, A1_2)
       L7_2 = L7_2.S86F5335876BECCA3
       while L6_2 < L7_2 do
         L6_2 = L6_2 + 1
-        L8_2 = A0_2[3]
+        L8_2 = self[3]
         L9_2 = L8_2
         L8_2 = L8_2.f7798D9F4
         L10_2 = L31_1.string
@@ -1460,7 +1426,7 @@ function L70_1(A0_2, A1_2)
         L10_2 = L10_2 + 1
         L12_2 = L10_2 - 1
         if L9_2 > L12_2 then
-          L12_2 = A0_2[3]
+          L12_2 = self[3]
           L13_2 = L12_2
           L12_2 = L12_2.f7798D9F4
           L14_2 = L31_1.string
@@ -1473,7 +1439,7 @@ function L70_1(A0_2, A1_2)
           L15_2 = true
           L12_2(L13_2, L14_2, L15_2)
         else
-          L12_2 = A0_2[3]
+          L12_2 = self[3]
           L13_2 = L12_2
           L12_2 = L12_2.f7798D9F4
           L14_2 = L31_1.string
@@ -1493,7 +1459,7 @@ function L70_1(A0_2, A1_2)
         L14_2 = L2_2
         L13_2 = L13_2(L14_2)
         L12_2 = L12_2 .. L13_2
-        L13_2 = A0_2[3]
+        L13_2 = self[3]
         L14_2 = L13_2
         L13_2 = L13_2.f7798D9F4
         L15_2 = L12_2
@@ -1506,10 +1472,10 @@ function L70_1(A0_2, A1_2)
         L15_2 = L8_2.Type
         L14_2 = L14_2[L15_2]
         L13_2 = L13_2(L14_2)
-        L14_2 = A0_2[16]
+        L14_2 = self[16]
         L15_2 = L14_2
         L14_2 = L14_2.F716F089496100A12
-        L16_2 = A0_2[3]
+        L16_2 = self[3]
         L17_2 = L12_2
         L18_2 = L12_2
         L19_2 = L13_2
@@ -1518,13 +1484,13 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   if L2_2 < L3_2 then
     L3_2 = L2_2
-    L4_2 = A0_2[9]
+    L4_2 = self[9]
     while L3_2 < L4_2 do
       L3_2 = L3_2 + 1
-      L5_2 = A0_2[3]
+      L5_2 = self[3]
       L6_2 = L5_2
       L5_2 = L5_2.f7798D9F4
       L7_2 = L31_1.string
@@ -1541,11 +1507,11 @@ function L70_1(A0_2, A1_2)
   L3_2 = A1_2.Recipe
   if nil == L3_2 then
     L3_2 = 0
-    L4_2 = A0_2[10]
+    L4_2 = self[10]
     while L3_2 < L4_2 do
       L3_2 = L3_2 + 1
       L5_2 = L3_2 - 1
-      L6_2 = A0_2[3]
+      L6_2 = self[3]
       L7_2 = L6_2
       L6_2 = L6_2.f7798D9F4
       L8_2 = L31_1.string
@@ -1557,7 +1523,7 @@ function L70_1(A0_2, A1_2)
       L8_2 = L8_2 .. L9_2
       L9_2 = false
       L6_2(L7_2, L8_2, L9_2)
-      L6_2 = A0_2[3]
+      L6_2 = self[3]
       L7_2 = L6_2
       L6_2 = L6_2.f7798D9F4
       L8_2 = L31_1.string
@@ -1636,7 +1602,7 @@ function L70_1(A0_2, A1_2)
     end
     L10_2 = C832890B58C613937
     L10_2 = L10_2.S2C9F7C7E0DA8698C
-    L11_2 = A0_2[4]
+    L11_2 = self[4]
     L12_2 = L6_2
     L13_2 = L3_2
     L14_2 = nil
@@ -1671,13 +1637,13 @@ function L70_1(A0_2, A1_2)
       L17_2 = L14_2.f3491A2B7
       L17_2 = L17_2(L18_2)
       if L17_2 then
-        L17_2 = A0_2[3]
+        L17_2 = self[3]
         L18_2 = L17_2
         L17_2 = L17_2.f7798D9F4
         L19_2 = L15_2
         L20_2 = true
         L17_2(L18_2, L19_2, L20_2)
-        L17_2 = A0_2[3]
+        L17_2 = self[3]
         L18_2 = L17_2
         L17_2 = L17_2.f7798D9F4
         L19_2 = L16_2
@@ -1723,7 +1689,7 @@ function L70_1(A0_2, A1_2)
         L20_2 = L20_2(L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2)
         L21_2 = c8C3BF576
         L21_2 = L21_2.f316077B2
-        L22_2 = A0_2[1]
+        L22_2 = self[1]
         L23_2 = L15_2
         L24_2 = L20_2
         L21_2(L22_2, L23_2, L24_2)
@@ -1758,18 +1724,18 @@ function L70_1(A0_2, A1_2)
         L23_2 = L23_2(L24_2, L25_2, L26_2, L27_2, L28_2, L29_2)
         L24_2 = c8C3BF576
         L24_2 = L24_2.f316077B2
-        L25_2 = A0_2[1]
+        L25_2 = self[1]
         L26_2 = L16_2
         L27_2 = L23_2
         L24_2(L25_2, L26_2, L27_2)
       else
-        L17_2 = A0_2[3]
+        L17_2 = self[3]
         L18_2 = L17_2
         L17_2 = L17_2.f7798D9F4
         L19_2 = L15_2
         L20_2 = false
         L17_2(L18_2, L19_2, L20_2)
-        L17_2 = A0_2[3]
+        L17_2 = self[3]
         L18_2 = L17_2
         L17_2 = L17_2.f7798D9F4
         L19_2 = L16_2
@@ -1780,14 +1746,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]["prototype"]
-L69_1 = "FFAFD76EB2E053487"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.ui.view.CookingRecipeView.SetDetailsInfo
+function C40777CB59C46D3B7_prototype:FFAFD76EB2E053487(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F2A915238D7346EAC
+  L3_2 = self
+  L2_2 = self.F2A915238D7346EAC
   L4_2 = A1_2.RecipeIndex
   L5_2 = "T_title_02"
   L2_2(L3_2, L4_2, L5_2)
@@ -1812,7 +1775,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = "T_number_00"
   L7_2 = L3_2
   L4_2(L5_2, L6_2, L7_2)
@@ -1831,7 +1794,7 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2 .. L5_2
   L5_2 = c8C3BF576
   L5_2 = L5_2.f316077B2
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = "T_desc_00"
   L8_2 = c8C3BF576
   L8_2 = L8_2.fC8CEF9EF
@@ -1841,7 +1804,7 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
   L5_2 = c8C3BF576
   L5_2 = L5_2.f316077B2
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = "T_title_03"
   L8_2 = c8C3BF576
   L8_2 = L8_2.fC8CEF9EF
@@ -1868,7 +1831,7 @@ function L70_1(A0_2, A1_2)
     if 0 == L9_2 then
       L8_2 = false
     end
-    L9_2 = A0_2[3]
+    L9_2 = self[3]
     L10_2 = L9_2
     L9_2 = L9_2.f7798D9F4
     L11_2 = L31_1.string
@@ -1883,7 +1846,7 @@ function L70_1(A0_2, A1_2)
   end
   L7_2 = c8C3BF576
   L7_2 = L7_2.f316077B2
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = "T_title_04"
   L10_2 = c8C3BF576
   L10_2 = L10_2.fC8CEF9EF
@@ -1914,17 +1877,14 @@ function L70_1(A0_2, A1_2)
   L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
   L9_2 = c8C3BF576
   L9_2 = L9_2.f316077B2
-  L10_2 = A0_2[1]
+  L10_2 = self[1]
   L11_2 = "T_count_00"
   L12_2 = L8_2
   L9_2(L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40777CB59C46D3B7"]["prototype"]
-L69_1 = "F2A915238D7346EAC"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.pokepicnic.ui.view.CookingRecipeView.SetPaneRecipeName
+function C40777CB59C46D3B7_prototype:F2A915238D7346EAC(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = cB3DDDC2A
   L3_2 = L3_2.f5B6373D5
@@ -1969,7 +1929,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
   L5_2 = c8C3BF576
   L5_2 = L5_2.f316077B2
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = A2_2
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)

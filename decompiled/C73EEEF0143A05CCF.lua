@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C73EEEF0143A05CCF"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C73EEEF0143A05CCF"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C73EEEF0143A05CCF"]
-L69_1 = "__name__"
-L70_1 = "C73EEEF0143A05CCF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C73EEEF0143A05CCF"]
-L69_1 = "SB309DD5A5E7CBDA4"
+---@alias C73EEEF0143A05CCF main_event_command_RaidFindCommand
 
-function L70_1(A0_2)
+---@class main_event_command_RaidFindCommand
+C73EEEF0143A05CCF = L15_1()
+C73EEEF0143A05CCF.new = {}
+C73EEEF0143A05CCF.__name__ = "C73EEEF0143A05CCF"
+--- main.event.command.RaidFindCommand.OpenRaidFindUi
+function C73EEEF0143A05CCF.SB309DD5A5E7CBDA4(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C73EEEF0143A05CCF
   L2_2 = C93AD5730452E26EC
@@ -43,11 +34,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C73EEEF0143A05CCF"]
-L69_1 = "S9D7588710454A953"
-
-function L70_1()
+--- main.event.command.RaidFindCommand.IsClose
+function C73EEEF0143A05CCF.S9D7588710454A953()
   local L0_2, L1_2
   L0_2 = C73EEEF0143A05CCF
   L0_2 = L0_2.S84A5E2122FADFD53
@@ -62,11 +50,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C73EEEF0143A05CCF"]
-L69_1 = "SAF1D26C61B8645F9"
-
-function L70_1()
+--- main.event.command.RaidFindCommand.GetRaidMatchingView
+function C73EEEF0143A05CCF.SAF1D26C61B8645F9()
   local L0_2, L1_2
   L0_2 = C73EEEF0143A05CCF
   L0_2 = L0_2.S84A5E2122FADFD53

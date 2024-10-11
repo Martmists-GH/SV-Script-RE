@@ -1,3 +1,7 @@
+---@alias C269421DADA4889E6 main_field_action_ActionTrainerLose
+
+---@class main_field_action_ActionTrainerLose : C269421DADA4889E6_prototype
+---@field prototype C269421DADA4889E6_prototype
 L55_1 = _ENV
 L56_1 = "C269421DADA4889E6"
 L57_1 = L15_1
@@ -44,26 +48,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C269421DADA4889E6"]
 L69_1 = "__name__"
 L70_1 = "C269421DADA4889E6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C269421DADA4889E6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C269421DADA4889E6"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+---@class C269421DADA4889E6_prototype
+C269421DADA4889E6_prototype = L15_1()
+C269421DADA4889E6.prototype = C269421DADA4889E6_prototype
+--- main.field.action.ActionTrainerLose.onPreUpdate
+function C269421DADA4889E6_prototype:F1993A419B4083AE8()
   local L1_2, L2_2
   L1_2 = C269421DADA4889E6
   L1_2 = L1_2.S6C99BC0536DAC659
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   if L1_2 > L2_2 then
-    L1_2 = A0_2[17]
+    L1_2 = self[17]
     L2_2 = C075A638F130352C3
     L2_2 = L2_2.S44460EB93267F798
     L1_2 = L1_2 + L2_2
-    A0_2[17] = L1_2
+    self[17] = L1_2
     L1_2 = 0
     return L1_2
   end
@@ -71,36 +70,33 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C269421DADA4889E6"]["prototype"]
-L69_1 = "F7650A28DAEBE5782"
-
-function L70_1(A0_2)
+--- main.field.action.ActionTrainerLose.onPause
+function C269421DADA4889E6_prototype:F7650A28DAEBE5782()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L1_2 = nil
   L2_2 = cBBE823D7
   L2_2 = L2_2.f330A53DF
-  L3_2 = A0_2[12]
+  L3_2 = self[12]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FA2C827B56F56ABDF
+    L3_2 = self
+    L2_2 = self.FA2C827B56F56ABDF
     L2_2(L3_2)
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     if nil ~= L2_2 then
-      L2_2 = A0_2[8]
-      L3_2 = A0_2[7]
+      L2_2 = self[8]
+      L3_2 = self[7]
       L2_2[7] = L3_2
     end
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     if nil ~= L2_2 then
-      L2_2 = A0_2[7]
-      L3_2 = A0_2[8]
+      L2_2 = self[7]
+      L3_2 = self[8]
       L2_2[8] = L3_2
-      L2_2 = A0_2[8]
+      L2_2 = self[8]
       if nil == L2_2 then
-        L2_2 = A0_2[7]
+        L2_2 = self[7]
         L3_2 = nil
         L4_2 = cBBE823D7
         L4_2 = L4_2.f330A53DF
@@ -306,49 +302,46 @@ function L70_1(A0_2)
         end
       end
     end
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     L3_2 = L2_2[1]
     L4_2 = L3_2
     L3_2 = L3_2.remove
-    L5_2 = A0_2
+    L5_2 = self
     L3_2(L4_2, L5_2)
     L3_2 = L2_2[2]
     if nil ~= L3_2 then
       L3_2 = L52_1.__instanceof
-      L4_2 = A0_2
+      L4_2 = self
       L5_2 = C190C831375BA1994
       L3_2 = L3_2(L4_2, L5_2)
       if L3_2 then
         L3_2 = L2_2[2]
         L4_2 = L3_2
         L3_2 = L3_2.remove
-        L5_2 = A0_2
+        L5_2 = self
         L3_2(L4_2, L5_2)
       end
     end
     L3_2 = nil
     L4_2 = cBBE823D7
     L4_2 = L4_2.f330A53DF
-    L5_2 = A0_2[12]
+    L5_2 = self[12]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L4_2 = A0_2[12]
+      L4_2 = self[12]
       L5_2 = L4_2
       L4_2 = L4_2.f5C99C0AC
       L4_2(L5_2)
-      A0_2[12] = nil
+      self[12] = nil
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C269421DADA4889E6"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- main.field.action.ActionTrainerLose.onFinish
+function C269421DADA4889E6_prototype:FA2C827B56F56ABDF()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[15]
+  L1_2 = self[15]
   L1_2 = L1_2[22]
   L2_2 = L1_2
   L1_2 = L1_2.F1F1E2C2E65471013
@@ -371,11 +364,11 @@ function L70_1(A0_2)
   L4_2 = "ball_wait_int"
   L5_2 = 0
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[15]
+  L2_2 = self[15]
   L3_2 = L2_2
   L2_2 = L2_2.FBC03872055FA8DA3
   L2_2(L3_2)
-  L2_2 = A0_2[15]
+  L2_2 = self[15]
   L3_2 = L2_2
   L2_2 = L2_2.F401CD9685A8177A1
   L4_2 = CE2E225A55D00ECE1

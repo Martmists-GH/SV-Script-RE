@@ -1,3 +1,7 @@
+---@alias CCC14D25FDD69E983 main_pokepicnic_database_IngDishDatabase
+
+---@class main_pokepicnic_database_IngDishDatabase : CCC14D25FDD69E983_prototype
+---@field prototype CCC14D25FDD69E983_prototype
 L55_1 = _ENV
 L56_1 = "CCC14D25FDD69E983"
 L57_1 = L15_1
@@ -40,41 +44,33 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCC14D25FDD69E983"]
 L69_1 = "__name__"
 L70_1 = "CCC14D25FDD69E983"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC14D25FDD69E983"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC14D25FDD69E983"]["prototype"]
-L69_1 = "FC956E297B076BA80"
-
-function L70_1(A0_2)
+---@class CCC14D25FDD69E983_prototype
+CCC14D25FDD69E983_prototype = L15_1()
+CCC14D25FDD69E983.prototype = CCC14D25FDD69E983_prototype
+--- main.pokepicnic.database.IngDishDatabase.get_DataNum
+function CCC14D25FDD69E983_prototype:FC956E297B076BA80()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c919391D3
   L2_2 = L2_2.f70B06B69
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = 0
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f6902A503
   L4_2 = "values"
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC14D25FDD69E983"]["prototype"]
-L69_1 = "F8930BD5CE2BE71E4"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.database.IngDishDatabase.GetParam
+function CCC14D25FDD69E983_prototype:F8930BD5CE2BE71E4(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L42_1.tnull
@@ -84,23 +80,20 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC14D25FDD69E983"]["prototype"]
-L69_1 = "F795CBC2B12F8956D"
-
-function L70_1(A0_2)
+--- main.pokepicnic.database.IngDishDatabase.OnSetup
+function CCC14D25FDD69E983_prototype:F795CBC2B12F8956D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = L42_1.new
   L1_2 = L1_2()
-  A0_2[2] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FC956E297B076BA80
+  self[2] = L1_2
+  L2_2 = self
+  L1_2 = self.FC956E297B076BA80
   L1_2 = L1_2(L2_2)
   L2_2 = 0
   L3_2 = false
   while L1_2 > L2_2 do
     L2_2 = L2_2 + 1
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.f0CA5FEBC
     L6_2 = "values"
@@ -121,7 +114,7 @@ function L70_1(A0_2)
       L11_2 = "Param"
       L9_2, L10_2, L11_2 = L9_2(L10_2, L11_2)
       L7_2(L8_2, L9_2, L10_2, L11_2)
-      L7_2 = A0_2[2]
+      L7_2 = self[2]
       if nil == L6_2 then
         L8_2 = L7_2.h
         L9_2 = L42_1.tnull

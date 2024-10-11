@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CB7085EB3B5731AA4"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CB7085EB3B5731AA4"]
-L69_1 = "new"
+---@alias CB7085EB3B5731AA4 main_ui_hairsalon_management_HairsalonShopUIManager
 
-function L70_1()
+---@class main_ui_hairsalon_management_HairsalonShopUIManager : CB7085EB3B5731AA4_prototype
+---@field prototype CB7085EB3B5731AA4_prototype
+CB7085EB3B5731AA4 = L15_1()
+function CB7085EB3B5731AA4.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = CB7085EB3B5731AA4
@@ -21,20 +18,13 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7085EB3B5731AA4"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 CB7085EB3B5731AA4
+function CB7085EB3B5731AA4.super(A0_2)
   local L1_2
   A0_2[1] = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7085EB3B5731AA4"]
-L69_1 = "__name__"
-L70_1 = "CB7085EB3B5731AA4"
-L68_1[L69_1] = L70_1
+CB7085EB3B5731AA4.__name__ = "CB7085EB3B5731AA4"
 L68_1 = _ENV["CB7085EB3B5731AA4"]
 L69_1 = "S385504EFF7E842C3"
 
@@ -54,39 +44,28 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7085EB3B5731AA4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7085EB3B5731AA4"]["prototype"]
-L69_1 = "F257C3C81ECE52CFC"
-
-function L70_1(A0_2)
+---@class CB7085EB3B5731AA4_prototype
+CB7085EB3B5731AA4_prototype = L15_1()
+CB7085EB3B5731AA4.prototype = CB7085EB3B5731AA4_prototype
+--- main.ui.hairsalon.management.HairsalonShopUIManager.GetHairsalonType
+function CB7085EB3B5731AA4_prototype:F257C3C81ECE52CFC()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7085EB3B5731AA4"]["prototype"]
-L69_1 = "FF5F5DBE8869A8218"
-
-function L70_1(A0_2, A1_2)
-  A0_2[2] = A1_2
+--- main.ui.hairsalon.management.HairsalonShopUIManager.SetHairsalonType
+function CB7085EB3B5731AA4_prototype:FF5F5DBE8869A8218(A1_2)
+  self[2] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7085EB3B5731AA4"]["prototype"]
-L69_1 = "FC22C2773A68837D3"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.hairsalon.management.HairsalonShopUIManager.SceneLoad
+function CB7085EB3B5731AA4_prototype:FC22C2773A68837D3(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = 0
   end
-  A0_2[2] = A1_2
+  self[2] = A1_2
   L2_2 = c682D8E4F
   L2_2 = L2_2.fEF94D11D
   L3_2 = "hairsalon"
@@ -107,11 +86,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB7085EB3B5731AA4"]["prototype"]
-L69_1 = "F768600CE8B68B7F8"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.hairsalon.management.HairsalonShopUIManager.SceneUnLoad
+function CB7085EB3B5731AA4_prototype:F768600CE8B68B7F8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c682D8E4F
   L2_2 = L2_2.fEF94D11D
@@ -136,7 +112,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = L2_2
   L4_2 = L2_2.f5C99C0AC
   L4_2(L5_2)
-  A0_2[1] = A1_2
+  self[1] = A1_2
 end
 
 L68_1[L69_1] = L70_1

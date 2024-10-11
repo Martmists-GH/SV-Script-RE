@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C2D54CE346821501A"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C2D54CE346821501A"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2D54CE346821501A"]
-L69_1 = "__name__"
-L70_1 = "C2D54CE346821501A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2D54CE346821501A"]
-L69_1 = "S284F7174B9B4677E"
+---@alias C2D54CE346821501A main_event_command_StaffListCommand
 
-function L70_1()
+---@class main_event_command_StaffListCommand
+C2D54CE346821501A = L15_1()
+C2D54CE346821501A.new = {}
+C2D54CE346821501A.__name__ = "C2D54CE346821501A"
+--- main.event.command.StaffListCommand.StartCredit
+function C2D54CE346821501A.S284F7174B9B4677E()
   local L0_2, L1_2, L2_2
   L0_2 = c3F70CA3A
   L0_2 = L0_2.f74EECB5E
@@ -71,11 +62,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2D54CE346821501A"]
-L69_1 = "S43D4B3C13DDF9C07"
-
-function L70_1()
+--- main.event.command.StaffListCommand.EndCredit
+function C2D54CE346821501A.S43D4B3C13DDF9C07()
   local L0_2, L1_2
   L0_2 = C2D54CE346821501A
   L0_2 = L0_2.SB4BCDD55836711F8

@@ -1,3 +1,5 @@
+---@class CA65374E7F1633317 : CA65374E7F1633317_prototype
+---@field prototype CA65374E7F1633317_prototype
 L55_1 = _ENV
 L56_1 = "CA65374E7F1633317"
 L57_1 = L15_1
@@ -38,38 +40,30 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA65374E7F1633317"]
 L69_1 = "__name__"
 L70_1 = "CA65374E7F1633317"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA65374E7F1633317"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA65374E7F1633317"]["prototype"]
-L69_1 = "F8ECAA28B9538110D"
-
-function L70_1(A0_2, A1_2)
+---@class CA65374E7F1633317_prototype
+CA65374E7F1633317_prototype = L15_1()
+CA65374E7F1633317.prototype = CA65374E7F1633317_prototype
+--- CA65374E7F1633317.CreateCoroutine
+function CA65374E7F1633317_prototype:F8ECAA28B9538110D(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F3566027557FB6C36 = L2_2
+  self.F3566027557FB6C36 = L2_2
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.new
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F0CD26250BB4E71AB
+  L4_2 = self
+  L5_2 = self.F0CD26250BB4E71AB
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = "shop_restaurant_buy_sequence"
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA65374E7F1633317"]["prototype"]
-L69_1 = "FD0E932AA2BB61EFB"
-
-function L70_1(A0_2)
+--- CA65374E7F1633317.IsBuy
+function CA65374E7F1633317_prototype:FD0E932AA2BB61EFB()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.F8F127E793C9AA905
   L1_2 = L1_2(L2_2)
@@ -91,42 +85,36 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA65374E7F1633317"]["prototype"]
-L69_1 = "F0CD26250BB4E71AB"
-
-function L70_1(A0_2)
+--- CA65374E7F1633317.ShopRestaurantBuySequence
+function CA65374E7F1633317_prototype:F0CD26250BB4E71AB()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = false
-  L3_2 = A0_2
-  L2_2 = A0_2.FD0E932AA2BB61EFB
+  L3_2 = self
+  L2_2 = self.FD0E932AA2BB61EFB
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FAA9A923FF9EA466A
+    L3_2 = self
+    L2_2 = self.FAA9A923FF9EA466A
     L2_2 = L2_2(L3_2)
     L1_2 = L2_2
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.FD3088390707B51C3
+    L3_2 = self
+    L2_2 = self.FD3088390707B51C3
     L2_2(L3_2)
     L1_2 = false
   end
-  L2_2 = A0_2.F3566027557FB6C36
+  L2_2 = self.F3566027557FB6C36
   if nil ~= L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F3566027557FB6C36
+    L3_2 = self
+    L2_2 = self.F3566027557FB6C36
     L4_2 = L1_2
     L2_2(L3_2, L4_2)
-    A0_2.F3566027557FB6C36 = nil
+    self.F3566027557FB6C36 = nil
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA65374E7F1633317"]["prototype"]
-L69_1 = "FAA9A923FF9EA466A"
-
-function L70_1(A0_2)
+--- CA65374E7F1633317.CanBuySequence
+function CA65374E7F1633317_prototype:FAA9A923FF9EA466A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L1_2 = 0
   L2_2 = false
@@ -192,7 +180,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = C8137833AB58F272F
       L1_3 = L1_3.SC1D91E6B1C832A62
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[1]
       L1_3 = L1_3(L2_3)
       if L1_3 then
@@ -210,11 +198,11 @@ function L70_1(A0_2)
     L10_2 = L7_2
     L9_2 = L7_2.FFC40D715BF1230DA
     L11_2 = L3_2
-    L12_2 = A0_2[3]
+    L12_2 = self[3]
     L13_2 = L12_2
     L12_2 = L12_2.F3A06A490019F2113
     L12_2 = L12_2(L13_2)
-    L13_2 = A0_2[3]
+    L13_2 = self[3]
     L14_2 = L13_2
     L13_2 = L13_2.FCE878B1A9BC562BC
     L13_2, L14_2, L15_2, L16_2 = L13_2(L14_2)
@@ -230,7 +218,7 @@ function L70_1(A0_2)
     L15_2 = "msg_"
     L14_2 = L14_2(L15_2)
     L15_2 = L31_1.string
-    L16_2 = A0_2[1]
+    L16_2 = self[1]
     L15_2 = L15_2(L16_2)
     L14_2 = L14_2 .. L15_2
     L13_2 = L13_2(L14_2)
@@ -257,7 +245,7 @@ function L70_1(A0_2)
     L4_2 = L3_2.fC723824A
     L6_2 = 0
     L7_2 = "restaurant_menu"
-    L8_2 = A0_2[3]
+    L8_2 = self[3]
     L9_2 = L8_2
     L8_2 = L8_2.FCE878B1A9BC562BC
     L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2 = L8_2(L9_2)
@@ -274,7 +262,7 @@ function L70_1(A0_2)
     L11_2 = "msg_"
     L10_2 = L10_2(L11_2)
     L11_2 = L31_1.string
-    L12_2 = A0_2[1]
+    L12_2 = self[1]
     L11_2 = L11_2(L12_2)
     L10_2 = L10_2 .. L11_2
     L9_2 = L9_2(L10_2)
@@ -293,7 +281,7 @@ function L70_1(A0_2)
     L4_2 = L3_2
     L3_2 = L3_2.F978B5817EAFDF8C8
     L3_2 = L3_2(L4_2)
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.F8F127E793C9AA905
     L4_2 = L4_2(L5_2)
@@ -305,7 +293,7 @@ function L70_1(A0_2)
       L4_2 = L3_2.fC723824A
       L6_2 = 0
       L7_2 = "restaurant_menu"
-      L8_2 = A0_2[3]
+      L8_2 = self[3]
       L9_2 = L8_2
       L8_2 = L8_2.FCE878B1A9BC562BC
       L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2 = L8_2(L9_2)
@@ -320,7 +308,7 @@ function L70_1(A0_2)
       L10_2 = "msg_"
       L9_2 = L9_2(L10_2)
       L10_2 = L31_1.string
-      L11_2 = A0_2[1]
+      L11_2 = self[1]
       L10_2 = L10_2(L11_2)
       L9_2 = L9_2 .. L10_2
       L8_2 = L8_2(L9_2)
@@ -360,14 +348,14 @@ function L70_1(A0_2)
       L7_2 = CA6BAB8319DCED957
       L7_2 = L7_2.S054918C23618C6F7
       L7_2()
-      L8_2 = A0_2
-      L7_2 = A0_2.FAA9A923FF9EA466A
+      L8_2 = self
+      L7_2 = self.FAA9A923FF9EA466A
       return L7_2(L8_2)
     else
       L2_2 = true
-      A0_2[2] = 0
-      L4_2 = A0_2
-      L3_2 = A0_2.F464C38AFE39868E2
+      self[2] = 0
+      L4_2 = self
+      L3_2 = self.F464C38AFE39868E2
       L3_2(L4_2)
     end
   elseif 2 == L1_2 then
@@ -376,7 +364,7 @@ function L70_1(A0_2)
     L4_2 = L3_2
     L3_2 = L3_2.FE3E7EF9576663B08
     L3_2 = L3_2(L4_2)
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.F8F127E793C9AA905
     L4_2 = L4_2(L5_2)
@@ -388,7 +376,7 @@ function L70_1(A0_2)
       L4_2 = L3_2.fC723824A
       L6_2 = 0
       L7_2 = "restaurant_menu"
-      L8_2 = A0_2[3]
+      L8_2 = self[3]
       L9_2 = L8_2
       L8_2 = L8_2.FCE878B1A9BC562BC
       L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2 = L8_2(L9_2)
@@ -403,7 +391,7 @@ function L70_1(A0_2)
       L10_2 = "msg_"
       L9_2 = L9_2(L10_2)
       L10_2 = L31_1.string
-      L11_2 = A0_2[1]
+      L11_2 = self[1]
       L10_2 = L10_2(L11_2)
       L9_2 = L9_2 .. L10_2
       L8_2 = L8_2(L9_2)
@@ -443,14 +431,14 @@ function L70_1(A0_2)
       L7_2 = CA6BAB8319DCED957
       L7_2 = L7_2.S054918C23618C6F7
       L7_2()
-      L8_2 = A0_2
-      L7_2 = A0_2.FAA9A923FF9EA466A
+      L8_2 = self
+      L7_2 = self.FAA9A923FF9EA466A
       return L7_2(L8_2)
     else
       L2_2 = true
-      A0_2[2] = 1
-      L4_2 = A0_2
-      L3_2 = A0_2.F464C38AFE39868E2
+      self[2] = 1
+      L4_2 = self
+      L3_2 = self.F464C38AFE39868E2
       L3_2(L4_2)
     end
   elseif 4 == L1_2 then
@@ -459,7 +447,7 @@ function L70_1(A0_2)
     L4_2 = L3_2
     L3_2 = L3_2.F2FFB194A3799DD2D
     L3_2 = L3_2(L4_2)
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L4_2
     L4_2 = L4_2.F8F127E793C9AA905
     L4_2 = L4_2(L5_2)
@@ -471,7 +459,7 @@ function L70_1(A0_2)
       L4_2 = L3_2.fC723824A
       L6_2 = 0
       L7_2 = "restaurant_menu"
-      L8_2 = A0_2[3]
+      L8_2 = self[3]
       L9_2 = L8_2
       L8_2 = L8_2.FCE878B1A9BC562BC
       L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2 = L8_2(L9_2)
@@ -486,7 +474,7 @@ function L70_1(A0_2)
       L10_2 = "msg_"
       L9_2 = L9_2(L10_2)
       L10_2 = L31_1.string
-      L11_2 = A0_2[1]
+      L11_2 = self[1]
       L10_2 = L10_2(L11_2)
       L9_2 = L9_2 .. L10_2
       L8_2 = L8_2(L9_2)
@@ -526,14 +514,14 @@ function L70_1(A0_2)
       L7_2 = CA6BAB8319DCED957
       L7_2 = L7_2.S054918C23618C6F7
       L7_2()
-      L8_2 = A0_2
-      L7_2 = A0_2.FAA9A923FF9EA466A
+      L8_2 = self
+      L7_2 = self.FAA9A923FF9EA466A
       return L7_2(L8_2)
     else
       L2_2 = true
-      A0_2[2] = 2
-      L4_2 = A0_2
-      L3_2 = A0_2.F464C38AFE39868E2
+      self[2] = 2
+      L4_2 = self
+      L3_2 = self.F464C38AFE39868E2
       L3_2(L4_2)
     end
   elseif 3 == L1_2 then
@@ -542,11 +530,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA65374E7F1633317"]["prototype"]
-L69_1 = "FD3088390707B51C3"
-
-function L70_1(A0_2)
+--- CA65374E7F1633317.CanNotBuySequence
+function CA65374E7F1633317_prototype:FD3088390707B51C3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = cB3DDDC2A
   L1_2 = L1_2.f5B6373D5
@@ -555,7 +540,7 @@ function L70_1(A0_2)
   L2_2 = L1_2.fC723824A
   L4_2 = 0
   L5_2 = "restaurant_menu"
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L7_2 = L6_2
   L6_2 = L6_2.FCE878B1A9BC562BC
   L6_2, L7_2, L8_2, L9_2 = L6_2(L7_2)
@@ -570,7 +555,7 @@ function L70_1(A0_2)
   L8_2 = "msg_"
   L7_2 = L7_2(L8_2)
   L8_2 = L31_1.string
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L8_2 = L8_2(L9_2)
   L7_2 = L7_2 .. L8_2
   L6_2 = L6_2(L7_2)
@@ -612,16 +597,13 @@ function L70_1(A0_2)
   L5_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA65374E7F1633317"]["prototype"]
-L69_1 = "F464C38AFE39868E2"
-
-function L70_1(A0_2)
+--- CA65374E7F1633317.BuyDecideSequence
+function CA65374E7F1633317_prototype:F464C38AFE39868E2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CCD22EFED4E9E5F89
   L1_2 = L1_2.SAA2A94132854787E
-  L2_2 = A0_2[2]
-  L3_2 = A0_2[3]
+  L2_2 = self[2]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.F8F127E793C9AA905
   L3_2 = L3_2(L4_2)
@@ -635,7 +617,7 @@ function L70_1(A0_2)
   L5_2 = "msg_"
   L4_2 = L4_2(L5_2)
   L5_2 = L31_1.string
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
   L3_2 = L3_2(L4_2)

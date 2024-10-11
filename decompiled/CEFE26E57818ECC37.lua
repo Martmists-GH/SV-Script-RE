@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CEFE26E57818ECC37"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "new"
+---@alias CEFE26E57818ECC37 main_field_gimmick_hidden_item_HiddenItemManager
 
-function L70_1(A0_2)
+---@class main_field_gimmick_hidden_item_HiddenItemManager : CEFE26E57818ECC37_prototype
+---@field prototype CEFE26E57818ECC37_prototype
+CEFE26E57818ECC37 = L15_1()
+function CEFE26E57818ECC37.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CEFE26E57818ECC37
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CEFE26E57818ECC37
+function CEFE26E57818ECC37.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[20] = "hidden_item_data_table_lc"
   A0_2[19] = "hidden_item_biome_table_lc"
@@ -86,11 +80,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "SCF4E538A590BD6B0"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.SCF4E538A590BD6B0
+function CEFE26E57818ECC37.SCF4E538A590BD6B0(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L2_2 = A0_2
   L1_2 = A0_2.f1A1210C4
@@ -270,11 +261,8 @@ function L70_1(A0_2)
   return L13_2(L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "S783991A356ABA63A"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.CallItemGetEvent
+function CEFE26E57818ECC37.S783991A356ABA63A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   
   function L2_2(A0_3)
@@ -351,11 +339,8 @@ function L70_1(A0_2, A1_2)
   return L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "S1EA66EFD7A43363F"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.IterateItems
+function CEFE26E57818ECC37.S1EA66EFD7A43363F(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CEFE26E57818ECC37
   L1_2 = L1_2.S2CF3571E7DF5D487
@@ -375,11 +360,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "S34E40EEB94956135"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.S34E40EEB94956135
+function CEFE26E57818ECC37.S34E40EEB94956135(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -434,11 +416,8 @@ function L70_1(A0_2, A1_2)
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "S0FA42F06E64CC5AB"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.FindRummagingPoint
+function CEFE26E57818ECC37.S0FA42F06E64CC5AB(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = nil
   L4_2 = 100.0
@@ -514,11 +493,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "SC9BC65AB67CEFD2D"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.SC9BC65AB67CEFD2D
+function CEFE26E57818ECC37.SC9BC65AB67CEFD2D(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CEFE26E57818ECC37
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -532,11 +508,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "S0B6755773E33689B"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.S0B6755773E33689B
+function CEFE26E57818ECC37.S0B6755773E33689B(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CEFE26E57818ECC37
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -550,11 +523,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "SBC4B6B60CE92311A"
-
-function L70_1()
+--- main.field.gimmick.hidden_item.HiddenItemManager.SBC4B6B60CE92311A
+function CEFE26E57818ECC37.SBC4B6B60CE92311A()
   local L0_2, L1_2
   L0_2 = CEFE26E57818ECC37
   L0_2 = L0_2.SF3075AB31C9E8AF4
@@ -567,11 +537,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "S57842873E53E8E3F"
-
-function L70_1()
+--- main.field.gimmick.hidden_item.HiddenItemManager.S57842873E53E8E3F
+function CEFE26E57818ECC37.S57842873E53E8E3F()
   local L0_2, L1_2
   L0_2 = CEFE26E57818ECC37
   L0_2 = L0_2.SF3075AB31C9E8AF4
@@ -584,11 +551,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "SABC732B30B56268E"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.SABC732B30B56268E
+function CEFE26E57818ECC37.SABC732B30B56268E(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CEFE26E57818ECC37
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -602,11 +566,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "SDB44420193284644"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.SDB44420193284644
+function CEFE26E57818ECC37.SDB44420193284644(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = nil
   L2_2 = -1
@@ -652,11 +613,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "SDC487D7E84075F3D"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.SDC487D7E84075F3D
+function CEFE26E57818ECC37.SDC487D7E84075F3D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = nil
   L2_2 = -1
@@ -718,23 +676,18 @@ function L70_1(A0_2)
   return L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CEFE26E57818ECC37_prototype
+CEFE26E57818ECC37_prototype = L15_1()
+CEFE26E57818ECC37.prototype = CEFE26E57818ECC37_prototype
+--- main.field.gimmick.hidden_item.HiddenItemManager.Setup
+function CEFE26E57818ECC37_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = CEFE26E57818ECC37
-  L3_2.SF3075AB31C9E8AF4 = A0_2
+  L3_2.SF3075AB31C9E8AF4 = self
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = nil
   L5_2 = C7255B919FCF73022
@@ -763,12 +716,12 @@ function L70_1(A0_2, A1_2)
   
   L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2 = L6_2()
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2)
-  A0_2[3] = L5_2
-  L5_2 = A0_2[7]
+  self[3] = L5_2
+  L5_2 = self[7]
   L6_2 = C1A33E075C650D36C
   L6_2 = L6_2.new
-  L8_2 = A0_2
-  L7_2 = A0_2.F0058BB1C680FE760
+  L8_2 = self
+  L7_2 = self.F0058BB1C680FE760
   L9_2 = L3_2
   L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2 = L7_2(L8_2, L9_2)
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2)
@@ -781,13 +734,13 @@ function L70_1(A0_2, A1_2)
     L8_2 = L7_2.h
     L8_2[0] = L6_2
   end
-  L8_2 = A0_2[7]
+  L8_2 = self[7]
   L9_2 = C1A33E075C650D36C
   L9_2 = L9_2.new
-  L11_2 = A0_2
-  L10_2 = A0_2.F0058BB1C680FE760
+  L11_2 = self
+  L10_2 = self.F0058BB1C680FE760
   L12_2 = L3_2
-  L13_2 = A0_2[16]
+  L13_2 = self[16]
   L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2 = L10_2(L11_2, L12_2, L13_2)
   L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2)
   L10_2 = L8_2
@@ -799,13 +752,13 @@ function L70_1(A0_2, A1_2)
     L11_2 = L10_2.h
     L11_2[1] = L9_2
   end
-  L11_2 = A0_2[7]
+  L11_2 = self[7]
   L12_2 = C1A33E075C650D36C
   L12_2 = L12_2.new
-  L14_2 = A0_2
-  L13_2 = A0_2.F0058BB1C680FE760
+  L14_2 = self
+  L13_2 = self.F0058BB1C680FE760
   L15_2 = L3_2
-  L16_2 = A0_2[18]
+  L16_2 = self[18]
   L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2 = L13_2(L14_2, L15_2, L16_2)
   L12_2 = L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2)
   L13_2 = L11_2
@@ -817,13 +770,13 @@ function L70_1(A0_2, A1_2)
     L14_2 = L13_2.h
     L14_2[2] = L12_2
   end
-  L14_2 = A0_2[7]
+  L14_2 = self[7]
   L15_2 = C1A33E075C650D36C
   L15_2 = L15_2.new
-  L17_2 = A0_2
-  L16_2 = A0_2.F0058BB1C680FE760
+  L17_2 = self
+  L16_2 = self.F0058BB1C680FE760
   L18_2 = L3_2
-  L19_2 = A0_2[20]
+  L19_2 = self[20]
   L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2 = L16_2(L17_2, L18_2, L19_2)
   L15_2 = L15_2(L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2)
   L16_2 = L14_2
@@ -835,13 +788,13 @@ function L70_1(A0_2, A1_2)
     L17_2 = L16_2.h
     L17_2[3] = L15_2
   end
-  L17_2 = A0_2[5]
+  L17_2 = self[5]
   L18_2 = C22E56012C81D6348
   L18_2 = L18_2.new
-  L20_2 = A0_2
-  L19_2 = A0_2.F0058BB1C680FE760
+  L20_2 = self
+  L19_2 = self.F0058BB1C680FE760
   L21_2 = L3_2
-  L22_2 = A0_2[14]
+  L22_2 = self[14]
   L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2 = L19_2(L20_2, L21_2, L22_2)
   L18_2 = L18_2(L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2)
   L19_2 = L17_2
@@ -853,13 +806,13 @@ function L70_1(A0_2, A1_2)
     L20_2 = L19_2.h
     L20_2[0] = L18_2
   end
-  L20_2 = A0_2[5]
+  L20_2 = self[5]
   L21_2 = C22E56012C81D6348
   L21_2 = L21_2.new
-  L23_2 = A0_2
-  L22_2 = A0_2.F0058BB1C680FE760
+  L23_2 = self
+  L22_2 = self.F0058BB1C680FE760
   L24_2 = L3_2
-  L25_2 = A0_2[15]
+  L25_2 = self[15]
   L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2 = L22_2(L23_2, L24_2, L25_2)
   L21_2 = L21_2(L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2)
   L22_2 = L20_2
@@ -871,13 +824,13 @@ function L70_1(A0_2, A1_2)
     L23_2 = L22_2.h
     L23_2[1] = L21_2
   end
-  L23_2 = A0_2[5]
+  L23_2 = self[5]
   L24_2 = C22E56012C81D6348
   L24_2 = L24_2.new
-  L26_2 = A0_2
-  L25_2 = A0_2.F0058BB1C680FE760
+  L26_2 = self
+  L25_2 = self.F0058BB1C680FE760
   L27_2 = L3_2
-  L28_2 = A0_2[17]
+  L28_2 = self[17]
   L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2 = L25_2(L26_2, L27_2, L28_2)
   L24_2 = L24_2(L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2)
   L25_2 = L23_2
@@ -889,13 +842,13 @@ function L70_1(A0_2, A1_2)
     L26_2 = L25_2.h
     L26_2[2] = L24_2
   end
-  L26_2 = A0_2[5]
+  L26_2 = self[5]
   L27_2 = C22E56012C81D6348
   L27_2 = L27_2.new
-  L29_2 = A0_2
-  L28_2 = A0_2.F0058BB1C680FE760
+  L29_2 = self
+  L28_2 = self.F0058BB1C680FE760
   L30_2 = L3_2
-  L31_2 = A0_2[19]
+  L31_2 = self[19]
   L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2 = L28_2(L29_2, L30_2, L31_2)
   L27_2 = L27_2(L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2)
   L28_2 = L26_2
@@ -907,13 +860,13 @@ function L70_1(A0_2, A1_2)
     L29_2 = L28_2.h
     L29_2[3] = L27_2
   end
-  L29_2 = A0_2[1]
+  L29_2 = self[1]
   L30_2 = L29_2
   L29_2 = L29_2.f462C9B70
   L29_2 = L29_2(L30_2)
-  A0_2[8] = L29_2
-  L30_2 = A0_2
-  L29_2 = A0_2.FC5D8535693E22A6E
+  self[8] = L29_2
+  L30_2 = self
+  L29_2 = self.FC5D8535693E22A6E
   L31_2 = C8F93126DACB9F8DD
   L31_2 = L31_2.S93A2C11A3020463D
   L31_2 = L31_2.currentFieldId
@@ -924,19 +877,19 @@ function L70_1(A0_2, A1_2)
   L30_2 = CEFE26E57818ECC37
   L30_2 = L30_2.S961205D67F5195F5
   L29_2 = L29_2(L30_2)
-  A0_2[10] = L29_2
+  self[10] = L29_2
   L29_2 = c451059A3
   L29_2 = L29_2.f5776B6C6
   L30_2 = CEFE26E57818ECC37
   L30_2 = L30_2.S98CB6E7584E19C0A
   L29_2 = L29_2(L30_2)
-  A0_2[11] = L29_2
+  self[11] = L29_2
   L29_2 = c451059A3
   L29_2 = L29_2.f5776B6C6
   L30_2 = CEFE26E57818ECC37
   L30_2 = L30_2.S6A9CD58C5ED80315
   L29_2 = L29_2(L30_2)
-  A0_2[12] = L29_2
+  self[12] = L29_2
   L29_2 = 4
   L30_2 = C7080DFBD10FA6E9E
   L30_2 = L30_2.SC8223E31D3163519
@@ -948,7 +901,7 @@ function L70_1(A0_2, A1_2)
   L33_2.func = true
   L32_2.__fields__ = L33_2
   L32_2.type = L29_2
-  L33_2 = A0_2[8]
+  L33_2 = self[8]
   L32_2.scene = L33_2
   
   function L33_2(A0_3, A1_3)
@@ -1006,7 +959,7 @@ function L70_1(A0_2, A1_2)
   L32_2.func = L33_2
   L31_2 = L31_2(L32_2)
   L32_2 = L30_2[3]
-  L33_2 = A0_2
+  L33_2 = self
   L34_2 = L32_2.h
   L34_2[L33_2] = L31_2
   L34_2 = L32_2.k
@@ -1078,13 +1031,13 @@ function L70_1(A0_2, A1_2)
   L38_2.owner = true
   L38_2.callbackFunc = true
   L37_2.__fields__ = L38_2
-  L37_2.owner = A0_2
+  L37_2.owner = self
   
   function L38_2(A0_3, ...)
     local L1_3, L2_3, L3_3
     L1_3 = L55_1
-    L2_3 = A0_2
-    L3_3 = A0_2.F77647FFCD947CA10
+    L2_3 = self
+    L3_3 = self.F77647FFCD947CA10
     L1_3 = L1_3(L2_3, L3_3)
     L2_3, L3_3 = ...
     return L1_3(L2_3, L3_3)
@@ -1093,60 +1046,54 @@ function L70_1(A0_2, A1_2)
   L37_2.callbackFunc = L38_2
   L36_2, L37_2, L38_2, L39_2, L40_2 = L36_2(L37_2)
   L34_2(L35_2, L36_2, L37_2, L38_2, L39_2, L40_2)
-  L35_2 = A0_2
-  L34_2 = A0_2.F07E31C160CC45CB7
+  L35_2 = self
+  L34_2 = self.F07E31C160CC45CB7
   L34_2(L35_2)
   L34_2 = cCF781FB6
   L34_2 = L34_2.fB41FD22F
-  L35_2 = A0_2[1]
+  L35_2 = self[1]
   L34_2 = L34_2(L35_2)
-  A0_2[2] = L34_2
-  L34_2 = A0_2[2]
+  self[2] = L34_2
+  L34_2 = self[2]
   L35_2 = L34_2
   L34_2 = L34_2.f024ADB0D
   L36_2 = 4
   L34_2(L35_2, L36_2)
   L34_2 = L58_1
   L35_2 = L55_1
-  L36_2 = A0_2
-  L37_2 = A0_2.F75C92BB7CFFBC83C
+  L36_2 = self
+  L37_2 = self.F75C92BB7CFFBC83C
   L35_2, L36_2, L37_2, L38_2, L39_2, L40_2 = L35_2(L36_2, L37_2)
   L34_2 = L34_2(L35_2, L36_2, L37_2, L38_2, L39_2, L40_2)
-  A0_2.F8502D256D7DD7E22 = L34_2
+  self.F8502D256D7DD7E22 = L34_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.PreUpdate
+function CEFE26E57818ECC37_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F8502D256D7DD7E22
+  L3_2 = self
+  L2_2 = self.F8502D256D7DD7E22
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "F75C92BB7CFFBC83C"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.onSetupUpdate
+function CEFE26E57818ECC37_prototype:F75C92BB7CFFBC83C()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.f900312E7
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     return
   end
-  L1_2 = A0_2[11]
+  L1_2 = self[11]
   L2_2 = L1_2
   L1_2 = L1_2.f900312E7
   L1_2 = L1_2(L2_2)
   if not L1_2 then
     return
   end
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L2_2 = L1_2
   L1_2 = L1_2.f900312E7
   L1_2 = L1_2(L2_2)
@@ -1160,20 +1107,17 @@ function L70_1(A0_2)
   end
   L1_2 = L58_1
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F7B10A49DF0462D9E
+  L3_2 = self
+  L4_2 = self.F7B10A49DF0462D9E
   L2_2, L3_2, L4_2 = L2_2(L3_2, L4_2)
   L1_2 = L1_2(L2_2, L3_2, L4_2)
-  A0_2.F8502D256D7DD7E22 = L1_2
+  self.F8502D256D7DD7E22 = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "F26E40267A310005C"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.onSaveDataUpdate
+function CEFE26E57818ECC37_prototype:F26E40267A310005C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[13]
+  L1_2 = self[13]
   L2_2 = nil
   L3_2 = L62_1
   L4_2 = L64_1.pack
@@ -1219,91 +1163,79 @@ function L70_1(A0_2)
   end
   L4_2 = L10_1.coroutine
   L4_2 = L4_2.status
-  L5_2 = A0_2[13]
+  L5_2 = self[13]
   L5_2 = L5_2[1]
   L4_2 = L4_2(L5_2)
   if "dead" == L4_2 then
-    A0_2[13] = nil
+    self[13] = nil
     L4_2 = CEFE26E57818ECC37
     L4_2 = L4_2.S2CF3571E7DF5D487
     L5_2 = L4_2
     L4_2 = L4_2.F42D70449FF49DAF5
     L6_2 = L55_1
-    L7_2 = A0_2
-    L8_2 = A0_2.FFCC50C20C4087283
+    L7_2 = self
+    L8_2 = self.FFCC50C20C4087283
     L6_2, L7_2, L8_2, L9_2, L10_2 = L6_2(L7_2, L8_2)
     L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L4_2
     L4_2 = L4_2.f024ADB0D
     L6_2 = 4
     L4_2(L5_2, L6_2)
     L4_2 = L58_1
     L5_2 = L55_1
-    L6_2 = A0_2
-    L7_2 = A0_2.F7B10A49DF0462D9E
+    L6_2 = self
+    L7_2 = self.F7B10A49DF0462D9E
     L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L5_2(L6_2, L7_2)
     L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
-    A0_2.F8502D256D7DD7E22 = L4_2
+    self.F8502D256D7DD7E22 = L4_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "F7B10A49DF0462D9E"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.onPointsUpdate
+function CEFE26E57818ECC37_prototype:F7B10A49DF0462D9E()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CEFE26E57818ECC37
   L1_2 = L1_2.S2CF3571E7DF5D487
   L2_2 = L1_2
   L1_2 = L1_2.FEB6685558281F194
   L1_2(L2_2)
-  L1_2 = A0_2[13]
+  L1_2 = self[13]
   if nil ~= L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.f024ADB0D
     L3_2 = 0
     L1_2(L2_2, L3_2)
     L1_2 = L58_1
     L2_2 = L55_1
-    L3_2 = A0_2
-    L4_2 = A0_2.F26E40267A310005C
+    L3_2 = self
+    L4_2 = self.F26E40267A310005C
     L2_2, L3_2, L4_2 = L2_2(L3_2, L4_2)
     L1_2 = L1_2(L2_2, L3_2, L4_2)
-    A0_2.F8502D256D7DD7E22 = L1_2
+    self.F8502D256D7DD7E22 = L1_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "F77647FFCD947CA10"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.OnDateChanged
+function CEFE26E57818ECC37_prototype:F77647FFCD947CA10()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F07E31C160CC45CB7
+  L2_2 = self
+  L1_2 = self.F07E31C160CC45CB7
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "F4F78ED661326F17B"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.onAddPoint
+function CEFE26E57818ECC37_prototype:F4F78ED661326F17B(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FFCC50C20C4087283
+  L3_2 = self
+  L2_2 = self.FFCC50C20C4087283
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "F70960BF2FF3BC30E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.onRemovePoint
+function CEFE26E57818ECC37_prototype:F70960BF2FF3BC30E(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = A1_2.item
   if nil ~= L2_2 then
@@ -1317,18 +1249,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "FFCC50C20C4087283"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.createEitherItem
+function CEFE26E57818ECC37_prototype:FFCC50C20C4087283(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = A1_2.item
   if nil ~= L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FCE6FEC8EB7970B22
+  L3_2 = self
+  L2_2 = self.FCE6FEC8EB7970B22
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if nil == L2_2 then
@@ -1358,7 +1287,7 @@ function L70_1(A0_2, A1_2)
   L4_2 = 0
   L5_2 = nil
   if 0 == L4_2 then
-    L6_2 = A0_2[8]
+    L6_2 = self[8]
     L7_2 = L6_2
     L6_2 = L6_2.f68159593
     L8_2 = L31_1.string
@@ -1374,7 +1303,7 @@ function L70_1(A0_2, A1_2)
     L10_2 = "_hiddenitem"
     L9_2 = L9_2(L10_2)
     L8_2 = L8_2 .. L9_2
-    L9_2 = A0_2[10]
+    L9_2 = self[10]
     L6_2 = L6_2(L7_2, L8_2, L9_2)
     L7_2 = nil
     L8_2 = L16_1
@@ -1446,11 +1375,8 @@ function L70_1(A0_2, A1_2)
   L8_2(L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "FCE6FEC8EB7970B22"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.FCE6FEC8EB7970B22
+function CEFE26E57818ECC37_prototype:FCE6FEC8EB7970B22(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.fA26750F3
@@ -1468,7 +1394,7 @@ function L70_1(A0_2, A1_2)
     L1_3 = A1_2.data
     L1_3 = L1_3.tree
     if nil == L1_3 then
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[4]
       L2_3 = L1_3
       L1_3 = L1_3.F18515E93ED9E93AC
@@ -1488,7 +1414,7 @@ function L70_1(A0_2, A1_2)
   
   L3_2 = L3_2()
   if L2_2 > 0 then
-    L4_2 = A0_2[6]
+    L4_2 = self[6]
     L5_2 = L4_2
     L4_2 = L4_2.F3D084DA220C9C7C2
     L6_2 = L3_2
@@ -1507,7 +1433,7 @@ function L70_1(A0_2, A1_2)
       L6_2 = 99
       L4_2 = L4_2(L5_2, L6_2)
       L4_2 = L4_2 + 1
-      L5_2 = A0_2[6]
+      L5_2 = self[6]
       L6_2 = L5_2
       L5_2 = L5_2.F3D084DA220C9C7C2
       L7_2 = L3_2
@@ -1544,47 +1470,41 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "F07E31C160CC45CB7"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.F07E31C160CC45CB7
+function CEFE26E57818ECC37_prototype:F07E31C160CC45CB7()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[13]
+  L1_2 = self[13]
   if nil == L1_2 then
     L1_2 = C1DB14DCC9D7634FA
     L1_2 = L1_2.new
     L2_2 = L55_1
-    L3_2 = A0_2
-    L4_2 = A0_2.F30223FCA777A4184
+    L3_2 = self
+    L4_2 = self.F30223FCA777A4184
     L2_2 = L2_2(L3_2, L4_2)
     L3_2 = "UpdateRepopTimer_Setup"
     L1_2 = L1_2(L2_2, L3_2)
-    A0_2[13] = L1_2
+    self[13] = L1_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "FAE24620AA66F3417"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.switchStreamScene
+function CEFE26E57818ECC37_prototype:FAE24620AA66F3417(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = nil
   L3_2 = cA042DA13
   L3_2 = L3_2.f25C936C9
-  L4_2 = A0_2[9]
+  L4_2 = self[9]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     L4_2 = L3_2
     L3_2 = L3_2.f5C99C0AC
     L3_2(L4_2)
   end
   L3_2 = CEFE26E57818ECC37
   L3_2.SCAE76A386530A03D = A1_2
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L4_2 = L3_2
   L3_2 = L3_2.f1FC07C91
   L5_2 = CD2C00F61CE438B92
@@ -1592,68 +1512,59 @@ function L70_1(A0_2, A1_2)
   L6_2 = A1_2
   L5_2, L6_2 = L5_2(L6_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2)
-  A0_2[9] = L3_2
+  self[9] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "F7C7F2F529CDD497B"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.F7C7F2F529CDD497B
+function CEFE26E57818ECC37_prototype:F7C7F2F529CDD497B(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L42_1.tnull
   if L2_2 == L3_2 then
     L2_2 = nil
   end
-  A0_2[4] = L2_2
-  L3_2 = A0_2[7]
+  self[4] = L2_2
+  L3_2 = self[7]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   L4_2 = L42_1.tnull
   if L3_2 == L4_2 then
     L3_2 = nil
   end
-  A0_2[6] = L3_2
+  self[6] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "F43B932400BEF33D4"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.F43B932400BEF33D4
+function CEFE26E57818ECC37_prototype:F43B932400BEF33D4()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.f25C936C9
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[9]
+    L2_2 = self[9]
     L3_2 = L2_2
     L2_2 = L2_2.f5C99C0AC
     L2_2(L3_2)
-    A0_2[9] = nil
+    self[9] = nil
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "F01FFD2A38FF6E297"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.F01FFD2A38FF6E297
+function CEFE26E57818ECC37_prototype:F01FFD2A38FF6E297()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L3_2 = L2_2
     L2_2 = L2_2.f1FC07C91
     L4_2 = CD2C00F61CE438B92
@@ -1662,15 +1573,12 @@ function L70_1(A0_2)
     L5_2 = L5_2.SCAE76A386530A03D
     L4_2, L5_2 = L4_2(L5_2)
     L2_2 = L2_2(L3_2, L4_2, L5_2)
-    A0_2[9] = L2_2
+    self[9] = L2_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "FC5D8535693E22A6E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.FC5D8535693E22A6E
+function CEFE26E57818ECC37_prototype:FC5D8535693E22A6E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = nil
   if 0 == A1_2 then
@@ -1704,8 +1612,8 @@ function L70_1(A0_2, A1_2)
   elseif 2 == A1_2 then
     L2_2 = "Field_2"
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FAE24620AA66F3417
+  L4_2 = self
+  L3_2 = self.FAE24620AA66F3417
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
   L3_2 = nil
@@ -1733,17 +1641,14 @@ function L70_1(A0_2, A1_2)
   elseif 2 == A1_2 then
     L3_2 = 2
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F7C7F2F529CDD497B
+  L5_2 = self
+  L4_2 = self.F7C7F2F529CDD497B
   L6_2 = L3_2
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "F30223FCA777A4184"
-
-function L70_1(A0_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.seqUpdateRepopTimer
+function CEFE26E57818ECC37_prototype:F30223FCA777A4184()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = c37452BA0
   L1_2 = L1_2.f9EEB3BA9
@@ -1787,11 +1692,8 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE26E57818ECC37"]["prototype"]
-L69_1 = "F0058BB1C680FE760"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.gimmick.hidden_item.HiddenItemManager.F0058BB1C680FE760
+function CEFE26E57818ECC37_prototype:F0058BB1C680FE760(A1_2, A2_2)
   local L3_2, L4_2
   L3_2 = nil
   

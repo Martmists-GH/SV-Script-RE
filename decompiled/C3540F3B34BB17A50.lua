@@ -1,3 +1,5 @@
+---@class C3540F3B34BB17A50 : C3540F3B34BB17A50_prototype
+---@field prototype C3540F3B34BB17A50_prototype
 L55_1 = _ENV
 L56_1 = "C3540F3B34BB17A50"
 L57_1 = L15_1
@@ -42,29 +44,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3540F3B34BB17A50"]
 L69_1 = "__name__"
 L70_1 = "C3540F3B34BB17A50"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3540F3B34BB17A50"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3540F3B34BB17A50"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2)
+---@class C3540F3B34BB17A50_prototype
+C3540F3B34BB17A50_prototype = L15_1()
+C3540F3B34BB17A50.prototype = C3540F3B34BB17A50_prototype
+--- C3540F3B34BB17A50.Reset
+function C3540F3B34BB17A50_prototype:F96EA28F400597FA0()
   local L1_2
-  A0_2[3] = false
+  self[3] = false
   L1_2 = c2A4CD0C7
   L1_2 = L1_2.f0DC6CEFD
   L1_2 = L1_2()
-  A0_2[4] = L1_2
+  self[4] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3540F3B34BB17A50"]["prototype"]
-L69_1 = "F00A5AAB9F764BE45"
-
-function L70_1(A0_2)
+--- C3540F3B34BB17A50.OnContentsChecker
+function C3540F3B34BB17A50_prototype:F00A5AAB9F764BE45()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c7EDB7BA9
   L1_2 = L1_2.fE50E7EE0
@@ -76,11 +70,11 @@ function L70_1(A0_2)
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     if L3_2 then
-      L3_2 = A0_2[4]
-      L5_2 = A0_2
-      L4_2 = A0_2.F96EA28F400597FA0
+      L3_2 = self[4]
+      L5_2 = self
+      L4_2 = self.F96EA28F400597FA0
       L4_2(L5_2)
       L4_2 = C1CF1A06F9D084666
       L4_2 = L4_2.new
@@ -94,11 +88,11 @@ function L70_1(A0_2)
     L4_2 = L3_2
     L3_2 = L3_2.f8136E7E3
     L3_2 = L3_2(L4_2)
-    A0_2[4] = L3_2
+    self[4] = L3_2
     L3_2 = CE6EE3F9C54FC6D83
     L3_2 = L3_2.SBA7067F55AEF47E0
     L3_2 = L3_2()
-    A0_2[3] = L3_2
+    self[3] = L3_2
   end
   L3_2 = nil
   return L3_2

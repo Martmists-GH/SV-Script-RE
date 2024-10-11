@@ -1,11 +1,8 @@
-L55_1 = _ENV
-L56_1 = "C1E9E98E053EEB1E8"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C1E9E98E053EEB1E8"]
-L69_1 = "new"
-L70_1 = {}
+---@alias C1E9E98E053EEB1E8 main_battle_parts_StreetGalleryManager
+
+---@class main_battle_parts_StreetGalleryManager
+C1E9E98E053EEB1E8 = L15_1()
+C1E9E98E053EEB1E8.new = {}
 L68_1[L69_1] = L70_1
 L68_1 = "C1E9E98E053EEB1E8"
 L69_1 = _ENV["C1E9E98E053EEB1E8"]
@@ -13,27 +10,18 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C1E9E98E053EEB1E8"]
 L69_1 = "__name__"
 L70_1 = "C1E9E98E053EEB1E8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E9E98E053EEB1E8"]
-L69_1 = "SFEFD1B4A2E69DCCF"
-
-function L70_1(A0_2)
+--- main.battle.parts.StreetGalleryManager.Warning
+function C1E9E98E053EEB1E8.SFEFD1B4A2E69DCCF(A0_2)
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E9E98E053EEB1E8"]
-L69_1 = "SD42C0BE3A089E971"
-
-function L70_1(A0_2)
+--- main.battle.parts.StreetGalleryManager.Error
+function C1E9E98E053EEB1E8.SD42C0BE3A089E971(A0_2)
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E9E98E053EEB1E8"]
-L69_1 = "SD4637D960950122D"
-
-function L70_1(A0_2)
+--- main.battle.parts.StreetGalleryManager.setupStreetGallery
+function C1E9E98E053EEB1E8.SD4637D960950122D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = C6E4E414B05DD3713
   L1_2 = L1_2.S264F26F6894F3392
@@ -127,11 +115,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E9E98E053EEB1E8"]
-L69_1 = "SB4C47146AFB3B64F"
-
-function L70_1()
+--- main.battle.parts.StreetGalleryManager.terminateStreetGallery
+function C1E9E98E053EEB1E8.SB4C47146AFB3B64F()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L0_2 = C1E9E98E053EEB1E8
   L0_2 = L0_2.SC010933E29CD5FCB

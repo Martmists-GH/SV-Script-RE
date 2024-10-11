@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C7EF98D06813E2E2A"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C7EF98D06813E2E2A"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7EF98D06813E2E2A"]
-L69_1 = "__name__"
-L70_1 = "C7EF98D06813E2E2A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7EF98D06813E2E2A"]
-L69_1 = "S66BA3C7BEBFCA826"
+---@alias C7EF98D06813E2E2A main_util_PSListExtender
 
-function L70_1(A0_2, A1_2)
+---@class main_util_PSListExtender
+C7EF98D06813E2E2A = L15_1()
+C7EF98D06813E2E2A.new = {}
+C7EF98D06813E2E2A.__name__ = "C7EF98D06813E2E2A"
+--- main.util.PSListExtender.iterPSTable
+function C7EF98D06813E2E2A.S66BA3C7BEBFCA826(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = nil
   L3_2 = cE22CD062
@@ -39,11 +30,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7EF98D06813E2E2A"]
-L69_1 = "SBF85320693A5F728"
-
-function L70_1(A0_2, A1_2)
+--- main.util.PSListExtender.iterInt
+function C7EF98D06813E2E2A.SBF85320693A5F728(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = nil
   L3_2 = cE22CD062

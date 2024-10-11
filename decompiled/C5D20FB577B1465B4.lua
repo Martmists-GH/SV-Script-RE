@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C5D20FB577B1465B4"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C5D20FB577B1465B4"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D20FB577B1465B4"]
-L69_1 = "__name__"
-L70_1 = "C5D20FB577B1465B4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D20FB577B1465B4"]
-L69_1 = "SDDBE6E973736D191"
+---@alias C5D20FB577B1465B4 main_event_command_OnePictureCommand
 
-function L70_1(A0_2, A1_2)
+---@class main_event_command_OnePictureCommand
+C5D20FB577B1465B4 = L15_1()
+C5D20FB577B1465B4.new = {}
+C5D20FB577B1465B4.__name__ = "C5D20FB577B1465B4"
+--- main.event.command.OnePictureCommand.StartOnePicture
+function C5D20FB577B1465B4.SDDBE6E973736D191(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if nil == A1_2 then
     A1_2 = false
@@ -85,11 +76,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D20FB577B1465B4"]
-L69_1 = "S628730C8BCFDC618"
-
-function L70_1()
+--- main.event.command.OnePictureCommand.EndOnePicture
+function C5D20FB577B1465B4.S628730C8BCFDC618()
   local L0_2, L1_2, L2_2
   L0_2 = C5D20FB577B1465B4
   L0_2 = L0_2.SF0C324FD50515AD3

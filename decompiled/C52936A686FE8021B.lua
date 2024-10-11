@@ -1,3 +1,7 @@
+---@alias C52936A686FE8021B main_savedata_accessor_FlagWorkSaveAccessor
+
+---@class main_savedata_accessor_FlagWorkSaveAccessor : C52936A686FE8021B_prototype
+---@field prototype C52936A686FE8021B_prototype
 L55_1 = _ENV
 L56_1 = "C52936A686FE8021B"
 L57_1 = L15_1
@@ -37,16 +41,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C52936A686FE8021B"]
 L69_1 = "__name__"
 L70_1 = "C52936A686FE8021B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52936A686FE8021B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52936A686FE8021B"]["prototype"]
-L69_1 = "F042B860498E558B2"
-
-function L70_1(A0_2)
+---@class C52936A686FE8021B_prototype
+C52936A686FE8021B_prototype = L15_1()
+C52936A686FE8021B.prototype = C52936A686FE8021B_prototype
+--- main.savedata.accessor.FlagWorkSaveAccessor.Format
+function C52936A686FE8021B_prototype:F042B860498E558B2()
   local L1_2, L2_2, L3_2
   L1_2 = cA09244C7
   L1_2 = L1_2.fD97CC9E4
@@ -296,11 +295,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52936A686FE8021B"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2)
+--- main.savedata.accessor.FlagWorkSaveAccessor.Load
+function C52936A686FE8021B_prototype:F6C5D0398122A6629()
   local L1_2, L2_2
   L1_2 = CE800530FA53C6758
   L1_2 = L1_2.SD7C53B77F31F05E5

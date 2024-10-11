@@ -1,3 +1,5 @@
+---@class C927EFE8B683DBCC2 : C927EFE8B683DBCC2_prototype
+---@field prototype C927EFE8B683DBCC2_prototype
 L55_1 = _ENV
 L56_1 = "C927EFE8B683DBCC2"
 L57_1 = L15_1
@@ -67,68 +69,48 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C927EFE8B683DBCC2"]
 L69_1 = "__name__"
 L70_1 = "C927EFE8B683DBCC2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C927EFE8B683DBCC2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C927EFE8B683DBCC2"]["prototype"]
-L69_1 = "FA72978EC80E4F706"
-
-function L70_1(A0_2)
+---@class C927EFE8B683DBCC2_prototype
+C927EFE8B683DBCC2_prototype = L15_1()
+C927EFE8B683DBCC2.prototype = C927EFE8B683DBCC2_prototype
+--- C927EFE8B683DBCC2.get_dressupStyleID
+function C927EFE8B683DBCC2_prototype:FA72978EC80E4F706()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C927EFE8B683DBCC2"]["prototype"]
-L69_1 = "FB0795CE4818CFAB3"
-
-function L70_1(A0_2)
+--- C927EFE8B683DBCC2.get_dressupStyleType
+function C927EFE8B683DBCC2_prototype:FB0795CE4818CFAB3()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C927EFE8B683DBCC2"]["prototype"]
-L69_1 = "FB9D4F615C1C16574"
-
-function L70_1(A0_2)
+--- C927EFE8B683DBCC2.get_sortNum
+function C927EFE8B683DBCC2_prototype:FB9D4F615C1C16574()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C927EFE8B683DBCC2"]["prototype"]
-L69_1 = "FD977A7875BB8E7E5"
-
-function L70_1(A0_2)
+--- C927EFE8B683DBCC2.get_labelName
+function C927EFE8B683DBCC2_prototype:FD977A7875BB8E7E5()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C927EFE8B683DBCC2"]["prototype"]
-L69_1 = "F723E931ACBA820DA"
-
-function L70_1(A0_2)
+--- C927EFE8B683DBCC2.get_patternNum
+function C927EFE8B683DBCC2_prototype:F723E931ACBA820DA()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C927EFE8B683DBCC2"]["prototype"]
-L69_1 = "F2D7A3E5495C20746"
-
-function L70_1(A0_2)
+--- C927EFE8B683DBCC2.get_multiplePatternNum
+function C927EFE8B683DBCC2_prototype:F2D7A3E5495C20746()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   return L1_2
 end
 

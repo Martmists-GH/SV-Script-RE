@@ -1,3 +1,5 @@
+---@class C80D730F4C936C037 : C80D730F4C936C037_prototype
+---@field prototype C80D730F4C936C037_prototype
 L55_1 = _ENV
 L56_1 = "C80D730F4C936C037"
 L57_1 = L15_1
@@ -111,16 +113,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C80D730F4C936C037"]
 L69_1 = "__name__"
 L70_1 = "C80D730F4C936C037"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80D730F4C936C037"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80D730F4C936C037"]["prototype"]
-L69_1 = "FB205734ADD6E24F9"
-
-function L70_1(A0_2)
+---@class C80D730F4C936C037_prototype
+C80D730F4C936C037_prototype = L15_1()
+C80D730F4C936C037.prototype = C80D730F4C936C037_prototype
+--- C80D730F4C936C037.UpdateTestVariables
+function C80D730F4C936C037_prototype:FB205734ADD6E24F9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S693B72BE6E0E949D
@@ -134,7 +131,7 @@ function L70_1(A0_2)
     L4_2 = L1_2
     L3_2 = L1_2.f7360ED03
     L3_2, L4_2, L5_2 = L3_2(L4_2)
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L7_2 = {}
     L8_2 = L3_2
     L9_2 = L4_2
@@ -169,24 +166,21 @@ function L70_1(A0_2)
     L7_2 = L7_2.f643B5D6F
     L7_2, L8_2, L9_2, L10_2 = L7_2(L8_2)
     L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L7_2 = L10_1.math
     L7_2 = L7_2.pi
     L7_2 = L5_2 + L7_2
     L6_2.frontYaw = L7_2
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F5DD34AC96A955FC1
+  L6_2 = self
+  L5_2 = self.F5DD34AC96A955FC1
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80D730F4C936C037"]["prototype"]
-L69_1 = "F9A748DD08AB05A5E"
-
-function L70_1(A0_2, A1_2)
+--- C80D730F4C936C037.F9A748DD08AB05A5E
+function C80D730F4C936C037_prototype:F9A748DD08AB05A5E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.spawnCenter
   L3_2 = A1_2[2]
   L3_2 = L3_2[1]
@@ -207,40 +201,37 @@ function L70_1(A0_2, A1_2)
     A1_2[12] = L6_2
   end
   L3_2 = A1_2[12]
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L3_2[1]
   L6_2 = L2_2[1]
   L5_2 = L5_2 - L6_2
   L4_2[1] = L5_2
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L3_2[3]
   L6_2 = L2_2[3]
   L5_2 = L5_2 - L6_2
   L4_2[2] = L5_2
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L4_2 = L4_2[1]
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L5_2 = L5_2[1]
   L4_2 = L4_2 * L5_2
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L5_2 = L5_2[2]
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L6_2 = L6_2[2]
   L5_2 = L5_2 * L6_2
   L4_2 = L4_2 + L5_2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2.radiusKeepAreaSqr
   L4_2 = L4_2 < L5_2
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80D730F4C936C037"]["prototype"]
-L69_1 = "F8D410C8A96B2DED5"
-
-function L70_1(A0_2, A1_2)
+--- C80D730F4C936C037.F8D410C8A96B2DED5
+function C80D730F4C936C037_prototype:F8D410C8A96B2DED5(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.cancelSpawnCenter
   L3_2 = A1_2[2]
   L3_2 = L3_2[1]
@@ -261,55 +252,52 @@ function L70_1(A0_2, A1_2)
     A1_2[12] = L6_2
   end
   L3_2 = A1_2[12]
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L3_2[1]
   L6_2 = L2_2[1]
   L5_2 = L5_2 - L6_2
   L4_2[1] = L5_2
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L3_2[3]
   L6_2 = L2_2[3]
   L5_2 = L5_2 - L6_2
   L4_2[2] = L5_2
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L4_2 = L4_2[1]
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L5_2 = L5_2[1]
   L4_2 = L4_2 * L5_2
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L5_2 = L5_2[2]
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L6_2 = L6_2[2]
   L5_2 = L5_2 * L6_2
   L4_2 = L4_2 + L5_2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2.radiusCancelSpawnAreaSqr
   L4_2 = L4_2 < L5_2
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C80D730F4C936C037"]["prototype"]
-L69_1 = "F5DD34AC96A955FC1"
-
-function L70_1(A0_2)
+--- C80D730F4C936C037.calcTestVar
+function C80D730F4C936C037_prototype:F5DD34AC96A955FC1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = L10_1.math
   L1_2 = L1_2.sin
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.frontYaw
   L1_2 = L1_2(L2_2)
   L2_2 = L10_1.math
   L2_2 = L2_2.cos
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2.frontYaw
   L2_2 = L2_2(L3_2)
   L3_2 = 0
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L4_2 = L4_2.basisPos
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2.distSpawnCenter
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L7_2 = {}
   L8_2 = L4_2[1]
   L9_2 = L1_2 * L5_2
@@ -324,11 +312,11 @@ function L70_1(A0_2)
   L7_2[2] = L9_2
   L7_2[3] = L10_2
   L6_2.spawnCenter = L7_2
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L6_2 = L6_2.basisPos
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L7_2 = L7_2.distLimitSpawnCenter
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L9_2 = {}
   L10_2 = L6_2[1]
   L11_2 = L1_2 * L7_2
@@ -343,11 +331,11 @@ function L70_1(A0_2)
   L9_2[2] = L11_2
   L9_2[3] = L12_2
   L8_2.limitSpawnCenter = L9_2
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L8_2 = L8_2.basisPos
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L9_2 = L9_2.distCancelSpawnCenter
-  L10_2 = A0_2[2]
+  L10_2 = self[2]
   L11_2 = {}
   L12_2 = L8_2[1]
   L13_2 = L1_2 * L9_2

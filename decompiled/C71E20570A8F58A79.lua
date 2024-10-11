@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C71E20570A8F58A79"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C71E20570A8F58A79"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C71E20570A8F58A79"]
-L69_1 = "__name__"
-L70_1 = "C71E20570A8F58A79"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C71E20570A8F58A79"]
-L69_1 = "S2CE0D771419703C9"
+---@alias C71E20570A8F58A79 main_ui_hairsalon_util_HairsalonShopUIText
 
-function L70_1(A0_2, A1_2, A2_2)
+---@class main_ui_hairsalon_util_HairsalonShopUIText
+C71E20570A8F58A79 = L15_1()
+C71E20570A8F58A79.new = {}
+C71E20570A8F58A79.__name__ = "C71E20570A8F58A79"
+--- main.ui.hairsalon.util.HairsalonShopUIText.YesNoContextMenu
+function C71E20570A8F58A79.S2CE0D771419703C9(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = false
@@ -72,11 +63,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C71E20570A8F58A79"]
-L69_1 = "S5FE29AA88D90A56E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.hairsalon.util.HairsalonShopUIText.ShowMessageShowYesNoContextMenu
+function C71E20570A8F58A79.S5FE29AA88D90A56E(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = cC9AD95E7
   L3_2 = L3_2.f101D811F
@@ -126,11 +114,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C71E20570A8F58A79"]
-L69_1 = "SBBCFFE80033C34E4"
-
-function L70_1()
+--- main.ui.hairsalon.util.HairsalonShopUIText.WaitEndMessage
+function C71E20570A8F58A79.SBBCFFE80033C34E4()
   local L0_2, L1_2
   while true do
     L0_2 = CF1D9D619D324F233
@@ -145,11 +130,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C71E20570A8F58A79"]
-L69_1 = "S054918C23618C6F7"
-
-function L70_1()
+--- main.ui.hairsalon.util.HairsalonShopUIText.WaitHideMessage
+function C71E20570A8F58A79.S054918C23618C6F7()
   local L0_2, L1_2
   while true do
     L0_2 = CF1D9D619D324F233
@@ -164,11 +146,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C71E20570A8F58A79"]
-L69_1 = "S381B047005A52C82"
-
-function L70_1(A0_2)
+--- main.ui.hairsalon.util.HairsalonShopUIText.ShowMessageWait
+function C71E20570A8F58A79.S381B047005A52C82(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fC8CEF9EF

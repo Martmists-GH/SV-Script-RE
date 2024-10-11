@@ -1,3 +1,7 @@
+---@alias C5BD8F609907BF2BA main_event_general_raid_FieldRaidReturn
+
+---@class main_event_general_raid_FieldRaidReturn : C5BD8F609907BF2BA_prototype
+---@field prototype C5BD8F609907BF2BA_prototype
 L55_1 = _ENV
 L56_1 = "C5BD8F609907BF2BA"
 L57_1 = L15_1
@@ -45,32 +49,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C5BD8F609907BF2BA"]
 L69_1 = "__name__"
 L70_1 = "C5BD8F609907BF2BA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5BD8F609907BF2BA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5BD8F609907BF2BA"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C5BD8F609907BF2BA_prototype
+C5BD8F609907BF2BA_prototype = L15_1()
+C5BD8F609907BF2BA.prototype = C5BD8F609907BF2BA_prototype
+--- main.event.general.raid.FieldRaidReturn.preStart
+function C5BD8F609907BF2BA_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5BD8F609907BF2BA"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.general.raid.FieldRaidReturn.postStart
+function C5BD8F609907BF2BA_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5BD8F609907BF2BA"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.raid.FieldRaidReturn.mainBody
+function C5BD8F609907BF2BA_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CC6FE82819C6E1D55
   L1_2 = L1_2.S0ED889E9F79D1891
@@ -80,27 +73,18 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5BD8F609907BF2BA"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.raid.FieldRaidReturn.mainBodyFinish
+function C5BD8F609907BF2BA_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5BD8F609907BF2BA"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.raid.FieldRaidReturn.preEnd
+function C5BD8F609907BF2BA_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5BD8F609907BF2BA"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.general.raid.FieldRaidReturn.postEnd
+function C5BD8F609907BF2BA_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

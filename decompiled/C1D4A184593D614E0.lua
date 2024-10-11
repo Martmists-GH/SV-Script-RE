@@ -1,3 +1,7 @@
+---@alias C1D4A184593D614E0 main_ui_status_ui_note_StatusUIRibon
+
+---@class main_ui_status_ui_note_StatusUIRibon : C1D4A184593D614E0_prototype
+---@field prototype C1D4A184593D614E0_prototype
 L55_1 = _ENV
 L56_1 = "C1D4A184593D614E0"
 L57_1 = L15_1
@@ -46,125 +50,114 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C1D4A184593D614E0"]
 L69_1 = "__name__"
 L70_1 = "C1D4A184593D614E0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]["prototype"]
-L69_1 = "F798CCA603D6E6730"
-
-function L70_1(A0_2, A1_2)
+---@class C1D4A184593D614E0_prototype
+C1D4A184593D614E0_prototype = L15_1()
+C1D4A184593D614E0.prototype = C1D4A184593D614E0_prototype
+--- main.ui.status.ui.note.StatusUIRibon.SetupUI
+function C1D4A184593D614E0_prototype:F798CCA603D6E6730(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FE93BB4B92826B005
+  L3_2 = self
+  L2_2 = self.FE93BB4B92826B005
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FF917B9B0FB5F43C7
+  L3_2 = self
+  L2_2 = self.FF917B9B0FB5F43C7
   L2_2(L3_2)
   L2_2 = C1C9D6B48BF1F82A6
   L2_2 = L2_2.new
   L2_2 = L2_2()
-  A0_2[16] = L2_2
-  L2_2 = A0_2[16]
+  self[16] = L2_2
+  L2_2 = self[16]
   L3_2 = L2_2
   L2_2 = L2_2.FE87812008A777C2C
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L2_2(L3_2, L4_2)
   L2_2 = C4A5783CC4C07C40F
   L2_2 = L2_2.new
-  L3_2 = A0_2[4]
-  L4_2 = A0_2[16]
+  L3_2 = self[4]
+  L4_2 = self[16]
   L5_2 = L4_2
   L4_2 = L4_2.FEE2F82B042AB4566
   L4_2, L5_2 = L4_2(L5_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2[14] = L2_2
+  self[14] = L2_2
   L2_2 = C6C2197FD5C88DBBE
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[12] = L2_2
-  L2_2 = A0_2[12]
+  self[12] = L2_2
+  L2_2 = self[12]
   L3_2 = L2_2
   L2_2 = L2_2.F7C68FEDB79AB6396
   L4_2 = 5
   L5_2 = true
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   L3_2 = L2_2
   L2_2 = L2_2.F7C68FEDB79AB6396
   L4_2 = 7
   L5_2 = true
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   L3_2 = L2_2
   L2_2 = L2_2.FEB1DE254F2D0862E
   L4_2 = 5
   L5_2 = C6C2197FD5C88DBBE
   L5_2 = L5_2.S7ACC7209B602CA9A
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   L3_2 = L2_2
   L2_2 = L2_2.FEB1DE254F2D0862E
   L4_2 = 7
   L5_2 = C6C2197FD5C88DBBE
   L5_2 = L5_2.SD31991B1DE39DAA4
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   L3_2 = L2_2
   L2_2 = L2_2.F31B77E64A68D1E3C
   L4_2 = false
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]["prototype"]
-L69_1 = "FE93BB4B92826B005"
-
-function L70_1(A0_2)
+--- main.ui.status.ui.note.StatusUIRibon.SetupText
+function C1D4A184593D614E0_prototype:FE93BB4B92826B005()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.f46674724
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = "T_name_ribbon_00"
   L4_2 = "status"
   L5_2 = "msg_ui_status_ribon_name_00"
   L1_2(L2_2, L3_2, L4_2, L5_2)
   L1_2 = c8C3BF576
   L1_2 = L1_2.f46674724
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = "T_ribbon_num_00"
   L4_2 = "status"
   L5_2 = "msg_ui_status_ribon_number_00"
   L1_2(L2_2, L3_2, L4_2, L5_2)
   L1_2 = c8C3BF576
   L1_2 = L1_2.f46674724
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = "T_nickname_00"
   L4_2 = "status"
   L5_2 = "msg_ui_status_ribon_efficacy_00"
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]["prototype"]
-L69_1 = "FE2823709CB81AA04"
-
-function L70_1(A0_2)
+--- main.ui.status.ui.note.StatusUIRibon.ViewStart
+function C1D4A184593D614E0_prototype:FE2823709CB81AA04()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F8AE42C85D86E58A1
+  L2_2 = self
+  L1_2 = self.F8AE42C85D86E58A1
   L1_2(L2_2)
-  A0_2[18] = nil
-  L1_2 = A0_2[6]
+  self[18] = nil
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.fE3F9DB8F
   L1_2 = L1_2(L2_2)
   if 255 ~= L1_2 then
     L2_2 = 0
-    L3_2 = A0_2[17]
+    L3_2 = self[17]
     while true do
       L4_2 = L3_2.length
       if not (L2_2 < L4_2) then
@@ -174,18 +167,18 @@ function L70_1(A0_2)
       L2_2 = L2_2 + 1
       L5_2 = L4_2.id
       if L5_2 == L1_2 then
-        A0_2[18] = L4_2
+        self[18] = L4_2
         break
       end
     end
   end
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   L3_2 = L2_2
   L2_2 = L2_2.FBD90BD4212B06A12
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.length
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   L3_2 = L2_2
   L2_2 = L2_2.FF7208E213DA7B4AE
   L4_2 = 1
@@ -197,58 +190,52 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]["prototype"]
-L69_1 = "F473B660093398659"
-
-function L70_1(A0_2)
+--- main.ui.status.ui.note.StatusUIRibon.ViewUpdate
+function C1D4A184593D614E0_prototype:F473B660093398659()
   local L1_2, L2_2
-  L1_2 = A0_2[13]
+  L1_2 = self[13]
   L2_2 = L1_2
   L1_2 = L1_2.FBDF46C200B8C60D8
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]["prototype"]
-L69_1 = "FF917B9B0FB5F43C7"
-
-function L70_1(A0_2)
+--- main.ui.status.ui.note.StatusUIRibon.ScrollPanelSetup
+function C1D4A184593D614E0_prototype:FF917B9B0FB5F43C7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C6CA03C429771C8F9
   L1_2 = L1_2.new
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = nil
   L4_2 = nil
   L5_2 = true
   L6_2 = true
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  A0_2[13] = L1_2
-  L1_2 = A0_2[13]
+  self[13] = L1_2
+  L1_2 = self[13]
   L2_2 = L1_2
   L1_2 = L1_2.F6C145066EAC49665
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.FFBF23C8DE8293903
+  L4_2 = self
+  L5_2 = self.FFBF23C8DE8293903
   L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L1_2 = A0_2[13]
+  L1_2 = self[13]
   L2_2 = L1_2
   L1_2 = L1_2.FD19861E47221CCD4
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F296BBE54655C6496
+  L4_2 = self
+  L5_2 = self.F296BBE54655C6496
   L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L1_2 = A0_2[13]
+  L1_2 = self[13]
   L2_2 = L1_2
   L1_2 = L1_2.F0AA93C9D949ACA08
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F47F07D625F4909F2
+  L4_2 = self
+  L5_2 = self.F47F07D625F4909F2
   L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L1_2 = A0_2[13]
+  L1_2 = self[13]
   L2_2 = L1_2
   L1_2 = L1_2.FFEEF73133413A85D
   L3_2 = 0.5
@@ -256,32 +243,29 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]["prototype"]
-L69_1 = "FDDF93ED9DF023ADC"
-
-function L70_1(A0_2)
+--- main.ui.status.ui.note.StatusUIRibon.RewriteScrollPanel
+function C1D4A184593D614E0_prototype:FDDF93ED9DF023ADC()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[15]
-  L2_2 = A0_2[13]
+  L1_2 = self[15]
+  L2_2 = self[13]
   L3_2 = L2_2
   L2_2 = L2_2.F771C9D4D22C5C96C
   L2_2 = L2_2(L3_2)
   if L2_2 < 5 then
     L1_2 = 0
   end
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L4_2 = L3_2
   L3_2 = L3_2.FF7208E213DA7B4AE
   L5_2 = L1_2
   L6_2 = 2
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L4_2 = L3_2
   L3_2 = L3_2.F444F754FD0E7B5BF
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L4_2 = L3_2
   L3_2 = L3_2.FF7208E213DA7B4AE
   L5_2 = 1
@@ -289,17 +273,14 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]["prototype"]
-L69_1 = "FFBF23C8DE8293903"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.status.ui.note.StatusUIRibon.FrameInEvent
+function C1D4A184593D614E0_prototype:FFBF23C8DE8293903(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2[A1_2]
-  L5_2 = A0_2[14]
+  L5_2 = self[14]
   if nil ~= L5_2 then
-    L5_2 = A0_2[6]
+    L5_2 = self[6]
     L6_2 = L5_2
     L5_2 = L5_2.f180B1D8F
     L7_2 = L4_2.id
@@ -322,27 +303,27 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L9_2 = "/P_icon_ribbon_00"
     L8_2 = L8_2(L9_2)
     L7_2 = L7_2 .. L8_2
-    L8_2 = A0_2[14]
+    L8_2 = self[14]
     L9_2 = L8_2
     L8_2 = L8_2.F716F089496100A12
-    L10_2 = A0_2[4]
+    L10_2 = self[4]
     L11_2 = L7_2
     L12_2 = L7_2
     L13_2 = L6_2
     L8_2(L9_2, L10_2, L11_2, L12_2, L13_2)
   end
-  L5_2 = A0_2[18]
+  L5_2 = self[18]
   if nil == L5_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.FC82685F8B48853B5
+    L6_2 = self
+    L5_2 = self.FC82685F8B48853B5
     L7_2 = A3_2
     L8_2 = false
     L5_2(L6_2, L7_2, L8_2)
   else
-    L6_2 = A0_2
-    L5_2 = A0_2.FC82685F8B48853B5
+    L6_2 = self
+    L5_2 = self.FC82685F8B48853B5
     L7_2 = A3_2
-    L8_2 = A0_2[18]
+    L8_2 = self[18]
     L8_2 = L8_2.id
     L9_2 = L4_2.id
     L8_2 = L8_2 == L9_2
@@ -350,64 +331,58 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]["prototype"]
-L69_1 = "F296BBE54655C6496"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.status.ui.note.StatusUIRibon.DecideItemEvent
+function C1D4A184593D614E0_prototype:F296BBE54655C6496(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.length
   if A1_2 >= L4_2 then
     return
   end
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2[A1_2]
-  L5_2 = A0_2[18]
+  L5_2 = self[18]
   if nil ~= L5_2 then
     L5_2 = L4_2.id
-    L6_2 = A0_2[18]
+    L6_2 = self[18]
     L6_2 = L6_2.id
     if L5_2 == L6_2 then
-      L6_2 = A0_2
-      L5_2 = A0_2.F4A7E094BAE0E7B66
+      L6_2 = self
+      L5_2 = self.F4A7E094BAE0E7B66
       L5_2(L6_2)
-      L6_2 = A0_2
-      L5_2 = A0_2.F6FCE9E4187792625
+      L6_2 = self
+      L5_2 = self.F6FCE9E4187792625
       L7_2 = true
       L5_2(L6_2, L7_2)
       return
     end
   end
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = L5_2
   L5_2 = L5_2.fD1EFA996
   L7_2 = L4_2.id
   L5_2(L6_2, L7_2)
-  A0_2[18] = L4_2
-  L6_2 = A0_2
-  L5_2 = A0_2.FDDF93ED9DF023ADC
+  self[18] = L4_2
+  L6_2 = self
+  L5_2 = self.FDDF93ED9DF023ADC
   L5_2(L6_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F6FCE9E4187792625
+  L6_2 = self
+  L5_2 = self.F6FCE9E4187792625
   L7_2 = true
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]["prototype"]
-L69_1 = "F47F07D625F4909F2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.status.ui.note.StatusUIRibon.CursorMoveEvent
+function C1D4A184593D614E0_prototype:F47F07D625F4909F2(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.length
   if A1_2 >= L4_2 then
     return
   end
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2[A1_2]
-  L5_2 = A0_2[13]
+  L5_2 = self[13]
   L6_2 = L5_2
   L5_2 = L5_2.F5B23B28158BB3C45
   L5_2 = L5_2(L6_2)
@@ -416,40 +391,37 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L6_2 = L52_1.__cast
     L7_2 = L28_1.min
     L8_2 = 2
-    L9_2 = A0_2[15]
+    L9_2 = self[15]
     L9_2 = L9_2 + 1
     L7_2 = L7_2(L8_2, L9_2)
     L8_2 = L19_1
     L6_2 = L6_2(L7_2, L8_2)
-    A0_2[15] = L6_2
+    self[15] = L6_2
   elseif L5_2 <= -5 then
     L6_2 = L52_1.__cast
     L7_2 = L28_1.max
     L8_2 = 1
-    L9_2 = A0_2[15]
+    L9_2 = self[15]
     L9_2 = L9_2 - 1
     L7_2 = L7_2(L8_2, L9_2)
     L8_2 = L19_1
     L6_2 = L6_2(L7_2, L8_2)
-    A0_2[15] = L6_2
+    self[15] = L6_2
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.FB6C8FEE9F401568C
+  L7_2 = self
+  L6_2 = self.FB6C8FEE9F401568C
   L8_2 = L4_2
   L6_2(L7_2, L8_2)
-  L6_2 = A0_2[13]
+  L6_2 = self[13]
   L7_2 = L6_2
   L6_2 = L6_2.F4333DF2CC9B6CB25
   L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]["prototype"]
-L69_1 = "FC82685F8B48853B5"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.status.ui.note.StatusUIRibon.UpdateCheckMark
+function C1D4A184593D614E0_prototype:FC82685F8B48853B5(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.f7798D9F4
   L5_2 = L31_1.string
@@ -469,73 +441,61 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]["prototype"]
-L69_1 = "F8AE42C85D86E58A1"
-
-function L70_1(A0_2)
+--- main.ui.status.ui.note.StatusUIRibon.CreateRibbonData
+function C1D4A184593D614E0_prototype:F8AE42C85D86E58A1()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c113335A8
   L2_2 = L2_2.fD41E1021
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   L3_2 = L2_2
   L2_2 = L2_2.F5DB449EFE4B3D4A4
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[17] = L2_2
+  self[17] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]["prototype"]
-L69_1 = "F670713BD248301ED"
-
-function L70_1(A0_2)
+--- main.ui.status.ui.note.StatusUIRibon.IsExistCurrentRibbon
+function C1D4A184593D614E0_prototype:F670713BD248301ED()
   local L1_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = nil ~= L1_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]["prototype"]
-L69_1 = "F4A7E094BAE0E7B66"
-
-function L70_1(A0_2)
+--- main.ui.status.ui.note.StatusUIRibon.RemoveCurrentRibbon
+function C1D4A184593D614E0_prototype:F4A7E094BAE0E7B66()
   local L1_2, L2_2, L3_2
-  A0_2[18] = nil
-  L1_2 = A0_2[6]
+  self[18] = nil
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.fD1EFA996
   L3_2 = 255
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FDDF93ED9DF023ADC
+  L2_2 = self
+  L1_2 = self.FDDF93ED9DF023ADC
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D4A184593D614E0"]["prototype"]
-L69_1 = "FB6C8FEE9F401568C"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.status.ui.note.StatusUIRibon.ShowRibbonData
+function C1D4A184593D614E0_prototype:FB6C8FEE9F401568C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "T_name_ribbon_para_00"
   L5_2 = "ribbon"
   L6_2 = A1_2.nameLabel
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "T_detail_ribbon_para_00"
   L5_2 = "ribbon"
   L6_2 = A1_2.descLabel
@@ -552,7 +512,7 @@ function L70_1(A0_2, A1_2)
       goto lbl_62
     end
   end
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L4_2 = L3_2
   L3_2 = L3_2.f180B1D8F
   L5_2 = A1_2.id
@@ -586,7 +546,7 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
   L5_2 = c8C3BF576
   L5_2 = L5_2.f316077B2
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = "T_ribbon_num_para_00"
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
@@ -594,7 +554,7 @@ function L70_1(A0_2, A1_2)
   ::lbl_62::
   L3_2 = c8C3BF576
   L3_2 = L3_2.f46674724
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = "T_ribbon_num_para_00"
   L6_2 = "status"
   L7_2 = "msg_ui_status_pokemon_type_03"
@@ -606,11 +566,11 @@ function L70_1(A0_2, A1_2)
   L5_2 = "msg_ui_status_ribon_efficacy_01"
   L6_2 = 0
   L7_2 = A1_2.id
-  L8_2 = A0_2[6]
+  L8_2 = self[6]
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = "T_nickname_para_00"
   L7_2 = L3_2
   L4_2(L5_2, L6_2, L7_2)

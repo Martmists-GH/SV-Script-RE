@@ -1,3 +1,7 @@
+---@alias C9BACDB11B0B2000C main_battle_position_BattlePositionWild
+
+---@class main_battle_position_BattlePositionWild : C9BACDB11B0B2000C_prototype
+---@field prototype C9BACDB11B0B2000C_prototype
 L55_1 = _ENV
 L56_1 = "C9BACDB11B0B2000C"
 L57_1 = L15_1
@@ -42,18 +46,13 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9BACDB11B0B2000C"]
 L69_1 = "__name__"
 L70_1 = "C9BACDB11B0B2000C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9BACDB11B0B2000C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9BACDB11B0B2000C"]["prototype"]
-L69_1 = "F08A14E1A9FA07CDE"
-
-function L70_1(A0_2)
+---@class C9BACDB11B0B2000C_prototype
+C9BACDB11B0B2000C_prototype = L15_1()
+C9BACDB11B0B2000C.prototype = C9BACDB11B0B2000C_prototype
+--- main.battle.position.BattlePositionWild.CalcPokePosition
+function C9BACDB11B0B2000C_prototype:F08A14E1A9FA07CDE()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FE5B871E4C1AF4B14
   L3_2 = 0
@@ -62,9 +61,9 @@ function L70_1(A0_2)
   L1_2 = L1_2.FFB85E8318E635806
   L1_2 = L1_2(L2_2)
   if 0 == L1_2 then
-    L1_2 = A0_2[4]
-    L2_2 = A0_2[2]
-    L3_2 = A0_2[3]
+    L1_2 = self[4]
+    L2_2 = self[2]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.fCA247E7A
     L5_2 = -1
@@ -83,9 +82,9 @@ function L70_1(A0_2)
     L6_2[3] = L9_2
     L1_2[0] = L6_2
   else
-    L1_2 = A0_2[4]
-    L2_2 = A0_2[2]
-    L3_2 = A0_2[3]
+    L1_2 = self[4]
+    L2_2 = self[2]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.fCA247E7A
     L5_2 = -1
@@ -104,9 +103,9 @@ function L70_1(A0_2)
     L6_2[3] = L9_2
     L1_2[0] = L6_2
   end
-  L1_2 = A0_2[4]
-  L2_2 = A0_2[2]
-  L3_2 = A0_2[3]
+  L1_2 = self[4]
+  L2_2 = self[2]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.fCA247E7A
   L5_2 = 1
@@ -124,7 +123,7 @@ function L70_1(A0_2)
   L6_2[2] = L8_2
   L6_2[3] = L9_2
   L1_2[2] = L6_2
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L6_2
   L6_2 = L6_2.FE5B871E4C1AF4B14
   L8_2 = 1
@@ -133,9 +132,9 @@ function L70_1(A0_2)
   L6_2 = L6_2.FFB85E8318E635806
   L6_2 = L6_2(L7_2)
   if 0 == L6_2 then
-    L6_2 = A0_2[4]
-    L7_2 = A0_2[2]
-    L8_2 = A0_2[3]
+    L6_2 = self[4]
+    L7_2 = self[2]
+    L8_2 = self[3]
     L9_2 = L8_2
     L8_2 = L8_2.fCA247E7A
     L10_2 = 0
@@ -154,9 +153,9 @@ function L70_1(A0_2)
     L11_2[3] = L14_2
     L6_2[1] = L11_2
   else
-    L6_2 = A0_2[4]
-    L7_2 = A0_2[2]
-    L8_2 = A0_2[3]
+    L6_2 = self[4]
+    L7_2 = self[2]
+    L8_2 = self[3]
     L9_2 = L8_2
     L8_2 = L8_2.fCA247E7A
     L10_2 = 0
@@ -175,9 +174,9 @@ function L70_1(A0_2)
     L11_2[3] = L14_2
     L6_2[1] = L11_2
   end
-  L6_2 = A0_2[4]
-  L7_2 = A0_2[2]
-  L8_2 = A0_2[3]
+  L6_2 = self[4]
+  L7_2 = self[2]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.fCA247E7A
   L10_2 = -1
@@ -195,9 +194,9 @@ function L70_1(A0_2)
   L11_2[2] = L13_2
   L11_2[3] = L14_2
   L6_2[3] = L11_2
-  L11_2 = A0_2[4]
-  L12_2 = A0_2[2]
-  L13_2 = A0_2[3]
+  L11_2 = self[4]
+  L12_2 = self[2]
+  L13_2 = self[3]
   L14_2 = L13_2
   L13_2 = L13_2.fCA247E7A
   L15_2 = 1
@@ -215,9 +214,9 @@ function L70_1(A0_2)
   L16_2[2] = L18_2
   L16_2[3] = L19_2
   L11_2[5] = L16_2
-  L16_2 = A0_2[4]
-  L17_2 = A0_2[2]
-  L18_2 = A0_2[3]
+  L16_2 = self[4]
+  L17_2 = self[2]
+  L18_2 = self[3]
   L19_2 = L18_2
   L18_2 = L18_2.fCA247E7A
   L20_2 = -2
@@ -235,9 +234,9 @@ function L70_1(A0_2)
   L21_2[2] = L23_2
   L21_2[3] = L24_2
   L16_2[7] = L21_2
-  L21_2 = A0_2[4]
-  L22_2 = A0_2[2]
-  L23_2 = A0_2[3]
+  L21_2 = self[4]
+  L22_2 = self[2]
+  L23_2 = self[3]
   L24_2 = L23_2
   L23_2 = L23_2.fCA247E7A
   L25_2 = 2
@@ -255,108 +254,105 @@ function L70_1(A0_2)
   L26_2[2] = L28_2
   L26_2[3] = L29_2
   L21_2[9] = L26_2
-  L26_2 = A0_2[4]
-  L28_2 = A0_2
-  L27_2 = A0_2.FC2C0F306246322D9
-  L29_2 = A0_2[4]
+  L26_2 = self[4]
+  L28_2 = self
+  L27_2 = self.FC2C0F306246322D9
+  L29_2 = self[4]
   L29_2 = L29_2[0]
   L27_2 = L27_2(L28_2, L29_2)
   L26_2[0] = L27_2
-  L26_2 = A0_2[4]
-  L28_2 = A0_2
-  L27_2 = A0_2.FC2C0F306246322D9
-  L29_2 = A0_2[4]
+  L26_2 = self[4]
+  L28_2 = self
+  L27_2 = self.FC2C0F306246322D9
+  L29_2 = self[4]
   L29_2 = L29_2[1]
   L27_2 = L27_2(L28_2, L29_2)
   L26_2[1] = L27_2
-  L26_2 = A0_2[4]
-  L28_2 = A0_2
-  L27_2 = A0_2.FC2C0F306246322D9
-  L29_2 = A0_2[4]
+  L26_2 = self[4]
+  L28_2 = self
+  L27_2 = self.FC2C0F306246322D9
+  L29_2 = self[4]
   L29_2 = L29_2[2]
   L27_2 = L27_2(L28_2, L29_2)
   L26_2[2] = L27_2
-  L26_2 = A0_2[4]
-  L28_2 = A0_2
-  L27_2 = A0_2.FC2C0F306246322D9
-  L29_2 = A0_2[4]
+  L26_2 = self[4]
+  L28_2 = self
+  L27_2 = self.FC2C0F306246322D9
+  L29_2 = self[4]
   L29_2 = L29_2[3]
   L27_2 = L27_2(L28_2, L29_2)
   L26_2[3] = L27_2
-  L26_2 = A0_2[6]
-  L28_2 = A0_2
-  L27_2 = A0_2.FADB8482875B0AF2B
-  L29_2 = A0_2[4]
+  L26_2 = self[6]
+  L28_2 = self
+  L27_2 = self.FADB8482875B0AF2B
+  L29_2 = self[4]
   L29_2 = L29_2[0]
-  L30_2 = A0_2[4]
+  L30_2 = self[4]
   L30_2 = L30_2[3]
   L27_2 = L27_2(L28_2, L29_2, L30_2)
   L26_2[0] = L27_2
-  L26_2 = A0_2[6]
-  L28_2 = A0_2
-  L27_2 = A0_2.FADB8482875B0AF2B
-  L29_2 = A0_2[4]
+  L26_2 = self[6]
+  L28_2 = self
+  L27_2 = self.FADB8482875B0AF2B
+  L29_2 = self[4]
   L29_2 = L29_2[2]
-  L30_2 = A0_2[4]
+  L30_2 = self[4]
   L30_2 = L30_2[1]
   L27_2 = L27_2(L28_2, L29_2, L30_2)
   L26_2[2] = L27_2
-  L26_2 = A0_2[6]
-  L28_2 = A0_2
-  L27_2 = A0_2.FADB8482875B0AF2B
-  L29_2 = A0_2[4]
+  L26_2 = self[6]
+  L28_2 = self
+  L27_2 = self.FADB8482875B0AF2B
+  L29_2 = self[4]
   L29_2 = L29_2[1]
-  L30_2 = A0_2[4]
+  L30_2 = self[4]
   L30_2 = L30_2[0]
   L27_2 = L27_2(L28_2, L29_2, L30_2)
   L26_2[1] = L27_2
-  L26_2 = A0_2[6]
-  L28_2 = A0_2
-  L27_2 = A0_2.FADB8482875B0AF2B
-  L29_2 = A0_2[4]
+  L26_2 = self[6]
+  L28_2 = self
+  L27_2 = self.FADB8482875B0AF2B
+  L29_2 = self[4]
   L29_2 = L29_2[3]
-  L30_2 = A0_2[4]
+  L30_2 = self[4]
   L30_2 = L30_2[0]
   L27_2 = L27_2(L28_2, L29_2, L30_2)
   L26_2[3] = L27_2
-  L26_2 = A0_2[6]
-  L28_2 = A0_2
-  L27_2 = A0_2.FADB8482875B0AF2B
-  L29_2 = A0_2[4]
+  L26_2 = self[6]
+  L28_2 = self
+  L27_2 = self.FADB8482875B0AF2B
+  L29_2 = self[4]
   L29_2 = L29_2[1]
-  L30_2 = A0_2[4]
+  L30_2 = self[4]
   L30_2 = L30_2[0]
   L27_2 = L27_2(L28_2, L29_2, L30_2)
   L26_2[5] = L27_2
-  L26_2 = A0_2[6]
-  L28_2 = A0_2
-  L27_2 = A0_2.FADB8482875B0AF2B
-  L29_2 = A0_2[4]
+  L26_2 = self[6]
+  L28_2 = self
+  L27_2 = self.FADB8482875B0AF2B
+  L29_2 = self[4]
   L29_2 = L29_2[3]
-  L30_2 = A0_2[4]
+  L30_2 = self[4]
   L30_2 = L30_2[0]
   L27_2 = L27_2(L28_2, L29_2, L30_2)
   L26_2[7] = L27_2
-  L26_2 = A0_2[6]
-  L28_2 = A0_2
-  L27_2 = A0_2.FADB8482875B0AF2B
-  L29_2 = A0_2[4]
+  L26_2 = self[6]
+  L28_2 = self
+  L27_2 = self.FADB8482875B0AF2B
+  L29_2 = self[4]
   L29_2 = L29_2[1]
-  L30_2 = A0_2[4]
+  L30_2 = self[4]
   L30_2 = L30_2[0]
   L27_2 = L27_2(L28_2, L29_2, L30_2)
   L26_2[9] = L27_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9BACDB11B0B2000C"]["prototype"]
-L69_1 = "F5E3B7BA47693C86E"
-
-function L70_1(A0_2)
+--- main.battle.position.BattlePositionWild.CalcTrainerPosition
+function C9BACDB11B0B2000C_prototype:F5E3B7BA47693C86E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
-  L1_2 = A0_2[7]
-  L2_2 = A0_2[2]
-  L3_2 = A0_2[3]
+  L1_2 = self[7]
+  L2_2 = self[2]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.fCA247E7A
   L5_2 = -1
@@ -374,9 +370,9 @@ function L70_1(A0_2)
   L6_2[2] = L8_2
   L6_2[3] = L9_2
   L1_2[0] = L6_2
-  L6_2 = A0_2[7]
-  L7_2 = A0_2[2]
-  L8_2 = A0_2[3]
+  L6_2 = self[7]
+  L7_2 = self[2]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.fCA247E7A
   L10_2 = 1
@@ -394,9 +390,9 @@ function L70_1(A0_2)
   L11_2[2] = L13_2
   L11_2[3] = L14_2
   L6_2[1] = L11_2
-  L11_2 = A0_2[7]
-  L12_2 = A0_2[2]
-  L13_2 = A0_2[3]
+  L11_2 = self[7]
+  L12_2 = self[2]
+  L13_2 = self[3]
   L14_2 = L13_2
   L13_2 = L13_2.fCA247E7A
   L15_2 = 1
@@ -414,9 +410,9 @@ function L70_1(A0_2)
   L16_2[2] = L18_2
   L16_2[3] = L19_2
   L11_2[2] = L16_2
-  L16_2 = A0_2[7]
-  L17_2 = A0_2[2]
-  L18_2 = A0_2[3]
+  L16_2 = self[7]
+  L17_2 = self[2]
+  L18_2 = self[3]
   L19_2 = L18_2
   L18_2 = L18_2.fCA247E7A
   L20_2 = -1
@@ -434,44 +430,41 @@ function L70_1(A0_2)
   L21_2[2] = L23_2
   L21_2[3] = L24_2
   L16_2[3] = L21_2
-  L21_2 = A0_2[7]
-  L23_2 = A0_2
-  L22_2 = A0_2.FC2C0F306246322D9
-  L24_2 = A0_2[7]
+  L21_2 = self[7]
+  L23_2 = self
+  L22_2 = self.FC2C0F306246322D9
+  L24_2 = self[7]
   L24_2 = L24_2[0]
   L22_2 = L22_2(L23_2, L24_2)
   L21_2[0] = L22_2
-  L21_2 = A0_2[7]
-  L23_2 = A0_2
-  L22_2 = A0_2.FC2C0F306246322D9
-  L24_2 = A0_2[7]
+  L21_2 = self[7]
+  L23_2 = self
+  L22_2 = self.FC2C0F306246322D9
+  L24_2 = self[7]
   L24_2 = L24_2[1]
   L22_2 = L22_2(L23_2, L24_2)
   L21_2[1] = L22_2
-  L21_2 = A0_2[7]
-  L23_2 = A0_2
-  L22_2 = A0_2.FC2C0F306246322D9
-  L24_2 = A0_2[7]
+  L21_2 = self[7]
+  L23_2 = self
+  L22_2 = self.FC2C0F306246322D9
+  L24_2 = self[7]
   L24_2 = L24_2[2]
   L22_2 = L22_2(L23_2, L24_2)
   L21_2[2] = L22_2
-  L21_2 = A0_2[7]
-  L23_2 = A0_2
-  L22_2 = A0_2.FC2C0F306246322D9
-  L24_2 = A0_2[7]
+  L21_2 = self[7]
+  L23_2 = self
+  L22_2 = self.FC2C0F306246322D9
+  L24_2 = self[7]
   L24_2 = L24_2[3]
   L22_2 = L22_2(L23_2, L24_2)
   L21_2[3] = L22_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9BACDB11B0B2000C"]["prototype"]
-L69_1 = "FDCC76D28AEFA3900"
-
-function L70_1(A0_2)
+--- main.battle.position.BattlePositionWild.CalcCameraPosition
+function C9BACDB11B0B2000C_prototype:FDCC76D28AEFA3900()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FB4C834D85320E25D
+  L2_2 = self
+  L1_2 = self.FB4C834D85320E25D
   L3_2 = 3
   L1_2(L2_2, L3_2)
 end

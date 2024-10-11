@@ -1,3 +1,5 @@
+---@class C385BD65F5D17CA47 : C385BD65F5D17CA47_prototype
+---@field prototype C385BD65F5D17CA47_prototype
 L55_1 = _ENV
 L56_1 = "C385BD65F5D17CA47"
 L57_1 = L15_1
@@ -45,18 +47,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C385BD65F5D17CA47"]
 L69_1 = "__name__"
 L70_1 = "C385BD65F5D17CA47"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C385BD65F5D17CA47"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C385BD65F5D17CA47"]["prototype"]
-L69_1 = "FE1906D715BBAA859"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class C385BD65F5D17CA47_prototype
+C385BD65F5D17CA47_prototype = L15_1()
+C385BD65F5D17CA47.prototype = C385BD65F5D17CA47_prototype
+--- C385BD65F5D17CA47.addSituationState
+function C385BD65F5D17CA47_prototype:FE1906D715BBAA859(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.f7EFD2497
   L6_2 = A1_2
@@ -66,19 +63,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2 = L7_2(L8_2)
   L8_2 = A3_2
   L9_2 = L55_1
-  L10_2 = A0_2
-  L11_2 = A0_2.FD8C260202D89B64E
+  L10_2 = self
+  L11_2 = self.FD8C260202D89B64E
   L9_2, L10_2, L11_2 = L9_2(L10_2, L11_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C385BD65F5D17CA47"]["prototype"]
-L69_1 = "FD8C260202D89B64E"
-
-function L70_1(A0_2)
+--- C385BD65F5D17CA47.onApplyAny
+function C385BD65F5D17CA47_prototype:FD8C260202D89B64E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L1_2 = L1_2[7]
   L2_2 = nil
   L3_2 = cE35B3EB3
@@ -108,7 +102,7 @@ function L70_1(A0_2)
     L5_2 = L5_2.f91C8CA18
     L7_2 = "face"
     L5_2 = L5_2(L6_2, L7_2)
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = L6_2
     L6_2 = L6_2.f50AA168C
     L8_2 = L5_2 > 1

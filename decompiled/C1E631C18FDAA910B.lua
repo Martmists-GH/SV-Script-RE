@@ -1,3 +1,6 @@
+---@alias C7A012F02C9F77A9D main_ui_box_trade_BoxUITradeDemoScene
+
+---@class main_ui_box_trade_BoxUITradeDemoScene
 L55_1 = _ENV
 L56_1 = "C1E631C18FDAA910B"
 L57_1 = L15_1

@@ -1,3 +1,5 @@
+---@class C84E69B279C3C3CA5 : C84E69B279C3C3CA5_prototype
+---@field prototype C84E69B279C3C3CA5_prototype
 L55_1 = _ENV
 L56_1 = "C84E69B279C3C3CA5"
 L57_1 = L15_1
@@ -40,31 +42,23 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C84E69B279C3C3CA5"]
 L69_1 = "__name__"
 L70_1 = "C84E69B279C3C3CA5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84E69B279C3C3CA5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84E69B279C3C3CA5"]["prototype"]
-L69_1 = "F9F5142F6AC5F41E0"
-
-function L70_1(A0_2, A1_2)
+---@class C84E69B279C3C3CA5_prototype
+C84E69B279C3C3CA5_prototype = L15_1()
+C84E69B279C3C3CA5.prototype = C84E69B279C3C3CA5_prototype
+--- C84E69B279C3C3CA5.Register
+function C84E69B279C3C3CA5_prototype:F9F5142F6AC5F41E0(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.add
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84E69B279C3C3CA5"]["prototype"]
-L69_1 = "FD093FFFD2EEAB687"
-
-function L70_1(A0_2, A1_2)
+--- C84E69B279C3C3CA5.Post
+function C84E69B279C3C3CA5_prototype:FD093FFFD2EEAB687(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.add
   L4_2 = L16_1
@@ -79,13 +73,10 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84E69B279C3C3CA5"]["prototype"]
-L69_1 = "FC8090A037262946F"
-
-function L70_1(A0_2, A1_2)
+--- C84E69B279C3C3CA5.Send
+function C84E69B279C3C3CA5_prototype:FC8090A037262946F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   while nil ~= L2_2 do
     L3_2 = L2_2.item
@@ -100,13 +91,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C84E69B279C3C3CA5"]["prototype"]
-L69_1 = "F2D6FF02FE2C3A26B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C84E69B279C3C3CA5.Dispatch
+function C84E69B279C3C3CA5_prototype:F2D6FF02FE2C3A26B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.h
   while nil ~= L3_2 do
     L4_2 = L3_2.item
@@ -118,7 +106,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L6_2 = L4_2.request
     L6_2 = L6_2[2]
     L5_2 = L5_2 > L6_2
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L6_2 = L6_2.h
     while nil ~= L6_2 do
       L7_2 = L6_2.item
@@ -136,7 +124,7 @@ function L70_1(A0_2, A1_2, A2_2)
       end
     end
     if L5_2 then
-      L7_2 = A0_2[1]
+      L7_2 = self[1]
       L8_2 = L7_2
       L7_2 = L7_2.remove
       L9_2 = L4_2

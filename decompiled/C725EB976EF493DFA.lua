@@ -1,3 +1,7 @@
+---@alias C725EB976EF493DFA main_ui_event_QuestAllClear
+
+---@class main_ui_event_QuestAllClear : C725EB976EF493DFA_prototype
+---@field prototype C725EB976EF493DFA_prototype
 L55_1 = _ENV
 L56_1 = "C725EB976EF493DFA"
 L57_1 = L15_1
@@ -51,27 +55,18 @@ L69_1 = "__name__"
 L70_1 = "C725EB976EF493DFA"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C725EB976EF493DFA"]
-L69_1 = "__interfaces__"
-L70_1 = {}
-L68_1 = _ENV["C725EB976EF493DFA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C725EB976EF493DFA"]["prototype"]
-L69_1 = "F4F50441179BCF5F6"
-
-function L70_1(A0_2)
+L69_1 = "__inte---@class C725EB976EF493DFA_prototype
+C725EB976EF493DFA_prototype = L15_1()
+C725EB976EF493DFA.prototype = C725EB976EF493DFA_prototype
+--- main.ui.event.QuestAllClear.F4F50441179BCF5F6
+function C725EB976EF493DFA_prototype:F4F50441179BCF5F6()
   local L1_2
   L1_2 = "quest_all_clear"
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C725EB976EF493DFA"]["prototype"]
-L69_1 = "FB21FA562BB1FB817"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.event.QuestAllClear.LoadScene
+function C725EB976EF493DFA_prototype:FB21FA562BB1FB817(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L3_2 = A1_2
   L2_2 = A1_2.f0EF10D0C
@@ -92,26 +87,23 @@ function L70_1(A0_2, A1_2)
     L3_2 = A1_2.fE9C29DA1
     L3_2(L4_2)
   end
-  A0_2[2] = A1_2
+  self[2] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C725EB976EF493DFA"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2)
+--- main.ui.event.QuestAllClear.Setup
+function C725EB976EF493DFA_prototype:F7C68FEDB79AB6396()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f9D8BC178
   L2_2 = L2_2(L3_2)
@@ -119,7 +111,7 @@ function L70_1(A0_2)
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.fD4E64AB7
   L4_2 = "questallclear_main"
@@ -138,8 +130,8 @@ function L70_1(A0_2)
   L4_2 = L4_2.fEECE6995
   L5_2 = L2_2
   L4_2 = L4_2(L5_2)
-  A0_2[1] = L4_2
-  L4_2 = A0_2[1]
+  self[1] = L4_2
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.f33A1A337
   L4_2 = L4_2(L5_2)
@@ -151,87 +143,81 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C725EB976EF493DFA"]["prototype"]
-L69_1 = "F7EED485852A4D25F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.event.QuestAllClear.Start
+function C725EB976EF493DFA_prototype:F7EED485852A4D25F(A1_2)
   if A1_2 >= 4 then
     A1_2 = 3
   end
-  A0_2[5] = A1_2
-  A0_2[3] = 0
+  self[5] = A1_2
+  self[3] = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C725EB976EF493DFA"]["prototype"]
-L69_1 = "FA49A30EA17E570AE"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.event.QuestAllClear.WaitAnimation
+function C725EB976EF493DFA_prototype:FA49A30EA17E570AE(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = false
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   if 0 == L3_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.f2A9CF058
     L6_2 = true
     L4_2(L5_2, L6_2)
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.fB4E9D030
     L6_2 = "in"
     L4_2(L5_2, L6_2)
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.fEAD9FB7D
     L6_2 = "pattern_picture_00"
-    L7_2 = A0_2[5]
+    L7_2 = self[5]
     L4_2(L5_2, L6_2, L7_2)
-    A0_2[3] = 1
+    self[3] = 1
     L4_2 = CF4B448D8C3744CAF
     L4_2 = L4_2.SDDCF2C31DADBAB65
-    L5_2 = A0_2[6]
-    L6_2 = A0_2[5]
+    L5_2 = self[6]
+    L6_2 = self[5]
     L5_2 = L5_2[L6_2]
     L4_2(L5_2)
   elseif 1 == L3_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.fF8C77C75
     L6_2 = "in"
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      A0_2[4] = 0.0
-      L4_2 = A0_2[1]
+      self[4] = 0.0
+      L4_2 = self[1]
       L5_2 = L4_2
       L4_2 = L4_2.fB4E9D030
       L6_2 = "keep"
       L4_2(L5_2, L6_2)
-      A0_2[3] = 2
+      self[3] = 2
     end
   elseif 2 == L3_2 then
-    L4_2 = A0_2[4]
+    L4_2 = self[4]
     L4_2 = L4_2 + A1_2
-    A0_2[4] = L4_2
-    L4_2 = A0_2[4]
+    self[4] = L4_2
+    L4_2 = self[4]
     if L4_2 >= 2.0 then
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L5_2 = L4_2
       L4_2 = L4_2.fB4E9D030
       L6_2 = "out"
       L4_2(L5_2, L6_2)
-      A0_2[3] = 3
+      self[3] = 3
     end
   elseif 3 == L3_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.fF8C77C75
     L6_2 = "out"
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
       L2_2 = true
-      A0_2[3] = 4
+      self[3] = 4
     end
   elseif 4 == L3_2 then
     L2_2 = true
@@ -239,13 +225,10 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C725EB976EF493DFA"]["prototype"]
-L69_1 = "F96B4C3266FC0614A"
-
-function L70_1(A0_2)
+--- main.ui.event.QuestAllClear.End
+function C725EB976EF493DFA_prototype:F96B4C3266FC0614A()
   local L1_2, L2_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f5C99C0AC
   L1_2(L2_2)

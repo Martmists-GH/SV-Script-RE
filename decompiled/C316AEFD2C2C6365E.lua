@@ -1,3 +1,7 @@
+---@alias C316AEFD2C2C6365E main_pokepicnic_database_CookingCommonDatabase
+
+---@class main_pokepicnic_database_CookingCommonDatabase : C316AEFD2C2C6365E_prototype
+---@field prototype C316AEFD2C2C6365E_prototype
 L55_1 = _ENV
 L56_1 = "C316AEFD2C2C6365E"
 L57_1 = L15_1
@@ -38,25 +42,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C316AEFD2C2C6365E"]
 L69_1 = "__name__"
 L70_1 = "C316AEFD2C2C6365E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C316AEFD2C2C6365E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C316AEFD2C2C6365E"]["prototype"]
-L69_1 = "F795CBC2B12F8956D"
-
-function L70_1(A0_2)
+---@class C316AEFD2C2C6365E_prototype
+C316AEFD2C2C6365E_prototype = L15_1()
+C316AEFD2C2C6365E.prototype = C316AEFD2C2C6365E_prototype
+--- main.pokepicnic.database.CookingCommonDatabase.OnSetup
+function C316AEFD2C2C6365E_prototype:F795CBC2B12F8956D()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C9E4B2B841B76F1F3
   L1_2 = L1_2.new
   L1_2 = L1_2()
-  A0_2[2] = L1_2
-  L1_2 = A0_2[2]
+  self[2] = L1_2
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.F7C68FEDB79AB6396
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f08C48539
   L5_2 = "PopParam"

@@ -1,3 +1,7 @@
+---@alias C3DB6AEE01033D0DF main_ui_shop_restaurant_state_ShopRestaurantUIState
+
+---@class main_ui_shop_restaurant_state_ShopRestaurantUIState : C3DB6AEE01033D0DF_prototype
+---@field prototype C3DB6AEE01033D0DF_prototype
 L55_1 = _ENV
 L56_1 = "CC1EC0F30B5116095"
 L57_1 = L15_1
@@ -40,11 +44,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC1EC0F30B5116095"]
 L69_1 = "__name__"
 L70_1 = "CC1EC0F30B5116095"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC1EC0F30B5116095"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C3DB6AEE01033D0DF_prototype
+C3DB6AEE01033D0DF_prototype = L15_1()
+C3DB6AEE01033D0DF.prototype = C3DB6AEE01033D0DF_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC1EC0F30B5116095"]["prototype"]
 L69_1 = _ENV["CC1EC0F30B5116095"]

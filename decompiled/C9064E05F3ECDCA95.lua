@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C9064E05F3ECDCA95"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]
-L69_1 = "new"
+---@alias C9064E05F3ECDCA95 main_ui_system_ui_message_window_message_window_parts_MessageWindowPartsOkozukai
 
-function L70_1(A0_2)
+---@class main_ui_system_ui_message_window_message_window_parts_MessageWindowPartsOkozukai : C9064E05F3ECDCA95_prototype
+---@field prototype C9064E05F3ECDCA95_prototype
+C9064E05F3ECDCA95 = L15_1()
+function C9064E05F3ECDCA95.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C9064E05F3ECDCA95
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C9064E05F3ECDCA95
+function C9064E05F3ECDCA95.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[21] = true
   A0_2[20] = 1.0
@@ -54,49 +48,38 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9064E05F3ECDCA95"]
 L69_1 = "__name__"
 L70_1 = "C9064E05F3ECDCA95"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]
-L69_1 = "S9ABA5C8F3AD24378"
-
-function L70_1()
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.S9ABA5C8F3AD24378
+function C9064E05F3ECDCA95.S9ABA5C8F3AD24378()
   local L0_2, L1_2
   L0_2 = C9064E05F3ECDCA95
   L0_2 = L0_2.SCEDCBF04979C4898
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C9064E05F3ECDCA95_prototype
+C9064E05F3ECDCA95_prototype = L15_1()
+C9064E05F3ECDCA95.prototype = C9064E05F3ECDCA95_prototype
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.Setup
+function C9064E05F3ECDCA95_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CBEC7612911A473C9
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.PreUpdate
+function C9064E05F3ECDCA95_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FFCF46A0C5931564F
+  L3_2 = self
+  L2_2 = self.FFCF46A0C5931564F
   L4_2 = nil
-  L5_2 = A0_2[10]
+  L5_2 = self[10]
   L2_2 = L2_2(L3_2, L4_2, L5_2)
   if L2_2 then
-    L2_2 = A0_2[10]
+    L2_2 = self[10]
     L3_2 = nil
     L4_2 = L62_1
     L5_2 = L64_1.pack
@@ -142,16 +125,16 @@ function L70_1(A0_2, A1_2)
     end
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FFCF46A0C5931564F
+  L3_2 = self
+  L2_2 = self.FFCF46A0C5931564F
   L4_2 = nil
-  L5_2 = A0_2[12]
+  L5_2 = self[12]
   L5_2 = L5_2[0]
   L2_2 = L2_2(L3_2, L4_2, L5_2)
   if L2_2 then
-    L2_2 = A0_2[18]
+    L2_2 = self[18]
     if not L2_2 then
-      L2_2 = A0_2[12]
+      L2_2 = self[12]
       L2_2 = L2_2[0]
       L3_2 = nil
       L4_2 = L62_1
@@ -199,12 +182,12 @@ function L70_1(A0_2, A1_2)
       return
     end
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FFCF46A0C5931564F
-  L4_2 = A0_2[11]
+  L3_2 = self
+  L2_2 = self.FFCF46A0C5931564F
+  L4_2 = self[11]
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     L3_2 = L62_1
     L4_2 = L64_1.pack
     L5_2 = L10_1.coroutine
@@ -251,22 +234,19 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "F186321976B2D8698"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.CreateOkozukaiWindow
+function C9064E05F3ECDCA95_prototype:F186321976B2D8698(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   if nil == A2_2 then
     A2_2 = true
   end
-  L3_2 = A0_2
-  A0_2[11] = nil
-  L5_2 = A0_2
-  L4_2 = A0_2.F5837823E7B27B278
+  L3_2 = self
+  self[11] = nil
+  L5_2 = self
+  L4_2 = self.F5837823E7B27B278
   L4_2 = L4_2(L5_2)
-  A0_2[14] = true
-  L5_2 = A0_2[1]
+  self[14] = true
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f5439788F
   L7_2 = "top"
@@ -353,14 +333,14 @@ function L70_1(A0_2, A1_2, A2_2)
     L15_2 = "L_okozukai_00/layout_00"
     L16_2 = 0
     L13_2(L14_2, L15_2, L16_2)
-    A0_2[15] = true
+    self[15] = true
   else
-    L8_2 = A0_2
-    L7_2 = A0_2.F0C0093C05EBA4C68
+    L8_2 = self
+    L7_2 = self.F0C0093C05EBA4C68
     L9_2 = A1_2[3]
     L7_2 = L7_2(L8_2, L9_2)
-    L9_2 = A0_2
-    L8_2 = A0_2.FBE7EF644E7E3E715
+    L9_2 = self
+    L8_2 = self.FBE7EF644E7E3E715
     L10_2 = A1_2[3]
     L8_2 = L8_2(L9_2, L10_2)
     L9_2 = A1_2[1]
@@ -429,7 +409,7 @@ function L70_1(A0_2, A1_2, A2_2)
     
     L15_2, L16_2, L17_2, L18_2 = L15_2()
     L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2)
-    A0_2[15] = false
+    self[15] = false
   end
   L7_2 = C1DB14DCC9D7634FA
   L7_2 = L7_2.new
@@ -538,17 +518,14 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L9_2 = "create okozukai window sequence"
   L7_2 = L7_2(L8_2, L9_2)
-  A0_2[10] = L7_2
-  A0_2[21] = false
+  self[10] = L7_2
+  self[21] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "F4C374D425F30966A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.SetBasePaneVisible
+function C9064E05F3ECDCA95_prototype:F4C374D425F30966A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f5439788F
   L4_2 = "top"
@@ -573,19 +550,16 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "F98BFDE967BF92D02"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.PlayAddOkozukaiAnim
+function C9064E05F3ECDCA95_prototype:F98BFDE967BF92D02(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = A1_2[1]
   L4_2 = A1_2[2]
   if L3_2 == L4_2 then
     return
   end
-  L3_2 = A0_2[12]
+  L3_2 = self[12]
   L4_2 = L3_2
   L3_2 = L3_2.push
   L5_2 = C1DB14DCC9D7634FA
@@ -605,11 +579,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "F17E776C6C974E193"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.RequestCloseOkozukai
+function C9064E05F3ECDCA95_prototype:F17E776C6C974E193(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = false
@@ -617,9 +588,9 @@ function L70_1(A0_2, A1_2, A2_2)
   if nil == A1_2 then
     A1_2 = false
   end
-  L3_2 = A0_2
-  A0_2[17] = A1_2
-  A0_2[18] = A2_2
+  L3_2 = self
+  self[17] = A1_2
+  self[18] = A2_2
   L4_2 = C1DB14DCC9D7634FA
   L4_2 = L4_2.new
   
@@ -634,32 +605,29 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L6_2 = "request close okozukai sequence"
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[11] = L4_2
+  self[11] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "F4D8ACF46B76DC8B7"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.CloseOkozukaiSequence
+function C9064E05F3ECDCA95_prototype:F4D8ACF46B76DC8B7(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   if L2_2 then
-    A0_2[19] = 0.0
+    self[19] = 0.0
     while true do
-      L2_2 = A0_2[19]
-      L3_2 = A0_2[20]
+      L2_2 = self[19]
+      L3_2 = self[20]
       if not (L2_2 < L3_2) then
         break
       end
-      L2_2 = A0_2[17]
+      L2_2 = self[17]
       if L2_2 then
         break
       end
       L2_2 = C1DB14DCC9D7634FA
       L2_2 = L2_2.S760DAE4C5371A78E
       L2_2()
-      L2_2 = A0_2[19]
+      L2_2 = self[19]
       L4_2 = A1_2
       L3_2 = A1_2.f22D509B2
       L5_2 = 2
@@ -668,21 +636,18 @@ function L70_1(A0_2, A1_2)
       L3_2 = L3_2.fC0E2CAD0
       L3_2 = L3_2(L4_2)
       L2_2 = L2_2 + L3_2
-      A0_2[19] = L2_2
+      self[19] = L2_2
     end
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F4795A061D5BEAB45
+  L3_2 = self
+  L2_2 = self.F4795A061D5BEAB45
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "F75272A1D05A1986B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.PlayAddOkozukaiAnimSequence
+function C9064E05F3ECDCA95_prototype:F75272A1D05A1986B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f5439788F
   L4_2 = "top"
@@ -696,7 +661,7 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2 < L5_2
   L5_2 = A1_2[3]
   L5_2 = 3 == L5_2
-  L6_2 = A0_2[15]
+  L6_2 = self[15]
   if L6_2 then
     L6_2 = A1_2[3]
     if 2 == L6_2 or 3 == L6_2 then
@@ -1182,8 +1147,8 @@ function L70_1(A0_2, A1_2)
     L18_2 = "L_okozukai_00/text_out_00"
     L16_2(L17_2, L18_2)
   end
-  L17_2 = A0_2
-  L16_2 = A0_2.FED114FFDC4E8BFAD
+  L17_2 = self
+  L16_2 = self.FED114FFDC4E8BFAD
   L18_2 = L3_2
   L19_2 = L15_2
   L16_2(L17_2, L18_2, L19_2)
@@ -1210,8 +1175,8 @@ function L70_1(A0_2, A1_2)
     L17_2 = L17_2 .. L18_2
     L16_2 = L17_2
   end
-  L18_2 = A0_2
-  L17_2 = A0_2.FED114FFDC4E8BFAD
+  L18_2 = self
+  L17_2 = self.FED114FFDC4E8BFAD
   L19_2 = L3_2
   L20_2 = L16_2
   L17_2(L18_2, L19_2, L20_2)
@@ -1269,13 +1234,13 @@ function L70_1(A0_2, A1_2)
                 end
               end
             end
-            L18_2 = A0_2
-            L17_2 = A0_2.FED114FFDC4E8BFAD
+            L18_2 = self
+            L17_2 = self.FED114FFDC4E8BFAD
             L19_2 = L3_2
             L20_2 = "L_okozukai_00/text_in_01"
             L17_2(L18_2, L19_2, L20_2)
-            L18_2 = A0_2
-            L17_2 = A0_2.FED114FFDC4E8BFAD
+            L18_2 = self
+            L17_2 = self.FED114FFDC4E8BFAD
             L19_2 = L3_2
             L20_2 = "L_okozukai_00/text_keep_01"
             L17_2(L18_2, L19_2, L20_2)
@@ -1325,8 +1290,8 @@ function L70_1(A0_2, A1_2)
   L18_2 = C1DB14DCC9D7634FA
   L18_2 = L18_2.S760DAE4C5371A78E
   L18_2()
-  L19_2 = A0_2
-  L18_2 = A0_2.F0C0093C05EBA4C68
+  L19_2 = self
+  L18_2 = self.F0C0093C05EBA4C68
   L20_2 = A1_2[3]
   L18_2 = L18_2(L19_2, L20_2)
   L19_2 = 0
@@ -1361,8 +1326,8 @@ function L70_1(A0_2, A1_2)
     L22_2 = L22_2 * L23_2
     L22_2 = L22_2 + L20_2
     L21_2 = L21_2(L22_2)
-    L23_2 = A0_2
-    L22_2 = A0_2.FBE7EF644E7E3E715
+    L23_2 = self
+    L22_2 = self.FBE7EF644E7E3E715
     L24_2 = A1_2[3]
     L22_2 = L22_2(L23_2, L24_2)
     L23_2 = 0
@@ -1422,8 +1387,8 @@ function L70_1(A0_2, A1_2)
     L22_2 = "L_okozukai_00/text_out_01"
     L20_2(L21_2, L22_2)
   end
-  L21_2 = A0_2
-  L20_2 = A0_2.FBE7EF644E7E3E715
+  L21_2 = self
+  L20_2 = self.FBE7EF644E7E3E715
   L22_2 = A1_2[3]
   L20_2 = L20_2(L21_2, L22_2)
   L21_2 = A1_2[2]
@@ -1470,18 +1435,15 @@ function L70_1(A0_2, A1_2)
   L28_2, L29_2, L30_2, L31_2 = L28_2(L29_2, L30_2)
   L26_2, L27_2, L28_2, L29_2, L30_2, L31_2 = L26_2(L27_2, L28_2, L29_2, L30_2, L31_2)
   L23_2(L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2)
-  L23_2 = A0_2[12]
+  L23_2 = self[12]
   L24_2 = L23_2
   L23_2 = L23_2.shift
   L23_2(L24_2)
-  A0_2[19] = 0
+  self[19] = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "FED114FFDC4E8BFAD"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.PlayAnimeCoroutine
+function C9064E05F3ECDCA95_prototype:FED114FFDC4E8BFAD(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L4_2 = A1_2
   L3_2 = A1_2.fB4E9D030
@@ -1501,27 +1463,24 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "F4795A061D5BEAB45"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.CloseOokozukaiWindow
+function C9064E05F3ECDCA95_prototype:F4795A061D5BEAB45()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = cECF00344
   L1_2 = L1_2.fEECE6995
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f5439788F
   L4_2 = "top"
   L2_2, L3_2, L4_2 = L2_2(L3_2, L4_2)
   L1_2 = L1_2(L2_2, L3_2, L4_2)
   while true do
-    L2_2 = A0_2[12]
+    L2_2 = self[12]
     L2_2 = L2_2.length
     if not (L2_2 > 0) then
       break
     end
-    L2_2 = A0_2[18]
+    L2_2 = self[18]
     if L2_2 then
       break
     end
@@ -1529,8 +1488,8 @@ function L70_1(A0_2)
     L2_2 = L2_2.S760DAE4C5371A78E
     L2_2()
   end
-  A0_2[16] = true
-  A0_2[14] = false
+  self[16] = true
+  self[14] = false
   L3_2 = L1_2
   L2_2 = L1_2.fB4E9D030
   L4_2 = "f_out"
@@ -1544,7 +1503,7 @@ function L70_1(A0_2)
   L2_2 = L2_2(L3_2, L4_2)
   if not L2_2 then
     while true do
-      A0_2[16] = true
+      self[16] = true
       L2_2 = C1DB14DCC9D7634FA
       L2_2 = L2_2.S760DAE4C5371A78E
       L2_2()
@@ -1557,9 +1516,9 @@ function L70_1(A0_2)
       end
     end
   end
-  L2_2 = A0_2[14]
+  L2_2 = self[14]
   if false == L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.f462C9B70
     L2_2 = L2_2(L3_2)
@@ -1567,34 +1526,25 @@ function L70_1(A0_2)
     L2_2 = L2_2.f5C99C0AC
     L2_2(L3_2)
   end
-  A0_2[16] = false
+  self[16] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "F5837823E7B27B278"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.IsOpenOkozukai
+function C9064E05F3ECDCA95_prototype:F5837823E7B27B278()
   local L1_2
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "F5FB109424C97F66D"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.F5FB109424C97F66D
+function C9064E05F3ECDCA95_prototype:F5FB109424C97F66D()
   local L1_2
-  L1_2 = A0_2[21]
+  L1_2 = self[21]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "FFCF46A0C5931564F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.IsCoroutineStart
+function C9064E05F3ECDCA95_prototype:FFCF46A0C5931564F(A1_2, A2_2)
   local L3_2, L4_2
   if nil ~= A1_2 then
     L3_2 = L10_1.coroutine
@@ -1628,11 +1578,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "F0C0093C05EBA4C68"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.GetMoneyPaneName
+function C9064E05F3ECDCA95_prototype:F0C0093C05EBA4C68(A1_2)
   local L2_2
   L2_2 = nil
   if 0 == A1_2 then
@@ -1645,11 +1592,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9064E05F3ECDCA95"]["prototype"]
-L69_1 = "FBE7EF644E7E3E715"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.message_window_parts.MessageWindowPartsOkozukai.GetMoneyLabel
+function C9064E05F3ECDCA95_prototype:FBE7EF644E7E3E715(A1_2)
   local L2_2
   L2_2 = nil
   if 0 == A1_2 then

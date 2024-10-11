@@ -1,3 +1,5 @@
+---@class CC85FA3EE862026B5 : CC85FA3EE862026B5_prototype
+---@field prototype CC85FA3EE862026B5_prototype
 L55_1 = _ENV
 L56_1 = "CC85FA3EE862026B5"
 L57_1 = L15_1
@@ -34,20 +36,15 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC85FA3EE862026B5"]
 L69_1 = "__name__"
 L70_1 = "CC85FA3EE862026B5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC85FA3EE862026B5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC85FA3EE862026B5"]["prototype"]
-L69_1 = "F343D7EAA018870C5"
-
-function L70_1(A0_2, A1_2)
+---@class CC85FA3EE862026B5_prototype
+CC85FA3EE862026B5_prototype = L15_1()
+CC85FA3EE862026B5.prototype = CC85FA3EE862026B5_prototype
+--- CC85FA3EE862026B5.Finisher
+function CC85FA3EE862026B5_prototype:F343D7EAA018870C5(A1_2)
   local L2_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2[8] = A1_2
-  return A0_2
+  return self
 end
 
 L68_1[L69_1] = L70_1

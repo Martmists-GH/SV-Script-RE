@@ -1,3 +1,5 @@
+---@class CF1A43A3083B0F0E0 : CF1A43A3083B0F0E0_prototype
+---@field prototype CF1A43A3083B0F0E0_prototype
 L55_1 = _ENV
 L56_1 = "CF1A43A3083B0F0E0"
 L57_1 = L15_1
@@ -39,26 +41,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF1A43A3083B0F0E0"]
 L69_1 = "__name__"
 L70_1 = "CF1A43A3083B0F0E0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1A43A3083B0F0E0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1A43A3083B0F0E0"]["prototype"]
-L69_1 = "FEBB6C7EABF14DA04"
-
-function L70_1(A0_2)
+---@class CF1A43A3083B0F0E0_prototype
+CF1A43A3083B0F0E0_prototype = L15_1()
+CF1A43A3083B0F0E0.prototype = CF1A43A3083B0F0E0_prototype
+--- CF1A43A3083B0F0E0.BootEventTriggerId
+function CF1A43A3083B0F0E0_prototype:FEBB6C7EABF14DA04()
   local L1_2
   L1_2 = 2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1A43A3083B0F0E0"]["prototype"]
-L69_1 = "F7B29AC6696E62600"
-
-function L70_1(A0_2)
+--- CF1A43A3083B0F0E0.RequiredEventCategory
+function CF1A43A3083B0F0E0_prototype:F7B29AC6696E62600()
   local L1_2, L2_2, L3_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -68,11 +62,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1A43A3083B0F0E0"]["prototype"]
-L69_1 = "F06B203964756B0E9"
-
-function L70_1(A0_2, A1_2)
+--- CF1A43A3083B0F0E0.F06B203964756B0E9
+function CF1A43A3083B0F0E0_prototype:F06B203964756B0E9(A1_2)
   local L2_2, L3_2
   L2_2 = A1_2[0]
   if nil ~= L2_2 then
@@ -82,11 +73,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1A43A3083B0F0E0"]["prototype"]
-L69_1 = "FDA98E87C57449F00"
-
-function L70_1(A0_2, A1_2)
+--- CF1A43A3083B0F0E0.OnEventCheck
+function CF1A43A3083B0F0E0_prototype:FDA98E87C57449F00(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   L2_2 = A1_2[0]
   if nil == L2_2 then
@@ -207,11 +195,8 @@ function L70_1(A0_2, A1_2)
   return L22_2(L23_2, L24_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1A43A3083B0F0E0"]["prototype"]
-L69_1 = "F75F6688F62DA7487"
-
-function L70_1(A0_2, A1_2)
+--- CF1A43A3083B0F0E0.IsRequiredObject
+function CF1A43A3083B0F0E0_prototype:F75F6688F62DA7487(A1_2)
   local L2_2, L3_2
   L2_2 = C6DA252EE6B81E6C4
   L2_2 = L2_2.S50CB2B4EB5CE75C1

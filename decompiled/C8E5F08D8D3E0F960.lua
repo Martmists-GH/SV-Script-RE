@@ -1,3 +1,7 @@
+---@alias C8E5F08D8D3E0F960 main_field_action_ActionEventCameraMove
+
+---@class main_field_action_ActionEventCameraMove : C8E5F08D8D3E0F960_prototype
+---@field prototype C8E5F08D8D3E0F960_prototype
 L55_1 = _ENV
 L56_1 = "C8E5F08D8D3E0F960"
 L57_1 = L15_1
@@ -79,45 +83,34 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8E5F08D8D3E0F960"]
 L69_1 = "__name__"
 L70_1 = "C8E5F08D8D3E0F960"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8E5F08D8D3E0F960"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8E5F08D8D3E0F960"]["prototype"]
-L69_1 = "F7A3D296366E973CB"
-
-function L70_1(A0_2, A1_2)
+---@class C8E5F08D8D3E0F960_prototype
+C8E5F08D8D3E0F960_prototype = L15_1()
+C8E5F08D8D3E0F960.prototype = C8E5F08D8D3E0F960_prototype
+--- main.field.action.ActionEventCameraMove.Initialize
+function C8E5F08D8D3E0F960_prototype:F7A3D296366E973CB(A1_2)
   local L2_2, L3_2
-  A0_2[16] = A1_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F4F10E2577D0B0AAB
+  self[16] = A1_2
+  L3_2 = self
+  L2_2 = self.F4F10E2577D0B0AAB
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8E5F08D8D3E0F960"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+--- main.field.action.ActionEventCameraMove.onCreate
+function C8E5F08D8D3E0F960_prototype:FC87C731D11C58354()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F4F10E2577D0B0AAB
+  L2_2 = self
+  L1_2 = self.F4F10E2577D0B0AAB
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8E5F08D8D3E0F960"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.ActionEventCameraMove.onPreUpdate
+function C8E5F08D8D3E0F960_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   L1_2 = L1_2.duration
   if L1_2 <= 0 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FAFC5E9B6A8846570
+    L2_2 = self
+    L1_2 = self.FAFC5E9B6A8846570
     L3_2 = 1
     L1_2(L2_2, L3_2)
     L1_2 = 2
@@ -125,19 +118,19 @@ function L70_1(A0_2)
   end
   L1_2 = CD9AE7C27B00EB066
   L1_2 = L1_2.S05B90B9B5A6DE6BC
-  L2_2 = A0_2[19]
+  L2_2 = self[19]
   L3_2 = C075A638F130352C3
   L3_2 = L3_2.S44460EB93267F798
-  L4_2 = A0_2[16]
+  L4_2 = self[16]
   L4_2 = L4_2.duration
   L3_2 = L3_2 / L4_2
   L2_2 = L2_2 + L3_2
   L3_2 = 0
   L4_2 = 1
   L1_2 = L1_2(L2_2, L3_2, L4_2)
-  A0_2[19] = L1_2
-  L1_2 = A0_2[19]
-  L2_2 = A0_2[16]
+  self[19] = L1_2
+  L1_2 = self[19]
+  L2_2 = self[16]
   L2_2 = L2_2.ease
   L3_2 = nil
   if 0 == L2_2 then
@@ -234,13 +227,13 @@ function L70_1(A0_2)
     L4_2 = CE97B195BFD4AAD95
     L3_2 = L4_2.S9E8D84680DA400A0
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.FAFC5E9B6A8846570
+  L5_2 = self
+  L4_2 = self.FAFC5E9B6A8846570
   L6_2 = L3_2
   L7_2 = L1_2
   L6_2, L7_2 = L6_2(L7_2)
   L4_2(L5_2, L6_2, L7_2)
-  L4_2 = A0_2[19]
+  L4_2 = self[19]
   if L4_2 >= 1.0 then
     L4_2 = 2
     return L4_2
@@ -250,19 +243,16 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8E5F08D8D3E0F960"]["prototype"]
-L69_1 = "FAFC5E9B6A8846570"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.ActionEventCameraMove.easeCamera
+function C8E5F08D8D3E0F960_prototype:FAFC5E9B6A8846570(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   L2_2 = L2_2.translation
   if nil ~= L2_2 then
-    L2_2 = A0_2[15]
-    L3_2 = A0_2[17]
+    L2_2 = self[15]
+    L3_2 = self[17]
     L3_2 = L3_2.startPos
-    L4_2 = A0_2[16]
+    L4_2 = self[16]
     L4_2 = L4_2.translation
     L4_2 = L4_2.pos
     L5_2 = c7A48E3FC
@@ -286,33 +276,33 @@ function L70_1(A0_2, A1_2)
     L10_2[3] = L13_2
     L8_2(L9_2, L10_2)
   end
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   L2_2 = L2_2.rotation
   if nil ~= L2_2 then
-    L2_2 = A0_2[16]
+    L2_2 = self[16]
     L2_2 = L2_2.rotation
     L2_2 = L2_2.rot
     if nil ~= L2_2 then
       L2_2 = nil
       L3_2 = cD5675BA5
       L3_2 = L3_2.f15834BF3
-      L4_2 = A0_2[16]
+      L4_2 = self[16]
       L4_2 = L4_2.rotation
       L4_2 = L4_2.rot
       L4_2 = L4_2.quat
       L5_2 = L2_2
       L3_2 = L3_2(L4_2, L5_2)
       if L3_2 then
-        L3_2 = A0_2[15]
+        L3_2 = self[15]
         L4_2 = L3_2
         L3_2 = L3_2.F713A536F74142692
         L5_2 = cD5675BA5
         L5_2 = L5_2.fD9D3C136
         L6_2 = cD5675BA5
         L6_2 = L6_2.fBE61A5F8
-        L7_2 = A0_2[17]
+        L7_2 = self[17]
         L7_2 = L7_2.startRot
-        L8_2 = A0_2[16]
+        L8_2 = self[16]
         L8_2 = L8_2.rotation
         L8_2 = L8_2.rot
         L8_2 = L8_2.quat
@@ -321,37 +311,37 @@ function L70_1(A0_2, A1_2)
         L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
         L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
       end
-      L3_2 = A0_2[16]
+      L3_2 = self[16]
       L3_2 = L3_2.rotation
       L3_2 = L3_2.rot
       L3_2 = L3_2.roll
       if nil ~= L3_2 then
-        L3_2 = A0_2[15]
+        L3_2 = self[15]
         L5_2 = L3_2
         L4_2 = L3_2.F0BFDDA8195AFBEE7
         L7_2 = L3_2
         L6_2 = L3_2.F30456267E34E8363
         L6_2 = L6_2(L7_2)
-        L7_2 = A0_2[17]
+        L7_2 = self[17]
         L7_2 = L7_2.addRoll
         L7_2 = L7_2 * A1_2
         L6_2 = L6_2 + L7_2
         L4_2(L5_2, L6_2)
       end
     else
-      L2_2 = A0_2[16]
+      L2_2 = self[16]
       L2_2 = L2_2.rotation
       L2_2 = L2_2.look
       if nil ~= L2_2 then
-        L2_2 = A0_2[16]
+        L2_2 = self[16]
         L2_2 = L2_2.rotation
         L2_2 = L2_2.look
         L2_2 = L2_2.pos
         if nil ~= L2_2 then
-          L2_2 = A0_2[15]
-          L3_2 = A0_2[17]
+          L2_2 = self[15]
+          L3_2 = self[17]
           L3_2 = L3_2.startLook
-          L4_2 = A0_2[16]
+          L4_2 = self[16]
           L4_2 = L4_2.rotation
           L4_2 = L4_2.look
           L4_2 = L4_2.pos
@@ -376,19 +366,19 @@ function L70_1(A0_2, A1_2)
           L10_2[3] = L13_2
           L8_2(L9_2, L10_2)
         end
-        L2_2 = A0_2[16]
+        L2_2 = self[16]
         L2_2 = L2_2.rotation
         L2_2 = L2_2.look
         L2_2 = L2_2.roll
         if nil ~= L2_2 then
-          L2_2 = A0_2[17]
+          L2_2 = self[17]
           L2_2 = L2_2.startRoll
-          L3_2 = A0_2[15]
+          L3_2 = self[15]
           L4_2 = L3_2
           L3_2 = L3_2.F0BFDDA8195AFBEE7
-          L5_2 = A0_2[17]
+          L5_2 = self[17]
           L5_2 = L5_2.startRoll
-          L6_2 = A0_2[17]
+          L6_2 = self[17]
           L6_2 = L6_2.addRoll
           L5_2 = L5_2 + L6_2
           L5_2 = L5_2 - L2_2
@@ -399,15 +389,15 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   L2_2 = L2_2.fovy
   if nil ~= L2_2 then
-    L2_2 = A0_2[17]
+    L2_2 = self[17]
     L2_2 = L2_2.startFovy
-    L3_2 = A0_2[15]
+    L3_2 = self[15]
     L4_2 = L3_2
     L3_2 = L3_2.F7092D1E6B2BEE84A
-    L5_2 = A0_2[16]
+    L5_2 = self[16]
     L5_2 = L5_2.fovy
     L5_2 = L5_2 - L2_2
     L5_2 = L5_2 * A1_2
@@ -416,57 +406,54 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8E5F08D8D3E0F960"]["prototype"]
-L69_1 = "F4F10E2577D0B0AAB"
-
-function L70_1(A0_2)
+--- main.field.action.ActionEventCameraMove.initialize
+function C8E5F08D8D3E0F960_prototype:F4F10E2577D0B0AAB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2
-  A0_2[19] = 0.0
-  L1_2 = A0_2[17]
-  L2_2 = A0_2[15]
+  self[19] = 0.0
+  L1_2 = self[17]
+  L2_2 = self[15]
   L3_2 = L2_2
   L2_2 = L2_2.F7C7427B293ECF3AB
   L2_2 = L2_2(L3_2)
   L1_2.startPos = L2_2
-  L1_2 = A0_2[17]
-  L2_2 = A0_2[15]
+  L1_2 = self[17]
+  L2_2 = self[15]
   L3_2 = L2_2
   L2_2 = L2_2.F82BCEC04BE0E293E
   L2_2 = L2_2(L3_2)
   L1_2.startRot = L2_2
-  L1_2 = A0_2[17]
-  L2_2 = A0_2[15]
+  L1_2 = self[17]
+  L2_2 = self[15]
   L3_2 = L2_2
   L2_2 = L2_2.F2E1E76916F02D481
   L2_2 = L2_2(L3_2)
   L1_2.startLook = L2_2
-  L1_2 = A0_2[17]
-  L2_2 = A0_2[15]
+  L1_2 = self[17]
+  L2_2 = self[15]
   L3_2 = L2_2
   L2_2 = L2_2.FF6D3520EC82DC5A6
   L2_2 = L2_2(L3_2)
   L1_2.startFovy = L2_2
-  L1_2 = A0_2[17]
-  L2_2 = A0_2[15]
+  L1_2 = self[17]
+  L2_2 = self[15]
   L3_2 = L2_2
   L2_2 = L2_2.F30456267E34E8363
   L2_2 = L2_2(L3_2)
   L1_2.startRoll = L2_2
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   L1_2 = L1_2.rotation
   if nil ~= L1_2 then
-    L1_2 = A0_2[16]
+    L1_2 = self[16]
     L1_2 = L1_2.rotation
     L1_2 = L1_2.rot
     if nil ~= L1_2 then
-      L1_2 = A0_2[16]
+      L1_2 = self[16]
       L1_2 = L1_2.rotation
       L1_2 = L1_2.rot
       L1_2 = L1_2.roll
       if nil ~= L1_2 then
-        L1_2 = A0_2[17]
-        L2_2 = A0_2[16]
+        L1_2 = self[17]
+        L2_2 = self[16]
         L2_2 = L2_2.rotation
         L2_2 = L2_2.rot
         L2_2 = L2_2.roll
@@ -477,18 +464,18 @@ function L70_1(A0_2)
         L1_2.addRoll = L2_2
     end
     else
-      L1_2 = A0_2[16]
+      L1_2 = self[16]
       L1_2 = L1_2.rotation
       L1_2 = L1_2.look
       if nil ~= L1_2 then
-        L1_2 = A0_2[16]
+        L1_2 = self[16]
         L1_2 = L1_2.rotation
         L1_2 = L1_2.look
         L1_2 = L1_2.roll
         if nil ~= L1_2 then
-          L1_2 = A0_2[17]
+          L1_2 = self[17]
           L2_2 = L58_1
-          L3_2 = A0_2[16]
+          L3_2 = self[16]
           L3_2 = L3_2.rotation
           L3_2 = L3_2.look
           L3_2 = L3_2.roll
@@ -505,13 +492,13 @@ function L70_1(A0_2)
   L3_2.rotation = true
   L3_2.fovy = true
   L2_2.__fields__ = L3_2
-  L3_2 = A0_2[17]
+  L3_2 = self[17]
   L3_2 = L3_2.startPos
   L2_2.translation = L3_2
-  L3_2 = A0_2[17]
+  L3_2 = self[17]
   L3_2 = L3_2.startRot
   L2_2.rotation = L3_2
-  L3_2 = A0_2[17]
+  L3_2 = self[17]
   L3_2 = L3_2.startFovy
   L2_2.fovy = L3_2
   L1_2 = L1_2(L2_2)
@@ -519,11 +506,11 @@ function L70_1(A0_2)
   function L2_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[16]
     L1_3 = L1_3.translation
     if nil ~= L1_3 then
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[16]
       L1_3 = L1_3.translation
       L0_3 = L1_3.pos
@@ -538,11 +525,11 @@ function L70_1(A0_2)
   function L3_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[16]
     L1_3 = L1_3.fovy
     if nil ~= L1_3 then
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[16]
       L0_3 = L1_3.fovy
     else
@@ -552,9 +539,9 @@ function L70_1(A0_2)
   end
   
   L3_2 = L3_2()
-  L4_2 = A0_2[16]
+  L4_2 = self[16]
   L4_2 = L4_2.duration
-  L5_2 = A0_2[15]
+  L5_2 = self[15]
   L6_2 = L5_2
   L5_2 = L5_2.FF867C2A7064F8EFB
   L5_2 = L5_2(L6_2)
@@ -589,17 +576,17 @@ function L70_1(A0_2)
   L9_2.duration = L4_2
   L9_2.rollNum = 0
   L9_2.distance = L5_2
-  L10_2 = A0_2[16]
+  L10_2 = self[16]
   L10_2 = L10_2.ease
   L9_2.type = L10_2
   L8_2 = L8_2(L9_2)
   L7_2.ease = L8_2
   L6_2 = L6_2(L7_2)
-  A0_2[18] = L6_2
-  L6_2 = A0_2[16]
+  self[18] = L6_2
+  L6_2 = self[16]
   L6_2 = L6_2.rotation
   if nil ~= L6_2 then
-    L6_2 = A0_2[16]
+    L6_2 = self[16]
     L6_2 = L6_2.rotation
     L6_2 = L6_2.rot
     if nil ~= L6_2 then
@@ -610,7 +597,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = cD5675BA5
         L1_3 = L1_3.f15834BF3
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[16]
         L2_3 = L2_3.rotation
         L2_3 = L2_3.rot
@@ -618,13 +605,13 @@ function L70_1(A0_2)
         L3_3 = L6_2
         L1_3 = L1_3(L2_3, L3_3)
         if L1_3 then
-          L1_3 = A0_2
+          L1_3 = self
           L1_3 = L1_3[16]
           L1_3 = L1_3.rotation
           L1_3 = L1_3.rot
           L0_3 = L1_3.quat
         else
-          L1_3 = A0_2
+          L1_3 = self
           L1_3 = L1_3[17]
           L0_3 = L1_3.startRot
         end
@@ -632,22 +619,22 @@ function L70_1(A0_2)
       end
       
       L7_2 = L7_2()
-      L8_2 = A0_2[18]
+      L8_2 = self[18]
       L8_2 = L8_2["end"]
       L8_2.rotation = L7_2
-      L8_2 = A0_2[18]
+      L8_2 = self[18]
       L8_2 = L8_2.ease
       
       function L9_2()
         local L0_3, L1_3
         L0_3 = nil
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[16]
         L1_3 = L1_3.rotation
         L1_3 = L1_3.rot
         L1_3 = L1_3.roll
         if nil ~= L1_3 then
-          L1_3 = A0_2
+          L1_3 = self
           L1_3 = L1_3[16]
           L1_3 = L1_3.rotation
           L1_3 = L1_3.rot
@@ -661,7 +648,7 @@ function L70_1(A0_2)
       L9_2 = L9_2()
       L8_2.rollNum = L9_2
     else
-      L6_2 = A0_2[16]
+      L6_2 = self[16]
       L6_2 = L6_2.rotation
       L6_2 = L6_2.look
       if nil ~= L6_2 then
@@ -669,19 +656,19 @@ function L70_1(A0_2)
           local L0_3, L1_3
           
           L0_3 = nil
-          L1_3 = A0_2
+          L1_3 = self
           L1_3 = L1_3[16]
           L1_3 = L1_3.rotation
           L1_3 = L1_3.look
           L1_3 = L1_3.pos
           if nil ~= L1_3 then
-            L1_3 = A0_2
+            L1_3 = self
             L1_3 = L1_3[16]
             L1_3 = L1_3.rotation
             L1_3 = L1_3.look
             L0_3 = L1_3.pos
           else
-            L1_3 = A0_2
+            L1_3 = self
             L1_3 = L1_3[17]
             L0_3 = L1_3.startLook
           end
@@ -693,16 +680,16 @@ function L70_1(A0_2)
         function L7_2()
           local L0_3, L1_3
           L0_3 = nil
-          L1_3 = A0_2
+          L1_3 = self
           L1_3 = L1_3[16]
           L1_3 = L1_3.translation
           if nil ~= L1_3 then
-            L1_3 = A0_2
+            L1_3 = self
             L1_3 = L1_3[16]
             L1_3 = L1_3.translation
             L0_3 = L1_3.pos
           else
-            L1_3 = A0_2
+            L1_3 = self
             L1_3 = L1_3[17]
             L0_3 = L1_3.startPos
           end
@@ -807,13 +794,13 @@ function L70_1(A0_2)
         function L29_2()
           local L0_3, L1_3
           L0_3 = nil
-          L1_3 = A0_2
+          L1_3 = self
           L1_3 = L1_3[16]
           L1_3 = L1_3.rotation
           L1_3 = L1_3.look
           L1_3 = L1_3.roll
           if nil ~= L1_3 then
-            L1_3 = A0_2
+            L1_3 = self
             L1_3 = L1_3[16]
             L1_3 = L1_3.rotation
             L1_3 = L1_3.look
@@ -825,7 +812,7 @@ function L70_1(A0_2)
         end
         
         L29_2 = L29_2()
-        L30_2 = A0_2[18]
+        L30_2 = self[18]
         L30_2 = L30_2["end"]
         L31_2 = cD5675BA5
         L31_2 = L31_2.fFA44D7AF
@@ -834,7 +821,7 @@ function L70_1(A0_2)
         L32_2 = L26_2 + L32_2
         L33_2 = L27_2 * L28_2
         L33_2 = -L33_2
-        L34_2 = A0_2[17]
+        L34_2 = self[17]
         L34_2 = L34_2.startRoll
         L34_2 = L34_2 + L29_2
         L31_2 = L31_2(L32_2, L33_2, L34_2)
@@ -856,7 +843,7 @@ function L70_1(A0_2)
         L31_2 = L31_2.SEC5E960387714AA4
         L32_2 = L29_2
         L31_2 = L31_2(L32_2)
-        L32_2 = A0_2[18]
+        L32_2 = self[18]
         L32_2 = L32_2.ease
         L33_2 = L30_2 * L31_2
         L32_2.rollNum = L33_2

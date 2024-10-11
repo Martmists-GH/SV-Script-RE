@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "C1BFD54E988D255E8"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C1BFD54E988D255E8"]
-L69_1 = "new"
-
-function L70_1(A0_2, A1_2)
+---@class C1BFD54E988D255E8 : C1BFD54E988D255E8_prototype
+---@field prototype C1BFD54E988D255E8_prototype
+C1BFD54E988D255E8 = L15_1()
+function C1BFD54E988D255E8.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = C1BFD54E988D255E8
@@ -23,11 +18,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1BFD54E988D255E8"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 C1BFD54E988D255E8
+function C1BFD54E988D255E8.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   A0_2[19] = nil
   L3_2 = E44110835713ACB49
@@ -41,11 +33,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1BFD54E988D255E8"]
-L69_1 = "__name__"
-L70_1 = "C1BFD54E988D255E8"
-L68_1[L69_1] = L70_1
+C1BFD54E988D255E8.__name__ = "C1BFD54E988D255E8"
 L68_1 = _ENV["C1BFD54E988D255E8"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -89,16 +77,11 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1BFD54E988D255E8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1BFD54E988D255E8"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C1BFD54E988D255E8_prototype
+C1BFD54E988D255E8_prototype = L15_1()
+C1BFD54E988D255E8.prototype = C1BFD54E988D255E8_prototype
+--- C1BFD54E988D255E8.onCreate
+function C1BFD54E988D255E8_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2
   L1_2 = CA7CF9DA40689C95A
   L1_2 = L1_2.S264F26F6894F3392
@@ -112,13 +95,10 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1BFD54E988D255E8"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- C1BFD54E988D255E8.onUpdate
+function C1BFD54E988D255E8_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2[1]
   if 0 == L1_2 then
     L2_2 = C42D1CDB112422850
@@ -128,13 +108,13 @@ function L70_1(A0_2)
     L3_2 = C1DB14DCC9D7634FA
     L3_2 = L3_2.new
     L4_2 = L55_1
-    L5_2 = A0_2
-    L6_2 = A0_2.F23EAF7506967EAF3
+    L5_2 = self
+    L6_2 = self.F23EAF7506967EAF3
     L4_2 = L4_2(L5_2, L6_2)
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
-    A0_2[19] = L3_2
-    L3_2 = A0_2[19]
+    self[19] = L3_2
+    L3_2 = self[19]
     L4_2 = nil
     L5_2 = L62_1
     L6_2 = L64_1.pack
@@ -178,15 +158,15 @@ function L70_1(A0_2)
       L8_2 = L8_2 .. L9_2
       L6_2(L7_2, L8_2)
     end
-    L7_2 = A0_2
-    L6_2 = A0_2.F88882BC18F0F0011
+    L7_2 = self
+    L6_2 = self.F88882BC18F0F0011
     L8_2 = E44110835713ACB49
     L8_2 = L8_2.WaitCreate
     L6_2(L7_2, L8_2)
   elseif 1 == L1_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[19]
+    L3_2 = self[19]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" == L2_2 then
@@ -200,8 +180,8 @@ function L70_1(A0_2)
       L5_2 = 536870912
       L3_2 = L3_2(L4_2, L5_2)
       if 0 ~= L3_2 then
-        L4_2 = A0_2
-        L3_2 = A0_2.F88882BC18F0F0011
+        L4_2 = self
+        L3_2 = self.F88882BC18F0F0011
         L5_2 = E44110835713ACB49
         L5_2 = L5_2.Start
         L3_2(L4_2, L5_2)
@@ -217,7 +197,7 @@ function L70_1(A0_2)
     elseif "normal" == L2_2 then
     elseif "running" == L2_2 then
     elseif "suspended" == L2_2 then
-      L3_2 = A0_2[19]
+      L3_2 = self[19]
       L4_2 = nil
       L5_2 = L62_1
       L6_2 = L64_1.pack
@@ -266,7 +246,7 @@ function L70_1(A0_2)
     L2_2 = nil
     L3_2 = c016374C1
     L3_2 = L3_2.f4555D276
-    L4_2 = A0_2[17]
+    L4_2 = self[17]
     L4_2 = L4_2.synchPokeData
     L4_2 = L4_2.object
     L5_2 = L2_2
@@ -282,13 +262,13 @@ function L70_1(A0_2)
     end
     L3_2 = CFC8F368D91411014
     L3_2 = L3_2.SBA31B781D8838DE6
-    L4_2 = A0_2[17]
+    L4_2 = self[17]
     L4_2 = L4_2.synchPokeData
     L4_2 = L4_2.object
     L3_2(L4_2)
     L3_2 = c2EA22DC9
     L3_2 = L3_2.fE9111A4D
-    L4_2 = A0_2[17]
+    L4_2 = self[17]
     L4_2 = L4_2.synchPokeData
     L4_2 = L4_2.object
     L3_2(L4_2)
@@ -296,7 +276,7 @@ function L70_1(A0_2)
     L3_2 = L3_2.SEDDE1BD6C1F15CFF
     L4_2 = 1
     L3_2(L4_2)
-    L3_2 = A0_2[17]
+    L3_2 = self[17]
     L3_2 = L3_2.synchPokeData
     L3_2 = L3_2.object
     L4_2 = CFC8F368D91411014
@@ -330,13 +310,13 @@ function L70_1(A0_2)
     L5_2 = C1DB14DCC9D7634FA
     L5_2 = L5_2.new
     L6_2 = L55_1
-    L7_2 = A0_2
-    L8_2 = A0_2.F6B398835B7AC9B11
+    L7_2 = self
+    L8_2 = self.F6B398835B7AC9B11
     L6_2 = L6_2(L7_2, L8_2)
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
-    A0_2[19] = L5_2
-    L5_2 = A0_2[19]
+    self[19] = L5_2
+    L5_2 = self[19]
     L6_2 = nil
     L7_2 = L62_1
     L8_2 = L64_1.pack
@@ -380,7 +360,7 @@ function L70_1(A0_2)
       L10_2 = L10_2 .. L11_2
       L8_2(L9_2, L10_2)
     end
-    L8_2 = A0_2[17]
+    L8_2 = self[17]
     L8_2 = L8_2.synchPokeData
     L8_2 = L8_2.pokemonParam
     L9_2 = cDDCCFBA7
@@ -442,15 +422,15 @@ function L70_1(A0_2)
       L15_2 = L11_2
       L13_2(L14_2, L15_2)
     end
-    L11_2 = A0_2
-    L10_2 = A0_2.F88882BC18F0F0011
+    L11_2 = self
+    L10_2 = self.F88882BC18F0F0011
     L12_2 = E44110835713ACB49
     L12_2 = L12_2.Run
     L10_2(L11_2, L12_2)
   elseif 3 == L1_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[19]
+    L3_2 = self[19]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" == L2_2 then
@@ -459,7 +439,7 @@ function L70_1(A0_2)
     elseif "normal" == L2_2 then
     elseif "running" == L2_2 then
     elseif "suspended" == L2_2 then
-      L3_2 = A0_2[19]
+      L3_2 = self[19]
       L4_2 = nil
       L5_2 = L62_1
       L6_2 = L64_1.pack
@@ -509,19 +489,13 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1BFD54E988D255E8"]["prototype"]
-L69_1 = "F88882BC18F0F0011"
-
-function L70_1(A0_2, A1_2)
-  A0_2[18] = A1_2
+--- C1BFD54E988D255E8.SetRoutine
+function C1BFD54E988D255E8_prototype:F88882BC18F0F0011(A1_2)
+  self[18] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1BFD54E988D255E8"]["prototype"]
-L69_1 = "F23EAF7506967EAF3"
-
-function L70_1(A0_2)
+--- C1BFD54E988D255E8.F23EAF7506967EAF3
+function C1BFD54E988D255E8_prototype:F23EAF7506967EAF3()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = L3_1
   L2_2 = CFC8F368D91411014
@@ -681,7 +655,7 @@ function L70_1(A0_2)
     L1_2 = C1DB14DCC9D7634FA
     L1_2 = L1_2.S760DAE4C5371A78E
     L1_2()
-    L1_2 = A0_2[17]
+    L1_2 = self[17]
     L1_2 = L1_2.synchPokeData
     L1_2 = L1_2.status
     L2_2 = E9FEB5B630E84993C
@@ -695,7 +669,7 @@ function L70_1(A0_2)
   L1_2()
   L1_2 = cECFF5CEA
   L1_2 = L1_2.f7CCD863C
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   L2_2 = L2_2.synchPokeData
   L2_2 = L2_2.object
   L1_2(L2_2)
@@ -769,11 +743,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1BFD54E988D255E8"]["prototype"]
-L69_1 = "F6B398835B7AC9B11"
-
-function L70_1(A0_2)
+--- C1BFD54E988D255E8.F6B398835B7AC9B11
+function C1BFD54E988D255E8_prototype:F6B398835B7AC9B11()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C10578806AC30DCA3
   L1_2 = L1_2.SBA6FF574C1C9AA09
@@ -811,11 +782,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1BFD54E988D255E8"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- C1BFD54E988D255E8.onFinished
+function C1BFD54E988D255E8_prototype:F68499476069C0B1E()
   local L1_2
 end
 

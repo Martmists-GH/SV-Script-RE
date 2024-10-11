@@ -1,3 +1,7 @@
+---@alias C99669A6E72BD9FE7 main_ui_hud_button_guide_HudButtonGuideManager
+
+---@class main_ui_hud_button_guide_HudButtonGuideManager : C99669A6E72BD9FE7_prototype
+---@field prototype C99669A6E72BD9FE7_prototype
 L55_1 = _ENV
 L56_1 = "CD68C0EF61C7D6B41"
 L57_1 = L15_1
@@ -46,11 +50,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD68C0EF61C7D6B41"]
 L69_1 = "__name__"
 L70_1 = "CD68C0EF61C7D6B41"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD68C0EF61C7D6B41"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C99669A6E72BD9FE7_prototype
+C99669A6E72BD9FE7_prototype = L15_1()
+C99669A6E72BD9FE7.prototype = C99669A6E72BD9FE7_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD68C0EF61C7D6B41"]["prototype"]
 L69_1 = _ENV["CD68C0EF61C7D6B41"]

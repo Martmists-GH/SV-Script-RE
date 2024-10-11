@@ -1,3 +1,7 @@
+---@alias CCC490B7ED6327909 main_ui_shop_common_view_ShopUICommonHeaderView
+
+---@class main_ui_shop_common_view_ShopUICommonHeaderView : CCC490B7ED6327909_prototype
+---@field prototype CCC490B7ED6327909_prototype
 L55_1 = _ENV
 L56_1 = "CCC490B7ED6327909"
 L57_1 = L15_1
@@ -34,16 +38,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCC490B7ED6327909"]
 L69_1 = "__name__"
 L70_1 = "CCC490B7ED6327909"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC490B7ED6327909"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC490B7ED6327909"]["prototype"]
-L69_1 = "F0E47A597FB435DB7"
-
-function L70_1(A0_2, A1_2)
+---@class CCC490B7ED6327909_prototype
+CCC490B7ED6327909_prototype = L15_1()
+CCC490B7ED6327909.prototype = CCC490B7ED6327909_prototype
+--- main.ui.shop.common.view.ShopUICommonHeaderView.SetupSequence
+function CCC490B7ED6327909_prototype:F0E47A597FB435DB7(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A1_2 then
     A1_2 = ""
@@ -51,14 +50,14 @@ function L70_1(A0_2, A1_2)
   L2_2 = nil
   L3_2 = cA042DA13
   L3_2 = L3_2.fB1E655AE
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     return
   end
   while true do
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f9D8BC178
     L3_2 = L3_2(L4_2)
@@ -71,14 +70,14 @@ function L70_1(A0_2, A1_2)
   end
   L3_2 = nil
   if "" == A1_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.fD4E64AB7
     L6_2 = "shop_common_header_ui"
     L4_2 = L4_2(L5_2, L6_2)
     L3_2 = L4_2
   else
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.fD4E64AB7
     L6_2 = A1_2
@@ -102,20 +101,17 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2.new
   L6_2 = L3_2
   L5_2 = L5_2(L6_2)
-  A0_2[2] = L5_2
+  self[2] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC490B7ED6327909"]["prototype"]
-L69_1 = "FA23D39922B76B247"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop.common.view.ShopUICommonHeaderView.SetVisible
+function CCC490B7ED6327909_prototype:FA23D39922B76B247(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   if nil == L3_2 then
     return
   end
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.FA23D39922B76B247
   L5_2 = A1_2
@@ -123,34 +119,28 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC490B7ED6327909"]["prototype"]
-L69_1 = "F748A3DCD68216D1D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.common.view.ShopUICommonHeaderView.PlayAnime
+function CCC490B7ED6327909_prototype:F748A3DCD68216D1D(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.F748A3DCD68216D1D
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC490B7ED6327909"]["prototype"]
-L69_1 = "FAEF2C1889F017039"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.common.view.ShopUICommonHeaderView.SetHeaderTextStrbuf
+function CCC490B7ED6327909_prototype:FAEF2C1889F017039(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.FC8489078C201C47F
   L2_2 = L2_2(L3_2)

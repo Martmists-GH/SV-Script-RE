@@ -1,3 +1,7 @@
+---@alias C3A8C6B750DBECBA3 main_pokepicnic_database_LoveLevelProb
+
+---@class main_pokepicnic_database_LoveLevelProb : C3A8C6B750DBECBA3_prototype
+---@field prototype C3A8C6B750DBECBA3_prototype
 L55_1 = _ENV
 L56_1 = "C3A8C6B750DBECBA3"
 L57_1 = L15_1
@@ -37,37 +41,32 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3A8C6B750DBECBA3"]
 L69_1 = "__name__"
 L70_1 = "C3A8C6B750DBECBA3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A8C6B750DBECBA3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A8C6B750DBECBA3"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C3A8C6B750DBECBA3_prototype
+C3A8C6B750DBECBA3_prototype = L15_1()
+C3A8C6B750DBECBA3.prototype = C3A8C6B750DBECBA3_prototype
+--- main.pokepicnic.database.LoveLevelProb.Setup
+function C3A8C6B750DBECBA3_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "Good"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "Normal"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "Bad"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "Worst"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
 end
 
 L68_1[L69_1] = L70_1

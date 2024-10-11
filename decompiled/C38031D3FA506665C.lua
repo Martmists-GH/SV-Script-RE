@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C38031D3FA506665C"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C38031D3FA506665C"]
-L69_1 = "new"
+---@alias C38031D3FA506665C main_ui_common_UIOpenLimit
 
-function L70_1(A0_2)
+---@class main_ui_common_UIOpenLimit : C38031D3FA506665C_prototype
+---@field prototype C38031D3FA506665C_prototype
+C38031D3FA506665C = L15_1()
+function C38031D3FA506665C.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C38031D3FA506665C
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38031D3FA506665C"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C38031D3FA506665C
+function C38031D3FA506665C.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,22 +36,16 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C38031D3FA506665C"]
 L69_1 = "__name__"
 L70_1 = "C38031D3FA506665C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38031D3FA506665C"]
-L69_1 = "SAD0D6102C2277ACA"
-
-function L70_1()
+--- main.ui.common.UIOpenLimit.get_isUIOpen
+function C38031D3FA506665C.SAD0D6102C2277ACA()
   local L0_2, L1_2
   L0_2 = C38031D3FA506665C
   L0_2 = L0_2.S605C815BD7EFE337
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38031D3FA506665C"]
-L69_1 = "S7CC629889BEAA466"
-
-function L70_1(A0_2)
+--- main.ui.common.UIOpenLimit.set_isUIOpen
+function C38031D3FA506665C.S7CC629889BEAA466(A0_2)
   local L1_2
   L1_2 = C38031D3FA506665C
   L1_2.S605C815BD7EFE337 = A0_2
@@ -66,32 +54,23 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38031D3FA506665C"]
-L69_1 = "SFBFE6A047961BCAC"
-
-function L70_1()
+--- main.ui.common.UIOpenLimit.get_isSuspend
+function C38031D3FA506665C.SFBFE6A047961BCAC()
   local L0_2, L1_2
   L0_2 = C38031D3FA506665C
   L0_2 = L0_2.S86FC42B2CF596CD3
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38031D3FA506665C"]
-L69_1 = "S3AFBF2524BA72777"
-
-function L70_1()
+--- main.ui.common.UIOpenLimit.ForceOpenLimit
+function C38031D3FA506665C.S3AFBF2524BA72777()
   local L0_2, L1_2
   L0_2 = C38031D3FA506665C
   L0_2.S085A0E5C4A23D9E5 = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38031D3FA506665C"]
-L69_1 = "S9622055307344C77"
-
-function L70_1()
+--- main.ui.common.UIOpenLimit.IsOpenUI
+function C38031D3FA506665C.S9622055307344C77()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.SDE9EF3CFD428417D
@@ -146,11 +125,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38031D3FA506665C"]
-L69_1 = "S7229D9147D85A63D"
-
-function L70_1()
+--- main.ui.common.UIOpenLimit.IsOpenUISuspend
+function C38031D3FA506665C.S7229D9147D85A63D()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.SDE9EF3CFD428417D
@@ -207,11 +183,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38031D3FA506665C"]
-L69_1 = "S37D43CE90C6E4061"
-
-function L70_1(A0_2)
+--- main.ui.common.UIOpenLimit.S37D43CE90C6E4061
+function C38031D3FA506665C.S37D43CE90C6E4061(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = L3_1
   L2_2 = A0_2[24]
@@ -248,11 +221,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38031D3FA506665C"]
-L69_1 = "S67960E73F3BA63EB"
-
-function L70_1(A0_2)
+--- main.ui.common.UIOpenLimit.S67960E73F3BA63EB
+function C38031D3FA506665C.S67960E73F3BA63EB(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = c016374C1
@@ -315,11 +285,8 @@ function L70_1(A0_2)
   L2_2.S055D984AADD915D0 = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38031D3FA506665C"]
-L69_1 = "S1D05852C5A0140D2"
-
-function L70_1()
+--- main.ui.common.UIOpenLimit.S1D05852C5A0140D2
+function C38031D3FA506665C.S1D05852C5A0140D2()
   local L0_2, L1_2, L2_2
   L0_2 = CF67A67452D018ECC
   L0_2 = L0_2.SC8223E31D3163519
@@ -360,37 +327,29 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38031D3FA506665C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38031D3FA506665C"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C38031D3FA506665C_prototype
+C38031D3FA506665C_prototype = L15_1()
+C38031D3FA506665C.prototype = C38031D3FA506665C_prototype
+--- main.ui.common.UIOpenLimit.Setup
+function C38031D3FA506665C_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C38031D3FA506665C
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2.SD8B4C5416302D29A = L3_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.fBE3B2D3B
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38031D3FA506665C"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.common.UIOpenLimit.PreUpdate
+function C38031D3FA506665C_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C38031D3FA506665C
   L2_2 = L2_2.S055D984AADD915D0

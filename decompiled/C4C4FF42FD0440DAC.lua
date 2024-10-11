@@ -1,3 +1,7 @@
+---@alias C4C4FF42FD0440DAC main_ui_ymap_YMapMapUtility
+
+---@class main_ui_ymap_YMapMapUtility : C4C4FF42FD0440DAC_prototype
+---@field prototype C4C4FF42FD0440DAC_prototype
 L55_1 = _ENV
 L56_1 = "C4C4FF42FD0440DAC"
 L57_1 = L15_1
@@ -111,76 +115,65 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4C4FF42FD0440DAC"]
 L69_1 = "__name__"
 L70_1 = "C4C4FF42FD0440DAC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F8854D8D61BC4CFA0"
-
-function L70_1(A0_2, A1_2)
+---@class C4C4FF42FD0440DAC_prototype
+C4C4FF42FD0440DAC_prototype = L15_1()
+C4C4FF42FD0440DAC.prototype = C4C4FF42FD0440DAC_prototype
+--- main.ui.ymap.YMapMapUtility.F8854D8D61BC4CFA0
+function C4C4FF42FD0440DAC_prototype:F8854D8D61BC4CFA0(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F6F43D6581DEF83AF
+  L3_2 = self
+  L2_2 = self.F6F43D6581DEF83AF
   L4_2 = C4C4FF42FD0440DAC
   L4_2 = L4_2.SD2C09885BF6E831F
   L5_2 = A1_2
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F6F43D6581DEF83AF"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.YMapMapUtility.F6F43D6581DEF83AF
+function C4C4FF42FD0440DAC_prototype:F6F43D6581DEF83AF(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = C4C4FF42FD0440DAC
   L3_2 = L3_2.SF3657EE8E7A13D89
-  L5_2 = A0_2
-  L4_2 = A0_2.F5E36A7C61878BFEC
+  L5_2 = self
+  L4_2 = self.F5E36A7C61878BFEC
   L6_2 = A2_2
   L4_2 = L4_2(L5_2, L6_2)
   L3_2 = L3_2 * L4_2
-  A0_2[3] = L3_2
-  A0_2[4] = 0
-  A0_2[5] = 0
+  self[3] = L3_2
+  self[4] = 0
+  self[5] = 0
   L3_2 = C4C4FF42FD0440DAC
   L3_2 = L3_2.SF3657EE8E7A13D89
-  L5_2 = A0_2
-  L4_2 = A0_2.F5E36A8C61878C19F
+  L5_2 = self
+  L4_2 = self.F5E36A8C61878C19F
   L6_2 = A2_2
   L4_2 = L4_2(L5_2, L6_2)
   L3_2 = L3_2 * L4_2
-  A0_2[6] = L3_2
-  L3_2 = A0_2[3]
+  self[6] = L3_2
+  L3_2 = self[3]
   L3_2 = L3_2 - A1_2
-  A0_2[7] = L3_2
-  L3_2 = A0_2[4]
+  self[7] = L3_2
+  L3_2 = self[4]
   L3_2 = L3_2 + A1_2
-  A0_2[8] = L3_2
-  L3_2 = A0_2[5]
+  self[8] = L3_2
+  L3_2 = self[5]
   L3_2 = L3_2 + A1_2
-  A0_2[9] = L3_2
-  L3_2 = A0_2[6]
+  self[9] = L3_2
+  L3_2 = self[6]
   L3_2 = L3_2 - A1_2
-  A0_2[10] = L3_2
+  self[10] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F8263BB39B0FF6E2A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.ymap.YMapMapUtility.InitMiniMap
+function C4C4FF42FD0440DAC_prototype:F8263BB39B0FF6E2A(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2
-  A0_2[11] = A1_2
-  A0_2[12] = A2_2
-  A0_2[13] = A3_2
-  A0_2[1] = 2
-  A0_2[2] = 2
+  self[11] = A1_2
+  self[12] = A2_2
+  self[13] = A3_2
+  self[1] = 2
+  self[2] = 2
   L4_2 = C4C4FF42FD0440DAC
-  L5_2 = A0_2[11]
+  L5_2 = self[11]
   L6_2 = L5_2
   L5_2 = L5_2.f98516030
   L7_2 = "P_map_00"
@@ -193,18 +186,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2.SFB642DC96DE37175 = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F0F50678D927DE1F8"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapMapUtility.InitYMap
+function C4C4FF42FD0440DAC_prototype:F0F50678D927DE1F8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  A0_2[11] = A1_2
-  A0_2[12] = 0
-  A0_2[13] = 0
-  A0_2[1] = 3
-  A0_2[2] = 3
-  L2_2 = A0_2[11]
+  self[11] = A1_2
+  self[12] = 0
+  self[13] = 0
+  self[1] = 3
+  self[2] = 3
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.f98516030
   L4_2 = "S_scissor_00"
@@ -214,9 +204,9 @@ function L70_1(A0_2, A1_2)
   L6_2 = L3_2
   L4_2[1] = L5_2
   L4_2[2] = L6_2
-  A0_2[22] = L4_2
+  self[22] = L4_2
   L4_2 = C4C4FF42FD0440DAC
-  L5_2 = A0_2[11]
+  L5_2 = self[11]
   L6_2 = L5_2
   L5_2 = L5_2.f98516030
   L7_2 = "P_map_00"
@@ -229,51 +219,39 @@ function L70_1(A0_2, A1_2)
   L4_2.SFB642DC96DE37175 = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F8E3C41ED0459AAC2"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.YMapMapUtility.SetupZoomParam
+function C4C4FF42FD0440DAC_prototype:F8E3C41ED0459AAC2(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F15968803C074F9D1
+  L4_2 = self
+  L3_2 = self.F15968803C074F9D1
   L5_2 = A2_2
   L3_2(L4_2, L5_2)
-  A0_2[14] = A1_2
-  L3_2 = A0_2[14]
+  self[14] = A1_2
+  L3_2 = self[14]
   L3_2 = L3_2 + 1
-  A0_2[15] = L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F8F680B9EDBC1FA8C
-  L5_2 = A0_2[14]
+  self[15] = L3_2
+  L4_2 = self
+  L3_2 = self.F8F680B9EDBC1FA8C
+  L5_2 = self[14]
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F5F1EF62F932AAA52"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapMapUtility.F5F1EF62F932AAA52
+function C4C4FF42FD0440DAC_prototype:F5F1EF62F932AAA52()
   local L1_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F5F1EF72F932AAC05"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapMapUtility.F5F1EF72F932AAC05
+function C4C4FF42FD0440DAC_prototype:F5F1EF72F932AAC05()
   local L1_2
-  L1_2 = A0_2[13]
+  L1_2 = self[13]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F2C8213B44189AA30"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.YMapMapUtility.F2C8213B44189AA30
+function C4C4FF42FD0440DAC_prototype:F2C8213B44189AA30(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = L10_1.math
   L3_2 = L3_2.floor
@@ -289,50 +267,47 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = L6_2.SF3657EE8E7A13D89
   L5_2 = L5_2 / L6_2
   L4_2 = L4_2(L5_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F8854D8D61BC4CFA0
+  L6_2 = self
+  L5_2 = self.F8854D8D61BC4CFA0
   L7_2 = A2_2
   L5_2(L6_2, L7_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F90E6F59728481BFF
+  L6_2 = self
+  L5_2 = self.F90E6F59728481BFF
   L7_2 = L3_2
   L8_2 = A2_2
   L5_2 = L5_2(L6_2, L7_2, L8_2)
   L3_2 = L5_2
-  L6_2 = A0_2
-  L5_2 = A0_2.F90E6F49728481A4C
+  L6_2 = self
+  L5_2 = self.F90E6F49728481A4C
   L7_2 = L4_2
   L8_2 = A2_2
   L5_2 = L5_2(L6_2, L7_2, L8_2)
   L4_2 = L5_2
-  L5_2 = A0_2[12]
+  L5_2 = self[12]
   if L3_2 == L5_2 then
-    L5_2 = A0_2[13]
+    L5_2 = self[13]
     if L4_2 == L5_2 then
       L5_2 = false
       return L5_2
     end
   end
-  A0_2[12] = L3_2
-  A0_2[13] = L4_2
+  self[12] = L3_2
+  self[13] = L4_2
   L5_2 = true
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F90E6F59728481BFF"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.YMapMapUtility.F90E6F59728481BFF
+function C4C4FF42FD0440DAC_prototype:F90E6F59728481BFF(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F5E36A8C61878C19F
+  L4_2 = self
+  L3_2 = self.F5E36A8C61878C19F
   L5_2 = A2_2
   L3_2 = L3_2(L4_2, L5_2)
   L3_2 = L3_2 - 1
   if A1_2 > L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F5E36A8C61878C19F
+    L4_2 = self
+    L3_2 = self.F5E36A8C61878C19F
     L5_2 = A2_2
     L3_2 = L3_2(L4_2, L5_2)
     A1_2 = L3_2 - 1
@@ -342,20 +317,17 @@ function L70_1(A0_2, A1_2, A2_2)
   return A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F90E6F49728481A4C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.YMapMapUtility.F90E6F49728481A4C
+function C4C4FF42FD0440DAC_prototype:F90E6F49728481A4C(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F5E36A7C61878BFEC
+  L4_2 = self
+  L3_2 = self.F5E36A7C61878BFEC
   L5_2 = A2_2
   L3_2 = L3_2(L4_2, L5_2)
   L3_2 = L3_2 - 1
   if A1_2 > L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F5E36A7C61878BFEC
+    L4_2 = self
+    L3_2 = self.F5E36A7C61878BFEC
     L5_2 = A2_2
     L3_2 = L3_2(L4_2, L5_2)
     A1_2 = L3_2 - 1
@@ -365,11 +337,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F5E36A8C61878C19F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapMapUtility.F5E36A8C61878C19F
+function C4C4FF42FD0440DAC_prototype:F5E36A8C61878C19F(A1_2)
   local L2_2
   if 1 == A1_2 then
     L2_2 = C4C4FF42FD0440DAC
@@ -386,11 +355,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F5E36A7C61878BFEC"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapMapUtility.F5E36A7C61878BFEC
+function C4C4FF42FD0440DAC_prototype:F5E36A7C61878BFEC(A1_2)
   local L2_2
   if 1 == A1_2 then
     L2_2 = C4C4FF42FD0440DAC
@@ -407,20 +373,17 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F8F680B9EDBC1FA8C"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapMapUtility.SetupLayoutZoomParames
+function C4C4FF42FD0440DAC_prototype:F8F680B9EDBC1FA8C(A1_2)
   local L2_2, L3_2
-  A0_2[14] = A1_2
-  L2_2 = A0_2[15]
-  L3_2 = A0_2[14]
+  self[14] = A1_2
+  L2_2 = self[15]
+  L3_2 = self[14]
   if L2_2 ~= L3_2 then
-    L2_2 = A0_2[14]
-    A0_2[15] = L2_2
-    L3_2 = A0_2
-    L2_2 = A0_2.F8656121735D38862
+    L2_2 = self[14]
+    self[15] = L2_2
+    L3_2 = self
+    L2_2 = self.F8656121735D38862
     L2_2(L3_2)
     L2_2 = true
     return L2_2
@@ -429,17 +392,14 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F15968803C074F9D1"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapMapUtility.SetPaneScale
+function C4C4FF42FD0440DAC_prototype:F15968803C074F9D1(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if 0 == A1_2 then
     A1_2 = 0.001
   end
-  A0_2[16] = A1_2
-  L2_2 = A0_2[11]
+  self[16] = A1_2
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.f6889DAA9
   L4_2 = "N_resize_00"
@@ -449,11 +409,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F8656121735D38862"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapMapUtility.F8656121735D38862
+function C4C4FF42FD0440DAC_prototype:F8656121735D38862()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L31_1.int
   L2_2 = C4C4FF42FD0440DAC
@@ -465,18 +422,18 @@ function L70_1(A0_2)
   L3_2 = L3_2.SF3657EE8E7A13D89
   L3_2 = L3_2 / 2
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L4_2 = L31_1.int
-  L5_2 = A0_2[12]
+  L5_2 = self[12]
   L6_2 = C4C4FF42FD0440DAC
   L6_2 = L6_2.SF3657EE8E7A13D89
   L5_2 = L5_2 * L6_2
   L5_2 = L5_2 + L1_2
   L4_2 = L4_2(L5_2)
   L3_2[1] = L4_2
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L4_2 = L31_1.int
-  L5_2 = A0_2[13]
+  L5_2 = self[13]
   L6_2 = C4C4FF42FD0440DAC
   L6_2 = L6_2.SF3657EE8E7A13D89
   L5_2 = L5_2 * L6_2
@@ -487,14 +444,11 @@ function L70_1(A0_2)
   L3_2.SC851FCB217C24680 = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "FB0FEC7EBCEB561E2"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.YMapMapUtility.FB0FEC7EBCEB561E2
+function C4C4FF42FD0440DAC_prototype:FB0FEC7EBCEB561E2(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F659B1A9FDABA27CC
+  L4_2 = self
+  L3_2 = self.F659B1A9FDABA27CC
   L5_2 = A2_2
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = {}
@@ -525,14 +479,11 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F5C94FA784792B2BB"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapMapUtility.F5C94FA784792B2BB
+function C4C4FF42FD0440DAC_prototype:F5C94FA784792B2BB(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FB0FEC7EBCEB561E2
+  L3_2 = self
+  L2_2 = self.FB0FEC7EBCEB561E2
   L4_2 = C388798CF80F2AF9D
   L4_2 = L4_2.S485A65C107A1C659
   L4_2 = L4_2()
@@ -540,55 +491,46 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F659B1A9FDABA27CC"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapMapUtility.F659B1A9FDABA27CC
+function C4C4FF42FD0440DAC_prototype:F659B1A9FDABA27CC(A1_2)
   local L2_2
   if 1 == A1_2 then
-    L2_2 = A0_2[20]
+    L2_2 = self[20]
     return L2_2
   end
   if 2 == A1_2 then
-    L2_2 = A0_2[21]
+    L2_2 = self[21]
     return L2_2
   end
-  L2_2 = A0_2[19]
+  L2_2 = self[19]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F974C33F8C522793B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.YMapMapUtility.F974C33F8C522793B
+function C4C4FF42FD0440DAC_prototype:F974C33F8C522793B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F31119D42360B5B71
-  L6_2 = A0_2
-  L5_2 = A0_2.FB0FEC7EBCEB561E2
+  L4_2 = self
+  L3_2 = self.F31119D42360B5B71
+  L6_2 = self
+  L5_2 = self.FB0FEC7EBCEB561E2
   L7_2 = A1_2
   L8_2 = A2_2
   L5_2, L6_2, L7_2, L8_2 = L5_2(L6_2, L7_2, L8_2)
   return L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F31119D42360B5B71"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapMapUtility.F31119D42360B5B71
+function C4C4FF42FD0440DAC_prototype:F31119D42360B5B71(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   L3_2 = {}
   L4_2 = A1_2[1]
-  L5_2 = A0_2[18]
+  L5_2 = self[18]
   L5_2 = L5_2[1]
   L4_2 = L4_2 - L5_2
   L4_2 = L4_2 * L2_2
   L5_2 = A1_2[2]
-  L6_2 = A0_2[18]
+  L6_2 = self[18]
   L6_2 = L6_2[2]
   L5_2 = L5_2 - L6_2
   L5_2 = L5_2 * L2_2
@@ -599,14 +541,11 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4FF42FD0440DAC"]["prototype"]
-L69_1 = "F6DA195C5DAAEC974"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.YMapMapUtility.F6DA195C5DAAEC974
+function C4C4FF42FD0440DAC_prototype:F6DA195C5DAAEC974(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F659B1A9FDABA27CC
+  L4_2 = self
+  L3_2 = self.F659B1A9FDABA27CC
   L5_2 = A2_2
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = {}

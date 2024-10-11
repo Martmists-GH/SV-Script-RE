@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C570AA38152DDF356"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C570AA38152DDF356"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C570AA38152DDF356"]
-L69_1 = "__name__"
-L70_1 = "C570AA38152DDF356"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C570AA38152DDF356"]
-L69_1 = "S763DBD82A9516476"
+---@alias C570AA38152DDF356 main_event_command_util_CommandUtil
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class main_event_command_util_CommandUtil
+C570AA38152DDF356 = L15_1()
+C570AA38152DDF356.new = {}
+C570AA38152DDF356.__name__ = "C570AA38152DDF356"
+--- main.event.command.util.CommandUtil.CalcNearestGroundPosition
+function C570AA38152DDF356.S763DBD82A9516476(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L4_2 = nil
   L5_2 = nil
@@ -150,11 +141,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C570AA38152DDF356"]
-L69_1 = "S33060D9143D9C075"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.util.CommandUtil.S33060D9143D9C075
+function C570AA38152DDF356.S33060D9143D9C075(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = 60
   L3_2 = L2_2
@@ -179,11 +167,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C570AA38152DDF356"]
-L69_1 = "S2EF068F7E5D48BA3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.util.CommandUtil.S2EF068F7E5D48BA3
+function C570AA38152DDF356.S2EF068F7E5D48BA3(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = C570AA38152DDF356
   L3_2 = L3_2.S77AC616964461255
@@ -207,11 +192,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C570AA38152DDF356"]
-L69_1 = "S77AC616964461255"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.util.CommandUtil.S77AC616964461255
+function C570AA38152DDF356.S77AC616964461255(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = 0
   L3_2 = 0
@@ -256,11 +238,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C570AA38152DDF356"]
-L69_1 = "SC86B0F88D107EC4C"
-
-function L70_1()
+--- main.event.command.util.CommandUtil.SC86B0F88D107EC4C
+function C570AA38152DDF356.SC86B0F88D107EC4C()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = L43_1.new
   L0_2 = L0_2()
@@ -369,11 +348,8 @@ function L70_1()
   return L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C570AA38152DDF356"]
-L69_1 = "SAB3E784DE03A7219"
-
-function L70_1(A0_2)
+--- main.event.command.util.CommandUtil.SAB3E784DE03A7219
+function C570AA38152DDF356.SAB3E784DE03A7219(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = nil
   L2_2 = c016374C1

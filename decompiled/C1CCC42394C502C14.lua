@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C1CCC42394C502C14"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C1CCC42394C502C14"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CCC42394C502C14"]
-L69_1 = "__name__"
-L70_1 = "C1CCC42394C502C14"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CCC42394C502C14"]
-L69_1 = "SCFB9485B1B78F78B"
+---@alias C1CCC42394C502C14 main_ui_shop_util_ShopUIUtil
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class main_ui_shop_util_ShopUIUtil
+C1CCC42394C502C14 = L15_1()
+C1CCC42394C502C14.new = {}
+C1CCC42394C502C14.__name__ = "C1CCC42394C502C14"
+--- main.ui.shop.util.ShopUIUtil.GetAddQuantity
+function C1CCC42394C502C14.SCFB9485B1B78F78B(A0_2, A1_2, A2_2, A3_2)
   local L4_2
   if nil == A3_2 then
     A3_2 = 1
@@ -34,11 +25,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CCC42394C502C14"]
-L69_1 = "SD7B74FFE6416B8CA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.shop.util.ShopUIUtil.GetSubQuantity
+function C1CCC42394C502C14.SD7B74FFE6416B8CA(A0_2, A1_2, A2_2, A3_2)
   local L4_2
   if nil == A3_2 then
     A3_2 = 1
@@ -58,11 +46,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CCC42394C502C14"]
-L69_1 = "S907990CDBDE161AD"
-
-function L70_1(A0_2)
+--- main.ui.shop.util.ShopUIUtil.IsSaleItem
+function C1CCC42394C502C14.S907990CDBDE161AD(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA1F5014C1C7F3381
   L1_2 = L1_2.SF315D0B46DE7EE62
@@ -90,11 +75,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CCC42394C502C14"]
-L69_1 = "S6EAF3D34CEC74F63"
-
-function L70_1(A0_2)
+--- main.ui.shop.util.ShopUIUtil.IsOverPlayerOkozukai
+function C1CCC42394C502C14.S6EAF3D34CEC74F63(A0_2)
   local L1_2, L2_2
   L1_2 = CCD22EFED4E9E5F89
   L1_2 = L1_2.S53009D40E3F7ABEC
@@ -106,11 +88,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CCC42394C502C14"]
-L69_1 = "S783B918C40752EEF"
-
-function L70_1(A0_2)
+--- main.ui.shop.util.ShopUIUtil.IsOverPlayerLeaguePay
+function C1CCC42394C502C14.S783B918C40752EEF(A0_2)
   local L1_2, L2_2
   L1_2 = CCD22EFED4E9E5F89
   L1_2 = L1_2.S53009D40E3F7ABEC
@@ -122,11 +101,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CCC42394C502C14"]
-L69_1 = "SB6977DEDB73615BF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.util.ShopUIUtil.GetShopNameStr
+function C1CCC42394C502C14.SB6977DEDB73615BF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = cB3DDDC2A
   L2_2 = L2_2.f5B6373D5
@@ -160,11 +136,8 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CCC42394C502C14"]
-L69_1 = "S299638EFA13D49B1"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.util.ShopUIUtil.S299638EFA13D49B1
+function C1CCC42394C502C14.S299638EFA13D49B1(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   if 2 ~= A0_2 then
     L2_2 = C6BC8418E8E071EE6
@@ -185,11 +158,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CCC42394C502C14"]
-L69_1 = "S4DA51B4383400113"
-
-function L70_1(A0_2)
+--- main.ui.shop.util.ShopUIUtil.S4DA51B4383400113
+function C1CCC42394C502C14.S4DA51B4383400113(A0_2)
   local L1_2
   if 0 == A0_2 then
     L1_2 = "shop_item_info_01"
@@ -203,11 +173,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CCC42394C502C14"]
-L69_1 = "SF00962E2820E5555"
-
-function L70_1(A0_2)
+--- main.ui.shop.util.ShopUIUtil.PutShopBg
+function C1CCC42394C502C14.SF00962E2820E5555(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C1CCC42394C502C14
   L1_2 = L1_2.SE11E55DF909EE96C
@@ -222,11 +189,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1CCC42394C502C14"]
-L69_1 = "SE11E55DF909EE96C"
-
-function L70_1(A0_2)
+--- main.ui.shop.util.ShopUIUtil.GetShopBgType
+function C1CCC42394C502C14.SE11E55DF909EE96C(A0_2)
   local L1_2
   if 1 == A0_2 or 15 == A0_2 or 16 == A0_2 or 17 == A0_2 then
     L1_2 = 75

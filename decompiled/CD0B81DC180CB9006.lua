@@ -1,3 +1,7 @@
+---@alias CD0B81DC180CB9006 main_ui_gym_Gym_denki_test_body_view
+
+---@class main_ui_gym_Gym_denki_test_body_view : CD0B81DC180CB9006_prototype
+---@field prototype CD0B81DC180CB9006_prototype
 L55_1 = _ENV
 L56_1 = "CD0B81DC180CB9006"
 L57_1 = L15_1
@@ -43,36 +47,31 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CD0B81DC180CB9006"]
 L69_1 = "__name__"
 L70_1 = "CD0B81DC180CB9006"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0B81DC180CB9006"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0B81DC180CB9006"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CD0B81DC180CB9006_prototype
+CD0B81DC180CB9006_prototype = L15_1()
+CD0B81DC180CB9006.prototype = CD0B81DC180CB9006_prototype
+--- main.ui.gym.Gym_denki_test_body_view.Setup
+function CD0B81DC180CB9006_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CBEC7612911A473C9
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[10] = L2_2
+  self[10] = L2_2
   L2_2 = nil
   L3_2 = cECF00344
   L3_2 = L3_2.fB3E547E8
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[10]
+    L3_2 = self[10]
     L4_2 = L3_2
     L3_2 = L3_2.f2A9CF058
     L5_2 = false
@@ -80,26 +79,20 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0B81DC180CB9006"]["prototype"]
-L69_1 = "F4E2B8988DAD3075F"
-
-function L70_1(A0_2)
+--- main.ui.gym.Gym_denki_test_body_view.getMessageWindowState
+function CD0B81DC180CB9006_prototype:F4E2B8988DAD3075F()
   local L1_2, L2_2, L3_2
   L1_2 = c2A84524D
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f5B268E4E
   L2_2, L3_2 = L2_2(L3_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0B81DC180CB9006"]["prototype"]
-L69_1 = "F55C1C1048729E0BB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.gym.Gym_denki_test_body_view.ShowMessage
+function CD0B81DC180CB9006_prototype:F55C1C1048729E0BB(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L4_2 = E366415E12D9CEAB1
   L4_2 = L4_2.TALK
@@ -131,8 +124,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L9_2 = A1_2
   L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L7_2(L8_2, L9_2)
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.F0C089FCEAD3626BE
+  L7_2 = self
+  L6_2 = self.F0C089FCEAD3626BE
   L8_2 = L5_2
   L9_2 = "L_msg_denki_00/"
   L10_2 = L4_2
@@ -164,24 +157,24 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L8_2 = L6_2.fC814A67F
   L10_2 = A3_2
   L8_2(L9_2, L10_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.FE86CE14E4CF30949
+  L9_2 = self
+  L8_2 = self.FE86CE14E4CF30949
   L10_2 = L6_2
   L11_2 = L4_2
-  L13_2 = A0_2
-  L12_2 = A0_2.F4E2B8988DAD3075F
+  L13_2 = self
+  L12_2 = self.F4E2B8988DAD3075F
   L12_2 = L12_2(L13_2)
   L13_2 = ""
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2)
   while true do
-    L9_2 = A0_2
-    L8_2 = A0_2.F47F416B87A281F2C
+    L9_2 = self
+    L8_2 = self.F47F416B87A281F2C
     L8_2 = L8_2(L9_2)
     if not L8_2 then
       break
     end
-    L9_2 = A0_2
-    L8_2 = A0_2.FB237EB8902E0B201
+    L9_2 = self
+    L8_2 = self.FB237EB8902E0B201
     L8_2 = L8_2(L9_2)
     if L8_2 then
       break
@@ -192,23 +185,20 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD0B81DC180CB9006"]["prototype"]
-L69_1 = "FCE5749E03D21D06A"
-
-function L70_1(A0_2)
+--- main.ui.gym.Gym_denki_test_body_view.CloseMessage
+function CD0B81DC180CB9006_prototype:FCE5749E03D21D06A()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F47F416B87A281F2C
+  L2_2 = self
+  L1_2 = self.F47F416B87A281F2C
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     L2_2 = L1_2
     L1_2 = L1_2.fA33878C9
     L1_2(L2_2)
     while true do
-      L2_2 = A0_2
-      L1_2 = A0_2.F47F416B87A281F2C
+      L2_2 = self
+      L1_2 = self.F47F416B87A281F2C
       L1_2 = L1_2(L2_2)
       if not L1_2 then
         break

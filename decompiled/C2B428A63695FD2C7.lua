@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C2B428A63695FD2C7"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C2B428A63695FD2C7"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B428A63695FD2C7"]
-L69_1 = "__name__"
-L70_1 = "C2B428A63695FD2C7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B428A63695FD2C7"]
-L69_1 = "S988D7D0A4EEF693D"
+---@alias C2B428A63695FD2C7 main_encount_EncountCreatePokepara
 
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+---@class main_encount_EncountCreatePokepara
+C2B428A63695FD2C7 = L15_1()
+C2B428A63695FD2C7.new = {}
+C2B428A63695FD2C7.__name__ = "C2B428A63695FD2C7"
+--- main.encount.EncountCreatePokepara.Create
+function C2B428A63695FD2C7.S988D7D0A4EEF693D(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2
   L8_2 = cC99399C3
   L8_2 = L8_2.f101D811F
@@ -406,11 +397,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   return L18_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B428A63695FD2C7"]
-L69_1 = "SD7AEDB4770FEE130"
-
-function L70_1(A0_2)
+--- main.encount.EncountCreatePokepara.LotRibbon
+function C2B428A63695FD2C7.SD7AEDB4770FEE130(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = A0_2
   L1_2 = A0_2.fDAAAA586
@@ -513,11 +501,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B428A63695FD2C7"]
-L69_1 = "S6C5ADFB02A02AAA6"
-
-function L70_1()
+--- main.encount.EncountCreatePokepara.CheckBirthday
+function C2B428A63695FD2C7.S6C5ADFB02A02AAA6()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = C10578806AC30DCA3
   L0_2 = L0_2.SBA6FF574C1C9AA09

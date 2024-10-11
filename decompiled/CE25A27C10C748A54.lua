@@ -1,3 +1,5 @@
+---@class CE25A27C10C748A54 : CE25A27C10C748A54_prototype
+---@field prototype CE25A27C10C748A54_prototype
 L55_1 = _ENV
 L56_1 = "CE25A27C10C748A54"
 L57_1 = L15_1
@@ -50,18 +52,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE25A27C10C748A54"]
 L69_1 = "__name__"
 L70_1 = "CE25A27C10C748A54"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE25A27C10C748A54"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE25A27C10C748A54"]["prototype"]
-L69_1 = "F9EF8B08DA4FDA9E4"
-
-function L70_1(A0_2)
+---@class CE25A27C10C748A54_prototype
+CE25A27C10C748A54_prototype = L15_1()
+CE25A27C10C748A54.prototype = CE25A27C10C748A54_prototype
+--- CE25A27C10C748A54.mainCoroutineFunc
+function CE25A27C10C748A54_prototype:F9EF8B08DA4FDA9E4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L1_2 = L1_2.owner
   L2_2 = L1_2
   L1_2 = L1_2.f16155D9E
@@ -77,10 +74,10 @@ function L70_1(A0_2)
   L6_2 = L3_2
   L7_2 = C732F0C85E26F39DB
   L7_2 = L7_2.S71ACB91FB9FDC8FB
-  L8_2 = A0_2[7]
-  L9_2 = A0_2[7]
+  L8_2 = self[7]
+  L9_2 = self[7]
   L7_2 = L7_2(L8_2, L9_2)
-  L8_2 = A0_2[8]
+  L8_2 = self[8]
   L9_2 = {}
   L10_2 = L7_2[1]
   L11_2 = L4_2 * L8_2
@@ -94,7 +91,7 @@ function L70_1(A0_2)
   L9_2[1] = L10_2
   L9_2[2] = L11_2
   L9_2[3] = L12_2
-  L10_2 = A0_2[7]
+  L10_2 = self[7]
   L10_2 = L10_2.owner
   L11_2 = L10_2
   L10_2 = L10_2.f16155D9E
@@ -118,7 +115,7 @@ function L70_1(A0_2)
   L13_2[1] = L14_2
   L13_2[2] = L15_2
   L13_2[3] = L16_2
-  L14_2 = A0_2[7]
+  L14_2 = self[7]
   L14_2 = L14_2.owner
   L15_2 = L14_2
   L14_2 = L14_2.f16155D9E
@@ -142,10 +139,10 @@ function L70_1(A0_2)
   L17_2[1] = L18_2
   L17_2[2] = L19_2
   L17_2[3] = L20_2
-  L18_2 = A0_2[6]
+  L18_2 = self[6]
   if L18_2 then
-    L19_2 = A0_2
-    L18_2 = A0_2.F0B590296AF1F6638
+    L19_2 = self
+    L18_2 = self.F0B590296AF1F6638
     L20_2 = L9_2
     L21_2 = L7_2
     L22_2 = 3
@@ -153,8 +150,8 @@ function L70_1(A0_2)
     L24_2 = L17_2
     L18_2(L19_2, L20_2, L21_2, L22_2, L23_2, L24_2)
   else
-    L19_2 = A0_2
-    L18_2 = A0_2.FF3634ACC065EFA3A
+    L19_2 = self
+    L18_2 = self.FF3634ACC065EFA3A
     L20_2 = L9_2
     L21_2 = L7_2
     L22_2 = 3
@@ -164,15 +161,12 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE25A27C10C748A54"]["prototype"]
-L69_1 = "FF3634ACC065EFA3A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- CE25A27C10C748A54.eventCameraCoroutine
+function CE25A27C10C748A54_prototype:FF3634ACC065EFA3A(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L6_2 = C9F6C325569B7E07F
   L6_2 = L6_2.S80490B58FD0F731A
-  L7_2 = A0_2[5]
+  L7_2 = self[5]
   L8_2 = false
   L6_2(L7_2, L8_2)
   L6_2 = C9F6C325569B7E07F
@@ -227,11 +221,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE25A27C10C748A54"]["prototype"]
-L69_1 = "F0B590296AF1F6638"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- CE25A27C10C748A54.subCameraCoroutine
+function CE25A27C10C748A54_prototype:F0B590296AF1F6638(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L6_2 = CC8F2E9F4E619F78E
   L6_2 = L6_2.SE29389D94D7EC89E
@@ -285,11 +276,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE25A27C10C748A54"]["prototype"]
-L69_1 = "FBA69FB9D1674D19B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CE25A27C10C748A54.cameraLookAtPosition
+function CE25A27C10C748A54_prototype:FBA69FB9D1674D19B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L3_2 = A2_2.owner
   L4_2 = L3_2

@@ -1,3 +1,7 @@
+---@alias C0A14AC45C4A30062 main_ui_shop_common_view_ShopUICommonLayoutView
+
+---@class main_ui_shop_common_view_ShopUICommonLayoutView : C0A14AC45C4A30062_prototype
+---@field prototype C0A14AC45C4A30062_prototype
 L55_1 = _ENV
 L56_1 = "C0A14AC45C4A30062"
 L57_1 = L15_1
@@ -42,52 +46,44 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C0A14AC45C4A30062"]
 L69_1 = "__name__"
 L70_1 = "C0A14AC45C4A30062"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A14AC45C4A30062"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A14AC45C4A30062"]["prototype"]
-L69_1 = "F3697F703C19063FF"
-
-function L70_1(A0_2)
+---@class C0A14AC45C4A30062_prototype
+C0A14AC45C4A30062_prototype = L15_1()
+C0A14AC45C4A30062.prototype = C0A14AC45C4A30062_prototype
+--- main.ui.shop.common.view.ShopUICommonLayoutView.get_commonLayoutUtil
+function C0A14AC45C4A30062_prototype:F3697F703C19063FF()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A14AC45C4A30062"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.common.view.ShopUICommonLayoutView.Setup
+function C0A14AC45C4A30062_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = CDC3F92928A2194E6
   L3_2 = L3_2.prototype
   L3_2 = L3_2.F7C68FEDB79AB6396
-  L4_2 = A0_2
+  L4_2 = self
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
   L3_2 = C9CC979169E6BA3A6
   L3_2 = L3_2.new
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = "shop"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[3] = L3_2
+  self[3] = L3_2
   L3_2 = c69ACCC6F
   L3_2 = L3_2.f3F98EEAD
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
-  A0_2[5] = L3_2
+  self[5] = L3_2
   L3_2 = C6CA03C429771C8F9
   L3_2 = L3_2.new
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
-  A0_2[4] = L3_2
-  A0_2[6] = 0
-  L3_2 = A0_2[4]
+  self[4] = L3_2
+  self[6] = 0
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.FBD90BD4212B06A12
   L5_2 = 0
@@ -128,24 +124,21 @@ function L70_1(A0_2, A1_2)
   
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[8] = L4_2
+  self[8] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A14AC45C4A30062"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.common.view.ShopUICommonLayoutView.PreUpdate
+function C0A14AC45C4A30062_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[8]
+    L3_2 = self[8]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[8]
+      L2_2 = self[8]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -191,15 +184,15 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[9]
+      L2_2 = self[9]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -245,49 +238,43 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil ~= L2_2 then
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     if nil ~= L2_2 then
       goto lbl_116
     end
   end
   do return end
   ::lbl_116::
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.FBDF46C200B8C60D8
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A14AC45C4A30062"]["prototype"]
-L69_1 = "F8ECAA28B9538110D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.common.view.ShopUICommonLayoutView.CreateCoroutine
+function C0A14AC45C4A30062_prototype:F8ECAA28B9538110D(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.new
   L3_2 = A1_2
   L4_2 = "shop_ui_common_layout_sequence"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[9] = L2_2
+  self[9] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A14AC45C4A30062"]["prototype"]
-L69_1 = "F9DC0BD22BBB1DDF1"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.shop.common.view.ShopUICommonLayoutView.ScrollPanelViewStart
+function C0A14AC45C4A30062_prototype:F9DC0BD22BBB1DDF1(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
-  L6_2 = A0_2
-  L5_2 = A0_2.FF32CC3BE322652A8
+  L6_2 = self
+  L5_2 = self.FF32CC3BE322652A8
   L7_2 = "layout_00"
   L8_2 = 0
   L5_2(L6_2, L7_2, L8_2)
   L5_2 = L26_1.new
   L5_2 = L5_2()
-  A0_2[7] = L5_2
+  self[7] = L5_2
   L5_2 = 0
   L6_2 = false
   while true do
@@ -301,7 +288,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L8_2 = L7_2.F307BD8092CABDC3D
     L8_2 = L8_2(L9_2)
     if not (L8_2 <= 0) then
-      L8_2 = A0_2[7]
+      L8_2 = self[7]
       L9_2 = L8_2
       L8_2 = L8_2.push
       L10_2 = L7_2
@@ -312,18 +299,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       break
     end
   end
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = L7_2
   L7_2 = L7_2.FBD90BD4212B06A12
-  L9_2 = A0_2[7]
+  L9_2 = self[7]
   L9_2 = L9_2.length
   L7_2(L8_2, L9_2)
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = L7_2
   L7_2 = L7_2.F7396F8916CCDCEE0
   L9_2 = 4
   L7_2(L8_2, L9_2)
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L8_2 = L7_2
   L7_2 = L7_2.FC8489078C201C47F
   L7_2 = L7_2(L8_2)
@@ -338,7 +325,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L9_2 = L9_2 .. L10_2
   L10_2 = A2_2
   L7_2(L8_2, L9_2, L10_2)
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L8_2 = L7_2
   L7_2 = L7_2.FC8489078C201C47F
   L7_2 = L7_2(L8_2)
@@ -353,7 +340,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L9_2 = L9_2 .. L10_2
   L10_2 = A3_2
   L7_2(L8_2, L9_2, L10_2)
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L8_2 = L7_2
   L7_2 = L7_2.FC8489078C201C47F
   L7_2 = L7_2(L8_2)
@@ -374,7 +361,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
   L7_2 = C1CCC42394C502C14
   L7_2 = L7_2.S4DA51B4383400113
-  L8_2 = A0_2[7]
+  L8_2 = self[7]
   L8_2 = L8_2[0]
   L9_2 = L8_2
   L8_2 = L8_2.F6B4E736F43C1495B
@@ -406,7 +393,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L13_2 = L7_2
   L11_2, L12_2, L13_2, L14_2, L15_2 = L11_2(L12_2, L13_2)
   L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
-  L10_2 = A0_2[3]
+  L10_2 = self[3]
   L11_2 = L10_2
   L10_2 = L10_2.FC8489078C201C47F
   L10_2 = L10_2(L11_2)
@@ -425,7 +412,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L10_2 = L10_2.SF315D0B46DE7EE62
   L10_2 = L10_2()
   if L10_2 then
-    L10_2 = A0_2[3]
+    L10_2 = self[3]
     L11_2 = L10_2
     L10_2 = L10_2.FB6D1FE1B1E10C33D
     L10_2 = L10_2(L11_2)
@@ -441,7 +428,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L13_2 = 1
     L10_2(L11_2, L12_2, L13_2)
   else
-    L10_2 = A0_2[3]
+    L10_2 = self[3]
     L11_2 = L10_2
     L10_2 = L10_2.FB6D1FE1B1E10C33D
     L10_2 = L10_2(L11_2)
@@ -459,17 +446,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A14AC45C4A30062"]["prototype"]
-L69_1 = "FFBF23C8DE8293903"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.shop.common.view.ShopUICommonLayoutView.FrameInEvent
+function C0A14AC45C4A30062_prototype:FFBF23C8DE8293903(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   if nil == L4_2 then
     return
   end
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L4_2 = L4_2.length
   L5_2 = A1_2 < 0
   
@@ -493,7 +477,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   if L6_2 then
     return
   end
-  L6_2 = A0_2[7]
+  L6_2 = self[7]
   L6_2 = L6_2[A1_2]
   L7_2 = L6_2
   L6_2 = L6_2.FD075151FFDA9788A
@@ -546,7 +530,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
     L8_2 = L9_2
   end
-  L9_2 = A0_2[3]
+  L9_2 = self[3]
   L10_2 = L9_2
   L9_2 = L9_2.FC8489078C201C47F
   L9_2 = L9_2(L10_2)
@@ -567,7 +551,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L11_2 = L11_2 .. L12_2
   L12_2 = L8_2
   L9_2(L10_2, L11_2, L12_2)
-  L9_2 = A0_2[7]
+  L9_2 = self[7]
   L9_2 = L9_2[A1_2]
   L10_2 = L9_2
   L9_2 = L9_2.F307BD8092CABDC3D
@@ -598,7 +582,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L15_2 = "shop_12"
   L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L13_2(L14_2, L15_2)
   L11_2 = L11_2(L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
-  L12_2 = A0_2[3]
+  L12_2 = self[3]
   L13_2 = L12_2
   L12_2 = L12_2.FC8489078C201C47F
   L12_2 = L12_2(L13_2)
@@ -621,13 +605,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L12_2(L13_2, L14_2, L15_2)
   L12_2 = C1CCC42394C502C14
   L12_2 = L12_2.S4DA51B4383400113
-  L13_2 = A0_2[7]
+  L13_2 = self[7]
   L13_2 = L13_2[A1_2]
   L14_2 = L13_2
   L13_2 = L13_2.F6B4E736F43C1495B
   L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L13_2(L14_2)
   L12_2 = L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
-  L13_2 = A0_2[7]
+  L13_2 = self[7]
   L13_2 = L13_2[A1_2]
   L14_2 = L13_2
   L13_2 = L13_2.FA2A8AFA3D5E3AA63
@@ -658,7 +642,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L19_2 = L12_2
   L17_2, L18_2, L19_2, L20_2, L21_2 = L17_2(L18_2, L19_2)
   L15_2 = L15_2(L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
-  L16_2 = A0_2[3]
+  L16_2 = self[3]
   L17_2 = L16_2
   L16_2 = L16_2.FC8489078C201C47F
   L16_2 = L16_2(L17_2)
@@ -681,89 +665,77 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L16_2(L17_2, L18_2, L19_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A14AC45C4A30062"]["prototype"]
-L69_1 = "FF32CC3BE322652A8"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop.common.view.ShopUICommonLayoutView.SetFrameAnime
+function C0A14AC45C4A30062_prototype:FF32CC3BE322652A8(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   if nil == L3_2 then
     return
   end
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.FF32CC3BE322652A8
   L5_2 = A1_2
   L6_2 = A2_2
   L3_2(L4_2, L5_2, L6_2)
-  A0_2[6] = A2_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FB3189E9A352B2D04
+  self[6] = A2_2
+  L4_2 = self
+  L3_2 = self.FB3189E9A352B2D04
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A14AC45C4A30062"]["prototype"]
-L69_1 = "FB3189E9A352B2D04"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop.common.view.ShopUICommonLayoutView.SetControl
+function C0A14AC45C4A30062_prototype:FB3189E9A352B2D04(A1_2)
   local L2_2, L3_2
   if nil == A1_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     if 0 == L2_2 then
-      L2_2 = A0_2[5]
+      L2_2 = self[5]
       L3_2 = L2_2
       L2_2 = L2_2.f89358001
       L2_2(L3_2)
     else
-      L2_2 = A0_2[5]
+      L2_2 = self[5]
       L3_2 = L2_2
       L2_2 = L2_2.f1EA0CCF2
       L2_2(L3_2)
     end
   elseif A1_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L2_2
     L2_2 = L2_2.f89358001
     L2_2(L3_2)
   else
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = L2_2
     L2_2 = L2_2.f1EA0CCF2
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A14AC45C4A30062"]["prototype"]
-L69_1 = "F4B14418238E3E740"
-
-function L70_1(A0_2)
+--- main.ui.shop.common.view.ShopUICommonLayoutView.IsStartControl
+function C0A14AC45C4A30062_prototype:F4B14418238E3E740()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c69ACCC6F
   L2_2 = L2_2.fEFEFCCBE
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.fE09DCCE4
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A14AC45C4A30062"]["prototype"]
-L69_1 = "FE53FB02F92557D98"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.shop.common.view.ShopUICommonLayoutView.SetPaneString
+function C0A14AC45C4A30062_prototype:FE53FB02F92557D98(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.FC8489078C201C47F
   L3_2 = L3_2(L4_2)

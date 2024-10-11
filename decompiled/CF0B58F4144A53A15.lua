@@ -1,3 +1,5 @@
+---@class CF0B58F4144A53A15 : CF0B58F4144A53A15_prototype
+---@field prototype CF0B58F4144A53A15_prototype
 L55_1 = _ENV
 L56_1 = "CF0B58F4144A53A15"
 L57_1 = L15_1
@@ -45,23 +47,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF0B58F4144A53A15"]
 L69_1 = "__name__"
 L70_1 = "CF0B58F4144A53A15"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0B58F4144A53A15"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0B58F4144A53A15"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CF0B58F4144A53A15_prototype
+CF0B58F4144A53A15_prototype = L15_1()
+CF0B58F4144A53A15.prototype = CF0B58F4144A53A15_prototype
+--- CF0B58F4144A53A15.onCreate
+function CF0B58F4144A53A15_prototype:FC87C731D11C58354()
   local L1_2, L2_2
   L1_2 = CF56EA274338C2C28
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC87C731D11C58354
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  A0_2[35] = "shop_leg_00"
+  self[35] = "shop_leg_00"
 end
 
 L68_1[L69_1] = L70_1

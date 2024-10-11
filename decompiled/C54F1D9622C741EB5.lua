@@ -1,3 +1,7 @@
+---@alias C54F1D9622C741EB5 main_ui_util_uikit_SwitchSequence
+
+---@class main_ui_util_uikit_SwitchSequence : C54F1D9622C741EB5_prototype
+---@field prototype C54F1D9622C741EB5_prototype
 L55_1 = _ENV
 L56_1 = "C54F1D9622C741EB5"
 L57_1 = L15_1
@@ -34,16 +38,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C54F1D9622C741EB5"]
 L69_1 = "__name__"
 L70_1 = "C54F1D9622C741EB5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C54F1D9622C741EB5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C54F1D9622C741EB5"]["prototype"]
-L69_1 = "FF435F1BC8FD36216"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+---@class C54F1D9622C741EB5_prototype
+C54F1D9622C741EB5_prototype = L15_1()
+C54F1D9622C741EB5.prototype = C54F1D9622C741EB5_prototype
+--- main.ui.util.uikit.SwitchSequence.SwitchInitSequence
+function C54F1D9622C741EB5_prototype:FF435F1BC8FD36216(A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A6_2 then
     A6_2 = 0
@@ -54,19 +53,19 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   if nil == A3_2 then
     A3_2 = "Switch_00"
   end
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   if nil == L7_2 then
     return
   end
   if nil == A2_2 then
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L8_2 = L7_2
     L7_2 = L7_2.F83882E463E5203A3
     L7_2 = L7_2(L8_2)
     A2_2 = L7_2
   end
   while true do
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L8_2 = L7_2
     L7_2 = L7_2.F123027EAAC92E911
     L7_2 = L7_2(L8_2)
@@ -77,7 +76,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
     L7_2 = L7_2.S760DAE4C5371A78E
     L7_2()
   end
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.F2206338A73CAD3F3
   L9_2 = A1_2

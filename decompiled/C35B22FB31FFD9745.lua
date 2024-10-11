@@ -1,3 +1,7 @@
+---@alias CBA84EF3B50A05EA6 main_env_wind_action_TurnDirectionWind
+
+---@class main_env_wind_action_TurnDirectionWind : CBA84EF3B50A05EA6_prototype
+---@field prototype CBA84EF3B50A05EA6_prototype
 L55_1 = _ENV
 L56_1 = "C35B22FB31FFD9745"
 L57_1 = L15_1
@@ -47,11 +51,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C35B22FB31FFD9745"]
 L69_1 = "__name__"
 L70_1 = "C35B22FB31FFD9745"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C35B22FB31FFD9745"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CBA84EF3B50A05EA6_prototype
+CBA84EF3B50A05EA6_prototype = L15_1()
+CBA84EF3B50A05EA6.prototype = CBA84EF3B50A05EA6_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C35B22FB31FFD9745"]["prototype"]
 L69_1 = _ENV["C35B22FB31FFD9745"]

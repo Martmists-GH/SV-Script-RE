@@ -1,3 +1,7 @@
+---@alias C41D52482C6B1E0EC main_nushi_hiko_HikoNushiRockClashEvent
+
+---@class main_nushi_hiko_HikoNushiRockClashEvent : C41D52482C6B1E0EC_prototype
+---@field prototype C41D52482C6B1E0EC_prototype
 L55_1 = _ENV
 L56_1 = "C41D52482C6B1E0EC"
 L57_1 = L15_1
@@ -48,21 +52,16 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C41D52482C6B1E0EC"]
 L69_1 = "__name__"
 L70_1 = "C41D52482C6B1E0EC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D52482C6B1E0EC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D52482C6B1E0EC"]["prototype"]
-L69_1 = "F795CBC2B12F8956D"
-
-function L70_1(A0_2)
+---@class C41D52482C6B1E0EC_prototype
+C41D52482C6B1E0EC_prototype = L15_1()
+C41D52482C6B1E0EC.prototype = C41D52482C6B1E0EC_prototype
+--- main.nushi.hiko.HikoNushiRockClashEvent.OnSetup
+function C41D52482C6B1E0EC_prototype:F795CBC2B12F8956D()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C41D52482C6B1E0EC
-  L2_2.S7D1E199BBD384D72 = A0_2
-  L2_2 = A0_2[1]
+  L2_2.S7D1E199BBD384D72 = self
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f462C9B70
   L2_2 = L2_2(L3_2)
@@ -97,25 +96,22 @@ function L70_1(A0_2)
   L3_2 = L2_2.fD4E64AB7
   L5_2 = "BattlePoint"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[82] = L3_2
+  self[82] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D52482C6B1E0EC"]["prototype"]
-L69_1 = "F4AAE9ED3D464BBD9"
-
-function L70_1(A0_2)
+--- main.nushi.hiko.HikoNushiRockClashEvent.RorePlay
+function C41D52482C6B1E0EC_prototype:F4AAE9ED3D464BBD9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2
-  L1_2 = A0_2
-  L2_2 = A0_2[46]
+  L1_2 = self
+  L2_2 = self[46]
   L3_2 = L2_2
   L2_2 = L2_2.F2CE29EE06B814825
-  L4_2 = A0_2[31]
+  L4_2 = self[31]
   L2_2(L3_2, L4_2)
   L2_2 = nil
   L3_2 = nil
   L4_2 = nil
-  L5_2 = A0_2[46]
+  L5_2 = self[46]
   L5_2 = L5_2[2]
   L6_2 = L5_2
   L5_2 = L5_2.f33A459EF
@@ -123,7 +119,7 @@ function L70_1(A0_2)
   L4_2 = L5_2
   L3_2 = L6_2
   L2_2 = L7_2
-  L8_2 = A0_2[46]
+  L8_2 = self[46]
   L8_2 = L8_2[2]
   L9_2 = L8_2
   L8_2 = L8_2.f40043336
@@ -131,7 +127,7 @@ function L70_1(A0_2)
   L9_2 = nil
   L10_2 = nil
   L11_2 = nil
-  L12_2 = A0_2[54]
+  L12_2 = self[54]
   L12_2 = L12_2[2]
   L13_2 = L12_2
   L12_2 = L12_2.f33A459EF
@@ -139,7 +135,7 @@ function L70_1(A0_2)
   L11_2 = L12_2
   L10_2 = L13_2
   L9_2 = L14_2
-  L15_2 = A0_2[8]
+  L15_2 = self[8]
   L16_2 = L15_2
   L15_2 = L15_2.f7360ED03
   L15_2, L16_2, L17_2 = L15_2(L16_2)
@@ -153,7 +149,7 @@ function L70_1(A0_2)
   L19_2 = L18_2[2]
   L19_2 = L19_2 + 3
   L18_2[2] = L19_2
-  L19_2 = A0_2[54]
+  L19_2 = self[54]
   L19_2 = L19_2[2]
   L20_2 = L19_2
   L19_2 = L19_2.f33A459EF
@@ -169,7 +165,7 @@ function L70_1(A0_2)
   L24_2[2] = L26_2
   L24_2[3] = L27_2
   L22_2 = L22_2(L23_2, L24_2)
-  L23_2 = A0_2[6]
+  L23_2 = self[6]
   L24_2 = L23_2
   L23_2 = L23_2.F7364C99F171973B4
   L25_2 = 1
@@ -231,17 +227,14 @@ function L70_1(A0_2)
   L23_2(L24_2, L25_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D52482C6B1E0EC"]["prototype"]
-L69_1 = "FDCE0F2D085162C45"
-
-function L70_1(A0_2)
+--- main.nushi.hiko.HikoNushiRockClashEvent.BattlePlay
+function C41D52482C6B1E0EC_prototype:FDCE0F2D085162C45()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FBBE7D21E7F460E64
+  L1_2 = self
+  L3_2 = self
+  L2_2 = self.FBBE7D21E7F460E64
   L2_2(L3_2)
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.F7EED485852A4D25F
   L4_2 = 0.6
@@ -425,15 +418,12 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D52482C6B1E0EC"]["prototype"]
-L69_1 = "FD4A6DBEA6ED52F14"
-
-function L70_1(A0_2)
+--- main.nushi.hiko.HikoNushiRockClashEvent.GetWallCamera
+function C41D52482C6B1E0EC_prototype:FD4A6DBEA6ED52F14()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CDFB73C57B78A1F2F
   L1_2 = L1_2.new
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f462C9B70
   L2_2 = L2_2(L3_2)
@@ -444,11 +434,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D52482C6B1E0EC"]["prototype"]
-L69_1 = "F79DB62750F6FF15D"
-
-function L70_1(A0_2)
+--- main.nushi.hiko.HikoNushiRockClashEvent.F79DB62750F6FF15D
+function C41D52482C6B1E0EC_prototype:F79DB62750F6FF15D()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C97862D1842859795
   L1_2 = L1_2.S7D1E199BBD384D72
@@ -474,18 +461,15 @@ function L70_1(A0_2)
       L2_2(L3_2, L4_2)
     end
   end
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   L2_2 = L1_2
   L1_2 = L1_2.f6754453E
   L3_2 = true
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C41D52482C6B1E0EC"]["prototype"]
-L69_1 = "F327C2342231C87BA"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.hiko.HikoNushiRockClashEvent.OnEat
+function C41D52482C6B1E0EC_prototype:F327C2342231C87BA(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S93A017D496A6D000

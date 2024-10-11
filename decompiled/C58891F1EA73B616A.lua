@@ -1,3 +1,7 @@
+---@alias C58891F1EA73B616A main_bgm_BGMSetStateCommand
+
+---@class main_bgm_BGMSetStateCommand : C58891F1EA73B616A_prototype
+---@field prototype C58891F1EA73B616A_prototype
 L55_1 = _ENV
 L56_1 = "C58891F1EA73B616A"
 L57_1 = L15_1
@@ -43,24 +47,19 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C58891F1EA73B616A"]
 L69_1 = "__name__"
 L70_1 = "C58891F1EA73B616A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C58891F1EA73B616A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C58891F1EA73B616A"]["prototype"]
-L69_1 = "F866E66DA26EE7358"
-
-function L70_1(A0_2)
+---@class C58891F1EA73B616A_prototype
+C58891F1EA73B616A_prototype = L15_1()
+C58891F1EA73B616A.prototype = C58891F1EA73B616A_prototype
+--- main.bgm.BGMSetStateCommand.Execute
+function C58891F1EA73B616A_prototype:F866E66DA26EE7358()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = cB66A3C78
   L1_2 = L1_2.fA925EE56
   L1_2 = L1_2()
   L2_2 = L1_2
   L1_2 = L1_2.f13673A82
-  L3_2 = A0_2[2]
-  L4_2 = A0_2[3]
+  L3_2 = self[2]
+  L4_2 = self[3]
   L1_2(L2_2, L3_2, L4_2)
 end
 

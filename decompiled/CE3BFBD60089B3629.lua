@@ -1,3 +1,5 @@
+---@class CE3BFBD60089B3629 : CE3BFBD60089B3629_prototype
+---@field prototype CE3BFBD60089B3629_prototype
 L55_1 = _ENV
 L56_1 = "CE3BFBD60089B3629"
 L57_1 = L15_1
@@ -53,23 +55,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE3BFBD60089B3629"]
 L69_1 = "__name__"
 L70_1 = "CE3BFBD60089B3629"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3BFBD60089B3629"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3BFBD60089B3629"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+---@class CE3BFBD60089B3629_prototype
+CE3BFBD60089B3629_prototype = L15_1()
+CE3BFBD60089B3629.prototype = CE3BFBD60089B3629_prototype
+--- CE3BFBD60089B3629.Update
+function CE3BFBD60089B3629_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.length
   if 0 == L2_2 then
     return
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.first
   L2_2 = L2_2(L3_2)
@@ -78,22 +75,22 @@ function L70_1(A0_2, A1_2)
     L4_2 = L2_2[16]
     L4_2 = L4_2.paralleled
     if L4_2 then
-      L4_2 = A0_2[5]
-      L5_2 = A0_2[3]
+      L4_2 = self[5]
+      L5_2 = self[3]
       if L4_2 == L5_2 then
         L3_2 = true
       else
-        L4_2 = A0_2[4]
+        L4_2 = self[4]
         L5_2 = L4_2
         L4_2 = L4_2.add
         L6_2 = L2_2
         L4_2(L5_2, L6_2)
-        L4_2 = A0_2[5]
+        L4_2 = self[5]
         L5_2 = L4_2
         L4_2 = L4_2.remove
         L6_2 = L2_2
         L4_2(L5_2, L6_2)
-        L4_2 = A0_2[5]
+        L4_2 = self[5]
         L5_2 = L4_2
         L4_2 = L4_2.first
         L4_2 = L4_2(L5_2)
@@ -107,24 +104,24 @@ function L70_1(A0_2, A1_2)
       L4_2 = L2_2.FEB6685558281F194
       L6_2 = A1_2
       L4_2 = L4_2(L5_2, L6_2)
-      L6_2 = A0_2
-      L5_2 = A0_2.F0FE550C40E7DB1D2
+      L6_2 = self
+      L5_2 = self.F0FE550C40E7DB1D2
       L7_2 = true
       L5_2(L6_2, L7_2)
       if L4_2 then
-        L5_2 = A0_2[5]
+        L5_2 = self[5]
         L6_2 = L5_2
         L5_2 = L5_2.remove
         L7_2 = L2_2
         L5_2(L6_2, L7_2)
-        L5_2 = A0_2[5]
-        L6_2 = A0_2[3]
+        L5_2 = self[5]
+        L6_2 = self[3]
         if L5_2 == L6_2 then
-          L5_2 = A0_2[5]
+          L5_2 = self[5]
           L5_2 = L5_2.length
           if 0 == L5_2 then
-            L5_2 = A0_2[2]
-            A0_2[5] = L5_2
+            L5_2 = self[2]
+            self[5] = L5_2
             L5_2 = CFC8F368D91411014
             L5_2 = L5_2.SDE9EF3CFD428417D
             L5_2 = L5_2[24]
@@ -133,13 +130,13 @@ function L70_1(A0_2, A1_2)
             L5_2[7] = true
           end
         end
-        L5_2 = A0_2[5]
+        L5_2 = self[5]
         L6_2 = L5_2
         L5_2 = L5_2.first
         L5_2 = L5_2(L6_2)
         L2_2 = L5_2
       else
-        L5_2 = A0_2[5]
+        L5_2 = self[5]
         L6_2 = L5_2
         L5_2 = L5_2.first
         L5_2 = L5_2(L6_2)
@@ -158,10 +155,10 @@ function L70_1(A0_2, A1_2)
       break
     end
   end
-  L4_2 = A0_2[5]
-  L5_2 = A0_2[3]
+  L4_2 = self[5]
+  L5_2 = self[3]
   if L4_2 == L5_2 then
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L4_2 = L4_2.h
     L5_2 = false
     while nil ~= L4_2 do
@@ -181,7 +178,7 @@ function L70_1(A0_2, A1_2)
           L8_2 = L6_2
           L7_2 = L6_2.F40132972A491548C
           L7_2(L8_2)
-          L7_2 = A0_2[5]
+          L7_2 = self[5]
           L8_2 = L7_2
           L7_2 = L7_2.remove
           L9_2 = L6_2
@@ -193,19 +190,19 @@ function L70_1(A0_2, A1_2)
         break
       end
     end
-    L6_2 = A0_2[5]
+    L6_2 = self[5]
     L6_2 = L6_2.length
     if 0 == L6_2 then
-      L6_2 = A0_2[2]
-      A0_2[5] = L6_2
+      L6_2 = self[2]
+      self[5] = L6_2
       L6_2 = CFC8F368D91411014
       L6_2 = L6_2.SDE9EF3CFD428417D
       L6_2 = L6_2[24]
       L6_2 = L6_2[1]
       L6_2 = L6_2[9]
       L6_2[7] = true
-      L7_2 = A0_2
-      L6_2 = A0_2.FEB6685558281F194
+      L7_2 = self
+      L6_2 = self.FEB6685558281F194
       L8_2 = A1_2
       L6_2(L7_2, L8_2)
     else
@@ -227,23 +224,20 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3BFBD60089B3629"]["prototype"]
-L69_1 = "F0FE550C40E7DB1D2"
-
-function L70_1(A0_2, A1_2)
+--- CE3BFBD60089B3629.updateReservation
+function CE3BFBD60089B3629_prototype:F0FE550C40E7DB1D2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.length
   if 0 == L2_2 then
     return
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.first
   L2_2 = L2_2(L3_2)
   L3_2 = 0
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   while "event" do
     L5_2 = L4_2.length
     if not (L3_2 < L5_2) then
@@ -273,7 +267,7 @@ function L70_1(A0_2, A1_2)
     L6_2 = L5_2.event
     L6_2 = L6_2[14]
     if nil == L6_2 and A1_2 then
-      L6_2 = A0_2[5]
+      L6_2 = self[5]
       L7_2 = L6_2
       L6_2 = L6_2.first
       L6_2 = L6_2(L7_2)
@@ -289,32 +283,32 @@ function L70_1(A0_2, A1_2)
       L6_2 = L6_2[16]
       L6_2 = L6_2.paralleled
       if L6_2 then
-        L6_2 = A0_2[5]
+        L6_2 = self[5]
         L6_2 = L6_2.length
         if 0 == L6_2 then
-          L6_2 = A0_2[4]
+          L6_2 = self[4]
           L7_2 = L6_2
           L6_2 = L6_2.push
           L8_2 = L5_2.event
           L6_2(L7_2, L8_2)
       end
       elseif A1_2 then
-        L6_2 = A0_2[5]
+        L6_2 = self[5]
         L7_2 = L6_2
         L6_2 = L6_2.add
         L8_2 = L5_2.event
         L6_2(L7_2, L8_2)
       else
-        L6_2 = A0_2[5]
+        L6_2 = self[5]
         L6_2 = L6_2.length
         if 0 == L6_2 then
-          L6_2 = A0_2[6]
+          L6_2 = self[6]
           L7_2 = L6_2
           L6_2 = L6_2.push
           L8_2 = L5_2.event
           L6_2(L7_2, L8_2)
         else
-          L6_2 = A0_2[2]
+          L6_2 = self[2]
           L7_2 = L6_2
           L6_2 = L6_2.add
           L8_2 = L5_2.event
@@ -326,19 +320,19 @@ function L70_1(A0_2, A1_2)
       L6_2 = L6_2[16]
       L6_2 = L6_2.paralleled
       if L6_2 then
-        L6_2 = A0_2[4]
+        L6_2 = self[4]
         L7_2 = L6_2
         L6_2 = L6_2.push
         L8_2 = L5_2.event
         L6_2(L7_2, L8_2)
       elseif A1_2 then
-        L6_2 = A0_2[5]
+        L6_2 = self[5]
         L7_2 = L6_2
         L6_2 = L6_2.push
         L8_2 = L5_2.event
         L6_2(L7_2, L8_2)
       else
-        L6_2 = A0_2[6]
+        L6_2 = self[6]
         L7_2 = L6_2
         L6_2 = L6_2.add
         L8_2 = L5_2.event
@@ -346,22 +340,22 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.resize
   L7_2 = 0
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L5_2 = L5_2.length
   if L5_2 > 0 then
-    L5_2 = A0_2[6]
+    L5_2 = self[6]
     L6_2 = L5_2
     L5_2 = L5_2.last
     L5_2 = L5_2(L6_2)
-    L6_2 = A0_2[5]
-    L7_2 = A0_2[3]
+    L6_2 = self[5]
+    L7_2 = self[3]
     if L6_2 ~= L7_2 then
-      L6_2 = A0_2[2]
+      L6_2 = self[2]
       L7_2 = L6_2.h
       while nil ~= L7_2 do
         L8_2 = L7_2.item
@@ -376,14 +370,14 @@ function L70_1(A0_2, A1_2)
           L10_2 = L6_2.remove
           L12_2 = L8_2
           L10_2(L11_2, L12_2)
-          L10_2 = A0_2[3]
+          L10_2 = self[3]
           L11_2 = L10_2
           L10_2 = L10_2.add
           L12_2 = L8_2
           L10_2(L11_2, L12_2)
         end
       end
-      L8_2 = A0_2[4]
+      L8_2 = self[4]
       L9_2 = L8_2.h
       while nil ~= L9_2 do
         L10_2 = L9_2.item
@@ -398,32 +392,32 @@ function L70_1(A0_2, A1_2)
           L12_2 = L8_2.remove
           L14_2 = L10_2
           L12_2(L13_2, L14_2)
-          L12_2 = A0_2[3]
+          L12_2 = self[3]
           L13_2 = L12_2
           L12_2 = L12_2.add
           L14_2 = L10_2
           L12_2(L13_2, L14_2)
         end
       end
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       L10_2 = L10_2.length
       if L10_2 > 0 then
-        L10_2 = A0_2[3]
-        A0_2[5] = L10_2
+        L10_2 = self[3]
+        self[5] = L10_2
       end
     end
-    L6_2 = A0_2[6]
+    L6_2 = self[6]
     L6_2 = L6_2.h
     while nil ~= L6_2 do
       L7_2 = L6_2.item
       L6_2 = L6_2.next
-      L8_2 = A0_2[2]
+      L8_2 = self[2]
       L9_2 = L8_2
       L8_2 = L8_2.push
       L10_2 = L7_2
       L8_2(L9_2, L10_2)
     end
-    L7_2 = A0_2[5]
+    L7_2 = self[5]
     L8_2 = L7_2
     L7_2 = L7_2.first
     L7_2 = L7_2(L8_2)
@@ -437,18 +431,15 @@ function L70_1(A0_2, A1_2)
       L8_2 = L7_2.F4B4142DF9D2E3403
       L8_2(L9_2)
     end
-    L8_2 = A0_2[6]
+    L8_2 = self[6]
     L9_2 = L8_2
     L8_2 = L8_2.clear
     L8_2(L9_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3BFBD60089B3629"]["prototype"]
-L69_1 = "F9191B545B68EC8BB"
-
-function L70_1(A0_2, A1_2)
+--- CE3BFBD60089B3629.RegistListener
+function CE3BFBD60089B3629_prototype:F9191B545B68EC8BB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = A1_2
   L2_2 = A1_2.FBDA175393973D042
@@ -456,15 +447,15 @@ function L70_1(A0_2, A1_2)
   if -1 == L2_2 then
     return
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.push
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.length
   if not (L2_2 > 0) then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L2_2 = L2_2.length
     if not (L2_2 > 0) then
       return
@@ -472,7 +463,7 @@ function L70_1(A0_2, A1_2)
   end
   L2_2 = L43_1.new
   L2_2 = L2_2()
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2.h
   while nil ~= L3_2 do
     L4_2 = L3_2.item
@@ -507,11 +498,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3BFBD60089B3629"]["prototype"]
-L69_1 = "FB5967BC6C8DC6C9F"
-
-function L70_1(A0_2)
+--- CE3BFBD60089B3629.FB5967BC6C8DC6C9F
+function CE3BFBD60089B3629_prototype:FB5967BC6C8DC6C9F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -519,7 +507,7 @@ function L70_1(A0_2)
   L2_2[0] = 14
   L3_2 = 1
   L1_2 = L1_2(L2_2, L3_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.h
   while nil ~= L2_2 do
     L3_2 = L2_2.item
@@ -533,7 +521,7 @@ function L70_1(A0_2)
       return L4_2
     end
   end
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L3_2 = L3_2.h
   while nil ~= L3_2 do
     L4_2 = L3_2.item
@@ -551,15 +539,12 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3BFBD60089B3629"]["prototype"]
-L69_1 = "F3E305FB0EC33086C"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- CE3BFBD60089B3629.CountEvent
+function CE3BFBD60089B3629_prototype:F3E305FB0EC33086C(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = 0
   if A3_2 then
-    L5_2 = A0_2[5]
+    L5_2 = self[5]
     L5_2 = L5_2.h
     while nil ~= L5_2 do
       L6_2 = L5_2.item
@@ -581,7 +566,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
     return L4_2
   end
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L5_2 = L5_2.h
   while nil ~= L5_2 do
     L6_2 = L5_2.item
@@ -601,7 +586,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
     ::lbl_44::
   end
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L6_2 = L6_2.h
   while nil ~= L6_2 do
     L7_2 = L6_2.item

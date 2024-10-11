@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C75E168EC0E496281"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C75E168EC0E496281"]
-L69_1 = "new"
+---@alias C75E168EC0E496281 main_pokepicnic_camera_CookingPicnicCamera
 
-function L70_1(A0_2)
+---@class main_pokepicnic_camera_CookingPicnicCamera : C75E168EC0E496281_prototype
+---@field prototype C75E168EC0E496281_prototype
+C75E168EC0E496281 = L15_1()
+function C75E168EC0E496281.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C75E168EC0E496281
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75E168EC0E496281"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C75E168EC0E496281
+function C75E168EC0E496281.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = {}
   L3_2 = 0
@@ -53,11 +47,7 @@ function L70_1(A0_2, A1_2)
   A0_2[4] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75E168EC0E496281"]
-L69_1 = "__name__"
-L70_1 = "C75E168EC0E496281"
-L68_1[L69_1] = L70_1
+C75E168EC0E496281.__name__ = "C75E168EC0E496281"
 L68_1 = _ENV["C75E168EC0E496281"]
 L69_1 = "SFD27878071AFE88E"
 
@@ -77,18 +67,13 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75E168EC0E496281"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75E168EC0E496281"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+---@class C75E168EC0E496281_prototype
+C75E168EC0E496281_prototype = L15_1()
+C75E168EC0E496281.prototype = C75E168EC0E496281_prototype
+--- main.pokepicnic.camera.CookingPicnicCamera.OnUpdate
+function C75E168EC0E496281_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2, L51_2, L52_2, L53_2, L54_2, L55_2, L56_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.F68213DDDAE5764D3
   L2_2 = L2_2(L3_2)
@@ -131,7 +116,7 @@ function L70_1(A0_2, A1_2)
   L19_2 = L15_2
   L20_2 = L16_2
   L17_2(L18_2, L19_2, L20_2)
-  L17_2 = A0_2[4]
+  L17_2 = self[4]
   L18_2 = L17_2
   L17_2 = L17_2.F68213DDDAE5764D3
   L17_2 = L17_2(L18_2)
@@ -141,11 +126,11 @@ function L70_1(A0_2, A1_2)
   L18_2 = L17_2
   L17_2 = L17_2.F3FEFF3C913582076
   L17_2 = L17_2(L18_2)
-  L18_2 = A0_2[3]
+  L18_2 = self[3]
   if nil ~= L18_2 then
     L18_2 = L10_1.select
     L19_2 = 2
-    L20_2 = A0_2[3]
+    L20_2 = self[3]
     L21_2 = L20_2
     L20_2 = L20_2.FF657426FC1B0D20A
     L20_2 = L20_2(L21_2)
@@ -165,18 +150,18 @@ function L70_1(A0_2, A1_2)
     L20_2 = L18_2 + L20_2
     L21_2 = L10_1.math
     L21_2 = L21_2.abs
-    L22_2 = A0_2[5]
+    L22_2 = self[5]
     L22_2 = L22_2[2]
     L22_2 = L22_2 - L20_2
     L21_2 = L21_2(L22_2)
     L22_2 = 0.03
     if L21_2 >= L22_2 then
-      L21_2 = A0_2[5]
+      L21_2 = self[5]
       L21_2[2] = L20_2
     end
   end
-  L18_2 = A0_2[6]
-  L19_2 = A0_2[5]
+  L18_2 = self[6]
+  L19_2 = self[5]
   L20_2 = CD9AE7C27B00EB066
   L20_2 = L20_2.S05B90B9B5A6DE6BC
   L22_2 = A1_2
@@ -212,7 +197,7 @@ function L70_1(A0_2, A1_2)
   L21_2[1] = L22_2
   L21_2[2] = L23_2
   L21_2[3] = L24_2
-  A0_2[6] = L21_2
+  self[6] = L21_2
   L21_2 = CE585D738A30DF365
   L21_2 = L21_2.SF436BA81AC9AFBA8
   L23_2 = L2_2
@@ -222,7 +207,7 @@ function L70_1(A0_2, A1_2)
   L23_2 = L21_2
   L22_2 = L21_2.f1087DA78
   L22_2(L23_2)
-  L22_2 = A0_2[6]
+  L22_2 = self[6]
   L24_2 = L21_2
   L23_2 = L21_2.fCA247E7A
   L25_2 = L22_2[1]
@@ -238,7 +223,7 @@ function L70_1(A0_2, A1_2)
   L29_2 = {}
   L30_2 = 0
   L31_2 = 0
-  L32_2 = A0_2[6]
+  L32_2 = self[6]
   L32_2 = L32_2[2]
   L32_2 = L32_2 / 3
   L29_2[1] = L30_2
@@ -280,7 +265,7 @@ function L70_1(A0_2, A1_2)
   L37_2 = L37_2 + L38_2
   L38_2 = L29_2[3]
   L37_2 = L37_2 + L38_2
-  L38_2 = A0_2[6]
+  L38_2 = self[6]
   L38_2 = L38_2[2]
   L38_2 = L38_2 / 3
   L39_2 = C75E168EC0E496281
@@ -347,45 +332,39 @@ function L70_1(A0_2, A1_2)
   L54_2 = 0.0
   L51_2 = L51_2(L52_2, L53_2, L54_2)
   L47_2 = L51_2
-  L51_2 = A0_2[2]
+  L51_2 = self[2]
   L52_2 = L51_2
   L51_2 = L51_2.f4CBAEA98
   L53_2 = L35_2
   L54_2 = L36_2
   L55_2 = L37_2
   L51_2(L52_2, L53_2, L54_2, L55_2)
-  L51_2 = A0_2[2]
+  L51_2 = self[2]
   L52_2 = L51_2
   L51_2 = L51_2.f5E2B847F
   L53_2 = L47_2
   L51_2(L52_2, L53_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75E168EC0E496281"]["prototype"]
-L69_1 = "FBF02A2AE63AF40EC"
-
-function L70_1(A0_2)
+--- main.pokepicnic.camera.CookingPicnicCamera.OnStart
+function C75E168EC0E496281_prototype:FBF02A2AE63AF40EC()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = cAF8D78F3
   L1_2 = L1_2.f37537CF4
   L1_2 = L1_2()
   L2_2 = L1_2
   L1_2 = L1_2.f74CDFF75
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = true
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f20F12D73
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75E168EC0E496281"]["prototype"]
-L69_1 = "FC106B0B5B59826BF"
-
-function L70_1(A0_2)
+--- main.pokepicnic.camera.CookingPicnicCamera.OnFinish
+function C75E168EC0E496281_prototype:FC106B0B5B59826BF()
   local L1_2, L2_2, L3_2
   L1_2 = cAF8D78F3
   L1_2 = L1_2.f37537CF4

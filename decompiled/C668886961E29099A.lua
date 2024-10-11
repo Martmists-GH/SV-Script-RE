@@ -1,3 +1,7 @@
+---@alias C668886961E29099A main_field_gimmick_fixed_symbol_table_FixedSymbolTable
+
+---@class main_field_gimmick_fixed_symbol_table_FixedSymbolTable : C668886961E29099A_prototype
+---@field prototype C668886961E29099A_prototype
 L55_1 = _ENV
 L56_1 = "C668886961E29099A"
 L57_1 = L15_1
@@ -64,19 +68,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C668886961E29099A"]
 L69_1 = "__name__"
 L70_1 = "C668886961E29099A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C668886961E29099A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C668886961E29099A"]["prototype"]
-L69_1 = "F1C2E57C1B903E0B7"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class C668886961E29099A_prototype
+C668886961E29099A_prototype = L15_1()
+C668886961E29099A.prototype = C668886961E29099A_prototype
+--- main.field.gimmick.fixed_symbol.table.FixedSymbolTable.CreatePokemonParam
+function C668886961E29099A_prototype:F1C2E57C1B903E0B7(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FE7F89E0D56F79B29
+  L5_2 = self
+  L4_2 = self.FE7F89E0D56F79B29
   L6_2 = A1_2
   L4_2 = L4_2(L5_2, L6_2)
   if nil ~= L4_2 then
@@ -156,19 +155,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C668886961E29099A"]["prototype"]
-L69_1 = "FE3D2354A4A0B658E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.table.FixedSymbolTable.GetAiParam
+function C668886961E29099A_prototype:FE3D2354A4A0B658E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FE7F89E0D56F79B29
+  L3_2 = self
+  L2_2 = self.FE7F89E0D56F79B29
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if nil ~= L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FE5492E4B9D1C6E15
+    L4_2 = self
+    L3_2 = self.FE5492E4B9D1C6E15
     L5_2 = C7F881F5D9B6F6009
     L5_2 = L5_2.S4EAF82A0C1965109
     L6_2 = L2_2
@@ -181,19 +177,16 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C668886961E29099A"]["prototype"]
-L69_1 = "FF0D0D32B74A744AA"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.table.FixedSymbolTable.GetGenerationParam
+function C668886961E29099A_prototype:FF0D0D32B74A744AA(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FE7F89E0D56F79B29
+  L3_2 = self
+  L2_2 = self.FE7F89E0D56F79B29
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if nil ~= L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FBACCA4234B1173A9
+    L4_2 = self
+    L3_2 = self.FBACCA4234B1173A9
     L5_2 = C7F881F5D9B6F6009
     L5_2 = L5_2.S4EAF82A0C1965109
     L6_2 = L2_2
@@ -206,11 +199,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C668886961E29099A"]["prototype"]
-L69_1 = "FE5492E4B9D1C6E15"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.table.FixedSymbolTable.FE5492E4B9D1C6E15
+function C668886961E29099A_prototype:FE5492E4B9D1C6E15(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L16_1
   L3_2 = {}
@@ -268,11 +258,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C668886961E29099A"]["prototype"]
-L69_1 = "FBACCA4234B1173A9"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.table.FixedSymbolTable.FBACCA4234B1173A9
+function C668886961E29099A_prototype:FBACCA4234B1173A9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L16_1
   L3_2 = {}
@@ -337,13 +324,10 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C668886961E29099A"]["prototype"]
-L69_1 = "FE7F89E0D56F79B29"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.table.FixedSymbolTable.getTable
+function C668886961E29099A_prototype:FE7F89E0D56F79B29(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L47_1.tnull

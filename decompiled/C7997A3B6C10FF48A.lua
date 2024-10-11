@@ -1,3 +1,5 @@
+---@class C7997A3B6C10FF48A : C7997A3B6C10FF48A_prototype
+---@field prototype C7997A3B6C10FF48A_prototype
 L55_1 = _ENV
 L56_1 = "C7997A3B6C10FF48A"
 L57_1 = L15_1
@@ -45,23 +47,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C7997A3B6C10FF48A"]
 L69_1 = "__name__"
 L70_1 = "C7997A3B6C10FF48A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7997A3B6C10FF48A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7997A3B6C10FF48A"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C7997A3B6C10FF48A_prototype
+C7997A3B6C10FF48A_prototype = L15_1()
+C7997A3B6C10FF48A.prototype = C7997A3B6C10FF48A_prototype
+--- C7997A3B6C10FF48A.onCreate
+function C7997A3B6C10FF48A_prototype:FC87C731D11C58354()
   local L1_2, L2_2
   L1_2 = CF56EA274338C2C28
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC87C731D11C58354
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  A0_2[35] = "shop_eye_00"
+  self[35] = "shop_eye_00"
 end
 
 L68_1[L69_1] = L70_1

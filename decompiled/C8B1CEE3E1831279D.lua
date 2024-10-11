@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C8B1CEE3E1831279D"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]
-L69_1 = "new"
+---@alias C8B1CEE3E1831279D main_field_behaviour_scenario_main_champion_gym_denki_Gym_denki_popup
 
-function L70_1(A0_2)
+---@class main_field_behaviour_scenario_main_champion_gym_denki_Gym_denki_popup : C8B1CEE3E1831279D_prototype
+---@field prototype C8B1CEE3E1831279D_prototype
+C8B1CEE3E1831279D = L15_1()
+function C8B1CEE3E1831279D.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C8B1CEE3E1831279D
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C8B1CEE3E1831279D
+function C8B1CEE3E1831279D.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C8B1CEE3E1831279D"]
 L69_1 = "__name__"
 L70_1 = "C8B1CEE3E1831279D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]
-L69_1 = "S6C886FC694510481"
-
-function L70_1()
+--- main.field.behaviour.scenario.main.champion.gym.denki.Gym_denki_popup.IsValid
+function C8B1CEE3E1831279D.S6C886FC694510481()
   local L0_2, L1_2
   L0_2 = C8B1CEE3E1831279D
   L0_2 = L0_2.S264F26F6894F3392
@@ -54,11 +45,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]
-L69_1 = "S6E0D6CC59D3C61E1"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.behaviour.scenario.main.champion.gym.denki.Gym_denki_popup.EntryEventPopup
+function C8B1CEE3E1831279D.S6E0D6CC59D3C61E1(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L3_2 = C8B1CEE3E1831279D
   L3_2 = L3_2.S390F269C73026E8F
@@ -160,11 +148,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]
-L69_1 = "S54E815C91CF05044"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.field.behaviour.scenario.main.champion.gym.denki.Gym_denki_popup.EntryBossPopup
+function C8B1CEE3E1831279D.S54E815C91CF05044(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = C8B1CEE3E1831279D
   L4_2 = L4_2.S390F269C73026E8F
@@ -182,11 +167,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]
-L69_1 = "SE878C30A6A4B152B"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.field.behaviour.scenario.main.champion.gym.denki.Gym_denki_popup.EntryPopup
+function C8B1CEE3E1831279D.SE878C30A6A4B152B(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L5_2 = C8B1CEE3E1831279D
   L5_2 = L5_2.S80737FB7EB20BC24
@@ -282,11 +264,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]
-L69_1 = "S18CA8C325CAD3BE9"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.denki.Gym_denki_popup.getPosTable
+function C8B1CEE3E1831279D.S18CA8C325CAD3BE9(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
   L3_2 = C8B1CEE3E1831279D
@@ -310,35 +289,30 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C8B1CEE3E1831279D_prototype
+C8B1CEE3E1831279D_prototype = L15_1()
+C8B1CEE3E1831279D.prototype = C8B1CEE3E1831279D_prototype
+--- main.field.behaviour.scenario.main.champion.gym.denki.Gym_denki_popup.Setup
+function C8B1CEE3E1831279D_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C8B1CEE3E1831279D
-  L2_2.S264F26F6894F3392 = A0_2
+  L2_2.S264F26F6894F3392 = self
   L2_2 = C8B1CEE3E1831279D
   L2_2 = L2_2.S5E2C96CB96973DE8
   L3_2 = L2_2
   L2_2 = L2_2.f8C8B6BB6
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FC0345553D75921A3
+  L3_2 = self
+  L2_2 = self.FC0345553D75921A3
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F337B55FCD7038530
+  L3_2 = self
+  L2_2 = self.F337B55FCD7038530
   L2_2(L3_2)
   L2_2 = C8B1CEE3E1831279D
   L2_2 = L2_2.S3D4955DCFB3787BC
@@ -349,7 +323,7 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cCF781FB6
@@ -364,31 +338,25 @@ function L70_1(A0_2, A1_2)
     L6_2 = L6_2.SE360EF70C415A54C
     L4_2(L5_2, L6_2)
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F2F540FB5ED55CAEA
+  L5_2 = self
+  L4_2 = self.F2F540FB5ED55CAEA
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.denki.Gym_denki_popup.Destroy
+function C8B1CEE3E1831279D_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = C8B1CEE3E1831279D
   L1_2.S264F26F6894F3392 = nil
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]["prototype"]
-L69_1 = "F2F540FB5ED55CAEA"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.denki.Gym_denki_popup.CheckScriptUpdateEnable
+function C8B1CEE3E1831279D_prototype:F2F540FB5ED55CAEA()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = 0
   L2_2 = 0
@@ -407,7 +375,7 @@ function L70_1(A0_2)
   end
   L4_2 = cCF781FB6
   L4_2 = L4_2.fB41FD22F
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
   L5_2 = nil
   L6_2 = cCF781FB6
@@ -438,23 +406,17 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.denki.Gym_denki_popup.PreUpdate
+function C8B1CEE3E1831279D_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F859F41E5CBEEC5A2
+  L3_2 = self
+  L2_2 = self.F859F41E5CBEEC5A2
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]["prototype"]
-L69_1 = "F859F41E5CBEEC5A2"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.denki.Gym_denki_popup.updatePopupWindow
+function C8B1CEE3E1831279D_prototype:F859F41E5CBEEC5A2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = 0
   L3_2 = C8B1CEE3E1831279D
@@ -486,23 +448,20 @@ function L70_1(A0_2, A1_2)
         L5_2 = C8B1CEE3E1831279D
         L5_2 = L5_2.S3D4955DCFB3787BC
         L5_2[L4_2] = nil
-        L6_2 = A0_2
-        L5_2 = A0_2.F2F540FB5ED55CAEA
+        L6_2 = self
+        L5_2 = self.F2F540FB5ED55CAEA
         L5_2(L6_2)
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]["prototype"]
-L69_1 = "FC0345553D75921A3"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.denki.Gym_denki_popup.loadTable
+function C8B1CEE3E1831279D_prototype:FC0345553D75921A3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = cF52F390B
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cF52F390B
@@ -512,25 +471,22 @@ function L70_1(A0_2)
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = C8B1CEE3E1831279D
-    L5_2 = A0_2
-    L4_2 = A0_2.FE2034C5B3A1C1CE0
+    L5_2 = self
+    L4_2 = self.FE2034C5B3A1C1CE0
     L6_2 = L1_2
     L4_2 = L4_2(L5_2, L6_2)
     L3_2.S390F269C73026E8F = L4_2
     L3_2 = C8B1CEE3E1831279D
-    L5_2 = A0_2
-    L4_2 = A0_2.F4CE58E5987624C17
+    L5_2 = self
+    L4_2 = self.F4CE58E5987624C17
     L6_2 = L1_2
     L4_2 = L4_2(L5_2, L6_2)
     L3_2.S2503C1C05FF9A6EE = L4_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]["prototype"]
-L69_1 = "FE2034C5B3A1C1CE0"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.denki.Gym_denki_popup.loadPopupFixTable
+function C8B1CEE3E1831279D_prototype:FE2034C5B3A1C1CE0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -650,11 +606,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]["prototype"]
-L69_1 = "F4CE58E5987624C17"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.denki.Gym_denki_popup.loadPopupPosTable
+function C8B1CEE3E1831279D_prototype:F4CE58E5987624C17(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -717,11 +670,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1CEE3E1831279D"]["prototype"]
-L69_1 = "F337B55FCD7038530"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.denki.Gym_denki_popup.initializeAreaMap
+function C8B1CEE3E1831279D_prototype:F337B55FCD7038530()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = 0
   L2_2 = C8B1CEE3E1831279D

@@ -1,3 +1,5 @@
+---@class C9C8A3693C39BD1C9 : C9C8A3693C39BD1C9_prototype
+---@field prototype C9C8A3693C39BD1C9_prototype
 L55_1 = _ENV
 L56_1 = "C9C8A3693C39BD1C9"
 L57_1 = L15_1
@@ -34,18 +36,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9C8A3693C39BD1C9"]
 L69_1 = "__name__"
 L70_1 = "C9C8A3693C39BD1C9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C8A3693C39BD1C9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C8A3693C39BD1C9"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class C9C8A3693C39BD1C9_prototype
+C9C8A3693C39BD1C9_prototype = L15_1()
+C9C8A3693C39BD1C9.prototype = C9C8A3693C39BD1C9_prototype
+--- C9C8A3693C39BD1C9.Reset
+function C9C8A3693C39BD1C9_prototype:F96EA28F400597FA0(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  A0_2[1] = A1_2
+  self[1] = A1_2
   L4_2 = CF1D9D619D324F233
   L4_2 = L4_2.S5E67FD00348A0A28
   L4_2()
@@ -89,18 +86,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C8A3693C39BD1C9"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- C9C8A3693C39BD1C9.Update
+function C9C8A3693C39BD1C9_prototype:FEB6685558281F194(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L5_2 = 2
   while 2 == L5_2 or 1 == L5_2 do
     L6_2 = L5_2
     if 1 == L6_2 then
-      L8_2 = A0_2
-      L7_2 = A0_2.FDFDE33D6B34F61C3
+      L8_2 = self
+      L7_2 = self.FDFDE33D6B34F61C3
       L9_2 = A1_2
       L10_2 = A2_2
       L11_2 = A3_2
@@ -109,8 +103,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       L5_2 = L7_2
     else
       if 2 == L6_2 then
-        L8_2 = A0_2
-        L7_2 = A0_2.FDFDE34D6B34F6376
+        L8_2 = self
+        L7_2 = self.FDFDE34D6B34F6376
         L9_2 = A1_2
         L10_2 = A2_2
         L11_2 = A3_2
@@ -124,11 +118,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C8A3693C39BD1C9"]["prototype"]
-L69_1 = "FDFDE34D6B34F6376"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- C9C8A3693C39BD1C9.FDFDE34D6B34F6376
+function C9C8A3693C39BD1C9_prototype:FDFDE34D6B34F6376(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2
   L5_2 = nil
   if A4_2 then
@@ -154,7 +145,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
   L7_2 = L5_2
   L6_2 = L5_2.F96EA28F400597FA0
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = A3_2
   L6_2(L7_2, L8_2, L9_2)
   while true do
@@ -186,11 +177,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C8A3693C39BD1C9"]["prototype"]
-L69_1 = "FDFDE33D6B34F61C3"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- C9C8A3693C39BD1C9.FDFDE33D6B34F61C3
+function C9C8A3693C39BD1C9_prototype:FDFDE33D6B34F61C3(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L6_2 = A1_2
   L5_2 = A1_2.F8E6976B9790C6FCC
@@ -202,7 +190,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2 = L5_2(L6_2, L7_2)
   L7_2 = L5_2
   L6_2 = L5_2.F96EA28F400597FA0
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = A3_2.settingResult
   L9_2 = L9_2.rulePreset
   L10_2 = A3_2.settingResult

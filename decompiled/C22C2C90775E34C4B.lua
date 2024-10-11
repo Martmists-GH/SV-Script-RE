@@ -1,3 +1,7 @@
+---@alias C22C2C90775E34C4B main_pokepicnic_PicnicWallModule
+
+---@class main_pokepicnic_PicnicWallModule : C22C2C90775E34C4B_prototype
+---@field prototype C22C2C90775E34C4B_prototype
 L55_1 = _ENV
 L56_1 = "C22C2C90775E34C4B"
 L57_1 = L15_1
@@ -40,18 +44,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C22C2C90775E34C4B"]
 L69_1 = "__name__"
 L70_1 = "C22C2C90775E34C4B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C22C2C90775E34C4B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C22C2C90775E34C4B"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+---@class C22C2C90775E34C4B_prototype
+C22C2C90775E34C4B_prototype = L15_1()
+C22C2C90775E34C4B.prototype = C22C2C90775E34C4B_prototype
+--- main.pokepicnic.PicnicWallModule.Update
+function C22C2C90775E34C4B_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F68213DDDAE5764D3
   L2_2 = L2_2(L3_2)
@@ -69,7 +68,7 @@ function L70_1(A0_2, A1_2)
   L2_2, L3_2, L4_2 = L2_2(L3_2)
   L5_2 = L2_2
   L6_2 = L4_2
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.FDC15F0853CB8A772
   L7_2 = L7_2(L8_2)
@@ -89,7 +88,7 @@ function L70_1(A0_2, A1_2)
   L10_2 = L10_2.S629033F13CEAB136
   L9_2 = L9_2 * L10_2
   if L8_2 >= L9_2 then
-    L10_2 = A0_2[2]
+    L10_2 = self[2]
     if nil == L10_2 then
       L10_2 = C686F1362D22EB3C2
       L10_2 = L10_2.new
@@ -101,7 +100,7 @@ function L70_1(A0_2, A1_2)
       L11_2[2] = L13_2
       L11_2[3] = L14_2
       L10_2 = L10_2(L11_2)
-      A0_2[2] = L10_2
+      self[2] = L10_2
     end
     L10_2 = L7_2[1]
     L10_2 = L10_2 - L5_2
@@ -138,7 +137,7 @@ function L70_1(A0_2, A1_2)
     L21_2 = L21_2 - L9_2
     L20_2 = L20_2 / L21_2
     L19_2 = L19_2 * L20_2
-    L20_2 = A0_2[2]
+    L20_2 = self[2]
     L21_2 = {}
     L22_2 = L10_2 * L19_2
     L23_2 = L11_2 * L19_2
@@ -154,7 +153,7 @@ function L70_1(A0_2, A1_2)
     L20_2 = L20_2[3]
     L21_2 = L20_2
     L20_2 = L20_2.FB0E319FDADB5BBDD
-    L22_2 = A0_2[2]
+    L22_2 = self[2]
     L23_2 = false
     L20_2(L21_2, L22_2, L23_2)
   end

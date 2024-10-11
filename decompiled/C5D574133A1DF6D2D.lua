@@ -1,3 +1,7 @@
+---@alias C5D574133A1DF6D2D main_nushi_iwa_IwaNushiActor
+
+---@class main_nushi_iwa_IwaNushiActor : C5D574133A1DF6D2D_prototype
+---@field prototype C5D574133A1DF6D2D_prototype
 L55_1 = _ENV
 L56_1 = "C5D574133A1DF6D2D"
 L57_1 = L15_1
@@ -47,20 +51,15 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C5D574133A1DF6D2D"]
 L69_1 = "__name__"
 L70_1 = "C5D574133A1DF6D2D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "F795CBC2B12F8956D"
-
-function L70_1(A0_2, A1_2)
+---@class C5D574133A1DF6D2D_prototype
+C5D574133A1DF6D2D_prototype = L15_1()
+C5D574133A1DF6D2D.prototype = C5D574133A1DF6D2D_prototype
+--- main.nushi.iwa.IwaNushiActor.OnSetup
+function C5D574133A1DF6D2D_prototype:F795CBC2B12F8956D(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = C5D574133A1DF6D2D
-  L3_2.S7D1E199BBD384D72 = A0_2
+  L3_2.S7D1E199BBD384D72 = self
   L3_2 = C1DB14DCC9D7634FA
   L3_2 = L3_2.new
   
@@ -334,24 +333,21 @@ function L70_1(A0_2, A1_2)
   
   L5_2 = "IwaNushiActor"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[19] = L3_2
+  self[19] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "FDCB19E22FE1BB508"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.iwa.IwaNushiActor.OnPreUpdate
+function C5D574133A1DF6D2D_prototype:FDCB19E22FE1BB508(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[19]
+  L2_2 = self[19]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[19]
+    L3_2 = self[19]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[19]
+      L2_2 = self[19]
       L3_2 = L62_1
       L4_2 = L64_1.pack
       L5_2 = L10_1.coroutine
@@ -399,13 +395,13 @@ function L70_1(A0_2, A1_2)
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f8C7D4F4D
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     if nil ~= L3_2 then
-      L3_2 = A0_2[6]
+      L3_2 = self[6]
       L4_2 = L3_2
       L3_2 = L3_2.F3BC3E2DE6CE68A7D
       L5_2 = A1_2
@@ -414,13 +410,13 @@ function L70_1(A0_2, A1_2)
     L3_2 = nil
     L4_2 = c32245D3F
     L4_2 = L4_2.f9D6118A2
-    L5_2 = A0_2[20]
+    L5_2 = self[20]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
       L4_2 = CD6E40BD5CE9657FC
       L4_2 = L4_2.S9944A441EF810F31
-      L5_2 = A0_2[20]
+      L5_2 = self[20]
       L6_2 = L5_2
       L5_2 = L5_2.f5CB2CDFD
       L7_2 = 1 * L4_2
@@ -431,40 +427,34 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "FD7730EE42642F42A"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiActor.OnDestroy
+function C5D574133A1DF6D2D_prototype:FD7730EE42642F42A()
   local L1_2, L2_2, L3_2, L4_2
-  A0_2[18] = nil
+  self[18] = nil
   L1_2 = nil
   L2_2 = c32245D3F
   L2_2 = L2_2.f9D6118A2
-  L3_2 = A0_2[20]
+  L3_2 = self[20]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[20]
+    L2_2 = self[20]
     L3_2 = L2_2
     L2_2 = L2_2.f45624DCC
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "FAC621C7266E79083"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.nushi.iwa.IwaNushiActor.PathMove
+function C5D574133A1DF6D2D_prototype:FAC621C7266E79083(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
-  L4_2 = A0_2
-  L6_2 = A0_2
-  L5_2 = A0_2.F3C372AE2253F0424
+  L4_2 = self
+  L6_2 = self
+  L5_2 = self.F3C372AE2253F0424
   L7_2 = 1
   L8_2 = 1
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = L5_2
   L5_2 = L5_2.FAC621C7266E79083
   L7_2 = A1_2
@@ -554,13 +544,10 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "F7D65FEF7CBC1223F"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.iwa.IwaNushiActor.IsWallaction
+function C5D574133A1DF6D2D_prototype:F7D65FEF7CBC1223F(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.fF56461AF
   L2_2 = L2_2(L3_2)
@@ -571,13 +558,10 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "FF6DB9805E356A5E3"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiActor.WallIdle
+function C5D574133A1DF6D2D_prototype:FF6DB9805E356A5E3()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.fF56461AF
   L1_2 = L1_2(L2_2)
@@ -586,19 +570,16 @@ function L70_1(A0_2)
   L3_2 = "poke_state_int"
   L4_2 = 0
   L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F7D65FEF7CBC1223F
+  L2_2 = self
+  L1_2 = self.F7D65FEF7CBC1223F
   L3_2 = true
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "F4AC28E7FD54DDA86"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiActor.StandByJump
+function C5D574133A1DF6D2D_prototype:F4AC28E7FD54DDA86()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.fF56461AF
   L1_2 = L1_2(L2_2)
@@ -607,7 +588,7 @@ function L70_1(A0_2)
   L3_2 = "battle_wait_switch"
   L4_2 = true
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.fF56461AF
   L1_2 = L1_2(L2_2)
@@ -618,13 +599,10 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "F2FDBCA1DF6D7921D"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiActor.WallJump
+function C5D574133A1DF6D2D_prototype:F2FDBCA1DF6D7921D()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.fF56461AF
   L1_2 = L1_2(L2_2)
@@ -635,13 +613,10 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "FF5A0DCE41F0FA87B"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiActor.Aerial
+function C5D574133A1DF6D2D_prototype:FF5A0DCE41F0FA87B()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.fF56461AF
   L1_2 = L1_2(L2_2)
@@ -652,13 +627,10 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "F26119C5CA2C98E58"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.iwa.IwaNushiActor.Gaze
+function C5D574133A1DF6D2D_prototype:F26119C5CA2C98E58(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.fF56461AF
   L2_2 = L2_2(L3_2)
@@ -669,31 +641,25 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "F3C372AE2253F0424"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.nushi.iwa.IwaNushiActor.WallMove
+function C5D574133A1DF6D2D_prototype:F3C372AE2253F0424(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L4_2 = L3_2
   L3_2 = L3_2.f4AB15406
   L5_2 = A2_2
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L4_2 = L3_2
   L3_2 = L3_2.f4AB15406
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "F3CEA1BAFEA5D5553"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiActor.Idle
+function C5D574133A1DF6D2D_prototype:F3CEA1BAFEA5D5553()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.fF56461AF
   L1_2 = L1_2(L2_2)
@@ -702,25 +668,22 @@ function L70_1(A0_2)
   L3_2 = "poke_state_int"
   L4_2 = 0
   L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F7D65FEF7CBC1223F
+  L2_2 = self
+  L1_2 = self.F7D65FEF7CBC1223F
   L3_2 = false
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "F75F5C113389398B3"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiActor.EscapeMove
+function C5D574133A1DF6D2D_prototype:F75F5C113389398B3()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.f40A42377
   L3_2 = 1.8
   L4_2 = "default"
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.fF56461AF
   L1_2 = L1_2(L2_2)
@@ -729,13 +692,13 @@ function L70_1(A0_2)
   L3_2 = "move"
   L4_2 = 2
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.fD0B5837E
   L3_2 = false
   L4_2 = "default"
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.f8F5EA695
   L3_2 = false
@@ -744,44 +707,38 @@ function L70_1(A0_2)
   L1_2 = C929486B36C03E170
   L1_2 = L1_2.S1568648E89DE2B2C
   L2_2 = "PLAY_NUSHI_ROCK_RUN_AWAY1"
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "F6CB6B61E0483D4CE"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiActor.EscapeJump
+function C5D574133A1DF6D2D_prototype:F6CB6B61E0483D4CE()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.f40A42377
   L3_2 = 1
   L4_2 = "default"
   L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F4AC28E7FD54DDA86
+  L2_2 = self
+  L1_2 = self.F4AC28E7FD54DDA86
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F2FDBCA1DF6D7921D
+  L2_2 = self
+  L1_2 = self.F2FDBCA1DF6D7921D
   L1_2(L2_2)
   L1_2 = C929486B36C03E170
   L1_2 = L1_2.S1568648E89DE2B2C
   L2_2 = "PLAY_NUSHI_ROCK_JUMP2"
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L1_2(L2_2, L3_2)
   L1_2 = 0.3
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "FA31619028CE5B7B7"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiActor.PlayFallEffect
+function C5D574133A1DF6D2D_prototype:FA31619028CE5B7B7()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.fA5130C84
   L3_2 = false
@@ -789,22 +746,19 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "F08B3264C8817988A"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiActor.InstanceRockMove
+function C5D574133A1DF6D2D_prototype:F08B3264C8817988A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.f68159593
   L3_2 = "moveRock_R"
-  L4_2 = A0_2[13]
+  L4_2 = self[13]
   L1_2 = L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2[15]
+  L2_2 = self[15]
   L3_2 = L2_2
   L2_2 = L2_2.f7360ED03
   L2_2, L3_2, L4_2 = L2_2(L3_2)
@@ -816,21 +770,21 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
   L6_2 = L1_2
   L5_2 = L1_2.f24032F87
-  L7_2 = A0_2[15]
+  L7_2 = self[15]
   L8_2 = L7_2
   L7_2 = L7_2.f64857644
   L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2 = L7_2(L8_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f462C9B70
   L5_2 = L5_2(L6_2)
   L6_2 = L5_2
   L5_2 = L5_2.f68159593
   L7_2 = "moveRock_L"
-  L8_2 = A0_2[13]
+  L8_2 = self[13]
   L5_2 = L5_2(L6_2, L7_2, L8_2)
-  L6_2 = A0_2[16]
+  L6_2 = self[16]
   L7_2 = L6_2
   L6_2 = L6_2.f7360ED03
   L6_2, L7_2, L8_2 = L6_2(L7_2)
@@ -842,12 +796,12 @@ function L70_1(A0_2)
   L9_2(L10_2, L11_2, L12_2, L13_2)
   L10_2 = L5_2
   L9_2 = L5_2.f24032F87
-  L11_2 = A0_2[16]
+  L11_2 = self[16]
   L12_2 = L11_2
   L11_2 = L11_2.f64857644
   L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2 = L11_2(L12_2)
   L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
-  L9_2 = A0_2[17]
+  L9_2 = self[17]
   L10_2 = 1 * L9_2
   L11_2 = 1 * L9_2
   L12_2 = 1 * L9_2
@@ -863,12 +817,12 @@ function L70_1(A0_2)
   L16_2 = L11_2
   L17_2 = L12_2
   L13_2(L14_2, L15_2, L16_2, L17_2)
-  L13_2 = A0_2[14]
+  L13_2 = self[14]
   L14_2 = L13_2
   L13_2 = L13_2.push
   L15_2 = L1_2
   L13_2(L14_2, L15_2)
-  L13_2 = A0_2[14]
+  L13_2 = self[14]
   L14_2 = L13_2
   L13_2 = L13_2.push
   L15_2 = L5_2
@@ -876,46 +830,37 @@ function L70_1(A0_2)
   L13_2 = C929486B36C03E170
   L13_2 = L13_2.S1568648E89DE2B2C
   L14_2 = "PLAY_NUSHI_ROCK_WALL_DEBRIS"
-  L15_2 = A0_2[3]
+  L15_2 = self[3]
   L13_2(L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "FF6E2CB604D5F6E2A"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiActor.ImguiDebugSetUp
+function C5D574133A1DF6D2D_prototype:FF6E2CB604D5F6E2A()
   local L1_2
-  A0_2[18] = nil
+  self[18] = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "F9CA559B27A1440DD"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiActor.F9CA559B27A1440DD
+function C5D574133A1DF6D2D_prototype:F9CA559B27A1440DD()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F3A184C1C7E7C945A
+  L2_2 = self
+  L1_2 = self.F3A184C1C7E7C945A
   L1_2(L2_2)
   L1_2 = C93C391D0EC274FDF
   L1_2 = L1_2.S7D1E199BBD384D72
   L2_2 = L1_2
   L1_2 = L1_2.F321F292A07FFDCD9
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "F3A184C1C7E7C945A"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiActor.SetActorJumpPoint
+function C5D574133A1DF6D2D_prototype:F3A184C1C7E7C945A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = CC6BA33E403A7BBAB
   L1_2 = L1_2.S7D1E199BBD384D72
   L1_2 = L1_2[4]
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.f8F2B0552
   L4_2 = L1_2[1]
@@ -934,7 +879,7 @@ function L70_1(A0_2)
   L5_2 = L10_1.math
   L5_2 = L5_2.pi
   L4_2 = 0.8333333333333334 * L5_2
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L5_2
   L5_2 = L5_2.f24032F87
   L7_2 = cD5675BA5
@@ -946,16 +891,13 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5D574133A1DF6D2D"]["prototype"]
-L69_1 = "F1C8324BB56B82F0B"
-
-function L70_1(A0_2)
+--- main.nushi.iwa.IwaNushiActor.GetModelComp
+function C5D574133A1DF6D2D_prototype:F1C8324BB56B82F0B()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = c4E28AB7C
   L2_2 = L2_2.f68BF50E5
-  L3_2 = A0_2[21]
+  L3_2 = self[21]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -965,7 +907,7 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = cECB91E31
   L3_2 = L3_2.fB6A00A1B
-  L4_2 = A0_2[21]
+  L4_2 = self[21]
   L5_2 = L4_2
   L4_2 = L4_2.f24E22470
   L4_2 = L4_2(L5_2)
@@ -975,7 +917,7 @@ function L70_1(A0_2)
     L3_2 = nil
     return L3_2
   end
-  L3_2 = A0_2[21]
+  L3_2 = self[21]
   L4_2 = L3_2
   L3_2 = L3_2.f24E22470
   return L3_2(L4_2)

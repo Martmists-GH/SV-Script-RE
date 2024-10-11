@@ -1,3 +1,7 @@
+---@alias C1DE86ED14B4968DB main_ui_title_first_start_player_select_view_PlayerSelectUISkinView
+
+---@class main_ui_title_first_start_player_select_view_PlayerSelectUISkinView : C1DE86ED14B4968DB_prototype
+---@field prototype C1DE86ED14B4968DB_prototype
 L55_1 = _ENV
 L56_1 = "C1DE86ED14B4968DB"
 L57_1 = L15_1
@@ -51,21 +55,16 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C1DE86ED14B4968DB"]
 L69_1 = "__name__"
 L70_1 = "C1DE86ED14B4968DB"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1DE86ED14B4968DB"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1DE86ED14B4968DB"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C1DE86ED14B4968DB_prototype
+C1DE86ED14B4968DB_prototype = L15_1()
+C1DE86ED14B4968DB.prototype = C1DE86ED14B4968DB_prototype
+--- main.ui.title.first_start.player_select.view.PlayerSelectUISkinView.Setup
+function C1DE86ED14B4968DB_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = CFFE6D2CD907B3D13
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   
@@ -97,12 +96,12 @@ function L70_1(A0_2, A1_2)
   end
   
   L2_2 = L2_2()
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.push
   L5_2 = cECD2E4A5
   L5_2 = L5_2.f6906455E
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L31_1.string
   L8_2 = "Button_"
   L7_2 = L7_2(L8_2)
@@ -122,12 +121,12 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2 .. L8_2
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.push
   L5_2 = cECD2E4A5
   L5_2 = L5_2.f6906455E
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L31_1.string
   L8_2 = "Button_"
   L7_2 = L7_2(L8_2)
@@ -147,12 +146,12 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2 .. L8_2
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.push
   L5_2 = cECD2E4A5
   L5_2 = L5_2.f6906455E
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L31_1.string
   L8_2 = "Button_"
   L7_2 = L7_2(L8_2)
@@ -172,12 +171,12 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2 .. L8_2
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.push
   L5_2 = cECD2E4A5
   L5_2 = L5_2.f6906455E
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L31_1.string
   L8_2 = "Button_"
   L7_2 = L7_2(L8_2)
@@ -197,12 +196,12 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2 .. L8_2
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.push
   L5_2 = cECD2E4A5
   L5_2 = L5_2.f6906455E
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L31_1.string
   L8_2 = "Button_"
   L7_2 = L7_2(L8_2)
@@ -222,12 +221,12 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2 .. L8_2
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.push
   L5_2 = cECD2E4A5
   L5_2 = L5_2.f6906455E
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L31_1.string
   L8_2 = "Button_"
   L7_2 = L7_2(L8_2)
@@ -247,12 +246,12 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2 .. L8_2
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.push
   L5_2 = cECD2E4A5
   L5_2 = L5_2.f6906455E
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L31_1.string
   L8_2 = "Button_"
   L7_2 = L7_2(L8_2)
@@ -272,12 +271,12 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2 .. L8_2
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.push
   L5_2 = cECD2E4A5
   L5_2 = L5_2.f6906455E
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L31_1.string
   L8_2 = "Button_"
   L7_2 = L7_2(L8_2)
@@ -297,24 +296,24 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2 .. L8_2
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L4_2 = L3_2
   L3_2 = L3_2.f7DE56DB0
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.FC6CB485991CB9411
+  L6_2 = self
+  L7_2 = self.FC6CB485991CB9411
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-  A0_2[5] = "view_player_select_01"
-  L3_2 = A0_2[10]
+  self[5] = "view_player_select_01"
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.f8C8B6BB6
   L3_2(L4_2)
   L3_2 = cECD2E4A5
   L3_2 = L3_2.fBC1D4AC0
-  L4_2 = A0_2[1]
-  L6_2 = A0_2
-  L5_2 = A0_2.F916FEEF434451E58
+  L4_2 = self[1]
+  L6_2 = self
+  L5_2 = self.F916FEEF434451E58
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2 = L5_2(L6_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
   L4_2 = nil
@@ -332,7 +331,7 @@ function L70_1(A0_2, A1_2)
     L7_2 = false
     L5_2(L6_2, L7_2)
   end
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.fEAD9FB7D
   L7_2 = "L_cursor_00/catch"
@@ -340,42 +339,39 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1DE86ED14B4968DB"]["prototype"]
-L69_1 = "FE2823709CB81AA04"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.player_select.view.PlayerSelectUISkinView.ViewStart
+function C1DE86ED14B4968DB_prototype:FE2823709CB81AA04()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CFFE6D2CD907B3D13
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FE2823709CB81AA04
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FAC63FB6628846950
+  L2_2 = self
+  L1_2 = self.FAC63FB6628846950
   L3_2 = "in"
   L1_2(L2_2, L3_2)
   L1_2 = c8C3BF576
   L1_2 = L1_2.f46674724
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = "T_00"
   L4_2 = "player_select"
   L5_2 = "player_select_00_00"
   L1_2(L2_2, L3_2, L4_2, L5_2)
   L1_2 = c8C3BF576
   L1_2 = L1_2.f46674724
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = "T_01"
   L4_2 = "player_select"
   L5_2 = "player_select_00_01"
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f7798D9F4
   L3_2 = "L_cursor_01"
   L4_2 = true
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f72D2C186
   L3_2 = "L_cursor_01"
@@ -400,8 +396,8 @@ function L70_1(A0_2)
   L1_2 = L1_2.SDE3248A50E86E62B
   L2_2 = true
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F701C26C5710354C5
+  L2_2 = self
+  L1_2 = self.F701C26C5710354C5
   L1_2(L2_2)
   L1_2 = CF4B448D8C3744CAF
   L1_2 = L1_2.SDDCF2C31DADBAB65
@@ -409,22 +405,19 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1DE86ED14B4968DB"]["prototype"]
-L69_1 = "FC830DB3477DEA391"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.player_select.view.PlayerSelectUISkinView.ReStartSequence
+function C1DE86ED14B4968DB_prototype:FC830DB3477DEA391()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CFFE6D2CD907B3D13
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC830DB3477DEA391
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = cECD2E4A5
   L1_2 = L1_2.fBC1D4AC0
-  L2_2 = A0_2[1]
-  L4_2 = A0_2
-  L3_2 = A0_2.F916FEEF434451E58
+  L2_2 = self[1]
+  L4_2 = self
+  L3_2 = self.F916FEEF434451E58
   L3_2, L4_2, L5_2, L6_2, L7_2 = L3_2(L4_2)
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2)
   L2_2 = nil
@@ -446,7 +439,7 @@ function L70_1(A0_2)
     L3_2(L4_2, L5_2, L6_2, L7_2)
   end
   while true do
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fF8C77C75
     L5_2 = "in"
@@ -459,7 +452,7 @@ function L70_1(A0_2)
     L3_2()
   end
   while true do
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fF8C77C75
     L5_2 = "in"
@@ -486,7 +479,7 @@ function L70_1(A0_2)
     L6_2 = true
     L4_2(L5_2, L6_2)
   end
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L5_2 = L4_2
   L4_2 = L4_2.f89358001
   L4_2(L5_2)
@@ -496,19 +489,16 @@ function L70_1(A0_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1DE86ED14B4968DB"]["prototype"]
-L69_1 = "F2B8F4D1A92BBC209"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.title.first_start.player_select.view.PlayerSelectUISkinView.UpdateProcess
+function C1DE86ED14B4968DB_prototype:F2B8F4D1A92BBC209(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = CFFE6D2CD907B3D13
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F2B8F4D1A92BBC209
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.fE09DCCE4
   L2_2 = L2_2(L3_2)
@@ -524,29 +514,29 @@ function L70_1(A0_2, A1_2)
     L2_2 = L2_2.SC6181320B46854EE
     L3_2 = "PLAY_UI_COMMON_CANCEL"
     L2_2(L3_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.F99D83F59F72A66CB
+    L3_2 = self
+    L2_2 = self.F99D83F59F72A66CB
     L2_2 = L2_2(L3_2)
-    A0_2[3] = L2_2
-    L2_2 = A0_2[2]
+    self[3] = L2_2
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.fCAA89A79
     L4_2 = 50
     L2_2(L3_2, L4_2)
-    A0_2[4] = 1
+    self[4] = 1
     L2_2 = CF1D9D619D324F233
     L2_2 = L2_2.S5E67FD00348A0A28
     L2_2()
   end
   L2_2 = nil
-  L4_2 = A0_2
-  L3_2 = A0_2.F5ABD20DE04BDC629
+  L4_2 = self
+  L3_2 = self.F5ABD20DE04BDC629
   L3_2 = L3_2(L4_2)
   if L3_2 then
     L3_2 = nil
     L4_2 = c27E0D07E
     L4_2 = L4_2.fFC04274B
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     L2_2 = L4_2
@@ -554,19 +544,19 @@ function L70_1(A0_2, A1_2)
     L2_2 = false
   end
   if L2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fEAD9FB7D
     L5_2 = "L_cursor_00/normal"
     L6_2 = 0
     L3_2(L4_2, L5_2, L6_2)
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.f7798D9F4
     L5_2 = "L_cursor_01"
     L6_2 = false
     L3_2(L4_2, L5_2, L6_2)
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.f7798D9F4
     L5_2 = "A_alignment_00"
@@ -574,30 +564,30 @@ function L70_1(A0_2, A1_2)
     L3_2(L4_2, L5_2, L6_2)
     L3_2 = cECD2E4A5
     L3_2 = L3_2.fBC1D4AC0
-    L4_2 = A0_2[1]
-    L6_2 = A0_2
-    L5_2 = A0_2.F916FEEF434451E58
+    L4_2 = self[1]
+    L6_2 = self
+    L5_2 = self.F916FEEF434451E58
     L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L5_2(L6_2)
     L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
-    A0_2[8] = L3_2
+    self[8] = L3_2
     L3_2 = nil
     L4_2 = c27E0D07E
     L4_2 = L4_2.f0D6C1637
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       L5_2 = L4_2
       L4_2 = L4_2.f06E080B8
       L6_2 = cEBF4B147
       L6_2 = L6_2.f7AC1FE6B
-      L7_2 = A0_2[10]
+      L7_2 = self[10]
       L8_2 = L7_2
       L7_2 = L7_2.fDAAAA586
       L9_2 = 3
       L7_2 = L7_2(L8_2, L9_2)
-      L8_2 = A0_2[10]
+      L8_2 = self[10]
       L9_2 = L8_2
       L8_2 = L8_2.fDAAAA586
       L10_2 = 1
@@ -638,11 +628,11 @@ function L70_1(A0_2, A1_2)
   L3_2 = nil
   L4_2 = c27E0D07E
   L4_2 = L4_2.f0D6C1637
-  L5_2 = A0_2[8]
+  L5_2 = self[8]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L4_2 = A0_2[9]
+    L4_2 = self[9]
     L6_2 = A1_2
     L5_2 = A1_2.f22D509B2
     L7_2 = 2
@@ -651,20 +641,20 @@ function L70_1(A0_2, A1_2)
     L5_2 = L5_2.fC0E2CAD0
     L5_2 = L5_2(L6_2)
     L4_2 = L4_2 + L5_2
-    A0_2[9] = L4_2
-    L4_2 = A0_2[9]
+    self[9] = L4_2
+    L4_2 = self[9]
     L5_2 = 0.1
     if L4_2 > L5_2 then
-      L4_2 = A0_2[8]
+      L4_2 = self[8]
       L5_2 = L4_2
       L4_2 = L4_2.f33A1A337
       L4_2 = L4_2(L5_2)
       if false == L4_2 then
-        L4_2 = A0_2[8]
+        L4_2 = self[8]
         L5_2 = L4_2
         L4_2 = L4_2.f6F06128C
         L4_2(L5_2)
-        L4_2 = A0_2[8]
+        L4_2 = self[8]
         L5_2 = L4_2
         L4_2 = L4_2.f6277C172
         L6_2 = true
@@ -674,18 +664,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1DE86ED14B4968DB"]["prototype"]
-L69_1 = "FC6CB485991CB9411"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.player_select.view.PlayerSelectUISkinView.DisableEvent
+function C1DE86ED14B4968DB_prototype:FC6CB485991CB9411()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
   L2_2 = 0
   while L2_2 < 8 do
     L2_2 = L2_2 + 1
     L3_2 = L2_2 - 1
-    L4_2 = A0_2[7]
+    L4_2 = self[7]
     L4_2 = L4_2[L3_2]
     L5_2 = L4_2
     L4_2 = L4_2.fD51F4F1D
@@ -710,18 +697,18 @@ function L70_1(A0_2)
   L5_2 = "WSYS_PLAYER_SKIN_SELECT"
   L6_2 = L1_2
   L4_2(L5_2, L6_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F99D83F59F72A66CB
+  L5_2 = self
+  L4_2 = self.F99D83F59F72A66CB
   L4_2 = L4_2(L5_2)
-  A0_2[3] = L4_2
-  L4_2 = A0_2[2]
+  self[3] = L4_2
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.fCAA89A79
   L6_2 = 50
   L4_2(L5_2, L6_2)
-  A0_2[4] = 0
-  L5_2 = A0_2
-  L4_2 = A0_2.F934CD722D5FA5CF7
+  self[4] = 0
+  L5_2 = self
+  L4_2 = self.F934CD722D5FA5CF7
   L6_2 = L1_2
   L4_2(L5_2, L6_2)
   L4_2 = CF1D9D619D324F233
@@ -729,11 +716,8 @@ function L70_1(A0_2)
   L4_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1DE86ED14B4968DB"]["prototype"]
-L69_1 = "F934CD722D5FA5CF7"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.title.first_start.player_select.view.PlayerSelectUISkinView.SavePreset
+function C1DE86ED14B4968DB_prototype:F934CD722D5FA5CF7(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = CC2AF9F1B565172C1
   L2_2 = L2_2.S385504EFF7E842C3
@@ -795,11 +779,8 @@ function L70_1(A0_2, A1_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1DE86ED14B4968DB"]["prototype"]
-L69_1 = "F701C26C5710354C5"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.player_select.view.PlayerSelectUISkinView.SetVersionAnimation
+function C1DE86ED14B4968DB_prototype:F701C26C5710354C5()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   
   function L1_2()
@@ -817,7 +798,7 @@ function L70_1(A0_2)
   end
   
   L1_2 = L1_2()
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.fEAD9FB7D
   L4_2 = "ptn_version"
@@ -840,17 +821,14 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1DE86ED14B4968DB"]["prototype"]
-L69_1 = "FD86FD246F24CF1B2"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.player_select.view.PlayerSelectUISkinView.SetGridPanelTarget
+function C1DE86ED14B4968DB_prototype:FD86FD246F24CF1B2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = cECD2E4A5
   L1_2 = L1_2.fBC1D4AC0
-  L2_2 = A0_2[1]
-  L4_2 = A0_2
-  L3_2 = A0_2.F916FEEF434451E58
+  L2_2 = self[1]
+  L4_2 = self
+  L3_2 = self.F916FEEF434451E58
   L3_2, L4_2, L5_2, L6_2, L7_2 = L3_2(L4_2)
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2)
   L2_2 = nil
@@ -880,11 +858,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1DE86ED14B4968DB"]["prototype"]
-L69_1 = "F916FEEF434451E58"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.player_select.view.PlayerSelectUISkinView.GetGridPanelName
+function C1DE86ED14B4968DB_prototype:F916FEEF434451E58()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L31_1.string
   L2_2 = "GridPanel_"
@@ -921,11 +896,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1DE86ED14B4968DB"]["prototype"]
-L69_1 = "F5ABD20DE04BDC629"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.player_select.view.PlayerSelectUISkinView.StickCheck
+function C1DE86ED14B4968DB_prototype:F5ABD20DE04BDC629()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = cDFF6D3D5
   L1_2 = L1_2.fA32A6B81

@@ -1,3 +1,6 @@
+---@alias C86E0833815098A6D main_battle_parts_BattleFreeCamera
+
+---@class main_battle_parts_BattleFreeCamera
 L55_1 = _ENV
 L56_1 = "CAA1E1F7E4B92D76C"
 L57_1 = L15_1

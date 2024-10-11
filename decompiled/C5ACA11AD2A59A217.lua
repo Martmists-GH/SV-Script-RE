@@ -1,3 +1,5 @@
+---@class C5ACA11AD2A59A217 : C5ACA11AD2A59A217_prototype
+---@field prototype C5ACA11AD2A59A217_prototype
 L55_1 = _ENV
 L56_1 = "C5ACA11AD2A59A217"
 L57_1 = L15_1
@@ -63,46 +65,38 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C5ACA11AD2A59A217"]
 L69_1 = "__name__"
 L70_1 = "C5ACA11AD2A59A217"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5ACA11AD2A59A217"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5ACA11AD2A59A217"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+---@class C5ACA11AD2A59A217_prototype
+C5ACA11AD2A59A217_prototype = L15_1()
+C5ACA11AD2A59A217.prototype = C5ACA11AD2A59A217_prototype
+--- C5ACA11AD2A59A217.Update
+function C5ACA11AD2A59A217_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L1_2 = L1_2.length
   if 0 == L1_2 then
     return
   end
-  L1_2 = A0_2[3]
-  L2_2 = A0_2[2]
+  L1_2 = self[3]
+  L2_2 = self[2]
   L2_2 = L2_2[0]
   L1_2 = L1_2[L2_2]
   L2_2 = L1_2
   L1_2 = L1_2.FEB6685558281F194
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.remove
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L3_2 = L3_2[0]
     L1_2(L2_2, L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5ACA11AD2A59A217"]["prototype"]
-L69_1 = "FBD9CBDAEDA6CD51A"
-
-function L70_1(A0_2, A1_2)
+--- C5ACA11AD2A59A217.PushRequest
+function C5ACA11AD2A59A217_prototype:FBD9CBDAEDA6CD51A(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.push
   L4_2 = A1_2

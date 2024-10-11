@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CA013767251B59A1D"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CA013767251B59A1D"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA013767251B59A1D"]
-L69_1 = "__name__"
-L70_1 = "CA013767251B59A1D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA013767251B59A1D"]
-L69_1 = "S2CE0D771419703C9"
+---@alias CA013767251B59A1D main_ui_dressup_DressupUIText
 
-function L70_1()
+---@class main_ui_dressup_DressupUIText
+CA013767251B59A1D = L15_1()
+CA013767251B59A1D.new = {}
+CA013767251B59A1D.__name__ = "CA013767251B59A1D"
+--- main.ui.dressup.DressupUIText.YesNoContextMenu
+function CA013767251B59A1D.S2CE0D771419703C9()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CF1D9D619D324F233
   L0_2 = L0_2.S44577E0D8E8F3819
@@ -56,11 +47,8 @@ function L70_1()
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA013767251B59A1D"]
-L69_1 = "S5FE29AA88D90A56E"
-
-function L70_1(A0_2)
+--- main.ui.dressup.DressupUIText.ShowMessageShowYesNoContextMenu
+function CA013767251B59A1D.S5FE29AA88D90A56E(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = cC9AD95E7
   L1_2 = L1_2.f101D811F
@@ -110,11 +98,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA013767251B59A1D"]
-L69_1 = "S99580B15A987EDF7"
-
-function L70_1(A0_2)
+--- main.ui.dressup.DressupUIText.S99580B15A987EDF7
+function CA013767251B59A1D.S99580B15A987EDF7(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = cC9AD95E7
   L1_2 = L1_2.f101D811F
@@ -164,11 +149,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA013767251B59A1D"]
-L69_1 = "S45A633543AEB4EC4"
-
-function L70_1()
+--- main.ui.dressup.DressupUIText.DressBuyContextMenu
+function CA013767251B59A1D.S45A633543AEB4EC4()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CF1D9D619D324F233
   L0_2 = L0_2.S44577E0D8E8F3819
@@ -227,11 +209,8 @@ function L70_1()
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA013767251B59A1D"]
-L69_1 = "S8261A774B230B6D7"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.DressupUIText.StyleSequenceSelect
+function CA013767251B59A1D.S8261A774B230B6D7(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.fC8CEF9EF
@@ -349,11 +328,8 @@ function L70_1(A0_2, A1_2)
   return L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA013767251B59A1D"]
-L69_1 = "SBBCFFE80033C34E4"
-
-function L70_1(A0_2)
+--- main.ui.dressup.DressupUIText.WaitEndMessage
+function CA013767251B59A1D.SBBCFFE80033C34E4(A0_2)
   local L1_2, L2_2
   if nil == A0_2 then
     L1_2 = E048715B79C692C5A
@@ -373,11 +349,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA013767251B59A1D"]
-L69_1 = "S054918C23618C6F7"
-
-function L70_1(A0_2)
+--- main.ui.dressup.DressupUIText.WaitHideMessage
+function CA013767251B59A1D.S054918C23618C6F7(A0_2)
   local L1_2, L2_2
   if nil == A0_2 then
     L1_2 = E048715B79C692C5A
@@ -397,11 +370,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA013767251B59A1D"]
-L69_1 = "SB3EC1CB898E18E21"
-
-function L70_1()
+--- main.ui.dressup.DressupUIText.SB3EC1CB898E18E21
+function CA013767251B59A1D.SB3EC1CB898E18E21()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = C1C60E6E1EAFEE72D
   L0_2 = L0_2.SD2F260A022575DFD
@@ -435,11 +405,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA013767251B59A1D"]
-L69_1 = "SA1411E525DF2BC2A"
-
-function L70_1(A0_2)
+--- main.ui.dressup.DressupUIText.SA1411E525DF2BC2A
+function CA013767251B59A1D.SA1411E525DF2BC2A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L31_1.string
   L2_2 = L31_1.string

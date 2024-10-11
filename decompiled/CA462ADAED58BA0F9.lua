@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CA462ADAED58BA0F9"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]
-L69_1 = "new"
+---@alias CA462ADAED58BA0F9 main_field_gimmick_coin_symbol_CoinSymbolManager
 
-function L70_1(A0_2)
+---@class main_field_gimmick_coin_symbol_CoinSymbolManager : CA462ADAED58BA0F9_prototype
+---@field prototype CA462ADAED58BA0F9_prototype
+CA462ADAED58BA0F9 = L15_1()
+function CA462ADAED58BA0F9.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CA462ADAED58BA0F9
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CA462ADAED58BA0F9
+function CA462ADAED58BA0F9.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[11] = 90
   A0_2[10] = 30
@@ -83,11 +77,8 @@ function L70_1(A0_2)
   ::lbl_17::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]
-L69_1 = "S47BF515E9B963BEC"
-
-function L70_1()
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.DayUpdate
+function CA462ADAED58BA0F9.S47BF515E9B963BEC()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L0_2 = c1A00019C
   L0_2 = L0_2.f101D811F
@@ -227,22 +218,16 @@ function L70_1()
   L9_2(L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]
-L69_1 = "S0B3F69C4549A0284"
-
-function L70_1()
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.GetInstance
+function CA462ADAED58BA0F9.S0B3F69C4549A0284()
   local L0_2, L1_2
   L0_2 = CA462ADAED58BA0F9
   L0_2 = L0_2.S264F26F6894F3392
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]
-L69_1 = "S3B11D26739054B41"
-
-function L70_1(A0_2)
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.DeleteObject
+function CA462ADAED58BA0F9.S3B11D26739054B41(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
   L2_2 = CA462ADAED58BA0F9
@@ -283,11 +268,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]
-L69_1 = "SF16489921CD8EBEF"
-
-function L70_1(A0_2)
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.GetPoint
+function CA462ADAED58BA0F9.SF16489921CD8EBEF(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
   L2_2 = CA462ADAED58BA0F9
@@ -328,11 +310,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]
-L69_1 = "S70259701D2D1F657"
-
-function L70_1(A0_2)
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.GetPointForID
+function CA462ADAED58BA0F9.S70259701D2D1F657(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = CA462ADAED58BA0F9
@@ -361,11 +340,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]
-L69_1 = "S131139ACCEFE6322"
-
-function L70_1(A0_2)
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.GetPointID
+function CA462ADAED58BA0F9.S131139ACCEFE6322(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
   L2_2 = CA462ADAED58BA0F9
@@ -407,11 +383,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]
-L69_1 = "S7E0EAE4D04EEE361"
-
-function L70_1(A0_2)
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.GetObjectSeed
+function CA462ADAED58BA0F9.S7E0EAE4D04EEE361(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
   L2_2 = CA462ADAED58BA0F9
@@ -453,11 +426,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]
-L69_1 = "SD8C705FB509399F4"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.SD8C705FB509399F4
+function CA462ADAED58BA0F9.SD8C705FB509399F4(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
   L3_2 = CA462ADAED58BA0F9
   L3_2 = L3_2.S70259701D2D1F657
@@ -716,22 +686,17 @@ function L70_1(A0_2, A1_2, A2_2)
   ::lbl_199::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CA462ADAED58BA0F9_prototype
+CA462ADAED58BA0F9_prototype = L15_1()
+CA462ADAED58BA0F9.prototype = CA462ADAED58BA0F9_prototype
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.Setup
+function CA462ADAED58BA0F9_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = CA462ADAED58BA0F9
-  L2_2.S264F26F6894F3392 = A0_2
+  L2_2.S264F26F6894F3392 = self
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   
@@ -822,23 +787,23 @@ function L70_1(A0_2, A1_2)
     L7_2 = L4_2
     L8_2 = "walk_voice_length"
     L6_2 = L6_2(L7_2, L8_2)
-    A0_2[9] = L6_2
+    self[9] = L6_2
     L6_2 = C7F881F5D9B6F6009
     L6_2 = L6_2.S7153C11CA829BCB8
     L7_2 = L4_2
     L8_2 = "walk_voice_interval_min"
     L6_2 = L6_2(L7_2, L8_2)
-    A0_2[10] = L6_2
+    self[10] = L6_2
     L6_2 = C7F881F5D9B6F6009
     L6_2 = L6_2.S7153C11CA829BCB8
     L7_2 = L4_2
     L8_2 = "walk_voice_interval_max"
     L6_2 = L6_2(L7_2, L8_2)
-    A0_2[11] = L6_2
+    self[11] = L6_2
   end
   L6_2 = L55_1
-  L7_2 = A0_2
-  L8_2 = A0_2.F9C3571BCF46C18A6
+  L7_2 = self
+  L8_2 = self.F9C3571BCF46C18A6
   L6_2 = L6_2(L7_2, L8_2)
   L7_2 = false
   L8_2 = C50A446621AC55B4D
@@ -868,26 +833,26 @@ function L70_1(A0_2, A1_2)
   L11_2.filter = L12_2
   L10_2, L11_2, L12_2, L13_2, L14_2 = L10_2(L11_2)
   L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-  A0_2[3] = L8_2
-  L8_2 = A0_2[3]
+  self[3] = L8_2
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.F119A5D4210FCD553
   L10_2 = L55_1
-  L11_2 = A0_2
-  L12_2 = A0_2.F4F78ED661326F17B
+  L11_2 = self
+  L12_2 = self.F4F78ED661326F17B
   L10_2, L11_2, L12_2, L13_2, L14_2 = L10_2(L11_2, L12_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L8_2
   L8_2 = L8_2.FE45C29332EA0C8F8
   L10_2 = L55_1
-  L11_2 = A0_2
-  L12_2 = A0_2.F70960BF2FF3BC30E
+  L11_2 = self
+  L12_2 = self.F70960BF2FF3BC30E
   L10_2, L11_2, L12_2, L13_2, L14_2 = L10_2(L11_2, L12_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
   L8_2 = L55_1
-  L9_2 = A0_2
-  L10_2 = A0_2.F9C3571BCF46C18A6
+  L9_2 = self
+  L10_2 = self.F9C3571BCF46C18A6
   L8_2 = L8_2(L9_2, L10_2)
   L9_2 = true
   L10_2 = C50A446621AC55B4D
@@ -917,69 +882,66 @@ function L70_1(A0_2, A1_2)
   L13_2.filter = L14_2
   L12_2, L13_2, L14_2 = L12_2(L13_2)
   L10_2 = L10_2(L11_2, L12_2, L13_2, L14_2)
-  A0_2[4] = L10_2
-  L10_2 = A0_2[4]
+  self[4] = L10_2
+  L10_2 = self[4]
   L11_2 = L10_2
   L10_2 = L10_2.F119A5D4210FCD553
   L12_2 = L55_1
-  L13_2 = A0_2
-  L14_2 = A0_2.F4F78ED661326F17B
+  L13_2 = self
+  L14_2 = self.F4F78ED661326F17B
   L12_2, L13_2, L14_2 = L12_2(L13_2, L14_2)
   L10_2(L11_2, L12_2, L13_2, L14_2)
-  L10_2 = A0_2[4]
+  L10_2 = self[4]
   L11_2 = L10_2
   L10_2 = L10_2.FE45C29332EA0C8F8
   L12_2 = L55_1
-  L13_2 = A0_2
-  L14_2 = A0_2.F70960BF2FF3BC30E
+  L13_2 = self
+  L14_2 = self.F70960BF2FF3BC30E
   L12_2, L13_2, L14_2 = L12_2(L13_2, L14_2)
   L10_2(L11_2, L12_2, L13_2, L14_2)
   L10_2 = L26_1.new
   L10_2 = L10_2()
-  A0_2[2] = L10_2
-  L10_2 = A0_2[1]
+  self[2] = L10_2
+  L10_2 = self[1]
   L11_2 = L10_2
   L10_2 = L10_2.f462C9B70
   L10_2 = L10_2(L11_2)
-  A0_2[5] = L10_2
+  self[5] = L10_2
   L10_2 = L58_1
   L11_2 = L55_1
-  L12_2 = A0_2
-  L13_2 = A0_2.F7B4ADDEC8C02411F
+  L12_2 = self
+  L13_2 = self.F7B4ADDEC8C02411F
   L11_2, L12_2, L13_2, L14_2 = L11_2(L12_2, L13_2)
   L10_2 = L10_2(L11_2, L12_2, L13_2, L14_2)
-  A0_2.FCC0999D298720F78 = L10_2
+  self.FCC0999D298720F78 = L10_2
   L10_2 = c451059A3
   L10_2 = L10_2.f5776B6C6
   L11_2 = "world/obj_template/parts/coin_symbol/coin_symbol_walk_/coin_symbol_walk.trsot"
   L10_2 = L10_2(L11_2)
-  A0_2[7] = L10_2
+  self[7] = L10_2
   L10_2 = c451059A3
   L10_2 = L10_2.f5776B6C6
   L11_2 = "world/obj_template/parts/coin_symbol/coin_symbol_box_/coin_symbol_box.trsot"
   L10_2 = L10_2(L11_2)
-  A0_2[8] = L10_2
+  self[8] = L10_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.PreUpdate
+function CA462ADAED58BA0F9_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2 + 1
-  A0_2[6] = L2_2
-  L2_2 = A0_2[6]
+  self[6] = L2_2
+  L2_2 = self[6]
   L3_2 = CA462ADAED58BA0F9
   L3_2 = L3_2.SB408FA696B233310
   if L2_2 == L3_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FCC0999D298720F78
+    L3_2 = self
+    L2_2 = self.FCC0999D298720F78
     L4_2 = A1_2
     L2_2(L3_2, L4_2)
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = CA462ADAED58BA0F9
   L3_2 = L3_2.SB408FA696B233310
   L4_2 = L2_2 < 0
@@ -1002,15 +964,12 @@ function L70_1(A0_2, A1_2)
   
   L5_2 = L5_2()
   if L5_2 then
-    A0_2[6] = 0
+    self[6] = 0
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]["prototype"]
-L69_1 = "F7B4ADDEC8C02411F"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.setupUpdate
+function CA462ADAED58BA0F9_prototype:F7B4ADDEC8C02411F(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C63C3DCC1650BEEC9
   L2_2 = L2_2.SF1C9BF636E0F4F06
@@ -1020,25 +979,22 @@ function L70_1(A0_2, A1_2)
   end
   L2_2 = L58_1
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F7991CC21125517C9
+  L4_2 = self
+  L5_2 = self.F7991CC21125517C9
   L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2.FCC0999D298720F78 = L2_2
+  self.FCC0999D298720F78 = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]["prototype"]
-L69_1 = "F7991CC21125517C9"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.mainUpdate
+function CA462ADAED58BA0F9_prototype:F7991CC21125517C9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.f900312E7
   L2_2 = L2_2(L3_2)
   if not L2_2 then
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L3_2 = L2_2
     L2_2 = L2_2.f900312E7
     L2_2 = L2_2(L3_2)
@@ -1046,48 +1002,48 @@ function L70_1(A0_2, A1_2)
       return
     end
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.FEB6685558281F194
   L2_2(L3_2)
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.FEB6685558281F194
   L2_2(L3_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.length
   while true do
     L2_2 = L2_2 - 1
     if not (L2_2 >= 0) then
       break
     end
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L3_2 = L3_2[L2_2]
     L3_2 = L3_2.object
     if nil ~= L3_2 then
       L3_2 = C16CBC07FB452A1A6
       L3_2 = L3_2.SEB6685558281F194
-      L4_2 = A0_2[2]
+      L4_2 = self[2]
       L4_2 = L4_2[L2_2]
       L4_2 = L4_2.object
       L5_2 = C075A638F130352C3
       L5_2 = L5_2.S44460EB93267F798
       L3_2 = L3_2(L4_2, L5_2)
       if true == L3_2 then
-        L3_2 = A0_2[2]
+        L3_2 = self[2]
         L3_2 = L3_2[L2_2]
         L3_2.object = nil
       end
     end
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L3_2 = L3_2[L2_2]
     L3_2 = L3_2.point
     if nil == L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L3_2 = L3_2[L2_2]
       L3_2 = L3_2.object
       if nil == L3_2 then
-        L3_2 = A0_2[2]
+        L3_2 = self[2]
         L4_2 = L3_2
         L3_2 = L3_2.splice
         L5_2 = L2_2
@@ -1098,11 +1054,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]["prototype"]
-L69_1 = "F9C3571BCF46C18A6"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.createCoinSymbolPoint
+function CA462ADAED58BA0F9_prototype:F9C3571BCF46C18A6(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = _hx_tab_array
   L4_2 = {}
@@ -1135,23 +1088,17 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]["prototype"]
-L69_1 = "F4F78ED661326F17B"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.onAddPoint
+function CA462ADAED58BA0F9_prototype:F4F78ED661326F17B(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F1CC1F5F1D33C1D85
+  L3_2 = self
+  L2_2 = self.F1CC1F5F1D33C1D85
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]["prototype"]
-L69_1 = "F70960BF2FF3BC30E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.onRemovePoint
+function CA462ADAED58BA0F9_prototype:F70960BF2FF3BC30E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = 0
   while true do
@@ -1190,11 +1137,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]["prototype"]
-L69_1 = "F1CC1F5F1D33C1D85"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.addCoinSymbolInfo
+function CA462ADAED58BA0F9_prototype:F1CC1F5F1D33C1D85(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = 0
   while true do
@@ -1245,8 +1189,8 @@ function L70_1(A0_2, A1_2)
       L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
       L4_2 = L5_2
     end
-    L6_2 = A0_2
-    L5_2 = A0_2.FA9FEE40365C9E437
+    L6_2 = self
+    L5_2 = self.FA9FEE40365C9E437
     L7_2 = L3_2.id
     L5_2 = L5_2(L6_2, L7_2)
     if nil == L5_2 then
@@ -1260,17 +1204,17 @@ function L70_1(A0_2, A1_2)
         if 0 ~= L5_2 then
           L5_2 = C16CBC07FB452A1A6
           L5_2 = L5_2.SF8F2D826E2B641F8
-          L6_2 = A0_2[5]
+          L6_2 = self[5]
           
           function L7_2()
             local L0_3, L1_3
             L0_3 = nil
             L1_3 = L3_2.isBox
             if L1_3 then
-              L1_3 = A0_2
+              L1_3 = self
               L0_3 = L1_3[8]
             else
-              L1_3 = A0_2
+              L1_3 = self
               L0_3 = L1_3[7]
             end
             return L0_3
@@ -1281,11 +1225,11 @@ function L70_1(A0_2, A1_2)
           L10_2 = L4_2
           L9_2 = L4_2.fFEEA0382
           L9_2 = L9_2(L10_2)
-          L10_2 = A0_2[9]
-          L11_2 = A0_2[10]
-          L12_2 = A0_2[11]
+          L10_2 = self[9]
+          L11_2 = self[10]
+          L12_2 = self[11]
           L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-          L6_2 = A0_2[2]
+          L6_2 = self[2]
           L7_2 = L6_2
           L6_2 = L6_2.push
           L8_2 = L16_1
@@ -1307,11 +1251,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA462ADAED58BA0F9"]["prototype"]
-L69_1 = "FA9FEE40365C9E437"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.coin_symbol.CoinSymbolManager.findCoinSymbolInfo
+function CA462ADAED58BA0F9_prototype:FA9FEE40365C9E437(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
   L3_2 = CA462ADAED58BA0F9

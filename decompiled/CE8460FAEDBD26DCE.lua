@@ -1,3 +1,6 @@
+---@alias C2A232C30137486F7 main_field_behaviour_scenario_main_champion_gym_mizu_GymMizuSeriMcHideState
+
+---@class main_field_behaviour_scenario_main_champion_gym_mizu_GymMizuSeriMcHideState
 L55_1 = _ENV
 L56_1 = "CE8460FAEDBD26DCE"
 L57_1 = L15_1

@@ -1,3 +1,7 @@
+---@alias CC4C50F956184BB1A main_field_behaviour_module_base_BehaviorModule
+
+---@class main_field_behaviour_module_base_BehaviorModule : CC4C50F956184BB1A_prototype
+---@field prototype CC4C50F956184BB1A_prototype
 L55_1 = _ENV
 L56_1 = "CC4C50F956184BB1A"
 L57_1 = L15_1
@@ -40,49 +44,34 @@ L69_1 = "__name__"
 L70_1 = "CC4C50F956184BB1A"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC4C50F956184BB1A"]
-L69_1 = "__interfaces__"
-L70_1 = {}
-L68_1 = _ENV["CC4C50F956184BB1A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4C50F956184BB1A"]["prototype"]
-L69_1 = "F4D4E4D2C4F44F8DA"
-
-function L70_1(A0_2)
+L69_1 = "__inte---@class CC4C50F956184BB1A_prototype
+CC4C50F956184BB1A_prototype = L15_1()
+CC4C50F956184BB1A.prototype = CC4C50F956184BB1A_prototype
+--- main.field.behaviour.module.base.BehaviorModule.get_Status
+function CC4C50F956184BB1A_prototype:F4D4E4D2C4F44F8DA()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4C50F956184BB1A"]["prototype"]
-L69_1 = "F7A3D296366E973CB"
-
-function L70_1(A0_2, A1_2)
-  A0_2[2] = A1_2
+--- main.field.behaviour.module.base.BehaviorModule.Initialize
+function CC4C50F956184BB1A_prototype:F7A3D296366E973CB(A1_2)
+  self[2] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4C50F956184BB1A"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2)
+--- main.field.behaviour.module.base.BehaviorModule.Setup
+function CC4C50F956184BB1A_prototype:F7C68FEDB79AB6396()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F22C7B81A049FA20D
+  L2_2 = self
+  L1_2 = self.F22C7B81A049FA20D
   L1_2 = L1_2(L2_2)
-  A0_2[3] = L1_2
-  L1_2 = A0_2[3]
+  self[3] = L1_2
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC4C50F956184BB1A"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+--- main.field.behaviour.module.base.BehaviorModule.onSetup
+function CC4C50F956184BB1A_prototype:F22C7B81A049FA20D()
   local L1_2
   L1_2 = EAD246EF28384B86B
   L1_2 = L1_2.Success

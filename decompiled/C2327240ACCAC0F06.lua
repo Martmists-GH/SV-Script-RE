@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C2327240ACCAC0F06"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C2327240ACCAC0F06"]
-L69_1 = "new"
+---@alias C2327240ACCAC0F06 main_field_hukidashi_icon_HukidashiIconManager
 
-function L70_1(A0_2)
+---@class main_field_hukidashi_icon_HukidashiIconManager : C2327240ACCAC0F06_prototype
+---@field prototype C2327240ACCAC0F06_prototype
+C2327240ACCAC0F06 = L15_1()
+function C2327240ACCAC0F06.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C2327240ACCAC0F06
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2327240ACCAC0F06"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C2327240ACCAC0F06
+function C2327240ACCAC0F06.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C2327240ACCAC0F06"]
 L69_1 = "__name__"
 L70_1 = "C2327240ACCAC0F06"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2327240ACCAC0F06"]
-L69_1 = "SCB7FFF6089740353"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.field.hukidashi_icon.HukidashiIconManager.DrawHukidashi
+function C2327240ACCAC0F06.SCB7FFF6089740353(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A5_2 then
     A5_2 = false
@@ -165,11 +156,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2327240ACCAC0F06"]
-L69_1 = "S942F2AD49720A88F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.hukidashi_icon.HukidashiIconManager.PlaySe
+function C2327240ACCAC0F06.S942F2AD49720A88F(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = nil
   L4_2 = c016374C1
@@ -256,11 +244,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2327240ACCAC0F06"]
-L69_1 = "SFBD00450F1461754"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.field.hukidashi_icon.HukidashiIconManager.SetLocation
+function C2327240ACCAC0F06.SFBD00450F1461754(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L5_2 = A1_2
   L4_2 = A1_2.f750133BA
@@ -388,11 +373,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L11_2(L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2327240ACCAC0F06"]
-L69_1 = "SBDE6A8F7E83E725D"
-
-function L70_1(A0_2)
+--- main.field.hukidashi_icon.HukidashiIconManager.Exists
+function C2327240ACCAC0F06.SBDE6A8F7E83E725D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A0_2 then
     L1_2 = false
@@ -436,16 +418,11 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2327240ACCAC0F06"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2327240ACCAC0F06"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C2327240ACCAC0F06_prototype
+C2327240ACCAC0F06_prototype = L15_1()
+C2327240ACCAC0F06.prototype = C2327240ACCAC0F06_prototype
+--- main.field.hukidashi_icon.HukidashiIconManager.Setup
+function C2327240ACCAC0F06_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C2327240ACCAC0F06
   L2_2 = L2_2.S25C125B12E82CF35
@@ -454,27 +431,24 @@ function L70_1(A0_2, A1_2)
   L4_2 = 28
   L2_2(L3_2, L4_2)
   L2_2 = C2327240ACCAC0F06
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f462C9B70
   L3_2 = L3_2(L4_2)
   L2_2.SF3D1C24EDB76D673 = L3_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FF1A9E43E41321A18
+  L3_2 = self
+  L2_2 = self.FF1A9E43E41321A18
   L2_2(L3_2)
   L2_2 = C2327240ACCAC0F06
   L3_2 = cCF781FB6
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L2_2.S23F4ED88AF777A0F = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2327240ACCAC0F06"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.hukidashi_icon.HukidashiIconManager.PreUpdate
+function C2327240ACCAC0F06_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = 0
   L3_2 = 0
@@ -600,11 +574,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2327240ACCAC0F06"]["prototype"]
-L69_1 = "FF1A9E43E41321A18"
-
-function L70_1(A0_2)
+--- main.field.hukidashi_icon.HukidashiIconManager.loadObjectTemplate
+function C2327240ACCAC0F06_prototype:FF1A9E43E41321A18()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = 0
   L2_2 = C2327240ACCAC0F06

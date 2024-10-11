@@ -1,3 +1,7 @@
+---@alias C8ACAB0CF52706E27 main_ui_pokedex_view_detail_capture_PokedexUICaptureSequence
+
+---@class main_ui_pokedex_view_detail_capture_PokedexUICaptureSequence : C8ACAB0CF52706E27_prototype
+---@field prototype C8ACAB0CF52706E27_prototype
 L55_1 = _ENV
 L56_1 = "C8ACAB0CF52706E27"
 L57_1 = L15_1
@@ -35,16 +39,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8ACAB0CF52706E27"]
 L69_1 = "__name__"
 L70_1 = "C8ACAB0CF52706E27"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "FBA9B43A0C3BA65D5"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+---@class C8ACAB0CF52706E27_prototype
+C8ACAB0CF52706E27_prototype = L15_1()
+C8ACAB0CF52706E27.prototype = C8ACAB0CF52706E27_prototype
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.MainSequence
+function C8ACAB0CF52706E27_prototype:FBA9B43A0C3BA65D5(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if 7 == A4_2 then
     L6_2 = C46C85AAF8542DDE8
@@ -55,8 +54,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L8_2 = 2
     L9_2 = A3_2
     L6_2(L7_2, L8_2, L9_2)
-    L7_2 = A0_2
-    L6_2 = A0_2.F6F856322C9A57C02
+    L7_2 = self
+    L6_2 = self.F6F856322C9A57C02
     L6_2 = L6_2(L7_2)
     if not L6_2 then
       L6_2 = c1A1CBE3B
@@ -81,8 +80,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L6_2 = L6_2.S9C4B442AD04C1A56
   L7_2 = A3_2
   L6_2 = L6_2(L7_2)
-  A0_2[4] = L6_2
-  L6_2 = A0_2[4]
+  self[4] = L6_2
+  L6_2 = self[4]
   if 3 == L6_2 then
     L6_2 = C46C85AAF8542DDE8
     L6_2 = L6_2.S385504EFF7E842C3
@@ -93,8 +92,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L9_2 = A3_2
     L6_2(L7_2, L8_2, L9_2)
     if 0 == A4_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.F6F856322C9A57C02
+      L7_2 = self
+      L6_2 = self.F6F856322C9A57C02
       L6_2 = L6_2(L7_2)
       if not L6_2 then
         L6_2 = c1A1CBE3B
@@ -119,26 +118,26 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L7_2 = A3_2
   L6_2 = A3_2.f0BD5134F
   L6_2 = L6_2(L7_2)
-  A0_2[1] = A1_2
-  A0_2[2] = A2_2
+  self[1] = A1_2
+  self[2] = A2_2
   L7_2 = C9447A93851CFDD18
   L7_2 = L7_2.SB21FA562BB1FB817
   L7_2()
   L7_2 = C53C4062FD417098A
   L7_2.SDA89FAB0CFA83802 = 1
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L8_2 = L7_2
   L7_2 = L7_2.F009AB62A7DE96F51
   L9_2 = A3_2
   L7_2(L8_2, L9_2)
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.F94D93144AC810819
   L9_2 = false
   L7_2(L8_2, L9_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F3C301CD09FB939E2
-  L9_2 = A0_2[4]
+  L8_2 = self
+  L7_2 = self.F3C301CD09FB939E2
+  L9_2 = self[4]
   L10_2 = A3_2
   L11_2 = A4_2
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2)
@@ -147,45 +146,42 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L8_2 = L8_2()
   L9_2 = L8_2
   L8_2 = L8_2.F5C74F84F833CAED3
-  L10_2 = A0_2[4]
+  L10_2 = self[4]
   L11_2 = A3_2
   L8_2(L9_2, L10_2, L11_2)
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L9_2 = L8_2
   L8_2 = L8_2.F3B08D5AC0049A0A0
-  L10_2 = A0_2[4]
+  L10_2 = self[4]
   L8_2(L9_2, L10_2)
   L8_2 = C3A36506FBC96ACBD
   L8_2 = L8_2.SC6181320B46854EE
   L9_2 = "SET_STATE_POKEDEX_REGISTER_FUNCTION"
   L8_2(L9_2)
   if L7_2 then
-    L9_2 = A0_2
-    L8_2 = A0_2.FF840C40325871C00
+    L9_2 = self
+    L8_2 = self.FF840C40325871C00
     L10_2 = A4_2
     L11_2 = A3_2
     L12_2 = L6_2
     L8_2(L9_2, L10_2, L11_2, L12_2)
   else
-    L9_2 = A0_2
-    L8_2 = A0_2.F8CC32E8BC5256D60
+    L9_2 = self
+    L8_2 = self.F8CC32E8BC5256D60
     L10_2 = A4_2
     L11_2 = A3_2
     L12_2 = L6_2
     L8_2(L9_2, L10_2, L11_2, L12_2)
   end
-  L9_2 = A0_2
-  L8_2 = A0_2.F100E12D56BFF1745
+  L9_2 = self
+  L8_2 = self.F100E12D56BFF1745
   L8_2(L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F6B884FA0A6BE75E2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.SetVisibleView
+function C8ACAB0CF52706E27_prototype:F6B884FA0A6BE75E2(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.FDC023C7EB810E65A
   L4_2 = L4_2(L5_2)
@@ -194,7 +190,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2 = nil
   L7_2 = A1_2
   L4_2(L5_2, L6_2, L7_2)
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.FA23D39922B76B247
   L6_2 = nil
@@ -219,21 +215,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "FE400CD406086B89D"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.GetSelectIndex
+function C8ACAB0CF52706E27_prototype:FE400CD406086B89D()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F6F856322C9A57C02"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.IsPartyFull
+function C8ACAB0CF52706E27_prototype:F6F856322C9A57C02()
   local L1_2, L2_2
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.fFCE06E04
@@ -245,11 +235,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F3C301CD09FB939E2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.IsNewRegisterPokedex
+function C8ACAB0CF52706E27_prototype:F3C301CD09FB939E2(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   L4_2 = C46C85AAF8542DDE8
   L4_2 = L4_2.S385504EFF7E842C3
@@ -278,18 +265,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F6FC24AA930B31BAB"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.F6FC24AA930B31BAB
+function C8ACAB0CF52706E27_prototype:F6FC24AA930B31BAB(A1_2)
   local L2_2, L3_2
   if 2 == A1_2 or 4 == A1_2 or 5 == A1_2 or 6 == A1_2 then
     L2_2 = false
     return L2_2
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F215FC8508858B346
+  L3_2 = self
+  L2_2 = self.F215FC8508858B346
   L2_2 = L2_2(L3_2)
   if not L2_2 then
     L2_2 = false
@@ -299,11 +283,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F9A9C28547B7C45B1"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.IsCanSendCheck
+function C8ACAB0CF52706E27_prototype:F9A9C28547B7C45B1(A1_2)
   local L2_2
   if 2 == A1_2 or 3 == A1_2 or 4 == A1_2 or 5 == A1_2 or 6 == A1_2 then
     L2_2 = false
@@ -313,20 +294,17 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "FF840C40325871C00"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.NewCaptureSequence
+function C8ACAB0CF52706E27_prototype:FF840C40325871C00(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.FE265B710605C747F
   L4_2 = L4_2(L5_2)
   if nil ~= L4_2 then
     L6_2 = L4_2
     L5_2 = L4_2.FDC5802D295641956
-    L7_2 = A0_2[4]
+    L7_2 = self[4]
     L8_2 = A3_2
     L5_2(L6_2, L7_2, L8_2)
     while true do
@@ -344,20 +322,20 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L5_2 = L4_2.FE2DAD16666E88DCC
     L5_2(L6_2)
   end
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.F178E9393F3CF962D
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = A2_2
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.F8A5052A06565F82A
   L8_2 = A2_2
   L7_2 = A2_2.f9C8A5147
   L7_2, L8_2, L9_2, L10_2, L11_2 = L7_2(L8_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.F488341F45CE0FCE2
   L7_2 = A3_2
@@ -383,7 +361,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = L5_2.SCA3DC3164E3FF2BA
   L6_2 = 33
   L5_2(L6_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.FDC023C7EB810E65A
   L5_2 = L5_2(L6_2)
@@ -392,7 +370,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2 = nil
   L8_2 = true
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.FDC023C7EB810E65A
   L5_2 = L5_2(L6_2)
@@ -400,12 +378,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = L5_2.F748A3DCD68216D1D
   L7_2 = "capture_in"
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.F0F83A122042F0A43
   L7_2 = "registration_in"
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.F94D93144AC810819
   L7_2 = true
@@ -425,7 +403,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L5_2 = L5_2.S760DAE4C5371A78E
     L5_2()
   end
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.F0F83A122042F0A43
   L7_2 = "registration_wait"
@@ -438,8 +416,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L8_2 = A3_2
   L9_2 = false
   L5_2(L6_2, L7_2, L8_2, L9_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F698794C219E71850
+  L6_2 = self
+  L5_2 = self.F698794C219E71850
   L7_2 = C828F047963375FA0
   L7_2 = L7_2.S7F96B3B929C8C9AB
   L8_2 = L7_2
@@ -464,13 +442,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L5_2 = L5_2.S760DAE4C5371A78E
     L5_2()
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F939264F85D29AA68
+  L6_2 = self
+  L5_2 = self.F939264F85D29AA68
   L7_2 = A1_2
   L8_2 = A2_2
   L9_2 = A3_2
   L5_2(L6_2, L7_2, L8_2, L9_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.FDC023C7EB810E65A
   L5_2 = L5_2(L6_2)
@@ -478,12 +456,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = L5_2.F748A3DCD68216D1D
   L7_2 = "capture_out"
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.F0F83A122042F0A43
   L7_2 = "registration_out"
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.FC62907E06C8F7973
   L5_2(L6_2)
@@ -491,21 +469,21 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = L5_2.SC6181320B46854EE
   L6_2 = "PLAY_UI_POKEDEX_REGISTER_NEW_DEMO"
   L5_2(L6_2)
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.F0F83A122042F0A43
   L7_2 = "shelf_in"
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.F1ABDED0EC140851D
   L5_2(L6_2)
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.F0F83A122042F0A43
   L7_2 = "shelf_wait"
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.F0F83A122042F0A43
   L7_2 = "shelf_out"
@@ -528,19 +506,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F8CC32E8BC5256D60"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.DoneCaptureSequence
+function C8ACAB0CF52706E27_prototype:F8CC32E8BC5256D60(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.F178E9393F3CF962D
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = A2_2
   L4_2(L5_2, L6_2, L7_2)
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.F8A5052A06565F82A
   L7_2 = A2_2
@@ -567,7 +542,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2 = L4_2.SCA3DC3164E3FF2BA
   L5_2 = 33
   L4_2(L5_2)
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.FDC023C7EB810E65A
   L4_2 = L4_2(L5_2)
@@ -576,7 +551,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2 = nil
   L7_2 = true
   L4_2(L5_2, L6_2, L7_2)
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.FDC023C7EB810E65A
   L4_2 = L4_2(L5_2)
@@ -584,7 +559,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2 = L4_2.F748A3DCD68216D1D
   L6_2 = "capture_in"
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.F0F83A122042F0A43
   L6_2 = "registration_in"
@@ -600,102 +575,90 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L4_2 = L4_2.S760DAE4C5371A78E
     L4_2()
   end
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.F0F83A122042F0A43
   L6_2 = "registration_wait"
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.FA23D39922B76B247
   L6_2 = "N_shelf_00"
   L7_2 = false
   L4_2(L5_2, L6_2, L7_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F6B884FA0A6BE75E2
+  L5_2 = self
+  L4_2 = self.F6B884FA0A6BE75E2
   L6_2 = true
   L7_2 = true
   L8_2 = true
   L4_2(L5_2, L6_2, L7_2, L8_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F939264F85D29AA68
+  L5_2 = self
+  L4_2 = self.F939264F85D29AA68
   L6_2 = A1_2
   L7_2 = A2_2
   L8_2 = A3_2
   L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F100E12D56BFF1745"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.SceneUnloadSequence
+function C8ACAB0CF52706E27_prototype:F100E12D56BFF1745()
   local L1_2, L2_2, L3_2
   L1_2 = C9447A93851CFDD18
   L1_2 = L1_2.SACEA25E294F2462F
   L1_2()
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.F0F83A122042F0A43
   L3_2 = "out"
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F939264F85D29AA68"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.CaptureAfterSequence
+function C8ACAB0CF52706E27_prototype:F939264F85D29AA68(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F30FAD01F35DBBCC0
+  L5_2 = self
+  L4_2 = self.F30FAD01F35DBBCC0
   L4_2(L5_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F938BC05D1EB9569A
+  L5_2 = self
+  L4_2 = self.F938BC05D1EB9569A
   L6_2 = A1_2
   L7_2 = A2_2
   L8_2 = A3_2
   L4_2(L5_2, L6_2, L7_2, L8_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FA006691B2579B6AC
+  L5_2 = self
+  L4_2 = self.FA006691B2579B6AC
   L6_2 = A1_2
   L7_2 = A2_2
   L8_2 = A3_2
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
   if 0 == L4_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.FEDB80261ED69DA4B
+    L6_2 = self
+    L5_2 = self.FEDB80261ED69DA4B
     L7_2 = A2_2
     L8_2 = A3_2
     L5_2(L6_2, L7_2, L8_2)
   elseif 3 == L4_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.F752F63D454F0172D
+    L6_2 = self
+    L5_2 = self.F752F63D454F0172D
     L7_2 = A2_2
     L8_2 = A3_2
     L5_2(L6_2, L7_2, L8_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F30FAD01F35DBBCC0"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.WaitFrameSequence
+function C8ACAB0CF52706E27_prototype:F30FAD01F35DBBCC0()
   local L1_2
   goto lbl_3
   goto lbl_3
   ::lbl_3::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F938BC05D1EB9569A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.InputNickNameSequence
+function C8ACAB0CF52706E27_prototype:F938BC05D1EB9569A(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F6FC24AA930B31BAB
+  L5_2 = self
+  L4_2 = self.F6FC24AA930B31BAB
   L6_2 = A1_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
@@ -707,8 +670,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L7_2 = A3_2
     L8_2 = false
     L4_2(L5_2, L6_2, L7_2, L8_2)
-    L5_2 = A0_2
-    L4_2 = A0_2.F24A5CCD5489CB50E
+    L5_2 = self
+    L4_2 = self.F24A5CCD5489CB50E
     L6_2 = C828F047963375FA0
     L6_2 = L6_2.S7F96B3B929C8C9AB
     L7_2 = L6_2
@@ -722,13 +685,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L7_2 = _hx_tab_array
     L8_2 = {}
     L8_2.length = 0
-    L10_2 = A0_2
-    L9_2 = A0_2.FB88D049F726CB83F
+    L10_2 = self
+    L9_2 = self.FB88D049F726CB83F
     L11_2 = "msg_ui_pokedex_fly_01"
     L9_2 = L9_2(L10_2, L11_2)
     L8_2[0] = L9_2
-    L10_2 = A0_2
-    L9_2 = A0_2.FB88D049F726CB83F
+    L10_2 = self
+    L9_2 = self.FB88D049F726CB83F
     L11_2 = "msg_ui_pokedex_fly_02"
     L9_2, L10_2, L11_2 = L9_2(L10_2, L11_2)
     L8_2[1] = L9_2
@@ -738,19 +701,16 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L7_2, L8_2, L9_2, L10_2, L11_2 = L7_2(L8_2, L9_2)
     L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
     if 0 == L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F1DF93AD66E47B964
+      L5_2 = self
+      L4_2 = self.F1DF93AD66E47B964
       L6_2 = A2_2
       L4_2(L5_2, L6_2)
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F1DF93AD66E47B964"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.NickNameAppletSequence
+function C8ACAB0CF52706E27_prototype:F1DF93AD66E47B964(A1_2)
   local L2_2, L3_2
   while true do
     L2_2 = c48A87011
@@ -766,27 +726,24 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "FA006691B2579B6AC"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.SendCheckSequence
+function C8ACAB0CF52706E27_prototype:FA006691B2579B6AC(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L4_2 = -1
-  L6_2 = A0_2
-  L5_2 = A0_2.F9A9C28547B7C45B1
+  L6_2 = self
+  L5_2 = self.F9A9C28547B7C45B1
   L7_2 = A1_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.F6F856322C9A57C02
+    L6_2 = self
+    L5_2 = self.F6F856322C9A57C02
     L5_2 = L5_2(L6_2)
     if not L5_2 then
       L5_2 = 0
       return L5_2
     end
-    L6_2 = A0_2
-    L5_2 = A0_2.F1E96145A428E5AB5
+    L6_2 = self
+    L5_2 = self.F1E96145A428E5AB5
     L5_2 = L5_2(L6_2)
     if L5_2 then
       L5_2 = 3
@@ -826,24 +783,24 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L11_2 = "msg_ui_pokedex_transfer_02"
       L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2 = L9_2(L10_2, L11_2)
       L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
-      L9_2 = A0_2
-      L8_2 = A0_2.F24A5CCD5489CB50E
+      L9_2 = self
+      L8_2 = self.F24A5CCD5489CB50E
       L10_2 = L6_2
       L11_2 = _hx_tab_array
       L12_2 = {}
       L12_2.length = 0
-      L14_2 = A0_2
-      L13_2 = A0_2.FB88D049F726CB83F
+      L14_2 = self
+      L13_2 = self.FB88D049F726CB83F
       L15_2 = "msg_ui_pokedex_transfer_00"
       L13_2 = L13_2(L14_2, L15_2)
       L12_2[0] = L13_2
       L13_2 = L7_2
-      L15_2 = A0_2
-      L14_2 = A0_2.FB88D049F726CB83F
+      L15_2 = self
+      L14_2 = self.FB88D049F726CB83F
       L16_2 = "msg_ui_pokedex_transfer_03"
       L14_2 = L14_2(L15_2, L16_2)
-      L16_2 = A0_2
-      L15_2 = A0_2.FB88D049F726CB83F
+      L16_2 = self
+      L15_2 = self.FB88D049F726CB83F
       L17_2 = "msg_ui_pokedex_transfer_01"
       L15_2, L16_2, L17_2 = L15_2(L16_2, L17_2)
       L12_2[1] = L13_2
@@ -857,15 +814,15 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2)
       L4_2 = L8_2
       if 1 == L4_2 then
-        L9_2 = A0_2
-        L8_2 = A0_2.F58E25A83B440ACB3
+        L9_2 = self
+        L8_2 = self.F58E25A83B440ACB3
         L10_2 = A2_2
         L11_2 = 3
         L8_2(L9_2, L10_2, L11_2)
       end
       if 2 == L4_2 then
-        L9_2 = A0_2
-        L8_2 = A0_2.F58E25A83B440ACB3
+        L9_2 = self
+        L8_2 = self.F58E25A83B440ACB3
         L10_2 = A2_2
         L11_2 = 0
         L8_2(L9_2, L10_2, L11_2)
@@ -878,21 +835,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F58E25A83B440ACB3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.StatusViewSequence
+function C8ACAB0CF52706E27_prototype:F58E25A83B440ACB3(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.FDC023C7EB810E65A
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.FB17D75E020F3DBFB
   L3_2 = L3_2(L4_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F6B884FA0A6BE75E2
+  L5_2 = self
+  L4_2 = self.F6B884FA0A6BE75E2
   L6_2 = false
   L7_2 = false
   L8_2 = false
@@ -931,37 +885,34 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2 = L5_2.S760DAE4C5371A78E
     L5_2()
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F6B884FA0A6BE75E2
+  L6_2 = self
+  L5_2 = self.F6B884FA0A6BE75E2
   L7_2 = L3_2
   L8_2 = true
   L9_2 = true
   L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "FEDB80261ED69DA4B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.SendPokeListSequence
+function C8ACAB0CF52706E27_prototype:FEDB80261ED69DA4B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F6F856322C9A57C02
+  L4_2 = self
+  L3_2 = self.F6F856322C9A57C02
   L3_2 = L3_2(L4_2)
   if L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F9F0D5238112BF1BC
+    L4_2 = self
+    L3_2 = self.F9F0D5238112BF1BC
     L3_2 = L3_2(L4_2)
-    A0_2[3] = L3_2
+    self[3] = L3_2
     if -1 ~= L3_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F6F8349AF4283D888
+      L5_2 = self
+      L4_2 = self.F6F8349AF4283D888
       L6_2 = A1_2
       L7_2 = L3_2
       L4_2(L5_2, L6_2, L7_2)
     else
-      L5_2 = A0_2
-      L4_2 = A0_2.F752F63D454F0172D
+      L5_2 = self
+      L4_2 = self.F752F63D454F0172D
       L6_2 = A1_2
       L7_2 = A2_2
       L4_2(L5_2, L6_2, L7_2)
@@ -974,8 +925,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2 = 0
     L6_2 = A1_2
     L3_2(L4_2, L5_2, L6_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F698794C219E71850
+    L4_2 = self
+    L3_2 = self.F698794C219E71850
     L5_2 = C828F047963375FA0
     L5_2 = L5_2.S7F96B3B929C8C9AB
     L6_2 = L5_2
@@ -1000,29 +951,26 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F9F0D5238112BF1BC"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.ExchangePokeListSequence
+function C8ACAB0CF52706E27_prototype:F9F0D5238112BF1BC()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FDC023C7EB810E65A
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.FB17D75E020F3DBFB
   L1_2 = L1_2(L2_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F698794C219E71850
+  L3_2 = self
+  L2_2 = self.F698794C219E71850
   L4_2 = c8C3BF576
   L4_2 = L4_2.fC8CEF9EF
   L5_2 = "pokedex"
   L6_2 = "msg_ui_pokedex_transfer_07"
   L4_2, L5_2, L6_2, L7_2, L8_2, L9_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F6B884FA0A6BE75E2
+  L3_2 = self
+  L2_2 = self.F6B884FA0A6BE75E2
   L4_2 = false
   L5_2 = false
   L6_2 = false
@@ -1122,8 +1070,8 @@ function L70_1(A0_2)
     L5_2 = L5_2.FAD0070D590ADE9E4
     L5_2 = L5_2(L6_2)
     L3_2 = L5_2
-    L6_2 = A0_2
-    L5_2 = A0_2.F78BC525328D26198
+    L6_2 = self
+    L5_2 = self.F78BC525328D26198
     L7_2 = L3_2
     L5_2 = L5_2(L6_2, L7_2)
     L4_2 = L5_2
@@ -1145,8 +1093,8 @@ function L70_1(A0_2)
     L5_2 = L5_2.S760DAE4C5371A78E
     L5_2()
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F6B884FA0A6BE75E2
+  L6_2 = self
+  L5_2 = self.F6B884FA0A6BE75E2
   L7_2 = L1_2
   L8_2 = true
   L9_2 = true
@@ -1154,11 +1102,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F6F8349AF4283D888"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.AfterExchangePokeListSequence
+function C8ACAB0CF52706E27_prototype:F6F8349AF4283D888(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = c1A1CBE3B
   L3_2 = L3_2.fFCE06E04
@@ -1172,8 +1117,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2 = L3_2
   L4_2 = L4_2(L5_2)
   if not L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.FA5ED7E9590CBECB7
+    L5_2 = self
+    L4_2 = self.FA5ED7E9590CBECB7
     L6_2 = L3_2
     L4_2(L5_2, L6_2)
     L4_2 = C828F047963375FA0
@@ -1207,8 +1152,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2 = L5_2.F187D60128914353F
     L7_2 = L3_2
     L5_2(L6_2, L7_2)
-    L6_2 = A0_2
-    L5_2 = A0_2.F698794C219E71850
+    L6_2 = self
+    L5_2 = self.F698794C219E71850
     L7_2 = L4_2
     L5_2(L6_2, L7_2)
     L5_2 = c1A1CBE3B
@@ -1230,8 +1175,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L6_2 = 0
     L7_2 = A1_2
     L4_2(L5_2, L6_2, L7_2)
-    L5_2 = A0_2
-    L4_2 = A0_2.F698794C219E71850
+    L5_2 = self
+    L4_2 = self.F698794C219E71850
     L6_2 = C828F047963375FA0
     L6_2 = L6_2.S7F96B3B929C8C9AB
     L7_2 = L6_2
@@ -1251,16 +1196,13 @@ function L70_1(A0_2, A1_2, A2_2)
     L6_2 = A1_2
     L4_2(L5_2, L6_2)
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F769973897DADE583
+  L5_2 = self
+  L4_2 = self.F769973897DADE583
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "FA5ED7E9590CBECB7"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.DepositItemSequence
+function C8ACAB0CF52706E27_prototype:FA5ED7E9590CBECB7(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = A1_2
   L2_2 = A1_2.fA8FAC6B9
@@ -1282,8 +1224,8 @@ function L70_1(A0_2, A1_2)
   L7_2 = L2_2
   L8_2 = 1
   L4_2(L5_2, L6_2, L7_2, L8_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F24A5CCD5489CB50E
+  L5_2 = self
+  L4_2 = self.F24A5CCD5489CB50E
   L7_2 = L3_2
   L6_2 = L3_2.f39DD249C
   L8_2 = c8C3BF576
@@ -1295,13 +1237,13 @@ function L70_1(A0_2, A1_2)
   L7_2 = _hx_tab_array
   L8_2 = {}
   L8_2.length = 0
-  L10_2 = A0_2
-  L9_2 = A0_2.FB88D049F726CB83F
+  L10_2 = self
+  L9_2 = self.FB88D049F726CB83F
   L11_2 = "msg_ui_pokedex_transfer_09"
   L9_2 = L9_2(L10_2, L11_2)
   L8_2[0] = L9_2
-  L10_2 = A0_2
-  L9_2 = A0_2.FB88D049F726CB83F
+  L10_2 = self
+  L9_2 = self.FB88D049F726CB83F
   L11_2 = "msg_ui_pokedex_transfer_10"
   L9_2, L10_2, L11_2 = L9_2(L10_2, L11_2)
   L8_2[1] = L9_2
@@ -1353,8 +1295,8 @@ function L70_1(A0_2, A1_2)
       L8_2 = L2_2
       L9_2 = 1
       L5_2(L6_2, L7_2, L8_2, L9_2)
-      L6_2 = A0_2
-      L5_2 = A0_2.F698794C219E71850
+      L6_2 = self
+      L5_2 = self.F698794C219E71850
       L7_2 = C828F047963375FA0
       L7_2 = L7_2.S7F96B3B929C8C9AB
       L8_2 = L7_2
@@ -1367,8 +1309,8 @@ function L70_1(A0_2, A1_2)
       L7_2, L8_2, L9_2, L10_2, L11_2 = L7_2(L8_2, L9_2, L10_2, L11_2)
       L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
     else
-      L5_2 = A0_2
-      L4_2 = A0_2.F698794C219E71850
+      L5_2 = self
+      L4_2 = self.F698794C219E71850
       L6_2 = c8C3BF576
       L6_2 = L6_2.fC8CEF9EF
       L7_2 = "pokedex"
@@ -1379,11 +1321,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F752F63D454F0172D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.SendBoxSequence
+function C8ACAB0CF52706E27_prototype:F752F63D454F0172D(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = C828F047963375FA0
   L3_2 = L3_2.S7F96B3B929C8C9AB
@@ -1392,8 +1331,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2 = 0
   L6_2 = A1_2
   L3_2(L4_2, L5_2, L6_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F698794C219E71850
+  L4_2 = self
+  L3_2 = self.F698794C219E71850
   L5_2 = C828F047963375FA0
   L5_2 = L5_2.S7F96B3B929C8C9AB
   L6_2 = L5_2
@@ -1412,16 +1351,13 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2 = L3_2.F187D60128914353F
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F769973897DADE583
+  L4_2 = self
+  L3_2 = self.F769973897DADE583
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F78BC525328D26198"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.F78BC525328D26198
+function C8ACAB0CF52706E27_prototype:F78BC525328D26198(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = false
   if -1 ~= A1_2 then
@@ -1445,8 +1381,8 @@ function L70_1(A0_2, A1_2)
       L6_2 = 0
       L7_2 = L3_2
       L4_2(L5_2, L6_2, L7_2)
-      L5_2 = A0_2
-      L4_2 = A0_2.F698794C219E71850
+      L5_2 = self
+      L4_2 = self.F698794C219E71850
       L6_2 = C828F047963375FA0
       L6_2 = L6_2.S7F96B3B929C8C9AB
       L7_2 = L6_2
@@ -1469,11 +1405,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "FB88D049F726CB83F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.GetStrBuf
+function C8ACAB0CF52706E27_prototype:FB88D049F726CB83F(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.fC8CEF9EF
@@ -1482,11 +1415,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F698794C219E71850"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.DefaultTextSequence
+function C8ACAB0CF52706E27_prototype:F698794C219E71850(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cC9AD95E7
   L2_2 = L2_2.f101D811F
@@ -1535,11 +1465,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F6C934555A2CE2AD0"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.ShowContextMenu
+function C8ACAB0CF52706E27_prototype:F6C934555A2CE2AD0(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A2_2 then
     A2_2 = true
@@ -1589,11 +1516,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F24A5CCD5489CB50E"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.ShowMessageShowContextMenu
+function C8ACAB0CF52706E27_prototype:F24A5CCD5489CB50E(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A3_2 then
     A3_2 = true
@@ -1643,8 +1567,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L6_2 = L6_2.S760DAE4C5371A78E
     L6_2()
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.F6C934555A2CE2AD0
+  L7_2 = self
+  L6_2 = self.F6C934555A2CE2AD0
   L8_2 = A2_2
   L9_2 = A3_2
   L6_2 = L6_2(L7_2, L8_2, L9_2)
@@ -1669,11 +1593,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F769973897DADE583"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.BoxTipsFirstShow
+function C8ACAB0CF52706E27_prototype:F769973897DADE583()
   local L1_2, L2_2
   L1_2 = C931098C27BA0B398
   L1_2 = L1_2.S228F4FB4F1CF220E
@@ -1681,22 +1602,16 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F215FC8508858B346"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.F215FC8508858B346
+function C8ACAB0CF52706E27_prototype:F215FC8508858B346()
   local L1_2
   L1_2 = cCB5F4E51
   L1_2 = L1_2.f53FF8D4A
   return L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8ACAB0CF52706E27"]["prototype"]
-L69_1 = "F1E96145A428E5AB5"
-
-function L70_1(A0_2)
+--- main.ui.pokedex.view.detail.capture.PokedexUICaptureSequence.IsAutoSendBox
+function C8ACAB0CF52706E27_prototype:F1E96145A428E5AB5()
   local L1_2
   L1_2 = cCB5F4E51
   L1_2 = L1_2.f2F3569D0

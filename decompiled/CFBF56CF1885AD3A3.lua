@@ -1,3 +1,7 @@
+---@alias CFBF56CF1885AD3A3 main_ajito_data_collector_AjitoCommonLevelStructFinder
+
+---@class main_ajito_data_collector_AjitoCommonLevelStructFinder : CFBF56CF1885AD3A3_prototype
+---@field prototype CFBF56CF1885AD3A3_prototype
 L68_1 = _ENV["CFBF56CF1885AD3A3"]
 L69_1 = "super"
 
@@ -36,16 +40,11 @@ L69_1 = "__interfaces__"
 L70_1 = {}
 L71_1 = C506E192DDC28E8B5
 L70_1[1] = L71_1
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFBF56CF1885AD3A3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFBF56CF1885AD3A3"]["prototype"]
-L69_1 = "F80B5D892ADA38C8B"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class CFBF56CF1885AD3A3_prototype
+CFBF56CF1885AD3A3_prototype = L15_1()
+CFBF56CF1885AD3A3.prototype = CFBF56CF1885AD3A3_prototype
+--- main.ajito.data.collector.AjitoCommonLevelStructFinder.setData
+function CFBF56CF1885AD3A3_prototype:F80B5D892ADA38C8B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L4_2 = A2_2
   L3_2 = A2_2.f08C48539
@@ -87,7 +86,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L9_2 = L3_2.fCD31E312
   L11_2 = "lpCoefficient"
   L9_2 = L9_2(L10_2, L11_2)
-  L10_2 = A0_2[1]
+  L10_2 = self[1]
   L11_2 = L10_2
   L10_2 = L10_2.push
   L12_2 = L16_1
@@ -117,7 +116,7 @@ L68_1.__class__ = L69_1
 L68_1 = CD6B539D3BE856B54
 L69_1 = "new"
 
-function L70_1(A0_2)
+function L70_1(self)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CD6B539D3BE856B54
@@ -128,7 +127,7 @@ function L70_1(A0_2)
   L2_2 = CD6B539D3BE856B54
   L2_2 = L2_2.super
   L3_2 = L1_2
-  L4_2 = A0_2
+  L4_2 = self
   L2_2(L3_2, L4_2)
   return L1_2
 end

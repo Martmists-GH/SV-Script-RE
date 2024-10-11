@@ -1,3 +1,7 @@
+---@alias C0F26B02781A88515 main_field_action_scenario_champion_gym_koori_ActionGymKooriCoursePokemon
+
+---@class main_field_action_scenario_champion_gym_koori_ActionGymKooriCoursePokemon : C0F26B02781A88515_prototype
+---@field prototype C0F26B02781A88515_prototype
 L55_1 = _ENV
 L56_1 = "C0F26B02781A88515"
 L57_1 = L15_1
@@ -51,26 +55,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0F26B02781A88515"]
 L69_1 = "__name__"
 L70_1 = "C0F26B02781A88515"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F26B02781A88515"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F26B02781A88515"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C0F26B02781A88515_prototype
+C0F26B02781A88515_prototype = L15_1()
+C0F26B02781A88515.prototype = C0F26B02781A88515_prototype
+--- main.field.action.scenario.champion.gym.koori.ActionGymKooriCoursePokemon.onCreate
+function C0F26B02781A88515_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2.useCoroutine = true
-  L1_2 = A0_2[15]
+  L1_2 = self[15]
   L2_2 = L1_2
   L1_2 = L1_2.FBDA175393973D042
   L1_2 = L1_2(L2_2)
   L1_2 = 21 ~= L1_2
-  A0_2[17] = L1_2
-  L1_2 = A0_2[5]
+  self[17] = L1_2
+  L1_2 = self[5]
   L1_2 = L1_2.owner
   L2_2 = L1_2
   L1_2 = L1_2.f750133BA
@@ -82,37 +81,34 @@ function L70_1(A0_2)
   L4_2[1] = L5_2
   L4_2[2] = L6_2
   L4_2[3] = L7_2
-  A0_2[18] = L4_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F0614D18669F88910
+  self[18] = L4_2
+  L5_2 = self
+  L4_2 = self.F0614D18669F88910
   L4_2 = L4_2(L5_2)
-  A0_2[21] = L4_2
+  self[21] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F26B02781A88515"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.scenario.champion.gym.koori.ActionGymKooriCoursePokemon.onPreUpdate
+function C0F26B02781A88515_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[21]
+  L1_2 = self[21]
   L1_2 = L1_2.length
   if L1_2 < 2 then
     L1_2 = 2
     return L1_2
   end
   while true do
-    L1_2 = A0_2[21]
-    L2_2 = A0_2[19]
+    L1_2 = self[21]
+    L2_2 = self[19]
     L1_2 = L1_2[L2_2]
-    A0_2[20] = L1_2
-    L2_2 = A0_2
-    L1_2 = A0_2.FFB34D97A812BE148
+    self[20] = L1_2
+    L2_2 = self
+    L1_2 = self.FFB34D97A812BE148
     L1_2(L2_2)
-    L2_2 = A0_2
-    L1_2 = A0_2.F8C8A72C3DBBA2028
+    L2_2 = self
+    L1_2 = self.F8C8A72C3DBBA2028
     L1_2(L2_2)
-    L1_2 = A0_2[16]
+    L1_2 = self[16]
     L1_2 = L1_2.nextMoveDuration
     L2_2 = 0.0
     while L1_2 > L2_2 do
@@ -123,24 +119,21 @@ function L70_1(A0_2)
       L3_2 = L3_2.S44460EB93267F798
       L2_2 = L2_2 + L3_2
     end
-    L3_2 = A0_2[19]
+    L3_2 = self[19]
     L3_2 = L3_2 + 1
-    A0_2[19] = L3_2
+    self[19] = L3_2
     L3_2 = L10_1.math
     L3_2 = L3_2.fmod
-    L4_2 = A0_2[19]
-    L5_2 = A0_2[21]
+    L4_2 = self[19]
+    L5_2 = self[21]
     L5_2 = L5_2.length
     L3_2 = L3_2(L4_2, L5_2)
-    A0_2[19] = L3_2
+    self[19] = L3_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F26B02781A88515"]["prototype"]
-L69_1 = "FAC775D739FACD065"
-
-function L70_1(A0_2)
+--- main.field.action.scenario.champion.gym.koori.ActionGymKooriCoursePokemon.isPlaying
+function C0F26B02781A88515_prototype:FAC775D739FACD065()
   local L1_2
   L1_2 = CF67A67452D018ECC
   L1_2 = L1_2.SC8223E31D3163519
@@ -154,21 +147,18 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F26B02781A88515"]["prototype"]
-L69_1 = "FFB34D97A812BE148"
-
-function L70_1(A0_2)
+--- main.field.action.scenario.champion.gym.koori.ActionGymKooriCoursePokemon.waitToMove
+function C0F26B02781A88515_prototype:FFB34D97A812BE148()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   L1_2 = L1_2.moveSpeed
   L2_2 = 0.0
   L3_2 = 0.0
-  L4_2 = A0_2[16]
+  L4_2 = self[16]
   L4_2 = L4_2.moveSpeedChangeDuration
-  L5_2 = A0_2[16]
+  L5_2 = self[16]
   L5_2 = L5_2.rotationDuration
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L7_2 = nil
   L8_2 = nil
   L9_2 = cE35B3EB3
@@ -217,11 +207,11 @@ function L70_1(A0_2)
   end
   L10_2 = false
   while true do
-    L12_2 = A0_2
-    L11_2 = A0_2.FAC775D739FACD065
+    L12_2 = self
+    L11_2 = self.FAC775D739FACD065
     L11_2 = L11_2(L12_2)
     if not L11_2 then
-      L11_2 = A0_2[5]
+      L11_2 = self[5]
       L12_2 = nil
       L13_2 = cE35B3EB3
       L13_2 = L13_2.fDBA763D1
@@ -279,7 +269,7 @@ function L70_1(A0_2)
       L14_2 = 1.0
       L11_2 = L11_2(L12_2, L13_2, L14_2)
       L3_2 = L11_2
-      L11_2 = A0_2[5]
+      L11_2 = self[5]
       L12_2 = nil
       L13_2 = cE35B3EB3
       L13_2 = L13_2.fDBA763D1
@@ -325,8 +315,8 @@ function L70_1(A0_2)
         L18_2 = L18_2 + L7_2
         L15_2(L16_2, L17_2, L18_2)
       end
-      L14_2 = A0_2[20]
-      L15_2 = A0_2[5]
+      L14_2 = self[20]
+      L15_2 = self[5]
       L15_2 = L15_2.owner
       L16_2 = L15_2
       L15_2 = L15_2.f750133BA
@@ -409,10 +399,10 @@ function L70_1(A0_2)
           L39_2 = L30_2[2]
           L40_2 = L30_2[3]
           L31_2 = L31_2(L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2)
-          L32_2 = A0_2[5]
+          L32_2 = self[5]
           L33_2 = cD5675BA5
           L33_2 = L33_2.fBE61A5F8
-          L34_2 = A0_2[5]
+          L34_2 = self[5]
           L34_2 = L34_2.owner
           L35_2 = L34_2
           L34_2 = L34_2.f16155D9E
@@ -438,13 +428,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F26B02781A88515"]["prototype"]
-L69_1 = "F8C8A72C3DBBA2028"
-
-function L70_1(A0_2)
+--- main.field.action.scenario.champion.gym.koori.ActionGymKooriCoursePokemon.moveToWait
+function C0F26B02781A88515_prototype:F8C8A72C3DBBA2028()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = nil
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fDBA763D1
@@ -468,7 +455,7 @@ function L70_1(A0_2)
   if L5_2 then
     return
   end
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = nil
   L7_2 = nil
   L8_2 = cE35B3EB3
@@ -515,13 +502,13 @@ function L70_1(A0_2)
     L10_2 = L10_2(L11_2, L12_2)
     L6_2 = L10_2
   end
-  L9_2 = A0_2[16]
+  L9_2 = self[16]
   L9_2 = L9_2.moveSpeedChangeDuration
   L10_2 = 0.0
   L11_2 = false
   while true do
-    L13_2 = A0_2
-    L12_2 = A0_2.FAC775D739FACD065
+    L13_2 = self
+    L12_2 = self.FAC775D739FACD065
     L12_2 = L12_2(L13_2)
     if not L12_2 then
       L12_2 = C1DB14DCC9D7634FA
@@ -565,21 +552,18 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F26B02781A88515"]["prototype"]
-L69_1 = "F0614D18669F88910"
-
-function L70_1(A0_2)
+--- main.field.action.scenario.champion.gym.koori.ActionGymKooriCoursePokemon.getPathPositions
+function C0F26B02781A88515_prototype:F0614D18669F88910()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = _hx_tab_array
   L2_2 = {}
   L2_2.length = 0
   L3_2 = 0
   L1_2 = L1_2(L2_2, L3_2)
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   L2_2 = L2_2.isPathStartPosition
   if L2_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L2_2 = L2_2.owner
     L3_2 = L2_2
     L2_2 = L2_2.f7360ED03
@@ -595,7 +579,7 @@ function L70_1(A0_2)
     L7_2[3] = L10_2
     L5_2(L6_2, L7_2)
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.owner
   L3_2 = L2_2
   L2_2 = L2_2.f5439788F
@@ -634,34 +618,31 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0F26B02781A88515"]["prototype"]
-L69_1 = "FB9EEE315620F5E73"
-
-function L70_1(A0_2)
+--- main.field.action.scenario.champion.gym.koori.ActionGymKooriCoursePokemon.onPostUpdate
+function C0F26B02781A88515_prototype:FB9EEE315620F5E73()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2
-  L1_2 = A0_2[20]
+  L1_2 = self[20]
   if nil == L1_2 then
     return
   end
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   L1_2 = L1_2.moveSpeed
   L2_2 = false
   while true do
-    L4_2 = A0_2
-    L3_2 = A0_2.FAC775D739FACD065
+    L4_2 = self
+    L3_2 = self.FAC775D739FACD065
     L3_2 = L3_2(L4_2)
     if not L3_2 then
       L3_2 = C1DB14DCC9D7634FA
       L3_2 = L3_2.S760DAE4C5371A78E
       L3_2()
     else
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L3_2 = L3_2.owner
       L4_2 = L3_2
       L3_2 = L3_2.f750133BA
       L3_2, L4_2, L5_2 = L3_2(L4_2)
-      L6_2 = A0_2[18]
+      L6_2 = self[18]
       L7_2 = c7A48E3FC
       L7_2 = L7_2.f38BA082F
       L8_2 = L3_2
@@ -671,8 +652,8 @@ function L70_1(A0_2)
       L12_2 = L6_2[2]
       L13_2 = L6_2[3]
       L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
-      L8_2 = A0_2[18]
-      L9_2 = A0_2[20]
+      L8_2 = self[18]
+      L9_2 = self[20]
       L10_2 = c7A48E3FC
       L10_2 = L10_2.f38BA082F
       L11_2 = L8_2[1]
@@ -682,7 +663,7 @@ function L70_1(A0_2)
       L15_2 = L9_2[2]
       L16_2 = L9_2[3]
       L10_2 = L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
-      L11_2 = A0_2[17]
+      L11_2 = self[17]
       if not L11_2 then
         L11_2 = C075A638F130352C3
         L11_2 = L11_2.S44460EB93267F798
@@ -702,7 +683,7 @@ function L70_1(A0_2)
         end
         
         L12_2 = L12_2()
-        L13_2 = A0_2[5]
+        L13_2 = self[5]
         L13_2 = L13_2.owner
         L14_2 = L13_2
         L13_2 = L13_2.f16155D9E
@@ -716,8 +697,8 @@ function L70_1(A0_2)
         L16_2 = L13_2
         L17_2 = L14_2
         L18_2 = L15_2
-        L19_2 = A0_2[5]
-        L20_2 = A0_2[5]
+        L19_2 = self[5]
+        L20_2 = self[5]
         L20_2 = L20_2.owner
         L21_2 = L20_2
         L20_2 = L20_2.f750133BA
@@ -747,12 +728,12 @@ function L70_1(A0_2)
         L29_2 = L23_2[3]
         L25_2(L26_2, L27_2, L28_2, L29_2)
       end
-      L11_2 = A0_2[15]
+      L11_2 = self[15]
       L11_2 = L11_2[9]
       if L11_2 then
         L11_2 = CC19222E56D8434C9
         L11_2 = L11_2.S52DF90C5B69BFBBE
-        L12_2 = A0_2[5]
+        L12_2 = self[5]
         L13_2 = 40.0
         L11_2(L12_2, L13_2)
       end
@@ -766,7 +747,7 @@ function L70_1(A0_2)
       L2_2 = true
       goto lbl_130
       ::lbl_112::
-      L11_2 = A0_2[5]
+      L11_2 = self[5]
       L11_2 = L11_2.owner
       L12_2 = L11_2
       L11_2 = L11_2.f750133BA
@@ -778,7 +759,7 @@ function L70_1(A0_2)
       L14_2[1] = L15_2
       L14_2[2] = L16_2
       L14_2[3] = L17_2
-      A0_2[18] = L14_2
+      self[18] = L14_2
       L14_2 = C1DB14DCC9D7634FA
       L14_2 = L14_2.S760DAE4C5371A78E
       L14_2()
@@ -792,8 +773,8 @@ function L70_1(A0_2)
     end
     ::lbl_135::
   end
-  L3_2 = A0_2[5]
-  L4_2 = A0_2[20]
+  L3_2 = self[5]
+  L4_2 = self[20]
   L5_2 = L10_1.select
   L6_2 = 2
   L7_2 = L3_2.owner

@@ -1,3 +1,7 @@
+---@alias CD6B539D3BE856B54 main_ajito_data_collector_AjitoGruntPopupPropertyFinder
+
+---@class main_ajito_data_collector_AjitoGruntPopupPropertyFinder : CD6B539D3BE856B54_prototype
+---@field prototype CD6B539D3BE856B54_prototype
 L68_1 = _ENV["CD6B539D3BE856B54"]
 L69_1 = "super"
 
@@ -27,36 +31,28 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD6B539D3BE856B54"]
 L69_1 = "__name__"
 L70_1 = "CD6B539D3BE856B54"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD6B539D3BE856B54"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD6B539D3BE856B54"]["prototype"]
-L69_1 = "FD2539A3E59239A1A"
-
-function L70_1(A0_2)
+---@class CD6B539D3BE856B54_prototype
+CD6B539D3BE856B54_prototype = L15_1()
+CD6B539D3BE856B54.prototype = CD6B539D3BE856B54_prototype
+--- main.ajito.data.collector.AjitoGruntPopupPropertyFinder.GetRandomPopupData
+function CD6B539D3BE856B54_prototype:FD2539A3E59239A1A()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.fDAAAA586
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   L3_2 = L3_2 - 1
   L1_2 = L1_2(L2_2, L3_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[L1_2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD6B539D3BE856B54"]["prototype"]
-L69_1 = "F5297CD7DDDDF323F"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.data.collector.AjitoGruntPopupPropertyFinder.getData
+function CD6B539D3BE856B54_prototype:F5297CD7DDDDF323F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = C7EF98D06813E2E2A
   L3_2 = L3_2.S66BA3C7BEBFCA826
   L5_2 = A1_2
@@ -110,10 +106,10 @@ L68_1[L69_1] = "C16FD2EB398DE1B19"
 L68_1 = C16FD2EB398DE1B19
 L69_1 = "S441E29ABF35115CC"
 
-function L70_1(A0_2, A1_2)
+function L70_1(self, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.fD4E64AB7
+  L3_2 = self
+  L2_2 = self.fD4E64AB7
   L4_2 = L31_1.string
   L5_2 = CDEA41987CB3BEE4F
   L5_2 = L5_2.S5411F9CF71FB7D99
@@ -142,7 +138,7 @@ L68_1[L69_1] = L70_1
 L68_1 = C5DE72B0A4CB4BF06
 L69_1 = "new"
 
-function L70_1(A0_2)
+function L70_1(self)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C5DE72B0A4CB4BF06
@@ -153,7 +149,7 @@ function L70_1(A0_2)
   L2_2 = C5DE72B0A4CB4BF06
   L2_2 = L2_2.super
   L3_2 = L1_2
-  L4_2 = A0_2
+  L4_2 = self
   L2_2(L3_2, L4_2)
   return L1_2
 end

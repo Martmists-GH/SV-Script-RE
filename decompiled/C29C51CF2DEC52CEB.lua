@@ -1,3 +1,7 @@
+---@alias C29C51CF2DEC52CEB main_event_debug_DebugCameraInstantiateTest
+
+---@class main_event_debug_DebugCameraInstantiateTest : C29C51CF2DEC52CEB_prototype
+---@field prototype C29C51CF2DEC52CEB_prototype
 L55_1 = _ENV
 L56_1 = "C29C51CF2DEC52CEB"
 L57_1 = L15_1
@@ -47,137 +51,108 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C29C51CF2DEC52CEB"]
 L69_1 = "__name__"
 L70_1 = "C29C51CF2DEC52CEB"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C29C51CF2DEC52CEB"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C29C51CF2DEC52CEB"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C29C51CF2DEC52CEB_prototype
+C29C51CF2DEC52CEB_prototype = L15_1()
+C29C51CF2DEC52CEB.prototype = C29C51CF2DEC52CEB_prototype
+--- main.event.debug.DebugCameraInstantiateTest.preStart
+function C29C51CF2DEC52CEB_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F92BA869F22AE5BC6
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C29C51CF2DEC52CEB"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugCameraInstantiateTest.postStart
+function C29C51CF2DEC52CEB_prototype:F2E6C9E25867BCE8D()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F2E6C9E25867BCE8D
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C29C51CF2DEC52CEB"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugCameraInstantiateTest.mainBody
+function C29C51CF2DEC52CEB_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FD8D5F3745B4B5174
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerName
-  L2_2 = A0_2[33]
+  L2_2 = self[33]
   if L1_2 == L2_2 then
     L1_2 = nil
     L2_2 = c016374C1
     L2_2 = L2_2.f4555D276
-    L3_2 = A0_2[34]
+    L3_2 = self[34]
     L4_2 = L1_2
     L2_2 = L2_2(L3_2, L4_2)
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F19179612B3AB28D6
+      L3_2 = self
+      L2_2 = self.F19179612B3AB28D6
       L2_2 = L2_2(L3_2)
-      A0_2[34] = L2_2
+      self[34] = L2_2
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C29C51CF2DEC52CEB"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugCameraInstantiateTest.mainBodyFinish
+function C29C51CF2DEC52CEB_prototype:F84C84FA1590CD2A3()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F84C84FA1590CD2A3
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C29C51CF2DEC52CEB"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugCameraInstantiateTest.preEnd
+function C29C51CF2DEC52CEB_prototype:F740FB4E96926D103()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F740FB4E96926D103
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C29C51CF2DEC52CEB"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugCameraInstantiateTest.postEnd
+function C29C51CF2DEC52CEB_prototype:F3E13E4094D09A594()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F3E13E4094D09A594
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C29C51CF2DEC52CEB"]["prototype"]
-L69_1 = "F367E56C9AF7477A9"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugCameraInstantiateTest.preReset
+function C29C51CF2DEC52CEB_prototype:F367E56C9AF7477A9()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F367E56C9AF7477A9
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C29C51CF2DEC52CEB"]["prototype"]
-L69_1 = "F7D3239FB83157FC6"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugCameraInstantiateTest.postReset
+function C29C51CF2DEC52CEB_prototype:F7D3239FB83157FC6()
   local L1_2, L2_2
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F7D3239FB83157FC6
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C29C51CF2DEC52CEB"]["prototype"]
-L69_1 = "F19179612B3AB28D6"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugCameraInstantiateTest.createCamera
+function C29C51CF2DEC52CEB_prototype:F19179612B3AB28D6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D

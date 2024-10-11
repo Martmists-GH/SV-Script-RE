@@ -1,3 +1,7 @@
+---@alias CC9785D6A8597AB5F main_event_general_nushi_DragonNushiDammy
+
+---@class main_event_general_nushi_DragonNushiDammy : CC9785D6A8597AB5F_prototype
+---@field prototype CC9785D6A8597AB5F_prototype
 L55_1 = _ENV
 L56_1 = "CC9785D6A8597AB5F"
 L57_1 = L15_1
@@ -296,34 +300,23 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC9785D6A8597AB5F"]
 L69_1 = "__name__"
 L70_1 = "CC9785D6A8597AB5F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9785D6A8597AB5F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9785D6A8597AB5F"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class CC9785D6A8597AB5F_prototype
+CC9785D6A8597AB5F_prototype = L15_1()
+CC9785D6A8597AB5F.prototype = CC9785D6A8597AB5F_prototype
+--- main.event.general.nushi.DragonNushiDammy.preStart
+function CC9785D6A8597AB5F_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9785D6A8597AB5F"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.general.nushi.DragonNushiDammy.postStart
+function CC9785D6A8597AB5F_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9785D6A8597AB5F"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.nushi.DragonNushiDammy.mainBody
+function CC9785D6A8597AB5F_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerName
   L2_2 = CC9785D6A8597AB5F
   L2_2 = L2_2.S0EE98AB9934316D1
@@ -358,7 +351,7 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
   L4_2 = C9B54BC04DD492B6D
   L4_2 = L4_2.S3EDC50DEB344C642
-  L5_2 = A0_2[18]
+  L5_2 = self[18]
   L5_2 = L5_2.ownerName
   L6_2 = "nushi_dragon_0010_poke_04"
   L7_2 = "nushi_dragon_010"
@@ -368,11 +361,11 @@ function L70_1(A0_2)
   L5_2 = L2_2
   L4_2(L5_2)
   L4_2 = 0
-  L5_2 = A0_2[35]
+  L5_2 = self[35]
   L5_2 = L5_2.length
   L6_2 = "nusi_952_dummy_red"
   L7_2 = 0
-  L8_2 = A0_2[35]
+  L8_2 = self[35]
   while true do
     L9_2 = L8_2.length
     if not (L7_2 < L9_2) then
@@ -397,12 +390,12 @@ function L70_1(A0_2)
   L16_2 = false
   L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
   while L4_2 < L5_2 do
-    L10_2 = A0_2[35]
+    L10_2 = self[35]
     L10_2 = L10_2[L4_2]
     L10_2 = L10_2.ObjName
     if L10_2 == L1_2 then
       if 1 == L9_2 then
-        L10_2 = A0_2[35]
+        L10_2 = self[35]
         L10_2 = L10_2[L4_2]
         L10_2 = L10_2.eventFlag
         L11_2 = C10578806AC30DCA3
@@ -421,7 +414,7 @@ function L70_1(A0_2)
           L0_3 = nil
           L1_3 = c016374C1
           L1_3 = L1_3.f4555D276
-          L2_3 = A0_2
+          L2_3 = self
           L2_3 = L2_3[12]
           L2_3 = L2_3.owner
           L3_3 = L11_2
@@ -429,7 +422,7 @@ function L70_1(A0_2)
           if L1_3 then
             L0_3 = nil
           else
-            L1_3 = A0_2
+            L1_3 = self
             L0_3 = L1_3[12]
           end
           return L0_3
@@ -449,7 +442,7 @@ function L70_1(A0_2)
           L0_3 = nil
           L1_3 = c016374C1
           L1_3 = L1_3.f4555D276
-          L2_3 = A0_2
+          L2_3 = self
           L2_3 = L2_3[12]
           L2_3 = L2_3.owner
           L3_3 = L10_2
@@ -457,7 +450,7 @@ function L70_1(A0_2)
           if L1_3 then
             L0_3 = nil
           else
-            L1_3 = A0_2
+            L1_3 = self
             L0_3 = L1_3[12]
           end
           return L0_3
@@ -480,7 +473,7 @@ function L70_1(A0_2)
           L0_3 = nil
           L1_3 = c016374C1
           L1_3 = L1_3.f4555D276
-          L2_3 = A0_2
+          L2_3 = self
           L2_3 = L2_3[12]
           L2_3 = L2_3.owner
           L3_3 = L10_2
@@ -488,7 +481,7 @@ function L70_1(A0_2)
           if L1_3 then
             L0_3 = nil
           else
-            L1_3 = A0_2
+            L1_3 = self
             L0_3 = L1_3[12]
           end
           return L0_3
@@ -511,7 +504,7 @@ function L70_1(A0_2)
           L0_3 = nil
           L1_3 = c016374C1
           L1_3 = L1_3.f4555D276
-          L2_3 = A0_2
+          L2_3 = self
           L2_3 = L2_3[12]
           L2_3 = L2_3.owner
           L3_3 = L10_2
@@ -519,7 +512,7 @@ function L70_1(A0_2)
           if L1_3 then
             L0_3 = nil
           else
-            L1_3 = A0_2
+            L1_3 = self
             L0_3 = L1_3[12]
           end
           return L0_3
@@ -541,27 +534,18 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9785D6A8597AB5F"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.nushi.DragonNushiDammy.mainBodyFinish
+function CC9785D6A8597AB5F_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9785D6A8597AB5F"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.nushi.DragonNushiDammy.preEnd
+function CC9785D6A8597AB5F_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC9785D6A8597AB5F"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.general.nushi.DragonNushiDammy.postEnd
+function CC9785D6A8597AB5F_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

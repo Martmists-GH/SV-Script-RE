@@ -1,3 +1,7 @@
+---@alias C4825FBDEA4E33FF2 main_ui_result_view_BattleResultExpPlate
+
+---@class main_ui_result_view_BattleResultExpPlate : C4825FBDEA4E33FF2_prototype
+---@field prototype C4825FBDEA4E33FF2_prototype
 L55_1 = _ENV
 L56_1 = "C4825FBDEA4E33FF2"
 L57_1 = L15_1
@@ -105,33 +109,25 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4825FBDEA4E33FF2"]
 L69_1 = "__name__"
 L70_1 = "C4825FBDEA4E33FF2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4825FBDEA4E33FF2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4825FBDEA4E33FF2"]["prototype"]
-L69_1 = "F49066ABC818A10FB"
-
-function L70_1(A0_2)
+---@class C4825FBDEA4E33FF2_prototype
+C4825FBDEA4E33FF2_prototype = L15_1()
+C4825FBDEA4E33FF2.prototype = C4825FBDEA4E33FF2_prototype
+--- main.ui.result.view.BattleResultExpPlate.get_IsLvUp
+function C4825FBDEA4E33FF2_prototype:F49066ABC818A10FB()
   local L1_2
-  L1_2 = A0_2[11]
+  L1_2 = self[11]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4825FBDEA4E33FF2"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2)
+--- main.ui.result.view.BattleResultExpPlate.Init
+function C4825FBDEA4E33FF2_prototype:F90BBC6B0190BF053()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.fCE2A7CF8
   L3_2 = 2
   L1_2 = L1_2(L2_2, L3_2)
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.fD2EF1BBB
   L2_2 = L2_2(L3_2)
@@ -141,7 +137,7 @@ function L70_1(A0_2)
   L4_2 = L3_2
   L3_2 = L3_2.fD499C005
   L5_2 = 0
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L3_2(L4_2, L5_2, L6_2)
   L3_2 = C828F047963375FA0
   L3_2 = L3_2.S7F96B3B929C8C9AB
@@ -176,13 +172,13 @@ function L70_1(A0_2)
   end
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L31_1.string
   L7_2 = L31_1.string
   L8_2 = ""
   L7_2 = L7_2(L8_2)
   L8_2 = L31_1.string
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L8_2 = L8_2(L9_2)
   L7_2 = L7_2 .. L8_2
   L6_2 = L6_2(L7_2)
@@ -194,11 +190,11 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2, L7_2)
   L4_2 = c7D398445
   L4_2 = L4_2.fEAFAEDA4
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L4_2 = L4_2(L5_2)
   L5_2 = 2 ~= L4_2
   if L5_2 then
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L7_2 = L6_2
     L6_2 = L6_2.fEAD9FB7D
     L8_2 = L31_1.string
@@ -206,7 +202,7 @@ function L70_1(A0_2)
     L10_2 = ""
     L9_2 = L9_2(L10_2)
     L10_2 = L31_1.string
-    L11_2 = A0_2[5]
+    L11_2 = self[5]
     L10_2 = L10_2(L11_2)
     L9_2 = L9_2 .. L10_2
     L8_2 = L8_2(L9_2)
@@ -230,7 +226,7 @@ function L70_1(A0_2)
     L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L9_2()
     L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
   else
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L7_2 = L6_2
     L6_2 = L6_2.f7798D9F4
     L8_2 = L31_1.string
@@ -238,7 +234,7 @@ function L70_1(A0_2)
     L10_2 = ""
     L9_2 = L9_2(L10_2)
     L10_2 = L31_1.string
-    L11_2 = A0_2[5]
+    L11_2 = self[5]
     L10_2 = L10_2(L11_2)
     L9_2 = L9_2 .. L10_2
     L8_2 = L8_2(L9_2)
@@ -249,7 +245,7 @@ function L70_1(A0_2)
     L9_2 = L5_2
     L6_2(L7_2, L8_2, L9_2)
   end
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = L6_2
   L6_2 = L6_2.fD2EF1BBB
   L6_2 = L6_2(L7_2)
@@ -281,13 +277,13 @@ function L70_1(A0_2)
   L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
   L9_2 = c8C3BF576
   L9_2 = L9_2.f316077B2
-  L10_2 = A0_2[3]
+  L10_2 = self[3]
   L11_2 = L31_1.string
   L12_2 = L31_1.string
   L13_2 = ""
   L12_2 = L12_2(L13_2)
   L13_2 = L31_1.string
-  L14_2 = A0_2[5]
+  L14_2 = self[5]
   L13_2 = L13_2(L14_2)
   L12_2 = L12_2 .. L13_2
   L11_2 = L11_2(L12_2)
@@ -297,7 +293,7 @@ function L70_1(A0_2)
   L11_2 = L11_2 .. L12_2
   L12_2 = L8_2
   L9_2(L10_2, L11_2, L12_2)
-  L9_2 = A0_2[2]
+  L9_2 = self[2]
   L10_2 = L9_2
   L9_2 = L9_2.f7798D9F4
   L11_2 = L31_1.string
@@ -305,7 +301,7 @@ function L70_1(A0_2)
   L13_2 = ""
   L12_2 = L12_2(L13_2)
   L13_2 = L31_1.string
-  L14_2 = A0_2[5]
+  L14_2 = self[5]
   L13_2 = L13_2(L14_2)
   L12_2 = L12_2 .. L13_2
   L11_2 = L11_2(L12_2)
@@ -315,21 +311,21 @@ function L70_1(A0_2)
   L11_2 = L11_2 .. L12_2
   L12_2 = not L1_2
   L9_2(L10_2, L11_2, L12_2)
-  L10_2 = A0_2
-  L9_2 = A0_2.F2DBE64C60CB67289
-  L11_2 = A0_2[8]
+  L10_2 = self
+  L9_2 = self.F2DBE64C60CB67289
+  L11_2 = self[8]
   L11_2 = L11_2.exp
   L9_2(L10_2, L11_2)
   L9_2 = C1DB14DCC9D7634FA
   L9_2 = L9_2.new
   L10_2 = L55_1
-  L11_2 = A0_2
-  L12_2 = A0_2.F5CD4FFF03E2E0544
+  L11_2 = self
+  L12_2 = self.F5CD4FFF03E2E0544
   L10_2 = L10_2(L11_2, L12_2)
   L11_2 = "battle_result_expPlate_sequence"
   L9_2 = L9_2(L10_2, L11_2)
-  A0_2[6] = L9_2
-  L9_2 = A0_2[2]
+  self[6] = L9_2
+  L9_2 = self[2]
   L10_2 = L9_2
   L9_2 = L9_2.f7798D9F4
   L11_2 = L31_1.string
@@ -337,7 +333,7 @@ function L70_1(A0_2)
   L13_2 = ""
   L12_2 = L12_2(L13_2)
   L13_2 = L31_1.string
-  L14_2 = A0_2[5]
+  L14_2 = self[5]
   L13_2 = L13_2(L14_2)
   L12_2 = L12_2 .. L13_2
   L11_2 = L11_2(L12_2)
@@ -347,7 +343,7 @@ function L70_1(A0_2)
   L11_2 = L11_2 .. L12_2
   L12_2 = not L2_2
   L9_2(L10_2, L11_2, L12_2)
-  L9_2 = A0_2[2]
+  L9_2 = self[2]
   L10_2 = L9_2
   L9_2 = L9_2.f7798D9F4
   L11_2 = L31_1.string
@@ -355,7 +351,7 @@ function L70_1(A0_2)
   L13_2 = ""
   L12_2 = L12_2(L13_2)
   L13_2 = L31_1.string
-  L14_2 = A0_2[5]
+  L14_2 = self[5]
   L13_2 = L13_2(L14_2)
   L12_2 = L12_2 .. L13_2
   L11_2 = L11_2(L12_2)
@@ -367,21 +363,21 @@ function L70_1(A0_2)
   L9_2(L10_2, L11_2, L12_2)
   L9_2 = C2E8D016DD410D06A
   L9_2 = L9_2.SD7E693DFC343AAE6
-  L10_2 = A0_2[4]
+  L10_2 = self[4]
   L11_2 = true
   L9_2 = L9_2(L10_2, L11_2)
   if nil ~= L9_2 then
-    L10_2 = A0_2[2]
+    L10_2 = self[2]
     L11_2 = L10_2
     L10_2 = L10_2.fC6FA21BA
-    L12_2 = A0_2[1]
-    L13_2 = A0_2[10]
+    L12_2 = self[1]
+    L13_2 = self[10]
     L12_2 = L12_2 + L13_2
     L13_2 = L9_2
     L14_2 = 0
     L10_2(L11_2, L12_2, L13_2, L14_2)
   end
-  L10_2 = A0_2[4]
+  L10_2 = self[4]
   L11_2 = L10_2
   L10_2 = L10_2.f0BD5134F
   L10_2 = L10_2(L11_2)
@@ -398,7 +394,7 @@ function L70_1(A0_2)
     L14_2 = true
     L15_2 = L1_2
     L11_2 = L11_2(L12_2, L13_2, L14_2, L15_2)
-    L12_2 = A0_2[2]
+    L12_2 = self[2]
     L13_2 = L12_2
     L12_2 = L12_2.f0067ACC1
     L14_2 = L31_1.string
@@ -406,7 +402,7 @@ function L70_1(A0_2)
     L16_2 = ""
     L15_2 = L15_2(L16_2)
     L16_2 = L31_1.string
-    L17_2 = A0_2[5]
+    L17_2 = self[5]
     L16_2 = L16_2(L17_2)
     L15_2 = L15_2 .. L16_2
     L14_2 = L14_2(L15_2)
@@ -421,13 +417,13 @@ function L70_1(A0_2)
   end
   L11_2 = c8C3BF576
   L11_2 = L11_2.f316077B2
-  L12_2 = A0_2[3]
+  L12_2 = self[3]
   L13_2 = L31_1.string
   L14_2 = L31_1.string
   L15_2 = ""
   L14_2 = L14_2(L15_2)
   L15_2 = L31_1.string
-  L16_2 = A0_2[5]
+  L16_2 = self[5]
   L15_2 = L15_2(L16_2)
   L14_2 = L14_2 .. L15_2
   L13_2 = L13_2(L14_2)
@@ -444,17 +440,17 @@ function L70_1(A0_2)
   if L2_2 then
     return
   end
-  L11_2 = A0_2[8]
+  L11_2 = self[8]
   L11_2 = L11_2.exp
-  L12_2 = A0_2[8]
+  L12_2 = self[8]
   L12_2 = L12_2.getExp
   L11_2 = L11_2 + L12_2
-  L12_2 = A0_2[8]
+  L12_2 = self[8]
   L12_2 = L12_2.nextExp
   if L11_2 >= L12_2 then
-    A0_2[11] = true
+    self[11] = true
   end
-  L11_2 = A0_2[8]
+  L11_2 = self[8]
   L11_2 = L11_2.getExp
   L12_2 = 0
   L13_2 = C828F047963375FA0
@@ -484,13 +480,13 @@ function L70_1(A0_2)
   L13_2 = L13_2(L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
   L14_2 = c8C3BF576
   L14_2 = L14_2.f316077B2
-  L15_2 = A0_2[3]
+  L15_2 = self[3]
   L16_2 = L31_1.string
   L17_2 = L31_1.string
   L18_2 = ""
   L17_2 = L17_2(L18_2)
   L18_2 = L31_1.string
-  L19_2 = A0_2[5]
+  L19_2 = self[5]
   L18_2 = L18_2(L19_2)
   L17_2 = L17_2 .. L18_2
   L16_2 = L16_2(L17_2)
@@ -502,21 +498,18 @@ function L70_1(A0_2)
   L14_2(L15_2, L16_2, L17_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4825FBDEA4E33FF2"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.ui.result.view.BattleResultExpPlate.Update
+function C4825FBDEA4E33FF2_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   if nil ~= L1_2 then
     L1_2 = L10_1.coroutine
     L1_2 = L1_2.status
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L2_2 = L2_2[1]
     L1_2 = L1_2(L2_2)
     if "dead" ~= L1_2 then
-      L1_2 = A0_2[6]
+      L1_2 = self[6]
       L2_2 = nil
       L3_2 = L62_1
       L4_2 = L64_1.pack
@@ -562,15 +555,15 @@ function L70_1(A0_2)
       end
     end
   end
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   if nil ~= L1_2 then
     L1_2 = L10_1.coroutine
     L1_2 = L1_2.status
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L2_2 = L2_2[1]
     L1_2 = L1_2(L2_2)
     if "dead" ~= L1_2 then
-      L1_2 = A0_2[7]
+      L1_2 = self[7]
       L2_2 = nil
       L3_2 = L62_1
       L4_2 = L64_1.pack
@@ -618,29 +611,26 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4825FBDEA4E33FF2"]["prototype"]
-L69_1 = "F319F956EBF01CF3D"
-
-function L70_1(A0_2)
+--- main.ui.result.view.BattleResultExpPlate.IsSequenceEnd
+function C4825FBDEA4E33FF2_prototype:F319F956EBF01CF3D()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   if nil == L1_2 then
     L1_2 = false
     return L1_2
   end
   L1_2 = L10_1.coroutine
   L1_2 = L1_2.status
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2[1]
   L1_2 = L1_2(L2_2)
   L1_2 = "dead" == L1_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if nil ~= L2_2 then
     if L1_2 then
       L2_2 = L10_1.coroutine
       L2_2 = L2_2.status
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L3_2 = L3_2[1]
       L2_2 = L2_2(L3_2)
       L2_2 = "dead" == L2_2
@@ -653,13 +643,10 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4825FBDEA4E33FF2"]["prototype"]
-L69_1 = "F748A3DCD68216D1D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.result.view.BattleResultExpPlate.PlayAnime
+function C4825FBDEA4E33FF2_prototype:F748A3DCD68216D1D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.fB4E9D030
   L4_2 = L31_1.string
@@ -668,7 +655,7 @@ function L70_1(A0_2, A1_2)
   L7_2 = ""
   L6_2 = L6_2(L7_2)
   L7_2 = L31_1.string
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L7_2 = L7_2(L8_2)
   L6_2 = L6_2 .. L7_2
   L5_2 = L5_2(L6_2)
@@ -684,11 +671,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4825FBDEA4E33FF2"]["prototype"]
-L69_1 = "FAC63FB6628846950"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.result.view.BattleResultExpPlate.PlayAnimeSequence
+function C4825FBDEA4E33FF2_prototype:FAC63FB6628846950(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L31_1.string
   L3_2 = L31_1.string
@@ -696,7 +680,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = ""
   L4_2 = L4_2(L5_2)
   L5_2 = L31_1.string
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
   L3_2 = L3_2(L4_2)
@@ -709,7 +693,7 @@ function L70_1(A0_2, A1_2)
   L4_2 = A1_2
   L3_2 = L3_2(L4_2)
   L2_2 = L2_2 .. L3_2
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.fB4E9D030
   L5_2 = L2_2
@@ -718,7 +702,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.S760DAE4C5371A78E
   L3_2()
   while true do
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fF8C77C75
     L5_2 = L2_2
@@ -732,42 +716,39 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4825FBDEA4E33FF2"]["prototype"]
-L69_1 = "F5CD4FFF03E2E0544"
-
-function L70_1(A0_2)
+--- main.ui.result.view.BattleResultExpPlate.ExpUpdateSequence
+function C4825FBDEA4E33FF2_prototype:F5CD4FFF03E2E0544()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.fD2EF1BBB
   L1_2 = L1_2(L2_2)
   if 100 == L1_2 then
     return
   end
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L1_2 = L1_2.exp
   L2_2 = false
   L3_2 = false
   L4_2 = 0
   L5_2 = 0
   L6_2 = false
-  L7_2 = A0_2[11]
+  L7_2 = self[11]
   if false == L7_2 then
-    L7_2 = A0_2[8]
+    L7_2 = self[8]
     L7_2 = L7_2.exp
-    L8_2 = A0_2[8]
+    L8_2 = self[8]
     L8_2 = L8_2.getExp
     L4_2 = L7_2 + L8_2
-    L7_2 = A0_2[8]
+    L7_2 = self[8]
     L7_2 = L7_2.getExp
     L5_2 = L7_2 / 90
   else
-    L7_2 = A0_2[8]
+    L7_2 = self[8]
     L4_2 = L7_2.nextExp
-    L7_2 = A0_2[8]
+    L7_2 = self[8]
     L7_2 = L7_2.nextExp
-    L8_2 = A0_2[8]
+    L8_2 = self[8]
     L8_2 = L8_2.exp
     L7_2 = L7_2 - L8_2
     L5_2 = L7_2 / 45
@@ -779,8 +760,8 @@ function L70_1(A0_2)
   L7_2(L8_2)
   L7_2 = false
   while true do
-    L9_2 = A0_2
-    L8_2 = A0_2.F9B3165574ECB2020
+    L9_2 = self
+    L8_2 = self.F9B3165574ECB2020
     L10_2 = L3_2
     L11_2 = L1_2
     L12_2 = L4_2 - L5_2
@@ -804,7 +785,7 @@ function L70_1(A0_2)
     L6_2 = true
     do break end
     ::lbl_66::
-    L8_2 = A0_2[4]
+    L8_2 = self[4]
     L9_2 = L8_2
     L8_2 = L8_2.fD2EF1BBB
     L8_2 = L8_2(L9_2)
@@ -812,8 +793,8 @@ function L70_1(A0_2)
       L2_2 = true
       break
     end
-    L9_2 = A0_2
-    L8_2 = A0_2.FF6B55CEC520D0256
+    L9_2 = self
+    L8_2 = self.FF6B55CEC520D0256
     L10_2 = L1_2
     L8_2 = L8_2(L9_2, L10_2)
     if not L8_2 and L2_2 and not L7_2 then
@@ -824,12 +805,12 @@ function L70_1(A0_2)
       L7_2 = true
     end
     L1_2 = L1_2 + L5_2
-    L9_2 = A0_2
-    L8_2 = A0_2.F2DBE64C60CB67289
+    L9_2 = self
+    L8_2 = self.F2DBE64C60CB67289
     L10_2 = L1_2
     L8_2(L9_2, L10_2)
-    L9_2 = A0_2
-    L8_2 = A0_2.FF6B55CEC520D0256
+    L9_2 = self
+    L8_2 = self.FF6B55CEC520D0256
     L10_2 = L1_2
     L8_2 = L8_2(L9_2, L10_2)
     if L8_2 then
@@ -840,20 +821,20 @@ function L70_1(A0_2)
       L8_2 = C1DB14DCC9D7634FA
       L8_2 = L8_2.new
       L9_2 = L55_1
-      L10_2 = A0_2
-      L11_2 = A0_2.F7F134AC450D66FA5
+      L10_2 = self
+      L11_2 = self.F7F134AC450D66FA5
       L9_2 = L9_2(L10_2, L11_2)
       L10_2 = "battle_result_expPlate_levelvUp_sequence"
       L8_2 = L8_2(L9_2, L10_2)
-      A0_2[7] = L8_2
+      self[7] = L8_2
       L2_2 = true
       L3_2 = false
-      L9_2 = A0_2
-      L8_2 = A0_2.FC9738B4C9786ACB8
+      L9_2 = self
+      L8_2 = self.FC9738B4C9786ACB8
       L8_2(L9_2)
-      L8_2 = A0_2[8]
+      L8_2 = self[8]
       L1_2 = L8_2.currentLevelExp
-      L8_2 = A0_2[8]
+      L8_2 = self[8]
       L4_2 = L8_2.exp
       L8_2 = L4_2 - L1_2
       L5_2 = L8_2 / 45
@@ -866,62 +847,59 @@ function L70_1(A0_2)
   L8_2 = L8_2.SC6181320B46854EE
   L9_2 = "STOP_UI_COMMON_GAUGE_UP_LP"
   L8_2(L9_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.FF6B55CEC520D0256
+  L9_2 = self
+  L8_2 = self.FF6B55CEC520D0256
   L10_2 = L4_2
   L8_2 = L8_2(L9_2, L10_2)
   if L8_2 then
     L8_2 = C1DB14DCC9D7634FA
     L8_2 = L8_2.new
     L9_2 = L55_1
-    L10_2 = A0_2
-    L11_2 = A0_2.F7F134AC450D66FA5
+    L10_2 = self
+    L11_2 = self.F7F134AC450D66FA5
     L9_2 = L9_2(L10_2, L11_2)
     L10_2 = "battle_result_expPlate_levelvUp_sequence"
     L8_2 = L8_2(L9_2, L10_2)
-    A0_2[7] = L8_2
-    L9_2 = A0_2
-    L8_2 = A0_2.FC9738B4C9786ACB8
+    self[7] = L8_2
+    L9_2 = self
+    L8_2 = self.FC9738B4C9786ACB8
     L8_2(L9_2)
     L2_2 = true
     if true == L6_2 and true == L3_2 then
-      L8_2 = A0_2[8]
+      L8_2 = self[8]
       L4_2 = L8_2.exp
     end
   end
-  L9_2 = A0_2
-  L8_2 = A0_2.F2DBE64C60CB67289
+  L9_2 = self
+  L8_2 = self.F2DBE64C60CB67289
   L10_2 = L4_2
   L8_2(L9_2, L10_2)
   if true == L2_2 then
     return
   end
-  L8_2 = A0_2[4]
+  L8_2 = self[4]
   L9_2 = L8_2
   L8_2 = L8_2.f5A01CE65
   L8_2 = L8_2(L9_2)
-  L9_2 = A0_2[8]
+  L9_2 = self[8]
   L9_2 = L9_2.exp
   if L8_2 == L9_2 then
-    L8_2 = A0_2[4]
+    L8_2 = self[4]
     L9_2 = L8_2
     L8_2 = L8_2.fE1215357
-    L10_2 = A0_2[8]
+    L10_2 = self[8]
     L10_2 = L10_2.getExp
     L8_2(L9_2, L10_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4825FBDEA4E33FF2"]["prototype"]
-L69_1 = "F9B3165574ECB2020"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.result.view.BattleResultExpPlate.IsBarAnimEnd
+function C4825FBDEA4E33FF2_prototype:F9B3165574ECB2020(A1_2, A2_2, A3_2)
   local L4_2
-  L4_2 = A0_2[8]
+  L4_2 = self[8]
   L4_2 = L4_2.currentLevelExp
   if 0 == L4_2 then
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     L4_2 = L4_2.nextExp
     if 0 == L4_2 then
       L4_2 = false
@@ -936,16 +914,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4825FBDEA4E33FF2"]["prototype"]
-L69_1 = "FF6B55CEC520D0256"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.result.view.BattleResultExpPlate.IsExpMax
+function C4825FBDEA4E33FF2_prototype:FF6B55CEC520D0256(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L2_2 = L2_2.currentLevelExp
   if 0 == L2_2 then
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L2_2 = L2_2.nextExp
     if 0 == L2_2 then
       L2_2 = false
@@ -954,7 +929,7 @@ function L70_1(A0_2, A1_2)
   end
   L2_2 = L10_1.math
   L2_2 = L2_2.abs
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L3_2 = L3_2.nextExp
   L3_2 = L3_2 - A1_2
   L2_2 = L2_2(L3_2)
@@ -964,30 +939,27 @@ function L70_1(A0_2, A1_2)
     L2_2 = true
     return L2_2
   end
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L2_2 = L2_2.nextExp
   L2_2 = L2_2 - A1_2
   L2_2 = L2_2 < 0
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4825FBDEA4E33FF2"]["prototype"]
-L69_1 = "FC9738B4C9786ACB8"
-
-function L70_1(A0_2)
+--- main.ui.result.view.BattleResultExpPlate.LevelUp
+function C4825FBDEA4E33FF2_prototype:FC9738B4C9786ACB8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.f5A01CE65
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L2_2 = L2_2.exp
   if L1_2 == L2_2 then
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     L2_2 = L1_2
     L1_2 = L1_2.fE1215357
-    L3_2 = A0_2[8]
+    L3_2 = self[8]
     L3_2 = L3_2.getExp
     L1_2(L2_2, L3_2)
   end
@@ -1001,37 +973,37 @@ function L70_1(A0_2)
   L3_2.getExp = true
   L3_2.power = true
   L2_2.__fields__ = L3_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.fD2EF1BBB
   L3_2 = L3_2(L4_2)
   L2_2.level = L3_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.f5A01CE65
   L3_2 = L3_2(L4_2)
   L2_2.exp = L3_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.f82EDEC47
   L3_2 = L3_2(L4_2)
   L2_2.nextExp = L3_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.fE6586496
   L3_2 = L3_2(L4_2)
   L2_2.currentLevelExp = L3_2
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L3_2 = L3_2.getExp
   L2_2.getExp = L3_2
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L3_2 = L3_2.power
   L2_2.power = L3_2
   L1_2 = L1_2(L2_2)
-  A0_2[8] = L1_2
-  L1_2 = A0_2[9]
+  self[8] = L1_2
+  L1_2 = self[9]
   if L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.f7798D9F4
     L3_2 = L31_1.string
@@ -1039,7 +1011,7 @@ function L70_1(A0_2)
     L5_2 = ""
     L4_2 = L4_2(L5_2)
     L5_2 = L31_1.string
-    L6_2 = A0_2[5]
+    L6_2 = self[5]
     L5_2 = L5_2(L6_2)
     L4_2 = L4_2 .. L5_2
     L3_2 = L3_2(L4_2)
@@ -1054,7 +1026,7 @@ function L70_1(A0_2)
     L2_2 = "PLAY_UI_WAZA_INSPIRATION_MARK"
     L1_2(L2_2)
   end
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.fD2EF1BBB
   L1_2 = L1_2(L2_2)
@@ -1086,13 +1058,13 @@ function L70_1(A0_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
   L4_2 = c8C3BF576
   L4_2 = L4_2.f316077B2
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L31_1.string
   L7_2 = L31_1.string
   L8_2 = ""
   L7_2 = L7_2(L8_2)
   L8_2 = L31_1.string
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L8_2 = L8_2(L9_2)
   L7_2 = L7_2 .. L8_2
   L6_2 = L6_2(L7_2)
@@ -1108,34 +1080,28 @@ function L70_1(A0_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4825FBDEA4E33FF2"]["prototype"]
-L69_1 = "F7F134AC450D66FA5"
-
-function L70_1(A0_2)
+--- main.ui.result.view.BattleResultExpPlate.LevelUpSequence
+function C4825FBDEA4E33FF2_prototype:F7F134AC450D66FA5()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FAC63FB6628846950
+  L2_2 = self
+  L1_2 = self.FAC63FB6628846950
   L3_2 = "levelup_in"
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F748A3DCD68216D1D
+  L2_2 = self
+  L1_2 = self.F748A3DCD68216D1D
   L3_2 = "levelup_wait"
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4825FBDEA4E33FF2"]["prototype"]
-L69_1 = "F2DBE64C60CB67289"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.result.view.BattleResultExpPlate.SetExpGauge
+function C4825FBDEA4E33FF2_prototype:F2DBE64C60CB67289(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.fD2EF1BBB
   L2_2 = L2_2(L3_2)
   if 100 == L2_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.fEAD9FB7D
     L4_2 = L31_1.string
@@ -1143,7 +1109,7 @@ function L70_1(A0_2, A1_2)
     L6_2 = ""
     L5_2 = L5_2(L6_2)
     L6_2 = L31_1.string
-    L7_2 = A0_2[5]
+    L7_2 = self[5]
     L6_2 = L6_2(L7_2)
     L5_2 = L5_2 .. L6_2
     L4_2 = L4_2(L5_2)
@@ -1155,13 +1121,13 @@ function L70_1(A0_2, A1_2)
     L2_2(L3_2, L4_2, L5_2)
     return
   end
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L2_2 = L2_2.currentLevelExp
   if 0 == L2_2 then
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L2_2 = L2_2.nextExp
     if 0 == L2_2 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = L2_2
       L2_2 = L2_2.fEAD9FB7D
       L4_2 = L31_1.string
@@ -1169,7 +1135,7 @@ function L70_1(A0_2, A1_2)
       L6_2 = ""
       L5_2 = L5_2(L6_2)
       L6_2 = L31_1.string
-      L7_2 = A0_2[5]
+      L7_2 = self[5]
       L6_2 = L6_2(L7_2)
       L5_2 = L5_2 .. L6_2
       L4_2 = L4_2(L5_2)
@@ -1182,17 +1148,17 @@ function L70_1(A0_2, A1_2)
       return
     end
   end
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L2_2 = L2_2.currentLevelExp
   L2_2 = A1_2 - L2_2
   L2_2 = L2_2 * 100
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L3_2 = L3_2.nextExp
-  L4_2 = A0_2[8]
+  L4_2 = self[8]
   L4_2 = L4_2.currentLevelExp
   L3_2 = L3_2 - L4_2
   L2_2 = L2_2 / L3_2
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.fEAD9FB7D
   L5_2 = L31_1.string
@@ -1200,7 +1166,7 @@ function L70_1(A0_2, A1_2)
   L7_2 = ""
   L6_2 = L6_2(L7_2)
   L7_2 = L31_1.string
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L7_2 = L7_2(L8_2)
   L6_2 = L6_2 .. L7_2
   L5_2 = L5_2(L6_2)

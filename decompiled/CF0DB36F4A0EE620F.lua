@@ -1,3 +1,5 @@
+---@class CF0DB36F4A0EE620F : CF0DB36F4A0EE620F_prototype
+---@field prototype CF0DB36F4A0EE620F_prototype
 L55_1 = _ENV
 L56_1 = "CF0DB36F4A0EE620F"
 L57_1 = L15_1
@@ -40,21 +42,16 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF0DB36F4A0EE620F"]
 L69_1 = "__name__"
 L70_1 = "CF0DB36F4A0EE620F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DB36F4A0EE620F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DB36F4A0EE620F"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2, A1_2)
+---@class CF0DB36F4A0EE620F_prototype
+CF0DB36F4A0EE620F_prototype = L15_1()
+CF0DB36F4A0EE620F.prototype = CF0DB36F4A0EE620F_prototype
+--- CF0DB36F4A0EE620F.onSetup
+function CF0DB36F4A0EE620F_prototype:F22C7B81A049FA20D(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C758A4480EDBFE879
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F22C7B81A049FA20D
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -65,28 +62,22 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DB36F4A0EE620F"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2, A1_2, A2_2)
-  A0_2[6] = A1_2
-  A0_2[7] = A2_2
+--- CF0DB36F4A0EE620F.Reset
+function CF0DB36F4A0EE620F_prototype:F96EA28F400597FA0(A1_2, A2_2)
+  self[6] = A1_2
+  self[7] = A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF0DB36F4A0EE620F"]["prototype"]
-L69_1 = "FA542232677361537"
-
-function L70_1(A0_2, A1_2)
+--- CF0DB36F4A0EE620F.Get
+function CF0DB36F4A0EE620F_prototype:FA542232677361537(A1_2)
   local L2_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2[43]
   if 0 == L2_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     return L2_2
   else
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     return L2_2
   end
 end

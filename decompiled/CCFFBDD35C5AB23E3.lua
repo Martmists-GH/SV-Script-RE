@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CCFFBDD35C5AB23E3"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CCFFBDD35C5AB23E3"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFFBDD35C5AB23E3"]
-L69_1 = "__name__"
-L70_1 = "CCFFBDD35C5AB23E3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFFBDD35C5AB23E3"]
-L69_1 = "S1E5B34A3C35C0E50"
+---@alias CCFFBDD35C5AB23E3 main_pokepicnic_contents_checker_PicnicContentsCheckerUtil
 
-function L70_1(A0_2, A1_2)
+---@class main_pokepicnic_contents_checker_PicnicContentsCheckerUtil
+CCFFBDD35C5AB23E3 = L15_1()
+CCFFBDD35C5AB23E3.new = {}
+CCFFBDD35C5AB23E3.__name__ = "CCFFBDD35C5AB23E3"
+--- main.pokepicnic.contents.checker.PicnicContentsCheckerUtil.IsAccessObject
+function CCFFBDD35C5AB23E3.S1E5B34A3C35C0E50(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S93A017D496A6D000
@@ -123,11 +114,8 @@ function L70_1(A0_2, A1_2)
   return L26_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFFBDD35C5AB23E3"]
-L69_1 = "S2E44FCFCCB74CA78"
-
-function L70_1(A0_2)
+--- main.pokepicnic.contents.checker.PicnicContentsCheckerUtil.IsAccessPokemon
+function CCFFBDD35C5AB23E3.S2E44FCFCCB74CA78(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S93A017D496A6D000

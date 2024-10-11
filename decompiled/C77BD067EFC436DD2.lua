@@ -1,3 +1,5 @@
+---@class C77BD067EFC436DD2 : C77BD067EFC436DD2_prototype
+---@field prototype C77BD067EFC436DD2_prototype
 L55_1 = _ENV
 L56_1 = "C77BD067EFC436DD2"
 L57_1 = L15_1
@@ -36,18 +38,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C77BD067EFC436DD2"]
 L69_1 = "__name__"
 L70_1 = "C77BD067EFC436DD2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C77BD067EFC436DD2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C77BD067EFC436DD2"]["prototype"]
-L69_1 = "F2B8F4D1A92BBC209"
-
-function L70_1(A0_2)
+---@class C77BD067EFC436DD2_prototype
+C77BD067EFC436DD2_prototype = L15_1()
+C77BD067EFC436DD2.prototype = C77BD067EFC436DD2_prototype
+--- C77BD067EFC436DD2.UpdateProcess
+function C77BD067EFC436DD2_prototype:F2B8F4D1A92BBC209()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L1_2 = L1_2[1]
   if 0 == L1_2 then
   elseif 1 == L1_2 then
@@ -55,51 +52,45 @@ function L70_1(A0_2)
     L2_2 = L2_2.S3EBF403FA28ADB04
     L2_2 = L2_2()
     if not L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F28EAF3B3AA178E3E
+      L3_2 = self
+      L2_2 = self.F28EAF3B3AA178E3E
       L4_2 = E6E5211178848FDE4
       L4_2 = L4_2.kReplace
       L2_2(L3_2, L4_2)
     end
   elseif 2 == L1_2 then
-    L2_2 = A0_2.F4E4AC33BCFEE5F69
+    L2_2 = self.F4E4AC33BCFEE5F69
     if nil ~= L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F4E4AC33BCFEE5F69
+      L3_2 = self
+      L2_2 = self.F4E4AC33BCFEE5F69
       L2_2(L3_2)
-      A0_2.F4E4AC33BCFEE5F69 = nil
+      self.F4E4AC33BCFEE5F69 = nil
     end
-    L3_2 = A0_2
-    L2_2 = A0_2.F28EAF3B3AA178E3E
+    L3_2 = self
+    L2_2 = self.F28EAF3B3AA178E3E
     L4_2 = E6E5211178848FDE4
     L4_2 = L4_2.kWait
     L2_2(L3_2, L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C77BD067EFC436DD2"]["prototype"]
-L69_1 = "FCEC4F074EF3E7A8B"
-
-function L70_1(A0_2, A1_2)
+--- C77BD067EFC436DD2.FCEC4F074EF3E7A8B
+function C77BD067EFC436DD2_prototype:FCEC4F074EF3E7A8B(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F4E4AC33BCFEE5F69 = L2_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F28EAF3B3AA178E3E
+  self.F4E4AC33BCFEE5F69 = L2_2
+  L3_2 = self
+  L2_2 = self.F28EAF3B3AA178E3E
   L4_2 = E6E5211178848FDE4
   L4_2 = L4_2.kUpdate
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C77BD067EFC436DD2"]["prototype"]
-L69_1 = "F28EAF3B3AA178E3E"
-
-function L70_1(A0_2, A1_2)
-  A0_2[1] = A1_2
+--- C77BD067EFC436DD2.ChangeState
+function C77BD067EFC436DD2_prototype:F28EAF3B3AA178E3E(A1_2)
+  self[1] = A1_2
 end
 
 L68_1[L69_1] = L70_1

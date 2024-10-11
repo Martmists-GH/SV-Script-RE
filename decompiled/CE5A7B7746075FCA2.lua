@@ -1,3 +1,7 @@
+---@alias CE7A3575C80DC56BE main_ui_bag_bag_ui_state_machine_BagUIWazaBaseState
+
+---@class main_ui_bag_bag_ui_state_machine_BagUIWazaBaseState : CE7A3575C80DC56BE_prototype
+---@field prototype CE7A3575C80DC56BE_prototype
 L55_1 = _ENV
 L56_1 = "CE5A7B7746075FCA2"
 L57_1 = L15_1
@@ -10,11 +14,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE5A7B7746075FCA2"]
 L69_1 = "__name__"
 L70_1 = "CE5A7B7746075FCA2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE5A7B7746075FCA2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CE7A3575C80DC56BE_prototype
+CE7A3575C80DC56BE_prototype = L15_1()
+CE7A3575C80DC56BE.prototype = CE7A3575C80DC56BE_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE5A7B7746075FCA2"]["prototype"]
 L69_1 = _ENV["CE5A7B7746075FCA2"]

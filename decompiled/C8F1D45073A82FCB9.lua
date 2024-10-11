@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C8F1D45073A82FCB9"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C8F1D45073A82FCB9"]
-L69_1 = "new"
+---@alias C8F1D45073A82FCB9 main_system_light_direct_applier_param_base_LightBaseParam
 
-function L70_1()
+---@class main_system_light_direct_applier_param_base_LightBaseParam : C8F1D45073A82FCB9_prototype
+---@field prototype C8F1D45073A82FCB9_prototype
+C8F1D45073A82FCB9 = L15_1()
+function C8F1D45073A82FCB9.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C8F1D45073A82FCB9
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F1D45073A82FCB9"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C8F1D45073A82FCB9
+function C8F1D45073A82FCB9.super(A0_2)
   local L1_2
   L1_2 = L43_1.new
   L1_2 = L1_2()
@@ -39,11 +33,7 @@ function L70_1(A0_2)
   A0_2[1] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F1D45073A82FCB9"]
-L69_1 = "__name__"
-L70_1 = "C8F1D45073A82FCB9"
-L68_1[L69_1] = L70_1
+C8F1D45073A82FCB9.__name__ = "C8F1D45073A82FCB9"
 L68_1 = _ENV["C8F1D45073A82FCB9"]
 L69_1 = "S4A10E3AB5FCA426B"
 
@@ -63,16 +53,11 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F1D45073A82FCB9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F1D45073A82FCB9"]["prototype"]
-L69_1 = "F4C5EA998514D9674"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class C8F1D45073A82FCB9_prototype
+C8F1D45073A82FCB9_prototype = L15_1()
+C8F1D45073A82FCB9.prototype = C8F1D45073A82FCB9_prototype
+--- main.system.light_direct_applier.param.base.LightBaseParam.SetFloatParam
+function C8F1D45073A82FCB9_prototype:F4C5EA998514D9674(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L4_2 = L31_1.string
   L5_2 = A1_2
@@ -84,7 +69,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = C8F1D45073A82FCB9
   L5_2 = L5_2.S4A10E3AB5FCA426B
   L6_2 = L4_2
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L5_2 = L5_2(L6_2, L7_2)
   L6_2 = nil
   L7_2 = c38F2D5BD
@@ -93,7 +78,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L9_2 = L6_2
   L7_2 = L7_2(L8_2, L9_2)
   if L7_2 then
-    L7_2 = A0_2[2]
+    L7_2 = self[2]
     L8_2 = c38F2D5BD
     L8_2 = L8_2.f101D811F
     L8_2 = L8_2()
@@ -129,11 +114,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F1D45073A82FCB9"]["prototype"]
-L69_1 = "FE84EB6DC93CDD2B0"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.system.light_direct_applier.param.base.LightBaseParam.GetFloatParam
+function C8F1D45073A82FCB9_prototype:FE84EB6DC93CDD2B0(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = C8F1D45073A82FCB9
   L3_2 = L3_2.S4A10E3AB5FCA426B
@@ -144,7 +126,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = A2_2
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = nil
   L5_2 = c38F2D5BD
@@ -162,16 +144,13 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F1D45073A82FCB9"]["prototype"]
-L69_1 = "F85F7820C9615DFF7"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.system.light_direct_applier.param.base.LightBaseParam.SetSRTParam
+function C8F1D45073A82FCB9_prototype:F85F7820C9615DFF7(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = C8F1D45073A82FCB9
   L3_2 = L3_2.S4A10E3AB5FCA426B
   L4_2 = A1_2
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = nil
   L5_2 = cF24C863B
@@ -180,7 +159,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
-    L5_2 = A0_2[4]
+    L5_2 = self[4]
     L6_2 = cF24C863B
     L6_2 = L6_2.f101D811F
     L6_2 = L6_2()

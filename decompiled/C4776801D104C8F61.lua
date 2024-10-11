@@ -1,3 +1,7 @@
+---@alias C4776801D104C8F61 main_ui_system_ui_message_window_effect_MessageWindowNoiseEffect
+
+---@class main_ui_system_ui_message_window_effect_MessageWindowNoiseEffect : C4776801D104C8F61_prototype
+---@field prototype C4776801D104C8F61_prototype
 L55_1 = _ENV
 L56_1 = "C4776801D104C8F61"
 L57_1 = L15_1
@@ -55,36 +59,28 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4776801D104C8F61"]
 L69_1 = "__name__"
 L70_1 = "C4776801D104C8F61"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4776801D104C8F61"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4776801D104C8F61"]["prototype"]
-L69_1 = "FAE728AF193086C55"
-
-function L70_1(A0_2)
+---@class C4776801D104C8F61_prototype
+C4776801D104C8F61_prototype = L15_1()
+C4776801D104C8F61.prototype = C4776801D104C8F61_prototype
+--- main.ui.system_ui.message_window.effect.MessageWindowNoiseEffect.get_isEnd
+function C4776801D104C8F61_prototype:FAE728AF193086C55()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4776801D104C8F61"]["prototype"]
-L69_1 = "F2B8F4D1A92BBC209"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.effect.MessageWindowNoiseEffect.UpdateProcess
+function C4776801D104C8F61_prototype:F2B8F4D1A92BBC209(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[16]
+    L3_2 = self[16]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[16]
+      L2_2 = self[16]
       L3_2 = L62_1
       L4_2 = L64_1.pack
       L5_2 = L10_1.coroutine
@@ -129,15 +125,15 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[17]
+    L3_2 = self[17]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[17]
+      L2_2 = self[17]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -185,20 +181,17 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4776801D104C8F61"]["prototype"]
-L69_1 = "FD3193307ED4084F9"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.system_ui.message_window.effect.MessageWindowNoiseEffect.MessageSequence
+function C4776801D104C8F61_prototype:FD3193307ED4084F9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L2_2 = L2_2.length
   if 0 == L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F55C1C1048729E0BB
-  L4_2 = A0_2[7]
+  L3_2 = self
+  L2_2 = self.F55C1C1048729E0BB
+  L4_2 = self[7]
   L4_2 = L4_2[0]
   L5_2 = true
   L2_2(L3_2, L4_2, L5_2)
@@ -215,16 +208,16 @@ function L70_1(A0_2, A1_2)
     L2_2 = L2_2.S760DAE4C5371A78E
     L2_2()
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FE9CB00793F9AC858
+  L3_2 = self
+  L2_2 = self.FE9CB00793F9AC858
   L4_2 = A1_2
-  L5_2 = A0_2[10]
+  L5_2 = self[10]
   L2_2(L3_2, L4_2, L5_2)
   while true do
     L2_2 = nil
     L3_2 = cE8D61D7D
     L3_2 = L3_2.fEFB8CD3A
-    L4_2 = A0_2[9]
+    L4_2 = self[9]
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if not L3_2 then
@@ -234,108 +227,108 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.S760DAE4C5371A78E
     L3_2()
   end
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   L3_2 = L2_2
   L2_2 = L2_2.fA5130C84
   L4_2 = true
   L5_2 = 0
   L2_2(L3_2, L4_2, L5_2)
   L2_2 = 0.0
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L3_2 = L3_2.length
   if L3_2 >= 2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FE9CB00793F9AC858
+    L4_2 = self
+    L3_2 = self.FE9CB00793F9AC858
     L5_2 = A1_2
     L6_2 = 0.1
     L3_2(L4_2, L5_2, L6_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F39410A905A3D2EDC
-    L5_2 = A0_2[8]
+    L4_2 = self
+    L3_2 = self.F39410A905A3D2EDC
+    L5_2 = self[8]
     L5_2 = L5_2[0]
     L3_2(L4_2, L5_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.FE9CB00793F9AC858
+    L4_2 = self
+    L3_2 = self.FE9CB00793F9AC858
     L5_2 = A1_2
     L6_2 = 0.1
     L3_2(L4_2, L5_2, L6_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F39410A905A3D2EDC
-    L5_2 = A0_2[7]
+    L4_2 = self
+    L3_2 = self.F39410A905A3D2EDC
+    L5_2 = self[7]
     L5_2 = L5_2[0]
     L3_2(L4_2, L5_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.FE9CB00793F9AC858
+    L4_2 = self
+    L3_2 = self.FE9CB00793F9AC858
     L5_2 = A1_2
     L6_2 = 0.8
     L3_2(L4_2, L5_2, L6_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F39410A905A3D2EDC
-    L5_2 = A0_2[8]
+    L4_2 = self
+    L3_2 = self.F39410A905A3D2EDC
+    L5_2 = self[8]
     L5_2 = L5_2[1]
     L3_2(L4_2, L5_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.FE9CB00793F9AC858
+    L4_2 = self
+    L3_2 = self.FE9CB00793F9AC858
     L5_2 = A1_2
     L6_2 = 0.1
     L3_2(L4_2, L5_2, L6_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F39410A905A3D2EDC
-    L5_2 = A0_2[7]
+    L4_2 = self
+    L3_2 = self.F39410A905A3D2EDC
+    L5_2 = self[7]
     L5_2 = L5_2[0]
     L3_2(L4_2, L5_2)
     L2_2 = 1.1
   end
-  A0_2[13] = 1
-  L4_2 = A0_2
-  L3_2 = A0_2.FE9CB00793F9AC858
+  self[13] = 1
+  L4_2 = self
+  L3_2 = self.FE9CB00793F9AC858
   L5_2 = A1_2
-  L6_2 = A0_2[11]
+  L6_2 = self[11]
   L6_2 = L6_2 - L2_2
   L3_2(L4_2, L5_2, L6_2)
   while true do
-    L3_2 = A0_2[13]
-    L4_2 = A0_2[7]
+    L3_2 = self[13]
+    L4_2 = self[7]
     L4_2 = L4_2.length
     L4_2 = L4_2 - 2
     if not (L3_2 < L4_2) then
       break
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.F39410A905A3D2EDC
-    L5_2 = A0_2[7]
-    L6_2 = A0_2[13]
+    L4_2 = self
+    L3_2 = self.F39410A905A3D2EDC
+    L5_2 = self[7]
+    L6_2 = self[13]
     L5_2 = L5_2[L6_2]
     L3_2(L4_2, L5_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.FE9CB00793F9AC858
+    L4_2 = self
+    L3_2 = self.FE9CB00793F9AC858
     L5_2 = A1_2
-    L6_2 = A0_2[12]
+    L6_2 = self[12]
     L3_2(L4_2, L5_2, L6_2)
-    L3_2 = A0_2[13]
+    L3_2 = self[13]
     L3_2 = L3_2 + 1
-    A0_2[13] = L3_2
+    self[13] = L3_2
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F39410A905A3D2EDC
-  L5_2 = A0_2[7]
-  L6_2 = A0_2[13]
+  L4_2 = self
+  L3_2 = self.F39410A905A3D2EDC
+  L5_2 = self[7]
+  L6_2 = self[13]
   L5_2 = L5_2[L6_2]
   L6_2 = false
   L7_2 = true
   L3_2(L4_2, L5_2, L6_2, L7_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FE9CB00793F9AC858
+  L4_2 = self
+  L3_2 = self.FE9CB00793F9AC858
   L5_2 = A1_2
-  L6_2 = A0_2[15]
+  L6_2 = self[15]
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L3_2 = L3_2 + 1
-  A0_2[13] = L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F39410A905A3D2EDC
-  L5_2 = A0_2[7]
-  L6_2 = A0_2[13]
+  self[13] = L3_2
+  L4_2 = self
+  L3_2 = self.F39410A905A3D2EDC
+  L5_2 = self[7]
+  L6_2 = self[13]
   L5_2 = L5_2[L6_2]
   L6_2 = false
   L7_2 = true
@@ -355,23 +348,20 @@ function L70_1(A0_2, A1_2)
   L3_2 = C17F73F1CF4C378CC
   L3_2 = L3_2.SA6A62B44079F2A7B
   L3_2()
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L4_2 = L3_2
   L3_2 = L3_2.f61A204B1
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FE9CB00793F9AC858
+  L4_2 = self
+  L3_2 = self.FE9CB00793F9AC858
   L5_2 = A1_2
-  L6_2 = A0_2[10]
+  L6_2 = self[10]
   L3_2(L4_2, L5_2, L6_2)
-  A0_2[1] = true
+  self[1] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4776801D104C8F61"]["prototype"]
-L69_1 = "FE9CB00793F9AC858"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.system_ui.message_window.effect.MessageWindowNoiseEffect.TimeWaitSequence
+function C4776801D104C8F61_prototype:FE9CB00793F9AC858(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = 0
   while A2_2 > L3_2 do
@@ -389,11 +379,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4776801D104C8F61"]["prototype"]
-L69_1 = "F258F1CC1252E6610"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.effect.MessageWindowNoiseEffect.SetParticleSequence
+function C4776801D104C8F61_prototype:F258F1CC1252E6610()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = c451059A3
   L1_2 = L1_2.f5776B6C6
@@ -413,13 +400,13 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = cA042DA13
   L3_2 = L3_2.fB1E655AE
-  L4_2 = A0_2[14]
+  L4_2 = self[14]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     return
   end
-  L3_2 = A0_2[14]
+  L3_2 = self[14]
   L4_2 = L3_2
   L3_2 = L3_2.f68159593
   L5_2 = "noise_particle"
@@ -436,7 +423,7 @@ function L70_1(A0_2)
     L4_2 = L4_2.S760DAE4C5371A78E
     L4_2()
   end
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L6_2 = L3_2
   L5_2 = L3_2.f8F2B0552
   L7_2 = L4_2[1]
@@ -447,86 +434,74 @@ function L70_1(A0_2)
   L5_2 = L5_2.fB41FD22F
   L6_2 = L3_2
   L5_2 = L5_2(L6_2)
-  A0_2[9] = L5_2
+  self[9] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4776801D104C8F61"]["prototype"]
-L69_1 = "F366A133B13DF9EB2"
-
-function L70_1(A0_2)
+--- main.ui.system_ui.message_window.effect.MessageWindowNoiseEffect.StartNoiseMessage
+function C4776801D104C8F61_prototype:F366A133B13DF9EB2()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.FD3193307ED4084F9
+  L3_2 = self
+  L4_2 = self.FD3193307ED4084F9
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "message_noise_sequence"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[16] = L1_2
+  self[16] = L1_2
   L1_2 = nil
   L2_2 = cE8D61D7D
   L2_2 = L2_2.fEFB8CD3A
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = C1DB14DCC9D7634FA
     L2_2 = L2_2.new
     L3_2 = L55_1
-    L4_2 = A0_2
-    L5_2 = A0_2.F258F1CC1252E6610
+    L4_2 = self
+    L5_2 = self.F258F1CC1252E6610
     L3_2 = L3_2(L4_2, L5_2)
     L4_2 = "message_noise_objTemplate_sequence"
     L2_2 = L2_2(L3_2, L4_2)
-    A0_2[17] = L2_2
+    self[17] = L2_2
   end
-  A0_2[1] = false
+  self[1] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4776801D104C8F61"]["prototype"]
-L69_1 = "FFFD34635734A6BC3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.system_ui.message_window.effect.MessageWindowNoiseEffect.AddText
+function C4776801D104C8F61_prototype:FFFD34635734A6BC3(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = c8C3BF576
   L3_2 = L3_2.fC8CEF9EF
   L4_2 = A2_2
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L5_2 = L4_2
   L4_2 = L4_2.push
   L6_2 = L3_2
   L4_2(L5_2, L6_2)
-  return A0_2
+  return self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4776801D104C8F61"]["prototype"]
-L69_1 = "F12A97D8C0BE2EA55"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.system_ui.message_window.effect.MessageWindowNoiseEffect.AddBootNoiseText
+function C4776801D104C8F61_prototype:F12A97D8C0BE2EA55(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = c8C3BF576
   L3_2 = L3_2.fC8CEF9EF
   L4_2 = A2_2
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
-  L4_2 = A0_2[8]
+  L4_2 = self[8]
   L5_2 = L4_2
   L4_2 = L4_2.push
   L6_2 = L3_2
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4776801D104C8F61"]["prototype"]
-L69_1 = "F55C1C1048729E0BB"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.system_ui.message_window.effect.MessageWindowNoiseEffect.ShowMessage
+function C4776801D104C8F61_prototype:F55C1C1048729E0BB(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A2_2 then
     A2_2 = false
@@ -559,11 +534,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4776801D104C8F61"]["prototype"]
-L69_1 = "F39410A905A3D2EDC"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.system_ui.message_window.effect.MessageWindowNoiseEffect.ChangeMessage
+function C4776801D104C8F61_prototype:F39410A905A3D2EDC(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A3_2 then
     A3_2 = false

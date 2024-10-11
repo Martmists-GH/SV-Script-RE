@@ -1,3 +1,5 @@
+---@class C1C94521F4CF2FFC9 : C1C94521F4CF2FFC9_prototype
+---@field prototype C1C94521F4CF2FFC9_prototype
 L55_1 = _ENV
 L56_1 = "C1C94521F4CF2FFC9"
 L57_1 = L15_1
@@ -40,32 +42,27 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1C94521F4CF2FFC9"]
 L69_1 = "__name__"
 L70_1 = "C1C94521F4CF2FFC9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1C94521F4CF2FFC9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1C94521F4CF2FFC9"]["prototype"]
-L69_1 = "F795CBC2B12F8956D"
-
-function L70_1(A0_2)
+---@class C1C94521F4CF2FFC9_prototype
+C1C94521F4CF2FFC9_prototype = L15_1()
+C1C94521F4CF2FFC9.prototype = C1C94521F4CF2FFC9_prototype
+--- C1C94521F4CF2FFC9.OnSetup
+function C1C94521F4CF2FFC9_prototype:F795CBC2B12F8956D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = nil
   L2_2 = c919391D3
   L2_2 = L2_2.f70B06B69
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f6902A503
   L4_2 = "values"
   L2_2 = L2_2(L3_2, L4_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.resize
   L5_2 = L2_2
@@ -74,7 +71,7 @@ function L70_1(A0_2)
   while L2_2 > L3_2 do
     L3_2 = L3_2 + 1
     L4_2 = L3_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.f0CA5FEBC
     L7_2 = "values"
@@ -114,10 +111,10 @@ function L70_1(A0_2)
     L9_2 = "release_flag_name"
     L7_2 = L7_2(L8_2, L9_2)
     L6_2[5] = L7_2
-    L7_2 = A0_2[2]
+    L7_2 = self[2]
     L7_2[L4_2] = L6_2
   end
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.sort
   

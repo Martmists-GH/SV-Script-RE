@@ -1,3 +1,7 @@
+---@alias C51CA201C4F83647D main_event_general_paralleled_ParallelTimeLapse
+
+---@class main_event_general_paralleled_ParallelTimeLapse : C51CA201C4F83647D_prototype
+---@field prototype C51CA201C4F83647D_prototype
 L55_1 = _ENV
 L56_1 = "C51CA201C4F83647D"
 L57_1 = L15_1
@@ -55,20 +59,15 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C51CA201C4F83647D"]
 L69_1 = "__name__"
 L70_1 = "C51CA201C4F83647D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51CA201C4F83647D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51CA201C4F83647D"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C51CA201C4F83647D_prototype
+C51CA201C4F83647D_prototype = L15_1()
+C51CA201C4F83647D.prototype = C51CA201C4F83647D_prototype
+--- main.event.general.paralleled.ParallelTimeLapse.preStart
+function C51CA201C4F83647D_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CC6FE82819C6E1D55
   L1_2 = L1_2.S975C6D6600A6650B
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.beginTime
   L1_2(L2_2)
   L1_2 = C05D9E556B496A3DF
@@ -116,19 +115,19 @@ function L70_1(A0_2)
   L4_2 = L2_2
   L3_2 = L2_2.FD3CDFBAE2D91D231
   L3_2(L4_2)
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.beginTime
-  L4_2 = A0_2[32]
+  L4_2 = self[32]
   L4_2 = L4_2.endTime
   if L3_2 > L4_2 then
-    L3_2 = A0_2[32]
+    L3_2 = self[32]
     L4_2 = L3_2.endTime
     L4_2 = L4_2 + 24
     L3_2.endTime = L4_2
   end
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L4_2 = L3_2.endTime
-  L5_2 = A0_2[32]
+  L5_2 = self[32]
   L5_2 = L5_2.day
   L5_2 = L5_2 * 24
   L4_2 = L4_2 + L5_2
@@ -137,8 +136,8 @@ function L70_1(A0_2)
   L4_2 = L4_2.S9B02CEA67CAE86D7
   L5_2 = 1
   L4_2(L5_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F4C1D62AE8FD67C2C
+  L5_2 = self
+  L4_2 = self.F4C1D62AE8FD67C2C
   L4_2(L5_2)
   L4_2 = c4C26B52F
   L4_2 = L4_2.f544F902B
@@ -152,29 +151,26 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51CA201C4F83647D"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelTimeLapse.mainBody
+function C51CA201C4F83647D_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.endTime
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.beginTime
   L1_2 = L1_2 - L2_2
   if L1_2 <= 0 then
     return
   end
   while true do
-    L1_2 = A0_2[33]
-    L2_2 = A0_2[32]
+    L1_2 = self[33]
+    L2_2 = self[32]
     L2_2 = L2_2.duration
     if not (L1_2 <= L2_2) then
       break
     end
-    L1_2 = A0_2[33]
-    L2_2 = A0_2[3]
+    L1_2 = self[33]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f22D509B2
     L4_2 = 2
@@ -183,11 +179,11 @@ function L70_1(A0_2)
     L2_2 = L2_2.fC0E2CAD0
     L2_2 = L2_2(L3_2)
     L1_2 = L1_2 + L2_2
-    A0_2[33] = L1_2
-    L2_2 = A0_2
-    L1_2 = A0_2.F229FF823217CCFA3
-    L3_2 = A0_2[33]
-    L4_2 = A0_2[32]
+    self[33] = L1_2
+    L2_2 = self
+    L1_2 = self.F229FF823217CCFA3
+    L3_2 = self[33]
+    L4_2 = self[32]
     L4_2 = L4_2.duration
     L3_2 = L3_2 / L4_2
     L1_2(L2_2, L3_2)
@@ -198,11 +194,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51CA201C4F83647D"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelTimeLapse.onFinish
+function C51CA201C4F83647D_prototype:FA2C827B56F56ABDF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C111EAD6042B6202C
   L1_2 = L1_2.S264F26F6894F3392
@@ -222,9 +215,9 @@ function L70_1(A0_2)
   L2_2 = C633B39AA77B60DA3
   L2_2 = L2_2.SED4E82DC6C08D4D3
   L2_2()
-  L3_2 = A0_2
-  L2_2 = A0_2.F5C81BD5CBD200F61
-  L4_2 = A0_2[35]
+  L3_2 = self
+  L2_2 = self.F5C81BD5CBD200F61
+  L4_2 = self[35]
   L2_2(L3_2, L4_2)
   L2_2 = C05D9E556B496A3DF
   L2_2 = L2_2.SC8223E31D3163519
@@ -265,27 +258,24 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51CA201C4F83647D"]["prototype"]
-L69_1 = "F4C1D62AE8FD67C2C"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelTimeLapse.SetupWind
+function C51CA201C4F83647D_prototype:F4C1D62AE8FD67C2C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F0F33274E22DD2E2C
+  L2_2 = self
+  L1_2 = self.F0F33274E22DD2E2C
   L1_2(L2_2)
   L1_2 = nil
   L2_2 = nil
   L3_2 = cD139A842
   L3_2 = L3_2.f26C6F633
-  L4_2 = A0_2[37]
+  L4_2 = self[37]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = nil
     L4_2 = cD6756E85
     L4_2 = L4_2.f38F1CAAC
-    L5_2 = A0_2[36]
+    L5_2 = self[36]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     L1_2 = L4_2
@@ -293,30 +283,30 @@ function L70_1(A0_2)
     L1_2 = false
   end
   if L1_2 then
-    L3_2 = A0_2[36]
+    L3_2 = self[36]
     L4_2 = L3_2
     L3_2 = L3_2.fF82F7281
     L3_2 = L3_2(L4_2)
-    A0_2[35] = L3_2
+    self[35] = L3_2
     L3_2 = L10_1.math
     L3_2 = L3_2.abs
-    L4_2 = A0_2[32]
+    L4_2 = self[32]
     L4_2 = L4_2.beginTime
-    L5_2 = A0_2[32]
+    L5_2 = self[32]
     L5_2 = L5_2.endTime
     L4_2 = L4_2 - L5_2
     L3_2 = L3_2(L4_2)
-    L4_2 = A0_2[40]
+    L4_2 = self[40]
     L3_2 = L3_2 / L4_2
-    L5_2 = A0_2
-    L4_2 = A0_2.F5C81BD5CBD200F61
+    L5_2 = self
+    L4_2 = self.F5C81BD5CBD200F61
     
     function L6_2()
       local L0_3, L1_3
       L0_3 = nil
       L1_3 = L3_2
       if L1_3 <= 0 then
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[35]
       else
         L0_3 = L3_2
@@ -329,22 +319,19 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51CA201C4F83647D"]["prototype"]
-L69_1 = "F229FF823217CCFA3"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.paralleled.ParallelTimeLapse.UpdateCore
+function C51CA201C4F83647D_prototype:F229FF823217CCFA3(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = C633B39AA77B60DA3
   L2_2 = L2_2.SCA1A4485E8FC9D70
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.duration
-  L4_2 = A0_2[41]
+  L4_2 = self[41]
   L3_2 = L3_2 * L4_2
   L2_2(L3_2)
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.beginTime
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.endTime
   L3_2 = L3_2 - L2_2
   L3_2 = L3_2 * A1_2
@@ -385,11 +372,8 @@ function L70_1(A0_2, A1_2)
   L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51CA201C4F83647D"]["prototype"]
-L69_1 = "F0F33274E22DD2E2C"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelTimeLapse.GetLightComponent
+function C51CA201C4F83647D_prototype:F0F33274E22DD2E2C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -421,7 +405,7 @@ function L70_1(A0_2)
   L5_2 = L5_2.fB41FD22F
   L6_2 = L3_2
   L5_2 = L5_2(L6_2)
-  A0_2[37] = L5_2
+  self[37] = L5_2
   L6_2 = L1_2
   L5_2 = L1_2.fD4E64AB7
   L7_2 = "wind"
@@ -439,41 +423,38 @@ function L70_1(A0_2)
   L7_2 = L7_2.fB41FD22F
   L8_2 = L5_2
   L7_2 = L7_2(L8_2)
-  A0_2[36] = L7_2
+  self[36] = L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C51CA201C4F83647D"]["prototype"]
-L69_1 = "F5C81BD5CBD200F61"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.paralleled.ParallelTimeLapse.SetWindSpeedParam
+function C51CA201C4F83647D_prototype:F5C81BD5CBD200F61(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = nil
   L3_2 = cD139A842
   L3_2 = L3_2.f26C6F633
-  L4_2 = A0_2[37]
+  L4_2 = self[37]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[38]
+    L3_2 = self[38]
     L4_2 = L3_2
     L3_2 = L3_2.f7D56C83F
     L5_2 = "Ambient"
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[38]
+    L3_2 = self[38]
     L4_2 = L3_2
     L3_2 = L3_2.f408A3BEF
     L5_2 = "Speed"
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[38]
+    L3_2 = self[38]
     L4_2 = L3_2
     L3_2 = L3_2.fD76D04B7
     L5_2 = A1_2
     L3_2(L4_2, L5_2)
-    L3_2 = A0_2[37]
+    L3_2 = self[37]
     L4_2 = L3_2
     L3_2 = L3_2.f2385EE2D
-    L5_2 = A0_2[38]
+    L5_2 = self[38]
     L3_2(L4_2, L5_2)
   end
 end

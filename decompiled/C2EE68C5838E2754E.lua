@@ -1,3 +1,7 @@
+---@alias C2EE68C5838E2754E main_field_behaviour_object_demo_DemoCommonObjectBehavior
+
+---@class main_field_behaviour_object_demo_DemoCommonObjectBehavior : C2EE68C5838E2754E_prototype
+---@field prototype C2EE68C5838E2754E_prototype
 L55_1 = _ENV
 L56_1 = "C2EE68C5838E2754E"
 L57_1 = L15_1
@@ -43,16 +47,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C2EE68C5838E2754E"]
 L69_1 = "__name__"
 L70_1 = "C2EE68C5838E2754E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2EE68C5838E2754E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2EE68C5838E2754E"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+---@class C2EE68C5838E2754E_prototype
+C2EE68C5838E2754E_prototype = L15_1()
+C2EE68C5838E2754E.prototype = C2EE68C5838E2754E_prototype
+--- main.field.behaviour.object.demo.DemoCommonObjectBehavior.onSetup
+function C2EE68C5838E2754E_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = nil
   L2_2 = nil
@@ -60,7 +59,7 @@ function L70_1(A0_2)
   L3_2 = L3_2.fE412B462
   L4_2 = cC05A2C1B
   L4_2 = L4_2.fB41FD22F
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
@@ -70,7 +69,7 @@ function L70_1(A0_2)
     L4_2 = L4_2.f9D6118A2
     L5_2 = c32245D3F
     L5_2 = L5_2.fB41FD22F
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L5_2 = L5_2(L6_2)
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
@@ -79,13 +78,13 @@ function L70_1(A0_2)
     L1_2 = true
   end
   if L1_2 then
-    A0_2[21] = true
+    self[21] = true
   end
-  L3_2 = A0_2[21]
+  L3_2 = self[21]
   if not L3_2 then
     L3_2 = cCF781FB6
     L3_2 = L3_2.fB41FD22F
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L3_2 = L3_2(L4_2)
     L4_2 = nil
     L5_2 = cCF781FB6
@@ -105,15 +104,12 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2EE68C5838E2754E"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.object.demo.DemoCommonObjectBehavior.PreUpdate
+function C2EE68C5838E2754E_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L2_2 = A0_2[21]
+  L2_2 = self[21]
   if L2_2 then
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = nil
     L4_2 = cECB91E31
     L4_2 = L4_2.fB6A00A1B
@@ -135,14 +131,14 @@ function L70_1(A0_2, A1_2)
     L8_2 = L5_2
     L6_2 = L6_2(L7_2, L8_2)
     if L6_2 then
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L7_2 = L6_2
       L6_2 = L6_2.f462C9B70
       L6_2 = L6_2(L7_2)
       L7_2 = L6_2
       L6_2 = L6_2.fE9C29DA1
       L6_2(L7_2)
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L7_2 = L6_2
       L6_2 = L6_2.fE9C29DA1
       L6_2(L7_2)
@@ -151,7 +147,7 @@ function L70_1(A0_2, A1_2)
       L8_2 = 0
       L6_2(L7_2, L8_2)
     end
-    L6_2 = A0_2[7]
+    L6_2 = self[7]
     L7_2 = nil
     L8_2 = cB06F1424
     L8_2 = L8_2.f1FFF5D26
@@ -172,18 +168,18 @@ function L70_1(A0_2, A1_2)
     L11_2 = L8_2
     L9_2 = L9_2(L10_2, L11_2)
     if L9_2 then
-      L9_2 = A0_2[1]
+      L9_2 = self[1]
       L10_2 = L9_2
       L9_2 = L9_2.f462C9B70
       L9_2 = L9_2(L10_2)
       L10_2 = L9_2
       L9_2 = L9_2.fE9C29DA1
       L9_2(L10_2)
-      L9_2 = A0_2[1]
+      L9_2 = self[1]
       L10_2 = L9_2
       L9_2 = L9_2.fE9C29DA1
       L9_2(L10_2)
-      L9_2 = A0_2[7]
+      L9_2 = self[7]
       L10_2 = nil
       L11_2 = cB06F1424
       L11_2 = L11_2.f1FFF5D26
@@ -228,7 +224,7 @@ function L70_1(A0_2, A1_2)
       end
       L12_2 = cCF781FB6
       L12_2 = L12_2.fB41FD22F
-      L13_2 = A0_2[1]
+      L13_2 = self[1]
       L12_2 = L12_2(L13_2)
       L13_2 = nil
       L14_2 = cCF781FB6

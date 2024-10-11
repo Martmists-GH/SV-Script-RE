@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "C975757845467372E"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C975757845467372E"]
-L69_1 = "new"
-
-function L70_1()
+---@class C975757845467372E : C975757845467372E_prototype
+---@field prototype C975757845467372E_prototype
+C975757845467372E = L15_1()
+function C975757845467372E.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C975757845467372E
@@ -21,11 +16,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C975757845467372E"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C975757845467372E
+function C975757845467372E.super(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C758A4480EDBFE879
   L1_2 = L1_2.super
@@ -73,11 +65,7 @@ function L70_1(A0_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C975757845467372E"]
-L69_1 = "__name__"
-L70_1 = "C975757845467372E"
-L68_1[L69_1] = L70_1
+C975757845467372E.__name__ = "C975757845467372E"
 L68_1 = _ENV["C975757845467372E"]
 L69_1 = "SA380945F437D4E1D"
 
@@ -208,11 +196,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C975757845467372E"]
-L69_1 = "S5851290BE180982D"
-
-function L70_1(A0_2)
+--- C975757845467372E.BuildEncounterProperties
+function C975757845467372E.S5851290BE180982D(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = A0_2[1]
   L1_2 = L1_2.h
@@ -236,11 +221,8 @@ function L70_1(A0_2)
   L1_2[L2_2] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C975757845467372E"]
-L69_1 = "S2AA374B2DF7B9833"
-
-function L70_1(A0_2)
+--- C975757845467372E.BuildBallThrowProperties
+function C975757845467372E.S2AA374B2DF7B9833(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = A0_2[1]
   L1_2 = L1_2.h
@@ -267,22 +249,16 @@ function L70_1(A0_2)
   L1_2.DisableBallThrow = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C975757845467372E"]
-L69_1 = "SA6E59FB3A8D78C64"
-
-function L70_1(A0_2)
+--- C975757845467372E.BuildWaterDetectionProperties
+function C975757845467372E.SA6E59FB3A8D78C64(A0_2)
   local L1_2
   L1_2 = A0_2[1]
   L1_2 = L1_2.h
   L1_2.DisableSwimDetection = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C975757845467372E"]
-L69_1 = "SD97046CD9A0535A5"
-
-function L70_1(A0_2, A1_2)
+--- C975757845467372E.CreateHUDProhibit
+function C975757845467372E.SD97046CD9A0535A5(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C7EA57C5A2FE7B13B
   L2_2 = L2_2.new
@@ -298,11 +274,8 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C975757845467372E"]
-L69_1 = "S5F13B6FE78C00399"
-
-function L70_1(A0_2, A1_2)
+--- C975757845467372E.CreateEncounterProhibit
+function C975757845467372E.S5F13B6FE78C00399(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C7EA57C5A2FE7B13B
   L2_2 = L2_2.new
@@ -318,11 +291,8 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C975757845467372E"]
-L69_1 = "S8E63D892EB5BF8AF"
-
-function L70_1(A0_2, A1_2)
+--- C975757845467372E.CreateBallThrowProhibit
+function C975757845467372E.S8E63D892EB5BF8AF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C7EA57C5A2FE7B13B
   L2_2 = L2_2.new
@@ -338,11 +308,8 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C975757845467372E"]
-L69_1 = "S0B7D1EED543C2C88"
-
-function L70_1(A0_2, A1_2)
+--- C975757845467372E.CreateWaterDetectionProhibit
+function C975757845467372E.S0B7D1EED543C2C88(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C7EA57C5A2FE7B13B
   L2_2 = L2_2.new
@@ -358,21 +325,16 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C975757845467372E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C975757845467372E"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2, A1_2)
+---@class C975757845467372E_prototype
+C975757845467372E_prototype = L15_1()
+C975757845467372E.prototype = C975757845467372E_prototype
+--- C975757845467372E.onSetup
+function C975757845467372E_prototype:F22C7B81A049FA20D(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C758A4480EDBFE879
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F22C7B81A049FA20D
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -383,33 +345,30 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C975757845467372E"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2)
+--- C975757845467372E.Reset
+function C975757845467372E_prototype:F96EA28F400597FA0()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.F5B98E8D4C251422B
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.F5B98E8D4C251422B
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.F5B98E8D4C251422B
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L2_2 = L1_2
   L1_2 = L1_2.F5B98E8D4C251422B
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.F5B98E8D4C251422B
   L3_2 = false

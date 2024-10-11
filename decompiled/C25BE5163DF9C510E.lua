@@ -1,3 +1,7 @@
+---@alias C25BE5163DF9C510E main_field_gimmick_rummaging_RummagingManager
+
+---@class main_field_gimmick_rummaging_RummagingManager : C25BE5163DF9C510E_prototype
+---@field prototype C25BE5163DF9C510E_prototype
 L55_1 = _ENV
 L56_1 = "C25BE5163DF9C510E"
 L57_1 = L15_1
@@ -46,54 +50,43 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C25BE5163DF9C510E"]
 L69_1 = "__name__"
 L70_1 = "C25BE5163DF9C510E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C25BE5163DF9C510E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C25BE5163DF9C510E"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C25BE5163DF9C510E_prototype
+C25BE5163DF9C510E_prototype = L15_1()
+C25BE5163DF9C510E.prototype = C25BE5163DF9C510E_prototype
+--- main.field.gimmick.rummaging.RummagingManager.Setup
+function C25BE5163DF9C510E_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L2_2 = c1A00019C
   L2_2 = L2_2.f101D811F
   L2_2 = L2_2()
-  A0_2[5] = L2_2
-  L2_2 = A0_2[5]
+  self[5] = L2_2
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.f8C8B6BB6
   L2_2(L3_2)
   L2_2 = C25BE5163DF9C510E
-  L2_2.S264F26F6894F3392 = A0_2
+  L2_2.S264F26F6894F3392 = self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C25BE5163DF9C510E"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.field.gimmick.rummaging.RummagingManager.Destroy
+function C25BE5163DF9C510E_prototype:F1C2AA00ADAC52EC5()
   local L1_2
   L1_2 = C25BE5163DF9C510E
   L1_2.S264F26F6894F3392 = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C25BE5163DF9C510E"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.rummaging.RummagingManager.PreUpdate
+function C25BE5163DF9C510E_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if not L2_2 then
     L2_2 = nil
     L3_2 = cA042DA13
     L3_2 = L3_2.fB1E655AE
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
@@ -102,45 +95,42 @@ function L70_1(A0_2, A1_2)
       L4_2 = C25BE5163DF9C510E
       L4_2 = L4_2.SEC1E35F07C64DA7C
       L3_2 = L3_2(L4_2)
-      A0_2[2] = L3_2
+      self[2] = L3_2
     end
     L3_2 = nil
     L4_2 = cA042DA13
     L4_2 = L4_2.f25C936C9
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L4_2 = A0_2[2]
+      L4_2 = self[2]
       L5_2 = L4_2
       L4_2 = L4_2.f9D8BC178
       L4_2 = L4_2(L5_2)
       if L4_2 then
-        A0_2[4] = true
-        L5_2 = A0_2
-        L4_2 = A0_2.FD9601C2995008D82
+        self[4] = true
+        L5_2 = self
+        L4_2 = self.FD9601C2995008D82
         L4_2(L5_2)
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C25BE5163DF9C510E"]["prototype"]
-L69_1 = "FFF1B837B9541D80C"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.field.gimmick.rummaging.RummagingManager.FindPoint
+function C25BE5163DF9C510E_prototype:FFF1B837B9541D80C(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L4_2 = -1
   L5_2 = 100.0
   L6_2 = 0
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L7_2 = L7_2.length
   L8_2 = false
   while L6_2 < L7_2 do
     L6_2 = L6_2 + 1
     L9_2 = L6_2 - 1
-    L10_2 = A0_2[3]
+    L10_2 = self[3]
     L10_2 = L10_2[L9_2]
     L11_2 = nil
     L12_2 = cC5D48DC8
@@ -151,8 +141,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     if not L12_2 then
       L13_2 = A3_2
       L12_2 = A3_2.indexOf
-      L15_2 = A0_2
-      L14_2 = A0_2.F7D43DDA147D5B58B
+      L15_2 = self
+      L14_2 = self.F7D43DDA147D5B58B
       L16_2 = L10_2
       L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L14_2(L15_2, L16_2)
       L12_2 = L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
@@ -181,7 +171,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
   end
   if -1 ~= L4_2 then
-    L9_2 = A0_2[3]
+    L9_2 = self[3]
     L9_2 = L9_2[L4_2]
     L11_2 = L9_2
     L10_2 = L9_2.fFFA0248C
@@ -201,13 +191,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L15_2[2] = L17_2
     L15_2[3] = L18_2
     L14_2.Pos = L15_2
-    L16_2 = A0_2
-    L15_2 = A0_2.F7D43DDA147D5B58B
+    L16_2 = self
+    L15_2 = self.F7D43DDA147D5B58B
     L17_2 = L9_2
     L15_2 = L15_2(L16_2, L17_2)
     L14_2.Category = L15_2
-    L16_2 = A0_2
-    L15_2 = A0_2.FFA4F0620D137CB97
+    L16_2 = self
+    L15_2 = self.FFA4F0620D137CB97
     L17_2 = L9_2
     L15_2 = L15_2(L16_2, L17_2)
     L14_2.Pattern = L15_2
@@ -217,11 +207,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C25BE5163DF9C510E"]["prototype"]
-L69_1 = "F84DD02B19F98CBB0"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.gimmick.rummaging.RummagingManager.GetItem
+function C25BE5163DF9C510E_prototype:F84DD02B19F98CBB0(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CC1B7EF49E851C9F2
   L3_2 = L3_2.S264F26F6894F3392
@@ -245,7 +232,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = 0
   do return L4_2 end
   ::lbl_20::
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = L4_2
   L4_2 = L4_2.fDAAAA586
   L6_2 = L3_2.length
@@ -255,19 +242,16 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C25BE5163DF9C510E"]["prototype"]
-L69_1 = "FD9601C2995008D82"
-
-function L70_1(A0_2)
+--- main.field.gimmick.rummaging.RummagingManager.UpdateScenePoint
+function C25BE5163DF9C510E_prototype:FD9601C2995008D82()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
-  L2_2 = A0_2[3]
+  L1_2 = self
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.resize
   L4_2 = 0
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f1C1435C7
   L4_2 = C25BE5163DF9C510E
@@ -286,11 +270,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C25BE5163DF9C510E"]["prototype"]
-L69_1 = "F7D43DDA147D5B58B"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.rummaging.RummagingManager.GetCategory
+function C25BE5163DF9C510E_prototype:F7D43DDA147D5B58B(A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A1_2
   L2_2 = A1_2.f1A1210C4
@@ -302,11 +283,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C25BE5163DF9C510E"]["prototype"]
-L69_1 = "FFA4F0620D137CB97"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.rummaging.RummagingManager.GetPattern
+function C25BE5163DF9C510E_prototype:FFA4F0620D137CB97(A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A1_2
   L2_2 = A1_2.f1A1210C4

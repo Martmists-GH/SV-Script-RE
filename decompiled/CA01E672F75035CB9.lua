@@ -1,3 +1,5 @@
+---@class CA01E672F75035CB9 : CA01E672F75035CB9_prototype
+---@field prototype CA01E672F75035CB9_prototype
 L55_1 = _ENV
 L56_1 = "CA01E672F75035CB9"
 L57_1 = L15_1
@@ -42,23 +44,18 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CA01E672F75035CB9"]
 L69_1 = "__name__"
 L70_1 = "CA01E672F75035CB9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA01E672F75035CB9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA01E672F75035CB9"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+---@class CA01E672F75035CB9_prototype
+CA01E672F75035CB9_prototype = L15_1()
+CA01E672F75035CB9.prototype = CA01E672F75035CB9_prototype
+--- CA01E672F75035CB9.onSetup
+function CA01E672F75035CB9_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2
   L1_2 = CA3CB2DEB7FE996E5
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F22C7B81A049FA20D
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[21]
+  L1_2 = self[21]
   L2_2 = L1_2
   L1_2 = L1_2.FD64742C3B1BCE111
   L1_2 = L1_2(L2_2)
@@ -68,21 +65,18 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA01E672F75035CB9"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- CA01E672F75035CB9.PreUpdate
+function CA01E672F75035CB9_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = CA3CB2DEB7FE996E5
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FE94F3E13286232CF
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = cCC3ADC8A
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cCC3ADC8A
@@ -104,7 +98,7 @@ function L70_1(A0_2, A1_2)
     L4_2(L5_2, L6_2)
     L4_2 = cCF781FB6
     L4_2 = L4_2.fB41FD22F
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L4_2 = L4_2(L5_2)
     L5_2 = nil
     L6_2 = cCF781FB6

@@ -1,3 +1,6 @@
+---@alias C61F1AB51A219817F main_system_game_event_GameEventEvolution
+
+---@class main_system_game_event_GameEventEvolution
 L55_1 = _ENV
 L56_1 = "C5A85F0633258C23D"
 L57_1 = L15_1

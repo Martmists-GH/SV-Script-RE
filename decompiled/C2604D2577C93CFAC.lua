@@ -1,3 +1,7 @@
+---@alias C2604D2577C93CFAC main_ui_staff_list_StaffListBackGroundView
+
+---@class main_ui_staff_list_StaffListBackGroundView : C2604D2577C93CFAC_prototype
+---@field prototype C2604D2577C93CFAC_prototype
 L55_1 = _ENV
 L56_1 = "C2604D2577C93CFAC"
 L57_1 = L15_1
@@ -53,48 +57,43 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C2604D2577C93CFAC"]
 L69_1 = "__name__"
 L70_1 = "C2604D2577C93CFAC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2604D2577C93CFAC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2604D2577C93CFAC"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C2604D2577C93CFAC_prototype
+C2604D2577C93CFAC_prototype = L15_1()
+C2604D2577C93CFAC.prototype = C2604D2577C93CFAC_prototype
+--- main.ui.staff_list.StaffListBackGroundView.Setup
+function C2604D2577C93CFAC_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C9CC979169E6BA3A6
   L2_2 = L2_2.new
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[5] = L2_2
-  L2_2 = A0_2[1]
+  self[5] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f462C9B70
   L2_2 = L2_2(L3_2)
-  A0_2[7] = L2_2
+  self[7] = L2_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "T_thanks_00"
   L5_2 = "staff_list"
   L6_2 = "STAFF_last_ms"
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = c8C3BF576
   L2_2 = L2_2.f46674724
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "T_end_00"
   L5_2 = "staff_list"
   L6_2 = "STAFF_TheEnd_ms"
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FA23D39922B76B247
   L4_2 = nil
@@ -103,35 +102,32 @@ function L70_1(A0_2, A1_2)
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.new
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.FCC92C6533BF6F3E3
+  L4_2 = self
+  L5_2 = self.FCC92C6533BF6F3E3
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = "StaffListBackGround_mainflow"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[9] = L2_2
-  L2_2 = A0_2[7]
+  self[9] = L2_2
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.fD4E64AB7
   L4_2 = "credit_bg_00"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[8] = L2_2
+  self[8] = L2_2
   L2_2 = cDD25B9DB
   L2_2 = L2_2.f4F92E4A5
   L2_2 = L2_2()
-  A0_2[10] = L2_2
-  L2_2 = A0_2[5]
+  self[10] = L2_2
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FF32CC3BE322652A8
   L4_2 = "switch_version"
-  L5_2 = A0_2[10]
+  L5_2 = self[10]
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2604D2577C93CFAC"]["prototype"]
-L69_1 = "F9C88B7EFD8BB9396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.staff_list.StaffListBackGroundView.UpdateCoroutine
+function C2604D2577C93CFAC_prototype:F9C88B7EFD8BB9396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil ~= A1_2 then
     L2_2 = L10_1.coroutine
@@ -186,62 +182,47 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2604D2577C93CFAC"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.staff_list.StaffListBackGroundView.PreUpdate
+function C2604D2577C93CFAC_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F9C88B7EFD8BB9396
-  L4_2 = A0_2[9]
+  L3_2 = self
+  L2_2 = self.F9C88B7EFD8BB9396
+  L4_2 = self[9]
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2604D2577C93CFAC"]["prototype"]
-L69_1 = "F748A3DCD68216D1D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.staff_list.StaffListBackGroundView.PlayAnime
+function C2604D2577C93CFAC_prototype:F748A3DCD68216D1D(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.F748A3DCD68216D1D
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2604D2577C93CFAC"]["prototype"]
-L69_1 = "F25CFEB0E023C588F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.staff_list.StaffListBackGroundView.StopAnime
+function C2604D2577C93CFAC_prototype:F25CFEB0E023C588F(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.F25CFEB0E023C588F
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2604D2577C93CFAC"]["prototype"]
-L69_1 = "F810D8446A8612992"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.staff_list.StaffListBackGroundView.IsEndAnime
+function C2604D2577C93CFAC_prototype:F810D8446A8612992(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.F810D8446A8612992
   L4_2 = A1_2
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2604D2577C93CFAC"]["prototype"]
-L69_1 = "FCC92C6533BF6F3E3"
-
-function L70_1(A0_2)
+--- main.ui.staff_list.StaffListBackGroundView.OffScreenCharaSetFlow
+function C2604D2577C93CFAC_prototype:FCC92C6533BF6F3E3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c451059A3
   L1_2 = L1_2.f5776B6C6
@@ -249,7 +230,7 @@ function L70_1(A0_2)
   function L2_2()
     local L0_3, L1_3, L2_3, L3_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[10]
     if 0 == L1_3 then
       L1_3 = L31_1.string
@@ -286,10 +267,10 @@ function L70_1(A0_2)
     L2_2 = L2_2.S760DAE4C5371A78E
     L2_2()
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.f68159593
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2, L5_2)
   while true do
@@ -305,7 +286,7 @@ function L70_1(A0_2)
   end
   L3_2 = C41004305AA276DEE
   L3_2 = L3_2.new
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L5_2 = L4_2
   L4_2 = L4_2.fD4E64AB7
   L6_2 = "Credit_Player"
@@ -317,38 +298,35 @@ function L70_1(A0_2)
   L5_2 = L3_2
   L4_2 = L3_2.F9FD53EFA8DA6BEB6
   L4_2(L5_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FC24E4F024AD1680B
+  L5_2 = self
+  L4_2 = self.FC24E4F024AD1680B
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2604D2577C93CFAC"]["prototype"]
-L69_1 = "FC24E4F024AD1680B"
-
-function L70_1(A0_2)
+--- main.ui.staff_list.StaffListBackGroundView.SetOffscreenCharacter
+function C2604D2577C93CFAC_prototype:FC24E4F024AD1680B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F542D6821687B8324
+  L2_2 = self
+  L1_2 = self.F542D6821687B8324
   L3_2 = "Credit_Player"
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F542D6821687B8324
+  L2_2 = self
+  L1_2 = self.F542D6821687B8324
   L3_2 = "Credit_Friend_00"
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F542D6821687B8324
+  L2_2 = self
+  L1_2 = self.F542D6821687B8324
   L3_2 = "Credit_Friend_01"
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F542D6821687B8324
+  L2_2 = self
+  L1_2 = self.F542D6821687B8324
   L3_2 = "Credit_Friend_02"
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F542D6821687B8324
-  L3_2 = A0_2[2]
+  L2_2 = self
+  L1_2 = self.F542D6821687B8324
+  L3_2 = self[2]
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.fD4E64AB7
   L3_2 = "OffScreenCamera"
@@ -369,7 +347,7 @@ function L70_1(A0_2)
   L6_2 = L3_2
   L7_2 = L4_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L5_2
   L5_2 = L5_2.FB6D1FE1B1E10C33D
   L5_2 = L5_2(L6_2)
@@ -400,15 +378,15 @@ function L70_1(A0_2)
   L10_2 = L3_2
   L7_2(L8_2, L9_2, L10_2)
   L7_2 = 0
-  L8_2 = A0_2[11]
+  L8_2 = self[11]
   L8_2 = L8_2.length
   while L7_2 < L8_2 do
     L7_2 = L7_2 + 1
     L9_2 = L7_2 - 1
-    L10_2 = A0_2[11]
+    L10_2 = self[11]
     L10_2 = L10_2[L9_2]
     L10_2 = L10_2.animComp
-    L11_2 = A0_2[11]
+    L11_2 = self[11]
     L11_2 = L11_2[L9_2]
     L11_2 = L11_2.modelComp
     L12_2 = nil
@@ -455,15 +433,15 @@ function L70_1(A0_2)
   L9_2 = L9_2.S760DAE4C5371A78E
   L9_2()
   L9_2 = 0
-  L10_2 = A0_2[11]
+  L10_2 = self[11]
   L10_2 = L10_2.length
   while L9_2 < L10_2 do
     L9_2 = L9_2 + 1
     L11_2 = L9_2 - 1
-    L12_2 = A0_2[11]
+    L12_2 = self[11]
     L12_2 = L12_2[L11_2]
     L12_2 = L12_2.animComp
-    L13_2 = A0_2[11]
+    L13_2 = self[11]
     L13_2 = L13_2[L11_2]
     L13_2 = L13_2.modelComp
     L14_2 = nil
@@ -485,10 +463,10 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = L11_2
         if 0 == L1_3 then
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[3]
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[4]
         end
         return L0_3
@@ -543,20 +521,17 @@ function L70_1(A0_2)
       L16_2(L17_2, L18_2, L19_2)
     end
   end
-  L11_2 = A0_2[1]
+  L11_2 = self[1]
   L12_2 = L11_2
   L11_2 = L11_2.f12329E64
   L13_2 = true
   L11_2(L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2604D2577C93CFAC"]["prototype"]
-L69_1 = "F542D6821687B8324"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.staff_list.StaffListBackGroundView.AddModelComponentList
+function C2604D2577C93CFAC_prototype:F542D6821687B8324(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.fD4E64AB7
   L4_2 = A1_2
@@ -580,13 +555,13 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2(L4_2)
   L5_2 = L2_2
   L4_2 = L2_2.f4D31CD40
-  L6_2 = A0_2[8]
+  L6_2 = self[8]
   L4_2(L5_2, L6_2)
   L5_2 = L2_2
   L4_2 = L2_2.f12329E64
   L6_2 = true
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[11]
+  L4_2 = self[11]
   L5_2 = L4_2
   L4_2 = L4_2.push
   L6_2 = L3_2

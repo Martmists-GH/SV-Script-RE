@@ -1,11 +1,11 @@
+---@alias C1E6D887767D3DC7E main_ajito_util_AjitoScriptMessageUtil
+
+---@class main_ajito_util_AjitoScriptMessageUtil : C1E6D887767D3DC7E_prototype
+---@field prototype C1E6D887767D3DC7E_prototype
 L68_1 = _ENV["C1E6D887767D3DC7E"]
 L69_1 = "new"
 L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "__name__"
-L70_1 = "C1E6D887767D3DC7E"
-L68_1[L69_1] = L70_1
+C1E6D887767D3DC7E.__name__ = "C1E6D887767D3DC7E"
 L68_1 = _ENV["C1E6D887767D3DC7E"]
 L69_1 = "S08B3E30873E05109"
 
@@ -89,11 +89,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S74ED80058812240F"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.util.AjitoScriptMessageUtil.S74ED80058812240F
+function C1E6D887767D3DC7E.S74ED80058812240F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = A1_2[1]
   if 0 == L2_2 then
@@ -168,11 +165,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S33CD9807F4DDDF86"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoScriptMessageUtil.S33CD9807F4DDDF86
+function C1E6D887767D3DC7E.S33CD9807F4DDDF86(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = A0_2[1]
   if 0 == L1_2 then
@@ -229,11 +223,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S65A2041A04B2A5CB"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoScriptMessageUtil.S65A2041A04B2A5CB
+function C1E6D887767D3DC7E.S65A2041A04B2A5CB(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = A0_2[1]
   if 0 == L1_2 then
@@ -290,11 +281,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S214AA3ABB69B1674"
-
-function L70_1()
+--- main.ajito.util.AjitoScriptMessageUtil.S214AA3ABB69B1674
+function C1E6D887767D3DC7E.S214AA3ABB69B1674()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -316,11 +304,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S194657451372AF04"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoScriptMessageUtil.S194657451372AF04
+function C1E6D887767D3DC7E.S194657451372AF04(A0_2)
   local L1_2, L2_2
   L1_2 = A0_2[1]
   if 0 == L1_2 then
@@ -338,11 +323,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "SC8FE85830B8E7E91"
-
-function L70_1()
+--- main.ajito.util.AjitoScriptMessageUtil.SC8FE85830B8E7E91
+function C1E6D887767D3DC7E.SC8FE85830B8E7E91()
   local L0_2, L1_2, L2_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -363,11 +345,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S416BF36104CD850D"
-
-function L70_1()
+--- main.ajito.util.AjitoScriptMessageUtil.S416BF36104CD850D
+function C1E6D887767D3DC7E.S416BF36104CD850D()
   local L0_2, L1_2, L2_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -388,11 +367,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S1569BEF9856BD154"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoScriptMessageUtil.S1569BEF9856BD154
+function C1E6D887767D3DC7E.S1569BEF9856BD154(A0_2)
   local L1_2, L2_2
   L1_2 = A0_2[1]
   if 0 == L1_2 then
@@ -410,11 +386,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S16E4D99C2874CCE2"
-
-function L70_1()
+--- main.ajito.util.AjitoScriptMessageUtil.S16E4D99C2874CCE2
+function C1E6D887767D3DC7E.S16E4D99C2874CCE2()
   local L0_2, L1_2, L2_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -434,11 +407,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S448ED5A4ED7BA55F"
-
-function L70_1()
+--- main.ajito.util.AjitoScriptMessageUtil.S448ED5A4ED7BA55F
+function C1E6D887767D3DC7E.S448ED5A4ED7BA55F()
   local L0_2, L1_2, L2_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -458,11 +428,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "SF5E1A3BC1701B05E"
-
-function L70_1()
+--- main.ajito.util.AjitoScriptMessageUtil.SF5E1A3BC1701B05E
+function C1E6D887767D3DC7E.SF5E1A3BC1701B05E()
   local L0_2, L1_2, L2_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -482,11 +449,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S89F44C5E68A42117"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoScriptMessageUtil.S89F44C5E68A42117
+function C1E6D887767D3DC7E.S89F44C5E68A42117(A0_2)
   local L1_2, L2_2
   L1_2 = A0_2[1]
   if 0 == L1_2 then
@@ -504,11 +468,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S50857CA45ACA58A4"
-
-function L70_1()
+--- main.ajito.util.AjitoScriptMessageUtil.S50857CA45ACA58A4
+function C1E6D887767D3DC7E.S50857CA45ACA58A4()
   local L0_2, L1_2, L2_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -528,11 +489,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S386E757B794F36C8"
-
-function L70_1()
+--- main.ajito.util.AjitoScriptMessageUtil.S386E757B794F36C8
+function C1E6D887767D3DC7E.S386E757B794F36C8()
   local L0_2, L1_2, L2_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -552,11 +510,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S7AF6B9293320F3E0"
-
-function L70_1()
+--- main.ajito.util.AjitoScriptMessageUtil.S7AF6B9293320F3E0
+function C1E6D887767D3DC7E.S7AF6B9293320F3E0()
   local L0_2, L1_2, L2_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -576,11 +531,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S14F673CBB84DEF3E"
-
-function L70_1()
+--- main.ajito.util.AjitoScriptMessageUtil.S14F673CBB84DEF3E
+function C1E6D887767D3DC7E.S14F673CBB84DEF3E()
   local L0_2, L1_2, L2_2
   L0_2 = CB13C1ADBEB1B2C41
   L0_2 = L0_2.S84366ECEA1B2ED8B
@@ -606,11 +558,8 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S0A05939D758050D5"
-
-function L70_1()
+--- main.ajito.util.AjitoScriptMessageUtil.S0A05939D758050D5
+function C1E6D887767D3DC7E.S0A05939D758050D5()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -666,11 +615,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S412847B5E2C9128B"
-
-function L70_1()
+--- main.ajito.util.AjitoScriptMessageUtil.S412847B5E2C9128B
+function C1E6D887767D3DC7E.S412847B5E2C9128B()
   local L0_2, L1_2, L2_2
   L0_2 = CB13C1ADBEB1B2C41
   L0_2 = L0_2.S84366ECEA1B2ED8B
@@ -691,11 +637,8 @@ function L70_1()
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "SD7BEF12300116503"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoScriptMessageUtil.SD7BEF12300116503
+function C1E6D887767D3DC7E.SD7BEF12300116503(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CB13C1ADBEB1B2C41
   L1_2 = L1_2.S84366ECEA1B2ED8B
@@ -733,11 +676,8 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S24C1088F2EA38026"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoScriptMessageUtil.S24C1088F2EA38026
+function C1E6D887767D3DC7E.S24C1088F2EA38026(A0_2)
   local L1_2, L2_2
   L1_2 = A0_2[1]
   if 0 == L1_2 then
@@ -758,11 +698,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "SC7EDDF5CAA1C3585"
-
-function L70_1(A0_2)
+--- main.ajito.util.AjitoScriptMessageUtil.SC7EDDF5CAA1C3585
+function C1E6D887767D3DC7E.SC7EDDF5CAA1C3585(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = A0_2[1]
@@ -801,11 +738,8 @@ function L70_1(A0_2)
   L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S8E8A2F0B266F1574"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.util.AjitoScriptMessageUtil.showSystemMessage
+function C1E6D887767D3DC7E.S8E8A2F0B266F1574(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.S3EDC50DEB344C642
@@ -822,11 +756,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E6D887767D3DC7E"]
-L69_1 = "S2A554FA1B22C8AD6"
-
-function L70_1()
+--- main.ajito.util.AjitoScriptMessageUtil.CloseAll
+function C1E6D887767D3DC7E.S2A554FA1B22C8AD6()
   local L0_2, L1_2
   L0_2 = C17F73F1CF4C378CC
   L0_2 = L0_2.SA6A62B44079F2A7B
@@ -855,11 +786,9 @@ L68_1 = C7CD28A9CFBEC3B73
 L25_1.C7CD28A9CFBEC3B73 = L68_1
 L68_1 = C7CD28A9CFBEC3B73
 L69_1 = "__name__"
-L68_1[L69_1] = "C7CD28A9CFBEC3B73"
-L68_1 = C7CD28A9CFBEC3B73
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+L68_1[---@class C1E6D887767D3DC7E_prototype
+C1E6D887767D3DC7E_prototype = L15_1()
+C1E6D887767D3DC7E.prototype = C1E6D887767D3DC7E_prototype
 L68_1[L69_1] = L70_1
 L68_1 = C7CD28A9CFBEC3B73["prototype"]
 L69_1 = C7CD28A9CFBEC3B73

@@ -1,3 +1,7 @@
+---@alias C39256DA3C22DD6D4 main_nushi_dragon_DragonNushiRockClashEvent
+
+---@class main_nushi_dragon_DragonNushiRockClashEvent : C39256DA3C22DD6D4_prototype
+---@field prototype C39256DA3C22DD6D4_prototype
 L55_1 = _ENV
 L56_1 = "C39256DA3C22DD6D4"
 L57_1 = L15_1
@@ -44,28 +48,20 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C39256DA3C22DD6D4"]
 L69_1 = "__name__"
 L70_1 = "C39256DA3C22DD6D4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "F795CBC2B12F8956D"
-
-function L70_1(A0_2)
+---@class C39256DA3C22DD6D4_prototype
+C39256DA3C22DD6D4_prototype = L15_1()
+C39256DA3C22DD6D4.prototype = C39256DA3C22DD6D4_prototype
+--- main.nushi.dragon.DragonNushiRockClashEvent.OnSetup
+function C39256DA3C22DD6D4_prototype:F795CBC2B12F8956D()
   local L1_2
   L1_2 = C39256DA3C22DD6D4
-  L1_2.S7D1E199BBD384D72 = A0_2
+  L1_2.S7D1E199BBD384D72 = self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "F8D94B2855CBCF852"
-
-function L70_1(A0_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.OnInit
+function C39256DA3C22DD6D4_prototype:F8D94B2855CBCF852()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
@@ -73,13 +69,13 @@ function L70_1(A0_2)
   L2_2 = L1_2.fD4E64AB7
   L4_2 = "nushi_dragon_fp_1056_020"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[83] = L2_2
+  self[83] = L2_2
   L2_2 = c4E28AB7C
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[83]
+  L3_2 = self[83]
   L2_2 = L2_2(L3_2)
-  A0_2[84] = L2_2
-  L2_2 = A0_2[83]
+  self[84] = L2_2
+  L2_2 = self[83]
   L3_2 = L2_2
   L2_2 = L2_2.fB3CF1DEB
   L2_2 = L2_2(L3_2)
@@ -91,23 +87,23 @@ function L70_1(A0_2)
   if L3_2 == L4_2 then
     L3_2 = nil
   end
-  A0_2[85] = L3_2
+  self[85] = L3_2
   L4_2 = CC704789D12A0E0F2
   L4_2 = L4_2.new
-  L5_2 = A0_2[83]
+  L5_2 = self[83]
   L4_2 = L4_2(L5_2)
-  A0_2[86] = L4_2
-  L4_2 = A0_2[86]
+  self[86] = L4_2
+  L4_2 = self[86]
   L4_2[19] = false
   L4_2 = C4CD64C098C5F1B06
   L4_2 = L4_2.new
   L4_2 = L4_2()
-  A0_2[87] = L4_2
-  L4_2 = A0_2[83]
+  self[87] = L4_2
+  L4_2 = self[83]
   L5_2 = L4_2
   L4_2 = L4_2.f7360ED03
   L4_2, L5_2, L6_2 = L4_2(L5_2)
-  L7_2 = A0_2[87]
+  L7_2 = self[87]
   L8_2 = {}
   L9_2 = L4_2
   L10_2 = L5_2
@@ -116,8 +112,8 @@ function L70_1(A0_2)
   L8_2[2] = L10_2
   L8_2[3] = L11_2
   L7_2[1] = L8_2
-  L7_2 = A0_2[87]
-  L8_2 = A0_2[83]
+  L7_2 = self[87]
+  L8_2 = self[83]
   L9_2 = L8_2
   L8_2 = L8_2.f64857644
   L8_2 = L8_2(L9_2)
@@ -129,17 +125,17 @@ function L70_1(A0_2)
   L10_2 = "0_SushiDraEscapeCamera"
   L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L8_2(L9_2, L10_2)
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
-  A0_2[88] = L7_2
+  self[88] = L7_2
   L8_2 = L1_2
   L7_2 = L1_2.fD4E64AB7
   L9_2 = "0_SushiDraEscapeStartPoint"
   L7_2 = L7_2(L8_2, L9_2)
-  A0_2[89] = L7_2
+  self[89] = L7_2
   L8_2 = L1_2
   L7_2 = L1_2.fD4E64AB7
   L9_2 = "0_SushiDraEscapeEndPoint"
   L7_2 = L7_2(L8_2, L9_2)
-  A0_2[90] = L7_2
+  self[90] = L7_2
   L7_2 = CDFB73C57B78A1F2F
   L7_2 = L7_2.new
   L9_2 = L1_2
@@ -147,27 +143,27 @@ function L70_1(A0_2)
   L10_2 = "1_SushiDraEatCamera"
   L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L8_2(L9_2, L10_2)
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
-  A0_2[91] = L7_2
+  self[91] = L7_2
   L8_2 = L1_2
   L7_2 = L1_2.fD4E64AB7
   L9_2 = "1_SushiDraEatEndPoint"
   L7_2 = L7_2(L8_2, L9_2)
-  A0_2[92] = L7_2
+  self[92] = L7_2
   L8_2 = L1_2
   L7_2 = L1_2.fD4E64AB7
   L9_2 = "1_SushiDraEatNushiPoint"
   L7_2 = L7_2(L8_2, L9_2)
-  A0_2[93] = L7_2
+  self[93] = L7_2
   L8_2 = L1_2
   L7_2 = L1_2.fD4E64AB7
   L9_2 = "sushi_battle_player_point"
   L7_2 = L7_2(L8_2, L9_2)
-  A0_2[95] = L7_2
+  self[95] = L7_2
   L8_2 = L1_2
   L7_2 = L1_2.fD4E64AB7
   L9_2 = "sushi_battle_frend_point"
   L7_2 = L7_2(L8_2, L9_2)
-  A0_2[96] = L7_2
+  self[96] = L7_2
   L7_2 = CDFB73C57B78A1F2F
   L7_2 = L7_2.new
   L9_2 = L1_2
@@ -175,7 +171,7 @@ function L70_1(A0_2)
   L10_2 = "sushi_battle_camera"
   L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L8_2(L9_2, L10_2)
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
-  A0_2[97] = L7_2
+  self[97] = L7_2
   L7_2 = CDFB73C57B78A1F2F
   L7_2 = L7_2.new
   L9_2 = L1_2
@@ -183,11 +179,11 @@ function L70_1(A0_2)
   L10_2 = "sushi_battle_talk"
   L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L8_2(L9_2, L10_2)
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
-  A0_2[98] = L7_2
+  self[98] = L7_2
   L7_2 = nil
   L8_2 = c016374C1
   L8_2 = L8_2.f4555D276
-  L9_2 = A0_2[99]
+  L9_2 = self[99]
   L10_2 = L7_2
   L8_2 = L8_2(L9_2, L10_2)
   if L8_2 then
@@ -195,12 +191,12 @@ function L70_1(A0_2)
     L8_2 = L1_2.fD4E64AB7
     L10_2 = "sushi_battle_frend_partner"
     L8_2 = L8_2(L9_2, L10_2)
-    A0_2[99] = L8_2
+    self[99] = L8_2
     while true do
       L8_2 = nil
       L9_2 = c016374C1
       L9_2 = L9_2.f4555D276
-      L10_2 = A0_2[99]
+      L10_2 = self[99]
       L11_2 = L8_2
       L9_2 = L9_2(L10_2, L11_2)
       if not L9_2 then
@@ -210,21 +206,21 @@ function L70_1(A0_2)
       L9_2 = L1_2.fD4E64AB7
       L11_2 = "sushi_battle_frend_partner"
       L9_2 = L9_2(L10_2, L11_2)
-      A0_2[99] = L9_2
+      self[99] = L9_2
       L9_2 = C1DB14DCC9D7634FA
       L9_2 = L9_2.S760DAE4C5371A78E
       L9_2()
     end
     L8_2 = c4E28AB7C
     L8_2 = L8_2.fB41FD22F
-    L9_2 = A0_2[99]
+    L9_2 = self[99]
     L8_2 = L8_2(L9_2)
-    A0_2[100] = L8_2
+    self[100] = L8_2
     while true do
       L8_2 = nil
       L9_2 = c4E28AB7C
       L9_2 = L9_2.f68BF50E5
-      L10_2 = A0_2[100]
+      L10_2 = self[100]
       L11_2 = L8_2
       L9_2 = L9_2(L10_2, L11_2)
       if not L9_2 then
@@ -232,14 +228,14 @@ function L70_1(A0_2)
       end
       L9_2 = c4E28AB7C
       L9_2 = L9_2.fB41FD22F
-      L10_2 = A0_2[99]
+      L10_2 = self[99]
       L9_2 = L9_2(L10_2)
-      A0_2[100] = L9_2
+      self[100] = L9_2
       L9_2 = C1DB14DCC9D7634FA
       L9_2 = L9_2.S760DAE4C5371A78E
       L9_2()
     end
-    L8_2 = A0_2[100]
+    L8_2 = self[100]
     L9_2 = L8_2
     L8_2 = L8_2.f24E22470
     L8_2 = L8_2(L9_2)
@@ -252,7 +248,7 @@ function L70_1(A0_2)
     L8_2 = L8_2()
     L10_2 = L8_2
     L9_2 = L8_2.f2247607A
-    L11_2 = A0_2[36]
+    L11_2 = self[36]
     L12_2 = L11_2
     L11_2 = L11_2.f689968B2
     L11_2 = L11_2(L12_2)
@@ -264,7 +260,7 @@ function L70_1(A0_2)
     L9_2 = L9_2.f7AC1FE6B
     L10_2 = L8_2
     L9_2 = L9_2(L10_2)
-    L10_2 = A0_2[99]
+    L10_2 = self[99]
     L11_2 = L10_2
     L10_2 = L10_2.f7360ED03
     L10_2, L11_2, L12_2 = L10_2(L11_2)
@@ -294,17 +290,17 @@ function L70_1(A0_2)
     L13_2 = L13_2.f6F41B608
     L14_2 = "sushi_battle_frend_partner_copy"
     L13_2 = L13_2(L14_2)
-    A0_2[99] = L13_2
+    self[99] = L13_2
     L13_2 = c4E28AB7C
     L13_2 = L13_2.fB41FD22F
-    L14_2 = A0_2[99]
+    L14_2 = self[99]
     L13_2 = L13_2(L14_2)
-    A0_2[100] = L13_2
+    self[100] = L13_2
     while true do
       L13_2 = nil
       L14_2 = c4E28AB7C
       L14_2 = L14_2.f68BF50E5
-      L15_2 = A0_2[100]
+      L15_2 = self[100]
       L16_2 = L13_2
       L14_2 = L14_2(L15_2, L16_2)
       if not L14_2 then
@@ -312,15 +308,15 @@ function L70_1(A0_2)
       end
       L14_2 = c4E28AB7C
       L14_2 = L14_2.fB41FD22F
-      L15_2 = A0_2[99]
+      L15_2 = self[99]
       L14_2 = L14_2(L15_2)
-      A0_2[100] = L14_2
+      self[100] = L14_2
       L14_2 = C1DB14DCC9D7634FA
       L14_2 = L14_2.S760DAE4C5371A78E
       L14_2()
     end
   end
-  L8_2 = A0_2[100]
+  L8_2 = self[100]
   L9_2 = L8_2
   L8_2 = L8_2.f24E22470
   L8_2 = L8_2(L9_2)
@@ -330,7 +326,7 @@ function L70_1(A0_2)
   L8_2(L9_2, L10_2)
   L8_2 = cAA7097FF
   L8_2 = L8_2.fB41FD22F
-  L9_2 = A0_2[26]
+  L9_2 = self[26]
   L8_2 = L8_2(L9_2)
   L9_2 = nil
   L10_2 = cAA7097FF
@@ -352,48 +348,45 @@ function L70_1(A0_2)
   L13_2 = "sushi_up_battle_camera"
   L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L11_2(L12_2, L13_2)
   L10_2 = L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
-  A0_2[101] = L10_2
+  self[101] = L10_2
   L11_2 = L1_2
   L10_2 = L1_2.fD4E64AB7
   L12_2 = "nushi_battle_point"
   L10_2 = L10_2(L11_2, L12_2)
-  A0_2[81] = L10_2
+  self[81] = L10_2
   L11_2 = L1_2
   L10_2 = L1_2.fD4E64AB7
   L12_2 = "sushi_battle_point"
   L10_2 = L10_2(L11_2, L12_2)
-  A0_2[82] = L10_2
-  L10_2 = A0_2[103]
+  self[82] = L10_2
+  L10_2 = self[103]
   if nil == L10_2 then
     L10_2 = C4CD64C098C5F1B06
     L10_2 = L10_2.new
     L10_2 = L10_2()
-    A0_2[103] = L10_2
-    L10_2 = A0_2[103]
+    self[103] = L10_2
+    L10_2 = self[103]
     L11_2 = L10_2
     L10_2 = L10_2.F1D3555903744037A
-    L12_2 = A0_2[83]
+    L12_2 = self[83]
     L10_2(L11_2, L12_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "FDCB19E22FE1BB508"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.OnPreUpdate
+function C39256DA3C22DD6D4_prototype:FDCB19E22FE1BB508(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[86]
+  L2_2 = self[86]
   if nil ~= L2_2 then
-    L2_2 = A0_2[86]
+    L2_2 = self[86]
     L3_2 = L2_2
     L2_2 = L2_2.F3BC3E2DE6CE68A7D
     L4_2 = A1_2
     L2_2(L3_2, L4_2)
   end
-  L2_2 = A0_2[97]
+  L2_2 = self[97]
   if nil ~= L2_2 then
-    L2_2 = A0_2[97]
+    L2_2 = self[97]
     L3_2 = L2_2
     L2_2 = L2_2.FB579D37DE311A155
     L4_2 = A1_2
@@ -401,32 +394,26 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "FD7730EE42642F42A"
-
-function L70_1(A0_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.OnDestroy
+function C39256DA3C22DD6D4_prototype:FD7730EE42642F42A()
   local L1_2, L2_2
-  L1_2 = A0_2[86]
+  L1_2 = self[86]
   if nil ~= L1_2 then
-    L1_2 = A0_2[86]
+    L1_2 = self[86]
     L2_2 = L1_2
     L1_2 = L1_2.FB50C9ACDC127E3B9
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "FD34D2AFE0BEAEF29"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.SushiDraEscape
+function C39256DA3C22DD6D4_prototype:FD34D2AFE0BEAEF29(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
-  L2_2 = A0_2
-  L3_2 = A0_2[46]
+  L2_2 = self
+  L3_2 = self[46]
   L4_2 = L3_2
   L3_2 = L3_2.F2CE29EE06B814825
-  L5_2 = A0_2[88]
+  L5_2 = self[88]
   L3_2(L4_2, L5_2)
   L3_2 = CFC8F368D91411014
   L3_2 = L3_2.S93A017D496A6D000
@@ -443,13 +430,13 @@ function L70_1(A0_2, A1_2)
   L7_2[1] = L8_2
   L7_2[2] = L9_2
   L7_2[3] = L10_2
-  L8_2 = A0_2[32]
+  L8_2 = self[32]
   L9_2 = L8_2
   L8_2 = L8_2.f64857644
   L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L8_2(L9_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-  L6_2 = A0_2[83]
-  L7_2 = A0_2[89]
+  L6_2 = self[83]
+  L7_2 = self[89]
   L8_2 = L7_2
   L7_2 = L7_2.f7360ED03
   L7_2, L8_2, L9_2 = L7_2(L8_2)
@@ -459,15 +446,15 @@ function L70_1(A0_2, A1_2)
   L13_2 = L8_2
   L14_2 = L9_2
   L10_2(L11_2, L12_2, L13_2, L14_2)
-  L10_2 = A0_2[83]
+  L10_2 = self[83]
   L11_2 = L10_2
   L10_2 = L10_2.f24032F87
-  L12_2 = A0_2[89]
+  L12_2 = self[89]
   L13_2 = L12_2
   L12_2 = L12_2.f64857644
   L12_2, L13_2, L14_2 = L12_2(L13_2)
   L10_2(L11_2, L12_2, L13_2, L14_2)
-  L10_2 = A0_2[7]
+  L10_2 = self[7]
   L11_2 = L10_2
   L10_2 = L10_2.F7EED485852A4D25F
   L12_2 = 0.5
@@ -517,19 +504,16 @@ function L70_1(A0_2, A1_2)
   L10_2(L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "F602AFD8CA85FBEE4"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.SushiDraEat
+function C39256DA3C22DD6D4_prototype:F602AFD8CA85FBEE4(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L2_2 = A0_2
-  L3_2 = A0_2[8]
+  L2_2 = self
+  L3_2 = self[8]
   L4_2 = L3_2
   L3_2 = L3_2.f750133BA
   L3_2(L4_2)
-  L3_2 = A0_2[8]
-  L4_2 = A0_2[93]
+  L3_2 = self[8]
+  L4_2 = self[93]
   L5_2 = L4_2
   L4_2 = L4_2.f7360ED03
   L4_2, L5_2, L6_2 = L4_2(L5_2)
@@ -539,13 +523,13 @@ function L70_1(A0_2, A1_2)
   L10_2 = L5_2
   L11_2 = L6_2
   L7_2(L8_2, L9_2, L10_2, L11_2)
-  L7_2 = A0_2[46]
+  L7_2 = self[46]
   L8_2 = L7_2
   L7_2 = L7_2.F2CE29EE06B814825
-  L9_2 = A0_2[91]
+  L9_2 = self[91]
   L7_2(L8_2, L9_2)
-  L7_2 = A0_2[86]
-  L8_2 = A0_2[92]
+  L7_2 = self[86]
+  L8_2 = self[92]
   L9_2 = L8_2
   L8_2 = L8_2.f7360ED03
   L8_2, L9_2, L10_2 = L8_2(L9_2)
@@ -661,11 +645,8 @@ function L70_1(A0_2, A1_2)
   L11_2(L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "F038D86A79DF3E684"
-
-function L70_1(A0_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.OnRorePlay
+function C39256DA3C22DD6D4_prototype:F038D86A79DF3E684()
   local L1_2, L2_2
   L1_2 = C929486B36C03E170
   L1_2 = L1_2.S459DD50AF92A5178
@@ -673,19 +654,16 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "F834E5D93839DC8EE"
-
-function L70_1(A0_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.SushiDraEatAfter
+function C39256DA3C22DD6D4_prototype:F834E5D93839DC8EE()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2[46]
+  L1_2 = self[46]
   L2_2 = L1_2
   L1_2 = L1_2.F2CE29EE06B814825
-  L3_2 = A0_2[31]
+  L3_2 = self[31]
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[8]
-  L2_2 = A0_2[81]
+  L1_2 = self[8]
+  L2_2 = self[81]
   L3_2 = L2_2
   L2_2 = L2_2.f7360ED03
   L2_2, L3_2, L4_2 = L2_2(L3_2)
@@ -695,37 +673,31 @@ function L70_1(A0_2)
   L8_2 = L3_2
   L9_2 = L4_2
   L5_2(L6_2, L7_2, L8_2, L9_2)
-  L5_2 = A0_2[8]
+  L5_2 = self[8]
   L6_2 = L5_2
   L5_2 = L5_2.f24032F87
-  L7_2 = A0_2[81]
+  L7_2 = self[81]
   L8_2 = L7_2
   L7_2 = L7_2.f64857644
   L7_2, L8_2, L9_2 = L7_2(L8_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "FD5A6D5637BE6187A"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.NushiEatMotion
+function C39256DA3C22DD6D4_prototype:FD5A6D5637BE6187A(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "F7AC7392DB85D6A95"
-
-function L70_1(A0_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.SushiBattleEvent
+function C39256DA3C22DD6D4_prototype:F7AC7392DB85D6A95()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2
-  A0_2[94] = false
+  self[94] = false
   L1_2 = CD6E40BD5CE9657FC
-  L2_2 = A0_2[99]
+  L2_2 = self[99]
   L1_2.SFBB6E26FC6E13F73 = L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F2EEFDE0D7B2702E8
+  L2_2 = self
+  L1_2 = self.F2EEFDE0D7B2702E8
   L1_2(L2_2)
-  L1_2 = A0_2[84]
+  L1_2 = self[84]
   L2_2 = L1_2
   L1_2 = L1_2.f24E22470
   L1_2 = L1_2(L2_2)
@@ -734,10 +706,10 @@ function L70_1(A0_2)
   L3_2 = true
   L1_2(L2_2, L3_2)
   L1_2 = CD6E40BD5CE9657FC
-  L2_2 = A0_2[83]
+  L2_2 = self[83]
   L1_2.SD6AEBEF1E506C652 = L2_2
-  L1_2 = A0_2[83]
-  L2_2 = A0_2[82]
+  L1_2 = self[83]
+  L2_2 = self[82]
   L3_2 = L2_2
   L2_2 = L2_2.f7360ED03
   L2_2, L3_2, L4_2 = L2_2(L3_2)
@@ -747,15 +719,15 @@ function L70_1(A0_2)
   L8_2 = L3_2
   L9_2 = L4_2
   L5_2(L6_2, L7_2, L8_2, L9_2)
-  L5_2 = A0_2[83]
+  L5_2 = self[83]
   L6_2 = L5_2
   L5_2 = L5_2.f24032F87
-  L7_2 = A0_2[82]
+  L7_2 = self[82]
   L8_2 = L7_2
   L7_2 = L7_2.f64857644
   L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2 = L7_2(L8_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2)
-  L5_2 = A0_2[95]
+  L5_2 = self[95]
   L6_2 = L5_2
   L5_2 = L5_2.f7360ED03
   L5_2, L6_2, L7_2 = L5_2(L6_2)
@@ -768,13 +740,13 @@ function L70_1(A0_2)
   L9_2[1] = L10_2
   L9_2[2] = L11_2
   L9_2[3] = L12_2
-  L10_2 = A0_2[95]
+  L10_2 = self[95]
   L11_2 = L10_2
   L10_2 = L10_2.f64857644
   L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2 = L10_2(L11_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2)
-  L8_2 = A0_2[26]
-  L9_2 = A0_2[96]
+  L8_2 = self[26]
+  L9_2 = self[96]
   L10_2 = L9_2
   L9_2 = L9_2.f7360ED03
   L9_2, L10_2, L11_2 = L9_2(L10_2)
@@ -784,16 +756,16 @@ function L70_1(A0_2)
   L15_2 = L10_2
   L16_2 = L11_2
   L12_2(L13_2, L14_2, L15_2, L16_2)
-  L12_2 = A0_2[26]
+  L12_2 = self[26]
   L13_2 = L12_2
   L12_2 = L12_2.f24032F87
-  L14_2 = A0_2[96]
+  L14_2 = self[96]
   L15_2 = L14_2
   L14_2 = L14_2.f64857644
   L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2 = L14_2(L15_2)
   L12_2(L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2)
-  L13_2 = A0_2
-  L12_2 = A0_2.F9EDD8179B1CD3BC5
+  L13_2 = self
+  L12_2 = self.F9EDD8179B1CD3BC5
   L12_2(L13_2)
   L12_2 = c2FB59E8B
   L12_2 = L12_2.fB900AE56
@@ -829,28 +801,28 @@ function L70_1(A0_2)
   L17_2(L18_2, L19_2)
   L17_2 = CD6E40BD5CE9657FC
   L17_2 = L17_2.SD2A80356865901CA
-  L18_2 = A0_2[99]
+  L18_2 = self[99]
   L19_2 = true
   L20_2 = 4
   L21_2 = 2
   L17_2 = L17_2(L18_2, L19_2, L20_2, L21_2)
   L18_2 = L17_2[1]
-  L19_2 = A0_2[99]
+  L19_2 = self[99]
   L20_2 = L19_2
   L19_2 = L19_2.f8F2B0552
   L21_2 = L18_2[1]
   L22_2 = L18_2[2]
   L23_2 = L18_2[3]
   L19_2(L20_2, L21_2, L22_2, L23_2)
-  L19_2 = A0_2[99]
+  L19_2 = self[99]
   L20_2 = L19_2
   L19_2 = L19_2.f24032F87
   L21_2 = L17_2[2]
   L19_2(L20_2, L21_2)
-  L19_2 = A0_2[46]
+  L19_2 = self[46]
   L20_2 = L19_2
   L19_2 = L19_2.F2CE29EE06B814825
-  L21_2 = A0_2[98]
+  L21_2 = self[98]
   L19_2(L20_2, L21_2)
   L19_2 = cAF8D78F3
   L19_2 = L19_2.f37537CF4
@@ -864,13 +836,13 @@ function L70_1(A0_2)
   L19_2 = L19_2()
   L20_2 = L19_2
   L19_2 = L19_2.f74CDFF75
-  L21_2 = A0_2[46]
+  L21_2 = self[46]
   L21_2 = L21_2[1]
   L22_2 = false
   L19_2(L20_2, L21_2, L22_2)
   L19_2 = false
-  L21_2 = A0_2
-  L20_2 = A0_2.F04266A655D9CD7F0
+  L21_2 = self
+  L20_2 = self.F04266A655D9CD7F0
   L22_2 = -90
   
   function L23_2()
@@ -894,7 +866,7 @@ function L70_1(A0_2)
     L20_2 = L20_2.S12F63EE47FFCB183
     L20_2()
   end
-  L20_2 = A0_2[27]
+  L20_2 = self[27]
   L21_2 = L20_2
   L20_2 = L20_2.fF56461AF
   L20_2 = L20_2(L21_2)
@@ -903,7 +875,7 @@ function L70_1(A0_2)
   L22_2 = "face"
   L23_2 = 6
   L20_2(L21_2, L22_2, L23_2)
-  L20_2 = A0_2[27]
+  L20_2 = self[27]
   L21_2 = L20_2
   L20_2 = L20_2.fF56461AF
   L20_2 = L20_2(L21_2)
@@ -912,7 +884,7 @@ function L70_1(A0_2)
   L22_2 = "mouth"
   L23_2 = 4
   L20_2(L21_2, L22_2, L23_2)
-  L20_2 = A0_2[27]
+  L20_2 = self[27]
   L21_2 = L20_2
   L20_2 = L20_2.fF56461AF
   L20_2 = L20_2(L21_2)
@@ -921,7 +893,7 @@ function L70_1(A0_2)
   L22_2 = "once_event_type"
   L23_2 = 1
   L20_2(L21_2, L22_2, L23_2)
-  L20_2 = A0_2[27]
+  L20_2 = self[27]
   L21_2 = L20_2
   L20_2 = L20_2.fF56461AF
   L20_2 = L20_2(L21_2)
@@ -930,8 +902,8 @@ function L70_1(A0_2)
   L22_2 = "once_event_trigger"
   L23_2 = 1
   L20_2(L21_2, L22_2, L23_2)
-  L21_2 = A0_2
-  L20_2 = A0_2.FCE4D3EA743F0EEA7
+  L21_2 = self
+  L20_2 = self.FCE4D3EA743F0EEA7
   L22_2 = 1
   L20_2(L21_2, L22_2)
   L20_2 = C929486B36C03E170
@@ -940,7 +912,7 @@ function L70_1(A0_2)
   L20_2(L21_2)
   L20_2 = C9B54BC04DD492B6D
   L20_2 = L20_2.S3EDC50DEB344C642
-  L21_2 = A0_2[83]
+  L21_2 = self[83]
   L22_2 = L21_2
   L21_2 = L21_2.fE9C29DA1
   L21_2 = L21_2(L22_2)
@@ -961,11 +933,11 @@ function L70_1(A0_2)
   L20_2 = C9B54BC04DD492B6D
   L20_2 = L20_2.S7C91080775560DF8
   L20_2()
-  L21_2 = A0_2
-  L20_2 = A0_2.FCE4D3EA743F0EEA7
+  L21_2 = self
+  L20_2 = self.FCE4D3EA743F0EEA7
   L22_2 = 0
   L20_2(L21_2, L22_2)
-  L20_2 = A0_2[27]
+  L20_2 = self[27]
   L21_2 = L20_2
   L20_2 = L20_2.fF56461AF
   L20_2 = L20_2(L21_2)
@@ -974,7 +946,7 @@ function L70_1(A0_2)
   L22_2 = "face"
   L23_2 = 6
   L20_2(L21_2, L22_2, L23_2)
-  L20_2 = A0_2[27]
+  L20_2 = self[27]
   L21_2 = L20_2
   L20_2 = L20_2.fF56461AF
   L20_2 = L20_2(L21_2)
@@ -988,8 +960,8 @@ function L70_1(A0_2)
   L21_2 = 0.5
   L20_2(L21_2)
   L19_2 = false
-  L21_2 = A0_2
-  L20_2 = A0_2.F04266A655D9CD7F0
+  L21_2 = self
+  L20_2 = self.F04266A655D9CD7F0
   L22_2 = -90
   
   function L23_2()
@@ -1004,11 +976,11 @@ function L70_1(A0_2)
     L20_2 = L20_2.S12F63EE47FFCB183
     L20_2()
   end
-  L21_2 = A0_2
-  L20_2 = A0_2.FCE4D3EA743F0EEA7
+  L21_2 = self
+  L20_2 = self.FCE4D3EA743F0EEA7
   L22_2 = 1
   L20_2(L21_2, L22_2)
-  L20_2 = A0_2[27]
+  L20_2 = self[27]
   L21_2 = L20_2
   L20_2 = L20_2.fF56461AF
   L20_2 = L20_2(L21_2)
@@ -1017,7 +989,7 @@ function L70_1(A0_2)
   L22_2 = "once_action_type_int"
   L23_2 = 1
   L20_2(L21_2, L22_2, L23_2)
-  L20_2 = A0_2[27]
+  L20_2 = self[27]
   L21_2 = L20_2
   L20_2 = L20_2.fF56461AF
   L20_2 = L20_2(L21_2)
@@ -1028,7 +1000,7 @@ function L70_1(A0_2)
   L20_2(L21_2, L22_2, L23_2)
   L20_2 = C9B54BC04DD492B6D
   L20_2 = L20_2.S3EDC50DEB344C642
-  L21_2 = A0_2[83]
+  L21_2 = self[83]
   L22_2 = L21_2
   L21_2 = L21_2.fE9C29DA1
   L21_2 = L21_2(L22_2)
@@ -1050,21 +1022,21 @@ function L70_1(A0_2)
   L20_2 = L20_2.S459DD50AF92A5178
   L21_2 = "PLAY_NUSHI_SUSHI_VOICE3"
   L20_2(L21_2)
-  L21_2 = A0_2
-  L20_2 = A0_2.FCE4D3EA743F0EEA7
+  L21_2 = self
+  L20_2 = self.FCE4D3EA743F0EEA7
   L22_2 = 0
   L20_2(L21_2, L22_2)
   L20_2 = CC6FE82819C6E1D55
   L20_2 = L20_2.S32FAD7D4DF3ACA95
   L21_2 = 2.75
   L20_2(L21_2)
-  L21_2 = A0_2
-  L20_2 = A0_2.FCE4D3EA743F0EEA7
+  L21_2 = self
+  L20_2 = self.FCE4D3EA743F0EEA7
   L22_2 = 1
   L20_2(L21_2, L22_2)
   L20_2 = C9B54BC04DD492B6D
   L20_2 = L20_2.S3EDC50DEB344C642
-  L21_2 = A0_2[83]
+  L21_2 = self[83]
   L22_2 = L21_2
   L21_2 = L21_2.fE9C29DA1
   L21_2 = L21_2(L22_2)
@@ -1082,13 +1054,13 @@ function L70_1(A0_2)
   L27_2 = false
   L28_2 = true
   L20_2(L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2)
-  L21_2 = A0_2
-  L20_2 = A0_2.FCE4D3EA743F0EEA7
+  L21_2 = self
+  L20_2 = self.FCE4D3EA743F0EEA7
   L22_2 = 0
   L20_2(L21_2, L22_2)
   L20_2 = false
-  L22_2 = A0_2
-  L21_2 = A0_2.F04266A655D9CD7F0
+  L22_2 = self
+  L21_2 = self.F04266A655D9CD7F0
   L23_2 = -180
   
   function L24_2()
@@ -1103,7 +1075,7 @@ function L70_1(A0_2)
     L21_2 = L21_2.S12F63EE47FFCB183
     L21_2()
   end
-  L21_2 = A0_2[27]
+  L21_2 = self[27]
   L22_2 = L21_2
   L21_2 = L21_2.fF56461AF
   L21_2 = L21_2(L22_2)
@@ -1112,7 +1084,7 @@ function L70_1(A0_2)
   L23_2 = "face"
   L24_2 = 7
   L21_2(L22_2, L23_2, L24_2)
-  L21_2 = A0_2[27]
+  L21_2 = self[27]
   L22_2 = L21_2
   L21_2 = L21_2.fF56461AF
   L21_2 = L21_2(L22_2)
@@ -1121,7 +1093,7 @@ function L70_1(A0_2)
   L23_2 = "mouth"
   L24_2 = 7
   L21_2(L22_2, L23_2, L24_2)
-  L21_2 = A0_2[27]
+  L21_2 = self[27]
   L22_2 = L21_2
   L21_2 = L21_2.fF56461AF
   L21_2 = L21_2(L22_2)
@@ -1130,7 +1102,7 @@ function L70_1(A0_2)
   L23_2 = "loop_event_type"
   L24_2 = 8
   L21_2(L22_2, L23_2, L24_2)
-  L21_2 = A0_2[27]
+  L21_2 = self[27]
   L22_2 = L21_2
   L21_2 = L21_2.fF56461AF
   L21_2 = L21_2(L22_2)
@@ -1139,13 +1111,13 @@ function L70_1(A0_2)
   L23_2 = "loop_event_trigger"
   L24_2 = 1
   L21_2(L22_2, L23_2, L24_2)
-  L22_2 = A0_2
-  L21_2 = A0_2.FCE4D3EA743F0EEA7
+  L22_2 = self
+  L21_2 = self.FCE4D3EA743F0EEA7
   L23_2 = 1
   L21_2(L22_2, L23_2)
   L21_2 = C9B54BC04DD492B6D
   L21_2 = L21_2.S3EDC50DEB344C642
-  L22_2 = A0_2[83]
+  L22_2 = self[83]
   L23_2 = L22_2
   L22_2 = L22_2.fE9C29DA1
   L22_2 = L22_2(L23_2)
@@ -1163,11 +1135,11 @@ function L70_1(A0_2)
   L28_2 = false
   L29_2 = true
   L21_2(L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2)
-  L22_2 = A0_2
-  L21_2 = A0_2.FCE4D3EA743F0EEA7
+  L22_2 = self
+  L21_2 = self.FCE4D3EA743F0EEA7
   L23_2 = 0
   L21_2(L22_2, L23_2)
-  L21_2 = A0_2[27]
+  L21_2 = self[27]
   L22_2 = L21_2
   L21_2 = L21_2.fF56461AF
   L21_2 = L21_2(L22_2)
@@ -1176,7 +1148,7 @@ function L70_1(A0_2)
   L23_2 = "face"
   L24_2 = 0
   L21_2(L22_2, L23_2, L24_2)
-  L21_2 = A0_2[27]
+  L21_2 = self[27]
   L22_2 = L21_2
   L21_2 = L21_2.fF56461AF
   L21_2 = L21_2(L22_2)
@@ -1185,20 +1157,17 @@ function L70_1(A0_2)
   L23_2 = "mouth"
   L24_2 = 0
   L21_2(L22_2, L23_2, L24_2)
-  L22_2 = A0_2
-  L21_2 = A0_2.F46D915AEF757E200
+  L22_2 = self
+  L21_2 = self.F46D915AEF757E200
   L21_2(L22_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "F46D915AEF757E200"
-
-function L70_1(A0_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.SushiUp
+function C39256DA3C22DD6D4_prototype:F46D915AEF757E200()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L1_2 = A0_2[46]
+  L1_2 = self[46]
   L1_2 = L1_2[2]
-  L2_2 = A0_2[101]
+  L2_2 = self[101]
   L2_2 = L2_2[2]
   L3_2 = L2_2
   L2_2 = L2_2.f33A459EF
@@ -1209,21 +1178,21 @@ function L70_1(A0_2)
   L8_2 = L3_2
   L9_2 = L4_2
   L5_2(L6_2, L7_2, L8_2, L9_2)
-  L5_2 = A0_2[46]
+  L5_2 = self[46]
   L5_2 = L5_2[2]
   L6_2 = L5_2
   L5_2 = L5_2.f5E2B847F
-  L7_2 = A0_2[101]
+  L7_2 = self[101]
   L7_2 = L7_2[2]
   L8_2 = L7_2
   L7_2 = L7_2.f40043336
   L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2 = L7_2(L8_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
-  L5_2 = A0_2[46]
+  L5_2 = self[46]
   L5_2 = L5_2[2]
   L6_2 = L5_2
   L5_2 = L5_2.f084EB74C
-  L7_2 = A0_2[101]
+  L7_2 = self[101]
   L7_2 = L7_2[2]
   L8_2 = L7_2
   L7_2 = L7_2.f9BDF0F91
@@ -1233,7 +1202,7 @@ function L70_1(A0_2)
   L5_2 = L5_2.S32FAD7D4DF3ACA95
   L6_2 = 0.5
   L5_2(L6_2)
-  L5_2 = A0_2[27]
+  L5_2 = self[27]
   L6_2 = L5_2
   L5_2 = L5_2.fF56461AF
   L5_2 = L5_2(L6_2)
@@ -1242,8 +1211,8 @@ function L70_1(A0_2)
   L7_2 = "loop_event_trigger"
   L8_2 = 1
   L5_2(L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F9EDD8179B1CD3BC5
+  L6_2 = self
+  L5_2 = self.F9EDD8179B1CD3BC5
   L5_2(L6_2)
   L5_2 = CD6E40BD5CE9657FC
   L5_2 = L5_2.SB299F88D3736761C
@@ -1258,27 +1227,27 @@ function L70_1(A0_2)
   L6_2(L7_2, L8_2)
   L6_2 = CD6E40BD5CE9657FC
   L6_2 = L6_2.SB299F88D3736761C
-  L7_2 = A0_2[99]
+  L7_2 = self[99]
   L8_2 = true
   L9_2 = 2
   L10_2 = true
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
   L7_2 = L6_2[1]
-  L8_2 = A0_2[26]
+  L8_2 = self[26]
   L9_2 = L8_2
   L8_2 = L8_2.f8F2B0552
   L10_2 = L7_2[1]
   L11_2 = L7_2[2]
   L12_2 = L7_2[3]
   L8_2(L9_2, L10_2, L11_2, L12_2)
-  L8_2 = A0_2[26]
+  L8_2 = self[26]
   L9_2 = L8_2
   L8_2 = L8_2.f24032F87
   L10_2 = L6_2[2]
   L8_2(L9_2, L10_2)
   L8_2 = C9B54BC04DD492B6D
   L8_2 = L8_2.S3EDC50DEB344C642
-  L9_2 = A0_2[83]
+  L9_2 = self[83]
   L10_2 = L9_2
   L9_2 = L9_2.fE9C29DA1
   L9_2 = L9_2(L10_2)
@@ -1302,7 +1271,7 @@ function L70_1(A0_2)
   L8_2(L9_2)
   L8_2 = C9B54BC04DD492B6D
   L8_2 = L8_2.S3EDC50DEB344C642
-  L9_2 = A0_2[83]
+  L9_2 = self[83]
   L10_2 = L9_2
   L9_2 = L9_2.fE9C29DA1
   L9_2 = L9_2(L10_2)
@@ -1322,7 +1291,7 @@ function L70_1(A0_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
   L8_2 = C9B54BC04DD492B6D
   L8_2 = L8_2.S3EDC50DEB344C642
-  L9_2 = A0_2[83]
+  L9_2 = self[83]
   L10_2 = L9_2
   L9_2 = L9_2.fE9C29DA1
   L9_2 = L9_2(L10_2)
@@ -1343,7 +1312,7 @@ function L70_1(A0_2)
   L8_2 = C9B54BC04DD492B6D
   L8_2 = L8_2.S7C91080775560DF8
   L8_2()
-  L8_2 = A0_2[27]
+  L8_2 = self[27]
   L9_2 = L8_2
   L8_2 = L8_2.fF56461AF
   L8_2 = L8_2(L9_2)
@@ -1352,7 +1321,7 @@ function L70_1(A0_2)
   L10_2 = "battle_intro_int"
   L11_2 = 1
   L8_2(L9_2, L10_2, L11_2)
-  L8_2 = A0_2[27]
+  L8_2 = self[27]
   L9_2 = L8_2
   L8_2 = L8_2.fF56461AF
   L8_2 = L8_2(L9_2)
@@ -1361,20 +1330,17 @@ function L70_1(A0_2)
   L10_2 = "battle_trigger"
   L11_2 = 1
   L8_2(L9_2, L10_2, L11_2)
-  L9_2 = A0_2
-  L8_2 = A0_2.F8CF47C50F9878B17
+  L9_2 = self
+  L8_2 = self.F8CF47C50F9878B17
   L8_2(L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "F8CF47C50F9878B17"
-
-function L70_1(A0_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.SushiBattle
+function C39256DA3C22DD6D4_prototype:F8CF47C50F9878B17()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
-  L1_2 = A0_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F9EDD8179B1CD3BC5
+  L1_2 = self
+  L3_2 = self
+  L2_2 = self.F9EDD8179B1CD3BC5
   L2_2(L3_2)
   L2_2 = c2FB59E8B
   L2_2 = L2_2.fB900AE56
@@ -1390,7 +1356,7 @@ function L70_1(A0_2)
   L3_2 = L3_2.f6754453E
   L5_2 = true
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[100]
+  L3_2 = self[100]
   L4_2 = L3_2
   L3_2 = L3_2.f24E22470
   L3_2 = L3_2(L4_2)
@@ -1403,7 +1369,7 @@ function L70_1(A0_2)
   L4_2 = CD6E40BD5CE9657FC
   L4_2 = L4_2.S60673A512EE549A2
   L5_2 = L2_2
-  L6_2 = A0_2[83]
+  L6_2 = self[83]
   L7_2 = true
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
   L4_2 = L3_2.Translation
@@ -1417,7 +1383,7 @@ function L70_1(A0_2)
   L7_2 = nil
   L8_2 = nil
   L9_2 = nil
-  L10_2 = A0_2[46]
+  L10_2 = self[46]
   L10_2 = L10_2[2]
   L11_2 = L10_2
   L10_2 = L10_2.f33A459EF
@@ -1425,12 +1391,12 @@ function L70_1(A0_2)
   L9_2 = L10_2
   L8_2 = L11_2
   L7_2 = L12_2
-  L13_2 = A0_2[46]
+  L13_2 = self[46]
   L13_2 = L13_2[2]
   L14_2 = L13_2
   L13_2 = L13_2.f40043336
   L13_2 = L13_2(L14_2)
-  L14_2 = A0_2[46]
+  L14_2 = self[46]
   L14_2 = L14_2[2]
   L15_2 = L14_2
   L14_2 = L14_2.f9BDF0F91
@@ -1440,22 +1406,22 @@ function L70_1(A0_2)
   L15_2 = 2 * L15_2
   L15_2 = L14_2 / L15_2
   L14_2 = L15_2 * 360.0
-  L16_2 = A0_2
-  L15_2 = A0_2.F470684637112ED48
+  L16_2 = self
+  L15_2 = self.F470684637112ED48
   L17_2 = true
   L15_2(L16_2, L17_2)
-  L16_2 = A0_2
-  L15_2 = A0_2.F26F84B53231BDD5C
+  L16_2 = self
+  L15_2 = self.F26F84B53231BDD5C
   L17_2 = 0
   L15_2(L16_2, L17_2)
-  L15_2 = A0_2[64]
+  L15_2 = self[64]
   L15_2[1] = true
   L15_2 = 0.13
-  L17_2 = A0_2
-  L16_2 = A0_2.FECB847C3DE6E39D6
+  L17_2 = self
+  L16_2 = self.FECB847C3DE6E39D6
   L18_2 = 0.7692307692307692
   L16_2(L17_2, L18_2)
-  L16_2 = A0_2[7]
+  L16_2 = self[7]
   L17_2 = L16_2
   L16_2 = L16_2.F7EED485852A4D25F
   L18_2 = 0.52
@@ -1731,13 +1697,10 @@ function L70_1(A0_2)
   L16_2(L17_2, L18_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "FECB847C3DE6E39D6"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.FECB847C3DE6E39D6
+function C39256DA3C22DD6D4_prototype:FECB847C3DE6E39D6(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[84]
+  L2_2 = self[84]
   L3_2 = L2_2
   L2_2 = L2_2.f14C18506
   L2_2 = L2_2(L3_2)
@@ -1748,76 +1711,64 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "F804BD4985EA76AEA"
-
-function L70_1(A0_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.GetSushiBattleSetupData
+function C39256DA3C22DD6D4_prototype:F804BD4985EA76AEA()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CD6E40BD5CE9657FC
   L1_2 = L1_2.S84F73B13DB18CE0F
-  L2_2 = A0_2[83]
+  L2_2 = self[83]
   L3_2 = CD6E40BD5CE9657FC
   L3_2 = L3_2.S1D2D2633953667D1
-  L4_2 = A0_2[26]
+  L4_2 = self[26]
   L5_2 = C3EDBBD7780BE52AA
   L5_2 = L5_2.S4246644547CCA3BF
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L5_2 = L5_2(L6_2)
   L6_2 = true
   return L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "F2EEFDE0D7B2702E8"
-
-function L70_1(A0_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.SushiEscapeTmlSetUp
+function C39256DA3C22DD6D4_prototype:F2EEFDE0D7B2702E8()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[83]
-  A0_2[8] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F9BD6A597D8837BA1
-  L3_2 = A0_2[83]
+  L1_2 = self[83]
+  self[8] = L1_2
+  L2_2 = self
+  L1_2 = self.F9BD6A597D8837BA1
+  L3_2 = self[83]
   L4_2 = L3_2
   L3_2 = L3_2.f462C9B70
   L3_2, L4_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "FF77E6D444125B7B8"
-
-function L70_1(A0_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.SushiEscapePlay
+function C39256DA3C22DD6D4_prototype:FF77E6D444125B7B8()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[84]
-  A0_2[9] = L1_2
-  A0_2[61] = false
-  L2_2 = A0_2
-  L1_2 = A0_2.FECB847C3DE6E39D6
+  L1_2 = self[84]
+  self[9] = L1_2
+  self[61] = false
+  L2_2 = self
+  L1_2 = self.FECB847C3DE6E39D6
   L3_2 = 0.5
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FA48EDE715E501A78
+  L2_2 = self
+  L1_2 = self.FA48EDE715E501A78
   L3_2 = true
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "FB7D82187A777CADD"
-
-function L70_1(A0_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.ReSushiBattleSetUp
+function C39256DA3C22DD6D4_prototype:FB7D82187A777CADD()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = nil
   L2_2 = c4E28AB7C
   L2_2 = L2_2.fDD029B54
-  L3_2 = A0_2[100]
+  L3_2 = self[100]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[100]
+    L2_2 = self[100]
     L3_2 = L2_2
     L2_2 = L2_2.f24E22470
     L2_2 = L2_2(L3_2)
@@ -1829,11 +1780,11 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = cE8D61D7D
   L3_2 = L3_2.f8BA013D9
-  L4_2 = A0_2[102]
+  L4_2 = self[102]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[102]
+    L3_2 = self[102]
     L4_2 = L3_2
     L3_2 = L3_2.f2CDEBF78
     L3_2(L4_2)
@@ -1868,12 +1819,12 @@ function L70_1(A0_2)
   L5_2 = L5_2.f6754453E
   L7_2 = false
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[103]
+  L5_2 = self[103]
   L6_2 = L5_2
   L5_2 = L5_2.FB4B0039C97433DE5
-  L7_2 = A0_2[83]
+  L7_2 = self[83]
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[84]
+  L5_2 = self[84]
   L6_2 = L5_2
   L5_2 = L5_2.f24E22470
   L5_2 = L5_2(L6_2)
@@ -1883,11 +1834,8 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39256DA3C22DD6D4"]["prototype"]
-L69_1 = "F9EDD8179B1CD3BC5"
-
-function L70_1(A0_2)
+--- main.nushi.dragon.DragonNushiRockClashEvent.F9EDD8179B1CD3BC5
+function C39256DA3C22DD6D4_prototype:F9EDD8179B1CD3BC5()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c016374C1

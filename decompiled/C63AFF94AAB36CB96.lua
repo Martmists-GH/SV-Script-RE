@@ -1,3 +1,6 @@
+---@alias C30AA91A129933E1F main_ui_net_topmenu_state_machine_NetTopMenuState
+
+---@class main_ui_net_topmenu_state_machine_NetTopMenuState
 L55_1 = _ENV
 L56_1 = "C63AFF94AAB36CB96"
 L57_1 = L15_1

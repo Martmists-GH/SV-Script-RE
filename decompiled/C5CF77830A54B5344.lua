@@ -1,3 +1,5 @@
+---@class C5CF77830A54B5344 : C5CF77830A54B5344_prototype
+---@field prototype C5CF77830A54B5344_prototype
 L55_1 = _ENV
 L56_1 = "C5CF77830A54B5344"
 L57_1 = L15_1
@@ -45,22 +47,17 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C5CF77830A54B5344"]
 L69_1 = "__name__"
 L70_1 = "C5CF77830A54B5344"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5CF77830A54B5344"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5CF77830A54B5344"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C5CF77830A54B5344_prototype
+C5CF77830A54B5344_prototype = L15_1()
+C5CF77830A54B5344.prototype = C5CF77830A54B5344_prototype
+--- C5CF77830A54B5344.mainBody
+function C5CF77830A54B5344_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = CF6989DEF87EEA6AA
   L1_2 = L1_2.S4097278AAB477DF4
   L1_2 = L1_2()
   if L1_2 then
-    L1_2 = A0_2[18]
+    L1_2 = self[18]
     L1_2 = L1_2.ownerName
     if "event_pos_stopper_gym_kusa_020" == L1_2 then
       return
@@ -139,7 +136,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.S152B059CC269F721
   L1_2 = L1_2()
   if L1_2 then
-    L1_2 = A0_2[18]
+    L1_2 = self[18]
     L1_2 = L1_2.ownerName
     if "event_pos_stopper_gym_kusa_020" ~= L1_2 then
       L1_2 = C9F6C325569B7E07F
@@ -181,7 +178,7 @@ function L70_1(A0_2)
       L2_2()
     end
     if false == L1_2 then
-      L2_2 = A0_2[18]
+      L2_2 = self[18]
       L2_2 = L2_2.ownerName
       if "event_pos_stopper_gym_kusa_020" == L2_2 then
         L2_2 = CDCBFD50A277E546D

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CE3500B9833F1BB79"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "new"
+---@alias CE3500B9833F1BB79 main_ui_net_common_header_NetCommonUIHeader
 
-function L70_1(A0_2)
+---@class main_ui_net_common_header_NetCommonUIHeader : CE3500B9833F1BB79_prototype
+---@field prototype CE3500B9833F1BB79_prototype
+CE3500B9833F1BB79 = L15_1()
+function CE3500B9833F1BB79.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CE3500B9833F1BB79
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CE3500B9833F1BB79
+function CE3500B9833F1BB79.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CE3500B9833F1BB79"]
 L69_1 = "__name__"
 L70_1 = "CE3500B9833F1BB79"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "SC22C2773A68837D3"
-
-function L70_1()
+--- main.ui.net_common.header.NetCommonUIHeader.SceneLoad
+function CE3500B9833F1BB79.SC22C2773A68837D3()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -93,11 +84,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "S768600CE8B68B7F8"
-
-function L70_1()
+--- main.ui.net_common.header.NetCommonUIHeader.SceneUnLoad
+function CE3500B9833F1BB79.S768600CE8B68B7F8()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -123,11 +111,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "S1BB2C5F716B25F79"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_common.header.NetCommonUIHeader.SetHeaderText
+function CE3500B9833F1BB79.S1BB2C5F716B25F79(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.fC8CEF9EF
@@ -145,11 +130,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "S98E9A188014863D9"
-
-function L70_1(A0_2)
+--- main.ui.net_common.header.NetCommonUIHeader.SetHeaderTextStrBuf
+function CE3500B9833F1BB79.S98E9A188014863D9(A0_2)
   local L1_2, L2_2
   L1_2 = CE3500B9833F1BB79
   L1_2 = L1_2.S87BF45A6CDDB43C7
@@ -157,11 +139,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "S8C04BFC311CADB9A"
-
-function L70_1(A0_2)
+--- main.ui.net_common.header.NetCommonUIHeader.SetFooterVisible
+function CE3500B9833F1BB79.S8C04BFC311CADB9A(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -190,11 +169,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "S47C317032FDF35D4"
-
-function L70_1(A0_2)
+--- main.ui.net_common.header.NetCommonUIHeader.SetHeaderVisible
+function CE3500B9833F1BB79.S47C317032FDF35D4(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -223,11 +199,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "SBCFC4B2B846E63C3"
-
-function L70_1(A0_2)
+--- main.ui.net_common.header.NetCommonUIHeader.SetDrawOrder
+function CE3500B9833F1BB79.SBCFC4B2B846E63C3(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -255,11 +228,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "S748A3DCD68216D1D"
-
-function L70_1(A0_2)
+--- main.ui.net_common.header.NetCommonUIHeader.PlayAnime
+function CE3500B9833F1BB79.S748A3DCD68216D1D(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CE3500B9833F1BB79
   L1_2 = L1_2.S321B56DCAFF9479D
@@ -269,11 +239,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "SD001E9DBD24C4C97"
-
-function L70_1(A0_2)
+--- main.ui.net_common.header.NetCommonUIHeader.PlayFadeAnime
+function CE3500B9833F1BB79.SD001E9DBD24C4C97(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -314,11 +281,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "SDD88C054473B4E5A"
-
-function L70_1(A0_2)
+--- main.ui.net_common.header.NetCommonUIHeader.SetTimerVisible
+function CE3500B9833F1BB79.SDD88C054473B4E5A(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -347,11 +311,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "SE5650DD9C3847F1F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_common.header.NetCommonUIHeader.SetTimerText
+function CE3500B9833F1BB79.SE5650DD9C3847F1F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.fC8CEF9EF
@@ -369,11 +330,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "SED9C42D970C2E287"
-
-function L70_1(A0_2)
+--- main.ui.net_common.header.NetCommonUIHeader.SetTimerTextStrBuf
+function CE3500B9833F1BB79.SED9C42D970C2E287(A0_2)
   local L1_2, L2_2
   L1_2 = CE3500B9833F1BB79
   L1_2 = L1_2.S6C84288E9105648B
@@ -381,11 +339,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "S87BF45A6CDDB43C7"
-
-function L70_1(A0_2)
+--- main.ui.net_common.header.NetCommonUIHeader.ShowHeaderTextRequest
+function CE3500B9833F1BB79.S87BF45A6CDDB43C7(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -414,11 +369,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "S6C84288E9105648B"
-
-function L70_1(A0_2)
+--- main.ui.net_common.header.NetCommonUIHeader.ShowTimerTextRequest
+function CE3500B9833F1BB79.S6C84288E9105648B(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -447,11 +399,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "SEE2A2CBA4F67ACCF"
-
-function L70_1()
+--- main.ui.net_common.header.NetCommonUIHeader.IsLayoutExists
+function CE3500B9833F1BB79.SEE2A2CBA4F67ACCF()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -479,11 +428,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "S87C7668643F71AE5"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_common.header.NetCommonUIHeader.SetTextString
+function CE3500B9833F1BB79.S87C7668643F71AE5(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = nil
   L3_2 = c016374C1
@@ -504,11 +450,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "SBD9CBDAEDA6CD51A"
-
-function L70_1(A0_2)
+--- main.ui.net_common.header.NetCommonUIHeader.PushRequest
+function CE3500B9833F1BB79.SBD9CBDAEDA6CD51A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
   L2_2 = C1DB14DCC9D7634FA
@@ -524,11 +467,8 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "SDEA5E6606749E503"
-
-function L70_1()
+--- main.ui.net_common.header.NetCommonUIHeader.EndSequence
+function CE3500B9833F1BB79.SDEA5E6606749E503()
   local L0_2, L1_2, L2_2
   L0_2 = CE3500B9833F1BB79
   L0_2 = L0_2.SEE2A2CBA4F67ACCF
@@ -565,31 +505,26 @@ function L70_1()
   L0_2.SABFFEAC5EAF278A5 = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CE3500B9833F1BB79_prototype
+CE3500B9833F1BB79_prototype = L15_1()
+CE3500B9833F1BB79.prototype = CE3500B9833F1BB79_prototype
+--- main.ui.net_common.header.NetCommonUIHeader.Setup
+function CE3500B9833F1BB79_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = CE3500B9833F1BB79
   L3_2 = cECF00344
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L2_2.S321B56DCAFF9479D = L3_2
   L2_2 = CE3500B9833F1BB79
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2.S9C02C4EE56C5C78C = L3_2
   L2_2 = CE3500B9833F1BB79
   L2_2 = L2_2.S321B56DCAFF9479D
@@ -597,8 +532,8 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.f2A9CF058
   L4_2 = true
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F11CDEDD901912D4B
+  L3_2 = self
+  L2_2 = self.F11CDEDD901912D4B
   L2_2(L3_2)
   L2_2 = CE3500B9833F1BB79
   L2_2 = L2_2.S321B56DCAFF9479D
@@ -614,11 +549,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_common.header.NetCommonUIHeader.PreUpdate
+function CE3500B9833F1BB79_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = nil
   L3_2 = cECF00344
@@ -630,8 +562,8 @@ function L70_1(A0_2, A1_2)
   if L3_2 then
     return
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F11CDEDD901912D4B
+  L4_2 = self
+  L3_2 = self.F11CDEDD901912D4B
   L3_2(L4_2)
   L3_2 = CE3500B9833F1BB79
   L3_2 = L3_2.S055D984AADD915D0
@@ -692,11 +624,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3500B9833F1BB79"]["prototype"]
-L69_1 = "F11CDEDD901912D4B"
-
-function L70_1(A0_2)
+--- main.ui.net_common.header.NetCommonUIHeader.RequestUpdate
+function CE3500B9833F1BB79_prototype:F11CDEDD901912D4B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = 0
   L2_2 = CE3500B9833F1BB79

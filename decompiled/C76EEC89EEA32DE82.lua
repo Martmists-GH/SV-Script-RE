@@ -1,11 +1,8 @@
-L55_1 = _ENV
-L56_1 = "C76EEC89EEA32DE82"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C76EEC89EEA32DE82"]
-L69_1 = "new"
-L70_1 = {}
+---@alias C76EEC89EEA32DE82 main_ui_net_topmenu_ui_NetTopMenuUIMessage
+
+---@class main_ui_net_topmenu_ui_NetTopMenuUIMessage
+C76EEC89EEA32DE82 = L15_1()
+C76EEC89EEA32DE82.new = {}
 L68_1[L69_1] = L70_1
 L68_1 = "C76EEC89EEA32DE82"
 L69_1 = _ENV["C76EEC89EEA32DE82"]
@@ -13,11 +10,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C76EEC89EEA32DE82"]
 L69_1 = "__name__"
 L70_1 = "C76EEC89EEA32DE82"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76EEC89EEA32DE82"]
-L69_1 = "S9BE217E32E5DE9E3"
-
-function L70_1(A0_2)
+--- main.ui.net_topmenu.ui.NetTopMenuUIMessage.StartMessageID
+function C76EEC89EEA32DE82.S9BE217E32E5DE9E3(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C76EEC89EEA32DE82
   L1_2 = L1_2.S7D05D34C291DA69E
@@ -36,11 +30,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76EEC89EEA32DE82"]
-L69_1 = "S7D05D34C291DA69E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.net_topmenu.ui.NetTopMenuUIMessage.StartMessage
+function C76EEC89EEA32DE82.S7D05D34C291DA69E(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = C76EEC89EEA32DE82
   L3_2.S272AE16878B2E07D = A0_2
@@ -122,11 +113,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return A2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76EEC89EEA32DE82"]
-L69_1 = "SA64ABBE5B55E89E0"
-
-function L70_1()
+--- main.ui.net_topmenu.ui.NetTopMenuUIMessage.Wait
+function C76EEC89EEA32DE82.SA64ABBE5B55E89E0()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L0_2 = C76EEC89EEA32DE82
   L0_2 = L0_2.S94F6D8046156E35A
@@ -217,11 +205,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76EEC89EEA32DE82"]
-L69_1 = "S84E00A89DFBC380C"
-
-function L70_1()
+--- main.ui.net_topmenu.ui.NetTopMenuUIMessage.HideMessage
+function C76EEC89EEA32DE82.S84E00A89DFBC380C()
   local L0_2, L1_2
   L0_2 = CF1D9D619D324F233
   L0_2 = L0_2.S84E00A89DFBC380C
@@ -230,22 +215,16 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76EEC89EEA32DE82"]
-L69_1 = "S05CC708B4B258959"
-
-function L70_1()
+--- main.ui.net_topmenu.ui.NetTopMenuUIMessage.GetResultContext
+function C76EEC89EEA32DE82.S05CC708B4B258959()
   local L0_2, L1_2
   L0_2 = CF1D9D619D324F233
   L0_2 = L0_2.S036FE38553339EEE
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76EEC89EEA32DE82"]
-L69_1 = "S35D93EC78C27896E"
-
-function L70_1(A0_2)
+--- main.ui.net_topmenu.ui.NetTopMenuUIMessage.StartComMessageID
+function C76EEC89EEA32DE82.S35D93EC78C27896E(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C76EEC89EEA32DE82
   L1_2 = L1_2.SEEC764BD5D5780A3
@@ -264,11 +243,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76EEC89EEA32DE82"]
-L69_1 = "S35D94AC78C279DD2"
-
-function L70_1(A0_2)
+--- main.ui.net_topmenu.ui.NetTopMenuUIMessage.StartComMessageIx
+function C76EEC89EEA32DE82.S35D94AC78C279DD2(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C76EEC89EEA32DE82
   L1_2 = L1_2.SEEC764BD5D5780A3
@@ -287,11 +263,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C76EEC89EEA32DE82"]
-L69_1 = "SEEC764BD5D5780A3"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.net_topmenu.ui.NetTopMenuUIMessage.StartComMessage
+function C76EEC89EEA32DE82.SEEC764BD5D5780A3(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = C76EEC89EEA32DE82
   L3_2.S272AE16878B2E07D = A0_2

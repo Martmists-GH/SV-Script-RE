@@ -1,7 +1,8 @@
-L68_1 = _ENV["C255DA869B696FA31"]
-L69_1 = "new"
+---@alias C255DA869B696FA31 main_env_field_effect_FieldEffectSwitcher
 
-function L70_1(A0_2)
+---@class main_env_field_effect_FieldEffectSwitcher : C255DA869B696FA31_prototype
+---@field prototype C255DA869B696FA31_prototype
+function C255DA869B696FA31.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C255DA869B696FA31
@@ -17,11 +18,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C255DA869B696FA31"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C255DA869B696FA31
+function C255DA869B696FA31.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -37,11 +35,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C255DA869B696FA31"]
 L69_1 = "__name__"
 L70_1 = "C255DA869B696FA31"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C255DA869B696FA31"]
-L69_1 = "SECC11DA9529126F4"
-
-function L70_1(A0_2)
+--- main.env.field_effect.FieldEffectSwitcher.UnregistAreaEffect
+function C255DA869B696FA31.SECC11DA9529126F4(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C255DA869B696FA31
   L1_2 = L1_2.SC8223E31D3163519
@@ -51,11 +46,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C255DA869B696FA31"]
-L69_1 = "S69FBD24B346152EC"
-
-function L70_1()
+--- main.env.field_effect.FieldEffectSwitcher.S69FBD24B346152EC
+function C255DA869B696FA31.S69FBD24B346152EC()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L0_2 = C255DA869B696FA31
   L0_2 = L0_2.SC8223E31D3163519
@@ -162,11 +154,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C255DA869B696FA31"]
-L69_1 = "S486445C18EB4C83D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.env.field_effect.FieldEffectSwitcher.FieldEffectSwitcher
+function C255DA869B696FA31.S486445C18EB4C83D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = C255DA869B696FA31
   L3_2 = L3_2.SC8223E31D3163519
@@ -183,20 +172,15 @@ L68_1 = "C255DA869B696FA31"
 L68_1 = L25_1[L68_1]
 L69_1 = "S486445C18EB4C83D"
 L70_1 = _ENV["C255DA869B696FA31"]["S486445C18EB4C83D"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C255DA869B696FA31"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C255DA869B696FA31"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C255DA869B696FA31_prototype
+C255DA869B696FA31_prototype = L15_1()
+C255DA869B696FA31.prototype = C255DA869B696FA31_prototype
+--- main.env.field_effect.FieldEffectSwitcher.Setup
+function C255DA869B696FA31_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cCF781FB6
@@ -217,11 +201,8 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C255DA869B696FA31"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.env.field_effect.FieldEffectSwitcher.PreUpdate
+function C255DA869B696FA31_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2
   L2_2 = C255DA869B696FA31
   L2_2 = L2_2.SC8223E31D3163519

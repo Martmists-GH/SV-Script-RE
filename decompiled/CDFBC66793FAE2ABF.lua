@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "CDFBC66793FAE2ABF"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CDFBC66793FAE2ABF"]
-L69_1 = "new"
-
-function L70_1()
+---@class CDFBC66793FAE2ABF : CDFBC66793FAE2ABF_prototype
+---@field prototype CDFBC66793FAE2ABF_prototype
+CDFBC66793FAE2ABF = L15_1()
+function CDFBC66793FAE2ABF.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = CDFBC66793FAE2ABF
@@ -21,11 +16,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFBC66793FAE2ABF"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 CDFBC66793FAE2ABF
+function CDFBC66793FAE2ABF.super(A0_2)
   local L1_2, L2_2
   L1_2 = C80EC56A506C41E3A
   L1_2 = L1_2.super
@@ -34,11 +26,7 @@ function L70_1(A0_2)
   A0_2[2] = "Menu_PicnicContentsChecker"
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFBC66793FAE2ABF"]
-L69_1 = "__name__"
-L70_1 = "CDFBC66793FAE2ABF"
-L68_1[L69_1] = L70_1
+CDFBC66793FAE2ABF.__name__ = "CDFBC66793FAE2ABF"
 L68_1 = _ENV["CDFBC66793FAE2ABF"]
 L69_1 = "SE19D3F4E11FD2EC0"
 
@@ -142,16 +130,11 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFBC66793FAE2ABF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDFBC66793FAE2ABF"]["prototype"]
-L69_1 = "F00A5AAB9F764BE45"
-
-function L70_1(A0_2)
+---@class CDFBC66793FAE2ABF_prototype
+CDFBC66793FAE2ABF_prototype = L15_1()
+CDFBC66793FAE2ABF.prototype = CDFBC66793FAE2ABF_prototype
+--- CDFBC66793FAE2ABF.OnContentsChecker
+function CDFBC66793FAE2ABF_prototype:F00A5AAB9F764BE45()
   local L1_2, L2_2
   L1_2 = cDFF6D3D5
   L1_2 = L1_2.f6E019F84

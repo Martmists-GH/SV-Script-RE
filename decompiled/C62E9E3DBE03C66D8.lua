@@ -1,3 +1,5 @@
+---@class C62E9E3DBE03C66D8 : C62E9E3DBE03C66D8_prototype
+---@field prototype C62E9E3DBE03C66D8_prototype
 L55_1 = _ENV
 L56_1 = "C62E9E3DBE03C66D8"
 L57_1 = L15_1
@@ -45,36 +47,25 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C62E9E3DBE03C66D8"]
 L69_1 = "__name__"
 L70_1 = "C62E9E3DBE03C66D8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62E9E3DBE03C66D8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62E9E3DBE03C66D8"]["prototype"]
-L69_1 = "FA88D69D4604DBB0F"
-
-function L70_1(A0_2)
+---@class C62E9E3DBE03C66D8_prototype
+C62E9E3DBE03C66D8_prototype = L15_1()
+C62E9E3DBE03C66D8.prototype = C62E9E3DBE03C66D8_prototype
+--- C62E9E3DBE03C66D8.onReset
+function C62E9E3DBE03C66D8_prototype:FA88D69D4604DBB0F()
   local L1_2
-  A0_2[12] = false
+  self[12] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62E9E3DBE03C66D8"]["prototype"]
-L69_1 = "F019AC076276FE4F6"
-
-function L70_1(A0_2)
+--- C62E9E3DBE03C66D8.onEnter
+function C62E9E3DBE03C66D8_prototype:F019AC076276FE4F6()
   local L1_2
-  A0_2[12] = true
+  self[12] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62E9E3DBE03C66D8"]["prototype"]
-L69_1 = "F6D16D30FD1C59B4F"
-
-function L70_1(A0_2)
+--- C62E9E3DBE03C66D8.onLeave
+function C62E9E3DBE03C66D8_prototype:F6D16D30FD1C59B4F()
   local L1_2
-  A0_2[12] = false
+  self[12] = false
 end
 
 L68_1[L69_1] = L70_1

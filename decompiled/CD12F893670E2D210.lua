@@ -1,3 +1,5 @@
+---@class CD12F893670E2D210 : CD12F893670E2D210_prototype
+---@field prototype CD12F893670E2D210_prototype
 L55_1 = _ENV
 L56_1 = "CD12F893670E2D210"
 L57_1 = L15_1
@@ -36,32 +38,24 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD12F893670E2D210"]
 L69_1 = "__name__"
 L70_1 = "CD12F893670E2D210"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD12F893670E2D210"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD12F893670E2D210"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class CD12F893670E2D210_prototype
+CD12F893670E2D210_prototype = L15_1()
+CD12F893670E2D210.prototype = CD12F893670E2D210_prototype
+--- CD12F893670E2D210.Init
+function CD12F893670E2D210_prototype:F90BBC6B0190BF053(A1_2, A2_2)
   local L3_2, L4_2
-  A0_2[1] = A2_2
+  self[1] = A2_2
   L3_2 = c451059A3
   L3_2 = L3_2.f5776B6C6
   L4_2 = A1_2
   L3_2 = L3_2(L4_2)
-  A0_2[2] = L3_2
+  self[2] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD12F893670E2D210"]["prototype"]
-L69_1 = "F4EAE69991E1D052D"
-
-function L70_1(A0_2, A1_2)
+--- CD12F893670E2D210.F4EAE69991E1D052D
+function CD12F893670E2D210_prototype:F4EAE69991E1D052D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f900312E7
   L2_2 = L2_2(L3_2)
@@ -72,18 +66,18 @@ function L70_1(A0_2, A1_2)
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f4555D276
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L4_2 = A1_2
     L3_2 = A1_2.f68159593
-    L5_2 = A0_2[1]
-    L6_2 = A0_2[2]
+    L5_2 = self[1]
+    L6_2 = self[2]
     L3_2 = L3_2(L4_2, L5_2, L6_2)
-    A0_2[3] = L3_2
+    self[3] = L3_2
   end
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.f9D8BC178
   L3_2 = L3_2(L4_2)
@@ -92,7 +86,7 @@ function L70_1(A0_2, A1_2)
     return L3_2
   end
   L3_2 = false
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.f4ACBB933
   

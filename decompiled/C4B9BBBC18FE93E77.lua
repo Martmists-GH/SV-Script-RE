@@ -1,3 +1,7 @@
+---@alias CC90C590192970EF9 main_event_pokecen_recovery_PokecenCharacterAnimation
+
+---@class main_event_pokecen_recovery_PokecenCharacterAnimation : CC90C590192970EF9_prototype
+---@field prototype CC90C590192970EF9_prototype
 L55_1 = _ENV
 L56_1 = "C4B9BBBC18FE93E77"
 L57_1 = L15_1
@@ -40,11 +44,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4B9BBBC18FE93E77"]
 L69_1 = "__name__"
 L70_1 = "C4B9BBBC18FE93E77"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4B9BBBC18FE93E77"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CC90C590192970EF9_prototype
+CC90C590192970EF9_prototype = L15_1()
+CC90C590192970EF9.prototype = CC90C590192970EF9_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4B9BBBC18FE93E77"]["prototype"]
 L69_1 = _ENV["C4B9BBBC18FE93E77"]

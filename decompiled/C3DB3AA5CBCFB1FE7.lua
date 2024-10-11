@@ -1,3 +1,7 @@
+---@alias C3DB3AA5CBCFB1FE7 main_field_behaviour_scenario_main_champion_gym_koori_OutProhibitTable
+
+---@class main_field_behaviour_scenario_main_champion_gym_koori_OutProhibitTable : C3DB3AA5CBCFB1FE7_prototype
+---@field prototype C3DB3AA5CBCFB1FE7_prototype
 L55_1 = _ENV
 L56_1 = "C3DB3AA5CBCFB1FE7"
 L57_1 = L15_1
@@ -37,26 +41,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3DB3AA5CBCFB1FE7"]
 L69_1 = "__name__"
 L70_1 = "C3DB3AA5CBCFB1FE7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3DB3AA5CBCFB1FE7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3DB3AA5CBCFB1FE7"]["prototype"]
-L69_1 = "F9951A168A9F31DA7"
-
-function L70_1(A0_2)
+---@class C3DB3AA5CBCFB1FE7_prototype
+C3DB3AA5CBCFB1FE7_prototype = L15_1()
+C3DB3AA5CBCFB1FE7.prototype = C3DB3AA5CBCFB1FE7_prototype
+--- main.field.behaviour.scenario.main.champion.gym.koori.OutProhibitTable.getProhibitName
+function C3DB3AA5CBCFB1FE7_prototype:F9951A168A9F31DA7()
   local L1_2
   L1_2 = "course_out"
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3DB3AA5CBCFB1FE7"]["prototype"]
-L69_1 = "F824228AD713FE300"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.koori.OutProhibitTable.createProperty
+function C3DB3AA5CBCFB1FE7_prototype:F824228AD713FE300()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C7EA57C5A2FE7B13B
   L1_2 = L1_2.new

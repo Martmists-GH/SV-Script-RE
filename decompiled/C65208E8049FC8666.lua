@@ -1,3 +1,7 @@
+---@alias C65208E8049FC8666 main_ui_title_first_start_player_select_state_PlayerSelectUIState
+
+---@class main_ui_title_first_start_player_select_state_PlayerSelectUIState : C65208E8049FC8666_prototype
+---@field prototype C65208E8049FC8666_prototype
 L55_1 = _ENV
 L56_1 = "C65208E8049FC8666"
 L57_1 = L15_1
@@ -42,53 +46,45 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C65208E8049FC8666"]
 L69_1 = "__name__"
 L70_1 = "C65208E8049FC8666"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C65208E8049FC8666"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C65208E8049FC8666"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C65208E8049FC8666_prototype
+C65208E8049FC8666_prototype = L15_1()
+C65208E8049FC8666.prototype = C65208E8049FC8666_prototype
+--- main.ui.title.first_start.player_select.state.PlayerSelectUIState.Setup
+function C65208E8049FC8666_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CCA1882187FABCCCE
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = c2A84524D
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[5] = L2_2
-  A0_2[2] = false
+  self[5] = L2_2
+  self[2] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C65208E8049FC8666"]["prototype"]
-L69_1 = "FBE696F4C6924A789"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.player_select.state.PlayerSelectUIState.ActionNotifiedEvent
+function C65208E8049FC8666_prototype:FBE696F4C6924A789()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.f44B92869
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.f015A8108
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.fF88F34BC
   L5_2 = L1_2
   L6_2 = L2_2
   L3_2(L4_2, L5_2, L6_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F348FECE9730ECE5D
+  L4_2 = self
+  L3_2 = self.F348FECE9730ECE5D
   L5_2 = L1_2
   L3_2 = L3_2(L4_2, L5_2)
   if "End" ~= L2_2 then
@@ -96,8 +92,8 @@ function L70_1(A0_2)
     L4_2 = L3_2.F5C9B213EA3E5C7AF
     L4_2 = L4_2(L5_2)
     if "" ~= L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F348FECE9730ECE5D
+      L5_2 = self
+      L4_2 = self.F348FECE9730ECE5D
       L7_2 = L3_2
       L6_2 = L3_2.F5C9B213EA3E5C7AF
       L6_2, L7_2 = L6_2(L7_2)
@@ -109,56 +105,50 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C65208E8049FC8666"]["prototype"]
-L69_1 = "F706FCB31D5565CDB"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.player_select.state.PlayerSelectUIState.StartFlow
+function C65208E8049FC8666_prototype:F706FCB31D5565CDB()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.f83FE57AE
   L1_2(L2_2)
-  A0_2[2] = false
-  L2_2 = A0_2
-  L1_2 = A0_2.F348FECE9730ECE5D
+  self[2] = false
+  L2_2 = self
+  L1_2 = self.F348FECE9730ECE5D
   L3_2 = "view_player_select_00"
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = L1_2
   L1_2 = L1_2.FE2823709CB81AA04
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F348FECE9730ECE5D
+  L2_2 = self
+  L1_2 = self.F348FECE9730ECE5D
   L3_2 = "view_player_select_00"
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = L1_2
   L1_2 = L1_2.FA7C7BEFF8934C784
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F3250254222F75035
+  L4_2 = self
+  L5_2 = self.F3250254222F75035
   L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C65208E8049FC8666"]["prototype"]
-L69_1 = "FC8B881897EB6BA4C"
-
-function L70_1(A0_2)
+--- main.ui.title.first_start.player_select.state.PlayerSelectUIState.ReStart
+function C65208E8049FC8666_prototype:FC8B881897EB6BA4C()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CCA1882187FABCCCE
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC8B881897EB6BA4C
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.fF88F34BC
   L3_2 = "view_player_select_01"
   L4_2 = "ReStart"
   L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F348FECE9730ECE5D
+  L2_2 = self
+  L1_2 = self.F348FECE9730ECE5D
   L3_2 = "view_player_select_00"
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = L1_2
@@ -166,13 +156,10 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C65208E8049FC8666"]["prototype"]
-L69_1 = "F348FECE9730ECE5D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.title.first_start.player_select.state.PlayerSelectUIState.GetPlayerSelectUIBase
+function C65208E8049FC8666_prototype:F348FECE9730ECE5D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.f82A5B7C4
   L4_2 = A1_2

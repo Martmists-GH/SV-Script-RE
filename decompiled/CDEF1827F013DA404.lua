@@ -1,3 +1,7 @@
+---@alias CDEF1827F013DA404 main_ui_schoolmap_SchoolMapFBSDataManager
+
+---@class main_ui_schoolmap_SchoolMapFBSDataManager : CDEF1827F013DA404_prototype
+---@field prototype CDEF1827F013DA404_prototype
 L55_1 = _ENV
 L56_1 = "CDEF1827F013DA404"
 L57_1 = L15_1
@@ -100,16 +104,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CDEF1827F013DA404"]
 L69_1 = "__name__"
 L70_1 = "CDEF1827F013DA404"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDEF1827F013DA404"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDEF1827F013DA404"]["prototype"]
-L69_1 = "F59C1CF97D4FB009D"
-
-function L70_1(A0_2, A1_2)
+---@class CDEF1827F013DA404_prototype
+CDEF1827F013DA404_prototype = L15_1()
+CDEF1827F013DA404.prototype = CDEF1827F013DA404_prototype
+--- main.ui.schoolmap.SchoolMapFBSDataManager.CreateData
+function CDEF1827F013DA404_prototype:F59C1CF97D4FB009D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L16_1
   L3_2 = {}
@@ -130,26 +129,23 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDEF1827F013DA404"]["prototype"]
-L69_1 = "FA82C3B40C4666459"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.schoolmap.SchoolMapFBSDataManager.IsOpen
+function CDEF1827F013DA404_prototype:FA82C3B40C4666459(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[L4_2]
     L5_2 = L5_2.id
     if L5_2 == A1_2 then
       L5_2 = C10578806AC30DCA3
       L5_2 = L5_2.SBA6FF574C1C9AA09
       L5_2 = L5_2.h
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L6_2 = L6_2[L4_2]
       L6_2 = L6_2.flagName
       L5_2 = L5_2[L6_2]

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C9E831FC5F1224923"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C9E831FC5F1224923"]
-L69_1 = "new"
+---@alias C9E831FC5F1224923 main_field_gimmick_fixed_symbol_FixedSymbolManager
 
-function L70_1(A0_2)
+---@class main_field_gimmick_fixed_symbol_FixedSymbolManager : C9E831FC5F1224923_prototype
+---@field prototype C9E831FC5F1224923_prototype
+C9E831FC5F1224923 = L15_1()
+function C9E831FC5F1224923.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C9E831FC5F1224923
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C9E831FC5F1224923
+function C9E831FC5F1224923.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[12] = true
   
@@ -76,11 +70,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]
-L69_1 = "S056F8DEEE6B2F848"
-
-function L70_1()
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.S056F8DEEE6B2F848
+function C9E831FC5F1224923.S056F8DEEE6B2F848()
   local L0_2, L1_2
   L0_2 = C9E831FC5F1224923
   L0_2 = L0_2.S264F26F6894F3392
@@ -95,11 +86,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]
-L69_1 = "S4602BDD8FBD72954"
-
-function L70_1(A0_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.S4602BDD8FBD72954
+function C9E831FC5F1224923.S4602BDD8FBD72954(A0_2)
   local L1_2
   L1_2 = C9E831FC5F1224923
   L1_2 = L1_2.S264F26F6894F3392
@@ -117,11 +105,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]
-L69_1 = "S63602D5B3D406166"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.GetFixedSpawnData
+function C9E831FC5F1224923.S63602D5B3D406166(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   L3_2 = C9E831FC5F1224923
   L3_2 = L3_2.S264F26F6894F3392
@@ -417,11 +402,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]
-L69_1 = "S2339E61D9ABC132A"
-
-function L70_1(A0_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.NotifySpawnPoke
+function C9E831FC5F1224923.S2339E61D9ABC132A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C9E831FC5F1224923
   L1_2 = L1_2.S264F26F6894F3392
@@ -531,11 +513,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]
-L69_1 = "S7D3B24014A3AA791"
-
-function L70_1(A0_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.TriggerAction
+function C9E831FC5F1224923.S7D3B24014A3AA791(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C9E831FC5F1224923
   L1_2 = L1_2.S264F26F6894F3392
@@ -562,11 +541,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]
-L69_1 = "S8E9886771E33C002"
-
-function L70_1(A0_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.NotifyConsume
+function C9E831FC5F1224923.S8E9886771E33C002(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C9E831FC5F1224923
   L1_2 = L1_2.S264F26F6894F3392
@@ -588,11 +564,8 @@ function L70_1(A0_2)
   L2_2.object = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]
-L69_1 = "S35A002C75AAEAFD4"
-
-function L70_1(A0_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.RestoreSpawnable
+function C9E831FC5F1224923.S35A002C75AAEAFD4(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C9E831FC5F1224923
   L1_2 = L1_2.S264F26F6894F3392
@@ -614,11 +587,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]
-L69_1 = "S277556B3CAEC19F9"
-
-function L70_1(A0_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.RestoreSpawnableId
+function C9E831FC5F1224923.S277556B3CAEC19F9(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C9E831FC5F1224923
   L1_2 = L1_2.S264F26F6894F3392
@@ -640,11 +610,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]
-L69_1 = "S6F0A27B96704EFF4"
-
-function L70_1(A0_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.restoreSpawnable
+function C9E831FC5F1224923.S6F0A27B96704EFF4(A0_2)
   local L1_2
   L1_2 = A0_2.spawnable
   L1_2.spawnable = true
@@ -655,22 +622,17 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C9E831FC5F1224923_prototype
+C9E831FC5F1224923_prototype = L15_1()
+C9E831FC5F1224923.prototype = C9E831FC5F1224923_prototype
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.Setup
+function C9E831FC5F1224923_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = C9E831FC5F1224923
-  L2_2.S264F26F6894F3392 = A0_2
+  L2_2.S264F26F6894F3392 = self
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   
@@ -782,7 +744,7 @@ function L70_1(A0_2, A1_2)
   
   L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L8_2()
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
-  A0_2[3] = L7_2
+  self[3] = L7_2
   L7_2 = nil
   
   function L8_2()
@@ -810,7 +772,7 @@ function L70_1(A0_2, A1_2)
   end
   
   L8_2 = L8_2()
-  A0_2[4] = L8_2
+  self[4] = L8_2
   L8_2 = nil
   L9_2 = CB4F1139DDCD3B024
   L9_2 = L9_2.new
@@ -838,14 +800,14 @@ function L70_1(A0_2, A1_2)
   
   L10_2, L11_2, L12_2, L13_2 = L10_2()
   L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2)
-  A0_2[5] = L9_2
+  self[5] = L9_2
   L5_2.fetch = 200.0
   L5_2.release = 220.0
   L9_2 = C50A446621AC55B4D
   L9_2 = L9_2.new
   L10_2 = L55_1
-  L11_2 = A0_2
-  L12_2 = A0_2.FFE59AE930571EE41
+  L11_2 = self
+  L12_2 = self.FFE59AE930571EE41
   L10_2 = L10_2(L11_2, L12_2)
   L11_2 = L16_1
   L12_2 = {}
@@ -863,28 +825,28 @@ function L70_1(A0_2, A1_2)
   L12_2.filter = L13_2
   L11_2, L12_2, L13_2 = L11_2(L12_2)
   L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2)
-  A0_2[6] = L9_2
-  L9_2 = A0_2[6]
+  self[6] = L9_2
+  L9_2 = self[6]
   L10_2 = L9_2
   L9_2 = L9_2.F119A5D4210FCD553
   L11_2 = L55_1
-  L12_2 = A0_2
-  L13_2 = A0_2.F4F78ED661326F17B
+  L12_2 = self
+  L13_2 = self.F4F78ED661326F17B
   L11_2, L12_2, L13_2 = L11_2(L12_2, L13_2)
   L9_2(L10_2, L11_2, L12_2, L13_2)
-  L9_2 = A0_2[6]
+  L9_2 = self[6]
   L10_2 = L9_2
   L9_2 = L9_2.FE45C29332EA0C8F8
   L11_2 = L55_1
-  L12_2 = A0_2
-  L13_2 = A0_2.F70960BF2FF3BC30E
+  L12_2 = self
+  L13_2 = self.F70960BF2FF3BC30E
   L11_2, L12_2, L13_2 = L11_2(L12_2, L13_2)
   L9_2(L10_2, L11_2, L12_2, L13_2)
   L9_2 = C50A446621AC55B4D
   L9_2 = L9_2.new
   L10_2 = L55_1
-  L11_2 = A0_2
-  L12_2 = A0_2.FFE59AE930571EE41
+  L11_2 = self
+  L12_2 = self.FFE59AE930571EE41
   L10_2 = L10_2(L11_2, L12_2)
   L11_2 = L16_1
   L12_2 = {}
@@ -902,28 +864,28 @@ function L70_1(A0_2, A1_2)
   L12_2.filter = L13_2
   L11_2, L12_2, L13_2 = L11_2(L12_2)
   L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2)
-  A0_2[7] = L9_2
-  L9_2 = A0_2[7]
+  self[7] = L9_2
+  L9_2 = self[7]
   L10_2 = L9_2
   L9_2 = L9_2.F119A5D4210FCD553
   L11_2 = L55_1
-  L12_2 = A0_2
-  L13_2 = A0_2.F4F78ED661326F17B
+  L12_2 = self
+  L13_2 = self.F4F78ED661326F17B
   L11_2, L12_2, L13_2 = L11_2(L12_2, L13_2)
   L9_2(L10_2, L11_2, L12_2, L13_2)
-  L9_2 = A0_2[7]
+  L9_2 = self[7]
   L10_2 = L9_2
   L9_2 = L9_2.FE45C29332EA0C8F8
   L11_2 = L55_1
-  L12_2 = A0_2
-  L13_2 = A0_2.F70960BF2FF3BC30E
+  L12_2 = self
+  L13_2 = self.F70960BF2FF3BC30E
   L11_2, L12_2, L13_2 = L11_2(L12_2, L13_2)
   L9_2(L10_2, L11_2, L12_2, L13_2)
   L9_2 = C50A446621AC55B4D
   L9_2 = L9_2.new
   L10_2 = L55_1
-  L11_2 = A0_2
-  L12_2 = A0_2.FFE59AE930571EE41
+  L11_2 = self
+  L12_2 = self.FFE59AE930571EE41
   L10_2 = L10_2(L11_2, L12_2)
   L11_2 = L16_1
   L12_2 = {}
@@ -941,38 +903,38 @@ function L70_1(A0_2, A1_2)
   L12_2.filter = L13_2
   L11_2, L12_2, L13_2 = L11_2(L12_2)
   L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2)
-  A0_2[8] = L9_2
-  L9_2 = A0_2[8]
+  self[8] = L9_2
+  L9_2 = self[8]
   L10_2 = L9_2
   L9_2 = L9_2.F119A5D4210FCD553
   L11_2 = L55_1
-  L12_2 = A0_2
-  L13_2 = A0_2.F4F78ED661326F17B
+  L12_2 = self
+  L13_2 = self.F4F78ED661326F17B
   L11_2, L12_2, L13_2 = L11_2(L12_2, L13_2)
   L9_2(L10_2, L11_2, L12_2, L13_2)
-  L9_2 = A0_2[8]
+  L9_2 = self[8]
   L10_2 = L9_2
   L9_2 = L9_2.FE45C29332EA0C8F8
   L11_2 = L55_1
-  L12_2 = A0_2
-  L13_2 = A0_2.F70960BF2FF3BC30E
+  L12_2 = self
+  L13_2 = self.F70960BF2FF3BC30E
   L11_2, L12_2, L13_2 = L11_2(L12_2, L13_2)
   L9_2(L10_2, L11_2, L12_2, L13_2)
   L9_2 = L43_1.new
   L9_2 = L9_2()
-  A0_2[10] = L9_2
-  L9_2 = A0_2[1]
+  self[10] = L9_2
+  L9_2 = self[1]
   L10_2 = L9_2
   L9_2 = L9_2.f462C9B70
   L9_2 = L9_2(L10_2)
-  A0_2[9] = L9_2
+  self[9] = L9_2
   L9_2 = L58_1
   L10_2 = L55_1
-  L11_2 = A0_2
-  L12_2 = A0_2.F7B4ADDEC8C02411F
+  L11_2 = self
+  L12_2 = self.F7B4ADDEC8C02411F
   L10_2, L11_2, L12_2, L13_2 = L10_2(L11_2, L12_2)
   L9_2 = L9_2(L10_2, L11_2, L12_2, L13_2)
-  A0_2.FCC0999D298720F78 = L9_2
+  self.FCC0999D298720F78 = L9_2
   L9_2 = C05D9E556B496A3DF
   L9_2 = L9_2.SC8223E31D3163519
   L9_2 = L9_2[7]
@@ -985,13 +947,13 @@ function L70_1(A0_2, A1_2)
   L13_2.owner = true
   L13_2.callbackFunc = true
   L12_2.__fields__ = L13_2
-  L12_2.owner = A0_2
+  L12_2.owner = self
   
   function L13_2(A0_3, ...)
     local L1_3, L2_3, L3_3
     L1_3 = L55_1
-    L2_3 = A0_2
-    L3_3 = A0_2.FCEEC75BD80FA95B4
+    L2_3 = self
+    L3_3 = self.FCEEC75BD80FA95B4
     L1_3 = L1_3(L2_3, L3_3)
     L2_3, L3_3 = ...
     return L1_3(L2_3, L3_3)
@@ -1002,29 +964,26 @@ function L70_1(A0_2, A1_2)
   L9_2(L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.PreUpdate
+function C9E831FC5F1224923_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L2_2 = L2_2 + 1
-  A0_2[11] = L2_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F65E8D939D491F1A2
+  self[11] = L2_2
+  L3_2 = self
+  L2_2 = self.F65E8D939D491F1A2
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = C9E831FC5F1224923
   L3_2 = L3_2.SB408FA696B233310
   if L2_2 == L3_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FCC0999D298720F78
+    L3_2 = self
+    L2_2 = self.FCC0999D298720F78
     L4_2 = A1_2
     L2_2(L3_2, L4_2)
   end
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = C9E831FC5F1224923
   L3_2 = L3_2.SB408FA696B233310
   L4_2 = L2_2 < 0
@@ -1047,15 +1006,12 @@ function L70_1(A0_2, A1_2)
   
   L5_2 = L5_2()
   if L5_2 then
-    A0_2[11] = 0
+    self[11] = 0
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "F7B4ADDEC8C02411F"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.setupUpdate
+function C9E831FC5F1224923_prototype:F7B4ADDEC8C02411F(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C63C3DCC1650BEEC9
   L2_2 = L2_2.SF1C9BF636E0F4F06
@@ -1066,30 +1022,27 @@ function L70_1(A0_2, A1_2)
   L2_2 = C63C3DCC1650BEEC9
   L2_2 = L2_2.SAF4951C56BF56429
   L2_2 = L2_2()
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L2_2 = L58_1
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F88399B7430AEF6DF
+  L4_2 = self
+  L5_2 = self.F88399B7430AEF6DF
   L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2.F65E8D939D491F1A2 = L2_2
+  self.F65E8D939D491F1A2 = L2_2
   L2_2 = L58_1
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F7991CC21125517C9
+  L4_2 = self
+  L5_2 = self.F7991CC21125517C9
   L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2.FCC0999D298720F78 = L2_2
+  self.FCC0999D298720F78 = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "F88399B7430AEF6DF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.stateUpdate
+function C9E831FC5F1224923_prototype:F88399B7430AEF6DF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L2_2 = L2_2.h
   while nil ~= L2_2 do
     L3_2 = L2_2.item
@@ -1125,7 +1078,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2()
   if L3_2 then
     L3_2 = false
-    L4_2 = A0_2[10]
+    L4_2 = self[10]
     L4_2 = L4_2.h
     while nil ~= L4_2 do
       L5_2 = L4_2.item
@@ -1155,25 +1108,22 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "F7991CC21125517C9"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.mainUpdate
+function C9E831FC5F1224923_prototype:F7991CC21125517C9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.FEB6685558281F194
   L2_2(L3_2)
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.FEB6685558281F194
   L2_2(L3_2)
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.FEB6685558281F194
   L2_2(L3_2)
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L2_2 = L2_2.h
   while nil ~= L2_2 do
     L3_2 = L2_2.item
@@ -1235,22 +1185,19 @@ function L70_1(A0_2, A1_2)
       ::lbl_68::
     end
     if L4_2 then
-      L8_2 = A0_2
-      L7_2 = A0_2.F9723989CB4503C7C
+      L8_2 = self
+      L7_2 = self.F9723989CB4503C7C
       L9_2 = L3_2
       L7_2(L8_2, L9_2)
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "FFE59AE930571EE41"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.createFixedSymbolPoint
+function C9E831FC5F1224923_prototype:FFE59AE930571EE41(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F7544A09C1D534B4D
+  L3_2 = self
+  L2_2 = self.F7544A09C1D534B4D
   L5_2 = A1_2
   L4_2 = A1_2.f5F362BFD
   L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2 = L4_2(L5_2)
@@ -1341,7 +1288,7 @@ function L70_1(A0_2, A1_2)
     L16_2 = L10_2[0]
     L12_2 = L12_2(L13_2, L14_2, L15_2, L16_2)
     if L3_2 then
-      L13_2 = A0_2[5]
+      L13_2 = self[5]
       L14_2 = L13_2
       L13_2 = L13_2.FAE4467BF439FC61C
       L15_2 = L12_2.lotteryKey
@@ -1358,20 +1305,17 @@ function L70_1(A0_2, A1_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "F4F78ED661326F17B"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.onAddPoint
+function C9E831FC5F1224923_prototype:F4F78ED661326F17B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F767C390F7CBDF153
+  L3_2 = self
+  L2_2 = self.F767C390F7CBDF153
   L4_2 = A1_2[0]
   L4_2 = L4_2.id
   L2_2 = L2_2(L3_2, L4_2)
   if nil == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F8F75EF5804803059
+    L4_2 = self
+    L3_2 = self.F8F75EF5804803059
     L5_2 = A1_2
     L3_2 = L3_2(L4_2, L5_2)
     L2_2 = L3_2
@@ -1387,8 +1331,8 @@ function L70_1(A0_2, A1_2)
       end
       L5_2 = L4_2[L3_2]
       L3_2 = L3_2 + 1
-      L7_2 = A0_2
-      L6_2 = A0_2.F7B707F990D633E7D
+      L7_2 = self
+      L6_2 = self.F7B707F990D633E7D
       L8_2 = L5_2
       L6_2(L7_2, L8_2)
     end
@@ -1421,14 +1365,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "F70960BF2FF3BC30E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.onRemovePoint
+function C9E831FC5F1224923_prototype:F70960BF2FF3BC30E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F767C390F7CBDF153
+  L3_2 = self
+  L2_2 = self.F767C390F7CBDF153
   L4_2 = A1_2[0]
   L4_2 = L4_2.id
   L2_2 = L2_2(L3_2, L4_2)
@@ -1472,11 +1413,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "F8F75EF5804803059"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.addFixedSymbolGroup
+function C9E831FC5F1224923_prototype:F8F75EF5804803059(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -1492,7 +1430,7 @@ function L70_1(A0_2, A1_2)
     end
     L5_2 = A1_2[L3_2]
     L3_2 = L3_2 + 1
-    L6_2 = A0_2[3]
+    L6_2 = self[3]
     L7_2 = L6_2
     L6_2 = L6_2.FF0D0D32B74A744AA
     L8_2 = L5_2.tableKey
@@ -1523,8 +1461,8 @@ function L70_1(A0_2, A1_2)
       L10_2.spawnable = L8_2
       L10_2.point = L5_2
       L9_2 = L9_2(L10_2)
-      L11_2 = A0_2
-      L10_2 = A0_2.F90026C26D7BBF046
+      L11_2 = self
+      L10_2 = self.F90026C26D7BBF046
       L12_2 = L9_2
       L10_2(L11_2, L12_2)
       L11_2 = L2_2
@@ -1553,7 +1491,7 @@ function L70_1(A0_2, A1_2)
   L6_2.id = L7_2
   L6_2.infos = L2_2
   L5_2 = L5_2(L6_2)
-  L6_2 = A0_2[10]
+  L6_2 = self[10]
   L7_2 = L6_2
   L6_2 = L6_2.add
   L8_2 = L5_2
@@ -1561,13 +1499,10 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "F9723989CB4503C7C"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.removeFixedSymbolGroup
+function C9E831FC5F1224923_prototype:F9723989CB4503C7C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L3_2 = L2_2
   L2_2 = L2_2.remove
   L4_2 = A1_2
@@ -1595,11 +1530,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "F90026C26D7BBF046"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.repopUpdate
+function C9E831FC5F1224923_prototype:F90026C26D7BBF046(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = A1_2.save
   L3_2 = L2_2.data
@@ -1617,11 +1549,11 @@ function L70_1(A0_2, A1_2)
   L4_2 = A1_2.save
   L5_2 = A1_2.point
   L6_2 = A1_2.generation
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
   if L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FA2FA5EF3526111F9
+    L4_2 = self
+    L3_2 = self.FA2FA5EF3526111F9
     L5_2 = A1_2
     L3_2(L4_2, L5_2)
   end
@@ -1631,11 +1563,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "FA2FA5EF3526111F9"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.createSymbolData
+function C9E831FC5F1224923_prototype:FA2FA5EF3526111F9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C37E1E82B8B645845
   L2_2 = L2_2.SF8F2D826E2B641F8
@@ -1646,21 +1575,18 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.SB275F0AF49F0437A
   L3_2 = A1_2.save
   L4_2 = A1_2.point
-  L5_2 = A0_2[3]
-  L6_2 = A0_2[5]
-  L7_2 = A0_2[4]
+  L5_2 = self[3]
+  L6_2 = self[5]
+  L7_2 = self[4]
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F7B707F990D633E7D
+  L3_2 = self
+  L2_2 = self.F7B707F990D633E7D
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "F7B707F990D633E7D"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.createGemEffect
+function C9E831FC5F1224923_prototype:F7B707F990D633E7D(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = nil
   L3_2 = A1_2.point
@@ -1736,13 +1662,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "FCEEC75BD80FA95B4"
-
-function L70_1(A0_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.onDateChange
+function C9E831FC5F1224923_prototype:FCEEC75BD80FA95B4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2 = L1_2.h
   while nil ~= L1_2 do
     L2_2 = L1_2.item
@@ -1756,19 +1679,16 @@ function L70_1(A0_2)
       end
       L5_2 = L4_2[L3_2]
       L3_2 = L3_2 + 1
-      L7_2 = A0_2
-      L6_2 = A0_2.F90026C26D7BBF046
+      L7_2 = self
+      L6_2 = self.F90026C26D7BBF046
       L8_2 = L5_2
       L6_2(L7_2, L8_2)
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "F767C390F7CBDF153"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.findFixedSymbolGroup
+function C9E831FC5F1224923_prototype:F767C390F7CBDF153(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C635BBC1473B1BEF8
   L2_2 = L2_2.SEF3A3B6876841F5A
@@ -1787,11 +1707,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "F454731D02C4CE22C"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.F454731D02C4CE22C
+function C9E831FC5F1224923_prototype:F454731D02C4CE22C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C9E831FC5F1224923
   L2_2 = L2_2.S264F26F6894F3392
@@ -1819,11 +1736,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "F850E6B825D21F387"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.findFixedSymbolObject
+function C9E831FC5F1224923_prototype:F850E6B825D21F387(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = C9E831FC5F1224923
   L2_2 = L2_2.S264F26F6894F3392
@@ -1864,11 +1778,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9E831FC5F1224923"]["prototype"]
-L69_1 = "F7544A09C1D534B4D"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.fixed_symbol.FixedSymbolManager.F7544A09C1D534B4D
+function C9E831FC5F1224923_prototype:F7544A09C1D534B4D(A1_2)
   local L2_2
   if nil == A1_2 then
     L2_2 = 0

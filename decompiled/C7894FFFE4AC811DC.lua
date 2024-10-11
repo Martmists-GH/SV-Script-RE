@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C7894FFFE4AC811DC"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C7894FFFE4AC811DC"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7894FFFE4AC811DC"]
-L69_1 = "__name__"
-L70_1 = "C7894FFFE4AC811DC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7894FFFE4AC811DC"]
-L69_1 = "SD77C5AF0F6DA6426"
+---@alias C7894FFFE4AC811DC main_ui_title_newgame__NewGame_NewGame_Fields_
 
-function L70_1(A0_2, A1_2)
+---@class main_ui_title_newgame__NewGame_NewGame_Fields_
+C7894FFFE4AC811DC = L15_1()
+C7894FFFE4AC811DC.new = {}
+C7894FFFE4AC811DC.__name__ = "C7894FFFE4AC811DC"
+--- main.ui.title.newgame._NewGame.NewGame_Fields_.GetStateBehaviorStartFlow
+function C7894FFFE4AC811DC.SD77C5AF0F6DA6426(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = A0_2
   L2_2 = A0_2.fD4E64AB7

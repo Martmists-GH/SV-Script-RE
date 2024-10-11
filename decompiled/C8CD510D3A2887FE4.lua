@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C8CD510D3A2887FE4"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "__name__"
-L70_1 = "C8CD510D3A2887FE4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S6F5A172F92B2B6E3"
+---@alias C8CD510D3A2887FE4 main_event_command_BattleCommand
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class main_event_command_BattleCommand
+C8CD510D3A2887FE4 = L15_1()
+C8CD510D3A2887FE4.new = {}
+C8CD510D3A2887FE4.__name__ = "C8CD510D3A2887FE4"
+--- main.event.command.BattleCommand.S6F5A172F92B2B6E3
+function C8CD510D3A2887FE4.S6F5A172F92B2B6E3(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   
   function L4_2()
@@ -58,11 +49,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S4D805526D04B788C"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.BattleCommand.CallTrainerBattle
+function C8CD510D3A2887FE4.S4D805526D04B788C(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L5_2 = C8CD510D3A2887FE4
   L5_2 = L5_2.SD6E344187E39D60F
@@ -97,11 +85,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "SD6E344187E39D60F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.BattleCommand.CallTrainerBattleCustomize
+function C8CD510D3A2887FE4.SD6E344187E39D60F(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2
   L5_2 = CA705BDBE7ADE7BAC
   L5_2 = L5_2.SCA7329942774246E
@@ -580,11 +565,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L24_2(L25_2, L26_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S71B47289C5C60FF4"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.command.BattleCommand.S71B47289C5C60FF4
+function C8CD510D3A2887FE4.S71B47289C5C60FF4(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2
   L5_2 = CA705BDBE7ADE7BAC
   L5_2 = L5_2.SCA7329942774246E
@@ -1058,11 +1040,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L21_2(L22_2, L23_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S11A5F55667E4AA93"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.event.command.BattleCommand.CallWildBattle
+function C8CD510D3A2887FE4.S11A5F55667E4AA93(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L8_2 = CDCBFD50A277E546D
   L8_2 = L8_2.S0C6378C0E23B592D
@@ -1128,11 +1107,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   return L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "SF2802BC05A9206B2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.event.command.BattleCommand.CallWildBattleCustomize
+function C8CD510D3A2887FE4.SF2802BC05A9206B2(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2
   L6_2 = CA705BDBE7ADE7BAC
   L6_2 = L6_2.SCA7329942774246E
@@ -1517,11 +1493,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L18_2(L19_2, L20_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S5F15C4B8496229BC"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.BattleCommand.commonEventBattleResultProcess
+function C8CD510D3A2887FE4.S5F15C4B8496229BC(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C889F6553EDFCD011
   L2_2 = L2_2.SFCE091807173F6E9
@@ -1584,11 +1557,8 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "SB61B33CBA13DDFDB"
-
-function L70_1()
+--- main.event.command.BattleCommand.commonEventBattleStartProcess
+function C8CD510D3A2887FE4.SB61B33CBA13DDFDB()
   local L0_2, L1_2, L2_2
   L0_2 = C5E0C0AB970B47D0E
   L0_2 = L0_2.SA767EC33E3F4DF93
@@ -1620,22 +1590,16 @@ function L70_1()
   L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S0B7CE9DE1E4FD330"
-
-function L70_1()
+--- main.event.command.BattleCommand.NoLoseBattleCommon
+function C8CD510D3A2887FE4.S0B7CE9DE1E4FD330()
   local L0_2, L1_2
   L0_2 = CD081B219DEE96EEF
   L0_2 = L0_2.SA3F85A17B10891E4
   L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "SC0EA8D85A76B2EC2"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.BattleCommand.CallBattleLoseEvent
+function C8CD510D3A2887FE4.SC0EA8D85A76B2EC2(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   if nil == A1_2 then
     A1_2 = true
@@ -1743,19 +1707,13 @@ function L70_1(A0_2, A1_2, A2_2)
   L13_2(L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S9504721324DC78A7"
-
-function L70_1()
+--- main.event.command.BattleCommand.TutorialCapture
+function C8CD510D3A2887FE4.S9504721324DC78A7()
   local L0_2, L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S2A4820A32714F21A"
-
-function L70_1(A0_2)
+--- main.event.command.BattleCommand.LoseMapChange
+function C8CD510D3A2887FE4.S2A4820A32714F21A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = A0_2.place
   if 0 == L1_2 then
@@ -2082,11 +2040,8 @@ function L70_1(A0_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S769421E275155292"
-
-function L70_1()
+--- main.event.command.BattleCommand.LoseFadeOut
+function C8CD510D3A2887FE4.S769421E275155292()
   local L0_2, L1_2, L2_2
   L0_2 = C07E4F1BF071B0460
   L0_2 = L0_2.S218E2A14A790D265
@@ -2099,11 +2054,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "SE037D280D0AA4011"
-
-function L70_1()
+--- main.event.command.BattleCommand.LoseFadeIn
+function C8CD510D3A2887FE4.SE037D280D0AA4011()
   local L0_2, L1_2, L2_2
   L0_2 = C07E4F1BF071B0460
   L0_2 = L0_2.S2D4F4BC40511B560
@@ -2112,11 +2064,8 @@ function L70_1()
   L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S514A8842971C978F"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.BattleCommand.LoseMessage
+function C8CD510D3A2887FE4.S514A8842971C978F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.S12FD376DC11712C8
@@ -2191,11 +2140,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "SE99ACCABF9830F94"
-
-function L70_1(A0_2)
+--- main.event.command.BattleCommand.SE99ACCABF9830F94
+function C8CD510D3A2887FE4.SE99ACCABF9830F94(A0_2)
   local L1_2, L2_2
   L1_2 = A0_2.place
   if 0 == L1_2 then
@@ -2218,11 +2164,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S5808449DF4076BF1"
-
-function L70_1()
+--- main.event.command.BattleCommand.LoadMessagePokecen
+function C8CD510D3A2887FE4.S5808449DF4076BF1()
   local L0_2, L1_2, L2_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -2255,11 +2198,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S2ED8A18C9DD2B997"
-
-function L70_1()
+--- main.event.command.BattleCommand.LoadMessageHome
+function C8CD510D3A2887FE4.S2ED8A18C9DD2B997()
   local L0_2, L1_2, L2_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -2284,11 +2224,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "SB7A81DD3EED4E921"
-
-function L70_1()
+--- main.event.command.BattleCommand.SB7A81DD3EED4E921
+function C8CD510D3A2887FE4.SB7A81DD3EED4E921()
   local L0_2, L1_2, L2_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -2321,11 +2258,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "SB7A81AD3EED4E408"
-
-function L70_1()
+--- main.event.command.BattleCommand.SB7A81AD3EED4E408
+function C8CD510D3A2887FE4.SB7A81AD3EED4E408()
   local L0_2, L1_2, L2_2
   L0_2 = C9B54BC04DD492B6D
   L0_2 = L0_2.S12FD376DC11712C8
@@ -2352,11 +2286,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S6DE28230ECBB8BA4"
-
-function L70_1(A0_2)
+--- main.event.command.BattleCommand.SetCamera
+function C8CD510D3A2887FE4.S6DE28230ECBB8BA4(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = C9F6C325569B7E07F
   L1_2 = L1_2.S78BBE9C0C6452E1E
@@ -2432,11 +2363,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S0FDF334F0705697C"
-
-function L70_1(A0_2)
+--- main.event.command.BattleCommand.S0FDF334F0705697C
+function C8CD510D3A2887FE4.S0FDF334F0705697C(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = A0_2.place
   if 26 == L1_2 then
@@ -2455,11 +2383,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S5B0C89C93950DC17"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.BattleCommand.SaveRestartInfo
+function C8CD510D3A2887FE4.S5B0C89C93950DC17(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = CE66BC04D5613CDEA
   L4_2 = L4_2.S9F896AB8A185E250
@@ -2489,11 +2414,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S7A2381BCC6DC9A06"
-
-function L70_1()
+--- main.event.command.BattleCommand.IsGetBadge
+function C8CD510D3A2887FE4.S7A2381BCC6DC9A06()
   local L0_2, L1_2
   L0_2 = CD834D40ADE3577B3
   L0_2 = L0_2.SE04FE1B8806D9FAA
@@ -2515,11 +2437,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S39D84EF2E8417452"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.BattleCommand.SetBattleSetupData
+function C8CD510D3A2887FE4.S39D84EF2E8417452(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A0_2 then
     return
@@ -2532,11 +2451,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "SC0CDFD36B01ADC65"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.BattleCommand.SetBattleSetupDataCore
+function C8CD510D3A2887FE4.SC0CDFD36B01ADC65(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   
   function L3_2(A0_3, A1_3)
@@ -2718,11 +2634,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L8_2(L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S9F47B45BCB164282"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.BattleCommand.IsDoubleBattle
+function C8CD510D3A2887FE4.S9F47B45BCB164282(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = c682D8E4F
   L2_2 = L2_2.fEF94D11D
@@ -2791,11 +2704,8 @@ function L70_1(A0_2, A1_2)
   return L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "SC647C1A582943553"
-
-function L70_1(A0_2)
+--- main.event.command.BattleCommand.IsTrainerRun
+function C8CD510D3A2887FE4.SC647C1A582943553(A0_2)
   local L1_2
   if 1 == A0_2 then
     L1_2 = false
@@ -2812,11 +2722,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8CD510D3A2887FE4"]
-L69_1 = "S6D33ECE234023273"
-
-function L70_1(A0_2)
+--- main.event.command.BattleCommand.S6D33ECE234023273
+function C8CD510D3A2887FE4.S6D33ECE234023273(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = A0_2[2]
   L2_2 = L1_2

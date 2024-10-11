@@ -1,3 +1,7 @@
+---@alias C11DD84659E21A495 main_ui_net_btl_state_machine_NetworkBattleStatePokemonSelect
+
+---@class main_ui_net_btl_state_machine_NetworkBattleStatePokemonSelect : C11DD84659E21A495_prototype
+---@field prototype C11DD84659E21A495_prototype
 L55_1 = _ENV
 L56_1 = "C11DD84659E21A495"
 L57_1 = L15_1
@@ -39,24 +43,19 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C11DD84659E21A495"]
 L69_1 = "__name__"
 L70_1 = "C11DD84659E21A495"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C11DD84659E21A495"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C11DD84659E21A495"]["prototype"]
-L69_1 = "F5BE3D38738EE3C24"
-
-function L70_1(A0_2)
+---@class C11DD84659E21A495_prototype
+C11DD84659E21A495_prototype = L15_1()
+C11DD84659E21A495.prototype = C11DD84659E21A495_prototype
+--- main.ui.net_btl.state_machine.NetworkBattleStatePokemonSelect.OnEntry
+function C11DD84659E21A495_prototype:F5BE3D38738EE3C24()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.F2FBB004A3763CEBD
   L3_2 = 4
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[9] = L1_2
-  L1_2 = A0_2[9]
+  self[9] = L1_2
+  L1_2 = self[9]
   L2_2 = L1_2
   L1_2 = L1_2.F51234A27614E7B10
   L3_2 = false
@@ -64,14 +63,11 @@ function L70_1(A0_2)
   L1_2 = CA118B2F4670BB208
   L1_2 = L1_2.new
   L1_2 = L1_2()
-  A0_2[8] = L1_2
+  self[8] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C11DD84659E21A495"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStatePokemonSelect.OnUpdate
+function C11DD84659E21A495_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.S5E67FD00348A0A28
@@ -80,8 +76,8 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.SDE3248A50E86E62B
   L3_2 = true
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F7FCD521F5E86703B
+  L3_2 = self
+  L2_2 = self.F7FCD521F5E86703B
   L2_2(L3_2)
   L2_2 = CB70DB0084AFDD907
   L2_2 = L2_2.S84E00A89DFBC380C
@@ -90,7 +86,7 @@ function L70_1(A0_2, A1_2)
   L2_2.SCE1BD20791ABA6F1 = 0
   L2_2 = C99FCBF1B467C7135
   L2_2.S3E31BF48EF49943B = true
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.F28EAF3B3AA178E3E
   L4_2 = CE86CDE507FE0E511
@@ -99,17 +95,14 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C11DD84659E21A495"]["prototype"]
-L69_1 = "F7FCD521F5E86703B"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStatePokemonSelect.Flow_PokemonSelect
+function C11DD84659E21A495_prototype:F7FCD521F5E86703B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L1_2 = CA118B2F4670BB208
   L1_2 = L1_2.new
   L1_2 = L1_2()
-  A0_2[8] = L1_2
-  L1_2 = A0_2[8]
+  self[8] = L1_2
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.F9337AE9F018B3C29
   L1_2(L2_2)
@@ -118,17 +111,17 @@ function L70_1(A0_2)
     L1_2 = L1_2.S760DAE4C5371A78E
     L2_2 = nil
     L1_2(L2_2)
-    L1_2 = A0_2[8]
+    L1_2 = self[8]
     L2_2 = L1_2
     L1_2 = L1_2.F6D50AC04933CA6C6
     L1_2 = L1_2(L2_2)
-    A0_2[10] = L1_2
-    L1_2 = A0_2[10]
+    self[10] = L1_2
+    L1_2 = self[10]
     if nil ~= L1_2 then
       break
     end
   end
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.F579924D2B57A5EBF
   L3_2 = L16_1
@@ -164,7 +157,7 @@ function L70_1(A0_2)
   L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
   while true do
-    L1_2 = A0_2[10]
+    L1_2 = self[10]
     L2_2 = L1_2
     L1_2 = L1_2.F167E4332DBAF7CD2
     L1_2 = L1_2(L2_2)
@@ -179,7 +172,7 @@ function L70_1(A0_2)
   L1_2 = c7F7A5192
   L1_2 = L1_2.f101D811F
   L1_2 = L1_2()
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L3_2 = L2_2
   L2_2 = L2_2.FD0A4663432A526F2
   L2_2 = L2_2(L3_2)
@@ -304,12 +297,12 @@ function L70_1(A0_2)
     L6_2 = nil
     L5_2(L6_2)
   end
-  L5_2 = A0_2[10]
+  L5_2 = self[10]
   L6_2 = L5_2
   L5_2 = L5_2.F2C02645014D5A2A5
   L5_2(L6_2)
   while true do
-    L5_2 = A0_2[10]
+    L5_2 = self[10]
     L6_2 = L5_2
     L5_2 = L5_2.F9AE210ECF2957F35
     L5_2 = L5_2(L6_2)
@@ -321,12 +314,12 @@ function L70_1(A0_2)
     L6_2 = nil
     L5_2(L6_2)
   end
-  L5_2 = A0_2[8]
+  L5_2 = self[8]
   L6_2 = L5_2
   L5_2 = L5_2.FD014229B3B926D03
   L5_2(L6_2)
   while true do
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     L6_2 = L5_2
     L5_2 = L5_2.F9D7588710454A953
     L5_2 = L5_2(L6_2)
@@ -340,17 +333,14 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C11DD84659E21A495"]["prototype"]
-L69_1 = "FEB16F27ECF5C4C90"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStatePokemonSelect.OnForceEnd
+function C11DD84659E21A495_prototype:FEB16F27ECF5C4C90()
   local L1_2, L2_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.F6306ED5DEFBE26CF
   L1_2(L2_2)
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.F33A780AFB8757817
   L1_2 = L1_2(L2_2)
@@ -358,11 +348,11 @@ function L70_1(A0_2)
     L1_2 = false
     return L1_2
   end
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.FD014229B3B926D03
   L1_2(L2_2)
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.F9D7588710454A953
   L1_2 = L1_2(L2_2)

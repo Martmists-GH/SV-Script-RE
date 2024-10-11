@@ -1,3 +1,5 @@
+---@class C37B9278ABA68A3D3 : C37B9278ABA68A3D3_prototype
+---@field prototype C37B9278ABA68A3D3_prototype
 L55_1 = _ENV
 L56_1 = "C37B9278ABA68A3D3"
 L57_1 = L15_1
@@ -47,27 +49,22 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C37B9278ABA68A3D3"]
 L69_1 = "__name__"
 L70_1 = "C37B9278ABA68A3D3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37B9278ABA68A3D3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37B9278ABA68A3D3"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C37B9278ABA68A3D3_prototype
+C37B9278ABA68A3D3_prototype = L15_1()
+C37B9278ABA68A3D3.prototype = C37B9278ABA68A3D3_prototype
+--- C37B9278ABA68A3D3.Setup
+function C37B9278ABA68A3D3_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = C9EF8FCA0AEE75664
   L3_2 = L3_2.prototype
   L3_2 = L3_2.F7C68FEDB79AB6396
-  L4_2 = A0_2
+  L4_2 = self
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FEF31A40F361A213A
-  L5_2 = A0_2[2]
+  L4_2 = self
+  L3_2 = self.FEF31A40F361A213A
+  L5_2 = self[2]
   
   function L6_2(A0_3)
     local L1_3, L2_3, L3_3, L4_3, L5_3, L6_3, L7_3, L8_3, L9_3, L10_3, L11_3, L12_3, L13_3, L14_3, L15_3, L16_3, L17_3, L18_3, L19_3
@@ -205,20 +202,17 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C37B9278ABA68A3D3"]["prototype"]
-L69_1 = "FB7494AC6ADF54952"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C37B9278ABA68A3D3.FB7494AC6ADF54952
+function C37B9278ABA68A3D3_prototype:FB7494AC6ADF54952(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   if nil == L3_2 then
     L3_2 = L26_1.new
     return L3_2()
   end
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   L4_2 = L47_1.tnull
@@ -231,7 +225,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = L26_1.new
     return L4_2()
   end
-  L4_2 = A0_2[9]
+  L4_2 = self[9]
   L4_2 = L4_2.h
   L4_2 = L4_2[A1_2]
   L5_2 = L47_1.tnull

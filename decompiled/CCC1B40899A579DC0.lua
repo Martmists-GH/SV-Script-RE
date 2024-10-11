@@ -1,3 +1,7 @@
+---@alias CCC1B40899A579DC0 main_env_weather__WeatherSchedule_IWeatherTable
+
+---@class main_env_weather__WeatherSchedule_IWeatherTable : CCC1B40899A579DC0_prototype
+---@field prototype CCC1B40899A579DC0_prototype
 L55_1 = _ENV
 L56_1 = "CCC1B40899A579DC0"
 L57_1 = L15_1
@@ -65,25 +69,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCC1B40899A579DC0"]
 L69_1 = "__name__"
 L70_1 = "CCC1B40899A579DC0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC1B40899A579DC0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC1B40899A579DC0"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+---@class CCC1B40899A579DC0_prototype
+CCC1B40899A579DC0_prototype = L15_1()
+CCC1B40899A579DC0.prototype = CCC1B40899A579DC0_prototype
+--- main.env.weather._WeatherSchedule.IWeatherTable.Update
+function CCC1B40899A579DC0_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L2_2 = L2_2.duration
   if L2_2 > 0 then
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = L2_2.duration
     L3_2 = L3_2 - A1_2
     L2_2.duration = L3_2
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     L3_2 = L3_2.duration
     L3_2 = L3_2 <= 0
     return L3_2
@@ -92,39 +91,33 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC1B40899A579DC0"]["prototype"]
-L69_1 = "F75615303D498B47A"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.env.weather._WeatherSchedule.IWeatherTable.Sync
+function CCC1B40899A579DC0_prototype:F75615303D498B47A(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L58_1
   L5_2 = A1_2.type
   L4_2 = L4_2(L5_2)
   L3_2.type = L4_2
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L58_1
   L5_2 = A1_2.duration
   L4_2 = L4_2(L5_2)
   L3_2.duration = L4_2
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L4_2 = L58_1
   L5_2 = A2_2.type
   L4_2 = L4_2(L5_2)
   L3_2.type = L4_2
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L4_2 = L58_1
   L5_2 = A2_2.duration
   L4_2 = L4_2(L5_2)
   L3_2.duration = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCC1B40899A579DC0"]["prototype"]
-L69_1 = "FA8903D7755CE1F09"
-
-function L70_1(A0_2)
+--- main.env.weather._WeatherSchedule.IWeatherTable.FA8903D7755CE1F09
+function CCC1B40899A579DC0_prototype:FA8903D7755CE1F09()
   local L1_2
   L1_2 = nil
   return L1_2

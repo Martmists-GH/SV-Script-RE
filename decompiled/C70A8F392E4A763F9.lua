@@ -1,3 +1,7 @@
+---@alias C7B027B11B33E9DEA main_field_behaviour_scenario_main_champion_gym_esper_Gym_esper_reward
+
+---@class main_field_behaviour_scenario_main_champion_gym_esper_Gym_esper_reward : C7B027B11B33E9DEA_prototype
+---@field prototype C7B027B11B33E9DEA_prototype
 L55_1 = _ENV
 L56_1 = "C70A8F392E4A763F9"
 L57_1 = L15_1
@@ -13,11 +17,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C70A8F392E4A763F9"]
 L69_1 = "__name__"
 L70_1 = "C70A8F392E4A763F9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C70A8F392E4A763F9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C7B027B11B33E9DEA_prototype
+C7B027B11B33E9DEA_prototype = L15_1()
+C7B027B11B33E9DEA.prototype = C7B027B11B33E9DEA_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C70A8F392E4A763F9"]["prototype"]
 L69_1 = _ENV["C70A8F392E4A763F9"]

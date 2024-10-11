@@ -1,3 +1,7 @@
+---@alias CD8256035370BE8F6 main_ajito_system_AjitoExclusionSettings
+
+---@class main_ajito_system_AjitoExclusionSettings : CD8256035370BE8F6_prototype
+---@field prototype CD8256035370BE8F6_prototype
 L68_1 = _ENV["CD8256035370BE8F6"]
 L69_1 = "super"
 
@@ -15,44 +19,39 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD8256035370BE8F6"]
 L69_1 = "__name__"
 L70_1 = "CD8256035370BE8F6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD8256035370BE8F6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD8256035370BE8F6"]["prototype"]
-L69_1 = "FF63038921D0742CE"
-
-function L70_1(A0_2)
+---@class CD8256035370BE8F6_prototype
+CD8256035370BE8F6_prototype = L15_1()
+CD8256035370BE8F6.prototype = CD8256035370BE8F6_prototype
+--- main.ajito.system.AjitoExclusionSettings.Enable
+function CD8256035370BE8F6_prototype:FF63038921D0742CE()
   local L1_2, L2_2, L3_2, L4_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F4960A15A7C48ECA3
+  L2_2 = self
+  L1_2 = self.F4960A15A7C48ECA3
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F73E72B2FCE4A0C5E
+  L2_2 = self
+  L1_2 = self.F73E72B2FCE4A0C5E
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F19C853419A03FD9B
+  L2_2 = self
+  L1_2 = self.F19C853419A03FD9B
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FCF540202DB998E60
+  L2_2 = self
+  L1_2 = self.FCF540202DB998E60
   L3_2 = true
   L1_2(L2_2, L3_2)
   L1_2 = C7E63B1C6A22F0EAB
   L1_2 = L1_2.S6A2250906B096E09
   L2_2 = C7124A45F44943684
   L2_2 = L2_2.SE0A2B14DA406E0E8
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = false
   L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F569F449031B10812
+  L2_2 = self
+  L1_2 = self.F569F449031B10812
   L3_2 = true
   L1_2(L2_2, L3_2)
   L1_2 = CA412F80CB1F1E083
@@ -71,45 +70,42 @@ function L70_1(A0_2)
   L1_2 = L1_2.FBFEBD268F15274EC
   L3_2 = false
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FE48FFEFB8866E8D5
+  L2_2 = self
+  L1_2 = self.FE48FFEFB8866E8D5
   L3_2 = true
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD8256035370BE8F6"]["prototype"]
-L69_1 = "FD59E5ED5F9F2AAE3"
-
-function L70_1(A0_2)
+--- main.ajito.system.AjitoExclusionSettings.Disable
+function CD8256035370BE8F6_prototype:FD59E5ED5F9F2AAE3()
   local L1_2, L2_2, L3_2, L4_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F4960A15A7C48ECA3
+  L2_2 = self
+  L1_2 = self.F4960A15A7C48ECA3
   L3_2 = false
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F73E72B2FCE4A0C5E
+  L2_2 = self
+  L1_2 = self.F73E72B2FCE4A0C5E
   L3_2 = false
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F19C853419A03FD9B
+  L2_2 = self
+  L1_2 = self.F19C853419A03FD9B
   L3_2 = false
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FCF540202DB998E60
+  L2_2 = self
+  L1_2 = self.FCF540202DB998E60
   L3_2 = false
   L1_2(L2_2, L3_2)
   L1_2 = C7E63B1C6A22F0EAB
   L1_2 = L1_2.S6A2250906B096E09
   L2_2 = C7124A45F44943684
   L2_2 = L2_2.SE0A2B14DA406E0E8
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = true
   L1_2(L2_2, L3_2, L4_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F569F449031B10812
+  L2_2 = self
+  L1_2 = self.F569F449031B10812
   L3_2 = false
   L1_2(L2_2, L3_2)
   L1_2 = CA412F80CB1F1E083
@@ -128,17 +124,14 @@ function L70_1(A0_2)
   L1_2 = L1_2.FBFEBD268F15274EC
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FE48FFEFB8866E8D5
+  L2_2 = self
+  L1_2 = self.FE48FFEFB8866E8D5
   L3_2 = false
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD8256035370BE8F6"]["prototype"]
-L69_1 = "F4960A15A7C48ECA3"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.AjitoExclusionSettings.exclusionEncount
+function CD8256035370BE8F6_prototype:F4960A15A7C48ECA3(A1_2)
   local L2_2, L3_2, L4_2
   if A1_2 then
     L2_2 = C4EE52E49562F8277
@@ -180,26 +173,20 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD8256035370BE8F6"]["prototype"]
-L69_1 = "F73E72B2FCE4A0C5E"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.AjitoExclusionSettings.exclusionKeepOut
+function CD8256035370BE8F6_prototype:F73E72B2FCE4A0C5E(A1_2)
   local L2_2, L3_2
   if A1_2 then
     L2_2 = CCE2FD6CD29A37AF9
     L2_2 = L2_2.SBD01D8B487DB524A
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L2_2(L3_2)
     return
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD8256035370BE8F6"]["prototype"]
-L69_1 = "FE48FFEFB8866E8D5"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.AjitoExclusionSettings.exclusionCliffReturn
+function CD8256035370BE8F6_prototype:FE48FFEFB8866E8D5(A1_2)
   local L2_2, L3_2
   if A1_2 then
     L2_2 = C42D1CDB112422850
@@ -217,11 +204,8 @@ function L70_1(A0_2, A1_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD8256035370BE8F6"]["prototype"]
-L69_1 = "F19C853419A03FD9B"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.AjitoExclusionSettings.exclusionFieldUI
+function CD8256035370BE8F6_prototype:F19C853419A03FD9B(A1_2)
   local L2_2, L3_2, L4_2
   if A1_2 then
     L2_2 = C05C7D15ECE099E1D
@@ -241,30 +225,24 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD8256035370BE8F6"]["prototype"]
-L69_1 = "FCF540202DB998E60"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.AjitoExclusionSettings.exclusionProhibit
+function CD8256035370BE8F6_prototype:FCF540202DB998E60(A1_2)
   local L2_2, L3_2
   if A1_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F7C68FEDB79AB6396
     L2_2(L3_2)
     return
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F2682B19B6C78D0E2
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD8256035370BE8F6"]["prototype"]
-L69_1 = "F569F449031B10812"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.AjitoExclusionSettings.narrowDownStreamingField
+function CD8256035370BE8F6_prototype:F569F449031B10812(A1_2)
   local L2_2, L3_2
   if A1_2 then
     L2_2 = CEA49ACA52B2A0AE0

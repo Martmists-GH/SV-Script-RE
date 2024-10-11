@@ -1,3 +1,7 @@
+---@alias C3242419A7D2BF4C1 main_event_general_myhome_MyHomeMother
+
+---@class main_event_general_myhome_MyHomeMother : C3242419A7D2BF4C1_prototype
+---@field prototype C3242419A7D2BF4C1_prototype
 L55_1 = _ENV
 L56_1 = "C3242419A7D2BF4C1"
 L57_1 = L15_1
@@ -45,36 +49,25 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3242419A7D2BF4C1"]
 L69_1 = "__name__"
 L70_1 = "C3242419A7D2BF4C1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3242419A7D2BF4C1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3242419A7D2BF4C1"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C3242419A7D2BF4C1_prototype
+C3242419A7D2BF4C1_prototype = L15_1()
+C3242419A7D2BF4C1.prototype = C3242419A7D2BF4C1_prototype
+--- main.event.general.myhome.MyHomeMother.preStart
+function C3242419A7D2BF4C1_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3242419A7D2BF4C1"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.general.myhome.MyHomeMother.postStart
+function C3242419A7D2BF4C1_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3242419A7D2BF4C1"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.myhome.MyHomeMother.mainBody
+function C3242419A7D2BF4C1_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S50FC461CBDCA4B95
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2.ownerName
   L3_2 = "Player"
   L4_2 = "look"
@@ -82,21 +75,21 @@ function L70_1(A0_2)
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S50FC461CBDCA4B95
   L2_2 = "Player"
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L3_2 = L3_2.ownerName
   L4_2 = "look"
   L1_2(L2_2, L3_2, L4_2)
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S38F4FBAC61A2A586
   L2_2 = "Player"
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L3_2 = L3_2.ownerName
   L4_2 = 1.0
   L5_2 = false
   L1_2(L2_2, L3_2, L4_2, L5_2)
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S38F4FBAC61A2A586
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2.ownerName
   L3_2 = "Player"
   L4_2 = 1.0
@@ -168,7 +161,7 @@ function L70_1(A0_2)
       L6_2(L7_2, L8_2)
       L6_2 = C9B54BC04DD492B6D
       L6_2 = L6_2.S3EDC50DEB344C642
-      L7_2 = A0_2[18]
+      L7_2 = self[18]
       L7_2 = L7_2.ownerName
       L8_2 = "a_t01_i02_mama_02_01"
       L9_2 = "a_t01_i01"
@@ -232,7 +225,7 @@ function L70_1(A0_2)
       L7_2(L8_2, L9_2)
       L7_2 = C9B54BC04DD492B6D
       L7_2 = L7_2.S3EDC50DEB344C642
-      L8_2 = A0_2[18]
+      L8_2 = self[18]
       L8_2 = L8_2.ownerName
       L9_2 = "a_t01_i02_mama_02_02"
       L10_2 = "a_t01_i01"
@@ -283,7 +276,7 @@ function L70_1(A0_2)
         L7_2(L8_2, L9_2)
         L7_2 = C9B54BC04DD492B6D
         L7_2 = L7_2.S3EDC50DEB344C642
-        L8_2 = A0_2[18]
+        L8_2 = self[18]
         L8_2 = L8_2.ownerName
         L9_2 = "a_t01_i02_mama_01_01"
         L10_2 = "a_t01_i01"
@@ -303,7 +296,7 @@ function L70_1(A0_2)
         L7_2(L8_2, L9_2)
         L7_2 = C9B54BC04DD492B6D
         L7_2 = L7_2.S3EDC50DEB344C642
-        L8_2 = A0_2[18]
+        L8_2 = self[18]
         L8_2 = L8_2.ownerName
         L9_2 = "a_t01_i02_mama_01_02"
         L10_2 = "a_t01_i01"
@@ -349,7 +342,7 @@ function L70_1(A0_2)
     if true == L3_2 then
       L3_2 = C9B54BC04DD492B6D
       L3_2 = L3_2.S3EDC50DEB344C642
-      L4_2 = A0_2[18]
+      L4_2 = self[18]
       L4_2 = L4_2.ownerName
       L5_2 = "msg_common_gameover_mama_01"
       L6_2 = "pokemoncenter"
@@ -360,7 +353,7 @@ function L70_1(A0_2)
       L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
       L3_2 = CDCBFD50A277E546D
       L3_2 = L3_2.SF2A52007F22C8572
-      L4_2 = A0_2[18]
+      L4_2 = self[18]
       L4_2 = L4_2.ownerName
       L3_2(L4_2)
       L3_2 = CDCBFD50A277E546D
@@ -392,7 +385,7 @@ function L70_1(A0_2)
       L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
       L3_2 = C9B54BC04DD492B6D
       L3_2 = L3_2.S3EDC50DEB344C642
-      L4_2 = A0_2[18]
+      L4_2 = self[18]
       L4_2 = L4_2.ownerName
       L5_2 = "msg_common_gameover_mama_02"
       L6_2 = "pokemoncenter"
@@ -404,7 +397,7 @@ function L70_1(A0_2)
     else
       L3_2 = C9B54BC04DD492B6D
       L3_2 = L3_2.S3EDC50DEB344C642
-      L4_2 = A0_2[18]
+      L4_2 = self[18]
       L4_2 = L4_2.ownerName
       L5_2 = "msg_common_mama_01"
       L6_2 = "pokemoncenter"
@@ -415,7 +408,7 @@ function L70_1(A0_2)
       L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
       L3_2 = CDCBFD50A277E546D
       L3_2 = L3_2.SF2A52007F22C8572
-      L4_2 = A0_2[18]
+      L4_2 = self[18]
       L4_2 = L4_2.ownerName
       L3_2(L4_2)
       L3_2 = CDCBFD50A277E546D
@@ -426,7 +419,7 @@ function L70_1(A0_2)
   else
     L3_2 = C9B54BC04DD492B6D
     L3_2 = L3_2.S3EDC50DEB344C642
-    L4_2 = A0_2[18]
+    L4_2 = self[18]
     L4_2 = L4_2.ownerName
     L5_2 = "msg_common_mama_01"
     L6_2 = "pokemoncenter"
@@ -437,7 +430,7 @@ function L70_1(A0_2)
     L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
     L3_2 = CDCBFD50A277E546D
     L3_2 = L3_2.SF2A52007F22C8572
-    L4_2 = A0_2[18]
+    L4_2 = self[18]
     L4_2 = L4_2.ownerName
     L3_2(L4_2)
     L3_2 = CDCBFD50A277E546D
@@ -447,7 +440,7 @@ function L70_1(A0_2)
   end
   L3_2 = CDCBFD50A277E546D
   L3_2 = L3_2.SDA9FAC3B251BA47A
-  L4_2 = A0_2[18]
+  L4_2 = self[18]
   L4_2 = L4_2.ownerName
   L3_2(L4_2)
   L3_2 = CDCBFD50A277E546D
@@ -456,27 +449,18 @@ function L70_1(A0_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3242419A7D2BF4C1"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.myhome.MyHomeMother.mainBodyFinish
+function C3242419A7D2BF4C1_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3242419A7D2BF4C1"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.myhome.MyHomeMother.preEnd
+function C3242419A7D2BF4C1_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3242419A7D2BF4C1"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.general.myhome.MyHomeMother.postEnd
+function C3242419A7D2BF4C1_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

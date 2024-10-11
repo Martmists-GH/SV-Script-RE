@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C38BAD817C90AC35C"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C38BAD817C90AC35C"]
-L69_1 = "new"
+---@alias C38BAD817C90AC35C main_battle_ui_BattleUiTwoChoices
 
-function L70_1()
+---@class main_battle_ui_BattleUiTwoChoices : C38BAD817C90AC35C_prototype
+---@field prototype C38BAD817C90AC35C_prototype
+C38BAD817C90AC35C = L15_1()
+function C38BAD817C90AC35C.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C38BAD817C90AC35C
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38BAD817C90AC35C"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C38BAD817C90AC35C
+function C38BAD817C90AC35C.super(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -66,11 +60,7 @@ function L70_1(A0_2)
   A0_2[1] = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38BAD817C90AC35C"]
-L69_1 = "__name__"
-L70_1 = "C38BAD817C90AC35C"
-L68_1[L69_1] = L70_1
+C38BAD817C90AC35C.__name__ = "C38BAD817C90AC35C"
 L68_1 = _ENV["C38BAD817C90AC35C"]
 L69_1 = "S385504EFF7E842C3"
 
@@ -93,26 +83,21 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38BAD817C90AC35C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38BAD817C90AC35C"]["prototype"]
-L69_1 = "F4FAFEA784668D159"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+---@class C38BAD817C90AC35C_prototype
+C38BAD817C90AC35C_prototype = L15_1()
+C38BAD817C90AC35C.prototype = C38BAD817C90AC35C_prototype
+--- main.battle.ui.BattleUiTwoChoices.StartContextMenu
+function C38BAD817C90AC35C_prototype:F4FAFEA784668D159(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A5_2 then
     A5_2 = false
   end
-  A0_2[1] = A1_2
-  A0_2[2] = A3_2
-  A0_2[3] = false
-  L6_2 = A0_2[2]
+  self[1] = A1_2
+  self[2] = A3_2
+  self[3] = false
+  L6_2 = self[2]
   if 5 == L6_2 then
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[12]
     L7_2 = L6_2
     L6_2 = L6_2.F1C8C5DC1D88DB12C
@@ -128,8 +113,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L8_2 = c8C3BF576
     L8_2 = L8_2.fC8CEF9EF
     L9_2 = "btl_app"
-    L10_2 = A0_2[4]
-    L11_2 = A0_2[2]
+    L10_2 = self[4]
+    L11_2 = self[2]
     L10_2 = L10_2[L11_2]
     L8_2, L9_2, L10_2, L11_2 = L8_2(L9_2, L10_2)
     L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
@@ -139,8 +124,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L8_2 = c8C3BF576
     L8_2 = L8_2.fC8CEF9EF
     L9_2 = "btl_app"
-    L10_2 = A0_2[5]
-    L11_2 = A0_2[2]
+    L10_2 = self[5]
+    L11_2 = self[2]
     L10_2 = L10_2[L11_2]
     L8_2, L9_2, L10_2, L11_2 = L8_2(L9_2, L10_2)
     L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
@@ -155,11 +140,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38BAD817C90AC35C"]["prototype"]
-L69_1 = "FD014229B3B926D03"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiTwoChoices.Close
+function C38BAD817C90AC35C_prototype:FD014229B3B926D03()
   local L1_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S75C6A1A02973ADBA
@@ -168,21 +150,18 @@ function L70_1(A0_2)
     L1_2 = CF1D9D619D324F233
     L1_2 = L1_2.S02F8612F11FC630D
     L1_2()
-    A0_2[3] = true
+    self[3] = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38BAD817C90AC35C"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiTwoChoices.Update
+function C38BAD817C90AC35C_prototype:FEB6685558281F194()
   local L1_2, L2_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   if nil ~= L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     if 5 == L1_2 then
-      L1_2 = A0_2[1]
+      L1_2 = self[1]
       L1_2 = L1_2[12]
       L2_2 = L1_2
       L1_2 = L1_2.F2E326F24E76E54FC
@@ -191,22 +170,19 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38BAD817C90AC35C"]["prototype"]
-L69_1 = "F2E218A7B9B949ADA"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiTwoChoices.IsEndContextMenu
+function C38BAD817C90AC35C_prototype:F2E218A7B9B949ADA()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   if L1_2 then
     L1_2 = true
     return L1_2
   end
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   if 5 == L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     if nil ~= L1_2 then
-      L1_2 = A0_2[1]
+      L1_2 = self[1]
       L1_2 = L1_2[12]
       L2_2 = L1_2
       L1_2 = L1_2.F97B60CDDE5285CA4
@@ -227,17 +203,14 @@ function L70_1(A0_2)
   return L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C38BAD817C90AC35C"]["prototype"]
-L69_1 = "FEBA648C90FEDEC6F"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiTwoChoices.IsSelectedYes
+function C38BAD817C90AC35C_prototype:FEBA648C90FEDEC6F()
   local L1_2, L2_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   if 5 == L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     if nil ~= L1_2 then
-      L1_2 = A0_2[1]
+      L1_2 = self[1]
       L1_2 = L1_2[12]
       L2_2 = L1_2
       L1_2 = L1_2.F97B60CDDE5285CA4
@@ -253,7 +226,7 @@ function L70_1(A0_2)
       end
     end
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   if not L1_2 then
     L1_2 = CF1D9D619D324F233
     L1_2 = L1_2.S036FE38553339EEE

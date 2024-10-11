@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C4351D76C51EEF752"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C4351D76C51EEF752"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4351D76C51EEF752"]
-L69_1 = "__name__"
-L70_1 = "C4351D76C51EEF752"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4351D76C51EEF752"]
-L69_1 = "S54D82E924D2D26F4"
+---@alias C4351D76C51EEF752 main_event_command_LegendPokemonCommand
 
-function L70_1(A0_2, A1_2)
+---@class main_event_command_LegendPokemonCommand
+C4351D76C51EEF752 = L15_1()
+C4351D76C51EEF752.new = {}
+C4351D76C51EEF752.__name__ = "C4351D76C51EEF752"
+--- main.event.command.LegendPokemonCommand.Move
+function C4351D76C51EEF752.S54D82E924D2D26F4(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C4351D76C51EEF752
   L2_2 = L2_2.SA4654B8864847097
@@ -29,11 +20,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4351D76C51EEF752"]
-L69_1 = "SA4654B8864847097"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.LegendPokemonCommand.ObjMove
+function C4351D76C51EEF752.SA4654B8864847097(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C4351D76C51EEF752
   L2_2 = L2_2.S70F660A4B161CAD5
@@ -61,11 +49,8 @@ function L70_1(A0_2, A1_2)
   L6_2(L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4351D76C51EEF752"]
-L69_1 = "SA64ABBE5B55E89E0"
-
-function L70_1(A0_2)
+--- main.event.command.LegendPokemonCommand.Wait
+function C4351D76C51EEF752.SA64ABBE5B55E89E0(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C4351D76C51EEF752
   L1_2 = L1_2.S2EEBFA34E787CC9F
@@ -76,11 +61,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4351D76C51EEF752"]
-L69_1 = "S2EEBFA34E787CC9F"
-
-function L70_1(A0_2)
+--- main.event.command.LegendPokemonCommand.ObjWait
+function C4351D76C51EEF752.S2EEBFA34E787CC9F(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C4351D76C51EEF752
   L1_2 = L1_2.S70F660A4B161CAD5
@@ -94,11 +76,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4351D76C51EEF752"]
-L69_1 = "S0F8C16FF983851E3"
-
-function L70_1(A0_2)
+--- main.event.command.LegendPokemonCommand.MovePath
+function C4351D76C51EEF752.S0F8C16FF983851E3(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C4351D76C51EEF752
   L1_2 = L1_2.SDF0CFE98FE580000
@@ -109,11 +88,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4351D76C51EEF752"]
-L69_1 = "SDF0CFE98FE580000"
-
-function L70_1(A0_2)
+--- main.event.command.LegendPokemonCommand.ObjMovePath
+function C4351D76C51EEF752.SDF0CFE98FE580000(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C4351D76C51EEF752
   L1_2 = L1_2.S70F660A4B161CAD5
@@ -127,11 +103,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4351D76C51EEF752"]
-L69_1 = "S70F660A4B161CAD5"
-
-function L70_1(A0_2)
+--- main.event.command.LegendPokemonCommand.GetLegendPokemonBehavior
+function C4351D76C51EEF752.S70F660A4B161CAD5(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if nil == A0_2 then
     L1_2 = nil

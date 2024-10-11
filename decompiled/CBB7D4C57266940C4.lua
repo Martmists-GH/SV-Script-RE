@@ -1,3 +1,5 @@
+---@class CBB7D4C57266940C4 : CBB7D4C57266940C4_prototype
+---@field prototype CBB7D4C57266940C4_prototype
 L55_1 = _ENV
 L56_1 = "CBB7D4C57266940C4"
 L57_1 = L15_1
@@ -42,19 +44,13 @@ L69_1 = "__name__"
 L70_1 = "CBB7D4C57266940C4"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CBB7D4C57266940C4"]
-L69_1 = "__interfaces__"
-L70_1 = {}
-L68_1 = _ENV["CBB7D4C57266940C4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBB7D4C57266940C4"]["prototype"]
-L69_1 = "FFF0CED4809A01400"
-
-function L70_1(A0_2)
+L69_1 = "__inte---@class CBB7D4C57266940C4_prototype
+CBB7D4C57266940C4_prototype = L15_1()
+CBB7D4C57266940C4.prototype = CBB7D4C57266940C4_prototype
+--- CBB7D4C57266940C4.CheckFinish
+function CBB7D4C57266940C4_prototype:FFF0CED4809A01400()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.F7C449750894121B6
   L1_2 = L1_2(L2_2)
@@ -68,7 +64,7 @@ function L70_1(A0_2)
     L2_2 = true
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F55C6870D40306E2A
   L2_2 = L2_2(L3_2)
@@ -76,7 +72,7 @@ function L70_1(A0_2)
     L3_2 = true
     return L3_2
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.F624850472E7C907F
   L3_2 = L3_2(L4_2)
@@ -100,7 +96,7 @@ function L70_1(A0_2)
   L9_2 = L6_2 - L9_2
   L10_2 = L2_2[3]
   L10_2 = L7_2 - L10_2
-  L11_2 = A0_2[2]
+  L11_2 = self[2]
   L13_2 = L3_2
   L12_2 = L3_2.fCA247E7A
   L14_2 = L11_2[1]
@@ -113,7 +109,7 @@ function L70_1(A0_2)
   L17_2 = L9_2 - L13_2
   L18_2 = L10_2 - L14_2
   L15_2, L16_2, L17_2 = L15_2(L16_2, L17_2, L18_2)
-  L18_2 = A0_2[4]
+  L18_2 = self[4]
   L19_2 = CBB7D4C57266940C4
   L19_2 = L19_2.S765C2F750AFA102B
   L20_2 = L18_2[1]

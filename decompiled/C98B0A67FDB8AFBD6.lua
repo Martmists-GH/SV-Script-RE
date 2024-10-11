@@ -1,3 +1,7 @@
+---@alias C98B0A67FDB8AFBD6 main_ui_emote_view_EmoteUIFieldView
+
+---@class main_ui_emote_view_EmoteUIFieldView : C98B0A67FDB8AFBD6_prototype
+---@field prototype C98B0A67FDB8AFBD6_prototype
 L55_1 = _ENV
 L56_1 = "C98B0A67FDB8AFBD6"
 L57_1 = L15_1
@@ -623,30 +627,25 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C98B0A67FDB8AFBD6"]
 L69_1 = "__name__"
 L70_1 = "C98B0A67FDB8AFBD6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C98B0A67FDB8AFBD6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C98B0A67FDB8AFBD6"]["prototype"]
-L69_1 = "FE2823709CB81AA04"
-
-function L70_1(A0_2)
+---@class C98B0A67FDB8AFBD6_prototype
+C98B0A67FDB8AFBD6_prototype = L15_1()
+C98B0A67FDB8AFBD6.prototype = C98B0A67FDB8AFBD6_prototype
+--- main.ui.emote.view.EmoteUIFieldView.ViewStart
+function C98B0A67FDB8AFBD6_prototype:FE2823709CB81AA04()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = cECF00344
   L1_2 = L1_2.fEECE6995
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   L1_2 = L1_2(L2_2)
-  A0_2[11] = L1_2
+  self[11] = L1_2
   L1_2 = nil
   L2_2 = cECF00344
   L2_2 = L2_2.fB3E547E8
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     L3_2 = L2_2
     L2_2 = L2_2.fEAD9FB7D
     L4_2 = "ptn_00"
@@ -662,20 +661,17 @@ function L70_1(A0_2)
   L2_2 = CDE2979DF59272738
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FE2823709CB81AA04
-  L3_2 = A0_2
+  L3_2 = self
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C98B0A67FDB8AFBD6"]["prototype"]
-L69_1 = "F527EBD6C3B756B39"
-
-function L70_1(A0_2)
+--- main.ui.emote.view.EmoteUIFieldView.PoseRelease
+function C98B0A67FDB8AFBD6_prototype:F527EBD6C3B756B39()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDE2979DF59272738
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F527EBD6C3B756B39
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -712,20 +708,17 @@ function L70_1(A0_2)
   L2_2 = CCD22EFED4E9E5F89
   L2_2 = L2_2.SA10AE4787B2E55A3
   L2_2()
-  L3_2 = A0_2
-  L2_2 = A0_2.FCE393462324EB080
+  L3_2 = self
+  L2_2 = self.FCE393462324EB080
   L4_2 = "player state wait"
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C98B0A67FDB8AFBD6"]["prototype"]
-L69_1 = "F8C5D4B458CD9C892"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.emote.view.EmoteUIFieldView.F8C5D4B458CD9C892
+function C98B0A67FDB8AFBD6_prototype:F8C5D4B458CD9C892(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F965A424D88926A43
+  L3_2 = self
+  L2_2 = self.F965A424D88926A43
   L4_2 = A1_2
   L5_2 = L31_1.string
   L6_2 = "RequestEmote Error Index : "
@@ -738,16 +731,16 @@ function L70_1(A0_2, A1_2)
   if not L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FF89AEBC3B975736B
-  L4_2 = A0_2[18]
+  L3_2 = self
+  L2_2 = self.FF89AEBC3B975736B
+  L4_2 = self[18]
   L4_2 = L4_2[A1_2]
   L4_2 = L4_2.type
-  L5_2 = A0_2[18]
+  L5_2 = self[18]
   L5_2 = L5_2[A1_2]
   L5_2 = L5_2.kind
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2[A1_2]
   L2_2 = L2_2.type
   if 0 == L2_2 then
@@ -760,14 +753,14 @@ function L70_1(A0_2, A1_2)
     L2_2 = L2_2.FB0E319FDADB5BBDD
     L4_2 = CD2904F84651964AD
     L4_2 = L4_2.new
-    L5_2 = A0_2[18]
+    L5_2 = self[18]
     L5_2 = L5_2[A1_2]
     L5_2 = L5_2.kind
     L4_2 = L4_2(L5_2)
     L5_2 = false
     L2_2(L3_2, L4_2, L5_2)
   else
-    L2_2 = A0_2[18]
+    L2_2 = self[18]
     L2_2 = L2_2[A1_2]
     L2_2 = L2_2.type
     if 1 == L2_2 then
@@ -780,7 +773,7 @@ function L70_1(A0_2, A1_2)
       L2_2 = L2_2.FB0E319FDADB5BBDD
       L4_2 = C9FDE1F201FBEA917
       L4_2 = L4_2.new
-      L5_2 = A0_2[18]
+      L5_2 = self[18]
       L5_2 = L5_2[A1_2]
       L5_2 = L5_2.kind
       L4_2 = L4_2(L5_2)
@@ -789,33 +782,30 @@ function L70_1(A0_2, A1_2)
     end
   end
   L2_2 = L58_1
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L3_2 = L3_2[A1_2]
   L3_2 = L3_2.stateName
   L2_2 = L2_2(L3_2)
-  A0_2[16] = L2_2
+  self[16] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C98B0A67FDB8AFBD6"]["prototype"]
-L69_1 = "FE002A66428445BCF"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.emote.view.EmoteUIFieldView.FE002A66428445BCF
+function C98B0A67FDB8AFBD6_prototype:FE002A66428445BCF(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = nil
   L4_2 = cECF00344
   L4_2 = L4_2.f9758FA9B
-  L5_2 = A0_2[11]
+  L5_2 = self[11]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.FCE393462324EB080
+    L5_2 = self
+    L4_2 = self.FCE393462324EB080
     L6_2 = "m_layout is null"
     L4_2(L5_2, L6_2)
     return
   end
-  L4_2 = A0_2[11]
+  L4_2 = self[11]
   L5_2 = L4_2
   L4_2 = L4_2.f7798D9F4
   L6_2 = L31_1.string
@@ -835,26 +825,23 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C98B0A67FDB8AFBD6"]["prototype"]
-L69_1 = "FF4462389D6832FFE"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.emote.view.EmoteUIFieldView.FF4462389D6832FFE
+function C98B0A67FDB8AFBD6_prototype:FF4462389D6832FFE(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = nil
   L4_2 = cECF00344
   L4_2 = L4_2.f9758FA9B
-  L5_2 = A0_2[11]
+  L5_2 = self[11]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.FCE393462324EB080
+    L5_2 = self
+    L4_2 = self.FCE393462324EB080
     L6_2 = "m_layout is null"
     L4_2(L5_2, L6_2)
     return
   end
-  L4_2 = A0_2[11]
+  L4_2 = self[11]
   L5_2 = L4_2
   L4_2 = L4_2.f7798D9F4
   L6_2 = L31_1.string
@@ -874,14 +861,11 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C98B0A67FDB8AFBD6"]["prototype"]
-L69_1 = "F92146042673115CB"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.emote.view.EmoteUIFieldView.F92146042673115CB
+function C98B0A67FDB8AFBD6_prototype:F92146042673115CB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F965A424D88926A43
+  L3_2 = self
+  L2_2 = self.F965A424D88926A43
   L4_2 = A1_2
   L5_2 = L31_1.string
   L6_2 = "GetEmoteIconName Error Index : "
@@ -895,7 +879,7 @@ function L70_1(A0_2, A1_2)
     L2_2 = ""
     return L2_2
   end
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2[A1_2]
   L2_2 = L2_2.iconId
   L3_2 = L31_1.string
@@ -946,24 +930,18 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C98B0A67FDB8AFBD6"]["prototype"]
-L69_1 = "F8EA36C861F440670"
-
-function L70_1(A0_2)
+--- main.ui.emote.view.EmoteUIFieldView.F8EA36C861F440670
+function C98B0A67FDB8AFBD6_prototype:F8EA36C861F440670()
   local L1_2
-  L1_2 = A0_2[19]
+  L1_2 = self[19]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C98B0A67FDB8AFBD6"]["prototype"]
-L69_1 = "F451D677A2C080B39"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.emote.view.EmoteUIFieldView.F451D677A2C080B39
+function C98B0A67FDB8AFBD6_prototype:F451D677A2C080B39(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F965A424D88926A43
+  L3_2 = self
+  L2_2 = self.F965A424D88926A43
   L4_2 = A1_2
   L5_2 = L31_1.string
   L6_2 = "SetWorkNewIcon Error Index : "
@@ -976,33 +954,33 @@ function L70_1(A0_2, A1_2)
   if not L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F026BFDF437A2BE10
+  L3_2 = self
+  L2_2 = self.F026BFDF437A2BE10
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if not L2_2 then
     return
   end
   L2_2 = -1
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L3_2 = L3_2[A1_2]
   L3_2 = L3_2.workName
-  L4_2 = A0_2[20]
+  L4_2 = self[20]
   if L3_2 == L4_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F4BF2384166C36153
+    L4_2 = self
+    L3_2 = self.F4BF2384166C36153
     L5_2 = A1_2
     L6_2 = 14
     L3_2 = L3_2(L4_2, L5_2, L6_2)
     L2_2 = L3_2
   else
-    L3_2 = A0_2[18]
+    L3_2 = self[18]
     L3_2 = L3_2[A1_2]
     L3_2 = L3_2.workName
-    L4_2 = A0_2[21]
+    L4_2 = self[21]
     if L3_2 == L4_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F4BF2384166C36153
+      L4_2 = self
+      L3_2 = self.F4BF2384166C36153
       L5_2 = A1_2
       L6_2 = 20
       L3_2 = L3_2(L4_2, L5_2, L6_2)
@@ -1014,12 +992,12 @@ function L70_1(A0_2, A1_2)
   end
   L3_2 = C5F01F8F108E88E4F
   L3_2 = L3_2.new
-  L4_2 = A0_2[9]
+  L4_2 = self[9]
   L3_2 = L3_2(L4_2)
   L4_2 = C10578806AC30DCA3
   L4_2 = L4_2.S971699EB064C6350
   L4_2 = L4_2.h
-  L5_2 = A0_2[18]
+  L5_2 = self[18]
   L5_2 = L5_2[A1_2]
   L5_2 = L5_2.workName
   L4_2 = L4_2[L5_2]
@@ -1036,7 +1014,7 @@ function L70_1(A0_2, A1_2)
   L7_2 = L2_2
   L8_2 = true
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[18]
+  L5_2 = self[18]
   L5_2 = L5_2[A1_2]
   L5_2 = L5_2.workName
   L7_2 = L3_2
@@ -1060,14 +1038,11 @@ function L70_1(A0_2, A1_2)
   L9_2(L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C98B0A67FDB8AFBD6"]["prototype"]
-L69_1 = "F6ADF96F38CE13D0E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.emote.view.EmoteUIFieldView.F6ADF96F38CE13D0E
+function C98B0A67FDB8AFBD6_prototype:F6ADF96F38CE13D0E(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F965A424D88926A43
+  L4_2 = self
+  L3_2 = self.F965A424D88926A43
   L5_2 = A1_2
   L6_2 = L31_1.string
   L7_2 = "RewriteNewIcon Error Index : "
@@ -1080,38 +1055,38 @@ function L70_1(A0_2, A1_2, A2_2)
   if not L3_2 then
     return
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F026BFDF437A2BE10
+  L4_2 = self
+  L3_2 = self.F026BFDF437A2BE10
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   if not L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FF4462389D6832FFE
+    L4_2 = self
+    L3_2 = self.FF4462389D6832FFE
     L5_2 = A2_2
     L6_2 = false
     L3_2(L4_2, L5_2, L6_2)
     return
   end
   L3_2 = -1
-  L4_2 = A0_2[18]
+  L4_2 = self[18]
   L4_2 = L4_2[A1_2]
   L4_2 = L4_2.workName
-  L5_2 = A0_2[20]
+  L5_2 = self[20]
   if L4_2 == L5_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F4BF2384166C36153
+    L5_2 = self
+    L4_2 = self.F4BF2384166C36153
     L6_2 = A1_2
     L7_2 = 14
     L4_2 = L4_2(L5_2, L6_2, L7_2)
     L3_2 = L4_2
   else
-    L4_2 = A0_2[18]
+    L4_2 = self[18]
     L4_2 = L4_2[A1_2]
     L4_2 = L4_2.workName
-    L5_2 = A0_2[21]
+    L5_2 = self[21]
     if L4_2 == L5_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F4BF2384166C36153
+      L5_2 = self
+      L4_2 = self.F4BF2384166C36153
       L6_2 = A1_2
       L7_2 = 20
       L4_2 = L4_2(L5_2, L6_2, L7_2)
@@ -1123,12 +1098,12 @@ function L70_1(A0_2, A1_2, A2_2)
   end
   L4_2 = C5F01F8F108E88E4F
   L4_2 = L4_2.new
-  L5_2 = A0_2[9]
+  L5_2 = self[9]
   L4_2 = L4_2(L5_2)
   L5_2 = C10578806AC30DCA3
   L5_2 = L5_2.S971699EB064C6350
   L5_2 = L5_2.h
-  L6_2 = A0_2[18]
+  L6_2 = self[18]
   L6_2 = L6_2[A1_2]
   L6_2 = L6_2.workName
   L5_2 = L5_2[L6_2]
@@ -1140,8 +1115,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = L4_2.F69D38C33F24E1A7F
   L8_2 = L5_2
   L6_2(L7_2, L8_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.FF4462389D6832FFE
+  L7_2 = self
+  L6_2 = self.FF4462389D6832FFE
   L8_2 = A2_2
   L10_2 = L4_2
   L9_2 = L4_2.F377E7645B6B81209
@@ -1151,11 +1126,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C98B0A67FDB8AFBD6"]["prototype"]
-L69_1 = "FF89AEBC3B975736B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.emote.view.EmoteUIFieldView.FF89AEBC3B975736B
+function C98B0A67FDB8AFBD6_prototype:FF89AEBC3B975736B(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   if 0 == A1_2 and 11 == A2_2 then
     while true do

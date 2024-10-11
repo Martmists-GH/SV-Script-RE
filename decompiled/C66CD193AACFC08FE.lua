@@ -1,3 +1,7 @@
+---@alias C66CD193AACFC08FE main_event_general_team_TeamWarpEntryPoint
+
+---@class main_event_general_team_TeamWarpEntryPoint : C66CD193AACFC08FE_prototype
+---@field prototype C66CD193AACFC08FE_prototype
 L55_1 = _ENV
 L56_1 = "C66CD193AACFC08FE"
 L57_1 = L15_1
@@ -45,23 +49,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C66CD193AACFC08FE"]
 L69_1 = "__name__"
 L70_1 = "C66CD193AACFC08FE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66CD193AACFC08FE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C66CD193AACFC08FE"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C66CD193AACFC08FE_prototype
+C66CD193AACFC08FE_prototype = L15_1()
+C66CD193AACFC08FE.prototype = C66CD193AACFC08FE_prototype
+--- main.event.general.team.TeamWarpEntryPoint.mainBody
+function C66CD193AACFC08FE_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C7E63B1C6A22F0EAB
   L1_2 = L1_2.S4BDF2DB4EA258948
   L1_2()
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.entryPoint
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.isMainScenario
   if L2_2 then
     L2_2 = C07E4F1BF071B0460
@@ -80,10 +79,10 @@ function L70_1(A0_2)
   L8_2 = nil
   L9_2 = true
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.isMainScenario
   if L2_2 then
-    L2_2 = A0_2[32]
+    L2_2 = self[32]
     L2_2 = L2_2.fadeIn
     if L2_2 then
       L2_2 = C07E4F1BF071B0460
@@ -93,10 +92,10 @@ function L70_1(A0_2)
       L2_2(L3_2, L4_2)
     end
   end
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.isMainScenario
   if L2_2 then
-    L2_2 = A0_2[32]
+    L2_2 = self[32]
     L2_2 = L2_2.isWin
     if not L2_2 then
       L2_2 = CF4B448D8C3744CAF

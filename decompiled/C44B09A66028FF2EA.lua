@@ -1,3 +1,5 @@
+---@class C44B09A66028FF2EA : C44B09A66028FF2EA_prototype
+---@field prototype C44B09A66028FF2EA_prototype
 L55_1 = _ENV
 L56_1 = "C44B09A66028FF2EA"
 L57_1 = L15_1
@@ -36,29 +38,24 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C44B09A66028FF2EA"]
 L69_1 = "__name__"
 L70_1 = "C44B09A66028FF2EA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44B09A66028FF2EA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44B09A66028FF2EA"]["prototype"]
-L69_1 = "F716F089496100A12"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@class C44B09A66028FF2EA_prototype
+C44B09A66028FF2EA_prototype = L15_1()
+C44B09A66028FF2EA.prototype = C44B09A66028FF2EA_prototype
+--- C44B09A66028FF2EA.SetTexture
+function C44B09A66028FF2EA_prototype:F716F089496100A12(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A4_2 then
     A4_2 = false
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F2F9A741431184CA2
+  L6_2 = self
+  L5_2 = self.F2F9A741431184CA2
   L7_2 = A2_2
   L5_2 = L5_2(L6_2, L7_2)
   L6_2 = 0
   if -1 == L5_2 then
     L8_2 = A1_2
     L7_2 = A1_2.FC28050BEE22C8085
-    L9_2 = A0_2[1]
+    L9_2 = self[1]
     L9_2 = L9_2.length
     L9_2 = 3 + L9_2
     
@@ -103,9 +100,9 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L10_2 = L10_2()
     L11_2 = 0
     L7_2(L8_2, L9_2, L10_2, L11_2)
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L6_2 = L7_2.length
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L8_2 = L7_2
     L7_2 = L7_2.push
     L9_2 = A2_2
@@ -121,33 +118,27 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L7_2(L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44B09A66028FF2EA"]["prototype"]
-L69_1 = "FDFC0FD68853DCA95"
-
-function L70_1(A0_2)
+--- C44B09A66028FF2EA.FDFC0FD68853DCA95
+function C44B09A66028FF2EA_prototype:FDFC0FD68853DCA95()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.resize
   L3_2 = 0
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44B09A66028FF2EA"]["prototype"]
-L69_1 = "F2F9A741431184CA2"
-
-function L70_1(A0_2, A1_2)
+--- C44B09A66028FF2EA.IsTextureSetPane
+function C44B09A66028FF2EA_prototype:F2F9A741431184CA2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = -1
   L3_2 = 0
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2.length
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L5_2 = L3_2 - 1
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[L5_2]
     if L6_2 == A1_2 then
       L2_2 = L5_2

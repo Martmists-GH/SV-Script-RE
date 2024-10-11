@@ -1,3 +1,7 @@
+---@alias C2B31BDF7391B0D0D main_field_contents_data_WashCommonParam
+
+---@class main_field_contents_data_WashCommonParam : C2B31BDF7391B0D0D_prototype
+---@field prototype C2B31BDF7391B0D0D_prototype
 L55_1 = _ENV
 L56_1 = "C2B31BDF7391B0D0D"
 L57_1 = L15_1
@@ -41,64 +45,56 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2B31BDF7391B0D0D"]
 L69_1 = "__name__"
 L70_1 = "C2B31BDF7391B0D0D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B31BDF7391B0D0D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B31BDF7391B0D0D"]["prototype"]
-L69_1 = "FE6450216C735BB3B"
-
-function L70_1(A0_2)
+---@class C2B31BDF7391B0D0D_prototype
+C2B31BDF7391B0D0D_prototype = L15_1()
+C2B31BDF7391B0D0D.prototype = C2B31BDF7391B0D0D_prototype
+--- main.field.contents.data.WashCommonParam.FE6450216C735BB3B
+function C2B31BDF7391B0D0D_prototype:FE6450216C735BB3B()
   local L1_2, L2_2
-  L1_2 = A0_2[5]
-  L2_2 = A0_2[5]
+  L1_2 = self[5]
+  L2_2 = self[5]
   L1_2 = L1_2 * L2_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B31BDF7391B0D0D"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.data.WashCommonParam.Setup
+function C2B31BDF7391B0D0D_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "SpongeScale"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "ShowerScale"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "SpongeRange"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "ShowerRange"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "PointInterval"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "BubblePosBlurring"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[7] = L2_2
+  self[7] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f137F997F
   L4_2 = "BubbleScale"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[8] = L2_2
+  self[8] = L2_2
 end
 
 L68_1[L69_1] = L70_1

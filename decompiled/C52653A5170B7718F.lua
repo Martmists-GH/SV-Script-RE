@@ -1,3 +1,7 @@
+---@alias C52653A5170B7718F main_npc_management_NpcSwitcherData
+
+---@class main_npc_management_NpcSwitcherData : C52653A5170B7718F_prototype
+---@field prototype C52653A5170B7718F_prototype
 L55_1 = _ENV
 L56_1 = "C52653A5170B7718F"
 L57_1 = L15_1
@@ -71,31 +75,23 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C52653A5170B7718F"]
 L69_1 = "__name__"
 L70_1 = "C52653A5170B7718F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52653A5170B7718F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52653A5170B7718F"]["prototype"]
-L69_1 = "FC4E31F88270EC114"
-
-function L70_1(A0_2)
+---@class C52653A5170B7718F_prototype
+C52653A5170B7718F_prototype = L15_1()
+C52653A5170B7718F.prototype = C52653A5170B7718F_prototype
+--- main.npc_management.NpcSwitcherData.GetName
+function C52653A5170B7718F_prototype:FC4E31F88270EC114()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f3D9D438D
   L3_2 = "name"
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C52653A5170B7718F"]["prototype"]
-L69_1 = "F99F495EBAA23467E"
-
-function L70_1(A0_2)
+--- main.npc_management.NpcSwitcherData.GetExpressions
+function C52653A5170B7718F_prototype:F99F495EBAA23467E()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 

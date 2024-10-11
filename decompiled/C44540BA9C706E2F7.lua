@@ -1,3 +1,5 @@
+---@class C44540BA9C706E2F7 : C44540BA9C706E2F7_prototype
+---@field prototype C44540BA9C706E2F7_prototype
 L55_1 = _ENV
 L56_1 = "C44540BA9C706E2F7"
 L57_1 = L15_1
@@ -39,19 +41,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C44540BA9C706E2F7"]
 L69_1 = "__name__"
 L70_1 = "C44540BA9C706E2F7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44540BA9C706E2F7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C44540BA9C706E2F7"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2)
+---@class C44540BA9C706E2F7_prototype
+C44540BA9C706E2F7_prototype = L15_1()
+C44540BA9C706E2F7.prototype = C44540BA9C706E2F7_prototype
+--- C44540BA9C706E2F7.Setup
+function C44540BA9C706E2F7_prototype:F7C68FEDB79AB6396()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -61,7 +58,7 @@ function L70_1(A0_2)
     L1_2 = L1_2 + 1
     L5_2 = L3_2
     L4_2 = L3_2.F7C68FEDB79AB6396
-    L6_2 = A0_2
+    L6_2 = self
     L4_2(L5_2, L6_2)
   end
 end

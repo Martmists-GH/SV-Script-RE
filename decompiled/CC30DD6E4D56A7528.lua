@@ -1,3 +1,7 @@
+---@alias C664F7A623C9C28A3 main_event_general_gym_base_Gym_common
+
+---@class main_event_general_gym_base_Gym_common : C664F7A623C9C28A3_prototype
+---@field prototype C664F7A623C9C28A3_prototype
 L55_1 = _ENV
 L56_1 = "CC30DD6E4D56A7528"
 L57_1 = L15_1
@@ -10,11 +14,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC30DD6E4D56A7528"]
 L69_1 = "__name__"
 L70_1 = "CC30DD6E4D56A7528"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC30DD6E4D56A7528"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C664F7A623C9C28A3_prototype
+C664F7A623C9C28A3_prototype = L15_1()
+C664F7A623C9C28A3.prototype = C664F7A623C9C28A3_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC30DD6E4D56A7528"]["prototype"]
 L69_1 = _ENV["CC30DD6E4D56A7528"]

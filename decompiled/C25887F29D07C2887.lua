@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C25887F29D07C2887"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C25887F29D07C2887"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C25887F29D07C2887"]
-L69_1 = "__name__"
-L70_1 = "C25887F29D07C2887"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C25887F29D07C2887"]
-L69_1 = "S32842824C2FD8FAE"
+---@alias C25887F29D07C2887 main_event_command_HUDCommand
 
-function L70_1(A0_2)
+---@class main_event_command_HUDCommand
+C25887F29D07C2887 = L15_1()
+C25887F29D07C2887.new = {}
+C25887F29D07C2887.__name__ = "C25887F29D07C2887"
+--- main.event.command.HUDCommand.HUDButtonGuide
+function C25887F29D07C2887.S32842824C2FD8FAE(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   if 0 == A0_2 then
     return
@@ -65,11 +56,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C25887F29D07C2887"]
-L69_1 = "S92EE5DF64A3F2452"
-
-function L70_1(A0_2)
+--- main.event.command.HUDCommand.HUDButtonGuideLight
+function C25887F29D07C2887.S92EE5DF64A3F2452(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C99669A6E72BD9FE7
   L1_2 = L1_2.SD56A3ADC2D390BBD
@@ -86,11 +74,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C25887F29D07C2887"]
-L69_1 = "S13CE048FF3C8CB3E"
-
-function L70_1()
+--- main.event.command.HUDCommand.HudAnnounceGeneralTarget
+function C25887F29D07C2887.S13CE048FF3C8CB3E()
   local L0_2, L1_2
   L0_2 = C15A829DA3D306710
   L0_2 = L0_2.SFC4603B692AE6A63

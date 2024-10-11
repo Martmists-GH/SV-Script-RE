@@ -1,3 +1,5 @@
+---@class C2C3430EAC778804A : C2C3430EAC778804A_prototype
+---@field prototype C2C3430EAC778804A_prototype
 L55_1 = _ENV
 L56_1 = "C2C3430EAC778804A"
 L57_1 = L15_1
@@ -54,16 +56,11 @@ L69_1 = "__interfaces__"
 L70_1 = {}
 L71_1 = CC816F24BFEF8251B
 L70_1[1] = L71_1
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C3430EAC778804A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C3430EAC778804A"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C2C3430EAC778804A_prototype
+C2C3430EAC778804A_prototype = L15_1()
+C2C3430EAC778804A.prototype = C2C3430EAC778804A_prototype
+--- C2C3430EAC778804A.preStart
+function C2C3430EAC778804A_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S12FD376DC11712C8
@@ -72,19 +69,13 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C3430EAC778804A"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- C2C3430EAC778804A.postStart
+function C2C3430EAC778804A_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C3430EAC778804A"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- C2C3430EAC778804A.mainBody
+function C2C3430EAC778804A_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S4E44D50241EFAB61
@@ -135,17 +126,14 @@ function L70_1(A0_2)
     L2_2(L3_2)
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F3B5B8B721FD628E6
+  L3_2 = self
+  L2_2 = self.F3B5B8B721FD628E6
   L4_2 = L1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C3430EAC778804A"]["prototype"]
-L69_1 = "F79F20EAB38DE5BF6"
-
-function L70_1(A0_2, A1_2)
+--- C2C3430EAC778804A.GetSelectMessage
+function C2C3430EAC778804A_prototype:F79F20EAB38DE5BF6(A1_2)
   local L2_2, L3_2, L4_2
   if A1_2 then
     L2_2 = C05D9E556B496A3DF
@@ -178,11 +166,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C3430EAC778804A"]["prototype"]
-L69_1 = "F3B5B8B721FD628E6"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C2C3430EAC778804A.callSelectMenu
+function C2C3430EAC778804A_prototype:F3B5B8B721FD628E6(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A2_2 then
     A2_2 = false
@@ -203,8 +188,8 @@ function L70_1(A0_2, A1_2, A2_2)
       L9_2 = C2C3430EAC778804A
       L9_2 = L9_2.SCD75AB4DAD1AB1AB
       L10_2 = true
-      L12_2 = A0_2
-      L11_2 = A0_2.F79F20EAB38DE5BF6
+      L12_2 = self
+      L11_2 = self.F79F20EAB38DE5BF6
       L13_2 = L4_2
       L11_2 = L11_2(L12_2, L13_2)
       L12_2 = nil
@@ -307,8 +292,8 @@ function L70_1(A0_2, A1_2, A2_2)
         L10_2 = L6_2.subjectType
         L8_2 = L9_2[L10_2]
       end
-      L10_2 = A0_2
-      L9_2 = A0_2.F3B5B8B721FD628E6
+      L10_2 = self
+      L9_2 = self.F3B5B8B721FD628E6
       L11_2 = L8_2
       L12_2 = true
       L9_2 = L9_2(L10_2, L11_2, L12_2)
@@ -324,11 +309,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C3430EAC778804A"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- C2C3430EAC778804A.mainBodyFinish
+function C2C3430EAC778804A_prototype:F84C84FA1590CD2A3()
   local L1_2, L2_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.SEC5605D9D6B5E309
@@ -337,27 +319,18 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C3430EAC778804A"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- C2C3430EAC778804A.preEnd
+function C2C3430EAC778804A_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C3430EAC778804A"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- C2C3430EAC778804A.postEnd
+function C2C3430EAC778804A_prototype:F3E13E4094D09A594()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C3430EAC778804A"]["prototype"]
-L69_1 = "FCB3B1A213D375E75"
-
-function L70_1(A0_2)
+--- C2C3430EAC778804A.isImportant
+function C2C3430EAC778804A_prototype:FCB3B1A213D375E75()
   local L1_2
   L1_2 = true
   return L1_2

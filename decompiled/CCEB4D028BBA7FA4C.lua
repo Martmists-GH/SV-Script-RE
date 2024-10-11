@@ -1,3 +1,7 @@
+---@alias CCEB4D028BBA7FA4C main_env_weather_happening_SpRainbow
+
+---@class main_env_weather_happening_SpRainbow : CCEB4D028BBA7FA4C_prototype
+---@field prototype CCEB4D028BBA7FA4C_prototype
 L55_1 = _ENV
 L56_1 = "CCEB4D028BBA7FA4C"
 L57_1 = L15_1
@@ -38,26 +42,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCEB4D028BBA7FA4C"]
 L69_1 = "__name__"
 L70_1 = "CCEB4D028BBA7FA4C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCEB4D028BBA7FA4C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCEB4D028BBA7FA4C"]["prototype"]
-L69_1 = "FC8998AA36ADC82E6"
-
-function L70_1(A0_2)
+---@class CCEB4D028BBA7FA4C_prototype
+CCEB4D028BBA7FA4C_prototype = L15_1()
+CCEB4D028BBA7FA4C.prototype = CCEB4D028BBA7FA4C_prototype
+--- main.env.weather.happening.SpRainbow.getTemplatePath
+function CCEB4D028BBA7FA4C_prototype:FC8998AA36ADC82E6()
   local L1_2
   L1_2 = "world/obj_template/field/weather/sp_rainbow_/sp_rainbow.trsot"
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCEB4D028BBA7FA4C"]["prototype"]
-L69_1 = "FC30191BCDD645CCB"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.SpRainbow.beginCondition
+function CCEB4D028BBA7FA4C_prototype:FC30191BCDD645CCB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C05D9E556B496A3DF
   L1_2 = L1_2.SC8223E31D3163519
@@ -75,10 +71,10 @@ function L70_1(A0_2)
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.prevType
   if 2 == L2_2 or 3 == L2_2 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L3_2 = L3_2.currentType
     if 0 == L3_2 then
       L3_2 = CA66BF560955C69B4
@@ -90,7 +86,7 @@ function L70_1(A0_2)
       else
         L4_2 = L3_2[3]
         L5_2 = L4_2[4]
-        L6_2 = A0_2[13]
+        L6_2 = self[13]
         L5_2 = L5_2[L6_2]
         L6_2 = L4_2[2]
         L6_2 = L6_2[1]
@@ -108,11 +104,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCEB4D028BBA7FA4C"]["prototype"]
-L69_1 = "F97D691F2BAB2649F"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.SpRainbow.endCondition
+function CCEB4D028BBA7FA4C_prototype:F97D691F2BAB2649F()
   local L1_2, L2_2, L3_2
   L1_2 = C05D9E556B496A3DF
   L1_2 = L1_2.SC8223E31D3163519
@@ -127,7 +120,7 @@ function L70_1(A0_2)
   L3_2 = L3_2[2]
   L2_2 = L2_2[L3_2]
   if 0 == L2_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L2_2 = L2_2.currentType
     if 0 == L2_2 then
       goto lbl_20

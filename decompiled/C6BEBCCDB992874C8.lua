@@ -1,3 +1,5 @@
+---@class C6BEBCCDB992874C8 : C6BEBCCDB992874C8_prototype
+---@field prototype C6BEBCCDB992874C8_prototype
 L55_1 = _ENV
 L56_1 = "C6BEBCCDB992874C8"
 L57_1 = L15_1
@@ -53,45 +55,34 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C6BEBCCDB992874C8"]
 L69_1 = "__name__"
 L70_1 = "C6BEBCCDB992874C8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BEBCCDB992874C8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BEBCCDB992874C8"]["prototype"]
-L69_1 = "F55C0C3445A08683A"
-
-function L70_1(A0_2)
+---@class C6BEBCCDB992874C8_prototype
+C6BEBCCDB992874C8_prototype = L15_1()
+C6BEBCCDB992874C8.prototype = C6BEBCCDB992874C8_prototype
+--- C6BEBCCDB992874C8.F55C0C3445A08683A
+function C6BEBCCDB992874C8_prototype:F55C0C3445A08683A()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BEBCCDB992874C8"]["prototype"]
-L69_1 = "FC3FA710377D8F1C5"
-
-function L70_1(A0_2)
+--- C6BEBCCDB992874C8.FC3FA710377D8F1C5
+function C6BEBCCDB992874C8_prototype:FC3FA710377D8F1C5()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = E469C4DE0858A6EF1
   L2_2 = L2_2.kCompleteSetup
   L1_2 = L1_2 == L2_2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BEBCCDB992874C8"]["prototype"]
-L69_1 = "F0B5FBF707A7FA642"
-
-function L70_1(A0_2)
+--- C6BEBCCDB992874C8.ManualUpdate
+function C6BEBCCDB992874C8_prototype:F0B5FBF707A7FA642()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L1_2 = A0_2
-  L2_2 = A0_2[3]
+  L1_2 = self
+  L2_2 = self[3]
   L2_2 = L2_2[1]
   if 0 == L2_2 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f4ACBB933
     
@@ -128,10 +119,10 @@ function L70_1(A0_2)
     L3_2(L4_2, L5_2)
     L3_2 = E469C4DE0858A6EF1
     L3_2 = L3_2.kWaitSetupChildrenObject
-    A0_2[3] = L3_2
+    self[3] = L3_2
   elseif 1 == L2_2 then
     L3_2 = 0
-    L4_2 = A0_2[4]
+    L4_2 = self[4]
     while true do
       L5_2 = L4_2.length
       if not (L3_2 < L5_2) then
@@ -154,7 +145,7 @@ function L70_1(A0_2)
       ::lbl_33::
     end
     L5_2 = 0
-    L6_2 = A0_2[4]
+    L6_2 = self[4]
     while true do
       L7_2 = L6_2.length
       if not (L5_2 < L7_2) then
@@ -162,7 +153,7 @@ function L70_1(A0_2)
       end
       L7_2 = L6_2[L5_2]
       L5_2 = L5_2 + 1
-      L8_2 = A0_2[5]
+      L8_2 = self[5]
       L10_2 = L7_2
       L9_2 = L7_2.fB3CF1DEB
       L9_2 = L9_2(L10_2)
@@ -181,10 +172,10 @@ function L70_1(A0_2)
     end
     L7_2 = E469C4DE0858A6EF1
     L7_2 = L7_2.kWaitSetupChildrenBehavior
-    A0_2[3] = L7_2
+    self[3] = L7_2
   elseif 2 == L2_2 then
     L3_2 = 0
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     while true do
       L5_2 = L4_2.length
       if not (L3_2 < L5_2) then
@@ -201,10 +192,10 @@ function L70_1(A0_2)
     end
     L5_2 = E469C4DE0858A6EF1
     L5_2 = L5_2.kChangeColorChildrenBehavior
-    A0_2[3] = L5_2
+    self[3] = L5_2
   elseif 3 == L2_2 then
     L3_2 = 0
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     while true do
       L5_2 = L4_2.length
       if not (L3_2 < L5_2) then
@@ -214,33 +205,27 @@ function L70_1(A0_2)
       L3_2 = L3_2 + 1
       L7_2 = L5_2
       L6_2 = L5_2.FD171587152B185F0
-      L8_2 = A0_2[6]
+      L8_2 = self[6]
       L6_2(L7_2, L8_2)
     end
     L5_2 = E469C4DE0858A6EF1
     L5_2 = L5_2.kCompleteSetup
-    A0_2[3] = L5_2
+    self[3] = L5_2
   elseif 4 == L2_2 then
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BEBCCDB992874C8"]["prototype"]
-L69_1 = "FF6D74B7C26E582E2"
-
-function L70_1(A0_2, A1_2)
-  A0_2[6] = A1_2
+--- C6BEBCCDB992874C8.FF6D74B7C26E582E2
+function C6BEBCCDB992874C8_prototype:FF6D74B7C26E582E2(A1_2)
+  self[6] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6BEBCCDB992874C8"]["prototype"]
-L69_1 = "F7D15C3F3F1C2EA17"
-
-function L70_1(A0_2, A1_2)
+--- C6BEBCCDB992874C8.F7D15C3F3F1C2EA17
+function C6BEBCCDB992874C8_prototype:F7D15C3F3F1C2EA17(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  A0_2[2] = A1_2
+  self[2] = A1_2
   L2_2 = 0
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -251,7 +236,7 @@ function L70_1(A0_2, A1_2)
     L6_2 = L4_2
     L5_2 = L4_2.F7D15C3F3F1C2EA17
     L7_2 = A1_2
-    L8_2 = A0_2[6]
+    L8_2 = self[6]
     L9_2 = L8_2
     L8_2 = L8_2.FD54DDA7A4205BB55
     L8_2, L9_2 = L8_2(L9_2)

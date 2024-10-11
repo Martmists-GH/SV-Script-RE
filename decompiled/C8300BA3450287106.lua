@@ -1,3 +1,7 @@
+---@alias C8300BA3450287106 main_ajito_system_rush_AjitoGruntPopupManagerBehavior
+
+---@class main_ajito_system_rush_AjitoGruntPopupManagerBehavior : C8300BA3450287106_prototype
+---@field prototype C8300BA3450287106_prototype
 L68_1 = _ENV["C8300BA3450287106"]
 L69_1 = "super"
 
@@ -23,19 +27,14 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C8300BA3450287106"]
 L69_1 = "__name__"
 L70_1 = "C8300BA3450287106"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8300BA3450287106"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8300BA3450287106"]["prototype"]
-L69_1 = "FB04D0FEEDD95EBEB"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class C8300BA3450287106_prototype
+C8300BA3450287106_prototype = L15_1()
+C8300BA3450287106.prototype = C8300BA3450287106_prototype
+--- main.ajito.system.rush.AjitoGruntPopupManagerBehavior.SetData
+function C8300BA3450287106_prototype:FB04D0FEEDD95EBEB(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  A0_2[3] = A1_2
+  L3_2 = self
+  self[3] = A1_2
   L4_2 = L27_1.iter
   L5_2 = A2_2
   
@@ -100,49 +99,40 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8300BA3450287106"]["prototype"]
-L69_1 = "F7EED485852A4D25F"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoGruntPopupManagerBehavior.Start
+function C8300BA3450287106_prototype:F7EED485852A4D25F()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f71FAA9DF
   L3_2 = false
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f024ADB0D
   L3_2 = 6
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8300BA3450287106"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.rush.AjitoGruntPopupManagerBehavior.Setup
+function C8300BA3450287106_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
-  L2_2 = A0_2[2]
+  self[2] = L2_2
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.f71FAA9DF
   L4_2 = true
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8300BA3450287106"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.rush.AjitoGruntPopupManagerBehavior.PreUpdate
+function C8300BA3450287106_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = CFC8F368D91411014
   L3_2 = L3_2.S93A017D496A6D000
   L3_2 = L3_2.owner
@@ -153,7 +143,7 @@ function L70_1(A0_2, A1_2)
   L7_2 = L4_2
   L8_2 = L5_2
   L9_2 = 0
-  L10_2 = A0_2[4]
+  L10_2 = self[4]
   L10_2 = L10_2.length
   while L9_2 < L10_2 do
     L9_2 = L9_2 + 1
@@ -164,7 +154,7 @@ function L70_1(A0_2, A1_2)
     L12_2[0] = L13_2
     L13_2 = 1
     L11_2 = L11_2(L12_2, L13_2)
-    L12_2 = A0_2[4]
+    L12_2 = self[4]
     L13_2 = L11_2[0]
     L12_2 = L12_2[L13_2]
     L12_2 = L12_2.Point
@@ -182,7 +172,7 @@ function L70_1(A0_2, A1_2)
     L19_2 = C8300BA3450287106
     L19_2 = L19_2.S982E3D6C1973B91A
     if L18_2 < L19_2 then
-      L18_2 = A0_2[4]
+      L18_2 = self[4]
       L19_2 = L11_2[0]
       L18_2 = L18_2[L19_2]
       L18_2 = L18_2.IsPlaying
@@ -221,11 +211,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8300BA3450287106"]["prototype"]
-L69_1 = "F984C5A6ED3D04A8F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ajito.system.rush.AjitoGruntPopupManagerBehavior.F984C5A6ED3D04A8F
+function C8300BA3450287106_prototype:F984C5A6ED3D04A8F(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   L4_2 = A1_2[1]
   L5_2 = A2_2[1]
@@ -245,11 +232,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8300BA3450287106"]["prototype"]
-L69_1 = "F6965A644E953E66D"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.rush.AjitoGruntPopupManagerBehavior.playPopupAsync
+function C8300BA3450287106_prototype:F6965A644E953E66D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
   L2_2 = A1_2.Point
   L3_2 = L2_2
@@ -354,23 +338,17 @@ function L70_1(A0_2, A1_2)
   A1_2.IsPlaying = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8300BA3450287106"]["prototype"]
-L69_1 = "FC8CFE673C71FC47A"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.rush.AjitoGruntPopupManagerBehavior.debugDraw
+function C8300BA3450287106_prototype:FC8CFE673C71FC47A(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8300BA3450287106"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoGruntPopupManagerBehavior.Destroy
+function C8300BA3450287106_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if nil ~= L1_2 then
     L1_2 = L27_1.iter
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     
     function L3_2(A0_3)
       local L1_3, L2_3, L3_3, L4_3, L5_3

@@ -1,3 +1,7 @@
+---@alias C7C339C896597E1E1 main_field_contents_effect_ContentsEffectManager
+
+---@class main_field_contents_effect_ContentsEffectManager : C7C339C896597E1E1_prototype
+---@field prototype C7C339C896597E1E1_prototype
 L55_1 = _ENV
 L56_1 = "C7C339C896597E1E1"
 L57_1 = L15_1
@@ -54,18 +58,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C7C339C896597E1E1"]
 L69_1 = "__name__"
 L70_1 = "C7C339C896597E1E1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2)
+---@class C7C339C896597E1E1_prototype
+C7C339C896597E1E1_prototype = L15_1()
+C7C339C896597E1E1.prototype = C7C339C896597E1E1_prototype
+--- main.field.contents.effect.ContentsEffectManager.Setup
+function C7C339C896597E1E1_prototype:F7C68FEDB79AB6396()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.resize
   L3_2 = 34
@@ -73,29 +72,26 @@ function L70_1(A0_2)
   L1_2 = 0
   while L1_2 < 34 do
     L1_2 = L1_2 + 1
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L1_2 - 1
     L2_2[L3_2] = 0
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.resize
   L4_2 = 34
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FC134C56F90E951B8
+  L3_2 = self
+  L2_2 = self.FC134C56F90E951B8
   L4_2 = 6
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.effect.ContentsEffectManager.PreUpdate
+function C7C339C896597E1E1_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = 0
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = false
   while true do
     L5_2 = L3_2.length
@@ -111,8 +107,8 @@ function L70_1(A0_2, A1_2)
     L9_2 = L6_2
     L7_2 = L7_2(L8_2, L9_2)
     if L7_2 then
-      L8_2 = A0_2
-      L7_2 = A0_2.F173F167ACFB0EE2C
+      L8_2 = self
+      L7_2 = self.F173F167ACFB0EE2C
       L9_2 = L5_2
       L7_2(L8_2, L9_2)
     else
@@ -140,8 +136,8 @@ function L70_1(A0_2, A1_2)
           L11_2 = L8_2
           L9_2 = L9_2(L10_2, L11_2)
           if L9_2 then
-            L10_2 = A0_2
-            L9_2 = A0_2.F173F167ACFB0EE2C
+            L10_2 = self
+            L9_2 = self.F173F167ACFB0EE2C
             L11_2 = L5_2
             L9_2(L10_2, L11_2)
           else
@@ -162,8 +158,8 @@ function L70_1(A0_2, A1_2)
           L8_2 = L8_2.f11CC5570
           L8_2 = L8_2(L9_2)
           if L8_2 then
-            L9_2 = A0_2
-            L8_2 = A0_2.F173F167ACFB0EE2C
+            L9_2 = self
+            L8_2 = self.F173F167ACFB0EE2C
             L10_2 = L5_2
             L8_2(L9_2, L10_2)
           end
@@ -177,20 +173,17 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.field.contents.effect.ContentsEffectManager.Destroy
+function C7C339C896597E1E1_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = _hx_tab_array
   L2_2 = {}
   L2_2.length = 0
   L3_2 = 0
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[1] = L1_2
+  self[1] = L1_2
   L1_2 = 0
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -217,17 +210,14 @@ function L70_1(A0_2)
   L4_2.length = 0
   L5_2 = 0
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[2] = L3_2
+  self[2] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "F2B47B096376BF720"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.field.contents.effect.ContentsEffectManager.CallEffect
+function C7C339C896597E1E1_prototype:F2B47B096376BF720(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FE6E430F59F8FB5F5
+  L5_2 = self
+  L4_2 = self.FE6E430F59F8FB5F5
   L6_2 = A1_2
   L7_2 = A2_2
   L8_2 = nil
@@ -236,14 +226,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "F8CB4729E38E247AF"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.field.contents.effect.ContentsEffectManager.CallEffectSRT
+function C7C339C896597E1E1_prototype:F8CB4729E38E247AF(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FCE9A8BE5AC87907C
+  L5_2 = self
+  L4_2 = self.FCE9A8BE5AC87907C
   L6_2 = A1_2
   L7_2 = A2_2
   L8_2 = nil
@@ -252,11 +239,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "F68D01D14E43A30E3"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.field.contents.effect.ContentsEffectManager.CallEmotionEffect
+function C7C339C896597E1E1_prototype:F68D01D14E43A30E3(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
   L7_2 = A4_2
   L6_2 = A4_2.f6DFDCB03
@@ -302,8 +286,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L18_2[2] = L20_2
   L18_2[3] = L21_2
   L7_2 = L18_2
-  L19_2 = A0_2
-  L18_2 = A0_2.F2B47B096376BF720
+  L19_2 = self
+  L18_2 = self.F2B47B096376BF720
   L20_2 = A1_2
   L21_2 = L7_2
   
@@ -348,11 +332,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L18_2(L19_2, L20_2, L21_2, L22_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "FC55F1D1ABF56415A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.field.contents.effect.ContentsEffectManager.CallHeartEffect
+function C7C339C896597E1E1_prototype:FC55F1D1ABF56415A(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L5_2 = A3_2
   L4_2 = A3_2.f689968B2
@@ -448,8 +429,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     end
   end
   if 34 ~= L5_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F68D01D14E43A30E3
+    L7_2 = self
+    L6_2 = self.F68D01D14E43A30E3
     L8_2 = L5_2
     L9_2 = A1_2
     L10_2 = A2_2
@@ -472,16 +453,13 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "FCE9A8BE5AC87907C"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.field.contents.effect.ContentsEffectManager.CallEffectAttachSRT
+function C7C339C896597E1E1_prototype:FCE9A8BE5AC87907C(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   if nil == A4_2 then
     A4_2 = ""
   end
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L6_2 = L6_2.length
   if A1_2 >= L6_2 then
     L6_2 = nil
@@ -490,7 +468,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L6_2 = nil
   L7_2 = c451059A3
   L7_2 = L7_2.fCEA5CEED
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L8_2 = L8_2[A1_2]
   L9_2 = L6_2
   L7_2 = L7_2(L8_2, L9_2)
@@ -498,7 +476,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L7_2 = nil
     return L7_2
   end
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L7_2 = L7_2[A1_2]
   L8_2 = L7_2
   L7_2 = L7_2.f900312E7
@@ -507,7 +485,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
     L7_2 = nil
     return L7_2
   end
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = L7_2
   L7_2 = L7_2.f462C9B70
   L7_2 = L7_2(L8_2)
@@ -529,11 +507,11 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L10_2 = L10_2 .. L11_2
   L9_2 = L9_2(L10_2)
   L10_2 = L31_1.string
-  L11_2 = A0_2[3]
+  L11_2 = self[3]
   L11_2 = L11_2[A1_2]
   L10_2 = L10_2(L11_2)
   L9_2 = L9_2 .. L10_2
-  L10_2 = A0_2[1]
+  L10_2 = self[1]
   L10_2 = L10_2[A1_2]
   L7_2 = L7_2(L8_2, L9_2, L10_2)
   L8_2 = nil
@@ -570,8 +548,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L18_2 = L13_2
   L19_2 = L14_2
   L15_2(L16_2, L17_2, L18_2, L19_2)
-  L15_2 = A0_2[3]
-  L16_2 = A0_2[3]
+  L15_2 = self[3]
+  L16_2 = self[3]
   L16_2 = L16_2[A1_2]
   L16_2 = L16_2 + 1
   L15_2[A1_2] = L16_2
@@ -625,7 +603,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   
   L17_2.InitFunc = L18_2
   L16_2 = L16_2(L17_2)
-  L17_2 = A0_2[2]
+  L17_2 = self[2]
   L18_2 = L17_2
   L17_2 = L17_2.push
   L19_2 = L16_2
@@ -633,17 +611,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L16_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "FE6E430F59F8FB5F5"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.field.contents.effect.ContentsEffectManager.CallEffectAttach
+function C7C339C896597E1E1_prototype:FE6E430F59F8FB5F5(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if nil == A4_2 then
     A4_2 = ""
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.FCE9A8BE5AC87907C
+  L7_2 = self
+  L6_2 = self.FCE9A8BE5AC87907C
   L8_2 = A1_2
   L9_2 = c6C285ADF
   L9_2 = L9_2.f7AC1FE6B
@@ -663,11 +638,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "F173F167ACFB0EE2C"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.effect.ContentsEffectManager.RemoveEffect
+function C7C339C896597E1E1_prototype:F173F167ACFB0EE2C(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     return
@@ -685,21 +657,18 @@ function L70_1(A0_2, A1_2)
     L5_2 = true
     L3_2(L4_2, L5_2)
   end
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.remove
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "FF787C3E70E4614BB"
-
-function L70_1(A0_2)
+--- main.field.contents.effect.ContentsEffectManager.FadeAllEffect
+function C7C339C896597E1E1_prototype:FF787C3E70E4614BB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -722,14 +691,11 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "F5443A5408AA27396"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.effect.ContentsEffectManager.FadeEffect
+function C7C339C896597E1E1_prototype:F5443A5408AA27396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = 0
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -756,11 +722,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "FC134C56F90E951B8"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.effect.ContentsEffectManager.LoadObjectTemplate
+function C7C339C896597E1E1_prototype:FC134C56F90E951B8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -795,12 +758,12 @@ function L70_1(A0_2, A1_2)
     L8_2 = nil
     L9_2 = c451059A3
     L9_2 = L9_2.f17C198F8
-    L10_2 = A0_2[1]
+    L10_2 = self[1]
     L10_2 = L10_2[L7_2]
     L11_2 = L8_2
     L9_2 = L9_2(L10_2, L11_2)
     if not L9_2 then
-      L9_2 = A0_2[1]
+      L9_2 = self[1]
       L10_2 = c451059A3
       L10_2 = L10_2.f5776B6C6
       L11_2 = L31_1.string
@@ -846,29 +809,23 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "FA25A5C56216E5283"
-
-function L70_1(A0_2)
+--- main.field.contents.effect.ContentsEffectManager.PicnicAllLoadObjectTemplate
+function C7C339C896597E1E1_prototype:FA25A5C56216E5283()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
   L2_2 = C7C339C896597E1E1
   L2_2 = L2_2.S13CF15CAAB40678A
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
-    L4_2 = A0_2
-    L3_2 = A0_2.FC134C56F90E951B8
+    L4_2 = self
+    L3_2 = self.FC134C56F90E951B8
     L5_2 = L1_2 - 1
     L3_2(L4_2, L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "FA000035EFD60A02F"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.effect.ContentsEffectManager.UnLoadObjectTemplate
+function C7C339C896597E1E1_prototype:FA000035EFD60A02F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -899,34 +856,28 @@ function L70_1(A0_2, A1_2)
     end
     L6_2 = L2_2[L5_2]
     L5_2 = L5_2 + 1
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L7_2[L6_2] = nil
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "F614F085EF1E08040"
-
-function L70_1(A0_2)
+--- main.field.contents.effect.ContentsEffectManager.PicnicAllUnLoadObjectTemplate
+function C7C339C896597E1E1_prototype:F614F085EF1E08040()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
   L2_2 = C7C339C896597E1E1
   L2_2 = L2_2.S13CF15CAAB40678A
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
-    L4_2 = A0_2
-    L3_2 = A0_2.FA000035EFD60A02F
+    L4_2 = self
+    L3_2 = self.FA000035EFD60A02F
     L5_2 = L1_2 - 1
     L3_2(L4_2, L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C339C896597E1E1"]["prototype"]
-L69_1 = "F0D12FEC597CBE510"
-
-function L70_1(A0_2, A1_2)
+--- main.field.contents.effect.ContentsEffectManager.IsCallEffect
+function C7C339C896597E1E1_prototype:F0D12FEC597CBE510(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -960,7 +911,7 @@ function L70_1(A0_2, A1_2)
     L7_2 = nil
     L8_2 = c451059A3
     L8_2 = L8_2.fCEA5CEED
-    L9_2 = A0_2[1]
+    L9_2 = self[1]
     L9_2 = L9_2[L6_2]
     L10_2 = L7_2
     L8_2 = L8_2(L9_2, L10_2)
@@ -968,7 +919,7 @@ function L70_1(A0_2, A1_2)
       L8_2 = false
       return L8_2
     end
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L8_2 = L8_2[L6_2]
     L9_2 = L8_2
     L8_2 = L8_2.f900312E7

@@ -1,3 +1,6 @@
+---@alias C5BD8F609907BF2BA main_event_general_raid_FieldRaidReturn
+
+---@class main_event_general_raid_FieldRaidReturn
 L55_1 = _ENV
 L56_1 = "CA4D93C4E389DAEA5"
 L57_1 = L15_1

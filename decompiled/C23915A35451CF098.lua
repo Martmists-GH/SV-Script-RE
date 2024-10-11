@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C23915A35451CF098"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C23915A35451CF098"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C23915A35451CF098"]
-L69_1 = "__name__"
-L70_1 = "C23915A35451CF098"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C23915A35451CF098"]
-L69_1 = "S7C68FEDB79AB6396"
+---@alias C23915A35451CF098 main_ui_resident_resources_ResidentTextMessageUtil
 
-function L70_1()
+---@class main_ui_resident_resources_ResidentTextMessageUtil
+C23915A35451CF098 = L15_1()
+C23915A35451CF098.new = {}
+C23915A35451CF098.__name__ = "C23915A35451CF098"
+--- main.ui.resident_resources.ResidentTextMessageUtil.Setup
+function C23915A35451CF098.S7C68FEDB79AB6396()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C23915A35451CF098
   L1_2 = L52_1.__cast
@@ -26,11 +17,8 @@ function L70_1()
   L0_2.S36EA03922F0904C4 = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C23915A35451CF098"]
-L69_1 = "SDF574494B2D0C44A"
-
-function L70_1(A0_2)
+--- main.ui.resident_resources.ResidentTextMessageUtil.LoadText
+function C23915A35451CF098.SDF574494B2D0C44A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C23915A35451CF098
   L2_2 = L52_1.__cast
@@ -56,11 +44,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C23915A35451CF098"]
-L69_1 = "S52CE1A16C671D0D4"
-
-function L70_1()
+--- main.ui.resident_resources.ResidentTextMessageUtil.UnLoadCurrentText
+function C23915A35451CF098.S52CE1A16C671D0D4()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = 0
   L1_2 = C23915A35451CF098
@@ -90,11 +75,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C23915A35451CF098"]
-L69_1 = "S6FE84C92012A06CC"
-
-function L70_1()
+--- main.ui.resident_resources.ResidentTextMessageUtil.IsWaitLoading
+function C23915A35451CF098.S6FE84C92012A06CC()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = 0
   L1_2 = C23915A35451CF098
@@ -120,11 +102,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C23915A35451CF098"]
-L69_1 = "S4A82E4AFEA018D95"
-
-function L70_1()
+--- main.ui.resident_resources.ResidentTextMessageUtil.IsWaitUnLoading
+function C23915A35451CF098.S4A82E4AFEA018D95()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = 0
   L1_2 = C23915A35451CF098
@@ -150,11 +129,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C23915A35451CF098"]
-L69_1 = "S24F3F55470EE1F9F"
-
-function L70_1(A0_2)
+--- main.ui.resident_resources.ResidentTextMessageUtil.ReplaceTextLanguageSequence
+function C23915A35451CF098.S24F3F55470EE1F9F(A0_2)
   local L1_2, L2_2
   if 0 ~= A0_2 then
     L1_2 = C23915A35451CF098

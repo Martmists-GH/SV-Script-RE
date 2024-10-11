@@ -1,3 +1,7 @@
+---@alias C202DAD9D4B960E4F main_event_general_fly_FlyAreaEvent
+
+---@class main_event_general_fly_FlyAreaEvent : C202DAD9D4B960E4F_prototype
+---@field prototype C202DAD9D4B960E4F_prototype
 L55_1 = _ENV
 L56_1 = "C202DAD9D4B960E4F"
 L57_1 = L15_1
@@ -45,53 +49,36 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C202DAD9D4B960E4F"]
 L69_1 = "__name__"
 L70_1 = "C202DAD9D4B960E4F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C202DAD9D4B960E4F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C202DAD9D4B960E4F"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C202DAD9D4B960E4F_prototype
+C202DAD9D4B960E4F_prototype = L15_1()
+C202DAD9D4B960E4F.prototype = C202DAD9D4B960E4F_prototype
+--- main.event.general.fly.FlyAreaEvent.onCreate
+function C202DAD9D4B960E4F_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.paralleled = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C202DAD9D4B960E4F"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+--- main.event.general.fly.FlyAreaEvent.preStart
+function C202DAD9D4B960E4F_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C202DAD9D4B960E4F"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.general.fly.FlyAreaEvent.postStart
+function C202DAD9D4B960E4F_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C202DAD9D4B960E4F"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.fly.FlyAreaEvent.mainBody
+function C202DAD9D4B960E4F_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F4934567A329A76C4
+  L2_2 = self
+  L1_2 = self.F4934567A329A76C4
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C202DAD9D4B960E4F"]["prototype"]
-L69_1 = "F4934567A329A76C4"
-
-function L70_1(A0_2)
+--- main.event.general.fly.FlyAreaEvent.UnlockFlyPoint
+function C202DAD9D4B960E4F_prototype:F4934567A329A76C4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = CD635EC376A258FDD
   L1_2 = L1_2.SE3378E3279BB7D66
@@ -106,7 +93,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -114,7 +101,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -124,8 +111,8 @@ function L70_1(A0_2)
   if nil == L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FE6CD05730B295F76
+  L3_2 = self
+  L2_2 = self.FE6CD05730B295F76
   L2_2 = L2_2(L3_2)
   if nil == L2_2 then
     return
@@ -146,7 +133,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = c016374C1
       L1_3 = L1_3.f4555D276
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[12]
       L2_3 = L2_3.owner
       L3_3 = L5_2
@@ -154,7 +141,7 @@ function L70_1(A0_2)
       if L1_3 then
         L0_3 = nil
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[12]
       end
       return L0_3
@@ -185,11 +172,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C202DAD9D4B960E4F"]["prototype"]
-L69_1 = "FE6CD05730B295F76"
-
-function L70_1(A0_2)
+--- main.event.general.fly.FlyAreaEvent.GetMapIconData
+function C202DAD9D4B960E4F_prototype:FE6CD05730B295F76()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D

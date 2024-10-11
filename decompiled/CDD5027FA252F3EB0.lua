@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CDD5027FA252F3EB0"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CDD5027FA252F3EB0"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD5027FA252F3EB0"]
-L69_1 = "__name__"
-L70_1 = "CDD5027FA252F3EB0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD5027FA252F3EB0"]
-L69_1 = "S41FC485945BE39D0"
+---@alias CDD5027FA252F3EB0 main_ui_box_search_BoxSearchUtility
 
-function L70_1()
+---@class main_ui_box_search_BoxSearchUtility
+CDD5027FA252F3EB0 = L15_1()
+CDD5027FA252F3EB0.new = {}
+CDD5027FA252F3EB0.__name__ = "CDD5027FA252F3EB0"
+--- main.ui.box.search.BoxSearchUtility.InitBoxSearchData
+function CDD5027FA252F3EB0.S41FC485945BE39D0()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L0_2 = CDD5027FA252F3EB0
   L1_2 = L16_1
@@ -65,11 +56,8 @@ function L70_1()
   L0_2.S42EE19E983D31FF9 = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD5027FA252F3EB0"]
-L69_1 = "SF0C24D7C29DB8DDF"
-
-function L70_1()
+--- main.ui.box.search.BoxSearchUtility.GetSearchData
+function CDD5027FA252F3EB0.SF0C24D7C29DB8DDF()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = cE152E7C7
   L0_2 = L0_2.f101D811F
@@ -185,11 +173,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD5027FA252F3EB0"]
-L69_1 = "S82DA2439B93BEA7A"
-
-function L70_1(A0_2)
+--- main.ui.box.search.BoxSearchUtility.GetItemIDForWazaMachine
+function CDD5027FA252F3EB0.S82DA2439B93BEA7A(A0_2)
   local L1_2, L2_2
   L1_2 = 0
   L2_2 = C828F047963375FA0
@@ -202,11 +187,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD5027FA252F3EB0"]
-L69_1 = "SDEAEAA4E7271437A"
-
-function L70_1(A0_2)
+--- main.ui.box.search.BoxSearchUtility.SDEAEAA4E7271437A
+function CDD5027FA252F3EB0.SDEAEAA4E7271437A(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C6BC8418E8E071EE6
   L1_2 = L1_2.S385504EFF7E842C3
@@ -220,11 +202,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD5027FA252F3EB0"]
-L69_1 = "S744456B80126B26E"
-
-function L70_1(A0_2)
+--- main.ui.box.search.BoxSearchUtility.IncrementBoxMark
+function CDD5027FA252F3EB0.S744456B80126B26E(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CDD5027FA252F3EB0
   L1_2 = L1_2.S42EE19E983D31FF9
@@ -253,11 +232,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD5027FA252F3EB0"]
-L69_1 = "SAE5D64605565F1E8"
-
-function L70_1(A0_2)
+--- main.ui.box.search.BoxSearchUtility.GetBoxMarkAnimeName
+function CDD5027FA252F3EB0.SAE5D64605565F1E8(A0_2)
   local L1_2, L2_2
   L1_2 = 0
   L2_2 = CDD5027FA252F3EB0
@@ -285,42 +261,30 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD5027FA252F3EB0"]
-L69_1 = "S68EDAF1E5799F031"
-
-function L70_1(A0_2)
+--- main.ui.box.search.BoxSearchUtility.SetInitial
+function CDD5027FA252F3EB0.S68EDAF1E5799F031(A0_2)
   local L1_2
   L1_2 = CDD5027FA252F3EB0
   L1_2.S284538EC3EC9E6B9 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD5027FA252F3EB0"]
-L69_1 = "S78F3A004ED6DDB15"
-
-function L70_1()
+--- main.ui.box.search.BoxSearchUtility.GetInitial
+function CDD5027FA252F3EB0.S78F3A004ED6DDB15()
   local L0_2, L1_2
   L0_2 = CDD5027FA252F3EB0
   L0_2 = L0_2.S284538EC3EC9E6B9
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD5027FA252F3EB0"]
-L69_1 = "SCCBA5E6D490C4F14"
-
-function L70_1(A0_2)
+--- main.ui.box.search.BoxSearchUtility.SCCBA5E6D490C4F14
+function CDD5027FA252F3EB0.SCCBA5E6D490C4F14(A0_2)
   local L1_2
   L1_2 = CDD5027FA252F3EB0
   L1_2.S337E9BBB0CB6BE5A = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDD5027FA252F3EB0"]
-L69_1 = "S2F272D82A04BC240"
-
-function L70_1()
+--- main.ui.box.search.BoxSearchUtility.S2F272D82A04BC240
+function CDD5027FA252F3EB0.S2F272D82A04BC240()
   local L0_2, L1_2
   L0_2 = CDD5027FA252F3EB0
   L0_2 = L0_2.S337E9BBB0CB6BE5A

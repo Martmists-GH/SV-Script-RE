@@ -1,3 +1,7 @@
+---@alias CE375006AD3C03952 main_event_command_DemoReplaceTargetTableCommand
+
+---@class main_event_command_DemoReplaceTargetTableCommand : CE375006AD3C03952_prototype
+---@field prototype CE375006AD3C03952_prototype
 L55_1 = _ENV
 L56_1 = "C3FDF9347E1008B91"
 L57_1 = L15_1
@@ -40,11 +44,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3FDF9347E1008B91"]
 L69_1 = "__name__"
 L70_1 = "C3FDF9347E1008B91"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3FDF9347E1008B91"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CE375006AD3C03952_prototype
+CE375006AD3C03952_prototype = L15_1()
+CE375006AD3C03952.prototype = CE375006AD3C03952_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3FDF9347E1008B91"]["prototype"]
 L69_1 = _ENV["C3FDF9347E1008B91"]

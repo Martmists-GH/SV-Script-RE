@@ -1,3 +1,5 @@
+---@class C758A4480EDBFE879 : C758A4480EDBFE879_prototype
+---@field prototype C758A4480EDBFE879_prototype
 L55_1 = _ENV
 L56_1 = "C758A4480EDBFE879"
 L57_1 = L15_1
@@ -39,37 +41,29 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C758A4480EDBFE879"]
 L69_1 = "__name__"
 L70_1 = "C758A4480EDBFE879"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C758A4480EDBFE879"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C758A4480EDBFE879"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C758A4480EDBFE879_prototype
+C758A4480EDBFE879_prototype = L15_1()
+C758A4480EDBFE879.prototype = C758A4480EDBFE879_prototype
+--- C758A4480EDBFE879.Setup
+function C758A4480EDBFE879_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
-  A0_2[3] = A1_2
+  self[3] = A1_2
   L2_2 = CD3A213C7225B68B3
   L2_2 = L2_2.SA542232677361537
   L3_2 = A1_2[2]
   L2_2 = L2_2(L3_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L2_2 = A1_2[2]
-  A0_2[4] = L2_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F22C7B81A049FA20D
+  self[4] = L2_2
+  L3_2 = self
+  L2_2 = self.F22C7B81A049FA20D
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C758A4480EDBFE879"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2, A1_2)
+--- C758A4480EDBFE879.onSetup
+function C758A4480EDBFE879_prototype:F22C7B81A049FA20D(A1_2)
   local L2_2
   L2_2 = true
   return L2_2

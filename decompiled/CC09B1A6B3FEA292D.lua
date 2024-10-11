@@ -1,3 +1,7 @@
+---@alias CC09B1A6B3FEA292D main_ui_dressup_style_view_base_StyleTempData
+
+---@class main_ui_dressup_style_view_base_StyleTempData : CC09B1A6B3FEA292D_prototype
+---@field prototype CC09B1A6B3FEA292D_prototype
 L55_1 = _ENV
 L56_1 = "CC09B1A6B3FEA292D"
 L57_1 = L15_1
@@ -105,26 +109,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC09B1A6B3FEA292D"]
 L69_1 = "__name__"
 L70_1 = "CC09B1A6B3FEA292D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC09B1A6B3FEA292D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC09B1A6B3FEA292D"]["prototype"]
-L69_1 = "FDF1966324684482E"
-
-function L70_1(A0_2)
+---@class CC09B1A6B3FEA292D_prototype
+CC09B1A6B3FEA292D_prototype = L15_1()
+CC09B1A6B3FEA292D.prototype = CC09B1A6B3FEA292D_prototype
+--- main.ui.dressup_style.view.base.StyleTempData.FDF1966324684482E
+function CC09B1A6B3FEA292D_prototype:FDF1966324684482E()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC09B1A6B3FEA292D"]["prototype"]
-L69_1 = "F3DE075844B367ED4"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.dressup_style.view.base.StyleTempData.SetModelAreaPartsSequence
+function CC09B1A6B3FEA292D_prototype:F3DE075844B367ED4(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   L5_2 = A1_2
   L4_2 = A1_2.FE0798533C90C7CCB
@@ -153,17 +149,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC09B1A6B3FEA292D"]["prototype"]
-L69_1 = "F056CC35CBDC0B96A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.dressup_style.view.base.StyleTempData.F056CC35CBDC0B96A
+function CC09B1A6B3FEA292D_prototype:F056CC35CBDC0B96A(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   if L4_2 == A3_2 then
     return
   end
-  A0_2[5] = A3_2
+  self[5] = A3_2
   if A2_2 then
     L4_2 = C3A36506FBC96ACBD
     L4_2 = L4_2.SC6181320B46854EE
@@ -175,33 +168,33 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2 = 0
   L4_2(L5_2, L6_2)
   L4_2 = 0
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2.length
   L6_2 = false
   while L4_2 < L5_2 do
     L4_2 = L4_2 + 1
     L7_2 = L4_2 - 1
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L8_2 = L8_2[L7_2]
-    L9_2 = A0_2[4]
+    L9_2 = self[4]
     L9_2 = L9_2[L7_2]
     if L8_2 ~= L9_2 then
       if not A3_2 then
-        L9_2 = A0_2
-        L8_2 = A0_2.F3DE075844B367ED4
+        L9_2 = self
+        L8_2 = self.F3DE075844B367ED4
         L10_2 = A1_2
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2[L7_2]
-        L12_2 = A0_2[4]
+        L12_2 = self[4]
         L12_2 = L12_2[L7_2]
         L8_2(L9_2, L10_2, L11_2, L12_2)
       else
-        L9_2 = A0_2
-        L8_2 = A0_2.F3DE075844B367ED4
+        L9_2 = self
+        L8_2 = self.F3DE075844B367ED4
         L10_2 = A1_2
-        L11_2 = A0_2[2]
+        L11_2 = self[2]
         L11_2 = L11_2[L7_2]
-        L12_2 = A0_2[1]
+        L12_2 = self[1]
         L12_2 = L12_2[L7_2]
         L8_2(L9_2, L10_2, L11_2, L12_2)
       end
@@ -217,17 +210,14 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L7_2(L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC09B1A6B3FEA292D"]["prototype"]
-L69_1 = "F83434D057DD2EB44"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.dressup_style.view.base.StyleTempData.F83434D057DD2EB44
+function CC09B1A6B3FEA292D_prototype:F83434D057DD2EB44(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F056CC35CBDC0B96A
+  L4_2 = self
+  L3_2 = self.F056CC35CBDC0B96A
   L5_2 = A1_2
   L6_2 = A2_2
-  L7_2 = A0_2[5]
+  L7_2 = self[5]
   L7_2 = not L7_2
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end

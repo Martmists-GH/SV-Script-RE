@@ -1,3 +1,7 @@
+---@alias CBDE60C0367067915 main_system_game_event_GameEventHikoNushiPlayerRockClash
+
+---@class main_system_game_event_GameEventHikoNushiPlayerRockClash : CBDE60C0367067915_prototype
+---@field prototype CBDE60C0367067915_prototype
 L55_1 = _ENV
 L56_1 = "CA0D9243C0DDD5C64"
 L57_1 = L15_1
@@ -58,11 +62,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA0D9243C0DDD5C64"]
 L69_1 = "__name__"
 L70_1 = "CA0D9243C0DDD5C64"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA0D9243C0DDD5C64"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CBDE60C0367067915_prototype
+CBDE60C0367067915_prototype = L15_1()
+CBDE60C0367067915.prototype = CBDE60C0367067915_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA0D9243C0DDD5C64"]["prototype"]
 L69_1 = _ENV["CA0D9243C0DDD5C64"]

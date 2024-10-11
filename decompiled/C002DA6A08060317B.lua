@@ -1,3 +1,5 @@
+---@class C002DA6A08060317B : C002DA6A08060317B_prototype
+---@field prototype C002DA6A08060317B_prototype
 L55_1 = _ENV
 L56_1 = "C002DA6A08060317B"
 L57_1 = L15_1
@@ -45,44 +47,33 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C002DA6A08060317B"]
 L69_1 = "__name__"
 L70_1 = "C002DA6A08060317B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C002DA6A08060317B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C002DA6A08060317B"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C002DA6A08060317B_prototype
+C002DA6A08060317B_prototype = L15_1()
+C002DA6A08060317B.prototype = C002DA6A08060317B_prototype
+--- C002DA6A08060317B.preStart
+function C002DA6A08060317B_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C002DA6A08060317B"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- C002DA6A08060317B.postStart
+function C002DA6A08060317B_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C002DA6A08060317B"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- C002DA6A08060317B.mainBody
+function C002DA6A08060317B_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S38F4FBAC61A2A586
   L2_2 = "Player"
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L3_2 = L3_2.ownerName
   L4_2 = 1.0
   L5_2 = false
   L1_2(L2_2, L3_2, L4_2, L5_2)
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S38F4FBAC61A2A586
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2.ownerName
   L3_2 = "Player"
   L4_2 = 1.0
@@ -91,13 +82,13 @@ function L70_1(A0_2)
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S50FC461CBDCA4B95
   L2_2 = "Player"
-  L3_2 = A0_2[18]
+  L3_2 = self[18]
   L3_2 = L3_2.ownerName
   L4_2 = "neck"
   L1_2(L2_2, L3_2, L4_2)
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S50FC461CBDCA4B95
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2.ownerName
   L3_2 = "Player"
   L4_2 = "neck"
@@ -115,7 +106,7 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2)
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.SF2A52007F22C8572
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2.ownerName
   L1_2(L2_2)
   L1_2 = CDCBFD50A277E546D
@@ -143,32 +134,23 @@ function L70_1(A0_2)
   L1_2(L2_2)
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.SDA9FAC3B251BA47A
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2.ownerName
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C002DA6A08060317B"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- C002DA6A08060317B.mainBodyFinish
+function C002DA6A08060317B_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C002DA6A08060317B"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- C002DA6A08060317B.preEnd
+function C002DA6A08060317B_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C002DA6A08060317B"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- C002DA6A08060317B.postEnd
+function C002DA6A08060317B_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

@@ -1,15 +1,10 @@
-L68_1 = _ENV["C7C062CEACCD73C07"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C062CEACCD73C07"]
-L69_1 = "__name__"
-L70_1 = "C7C062CEACCD73C07"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C062CEACCD73C07"]
-L69_1 = "SEAE560C7B92BBA54"
+---@alias C7C062CEACCD73C07 main_npc_management_NpcSwitcher
 
-function L70_1(A0_2, A1_2, A2_2)
+---@class main_npc_management_NpcSwitcher
+C7C062CEACCD73C07.new = {}
+C7C062CEACCD73C07.__name__ = "C7C062CEACCD73C07"
+--- main.npc_management.NpcSwitcher.NpcSwitcherCallback
+function C7C062CEACCD73C07.SEAE560C7B92BBA54(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = C7C062CEACCD73C07
   L3_2 = L3_2.S0F555837F3D4549F
@@ -31,11 +26,8 @@ L68_1 = "C7C062CEACCD73C07"
 L68_1 = L25_1[L68_1]
 L69_1 = "SEAE560C7B92BBA54"
 L70_1 = _ENV["C7C062CEACCD73C07"]["SEAE560C7B92BBA54"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C062CEACCD73C07"]
-L69_1 = "S0F555837F3D4549F"
-
-function L70_1(A0_2)
+--- main.npc_management.NpcSwitcher.CreateEvaluationData
+function C7C062CEACCD73C07.S0F555837F3D4549F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = A0_2
   L1_2 = A0_2.fE9C29DA1
@@ -122,11 +114,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C062CEACCD73C07"]
-L69_1 = "SDB95F02864023D05"
-
-function L70_1(A0_2, A1_2)
+--- main.npc_management.NpcSwitcher.RegistIgnoreObjectName
+function C7C062CEACCD73C07.SDB95F02864023D05(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = nil
   L3_2 = cA042DA13
@@ -210,11 +199,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C062CEACCD73C07"]
-L69_1 = "SBB0662113F69ED3D"
-
-function L70_1(A0_2, A1_2)
+--- main.npc_management.NpcSwitcher.IsValidObjectName
+function C7C062CEACCD73C07.SBB0662113F69ED3D(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C7C062CEACCD73C07
   L2_2 = L2_2.SFDBC73EF31AB5FE5

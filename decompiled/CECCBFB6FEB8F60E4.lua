@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CECCBFB6FEB8F60E4"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]
-L69_1 = "new"
+---@alias CECCBFB6FEB8F60E4 main_ui_raid_matching_top_RaidMatchingTopDataManager
 
-function L70_1()
+---@class main_ui_raid_matching_top_RaidMatchingTopDataManager : CECCBFB6FEB8F60E4_prototype
+---@field prototype CECCBFB6FEB8F60E4_prototype
+CECCBFB6FEB8F60E4 = L15_1()
+function CECCBFB6FEB8F60E4.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = CECCBFB6FEB8F60E4
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 CECCBFB6FEB8F60E4
+function CECCBFB6FEB8F60E4.super(A0_2)
   local L1_2, L2_2, L3_2
   L2_2 = A0_2
   L1_2 = A0_2.FAE32573A1BB4E923
@@ -33,11 +27,7 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]
-L69_1 = "__name__"
-L70_1 = "CECCBFB6FEB8F60E4"
-L68_1[L69_1] = L70_1
+CECCBFB6FEB8F60E4.__name__ = "CECCBFB6FEB8F60E4"
 L68_1 = _ENV["CECCBFB6FEB8F60E4"]
 L69_1 = "S385504EFF7E842C3"
 
@@ -57,176 +47,126 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "F0F7F3002F9CA766F"
-
-function L70_1(A0_2)
+---@class CECCBFB6FEB8F60E4_prototype
+CECCBFB6FEB8F60E4_prototype = L15_1()
+CECCBFB6FEB8F60E4.prototype = CECCBFB6FEB8F60E4_prototype
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.F0F7F3002F9CA766F
+function CECCBFB6FEB8F60E4_prototype:F0F7F3002F9CA766F()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "FAE32573A1BB4E923"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.FAE32573A1BB4E923
+function CECCBFB6FEB8F60E4_prototype:FAE32573A1BB4E923(A1_2)
   local L2_2
-  A0_2[1] = A1_2
-  L2_2 = A0_2[1]
+  self[1] = A1_2
+  L2_2 = self[1]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "F0CD1A436A7D4719B"
-
-function L70_1(A0_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.get_roomListData
+function CECCBFB6FEB8F60E4_prototype:F0CD1A436A7D4719B()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "F4EE49090C83F2DFF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.set_roomListData
+function CECCBFB6FEB8F60E4_prototype:F4EE49090C83F2DFF(A1_2)
   local L2_2
-  A0_2[3] = A1_2
-  L2_2 = A0_2[3]
+  self[3] = A1_2
+  L2_2 = self[3]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "F2E721FE4B252BD32"
-
-function L70_1(A0_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.get_roomListDataTeam
+function CECCBFB6FEB8F60E4_prototype:F2E721FE4B252BD32()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "FF8590ED59E88627E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.set_roomListDataTeam
+function CECCBFB6FEB8F60E4_prototype:FF8590ED59E88627E(A1_2)
   local L2_2
-  A0_2[4] = A1_2
-  L2_2 = A0_2[4]
+  self[4] = A1_2
+  L2_2 = self[4]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "F795A08BD6BFEC7F3"
-
-function L70_1(A0_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.F795A08BD6BFEC7F3
+function CECCBFB6FEB8F60E4_prototype:F795A08BD6BFEC7F3()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "FFA8E91C44EC834AF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.FFA8E91C44EC834AF
+function CECCBFB6FEB8F60E4_prototype:FFA8E91C44EC834AF(A1_2)
   local L2_2
-  A0_2[5] = A1_2
-  L2_2 = A0_2[5]
+  self[5] = A1_2
+  L2_2 = self[5]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "F151EC4930E9A5606"
-
-function L70_1(A0_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.F151EC4930E9A5606
+function CECCBFB6FEB8F60E4_prototype:F151EC4930E9A5606()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "F44F2A0A3EFE5373A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.F44F2A0A3EFE5373A
+function CECCBFB6FEB8F60E4_prototype:F44F2A0A3EFE5373A(A1_2)
   local L2_2
-  A0_2[6] = A1_2
-  L2_2 = A0_2[6]
+  self[6] = A1_2
+  L2_2 = self[6]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "F22A87905DE11E771"
-
-function L70_1(A0_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.get_password
+function CECCBFB6FEB8F60E4_prototype:F22A87905DE11E771()
   local L1_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "F4F41A55B28ED2A95"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.set_password
+function CECCBFB6FEB8F60E4_prototype:F4F41A55B28ED2A95(A1_2)
   local L2_2
-  A0_2[7] = A1_2
-  L2_2 = A0_2[7]
+  self[7] = A1_2
+  L2_2 = self[7]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "FC7260B0F6B01EF3A"
-
-function L70_1(A0_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.get_passwordEnable
+function CECCBFB6FEB8F60E4_prototype:FC7260B0F6B01EF3A()
   local L1_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "F5915C5C57C343BDE"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.set_passwordEnable
+function CECCBFB6FEB8F60E4_prototype:F5915C5C57C343BDE(A1_2)
   local L2_2
-  A0_2[8] = A1_2
-  L2_2 = A0_2[8]
+  self[8] = A1_2
+  L2_2 = self[8]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "FDD144D33ED36BEC7"
-
-function L70_1(A0_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.get_raidMatchingTopView
+function CECCBFB6FEB8F60E4_prototype:FDD144D33ED36BEC7()
   local L1_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CECCBFB6FEB8F60E4"]["prototype"]
-L69_1 = "FC24B502F679104AB"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.raid_matching.top.RaidMatchingTopDataManager.set_raidMatchingTopView
+function CECCBFB6FEB8F60E4_prototype:FC24B502F679104AB(A1_2)
   local L2_2
-  A0_2[9] = A1_2
-  L2_2 = A0_2[9]
+  self[9] = A1_2
+  L2_2 = self[9]
   return L2_2
 end
 

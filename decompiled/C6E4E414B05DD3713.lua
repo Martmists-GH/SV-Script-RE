@@ -1,3 +1,7 @@
+---@alias C6E4E414B05DD3713 main_field_behaviour_npc_FieldNpcData
+
+---@class main_field_behaviour_npc_FieldNpcData : C6E4E414B05DD3713_prototype
+---@field prototype C6E4E414B05DD3713_prototype
 L55_1 = _ENV
 L56_1 = "C6E4E414B05DD3713"
 L57_1 = L15_1
@@ -48,16 +52,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C6E4E414B05DD3713"]
 L69_1 = "__name__"
 L70_1 = "C6E4E414B05DD3713"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6E4E414B05DD3713"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6E4E414B05DD3713"]["prototype"]
-L69_1 = "F44F70F61C684493A"
-
-function L70_1(A0_2, A1_2)
+---@class C6E4E414B05DD3713_prototype
+C6E4E414B05DD3713_prototype = L15_1()
+C6E4E414B05DD3713.prototype = C6E4E414B05DD3713_prototype
+--- main.field.behaviour.npc.FieldNpcData.GetMotionParam
+function C6E4E414B05DD3713_prototype:F44F70F61C684493A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C6E4E414B05DD3713
   L2_2 = L2_2.SCED8B9CB1ECF53A7
@@ -94,11 +93,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6E4E414B05DD3713"]["prototype"]
-L69_1 = "FB161E0ECEDF2509F"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.npc.FieldNpcData.GetPokemonMotionParam
+function C6E4E414B05DD3713_prototype:FB161E0ECEDF2509F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C6E4E414B05DD3713
   L2_2 = L2_2.SBAECD8745A3D1C72
@@ -135,11 +131,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6E4E414B05DD3713"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.npc.FieldNpcData.Setup
+function C6E4E414B05DD3713_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C6E4E414B05DD3713
   L3_2 = C6E4E414B05DD3713
@@ -165,11 +158,8 @@ function L70_1(A0_2, A1_2)
   L2_2.SBAECD8745A3D1C72 = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6E4E414B05DD3713"]["prototype"]
-L69_1 = "F5CA6254C87455AE1"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.behaviour.npc.FieldNpcData.SetupMotionParamMap
+function C6E4E414B05DD3713_prototype:F5CA6254C87455AE1(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F

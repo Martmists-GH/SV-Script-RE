@@ -1,3 +1,7 @@
+---@alias C0E064D181D9C0CF8 main_event_data_encount_EncountEventData
+
+---@class main_event_data_encount_EncountEventData : C0E064D181D9C0CF8_prototype
+---@field prototype C0E064D181D9C0CF8_prototype
 L55_1 = _ENV
 L56_1 = "C0E064D181D9C0CF8"
 L57_1 = L15_1
@@ -53,40 +57,32 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C0E064D181D9C0CF8"]
 L69_1 = "__name__"
 L70_1 = "C0E064D181D9C0CF8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E064D181D9C0CF8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E064D181D9C0CF8"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C0E064D181D9C0CF8_prototype
+C0E064D181D9C0CF8_prototype = L15_1()
+C0E064D181D9C0CF8.prototype = C0E064D181D9C0CF8_prototype
+--- main.event.data.encount.EncountEventData.Setup
+function C0E064D181D9C0CF8_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F1C8EB1D2A3BFE471
+  L3_2 = self
+  L2_2 = self.F1C8EB1D2A3BFE471
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F0362A3CDCE33D1BD
+  L3_2 = self
+  L2_2 = self.F0362A3CDCE33D1BD
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2.knockbackData
   L4_2 = L3_2
   L3_2 = L3_2.FE061843D64753156
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.fBE3B2D3B
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E064D181D9C0CF8"]["prototype"]
-L69_1 = "F1C8EB1D2A3BFE471"
-
-function L70_1(A0_2)
+--- main.event.data.encount.EncountEventData.SetupInstance
+function C0E064D181D9C0CF8_prototype:F1C8EB1D2A3BFE471()
   local L1_2
   L1_2 = C0E064D181D9C0CF8
   L1_2 = L1_2.S264F26F6894F3392
@@ -94,18 +90,15 @@ function L70_1(A0_2)
     return
   end
   L1_2 = C0E064D181D9C0CF8
-  L1_2.S264F26F6894F3392 = A0_2
+  L1_2.S264F26F6894F3392 = self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E064D181D9C0CF8"]["prototype"]
-L69_1 = "F0362A3CDCE33D1BD"
-
-function L70_1(A0_2)
+--- main.event.data.encount.EncountEventData.GetRootTable
+function C0E064D181D9C0CF8_prototype:F0362A3CDCE33D1BD()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c7B88F8F8
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = c7B88F8F8

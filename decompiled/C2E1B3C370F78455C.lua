@@ -1,3 +1,7 @@
+---@alias C2E1B3C370F78455C main_event_general_danbattle_DanBattleEvent
+
+---@class main_event_general_danbattle_DanBattleEvent : C2E1B3C370F78455C_prototype
+---@field prototype C2E1B3C370F78455C_prototype
 L55_1 = _ENV
 L56_1 = "C2E1B3C370F78455C"
 L57_1 = L15_1
@@ -49,16 +53,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2E1B3C370F78455C"]
 L69_1 = "__name__"
 L70_1 = "C2E1B3C370F78455C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E1B3C370F78455C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E1B3C370F78455C"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C2E1B3C370F78455C_prototype
+C2E1B3C370F78455C_prototype = L15_1()
+C2E1B3C370F78455C.prototype = C2E1B3C370F78455C_prototype
+--- main.event.general.danbattle.DanBattleEvent.mainBody
+function C2E1B3C370F78455C_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C896E82AC366C8E8F
   L1_2 = L1_2.S4539FBABC0D19D63
@@ -76,16 +75,16 @@ function L70_1(A0_2)
   L1_2 = CAE4A090462DA878F
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FD8D5F3745B4B5174
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F5297CD7DDDDF323F
+  L2_2 = self
+  L1_2 = self.F5297CD7DDDDF323F
   L1_2(L2_2)
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.SA5B8258582A90EF3
   L2_2 = C7124A45F44943684
   L2_2 = L2_2.SF950013E0FEB9975
-  L3_2 = A0_2[33]
+  L3_2 = self[33]
   L4_2 = 2
   L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2 = L2_2(L3_2, L4_2)
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
@@ -94,9 +93,9 @@ function L70_1(A0_2)
   end
   L1_2 = C7124A45F44943684
   L1_2 = L1_2.S5387F61EC3258B6B
-  L2_2 = A0_2[33]
+  L2_2 = self[33]
   L1_2 = L1_2(L2_2)
-  A0_2[35] = L1_2
+  self[35] = L1_2
   L1_2 = nil
   L2_2 = L10_1.string
   L2_2 = L2_2.find
@@ -106,7 +105,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -114,7 +113,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -148,16 +147,16 @@ function L70_1(A0_2)
   
   L3_2 = L3_2()
   L3_2 = -1 ~= L3_2
-  A0_2[36] = L3_2
+  self[36] = L3_2
   L3_2 = C1E6D887767D3DC7E
   L3_2 = L3_2.S08B3E30873E05109
-  L4_2 = A0_2[35]
-  L5_2 = A0_2[33]
+  L4_2 = self[35]
+  L5_2 = self[33]
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = C7124A45F44943684
     L3_2 = L3_2.S78F6FA447CBC3638
-    L4_2 = A0_2[33]
+    L4_2 = self[33]
     L3_2 = L3_2(L4_2)
     if L3_2 then
       L3_2 = C0D02CEE5FD6D6D49
@@ -170,9 +169,9 @@ function L70_1(A0_2)
       L8_2.AjitoType = true
       L8_2.IsBPoint = true
       L7_2.__fields__ = L8_2
-      L8_2 = A0_2[33]
+      L8_2 = self[33]
       L7_2.AjitoType = L8_2
-      L8_2 = A0_2[36]
+      L8_2 = self[36]
       L7_2.IsBPoint = L8_2
       L6_2, L7_2, L8_2 = L6_2(L7_2)
       L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
@@ -186,13 +185,13 @@ function L70_1(A0_2)
     elseif 1 == L3_2 then
       L4_2 = C1E6D887767D3DC7E
       L4_2 = L4_2.S33CD9807F4DDDF86
-      L5_2 = A0_2[35]
+      L5_2 = self[35]
       L4_2(L5_2)
       return
     elseif 2 == L3_2 then
       L4_2 = C1E6D887767D3DC7E
       L4_2 = L4_2.S65A2041A04B2A5CB
-      L5_2 = A0_2[35]
+      L5_2 = self[35]
       L4_2(L5_2)
       return
     end
@@ -200,11 +199,11 @@ function L70_1(A0_2)
     L4_2 = L4_2.SDDCF2C31DADBAB65
     L5_2 = "TEAM_RUSH_BATTLE_ACCEPT"
     L4_2(L5_2)
-    L5_2 = A0_2
-    L4_2 = A0_2.FD04366FE468518B1
-    L6_2 = A0_2[33]
-    L7_2 = A0_2[35]
-    L8_2 = A0_2[36]
+    L5_2 = self
+    L4_2 = self.FD04366FE468518B1
+    L6_2 = self[33]
+    L7_2 = self[35]
+    L8_2 = self[36]
     L4_2(L5_2, L6_2, L7_2, L8_2)
   end
 end
@@ -214,7 +213,7 @@ L68_1 = _ENV["C2E1B3C370F78455C"]
 L68_1 = L68_1.prototype
 L69_1 = "F5297CD7DDDDF323F"
 
-function L70_1(A0_2)
+function L70_1(self)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = nil
   
@@ -223,7 +222,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -231,7 +230,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -266,7 +265,7 @@ function L70_1(A0_2)
   L7_2 = "danType"
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
-  A0_2[33] = L3_2
+  self[33] = L3_2
 end
 
 L68_1[L69_1] = L70_1
@@ -274,7 +273,7 @@ L68_1 = _ENV["C2E1B3C370F78455C"]
 L68_1 = L68_1.prototype
 L69_1 = "FD04366FE468518B1"
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+function L70_1(self, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = C07E4F1BF071B0460
   L4_2 = L4_2.SD70567B53DCF1EBB
@@ -377,8 +376,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2 = L6_2[4]
   L7_2 = A2_2
   L5_2(L6_2, L7_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F4209B1097F0F32F4
+  L6_2 = self
+  L5_2 = self.F4209B1097F0F32F4
   L7_2 = A1_2
   L8_2 = A3_2
   L5_2(L6_2, L7_2, L8_2)
@@ -403,7 +402,7 @@ L68_1 = _ENV["C2E1B3C370F78455C"]
 L68_1 = L68_1.prototype
 L69_1 = "F4209B1097F0F32F4"
 
-function L70_1(A0_2, A1_2, A2_2)
+function L70_1(self, A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = E0325C4DFFFF5A481
   L3_2 = L3_2.Fire
@@ -446,7 +445,7 @@ L68_1 = _ENV["C2E1B3C370F78455C"]
 L68_1 = L68_1.prototype
 L69_1 = "FA2C827B56F56ABDF"
 
-function L70_1(A0_2)
+function L70_1(self)
   local L1_2
   L1_2 = C2E1B3C370F78455C
   L1_2.S7B40F59D7CDDF93F = false

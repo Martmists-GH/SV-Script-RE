@@ -1,3 +1,7 @@
+---@alias C49C2BDE5880E4F42 main_field_global_event_check_event_checker_EventCheckerTalkPartner
+
+---@class main_field_global_event_check_event_checker_EventCheckerTalkPartner : C49C2BDE5880E4F42_prototype
+---@field prototype C49C2BDE5880E4F42_prototype
 L55_1 = _ENV
 L56_1 = "C49C2BDE5880E4F42"
 L57_1 = L15_1
@@ -39,26 +43,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C49C2BDE5880E4F42"]
 L69_1 = "__name__"
 L70_1 = "C49C2BDE5880E4F42"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49C2BDE5880E4F42"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49C2BDE5880E4F42"]["prototype"]
-L69_1 = "FEBB6C7EABF14DA04"
-
-function L70_1(A0_2)
+---@class C49C2BDE5880E4F42_prototype
+C49C2BDE5880E4F42_prototype = L15_1()
+C49C2BDE5880E4F42.prototype = C49C2BDE5880E4F42_prototype
+--- main.field.global_event_check.event_checker.EventCheckerTalkPartner.BootEventTriggerId
+function C49C2BDE5880E4F42_prototype:FEBB6C7EABF14DA04()
   local L1_2
   L1_2 = 2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49C2BDE5880E4F42"]["prototype"]
-L69_1 = "F7B29AC6696E62600"
-
-function L70_1(A0_2)
+--- main.field.global_event_check.event_checker.EventCheckerTalkPartner.RequiredEventCategory
+function C49C2BDE5880E4F42_prototype:F7B29AC6696E62600()
   local L1_2, L2_2, L3_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -68,11 +64,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49C2BDE5880E4F42"]["prototype"]
-L69_1 = "F06B203964756B0E9"
-
-function L70_1(A0_2, A1_2)
+--- main.field.global_event_check.event_checker.EventCheckerTalkPartner.F06B203964756B0E9
+function C49C2BDE5880E4F42_prototype:F06B203964756B0E9(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S93A017D496A6D000
@@ -160,19 +153,16 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49C2BDE5880E4F42"]["prototype"]
-L69_1 = "FDA98E87C57449F00"
-
-function L70_1(A0_2, A1_2)
+--- main.field.global_event_check.event_checker.EventCheckerTalkPartner.OnEventCheck
+function C49C2BDE5880E4F42_prototype:FDA98E87C57449F00(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   L2_2 = A1_2[0]
   if nil == L2_2 then
     L3_2 = nil
     return L3_2
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F8876F03C89E03D9C
+  L4_2 = self
+  L3_2 = self.F8876F03C89E03D9C
   L5_2 = A1_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
@@ -195,16 +185,16 @@ function L70_1(A0_2, A1_2)
     L3_2 = nil
     return L3_2
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FBCEA07F36FD5854C
+  L4_2 = self
+  L3_2 = self.FBCEA07F36FD5854C
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = nil
     return L3_2
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FD16285FB994DFEEF
+  L4_2 = self
+  L3_2 = self.FD16285FB994DFEEF
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if not L3_2 then
@@ -310,11 +300,8 @@ function L70_1(A0_2, A1_2)
   return L21_2(L22_2, L23_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49C2BDE5880E4F42"]["prototype"]
-L69_1 = "F8876F03C89E03D9C"
-
-function L70_1(A0_2, A1_2)
+--- main.field.global_event_check.event_checker.EventCheckerTalkPartner.checkDanPartner
+function C49C2BDE5880E4F42_prototype:F8876F03C89E03D9C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = nil
   L3_2 = 0
@@ -382,11 +369,8 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49C2BDE5880E4F42"]["prototype"]
-L69_1 = "F75F6688F62DA7487"
-
-function L70_1(A0_2, A1_2)
+--- main.field.global_event_check.event_checker.EventCheckerTalkPartner.IsRequiredObject
+function C49C2BDE5880E4F42_prototype:F75F6688F62DA7487(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = A1_2.owner
   L3_2 = L2_2
@@ -483,11 +467,8 @@ function L70_1(A0_2, A1_2)
   return L11_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49C2BDE5880E4F42"]["prototype"]
-L69_1 = "FBCEA07F36FD5854C"
-
-function L70_1(A0_2, A1_2)
+--- main.field.global_event_check.event_checker.EventCheckerTalkPartner.IsOnTheObonFloater
+function C49C2BDE5880E4F42_prototype:FBCEA07F36FD5854C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = A1_2.owner
   L3_2 = L2_2
@@ -558,11 +539,8 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49C2BDE5880E4F42"]["prototype"]
-L69_1 = "FD16285FB994DFEEF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.global_event_check.event_checker.EventCheckerTalkPartner.FD16285FB994DFEEF
+function C49C2BDE5880E4F42_prototype:FD16285FB994DFEEF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = A1_2.owner
   L3_2 = L2_2

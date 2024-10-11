@@ -1,3 +1,5 @@
+---@class CCD823E62A1C103D8 : CCD823E62A1C103D8_prototype
+---@field prototype CCD823E62A1C103D8_prototype
 L55_1 = _ENV
 L56_1 = "CCD823E62A1C103D8"
 L57_1 = L15_1
@@ -41,16 +43,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCD823E62A1C103D8"]
 L69_1 = "__name__"
 L70_1 = "CCD823E62A1C103D8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD823E62A1C103D8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD823E62A1C103D8"]["prototype"]
-L69_1 = "FB4B5759D65F5972C"
-
-function L70_1(A0_2)
+---@class CCD823E62A1C103D8_prototype
+CCD823E62A1C103D8_prototype = L15_1()
+CCD823E62A1C103D8.prototype = CCD823E62A1C103D8_prototype
+--- CCD823E62A1C103D8.OnLoad
+function CCD823E62A1C103D8_prototype:FB4B5759D65F5972C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -71,8 +68,8 @@ function L70_1(A0_2)
         break
       end
     end
-    L3_2 = A0_2
-    L2_2 = A0_2.F8996DF23037F23E3
+    L3_2 = self
+    L2_2 = self.F8996DF23037F23E3
     L2_2(L3_2)
   end
   L3_2 = L1_2
@@ -94,12 +91,12 @@ function L70_1(A0_2)
     L6_2 = "picnic_menu"
     L4_2 = L4_2(L5_2, L6_2)
     L2_2 = L4_2
-    L5_2 = A0_2
-    L4_2 = A0_2.F8996DF23037F23E3
+    L5_2 = self
+    L4_2 = self.F8996DF23037F23E3
     L4_2(L5_2)
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F3D9428A4504DD57D
+  L4_2 = self
+  L3_2 = self.F3D9428A4504DD57D
   
   function L5_2()
     local L0_3, L1_3
@@ -115,8 +112,8 @@ function L70_1(A0_2)
   L5_2 = "top_menu"
   L3_2 = L3_2(L4_2, L5_2)
   L2_2 = L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F3D9428A4504DD57D
+  L4_2 = self
+  L3_2 = self.F3D9428A4504DD57D
   
   function L5_2()
     local L0_3, L1_3
@@ -129,11 +126,8 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCD823E62A1C103D8"]["prototype"]
-L69_1 = "F7A48ED910AD701E3"
-
-function L70_1(A0_2)
+--- CCD823E62A1C103D8.OnUnLoad
+function CCD823E62A1C103D8_prototype:F7A48ED910AD701E3()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D

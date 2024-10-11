@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CA7E30BA2AABE1788"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CA7E30BA2AABE1788"]
-L69_1 = "new"
+---@alias CA7E30BA2AABE1788 main_system_game_event_GameEventJoinPicnic
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventJoinPicnic : CA7E30BA2AABE1788_prototype
+---@field prototype CA7E30BA2AABE1788_prototype
+CA7E30BA2AABE1788 = L15_1()
+function CA7E30BA2AABE1788.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CA7E30BA2AABE1788
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA7E30BA2AABE1788"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CA7E30BA2AABE1788
+function CA7E30BA2AABE1788.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CE0D511325372F946
   L3_2 = L3_2.super
@@ -37,11 +31,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA7E30BA2AABE1788"]
-L69_1 = "__name__"
-L70_1 = "CA7E30BA2AABE1788"
-L68_1[L69_1] = L70_1
+CA7E30BA2AABE1788.__name__ = "CA7E30BA2AABE1788"
 L68_1 = _ENV["CA7E30BA2AABE1788"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -69,29 +59,21 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA7E30BA2AABE1788"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA7E30BA2AABE1788"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+---@class CA7E30BA2AABE1788_prototype
+CA7E30BA2AABE1788_prototype = L15_1()
+CA7E30BA2AABE1788.prototype = CA7E30BA2AABE1788_prototype
+--- main.system.game_event.GameEventJoinPicnic.onUpdate
+function CA7E30BA2AABE1788_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FBA114AFA44F88081
+  L2_2 = self
+  L1_2 = self.FBA114AFA44F88081
   L1_2(L2_2)
   L1_2 = 2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA7E30BA2AABE1788"]["prototype"]
-L69_1 = "FBA114AFA44F88081"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventJoinPicnic.MenuMsgJoinPicnicCoroutine
+function CA7E30BA2AABE1788_prototype:FBA114AFA44F88081()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = c7EDB7BA9
   L1_2 = L1_2.fE50E7EE0
@@ -123,8 +105,8 @@ function L70_1(A0_2)
   if L5_2 then
     return
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F8D48E9B387242660
+  L6_2 = self
+  L5_2 = self.F8D48E9B387242660
   L5_2 = L5_2(L6_2)
   if not L5_2 then
     return
@@ -351,11 +333,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA7E30BA2AABE1788"]["prototype"]
-L69_1 = "F8D48E9B387242660"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventJoinPicnic.onSetupForUpdateCommon
+function CA7E30BA2AABE1788_prototype:F8D48E9B387242660()
   local L1_2, L2_2
   L1_2 = CD2A28B888FB4BC08
   L1_2 = L1_2.new

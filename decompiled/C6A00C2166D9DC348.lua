@@ -1,16 +1,12 @@
-L55_1 = _ENV
-L56_1 = "C6A00C2166D9DC348"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
+---@alias C6A00C2166D9DC348 main_event_general_gym_base_Gym_esper_UI_common
+
+---@class main_event_general_gym_base_Gym_esper_UI_common : C6A00C2166D9DC348_prototype
+---@field prototype C6A00C2166D9DC348_prototype
+C6A00C2166D9DC348 = L15_1()
 L68_1 = _ENV["C6A00C2166D9DC348"]
 L69_1 = "new"
 L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6A00C2166D9DC348"]
-L69_1 = "__name__"
-L70_1 = "C6A00C2166D9DC348"
-L68_1[L69_1] = L70_1
+C6A00C2166D9DC348.__name__ = "C6A00C2166D9DC348"
 L68_1 = _ENV["C6A00C2166D9DC348"]
 L69_1 = "S7C68FEDB79AB6396"
 
@@ -84,11 +80,8 @@ function L70_1()
   L2_2.SF1DABE0C28D9AEA0 = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6A00C2166D9DC348"]
-L69_1 = "S7EED485852A4D25F"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_UI_common.Start
+function C6A00C2166D9DC348.S7EED485852A4D25F(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C6A00C2166D9DC348
   L1_2 = L1_2.S8108991BB88C4FB5
@@ -103,11 +96,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6A00C2166D9DC348"]
-L69_1 = "SFF8084999DD2E770"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_UI_common.UIUnload
+function C6A00C2166D9DC348.SFF8084999DD2E770()
   local L0_2, L1_2
   L0_2 = CC6FE82819C6E1D55
   L0_2 = L0_2.SF8D8FFC774DA1818
@@ -121,11 +111,8 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6A00C2166D9DC348"]
-L69_1 = "S5E76D6B9790115ED"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_UI_common.getLayout
+function C6A00C2166D9DC348.S5E76D6B9790115ED(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L3_2 = A0_2
   L2_2 = A0_2.fD4E64AB7
@@ -166,16 +153,11 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6A00C2166D9DC348"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6A00C2166D9DC348"]["prototype"]
-L69_1 = "FD014229B3B926D03"
-
-function L70_1(A0_2)
+---@class C6A00C2166D9DC348_prototype
+C6A00C2166D9DC348_prototype = L15_1()
+C6A00C2166D9DC348.prototype = C6A00C2166D9DC348_prototype
+--- main.event.general.gym.base.Gym_esper_UI_common.Close
+function C6A00C2166D9DC348_prototype:FD014229B3B926D03()
   local L1_2, L2_2, L3_2
   L1_2 = C6A00C2166D9DC348
   L1_2 = L1_2.S09B4490393D21B8D

@@ -1,3 +1,7 @@
+---@alias C22E56012C81D6348 main_field_gimmick_hidden_item_HiddenItemBiomeTable
+
+---@class main_field_gimmick_hidden_item_HiddenItemBiomeTable : C22E56012C81D6348_prototype
+---@field prototype C22E56012C81D6348_prototype
 L55_1 = _ENV
 L56_1 = "C22E56012C81D6348"
 L57_1 = L15_1
@@ -103,23 +107,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C22E56012C81D6348"]
 L69_1 = "__name__"
 L70_1 = "C22E56012C81D6348"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C22E56012C81D6348"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C22E56012C81D6348"]["prototype"]
-L69_1 = "F18515E93ED9E93AC"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class C22E56012C81D6348_prototype
+C22E56012C81D6348_prototype = L15_1()
+C22E56012C81D6348.prototype = C22E56012C81D6348_prototype
+--- main.field.gimmick.hidden_item.HiddenItemBiomeTable.GetTableId
+function C22E56012C81D6348_prototype:F18515E93ED9E93AC(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = nil
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2.h
   L4_2 = L4_2[A1_2]
   if nil ~= L4_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L4_2 = L4_2.h
     L4_2 = L4_2[A1_2]
     L5_2 = L42_1.tnull
@@ -136,7 +135,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = ""
     return L4_2
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2.h
   L4_2 = L4_2[A1_2]
   L5_2 = L42_1.tnull

@@ -1,3 +1,5 @@
+---@class C298CBC7224442B70 : C298CBC7224442B70_prototype
+---@field prototype C298CBC7224442B70_prototype
 L55_1 = _ENV
 L56_1 = "C298CBC7224442B70"
 L57_1 = L15_1
@@ -53,16 +55,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C298CBC7224442B70"]
 L69_1 = "__name__"
 L70_1 = "C298CBC7224442B70"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C298CBC7224442B70"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C298CBC7224442B70"]["prototype"]
-L69_1 = "FB273BAF437E771A0"
-
-function L70_1(A0_2, A1_2)
+---@class C298CBC7224442B70_prototype
+C298CBC7224442B70_prototype = L15_1()
+C298CBC7224442B70.prototype = C298CBC7224442B70_prototype
+--- C298CBC7224442B70.SetParam
+function C298CBC7224442B70_prototype:FB273BAF437E771A0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = A1_2
   L2_2 = A1_2.f08C48539
@@ -88,7 +85,7 @@ function L70_1(A0_2, A1_2)
   L3_2[5] = L8_2
   L3_2[6] = L9_2
   L3_2[7] = L10_2
-  A0_2[1] = L3_2
+  self[1] = L3_2
   L4_2 = A1_2
   L3_2 = A1_2.f08C48539
   L5_2 = "rotate"
@@ -123,7 +120,7 @@ function L70_1(A0_2, A1_2)
   L8_2 = L8_2.pi
   L7_2 = L7_2 * L8_2
   L4_2 = L4_2(L5_2, L6_2, L7_2)
-  A0_2[2] = L4_2
+  self[2] = L4_2
   L5_2 = A1_2
   L4_2 = A1_2.f08C48539
   L6_2 = "translate"
@@ -146,14 +143,11 @@ function L70_1(A0_2, A1_2)
   L5_2[3] = L8_2
   L5_2[4] = L9_2
   L5_2[5] = L10_2
-  A0_2[3] = L5_2
+  self[3] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C298CBC7224442B70"]["prototype"]
-L69_1 = "F282EA9FDF6499CF8"
-
-function L70_1(A0_2, A1_2)
+--- C298CBC7224442B70.ApplyParam
+function C298CBC7224442B70_prototype:F282EA9FDF6499CF8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = nil
   L3_2 = c016374C1
@@ -164,7 +158,7 @@ function L70_1(A0_2, A1_2)
   if L3_2 then
     return
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L5_2 = A1_2
   L4_2 = A1_2.fFDBC8E95
   L6_2 = L3_2[1]
@@ -173,9 +167,9 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2, L8_2)
   L5_2 = A1_2
   L4_2 = A1_2.f24032F87
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L4_2(L5_2, L6_2)
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L6_2 = A1_2
   L5_2 = A1_2.f8F2B0552
   L7_2 = L4_2[1]

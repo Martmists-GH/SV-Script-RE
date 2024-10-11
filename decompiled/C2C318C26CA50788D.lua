@@ -1,3 +1,7 @@
+---@alias C2C318C26CA50788D main_nushi_dragon_DragonNushiEvent020Setup
+
+---@class main_nushi_dragon_DragonNushiEvent020Setup : C2C318C26CA50788D_prototype
+---@field prototype C2C318C26CA50788D_prototype
 L55_1 = _ENV
 L56_1 = "C2C318C26CA50788D"
 L57_1 = L15_1
@@ -51,25 +55,20 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C2C318C26CA50788D"]
 L69_1 = "__name__"
 L70_1 = "C2C318C26CA50788D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C318C26CA50788D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C318C26CA50788D"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2)
+---@class C2C318C26CA50788D_prototype
+C2C318C26CA50788D_prototype = L15_1()
+C2C318C26CA50788D.prototype = C2C318C26CA50788D_prototype
+--- main.nushi.dragon.DragonNushiEvent020Setup.Init
+function C2C318C26CA50788D_prototype:F90BBC6B0190BF053()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = C2C318C26CA50788D
-  L1_2.S7D1E199BBD384D72 = A0_2
+  L1_2.S7D1E199BBD384D72 = self
   L1_2 = CC704789D12A0E0F2
   L1_2 = L1_2.new
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
-  A0_2[9] = L1_2
-  L1_2 = A0_2[1]
+  self[9] = L1_2
+  L1_2 = self[1]
   L3_2 = L1_2
   L2_2 = L1_2.f7360ED03
   L2_2, L3_2, L4_2 = L2_2(L3_2)
@@ -80,8 +79,8 @@ function L70_1(A0_2)
   L5_2[1] = L6_2
   L5_2[2] = L7_2
   L5_2[3] = L8_2
-  A0_2[10] = L5_2
-  L5_2 = A0_2[10]
+  self[10] = L5_2
+  L5_2 = self[10]
   L7_2 = L1_2
   L6_2 = L1_2.f8F2B0552
   L8_2 = L5_2[1]
@@ -91,14 +90,14 @@ function L70_1(A0_2)
   L10_2 = L5_2[3]
   L10_2 = L10_2 + 0
   L6_2(L7_2, L8_2, L9_2, L10_2)
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L7_2 = L6_2
   L6_2 = L6_2.f6754453E
   L8_2 = false
   L6_2(L7_2, L8_2)
   L6_2 = CD6E40BD5CE9657FC
   L6_2 = L6_2.S1C8324BB56B82F0B
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.f5439788F
   L9_2 = "dammy"
@@ -108,40 +107,37 @@ function L70_1(A0_2)
   L6_2 = L6_2.f6754453E
   L8_2 = false
   L6_2(L7_2, L8_2)
-  L6_2 = A0_2[11]
+  L6_2 = self[11]
   if nil == L6_2 then
     L6_2 = C4CD64C098C5F1B06
     L6_2 = L6_2.new
     L6_2 = L6_2()
-    A0_2[11] = L6_2
-    L6_2 = A0_2[11]
+    self[11] = L6_2
+    L6_2 = self[11]
     L7_2 = L6_2
     L6_2 = L6_2.F1D3555903744037A
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L6_2(L7_2, L8_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C318C26CA50788D"]["prototype"]
-L69_1 = "F3C398736AA1F29BD"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.dragon.DragonNushiEvent020Setup.PopUp
+function C2C318C26CA50788D_prototype:F3C398736AA1F29BD(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L3_2 = L2_2
   L2_2 = L2_2.FB4B0039C97433DE5
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f6754453E
   L4_2 = true
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   L3_2 = L2_2
   L2_2 = L2_2.F54D82E924D2D26F4
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L5_2 = 1
   L2_2 = L2_2(L3_2, L4_2, L5_2)
   L3_2 = L2_2
@@ -156,15 +152,12 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2C318C26CA50788D"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.dragon.DragonNushiEvent020Setup.Update
+function C2C318C26CA50788D_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   if nil ~= L2_2 then
-    L2_2 = A0_2[9]
+    L2_2 = self[9]
     L3_2 = L2_2
     L2_2 = L2_2.F3BC3E2DE6CE68A7D
     L4_2 = A1_2

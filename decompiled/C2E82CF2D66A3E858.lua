@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C2E82CF2D66A3E858"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C2E82CF2D66A3E858"]
-L69_1 = "new"
+---@alias C2E82CF2D66A3E858 main_system_game_event_danbattle_GameEventDanPartnerCollect
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_danbattle_GameEventDanPartnerCollect : C2E82CF2D66A3E858_prototype
+---@field prototype C2E82CF2D66A3E858_prototype
+C2E82CF2D66A3E858 = L15_1()
+function C2E82CF2D66A3E858.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = C2E82CF2D66A3E858
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E82CF2D66A3E858"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 C2E82CF2D66A3E858
+function C2E82CF2D66A3E858.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CE0D511325372F946
   L3_2 = L3_2.super
@@ -37,11 +31,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E82CF2D66A3E858"]
-L69_1 = "__name__"
-L70_1 = "C2E82CF2D66A3E858"
-L68_1[L69_1] = L70_1
+C2E82CF2D66A3E858.__name__ = "C2E82CF2D66A3E858"
 L68_1 = _ENV["C2E82CF2D66A3E858"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -69,16 +59,11 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E82CF2D66A3E858"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E82CF2D66A3E858"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C2E82CF2D66A3E858_prototype
+C2E82CF2D66A3E858_prototype = L15_1()
+C2E82CF2D66A3E858.prototype = C2E82CF2D66A3E858_prototype
+--- main.system.game_event.danbattle.GameEventDanPartnerCollect.onCreate
+function C2E82CF2D66A3E858_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = L16_1
   L2_2 = {}
@@ -107,7 +92,7 @@ function L70_1(A0_2)
       L1_2.strParams = L2_2
     end
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2[26] = L1_2
   L2_2 = L16_1
   L3_2 = {}
@@ -136,7 +121,7 @@ function L70_1(A0_2)
       L2_2.strParams = L3_2
     end
   end
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2[24] = L2_2
   L3_2 = C896E82AC366C8E8F
   L3_2 = L3_2.S4539FBABC0D19D63
@@ -177,11 +162,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E82CF2D66A3E858"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.danbattle.GameEventDanPartnerCollect.onUpdate
+function C2E82CF2D66A3E858_prototype:FC0150FC2959FFA71()
   local L1_2
   L1_2 = 2
   return L1_2

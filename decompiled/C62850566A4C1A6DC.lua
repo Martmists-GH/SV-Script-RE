@@ -1,11 +1,8 @@
-L55_1 = _ENV
-L56_1 = "C62850566A4C1A6DC"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C62850566A4C1A6DC"]
-L69_1 = "new"
-L70_1 = {}
+---@alias C62850566A4C1A6DC main_battle_parts_CourtGalleryManager
+
+---@class main_battle_parts_CourtGalleryManager
+C62850566A4C1A6DC = L15_1()
+C62850566A4C1A6DC.new = {}
 L68_1[L69_1] = L70_1
 L68_1 = "C62850566A4C1A6DC"
 L69_1 = _ENV["C62850566A4C1A6DC"]
@@ -13,27 +10,18 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C62850566A4C1A6DC"]
 L69_1 = "__name__"
 L70_1 = "C62850566A4C1A6DC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62850566A4C1A6DC"]
-L69_1 = "SFEFD1B4A2E69DCCF"
-
-function L70_1(A0_2)
+--- main.battle.parts.CourtGalleryManager.Warning
+function C62850566A4C1A6DC.SFEFD1B4A2E69DCCF(A0_2)
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62850566A4C1A6DC"]
-L69_1 = "SD42C0BE3A089E971"
-
-function L70_1(A0_2)
+--- main.battle.parts.CourtGalleryManager.Error
+function C62850566A4C1A6DC.SD42C0BE3A089E971(A0_2)
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62850566A4C1A6DC"]
-L69_1 = "S6782ED5A58C5CE2F"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.parts.CourtGalleryManager.parseLocationInfo
+function C62850566A4C1A6DC.S6782ED5A58C5CE2F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = L32_1.startsWith
   L3_2 = A0_2
@@ -153,11 +141,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62850566A4C1A6DC"]
-L69_1 = "SA73D8E70FDAD8982"
-
-function L70_1(A0_2)
+--- main.battle.parts.CourtGalleryManager.SA73D8E70FDAD8982
+function C62850566A4C1A6DC.SA73D8E70FDAD8982(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C62850566A4C1A6DC
   L1_2 = L1_2.S46C075C4F3F68D92
@@ -193,11 +178,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62850566A4C1A6DC"]
-L69_1 = "S6DD64E27D9C53DFE"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.parts.CourtGalleryManager.registerGallery
+function C62850566A4C1A6DC.S6DD64E27D9C53DFE(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = nil
   L3_2 = cA042DA13
@@ -274,11 +256,8 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62850566A4C1A6DC"]
-L69_1 = "SF3593A87945F9168"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.parts.CourtGalleryManager.trySetGallery
+function C62850566A4C1A6DC.SF3593A87945F9168(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = L33_1.enumEq
   L3_2 = C62850566A4C1A6DC
@@ -433,11 +412,8 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62850566A4C1A6DC"]
-L69_1 = "S37E86B90D070C237"
-
-function L70_1(A0_2)
+--- main.battle.parts.CourtGalleryManager.getCourtCenter
+function C62850566A4C1A6DC.S37E86B90D070C237(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = nil
   L2_2 = A0_2[1]
@@ -500,11 +476,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62850566A4C1A6DC"]
-L69_1 = "S12F00E4BFA103216"
-
-function L70_1(A0_2)
+--- main.battle.parts.CourtGalleryManager.getBtposName
+function C62850566A4C1A6DC.S12F00E4BFA103216(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = A0_2[1]
   if 0 == L1_2 then
@@ -551,11 +524,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62850566A4C1A6DC"]
-L69_1 = "S7306909949A6BFCE"
-
-function L70_1(A0_2)
+--- main.battle.parts.CourtGalleryManager.fixGalleryTransform
+function C62850566A4C1A6DC.S7306909949A6BFCE(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -695,11 +665,8 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62850566A4C1A6DC"]
-L69_1 = "SBAC6CA0FAD581FBD"
-
-function L70_1()
+--- main.battle.parts.CourtGalleryManager.destroyGallery
+function C62850566A4C1A6DC.SBAC6CA0FAD581FBD()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -729,11 +696,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62850566A4C1A6DC"]
-L69_1 = "SE924508E3F6F4CAB"
-
-function L70_1(A0_2)
+--- main.battle.parts.CourtGalleryManager.setGalleryVisibility
+function C62850566A4C1A6DC.SE924508E3F6F4CAB(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
@@ -760,11 +724,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C62850566A4C1A6DC"]
-L69_1 = "SC38E6CC0B9188253"
-
-function L70_1(A0_2)
+--- main.battle.parts.CourtGalleryManager.cleanup
+function C62850566A4C1A6DC.SC38E6CC0B9188253(A0_2)
   local L1_2, L2_2
   L1_2 = A0_2[1]
   if 0 == L1_2 then

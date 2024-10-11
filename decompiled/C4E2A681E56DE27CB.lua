@@ -1,3 +1,7 @@
+---@alias C4E2A681E56DE27CB main_ui_util_LayoutSequence
+
+---@class main_ui_util_LayoutSequence : C4E2A681E56DE27CB_prototype
+---@field prototype C4E2A681E56DE27CB_prototype
 L55_1 = _ENV
 L56_1 = "C4E2A681E56DE27CB"
 L57_1 = L15_1
@@ -34,19 +38,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4E2A681E56DE27CB"]
 L69_1 = "__name__"
 L70_1 = "C4E2A681E56DE27CB"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4E2A681E56DE27CB"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4E2A681E56DE27CB"]["prototype"]
-L69_1 = "FEEDD180FB066D88D"
-
-function L70_1(A0_2)
+---@class C4E2A681E56DE27CB_prototype
+C4E2A681E56DE27CB_prototype = L15_1()
+C4E2A681E56DE27CB.prototype = C4E2A681E56DE27CB_prototype
+--- main.ui.util.LayoutSequence.LayoutComponentInitSequence
+function C4E2A681E56DE27CB_prototype:FEEDD180FB066D88D()
   local L1_2, L2_2
   while true do
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.FC224278F5E1BEBEF
     L1_2 = L1_2(L2_2)
@@ -59,16 +58,13 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4E2A681E56DE27CB"]["prototype"]
-L69_1 = "FAC63FB6628846950"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.util.LayoutSequence.PlayAnimeSequence
+function C4E2A681E56DE27CB_prototype:FAC63FB6628846950(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = nil
   L4_2 = cECF00344
   L4_2 = L4_2.f9758FA9B
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.FB6D1FE1B1E10C33D
   L5_2 = L5_2(L6_2)
@@ -77,7 +73,7 @@ function L70_1(A0_2, A1_2, A2_2)
   if L4_2 then
     return
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.FB6D1FE1B1E10C33D
   L4_2 = L4_2(L5_2)
@@ -89,7 +85,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2 = L4_2.S760DAE4C5371A78E
   L4_2()
   while true do
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.FB6D1FE1B1E10C33D
     L4_2 = L4_2(L5_2)

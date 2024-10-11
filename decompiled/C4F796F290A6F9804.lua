@@ -1,3 +1,7 @@
+---@alias C4F796F290A6F9804 main_env_weather_WeatherSchedule
+
+---@class main_env_weather_WeatherSchedule : C4F796F290A6F9804_prototype
+---@field prototype C4F796F290A6F9804_prototype
 L55_1 = _ENV
 L56_1 = "C4F796F290A6F9804"
 L57_1 = L15_1
@@ -49,31 +53,26 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C4F796F290A6F9804"]
 L69_1 = "__name__"
 L70_1 = "C4F796F290A6F9804"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F796F290A6F9804"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F796F290A6F9804"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C4F796F290A6F9804_prototype
+C4F796F290A6F9804_prototype = L15_1()
+C4F796F290A6F9804.prototype = C4F796F290A6F9804_prototype
+--- main.env.weather.WeatherSchedule.Setup
+function C4F796F290A6F9804_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = _hx_tab_array
   L4_2 = {}
   L4_2.length = 0
   L5_2 = 0
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[3] = L3_2
+  self[3] = L3_2
   L3_2 = _hx_tab_array
   L4_2 = {}
   L4_2.length = 0
   L5_2 = 0
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[4] = L3_2
-  L3_2 = A0_2[1]
+  self[4] = L3_2
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f1A1210C4
   L3_2 = L3_2(L4_2)
@@ -97,18 +96,18 @@ function L70_1(A0_2, A1_2)
   
   L5_2 = L5_2()
   if L5_2 then
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.f1A1210C4
     L5_2 = L5_2(L6_2)
-    L6_2 = A0_2[3]
+    L6_2 = self[3]
     L7_2 = L6_2
     L6_2 = L6_2.push
     L8_2 = C4C147B007146E304
     L8_2 = L8_2.new
     L9_2 = "weather_table_main"
     L10_2 = L5_2
-    L11_2 = A0_2[2]
+    L11_2 = self[2]
     L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2 = L8_2(L9_2, L10_2, L11_2)
     L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2)
     L6_2 = C657D0C6FCD7BE34F
@@ -155,7 +154,7 @@ function L70_1(A0_2, A1_2)
     
     L6_2(L7_2)
   end
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f1C1435C7
   L7_2 = "weather_table_sub"
@@ -194,7 +193,7 @@ function L70_1(A0_2, A1_2)
   
   L5_2(L6_2, L7_2, L8_2)
   L5_2 = 0
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   while true do
     L7_2 = L6_2.length
     if not (L5_2 < L7_2) then
@@ -330,12 +329,12 @@ function L70_1(A0_2, A1_2)
   L9_2 = 0
   L10_2 = 0
   L11_2 = 0
-  L12_2 = A0_2[2]
+  L12_2 = self[2]
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2)
-  A0_2[6] = L7_2
+  self[6] = L7_2
   L7_2 = cCF781FB6
   L7_2 = L7_2.fB41FD22F
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L7_2 = L7_2(L8_2)
   L8_2 = nil
   L9_2 = cCF781FB6
@@ -351,15 +350,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F796F290A6F9804"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.env.weather.WeatherSchedule.PreUpdate
+function C4F796F290A6F9804_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = C075A638F130352C3
   L2_2 = L2_2.S61AB39B97FD53F6D
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L2_2 = L2_2 - L3_2
   L3_2 = C05D9E556B496A3DF
   L3_2 = L3_2.SC8223E31D3163519
@@ -370,9 +366,9 @@ function L70_1(A0_2, A1_2)
   L4_2 = C075A638F130352C3
   L4_2 = L4_2.S61AB39B97FD53F6D
   L3_2 = L3_2(L4_2)
-  A0_2[5] = L3_2
+  self[5] = L3_2
   L3_2 = 0
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   while true do
     L5_2 = L4_2.length
     if not (L3_2 < L5_2) then
@@ -512,28 +508,25 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2.SC8223E31D3163519
   L6_2 = L5_2
   L5_2 = L5_2.F94E16271BD3B6E0C
-  L7_2 = A0_2[6]
+  L7_2 = self[6]
   L7_2 = L7_2[7]
   L7_2 = L7_2.type
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F796F290A6F9804"]["prototype"]
-L69_1 = "F7B24C8E3BAFCD56D"
-
-function L70_1(A0_2, A1_2)
+--- main.env.weather.WeatherSchedule.ChangeWeatherTable
+function C4F796F290A6F9804_prototype:F7B24C8E3BAFCD56D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if "" == A1_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2[0]
     A1_2 = L2_2[2]
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2[2]
   if L2_2 ~= A1_2 then
     L2_2 = 0
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     while true do
       L4_2 = L3_2.length
       if not (L2_2 < L4_2) then
@@ -543,12 +536,12 @@ function L70_1(A0_2, A1_2)
       L2_2 = L2_2 + 1
       L5_2 = L4_2[2]
       if L5_2 == A1_2 then
-        A0_2[6] = L4_2
+        self[6] = L4_2
         L5_2 = CA66BF560955C69B4
         L5_2 = L5_2.SC8223E31D3163519
         L6_2 = L5_2
         L5_2 = L5_2.F94E16271BD3B6E0C
-        L7_2 = A0_2[6]
+        L7_2 = self[6]
         L7_2 = L7_2[7]
         L7_2 = L7_2.type
         L5_2(L6_2, L7_2)
@@ -558,15 +551,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F796F290A6F9804"]["prototype"]
-L69_1 = "F6EB79EDA6243D7B2"
-
-function L70_1(A0_2, A1_2)
+--- main.env.weather.WeatherSchedule.LotteryWeatherHappening
+function C4F796F290A6F9804_prototype:F6EB79EDA6243D7B2(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2[A1_2]
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2[1]
   L4_2 = L3_2
   L3_2 = L3_2.fDAAAA586
@@ -577,14 +567,11 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F796F290A6F9804"]["prototype"]
-L69_1 = "FCD408C09071835AC"
-
-function L70_1(A0_2)
+--- main.env.weather.WeatherSchedule.lotteryFirst
+function C4F796F290A6F9804_prototype:FCD408C09071835AC()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = 0
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -716,11 +703,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F796F290A6F9804"]["prototype"]
-L69_1 = "FD4383D08DC07D79D"
-
-function L70_1(A0_2)
+--- main.env.weather.WeatherSchedule.BeginSync
+function C4F796F290A6F9804_prototype:FD4383D08DC07D79D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = L16_1
   L2_2 = {}
@@ -729,7 +713,7 @@ function L70_1(A0_2)
   L3_2.lotteryResultSize = true
   L3_2.lotteryResult = true
   L2_2.__fields__ = L3_2
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.F7A3D296366E973CB
   L3_2 = L3_2(L4_2)
@@ -743,7 +727,7 @@ function L70_1(A0_2)
   L2_2.lotteryResult = L3_2
   L1_2 = L1_2(L2_2)
   L2_2 = 0
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -797,13 +781,10 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4F796F290A6F9804"]["prototype"]
-L69_1 = "F75615303D498B47A"
-
-function L70_1(A0_2, A1_2)
+--- main.env.weather.WeatherSchedule.Sync
+function C4F796F290A6F9804_prototype:F75615303D498B47A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.F7A3D296366E973CB
   L4_2 = A1_2.seed
@@ -813,14 +794,14 @@ function L70_1(A0_2, A1_2)
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L5_2 = L5_2.length
     if L4_2 >= L5_2 then
       break
     end
     L5_2 = A1_2.lotteryResult
     L5_2 = L5_2[L4_2]
-    L6_2 = A0_2[3]
+    L6_2 = self[3]
     L6_2 = L6_2[L4_2]
     L7_2 = L6_2
     L6_2 = L6_2.F75615303D498B47A

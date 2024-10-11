@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C985427E5D92698CE"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C985427E5D92698CE"]
-L69_1 = "new"
+---@alias C985427E5D92698CE main_savedata_accessor_BagSaveAccessor
 
-function L70_1()
+---@class main_savedata_accessor_BagSaveAccessor : C985427E5D92698CE_prototype
+---@field prototype C985427E5D92698CE_prototype
+C985427E5D92698CE = L15_1()
+function C985427E5D92698CE.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C985427E5D92698CE
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C985427E5D92698CE"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C985427E5D92698CE
+function C985427E5D92698CE.super(A0_2)
   local L1_2, L2_2
   L1_2 = C1DAF90683584C5A0
   L1_2 = L1_2.super
@@ -33,11 +27,7 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C985427E5D92698CE"]
-L69_1 = "__name__"
-L70_1 = "C985427E5D92698CE"
-L68_1[L69_1] = L70_1
+C985427E5D92698CE.__name__ = "C985427E5D92698CE"
 L68_1 = _ENV["C985427E5D92698CE"]
 L69_1 = "SAB9A64F8881E7F45"
 
@@ -58,11 +48,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C985427E5D92698CE"]
-L69_1 = "S90CC39710B8E148E"
-
-function L70_1(A0_2, A1_2)
+--- main.savedata.accessor.BagSaveAccessor.SaveFavoriteFlag
+function C985427E5D92698CE.S90CC39710B8E148E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cACA3F5A6
   L2_2 = L2_2.f6A1EF75F
@@ -80,11 +67,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C985427E5D92698CE"]
-L69_1 = "SA5C159E460772370"
-
-function L70_1(A0_2, A1_2)
+--- main.savedata.accessor.BagSaveAccessor.SA5C159E460772370
+function C985427E5D92698CE.SA5C159E460772370(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cACA3F5A6
   L2_2 = L2_2.f6A1EF75F
@@ -102,11 +86,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C985427E5D92698CE"]
-L69_1 = "SAD746AAE7AECB419"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.savedata.accessor.BagSaveAccessor.SaveNewGetItem
+function C985427E5D92698CE.SAD746AAE7AECB419(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = cACA3F5A6
   L3_2 = L3_2.f6A1EF75F
@@ -137,16 +118,11 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C985427E5D92698CE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C985427E5D92698CE"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2)
+---@class C985427E5D92698CE_prototype
+C985427E5D92698CE_prototype = L15_1()
+C985427E5D92698CE.prototype = C985427E5D92698CE_prototype
+--- main.savedata.accessor.BagSaveAccessor.Load
+function C985427E5D92698CE_prototype:F6C5D0398122A6629()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2, L51_2, L52_2, L53_2
   L1_2 = C14A8D35D72F56FE9
   L1_2 = L1_2.S90D73F1D715BCBF4

@@ -1,3 +1,7 @@
+---@alias C33983799C8E350CF main_ui_btlspot_state_machine_common_BattleSpotStateCommonMatching
+
+---@class main_ui_btlspot_state_machine_common_BattleSpotStateCommonMatching : C33983799C8E350CF_prototype
+---@field prototype C33983799C8E350CF_prototype
 L55_1 = _ENV
 L56_1 = "C33983799C8E350CF"
 L57_1 = L15_1
@@ -44,48 +48,40 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C33983799C8E350CF"]
 L69_1 = "__name__"
 L70_1 = "C33983799C8E350CF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F5BE3D38738EE3C24"
-
-function L70_1(A0_2)
+---@class C33983799C8E350CF_prototype
+C33983799C8E350CF_prototype = L15_1()
+C33983799C8E350CF.prototype = C33983799C8E350CF_prototype
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.OnEntry
+function C33983799C8E350CF_prototype:F5BE3D38738EE3C24()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.OnUpdate
+function C33983799C8E350CF_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FC7D11121F17B3014
+  L3_2 = self
+  L2_2 = self.FC7D11121F17B3014
   L2_2 = L2_2(L3_2)
   L2_2 = L2_2[1]
   if 0 == L2_2 then
   elseif 1 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FC1319BF7F175663F
+    L4_2 = self
+    L3_2 = self.FC1319BF7F175663F
     L3_2(L4_2)
     L3_2 = E47DB8037FE2FBF76
     L3_2 = L3_2.Error_MatchingKey
-    A0_2[13] = L3_2
+    self[13] = L3_2
     return
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F6DBC011546D993A8
+  L4_2 = self
+  L3_2 = self.F6DBC011546D993A8
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FE3E4ADAC470428C2
+  L4_2 = self
+  L3_2 = self.FE3E4ADAC470428C2
   L3_2(L4_2)
   while true do
-    L4_2 = A0_2
-    L3_2 = A0_2.F5CA9962B78FBC3CF
+    L4_2 = self
+    L3_2 = self.F5CA9962B78FBC3CF
     L3_2 = L3_2(L4_2)
     L4_2 = L3_2[1]
     if 0 == L4_2 then
@@ -98,85 +94,85 @@ function L70_1(A0_2, A1_2)
         L5_2 = L5_2.Error_Common
         L6_2 = L3_2[2]
         L5_2 = L5_2(L6_2)
-        A0_2[13] = L5_2
+        self[13] = L5_2
         return
       elseif 3 == L4_2 then
         L5_2 = E47DB8037FE2FBF76
         L5_2 = L5_2.Error_MatchCommon
         L6_2 = L3_2[2]
         L5_2 = L5_2(L6_2)
-        A0_2[13] = L5_2
+        self[13] = L5_2
       elseif 4 == L4_2 then
         L5_2 = E47DB8037FE2FBF76
         L5_2 = L5_2.Error_MatchingTimeout
-        A0_2[13] = L5_2
+        self[13] = L5_2
         return
       elseif 5 == L4_2 then
         L5_2 = E47DB8037FE2FBF76
         L5_2 = L5_2.Error_MatchingNotFound
-        A0_2[13] = L5_2
+        self[13] = L5_2
         return
       end
     end
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FD3188776E713F867
+  L4_2 = self
+  L3_2 = self.FD3188776E713F867
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FA6EF517FB452214E
+  L4_2 = self
+  L3_2 = self.FA6EF517FB452214E
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F91E1BF9AC5DCDCF1
+  L4_2 = self
+  L3_2 = self.F91E1BF9AC5DCDCF1
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FAC804EA3731B1895
+  L4_2 = self
+  L3_2 = self.FAC804EA3731B1895
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FA21836EBB14C54DD
+  L4_2 = self
+  L3_2 = self.FA21836EBB14C54DD
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FEA658553105837F1
+  L4_2 = self
+  L3_2 = self.FEA658553105837F1
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FC49B610FBE3AC976
+  L4_2 = self
+  L3_2 = self.FC49B610FBE3AC976
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FAA1604FD8FD10FC5
+  L4_2 = self
+  L3_2 = self.FAA1604FD8FD10FC5
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F273E2FD926AA0F39
+  L4_2 = self
+  L3_2 = self.F273E2FD926AA0F39
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F114D3837A49BFBDF
+  L4_2 = self
+  L3_2 = self.F114D3837A49BFBDF
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F7FCD408A4F92966E
+  L4_2 = self
+  L3_2 = self.F7FCD408A4F92966E
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F17B24288B1906693
+  L4_2 = self
+  L3_2 = self.F17B24288B1906693
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F5F6BF16F9E67534B
+  L4_2 = self
+  L3_2 = self.F5F6BF16F9E67534B
   L3_2 = L3_2(L4_2)
   L3_2 = L3_2[1]
   if 0 == L3_2 then
   elseif 1 == L3_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.FC1319BF7F175663F
+    L5_2 = self
+    L4_2 = self.FC1319BF7F175663F
     L4_2(L5_2)
-    L5_2 = A0_2
-    L4_2 = A0_2.FEE073FE5F283BC4F
+    L5_2 = self
+    L4_2 = self.FEE073FE5F283BC4F
     L4_2(L5_2)
     L4_2 = E47DB8037FE2FBF76
     L4_2 = L4_2.Error_FailureSendBattleReporter
-    A0_2[13] = L4_2
+    self[13] = L4_2
     return
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.FCECBFD2BF21C2A39
+  L5_2 = self
+  L4_2 = self.FCECBFD2BF21C2A39
   L4_2(L5_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FEE073FE5F283BC4F
+  L5_2 = self
+  L4_2 = self.FEE073FE5F283BC4F
   L4_2(L5_2)
   L4_2 = E47DB8037FE2FBF76
   L4_2 = L4_2.Success
@@ -185,17 +181,14 @@ function L70_1(A0_2, A1_2)
   L6_2 = true
   L5_2, L6_2 = L5_2(L6_2)
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[13] = L4_2
+  self[13] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F5CA9962B78FBC3CF"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.F5CA9962B78FBC3CF
+function C33983799C8E350CF_prototype:F5CA9962B78FBC3CF()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FE9A00133EE18715E
+  L2_2 = self
+  L1_2 = self.FE9A00133EE18715E
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2[1]
   if 0 == L2_2 then
@@ -211,22 +204,22 @@ function L70_1(A0_2)
     L5_2 = L3_2
     return L4_2(L5_2)
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F13001FEEF47B1076
+  L4_2 = self
+  L3_2 = self.F13001FEEF47B1076
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F1C86450811FBB1E1
+  L4_2 = self
+  L3_2 = self.F1C86450811FBB1E1
   L3_2 = L3_2(L4_2)
   if L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F910E447E264C1F7B
+    L4_2 = self
+    L3_2 = self.F910E447E264C1F7B
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F6E2E88D801C39D92
+      L4_2 = self
+      L3_2 = self.F6E2E88D801C39D92
       L3_2(L4_2)
-      L4_2 = A0_2
-      L3_2 = A0_2.FAAB28D7DC73AFDB4
+      L4_2 = self
+      L3_2 = self.FAAB28D7DC73AFDB4
       L3_2 = L3_2(L4_2)
       if L3_2 then
         L3_2 = E169CFB531B1B9CD9
@@ -235,11 +228,11 @@ function L70_1(A0_2)
       end
     end
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FEE073FE5F283BC4F
+  L4_2 = self
+  L3_2 = self.FEE073FE5F283BC4F
   L3_2(L4_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F31A9274C553D9B43
+  L4_2 = self
+  L3_2 = self.F31A9274C553D9B43
   L3_2 = L3_2(L4_2)
   if 1 == L3_2 then
     L3_2 = E169CFB531B1B9CD9
@@ -252,52 +245,49 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F7FCD408A4F92966E"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.FlowSet_Battle
+function C33983799C8E350CF_prototype:F7FCD408A4F92966E()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F124E7889CC2099F8
+  L2_2 = self
+  L1_2 = self.F124E7889CC2099F8
   L1_2(L2_2)
   while true do
-    L2_2 = A0_2
-    L1_2 = A0_2.F4A1A2680DF3CDCF4
+    L2_2 = self
+    L1_2 = self.F4A1A2680DF3CDCF4
     L1_2 = L1_2(L2_2)
     if not L1_2 then
       break
     end
-    L2_2 = A0_2
-    L1_2 = A0_2.F290EAE2DDE736B90
+    L2_2 = self
+    L1_2 = self.F290EAE2DDE736B90
     L1_2 = L1_2(L2_2)
     if L1_2 then
       L1_2 = E47DB8037FE2FBF76
       L1_2 = L1_2.Error_BattleDisconnected
-      A0_2[13] = L1_2
-      L2_2 = A0_2
-      L1_2 = A0_2.FC1319BF7F175663F
+      self[13] = L1_2
+      L2_2 = self
+      L1_2 = self.FC1319BF7F175663F
       L1_2(L2_2)
-      L2_2 = A0_2
-      L1_2 = A0_2.FEE073FE5F283BC4F
+      L2_2 = self
+      L1_2 = self.FEE073FE5F283BC4F
       L1_2(L2_2)
       L1_2 = false
       return L1_2
     end
-    L2_2 = A0_2
-    L1_2 = A0_2.FE8B026852203D09F
+    L2_2 = self
+    L1_2 = self.FE8B026852203D09F
     L1_2 = L1_2(L2_2)
     if L1_2 then
-      L2_2 = A0_2
-      L1_2 = A0_2.FC1319BF7F175663F
+      L2_2 = self
+      L1_2 = self.FC1319BF7F175663F
       L1_2(L2_2)
     else
-      L2_2 = A0_2
-      L1_2 = A0_2.FF0E73438D1FC5DA0
+      L2_2 = self
+      L1_2 = self.FF0E73438D1FC5DA0
       L1_2 = L1_2(L2_2)
       if L1_2 then
-        L2_2 = A0_2
-        L1_2 = A0_2.FC1319BF7F175663F
+        L2_2 = self
+        L1_2 = self.FC1319BF7F175663F
         L1_2(L2_2)
       end
     end
@@ -306,56 +296,44 @@ function L70_1(A0_2)
     L2_2 = nil
     L1_2(L2_2)
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.FAA08DBF16815D8C9
+  L2_2 = self
+  L1_2 = self.FAA08DBF16815D8C9
   L1_2(L2_2)
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FC7D11121F17B3014"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_GetMatchingKey
+function C33983799C8E350CF_prototype:FC7D11121F17B3014()
   local L1_2
   L1_2 = EAA09EF30B0D94BF7
   L1_2 = L1_2.Success
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F6DBC011546D993A8"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_CountReset
+function C33983799C8E350CF_prototype:F6DBC011546D993A8()
   local L1_2
-  A0_2[14] = 0
+  self[14] = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FE3E4ADAC470428C2"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.FE3E4ADAC470428C2
+function C33983799C8E350CF_prototype:FE3E4ADAC470428C2()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FE9A00133EE18715E"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_StartRandomMatching
+function C33983799C8E350CF_prototype:FE9A00133EE18715E()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = nil
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L2_2 = L2_2.type
   L2_2 = L2_2[1]
   if 2 == L2_2 then
     L3_2 = cE9AFE246
     L3_2 = L3_2.fBCE1468A
     L4_2 = "MatchingKey"
-    L5_2 = A0_2[11]
+    L5_2 = self[11]
     L5_2 = L5_2.rankParam
     L3_2 = L3_2(L4_2, L5_2)
     L1_2 = L3_2
@@ -364,7 +342,7 @@ function L70_1(A0_2)
       L3_2 = cE9AFE246
       L3_2 = L3_2.f08BE36AA
       L4_2 = "MatchingKey"
-      L5_2 = A0_2[11]
+      L5_2 = self[11]
       L5_2 = L5_2.rankParam
       L3_2 = L3_2(L4_2, L5_2)
       L1_2 = L3_2
@@ -400,57 +378,39 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F13001FEEF47B1076"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_ChangePartyData
+function C33983799C8E350CF_prototype:F13001FEEF47B1076()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F1C86450811FBB1E1"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.F1C86450811FBB1E1
+function C33983799C8E350CF_prototype:F1C86450811FBB1E1()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F910E447E264C1F7B"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.F910E447E264C1F7B
+function C33983799C8E350CF_prototype:F910E447E264C1F7B()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F6E2E88D801C39D92"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.F6E2E88D801C39D92
+function C33983799C8E350CF_prototype:F6E2E88D801C39D92()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FAAB28D7DC73AFDB4"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.FAAB28D7DC73AFDB4
+function C33983799C8E350CF_prototype:FAAB28D7DC73AFDB4()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FEE073FE5F283BC4F"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_LeaveSession
+function C33983799C8E350CF_prototype:FEE073FE5F283BC4F()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = cE9AFE246
   L1_2 = L1_2.f52EFC7D5
@@ -484,35 +444,26 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F31A9274C553D9B43"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.F31A9274C553D9B43
+function C33983799C8E350CF_prototype:F31A9274C553D9B43()
   local L1_2
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   L1_2 = L1_2 + 1
-  A0_2[14] = L1_2
-  L1_2 = A0_2[14]
+  self[14] = L1_2
+  L1_2 = self[14]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FD3188776E713F867"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.FD3188776E713F867
+function C33983799C8E350CF_prototype:FD3188776E713F867()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FA6EF517FB452214E"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_GetOpponentCompetitionInfo
+function C33983799C8E350CF_prototype:FA6EF517FB452214E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F8359A416BFC9A70B
+  L2_2 = self
+  L1_2 = self.F8359A416BFC9A70B
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.F9C6D33E1F00D490A
@@ -541,7 +492,7 @@ function L70_1(A0_2)
     L3_2 = L1_2
     L2_2 = L1_2.fCB5AC8A3
     L2_2 = L2_2(L3_2)
-    A0_2[15] = L2_2
+    self[15] = L2_2
     L2_2 = EAA09EF30B0D94BF7
     L2_2 = L2_2.Success
     return L2_2
@@ -566,28 +517,22 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F91E1BF9AC5DCDCF1"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.F91E1BF9AC5DCDCF1
+function C33983799C8E350CF_prototype:F91E1BF9AC5DCDCF1()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F8359A416BFC9A70B
+  L2_2 = self
+  L1_2 = self.F8359A416BFC9A70B
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.F2CB7223B6F52CF09
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FAC804EA3731B1895"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.FAC804EA3731B1895
+function C33983799C8E350CF_prototype:FAC804EA3731B1895()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F8359A416BFC9A70B
+  L2_2 = self
+  L1_2 = self.F8359A416BFC9A70B
   L1_2 = L1_2(L2_2)
   L1_2 = L1_2[2]
   L2_2 = L1_2
@@ -595,30 +540,24 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FA21836EBB14C54DD"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_CreateBattleReporter
+function C33983799C8E350CF_prototype:FA21836EBB14C54DD()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F8359A416BFC9A70B
+  L2_2 = self
+  L1_2 = self.F8359A416BFC9A70B
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.FF42557CDC366CDBA
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L3_2 = L3_2.competitionId
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FEA658553105837F1"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_StartBattleReporter
+function C33983799C8E350CF_prototype:FEA658553105837F1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F8359A416BFC9A70B
+  L2_2 = self
+  L1_2 = self.F8359A416BFC9A70B
   L1_2 = L1_2(L2_2)
   L1_2 = L1_2[3]
   L2_2 = L1_2
@@ -626,8 +565,8 @@ function L70_1(A0_2)
   L1_2 = L1_2(L2_2)
   if L1_2 then
     while true do
-      L2_2 = A0_2
-      L1_2 = A0_2.F8359A416BFC9A70B
+      L2_2 = self
+      L1_2 = self.F8359A416BFC9A70B
       L1_2 = L1_2(L2_2)
       L1_2 = L1_2[3]
       L2_2 = L1_2
@@ -659,8 +598,8 @@ function L70_1(A0_2)
           L6_2 = EA76FBEE031C2173E
           L6_2 = L6_2.BattleReporter
           L5_2.type = L6_2
-          L7_2 = A0_2
-          L6_2 = A0_2.F8359A416BFC9A70B
+          L7_2 = self
+          L6_2 = self.F8359A416BFC9A70B
           L6_2 = L6_2(L7_2)
           L6_2 = L6_2[3]
           L7_2 = L6_2
@@ -688,8 +627,8 @@ function L70_1(A0_2)
     L4_2 = EA76FBEE031C2173E
     L4_2 = L4_2.BattleReporter
     L3_2.type = L4_2
-    L5_2 = A0_2
-    L4_2 = A0_2.F8359A416BFC9A70B
+    L5_2 = self
+    L4_2 = self.F8359A416BFC9A70B
     L4_2 = L4_2(L5_2)
     L4_2 = L4_2[3]
     L5_2 = L4_2
@@ -701,11 +640,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FC49B610FBE3AC976"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.FC49B610FBE3AC976
+function C33983799C8E350CF_prototype:FC49B610FBE3AC976()
   local L1_2, L2_2, L3_2
   L1_2 = CD950F4AD2C2702A1
   L1_2 = L1_2.SDF772D84F5ADBC74
@@ -715,16 +651,13 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FAA1604FD8FD10FC5"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_MessageStartBattle
+function C33983799C8E350CF_prototype:FAA1604FD8FD10FC5()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L1_2 = L1_2[1]
   if 2 == L1_2 or 3 == L1_2 then
-    L2_2 = A0_2[15]
+    L2_2 = self[15]
     L3_2 = L2_2
     L2_2 = L2_2.fFFA0248C
     L2_2 = L2_2(L3_2)
@@ -761,48 +694,33 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F273E2FD926AA0F39"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_PokemonSelectScene
+function C33983799C8E350CF_prototype:F273E2FD926AA0F39()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F114D3837A49BFBDF"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_BattleStartDemo
+function C33983799C8E350CF_prototype:F114D3837A49BFBDF()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F124E7889CC2099F8"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_BattleStart
+function C33983799C8E350CF_prototype:F124E7889CC2099F8()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F4A1A2680DF3CDCF4"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_Battle
+function C33983799C8E350CF_prototype:F4A1A2680DF3CDCF4()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F290EAE2DDE736B90"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_CheckDisconnect
+function C33983799C8E350CF_prototype:F290EAE2DDE736B90()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F8359A416BFC9A70B
+  L2_2 = self
+  L1_2 = self.F8359A416BFC9A70B
   L1_2 = L1_2(L2_2)
   L1_2 = L1_2[2]
   L2_2 = L1_2
@@ -810,11 +728,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FC1319BF7F175663F"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_MessageConnectingError
+function C33983799C8E350CF_prototype:FC1319BF7F175663F()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 4
   L2_2 = CD950F4AD2C2702A1
@@ -846,40 +761,28 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FE8B026852203D09F"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_CheckLeaveSession
+function C33983799C8E350CF_prototype:FE8B026852203D09F()
   local L1_2
   L1_2 = cE9AFE246
   L1_2 = L1_2.f87AAD8AA
   return L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FF0E73438D1FC5DA0"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_CheckValidate
+function C33983799C8E350CF_prototype:FF0E73438D1FC5DA0()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FAA08DBF16815D8C9"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_BattleEnd
+function C33983799C8E350CF_prototype:FAA08DBF16815D8C9()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F17B24288B1906693"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.F17B24288B1906693
+function C33983799C8E350CF_prototype:F17B24288B1906693()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 2
   L2_2 = CD950F4AD2C2702A1
@@ -899,15 +802,12 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "F5F6BF16F9E67534B"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.Flow_SendBattleReporter
+function C33983799C8E350CF_prototype:F5F6BF16F9E67534B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = nil
-  L3_2 = A0_2
-  L2_2 = A0_2.F8359A416BFC9A70B
+  L3_2 = self
+  L2_2 = self.F8359A416BFC9A70B
   L2_2 = L2_2(L3_2)
   L2_2 = L2_2[3]
   L3_2 = L2_2
@@ -920,8 +820,8 @@ function L70_1(A0_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
   if L2_2 then
     while true do
-      L3_2 = A0_2
-      L2_2 = A0_2.F8359A416BFC9A70B
+      L3_2 = self
+      L2_2 = self.F8359A416BFC9A70B
       L2_2 = L2_2(L3_2)
       L2_2 = L2_2[3]
       L3_2 = L2_2
@@ -981,11 +881,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33983799C8E350CF"]["prototype"]
-L69_1 = "FCECBFD2BF21C2A39"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.state_machine.common.BattleSpotStateCommonMatching.FCECBFD2BF21C2A39
+function C33983799C8E350CF_prototype:FCECBFD2BF21C2A39()
   local L1_2
 end
 

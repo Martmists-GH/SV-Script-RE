@@ -1,3 +1,7 @@
+---@alias CAC666863E762F2FD main_ui_shop_sale_view_ShopUISaleCursorLayout
+
+---@class main_ui_shop_sale_view_ShopUISaleCursorLayout : CAC666863E762F2FD_prototype
+---@field prototype CAC666863E762F2FD_prototype
 L55_1 = _ENV
 L56_1 = "CAC666863E762F2FD"
 L57_1 = L15_1
@@ -44,23 +48,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CAC666863E762F2FD"]
 L69_1 = "__name__"
 L70_1 = "CAC666863E762F2FD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC666863E762F2FD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC666863E762F2FD"]["prototype"]
-L69_1 = "FC408B64E96A326C4"
-
-function L70_1(A0_2)
+---@class CAC666863E762F2FD_prototype
+CAC666863E762F2FD_prototype = L15_1()
+CAC666863E762F2FD.prototype = CAC666863E762F2FD_prototype
+--- main.ui.shop.sale.view.ShopUISaleCursorLayout.GetPararentPos
+function CAC666863E762F2FD_prototype:FC408B64E96A326C4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.FAA3F191C3771A337
   L3_2 = "L_item_00/N_pos_00"
   L1_2 = L1_2(L2_2, L3_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FAA3F191C3771A337
   L4_2 = "L_item_00/S_scissor_00"

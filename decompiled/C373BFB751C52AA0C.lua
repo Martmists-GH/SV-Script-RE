@@ -1,3 +1,5 @@
+---@class C373BFB751C52AA0C : C373BFB751C52AA0C_prototype
+---@field prototype C373BFB751C52AA0C_prototype
 L55_1 = _ENV
 L56_1 = "C373BFB751C52AA0C"
 L57_1 = L15_1
@@ -39,26 +41,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C373BFB751C52AA0C"]
 L69_1 = "__name__"
 L70_1 = "C373BFB751C52AA0C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C373BFB751C52AA0C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C373BFB751C52AA0C"]["prototype"]
-L69_1 = "FEBB6C7EABF14DA04"
-
-function L70_1(A0_2)
+---@class C373BFB751C52AA0C_prototype
+C373BFB751C52AA0C_prototype = L15_1()
+C373BFB751C52AA0C.prototype = C373BFB751C52AA0C_prototype
+--- C373BFB751C52AA0C.BootEventTriggerId
+function C373BFB751C52AA0C_prototype:FEBB6C7EABF14DA04()
   local L1_2
   L1_2 = 2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C373BFB751C52AA0C"]["prototype"]
-L69_1 = "F7B29AC6696E62600"
-
-function L70_1(A0_2)
+--- C373BFB751C52AA0C.RequiredEventCategory
+function C373BFB751C52AA0C_prototype:F7B29AC6696E62600()
   local L1_2, L2_2, L3_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -68,23 +62,17 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C373BFB751C52AA0C"]["prototype"]
-L69_1 = "F06B203964756B0E9"
-
-function L70_1(A0_2, A1_2)
+--- C373BFB751C52AA0C.F06B203964756B0E9
+function C373BFB751C52AA0C_prototype:F06B203964756B0E9(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F69DCAF09F54BE646
+  L3_2 = self
+  L2_2 = self.F69DCAF09F54BE646
   L4_2 = A1_2
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C373BFB751C52AA0C"]["prototype"]
-L69_1 = "FDA98E87C57449F00"
-
-function L70_1(A0_2, A1_2)
+--- C373BFB751C52AA0C.OnEventCheck
+function C373BFB751C52AA0C_prototype:FDA98E87C57449F00(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CE6EE3F9C54FC6D83
   L2_2 = L2_2.S86BF9C5D2CAB6CFF
@@ -106,8 +94,8 @@ function L70_1(A0_2, A1_2)
   L2_2 = nil
   do return L2_2 end
   ::lbl_19::
-  L3_2 = A0_2
-  L2_2 = A0_2.F69DCAF09F54BE646
+  L3_2 = self
+  L2_2 = self.F69DCAF09F54BE646
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if nil == L2_2 then
@@ -126,11 +114,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C373BFB751C52AA0C"]["prototype"]
-L69_1 = "F69DCAF09F54BE646"
-
-function L70_1(A0_2, A1_2)
+--- C373BFB751C52AA0C.GetTableObject
+function C373BFB751C52AA0C_prototype:F69DCAF09F54BE646(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = 0
   L3_2 = false

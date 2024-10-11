@@ -1,3 +1,7 @@
+---@alias C840932D29368DF5B main_field_behaviour_scenario_main_champion_gym_mushi_GymMushiPokeNoneState
+
+---@class main_field_behaviour_scenario_main_champion_gym_mushi_GymMushiPokeNoneState : C840932D29368DF5B_prototype
+---@field prototype C840932D29368DF5B_prototype
 L55_1 = _ENV
 L56_1 = "C840932D29368DF5B"
 L57_1 = L15_1
@@ -39,37 +43,29 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C840932D29368DF5B"]
 L69_1 = "__name__"
 L70_1 = "C840932D29368DF5B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C840932D29368DF5B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C840932D29368DF5B"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2)
+---@class C840932D29368DF5B_prototype
+C840932D29368DF5B_prototype = L15_1()
+C840932D29368DF5B.prototype = C840932D29368DF5B_prototype
+--- main.field.behaviour.scenario.main.champion.gym.mushi.GymMushiPokeNoneState.onInitialize
+function C840932D29368DF5B_prototype:F239C282ED3F82676()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.F86A0FB324C31FB7B
   L3_2 = E1898AE800BCD6E76
   L3_2 = L3_2.Idle
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FF48DEFC74F19323C
   L3_2 = true
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C840932D29368DF5B"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.GymMushiPokeNoneState.onTerminate
+function C840932D29368DF5B_prototype:F97D80368ACC86AEF()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FF48DEFC74F19323C
   L3_2 = false

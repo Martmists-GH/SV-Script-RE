@@ -1,3 +1,7 @@
+---@alias CA647FEB41C87F543 main_event_debug_DebugConvenientFunction
+
+---@class main_event_debug_DebugConvenientFunction : CA647FEB41C87F543_prototype
+---@field prototype CA647FEB41C87F543_prototype
 L55_1 = _ENV
 L56_1 = "CA647FEB41C87F543"
 L57_1 = L15_1
@@ -48,38 +52,27 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA647FEB41C87F543"]
 L69_1 = "__name__"
 L70_1 = "CA647FEB41C87F543"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA647FEB41C87F543"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA647FEB41C87F543"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class CA647FEB41C87F543_prototype
+CA647FEB41C87F543_prototype = L15_1()
+CA647FEB41C87F543.prototype = CA647FEB41C87F543_prototype
+--- main.event.debug.DebugConvenientFunction.preStart
+function CA647FEB41C87F543_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA647FEB41C87F543"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugConvenientFunction.postStart
+function CA647FEB41C87F543_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA647FEB41C87F543"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugConvenientFunction.mainBody
+function CA647FEB41C87F543_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S12FD376DC11712C8
   L2_2 = "message/dat/JPN/debug/d_event_convenient_function.dat"
   L1_2(L2_2)
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -93,8 +86,8 @@ function L70_1(A0_2)
   function L5_2(A0_3, ...)
     local L1_3, L2_3, L3_3
     L1_3 = L55_1
-    L2_3 = A0_2
-    L3_3 = A0_2.F5DDBD7AC25A55870
+    L2_3 = self
+    L3_3 = self.F5DDBD7AC25A55870
     L1_3 = L1_3(L2_3, L3_3)
     L2_3, L3_3 = ...
     return L1_3(L2_3, L3_3)
@@ -103,7 +96,7 @@ function L70_1(A0_2)
   L4_2.func = L5_2
   L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -117,8 +110,8 @@ function L70_1(A0_2)
   function L5_2(A0_3, ...)
     local L1_3, L2_3, L3_3
     L1_3 = L55_1
-    L2_3 = A0_2
-    L3_3 = A0_2.FB399A9A90A0566E8
+    L2_3 = self
+    L3_3 = self.FB399A9A90A0566E8
     L1_3 = L1_3(L2_3, L3_3)
     L2_3, L3_3 = ...
     return L1_3(L2_3, L3_3)
@@ -127,7 +120,7 @@ function L70_1(A0_2)
   L4_2.func = L5_2
   L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -141,8 +134,8 @@ function L70_1(A0_2)
   function L5_2(A0_3, ...)
     local L1_3, L2_3, L3_3
     L1_3 = L55_1
-    L2_3 = A0_2
-    L3_3 = A0_2.FC75B42EE0282C039
+    L2_3 = self
+    L3_3 = self.FC75B42EE0282C039
     L1_3 = L1_3(L2_3, L3_3)
     L2_3, L3_3 = ...
     return L1_3(L2_3, L3_3)
@@ -151,7 +144,7 @@ function L70_1(A0_2)
   L4_2.func = L5_2
   L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = L16_1
@@ -165,8 +158,8 @@ function L70_1(A0_2)
   function L5_2(A0_3, ...)
     local L1_3, L2_3, L3_3
     L1_3 = L55_1
-    L2_3 = A0_2
-    L3_3 = A0_2.FB3D649F18C57EE45
+    L2_3 = self
+    L3_3 = self.FB3D649F18C57EE45
     L1_3 = L1_3(L2_3, L3_3)
     L2_3, L3_3 = ...
     return L1_3(L2_3, L3_3)
@@ -175,10 +168,10 @@ function L70_1(A0_2)
   L4_2.func = L5_2
   L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
-  L1_2 = A0_2[33]
+  L1_2 = self[33]
   L1_2 = L1_2.length
   L2_2 = L31_1.int
-  L3_2 = A0_2[33]
+  L3_2 = self[33]
   L3_2 = L3_2.length
   L3_2 = L3_2 / 4
   L2_2 = L2_2(L3_2)
@@ -208,7 +201,7 @@ function L70_1(A0_2)
       if L1_2 > L9_2 then
         L11_2 = L7_2
         L10_2 = L7_2.push
-        L12_2 = A0_2[33]
+        L12_2 = self[33]
         L12_2 = L12_2[L9_2]
         L12_2 = L12_2.menuName
         L10_2(L11_2, L12_2)
@@ -248,7 +241,7 @@ function L70_1(A0_2)
         L5_2 = true
       else
         L4_2 = true
-        L12_2 = A0_2[33]
+        L12_2 = self[33]
         L13_2 = L3_2 * 4
         L13_2 = L11_2 + L13_2
         L12_2 = L12_2[L13_2]
@@ -268,11 +261,8 @@ function L70_1(A0_2)
   L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA647FEB41C87F543"]["prototype"]
-L69_1 = "F5DDBD7AC25A55870"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugConvenientFunction.AddMoney
+function CA647FEB41C87F543_prototype:F5DDBD7AC25A55870()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CCD22EFED4E9E5F89
   L1_2 = L1_2.S93443174B4C9128E
@@ -325,11 +315,8 @@ function L70_1(A0_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA647FEB41C87F543"]["prototype"]
-L69_1 = "FB399A9A90A0566E8"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugConvenientFunction.AddLp
+function CA647FEB41C87F543_prototype:FB399A9A90A0566E8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CCD22EFED4E9E5F89
   L1_2 = L1_2.S93443174B4C9128E
@@ -373,19 +360,13 @@ function L70_1(A0_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA647FEB41C87F543"]["prototype"]
-L69_1 = "FC75B42EE0282C039"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugConvenientFunction.AddBall
+function CA647FEB41C87F543_prototype:FC75B42EE0282C039()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA647FEB41C87F543"]["prototype"]
-L69_1 = "FB3D649F18C57EE45"
-
-function L70_1(A0_2)
+--- main.event.debug.DebugConvenientFunction.CurePoke
+function CA647FEB41C87F543_prototype:FB3D649F18C57EE45()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CD081B219DEE96EEF
   L1_2 = L1_2.SA3F85A17B10891E4

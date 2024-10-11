@@ -1,3 +1,7 @@
+---@alias C9198439FE6C35293 main_ui_ui_form_change_SwapItemModeFormChange
+
+---@class main_ui_ui_form_change_SwapItemModeFormChange : C9198439FE6C35293_prototype
+---@field prototype C9198439FE6C35293_prototype
 L55_1 = _ENV
 L56_1 = "C9198439FE6C35293"
 L57_1 = L15_1
@@ -52,31 +56,23 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9198439FE6C35293"]
 L69_1 = "__name__"
 L70_1 = "C9198439FE6C35293"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9198439FE6C35293"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9198439FE6C35293"]["prototype"]
-L69_1 = "F93E432AA090A48FA"
-
-function L70_1(A0_2)
+---@class C9198439FE6C35293_prototype
+C9198439FE6C35293_prototype = L15_1()
+C9198439FE6C35293.prototype = C9198439FE6C35293_prototype
+--- main.ui.ui_form_change.SwapItemModeFormChange.IsEnd
+function C9198439FE6C35293_prototype:F93E432AA090A48FA()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9198439FE6C35293"]["prototype"]
-L69_1 = "F6DA518B706B7C34A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ui_form_change.SwapItemModeFormChange.StartUp
+function C9198439FE6C35293_prototype:F6DA518B706B7C34A(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
-  A0_2[2] = false
-  L4_2 = A0_2
-  L3_2 = A0_2.FAB5C2EF87CA95666
+  L2_2 = self
+  self[2] = false
+  L4_2 = self
+  L3_2 = self.FAB5C2EF87CA95666
   
   function L5_2()
     local L0_3, L1_3, L2_3
@@ -90,11 +86,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9198439FE6C35293"]["prototype"]
-L69_1 = "F9C88B7EFD8BB9396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ui_form_change.SwapItemModeFormChange.UpdateCoroutine
+function C9198439FE6C35293_prototype:F9C88B7EFD8BB9396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if nil ~= A1_2 then
     L2_2 = L10_1.coroutine
@@ -149,15 +142,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9198439FE6C35293"]["prototype"]
-L69_1 = "FAB5C2EF87CA95666"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ui_form_change.SwapItemModeFormChange.StartSequence
+function C9198439FE6C35293_prototype:FAB5C2EF87CA95666(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   if nil ~= L2_2 then
-    A0_2[1] = nil
+    self[1] = nil
   end
   L2_2 = nil
   L3_2 = C1DB14DCC9D7634FA
@@ -165,26 +155,20 @@ function L70_1(A0_2, A1_2)
   L4_2 = A1_2
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[1] = L3_2
+  self[1] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9198439FE6C35293"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.ui.ui_form_change.SwapItemModeFormChange.Update
+function C9198439FE6C35293_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F9C88B7EFD8BB9396
-  L3_2 = A0_2[1]
+  L2_2 = self
+  L1_2 = self.F9C88B7EFD8BB9396
+  L3_2 = self[1]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9198439FE6C35293"]["prototype"]
-L69_1 = "F59A63C508F646412"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ui_form_change.SwapItemModeFormChange.FormChangeSequence
+function C9198439FE6C35293_prototype:F59A63C508F646412(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L2_2 = false
   L3_2 = C5196F2C433539EDA
@@ -220,10 +204,10 @@ function L70_1(A0_2, A1_2)
     if L10_2 ~= L9_2 then
       if not L2_2 then
         L2_2 = true
-        L10_2 = A0_2.FAFBCF9F1D51DCD08
+        L10_2 = self.FAFBCF9F1D51DCD08
         if nil ~= L10_2 then
-          L11_2 = A0_2
-          L10_2 = A0_2.FAFBCF9F1D51DCD08
+          L11_2 = self
+          L10_2 = self.FAFBCF9F1D51DCD08
           L10_2(L11_2)
         end
       end
@@ -273,15 +257,15 @@ function L70_1(A0_2, A1_2)
       break
     end
   end
-  A0_2[2] = true
+  self[2] = true
   L6_2 = C5196F2C433539EDA
   L6_2 = L6_2.S2EF3CA050E6A7E61
   L7_2 = false
   L6_2(L7_2)
-  L6_2 = A0_2.FCAD87BCEE524962D
+  L6_2 = self.FCAD87BCEE524962D
   if nil ~= L6_2 and L2_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.FCAD87BCEE524962D
+    L7_2 = self
+    L6_2 = self.FCAD87BCEE524962D
     L6_2(L7_2)
   end
 end

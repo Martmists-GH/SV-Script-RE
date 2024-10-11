@@ -1,52 +1,34 @@
-L55_1 = _ENV
-L56_1 = "C732F0C85E26F39DB"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "__name__"
-L70_1 = "C732F0C85E26F39DB"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SBB43F555D799763C"
+---@alias C732F0C85E26F39DB main_event_general_gym_base_Gym_esper_common
 
-function L70_1()
+---@class main_event_general_gym_base_Gym_esper_common
+C732F0C85E26F39DB = L15_1()
+C732F0C85E26F39DB.new = {}
+C732F0C85E26F39DB.__name__ = "C732F0C85E26F39DB"
+--- main.event.general.gym.base.Gym_esper_common.getEndlessCount
+function C732F0C85E26F39DB.SBB43F555D799763C()
   local L0_2, L1_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.SDFD85318EBDA940C
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S1651A0FE2262859A"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.IsReported
+function C732F0C85E26F39DB.S1651A0FE2262859A()
   local L0_2, L1_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.SD54B07E2FF470F8C
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SD3176D2769E6F6A0"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.SetIsReported
+function C732F0C85E26F39DB.SD3176D2769E6F6A0()
   local L0_2, L1_2
   L0_2 = C732F0C85E26F39DB
   L0_2.SD54B07E2FF470F8C = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S5C0B6ADEAC3A169E"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.IsPerfect
+function C732F0C85E26F39DB.S5C0B6ADEAC3A169E(A0_2)
   local L1_2, L2_2
   L1_2 = C732F0C85E26F39DB
   L1_2 = L1_2.S59FAF76599301A17
@@ -57,11 +39,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S03D75DC0013EDC19"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_esper_common.ExerciseStart
+function C732F0C85E26F39DB.S03D75DC0013EDC19(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = C732F0C85E26F39DB
   L3_2 = L3_2.SFD79F792B2AD7D64
@@ -76,11 +55,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2.S59FAF76599301A17 = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SCACD2C78998F7122"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_esper_common.ExerciseWait
+function C732F0C85E26F39DB.SCACD2C78998F7122(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A2_2 then
     A2_2 = 1
@@ -154,11 +130,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S4D2C210D91ABDF88"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_esper_common.ExerciseEnd
+function C732F0C85E26F39DB.S4D2C210D91ABDF88(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = C732F0C85E26F39DB
   L3_2 = L3_2.SA5DE652BB80E6564
@@ -175,11 +148,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SDDD731B518B0FC06"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_common.playGameUiAnim
+function C732F0C85E26F39DB.SDDD731B518B0FC06(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C6A00C2166D9DC348
   L2_2 = L2_2.S09B4490393D21B8D
@@ -199,11 +169,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S3586D78D90582980"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.finishAction
+function C732F0C85E26F39DB.S3586D78D90582980()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.SE0A0E5DA6D8448EC
@@ -335,11 +302,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S69C04845C8A16554"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.exerciseSetupData
+function C732F0C85E26F39DB.S69C04845C8A16554()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.SE0A0E5DA6D8448EC
@@ -482,11 +446,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S2C523E8871461AAC"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.exerciseSetup
+function C732F0C85E26F39DB.S2C523E8871461AAC()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.SE0A0E5DA6D8448EC
@@ -641,11 +602,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SA5DE652BB80E6564"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_common.exerciseFinish
+function C732F0C85E26F39DB.SA5DE652BB80E6564(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = C732F0C85E26F39DB
   L2_2 = L2_2.SBA0F1C750B8A9F0B
@@ -973,11 +931,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S56FC5BC143F36E4E"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_common.OtherComment
+function C732F0C85E26F39DB.S56FC5BC143F36E4E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C6A00C2166D9DC348
   L2_2 = L2_2.S09B4490393D21B8D
@@ -1007,11 +962,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S9B3C0E9EF0B08A3D"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.trainerInstructAnim
+function C732F0C85E26F39DB.S9B3C0E9EF0B08A3D(A0_2)
   local L1_2, L2_2
   L1_2 = C732F0C85E26F39DB
   L1_2 = L1_2.S8B1E95435EC7BD57
@@ -1025,11 +977,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S13FB2A8EE46D99C3"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.pokeInstructAnim
+function C732F0C85E26F39DB.S13FB2A8EE46D99C3(A0_2)
   local L1_2, L2_2
   L1_2 = C732F0C85E26F39DB
   L1_2 = L1_2.S8B1E95435EC7BD57
@@ -1043,11 +992,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SC625EC2952447C48"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.RandomInstruct
+function C732F0C85E26F39DB.SC625EC2952447C48(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = C732F0C85E26F39DB
   L1_2 = L1_2.S5E2C96CB96973DE8
@@ -1140,11 +1086,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S23D5ED78941515A2"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_esper_common.InputWait
+function C732F0C85E26F39DB.S23D5ED78941515A2(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A2_2 then
     A2_2 = 1
@@ -1246,11 +1189,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S9C165862C56312C6"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.switchProduction
+function C732F0C85E26F39DB.S9C165862C56312C6(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C732F0C85E26F39DB
   L1_2 = L1_2.S80FEE27861522752
@@ -1279,11 +1219,8 @@ function L70_1(A0_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SDD6A2068C563D882"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.excitementEffect
+function C732F0C85E26F39DB.SDD6A2068C563D882(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C732F0C85E26F39DB
   L1_2 = L1_2.S80FEE27861522752
@@ -1347,11 +1284,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S0DE614F7F19E323A"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_common.getInputReaction
+function C732F0C85E26F39DB.S0DE614F7F19E323A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = cDFF6D3D5
   L2_2 = L2_2.f6E019F84
@@ -1417,11 +1351,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SBB8F8936861EE40B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_esper_common.buttonEvent
+function C732F0C85E26F39DB.SBB8F8936861EE40B(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = C732F0C85E26F39DB
   L3_2 = L3_2.S6803DD241B0951E6
@@ -1441,11 +1372,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S6803DD241B0951E6"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.PlayActions
+function C732F0C85E26F39DB.S6803DD241B0951E6(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C732F0C85E26F39DB
   L1_2 = L1_2.S8B1E95435EC7BD57
@@ -1462,11 +1390,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SA5B0F82B457FE5F9"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_esper_common.TrainerActions
+function C732F0C85E26F39DB.SA5B0F82B457FE5F9(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = C732F0C85E26F39DB
   L3_2 = L3_2.S8B1E95435EC7BD57
@@ -1497,11 +1422,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S8B1E95435EC7BD57"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.getInstructAction
+function C732F0C85E26F39DB.S8B1E95435EC7BD57(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C732F0C85E26F39DB
@@ -1522,11 +1444,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S9732F85D0EB31A9C"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.InstructComment
+function C732F0C85E26F39DB.S9732F85D0EB31A9C(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C732F0C85E26F39DB
   L1_2 = L1_2.S8B1E95435EC7BD57
@@ -1550,11 +1469,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SF25228F1DAFEEDDE"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_common.comment
+function C732F0C85E26F39DB.SF25228F1DAFEEDDE(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C3A36506FBC96ACBD
   L2_2 = L2_2.SC6181320B46854EE
@@ -1570,11 +1486,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SB0098EE58FA077B7"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.livelysInit
+function C732F0C85E26F39DB.SB0098EE58FA077B7()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L0_2 = C732F0C85E26F39DB
   L1_2 = _hx_tab_array
@@ -1691,11 +1604,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S9DD56C5785C12DD1"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.AnimCompInit
+function C732F0C85E26F39DB.S9DD56C5785C12DD1(A0_2)
   local L1_2, L2_2
   L1_2 = C732F0C85E26F39DB
   L2_2 = c1A00019C
@@ -1711,11 +1621,8 @@ function L70_1(A0_2)
   L1_2.S8005FE8CAD1EC086 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SF4EE911DF40ACB8B"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.SF4EE911DF40ACB8B
+function C732F0C85E26F39DB.SF4EE911DF40ACB8B()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L0_2 = C732F0C85E26F39DB
   L1_2 = CFC8F368D91411014
@@ -1807,11 +1714,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S01DA0EE3C60F5CB5"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_common.findExerciseObj
+function C732F0C85E26F39DB.S01DA0EE3C60F5CB5(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -1828,11 +1732,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SBA0F1C750B8A9F0B"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_common.PlayPlayerAnim
+function C732F0C85E26F39DB.SBA0F1C750B8A9F0B(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C732F0C85E26F39DB
   L2_2 = L2_2.S8F44A15312F97D06
@@ -1854,11 +1755,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S40441CBC1A091B1E"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.PlayPartnerAnim
+function C732F0C85E26F39DB.S40441CBC1A091B1E(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C732F0C85E26F39DB
   L1_2 = L1_2.S576253A59D1850C9
@@ -1888,11 +1786,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S2CD6EF95054994C5"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.PlayTrainerAnim
+function C732F0C85E26F39DB.S2CD6EF95054994C5(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -1948,11 +1843,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SDFDF3FC361118123"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_common.PlayTrainerPartnerAnim
+function C732F0C85E26F39DB.SDFDF3FC361118123(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = C732F0C85E26F39DB
   L2_2 = L2_2.SAF2DFDA9C07E67A9
@@ -1993,11 +1885,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SBB6EE94CE8F05329"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_esper_common.pokeBehaviorActionAnim
+function C732F0C85E26F39DB.SBB6EE94CE8F05329(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A0_2 then
     return
@@ -2022,11 +1911,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SBBC4B5BA5B42CE1D"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_esper_common.livelyBehaviorActionAnim
+function C732F0C85E26F39DB.SBBC4B5BA5B42CE1D(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A0_2 then
     return
@@ -2052,11 +1938,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SD0AA26D59C5335B2"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_esper_common.PlayLivelysAnim
+function C732F0C85E26F39DB.SD0AA26D59C5335B2(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2
   L3_2 = 0
   L4_2 = C732F0C85E26F39DB
@@ -2238,11 +2121,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S270209DF8EBCA16C"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_common.randomF
+function C732F0C85E26F39DB.S270209DF8EBCA16C(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C732F0C85E26F39DB
   L2_2 = L2_2.S5E2C96CB96973DE8
@@ -2255,11 +2135,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S9C34894950A99B50"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.getPartnerObj
+function C732F0C85E26F39DB.S9C34894950A99B50()
   local L0_2, L1_2
   L0_2 = CC6FE82819C6E1D55
   L0_2 = L0_2.S03C74CCED292E948
@@ -2270,11 +2147,8 @@ function L70_1()
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S5C94970700B2961C"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.getPlayerPos
+function C732F0C85E26F39DB.S5C94970700B2961C()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.S01DA0EE3C60F5CB5
@@ -2306,11 +2180,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S45CB9249EDC06BCE"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.getTrainerPos
+function C732F0C85E26F39DB.S45CB9249EDC06BCE()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.S01DA0EE3C60F5CB5
@@ -2342,11 +2213,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SA1389E8BACB8B0A5"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.getPlayerWidthOffset
+function C732F0C85E26F39DB.SA1389E8BACB8B0A5()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.S5C94970700B2961C
@@ -2386,11 +2254,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SB3D47712524F0032"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.getPartnerWidthOffset
+function C732F0C85E26F39DB.SB3D47712524F0032()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.S5C94970700B2961C
@@ -2444,22 +2309,16 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S1BE629C43AFEBC60"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.GetNpcLivelys
+function C732F0C85E26F39DB.S1BE629C43AFEBC60()
   local L0_2, L1_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.SE19DE034684449DE
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SA1C298D4EEB05438"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.getPartnerParam
+function C732F0C85E26F39DB.SA1C298D4EEB05438(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.fFCE06E04
@@ -2511,11 +2370,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SAF210FCAB05550D1"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.SAF210FCAB05550D1
+function C732F0C85E26F39DB.SAF210FCAB05550D1(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A0_2 then
     A0_2 = false
@@ -2550,11 +2406,8 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SD4594819CB5BD114"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.initializePartnerOffset
+function C732F0C85E26F39DB.SD4594819CB5BD114()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = C732F0C85E26F39DB
   L0_2.SF40E1CEB708C6FE4 = 0
@@ -2584,11 +2437,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S1C6B1D3FB9B8D04A"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.initializeNpcHide
+function C732F0C85E26F39DB.S1C6B1D3FB9B8D04A()
   local L0_2, L1_2
   L0_2 = C732F0C85E26F39DB
   L0_2.S5BA0D3EEC850FB4A = false
@@ -2603,11 +2453,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S2F3F93030795C1EB"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.updateNpcHide
+function C732F0C85E26F39DB.S2F3F93030795C1EB(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = C732F0C85E26F39DB
   L1_2 = L1_2.S5BA0D3EEC850FB4A
@@ -2743,11 +2590,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SB0FCB94881ABE760"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.initializeResetWarp
+function C732F0C85E26F39DB.SB0FCB94881ABE760(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = C732F0C85E26F39DB
   L1_2 = L1_2.S8F44A15312F97D06
@@ -2795,11 +2639,8 @@ function L70_1(A0_2)
   L7_2.S6F4FA56010BD9D80 = L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SEB6F355FD4139CC2"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_esper_common.venueWarp
+function C732F0C85E26F39DB.SEB6F355FD4139CC2(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   L3_2 = C732F0C85E26F39DB
   L3_2 = L3_2.SB0098EE58FA077B7
@@ -2994,11 +2835,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SF268814722A01FA9"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.getPartnerPosXZ
+function C732F0C85E26F39DB.SF268814722A01FA9(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = A0_2.owner
   L2_2 = L1_2
@@ -3042,11 +2880,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SFD79F792B2AD7D64"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_esper_common.exerciseVenueWarp
+function C732F0C85E26F39DB.SFD79F792B2AD7D64(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2
   L3_2 = C07E4F1BF071B0460
   L3_2 = L3_2.S218E2A14A790D265
@@ -3274,11 +3109,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SF941DE122CA19F65"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.waitPartnerAISetup
+function C732F0C85E26F39DB.SF941DE122CA19F65()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.S722AB07CDD6DEDA4
@@ -3381,11 +3213,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S80430B4DF2533B06"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.partnerPokeStateSetup
+function C732F0C85E26F39DB.S80430B4DF2533B06(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S722AB07CDD6DEDA4
@@ -3521,11 +3350,8 @@ function L70_1(A0_2)
   L12_2(L13_2, L14_2, L15_2, L16_2, L17_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S72206F0E181F2F6E"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_common.resetWarp
+function C732F0C85E26F39DB.S72206F0E181F2F6E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L2_2 = C07E4F1BF071B0460
   L2_2 = L2_2.S218E2A14A790D265
@@ -3740,11 +3566,8 @@ function L70_1(A0_2, A1_2)
   L16_2(L17_2, L18_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SF2998104A8213856"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.EffectInit
+function C732F0C85E26F39DB.SF2998104A8213856()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.S01DA0EE3C60F5CB5
@@ -3791,11 +3614,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SEB254534F46B4856"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.SetFinishPos
+function C732F0C85E26F39DB.SEB254534F46B4856()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.S45CB9249EDC06BCE
@@ -3921,11 +3741,8 @@ function L70_1()
   L26_2(L27_2, L28_2, L29_2, L30_2, L31_2, L32_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S38047E1159D18175"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.livelysVisible
+function C732F0C85E26F39DB.S38047E1159D18175(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = 0
   L2_2 = C732F0C85E26F39DB
@@ -4013,11 +3830,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S0289BE06D4BFD591"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.getExcitement
+function C732F0C85E26F39DB.S0289BE06D4BFD591(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C732F0C85E26F39DB
@@ -4038,42 +3852,30 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S651AA29531D13326"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.GetGameCameraType
+function C732F0C85E26F39DB.S651AA29531D13326()
   local L0_2, L1_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.S74A66B0533432596
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S267EDB61A071445A"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.SetGameCameraType
+function C732F0C85E26F39DB.S267EDB61A071445A(A0_2)
   local L1_2
   L1_2 = C732F0C85E26F39DB
   L1_2.S74A66B0533432596 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S8E4C7F795CCA4DDD"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.getGameCameraDistance
+function C732F0C85E26F39DB.S8E4C7F795CCA4DDD()
   local L0_2, L1_2
   L0_2 = 5
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SCE3BAF1D4AB881B1"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.getGameCameraDistanceSingle
+function C732F0C85E26F39DB.SCE3BAF1D4AB881B1()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.SCBF521B987FB3472
@@ -4127,11 +3929,8 @@ function L70_1()
   return L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S71ACB91FB9FDC8FB"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_common.CameraLookAtPosition
+function C732F0C85E26F39DB.S71ACB91FB9FDC8FB(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L2_2 = A1_2.owner
   L3_2 = L2_2
@@ -4167,11 +3966,8 @@ function L70_1(A0_2, A1_2)
   return L14_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S25F12413E76C190C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.gym.base.Gym_esper_common.playStartGameCamera
+function C732F0C85E26F39DB.S25F12413E76C190C(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = C732F0C85E26F39DB
   L3_2 = L3_2.S9AAC28D6B37E324F
@@ -4237,11 +4033,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S74EDDDF12F18119A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.general.gym.base.Gym_esper_common.setStartCamera
+function C732F0C85E26F39DB.S74EDDDF12F18119A(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L5_2 = A2_2.owner
   L6_2 = L5_2
@@ -4321,11 +4114,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SB3BABF3E3D7FF05A"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.playGameCamera
+function C732F0C85E26F39DB.SB3BABF3E3D7FF05A()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L0_2 = C732F0C85E26F39DB
   L0_2.S3D730532C075C3D0 = true
@@ -4370,11 +4160,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SEA47ECB3EE823CED"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.updateGameCamera
+function C732F0C85E26F39DB.SEA47ECB3EE823CED(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C732F0C85E26F39DB
   L1_2 = L1_2.S3D730532C075C3D0
@@ -4400,11 +4187,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.Update
+function C732F0C85E26F39DB.SEB6685558281F194(A0_2)
   local L1_2, L2_2
   L1_2 = C732F0C85E26F39DB
   L1_2 = L1_2.SEA47ECB3EE823CED
@@ -4412,11 +4196,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SD90B4EF44AD125AD"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.GetPartnerCollisionInfo
+function C732F0C85E26F39DB.SD90B4EF44AD125AD()
   local L0_2, L1_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.SD10A429C883CD131
@@ -4426,11 +4207,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SD10A429C883CD131"
-
-function L70_1(A0_2)
+--- main.event.general.gym.base.Gym_esper_common.GetCollisionInfo
+function C732F0C85E26F39DB.SD10A429C883CD131(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = c7C4EA23C
   L1_2 = L1_2.fB41FD22F
@@ -4555,11 +4333,8 @@ function L70_1(A0_2)
   return L7_2(L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S737EA978E2689BD1"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.splitCameraSetup
+function C732F0C85E26F39DB.S737EA978E2689BD1()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.S74A66B0533432596
@@ -4638,11 +4413,8 @@ function L70_1()
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "S70FA5FFC096F2D08"
-
-function L70_1()
+--- main.event.general.gym.base.Gym_esper_common.splitCameraStart
+function C732F0C85E26F39DB.S70FA5FFC096F2D08()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L0_2 = C732F0C85E26F39DB
   L0_2 = L0_2.S74A66B0533432596
@@ -4688,11 +4460,8 @@ function L70_1()
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C732F0C85E26F39DB"]
-L69_1 = "SF35DD07A784CEFA1"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.gym.base.Gym_esper_common.SF35DD07A784CEFA1
+function C732F0C85E26F39DB.SF35DD07A784CEFA1(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   
   function L2_2(A0_3)

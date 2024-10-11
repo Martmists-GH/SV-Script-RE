@@ -1,3 +1,7 @@
+---@alias CF78090999444A548 main_ui_pokedex_PokedexDiplomaSubEventScene
+
+---@class main_ui_pokedex_PokedexDiplomaSubEventScene : CF78090999444A548_prototype
+---@field prototype CF78090999444A548_prototype
 L55_1 = _ENV
 L56_1 = "CBB0ACA2D0182E28F"
 L57_1 = L15_1
@@ -13,11 +17,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CBB0ACA2D0182E28F"]
 L69_1 = "__name__"
 L70_1 = "CBB0ACA2D0182E28F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CBB0ACA2D0182E28F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CF78090999444A548_prototype
+CF78090999444A548_prototype = L15_1()
+CF78090999444A548.prototype = CF78090999444A548_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CBB0ACA2D0182E28F"]["prototype"]
 L69_1 = _ENV["CBB0ACA2D0182E28F"]

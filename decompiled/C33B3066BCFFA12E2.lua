@@ -1,3 +1,7 @@
+---@alias C33B3066BCFFA12E2 main_event_base_manager_EventBgObjectStateManager
+
+---@class main_event_base_manager_EventBgObjectStateManager : C33B3066BCFFA12E2_prototype
+---@field prototype C33B3066BCFFA12E2_prototype
 L55_1 = _ENV
 L56_1 = "C33B3066BCFFA12E2"
 L57_1 = L15_1
@@ -39,19 +43,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C33B3066BCFFA12E2"]
 L69_1 = "__name__"
 L70_1 = "C33B3066BCFFA12E2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33B3066BCFFA12E2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33B3066BCFFA12E2"]["prototype"]
-L69_1 = "F89A45747518C0238"
-
-function L70_1(A0_2, A1_2)
+---@class C33B3066BCFFA12E2_prototype
+C33B3066BCFFA12E2_prototype = L15_1()
+C33B3066BCFFA12E2.prototype = C33B3066BCFFA12E2_prototype
+--- main.event.base.manager.EventBgObjectStateManager.SetObject
+function C33B3066BCFFA12E2_prototype:F89A45747518C0238(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = A1_2[3]
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   if nil == A1_2 then
     L4_2 = L3_2.h
     L5_2 = L47_1.tnull
@@ -62,13 +61,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33B3066BCFFA12E2"]["prototype"]
-L69_1 = "F82E23CEF115F09F4"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventBgObjectStateManager.GetObject
+function C33B3066BCFFA12E2_prototype:F82E23CEF115F09F4(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L47_1.tnull
@@ -85,13 +81,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C33B3066BCFFA12E2"]["prototype"]
-L69_1 = "F3CC990DA6C6A7C4A"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.EventBgObjectStateManager.Delete
+function C33B3066BCFFA12E2_prototype:F3CC990DA6C6A7C4A(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.remove
   L4_2 = A1_2

@@ -1,3 +1,5 @@
+---@class C1D51D814A8080E61 : C1D51D814A8080E61_prototype
+---@field prototype C1D51D814A8080E61_prototype
 L55_1 = _ENV
 L56_1 = "C1D51D814A8080E61"
 L57_1 = L15_1
@@ -37,22 +39,17 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1D51D814A8080E61"]
 L69_1 = "__name__"
 L70_1 = "C1D51D814A8080E61"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D51D814A8080E61"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D51D814A8080E61"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+---@class C1D51D814A8080E61_prototype
+C1D51D814A8080E61_prototype = L15_1()
+C1D51D814A8080E61.prototype = C1D51D814A8080E61_prototype
+--- C1D51D814A8080E61.Update
+function C1D51D814A8080E61_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = nil
   L3_2 = false
   L4_2 = 0
   L5_2 = L3_1
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L6_2 = L6_2[2]
   L6_2 = L6_2[24]
   L6_2 = L6_2[1]
@@ -61,7 +58,7 @@ function L70_1(A0_2, A1_2)
   L7_2 = 4096
   L5_2 = L5_2(L6_2, L7_2)
   if 0 ~= L5_2 then
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[3]
     L5_2 = L5_2[1]
     L5_2 = L5_2[5]
@@ -73,22 +70,22 @@ function L70_1(A0_2, A1_2)
       L3_2 = false
       L2_2 = "Run_Sea"
       L4_2 = 3
-      A0_2[2] = true
+      self[2] = true
     else
-      L6_2 = A0_2[2]
+      L6_2 = self[2]
       if L6_2 then
         L3_2 = true
-        A0_2[2] = false
+        self[2] = false
       end
     end
   else
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     if L5_2 then
       L3_2 = true
-      A0_2[2] = false
+      self[2] = false
     end
   end
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2[3]
   L5_2 = L5_2[1]
   L5_2 = L5_2[5]
@@ -96,7 +93,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2.FE40013E060930121
   L5_2 = L5_2(L6_2)
   if L5_2 >= 0 then
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[2]
     L5_2 = L5_2[24]
     L5_2 = L5_2[1]
@@ -107,28 +104,28 @@ function L70_1(A0_2, A1_2)
     L8_2 = 512
     L6_2 = L6_2(L7_2, L8_2)
     if 0 ~= L6_2 then
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L6_2 = L6_2[3]
       L6_2 = L6_2[1]
       L6_2 = L6_2[5]
       L7_2 = L6_2
       L6_2 = L6_2.FE40013E060930121
       L6_2 = L6_2(L7_2)
-      L7_2 = A0_2[1]
+      L7_2 = self[1]
       L7_2 = L7_2[3]
       L7_2 = L7_2[1]
       L7_2 = L7_2[16]
       L7_2 = L7_2[6]
       L8_2 = L7_2[7]
       L8_2 = L6_2 >= L8_2
-      L9_2 = A0_2[1]
+      L9_2 = self[1]
       L9_2 = L9_2[3]
       L9_2 = L9_2[1]
       L9_2 = L9_2[5]
       L10_2 = L9_2
       L9_2 = L9_2.FE40013E060930121
       L9_2 = L9_2(L10_2)
-      L10_2 = A0_2[1]
+      L10_2 = self[1]
       L10_2 = L10_2[3]
       L10_2 = L10_2[1]
       L10_2 = L10_2[16]
@@ -138,7 +135,7 @@ function L70_1(A0_2, A1_2)
       if L8_2 or L11_2 then
         L12_2 = C9B18926651A71FDA
         L12_2 = L12_2.S57669E023D07F721
-        L13_2 = A0_2[1]
+        L13_2 = self[1]
         L13_2 = L13_2[2]
         L14_2 = 4
         L12_2 = L12_2(L13_2, L14_2)
@@ -150,7 +147,7 @@ function L70_1(A0_2, A1_2)
           if 0 ~= L12_2 then
             L2_2 = "Run_Idlling_Sea"
             L4_2 = 3
-            A0_2[3] = true
+            self[3] = true
           else
             L12_2 = L3_1
             L13_2 = L5_2
@@ -159,36 +156,36 @@ function L70_1(A0_2, A1_2)
             if 0 ~= L12_2 then
               L2_2 = "Dash_Sea"
               L4_2 = 3
-              A0_2[3] = true
+              self[3] = true
             elseif L11_2 then
               L2_2 = "Run_Sea_Player"
               L4_2 = 3
-              A0_2[3] = true
+              self[3] = true
             else
               L2_2 = "Run_Sea"
               L4_2 = 3
-              A0_2[3] = true
+              self[3] = true
             end
           end
         else
           L2_2 = "Run_Heta_Sea"
           L4_2 = 3
-          A0_2[3] = true
+          self[3] = true
         end
       else
-        L12_2 = A0_2[3]
+        L12_2 = self[3]
         if L12_2 then
           L3_2 = true
-          A0_2[3] = false
+          self[3] = false
         end
       end
     else
-      L7_2 = A0_2
-      L6_2 = A0_2.F52CA14A2CF7E39FA
+      L7_2 = self
+      L6_2 = self.F52CA14A2CF7E39FA
       L6_2 = L6_2(L7_2)
       if L6_2 then
         L6_2 = L3_1
-        L7_2 = A0_2[1]
+        L7_2 = self[1]
         L7_2 = L7_2[2]
         L7_2 = L7_2[24]
         L7_2 = L7_2[1]
@@ -199,7 +196,7 @@ function L70_1(A0_2, A1_2)
         if 0 ~= L6_2 then
           L2_2 = "Shallow_Sea"
         else
-          L6_2 = A0_2[1]
+          L6_2 = self[1]
           L6_2 = L6_2[3]
           L6_2 = L6_2[1]
           L6_2 = L6_2[5]
@@ -221,24 +218,24 @@ function L70_1(A0_2, A1_2)
           end
         end
         L4_2 = 3
-        A0_2[3] = true
+        self[3] = true
       else
-        L6_2 = A0_2[3]
+        L6_2 = self[3]
         if L6_2 then
           L3_2 = true
-          A0_2[3] = false
+          self[3] = false
         end
       end
     end
   else
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     if L5_2 then
       L3_2 = true
-      A0_2[3] = false
+      self[3] = false
     end
   end
   if L3_2 then
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[3]
     L5_2 = L5_2[1]
     L5_2 = L5_2[16]
@@ -259,7 +256,7 @@ function L70_1(A0_2, A1_2)
     end
   end
   if nil ~= L2_2 then
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[3]
     L5_2 = L5_2[1]
     L5_2 = L5_2[16]
@@ -373,15 +370,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D51D814A8080E61"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2)
+--- C1D51D814A8080E61.Reset
+function C1D51D814A8080E61_prototype:F96EA28F400597FA0()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  A0_2[2] = false
-  A0_2[3] = false
-  L1_2 = A0_2[1]
+  self[2] = false
+  self[3] = false
+  L1_2 = self[1]
   L1_2 = L1_2[3]
   L1_2 = L1_2[1]
   L1_2 = L1_2[16]
@@ -402,13 +396,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1D51D814A8080E61"]["prototype"]
-L69_1 = "F52CA14A2CF7E39FA"
-
-function L70_1(A0_2)
+--- C1D51D814A8080E61.F52CA14A2CF7E39FA
+function C1D51D814A8080E61_prototype:F52CA14A2CF7E39FA()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L1_2 = L1_2[3]
   L1_2 = L1_2[1]
   L1_2 = L1_2[5]
@@ -416,7 +407,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.FE40013E060930121
   L1_2 = L1_2(L2_2)
   L2_2 = L3_1
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[2]
   L3_2 = L3_2[24]
   L3_2 = L3_2[1]

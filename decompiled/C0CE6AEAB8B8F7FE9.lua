@@ -1,3 +1,7 @@
+---@alias C0CE6AEAB8B8F7FE9 main_pokepicnic_cooking_seasoning_BottleSeasoningBehavior
+
+---@class main_pokepicnic_cooking_seasoning_BottleSeasoningBehavior : C0CE6AEAB8B8F7FE9_prototype
+---@field prototype C0CE6AEAB8B8F7FE9_prototype
 L55_1 = _ENV
 L56_1 = "C0CE6AEAB8B8F7FE9"
 L57_1 = L15_1
@@ -59,24 +63,16 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C0CE6AEAB8B8F7FE9"]
 L69_1 = "__name__"
 L70_1 = "C0CE6AEAB8B8F7FE9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CE6AEAB8B8F7FE9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CE6AEAB8B8F7FE9"]["prototype"]
-L69_1 = "F11C7836E01DE4256"
-
-function L70_1(A0_2)
+---@class C0CE6AEAB8B8F7FE9_prototype
+C0CE6AEAB8B8F7FE9_prototype = L15_1()
+C0CE6AEAB8B8F7FE9.prototype = C0CE6AEAB8B8F7FE9_prototype
+--- main.pokepicnic.cooking.seasoning.BottleSeasoningBehavior.OnInitialize
+function C0CE6AEAB8B8F7FE9_prototype:F11C7836E01DE4256()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CE6AEAB8B8F7FE9"]["prototype"]
-L69_1 = "FE11AE7BEF5A11C2E"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.cooking.seasoning.BottleSeasoningBehavior.GrabUpdate
+function C0CE6AEAB8B8F7FE9_prototype:FE11AE7BEF5A11C2E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = A1_2
   L2_2 = A1_2.f22D509B2
@@ -90,43 +86,40 @@ function L70_1(A0_2, A1_2)
   L4_2 = "UI_DECIDE"
   L3_2 = L3_2(L4_2)
   if L3_2 then
-    L3_2 = A0_2[9]
-    L4_2 = A0_2[9]
+    L3_2 = self[9]
+    L4_2 = self[9]
     L4_2 = L4_2[2]
-    L5_2 = A0_2[7]
+    L5_2 = self[7]
     L5_2 = L5_2 * L2_2
     L5_2 = L5_2 * 10.0
     L4_2 = L4_2 - L5_2
     L3_2[2] = L4_2
   else
-    L3_2 = A0_2[9]
-    L4_2 = A0_2[9]
+    L3_2 = self[9]
+    L4_2 = self[9]
     L4_2 = L4_2[2]
-    L5_2 = A0_2[7]
+    L5_2 = self[7]
     L5_2 = L5_2 * L2_2
     L5_2 = L5_2 * 10.0
     L4_2 = L4_2 + L5_2
     L3_2[2] = L4_2
   end
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L4_2 = CD9AE7C27B00EB066
   L4_2 = L4_2.S05B90B9B5A6DE6BC
-  L5_2 = A0_2[9]
+  L5_2 = self[9]
   L5_2 = L5_2[2]
   L6_2 = 0.0
-  L7_2 = A0_2[7]
+  L7_2 = self[7]
   L4_2 = L4_2(L5_2, L6_2, L7_2)
   L3_2[2] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CE6AEAB8B8F7FE9"]["prototype"]
-L69_1 = "F6E97A6FC998305F0"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.cooking.seasoning.BottleSeasoningBehavior.SetPosition
+function C0CE6AEAB8B8F7FE9_prototype:F6E97A6FC998305F0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[8]
-  L3_2 = A0_2[9]
+  L2_2 = self[8]
+  L3_2 = self[9]
   L4_2 = {}
   L5_2 = A1_2[1]
   L6_2 = L2_2[1]
@@ -146,7 +139,7 @@ function L70_1(A0_2, A1_2)
   L4_2[1] = L5_2
   L4_2[2] = L6_2
   L4_2[3] = L7_2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f8F2B0552
   L7_2 = L4_2[1]
@@ -155,22 +148,19 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CE6AEAB8B8F7FE9"]["prototype"]
-L69_1 = "F324C7E81863511F2"
-
-function L70_1(A0_2)
+--- main.pokepicnic.cooking.seasoning.BottleSeasoningBehavior.F324C7E81863511F2
+function C0CE6AEAB8B8F7FE9_prototype:F324C7E81863511F2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.F68213DDDAE5764D3
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.FD11CA95D4337EC3F
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if 1 == L2_2 or 2 == L2_2 or 6 == L2_2 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f24032F87
     L5_2 = cD5675BA5
@@ -201,27 +191,24 @@ function L70_1(A0_2)
     L3_2[1] = L4_2
     L3_2[2] = L5_2
     L3_2[3] = L6_2
-    A0_2[8] = L3_2
+    self[8] = L3_2
   else
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0CE6AEAB8B8F7FE9"]["prototype"]
-L69_1 = "F8F96F9D9A9314A98"
-
-function L70_1(A0_2)
+--- main.pokepicnic.cooking.seasoning.BottleSeasoningBehavior.F8F96F9D9A9314A98
+function C0CE6AEAB8B8F7FE9_prototype:F8F96F9D9A9314A98()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.F68213DDDAE5764D3
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.FD11CA95D4337EC3F
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if 1 == L2_2 or 2 == L2_2 or 6 == L2_2 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.f24032F87
     L5_2 = CE585D738A30DF365

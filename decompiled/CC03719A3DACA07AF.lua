@@ -1,3 +1,7 @@
+---@alias CC03719A3DACA07AF main_ui_btlspot_net_BattleSpotNetworkData
+
+---@class main_ui_btlspot_net_BattleSpotNetworkData : CC03719A3DACA07AF_prototype
+---@field prototype CC03719A3DACA07AF_prototype
 L55_1 = _ENV
 L56_1 = "CC03719A3DACA07AF"
 L57_1 = L15_1
@@ -33,54 +37,37 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC03719A3DACA07AF"]
 L69_1 = "__name__"
 L70_1 = "CC03719A3DACA07AF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2)
+---@class CC03719A3DACA07AF_prototype
+CC03719A3DACA07AF_prototype = L15_1()
+CC03719A3DACA07AF.prototype = CC03719A3DACA07AF_prototype
+--- main.ui.btlspot.net.BattleSpotNetworkData.Init
+function CC03719A3DACA07AF_prototype:F90BBC6B0190BF053()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.Update
+function CC03719A3DACA07AF_prototype:FEB6685558281F194()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "FDF9C9D692DDB2443"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.IsWaitTournament
+function CC03719A3DACA07AF_prototype:FDF9C9D692DDB2443()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.S15B47001B126559D
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "FBB7006EB0CE94CA5"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.FBB7006EB0CE94CA5
+function CC03719A3DACA07AF_prototype:FBB7006EB0CE94CA5()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.SD9C01963FAF9F055
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F263783F2D3EA118E"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.F263783F2D3EA118E
+function CC03719A3DACA07AF_prototype:F263783F2D3EA118E()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = cF18EF7C2
   L1_2 = L1_2.fBE355A85
@@ -100,11 +87,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F111C6319FBA31A4A"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.GetRegulationHolderFriends
+function CC03719A3DACA07AF_prototype:F111C6319FBA31A4A()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = c03E8ACDF
   L1_2 = L1_2.f5B6373D5
@@ -116,11 +100,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F5FF7B00A08699210"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.GetRegulationHolderRankMatch
+function CC03719A3DACA07AF_prototype:F5FF7B00A08699210()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = c03E8ACDF
   L1_2 = L1_2.f5B6373D5
@@ -132,246 +113,177 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "FCC57CCC2974F7500"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.IsEndCompetitionOfficial
+function CC03719A3DACA07AF_prototype:FCC57CCC2974F7500()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.S454D36E7EB2EEAB2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "FAC32DE53FE3928C5"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.IsOpenCompetitionOfficial
+function CC03719A3DACA07AF_prototype:FAC32DE53FE3928C5()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.S01ACD4518E46BB37
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F99BBA446B4AC791A"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.IsEndCompetitionFriends
+function CC03719A3DACA07AF_prototype:F99BBA446B4AC791A()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.S0D12966CF7ADB998
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F1938D3A11DFF8C95"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.IsOpenCompetitionFriends
+function CC03719A3DACA07AF_prototype:F1938D3A11DFF8C95()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.S458E50C4CECC05E3
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F31F03AD2AC190CB8"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.IsHoldCompetitionFriends
+function CC03719A3DACA07AF_prototype:F31F03AD2AC190CB8()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.SBD0E4074E261BADA
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F853B03F575E4BCC7"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.IsEntryCompetitionFriends
+function CC03719A3DACA07AF_prototype:F853B03F575E4BCC7()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.S1E5470B287E511B9
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F03341DA88A29FC91"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.SetEntryCompetitionFriends
+function CC03719A3DACA07AF_prototype:F03341DA88A29FC91(A1_2)
   local L2_2
   L2_2 = CC03719A3DACA07AF
   L2_2.S1E5470B287E511B9 = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "FBCB8DC3517A2B07A"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.IsLimitBtlCompetitionFriends
+function CC03719A3DACA07AF_prototype:FBCB8DC3517A2B07A()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.SD1C9CDF86B93A954
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "FFE708B56EE9A7F03"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.IsEntryCompetitionOfficial
+function CC03719A3DACA07AF_prototype:FFE708B56EE9A7F03()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.S4B88BFD3BC639001
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "FDFD60121AB8429E0"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.IsLimitBtlCompetitionOfficial
+function CC03719A3DACA07AF_prototype:FDFD60121AB8429E0()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.SDCD1449A1163FF06
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F30A0DC7FFDC8598B"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.F30A0DC7FFDC8598B
+function CC03719A3DACA07AF_prototype:F30A0DC7FFDC8598B()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.S4E20BEB2D39F8E21
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F6F3194AC074B89B6"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.F6F3194AC074B89B6
+function CC03719A3DACA07AF_prototype:F6F3194AC074B89B6()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.S1D16BE7AA6DD4750
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F21D9F70E3935A368"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.F21D9F70E3935A368
+function CC03719A3DACA07AF_prototype:F21D9F70E3935A368(A1_2)
   local L2_2
   L2_2 = CC03719A3DACA07AF
   L2_2.S1D16BE7AA6DD4750 = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "FB007944DC0D1D81A"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.FB007944DC0D1D81A
+function CC03719A3DACA07AF_prototype:FB007944DC0D1D81A()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.S745C4F9569B466DC
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F30D83368EAFD1234"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.F30D83368EAFD1234
+function CC03719A3DACA07AF_prototype:F30D83368EAFD1234(A1_2)
   local L2_2
   L2_2 = CC03719A3DACA07AF
   L2_2.S745C4F9569B466DC = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F8997ABA28FA00CA8"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.F8997ABA28FA00CA8
+function CC03719A3DACA07AF_prototype:F8997ABA28FA00CA8()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.SD2E619C284F11E46
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F751C5CC93124E6CE"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.F751C5CC93124E6CE
+function CC03719A3DACA07AF_prototype:F751C5CC93124E6CE(A1_2)
   local L2_2
   L2_2 = CC03719A3DACA07AF
   L2_2.SD2E619C284F11E46 = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F60F29743844622EF"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.F60F29743844622EF
+function CC03719A3DACA07AF_prototype:F60F29743844622EF()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.S315754BEF96823BD
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F15EE0E9956126BE5"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.F15EE0E9956126BE5
+function CC03719A3DACA07AF_prototype:F15EE0E9956126BE5(A1_2)
   local L2_2
   L2_2 = CC03719A3DACA07AF
   L2_2.S315754BEF96823BD = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F35FA2324ECD60FF1"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.F35FA2324ECD60FF1
+function CC03719A3DACA07AF_prototype:F35FA2324ECD60FF1()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.SB976A283CA0245F3
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F4A4BF545F4DE410B"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.F4A4BF545F4DE410B
+function CC03719A3DACA07AF_prototype:F4A4BF545F4DE410B(A1_2)
   local L2_2
   L2_2 = CC03719A3DACA07AF
   L2_2.SB976A283CA0245F3 = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F050CDF0BBAD87CEC"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.F050CDF0BBAD87CEC
+function CC03719A3DACA07AF_prototype:F050CDF0BBAD87CEC()
   local L1_2
   L1_2 = 1
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F26C74E914EA29EF7"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.GetRankMatchResultData
+function CC03719A3DACA07AF_prototype:F26C74E914EA29EF7(A1_2)
   local L2_2, L3_2, L4_2
   if 1 == A1_2 then
     L2_2 = L16_1
@@ -431,18 +343,15 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F201C24968E99EA1D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.SetStartRankingData
+function CC03719A3DACA07AF_prototype:F201C24968E99EA1D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = 0
   end
   if 1 == A1_2 or 0 == A1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F26C74E914EA29EF7
+    L3_2 = self
+    L2_2 = self.F26C74E914EA29EF7
     L4_2 = 1
     L2_2 = L2_2(L3_2, L4_2)
     L3_2 = CC03719A3DACA07AF
@@ -469,8 +378,8 @@ function L70_1(A0_2, A1_2)
     L3_2.SC8A2C128780F2FEC = L4_2
   end
   if 2 == A1_2 or 0 == A1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F26C74E914EA29EF7
+    L3_2 = self
+    L2_2 = self.F26C74E914EA29EF7
     L4_2 = 2
     L2_2 = L2_2(L3_2, L4_2)
     L3_2 = CC03719A3DACA07AF
@@ -498,11 +407,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F97B04BD3F7BB5DE9"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.GetStartRankingData
+function CC03719A3DACA07AF_prototype:F97B04BD3F7BB5DE9(A1_2)
   local L2_2, L3_2, L4_2
   if 1 == A1_2 then
     L2_2 = CC03719A3DACA07AF
@@ -530,19 +436,16 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "F30C798620FA09792"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.GetDiffPoint
+function CC03719A3DACA07AF_prototype:F30C798620FA09792(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F97B04BD3F7BB5DE9
+  L3_2 = self
+  L2_2 = self.F97B04BD3F7BB5DE9
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = L2_2.point
-  L5_2 = A0_2
-  L4_2 = A0_2.F26C74E914EA29EF7
+  L5_2 = self
+  L4_2 = self.F26C74E914EA29EF7
   L6_2 = A1_2
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = L2_2.point
@@ -557,11 +460,8 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "FB5CEFFEC31F298FC"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.FB5CEFFEC31F298FC
+function CC03719A3DACA07AF_prototype:FB5CEFFEC31F298FC()
   local L1_2, L2_2, L3_2
   L1_2 = L16_1
   L2_2 = {}
@@ -576,11 +476,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "FF433070BD4C4CE21"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.FF433070BD4C4CE21
+function CC03719A3DACA07AF_prototype:FF433070BD4C4CE21()
   local L1_2, L2_2, L3_2
   L1_2 = L16_1
   L2_2 = {}
@@ -595,11 +492,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC03719A3DACA07AF"]["prototype"]
-L69_1 = "FB438957E8C3FB18E"
-
-function L70_1(A0_2)
+--- main.ui.btlspot.net.BattleSpotNetworkData.GetBtlResult
+function CC03719A3DACA07AF_prototype:FB438957E8C3FB18E()
   local L1_2
   L1_2 = CC03719A3DACA07AF
   L1_2 = L1_2.SCE1BD20791ABA6F1

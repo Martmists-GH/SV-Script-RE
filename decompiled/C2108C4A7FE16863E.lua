@@ -1,3 +1,7 @@
+---@alias C2108C4A7FE16863E main_ui_hud_area_management_HudAreaUIScene
+
+---@class main_ui_hud_area_management_HudAreaUIScene : C2108C4A7FE16863E_prototype
+---@field prototype C2108C4A7FE16863E_prototype
 L55_1 = _ENV
 L56_1 = "C2108C4A7FE16863E"
 L57_1 = L15_1
@@ -37,31 +41,23 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2108C4A7FE16863E"]
 L69_1 = "__name__"
 L70_1 = "C2108C4A7FE16863E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2108C4A7FE16863E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2108C4A7FE16863E"]["prototype"]
-L69_1 = "FB68CFA277DC5D2A5"
-
-function L70_1(A0_2)
+---@class C2108C4A7FE16863E_prototype
+C2108C4A7FE16863E_prototype = L15_1()
+C2108C4A7FE16863E.prototype = C2108C4A7FE16863E_prototype
+--- main.ui.hud_area.management.HudAreaUIScene.OpenUIScene
+function C2108C4A7FE16863E_prototype:FB68CFA277DC5D2A5()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F052BEB8F702E7A17
+  L2_2 = self
+  L1_2 = self.F052BEB8F702E7A17
   L3_2 = "hud_areaname"
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2108C4A7FE16863E"]["prototype"]
-L69_1 = "F9C385EBCB517F9DC"
-
-function L70_1(A0_2)
+--- main.ui.hud_area.management.HudAreaUIScene.SetReplay
+function C2108C4A7FE16863E_prototype:F9C385EBCB517F9DC()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FB7BFB8BDC6CEB612
+  L2_2 = self
+  L1_2 = self.FB7BFB8BDC6CEB612
   L1_2 = L1_2(L2_2)
   if nil == L1_2 then
     return
@@ -71,14 +67,11 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2108C4A7FE16863E"]["prototype"]
-L69_1 = "F12F63EE47FFCB183"
-
-function L70_1(A0_2)
+--- main.ui.hud_area.management.HudAreaUIScene.Suspend
+function C2108C4A7FE16863E_prototype:F12F63EE47FFCB183()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FB7BFB8BDC6CEB612
+  L2_2 = self
+  L1_2 = self.FB7BFB8BDC6CEB612
   L1_2 = L1_2(L2_2)
   if nil == L1_2 then
     return
@@ -88,23 +81,20 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2108C4A7FE16863E"]["prototype"]
-L69_1 = "FB7BFB8BDC6CEB612"
-
-function L70_1(A0_2)
+--- main.ui.hud_area.management.HudAreaUIScene.GetView
+function C2108C4A7FE16863E_prototype:FB7BFB8BDC6CEB612()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = nil
     return L2_2
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.fD4E64AB7
   L4_2 = "hud_areaname_ui"

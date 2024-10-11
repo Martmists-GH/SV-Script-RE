@@ -1,3 +1,6 @@
+---@alias C8F1E7748FD391BE7 main_ui_shop_restaurant_view_ShopRestaurantUIView
+
+---@class main_ui_shop_restaurant_view_ShopRestaurantUIView
 L55_1 = _ENV
 L56_1 = "CFB8EBB5CEEDF90D8"
 L57_1 = L15_1

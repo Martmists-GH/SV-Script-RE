@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C42D1CDB112422850"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "new"
+---@alias C42D1CDB112422850 main_field_behaviour_out_of_range_FieldOutOfRangeManager
 
-function L70_1(A0_2)
+---@class main_field_behaviour_out_of_range_FieldOutOfRangeManager : C42D1CDB112422850_prototype
+---@field prototype C42D1CDB112422850_prototype
+C42D1CDB112422850 = L15_1()
+function C42D1CDB112422850.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C42D1CDB112422850
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C42D1CDB112422850
+function C42D1CDB112422850.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[9] = nil
   A0_2[8] = true
@@ -53,11 +47,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C42D1CDB112422850"]
 L69_1 = "__name__"
 L70_1 = "C42D1CDB112422850"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "S8B69A32BC6C3580A"
-
-function L70_1()
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.GetExcludeCount
+function C42D1CDB112422850.S8B69A32BC6C3580A()
   local L0_2, L1_2
   L0_2 = C42D1CDB112422850
   L0_2 = L0_2.SF3075AB31C9E8AF4
@@ -72,11 +63,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "S21B2E00A427D24BD"
-
-function L70_1()
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.AddExcludeCount
+function C42D1CDB112422850.S21B2E00A427D24BD()
   local L0_2, L1_2
   L0_2 = C42D1CDB112422850
   L0_2 = L0_2.SF3075AB31C9E8AF4
@@ -91,11 +79,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "S2E89DD1F7763EC80"
-
-function L70_1()
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.SubExcludeCount
+function C42D1CDB112422850.S2E89DD1F7763EC80()
   local L0_2, L1_2
   L0_2 = C42D1CDB112422850
   L0_2 = L0_2.SF3075AB31C9E8AF4
@@ -110,11 +95,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "SAD63C83746798386"
-
-function L70_1()
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.ResetActiveCliffReturn
+function C42D1CDB112422850.SAD63C83746798386()
   local L0_2, L1_2
   L0_2 = C42D1CDB112422850
   L0_2 = L0_2.SF3075AB31C9E8AF4
@@ -128,11 +110,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "S99068801EC026DEB"
-
-function L70_1()
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.IsCheckDrown
+function C42D1CDB112422850.S99068801EC026DEB()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CFC8F368D91411014
   L0_2 = L0_2.SDE9EF3CFD428417D
@@ -190,11 +169,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "S21492CFD15EDDEC3"
-
-function L70_1()
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.GetRoomName
+function C42D1CDB112422850.S21492CFD15EDDEC3()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -218,11 +194,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "S40E19D5A08700829"
-
-function L70_1(A0_2)
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.ActiveCliffReturn
+function C42D1CDB112422850.S40E19D5A08700829(A0_2)
   local L1_2
   L1_2 = C42D1CDB112422850
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -233,11 +206,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "SAC3C14E150513FBF"
-
-function L70_1(A0_2)
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.IsOutOfRange
+function C42D1CDB112422850.SAC3C14E150513FBF(A0_2)
   local L1_2, L2_2
   L1_2 = C42D1CDB112422850
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -251,11 +221,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "SBFEBD268F15274EC"
-
-function L70_1(A0_2)
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.SetEnable
+function C42D1CDB112422850.SBFEBD268F15274EC(A0_2)
   local L1_2
   L1_2 = C42D1CDB112422850
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -266,11 +233,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "S3B54BC21758C0159"
-
-function L70_1()
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.get_IsNullGreenFlyPos
+function C42D1CDB112422850.S3B54BC21758C0159()
   local L0_2, L1_2
   L0_2 = C42D1CDB112422850
   L0_2 = L0_2.S26845C4F9C22D4B1
@@ -278,11 +242,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "S56FEE9093E5D5CA2"
-
-function L70_1()
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.get_GreenFlyPos
+function C42D1CDB112422850.S56FEE9093E5D5CA2()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C42D1CDB112422850
   L0_2 = L0_2.S3B54BC21758C0159
@@ -303,11 +264,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "SF213EE425F1151CE"
-
-function L70_1(A0_2)
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.UpdateGreenFlyPos
+function C42D1CDB112422850.SF213EE425F1151CE(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = C440DCA38121CB47F
   L1_2 = L1_2.S264F26F6894F3392
@@ -384,11 +342,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "SB1B0B792BAC0AE86"
-
-function L70_1()
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.GetAutoReturnEvent
+function C42D1CDB112422850.SB1B0B792BAC0AE86()
   local L0_2, L1_2
   L0_2 = C42D1CDB112422850
   L0_2 = L0_2.SF3075AB31C9E8AF4
@@ -403,11 +358,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "S8AC38D717D35C41A"
-
-function L70_1(A0_2)
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.SetAutoReturnEvent
+function C42D1CDB112422850.S8AC38D717D35C41A(A0_2)
   local L1_2
   L1_2 = C42D1CDB112422850
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -418,11 +370,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "S2FA25650F123CB4F"
-
-function L70_1()
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.ResetAutoReturnEvent
+function C42D1CDB112422850.S2FA25650F123CB4F()
   local L0_2, L1_2
   L0_2 = C42D1CDB112422850
   L0_2 = L0_2.S8AC38D717D35C41A
@@ -430,29 +379,24 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C42D1CDB112422850_prototype
+C42D1CDB112422850_prototype = L15_1()
+C42D1CDB112422850.prototype = C42D1CDB112422850_prototype
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.Setup
+function C42D1CDB112422850_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C42D1CDB112422850
-  L2_2.SF3075AB31C9E8AF4 = A0_2
+  L2_2.SF3075AB31C9E8AF4 = self
   L2_2 = CD1AB2595B97752F1
   L2_2 = L2_2.S7C68FEDB79AB6396
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2, L4_2 = L3_2(L4_2)
   L2_2(L3_2, L4_2)
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f024ADB0D
@@ -461,36 +405,30 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.PreUpdate
+function C42D1CDB112422850_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F65AC46675740545A
+  L3_2 = self
+  L2_2 = self.F65AC46675740545A
   L2_2(L3_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if L2_2 > 0 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L2_2 = L2_2 - 1
-    A0_2[2] = L2_2
+    self[2] = L2_2
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if L2_2 <= 0 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F08C9EEE975D7AF98
+    L3_2 = self
+    L2_2 = self.F08C9EEE975D7AF98
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]["prototype"]
-L69_1 = "F08C9EEE975D7AF98"
-
-function L70_1(A0_2)
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.onCheckGreenPosition
+function C42D1CDB112422850_prototype:F08C9EEE975D7AF98()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   if nil == L1_2 then
     L1_2 = CFC8F368D91411014
     L1_2 = L1_2.S93A017D496A6D000
@@ -508,7 +446,7 @@ function L70_1(A0_2)
     L4_2 = L4_2.SDE9EF3CFD428417D
     L3_2.localControl = L4_2
     L2_2 = L2_2(L3_2)
-    A0_2[3] = L2_2
+    self[3] = L2_2
   end
   L1_2 = C8F93126DACB9F8DD
   L1_2 = L1_2.S93A2C11A3020463D
@@ -528,11 +466,11 @@ function L70_1(A0_2)
       end
     end
   end
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   if "" ~= L1_2 then
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     if "oniballoon" ~= L1_2 then
-      L1_2 = A0_2[5]
+      L1_2 = self[5]
       if "kuma_fieldwork" ~= L1_2 then
         return
       end
@@ -568,11 +506,11 @@ function L70_1(A0_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if L2_2 then
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.localControl
   L2_2 = L2_2[24]
   L2_2 = L2_2[1]
@@ -584,7 +522,7 @@ function L70_1(A0_2)
     return
   end
   L2_2 = L3_1
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L3_2 = L3_2.localControl
   L3_2 = L3_2[24]
   L3_2 = L3_2[1]
@@ -596,7 +534,7 @@ function L70_1(A0_2)
     return
   end
   L2_2 = L3_1
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L3_2 = L3_2.localControl
   L3_2 = L3_2[24]
   L3_2 = L3_2[1]
@@ -607,7 +545,7 @@ function L70_1(A0_2)
   if 0 ~= L2_2 then
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.localControl
   L2_2 = L2_2[24]
   L2_2 = L2_2[1]
@@ -619,7 +557,7 @@ function L70_1(A0_2)
     return
   end
   L2_2 = L3_1
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L3_2 = L3_2.localControl
   L3_2 = L3_2[24]
   L3_2 = L3_2[1]
@@ -631,7 +569,7 @@ function L70_1(A0_2)
     return
   end
   L2_2 = L3_1
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L3_2 = L3_2.localControl
   L3_2 = L3_2[24]
   L3_2 = L3_2[1]
@@ -642,13 +580,13 @@ function L70_1(A0_2)
   if 0 ~= L2_2 then
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.localControl
   L2_2 = L2_2[24]
   L2_2 = L2_2[1]
   L2_2 = L2_2[5]
   L2_2 = L2_2[12]
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L3_2 = L3_2.localControl
   L3_2 = L3_2[24]
   L3_2 = L3_2[1]
@@ -683,7 +621,7 @@ function L70_1(A0_2)
   L5_2 = 2 * L5_2
   L4_2 = L4_2 / L5_2
   L4_2 = L4_2 * 360.0
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L5_2 = L5_2.localControl
   L5_2 = L5_2[24]
   L5_2 = L5_2[1]
@@ -697,7 +635,7 @@ function L70_1(A0_2)
   if L4_2 > L6_2 or not L5_2 then
     return
   end
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L6_2 = L6_2.player
   L6_2 = L6_2.owner
   L7_2 = L6_2
@@ -717,12 +655,12 @@ function L70_1(A0_2)
   if L10_2 then
     return
   end
-  L10_2 = A0_2[6]
+  L10_2 = self[6]
   if L10_2 > 0 then
     return
   end
   L10_2 = L3_1
-  L11_2 = A0_2[3]
+  L11_2 = self[3]
   L11_2 = L11_2.localControl
   L11_2 = L11_2[24]
   L11_2 = L11_2[1]
@@ -731,7 +669,7 @@ function L70_1(A0_2)
   L12_2 = 2
   L10_2 = L10_2(L11_2, L12_2)
   if 0 == L10_2 then
-    L10_2 = A0_2[3]
+    L10_2 = self[3]
     L10_2 = L10_2.localControl
     L10_2 = L10_2[24]
     L10_2 = L10_2[1]
@@ -752,20 +690,17 @@ function L70_1(A0_2)
   L11_2 = C42D1CDB112422850
   L11_2 = L11_2.S44359FB73CE5BEE8
   L10_2 = L10_2(L11_2)
-  A0_2[2] = L10_2
+  self[2] = L10_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]["prototype"]
-L69_1 = "F65AC46675740545A"
-
-function L70_1(A0_2)
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.F65AC46675740545A
+function C42D1CDB112422850_prototype:F65AC46675740545A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if not L1_2 then
     return
   end
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   if nil == L1_2 then
     return
   end
@@ -799,7 +734,7 @@ function L70_1(A0_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.player
   L2_2 = L2_2.owner
   L3_2 = L2_2
@@ -816,7 +751,7 @@ function L70_1(A0_2)
   L6_2[3] = L9_2
   L5_2 = L5_2(L6_2)
   if L5_2 then
-    A0_2[7] = false
+    self[7] = false
     L5_2 = C3DD9809BE5B47111
     L5_2 = L5_2.SC8223E31D3163519
     L6_2 = L5_2
@@ -824,13 +759,13 @@ function L70_1(A0_2)
     L7_2 = 15
     L5_2(L6_2, L7_2)
   else
-    L5_2 = A0_2[7]
+    L5_2 = self[7]
     if not L5_2 then
       L5_2 = C42D1CDB112422850
       L5_2 = L5_2.SF3075AB31C9E8AF4
       L5_2 = L5_2[9]
       if nil ~= L5_2 then
-        L5_2 = A0_2[8]
+        L5_2 = self[8]
         if L5_2 then
           L5_2 = CFC8F368D91411014
           L5_2 = L5_2.SDE9EF3CFD428417D
@@ -898,7 +833,7 @@ function L70_1(A0_2)
                     L7_2 = nil
                   end
                   if not L7_2 then
-                    A0_2[7] = true
+                    self[7] = true
                     L8_2 = C3DD9809BE5B47111
                     L8_2 = L8_2.SC8223E31D3163519
                     L9_2 = L8_2
@@ -917,13 +852,10 @@ function L70_1(A0_2)
   ::lbl_125::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]["prototype"]
-L69_1 = "F44E0BCA95324EE8B"
-
-function L70_1(A0_2)
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.NotifyEventChecker
+function C42D1CDB112422850_prototype:F44E0BCA95324EE8B()
   local L1_2, L2_2, L3_2
-  A0_2[7] = false
+  self[7] = false
   L1_2 = C3DD9809BE5B47111
   L1_2 = L1_2.SC8223E31D3163519
   L2_2 = L1_2
@@ -932,11 +864,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D1CDB112422850"]["prototype"]
-L69_1 = "FE489F7EC693C2EFC"
-
-function L70_1(A0_2)
+--- main.field.behaviour.out_of_range.FieldOutOfRangeManager.NotifyEventCheckerOnCliff
+function C42D1CDB112422850_prototype:FE489F7EC693C2EFC()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = cCB5F4E51
   L1_2 = L1_2.f10377633
@@ -951,7 +880,7 @@ function L70_1(A0_2)
       L1_2 = nil
     end
     if not L1_2 then
-      A0_2[7] = true
+      self[7] = true
       L2_2 = C3DD9809BE5B47111
       L2_2 = L2_2.SC8223E31D3163519
       L3_2 = L2_2

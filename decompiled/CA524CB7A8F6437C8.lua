@@ -1,3 +1,5 @@
+---@class CD61515B25D873938 : CD61515B25D873938_prototype
+---@field prototype CD61515B25D873938_prototype
 L55_1 = _ENV
 L56_1 = "CA524CB7A8F6437C8"
 L57_1 = L15_1
@@ -42,11 +44,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA524CB7A8F6437C8"]
 L69_1 = "__name__"
 L70_1 = "CA524CB7A8F6437C8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA524CB7A8F6437C8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CD61515B25D873938_prototype
+CD61515B25D873938_prototype = L15_1()
+CD61515B25D873938.prototype = CD61515B25D873938_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA524CB7A8F6437C8"]["prototype"]
 L69_1 = _ENV["CA524CB7A8F6437C8"]
@@ -54,7 +54,7 @@ L68_1.__class__ = L69_1
 L68_1 = CCFE295C92478F6BD
 L69_1 = "new"
 
-function L70_1(A0_2)
+function L70_1(self)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CCFE295C92478F6BD
@@ -65,7 +65,7 @@ function L70_1(A0_2)
   L2_2 = CCFE295C92478F6BD
   L2_2 = L2_2.super
   L3_2 = L1_2
-  L4_2 = A0_2
+  L4_2 = self
   L2_2(L3_2, L4_2)
   return L1_2
 end

@@ -1,3 +1,7 @@
+---@alias CE6EE3F9C54FC6D83 main_pokepicnic_PicnicNetwork
+
+---@class main_pokepicnic_PicnicNetwork : CE6EE3F9C54FC6D83_prototype
+---@field prototype CE6EE3F9C54FC6D83_prototype
 L55_1 = _ENV
 L56_1 = "C440DCA38121CB47F"
 L57_1 = L15_1
@@ -94,11 +98,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C440DCA38121CB47F"]
 L69_1 = "__name__"
 L70_1 = "C440DCA38121CB47F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C440DCA38121CB47F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CE6EE3F9C54FC6D83_prototype
+CE6EE3F9C54FC6D83_prototype = L15_1()
+CE6EE3F9C54FC6D83.prototype = CE6EE3F9C54FC6D83_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C440DCA38121CB47F"]["prototype"]
 L69_1 = _ENV["C440DCA38121CB47F"]

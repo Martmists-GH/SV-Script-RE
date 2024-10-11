@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CEC4BF82A35D1E447"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]
-L69_1 = "new"
+---@alias CEC4BF82A35D1E447 main_ui_box_BoxDataManager
 
-function L70_1()
+---@class main_ui_box_BoxDataManager : CEC4BF82A35D1E447_prototype
+---@field prototype CEC4BF82A35D1E447_prototype
+CEC4BF82A35D1E447 = L15_1()
+function CEC4BF82A35D1E447.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = CEC4BF82A35D1E447
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 CEC4BF82A35D1E447
+function CEC4BF82A35D1E447.super(A0_2)
   local L1_2
   A0_2[2] = false
 end
@@ -37,11 +31,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CEC4BF82A35D1E447"]
 L69_1 = "__name__"
 L70_1 = "CEC4BF82A35D1E447"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]
-L69_1 = "S0B3F69C4549A0284"
-
-function L70_1()
+--- main.ui.box.BoxDataManager.GetInstance
+function CEC4BF82A35D1E447.S0B3F69C4549A0284()
   local L0_2, L1_2
   L0_2 = CEC4BF82A35D1E447
   L0_2 = L0_2.SAC59A546CBB3A812
@@ -55,11 +46,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]
-L69_1 = "SE85D7324E25D9CBA"
-
-function L70_1()
+--- main.ui.box.BoxDataManager.CreateInstance
+function CEC4BF82A35D1E447.SE85D7324E25D9CBA()
   local L0_2, L1_2
   L0_2 = CEC4BF82A35D1E447
   L1_2 = CEC4BF82A35D1E447
@@ -68,36 +56,25 @@ function L70_1()
   L0_2.SAC59A546CBB3A812 = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]["prototype"]
-L69_1 = "FAD8B8A2F5E6490CE"
-
-function L70_1(A0_2)
+---@class CEC4BF82A35D1E447_prototype
+CEC4BF82A35D1E447_prototype = L15_1()
+CEC4BF82A35D1E447.prototype = CEC4BF82A35D1E447_prototype
+--- main.ui.box.BoxDataManager.get_boxParam
+function CEC4BF82A35D1E447_prototype:FAD8B8A2F5E6490CE()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]["prototype"]
-L69_1 = "F4AEE737FC9CB126F"
-
-function L70_1(A0_2)
+--- main.ui.box.BoxDataManager.get_isNetTrade
+function CEC4BF82A35D1E447_prototype:F4AEE737FC9CB126F()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]["prototype"]
-L69_1 = "F038FB5B59CDE025F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.box.BoxDataManager.GetBoxItemData
+function CEC4BF82A35D1E447_prototype:F038FB5B59CDE025F(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = c1A1CBE3B
   L3_2 = L3_2.f6AA17B5F
@@ -106,11 +83,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]["prototype"]
-L69_1 = "F5C49F358FC5A8CA9"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.box.BoxDataManager.AddPoke
+function CEC4BF82A35D1E447_prototype:F5C49F358FC5A8CA9(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2
   L4_2 = c1A1CBE3B
   L4_2 = L4_2.fA4BF8173
@@ -120,27 +94,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]["prototype"]
-L69_1 = "F6741765C6EA39485"
-
-function L70_1(A0_2, A1_2)
-  A0_2[1] = A1_2
+--- main.ui.box.BoxDataManager.SetBoxParam
+function CEC4BF82A35D1E447_prototype:F6741765C6EA39485(A1_2)
+  self[1] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]["prototype"]
-L69_1 = "F42B6F01C842E3A98"
-
-function L70_1(A0_2, A1_2)
-  A0_2[2] = A1_2
+--- main.ui.box.BoxDataManager.SetIsNetTrade
+function CEC4BF82A35D1E447_prototype:F42B6F01C842E3A98(A1_2)
+  self[2] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]["prototype"]
-L69_1 = "F4CA8A9EB526F1654"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.box.BoxDataManager.RemovePoke
+function CEC4BF82A35D1E447_prototype:F4CA8A9EB526F1654(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = c1A1CBE3B
   L3_2 = L3_2.fA8435C5D
@@ -149,11 +114,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]["prototype"]
-L69_1 = "F187D60128914353F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.box.BoxDataManager.AddPokeEmptyBox
+function CEC4BF82A35D1E447_prototype:F187D60128914353F(A1_2)
   local L2_2, L3_2
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.fBA32BF45
@@ -161,17 +123,14 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]["prototype"]
-L69_1 = "F518978B87DAB37D6"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.box.BoxDataManager.OverridePokemon
+function CEC4BF82A35D1E447_prototype:F518978B87DAB37D6(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = nil
   L5_2 = c113335A8
   L5_2 = L5_2.fB91A909C
-  L7_2 = A0_2
-  L6_2 = A0_2.F038FB5B59CDE025F
+  L7_2 = self
+  L6_2 = self.F038FB5B59CDE025F
   L8_2 = A1_2
   L9_2 = A2_2
   L6_2 = L6_2(L7_2, L8_2, L9_2)
@@ -192,11 +151,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEC4BF82A35D1E447"]["prototype"]
-L69_1 = "F018595A397998E7D"
-
-function L70_1(A0_2)
+--- main.ui.box.BoxDataManager.F018595A397998E7D
+function CEC4BF82A35D1E447_prototype:F018595A397998E7D()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = cCDB92DE8
   L1_2 = L1_2.f926A8DCD

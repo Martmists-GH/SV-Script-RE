@@ -1,3 +1,7 @@
+---@alias C83B3E57553F5DACF main_field_action_ActionPicnicBallThrow
+
+---@class main_field_action_ActionPicnicBallThrow : C83B3E57553F5DACF_prototype
+---@field prototype C83B3E57553F5DACF_prototype
 L55_1 = _ENV
 L56_1 = "C83B3E57553F5DACF"
 L57_1 = L15_1
@@ -46,35 +50,27 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C83B3E57553F5DACF"]
 L69_1 = "__name__"
 L70_1 = "C83B3E57553F5DACF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83B3E57553F5DACF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83B3E57553F5DACF"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C83B3E57553F5DACF_prototype
+C83B3E57553F5DACF_prototype = L15_1()
+C83B3E57553F5DACF.prototype = C83B3E57553F5DACF_prototype
+--- main.field.action.ActionPicnicBallThrow.onCreate
+function C83B3E57553F5DACF_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2.useCoroutine = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83B3E57553F5DACF"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPicnicBallThrow.onPreUpdate
+function C83B3E57553F5DACF_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
-  A0_2[17] = 1
+  self[17] = 1
   L1_2 = C2B39B758D96A5908
   L1_2 = L1_2.S50CB2B4EB5CE75C1
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   L2_2 = L2_2.Ball
   L1_2 = L1_2(L2_2)
   if nil ~= L1_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L4_2 = L1_2
     L3_2 = L1_2.FA1A66E927470EC84
     
@@ -96,7 +92,7 @@ function L70_1(A0_2)
   end
   L2_2 = cECB91E31
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[16]
+  L3_2 = self[16]
   L3_2 = L3_2.Ball
   L2_2 = L2_2(L3_2)
   L3_2 = nil
@@ -286,11 +282,11 @@ function L70_1(A0_2)
         L17_2 = L17_2(L18_2)
         L18_2 = 0.22
         if L17_2 >= L18_2 then
-          L17_2 = A0_2[19]
+          L17_2 = self[19]
           if not L17_2 then
             L17_2 = cECB91E31
             L17_2 = L17_2.fB41FD22F
-            L18_2 = A0_2[16]
+            L18_2 = self[16]
             L18_2 = L18_2.Ball
             L17_2 = L17_2(L18_2)
             L18_2 = nil
@@ -304,7 +300,7 @@ function L70_1(A0_2)
               L19_2 = L17_2.f6754453E
               L21_2 = true
               L19_2(L20_2, L21_2)
-              A0_2[19] = true
+              self[19] = true
             end
           end
         end
@@ -318,11 +314,11 @@ function L70_1(A0_2)
         L17_2 = L17_2(L18_2)
         L18_2 = 0.5
         if L17_2 >= L18_2 then
-          L17_2 = A0_2[18]
+          L17_2 = self[18]
           if not L17_2 then
             L17_2 = C2B39B758D96A5908
             L17_2 = L17_2.S50CB2B4EB5CE75C1
-            L18_2 = A0_2[16]
+            L18_2 = self[16]
             L18_2 = L18_2.Ball
             L17_2 = L17_2(L18_2)
             if nil ~= L17_2 then
@@ -330,8 +326,8 @@ function L70_1(A0_2)
               L18_2 = L17_2.F91049421FEA8B40F
               L18_2(L19_2)
             end
-            A0_2[17] = 2
-            A0_2[18] = true
+            self[17] = 2
+            self[18] = true
           end
         end
       end
@@ -339,7 +335,7 @@ function L70_1(A0_2)
       L17_2 = L15_2.fE9C29DA1
       L17_2 = L17_2(L18_2)
       if "throw01" ~= L17_2 then
-        L17_2 = A0_2[18]
+        L17_2 = self[18]
         if L17_2 then
           break
         end
@@ -350,11 +346,8 @@ function L70_1(A0_2)
   return L13_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C83B3E57553F5DACF"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPicnicBallThrow.onTerminate
+function C83B3E57553F5DACF_prototype:F97D80368ACC86AEF()
   local L1_2
   L1_2 = true
   return L1_2

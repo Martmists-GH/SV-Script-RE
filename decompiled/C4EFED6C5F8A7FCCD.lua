@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C4EFED6C5F8A7FCCD"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C4EFED6C5F8A7FCCD"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4EFED6C5F8A7FCCD"]
-L69_1 = "__name__"
-L70_1 = "C4EFED6C5F8A7FCCD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4EFED6C5F8A7FCCD"]
-L69_1 = "SC55DF2764424CDE2"
+---@alias C4EFED6C5F8A7FCCD main_event_command_PokeListCommand
 
-function L70_1()
+---@class main_event_command_PokeListCommand
+C4EFED6C5F8A7FCCD = L15_1()
+C4EFED6C5F8A7FCCD.new = {}
+C4EFED6C5F8A7FCCD.__name__ = "C4EFED6C5F8A7FCCD"
+--- main.event.command.PokeListCommand.OpenPokeListBattle
+function C4EFED6C5F8A7FCCD.SC55DF2764424CDE2()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C895301D3BFE8494C
   L0_2 = L0_2.new
@@ -47,11 +38,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4EFED6C5F8A7FCCD"]
-L69_1 = "S368218345BA4E554"
-
-function L70_1()
+--- main.event.command.PokeListCommand.OpenPokeListOneSelect
+function C4EFED6C5F8A7FCCD.S368218345BA4E554()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C895301D3BFE8494C
   L0_2 = L0_2.new

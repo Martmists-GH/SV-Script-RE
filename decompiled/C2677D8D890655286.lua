@@ -1,3 +1,5 @@
+---@class C2677D8D890655286 : C2677D8D890655286_prototype
+---@field prototype C2677D8D890655286_prototype
 L55_1 = _ENV
 L56_1 = "C2677D8D890655286"
 L57_1 = L15_1
@@ -45,38 +47,33 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2677D8D890655286"]
 L69_1 = "__name__"
 L70_1 = "C2677D8D890655286"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2677D8D890655286"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2677D8D890655286"]["prototype"]
-L69_1 = "FE1906D715BBAA859"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class C2677D8D890655286_prototype
+C2677D8D890655286_prototype = L15_1()
+C2677D8D890655286.prototype = C2677D8D890655286_prototype
+--- C2677D8D890655286.addSituationState
+function C2677D8D890655286_prototype:FE1906D715BBAA859(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = nil
   if 1 == A1_2 then
     L5_2 = L55_1
-    L6_2 = A0_2
-    L7_2 = A0_2.F89E7CD4AF85E9B82
+    L6_2 = self
+    L7_2 = self.F89E7CD4AF85E9B82
     L5_2 = L5_2(L6_2, L7_2)
     L4_2 = L5_2
   elseif 2 == A1_2 then
     L5_2 = L55_1
-    L6_2 = A0_2
-    L7_2 = A0_2.FBD5BB36470329212
+    L6_2 = self
+    L7_2 = self.FBD5BB36470329212
     L5_2 = L5_2(L6_2, L7_2)
     L4_2 = L5_2
   else
     L5_2 = L55_1
-    L6_2 = A0_2
-    L7_2 = A0_2.FD8C260202D89B64E
+    L6_2 = self
+    L7_2 = self.FD8C260202D89B64E
     L5_2 = L5_2(L6_2, L7_2)
     L4_2 = L5_2
   end
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f7EFD2497
   L7_2 = A1_2
@@ -89,13 +86,10 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2677D8D890655286"]["prototype"]
-L69_1 = "F89E7CD4AF85E9B82"
-
-function L70_1(A0_2)
+--- C2677D8D890655286.onApplyPropertyNormal
+function C2677D8D890655286_prototype:F89E7CD4AF85E9B82()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L1_2 = L1_2[7]
   L2_2 = nil
   L3_2 = cE35B3EB3
@@ -112,7 +106,7 @@ function L70_1(A0_2)
   end
   L3_2 = L1_2.animation
   L4_2 = L52_1.__cast
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = C2D4B7C0116D40594
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = nil
@@ -143,7 +137,7 @@ function L70_1(A0_2)
     L6_2 = L4_2[33]
     L6_2 = L6_2.isLipSync
     if L6_2 then
-      L6_2 = A0_2[2]
+      L6_2 = self[2]
       L6_2 = L6_2[7]
       L7_2 = C082CF09B8C4A351D
       L7_2 = L7_2.S799FF892E4C2551D
@@ -182,7 +176,7 @@ function L70_1(A0_2)
       L9_2 = 0
       L6_2(L7_2, L8_2, L9_2)
     end
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = L6_2
     L6_2 = L6_2.f50AA168C
     L8_2 = L4_2[33]
@@ -192,13 +186,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2677D8D890655286"]["prototype"]
-L69_1 = "FBD5BB36470329212"
-
-function L70_1(A0_2)
+--- C2677D8D890655286.onApplyPropertyLookAtPlayer
+function C2677D8D890655286_prototype:FBD5BB36470329212()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L1_2 = L1_2[7]
   L2_2 = nil
   L3_2 = cE35B3EB3
@@ -215,7 +206,7 @@ function L70_1(A0_2)
   end
   L3_2 = L1_2.animation
   L4_2 = L52_1.__cast
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = C2D4B7C0116D40594
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = nil
@@ -252,7 +243,7 @@ function L70_1(A0_2)
     L9_2 = 0
     L6_2(L7_2, L8_2, L9_2)
   end
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L6_2
   L6_2 = L6_2.f50AA168C
   L8_2 = L4_2[37]
@@ -261,13 +252,10 @@ function L70_1(A0_2)
   L6_2(L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2677D8D890655286"]["prototype"]
-L69_1 = "FD8C260202D89B64E"
-
-function L70_1(A0_2)
+--- C2677D8D890655286.onApplyAny
+function C2677D8D890655286_prototype:FD8C260202D89B64E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L1_2 = L1_2[7]
   L2_2 = nil
   L3_2 = cE35B3EB3
@@ -305,7 +293,7 @@ function L70_1(A0_2)
     L5_2 = L5_2.f91C8CA18
     L7_2 = "face"
     L5_2 = L5_2(L6_2, L7_2)
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = L6_2
     L6_2 = L6_2.f50AA168C
     L8_2 = L5_2 > 1

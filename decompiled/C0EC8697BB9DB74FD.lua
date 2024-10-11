@@ -1,3 +1,7 @@
+---@alias C0EC8697BB9DB74FD main_field_audio_CollisionSoundTrigger
+
+---@class main_field_audio_CollisionSoundTrigger : C0EC8697BB9DB74FD_prototype
+---@field prototype C0EC8697BB9DB74FD_prototype
 L55_1 = _ENV
 L56_1 = "C0EC8697BB9DB74FD"
 L57_1 = L15_1
@@ -43,37 +47,29 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0EC8697BB9DB74FD"]
 L69_1 = "__name__"
 L70_1 = "C0EC8697BB9DB74FD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0EC8697BB9DB74FD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0EC8697BB9DB74FD"]["prototype"]
-L69_1 = "F28BE552CAB74AA96"
-
-function L70_1(A0_2, A1_2)
+---@class C0EC8697BB9DB74FD_prototype
+C0EC8697BB9DB74FD_prototype = L15_1()
+C0EC8697BB9DB74FD.prototype = C0EC8697BB9DB74FD_prototype
+--- main.field.audio.CollisionSoundTrigger.AddFilter
+function C0EC8697BB9DB74FD_prototype:F28BE552CAB74AA96(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.add
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0EC8697BB9DB74FD"]["prototype"]
-L69_1 = "FAEDFABEFBBDE593E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.audio.CollisionSoundTrigger.OnCollide
+function C0EC8697BB9DB74FD_prototype:FAEDFABEFBBDE593E(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = false
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2.length
   if 0 == L4_2 then
     L3_2 = true
   else
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L4_2 = L4_2.h
     while nil ~= L4_2 do
       L5_2 = L4_2.item
@@ -124,17 +120,17 @@ function L70_1(A0_2, A1_2, A2_2)
   end
   if L3_2 then
     L4_2 = A2_2[6]
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     if L4_2 >= L5_2 then
       L4_2 = A2_2[5]
-      L5_2 = A0_2[5]
+      L5_2 = self[5]
       L4_2 = L4_2 - L5_2
-      L5_2 = A0_2[4]
+      L5_2 = self[4]
       if L4_2 >= L5_2 then
         L4_2 = A2_2[2]
         L5_2 = L4_2
         L4_2 = L4_2.fB0CA2B80
-        L6_2 = A0_2[2]
+        L6_2 = self[2]
         L7_2 = 100
         L4_2(L5_2, L6_2, L7_2)
         L4_2 = A2_2[9]
@@ -157,7 +153,7 @@ function L70_1(A0_2, A1_2, A2_2)
       end
     end
     L4_2 = A2_2[5]
-    A0_2[5] = L4_2
+    self[5] = L4_2
   end
   return L3_2
 end

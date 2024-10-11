@@ -1,3 +1,5 @@
+---@class C75D2D81274E18198 : C75D2D81274E18198_prototype
+---@field prototype C75D2D81274E18198_prototype
 L55_1 = _ENV
 L56_1 = "C75D2D81274E18198"
 L57_1 = L15_1
@@ -65,48 +67,40 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C75D2D81274E18198"]
 L69_1 = "__name__"
 L70_1 = "C75D2D81274E18198"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75D2D81274E18198"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75D2D81274E18198"]["prototype"]
-L69_1 = "FD5612F1B47C63602"
-
-function L70_1(A0_2)
+---@class C75D2D81274E18198_prototype
+C75D2D81274E18198_prototype = L15_1()
+C75D2D81274E18198.prototype = C75D2D81274E18198_prototype
+--- C75D2D81274E18198.lookAtPlayer
+function C75D2D81274E18198_prototype:FD5612F1B47C63602()
   local L1_2, L2_2
   L1_2 = CDA4434B92B6F8360
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FD5612F1B47C63602
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FB3673456874D60C8
+  L2_2 = self
+  L1_2 = self.FB3673456874D60C8
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75D2D81274E18198"]["prototype"]
-L69_1 = "F0F2455EB3F08B1D1"
-
-function L70_1(A0_2)
+--- C75D2D81274E18198.onWait
+function C75D2D81274E18198_prototype:F0F2455EB3F08B1D1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = nil
   L2_2 = cE35B3EB3
   L2_2 = L2_2.fDBA763D1
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2[7]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   if L2_2 then
     return
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = nil
   L4_2 = L10_1.string
   L4_2 = L4_2.find
@@ -168,7 +162,7 @@ function L70_1(A0_2)
     L5_2 = L5_2.fDAAAA586
     L7_2 = 1
     L5_2(L6_2, L7_2)
-    L5_2 = A0_2[5]
+    L5_2 = self[5]
     L5_2 = L5_2[7]
     L7_2 = L5_2
     L6_2 = L5_2.fF56461AF
@@ -192,51 +186,42 @@ function L70_1(A0_2)
     L8_2 = "idle_trigger"
     L9_2 = 1
     L6_2(L7_2, L8_2, L9_2)
-    A0_2[3] = 2
+    self[3] = 2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75D2D81274E18198"]["prototype"]
-L69_1 = "FDE5E110C9A132332"
-
-function L70_1(A0_2)
+--- C75D2D81274E18198.onBeginLookAtPlayer
+function C75D2D81274E18198_prototype:FDE5E110C9A132332()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L1_2 = L1_2[32]
   L1_2 = L1_2.restrictIdleWhileLookAtPlayer
   if L1_2 then
-    A0_2[11] = true
+    self[11] = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75D2D81274E18198"]["prototype"]
-L69_1 = "FA22CCD50EDEDD09C"
-
-function L70_1(A0_2)
+--- C75D2D81274E18198.onFinishLookAtPlayer
+function C75D2D81274E18198_prototype:FA22CCD50EDEDD09C()
   local L1_2, L2_2
   L1_2 = CDA4434B92B6F8360
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FA22CCD50EDEDD09C
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  A0_2[11] = false
+  self[11] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C75D2D81274E18198"]["prototype"]
-L69_1 = "F90122194950F2E45"
-
-function L70_1(A0_2)
+--- C75D2D81274E18198.onReturnRotate
+function C75D2D81274E18198_prototype:F90122194950F2E45()
   local L1_2, L2_2
   L1_2 = CDA4434B92B6F8360
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F90122194950F2E45
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[10]
-  A0_2[3] = L1_2
+  L1_2 = self[10]
+  self[3] = L1_2
 end
 
 L68_1[L69_1] = L70_1

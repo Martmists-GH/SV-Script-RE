@@ -1,3 +1,7 @@
+---@alias C145769DF068BA23F main_event_debug_DebugNakayaFumio
+
+---@class main_event_debug_DebugNakayaFumio : C145769DF068BA23F_prototype
+---@field prototype C145769DF068BA23F_prototype
 L55_1 = _ENV
 L56_1 = "C145769DF068BA23F"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C145769DF068BA23F"]
 L69_1 = "__name__"
 L70_1 = "C145769DF068BA23F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C145769DF068BA23F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C145769DF068BA23F"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C145769DF068BA23F_prototype
+C145769DF068BA23F_prototype = L15_1()
+C145769DF068BA23F.prototype = C145769DF068BA23F_prototype
+--- main.event.debug.DebugNakayaFumio.preStart
+function C145769DF068BA23F_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C926765D5E4B5AAA6"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]
-L69_1 = "new"
+---@alias C926765D5E4B5AAA6 main_field_gimmick_treeshake_TreeShakeManager
 
-function L70_1(A0_2)
+---@class main_field_gimmick_treeshake_TreeShakeManager : C926765D5E4B5AAA6_prototype
+---@field prototype C926765D5E4B5AAA6_prototype
+C926765D5E4B5AAA6 = L15_1()
+function C926765D5E4B5AAA6.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C926765D5E4B5AAA6
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C926765D5E4B5AAA6
+function C926765D5E4B5AAA6.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   
   function L2_2(A0_3, A1_3)
@@ -86,11 +80,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]
-L69_1 = "S95B516869A652753"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.BeginProcess
+function C926765D5E4B5AAA6.S95B516869A652753(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A2_2 then
     A2_2 = true
@@ -221,11 +212,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]
-L69_1 = "S50FC0880475BAC6E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.OnTriggerTackle
+function C926765D5E4B5AAA6.S50FC0880475BAC6E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
   L3_2 = A1_2
   L2_2 = A1_2.fCA247E7A
@@ -389,11 +377,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]
-L69_1 = "SD559325BD1AAA3DF"
-
-function L70_1(A0_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.RegisterTreeObject
+function C926765D5E4B5AAA6.SD559325BD1AAA3DF(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C926765D5E4B5AAA6
   L1_2 = L1_2.S2CF3571E7DF5D487
@@ -406,11 +391,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]
-L69_1 = "SD815A3757B119235"
-
-function L70_1(A0_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.FindTreeObject
+function C926765D5E4B5AAA6.SD815A3757B119235(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C926765D5E4B5AAA6
   L1_2 = L1_2.S2CF3571E7DF5D487
@@ -435,11 +417,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]
-L69_1 = "S83E9567D1618E335"
-
-function L70_1(A0_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.FindTreeItem
+function C926765D5E4B5AAA6.S83E9567D1618E335(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
   L2_2 = C926765D5E4B5AAA6
@@ -460,11 +439,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]
-L69_1 = "S9CA46FD1188EC242"
-
-function L70_1(A0_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.IterateTrees
+function C926765D5E4B5AAA6.S9CA46FD1188EC242(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C926765D5E4B5AAA6
   L1_2 = L1_2.S2CF3571E7DF5D487
@@ -490,11 +466,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]
-L69_1 = "S1EA66EFD7A43363F"
-
-function L70_1(A0_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.IterateItems
+function C926765D5E4B5AAA6.S1EA66EFD7A43363F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
   L2_2 = C926765D5E4B5AAA6
@@ -512,11 +485,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]
-L69_1 = "SDF65785DF226064F"
-
-function L70_1(A0_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.RegisterItem
+function C926765D5E4B5AAA6.SDF65785DF226064F(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C926765D5E4B5AAA6
   L1_2 = L1_2.S289F006937961969
@@ -526,11 +496,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]
-L69_1 = "S14D6D37AB96FBE30"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.RegisterCustomProcess
+function C926765D5E4B5AAA6.S14D6D37AB96FBE30(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = C926765D5E4B5AAA6
   L2_2 = L2_2.SC2A6CB2A2DDD5415
@@ -564,11 +531,8 @@ function L70_1(A0_2, A1_2)
   L7_2(L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]
-L69_1 = "S1550ACE5717EED2F"
-
-function L70_1(A0_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.ExcludeCustomProcess
+function C926765D5E4B5AAA6.S1550ACE5717EED2F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C926765D5E4B5AAA6
   L1_2 = L1_2.SC2A6CB2A2DDD5415
@@ -596,11 +560,8 @@ function L70_1(A0_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]
-L69_1 = "S783991A356ABA63A"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.CallItemGetEvent
+function C926765D5E4B5AAA6.S783991A356ABA63A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = nil
   L3_2 = 0
@@ -656,16 +617,11 @@ function L70_1(A0_2, A1_2)
   return L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C926765D5E4B5AAA6_prototype
+C926765D5E4B5AAA6_prototype = L15_1()
+C926765D5E4B5AAA6.prototype = C926765D5E4B5AAA6_prototype
+--- main.field.gimmick.treeshake.TreeShakeManager.Setup
+function C926765D5E4B5AAA6_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C926765D5E4B5AAA6
   L2_2 = L2_2.SF3075AB31C9E8AF4
@@ -673,9 +629,9 @@ function L70_1(A0_2, A1_2)
     return
   end
   L2_2 = C926765D5E4B5AAA6
-  L2_2.SF3075AB31C9E8AF4 = A0_2
+  L2_2.SF3075AB31C9E8AF4 = self
   L2_2 = C926765D5E4B5AAA6
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f462C9B70
   L3_2 = L3_2(L4_2)
@@ -685,8 +641,8 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.F119A5D4210FCD553
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.FFE39EA9FF92AA2EF
+  L5_2 = self
+  L6_2 = self.FFE39EA9FF92AA2EF
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = C05D9E556B496A3DF
@@ -701,13 +657,13 @@ function L70_1(A0_2, A1_2)
   L6_2.owner = true
   L6_2.callbackFunc = true
   L5_2.__fields__ = L6_2
-  L5_2.owner = A0_2
+  L5_2.owner = self
   
   function L6_2(A0_3, ...)
     local L1_3, L2_3, L3_3
     L1_3 = L55_1
-    L2_3 = A0_2
-    L3_3 = A0_2.F77647FFCD947CA10
+    L2_3 = self
+    L3_3 = self.F77647FFCD947CA10
     L1_3 = L1_3(L2_3, L3_3)
     L2_3, L3_3 = ...
     return L1_3(L2_3, L3_3)
@@ -719,7 +675,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = C926765D5E4B5AAA6
   L3_2 = cCF781FB6
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L2_2.S9D6A7D219581AF8A = L3_2
   L2_2 = C926765D5E4B5AAA6
@@ -730,30 +686,24 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
   L2_2 = L58_1
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F7B10A49DF0462D9E
+  L4_2 = self
+  L5_2 = self.F7B10A49DF0462D9E
   L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2, L5_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
-  A0_2.F8502D256D7DD7E22 = L2_2
+  self.F8502D256D7DD7E22 = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.PreUpdate
+function C926765D5E4B5AAA6_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F8502D256D7DD7E22
+  L3_2 = self
+  L2_2 = self.F8502D256D7DD7E22
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]["prototype"]
-L69_1 = "F97CF0B336B890BBC"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.onProcessUpdate
+function C926765D5E4B5AAA6_prototype:F97CF0B336B890BBC(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C926765D5E4B5AAA6
   L2_2 = L2_2.SF630AC14F8B739B4
@@ -770,11 +720,11 @@ function L70_1(A0_2, A1_2)
     L2_2(L3_2, L4_2)
     L2_2 = L58_1
     L3_2 = L55_1
-    L4_2 = A0_2
-    L5_2 = A0_2.F7B10A49DF0462D9E
+    L4_2 = self
+    L5_2 = self.F7B10A49DF0462D9E
     L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
     L2_2 = L2_2(L3_2, L4_2, L5_2)
-    A0_2.F8502D256D7DD7E22 = L2_2
+    self.F8502D256D7DD7E22 = L2_2
   end
   L2_2 = c159C6E5C
   L2_2 = L2_2.f1F074706
@@ -787,11 +737,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]["prototype"]
-L69_1 = "F7B10A49DF0462D9E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.onPointsUpdate
+function C926765D5E4B5AAA6_prototype:F7B10A49DF0462D9E(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C926765D5E4B5AAA6
   L2_2 = L2_2.SAB5A8FC6F68C3113
@@ -805,11 +752,11 @@ function L70_1(A0_2, A1_2)
     L2_2(L3_2, L4_2)
     L2_2 = L58_1
     L3_2 = L55_1
-    L4_2 = A0_2
-    L5_2 = A0_2.F97CF0B336B890BBC
+    L4_2 = self
+    L5_2 = self.F97CF0B336B890BBC
     L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
     L2_2 = L2_2(L3_2, L4_2, L5_2)
-    A0_2.F8502D256D7DD7E22 = L2_2
+    self.F8502D256D7DD7E22 = L2_2
     return
   end
   L2_2 = C926765D5E4B5AAA6
@@ -824,13 +771,10 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]["prototype"]
-L69_1 = "F77647FFCD947CA10"
-
-function L70_1(A0_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.OnDateChanged
+function C926765D5E4B5AAA6_prototype:F77647FFCD947CA10()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C926765D5E4B5AAA6
   L2_2 = L2_2.S2CF3571E7DF5D487
   L3_2 = L2_2
@@ -848,25 +792,19 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]["prototype"]
-L69_1 = "FFE39EA9FF92AA2EF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.onAddTree
+function C926765D5E4B5AAA6_prototype:FFE39EA9FF92AA2EF(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F0C4D4F19043113A2
+  L3_2 = self
+  L2_2 = self.F0C4D4F19043113A2
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]["prototype"]
-L69_1 = "F187138821F64AC23"
-
-function L70_1(A0_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.repopTreeFalls
+function C926765D5E4B5AAA6_prototype:F187138821F64AC23()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C926765D5E4B5AAA6
   L2_2 = L2_2.S2CF3571E7DF5D487
   L3_2 = L2_2
@@ -884,11 +822,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C926765D5E4B5AAA6"]["prototype"]
-L69_1 = "F0C4D4F19043113A2"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.treeshake.TreeShakeManager.repopTreeFall
+function C926765D5E4B5AAA6_prototype:F0C4D4F19043113A2(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = A1_2[5]
   if nil ~= L2_2 then

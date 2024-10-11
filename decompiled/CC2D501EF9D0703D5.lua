@@ -1,3 +1,5 @@
+---@class CC2D501EF9D0703D5 : CC2D501EF9D0703D5_prototype
+---@field prototype CC2D501EF9D0703D5_prototype
 L68_1 = _ENV["CC2D501EF9D0703D5"]
 L69_1 = "super"
 
@@ -17,47 +19,33 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC2D501EF9D0703D5"]
 L69_1 = "__name__"
 L70_1 = "CC2D501EF9D0703D5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2D501EF9D0703D5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2D501EF9D0703D5"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CC2D501EF9D0703D5_prototype
+CC2D501EF9D0703D5_prototype = L15_1()
+CC2D501EF9D0703D5.prototype = CC2D501EF9D0703D5_prototype
+--- CC2D501EF9D0703D5.onCreate
+function CC2D501EF9D0703D5_prototype:FC87C731D11C58354()
   local L1_2, L2_2
   L1_2 = C20F5CD372AAAA08C
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC87C731D11C58354
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.defaultMsgFileName = "s1_side02_fieldwork"
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2D501EF9D0703D5"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+--- CC2D501EF9D0703D5.preStart
+function CC2D501EF9D0703D5_prototype:F92BA869F22AE5BC6()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2D501EF9D0703D5"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- CC2D501EF9D0703D5.postStart
+function CC2D501EF9D0703D5_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2D501EF9D0703D5"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- CC2D501EF9D0703D5.mainBody
+function CC2D501EF9D0703D5_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C86538DD5EC8FE40D
   L1_2 = L1_2.S264F26F6894F3392
@@ -103,27 +91,18 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2D501EF9D0703D5"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- CC2D501EF9D0703D5.mainBodyFinish
+function CC2D501EF9D0703D5_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2D501EF9D0703D5"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- CC2D501EF9D0703D5.preEnd
+function CC2D501EF9D0703D5_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2D501EF9D0703D5"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- CC2D501EF9D0703D5.postEnd
+function CC2D501EF9D0703D5_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

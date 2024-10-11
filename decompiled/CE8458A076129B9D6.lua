@@ -1,3 +1,7 @@
+---@alias CE8458A076129B9D6 main_ui_common_net_load_CommonNetLoad
+
+---@class main_ui_common_net_load_CommonNetLoad : CE8458A076129B9D6_prototype
+---@field prototype CE8458A076129B9D6_prototype
 L55_1 = _ENV
 L56_1 = "CE8458A076129B9D6"
 L57_1 = L15_1
@@ -39,36 +43,31 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CE8458A076129B9D6"]
 L69_1 = "__name__"
 L70_1 = "CE8458A076129B9D6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE8458A076129B9D6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE8458A076129B9D6"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2)
+---@class CE8458A076129B9D6_prototype
+CE8458A076129B9D6_prototype = L15_1()
+CE8458A076129B9D6.prototype = CE8458A076129B9D6_prototype
+--- main.ui.common_net_load.CommonNetLoad.Load
+function CE8458A076129B9D6_prototype:F6C5D0398122A6629()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L1_2 = L1_2(L2_2)
-  A0_2[1] = L1_2
+  self[1] = L1_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = false
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.fD4E64AB7
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = nil
   L4_2 = c016374C1
@@ -92,10 +91,10 @@ function L70_1(A0_2)
     L7_2 = L5_2
     L8_2 = CF422DF7F1676E9A7
     L6_2 = L6_2(L7_2, L8_2)
-    A0_2[4] = L6_2
-    L6_2 = A0_2[4]
+    self[4] = L6_2
+    L6_2 = self[4]
     if nil ~= L6_2 then
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L7_2 = L6_2
       L6_2 = L6_2.F86D854A3288F3354
       L6_2(L7_2)
@@ -103,7 +102,7 @@ function L70_1(A0_2)
       return L6_2
     end
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.f0EF10D0C
   L4_2(L5_2)
@@ -111,28 +110,25 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE8458A076129B9D6"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2)
+--- main.ui.common_net_load.CommonNetLoad.Setup
+function CE8458A076129B9D6_prototype:F7C68FEDB79AB6396()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = true
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f48F8C7FF
   L2_2 = L2_2(L3_2)
   if false ~= L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.f9D8BC178
     L2_2 = L2_2(L3_2)
@@ -143,12 +139,12 @@ function L70_1(A0_2)
   L2_2 = false
   do return L2_2 end
   ::lbl_23::
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil == L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.fD4E64AB7
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L2_2 = L2_2(L3_2, L4_2)
     L3_2 = L2_2
     L2_2 = L2_2.fB3CF1DEB
@@ -165,9 +161,9 @@ function L70_1(A0_2)
     L5_2 = L3_2
     L6_2 = CF422DF7F1676E9A7
     L4_2 = L4_2(L5_2, L6_2)
-    A0_2[4] = L4_2
+    self[4] = L4_2
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.FF1C9BF636E0F4F06
   L2_2 = L2_2(L3_2)
@@ -179,105 +175,93 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE8458A076129B9D6"]["prototype"]
-L69_1 = "F5913CA4F4D636E2D"
-
-function L70_1(A0_2)
+--- main.ui.common_net_load.CommonNetLoad.F5913CA4F4D636E2D
+function CE8458A076129B9D6_prototype:F5913CA4F4D636E2D()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.F5913CA4F4D636E2D
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE8458A076129B9D6"]["prototype"]
-L69_1 = "FB9D420079822CB3C"
-
-function L70_1(A0_2)
+--- main.ui.common_net_load.CommonNetLoad.SetPriorityDefault
+function CE8458A076129B9D6_prototype:FB9D420079822CB3C()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.FB9D420079822CB3C
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE8458A076129B9D6"]["prototype"]
-L69_1 = "F7EED485852A4D25F"
-
-function L70_1(A0_2)
+--- main.ui.common_net_load.CommonNetLoad.Start
+function CE8458A076129B9D6_prototype:F7EED485852A4D25F()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.FE0BEAFFCC94D9D60
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE8458A076129B9D6"]["prototype"]
-L69_1 = "F96B4C3266FC0614A"
-
-function L70_1(A0_2)
+--- main.ui.common_net_load.CommonNetLoad.End
+function CE8458A076129B9D6_prototype:F96B4C3266FC0614A()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.fB1E655AE
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.FA5B443DABC71D3FC
   L2_2(L3_2)
-  A0_2[4] = nil
+  self[4] = nil
 end
 
 L68_1[L69_1] = L70_1

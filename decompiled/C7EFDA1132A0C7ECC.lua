@@ -1,3 +1,5 @@
+---@class C7EFDA1132A0C7ECC : C7EFDA1132A0C7ECC_prototype
+---@field prototype C7EFDA1132A0C7ECC_prototype
 L55_1 = _ENV
 L56_1 = "C7EFDA1132A0C7ECC"
 L57_1 = L15_1
@@ -44,31 +46,26 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C7EFDA1132A0C7ECC"]
 L69_1 = "__name__"
 L70_1 = "C7EFDA1132A0C7ECC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7EFDA1132A0C7ECC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7EFDA1132A0C7ECC"]["prototype"]
-L69_1 = "FFE7AEEC4EF7AEBEA"
-
-function L70_1(A0_2, A1_2)
+---@class C7EFDA1132A0C7ECC_prototype
+C7EFDA1132A0C7ECC_prototype = L15_1()
+C7EFDA1132A0C7ECC.prototype = C7EFDA1132A0C7ECC_prototype
+--- C7EFDA1132A0C7ECC.CallEvolution
+function C7EFDA1132A0C7ECC_prototype:FFE7AEEC4EF7AEBEA(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C8B32D488BFFA5DE0
   L2_2 = L2_2.new
-  L3_2 = A0_2[3]
-  L4_2 = A0_2[2]
+  L3_2 = self[3]
+  L4_2 = self[2]
   L5_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2, L5_2)
   L3_2 = L10_1.math
   L3_2 = L3_2.fmod
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L4_2 = L4_2 + 1
   L5_2 = 1073741824
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[3] = L3_2
-  L3_2 = A0_2[1]
+  self[3] = L3_2
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.add
   L5_2 = L2_2
@@ -76,16 +73,13 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7EFDA1132A0C7ECC"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- C7EFDA1132A0C7ECC.Update
+function C7EFDA1132A0C7ECC_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = L43_1.new
   L2_2 = L2_2()
   L3_2 = L27_1.iter
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   
   function L5_2(A0_3)
     local L1_3, L2_3, L3_3
@@ -106,30 +100,27 @@ function L70_1(A0_2, A1_2)
   L3_2 = L27_1.iter
   L4_2 = L2_2
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.F0DBBC2DA2C3EAC32
+  L6_2 = self
+  L7_2 = self.F0DBBC2DA2C3EAC32
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7EFDA1132A0C7ECC"]["prototype"]
-L69_1 = "F0DBBC2DA2C3EAC32"
-
-function L70_1(A0_2, A1_2)
+--- C7EFDA1132A0C7ECC.Finish
+function C7EFDA1132A0C7ECC_prototype:F0DBBC2DA2C3EAC32(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.remove
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.length
   if 0 == L2_2 then
-    L2_2 = A0_2.F28D2A605B1BB205F
+    L2_2 = self.F28D2A605B1BB205F
     if nil ~= L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F28D2A605B1BB205F
+      L3_2 = self
+      L2_2 = self.F28D2A605B1BB205F
       L2_2(L3_2)
     end
   end

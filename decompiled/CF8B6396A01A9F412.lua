@@ -1,3 +1,7 @@
+---@alias CF8B6396A01A9F412 main_ui_xmenu_xmenu_state_machine_XMenuPokelistRidePokeFormChangeState
+
+---@class main_ui_xmenu_xmenu_state_machine_XMenuPokelistRidePokeFormChangeState : CF8B6396A01A9F412_prototype
+---@field prototype CF8B6396A01A9F412_prototype
 L55_1 = _ENV
 L56_1 = "CF8B6396A01A9F412"
 L57_1 = L15_1
@@ -62,16 +66,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF8B6396A01A9F412"]
 L69_1 = "__name__"
 L70_1 = "CF8B6396A01A9F412"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F46013EC08BDF7153"
-
-function L70_1(A0_2)
+---@class CF8B6396A01A9F412_prototype
+CF8B6396A01A9F412_prototype = L15_1()
+CF8B6396A01A9F412.prototype = CF8B6396A01A9F412_prototype
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.Entry
+function CF8B6396A01A9F412_prototype:F46013EC08BDF7153()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C9A888D871C1FF42A
   L1_2 = L1_2.S0B3F69C4549A0284
@@ -83,8 +82,8 @@ function L70_1(A0_2)
   L1_2 = L1_2.S1B542482816C630E
   L1_2 = L1_2()
   if L1_2 then
-    A0_2[10] = 10
-    A0_2[22] = true
+    self[10] = 10
+    self[22] = true
     return
   end
   L1_2 = cCDB92DE8
@@ -94,14 +93,14 @@ function L70_1(A0_2)
     L1_2 = cCDB92DE8
     L1_2 = L1_2.f9A6EFC5C
     L1_2 = L1_2()
-    A0_2[8] = L1_2
+    self[8] = L1_2
     L1_2 = cB3DDDC2A
     L1_2 = L1_2.f5B6373D5
     L1_2 = L1_2()
     L3_2 = L1_2
     L2_2 = L1_2.fD499C005
     L4_2 = 0
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     L2_2(L3_2, L4_2, L5_2)
     L3_2 = L1_2
     L2_2 = L1_2.f39DD249C
@@ -143,45 +142,45 @@ function L70_1(A0_2)
     L7_2 = E048715B79C692C5A
     L7_2 = L7_2.System
     L5_2(L6_2, L7_2)
-    L5_2 = A0_2[12]
+    L5_2 = self[12]
     L6_2 = L5_2
     L5_2 = L5_2.push
     L7_2 = L55_1
-    L8_2 = A0_2
-    L9_2 = A0_2.F4B137E22F1EF320B
+    L8_2 = self
+    L9_2 = self.F4B137E22F1EF320B
     L7_2, L8_2, L9_2 = L7_2(L8_2, L9_2)
     L5_2(L6_2, L7_2, L8_2, L9_2)
-    L5_2 = A0_2[12]
+    L5_2 = self[12]
     L6_2 = L5_2
     L5_2 = L5_2.push
     L7_2 = L55_1
-    L8_2 = A0_2
-    L9_2 = A0_2.FCF903D1CBAF007C5
+    L8_2 = self
+    L9_2 = self.FCF903D1CBAF007C5
     L7_2, L8_2, L9_2 = L7_2(L8_2, L9_2)
     L5_2(L6_2, L7_2, L8_2, L9_2)
-    L5_2 = A0_2[12]
+    L5_2 = self[12]
     L6_2 = L5_2
     L5_2 = L5_2.push
     L7_2 = L55_1
-    L8_2 = A0_2
-    L9_2 = A0_2.FB5FBB32D79B3BF9C
+    L8_2 = self
+    L9_2 = self.FB5FBB32D79B3BF9C
     L7_2, L8_2, L9_2 = L7_2(L8_2, L9_2)
     L5_2(L6_2, L7_2, L8_2, L9_2)
-    L5_2 = A0_2[12]
+    L5_2 = self[12]
     L6_2 = L5_2
     L5_2 = L5_2.push
     L7_2 = L55_1
-    L8_2 = A0_2
-    L9_2 = A0_2.F0125B31C5BA977B4
+    L8_2 = self
+    L9_2 = self.F0125B31C5BA977B4
     L7_2, L8_2, L9_2 = L7_2(L8_2, L9_2)
     L5_2(L6_2, L7_2, L8_2, L9_2)
-    A0_2[10] = 1
-    A0_2[11] = 0
+    self[10] = 1
+    self[11] = 0
   else
-    L2_2 = A0_2
-    L1_2 = A0_2.F55989420BEFC8A13
+    L2_2 = self
+    L1_2 = self.F55989420BEFC8A13
     L1_2(L2_2)
-    A0_2[10] = 9
+    self[10] = 9
   end
   L1_2 = C9A888D871C1FF42A
   L1_2 = L1_2.S0B3F69C4549A0284
@@ -189,24 +188,21 @@ function L70_1(A0_2)
   L2_2 = L1_2
   L1_2 = L1_2.F474D2FAD21CFEB21
   L1_2 = L1_2(L2_2)
-  A0_2[18] = L1_2
+  self[18] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.Update
+function CF8B6396A01A9F412_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C6F7A8CF2CB565DD3
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FEB6685558281F194
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   if 1 == L1_2 then
-    L2_2 = A0_2[12]
-    L3_2 = A0_2[11]
+    L2_2 = self[12]
+    L3_2 = self[11]
     L2_2 = L2_2[L3_2]
     L2_2()
   elseif 2 == L1_2 then
@@ -214,7 +210,7 @@ function L70_1(A0_2)
     L2_2 = L2_2.S2E218A7B9B949ADA
     L2_2 = L2_2()
     if L2_2 then
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       L3_2 = CF1D9D619D324F233
       L3_2 = L3_2.S036FE38553339EEE
       L3_2 = L3_2()
@@ -228,57 +224,51 @@ function L70_1(A0_2)
       L5_2()
     end
   elseif 3 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FE8831CF3E3463275
+    L3_2 = self
+    L2_2 = self.FE8831CF3E3463275
     L2_2(L3_2)
   elseif 4 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F42F55A3C4AB6DB73
+    L3_2 = self
+    L2_2 = self.F42F55A3C4AB6DB73
     L2_2(L3_2)
-    A0_2[10] = 6
+    self[10] = 6
   elseif 5 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FA2CDD293ABF312F5
+    L3_2 = self
+    L2_2 = self.FA2CDD293ABF312F5
     L2_2(L3_2)
   elseif 6 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FB8F8C94003586270
+    L3_2 = self
+    L2_2 = self.FB8F8C94003586270
     L2_2(L3_2)
   elseif 7 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F469E882CBE349A73
+    L3_2 = self
+    L2_2 = self.F469E882CBE349A73
     L2_2(L3_2)
   elseif 8 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F76CA8E3F747B6CA5
+    L3_2 = self
+    L2_2 = self.F76CA8E3F747B6CA5
     L2_2(L3_2)
   elseif 9 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FD2BCEF8F8196E617
+    L3_2 = self
+    L2_2 = self.FD2BCEF8F8196E617
     L2_2(L3_2)
   else
     if 10 == L1_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F64E7F20C28570DF1
+      L3_2 = self
+      L2_2 = self.F64E7F20C28570DF1
       L2_2(L3_2)
     else
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F2C02645014D5A2A5"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.Exit
+function CF8B6396A01A9F412_prototype:F2C02645014D5A2A5()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F64E7F20C28570DF1"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.CancelFunc
+function CF8B6396A01A9F412_prototype:F64E7F20C28570DF1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S84E00A89DFBC380C
@@ -298,7 +288,7 @@ function L70_1(A0_2)
     L1_2 = L1_2.S760DAE4C5371A78E
     L1_2()
   end
-  L1_2 = A0_2[20]
+  L1_2 = self[20]
   if not L1_2 then
     L1_2 = C9A888D871C1FF42A
     L1_2 = L1_2.S0B3F69C4549A0284
@@ -312,7 +302,7 @@ function L70_1(A0_2)
   L2_2 = 0
   L3_2 = false
   L1_2 = L1_2(L2_2, L3_2)
-  L2_2 = A0_2[20]
+  L2_2 = self[20]
   if L2_2 then
     L3_2 = L1_2
     L2_2 = L1_2.F12F63EE47FFCB183
@@ -356,7 +346,7 @@ function L70_1(A0_2)
   if L5_2 then
     L5_2 = CEB7F2D99ABFA6197
     L5_2 = L5_2.S3A0EA21525CCEC3D
-    L6_2 = A0_2[22]
+    L6_2 = self[22]
     L6_2 = not L6_2
     L5_2(L6_2)
     L5_2 = C9A888D871C1FF42A
@@ -369,34 +359,31 @@ function L70_1(A0_2)
   L5_2 = CE55264D46437D7D3
   L5_2 = L5_2.SF261907CC65387AC
   L5_2()
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.F28EAF3B3AA178E3E
   L7_2 = L1_2
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "FB8F8C94003586270"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.BattleFormSequence
+function CF8B6396A01A9F412_prototype:FB8F8C94003586270()
   local L1_2, L2_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   if not L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.FA43D99793ED3DAE7
+    L2_2 = self
+    L1_2 = self.FA43D99793ED3DAE7
     L1_2 = L1_2(L2_2)
     if L1_2 then
-      A0_2[20] = true
-      A0_2[10] = 10
+      self[20] = true
+      self[10] = 10
     end
   else
     function L1_2()
       local L0_3, L1_3
       
       L0_3 = nil
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[19]
       if L1_3 then
         L0_3 = 8
@@ -407,15 +394,12 @@ function L70_1(A0_2)
     end
     
     L1_2 = L1_2()
-    A0_2[10] = L1_2
+    self[10] = L1_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "FA2CDD293ABF312F5"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.FA2CDD293ABF312F5
+function CF8B6396A01A9F412_prototype:FA2CDD293ABF312F5()
   local L1_2, L2_2
   L1_2 = CD081B219DEE96EEF
   L1_2 = L1_2.S06490EFCEE19A116
@@ -425,25 +409,22 @@ function L70_1(A0_2)
     L1_2 = L1_2.SA692AE1D2BA4EEBF
     L1_2 = L1_2()
     if L1_2 then
-      L2_2 = A0_2
-      L1_2 = A0_2.F2EC5A632016F5614
+      L2_2 = self
+      L1_2 = self.F2EC5A632016F5614
       L1_2(L2_2)
-      A0_2[10] = 9
+      self[10] = 9
     else
-      L2_2 = A0_2
-      L1_2 = A0_2.F561C3B2D3D6FF56D
+      L2_2 = self
+      L1_2 = self.F561C3B2D3D6FF56D
       L1_2(L2_2)
     end
   else
-    A0_2[10] = 6
+    self[10] = 6
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F561C3B2D3D6FF56D"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.F561C3B2D3D6FF56D
+function CF8B6396A01A9F412_prototype:F561C3B2D3D6FF56D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fC8CEF9EF
@@ -482,24 +463,21 @@ function L70_1(A0_2)
   L6_2 = E048715B79C692C5A
   L6_2 = L6_2.System
   L4_2(L5_2, L6_2)
-  A0_2[10] = 1
-  A0_2[11] = 1
+  self[10] = 1
+  self[11] = 1
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F6F7E9EC032E2B1EA"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.SetupSelectPokemonSendBox
+function CF8B6396A01A9F412_prototype:F6F7E9EC032E2B1EA(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A1_2 then
     A1_2 = true
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F75E7187B9736F668
+  L3_2 = self
+  L2_2 = self.F75E7187B9736F668
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F5345F802195FFC89
+  L3_2 = self
+  L2_2 = self.F5345F802195FFC89
   L2_2(L3_2)
   L2_2 = C9A888D871C1FF42A
   L2_2 = L2_2.S0B3F69C4549A0284
@@ -530,14 +508,11 @@ function L70_1(A0_2, A1_2)
     L7_2 = false
     L3_2(L4_2, L5_2, L6_2, L7_2)
   end
-  A0_2[10] = 3
+  self[10] = 3
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F7AA866329F114A10"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.F7AA866329F114A10
+function CF8B6396A01A9F412_prototype:F7AA866329F114A10()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C9A888D871C1FF42A
   L1_2 = L1_2.S0B3F69C4549A0284
@@ -562,7 +537,7 @@ function L70_1(A0_2)
   L3_2 = L1_2
   L2_2 = L1_2.fD499C005
   L4_2 = 0
-  L5_2 = A0_2[13]
+  L5_2 = self[13]
   L2_2(L3_2, L4_2, L5_2)
   L3_2 = L1_2
   L2_2 = L1_2.f39DD249C
@@ -604,15 +579,12 @@ function L70_1(A0_2)
   L7_2 = E048715B79C692C5A
   L7_2 = L7_2.System
   L5_2(L6_2, L7_2)
-  A0_2[10] = 1
-  A0_2[11] = 2
+  self[10] = 1
+  self[11] = 2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F01585B55EEE63E76"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.SetupFormChangeEndCheckSequence
+function CF8B6396A01A9F412_prototype:F01585B55EEE63E76()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C9A888D871C1FF42A
   L1_2 = L1_2.S0B3F69C4549A0284
@@ -637,7 +609,7 @@ function L70_1(A0_2)
   L3_2 = L1_2
   L2_2 = L1_2.fD499C005
   L4_2 = 0
-  L5_2 = A0_2[8]
+  L5_2 = self[8]
   L2_2(L3_2, L4_2, L5_2)
   L3_2 = L1_2
   L2_2 = L1_2.f39DD249C
@@ -679,22 +651,19 @@ function L70_1(A0_2)
   L7_2 = E048715B79C692C5A
   L7_2 = L7_2.System
   L5_2(L6_2, L7_2)
-  A0_2[10] = 1
-  A0_2[11] = 3
+  self[10] = 1
+  self[11] = 3
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "FA43D99793ED3DAE7"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.FormChangeExecSequence
+function CF8B6396A01A9F412_prototype:FA43D99793ED3DAE7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   if L1_2 then
     L1_2 = false
     return L1_2
   end
-  L1_2 = A0_2[19]
+  L1_2 = self[19]
   if L1_2 then
     L1_2 = CCD22EFED4E9E5F89
     L1_2 = L1_2.SF55DE12AD589DB08
@@ -716,7 +685,7 @@ function L70_1(A0_2)
         L3_2 = 3
         L1_2(L2_2, L3_2)
       end
-      L1_2 = A0_2[17]
+      L1_2 = self[17]
       if L1_2 then
         L1_2 = CEB7F2D99ABFA6197
         L1_2 = L1_2.S82AD8FED255BFD51
@@ -745,14 +714,14 @@ function L70_1(A0_2)
       L5_2 = true
       L6_2 = false
       L2_2(L3_2, L4_2, L5_2, L6_2)
-      A0_2[9] = true
+      self[9] = true
       L2_2 = true
       return L2_2
     end
   end
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   if 0 == L1_2 then
-    A0_2[16] = 1
+    self[16] = 1
   elseif 1 == L1_2 then
     L2_2 = C9A888D871C1FF42A
     L2_2 = L2_2.S0B3F69C4549A0284
@@ -761,7 +730,7 @@ function L70_1(A0_2)
     L2_2 = L2_2.F446F151C92B9E25F
     L4_2 = 2
     L2_2(L3_2, L4_2)
-    A0_2[16] = 2
+    self[16] = 2
   elseif 2 == L1_2 then
     L2_2 = C9A888D871C1FF42A
     L2_2 = L2_2.S0B3F69C4549A0284
@@ -771,7 +740,7 @@ function L70_1(A0_2)
     L4_2 = 2
     L2_2 = L2_2(L3_2, L4_2)
     if L2_2 then
-      A0_2[16] = 3
+      self[16] = 3
     end
   elseif 3 == L1_2 then
     L2_2 = CCD22EFED4E9E5F89
@@ -789,24 +758,24 @@ function L70_1(A0_2)
       end
       L3_2 = C3A36506FBC96ACBD
       L3_2 = L3_2.SC6181320B46854EE
-      L4_2 = A0_2[6]
+      L4_2 = self[6]
       L3_2(L4_2)
-      A0_2[19] = true
-      A0_2[17] = false
+      self[19] = true
+      self[17] = false
     end
     L2_2 = c1A1CBE3B
     L2_2 = L2_2.fFCE06E04
     L2_2 = L2_2()
     L3_2 = L2_2
     L2_2 = L2_2.f9E160020
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     L2_2(L3_2, L4_2)
     L2_2 = cCDB92DE8
     L2_2 = L2_2.f1D8F9FCD
     L3_2 = false
     L2_2(L3_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.F8F86FC75E34BB658
+    L3_2 = self
+    L2_2 = self.F8F86FC75E34BB658
     L2_2(L3_2)
     L2_2 = C9A888D871C1FF42A
     L2_2 = L2_2.S0B3F69C4549A0284
@@ -822,7 +791,7 @@ function L70_1(A0_2)
     L2_2 = L2_2.F0C7E49749C6310BB
     L4_2 = false
     L2_2(L3_2, L4_2)
-    A0_2[16] = 4
+    self[16] = 4
   elseif 4 == L1_2 then
     L2_2 = C9A888D871C1FF42A
     L2_2 = L2_2.S0B3F69C4549A0284
@@ -831,7 +800,7 @@ function L70_1(A0_2)
     L2_2 = L2_2.F446F151C92B9E25F
     L4_2 = 3
     L2_2(L3_2, L4_2)
-    A0_2[16] = 5
+    self[16] = 5
   elseif 5 == L1_2 then
     L2_2 = C9A888D871C1FF42A
     L2_2 = L2_2.S0B3F69C4549A0284
@@ -841,14 +810,14 @@ function L70_1(A0_2)
     L4_2 = 3
     L2_2 = L2_2(L3_2, L4_2)
     if L2_2 then
-      A0_2[16] = 6
+      self[16] = 6
     end
   elseif 6 == L1_2 then
     L2_2 = cEBF4B147
     L2_2 = L2_2.f7AC1FE6B
     L3_2 = 0
-    L5_2 = A0_2
-    L4_2 = A0_2.F49D5D28C2A42A293
+    L5_2 = self
+    L4_2 = self.F49D5D28C2A42A293
     L4_2, L5_2, L6_2, L7_2 = L4_2(L5_2)
     L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
     L3_2 = C9A888D871C1FF42A
@@ -863,17 +832,14 @@ function L70_1(A0_2)
     L6_2 = true
     L7_2 = false
     L3_2(L4_2, L5_2, L6_2, L7_2)
-    A0_2[9] = true
+    self[9] = true
   end
   L2_2 = false
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F49D5D28C2A42A293"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.F49D5D28C2A42A293
+function CF8B6396A01A9F412_prototype:F49D5D28C2A42A293()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C9A888D871C1FF42A
   L1_2 = L1_2.S0B3F69C4549A0284
@@ -920,14 +886,11 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F8F86FC75E34BB658"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.SortRidePokemon
+function CF8B6396A01A9F412_prototype:F8F86FC75E34BB658()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F49D5D28C2A42A293
+  L2_2 = self
+  L1_2 = self.F49D5D28C2A42A293
   L1_2 = L1_2(L2_2)
   L2_2 = c1A1CBE3B
   L2_2 = L2_2.fFCE06E04
@@ -957,11 +920,8 @@ function L70_1(A0_2)
   L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "FE8831CF3E3463275"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.SelectPokemonSendBox
+function CF8B6396A01A9F412_prototype:FE8831CF3E3463275()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C9A888D871C1FF42A
   L1_2 = L1_2.S0B3F69C4549A0284
@@ -969,18 +929,18 @@ function L70_1(A0_2)
   L2_2 = L1_2
   L1_2 = L1_2.FAD0070D590ADE9E4
   L1_2 = L1_2(L2_2)
-  A0_2[14] = L1_2
-  L1_2 = A0_2[14]
+  self[14] = L1_2
+  L1_2 = self[14]
   if -1 ~= L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F2B6CB6C74A6230E4
+    L2_2 = self
+    L1_2 = self.F2B6CB6C74A6230E4
     L1_2 = L1_2(L2_2)
     if false == L1_2 then
-      L2_2 = A0_2
-      L1_2 = A0_2.F071693432D7E31A3
+      L2_2 = self
+      L1_2 = self.F071693432D7E31A3
       L1_2(L2_2)
-      A0_2[21] = true
-      A0_2[10] = 9
+      self[21] = true
+      self[10] = 9
     else
       L1_2 = c113335A8
       L1_2 = L1_2.f7AC1FE6B
@@ -988,8 +948,8 @@ function L70_1(A0_2)
       L2_2 = L2_2.f101D811F
       L2_2, L3_2, L4_2, L5_2 = L2_2()
       L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2)
-      A0_2[13] = L1_2
-      L1_2 = A0_2[13]
+      self[13] = L1_2
+      L1_2 = self[13]
       L2_2 = L1_2
       L1_2 = L1_2.fEFB3ECFD
       L3_2 = C9A888D871C1FF42A
@@ -997,52 +957,46 @@ function L70_1(A0_2)
       L3_2 = L3_2()
       L4_2 = L3_2
       L3_2 = L3_2.F5012D8AAF254701F
-      L5_2 = A0_2[14]
+      L5_2 = self[14]
       L3_2, L4_2, L5_2 = L3_2(L4_2, L5_2)
       L1_2(L2_2, L3_2, L4_2, L5_2)
-      L2_2 = A0_2
-      L1_2 = A0_2.F7AA866329F114A10
+      L2_2 = self
+      L1_2 = self.F7AA866329F114A10
       L1_2(L2_2)
     end
   end
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L2_2 = L1_2
   L1_2 = L1_2.fDEEB3A8E
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F01585B55EEE63E76
+    L2_2 = self
+    L1_2 = self.F01585B55EEE63E76
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F42F55A3C4AB6DB73"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.F42F55A3C4AB6DB73
+function CF8B6396A01A9F412_prototype:F42F55A3C4AB6DB73()
   local L1_2, L2_2, L3_2
   L1_2 = CEC4BF82A35D1E447
   L1_2 = L1_2.S0B3F69C4549A0284
   L1_2 = L1_2()
   L2_2 = L1_2
   L1_2 = L1_2.F187D60128914353F
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L1_2(L2_2, L3_2)
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.fFCE06E04
   L1_2 = L1_2()
   L2_2 = L1_2
   L1_2 = L1_2.fD87062B6
-  L3_2 = A0_2[14]
+  L3_2 = self[14]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F76CA8E3F747B6CA5"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.PlayerStableCheck
+function CF8B6396A01A9F412_prototype:F76CA8E3F747B6CA5()
   local L1_2, L2_2, L3_2
   L1_2 = L3_1
   L2_2 = CFC8F368D91411014
@@ -1054,18 +1008,15 @@ function L70_1(A0_2)
   L3_2 = 1
   L1_2 = L1_2(L2_2, L3_2)
   if 0 ~= L1_2 then
-    A0_2[10] = 7
+    self[10] = 7
   else
-    A0_2[20] = true
-    A0_2[10] = 10
+    self[20] = true
+    self[10] = 10
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F469E882CBE349A73"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.BattleFormShowMessage
+function CF8B6396A01A9F412_prototype:F469E882CBE349A73()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = cCDB92DE8
   L1_2 = L1_2.f1D8F9FCD
@@ -1077,7 +1028,7 @@ function L70_1(A0_2)
   L3_2 = L1_2
   L2_2 = L1_2.fD499C005
   L4_2 = 0
-  L5_2 = A0_2[8]
+  L5_2 = self[8]
   L2_2(L3_2, L4_2, L5_2)
   L3_2 = L1_2
   L2_2 = L1_2.f39DD249C
@@ -1119,14 +1070,11 @@ function L70_1(A0_2)
   L7_2 = E048715B79C692C5A
   L7_2 = L7_2.System
   L5_2(L6_2, L7_2)
-  A0_2[10] = 9
+  self[10] = 9
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "FD2BCEF8F8196E617"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.WaitMessage
+function CF8B6396A01A9F412_prototype:FD2BCEF8F8196E617()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.SBFB9EB45D5AD74F0
@@ -1134,16 +1082,16 @@ function L70_1(A0_2)
   L2_2 = L2_2.System
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L1_2 = A0_2[15]
+    L1_2 = self[15]
     if L1_2 then
-      A0_2[10] = 9
+      self[10] = 9
       L1_2 = cB3DDDC2A
       L1_2 = L1_2.f5B6373D5
       L1_2 = L1_2()
       L3_2 = L1_2
       L2_2 = L1_2.fD499C005
       L4_2 = 0
-      L5_2 = A0_2[13]
+      L5_2 = self[13]
       L2_2(L3_2, L4_2, L5_2)
       L3_2 = L1_2
       L2_2 = L1_2.f39DD249C
@@ -1185,27 +1133,24 @@ function L70_1(A0_2)
       L7_2 = E048715B79C692C5A
       L7_2 = L7_2.System
       L5_2(L6_2, L7_2)
-      A0_2[15] = false
+      self[15] = false
     else
-      L1_2 = A0_2[21]
+      L1_2 = self[21]
       if L1_2 then
-        A0_2[21] = false
-        L2_2 = A0_2
-        L1_2 = A0_2.F6F7E9EC032E2B1EA
+        self[21] = false
+        L2_2 = self
+        L1_2 = self.F6F7E9EC032E2B1EA
         L3_2 = false
         L1_2(L2_2, L3_2)
       else
-        A0_2[10] = 10
+        self[10] = 10
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F5345F802195FFC89"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.F5345F802195FFC89
+function CF8B6396A01A9F412_prototype:F5345F802195FFC89()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fC8CEF9EF
@@ -1246,11 +1191,8 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F2EC5A632016F5614"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.F2EC5A632016F5614
+function CF8B6396A01A9F412_prototype:F2EC5A632016F5614()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fC8CEF9EF
@@ -1291,11 +1233,8 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F55989420BEFC8A13"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.F55989420BEFC8A13
+function CF8B6396A01A9F412_prototype:F55989420BEFC8A13()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fC8CEF9EF
@@ -1336,11 +1275,8 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F071693432D7E31A3"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.F071693432D7E31A3
+function CF8B6396A01A9F412_prototype:F071693432D7E31A3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fC8CEF9EF
@@ -1381,13 +1317,10 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F4B137E22F1EF320B"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.SetupFormChangeContext
+function CF8B6396A01A9F412_prototype:F4B137E22F1EF320B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.SBFB9EB45D5AD74F0
   L3_2 = E048715B79C692C5A
@@ -1400,10 +1333,10 @@ function L70_1(A0_2)
     L3_2 = L3_2.System
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       L3_2 = {}
       L2_2.h = L3_2
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       
       function L3_2()
         local L0_3, L1_3
@@ -1421,7 +1354,7 @@ function L70_1(A0_2)
         L4_2 = L2_2.h
         L4_2.FormChangeYes = L3_2
       end
-      L4_2 = A0_2[7]
+      L4_2 = self[7]
       
       function L5_2()
         local L0_3, L1_3
@@ -1463,18 +1396,15 @@ function L70_1(A0_2)
       L6_2 = CF1D9D619D324F233
       L6_2 = L6_2.S4FAFEA784668D159
       L6_2()
-      A0_2[10] = 2
+      self[10] = 2
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "FCF903D1CBAF007C5"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.SetupPokemonMoveContext
+function CF8B6396A01A9F412_prototype:FCF903D1CBAF007C5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.SBFB9EB45D5AD74F0
   L3_2 = E048715B79C692C5A
@@ -1487,10 +1417,10 @@ function L70_1(A0_2)
     L3_2 = L3_2.System
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       L3_2 = {}
       L2_2.h = L3_2
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       
       function L3_2()
         local L0_3, L1_3
@@ -1510,7 +1440,7 @@ function L70_1(A0_2)
         L4_2 = L2_2.h
         L4_2.TemochiMoveYes = L3_2
       end
-      L4_2 = A0_2[7]
+      L4_2 = self[7]
       
       function L5_2()
         local L0_3, L1_3, L2_3, L3_3, L4_3, L5_3, L6_3
@@ -1601,18 +1531,15 @@ function L70_1(A0_2)
       L6_2 = CF1D9D619D324F233
       L6_2 = L6_2.S4FAFEA784668D159
       L6_2()
-      A0_2[10] = 2
+      self[10] = 2
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "FB5FBB32D79B3BF9C"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.SetupSendBoxContext
+function CF8B6396A01A9F412_prototype:FB5FBB32D79B3BF9C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.SBFB9EB45D5AD74F0
   L3_2 = E048715B79C692C5A
@@ -1625,10 +1552,10 @@ function L70_1(A0_2)
     L3_2 = L3_2.System
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       L3_2 = {}
       L2_2.h = L3_2
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       
       function L3_2()
         local L0_3, L1_3
@@ -1648,7 +1575,7 @@ function L70_1(A0_2)
         L4_2 = L2_2.h
         L4_2.BoxSendYes = L3_2
       end
-      L4_2 = A0_2[7]
+      L4_2 = self[7]
       
       function L5_2()
         local L0_3, L1_3, L2_3
@@ -1695,18 +1622,15 @@ function L70_1(A0_2)
       L6_2 = CF1D9D619D324F233
       L6_2 = L6_2.S4FAFEA784668D159
       L6_2()
-      A0_2[10] = 2
+      self[10] = 2
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F0125B31C5BA977B4"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.SetupFormChangeEndContext
+function CF8B6396A01A9F412_prototype:F0125B31C5BA977B4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.SBFB9EB45D5AD74F0
   L3_2 = E048715B79C692C5A
@@ -1719,10 +1643,10 @@ function L70_1(A0_2)
     L3_2 = L3_2.System
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       L3_2 = {}
       L2_2.h = L3_2
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       
       function L3_2()
         local L0_3, L1_3
@@ -1740,7 +1664,7 @@ function L70_1(A0_2)
         L4_2 = L2_2.h
         L4_2.BoxSendYes = L3_2
       end
-      L4_2 = A0_2[7]
+      L4_2 = self[7]
       
       function L5_2()
         local L0_3, L1_3, L2_3
@@ -1785,28 +1709,22 @@ function L70_1(A0_2)
       L6_2 = CF1D9D619D324F233
       L6_2 = L6_2.S4FAFEA784668D159
       L6_2()
-      A0_2[10] = 2
+      self[10] = 2
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F75E7187B9736F668"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.SelectInfoReset
+function CF8B6396A01A9F412_prototype:F75E7187B9736F668()
   local L1_2
-  A0_2[13] = nil
-  A0_2[14] = -1
+  self[13] = nil
+  self[14] = -1
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF8B6396A01A9F412"]["prototype"]
-L69_1 = "F2B6CB6C74A6230E4"
-
-function L70_1(A0_2)
+--- main.ui.xmenu.xmenu_state_machine.XMenuPokelistRidePokeFormChangeState.F2B6CB6C74A6230E4
+function CF8B6396A01A9F412_prototype:F2B6CB6C74A6230E4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.fFEA012DE
   L1_2 = L1_2(L2_2)
@@ -1826,7 +1744,7 @@ function L70_1(A0_2)
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L6_2 = L3_2 - 1
-    L7_2 = A0_2[14]
+    L7_2 = self[14]
     if L6_2 ~= L7_2 then
       L8_2 = L2_2
       L7_2 = L2_2.f0FDE774D

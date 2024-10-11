@@ -1,3 +1,5 @@
+---@class CE7680EA6ED680070 : CE7680EA6ED680070_prototype
+---@field prototype CE7680EA6ED680070_prototype
 L55_1 = _ENV
 L56_1 = "CE7680EA6ED680070"
 L57_1 = L15_1
@@ -53,56 +55,42 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE7680EA6ED680070"]
 L69_1 = "__name__"
 L70_1 = "CE7680EA6ED680070"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7680EA6ED680070"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7680EA6ED680070"]["prototype"]
-L69_1 = "F86AB611C2307B41D"
-
-function L70_1(A0_2)
+---@class CE7680EA6ED680070_prototype
+CE7680EA6ED680070_prototype = L15_1()
+CE7680EA6ED680070.prototype = CE7680EA6ED680070_prototype
+--- CE7680EA6ED680070.GetTag
+function CE7680EA6ED680070_prototype:F86AB611C2307B41D()
   local L1_2
   L1_2 = CE7680EA6ED680070
   L1_2 = L1_2.S27A34B26C12F28B3
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7680EA6ED680070"]["prototype"]
-L69_1 = "FDCB19E22FE1BB508"
-
-function L70_1(A0_2, A1_2)
+--- CE7680EA6ED680070.OnPreUpdate
+function CE7680EA6ED680070_prototype:FDCB19E22FE1BB508(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FFF1F733876F480E2
+  L3_2 = self
+  L2_2 = self.FFF1F733876F480E2
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F2AA7573121E52410
+  L3_2 = self
+  L2_2 = self.F2AA7573121E52410
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7680EA6ED680070"]["prototype"]
-L69_1 = "FF159A56FC3AD47A6"
-
-function L70_1(A0_2)
+--- CE7680EA6ED680070.FF159A56FC3AD47A6
+function CE7680EA6ED680070_prototype:FF159A56FC3AD47A6()
   local L1_2, L2_2
   L1_2 = L58_1
   L2_2 = CE7680EA6ED680070
   L2_2 = L2_2.S85BACAB7D0C4DC59
   L1_2 = L1_2(L2_2)
-  A0_2[3] = L1_2
+  self[3] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7680EA6ED680070"]["prototype"]
-L69_1 = "F61A4613656D002D8"
-
-function L70_1(A0_2)
+--- CE7680EA6ED680070.CalcWashBegging
+function CE7680EA6ED680070_prototype:F61A4613656D002D8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.fFCE06E04
@@ -197,22 +185,19 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7680EA6ED680070"]["prototype"]
-L69_1 = "F2AA7573121E52410"
-
-function L70_1(A0_2, A1_2)
+--- CE7680EA6ED680070.F2AA7573121E52410
+function CE7680EA6ED680070_prototype:F2AA7573121E52410(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   if L2_2 < 0.0 then
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = C075A638F130352C3
   L3_2 = L3_2.S44460EB93267F798
   L2_2 = L2_2 - L3_2
-  A0_2[3] = L2_2
-  L2_2 = A0_2[3]
+  self[3] = L2_2
+  L2_2 = self[3]
   if L2_2 < 0.0 then
     L2_2 = c1A1CBE3B
     L2_2 = L2_2.fFCE06E04
@@ -243,26 +228,23 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE7680EA6ED680070"]["prototype"]
-L69_1 = "FFF1F733876F480E2"
-
-function L70_1(A0_2, A1_2)
+--- CE7680EA6ED680070.UpdateLotteryBegging
+function CE7680EA6ED680070_prototype:FFF1F733876F480E2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = false
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = C075A638F130352C3
   L4_2 = L4_2.S44460EB93267F798
   L3_2 = L3_2 - L4_2
-  A0_2[2] = L3_2
-  L3_2 = A0_2[2]
+  self[2] = L3_2
+  L3_2 = self[2]
   if L3_2 < 0.0 then
     L2_2 = true
     L3_2 = L58_1
     L4_2 = CE7680EA6ED680070
     L4_2 = L4_2.SAB055697DFF93018
     L3_2 = L3_2(L4_2)
-    A0_2[2] = L3_2
+    self[2] = L3_2
   end
   if L2_2 then
     L3_2 = c1A1CBE3B
@@ -286,7 +268,7 @@ function L70_1(A0_2, A1_2)
       L11_2 = L8_2
       L9_2 = L9_2(L10_2, L11_2)
       if L9_2 then
-        L9_2 = A0_2[4]
+        L9_2 = self[4]
         L10_2 = L9_2
         L9_2 = L9_2.fDAAAA586
         L11_2 = 100
@@ -299,7 +281,7 @@ function L70_1(A0_2, A1_2)
           L12_2 = 2
           L10_2(L11_2, L12_2)
         else
-          L10_2 = A0_2[4]
+          L10_2 = self[4]
           L11_2 = L10_2
           L10_2 = L10_2.fDAAAA586
           L12_2 = 100

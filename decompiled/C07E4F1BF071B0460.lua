@@ -1,31 +1,19 @@
-L55_1 = _ENV
-L56_1 = "C07E4F1BF071B0460"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "__name__"
-L70_1 = "C07E4F1BF071B0460"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "SD59E6C9E4132DD89"
+---@alias C07E4F1BF071B0460 main_event_command_FadeCommand
 
-function L70_1()
+---@class main_event_command_FadeCommand
+C07E4F1BF071B0460 = L15_1()
+C07E4F1BF071B0460.new = {}
+C07E4F1BF071B0460.__name__ = "C07E4F1BF071B0460"
+--- main.event.command.FadeCommand.SD59E6C9E4132DD89
+function C07E4F1BF071B0460.SD59E6C9E4132DD89()
   local L0_2, L1_2
   L0_2 = C07E4F1BF071B0460
   L0_2 = L0_2.SE32797E6FF928B25
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "S2D4F4BC40511B560"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FadeCommand.FadeIn
+function C07E4F1BF071B0460.S2D4F4BC40511B560(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A3_2 then
     A3_2 = true
@@ -71,11 +59,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2.SE32797E6FF928B25 = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "S218E2A14A790D265"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.FadeCommand.FadeOut
+function C07E4F1BF071B0460.S218E2A14A790D265(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A3_2 then
     A3_2 = true
@@ -109,11 +94,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "SF87D891E856F9D1E"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FadeCommand.CrossFadeIn
+function C07E4F1BF071B0460.SF87D891E856F9D1E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A1_2 then
     A1_2 = true
@@ -148,11 +130,8 @@ function L70_1(A0_2, A1_2)
   L2_2.SE32797E6FF928B25 = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "S9B4504DCB28F82DF"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FadeCommand.CrossFadeOut
+function C07E4F1BF071B0460.S9B4504DCB28F82DF(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A2_2 then
     A2_2 = true
@@ -190,11 +169,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "SF131474E968E2D6A"
-
-function L70_1()
+--- main.event.command.FadeCommand.FadeWait
+function C07E4F1BF071B0460.SF131474E968E2D6A()
   local L0_2, L1_2
   L0_2 = CC6FE82819C6E1D55
   L0_2 = L0_2.S12F63EE47FFCB183
@@ -217,11 +193,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "SB9C19697F48F2640"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FadeCommand.SetFadeColor
+function C07E4F1BF071B0460.SB9C19697F48F2640(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if "ColorFade" == A1_2 then
     if nil == A2_2 then
@@ -262,11 +235,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "S38DB32A49C07FA22"
-
-function L70_1()
+--- main.event.command.FadeCommand.EventFadeIn
+function C07E4F1BF071B0460.S38DB32A49C07FA22()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cA042DA13
@@ -331,11 +301,8 @@ function L70_1()
   L1_2.SE32797E6FF928B25 = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "SD70567B53DCF1EBB"
-
-function L70_1(A0_2)
+--- main.event.command.FadeCommand.EventFadeOut
+function C07E4F1BF071B0460.SD70567B53DCF1EBB(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C07E4F1BF071B0460
   L1_2.SEA0FACC924EA912B = A0_2
@@ -437,11 +404,8 @@ function L70_1(A0_2)
   L4_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "S449977B2A8C54A82"
-
-function L70_1()
+--- main.event.command.FadeCommand.EventFadeOutWait
+function C07E4F1BF071B0460.S449977B2A8C54A82()
   local L0_2, L1_2
   while true do
     L0_2 = C51ADDCB57D6F59D9
@@ -456,11 +420,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "S2A71EA2C27313789"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FadeCommand.MapChangeFadeOut
+function C07E4F1BF071B0460.S2A71EA2C27313789(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C07E4F1BF071B0460
   L2_2.SECB25EA3659374E8 = A0_2
@@ -505,11 +466,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "S8F573B9A4CAA6904"
-
-function L70_1(A0_2)
+--- main.event.command.FadeCommand.WaitMapChangeFade
+function C07E4F1BF071B0460.S8F573B9A4CAA6904(A0_2)
   local L1_2
   if 0 == A0_2 or 1 == A0_2 then
     L1_2 = C07E4F1BF071B0460
@@ -526,11 +484,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "S62AE3CD77EAF23FC"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.FadeCommand.MapChangeFadeIn
+function C07E4F1BF071B0460.S62AE3CD77EAF23FC(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C07E4F1BF071B0460
   L2_2.SECB25EA3659374E8 = nil
@@ -559,11 +514,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C07E4F1BF071B0460"]
-L69_1 = "SE1580AEE93584096"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.FadeCommand.SE1580AEE93584096
+function C07E4F1BF071B0460.SE1580AEE93584096(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2
   L3_2 = C07E4F1BF071B0460
   L3_2 = L3_2.SECB25EA3659374E8

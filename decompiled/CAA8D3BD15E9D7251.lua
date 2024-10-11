@@ -1,3 +1,7 @@
+---@alias CAA8D3BD15E9D7251 main_ui_pokelist_pokelist_state_machine_pokelist_battle_type_PokelistBattleStatusState
+
+---@class main_ui_pokelist_pokelist_state_machine_pokelist_battle_type_PokelistBattleStatusState : CAA8D3BD15E9D7251_prototype
+---@field prototype CAA8D3BD15E9D7251_prototype
 L55_1 = _ENV
 L56_1 = "CAA8D3BD15E9D7251"
 L57_1 = L15_1
@@ -40,30 +44,25 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CAA8D3BD15E9D7251"]
 L69_1 = "__name__"
 L70_1 = "CAA8D3BD15E9D7251"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA8D3BD15E9D7251"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA8D3BD15E9D7251"]["prototype"]
-L69_1 = "F46013EC08BDF7153"
-
-function L70_1(A0_2)
+---@class CAA8D3BD15E9D7251_prototype
+CAA8D3BD15E9D7251_prototype = L15_1()
+CAA8D3BD15E9D7251.prototype = CAA8D3BD15E9D7251_prototype
+--- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistBattleStatusState.Entry
+function CAA8D3BD15E9D7251_prototype:F46013EC08BDF7153()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F9B182DC9C7A846DA
+  L3_2 = self
+  L4_2 = self.F9B182DC9C7A846DA
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "PokelistBattleStatusStateProcCoroutine"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[6] = L1_2
-  L1_2 = A0_2[2]
+  self[6] = L1_2
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.FA537B912371145DC
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L1_2(L2_2, L3_2)
   L1_2 = cB66A3C78
   L1_2 = L1_2.fA925EE56
@@ -74,30 +73,27 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA8D3BD15E9D7251"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistBattleStatusState.Update
+function CAA8D3BD15E9D7251_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2
   L1_2 = C36A5513B438B1EC7
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FEB6685558281F194
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = L10_1.coroutine
   L1_2 = L1_2.status
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2[1]
   L1_2 = L1_2(L2_2)
   if "dead" ~= L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.FA537B912371145DC
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L1_2(L2_2, L3_2)
   else
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.F28EAF3B3AA178E3E
     L3_2 = CF984617BF8F065CF
@@ -114,21 +110,15 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA8D3BD15E9D7251"]["prototype"]
-L69_1 = "F2C02645014D5A2A5"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistBattleStatusState.Exit
+function CAA8D3BD15E9D7251_prototype:F2C02645014D5A2A5()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA8D3BD15E9D7251"]["prototype"]
-L69_1 = "F9B182DC9C7A846DA"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistBattleStatusState.Process
+function CAA8D3BD15E9D7251_prototype:F9B182DC9C7A846DA()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = CC31A25AF0A315E23
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -242,17 +232,14 @@ function L70_1(A0_2)
     L6_2 = L6_2.S760DAE4C5371A78E
     L6_2()
   end
-  L7_2 = A0_2
-  L6_2 = A0_2.F5FA67E7636D5D68F
+  L7_2 = self
+  L6_2 = self.F5FA67E7636D5D68F
   L8_2 = L2_2
   L6_2(L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAA8D3BD15E9D7251"]["prototype"]
-L69_1 = "F5FA67E7636D5D68F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistBattleStatusState.F5FA67E7636D5D68F
+function CAA8D3BD15E9D7251_prototype:F5FA67E7636D5D68F(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CC31A25AF0A315E23
   L2_2 = L2_2.S385504EFF7E842C3

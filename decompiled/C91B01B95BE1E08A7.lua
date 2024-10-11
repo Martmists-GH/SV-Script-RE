@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C91B01B95BE1E08A7"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C91B01B95BE1E08A7"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91B01B95BE1E08A7"]
-L69_1 = "__name__"
-L70_1 = "C91B01B95BE1E08A7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91B01B95BE1E08A7"]
-L69_1 = "S5DF3246853157C35"
+---@alias C91B01B95BE1E08A7 main_event_command_ItemCommand
 
-function L70_1(A0_2, A1_2)
+---@class main_event_command_ItemCommand
+C91B01B95BE1E08A7 = L15_1()
+C91B01B95BE1E08A7.new = {}
+C91B01B95BE1E08A7.__name__ = "C91B01B95BE1E08A7"
+--- main.event.command.ItemCommand.ItemAdd
+function C91B01B95BE1E08A7.S5DF3246853157C35(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     A1_2 = 1
@@ -43,11 +34,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91B01B95BE1E08A7"]
-L69_1 = "S535978568CF1D3A1"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2)
+--- main.event.command.ItemCommand.ItemPassGet
+function C91B01B95BE1E08A7.S535978568CF1D3A1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2)
   local L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   if nil == A10_2 then
     A10_2 = false
@@ -356,11 +344,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2
   L14_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91B01B95BE1E08A7"]
-L69_1 = "S003E3B84D9CF26B9"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2)
+--- main.event.command.ItemCommand.ItemGetEventNpc
+function C91B01B95BE1E08A7.S003E3B84D9CF26B9(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2)
   local L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   if nil == A8_2 then
     A8_2 = false
@@ -393,11 +378,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2)
   L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91B01B95BE1E08A7"]
-L69_1 = "S68A52B972B3AE11E"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2)
+--- main.event.command.ItemCommand.ItemGetEvent
+function C91B01B95BE1E08A7.S68A52B972B3AE11E(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2)
   local L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   if nil == A9_2 then
     A9_2 = false
@@ -446,11 +428,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2)
   L10_2(L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91B01B95BE1E08A7"]
-L69_1 = "S243DA310F429AF72"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.ItemCommand.showMsgItemGet
+function C91B01B95BE1E08A7.S243DA310F429AF72(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = C6BC8418E8E071EE6
   L4_2 = L4_2.S385504EFF7E842C3
@@ -557,11 +536,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2(L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91B01B95BE1E08A7"]
-L69_1 = "SE8C8776EE8350150"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.event.command.ItemCommand.showMsgItemPutIn
+function C91B01B95BE1E08A7.SE8C8776EE8350150(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = C9B54BC04DD492B6D
   L4_2 = L4_2.S4E44D50241EFAB61
@@ -655,11 +631,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91B01B95BE1E08A7"]
-L69_1 = "SF9E9FDC8BBEF669F"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.ItemCommand.showMsgItemFull
+function C91B01B95BE1E08A7.SF9E9FDC8BBEF669F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.S4E44D50241EFAB61
@@ -684,11 +657,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91B01B95BE1E08A7"]
-L69_1 = "SD3A757C263BD9CDB"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.ItemCommand.PlaySoundItemGet
+function C91B01B95BE1E08A7.SD3A757C263BD9CDB(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = C6BC8418E8E071EE6
   L3_2 = L3_2.S385504EFF7E842C3
@@ -791,11 +761,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91B01B95BE1E08A7"]
-L69_1 = "S137CB591BFAAC1EA"
-
-function L70_1(A0_2)
+--- main.event.command.ItemCommand.GetItemCountInBag
+function C91B01B95BE1E08A7.S137CB591BFAAC1EA(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C14A8D35D72F56FE9
   L1_2 = L1_2.S90D73F1D715BCBF4
@@ -812,11 +779,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91B01B95BE1E08A7"]
-L69_1 = "S22CDD376AEB1C8B2"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.ItemCommand.OpenBagUIWait
+function C91B01B95BE1E08A7.S22CDD376AEB1C8B2(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = 0
@@ -862,11 +826,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C91B01B95BE1E08A7"]
-L69_1 = "S242FBEEC159D1259"
-
-function L70_1(A0_2)
+--- main.event.command.ItemCommand.EnableWorldItem
+function C91B01B95BE1E08A7.S242FBEEC159D1259(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D

@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C7E63B1C6A22F0EAB"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "__name__"
-L70_1 = "C7E63B1C6A22F0EAB"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S0C759B831B9FB349"
+---@alias C7E63B1C6A22F0EAB main_event_general_ajito_base_Ajito_common
 
-function L70_1(A0_2)
+---@class main_event_general_ajito_base_Ajito_common
+C7E63B1C6A22F0EAB = L15_1()
+C7E63B1C6A22F0EAB.new = {}
+C7E63B1C6A22F0EAB.__name__ = "C7E63B1C6A22F0EAB"
+--- main.event.general.ajito.base.Ajito_common.WarpPlayerPosition
+function C7E63B1C6A22F0EAB.S0C759B831B9FB349(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -102,11 +93,8 @@ function L70_1(A0_2)
   L18_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S515D0D91BF2681B6"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.ajito.base.Ajito_common.SetStartPosition
+function C7E63B1C6A22F0EAB.S515D0D91BF2681B6(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L2_2 = C7E63B1C6A22F0EAB
   L2_2 = L2_2.S0C759B831B9FB349
@@ -177,11 +165,8 @@ function L70_1(A0_2, A1_2)
   L18_2(L19_2, L20_2, L21_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S679F92A7CE6E134C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.ajito.base.Ajito_common.SetStartPosition2
+function C7E63B1C6A22F0EAB.S679F92A7CE6E134C(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2
   L3_2 = C7E63B1C6A22F0EAB
   L3_2 = L3_2.S0C759B831B9FB349
@@ -276,11 +261,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L32_2(L33_2, L34_2, L35_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "SC258047F725CA760"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.ajito.base.Ajito_common.SetExitPosition
+function C7E63B1C6A22F0EAB.SC258047F725CA760(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L2_2 = C7E63B1C6A22F0EAB
   L2_2 = L2_2.S0C759B831B9FB349
@@ -351,11 +333,8 @@ function L70_1(A0_2, A1_2)
   L18_2(L19_2, L20_2, L21_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S338A50689CEDF233"
-
-function L70_1(A0_2)
+--- main.event.general.ajito.base.Ajito_common.Fade
+function C7E63B1C6A22F0EAB.S338A50689CEDF233(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C07E4F1BF071B0460
   L1_2 = L1_2.S218E2A14A790D265
@@ -373,11 +352,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S231DA739E139B125"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.ajito.base.Ajito_common.SetFieldObjectNameVisible
+function C7E63B1C6A22F0EAB.S231DA739E139B125(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -393,11 +369,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S8048936927330E14"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.ajito.base.Ajito_common.SetFieldObjectVisible
+function C7E63B1C6A22F0EAB.S8048936927330E14(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S3A7F6680A834C902
@@ -406,11 +379,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S06ECC3A56D757B51"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.ajito.base.Ajito_common.BossLookAtCamera
+function C7E63B1C6A22F0EAB.S06ECC3A56D757B51(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -476,11 +446,8 @@ function L70_1(A0_2, A1_2)
   L17_2(L18_2, L19_2, L20_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S35A64D0CE41FF7D7"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.event.general.ajito.base.Ajito_common.Battle
+function C7E63B1C6A22F0EAB.S35A64D0CE41FF7D7(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L5_2 = C8CD510D3A2887FE4
   L5_2 = L5_2.S4D805526D04B788C
@@ -526,11 +493,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S6A2250906B096E09"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.ajito.base.Ajito_common.SetAjitoNpcVisible
+function C7E63B1C6A22F0EAB.S6A2250906B096E09(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = "dan_"
   if 0 == A0_2 then
@@ -627,11 +591,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S4BDF2DB4EA258948"
-
-function L70_1()
+--- main.event.general.ajito.base.Ajito_common.ReloadAjitoGate
+function C7E63B1C6A22F0EAB.S4BDF2DB4EA258948()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -653,11 +614,8 @@ function L70_1()
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S808C1D5C1240255C"
-
-function L70_1()
+--- main.event.general.ajito.base.Ajito_common.GetDanRushPossibleState
+function C7E63B1C6A22F0EAB.S808C1D5C1240255C()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L0_2 = CD081B219DEE96EEF
   L0_2 = L0_2.S05EDF33FC818F6B8
@@ -732,11 +690,8 @@ function L70_1()
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S427F2AC9E0EA93AA"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.ajito.base.Ajito_common.AjitoEvent_050
+function C7E63B1C6A22F0EAB.S427F2AC9E0EA93AA(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if A0_2 == A1_2 then
     L3_2 = C7E63B1C6A22F0EAB
@@ -766,11 +721,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S427BA4C9E0E77A21"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.general.ajito.base.Ajito_common.AjitoEvent_060
+function C7E63B1C6A22F0EAB.S427BA4C9E0E77A21(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   if A0_2 == A1_2 then
     L3_2 = CDCBFD50A277E546D
@@ -951,11 +903,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S14EFDF17A098AC4C"
-
-function L70_1(A0_2)
+--- main.event.general.ajito.base.Ajito_common.S14EFDF17A098AC4C
+function C7E63B1C6A22F0EAB.S14EFDF17A098AC4C(A0_2)
   local L1_2
   L1_2 = true
   if 0 == A0_2 then
@@ -969,11 +918,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "SBE260349212E2A18"
-
-function L70_1(A0_2)
+--- main.event.general.ajito.base.Ajito_common.GetTeamNameString
+function C7E63B1C6A22F0EAB.SBE260349212E2A18(A0_2)
   local L1_2
   L1_2 = ""
   if 0 == A0_2 then
@@ -990,11 +936,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "SF7E0FA81D1553ECB"
-
-function L70_1(A0_2)
+--- main.event.general.ajito.base.Ajito_common.SF7E0FA81D1553ECB
+function C7E63B1C6A22F0EAB.SF7E0FA81D1553ECB(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = false
   if 0 == A0_2 then
@@ -1051,11 +994,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S1C6E66AF80EC6241"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.ajito.base.Ajito_common.S1C6E66AF80EC6241
+function C7E63B1C6A22F0EAB.S1C6E66AF80EC6241(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if 0 == A0_2 then
     L2_2 = C10578806AC30DCA3
@@ -1140,11 +1080,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "SE698845DABE199EE"
-
-function L70_1(A0_2)
+--- main.event.general.ajito.base.Ajito_common.getBossTrainerId
+function C7E63B1C6A22F0EAB.SE698845DABE199EE(A0_2)
   local L1_2
   L1_2 = ""
   if 0 == A0_2 then
@@ -1161,11 +1098,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "SE9BDD7B66A84E23B"
-
-function L70_1(A0_2)
+--- main.event.general.ajito.base.Ajito_common.SE9BDD7B66A84E23B
+function C7E63B1C6A22F0EAB.SE9BDD7B66A84E23B(A0_2)
   local L1_2
   L1_2 = ""
   if 0 == A0_2 then
@@ -1182,11 +1116,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "SA66B64744AF5C92E"
-
-function L70_1(A0_2)
+--- main.event.general.ajito.base.Ajito_common.getBossBattlePos
+function C7E63B1C6A22F0EAB.SA66B64744AF5C92E(A0_2)
   local L1_2
   L1_2 = ""
   if 0 == A0_2 then
@@ -1203,11 +1134,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S09BC077BC81B8A56"
-
-function L70_1()
+--- main.event.general.ajito.base.Ajito_common.S09BC077BC81B8A56
+function C7E63B1C6A22F0EAB.S09BC077BC81B8A56()
   local L0_2, L1_2, L2_2
   L0_2 = C10578806AC30DCA3
   L0_2 = L0_2.SBA6FF574C1C9AA09
@@ -1301,11 +1229,8 @@ function L70_1()
   L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S1964BD0B63E86DA2"
-
-function L70_1(A0_2)
+--- main.event.general.ajito.base.Ajito_common.AreaEnter
+function C7E63B1C6A22F0EAB.S1964BD0B63E86DA2(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C896E82AC366C8E8F
   L1_2 = L1_2.S4539FBABC0D19D63
@@ -1370,11 +1295,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7E63B1C6A22F0EAB"]
-L69_1 = "S0F5CB14114E823F3"
-
-function L70_1(A0_2)
+--- main.event.general.ajito.base.Ajito_common.S0F5CB14114E823F3
+function C7E63B1C6A22F0EAB.S0F5CB14114E823F3(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D

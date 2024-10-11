@@ -1,3 +1,7 @@
+---@alias CC18FFEA4D4BF926E main_event_general_area_script_AreaExit_subarea_poisonteam
+
+---@class main_event_general_area_script_AreaExit_subarea_poisonteam : CC18FFEA4D4BF926E_prototype
+---@field prototype CC18FFEA4D4BF926E_prototype
 L55_1 = _ENV
 L56_1 = "CC18FFEA4D4BF926E"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC18FFEA4D4BF926E"]
 L69_1 = "__name__"
 L70_1 = "CC18FFEA4D4BF926E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC18FFEA4D4BF926E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC18FFEA4D4BF926E"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CC18FFEA4D4BF926E_prototype
+CC18FFEA4D4BF926E_prototype = L15_1()
+CC18FFEA4D4BF926E.prototype = CC18FFEA4D4BF926E_prototype
+--- main.event.general.area_script.AreaExit_subarea_poisonteam.mainBody
+function CC18FFEA4D4BF926E_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C896E82AC366C8E8F
   L1_2 = L1_2.S4539FBABC0D19D63

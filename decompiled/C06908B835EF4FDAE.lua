@@ -1,3 +1,5 @@
+---@class C06908B835EF4FDAE : C06908B835EF4FDAE_prototype
+---@field prototype C06908B835EF4FDAE_prototype
 L55_1 = _ENV
 L56_1 = "C06908B835EF4FDAE"
 L57_1 = L15_1
@@ -39,36 +41,28 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C06908B835EF4FDAE"]
 L69_1 = "__name__"
 L70_1 = "C06908B835EF4FDAE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C06908B835EF4FDAE"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C06908B835EF4FDAE"]["prototype"]
-L69_1 = "FEBB6C7EABF14DA04"
-
-function L70_1(A0_2)
+---@class C06908B835EF4FDAE_prototype
+C06908B835EF4FDAE_prototype = L15_1()
+C06908B835EF4FDAE.prototype = C06908B835EF4FDAE_prototype
+--- C06908B835EF4FDAE.BootEventTriggerId
+function C06908B835EF4FDAE_prototype:FEBB6C7EABF14DA04()
   local L1_2
   L1_2 = 11
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C06908B835EF4FDAE"]["prototype"]
-L69_1 = "FDA98E87C57449F00"
-
-function L70_1(A0_2, A1_2)
+--- C06908B835EF4FDAE.OnEventCheck
+function C06908B835EF4FDAE_prototype:FDA98E87C57449F00(A1_2)
   local L2_2, L3_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FA82C3B40C4666459
+  L3_2 = self
+  L2_2 = self.FA82C3B40C4666459
   L2_2 = L2_2(L3_2)
   if false == L2_2 then
     L2_2 = nil
     return L2_2
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FF55DE12AD589DB08
+  L3_2 = self
+  L2_2 = self.FF55DE12AD589DB08
   L2_2 = L2_2(L3_2)
   if true == L2_2 then
     L2_2 = C5871932D02D179E6
@@ -78,8 +72,8 @@ function L70_1(A0_2, A1_2)
     L2_2 = nil
     return L2_2
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F07BF38BDF32D3DA6
+  L3_2 = self
+  L2_2 = self.F07BF38BDF32D3DA6
   L2_2 = L2_2(L3_2)
   if not L2_2 then
     L2_2 = C5871932D02D179E6
@@ -106,22 +100,16 @@ function L70_1(A0_2, A1_2)
   return L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C06908B835EF4FDAE"]["prototype"]
-L69_1 = "FA82C3B40C4666459"
-
-function L70_1(A0_2)
+--- C06908B835EF4FDAE.IsOpen
+function C06908B835EF4FDAE_prototype:FA82C3B40C4666459()
   local L1_2
   L1_2 = C38031D3FA506665C
   L1_2 = L1_2.S9622055307344C77
   return L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C06908B835EF4FDAE"]["prototype"]
-L69_1 = "FF55DE12AD589DB08"
-
-function L70_1(A0_2)
+--- C06908B835EF4FDAE.IsRiding
+function C06908B835EF4FDAE_prototype:FF55DE12AD589DB08()
   local L1_2, L2_2, L3_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -144,11 +132,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C06908B835EF4FDAE"]["prototype"]
-L69_1 = "F07BF38BDF32D3DA6"
-
-function L70_1(A0_2)
+--- C06908B835EF4FDAE.IsStable
+function C06908B835EF4FDAE_prototype:F07BF38BDF32D3DA6()
   local L1_2, L2_2, L3_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D

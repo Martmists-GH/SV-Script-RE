@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C08D9A2F8C398AC78"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C08D9A2F8C398AC78"]
-L69_1 = "new"
+---@alias C08D9A2F8C398AC78 main_ui_pokelist_pokelist_icon_offset_PokeListIconOffsetManager
 
-function L70_1(A0_2)
+---@class main_ui_pokelist_pokelist_icon_offset_PokeListIconOffsetManager : C08D9A2F8C398AC78_prototype
+---@field prototype C08D9A2F8C398AC78_prototype
+C08D9A2F8C398AC78 = L15_1()
+function C08D9A2F8C398AC78.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C08D9A2F8C398AC78
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08D9A2F8C398AC78"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C08D9A2F8C398AC78
+function C08D9A2F8C398AC78.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[2] = 0
   L2_2 = CDC3F92928A2194E6
@@ -43,39 +37,31 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C08D9A2F8C398AC78"]
 L69_1 = "__name__"
 L70_1 = "C08D9A2F8C398AC78"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08D9A2F8C398AC78"]
-L69_1 = "S0B3F69C4549A0284"
-
-function L70_1()
+--- main.ui.pokelist.pokelist_icon_offset.PokeListIconOffsetManager.GetInstance
+function C08D9A2F8C398AC78.S0B3F69C4549A0284()
   local L0_2, L1_2
   L0_2 = C08D9A2F8C398AC78
   L0_2 = L0_2.S032897EBFF9CC1F2
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08D9A2F8C398AC78"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08D9A2F8C398AC78"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C08D9A2F8C398AC78_prototype
+C08D9A2F8C398AC78_prototype = L15_1()
+C08D9A2F8C398AC78.prototype = C08D9A2F8C398AC78_prototype
+--- main.ui.pokelist.pokelist_icon_offset.PokeListIconOffsetManager.Setup
+function C08D9A2F8C398AC78_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C08D9A2F8C398AC78
-  L2_2.S032897EBFF9CC1F2 = A0_2
+  L2_2.S032897EBFF9CC1F2 = self
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cF52F390B
@@ -147,24 +133,18 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08D9A2F8C398AC78"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ui.pokelist.pokelist_icon_offset.PokeListIconOffsetManager.Destroy
+function C08D9A2F8C398AC78_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08D9A2F8C398AC78"]["prototype"]
-L69_1 = "FF64F274A22515AF4"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.pokelist.pokelist_icon_offset.PokeListIconOffsetManager.GetOffsetData
+function C08D9A2F8C398AC78_prototype:FF64F274A22515AF4(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A3_2 then
     A3_2 = false
@@ -177,7 +157,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L4_2 = C08D9A2F8C398AC78
       L4_2 = L4_2.SE39D20058DB03492
       L4_2 = L4_2.h
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L4_2 = L4_2[L5_2]
       L5_2 = L42_1.tnull
       if L4_2 == L5_2 then
@@ -188,7 +168,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L4_2 = C08D9A2F8C398AC78
     L4_2 = L4_2.SE39D20058DB03492
     L4_2 = L4_2.h
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L4_2 = L4_2[L5_2]
     L5_2 = L42_1.tnull
     if L4_2 == L5_2 then

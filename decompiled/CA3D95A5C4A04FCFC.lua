@@ -1,3 +1,7 @@
+---@alias CA3D95A5C4A04FCFC main_field_gimmick_treeshake_TreeShakeProcess
+
+---@class main_field_gimmick_treeshake_TreeShakeProcess : CA3D95A5C4A04FCFC_prototype
+---@field prototype CA3D95A5C4A04FCFC_prototype
 L55_1 = _ENV
 L56_1 = "CA3D95A5C4A04FCFC"
 L57_1 = L15_1
@@ -110,34 +114,26 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA3D95A5C4A04FCFC"]
 L69_1 = "__name__"
 L70_1 = "CA3D95A5C4A04FCFC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA3D95A5C4A04FCFC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA3D95A5C4A04FCFC"]["prototype"]
-L69_1 = "F7CA8DC7927BDA900"
-
-function L70_1(A0_2)
+---@class CA3D95A5C4A04FCFC_prototype
+CA3D95A5C4A04FCFC_prototype = L15_1()
+CA3D95A5C4A04FCFC.prototype = CA3D95A5C4A04FCFC_prototype
+--- main.field.gimmick.treeshake.TreeShakeProcess.get_Tree
+function CA3D95A5C4A04FCFC_prototype:F7CA8DC7927BDA900()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA3D95A5C4A04FCFC"]["prototype"]
-L69_1 = "F9EF8B08DA4FDA9E4"
-
-function L70_1(A0_2)
+--- main.field.gimmick.treeshake.TreeShakeProcess.mainCoroutineFunc
+function CA3D95A5C4A04FCFC_prototype:F9EF8B08DA4FDA9E4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   while true do
-    L1_2 = A0_2[7]
+    L1_2 = self[7]
     L1_2 = L1_2.length
     if 0 == L1_2 then
       break
     end
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.f22D509B2
     L3_2 = 2
@@ -145,9 +141,9 @@ function L70_1(A0_2)
     L2_2 = L1_2
     L1_2 = L1_2.fC0E2CAD0
     L1_2 = L1_2(L2_2)
-    A0_2[8] = L1_2
+    self[8] = L1_2
     L1_2 = 0
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     while true do
       L3_2 = L2_2.length
       if not (L1_2 < L3_2) then
@@ -204,7 +200,7 @@ function L70_1(A0_2)
           L6_2(L7_2, L8_2)
         end
       else
-        L4_2 = A0_2[7]
+        L4_2 = self[7]
         L5_2 = L4_2
         L4_2 = L4_2.remove
         L6_2 = L3_2
@@ -218,20 +214,17 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA3D95A5C4A04FCFC"]["prototype"]
-L69_1 = "F22F3C15C43E78F1E"
-
-function L70_1(A0_2)
+--- main.field.gimmick.treeshake.TreeShakeProcess.laneMain
+function CA3D95A5C4A04FCFC_prototype:F22F3C15C43E78F1E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = C1DB14DCC9D7634FA
   L3_2 = L3_2.new
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.FEF922B92E52F7B4E
+  L5_2 = self
+  L6_2 = self.FEF922B92E52F7B4E
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = L31_1.string
   L6_2 = L31_1.string
@@ -239,7 +232,7 @@ function L70_1(A0_2)
   L8_2 = "TreeShakeProcess("
   L7_2 = L7_2(L8_2)
   L8_2 = L31_1.string
-  L9_2 = A0_2[2]
+  L9_2 = self[2]
   L8_2 = L8_2(L9_2)
   L7_2 = L7_2 .. L8_2
   L6_2 = L6_2(L7_2)
@@ -254,16 +247,16 @@ function L70_1(A0_2)
   L5_2 = L5_2 .. L6_2
   L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   if L1_2 then
-    L1_2 = A0_2[7]
+    L1_2 = self[7]
     L2_2 = L1_2
     L1_2 = L1_2.push
     L3_2 = C1DB14DCC9D7634FA
     L3_2 = L3_2.new
     L4_2 = L55_1
-    L5_2 = A0_2
-    L6_2 = A0_2.FA8E44CA1FF4E6FA6
+    L5_2 = self
+    L6_2 = self.FA8E44CA1FF4E6FA6
     L4_2 = L4_2(L5_2, L6_2)
     L5_2 = L31_1.string
     L6_2 = L31_1.string
@@ -271,7 +264,7 @@ function L70_1(A0_2)
     L8_2 = "TreeShakeProcess("
     L7_2 = L7_2(L8_2)
     L8_2 = L31_1.string
-    L9_2 = A0_2[2]
+    L9_2 = self[2]
     L8_2 = L8_2(L9_2)
     L7_2 = L7_2 .. L8_2
     L6_2 = L6_2(L7_2)
@@ -289,18 +282,15 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA3D95A5C4A04FCFC"]["prototype"]
-L69_1 = "FEF922B92E52F7B4E"
-
-function L70_1(A0_2)
+--- main.field.gimmick.treeshake.TreeShakeProcess.laneFall
+function CA3D95A5C4A04FCFC_prototype:FEF922B92E52F7B4E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2[5]
   if nil == L1_2 then
     return
   end
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2[5]
   L2_2 = c451059A3
   L2_2 = L2_2.f5776B6C6
@@ -347,7 +337,7 @@ function L70_1(A0_2)
   L5_2 = ""
   L4_2 = L4_2(L5_2)
   L5_2 = L31_1.string
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L6_2 = L6_2[1]
   L7_2 = L6_2
   L6_2 = L6_2.fE9C29DA1
@@ -380,7 +370,7 @@ function L70_1(A0_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2)
   L5_2 = nil
   L6_2 = 0
-  L7_2 = A0_2[5]
+  L7_2 = self[5]
   L7_2 = L7_2[4]
   while true do
     L8_2 = L7_2.length
@@ -392,7 +382,7 @@ function L70_1(A0_2)
     L9_2 = nil
     L10_2 = c016374C1
     L10_2 = L10_2.f4555D276
-    L11_2 = A0_2[6]
+    L11_2 = self[6]
     L12_2 = L9_2
     L10_2 = L10_2(L11_2, L12_2)
     if L10_2 then
@@ -408,7 +398,7 @@ function L70_1(A0_2)
       L5_2 = L10_2
       break
     end
-    L10_2 = A0_2[6]
+    L10_2 = self[6]
     L11_2 = L10_2
     L10_2 = L10_2.f7360ED03
     L10_2, L11_2, L12_2 = L10_2(L11_2)
@@ -474,7 +464,7 @@ function L70_1(A0_2)
       L12_2 = L12_2(L13_2)
       L5_2 = L12_2
     else
-      L9_2 = A0_2[5]
+      L9_2 = self[5]
       L9_2 = L9_2[1]
       L10_2 = L9_2
       L9_2 = L9_2.f7360ED03
@@ -517,7 +507,7 @@ function L70_1(A0_2)
     L10_2 = nil
     L9_2(L10_2)
   end
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L9_2[5] = nil
   L9_2 = C926765D5E4B5AAA6
   L9_2 = L9_2.SDF65785DF226064F
@@ -529,7 +519,7 @@ function L70_1(A0_2)
   L12_2.id = true
   L12_2.amount = true
   L11_2.__fields__ = L12_2
-  L12_2 = A0_2[5]
+  L12_2 = self[5]
   L12_2 = L12_2[1]
   L13_2 = L12_2
   L12_2 = L12_2.fB3CF1DEB
@@ -614,7 +604,7 @@ function L70_1(A0_2)
       if not L34_2 then
         break
       end
-      L34_2 = A0_2[3]
+      L34_2 = self[3]
       L35_2 = L34_2
       L34_2 = L34_2.f22D509B2
       L36_2 = 2
@@ -647,11 +637,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA3D95A5C4A04FCFC"]["prototype"]
-L69_1 = "FA8E44CA1FF4E6FA6"
-
-function L70_1(A0_2)
+--- main.field.gimmick.treeshake.TreeShakeProcess.laneCameraShake
+function CA3D95A5C4A04FCFC_prototype:FA8E44CA1FF4E6FA6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CD84E9011D70FB8CE
   L1_2 = L1_2.new
@@ -690,7 +677,7 @@ function L70_1(A0_2)
   while true do
     L3_2 = L1_2
     L2_2 = L1_2.FEB6685558281F194
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     L2_2 = L2_2(L3_2, L4_2)
     if not L2_2 then
       break

@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C74DC0444FB7F6045"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "__name__"
-L70_1 = "C74DC0444FB7F6045"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "S988D7D0A4EEF693D"
+---@alias C74DC0444FB7F6045 main_ui_box_search_BoxSearchSortString
 
-function L70_1()
+---@class main_ui_box_search_BoxSearchSortString
+C74DC0444FB7F6045 = L15_1()
+C74DC0444FB7F6045.new = {}
+C74DC0444FB7F6045.__name__ = "C74DC0444FB7F6045"
+--- main.ui.box.search.BoxSearchSortString.Create
+function C74DC0444FB7F6045.S988D7D0A4EEF693D()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = C74DC0444FB7F6045
   L1_2 = L26_1.new
@@ -40,11 +31,8 @@ function L70_1()
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "S96EA28F400597FA0"
-
-function L70_1()
+--- main.ui.box.search.BoxSearchSortString.Reset
+function C74DC0444FB7F6045.S96EA28F400597FA0()
   local L0_2, L1_2
   L0_2 = C74DC0444FB7F6045
   L0_2.S441919DE47FAC0A4 = 0
@@ -52,11 +40,8 @@ function L70_1()
   L0_2.SFA63121A0D177D08 = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "S58B5E511D87B42D9"
-
-function L70_1()
+--- main.ui.box.search.BoxSearchSortString.LoadData
+function C74DC0444FB7F6045.S58B5E511D87B42D9()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L0_2 = C74DC0444FB7F6045
   L0_2 = L0_2.S441919DE47FAC0A4
@@ -119,11 +104,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "SEFA15549460C90C5"
-
-function L70_1()
+--- main.ui.box.search.BoxSearchSortString.DestroyData
+function C74DC0444FB7F6045.SEFA15549460C90C5()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = C74DC0444FB7F6045
   L0_2 = L0_2.SFA63121A0D177D08
@@ -180,11 +162,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "S7836BBB753DB0986"
-
-function L70_1(A0_2)
+--- main.ui.box.search.BoxSearchSortString.GetInitialPath
+function C74DC0444FB7F6045.S7836BBB753DB0986(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = L52_1.__cast
   L2_2 = A0_2
@@ -261,11 +240,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "S3ACB08298BC4CCEA"
-
-function L70_1(A0_2)
+--- main.ui.box.search.BoxSearchSortString.GetSortTablePath
+function C74DC0444FB7F6045.S3ACB08298BC4CCEA(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = L52_1.__cast
   L2_2 = A0_2
@@ -342,11 +318,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "S5B4562B15D9879D7"
-
-function L70_1(A0_2)
+--- main.ui.box.search.BoxSearchSortString.S5B4562B15D9879D7
+function C74DC0444FB7F6045.S5B4562B15D9879D7(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = L52_1.__cast
   L2_2 = A0_2
@@ -423,11 +396,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "SABA1E69DEEFA2A52"
-
-function L70_1()
+--- main.ui.box.search.BoxSearchSortString.SABA1E69DEEFA2A52
+function C74DC0444FB7F6045.SABA1E69DEEFA2A52()
   local L0_2, L1_2, L2_2
   L0_2 = cE461829E
   L0_2 = L0_2.fD0AD22FA
@@ -462,11 +432,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "S9D310FF541D87511"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.box.search.BoxSearchSortString.GetSortOrder
+function C74DC0444FB7F6045.S9D310FF541D87511(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C74DC0444FB7F6045
   L2_2 = L2_2.S8BC453B97B031C81
@@ -481,11 +448,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "S7A7AADA15D2FA713"
-
-function L70_1(A0_2)
+--- main.ui.box.search.BoxSearchSortString.GetInitialIndexLength
+function C74DC0444FB7F6045.S7A7AADA15D2FA713(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C74DC0444FB7F6045
   L1_2 = L1_2.S8BC453B97B031C81
@@ -499,11 +463,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "SBC3C09F9BD29EC5D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.box.search.BoxSearchSortString.SBC3C09F9BD29EC5D
+function C74DC0444FB7F6045.SBC3C09F9BD29EC5D(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C74DC0444FB7F6045
   L2_2 = L2_2.S8BC453B97B031C81
@@ -518,11 +479,8 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "S926E69A25ECD9C07"
-
-function L70_1()
+--- main.ui.box.search.BoxSearchSortString.GetInitialMaxNum
+function C74DC0444FB7F6045.S926E69A25ECD9C07()
   local L0_2, L1_2, L2_2
   L0_2 = C74DC0444FB7F6045
   L0_2 = L0_2.S453554722741DADA
@@ -548,11 +506,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C74DC0444FB7F6045"]
-L69_1 = "S0226BD512AF6B3C0"
-
-function L70_1(A0_2)
+--- main.ui.box.search.BoxSearchSortString.IsPokeEntry
+function C74DC0444FB7F6045.S0226BD512AF6B3C0(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.fC282EEF8

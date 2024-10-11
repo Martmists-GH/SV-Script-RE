@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C42D11EE6DC41D8CE"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "__name__"
-L70_1 = "C42D11EE6DC41D8CE"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S28D3E714EBAAAEF8"
+---@alias C42D11EE6DC41D8CE main_system_game_event_functor_GameEventFunctor
 
-function L70_1(A0_2)
+---@class main_system_game_event_functor_GameEventFunctor
+C42D11EE6DC41D8CE = L15_1()
+C42D11EE6DC41D8CE.new = {}
+C42D11EE6DC41D8CE.__name__ = "C42D11EE6DC41D8CE"
+--- main.system.game_event.functor.GameEventFunctor.GetBattleTarget
+function C42D11EE6DC41D8CE.S28D3E714EBAAAEF8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2
   L1_2 = C42D11EE6DC41D8CE
   L1_2 = L1_2.S0F8E520D715C5FFD
@@ -192,11 +183,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S57D27847C67AFB51"
-
-function L70_1(A0_2)
+--- main.system.game_event.functor.GameEventFunctor.S57D27847C67AFB51
+function C42D11EE6DC41D8CE.S57D27847C67AFB51(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2
   if nil == A0_2 then
     L1_2 = C42D11EE6DC41D8CE
@@ -551,11 +539,8 @@ function L70_1(A0_2)
   return L20_2(L21_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S2358BF83A79C55F9"
-
-function L70_1(A0_2)
+--- main.system.game_event.functor.GameEventFunctor.GetNearTargetByShapeCast
+function C42D11EE6DC41D8CE.S2358BF83A79C55F9(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S93A017D496A6D000
@@ -749,11 +734,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "SD273325C9B3C0096"
-
-function L70_1(A0_2)
+--- main.system.game_event.functor.GameEventFunctor.SD273325C9B3C0096
+function C42D11EE6DC41D8CE.SD273325C9B3C0096(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = nil
   L2_2 = c016374C1
@@ -840,11 +822,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S1312940576E50BDB"
-
-function L70_1()
+--- main.system.game_event.functor.GameEventFunctor.GetDefaultBoxCastParam
+function C42D11EE6DC41D8CE.S1312940576E50BDB()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L0_2 = CC7FC6FD7C91A0387
   L0_2 = L0_2.SB5B1C0D7DB2DD6FA
@@ -900,11 +879,8 @@ function L70_1()
   return L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S0853763CD6F330FE"
-
-function L70_1(A0_2)
+--- main.system.game_event.functor.GameEventFunctor.CheckSafetyParam
+function C42D11EE6DC41D8CE.S0853763CD6F330FE(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = CC7FC6FD7C91A0387
   L1_2 = L1_2.SB5B1C0D7DB2DD6FA
@@ -1057,11 +1033,8 @@ function L70_1(A0_2)
   return A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S0F8E520D715C5FFD"
-
-function L70_1()
+--- main.system.game_event.functor.GameEventFunctor.CheckDisableEncount
+function C42D11EE6DC41D8CE.S0F8E520D715C5FFD()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CF67A67452D018ECC
   L0_2 = L0_2.SC8223E31D3163519
@@ -1103,11 +1076,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S499F6B9153C5CB19"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.system.game_event.functor.GameEventFunctor.TakebackPartner
+function C42D11EE6DC41D8CE.S499F6B9153C5CB19(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A0_2 then
     A0_2 = true
@@ -1403,11 +1373,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S60C483D243D8A0C7"
-
-function L70_1(A0_2)
+--- main.system.game_event.functor.GameEventFunctor.S60C483D243D8A0C7
+function C42D11EE6DC41D8CE.S60C483D243D8A0C7(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S722AB07CDD6DEDA4
@@ -1449,11 +1416,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "SAB2F6E055CFB96C4"
-
-function L70_1(A0_2)
+--- main.system.game_event.functor.GameEventFunctor.TakebackBall
+function C42D11EE6DC41D8CE.SAB2F6E055CFB96C4(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   
   function L1_2(A0_3)
@@ -1602,11 +1566,8 @@ function L70_1(A0_2)
   L7_2(L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S3BB76EDEA65CBC78"
-
-function L70_1(A0_2)
+--- main.system.game_event.functor.GameEventFunctor.S3BB76EDEA65CBC78
+function C42D11EE6DC41D8CE.S3BB76EDEA65CBC78(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C896E82AC366C8E8F
   L1_2 = L1_2.S4539FBABC0D19D63
@@ -1656,11 +1617,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "SC80915825186FB9F"
-
-function L70_1(A0_2)
+--- main.system.game_event.functor.GameEventFunctor.CalcFormPartnerPosition
+function C42D11EE6DC41D8CE.SC80915825186FB9F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L1_2 = CC7FC6FD7C91A0387
   L1_2 = L1_2.SB5B1C0D7DB2DD6FA
@@ -1741,11 +1699,8 @@ function L70_1(A0_2)
   return L15_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S819B0957346191DC"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.system.game_event.functor.GameEventFunctor.GeneratePartner
+function C42D11EE6DC41D8CE.S819B0957346191DC(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A4_2 then
     A4_2 = true
@@ -1815,11 +1770,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S88B224657242CFE8"
-
-function L70_1()
+--- main.system.game_event.functor.GameEventFunctor.IsTargetingThrow
+function C42D11EE6DC41D8CE.S88B224657242CFE8()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C817643FB18D4BC60
   L0_2 = L0_2.S4D36C3A7C891612E
@@ -1838,11 +1790,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "SDF429E6FD7D843BD"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.system.game_event.functor.GameEventFunctor.CheckPokePutOut
+function C42D11EE6DC41D8CE.SDF429E6FD7D843BD(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2
   if nil == A3_2 then
     A3_2 = 8
@@ -2041,11 +1990,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L21_2(L22_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S65B552EBBCE23321"
-
-function L70_1(A0_2)
+--- main.system.game_event.functor.GameEventFunctor.GetBodyWidth
+function C42D11EE6DC41D8CE.S65B552EBBCE23321(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = cBD65D1E2
   L1_2 = L1_2.f78B3A176
@@ -2068,11 +2014,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S45AB5758A39E7DA2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.system.game_event.functor.GameEventFunctor.CallThrowBallEvent
+function C42D11EE6DC41D8CE.S45AB5758A39E7DA2(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2
   if nil == A4_2 then
     A4_2 = true
@@ -2089,11 +2032,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "SE870A3DA47D30DB7"
-
-function L70_1()
+--- main.system.game_event.functor.GameEventFunctor.SE870A3DA47D30DB7
+function C42D11EE6DC41D8CE.SE870A3DA47D30DB7()
   local L0_2, L1_2, L2_2
   L0_2 = C0BA32C14E3E6BD60
   L0_2 = L0_2.SBC7920FCE90889AE
@@ -2111,11 +2051,8 @@ function L70_1()
   L0_2(L1_2, L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "SE2448C74A0D2B134"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.system.game_event.functor.GameEventFunctor.TryWildBattle
+function C42D11EE6DC41D8CE.SE2448C74A0D2B134(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = C42D11EE6DC41D8CE
   L3_2 = L3_2.S8E09B6DDB1595B28
@@ -2141,11 +2078,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S8E09B6DDB1595B28"
-
-function L70_1(A0_2)
+--- main.system.game_event.functor.GameEventFunctor.BattleStartWait
+function C42D11EE6DC41D8CE.S8E09B6DDB1595B28(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = nil
   L2_2 = c016374C1
@@ -2260,11 +2194,8 @@ function L70_1(A0_2)
   return L10_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "SFDCDFBFCB0B2D788"
-
-function L70_1(A0_2)
+--- main.system.game_event.functor.GameEventFunctor.IsPokeUnstable
+function C42D11EE6DC41D8CE.SFDCDFBFCB0B2D788(A0_2)
   local L1_2, L2_2
   L1_2 = c2CA78EB7
   L1_2 = L1_2.fB9FC0833
@@ -2274,11 +2205,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S1D06D154A4C4A101"
-
-function L70_1(A0_2)
+--- main.system.game_event.functor.GameEventFunctor.S1D06D154A4C4A101
+function C42D11EE6DC41D8CE.S1D06D154A4C4A101(A0_2)
   local L1_2, L2_2
   L1_2 = c2CA78EB7
   L1_2 = L1_2.fB9FC0833
@@ -2288,11 +2216,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S198188BEE0D950D4"
-
-function L70_1(A0_2)
+--- main.system.game_event.functor.GameEventFunctor.S198188BEE0D950D4
+function C42D11EE6DC41D8CE.S198188BEE0D950D4(A0_2)
   local L1_2, L2_2
   L1_2 = c2CA78EB7
   L1_2 = L1_2.fB9FC0833
@@ -2302,11 +2227,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C42D11EE6DC41D8CE"]
-L69_1 = "S0AE8C4C98A69D8A5"
-
-function L70_1(A0_2, A1_2)
+--- main.system.game_event.functor.GameEventFunctor.S0AE8C4C98A69D8A5
+function C42D11EE6DC41D8CE.S0AE8C4C98A69D8A5(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A0_2
   L2_2 = A0_2.f908F485A

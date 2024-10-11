@@ -1,3 +1,7 @@
+---@alias C60A5749749E74021 main_management_tips_TipsData
+
+---@class main_management_tips_TipsData : C60A5749749E74021_prototype
+---@field prototype C60A5749749E74021_prototype
 L55_1 = _ENV
 L56_1 = "C60A5749749E74021"
 L57_1 = L15_1
@@ -162,78 +166,55 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C60A5749749E74021"]
 L69_1 = "__name__"
 L70_1 = "C60A5749749E74021"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A5749749E74021"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A5749749E74021"]["prototype"]
-L69_1 = "F7390ABD8A48AA4C5"
-
-function L70_1(A0_2)
+---@class C60A5749749E74021_prototype
+C60A5749749E74021_prototype = L15_1()
+C60A5749749E74021.prototype = C60A5749749E74021_prototype
+--- main.management.tips.TipsData.get_id
+function C60A5749749E74021_prototype:F7390ABD8A48AA4C5()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A5749749E74021"]["prototype"]
-L69_1 = "FA3CBD61524085914"
-
-function L70_1(A0_2)
+--- main.management.tips.TipsData.get_sortnum
+function C60A5749749E74021_prototype:FA3CBD61524085914()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A5749749E74021"]["prototype"]
-L69_1 = "FDB8B99A4F6610FD6"
-
-function L70_1(A0_2)
+--- main.management.tips.TipsData.get_listtitle
+function C60A5749749E74021_prototype:FDB8B99A4F6610FD6()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A5749749E74021"]["prototype"]
-L69_1 = "F3B51E007EC8E5EBC"
-
-function L70_1(A0_2)
+--- main.management.tips.TipsData.get_page_data
+function C60A5749749E74021_prototype:F3B51E007EC8E5EBC()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A5749749E74021"]["prototype"]
-L69_1 = "FD26E50F33CE37502"
-
-function L70_1(A0_2)
+--- main.management.tips.TipsData.get_page_max
+function C60A5749749E74021_prototype:FD26E50F33CE37502()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A5749749E74021"]["prototype"]
-L69_1 = "F9CEAF416C5F33E5B"
-
-function L70_1(A0_2)
+--- main.management.tips.TipsData.F9CEAF416C5F33E5B
+function C60A5749749E74021_prototype:F9CEAF416C5F33E5B()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C60A5749749E74021"]["prototype"]
-L69_1 = "F6E4885159B9B973D"
-
-function L70_1(A0_2)
+--- main.management.tips.TipsData.F6E4885159B9B973D
+function C60A5749749E74021_prototype:F6E4885159B9B973D()
   local L1_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   return L1_2
 end
 

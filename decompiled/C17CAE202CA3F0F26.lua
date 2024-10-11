@@ -1,3 +1,7 @@
+---@alias CBDB9411EA04F70F3 main_ui_btlspot_state_machine_normal_BattleSpotStateRetrySelect
+
+---@class main_ui_btlspot_state_machine_normal_BattleSpotStateRetrySelect : CBDB9411EA04F70F3_prototype
+---@field prototype CBDB9411EA04F70F3_prototype
 L55_1 = _ENV
 L56_1 = "C17CAE202CA3F0F26"
 L57_1 = L15_1
@@ -42,11 +46,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C17CAE202CA3F0F26"]
 L69_1 = "__name__"
 L70_1 = "C17CAE202CA3F0F26"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C17CAE202CA3F0F26"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CBDB9411EA04F70F3_prototype
+CBDB9411EA04F70F3_prototype = L15_1()
+CBDB9411EA04F70F3.prototype = CBDB9411EA04F70F3_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C17CAE202CA3F0F26"]["prototype"]
 L69_1 = _ENV["C17CAE202CA3F0F26"]

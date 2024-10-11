@@ -1,3 +1,5 @@
+---@class C3C42920E4D426DF3 : C3C42920E4D426DF3_prototype
+---@field prototype C3C42920E4D426DF3_prototype
 L55_1 = _ENV
 L56_1 = "C3C42920E4D426DF3"
 L57_1 = L15_1
@@ -45,16 +47,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3C42920E4D426DF3"]
 L69_1 = "__name__"
 L70_1 = "C3C42920E4D426DF3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C42920E4D426DF3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C42920E4D426DF3"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C3C42920E4D426DF3_prototype
+C3C42920E4D426DF3_prototype = L15_1()
+C3C42920E4D426DF3.prototype = C3C42920E4D426DF3_prototype
+--- C3C42920E4D426DF3.mainBody
+function C3C42920E4D426DF3_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = c2FB59E8B
   L1_2 = L1_2.fBF27F333
@@ -154,12 +151,12 @@ function L70_1(A0_2)
   L2_2 = L2_2.S633B1FC9F4C83E16
   L2_2 = L2_2()
   if not L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FFA6FA6D5A8CAB14B
+    L3_2 = self
+    L2_2 = self.FFA6FA6D5A8CAB14B
     L2_2(L3_2)
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F6F4D732466C2CD82
+  L3_2 = self
+  L2_2 = self.F6F4D732466C2CD82
   L4_2 = "club_itemmachine_msg_start_00"
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
@@ -222,11 +219,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C42920E4D426DF3"]["prototype"]
-L69_1 = "F80723D85841C2C04"
-
-function L70_1(A0_2)
+--- C3C42920E4D426DF3.F80723D85841C2C04
+function C3C42920E4D426DF3_prototype:F80723D85841C2C04()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2
   L1_2 = C07E4F1BF071B0460
   L1_2 = L1_2.S218E2A14A790D265
@@ -354,11 +348,8 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C42920E4D426DF3"]["prototype"]
-L69_1 = "FFA6FA6D5A8CAB14B"
-
-function L70_1(A0_2)
+--- C3C42920E4D426DF3.FFA6FA6D5A8CAB14B
+function C3C42920E4D426DF3_prototype:FFA6FA6D5A8CAB14B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
   while L1_2 < 8 do
@@ -388,11 +379,8 @@ function L70_1(A0_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3C42920E4D426DF3"]["prototype"]
-L69_1 = "F6F4D732466C2CD82"
-
-function L70_1(A0_2, A1_2)
+--- C3C42920E4D426DF3.F6F4D732466C2CD82
+function C3C42920E4D426DF3_prototype:F6F4D732466C2CD82(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = false
   L3_2 = C9B54BC04DD492B6D
@@ -416,8 +404,8 @@ function L70_1(A0_2, A1_2)
   L9_2 = L9_2.SCBF332335E9D8363
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
   if 0 == L3_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F80723D85841C2C04
+    L5_2 = self
+    L4_2 = self.F80723D85841C2C04
     L4_2 = L4_2(L5_2)
     L2_2 = L4_2
   elseif 1 == L3_2 then
@@ -425,8 +413,8 @@ function L70_1(A0_2, A1_2)
     L4_2 = L4_2.S7EED485852A4D25F
     L4_2 = L4_2()
     if L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.F6F4D732466C2CD82
+      L5_2 = self
+      L4_2 = self.F6F4D732466C2CD82
       L6_2 = "club_itemmachine_msg_start_00"
       L4_2 = L4_2(L5_2, L6_2)
       L2_2 = L4_2

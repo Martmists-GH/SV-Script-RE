@@ -1,3 +1,7 @@
+---@alias C6933C9F71C84FAAF main_ui_util_uikit_CursorSequence
+
+---@class main_ui_util_uikit_CursorSequence : C6933C9F71C84FAAF_prototype
+---@field prototype C6933C9F71C84FAAF_prototype
 L55_1 = _ENV
 L56_1 = "C30583F4B9352F95C"
 L57_1 = L15_1
@@ -33,11 +37,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C30583F4B9352F95C"]
 L69_1 = "__name__"
 L70_1 = "C30583F4B9352F95C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C30583F4B9352F95C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C6933C9F71C84FAAF_prototype
+C6933C9F71C84FAAF_prototype = L15_1()
+C6933C9F71C84FAAF.prototype = C6933C9F71C84FAAF_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C30583F4B9352F95C"]["prototype"]
 L69_1 = _ENV["C30583F4B9352F95C"]

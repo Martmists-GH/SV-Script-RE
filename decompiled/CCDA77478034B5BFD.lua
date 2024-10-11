@@ -1,3 +1,5 @@
+---@class CCDA77478034B5BFD : CCDA77478034B5BFD_prototype
+---@field prototype CCDA77478034B5BFD_prototype
 L55_1 = _ENV
 L56_1 = "CCDA77478034B5BFD"
 L57_1 = L15_1
@@ -55,19 +57,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CCDA77478034B5BFD"]
 L69_1 = "__name__"
 L70_1 = "CCDA77478034B5BFD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCDA77478034B5BFD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCDA77478034B5BFD"]["prototype"]
-L69_1 = "FB4B5759D65F5972C"
-
-function L70_1(A0_2, A1_2)
+---@class CCDA77478034B5BFD_prototype
+CCDA77478034B5BFD_prototype = L15_1()
+CCDA77478034B5BFD.prototype = CCDA77478034B5BFD_prototype
+--- CCDA77478034B5BFD.OnLoad
+function CCDA77478034B5BFD_prototype:FB4B5759D65F5972C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -93,7 +90,7 @@ function L70_1(A0_2, A1_2)
     L8_2 = L6_2.gameTime
     L7_2 = L7_2(L8_2)
     if not (L7_2 < 0) then
-      L8_2 = A0_2[1]
+      L8_2 = self[1]
       L9_2 = c37452BA0
       L9_2 = L9_2.f3E8B89D7
       L10_2 = L6_2.fieldId
@@ -123,14 +120,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCDA77478034B5BFD"]["prototype"]
-L69_1 = "FD116FBCCD47245CD"
-
-function L70_1(A0_2, A1_2)
+--- CCDA77478034B5BFD.FD116FBCCD47245CD
+function CCDA77478034B5BFD_prototype:FD116FBCCD47245CD(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = 0
   while true do
     L5_2 = L3_2.length
@@ -190,24 +184,21 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCDA77478034B5BFD"]["prototype"]
-L69_1 = "FBD78BFF64876E883"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- CCDA77478034B5BFD.FBD78BFF64876E883
+function CCDA77478034B5BFD_prototype:FBD78BFF64876E883(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L5_2 = A0_2
-  L4_2 = A0_2.F704D3C6F8FF5E83A
+  L5_2 = self
+  L4_2 = self.F704D3C6F8FF5E83A
   L6_2 = A1_2
   L7_2 = A3_2
   L4_2 = L4_2(L5_2, L6_2, L7_2)
   if nil == L4_2 then
     if "Temporary" ~= A3_2 then
-      L6_2 = A0_2
-      L5_2 = A0_2.F9116A28DD1AE8A57
+      L6_2 = self
+      L5_2 = self.F9116A28DD1AE8A57
       L5_2(L6_2)
     end
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[A1_2]
     L6_2 = L5_2
     L5_2 = L5_2.push
@@ -223,19 +214,19 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L5_2(L6_2, L7_2, L8_2, L9_2)
   else
     L4_2.gameTime = A2_2
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[A1_2]
     L6_2 = L5_2
     L5_2 = L5_2.first
     L5_2 = L5_2(L6_2)
     if L4_2 ~= L5_2 then
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L5_2 = L5_2[A1_2]
       L6_2 = L5_2
       L5_2 = L5_2.remove
       L7_2 = L4_2
       L5_2(L6_2, L7_2)
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L5_2 = L5_2[A1_2]
       L6_2 = L5_2
       L5_2 = L5_2.push
@@ -245,15 +236,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCDA77478034B5BFD"]["prototype"]
-L69_1 = "F9116A28DD1AE8A57"
-
-function L70_1(A0_2)
+--- CCDA77478034B5BFD.F9116A28DD1AE8A57
+function CCDA77478034B5BFD_prototype:F9116A28DD1AE8A57()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -274,13 +262,10 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCDA77478034B5BFD"]["prototype"]
-L69_1 = "F6ACB4C9030C25D6A"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CCDA77478034B5BFD.F6ACB4C9030C25D6A
+function CCDA77478034B5BFD_prototype:F6ACB4C9030C25D6A(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[A1_2]
   L3_2 = L3_2.h
   while nil ~= L3_2 do
@@ -288,7 +273,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L3_2 = L3_2.next
     L5_2 = L4_2.situation
     if L5_2 == A2_2 then
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L5_2 = L5_2[A1_2]
       L6_2 = L5_2
       L5_2 = L5_2.remove
@@ -299,30 +284,24 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCDA77478034B5BFD"]["prototype"]
-L69_1 = "FA037928829491EB1"
-
-function L70_1(A0_2, A1_2)
+--- CCDA77478034B5BFD.FA037928829491EB1
+function CCDA77478034B5BFD_prototype:FA037928829491EB1(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[A1_2]
   L3_2 = L2_2
   L2_2 = L2_2.clear
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCDA77478034B5BFD"]["prototype"]
-L69_1 = "F92B6AA2B0EB00079"
-
-function L70_1(A0_2, A1_2)
+--- CCDA77478034B5BFD.F92B6AA2B0EB00079
+function CCDA77478034B5BFD_prototype:F92B6AA2B0EB00079(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[A1_2]
   L2_2 = L2_2.length
   if L2_2 > 0 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L2_2 = L2_2[A1_2]
     L3_2 = L2_2
     L2_2 = L2_2.first
@@ -335,13 +314,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCDA77478034B5BFD"]["prototype"]
-L69_1 = "F704D3C6F8FF5E83A"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CCDA77478034B5BFD.find
+function CCDA77478034B5BFD_prototype:F704D3C6F8FF5E83A(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[A1_2]
   L3_2 = L3_2.h
   while nil ~= L3_2 do

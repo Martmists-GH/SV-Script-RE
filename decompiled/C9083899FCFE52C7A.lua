@@ -1,3 +1,7 @@
+---@alias C9083899FCFE52C7A main_nushi_wall_HaganeNushiWall
+
+---@class main_nushi_wall_HaganeNushiWall : C9083899FCFE52C7A_prototype
+---@field prototype C9083899FCFE52C7A_prototype
 L55_1 = _ENV
 L56_1 = "C9083899FCFE52C7A"
 L57_1 = L15_1
@@ -42,26 +46,18 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9083899FCFE52C7A"]
 L69_1 = "__name__"
 L70_1 = "C9083899FCFE52C7A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9083899FCFE52C7A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9083899FCFE52C7A"]["prototype"]
-L69_1 = "F3C28E641EBC0B5F6"
-
-function L70_1(A0_2, A1_2)
+---@class C9083899FCFE52C7A_prototype
+C9083899FCFE52C7A_prototype = L15_1()
+C9083899FCFE52C7A.prototype = C9083899FCFE52C7A_prototype
+--- main.nushi.wall.HaganeNushiWall.setup
+function C9083899FCFE52C7A_prototype:F3C28E641EBC0B5F6(A1_2)
   local L2_2
   L2_2 = C9083899FCFE52C7A
-  L2_2.S7D1E199BBD384D72 = A0_2
+  L2_2.S7D1E199BBD384D72 = self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9083899FCFE52C7A"]["prototype"]
-L69_1 = "F41AF6AC6ADB3B725"
-
-function L70_1(A0_2)
+--- main.nushi.wall.HaganeNushiWall.destroy
+function C9083899FCFE52C7A_prototype:F41AF6AC6ADB3B725()
   local L1_2
   L1_2 = C9083899FCFE52C7A
   L1_2 = L1_2.S7D1E199BBD384D72

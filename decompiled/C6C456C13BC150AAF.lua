@@ -1,3 +1,7 @@
+---@alias C6C456C13BC150AAF main_field_action_ActionDoorOpenMove
+
+---@class main_field_action_ActionDoorOpenMove : C6C456C13BC150AAF_prototype
+---@field prototype C6C456C13BC150AAF_prototype
 L55_1 = _ENV
 L56_1 = "C6C456C13BC150AAF"
 L57_1 = L15_1
@@ -43,61 +47,50 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6C456C13BC150AAF"]
 L69_1 = "__name__"
 L70_1 = "C6C456C13BC150AAF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C456C13BC150AAF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C456C13BC150AAF"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C6C456C13BC150AAF_prototype
+C6C456C13BC150AAF_prototype = L15_1()
+C6C456C13BC150AAF.prototype = C6C456C13BC150AAF_prototype
+--- main.field.action.ActionDoorOpenMove.onCreate
+function C6C456C13BC150AAF_prototype:FC87C731D11C58354()
   local L1_2, L2_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2.useCoroutine = true
   L1_2 = L58_1
-  L2_2 = A0_2[16]
+  L2_2 = self[16]
   L2_2 = L2_2.duration
   L1_2 = L1_2(L2_2)
-  A0_2[17] = L1_2
-  A0_2[18] = 0.0
+  self[17] = L1_2
+  self[18] = 0.0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C456C13BC150AAF"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.ActionDoorOpenMove.onPreUpdate
+function C6C456C13BC150AAF_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2
   while true do
-    L1_2 = A0_2[18]
-    L2_2 = A0_2[17]
+    L1_2 = self[18]
+    L2_2 = self[17]
     if not (L1_2 < L2_2) then
       break
     end
     L1_2 = C1DB14DCC9D7634FA
     L1_2 = L1_2.S760DAE4C5371A78E
     L1_2()
-    L1_2 = A0_2[18]
+    L1_2 = self[18]
     L2_2 = C075A638F130352C3
     L2_2 = L2_2.S44460EB93267F798
     L1_2 = L1_2 + L2_2
-    A0_2[18] = L1_2
-    L2_2 = A0_2
-    L1_2 = A0_2.FAFA84AD17827E40D
-    L3_2 = A0_2[18]
+    self[18] = L1_2
+    L2_2 = self
+    L1_2 = self.FAFA84AD17827E40D
+    L3_2 = self[18]
     L1_2(L2_2, L3_2)
   end
   L1_2 = 2
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C456C13BC150AAF"]["prototype"]
-L69_1 = "FAFA84AD17827E40D"
-
-function L70_1(A0_2, A1_2)
+--- main.field.action.ActionDoorOpenMove.playerMove
+function C6C456C13BC150AAF_prototype:FAFA84AD17827E40D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L2_2 = L31_1.int
   L3_2 = A1_2 / 0.03333333
@@ -106,10 +99,10 @@ function L70_1(A0_2, A1_2)
     L3_2 = C6C456C13BC150AAF
     L3_2 = L3_2.S14913D63E6505954
     L3_2 = L3_2[L2_2]
-    L4_2 = A0_2[16]
+    L4_2 = self[16]
     L4_2 = L4_2.doorObj
     if nil ~= L4_2 then
-      L4_2 = A0_2[16]
+      L4_2 = self[16]
       L4_2 = L4_2.doorObj
       L4_2 = L4_2.owner
       L5_2 = L4_2
@@ -124,7 +117,7 @@ function L70_1(A0_2, A1_2)
       L7_2 = L4_2
       L8_2 = L5_2
       L9_2 = L6_2
-      L10_2 = A0_2[16]
+      L10_2 = self[16]
       L11_2 = L10_2.player
       L12_2 = L10_2.player
       L12_2 = L12_2.owner

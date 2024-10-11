@@ -1,3 +1,5 @@
+---@class C344CBD20AFB4438D : C344CBD20AFB4438D_prototype
+---@field prototype C344CBD20AFB4438D_prototype
 L55_1 = _ENV
 L56_1 = "C344CBD20AFB4438D"
 L57_1 = L15_1
@@ -45,30 +47,22 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C344CBD20AFB4438D"]
 L69_1 = "__name__"
 L70_1 = "C344CBD20AFB4438D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C344CBD20AFB4438D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C344CBD20AFB4438D"]["prototype"]
-L69_1 = "F09075E27AFC0234D"
-
-function L70_1(A0_2, A1_2)
-  A0_2[2] = A1_2
+---@class C344CBD20AFB4438D_prototype
+C344CBD20AFB4438D_prototype = L15_1()
+C344CBD20AFB4438D.prototype = C344CBD20AFB4438D_prototype
+--- C344CBD20AFB4438D.F09075E27AFC0234D
+function C344CBD20AFB4438D_prototype:F09075E27AFC0234D(A1_2)
+  self[2] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C344CBD20AFB4438D"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- C344CBD20AFB4438D.Update
+function C344CBD20AFB4438D_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.FC7612CB88D1EA432
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.F3F928913341F6309
   L3_2 = L3_2(L4_2)
@@ -96,7 +90,7 @@ function L70_1(A0_2, A1_2)
   L20_2 = L2_2
   L19_2 = L2_2.f7360ED03
   L19_2, L20_2, L21_2 = L19_2(L20_2)
-  L22_2 = A0_2[2]
+  L22_2 = self[2]
   L23_2 = {}
   L24_2 = L10_2 * L22_2
   L24_2 = L24_2 * A1_2
@@ -135,14 +129,14 @@ function L70_1(A0_2, A1_2)
     L27_2 = L3_2[2]
     L28_2 = L3_2[3]
     L24_2(L25_2, L26_2, L27_2, L28_2)
-    L24_2 = A0_2[1]
+    L24_2 = self[1]
     L25_2 = L24_2
     L24_2 = L24_2.F6C9A7645A68BE41A
     L24_2(L25_2)
-    L24_2 = A0_2[1]
+    L24_2 = self[1]
     L25_2 = L24_2
     L24_2 = L24_2.F28EAF3B3AA178E3E
-    L26_2 = A0_2[1]
+    L26_2 = self[1]
     L26_2 = L26_2[11]
     L24_2(L25_2, L26_2)
   else

@@ -1,3 +1,7 @@
+---@alias CA5B0A01E53956BAF main_ui_status_state_machine_skill_StatusStateSkillRemember
+
+---@class main_ui_status_state_machine_skill_StatusStateSkillRemember : CA5B0A01E53956BAF_prototype
+---@field prototype CA5B0A01E53956BAF_prototype
 L55_1 = _ENV
 L56_1 = "CA5B0A01E53956BAF"
 L57_1 = L15_1
@@ -40,18 +44,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA5B0A01E53956BAF"]
 L69_1 = "__name__"
 L70_1 = "CA5B0A01E53956BAF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5B0A01E53956BAF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5B0A01E53956BAF"]["prototype"]
-L69_1 = "F46013EC08BDF7153"
-
-function L70_1(A0_2)
+---@class CA5B0A01E53956BAF_prototype
+CA5B0A01E53956BAF_prototype = L15_1()
+CA5B0A01E53956BAF.prototype = CA5B0A01E53956BAF_prototype
+--- main.ui.status.state_machine.skill.StatusStateSkillRemember.Entry
+function CA5B0A01E53956BAF_prototype:F46013EC08BDF7153()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C652C225D53D1B872
   L2_2 = L2_2.S511DEF29717431A3
   L2_2 = L2_2()
@@ -488,11 +487,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA5B0A01E53956BAF"]["prototype"]
-L69_1 = "F2C02645014D5A2A5"
-
-function L70_1(A0_2)
+--- main.ui.status.state_machine.skill.StatusStateSkillRemember.Exit
+function CA5B0A01E53956BAF_prototype:F2C02645014D5A2A5()
   local L1_2, L2_2
   L1_2 = C3A36506FBC96ACBD
   L1_2 = L1_2.SC6181320B46854EE

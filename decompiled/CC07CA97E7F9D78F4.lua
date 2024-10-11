@@ -1,3 +1,5 @@
+---@class CC07CA97E7F9D78F4 : CC07CA97E7F9D78F4_prototype
+---@field prototype CC07CA97E7F9D78F4_prototype
 L55_1 = _ENV
 L56_1 = "CC07CA97E7F9D78F4"
 L57_1 = L15_1
@@ -69,78 +71,67 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC07CA97E7F9D78F4"]
 L69_1 = "__name__"
 L70_1 = "CC07CA97E7F9D78F4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC07CA97E7F9D78F4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC07CA97E7F9D78F4"]["prototype"]
-L69_1 = "FF9E8E3E36F421C45"
-
-function L70_1(A0_2)
+---@class CC07CA97E7F9D78F4_prototype
+CC07CA97E7F9D78F4_prototype = L15_1()
+CC07CA97E7F9D78F4.prototype = CC07CA97E7F9D78F4_prototype
+--- CC07CA97E7F9D78F4.FF9E8E3E36F421C45
+function CC07CA97E7F9D78F4_prototype:FF9E8E3E36F421C45()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC07CA97E7F9D78F4"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2, A1_2)
+--- CC07CA97E7F9D78F4.Reset
+function CC07CA97E7F9D78F4_prototype:F96EA28F400597FA0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[1]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L4_2 = L2_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[1]
     L6_2 = A1_2[L4_2]
     L5_2[L4_2] = L6_2
   end
   L4_2 = 0
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2[2]
   L5_2 = L5_2.length
   while L4_2 < L5_2 do
     L4_2 = L4_2 + 1
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[2]
     L7_2 = L4_2 - 1
     L6_2[L7_2] = 0
   end
   L6_2 = 0
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L7_2 = L7_2[0]
   L7_2 = L7_2.length
   while L6_2 < L7_2 do
     L6_2 = L6_2 + 1
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L8_2 = L8_2[0]
     L9_2 = L6_2 - 1
     L8_2[L9_2] = 0
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC07CA97E7F9D78F4"]["prototype"]
-L69_1 = "F852BCD89E06A2905"
-
-function L70_1(A0_2, A1_2)
+--- CC07CA97E7F9D78F4.F852BCD89E06A2905
+function CC07CA97E7F9D78F4_prototype:F852BCD89E06A2905(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CC9D1BDB320C003DA
   L2_2 = L2_2.S56A6F8A303FFE248
   L3_2 = A1_2
   L4_2 = "[FruitsViewSupporter] IsClearColor : color is over range..."
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[1]
   L2_2 = L2_2[A1_2]
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[2]
   L3_2 = L3_2[A1_2]
   L4_2 = L3_2 < 0
@@ -153,105 +144,90 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC07CA97E7F9D78F4"]["prototype"]
-L69_1 = "F2358D5B0CC03064F"
-
-function L70_1(A0_2, A1_2)
+--- CC07CA97E7F9D78F4.F2358D5B0CC03064F
+function CC07CA97E7F9D78F4_prototype:F2358D5B0CC03064F(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CC9D1BDB320C003DA
   L2_2 = L2_2.S56A6F8A303FFE248
   L3_2 = A1_2
   L4_2 = "[FruitsViewSupporter] IsJustNeedNumToStorageNum : color is over range..."
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[1]
   L2_2 = L2_2[A1_2]
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[2]
   L3_2 = L3_2[A1_2]
   L2_2 = L2_2 == L3_2
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC07CA97E7F9D78F4"]["prototype"]
-L69_1 = "FCE25070892D46E56"
-
-function L70_1(A0_2, A1_2)
+--- CC07CA97E7F9D78F4.FCE25070892D46E56
+function CC07CA97E7F9D78F4_prototype:FCE25070892D46E56(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CC9D1BDB320C003DA
   L2_2 = L2_2.S56A6F8A303FFE248
   L3_2 = A1_2
   L4_2 = "[FruitsViewSupporter] OnCrashBalloon : color is over range..."
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[0]
   L3_2 = L2_2[A1_2]
   L3_2 = L3_2 + 1
   L2_2[A1_2] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC07CA97E7F9D78F4"]["prototype"]
-L69_1 = "FDA889B72B2C16758"
-
-function L70_1(A0_2, A1_2)
+--- CC07CA97E7F9D78F4.FDA889B72B2C16758
+function CC07CA97E7F9D78F4_prototype:FDA889B72B2C16758(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CC9D1BDB320C003DA
   L2_2 = L2_2.S56A6F8A303FFE248
   L3_2 = A1_2
   L4_2 = "[FruitsViewSupporter] OnOblation : color is over range..."
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[0]
   L2_2 = L2_2[A1_2]
   if 0 == L2_2 then
     return
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[0]
   L3_2 = L2_2[A1_2]
   L3_2 = L3_2 - 1
   L2_2[A1_2] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC07CA97E7F9D78F4"]["prototype"]
-L69_1 = "F8F5EC534C6723DA0"
-
-function L70_1(A0_2, A1_2)
+--- CC07CA97E7F9D78F4.F8F5EC534C6723DA0
+function CC07CA97E7F9D78F4_prototype:F8F5EC534C6723DA0(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CC9D1BDB320C003DA
   L2_2 = L2_2.S56A6F8A303FFE248
   L3_2 = A1_2
   L4_2 = "[FruitsViewSupporter] OnAddStorage : color is over range..."
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[2]
   L3_2 = L2_2[A1_2]
   L3_2 = L3_2 + 1
   L2_2[A1_2] = L3_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[2]
   L3_2 = L3_2[A1_2]
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC07CA97E7F9D78F4"]["prototype"]
-L69_1 = "F214C1CBB9948C146"
-
-function L70_1(A0_2)
+--- CC07CA97E7F9D78F4.F214C1CBB9948C146
+function CC07CA97E7F9D78F4_prototype:F214C1CBB9948C146()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[0]
   L3_2 = L3_2.length
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L4_2 = L4_2[0]
     L5_2 = L2_2 - 1
     L4_2 = L4_2[L5_2]
@@ -260,13 +236,10 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC07CA97E7F9D78F4"]["prototype"]
-L69_1 = "F4E804A7EC852E4F9"
-
-function L70_1(A0_2)
+--- CC07CA97E7F9D78F4.F4E804A7EC852E4F9
+function CC07CA97E7F9D78F4_prototype:F4E804A7EC852E4F9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L1_2 = L1_2[0]
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -310,12 +283,12 @@ function L70_1(A0_2)
     return L4_2
   end
   L4_2 = 0
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2[0]
   L5_2 = L5_2.length
   while L4_2 < L5_2 do
     L4_2 = L4_2 + 1
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[0]
     L7_2 = L4_2 - 1
     L6_2[L7_2] = 0
@@ -324,13 +297,10 @@ function L70_1(A0_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC07CA97E7F9D78F4"]["prototype"]
-L69_1 = "F327C2342231C87BA"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- CC07CA97E7F9D78F4.OnEat
+function CC07CA97E7F9D78F4_prototype:F327C2342231C87BA(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[2]
   L3_2 = L3_2[A1_2]
   L4_2 = A2_2 < 0
@@ -353,18 +323,18 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L5_2 = L5_2()
   if L5_2 then
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[2]
     L5_2[A1_2] = 0
     L5_2 = 0
     return L5_2
   end
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2[2]
   L6_2 = L5_2[A1_2]
   L6_2 = L6_2 - A2_2
   L5_2[A1_2] = L6_2
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L6_2 = L6_2[2]
   L6_2 = L6_2[A1_2]
   return L6_2

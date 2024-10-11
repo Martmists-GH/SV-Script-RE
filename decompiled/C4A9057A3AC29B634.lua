@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C4A9057A3AC29B634"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C4A9057A3AC29B634"]
-L69_1 = "new"
+---@alias C4A9057A3AC29B634 main_nushi_NushiJitterMotion
 
-function L70_1()
+---@class main_nushi_NushiJitterMotion : C4A9057A3AC29B634_prototype
+---@field prototype C4A9057A3AC29B634_prototype
+C4A9057A3AC29B634 = L15_1()
+function C4A9057A3AC29B634.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C4A9057A3AC29B634
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4A9057A3AC29B634"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C4A9057A3AC29B634
+function C4A9057A3AC29B634.super(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = cD5675BA5
   L1_2 = L1_2.f0151A26E
@@ -66,11 +60,7 @@ function L70_1(A0_2)
   A0_2[1] = 0.2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4A9057A3AC29B634"]
-L69_1 = "__name__"
-L70_1 = "C4A9057A3AC29B634"
-L68_1[L69_1] = L70_1
+C4A9057A3AC29B634.__name__ = "C4A9057A3AC29B634"
 L68_1 = _ENV["C4A9057A3AC29B634"]
 L69_1 = "SB08933267E570984"
 
@@ -101,27 +91,22 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4A9057A3AC29B634"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4A9057A3AC29B634"]["prototype"]
-L69_1 = "F7CD5FEDB7A083576"
-
-function L70_1(A0_2)
+---@class C4A9057A3AC29B634_prototype
+C4A9057A3AC29B634_prototype = L15_1()
+C4A9057A3AC29B634.prototype = C4A9057A3AC29B634_prototype
+--- main.nushi.NushiJitterMotion.SetUp
+function C4A9057A3AC29B634_prototype:F7CD5FEDB7A083576()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = L10_1.math
   L1_2 = L1_2.random
   L1_2 = L1_2()
   L1_2 = L1_2 * 10.0
-  A0_2[9] = L1_2
+  self[9] = L1_2
   L1_2 = L10_1.math
   L1_2 = L1_2.random
   L1_2 = L1_2()
   L1_2 = L1_2 * 10.0
-  A0_2[10] = L1_2
+  self[10] = L1_2
   L1_2 = L10_1.math
   L1_2 = L1_2.random
   L1_2 = L1_2()
@@ -151,7 +136,7 @@ function L70_1(A0_2)
   L2_2[11] = L13_2
   L2_2[12] = L14_2
   L2_2[13] = L15_2
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L3_2[0] = L2_2
   L3_2 = L10_1.math
   L3_2 = L3_2.random
@@ -180,7 +165,7 @@ function L70_1(A0_2)
   L4_2[9] = L13_2
   L4_2[10] = L14_2
   L4_2[11] = L15_2
-  L5_2 = A0_2[11]
+  L5_2 = self[11]
   L5_2[1] = L4_2
   L5_2 = L10_1.math
   L5_2 = L5_2.random
@@ -207,7 +192,7 @@ function L70_1(A0_2)
   L6_2[7] = L13_2
   L6_2[8] = L14_2
   L6_2[9] = L15_2
-  L7_2 = A0_2[11]
+  L7_2 = self[11]
   L7_2[2] = L6_2
   L7_2 = L10_1.math
   L7_2 = L7_2.random
@@ -232,7 +217,7 @@ function L70_1(A0_2)
   L8_2[5] = L13_2
   L8_2[6] = L14_2
   L8_2[7] = L15_2
-  L9_2 = A0_2[11]
+  L9_2 = self[11]
   L9_2[3] = L8_2
   L9_2 = L10_1.math
   L9_2 = L9_2.random
@@ -255,7 +240,7 @@ function L70_1(A0_2)
   L10_2[3] = L13_2
   L10_2[4] = L14_2
   L10_2[5] = L15_2
-  L11_2 = A0_2[11]
+  L11_2 = self[11]
   L11_2[4] = L10_2
   L11_2 = L10_1.math
   L11_2 = L11_2.random
@@ -276,15 +261,12 @@ function L70_1(A0_2)
   L12_2[1] = L13_2
   L12_2[2] = L14_2
   L12_2[3] = L15_2
-  L13_2 = A0_2[11]
+  L13_2 = self[11]
   L13_2[5] = L12_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4A9057A3AC29B634"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiJitterMotion.Update
+function C4A9057A3AC29B634_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L3_2 = A1_2
   L2_2 = A1_2.f22D509B2
@@ -293,16 +275,16 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.fC0E2CAD0
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[9]
-  L4_2 = A0_2[1]
+  L3_2 = self[9]
+  L4_2 = self[1]
   L4_2 = L2_2 * L4_2
   L3_2 = L3_2 + L4_2
-  A0_2[9] = L3_2
-  L3_2 = A0_2[10]
-  L4_2 = A0_2[2]
+  self[9] = L3_2
+  L3_2 = self[10]
+  L4_2 = self[2]
   L4_2 = L2_2 * L4_2
   L3_2 = L3_2 + L4_2
-  A0_2[10] = L3_2
+  self[10] = L3_2
   L3_2 = {}
   L4_2 = 0
   L5_2 = 0
@@ -310,11 +292,11 @@ function L70_1(A0_2, A1_2)
   L3_2[1] = L4_2
   L3_2[2] = L5_2
   L3_2[3] = L6_2
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   if 0.0 ~= L4_2 then
-    L4_2 = A0_2[11]
+    L4_2 = self[11]
     L4_2 = L4_2[0]
-    L5_2 = A0_2[9]
+    L5_2 = self[9]
     L6_2 = C4A9057A3AC29B634
     L6_2 = L6_2.SB08933267E570984
     L7_2 = {}
@@ -324,11 +306,11 @@ function L70_1(A0_2, A1_2)
     L9_2 = L9_2 * L5_2
     L7_2[1] = L8_2
     L7_2[2] = L9_2
-    L8_2 = A0_2[7]
+    L8_2 = self[7]
     L6_2 = L6_2(L7_2, L8_2)
-    L7_2 = A0_2[11]
+    L7_2 = self[11]
     L7_2 = L7_2[1]
-    L8_2 = A0_2[9]
+    L8_2 = self[9]
     L9_2 = C4A9057A3AC29B634
     L9_2 = L9_2.SB08933267E570984
     L10_2 = {}
@@ -338,11 +320,11 @@ function L70_1(A0_2, A1_2)
     L12_2 = L12_2 * L8_2
     L10_2[1] = L11_2
     L10_2[2] = L12_2
-    L11_2 = A0_2[7]
+    L11_2 = self[7]
     L9_2 = L9_2(L10_2, L11_2)
-    L10_2 = A0_2[11]
+    L10_2 = self[11]
     L10_2 = L10_2[2]
-    L11_2 = A0_2[9]
+    L11_2 = self[9]
     L12_2 = {}
     L13_2 = L6_2
     L14_2 = L9_2
@@ -355,7 +337,7 @@ function L70_1(A0_2, A1_2)
     L18_2 = L18_2 * L11_2
     L16_2[1] = L17_2
     L16_2[2] = L18_2
-    L17_2 = A0_2[7]
+    L17_2 = self[7]
     L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L15_2(L16_2, L17_2)
     L12_2[1] = L13_2
     L12_2[2] = L14_2
@@ -368,9 +350,9 @@ function L70_1(A0_2, A1_2)
     L13_2 = CD6E40BD5CE9657FC
     L13_2 = L13_2.S8C1E4F8BDDE45E7B
     L14_2 = L12_2
-    L15_2 = A0_2[5]
+    L15_2 = self[5]
     L13_2 = L13_2(L14_2, L15_2)
-    L14_2 = A0_2[3]
+    L14_2 = self[3]
     L15_2 = {}
     L16_2 = L13_2[1]
     L16_2 = L16_2 * L14_2
@@ -385,7 +367,7 @@ function L70_1(A0_2, A1_2)
     L15_2[2] = L17_2
     L15_2[3] = L18_2
     L12_2 = L15_2
-    L15_2 = A0_2[12]
+    L15_2 = self[12]
     L16_2 = {}
     L17_2 = L15_2[1]
     L18_2 = L12_2[1]
@@ -404,11 +386,11 @@ function L70_1(A0_2, A1_2)
   L4_2 = cD5675BA5
   L4_2 = L4_2.f0151A26E
   L4_2 = L4_2()
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   if 0.0 ~= L5_2 then
-    L5_2 = A0_2[11]
+    L5_2 = self[11]
     L5_2 = L5_2[3]
-    L6_2 = A0_2[10]
+    L6_2 = self[10]
     L7_2 = C4A9057A3AC29B634
     L7_2 = L7_2.SB08933267E570984
     L8_2 = {}
@@ -418,11 +400,11 @@ function L70_1(A0_2, A1_2)
     L10_2 = L10_2 * L6_2
     L8_2[1] = L9_2
     L8_2[2] = L10_2
-    L9_2 = A0_2[8]
+    L9_2 = self[8]
     L7_2 = L7_2(L8_2, L9_2)
-    L8_2 = A0_2[11]
+    L8_2 = self[11]
     L8_2 = L8_2[4]
-    L9_2 = A0_2[10]
+    L9_2 = self[10]
     L10_2 = C4A9057A3AC29B634
     L10_2 = L10_2.SB08933267E570984
     L11_2 = {}
@@ -432,11 +414,11 @@ function L70_1(A0_2, A1_2)
     L13_2 = L13_2 * L9_2
     L11_2[1] = L12_2
     L11_2[2] = L13_2
-    L12_2 = A0_2[8]
+    L12_2 = self[8]
     L10_2 = L10_2(L11_2, L12_2)
-    L11_2 = A0_2[11]
+    L11_2 = self[11]
     L11_2 = L11_2[5]
-    L12_2 = A0_2[10]
+    L12_2 = self[10]
     L13_2 = {}
     L14_2 = L7_2
     L15_2 = L10_2
@@ -449,7 +431,7 @@ function L70_1(A0_2, A1_2)
     L19_2 = L19_2 * L12_2
     L17_2[1] = L18_2
     L17_2[2] = L19_2
-    L18_2 = A0_2[8]
+    L18_2 = self[8]
     L16_2, L17_2, L18_2, L19_2, L20_2 = L16_2(L17_2, L18_2)
     L13_2[1] = L14_2
     L13_2[2] = L15_2
@@ -461,9 +443,9 @@ function L70_1(A0_2, A1_2)
     L14_2 = CD6E40BD5CE9657FC
     L14_2 = L14_2.S8C1E4F8BDDE45E7B
     L15_2 = L13_2
-    L16_2 = A0_2[6]
+    L16_2 = self[6]
     L14_2 = L14_2(L15_2, L16_2)
-    L15_2 = A0_2[4]
+    L15_2 = self[4]
     L16_2 = {}
     L17_2 = L14_2[1]
     L17_2 = L17_2 * L15_2
@@ -480,11 +462,11 @@ function L70_1(A0_2, A1_2)
     L13_2 = L16_2
     L16_2 = cD5675BA5
     L16_2 = L16_2.f2135E276
-    L18_2 = A0_2
-    L17_2 = A0_2.F9C97C93FAF1BA147
+    L18_2 = self
+    L17_2 = self.F9C97C93FAF1BA147
     L19_2 = L13_2
     L17_2 = L17_2(L18_2, L19_2)
-    L18_2 = A0_2[13]
+    L18_2 = self[13]
     L16_2 = L16_2(L17_2, L18_2)
     L4_2 = L16_2
   end
@@ -495,11 +477,8 @@ function L70_1(A0_2, A1_2)
   return L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4A9057A3AC29B634"]["prototype"]
-L69_1 = "F9C97C93FAF1BA147"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiJitterMotion.GetDegreeToRadian
+function C4A9057A3AC29B634_prototype:F9C97C93FAF1BA147(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cD5675BA5
   L2_2 = L2_2.fFA44D7AF

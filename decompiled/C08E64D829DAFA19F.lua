@@ -1,3 +1,7 @@
+---@alias C68E40F3A8F061A8D main_ui_net_btl_state_machine_NetworkBattleStateTeam
+
+---@class main_ui_net_btl_state_machine_NetworkBattleStateTeam : C68E40F3A8F061A8D_prototype
+---@field prototype C68E40F3A8F061A8D_prototype
 L55_1 = _ENV
 L56_1 = "C08E64D829DAFA19F"
 L57_1 = L15_1
@@ -42,11 +46,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C08E64D829DAFA19F"]
 L69_1 = "__name__"
 L70_1 = "C08E64D829DAFA19F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08E64D829DAFA19F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C68E40F3A8F061A8D_prototype
+C68E40F3A8F061A8D_prototype = L15_1()
+C68E40F3A8F061A8D.prototype = C68E40F3A8F061A8D_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C08E64D829DAFA19F"]["prototype"]
 L69_1 = _ENV["C08E64D829DAFA19F"]

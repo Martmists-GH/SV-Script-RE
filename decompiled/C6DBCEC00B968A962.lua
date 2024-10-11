@@ -1,3 +1,7 @@
+---@alias C716AD8C410168628 main_battle_director_BattleRaidEncount
+
+---@class main_battle_director_BattleRaidEncount : C716AD8C410168628_prototype
+---@field prototype C716AD8C410168628_prototype
 L55_1 = _ENV
 L56_1 = "C6DBCEC00B968A962"
 L57_1 = L15_1
@@ -33,11 +37,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6DBCEC00B968A962"]
 L69_1 = "__name__"
 L70_1 = "C6DBCEC00B968A962"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6DBCEC00B968A962"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C716AD8C410168628_prototype
+C716AD8C410168628_prototype = L15_1()
+C716AD8C410168628.prototype = C716AD8C410168628_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6DBCEC00B968A962"]["prototype"]
 L69_1 = _ENV["C6DBCEC00B968A962"]

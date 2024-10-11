@@ -1,3 +1,5 @@
+---@class C0E8605CEAD850E41 : C0E8605CEAD850E41_prototype
+---@field prototype C0E8605CEAD850E41_prototype
 L55_1 = _ENV
 L56_1 = "C0E8605CEAD850E41"
 L57_1 = L15_1
@@ -180,39 +182,34 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0E8605CEAD850E41"]
 L69_1 = "__name__"
 L70_1 = "C0E8605CEAD850E41"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E8605CEAD850E41"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E8605CEAD850E41"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+---@class C0E8605CEAD850E41_prototype
+C0E8605CEAD850E41_prototype = L15_1()
+C0E8605CEAD850E41.prototype = C0E8605CEAD850E41_prototype
+--- C0E8605CEAD850E41.Update
+function C0E8605CEAD850E41_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L2_2 = CCC1B40899A579DC0
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FEB6685558281F194
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
-  L3_2 = A0_2[10]
-  L4_2 = A0_2[11]
+  L3_2 = self[10]
+  L4_2 = self[11]
   L4_2 = L4_2.type
   if L3_2 ~= L4_2 then
     L3_2 = L58_1
-    L4_2 = A0_2[11]
+    L4_2 = self[11]
     L4_2 = L4_2.type
     L3_2 = L3_2(L4_2)
-    A0_2[10] = L3_2
+    self[10] = L3_2
     if not L2_2 then
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L3_2 = L3_2.type
       L4_2 = true
-      L5_2 = A0_2[9]
+      L5_2 = self[9]
       L5_2 = L5_2.h
-      L6_2 = A0_2[11]
+      L6_2 = self[11]
       L6_2 = L6_2.type
       L5_2 = L5_2[L6_2]
       L6_2 = L42_1.tnull
@@ -239,16 +236,16 @@ function L70_1(A0_2, A1_2)
         end
       end
       if not L4_2 then
-        L7_2 = A0_2[7]
+        L7_2 = self[7]
         L7_2.type = -1
         L2_2 = true
       else
-        L7_2 = A0_2[8]
+        L7_2 = self[8]
         L7_2 = L7_2.type
         L8_2 = true
-        L9_2 = A0_2[9]
+        L9_2 = self[9]
         L9_2 = L9_2.h
-        L10_2 = A0_2[11]
+        L10_2 = self[11]
         L10_2 = L10_2.type
         L9_2 = L9_2[L10_2]
         L10_2 = L42_1.tnull
@@ -275,23 +272,23 @@ function L70_1(A0_2, A1_2)
           end
         end
         if not L8_2 then
-          L11_2 = A0_2[8]
-          L12_2 = A0_2[6]
+          L11_2 = self[8]
+          L12_2 = self[6]
           L12_2 = L12_2[1]
           L13_2 = L12_2
           L12_2 = L12_2.fDAAAA586
           L14_2 = 99
           L12_2 = L12_2(L13_2, L14_2)
           L12_2 = L12_2 + 1
-          L13_2 = A0_2[6]
+          L13_2 = self[6]
           L13_2 = L13_2[1]
           L14_2 = L13_2
           L13_2 = L13_2.fDAAAA586
           L15_2 = 100
           L13_2 = L13_2(L14_2, L15_2)
-          L14_2 = A0_2[9]
+          L14_2 = self[9]
           L14_2 = L14_2.h
-          L15_2 = A0_2[11]
+          L15_2 = self[11]
           L15_2 = L15_2.type
           L14_2 = L14_2[L15_2]
           L15_2 = L42_1.tnull
@@ -299,9 +296,9 @@ function L70_1(A0_2, A1_2)
             L14_2 = nil
           end
           if nil ~= L14_2 then
-            L15_2 = A0_2[9]
+            L15_2 = self[9]
             L15_2 = L15_2.h
-            L16_2 = A0_2[11]
+            L16_2 = self[11]
             L16_2 = L16_2.type
             L15_2 = L15_2[L16_2]
             L16_2 = L42_1.tnull
@@ -333,8 +330,8 @@ function L70_1(A0_2, A1_2)
           else
             L11_2.type = 0
           end
-          L15_2 = A0_2[4]
-          L16_2 = A0_2[5]
+          L15_2 = self[4]
+          L16_2 = self[5]
           L16_2 = L16_2 - L15_2
           L17_2 = L13_2 / 100
           L16_2 = L16_2 * L17_2
@@ -347,15 +344,12 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0E8605CEAD850E41"]["prototype"]
-L69_1 = "FA8903D7755CE1F09"
-
-function L70_1(A0_2)
+--- C0E8605CEAD850E41.FA8903D7755CE1F09
+function C0E8605CEAD850E41_prototype:FA8903D7755CE1F09()
   local L1_2, L2_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L1_2 = L1_2.h
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L2_2 = L2_2.type
   L1_2 = L1_2[L2_2]
   L2_2 = L42_1.tnull

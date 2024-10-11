@@ -1,3 +1,6 @@
+---@alias CD3E502D3911E77C3 main_playables_network_NetFieldPartnerPokemon
+
+---@class main_playables_network_NetFieldPartnerPokemon
 L55_1 = _ENV
 L56_1 = "C908EB2B1DEA49330"
 L57_1 = L15_1

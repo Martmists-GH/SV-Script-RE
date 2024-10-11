@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CDB5264D633938CB6"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CDB5264D633938CB6"]
-L69_1 = "new"
+---@alias CDB5264D633938CB6 main_playables_camera_work_CameraPosture
 
-function L70_1()
+---@class main_playables_camera_work_CameraPosture : CDB5264D633938CB6_prototype
+---@field prototype CDB5264D633938CB6_prototype
+CDB5264D633938CB6 = L15_1()
+function CDB5264D633938CB6.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = CDB5264D633938CB6
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDB5264D633938CB6"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 CDB5264D633938CB6
+function CDB5264D633938CB6.super(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   A0_2[5] = 0
   A0_2[4] = 0
@@ -44,11 +38,7 @@ function L70_1(A0_2)
   A0_2[1] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDB5264D633938CB6"]
-L69_1 = "__name__"
-L70_1 = "CDB5264D633938CB6"
-L68_1[L69_1] = L70_1
+CDB5264D633938CB6.__name__ = "CDB5264D633938CB6"
 L68_1 = _ENV["CDB5264D633938CB6"]
 L69_1 = "S988D7D0A4EEF693D"
 
@@ -97,11 +87,9 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDB5264D633938CB6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CDB5264D633938CB6_prototype
+CDB5264D633938CB6_prototype = L15_1()
+CDB5264D633938CB6.prototype = CDB5264D633938CB6_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CDB5264D633938CB6"]["prototype"]
 L69_1 = _ENV["CDB5264D633938CB6"]

@@ -1,3 +1,7 @@
+---@alias C39B78AAD8B4DEAFA main_bgm_BGMLayerCommand
+
+---@class main_bgm_BGMLayerCommand : C39B78AAD8B4DEAFA_prototype
+---@field prototype C39B78AAD8B4DEAFA_prototype
 L55_1 = _ENV
 L56_1 = "C39B78AAD8B4DEAFA"
 L57_1 = L15_1
@@ -42,32 +46,24 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C39B78AAD8B4DEAFA"]
 L69_1 = "__name__"
 L70_1 = "C39B78AAD8B4DEAFA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39B78AAD8B4DEAFA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39B78AAD8B4DEAFA"]["prototype"]
-L69_1 = "F77F7339CE102110B"
-
-function L70_1(A0_2, A1_2)
-  A0_2[3] = A1_2
+---@class C39B78AAD8B4DEAFA_prototype
+C39B78AAD8B4DEAFA_prototype = L15_1()
+C39B78AAD8B4DEAFA.prototype = C39B78AAD8B4DEAFA_prototype
+--- main.bgm.BGMLayerCommand.SetOverride
+function C39B78AAD8B4DEAFA_prototype:F77F7339CE102110B(A1_2)
+  self[3] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39B78AAD8B4DEAFA"]["prototype"]
-L69_1 = "F866E66DA26EE7358"
-
-function L70_1(A0_2)
+--- main.bgm.BGMLayerCommand.Execute
+function C39B78AAD8B4DEAFA_prototype:F866E66DA26EE7358()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L1_2 = L1_2[1]
   if 2 == L1_2 then
     L2_2 = nil
     L3_2 = c20B0F71F
     L3_2 = L3_2.fC4739BA0
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
@@ -76,8 +72,8 @@ function L70_1(A0_2)
       L3_2 = L3_2()
       L4_2 = L3_2
       L3_2 = L3_2.f757E37AB
-      L5_2 = A0_2[2]
-      L6_2 = A0_2[3]
+      L5_2 = self[2]
+      L6_2 = self[3]
       L7_2 = false
       L3_2(L4_2, L5_2, L6_2, L7_2)
     else
@@ -86,14 +82,14 @@ function L70_1(A0_2)
       L3_2 = L3_2()
       L4_2 = L3_2
       L3_2 = L3_2.f7FD7C09B
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L3_2(L4_2, L5_2)
     end
   elseif 3 == L1_2 then
     L2_2 = nil
     L3_2 = c20B0F71F
     L3_2 = L3_2.fC4739BA0
-    L4_2 = A0_2[3]
+    L4_2 = self[3]
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
@@ -102,8 +98,8 @@ function L70_1(A0_2)
       L3_2 = L3_2()
       L4_2 = L3_2
       L3_2 = L3_2.f92A1FFA7
-      L5_2 = A0_2[2]
-      L6_2 = A0_2[3]
+      L5_2 = self[2]
+      L6_2 = self[3]
       L7_2 = false
       L3_2(L4_2, L5_2, L6_2, L7_2)
     else
@@ -112,7 +108,7 @@ function L70_1(A0_2)
       L3_2 = L3_2()
       L4_2 = L3_2
       L3_2 = L3_2.f03EACC10
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L3_2(L4_2, L5_2)
     end
   elseif 4 == L1_2 then
@@ -121,8 +117,8 @@ function L70_1(A0_2)
     L2_2 = L2_2()
     L3_2 = L2_2
     L2_2 = L2_2.f757E37AB
-    L4_2 = A0_2[2]
-    L5_2 = A0_2[3]
+    L4_2 = self[2]
+    L5_2 = self[3]
     L6_2 = true
     L2_2(L3_2, L4_2, L5_2, L6_2)
   elseif 5 == L1_2 then
@@ -131,8 +127,8 @@ function L70_1(A0_2)
     L2_2 = L2_2()
     L3_2 = L2_2
     L2_2 = L2_2.f92A1FFA7
-    L4_2 = A0_2[2]
-    L5_2 = A0_2[3]
+    L4_2 = self[2]
+    L5_2 = self[3]
     L6_2 = true
     L2_2(L3_2, L4_2, L5_2, L6_2)
   elseif 6 == L1_2 then
@@ -141,7 +137,7 @@ function L70_1(A0_2)
     L2_2 = L2_2()
     L3_2 = L2_2
     L2_2 = L2_2.fAC78721F
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L2_2(L3_2, L4_2)
   elseif 7 == L1_2 then
     L2_2 = c6E61D36A
@@ -149,7 +145,7 @@ function L70_1(A0_2)
     L2_2 = L2_2()
     L3_2 = L2_2
     L2_2 = L2_2.fE0EBE2D4
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = false
     L2_2(L3_2, L4_2, L5_2)
   elseif 12 == L1_2 then
@@ -158,7 +154,7 @@ function L70_1(A0_2)
     L2_2 = L2_2()
     L3_2 = L2_2
     L2_2 = L2_2.f091A770F
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L2_2(L3_2, L4_2)
   else
     if 13 == L1_2 then
@@ -167,7 +163,7 @@ function L70_1(A0_2)
       L2_2 = L2_2()
       L3_2 = L2_2
       L2_2 = L2_2.fE0EBE2D4
-      L4_2 = A0_2[2]
+      L4_2 = self[2]
       L5_2 = true
       L2_2(L3_2, L4_2, L5_2)
     else

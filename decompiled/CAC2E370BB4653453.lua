@@ -1,3 +1,7 @@
+---@alias CAC2E370BB4653453 main_event_general_champion_Champ_leaguegate
+
+---@class main_event_general_champion_Champ_leaguegate : CAC2E370BB4653453_prototype
+---@field prototype CAC2E370BB4653453_prototype
 L55_1 = _ENV
 L56_1 = "CAC2E370BB4653453"
 L57_1 = L15_1
@@ -55,130 +59,116 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CAC2E370BB4653453"]
 L69_1 = "__name__"
 L70_1 = "CAC2E370BB4653453"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC2E370BB4653453"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC2E370BB4653453"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class CAC2E370BB4653453_prototype
+CAC2E370BB4653453_prototype = L15_1()
+CAC2E370BB4653453.prototype = CAC2E370BB4653453_prototype
+--- main.event.general.champion.Champ_leaguegate.preStart
+function CAC2E370BB4653453_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerName
   if "event_npc_league_gatekeeper" == L1_2 then
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.S12FD376DC11712C8
-    L3_2 = A0_2[40]
+    L3_2 = self[40]
     L2_2(L3_2)
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.S12FD376DC11712C8
-    L3_2 = A0_2[41]
+    L3_2 = self[41]
     L2_2(L3_2)
   elseif "pos_event_a_pl02_front_entrance" == L1_2 then
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.S12FD376DC11712C8
-    L3_2 = A0_2[42]
+    L3_2 = self[42]
     L2_2(L3_2)
   elseif "pos_event_a_pl02_rear_entrance" == L1_2 then
   elseif "pos_event_a_pl11_front_entrance" == L1_2 then
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.S12FD376DC11712C8
-    L3_2 = A0_2[43]
+    L3_2 = self[43]
     L2_2(L3_2)
   elseif "pos_event_a_pl11_rear_entrance" == L1_2 then
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.S12FD376DC11712C8
-    L3_2 = A0_2[43]
+    L3_2 = self[43]
     L2_2(L3_2)
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.S12FD376DC11712C8
-    L3_2 = A0_2[44]
+    L3_2 = self[44]
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC2E370BB4653453"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.champion.Champ_leaguegate.mainBody
+function CAC2E370BB4653453_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerName
   if "event_npc_league_gatekeeper" == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FC43D2E1B4B2D48BB
+    L3_2 = self
+    L2_2 = self.FC43D2E1B4B2D48BB
     L2_2(L3_2)
   elseif "pos_event_a_pl02_front_entrance" == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F2202C653B00360A8
+    L3_2 = self
+    L2_2 = self.F2202C653B00360A8
     L2_2(L3_2)
   elseif "pos_event_a_pl02_rear_entrance" == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F49998CF77E6D4F1F
+    L3_2 = self
+    L2_2 = self.F49998CF77E6D4F1F
     L2_2(L3_2)
   elseif "pos_event_a_pl11_front_entrance" == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FFA235A3A53F96EB8
+    L3_2 = self
+    L2_2 = self.FFA235A3A53F96EB8
     L2_2(L3_2)
   else
     if "pos_event_a_pl11_rear_entrance" == L1_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FCDB06FBA57776E0F
+      L3_2 = self
+      L2_2 = self.FCDB06FBA57776E0F
       L2_2(L3_2)
     else
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC2E370BB4653453"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.champion.Champ_leaguegate.preEnd
+function CAC2E370BB4653453_prototype:F740FB4E96926D103()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   L1_2 = L1_2.ownerName
   if "event_npc_league_gatekeeper" == L1_2 then
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.SEC5605D9D6B5E309
-    L3_2 = A0_2[40]
+    L3_2 = self[40]
     L2_2(L3_2)
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.SEC5605D9D6B5E309
-    L3_2 = A0_2[41]
+    L3_2 = self[41]
     L2_2(L3_2)
   elseif "pos_event_a_pl02_front_entrance" == L1_2 then
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.SEC5605D9D6B5E309
-    L3_2 = A0_2[42]
+    L3_2 = self[42]
     L2_2(L3_2)
   elseif "pos_event_a_pl02_rear_entrance" == L1_2 then
   elseif "pos_event_a_pl11_front_entrance" == L1_2 then
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.SEC5605D9D6B5E309
-    L3_2 = A0_2[43]
+    L3_2 = self[43]
     L2_2(L3_2)
   elseif "pos_event_a_pl11_rear_entrance" == L1_2 then
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.SEC5605D9D6B5E309
-    L3_2 = A0_2[43]
+    L3_2 = self[43]
     L2_2(L3_2)
     L2_2 = C9B54BC04DD492B6D
     L2_2 = L2_2.SEC5605D9D6B5E309
-    L3_2 = A0_2[44]
+    L3_2 = self[44]
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC2E370BB4653453"]["prototype"]
-L69_1 = "FC43D2E1B4B2D48BB"
-
-function L70_1(A0_2)
+--- main.event.general.champion.Champ_leaguegate.talkLeagueGatekeeper
+function CAC2E370BB4653453_prototype:FC43D2E1B4B2D48BB()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L1_2 = "champ_leaguegate_01"
   L2_2 = CA4C5F9FA83D2AF80
@@ -231,7 +221,7 @@ function L70_1(A0_2)
     L3_2 = L3_2.S3EDC50DEB344C642
     L4_2 = "event_npc_league_gatekeeper"
     L5_2 = "champ_leaguegate_04"
-    L6_2 = A0_2[36]
+    L6_2 = self[36]
     L7_2 = 0
     L3_2(L4_2, L5_2, L6_2, L7_2)
     L3_2 = CDCBFD50A277E546D
@@ -248,14 +238,14 @@ function L70_1(A0_2)
     L3_2 = L3_2.S7EE10575FE8DA205
     L4_2 = "event_npc_league_gatekeeper"
     L5_2 = "champ_0170_staff_01"
-    L6_2 = A0_2[35]
+    L6_2 = self[35]
     L7_2 = 0
     L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
     if L3_2 then
       L3_2 = "a_pl02_event"
       L4_2 = "pos_event_a_pl02_front_entrance"
-      L6_2 = A0_2
-      L5_2 = A0_2.F0A528C2F9F2670CD
+      L6_2 = self
+      L5_2 = self.F0A528C2F9F2670CD
       L7_2 = -3.0
       L8_2 = 0.0
       L9_2 = -0.5
@@ -277,14 +267,14 @@ function L70_1(A0_2)
         L7_2 = L7_2.S3EDC50DEB344C642
         L8_2 = "event_npc_league_gatekeeper"
         L9_2 = L1_2
-        L10_2 = A0_2[36]
+        L10_2 = self[36]
         L11_2 = 0
         L7_2(L8_2, L9_2, L10_2, L11_2)
         L7_2 = C9B54BC04DD492B6D
         L7_2 = L7_2.S3EDC50DEB344C642
         L8_2 = "event_npc_league_gatekeeper"
         L9_2 = "champ_leaguegate_02"
-        L10_2 = A0_2[36]
+        L10_2 = self[36]
         L11_2 = 0
         L7_2(L8_2, L9_2, L10_2, L11_2)
       else
@@ -295,8 +285,8 @@ function L70_1(A0_2)
         if L7_2 then
           L3_2 = "a_pl11_event"
           L4_2 = "mp_a_pl11_front_entrance"
-          L8_2 = A0_2
-          L7_2 = A0_2.F0A528C2F9F2670CD
+          L8_2 = self
+          L7_2 = self.F0A528C2F9F2670CD
           L9_2 = 0.0
           L10_2 = 0.0
           L11_2 = 1.0
@@ -318,8 +308,8 @@ function L70_1(A0_2)
           if L7_2 then
             L3_2 = "resident_map_change"
             L4_2 = "mp_poke_league_rooftop"
-            L8_2 = A0_2
-            L7_2 = A0_2.F0A528C2F9F2670CD
+            L8_2 = self
+            L7_2 = self.F0A528C2F9F2670CD
             L9_2 = 0.0
             L10_2 = 0.0
             L11_2 = 0.0
@@ -347,21 +337,21 @@ function L70_1(A0_2)
           end
         end
       end
-      L8_2 = A0_2
-      L7_2 = A0_2.F0A528C2F9F2670CD
+      L8_2 = self
+      L7_2 = self.F0A528C2F9F2670CD
       L9_2 = 1960.654
       L10_2 = 200.22058
       L11_2 = -2104.888
       L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2)
-      L9_2 = A0_2
-      L8_2 = A0_2.F0A528C2F9F2670CD
+      L9_2 = self
+      L8_2 = self.F0A528C2F9F2670CD
       L10_2 = 1959.16
       L11_2 = 200.22058
       L12_2 = -2103.41
       L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2)
       L9_2 = L7_2
-      L11_2 = A0_2
-      L10_2 = A0_2.F0A528C2F9F2670CD
+      L11_2 = self
+      L10_2 = self.F0A528C2F9F2670CD
       L12_2 = 1959.9
       L13_2 = 200.217
       L14_2 = -2104.1
@@ -421,8 +411,8 @@ function L70_1(A0_2)
       L13_2 = L13_2.SF2A52007F22C8572
       L14_2 = "event_npc_league_gatekeeper"
       L13_2(L14_2)
-      L14_2 = A0_2
-      L13_2 = A0_2.F0A528C2F9F2670CD
+      L14_2 = self
+      L13_2 = self.F0A528C2F9F2670CD
       L15_2 = 1959.723
       L16_2 = 200.217
       L17_2 = -2104.3
@@ -480,7 +470,7 @@ function L70_1(A0_2)
       L3_2 = L3_2.S3EDC50DEB344C642
       L4_2 = "event_npc_league_gatekeeper"
       L5_2 = "champ_0170_staff_02"
-      L6_2 = A0_2[35]
+      L6_2 = self[35]
       L7_2 = 0
       L3_2(L4_2, L5_2, L6_2, L7_2)
       L3_2 = CDCBFD50A277E546D
@@ -496,21 +486,18 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC2E370BB4653453"]["prototype"]
-L69_1 = "F2202C653B00360A8"
-
-function L70_1(A0_2)
+--- main.event.general.champion.Champ_leaguegate.F2202C653B00360A8
+function CAC2E370BB4653453_prototype:F2202C653B00360A8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = ""
   L3_2 = "champ_0200_stopper_01"
-  L4_2 = A0_2[37]
+  L4_2 = self[37]
   L5_2 = 3
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F0A528C2F9F2670CD
+  L2_2 = self
+  L1_2 = self.F0A528C2F9F2670CD
   L3_2 = 0.0
   L4_2 = 0.0
   L5_2 = -1.0
@@ -541,11 +528,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC2E370BB4653453"]["prototype"]
-L69_1 = "F49998CF77E6D4F1F"
-
-function L70_1(A0_2)
+--- main.event.general.champion.Champ_leaguegate.event_a_pl02_RearEntrance
+function CAC2E370BB4653453_prototype:F49998CF77E6D4F1F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C07E4F1BF071B0460
   L1_2 = L1_2.S218E2A14A790D265
@@ -573,21 +557,18 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC2E370BB4653453"]["prototype"]
-L69_1 = "FFA235A3A53F96EB8"
-
-function L70_1(A0_2)
+--- main.event.general.champion.Champ_leaguegate.FFA235A3A53F96EB8
+function CAC2E370BB4653453_prototype:FFA235A3A53F96EB8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = ""
   L3_2 = "champ_0220_stopper_01"
-  L4_2 = A0_2[38]
+  L4_2 = self[38]
   L5_2 = 3
   L1_2(L2_2, L3_2, L4_2, L5_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F0A528C2F9F2670CD
+  L2_2 = self
+  L1_2 = self.F0A528C2F9F2670CD
   L3_2 = 0.0
   L4_2 = 0.0
   L5_2 = -1.0
@@ -618,14 +599,11 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAC2E370BB4653453"]["prototype"]
-L69_1 = "FCDB06FBA57776E0F"
-
-function L70_1(A0_2)
+--- main.event.general.champion.Champ_leaguegate.event_a_pl11_RearEntrance
+function CAC2E370BB4653453_prototype:FCDB06FBA57776E0F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F0A528C2F9F2670CD
+  L2_2 = self
+  L1_2 = self.F0A528C2F9F2670CD
   L3_2 = 0.0
   L4_2 = 0.0
   L5_2 = -63.0
@@ -639,7 +617,7 @@ function L70_1(A0_2)
     L2_2 = L2_2.S7EE10575FE8DA205
     L3_2 = ""
     L4_2 = "champ_0260_system_01"
-    L5_2 = A0_2[39]
+    L5_2 = self[39]
     L6_2 = 3
     L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
     if true == L2_2 then
@@ -653,8 +631,8 @@ function L70_1(A0_2)
       L4_2 = nil
       L5_2 = "resident_map_change"
       L6_2 = "mp_poke_league_rooftop"
-      L8_2 = A0_2
-      L7_2 = A0_2.F0A528C2F9F2670CD
+      L8_2 = self
+      L7_2 = self.F0A528C2F9F2670CD
       L9_2 = 0.0
       L10_2 = 6.3
       L11_2 = 0.0
@@ -693,7 +671,7 @@ function L70_1(A0_2)
     L2_2 = L2_2.S3EDC50DEB344C642
     L3_2 = ""
     L4_2 = "champ_0220_stopper_02"
-    L5_2 = A0_2[38]
+    L5_2 = self[38]
     L6_2 = 3
     L2_2(L3_2, L4_2, L5_2, L6_2)
     L2_2 = CDCBFD50A277E546D

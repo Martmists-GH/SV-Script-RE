@@ -1,3 +1,5 @@
+---@class C50DEFD80FA5A8447 : C50DEFD80FA5A8447_prototype
+---@field prototype C50DEFD80FA5A8447_prototype
 L55_1 = _ENV
 L56_1 = "C50DEFD80FA5A8447"
 L57_1 = L15_1
@@ -74,26 +76,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C50DEFD80FA5A8447"]
 L69_1 = "__name__"
 L70_1 = "C50DEFD80FA5A8447"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50DEFD80FA5A8447"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50DEFD80FA5A8447"]["prototype"]
-L69_1 = "FA40BA4BAEFF01700"
-
-function L70_1(A0_2)
+---@class C50DEFD80FA5A8447_prototype
+C50DEFD80FA5A8447_prototype = L15_1()
+C50DEFD80FA5A8447.prototype = C50DEFD80FA5A8447_prototype
+--- C50DEFD80FA5A8447.OnRegistrationUpdate
+function C50DEFD80FA5A8447_prototype:FA40BA4BAEFF01700()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = nil
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f4555D276
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if not L3_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     L4_2 = L3_2
     L3_2 = L3_2.f9D8BC178
     L3_2 = L3_2(L4_2)
@@ -102,7 +99,7 @@ function L70_1(A0_2)
       L3_2 = nil
       L4_2 = c016374C1
       L4_2 = L4_2.f4555D276
-      L5_2 = A0_2[6]
+      L5_2 = self[6]
       L6_2 = L3_2
       L4_2 = L4_2(L5_2, L6_2)
       L1_2 = L4_2
@@ -115,7 +112,7 @@ function L70_1(A0_2)
     L3_2 = L3_2.Failed
     return L3_2
   end
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L4_2 = L3_2
   L3_2 = L3_2.f9D8BC178
   L3_2 = L3_2(L4_2)
@@ -128,11 +125,11 @@ function L70_1(A0_2)
   L4_2 = nil
   L5_2 = c016374C1
   L5_2 = L5_2.f8C7D4F4D
-  L6_2 = A0_2[7]
+  L6_2 = self[7]
   L7_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
-    L5_2 = A0_2[7]
+    L5_2 = self[7]
     L6_2 = L5_2
     L5_2 = L5_2.f9D8BC178
     L5_2 = L5_2(L6_2)
@@ -142,7 +139,7 @@ function L70_1(A0_2)
       L6_2 = L6_2.fEFB8CD3A
       L7_2 = cE8D61D7D
       L7_2 = L7_2.fB41FD22F
-      L8_2 = A0_2[7]
+      L8_2 = self[7]
       L7_2 = L7_2(L8_2)
       L8_2 = L5_2
       L6_2 = L6_2(L7_2, L8_2)
@@ -158,9 +155,9 @@ function L70_1(A0_2)
     L5_2 = L5_2.Continue
     return L5_2
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F8F68F2EE479F3E7D
-  L7_2 = A0_2[3]
+  L6_2 = self
+  L5_2 = self.F8F68F2EE479F3E7D
+  L7_2 = self[3]
   L5_2 = L5_2(L6_2, L7_2)
   if nil ~= L5_2 then
     L6_2 = EF2A3236AFFB883B7
@@ -174,20 +171,17 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50DEFD80FA5A8447"]["prototype"]
-L69_1 = "F21EC708A144D1FC9"
-
-function L70_1(A0_2)
+--- C50DEFD80FA5A8447.OnCheckAlive
+function C50DEFD80FA5A8447_prototype:F21EC708A144D1FC9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = c016374C1
   L2_2 = L2_2.f4555D276
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if not L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f9D8BC178
     L2_2 = L2_2(L3_2)
@@ -201,11 +195,11 @@ function L70_1(A0_2)
   L2_2 = nil
   L3_2 = c016374C1
   L3_2 = L3_2.f4555D276
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if not L3_2 then
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L4_2 = L3_2
     L3_2 = L3_2.f9D8BC178
     L3_2 = L3_2(L4_2)
@@ -219,11 +213,11 @@ function L70_1(A0_2)
   L3_2 = nil
   L4_2 = c016374C1
   L4_2 = L4_2.f8C7D4F4D
-  L5_2 = A0_2[7]
+  L5_2 = self[7]
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L4_2 = A0_2[7]
+    L4_2 = self[7]
     L5_2 = L4_2
     L4_2 = L4_2.f9D8BC178
     L4_2 = L4_2(L5_2)
@@ -236,11 +230,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C50DEFD80FA5A8447"]["prototype"]
-L69_1 = "F8F68F2EE479F3E7D"
-
-function L70_1(A0_2, A1_2)
+--- C50DEFD80FA5A8447.createTreeInfo
+function C50DEFD80FA5A8447_prototype:F8F68F2EE479F3E7D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = C855CE97E56B02E46
   L2_2 = L2_2.SF8F2D826E2B641F8
@@ -253,7 +244,7 @@ function L70_1(A0_2, A1_2)
   L4_2.length = 0
   L5_2 = 0
   L3_2 = L3_2(L4_2, L5_2)
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L5_2 = L4_2
   L4_2 = L4_2.f1C1435C7
   L6_2 = "tree_fall_point"
@@ -279,7 +270,7 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2)
   L4_2 = C4462953BDA74D46B
   L4_2 = L4_2.new
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = L3_2
   L7_2 = L2_2
   return L4_2(L5_2, L6_2, L7_2)

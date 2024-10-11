@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C4C4343673480BB52"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C4C4343673480BB52"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4343673480BB52"]
-L69_1 = "__name__"
-L70_1 = "C4C4343673480BB52"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4343673480BB52"]
-L69_1 = "S9964FE1654094A71"
+---@alias C4C4343673480BB52 main_event_command_SchoolMapCommand
 
-function L70_1(A0_2)
+---@class main_event_command_SchoolMapCommand
+C4C4343673480BB52 = L15_1()
+C4C4343673480BB52.new = {}
+C4C4343673480BB52.__name__ = "C4C4343673480BB52"
+--- main.event.command.SchoolMapCommand.SetNowPos
+function C4C4343673480BB52.S9964FE1654094A71(A0_2)
   local L1_2, L2_2
   L1_2 = CD1243CF9D7FD96CC
   L1_2 = L1_2.SACE1BA2A46BCFE84
@@ -22,11 +13,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4343673480BB52"]
-L69_1 = "S7015599243B17EC2"
-
-function L70_1(A0_2)
+--- main.event.command.SchoolMapCommand.SetNPCData
+function C4C4343673480BB52.S7015599243B17EC2(A0_2)
   local L1_2, L2_2
   L1_2 = CD1243CF9D7FD96CC
   L1_2 = L1_2.S7015599243B17EC2
@@ -34,11 +22,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4343673480BB52"]
-L69_1 = "SBC8CFBC235BE00C2"
-
-function L70_1()
+--- main.event.command.SchoolMapCommand.ShowMap
+function C4C4343673480BB52.SBC8CFBC235BE00C2()
   local L0_2, L1_2, L2_2
   L0_2 = C81D709AD8E5E3CF8
   L0_2 = L0_2.new
@@ -71,11 +56,8 @@ function L70_1()
   return L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4343673480BB52"]
-L69_1 = "S808DA9EC2EE71FE7"
-
-function L70_1(A0_2)
+--- main.event.command.SchoolMapCommand.OpenUI
+function C4C4343673480BB52.S808DA9EC2EE71FE7(A0_2)
   local L1_2, L2_2, L3_2
   if nil == A0_2 then
     L1_2 = E2B2BFF6A9A5AA267
@@ -101,11 +83,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4343673480BB52"]
-L69_1 = "S12B234D43C1340D1"
-
-function L70_1()
+--- main.event.command.SchoolMapCommand.CloseUI
+function C4C4343673480BB52.S12B234D43C1340D1()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = c682D8E4F
   L0_2 = L0_2.fEF94D11D
@@ -157,11 +136,8 @@ function L70_1()
   L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4343673480BB52"]
-L69_1 = "S0170EA75A6880AF5"
-
-function L70_1(A0_2)
+--- main.event.command.SchoolMapCommand.SetCursorPos
+function C4C4343673480BB52.S0170EA75A6880AF5(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CD1243CF9D7FD96CC
   L1_2 = L1_2.S2FBB004A3763CEBD
@@ -179,11 +155,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4343673480BB52"]
-L69_1 = "S1EE680F0596C8BA3"
-
-function L70_1()
+--- main.event.command.SchoolMapCommand.WaitSelectMapID
+function C4C4343673480BB52.S1EE680F0596C8BA3()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = CD1243CF9D7FD96CC
   L0_2 = L0_2.S2FBB004A3763CEBD
@@ -208,11 +181,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4343673480BB52"]
-L69_1 = "S0001065FC2F11609"
-
-function L70_1(A0_2)
+--- main.event.command.SchoolMapCommand.SetLimitPosID
+function C4C4343673480BB52.S0001065FC2F11609(A0_2)
   local L1_2, L2_2
   L1_2 = CD1243CF9D7FD96CC
   L1_2 = L1_2.S0001065FC2F11609
@@ -220,11 +190,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C4343673480BB52"]
-L69_1 = "S9AF194ADBE1B6374"
-
-function L70_1()
+--- main.event.command.SchoolMapCommand.RestartSelect
+function C4C4343673480BB52.S9AF194ADBE1B6374()
   local L0_2, L1_2, L2_2
   L0_2 = CD1243CF9D7FD96CC
   L0_2 = L0_2.S2FBB004A3763CEBD

@@ -1,3 +1,5 @@
+---@class C85773079066ED54F : C85773079066ED54F_prototype
+---@field prototype C85773079066ED54F_prototype
 L55_1 = _ENV
 L56_1 = "C85773079066ED54F"
 L57_1 = L15_1
@@ -47,28 +49,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C85773079066ED54F"]
 L69_1 = "__name__"
 L70_1 = "C85773079066ED54F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C85773079066ED54F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C85773079066ED54F"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C85773079066ED54F_prototype
+C85773079066ED54F_prototype = L15_1()
+C85773079066ED54F.prototype = C85773079066ED54F_prototype
+--- C85773079066ED54F.preStart
+function C85773079066ED54F_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S12FD376DC11712C8
-  L2_2 = A0_2[36]
+  L2_2 = self[36]
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C85773079066ED54F"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- C85773079066ED54F.mainBody
+function C85773079066ED54F_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = nil
   L2_2 = CCD22EFED4E9E5F89
@@ -131,15 +125,15 @@ function L70_1(A0_2)
     L3_2 = L3_2.SAAF41A1D6F80ADF1
     L4_2 = ""
     L5_2 = L2_2
-    L6_2 = A0_2[35]
+    L6_2 = self[35]
     L7_2 = true
     L8_2 = "vending_machine_start"
-    L9_2 = A0_2[35]
+    L9_2 = self[35]
     L10_2 = 3
     L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
     if L3_2 >= 3 then
-      L5_2 = A0_2
-      L4_2 = A0_2.FD64D7F1373B2A369
+      L5_2 = self
+      L4_2 = self.FD64D7F1373B2A369
       L4_2(L5_2)
       return
     end
@@ -159,21 +153,21 @@ function L70_1(A0_2)
     L7_2[2] = L9_2
     L8_2 = 3
     L6_2 = L6_2(L7_2, L8_2)
-    L7_2 = A0_2[35]
+    L7_2 = self[35]
     L8_2 = true
     L9_2 = "vending_machine_how"
-    L10_2 = A0_2[35]
+    L10_2 = self[35]
     L11_2 = 3
     L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
     if 2 == L4_2 then
-      L6_2 = A0_2
-      L5_2 = A0_2.FD64D7F1373B2A369
+      L6_2 = self
+      L5_2 = self.FD64D7F1373B2A369
       L5_2(L6_2)
       return
     end
     while true do
-      L6_2 = A0_2
-      L5_2 = A0_2.FB4F2591ABBA26829
+      L6_2 = self
+      L5_2 = self.FB4F2591ABBA26829
       L7_2 = L1_2.itemId
       L5_2 = L5_2(L6_2, L7_2)
       if L5_2 then
@@ -184,14 +178,14 @@ function L70_1(A0_2)
         L5_2 = L5_2.S3EDC50DEB344C642
         L6_2 = ""
         L7_2 = "vending_machine_not_have"
-        L8_2 = A0_2[35]
+        L8_2 = self[35]
         L9_2 = 3
         L5_2(L6_2, L7_2, L8_2, L9_2)
         return
       end
       if 0 == L4_2 then
-        L6_2 = A0_2
-        L5_2 = A0_2.F8D060A315648D4C9
+        L6_2 = self
+        L5_2 = self.F8D060A315648D4C9
         L7_2 = L1_2.price
         L5_2 = L5_2(L6_2, L7_2)
         if not L5_2 then
@@ -202,14 +196,14 @@ function L70_1(A0_2)
           L5_2 = L5_2.S3EDC50DEB344C642
           L6_2 = ""
           L7_2 = "vending_machine_not_money"
-          L8_2 = A0_2[35]
+          L8_2 = self[35]
           L9_2 = 3
           L5_2(L6_2, L7_2, L8_2, L9_2)
           return
         end
       else
-        L6_2 = A0_2
-        L5_2 = A0_2.FC8FA50F7845B61EF
+        L6_2 = self
+        L5_2 = self.FC8FA50F7845B61EF
         L7_2 = L1_2.price
         L5_2 = L5_2(L6_2, L7_2)
         if not L5_2 then
@@ -220,14 +214,14 @@ function L70_1(A0_2)
           L5_2 = L5_2.S3EDC50DEB344C642
           L6_2 = ""
           L7_2 = "vending_machine_not_lp"
-          L8_2 = A0_2[35]
+          L8_2 = self[35]
           L9_2 = 3
           L5_2(L6_2, L7_2, L8_2, L9_2)
           return
         end
       end
-      L6_2 = A0_2
-      L5_2 = A0_2.FDEBF9B6A5DD6935F
+      L6_2 = self
+      L5_2 = self.FDEBF9B6A5DD6935F
       L5_2(L6_2)
       L5_2 = 0
       if 1 == L4_2 then
@@ -274,10 +268,10 @@ function L70_1(A0_2)
       L9_2[2] = L11_2
       L10_2 = 3
       L8_2 = L8_2(L9_2, L10_2)
-      L9_2 = A0_2[35]
+      L9_2 = self[35]
       L10_2 = true
       L11_2 = "vending_machine_next"
-      L12_2 = A0_2[35]
+      L12_2 = self[35]
       L13_2 = 3
       L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
       if 1 == L6_2 then
@@ -293,11 +287,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C85773079066ED54F"]["prototype"]
-L69_1 = "FDEBF9B6A5DD6935F"
-
-function L70_1(A0_2)
+--- C85773079066ED54F.byeDrink
+function C85773079066ED54F_prototype:FDEBF9B6A5DD6935F()
   local L1_2, L2_2
   L1_2 = C3A36506FBC96ACBD
   L1_2 = L1_2.SC6181320B46854EE
@@ -305,11 +296,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C85773079066ED54F"]["prototype"]
-L69_1 = "FD64D7F1373B2A369"
-
-function L70_1(A0_2)
+--- C85773079066ED54F.cancelEvent
+function C85773079066ED54F_prototype:FD64D7F1373B2A369()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CCD22EFED4E9E5F89
   L1_2 = L1_2.S4B3DD107F4CBB90C
@@ -318,16 +306,13 @@ function L70_1(A0_2)
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = ""
   L3_2 = "vending_machine_cancel"
-  L4_2 = A0_2[35]
+  L4_2 = self[35]
   L5_2 = 3
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C85773079066ED54F"]["prototype"]
-L69_1 = "F8D060A315648D4C9"
-
-function L70_1(A0_2, A1_2)
+--- C85773079066ED54F.isHaveMoney
+function C85773079066ED54F_prototype:F8D060A315648D4C9(A1_2)
   local L2_2, L3_2
   L2_2 = C41AF1C042AB05442
   L2_2 = L2_2.S264F26F6894F3392
@@ -338,11 +323,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C85773079066ED54F"]["prototype"]
-L69_1 = "FC8FA50F7845B61EF"
-
-function L70_1(A0_2, A1_2)
+--- C85773079066ED54F.isHaveLP
+function C85773079066ED54F_prototype:FC8FA50F7845B61EF(A1_2)
   local L2_2, L3_2
   L2_2 = C41AF1C042AB05442
   L2_2 = L2_2.S264F26F6894F3392
@@ -353,11 +335,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C85773079066ED54F"]["prototype"]
-L69_1 = "FB4F2591ABBA26829"
-
-function L70_1(A0_2, A1_2)
+--- C85773079066ED54F.FB4F2591ABBA26829
+function C85773079066ED54F_prototype:FB4F2591ABBA26829(A1_2)
   local L2_2, L3_2
   L2_2 = C91B01B95BE1E08A7
   L2_2 = L2_2.S137CB591BFAAC1EA
@@ -369,23 +348,17 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C85773079066ED54F"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- C85773079066ED54F.mainBodyFinish
+function C85773079066ED54F_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C85773079066ED54F"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- C85773079066ED54F.preEnd
+function C85773079066ED54F_prototype:F740FB4E96926D103()
   local L1_2, L2_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.SEC5605D9D6B5E309
-  L2_2 = A0_2[36]
+  L2_2 = self[36]
   L1_2(L2_2)
 end
 

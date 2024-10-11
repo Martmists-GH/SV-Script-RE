@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C043642B35062DFB9"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "new"
+---@alias C043642B35062DFB9 main_ui_ymap_YMapManager
 
-function L70_1(A0_2)
+---@class main_ui_ymap_YMapManager : C043642B35062DFB9_prototype
+---@field prototype C043642B35062DFB9_prototype
+C043642B35062DFB9 = L15_1()
+function C043642B35062DFB9.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C043642B35062DFB9
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C043642B35062DFB9
+function C043642B35062DFB9.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   A0_2[3] = 1.0
   A0_2[2] = 0.0
@@ -117,11 +111,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C043642B35062DFB9"]
 L69_1 = "__name__"
 L70_1 = "C043642B35062DFB9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S1877DC26B9B0F18D"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.IsInitialized
+function C043642B35062DFB9.S1877DC26B9B0F18D()
   local L0_2, L1_2
   L0_2 = C043642B35062DFB9
   L0_2 = L0_2.S88ABEA8369A7A284
@@ -136,11 +127,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S37BB39776E9CB702"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapManager.SetVisibleParamScriptId
+function C043642B35062DFB9.S37BB39776E9CB702(A0_2, A1_2)
   local L2_2, L3_2
   if "item_get" == A0_2 then
     return
@@ -151,11 +139,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SA23D39922B76B247"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.SetVisible
+function C043642B35062DFB9.SA23D39922B76B247(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C388798CF80F2AF9D
   L1_2 = L1_2.SC2893E01AB17C5FE
@@ -174,11 +159,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S12F63EE47FFCB183"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.Suspend
+function C043642B35062DFB9.S12F63EE47FFCB183()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cCF781FB6
@@ -197,11 +179,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S3C93DF9C47B1912A"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.Resume
+function C043642B35062DFB9.S3C93DF9C47B1912A()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = cCF781FB6
@@ -220,22 +199,16 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SD4363B0E9F9C49CA"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.GetVisibleCount
+function C043642B35062DFB9.SD4363B0E9F9C49CA()
   local L0_2, L1_2
   L0_2 = C388798CF80F2AF9D
   L0_2 = L0_2.SFD914841F6D3657F
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S63F6D9394ACE97C2"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.ResetVisible
+function C043642B35062DFB9.S63F6D9394ACE97C2()
   local L0_2, L1_2, L2_2
   L0_2 = C388798CF80F2AF9D
   L0_2 = L0_2.S669F7D97D7FA1AF2
@@ -253,11 +226,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SDE4234535432A011"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.IsVisible
+function C043642B35062DFB9.SDE4234535432A011()
   local L0_2, L1_2
   L0_2 = C043642B35062DFB9
   L0_2 = L0_2.S1877DC26B9B0F18D
@@ -273,11 +243,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SB1DC31F5897CED84"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.SB1DC31F5897CED84
+function C043642B35062DFB9.SB1DC31F5897CED84()
   local L0_2, L1_2
   L0_2 = C043642B35062DFB9
   L0_2 = L0_2.S1877DC26B9B0F18D
@@ -313,11 +280,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SE61AC9D915261B96"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.SE61AC9D915261B96
+function C043642B35062DFB9.SE61AC9D915261B96()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = C10578806AC30DCA3
   L0_2 = L0_2.SBA6FF574C1C9AA09
@@ -371,11 +335,8 @@ function L70_1()
   return L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S0740E1293132775D"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.IsAppUpdate
+function C043642B35062DFB9.S0740E1293132775D()
   local L0_2, L1_2
   L0_2 = C043642B35062DFB9
   L0_2 = L0_2.S88ABEA8369A7A284
@@ -384,11 +345,8 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S1232F055D76D7B6A"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.IsSetNaviMark
+function C043642B35062DFB9.S1232F055D76D7B6A()
   local L0_2, L1_2
   L0_2 = C043642B35062DFB9
   L0_2 = L0_2.S1877DC26B9B0F18D
@@ -402,11 +360,8 @@ function L70_1()
   return L0_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S17F11D36DF7CECFC"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.S17F11D36DF7CECFC
+function C043642B35062DFB9.S17F11D36DF7CECFC()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = C043642B35062DFB9
   L0_2 = L0_2.S1877DC26B9B0F18D
@@ -426,11 +381,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S78C8E1B8B75BA832"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.GetLastCursorField3DPos
+function C043642B35062DFB9.S78C8E1B8B75BA832()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = C043642B35062DFB9
   L0_2 = L0_2.S88ABEA8369A7A284
@@ -456,11 +408,8 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SF41C3B0D7F54FA51"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.ymap.YMapManager.AddTreasureRaidResidentMapIconDataArray
+function C043642B35062DFB9.SF41C3B0D7F54FA51(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2
   L5_2 = C043642B35062DFB9
   L5_2 = L5_2.S538C9FEEBC8E39E8
@@ -484,11 +433,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S46716A071D93F405"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.YMapManager.AddPlyerFlyPointResidentMapIconDataArray
+function C043642B35062DFB9.S46716A071D93F405(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = C388798CF80F2AF9D
   L3_2 = L3_2.S0DB7CB1E2AF78E21
@@ -513,11 +459,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S4422A44E2ED837BB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.ymap.YMapManager.AddNetworkPlayerResidentMapIconDataArray
+function C043642B35062DFB9.S4422A44E2ED837BB(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   L4_2 = C043642B35062DFB9
   L4_2 = L4_2.S85CA117B2EBE2120
@@ -539,11 +482,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L4_2(L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S2D4BD52C8A296EE9"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.ymap.YMapManager.S2D4BD52C8A296EE9
+function C043642B35062DFB9.S2D4BD52C8A296EE9(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2
   L5_2 = C043642B35062DFB9
   L5_2 = L5_2.S656EB71AFFFE8F0E
@@ -571,11 +511,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S3505487C5267EE2D"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.EraseResidentMapIconDataArray
+function C043642B35062DFB9.S3505487C5267EE2D(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C043642B35062DFB9
   L1_2 = L1_2.SE5EF92BD7C50FBAF
@@ -589,11 +526,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SDAB07A1FC5080E84"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.SDAB07A1FC5080E84
+function C043642B35062DFB9.SDAB07A1FC5080E84(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C043642B35062DFB9
   L1_2 = L1_2.S834177A7F6704E27
@@ -607,11 +541,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S3109141EF46C49A4"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapManager.S3109141EF46C49A4
+function C043642B35062DFB9.S3109141EF46C49A4(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C043642B35062DFB9
   L2_2 = L2_2.S1877DC26B9B0F18D
@@ -637,11 +568,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SEEF4F1F78EF8AF10"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapManager.SEEF4F1F78EF8AF10
+function C043642B35062DFB9.SEEF4F1F78EF8AF10(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = C043642B35062DFB9
   L2_2 = L2_2.S1877DC26B9B0F18D
@@ -717,11 +645,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S0C06A785454AFFB9"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.S0C06A785454AFFB9
+function C043642B35062DFB9.S0C06A785454AFFB9()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L0_2 = C043642B35062DFB9
   L0_2 = L0_2.S1877DC26B9B0F18D
@@ -794,11 +719,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S7FFCC4ECFD7E469E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapManager.S7FFCC4ECFD7E469E
+function C043642B35062DFB9.S7FFCC4ECFD7E469E(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A1_2 then
     A1_2 = false
@@ -839,11 +761,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SA816EC1A3156DD85"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.YMapManager.SA816EC1A3156DD85
+function C043642B35062DFB9.SA816EC1A3156DD85(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = false
@@ -950,11 +869,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S4A491D288AE384A5"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.S4A491D288AE384A5
+function C043642B35062DFB9.S4A491D288AE384A5(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C043642B35062DFB9
   L1_2 = L1_2.S1877DC26B9B0F18D
@@ -973,11 +889,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S1426FC71CA519EC3"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.S1426FC71CA519EC3
+function C043642B35062DFB9.S1426FC71CA519EC3()
   local L0_2, L1_2
   L0_2 = C043642B35062DFB9
   L0_2 = L0_2.S1877DC26B9B0F18D
@@ -993,11 +906,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S82AA103CBCD9A231"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.S82AA103CBCD9A231
+function C043642B35062DFB9.S82AA103CBCD9A231()
   local L0_2, L1_2
   L0_2 = C043642B35062DFB9
   L0_2 = L0_2.S88ABEA8369A7A284
@@ -1010,11 +920,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SE51139D1B4556545"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.SE51139D1B4556545
+function C043642B35062DFB9.SE51139D1B4556545()
   local L0_2, L1_2
   L0_2 = C043642B35062DFB9
   L0_2 = L0_2.S88ABEA8369A7A284
@@ -1027,32 +934,23 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S3F6EBBD95478E85A"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.S3F6EBBD95478E85A
+function C043642B35062DFB9.S3F6EBBD95478E85A(A0_2)
   local L1_2
   L1_2 = C388798CF80F2AF9D
   L1_2.S7A0AF188CB625A1C = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S15478E261B4A4466"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.S15478E261B4A4466
+function C043642B35062DFB9.S15478E261B4A4466()
   local L0_2, L1_2
   L0_2 = C388798CF80F2AF9D
   L0_2 = L0_2.S7A0AF188CB625A1C
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SED03156B0A7B108E"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.SetDebugZoomParam
+function C043642B35062DFB9.SED03156B0A7B108E(A0_2)
   local L1_2
   L1_2 = C043642B35062DFB9
   L1_2 = L1_2.S1877DC26B9B0F18D
@@ -1066,11 +964,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S339920AB96D81AD2"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.GetDebugZoomParam
+function C043642B35062DFB9.S339920AB96D81AD2()
   local L0_2, L1_2
   L0_2 = C043642B35062DFB9
   L0_2 = L0_2.S1877DC26B9B0F18D
@@ -1084,132 +979,97 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SAD16F87F315F2F0F"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.SAD16F87F315F2F0F
+function C043642B35062DFB9.SAD16F87F315F2F0F()
   local L0_2, L1_2
   L0_2 = C388798CF80F2AF9D
   L0_2 = L0_2.S134B34BF8C44FA5F
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SBAB66E36A74D35C3"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.SBAB66E36A74D35C3
+function C043642B35062DFB9.SBAB66E36A74D35C3(A0_2)
   local L1_2
   L1_2 = C388798CF80F2AF9D
   L1_2.S134B34BF8C44FA5F = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S75653105CAA4BD58"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.GetDebugAreaRange
+function C043642B35062DFB9.S75653105CAA4BD58()
   local L0_2, L1_2
   L0_2 = C388798CF80F2AF9D
   L0_2 = L0_2.S2A9E7DA1F0F55A1C
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SA8E7AC806882BE04"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.SetDebugAreaRange
+function C043642B35062DFB9.SA8E7AC806882BE04(A0_2)
   local L1_2
   L1_2 = C388798CF80F2AF9D
   L1_2.S2A9E7DA1F0F55A1C = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SE2ACD8144CFA74B4"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.SE2ACD8144CFA74B4
+function C043642B35062DFB9.SE2ACD8144CFA74B4()
   local L0_2, L1_2
   L0_2 = C388798CF80F2AF9D
   L0_2 = L0_2.SBBF99AAB575BEAC4
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "SC43BF4C4423EBA00"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.SC43BF4C4423EBA00
+function C043642B35062DFB9.SC43BF4C4423EBA00(A0_2)
   local L1_2
   L1_2 = C388798CF80F2AF9D
   L1_2.SBBF99AAB575BEAC4 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S32F66DAA9326769D"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.S32F66DAA9326769D
+function C043642B35062DFB9.S32F66DAA9326769D()
   local L0_2, L1_2
   L0_2 = C388798CF80F2AF9D
   L0_2 = L0_2.S1733E7F03623560D
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S0EB8120762866659"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.S0EB8120762866659
+function C043642B35062DFB9.S0EB8120762866659(A0_2)
   local L1_2
   L1_2 = C388798CF80F2AF9D
   L1_2.S1733E7F03623560D = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S6D252D1F7849CC03"
-
-function L70_1()
+--- main.ui.ymap.YMapManager.IsYMapRotateField
+function C043642B35062DFB9.S6D252D1F7849CC03()
   local L0_2, L1_2
   L0_2 = C388798CF80F2AF9D
   L0_2 = L0_2.S263ED51F26F98A01
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "S11ED504ACE3ECCA9"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.S11ED504ACE3ECCA9
+function C043642B35062DFB9.S11ED504ACE3ECCA9(A0_2)
   local L1_2
   L1_2 = C388798CF80F2AF9D
   L1_2.S263ED51F26F98A01 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C043642B35062DFB9_prototype
+C043642B35062DFB9_prototype = L15_1()
+C043642B35062DFB9.prototype = C043642B35062DFB9_prototype
+--- main.ui.ymap.YMapManager.Setup
+function C043642B35062DFB9_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C043642B35062DFB9
   L3_2 = cCF781FB6
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L2_2.S2EFE190C9C9EBA60 = L3_2
   L2_2 = C043642B35062DFB9
@@ -1222,11 +1082,8 @@ function L70_1(A0_2, A1_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapManager.PreUpdate
+function C043642B35062DFB9_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = C388798CF80F2AF9D
   L2_2 = L2_2.SCC7FFDE2DDF22C20
@@ -1250,12 +1107,12 @@ function L70_1(A0_2, A1_2)
       L3_2 = L2_2
       L2_2 = L2_2.shift
       L2_2 = L2_2(L3_2)
-      L4_2 = A0_2
-      L3_2 = A0_2.FB35B29F656EB494D
+      L4_2 = self
+      L3_2 = self.FB35B29F656EB494D
       L5_2 = L2_2
       L3_2(L4_2, L5_2)
-      L4_2 = A0_2
-      L3_2 = A0_2.FBC7410E01601FD69
+      L4_2 = self
+      L3_2 = self.FBC7410E01601FD69
       L5_2 = L2_2
       L3_2(L4_2, L5_2)
     end
@@ -1271,8 +1128,8 @@ function L70_1(A0_2, A1_2)
       L3_2 = L2_2
       L2_2 = L2_2.shift
       L2_2 = L2_2(L3_2)
-      L4_2 = A0_2
-      L3_2 = A0_2.F0B4B1F50EFB943F1
+      L4_2 = self
+      L3_2 = self.F0B4B1F50EFB943F1
       L5_2 = L2_2.idStr
       L6_2 = L2_2.colorType
       L7_2 = L2_2.raidPtn
@@ -1292,8 +1149,8 @@ function L70_1(A0_2, A1_2)
       L3_2 = L2_2
       L2_2 = L2_2.shift
       L2_2 = L2_2(L3_2)
-      L4_2 = A0_2
-      L3_2 = A0_2.FC3F58CBC2DE809E5
+      L4_2 = self
+      L3_2 = self.FC3F58CBC2DE809E5
       L5_2 = L2_2.IdStr
       L6_2 = L2_2.iconPosition
       L7_2 = L2_2.skyFlyPointKind
@@ -1311,8 +1168,8 @@ function L70_1(A0_2, A1_2)
       L3_2 = L2_2
       L2_2 = L2_2.shift
       L2_2 = L2_2(L3_2)
-      L4_2 = A0_2
-      L3_2 = A0_2.FAF57D082629798DB
+      L4_2 = self
+      L3_2 = self.FAF57D082629798DB
       L5_2 = L2_2.IdStr
       L6_2 = L2_2.iconPosition
       L7_2 = L2_2.constantId
@@ -1331,8 +1188,8 @@ function L70_1(A0_2, A1_2)
       L3_2 = L2_2
       L2_2 = L2_2.shift
       L2_2 = L2_2(L3_2)
-      L4_2 = A0_2
-      L3_2 = A0_2.FD23DC075ECBEC44F
+      L4_2 = self
+      L3_2 = self.FD23DC075ECBEC44F
       L5_2 = L2_2.idStr
       L6_2 = L2_2.iconPosition
       L7_2 = L2_2.pp
@@ -1352,12 +1209,12 @@ function L70_1(A0_2, A1_2)
       L3_2 = L2_2
       L2_2 = L2_2.shift
       L2_2 = L2_2(L3_2)
-      L4_2 = A0_2
-      L3_2 = A0_2.FB35B29F656EB494D
+      L4_2 = self
+      L3_2 = self.FB35B29F656EB494D
       L5_2 = L2_2
       L3_2(L4_2, L5_2)
-      L4_2 = A0_2
-      L3_2 = A0_2.FBC7410E01601FD69
+      L4_2 = self
+      L3_2 = self.FBC7410E01601FD69
       L5_2 = L2_2
       L3_2(L4_2, L5_2)
     end
@@ -1378,8 +1235,8 @@ function L70_1(A0_2, A1_2)
       L2_2 = L2_2.FA153F6630C7F54F5
       L2_2 = L2_2(L3_2)
       if L2_2 then
-        L3_2 = A0_2
-        L2_2 = A0_2.F95E2F70F141D5301
+        L3_2 = self
+        L2_2 = self.F95E2F70F141D5301
         L5_2 = A1_2
         L4_2 = A1_2.f22D509B2
         L6_2 = 2
@@ -1421,11 +1278,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "F95E2F70F141D5301"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapManager.F95E2F70F141D5301
+function C043642B35062DFB9_prototype:F95E2F70F141D5301(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c37452BA0
   L2_2 = L2_2.f85810656
@@ -1434,7 +1288,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.targetPointLandCheck
   L2_2 = L2_2(L3_2)
   if not L2_2 then
-    A0_2[2] = 0.0
+    self[2] = 0.0
     return
   end
   L2_2 = C388798CF80F2AF9D
@@ -1454,14 +1308,14 @@ function L70_1(A0_2, A1_2)
     L4_2 = 0
   end
   if L2_2 ~= L4_2 then
-    A0_2[2] = 0.0
+    self[2] = 0.0
     return
   end
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L5_2 = L5_2 + A1_2
-  A0_2[2] = L5_2
-  L5_2 = A0_2[2]
-  L6_2 = A0_2[3]
+  self[2] = L5_2
+  L5_2 = self[2]
+  L6_2 = self[3]
   if L5_2 < L6_2 then
     return
   end
@@ -1470,14 +1324,11 @@ function L70_1(A0_2, A1_2)
   L6_2 = L5_2
   L5_2 = L5_2.F69073C51BC6FD866
   L5_2(L6_2)
-  A0_2[2] = 0.0
+  self[2] = 0.0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "F0B4B1F50EFB943F1"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.ui.ymap.YMapManager.F0B4B1F50EFB943F1
+function C043642B35062DFB9_prototype:F0B4B1F50EFB943F1(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L6_2 = C3F0C063898369523
   L6_2 = L6_2.SF41C3B0D7F54FA51
@@ -1496,11 +1347,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L7_2(L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "FC3F58CBC2DE809E5"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.ymap.YMapManager.FC3F58CBC2DE809E5
+function C043642B35062DFB9_prototype:FC3F58CBC2DE809E5(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2
   L4_2 = C3F0C063898369523
   L4_2 = L4_2.S46716A071D93F405
@@ -1534,11 +1382,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "F3358DA2DEF85EF52"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.ApplyNetworkPlayer
+function C043642B35062DFB9_prototype:F3358DA2DEF85EF52()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L1_2 = 0
   L2_2 = 0
@@ -1640,11 +1485,8 @@ function L70_1(A0_2)
   L5_2.S488140340623813D = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "F289AC6488A792D90"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.EraseNetworkPlayer
+function C043642B35062DFB9_prototype:F289AC6488A792D90()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C043642B35062DFB9
   L1_2 = L1_2.S85CA117B2EBE2120
@@ -1672,11 +1514,8 @@ function L70_1(A0_2)
   L3_2.S488140340623813D = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "FAF57D082629798DB"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.ymap.YMapManager.FAF57D082629798DB
+function C043642B35062DFB9_prototype:FAF57D082629798DB(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2
   L5_2 = C3F0C063898369523
   L5_2 = L5_2.S4422A44E2ED837BB
@@ -1694,11 +1533,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "FD23DC075ECBEC44F"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.ui.ymap.YMapManager.ALIGN_.AAAAAAAAAQJYGlobal
+function C043642B35062DFB9_prototype:FD23DC075ECBEC44F(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L6_2 = C3F0C063898369523
   L6_2 = L6_2.SEA4BD3AEC9445DAF
@@ -1718,11 +1554,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   L7_2(L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "FB35B29F656EB494D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapManager.FB35B29F656EB494D
+function C043642B35062DFB9_prototype:FB35B29F656EB494D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C043642B35062DFB9
   L2_2 = L2_2.S4A491D288AE384A5
@@ -1758,11 +1591,8 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "F36061D74A046F10A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapManager.F36061D74A046F10A
+function C043642B35062DFB9_prototype:F36061D74A046F10A(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C043642B35062DFB9
   L2_2 = L2_2.S88ABEA8369A7A284
@@ -1772,11 +1602,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "F32107AA4728B0614"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.IsMinimap
+function C043642B35062DFB9_prototype:F32107AA4728B0614()
   local L1_2, L2_2
   L1_2 = C043642B35062DFB9
   L1_2 = L1_2.S88ABEA8369A7A284
@@ -1785,11 +1612,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "F77F93B33D4443425"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.F77F93B33D4443425
+function C043642B35062DFB9_prototype:F77F93B33D4443425()
   local L1_2, L2_2
   L1_2 = C043642B35062DFB9
   L1_2 = L1_2.S88ABEA8369A7A284
@@ -1798,22 +1622,16 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "FB0309AAA19B9BFD2"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.IsFly
+function C043642B35062DFB9_prototype:FB0309AAA19B9BFD2()
   local L1_2
   L1_2 = C388798CF80F2AF9D
   L1_2 = L1_2.S1BBAD5D86C5F2E38
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "FC7E1D214A9D7C103"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.FC7E1D214A9D7C103
+function C043642B35062DFB9_prototype:FC7E1D214A9D7C103()
   local L1_2, L2_2
   L1_2 = C043642B35062DFB9
   L1_2 = L1_2.S88ABEA8369A7A284
@@ -1822,11 +1640,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "F723949DA69B0BBAC"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapManager.SetIsFly
+function C043642B35062DFB9_prototype:F723949DA69B0BBAC(A1_2)
   local L2_2
   L2_2 = C388798CF80F2AF9D
   L2_2.S1BBAD5D86C5F2E38 = A1_2
@@ -1835,33 +1650,24 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "F7F02E0DACCEE9F62"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.GetFlyToField3DPos
+function C043642B35062DFB9_prototype:F7F02E0DACCEE9F62()
   local L1_2
   L1_2 = C388798CF80F2AF9D
   L1_2 = L1_2.S5F59230E5EF53F32
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "FCCE963234A167B94"
-
-function L70_1(A0_2)
+--- main.ui.ymap.YMapManager.FCCE963234A167B94
+function C043642B35062DFB9_prototype:FCCE963234A167B94()
   local L1_2
   L1_2 = C388798CF80F2AF9D
   L1_2 = L1_2.S289EC3773BF97CBF
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C043642B35062DFB9"]["prototype"]
-L69_1 = "FBC7410E01601FD69"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.YMapManager.FBC7410E01601FD69
+function C043642B35062DFB9_prototype:FBC7410E01601FD69(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C043642B35062DFB9
   L2_2 = L2_2.S1877DC26B9B0F18D

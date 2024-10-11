@@ -1,3 +1,7 @@
+---@alias CF75313A9D88BB4FC main_util_reactive_ReactiveVector3
+
+---@class main_util_reactive_ReactiveVector3 : CF75313A9D88BB4FC_prototype
+---@field prototype CF75313A9D88BB4FC_prototype
 L55_1 = _ENV
 L56_1 = "CF75313A9D88BB4FC"
 L57_1 = L15_1
@@ -40,16 +44,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF75313A9D88BB4FC"]
 L69_1 = "__name__"
 L70_1 = "CF75313A9D88BB4FC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75313A9D88BB4FC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF75313A9D88BB4FC"]["prototype"]
-L69_1 = "F38A3ED592849BB13"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class CF75313A9D88BB4FC_prototype
+CF75313A9D88BB4FC_prototype = L15_1()
+CF75313A9D88BB4FC.prototype = CF75313A9D88BB4FC_prototype
+--- main.util.reactive.ReactiveVector3.NoticeCheck
+function CF75313A9D88BB4FC_prototype:F38A3ED592849BB13(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2
   L4_2 = C6E074861269A51A2
   L4_2 = L4_2.SB5C93A8891F98240
@@ -86,38 +85,38 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   if L4_2 then
     L4_2 = C6E074861269A51A2
     L4_2 = L4_2.SB5C93A8891F98240
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L4_2 = L4_2(L5_2)
     if L4_2 then
       L4_2 = CD9AE7C27B00EB066
       L4_2 = L4_2.S28102DAA82AC58FD
       L5_2 = A1_2[1]
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L4_2(L5_2, L6_2)
       L4_2 = CD9AE7C27B00EB066
       L4_2 = L4_2.S28102DAA82AC58FD
       L5_2 = A1_2[2]
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L4_2(L5_2, L6_2)
       L4_2 = CD9AE7C27B00EB066
       L4_2 = L4_2.S28102DAA82AC58FD
       L5_2 = A1_2[3]
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L4_2(L5_2, L6_2)
       L4_2 = CD9AE7C27B00EB066
       L4_2 = L4_2.S28102DAA82AC58FD
       L5_2 = A1_2[1]
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L4_2(L5_2, L6_2)
       L4_2 = CD9AE7C27B00EB066
       L4_2 = L4_2.S28102DAA82AC58FD
       L5_2 = A2_2[2]
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L4_2(L5_2, L6_2)
       L4_2 = CD9AE7C27B00EB066
       L4_2 = L4_2.S28102DAA82AC58FD
       L5_2 = A2_2[3]
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L4_2(L5_2, L6_2)
     end
     L5_2 = A3_2

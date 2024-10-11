@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C9C018BF0431B5277"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C9C018BF0431B5277"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C018BF0431B5277"]
-L69_1 = "__name__"
-L70_1 = "C9C018BF0431B5277"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C018BF0431B5277"]
-L69_1 = "SB21FA562BB1FB817"
+---@alias C9C018BF0431B5277 main_util_LoaderUtil
 
-function L70_1(A0_2)
+---@class main_util_LoaderUtil
+C9C018BF0431B5277 = L15_1()
+C9C018BF0431B5277.new = {}
+C9C018BF0431B5277.__name__ = "C9C018BF0431B5277"
+--- main.util.LoaderUtil.LoadScene
+function C9C018BF0431B5277.SB21FA562BB1FB817(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -133,11 +124,8 @@ function L70_1(A0_2)
   L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C018BF0431B5277"]
-L69_1 = "S619C6B63D77F65DE"
-
-function L70_1(A0_2)
+--- main.util.LoaderUtil.LoadSceneTillObjSetup
+function C9C018BF0431B5277.S619C6B63D77F65DE(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C9C018BF0431B5277
   L1_2 = L1_2.SB21FA562BB1FB817
@@ -207,11 +195,8 @@ function L70_1(A0_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C018BF0431B5277"]
-L69_1 = "S7B6179AB425A98A0"
-
-function L70_1(A0_2)
+--- main.util.LoaderUtil.WaitSetupSceneObject
+function C9C018BF0431B5277.S7B6179AB425A98A0(A0_2)
   local L1_2, L2_2
   L2_2 = A0_2
   L1_2 = A0_2.fE9C29DA1
@@ -232,11 +217,8 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C018BF0431B5277"]
-L69_1 = "S0A9B16CE40AA51E6"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.util.LoaderUtil.InstantiateObjTemp
+function C9C018BF0431B5277.S0A9B16CE40AA51E6(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A4_2 then
     A4_2 = "obj"
@@ -378,11 +360,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L9_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C018BF0431B5277"]
-L69_1 = "SAFD95577E168A02F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.util.LoaderUtil.InstantiateObjTemps
+function C9C018BF0431B5277.SAFD95577E168A02F(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L3_2 = _hx_tab_array
   L4_2 = {}
@@ -486,11 +465,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C018BF0431B5277"]
-L69_1 = "S55918DED99CA35BE"
-
-function L70_1(A0_2)
+--- main.util.LoaderUtil.CacheDanPokemons
+function C9C018BF0431B5277.S55918DED99CA35BE(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C16E9A1468A2F2CA8
   L1_2 = L1_2.S353916D5B3B8028A
@@ -511,11 +487,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C018BF0431B5277"]
-L69_1 = "S45CCAD78DCD81731"
-
-function L70_1(A0_2)
+--- main.util.LoaderUtil.ClearCacheDanPokemons
+function C9C018BF0431B5277.S45CCAD78DCD81731(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = C16E9A1468A2F2CA8
   L1_2 = L1_2.S353916D5B3B8028A
@@ -532,11 +505,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C018BF0431B5277"]
-L69_1 = "S82D574884F80BF7B"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.util.LoaderUtil.InstantiateDanPokemon
+function C9C018BF0431B5277.S82D574884F80BF7B(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   if nil == A5_2 then
     A5_2 = 0
@@ -742,11 +712,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L21_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C018BF0431B5277"]
-L69_1 = "S7B230843BABF0278"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.util.LoaderUtil.InstantiateDanPartner
+function C9C018BF0431B5277.S7B230843BABF0278(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   if nil == A2_2 then
     A2_2 = "obj"
@@ -838,11 +805,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9C018BF0431B5277"]
-L69_1 = "S4EC5D4E28B53AF51"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.util.LoaderUtil.S4EC5D4E28B53AF51
+function C9C018BF0431B5277.S4EC5D4E28B53AF51(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = C9C018BF0431B5277
   L3_2 = L3_2.SC6DC7B59A7ABE362

@@ -1,3 +1,7 @@
+---@alias C9A1D7089A1E484FF main_event_general_lighthouse_ladder_LightHouseLadder
+
+---@class main_event_general_lighthouse_ladder_LightHouseLadder : C9A1D7089A1E484FF_prototype
+---@field prototype C9A1D7089A1E484FF_prototype
 L55_1 = _ENV
 L56_1 = "C9A1D7089A1E484FF"
 L57_1 = L15_1
@@ -48,18 +52,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9A1D7089A1E484FF"]
 L69_1 = "__name__"
 L70_1 = "C9A1D7089A1E484FF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A1D7089A1E484FF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A1D7089A1E484FF"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C9A1D7089A1E484FF_prototype
+C9A1D7089A1E484FF_prototype = L15_1()
+C9A1D7089A1E484FF.prototype = C9A1D7089A1E484FF_prototype
+--- main.event.general.lighthouse_ladder.LightHouseLadder.preStart
+function C9A1D7089A1E484FF_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = nil
   L3_2 = L10_1.string
   L3_2 = L3_2.find
@@ -69,7 +68,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L2_2
@@ -77,7 +76,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -111,7 +110,7 @@ function L70_1(A0_2)
   
   L4_2 = L4_2()
   L4_2 = L4_2 >= 0
-  A0_2[35] = L4_2
+  self[35] = L4_2
   L4_2 = nil
   
   function L5_2()
@@ -119,7 +118,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L4_2
@@ -127,7 +126,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -138,8 +137,8 @@ function L70_1(A0_2)
   L6_2 = L5_2
   L5_2 = L5_2.f5B268E4E
   L5_2 = L5_2(L6_2)
-  A0_2[37] = L5_2
-  L5_2 = A0_2[35]
+  self[37] = L5_2
+  L5_2 = self[35]
   if L5_2 then
     L5_2 = nil
     
@@ -148,7 +147,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = c016374C1
       L1_3 = L1_3.f4555D276
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[12]
       L2_3 = L2_3.owner
       L3_3 = L5_2
@@ -156,7 +155,7 @@ function L70_1(A0_2)
       if L1_3 then
         L0_3 = nil
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[12]
       end
       return L0_3
@@ -214,7 +213,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = c016374C1
       L1_3 = L1_3.f4555D276
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[12]
       L2_3 = L2_3.owner
       L3_3 = L5_2
@@ -222,7 +221,7 @@ function L70_1(A0_2)
       if L1_3 then
         L0_3 = nil
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[12]
       end
       return L0_3
@@ -275,19 +274,13 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A1D7089A1E484FF"]["prototype"]
-L69_1 = "F2E6C9E25867BCE8D"
-
-function L70_1(A0_2)
+--- main.event.general.lighthouse_ladder.LightHouseLadder.postStart
+function C9A1D7089A1E484FF_prototype:F2E6C9E25867BCE8D()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A1D7089A1E484FF"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.lighthouse_ladder.LightHouseLadder.mainBody
+function C9A1D7089A1E484FF_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2
   L1_2 = CCD22EFED4E9E5F89
   L1_2 = L1_2.S92F44AA7751BA6FC
@@ -296,11 +289,11 @@ function L70_1(A0_2)
   L1_2 = C9F6C325569B7E07F
   L1_2 = L1_2.S78BBE9C0C6452E1E
   L1_2()
-  L1_2 = A0_2[37]
+  L1_2 = self[37]
   L2_2 = L1_2
   L1_2 = L1_2.f64857644
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[37]
+  L2_2 = self[37]
   L3_2 = L2_2
   L2_2 = L2_2.f7360ED03
   L2_2, L3_2, L4_2 = L2_2(L3_2)
@@ -314,7 +307,7 @@ function L70_1(A0_2)
   function L11_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[35]
     if L1_3 then
       L1_3 = CAAB2ADFC18C1202F
@@ -365,7 +358,7 @@ function L70_1(A0_2)
     L15_2 = nil
     L14_2(L15_2)
   end
-  L14_2 = A0_2[37]
+  L14_2 = self[37]
   L15_2 = L14_2
   L14_2 = L14_2.f7360ED03
   L14_2, L15_2, L16_2 = L14_2(L15_2)
@@ -421,9 +414,9 @@ function L70_1(A0_2)
   L32_2.up = true
   L32_2.ladder = true
   L31_2.__fields__ = L32_2
-  L32_2 = A0_2[35]
+  L32_2 = self[35]
   L31_2.up = L32_2
-  L32_2 = A0_2[37]
+  L32_2 = self[37]
   L31_2.ladder = L32_2
   L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2 = L30_2(L31_2)
   L27_2(L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2)
@@ -445,7 +438,7 @@ function L70_1(A0_2)
   L27_2()
   L27_2 = c7B88F8F8
   L27_2 = L27_2.fB41FD22F
-  L28_2 = A0_2[36]
+  L28_2 = self[36]
   L27_2 = L27_2(L28_2)
   L28_2 = L27_2
   L27_2 = L27_2.f287946D6
@@ -475,7 +468,7 @@ function L70_1(A0_2)
   L29_2[7] = L36_2
   L29_2[8] = L37_2
   L28_2(L29_2)
-  L28_2 = A0_2[36]
+  L28_2 = self[36]
   L29_2 = L28_2
   L28_2 = L28_2.f7360ED03
   L28_2, L29_2, L30_2 = L28_2(L29_2)
@@ -488,7 +481,7 @@ function L70_1(A0_2)
   L32_2[1] = L33_2
   L32_2[2] = L34_2
   L32_2[3] = L35_2
-  L33_2 = A0_2[36]
+  L33_2 = self[36]
   L34_2 = L33_2
   L33_2 = L33_2.f16155D9E
   L33_2, L34_2, L35_2, L36_2, L37_2 = L33_2(L34_2)
@@ -533,27 +526,18 @@ function L70_1(A0_2)
   L33_2(L34_2, L35_2, L36_2, L37_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A1D7089A1E484FF"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+--- main.event.general.lighthouse_ladder.LightHouseLadder.mainBodyFinish
+function C9A1D7089A1E484FF_prototype:F84C84FA1590CD2A3()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A1D7089A1E484FF"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- main.event.general.lighthouse_ladder.LightHouseLadder.preEnd
+function C9A1D7089A1E484FF_prototype:F740FB4E96926D103()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9A1D7089A1E484FF"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- main.event.general.lighthouse_ladder.LightHouseLadder.postEnd
+function C9A1D7089A1E484FF_prototype:F3E13E4094D09A594()
   local L1_2
 end
 

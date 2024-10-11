@@ -1,3 +1,7 @@
+---@alias C369F7A76F8F8794D main_ui_box_search_view_BoxSearchWazaSelectView
+
+---@class main_ui_box_search_view_BoxSearchWazaSelectView : C369F7A76F8F8794D_prototype
+---@field prototype C369F7A76F8F8794D_prototype
 L55_1 = _ENV
 L56_1 = "C369F7A76F8F8794D"
 L57_1 = L15_1
@@ -432,42 +436,34 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C369F7A76F8F8794D"]
 L69_1 = "__name__"
 L70_1 = "C369F7A76F8F8794D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C369F7A76F8F8794D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C369F7A76F8F8794D"]["prototype"]
-L69_1 = "FE80EC1A77DA27067"
-
-function L70_1(A0_2)
+---@class C369F7A76F8F8794D_prototype
+C369F7A76F8F8794D_prototype = L15_1()
+C369F7A76F8F8794D.prototype = C369F7A76F8F8794D_prototype
+--- main.ui.box.search.view.BoxSearchWazaSelectView.SetupView
+function C369F7A76F8F8794D_prototype:FE80EC1A77DA27067()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FED8981876D459B82
+  L2_2 = self
+  L1_2 = self.FED8981876D459B82
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C369F7A76F8F8794D"]["prototype"]
-L69_1 = "FE07948BEB30B3094"
-
-function L70_1(A0_2)
+--- main.ui.box.search.view.BoxSearchWazaSelectView.SetupShortcutInput
+function C369F7A76F8F8794D_prototype:FE07948BEB30B3094()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = C942183D8A58639B5
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FE07948BEB30B3094
-  L3_2 = A0_2
+  L3_2 = self
   L2_2(L3_2)
   L2_2 = nil
   L3_2 = c3FAF3463
   L3_2 = L3_2.fEFAF8128
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.f52779085
     
@@ -481,44 +477,35 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C369F7A76F8F8794D"]["prototype"]
-L69_1 = "F4EFACF755BC4EFCD"
-
-function L70_1(A0_2)
+--- main.ui.box.search.view.BoxSearchWazaSelectView.UpdateView
+function C369F7A76F8F8794D_prototype:F4EFACF755BC4EFCD()
   local L1_2, L2_2
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   L2_2 = L1_2
   L1_2 = L1_2.FBDF46C200B8C60D8
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C369F7A76F8F8794D"]["prototype"]
-L69_1 = "F1A62376D7D959B99"
-
-function L70_1(A0_2)
+--- main.ui.box.search.view.BoxSearchWazaSelectView.PostSetupView
+function C369F7A76F8F8794D_prototype:F1A62376D7D959B99()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F94D49F39BFA03B44
+  L2_2 = self
+  L1_2 = self.F94D49F39BFA03B44
   L1_2(L2_2)
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   L2_2 = L1_2
   L1_2 = L1_2.FBD90BD4212B06A12
-  L3_2 = A0_2[16]
+  L3_2 = self[16]
   L3_2 = L3_2.length
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C369F7A76F8F8794D"]["prototype"]
-L69_1 = "F94D49F39BFA03B44"
-
-function L70_1(A0_2)
+--- main.ui.box.search.view.BoxSearchWazaSelectView.CreateWazaData
+function C369F7A76F8F8794D_prototype:F94D49F39BFA03B44()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
-  A0_2[16] = L1_2
+  self[16] = L1_2
   L1_2 = C74DC0444FB7F6045
   L1_2 = L1_2.S7A7AADA15D2FA713
   L2_2 = 1
@@ -584,12 +571,12 @@ function L70_1(A0_2)
         L9_2 = L6_2 - 1
         L10_2 = 1
         L8_2 = L8_2(L9_2, L10_2)
-        L10_2 = A0_2
-        L9_2 = A0_2.FAD97DBD27011475A
+        L10_2 = self
+        L9_2 = self.FAD97DBD27011475A
         L11_2 = L8_2
         L9_2 = L9_2(L10_2, L11_2)
         if L9_2 then
-          L9_2 = A0_2[16]
+          L9_2 = self[16]
           L10_2 = L9_2
           L9_2 = L9_2.push
           L11_2 = L8_2
@@ -600,14 +587,11 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C369F7A76F8F8794D"]["prototype"]
-L69_1 = "FAD97DBD27011475A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.box.search.view.BoxSearchWazaSelectView.IsAddWazaNo
+function C369F7A76F8F8794D_prototype:FAD97DBD27011475A(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -624,58 +608,52 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C369F7A76F8F8794D"]["prototype"]
-L69_1 = "FED8981876D459B82"
-
-function L70_1(A0_2)
+--- main.ui.box.search.view.BoxSearchWazaSelectView.CreateScrollPanel
+function C369F7A76F8F8794D_prototype:FED8981876D459B82()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C6CA03C429771C8F9
   L1_2 = L1_2.new
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = nil
   L4_2 = nil
   L5_2 = true
   L6_2 = true
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  A0_2[14] = L1_2
-  L1_2 = A0_2[14]
+  self[14] = L1_2
+  L1_2 = self[14]
   L2_2 = L1_2
   L1_2 = L1_2.F6C145066EAC49665
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.FFBF23C8DE8293903
+  L4_2 = self
+  L5_2 = self.FFBF23C8DE8293903
   L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   L2_2 = L1_2
   L1_2 = L1_2.FD19861E47221CCD4
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F296BBE54655C6496
+  L4_2 = self
+  L5_2 = self.F296BBE54655C6496
   L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   L2_2 = L1_2
   L1_2 = L1_2.FFEEF73133413A85D
-  L3_2 = A0_2[9]
-  L4_2 = A0_2[10]
+  L3_2 = self[9]
+  L4_2 = self[10]
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   L2_2 = L1_2
   L1_2 = L1_2.FF7208E213DA7B4AE
-  L3_2 = A0_2[11]
-  L4_2 = A0_2[12]
+  L3_2 = self[11]
+  L4_2 = self[12]
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C369F7A76F8F8794D"]["prototype"]
-L69_1 = "FFBF23C8DE8293903"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.box.search.view.BoxSearchWazaSelectView.FrameInEvent
+function C369F7A76F8F8794D_prototype:FFBF23C8DE8293903(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L4_2 = A0_2[16]
+  L4_2 = self[16]
   L4_2 = L4_2.length
   if A1_2 < L4_2 then
     L4_2 = C828F047963375FA0
@@ -683,7 +661,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L5_2 = L4_2
     L4_2 = L4_2.fCB6BF1D5
     L6_2 = 0
-    L7_2 = A0_2[16]
+    L7_2 = self[16]
     L7_2 = L7_2[A1_2]
     L4_2(L5_2, L6_2, L7_2)
     L4_2 = C828F047963375FA0
@@ -698,7 +676,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
     L5_2 = c8C3BF576
     L5_2 = L5_2.f316077B2
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = L31_1.string
     L8_2 = L31_1.string
     L9_2 = ""
@@ -717,22 +695,19 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C369F7A76F8F8794D"]["prototype"]
-L69_1 = "F296BBE54655C6496"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.box.search.view.BoxSearchWazaSelectView.DecideItemEvent
+function C369F7A76F8F8794D_prototype:F296BBE54655C6496(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2
-  L4_2 = A0_2[16]
+  L4_2 = self[16]
   L4_2 = L4_2.length
   if A1_2 < L4_2 then
     L4_2 = CDD5027FA252F3EB0
     L4_2 = L4_2.S42EE19E983D31FF9
-    L5_2 = A0_2[16]
+    L5_2 = self[16]
     L5_2 = L5_2[A1_2]
     L4_2.wazaNo = L5_2
-    L5_2 = A0_2
-    L4_2 = A0_2.F9F395223D196514D
+    L5_2 = self
+    L4_2 = self.F9F395223D196514D
     L6_2 = 1
     L4_2(L5_2, L6_2)
   end

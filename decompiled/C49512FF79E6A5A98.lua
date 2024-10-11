@@ -1,3 +1,7 @@
+---@alias C49512FF79E6A5A98 main_ui_util_UIStateMachine
+
+---@class main_ui_util_UIStateMachine : C49512FF79E6A5A98_prototype
+---@field prototype C49512FF79E6A5A98_prototype
 L55_1 = _ENV
 L56_1 = "C49512FF79E6A5A98"
 L57_1 = L15_1
@@ -41,26 +45,21 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C49512FF79E6A5A98"]
 L69_1 = "__name__"
 L70_1 = "C49512FF79E6A5A98"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49512FF79E6A5A98"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49512FF79E6A5A98"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+---@class C49512FF79E6A5A98_prototype
+C49512FF79E6A5A98_prototype = L15_1()
+C49512FF79E6A5A98.prototype = C49512FF79E6A5A98_prototype
+--- main.ui.util.UIStateMachine.Update
+function C49512FF79E6A5A98_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F0702D4FF06982E44
+  L3_2 = self
+  L2_2 = self.F0702D4FF06982E44
   L2_2(L3_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.isEmpty
   L2_2 = L2_2(L3_2)
   if not L2_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.first
     L2_2 = L2_2(L3_2)
@@ -69,30 +68,30 @@ function L70_1(A0_2, A1_2)
       L3_2 = L2_2.FEB6685558281F194
       L5_2 = A1_2
       L3_2 = L3_2(L4_2, L5_2)
-      L5_2 = A0_2
-      L4_2 = A0_2.F0702D4FF06982E44
+      L5_2 = self
+      L4_2 = self.F0702D4FF06982E44
       L4_2(L5_2)
       if L3_2 then
         L5_2 = L2_2
         L4_2 = L2_2.F318E1461D40BF8A0
         L4_2(L5_2)
-        L4_2 = A0_2[2]
+        L4_2 = self[2]
         L5_2 = L4_2
         L4_2 = L4_2.remove
         L6_2 = L2_2
         L4_2(L5_2, L6_2)
-        L4_2 = A0_2[2]
+        L4_2 = self[2]
         L5_2 = L4_2
         L4_2 = L4_2.first
         L4_2 = L4_2(L5_2)
         L2_2 = L4_2
       else
-        L4_2 = A0_2[2]
+        L4_2 = self[2]
         L5_2 = L4_2
         L4_2 = L4_2.first
         L4_2 = L4_2(L5_2)
         if L2_2 ~= L4_2 then
-          L4_2 = A0_2[2]
+          L4_2 = self[2]
           L5_2 = L4_2
           L4_2 = L4_2.first
           L4_2 = L4_2(L5_2)
@@ -105,52 +104,46 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49512FF79E6A5A98"]["prototype"]
-L69_1 = "F0702D4FF06982E44"
-
-function L70_1(A0_2)
+--- main.ui.util.UIStateMachine.UpdateReserve
+function C49512FF79E6A5A98_prototype:F0702D4FF06982E44()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   if nil ~= L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     if L1_2 then
-      L1_2 = A0_2[2]
+      L1_2 = self[2]
       L2_2 = L1_2
       L1_2 = L1_2.add
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L1_2(L2_2, L3_2)
     else
-      L1_2 = A0_2[2]
+      L1_2 = self[2]
       L2_2 = L1_2
       L1_2 = L1_2.push
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L1_2(L2_2, L3_2)
     end
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.F2066FB07A116BB37
-    L3_2 = A0_2
-    L4_2 = A0_2[4]
+    L3_2 = self
+    L4_2 = self[4]
     L1_2(L2_2, L3_2, L4_2)
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.F5BE3D38738EE3C24
     L1_2(L2_2)
-    A0_2[1] = nil
+    self[1] = nil
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C49512FF79E6A5A98"]["prototype"]
-L69_1 = "F28EAF3B3AA178E3E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.UIStateMachine.ChangeState
+function C49512FF79E6A5A98_prototype:F28EAF3B3AA178E3E(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   if nil ~= L2_2 then
     L2_2 = L33_1.getClass
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L2_2 = L2_2(L3_2)
     
     function L3_2()
@@ -172,8 +165,8 @@ function L70_1(A0_2, A1_2)
     
     L4_2()
   end
-  A0_2[1] = A1_2
-  A0_2[3] = true
+  self[1] = A1_2
+  self[3] = true
 end
 
 L68_1[L69_1] = L70_1

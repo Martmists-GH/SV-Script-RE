@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C53E984DF49E695DF"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C53E984DF49E695DF"]
-L69_1 = "new"
+---@alias C53E984DF49E695DF main_savedata_accessor_YMapSaveAccessor
 
-function L70_1()
+---@class main_savedata_accessor_YMapSaveAccessor : C53E984DF49E695DF_prototype
+---@field prototype C53E984DF49E695DF_prototype
+C53E984DF49E695DF = L15_1()
+function C53E984DF49E695DF.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C53E984DF49E695DF
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53E984DF49E695DF"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C53E984DF49E695DF
+function C53E984DF49E695DF.super(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   A0_2[3] = 0
   A0_2[2] = 0
@@ -43,11 +37,7 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53E984DF49E695DF"]
-L69_1 = "__name__"
-L70_1 = "C53E984DF49E695DF"
-L68_1[L69_1] = L70_1
+C53E984DF49E695DF.__name__ = "C53E984DF49E695DF"
 L68_1 = _ENV["C53E984DF49E695DF"]
 L69_1 = "SC4E7DE2F59790CDA"
 
@@ -58,38 +48,27 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53E984DF49E695DF"]
-L69_1 = "S158A12E169031CD2"
-
-function L70_1()
+--- main.savedata.accessor.YMapSaveAccessor.S158A12E169031CD2
+function C53E984DF49E695DF.S158A12E169031CD2()
   local L0_2, L1_2
   L0_2 = C53E984DF49E695DF
   L0_2 = L0_2.S2EC624AA46EABE63
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53E984DF49E695DF"]
-L69_1 = "S5A792A50A4029046"
-
-function L70_1()
+--- main.savedata.accessor.YMapSaveAccessor.S5A792A50A4029046
+function C53E984DF49E695DF.S5A792A50A4029046()
   local L0_2, L1_2
   L0_2 = C53E984DF49E695DF
   L0_2 = L0_2.S3B8D489AB787195B
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53E984DF49E695DF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53E984DF49E695DF"]["prototype"]
-L69_1 = "F042B860498E558B2"
-
-function L70_1(A0_2)
+---@class C53E984DF49E695DF_prototype
+C53E984DF49E695DF_prototype = L15_1()
+C53E984DF49E695DF.prototype = C53E984DF49E695DF_prototype
+--- main.savedata.accessor.YMapSaveAccessor.Format
+function C53E984DF49E695DF_prototype:F042B860498E558B2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   L1_2 = c37452BA0
   L1_2 = L1_2.f4BEF3427
@@ -126,7 +105,7 @@ function L70_1(A0_2)
   L2_2 = L2_2.isMinimapNorthLock
   L3_2 = false
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = c37452BA0
   L2_2 = L2_2.fCA8A8522
   L3_2 = C53E984DF49E695DF
@@ -136,7 +115,7 @@ function L70_1(A0_2)
   L5_2 = L1_2[2]
   L6_2 = L1_2[3]
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = c37452BA0
   L3_2 = L3_2.fCA8A8522
   L4_2 = C53E984DF49E695DF
@@ -167,7 +146,7 @@ function L70_1(A0_2)
   L4_2 = L4_2.targetPointMapIsSu2Entrance
   L5_2 = false
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = c37452BA0
   L4_2 = L4_2.fCA8A8522
   L5_2 = C53E984DF49E695DF
@@ -177,7 +156,7 @@ function L70_1(A0_2)
   L7_2 = L3_2[2]
   L8_2 = L3_2[3]
   L4_2(L5_2, L6_2, L7_2, L8_2)
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = c37452BA0
   L5_2 = L5_2.fCA8A8522
   L6_2 = C53E984DF49E695DF
@@ -192,14 +171,14 @@ function L70_1(A0_2)
   L6_2 = C53E984DF49E695DF
   L6_2 = L6_2.S62549C7FA456CA60
   L6_2 = L6_2.infieldPlayerRotate
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L5_2(L6_2, L7_2)
   L5_2 = c37452BA0
   L5_2 = L5_2.f2774F8E6
   L6_2 = C53E984DF49E695DF
   L6_2 = L6_2.S62549C7FA456CA60
   L6_2 = L6_2.infieldDisplayFrame
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L5_2(L6_2, L7_2)
   L5_2 = C53E984DF49E695DF
   L6_2 = L26_1.new
@@ -251,7 +230,7 @@ function L70_1(A0_2)
     L10_2 = L8_2.IdStr
     L11_2 = ""
     L9_2(L10_2, L11_2)
-    L9_2 = A0_2[1]
+    L9_2 = self[1]
     L10_2 = c37452BA0
     L10_2 = L10_2.fCA8A8522
     L11_2 = L8_2.pos
@@ -419,7 +398,7 @@ function L70_1(A0_2)
     L14_2 = L12_2.sex
     L15_2 = 0
     L13_2(L14_2, L15_2)
-    L13_2 = A0_2[1]
+    L13_2 = self[1]
     L14_2 = c37452BA0
     L14_2 = L14_2.fCA8A8522
     L15_2 = L12_2.pos
@@ -437,11 +416,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53E984DF49E695DF"]["prototype"]
-L69_1 = "FA7B9750360BF2368"
-
-function L70_1(A0_2)
+--- main.savedata.accessor.YMapSaveAccessor.Save
+function C53E984DF49E695DF_prototype:FA7B9750360BF2368()
   local L1_2
   L1_2 = C388798CF80F2AF9D
   L1_2 = L1_2.S219A0EAD3EBB313F

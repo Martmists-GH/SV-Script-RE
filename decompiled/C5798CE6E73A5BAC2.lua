@@ -1,3 +1,7 @@
+---@alias CED120DAF54D797F6 main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokeAttackSleepState
+
+---@class main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokeAttackSleepState : CED120DAF54D797F6_prototype
+---@field prototype CED120DAF54D797F6_prototype
 L55_1 = _ENV
 L56_1 = "C5798CE6E73A5BAC2"
 L57_1 = L15_1
@@ -35,11 +39,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C5798CE6E73A5BAC2"]
 L69_1 = "__name__"
 L70_1 = "C5798CE6E73A5BAC2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5798CE6E73A5BAC2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CED120DAF54D797F6_prototype
+CED120DAF54D797F6_prototype = L15_1()
+CED120DAF54D797F6.prototype = CED120DAF54D797F6_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C5798CE6E73A5BAC2"]["prototype"]
 L69_1 = _ENV["C5798CE6E73A5BAC2"]

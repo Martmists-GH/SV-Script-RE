@@ -1,3 +1,7 @@
+---@alias C3D4317F77424BA74 main_mystery_gift_MysteryGiftViewProgressSerialcode
+
+---@class main_mystery_gift_MysteryGiftViewProgressSerialcode : C3D4317F77424BA74_prototype
+---@field prototype C3D4317F77424BA74_prototype
 L55_1 = _ENV
 L56_1 = "C3D4317F77424BA74"
 L57_1 = L15_1
@@ -94,220 +98,173 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C3D4317F77424BA74"]
 L69_1 = "__name__"
 L70_1 = "C3D4317F77424BA74"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C3D4317F77424BA74_prototype
+C3D4317F77424BA74_prototype = L15_1()
+C3D4317F77424BA74.prototype = C3D4317F77424BA74_prototype
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.Setup
+function C3D4317F77424BA74_prototype:F7C68FEDB79AB6396(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.Destroy
+function C3D4317F77424BA74_prototype:F1C2AA00ADAC52EC5()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.PreUpdate
+function C3D4317F77424BA74_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FEB6685558281F194
+  L3_2 = self
+  L2_2 = self.FEB6685558281F194
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "F20A40E2F8B95D5F6"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.PostUpdate
+function C3D4317F77424BA74_prototype:F20A40E2F8B95D5F6(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "FB3C527E8E00527C6"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.ModeSerialSearch
+function C3D4317F77424BA74_prototype:FB3C527E8E00527C6(A1_2)
   local L2_2, L3_2
   L2_2 = cF986ACC7
   L2_2 = L2_2.f7AC1FE6B
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2[4] = L2_2
-  A0_2[3] = 1
+  self[4] = L2_2
+  self[3] = 1
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "F823BD57394E8754B"
-
-function L70_1(A0_2)
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.ModeInternetSearch
+function C3D4317F77424BA74_prototype:F823BD57394E8754B()
   local L1_2
-  A0_2[4] = nil
-  A0_2[3] = 0
+  self[4] = nil
+  self[3] = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "F4958E6479CF87A73"
-
-function L70_1(A0_2, A1_2)
-  A0_2[3] = 3
-  A0_2[6] = A1_2
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.ModeSerialReceive
+function C3D4317F77424BA74_prototype:F4958E6479CF87A73(A1_2)
+  self[3] = 3
+  self[6] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "F95A8C9F6DDB5B300"
-
-function L70_1(A0_2, A1_2)
-  A0_2[3] = 2
-  A0_2[6] = A1_2
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.ModeInternetReceive
+function C3D4317F77424BA74_prototype:F95A8C9F6DDB5B300(A1_2)
+  self[3] = 2
+  self[6] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "F13C36F41EB04929A"
-
-function L70_1(A0_2)
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.GetBcatClient
+function C3D4317F77424BA74_prototype:F13C36F41EB04929A()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "FE9A99C3BBE0FBB15"
-
-function L70_1(A0_2)
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.FE9A99C3BBE0FBB15
+function C3D4317F77424BA74_prototype:FE9A99C3BBE0FBB15()
   local L1_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "FD774FB391042E51F"
-
-function L70_1(A0_2)
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.FD774FB391042E51F
+function C3D4317F77424BA74_prototype:FD774FB391042E51F()
   local L1_2, L2_2, L3_2
   L1_2 = c18DFB84A
   L1_2 = L1_2.f9BE89B13
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.f1A1210C4
   L2_2, L3_2 = L2_2(L3_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "F39271499E2766A96"
-
-function L70_1(A0_2)
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.GetErrorMessageType
+function C3D4317F77424BA74_prototype:F39271499E2766A96()
   local L1_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "FF3BB370B0C87E833"
-
-function L70_1(A0_2)
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.OnAwake
+function C3D4317F77424BA74_prototype:FF3BB370B0C87E833()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L2_2 = L1_2
   L1_2 = L1_2.FA23D39922B76B247
   L3_2 = "L_bar_00"
   L4_2 = false
   L1_2(L2_2, L3_2, L4_2)
-  A0_2[15] = nil
-  L1_2 = A0_2[3]
+  self[15] = nil
+  L1_2 = self[3]
   if 0 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F0447962DA9E61E54
+    L3_2 = self
+    L2_2 = self.F0447962DA9E61E54
     L4_2 = "kStartBcatSync"
     L2_2(L3_2, L4_2)
   elseif 1 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F0447962DA9E61E54
+    L3_2 = self
+    L2_2 = self.F0447962DA9E61E54
     L4_2 = "kStartCheckSerialCode"
     L2_2(L3_2, L4_2)
   elseif 2 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F0447962DA9E61E54
+    L3_2 = self
+    L2_2 = self.F0447962DA9E61E54
     L4_2 = "kJudgeReceive"
     L2_2(L3_2, L4_2)
   elseif 3 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F0447962DA9E61E54
+    L3_2 = self
+    L2_2 = self.F0447962DA9E61E54
     L4_2 = "kJudgeReceive"
     L2_2(L3_2, L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "F70BF6CEFC6D28963"
-
-function L70_1(A0_2)
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.OnSleep
+function C3D4317F77424BA74_prototype:F70BF6CEFC6D28963()
   local L1_2, L2_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   if nil ~= L1_2 then
-    L1_2 = A0_2[10]
+    L1_2 = self[10]
     L2_2 = L1_2
     L1_2 = L1_2.F6C50EE726797AC7F
     L1_2(L2_2)
-    L1_2 = A0_2[10]
+    L1_2 = self[10]
     L2_2 = L1_2
     L1_2 = L1_2.FEB6685558281F194
     L1_2(L2_2)
   end
-  L1_2 = A0_2[11]
+  L1_2 = self[11]
   if nil ~= L1_2 then
-    L1_2 = A0_2[11]
+    L1_2 = self[11]
     L2_2 = L1_2
     L1_2 = L1_2.F6C50EE726797AC7F
     L1_2(L2_2)
-    L1_2 = A0_2[11]
+    L1_2 = self[11]
     L2_2 = L1_2
     L1_2 = L1_2.FEB6685558281F194
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.Update
+function C3D4317F77424BA74_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   if nil ~= L2_2 then
-    L2_2 = A0_2[10]
+    L2_2 = self[10]
     L3_2 = L2_2
     L2_2 = L2_2.FEB6685558281F194
     L2_2(L3_2)
   end
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   if nil ~= L2_2 then
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     L3_2 = L2_2
     L2_2 = L2_2.FEB6685558281F194
     L2_2(L3_2)
   end
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if "kJudgeReceive" == L2_2 then
     L3_2 = CF1D9D619D324F233
     L3_2 = L3_2.SBFB9EB45D5AD74F0
@@ -317,22 +274,22 @@ function L70_1(A0_2, A1_2)
     if L3_2 then
       return
     end
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L4_2 = L3_2
     L3_2 = L3_2.fD0653CE1
     L3_2 = L3_2(L4_2)
     if 0 ~= L3_2 then
-      A0_2[6] = nil
-      A0_2[8] = 13
-      L4_2 = A0_2
-      L3_2 = A0_2.F0447962DA9E61E54
+      self[6] = nil
+      self[8] = 13
+      L4_2 = self
+      L3_2 = self.F0447962DA9E61E54
       L5_2 = "kToErrorMessage"
       L3_2(L4_2, L5_2)
       return
     end
     L3_2 = c18DFB84A
     L3_2 = L3_2.f9BE89B13
-    L4_2 = A0_2[6]
+    L4_2 = self[6]
     L5_2 = L4_2
     L4_2 = L4_2.f1A1210C4
     L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2 = L4_2(L5_2)
@@ -345,10 +302,10 @@ function L70_1(A0_2, A1_2)
       L3_2 = L3_2.f0FF02C89
       L3_2 = L3_2()
       if L3_2 then
-        A0_2[6] = nil
-        A0_2[8] = 14
-        L4_2 = A0_2
-        L3_2 = A0_2.F0447962DA9E61E54
+        self[6] = nil
+        self[8] = 14
+        L4_2 = self
+        L3_2 = self.F0447962DA9E61E54
         L5_2 = "kToErrorMessage"
         L3_2(L4_2, L5_2)
         return
@@ -370,20 +327,20 @@ function L70_1(A0_2, A1_2)
     L7_2 = L7_2[L3_2]
     L7_2 = L7_2.type
     L4_2(L5_2, L6_2, L7_2)
-    L4_2 = A0_2[9]
+    L4_2 = self[9]
     L5_2 = L4_2
     L4_2 = L4_2.fF5E28294
     L4_2(L5_2)
     L4_2 = nil
-    L6_2 = A0_2
-    L5_2 = A0_2.F0447962DA9E61E54
+    L6_2 = self
+    L5_2 = self.F0447962DA9E61E54
     
     function L7_2()
       local L0_3, L1_3, L2_3, L3_3
       L0_3 = nil
       L1_3 = cF986ACC7
       L1_3 = L1_3.fC17B193D
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[4]
       L3_3 = L4_2
       L1_3 = L1_3(L2_3, L3_3)
@@ -410,8 +367,8 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.SFD025C789440B1D0
     L4_2 = true
     L3_2(L4_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F671E5801B179877A
+    L4_2 = self
+    L3_2 = self.F671E5801B179877A
     L5_2 = "f_in"
     L3_2(L4_2, L5_2)
     L3_2 = CF1D9D619D324F233
@@ -431,18 +388,18 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.SDE3248A50E86E62B
     L4_2 = true
     L3_2(L4_2)
-    L3_2 = A0_2[13]
+    L3_2 = self[13]
     L4_2 = L3_2
     L3_2 = L3_2.fCDC3DEA9
     L5_2 = "kToComplete"
     L3_2(L4_2, L5_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kNone"
     L3_2(L4_2, L5_2)
-    A0_2[15] = nil
+    self[15] = nil
   elseif "kSerialStartRequest" == L2_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.fA330F92D
     L3_2 = L3_2(L4_2)
@@ -450,25 +407,25 @@ function L70_1(A0_2, A1_2)
       L3_2 = C0841C92D10956D35
       L3_2 = L3_2.S84E00A89DFBC380C
       L3_2()
-      L4_2 = A0_2
-      L3_2 = A0_2.F0447962DA9E61E54
+      L4_2 = self
+      L3_2 = self.F0447962DA9E61E54
       L5_2 = "kShowInvalidError"
       L3_2(L4_2, L5_2)
       return
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kSerialWaitRequest"
     L3_2(L4_2, L5_2)
   elseif "kSerialWaitRequest" == L2_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.f122A6743
     L3_2 = L3_2(L4_2)
     if not L3_2 then
       return
     end
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.fCB2FEF1E
     L3_2 = L3_2(L4_2)
@@ -482,8 +439,8 @@ function L70_1(A0_2, A1_2)
       L5_2 = C0841C92D10956D35
       L5_2 = L5_2.S84E00A89DFBC380C
       L5_2()
-      L6_2 = A0_2
-      L5_2 = A0_2.F0447962DA9E61E54
+      L6_2 = self
+      L5_2 = self.F0447962DA9E61E54
       L7_2 = "kShowInvalidError"
       L5_2(L6_2, L7_2)
       return
@@ -492,172 +449,172 @@ function L70_1(A0_2, A1_2)
     L5_2 = L3_2.fC0BE70C7
     L5_2 = L5_2(L6_2)
     if 0 == L5_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kStartSave"
       L6_2(L7_2, L8_2)
     elseif 11 == L5_2 then
-      A0_2[8] = 0
+      self[8] = 0
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 12 == L5_2 then
-      A0_2[8] = 1
+      self[8] = 1
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 13 == L5_2 then
-      A0_2[8] = 2
+      self[8] = 2
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 14 == L5_2 then
-      A0_2[8] = 3
+      self[8] = 3
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 15 == L5_2 then
-      A0_2[8] = 4
+      self[8] = 4
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 16 == L5_2 then
-      A0_2[8] = 5
+      self[8] = 5
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 17 == L5_2 then
-      A0_2[8] = 6
+      self[8] = 6
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 18 == L5_2 then
-      A0_2[8] = 7
+      self[8] = 7
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 22 == L5_2 then
-      A0_2[8] = 8
+      self[8] = 8
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 31 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 91 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 92 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 98 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 99 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 100 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 1000 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 2000 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 5000 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     end
   elseif "kShowInvalidError" == L2_2 then
-    L3_2 = A0_2[13]
+    L3_2 = self[13]
     L4_2 = L3_2
     L3_2 = L3_2.fCDC3DEA9
     L5_2 = "kToTopMenu"
     L3_2(L4_2, L5_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kNone"
     L3_2(L4_2, L5_2)
   elseif "kStartBcatSync" == L2_2 then
@@ -673,22 +630,22 @@ function L70_1(A0_2, A1_2)
     L4_2 = nil
     L5_2 = cF986ACC7
     L5_2 = L5_2.f7DCD2D49
-    L6_2 = A0_2[4]
+    L6_2 = self[4]
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
     if L5_2 then
-      L5_2 = A0_2[4]
+      L5_2 = self[4]
       L6_2 = L5_2
       L5_2 = L5_2.f97B0F94B
       L5_2 = L5_2(L6_2)
-      L6_2 = A0_2[5]
+      L6_2 = self[5]
       L7_2 = L6_2
       L6_2 = L6_2.f5DA1B7CE
       L8_2 = L5_2
       L6_2 = L6_2(L7_2, L8_2)
       L3_2 = L6_2
     else
-      L5_2 = A0_2[5]
+      L5_2 = self[5]
       L6_2 = L5_2
       L5_2 = L5_2.f938E6878
       L7_2 = "normal"
@@ -696,11 +653,11 @@ function L70_1(A0_2, A1_2)
       L3_2 = L5_2
     end
     if L3_2 then
-      L5_2 = A0_2[9]
+      L5_2 = self[9]
       L6_2 = L5_2
       L5_2 = L5_2.fF5E28294
       L5_2(L6_2)
-      L5_2 = A0_2[10]
+      L5_2 = self[10]
       L6_2 = L5_2
       L5_2 = L5_2.F659ECC64D6855C4A
       L7_2 = false
@@ -721,18 +678,18 @@ function L70_1(A0_2, A1_2)
       L9_2 = L9_2[L5_2]
       L9_2 = L9_2.type
       L6_2(L7_2, L8_2, L9_2)
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kWaitBcatSync"
       L6_2(L7_2, L8_2)
     else
-      L6_2 = A0_2
-      L5_2 = A0_2.F0447962DA9E61E54
+      L6_2 = self
+      L5_2 = self.F0447962DA9E61E54
       L7_2 = "kShowInvalidError"
       L5_2(L6_2, L7_2)
     end
   elseif "kStartCheckSerialCode" == L2_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.fA5683E93
     L3_2 = L3_2(L4_2)
@@ -753,22 +710,22 @@ function L70_1(A0_2, A1_2)
       L7_2 = L7_2[L3_2]
       L7_2 = L7_2.type
       L4_2(L5_2, L6_2, L7_2)
-      L4_2 = A0_2[10]
+      L4_2 = self[10]
       L5_2 = L4_2
       L4_2 = L4_2.F659ECC64D6855C4A
       L6_2 = false
       L4_2(L5_2, L6_2)
-      L4_2 = A0_2[9]
+      L4_2 = self[9]
       L5_2 = L4_2
       L4_2 = L4_2.fF5E28294
       L4_2(L5_2)
-      L5_2 = A0_2
-      L4_2 = A0_2.F0447962DA9E61E54
+      L5_2 = self
+      L4_2 = self.F0447962DA9E61E54
       L6_2 = "kWaitCheckSerialCode"
       L4_2(L5_2, L6_2)
     else
-      L4_2 = A0_2
-      L3_2 = A0_2.F0447962DA9E61E54
+      L4_2 = self
+      L3_2 = self.F0447962DA9E61E54
       L5_2 = "kShowInvalidError"
       L3_2(L4_2, L5_2)
     end
@@ -781,11 +738,11 @@ function L70_1(A0_2, A1_2)
     if L3_2 then
       return
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.FBFA1CA3D527279B9
+    L4_2 = self
+    L3_2 = self.FBFA1CA3D527279B9
     L3_2(L4_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kWaitDemo"
     L3_2(L4_2, L5_2)
   elseif "kStartDexRegister" == L2_2 then
@@ -808,7 +765,7 @@ function L70_1(A0_2, A1_2)
         L6_2 = L6_2.fB1E655AE
         L7_2 = C6825AC9B197940B4
         L7_2 = L7_2.SC22C2773A68837D3
-        L8_2 = A0_2[15]
+        L8_2 = self[15]
         L9_2 = 4
         L11_2 = L3_2
         L10_2 = L3_2.fDB0AC6C7
@@ -817,30 +774,30 @@ function L70_1(A0_2, A1_2)
         L8_2 = L5_2
         L6_2 = L6_2(L7_2, L8_2)
         if L6_2 then
-          L6_2 = A0_2[13]
+          L6_2 = self[13]
           L7_2 = L6_2
           L6_2 = L6_2.fCDC3DEA9
           L8_2 = "kToComplete"
           L6_2(L7_2, L8_2)
-          L7_2 = A0_2
-          L6_2 = A0_2.F0447962DA9E61E54
+          L7_2 = self
+          L6_2 = self.F0447962DA9E61E54
           L8_2 = "kNone"
           L6_2(L7_2, L8_2)
           return
         end
-        L7_2 = A0_2
-        L6_2 = A0_2.F0447962DA9E61E54
+        L7_2 = self
+        L6_2 = self.F0447962DA9E61E54
         L8_2 = "kWaitDexRegister"
         L6_2(L7_2, L8_2)
       else
-        L6_2 = A0_2
-        L5_2 = A0_2.F0447962DA9E61E54
+        L6_2 = self
+        L5_2 = self.F0447962DA9E61E54
         L7_2 = "kSequenceEnd"
         L5_2(L6_2, L7_2)
       end
     else
-      L6_2 = A0_2
-      L5_2 = A0_2.F0447962DA9E61E54
+      L6_2 = self
+      L5_2 = self.F0447962DA9E61E54
       L7_2 = "kSequenceEnd"
       L5_2(L6_2, L7_2)
     end
@@ -919,22 +876,22 @@ function L70_1(A0_2, A1_2)
     L3_2(L4_2)
     L3_2 = cAE518DF8
     L3_2 = L3_2.f67AB89EF
-    L4_2 = A0_2[6]
+    L4_2 = self[6]
     L5_2 = L4_2
     L4_2 = L4_2.f1A1210C4
     L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2 = L4_2(L5_2)
     L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
-    A0_2[7] = L3_2
+    self[7] = L3_2
     L3_2 = cAE518DF8
     L3_2 = L3_2.fEA1BF757
     L3_2()
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     if 3 == L3_2 then
       L3_2 = C0841C92D10956D35
       L3_2 = L3_2.S84E00A89DFBC380C
       L3_2()
-      L4_2 = A0_2
-      L3_2 = A0_2.F0447962DA9E61E54
+      L4_2 = self
+      L3_2 = self.F0447962DA9E61E54
       L5_2 = "kShowInvalidError"
       L3_2(L4_2, L5_2)
       return
@@ -946,8 +903,8 @@ function L70_1(A0_2, A1_2)
     L5_2 = 3
     L6_2 = false
     L3_2(L4_2, L5_2, L6_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kWaitSave"
     L3_2(L4_2, L5_2)
   elseif "kStartSaveSerialTrialCountIncrement" == L2_2 then
@@ -971,12 +928,12 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.fDD3A3703
     L3_2 = L3_2()
     if L3_2 then
-      A0_2[8] = 16
+      self[8] = 16
     else
-      A0_2[8] = 0
+      self[8] = 0
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kWaitSaveSerialTrialCountIncrement"
     L3_2(L4_2, L5_2)
   elseif "kStartSaveSerialTrialCountIncrementUntilLocked" == L2_2 then
@@ -1000,9 +957,9 @@ function L70_1(A0_2, A1_2)
     L6_2 = 3
     L7_2 = false
     L4_2(L5_2, L6_2, L7_2)
-    A0_2[8] = 8
-    L5_2 = A0_2
-    L4_2 = A0_2.F0447962DA9E61E54
+    self[8] = 8
+    L5_2 = self
+    L4_2 = self.F0447962DA9E61E54
     L6_2 = "kWaitSaveSerialTrialCountIncrement"
     L4_2(L5_2, L6_2)
   elseif "kStartSaveSerialTrialCountZero" == L2_2 then
@@ -1022,83 +979,83 @@ function L70_1(A0_2, A1_2)
     L5_2 = 3
     L6_2 = false
     L3_2(L4_2, L5_2, L6_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kWaitSaveSerialTrialCountZero"
     L3_2(L4_2, L5_2)
   elseif "kToErrorMessage" == L2_2 then
-    L3_2 = A0_2[13]
+    L3_2 = self[13]
     L4_2 = L3_2
     L3_2 = L3_2.fCDC3DEA9
     L5_2 = "kToErrorMessage"
     L3_2(L4_2, L5_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kNone"
     L3_2(L4_2, L5_2)
   elseif "kToList" == L2_2 then
-    L3_2 = A0_2[3]
+    L3_2 = self[3]
     if 0 == L3_2 then
-      L4_2 = A0_2[13]
+      L4_2 = self[13]
       L5_2 = L4_2
       L4_2 = L4_2.fCDC3DEA9
       L6_2 = "kToListInternet"
       L4_2(L5_2, L6_2)
-      L5_2 = A0_2
-      L4_2 = A0_2.F0447962DA9E61E54
+      L5_2 = self
+      L4_2 = self.F0447962DA9E61E54
       L6_2 = "kNone"
       L4_2(L5_2, L6_2)
     elseif 1 == L3_2 then
-      L4_2 = A0_2[13]
+      L4_2 = self[13]
       L5_2 = L4_2
       L4_2 = L4_2.fCDC3DEA9
       L6_2 = "kToListSerial"
       L4_2(L5_2, L6_2)
-      L5_2 = A0_2
-      L4_2 = A0_2.F0447962DA9E61E54
+      L5_2 = self
+      L4_2 = self.F0447962DA9E61E54
       L6_2 = "kNone"
       L4_2(L5_2, L6_2)
     elseif 2 == L3_2 then
-      L4_2 = A0_2[13]
+      L4_2 = self[13]
       L5_2 = L4_2
       L4_2 = L4_2.fCDC3DEA9
       L6_2 = "kToTopMenu"
       L4_2(L5_2, L6_2)
-      L5_2 = A0_2
-      L4_2 = A0_2.F0447962DA9E61E54
+      L5_2 = self
+      L4_2 = self.F0447962DA9E61E54
       L6_2 = "kNone"
       L4_2(L5_2, L6_2)
     elseif 3 == L3_2 then
-      L4_2 = A0_2[13]
+      L4_2 = self[13]
       L5_2 = L4_2
       L4_2 = L4_2.fCDC3DEA9
       L6_2 = "kToTopMenu"
       L4_2(L5_2, L6_2)
-      L5_2 = A0_2
-      L4_2 = A0_2.F0447962DA9E61E54
+      L5_2 = self
+      L4_2 = self.F0447962DA9E61E54
       L6_2 = "kNone"
       L4_2(L5_2, L6_2)
     end
   elseif "kWaitBcatSync" == L2_2 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.f122A6743
     L3_2 = L3_2(L4_2)
     if not L3_2 then
       return
     end
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     L4_2 = L3_2
     L3_2 = L3_2.f92A1FFA7
     L3_2(L4_2)
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     L4_2 = L3_2
     L3_2 = L3_2.fC0E2CAD0
     L3_2 = L3_2(L4_2)
     if L3_2 < 2.0 then
       return
     end
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.fCB2FEF1E
     L3_2 = L3_2(L4_2)
@@ -1109,8 +1066,8 @@ function L70_1(A0_2, A1_2)
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
     if L5_2 then
-      L6_2 = A0_2
-      L5_2 = A0_2.F0447962DA9E61E54
+      L6_2 = self
+      L5_2 = self.F0447962DA9E61E54
       L7_2 = "kShowInvalidError"
       L5_2(L6_2, L7_2)
       return
@@ -1119,40 +1076,40 @@ function L70_1(A0_2, A1_2)
     L5_2 = L3_2.fC0BE70C7
     L5_2 = L5_2(L6_2)
     if 0 == L5_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToList"
       L6_2(L7_2, L8_2)
     elseif 1 == L5_2 then
-      A0_2[8] = 12
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      self[8] = 12
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 2 == L5_2 then
-      A0_2[8] = 11
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      self[8] = 11
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 3 == L5_2 then
-      A0_2[8] = 15
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      self[8] = 15
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 4 == L5_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 5 == L5_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     end
-    L6_2 = A0_2[10]
+    L6_2 = self[10]
     L7_2 = L6_2
     L6_2 = L6_2.F6C50EE726797AC7F
     L6_2(L7_2)
@@ -1160,25 +1117,25 @@ function L70_1(A0_2, A1_2)
     L6_2 = L6_2.S84E00A89DFBC380C
     L6_2()
   elseif "kWaitCheckSerialCode" == L2_2 then
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.f122A6743
     L3_2 = L3_2(L4_2)
     if not L3_2 then
       return
     end
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     L4_2 = L3_2
     L3_2 = L3_2.f92A1FFA7
     L3_2(L4_2)
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     L4_2 = L3_2
     L3_2 = L3_2.fC0E2CAD0
     L3_2 = L3_2(L4_2)
     if L3_2 < 2.0 then
       return
     end
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.fCB2FEF1E
     L3_2 = L3_2(L4_2)
@@ -1192,8 +1149,8 @@ function L70_1(A0_2, A1_2)
       L5_2 = C0841C92D10956D35
       L5_2 = L5_2.S84E00A89DFBC380C
       L5_2()
-      L6_2 = A0_2
-      L5_2 = A0_2.F0447962DA9E61E54
+      L6_2 = self
+      L5_2 = self.F0447962DA9E61E54
       L7_2 = "kShowInvalidError"
       L5_2(L6_2, L7_2)
       return
@@ -1202,179 +1159,179 @@ function L70_1(A0_2, A1_2)
     L5_2 = L3_2.fC0BE70C7
     L5_2 = L5_2(L6_2)
     if 0 == L5_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kStartSaveSerialTrialCountZero"
       L6_2(L7_2, L8_2)
     elseif 11 == L5_2 then
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kStartSaveSerialTrialCountIncrement"
       L6_2(L7_2, L8_2)
     elseif 12 == L5_2 then
-      A0_2[8] = 1
+      self[8] = 1
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 13 == L5_2 then
-      A0_2[8] = 2
+      self[8] = 2
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 14 == L5_2 then
-      A0_2[8] = 3
+      self[8] = 3
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 15 == L5_2 then
-      A0_2[8] = 4
+      self[8] = 4
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 16 == L5_2 then
-      A0_2[8] = 5
+      self[8] = 5
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 17 == L5_2 then
-      A0_2[8] = 6
+      self[8] = 6
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 18 == L5_2 then
-      A0_2[8] = 7
+      self[8] = 7
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kToErrorMessage"
       L6_2(L7_2, L8_2)
     elseif 22 == L5_2 then
-      A0_2[8] = 8
+      self[8] = 8
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kStartSaveSerialTrialCountIncrementUntilLocked"
       L6_2(L7_2, L8_2)
     elseif 31 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 91 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 92 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 98 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 99 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 100 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 1000 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 2000 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     elseif 5000 == L5_2 then
       L6_2 = C0841C92D10956D35
       L6_2 = L6_2.S84E00A89DFBC380C
       L6_2()
-      L7_2 = A0_2
-      L6_2 = A0_2.F0447962DA9E61E54
+      L7_2 = self
+      L6_2 = self.F0447962DA9E61E54
       L8_2 = "kShowInvalidError"
       L6_2(L7_2, L8_2)
     end
   elseif "kWaitDemo" == L2_2 then
-    L3_2 = A0_2[14]
+    L3_2 = self[14]
     L4_2 = L3_2
     L3_2 = L3_2.FC84A3C9D152E3A64
     L3_2 = L3_2(L4_2)
     if not L3_2 then
-      L3_2 = A0_2[14]
+      L3_2 = self[14]
       L4_2 = L3_2
       L3_2 = L3_2.F2B8F4D1A92BBC209
       L3_2(L4_2)
       return
     end
-    L3_2 = A0_2[14]
+    L3_2 = self[14]
     L4_2 = L3_2
     L3_2 = L3_2.FD7D37C5A967ABE41
     L3_2(L4_2)
     L3_2 = c18DFB84A
     L3_2 = L3_2.f9BE89B13
-    L4_2 = A0_2[6]
+    L4_2 = self[6]
     L5_2 = L4_2
     L4_2 = L4_2.f1A1210C4
     L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2 = L4_2(L5_2)
@@ -1383,13 +1340,13 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.fEA5C35B1
     L3_2 = L3_2(L4_2)
     if 1 == L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F0447962DA9E61E54
+      L4_2 = self
+      L3_2 = self.F0447962DA9E61E54
       L5_2 = "kStartDexRegister"
       L3_2(L4_2, L5_2)
     else
-      L4_2 = A0_2
-      L3_2 = A0_2.F0447962DA9E61E54
+      L4_2 = self
+      L3_2 = self.F0447962DA9E61E54
       L5_2 = "kSequenceEnd"
       L3_2(L4_2, L5_2)
     end
@@ -1400,8 +1357,8 @@ function L70_1(A0_2, A1_2)
     if false == L3_2 then
       return
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kSequenceEnd"
     L3_2(L4_2, L5_2)
   elseif "kWaitSave" == L2_2 then
@@ -1411,11 +1368,11 @@ function L70_1(A0_2, A1_2)
     if nil ~= L3_2 then
       return
     end
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     L4_2 = L3_2
     L3_2 = L3_2.f92A1FFA7
     L3_2(L4_2)
-    L3_2 = A0_2[9]
+    L3_2 = self[9]
     L4_2 = L3_2
     L3_2 = L3_2.fC0E2CAD0
     L3_2 = L3_2(L4_2)
@@ -1424,18 +1381,18 @@ function L70_1(A0_2, A1_2)
     end
     L3_2 = cAE518DF8
     L3_2 = L3_2.f47F70F43
-    L4_2 = A0_2[6]
+    L4_2 = self[6]
     L5_2 = L4_2
     L4_2 = L4_2.f1A1210C4
     L4_2 = L4_2(L5_2)
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L5_2 = 3 == L5_2
     L3_2(L4_2, L5_2)
     L3_2 = C0841C92D10956D35
     L3_2 = L3_2.S84E00A89DFBC380C
     L3_2()
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kStartDemo"
     L3_2(L4_2, L5_2)
   elseif "kWaitSaveSerialTrialCountIncrement" == L2_2 then
@@ -1448,8 +1405,8 @@ function L70_1(A0_2, A1_2)
     L3_2 = C0841C92D10956D35
     L3_2 = L3_2.S84E00A89DFBC380C
     L3_2()
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kToErrorMessage"
     L3_2(L4_2, L5_2)
   elseif "kWaitSaveSerialTrialCountZero" == L2_2 then
@@ -1462,28 +1419,22 @@ function L70_1(A0_2, A1_2)
     L3_2 = C0841C92D10956D35
     L3_2 = L3_2.S84E00A89DFBC380C
     L3_2()
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kStartBcatSync"
     L3_2(L4_2, L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "F0447962DA9E61E54"
-
-function L70_1(A0_2, A1_2)
-  A0_2[2] = A1_2
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.SetState
+function C3D4317F77424BA74_prototype:F0447962DA9E61E54(A1_2)
+  self[2] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "F671E5801B179877A"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.HeaderPlayAnime
+function C3D4317F77424BA74_prototype:F671E5801B179877A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f462C9B70
   L2_2 = L2_2(L3_2)
@@ -1521,15 +1472,12 @@ function L70_1(A0_2, A1_2)
   L7_2(L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3D4317F77424BA74"]["prototype"]
-L69_1 = "FBFA1CA3D527279B9"
-
-function L70_1(A0_2)
+--- main.mystery_gift.MysteryGiftViewProgressSerialcode.SetupDemo
+function C3D4317F77424BA74_prototype:FBFA1CA3D527279B9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = c18DFB84A
   L1_2 = L1_2.f9BE89B13
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.f1A1210C4
   L2_2, L3_2, L4_2, L5_2, L6_2, L7_2 = L2_2(L3_2)
@@ -1537,7 +1485,7 @@ function L70_1(A0_2)
   L2_2 = C7A457D6A180A353B
   L2_2 = L2_2.new
   L2_2 = L2_2()
-  A0_2[14] = L2_2
+  self[14] = L2_2
   L3_2 = L1_2
   L2_2 = L1_2.fEA5C35B1
   L2_2 = L2_2(L3_2)
@@ -1545,7 +1493,7 @@ function L70_1(A0_2)
     L2_2 = cAE518DF8
     L2_2 = L2_2.f297DB30D
     L2_2 = L2_2()
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     if 1 == L3_2 then
       L3_2 = CD081B219DEE96EEF
       L3_2 = L3_2.S7B9043002F3D247B
@@ -1553,7 +1501,7 @@ function L70_1(A0_2)
       L4_2 = L2_2.f62DD4507
       L4_2, L5_2, L6_2, L7_2 = L4_2(L5_2)
       L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
-      A0_2[15] = L3_2
+      self[15] = L3_2
     else
       L3_2 = CD081B219DEE96EEF
       L3_2 = L3_2.S5D3812A8BCAB4D5D
@@ -1564,17 +1512,17 @@ function L70_1(A0_2)
       L5_2 = L2_2.f33F016EA
       L5_2, L6_2, L7_2 = L5_2(L6_2)
       L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
-      A0_2[15] = L3_2
+      self[15] = L3_2
     end
-    L3_2 = A0_2[14]
+    L3_2 = self[14]
     L4_2 = L3_2
     L3_2 = L3_2.FD8EF284B6397849A
     L5_2 = 1
-    L6_2 = A0_2[15]
+    L6_2 = self[15]
     L7_2 = true
     L3_2(L4_2, L5_2, L6_2, L7_2)
   else
-    L2_2 = A0_2[14]
+    L2_2 = self[14]
     L3_2 = L2_2
     L2_2 = L2_2.FD8EF284B6397849A
     L4_2 = 0
@@ -1593,8 +1541,8 @@ function L70_1(A0_2)
   L2_2 = L2_2.fB4E9D030
   L4_2 = "f_out"
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F671E5801B179877A
+  L3_2 = self
+  L2_2 = self.F671E5801B179877A
   L4_2 = "f_out"
   L2_2(L3_2, L4_2)
   L2_2 = CF1D9D619D324F233

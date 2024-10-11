@@ -1,3 +1,5 @@
+---@class C2A471B048BC98EF4 : C2A471B048BC98EF4_prototype
+---@field prototype C2A471B048BC98EF4_prototype
 L55_1 = _ENV
 L56_1 = "C2A471B048BC98EF4"
 L57_1 = L15_1
@@ -43,46 +45,35 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2A471B048BC98EF4"]
 L69_1 = "__name__"
 L70_1 = "C2A471B048BC98EF4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2A471B048BC98EF4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2A471B048BC98EF4"]["prototype"]
-L69_1 = "F7A3D296366E973CB"
-
-function L70_1(A0_2)
+---@class C2A471B048BC98EF4_prototype
+C2A471B048BC98EF4_prototype = L15_1()
+C2A471B048BC98EF4.prototype = C2A471B048BC98EF4_prototype
+--- C2A471B048BC98EF4.Initialize
+function C2A471B048BC98EF4_prototype:F7A3D296366E973CB()
   local L1_2, L2_2, L3_2
   L1_2 = CC706B7C02933B741
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F7A3D296366E973CB
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[16]
-  A0_2[20] = L1_2
-  L1_2 = A0_2[19]
+  L1_2 = self[16]
+  self[20] = L1_2
+  L1_2 = self[19]
   L2_2 = L1_2
   L1_2 = L1_2.f770D9A62
   L3_2 = "attr_kusamura"
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2A471B048BC98EF4"]["prototype"]
-L69_1 = "F6D2BEA21B2529B09"
-
-function L70_1(A0_2)
+--- C2A471B048BC98EF4.get_TemplateName
+function C2A471B048BC98EF4_prototype:F6D2BEA21B2529B09()
   local L1_2
   L1_2 = "wind_grass"
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2A471B048BC98EF4"]["prototype"]
-L69_1 = "F606BD9A1748215F6"
-
-function L70_1(A0_2)
+--- C2A471B048BC98EF4.UpdateActive
+function C2A471B048BC98EF4_prototype:F606BD9A1748215F6()
   local L1_2, L2_2
   L1_2 = CA66BF560955C69B4
   L1_2 = L1_2.SC8223E31D3163519
@@ -97,13 +88,10 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2A471B048BC98EF4"]["prototype"]
-L69_1 = "F669F56455D737060"
-
-function L70_1(A0_2, A1_2)
+--- C2A471B048BC98EF4.F669F56455D737060
+function C2A471B048BC98EF4_prototype:F669F56455D737060(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[20]
+  L2_2 = self[20]
   L3_2 = L2_2
   L2_2 = L2_2.F35ABD8F89DBAF855
   L4_2 = A1_2

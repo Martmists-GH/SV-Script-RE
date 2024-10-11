@@ -1,3 +1,7 @@
+---@alias C53C7322A79AC43BA main_ui_option_view_OptionUIDecideSequence
+
+---@class main_ui_option_view_OptionUIDecideSequence : C53C7322A79AC43BA_prototype
+---@field prototype C53C7322A79AC43BA_prototype
 L55_1 = _ENV
 L56_1 = "CA4DC6B43D3E44558"
 L57_1 = L15_1
@@ -42,11 +46,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CA4DC6B43D3E44558"]
 L69_1 = "__name__"
 L70_1 = "CA4DC6B43D3E44558"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA4DC6B43D3E44558"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C53C7322A79AC43BA_prototype
+C53C7322A79AC43BA_prototype = L15_1()
+C53C7322A79AC43BA.prototype = C53C7322A79AC43BA_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA4DC6B43D3E44558"]["prototype"]
 L69_1 = _ENV["CA4DC6B43D3E44558"]

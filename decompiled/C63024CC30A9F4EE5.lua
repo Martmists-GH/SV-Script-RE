@@ -1,3 +1,7 @@
+---@alias C63024CC30A9F4EE5 main_management_originalbook_OriginalBookData
+
+---@class main_management_originalbook_OriginalBookData : C63024CC30A9F4EE5_prototype
+---@field prototype C63024CC30A9F4EE5_prototype
 L55_1 = _ENV
 L56_1 = "C63024CC30A9F4EE5"
 L57_1 = L15_1
@@ -82,89 +86,72 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C63024CC30A9F4EE5"]
 L69_1 = "__name__"
 L70_1 = "C63024CC30A9F4EE5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C63024CC30A9F4EE5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C63024CC30A9F4EE5"]["prototype"]
-L69_1 = "F7390ABD8A48AA4C5"
-
-function L70_1(A0_2)
+---@class C63024CC30A9F4EE5_prototype
+C63024CC30A9F4EE5_prototype = L15_1()
+C63024CC30A9F4EE5.prototype = C63024CC30A9F4EE5_prototype
+--- main.management.originalbook.OriginalBookData.get_id
+function C63024CC30A9F4EE5_prototype:F7390ABD8A48AA4C5()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C63024CC30A9F4EE5"]["prototype"]
-L69_1 = "FAF51BAF83E441EDE"
-
-function L70_1(A0_2)
+--- main.management.originalbook.OriginalBookData.get_title
+function C63024CC30A9F4EE5_prototype:FAF51BAF83E441EDE()
   local L1_2
   L1_2 = cDD25B9DB
   L1_2 = L1_2.f4F92E4A5
   L1_2 = L1_2()
   if 0 == L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     return L1_2
   else
-    L1_2 = A0_2[6]
+    L1_2 = self[6]
     return L1_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C63024CC30A9F4EE5"]["prototype"]
-L69_1 = "FA5C1A42161978EEE"
-
-function L70_1(A0_2)
+--- main.management.originalbook.OriginalBookData.get_maintext
+function C63024CC30A9F4EE5_prototype:FA5C1A42161978EEE()
   local L1_2
   L1_2 = cDD25B9DB
   L1_2 = L1_2.f4F92E4A5
   L1_2 = L1_2()
   if 0 == L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     return L1_2
   else
-    L1_2 = A0_2[7]
+    L1_2 = self[7]
     return L1_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C63024CC30A9F4EE5"]["prototype"]
-L69_1 = "FFBD4447F1043ADB3"
-
-function L70_1(A0_2)
+--- main.management.originalbook.OriginalBookData.get_side
+function C63024CC30A9F4EE5_prototype:FFBD4447F1043ADB3()
   local L1_2
   L1_2 = cDD25B9DB
   L1_2 = L1_2.f4F92E4A5
   L1_2 = L1_2()
   if 0 == L1_2 then
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     return L1_2
   else
-    L1_2 = A0_2[8]
+    L1_2 = self[8]
     return L1_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C63024CC30A9F4EE5"]["prototype"]
-L69_1 = "F9A842E1F6A94D180"
-
-function L70_1(A0_2)
+--- main.management.originalbook.OriginalBookData.get_pic
+function C63024CC30A9F4EE5_prototype:F9A842E1F6A94D180()
   local L1_2
   L1_2 = cDD25B9DB
   L1_2 = L1_2.f4F92E4A5
   L1_2 = L1_2()
   if 0 == L1_2 then
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     return L1_2
   else
-    L1_2 = A0_2[9]
+    L1_2 = self[9]
     return L1_2
   end
 end

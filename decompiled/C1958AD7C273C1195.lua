@@ -1,3 +1,7 @@
+---@alias C41004305AA276DEE main_ui_util_DressupUtil
+
+---@class main_ui_util_DressupUtil : C41004305AA276DEE_prototype
+---@field prototype C41004305AA276DEE_prototype
 L55_1 = _ENV
 L56_1 = "C1958AD7C273C1195"
 L57_1 = L15_1
@@ -36,11 +40,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1958AD7C273C1195"]
 L69_1 = "__name__"
 L70_1 = "C1958AD7C273C1195"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1958AD7C273C1195"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C41004305AA276DEE_prototype
+C41004305AA276DEE_prototype = L15_1()
+C41004305AA276DEE.prototype = C41004305AA276DEE_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1958AD7C273C1195"]["prototype"]
 L69_1 = _ENV["C1958AD7C273C1195"]

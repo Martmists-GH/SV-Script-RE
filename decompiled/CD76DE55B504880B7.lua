@@ -1,3 +1,7 @@
+---@alias CD76DE55B504880B7 main_ui_hairsalon_database_HairsalonShopUIData
+
+---@class main_ui_hairsalon_database_HairsalonShopUIData : CD76DE55B504880B7_prototype
+---@field prototype CD76DE55B504880B7_prototype
 L55_1 = _ENV
 L56_1 = "CD76DE55B504880B7"
 L57_1 = L15_1
@@ -42,47 +46,39 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CD76DE55B504880B7"]
 L69_1 = "__name__"
 L70_1 = "CD76DE55B504880B7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD76DE55B504880B7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD76DE55B504880B7"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CD76DE55B504880B7_prototype
+CD76DE55B504880B7_prototype = L15_1()
+CD76DE55B504880B7.prototype = CD76DE55B504880B7_prototype
+--- main.ui.hairsalon.database.HairsalonShopUIData.Setup
+function CD76DE55B504880B7_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.new
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F0E47A597FB435DB7
+  L4_2 = self
+  L5_2 = self.F0E47A597FB435DB7
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = "hairsalon data setup sequence"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD76DE55B504880B7"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.hairsalon.database.HairsalonShopUIData.PreUpdate
+function CD76DE55B504880B7_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = L10_1.coroutine
   L2_2 = L2_2.status
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2[1]
   L2_2 = L2_2(L3_2)
   if "dead" ~= L2_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = nil
     L4_2 = L62_1
     L5_2 = L64_1.pack
@@ -129,14 +125,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD76DE55B504880B7"]["prototype"]
-L69_1 = "F0E47A597FB435DB7"
-
-function L70_1(A0_2)
+--- main.ui.hairsalon.database.HairsalonShopUIData.SetupSequence
+function CD76DE55B504880B7_prototype:F0E47A597FB435DB7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   while true do
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.f462C9B70
     L1_2 = L1_2(L2_2)
@@ -150,7 +143,7 @@ function L70_1(A0_2)
     L1_2 = L1_2.S760DAE4C5371A78E
     L1_2()
   end
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.f5439788F
   L3_2 = "hairsalon_shop_data"
@@ -164,7 +157,7 @@ function L70_1(A0_2)
   if L3_2 then
     return
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f5439788F
   L5_2 = "omakase_data"
@@ -197,20 +190,17 @@ function L70_1(A0_2)
   L5_2 = C1DB14DCC9D7634FA
   L5_2 = L5_2.S760DAE4C5371A78E
   L5_2()
-  L6_2 = A0_2
-  L5_2 = A0_2.F0011F8CF1E07F20C
-  L8_2 = A0_2
-  L7_2 = A0_2.FB1C3E7A44AC868C6
+  L6_2 = self
+  L5_2 = self.F0011F8CF1E07F20C
+  L8_2 = self
+  L7_2 = self.FB1C3E7A44AC868C6
   L9_2 = L1_2
   L7_2, L8_2, L9_2 = L7_2(L8_2, L9_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD76DE55B504880B7"]["prototype"]
-L69_1 = "FB1C3E7A44AC868C6"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.hairsalon.database.HairsalonShopUIData.FB1C3E7A44AC868C6
+function CD76DE55B504880B7_prototype:FB1C3E7A44AC868C6(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
@@ -231,13 +221,10 @@ function L70_1(A0_2, A1_2)
   return L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD76DE55B504880B7"]["prototype"]
-L69_1 = "F0011F8CF1E07F20C"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.hairsalon.database.HairsalonShopUIData.UISetup
+function CD76DE55B504880B7_prototype:F0011F8CF1E07F20C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f462C9B70
   L2_2 = L2_2(L3_2)

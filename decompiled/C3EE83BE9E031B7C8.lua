@@ -1,3 +1,7 @@
+---@alias C3EE83BE9E031B7C8 main_ui_option_view_OptionUICancelSequence
+
+---@class main_ui_option_view_OptionUICancelSequence : C3EE83BE9E031B7C8_prototype
+---@field prototype C3EE83BE9E031B7C8_prototype
 L55_1 = _ENV
 L56_1 = "C3EE83BE9E031B7C8"
 L57_1 = L15_1
@@ -34,34 +38,26 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3EE83BE9E031B7C8"]
 L69_1 = "__name__"
 L70_1 = "C3EE83BE9E031B7C8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3EE83BE9E031B7C8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3EE83BE9E031B7C8"]["prototype"]
-L69_1 = "F8ECAA28B9538110D"
-
-function L70_1(A0_2)
+---@class C3EE83BE9E031B7C8_prototype
+C3EE83BE9E031B7C8_prototype = L15_1()
+C3EE83BE9E031B7C8.prototype = C3EE83BE9E031B7C8_prototype
+--- main.ui.option.view.OptionUICancelSequence.CreateCoroutine
+function C3EE83BE9E031B7C8_prototype:F8ECAA28B9538110D()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F4511F94555C77C3A
+  L3_2 = self
+  L4_2 = self.F4511F94555C77C3A
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "option_ui_cancel_sequence"
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3EE83BE9E031B7C8"]["prototype"]
-L69_1 = "F4511F94555C77C3A"
-
-function L70_1(A0_2)
+--- main.ui.option.view.OptionUICancelSequence.CancelSequence
+function C3EE83BE9E031B7C8_prototype:F4511F94555C77C3A()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.F20A49010A4198793
   L1_2 = L1_2(L2_2)
@@ -71,7 +67,7 @@ function L70_1(A0_2)
     L2_2 = "msg_option_10_01"
     L1_2 = L1_2(L2_2)
     if true == L1_2 then
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L3_2 = L2_2
       L2_2 = L2_2.FCF3A029BC63C25D3
       L2_2 = L2_2(L3_2)
@@ -83,7 +79,7 @@ function L70_1(A0_2)
         L1_2 = L2_2
       end
       if true == L1_2 then
-        L2_2 = A0_2[1]
+        L2_2 = self[1]
         L3_2 = L2_2
         L2_2 = L2_2.F95A17AB0891C6B1E
         L2_2(L3_2)
@@ -99,13 +95,13 @@ function L70_1(A0_2)
         L2_2 = L2_2.S8C4C5E3432A74188
         L2_2()
       else
-        L2_2 = A0_2[1]
+        L2_2 = self[1]
         L3_2 = L2_2
         L2_2 = L2_2.F1286221758EDBCA1
         L2_2(L3_2)
       end
     else
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L3_2 = L2_2
       L2_2 = L2_2.F1286221758EDBCA1
       L2_2(L3_2)
@@ -114,7 +110,7 @@ function L70_1(A0_2)
   L1_2 = CAEE842040B5772D3
   L1_2 = L1_2.S19E6DFD56A9BCF4F
   L1_2()
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.F218E2A14A790D265
   L1_2(L2_2)

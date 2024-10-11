@@ -1,3 +1,7 @@
+---@alias C562204BB23CE262B main_ui_dressup_dress_view_main_DressupUIDressMainInput
+
+---@class main_ui_dressup_dress_view_main_DressupUIDressMainInput : C562204BB23CE262B_prototype
+---@field prototype C562204BB23CE262B_prototype
 L55_1 = _ENV
 L56_1 = "C562204BB23CE262B"
 L57_1 = L15_1
@@ -60,137 +64,114 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C562204BB23CE262B"]
 L69_1 = "__name__"
 L70_1 = "C562204BB23CE262B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C562204BB23CE262B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C562204BB23CE262B"]["prototype"]
-L69_1 = "FBF22ED874F9A417F"
-
-function L70_1(A0_2)
+---@class C562204BB23CE262B_prototype
+C562204BB23CE262B_prototype = L15_1()
+C562204BB23CE262B.prototype = C562204BB23CE262B_prototype
+--- main.ui.dressup.dress.view.main.DressupUIDressMainInput.FBF22ED874F9A417F
+function C562204BB23CE262B_prototype:FBF22ED874F9A417F()
   local L1_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L1_2 = L1_2.m_isTriggerButton
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C562204BB23CE262B"]["prototype"]
-L69_1 = "F46783EAF187C7DA3"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainInput.get_onXButton
+function C562204BB23CE262B_prototype:F46783EAF187C7DA3()
   local L1_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L1_2 = L1_2.m_isTriggerButton
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C562204BB23CE262B"]["prototype"]
-L69_1 = "F3238153B95FBE21C"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainInput.get_onYButton
+function C562204BB23CE262B_prototype:F3238153B95FBE21C()
   local L1_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L1_2 = L1_2.m_isTriggerButton
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C562204BB23CE262B"]["prototype"]
-L69_1 = "FE3834056A3808D85"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainInput.get_onPlusButton
+function C562204BB23CE262B_prototype:FE3834056A3808D85()
   local L1_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2 = L1_2.m_isTriggerButton
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C562204BB23CE262B"]["prototype"]
-L69_1 = "FE8266E5DA7D6F49A"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainInput.InputUpdate
+function C562204BB23CE262B_prototype:FE8266E5DA7D6F49A()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[7]
-  L2_2 = A0_2[7]
+  L1_2 = self[7]
+  L2_2 = self[7]
   L2_2 = L2_2.m_shotcutInput
   L3_2 = L2_2
   L2_2 = L2_2.fDEEB3A8E
   L2_2 = L2_2(L3_2)
   L1_2.m_isTriggerButton = L2_2
-  L1_2 = A0_2[8]
-  L2_2 = A0_2[8]
+  L1_2 = self[8]
+  L2_2 = self[8]
   L2_2 = L2_2.m_shotcutInput
   L3_2 = L2_2
   L2_2 = L2_2.fDEEB3A8E
   L2_2 = L2_2(L3_2)
   L1_2.m_isTriggerButton = L2_2
-  L1_2 = A0_2[9]
-  L2_2 = A0_2[9]
+  L1_2 = self[9]
+  L2_2 = self[9]
   L2_2 = L2_2.m_shotcutInput
   L3_2 = L2_2
   L2_2 = L2_2.fDEEB3A8E
   L2_2 = L2_2(L3_2)
   L1_2.m_isTriggerButton = L2_2
-  L1_2 = A0_2[10]
-  L2_2 = A0_2[10]
+  L1_2 = self[10]
+  L2_2 = self[10]
   L2_2 = L2_2.m_shotcutInput
   L3_2 = L2_2
   L2_2 = L2_2.fDEEB3A8E
   L2_2 = L2_2(L3_2)
   L1_2.m_isTriggerButton = L2_2
-  L1_2 = A0_2[6]
-  L2_2 = A0_2[5]
+  L1_2 = self[6]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.f5BDFC7C3
   L2_2 = L2_2(L3_2)
   if L1_2 ~= L2_2 then
-    L1_2 = A0_2[12]
+    L1_2 = self[12]
     L2_2 = L1_2
     L1_2 = L1_2.FD75C9FE19A4A2B60
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.f5BDFC7C3
     L3_2, L4_2 = L3_2(L4_2)
     L1_2(L2_2, L3_2, L4_2)
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     L2_2 = L1_2
     L1_2 = L1_2.f5BDFC7C3
     L1_2 = L1_2(L2_2)
-    A0_2[6] = L1_2
+    self[6] = L1_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C562204BB23CE262B"]["prototype"]
-L69_1 = "FE0EBB34B8A1B41AB"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainInput.SetViewControl
+function C562204BB23CE262B_prototype:FE0EBB34B8A1B41AB(A1_2)
   local L2_2, L3_2
   if true == A1_2 then
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     L3_2 = L2_2
     L2_2 = L2_2.f89358001
     L2_2(L3_2)
   else
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     L3_2 = L2_2
     L2_2 = L2_2.f1EA0CCF2
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C562204BB23CE262B"]["prototype"]
-L69_1 = "F9C1AC4C2FD2D9BB5"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainInput.CategoryTabSetup
+function C562204BB23CE262B_prototype:F9C1AC4C2FD2D9BB5(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.f33F66DA9
   L2_2(L3_2)
@@ -226,7 +207,7 @@ function L70_1(A0_2, A1_2)
     L6_2 = A1_2
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
-    L6_2 = A0_2[5]
+    L6_2 = self[5]
     L7_2 = L6_2
     L6_2 = L6_2.f6096B7A4
     L8_2 = L4_2
@@ -246,11 +227,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C562204BB23CE262B"]["prototype"]
-L69_1 = "F7B42D0DC8B8D84DB"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressMainInput.SetupShotcutInputs
+function C562204BB23CE262B_prototype:F7B42D0DC8B8D84DB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = L16_1
   L3_2 = {}
@@ -267,7 +245,7 @@ function L70_1(A0_2, A1_2)
   L3_2.m_shotcutInput = L4_2
   L3_2.m_isTriggerButton = false
   L2_2 = L2_2(L3_2)
-  A0_2[7] = L2_2
+  self[7] = L2_2
   L2_2 = L16_1
   L3_2 = {}
   L4_2 = {}
@@ -283,7 +261,7 @@ function L70_1(A0_2, A1_2)
   L3_2.m_shotcutInput = L4_2
   L3_2.m_isTriggerButton = false
   L2_2 = L2_2(L3_2)
-  A0_2[8] = L2_2
+  self[8] = L2_2
   L2_2 = L16_1
   L3_2 = {}
   L4_2 = {}
@@ -299,7 +277,7 @@ function L70_1(A0_2, A1_2)
   L3_2.m_shotcutInput = L4_2
   L3_2.m_isTriggerButton = false
   L2_2 = L2_2(L3_2)
-  A0_2[9] = L2_2
+  self[9] = L2_2
   L2_2 = L16_1
   L3_2 = {}
   L4_2 = {}
@@ -315,7 +293,7 @@ function L70_1(A0_2, A1_2)
   L3_2.m_shotcutInput = L4_2
   L3_2.m_isTriggerButton = false
   L2_2 = L2_2(L3_2)
-  A0_2[10] = L2_2
+  self[10] = L2_2
 end
 
 L68_1[L69_1] = L70_1

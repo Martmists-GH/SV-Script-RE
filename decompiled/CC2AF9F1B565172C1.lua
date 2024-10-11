@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CC2AF9F1B565172C1"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CC2AF9F1B565172C1"]
-L69_1 = "new"
+---@alias CC2AF9F1B565172C1 main_ui_dressup_preset_DressupPresetData
 
-function L70_1(A0_2)
+---@class main_ui_dressup_preset_DressupPresetData : CC2AF9F1B565172C1_prototype
+---@field prototype CC2AF9F1B565172C1_prototype
+CC2AF9F1B565172C1 = L15_1()
+function CC2AF9F1B565172C1.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CC2AF9F1B565172C1
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2AF9F1B565172C1"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CC2AF9F1B565172C1
+function CC2AF9F1B565172C1.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   A0_2[9] = false
   L2_2 = _hx_tab_array
@@ -167,78 +161,58 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC2AF9F1B565172C1"]
 L69_1 = "__name__"
 L70_1 = "CC2AF9F1B565172C1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2AF9F1B565172C1"]
-L69_1 = "S385504EFF7E842C3"
-
-function L70_1()
+--- main.ui.dressup_preset.DressupPresetData.get_Instance
+function CC2AF9F1B565172C1.S385504EFF7E842C3()
   local L0_2, L1_2
   L0_2 = CC2AF9F1B565172C1
   L0_2 = L0_2.S264F26F6894F3392
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2AF9F1B565172C1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2AF9F1B565172C1"]["prototype"]
-L69_1 = "FF95E1F6E598950C7"
-
-function L70_1(A0_2)
+---@class CC2AF9F1B565172C1_prototype
+CC2AF9F1B565172C1_prototype = L15_1()
+CC2AF9F1B565172C1.prototype = CC2AF9F1B565172C1_prototype
+--- main.ui.dressup_preset.DressupPresetData.get_presetLabelData
+function CC2AF9F1B565172C1_prototype:FF95E1F6E598950C7()
   local L1_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2AF9F1B565172C1"]["prototype"]
-L69_1 = "FE2F2200831DC386D"
-
-function L70_1(A0_2)
+--- main.ui.dressup_preset.DressupPresetData.get_presetIndexData
+function CC2AF9F1B565172C1_prototype:FE2F2200831DC386D()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2AF9F1B565172C1"]["prototype"]
-L69_1 = "FCE8975C56C10688D"
-
-function L70_1(A0_2)
+--- main.ui.dressup_preset.DressupPresetData.get_isSetup
+function CC2AF9F1B565172C1_prototype:FCE8975C56C10688D()
   local L1_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2AF9F1B565172C1"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup_preset.DressupPresetData.Setup
+function CC2AF9F1B565172C1_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = CC2AF9F1B565172C1
-  L2_2.S264F26F6894F3392 = A0_2
-  A0_2[9] = true
+  L2_2.S264F26F6894F3392 = self
+  self[9] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2AF9F1B565172C1"]["prototype"]
-L69_1 = "F55452322293B3293"
-
-function L70_1(A0_2)
+--- main.ui.dressup_preset.DressupPresetData.GetRootTabelData
+function CC2AF9F1B565172C1_prototype:F55452322293B3293()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = cF52F390B
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cF52F390B
@@ -266,11 +240,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2AF9F1B565172C1"]["prototype"]
-L69_1 = "F959C77984414424C"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup_preset.DressupPresetData.GetPresetTableData
+function CC2AF9F1B565172C1_prototype:F959C77984414424C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = CC2AF9F1B565172C1
   L2_2 = L2_2.SB2F9A8E4AC82247B
@@ -280,7 +251,7 @@ function L70_1(A0_2, A1_2)
   end
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cF52F390B
@@ -323,15 +294,12 @@ function L70_1(A0_2, A1_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC2AF9F1B565172C1"]["prototype"]
-L69_1 = "F1390EC1A444D7AF4"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup_preset.DressupPresetData.GetPresetSelectTableData
+function CC2AF9F1B565172C1_prototype:F1390EC1A444D7AF4(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cF52F390B
@@ -386,17 +354,17 @@ function L70_1(A0_2, A1_2)
     L11_2 = L8_2.fCD31E312
     L13_2 = "gender"
     L11_2 = L11_2(L12_2, L13_2)
-    L12_2 = A0_2[7]
+    L12_2 = self[7]
     L12_2 = L12_2[A1_2]
     if L12_2 == L10_2 then
-      L12_2 = A0_2[8]
+      L12_2 = self[8]
       L12_2 = L12_2[A1_2]
       if L12_2 == L11_2 then
-        L12_2 = A0_2[6]
+        L12_2 = self[6]
         L13_2 = L26_1.new
         L13_2 = L13_2()
         L12_2.LabelData = L13_2
-        L12_2 = A0_2[6]
+        L12_2 = self[6]
         L13_2 = L26_1.new
         L13_2 = L13_2()
         L12_2.IndexData = L13_2
@@ -407,13 +375,13 @@ function L70_1(A0_2, A1_2)
         L13_2 = L13_2(L14_2, L15_2)
         while L12_2 < L13_2 do
           L12_2 = L12_2 + 1
-          L14_2 = A0_2[6]
+          L14_2 = self[6]
           L14_2 = L14_2.LabelData
           L15_2 = L14_2
           L14_2 = L14_2.push
           L17_2 = L8_2
           L16_2 = L8_2.f3D9D438D
-          L18_2 = A0_2[2]
+          L18_2 = self[2]
           L19_2 = L12_2 - 1
           L18_2 = L18_2[L19_2]
           L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L16_2(L17_2, L18_2)
@@ -423,19 +391,19 @@ function L70_1(A0_2, A1_2)
         L15_2 = 15
         while L14_2 < L15_2 do
           L14_2 = L14_2 + 1
-          L16_2 = A0_2[6]
+          L16_2 = self[6]
           L16_2 = L16_2.IndexData
           L17_2 = L16_2
           L16_2 = L16_2.push
           L19_2 = L8_2
           L18_2 = L8_2.fCD31E312
-          L20_2 = A0_2[3]
+          L20_2 = self[3]
           L21_2 = L14_2 - 1
           L20_2 = L20_2[L21_2]
           L18_2, L19_2, L20_2, L21_2 = L18_2(L19_2, L20_2)
           L16_2(L17_2, L18_2, L19_2, L20_2, L21_2)
         end
-        L16_2 = A0_2[6]
+        L16_2 = self[6]
         return L16_2
       end
     end

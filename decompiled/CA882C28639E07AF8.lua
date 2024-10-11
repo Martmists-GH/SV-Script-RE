@@ -1,3 +1,5 @@
+---@class CA882C28639E07AF8 : CA882C28639E07AF8_prototype
+---@field prototype CA882C28639E07AF8_prototype
 L55_1 = _ENV
 L56_1 = "CA882C28639E07AF8"
 L57_1 = L15_1
@@ -36,29 +38,24 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA882C28639E07AF8"]
 L69_1 = "__name__"
 L70_1 = "CA882C28639E07AF8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA882C28639E07AF8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA882C28639E07AF8"]["prototype"]
-L69_1 = "FD4D831BDFEC7E51E"
-
-function L70_1(A0_2)
+---@class CA882C28639E07AF8_prototype
+CA882C28639E07AF8_prototype = L15_1()
+CA882C28639E07AF8.prototype = CA882C28639E07AF8_prototype
+--- CA882C28639E07AF8.WazaEvaluationCheck
+function CA882C28639E07AF8_prototype:FD4D831BDFEC7E51E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L1_2 = L42_1.new
   L1_2 = L1_2()
   L2_2 = L26_1.new
   L2_2 = L2_2()
   L3_2 = 0
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.f6269FACE
   L4_2 = L4_2(L5_2)
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.fB788228B
     L7_2 = L3_2 - 1
@@ -67,17 +64,17 @@ function L70_1(A0_2)
     L6_2[L5_2] = 0
   end
   L5_2 = L1_2.h
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L5_2[L6_2] = 0
   L5_2 = L26_1.new
   L5_2 = L5_2()
   L6_2 = L26_1.new
   L6_2 = L6_2()
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.f9C8A5147
   L7_2 = L7_2(L8_2)
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = L8_2
   L8_2 = L8_2.f8E3FFEA9
   L8_2 = L8_2(L9_2)
@@ -734,7 +731,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = L13_2.length
       if L1_3 > 1 then
-        L1_3 = A0_2
+        L1_3 = self
         L2_3 = L1_3
         L1_3 = L1_3.F2F51339CA38F8533
         L3_3 = L13_2
@@ -754,11 +751,11 @@ function L70_1(A0_2)
   else
     L13_2 = c87777D37
     L13_2 = L13_2.f4E9A07C5
-    L14_2 = A0_2[2]
+    L14_2 = self[2]
     L13_2 = L13_2(L14_2)
     if 0 ~= L13_2 then
-      L14_2 = A0_2
-      L13_2 = A0_2.F2F51339CA38F8533
+      L14_2 = self
+      L13_2 = self.F2F51339CA38F8533
       L15_2 = L2_2
       L13_2 = L13_2(L14_2, L15_2)
       L12_2 = L13_2
@@ -778,7 +775,7 @@ function L70_1(A0_2)
         L15_2 = L2_2[L14_2]
         L14_2 = L14_2 + 1
         L16_2 = L15_2.WazaID
-        L17_2 = A0_2[2]
+        L17_2 = self[2]
         if L16_2 ~= L17_2 then
           L16_2 = c87777D37
           L16_2 = L16_2.f4E9A07C5
@@ -795,7 +792,7 @@ function L70_1(A0_2)
       L15_2 = L13_2.length
       if 0 ~= L15_2 then
         L15_2 = L1_2.h
-        L16_2 = A0_2[2]
+        L16_2 = self[2]
         L15_2 = L15_2[L16_2]
         L16_2 = L42_1.tnull
         if L15_2 == L16_2 then
@@ -809,7 +806,7 @@ function L70_1(A0_2)
         L20_2.WazaID = true
         L20_2.Point = true
         L19_2.__fields__ = L20_2
-        L20_2 = A0_2[2]
+        L20_2 = self[2]
         L19_2.WazaID = L20_2
         L19_2.Point = L15_2
         L18_2, L19_2, L20_2, L21_2 = L18_2(L19_2)
@@ -826,15 +823,15 @@ function L70_1(A0_2)
         end
         
         L16_2(L17_2, L18_2)
-        L17_2 = A0_2
-        L16_2 = A0_2.F2F51339CA38F8533
+        L17_2 = self
+        L16_2 = self.F2F51339CA38F8533
         L18_2 = L13_2
         L16_2 = L16_2(L17_2, L18_2)
         L12_2 = L16_2
         return L12_2
       else
-        L16_2 = A0_2
-        L15_2 = A0_2.F2F51339CA38F8533
+        L16_2 = self
+        L15_2 = self.F2F51339CA38F8533
         L17_2 = L2_2
         L15_2 = L15_2(L16_2, L17_2)
         L12_2 = L15_2
@@ -844,11 +841,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA882C28639E07AF8"]["prototype"]
-L69_1 = "F2F51339CA38F8533"
-
-function L70_1(A0_2, A1_2)
+--- CA882C28639E07AF8.RandomChooseForgetWaza
+function CA882C28639E07AF8_prototype:F2F51339CA38F8533(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = A1_2.length
   if 0 == L2_2 then

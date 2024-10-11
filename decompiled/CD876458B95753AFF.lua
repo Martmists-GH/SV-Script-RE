@@ -1,3 +1,5 @@
+---@class CD876458B95753AFF : CD876458B95753AFF_prototype
+---@field prototype CD876458B95753AFF_prototype
 L55_1 = _ENV
 L56_1 = "CD876458B95753AFF"
 L57_1 = L15_1
@@ -40,18 +42,13 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CD876458B95753AFF"]
 L69_1 = "__name__"
 L70_1 = "CD876458B95753AFF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD876458B95753AFF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD876458B95753AFF"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+---@class CD876458B95753AFF_prototype
+CD876458B95753AFF_prototype = L15_1()
+CD876458B95753AFF.prototype = CD876458B95753AFF_prototype
+--- CD876458B95753AFF.Update
+function CD876458B95753AFF_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L1_2 = L1_2[1]
   if 0 == L1_2 then
   elseif 1 == L1_2 then
@@ -60,28 +57,28 @@ function L70_1(A0_2)
     L2_2()
     L2_2 = E6AEB05CB3657EA4B
     L2_2 = L2_2.Running
-    A0_2[1] = L2_2
+    self[1] = L2_2
   elseif 2 == L1_2 then
     L2_2 = c3876BF41
     L2_2 = L2_2.fCB47B2ED
     L2_2()
     L2_2 = E6AEB05CB3657EA4B
     L2_2 = L2_2.Running
-    A0_2[1] = L2_2
+    self[1] = L2_2
   elseif 3 == L1_2 then
     L2_2 = c3876BF41
     L2_2 = L2_2.f477063A3
     L2_2()
     L2_2 = E6AEB05CB3657EA4B
     L2_2 = L2_2.Running
-    A0_2[1] = L2_2
+    self[1] = L2_2
   elseif 4 == L1_2 then
     L2_2 = c3876BF41
     L2_2 = L2_2.f6597D2A6
     L2_2()
     L2_2 = E6AEB05CB3657EA4B
     L2_2 = L2_2.Running
-    A0_2[1] = L2_2
+    self[1] = L2_2
   elseif 5 == L1_2 then
     L2_2 = c3876BF41
     L2_2 = L2_2.f87AAD8AA
@@ -89,17 +86,17 @@ function L70_1(A0_2)
     if false == L2_2 then
       L2_2 = E6AEB05CB3657EA4B
       L2_2 = L2_2.Result
-      A0_2[1] = L2_2
+      self[1] = L2_2
     end
   elseif 6 == L1_2 then
     L2_2 = c3876BF41
     L2_2 = L2_2.fC6A3A3F4
     L2_2 = L2_2()
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     if L2_2 == L3_2 then
       L2_2 = E6AEB05CB3657EA4B
       L2_2 = L2_2.None
-      A0_2[1] = L2_2
+      self[1] = L2_2
     end
     L2_2 = true
     return L2_2
@@ -108,40 +105,31 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD876458B95753AFF"]["prototype"]
-L69_1 = "F78BEF9C1649013E1"
-
-function L70_1(A0_2)
+--- CD876458B95753AFF.requestStartLocal
+function CD876458B95753AFF_prototype:F78BEF9C1649013E1()
   local L1_2
   L1_2 = E6AEB05CB3657EA4B
   L1_2 = L1_2.StartLocal
-  A0_2[1] = L1_2
-  A0_2[2] = 1
+  self[1] = L1_2
+  self[2] = 1
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD876458B95753AFF"]["prototype"]
-L69_1 = "F27469E32A720C064"
-
-function L70_1(A0_2)
+--- CD876458B95753AFF.F27469E32A720C064
+function CD876458B95753AFF_prototype:F27469E32A720C064()
   local L1_2
   L1_2 = E6AEB05CB3657EA4B
   L1_2 = L1_2.StartInternetUsingGameServer
-  A0_2[1] = L1_2
-  A0_2[2] = 4
+  self[1] = L1_2
+  self[2] = 4
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD876458B95753AFF"]["prototype"]
-L69_1 = "FDF107F292AE61465"
-
-function L70_1(A0_2)
+--- CD876458B95753AFF.requestStartLan
+function CD876458B95753AFF_prototype:FDF107F292AE61465()
   local L1_2
   L1_2 = E6AEB05CB3657EA4B
   L1_2 = L1_2.StartLan
-  A0_2[1] = L1_2
-  A0_2[2] = 2
+  self[1] = L1_2
+  self[2] = 2
 end
 
 L68_1[L69_1] = L70_1

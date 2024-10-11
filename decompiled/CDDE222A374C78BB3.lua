@@ -1,3 +1,7 @@
+---@alias C7FFC3A021777A120 main_management_tips_TipsManager
+
+---@class main_management_tips_TipsManager : C7FFC3A021777A120_prototype
+---@field prototype C7FFC3A021777A120_prototype
 L55_1 = _ENV
 L56_1 = "CDDE222A374C78BB3"
 L57_1 = L15_1
@@ -13,11 +17,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CDDE222A374C78BB3"]
 L69_1 = "__name__"
 L70_1 = "CDDE222A374C78BB3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDE222A374C78BB3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C7FFC3A021777A120_prototype
+C7FFC3A021777A120_prototype = L15_1()
+C7FFC3A021777A120.prototype = C7FFC3A021777A120_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CDDE222A374C78BB3"]["prototype"]
 L69_1 = _ENV["CDDE222A374C78BB3"]

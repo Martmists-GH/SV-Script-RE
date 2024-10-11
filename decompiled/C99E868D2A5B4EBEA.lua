@@ -1,3 +1,7 @@
+---@alias C99E868D2A5B4EBEA main_ajito_system_rush_AjitoPokemonPopPointModel
+
+---@class main_ajito_system_rush_AjitoPokemonPopPointModel : C99E868D2A5B4EBEA_prototype
+---@field prototype C99E868D2A5B4EBEA_prototype
 L68_1 = _ENV["C99E868D2A5B4EBEA"]
 L69_1 = "new"
 
@@ -83,18 +87,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C99E868D2A5B4EBEA"]
 L69_1 = "__name__"
 L70_1 = "C99E868D2A5B4EBEA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99E868D2A5B4EBEA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99E868D2A5B4EBEA"]["prototype"]
-L69_1 = "F8B9D1CE9048EEB5F"
-
-function L70_1(A0_2, A1_2)
+---@class C99E868D2A5B4EBEA_prototype
+C99E868D2A5B4EBEA_prototype = L15_1()
+C99E868D2A5B4EBEA.prototype = C99E868D2A5B4EBEA_prototype
+--- main.ajito.system.rush.AjitoPokemonPopPointModel.CompareDistance
+function C99E868D2A5B4EBEA_prototype:F8B9D1CE9048EEB5F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = A1_2[1]
   L4_2 = L2_2[1]
   L3_2 = L3_2 - L4_2
@@ -109,7 +108,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = L6_2 + L7_2
   L7_2 = L5_2 * L5_2
   L6_2 = L6_2 + L7_2
-  L7_2 = A0_2[5]
+  L7_2 = self[5]
   if "None" == L7_2 then
     L8_2 = C706A375E7AC93B51
     L8_2 = L8_2.S982E3D6C1973B91A
@@ -120,58 +119,55 @@ function L70_1(A0_2, A1_2)
       L9_2 = L8_2
       L8_2 = L8_2.F6BB6C94367FB8083
       L10_2 = L55_1
-      L11_2 = A0_2
-      L12_2 = A0_2.F21612D805E959CAA
+      L11_2 = self
+      L12_2 = self.F21612D805E959CAA
       L10_2 = L10_2(L11_2, L12_2)
       L11_2 = ""
       L8_2(L9_2, L10_2, L11_2)
-      A0_2[5] = "Resume"
+      self[5] = "Resume"
     end
   elseif "Resume" == L7_2 then
     L8_2 = C706A375E7AC93B51
     L8_2 = L8_2.S0913EF6867C06EDF
     if not (L6_2 < L8_2) then
-      L9_2 = A0_2
-      L8_2 = A0_2.F6EA385382423E449
+      L9_2 = self
+      L8_2 = self.F6EA385382423E449
       L8_2(L9_2)
-      A0_2[5] = "Suspended"
+      self[5] = "Suspended"
     end
   elseif "Suspended" == L7_2 then
     L8_2 = C706A375E7AC93B51
     L8_2 = L8_2.S5DE656978C2AF968
     if L6_2 < L8_2 then
-      L9_2 = A0_2
-      L8_2 = A0_2.F206ADEA195DE529C
+      L9_2 = self
+      L8_2 = self.F206ADEA195DE529C
       L8_2(L9_2)
-      A0_2[5] = "Resume"
+      self[5] = "Resume"
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99E868D2A5B4EBEA"]["prototype"]
-L69_1 = "F793810281571FD29"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.system.rush.AjitoPokemonPopPointModel.F793810281571FD29
+function C99E868D2A5B4EBEA_prototype:F793810281571FD29(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = nil
   L3_2 = cC5D48DC8
   L3_2 = L3_2.f029E6BDD
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     return
   end
   L3_2 = A1_2[1]
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.fE9C29DA1
   L4_2 = L4_2(L5_2)
   if L3_2 ~= L4_2 then
     return
   end
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L5_2 = L3_2
   L4_2 = L3_2.F81B8C6C6CA6DA6AD
   L6_2 = L3_2[1]
@@ -179,14 +175,11 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99E868D2A5B4EBEA"]["prototype"]
-L69_1 = "F6EA385382423E449"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoPokemonPopPointModel.suspendPokemons
+function C99E868D2A5B4EBEA_prototype:F6EA385382423E449()
   local L1_2, L2_2, L3_2
   L1_2 = L27_1.iter
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   
   function L3_2(A0_3)
     local L1_3, L2_3
@@ -198,17 +191,14 @@ function L70_1(A0_2)
   end
   
   L1_2(L2_2, L3_2)
-  A0_2[5] = "Suspended"
+  self[5] = "Suspended"
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99E868D2A5B4EBEA"]["prototype"]
-L69_1 = "F206ADEA195DE529C"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoPokemonPopPointModel.resumePokemons
+function C99E868D2A5B4EBEA_prototype:F206ADEA195DE529C()
   local L1_2, L2_2, L3_2
   L1_2 = L27_1.iter
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   
   function L3_2(A0_3)
     local L1_3, L2_3
@@ -220,17 +210,14 @@ function L70_1(A0_2)
   end
   
   L1_2(L2_2, L3_2)
-  A0_2[5] = "Resume"
+  self[5] = "Resume"
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99E868D2A5B4EBEA"]["prototype"]
-L69_1 = "F47C9C1B967FE691B"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoPokemonPopPointModel.registDanPokemonsFainted
+function C99E868D2A5B4EBEA_prototype:F47C9C1B967FE691B()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2
-  L2_2 = A0_2[7]
+  L1_2 = self
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.F8D199D645E588A83
   
@@ -254,11 +241,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99E868D2A5B4EBEA"]["prototype"]
-L69_1 = "F68F6E09603C36C66"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoPokemonPopPointModel.F68F6E09603C36C66
+function C99E868D2A5B4EBEA_prototype:F68F6E09603C36C66()
   local L1_2, L2_2
   L1_2 = 0.0
   while true do
@@ -276,18 +260,15 @@ function L70_1(A0_2)
     L2_2 = L2_2[4]
     L1_2 = L1_2 + L2_2
   end
-  A0_2[5] = "None"
+  self[5] = "None"
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C99E868D2A5B4EBEA"]["prototype"]
-L69_1 = "F21612D805E959CAA"
-
-function L70_1(A0_2)
+--- main.ajito.system.rush.AjitoPokemonPopPointModel.popPokemonsAsync
+function C99E868D2A5B4EBEA_prototype:F21612D805E959CAA()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F33571D8C0B39C3CD
+  L1_2 = self
+  L3_2 = self
+  L2_2 = self.F33571D8C0B39C3CD
   L2_2 = L2_2(L3_2)
   L3_2 = C16E9A1468A2F2CA8
   L3_2 = L3_2.S353916D5B3B8028A
@@ -413,9 +394,9 @@ function L70_1(A0_2)
   end
   
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L3_2 = L3_2[1]
-  A0_2[8] = L3_2
+  self[8] = L3_2
 end
 
 L68_1[L69_1] = L70_1
@@ -425,7 +406,7 @@ L68_1.__class__ = L69_1
 L68_1 = CF75EEA354ECA1AEE
 L69_1 = "new"
 
-function L70_1(A0_2, A1_2)
+function L70_1(self, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CF75EEA354ECA1AEE
@@ -436,7 +417,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = CF75EEA354ECA1AEE
   L3_2 = L3_2.super
   L4_2 = L2_2
-  L5_2 = A0_2
+  L5_2 = self
   L6_2 = A1_2
   L3_2(L4_2, L5_2, L6_2)
   return L2_2

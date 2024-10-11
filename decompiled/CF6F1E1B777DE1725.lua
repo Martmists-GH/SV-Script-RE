@@ -1,3 +1,7 @@
+---@alias CF6F1E1B777DE1725 main_ui_status_database_StatusPokemonContainer
+
+---@class main_ui_status_database_StatusPokemonContainer : CF6F1E1B777DE1725_prototype
+---@field prototype CF6F1E1B777DE1725_prototype
 L55_1 = _ENV
 L56_1 = "CF6F1E1B777DE1725"
 L57_1 = L15_1
@@ -40,40 +44,29 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF6F1E1B777DE1725"]
 L69_1 = "__name__"
 L70_1 = "CF6F1E1B777DE1725"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6F1E1B777DE1725"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6F1E1B777DE1725"]["prototype"]
-L69_1 = "F03093D4F9FD36C8F"
-
-function L70_1(A0_2)
+---@class CF6F1E1B777DE1725_prototype
+CF6F1E1B777DE1725_prototype = L15_1()
+CF6F1E1B777DE1725.prototype = CF6F1E1B777DE1725_prototype
+--- main.ui.status.database.StatusPokemonContainer.get_container
+function CF6F1E1B777DE1725_prototype:F03093D4F9FD36C8F()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6F1E1B777DE1725"]["prototype"]
-L69_1 = "F9AE9AA6A0BA837DF"
-
-function L70_1(A0_2)
+--- main.ui.status.database.StatusPokemonContainer.get_containerLength
+function CF6F1E1B777DE1725_prototype:F9AE9AA6A0BA837DF()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2.length
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6F1E1B777DE1725"]["prototype"]
-L69_1 = "FC3A67B53A5CD6824"
-
-function L70_1(A0_2)
+--- main.ui.status.database.StatusPokemonContainer.FC3A67B53A5CD6824
+function CF6F1E1B777DE1725_prototype:FC3A67B53A5CD6824()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FE827106BADF4A025
+  L2_2 = self
+  L1_2 = self.FE827106BADF4A025
   L1_2(L2_2)
   L1_2 = c1A1CBE3B
   L1_2 = L1_2.fFCE06E04
@@ -109,7 +102,7 @@ function L70_1(A0_2)
           goto lbl_54
         end
       end
-      L8_2 = A0_2[3]
+      L8_2 = self[3]
       L9_2 = L8_2
       L8_2 = L8_2.push
       L10_2 = L16_1
@@ -135,11 +128,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6F1E1B777DE1725"]["prototype"]
-L69_1 = "F6D59CF5DB59D9392"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.status.database.StatusPokemonContainer.F6D59CF5DB59D9392
+function CF6F1E1B777DE1725_prototype:F6D59CF5DB59D9392(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = CC31A25AF0A315E23
   L2_2 = L2_2.S385504EFF7E842C3
@@ -148,13 +138,13 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.FFD03CEC75565466D
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FC3A67B53A5CD6824
+    L3_2 = self
+    L2_2 = self.FC3A67B53A5CD6824
     L2_2(L3_2)
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FE827106BADF4A025
+  L3_2 = self
+  L2_2 = self.FE827106BADF4A025
   L2_2(L3_2)
   
   function L2_2()
@@ -232,7 +222,7 @@ function L70_1(A0_2, A1_2)
         L11_2 = L6_2
         L9_2 = L9_2(L10_2, L11_2)
       end
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       L11_2 = L10_2
       L10_2 = L10_2.push
       L12_2 = L16_1
@@ -258,15 +248,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6F1E1B777DE1725"]["prototype"]
-L69_1 = "F06FA7560B7AA7AE2"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.status.database.StatusPokemonContainer.SetupContainerBox
+function CF6F1E1B777DE1725_prototype:F06FA7560B7AA7AE2(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L3_2 = 0
-  L5_2 = A0_2
-  L4_2 = A0_2.FE827106BADF4A025
+  L5_2 = self
+  L4_2 = self.FE827106BADF4A025
   L4_2(L5_2)
   L4_2 = 0
   L5_2 = false
@@ -317,7 +304,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L12_2 = L12_2(L13_2)
         L12_2 = L12_2 == A1_2
       end
-      L13_2 = A0_2[3]
+      L13_2 = self[3]
       L14_2 = L13_2
       L13_2 = L13_2.push
       L15_2 = L16_1
@@ -340,7 +327,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L13_2(L14_2, L15_2, L16_2, L17_2)
       ::lbl_81::
       if A2_2 == L6_2 then
-        L9_2 = A0_2[3]
+        L9_2 = self[3]
         L9_2 = L9_2.length
         L3_2 = L9_2 - 1
       end
@@ -353,14 +340,11 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6F1E1B777DE1725"]["prototype"]
-L69_1 = "F94DA4CD1D8210176"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.status.database.StatusPokemonContainer.SetupContainerBattleTeam
+function CF6F1E1B777DE1725_prototype:F94DA4CD1D8210176(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FE827106BADF4A025
+  L3_2 = self
+  L2_2 = self.FE827106BADF4A025
   L2_2(L3_2)
   L2_2 = 0
   L3_2 = c645D4D87
@@ -400,7 +384,7 @@ function L70_1(A0_2, A1_2)
           goto lbl_60
         end
       end
-      L9_2 = A0_2[3]
+      L9_2 = self[3]
       L10_2 = L9_2
       L9_2 = L9_2.push
       L11_2 = L16_1
@@ -426,27 +410,21 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6F1E1B777DE1725"]["prototype"]
-L69_1 = "FE827106BADF4A025"
-
-function L70_1(A0_2)
+--- main.ui.status.database.StatusPokemonContainer.ContainerClear
+function CF6F1E1B777DE1725_prototype:FE827106BADF4A025()
   local L1_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
-  A0_2[3] = L1_2
+  self[3] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6F1E1B777DE1725"]["prototype"]
-L69_1 = "FE5B871E4C1AF4B14"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.status.database.StatusPokemonContainer.GetPokemon
+function CF6F1E1B777DE1725_prototype:FE5B871E4C1AF4B14(A1_2)
   local L2_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.length
   if A1_2 < L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2[A1_2]
     return L2_2
   end
@@ -454,56 +432,47 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6F1E1B777DE1725"]["prototype"]
-L69_1 = "F194D9A937183CF73"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.status.database.StatusPokemonContainer.GetNextPokemon
+function CF6F1E1B777DE1725_prototype:F194D9A937183CF73(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FE5B871E4C1AF4B14
+  L3_2 = self
+  L2_2 = self.FE5B871E4C1AF4B14
   L4_2 = L10_1.math
   L4_2 = L4_2.fmod
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L5_2 = L5_2.length
   L5_2 = A1_2 + L5_2
   L5_2 = L5_2 + 1
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L6_2 = L6_2.length
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6F1E1B777DE1725"]["prototype"]
-L69_1 = "F4244C5A81085EB6F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.status.database.StatusPokemonContainer.GetPrevPokemon
+function CF6F1E1B777DE1725_prototype:F4244C5A81085EB6F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FE5B871E4C1AF4B14
+  L3_2 = self
+  L2_2 = self.FE5B871E4C1AF4B14
   L4_2 = L10_1.math
   L4_2 = L4_2.fmod
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L5_2 = L5_2.length
   L5_2 = A1_2 + L5_2
   L5_2 = L5_2 - 1
-  L6_2 = A0_2[3]
+  L6_2 = self[3]
   L6_2 = L6_2.length
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6F1E1B777DE1725"]["prototype"]
-L69_1 = "FCF43774E86745E8F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.status.database.StatusPokemonContainer.IsGemMode
+function CF6F1E1B777DE1725_prototype:FCF43774E86745E8F(A1_2)
   local L2_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.length
   if A1_2 < L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2[A1_2]
     L2_2 = L2_2.isGemMode
     return L2_2
@@ -512,16 +481,13 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6F1E1B777DE1725"]["prototype"]
-L69_1 = "FA654950AE7806953"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.status.database.StatusPokemonContainer.FA654950AE7806953
+function CF6F1E1B777DE1725_prototype:FA654950AE7806953(A1_2)
   local L2_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L2_2 = L2_2.length
   if A1_2 < L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L2_2 = L2_2[A1_2]
     L2_2 = L2_2.isTeamLock
     return L2_2

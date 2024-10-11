@@ -1,3 +1,5 @@
+---@class C7C6EE79199488665 : C7C6EE79199488665_prototype
+---@field prototype C7C6EE79199488665_prototype
 L55_1 = _ENV
 L56_1 = "C7C6EE79199488665"
 L57_1 = L15_1
@@ -617,56 +619,42 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C7C6EE79199488665"]
 L69_1 = "__name__"
 L70_1 = "C7C6EE79199488665"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C6EE79199488665"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C6EE79199488665"]["prototype"]
-L69_1 = "F70E9D1BFAC29144C"
-
-function L70_1(A0_2, A1_2)
-  A0_2[7] = A1_2
-  A0_2[9] = false
-  A0_2[10] = false
-  A0_2[11] = false
-  A0_2[8] = false
+---@class C7C6EE79199488665_prototype
+C7C6EE79199488665_prototype = L15_1()
+C7C6EE79199488665.prototype = C7C6EE79199488665_prototype
+--- C7C6EE79199488665.onChangeMode_
+function C7C6EE79199488665_prototype:F70E9D1BFAC29144C(A1_2)
+  self[7] = A1_2
+  self[9] = false
+  self[10] = false
+  self[11] = false
+  self[8] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C6EE79199488665"]["prototype"]
-L69_1 = "F96EA28F400597FA0"
-
-function L70_1(A0_2)
+--- C7C6EE79199488665.Reset
+function C7C6EE79199488665_prototype:F96EA28F400597FA0()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F89E1A26F8377A73C
+  L2_2 = self
+  L1_2 = self.F89E1A26F8377A73C
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F781D28075A19FE45
+  L2_2 = self
+  L1_2 = self.F781D28075A19FE45
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C6EE79199488665"]["prototype"]
-L69_1 = "F89E1A26F8377A73C"
-
-function L70_1(A0_2)
+--- C7C6EE79199488665.ResetPlayerFlags
+function C7C6EE79199488665_prototype:F89E1A26F8377A73C()
   local L1_2
-  A0_2[4] = false
-  A0_2[5] = false
-  A0_2[6] = false
+  self[4] = false
+  self[5] = false
+  self[6] = false
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7C6EE79199488665"]["prototype"]
-L69_1 = "F781D28075A19FE45"
-
-function L70_1(A0_2)
+--- C7C6EE79199488665.ResetRideFlags
+function C7C6EE79199488665_prototype:F781D28075A19FE45()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F70E9D1BFAC29144C
+  L2_2 = self
+  L1_2 = self.F70E9D1BFAC29144C
   L3_2 = -1
   L1_2(L2_2, L3_2)
 end

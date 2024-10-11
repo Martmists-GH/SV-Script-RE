@@ -1,3 +1,7 @@
+---@alias CC24F9005E21C1D80 main_field_behaviour_scenario_main_champion_gym_kusa_Gym_kusa_poke_hiding_05
+
+---@class main_field_behaviour_scenario_main_champion_gym_kusa_Gym_kusa_poke_hiding_05 : CC24F9005E21C1D80_prototype
+---@field prototype CC24F9005E21C1D80_prototype
 L55_1 = _ENV
 L56_1 = "CC24F9005E21C1D80"
 L57_1 = L15_1
@@ -42,16 +46,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC24F9005E21C1D80"]
 L69_1 = "__name__"
 L70_1 = "CC24F9005E21C1D80"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC24F9005E21C1D80"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC24F9005E21C1D80"]["prototype"]
-L69_1 = "FAB9F0B8F559A8959"
-
-function L70_1(A0_2)
+---@class CC24F9005E21C1D80_prototype
+CC24F9005E21C1D80_prototype = L15_1()
+CC24F9005E21C1D80.prototype = CC24F9005E21C1D80_prototype
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke_hiding_05.getEscapePositionNames
+function CC24F9005E21C1D80_prototype:FAB9F0B8F559A8959()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -71,11 +70,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC24F9005E21C1D80"]["prototype"]
-L69_1 = "FA58A998AC1EA9099"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke_hiding_05.getSpeedRates
+function CC24F9005E21C1D80_prototype:FA58A998AC1EA9099()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = _hx_tab_array
   L2_2 = {}

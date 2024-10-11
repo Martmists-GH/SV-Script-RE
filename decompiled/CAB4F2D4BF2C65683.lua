@@ -1,3 +1,7 @@
+---@alias CAB4F2D4BF2C65683 main_ui_itemget_item_ItemGetItemOpen
+
+---@class main_ui_itemget_item_ItemGetItemOpen : CAB4F2D4BF2C65683_prototype
+---@field prototype CAB4F2D4BF2C65683_prototype
 L55_1 = _ENV
 L56_1 = "CAB4F2D4BF2C65683"
 L57_1 = L15_1
@@ -54,23 +58,18 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CAB4F2D4BF2C65683"]
 L69_1 = "__name__"
 L70_1 = "CAB4F2D4BF2C65683"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB4F2D4BF2C65683"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB4F2D4BF2C65683"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CAB4F2D4BF2C65683_prototype
+CAB4F2D4BF2C65683_prototype = L15_1()
+CAB4F2D4BF2C65683.prototype = CAB4F2D4BF2C65683_prototype
+--- main.ui.itemget_item.ItemGetItemOpen.Setup
+function CAB4F2D4BF2C65683_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2
   L2_2 = c682D8E4F
   L2_2 = L2_2.fEF94D11D
   L3_2 = "msg_itemget_item"
   L2_2 = L2_2(L3_2)
-  A0_2[4] = L2_2
-  L2_2 = A0_2[4]
+  self[4] = L2_2
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.f0EF10D0C
   L2_2 = L2_2(L3_2)
@@ -78,26 +77,23 @@ function L70_1(A0_2, A1_2)
     L2_2 = false
     return L2_2
   end
-  A0_2[3] = A1_2
+  self[3] = A1_2
   L2_2 = true
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB4F2D4BF2C65683"]["prototype"]
-L69_1 = "F8DD37B0E7388041D"
-
-function L70_1(A0_2)
+--- main.ui.itemget_item.ItemGetItemOpen.ShowUpdate
+function CAB4F2D4BF2C65683_prototype:F8DD37B0E7388041D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   if nil ~= L1_2 then
     L1_2 = L10_1.coroutine
     L1_2 = L1_2.status
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L2_2 = L2_2[1]
     L1_2 = L1_2(L2_2)
     if "dead" ~= L1_2 then
-      L1_2 = A0_2[1]
+      L1_2 = self[1]
       L2_2 = nil
       L3_2 = L62_1
       L4_2 = L64_1.pack
@@ -149,21 +145,18 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB4F2D4BF2C65683"]["prototype"]
-L69_1 = "FAAE4484A9E3A07C2"
-
-function L70_1(A0_2)
+--- main.ui.itemget_item.ItemGetItemOpen.CloseUpdate
+function CAB4F2D4BF2C65683_prototype:FAAE4484A9E3A07C2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   if nil ~= L1_2 then
     L1_2 = L10_1.coroutine
     L1_2 = L1_2.status
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L2_2 = L2_2[1]
     L1_2 = L1_2(L2_2)
     if "dead" ~= L1_2 then
-      L1_2 = A0_2[2]
+      L1_2 = self[2]
       L2_2 = nil
       L3_2 = L62_1
       L4_2 = L64_1.pack
@@ -215,14 +208,11 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB4F2D4BF2C65683"]["prototype"]
-L69_1 = "F87484D3B4002D43E"
-
-function L70_1(A0_2)
+--- main.ui.itemget_item.ItemGetItemOpen.ShowItemGetItem
+function CAB4F2D4BF2C65683_prototype:F87484D3B4002D43E()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   while true do
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     L2_2 = L1_2
     L1_2 = L1_2.f9D8BC178
     L1_2 = L1_2(L2_2)
@@ -233,7 +223,7 @@ function L70_1(A0_2)
     L1_2 = L1_2.S760DAE4C5371A78E
     L1_2()
   end
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.fD4E64AB7
   L3_2 = "msg_itemget_item"
@@ -257,30 +247,27 @@ function L70_1(A0_2)
   L4_2 = L2_2
   L5_2 = C0717A915678DA48A
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[5] = L3_2
-  L3_2 = A0_2[5]
+  self[5] = L3_2
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.F78AA92C5E3D79B89
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB4F2D4BF2C65683"]["prototype"]
-L69_1 = "F7325D2B24A9B4D4F"
-
-function L70_1(A0_2)
+--- main.ui.itemget_item.ItemGetItemOpen.CloseItemGetItem
+function CAB4F2D4BF2C65683_prototype:F7325D2B24A9B4D4F()
   local L1_2, L2_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   if nil == L1_2 then
     return
   end
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.FD014229B3B926D03
   L1_2(L2_2)
   while true do
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     L2_2 = L1_2
     L1_2 = L1_2.F868C8FD3C51947ED
     L1_2 = L1_2(L2_2)
@@ -291,11 +278,11 @@ function L70_1(A0_2)
     L1_2 = L1_2.S760DAE4C5371A78E
     L1_2()
   end
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.f5C99C0AC
   L1_2(L2_2)
-  A0_2[5] = nil
+  self[5] = nil
 end
 
 L68_1[L69_1] = L70_1

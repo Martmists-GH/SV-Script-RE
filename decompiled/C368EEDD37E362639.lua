@@ -1,3 +1,7 @@
+---@alias C368EEDD37E362639 main_ui_util_uikit_UIKitStateBehavior
+
+---@class main_ui_util_uikit_UIKitStateBehavior : C368EEDD37E362639_prototype
+---@field prototype C368EEDD37E362639_prototype
 L68_1 = _ENV["C368EEDD37E362639"]
 L69_1 = "super"
 
@@ -18,59 +22,48 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C368EEDD37E362639"]
 L69_1 = "__name__"
 L70_1 = "C368EEDD37E362639"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C368EEDD37E362639"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C368EEDD37E362639"]["prototype"]
-L69_1 = "FE5011ED5D09317B7"
-
-function L70_1(A0_2)
+---@class C368EEDD37E362639_prototype
+C368EEDD37E362639_prototype = L15_1()
+C368EEDD37E362639.prototype = C368EEDD37E362639_prototype
+--- main.ui.util.uikit.UIKitStateBehavior.get_isBehaviorSetup
+function C368EEDD37E362639_prototype:FE5011ED5D09317B7()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C368EEDD37E362639"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.uikit.UIKitStateBehavior.Setup
+function C368EEDD37E362639_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = C1DB14DCC9D7634FA
   L2_2 = L2_2.new
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.F45A083F0C5E2CBDA
+  L4_2 = self
+  L5_2 = self.F45A083F0C5E2CBDA
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = "state_component_setup_sequence"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C368EEDD37E362639"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.uikit.UIKitStateBehavior.PreUpdate
+function C368EEDD37E362639_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[4]
+      L2_2 = self[4]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -118,136 +111,115 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C368EEDD37E362639"]["prototype"]
-L69_1 = "F509A6A442B8D4302"
-
-function L70_1(A0_2)
+--- main.ui.util.uikit.UIKitStateBehavior.StateStartFlow
+function C368EEDD37E362639_prototype:F509A6A442B8D4302()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c2A84524D
   L2_2 = L2_2.f6A09A15D
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f83FE57AE
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C368EEDD37E362639"]["prototype"]
-L69_1 = "F45A083F0C5E2CBDA"
-
-function L70_1(A0_2)
+--- main.ui.util.uikit.UIKitStateBehavior.StateComponentSetupSequenceBase
+function C368EEDD37E362639_prototype:F45A083F0C5E2CBDA()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C9C018BF0431B5277
   L1_2 = L1_2.S7B6179AB425A98A0
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2(L2_2)
   L1_2 = c2A84524D
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L1_2 = L1_2(L2_2)
-  A0_2[3] = L1_2
+  self[3] = L1_2
   L1_2 = nil
   L2_2 = c2A84524D
   L2_2 = L2_2.f6A09A15D
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.fDCDD45F6
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F90C0B8C98C5249F4
+  L5_2 = self
+  L6_2 = self.F90C0B8C98C5249F4
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F0E47A597FB435DB7
+  L3_2 = self
+  L2_2 = self.F0E47A597FB435DB7
   L2_2(L3_2)
-  A0_2[2] = true
-  L3_2 = A0_2
-  L2_2 = A0_2.F51AF218D2FA9E9E5
+  self[2] = true
+  L3_2 = self
+  L2_2 = self.F51AF218D2FA9E9E5
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C368EEDD37E362639"]["prototype"]
-L69_1 = "F90C0B8C98C5249F4"
-
-function L70_1(A0_2)
+--- main.ui.util.uikit.UIKitStateBehavior.ActionNotifiedEventBase
+function C368EEDD37E362639_prototype:F90C0B8C98C5249F4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = c2A84524D
   L2_2 = L2_2.f6A09A15D
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FBE696F4C6924A789
-  L4_2 = A0_2[3]
+  L3_2 = self
+  L2_2 = self.FBE696F4C6924A789
+  L4_2 = self[3]
   L5_2 = L4_2
   L4_2 = L4_2.f015A8108
   L4_2 = L4_2(L5_2)
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.f44B92869
   L5_2, L6_2 = L5_2(L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C368EEDD37E362639"]["prototype"]
-L69_1 = "F0E47A597FB435DB7"
-
-function L70_1(A0_2)
+--- main.ui.util.uikit.UIKitStateBehavior.SetupSequence
+function C368EEDD37E362639_prototype:F0E47A597FB435DB7()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C368EEDD37E362639"]["prototype"]
-L69_1 = "F51AF218D2FA9E9E5"
-
-function L70_1(A0_2)
+--- main.ui.util.uikit.UIKitStateBehavior.PostSetupSequence
+function C368EEDD37E362639_prototype:F51AF218D2FA9E9E5()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C368EEDD37E362639"]["prototype"]
-L69_1 = "FBE696F4C6924A789"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.util.uikit.UIKitStateBehavior.ActionNotifiedEvent
+function C368EEDD37E362639_prototype:FBE696F4C6924A789(A1_2, A2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C368EEDD37E362639"]["prototype"]
-L69_1 = "F93A82A2E667613C4"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.util.uikit.UIKitStateBehavior.GetViewBehavior
+function C368EEDD37E362639_prototype:F93A82A2E667613C4(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = nil
   L3_2 = c2A84524D
   L3_2 = L3_2.f6A09A15D
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = nil
     return L3_2
   end
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.f82A5B7C4
   L5_2 = A1_2
@@ -298,7 +270,7 @@ L68_1(L69_1, L70_1)
 L68_1 = CDEA323FBEE65D2FA
 L69_1 = "new"
 
-function L70_1(A0_2)
+function L70_1(self)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CDEA323FBEE65D2FA
@@ -309,7 +281,7 @@ function L70_1(A0_2)
   L2_2 = CDEA323FBEE65D2FA
   L2_2 = L2_2.super
   L3_2 = L1_2
-  L4_2 = A0_2
+  L4_2 = self
   L2_2(L3_2, L4_2)
   return L1_2
 end

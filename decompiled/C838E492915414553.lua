@@ -1,3 +1,7 @@
+---@alias C63024CC30A9F4EE5 main_management_originalbook_OriginalBookData
+
+---@class main_management_originalbook_OriginalBookData : C63024CC30A9F4EE5_prototype
+---@field prototype C63024CC30A9F4EE5_prototype
 L55_1 = _ENV
 L56_1 = "C838E492915414553"
 L57_1 = L15_1
@@ -45,11 +49,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C838E492915414553"]
 L69_1 = "__name__"
 L70_1 = "C838E492915414553"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C838E492915414553"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C63024CC30A9F4EE5_prototype
+C63024CC30A9F4EE5_prototype = L15_1()
+C63024CC30A9F4EE5.prototype = C63024CC30A9F4EE5_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C838E492915414553"]["prototype"]
 L69_1 = _ENV["C838E492915414553"]

@@ -1,3 +1,7 @@
+---@alias C6600835E34624344 main_pokepicnic_camera_CookingViewPicnicCamera
+
+---@class main_pokepicnic_camera_CookingViewPicnicCamera : C6600835E34624344_prototype
+---@field prototype C6600835E34624344_prototype
 L55_1 = _ENV
 L56_1 = "C6600835E34624344"
 L57_1 = L15_1
@@ -58,24 +62,19 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6600835E34624344"]
 L69_1 = "__name__"
 L70_1 = "C6600835E34624344"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6600835E34624344"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6600835E34624344"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+---@class C6600835E34624344_prototype
+C6600835E34624344_prototype = L15_1()
+C6600835E34624344.prototype = C6600835E34624344_prototype
+--- main.pokepicnic.camera.CookingViewPicnicCamera.OnUpdate
+function C6600835E34624344_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = L10_1.coroutine
   L2_2 = L2_2.status
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2[1]
   L2_2 = L2_2(L3_2)
   if "dead" ~= L2_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L3_2 = nil
     L4_2 = L62_1
     L5_2 = L64_1.pack
@@ -120,8 +119,8 @@ function L70_1(A0_2, A1_2)
       L5_2(L6_2, L7_2)
     end
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.F5626D934E8103031
+    L3_2 = self
+    L2_2 = self.F5626D934E8103031
     L5_2 = A1_2
     L4_2 = A1_2.f22D509B2
     L6_2 = 2
@@ -133,22 +132,19 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6600835E34624344"]["prototype"]
-L69_1 = "F700551EEE1B534D6"
-
-function L70_1(A0_2)
+--- main.pokepicnic.camera.CookingViewPicnicCamera.FoodViewCoroutine
+function C6600835E34624344_prototype:F700551EEE1B534D6()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C07E4F1BF071B0460
   L1_2 = L1_2.S218E2A14A790D265
   L2_2 = "WhiteFade"
   L3_2 = 1.0
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F5626D934E8103031
+  L2_2 = self
+  L1_2 = self.F5626D934E8103031
   L3_2 = 0.0
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.F68213DDDAE5764D3
   L1_2 = L1_2(L2_2)
@@ -158,11 +154,11 @@ function L70_1(A0_2)
   L2_2 = L1_2
   L1_2 = L1_2.F1BE4B559518FA3F4
   L1_2(L2_2)
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.FA37AF84547B362E9
   L1_2(L2_2)
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.F68213DDDAE5764D3
   L1_2 = L1_2(L2_2)
@@ -181,18 +177,15 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6600835E34624344"]["prototype"]
-L69_1 = "F5626D934E8103031"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.camera.CookingViewPicnicCamera.UpdateMain
+function C6600835E34624344_prototype:F5626D934E8103031(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   L2_2 = L2_2 + A1_2
-  A0_2[11] = L2_2
+  self[11] = L2_2
   L2_2 = C6B8102FCECBAEFF8
   L2_2 = L2_2.SE12CAC4D8506D0D3
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.F68213DDDAE5764D3
   L3_2 = L3_2(L4_2)
@@ -201,7 +194,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2(L4_2)
   L3_2 = L3_2[13]
   L2_2 = L2_2[L3_2]
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L3_2
   L3_2 = L3_2.F68213DDDAE5764D3
   L3_2 = L3_2(L4_2)
@@ -223,7 +216,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = L3_2
   L7_2 = L4_2
   L8_2 = L5_2
-  L9_2 = A0_2[3]
+  L9_2 = self[3]
   L10_2 = L9_2
   L9_2 = L9_2.F68213DDDAE5764D3
   L9_2 = L9_2(L10_2)
@@ -233,17 +226,17 @@ function L70_1(A0_2, A1_2)
   L10_2 = L9_2
   L9_2 = L9_2.F3FEFF3C913582076
   L9_2 = L9_2(L10_2)
-  L10_2 = A0_2[8]
-  L11_2 = A0_2[9]
+  L10_2 = self[8]
+  L11_2 = self[9]
   L11_2 = L11_2 - L10_2
-  L12_2 = A0_2[11]
-  L13_2 = A0_2[10]
+  L12_2 = self[11]
+  L13_2 = self[10]
   L12_2 = L12_2 * L13_2
   L11_2 = L11_2 * L12_2
   L11_2 = L11_2 + L10_2
-  L12_2 = A0_2[9]
+  L12_2 = self[9]
   if L11_2 > L12_2 then
-    L11_2 = A0_2[9]
+    L11_2 = self[9]
   end
   L12_2 = cD5675BA5
   L12_2 = L12_2.fC1785368
@@ -318,60 +311,54 @@ function L70_1(A0_2, A1_2)
   L34_2 = L25_2[2]
   L35_2 = L25_2[3]
   L26_2 = L26_2(L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2)
-  L27_2 = A0_2[2]
+  L27_2 = self[2]
   L28_2 = L27_2
   L27_2 = L27_2.f4CBAEA98
   L29_2 = L18_2
   L30_2 = L19_2
   L31_2 = L20_2
   L27_2(L28_2, L29_2, L30_2, L31_2)
-  L27_2 = A0_2[2]
+  L27_2 = self[2]
   L28_2 = L27_2
   L27_2 = L27_2.f5E2B847F
   L29_2 = L26_2
   L27_2(L28_2, L29_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6600835E34624344"]["prototype"]
-L69_1 = "FBF02A2AE63AF40EC"
-
-function L70_1(A0_2)
+--- main.pokepicnic.camera.CookingViewPicnicCamera.OnStart
+function C6600835E34624344_prototype:FBF02A2AE63AF40EC()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = cAF8D78F3
   L1_2 = L1_2.f37537CF4
   L1_2 = L1_2()
   L2_2 = L1_2
   L1_2 = L1_2.f74CDFF75
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = true
   L1_2(L2_2, L3_2, L4_2)
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f20F12D73
   L1_2(L2_2)
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f2F4A91CF
   L1_2 = L1_2(L2_2)
-  A0_2[7] = L1_2
-  L1_2 = A0_2[2]
+  self[7] = L1_2
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f5BF45D83
   L3_2 = 0.001
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6600835E34624344"]["prototype"]
-L69_1 = "FC106B0B5B59826BF"
-
-function L70_1(A0_2)
+--- main.pokepicnic.camera.CookingViewPicnicCamera.OnFinish
+function C6600835E34624344_prototype:FC106B0B5B59826BF()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f5BF45D83
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L1_2(L2_2, L3_2)
   L1_2 = cAF8D78F3
   L1_2 = L1_2.f37537CF4

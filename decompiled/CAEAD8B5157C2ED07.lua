@@ -1,3 +1,7 @@
+---@alias CAEAD8B5157C2ED07 main_field_gimmick_battle_BattleBgObjectSwitch
+
+---@class main_field_gimmick_battle_BattleBgObjectSwitch : CAEAD8B5157C2ED07_prototype
+---@field prototype CAEAD8B5157C2ED07_prototype
 L55_1 = _ENV
 L56_1 = "CAEAD8B5157C2ED07"
 L57_1 = L15_1
@@ -42,18 +46,13 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CAEAD8B5157C2ED07"]
 L69_1 = "__name__"
 L70_1 = "CAEAD8B5157C2ED07"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEAD8B5157C2ED07"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEAD8B5157C2ED07"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CAEAD8B5157C2ED07_prototype
+CAEAD8B5157C2ED07_prototype = L15_1()
+CAEAD8B5157C2ED07.prototype = CAEAD8B5157C2ED07_prototype
+--- main.field.gimmick.battle.BattleBgObjectSwitch.Setup
+function CAEAD8B5157C2ED07_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f462C9B70
   L2_2 = L2_2(L3_2)
@@ -85,7 +84,7 @@ function L70_1(A0_2, A1_2)
     L2_2 = L5_2
   end
   if L3_2 then
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.fCDCB600D
     L6_2 = true

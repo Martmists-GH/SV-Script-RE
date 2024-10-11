@@ -1,3 +1,7 @@
+---@alias CC705FAD2899162F8 main_ui_dressup_shop_view_DressupUIBuySequence
+
+---@class main_ui_dressup_shop_view_DressupUIBuySequence : CC705FAD2899162F8_prototype
+---@field prototype CC705FAD2899162F8_prototype
 L55_1 = _ENV
 L56_1 = "CC705FAD2899162F8"
 L57_1 = L15_1
@@ -36,98 +40,87 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC705FAD2899162F8"]
 L69_1 = "__name__"
 L70_1 = "CC705FAD2899162F8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC705FAD2899162F8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC705FAD2899162F8"]["prototype"]
-L69_1 = "F8ECAA28B9538110D"
-
-function L70_1(A0_2)
+---@class CC705FAD2899162F8_prototype
+CC705FAD2899162F8_prototype = L15_1()
+CC705FAD2899162F8.prototype = CC705FAD2899162F8_prototype
+--- main.ui.dressup.shop.view.DressupUIBuySequence.CreateCoroutine
+function CC705FAD2899162F8_prototype:F8ECAA28B9538110D()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.FBA9B43A0C3BA65D5
+  L3_2 = self
+  L4_2 = self.FBA9B43A0C3BA65D5
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "dressup_shop_ui_buy_sequence"
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC705FAD2899162F8"]["prototype"]
-L69_1 = "FBA9B43A0C3BA65D5"
-
-function L70_1(A0_2)
+--- main.ui.dressup.shop.view.DressupUIBuySequence.MainSequence
+function CC705FAD2899162F8_prototype:FBA9B43A0C3BA65D5()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FDC8931705DE73B7F
+  L2_2 = self
+  L1_2 = self.FDC8931705DE73B7F
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F9A2BD5AED2BAAA2D
+    L2_2 = self
+    L1_2 = self.F9A2BD5AED2BAAA2D
     L1_2(L2_2)
     return
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F399338725681E60E
+  L2_2 = self
+  L1_2 = self.F399338725681E60E
   L1_2 = L1_2(L2_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F9B4DBD6CF0EA85E5
+  L3_2 = self
+  L2_2 = self.F9B4DBD6CF0EA85E5
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F9A2BD5AED2BAAA2D
+    L3_2 = self
+    L2_2 = self.F9A2BD5AED2BAAA2D
     L2_2(L3_2)
     return
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FD24712F2E3F4E782
+  L3_2 = self
+  L2_2 = self.FD24712F2E3F4E782
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if "cancel" == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F9A2BD5AED2BAAA2D
+    L4_2 = self
+    L3_2 = self.F9A2BD5AED2BAAA2D
     L3_2(L4_2)
     return
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F4B432A444ED72B60
+  L4_2 = self
+  L3_2 = self.F4B432A444ED72B60
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F605AD2028D0058CA
+  L4_2 = self
+  L3_2 = self.F605AD2028D0058CA
   L5_2 = L1_2
   L3_2 = L3_2(L4_2, L5_2)
   if "yes" == L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F3E948D601C85AFE6
+    L4_2 = self
+    L3_2 = self.F3E948D601C85AFE6
     L3_2(L4_2)
   end
   L3_2 = C1DB14DCC9D7634FA
   L3_2 = L3_2.S760DAE4C5371A78E
   L3_2()
-  L4_2 = A0_2
-  L3_2 = A0_2.F9A2BD5AED2BAAA2D
+  L4_2 = self
+  L3_2 = self.F9A2BD5AED2BAAA2D
   L5_2 = true
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC705FAD2899162F8"]["prototype"]
-L69_1 = "FDC8931705DE73B7F"
-
-function L70_1(A0_2)
+--- main.ui.dressup.shop.view.DressupUIBuySequence.IsHavesMessage
+function CC705FAD2899162F8_prototype:FDC8931705DE73B7F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CF142AD871E7B1304
   L1_2 = L1_2.S385504EFF7E842C3
   L1_2 = L1_2()
   L2_2 = L1_2
   L1_2 = L1_2.FF74F47398B136A0D
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.F2FD55CE9CBB45200
   L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2)
@@ -178,18 +171,15 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC705FAD2899162F8"]["prototype"]
-L69_1 = "F9B4DBD6CF0EA85E5"
-
-function L70_1(A0_2)
+--- main.ui.dressup.shop.view.DressupUIBuySequence.IsCurrencyMessage
+function CC705FAD2899162F8_prototype:F9B4DBD6CF0EA85E5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C41AF1C042AB05442
   L1_2 = L1_2.S264F26F6894F3392
   L2_2 = L1_2
   L1_2 = L1_2.F978B5817EAFDF8C8
   L1_2 = L1_2(L2_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F8F127E793C9AA905
   L2_2 = L2_2(L3_2)
@@ -199,7 +189,7 @@ function L70_1(A0_2)
     L2_2 = L1_2
     L1_2 = L1_2.FE3E7EF9576663B08
     L1_2 = L1_2(L2_2)
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F8F127E793C9AA905
     L2_2 = L2_2(L3_2)
@@ -250,11 +240,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC705FAD2899162F8"]["prototype"]
-L69_1 = "F395B9B8EBE7F44CD"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.shop.view.DressupUIBuySequence.IsSelectCurrencyMessage
+function CC705FAD2899162F8_prototype:F395B9B8EBE7F44CD(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if "okozukai" == A1_2 then
     L2_2 = C41AF1C042AB05442
@@ -262,7 +249,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = L2_2
     L2_2 = L2_2.F978B5817EAFDF8C8
     L2_2 = L2_2(L3_2)
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.F8F127E793C9AA905
     L3_2 = L3_2(L4_2)
@@ -330,7 +317,7 @@ function L70_1(A0_2, A1_2)
       L3_2 = L2_2
       L2_2 = L2_2.FE3E7EF9576663B08
       L2_2 = L2_2(L3_2)
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L4_2 = L3_2
       L3_2 = L3_2.F8F127E793C9AA905
       L3_2 = L3_2(L4_2)
@@ -385,13 +372,10 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC705FAD2899162F8"]["prototype"]
-L69_1 = "F399338725681E60E"
-
-function L70_1(A0_2)
+--- main.ui.dressup.shop.view.DressupUIBuySequence.IsCanWear
+function CC705FAD2899162F8_prototype:F399338725681E60E()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.F2DBE7FC23B9B23DE
   L1_2 = L1_2(L2_2)
@@ -401,7 +385,7 @@ function L70_1(A0_2)
   end
   L1_2 = C97FB23B0B8676D11
   L1_2 = L1_2.S66DF0721A51B5065
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F52C4B0D833097DFB
   L2_2, L3_2 = L2_2(L3_2)
@@ -418,11 +402,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC705FAD2899162F8"]["prototype"]
-L69_1 = "FD24712F2E3F4E782"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.shop.view.DressupUIBuySequence.IsBuyMessage
+function CC705FAD2899162F8_prototype:FD24712F2E3F4E782(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   
   function L2_2()
@@ -446,7 +427,7 @@ function L70_1(A0_2, A1_2)
   end
   
   L2_2 = L2_2()
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.F8F127E793C9AA905
   L3_2 = L3_2(L4_2)
@@ -479,31 +460,28 @@ function L70_1(A0_2, A1_2)
   L8_2, L9_2, L10_2, L11_2 = L8_2(L9_2, L10_2)
   L6_2, L7_2, L8_2, L9_2, L10_2, L11_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.F395B9B8EBE7F44CD
+  L7_2 = self
+  L6_2 = self.F395B9B8EBE7F44CD
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
   if L6_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.FD24712F2E3F4E782
+    L7_2 = self
+    L6_2 = self.FD24712F2E3F4E782
     L8_2 = A1_2
     return L6_2(L7_2, L8_2)
   end
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC705FAD2899162F8"]["prototype"]
-L69_1 = "F4B432A444ED72B60"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.shop.view.DressupUIBuySequence.BuyProcess
+function CC705FAD2899162F8_prototype:F4B432A444ED72B60(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CF142AD871E7B1304
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
   L3_2 = L2_2
   L2_2 = L2_2.FD0EA6548C18156B9
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.F2FD55CE9CBB45200
   L4_2, L5_2 = L4_2(L5_2)
@@ -512,7 +490,7 @@ function L70_1(A0_2, A1_2)
     L2_2 = CCD22EFED4E9E5F89
     L2_2 = L2_2.SAA2A94132854787E
     L3_2 = 0
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.F8F127E793C9AA905
     L4_2 = L4_2(L5_2)
@@ -522,7 +500,7 @@ function L70_1(A0_2, A1_2)
     L2_2 = CCD22EFED4E9E5F89
     L2_2 = L2_2.SAA2A94132854787E
     L3_2 = 1
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.F8F127E793C9AA905
     L4_2 = L4_2(L5_2)
@@ -531,11 +509,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC705FAD2899162F8"]["prototype"]
-L69_1 = "F605AD2028D0058CA"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.shop.view.DressupUIBuySequence.BuyAfterMessage
+function CC705FAD2899162F8_prototype:F605AD2028D0058CA(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = "no"
   if true == A1_2 then
@@ -543,7 +518,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.SA1411E525DF2BC2A
     L4_2 = 3
     L3_2 = L3_2(L4_2)
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.F52C4B0D833097DFB
     L4_2 = L4_2(L5_2)
@@ -612,13 +587,10 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC705FAD2899162F8"]["prototype"]
-L69_1 = "F3E948D601C85AFE6"
-
-function L70_1(A0_2)
+--- main.ui.dressup.shop.view.DressupUIBuySequence.DressupItemSet
+function CC705FAD2899162F8_prototype:F3E948D601C85AFE6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.F2DBE7FC23B9B23DE
   L1_2 = L1_2(L2_2)
@@ -628,12 +600,12 @@ function L70_1(A0_2)
   L3_2 = L2_2
   L2_2 = L2_2.FB22BD8F437A9EEF7
   L4_2 = L1_2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.F2FD55CE9CBB45200
   L5_2, L6_2, L7_2, L8_2, L9_2 = L5_2(L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F2DBE7FC23B9B23DE
   L2_2 = L2_2(L3_2)
@@ -642,7 +614,7 @@ function L70_1(A0_2)
     L2_2 = L2_2.SBF9901CD9D650737
     L3_2 = cA8A7EF2F
     L3_2 = L3_2.fB7F5D193
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.F9A724EDE187EA45D
     L4_2, L5_2, L6_2, L7_2, L8_2, L9_2 = L4_2(L5_2)
@@ -657,7 +629,7 @@ function L70_1(A0_2)
   L3_2 = L3_2()
   L4_2 = L3_2
   L3_2 = L3_2.F13318482E8E10C41
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.F2FD55CE9CBB45200
   L5_2, L6_2, L7_2, L8_2, L9_2 = L5_2(L6_2)
@@ -694,23 +666,20 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC705FAD2899162F8"]["prototype"]
-L69_1 = "F9A2BD5AED2BAAA2D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.dressup.shop.view.DressupUIBuySequence.SequenceEnd
+function CC705FAD2899162F8_prototype:F9A2BD5AED2BAAA2D(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.F4CEF9FBF49CC8C18
   L2_2(L3_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.FE0EBB34B8A1B41AB
   L4_2 = true
   L2_2(L3_2, L4_2)
   if true == A1_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.F4978C9CA3CF43B94
     L4_2 = nil

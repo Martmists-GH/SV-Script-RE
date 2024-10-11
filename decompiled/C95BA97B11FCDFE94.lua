@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C95BA97B11FCDFE94"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C95BA97B11FCDFE94"]
-L69_1 = "new"
+---@alias C95BA97B11FCDFE94 main_system_prohibit_ProhibitManagementImpl
 
-function L70_1()
+---@class main_system_prohibit_ProhibitManagementImpl : C95BA97B11FCDFE94_prototype
+---@field prototype C95BA97B11FCDFE94_prototype
+C95BA97B11FCDFE94 = L15_1()
+function C95BA97B11FCDFE94.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C95BA97B11FCDFE94
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C95BA97B11FCDFE94"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C95BA97B11FCDFE94
+function C95BA97B11FCDFE94.super(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = L46_1.new
   L1_2 = L1_2()
@@ -53,11 +47,7 @@ function L70_1(A0_2)
   L3_2[L1_2] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C95BA97B11FCDFE94"]
-L69_1 = "__name__"
-L70_1 = "C95BA97B11FCDFE94"
-L68_1[L69_1] = L70_1
+C95BA97B11FCDFE94.__name__ = "C95BA97B11FCDFE94"
 L68_1 = _ENV["C95BA97B11FCDFE94"]
 L69_1 = "SA204011459FF69DC"
 
@@ -85,18 +75,13 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C95BA97B11FCDFE94"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C95BA97B11FCDFE94"]["prototype"]
-L69_1 = "FB741A4C5649BDB05"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@class C95BA97B11FCDFE94_prototype
+C95BA97B11FCDFE94_prototype = L15_1()
+C95BA97B11FCDFE94.prototype = C95BA97B11FCDFE94_prototype
+--- main.system.prohibit.ProhibitManagementImpl.OnRegisterSwitch
+function C95BA97B11FCDFE94_prototype:FB741A4C5649BDB05(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2.h
   L5_2 = L5_2[A1_2]
   if nil ~= L5_2 then
@@ -110,7 +95,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L8_2 = A3_2
   L9_2 = A2_2
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2)
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L5_2
   if nil == L7_2 then
     L8_2 = L6_2.h
@@ -120,7 +105,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L8_2 = L6_2.h
     L8_2[A1_2] = L7_2
   end
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L9_2 = L8_2
   L8_2 = L8_2.push
   L10_2 = L5_2
@@ -129,13 +114,10 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C95BA97B11FCDFE94"]["prototype"]
-L69_1 = "FD7C94165931580CC"
-
-function L70_1(A0_2, A1_2)
+--- main.system.prohibit.ProhibitManagementImpl.RequestEval
+function C95BA97B11FCDFE94_prototype:FD7C94165931580CC(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2.k
   L2_2 = L2_2[A1_2]
   if nil == L2_2 then
@@ -158,11 +140,11 @@ function L70_1(A0_2, A1_2)
       L4_2 = L2_2
       L3_2 = L2_2.next
       L3_2 = L3_2(L4_2)
-      L4_2 = A0_2[1]
+      L4_2 = self[1]
       L4_2 = L4_2.h
       L4_2 = L4_2[L3_2]
       if nil ~= L4_2 then
-        L4_2 = A0_2[1]
+        L4_2 = self[1]
         L4_2 = L4_2.h
         L4_2 = L4_2[L3_2]
         L5_2 = L47_1.tnull
@@ -187,11 +169,11 @@ function L70_1(A0_2, A1_2)
       L5_2 = L3_2
       L4_2 = L3_2.next
       L4_2 = L4_2(L5_2)
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L5_2 = L5_2.h
       L5_2 = L5_2[L4_2]
       if nil ~= L5_2 then
-        L5_2 = A0_2[1]
+        L5_2 = self[1]
         L5_2 = L5_2.h
         L5_2 = L5_2[L4_2]
         L6_2 = L47_1.tnull

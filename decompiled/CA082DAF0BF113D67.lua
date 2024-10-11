@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CA082DAF0BF113D67"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CA082DAF0BF113D67"]
-L69_1 = "new"
+---@alias CA082DAF0BF113D67 main_field_area_base_AreaLocationManager
 
-function L70_1(A0_2)
+---@class main_field_area_base_AreaLocationManager : CA082DAF0BF113D67_prototype
+---@field prototype CA082DAF0BF113D67_prototype
+CA082DAF0BF113D67 = L15_1()
+function CA082DAF0BF113D67.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CA082DAF0BF113D67
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA082DAF0BF113D67"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CA082DAF0BF113D67
+function CA082DAF0BF113D67.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -48,11 +42,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CA082DAF0BF113D67"]
 L69_1 = "__name__"
 L70_1 = "CA082DAF0BF113D67"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA082DAF0BF113D67"]
-L69_1 = "S19D91545DF9D1AED"
-
-function L70_1()
+--- main.field.area.base.AreaLocationManager.UpdateOnce
+function CA082DAF0BF113D67.S19D91545DF9D1AED()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2
   L0_2 = C79EA8E557A16AB24
   L0_2 = L0_2.new
@@ -662,11 +653,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA082DAF0BF113D67"]
-L69_1 = "S044D65116590C945"
-
-function L70_1(A0_2, A1_2)
+--- main.field.area.base.AreaLocationManager.UpdateArea
+function CA082DAF0BF113D67.S044D65116590C945(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = CA082DAF0BF113D67
   L2_2 = L2_2.SC8223E31D3163519
@@ -824,11 +812,8 @@ function L70_1(A0_2, A1_2)
   ::lbl_117::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA082DAF0BF113D67"]
-L69_1 = "S6D6EA343454EB203"
-
-function L70_1(A0_2)
+--- main.field.area.base.AreaLocationManager.S6D6EA343454EB203
+function CA082DAF0BF113D67.S6D6EA343454EB203(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA082DAF0BF113D67
   L1_2 = L1_2.SC8223E31D3163519
@@ -838,11 +823,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA082DAF0BF113D67"]
-L69_1 = "S23C435B353D9B88E"
-
-function L70_1(A0_2)
+--- main.field.area.base.AreaLocationManager.RetrieveMainAreaName
+function CA082DAF0BF113D67.S23C435B353D9B88E(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA082DAF0BF113D67
   L1_2 = L1_2.SC8223E31D3163519
@@ -852,11 +834,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA082DAF0BF113D67"]
-L69_1 = "S125FE019752A17BC"
-
-function L70_1(A0_2)
+--- main.field.area.base.AreaLocationManager.RetrieveAreaInfo
+function CA082DAF0BF113D67.S125FE019752A17BC(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C490192CEE44CDE0B
   L1_2 = L1_2.new
@@ -870,11 +849,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA082DAF0BF113D67"]
-L69_1 = "S909DFCBA192986A8"
-
-function L70_1(A0_2)
+--- main.field.area.base.AreaLocationManager.RetrieveRawAreaInfo
+function CA082DAF0BF113D67.S909DFCBA192986A8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C490192CEE44CDE0B
   L1_2 = L1_2.new
@@ -888,11 +864,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA082DAF0BF113D67"]
-L69_1 = "S950701387FCECB31"
-
-function L70_1(A0_2)
+--- main.field.area.base.AreaLocationManager.S950701387FCECB31
+function CA082DAF0BF113D67.S950701387FCECB31(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CA082DAF0BF113D67
   L1_2 = L1_2.SC8223E31D3163519
@@ -902,11 +875,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA082DAF0BF113D67"]
-L69_1 = "S450B563AAD29DBFE"
-
-function L70_1()
+--- main.field.area.base.AreaLocationManager.S450B563AAD29DBFE
+function CA082DAF0BF113D67.S450B563AAD29DBFE()
   local L0_2, L1_2, L2_2
   L0_2 = CA082DAF0BF113D67
   L0_2 = L0_2.SC8223E31D3163519
@@ -920,11 +890,8 @@ function L70_1()
   L1_2.h = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA082DAF0BF113D67"]
-L69_1 = "S96AA0E62AD1B7377"
-
-function L70_1()
+--- main.field.area.base.AreaLocationManager.S96AA0E62AD1B7377
+function CA082DAF0BF113D67.S96AA0E62AD1B7377()
   local L0_2, L1_2
   L0_2 = CA082DAF0BF113D67
   L0_2 = L0_2.SC8223E31D3163519
@@ -932,11 +899,8 @@ function L70_1()
   L0_2.posCache = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA082DAF0BF113D67"]
-L69_1 = "S7CDE54531FB79620"
-
-function L70_1()
+--- main.field.area.base.AreaLocationManager.get_CurrentAreaInfo
+function CA082DAF0BF113D67.S7CDE54531FB79620()
   local L0_2, L1_2, L2_2
   L0_2 = CA082DAF0BF113D67
   L0_2 = L0_2.SC8223E31D3163519
@@ -952,11 +916,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA082DAF0BF113D67"]
-L69_1 = "S233385B3E77D8FE2"
-
-function L70_1()
+--- main.field.area.base.AreaLocationManager.get_CurrentMainAreaName
+function CA082DAF0BF113D67.S233385B3E77D8FE2()
   local L0_2, L1_2, L2_2
   L0_2 = CA082DAF0BF113D67
   L0_2 = L0_2.SC8223E31D3163519
@@ -977,16 +938,11 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA082DAF0BF113D67"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA082DAF0BF113D67"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+---@class CA082DAF0BF113D67_prototype
+CA082DAF0BF113D67_prototype = L15_1()
+CA082DAF0BF113D67.prototype = CA082DAF0BF113D67_prototype
+--- main.field.area.base.AreaLocationManager.PreUpdate
+function CA082DAF0BF113D67_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2
   L2_2 = CF67A67452D018ECC
   L2_2 = L2_2.SC8223E31D3163519

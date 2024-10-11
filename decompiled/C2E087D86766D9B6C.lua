@@ -1,3 +1,7 @@
+---@alias C2E087D86766D9B6C main_field_action_ActionForceMove
+
+---@class main_field_action_ActionForceMove : C2E087D86766D9B6C_prototype
+---@field prototype C2E087D86766D9B6C_prototype
 L55_1 = _ENV
 L56_1 = "C2E087D86766D9B6C"
 L57_1 = L15_1
@@ -60,25 +64,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2E087D86766D9B6C"]
 L69_1 = "__name__"
 L70_1 = "C2E087D86766D9B6C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E087D86766D9B6C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E087D86766D9B6C"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C2E087D86766D9B6C_prototype
+C2E087D86766D9B6C_prototype = L15_1()
+C2E087D86766D9B6C.prototype = C2E087D86766D9B6C_prototype
+--- main.field.action.ActionForceMove.onCreate
+function C2E087D86766D9B6C_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L1_2.useCoroutine = true
   L1_2 = L52_1.__instanceof
-  L2_2 = A0_2[15]
+  L2_2 = self[15]
   L3_2 = C7F10828B927EBC53
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[17] = L1_2
-  L1_2 = A0_2[5]
+  self[17] = L1_2
+  L1_2 = self[5]
   L1_2 = L1_2.owner
   L2_2 = L1_2
   L1_2 = L1_2.f750133BA
@@ -90,8 +89,8 @@ function L70_1(A0_2)
   L4_2[1] = L5_2
   L4_2[2] = L6_2
   L4_2[3] = L7_2
-  A0_2[20] = L4_2
-  L4_2 = A0_2[5]
+  self[20] = L4_2
+  L4_2 = self[5]
   L5_2 = nil
   L6_2 = c32245D3F
   L6_2 = L6_2.f9D6118A2
@@ -114,8 +113,8 @@ function L70_1(A0_2)
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2)
   L8_2 = L5_2
   L6_2 = L6_2(L7_2, L8_2)
-  A0_2[18] = L6_2
-  L6_2 = A0_2[18]
+  self[18] = L6_2
+  L6_2 = self[18]
   if L6_2 then
     L6_2 = L16_1
     L7_2 = {}
@@ -128,11 +127,11 @@ function L70_1(A0_2)
     L7_2.walk = 1.0
     L7_2.run = 2.0
     L6_2 = L6_2(L7_2)
-    A0_2[21] = L6_2
-    L6_2 = A0_2[16]
+    self[21] = L6_2
+    L6_2 = self[16]
     L6_2 = L6_2.isRun
     if L6_2 then
-      L6_2 = A0_2[16]
+      L6_2 = self[16]
       L7_2 = L6_2.moveSpeedRate
       L7_2 = L7_2 * 0.5
       L6_2.moveSpeedRate = L7_2
@@ -149,10 +148,10 @@ function L70_1(A0_2)
     L7_2.walk = 0.5
     L7_2.run = 1.0
     L6_2 = L6_2(L7_2)
-    A0_2[21] = L6_2
-    L6_2 = A0_2[16]
+    self[21] = L6_2
+    L6_2 = self[16]
     L6_2 = L6_2.targetPosXZ
-    L7_2 = A0_2[5]
+    L7_2 = self[5]
     L7_2 = L7_2.owner
     L8_2 = L7_2
     L7_2 = L7_2.f7360ED03
@@ -215,7 +214,7 @@ function L70_1(A0_2)
     L15_2 = L15_2(L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2)
     L16_2 = L10_1.select
     L17_2 = 2
-    L18_2 = A0_2[5]
+    L18_2 = self[5]
     L18_2 = L18_2.owner
     L19_2 = L18_2
     L18_2 = L18_2.f64857644
@@ -226,10 +225,10 @@ function L70_1(A0_2)
     L16_2 = L16_2(L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2)
     L15_2 = L15_2 - L16_2
     L14_2 = L14_2(L15_2)
-    A0_2[23] = L14_2
+    self[23] = L14_2
     L14_2 = L10_1.select
     L15_2 = 2
-    L16_2 = A0_2[5]
+    L16_2 = self[5]
     L16_2 = L16_2.owner
     L17_2 = L16_2
     L16_2 = L16_2.f16155D9E
@@ -238,10 +237,10 @@ function L70_1(A0_2)
     L16_2 = L16_2.f643B5D6F
     L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2 = L16_2(L17_2)
     L14_2 = L14_2(L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2)
-    A0_2[22] = L14_2
+    self[22] = L14_2
     L14_2 = L10_1.math
     L14_2 = L14_2.abs
-    L15_2 = A0_2[23]
+    L15_2 = self[23]
     L16_2 = L10_1.math
     L16_2 = L16_2.pi
     L16_2 = 2 * L16_2
@@ -249,10 +248,10 @@ function L70_1(A0_2)
     L15_2 = L15_2 * 360.0
     L14_2 = L14_2(L15_2)
     L14_2 = L14_2 >= 90.0
-    A0_2[30] = L14_2
-    L14_2 = A0_2[16]
+    self[30] = L14_2
+    L14_2 = self[16]
     L14_2 = L14_2.targetPosXZ
-    L15_2 = A0_2[5]
+    L15_2 = self[5]
     L15_2 = L15_2.owner
     L16_2 = L15_2
     L15_2 = L15_2.f750133BA
@@ -273,15 +272,15 @@ function L70_1(A0_2)
     L21_2[1] = L22_2
     L21_2[2] = L23_2
     L21_2[3] = L24_2
-    A0_2[25] = L21_2
+    self[25] = L21_2
   end
-  A0_2[24] = 0
-  L6_2 = A0_2[5]
+  self[24] = 0
+  L6_2 = self[5]
   L6_2 = L6_2.owner
   L7_2 = L6_2
   L6_2 = L6_2.fE9C29DA1
   L6_2(L7_2)
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L6_2 = L6_2.owner
   L7_2 = L6_2
   L6_2 = L6_2.f750133BA
@@ -298,20 +297,17 @@ function L70_1(A0_2)
   L9_2(L10_2)
   L9_2 = C23E5342B132D5323
   L9_2 = L9_2.S8CED43592045F1F1
-  L10_2 = A0_2[16]
+  L10_2 = self[16]
   L10_2 = L10_2.targetPosXZ
   L9_2(L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E087D86766D9B6C"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.ActionForceMove.onPreUpdate
+function C2E087D86766D9B6C_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   if L1_2 then
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     L2_2 = nil
     L3_2 = cE35B3EB3
     L3_2 = L3_2.fDBA763D1
@@ -356,15 +352,15 @@ function L70_1(A0_2)
     function L4_2()
       local L0_3, L1_3
       L0_3 = nil
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[16]
       L1_3 = L1_3.isRun
       if L1_3 then
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[21]
         L0_3 = L1_3.run
       else
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[21]
         L0_3 = L1_3.walk
       end
@@ -377,15 +373,15 @@ function L70_1(A0_2)
     function L6_2()
       local L0_3, L1_3
       L0_3 = nil
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[16]
       L1_3 = L1_3.nonStop
       if nil ~= L1_3 then
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[16]
         L1_3 = L1_3.nonStop
         if 3 ~= L1_3 then
-          L1_3 = A0_2
+          L1_3 = self
           L1_3 = L1_3[16]
           L1_3 = L1_3.nonStop
           if 2 ~= L1_3 then
@@ -401,8 +397,8 @@ function L70_1(A0_2)
     end
     
     L6_2 = L6_2()
-    L7_2 = A0_2[5]
-    L8_2 = A0_2[21]
+    L7_2 = self[5]
+    L8_2 = self[21]
     L8_2 = L8_2.paramName
     L9_2 = nil
     L10_2 = nil
@@ -451,7 +447,7 @@ function L70_1(A0_2)
       L9_2 = L13_2
     end
     while true do
-      L12_2 = A0_2[19]
+      L12_2 = self[19]
       if L12_2 then
         break
       end
@@ -467,8 +463,8 @@ function L70_1(A0_2)
       L15_2 = 1.0
       L12_2 = L12_2(L13_2, L14_2, L15_2)
       L6_2 = L12_2
-      L12_2 = A0_2[5]
-      L13_2 = A0_2[21]
+      L12_2 = self[5]
+      L13_2 = self[21]
       L13_2 = L13_2.paramName
       L14_2 = nil
       L15_2 = cE35B3EB3
@@ -515,14 +511,14 @@ function L70_1(A0_2)
         L20_2 = L20_2 + L9_2
         L17_2(L18_2, L19_2, L20_2)
       end
-      L16_2 = A0_2[24]
+      L16_2 = self[24]
       L17_2 = C075A638F130352C3
       L17_2 = L17_2.S44460EB93267F798
       L16_2 = L16_2 + L17_2
-      A0_2[24] = L16_2
-      L16_2 = A0_2[16]
+      self[24] = L16_2
+      L16_2 = self[16]
       L16_2 = L16_2.targetPosXZ
-      L17_2 = A0_2[5]
+      L17_2 = self[5]
       L17_2 = L17_2.owner
       L18_2 = L17_2
       L17_2 = L17_2.f750133BA
@@ -610,10 +606,10 @@ function L70_1(A0_2)
         L36_2 = L27_2[2]
         L37_2 = L27_2[3]
         L28_2 = L28_2(L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2)
-        L29_2 = A0_2[5]
+        L29_2 = self[5]
         L30_2 = cD5675BA5
         L30_2 = L30_2.fBE61A5F8
-        L31_2 = A0_2[5]
+        L31_2 = self[5]
         L31_2 = L31_2.owner
         L32_2 = L31_2
         L31_2 = L31_2.f16155D9E
@@ -631,21 +627,21 @@ function L70_1(A0_2)
       L24_2 = L24_2.S760DAE4C5371A78E
       L24_2()
     end
-    L12_2 = A0_2[16]
+    L12_2 = self[16]
     L12_2 = L12_2.nonStop
     if nil ~= L12_2 then
-      L12_2 = A0_2[16]
+      L12_2 = self[16]
       L12_2 = L12_2.nonStop
       if 1 == L12_2 then
         goto lbl_396
       end
-      L12_2 = A0_2[16]
+      L12_2 = self[16]
       L12_2 = L12_2.nonStop
       if 2 == L12_2 then
         goto lbl_396
       end
     end
-    L12_2 = A0_2[5]
+    L12_2 = self[5]
     L13_2 = nil
     L14_2 = cE35B3EB3
     L14_2 = L14_2.fDBA763D1
@@ -686,8 +682,8 @@ function L70_1(A0_2)
       L19_2 = "default"
       L16_2(L17_2, L18_2, L19_2)
     end
-    L15_2 = A0_2[5]
-    L16_2 = A0_2[21]
+    L15_2 = self[5]
+    L16_2 = self[21]
     L16_2 = L16_2.paramName
     L17_2 = nil
     L18_2 = nil
@@ -735,8 +731,8 @@ function L70_1(A0_2)
       L21_2 = L21_2(L22_2, L23_2)
       L17_2 = L21_2
     end
-    L21_2 = A0_2
-    L20_2 = A0_2.FBAA411F6EC615647
+    L21_2 = self
+    L20_2 = self.FBAA411F6EC615647
     L22_2 = L17_2
     L23_2 = 0.0
     L24_2 = C2E087D86766D9B6C
@@ -756,8 +752,8 @@ function L70_1(A0_2)
       L20_2 = L20_2 + L21_2
     end
     ::lbl_396::
-    L12_2 = A0_2[5]
-    L13_2 = A0_2[17]
+    L12_2 = self[5]
+    L13_2 = self[17]
     L13_2 = not L13_2
     L14_2 = nil
     L15_2 = cE35B3EB3
@@ -800,13 +796,13 @@ function L70_1(A0_2)
       L17_2(L18_2, L19_2, L20_2)
     end
   else
-    L1_2 = A0_2[15]
+    L1_2 = self[15]
     L2_2 = L1_2
     L1_2 = L1_2.F8F54F39FC8DD4A14
     L3_2 = "move_stop_bool"
     L4_2 = true
     L1_2(L2_2, L3_2, L4_2)
-    L1_2 = A0_2[5]
+    L1_2 = self[5]
     L2_2 = nil
     L3_2 = cE35B3EB3
     L3_2 = L3_2.fDBA763D1
@@ -851,15 +847,15 @@ function L70_1(A0_2)
     function L4_2()
       local L0_3, L1_3
       L0_3 = nil
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[16]
       L1_3 = L1_3.isRun
       if L1_3 then
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[21]
         L0_3 = L1_3.run
       else
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[21]
         L0_3 = L1_3.walk
       end
@@ -871,15 +867,15 @@ function L70_1(A0_2)
     function L5_2()
       local L0_3, L1_3
       L0_3 = nil
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[16]
       L1_3 = L1_3.nonStop
       if nil ~= L1_3 then
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[16]
         L1_3 = L1_3.nonStop
         if 3 ~= L1_3 then
-          L1_3 = A0_2
+          L1_3 = self
           L1_3 = L1_3[16]
           L1_3 = L1_3.nonStop
           if 2 ~= L1_3 then
@@ -895,8 +891,8 @@ function L70_1(A0_2)
     end
     
     L5_2 = L5_2()
-    L6_2 = A0_2[5]
-    L7_2 = A0_2[21]
+    L6_2 = self[5]
+    L7_2 = self[21]
     L7_2 = L7_2.paramName
     L8_2 = nil
     L9_2 = nil
@@ -945,7 +941,7 @@ function L70_1(A0_2)
       L8_2 = L12_2
     end
     while true do
-      L11_2 = A0_2[19]
+      L11_2 = self[19]
       if L11_2 then
         break
       end
@@ -964,37 +960,37 @@ function L70_1(A0_2)
       L11_2 = L4_2 - L8_2
       L11_2 = L11_2 * L5_2
       L11_2 = L11_2 + L8_2
-      A0_2[29] = L11_2
-      L11_2 = A0_2[27]
+      self[29] = L11_2
+      L11_2 = self[27]
       if L11_2 then
-        L11_2 = A0_2[16]
+        L11_2 = self[16]
         L11_2 = L11_2.nonStop
         if nil ~= L11_2 then
-          L11_2 = A0_2[16]
+          L11_2 = self[16]
           L11_2 = L11_2.nonStop
           if 1 == L11_2 then
             goto lbl_582
           end
-          L11_2 = A0_2[16]
+          L11_2 = self[16]
           L11_2 = L11_2.nonStop
           if 2 == L11_2 then
             goto lbl_582
           end
         end
         L11_2 = L28_1.max
-        L12_2 = A0_2[28]
+        L12_2 = self[28]
         L13_2 = C2E087D86766D9B6C
         L13_2 = L13_2.S84F7F8767EC1721B
         L12_2 = L12_2 / L13_2
         L13_2 = 0.5
         L11_2 = L11_2(L12_2, L13_2)
-        A0_2[29] = L11_2
+        self[29] = L11_2
       end
       ::lbl_582::
-      L11_2 = A0_2[5]
-      L12_2 = A0_2[21]
+      L11_2 = self[5]
+      L12_2 = self[21]
       L12_2 = L12_2.paramName
-      L13_2 = A0_2[29]
+      L13_2 = self[29]
       L14_2 = nil
       L15_2 = cE35B3EB3
       L15_2 = L15_2.fDBA763D1
@@ -1038,62 +1034,62 @@ function L70_1(A0_2)
         L20_2 = L13_2
         L17_2(L18_2, L19_2, L20_2)
       end
-      L16_2 = A0_2[24]
+      L16_2 = self[24]
       if L16_2 <= 0 then
-        L16_2 = A0_2[15]
+        L16_2 = self[15]
         L17_2 = L16_2
         L16_2 = L16_2.F3B5203C3A622222D
         L18_2 = "move_int"
         L19_2 = 0
         L16_2(L17_2, L18_2, L19_2)
-        L16_2 = A0_2[30]
+        L16_2 = self[30]
         if L16_2 then
-          L16_2 = A0_2[15]
+          L16_2 = self[15]
           L17_2 = L16_2
           L16_2 = L16_2.F29E8B1686BF43A64
-          L18_2 = A0_2[21]
+          L18_2 = self[21]
           L18_2 = L18_2.paramName
           L19_2 = 0
           L16_2(L17_2, L18_2, L19_2)
-          L16_2 = A0_2[15]
+          L16_2 = self[15]
           L17_2 = L16_2
           L16_2 = L16_2.F29E8B1686BF43A64
           L18_2 = "direction"
-          L19_2 = A0_2[23]
+          L19_2 = self[23]
           L20_2 = L10_1.math
           L20_2 = L20_2.pi
           L20_2 = 2 * L20_2
           L19_2 = L19_2 / L20_2
           L19_2 = L19_2 * 360.0
           L16_2(L17_2, L18_2, L19_2)
-          L16_2 = A0_2[15]
+          L16_2 = self[15]
           L17_2 = L16_2
           L16_2 = L16_2.F522E0FDD52DD6AE5
           L18_2 = "turn_trigger"
           L16_2(L17_2, L18_2)
         end
       end
-      L16_2 = A0_2[24]
+      L16_2 = self[24]
       L17_2 = C075A638F130352C3
       L17_2 = L17_2.S44460EB93267F798
       L16_2 = L16_2 + L17_2
-      A0_2[24] = L16_2
-      L16_2 = A0_2[24]
+      self[24] = L16_2
+      L16_2 = self[24]
       L17_2 = C2E087D86766D9B6C
       L17_2 = L17_2.S1C10355B1CFE29B5
       L16_2 = L16_2 / L17_2
-      L17_2 = A0_2[24]
+      L17_2 = self[24]
       L18_2 = C2E087D86766D9B6C
       L18_2 = L18_2.S1C10355B1CFE29B5
       if L17_2 > L18_2 then
         L16_2 = 1
       end
-      A0_2[26] = L16_2
-      L17_2 = A0_2[5]
+      self[26] = L16_2
+      L17_2 = self[5]
       L18_2 = cD5675BA5
       L18_2 = L18_2.fFA44D7AF
-      L19_2 = A0_2[22]
-      L20_2 = A0_2[23]
+      L19_2 = self[22]
+      L20_2 = self[23]
       L20_2 = L20_2 * L16_2
       L19_2 = L19_2 + L20_2
       L20_2 = 0
@@ -1108,21 +1104,21 @@ function L70_1(A0_2)
       L19_2 = L19_2.S760DAE4C5371A78E
       L19_2()
     end
-    L11_2 = A0_2[16]
+    L11_2 = self[16]
     L11_2 = L11_2.nonStop
     if nil ~= L11_2 then
-      L11_2 = A0_2[16]
+      L11_2 = self[16]
       L11_2 = L11_2.nonStop
       if 1 == L11_2 then
         goto lbl_824
       end
-      L11_2 = A0_2[16]
+      L11_2 = self[16]
       L11_2 = L11_2.nonStop
       if 2 == L11_2 then
         goto lbl_824
       end
     end
-    L11_2 = A0_2[5]
+    L11_2 = self[5]
     L12_2 = nil
     L13_2 = cE35B3EB3
     L13_2 = L13_2.fDBA763D1
@@ -1163,19 +1159,19 @@ function L70_1(A0_2)
       L18_2 = "default"
       L15_2(L16_2, L17_2, L18_2)
     end
-    L14_2 = A0_2[15]
+    L14_2 = self[15]
     L15_2 = L14_2
     L14_2 = L14_2.F3B5203C3A622222D
     L16_2 = "move_int"
     L17_2 = 0
     L14_2(L15_2, L16_2, L17_2)
-    L14_2 = A0_2[15]
+    L14_2 = self[15]
     L15_2 = L14_2
     L14_2 = L14_2.F522E0FDD52DD6AE5
     L16_2 = "move_stop_trigger"
     L14_2(L15_2, L16_2)
-    L14_2 = A0_2[5]
-    L15_2 = A0_2[21]
+    L14_2 = self[5]
+    L15_2 = self[21]
     L15_2 = L15_2.paramName
     L16_2 = nil
     L17_2 = nil
@@ -1223,8 +1219,8 @@ function L70_1(A0_2)
       L20_2 = L20_2(L21_2, L22_2)
       L16_2 = L20_2
     end
-    L20_2 = A0_2
-    L19_2 = A0_2.FBAA411F6EC615647
+    L20_2 = self
+    L19_2 = self.FBAA411F6EC615647
     L21_2 = L16_2
     L22_2 = 0.0
     L23_2 = C2E087D86766D9B6C
@@ -1244,14 +1240,14 @@ function L70_1(A0_2)
       L19_2 = L19_2 + L20_2
     end
     ::lbl_824::
-    L11_2 = A0_2[15]
+    L11_2 = self[15]
     L12_2 = L11_2
     L11_2 = L11_2.F8F54F39FC8DD4A14
     L13_2 = "move_stop_bool"
     L14_2 = false
     L11_2(L12_2, L13_2, L14_2)
-    L11_2 = A0_2[5]
-    L12_2 = A0_2[17]
+    L11_2 = self[5]
+    L12_2 = self[17]
     L12_2 = not L12_2
     L13_2 = nil
     L14_2 = cE35B3EB3
@@ -1294,12 +1290,12 @@ function L70_1(A0_2)
       L16_2(L17_2, L18_2, L19_2)
     end
   end
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2.owner
   L2_2 = L1_2
   L1_2 = L1_2.fE9C29DA1
   L1_2(L2_2)
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2.owner
   L2_2 = L1_2
   L1_2 = L1_2.f750133BA
@@ -1318,21 +1314,18 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E087D86766D9B6C"]["prototype"]
-L69_1 = "FB9EEE315620F5E73"
-
-function L70_1(A0_2)
+--- main.field.action.ActionForceMove.onPostUpdate
+function C2E087D86766D9B6C_prototype:FB9EEE315620F5E73()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   if L1_2 then
     while true do
-      L1_2 = A0_2[5]
+      L1_2 = self[5]
       L1_2 = L1_2.owner
       L2_2 = L1_2
       L1_2 = L1_2.f750133BA
       L1_2, L2_2, L3_2 = L1_2(L2_2)
-      L4_2 = A0_2[20]
+      L4_2 = self[20]
       L5_2 = c7A48E3FC
       L5_2 = L5_2.f38BA082F
       L6_2 = L1_2
@@ -1342,14 +1335,14 @@ function L70_1(A0_2)
       L10_2 = L4_2[2]
       L11_2 = L4_2[3]
       L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
-      L6_2 = A0_2[16]
+      L6_2 = self[16]
       L6_2 = L6_2.moveSpeedRate
       L5_2 = L5_2 * L6_2
       
       function L6_2()
         local L0_3, L1_3, L2_3
         L0_3 = nil
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[17]
         if L1_3 then
           L1_3 = L5_2
@@ -1357,7 +1350,7 @@ function L70_1(A0_2)
           function L2_3()
             local L0_4, L1_4
             L0_4 = nil
-            L1_4 = A0_2
+            L1_4 = self
             L1_4 = L1_4[16]
             L1_4 = L1_4.isRun
             if L1_4 then
@@ -1377,8 +1370,8 @@ function L70_1(A0_2)
       end
       
       L6_2 = L6_2()
-      L7_2 = A0_2[20]
-      L8_2 = A0_2[16]
+      L7_2 = self[20]
+      L8_2 = self[16]
       L8_2 = L8_2.targetPosXZ
       L9_2 = c7A48E3FC
       L9_2 = L9_2.f38BA082F
@@ -1404,7 +1397,7 @@ function L70_1(A0_2)
       end
       
       L10_2 = L10_2()
-      L11_2 = A0_2[5]
+      L11_2 = self[5]
       L11_2 = L11_2.owner
       L12_2 = L11_2
       L11_2 = L11_2.f16155D9E
@@ -1415,8 +1408,8 @@ function L70_1(A0_2)
       L14_2 = 0
       L15_2 = 1
       L11_2, L12_2, L13_2 = L11_2(L12_2, L13_2, L14_2, L15_2)
-      L14_2 = A0_2[5]
-      L15_2 = A0_2[20]
+      L14_2 = self[5]
+      L15_2 = self[20]
       L16_2 = L15_2[1]
       L17_2 = L11_2 * L10_2
       L16_2 = L16_2 + L17_2
@@ -1441,7 +1434,7 @@ function L70_1(A0_2)
         L19_2 = C2E087D86766D9B6C
         L19_2 = L19_2.SEC6AF6156963F910
         if not (L9_2 <= L19_2) then
-          L19_2 = A0_2[24]
+          L19_2 = self[24]
           L20_2 = C2E087D86766D9B6C
           L20_2 = L20_2.S86C8EF50BE9890A4
           if not (L19_2 >= L20_2) then
@@ -1449,9 +1442,9 @@ function L70_1(A0_2)
           end
         end
       end
-      A0_2[19] = true
-      L19_2 = A0_2[5]
-      L20_2 = A0_2[16]
+      self[19] = true
+      L19_2 = self[5]
+      L20_2 = self[16]
       L20_2 = L20_2.targetPosXZ
       L21_2 = L10_1.select
       L22_2 = 2
@@ -1468,30 +1461,30 @@ function L70_1(A0_2)
       L26_2 = L20_2[3]
       L22_2(L23_2, L24_2, L25_2, L26_2)
       ::lbl_98::
-      L19_2 = A0_2[15]
+      L19_2 = self[15]
       L19_2 = L19_2[9]
       if L19_2 then
-        L19_2 = A0_2[16]
+        L19_2 = self[16]
         L19_2 = L19_2.groundingOffsetY
         if nil == L19_2 then
           L19_2 = CC19222E56D8434C9
           L19_2 = L19_2.S52DF90C5B69BFBBE
-          L20_2 = A0_2[5]
+          L20_2 = self[5]
           L19_2(L20_2)
         else
           L19_2 = CC19222E56D8434C9
           L19_2 = L19_2.S52DF90C5B69BFBBE
-          L20_2 = A0_2[5]
-          L21_2 = A0_2[16]
+          L20_2 = self[5]
+          L21_2 = self[16]
           L21_2 = L21_2.groundingOffsetY
           L19_2(L20_2, L21_2)
         end
       end
-      L19_2 = A0_2[19]
+      L19_2 = self[19]
       if L19_2 then
         break
       end
-      L19_2 = A0_2[5]
+      L19_2 = self[5]
       L19_2 = L19_2.owner
       L20_2 = L19_2
       L19_2 = L19_2.f750133BA
@@ -1503,7 +1496,7 @@ function L70_1(A0_2)
       L22_2[1] = L23_2
       L22_2[2] = L24_2
       L22_2[3] = L25_2
-      A0_2[20] = L22_2
+      self[20] = L22_2
       L22_2 = C1DB14DCC9D7634FA
       L22_2 = L22_2.S760DAE4C5371A78E
       L22_2()
@@ -1513,7 +1506,7 @@ function L70_1(A0_2)
       local L0_3, L1_3
       
       L0_3 = nil
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[16]
       L1_3 = L1_3.isRun
       if L1_3 then
@@ -1527,12 +1520,12 @@ function L70_1(A0_2)
     
     L1_2 = L1_2()
     while true do
-      L2_2 = A0_2[5]
+      L2_2 = self[5]
       L2_2 = L2_2.owner
       L3_2 = L2_2
       L2_2 = L2_2.f750133BA
       L2_2, L3_2, L4_2 = L2_2(L3_2)
-      L5_2 = A0_2[20]
+      L5_2 = self[20]
       L6_2 = c7A48E3FC
       L6_2 = L6_2.f38BA082F
       L7_2 = L2_2
@@ -1542,14 +1535,14 @@ function L70_1(A0_2)
       L11_2 = L5_2[2]
       L12_2 = L5_2[3]
       L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
-      L7_2 = A0_2[16]
+      L7_2 = self[16]
       L7_2 = L7_2.moveSpeedRate
       L6_2 = L6_2 * L7_2
       
       function L7_2()
         local L0_3, L1_3, L2_3
         L0_3 = nil
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[17]
         if L1_3 then
           L1_3 = L6_2
@@ -1557,7 +1550,7 @@ function L70_1(A0_2)
           function L2_3()
             local L0_4, L1_4
             L0_4 = nil
-            L1_4 = A0_2
+            L1_4 = self
             L1_4 = L1_4[16]
             L1_4 = L1_4.isRun
             if L1_4 then
@@ -1577,12 +1570,12 @@ function L70_1(A0_2)
       end
       
       L7_2 = L7_2()
-      L8_2 = A0_2[26]
+      L8_2 = self[26]
       
       function L9_2()
         local L0_3, L1_3, L2_3, L3_3
         L0_3 = nil
-        L1_3 = A0_2
+        L1_3 = self
         L1_3 = L1_3[30]
         if not L1_3 then
           L0_3 = 1
@@ -1609,8 +1602,8 @@ function L70_1(A0_2)
       
       L9_2 = L9_2()
       L7_2 = L7_2 * L9_2
-      L9_2 = A0_2[20]
-      L10_2 = A0_2[16]
+      L9_2 = self[20]
+      L10_2 = self[16]
       L10_2 = L10_2.targetPosXZ
       L11_2 = c7A48E3FC
       L11_2 = L11_2.f38BA082F
@@ -1621,12 +1614,12 @@ function L70_1(A0_2)
       L16_2 = L10_2[2]
       L17_2 = L10_2[3]
       L11_2 = L11_2(L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
-      A0_2[28] = L11_2
-      L11_2 = A0_2[27]
+      self[28] = L11_2
+      L11_2 = self[27]
       if not L11_2 then
-        L11_2 = A0_2[28]
+        L11_2 = self[28]
         if L1_2 >= L11_2 then
-          A0_2[27] = true
+          self[27] = true
         end
       end
       
@@ -1634,10 +1627,10 @@ function L70_1(A0_2)
         local L0_3, L1_3, L2_3
         L0_3 = nil
         L1_3 = L7_2
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[28]
         if L1_3 > L2_3 then
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[28]
         else
           L0_3 = L7_2
@@ -1646,9 +1639,9 @@ function L70_1(A0_2)
       end
       
       L11_2 = L11_2()
-      L12_2 = A0_2[25]
-      L13_2 = A0_2[5]
-      L14_2 = A0_2[20]
+      L12_2 = self[25]
+      L13_2 = self[5]
+      L14_2 = self[20]
       L15_2 = L14_2[1]
       L16_2 = L12_2[1]
       L16_2 = L16_2 * L11_2
@@ -1671,13 +1664,13 @@ function L70_1(A0_2)
       L21_2 = L17_2
       L22_2 = L16_2
       L18_2(L19_2, L20_2, L21_2, L22_2)
-      L18_2 = A0_2[28]
+      L18_2 = self[28]
       if L18_2 ~= L11_2 then
-        L18_2 = A0_2[28]
+        L18_2 = self[28]
         L19_2 = C2E087D86766D9B6C
         L19_2 = L19_2.SEC6AF6156963F910
         if not (L18_2 <= L19_2) then
-          L18_2 = A0_2[24]
+          L18_2 = self[24]
           L19_2 = C2E087D86766D9B6C
           L19_2 = L19_2.S86C8EF50BE9890A4
           if not (L18_2 >= L19_2) then
@@ -1685,9 +1678,9 @@ function L70_1(A0_2)
           end
         end
       end
-      A0_2[19] = true
-      L18_2 = A0_2[5]
-      L19_2 = A0_2[16]
+      self[19] = true
+      L18_2 = self[5]
+      L19_2 = self[16]
       L19_2 = L19_2.targetPosXZ
       L20_2 = L10_1.select
       L21_2 = 2
@@ -1704,31 +1697,31 @@ function L70_1(A0_2)
       L25_2 = L19_2[3]
       L21_2(L22_2, L23_2, L24_2, L25_2)
       ::lbl_243::
-      L18_2 = A0_2[15]
+      L18_2 = self[15]
       L18_2 = L18_2[9]
       if L18_2 then
-        L18_2 = A0_2[16]
+        L18_2 = self[16]
         L18_2 = L18_2.groundingOffsetY
         if nil == L18_2 then
           L18_2 = CC19222E56D8434C9
           L18_2 = L18_2.S52DF90C5B69BFBBE
-          L19_2 = A0_2[5]
+          L19_2 = self[5]
           L18_2(L19_2)
         else
           L18_2 = CC19222E56D8434C9
           L18_2 = L18_2.S52DF90C5B69BFBBE
-          L19_2 = A0_2[5]
-          L20_2 = A0_2[16]
+          L19_2 = self[5]
+          L20_2 = self[16]
           L20_2 = L20_2.groundingOffsetY
           L18_2(L19_2, L20_2)
         end
       end
-      L18_2 = A0_2[17]
+      L18_2 = self[17]
       if L18_2 then
-        L18_2 = A0_2[5]
+        L18_2 = self[5]
         L19_2 = L10_1.select
         L20_2 = 2
-        L21_2 = A0_2[5]
+        L21_2 = self[5]
         L21_2 = L21_2.owner
         L22_2 = L21_2
         L21_2 = L21_2.f750133BA
@@ -1747,11 +1740,11 @@ function L70_1(A0_2)
         L27_2 = L22_2
         L23_2(L24_2, L25_2, L26_2, L27_2)
       end
-      L18_2 = A0_2[19]
+      L18_2 = self[19]
       if L18_2 then
         break
       end
-      L18_2 = A0_2[5]
+      L18_2 = self[5]
       L18_2 = L18_2.owner
       L19_2 = L18_2
       L18_2 = L18_2.f750133BA
@@ -1763,25 +1756,22 @@ function L70_1(A0_2)
       L21_2[1] = L22_2
       L21_2[2] = L23_2
       L21_2[3] = L24_2
-      A0_2[20] = L21_2
+      self[20] = L21_2
       L21_2 = C1DB14DCC9D7634FA
       L21_2 = L21_2.S760DAE4C5371A78E
       L21_2()
     end
   end
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L2_2 = L1_2
   L1_2 = L1_2.fAECC5172
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2E087D86766D9B6C"]["prototype"]
-L69_1 = "FBAA411F6EC615647"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.field.action.ActionForceMove.changeMoveSpeed
+function C2E087D86766D9B6C_prototype:FBAA411F6EC615647(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = nil
   L6_2 = cE35B3EB3
   L6_2 = L6_2.fDBA763D1
@@ -1825,7 +1815,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L10_2 = L10_2(L11_2)
     L11_2 = L10_2
     L10_2 = L10_2.fAC535460
-    L12_2 = A0_2[21]
+    L12_2 = self[21]
     L12_2 = L12_2.paramName
     L13_2 = L9_2
     L10_2(L11_2, L12_2, L13_2)

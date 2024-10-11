@@ -1,3 +1,7 @@
+---@alias CAED28D755C44D010 main_ui_ymap_mapicon_YMapResidentIcon
+
+---@class main_ui_ymap_mapicon_YMapResidentIcon : CAED28D755C44D010_prototype
+---@field prototype CAED28D755C44D010_prototype
 L55_1 = _ENV
 L56_1 = "CAED28D755C44D010"
 L57_1 = L15_1
@@ -754,168 +758,154 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CAED28D755C44D010"]
 L69_1 = "__name__"
 L70_1 = "CAED28D755C44D010"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "FAB7859F3A5BBDD5E"
-
-function L70_1(A0_2, A1_2)
-  A0_2[3] = A1_2
+---@class CAED28D755C44D010_prototype
+CAED28D755C44D010_prototype = L15_1()
+CAED28D755C44D010.prototype = CAED28D755C44D010_prototype
+--- main.ui.ymap.mapicon.YMapResidentIcon.SetSceneObject
+function CAED28D755C44D010_prototype:FAB7859F3A5BBDD5E(A1_2)
+  self[3] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.Init
+function CAED28D755C44D010_prototype:F90BBC6B0190BF053(A1_2, A2_2)
   local L3_2, L4_2
-  A0_2[4] = A1_2
-  A0_2[6] = A2_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F95C887E7B64740D5
+  self[4] = A1_2
+  self[6] = A2_2
+  L4_2 = self
+  L3_2 = self.F95C887E7B64740D5
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F37DA1BB732E46529"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.SetLayout
+function CAED28D755C44D010_prototype:F37DA1BB732E46529(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = nil
   L3_2 = cECF00344
   L3_2 = L3_2.fB3E547E8
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     return
   end
-  A0_2[2] = A1_2
-  L3_2 = A0_2[2]
+  self[2] = A1_2
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.f691534BA
   L5_2 = "L_mission_00"
   L6_2 = "L_mission_00_G"
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.f691534BA
   L5_2 = "L_mission_00"
   L6_2 = "L_mission_00_D"
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.f691534BA
   L5_2 = "L_mission_00"
   L6_2 = "L_mission_00_N"
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.f691534BA
   L5_2 = "L_mission_00"
   L6_2 = "L_mission_00_T"
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.f691534BA
   L5_2 = "L_mission_00"
   L6_2 = "L_mission_00_M"
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.f691534BA
   L5_2 = "L_mission_00"
   L6_2 = "L_mission_00_S"
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.f691534BA
   L5_2 = "L_shop_00"
   L6_2 = "L_shop_00_H"
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.f691534BA
   L5_2 = "L_shop_00"
   L6_2 = "L_shop_00_B"
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.f691534BA
   L5_2 = "L_shop_00"
   L6_2 = "L_shop_00_R"
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.f691534BA
   L5_2 = "L_shop_00"
   L6_2 = "L_shop_00_U"
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.f691534BA
   L5_2 = "L_shop_00"
   L6_2 = "L_shop_00_F"
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.f691534BA
   L5_2 = "L_icon_deco_00"
   L6_2 = "L_icon_deco_00_Mk"
   L3_2(L4_2, L5_2, L6_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F5DFBEE8ED94893F1
+  L4_2 = self
+  L3_2 = self.F5DFBEE8ED94893F1
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F5DFBEE8ED94893F1"
-
-function L70_1(A0_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.F5DFBEE8ED94893F1
+function CAED28D755C44D010_prototype:F5DFBEE8ED94893F1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F578CEDDC2C23BFCA
+  L2_2 = self
+  L1_2 = self.F578CEDDC2C23BFCA
   L3_2 = "L_mission_00_G"
   L4_2 = 0
   L5_2 = 8
   L6_2 = 1
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F578CEDDC2C23BFCA
+  L2_2 = self
+  L1_2 = self.F578CEDDC2C23BFCA
   L3_2 = "L_mission_00_D"
   L4_2 = 8
   L5_2 = 5
   L6_2 = 2
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F578CEDDC2C23BFCA
+  L2_2 = self
+  L1_2 = self.F578CEDDC2C23BFCA
   L3_2 = "L_mission_00_N"
   L4_2 = 13
   L5_2 = 5
   L6_2 = 3
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F578CEDDC2C23BFCA
+  L2_2 = self
+  L1_2 = self.F578CEDDC2C23BFCA
   L3_2 = "L_mission_00_T"
   L4_2 = 18
   L5_2 = 4
   L6_2 = 17
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F578CEDDC2C23BFCA
+  L2_2 = self
+  L1_2 = self.F578CEDDC2C23BFCA
   L3_2 = "L_mission_00_S"
   L4_2 = 22
   L5_2 = 5
   L6_2 = 21
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F578CEDDC2C23BFCA
+  L2_2 = self
+  L1_2 = self.F578CEDDC2C23BFCA
   L3_2 = "L_outbreak_00"
   L4_2 = 37
   L5_2 = CEB4CEE1D10FDF12D
@@ -925,11 +915,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F578CEDDC2C23BFCA"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.F578CEDDC2C23BFCA
+function CAED28D755C44D010_prototype:F578CEDDC2C23BFCA(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
   
   function L5_2()
@@ -954,7 +941,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L9_2 = L7_2
     L10_2 = 2
     L8_2 = L8_2(L9_2, L10_2)
-    L9_2 = A0_2[2]
+    L9_2 = self[2]
     L10_2 = L9_2
     L9_2 = L9_2.f691534BA
     L11_2 = A1_2
@@ -978,7 +965,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L13_2 = L13_2(L14_2)
     L12_2 = L12_2 .. L13_2
     L9_2(L10_2, L11_2, L12_2)
-    L9_2 = A0_2[2]
+    L9_2 = self[2]
     L10_2 = L9_2
     L9_2 = L9_2.f1B274C53
     L11_2 = A2_2 + L7_2
@@ -1016,27 +1003,24 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L13_2 = 0
     L9_2(L10_2, L11_2, L12_2, L13_2)
   end
-  L7_2 = A0_2[8]
+  L7_2 = self[8]
   L7_2 = L7_2[A4_2]
   L7_2.maxCount = A3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F95C887E7B64740D5"
-
-function L70_1(A0_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.ResetAllPane
+function CAED28D755C44D010_prototype:F95C887E7B64740D5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L2_2 = L2_2.length
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     L4_2 = L4_2[L3_2]
     L4_2.useCount = 0
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     L4_2 = L4_2[L3_2]
     L4_2 = L4_2.garbageArray
     L5_2 = L4_2
@@ -1044,41 +1028,41 @@ function L70_1(A0_2)
     L6_2 = 0
     L4_2(L5_2, L6_2)
   end
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L3_2.useCount = 0
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L3_2.useCount = 0
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L3_2.useCount = 0
-  L3_2 = A0_2[12]
+  L3_2 = self[12]
   L3_2.useCount = 0
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L3_2.useCount = 0
-  L3_2 = A0_2[9]
+  L3_2 = self[9]
   L3_2 = L3_2.garbageArray
   L4_2 = L3_2
   L3_2 = L3_2.resize
   L5_2 = 0
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L3_2 = L3_2.garbageArray
   L4_2 = L3_2
   L3_2 = L3_2.resize
   L5_2 = 0
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[11]
+  L3_2 = self[11]
   L3_2 = L3_2.garbageArray
   L4_2 = L3_2
   L3_2 = L3_2.resize
   L5_2 = 0
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[12]
+  L3_2 = self[12]
   L3_2 = L3_2.garbageArray
   L4_2 = L3_2
   L3_2 = L3_2.resize
   L5_2 = 0
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   L3_2 = L3_2.garbageArray
   L4_2 = L3_2
   L3_2 = L3_2.resize
@@ -1086,15 +1070,12 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F4D361FBE52EE666E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.ZoomChk
+function CAED28D755C44D010_prototype:F4D361FBE52EE666E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F503950DD639D9EB7
-  L4_2 = A0_2[4]
+  L3_2 = self
+  L2_2 = self.F503950DD639D9EB7
+  L4_2 = self[4]
   L5_2 = L4_2
   L4_2 = L4_2.FE6CD05730B295F76
   L6_2 = A1_2
@@ -1102,14 +1083,11 @@ function L70_1(A0_2, A1_2)
   return L2_2(L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F503950DD639D9EB7"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon._zoomChk
+function CAED28D755C44D010_prototype:F503950DD639D9EB7(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = false
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L3_2 = L3_2[14]
   if -1 == L3_2 then
     L4_2 = A1_2.IsDisplayInZoomOut
@@ -1130,13 +1108,10 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F676570B64CC944AF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.updateIconLocate
+function CAED28D755C44D010_prototype:F676570B64CC944AF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L3_2 = L2_2
   L2_2 = L2_2.F31119D42360B5B71
   L4_2 = A1_2.Ymap2DPos
@@ -1153,7 +1128,7 @@ function L70_1(A0_2, A1_2)
     end
   end
   A1_2.LastLayoutPos = L2_2
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.f0067ACC1
   L5_2 = A1_2.paneNameInfo
@@ -1165,7 +1140,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = A1_2.iconDecoPaneNameInfo
   L3_2 = L3_2.name
   if "" ~= L3_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.f0067ACC1
     L5_2 = A1_2.iconDecoPaneNameInfo
@@ -1179,7 +1154,7 @@ function L70_1(A0_2, A1_2)
   if false == L3_2 then
     L3_2 = A1_2.IsAddonMark
     if true == L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.f0067ACC1
       L5_2 = A1_2.addonPaneNameInfo
@@ -1191,7 +1166,7 @@ function L70_1(A0_2, A1_2)
       L3_2 = A1_2.addonMarkDecoPaneNameInfo
       L3_2 = L3_2.name
       if "" ~= L3_2 then
-        L3_2 = A0_2[2]
+        L3_2 = self[2]
         L4_2 = L3_2
         L3_2 = L3_2.f0067ACC1
         L5_2 = A1_2.addonMarkDecoPaneNameInfo
@@ -1206,7 +1181,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = A1_2.areaPanaNameInfo
   L3_2 = L3_2.name
   if "" ~= L3_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.f0067ACC1
     L5_2 = A1_2.areaPanaNameInfo
@@ -1219,11 +1194,8 @@ function L70_1(A0_2, A1_2)
   ::lbl_74::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "FDA158A5D487FDE3A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.updateIconRotate
+function CAED28D755C44D010_prototype:FDA158A5D487FDE3A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = 0
   L3_2 = 0
@@ -1231,7 +1203,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = C388798CF80F2AF9D
   L5_2 = L5_2.S507FA7FB231023C1
   L4_2 = -L5_2
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L6_2 = L5_2
   L5_2 = L5_2.f72D2C186
   L7_2 = A1_2.paneNameInfo
@@ -1243,7 +1215,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = A1_2.iconDecoPaneNameInfo
   L5_2 = L5_2.name
   if "" ~= L5_2 then
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.f72D2C186
     L7_2 = A1_2.iconDecoPaneNameInfo
@@ -1257,7 +1229,7 @@ function L70_1(A0_2, A1_2)
   if false == L5_2 then
     L5_2 = A1_2.IsAddonMark
     if true == L5_2 then
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L6_2 = L5_2
       L5_2 = L5_2.f72D2C186
       L7_2 = A1_2.addonPaneNameInfo
@@ -1269,7 +1241,7 @@ function L70_1(A0_2, A1_2)
       L5_2 = A1_2.addonMarkDecoPaneNameInfo
       L5_2 = L5_2.name
       if "" ~= L5_2 then
-        L5_2 = A0_2[2]
+        L5_2 = self[2]
         L6_2 = L5_2
         L5_2 = L5_2.f72D2C186
         L7_2 = A1_2.addonMarkDecoPaneNameInfo
@@ -1284,7 +1256,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = A1_2.areaPanaNameInfo
   L5_2 = L5_2.name
   if "" ~= L5_2 then
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.f72D2C186
     L7_2 = A1_2.areaPanaNameInfo
@@ -1296,30 +1268,27 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F338E0D52AE937FC0"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.AnimeControl
+function CAED28D755C44D010_prototype:F338E0D52AE937FC0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = A1_2.IconState
   if 0 == L2_2 then
     A1_2.IsVisiable = false
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.FA040FBA0388D3F8E
     L5_2 = A1_2
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L3_2(L4_2, L5_2, L6_2)
   elseif 1 == L2_2 then
     A1_2.IsVisiable = false
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.FA040FBA0388D3F8E
     L5_2 = A1_2
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L3_2(L4_2, L5_2, L6_2)
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fB4E9D030
     L5_2 = L31_1.string
@@ -1339,7 +1308,7 @@ function L70_1(A0_2, A1_2)
     L3_2(L4_2, L5_2)
     A1_2.IconState = 2
   elseif 2 == L2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fF8C77C75
     L5_2 = L31_1.string
@@ -1363,13 +1332,13 @@ function L70_1(A0_2, A1_2)
     A1_2.IconState = 3
   elseif 3 == L2_2 then
     A1_2.IsVisiable = true
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.FA040FBA0388D3F8E
     L5_2 = A1_2
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L3_2(L4_2, L5_2, L6_2)
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fB4E9D030
     L5_2 = L31_1.string
@@ -1390,7 +1359,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = A1_2.iconDecoPaneNameInfo
     L3_2 = L3_2.name
     if "" ~= L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.fB4E9D030
       L5_2 = L31_1.string
@@ -1413,7 +1382,7 @@ function L70_1(A0_2, A1_2)
     if false == L3_2 then
       L3_2 = A1_2.IsAddonMark
       if true == L3_2 then
-        L3_2 = A0_2[2]
+        L3_2 = self[2]
         L4_2 = L3_2
         L3_2 = L3_2.fB4E9D030
         L5_2 = L31_1.string
@@ -1434,7 +1403,7 @@ function L70_1(A0_2, A1_2)
         L3_2 = A1_2.addonMarkDecoPaneNameInfo
         L3_2 = L3_2.name
         if "" ~= L3_2 then
-          L3_2 = A0_2[2]
+          L3_2 = self[2]
           L4_2 = L3_2
           L3_2 = L3_2.fB4E9D030
           L5_2 = L31_1.string
@@ -1458,7 +1427,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = A1_2.areaPanaNameInfo
     L3_2 = L3_2.name
     if "" ~= L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.fB4E9D030
       L5_2 = L31_1.string
@@ -1485,7 +1454,7 @@ function L70_1(A0_2, A1_2)
     end
     A1_2.IconState = 4
   elseif 4 == L2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fF8C77C75
     L5_2 = L31_1.string
@@ -1506,13 +1475,13 @@ function L70_1(A0_2, A1_2)
     if false == L3_2 then
       return
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.F1128BC2D96B5CA1E
+    L4_2 = self
+    L3_2 = self.F1128BC2D96B5CA1E
     L5_2 = A1_2
     L3_2(L4_2, L5_2)
     A1_2.IconState = 8
   elseif 5 == L2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fF8C77C75
     L5_2 = L31_1.string
@@ -1534,13 +1503,13 @@ function L70_1(A0_2, A1_2)
       return
     end
     A1_2.IsVisiable = true
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.FA040FBA0388D3F8E
     L5_2 = A1_2
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L3_2(L4_2, L5_2, L6_2)
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fB4E9D030
     L5_2 = L31_1.string
@@ -1561,7 +1530,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = A1_2.iconDecoPaneNameInfo
     L3_2 = L3_2.name
     if "" ~= L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.fB4E9D030
       L5_2 = L31_1.string
@@ -1584,7 +1553,7 @@ function L70_1(A0_2, A1_2)
     if false == L3_2 then
       L3_2 = A1_2.IsAddonMark
       if true == L3_2 then
-        L3_2 = A0_2[2]
+        L3_2 = self[2]
         L4_2 = L3_2
         L3_2 = L3_2.fB4E9D030
         L5_2 = L31_1.string
@@ -1605,7 +1574,7 @@ function L70_1(A0_2, A1_2)
         L3_2 = A1_2.addonMarkDecoPaneNameInfo
         L3_2 = L3_2.name
         if "" ~= L3_2 then
-          L3_2 = A0_2[2]
+          L3_2 = self[2]
           L4_2 = L3_2
           L3_2 = L3_2.fB4E9D030
           L5_2 = L31_1.string
@@ -1629,7 +1598,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = A1_2.areaPanaNameInfo
     L3_2 = L3_2.name
     if "" ~= L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.fB4E9D030
       L5_2 = L31_1.string
@@ -1656,7 +1625,7 @@ function L70_1(A0_2, A1_2)
     end
     A1_2.IconState = 6
   elseif 6 == L2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fF8C77C75
     L5_2 = L31_1.string
@@ -1677,21 +1646,21 @@ function L70_1(A0_2, A1_2)
     if false == L3_2 then
       return
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.F1128BC2D96B5CA1E
+    L4_2 = self
+    L3_2 = self.F1128BC2D96B5CA1E
     L5_2 = A1_2
     L3_2(L4_2, L5_2)
     A1_2.IconState = 8
   elseif 7 == L2_2 then
     A1_2.IsVisiable = true
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.FA040FBA0388D3F8E
     L5_2 = A1_2
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L3_2(L4_2, L5_2, L6_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F1128BC2D96B5CA1E
+    L4_2 = self
+    L3_2 = self.F1128BC2D96B5CA1E
     L5_2 = A1_2
     L3_2(L4_2, L5_2)
     A1_2.IconState = 8
@@ -1700,13 +1669,13 @@ function L70_1(A0_2, A1_2)
     if false == L3_2 then
       L3_2 = A1_2.IsAddonMark
       if true == L3_2 then
-        L3_2 = A0_2[1]
+        L3_2 = self[1]
         L4_2 = L3_2
         L3_2 = L3_2.FA040FBA0388D3F8E
         L5_2 = A1_2
-        L6_2 = A0_2[2]
+        L6_2 = self[2]
         L3_2(L4_2, L5_2, L6_2)
-        L3_2 = A0_2[2]
+        L3_2 = self[2]
         L4_2 = L3_2
         L3_2 = L3_2.fB4E9D030
         L5_2 = L31_1.string
@@ -1727,7 +1696,7 @@ function L70_1(A0_2, A1_2)
         L3_2 = A1_2.addonMarkDecoPaneNameInfo
         L3_2 = L3_2.name
         if "" ~= L3_2 then
-          L3_2 = A0_2[2]
+          L3_2 = self[2]
           L4_2 = L3_2
           L3_2 = L3_2.fB4E9D030
           L5_2 = L31_1.string
@@ -1754,7 +1723,7 @@ function L70_1(A0_2, A1_2)
     if false == L3_2 then
       L3_2 = A1_2.IsAddonMark
       if true == L3_2 then
-        L3_2 = A0_2[2]
+        L3_2 = self[2]
         L4_2 = L3_2
         L3_2 = L3_2.fF8C77C75
         L5_2 = L31_1.string
@@ -1775,7 +1744,7 @@ function L70_1(A0_2, A1_2)
         if false == L3_2 then
           return
         end
-        L3_2 = A0_2[2]
+        L3_2 = self[2]
         L4_2 = L3_2
         L3_2 = L3_2.fB4E9D030
         L5_2 = L31_1.string
@@ -1800,7 +1769,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = A1_2.addonPaneNameInfo
     L3_2 = L3_2.name
     if "" ~= L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.fB4E9D030
       L5_2 = L31_1.string
@@ -1821,7 +1790,7 @@ function L70_1(A0_2, A1_2)
       L3_2 = A1_2.addonMarkDecoPaneNameInfo
       L3_2 = L3_2.name
       if "" ~= L3_2 then
-        L3_2 = A0_2[2]
+        L3_2 = self[2]
         L4_2 = L3_2
         L3_2 = L3_2.fB4E9D030
         L5_2 = L31_1.string
@@ -1846,7 +1815,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = A1_2.addonPaneNameInfo
     L3_2 = L3_2.name
     if "" ~= L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.fF8C77C75
       L5_2 = L31_1.string
@@ -1868,21 +1837,21 @@ function L70_1(A0_2, A1_2)
         return
       end
     end
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.FA040FBA0388D3F8E
     L5_2 = A1_2
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L3_2(L4_2, L5_2, L6_2)
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.F13CC71D6D2336E38
     L5_2 = A1_2
-    L6_2 = A0_2[2]
+    L6_2 = self[2]
     L3_2(L4_2, L5_2, L6_2)
     A1_2.IconState = 8
   elseif 14 == L2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fB4E9D030
     L5_2 = L31_1.string
@@ -1903,7 +1872,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = A1_2.iconDecoPaneNameInfo
     L3_2 = L3_2.name
     if "" ~= L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.fB4E9D030
       L5_2 = L31_1.string
@@ -1926,7 +1895,7 @@ function L70_1(A0_2, A1_2)
     if false == L3_2 then
       L3_2 = A1_2.IsAddonMark
       if true == L3_2 then
-        L3_2 = A0_2[2]
+        L3_2 = self[2]
         L4_2 = L3_2
         L3_2 = L3_2.fB4E9D030
         L5_2 = L31_1.string
@@ -1947,7 +1916,7 @@ function L70_1(A0_2, A1_2)
         L3_2 = A1_2.addonMarkDecoPaneNameInfo
         L3_2 = L3_2.name
         if "" ~= L3_2 then
-          L3_2 = A0_2[2]
+          L3_2 = self[2]
           L4_2 = L3_2
           L3_2 = L3_2.fB4E9D030
           L5_2 = L31_1.string
@@ -1971,7 +1940,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = A1_2.areaPanaNameInfo
     L3_2 = L3_2.name
     if "" ~= L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.fB4E9D030
       L5_2 = L31_1.string
@@ -1998,7 +1967,7 @@ function L70_1(A0_2, A1_2)
     end
     A1_2.IconState = 15
   elseif 15 == L2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fF8C77C75
     L5_2 = L31_1.string
@@ -2021,7 +1990,7 @@ function L70_1(A0_2, A1_2)
     end
     A1_2.IconState = 0
   elseif 16 == L2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fB4E9D030
     L5_2 = L31_1.string
@@ -2042,7 +2011,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = A1_2.iconDecoPaneNameInfo
     L3_2 = L3_2.name
     if "" ~= L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.fB4E9D030
       L5_2 = L31_1.string
@@ -2065,7 +2034,7 @@ function L70_1(A0_2, A1_2)
     if false == L3_2 then
       L3_2 = A1_2.IsAddonMark
       if true == L3_2 then
-        L3_2 = A0_2[2]
+        L3_2 = self[2]
         L4_2 = L3_2
         L3_2 = L3_2.fB4E9D030
         L5_2 = L31_1.string
@@ -2086,7 +2055,7 @@ function L70_1(A0_2, A1_2)
         L3_2 = A1_2.addonMarkDecoPaneNameInfo
         L3_2 = L3_2.name
         if "" ~= L3_2 then
-          L3_2 = A0_2[2]
+          L3_2 = self[2]
           L4_2 = L3_2
           L3_2 = L3_2.fB4E9D030
           L5_2 = L31_1.string
@@ -2110,7 +2079,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = A1_2.areaPanaNameInfo
     L3_2 = L3_2.name
     if "" ~= L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.fB4E9D030
       L5_2 = L31_1.string
@@ -2137,7 +2106,7 @@ function L70_1(A0_2, A1_2)
     end
     A1_2.IconState = 17
   elseif 17 == L2_2 then
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L4_2 = L3_2
     L3_2 = L3_2.fF8C77C75
     L5_2 = L31_1.string
@@ -2158,20 +2127,17 @@ function L70_1(A0_2, A1_2)
     if false == L3_2 then
       return
     end
-    L4_2 = A0_2
-    L3_2 = A0_2.FA79DDB4022EBBAC4
+    L4_2 = self
+    L3_2 = self.FA79DDB4022EBBAC4
     L5_2 = A1_2
     L3_2(L4_2, L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F4EAC3C298075B42D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.updateIconKindAnime
+function CAED28D755C44D010_prototype:F4EAC3C298075B42D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.FE6CD05730B295F76
   L4_2 = A1_2.GroupKindDataArrayIndex
@@ -2180,7 +2146,7 @@ function L70_1(A0_2, A1_2)
   if true == L3_2 then
     L3_2 = L2_2.mapIconKind
     if 5 == L3_2 then
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.fEAD9FB7D
       L5_2 = L31_1.string
@@ -2199,7 +2165,7 @@ function L70_1(A0_2, A1_2)
       L5_2 = L5_2 .. L6_2
       L6_2 = L2_2.iconKind
       L3_2(L4_2, L5_2, L6_2)
-      L3_2 = A0_2[2]
+      L3_2 = self[2]
       L4_2 = L3_2
       L3_2 = L3_2.fEAD9FB7D
       L5_2 = L31_1.string
@@ -2223,13 +2189,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F1128BC2D96B5CA1E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.startKeep
+function CAED28D755C44D010_prototype:F1128BC2D96B5CA1E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.fB4E9D030
   L4_2 = L31_1.string
@@ -2251,7 +2214,7 @@ function L70_1(A0_2, A1_2)
   if false == L2_2 then
     L2_2 = A1_2.IsAddonMark
     if true == L2_2 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = L2_2
       L2_2 = L2_2.fB4E9D030
       L4_2 = L31_1.string
@@ -2274,7 +2237,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = A1_2.areaPanaNameInfo
   L2_2 = L2_2.name
   if "" ~= L2_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.fB4E9D030
     L4_2 = L31_1.string
@@ -2295,22 +2258,19 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "FA79DDB4022EBBAC4"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.EraseIconInfoData
+function CAED28D755C44D010_prototype:FA79DDB4022EBBAC4(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   A1_2.IsVisiable = false
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.FA040FBA0388D3F8E
   L4_2 = A1_2
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L2_2(L3_2, L4_2, L5_2)
   L2_2 = A1_2.paneNunber
   if L2_2 > -1 then
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L3_2 = A1_2.kind
     L2_2 = L2_2[L3_2]
     L2_2 = L2_2.garbageArray
@@ -2321,7 +2281,7 @@ function L70_1(A0_2, A1_2)
   end
   L2_2 = A1_2.iconDecoPaneNunber
   if L2_2 > -1 then
-    L2_2 = A0_2[10]
+    L2_2 = self[10]
     L2_2 = L2_2.garbageArray
     L3_2 = L2_2
     L2_2 = L2_2.push
@@ -2330,7 +2290,7 @@ function L70_1(A0_2, A1_2)
   end
   L2_2 = A1_2.addonPaneNunber
   if L2_2 > -1 then
-    L2_2 = A0_2[11]
+    L2_2 = self[11]
     L2_2 = L2_2.garbageArray
     L3_2 = L2_2
     L2_2 = L2_2.push
@@ -2339,7 +2299,7 @@ function L70_1(A0_2, A1_2)
   end
   L2_2 = A1_2.addonMarkDecoPaneNunber
   if L2_2 > -1 then
-    L2_2 = A0_2[12]
+    L2_2 = self[12]
     L2_2 = L2_2.garbageArray
     L3_2 = L2_2
     L2_2 = L2_2.push
@@ -2348,35 +2308,32 @@ function L70_1(A0_2, A1_2)
   end
   L2_2 = A1_2.areaPaneNunber
   if L2_2 > -1 then
-    L2_2 = A0_2[13]
+    L2_2 = self[13]
     L2_2 = L2_2.garbageArray
     L3_2 = L2_2
     L2_2 = L2_2.push
     L4_2 = A1_2.areaPaneNunber
     L2_2(L3_2, L4_2)
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F4A6C2DACAEC35855
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F7CCF557F62ACC050"
-
-function L70_1(A0_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.RevaluationInfoArray
+function CAED28D755C44D010_prototype:F7CCF557F62ACC050()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if nil == L1_2 then
     return
   end
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.FD3287D32BE0D9BD7
   L1_2(L2_2)
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.F700184CE26B1C21F
   L1_2 = L1_2(L2_2)
@@ -2391,32 +2348,32 @@ function L70_1(A0_2)
     if false ~= L7_2 then
       L7_2 = L6_2.IsVisiable
       if false == L7_2 then
-        L7_2 = A0_2[1]
+        L7_2 = self[1]
         L8_2 = L7_2
         L7_2 = L7_2.F18400FDDB8FE5C8D
         L9_2 = L6_2.ID
         L7_2 = L7_2(L8_2, L9_2)
         if L7_2 > -1 then
-          L9_2 = A0_2
-          L8_2 = A0_2.FA79DDB4022EBBAC4
-          L10_2 = A0_2[1]
+          L9_2 = self
+          L8_2 = self.FA79DDB4022EBBAC4
+          L10_2 = self[1]
           L10_2 = L10_2[1]
           L10_2 = L10_2[L7_2]
           L8_2(L9_2, L10_2)
         end
       else
-        L7_2 = A0_2[5]
+        L7_2 = self[5]
         if 1 == L7_2 then
-          L8_2 = A0_2
-          L7_2 = A0_2.F503950DD639D9EB7
+          L8_2 = self
+          L7_2 = self.F503950DD639D9EB7
           L9_2 = L6_2
           L7_2 = L7_2(L8_2, L9_2)
           if false == L7_2 then
             goto lbl_50
           end
         end
-        L8_2 = A0_2
-        L7_2 = A0_2.F615CC845417A106C
+        L8_2 = self
+        L7_2 = self.F615CC845417A106C
         L9_2 = L5_2
         L7_2(L8_2, L9_2)
       end
@@ -2429,17 +2386,14 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F615CC845417A106C"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.F615CC845417A106C
+function CAED28D755C44D010_prototype:F615CC845417A106C(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   if nil == A2_2 then
     A2_2 = false
   end
   L3_2 = nil
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   L5_2 = L4_2
   L4_2 = L4_2.FE6CD05730B295F76
   L6_2 = A1_2
@@ -2448,7 +2402,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2 = -1
     return L5_2
   end
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   if 1 == L5_2 then
     L5_2 = L4_2.mapIconKind
     if 7 == L5_2 then
@@ -2456,13 +2410,13 @@ function L70_1(A0_2, A1_2, A2_2)
       return L5_2
     end
   end
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = L5_2
   L5_2 = L5_2.FB0FEC7EBCEB561E2
   L7_2 = L4_2.iconPosition
   L8_2 = L4_2.localId
   L5_2 = L5_2(L6_2, L7_2, L8_2)
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L6_2
   L6_2 = L6_2.F18400FDDB8FE5C8D
   L8_2 = L4_2.ID
@@ -2470,7 +2424,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = L6_2(L7_2, L8_2, L9_2)
   L7_2 = L4_2.mapIconKind
   if -1 ~= L6_2 then
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L9_2 = L8_2
     L8_2 = L8_2.FB1F116EF4D05480E
     L10_2 = L6_2
@@ -2490,24 +2444,24 @@ function L70_1(A0_2, A1_2, A2_2)
       L3_2.IsValid = true
     end
   else
-    L8_2 = A0_2[8]
+    L8_2 = self[8]
     L8_2 = L8_2[L7_2]
     L9_2 = nil
-    L10_2 = A0_2[5]
+    L10_2 = self[5]
     if 2 == L10_2 and 8 == L7_2 then
-      L8_2 = A0_2[9]
-      L11_2 = A0_2
-      L10_2 = A0_2.F944C4BA649EAF3C8
+      L8_2 = self[9]
+      L11_2 = self
+      L10_2 = self.F944C4BA649EAF3C8
       L12_2 = L8_2
       L10_2 = L10_2(L11_2, L12_2)
       L9_2 = L10_2
-      L10_2 = A0_2[4]
+      L10_2 = self[4]
       L11_2 = L10_2
       L10_2 = L10_2.F1768749CCF7BF4F4
       L12_2 = L4_2.onCursorDataID
       L10_2 = L10_2(L11_2, L12_2)
       if nil ~= L10_2 then
-        L11_2 = A0_2[5]
+        L11_2 = self[5]
         if 1 ~= L11_2 then
           L11_2 = L10_2.addIconPlaceNameStr
           if "" ~= L11_2 then
@@ -2525,7 +2479,7 @@ function L70_1(A0_2, A1_2, A2_2)
             if L13_2 then
               L13_2 = c8C3BF576
               L13_2 = L13_2.f316077B2
-              L14_2 = A0_2[3]
+              L14_2 = self[3]
               L15_2 = L31_1.string
               L16_2 = L31_1.string
               L17_2 = ""
@@ -2546,8 +2500,8 @@ function L70_1(A0_2, A1_2, A2_2)
         end
       end
     else
-      L11_2 = A0_2
-      L10_2 = A0_2.F944C4BA649EAF3C8
+      L11_2 = self
+      L10_2 = self.F944C4BA649EAF3C8
       L12_2 = L8_2
       L13_2 = L4_2
       L10_2 = L10_2(L11_2, L12_2, L13_2)
@@ -2561,7 +2515,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L11_2 = CAED28D755C44D010
       L11_2 = L11_2.SFF6E1325809B7134
       if L10_2 <= L11_2 then
-        L10_2 = A0_2[2]
+        L10_2 = self[2]
         L11_2 = L10_2
         L10_2 = L10_2.fEAD9FB7D
         L12_2 = L31_1.string
@@ -2582,7 +2536,7 @@ function L70_1(A0_2, A1_2, A2_2)
       end
     end
     if 5 == L7_2 then
-      L10_2 = A0_2[2]
+      L10_2 = self[2]
       L11_2 = L10_2
       L10_2 = L10_2.fEAD9FB7D
       L12_2 = L31_1.string
@@ -2600,7 +2554,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L12_2 = L12_2 .. L13_2
       L13_2 = L4_2.iconKind
       L10_2(L11_2, L12_2, L13_2)
-      L10_2 = A0_2[2]
+      L10_2 = self[2]
       L11_2 = L10_2
       L10_2 = L10_2.fEAD9FB7D
       L12_2 = L31_1.string
@@ -2623,7 +2577,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L10_2 = cC65D64C8
       L10_2 = L10_2.fBDB981C5
       L11_2 = L4_2.constantId
-      L12_2 = A0_2[3]
+      L12_2 = self[3]
       L13_2 = L31_1.string
       L14_2 = L31_1.string
       L15_2 = ""
@@ -2641,13 +2595,13 @@ function L70_1(A0_2, A1_2, A2_2)
       L10_2(L11_2, L12_2, L13_2, L14_2)
     end
     if 15 == L7_2 then
-      L10_2 = A0_2[4]
+      L10_2 = self[4]
       L11_2 = L10_2
       L10_2 = L10_2.FADED6572B4431F2E
       L12_2 = L4_2.onCursorDataID
       L10_2 = L10_2(L11_2, L12_2)
       if nil ~= L10_2 then
-        L11_2 = A0_2[5]
+        L11_2 = self[5]
         if 1 ~= L11_2 then
           L11_2 = L10_2.pointNameStr
           if "" ~= L11_2 then
@@ -2665,7 +2619,7 @@ function L70_1(A0_2, A1_2, A2_2)
             if L13_2 then
               L13_2 = c8C3BF576
               L13_2 = L13_2.f316077B2
-              L14_2 = A0_2[3]
+              L14_2 = self[3]
               L15_2 = L31_1.string
               L16_2 = L31_1.string
               L17_2 = ""
@@ -2697,9 +2651,9 @@ function L70_1(A0_2, A1_2, A2_2)
     L10_2 = L10_2(L11_2)
     L11_2 = L8_2.IsIconDeco
     if true == L11_2 then
-      L12_2 = A0_2
-      L11_2 = A0_2.F944C4BA649EAF3C8
-      L13_2 = A0_2[10]
+      L12_2 = self
+      L11_2 = self.F944C4BA649EAF3C8
+      L13_2 = self[10]
       L11_2 = L11_2(L12_2, L13_2)
       L10_2 = L11_2
     end
@@ -2723,14 +2677,14 @@ function L70_1(A0_2, A1_2, A2_2)
     L12_2 = L12_2(L13_2)
     L13_2 = L4_2.IsAddonMark
     if true == L13_2 then
-      L14_2 = A0_2
-      L13_2 = A0_2.F944C4BA649EAF3C8
-      L15_2 = A0_2[11]
+      L14_2 = self
+      L13_2 = self.F944C4BA649EAF3C8
+      L15_2 = self[11]
       L13_2 = L13_2(L14_2, L15_2)
       L11_2 = L13_2
-      L14_2 = A0_2
-      L13_2 = A0_2.F944C4BA649EAF3C8
-      L15_2 = A0_2[12]
+      L14_2 = self
+      L13_2 = self.F944C4BA649EAF3C8
+      L15_2 = self[12]
       L13_2 = L13_2(L14_2, L15_2)
       L12_2 = L13_2
       if 4 == L7_2 then
@@ -2741,69 +2695,69 @@ function L70_1(A0_2, A1_2, A2_2)
       end
     end
     if 1 == L7_2 then
-      L14_2 = A0_2
-      L13_2 = A0_2.F27FA81BA67843FE5
+      L14_2 = self
+      L13_2 = self.F27FA81BA67843FE5
       L15_2 = L4_2.iconTextureReplaceFileName
       L16_2 = L9_2.paneNumber
       L13_2(L14_2, L15_2, L16_2)
-      L14_2 = A0_2
-      L13_2 = A0_2.FFDF47A8BB7D9395A
+      L14_2 = self
+      L13_2 = self.FFDF47A8BB7D9395A
       L15_2 = L7_2
       L16_2 = L9_2.paneNumber
       L17_2 = L4_2.iconColorPtn
       L18_2 = L4_2.iconAnimPtn
       L13_2(L14_2, L15_2, L16_2, L17_2, L18_2)
     elseif 2 == L7_2 then
-      L14_2 = A0_2
-      L13_2 = A0_2.F27FA81BA67843FE5
+      L14_2 = self
+      L13_2 = self.F27FA81BA67843FE5
       L15_2 = L4_2.iconTextureReplaceFileName
       L16_2 = L9_2.paneNumber
       L16_2 = 8 + L16_2
       L13_2(L14_2, L15_2, L16_2)
-      L14_2 = A0_2
-      L13_2 = A0_2.FFDF47A8BB7D9395A
+      L14_2 = self
+      L13_2 = self.FFDF47A8BB7D9395A
       L15_2 = L7_2
       L16_2 = L9_2.paneNumber
       L17_2 = L4_2.iconColorPtn
       L18_2 = L4_2.iconAnimPtn
       L13_2(L14_2, L15_2, L16_2, L17_2, L18_2)
     elseif 3 == L7_2 then
-      L14_2 = A0_2
-      L13_2 = A0_2.F27FA81BA67843FE5
+      L14_2 = self
+      L13_2 = self.F27FA81BA67843FE5
       L15_2 = L4_2.iconTextureReplaceFileName
       L16_2 = L9_2.paneNumber
       L16_2 = 13 + L16_2
       L13_2(L14_2, L15_2, L16_2)
-      L14_2 = A0_2
-      L13_2 = A0_2.FFDF47A8BB7D9395A
+      L14_2 = self
+      L13_2 = self.FFDF47A8BB7D9395A
       L15_2 = L7_2
       L16_2 = L9_2.paneNumber
       L17_2 = L4_2.iconColorPtn
       L18_2 = L4_2.iconAnimPtn
       L13_2(L14_2, L15_2, L16_2, L17_2, L18_2)
     elseif 17 == L7_2 then
-      L14_2 = A0_2
-      L13_2 = A0_2.F27FA81BA67843FE5
+      L14_2 = self
+      L13_2 = self.F27FA81BA67843FE5
       L15_2 = L4_2.iconTextureReplaceFileName
       L16_2 = L9_2.paneNumber
       L16_2 = 18 + L16_2
       L13_2(L14_2, L15_2, L16_2)
-      L14_2 = A0_2
-      L13_2 = A0_2.FFDF47A8BB7D9395A
+      L14_2 = self
+      L13_2 = self.FFDF47A8BB7D9395A
       L15_2 = L7_2
       L16_2 = L9_2.paneNumber
       L17_2 = L4_2.iconColorPtn
       L18_2 = L4_2.iconAnimPtn
       L13_2(L14_2, L15_2, L16_2, L17_2, L18_2)
     elseif 21 == L7_2 then
-      L14_2 = A0_2
-      L13_2 = A0_2.F27FA81BA67843FE5
+      L14_2 = self
+      L13_2 = self.F27FA81BA67843FE5
       L15_2 = L4_2.iconTextureReplaceFileName
       L16_2 = L9_2.paneNumber
       L16_2 = 22 + L16_2
       L13_2(L14_2, L15_2, L16_2)
-      L14_2 = A0_2
-      L13_2 = A0_2.FFDF47A8BB7D9395A
+      L14_2 = self
+      L13_2 = self.FFDF47A8BB7D9395A
       L15_2 = L7_2
       L16_2 = L9_2.paneNumber
       L17_2 = L4_2.iconColorPtn
@@ -2811,7 +2765,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L13_2(L14_2, L15_2, L16_2, L17_2, L18_2)
     end
     if 0 == L7_2 or 19 == L7_2 then
-      L13_2 = A0_2[2]
+      L13_2 = self[2]
       L14_2 = L13_2
       L13_2 = L13_2.fEAD9FB7D
       L15_2 = L31_1.string
@@ -2843,7 +2797,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L16_2, L17_2, L18_2, L19_2, L20_2 = L16_2()
       L13_2(L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
     end
-    L13_2 = A0_2[1]
+    L13_2 = self[1]
     L14_2 = L13_2
     L13_2 = L13_2.F79CB4638754DB3C8
     L13_2 = L13_2(L14_2)
@@ -2927,7 +2881,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L11_2 = L8_2
     L9_2 = L9_2(L10_2, L11_2)
     if L9_2 then
-      L9_2 = A0_2[2]
+      L9_2 = self[2]
       L10_2 = L9_2
       L9_2 = L9_2.f7798D9F4
       L11_2 = L3_2.paneNameInfo
@@ -2981,7 +2935,7 @@ function L70_1(A0_2, A1_2, A2_2)
       
       L13_2 = L13_2()
       L4_2.iconKind = L13_2
-      L13_2 = A0_2[2]
+      L13_2 = self[2]
       L14_2 = L13_2
       L13_2 = L13_2.fEAD9FB7D
       L15_2 = L31_1.string
@@ -3013,7 +2967,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L14_2 = L14_2.F1808DCB1F3A9233F
         L16_2 = L4_2.pp
         L14_2 = L14_2(L15_2, L16_2)
-        L15_2 = A0_2[2]
+        L15_2 = self[2]
         L16_2 = L15_2
         L15_2 = L15_2.f6889DAA9
         L17_2 = L31_1.string
@@ -3034,7 +2988,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L19_2 = L14_2[2]
         L20_2 = L14_2[3]
         L15_2(L16_2, L17_2, L18_2, L19_2, L20_2)
-        L15_2 = A0_2[2]
+        L15_2 = self[2]
         L16_2 = L15_2
         L15_2 = L15_2.fC6FA21BA
         L17_2 = L3_2.paneNunber
@@ -3044,7 +2998,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L15_2(L16_2, L17_2, L18_2, L19_2)
       end
     end
-    L9_2 = A0_2[2]
+    L9_2 = self[2]
     L10_2 = L9_2
     L9_2 = L9_2.fEAD9FB7D
     L11_2 = L31_1.string
@@ -3077,33 +3031,30 @@ function L70_1(A0_2, A1_2, A2_2)
     L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2 = L12_2()
     L9_2(L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2)
   end
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = L8_2
   L8_2 = L8_2.F1543358A9D79F82C
   L10_2 = L3_2
   L11_2 = A2_2
   L8_2 = L8_2(L9_2, L10_2, L11_2)
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   if 2 == L9_2 then
     L3_2.IconState = 5
-    L10_2 = A0_2
-    L9_2 = A0_2.F338E0D52AE937FC0
+    L10_2 = self
+    L9_2 = self.F338E0D52AE937FC0
     L11_2 = L3_2
     L9_2(L10_2, L11_2)
   end
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F27FA81BA67843FE5"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.iconTextureReplace
+function CAED28D755C44D010_prototype:F27FA81BA67843FE5(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A1_2 or "" == A1_2 then
     return
   end
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.fC6FA21BA
   L5_2 = A2_2
@@ -3136,11 +3087,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "FFDF47A8BB7D9395A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.SetMissionTypeIcon
+function CAED28D755C44D010_prototype:FFDF47A8BB7D9395A(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L5_2 = ""
   if 2 == A1_2 then
@@ -3161,7 +3109,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L7_2 = A2_2
   L8_2 = 2
   L6_2 = L6_2(L7_2, L8_2)
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L8_2 = L7_2
   L7_2 = L7_2.fEAD9FB7D
   L9_2 = L31_1.string
@@ -3191,7 +3139,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L9_2 = L9_2 .. L10_2
   L10_2 = A3_2
   L7_2(L8_2, L9_2, L10_2)
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L8_2 = L7_2
   L7_2 = L7_2.fEAD9FB7D
   L9_2 = L31_1.string
@@ -3221,7 +3169,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L9_2 = L9_2 .. L10_2
   L10_2 = A4_2
   L7_2(L8_2, L9_2, L10_2)
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L8_2 = L7_2
   L7_2 = L7_2.fEAD9FB7D
   L9_2 = L31_1.string
@@ -3266,11 +3214,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAED28D755C44D010"]["prototype"]
-L69_1 = "F944C4BA649EAF3C8"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.ymap.mapicon.YMapResidentIcon.F944C4BA649EAF3C8
+function CAED28D755C44D010_prototype:F944C4BA649EAF3C8(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = L16_1
   L4_2 = {}
@@ -3284,12 +3229,12 @@ function L70_1(A0_2, A1_2, A2_2)
   if nil ~= A2_2 then
     L4_2 = A2_2.mapIconKind
     if 6 == L4_2 then
-      L4_2 = A0_2[7]
+      L4_2 = self[7]
       L4_2 = L4_2.h
       L5_2 = A2_2.ID
       L4_2 = L4_2[L5_2]
       if nil ~= L4_2 then
-        L4_2 = A0_2[7]
+        L4_2 = self[7]
         L4_2 = L4_2.h
         L5_2 = A2_2.ID
         L4_2 = L4_2[L5_2]
@@ -3300,7 +3245,7 @@ function L70_1(A0_2, A1_2, A2_2)
         L3_2.paneNumber = L4_2
       else
         L4_2 = 0
-        L5_2 = A0_2[7]
+        L5_2 = self[7]
         L6_2 = L5_2
         L5_2 = L5_2.keys
         L5_2 = L5_2(L6_2)
@@ -3317,7 +3262,7 @@ function L70_1(A0_2, A1_2, A2_2)
           L4_2 = L4_2 + 1
         end
         L6_2 = A2_2.ID
-        L7_2 = A0_2[7]
+        L7_2 = self[7]
         if nil == L4_2 then
           L8_2 = L7_2.h
           L9_2 = L47_1.tnull
@@ -3412,7 +3357,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L6_2 = A1_2.useCount
     L5_2 = L5_2(L6_2)
     A1_2.maxCount = L5_2
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.f691534BA
     L7_2 = A1_2.paneName

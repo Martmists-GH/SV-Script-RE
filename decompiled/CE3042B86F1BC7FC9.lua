@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CE3042B86F1BC7FC9"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CE3042B86F1BC7FC9"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3042B86F1BC7FC9"]
-L69_1 = "__name__"
-L70_1 = "CE3042B86F1BC7FC9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE3042B86F1BC7FC9"]
-L69_1 = "SAAD66C597C41DE4A"
+---@alias CE3042B86F1BC7FC9 main_event_command_GymCommand
 
-function L70_1()
+---@class main_event_command_GymCommand
+CE3042B86F1BC7FC9 = L15_1()
+CE3042B86F1BC7FC9.new = {}
+CE3042B86F1BC7FC9.__name__ = "CE3042B86F1BC7FC9"
+--- main.event.command.GymCommand.StartDenkiGymLogo
+function CE3042B86F1BC7FC9.SAAD66C597C41DE4A()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = CCD6AC10083144CBE
   L0_2 = L0_2.new

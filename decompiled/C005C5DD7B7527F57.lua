@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C005C5DD7B7527F57"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C005C5DD7B7527F57"]
-L69_1 = "new"
+---@alias C005C5DD7B7527F57 main_ui_picnic_guide_view_PicnicGuideTopUiView
 
-function L70_1(A0_2)
+---@class main_ui_picnic_guide_view_PicnicGuideTopUiView : C005C5DD7B7527F57_prototype
+---@field prototype C005C5DD7B7527F57_prototype
+C005C5DD7B7527F57 = L15_1()
+function C005C5DD7B7527F57.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C005C5DD7B7527F57
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C005C5DD7B7527F57
+function C005C5DD7B7527F57.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   A0_2[12] = nil
   A0_2[11] = true
@@ -365,11 +359,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C005C5DD7B7527F57"]
 L69_1 = "__name__"
 L70_1 = "C005C5DD7B7527F57"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]
-L69_1 = "S50CB2B4EB5CE75C1"
-
-function L70_1(A0_2)
+--- main.ui.picnic.guide.view.PicnicGuideTopUiView.GetBehavior
+function C005C5DD7B7527F57.S50CB2B4EB5CE75C1(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = A0_2
   L1_2 = A0_2.fB3CF1DEB
@@ -407,41 +398,33 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C005C5DD7B7527F57_prototype
+C005C5DD7B7527F57_prototype = L15_1()
+C005C5DD7B7527F57.prototype = C005C5DD7B7527F57_prototype
+--- main.ui.picnic.guide.view.PicnicGuideTopUiView.Setup
+function C005C5DD7B7527F57_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2
   L2_2 = c69ACCC6F
   L2_2 = L2_2.f3F98EEAD
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[6] = L2_2
+  self[6] = L2_2
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[7] = L2_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FDDFD4BA06E5C2BB0
+  self[7] = L2_2
+  L3_2 = self
+  L2_2 = self.FDDFD4BA06E5C2BB0
   L2_2(L3_2)
-  A0_2[4] = true
+  self[4] = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.picnic.guide.view.PicnicGuideTopUiView.PreUpdate
+function C005C5DD7B7527F57_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F9EA442DE92CF5BDA
+  L3_2 = self
+  L2_2 = self.F9EA442DE92CF5BDA
   L2_2 = L2_2(L3_2)
   if nil ~= L2_2 then
     L3_2 = cCDB92DE8
@@ -456,9 +439,9 @@ function L70_1(A0_2, A1_2)
     L6_2 = L6_2(L7_2, L8_2)
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
-    L6_2 = A0_2[12]
+    L6_2 = self[12]
     if nil ~= L6_2 then
-      L6_2 = A0_2[12]
+      L6_2 = self[12]
       if L5_2 == L6_2 then
         goto lbl_70
       end
@@ -466,7 +449,7 @@ function L70_1(A0_2, A1_2)
     if L5_2 then
       L6_2 = cECD2E4A5
       L6_2 = L6_2.f489BB3D8
-      L7_2 = A0_2[1]
+      L7_2 = self[1]
       L8_2 = "OptionGuide_02"
       L6_2 = L6_2(L7_2, L8_2)
       L7_2 = C828F047963375FA0
@@ -492,7 +475,7 @@ function L70_1(A0_2, A1_2)
     else
       L6_2 = cECD2E4A5
       L6_2 = L6_2.f489BB3D8
-      L7_2 = A0_2[1]
+      L7_2 = self[1]
       L8_2 = "OptionGuide_02"
       L6_2 = L6_2(L7_2, L8_2)
       L7_2 = C828F047963375FA0
@@ -516,11 +499,11 @@ function L70_1(A0_2, A1_2)
       L9_2, L10_2, L11_2, L12_2, L13_2 = L9_2(L10_2, L11_2, L12_2, L13_2)
       L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
     end
-    A0_2[12] = L5_2
+    self[12] = L5_2
   end
   ::lbl_70::
   L3_2 = 0
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   while true do
     L5_2 = L4_2.length
     if not (L3_2 < L5_2) then
@@ -530,14 +513,14 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2 + 1
     L6_2 = cECD2E4A5
     L6_2 = L6_2.f489BB3D8
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L8_2 = L5_2.OptionGuideName
     L6_2 = L6_2(L7_2, L8_2)
     L7_2 = L6_2
     L6_2 = L6_2.f15511C72
     L6_2 = L6_2(L7_2)
     if L6_2 then
-      L6_2 = A0_2[7]
+      L6_2 = self[7]
       L7_2 = L6_2
       L6_2 = L6_2.f49A729B6
       L8_2 = L31_1.string
@@ -565,28 +548,25 @@ function L70_1(A0_2, A1_2)
   L9_2 = true
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2)
   if L5_2 > 0 then
-    L6_2 = A0_2
-    L5_2 = A0_2.FA23D39922B76B247
+    L6_2 = self
+    L5_2 = self.FA23D39922B76B247
     L7_2 = false
     L8_2 = 1
     L5_2(L6_2, L7_2, L8_2)
   else
-    L6_2 = A0_2
-    L5_2 = A0_2.FA23D39922B76B247
+    L6_2 = self
+    L5_2 = self.FA23D39922B76B247
     L7_2 = true
     L8_2 = 1
     L5_2(L6_2, L7_2, L8_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]["prototype"]
-L69_1 = "FDDFD4BA06E5C2BB0"
-
-function L70_1(A0_2)
+--- main.ui.picnic.guide.view.PicnicGuideTopUiView.SetupLayout
+function C005C5DD7B7527F57_prototype:FDDFD4BA06E5C2BB0()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = 0
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   while true do
     L3_2 = L2_2.length
     if not (L1_2 < L3_2) then
@@ -596,7 +576,7 @@ function L70_1(A0_2)
     L1_2 = L1_2 + 1
     L4_2 = cECD2E4A5
     L4_2 = L4_2.f489BB3D8
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L3_2.OptionGuideName
     L4_2 = L4_2(L5_2, L6_2)
     L6_2 = L4_2
@@ -653,126 +633,105 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]["prototype"]
-L69_1 = "FA23D39922B76B247"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.picnic.guide.view.PicnicGuideTopUiView.SetVisible
+function C005C5DD7B7527F57_prototype:FA23D39922B76B247(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = 0
   end
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L3_2[A2_2] = A1_2
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.f2A9CF058
-  L6_2 = A0_2
-  L5_2 = A0_2.FB510CCFDC8BE43F1
+  L6_2 = self
+  L5_2 = self.FB510CCFDC8BE43F1
   L5_2, L6_2 = L5_2(L6_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]["prototype"]
-L69_1 = "F6A916A939F0ABFC6"
-
-function L70_1(A0_2)
+--- main.ui.picnic.guide.view.PicnicGuideTopUiView.PlayFadeIn
+function C005C5DD7B7527F57_prototype:F6A916A939F0ABFC6()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F5C684DDD296F4D8A
+  L2_2 = self
+  L1_2 = self.F5C684DDD296F4D8A
   L3_2 = "f_in"
   L1_2 = L1_2(L2_2, L3_2)
   if L1_2 then
-    A0_2[9] = true
+    self[9] = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]["prototype"]
-L69_1 = "F0DF986D734FD6A27"
-
-function L70_1(A0_2)
+--- main.ui.picnic.guide.view.PicnicGuideTopUiView.PlayFadeOut
+function C005C5DD7B7527F57_prototype:F0DF986D734FD6A27()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F5C684DDD296F4D8A
+  L2_2 = self
+  L1_2 = self.F5C684DDD296F4D8A
   L3_2 = "f_out"
   L1_2 = L1_2(L2_2, L3_2)
   if L1_2 then
-    A0_2[9] = false
+    self[9] = false
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]["prototype"]
-L69_1 = "F6B9B65CB9BF6A28F"
-
-function L70_1(A0_2)
+--- main.ui.picnic.guide.view.PicnicGuideTopUiView.SwitchGuide
+function C005C5DD7B7527F57_prototype:F6B9B65CB9BF6A28F()
   local L1_2, L2_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   if L1_2 then
-    L2_2 = A0_2
-    L1_2 = A0_2.F0DF986D734FD6A27
+    L2_2 = self
+    L1_2 = self.F0DF986D734FD6A27
     L1_2(L2_2)
   else
-    L2_2 = A0_2
-    L1_2 = A0_2.F6A916A939F0ABFC6
+    L2_2 = self
+    L1_2 = self.F6A916A939F0ABFC6
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]["prototype"]
-L69_1 = "FCB63B6B3975F987F"
-
-function L70_1(A0_2)
+--- main.ui.picnic.guide.view.PicnicGuideTopUiView.PlayPokemonIn
+function C005C5DD7B7527F57_prototype:FCB63B6B3975F987F()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   if L1_2 then
-    L1_2 = A0_2[11]
+    L1_2 = self[11]
     if not L1_2 then
-      L2_2 = A0_2
-      L1_2 = A0_2.F5C684DDD296F4D8A
+      L2_2 = self
+      L1_2 = self.F5C684DDD296F4D8A
       L3_2 = "poke_guide_in"
       L1_2 = L1_2(L2_2, L3_2)
       if L1_2 then
-        A0_2[11] = true
+        self[11] = true
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]["prototype"]
-L69_1 = "F305A6E2A56DF4924"
-
-function L70_1(A0_2)
+--- main.ui.picnic.guide.view.PicnicGuideTopUiView.PlayPokemonOut
+function C005C5DD7B7527F57_prototype:F305A6E2A56DF4924()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   if L1_2 then
-    L1_2 = A0_2[11]
+    L1_2 = self[11]
     if L1_2 then
-      L2_2 = A0_2
-      L1_2 = A0_2.F5C684DDD296F4D8A
+      L2_2 = self
+      L1_2 = self.F5C684DDD296F4D8A
       L3_2 = "poke_guide_out"
       L1_2 = L1_2(L2_2, L3_2)
       if L1_2 then
-        A0_2[11] = false
+        self[11] = false
       end
     end
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]["prototype"]
-L69_1 = "FB510CCFDC8BE43F1"
-
-function L70_1(A0_2)
+--- main.ui.picnic.guide.view.PicnicGuideTopUiView.GetGuideVisible
+function C005C5DD7B7527F57_prototype:FB510CCFDC8BE43F1()
   local L1_2, L2_2, L3_2
   L1_2 = 0
   while L1_2 < 2 do
     L1_2 = L1_2 + 1
-    L2_2 = A0_2[10]
+    L2_2 = self[10]
     L3_2 = L1_2 - 1
     L2_2 = L2_2[L3_2]
     if not L2_2 then
@@ -784,11 +743,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]["prototype"]
-L69_1 = "F9EA442DE92CF5BDA"
-
-function L70_1(A0_2)
+--- main.ui.picnic.guide.view.PicnicGuideTopUiView.GetPokeObjCtrl
+function C005C5DD7B7527F57_prototype:F9EA442DE92CF5BDA()
   local L1_2, L2_2
   L1_2 = CB4E56E9599A85891
   L1_2 = L1_2.S0B3F69C4549A0284
@@ -831,23 +787,20 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C005C5DD7B7527F57"]["prototype"]
-L69_1 = "F5C684DDD296F4D8A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.picnic.guide.view.PicnicGuideTopUiView.PlayAnim
+function C005C5DD7B7527F57_prototype:F5C684DDD296F4D8A(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = nil
   L3_2 = cECF00344
   L3_2 = L3_2.f9758FA9B
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
     L3_2 = false
     return L3_2
   end
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.f33A1A337
   L3_2 = L3_2(L4_2)
@@ -855,12 +808,12 @@ function L70_1(A0_2, A1_2)
     L3_2 = false
     return L3_2
   end
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   L4_2 = L3_2
   L3_2 = L3_2.fB4E9D030
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
-  A0_2[8] = A1_2
+  self[8] = A1_2
   L3_2 = true
   return L3_2
 end

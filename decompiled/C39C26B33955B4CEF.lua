@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C39C26B33955B4CEF"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C39C26B33955B4CEF"]
-L69_1 = "new"
+---@alias C39C26B33955B4CEF main_ui_mapicon_ResidentMapIconDataAccessor
 
-function L70_1()
+---@class main_ui_mapicon_ResidentMapIconDataAccessor : C39C26B33955B4CEF_prototype
+---@field prototype C39C26B33955B4CEF_prototype
+C39C26B33955B4CEF = L15_1()
+function C39C26B33955B4CEF.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C39C26B33955B4CEF
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C39C26B33955B4CEF
+function C39C26B33955B4CEF.super(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -45,11 +39,7 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]
-L69_1 = "__name__"
-L70_1 = "C39C26B33955B4CEF"
-L68_1[L69_1] = L70_1
+C39C26B33955B4CEF.__name__ = "C39C26B33955B4CEF"
 L68_1 = _ENV["C39C26B33955B4CEF"]
 L69_1 = "S8DE3B417509C629B"
 
@@ -187,97 +177,80 @@ function L70_1()
   return L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F700184CE26B1C21F"
-
-function L70_1(A0_2)
+---@class C39C26B33955B4CEF_prototype
+C39C26B33955B4CEF_prototype = L15_1()
+C39C26B33955B4CEF.prototype = C39C26B33955B4CEF_prototype
+--- main.ui.mapicon.ResidentMapIconDataAccessor.GetMapIconDataArray
+function C39C26B33955B4CEF_prototype:F700184CE26B1C21F()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "FE6CD05730B295F76"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.GetMapIconData
+function C39C26B33955B4CEF_prototype:FE6CD05730B295F76(A1_2)
   local L2_2
   if A1_2 < 0 then
     L2_2 = nil
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.length
   if A1_2 >= L2_2 then
     L2_2 = nil
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[A1_2]
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F99EB5B87D333B7BD"
-
-function L70_1(A0_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.GetMapIconDataArrayNum
+function C39C26B33955B4CEF_prototype:F99EB5B87D333B7BD()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L1_2 = L1_2.length
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F4A491D288AE384A5"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.F4A491D288AE384A5
+function C39C26B33955B4CEF_prototype:F4A491D288AE384A5(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F3D9B10DE27056CCD
+  L3_2 = self
+  L2_2 = self.F3D9B10DE27056CCD
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if -1 == L2_2 then
     L3_2 = nil
     return L3_2
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[L2_2]
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "FD3287D32BE0D9BD7"
-
-function L70_1(A0_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.FD3287D32BE0D9BD7
+function C39C26B33955B4CEF_prototype:FD3287D32BE0D9BD7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.length
   L3_2 = false
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L4_2 = L1_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[L4_2]
     L5_2 = L5_2.IsValid
     if false ~= L5_2 then
-      L6_2 = A0_2
-      L5_2 = A0_2.FB5EF742A8E600C0A
-      L7_2 = A0_2[1]
+      L6_2 = self
+      L5_2 = self.FB5EF742A8E600C0A
+      L7_2 = self[1]
       L7_2 = L7_2[L4_2]
       L5_2(L6_2, L7_2)
-      L6_2 = A0_2
-      L5_2 = A0_2.F41AE839B00AD05DE
-      L7_2 = A0_2[1]
+      L6_2 = self
+      L5_2 = self.F41AE839B00AD05DE
+      L7_2 = self[1]
       L7_2 = L7_2[L4_2]
       L5_2(L6_2, L7_2)
     end
@@ -288,113 +261,98 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F9C5886AAB7DCB6B4"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.F9C5886AAB7DCB6B4
+function C39C26B33955B4CEF_prototype:F9C5886AAB7DCB6B4(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F3D9B10DE27056CCD
+  L3_2 = self
+  L2_2 = self.F3D9B10DE27056CCD
   L4_2 = A1_2.ID
   L2_2 = L2_2(L3_2, L4_2)
   if -1 == L2_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FA8EE872889428C67
+    L4_2 = self
+    L3_2 = self.FA8EE872889428C67
     L3_2 = L3_2(L4_2)
     L2_2 = L3_2
     if -1 == L2_2 then
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L2_2 = L3_2.length
     end
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2[L2_2] = A1_2
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F3505487C5267EE2D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.EraseResidentMapIconDataArray
+function C39C26B33955B4CEF_prototype:F3505487C5267EE2D(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F3D9B10DE27056CCD
+  L3_2 = self
+  L2_2 = self.F3D9B10DE27056CCD
   L4_2 = A1_2
   L2_2 = L2_2(L3_2, L4_2)
   if -1 == L2_2 then
     L3_2 = -1
     return L3_2
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[L2_2]
   L3_2.IsValid = false
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "FE2CC0EBB9A917348"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.EraseResidentMapIconDataArrayByIndex
+function C39C26B33955B4CEF_prototype:FE2CC0EBB9A917348(A1_2)
   local L2_2
   if -1 == A1_2 then
     L2_2 = -1
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.length
   if A1_2 >= L2_2 then
     L2_2 = -1
     return L2_2
   end
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[A1_2]
   L2_2.IsValid = false
   return A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F41AB2B2EEFA4E886"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.SetVisibleByIndex
+function C39C26B33955B4CEF_prototype:F41AB2B2EEFA4E886(A1_2, A2_2)
   local L3_2
   if -1 == A1_2 then
     L3_2 = -1
     return L3_2
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   if A1_2 >= L3_2 then
     L3_2 = -1
     return L3_2
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2[A1_2]
   L3_2.IsVisiable = A2_2
   return A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F3D9B10DE27056CCD"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.F3D9B10DE27056CCD
+function C39C26B33955B4CEF_prototype:F3D9B10DE27056CCD(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   L4_2 = false
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L5_2 = L2_2 - 1
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[L5_2]
     L6_2 = L6_2.IsValid
     if false ~= L6_2 then
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L6_2 = L6_2[L5_2]
       L6_2 = L6_2.ID
       if L6_2 == A1_2 then
@@ -410,11 +368,8 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F26F935DB75EED31A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.F26F935DB75EED31A
+function C39C26B33955B4CEF_prototype:F26F935DB75EED31A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -422,17 +377,17 @@ function L70_1(A0_2, A1_2)
   L4_2 = 0
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = 0
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2.length
   L5_2 = false
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L6_2 = L3_2 - 1
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L7_2 = L7_2[L6_2]
     L7_2 = L7_2.IsValid
     if false ~= L7_2 then
-      L7_2 = A0_2[1]
+      L7_2 = self[1]
       L7_2 = L7_2[L6_2]
       L7_2 = L7_2.releasePointFlagStr
       if L7_2 == A1_2 then
@@ -450,24 +405,21 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F35C7F2659A447B81"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.F35C7F2659A447B81
+function C39C26B33955B4CEF_prototype:F35C7F2659A447B81(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   L4_2 = false
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L5_2 = L2_2 - 1
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[L5_2]
     L6_2 = L6_2.IsValid
     if false ~= L6_2 then
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L6_2 = L6_2[L5_2]
       L6_2 = L6_2.enableFlyFlagStr
       if L6_2 == A1_2 then
@@ -483,19 +435,16 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "FA8EE872889428C67"
-
-function L70_1(A0_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.findInValidIndex
+function C39C26B33955B4CEF_prototype:FA8EE872889428C67()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 0
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.length
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L4_2 = L4_2[L3_2]
     L4_2 = L4_2.IsValid
     if false == L4_2 then
@@ -506,11 +455,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "FB5EF742A8E600C0A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.FB5EF742A8E600C0A
+function C39C26B33955B4CEF_prototype:FB5EF742A8E600C0A(A1_2)
   local L2_2, L3_2
   A1_2.IsVisiable = false
   L2_2 = A1_2.releasePointFlagStr
@@ -553,11 +499,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F41AE839B00AD05DE"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.updatePos
+function C39C26B33955B4CEF_prototype:F41AE839B00AD05DE(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = A1_2.iconPosition
   L2_2 = L2_2[1]
@@ -611,75 +554,69 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "FADF4CDCCFFFEC827"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.FADF4CDCCFFFEC827
+function C39C26B33955B4CEF_prototype:FADF4CDCCFFFEC827(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.resize
   L4_2 = 0
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F550BF91A3D5CA763
+  L3_2 = self
+  L2_2 = self.F550BF91A3D5CA763
   L4_2 = 1
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F550BF91A3D5CA763
+  L3_2 = self
+  L2_2 = self.F550BF91A3D5CA763
   L4_2 = 3
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F550BF91A3D5CA763
+  L3_2 = self
+  L2_2 = self.F550BF91A3D5CA763
   L4_2 = 2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.length
   if 0 == L2_2 then
     L2_2 = -1
     return L2_2
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FE6059631BEE73255
+  L3_2 = self
+  L2_2 = self.FE6059631BEE73255
   L4_2 = A1_2
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F4A18F346178FAF79"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.F4A18F346178FAF79
+function C39C26B33955B4CEF_prototype:F4A18F346178FAF79(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L3_2 = 0
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L4_2 = L4_2.length
   L5_2 = false
   while L3_2 < L4_2 do
     L3_2 = L3_2 + 1
     L6_2 = L3_2 - 1
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L7_2 = L7_2[L6_2]
     L7_2 = L7_2.IsValid
     if false ~= L7_2 then
-      L7_2 = A0_2[1]
+      L7_2 = self[1]
       L7_2 = L7_2[L6_2]
       L7_2 = L7_2.IsVisiable
       if false ~= L7_2 then
-        L7_2 = A0_2[1]
+        L7_2 = self[1]
         L7_2 = L7_2[L6_2]
         L7_2 = L7_2.IsAddonMark
         if false ~= L7_2 then
-          L7_2 = A0_2[1]
+          L7_2 = self[1]
           L7_2 = L7_2[L6_2]
           L7_2 = L7_2.mapIconKind
           if 1 ~= L7_2 then
-            L7_2 = A0_2[1]
+            L7_2 = self[1]
             L7_2 = L7_2[L6_2]
             L7_2 = L7_2.mapIconKind
             if 3 ~= L7_2 then
-              L7_2 = A0_2[1]
+              L7_2 = self[1]
               L7_2 = L7_2[L6_2]
               L7_2 = L7_2.mapIconKind
               if 2 ~= L7_2 then
@@ -687,21 +624,21 @@ function L70_1(A0_2, A1_2, A2_2)
               end
             end
           end
-          L7_2 = A0_2[1]
+          L7_2 = self[1]
           L7_2 = L7_2[L6_2]
           L7_2 = L7_2.ID
           if L7_2 == A1_2 then
-            L7_2 = A0_2[1]
+            L7_2 = self[1]
             L7_2 = L7_2[L6_2]
             L7_2 = L7_2.iconPosition
             L7_2 = L7_2[1]
             if 0 == L7_2 then
-              L7_2 = A0_2[1]
+              L7_2 = self[1]
               L7_2 = L7_2[L6_2]
               L7_2 = L7_2.iconPosition
               L7_2 = L7_2[2]
               if 0 == L7_2 then
-                L7_2 = A0_2[1]
+                L7_2 = self[1]
                 L7_2 = L7_2[L6_2]
                 L7_2 = L7_2.iconPosition
                 L7_2 = L7_2[3]
@@ -711,7 +648,7 @@ function L70_1(A0_2, A1_2, A2_2)
                 end
               end
             end
-            L7_2 = A0_2[1]
+            L7_2 = self[1]
             L7_2 = L7_2[L6_2]
             L7_2 = L7_2.iconPosition
             L8_2 = c7A48E3FC
@@ -737,63 +674,57 @@ function L70_1(A0_2, A1_2, A2_2)
   return L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "FE7E505C4B3873C74"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.FE7E505C4B3873C74
+function C39C26B33955B4CEF_prototype:FE7E505C4B3873C74(A1_2, A2_2)
   local L3_2, L4_2, L5_2
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.resize
   L5_2 = 0
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F550BF91A3D5CA763
+  L4_2 = self
+  L3_2 = self.F550BF91A3D5CA763
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2.length
   if 0 == L3_2 then
     L3_2 = -1
     return L3_2
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FE6059631BEE73255
+  L4_2 = self
+  L3_2 = self.FE6059631BEE73255
   L5_2 = A2_2
   return L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F550BF91A3D5CA763"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.F550BF91A3D5CA763
+function C39C26B33955B4CEF_prototype:F550BF91A3D5CA763(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = 0
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.length
   L4_2 = false
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
     L5_2 = L2_2 - 1
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L6_2 = L6_2[L5_2]
     L6_2 = L6_2.IsValid
     if false ~= L6_2 then
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L6_2 = L6_2[L5_2]
       L6_2 = L6_2.IsVisiable
       if false ~= L6_2 then
-        L6_2 = A0_2[1]
+        L6_2 = self[1]
         L6_2 = L6_2[L5_2]
         L6_2 = L6_2.mapIconKind
         if L6_2 == A1_2 then
-          L6_2 = A0_2[1]
+          L6_2 = self[1]
           L6_2 = L6_2[L5_2]
           L6_2 = L6_2.IsAddonMark
           if false ~= L6_2 then
-            L6_2 = A0_2[2]
+            L6_2 = self[2]
             L7_2 = L6_2
             L6_2 = L6_2.push
             L8_2 = L5_2
@@ -809,34 +740,31 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "FE6059631BEE73255"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.FE6059631BEE73255
+function C39C26B33955B4CEF_prototype:FE6059631BEE73255(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L2_2 = -1
   L3_2 = -1
   L4_2 = 0
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L5_2 = L5_2.length
   L6_2 = false
   while L4_2 < L5_2 do
     L4_2 = L4_2 + 1
-    L7_2 = A0_2[2]
+    L7_2 = self[2]
     L8_2 = L4_2 - 1
     L7_2 = L7_2[L8_2]
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L8_2 = L8_2[L7_2]
     L8_2 = L8_2.iconPosition
     L8_2 = L8_2[1]
     if 0 == L8_2 then
-      L8_2 = A0_2[1]
+      L8_2 = self[1]
       L8_2 = L8_2[L7_2]
       L8_2 = L8_2.iconPosition
       L8_2 = L8_2[2]
       if 0 == L8_2 then
-        L8_2 = A0_2[1]
+        L8_2 = self[1]
         L8_2 = L8_2[L7_2]
         L8_2 = L8_2.iconPosition
         L8_2 = L8_2[3]
@@ -845,7 +773,7 @@ function L70_1(A0_2, A1_2)
         end
       end
     end
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L8_2 = L8_2[L7_2]
     L8_2 = L8_2.iconPosition
     L9_2 = c7A48E3FC
@@ -870,23 +798,20 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F80B5D892ADA38C8B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.setData
+function C39C26B33955B4CEF_prototype:F80B5D892ADA38C8B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F18FFA1904F2051CE
+  L4_2 = self
+  L3_2 = self.F18FFA1904F2051CE
   L5_2 = A1_2
   L6_2 = A2_2
   L3_2 = L3_2(L4_2, L5_2, L6_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.FB5EF742A8E600C0A
+  L5_2 = self
+  L4_2 = self.FB5EF742A8E600C0A
   L6_2 = L3_2
   L4_2(L5_2, L6_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F41AE839B00AD05DE
+  L5_2 = self
+  L4_2 = self.F41AE839B00AD05DE
   L6_2 = L3_2
   L4_2(L5_2, L6_2)
   L4_2 = L3_2.isSu2Entrance
@@ -909,18 +834,15 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2 = L5_2(L6_2)
     L3_2.iconPosition = L5_2
   end
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.push
   L6_2 = L3_2
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F18FFA1904F2051CE"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.F18FFA1904F2051CE
+function C39C26B33955B4CEF_prototype:F18FFA1904F2051CE(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = C39C26B33955B4CEF
   L3_2 = L3_2.S8DE3B417509C629B
@@ -1075,32 +997,29 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "FC318E40989E45E2C"
-
-function L70_1(A0_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.FC318E40989E45E2C
+function C39C26B33955B4CEF_prototype:FC318E40989E45E2C()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = 0
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.length
   L3_2 = false
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L4_2 = L1_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[L4_2]
     L5_2 = L5_2.IsValid
     if false ~= L5_2 then
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L5_2 = L5_2[L4_2]
       L5_2 = L5_2.ID
       if nil ~= L5_2 then
-        L5_2 = A0_2[1]
+        L5_2 = self[1]
         L5_2 = L5_2[L4_2]
         L5_2 = L5_2.ID
         if "" ~= L5_2 then
-          L5_2 = A0_2[1]
+          L5_2 = self[1]
           L5_2 = L5_2[L4_2]
           L5_2.IsAddonMark = false
         end
@@ -1113,11 +1032,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C39C26B33955B4CEF"]["prototype"]
-L69_1 = "F9FBF289E69E84519"
-
-function L70_1(A0_2)
+--- main.ui.mapicon.ResidentMapIconDataAccessor.F9FBF289E69E84519
+function C39C26B33955B4CEF_prototype:F9FBF289E69E84519()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C388798CF80F2AF9D
   L1_2 = L1_2.SBC8F0D38D59586CC
@@ -1126,25 +1042,25 @@ function L70_1(A0_2)
   L3_2 = 0
   L1_2(L2_2, L3_2)
   L1_2 = 0
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2.length
   L3_2 = false
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L4_2 = L1_2 - 1
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L5_2 = L5_2[L4_2]
     L5_2 = L5_2.IsValid
     if false ~= L5_2 then
-      L5_2 = A0_2[1]
+      L5_2 = self[1]
       L5_2 = L5_2[L4_2]
       L5_2 = L5_2.ID
       if nil ~= L5_2 then
-        L5_2 = A0_2[1]
+        L5_2 = self[1]
         L5_2 = L5_2[L4_2]
         L5_2 = L5_2.ID
         if "" ~= L5_2 then
-          L5_2 = A0_2[1]
+          L5_2 = self[1]
           L5_2 = L5_2[L4_2]
           L5_2 = L5_2.IsAddonMark
           if false ~= L5_2 then
@@ -1152,7 +1068,7 @@ function L70_1(A0_2)
             L5_2 = L5_2.SBC8F0D38D59586CC
             L6_2 = L5_2
             L5_2 = L5_2.push
-            L7_2 = A0_2[1]
+            L7_2 = self[1]
             L7_2 = L7_2[L4_2]
             L7_2 = L7_2.ID
             L5_2(L6_2, L7_2)

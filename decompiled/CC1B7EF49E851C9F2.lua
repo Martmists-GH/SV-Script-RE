@@ -1,3 +1,7 @@
+---@alias CC1B7EF49E851C9F2 main_field_gimmick_rummaging_RummagingDatabase
+
+---@class main_field_gimmick_rummaging_RummagingDatabase : CC1B7EF49E851C9F2_prototype
+---@field prototype CC1B7EF49E851C9F2_prototype
 L55_1 = _ENV
 L56_1 = "CC1B7EF49E851C9F2"
 L57_1 = L15_1
@@ -45,28 +49,23 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC1B7EF49E851C9F2"]
 L69_1 = "__name__"
 L70_1 = "CC1B7EF49E851C9F2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC1B7EF49E851C9F2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC1B7EF49E851C9F2"]["prototype"]
-L69_1 = "FC956E297B076BA80"
-
-function L70_1(A0_2)
+---@class CC1B7EF49E851C9F2_prototype
+CC1B7EF49E851C9F2_prototype = L15_1()
+CC1B7EF49E851C9F2.prototype = CC1B7EF49E851C9F2_prototype
+--- main.field.gimmick.rummaging.RummagingDatabase.get_DataNum
+function CC1B7EF49E851C9F2_prototype:FC956E297B076BA80()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c919391D3
   L2_2 = L2_2.f70B06B69
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = 0
     return L2_2
   end
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = L2_2
   L2_2 = L2_2.f6902A503
   L4_2 = CC1B7EF49E851C9F2
@@ -74,46 +73,37 @@ function L70_1(A0_2)
   return L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC1B7EF49E851C9F2"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+--- main.field.gimmick.rummaging.RummagingDatabase.Setup
+function CC1B7EF49E851C9F2_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[3] = L2_2
-  L2_2 = A0_2[3]
+  self[3] = L2_2
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f287946D6
   L2_2 = L2_2(L3_2)
-  A0_2[4] = L2_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FE061843D64753156
+  self[4] = L2_2
+  L3_2 = self
+  L2_2 = self.FE061843D64753156
   L2_2(L3_2)
   L2_2 = CC1B7EF49E851C9F2
-  L2_2.S264F26F6894F3392 = A0_2
+  L2_2.S264F26F6894F3392 = self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC1B7EF49E851C9F2"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.field.gimmick.rummaging.RummagingDatabase.Destroy
+function CC1B7EF49E851C9F2_prototype:F1C2AA00ADAC52EC5()
   local L1_2
   L1_2 = CC1B7EF49E851C9F2
   L1_2.S264F26F6894F3392 = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC1B7EF49E851C9F2"]["prototype"]
-L69_1 = "F8C0F73D948E79CB8"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.gimmick.rummaging.RummagingDatabase.GetItemList
+function CC1B7EF49E851C9F2_prototype:F8C0F73D948E79CB8(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L3_2 = L3_2.h
   L3_2 = L3_2[A1_2]
   L4_2 = L42_1.tnull
@@ -134,23 +124,20 @@ function L70_1(A0_2, A1_2, A2_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC1B7EF49E851C9F2"]["prototype"]
-L69_1 = "FE061843D64753156"
-
-function L70_1(A0_2)
+--- main.field.gimmick.rummaging.RummagingDatabase.SetupData
+function CC1B7EF49E851C9F2_prototype:FE061843D64753156()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   L1_2 = L42_1.new
   L1_2 = L1_2()
-  A0_2[2] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FC956E297B076BA80
+  self[2] = L1_2
+  L2_2 = self
+  L1_2 = self.FC956E297B076BA80
   L1_2 = L1_2(L2_2)
   L2_2 = 0
   L3_2 = false
   while L1_2 > L2_2 do
     L2_2 = L2_2 + 1
-    L4_2 = A0_2[4]
+    L4_2 = self[4]
     L5_2 = L4_2
     L4_2 = L4_2.f0CA5FEBC
     L6_2 = CC1B7EF49E851C9F2
@@ -168,7 +155,7 @@ function L70_1(A0_2)
     L8_2 = L8_2.S598D3464BCC430A9
     L6_2 = L6_2(L7_2, L8_2)
     if 0 ~= L5_2 and 0 ~= L6_2 then
-      L7_2 = A0_2[2]
+      L7_2 = self[2]
       L7_2 = L7_2.h
       L7_2 = L7_2[L5_2]
       L8_2 = L42_1.tnull
@@ -181,7 +168,7 @@ function L70_1(A0_2)
         L10_2 = L42_1.new
         L10_2 = L10_2()
         L9_2 = L10_2
-        L10_2 = A0_2[2]
+        L10_2 = self[2]
         if nil == L9_2 then
           L11_2 = L10_2.h
           L12_2 = L42_1.tnull

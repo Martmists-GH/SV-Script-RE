@@ -1,3 +1,7 @@
+---@alias C048270DC168E29A3 main_pokepicnic_contents_PicnicContentsController
+
+---@class main_pokepicnic_contents_PicnicContentsController : C048270DC168E29A3_prototype
+---@field prototype C048270DC168E29A3_prototype
 L55_1 = _ENV
 L56_1 = "C048270DC168E29A3"
 L57_1 = L15_1
@@ -43,81 +47,76 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C048270DC168E29A3"]
 L69_1 = "__name__"
 L70_1 = "C048270DC168E29A3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C048270DC168E29A3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C048270DC168E29A3"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2)
+---@class C048270DC168E29A3_prototype
+C048270DC168E29A3_prototype = L15_1()
+C048270DC168E29A3.prototype = C048270DC168E29A3_prototype
+--- main.pokepicnic.contents.PicnicContentsController.Setup
+function C048270DC168E29A3_prototype:F7C68FEDB79AB6396()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = C0B9F3258DC3934E3
   L3_2 = L3_2.new
   L3_2 = L3_2()
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = C3FE99DB37046AA94
   L3_2 = L3_2.new
   L3_2 = L3_2()
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = CDFBC66793FAE2ABF
   L3_2 = L3_2.new
   L3_2 = L3_2()
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = C87DD60EB075F84CA
   L3_2 = L3_2.new
   L3_2 = L3_2()
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = C13DAEB48EE071E6F
   L3_2 = L3_2.new
   L3_2 = L3_2()
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = CFEBDD166BDAA15BF
   L3_2 = L3_2.new
   L3_2 = L3_2()
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = C14A9E10DD501A889
   L3_2 = L3_2.new
   L3_2 = L3_2()
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = C6E3282A271DDD976
   L3_2 = L3_2.new
   L3_2 = L3_2()
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = C3540F3B34BB17A50
   L3_2 = L3_2.new
   L3_2 = L3_2()
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.push
   L3_2 = C04FEFE01ED90B21A
@@ -126,17 +125,14 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C048270DC168E29A3"]["prototype"]
-L69_1 = "F15A7DF5F379F7627"
-
-function L70_1(A0_2)
+--- main.pokepicnic.contents.PicnicContentsController.FinishAllContents
+function C048270DC168E29A3_prototype:F15A7DF5F379F7627()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   if nil == L1_2 then
     return
   end
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2.h
   L2_2 = false
   while nil ~= L1_2 do
@@ -152,49 +148,40 @@ function L70_1(A0_2)
       break
     end
   end
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.clear
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C048270DC168E29A3"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.contents.PicnicContentsController.Update
+function C048270DC168E29A3_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FDEF3A7725954710B
+  L3_2 = self
+  L2_2 = self.FDEF3A7725954710B
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F2FB2DD5EDD505A16
+  L3_2 = self
+  L2_2 = self.F2FB2DD5EDD505A16
   L4_2 = A1_2
   L5_2 = false
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C048270DC168E29A3"]["prototype"]
-L69_1 = "F20A40E2F8B95D5F6"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.contents.PicnicContentsController.PostUpdate
+function C048270DC168E29A3_prototype:F20A40E2F8B95D5F6(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F2FB2DD5EDD505A16
+  L3_2 = self
+  L2_2 = self.F2FB2DD5EDD505A16
   L4_2 = A1_2
   L5_2 = true
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C048270DC168E29A3"]["prototype"]
-L69_1 = "F41282B5A060EB488"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.contents.PicnicContentsController.RequestContents
+function C048270DC168E29A3_prototype:F41282B5A060EB488(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.h
   while nil ~= L2_2 do
     L3_2 = L2_2.item
@@ -205,20 +192,17 @@ function L70_1(A0_2, A1_2)
       return
     end
   end
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.add
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C048270DC168E29A3"]["prototype"]
-L69_1 = "F80C588A07582C1A5"
-
-function L70_1(A0_2)
+--- main.pokepicnic.contents.PicnicContentsController.IsPlayContents
+function C048270DC168E29A3_prototype:F80C588A07582C1A5()
   local L1_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L1_2 = L1_2.length
   if L1_2 > 0 then
     L1_2 = true
@@ -228,18 +212,15 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C048270DC168E29A3"]["prototype"]
-L69_1 = "FDEF3A7725954710B"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.contents.PicnicContentsController.UpdateChecker
+function C048270DC168E29A3_prototype:FDEF3A7725954710B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.length
   if 0 ~= L2_2 then
     return
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   if not L2_2 then
     return
   end
@@ -250,7 +231,7 @@ function L70_1(A0_2, A1_2)
     return
   end
   L2_2 = 0
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = false
   while true do
     L5_2 = L3_2.length
@@ -265,20 +246,20 @@ function L70_1(A0_2, A1_2)
       L6_2 = L5_2.FF9BE0775DE5A4601
       L6_2 = L6_2(L7_2)
       if nil ~= L6_2 then
-        L7_2 = A0_2[5]
+        L7_2 = self[5]
         L8_2 = L7_2
         L7_2 = L7_2.add
         L9_2 = L6_2
         L7_2(L8_2, L9_2)
-        L8_2 = A0_2
-        L7_2 = A0_2.F4527EFA4DF3B609E
+        L8_2 = self
+        L7_2 = self.F4527EFA4DF3B609E
         L9_2 = true
         L7_2(L8_2, L9_2)
-        L7_2 = A0_2[5]
+        L7_2 = self[5]
         L8_2 = L7_2
         L7_2 = L7_2.first
         L7_2(L8_2)
-        L7_2 = A0_2[5]
+        L7_2 = self[5]
         L8_2 = L7_2
         L7_2 = L7_2.first
         L7_2 = L7_2(L8_2)
@@ -296,22 +277,19 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C048270DC168E29A3"]["prototype"]
-L69_1 = "F2FB2DD5EDD505A16"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.pokepicnic.contents.PicnicContentsController.UpdateContents
+function C048270DC168E29A3_prototype:F2FB2DD5EDD505A16(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2.length
   if 0 == L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F4527EFA4DF3B609E
+    L4_2 = self
+    L3_2 = self.F4527EFA4DF3B609E
     L5_2 = false
     L3_2(L4_2, L5_2)
     return
   end
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.first
   L3_2 = L3_2(L4_2)
@@ -334,11 +312,11 @@ function L70_1(A0_2, A1_2, A2_2)
       L6_2 = L3_2
       L5_2 = L3_2.F0DBBC2DA2C3EAC32
       L5_2(L6_2)
-      L5_2 = A0_2[5]
+      L5_2 = self[5]
       L6_2 = L5_2
       L5_2 = L5_2.pop
       L5_2(L6_2)
-      L5_2 = A0_2[5]
+      L5_2 = self[5]
       L6_2 = L5_2
       L5_2 = L5_2.first
       L5_2 = L5_2(L6_2)
@@ -354,11 +332,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C048270DC168E29A3"]["prototype"]
-L69_1 = "F34B231AFEF99E81E"
-
-function L70_1(A0_2)
+--- main.pokepicnic.contents.PicnicContentsController.CreateProhibit
+function C048270DC168E29A3_prototype:F34B231AFEF99E81E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = false
   L2_2 = CB4E56E9599A85891
@@ -444,28 +419,25 @@ function L70_1(A0_2)
     L5_2 = L5_2.S4B46339E1B8AE3CA
     L6_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2, L6_2)
-    A0_2[6] = L3_2
+    self[6] = L3_2
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C048270DC168E29A3"]["prototype"]
-L69_1 = "F4527EFA4DF3B609E"
-
-function L70_1(A0_2, A1_2)
+--- main.pokepicnic.contents.PicnicContentsController.ActivationProhibit
+function C048270DC168E29A3_prototype:F4527EFA4DF3B609E(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   if nil == L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F34B231AFEF99E81E
+    L3_2 = self
+    L2_2 = self.F34B231AFEF99E81E
     L2_2(L3_2)
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   if nil ~= L2_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L2_2 = L2_2[7]
     if L2_2 ~= A1_2 then
-      L2_2 = A0_2[6]
+      L2_2 = self[6]
       L3_2 = L2_2
       L2_2 = L2_2.F5B98E8D4C251422B
       L4_2 = A1_2

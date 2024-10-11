@@ -1,3 +1,7 @@
+---@alias C65E935C2D68565FF main_event_general_atlantis_AtlantisAreaEvent
+
+---@class main_event_general_atlantis_AtlantisAreaEvent : C65E935C2D68565FF_prototype
+---@field prototype C65E935C2D68565FF_prototype
 L55_1 = _ENV
 L56_1 = "C65E935C2D68565FF"
 L57_1 = L15_1
@@ -45,27 +49,19 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C65E935C2D68565FF"]
 L69_1 = "__name__"
 L70_1 = "C65E935C2D68565FF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C65E935C2D68565FF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C65E935C2D68565FF"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class C65E935C2D68565FF_prototype
+C65E935C2D68565FF_prototype = L15_1()
+C65E935C2D68565FF.prototype = C65E935C2D68565FF_prototype
+--- main.event.general.atlantis.AtlantisAreaEvent.preStart
+function C65E935C2D68565FF_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FECB55EECDBB1C59C
+  L2_2 = self
+  L1_2 = self.FECB55EECDBB1C59C
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C65E935C2D68565FF"]["prototype"]
-L69_1 = "FECB55EECDBB1C59C"
-
-function L70_1(A0_2)
+--- main.event.general.atlantis.AtlantisAreaEvent.SetRestartPoint
+function C65E935C2D68565FF_prototype:FECB55EECDBB1C59C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2
   L1_2 = nil
   
@@ -74,7 +70,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -82,7 +78,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3

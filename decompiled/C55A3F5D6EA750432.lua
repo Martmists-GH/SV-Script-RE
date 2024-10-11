@@ -1,3 +1,5 @@
+---@class C55A3F5D6EA750432 : C55A3F5D6EA750432_prototype
+---@field prototype C55A3F5D6EA750432_prototype
 L55_1 = _ENV
 L56_1 = "C55A3F5D6EA750432"
 L57_1 = L15_1
@@ -47,41 +49,33 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C55A3F5D6EA750432"]
 L69_1 = "__name__"
 L70_1 = "C55A3F5D6EA750432"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55A3F5D6EA750432"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55A3F5D6EA750432"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C55A3F5D6EA750432_prototype
+C55A3F5D6EA750432_prototype = L15_1()
+C55A3F5D6EA750432.prototype = C55A3F5D6EA750432_prototype
+--- C55A3F5D6EA750432.onCreate
+function C55A3F5D6EA750432_prototype:FC87C731D11C58354()
   local L1_2
   L1_2 = E6659210A31B83D7F
   L1_2 = L1_2.WaitOtherAction
-  A0_2[17] = L1_2
+  self[17] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55A3F5D6EA750432"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- C55A3F5D6EA750432.onPreUpdate
+function C55A3F5D6EA750432_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L1_2 = A0_2[18]
+  L1_2 = self[18]
   if L1_2 then
     L1_2 = E6659210A31B83D7F
     L1_2 = L1_2.Finished
-    A0_2[17] = L1_2
+    self[17] = L1_2
   end
-  L1_2 = A0_2[17]
+  L1_2 = self[17]
   L1_2 = L1_2[1]
   if 0 == L1_2 or 5 == L1_2 then
     L2_2 = 2
     return L2_2
   elseif 1 == L1_2 then
-    L2_2 = A0_2[15]
+    L2_2 = self[15]
     L2_2 = L2_2[7]
     L3_2 = nil
     if nil == L2_2 then
@@ -183,10 +177,10 @@ function L70_1(A0_2)
     if L6_2 then
       L8_2 = E6659210A31B83D7F
       L8_2 = L8_2.Rotate
-      A0_2[17] = L8_2
+      self[17] = L8_2
     end
   elseif 2 == L1_2 then
-    L2_2 = A0_2[15]
+    L2_2 = self[15]
     L3_2 = L2_2
     L2_2 = L2_2.F61AD48E5F0C5D3CF
     L4_2 = CD978FAE5C14C8364
@@ -196,7 +190,7 @@ function L70_1(A0_2)
     L7_2.targetPos = true
     L7_2.speed = true
     L6_2.__fields__ = L7_2
-    L7_2 = A0_2[16]
+    L7_2 = self[16]
     L7_2 = L7_2.courtPosition
     L6_2.targetPos = L7_2
     L6_2.speed = 1.0
@@ -204,9 +198,9 @@ function L70_1(A0_2)
     L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
     L2_2 = E6659210A31B83D7F
     L2_2 = L2_2.Cheer
-    A0_2[17] = L2_2
+    self[17] = L2_2
   elseif 3 == L1_2 then
-    L2_2 = A0_2[15]
+    L2_2 = self[15]
     L2_2 = L2_2[7]
     L3_2 = nil
     if nil == L2_2 then
@@ -265,7 +259,7 @@ function L70_1(A0_2)
       L7_2 = "loop_event_bool"
       L8_2 = true
       L5_2(L6_2, L7_2, L8_2)
-      L5_2 = A0_2[15]
+      L5_2 = self[15]
       L6_2 = L5_2
       L5_2 = L5_2.FEFA7DDEF3516A612
       L7_2 = false
@@ -273,20 +267,17 @@ function L70_1(A0_2)
     end
     L5_2 = E6659210A31B83D7F
     L5_2 = L5_2.Cheering
-    A0_2[17] = L5_2
+    self[17] = L5_2
   elseif 4 == L1_2 then
   end
   L2_2 = 0
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55A3F5D6EA750432"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- C55A3F5D6EA750432.onFinish
+function C55A3F5D6EA750432_prototype:FA2C827B56F56ABDF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[15]
+  L1_2 = self[15]
   L1_2 = L1_2[7]
   L2_2 = nil
   if nil == L1_2 then
@@ -338,7 +329,7 @@ function L70_1(A0_2)
     L7_2 = false
     L4_2(L5_2, L6_2, L7_2)
   end
-  L4_2 = A0_2[7]
+  L4_2 = self[7]
   
   function L5_2()
     local L0_3, L1_3, L2_3, L3_3
@@ -363,11 +354,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C55A3F5D6EA750432"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- C55A3F5D6EA750432.onTerminate
+function C55A3F5D6EA750432_prototype:F97D80368ACC86AEF()
   local L1_2
   L1_2 = true
   return L1_2

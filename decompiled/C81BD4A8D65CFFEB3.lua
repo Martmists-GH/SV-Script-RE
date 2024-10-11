@@ -1,3 +1,7 @@
+---@alias C81BD4A8D65CFFEB3 main_pokepicnic_cooking_CookingTimelinePlayer
+
+---@class main_pokepicnic_cooking_CookingTimelinePlayer : C81BD4A8D65CFFEB3_prototype
+---@field prototype C81BD4A8D65CFFEB3_prototype
 L55_1 = _ENV
 L56_1 = "C81BD4A8D65CFFEB3"
 L57_1 = L15_1
@@ -44,20 +48,15 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C81BD4A8D65CFFEB3"]
 L69_1 = "__name__"
 L70_1 = "C81BD4A8D65CFFEB3"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81BD4A8D65CFFEB3"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81BD4A8D65CFFEB3"]["prototype"]
-L69_1 = "F9EF8B08DA4FDA9E4"
-
-function L70_1(A0_2)
+---@class C81BD4A8D65CFFEB3_prototype
+C81BD4A8D65CFFEB3_prototype = L15_1()
+C81BD4A8D65CFFEB3.prototype = C81BD4A8D65CFFEB3_prototype
+--- main.pokepicnic.cooking.CookingTimelinePlayer.mainCoroutineFunc
+function C81BD4A8D65CFFEB3_prototype:F9EF8B08DA4FDA9E4()
   local L1_2, L2_2
   while true do
-    L2_2 = A0_2
-    L1_2 = A0_2.FE1B998C2DEC49E51
+    L2_2 = self
+    L1_2 = self.FE1B998C2DEC49E51
     L1_2(L2_2)
     L1_2 = C1DB14DCC9D7634FA
     L1_2 = L1_2.S760DAE4C5371A78E
@@ -66,17 +65,14 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81BD4A8D65CFFEB3"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2)
+--- main.pokepicnic.cooking.CookingTimelinePlayer.OnUpdate
+function C81BD4A8D65CFFEB3_prototype:FE1B998C2DEC49E51()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   if 0 == L1_2 then
   elseif 1 == L1_2 then
     while true do
-      L2_2 = A0_2[8]
+      L2_2 = self[8]
       L3_2 = L2_2
       L2_2 = L2_2.f900312E7
       L2_2 = L2_2(L3_2)
@@ -89,7 +85,7 @@ function L70_1(A0_2)
       L2_2(L3_2)
     end
     while true do
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       L3_2 = L2_2
       L2_2 = L2_2.f9D8BC178
       L2_2 = L2_2(L3_2)
@@ -101,15 +97,15 @@ function L70_1(A0_2)
       L3_2 = nil
       L2_2(L3_2)
     end
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = L2_2
     L2_2 = L2_2.f68159593
     L4_2 = "sd8014_eat"
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     L2_2 = L2_2(L3_2, L4_2, L5_2)
-    A0_2[9] = L2_2
+    self[9] = L2_2
     while true do
-      L2_2 = A0_2[9]
+      L2_2 = self[9]
       L3_2 = L2_2
       L2_2 = L2_2.f9D8BC178
       L2_2 = L2_2(L3_2)
@@ -121,37 +117,37 @@ function L70_1(A0_2)
       L3_2 = nil
       L2_2(L3_2)
     end
-    A0_2[10] = 2
+    self[10] = 2
   elseif 2 == L1_2 then
     L2_2 = c8A144091
     L2_2 = L2_2.f8C342581
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = c4D8F1342
     L4_2 = L4_2.f69D04ADF
-    L5_2 = A0_2[6]
+    L5_2 = self[6]
     L4_2, L5_2 = L4_2(L5_2)
     L2_2(L3_2, L4_2, L5_2)
-    A0_2[10] = 3
+    self[10] = 3
   elseif 3 == L1_2 then
     L2_2 = c8A144091
     L2_2 = L2_2.f75C96ED8
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L2_2 = L2_2(L3_2)
     if 2 == L2_2 then
-      A0_2[10] = 4
+      self[10] = 4
     end
     L2_2 = c8A144091
     L2_2 = L2_2.f75C96ED8
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L2_2 = L2_2(L3_2)
     if 3 == L2_2 then
-      A0_2[10] = 7
+      self[10] = 7
     end
   elseif 4 == L1_2 then
   elseif 5 == L1_2 then
     L2_2 = c8A144091
     L2_2 = L2_2.f59D006EE
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L2_2 = L2_2(L3_2)
     if L2_2 then
       L2_2 = cAF8D78F3
@@ -159,30 +155,30 @@ function L70_1(A0_2)
       L2_2 = L2_2()
       L3_2 = L2_2
       L2_2 = L2_2.fE5E61923
-      L4_2 = A0_2[11]
+      L4_2 = self[11]
       L5_2 = false
       L2_2(L3_2, L4_2, L5_2)
-      A0_2[10] = 6
+      self[10] = 6
     end
   elseif 6 == L1_2 then
   elseif 7 == L1_2 then
     L2_2 = c8A144091
     L2_2 = L2_2.f12AF8664
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L2_2(L3_2)
-    A0_2[8] = nil
-    L2_2 = A0_2[9]
+    self[8] = nil
+    L2_2 = self[9]
     L3_2 = L2_2
     L2_2 = L2_2.fCDCB600D
     L4_2 = true
     L2_2(L3_2, L4_2)
-    A0_2[9] = nil
-    L2_2 = A0_2[7]
+    self[9] = nil
+    L2_2 = self[7]
     L3_2 = L2_2
     L2_2 = L2_2.f5C99C0AC
     L2_2(L3_2)
-    A0_2[7] = nil
-    A0_2[10] = 0
+    self[7] = nil
+    self[10] = 0
   end
 end
 

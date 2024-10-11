@@ -1,3 +1,7 @@
+---@alias C2B98A3E47B9728D8 main_ajito_ui_AjitoUIPresenter
+
+---@class main_ajito_ui_AjitoUIPresenter : C2B98A3E47B9728D8_prototype
+---@field prototype C2B98A3E47B9728D8_prototype
 L68_1 = _ENV["C2B98A3E47B9728D8"]
 L69_1 = "new"
 
@@ -110,24 +114,19 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2B98A3E47B9728D8"]
 L69_1 = "__name__"
 L70_1 = "C2B98A3E47B9728D8"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B98A3E47B9728D8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B98A3E47B9728D8"]["prototype"]
-L69_1 = "FA0E55F2A2CDC1A38"
-
-function L70_1(A0_2)
+---@class C2B98A3E47B9728D8_prototype
+C2B98A3E47B9728D8_prototype = L15_1()
+C2B98A3E47B9728D8.prototype = C2B98A3E47B9728D8_prototype
+--- main.ajito.ui.AjitoUIPresenter.bindUI
+function C2B98A3E47B9728D8_prototype:FA0E55F2A2CDC1A38()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L1_2 = L1_2[1]
   L2_2 = L1_2
   L1_2 = L1_2.F8D199D645E588A83
   L3_2 = L55_1
-  L4_2 = A0_2
-  L5_2 = A0_2.FC9D8C0104E7B8CAC
+  L4_2 = self
+  L5_2 = self.FC9D8C0104E7B8CAC
   L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2, L5_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
   L1_2 = CDBCB33E53E70ED25
@@ -137,21 +136,18 @@ function L70_1(A0_2)
   L1_2 = L1_2.F8D199D645E588A83
   L3_2 = CF4336E2049EB153D
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F7342E1C4AFFC47E4
+  L5_2 = self
+  L6_2 = self.F7342E1C4AFFC47E4
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B98A3E47B9728D8"]["prototype"]
-L69_1 = "FC9D8C0104E7B8CAC"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.ui.AjitoUIPresenter.changedKOCount
+function C2B98A3E47B9728D8_prototype:FC9D8C0104E7B8CAC(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   if nil ~= L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F5E756D25D8918E82
     L4_2 = A1_2
@@ -162,7 +158,7 @@ function L70_1(A0_2, A1_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   if A1_2 == L2_2 then
     L2_2 = CDBCB33E53E70ED25
     L2_2 = L2_2.S511DEF29717431A3
@@ -176,15 +172,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B98A3E47B9728D8"]["prototype"]
-L69_1 = "F7342E1C4AFFC47E4"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.ui.AjitoUIPresenter.danPokemonFainted
+function C2B98A3E47B9728D8_prototype:F7342E1C4AFFC47E4(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if not L2_2 then
-    L2_2 = A0_2[4]
+    L2_2 = self[4]
     L2_2 = L2_2[1]
     L4_2 = L2_2
     L3_2 = L2_2.F81B8C6C6CA6DA6AD
@@ -194,32 +187,29 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B98A3E47B9728D8"]["prototype"]
-L69_1 = "F3FA01713288FF891"
-
-function L70_1(A0_2)
+--- main.ajito.ui.AjitoUIPresenter.StartAsync
+function C2B98A3E47B9728D8_prototype:F3FA01713288FF891()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.F5C3166B19809CDEB
   L1_2(L2_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   if nil ~= L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.FA23D39922B76B247
     L3_2 = true
     L1_2(L2_2, L3_2)
   end
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   if nil ~= L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.FA23D39922B76B247
     L3_2 = true
     L1_2(L2_2, L3_2)
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L3_2 = L1_2
     L2_2 = L1_2.FA23D39922B76B247
     L4_2 = true
@@ -234,47 +224,38 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B98A3E47B9728D8"]["prototype"]
-L69_1 = "F88204026DBA3A87B"
-
-function L70_1(A0_2)
+--- main.ajito.ui.AjitoUIPresenter.PlayClearAnimAsync
+function C2B98A3E47B9728D8_prototype:F88204026DBA3A87B()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.FA1069ADA9C50D410
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B98A3E47B9728D8"]["prototype"]
-L69_1 = "FFC5D610FA6D8D1A8"
-
-function L70_1(A0_2)
+--- main.ajito.ui.AjitoUIPresenter.FFC5D610FA6D8D1A8
+function C2B98A3E47B9728D8_prototype:FFC5D610FA6D8D1A8()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.FB39B265AAA237182
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B98A3E47B9728D8"]["prototype"]
-L69_1 = "F12B234D43C1340D1"
-
-function L70_1(A0_2)
+--- main.ajito.ui.AjitoUIPresenter.CloseUI
+function C2B98A3E47B9728D8_prototype:F12B234D43C1340D1()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   if nil ~= L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.FA23D39922B76B247
     L3_2 = false
     L1_2(L2_2, L3_2)
   end
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   if nil ~= L1_2 then
-    L1_2 = A0_2[2]
+    L1_2 = self[2]
     L2_2 = L1_2
     L1_2 = L1_2.FA23D39922B76B247
     L3_2 = false

@@ -1,3 +1,7 @@
+---@alias C1312348E64426118 main_ui_dressup_dress_view_main_DressupUIDressHatSequence
+
+---@class main_ui_dressup_dress_view_main_DressupUIDressHatSequence : C1312348E64426118_prototype
+---@field prototype C1312348E64426118_prototype
 L55_1 = _ENV
 L56_1 = "C1312348E64426118"
 L57_1 = L15_1
@@ -34,32 +38,24 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1312348E64426118"]
 L69_1 = "__name__"
 L70_1 = "C1312348E64426118"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1312348E64426118"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1312348E64426118"]["prototype"]
-L69_1 = "F8ECAA28B9538110D"
-
-function L70_1(A0_2)
+---@class C1312348E64426118_prototype
+C1312348E64426118_prototype = L15_1()
+C1312348E64426118.prototype = C1312348E64426118_prototype
+--- main.ui.dressup.dress.view.main.DressupUIDressHatSequence.CreateCoroutine
+function C1312348E64426118_prototype:F8ECAA28B9538110D()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.FB5CBD11D61FF6D6B
+  L3_2 = self
+  L4_2 = self.FB5CBD11D61FF6D6B
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "dressupUI_dress_hat_sequence"
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1312348E64426118"]["prototype"]
-L69_1 = "FB5CBD11D61FF6D6B"
-
-function L70_1(A0_2)
+--- main.ui.dressup.dress.view.main.DressupUIDressHatSequence.HatSequence
+function C1312348E64426118_prototype:FB5CBD11D61FF6D6B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fC8CEF9EF
@@ -100,7 +96,7 @@ function L70_1(A0_2)
   L5_2 = E048715B79C692C5A
   L5_2 = L5_2.System
   L4_2(L5_2)
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.FE0EBB34B8A1B41AB
   L6_2 = true

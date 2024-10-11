@@ -1,3 +1,7 @@
+---@alias CC2AF9F1B565172C1 main_ui_dressup_preset_DressupPresetData
+
+---@class main_ui_dressup_preset_DressupPresetData : CC2AF9F1B565172C1_prototype
+---@field prototype CC2AF9F1B565172C1_prototype
 L55_1 = _ENV
 L56_1 = "C4BABC572F58AE098"
 L57_1 = L15_1
@@ -38,11 +42,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4BABC572F58AE098"]
 L69_1 = "__name__"
 L70_1 = "C4BABC572F58AE098"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4BABC572F58AE098"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CC2AF9F1B565172C1_prototype
+CC2AF9F1B565172C1_prototype = L15_1()
+CC2AF9F1B565172C1.prototype = CC2AF9F1B565172C1_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4BABC572F58AE098"]["prototype"]
 L69_1 = _ENV["C4BABC572F58AE098"]

@@ -1,3 +1,5 @@
+---@class C6720A4733E4FC9F4 : C6720A4733E4FC9F4_prototype
+---@field prototype C6720A4733E4FC9F4_prototype
 L55_1 = _ENV
 L56_1 = "C6720A4733E4FC9F4"
 L57_1 = L15_1
@@ -35,17 +37,11 @@ L69_1 = "__name__"
 L70_1 = "C6720A4733E4FC9F4"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6720A4733E4FC9F4"]
-L69_1 = "__interfaces__"
-L70_1 = {}
-L68_1 = _ENV["C6720A4733E4FC9F4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6720A4733E4FC9F4"]["prototype"]
-L69_1 = "F8474274F62D3A3FB"
-
-function L70_1(A0_2, A1_2)
+L69_1 = "__inte---@class C6720A4733E4FC9F4_prototype
+C6720A4733E4FC9F4_prototype = L15_1()
+C6720A4733E4FC9F4.prototype = C6720A4733E4FC9F4_prototype
+--- C6720A4733E4FC9F4.Apply
+function C6720A4733E4FC9F4_prototype:F8474274F62D3A3FB(A1_2)
   return A1_2
 end
 

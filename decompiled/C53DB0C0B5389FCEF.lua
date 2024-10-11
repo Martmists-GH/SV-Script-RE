@@ -1,7 +1,6 @@
-L68_1 = _ENV["C53DB0C0B5389FCEF"]
-L69_1 = "new"
-
-function L70_1()
+---@class C53DB0C0B5389FCEF : C53DB0C0B5389FCEF_prototype
+---@field prototype C53DB0C0B5389FCEF_prototype
+function C53DB0C0B5389FCEF.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C53DB0C0B5389FCEF
@@ -16,22 +15,15 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53DB0C0B5389FCEF"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C53DB0C0B5389FCEF
+function C53DB0C0B5389FCEF.super(A0_2)
   local L1_2
   L1_2 = L47_1.new
   L1_2 = L1_2()
   A0_2[1] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53DB0C0B5389FCEF"]
-L69_1 = "__name__"
-L70_1 = "C53DB0C0B5389FCEF"
-L68_1[L69_1] = L70_1
+C53DB0C0B5389FCEF.__name__ = "C53DB0C0B5389FCEF"
 L68_1 = _ENV["C53DB0C0B5389FCEF"]
 L69_1 = "__interfaces__"
 L70_1 = {}
@@ -50,11 +42,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53DB0C0B5389FCEF"]
-L69_1 = "S2CBD3E943F712579"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C53DB0C0B5389FCEF.FieldNpcSwitcher
+function C53DB0C0B5389FCEF.S2CBD3E943F712579(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = C53DB0C0B5389FCEF
   L3_2 = L3_2.S264F26F6894F3392
@@ -147,18 +136,13 @@ L68_1 = "C53DB0C0B5389FCEF"
 L68_1 = L25_1[L68_1]
 L69_1 = "S2CBD3E943F712579"
 L70_1 = _ENV["C53DB0C0B5389FCEF"]["S2CBD3E943F712579"]
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53DB0C0B5389FCEF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53DB0C0B5389FCEF"]["prototype"]
-L69_1 = "F7A3D296366E973CB"
-
-function L70_1(A0_2, A1_2)
+---@class C53DB0C0B5389FCEF_prototype
+C53DB0C0B5389FCEF_prototype = L15_1()
+C53DB0C0B5389FCEF.prototype = C53DB0C0B5389FCEF_prototype
+--- C53DB0C0B5389FCEF.Initialize
+function C53DB0C0B5389FCEF_prototype:F7A3D296366E973CB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = 7
   L4_2 = nil
   L5_2 = C7080DFBD10FA6E9E
@@ -185,7 +169,7 @@ function L70_1(A0_2, A1_2)
   L7_2.func = L8_2
   L6_2 = L6_2(L7_2)
   L7_2 = L5_2[3]
-  L8_2 = A0_2
+  L8_2 = self
   L9_2 = L7_2.h
   L9_2[L8_2] = L6_2
   L9_2 = L7_2.k
@@ -232,11 +216,8 @@ function L70_1(A0_2, A1_2)
   L9_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53DB0C0B5389FCEF"]["prototype"]
-L69_1 = "F0AC6F7F3F8855B6A"
-
-function L70_1(A0_2)
+--- C53DB0C0B5389FCEF.Evaluate
+function C53DB0C0B5389FCEF_prototype:F0AC6F7F3F8855B6A()
   local L1_2, L2_2
   L1_2 = C318B7B8D53B00519
   L1_2 = L1_2.S264F26F6894F3392
@@ -245,11 +226,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53DB0C0B5389FCEF"]["prototype"]
-L69_1 = "F57509CE487BC38F8"
-
-function L70_1(A0_2, A1_2)
+--- C53DB0C0B5389FCEF.setRange
+function C53DB0C0B5389FCEF_prototype:F57509CE487BC38F8(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = cD0B0A4F1
   L2_2 = L2_2.f101D811F
@@ -268,11 +246,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53DB0C0B5389FCEF"]["prototype"]
-L69_1 = "F2188AAC2A5D1C9AA"
-
-function L70_1(A0_2, A1_2)
+--- C53DB0C0B5389FCEF.setMaxCreateCount
+function C53DB0C0B5389FCEF_prototype:F2188AAC2A5D1C9AA(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = cD0B0A4F1
   L2_2 = L2_2.f101D811F
@@ -291,11 +266,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53DB0C0B5389FCEF"]["prototype"]
-L69_1 = "FB0CF607765A9E5FC"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C53DB0C0B5389FCEF.FB0CF607765A9E5FC
+function C53DB0C0B5389FCEF_prototype:FB0CF607765A9E5FC(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if A2_2 then
     L3_2 = c2EA22DC9
@@ -343,16 +315,13 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53DB0C0B5389FCEF"]["prototype"]
-L69_1 = "F0B35241E316FCCAB"
-
-function L70_1(A0_2, A1_2)
+--- C53DB0C0B5389FCEF.updateTargetScene
+function C53DB0C0B5389FCEF_prototype:F0B35241E316FCCAB(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = A1_2
   L2_2 = A1_2.f462C9B70
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L5_2 = L2_2
   L4_2 = L2_2.fE9C29DA1
   L4_2 = L4_2(L5_2)
@@ -367,13 +336,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C53DB0C0B5389FCEF"]["prototype"]
-L69_1 = "F9900115A5D166A1D"
-
-function L70_1(A0_2)
+--- C53DB0C0B5389FCEF.IsTargetSceneSetup
+function C53DB0C0B5389FCEF_prototype:F9900115A5D166A1D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L3_2 = L1_2
   L2_2 = L1_2.keys
   L2_2 = L2_2(L3_2)
@@ -399,7 +365,7 @@ function L70_1(A0_2)
     L9_2 = L6_2
     L7_2 = L7_2(L8_2, L9_2)
     if L7_2 then
-      L7_2 = A0_2[1]
+      L7_2 = self[1]
       L8_2 = L7_2
       L7_2 = L7_2.remove
       L9_2 = L4_2

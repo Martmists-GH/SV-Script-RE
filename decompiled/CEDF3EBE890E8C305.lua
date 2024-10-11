@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CEDF3EBE890E8C305"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "__name__"
-L70_1 = "CEDF3EBE890E8C305"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S9DEB10F3B940A275"
+---@alias CEDF3EBE890E8C305 main_event_command_PokemonMotionCommand
 
-function L70_1(A0_2, A1_2, A2_2)
+---@class main_event_command_PokemonMotionCommand
+CEDF3EBE890E8C305 = L15_1()
+CEDF3EBE890E8C305.new = {}
+CEDF3EBE890E8C305.__name__ = "CEDF3EBE890E8C305"
+--- main.event.command.PokemonMotionCommand.MotionPlay
+function CEDF3EBE890E8C305.S9DEB10F3B940A275(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = false
@@ -34,11 +25,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S8687DB3D7972D192"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.PokemonMotionCommand.ObjMotionPlay
+function CEDF3EBE890E8C305.S8687DB3D7972D192(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2
   if nil == A2_2 then
     A2_2 = false
@@ -412,11 +400,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "SDA3B53226C050C3B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.PokemonMotionCommand.SDA3B53226C050C3B
+function CEDF3EBE890E8C305.SDA3B53226C050C3B(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A2_2 then
     A2_2 = false
@@ -436,11 +421,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S6796E96142BFB0D6"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.PokemonMotionCommand.S6796E96142BFB0D6
+function CEDF3EBE890E8C305.S6796E96142BFB0D6(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2
   if nil == A2_2 then
     A2_2 = false
@@ -817,11 +799,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S3ABE3BD75A42B659"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PokemonMotionCommand.MotionStateWait
+function CEDF3EBE890E8C305.S3ABE3BD75A42B659(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -836,11 +815,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "SF72B18CFE531F240"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PokemonMotionCommand.ObjMotionStateWait
+function CEDF3EBE890E8C305.SF72B18CFE531F240(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   if nil == A0_2 then
     return
@@ -1065,11 +1041,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "SF8F6FEB8146F5E3E"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.MotionWait
+function CEDF3EBE890E8C305.SF8F6FEB8146F5E3E(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -1083,11 +1056,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "SA1BE6578D07E12D1"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.ObjMotionWait
+function CEDF3EBE890E8C305.SA1BE6578D07E12D1(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   if nil == A0_2 then
     return
@@ -1226,11 +1196,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S6EFB6BD692E0CEBF"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PokemonMotionCommand.MotionStop
+function CEDF3EBE890E8C305.S6EFB6BD692E0CEBF(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   if nil == A1_2 then
     A1_2 = false
@@ -1248,11 +1215,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S95BB0056059BA2A8"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PokemonMotionCommand.ObjMotionStop
+function CEDF3EBE890E8C305.S95BB0056059BA2A8(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   if nil == A1_2 then
     A1_2 = false
@@ -1436,11 +1400,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S2A10F66CB039ABE6"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.MotionReset
+function CEDF3EBE890E8C305.S2A10F66CB039ABE6(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -1454,11 +1415,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S39B6D7628AC18E0F"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.ObjMotionReset
+function CEDF3EBE890E8C305.S39B6D7628AC18E0F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A0_2 then
     return
@@ -1534,11 +1492,8 @@ function L70_1(A0_2)
   L7_2(L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S96EA28F400597FA0"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.Reset
+function CEDF3EBE890E8C305.S96EA28F400597FA0(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = C4B092ECAC3E586CC
   L1_2 = L1_2.SC8223E31D3163519
@@ -1636,11 +1591,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S9D64CCB43B1BBF2F"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.OpenEyes
+function CEDF3EBE890E8C305.S9D64CCB43B1BBF2F(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -1655,11 +1607,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S24B9812469D21D50"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.ObjOpenEyes
+function CEDF3EBE890E8C305.S24B9812469D21D50(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CEDF3EBE890E8C305
   L1_2 = L1_2.S6972D4672527EDC5
@@ -1668,11 +1617,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "SE79919E070BB04BD"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.CloseEyes
+function CEDF3EBE890E8C305.SE79919E070BB04BD(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -1687,11 +1633,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S57F8CE079EDF3704"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.ObjCloseEyes
+function CEDF3EBE890E8C305.S57F8CE079EDF3704(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CEDF3EBE890E8C305
   L1_2 = L1_2.S6972D4672527EDC5
@@ -1700,11 +1643,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S8F574D1DB10F8C32"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.ResetEyes
+function CEDF3EBE890E8C305.S8F574D1DB10F8C32(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -1719,11 +1659,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S9D07DDA680E91E73"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.ObjResetEyes
+function CEDF3EBE890E8C305.S9D07DDA680E91E73(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CEDF3EBE890E8C305
   L1_2 = L1_2.S6972D4672527EDC5
@@ -1732,11 +1669,8 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S6972D4672527EDC5"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PokemonMotionCommand.setEyeInt
+function CEDF3EBE890E8C305.S6972D4672527EDC5(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   if nil == A0_2 then
     return
@@ -1778,11 +1712,8 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "SFA2D843BA293EB3F"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PokemonMotionCommand.BoolValueOff
+function CEDF3EBE890E8C305.SFA2D843BA293EB3F(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if nil == A0_2 then
     L2_2 = false
@@ -1885,11 +1816,8 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "SE6FCCE506EE971F8"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.LegendDemoOff
+function CEDF3EBE890E8C305.SE6FCCE506EE971F8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   if nil == A0_2 then
     L1_2 = false
@@ -1986,11 +1914,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S07743EAF8442F662"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.IsPlayingWaitMotion
+function CEDF3EBE890E8C305.S07743EAF8442F662(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = cE35B3EB3
@@ -2041,11 +1966,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "SEE6738E890EC4A8F"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.PokemonMotionCommand.SetFaceState
+function CEDF3EBE890E8C305.SEE6738E890EC4A8F(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CEDF3EBE890E8C305
   L3_2 = L3_2.S3808054636436824
@@ -2058,11 +1980,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S5C18359B5FB40EF4"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PokemonMotionCommand.SetFaceStateBoth
+function CEDF3EBE890E8C305.S5C18359B5FB40EF4(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CEDF3EBE890E8C305
   L2_2 = L2_2.S3808054636436824
@@ -2075,11 +1994,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "SE2B901D4B76EC653"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PokemonMotionCommand.ObjSetFaceStateBoth
+function CEDF3EBE890E8C305.SE2B901D4B76EC653(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CEDF3EBE890E8C305
   L2_2 = L2_2.S3808054636436824
@@ -2089,11 +2005,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S3808054636436824"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.PokemonMotionCommand.ObjSetFaceState
+function CEDF3EBE890E8C305.S3808054636436824(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A0_2 then
     return
@@ -2168,11 +2081,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S5663FF64D91AEE94"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.S5663FF64D91AEE94
+function CEDF3EBE890E8C305.S5663FF64D91AEE94(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -2187,11 +2097,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S7B32C3D95A3F8C93"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.S7B32C3D95A3F8C93
+function CEDF3EBE890E8C305.S7B32C3D95A3F8C93(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   if nil == A0_2 then
     return
@@ -2310,11 +2217,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "SE6BDFA5CE8ABA5AE"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.SE6BDFA5CE8ABA5AE
+function CEDF3EBE890E8C305.SE6BDFA5CE8ABA5AE(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CDCBFD50A277E546D
   L1_2 = L1_2.S0C6378C0E23B592D
@@ -2329,11 +2233,8 @@ function L70_1(A0_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S96EAAF545A1330D7"
-
-function L70_1(A0_2)
+--- main.event.command.PokemonMotionCommand.S96EAAF545A1330D7
+function CEDF3EBE890E8C305.S96EAAF545A1330D7(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CEDF3EBE890E8C305
   L1_2 = L1_2.S34869F557995CFF7
@@ -2367,11 +2268,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S9A18A16452619DE0"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PokemonMotionCommand.S9A18A16452619DE0
+function CEDF3EBE890E8C305.S9A18A16452619DE0(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CDCBFD50A277E546D
   L2_2 = L2_2.S0C6378C0E23B592D
@@ -2387,11 +2285,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "SC2E5AD0926C6FA8D"
-
-function L70_1(A0_2, A1_2)
+--- main.event.command.PokemonMotionCommand.SC2E5AD0926C6FA8D
+function CEDF3EBE890E8C305.SC2E5AD0926C6FA8D(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CEDF3EBE890E8C305
   L2_2 = L2_2.S34869F557995CFF7
@@ -2401,11 +2296,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEDF3EBE890E8C305"]
-L69_1 = "S34869F557995CFF7"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.event.command.PokemonMotionCommand.S34869F557995CFF7
+function CEDF3EBE890E8C305.S34869F557995CFF7(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A0_2 then
     return

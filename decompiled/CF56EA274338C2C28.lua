@@ -1,3 +1,7 @@
+---@alias CF56EA274338C2C28 main_event_general_shop_base_BootShopBase
+
+---@class main_event_general_shop_base_BootShopBase : CF56EA274338C2C28_prototype
+---@field prototype CF56EA274338C2C28_prototype
 L55_1 = _ENV
 L56_1 = "CF56EA274338C2C28"
 L57_1 = L15_1
@@ -52,31 +56,26 @@ L69_1 = "__interfaces__"
 L70_1 = {}
 L71_1 = CC816F24BFEF8251B
 L70_1[1] = L71_1
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF56EA274338C2C28"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF56EA274338C2C28"]["prototype"]
-L69_1 = "F84C84FA1590CD2A3"
-
-function L70_1(A0_2)
+---@class CF56EA274338C2C28_prototype
+CF56EA274338C2C28_prototype = L15_1()
+CF56EA274338C2C28.prototype = CF56EA274338C2C28_prototype
+--- main.event.general.shop.base.BootShopBase.mainBodyFinish
+function CF56EA274338C2C28_prototype:F84C84FA1590CD2A3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[35]
+  L1_2 = self[35]
   if nil == L1_2 then
     return
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   if nil ~= L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.isDoor
     if nil ~= L1_2 then
       L1_2 = L58_1
-      L2_2 = A0_2[32]
+      L2_2 = self[32]
       L2_2 = L2_2.isDoor
       L1_2 = L1_2(L2_2)
-      A0_2[36] = L1_2
+      self[36] = L1_2
     end
   end
   L1_2 = nil
@@ -86,7 +85,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -94,7 +93,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -124,19 +123,16 @@ function L70_1(A0_2)
   L8_2.shopId = true
   L8_2.isDoor = true
   L7_2.__fields__ = L8_2
-  L8_2 = A0_2[35]
+  L8_2 = self[35]
   L7_2.shopId = L8_2
-  L8_2 = A0_2[36]
+  L8_2 = self[36]
   L7_2.isDoor = L8_2
   L6_2, L7_2, L8_2 = L6_2(L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF56EA274338C2C28"]["prototype"]
-L69_1 = "FCB3B1A213D375E75"
-
-function L70_1(A0_2)
+--- main.event.general.shop.base.BootShopBase.isImportant
+function CF56EA274338C2C28_prototype:FCB3B1A213D375E75()
   local L1_2
   L1_2 = true
   return L1_2
@@ -499,7 +495,7 @@ L68_1(L69_1, L70_1)
 L68_1 = CA35DA715062DCC45
 L69_1 = "new"
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+function L70_1(self, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = CA35DA715062DCC45
@@ -510,7 +506,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L5_2 = CA35DA715062DCC45
   L5_2 = L5_2.super
   L6_2 = L4_2
-  L7_2 = A0_2
+  L7_2 = self
   L8_2 = A1_2
   L9_2 = A2_2
   L10_2 = A3_2

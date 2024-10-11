@@ -1,31 +1,19 @@
-L55_1 = _ENV
-L56_1 = "C9AA363B3CCC264AA"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "__name__"
-L70_1 = "C9AA363B3CCC264AA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "S1877DC26B9B0F18D"
+---@alias C9AA363B3CCC264AA main_event_base_manager_ScenarioProgressManager
 
-function L70_1()
+---@class main_event_base_manager_ScenarioProgressManager
+C9AA363B3CCC264AA = L15_1()
+C9AA363B3CCC264AA.new = {}
+C9AA363B3CCC264AA.__name__ = "C9AA363B3CCC264AA"
+--- main.event.base.manager.ScenarioProgressManager.IsInitialized
+function C9AA363B3CCC264AA.S1877DC26B9B0F18D()
   local L0_2, L1_2
   L0_2 = C9AA363B3CCC264AA
   L0_2 = L0_2.SD7257C7F555E07AB
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "S7A3D296366E973CB"
-
-function L70_1()
+--- main.event.base.manager.ScenarioProgressManager.Initialize
+function C9AA363B3CCC264AA.S7A3D296366E973CB()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
   L0_2 = C9AA363B3CCC264AA
   L0_2 = L0_2.SF6FB800603736292
@@ -400,11 +388,8 @@ function L70_1()
   L5_2.SD7257C7F555E07AB = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "SA5B8258582A90EF3"
-
-function L70_1(A0_2)
+--- main.event.base.manager.ScenarioProgressManager.IsFinished
+function C9AA363B3CCC264AA.SA5B8258582A90EF3(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.SF6FB800603736292
@@ -430,11 +415,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "S69FAE4492D043A42"
-
-function L70_1(A0_2)
+--- main.event.base.manager.ScenarioProgressManager.S69FAE4492D043A42
+function C9AA363B3CCC264AA.S69FAE4492D043A42(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.SF6FB800603736292
@@ -460,11 +442,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "SE7175DE65882221F"
-
-function L70_1(A0_2)
+--- main.event.base.manager.ScenarioProgressManager.CanStart
+function C9AA363B3CCC264AA.SE7175DE65882221F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.SF6FB800603736292
@@ -501,11 +480,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "SF005854C33C1CD8E"
-
-function L70_1(A0_2)
+--- main.event.base.manager.ScenarioProgressManager.IsStarted
+function C9AA363B3CCC264AA.SF005854C33C1CD8E(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.SF6FB800603736292
@@ -531,11 +507,8 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "S9ACD1CC9C7683E7D"
-
-function L70_1(A0_2)
+--- main.event.base.manager.ScenarioProgressManager.Proceed
+function C9AA363B3CCC264AA.S9ACD1CC9C7683E7D(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   while nil ~= A0_2 do
     L1_2 = C9AA363B3CCC264AA
@@ -735,11 +708,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "S96EA28F400597FA0"
-
-function L70_1(A0_2)
+--- main.event.base.manager.ScenarioProgressManager.Reset
+function C9AA363B3CCC264AA.S96EA28F400597FA0(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = L16_1
   L2_2 = {}
@@ -877,11 +847,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "SFC58215F749CD4FB"
-
-function L70_1(A0_2, A1_2)
+--- main.event.base.manager.ScenarioProgressManager.SFC58215F749CD4FB
+function C9AA363B3CCC264AA.SFC58215F749CD4FB(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = 0
   L3_2 = A0_2.next
@@ -913,11 +880,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "S9EC13538F558D0F4"
-
-function L70_1(A0_2)
+--- main.event.base.manager.ScenarioProgressManager.ForEachScenarioProgress
+function C9AA363B3CCC264AA.S9EC13538F558D0F4(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.SF6FB800603736292
@@ -944,11 +908,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "SDC83386A1A3A2990"
-
-function L70_1(A0_2)
+--- main.event.base.manager.ScenarioProgressManager.ForceStartEvent
+function C9AA363B3CCC264AA.SDC83386A1A3A2990(A0_2)
   local L1_2, L2_2
   if nil ~= A0_2 then
     L1_2 = C9AA363B3CCC264AA
@@ -961,11 +922,8 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "S56C609EB36B5EFE8"
-
-function L70_1(A0_2)
+--- main.event.base.manager.ScenarioProgressManager.S56C609EB36B5EFE8
+function C9AA363B3CCC264AA.S56C609EB36B5EFE8(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.SF6FB800603736292
@@ -1008,11 +966,8 @@ function L70_1(A0_2)
   L3_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "S0E50A8B61FEFFA71"
-
-function L70_1()
+--- main.event.base.manager.ScenarioProgressManager.S0E50A8B61FEFFA71
+function C9AA363B3CCC264AA.S0E50A8B61FEFFA71()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L0_2 = C9AA363B3CCC264AA
   L0_2 = L0_2.S94FE9FC3C7735EFD
@@ -1092,11 +1047,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "S783DA31198C4249A"
-
-function L70_1(A0_2)
+--- main.event.base.manager.ScenarioProgressManager.IsConditionSatisfied
+function C9AA363B3CCC264AA.S783DA31198C4249A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C9AA363B3CCC264AA
   L1_2 = L1_2.S3FF006AE3A0CBDEA
@@ -1143,11 +1095,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9AA363B3CCC264AA"]
-L69_1 = "S3FF006AE3A0CBDEA"
-
-function L70_1(A0_2)
+--- main.event.base.manager.ScenarioProgressManager.S3FF006AE3A0CBDEA
+function C9AA363B3CCC264AA.S3FF006AE3A0CBDEA(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = A0_2.openVersion
   if 0 == L1_2 then

@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "C6B2AEDFBE4CC03CF"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C6B2AEDFBE4CC03CF"]
-L69_1 = "new"
-
-function L70_1(A0_2, A1_2)
+---@class C6B2AEDFBE4CC03CF : C6B2AEDFBE4CC03CF_prototype
+---@field prototype C6B2AEDFBE4CC03CF_prototype
+C6B2AEDFBE4CC03CF = L15_1()
+function C6B2AEDFBE4CC03CF.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = C6B2AEDFBE4CC03CF
@@ -23,11 +18,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6B2AEDFBE4CC03CF"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 C6B2AEDFBE4CC03CF
+function C6B2AEDFBE4CC03CF.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   A0_2[29] = nil
   L3_2 = C57802178241C0D20
@@ -38,11 +30,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6B2AEDFBE4CC03CF"]
-L69_1 = "__name__"
-L70_1 = "C6B2AEDFBE4CC03CF"
-L68_1[L69_1] = L70_1
+C6B2AEDFBE4CC03CF.__name__ = "C6B2AEDFBE4CC03CF"
 L68_1 = _ENV["C6B2AEDFBE4CC03CF"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -72,21 +60,16 @@ function L70_1()
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6B2AEDFBE4CC03CF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6B2AEDFBE4CC03CF"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C6B2AEDFBE4CC03CF_prototype
+C6B2AEDFBE4CC03CF_prototype = L15_1()
+C6B2AEDFBE4CC03CF.prototype = C6B2AEDFBE4CC03CF_prototype
+--- C6B2AEDFBE4CC03CF.onCreate
+function C6B2AEDFBE4CC03CF_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C57802178241C0D20
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC87C731D11C58354
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = L16_1
   L2_2 = {}
@@ -115,23 +98,20 @@ function L70_1(A0_2)
       L1_2.strParams = L2_2
     end
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2[26] = L1_2
   L2_2 = CB90497FB1A1A942B
   L2_2 = L2_2.S4D388A329B4BF9DC
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L2_2(L3_2)
   L2_2 = CB90497FB1A1A942B
   L2_2 = L2_2.S5354E2DCECC24613
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6B2AEDFBE4CC03CF"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2)
+--- C6B2AEDFBE4CC03CF.onInitialize
+function C6B2AEDFBE4CC03CF_prototype:F239C282ED3F82676()
   local L1_2, L2_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.SDE9EF3CFD428417D
@@ -142,17 +122,17 @@ function L70_1(A0_2)
   L1_2 = C8A6789B67ADFFABB
   L1_2 = L1_2.new
   L1_2 = L1_2()
-  A0_2[29] = L1_2
+  self[29] = L1_2
   while true do
-    L1_2 = A0_2[29]
+    L1_2 = self[29]
     L2_2 = L1_2
     L1_2 = L1_2.F15889E0451386164
     L1_2 = L1_2(L2_2)
     if L1_2 then
       break
     end
-    L2_2 = A0_2
-    L1_2 = A0_2.F3C013F9865E4F2FA
+    L2_2 = self
+    L1_2 = self.F3C013F9865E4F2FA
     L1_2 = L1_2(L2_2)
     if L1_2 then
       L1_2 = 0
@@ -170,17 +150,14 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6B2AEDFBE4CC03CF"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- C6B2AEDFBE4CC03CF.onUpdate
+function C6B2AEDFBE4CC03CF_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F3C013F9865E4F2FA
+  L2_2 = self
+  L1_2 = self.F3C013F9865E4F2FA
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L1_2 = A0_2[29]
+    L1_2 = self[29]
     L2_2 = L1_2
     L1_2 = L1_2.FA9638700399A5F3B
     L1_2 = L1_2(L2_2)
@@ -195,29 +172,23 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6B2AEDFBE4CC03CF"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- C6B2AEDFBE4CC03CF.onFinished
+function C6B2AEDFBE4CC03CF_prototype:F68499476069C0B1E()
   local L1_2, L2_2
   L1_2 = C57802178241C0D20
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F68499476069C0B1E
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6B2AEDFBE4CC03CF"]["prototype"]
-L69_1 = "F3C013F9865E4F2FA"
-
-function L70_1(A0_2)
+--- C6B2AEDFBE4CC03CF.F3C013F9865E4F2FA
+function C6B2AEDFBE4CC03CF_prototype:F3C013F9865E4F2FA()
   local L1_2
   L1_2 = C6B2AEDFBE4CC03CF
   L1_2 = L1_2.S3C188D9688B3B3B3
   if not L1_2 then
-    L1_2 = A0_2[18]
+    L1_2 = self[18]
     return L1_2
   else
     L1_2 = true

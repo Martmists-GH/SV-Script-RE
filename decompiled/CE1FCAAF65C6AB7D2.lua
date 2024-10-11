@@ -1,3 +1,7 @@
+---@alias CE1FCAAF65C6AB7D2 main_field_behaviour_scenario_main_champion_gym_mushi_GymMushiPokeOliveHappyEndlessState
+
+---@class main_field_behaviour_scenario_main_champion_gym_mushi_GymMushiPokeOliveHappyEndlessState : CE1FCAAF65C6AB7D2_prototype
+---@field prototype CE1FCAAF65C6AB7D2_prototype
 L55_1 = _ENV
 L56_1 = "CE1FCAAF65C6AB7D2"
 L57_1 = L15_1
@@ -39,18 +43,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE1FCAAF65C6AB7D2"]
 L69_1 = "__name__"
 L70_1 = "CE1FCAAF65C6AB7D2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1FCAAF65C6AB7D2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1FCAAF65C6AB7D2"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CE1FCAAF65C6AB7D2_prototype
+CE1FCAAF65C6AB7D2_prototype = L15_1()
+CE1FCAAF65C6AB7D2.prototype = CE1FCAAF65C6AB7D2_prototype
+--- main.field.behaviour.scenario.main.champion.gym.mushi.GymMushiPokeOliveHappyEndlessState.onCreate
+function CE1FCAAF65C6AB7D2_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L1_2 = L1_2.owner
   L2_2 = L1_2
   L1_2 = L1_2.fB3CF1DEB
@@ -63,22 +62,19 @@ function L70_1(A0_2)
   if L2_2 == L3_2 then
     L2_2 = nil
   end
-  A0_2[5] = L2_2
+  self[5] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1FCAAF65C6AB7D2"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.GymMushiPokeOliveHappyEndlessState.onInitialize
+function CE1FCAAF65C6AB7D2_prototype:F239C282ED3F82676()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.F86A0FB324C31FB7B
   L3_2 = E1898AE800BCD6E76
   L3_2 = L3_2.Happy
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FAC93F8BEE25E2F74
   L3_2 = CE1FCAAF65C6AB7D2
@@ -86,18 +82,15 @@ function L70_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1FCAAF65C6AB7D2"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.GymMushiPokeOliveHappyEndlessState.onPreUpdate
+function CE1FCAAF65C6AB7D2_prototype:F1993A419B4083AE8(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F48728A2FF460547B
   L2_2 = L2_2(L3_2)
   if L2_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F86A0FB324C31FB7B
     L4_2 = E1898AE800BCD6E76
@@ -106,18 +99,15 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE1FCAAF65C6AB7D2"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.GymMushiPokeOliveHappyEndlessState.onTerminate
+function CE1FCAAF65C6AB7D2_prototype:F97D80368ACC86AEF()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FAC93F8BEE25E2F74
   L3_2 = 0
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FB009193A4192439D
   L3_2 = E1898AE800BCD6E76

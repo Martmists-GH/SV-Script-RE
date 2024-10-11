@@ -1,3 +1,5 @@
+---@class CAB40A722AECE4942 : CAB40A722AECE4942_prototype
+---@field prototype CAB40A722AECE4942_prototype
 L55_1 = _ENV
 L56_1 = "CAB40A722AECE4942"
 L57_1 = L15_1
@@ -69,77 +71,60 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CAB40A722AECE4942"]
 L69_1 = "__name__"
 L70_1 = "CAB40A722AECE4942"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB40A722AECE4942"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB40A722AECE4942"]["prototype"]
-L69_1 = "F44FF85A5D0910586"
-
-function L70_1(A0_2)
+---@class CAB40A722AECE4942_prototype
+CAB40A722AECE4942_prototype = L15_1()
+CAB40A722AECE4942.prototype = CAB40A722AECE4942_prototype
+--- CAB40A722AECE4942.get_Label
+function CAB40A722AECE4942_prototype:F44FF85A5D0910586()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L1_2 = L1_2[0]
   L1_2 = L1_2.label
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB40A722AECE4942"]["prototype"]
-L69_1 = "F50725C1A1A6FE872"
-
-function L70_1(A0_2, A1_2)
+--- CAB40A722AECE4942.set_Label
+function CAB40A722AECE4942_prototype:F50725C1A1A6FE872(A1_2)
   local L2_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[0]
   L2_2.label = A1_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[0]
   L2_2 = L2_2.label
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB40A722AECE4942"]["prototype"]
-L69_1 = "FDA483857ADAD175D"
-
-function L70_1(A0_2, A1_2)
+--- CAB40A722AECE4942.set_TextFile
+function CAB40A722AECE4942_prototype:FDA483857ADAD175D(A1_2)
   local L2_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[0]
   L2_2.textFile = A1_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[0]
   L2_2 = L2_2.textFile
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB40A722AECE4942"]["prototype"]
-L69_1 = "F2133218B41DE3DE0"
-
-function L70_1(A0_2, A1_2)
+--- CAB40A722AECE4942.set_WindowType
+function CAB40A722AECE4942_prototype:F2133218B41DE3DE0(A1_2)
   local L2_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[0]
   L2_2.windowType = A1_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L2_2 = L2_2[0]
   L2_2 = L2_2.windowType
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAB40A722AECE4942"]["prototype"]
-L69_1 = "F3579CCFB1EE99E71"
-
-function L70_1(A0_2)
+--- CAB40A722AECE4942.get_Option
+function CAB40A722AECE4942_prototype:F3579CCFB1EE99E71()
   local L1_2, L2_2
   L1_2 = CC85FA3EE862026B5
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   return L1_2(L2_2)
 end
 

@@ -1,3 +1,7 @@
+---@alias C18EBEB0531CEF4AC main_form_change_FormChangeCamera
+
+---@class main_form_change_FormChangeCamera : C18EBEB0531CEF4AC_prototype
+---@field prototype C18EBEB0531CEF4AC_prototype
 L55_1 = _ENV
 L56_1 = "C18EBEB0531CEF4AC"
 L57_1 = L15_1
@@ -88,68 +92,57 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C18EBEB0531CEF4AC"]
 L69_1 = "__name__"
 L70_1 = "C18EBEB0531CEF4AC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18EBEB0531CEF4AC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18EBEB0531CEF4AC"]["prototype"]
-L69_1 = "F7CD5FEDB7A083576"
-
-function L70_1(A0_2)
+---@class C18EBEB0531CEF4AC_prototype
+C18EBEB0531CEF4AC_prototype = L15_1()
+C18EBEB0531CEF4AC.prototype = C18EBEB0531CEF4AC_prototype
+--- main.form_change.FormChangeCamera.SetUp
+function C18EBEB0531CEF4AC_prototype:F7CD5FEDB7A083576()
   local L1_2, L2_2, L3_2
   L1_2 = C5196F2C433539EDA
   L1_2 = L1_2.SE9B0B6B3B6BBDF24
   L2_2 = "setUp_EggHatchCamera"
   L1_2(L2_2)
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.fD4E64AB7
   L3_2 = "camera_root"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[4] = L1_2
-  L1_2 = A0_2[2]
+  self[4] = L1_2
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.fD4E64AB7
   L3_2 = "Root_Camera"
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[3] = L1_2
+  self[3] = L1_2
   L1_2 = c467D18B0
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L1_2 = L1_2(L2_2)
-  A0_2[5] = L1_2
+  self[5] = L1_2
   L1_2 = CC704789D12A0E0F2
   L1_2 = L1_2.new
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L1_2 = L1_2(L2_2)
-  A0_2[17] = L1_2
+  self[17] = L1_2
   L1_2 = C18EBEB0531CEF4AC
-  L1_2.S7D1E199BBD384D72 = A0_2
+  L1_2.S7D1E199BBD384D72 = self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18EBEB0531CEF4AC"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.form_change.FormChangeCamera.Destroy
+function C18EBEB0531CEF4AC_prototype:F1C2AA00ADAC52EC5()
   local L1_2
-  A0_2[1] = nil
+  self[1] = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18EBEB0531CEF4AC"]["prototype"]
-L69_1 = "F9C2D59C44B3710AC"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.form_change.FormChangeCamera.FormChangeTransition
+function C18EBEB0531CEF4AC_prototype:F9C2D59C44B3710AC(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2
-  L4_2 = A0_2
+  L4_2 = self
   L5_2 = C5196F2C433539EDA
   L5_2 = L5_2.SE9B0B6B3B6BBDF24
   L6_2 = "FormChangeCameraTransition"
   L5_2(L6_2)
-  A0_2[27] = false
+  self[27] = false
   L5_2 = L10_1.select
   L6_2 = 2
   L8_2 = A2_2
@@ -161,18 +154,18 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L6_2 = 2 * L6_2
   L5_2 = L5_2 / L6_2
   L5_2 = L5_2 * 360.0
-  L6_2 = A0_2[13]
+  L6_2 = self[13]
   L5_2 = L5_2 + L6_2
-  A0_2[16] = L5_2
-  L5_2 = A0_2[16]
-  A0_2[15] = L5_2
-  L5_2 = A0_2[15]
-  A0_2[14] = L5_2
-  A0_2[22] = A1_2
+  self[16] = L5_2
+  L5_2 = self[16]
+  self[15] = L5_2
+  L5_2 = self[15]
+  self[14] = L5_2
+  self[22] = A1_2
   L5_2 = nil
   L6_2 = nil
   L7_2 = nil
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L10_2 = A1_2
   L9_2 = A1_2.f750133BA
   L9_2, L10_2, L11_2 = L9_2(L10_2)
@@ -185,7 +178,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L15_2 = L6_2
   L16_2 = L5_2
   L12_2(L13_2, L14_2, L15_2, L16_2)
-  L12_2 = A0_2[5]
+  L12_2 = self[5]
   L14_2 = A1_2
   L13_2 = A1_2.f16155D9E
   L13_2 = L13_2(L14_2)
@@ -199,17 +192,17 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L15_2 = L15_2()
   L16_2 = L15_2
   L15_2 = L15_2.f74CDFF75
-  L17_2 = A0_2[3]
+  L17_2 = self[3]
   L18_2 = true
   L15_2(L16_2, L17_2, L18_2)
-  L15_2 = A0_2[17]
+  L15_2 = self[17]
   L16_2 = L15_2
   L15_2 = L15_2.F7364C99F171973B4
-  L17_2 = A0_2[23]
+  L17_2 = self[23]
   L15_2 = L15_2(L16_2, L17_2)
   L16_2 = L15_2
   L15_2 = L15_2.F74C093E903CBE9F1
-  L17_2 = A0_2[24]
+  L17_2 = self[24]
   L15_2 = L15_2(L16_2, L17_2)
   L16_2 = L15_2
   L15_2 = L15_2.FE1B998C2DEC49E51
@@ -268,37 +261,34 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   L15_2(L16_2, L17_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18EBEB0531CEF4AC"]["prototype"]
-L69_1 = "F323DF22B4FB1F305"
-
-function L70_1(A0_2, A1_2)
+--- main.form_change.FormChangeCamera.FromCameraTransition
+function C18EBEB0531CEF4AC_prototype:F323DF22B4FB1F305(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2
-  A0_2[27] = true
-  A0_2[20] = false
+  L2_2 = self
+  self[27] = true
+  self[20] = false
   L3_2 = nil
   L4_2 = nil
   L5_2 = nil
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L7_2 = L6_2
   L6_2 = L6_2.f33A459EF
   L6_2, L7_2, L8_2 = L6_2(L7_2)
   L5_2 = L6_2
   L4_2 = L7_2
   L3_2 = L8_2
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L10_2 = L9_2
   L9_2 = L9_2.f40043336
   L9_2 = L9_2(L10_2)
-  L10_2 = A0_2[17]
+  L10_2 = self[17]
   L11_2 = L10_2
   L10_2 = L10_2.F7364C99F171973B4
-  L12_2 = A0_2[23]
+  L12_2 = self[23]
   L10_2 = L10_2(L11_2, L12_2)
   L11_2 = L10_2
   L10_2 = L10_2.F74C093E903CBE9F1
-  L12_2 = A0_2[24]
+  L12_2 = self[24]
   L10_2 = L10_2(L11_2, L12_2)
   L11_2 = L10_2
   L10_2 = L10_2.FE1B998C2DEC49E51
@@ -372,17 +362,14 @@ function L70_1(A0_2, A1_2)
   L10_2(L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18EBEB0531CEF4AC"]["prototype"]
-L69_1 = "F39E9D575CBA0DD4F"
-
-function L70_1(A0_2, A1_2)
+--- main.form_change.FormChangeCamera.DefultCameraTransition
+function C18EBEB0531CEF4AC_prototype:F39E9D575CBA0DD4F(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2
-  A0_2[21] = true
+  L2_2 = self
+  self[21] = true
   L3_2 = cD5675BA5
   L3_2 = L3_2.fFA44D7AF
-  L4_2 = A0_2[14]
+  L4_2 = self[14]
   L4_2 = L4_2 / 360.0
   L4_2 = L4_2 * 2
   L5_2 = L10_1.math
@@ -393,7 +380,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2)
   L4_2 = cD5675BA5
   L4_2 = L4_2.fFA44D7AF
-  L5_2 = A0_2[16]
+  L5_2 = self[16]
   L5_2 = L5_2 / 360.0
   L5_2 = L5_2 * 2
   L6_2 = L10_1.math
@@ -402,7 +389,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = 0
   L7_2 = 0
   L4_2 = L4_2(L5_2, L6_2, L7_2)
-  L5_2 = A0_2[17]
+  L5_2 = self[17]
   L6_2 = L5_2
   L5_2 = L5_2.F7364C99F171973B4
   L7_2 = 1
@@ -459,21 +446,18 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18EBEB0531CEF4AC"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.form_change.FormChangeCamera.Update
+function C18EBEB0531CEF4AC_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   L3_2 = L2_2
   L2_2 = L2_2.F3BC3E2DE6CE68A7D
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[27]
+  L2_2 = self[27]
   if not L2_2 then
-    L2_2 = A0_2[26]
-    L3_2 = A0_2[4]
+    L2_2 = self[26]
+    L3_2 = self[4]
     L4_2 = L3_2
     L3_2 = L3_2.f8F2B0552
     L5_2 = L2_2[1]
@@ -481,34 +465,34 @@ function L70_1(A0_2, A1_2)
     L7_2 = L2_2[3]
     L3_2(L4_2, L5_2, L6_2, L7_2)
   end
-  L2_2 = A0_2[20]
+  L2_2 = self[20]
   if L2_2 then
-    L2_2 = A0_2[15]
+    L2_2 = self[15]
     L3_2 = cDFF6D3D5
     L3_2 = L3_2.fA32A6B81
     L4_2 = "SUB_STICK"
     L3_2 = L3_2(L4_2)
-    L4_2 = A0_2[11]
+    L4_2 = self[11]
     L3_2 = L3_2 * L4_2
     L2_2 = L2_2 + L3_2
-    A0_2[15] = L2_2
-    L2_2 = A0_2[16]
-    L3_2 = A0_2[15]
+    self[15] = L2_2
+    L2_2 = self[16]
+    L3_2 = self[15]
     L3_2 = L3_2 - L2_2
-    L4_2 = A0_2[12]
+    L4_2 = self[12]
     L3_2 = L3_2 * L4_2
     L3_2 = L3_2 + L2_2
-    A0_2[16] = L3_2
+    self[16] = L3_2
   end
   L2_2 = cD5675BA5
   L2_2 = L2_2.fFA44D7AF
-  L3_2 = A0_2[16]
+  L3_2 = self[16]
   L3_2 = L3_2 / 360.0
   L3_2 = L3_2 * 2
   L4_2 = L10_1.math
   L4_2 = L4_2.pi
   L3_2 = L3_2 * L4_2
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L4_2 = L4_2 / 360.0
   L4_2 = L4_2 * 2
   L5_2 = L10_1.math
@@ -516,7 +500,7 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2 * L5_2
   L5_2 = 0
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = L3_2
   L3_2 = L3_2.f750133BA
   L3_2, L4_2, L5_2 = L3_2(L4_2)
@@ -529,51 +513,48 @@ function L70_1(A0_2, A1_2)
   L7_2[1] = L8_2
   L7_2[2] = L9_2
   L7_2[3] = L10_2
-  L8_2 = A0_2[6]
-  L9_2 = A0_2[7]
-  L10_2 = A0_2[9]
+  L8_2 = self[6]
+  L9_2 = self[7]
+  L10_2 = self[9]
   L11_2 = L2_2
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
   L7_2 = L58_1
   L8_2 = L6_2.Translation
   L7_2 = L7_2(L8_2)
-  A0_2[18] = L7_2
+  self[18] = L7_2
   L7_2 = L58_1
   L8_2 = L6_2.Rotation
   L7_2 = L7_2(L8_2)
-  A0_2[19] = L7_2
-  L7_2 = A0_2[20]
+  self[19] = L7_2
+  L7_2 = self[20]
   if not L7_2 then
-    L7_2 = A0_2[21]
+    L7_2 = self[21]
     if not L7_2 then
       goto lbl_102
     end
   end
-  L7_2 = A0_2[18]
-  L8_2 = A0_2[5]
+  L7_2 = self[18]
+  L8_2 = self[5]
   L9_2 = L8_2
   L8_2 = L8_2.f4CBAEA98
   L10_2 = L7_2[1]
   L11_2 = L7_2[2]
   L12_2 = L7_2[3]
   L8_2(L9_2, L10_2, L11_2, L12_2)
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L9_2 = L8_2
   L8_2 = L8_2.f5E2B847F
-  L10_2 = A0_2[19]
+  L10_2 = self[19]
   L8_2(L9_2, L10_2)
   ::lbl_102::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18EBEB0531CEF4AC"]["prototype"]
-L69_1 = "F6650451124F7A79E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.form_change.FormChangeCamera.SetCameraRootPos
+function C18EBEB0531CEF4AC_prototype:F6650451124F7A79E(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L3_2 = A0_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FE9A1A6A2630435A4
+  L3_2 = self
+  L5_2 = self
+  L4_2 = self.FE9A1A6A2630435A4
   L6_2 = c4E28AB7C
   L6_2 = L6_2.fB41FD22F
   L7_2 = A1_2
@@ -638,7 +619,7 @@ function L70_1(A0_2, A1_2, A2_2)
     L11_2 = A1_2
     L10_2 = A1_2.f7360ED03
     L10_2, L11_2, L12_2 = L10_2(L11_2)
-    L13_2 = A0_2[25]
+    L13_2 = self[25]
     L14_2 = {}
     L15_2 = L13_2[1]
     L15_2 = L10_2 + L15_2
@@ -652,23 +633,23 @@ function L70_1(A0_2, A1_2, A2_2)
     L9_2 = L14_2
   end
   if A2_2 then
-    A0_2[26] = L9_2
-    A0_2[9] = L4_2
+    self[26] = L9_2
+    self[9] = L4_2
   else
-    L10_2 = A0_2[26]
-    L11_2 = A0_2[9]
-    L12_2 = A0_2[17]
+    L10_2 = self[26]
+    L11_2 = self[9]
+    L12_2 = self[17]
     L13_2 = L12_2
     L12_2 = L12_2.FB50C9ACDC127E3B9
     L12_2(L13_2)
-    L12_2 = A0_2[17]
+    L12_2 = self[17]
     L13_2 = L12_2
     L12_2 = L12_2.F7364C99F171973B4
     L14_2 = 0.5
     L12_2 = L12_2(L13_2, L14_2)
     L13_2 = L12_2
     L12_2 = L12_2.F74C093E903CBE9F1
-    L14_2 = A0_2[24]
+    L14_2 = self[24]
     L12_2 = L12_2(L13_2, L14_2)
     L13_2 = L12_2
     L12_2 = L12_2.FE1B998C2DEC49E51
@@ -715,11 +696,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C18EBEB0531CEF4AC"]["prototype"]
-L69_1 = "FE9A1A6A2630435A4"
-
-function L70_1(A0_2, A1_2)
+--- main.form_change.FormChangeCamera.GetCameraLength
+function C18EBEB0531CEF4AC_prototype:FE9A1A6A2630435A4(A1_2)
   local L2_2, L3_2
   L2_2 = nil
   if 0 == A1_2 then
@@ -731,7 +709,7 @@ function L70_1(A0_2, A1_2)
   elseif 3 == A1_2 then
     L2_2 = 2.0
   end
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L3_2 = L2_2 * L3_2
   return L3_2
 end

@@ -1,11 +1,8 @@
-L55_1 = _ENV
-L56_1 = "C69669C96E4CFA995"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "new"
-L70_1 = {}
+---@alias C69669C96E4CFA995 main_playables_misc_PhysUtil
+
+---@class main_playables_misc_PhysUtil
+C69669C96E4CFA995 = L15_1()
+C69669C96E4CFA995.new = {}
 L68_1[L69_1] = L70_1
 L68_1 = "C69669C96E4CFA995"
 L69_1 = _ENV["C69669C96E4CFA995"]
@@ -13,11 +10,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C69669C96E4CFA995"]
 L69_1 = "__name__"
 L70_1 = "C69669C96E4CFA995"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "SE97248E46ABB5CA7"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.playables.misc.PhysUtil.LandRayCast
+function C69669C96E4CFA995.SE97248E46ABB5CA7(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A3_2 then
     A3_2 = 1
@@ -38,11 +32,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "SFEBBEE8D9284A00B"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.playables.misc.PhysUtil.WaterRayCast
+function C69669C96E4CFA995.SFEBBEE8D9284A00B(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A3_2 then
     A3_2 = 1
@@ -63,11 +54,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "SB5650EB38CCD091A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.playables.misc.PhysUtil.LayeredRayCast
+function C69669C96E4CFA995.SB5650EB38CCD091A(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L7_2 = C69669C96E4CFA995
   L7_2 = L7_2.SFDB3F12B0F68D112
@@ -270,11 +258,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   return A6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "S2B5898695BCB23F4"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.playables.misc.PhysUtil.LandCapsuleCast
+function C69669C96E4CFA995.S2B5898695BCB23F4(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A4_2 then
     A4_2 = 1
@@ -296,11 +281,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   return L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "SF725F7C11C979360"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.playables.misc.PhysUtil.WaterCapsuleCast
+function C69669C96E4CFA995.SF725F7C11C979360(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A4_2 then
     A4_2 = 1
@@ -322,11 +304,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   return L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "S9E7F9F1C6EB5BBB9"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.playables.misc.PhysUtil.LayeredCapsuleCast
+function C69669C96E4CFA995.S9E7F9F1C6EB5BBB9(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2
   if nil == A5_2 then
     A5_2 = 0
@@ -495,11 +474,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   return A7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "S557EE6B53E7A494A"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.playables.misc.PhysUtil.LandPencilCast
+function C69669C96E4CFA995.S557EE6B53E7A494A(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A4_2 then
     A4_2 = 1
@@ -521,11 +497,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   return L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "S8A78048732E361AE"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.playables.misc.PhysUtil.WaterPencilCast
+function C69669C96E4CFA995.S8A78048732E361AE(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   if nil == A4_2 then
     A4_2 = 1
@@ -547,11 +520,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   return L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "SA614A0FD7D5BC105"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
+--- main.playables.misc.PhysUtil.LayeredPencilCast
+function C69669C96E4CFA995.SA614A0FD7D5BC105(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   local L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2
   if nil == A5_2 then
     A5_2 = 0
@@ -720,11 +690,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2)
   return A7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "S1110B18BD2FEF032"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.playables.misc.PhysUtil.LandShapeCast
+function C69669C96E4CFA995.S1110B18BD2FEF032(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A3_2 then
     A3_2 = 1
@@ -745,11 +712,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "S2757B69498F389AE"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.playables.misc.PhysUtil.WaterShapeCast
+function C69669C96E4CFA995.S2757B69498F389AE(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A3_2 then
     A3_2 = 1
@@ -770,11 +734,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   return L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "S34504A5C8F8B4FCF"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+--- main.playables.misc.PhysUtil.LayeredShapeCast
+function C69669C96E4CFA995.S34504A5C8F8B4FCF(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2
   if nil == A4_2 then
     A4_2 = 0
@@ -913,11 +874,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
   return A6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "SF9BE40653D086746"
-
-function L70_1(A0_2)
+--- main.playables.misc.PhysUtil.GetShapeRotation
+function C69669C96E4CFA995.SF9BE40653D086746(A0_2)
   local L1_2, L2_2, L3_2
   L2_2 = A0_2
   L1_2 = A0_2.f53D9EAAE
@@ -957,11 +915,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "S37EC4DF80C23CC2A"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.misc.PhysUtil.SetShapeRotation
+function C69669C96E4CFA995.S37EC4DF80C23CC2A(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = A0_2
   L2_2 = A0_2.f53D9EAAE
@@ -1013,11 +968,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "SB494EE63A7D94CD3"
-
-function L70_1(A0_2)
+--- main.playables.misc.PhysUtil.GetShapeTranslation
+function C69669C96E4CFA995.SB494EE63A7D94CD3(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = A0_2
   L1_2 = A0_2.f53D9EAAE
@@ -1094,11 +1046,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C69669C96E4CFA995"]
-L69_1 = "S243B903AC29CB977"
-
-function L70_1(A0_2, A1_2)
+--- main.playables.misc.PhysUtil.SetShapeTranslation
+function C69669C96E4CFA995.S243B903AC29CB977(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L3_2 = A0_2
   L2_2 = A0_2.f53D9EAAE

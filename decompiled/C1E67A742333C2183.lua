@@ -1,3 +1,5 @@
+---@class C1E67A742333C2183 : C1E67A742333C2183_prototype
+---@field prototype C1E67A742333C2183_prototype
 L55_1 = _ENV
 L56_1 = "C1E67A742333C2183"
 L57_1 = L15_1
@@ -58,31 +60,26 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C1E67A742333C2183"]
 L69_1 = "__name__"
 L70_1 = "C1E67A742333C2183"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E67A742333C2183"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E67A742333C2183"]["prototype"]
-L69_1 = "FD5612F1B47C63602"
-
-function L70_1(A0_2)
+---@class C1E67A742333C2183_prototype
+C1E67A742333C2183_prototype = L15_1()
+C1E67A742333C2183.prototype = C1E67A742333C2183_prototype
+--- C1E67A742333C2183.lookAtPlayer
+function C1E67A742333C2183_prototype:FD5612F1B47C63602()
   local L1_2, L2_2
   L1_2 = CDA4434B92B6F8360
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FD5612F1B47C63602
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L1_2 = L1_2[32]
   L1_2 = L1_2.motion
   if 37 ~= L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L1_2 = L1_2[32]
     L1_2 = L1_2.motion
     if 38 ~= L1_2 then
-      L1_2 = A0_2[1]
+      L1_2 = self[1]
       L1_2 = L1_2[32]
       L1_2 = L1_2.motion
       if 39 ~= L1_2 then
@@ -90,29 +87,26 @@ function L70_1(A0_2)
       end
     end
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.FB3673456874D60C8
+  L2_2 = self
+  L1_2 = self.FB3673456874D60C8
   L1_2(L2_2)
   ::lbl_23::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E67A742333C2183"]["prototype"]
-L69_1 = "F0F2455EB3F08B1D1"
-
-function L70_1(A0_2)
+--- C1E67A742333C2183.onWait
+function C1E67A742333C2183_prototype:F0F2455EB3F08B1D1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = nil
   L2_2 = cE35B3EB3
   L2_2 = L2_2.fDBA763D1
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2[7]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = nil
   
   function L4_2()
@@ -167,17 +161,17 @@ function L70_1(A0_2)
   
   L6_2 = L6_2()
   if L6_2 >= 0 then
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = L6_2
     L6_2 = L6_2.F9DEB10F3B940A275
     L6_2 = L6_2(L7_2)
-    A0_2[6] = L6_2
-    A0_2[3] = 2
+    self[6] = L6_2
+    self[3] = 2
   else
     L7_2 = L4_2
     L6_2 = L4_2.fE9C29DA1
     L6_2 = L6_2(L7_2)
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L7_2 = L7_2[44]
     L7_2 = L7_2.name
     L8_2 = nil
@@ -216,9 +210,9 @@ function L70_1(A0_2)
       L8_2 = L10_2
     end
     if L8_2 >= 0 then
-      A0_2[3] = 3
+      self[3] = 3
     else
-      L9_2 = A0_2[5]
+      L9_2 = self[5]
       L9_2 = L9_2[7]
       L10_2 = L9_2
       L9_2 = L9_2.f0AB7BAB3
@@ -229,34 +223,28 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E67A742333C2183"]["prototype"]
-L69_1 = "FC901E1B80A665072"
-
-function L70_1(A0_2)
+--- C1E67A742333C2183.onMotion
+function C1E67A742333C2183_prototype:FC901E1B80A665072()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C1E67A742333C2183"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- C1E67A742333C2183.onFinish
+function C1E67A742333C2183_prototype:FA2C827B56F56ABDF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CDA4434B92B6F8360
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FA2C827B56F56ABDF
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = nil
   L2_2 = cE35B3EB3
   L2_2 = L2_2.fDBA763D1
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2[7]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if not L2_2 then
-    L2_2 = A0_2[5]
+    L2_2 = self[5]
     L2_2 = L2_2[7]
     L4_2 = L2_2
     L3_2 = L2_2.fF56461AF

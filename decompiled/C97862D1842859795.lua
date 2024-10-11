@@ -1,3 +1,7 @@
+---@alias C97862D1842859795 main_nushi_hiko_HikoNushiEscapePerformance
+
+---@class main_nushi_hiko_HikoNushiEscapePerformance : C97862D1842859795_prototype
+---@field prototype C97862D1842859795_prototype
 L55_1 = _ENV
 L56_1 = "C97862D1842859795"
 L57_1 = L15_1
@@ -43,24 +47,19 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C97862D1842859795"]
 L69_1 = "__name__"
 L70_1 = "C97862D1842859795"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C97862D1842859795"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C97862D1842859795"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C97862D1842859795_prototype
+C97862D1842859795_prototype = L15_1()
+C97862D1842859795.prototype = C97862D1842859795_prototype
+--- main.nushi.hiko.HikoNushiEscapePerformance.Setup
+function C97862D1842859795_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C97862D1842859795
-  L2_2.S7D1E199BBD384D72 = A0_2
+  L2_2.S7D1E199BBD384D72 = self
   L2_2 = C2EAC8AEE287A3A4D
   L2_2 = L2_2.new
   L2_2 = L2_2()
-  A0_2[3] = L2_2
-  L2_2 = A0_2[1]
+  self[3] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f462C9B70
   L2_2 = L2_2(L3_2)
@@ -68,7 +67,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2.fD4E64AB7
   L5_2 = "escape_point"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[9] = L3_2
+  self[9] = L3_2
   L3_2 = CDFB73C57B78A1F2F
   L3_2 = L3_2.new
   L5_2 = L2_2
@@ -76,29 +75,26 @@ function L70_1(A0_2, A1_2)
   L6_2 = "escape_Camera"
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2)
-  A0_2[10] = L3_2
+  self[10] = L3_2
   L4_2 = L2_2
   L3_2 = L2_2.fD4E64AB7
   L5_2 = "HikoNushiEscapeObj"
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[4] = L3_2
+  self[4] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C97862D1842859795"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.hiko.HikoNushiEscapePerformance.PreUpdate
+function C97862D1842859795_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[2]
+    L3_2 = self[2]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = L62_1
       L4_2 = L64_1.pack
       L5_2 = L10_1.coroutine
@@ -143,25 +139,25 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   if nil ~= L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.F1EEC0C9E6E826C5B
     L4_2 = A1_2
     L2_2(L3_2, L4_2)
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   if nil ~= L2_2 then
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     L3_2 = L2_2
     L2_2 = L2_2.F3BC3E2DE6CE68A7D
     L4_2 = A1_2
     L2_2(L3_2, L4_2)
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if nil ~= L2_2 then
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = L2_2
     L2_2 = L2_2.F3BC3E2DE6CE68A7D
     L4_2 = A1_2
@@ -169,42 +165,36 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C97862D1842859795"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.nushi.hiko.HikoNushiEscapePerformance.Destroy
+function C97862D1842859795_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   if nil ~= L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.FB50C9ACDC127E3B9
     L1_2(L2_2)
   end
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   if nil ~= L1_2 then
-    L1_2 = A0_2[6]
+    L1_2 = self[6]
     L2_2 = L1_2
     L1_2 = L1_2.FB50C9ACDC127E3B9
     L1_2(L2_2)
   end
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   if nil ~= L1_2 then
-    L1_2 = A0_2[7]
+    L1_2 = self[7]
     L2_2 = L1_2
     L1_2 = L1_2.FB50C9ACDC127E3B9
     L1_2(L2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C97862D1842859795"]["prototype"]
-L69_1 = "FA48EDE715E501A78"
-
-function L70_1(A0_2)
+--- main.nushi.hiko.HikoNushiEscapePerformance.EscapePlay
+function C97862D1842859795_prototype:FA48EDE715E501A78()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = CDFB73C57B78A1F2F
   L2_2 = L2_2.new
   L3_2 = cAF8D78F3
@@ -224,7 +214,7 @@ function L70_1(A0_2)
   L3_2 = L3_2.f6754453E
   L5_2 = false
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = C6A394EFB7B122073
   L4_2 = L4_2.S7D1E199BBD384D72
   L4_2 = L4_2[1]
@@ -237,7 +227,7 @@ function L70_1(A0_2)
   L10_2 = L5_2
   L11_2 = L6_2
   L7_2(L8_2, L9_2, L10_2, L11_2)
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L8_2 = L7_2
   L7_2 = L7_2.f24032F87
   L9_2 = C6A394EFB7B122073
@@ -249,10 +239,10 @@ function L70_1(A0_2)
   L7_2(L8_2, L9_2, L10_2, L11_2)
   L7_2 = c4E28AB7C
   L7_2 = L7_2.fB41FD22F
-  L8_2 = A0_2[4]
+  L8_2 = self[4]
   L7_2 = L7_2(L8_2)
-  A0_2[5] = L7_2
-  L7_2 = A0_2[5]
+  self[5] = L7_2
+  L7_2 = self[5]
   L8_2 = L7_2
   L7_2 = L7_2.f24E22470
   L7_2 = L7_2(L8_2)
@@ -262,18 +252,18 @@ function L70_1(A0_2)
   L7_2(L8_2, L9_2)
   L7_2 = CC704789D12A0E0F2
   L7_2 = L7_2.new
-  L8_2 = A0_2[4]
+  L8_2 = self[4]
   L7_2 = L7_2(L8_2)
-  A0_2[6] = L7_2
+  self[6] = L7_2
   L7_2 = C4DAB8BD72937B594
   L7_2 = L7_2.new
-  L8_2 = A0_2[4]
+  L8_2 = self[4]
   L7_2 = L7_2(L8_2)
-  A0_2[7] = L7_2
-  L7_2 = A0_2[7]
+  self[7] = L7_2
+  L7_2 = self[7]
   L8_2 = L7_2
   L7_2 = L7_2.F97F9711405353972
-  L9_2 = A0_2[9]
+  L9_2 = self[9]
   L10_2 = L9_2
   L9_2 = L9_2.f64857644
   L9_2 = L9_2(L10_2)

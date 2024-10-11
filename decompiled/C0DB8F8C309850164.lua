@@ -1,3 +1,7 @@
+---@alias C53B5B82D0DE5D1E0 main_ui_shop_restaurant_buff_ShopRestaurantUIBuffState
+
+---@class main_ui_shop_restaurant_buff_ShopRestaurantUIBuffState : C53B5B82D0DE5D1E0_prototype
+---@field prototype C53B5B82D0DE5D1E0_prototype
 L55_1 = _ENV
 L56_1 = "C0DB8F8C309850164"
 L57_1 = L15_1
@@ -38,11 +42,9 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0DB8F8C309850164"]
 L69_1 = "__name__"
 L70_1 = "C0DB8F8C309850164"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0DB8F8C309850164"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class C53B5B82D0DE5D1E0_prototype
+C53B5B82D0DE5D1E0_prototype = L15_1()
+C53B5B82D0DE5D1E0.prototype = C53B5B82D0DE5D1E0_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0DB8F8C309850164"]["prototype"]
 L69_1 = _ENV["C0DB8F8C309850164"]

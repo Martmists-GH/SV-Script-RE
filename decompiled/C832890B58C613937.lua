@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C832890B58C613937"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C832890B58C613937"]
-L69_1 = "new"
+---@alias C832890B58C613937 main_pokepicnic_cooking_CookingEvaluationController
 
-function L70_1(A0_2)
+---@class main_pokepicnic_cooking_CookingEvaluationController : C832890B58C613937_prototype
+---@field prototype C832890B58C613937_prototype
+C832890B58C613937 = L15_1()
+function C832890B58C613937.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C832890B58C613937
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C832890B58C613937"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C832890B58C613937
+function C832890B58C613937.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = _hx_tab_array
   L3_2 = {}
@@ -42,11 +36,7 @@ function L70_1(A0_2, A1_2)
   A0_2[3] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C832890B58C613937"]
-L69_1 = "__name__"
-L70_1 = "C832890B58C613937"
-L68_1[L69_1] = L70_1
+C832890B58C613937.__name__ = "C832890B58C613937"
 L68_1 = _ENV["C832890B58C613937"]
 L69_1 = "S2C9F7C7E0DA8698C"
 
@@ -1343,11 +1333,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C832890B58C613937"]
-L69_1 = "SD02BE17D52FE766A"
-
-function L70_1()
+--- main.pokepicnic.cooking.CookingEvaluationController.SD02BE17D52FE766A
+function C832890B58C613937.SD02BE17D52FE766A()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L0_2 = C2E8284896495F35B
   L0_2 = L0_2.S3C90EA9C47AF6E04
@@ -1435,18 +1422,13 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C832890B58C613937"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C832890B58C613937"]["prototype"]
-L69_1 = "F6A0F06FD99D7787E"
-
-function L70_1(A0_2, A1_2)
+---@class C832890B58C613937_prototype
+C832890B58C613937_prototype = L15_1()
+C832890B58C613937.prototype = C832890B58C613937_prototype
+--- main.pokepicnic.cooking.CookingEvaluationController.CheckResult
+function C832890B58C613937_prototype:F6A0F06FD99D7787E(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.F68213DDDAE5764D3
   L2_2 = L2_2(L3_2)
@@ -1459,15 +1441,15 @@ function L70_1(A0_2, A1_2)
   L4_2 = L2_2
   L3_2 = L2_2.F24679B69D207409A
   L3_2 = L3_2(L4_2)
-  A0_2[4] = L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.F56E4B103C9C9CF88
+  self[4] = L3_2
+  L4_2 = self
+  L3_2 = self.F56E4B103C9C9CF88
   L3_2 = L3_2(L4_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F6CA0EF547AB64ACE
+  L5_2 = self
+  L4_2 = self.F6CA0EF547AB64ACE
   L4_2 = L4_2(L5_2)
   L5_2 = 0
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   while true do
     L7_2 = L6_2.length
     if not (L5_2 < L7_2) then
@@ -1483,7 +1465,7 @@ function L70_1(A0_2, A1_2)
   end
   L7_2 = C832890B58C613937
   L7_2 = L7_2.S2C9F7C7E0DA8698C
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L9_2 = L3_2
   L10_2 = L4_2
   L11_2 = A1_2
@@ -1496,14 +1478,11 @@ function L70_1(A0_2, A1_2)
   L12_2 = L4_2
   L10_2, L11_2, L12_2 = L10_2(L11_2, L12_2)
   L8_2(L9_2, L10_2, L11_2, L12_2)
-  A0_2[2] = L7_2
+  self[2] = L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C832890B58C613937"]["prototype"]
-L69_1 = "F56E4B103C9C9CF88"
-
-function L70_1(A0_2)
+--- main.pokepicnic.cooking.CookingEvaluationController.GetSelectIngredient
+function C832890B58C613937_prototype:F56E4B103C9C9CF88()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -1511,7 +1490,7 @@ function L70_1(A0_2)
   L3_2 = 0
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = 0
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -1528,13 +1507,10 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C832890B58C613937"]["prototype"]
-L69_1 = "F6CA0EF547AB64ACE"
-
-function L70_1(A0_2)
+--- main.pokepicnic.cooking.CookingEvaluationController.GetSelectSeasoning
+function C832890B58C613937_prototype:F6CA0EF547AB64ACE()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L2_2 = L1_2
   L1_2 = L1_2.F68213DDDAE5764D3
   L1_2 = L1_2(L2_2)

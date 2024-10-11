@@ -1,3 +1,7 @@
+---@alias CF6995DC35E69383F main_ui_pokemon_select_PokemonSelectRegulation
+
+---@class main_ui_pokemon_select_PokemonSelectRegulation : CF6995DC35E69383F_prototype
+---@field prototype CF6995DC35E69383F_prototype
 L55_1 = _ENV
 L56_1 = "CF6995DC35E69383F"
 L57_1 = L15_1
@@ -33,16 +37,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF6995DC35E69383F"]
 L69_1 = "__name__"
 L70_1 = "CF6995DC35E69383F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6995DC35E69383F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6995DC35E69383F"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class CF6995DC35E69383F_prototype
+CF6995DC35E69383F_prototype = L15_1()
+CF6995DC35E69383F.prototype = CF6995DC35E69383F_prototype
+--- main.ui.pokemon_select.PokemonSelectRegulation.Setup
+function CF6995DC35E69383F_prototype:F7C68FEDB79AB6396(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = nil
   L4_2 = c03E8ACDF
@@ -102,11 +101,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L4_2.SEA8161D76C2A8552 = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6995DC35E69383F"]["prototype"]
-L69_1 = "FA7C88B9966D905A1"
-
-function L70_1(A0_2)
+--- main.ui.pokemon_select.PokemonSelectRegulation.GetMaxSelectParty
+function CF6995DC35E69383F_prototype:FA7C88B9966D905A1()
   local L1_2, L2_2
   L1_2 = C3C7CC9CD034CD2CA
   L1_2 = L1_2.SE52B85973DFAB88B
@@ -115,11 +111,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6995DC35E69383F"]["prototype"]
-L69_1 = "FF702ADAFD0B95BFB"
-
-function L70_1(A0_2)
+--- main.ui.pokemon_select.PokemonSelectRegulation.GetMinSelectParty
+function CF6995DC35E69383F_prototype:FF702ADAFD0B95BFB()
   local L1_2, L2_2
   L1_2 = C3C7CC9CD034CD2CA
   L1_2 = L1_2.SE52B85973DFAB88B
@@ -128,11 +121,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6995DC35E69383F"]["prototype"]
-L69_1 = "F821AD4EFF3C19A62"
-
-function L70_1(A0_2)
+--- main.ui.pokemon_select.PokemonSelectRegulation.GetIsActiveTimer
+function CF6995DC35E69383F_prototype:F821AD4EFF3C19A62()
   local L1_2, L2_2, L3_2
   L1_2 = C3C7CC9CD034CD2CA
   L1_2 = L1_2.SE52B85973DFAB88B
@@ -148,11 +138,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6995DC35E69383F"]["prototype"]
-L69_1 = "FEB4E9BDF19A74293"
-
-function L70_1(A0_2)
+--- main.ui.pokemon_select.PokemonSelectRegulation.GetLimitTimer
+function CF6995DC35E69383F_prototype:FEB4E9BDF19A74293()
   local L1_2, L2_2
   L1_2 = C3C7CC9CD034CD2CA
   L1_2 = L1_2.SEA8161D76C2A8552
@@ -161,11 +148,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6995DC35E69383F"]["prototype"]
-L69_1 = "F1D206AECAA618338"
-
-function L70_1(A0_2)
+--- main.ui.pokemon_select.PokemonSelectRegulation.F1D206AECAA618338
+function CF6995DC35E69383F_prototype:F1D206AECAA618338()
   local L1_2, L2_2
   L1_2 = C3C7CC9CD034CD2CA
   L1_2 = L1_2.SE52B85973DFAB88B
@@ -174,11 +158,8 @@ function L70_1(A0_2)
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6995DC35E69383F"]["prototype"]
-L69_1 = "FAC872FC441A3A180"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.pokemon_select.PokemonSelectRegulation.IsJoinNeedExist
+function CF6995DC35E69383F_prototype:FAC872FC441A3A180(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = c03C8030E
   L2_2 = L2_2.f101D811F
@@ -240,22 +221,16 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6995DC35E69383F"]["prototype"]
-L69_1 = "F71AF846A2E755115"
-
-function L70_1(A0_2)
+--- main.ui.pokemon_select.PokemonSelectRegulation.GetRegulationHolder
+function CF6995DC35E69383F_prototype:F71AF846A2E755115()
   local L1_2
   L1_2 = C3C7CC9CD034CD2CA
   L1_2 = L1_2.SE52B85973DFAB88B
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF6995DC35E69383F"]["prototype"]
-L69_1 = "F05027E3D4B7143E6"
-
-function L70_1(A0_2)
+--- main.ui.pokemon_select.PokemonSelectRegulation.GetRegulationChecker
+function CF6995DC35E69383F_prototype:F05027E3D4B7143E6()
   local L1_2
   L1_2 = C3C7CC9CD034CD2CA
   L1_2 = L1_2.SA2CDC8E619DC23B0

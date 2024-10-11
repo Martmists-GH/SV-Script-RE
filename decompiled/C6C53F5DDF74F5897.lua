@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C6C53F5DDF74F5897"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "new"
+---@alias C6C53F5DDF74F5897 main_battle_BattleManager
 
-function L70_1(A0_2)
+---@class main_battle_BattleManager : C6C53F5DDF74F5897_prototype
+---@field prototype C6C53F5DDF74F5897_prototype
+C6C53F5DDF74F5897 = L15_1()
+function C6C53F5DDF74F5897.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C6C53F5DDF74F5897
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 C6C53F5DDF74F5897
+function C6C53F5DDF74F5897.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -42,11 +36,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C6C53F5DDF74F5897"]
 L69_1 = "__name__"
 L70_1 = "C6C53F5DDF74F5897"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "S336142E022FBD90F"
-
-function L70_1(A0_2)
+--- main.battle.BattleManager.GetEmptyBattleView
+function C6C53F5DDF74F5897.S336142E022FBD90F(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
   L2_2 = C6C53F5DDF74F5897
@@ -88,11 +79,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "S6F69F1639946918C"
-
-function L70_1(A0_2)
+--- main.battle.BattleManager.CheckSamePlayer
+function C6C53F5DDF74F5897.S6F69F1639946918C(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = 0
   L2_2 = C6C53F5DDF74F5897
@@ -141,11 +129,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "SC10246118071CC26"
-
-function L70_1(A0_2)
+--- main.battle.BattleManager.StartBattle_Wild
+function C6C53F5DDF74F5897.SC10246118071CC26(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -180,11 +165,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "SB71B95C99899BF49"
-
-function L70_1(A0_2)
+--- main.battle.BattleManager.StartBattle_Auto
+function C6C53F5DDF74F5897.SB71B95C99899BF49(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -212,11 +194,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "S77F896FEF920D93B"
-
-function L70_1(A0_2)
+--- main.battle.BattleManager.StartBattle_Trainer
+function C6C53F5DDF74F5897.S77F896FEF920D93B(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
@@ -243,11 +222,8 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "S3200E487068CAA0E"
-
-function L70_1()
+--- main.battle.BattleManager.CheckAutoBattle
+function C6C53F5DDF74F5897.S3200E487068CAA0E()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = 0
   L1_2 = C6C53F5DDF74F5897
@@ -281,11 +257,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "S8DB6E78AAE9D459E"
-
-function L70_1()
+--- main.battle.BattleManager.CheckCommandBattle
+function C6C53F5DDF74F5897.S8DB6E78AAE9D459E()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = 0
   L1_2 = C6C53F5DDF74F5897
@@ -319,11 +292,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "S4D67EEC9E329A2E7"
-
-function L70_1()
+--- main.battle.BattleManager.IsBattle
+function C6C53F5DDF74F5897.S4D67EEC9E329A2E7()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = 0
   L1_2 = C6C53F5DDF74F5897
@@ -347,11 +317,8 @@ function L70_1()
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "SDCACF338100B67B6"
-
-function L70_1(A0_2)
+--- main.battle.BattleManager.SDCACF338100B67B6
+function C6C53F5DDF74F5897.SDCACF338100B67B6(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = 0
   L2_2 = C6C53F5DDF74F5897
@@ -389,11 +356,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "S5580FEBCEC294B60"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleManager.S5580FEBCEC294B60
+function C6C53F5DDF74F5897.S5580FEBCEC294B60(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = L16_1
   L3_2 = {}
@@ -457,11 +421,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "S305D16B6341A8088"
-
-function L70_1(A0_2)
+--- main.battle.BattleManager.SuspendWatchBattle
+function C6C53F5DDF74F5897.S305D16B6341A8088(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C6C53F5DDF74F5897
   L1_2.SAF456513A00B6253 = A0_2
@@ -482,22 +443,16 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "SBB47CD7FDA5AFF98"
-
-function L70_1()
+--- main.battle.BattleManager.IsSuspendWatchBattle
+function C6C53F5DDF74F5897.SBB47CD7FDA5AFF98()
   local L0_2, L1_2
   L0_2 = C6C53F5DDF74F5897
   L0_2 = L0_2.SAF456513A00B6253
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "S8EE5537A8C98172D"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleManager.StartWildBattleBgm
+function C6C53F5DDF74F5897.S8EE5537A8C98172D(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = false
@@ -636,11 +591,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "S78A4E2BC73E26A22"
-
-function L70_1(A0_2)
+--- main.battle.BattleManager.EndWildBattleBgm
+function C6C53F5DDF74F5897.S78A4E2BC73E26A22(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = A0_2
   L1_2 = A0_2.F7436B9F677D49D83
@@ -790,11 +742,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "S3D717FEAE50159E9"
-
-function L70_1()
+--- main.battle.BattleManager.GetBattleBgmType
+function C6C53F5DDF74F5897.S3D717FEAE50159E9()
   local L0_2, L1_2, L2_2, L3_2, L4_2
   L0_2 = nil
   L1_2 = nil
@@ -885,11 +834,8 @@ function L70_1()
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "S1B20CE0220CBF133"
-
-function L70_1(A0_2)
+--- main.battle.BattleManager.CreateCommSetupParam
+function C6C53F5DDF74F5897.S1B20CE0220CBF133(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   A0_2[2] = 2
   A0_2[18] = 1
@@ -1098,20 +1044,15 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C6C53F5DDF74F5897_prototype
+C6C53F5DDF74F5897_prototype = L15_1()
+C6C53F5DDF74F5897.prototype = C6C53F5DDF74F5897_prototype
+--- main.battle.BattleManager.Setup
+function C6C53F5DDF74F5897_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = C9E414E3D4C94CDDF
   L2_2 = L2_2.S14AE0846C423509E
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.f462C9B70
   L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L3_2(L4_2)
@@ -1119,7 +1060,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = C6C53F5DDF74F5897
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.f287946D6
@@ -1128,7 +1069,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = C6C53F5DDF74F5897
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.fE3B9128F
@@ -1138,7 +1079,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = C6C53F5DDF74F5897
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.fE3B9128F
@@ -1148,7 +1089,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = C6C53F5DDF74F5897
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.fE3B9128F
@@ -1158,7 +1099,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = C6C53F5DDF74F5897
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.fE3B9128F
@@ -1168,7 +1109,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = C6C53F5DDF74F5897
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.fE3B9128F
@@ -1178,7 +1119,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = C6C53F5DDF74F5897
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.fE3B9128F
@@ -1188,7 +1129,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = C6C53F5DDF74F5897
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.fE3B9128F
@@ -1198,7 +1139,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = C6C53F5DDF74F5897
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.fE3B9128F
@@ -1208,7 +1149,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = C6C53F5DDF74F5897
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.fE3B9128F
@@ -1218,7 +1159,7 @@ function L70_1(A0_2, A1_2)
   L2_2 = C6C53F5DDF74F5897
   L3_2 = cF52F390B
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
   L4_2 = L3_2
   L3_2 = L3_2.fE3B9128F
@@ -1235,13 +1176,13 @@ function L70_1(A0_2, A1_2)
   L2_2.S85B35A13177448AE = 4
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = L2_2
   L2_2 = L2_2.f024ADB0D
   L4_2 = 10
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.f462C9B70
   L2_2 = L2_2(L3_2)
@@ -1380,11 +1321,8 @@ function L70_1(A0_2, A1_2)
   L6_2.SFBFA60F990C37A2A = L7_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.battle.BattleManager.PreUpdate
+function C6C53F5DDF74F5897_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
   L3_2 = A1_2
   L2_2 = A1_2.f22D509B2
@@ -1393,16 +1331,13 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.fC0E2CAD0
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FAAB2053B6A53B7F1
+  L3_2 = self
+  L2_2 = self.FAAB2053B6A53B7F1
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6C53F5DDF74F5897"]["prototype"]
-L69_1 = "FAAB2053B6A53B7F1"
-
-function L70_1(A0_2)
+--- main.battle.BattleManager.UpdateCreateView
+function C6C53F5DDF74F5897_prototype:FAAB2053B6A53B7F1()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C6C53F5DDF74F5897
   L1_2 = L1_2.SBEE338D7828837C0
@@ -1427,7 +1362,7 @@ function L70_1(A0_2)
     L2_2 = L2_2(L3_2, L4_2)
     if L2_2 then
       L2_2 = C6C53F5DDF74F5897
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L4_2 = L3_2
       L3_2 = L3_2.f462C9B70
       L3_2 = L3_2(L4_2)

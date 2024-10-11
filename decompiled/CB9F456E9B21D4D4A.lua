@@ -1,3 +1,5 @@
+---@class CB9F456E9B21D4D4A : CB9F456E9B21D4D4A_prototype
+---@field prototype CB9F456E9B21D4D4A_prototype
 L68_1 = _ENV["CB9F456E9B21D4D4A"]
 L69_1 = "super"
 
@@ -17,28 +19,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CB9F456E9B21D4D4A"]
 L69_1 = "__name__"
 L70_1 = "CB9F456E9B21D4D4A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB9F456E9B21D4D4A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB9F456E9B21D4D4A"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CB9F456E9B21D4D4A_prototype
+CB9F456E9B21D4D4A_prototype = L15_1()
+CB9F456E9B21D4D4A.prototype = CB9F456E9B21D4D4A_prototype
+--- CB9F456E9B21D4D4A.onCreate
+function CB9F456E9B21D4D4A_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.disablePlayerForceIdle = true
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.skipPlayerStuckCheck = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB9F456E9B21D4D4A"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- CB9F456E9B21D4D4A.mainBody
+function CB9F456E9B21D4D4A_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2
   L1_2 = CD0B5B3216A62C8BD
   L1_2 = L1_2.S206403166F99E7FA

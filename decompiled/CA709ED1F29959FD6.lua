@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "CA709ED1F29959FD6"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CA709ED1F29959FD6"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA709ED1F29959FD6"]
-L69_1 = "__name__"
-L70_1 = "CA709ED1F29959FD6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA709ED1F29959FD6"]
-L69_1 = "S950F22B7C10EA47A"
+---@alias CA709ED1F29959FD6 main_ui_result_util_BattleResultUIUtil
 
-function L70_1(A0_2)
+---@class main_ui_result_util_BattleResultUIUtil
+CA709ED1F29959FD6 = L15_1()
+CA709ED1F29959FD6.new = {}
+CA709ED1F29959FD6.__name__ = "CA709ED1F29959FD6"
+--- main.ui.result.util.BattleResultUIUtil.GetPlateName
+function CA709ED1F29959FD6.S950F22B7C10EA47A(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = L31_1.string
   L2_2 = "L_pokeplate_"

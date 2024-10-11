@@ -1,3 +1,7 @@
+---@alias C00E747581EFAAC3C main_env_weather_happening_BaseWeatherHappening
+
+---@class main_env_weather_happening_BaseWeatherHappening : C00E747581EFAAC3C_prototype
+---@field prototype C00E747581EFAAC3C_prototype
 L55_1 = _ENV
 L56_1 = "C00E747581EFAAC3C"
 L57_1 = L15_1
@@ -96,44 +100,35 @@ L69_1 = "__name__"
 L70_1 = "C00E747581EFAAC3C"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C00E747581EFAAC3C"]
-L69_1 = "__interfaces__"
-L70_1 = {}
-L68_1 = _ENV["C00E747581EFAAC3C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "F8924A77847C09A04"
-
-function L70_1(A0_2)
+L69_1 = "__inte---@class C00E747581EFAAC3C_prototype
+C00E747581EFAAC3C_prototype = L15_1()
+C00E747581EFAAC3C.prototype = C00E747581EFAAC3C_prototype
+--- main.env.weather.happening.BaseWeatherHappening.waitHappen
+function C00E747581EFAAC3C_prototype:F8924A77847C09A04()
   local L1_2, L2_2
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   if L1_2 then
     L1_2 = true
     return L1_2
   end
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   if L1_2 then
-    A0_2[7] = false
-    L2_2 = A0_2
-    L1_2 = A0_2.FC30191BCDD645CCB
+    self[7] = false
+    L2_2 = self
+    L1_2 = self.FC30191BCDD645CCB
     return L1_2(L2_2)
   end
   L1_2 = false
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "FA9EC0D391DBC3BF3"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.beginProcess
+function C00E747581EFAAC3C_prototype:FA9EC0D391DBC3BF3()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   if nil == L1_2 then
     L1_2 = nil
-    L2_2 = A0_2[13]
+    L2_2 = self[13]
     if -1 == L2_2 then
       L1_2 = "none"
     elseif 0 == L2_2 then
@@ -146,8 +141,8 @@ function L70_1(A0_2)
     L3_2 = C1DB14DCC9D7634FA
     L3_2 = L3_2.new
     L4_2 = L55_1
-    L5_2 = A0_2
-    L6_2 = A0_2.F7EBDA2395A70103E
+    L5_2 = self
+    L6_2 = self.F7EBDA2395A70103E
     L4_2 = L4_2(L5_2, L6_2)
     L5_2 = L31_1.string
     L6_2 = L31_1.string
@@ -163,9 +158,9 @@ function L70_1(A0_2)
     L6_2 = L6_2(L7_2)
     L5_2 = L5_2 .. L6_2
     L3_2 = L3_2(L4_2, L5_2)
-    A0_2[9] = L3_2
+    self[9] = L3_2
   end
-  L1_2 = A0_2[9]
+  L1_2 = self[9]
   L2_2 = nil
   L3_2 = L62_1
   L4_2 = L64_1.pack
@@ -211,11 +206,11 @@ function L70_1(A0_2)
   end
   L4_2 = L10_1.coroutine
   L4_2 = L4_2.status
-  L5_2 = A0_2[9]
+  L5_2 = self[9]
   L5_2 = L5_2[1]
   L4_2 = L4_2(L5_2)
   if "dead" == L4_2 then
-    A0_2[9] = nil
+    self[9] = nil
     L4_2 = true
     return L4_2
   end
@@ -223,29 +218,26 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "F31F6BDA55FCBDCE5"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.waitEnd
+function C00E747581EFAAC3C_prototype:F31F6BDA55FCBDCE5()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FC6C47EA7B383E507
+  L2_2 = self
+  L1_2 = self.FC6C47EA7B383E507
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F322A5442A97921B7
+  L2_2 = self
+  L1_2 = self.F322A5442A97921B7
   L1_2 = L1_2(L2_2)
   if L1_2 then
     L1_2 = true
     return L1_2
   end
-  L1_2 = A0_2[14]
+  L1_2 = self[14]
   if L1_2 then
     L1_2 = false
     return L1_2
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F97D691F2BAB2649F
+  L2_2 = self
+  L1_2 = self.F97D691F2BAB2649F
   L1_2 = L1_2(L2_2)
   if L1_2 then
     L1_2 = true
@@ -255,16 +247,13 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "F4A69131318D619B7"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.endProcess
+function C00E747581EFAAC3C_prototype:F4A69131318D619B7()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   if nil == L1_2 then
     L1_2 = nil
-    L2_2 = A0_2[13]
+    L2_2 = self[13]
     if -1 == L2_2 then
       L1_2 = "none"
     elseif 0 == L2_2 then
@@ -277,8 +266,8 @@ function L70_1(A0_2)
     L3_2 = C1DB14DCC9D7634FA
     L3_2 = L3_2.new
     L4_2 = L55_1
-    L5_2 = A0_2
-    L6_2 = A0_2.FFF387E29B42F0C3A
+    L5_2 = self
+    L6_2 = self.FFF387E29B42F0C3A
     L4_2 = L4_2(L5_2, L6_2)
     L5_2 = L31_1.string
     L6_2 = L31_1.string
@@ -294,9 +283,9 @@ function L70_1(A0_2)
     L6_2 = L6_2(L7_2)
     L5_2 = L5_2 .. L6_2
     L3_2 = L3_2(L4_2, L5_2)
-    A0_2[10] = L3_2
+    self[10] = L3_2
   end
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = nil
   L3_2 = L62_1
   L4_2 = L64_1.pack
@@ -342,11 +331,11 @@ function L70_1(A0_2)
   end
   L4_2 = L10_1.coroutine
   L4_2 = L4_2.status
-  L5_2 = A0_2[10]
+  L5_2 = self[10]
   L5_2 = L5_2[1]
   L4_2 = L4_2(L5_2)
   if "dead" == L4_2 then
-    A0_2[10] = nil
+    self[10] = nil
     L4_2 = true
     return L4_2
   end
@@ -354,20 +343,17 @@ function L70_1(A0_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "F7EBDA2395A70103E"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.beginCoroutineFunc
+function C00E747581EFAAC3C_prototype:F7EBDA2395A70103E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FEDFC5FEC67BCA752
+  L2_2 = self
+  L1_2 = self.FEDFC5FEC67BCA752
   L1_2(L2_2)
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L2_2 = L1_2
   L1_2 = L1_2.f750133BA
   L1_2, L2_2, L3_2 = L1_2(L2_2)
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L4_2 = L4_2.offset
   L5_2 = L4_2[1]
   L5_2 = L1_2 + L5_2
@@ -378,10 +364,10 @@ function L70_1(A0_2)
   L8_2 = 0
   L9_2 = 0
   L10_2 = 0
-  L11_2 = A0_2[6]
+  L11_2 = self[6]
   L11_2 = L11_2.randRotationX
   if L11_2 then
-    L11_2 = A0_2[1]
+    L11_2 = self[1]
     L12_2 = L11_2
     L11_2 = L11_2.f52C8AF50
     L13_2 = 360
@@ -389,10 +375,10 @@ function L70_1(A0_2)
     L11_2 = L11_2(L12_2, L13_2, L14_2)
     L8_2 = L11_2
   end
-  L11_2 = A0_2[6]
+  L11_2 = self[6]
   L11_2 = L11_2.randRotationY
   if L11_2 then
-    L11_2 = A0_2[1]
+    L11_2 = self[1]
     L12_2 = L11_2
     L11_2 = L11_2.f52C8AF50
     L13_2 = 360
@@ -400,10 +386,10 @@ function L70_1(A0_2)
     L11_2 = L11_2(L12_2, L13_2, L14_2)
     L9_2 = L11_2
   end
-  L11_2 = A0_2[6]
+  L11_2 = self[6]
   L11_2 = L11_2.randRotationZ
   if L11_2 then
-    L11_2 = A0_2[1]
+    L11_2 = self[1]
     L12_2 = L11_2
     L11_2 = L11_2.f52C8AF50
     L13_2 = 360
@@ -432,21 +418,21 @@ function L70_1(A0_2)
   L13_2 = L11_2
   L12_2 = L11_2.f1087DA78
   L12_2(L13_2)
-  L12_2 = A0_2[12]
+  L12_2 = self[12]
   L13_2 = L12_2
   L12_2 = L12_2.f8F2B0552
   L14_2 = L5_2
   L15_2 = L6_2
   L16_2 = L7_2
   L12_2(L13_2, L14_2, L15_2, L16_2)
-  L12_2 = A0_2[12]
+  L12_2 = self[12]
   L13_2 = L12_2
   L12_2 = L12_2.f24032F87
   L14_2 = L11_2
   L12_2(L13_2, L14_2)
   L12_2 = cECB91E31
   L12_2 = L12_2.fB41FD22F
-  L13_2 = A0_2[12]
+  L13_2 = self[12]
   L12_2 = L12_2(L13_2)
   L13_2 = nil
   L14_2 = cECB91E31
@@ -462,7 +448,7 @@ function L70_1(A0_2)
   end
   L14_2 = cE8D61D7D
   L14_2 = L14_2.fB41FD22F
-  L15_2 = A0_2[12]
+  L15_2 = self[12]
   L14_2 = L14_2(L15_2)
   L15_2 = nil
   L16_2 = cE8D61D7D
@@ -477,12 +463,12 @@ function L70_1(A0_2)
     L19_2 = 0
     L16_2(L17_2, L18_2, L19_2)
   end
-  L16_2 = A0_2[6]
+  L16_2 = self[6]
   L16_2 = L16_2.minDuration
-  L17_2 = A0_2[6]
+  L17_2 = self[6]
   L17_2 = L17_2.maxDuration
   L17_2 = L17_2 - L16_2
-  L18_2 = A0_2[1]
+  L18_2 = self[1]
   L19_2 = L18_2
   L18_2 = L18_2.f52C8AF50
   L20_2 = 1
@@ -490,30 +476,27 @@ function L70_1(A0_2)
   L18_2 = L18_2(L19_2, L20_2, L21_2)
   L17_2 = L17_2 * L18_2
   L17_2 = L17_2 + L16_2
-  A0_2[2] = L17_2
-  L18_2 = A0_2
-  L17_2 = A0_2.FC6C47EA7B383E507
+  self[2] = L17_2
+  L18_2 = self
+  L17_2 = self.FC6C47EA7B383E507
   L17_2(L18_2)
-  L18_2 = A0_2
-  L17_2 = A0_2.F439C5A4BE1C324D9
+  L18_2 = self
+  L17_2 = self.F439C5A4BE1C324D9
   L17_2(L18_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "FEDFC5FEC67BCA752"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.createObject
+function C00E747581EFAAC3C_prototype:FEDFC5FEC67BCA752()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = c451059A3
   L1_2 = L1_2.f5776B6C6
-  L3_2 = A0_2
-  L2_2 = A0_2.FC8998AA36ADC82E6
+  L3_2 = self
+  L2_2 = self.FC8998AA36ADC82E6
   L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2 = L2_2(L3_2)
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
-  A0_2[11] = L1_2
+  self[11] = L1_2
   while true do
-    L1_2 = A0_2[11]
+    L1_2 = self[11]
     L2_2 = L1_2
     L1_2 = L1_2.f900312E7
     L1_2 = L1_2(L2_2)
@@ -531,7 +514,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
   L2_2 = nil
-  L3_2 = A0_2[13]
+  L3_2 = self[13]
   if -1 == L3_2 then
     L2_2 = "none"
   elseif 0 == L3_2 then
@@ -544,11 +527,11 @@ function L70_1(A0_2)
   L5_2 = L1_2
   L4_2 = L1_2.f68159593
   L6_2 = L2_2
-  L7_2 = A0_2[11]
+  L7_2 = self[11]
   L4_2 = L4_2(L5_2, L6_2, L7_2)
-  A0_2[12] = L4_2
+  self[12] = L4_2
   while true do
-    L4_2 = A0_2[12]
+    L4_2 = self[12]
     L5_2 = L4_2
     L4_2 = L4_2.f9D8BC178
     L4_2 = L4_2(L5_2)
@@ -559,53 +542,53 @@ function L70_1(A0_2)
     L4_2 = L4_2.S760DAE4C5371A78E
     L4_2()
   end
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   L5_2 = L4_2
   L4_2 = L4_2.f1A1210C4
   L4_2 = L4_2(L5_2)
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = CA5EA85D96A5EBA15
   L6_2 = L6_2.SCCE7BDD2C72B96F5
   L7_2 = L4_2
   L8_2 = "offset"
   L6_2 = L6_2(L7_2, L8_2)
   L5_2.offset = L6_2
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = CA5EA85D96A5EBA15
   L6_2 = L6_2.S76750264151ABA63
   L7_2 = L4_2
   L8_2 = "followCamera"
   L6_2 = L6_2(L7_2, L8_2)
   L5_2.followCamera = L6_2
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = CA5EA85D96A5EBA15
   L6_2 = L6_2.S76750264151ABA63
   L7_2 = L4_2
   L8_2 = "randRotationX"
   L6_2 = L6_2(L7_2, L8_2)
   L5_2.randRotationX = L6_2
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = CA5EA85D96A5EBA15
   L6_2 = L6_2.S76750264151ABA63
   L7_2 = L4_2
   L8_2 = "randRotationY"
   L6_2 = L6_2(L7_2, L8_2)
   L5_2.randRotationY = L6_2
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = CA5EA85D96A5EBA15
   L6_2 = L6_2.S76750264151ABA63
   L7_2 = L4_2
   L8_2 = "randRotationZ"
   L6_2 = L6_2(L7_2, L8_2)
   L5_2.randRotationZ = L6_2
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = CA5EA85D96A5EBA15
   L6_2 = L6_2.S7153C11CA829BCB8
   L7_2 = L4_2
   L8_2 = "minDuration"
   L6_2 = L6_2(L7_2, L8_2)
   L5_2.minDuration = L6_2
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = CA5EA85D96A5EBA15
   L6_2 = L6_2.S7153C11CA829BCB8
   L7_2 = L4_2
@@ -614,29 +597,26 @@ function L70_1(A0_2)
   L5_2.maxDuration = L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "FFF387E29B42F0C3A"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.endCoroutineFunc
+function C00E747581EFAAC3C_prototype:FFF387E29B42F0C3A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.fE9C29DA1
   L1_2(L2_2)
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L2_2 = L1_2
   L1_2 = L1_2.fE9C29DA1
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F7CB44030AC9EA3C8
+  L2_2 = self
+  L1_2 = self.F7CB44030AC9EA3C8
   L1_2(L2_2)
   L1_2 = cECB91E31
   L1_2 = L1_2.fB41FD22F
-  L2_2 = A0_2[12]
+  L2_2 = self[12]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cECB91E31
@@ -652,7 +632,7 @@ function L70_1(A0_2)
   end
   L3_2 = cE8D61D7D
   L3_2 = L3_2.fB41FD22F
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   L3_2 = L3_2(L4_2)
   L4_2 = nil
   L5_2 = cE8D61D7D
@@ -676,56 +656,50 @@ function L70_1(A0_2)
       L5_2()
     end
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F97EC163F561940DA
+  L6_2 = self
+  L5_2 = self.F97EC163F561940DA
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "F97EC163F561940DA"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.destroyObject
+function C00E747581EFAAC3C_prototype:F97EC163F561940DA()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L2_2 = L1_2
   L1_2 = L1_2.fCDCB600D
   L3_2 = true
   L1_2(L2_2, L3_2)
-  A0_2[11] = nil
+  self[11] = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "FC6C47EA7B383E507"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.updatePosition
+function C00E747581EFAAC3C_prototype:FC6C47EA7B383E507()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L1_2 = L1_2.followCamera
   if L1_2 then
     L1_2 = nil
     L2_2 = c467D18B0
     L2_2 = L2_2.f65BF3326
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L3_2 = L3_2.camera
     L4_2 = L1_2
     L2_2 = L2_2(L3_2, L4_2)
     if L2_2 then
-      L2_2 = A0_2[6]
+      L2_2 = self[6]
       L2_2 = L2_2.camera
       L3_2 = L2_2
       L2_2 = L2_2.fC14C49EA
       L2_2 = L2_2(L3_2)
       if not L2_2 then
-        L2_2 = A0_2[6]
+        L2_2 = self[6]
         L2_2.camera = nil
       end
     end
     L2_2 = nil
     L3_2 = c467D18B0
     L3_2 = L3_2.fBCDB6533
-    L4_2 = A0_2[6]
+    L4_2 = self[6]
     L4_2 = L4_2.camera
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
@@ -743,25 +717,25 @@ function L70_1(A0_2)
       L7_2 = L4_2
       L5_2 = L5_2(L6_2, L7_2)
       if L5_2 then
-        L5_2 = A0_2[6]
+        L5_2 = self[6]
         L6_2 = c467D18B0
         L6_2 = L6_2.fB41FD22F
         L7_2 = L3_2
         L6_2 = L6_2(L7_2)
         L5_2.camera = L6_2
-        L5_2 = A0_2[6]
+        L5_2 = self[6]
         L5_2.cameraObj = L3_2
       end
     end
     L3_2 = nil
     L4_2 = c467D18B0
     L4_2 = L4_2.f65BF3326
-    L5_2 = A0_2[6]
+    L5_2 = self[6]
     L5_2 = L5_2.camera
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L4_2 = A0_2[6]
+      L4_2 = self[6]
       L4_2 = L4_2.camera
       L5_2 = L4_2
       L4_2 = L4_2.f33A459EF
@@ -776,7 +750,7 @@ function L70_1(A0_2)
       L8_2 = nil
       L9_2 = c016374C1
       L9_2 = L9_2.f8C7D4F4D
-      L10_2 = A0_2[6]
+      L10_2 = self[6]
       L10_2 = L10_2.cameraObj
       L11_2 = L10_2
       L10_2 = L10_2.f5B268E4E
@@ -784,7 +758,7 @@ function L70_1(A0_2)
       L11_2 = L8_2
       L9_2 = L9_2(L10_2, L11_2)
       if L9_2 then
-        L9_2 = A0_2[6]
+        L9_2 = self[6]
         L9_2 = L9_2.cameraObj
         L10_2 = L9_2
         L9_2 = L9_2.f5B268E4E
@@ -804,7 +778,7 @@ function L70_1(A0_2)
         L12_2[3] = L15_2
         L7_2 = L12_2
       end
-      L9_2 = A0_2[6]
+      L9_2 = self[6]
       L9_2 = L9_2.offset
       L10_2 = {}
       L11_2 = L9_2[1]
@@ -819,7 +793,7 @@ function L70_1(A0_2)
       L10_2[1] = L11_2
       L10_2[2] = L12_2
       L10_2[3] = L13_2
-      L11_2 = A0_2[12]
+      L11_2 = self[12]
       L12_2 = L11_2
       L11_2 = L11_2.f8F2B0552
       L13_2 = L10_2[1]
@@ -830,65 +804,50 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "F322A5442A97921B7"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.updateLifeTime
+function C00E747581EFAAC3C_prototype:F322A5442A97921B7()
   local L1_2, L2_2
-  L1_2 = A0_2[2]
-  L2_2 = A0_2[4]
+  L1_2 = self[2]
+  L2_2 = self[4]
   L1_2 = L1_2 - L2_2
-  A0_2[2] = L1_2
-  L1_2 = A0_2[2]
+  self[2] = L1_2
+  L1_2 = self[2]
   if L1_2 > 0 then
     L1_2 = false
     return L1_2
   end
-  A0_2[2] = 0
+  self[2] = 0
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "FC8998AA36ADC82E6"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.getTemplatePath
+function C00E747581EFAAC3C_prototype:FC8998AA36ADC82E6()
   local L1_2
   L1_2 = ""
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "FC30191BCDD645CCB"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.beginCondition
+function C00E747581EFAAC3C_prototype:FC30191BCDD645CCB()
   local L1_2
   L1_2 = false
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "F97D691F2BAB2649F"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.endCondition
+function C00E747581EFAAC3C_prototype:F97D691F2BAB2649F()
   local L1_2
   L1_2 = false
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "FA23D39922B76B247"
-
-function L70_1(A0_2, A1_2)
+--- main.env.weather.happening.BaseWeatherHappening.SetVisible
+function C00E747581EFAAC3C_prototype:FA23D39922B76B247(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = cECB91E31
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[12]
+  L3_2 = self[12]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cECB91E31
@@ -904,7 +863,7 @@ function L70_1(A0_2, A1_2)
   end
   L4_2 = cE8D61D7D
   L4_2 = L4_2.fB41FD22F
-  L5_2 = A0_2[12]
+  L5_2 = self[12]
   L4_2 = L4_2(L5_2)
   L5_2 = nil
   L6_2 = cE8D61D7D
@@ -920,47 +879,35 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "F439C5A4BE1C324D9"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.onBecomeVisible
+function C00E747581EFAAC3C_prototype:F439C5A4BE1C324D9()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "F7CB44030AC9EA3C8"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.onBecomeInvisible
+function C00E747581EFAAC3C_prototype:F7CB44030AC9EA3C8()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "F970217BDDC4A3AC8"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.env.weather.happening.BaseWeatherHappening.OnWeatherChanged
+function C00E747581EFAAC3C_prototype:F970217BDDC4A3AC8(A1_2, A2_2)
   local L3_2
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2.prevType = A1_2
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2.currentType = A2_2
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   if not L3_2 then
-    A0_2[7] = true
+    self[7] = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C00E747581EFAAC3C"]["prototype"]
-L69_1 = "F993763797090B9A6"
-
-function L70_1(A0_2)
+--- main.env.weather.happening.BaseWeatherHappening.OnHour
+function C00E747581EFAAC3C_prototype:F993763797090B9A6()
   local L1_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   if not L1_2 then
-    A0_2[7] = true
+    self[7] = true
   end
 end
 

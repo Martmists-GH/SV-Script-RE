@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C5A2F3848C2ED48F8"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C5A2F3848C2ED48F8"]
-L69_1 = "new"
+---@alias C5A2F3848C2ED48F8 main_battle_ui_BattleUiBag
 
-function L70_1()
+---@class main_battle_ui_BattleUiBag : C5A2F3848C2ED48F8_prototype
+---@field prototype C5A2F3848C2ED48F8_prototype
+C5A2F3848C2ED48F8 = L15_1()
+function C5A2F3848C2ED48F8.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C5A2F3848C2ED48F8
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A2F3848C2ED48F8"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C5A2F3848C2ED48F8
+function C5A2F3848C2ED48F8.super(A0_2)
   local L1_2
   A0_2[2] = nil
   L1_2 = EBFEC401B6945E030
@@ -33,11 +27,7 @@ function L70_1(A0_2)
   A0_2[1] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A2F3848C2ED48F8"]
-L69_1 = "__name__"
-L70_1 = "C5A2F3848C2ED48F8"
-L68_1[L69_1] = L70_1
+C5A2F3848C2ED48F8.__name__ = "C5A2F3848C2ED48F8"
 L68_1 = _ENV["C5A2F3848C2ED48F8"]
 L69_1 = "S385504EFF7E842C3"
 
@@ -60,16 +50,11 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A2F3848C2ED48F8"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A2F3848C2ED48F8"]["prototype"]
-L69_1 = "FD488B761D9D184B0"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+---@class C5A2F3848C2ED48F8_prototype
+C5A2F3848C2ED48F8_prototype = L15_1()
+C5A2F3848C2ED48F8.prototype = C5A2F3848C2ED48F8_prototype
+--- main.battle.ui.BattleUiBag.StartItemSelect
+function C5A2F3848C2ED48F8_prototype:FD488B761D9D184B0(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L7_2 = A1_2
   L6_2 = A1_2.fB3CF1DEB
@@ -141,29 +126,26 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
       L13_2 = L12_2
       L12_2 = L12_2.f025B2307
       L12_2 = L12_2(L13_2)
-      A0_2[2] = L12_2
+      self[2] = L12_2
     else
-      A0_2[2] = nil
+      self[2] = nil
     end
   else
     L12_2 = L8_2[24]
     L13_2 = L12_2
     L12_2 = L12_2.f025B2307
     L12_2 = L12_2(L13_2)
-    A0_2[2] = L12_2
+    self[2] = L12_2
   end
   L12_2 = EBFEC401B6945E030
   L12_2 = L12_2.WaitLoad
-  A0_2[1] = L12_2
+  self[1] = L12_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A2F3848C2ED48F8"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiBag.Update
+function C5A2F3848C2ED48F8_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L1_2 = L1_2[1]
   if 0 == L1_2 then
   elseif 1 == L1_2 then
@@ -176,7 +158,7 @@ function L70_1(A0_2)
     if nil ~= L2_2 then
       L2_2 = EBFEC401B6945E030
       L2_2 = L2_2.Main
-      A0_2[1] = L2_2
+      self[1] = L2_2
     end
   elseif 2 == L1_2 then
     L2_2 = CD39F1D6E7FAA0284
@@ -188,7 +170,7 @@ function L70_1(A0_2)
     if nil == L2_2 then
       L2_2 = EBFEC401B6945E030
       L2_2 = L2_2.None
-      A0_2[1] = L2_2
+      self[1] = L2_2
       L2_2 = true
       return L2_2
     end
@@ -197,13 +179,10 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A2F3848C2ED48F8"]["prototype"]
-L69_1 = "F4FECF0AAF233C9AA"
-
-function L70_1(A0_2)
+--- main.battle.ui.BattleUiBag.GetPokeParty
+function C5A2F3848C2ED48F8_prototype:F4FECF0AAF233C9AA()
   local L1_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   return L1_2
 end
 

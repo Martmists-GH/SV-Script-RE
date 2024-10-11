@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CC1499AED82D7DDC1"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CC1499AED82D7DDC1"]
-L69_1 = "new"
+---@alias CC1499AED82D7DDC1 main_system_game_event_GameEventPokeCommunication
 
-function L70_1(A0_2, A1_2)
+---@class main_system_game_event_GameEventPokeCommunication : CC1499AED82D7DDC1_prototype
+---@field prototype CC1499AED82D7DDC1_prototype
+CC1499AED82D7DDC1 = L15_1()
+function CC1499AED82D7DDC1.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CC1499AED82D7DDC1
@@ -23,11 +20,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC1499AED82D7DDC1"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@param A0_2 CC1499AED82D7DDC1
+function CC1499AED82D7DDC1.super(A0_2, A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   A0_2[20] = nil
   A0_2[19] = nil
@@ -40,11 +34,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC1499AED82D7DDC1"]
-L69_1 = "__name__"
-L70_1 = "CC1499AED82D7DDC1"
-L68_1[L69_1] = L70_1
+CC1499AED82D7DDC1.__name__ = "CC1499AED82D7DDC1"
 L68_1 = _ENV["CC1499AED82D7DDC1"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -83,18 +73,13 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC1499AED82D7DDC1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC1499AED82D7DDC1"]["prototype"]
-L69_1 = "F4E09538E8F109EC2"
-
-function L70_1(A0_2, A1_2)
+---@class CC1499AED82D7DDC1_prototype
+CC1499AED82D7DDC1_prototype = L15_1()
+CC1499AED82D7DDC1.prototype = CC1499AED82D7DDC1_prototype
+--- main.system.game_event.GameEventPokeCommunication.onInterrupted
+function CC1499AED82D7DDC1_prototype:F4E09538E8F109EC2(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   L2_2 = L2_2.IsPartner
   if L2_2 then
     L2_2 = 1
@@ -121,11 +106,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC1499AED82D7DDC1"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPokeCommunication.onCreate
+function CC1499AED82D7DDC1_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = L16_1
   L2_2 = {}
@@ -154,7 +136,7 @@ function L70_1(A0_2)
       L1_2.strParams = L2_2
     end
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2[26] = L1_2
   L2_2 = L16_1
   L3_2 = {}
@@ -183,21 +165,21 @@ function L70_1(A0_2)
       L2_2.strParams = L3_2
     end
   end
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2[24] = L2_2
   L3_2 = C94868DA07DF00768
   L3_2 = L3_2.new
-  L4_2 = A0_2[17]
+  L4_2 = self[17]
   L4_2 = L4_2.pokemon
-  L5_2 = A0_2[17]
+  L5_2 = self[17]
   L5_2 = L5_2.IsPartner
   L3_2 = L3_2(L4_2, L5_2)
-  A0_2[18] = L3_2
+  self[18] = L3_2
   L3_2 = C6F1822A717AC599D
   L3_2 = L3_2.S264F26F6894F3392
   L4_2 = L3_2
   L3_2 = L3_2.F148649E258BA8EBB
-  L5_2 = A0_2[18]
+  L5_2 = self[18]
   L3_2(L4_2, L5_2)
   L3_2 = nil
   L4_2 = C282DAED1E1D374F6
@@ -209,8 +191,8 @@ function L70_1(A0_2)
   L6_2 = L6_2.S62775AB6BE59717D
   L7_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2, L7_2)
-  A0_2[19] = L4_2
-  L4_2 = A0_2[19]
+  self[19] = L4_2
+  L4_2 = self[19]
   L5_2 = L4_2
   L4_2 = L4_2.F5B98E8D4C251422B
   L6_2 = true
@@ -444,28 +426,25 @@ function L70_1(A0_2)
   L7_2 = L7_2(L8_2)
   L6_2 = L6_2 .. L7_2
   L5_2[L6_2] = false
-  L5_2 = A0_2[19]
+  L5_2 = self[19]
   L6_2 = L5_2
   L5_2 = L5_2.F6C8DDC9A268EFAD5
   L7_2 = CC1499AED82D7DDC1
   L7_2 = L7_2.S4BC61967D5C69E75
   L8_2 = L4_2
   L5_2 = L5_2(L6_2, L7_2, L8_2)
-  A0_2[20] = L5_2
-  L5_2 = A0_2[20]
+  self[20] = L5_2
+  L5_2 = self[20]
   L6_2 = L5_2
   L5_2 = L5_2.F5B98E8D4C251422B
   L7_2 = true
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC1499AED82D7DDC1"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPokeCommunication.onUpdate
+function CC1499AED82D7DDC1_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.SDE9EF3CFD428417D
   L2_2 = L2_2[24]
@@ -517,7 +496,7 @@ function L70_1(A0_2)
   
   L3_2(L4_2, L5_2)
   while true do
-    L3_2 = A0_2[18]
+    L3_2 = self[18]
     L3_2 = L3_2[1]
     if L3_2 then
       break
@@ -537,15 +516,12 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC1499AED82D7DDC1"]["prototype"]
-L69_1 = "F68499476069C0B1E"
-
-function L70_1(A0_2)
+--- main.system.game_event.GameEventPokeCommunication.onFinished
+function CC1499AED82D7DDC1_prototype:F68499476069C0B1E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[19]
+  L1_2 = self[19]
   if nil ~= L1_2 then
-    L1_2 = A0_2[19]
+    L1_2 = self[19]
     L2_2 = L1_2[5]
     L3_2 = L2_2
     L2_2 = L2_2.iterator
@@ -565,7 +541,7 @@ function L70_1(A0_2)
       L5_2 = L5_2[2]
       L3_2(L4_2, L5_2)
     end
-    A0_2[20] = nil
+    self[20] = nil
   end
 end
 

@@ -1,3 +1,7 @@
+---@alias CF575A0A98B1068BC main_field_behaviour_scenario_main_champion_gym_mushi_Gym_mushi_poke_base
+
+---@class main_field_behaviour_scenario_main_champion_gym_mushi_Gym_mushi_poke_base : CF575A0A98B1068BC_prototype
+---@field prototype CF575A0A98B1068BC_prototype
 L55_1 = _ENV
 L56_1 = "CF575A0A98B1068BC"
 L57_1 = L15_1
@@ -52,25 +56,20 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF575A0A98B1068BC"]
 L69_1 = "__name__"
 L70_1 = "CF575A0A98B1068BC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+---@class CF575A0A98B1068BC_prototype
+CF575A0A98B1068BC_prototype = L15_1()
+CF575A0A98B1068BC.prototype = CF575A0A98B1068BC_prototype
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.onSetup
+function CF575A0A98B1068BC_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = CA3CB2DEB7FE996E5
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F22C7B81A049FA20D
-  L3_2 = A0_2
+  L3_2 = self
   L2_2(L3_2)
-  A0_2[9] = false
-  L2_2 = A0_2[21]
+  self[9] = false
+  L2_2 = self[21]
   L3_2 = L2_2
   L2_2 = L2_2.FD64742C3B1BCE111
   L2_2 = L2_2(L3_2)
@@ -91,36 +90,30 @@ function L70_1(A0_2)
   
   L4_2 = "setupCoroutine"
   L2_2 = L2_2(L3_2, L4_2)
-  L3_2 = A0_2[51]
+  L3_2 = self[51]
   L4_2 = L3_2
   L3_2 = L3_2.push
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "FA9EE5C80152A15A0"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.setupCoroutine
+function CF575A0A98B1068BC_prototype:FA9EE5C80152A15A0()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FB3518F59C773D174
+  L2_2 = self
+  L1_2 = self.FB3518F59C773D174
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FE9D694A7E455EB0B
+  L2_2 = self
+  L1_2 = self.FE9D694A7E455EB0B
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "FB3518F59C773D174"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.setupAnimation
+function CF575A0A98B1068BC_prototype:FB3518F59C773D174()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  A0_2[52] = nil
+  self[52] = nil
   while true do
-    L1_2 = A0_2[7]
+    L1_2 = self[7]
     L2_2 = cE35B3EB3
     L2_2 = L2_2.fB41FD22F
     
@@ -138,11 +131,11 @@ function L70_1(A0_2)
     
     L3_2, L4_2, L5_2 = L3_2()
     L2_2 = L2_2(L3_2, L4_2, L5_2)
-    A0_2[52] = L2_2
+    self[52] = L2_2
     L2_2 = nil
     L3_2 = cE35B3EB3
     L3_2 = L3_2.f67745D00
-    L4_2 = A0_2[52]
+    L4_2 = self[52]
     L5_2 = L2_2
     L3_2 = L3_2(L4_2, L5_2)
     if L3_2 then
@@ -153,7 +146,7 @@ function L70_1(A0_2)
     L3_2()
   end
   while true do
-    L1_2 = A0_2[52]
+    L1_2 = self[52]
     L2_2 = L1_2
     L1_2 = L1_2.f9D8BC178
     L3_2 = "default"
@@ -165,7 +158,7 @@ function L70_1(A0_2)
     L1_2 = L1_2.S760DAE4C5371A78E
     L1_2()
   end
-  L1_2 = A0_2[52]
+  L1_2 = self[52]
   L2_2 = L1_2
   L1_2 = L1_2.fF56461AF
   L1_2 = L1_2(L2_2)
@@ -173,70 +166,61 @@ function L70_1(A0_2)
   L2_2 = L1_2.f993C6050
   L4_2 = "poke_state_int"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[56] = L2_2
+  self[56] = L2_2
   L3_2 = L1_2
   L2_2 = L1_2.f993C6050
   L4_2 = "one_emotion_int"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[57] = L2_2
+  self[57] = L2_2
   L3_2 = L1_2
   L2_2 = L1_2.f993C6050
   L4_2 = "one_emotion_trigger"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[58] = L2_2
+  self[58] = L2_2
   L3_2 = L1_2
   L2_2 = L1_2.f993C6050
   L4_2 = "to_wait_move_trigger"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[59] = L2_2
+  self[59] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "FE9D694A7E455EB0B"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.setupState
+function CF575A0A98B1068BC_prototype:FE9D694A7E455EB0B()
   local L1_2, L2_2, L3_2
   L1_2 = C840932D29368DF5B
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
-  A0_2[54] = L1_2
+  self[54] = L1_2
   L1_2 = C8A382A07F8764D43
   L1_2 = L1_2.new
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
-  A0_2[55] = L1_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F28EAF3B3AA178E3E
-  L3_2 = A0_2[55]
+  self[55] = L1_2
+  L2_2 = self
+  L1_2 = self.F28EAF3B3AA178E3E
+  L3_2 = self[55]
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.PreUpdate
+function CF575A0A98B1068BC_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F96B8CA0BD114A0B6
+  L3_2 = self
+  L2_2 = self.F96B8CA0BD114A0B6
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F0CBE1DDFD502E349
+  L3_2 = self
+  L2_2 = self.F0CBE1DDFD502E349
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "F96B8CA0BD114A0B6"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.updateCoroutine
+function CF575A0A98B1068BC_prototype:F96B8CA0BD114A0B6(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = 0
-  L3_2 = A0_2[51]
+  L3_2 = self[51]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then
@@ -292,7 +276,7 @@ function L70_1(A0_2, A1_2)
     L8_2 = L4_2[1]
     L7_2 = L7_2(L8_2)
     if "dead" == L7_2 then
-      L7_2 = A0_2[51]
+      L7_2 = self[51]
       L8_2 = L7_2
       L7_2 = L7_2.remove
       L9_2 = L4_2
@@ -301,15 +285,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "F0CBE1DDFD502E349"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.updateState
+function CF575A0A98B1068BC_prototype:F0CBE1DDFD502E349(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[53]
+  L2_2 = self[53]
   if nil ~= L2_2 then
-    L2_2 = A0_2[53]
+    L2_2 = self[53]
     L3_2 = L2_2
     L2_2 = L2_2.FE94F3E13286232CF
     L4_2 = A1_2
@@ -317,38 +298,32 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "F28EAF3B3AA178E3E"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.ChangeState
+function CF575A0A98B1068BC_prototype:F28EAF3B3AA178E3E(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[53]
+  L2_2 = self[53]
   if nil ~= L2_2 then
-    L2_2 = A0_2[53]
+    L2_2 = self[53]
     L3_2 = L2_2
     L2_2 = L2_2.F6D1EF40E74B6E9A4
     L2_2(L3_2)
   end
-  A0_2[53] = A1_2
-  L2_2 = A0_2[53]
+  self[53] = A1_2
+  L2_2 = self[53]
   if nil ~= L2_2 then
-    L2_2 = A0_2[53]
+    L2_2 = self[53]
     L3_2 = L2_2
     L2_2 = L2_2.F7A3D296366E973CB
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "FAC93F8BEE25E2F74"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.SetSkipFrameCount
+function CF575A0A98B1068BC_prototype:FAC93F8BEE25E2F74(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cCF781FB6
@@ -364,15 +339,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "FF48DEFC74F19323C"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.SetPauseScript
+function CF575A0A98B1068BC_prototype:FF48DEFC74F19323C(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = cCF781FB6
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = cCF781FB6
@@ -403,11 +375,8 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "F86A0FB324C31FB7B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.PlayAnimation
+function CF575A0A98B1068BC_prototype:F86A0FB324C31FB7B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if nil == A2_2 then
     A2_2 = 0.0
@@ -417,17 +386,17 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = nil
     L5_2 = cB476C6DC
     L5_2 = L5_2.fFB285883
-    L6_2 = A0_2[56]
+    L6_2 = self[56]
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
     if L5_2 then
-      L5_2 = A0_2[56]
+      L5_2 = self[56]
       L6_2 = L5_2
       L5_2 = L5_2.f4CAD79CA
       L7_2 = 0
       L5_2(L6_2, L7_2)
     else
-      L5_2 = A0_2[7]
+      L5_2 = self[7]
       L6_2 = nil
       L7_2 = cE35B3EB3
       L7_2 = L7_2.fDBA763D1
@@ -476,17 +445,17 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = nil
     L5_2 = cB476C6DC
     L5_2 = L5_2.fFB285883
-    L6_2 = A0_2[57]
+    L6_2 = self[57]
     L7_2 = L4_2
     L5_2 = L5_2(L6_2, L7_2)
     if L5_2 then
-      L5_2 = A0_2[57]
+      L5_2 = self[57]
       L6_2 = L5_2
       L5_2 = L5_2.f4CAD79CA
       L7_2 = 1
       L5_2(L6_2, L7_2)
     else
-      L5_2 = A0_2[7]
+      L5_2 = self[7]
       L6_2 = nil
       L7_2 = cE35B3EB3
       L7_2 = L7_2.fDBA763D1
@@ -534,17 +503,17 @@ function L70_1(A0_2, A1_2, A2_2)
     L5_2 = nil
     L6_2 = cB476C6DC
     L6_2 = L6_2.fFB285883
-    L7_2 = A0_2[58]
+    L7_2 = self[58]
     L8_2 = L5_2
     L6_2 = L6_2(L7_2, L8_2)
     if L6_2 then
-      L6_2 = A0_2[58]
+      L6_2 = self[58]
       L7_2 = L6_2
       L6_2 = L6_2.fA0D2BC8E
       L8_2 = true
       L6_2(L7_2, L8_2)
     else
-      L6_2 = A0_2[7]
+      L6_2 = self[7]
       L7_2 = nil
       L8_2 = cE35B3EB3
       L8_2 = L8_2.fDBA763D1
@@ -592,11 +561,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "FB009193A4192439D"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.StopAnimation
+function CF575A0A98B1068BC_prototype:FB009193A4192439D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = A1_2[1]
   if 0 == L2_2 then
@@ -604,17 +570,17 @@ function L70_1(A0_2, A1_2)
     L3_2 = nil
     L4_2 = cB476C6DC
     L4_2 = L4_2.fFB285883
-    L5_2 = A0_2[59]
+    L5_2 = self[59]
     L6_2 = L3_2
     L4_2 = L4_2(L5_2, L6_2)
     if L4_2 then
-      L4_2 = A0_2[59]
+      L4_2 = self[59]
       L5_2 = L4_2
       L4_2 = L4_2.fA0D2BC8E
       L6_2 = true
       L4_2(L5_2, L6_2)
     else
-      L4_2 = A0_2[7]
+      L4_2 = self[7]
       L5_2 = nil
       L6_2 = cE35B3EB3
       L6_2 = L6_2.fDBA763D1
@@ -662,13 +628,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "F48728A2FF460547B"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.IsIdleAnimation
+function CF575A0A98B1068BC_prototype:F48728A2FF460547B()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = A0_2[7]
+  L1_2 = self[7]
   L2_2 = nil
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fDBA763D1
@@ -706,11 +669,8 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "F2C2D0B7F283325A7"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.GetPokeVoiceProbability
+function CF575A0A98B1068BC_prototype:F2C2D0B7F283325A7()
   local L1_2
   L1_2 = CF3CED01D902BAF5B
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -718,11 +678,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF575A0A98B1068BC"]["prototype"]
-L69_1 = "F9B395BBF7A51343A"
-
-function L70_1(A0_2)
+--- main.field.behaviour.scenario.main.champion.gym.mushi.Gym_mushi_poke_base.F9B395BBF7A51343A
+function CF575A0A98B1068BC_prototype:F9B395BBF7A51343A()
   local L1_2
   L1_2 = 2
   return L1_2

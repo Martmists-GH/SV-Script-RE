@@ -1,3 +1,5 @@
+---@class C01FD04A1793F4F86 : C01FD04A1793F4F86_prototype
+---@field prototype C01FD04A1793F4F86_prototype
 L55_1 = _ENV
 L56_1 = "C01FD04A1793F4F86"
 L57_1 = L15_1
@@ -158,38 +160,30 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C01FD04A1793F4F86"]
 L69_1 = "__name__"
 L70_1 = "C01FD04A1793F4F86"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "F7A3D296366E973CB"
-
-function L70_1(A0_2)
+---@class C01FD04A1793F4F86_prototype
+C01FD04A1793F4F86_prototype = L15_1()
+C01FD04A1793F4F86.prototype = C01FD04A1793F4F86_prototype
+--- C01FD04A1793F4F86.Initialize
+function C01FD04A1793F4F86_prototype:F7A3D296366E973CB()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[4]
-  L2_2 = A0_2[4]
+  L1_2 = self[4]
+  L2_2 = self[4]
   L2_2 = L2_2.realTime
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.realTimeToGameTmeCoe
   L2_2 = L2_2 * L3_2
   L1_2.gameTime = L2_2
   L1_2 = cECFF5CEA
   L1_2 = L1_2.fD5BA2AFD
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2.gameTime
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "F99F47CA018A6E099"
-
-function L70_1(A0_2)
+--- C01FD04A1793F4F86.setRealTimeContext
+function C01FD04A1793F4F86_prototype:F99F47CA018A6E099()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.f9D26E972
   L1_2 = L1_2(L2_2)
@@ -228,11 +222,11 @@ function L70_1(A0_2)
   L4_2 = L4_2(L5_2)
   L5_2 = L10_1.math
   L5_2 = L5_2.floor
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L6_2 = L6_2.gameTimePerDay
   L6_2 = L3_2 / L6_2
   L5_2 = L5_2(L6_2)
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L6_2 = L6_2.gameTimePerDay
   L5_2 = L5_2 * L6_2
   L5_2 = L4_2 + L5_2
@@ -247,94 +241,85 @@ function L70_1(A0_2)
   L7_2.__fields__ = L8_2
   L7_2.timeT = L1_2
   L7_2.dayTimeT = L3_2
-  L8_2 = A0_2[3]
+  L8_2 = self[3]
   L8_2 = L8_2.dayTimeT
   L7_2.prevDayTimeT = L8_2
   L7_2.daySeparatedTime = L4_2
   L7_2.gamedaySeparatedTime = L5_2
   L6_2 = L6_2(L7_2)
-  A0_2[3] = L6_2
+  self[3] = L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "FB4B5759D65F5972C"
-
-function L70_1(A0_2, A1_2)
+--- C01FD04A1793F4F86.OnLoad
+function C01FD04A1793F4F86_prototype:FB4B5759D65F5972C(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FA037928829491EB1
   L4_2 = 0
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FA037928829491EB1
   L4_2 = 1
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FA037928829491EB1
   L4_2 = 2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2.needUpdate = true
   L2_2 = C3A36506FBC96ACBD
   L2_2 = L2_2.S7C5A99309B5F5754
   L2_2()
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FB4B5759D65F5972C
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2.needUpdate = true
   L2_2 = C3A36506FBC96ACBD
   L2_2 = L2_2.S7C5A99309B5F5754
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "FD116FBCCD47245CD"
-
-function L70_1(A0_2, A1_2)
+--- C01FD04A1793F4F86.FD116FBCCD47245CD
+function C01FD04A1793F4F86_prototype:FD116FBCCD47245CD(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FD116FBCCD47245CD
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "F8C8B225CB8805704"
-
-function L70_1(A0_2, A1_2)
+--- C01FD04A1793F4F86.F8C8B225CB8805704
+function C01FD04A1793F4F86_prototype:F8C8B225CB8805704(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[11]
+  L2_2 = self[11]
   if not L2_2 then
     return A1_2
   end
   L2_2 = A1_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.timePaused
   if L3_2 then
-    L3_2 = A0_2[10]
-    L4_2 = A0_2[1]
+    L3_2 = self[10]
+    L4_2 = self[1]
     L4_2 = L4_2.realTimeToGameTmeCoe
     L3_2 = L3_2 * L4_2
     L2_2 = A1_2 + L3_2
   else
     L3_2 = C075A638F130352C3
     L3_2 = L3_2.S61AB39B97FD53F6D
-    L4_2 = A0_2[8]
+    L4_2 = self[8]
     L3_2 = L3_2 - L4_2
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L4_2 = L4_2.timeSpeed
     L3_2 = L3_2 * L4_2
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L4_2 = L4_2.realTimeToGameTmeCoe
     L3_2 = L3_2 * L4_2
     L2_2 = A1_2 + L3_2
@@ -347,11 +332,8 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "FF607C9E0AC8DD734"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C01FD04A1793F4F86.FF607C9E0AC8DD734
+function C01FD04A1793F4F86_prototype:FF607C9E0AC8DD734(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if 0 == A2_2 then
     L3_2 = L10_1.math
@@ -400,11 +382,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "F53462EC590EA2987"
-
-function L70_1(A0_2, A1_2)
+--- C01FD04A1793F4F86.DateChangedProc
+function C01FD04A1793F4F86_prototype:F53462EC590EA2987(A1_2)
   local L2_2
   L2_2 = C7E63B1C6A22F0EAB
   L2_2 = L2_2.S09BC077BC81B8A56
@@ -452,11 +431,8 @@ function L70_1(A0_2, A1_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "F2B7126D5BCC4A6DF"
-
-function L70_1(A0_2, A1_2)
+--- C01FD04A1793F4F86.RealDateChangedProc
+function C01FD04A1793F4F86_prototype:F2B7126D5BCC4A6DF(A1_2)
   local L2_2, L3_2, L4_2
   if nil == A1_2 then
     A1_2 = false
@@ -480,11 +456,8 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "F9EE24CAFEE776B89"
-
-function L70_1(A0_2, A1_2)
+--- C01FD04A1793F4F86.HourChangedProc
+function C01FD04A1793F4F86_prototype:F9EE24CAFEE776B89(A1_2)
   local L2_2, L3_2
   L2_2 = C755044F92F3DC4F2
   L2_2 = L2_2.SB89507F0D8343DEB
@@ -495,11 +468,8 @@ function L70_1(A0_2, A1_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "F4FA859B84526836B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- C01FD04A1793F4F86.F4FA859B84526836B
+function C01FD04A1793F4F86_prototype:F4FA859B84526836B(A1_2, A2_2)
   local L3_2, L4_2, L5_2
   if 0 == A1_2 then
     return A2_2
@@ -529,11 +499,8 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "FD3CC1C4E26695C55"
-
-function L70_1(A0_2)
+--- C01FD04A1793F4F86.FD3CC1C4E26695C55
+function C01FD04A1793F4F86_prototype:FD3CC1C4E26695C55()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = cB0108755
   L1_2 = L1_2.f101D811F
@@ -579,7 +546,7 @@ function L70_1(A0_2)
   L3_2 = L1_2
   L2_2 = L2_2(L3_2)
   L3_2 = L31_1.int
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L4_2 = L4_2.timeT
   L5_2 = C01FD04A1793F4F86
   L5_2 = L5_2.S96FE601DF267A0F6
@@ -606,14 +573,14 @@ function L70_1(A0_2)
   L3_2(L4_2)
   ::lbl_64::
   L3_2 = L31_1.int
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L4_2 = L4_2.timeT
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2.gameTimePerDay
   L4_2 = L4_2 / L5_2
   L3_2 = L3_2(L4_2)
   L4_2 = L31_1.int
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2.gameTimePerDay
   L5_2 = L2_2 / L5_2
   L4_2 = L4_2(L5_2)
@@ -622,11 +589,11 @@ function L70_1(A0_2)
     L3_2 = L3_2.S77647FFCD947CA10
     L3_2()
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.gameTimePerDay
   L3_2 = L3_2 / 24
   L4_2 = L31_1.int
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L5_2 = L5_2.timeT
   L5_2 = L5_2 / L3_2
   L4_2(L5_2)
@@ -635,11 +602,8 @@ function L70_1(A0_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "FDD2F5CE15C426642"
-
-function L70_1(A0_2)
+--- C01FD04A1793F4F86.FDD2F5CE15C426642
+function C01FD04A1793F4F86_prototype:FDD2F5CE15C426642()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = cB0108755
   L1_2 = L1_2.f101D811F
@@ -685,7 +649,7 @@ function L70_1(A0_2)
   L3_2 = L1_2
   L2_2 = L2_2(L3_2)
   L3_2 = L31_1.int
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L4_2 = L4_2.timeT
   L5_2 = C01FD04A1793F4F86
   L5_2 = L5_2.S96FE601DF267A0F6
@@ -697,34 +661,34 @@ function L70_1(A0_2)
   L5_2 = L2_2 / L5_2
   L4_2 = L4_2(L5_2)
   if L3_2 > L4_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F2B7126D5BCC4A6DF
+    L4_2 = self
+    L3_2 = self.F2B7126D5BCC4A6DF
     L5_2 = true
     L3_2(L4_2, L5_2)
   end
   L3_2 = L31_1.int
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L4_2 = L4_2.timeT
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2.gameTimePerDay
   L4_2 = L4_2 / L5_2
   L3_2 = L3_2(L4_2)
   L4_2 = L31_1.int
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2.gameTimePerDay
   L5_2 = L2_2 / L5_2
   L4_2 = L4_2(L5_2)
   if L3_2 > L4_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F53462EC590EA2987
+    L4_2 = self
+    L3_2 = self.F53462EC590EA2987
     L5_2 = true
     L3_2(L4_2, L5_2)
   end
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L3_2 = L3_2.gameTimePerDay
   L3_2 = L3_2 / 24
   L4_2 = L31_1.int
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L5_2 = L5_2.timeT
   L5_2 = L5_2 / L3_2
   L4_2 = L4_2(L5_2)
@@ -732,37 +696,31 @@ function L70_1(A0_2)
   L6_2 = L2_2 / L3_2
   L5_2 = L5_2(L6_2)
   if L4_2 > L5_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F9EE24CAFEE776B89
+    L7_2 = self
+    L6_2 = self.F9EE24CAFEE776B89
     L8_2 = L4_2 - L5_2
     L6_2(L7_2, L8_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "F856845C5D150A6DE"
-
-function L70_1(A0_2)
+--- C01FD04A1793F4F86.BootEnable
+function C01FD04A1793F4F86_prototype:F856845C5D150A6DE()
   local L1_2, L2_2
-  A0_2[11] = true
+  self[11] = true
   L1_2 = L58_1
   L2_2 = C075A638F130352C3
   L2_2 = L2_2.S61AB39B97FD53F6D
   L1_2 = L1_2(L2_2)
-  A0_2[9] = L1_2
+  self[9] = L1_2
   L1_2 = L58_1
   L2_2 = C075A638F130352C3
   L2_2 = L2_2.S61AB39B97FD53F6D
   L1_2 = L1_2(L2_2)
-  A0_2[8] = L1_2
+  self[8] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "F36837B48B38D4857"
-
-function L70_1(A0_2, A1_2)
+--- C01FD04A1793F4F86.calcTimeZone
+function C01FD04A1793F4F86_prototype:F36837B48B38D4857(A1_2)
   local L2_2, L3_2
   L2_2 = A1_2 / 3600
   if L2_2 >= 6 and L2_2 < 18 then
@@ -777,35 +735,32 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C01FD04A1793F4F86"]["prototype"]
-L69_1 = "FC3D2216D65AB3173"
-
-function L70_1(A0_2)
+--- C01FD04A1793F4F86.FC3D2216D65AB3173
+function C01FD04A1793F4F86_prototype:FC3D2216D65AB3173()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L1_2 = L1_2.needUpdate
   if not L1_2 then
     return
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.F8C8B225CB8805704
-  L3_2 = A0_2[4]
+  L2_2 = self
+  L1_2 = self.F8C8B225CB8805704
+  L3_2 = self[4]
   L3_2 = L3_2.gameTime
   L1_2 = L1_2(L2_2, L3_2)
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2.currentGameTime
   
   function L3_2()
     local L0_3, L1_3, L2_3, L3_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[5]
     L1_3 = L1_3[1]
     L1_3 = L1_3[0]
     L1_3 = L1_3.length
     if L1_3 > 0 then
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[5]
       L2_3 = L1_3
       L1_3 = L1_3.F92B6AA2B0EB00079
@@ -820,19 +775,19 @@ function L70_1(A0_2)
   
   L3_2 = L3_2()
   L2_2[0] = L3_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2.currentGameTime
   
   function L3_2()
     local L0_3, L1_3, L2_3, L3_3, L4_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[5]
     L1_3 = L1_3[1]
     L1_3 = L1_3[1]
     L1_3 = L1_3.length
     if L1_3 > 0 then
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[5]
       L2_3 = L1_3
       L1_3 = L1_3.F92B6AA2B0EB00079
@@ -840,7 +795,7 @@ function L70_1(A0_2)
       L1_3 = L1_3(L2_3, L3_3)
       L0_3 = L1_3
     else
-      L1_3 = A0_2
+      L1_3 = self
       L2_3 = L1_3
       L1_3 = L1_3.F4FA859B84526836B
       L3_3 = 1
@@ -853,19 +808,19 @@ function L70_1(A0_2)
   
   L3_2 = L3_2()
   L2_2[1] = L3_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2.currentGameTime
   
   function L3_2()
     local L0_3, L1_3, L2_3, L3_3, L4_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[5]
     L1_3 = L1_3[1]
     L1_3 = L1_3[2]
     L1_3 = L1_3.length
     if L1_3 > 0 then
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[5]
       L2_3 = L1_3
       L1_3 = L1_3.F92B6AA2B0EB00079
@@ -873,7 +828,7 @@ function L70_1(A0_2)
       L1_3 = L1_3(L2_3, L3_3)
       L0_3 = L1_3
     else
-      L1_3 = A0_2
+      L1_3 = self
       L2_3 = L1_3
       L1_3 = L1_3.F4FA859B84526836B
       L3_3 = 2
@@ -886,34 +841,34 @@ function L70_1(A0_2)
   
   L3_2 = L3_2()
   L2_2[2] = L3_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2.currentTimeZone
-  L4_2 = A0_2
-  L3_2 = A0_2.F36837B48B38D4857
-  L5_2 = A0_2[6]
+  L4_2 = self
+  L3_2 = self.F36837B48B38D4857
+  L5_2 = self[6]
   L5_2 = L5_2.currentGameTime
   L5_2 = L5_2[0]
   L3_2 = L3_2(L4_2, L5_2)
   L2_2[0] = L3_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2.currentTimeZone
-  L4_2 = A0_2
-  L3_2 = A0_2.F36837B48B38D4857
-  L5_2 = A0_2[6]
+  L4_2 = self
+  L3_2 = self.F36837B48B38D4857
+  L5_2 = self[6]
   L5_2 = L5_2.currentGameTime
   L5_2 = L5_2[1]
   L3_2 = L3_2(L4_2, L5_2)
   L2_2[1] = L3_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2 = L2_2.currentTimeZone
-  L4_2 = A0_2
-  L3_2 = A0_2.F36837B48B38D4857
-  L5_2 = A0_2[6]
+  L4_2 = self
+  L3_2 = self.F36837B48B38D4857
+  L5_2 = self[6]
   L5_2 = L5_2.currentGameTime
   L5_2 = L5_2[2]
   L3_2 = L3_2(L4_2, L5_2)
   L2_2[2] = L3_2
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   L2_2.needUpdate = false
 end
 

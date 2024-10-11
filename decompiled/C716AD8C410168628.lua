@@ -1,3 +1,7 @@
+---@alias C716AD8C410168628 main_battle_director_BattleRaidEncount
+
+---@class main_battle_director_BattleRaidEncount : C716AD8C410168628_prototype
+---@field prototype C716AD8C410168628_prototype
 L55_1 = _ENV
 L56_1 = "C716AD8C410168628"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C716AD8C410168628"]
 L69_1 = "__name__"
 L70_1 = "C716AD8C410168628"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C716AD8C410168628"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C716AD8C410168628"]["prototype"]
-L69_1 = "F62979ACB82B7C708"
-
-function L70_1(A0_2)
+---@class C716AD8C410168628_prototype
+C716AD8C410168628_prototype = L15_1()
+C716AD8C410168628.prototype = C716AD8C410168628_prototype
+--- main.battle.director.BattleRaidEncount.PlayCore
+function C716AD8C410168628_prototype:F62979ACB82B7C708()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CF4B448D8C3744CAF
   L1_2 = L1_2.SDDCF2C31DADBAB65
@@ -64,15 +63,15 @@ function L70_1(A0_2)
   L1_2 = L1_2.SC6181320B46854EE
   L2_2 = "SET_STATE_GAME_CYCLE_BATTLE_RAID"
   L1_2(L2_2)
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FF657426FC1B0D20A
   L1_2 = L1_2(L2_2)
   L2_2 = L1_2
   L1_2 = L1_2.f462C9B70
   L1_2 = L1_2(L2_2)
-  A0_2[13] = L1_2
-  L1_2 = A0_2[1]
+  self[13] = L1_2
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FE5B871E4C1AF4B14
   L3_2 = 0
@@ -81,7 +80,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.F746C50DD3115765E
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.FC11B2841159DEC0C
     L3_2 = 0
@@ -89,7 +88,7 @@ function L70_1(A0_2)
     L2_2 = L1_2
     L1_2 = L1_2.fACF514A9
     L1_2 = L1_2(L2_2)
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.FE5B871E4C1AF4B14
     L4_2 = 0
@@ -99,7 +98,7 @@ function L70_1(A0_2)
     L4_2 = L1_2
     L2_2(L3_2, L4_2)
   end
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FE5B871E4C1AF4B14
   L3_2 = 2
@@ -108,7 +107,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.F746C50DD3115765E
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.FC11B2841159DEC0C
     L3_2 = 2
@@ -116,7 +115,7 @@ function L70_1(A0_2)
     L2_2 = L1_2
     L1_2 = L1_2.fACF514A9
     L1_2 = L1_2(L2_2)
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.FE5B871E4C1AF4B14
     L4_2 = 2
@@ -126,7 +125,7 @@ function L70_1(A0_2)
     L4_2 = L1_2
     L2_2(L3_2, L4_2)
   end
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FE5B871E4C1AF4B14
   L3_2 = 4
@@ -135,7 +134,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.F746C50DD3115765E
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.FC11B2841159DEC0C
     L3_2 = 4
@@ -143,7 +142,7 @@ function L70_1(A0_2)
     L2_2 = L1_2
     L1_2 = L1_2.fACF514A9
     L1_2 = L1_2(L2_2)
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.FE5B871E4C1AF4B14
     L4_2 = 4
@@ -153,7 +152,7 @@ function L70_1(A0_2)
     L4_2 = L1_2
     L2_2(L3_2, L4_2)
   end
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FE5B871E4C1AF4B14
   L3_2 = 6
@@ -162,7 +161,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.F746C50DD3115765E
   L1_2 = L1_2(L2_2)
   if not L1_2 then
-    L1_2 = A0_2[1]
+    L1_2 = self[1]
     L2_2 = L1_2
     L1_2 = L1_2.FC11B2841159DEC0C
     L3_2 = 6
@@ -170,7 +169,7 @@ function L70_1(A0_2)
     L2_2 = L1_2
     L1_2 = L1_2.fACF514A9
     L1_2 = L1_2(L2_2)
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.FE5B871E4C1AF4B14
     L4_2 = 6
@@ -180,7 +179,7 @@ function L70_1(A0_2)
     L4_2 = L1_2
     L2_2(L3_2, L4_2)
   end
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FE5B871E4C1AF4B14
   L3_2 = 1
@@ -190,19 +189,16 @@ function L70_1(A0_2)
   L1_2(L2_2)
   L1_2 = EBB2E4E8F09AFBEAA
   L1_2 = L1_2.RAID_ENCOUNT_STEP_INIT
-  A0_2[12] = L1_2
+  self[12] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C716AD8C410168628"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.battle.director.BattleRaidEncount.Update
+function C716AD8C410168628_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L1_2 = L1_2[1]
   if 0 == L1_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.FE5B871E4C1AF4B14
     L4_2 = 0
@@ -211,7 +207,7 @@ function L70_1(A0_2)
     L2_2 = L2_2.F746C50DD3115765E
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L3_2 = L2_2
       L2_2 = L2_2.FE5B871E4C1AF4B14
       L4_2 = 2
@@ -220,7 +216,7 @@ function L70_1(A0_2)
       L2_2 = L2_2.F746C50DD3115765E
       L2_2 = L2_2(L3_2)
       if L2_2 then
-        L2_2 = A0_2[1]
+        L2_2 = self[1]
         L3_2 = L2_2
         L2_2 = L2_2.FE5B871E4C1AF4B14
         L4_2 = 4
@@ -229,7 +225,7 @@ function L70_1(A0_2)
         L2_2 = L2_2.F746C50DD3115765E
         L2_2 = L2_2(L3_2)
         if L2_2 then
-          L2_2 = A0_2[1]
+          L2_2 = self[1]
           L3_2 = L2_2
           L2_2 = L2_2.FE5B871E4C1AF4B14
           L4_2 = 6
@@ -238,7 +234,7 @@ function L70_1(A0_2)
           L2_2 = L2_2.F746C50DD3115765E
           L2_2 = L2_2(L3_2)
           if L2_2 then
-            L2_2 = A0_2[1]
+            L2_2 = self[1]
             L3_2 = L2_2
             L2_2 = L2_2.FE5B871E4C1AF4B14
             L4_2 = 0
@@ -247,7 +243,7 @@ function L70_1(A0_2)
             L2_2 = L2_2.FA23D39922B76B247
             L4_2 = true
             L2_2(L3_2, L4_2)
-            L2_2 = A0_2[1]
+            L2_2 = self[1]
             L3_2 = L2_2
             L2_2 = L2_2.FE5B871E4C1AF4B14
             L4_2 = 2
@@ -256,7 +252,7 @@ function L70_1(A0_2)
             L2_2 = L2_2.FA23D39922B76B247
             L4_2 = true
             L2_2(L3_2, L4_2)
-            L2_2 = A0_2[1]
+            L2_2 = self[1]
             L3_2 = L2_2
             L2_2 = L2_2.FE5B871E4C1AF4B14
             L4_2 = 4
@@ -265,7 +261,7 @@ function L70_1(A0_2)
             L2_2 = L2_2.FA23D39922B76B247
             L4_2 = true
             L2_2(L3_2, L4_2)
-            L2_2 = A0_2[1]
+            L2_2 = self[1]
             L3_2 = L2_2
             L2_2 = L2_2.FE5B871E4C1AF4B14
             L4_2 = 6
@@ -274,7 +270,7 @@ function L70_1(A0_2)
             L2_2 = L2_2.FA23D39922B76B247
             L4_2 = true
             L2_2(L3_2, L4_2)
-            L2_2 = A0_2[1]
+            L2_2 = self[1]
             L3_2 = L2_2
             L2_2 = L2_2.FE5B871E4C1AF4B14
             L4_2 = 0
@@ -282,7 +278,7 @@ function L70_1(A0_2)
             L3_2 = L2_2
             L2_2 = L2_2.FE3E77022D28A9323
             L2_2(L3_2)
-            L2_2 = A0_2[1]
+            L2_2 = self[1]
             L3_2 = L2_2
             L2_2 = L2_2.FE5B871E4C1AF4B14
             L4_2 = 2
@@ -290,7 +286,7 @@ function L70_1(A0_2)
             L3_2 = L2_2
             L2_2 = L2_2.FE3E77022D28A9323
             L2_2(L3_2)
-            L2_2 = A0_2[1]
+            L2_2 = self[1]
             L3_2 = L2_2
             L2_2 = L2_2.FE5B871E4C1AF4B14
             L4_2 = 4
@@ -298,7 +294,7 @@ function L70_1(A0_2)
             L3_2 = L2_2
             L2_2 = L2_2.FE3E77022D28A9323
             L2_2(L3_2)
-            L2_2 = A0_2[1]
+            L2_2 = self[1]
             L3_2 = L2_2
             L2_2 = L2_2.FE5B871E4C1AF4B14
             L4_2 = 6
@@ -306,7 +302,7 @@ function L70_1(A0_2)
             L3_2 = L2_2
             L2_2 = L2_2.FE3E77022D28A9323
             L2_2(L3_2)
-            L2_2 = A0_2[1]
+            L2_2 = self[1]
             L3_2 = L2_2
             L2_2 = L2_2.FE5B871E4C1AF4B14
             L4_2 = 1
@@ -314,7 +310,7 @@ function L70_1(A0_2)
             L3_2 = L2_2
             L2_2 = L2_2.FE3E77022D28A9323
             L2_2(L3_2)
-            L2_2 = A0_2[1]
+            L2_2 = self[1]
             L3_2 = L2_2
             L2_2 = L2_2.F404D6A39D957D1E4
             L4_2 = 2
@@ -322,7 +318,7 @@ function L70_1(A0_2)
             L3_2 = L2_2
             L2_2 = L2_2.FE3E77022D28A9323
             L2_2(L3_2)
-            L2_2 = A0_2[1]
+            L2_2 = self[1]
             L3_2 = L2_2
             L2_2 = L2_2.F404D6A39D957D1E4
             L4_2 = 4
@@ -330,7 +326,7 @@ function L70_1(A0_2)
             L3_2 = L2_2
             L2_2 = L2_2.FE3E77022D28A9323
             L2_2(L3_2)
-            L2_2 = A0_2[1]
+            L2_2 = self[1]
             L3_2 = L2_2
             L2_2 = L2_2.F404D6A39D957D1E4
             L4_2 = 6
@@ -338,7 +334,7 @@ function L70_1(A0_2)
             L3_2 = L2_2
             L2_2 = L2_2.FE3E77022D28A9323
             L2_2(L3_2)
-            L2_2 = A0_2[1]
+            L2_2 = self[1]
             L3_2 = L2_2
             L2_2 = L2_2.F9FAB167D54A6B90D
             L4_2 = 0
@@ -349,7 +345,7 @@ function L70_1(A0_2)
             L3_2 = L2_2
             L2_2 = L2_2.f4268C997
             L2_2 = L2_2(L3_2)
-            L3_2 = A0_2[1]
+            L3_2 = self[1]
             L4_2 = L3_2
             L3_2 = L3_2.F9FAB167D54A6B90D
             L5_2 = 2
@@ -360,7 +356,7 @@ function L70_1(A0_2)
             L4_2 = L3_2
             L3_2 = L3_2.f4268C997
             L3_2 = L3_2(L4_2)
-            L4_2 = A0_2[1]
+            L4_2 = self[1]
             L5_2 = L4_2
             L4_2 = L4_2.F9FAB167D54A6B90D
             L6_2 = 4
@@ -371,7 +367,7 @@ function L70_1(A0_2)
             L5_2 = L4_2
             L4_2 = L4_2.f4268C997
             L4_2 = L4_2(L5_2)
-            L5_2 = A0_2[1]
+            L5_2 = self[1]
             L6_2 = L5_2
             L5_2 = L5_2.F9FAB167D54A6B90D
             L7_2 = 6
@@ -382,7 +378,7 @@ function L70_1(A0_2)
             L6_2 = L5_2
             L5_2 = L5_2.f4268C997
             L5_2 = L5_2(L6_2)
-            L6_2 = A0_2[1]
+            L6_2 = self[1]
             L7_2 = L6_2
             L6_2 = L6_2.F9FDCD14A7B8FBF35
             L8_2 = 0
@@ -391,7 +387,7 @@ function L70_1(A0_2)
             L6_2 = L6_2.FE38A1F010EEF9597
             L8_2 = L2_2
             L6_2(L7_2, L8_2)
-            L6_2 = A0_2[1]
+            L6_2 = self[1]
             L7_2 = L6_2
             L6_2 = L6_2.F9FDCD14A7B8FBF35
             L8_2 = 1
@@ -400,7 +396,7 @@ function L70_1(A0_2)
             L6_2 = L6_2.FE38A1F010EEF9597
             L8_2 = L3_2
             L6_2(L7_2, L8_2)
-            L6_2 = A0_2[1]
+            L6_2 = self[1]
             L7_2 = L6_2
             L6_2 = L6_2.F9FDCD14A7B8FBF35
             L8_2 = 2
@@ -409,7 +405,7 @@ function L70_1(A0_2)
             L6_2 = L6_2.FE38A1F010EEF9597
             L8_2 = L4_2
             L6_2(L7_2, L8_2)
-            L6_2 = A0_2[1]
+            L6_2 = self[1]
             L7_2 = L6_2
             L6_2 = L6_2.F9FDCD14A7B8FBF35
             L8_2 = 3
@@ -420,28 +416,28 @@ function L70_1(A0_2)
             L6_2(L7_2, L8_2)
             L6_2 = EBB2E4E8F09AFBEAA
             L6_2 = L6_2.RAID_ENCOUNT_STEP_SETUP
-            A0_2[12] = L6_2
+            self[12] = L6_2
           end
         end
       end
     end
   elseif 1 == L1_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.FF70C9721F5ABAB1C
     L2_2(L3_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.F7C68FEDB79AB6396
-    L4_2 = A0_2[13]
+    L4_2 = self[13]
     L5_2 = "demo/ee/ee326/ee326.trtml"
     L6_2 = "effect/battle_ee/ee326/ee326.trsot"
     L7_2 = true
     L2_2(L3_2, L4_2, L5_2, L6_2, L7_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.FFD08E04B741FE9D6
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.FE5B871E4C1AF4B14
     L6_2 = 1
@@ -449,23 +445,23 @@ function L70_1(A0_2)
     L5_2 = _hx_tab_array
     L6_2 = {}
     L6_2.length = 0
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L8_2 = L7_2
     L7_2 = L7_2.FE5B871E4C1AF4B14
     L9_2 = 0
     L7_2 = L7_2(L8_2, L9_2)
     L6_2[0] = L7_2
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L8_2 = L7_2
     L7_2 = L7_2.FE5B871E4C1AF4B14
     L9_2 = 2
     L7_2 = L7_2(L8_2, L9_2)
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L9_2 = L8_2
     L8_2 = L8_2.FE5B871E4C1AF4B14
     L10_2 = 4
     L8_2 = L8_2(L9_2, L10_2)
-    L9_2 = A0_2[1]
+    L9_2 = self[1]
     L10_2 = L9_2
     L9_2 = L9_2.FE5B871E4C1AF4B14
     L11_2 = 6
@@ -486,7 +482,7 @@ function L70_1(A0_2)
     L7_2 = 4
     L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L5_2(L6_2, L7_2)
     L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.FF4BDBFC0459CBEEC
     L4_2 = _hx_tab_array
@@ -502,48 +498,48 @@ function L70_1(A0_2)
     L6_2 = 4
     L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L4_2(L5_2, L6_2)
     L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.F46B1581E477064E7
     L4_2 = "DEF_1"
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.F9C61AD53B85A8AA9
     L7_2 = 0
     L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L5_2(L6_2, L7_2)
     L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.F46B1581E477064E7
     L4_2 = "DEF_2"
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.F9C61AD53B85A8AA9
     L7_2 = 2
     L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L5_2(L6_2, L7_2)
     L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.F46B1581E477064E7
     L4_2 = "DEF_3"
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.F9C61AD53B85A8AA9
     L7_2 = 4
     L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L5_2(L6_2, L7_2)
     L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.F46B1581E477064E7
     L4_2 = "DEF_4"
-    L5_2 = A0_2[1]
+    L5_2 = self[1]
     L6_2 = L5_2
     L5_2 = L5_2.F9C61AD53B85A8AA9
     L7_2 = 6
     L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L5_2(L6_2, L7_2)
     L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
     L2_2 = L52_1.__cast
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.FE5B871E4C1AF4B14
     L5_2 = 1
@@ -596,7 +592,7 @@ function L70_1(A0_2)
           L10_2 = L7_2
           L9_2 = L7_2.fE9C29DA1
           L9_2(L10_2)
-          L9_2 = A0_2[2]
+          L9_2 = self[2]
           L10_2 = L9_2
           L9_2 = L9_2.F364CD5683B850D96
           L11_2 = "BG_OBJ_1"
@@ -618,7 +614,7 @@ function L70_1(A0_2)
           L13_2 = L13_2(L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
           L12_2 = L12_2 .. L13_2
           L9_2(L10_2, L11_2, L12_2)
-          L9_2 = A0_2[1]
+          L9_2 = self[1]
           L10_2 = L9_2
           L9_2 = L9_2.F9C61AD53B85A8AA9
           L11_2 = 1
@@ -635,7 +631,7 @@ function L70_1(A0_2)
           L17_2 = L11_2
           L13_2(L14_2, L15_2, L16_2, L17_2)
           L13_2 = nil
-          L14_2 = A0_2[1]
+          L14_2 = self[1]
           L15_2 = L14_2
           L14_2 = L14_2.FE5B871E4C1AF4B14
           L16_2 = 1
@@ -701,9 +697,9 @@ function L70_1(A0_2)
     end
     L5_2 = EBB2E4E8F09AFBEAA
     L5_2 = L5_2.RAID_ENCOUNT_STEP_WAIT_SETUP
-    A0_2[12] = L5_2
+    self[12] = L5_2
   elseif 2 == L1_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F9FDCD14A7B8FBF35
     L4_2 = 0
@@ -712,7 +708,7 @@ function L70_1(A0_2)
     L2_2 = L2_2.FC8D6066915A05C06
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L3_2 = L2_2
       L2_2 = L2_2.F9FDCD14A7B8FBF35
       L4_2 = 1
@@ -721,7 +717,7 @@ function L70_1(A0_2)
       L2_2 = L2_2.FC8D6066915A05C06
       L2_2 = L2_2(L3_2)
       if L2_2 then
-        L2_2 = A0_2[1]
+        L2_2 = self[1]
         L3_2 = L2_2
         L2_2 = L2_2.F9FDCD14A7B8FBF35
         L4_2 = 2
@@ -730,7 +726,7 @@ function L70_1(A0_2)
         L2_2 = L2_2.FC8D6066915A05C06
         L2_2 = L2_2(L3_2)
         if L2_2 then
-          L2_2 = A0_2[1]
+          L2_2 = self[1]
           L3_2 = L2_2
           L2_2 = L2_2.F9FDCD14A7B8FBF35
           L4_2 = 3
@@ -739,17 +735,17 @@ function L70_1(A0_2)
           L2_2 = L2_2.FC8D6066915A05C06
           L2_2 = L2_2(L3_2)
           if L2_2 then
-            L2_2 = A0_2[2]
+            L2_2 = self[2]
             L3_2 = L2_2
             L2_2 = L2_2.F5266CFD9CDD33AFD
             L2_2 = L2_2(L3_2)
             if L2_2 then
-              L2_2 = A0_2[1]
+              L2_2 = self[1]
               L2_2 = L2_2[9]
               L3_2 = L2_2
               L2_2 = L2_2.FEC9C00230250A7E9
               L2_2(L3_2)
-              L2_2 = A0_2[1]
+              L2_2 = self[1]
               L3_2 = L2_2
               L2_2 = L2_2.FE5B871E4C1AF4B14
               L4_2 = 1
@@ -757,30 +753,30 @@ function L70_1(A0_2)
               L3_2 = L2_2
               L2_2 = L2_2.FE3E77022D28A9323
               L2_2(L3_2)
-              L2_2 = A0_2[2]
+              L2_2 = self[2]
               L3_2 = L2_2
               L2_2 = L2_2.FEA4C6DFD3D68E0A3
               L2_2(L3_2)
               L2_2 = EBB2E4E8F09AFBEAA
               L2_2 = L2_2.RAID_ENCOUNT_STEP_WAIT_TIME_LINE
-              A0_2[12] = L2_2
+              self[12] = L2_2
             end
           end
         end
       end
     end
   elseif 3 == L1_2 then
-    L2_2 = A0_2[2]
+    L2_2 = self[2]
     L3_2 = L2_2
     L2_2 = L2_2.FC113ABA2DB575DE2
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L2_2 = A0_2[2]
+      L2_2 = self[2]
       L3_2 = L2_2
       L2_2 = L2_2.F9E09A204E629F9F3
       L4_2 = 30
       L2_2(L3_2, L4_2)
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L3_2 = L2_2
       L2_2 = L2_2.F9FDCD14A7B8FBF35
       L4_2 = 0
@@ -788,7 +784,7 @@ function L70_1(A0_2)
       L3_2 = L2_2
       L2_2 = L2_2.FE828682F404959F2
       L2_2(L3_2)
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L3_2 = L2_2
       L2_2 = L2_2.F9FDCD14A7B8FBF35
       L4_2 = 1
@@ -796,7 +792,7 @@ function L70_1(A0_2)
       L3_2 = L2_2
       L2_2 = L2_2.FE828682F404959F2
       L2_2(L3_2)
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L3_2 = L2_2
       L2_2 = L2_2.F9FDCD14A7B8FBF35
       L4_2 = 2
@@ -804,7 +800,7 @@ function L70_1(A0_2)
       L3_2 = L2_2
       L2_2 = L2_2.FE828682F404959F2
       L2_2(L3_2)
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L3_2 = L2_2
       L2_2 = L2_2.F9FDCD14A7B8FBF35
       L4_2 = 3
@@ -812,12 +808,12 @@ function L70_1(A0_2)
       L3_2 = L2_2
       L2_2 = L2_2.FE828682F404959F2
       L2_2(L3_2)
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L2_2 = L2_2[12]
       L3_2 = L2_2
       L2_2 = L2_2.F95FB853EF3DFF89A
       L2_2(L3_2)
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L3_2 = L2_2
       L2_2 = L2_2.F7436B9F677D49D83
       L2_2 = L2_2(L3_2)
@@ -827,12 +823,12 @@ function L70_1(A0_2)
         L3_2 = "VS_RAID_START"
         L2_2(L3_2)
       end
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L2_2 = L2_2[12]
       L3_2 = L2_2
       L2_2 = L2_2.FA9309E4BB4439177
       L2_2(L3_2)
-      L2_2 = A0_2[1]
+      L2_2 = self[1]
       L3_2 = L2_2
       L2_2 = L2_2.F091397B4B2804EF0
       L2_2 = L2_2(L3_2)
@@ -846,21 +842,21 @@ function L70_1(A0_2)
           L2_2 = CA96A2BA27902BAE4
           L2_2 = L2_2.new
           L2_2 = L2_2()
-          A0_2[16] = L2_2
-          L2_2 = A0_2[16]
+          self[16] = L2_2
+          L2_2 = self[16]
           L3_2 = L2_2
           L2_2 = L2_2.F7C68FEDB79AB6396
           L4_2 = 51
           L2_2(L3_2, L4_2)
           L2_2 = EBB2E4E8F09AFBEAA
           L2_2 = L2_2.RAID_ENCOUNT_STEP_WAIT_TIPS
-          A0_2[12] = L2_2
+          self[12] = L2_2
       end
       else
         L2_2 = EBB2E4E8F09AFBEAA
         L2_2 = L2_2.RAID_ENCOUNT_STEP_END
-        A0_2[12] = L2_2
-        L2_2 = A0_2[1]
+        self[12] = L2_2
+        L2_2 = self[1]
         L3_2 = L2_2
         L2_2 = L2_2.F091397B4B2804EF0
         L2_2 = L2_2(L3_2)
@@ -868,24 +864,24 @@ function L70_1(A0_2)
         if L2_2 then
           L2_2 = EBB2E4E8F09AFBEAA
           L2_2 = L2_2.RAID_ENCOUNT_STEP_EVENT_POWER_UP
-          A0_2[12] = L2_2
+          self[12] = L2_2
         end
       end
     end
   elseif 4 == L1_2 then
-    L2_2 = A0_2[16]
+    L2_2 = self[16]
     L3_2 = L2_2
     L2_2 = L2_2.FEB6685558281F194
     L2_2(L3_2)
-    L2_2 = A0_2[16]
+    L2_2 = self[16]
     L3_2 = L2_2
     L2_2 = L2_2.F93E432AA090A48FA
     L2_2 = L2_2(L3_2)
     if L2_2 then
       L2_2 = EBB2E4E8F09AFBEAA
       L2_2 = L2_2.RAID_ENCOUNT_STEP_END
-      A0_2[12] = L2_2
-      L2_2 = A0_2[1]
+      self[12] = L2_2
+      L2_2 = self[1]
       L3_2 = L2_2
       L2_2 = L2_2.F091397B4B2804EF0
       L2_2 = L2_2(L3_2)
@@ -893,7 +889,7 @@ function L70_1(A0_2)
       if L2_2 then
         L2_2 = EBB2E4E8F09AFBEAA
         L2_2 = L2_2.RAID_ENCOUNT_STEP_EVENT_POWER_UP
-        A0_2[12] = L2_2
+        self[12] = L2_2
       end
     end
   elseif 5 == L1_2 then
@@ -921,7 +917,7 @@ function L70_1(A0_2)
       L6_2 = L4_2
       L7_2 = L19_1
       L5_2 = L5_2(L6_2, L7_2)
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L7_2 = L6_2
       L6_2 = L6_2.FE5B871E4C1AF4B14
       L8_2 = L5_2
@@ -939,7 +935,7 @@ function L70_1(A0_2)
         L9_2 = L6_2
         L8_2 = L6_2.f0BD5134F
         L8_2 = L8_2(L9_2)
-        L9_2 = A0_2[1]
+        L9_2 = self[1]
         L10_2 = L9_2
         L9_2 = L9_2.F091397B4B2804EF0
         L9_2 = L9_2(L10_2)
@@ -947,7 +943,7 @@ function L70_1(A0_2)
         if L8_2 == L9_2 then
           L8_2 = CA5A5606298DDCB29
           L8_2 = L8_2.S36933BDFFAA1E9FB
-          L9_2 = A0_2[1]
+          L9_2 = self[1]
           L10_2 = L9_2
           L9_2 = L9_2.FF657426FC1B0D20A
           L9_2 = L9_2(L10_2)
@@ -972,7 +968,7 @@ function L70_1(A0_2)
         end
       end
     end
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.FE5B871E4C1AF4B14
     L6_2 = 0
@@ -990,7 +986,7 @@ function L70_1(A0_2)
       L7_2 = L4_2
       L6_2 = L4_2.f0BD5134F
       L6_2 = L6_2(L7_2)
-      L7_2 = A0_2[1]
+      L7_2 = self[1]
       L8_2 = L7_2
       L7_2 = L7_2.F091397B4B2804EF0
       L7_2 = L7_2(L8_2)
@@ -1003,7 +999,7 @@ function L70_1(A0_2)
         L6_2 = L6_2(L7_2, L8_2)
         L7_2 = CA5A5606298DDCB29
         L7_2 = L7_2.SED3A6346F6F2EC9E
-        L8_2 = A0_2[1]
+        L8_2 = self[1]
         L9_2 = L8_2
         L8_2 = L8_2.FF657426FC1B0D20A
         L8_2 = L8_2(L9_2)
@@ -1015,17 +1011,17 @@ function L70_1(A0_2)
         L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
         L7_2 = EBB2E4E8F09AFBEAA
         L7_2 = L7_2.RAID_ENCOUNT_STEP_WAIT_EVENT_POWER_UP
-        A0_2[12] = L7_2
+        self[12] = L7_2
     end
     else
       L6_2 = EBB2E4E8F09AFBEAA
       L6_2 = L6_2.RAID_ENCOUNT_STEP_END
-      A0_2[12] = L6_2
+      self[12] = L6_2
     end
   elseif 6 == L1_2 then
     L2_2 = CA5A5606298DDCB29
     L2_2 = L2_2.SBDFF9B14B9AC1207
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.FF657426FC1B0D20A
     L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L3_2(L4_2)
@@ -1033,17 +1029,17 @@ function L70_1(A0_2)
     if L2_2 then
       L2_2 = CA5A5606298DDCB29
       L2_2 = L2_2.SBB79966C4F081FBD
-      L3_2 = A0_2[1]
+      L3_2 = self[1]
       L4_2 = L3_2
       L3_2 = L3_2.FF657426FC1B0D20A
       L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2 = L3_2(L4_2)
       L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
       L2_2 = EBB2E4E8F09AFBEAA
       L2_2 = L2_2.RAID_ENCOUNT_STEP_END
-      A0_2[12] = L2_2
+      self[12] = L2_2
     end
   elseif 7 == L1_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F404D6A39D957D1E4
     L4_2 = 0
@@ -1053,12 +1049,12 @@ function L70_1(A0_2)
     L4_2 = nil
     L5_2 = 13
     L2_2(L3_2, L4_2, L5_2)
-    L3_2 = A0_2
-    L2_2 = A0_2.F8EE2FCB3413DFA70
+    L3_2 = self
+    L2_2 = self.F8EE2FCB3413DFA70
     L2_2(L3_2)
     L2_2 = EBB2E4E8F09AFBEAA
     L2_2 = L2_2.RAID_ENCOUNT_STEP_FINISH
-    A0_2[12] = L2_2
+    self[12] = L2_2
   elseif 8 == L1_2 then
   end
 end

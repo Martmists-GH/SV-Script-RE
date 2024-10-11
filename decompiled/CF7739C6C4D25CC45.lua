@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CF7739C6C4D25CC45"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CF7739C6C4D25CC45"]
-L69_1 = "new"
+---@alias CF7739C6C4D25CC45 main_field_behaviour_trade_pokemon_TradePokemonManager
 
-function L70_1(A0_2)
+---@class main_field_behaviour_trade_pokemon_TradePokemonManager : CF7739C6C4D25CC45_prototype
+---@field prototype CF7739C6C4D25CC45_prototype
+CF7739C6C4D25CC45 = L15_1()
+function CF7739C6C4D25CC45.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CF7739C6C4D25CC45
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF7739C6C4D25CC45"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CF7739C6C4D25CC45
+function CF7739C6C4D25CC45.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
@@ -51,11 +45,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF7739C6C4D25CC45"]
 L69_1 = "__name__"
 L70_1 = "CF7739C6C4D25CC45"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF7739C6C4D25CC45"]
-L69_1 = "S8A8099A643718E8B"
-
-function L70_1(A0_2)
+--- main.field.behaviour.trade_pokemon.TradePokemonManager.GetTradeListData
+function CF7739C6C4D25CC45.S8A8099A643718E8B(A0_2)
   local L1_2, L2_2
   L1_2 = CF7739C6C4D25CC45
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -76,11 +67,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF7739C6C4D25CC45"]
-L69_1 = "SD77534DFD7B7F1D9"
-
-function L70_1(A0_2)
+--- main.field.behaviour.trade_pokemon.TradePokemonManager.CanTrade
+function CF7739C6C4D25CC45.SD77534DFD7B7F1D9(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF7739C6C4D25CC45
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -97,11 +85,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF7739C6C4D25CC45"]
-L69_1 = "S47CA3893BC66FAAB"
-
-function L70_1(A0_2)
+--- main.field.behaviour.trade_pokemon.TradePokemonManager.GetTradePos
+function CF7739C6C4D25CC45.S47CA3893BC66FAAB(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = CF7739C6C4D25CC45
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -118,11 +103,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF7739C6C4D25CC45"]
-L69_1 = "SA45981E40B692744"
-
-function L70_1(A0_2)
+--- main.field.behaviour.trade_pokemon.TradePokemonManager.GetPokePos
+function CF7739C6C4D25CC45.SA45981E40B692744(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = CF7739C6C4D25CC45
@@ -173,11 +155,8 @@ function L70_1(A0_2)
   return L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF7739C6C4D25CC45"]
-L69_1 = "SC557445E1EA01D62"
-
-function L70_1(A0_2)
+--- main.field.behaviour.trade_pokemon.TradePokemonManager.GetTradePokeData
+function CF7739C6C4D25CC45.SC557445E1EA01D62(A0_2)
   local L1_2, L2_2
   L1_2 = CF7739C6C4D25CC45
   L1_2 = L1_2.SF3075AB31C9E8AF4
@@ -198,11 +177,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF7739C6C4D25CC45"]
-L69_1 = "S470187B7637D37DC"
-
-function L70_1(A0_2)
+--- main.field.behaviour.trade_pokemon.TradePokemonManager.GetTradePokePara
+function CF7739C6C4D25CC45.S470187B7637D37DC(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = CF7739C6C4D25CC45
   L1_2 = L1_2.SC557445E1EA01D62
@@ -250,11 +226,8 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF7739C6C4D25CC45"]
-L69_1 = "S91794BC8D2418AA5"
-
-function L70_1()
+--- main.field.behaviour.trade_pokemon.TradePokemonManager.OnCompleteTradeOnly
+function CF7739C6C4D25CC45.S91794BC8D2418AA5()
   local L0_2, L1_2
   L0_2 = C3A36506FBC96ACBD
   L0_2 = L0_2.SAC4C25C879379D3D
@@ -262,22 +235,17 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF7739C6C4D25CC45"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF7739C6C4D25CC45"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CF7739C6C4D25CC45_prototype
+CF7739C6C4D25CC45_prototype = L15_1()
+CF7739C6C4D25CC45.prototype = CF7739C6C4D25CC45_prototype
+--- main.field.behaviour.trade_pokemon.TradePokemonManager.Setup
+function CF7739C6C4D25CC45_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L2_2 = CF7739C6C4D25CC45
-  L2_2.SF3075AB31C9E8AF4 = A0_2
+  L2_2.SF3075AB31C9E8AF4 = self
   L2_2 = cF52F390B
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L4_2 = L2_2
   L3_2 = L2_2.f287946D6
@@ -292,7 +260,7 @@ function L70_1(A0_2, A1_2)
     L6_2 = L3_2.f51241DA2
     L8_2 = L4_2 - 1
     L6_2 = L6_2(L7_2, L8_2)
-    L7_2 = A0_2[3]
+    L7_2 = self[3]
     L9_2 = L6_2
     L8_2 = L6_2.f3D9D438D
     L10_2 = "label"
@@ -332,7 +300,7 @@ function L70_1(A0_2, A1_2)
       L10_2 = L6_2.f51241DA2
       L12_2 = L8_2 - 1
       L10_2 = L10_2(L11_2, L12_2)
-      L11_2 = A0_2[2]
+      L11_2 = self[2]
       L13_2 = L10_2
       L12_2 = L10_2.f3D9D438D
       L14_2 = "label"
@@ -371,19 +339,16 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = L8_2
   L8_2 = L8_2.fBE3B2D3B
   L8_2(L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF7739C6C4D25CC45"]["prototype"]
-L69_1 = "F194CBB0DC5640A79"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.trade_pokemon.TradePokemonManager.canTrade
+function CF7739C6C4D25CC45_prototype:F194CBB0DC5640A79(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L47_1.tnull
@@ -444,19 +409,16 @@ function L70_1(A0_2, A1_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF7739C6C4D25CC45"]["prototype"]
-L69_1 = "F9663692FED4F588B"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.trade_pokemon.TradePokemonManager.getTradePos
+function CF7739C6C4D25CC45_prototype:F9663692FED4F588B(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = _hx_tab_array
   L3_2 = {}
   L3_2.length = 0
   L4_2 = 0
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
-  L2_2 = A0_2[2]
+  self[4] = L2_2
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L47_1.tnull
@@ -498,7 +460,7 @@ function L70_1(A0_2, A1_2)
           if L12_2 == L13_2 then
             L12_2 = L3_2.sendPoke_formId
             if L12_2 < 0 then
-              L12_2 = A0_2[4]
+              L12_2 = self[4]
               L13_2 = L12_2
               L12_2 = L12_2.push
               L14_2 = L16_1
@@ -517,7 +479,7 @@ function L70_1(A0_2, A1_2)
               L13_2 = L10_2.f5D94E897
               L13_2 = L13_2(L14_2)
               if L12_2 == L13_2 then
-                L12_2 = A0_2[4]
+                L12_2 = self[4]
                 L13_2 = L12_2
                 L12_2 = L12_2.push
                 L14_2 = L16_1
@@ -537,7 +499,7 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   L4_2 = L4_2.length
   return L4_2
 end

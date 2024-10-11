@@ -1,3 +1,5 @@
+---@class CDDDD63F522E3E34A : CDDDD63F522E3E34A_prototype
+---@field prototype CDDDD63F522E3E34A_prototype
 L55_1 = _ENV
 L56_1 = "CDDDD63F522E3E34A"
 L57_1 = L15_1
@@ -46,18 +48,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CDDDD63F522E3E34A"]
 L69_1 = "__name__"
 L70_1 = "CDDDD63F522E3E34A"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDDD63F522E3E34A"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CDDDD63F522E3E34A"]["prototype"]
-L69_1 = "FCD817043038ADFCD"
-
-function L70_1(A0_2)
+---@class CDDDD63F522E3E34A_prototype
+CDDDD63F522E3E34A_prototype = L15_1()
+CDDDD63F522E3E34A.prototype = CDDDD63F522E3E34A_prototype
+--- CDDDD63F522E3E34A.SetEnableShiftState
+function CDDDD63F522E3E34A_prototype:FCD817043038ADFCD()
   local L1_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2[39]
   L1_2[13] = true
 end

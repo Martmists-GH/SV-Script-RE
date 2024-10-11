@@ -1,3 +1,7 @@
+---@alias C252DC5511266077D main_ui_ymap_mapicon_YMapPlayerGuideIcon
+
+---@class main_ui_ymap_mapicon_YMapPlayerGuideIcon : C252DC5511266077D_prototype
+---@field prototype C252DC5511266077D_prototype
 L55_1 = _ENV
 L56_1 = "C252DC5511266077D"
 L57_1 = L15_1
@@ -70,42 +74,34 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C252DC5511266077D"]
 L69_1 = "__name__"
 L70_1 = "C252DC5511266077D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C252DC5511266077D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C252DC5511266077D"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+---@class C252DC5511266077D_prototype
+C252DC5511266077D_prototype = L15_1()
+C252DC5511266077D.prototype = C252DC5511266077D_prototype
+--- main.ui.ymap.mapicon.YMapPlayerGuideIcon.Update
+function C252DC5511266077D_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C388798CF80F2AF9D
   L2_2 = L2_2.S073798BF266E6699
   if true == L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.F3595F14E8B664FC4
+    L3_2 = self
+    L2_2 = self.F3595F14E8B664FC4
     L2_2(L3_2)
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.FF10CEB045BB45B22
+    L3_2 = self
+    L2_2 = self.FF10CEB045BB45B22
     L2_2(L3_2)
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.FF22FCFA79B2A3334
+  L3_2 = self
+  L2_2 = self.FF22FCFA79B2A3334
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F9397F8BC87D5D230
+  L3_2 = self
+  L2_2 = self.F9397F8BC87D5D230
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C252DC5511266077D"]["prototype"]
-L69_1 = "F86D99CC7BC9284FE"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mapicon.YMapPlayerGuideIcon.SetPlayerIconTexture
+function C252DC5511266077D_prototype:F86D99CC7BC9284FE(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = nil
   L3_2 = c016374C1
@@ -122,7 +118,7 @@ function L70_1(A0_2, A1_2)
     L7_2 = ""
     L6_2 = L6_2(L7_2)
     L7_2 = L31_1.string
-    L8_2 = A0_2[2]
+    L8_2 = self[2]
     L8_2 = L8_2.paneName
     L7_2 = L7_2(L8_2)
     L6_2 = L6_2 .. L7_2

@@ -1,3 +1,7 @@
+---@alias CE2ECC5A4FF680968 main_event_general_chair_ChairEvent
+
+---@class main_event_general_chair_ChairEvent : CE2ECC5A4FF680968_prototype
+---@field prototype CE2ECC5A4FF680968_prototype
 L55_1 = _ENV
 L56_1 = "CE2ECC5A4FF680968"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE2ECC5A4FF680968"]
 L69_1 = "__name__"
 L70_1 = "CE2ECC5A4FF680968"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE2ECC5A4FF680968"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CE2ECC5A4FF680968"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CE2ECC5A4FF680968_prototype
+CE2ECC5A4FF680968_prototype = L15_1()
+CE2ECC5A4FF680968.prototype = CE2ECC5A4FF680968_prototype
+--- main.event.general.chair.ChairEvent.mainBody
+function CE2ECC5A4FF680968_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L1_2 = CCD22EFED4E9E5F89
   L1_2 = L1_2.SA10AE4787B2E55A3
@@ -68,7 +67,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -76,7 +75,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -126,16 +125,16 @@ function L70_1(A0_2)
   L10_2.withDesk = true
   L10_2.enterSide = true
   L9_2.__fields__ = L10_2
-  L10_2 = A0_2[32]
+  L10_2 = self[32]
   L10_2 = L10_2.chairCenter
   L9_2.chairCenter = L10_2
-  L10_2 = A0_2[32]
+  L10_2 = self[32]
   L10_2 = L10_2.chairRotation
   L9_2.chairRotation = L10_2
-  L10_2 = A0_2[32]
+  L10_2 = self[32]
   L10_2 = L10_2.withDesk
   L9_2.withDesk = L10_2
-  L10_2 = A0_2[32]
+  L10_2 = self[32]
   L10_2 = L10_2.enterSide
   L9_2.enterSide = L10_2
   L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2 = L8_2(L9_2)
@@ -152,7 +151,7 @@ function L70_1(A0_2)
     L6_2 = L6_2.S12F63EE47FFCB183
     L6_2()
   end
-  L6_2 = A0_2[32]
+  L6_2 = self[32]
   L6_2 = L6_2.bootEvent
   if L6_2 then
     L6_2 = L4_2.boot_event
@@ -165,7 +164,7 @@ function L70_1(A0_2)
         L0_3 = nil
         L1_3 = c016374C1
         L1_3 = L1_3.f4555D276
-        L2_3 = A0_2
+        L2_3 = self
         L2_3 = L2_3[12]
         L2_3 = L2_3.owner
         L3_3 = L7_2
@@ -173,7 +172,7 @@ function L70_1(A0_2)
         if L1_3 then
           L0_3 = nil
         else
-          L1_3 = A0_2
+          L1_3 = self
           L0_3 = L1_3[12]
         end
         return L0_3
@@ -255,7 +254,7 @@ function L70_1(A0_2)
         L17_2 = L17_2(L18_2, L19_2)
         L18_2 = L10_1.select
         L19_2 = 2
-        L20_2 = A0_2[32]
+        L20_2 = self[32]
         L20_2 = L20_2.chairRotation
         L21_2 = L20_2
         L20_2 = L20_2.f643B5D6F

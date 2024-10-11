@@ -1,3 +1,5 @@
+---@class CA2860D94DC243B2D : CA2860D94DC243B2D_prototype
+---@field prototype CA2860D94DC243B2D_prototype
 L55_1 = _ENV
 L56_1 = "CA2860D94DC243B2D"
 L57_1 = L15_1
@@ -34,16 +36,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CA2860D94DC243B2D"]
 L69_1 = "__name__"
 L70_1 = "CA2860D94DC243B2D"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA2860D94DC243B2D"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA2860D94DC243B2D"]["prototype"]
-L69_1 = "F90BBC6B0190BF053"
-
-function L70_1(A0_2)
+---@class CA2860D94DC243B2D_prototype
+CA2860D94DC243B2D_prototype = L15_1()
+CA2860D94DC243B2D.prototype = CA2860D94DC243B2D_prototype
+--- CA2860D94DC243B2D.Init
+function CA2860D94DC243B2D_prototype:F90BBC6B0190BF053()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = nil
   L2_2 = C282DAED1E1D374F6
@@ -54,8 +51,8 @@ function L70_1(A0_2)
   L4_2 = "OniballoonProhibit"
   L5_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2, L5_2)
-  A0_2[1] = L2_2
-  L2_2 = A0_2[1]
+  self[1] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F5B98E8D4C251422B
   L4_2 = true
@@ -304,7 +301,7 @@ function L70_1(A0_2)
   L3_2 = L2_2[1]
   L3_2 = L3_2.h
   L3_2.DisableRideFlight = true
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.F6C8DDC9A268EFAD5
   L5_2 = "OniballoonProhibitChild"
@@ -316,13 +313,10 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA2860D94DC243B2D"]["prototype"]
-L69_1 = "FFAF6A7BEF755C01F"
-
-function L70_1(A0_2)
+--- CA2860D94DC243B2D.Finalize
+function CA2860D94DC243B2D_prototype:FFAF6A7BEF755C01F()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2[5]
   L3_2 = L2_2
   L2_2 = L2_2.iterator

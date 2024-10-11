@@ -1,3 +1,7 @@
+---@alias C8F93126DACB9F8DD main_savedata_accessor_PlayerSaveAccessor
+
+---@class main_savedata_accessor_PlayerSaveAccessor : C8F93126DACB9F8DD_prototype
+---@field prototype C8F93126DACB9F8DD_prototype
 L55_1 = _ENV
 L56_1 = "C8F93126DACB9F8DD"
 L57_1 = L15_1
@@ -37,16 +41,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8F93126DACB9F8DD"]
 L69_1 = "__name__"
 L70_1 = "C8F93126DACB9F8DD"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F93126DACB9F8DD"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F93126DACB9F8DD"]["prototype"]
-L69_1 = "F042B860498E558B2"
-
-function L70_1(A0_2)
+---@class C8F93126DACB9F8DD_prototype
+C8F93126DACB9F8DD_prototype = L15_1()
+C8F93126DACB9F8DD.prototype = C8F93126DACB9F8DD_prototype
+--- main.savedata.accessor.PlayerSaveAccessor.Format
+function C8F93126DACB9F8DD_prototype:F042B860498E558B2()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c37452BA0
   L1_2 = L1_2.fCA8A8522
@@ -103,11 +102,8 @@ function L70_1(A0_2)
   L1_2[2] = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F93126DACB9F8DD"]["prototype"]
-L69_1 = "FA7B9750360BF2368"
-
-function L70_1(A0_2)
+--- main.savedata.accessor.PlayerSaveAccessor.Save
+function C8F93126DACB9F8DD_prototype:FA7B9750360BF2368()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = CFC8F368D91411014
   L1_2 = L1_2.S10B32CE3FEC94B7B
@@ -160,11 +156,8 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8F93126DACB9F8DD"]["prototype"]
-L69_1 = "F6C5D0398122A6629"
-
-function L70_1(A0_2)
+--- main.savedata.accessor.PlayerSaveAccessor.Load
+function C8F93126DACB9F8DD_prototype:F6C5D0398122A6629()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = c37452BA0
   L1_2 = L1_2.fD8C39FA5

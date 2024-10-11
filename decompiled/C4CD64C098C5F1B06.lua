@@ -1,3 +1,7 @@
+---@alias C4CD64C098C5F1B06 main_nushi_NushiRT
+
+---@class main_nushi_NushiRT : C4CD64C098C5F1B06_prototype
+---@field prototype C4CD64C098C5F1B06_prototype
 L55_1 = _ENV
 L56_1 = "C4CD64C098C5F1B06"
 L57_1 = L15_1
@@ -33,16 +37,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4CD64C098C5F1B06"]
 L69_1 = "__name__"
 L70_1 = "C4CD64C098C5F1B06"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4CD64C098C5F1B06"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4CD64C098C5F1B06"]["prototype"]
-L69_1 = "F1D3555903744037A"
-
-function L70_1(A0_2, A1_2)
+---@class C4CD64C098C5F1B06_prototype
+C4CD64C098C5F1B06_prototype = L15_1()
+C4CD64C098C5F1B06.prototype = C4CD64C098C5F1B06_prototype
+--- main.nushi.NushiRT.SetObjWorldRT
+function C4CD64C098C5F1B06_prototype:F1D3555903744037A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L3_2 = A1_2
   L2_2 = A1_2.f7360ED03
@@ -54,20 +53,17 @@ function L70_1(A0_2, A1_2)
   L5_2[1] = L6_2
   L5_2[2] = L7_2
   L5_2[3] = L8_2
-  A0_2[1] = L5_2
+  self[1] = L5_2
   L6_2 = A1_2
   L5_2 = A1_2.f64857644
   L5_2 = L5_2(L6_2)
-  A0_2[2] = L5_2
+  self[2] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4CD64C098C5F1B06"]["prototype"]
-L69_1 = "FB4B0039C97433DE5"
-
-function L70_1(A0_2, A1_2)
+--- main.nushi.NushiRT.SetTargetObjRT
+function C4CD64C098C5F1B06_prototype:FB4B0039C97433DE5(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[1]
+  L2_2 = self[1]
   L4_2 = A1_2
   L3_2 = A1_2.f8F2B0552
   L5_2 = L2_2[1]
@@ -76,7 +72,7 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2, L7_2)
   L4_2 = A1_2
   L3_2 = A1_2.f24032F87
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L3_2(L4_2, L5_2)
 end
 

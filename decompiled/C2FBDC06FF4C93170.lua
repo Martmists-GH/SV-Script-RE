@@ -1,3 +1,7 @@
+---@alias C2FBDC06FF4C93170 main_field_global_event_check_event_checker_EventCheckerMapChange
+
+---@class main_field_global_event_check_event_checker_EventCheckerMapChange : C2FBDC06FF4C93170_prototype
+---@field prototype C2FBDC06FF4C93170_prototype
 L55_1 = _ENV
 L56_1 = "C2FBDC06FF4C93170"
 L57_1 = L15_1
@@ -39,26 +43,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C2FBDC06FF4C93170"]
 L69_1 = "__name__"
 L70_1 = "C2FBDC06FF4C93170"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2FBDC06FF4C93170"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2FBDC06FF4C93170"]["prototype"]
-L69_1 = "F0D776BF8BD56F066"
-
-function L70_1(A0_2)
+---@class C2FBDC06FF4C93170_prototype
+C2FBDC06FF4C93170_prototype = L15_1()
+C2FBDC06FF4C93170.prototype = C2FBDC06FF4C93170_prototype
+--- main.field.global_event_check.event_checker.EventCheckerMapChange.F0D776BF8BD56F066
+function C2FBDC06FF4C93170_prototype:F0D776BF8BD56F066()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2FBDC06FF4C93170"]["prototype"]
-L69_1 = "F7B29AC6696E62600"
-
-function L70_1(A0_2)
+--- main.field.global_event_check.event_checker.EventCheckerMapChange.RequiredEventCategory
+function C2FBDC06FF4C93170_prototype:F7B29AC6696E62600()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -72,11 +68,8 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2FBDC06FF4C93170"]["prototype"]
-L69_1 = "FDA98E87C57449F00"
-
-function L70_1(A0_2, A1_2)
+--- main.field.global_event_check.event_checker.EventCheckerMapChange.OnEventCheck
+function C2FBDC06FF4C93170_prototype:FDA98E87C57449F00(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2
   L2_2 = C828F047963375FA0
   L2_2 = L2_2.SD05B26A278394105
@@ -94,7 +87,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = L3_2
   L4_2[1] = L5_2
   L4_2[2] = L6_2
-  A0_2[9] = L4_2
+  self[9] = L4_2
   L4_2 = cAF8D78F3
   L4_2 = L4_2.f37537CF4
   L4_2 = L4_2()
@@ -106,10 +99,10 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2(L5_2)
   L5_2 = L4_2
   L4_2 = L4_2.fCA247E7A
-  L6_2 = A0_2[9]
+  L6_2 = self[9]
   L6_2 = L6_2[1]
   L7_2 = 0
-  L8_2 = A0_2[9]
+  L8_2 = self[9]
   L8_2 = L8_2[2]
   L8_2 = -L8_2
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
@@ -118,7 +111,7 @@ function L70_1(A0_2, A1_2)
   L8_2 = L4_2
   L9_2 = L6_2
   L7_2 = L7_2(L8_2, L9_2)
-  A0_2[10] = L7_2
+  self[10] = L7_2
   L7_2 = CFC8F368D91411014
   L7_2 = L7_2.S93A017D496A6D000
   L8_2 = L7_2.owner
@@ -707,7 +700,7 @@ function L70_1(A0_2, A1_2)
         L39_2 = L34_2 - L36_2
         L40_2 = L35_2 - L38_2
         L41_2 = nil
-        L42_2 = A0_2[9]
+        L42_2 = self[9]
         L43_2 = c0D4FD36A
         L43_2 = L43_2.f92852F73
         L44_2 = L42_2[1]
@@ -732,7 +725,7 @@ function L70_1(A0_2, A1_2)
             L1_3 = L1_3.abs
             L2_3 = C7EA595BB1E217145
             L2_3 = L2_3.SDE04517993167EC7
-            L3_3 = A0_2
+            L3_3 = self
             L3_3 = L3_3[10]
             L4_3 = L43_2
             L3_3 = L3_3 - L4_3

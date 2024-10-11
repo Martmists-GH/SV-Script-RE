@@ -1,3 +1,7 @@
+---@alias C81E717B56A38EE2C main_ui_staff_list_StaffListSceneLoader
+
+---@class main_ui_staff_list_StaffListSceneLoader : C81E717B56A38EE2C_prototype
+---@field prototype C81E717B56A38EE2C_prototype
 L55_1 = _ENV
 L56_1 = "C81E717B56A38EE2C"
 L57_1 = L15_1
@@ -42,16 +46,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C81E717B56A38EE2C"]
 L69_1 = "__name__"
 L70_1 = "C81E717B56A38EE2C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81E717B56A38EE2C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81E717B56A38EE2C"]["prototype"]
-L69_1 = "F9337AE9F018B3C29"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@class C81E717B56A38EE2C_prototype
+C81E717B56A38EE2C_prototype = L15_1()
+C81E717B56A38EE2C.prototype = C81E717B56A38EE2C_prototype
+--- main.ui.staff_list.StaffListSceneLoader.Open
+function C81E717B56A38EE2C_prototype:F9337AE9F018B3C29(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2
   if nil == A4_2 then
     A4_2 = false
@@ -96,25 +95,22 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L7_2 = A3_2
     L5_2(L6_2, L7_2)
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F052BEB8F702E7A17
-  L7_2 = A0_2[5]
+  L6_2 = self
+  L5_2 = self.F052BEB8F702E7A17
+  L7_2 = self[5]
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81E717B56A38EE2C"]["prototype"]
-L69_1 = "FC84A0D4D8CE89C7E"
-
-function L70_1(A0_2)
+--- main.ui.staff_list.StaffListSceneLoader.IsLoadEnd
+function C81E717B56A38EE2C_prototype:FC84A0D4D8CE89C7E()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDAB51CABF01ACA9B
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC84A0D4D8CE89C7E
-  L2_2 = A0_2
+  L2_2 = self
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L1_2 = A0_2[3]
+    L1_2 = self[3]
     L2_2 = L1_2
     L1_2 = L1_2.fD4E64AB7
     L3_2 = "credit_00"
@@ -140,7 +136,7 @@ function L70_1(A0_2)
     if L4_2 == L5_2 then
       L4_2 = nil
     end
-    A0_2[6] = L4_2
+    self[6] = L4_2
     L5_2 = true
     return L5_2
   end
@@ -148,15 +144,12 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81E717B56A38EE2C"]["prototype"]
-L69_1 = "F9C175DE53E8FB04D"
-
-function L70_1(A0_2)
+--- main.ui.staff_list.StaffListSceneLoader.GetViewInstance
+function C81E717B56A38EE2C_prototype:F9C175DE53E8FB04D()
   local L1_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   if nil ~= L1_2 then
-    L1_2 = A0_2[6]
+    L1_2 = self[6]
     return L1_2
   else
     L1_2 = nil
@@ -164,20 +157,17 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C81E717B56A38EE2C"]["prototype"]
-L69_1 = "FD7D37C5A967ABE41"
-
-function L70_1(A0_2)
+--- main.ui.staff_list.StaffListSceneLoader.CloseScene
+function C81E717B56A38EE2C_prototype:FD7D37C5A967ABE41()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = cA042DA13
   L2_2 = L2_2.f25C936C9
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f5C99C0AC
     L2_2(L3_2)

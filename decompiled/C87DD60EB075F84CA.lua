@@ -1,3 +1,5 @@
+---@class C87DD60EB075F84CA : C87DD60EB075F84CA_prototype
+---@field prototype C87DD60EB075F84CA_prototype
 L55_1 = _ENV
 L56_1 = "C87DD60EB075F84CA"
 L57_1 = L15_1
@@ -46,19 +48,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C87DD60EB075F84CA"]
 L69_1 = "__name__"
 L70_1 = "C87DD60EB075F84CA"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87DD60EB075F84CA"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87DD60EB075F84CA"]["prototype"]
-L69_1 = "F00A5AAB9F764BE45"
-
-function L70_1(A0_2)
+---@class C87DD60EB075F84CA_prototype
+C87DD60EB075F84CA_prototype = L15_1()
+C87DD60EB075F84CA.prototype = C87DD60EB075F84CA_prototype
+--- C87DD60EB075F84CA.OnContentsChecker
+function C87DD60EB075F84CA_prototype:F00A5AAB9F764BE45()
   local L1_2, L2_2, L3_2, L4_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F4F190AC25D4EEC78
+  L2_2 = self
+  L1_2 = self.F4F190AC25D4EEC78
   L1_2 = L1_2(L2_2)
   if L1_2 then
     L1_2 = C60FFFA143D3A3ABA
@@ -69,9 +66,9 @@ function L70_1(A0_2)
     L4_2.TalkPokeObj = true
     L4_2.Mode = true
     L3_2.__fields__ = L4_2
-    L4_2 = A0_2[4]
+    L4_2 = self[4]
     L3_2.TalkPokeObj = L4_2
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L3_2.Mode = L4_2
     L2_2, L3_2, L4_2 = L2_2(L3_2)
     return L1_2(L2_2, L3_2, L4_2)
@@ -80,11 +77,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C87DD60EB075F84CA"]["prototype"]
-L69_1 = "F4F190AC25D4EEC78"
-
-function L70_1(A0_2)
+--- C87DD60EB075F84CA.CheckPokeTalk
+function C87DD60EB075F84CA_prototype:F4F190AC25D4EEC78()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = cDFF6D3D5
   L1_2 = L1_2.f6E019F84
@@ -98,7 +92,7 @@ function L70_1(A0_2)
     L3_2 = L3_2.S42224C76A175744D
     L3_2 = L3_2()
     if L3_2 then
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L4_2 = L3_2
       L3_2 = L3_2.F68213DDDAE5764D3
       L3_2 = L3_2(L4_2)
@@ -128,7 +122,7 @@ function L70_1(A0_2)
       end
       L2_2 = L4_2
     else
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L4_2 = L3_2
       L3_2 = L3_2.F68213DDDAE5764D3
       L3_2 = L3_2(L4_2)
@@ -245,8 +239,8 @@ function L70_1(A0_2)
       L6_2 = L4_2
       L5_2 = L5_2(L6_2)
       if L5_2 then
-        A0_2[4] = L4_2
-        A0_2[5] = 0
+        self[4] = L4_2
+        self[5] = 0
         L5_2 = true
         return L5_2
       end

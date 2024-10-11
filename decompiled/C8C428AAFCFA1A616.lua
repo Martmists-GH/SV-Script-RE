@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C8C428AAFCFA1A616"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C8C428AAFCFA1A616"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8C428AAFCFA1A616"]
-L69_1 = "__name__"
-L70_1 = "C8C428AAFCFA1A616"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8C428AAFCFA1A616"]
-L69_1 = "SBD8E046F9F217B42"
+---@alias C8C428AAFCFA1A616 main_playables_misc_CameraUtility
 
-function L70_1(A0_2, A1_2)
+---@class main_playables_misc_CameraUtility
+C8C428AAFCFA1A616 = L15_1()
+C8C428AAFCFA1A616.new = {}
+C8C428AAFCFA1A616.__name__ = "C8C428AAFCFA1A616"
+--- main.playables.misc.CameraUtility.GetAxis
+function C8C428AAFCFA1A616.SBD8E046F9F217B42(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
   L2_2 = {}
   L3_2 = 1

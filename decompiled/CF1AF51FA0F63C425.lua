@@ -1,3 +1,7 @@
+---@alias CF1AF51FA0F63C425 main_event_general_gym_base_Gym_denki_popup_window
+
+---@class main_event_general_gym_base_Gym_denki_popup_window : CF1AF51FA0F63C425_prototype
+---@field prototype CF1AF51FA0F63C425_prototype
 L55_1 = _ENV
 L56_1 = "CF1AF51FA0F63C425"
 L57_1 = L15_1
@@ -50,16 +54,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF1AF51FA0F63C425"]
 L69_1 = "__name__"
 L70_1 = "CF1AF51FA0F63C425"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1AF51FA0F63C425"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CF1AF51FA0F63C425"]["prototype"]
-L69_1 = "F9EF8B08DA4FDA9E4"
-
-function L70_1(A0_2)
+---@class CF1AF51FA0F63C425_prototype
+CF1AF51FA0F63C425_prototype = L15_1()
+CF1AF51FA0F63C425.prototype = CF1AF51FA0F63C425_prototype
+--- main.event.general.gym.base.Gym_denki_popup_window.mainCoroutineFunc
+function CF1AF51FA0F63C425_prototype:F9EF8B08DA4FDA9E4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = L31_1.string
   L2_2 = L31_1.string
@@ -79,25 +78,25 @@ function L70_1(A0_2)
   L2_2 = L2_2.S12FD376DC11712C8
   L3_2 = L1_2
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F8DC8F70F656F2F35
-  L4_2 = A0_2[6]
+  L3_2 = self
+  L2_2 = self.F8DC8F70F656F2F35
+  L4_2 = self[6]
   L2_2(L3_2, L4_2)
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.SBA7048DC47B4296A
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = {}
-  L5_2 = A0_2[10]
+  L5_2 = self[10]
   L5_2 = L5_2.posX
-  L6_2 = A0_2[10]
+  L6_2 = self[10]
   L6_2 = L6_2.posY
   L4_2[1] = L5_2
   L4_2[2] = L6_2
-  L5_2 = A0_2[7]
-  L6_2 = A0_2[8]
-  L7_2 = A0_2[10]
+  L5_2 = self[7]
+  L6_2 = self[8]
+  L7_2 = self[10]
   L7_2 = L7_2.windowType
-  L8_2 = A0_2[9]
+  L8_2 = self[9]
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
   L2_2 = CC6FE82819C6E1D55
   L2_2 = L2_2.S32FAD7D4DF3ACA95

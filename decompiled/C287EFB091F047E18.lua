@@ -1,3 +1,7 @@
+---@alias C287EFB091F047E18 main_event_general_sub_event_base_Sub_event_011_chef_popup
+
+---@class main_event_general_sub_event_base_Sub_event_011_chef_popup : C287EFB091F047E18_prototype
+---@field prototype C287EFB091F047E18_prototype
 L55_1 = _ENV
 L56_1 = "C287EFB091F047E18"
 L57_1 = L15_1
@@ -47,16 +51,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C287EFB091F047E18"]
 L69_1 = "__name__"
 L70_1 = "C287EFB091F047E18"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C287EFB091F047E18"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C287EFB091F047E18"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C287EFB091F047E18_prototype
+C287EFB091F047E18_prototype = L15_1()
+C287EFB091F047E18.prototype = C287EFB091F047E18_prototype
+--- main.event.general.sub_event.base.Sub_event_011_chef_popup.Setup
+function C287EFB091F047E18_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C9AA363B3CCC264AA
   L2_2 = L2_2.SA5B8258582A90EF3
@@ -66,25 +65,22 @@ function L70_1(A0_2, A1_2)
     L2_2 = CDC3F92928A2194E6
     L2_2 = L2_2.prototype
     L2_2 = L2_2.F7C68FEDB79AB6396
-    L3_2 = A0_2
+    L3_2 = self
     L4_2 = A1_2
     L2_2(L3_2, L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C287EFB091F047E18"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.sub_event.base.Sub_event_011_chef_popup.PreUpdate
+function C287EFB091F047E18_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FFA68B927DEA8B141
+  L3_2 = self
+  L2_2 = self.FFA68B927DEA8B141
   L2_2 = L2_2(L3_2)
   if L2_2 then
     L2_2 = cCF781FB6
     L2_2 = L2_2.fB41FD22F
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L2_2 = L2_2(L3_2)
     L3_2 = nil
     L4_2 = cCF781FB6
@@ -100,14 +96,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C287EFB091F047E18"]["prototype"]
-L69_1 = "FFA68B927DEA8B141"
-
-function L70_1(A0_2)
+--- main.event.general.sub_event.base.Sub_event_011_chef_popup.setupContinuousPopup
+function C287EFB091F047E18_prototype:FFA68B927DEA8B141()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F6A6F12584B2201EC
+  L2_2 = self
+  L1_2 = self.F6A6F12584B2201EC
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = c016374C1
@@ -126,10 +119,10 @@ function L70_1(A0_2)
     L4_2 = L1_2
     L3_2 = L1_2.f7360ED03
     L3_2, L4_2, L5_2 = L3_2(L4_2)
-    L6_2 = A0_2[6]
+    L6_2 = self[6]
     L7_2 = C9B54BC04DD492B6D
     L7_2 = L7_2.S45F2EF24C3E8120F
-    L8_2 = A0_2[5]
+    L8_2 = self[5]
     L9_2 = {}
     L10_2 = 0 * L6_2
     L10_2 = L3_2 + L10_2
@@ -140,7 +133,7 @@ function L70_1(A0_2)
     L9_2[1] = L10_2
     L9_2[2] = L11_2
     L9_2[3] = L12_2
-    L10_2 = A0_2[4]
+    L10_2 = self[4]
     L11_2 = nil
     L12_2 = 3
     L7_2(L8_2, L9_2, L10_2, L11_2, L12_2)
@@ -149,27 +142,21 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C287EFB091F047E18"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.event.general.sub_event.base.Sub_event_011_chef_popup.Destroy
+function C287EFB091F047E18_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S4846844FA403A98B
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C287EFB091F047E18"]["prototype"]
-L69_1 = "F6A6F12584B2201EC"
-
-function L70_1(A0_2)
+--- main.event.general.sub_event.base.Sub_event_011_chef_popup.getChefObj
+function C287EFB091F047E18_prototype:F6A6F12584B2201EC()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
   L3_2 = cA042DA13
@@ -183,7 +170,7 @@ function L70_1(A0_2)
   end
   L4_2 = L1_2
   L3_2 = L1_2.fD4E64AB7
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L3_2 = L3_2(L4_2, L5_2)
   L4_2 = nil
   L5_2 = c016374C1

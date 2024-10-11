@@ -1,3 +1,7 @@
+---@alias CC0C809ACD8B8FA36 main_ajito_ui_partnerhud_PartnerHudUIView
+
+---@class main_ajito_ui_partnerhud_PartnerHudUIView : CC0C809ACD8B8FA36_prototype
+---@field prototype CC0C809ACD8B8FA36_prototype
 L68_1 = _ENV["CC0C809ACD8B8FA36"]
 L69_1 = "super"
 
@@ -25,27 +29,22 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC0C809ACD8B8FA36"]
 L69_1 = "__name__"
 L70_1 = "CC0C809ACD8B8FA36"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC0C809ACD8B8FA36"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC0C809ACD8B8FA36"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CC0C809ACD8B8FA36_prototype
+CC0C809ACD8B8FA36_prototype = L15_1()
+CC0C809ACD8B8FA36.prototype = CC0C809ACD8B8FA36_prototype
+--- main.ajito.ui.partnerhud.PartnerHudUIView.Setup
+function CC0C809ACD8B8FA36_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = cECF00344
   L2_2 = L2_2.fEECE6995
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
-  A0_2[7] = L2_2
+  self[7] = L2_2
   L2_2 = 0
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
-    L4_2 = A0_2[10]
+    L4_2 = self[10]
     L5_2 = L4_2
     L4_2 = L4_2.push
     L6_2 = L16_1
@@ -91,24 +90,21 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2.f426683B4
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L5_2(L6_2)
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
-  A0_2[9] = L4_2
+  self[9] = L4_2
   L4_2 = cCF781FB6
   L4_2 = L4_2.fB41FD22F
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
-  A0_2[8] = L4_2
-  L4_2 = A0_2[8]
+  self[8] = L4_2
+  L4_2 = self[8]
   L5_2 = L4_2
   L4_2 = L4_2.f71FAA9DF
   L6_2 = true
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC0C809ACD8B8FA36"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.ui.partnerhud.PartnerHudUIView.PreUpdate
+function CC0C809ACD8B8FA36_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2
   L2_2 = c467D18B0
   L2_2 = L2_2.fB41FD22F
@@ -119,12 +115,12 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.f426683B4
   L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2 = L3_2(L4_2)
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2)
-  A0_2[9] = L2_2
+  self[9] = L2_2
   L2_2 = 0
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   while L2_2 < L3_2 do
     L2_2 = L2_2 + 1
-    L4_2 = A0_2[7]
+    L4_2 = self[7]
     L5_2 = L4_2
     L4_2 = L4_2.f7798D9F4
     L6_2 = L31_1.string
@@ -139,18 +135,18 @@ function L70_1(A0_2, A1_2)
   end
   L4_2 = true
   L5_2 = 0
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L7_2 = false
   while L5_2 < L6_2 do
     L5_2 = L5_2 + 1
     L8_2 = L5_2 - 1
-    L9_2 = A0_2[10]
+    L9_2 = self[10]
     L9_2 = L9_2[L8_2]
     L10_2 = L9_2.isDraw
     if L10_2 then
       L10_2 = L9_2.isEndRequest
       if L10_2 then
-        L10_2 = A0_2[7]
+        L10_2 = self[7]
         L11_2 = L10_2
         L10_2 = L10_2.fF8C77C75
         L12_2 = L31_1.string
@@ -173,8 +169,8 @@ function L70_1(A0_2, A1_2)
       end
       else
         L4_2 = false
-        L11_2 = A0_2
-        L10_2 = A0_2.F665E88400F56F767
+        L11_2 = self
+        L10_2 = self.F665E88400F56F767
         L12_2 = L8_2
         L10_2(L11_2, L12_2)
         L10_2 = L9_2.gageAnim
@@ -190,7 +186,7 @@ function L70_1(A0_2, A1_2)
           L10_2 = L10_2 + L11_2
           L9_2.gageAnimTime = L10_2
           L10_2 = L9_2.gageAnimTime
-          L11_2 = A0_2[3]
+          L11_2 = self[3]
           if L10_2 >= L11_2 then
             L9_2.gageAnim = false
             L9_2.gageAnimTime = 0.0
@@ -216,7 +212,7 @@ function L70_1(A0_2, A1_2)
             L14_2 = "/L_hp_00"
             L13_2 = L13_2(L14_2)
             L12_2 = L12_2 .. L13_2
-            L13_2 = A0_2[7]
+            L13_2 = self[7]
             L14_2 = L16_1
             L15_2 = {}
             L16_2 = {}
@@ -372,7 +368,7 @@ function L70_1(A0_2, A1_2)
             L15_2 = "/L_hp_00"
             L14_2 = L14_2(L15_2)
             L13_2 = L13_2 .. L14_2
-            L14_2 = A0_2[7]
+            L14_2 = self[7]
             L15_2 = L16_1
             L16_2 = {}
             L17_2 = {}
@@ -523,7 +519,7 @@ function L70_1(A0_2, A1_2)
     end
   end
   if L4_2 then
-    L8_2 = A0_2[8]
+    L8_2 = self[8]
     L9_2 = L8_2
     L8_2 = L8_2.f71FAA9DF
     L10_2 = true
@@ -531,13 +527,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC0C809ACD8B8FA36"]["prototype"]
-L69_1 = "F665E88400F56F767"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.ui.partnerhud.PartnerHudUIView.UpdatePosition
+function CC0C809ACD8B8FA36_prototype:F665E88400F56F767(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L2_2 = L2_2[A1_2]
   L3_2 = nil
   L4_2 = nil
@@ -560,8 +553,8 @@ function L70_1(A0_2, A1_2)
   if L3_2 then
     return
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.F1A0D07104462FFF2
+  L6_2 = self
+  L5_2 = self.F1A0D07104462FFF2
   L7_2 = L2_2.sceneObj
   L5_2 = L5_2(L6_2, L7_2)
   if L5_2 then
@@ -579,11 +572,11 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2(L8_2, L9_2, L10_2)
   L8_2 = C63AFF94AAB36CB96
   L8_2 = L8_2.SC04EB8C312BD39F3
-  L9_2 = A0_2[9]
+  L9_2 = self[9]
   L10_2 = L9_2
   L9_2 = L9_2.fD23B5DE7
   L9_2 = L9_2(L10_2)
-  L10_2 = A0_2[9]
+  L10_2 = self[9]
   L11_2 = L10_2
   L10_2 = L10_2.fDFC4DE35
   L10_2, L11_2 = L10_2(L11_2)
@@ -592,26 +585,26 @@ function L70_1(A0_2, A1_2)
   L7_2 = L7_2.SC04EB8C312BD39F3
   L5_2 = L5_2(L6_2, L7_2)
   L6_2 = L5_2[1]
-  L7_2 = A0_2[5]
+  L7_2 = self[5]
   if L6_2 <= L7_2 then
     L6_2 = L5_2[1]
-    L7_2 = A0_2[5]
+    L7_2 = self[5]
     L7_2 = -L7_2
     if L6_2 >= L7_2 then
       L6_2 = L5_2[2]
-      L7_2 = A0_2[6]
+      L7_2 = self[6]
       if L6_2 <= L7_2 then
         L6_2 = L5_2[2]
-        L7_2 = A0_2[6]
+        L7_2 = self[6]
         L7_2 = -L7_2
         if L6_2 >= L7_2 then
-          L6_2 = A0_2[7]
+          L6_2 = self[7]
           L7_2 = L6_2
           L6_2 = L6_2.f7798D9F4
           L8_2 = L2_2.paneName
           L9_2 = true
           L6_2(L7_2, L8_2, L9_2)
-          L6_2 = A0_2[7]
+          L6_2 = self[7]
           L7_2 = L6_2
           L6_2 = L6_2.f0067ACC1
           L8_2 = L2_2.paneName
@@ -625,13 +618,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC0C809ACD8B8FA36"]["prototype"]
-L69_1 = "F1A0D07104462FFF2"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.ui.partnerhud.PartnerHudUIView.IsBehindCamera
+function CC0C809ACD8B8FA36_prototype:F1A0D07104462FFF2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   L3_2 = L2_2
   L2_2 = L2_2.f33A459EF
   L2_2, L3_2, L4_2 = L2_2(L3_2)
@@ -662,7 +652,7 @@ function L70_1(A0_2, A1_2)
   L22_2 = L18_2
   L23_2 = L19_2
   L20_2(L21_2, L22_2, L23_2)
-  L20_2 = A0_2[9]
+  L20_2 = self[9]
   L21_2 = L20_2
   L20_2 = L20_2.fCE0877B7
   L20_2, L21_2, L22_2 = L20_2(L21_2)
@@ -683,13 +673,10 @@ function L70_1(A0_2, A1_2)
   return L23_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC0C809ACD8B8FA36"]["prototype"]
-L69_1 = "FE0BEAFFCC94D9D60"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ajito.ui.partnerhud.PartnerHudUIView.StartRequest
+function CC0C809ACD8B8FA36_prototype:FE0BEAFFCC94D9D60(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   if A1_2 > L3_2 then
     return
   end
@@ -697,7 +684,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L3_2 = L3_2.fB41FD22F
   L4_2 = A2_2
   L3_2 = L3_2(L4_2)
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L4_2 = L4_2[A1_2]
   L4_2.sceneObj = A2_2
   L6_2 = L3_2
@@ -726,7 +713,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2)
   L7_2 = c8C3BF576
   L7_2 = L7_2.f316077B2
-  L8_2 = A0_2[1]
+  L8_2 = self[1]
   L9_2 = L31_1.string
   L10_2 = L31_1.string
   L11_2 = ""
@@ -742,13 +729,13 @@ function L70_1(A0_2, A1_2, A2_2)
   L9_2 = L9_2 .. L10_2
   L10_2 = L6_2
   L7_2(L8_2, L9_2, L10_2)
-  L7_2 = A0_2[7]
+  L7_2 = self[7]
   L8_2 = L7_2
   L7_2 = L7_2.f7798D9F4
   L9_2 = L4_2.paneName
   L10_2 = true
   L7_2(L8_2, L9_2, L10_2)
-  L7_2 = A0_2[7]
+  L7_2 = self[7]
   L8_2 = L7_2
   L7_2 = L7_2.fB4E9D030
   L9_2 = L31_1.string
@@ -788,7 +775,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L11_2 = "/L_hp_00"
   L10_2 = L10_2(L11_2)
   L9_2 = L9_2 .. L10_2
-  L10_2 = A0_2[7]
+  L10_2 = self[7]
   L11_2 = L16_1
   L12_2 = {}
   L13_2 = {}
@@ -919,31 +906,28 @@ function L70_1(A0_2, A1_2, A2_2)
   L16_2 = L16_2 - L17_2
   L13_2(L14_2, L15_2, L16_2)
   L4_2.isDraw = true
-  L13_2 = A0_2[7]
+  L13_2 = self[7]
   L14_2 = L13_2
   L13_2 = L13_2.f2A9CF058
   L15_2 = true
   L13_2(L14_2, L15_2)
-  L13_2 = A0_2[8]
+  L13_2 = self[8]
   L14_2 = L13_2
   L13_2 = L13_2.f71FAA9DF
   L15_2 = false
   L13_2(L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC0C809ACD8B8FA36"]["prototype"]
-L69_1 = "FA1029755362E0507"
-
-function L70_1(A0_2, A1_2)
+--- main.ajito.ui.partnerhud.PartnerHudUIView.EndRequest
+function CC0C809ACD8B8FA36_prototype:FA1029755362E0507(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L2_2 = L2_2[A1_2]
   L2_2 = L2_2.isDraw
   if not L2_2 then
     return
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.fB4E9D030
   L4_2 = L31_1.string
@@ -951,7 +935,7 @@ function L70_1(A0_2, A1_2)
   L6_2 = ""
   L5_2 = L5_2(L6_2)
   L6_2 = L31_1.string
-  L7_2 = A0_2[10]
+  L7_2 = self[10]
   L7_2 = L7_2[A1_2]
   L7_2 = L7_2.paneName
   L6_2 = L6_2(L7_2)
@@ -962,7 +946,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2(L6_2)
   L4_2 = L4_2 .. L5_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   L2_2 = L2_2[A1_2]
   L2_2.isEndRequest = true
 end

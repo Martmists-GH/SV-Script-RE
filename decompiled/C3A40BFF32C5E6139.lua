@@ -1,3 +1,5 @@
+---@class C3A40BFF32C5E6139 : C3A40BFF32C5E6139_prototype
+---@field prototype C3A40BFF32C5E6139_prototype
 L55_1 = _ENV
 L56_1 = "C3A40BFF32C5E6139"
 L57_1 = L15_1
@@ -45,20 +47,15 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3A40BFF32C5E6139"]
 L69_1 = "__name__"
 L70_1 = "C3A40BFF32C5E6139"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A40BFF32C5E6139"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A40BFF32C5E6139"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C3A40BFF32C5E6139_prototype
+C3A40BFF32C5E6139_prototype = L15_1()
+C3A40BFF32C5E6139.prototype = C3A40BFF32C5E6139_prototype
+--- C3A40BFF32C5E6139.mainBody
+function C3A40BFF32C5E6139_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C755044F92F3DC4F2
   L1_2 = L1_2.SA5C17E5544762212
-  L2_2 = A0_2[18]
+  L2_2 = self[18]
   L2_2 = L2_2.ownerName
   L1_2 = L1_2(L2_2)
   if nil == L1_2 then
@@ -82,7 +79,7 @@ function L70_1(A0_2)
   if not L3_2 and not L4_2 then
     L5_2 = C9B54BC04DD492B6D
     L5_2 = L5_2.S3EDC50DEB344C642
-    L6_2 = A0_2[18]
+    L6_2 = self[18]
     L6_2 = L6_2.ownerName
     L7_2 = L2_2.unopenedMessageLabelName
     L8_2 = C755044F92F3DC4F2

@@ -1,3 +1,7 @@
+---@alias CEF59B99988278E57 main_savedata_accessor_EventProhibitSaveAccessor
+
+---@class main_savedata_accessor_EventProhibitSaveAccessor : CEF59B99988278E57_prototype
+---@field prototype CEF59B99988278E57_prototype
 L55_1 = _ENV
 L56_1 = "CEF59B99988278E57"
 L57_1 = L15_1
@@ -37,16 +41,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CEF59B99988278E57"]
 L69_1 = "__name__"
 L70_1 = "CEF59B99988278E57"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEF59B99988278E57"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEF59B99988278E57"]["prototype"]
-L69_1 = "F042B860498E558B2"
-
-function L70_1(A0_2)
+---@class CEF59B99988278E57_prototype
+CEF59B99988278E57_prototype = L15_1()
+CEF59B99988278E57.prototype = CEF59B99988278E57_prototype
+--- main.savedata.accessor.EventProhibitSaveAccessor.Format
+function CEF59B99988278E57_prototype:F042B860498E558B2()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CEF59B99988278E57
   L1_2 = L1_2.S62549C7FA456CA60

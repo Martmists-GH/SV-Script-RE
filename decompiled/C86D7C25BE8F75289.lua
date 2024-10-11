@@ -1,3 +1,7 @@
+---@alias C86D7C25BE8F75289 main_field_action_base_IAutoAction
+
+---@class main_field_action_base_IAutoAction : C86D7C25BE8F75289_prototype
+---@field prototype C86D7C25BE8F75289_prototype
 L55_1 = _ENV
 L56_1 = "C86D7C25BE8F75289"
 L57_1 = L15_1
@@ -111,46 +115,41 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C86D7C25BE8F75289"]
 L69_1 = "__name__"
 L70_1 = "C86D7C25BE8F75289"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86D7C25BE8F75289"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86D7C25BE8F75289"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2)
+---@class C86D7C25BE8F75289_prototype
+C86D7C25BE8F75289_prototype = L15_1()
+C86D7C25BE8F75289.prototype = C86D7C25BE8F75289_prototype
+--- main.field.action.base.IAutoAction.PreUpdate
+function C86D7C25BE8F75289_prototype:FE94F3E13286232CF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = false
   while true do
-    L3_2 = A0_2
-    L2_2 = A0_2.F1993A419B4083AE8
+    L3_2 = self
+    L2_2 = self.F1993A419B4083AE8
     L2_2 = L2_2(L3_2)
     if 0 == L2_2 then
       return
     elseif 1 ~= L2_2 and 2 == L2_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.FA2C827B56F56ABDF
+      L4_2 = self
+      L3_2 = self.FA2C827B56F56ABDF
       L3_2(L4_2)
-      L3_2 = A0_2[3]
+      L3_2 = self[3]
       L3_2 = L3_2[1]
       L4_2 = L3_2
       L3_2 = L3_2.remove
-      L5_2 = A0_2
+      L5_2 = self
       L3_2(L4_2, L5_2)
       L3_2 = nil
       L4_2 = cBBE823D7
       L4_2 = L4_2.f330A53DF
-      L5_2 = A0_2[4]
+      L5_2 = self[4]
       L6_2 = L3_2
       L4_2 = L4_2(L5_2, L6_2)
       if L4_2 then
-        L4_2 = A0_2[4]
+        L4_2 = self[4]
         L5_2 = L4_2
         L4_2 = L4_2.f5C99C0AC
         L4_2(L5_2)
-        A0_2[4] = nil
+        self[4] = nil
       end
       return
     end
@@ -161,29 +160,23 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86D7C25BE8F75289"]["prototype"]
-L69_1 = "F20A40E2F8B95D5F6"
-
-function L70_1(A0_2)
+--- main.field.action.base.IAutoAction.PostUpdate
+function C86D7C25BE8F75289_prototype:F20A40E2F8B95D5F6()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FB9EEE315620F5E73
+  L2_2 = self
+  L1_2 = self.FB9EEE315620F5E73
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86D7C25BE8F75289"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2)
+--- main.field.action.base.IAutoAction.Setup
+function C86D7C25BE8F75289_prototype:F7C68FEDB79AB6396()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F22C7B81A049FA20D
+  L2_2 = self
+  L1_2 = self.F22C7B81A049FA20D
   L1_2 = L1_2(L2_2)
   if L1_2 then
-    L1_2 = A0_2[2]
-    L2_2 = A0_2[4]
+    L1_2 = self[2]
+    L2_2 = self[4]
     L1_2.component = L2_2
     L4_2 = L2_2
     L3_2 = L2_2.f558733FC
@@ -196,31 +189,22 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86D7C25BE8F75289"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+--- main.field.action.base.IAutoAction.onCreate
+function C86D7C25BE8F75289_prototype:FC87C731D11C58354()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86D7C25BE8F75289"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+--- main.field.action.base.IAutoAction.onSetup
+function C86D7C25BE8F75289_prototype:F22C7B81A049FA20D()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86D7C25BE8F75289"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.base.IAutoAction.onPreUpdate
+function C86D7C25BE8F75289_prototype:F1993A419B4083AE8()
   local L1_2, L2_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.f4923D467
   L1_2(L2_2)
@@ -228,23 +212,17 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86D7C25BE8F75289"]["prototype"]
-L69_1 = "FB9EEE315620F5E73"
-
-function L70_1(A0_2)
+--- main.field.action.base.IAutoAction.onPostUpdate
+function C86D7C25BE8F75289_prototype:FB9EEE315620F5E73()
   local L1_2, L2_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.fAECC5172
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C86D7C25BE8F75289"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- main.field.action.base.IAutoAction.onFinish
+function C86D7C25BE8F75289_prototype:FA2C827B56F56ABDF()
   local L1_2
 end
 

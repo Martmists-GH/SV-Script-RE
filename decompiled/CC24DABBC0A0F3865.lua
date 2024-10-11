@@ -1,3 +1,5 @@
+---@class CC24DABBC0A0F3865 : CC24DABBC0A0F3865_prototype
+---@field prototype CC24DABBC0A0F3865_prototype
 L55_1 = _ENV
 L56_1 = "CC24DABBC0A0F3865"
 L57_1 = L15_1
@@ -41,16 +43,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CC24DABBC0A0F3865"]
 L69_1 = "__name__"
 L70_1 = "CC24DABBC0A0F3865"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC24DABBC0A0F3865"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC24DABBC0A0F3865"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class CC24DABBC0A0F3865_prototype
+CC24DABBC0A0F3865_prototype = L15_1()
+CC24DABBC0A0F3865.prototype = CC24DABBC0A0F3865_prototype
+--- CC24DABBC0A0F3865.onCreate
+function CC24DABBC0A0F3865_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L16_1
   L2_2 = {}
@@ -79,15 +76,12 @@ function L70_1(A0_2)
       L1_2.strParams = L2_2
     end
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2[26] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC24DABBC0A0F3865"]["prototype"]
-L69_1 = "FC0150FC2959FFA71"
-
-function L70_1(A0_2)
+--- CC24DABBC0A0F3865.onUpdate
+function CC24DABBC0A0F3865_prototype:FC0150FC2959FFA71()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C2405BAB324F291E1
   L1_2 = L1_2.S81A15982354BCC8B

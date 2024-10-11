@@ -1,3 +1,7 @@
+---@alias C9677AF0AEC592E12 main_ui_box_list_BoxListTopView
+
+---@class main_ui_box_list_BoxListTopView : C9677AF0AEC592E12_prototype
+---@field prototype C9677AF0AEC592E12_prototype
 L55_1 = _ENV
 L56_1 = "C9677AF0AEC592E12"
 L57_1 = L15_1
@@ -105,59 +109,45 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9677AF0AEC592E12"]
 L69_1 = "__name__"
 L70_1 = "C9677AF0AEC592E12"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9677AF0AEC592E12"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9677AF0AEC592E12"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C9677AF0AEC592E12_prototype
+C9677AF0AEC592E12_prototype = L15_1()
+C9677AF0AEC592E12.prototype = C9677AF0AEC592E12_prototype
+--- main.ui.box.list.BoxListTopView.Setup
+function C9677AF0AEC592E12_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.F8D2C45FA45DB98C2
+  L3_2 = self
+  L2_2 = self.F8D2C45FA45DB98C2
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9677AF0AEC592E12"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.ui.box.list.BoxListTopView.Destroy
+function C9677AF0AEC592E12_prototype:F1C2AA00ADAC52EC5()
   local L1_2, L2_2
   L1_2 = CDC3F92928A2194E6
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F1C2AA00ADAC52EC5
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9677AF0AEC592E12"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.box.list.BoxListTopView.PreUpdate
+function C9677AF0AEC592E12_prototype:FE94F3E13286232CF(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9677AF0AEC592E12"]["prototype"]
-L69_1 = "F8D2C45FA45DB98C2"
-
-function L70_1(A0_2)
+--- main.ui.box.list.BoxListTopView.ButtonSetup
+function C9677AF0AEC592E12_prototype:F8D2C45FA45DB98C2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[3]
+  L1_2 = self[3]
   L1_2 = L1_2.length
   L2_2 = L26_1.new
   L2_2 = L2_2()
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L2_2 = 0
   while L1_2 > L2_2 do
     L2_2 = L2_2 + 1
@@ -178,12 +168,12 @@ function L70_1(A0_2)
     L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L5_2(L6_2, L7_2, L8_2)
     L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
     L3_2 = L3_2 .. L4_2
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L4_2
     L4_2 = L4_2.push
     L6_2 = cECD2E4A5
     L6_2 = L6_2.f6906455E
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L8_2 = L3_2
     L6_2, L7_2, L8_2, L9_2, L10_2 = L6_2(L7_2, L8_2)
     L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
@@ -194,13 +184,13 @@ function L70_1(A0_2)
     L4_2 = L3_2 - 1
     L5_2 = c8C3BF576
     L5_2 = L5_2.f46674724
-    L6_2 = A0_2[1]
+    L6_2 = self[1]
     L7_2 = L31_1.string
     L8_2 = L31_1.string
     L9_2 = ""
     L8_2 = L8_2(L9_2)
     L9_2 = L31_1.string
-    L10_2 = A0_2[4]
+    L10_2 = self[4]
     L10_2 = L10_2[L4_2]
     L9_2 = L9_2(L10_2)
     L8_2 = L8_2 .. L9_2
@@ -210,7 +200,7 @@ function L70_1(A0_2)
     L8_2 = L8_2(L9_2)
     L7_2 = L7_2 .. L8_2
     L8_2 = "box"
-    L9_2 = A0_2[4]
+    L9_2 = self[4]
     L9_2 = L9_2[L4_2]
     L5_2(L6_2, L7_2, L8_2, L9_2)
   end

@@ -1,3 +1,7 @@
+---@alias C8B1B99582493F6BF main_event_general_pokecen_PokecenAreaEvent
+
+---@class main_event_general_pokecen_PokecenAreaEvent : C8B1B99582493F6BF_prototype
+---@field prototype C8B1B99582493F6BF_prototype
 L55_1 = _ENV
 L56_1 = "C8B1B99582493F6BF"
 L57_1 = L15_1
@@ -46,42 +50,31 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8B1B99582493F6BF"]
 L69_1 = "__name__"
 L70_1 = "C8B1B99582493F6BF"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1B99582493F6BF"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1B99582493F6BF"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C8B1B99582493F6BF_prototype
+C8B1B99582493F6BF_prototype = L15_1()
+C8B1B99582493F6BF.prototype = C8B1B99582493F6BF_prototype
+--- main.event.general.pokecen.PokecenAreaEvent.onCreate
+function C8B1B99582493F6BF_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.paralleled = true
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.disablePopupPause = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1B99582493F6BF"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+--- main.event.general.pokecen.PokecenAreaEvent.preStart
+function C8B1B99582493F6BF_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FECB55EECDBB1C59C
+  L2_2 = self
+  L1_2 = self.FECB55EECDBB1C59C
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F4934567A329A76C4
+  L2_2 = self
+  L1_2 = self.F4934567A329A76C4
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1B99582493F6BF"]["prototype"]
-L69_1 = "FECB55EECDBB1C59C"
-
-function L70_1(A0_2)
+--- main.event.general.pokecen.PokecenAreaEvent.SetRestartPoint
+function C8B1B99582493F6BF_prototype:FECB55EECDBB1C59C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2
   L1_2 = nil
   
@@ -90,7 +83,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -98,7 +91,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -165,7 +158,7 @@ function L70_1(A0_2)
   L21_2 = L2_2
   L20_2 = L2_2.f7360ED03
   L20_2, L21_2, L22_2 = L20_2(L21_2)
-  L23_2 = A0_2[35]
+  L23_2 = self[35]
   L24_2 = {}
   L25_2 = L7_2 * L23_2
   L25_2 = L20_2 + L25_2
@@ -217,14 +210,11 @@ function L70_1(A0_2)
   L28_2(L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1B99582493F6BF"]["prototype"]
-L69_1 = "F4934567A329A76C4"
-
-function L70_1(A0_2)
+--- main.event.general.pokecen.PokecenAreaEvent.UnlockFlyPoint
+function C8B1B99582493F6BF_prototype:F4934567A329A76C4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FE6CD05730B295F76
+  L2_2 = self
+  L1_2 = self.FE6CD05730B295F76
   L1_2 = L1_2(L2_2)
   if nil == L1_2 then
     return
@@ -245,7 +235,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = c016374C1
       L1_3 = L1_3.f4555D276
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[12]
       L2_3 = L2_3.owner
       L3_3 = L4_2
@@ -253,7 +243,7 @@ function L70_1(A0_2)
       if L1_3 then
         L0_3 = nil
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[12]
       end
       return L0_3
@@ -288,7 +278,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L3_2
@@ -296,7 +286,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -312,11 +302,8 @@ function L70_1(A0_2)
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C8B1B99582493F6BF"]["prototype"]
-L69_1 = "FE6CD05730B295F76"
-
-function L70_1(A0_2)
+--- main.event.general.pokecen.PokecenAreaEvent.GetMapIconData
+function C8B1B99582493F6BF_prototype:FE6CD05730B295F76()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = c682D8E4F
   L1_2 = L1_2.fEF94D11D

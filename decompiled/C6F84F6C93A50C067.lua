@@ -1,3 +1,7 @@
+---@alias C6F84F6C93A50C067 main_network_receiver_AikotobaKeyboardState
+
+---@class main_network_receiver_AikotobaKeyboardState : C6F84F6C93A50C067_prototype
+---@field prototype C6F84F6C93A50C067_prototype
 L55_1 = _ENV
 L56_1 = "C6F84F6C93A50C067"
 L57_1 = L15_1
@@ -47,23 +51,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6F84F6C93A50C067"]
 L69_1 = "__name__"
 L70_1 = "C6F84F6C93A50C067"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6F84F6C93A50C067"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C6F84F6C93A50C067"]["prototype"]
-L69_1 = "F9EF8B08DA4FDA9E4"
-
-function L70_1(A0_2)
+---@class C6F84F6C93A50C067_prototype
+C6F84F6C93A50C067_prototype = L15_1()
+C6F84F6C93A50C067.prototype = C6F84F6C93A50C067_prototype
+--- main.network.receiver.AikotobaKeyboardState.mainCoroutineFunc
+function C6F84F6C93A50C067_prototype:F9EF8B08DA4FDA9E4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fC8CEF9EF
-  L2_2 = A0_2[6]
-  L3_2 = A0_2[7]
+  L2_2 = self[6]
+  L3_2 = self[7]
   L1_2 = L1_2(L2_2, L3_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   if true == L2_2 then
     L2_2 = c34EB7997
     L2_2 = L2_2.f2F81833A

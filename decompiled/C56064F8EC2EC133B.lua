@@ -1,20 +1,11 @@
-L55_1 = _ENV
-L56_1 = "C56064F8EC2EC133B"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C56064F8EC2EC133B"]
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C56064F8EC2EC133B"]
-L69_1 = "__name__"
-L70_1 = "C56064F8EC2EC133B"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C56064F8EC2EC133B"]
-L69_1 = "S7C68FEDB79AB6396"
+---@alias C56064F8EC2EC133B main_ui_resident_resources_ResidentTextureBufferUtil
 
-function L70_1()
+---@class main_ui_resident_resources_ResidentTextureBufferUtil
+C56064F8EC2EC133B = L15_1()
+C56064F8EC2EC133B.new = {}
+C56064F8EC2EC133B.__name__ = "C56064F8EC2EC133B"
+--- main.ui.resident_resources.ResidentTextureBufferUtil.Setup
+function C56064F8EC2EC133B.S7C68FEDB79AB6396()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2
   L0_2 = nil
   L1_2 = cFBF4166D
@@ -59,11 +50,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C56064F8EC2EC133B"]
-L69_1 = "S63B00E61A6DE15B0"
-
-function L70_1(A0_2)
+--- main.ui.resident_resources.ResidentTextureBufferUtil.LoadNeedTexture
+function C56064F8EC2EC133B.S63B00E61A6DE15B0(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
   L1_2 = nil
   L2_2 = cFBF4166D
@@ -169,11 +157,8 @@ function L70_1(A0_2)
   L12_2.SE795C6D7F336FCA8 = A0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C56064F8EC2EC133B"]
-L69_1 = "S16EFA6AAFA6D9BF7"
-
-function L70_1()
+--- main.ui.resident_resources.ResidentTextureBufferUtil.UnLoadBufferTexture
+function C56064F8EC2EC133B.S16EFA6AAFA6D9BF7()
   local L0_2, L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L0_2 = nil
   L1_2 = cFBF4166D
@@ -285,11 +270,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C56064F8EC2EC133B"]
-L69_1 = "S6FE84C92012A06CC"
-
-function L70_1()
+--- main.ui.resident_resources.ResidentTextureBufferUtil.IsWaitLoading
+function C56064F8EC2EC133B.S6FE84C92012A06CC()
   local L0_2, L1_2, L2_2
   L0_2 = C56064F8EC2EC133B
   L0_2 = L0_2.S6D3556275C22237D
@@ -301,11 +283,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C56064F8EC2EC133B"]
-L69_1 = "S4A82E4AFEA018D95"
-
-function L70_1()
+--- main.ui.resident_resources.ResidentTextureBufferUtil.IsWaitUnLoading
+function C56064F8EC2EC133B.S4A82E4AFEA018D95()
   local L0_2, L1_2, L2_2
   L0_2 = C56064F8EC2EC133B
   L0_2 = L0_2.S6D3556275C22237D
@@ -317,11 +296,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C56064F8EC2EC133B"]
-L69_1 = "SD6EBA0517EA82BA6"
-
-function L70_1(A0_2)
+--- main.ui.resident_resources.ResidentTextureBufferUtil.ReplaceBufferDataLanguageSequence
+function C56064F8EC2EC133B.SD6EBA0517EA82BA6(A0_2)
   local L1_2, L2_2
   if 0 == A0_2 then
     return
@@ -363,11 +339,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C56064F8EC2EC133B"]
-L69_1 = "S58B1C312546F66F2"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.resident_resources.ResidentTextureBufferUtil.ReplaceTexture
+function C56064F8EC2EC133B.S58B1C312546F66F2(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L4_2 = C56064F8EC2EC133B
   L4_2 = L4_2.S6D3556275C22237D
@@ -380,11 +353,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C56064F8EC2EC133B"]
-L69_1 = "S132878D2353CB867"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.resident_resources.ResidentTextureBufferUtil.S132878D2353CB867
+function C56064F8EC2EC133B.S132878D2353CB867(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C2E8D016DD410D06A
   L2_2 = L2_2.S5F1C1A8AAC640C63
@@ -400,11 +370,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C56064F8EC2EC133B"]
-L69_1 = "SD28D1DB158B83DCE"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.resident_resources.ResidentTextureBufferUtil.SD28D1DB158B83DCE
+function C56064F8EC2EC133B.SD28D1DB158B83DCE(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C2E8D016DD410D06A
   L2_2 = L2_2.S5F1C1A8AAC640C63
@@ -419,11 +386,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C56064F8EC2EC133B"]
-L69_1 = "S78A202D6659A4E78"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.resident_resources.ResidentTextureBufferUtil.S78A202D6659A4E78
+function C56064F8EC2EC133B.S78A202D6659A4E78(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = C2E8D016DD410D06A
   L2_2 = L2_2.SB0037024EFBA1EBF
@@ -439,11 +403,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C56064F8EC2EC133B"]
-L69_1 = "SC0DF8E818A4B6027"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.resident_resources.ResidentTextureBufferUtil.SC0DF8E818A4B6027
+function C56064F8EC2EC133B.SC0DF8E818A4B6027(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = C2E8D016DD410D06A
   L2_2 = L2_2.SB0037024EFBA1EBF

@@ -1,3 +1,7 @@
+---@alias C443308CA8577C6D6 main_management_light__FaceLightManager_Impl
+
+---@class main_management_light__FaceLightManager_Impl : C443308CA8577C6D6_prototype
+---@field prototype C443308CA8577C6D6_prototype
 L55_1 = _ENV
 L56_1 = "C443308CA8577C6D6"
 L57_1 = L15_1
@@ -138,42 +142,34 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C443308CA8577C6D6"]
 L69_1 = "__name__"
 L70_1 = "C443308CA8577C6D6"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C443308CA8577C6D6"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C443308CA8577C6D6"]["prototype"]
-L69_1 = "FDCA805DEC4955B66"
-
-function L70_1(A0_2)
+---@class C443308CA8577C6D6_prototype
+C443308CA8577C6D6_prototype = L15_1()
+C443308CA8577C6D6.prototype = C443308CA8577C6D6_prototype
+--- main.management.light._FaceLightManager.Impl.FDCA805DEC4955B66
+function C443308CA8577C6D6_prototype:FDCA805DEC4955B66()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = nil
   L2_2 = c451059A3
   L2_2 = L2_2.fCEA5CEED
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   L4_2 = L1_2
   L2_2 = L2_2(L3_2, L4_2)
   if L2_2 then
     L2_2 = false
     return L2_2
   else
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.f900312E7
     return L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C443308CA8577C6D6"]["prototype"]
-L69_1 = "F8215278AD88C3507"
-
-function L70_1(A0_2, A1_2)
+--- main.management.light._FaceLightManager.Impl.CreateAttachFaceLight
+function C443308CA8577C6D6_prototype:F8215278AD88C3507(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FDCA805DEC4955B66
+  L3_2 = self
+  L2_2 = self.FDCA805DEC4955B66
   L2_2 = L2_2(L3_2)
   if not L2_2 then
     return
@@ -193,11 +189,11 @@ function L70_1(A0_2, A1_2)
   L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L4_2(L5_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
   L4_2 = L31_1.string
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
   L3_2 = L3_2 .. L4_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FACED24CCCBEA0202
+  L5_2 = self
+  L4_2 = self.FACED24CCCBEA0202
   L6_2 = L3_2
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
@@ -209,7 +205,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = L4_2
   L4_2 = L4_2.f68159593
   L6_2 = L3_2
-  L7_2 = A0_2[3]
+  L7_2 = self[3]
   L4_2 = L4_2(L5_2, L6_2, L7_2)
   while true do
     L6_2 = L4_2
@@ -227,16 +223,16 @@ function L70_1(A0_2, A1_2)
   L7_2 = A1_2
   L8_2 = "head"
   L5_2(L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F05F6F08A0F7C44BE
+  L6_2 = self
+  L5_2 = self.F05F6F08A0F7C44BE
   L7_2 = A1_2
   L5_2 = L5_2(L6_2, L7_2)
   L6_2 = L5_2
   L5_2 = L5_2.fCA247E7A
   L7_2 = 0
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L8_2 = L8_2.offSetY
-  L9_2 = A0_2[5]
+  L9_2 = self[5]
   L9_2 = L9_2.distance
   L5_2, L6_2, L7_2 = L5_2(L6_2, L7_2, L8_2, L9_2)
   L9_2 = L4_2
@@ -245,7 +241,7 @@ function L70_1(A0_2, A1_2)
   L11_2 = L6_2
   L12_2 = L7_2
   L8_2(L9_2, L10_2, L11_2, L12_2)
-  L8_2 = A0_2[4]
+  L8_2 = self[4]
   L9_2 = L8_2
   L8_2 = L8_2.push
   L10_2 = L16_1
@@ -263,13 +259,10 @@ function L70_1(A0_2, A1_2)
   L8_2(L9_2, L10_2, L11_2, L12_2, L13_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C443308CA8577C6D6"]["prototype"]
-L69_1 = "FACED24CCCBEA0202"
-
-function L70_1(A0_2, A1_2)
+--- main.management.light._FaceLightManager.Impl.IsAlreadyFaceLight
+function C443308CA8577C6D6_prototype:FACED24CCCBEA0202(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = _hx_tab_array
   L4_2 = {}
   L4_2.length = 0
@@ -296,11 +289,8 @@ function L70_1(A0_2, A1_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C443308CA8577C6D6"]["prototype"]
-L69_1 = "F05F6F08A0F7C44BE"
-
-function L70_1(A0_2, A1_2)
+--- main.management.light._FaceLightManager.Impl.GetHeadNodeRot
+function C443308CA8577C6D6_prototype:F05F6F08A0F7C44BE(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = cECB91E31
   L2_2 = L2_2.fB41FD22F
@@ -320,11 +310,8 @@ function L70_1(A0_2, A1_2)
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C443308CA8577C6D6"]["prototype"]
-L69_1 = "F26400213674197A0"
-
-function L70_1(A0_2, A1_2)
+--- main.management.light._FaceLightManager.Impl.DestroyFaceLight
+function C443308CA8577C6D6_prototype:F26400213674197A0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = nil
   L3_2 = c016374C1
@@ -335,7 +322,7 @@ function L70_1(A0_2, A1_2)
   if L3_2 then
     return
   end
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L4_2 = _hx_tab_array
   L5_2 = {}
   L5_2.length = 0
@@ -369,7 +356,7 @@ function L70_1(A0_2, A1_2)
     end
     L7_2 = L4_2[L6_2]
     L6_2 = L6_2 + 1
-    L8_2 = A0_2[4]
+    L8_2 = self[4]
     L9_2 = L8_2
     L8_2 = L8_2.remove
     L10_2 = L7_2
@@ -382,19 +369,16 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C443308CA8577C6D6"]["prototype"]
-L69_1 = "FCCB623162115DC19"
-
-function L70_1(A0_2)
+--- main.management.light._FaceLightManager.Impl.AllDestroyFaceLight
+function C443308CA8577C6D6_prototype:FCCB623162115DC19()
   local L1_2, L2_2, L3_2
   while true do
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     L1_2 = L1_2.length
     if 0 == L1_2 then
       break
     end
-    L1_2 = A0_2[4]
+    L1_2 = self[4]
     L2_2 = L1_2
     L1_2 = L1_2.pop
     L1_2 = L1_2(L2_2)
@@ -404,7 +388,7 @@ function L70_1(A0_2)
     L3_2 = true
     L1_2(L2_2, L3_2)
   end
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   L2_2 = L1_2
   L1_2 = L1_2.resize
   L3_2 = 0

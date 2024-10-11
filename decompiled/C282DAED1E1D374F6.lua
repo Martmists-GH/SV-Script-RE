@@ -1,3 +1,6 @@
+---@alias C931098C27BA0B398 main_event_command_TipsCommand
+
+---@class main_event_command_TipsCommand
 L55_1 = _ENV
 L56_1 = "C282DAED1E1D374F6"
 L57_1 = L15_1

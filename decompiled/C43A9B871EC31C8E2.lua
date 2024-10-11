@@ -1,3 +1,7 @@
+---@alias C43A9B871EC31C8E2 main_ui_net_btl_state_machine_NetworkBattleStateRuleCheck
+
+---@class main_ui_net_btl_state_machine_NetworkBattleStateRuleCheck : C43A9B871EC31C8E2_prototype
+---@field prototype C43A9B871EC31C8E2_prototype
 L55_1 = _ENV
 L56_1 = "C43A9B871EC31C8E2"
 L57_1 = L15_1
@@ -48,64 +52,59 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C43A9B871EC31C8E2"]
 L69_1 = "__name__"
 L70_1 = "C43A9B871EC31C8E2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43A9B871EC31C8E2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43A9B871EC31C8E2"]["prototype"]
-L69_1 = "F5BE3D38738EE3C24"
-
-function L70_1(A0_2)
+---@class C43A9B871EC31C8E2_prototype
+C43A9B871EC31C8E2_prototype = L15_1()
+C43A9B871EC31C8E2.prototype = C43A9B871EC31C8E2_prototype
+--- main.ui.net_btl.state_machine.NetworkBattleStateRuleCheck.OnEntry
+function C43A9B871EC31C8E2_prototype:F5BE3D38738EE3C24()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.F2FBB004A3763CEBD
   L3_2 = 4
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[9] = L1_2
-  L1_2 = A0_2[6]
+  self[9] = L1_2
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.F2FBB004A3763CEBD
   L3_2 = 2
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[8] = L1_2
-  L1_2 = A0_2[8]
+  self[8] = L1_2
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.F88E265ADB86ACC71
   L1_2(L2_2)
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.FB038BC9C646EA9A0
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.FBB5E1195256ACC96
   L1_2 = L1_2(L2_2)
-  A0_2[10] = L1_2
-  L1_2 = A0_2[10]
+  self[10] = L1_2
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.F2ECDE43B26B1E1F1
   L3_2 = C5A4B97A873A16656
   L3_2 = L3_2.S883752746C11F50D
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = L1_2
   L1_2 = L1_2.FEC9A7CA9630D927F
   L1_2 = L1_2(L2_2)
-  A0_2[12] = L1_2
-  L1_2 = A0_2[8]
+  self[12] = L1_2
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.F35EFE735AEF5C1BE
-  L3_2 = A0_2[12]
+  L3_2 = self[12]
   L1_2(L2_2, L3_2)
   L1_2 = c3876BF41
   L1_2 = L1_2.fFD1C08F3
   L1_2 = L1_2()
-  A0_2[13] = L1_2
-  L1_2 = A0_2[13]
+  self[13] = L1_2
+  L1_2 = self[13]
   if false == L1_2 then
     L1_2 = C99FCBF1B467C7135
     L1_2 = L1_2.SA72CC16A0C761630
@@ -114,8 +113,8 @@ function L70_1(A0_2)
     L1_2 = L1_2.F3E9CAF685815C48B
     L1_2 = L1_2(L2_2)
     if false == L1_2 then
-      A0_2[14] = false
-      L1_2 = A0_2[8]
+      self[14] = false
+      L1_2 = self[8]
       L2_2 = L1_2
       L1_2 = L1_2.F7D11CD824A0EEDA1
       L3_2 = 1
@@ -125,15 +124,15 @@ function L70_1(A0_2)
       L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
   end
   else
-    A0_2[14] = true
-    L1_2 = A0_2[8]
+    self[14] = true
+    L1_2 = self[8]
     L2_2 = L1_2
     L1_2 = L1_2.F7D11CD824A0EEDA1
     L3_2 = 1
     L4_2 = true
     L1_2(L2_2, L3_2, L4_2)
   end
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.FAD15A50BD9893DC2
   L3_2 = C99FCBF1B467C7135
@@ -143,36 +142,33 @@ function L70_1(A0_2)
   L3_2 = L3_2.F3E9CAF685815C48B
   L3_2, L4_2, L5_2, L6_2 = L3_2(L4_2)
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L1_2 = L1_2[17]
-  A0_2[18] = L1_2
+  self[18] = L1_2
   L1_2 = C93D7D348587CFD57
   L1_2 = L1_2.new
-  L2_2 = A0_2[5]
-  L3_2 = A0_2
-  L4_2 = A0_2[8]
+  L2_2 = self[5]
+  L3_2 = self
+  L4_2 = self[8]
   L1_2 = L1_2(L2_2, L3_2, L4_2)
-  A0_2[15] = L1_2
-  A0_2[16] = false
+  self[15] = L1_2
+  self[16] = false
   L1_2 = CC6486C3197DC5DAB
   L1_2 = L1_2.new
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.FF657426FC1B0D20A
   L2_2 = L2_2(L3_2)
   L3_2 = 1
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[17] = L1_2
+  self[17] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43A9B871EC31C8E2"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateRuleCheck.OnUpdate
+function C43A9B871EC31C8E2_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   while true do
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L3_2 = L2_2
     L2_2 = L2_2.F02C094ED00192342
     L2_2 = L2_2(L3_2)
@@ -184,7 +180,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = nil
     L2_2(L3_2)
   end
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.F7EED485852A4D25F
   L2_2(L3_2)
@@ -194,7 +190,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L2_2
   L2_2 = L2_2.F7A3D296366E973CB
   L2_2(L3_2)
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.F9606515D9FBBDAC1
   L4_2 = CEBAF1EAFE90BF1A6
@@ -205,51 +201,51 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2(L5_2)
   L5_2 = false
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.F7D11CD824A0EEDA1
   L4_2 = 2
   L5_2 = false
   L2_2(L3_2, L4_2, L5_2)
-  A0_2[19] = false
-  L3_2 = A0_2
-  L2_2 = A0_2.FB9C164906B2DAC4D
+  self[19] = false
+  L3_2 = self
+  L2_2 = self.FB9C164906B2DAC4D
   L4_2 = false
   L2_2(L3_2, L4_2)
   L2_2 = CB70DB0084AFDD907
   L2_2 = L2_2.S35D93EC78C27896E
   L3_2 = 13
   L2_2(L3_2)
-  L3_2 = A0_2
-  L2_2 = A0_2.FB00654ADBA24C202
+  L3_2 = self
+  L2_2 = self.FB00654ADBA24C202
   L2_2(L3_2)
   while true do
     L2_2 = C1DB14DCC9D7634FA
     L2_2 = L2_2.S760DAE4C5371A78E
     L3_2 = nil
     L2_2(L3_2)
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L3_2 = L2_2
     L2_2 = L2_2.F1D31464EA6D3B349
     L2_2 = L2_2(L3_2)
     if false == L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FB9C164906B2DAC4D
+      L3_2 = self
+      L2_2 = self.FB9C164906B2DAC4D
       L4_2 = true
       L2_2(L3_2, L4_2)
     end
-    L2_2 = A0_2[15]
+    L2_2 = self[15]
     L3_2 = L2_2
     L2_2 = L2_2.FE1B998C2DEC49E51
     L2_2(L3_2)
-    L2_2 = A0_2[15]
+    L2_2 = self[15]
     L3_2 = L2_2
     L2_2 = L2_2.F355CFD251A574136
     L2_2 = L2_2(L3_2)
     if L2_2 then
       return
     end
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L3_2 = L2_2
     L2_2 = L2_2.FA3DBF3621223E0C9
     L2_2 = L2_2(L3_2)
@@ -257,28 +253,28 @@ function L70_1(A0_2, A1_2)
     L2_2 = L2_2.fBBBAA5DE
     L2_2 = L2_2(L3_2)
     if 1 == L2_2 then
-      L2_2 = A0_2[14]
+      L2_2 = self[14]
       if L2_2 then
-        L2_2 = A0_2[17]
+        L2_2 = self[17]
         if nil ~= L2_2 then
-          L2_2 = A0_2[17]
+          L2_2 = self[17]
           L3_2 = L2_2
           L2_2 = L2_2.F2B8F4D1A92BBC209
           L2_2(L3_2)
         end
       end
     end
-    L2_2 = A0_2[18]
+    L2_2 = self[18]
     L3_2 = L2_2
     L2_2 = L2_2.fDEEB3A8E
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FB9C164906B2DAC4D
+      L3_2 = self
+      L2_2 = self.FB9C164906B2DAC4D
       L4_2 = false
       L2_2(L3_2, L4_2)
-      L3_2 = A0_2
-      L2_2 = A0_2.F7CA31BBD2DA06C94
+      L3_2 = self
+      L2_2 = self.F7CA31BBD2DA06C94
       L2_2 = L2_2(L3_2)
       if L2_2 then
         L2_2 = C99FCBF1B467C7135
@@ -299,36 +295,36 @@ function L70_1(A0_2, A1_2)
           L3_2 = c45907372
           L3_2 = L3_2.fA3902F40
           L3_2()
-          L3_2 = A0_2[5]
+          L3_2 = self[5]
           L4_2 = L3_2
           L3_2 = L3_2.F28EAF3B3AA178E3E
           L5_2 = CE86CDE507FE0E511
           L5_2 = L5_2.new
           L5_2, L6_2, L7_2, L8_2, L9_2 = L5_2()
           L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-          L3_2 = A0_2[8]
+          L3_2 = self[8]
           L4_2 = L3_2
           L3_2 = L3_2.F99197E1D935F7D22
           L5_2 = "exit"
           L3_2(L4_2, L5_2)
           break
         end
-        L3_2 = A0_2[5]
+        L3_2 = self[5]
         L4_2 = L3_2
         L3_2 = L3_2.F28EAF3B3AA178E3E
         L5_2 = C419964F01AD6227B
         L5_2 = L5_2.new
         L5_2, L6_2, L7_2, L8_2, L9_2 = L5_2()
         L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-        L3_2 = A0_2[8]
+        L3_2 = self[8]
         L4_2 = L3_2
         L3_2 = L3_2.F99197E1D935F7D22
         L5_2 = "Next"
         L3_2(L4_2, L5_2)
         break
       else
-        L3_2 = A0_2
-        L2_2 = A0_2.FB9C164906B2DAC4D
+        L3_2 = self
+        L2_2 = self.FB9C164906B2DAC4D
         L4_2 = true
         L2_2(L3_2, L4_2)
       end
@@ -340,51 +336,51 @@ function L70_1(A0_2, A1_2)
     L2_2 = L2_2.FD82E5C1D99CAEE4A
     L2_2 = L2_2(L3_2)
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FB9C164906B2DAC4D
+      L3_2 = self
+      L2_2 = self.FB9C164906B2DAC4D
       L4_2 = false
       L2_2(L3_2, L4_2)
       L2_2 = CB70DB0084AFDD907
       L2_2 = L2_2.S84E00A89DFBC380C
       L2_2()
-      L3_2 = A0_2
-      L2_2 = A0_2.F7C06F6BEA957F0E6
+      L3_2 = self
+      L2_2 = self.F7C06F6BEA957F0E6
       L4_2 = 3
       L2_2(L3_2, L4_2)
-      L2_2 = A0_2[5]
+      L2_2 = self[5]
       L3_2 = L2_2
       L2_2 = L2_2.F28EAF3B3AA178E3E
       L4_2 = C419964F01AD6227B
       L4_2 = L4_2.new
       L4_2, L5_2, L6_2, L7_2, L8_2, L9_2 = L4_2()
       L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-      L2_2 = A0_2[8]
+      L2_2 = self[8]
       L3_2 = L2_2
       L2_2 = L2_2.F99197E1D935F7D22
       L4_2 = "Next"
       L2_2(L3_2, L4_2)
       break
     end
-    L2_2 = A0_2[8]
+    L2_2 = self[8]
     L3_2 = L2_2
     L2_2 = L2_2.FF6EDB45E9F351C6F
     L4_2 = 0
     L2_2 = L2_2(L3_2, L4_2)
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FB9C164906B2DAC4D
+      L3_2 = self
+      L2_2 = self.FB9C164906B2DAC4D
       L4_2 = false
       L2_2(L3_2, L4_2)
-      L2_2 = A0_2[8]
+      L2_2 = self[8]
       L3_2 = L2_2
       L2_2 = L2_2.F218E2A14A790D265
       L2_2(L3_2)
-      L2_2 = A0_2[9]
+      L2_2 = self[9]
       L3_2 = L2_2
       L2_2 = L2_2.F218E2A14A790D265
       L2_2(L3_2)
-      L3_2 = A0_2
-      L2_2 = A0_2.FCD42654B55E9E8CE
+      L3_2 = self
+      L2_2 = self.FCD42654B55E9E8CE
       L2_2(L3_2)
       L2_2 = CEBAF1EAFE90BF1A6
       L2_2 = L2_2.S385504EFF7E842C3
@@ -393,7 +389,7 @@ function L70_1(A0_2, A1_2)
       L2_2 = L2_2.FC4A37D88A8890909
       L2_2 = L2_2(L3_2)
       if 1 ~= L2_2 then
-        L2_2 = A0_2[8]
+        L2_2 = self[8]
         L3_2 = L2_2
         L2_2 = L2_2.F9606515D9FBBDAC1
         L4_2 = CEBAF1EAFE90BF1A6
@@ -405,16 +401,16 @@ function L70_1(A0_2, A1_2)
         L5_2 = true
         L2_2(L3_2, L4_2, L5_2)
       end
-      L2_2 = A0_2[9]
+      L2_2 = self[9]
       L3_2 = L2_2
       L2_2 = L2_2.F2D4F4BC40511B560
       L2_2(L3_2)
-      L2_2 = A0_2[8]
+      L2_2 = self[8]
       L3_2 = L2_2
       L2_2 = L2_2.F2D4F4BC40511B560
       L2_2(L3_2)
-      L3_2 = A0_2
-      L2_2 = A0_2.FB9C164906B2DAC4D
+      L3_2 = self
+      L2_2 = self.FB9C164906B2DAC4D
       L4_2 = true
       L2_2(L3_2, L4_2)
       L2_2 = CEBAF1EAFE90BF1A6
@@ -424,30 +420,30 @@ function L70_1(A0_2, A1_2)
       L2_2 = L2_2.FC4A37D88A8890909
       L2_2 = L2_2(L3_2)
       if 1 == L2_2 then
-        L2_2 = A0_2[19]
+        L2_2 = self[19]
         if false == L2_2 then
-          L3_2 = A0_2
-          L2_2 = A0_2.FB9C164906B2DAC4D
+          L3_2 = self
+          L2_2 = self.FB9C164906B2DAC4D
           L4_2 = false
           L2_2(L3_2, L4_2)
-          L3_2 = A0_2
-          L2_2 = A0_2.F0CFA562FCBDC0E93
+          L3_2 = self
+          L2_2 = self.F0CFA562FCBDC0E93
           L2_2(L3_2)
-          L3_2 = A0_2
-          L2_2 = A0_2.FB9C164906B2DAC4D
+          L3_2 = self
+          L2_2 = self.FB9C164906B2DAC4D
           L4_2 = true
           L2_2(L3_2, L4_2)
       end
       else
-        L2_2 = A0_2[8]
+        L2_2 = self[8]
         L3_2 = L2_2
         L2_2 = L2_2.F7D11CD824A0EEDA1
         L4_2 = 2
         L5_2 = true
         L2_2(L3_2, L4_2, L5_2)
       end
-      L3_2 = A0_2
-      L2_2 = A0_2.FB00654ADBA24C202
+      L3_2 = self
+      L2_2 = self.FB00654ADBA24C202
       L2_2(L3_2)
       while true do
         L2_2 = CFC2DE9C924277A7B
@@ -466,9 +462,9 @@ function L70_1(A0_2, A1_2)
       L3_2 = 13
       L2_2(L3_2)
     end
-    L2_2 = A0_2[19]
+    L2_2 = self[19]
     if L2_2 then
-      L2_2 = A0_2[8]
+      L2_2 = self[8]
       L3_2 = L2_2
       L2_2 = L2_2.FF6EDB45E9F351C6F
       L4_2 = 2
@@ -509,10 +505,10 @@ function L70_1(A0_2, A1_2)
         function L4_2()
           local L0_3, L1_3, L2_3
           L0_3 = nil
-          L1_3 = A0_2
+          L1_3 = self
           L1_3 = L1_3[14]
           if L1_3 then
-            L1_3 = A0_2
+            L1_3 = self
             L1_3 = L1_3[17]
             L2_3 = L1_3
             L1_3 = L1_3.FD3BAC7D18A52E2B3
@@ -545,28 +541,28 @@ function L70_1(A0_2, A1_2)
           L6_2 = c45907372
           L6_2 = L6_2.fA3902F40
           L6_2()
-          L6_2 = A0_2[5]
+          L6_2 = self[5]
           L7_2 = L6_2
           L6_2 = L6_2.F28EAF3B3AA178E3E
           L8_2 = CE86CDE507FE0E511
           L8_2 = L8_2.new
           L8_2, L9_2 = L8_2()
           L6_2(L7_2, L8_2, L9_2)
-          L6_2 = A0_2[8]
+          L6_2 = self[8]
           L7_2 = L6_2
           L6_2 = L6_2.F99197E1D935F7D22
           L8_2 = "exit"
           L6_2(L7_2, L8_2)
           break
         end
-        L6_2 = A0_2[5]
+        L6_2 = self[5]
         L7_2 = L6_2
         L6_2 = L6_2.F28EAF3B3AA178E3E
         L8_2 = CAFDE40419A65F2AF
         L8_2 = L8_2.new
         L8_2, L9_2 = L8_2()
         L6_2(L7_2, L8_2, L9_2)
-        L6_2 = A0_2[8]
+        L6_2 = self[8]
         L7_2 = L6_2
         L6_2 = L6_2.F99197E1D935F7D22
         L8_2 = "Next"
@@ -583,11 +579,8 @@ function L70_1(A0_2, A1_2)
   L2_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43A9B871EC31C8E2"]["prototype"]
-L69_1 = "F0CFA562FCBDC0E93"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateRuleCheck.F0CFA562FCBDC0E93
+function C43A9B871EC31C8E2_prototype:F0CFA562FCBDC0E93()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = 4
   L2_2 = C99FCBF1B467C7135
@@ -599,23 +592,20 @@ function L70_1(A0_2)
   if false == L2_2 then
     L1_2 = 23
   end
-  L3_2 = A0_2
-  L2_2 = A0_2.F7C06F6BEA957F0E6
+  L3_2 = self
+  L2_2 = self.F7C06F6BEA957F0E6
   L4_2 = L1_2
   L2_2(L3_2, L4_2)
   L2_2 = CB70DB0084AFDD907
   L2_2 = L2_2.S84E00A89DFBC380C
   L2_2()
-  L3_2 = A0_2
-  L2_2 = A0_2.FB00654ADBA24C202
+  L3_2 = self
+  L2_2 = self.FB00654ADBA24C202
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43A9B871EC31C8E2"]["prototype"]
-L69_1 = "FB00654ADBA24C202"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateRuleCheck.UpdateOptionBar
+function C43A9B871EC31C8E2_prototype:FB00654ADBA24C202()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = C99FCBF1B467C7135
   L1_2 = L1_2.SA72CC16A0C761630
@@ -652,14 +642,11 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43A9B871EC31C8E2"]["prototype"]
-L69_1 = "F7CA31BBD2DA06C94"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateRuleCheck.F7CA31BBD2DA06C94
+function C43A9B871EC31C8E2_prototype:F7CA31BBD2DA06C94()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FA6AEAE2E9B0CF940
+  L2_2 = self
+  L1_2 = self.FA6AEAE2E9B0CF940
   
   function L3_2()
     local L0_3, L1_3, L2_3
@@ -691,45 +678,39 @@ function L70_1(A0_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43A9B871EC31C8E2"]["prototype"]
-L69_1 = "FB9C164906B2DAC4D"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateRuleCheck.SetUikitActive
+function C43A9B871EC31C8E2_prototype:FB9C164906B2DAC4D(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = C70EFEB0F33DD68D6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.FB9C164906B2DAC4D
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.F7885CED7EE714B0D
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   L3_2 = L2_2
   L2_2 = L2_2.F6FCE9E4187792625
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[17]
+  L2_2 = self[17]
   L3_2 = L2_2
   L2_2 = L2_2.FB3189E9A352B2D04
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43A9B871EC31C8E2"]["prototype"]
-L69_1 = "FCD42654B55E9E8CE"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateRuleCheck.SelectBattleTeam
+function C43A9B871EC31C8E2_prototype:FCD42654B55E9E8CE()
   local L1_2, L2_2
-  A0_2[16] = true
+  self[16] = true
   while true do
-    L2_2 = A0_2
-    L1_2 = A0_2.F656D165B277B717E
+    L2_2 = self
+    L1_2 = self.F656D165B277B717E
     L1_2(L2_2)
     L1_2 = CEBAF1EAFE90BF1A6
     L1_2 = L1_2.S385504EFF7E842C3
@@ -738,8 +719,8 @@ function L70_1(A0_2)
     L1_2 = L1_2.FC4A37D88A8890909
     L1_2 = L1_2(L2_2)
     if 2 == L1_2 then
-      L2_2 = A0_2
-      L1_2 = A0_2.F3CB7CF927863FE12
+      L2_2 = self
+      L1_2 = self.F3CB7CF927863FE12
       L1_2(L2_2)
     else
       break
@@ -749,7 +730,7 @@ function L70_1(A0_2)
     L2_2 = nil
     L1_2(L2_2)
   end
-  A0_2[16] = false
+  self[16] = false
   L1_2 = CEBAF1EAFE90BF1A6
   L1_2 = L1_2.S385504EFF7E842C3
   L1_2 = L1_2()
@@ -757,15 +738,12 @@ function L70_1(A0_2)
   L1_2 = L1_2.FC4A37D88A8890909
   L1_2 = L1_2(L2_2)
   if 0 == L1_2 then
-    A0_2[19] = true
+    self[19] = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43A9B871EC31C8E2"]["prototype"]
-L69_1 = "F656D165B277B717E"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateRuleCheck.StartBattleTeamUI
+function C43A9B871EC31C8E2_prototype:F656D165B277B717E()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CC52C328A9EF68275
   L1_2 = L1_2.new
@@ -811,7 +789,7 @@ function L70_1(A0_2)
   L3_2(L4_2, L5_2)
   L4_2 = L2_2
   L3_2 = L2_2.FE1AA135C0FF142F3
-  L5_2 = A0_2[13]
+  L5_2 = self[13]
   L3_2(L4_2, L5_2)
   L4_2 = L2_2
   L3_2 = L2_2.FEF5C8D9763AAE79A
@@ -847,11 +825,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43A9B871EC31C8E2"]["prototype"]
-L69_1 = "F3CB7CF927863FE12"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateRuleCheck.StartBoxUI
+function C43A9B871EC31C8E2_prototype:F3CB7CF927863FE12()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CDFF37B3796670E22
   L1_2 = L1_2.new
@@ -897,19 +872,16 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C43A9B871EC31C8E2"]["prototype"]
-L69_1 = "FEB16F27ECF5C4C90"
-
-function L70_1(A0_2)
+--- main.ui.net_btl.state_machine.NetworkBattleStateRuleCheck.OnForceEnd
+function C43A9B871EC31C8E2_prototype:FEB16F27ECF5C4C90()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[16]
+  L1_2 = self[16]
   if L1_2 then
     L1_2 = false
     return L1_2
   end
-  L2_2 = A0_2
-  L1_2 = A0_2.FB9C164906B2DAC4D
+  L2_2 = self
+  L1_2 = self.FB9C164906B2DAC4D
   L3_2 = false
   L1_2(L2_2, L3_2)
   L1_2 = true

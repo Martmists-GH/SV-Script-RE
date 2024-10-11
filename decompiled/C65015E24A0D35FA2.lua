@@ -1,3 +1,7 @@
+---@alias C65015E24A0D35FA2 main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokeBattleEndState
+
+---@class main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokeBattleEndState : C65015E24A0D35FA2_prototype
+---@field prototype C65015E24A0D35FA2_prototype
 L55_1 = _ENV
 L56_1 = "C65015E24A0D35FA2"
 L57_1 = L15_1
@@ -39,18 +43,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C65015E24A0D35FA2"]
 L69_1 = "__name__"
 L70_1 = "C65015E24A0D35FA2"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C65015E24A0D35FA2"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C65015E24A0D35FA2"]["prototype"]
-L69_1 = "F239C282ED3F82676"
-
-function L70_1(A0_2, A1_2)
+---@class C65015E24A0D35FA2_prototype
+C65015E24A0D35FA2_prototype = L15_1()
+C65015E24A0D35FA2.prototype = C65015E24A0D35FA2_prototype
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeBattleEndState.onInitialize
+function C65015E24A0D35FA2_prototype:F239C282ED3F82676(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = nil
   L4_2 = cECB91E31
   L4_2 = L4_2.fB6A00A1B
@@ -181,20 +180,17 @@ function L70_1(A0_2, A1_2)
     L12_2 = true
     L10_2(L11_2, L12_2)
   end
-  L9_2 = A0_2[1]
+  L9_2 = self[1]
   L10_2 = L9_2
   L9_2 = L9_2.F5C5E9ECB8CC263C5
   L11_2 = 0.0
   L9_2(L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C65015E24A0D35FA2"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.scenario.main.champion.gym.kusa.GymKusaPokeBattleEndState.onPreUpdate
+function C65015E24A0D35FA2_prototype:F1993A419B4083AE8(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L4_2 = A1_2
   L3_2 = A1_2.f22D509B2
   L5_2 = 2
@@ -203,28 +199,28 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.fC0E2CAD0
   L3_2 = L3_2(L4_2)
   L2_2 = L2_2 + L3_2
-  A0_2[4] = L2_2
-  L2_2 = A0_2[1]
+  self[4] = L2_2
+  L2_2 = self[1]
   L3_2 = L2_2
   L2_2 = L2_2.F5C5E9ECB8CC263C5
-  L4_2 = A0_2[4]
+  L4_2 = self[4]
   L5_2 = C65015E24A0D35FA2
   L5_2 = L5_2.S06CBB7C946C98947
   L4_2 = L4_2 / L5_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L3_2 = C65015E24A0D35FA2
   L3_2 = L3_2.S06CBB7C946C98947
   if L2_2 >= L3_2 then
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F5C5E9ECB8CC263C5
     L4_2 = 1.0
     L2_2(L3_2, L4_2)
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F28EAF3B3AA178E3E
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L4_2 = L4_2[61]
     L2_2(L3_2, L4_2)
   end

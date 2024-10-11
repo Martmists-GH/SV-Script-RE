@@ -1,3 +1,5 @@
+---@class C21E6221B05425753 : C21E6221B05425753_prototype
+---@field prototype C21E6221B05425753_prototype
 L68_1 = _ENV["C21E6221B05425753"]
 L69_1 = "super"
 
@@ -17,16 +19,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C21E6221B05425753"]
 L69_1 = "__name__"
 L70_1 = "C21E6221B05425753"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C21E6221B05425753_prototype
+C21E6221B05425753_prototype = L15_1()
+C21E6221B05425753.prototype = C21E6221B05425753_prototype
+--- C21E6221B05425753.mainBody
+function C21E6221B05425753_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L1_2 = C07E4F1BF071B0460
   L1_2 = L1_2.S218E2A14A790D265
@@ -36,15 +33,15 @@ function L70_1(A0_2)
   L1_2 = L1_2.S5A1891F7F2FA22B6
   L2_2 = 29
   L1_2 = L1_2(L2_2)
-  A0_2[35] = L1_2
+  self[35] = L1_2
   L1_2 = C479A8F7C33D1FDC2
   L1_2 = L1_2.S926DAEA354DE2F13
   L2_2 = 29
   L1_2 = L1_2(L2_2)
-  A0_2[36] = L1_2
+  self[36] = L1_2
   L1_2 = C479A8F7C33D1FDC2
   L1_2 = L1_2.SA93A66A801094C57
-  L2_2 = A0_2[36]
+  L2_2 = self[36]
   L1_2 = L1_2(L2_2)
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.S12FD376DC11712C8
@@ -90,14 +87,14 @@ function L70_1(A0_2)
   L6_2 = C9F6C325569B7E07F
   L6_2 = L6_2.S2E9035BDE01AB38A
   L7_2 = 0.0
-  L9_2 = A0_2
-  L8_2 = A0_2.F0A528C2F9F2670CD
+  L9_2 = self
+  L8_2 = self.F0A528C2F9F2670CD
   L10_2 = -0.23
   L11_2 = 1.37
   L12_2 = -9.09
   L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2)
-  L10_2 = A0_2
-  L9_2 = A0_2.F0A528C2F9F2670CD
+  L10_2 = self
+  L9_2 = self.F0A528C2F9F2670CD
   L11_2 = -6.34
   L12_2 = 132.77
   L13_2 = 0.0
@@ -125,7 +122,7 @@ function L70_1(A0_2)
   L6_2 = L6_2.S3EDC50DEB344C642
   L7_2 = ""
   L8_2 = "coach_bbteacher_head_system_01"
-  L9_2 = A0_2[36]
+  L9_2 = self[36]
   L10_2 = 3
   L6_2(L7_2, L8_2, L9_2, L10_2)
   L6_2 = C07E4F1BF071B0460
@@ -141,12 +138,12 @@ function L70_1(A0_2)
   L8_2 = "savedata"
   L6_2(L7_2, L8_2)
   if L4_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F2EE48A47B2D504A2
+    L7_2 = self
+    L6_2 = self.F2EE48A47B2D504A2
     L6_2(L7_2)
   else
-    L7_2 = A0_2
-    L6_2 = A0_2.FB7A610503A92E4F2
+    L7_2 = self
+    L6_2 = self.FB7A610503A92E4F2
     L6_2(L7_2)
   end
   L6_2 = CBBA8BC6DEECCDCB4
@@ -163,14 +160,14 @@ function L70_1(A0_2)
     L6_2 = C9F6C325569B7E07F
     L6_2 = L6_2.S2E9035BDE01AB38A
     L7_2 = 2.5
-    L9_2 = A0_2
-    L8_2 = A0_2.F0A528C2F9F2670CD
+    L9_2 = self
+    L8_2 = self.F0A528C2F9F2670CD
     L10_2 = -1.38
     L11_2 = 1.31
     L12_2 = -8.4
     L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2)
-    L10_2 = A0_2
-    L9_2 = A0_2.F0A528C2F9F2670CD
+    L10_2 = self
+    L9_2 = self.F0A528C2F9F2670CD
     L11_2 = -6.34
     L12_2 = -107.7
     L13_2 = 0.0
@@ -202,14 +199,14 @@ function L70_1(A0_2)
     L6_2 = C9F6C325569B7E07F
     L6_2 = L6_2.S2E9035BDE01AB38A
     L7_2 = 2.0
-    L9_2 = A0_2
-    L8_2 = A0_2.F0A528C2F9F2670CD
+    L9_2 = self
+    L8_2 = self.F0A528C2F9F2670CD
     L10_2 = -1.34
     L11_2 = 1.37
     L12_2 = -9.43
     L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2)
-    L10_2 = A0_2
-    L9_2 = A0_2.F0A528C2F9F2670CD
+    L10_2 = self
+    L9_2 = self.F0A528C2F9F2670CD
     L11_2 = -3.06
     L12_2 = -169.2
     L13_2 = 0.0
@@ -273,8 +270,8 @@ function L70_1(A0_2)
   L9_2 = ""
   L10_2 = nil
   L11_2 = nil
-  L13_2 = A0_2
-  L12_2 = A0_2.F0A528C2F9F2670CD
+  L13_2 = self
+  L12_2 = self.F0A528C2F9F2670CD
   L14_2 = -11.1
   L15_2 = 0.023
   L16_2 = 41.25
@@ -315,14 +312,14 @@ function L70_1(A0_2)
     L6_2 = C9F6C325569B7E07F
     L6_2 = L6_2.S2E9035BDE01AB38A
     L7_2 = 0.0
-    L9_2 = A0_2
-    L8_2 = A0_2.F0A528C2F9F2670CD
+    L9_2 = self
+    L8_2 = self.F0A528C2F9F2670CD
     L10_2 = -15.73
     L11_2 = 12.49
     L12_2 = 55.64
     L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2)
-    L10_2 = A0_2
-    L9_2 = A0_2.F0A528C2F9F2670CD
+    L10_2 = self
+    L9_2 = self.F0A528C2F9F2670CD
     L11_2 = -0.52
     L12_2 = -42.06
     L13_2 = 0.0
@@ -349,14 +346,14 @@ function L70_1(A0_2)
     L6_2 = C9F6C325569B7E07F
     L6_2 = L6_2.S2E9035BDE01AB38A
     L7_2 = 0.0
-    L9_2 = A0_2
-    L8_2 = A0_2.F0A528C2F9F2670CD
+    L9_2 = self
+    L8_2 = self.F0A528C2F9F2670CD
     L10_2 = -1.69
     L11_2 = 1.77
     L12_2 = 42.4
     L8_2 = L8_2(L9_2, L10_2, L11_2, L12_2)
-    L10_2 = A0_2
-    L9_2 = A0_2.F0A528C2F9F2670CD
+    L10_2 = self
+    L9_2 = self.F0A528C2F9F2670CD
     L11_2 = 1.55
     L12_2 = -71.13
     L13_2 = 0.0
@@ -425,12 +422,12 @@ function L70_1(A0_2)
   L7_2 = "PLAY_AUDIENCE_CHEER_ENTRANCE_CHOACHBATTLE"
   L6_2(L7_2)
   if L4_2 then
-    L7_2 = A0_2
-    L6_2 = A0_2.F7DE81692FF78BCD5
+    L7_2 = self
+    L6_2 = self.F7DE81692FF78BCD5
     L6_2(L7_2)
   else
-    L7_2 = A0_2
-    L6_2 = A0_2.F13D1E4DDD2A656A5
+    L7_2 = self
+    L6_2 = self.F13D1E4DDD2A656A5
     L6_2(L7_2)
   end
   L6_2 = C3A36506FBC96ACBD
@@ -509,20 +506,20 @@ function L70_1(A0_2)
       L9_2 = L3_2
       L8_2 = L3_2.fEEF14EB5
       L8_2(L9_2)
-      L9_2 = A0_2
-      L8_2 = A0_2.FEE3AC63F581CE3DF
+      L9_2 = self
+      L8_2 = self.FEE3AC63F581CE3DF
       L10_2 = 29
       L8_2(L9_2, L10_2)
-      L9_2 = A0_2
-      L8_2 = A0_2.F4409DA74F5EB4327
+      L9_2 = self
+      L8_2 = self.F4409DA74F5EB4327
       L8_2(L9_2)
       if not L5_2 then
-        L9_2 = A0_2
-        L8_2 = A0_2.FC158C83894C8811C
+        L9_2 = self
+        L8_2 = self.FC158C83894C8811C
         L8_2(L9_2)
       end
-      L9_2 = A0_2
-      L8_2 = A0_2.FB55A00D535FE510B
+      L9_2 = self
+      L8_2 = self.FB55A00D535FE510B
       L8_2(L9_2)
       L8_2 = CBBA8BC6DEECCDCB4
       L8_2 = L8_2.S9DEB10F3B940A275
@@ -549,12 +546,12 @@ function L70_1(A0_2)
       L8_2 = C479A8F7C33D1FDC2
       L8_2 = L8_2.SE830F3D5722ECC3E
       L8_2()
-      L9_2 = A0_2
-      L8_2 = A0_2.F654329A0DF33C600
+      L9_2 = self
+      L8_2 = self.F654329A0DF33C600
       L10_2 = false
       L8_2(L9_2, L10_2)
-      L9_2 = A0_2
-      L8_2 = A0_2.F55AFD20A398001F9
+      L9_2 = self
+      L8_2 = self.F55AFD20A398001F9
       L8_2(L9_2)
     else
       L8_2 = cAFA806BC
@@ -567,8 +564,8 @@ function L70_1(A0_2)
       L9_2 = L3_2
       L8_2 = L3_2.fEEF14EB5
       L8_2(L9_2)
-      L9_2 = A0_2
-      L8_2 = A0_2.FBB47FEE96FEDBCB8
+      L9_2 = self
+      L8_2 = self.FBB47FEE96FEDBCB8
       L8_2(L9_2)
     end
   else
@@ -590,27 +587,27 @@ function L70_1(A0_2)
       L9_2 = L3_2
       L8_2 = L3_2.fEEF14EB5
       L8_2(L9_2)
-      L9_2 = A0_2
-      L8_2 = A0_2.FEE3AC63F581CE3DF
+      L9_2 = self
+      L8_2 = self.FEE3AC63F581CE3DF
       L10_2 = 29
       L8_2(L9_2, L10_2)
-      L9_2 = A0_2
-      L8_2 = A0_2.F709613FF0CE82177
+      L9_2 = self
+      L8_2 = self.F709613FF0CE82177
       L8_2(L9_2)
       if not L5_2 then
         L8_2 = C9B54BC04DD492B6D
         L8_2 = L8_2.S3EDC50DEB344C642
         L9_2 = "event_npc_clubroom_tr1060_bbprincipal"
         L10_2 = "coach_bbteacher_head_second_09"
-        L11_2 = A0_2[36]
+        L11_2 = self[36]
         L12_2 = 0
         L8_2(L9_2, L10_2, L11_2, L12_2)
-        L9_2 = A0_2
-        L8_2 = A0_2.FC158C83894C8811C
+        L9_2 = self
+        L8_2 = self.FC158C83894C8811C
         L8_2(L9_2)
       end
-      L9_2 = A0_2
-      L8_2 = A0_2.FBEED22C1C4ED591B
+      L9_2 = self
+      L8_2 = self.FBEED22C1C4ED591B
       L8_2(L9_2)
       L8_2 = CBBA8BC6DEECCDCB4
       L8_2 = L8_2.S9DEB10F3B940A275
@@ -648,12 +645,12 @@ function L70_1(A0_2)
       L9_2 = L3_2
       L8_2 = L3_2.fEEF14EB5
       L8_2(L9_2)
-      L9_2 = A0_2
-      L8_2 = A0_2.FEE3AC63F581CE3DF
+      L9_2 = self
+      L8_2 = self.FEE3AC63F581CE3DF
       L10_2 = 29
       L8_2(L9_2, L10_2)
-      L9_2 = A0_2
-      L8_2 = A0_2.FBC561BAAA5B5F820
+      L9_2 = self
+      L8_2 = self.FBC561BAAA5B5F820
       L8_2(L9_2)
       L8_2 = CBBA8BC6DEECCDCB4
       L8_2 = L8_2.S9DEB10F3B940A275
@@ -681,12 +678,12 @@ function L70_1(A0_2)
       L8_2 = L8_2.SE830F3D5722ECC3E
       L8_2()
     end
-    L9_2 = A0_2
-    L8_2 = A0_2.F654329A0DF33C600
+    L9_2 = self
+    L8_2 = self.F654329A0DF33C600
     L10_2 = false
     L8_2(L9_2, L10_2)
-    L9_2 = A0_2
-    L8_2 = A0_2.F55AFD20A398001F9
+    L9_2 = self
+    L8_2 = self.F55AFD20A398001F9
     L8_2(L9_2)
   end
   L8_2 = C479A8F7C33D1FDC2
@@ -710,17 +707,14 @@ function L70_1(A0_2)
   L8_2(L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "F2EE48A47B2D504A2"
-
-function L70_1(A0_2)
+--- C21E6221B05425753.F2EE48A47B2D504A2
+function C21E6221B05425753_prototype:F2EE48A47B2D504A2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.SBAC833E5E04206C0
   L2_2 = 303
   L3_2 = "coach_bbteacher_head_first_00"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = true
   L6_2 = false
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
@@ -728,7 +722,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.SBAC833E5E04206C0
   L2_2 = 303
   L3_2 = "coach_bbteacher_head_first_01"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = true
   L6_2 = false
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
@@ -736,21 +730,21 @@ function L70_1(A0_2)
   L1_2 = L1_2.SBAC833E5E04206C0
   L2_2 = 303
   L3_2 = "coach_bbteacher_head_first_02"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = true
   L6_2 = false
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
   L1_2 = C9F6C325569B7E07F
   L1_2 = L1_2.S2E9035BDE01AB38A
   L2_2 = 0.0
-  L4_2 = A0_2
-  L3_2 = A0_2.F0A528C2F9F2670CD
+  L4_2 = self
+  L3_2 = self.F0A528C2F9F2670CD
   L5_2 = -1.37
   L6_2 = 1.25
   L7_2 = -9.1
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -6.11
   L7_2 = -160.28
   L8_2 = 0.0
@@ -766,14 +760,14 @@ function L70_1(A0_2)
   L1_2 = C9F6C325569B7E07F
   L1_2 = L1_2.S2E9035BDE01AB38A
   L2_2 = 20.0
-  L4_2 = A0_2
-  L3_2 = A0_2.F0A528C2F9F2670CD
+  L4_2 = self
+  L3_2 = self.F0A528C2F9F2670CD
   L5_2 = -1.75
   L6_2 = 1.28
   L7_2 = -8.6
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -8.41
   L7_2 = -125.61
   L8_2 = 0.0
@@ -793,7 +787,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.SBAC833E5E04206C0
   L2_2 = 303
   L3_2 = "coach_bbteacher_head_first_03"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = true
   L6_2 = false
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
@@ -801,7 +795,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.SBAC833E5E04206C0
   L2_2 = 303
   L3_2 = "coach_bbteacher_head_first_04"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = true
   L6_2 = false
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
@@ -815,15 +809,12 @@ function L70_1(A0_2)
   L1_2 = L1_2.SBAC833E5E04206C0
   L2_2 = 303
   L3_2 = "coach_bbteacher_head_first_05"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "FB7A610503A92E4F2"
-
-function L70_1(A0_2)
+--- C21E6221B05425753.FB7A610503A92E4F2
+function C21E6221B05425753_prototype:FB7A610503A92E4F2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CBBA8BC6DEECCDCB4
   L1_2 = L1_2.S6EFB6BD692E0CEBF
@@ -834,7 +825,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.SBAC833E5E04206C0
   L2_2 = 206
   L3_2 = "coach_bbteacher_head_second_00"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = true
   L6_2 = false
   L1_2(L2_2, L3_2, L4_2, L5_2, L6_2)
@@ -842,15 +833,12 @@ function L70_1(A0_2)
   L1_2 = L1_2.SBAC833E5E04206C0
   L2_2 = 206
   L3_2 = "coach_bbteacher_head_second_01"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L1_2(L2_2, L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "F7DE81692FF78BCD5"
-
-function L70_1(A0_2)
+--- C21E6221B05425753.F7DE81692FF78BCD5
+function C21E6221B05425753_prototype:F7DE81692FF78BCD5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = CC6FE82819C6E1D55
   L1_2 = L1_2.S32FAD7D4DF3ACA95
@@ -859,14 +847,14 @@ function L70_1(A0_2)
   L1_2 = C9F6C325569B7E07F
   L1_2 = L1_2.S2E9035BDE01AB38A
   L2_2 = 5.0
-  L4_2 = A0_2
-  L3_2 = A0_2.F0A528C2F9F2670CD
+  L4_2 = self
+  L3_2 = self.F0A528C2F9F2670CD
   L5_2 = -3.32
   L6_2 = 1.08
   L7_2 = 42.3
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -0.52
   L7_2 = -42.08
   L8_2 = 0.0
@@ -924,14 +912,14 @@ function L70_1(A0_2)
   L1_2 = C9F6C325569B7E07F
   L1_2 = L1_2.S2E9035BDE01AB38A
   L2_2 = 0.0
-  L4_2 = A0_2
-  L3_2 = A0_2.F0A528C2F9F2670CD
+  L4_2 = self
+  L3_2 = self.F0A528C2F9F2670CD
   L5_2 = -0.44
   L6_2 = 1.3
   L7_2 = 31.61
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -1.44
   L7_2 = -177.9
   L8_2 = 0.0
@@ -955,14 +943,14 @@ function L70_1(A0_2)
   L1_2 = C9F6C325569B7E07F
   L1_2 = L1_2.S2E9035BDE01AB38A
   L2_2 = 1.87
-  L4_2 = A0_2
-  L3_2 = A0_2.F0A528C2F9F2670CD
+  L4_2 = self
+  L3_2 = self.F0A528C2F9F2670CD
   L5_2 = -0.44
   L6_2 = 1.3
   L7_2 = 35.32
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -1.44
   L7_2 = -177.9
   L8_2 = 0.0
@@ -991,7 +979,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L3_2 = "coach_bbteacher_head_first_06"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = 0
   L1_2(L2_2, L3_2, L4_2, L5_2)
   L1_2 = CBBA8BC6DEECCDCB4
@@ -1027,14 +1015,14 @@ function L70_1(A0_2)
   L1_2 = C9F6C325569B7E07F
   L1_2 = L1_2.S2E9035BDE01AB38A
   L2_2 = 0.0
-  L4_2 = A0_2
-  L3_2 = A0_2.F0A528C2F9F2670CD
+  L4_2 = self
+  L3_2 = self.F0A528C2F9F2670CD
   L5_2 = -2.56
   L6_2 = 1.22
   L7_2 = 42.02
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = 2.1
   L7_2 = -23.18
   L8_2 = 0.0
@@ -1060,10 +1048,10 @@ function L70_1(A0_2)
   L4_2[1] = L5_2
   L5_2 = 2
   L3_2 = L3_2(L4_2, L5_2)
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = false
   L6_2 = "coach_bbteacher_head_first_07"
-  L7_2 = A0_2[36]
+  L7_2 = self[36]
   L8_2 = 0
   L9_2 = nil
   L10_2 = false
@@ -1131,7 +1119,7 @@ function L70_1(A0_2)
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L4_2 = "coach_bbteacher_head_first_08"
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = 0
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = CDCBFD50A277E546D
@@ -1150,14 +1138,14 @@ function L70_1(A0_2)
   L2_2 = C9F6C325569B7E07F
   L2_2 = L2_2.S2E9035BDE01AB38A
   L3_2 = 2.0
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -2.34
   L7_2 = 1.4
   L8_2 = 42.66
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F0A528C2F9F2670CD
+  L6_2 = self
+  L5_2 = self.F0A528C2F9F2670CD
   L7_2 = -0.13
   L8_2 = -10.72
   L9_2 = 0.0
@@ -1188,7 +1176,7 @@ function L70_1(A0_2)
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L4_2 = "coach_bbteacher_head_first_09"
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = 0
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = CDCBFD50A277E546D
@@ -1213,14 +1201,14 @@ function L70_1(A0_2)
   L2_2 = C9F6C325569B7E07F
   L2_2 = L2_2.S2E9035BDE01AB38A
   L3_2 = 0.0
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -3.36
   L7_2 = 1.25
   L8_2 = 41.0
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F0A528C2F9F2670CD
+  L6_2 = self
+  L5_2 = self.F0A528C2F9F2670CD
   L7_2 = 0.44
   L8_2 = -120.42
   L9_2 = 0.0
@@ -1249,20 +1237,20 @@ function L70_1(A0_2)
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L4_2 = "coach_bbteacher_head_first_10"
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = 1
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = C9F6C325569B7E07F
   L2_2 = L2_2.S2E9035BDE01AB38A
   L3_2 = 0.0
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -2.69
   L7_2 = 1.55
   L8_2 = 41.76
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F0A528C2F9F2670CD
+  L6_2 = self
+  L5_2 = self.F0A528C2F9F2670CD
   L7_2 = 0.44
   L8_2 = -120.42
   L9_2 = 0.0
@@ -1293,7 +1281,7 @@ function L70_1(A0_2)
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L4_2 = "coach_bbteacher_head_first_11"
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = 0
   L7_2 = false
   L8_2 = true
@@ -1302,14 +1290,14 @@ function L70_1(A0_2)
   L2_2 = C9F6C325569B7E07F
   L2_2 = L2_2.S2E9035BDE01AB38A
   L3_2 = 1.3
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -2.69
   L7_2 = 1.27
   L8_2 = 41.76
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F0A528C2F9F2670CD
+  L6_2 = self
+  L5_2 = self.F0A528C2F9F2670CD
   L7_2 = 0.44
   L8_2 = -120.42
   L9_2 = 0.0
@@ -1335,20 +1323,20 @@ function L70_1(A0_2)
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L4_2 = "coach_bbteacher_head_first_12"
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = 0
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = C9F6C325569B7E07F
   L2_2 = L2_2.S2E9035BDE01AB38A
   L3_2 = 1.3
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -2.69
   L7_2 = 1.55
   L8_2 = 41.76
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F0A528C2F9F2670CD
+  L6_2 = self
+  L5_2 = self.F0A528C2F9F2670CD
   L7_2 = 0.44
   L8_2 = -120.42
   L9_2 = 0.0
@@ -1388,14 +1376,14 @@ function L70_1(A0_2)
   L2_2 = C9F6C325569B7E07F
   L2_2 = L2_2.S2E9035BDE01AB38A
   L3_2 = 2.0
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -3.72
   L7_2 = 0.85
   L8_2 = 42.49
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F0A528C2F9F2670CD
+  L6_2 = self
+  L5_2 = self.F0A528C2F9F2670CD
   L7_2 = 5.06
   L8_2 = -71.79
   L9_2 = 0.0
@@ -1412,7 +1400,7 @@ function L70_1(A0_2)
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L4_2 = "coach_bbteacher_head_first_13"
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = 0
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = CDCBFD50A277E546D
@@ -1433,14 +1421,14 @@ function L70_1(A0_2)
   L2_2 = C9F6C325569B7E07F
   L2_2 = L2_2.S2E9035BDE01AB38A
   L3_2 = 0.45
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -0.49
   L7_2 = 1.49
   L8_2 = 42.02
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F0A528C2F9F2670CD
+  L6_2 = self
+  L5_2 = self.F0A528C2F9F2670CD
   L7_2 = 1.48
   L8_2 = -106.14
   L9_2 = 0.0
@@ -1469,7 +1457,7 @@ function L70_1(A0_2)
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L4_2 = "coach_bbteacher_head_first_14"
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = 1
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = CBBA8BC6DEECCDCB4
@@ -1485,14 +1473,14 @@ function L70_1(A0_2)
   L2_2 = C9F6C325569B7E07F
   L2_2 = L2_2.S2E9035BDE01AB38A
   L3_2 = 0.0
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -1.7
   L7_2 = 1.16
   L8_2 = 42.46
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F0A528C2F9F2670CD
+  L6_2 = self
+  L5_2 = self.F0A528C2F9F2670CD
   L7_2 = 3.75
   L8_2 = -68.61
   L9_2 = 0.0
@@ -1511,7 +1499,7 @@ function L70_1(A0_2)
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L4_2 = "coach_bbteacher_head_first_15"
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = 0
   L7_2 = false
   L8_2 = true
@@ -1527,7 +1515,7 @@ function L70_1(A0_2)
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L4_2 = "coach_bbteacher_head_first_16"
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = 0
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = CBBA8BC6DEECCDCB4
@@ -1565,14 +1553,14 @@ function L70_1(A0_2)
   L3_2 = C9F6C325569B7E07F
   L3_2 = L3_2.S2E9035BDE01AB38A
   L4_2 = 1.25
-  L6_2 = A0_2
-  L5_2 = A0_2.F0A528C2F9F2670CD
+  L6_2 = self
+  L5_2 = self.F0A528C2F9F2670CD
   L7_2 = -3.72
   L8_2 = 1.33
   L9_2 = 42.3
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.F0A528C2F9F2670CD
+  L7_2 = self
+  L6_2 = self.F0A528C2F9F2670CD
   L8_2 = -2.02
   L9_2 = -75.25
   L10_2 = 0.0
@@ -1603,14 +1591,14 @@ function L70_1(A0_2)
   L4_2 = C9F6C325569B7E07F
   L4_2 = L4_2.S2E9035BDE01AB38A
   L5_2 = 0.0
-  L7_2 = A0_2
-  L6_2 = A0_2.F0A528C2F9F2670CD
+  L7_2 = self
+  L6_2 = self.F0A528C2F9F2670CD
   L8_2 = -10.04
   L9_2 = 0.63
   L10_2 = 42.49
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F0A528C2F9F2670CD
+  L8_2 = self
+  L7_2 = self.F0A528C2F9F2670CD
   L9_2 = -6.29
   L10_2 = -2.37
   L11_2 = 0.0
@@ -1632,14 +1620,14 @@ function L70_1(A0_2)
   L4_2 = C9F6C325569B7E07F
   L4_2 = L4_2.S2E9035BDE01AB38A
   L5_2 = 1.4
-  L7_2 = A0_2
-  L6_2 = A0_2.F0A528C2F9F2670CD
+  L7_2 = self
+  L6_2 = self.F0A528C2F9F2670CD
   L8_2 = -11.19
   L9_2 = 0.63
   L10_2 = 42.49
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F0A528C2F9F2670CD
+  L8_2 = self
+  L7_2 = self.F0A528C2F9F2670CD
   L9_2 = -6.29
   L10_2 = -2.37
   L11_2 = 0.0
@@ -1678,14 +1666,14 @@ function L70_1(A0_2)
   L4_2 = C9F6C325569B7E07F
   L4_2 = L4_2.S2E9035BDE01AB38A
   L5_2 = 0.0
-  L7_2 = A0_2
-  L6_2 = A0_2.F0A528C2F9F2670CD
+  L7_2 = self
+  L6_2 = self.F0A528C2F9F2670CD
   L8_2 = -19.11
   L9_2 = 1.51
   L10_2 = 41.51
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F0A528C2F9F2670CD
+  L8_2 = self
+  L7_2 = self.F0A528C2F9F2670CD
   L9_2 = -1.12
   L10_2 = -89.83
   L11_2 = 0.0
@@ -1700,14 +1688,14 @@ function L70_1(A0_2)
   L4_2 = C9F6C325569B7E07F
   L4_2 = L4_2.S2E9035BDE01AB38A
   L5_2 = 2.0
-  L7_2 = A0_2
-  L6_2 = A0_2.F0A528C2F9F2670CD
+  L7_2 = self
+  L6_2 = self.F0A528C2F9F2670CD
   L8_2 = -19.11
   L9_2 = 1.51
   L10_2 = 41.44
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F0A528C2F9F2670CD
+  L8_2 = self
+  L7_2 = self.F0A528C2F9F2670CD
   L9_2 = -1.1
   L10_2 = -91.06
   L11_2 = 0.0
@@ -1737,14 +1725,14 @@ function L70_1(A0_2)
   L4_2 = C9F6C325569B7E07F
   L4_2 = L4_2.S2E9035BDE01AB38A
   L5_2 = 0.0
-  L7_2 = A0_2
-  L6_2 = A0_2.F0A528C2F9F2670CD
+  L7_2 = self
+  L6_2 = self.F0A528C2F9F2670CD
   L8_2 = 9.13
   L9_2 = 0.29
   L10_2 = 44.79
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F0A528C2F9F2670CD
+  L8_2 = self
+  L7_2 = self.F0A528C2F9F2670CD
   L9_2 = -0.68
   L10_2 = -45.3
   L11_2 = 0.0
@@ -1760,14 +1748,14 @@ function L70_1(A0_2)
   L4_2 = C9F6C325569B7E07F
   L4_2 = L4_2.S2E9035BDE01AB38A
   L5_2 = 2.5
-  L7_2 = A0_2
-  L6_2 = A0_2.F0A528C2F9F2670CD
+  L7_2 = self
+  L6_2 = self.F0A528C2F9F2670CD
   L8_2 = 10.08
   L9_2 = 1.58
   L10_2 = 43.93
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F0A528C2F9F2670CD
+  L8_2 = self
+  L7_2 = self.F0A528C2F9F2670CD
   L9_2 = -0.68
   L10_2 = -45.24
   L11_2 = 0.0
@@ -1799,7 +1787,7 @@ function L70_1(A0_2)
   L4_2 = L4_2.S3EDC50DEB344C642
   L5_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L6_2 = "coach_bbteacher_head_first_17"
-  L7_2 = A0_2[36]
+  L7_2 = self[36]
   L8_2 = 0
   L4_2(L5_2, L6_2, L7_2, L8_2)
   L4_2 = CBBA8BC6DEECCDCB4
@@ -1818,7 +1806,7 @@ function L70_1(A0_2)
   L4_2 = L4_2.S3EDC50DEB344C642
   L5_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L6_2 = "coach_bbteacher_head_first_18"
-  L7_2 = A0_2[36]
+  L7_2 = self[36]
   L8_2 = 0
   L4_2(L5_2, L6_2, L7_2, L8_2)
   L4_2 = CBBA8BC6DEECCDCB4
@@ -1830,14 +1818,14 @@ function L70_1(A0_2)
   L4_2 = C9F6C325569B7E07F
   L4_2 = L4_2.S2E9035BDE01AB38A
   L5_2 = 2.0
-  L7_2 = A0_2
-  L6_2 = A0_2.F0A528C2F9F2670CD
+  L7_2 = self
+  L6_2 = self.F0A528C2F9F2670CD
   L8_2 = 10.08
   L9_2 = 1.13
   L10_2 = 43.93
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F0A528C2F9F2670CD
+  L8_2 = self
+  L7_2 = self.F0A528C2F9F2670CD
   L9_2 = -0.68
   L10_2 = -45.24
   L11_2 = 0.0
@@ -1861,11 +1849,8 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "F13D1E4DDD2A656A5"
-
-function L70_1(A0_2)
+--- C21E6221B05425753.F13D1E4DDD2A656A5
+function C21E6221B05425753_prototype:F13D1E4DDD2A656A5()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L1_2 = "coach_bbteacher_head_second_02"
   L2_2 = CCD22EFED4E9E5F89
@@ -1877,14 +1862,14 @@ function L70_1(A0_2)
   L2_2 = C9F6C325569B7E07F
   L2_2 = L2_2.S2E9035BDE01AB38A
   L3_2 = 2.0
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -1.69
   L7_2 = 1.18
   L8_2 = 42.4
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F0A528C2F9F2670CD
+  L6_2 = self
+  L5_2 = self.F0A528C2F9F2670CD
   L7_2 = 1.55
   L8_2 = -71.14
   L9_2 = 0.0
@@ -1902,7 +1887,7 @@ function L70_1(A0_2)
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L4_2 = L1_2
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = 0
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = C9F6C325569B7E07F
@@ -1923,7 +1908,7 @@ function L70_1(A0_2)
   L2_2 = L2_2.S3EDC50DEB344C642
   L3_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L4_2 = "coach_bbteacher_head_second_03"
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = 0
   L2_2(L3_2, L4_2, L5_2, L6_2)
   L2_2 = CBBA8BC6DEECCDCB4
@@ -1966,14 +1951,14 @@ function L70_1(A0_2)
   L4_2 = C9F6C325569B7E07F
   L4_2 = L4_2.S2E9035BDE01AB38A
   L5_2 = 1.25
-  L7_2 = A0_2
-  L6_2 = A0_2.F0A528C2F9F2670CD
+  L7_2 = self
+  L6_2 = self.F0A528C2F9F2670CD
   L8_2 = -3.72
   L9_2 = 1.33
   L10_2 = 42.3
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F0A528C2F9F2670CD
+  L8_2 = self
+  L7_2 = self.F0A528C2F9F2670CD
   L9_2 = -2.02
   L10_2 = -75.25
   L11_2 = 0.0
@@ -2006,14 +1991,14 @@ function L70_1(A0_2)
   L4_2 = C9F6C325569B7E07F
   L4_2 = L4_2.S2E9035BDE01AB38A
   L5_2 = 0.0
-  L7_2 = A0_2
-  L6_2 = A0_2.F0A528C2F9F2670CD
+  L7_2 = self
+  L6_2 = self.F0A528C2F9F2670CD
   L8_2 = -19.11
   L9_2 = 1.51
   L10_2 = 41.51
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F0A528C2F9F2670CD
+  L8_2 = self
+  L7_2 = self.F0A528C2F9F2670CD
   L9_2 = -1.12
   L10_2 = -89.83
   L11_2 = 0.0
@@ -2046,14 +2031,14 @@ function L70_1(A0_2)
   L4_2 = C9F6C325569B7E07F
   L4_2 = L4_2.S2E9035BDE01AB38A
   L5_2 = 2.0
-  L7_2 = A0_2
-  L6_2 = A0_2.F0A528C2F9F2670CD
+  L7_2 = self
+  L6_2 = self.F0A528C2F9F2670CD
   L8_2 = -19.11
   L9_2 = 1.51
   L10_2 = 41.44
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F0A528C2F9F2670CD
+  L8_2 = self
+  L7_2 = self.F0A528C2F9F2670CD
   L9_2 = -1.1
   L10_2 = -91.06
   L11_2 = 0.0
@@ -2083,14 +2068,14 @@ function L70_1(A0_2)
   L4_2 = C9F6C325569B7E07F
   L4_2 = L4_2.S2E9035BDE01AB38A
   L5_2 = 0.0
-  L7_2 = A0_2
-  L6_2 = A0_2.F0A528C2F9F2670CD
+  L7_2 = self
+  L6_2 = self.F0A528C2F9F2670CD
   L8_2 = 9.13
   L9_2 = 0.29
   L10_2 = 44.79
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F0A528C2F9F2670CD
+  L8_2 = self
+  L7_2 = self.F0A528C2F9F2670CD
   L9_2 = -0.68
   L10_2 = -45.3
   L11_2 = 0.0
@@ -2106,14 +2091,14 @@ function L70_1(A0_2)
   L4_2 = C9F6C325569B7E07F
   L4_2 = L4_2.S2E9035BDE01AB38A
   L5_2 = 2.5
-  L7_2 = A0_2
-  L6_2 = A0_2.F0A528C2F9F2670CD
+  L7_2 = self
+  L6_2 = self.F0A528C2F9F2670CD
   L8_2 = 10.08
   L9_2 = 1.58
   L10_2 = 43.93
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F0A528C2F9F2670CD
+  L8_2 = self
+  L7_2 = self.F0A528C2F9F2670CD
   L9_2 = -0.68
   L10_2 = -45.24
   L11_2 = 0.0
@@ -2145,7 +2130,7 @@ function L70_1(A0_2)
   L4_2 = L4_2.S3EDC50DEB344C642
   L5_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L6_2 = "coach_bbteacher_head_second_04"
-  L7_2 = A0_2[36]
+  L7_2 = self[36]
   L8_2 = 0
   L4_2(L5_2, L6_2, L7_2, L8_2)
   L4_2 = CBBA8BC6DEECCDCB4
@@ -2157,14 +2142,14 @@ function L70_1(A0_2)
   L4_2 = C9F6C325569B7E07F
   L4_2 = L4_2.S2E9035BDE01AB38A
   L5_2 = 2.0
-  L7_2 = A0_2
-  L6_2 = A0_2.F0A528C2F9F2670CD
+  L7_2 = self
+  L6_2 = self.F0A528C2F9F2670CD
   L8_2 = 10.08
   L9_2 = 1.13
   L10_2 = 43.93
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  L8_2 = A0_2
-  L7_2 = A0_2.F0A528C2F9F2670CD
+  L8_2 = self
+  L7_2 = self.F0A528C2F9F2670CD
   L9_2 = -0.68
   L10_2 = -45.24
   L11_2 = 0.0
@@ -2188,11 +2173,8 @@ function L70_1(A0_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "F4409DA74F5EB4327"
-
-function L70_1(A0_2)
+--- C21E6221B05425753.F4409DA74F5EB4327
+function C21E6221B05425753_prototype:F4409DA74F5EB4327()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = C3A36506FBC96ACBD
   L1_2 = L1_2.SC6181320B46854EE
@@ -2214,7 +2196,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L3_2 = "coach_bbteacher_head_first_19"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = 0
   L6_2 = false
   L7_2 = true
@@ -2224,7 +2206,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L3_2 = "coach_bbteacher_head_first_20"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = 0
   L6_2 = false
   L7_2 = true
@@ -2260,10 +2242,10 @@ function L70_1(A0_2)
   L5_2[1] = L6_2
   L6_2 = 2
   L4_2 = L4_2(L5_2, L6_2)
-  L5_2 = A0_2[36]
+  L5_2 = self[36]
   L6_2 = false
   L7_2 = L1_2
-  L8_2 = A0_2[36]
+  L8_2 = self[36]
   L9_2 = 0
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
   if 0 == L2_2 then
@@ -2298,7 +2280,7 @@ function L70_1(A0_2)
   L3_2 = L3_2.S3EDC50DEB344C642
   L4_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L5_2 = "coach_bbteacher_head_first_22"
-  L6_2 = A0_2[36]
+  L6_2 = self[36]
   L7_2 = 0
   L8_2 = false
   L9_2 = true
@@ -2314,7 +2296,7 @@ function L70_1(A0_2)
   L3_2 = L3_2.S3EDC50DEB344C642
   L4_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L5_2 = "coach_bbteacher_head_first_23"
-  L6_2 = A0_2[36]
+  L6_2 = self[36]
   L7_2 = 0
   L3_2(L4_2, L5_2, L6_2, L7_2)
   L3_2 = C479A8F7C33D1FDC2
@@ -2358,11 +2340,8 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "F709613FF0CE82177"
-
-function L70_1(A0_2)
+--- C21E6221B05425753.F709613FF0CE82177
+function C21E6221B05425753_prototype:F709613FF0CE82177()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L1_2 = C3A36506FBC96ACBD
   L1_2 = L1_2.SC6181320B46854EE
@@ -2384,7 +2363,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L3_2 = "coach_bbteacher_head_second_07"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = 0
   L6_2 = false
   L7_2 = true
@@ -2406,7 +2385,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L3_2 = "coach_bbteacher_head_second_08"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = 0
   L1_2(L2_2, L3_2, L4_2, L5_2)
   L1_2 = C479A8F7C33D1FDC2
@@ -2444,11 +2423,8 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "FB55A00D535FE510B"
-
-function L70_1(A0_2)
+--- C21E6221B05425753.FB55A00D535FE510B
+function C21E6221B05425753_prototype:FB55A00D535FE510B()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CBBA8BC6DEECCDCB4
   L1_2 = L1_2.S9DEB10F3B940A275
@@ -2472,16 +2448,13 @@ function L70_1(A0_2)
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L3_2 = "coach_bbteacher_head_first_24"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = 0
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "FBEED22C1C4ED591B"
-
-function L70_1(A0_2)
+--- C21E6221B05425753.FBEED22C1C4ED591B
+function C21E6221B05425753_prototype:FBEED22C1C4ED591B()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = CBBA8BC6DEECCDCB4
   L1_2 = L1_2.S9DEB10F3B940A275
@@ -2505,16 +2478,13 @@ function L70_1(A0_2)
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L3_2 = "coach_bbteacher_head_second_10"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = 0
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "FBC561BAAA5B5F820"
-
-function L70_1(A0_2)
+--- C21E6221B05425753.FBC561BAAA5B5F820
+function C21E6221B05425753_prototype:FBC561BAAA5B5F820()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C3A36506FBC96ACBD
   L1_2 = L1_2.SC6181320B46854EE
@@ -2536,7 +2506,7 @@ function L70_1(A0_2)
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L3_2 = "coach_bbteacher_head_second_05"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = 0
   L1_2(L2_2, L3_2, L4_2, L5_2)
   L1_2 = CBBA8BC6DEECCDCB4
@@ -2566,19 +2536,16 @@ function L70_1(A0_2)
   L1_2 = L1_2.S3EDC50DEB344C642
   L2_2 = "event_npc_clubroom_tr1060_bbprincipal"
   L3_2 = "coach_bbteacher_head_second_06"
-  L4_2 = A0_2[36]
+  L4_2 = self[36]
   L5_2 = 0
   L1_2(L2_2, L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "F654329A0DF33C600"
-
-function L70_1(A0_2, A1_2)
+--- C21E6221B05425753.F654329A0DF33C600
+function C21E6221B05425753_prototype:F654329A0DF33C600(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F0A528C2F9F2670CD
+  L3_2 = self
+  L2_2 = self.F0A528C2F9F2670CD
   L4_2 = -1.228
   L5_2 = 0.006
   L6_2 = -8.254
@@ -2610,23 +2577,20 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "F55AFD20A398001F9"
-
-function L70_1(A0_2)
+--- C21E6221B05425753.F55AFD20A398001F9
+function C21E6221B05425753_prototype:F55AFD20A398001F9()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = C9F6C325569B7E07F
   L1_2 = L1_2.S2E9035BDE01AB38A
   L2_2 = 0.0
-  L4_2 = A0_2
-  L3_2 = A0_2.F0A528C2F9F2670CD
+  L4_2 = self
+  L3_2 = self.F0A528C2F9F2670CD
   L5_2 = 2.57
   L6_2 = 2.91
   L7_2 = -8.73
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F0A528C2F9F2670CD
+  L5_2 = self
+  L4_2 = self.F0A528C2F9F2670CD
   L6_2 = -18.32
   L7_2 = 96.7
   L8_2 = 0.0
@@ -2641,22 +2605,19 @@ function L70_1(A0_2)
   L1_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "FBB47FEE96FEDBCB8"
-
-function L70_1(A0_2)
+--- C21E6221B05425753.FBB47FEE96FEDBCB8
+function C21E6221B05425753_prototype:FBB47FEE96FEDBCB8()
   local L1_2, L2_2, L3_2
   L1_2 = C3A36506FBC96ACBD
   L1_2 = L1_2.SC6181320B46854EE
   L2_2 = "SET_BUS_VOLUME_PV_MUTE_T0"
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F654329A0DF33C600
+  L2_2 = self
+  L1_2 = self.F654329A0DF33C600
   L3_2 = true
   L1_2(L2_2, L3_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.F55AFD20A398001F9
+  L2_2 = self
+  L1_2 = self.F55AFD20A398001F9
   L1_2(L2_2)
   L1_2 = C479A8F7C33D1FDC2
   L1_2 = L1_2.S5849D16A6AB0532B
@@ -2669,11 +2630,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "FEE3AC63F581CE3DF"
-
-function L70_1(A0_2, A1_2)
+--- C21E6221B05425753.FEE3AC63F581CE3DF
+function C21E6221B05425753_prototype:FEE3AC63F581CE3DF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = C3A36506FBC96ACBD
   L2_2 = L2_2.SC6181320B46854EE
@@ -2686,8 +2644,8 @@ function L70_1(A0_2, A1_2)
   L5_2 = ""
   L6_2 = nil
   L7_2 = nil
-  L9_2 = A0_2
-  L8_2 = A0_2.F0A528C2F9F2670CD
+  L9_2 = self
+  L8_2 = self.F0A528C2F9F2670CD
   L10_2 = 4.0
   L11_2 = 0.006
   L12_2 = -7.5
@@ -2729,16 +2687,13 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "FC158C83894C8811C"
-
-function L70_1(A0_2)
+--- C21E6221B05425753.FC158C83894C8811C
+function C21E6221B05425753_prototype:FC158C83894C8811C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2
   L1_2 = C23E5342B132D5323
   L1_2 = L1_2.S042B860498E558B2
   L2_2 = "coach_%s_trade"
-  L3_2 = A0_2[35]
+  L3_2 = self[35]
   L1_2 = L1_2(L2_2, L3_2)
   L2_2 = C479A8F7C33D1FDC2
   L2_2 = L2_2.S9C3E96EF1CBD6576
@@ -2787,7 +2742,7 @@ function L70_1(A0_2)
     L9_2 = "_01_00"
     L8_2 = L8_2(L9_2)
     L7_2 = L7_2 .. L8_2
-    L8_2 = A0_2[36]
+    L8_2 = self[36]
     L9_2 = 0
     L5_2(L6_2, L7_2, L8_2, L9_2)
     L5_2 = CBBA8BC6DEECCDCB4
@@ -2818,7 +2773,7 @@ function L70_1(A0_2)
     L9_2 = "_01_01"
     L8_2 = L8_2(L9_2)
     L7_2 = L7_2 .. L8_2
-    L8_2 = A0_2[36]
+    L8_2 = self[36]
     L9_2 = 0
     L10_2 = false
     L11_2 = true
@@ -2856,7 +2811,7 @@ function L70_1(A0_2)
   L10_2 = "_01_02"
   L9_2 = L9_2(L10_2)
   L8_2 = L8_2 .. L9_2
-  L9_2 = A0_2[36]
+  L9_2 = self[36]
   L10_2 = 0
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
   if L6_2 then
@@ -2894,7 +2849,7 @@ function L70_1(A0_2)
     L10_2 = "_01_03"
     L9_2 = L9_2(L10_2)
     L8_2 = L8_2 .. L9_2
-    L9_2 = A0_2[36]
+    L9_2 = self[36]
     L10_2 = 0
     L6_2(L7_2, L8_2, L9_2, L10_2)
     L6_2 = CBBA8BC6DEECCDCB4
@@ -2965,7 +2920,7 @@ function L70_1(A0_2)
     L14_2 = "_02_03"
     L13_2 = L13_2(L14_2)
     L12_2 = L12_2 .. L13_2
-    L13_2 = A0_2[36]
+    L13_2 = self[36]
     L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
     L5_2 = L6_2
   else
@@ -3013,7 +2968,7 @@ function L70_1(A0_2)
     L11_2 = "_01_04"
     L10_2 = L10_2(L11_2)
     L9_2 = L9_2 .. L10_2
-    L10_2 = A0_2[36]
+    L10_2 = self[36]
     L11_2 = 0
     L7_2(L8_2, L9_2, L10_2, L11_2)
   elseif 1 == L6_2 then
@@ -3055,7 +3010,7 @@ function L70_1(A0_2)
     L11_2 = "_03_01"
     L10_2 = L10_2(L11_2)
     L9_2 = L9_2 .. L10_2
-    L10_2 = A0_2[36]
+    L10_2 = self[36]
     L11_2 = 0
     L7_2(L8_2, L9_2, L10_2, L11_2)
   elseif 2 == L6_2 then
@@ -3079,7 +3034,7 @@ function L70_1(A0_2)
     L11_2 = "_03_00"
     L10_2 = L10_2(L11_2)
     L9_2 = L9_2 .. L10_2
-    L10_2 = A0_2[36]
+    L10_2 = self[36]
     L11_2 = 0
     L7_2(L8_2, L9_2, L10_2, L11_2)
   elseif 3 == L6_2 then
@@ -3087,11 +3042,8 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C21E6221B05425753"]["prototype"]
-L69_1 = "F3E13E4094D09A594"
-
-function L70_1(A0_2)
+--- C21E6221B05425753.postEnd
+function C21E6221B05425753_prototype:F3E13E4094D09A594()
   local L1_2
   L1_2 = C479A8F7C33D1FDC2
   L1_2 = L1_2.S28BA3190DD56F50B

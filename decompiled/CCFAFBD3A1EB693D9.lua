@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CCFAFBD3A1EB693D9"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CCFAFBD3A1EB693D9"]
-L69_1 = "new"
+---@alias CCFAFBD3A1EB693D9 main_env_ground_effect_GroundEffectManager
 
-function L70_1(A0_2)
+---@class main_env_ground_effect_GroundEffectManager : CCFAFBD3A1EB693D9_prototype
+---@field prototype CCFAFBD3A1EB693D9_prototype
+CCFAFBD3A1EB693D9 = L15_1()
+function CCFAFBD3A1EB693D9.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = CCFAFBD3A1EB693D9
@@ -22,11 +19,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFAFBD3A1EB693D9"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+---@param A0_2 CCFAFBD3A1EB693D9
+function CCFAFBD3A1EB693D9.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = L16_1
   L3_2 = {}
@@ -68,11 +62,8 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CCFAFBD3A1EB693D9"]
 L69_1 = "__name__"
 L70_1 = "CCFAFBD3A1EB693D9"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFAFBD3A1EB693D9"]
-L69_1 = "SFDEB82E4C34FE418"
-
-function L70_1(A0_2)
+--- main.env.ground_effect.GroundEffectManager.GetControl
+function CCFAFBD3A1EB693D9.SFDEB82E4C34FE418(A0_2)
   local L1_2
   L1_2 = CCFAFBD3A1EB693D9
   L1_2 = L1_2.S975EF31EFEB9CFE8
@@ -86,11 +77,8 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFAFBD3A1EB693D9"]
-L69_1 = "S12F63EE47FFCB183"
-
-function L70_1()
+--- main.env.ground_effect.GroundEffectManager.Suspend
+function CCFAFBD3A1EB693D9.S12F63EE47FFCB183()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = c016374C1
@@ -108,11 +96,8 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFAFBD3A1EB693D9"]
-L69_1 = "S3C93DF9C47B1912A"
-
-function L70_1()
+--- main.env.ground_effect.GroundEffectManager.Resume
+function CCFAFBD3A1EB693D9.S3C93DF9C47B1912A()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = nil
   L1_2 = c016374C1
@@ -130,29 +115,24 @@ function L70_1()
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFAFBD3A1EB693D9"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFAFBD3A1EB693D9"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CCFAFBD3A1EB693D9_prototype
+CCFAFBD3A1EB693D9_prototype = L15_1()
+CCFAFBD3A1EB693D9.prototype = CCFAFBD3A1EB693D9_prototype
+--- main.env.ground_effect.GroundEffectManager.Setup
+function CCFAFBD3A1EB693D9_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.prototype
   L2_2 = L2_2.F7C68FEDB79AB6396
-  L3_2 = A0_2
+  L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
   L2_2 = CCFAFBD3A1EB693D9
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2.SEA2DD64AAC13D642 = L3_2
   L2_2 = c7B88F8F8
   L2_2 = L2_2.fB41FD22F
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L2_2 = L2_2(L3_2)
   L3_2 = nil
   L4_2 = c7B88F8F8
@@ -191,7 +171,7 @@ function L70_1(A0_2, A1_2)
   L4_2 = CCFAFBD3A1EB693D9
   L4_2.SF1C9BF636E0F4F06 = true
   L4_2 = CCFAFBD3A1EB693D9
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.f462C9B70
   L5_2 = L5_2(L6_2)
@@ -208,7 +188,7 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2)
   L4_2 = cCF781FB6
   L4_2 = L4_2.fB41FD22F
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L4_2 = L4_2(L5_2)
   L5_2 = L4_2
   L4_2 = L4_2.f024ADB0D
@@ -217,16 +197,13 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCFAFBD3A1EB693D9"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.env.ground_effect.GroundEffectManager.PreUpdate
+function CCFAFBD3A1EB693D9_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
   L2_2 = CFC8F368D91411014
   L2_2 = L2_2.S36AFB231754F9D91
   L2_2 = L2_2()
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = C075A638F130352C3
   L4_2 = L4_2.S44460EB93267F798
   L5_2 = CCFAFBD3A1EB693D9
@@ -263,7 +240,7 @@ function L70_1(A0_2, A1_2)
     L5_2[3] = L8_2
     L3_2 = L5_2
   end
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L5_2 = L5_2.camera
   L5_2.pos = L3_2
   L5_2 = nil
@@ -295,7 +272,7 @@ function L70_1(A0_2, A1_2)
   end
   
   L6_2 = L6_2()
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L7_2 = L7_2.camera
   L7_2.yaw = L6_2
   L7_2 = 0
@@ -310,7 +287,7 @@ function L70_1(A0_2, A1_2)
     L7_2 = L7_2 + 1
     L11_2 = L9_2
     L10_2 = L9_2.FEB6685558281F194
-    L12_2 = A0_2[2]
+    L12_2 = self[2]
     L10_2(L11_2, L12_2)
   end
 end

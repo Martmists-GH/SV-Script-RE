@@ -1,3 +1,7 @@
+---@alias C3DDAFBBDA69C69ED main_ui_ymap_mainview_YMapEncountIconController
+
+---@class main_ui_ymap_mainview_YMapEncountIconController : C3DDAFBBDA69C69ED_prototype
+---@field prototype C3DDAFBBDA69C69ED_prototype
 L55_1 = _ENV
 L56_1 = "C3DDAFBBDA69C69ED"
 L57_1 = L15_1
@@ -41,60 +45,49 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3DDAFBBDA69C69ED"]
 L69_1 = "__name__"
 L70_1 = "C3DDAFBBDA69C69ED"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3DDAFBBDA69C69ED"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3DDAFBBDA69C69ED"]["prototype"]
-L69_1 = "F66F7C8106FF88D89"
-
-function L70_1(A0_2, A1_2)
-  A0_2[1] = A1_2
+---@class C3DDAFBBDA69C69ED_prototype
+C3DDAFBBDA69C69ED_prototype = L15_1()
+C3DDAFBBDA69C69ED.prototype = C3DDAFBBDA69C69ED_prototype
+--- main.ui.ymap.mainview.YMapEncountIconController.SetMapIconManager
+function C3DDAFBBDA69C69ED_prototype:F66F7C8106FF88D89(A1_2)
+  self[1] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3DDAFBBDA69C69ED"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2)
+--- main.ui.ymap.mainview.YMapEncountIconController.Update
+function C3DDAFBBDA69C69ED_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[4]
+  L1_2 = self[4]
   if 0 == L1_2 then
     L2_2 = C388798CF80F2AF9D
     L2_2 = L2_2.SF7E75F4D8A9F4208
     if L2_2 then
-      A0_2[4] = 10
+      self[4] = 10
     end
   elseif 10 == L1_2 then
-    L2_2 = A0_2[3]
+    L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.resize
     L4_2 = 0
     L2_2(L3_2, L4_2)
-    A0_2[4] = 12
+    self[4] = 12
   elseif 12 == L1_2 then
-    A0_2[4] = 14
+    self[4] = 14
   elseif 14 == L1_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FF5DBCDA4DCEE78CF
+    L3_2 = self
+    L2_2 = self.FF5DBCDA4DCEE78CF
     L2_2(L3_2)
-    L2_2 = A0_2[1]
+    L2_2 = self[1]
     L3_2 = L2_2
     L2_2 = L2_2.F801F1F4FB3D2300F
     L2_2(L3_2)
     L2_2 = C388798CF80F2AF9D
     L2_2.SF7E75F4D8A9F4208 = false
-    A0_2[4] = 20
+    self[4] = 20
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3DDAFBBDA69C69ED"]["prototype"]
-L69_1 = "FF5DBCDA4DCEE78CF"
-
-function L70_1(A0_2)
+--- main.ui.ymap.mainview.YMapEncountIconController.FF5DBCDA4DCEE78CF
+function C3DDAFBBDA69C69ED_prototype:FF5DBCDA4DCEE78CF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = C388798CF80F2AF9D
   L2_2 = C388798CF80F2AF9D
@@ -112,31 +105,31 @@ function L70_1(A0_2)
   L5_2 = C388798CF80F2AF9D
   L5_2 = L5_2.S835B2A941C19AC4A
   L1_2 = L1_2(L2_2, L3_2, L4_2, L5_2)
-  A0_2[2] = L1_2
+  self[2] = L1_2
   L1_2 = 0
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.length
   L3_2 = false
   while L1_2 < L2_2 do
     L1_2 = L1_2 + 1
     L4_2 = L1_2 - 1
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L5_2 = L5_2[L4_2]
     if nil ~= L5_2 then
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L5_2 = L5_2[L4_2]
       L5_2 = L5_2.paramArr
       L5_2 = L5_2.length
       if 0 ~= L5_2 then
-        L6_2 = A0_2
-        L5_2 = A0_2.FF3C52355CB297530
-        L7_2 = A0_2[2]
+        L6_2 = self
+        L5_2 = self.FF3C52355CB297530
+        L7_2 = self[2]
         L7_2 = L7_2[L4_2]
         L5_2 = L5_2(L6_2, L7_2)
         L6_2 = L5_2.EncountInfo
         L6_2 = L6_2.monsNo
         if 0 ~= L6_2 then
-          L6_2 = A0_2[3]
+          L6_2 = self[3]
           L7_2 = L6_2
           L6_2 = L6_2.push
           L8_2 = L5_2
@@ -149,7 +142,7 @@ function L70_1(A0_2)
       break
     end
   end
-  L4_2 = A0_2[3]
+  L4_2 = self[3]
   L4_2 = L4_2.length
   L5_2 = C53E984DF49E695DF
   L5_2 = L5_2.S80074C8F60DFCC79
@@ -165,7 +158,7 @@ function L70_1(A0_2)
     L8_2 = C388798CF80F2AF9D
     L8_2 = L8_2.S9F23A01428AAFCD8
     L9_2 = L7_2
-    L10_2 = A0_2[3]
+    L10_2 = self[3]
     L10_2 = L10_2[L7_2]
     L8_2(L9_2, L10_2)
   end
@@ -187,11 +180,8 @@ function L70_1(A0_2)
   L8_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3DDAFBBDA69C69ED"]["prototype"]
-L69_1 = "FF3C52355CB297530"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mainview.YMapEncountIconController.setupPointData
+function C3DDAFBBDA69C69ED_prototype:FF3C52355CB297530(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
@@ -248,8 +238,8 @@ function L70_1(A0_2, A1_2)
   while L9_2 < L10_2 do
     L9_2 = L9_2 + 1
     L12_2 = L9_2 - 1
-    L14_2 = A0_2
-    L13_2 = A0_2.F57FDD8E57151AB78
+    L14_2 = self
+    L13_2 = self.F57FDD8E57151AB78
     L15_2 = A1_2.paramArr
     L15_2 = L15_2[L12_2]
     L15_2 = L15_2.monsNo
@@ -341,14 +331,11 @@ function L70_1(A0_2, A1_2)
   return L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3DDAFBBDA69C69ED"]["prototype"]
-L69_1 = "F57FDD8E57151AB78"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.ymap.mainview.YMapEncountIconController.isUsedMonsNo
+function C3DDAFBBDA69C69ED_prototype:F57FDD8E57151AB78(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = 0
-  L3_2 = A0_2[3]
+  L3_2 = self[3]
   while true do
     L4_2 = L3_2.length
     if not (L2_2 < L4_2) then

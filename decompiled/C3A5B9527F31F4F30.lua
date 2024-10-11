@@ -1,3 +1,7 @@
+---@alias C3A5B9527F31F4F30 main_event_general_dressup_DressupEvent
+
+---@class main_event_general_dressup_DressupEvent : C3A5B9527F31F4F30_prototype
+---@field prototype C3A5B9527F31F4F30_prototype
 L55_1 = _ENV
 L56_1 = "C3A5B9527F31F4F30"
 L57_1 = L15_1
@@ -45,21 +49,16 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C3A5B9527F31F4F30"]
 L69_1 = "__name__"
 L70_1 = "C3A5B9527F31F4F30"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A5B9527F31F4F30"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3A5B9527F31F4F30"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class C3A5B9527F31F4F30_prototype
+C3A5B9527F31F4F30_prototype = L15_1()
+C3A5B9527F31F4F30.prototype = C3A5B9527F31F4F30_prototype
+--- main.event.general.dressup.DressupEvent.mainBody
+function C3A5B9527F31F4F30_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = C20F5CD372AAAA08C
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FD8D5F3745B4B5174
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = C043642B35062DFB9
   L1_2 = L1_2.SA23D39922B76B247

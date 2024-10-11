@@ -1,3 +1,6 @@
+---@alias C83457451305E87F8 main_event_general_system_map_change_base_MapChangeCommonFunc
+
+---@class main_event_general_system_map_change_base_MapChangeCommonFunc
 L55_1 = _ENV
 L56_1 = "C00D67BC3BD9140CD"
 L57_1 = L15_1

@@ -1,3 +1,7 @@
+---@alias CFA09AC347CF4C5C4 main_ui_btl_team_view_BattleTeamUITeamPokePanel
+
+---@class main_ui_btl_team_view_BattleTeamUITeamPokePanel : CFA09AC347CF4C5C4_prototype
+---@field prototype CFA09AC347CF4C5C4_prototype
 L55_1 = _ENV
 L56_1 = "CFA09AC347CF4C5C4"
 L57_1 = L15_1
@@ -45,18 +49,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CFA09AC347CF4C5C4"]
 L69_1 = "__name__"
 L70_1 = "CFA09AC347CF4C5C4"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFA09AC347CF4C5C4"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFA09AC347CF4C5C4"]["prototype"]
-L69_1 = "F5AE0F2588D4F84E8"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class CFA09AC347CF4C5C4_prototype
+CFA09AC347CF4C5C4_prototype = L15_1()
+CFA09AC347CF4C5C4.prototype = CFA09AC347CF4C5C4_prototype
+--- main.ui.btl_team.view.BattleTeamUITeamPokePanel.SetProhibitAnime
+function CFA09AC347CF4C5C4_prototype:F5AE0F2588D4F84E8(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L3_2 = A0_2[6]
+  L3_2 = self[6]
   L4_2 = L3_2
   L3_2 = L3_2.F25CFEB0E023C588F
   L5_2 = L31_1.string
@@ -64,8 +63,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L7_2 = ""
   L6_2 = L6_2(L7_2)
   L7_2 = L31_1.string
-  L9_2 = A0_2
-  L8_2 = A0_2.FD6036FF3AAF50CFB
+  L9_2 = self
+  L8_2 = self.FD6036FF3AAF50CFB
   L10_2 = A1_2
   L8_2, L9_2, L10_2, L11_2 = L8_2(L9_2, L10_2)
   L7_2 = L7_2(L8_2, L9_2, L10_2, L11_2)
@@ -76,7 +75,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 .. L6_2
   L3_2(L4_2, L5_2)
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L4_2 = L3_2
   L3_2 = L3_2.F84FD44F4619D2765
   L3_2 = L3_2(L4_2)
@@ -87,7 +86,7 @@ function L70_1(A0_2, A1_2, A2_2)
   if nil ~= L4_2 then
     L4_2 = L3_2[A1_2]
     if L4_2 then
-      L4_2 = A0_2[6]
+      L4_2 = self[6]
       L5_2 = L4_2
       L4_2 = L4_2.FF32CC3BE322652A8
       L6_2 = L31_1.string
@@ -95,8 +94,8 @@ function L70_1(A0_2, A1_2, A2_2)
       L8_2 = ""
       L7_2 = L7_2(L8_2)
       L8_2 = L31_1.string
-      L10_2 = A0_2
-      L9_2 = A0_2.FD6036FF3AAF50CFB
+      L10_2 = self
+      L9_2 = self.FD6036FF3AAF50CFB
       L11_2 = A1_2
       L9_2, L10_2, L11_2 = L9_2(L10_2, L11_2)
       L8_2 = L8_2(L9_2, L10_2, L11_2)
@@ -109,7 +108,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L7_2 = 1
       L4_2(L5_2, L6_2, L7_2)
     else
-      L4_2 = A0_2[6]
+      L4_2 = self[6]
       L5_2 = L4_2
       L4_2 = L4_2.FF32CC3BE322652A8
       L6_2 = L31_1.string
@@ -117,8 +116,8 @@ function L70_1(A0_2, A1_2, A2_2)
       L8_2 = ""
       L7_2 = L7_2(L8_2)
       L8_2 = L31_1.string
-      L10_2 = A0_2
-      L9_2 = A0_2.FD6036FF3AAF50CFB
+      L10_2 = self
+      L9_2 = self.FD6036FF3AAF50CFB
       L11_2 = A1_2
       L9_2, L10_2, L11_2 = L9_2(L10_2, L11_2)
       L8_2 = L8_2(L9_2, L10_2, L11_2)
@@ -132,7 +131,7 @@ function L70_1(A0_2, A1_2, A2_2)
       L4_2(L5_2, L6_2, L7_2)
     end
   else
-    L4_2 = A0_2[6]
+    L4_2 = self[6]
     L5_2 = L4_2
     L4_2 = L4_2.FF32CC3BE322652A8
     L6_2 = L31_1.string
@@ -140,8 +139,8 @@ function L70_1(A0_2, A1_2, A2_2)
     L8_2 = ""
     L7_2 = L7_2(L8_2)
     L8_2 = L31_1.string
-    L10_2 = A0_2
-    L9_2 = A0_2.FD6036FF3AAF50CFB
+    L10_2 = self
+    L9_2 = self.FD6036FF3AAF50CFB
     L11_2 = A1_2
     L9_2, L10_2, L11_2 = L9_2(L10_2, L11_2)
     L8_2 = L8_2(L9_2, L10_2, L11_2)
@@ -156,73 +155,61 @@ function L70_1(A0_2, A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFA09AC347CF4C5C4"]["prototype"]
-L69_1 = "FD1370F25F12B9A02"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.btl_team.view.BattleTeamUITeamPokePanel.PutInfoInProhibit
+function CFA09AC347CF4C5C4_prototype:FD1370F25F12B9A02(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2
   if nil == A3_2 then
     A3_2 = false
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F563154DF19630C59
+  L5_2 = self
+  L4_2 = self.F563154DF19630C59
   L6_2 = A2_2
   L7_2 = A1_2.party
   L4_2(L5_2, L6_2, L7_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F0FB4E3DF146AF8AE
+  L5_2 = self
+  L4_2 = self.F0FB4E3DF146AF8AE
   L6_2 = A1_2
   L7_2 = A3_2
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFA09AC347CF4C5C4"]["prototype"]
-L69_1 = "F563154DF19630C59"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.btl_team.view.BattleTeamUITeamPokePanel.SettingPartyError
+function CFA09AC347CF4C5C4_prototype:F563154DF19630C59(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   L3_2 = CF994FAE7D4A6ACCE
   L3_2 = L3_2.new
   L3_2 = L3_2()
-  A0_2[8] = L3_2
-  L3_2 = A0_2[8]
+  self[8] = L3_2
+  L3_2 = self[8]
   L4_2 = L3_2
   L3_2 = L3_2.F59C8F21D27E0AFE6
   L5_2 = A1_2
   L6_2 = A2_2
   L3_2(L4_2, L5_2, L6_2)
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L4_2 = L3_2
   L3_2 = L3_2.F6008516E5273885F
   return L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFA09AC347CF4C5C4"]["prototype"]
-L69_1 = "FF7F8B090AE3FD827"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.view.BattleTeamUITeamPokePanel.GetError
+function CFA09AC347CF4C5C4_prototype:FF7F8B090AE3FD827()
   local L1_2, L2_2
-  L1_2 = A0_2[8]
+  L1_2 = self[8]
   L2_2 = L1_2
   L1_2 = L1_2.F6008516E5273885F
   return L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFA09AC347CF4C5C4"]["prototype"]
-L69_1 = "FA915867C16C905F1"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.btl_team.view.BattleTeamUITeamPokePanel.SetIsSelectAnime
+function CFA09AC347CF4C5C4_prototype:FA915867C16C905F1(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L3_2 = A0_2[8]
+  L3_2 = self[8]
   L4_2 = L3_2
   L3_2 = L3_2.F6008516E5273885F
   L3_2 = L3_2(L4_2)
   L3_2 = -1 == L3_2
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L5_2 = L4_2
   L4_2 = L4_2.FF32CC3BE322652A8
   L6_2 = L31_1.string
@@ -230,8 +217,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L8_2 = ""
   L7_2 = L7_2(L8_2)
   L8_2 = L31_1.string
-  L10_2 = A0_2
-  L9_2 = A0_2.FD6036FF3AAF50CFB
+  L10_2 = self
+  L9_2 = self.FD6036FF3AAF50CFB
   L11_2 = A1_2
   L9_2, L10_2, L11_2 = L9_2(L10_2, L11_2)
   L8_2 = L8_2(L9_2, L10_2, L11_2)

@@ -1,3 +1,7 @@
+---@alias C4DAB8BD72937B594 main_util_tween_TweenRotationUtill
+
+---@class main_util_tween_TweenRotationUtill : C4DAB8BD72937B594_prototype
+---@field prototype C4DAB8BD72937B594_prototype
 L55_1 = _ENV
 L56_1 = "C4DAB8BD72937B594"
 L57_1 = L15_1
@@ -50,30 +54,22 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4DAB8BD72937B594"]
 L69_1 = "__name__"
 L70_1 = "C4DAB8BD72937B594"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAB8BD72937B594"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAB8BD72937B594"]["prototype"]
-L69_1 = "F9EF8B08DA4FDA9E4"
-
-function L70_1(A0_2)
+---@class C4DAB8BD72937B594_prototype
+C4DAB8BD72937B594_prototype = L15_1()
+C4DAB8BD72937B594.prototype = C4DAB8BD72937B594_prototype
+--- main.util.tween.TweenRotationUtill.mainCoroutineFunc
+function C4DAB8BD72937B594_prototype:F9EF8B08DA4FDA9E4()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAB8BD72937B594"]["prototype"]
-L69_1 = "F557BD0198C9BD3CA"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.util.tween.TweenRotationUtill.Rotate
+function C4DAB8BD72937B594_prototype:F557BD0198C9BD3CA(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L3_2 = A0_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FBD85BEF51374A611
+  L3_2 = self
+  L5_2 = self
+  L4_2 = self.FBD85BEF51374A611
   L4_2(L5_2)
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = L4_2
   L4_2 = L4_2.f16155D9E
   L4_2 = L4_2(L5_2)
@@ -114,21 +110,18 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L8_2 = "tween_Rotate"
   L6_2 = L6_2(L7_2, L8_2)
-  A0_2[4] = L6_2
-  return A0_2
+  self[4] = L6_2
+  return self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAB8BD72937B594"]["prototype"]
-L69_1 = "F97F9711405353972"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.util.tween.TweenRotationUtill.F97F9711405353972
+function C4DAB8BD72937B594_prototype:F97F9711405353972(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L3_2 = A0_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FBD85BEF51374A611
+  L3_2 = self
+  L5_2 = self
+  L4_2 = self.FBD85BEF51374A611
   L4_2(L5_2)
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = L4_2
   L4_2 = L4_2.f16155D9E
   L4_2 = L4_2(L5_2)
@@ -149,25 +142,22 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L8_2 = "tween_RotateQuaternion"
   L6_2 = L6_2(L7_2, L8_2)
-  A0_2[4] = L6_2
-  return A0_2
+  self[4] = L6_2
+  return self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAB8BD72937B594"]["prototype"]
-L69_1 = "F44A986DD2621AED7"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.util.tween.TweenRotationUtill.LockAt
+function C4DAB8BD72937B594_prototype:F44A986DD2621AED7(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2
-  L3_2 = A0_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FBD85BEF51374A611
+  L3_2 = self
+  L5_2 = self
+  L4_2 = self.FBD85BEF51374A611
   L4_2(L5_2)
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = L4_2
   L4_2 = L4_2.f16155D9E
   L4_2 = L4_2(L5_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L5_2
   L5_2 = L5_2.f750133BA
   L5_2, L6_2, L7_2 = L5_2(L6_2)
@@ -227,19 +217,16 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L15_2 = "tween_LockAt"
   L13_2 = L13_2(L14_2, L15_2)
-  A0_2[4] = L13_2
-  return A0_2
+  self[4] = L13_2
+  return self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAB8BD72937B594"]["prototype"]
-L69_1 = "F30C7BBF9420EBE8C"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.util.tween.TweenRotationUtill.RotateBehavior
+function C4DAB8BD72937B594_prototype:F30C7BBF9420EBE8C(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L4_2 = 0
   while true do
-    L5_2 = A0_2[7]
+    L5_2 = self[7]
     if L5_2 then
       break
     end
@@ -249,12 +236,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
     L7_2 = 2
     L5_2 = L5_2(L6_2, L7_2)
     if 0 == L5_2 then
-      L5_2 = A0_2[6]
+      L5_2 = self[6]
       L6_2 = c896B7995
       L6_2 = L6_2.f047D37EE
       L7_2 = A3_2
       L6_2 = L6_2(L7_2)
-      L7_2 = A0_2[9]
+      L7_2 = self[9]
       if nil == L7_2 then
         L7_2 = 0
       end
@@ -266,12 +253,12 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L13_2 = L7_2
       L8_2(L9_2, L10_2, L11_2, L12_2, L13_2)
     else
-      L5_2 = A0_2[6]
+      L5_2 = self[6]
       L6_2 = c896B7995
       L6_2 = L6_2.f047D37EE
       L7_2 = A3_2
       L6_2 = L6_2(L7_2)
-      L7_2 = A0_2[9]
+      L7_2 = self[9]
       if nil == L7_2 then
         L7_2 = 0
       end
@@ -284,21 +271,21 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L8_2(L9_2, L10_2, L11_2, L12_2, L13_2)
     end
     while true do
-      L5_2 = A0_2[6]
+      L5_2 = self[6]
       L6_2 = L5_2
       L5_2 = L5_2.fFFAA5D50
       L5_2 = L5_2(L6_2)
       if L5_2 then
         break
       end
-      L5_2 = A0_2[7]
+      L5_2 = self[7]
       if L5_2 then
         break
       end
-      L5_2 = A0_2[5]
+      L5_2 = self[5]
       L6_2 = L5_2
       L5_2 = L5_2.f24032F87
-      L7_2 = A0_2[6]
+      L7_2 = self[6]
       L8_2 = L7_2
       L7_2 = L7_2.f77EC8F2F
       L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L7_2(L8_2)
@@ -307,50 +294,47 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
       L5_2 = L5_2.S760DAE4C5371A78E
       L5_2()
     end
-    L5_2 = A0_2[5]
+    L5_2 = self[5]
     L6_2 = L5_2
     L5_2 = L5_2.f24032F87
-    L7_2 = A0_2[6]
+    L7_2 = self[6]
     L8_2 = L7_2
     L7_2 = L7_2.f77EC8F2F
     L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L7_2(L8_2)
     L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
     L4_2 = L4_2 + 1
-    L5_2 = A0_2[8]
+    L5_2 = self[8]
     if L4_2 == L5_2 then
       break
     end
   end
-  L5_2 = A0_2.F0085F7055F019927
+  L5_2 = self.F0085F7055F019927
   if nil ~= L5_2 then
-    L6_2 = A0_2
-    L5_2 = A0_2.F0085F7055F019927
+    L6_2 = self
+    L5_2 = self.F0085F7055F019927
     L5_2(L6_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAB8BD72937B594"]["prototype"]
-L69_1 = "F3BC3E2DE6CE68A7D"
-
-function L70_1(A0_2, A1_2)
+--- main.util.tween.TweenRotationUtill.TweenUpDate
+function C4DAB8BD72937B594_prototype:F3BC3E2DE6CE68A7D(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[4]
+    L3_2 = self[4]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FD079E1CF944CF798
+      L3_2 = self
+      L2_2 = self.FD079E1CF944CF798
       L2_2 = L2_2(L3_2)
       L3_2 = E5918BECABEC63037
       L3_2 = L3_2.Finished
       if L2_2 ~= L3_2 then
-        L3_2 = A0_2
-        L2_2 = A0_2.FEB6685558281F194
+        L3_2 = self
+        L2_2 = self.FEB6685558281F194
         L4_2 = A1_2
         L2_2(L3_2, L4_2)
       end
@@ -358,51 +342,39 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAB8BD72937B594"]["prototype"]
-L69_1 = "FB50C9ACDC127E3B9"
-
-function L70_1(A0_2)
+--- main.util.tween.TweenRotationUtill.kill
+function C4DAB8BD72937B594_prototype:FB50C9ACDC127E3B9()
   local L1_2
-  A0_2.F0085F7055F019927 = nil
-  A0_2[7] = true
-  A0_2[4] = nil
+  self.F0085F7055F019927 = nil
+  self[7] = true
+  self[4] = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAB8BD72937B594"]["prototype"]
-L69_1 = "FBD85BEF51374A611"
-
-function L70_1(A0_2)
+--- main.util.tween.TweenRotationUtill.ResetParam
+function C4DAB8BD72937B594_prototype:FBD85BEF51374A611()
   local L1_2
-  A0_2[7] = false
-  A0_2[8] = 1
-  A0_2[9] = 0
+  self[7] = false
+  self[8] = 1
+  self[9] = 0
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAB8BD72937B594"]["prototype"]
-L69_1 = "FDFC20666B86B7107"
-
-function L70_1(A0_2, A1_2)
+--- main.util.tween.TweenRotationUtill.OnComplete
+function C4DAB8BD72937B594_prototype:FDFC20666B86B7107(A1_2)
   local L2_2, L3_2
   L2_2 = L58_1
   L3_2 = A1_2
   L2_2 = L2_2(L3_2)
-  A0_2.F0085F7055F019927 = L2_2
-  return A0_2
+  self.F0085F7055F019927 = L2_2
+  return self
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4DAB8BD72937B594"]["prototype"]
-L69_1 = "F74C093E903CBE9F1"
-
-function L70_1(A0_2, A1_2)
+--- main.util.tween.TweenRotationUtill.SetEase
+function C4DAB8BD72937B594_prototype:F74C093E903CBE9F1(A1_2)
   if nil == A1_2 then
     A1_2 = 0
   end
-  A0_2[9] = A1_2
-  return A0_2
+  self[9] = A1_2
+  return self
 end
 
 L68_1[L69_1] = L70_1

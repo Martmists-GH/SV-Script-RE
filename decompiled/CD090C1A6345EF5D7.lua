@@ -1,3 +1,5 @@
+---@class CD090C1A6345EF5D7 : CD090C1A6345EF5D7_prototype
+---@field prototype CD090C1A6345EF5D7_prototype
 L55_1 = _ENV
 L56_1 = "CD090C1A6345EF5D7"
 L57_1 = L15_1
@@ -46,24 +48,19 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CD090C1A6345EF5D7"]
 L69_1 = "__name__"
 L70_1 = "CD090C1A6345EF5D7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD090C1A6345EF5D7"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD090C1A6345EF5D7"]["prototype"]
-L69_1 = "F92BA869F22AE5BC6"
-
-function L70_1(A0_2)
+---@class CD090C1A6345EF5D7_prototype
+CD090C1A6345EF5D7_prototype = L15_1()
+CD090C1A6345EF5D7.prototype = CD090C1A6345EF5D7_prototype
+--- CD090C1A6345EF5D7.preStart
+function CD090C1A6345EF5D7_prototype:F92BA869F22AE5BC6()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2
   L1_2 = C20F5CD372AAAA08C
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F92BA869F22AE5BC6
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FA6EFB70A72A19BF2
+  L2_2 = self
+  L1_2 = self.FA6EFB70A72A19BF2
   L1_2(L2_2)
   L1_2 = nil
   
@@ -72,7 +69,7 @@ function L70_1(A0_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L1_2
@@ -80,7 +77,7 @@ function L70_1(A0_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -109,9 +106,9 @@ function L70_1(A0_2)
     L5_2 = L4_2.FBF33188125D53B2D
     L7_2 = C655F64BE2B398C6D
     L5_2 = L5_2(L6_2, L7_2)
-    A0_2[36] = L5_2
+    self[36] = L5_2
   end
-  L5_2 = A0_2[32]
+  L5_2 = self[32]
   L5_2 = L5_2.commonParam
   L5_2 = L5_2.camerawork
   if L5_2 then
@@ -124,7 +121,7 @@ function L70_1(A0_2)
   L7_2 = "message/dat/JPN/script/"
   L6_2 = L6_2(L7_2)
   L7_2 = L31_1.string
-  L8_2 = A0_2[32]
+  L8_2 = self[32]
   L8_2 = L8_2.commonParam
   L8_2 = L8_2.textFileName
   L7_2 = L7_2(L8_2)
@@ -134,12 +131,12 @@ function L70_1(A0_2)
   L7_2 = ".dat"
   L6_2 = L6_2(L7_2)
   L5_2 = L5_2 .. L6_2
-  A0_2[35] = L5_2
+  self[35] = L5_2
   L5_2 = C9B54BC04DD492B6D
   L5_2 = L5_2.S12FD376DC11712C8
-  L6_2 = A0_2[35]
+  L6_2 = self[35]
   L5_2(L6_2)
-  L5_2 = A0_2[32]
+  L5_2 = self[32]
   L5_2 = L5_2.commonParam
   L5_2 = L5_2.isLookAt
   if L5_2 then
@@ -150,7 +147,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = c016374C1
       L1_3 = L1_3.f4555D276
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[12]
       L2_3 = L2_3.owner
       L3_3 = L5_2
@@ -158,7 +155,7 @@ function L70_1(A0_2)
       if L1_3 then
         L0_3 = nil
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[12]
       end
       return L0_3
@@ -183,14 +180,14 @@ function L70_1(A0_2)
     L10_2 = CF061E068C453A4F8
     L8_2 = L8_2(L9_2, L10_2)
     if nil ~= L8_2 then
-      L8_2 = A0_2[32]
+      L8_2 = self[32]
       L8_2 = L8_2.commonParam
       L8_2.isLookAt = false
     else
       L8_2 = nil
       L9_2 = c016374C1
       L9_2 = L9_2.f4555D276
-      L10_2 = A0_2[12]
+      L10_2 = self[12]
       L10_2 = L10_2.owner
       L11_2 = L8_2
       L9_2(L10_2, L11_2)
@@ -224,66 +221,63 @@ function L70_1(A0_2)
   L5_2 = 0 ~= L5_2
   L6_2 = C36BDEFD8FA8C0336
   L6_2 = L6_2.SE5722C5EDFD3C75B
-  L7_2 = A0_2[32]
+  L7_2 = self[32]
   L7_2 = L7_2.commonParam
   L7_2 = L7_2.targetName
-  L8_2 = A0_2[32]
+  L8_2 = self[32]
   L8_2 = L8_2.commonParam
   L8_2 = L8_2.labelName
-  L9_2 = A0_2[32]
+  L9_2 = self[32]
   L9_2 = L9_2.commonParam
   L9_2 = L9_2.textFileName
-  L10_2 = A0_2[32]
+  L10_2 = self[32]
   L10_2 = L10_2.commonParam
   L10_2 = L10_2.playerLook
-  L11_2 = A0_2[32]
+  L11_2 = self[32]
   L11_2 = L11_2.commonParam
   L11_2 = L11_2.targetLook
-  L12_2 = A0_2[32]
+  L12_2 = self[32]
   L12_2 = L12_2.commonParam
   L12_2 = L12_2.targetAnim
-  L13_2 = A0_2[32]
+  L13_2 = self[32]
   L13_2 = L13_2.commonParam
   L13_2 = L13_2.camerawork
-  L14_2 = A0_2[32]
+  L14_2 = self[32]
   L14_2 = L14_2.commonParam
   L14_2 = L14_2.rideOff
-  L15_2 = A0_2[32]
+  L15_2 = self[32]
   L15_2 = L15_2.commonParam
   L15_2 = L15_2.additiveMotion
   L16_2 = L5_2
-  L18_2 = A0_2
-  L17_2 = A0_2.FD209AF51A7C9FBC0
+  L18_2 = self
+  L17_2 = self.FD209AF51A7C9FBC0
   L19_2 = L5_2
   L17_2 = L17_2(L18_2, L19_2)
   L18_2 = L5_2
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD090C1A6345EF5D7"]["prototype"]
-L69_1 = "F740FB4E96926D103"
-
-function L70_1(A0_2)
+--- CD090C1A6345EF5D7.preEnd
+function CD090C1A6345EF5D7_prototype:F740FB4E96926D103()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L1_2 = C20F5CD372AAAA08C
   L1_2 = L1_2.prototype
   L1_2 = L1_2.F740FB4E96926D103
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.S159D70CB960CF475
   L1_2()
   L1_2 = C36BDEFD8FA8C0336
   L1_2 = L1_2.S872DB27533BD0C3E
-  L2_2 = A0_2[32]
+  L2_2 = self[32]
   L2_2 = L2_2.commonParam
   L2_2 = L2_2.targetName
-  L3_2 = A0_2[32]
+  L3_2 = self[32]
   L3_2 = L3_2.commonParam
   L3_2 = L3_2.targetLookReturn
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.commonParam
   L1_2 = L1_2.isLookAt
   if L1_2 then
@@ -294,7 +288,7 @@ function L70_1(A0_2)
       L0_3 = nil
       L1_3 = c016374C1
       L1_3 = L1_3.f4555D276
-      L2_3 = A0_2
+      L2_3 = self
       L2_3 = L2_3[12]
       L2_3 = L2_3.owner
       L3_3 = L1_2
@@ -302,7 +296,7 @@ function L70_1(A0_2)
       if L1_3 then
         L0_3 = nil
       else
-        L1_3 = A0_2
+        L1_3 = self
         L0_3 = L1_3[12]
       end
       return L0_3
@@ -327,9 +321,9 @@ function L70_1(A0_2)
   end
   L1_2 = C9B54BC04DD492B6D
   L1_2 = L1_2.SEC5605D9D6B5E309
-  L2_2 = A0_2[35]
+  L2_2 = self[35]
   L1_2(L2_2)
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.commonParam
   L1_2 = L1_2.camerawork
   if L1_2 then
@@ -338,9 +332,9 @@ function L70_1(A0_2)
     L2_2 = 0.5
     L1_2(L2_2)
   end
-  L1_2 = A0_2[36]
+  L1_2 = self[36]
   if nil ~= L1_2 then
-    L1_2 = A0_2[36]
+    L1_2 = self[36]
     L3_2 = L1_2
     L2_2 = L1_2.F97D80368ACC86AEF
     L2_2 = L2_2(L3_2)
@@ -586,88 +580,85 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD090C1A6345EF5D7"]["prototype"]
-L69_1 = "FA6EFB70A72A19BF2"
-
-function L70_1(A0_2)
+--- CD090C1A6345EF5D7.fillDefaultParam
+function CD090C1A6345EF5D7_prototype:FA6EFB70A72A19BF2()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.commonParam
   L1_2 = L1_2.camerawork
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.commonParam
     L1_2.camerawork = false
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.commonParam
   L1_2 = L1_2.playerLook
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.commonParam
     L1_2.playerLook = true
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.commonParam
   L1_2 = L1_2.targetAnim
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.commonParam
     L1_2.targetAnim = true
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.commonParam
   L1_2 = L1_2.targetLook
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.commonParam
     L1_2.targetLook = true
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.commonParam
   L1_2 = L1_2.targetLookReturn
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.commonParam
     L1_2.targetLookReturn = true
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.commonParam
   L1_2 = L1_2.isLookAt
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.commonParam
     L1_2.isLookAt = true
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.commonParam
   L1_2 = L1_2.rideOff
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.commonParam
     L1_2.rideOff = false
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.commonParam
   L1_2 = L1_2.additiveMotion
   if nil == L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.commonParam
     L1_2.additiveMotion = false
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.commonParam
   L1_2 = L1_2.textFileName
   if nil ~= L1_2 then
-    L1_2 = A0_2[32]
+    L1_2 = self[32]
     L1_2 = L1_2.commonParam
     L1_2 = L1_2.textFileName
     if "" ~= L1_2 then
       goto lbl_83
     end
   end
-  L1_2 = A0_2[32]
+  L1_2 = self[32]
   L1_2 = L1_2.commonParam
   L2_2 = C9B54BC04DD492B6D
   L2_2 = L2_2.S42D538F22DFC8E48
@@ -678,11 +669,8 @@ function L70_1(A0_2)
   ::lbl_83::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CD090C1A6345EF5D7"]["prototype"]
-L69_1 = "FD209AF51A7C9FBC0"
-
-function L70_1(A0_2, A1_2)
+--- CD090C1A6345EF5D7.FD209AF51A7C9FBC0
+function CD090C1A6345EF5D7_prototype:FD209AF51A7C9FBC0(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2
   if not A1_2 then
     L2_2 = false
@@ -695,7 +683,7 @@ function L70_1(A0_2, A1_2)
     L0_3 = nil
     L1_3 = c016374C1
     L1_3 = L1_3.f4555D276
-    L2_3 = A0_2
+    L2_3 = self
     L2_3 = L2_3[12]
     L2_3 = L2_3.owner
     L3_3 = L2_2
@@ -703,7 +691,7 @@ function L70_1(A0_2, A1_2)
     if L1_3 then
       L0_3 = nil
     else
-      L1_3 = A0_2
+      L1_3 = self
       L0_3 = L1_3[12]
     end
     return L0_3
@@ -762,7 +750,7 @@ function L70_1(A0_2, A1_2)
     L10_2 = L10_2(L11_2, L12_2)
     L9_2 = L10_2
   end
-  L10_2 = A0_2[18]
+  L10_2 = self[18]
   L10_2 = L10_2.ownerSRT
   L11_2 = L10_2
   L10_2 = L10_2.fEFCC7C01
@@ -807,7 +795,7 @@ function L70_1(A0_2, A1_2)
   L20_2 = L17_2
   L21_2 = L18_2
   L22_2 = L19_2
-  L23_2 = A0_2[18]
+  L23_2 = self[18]
   L23_2 = L23_2.ownerSRT
   L24_2 = L23_2
   L23_2 = L23_2.f4F794CCF

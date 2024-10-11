@@ -1,3 +1,7 @@
+---@alias C2F2179C1940F0596 main_mystery_gift_MysteryGiftViewHistory
+
+---@class main_mystery_gift_MysteryGiftViewHistory : C2F2179C1940F0596_prototype
+---@field prototype C2F2179C1940F0596_prototype
 L55_1 = _ENV
 L56_1 = "C2F2179C1940F0596"
 L57_1 = L15_1
@@ -67,16 +71,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C2F2179C1940F0596"]
 L69_1 = "__name__"
 L70_1 = "C2F2179C1940F0596"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F2179C1940F0596"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F2179C1940F0596"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C2F2179C1940F0596_prototype
+C2F2179C1940F0596_prototype = L15_1()
+C2F2179C1940F0596.prototype = C2F2179C1940F0596_prototype
+--- main.mystery_gift.MysteryGiftViewHistory.Setup
+function C2F2179C1940F0596_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = c8C3BF576
   L2_2 = L2_2.f49D44378
@@ -92,49 +91,49 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2)
   L2_2 = cECD2E4A5
   L2_2 = L2_2.fD4E920D9
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "Cursor_00"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[4] = L2_2
+  self[4] = L2_2
   L2_2 = cECD2E4A5
   L2_2 = L2_2.fBCD0707E
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = "ScrollPanel_00"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
-  L2_2 = A0_2[3]
+  self[3] = L2_2
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f1D8A575B
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.FA9F3E261AC39277D
+  L5_2 = self
+  L6_2 = self.FA9F3E261AC39277D
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.fEDF77BF9
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F784E221CDDF0AD42
+  L5_2 = self
+  L6_2 = self.F784E221CDDF0AD42
   L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f4F8C7B75
   L4_2 = L55_1
-  L5_2 = A0_2
-  L6_2 = A0_2.F0C469CDA943FEFD5
+  L5_2 = self
+  L6_2 = self.F0C469CDA943FEFD5
   L4_2 = L4_2(L5_2, L6_2)
   L5_2 = false
   L6_2 = false
   L2_2(L3_2, L4_2, L5_2, L6_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.fC5760380
   L4_2 = 1
   L5_2 = 5
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FC8489078C201C47F
   L2_2 = L2_2(L3_2)
@@ -143,7 +142,7 @@ function L70_1(A0_2, A1_2)
   L4_2 = "T_history_00"
   L5_2 = "msg_o_mystery_title_01"
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L3_2 = L2_2
   L2_2 = L2_2.FC8489078C201C47F
   L2_2 = L2_2(L3_2)
@@ -154,38 +153,26 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F2179C1940F0596"]["prototype"]
-L69_1 = "F1C2AA00ADAC52EC5"
-
-function L70_1(A0_2)
+--- main.mystery_gift.MysteryGiftViewHistory.Destroy
+function C2F2179C1940F0596_prototype:F1C2AA00ADAC52EC5()
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F2179C1940F0596"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftViewHistory.PreUpdate
+function C2F2179C1940F0596_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FEB6685558281F194
+  L3_2 = self
+  L2_2 = self.FEB6685558281F194
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F2179C1940F0596"]["prototype"]
-L69_1 = "F20A40E2F8B95D5F6"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftViewHistory.PostUpdate
+function C2F2179C1940F0596_prototype:F20A40E2F8B95D5F6(A1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F2179C1940F0596"]["prototype"]
-L69_1 = "FF3BB370B0C87E833"
-
-function L70_1(A0_2)
+--- main.mystery_gift.MysteryGiftViewHistory.OnAwake
+function C2F2179C1940F0596_prototype:FF3BB370B0C87E833()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = c18DFB84A
   L1_2 = L1_2.fE059C936
@@ -207,13 +194,13 @@ function L70_1(A0_2)
   
   L3_2 = L3_2()
   if L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kInView"
     L3_2(L4_2, L5_2)
   else
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kShowNoHistoryMessage"
     L3_2(L4_2, L5_2)
   end
@@ -250,64 +237,61 @@ function L70_1(A0_2)
   end
   
   L4_2 = L4_2()
-  L5_2 = A0_2[3]
+  L5_2 = self[3]
   L6_2 = L5_2
   L5_2 = L5_2.f2A9CF058
   L7_2 = true
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L6_2 = L5_2
   L5_2 = L5_2.f2A9CF058
   L7_2 = L4_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L5_2
   L5_2 = L5_2.FA23D39922B76B247
   L7_2 = "L_panel_00"
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L5_2
   L5_2 = L5_2.FA23D39922B76B247
   L7_2 = "L_list_00"
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L5_2
   L5_2 = L5_2.FA23D39922B76B247
   L7_2 = "P_head_00"
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L5_2
   L5_2 = L5_2.FA23D39922B76B247
   L7_2 = "P_head_01"
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L5_2
   L5_2 = L5_2.FA23D39922B76B247
   L7_2 = "P_line_00"
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L5_2
   L5_2 = L5_2.FA23D39922B76B247
   L7_2 = "P_line_01"
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.FA08864554BAA59D9
+  L6_2 = self
+  L5_2 = self.FA08864554BAA59D9
   L5_2(L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F2179C1940F0596"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftViewHistory.Update
+function C2F2179C1940F0596_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   if "kBack" == L2_2 then
     L3_2 = CF1D9D619D324F233
     L3_2 = L3_2.SBFB9EB45D5AD74F0
@@ -317,13 +301,13 @@ function L70_1(A0_2, A1_2)
     if L3_2 then
       return
     end
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L4_2 = L3_2
     L3_2 = L3_2.fCDC3DEA9
     L5_2 = "kEnd"
     L3_2(L4_2, L5_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kNone"
     L3_2(L4_2, L5_2)
   elseif "kInView" == L2_2 then
@@ -332,8 +316,8 @@ function L70_1(A0_2, A1_2)
     L4_2 = "UI_CANCEL"
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.F0447962DA9E61E54
+      L4_2 = self
+      L3_2 = self.F0447962DA9E61E54
       L5_2 = "kBack"
       L3_2(L4_2, L5_2)
     end
@@ -355,8 +339,8 @@ function L70_1(A0_2, A1_2)
     L7_2 = L7_2[L3_2]
     L7_2 = L7_2.type
     L4_2(L5_2, L6_2, L7_2)
-    L5_2 = A0_2
-    L4_2 = A0_2.F0447962DA9E61E54
+    L5_2 = self
+    L4_2 = self.F0447962DA9E61E54
     L6_2 = "kWaitMessage"
     L4_2(L5_2, L6_2)
   elseif "kWaitMessage" == L2_2 then
@@ -371,55 +355,43 @@ function L70_1(A0_2, A1_2)
     L3_2 = C0841C92D10956D35
     L3_2 = L3_2.S84E00A89DFBC380C
     L3_2()
-    L4_2 = A0_2
-    L3_2 = A0_2.F0447962DA9E61E54
+    L4_2 = self
+    L3_2 = self.F0447962DA9E61E54
     L5_2 = "kBack"
     L3_2(L4_2, L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F2179C1940F0596"]["prototype"]
-L69_1 = "F784E221CDDF0AD42"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.mystery_gift.MysteryGiftViewHistory.OnFrameInEvent
+function C2F2179C1940F0596_prototype:F784E221CDDF0AD42(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FB1C60A39270F580E
+  L5_2 = self
+  L4_2 = self.FB1C60A39270F580E
   L6_2 = A1_2
   L7_2 = A3_2
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F2179C1940F0596"]["prototype"]
-L69_1 = "F0C469CDA943FEFD5"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.mystery_gift.MysteryGiftViewHistory.OnMoveCursorEvent
+function C2F2179C1940F0596_prototype:F0C469CDA943FEFD5(A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FC35BEB1F0610B441
+  L5_2 = self
+  L4_2 = self.FC35BEB1F0610B441
   L6_2 = A1_2
   L4_2(L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F2179C1940F0596"]["prototype"]
-L69_1 = "FA9F3E261AC39277D"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.mystery_gift.MysteryGiftViewHistory.OnDecideItemEvent
+function C2F2179C1940F0596_prototype:FA9F3E261AC39277D(A1_2, A2_2, A3_2)
   local L4_2, L5_2
-  L4_2 = A0_2[6]
+  L4_2 = self[6]
   L5_2 = L4_2
   L4_2 = L4_2.f89358001
   L4_2(L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F2179C1940F0596"]["prototype"]
-L69_1 = "FB1C60A39270F580E"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.mystery_gift.MysteryGiftViewHistory.UpdateViewItem
+function C2F2179C1940F0596_prototype:FB1C60A39270F580E(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L3_2 = c18DFB84A
   L3_2 = L3_2.fE059C936
@@ -452,7 +424,7 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2 = L5_2(L6_2)
   L6_2 = cA844C6B1
   L6_2 = L6_2.fDCA0F5C0
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L31_1.string
   L9_2 = A2_2
   L8_2 = L8_2(L9_2)
@@ -464,11 +436,8 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2(L7_2, L8_2, L9_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F2179C1940F0596"]["prototype"]
-L69_1 = "FC35BEB1F0610B441"
-
-function L70_1(A0_2, A1_2)
+--- main.mystery_gift.MysteryGiftViewHistory.UpdateViewDescription
+function C2F2179C1940F0596_prototype:FC35BEB1F0610B441(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = c18DFB84A
   L2_2 = L2_2.fE059C936
@@ -501,13 +470,13 @@ function L70_1(A0_2, A1_2)
   L4_2 = L4_2(L5_2)
   L5_2 = cA844C6B1
   L5_2 = L5_2.fDCA0F5C0
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = "L_list_00/T_info_00"
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
   L5_2 = cA844C6B1
   L5_2 = L5_2.fEB624568
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = "L_list_00/T_item_00"
   L8_2 = L4_2
   L9_2 = C4290ED6F49F5DD0F
@@ -515,43 +484,40 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2, L8_2, L9_2)
   L5_2 = cA844C6B1
   L5_2 = L5_2.fBAD76CB6
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = "L_list_00/T_date_00"
   L8_2 = L4_2
   L5_2(L6_2, L7_2, L8_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F2179C1940F0596"]["prototype"]
-L69_1 = "FA08864554BAA59D9"
-
-function L70_1(A0_2)
+--- main.mystery_gift.MysteryGiftViewHistory.CreateList
+function C2F2179C1940F0596_prototype:FA08864554BAA59D9()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c18DFB84A
   L1_2 = L1_2.fE059C936
   L1_2 = L1_2()
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f8139EB06
   L4_2 = L1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.fD971E864
   L4_2 = 0
   L5_2 = false
   L2_2(L3_2, L4_2, L5_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f7E178012
   L4_2 = 0
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.f05D9B2C0
   L4_2 = true
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = L2_2
   L2_2 = L2_2.fB46AEBA1
   L4_2 = 0
@@ -559,12 +525,9 @@ function L70_1(A0_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2F2179C1940F0596"]["prototype"]
-L69_1 = "F0447962DA9E61E54"
-
-function L70_1(A0_2, A1_2)
-  A0_2[2] = A1_2
+--- main.mystery_gift.MysteryGiftViewHistory.SetState
+function C2F2179C1940F0596_prototype:F0447962DA9E61E54(A1_2)
+  self[2] = A1_2
 end
 
 L68_1[L69_1] = L70_1

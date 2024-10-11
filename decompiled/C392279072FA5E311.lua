@@ -1,3 +1,7 @@
+---@alias CEC85CB658F7D7A45 main_event_general_danbattle_DanAreaOutWarpEvent
+
+---@class main_event_general_danbattle_DanAreaOutWarpEvent : CEC85CB658F7D7A45_prototype
+---@field prototype CEC85CB658F7D7A45_prototype
 L55_1 = _ENV
 L56_1 = "C392279072FA5E311"
 L57_1 = L15_1
@@ -13,11 +17,9 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C392279072FA5E311"]
 L69_1 = "__name__"
 L70_1 = "C392279072FA5E311"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C392279072FA5E311"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CEC85CB658F7D7A45_prototype
+CEC85CB658F7D7A45_prototype = L15_1()
+CEC85CB658F7D7A45.prototype = CEC85CB658F7D7A45_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C392279072FA5E311"]["prototype"]
 L69_1 = _ENV["C392279072FA5E311"]

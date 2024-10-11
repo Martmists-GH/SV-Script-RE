@@ -1,3 +1,7 @@
+---@alias C059A8220E49B70C1 main_battle_BattleResultData
+
+---@class main_battle_BattleResultData : C059A8220E49B70C1_prototype
+---@field prototype C059A8220E49B70C1_prototype
 L55_1 = _ENV
 L56_1 = "C059A8220E49B70C1"
 L57_1 = L15_1
@@ -45,16 +49,11 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C059A8220E49B70C1"]
 L69_1 = "__name__"
 L70_1 = "C059A8220E49B70C1"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C059A8220E49B70C1"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C059A8220E49B70C1"]["prototype"]
-L69_1 = "F46A164534291F04D"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class C059A8220E49B70C1_prototype
+C059A8220E49B70C1_prototype = L15_1()
+C059A8220E49B70C1.prototype = C059A8220E49B70C1_prototype
+--- main.battle.BattleResultData.CalcResult
+function C059A8220E49B70C1_prototype:F46A164534291F04D(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L3_2 = cEE005CCF
   L3_2 = L3_2.fEB1D03C3
@@ -63,18 +62,18 @@ function L70_1(A0_2, A1_2, A2_2)
   L5_2 = L3_2
   L4_2 = L3_2.f49DE6DBD
   L4_2 = L4_2(L5_2)
-  A0_2[1] = L4_2
+  self[1] = L4_2
   L4_2 = cF18EF7C2
   L4_2 = L4_2.fBAFC0272
   L5_2 = L3_2
   L4_2 = L4_2(L5_2)
-  A0_2[2] = L4_2
+  self[2] = L4_2
   L5_2 = A2_2
   L4_2 = A2_2.F091397B4B2804EF0
   L4_2 = L4_2(L5_2)
   L4_2 = L4_2[110]
   if L4_2 then
-    A0_2[4] = nil
+    self[4] = nil
   else
     L4_2 = nil
     L5_2 = c03C8030E
@@ -89,8 +88,8 @@ function L70_1(A0_2, A1_2, A2_2)
       L5_2 = c03C8030E
       L5_2 = L5_2.f101D811F
       L5_2 = L5_2()
-      A0_2[4] = L5_2
-      L5_2 = A0_2[4]
+      self[4] = L5_2
+      L5_2 = self[4]
       L6_2 = L5_2
       L5_2 = L5_2.fEFB3ECFD
       L8_2 = L3_2
@@ -99,14 +98,14 @@ function L70_1(A0_2, A1_2, A2_2)
       L7_2, L8_2, L9_2, L10_2, L11_2 = L7_2(L8_2, L9_2)
       L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
       L5_2 = 0
-      L6_2 = A0_2[4]
+      L6_2 = self[4]
       L7_2 = L6_2
       L6_2 = L6_2.f62782BA1
       L6_2 = L6_2(L7_2)
       while L5_2 < L6_2 do
         L5_2 = L5_2 + 1
         L7_2 = L5_2 - 1
-        L8_2 = A0_2[5]
+        L8_2 = self[5]
         L10_2 = L3_2
         L9_2 = L3_2.f11D300D6
         L11_2 = L7_2
@@ -114,14 +113,14 @@ function L70_1(A0_2, A1_2, A2_2)
         L8_2[L7_2] = L9_2
       end
     else
-      A0_2[4] = nil
+      self[4] = nil
     end
   end
   L5_2 = L3_2
   L4_2 = L3_2.f3BB4B250
   L4_2 = L4_2(L5_2)
   if L4_2 > 0 then
-    A0_2[6] = true
+    self[6] = true
     L5_2 = 0
     while L4_2 > L5_2 do
       L5_2 = L5_2 + 1
@@ -190,7 +189,7 @@ function L70_1(A0_2, A1_2, A2_2)
           L8_2(L9_2, L10_2)
         end
       end
-      L8_2 = A0_2[8]
+      L8_2 = self[8]
       L9_2 = L8_2
       L8_2 = L8_2.push
       L10_2 = L7_2
@@ -200,16 +199,13 @@ function L70_1(A0_2, A1_2, A2_2)
   L6_2 = L3_2
   L5_2 = L3_2.fA9E9B5B3
   L5_2 = L5_2(L6_2)
-  A0_2[11] = L5_2
+  self[11] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C059A8220E49B70C1"]["prototype"]
-L69_1 = "F404F00388C456251"
-
-function L70_1(A0_2)
+--- main.battle.BattleResultData.FroceQuit
+function C059A8220E49B70C1_prototype:F404F00388C456251()
   local L1_2
-  A0_2[1] = 6
+  self[1] = 6
 end
 
 L68_1[L69_1] = L70_1

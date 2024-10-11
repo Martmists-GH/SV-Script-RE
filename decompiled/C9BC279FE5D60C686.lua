@@ -1,3 +1,7 @@
+---@alias C9BC279FE5D60C686 main_event_pop_partner_BoxCastInfo
+
+---@class main_event_pop_partner_BoxCastInfo : C9BC279FE5D60C686_prototype
+---@field prototype C9BC279FE5D60C686_prototype
 L55_1 = _ENV
 L56_1 = "C9BC279FE5D60C686"
 L57_1 = L15_1
@@ -44,27 +48,22 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9BC279FE5D60C686"]
 L69_1 = "__name__"
 L70_1 = "C9BC279FE5D60C686"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9BC279FE5D60C686"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C9BC279FE5D60C686"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C9BC279FE5D60C686_prototype
+C9BC279FE5D60C686_prototype = L15_1()
+C9BC279FE5D60C686.prototype = C9BC279FE5D60C686_prototype
+--- main.event.pop_partner.BoxCastInfo.Setup
+function C9BC279FE5D60C686_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L3_2 = A1_2
   L2_2 = A1_2.f22FC612C
   L4_2 = "BeginCastHeightOffset"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[1] = L2_2
+  self[1] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f22FC612C
   L4_2 = "CastDistance"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[2] = L2_2
+  self[2] = L2_2
   L3_2 = A1_2
   L2_2 = A1_2.f8705F620
   L4_2 = "BoxExtend"
@@ -90,14 +89,14 @@ function L70_1(A0_2, A1_2)
   end
   
   L5_2 = L5_2()
-  A0_2[3] = L5_2
-  L5_2 = A0_2[3]
+  self[3] = L5_2
+  L5_2 = self[3]
   L5_2[3] = 0
   L6_2 = A1_2
   L5_2 = A1_2.fB92521F2
   L7_2 = "MaxHitCount"
   L5_2 = L5_2(L6_2, L7_2)
-  A0_2[4] = L5_2
+  self[4] = L5_2
 end
 
 L68_1[L69_1] = L70_1

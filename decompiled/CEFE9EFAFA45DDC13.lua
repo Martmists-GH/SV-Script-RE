@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CEFE9EFAFA45DDC13"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CEFE9EFAFA45DDC13"]
-L69_1 = "new"
+---@alias CEFE9EFAFA45DDC13 main_savedata_accessor_FriendlyShopSaveAccessor
 
-function L70_1()
+---@class main_savedata_accessor_FriendlyShopSaveAccessor : CEFE9EFAFA45DDC13_prototype
+---@field prototype CEFE9EFAFA45DDC13_prototype
+CEFE9EFAFA45DDC13 = L15_1()
+function CEFE9EFAFA45DDC13.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = CEFE9EFAFA45DDC13
@@ -21,11 +18,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE9EFAFA45DDC13"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 CEFE9EFAFA45DDC13
+function CEFE9EFAFA45DDC13.super(A0_2)
   local L1_2, L2_2
   L1_2 = C1DAF90683584C5A0
   L1_2 = L1_2.super
@@ -33,11 +27,7 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE9EFAFA45DDC13"]
-L69_1 = "__name__"
-L70_1 = "CEFE9EFAFA45DDC13"
-L68_1[L69_1] = L70_1
+CEFE9EFAFA45DDC13.__name__ = "CEFE9EFAFA45DDC13"
 L68_1 = _ENV["CEFE9EFAFA45DDC13"]
 L69_1 = "S550C650F0A01AD3D"
 
@@ -59,11 +49,8 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE9EFAFA45DDC13"]
-L69_1 = "S547AF1A994FA7089"
-
-function L70_1(A0_2)
+--- main.savedata.accessor.FriendlyShopSaveAccessor.GetNewFlag
+function CEFE9EFAFA45DDC13.S547AF1A994FA7089(A0_2)
   local L1_2, L2_2, L3_2
   L1_2 = cACA3F5A6
   L1_2 = L1_2.f6A1EF75F
@@ -75,21 +62,16 @@ function L70_1(A0_2)
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE9EFAFA45DDC13"]
-L69_1 = "S18C73E45F2634A79"
-
-function L70_1()
+--- main.savedata.accessor.FriendlyShopSaveAccessor.IsEndFormat
+function CEFE9EFAFA45DDC13.S18C73E45F2634A79()
   local L0_2, L1_2
   L0_2 = true
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CEFE9EFAFA45DDC13"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CEFE9EFAFA45DDC13_prototype
+CEFE9EFAFA45DDC13_prototype = L15_1()
+CEFE9EFAFA45DDC13.prototype = CEFE9EFAFA45DDC13_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CEFE9EFAFA45DDC13"]["prototype"]
 L69_1 = _ENV["CEFE9EFAFA45DDC13"]

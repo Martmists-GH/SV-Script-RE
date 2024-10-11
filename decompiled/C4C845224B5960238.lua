@@ -1,3 +1,7 @@
+---@alias C4C845224B5960238 main_ui_ymap_mapicon_YMapFrameMiniIcon
+
+---@class main_ui_ymap_mapicon_YMapFrameMiniIcon : C4C845224B5960238_prototype
+---@field prototype C4C845224B5960238_prototype
 L55_1 = _ENV
 L56_1 = "C4C845224B5960238"
 L57_1 = L15_1
@@ -70,19 +74,14 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4C845224B5960238"]
 L69_1 = "__name__"
 L70_1 = "C4C845224B5960238"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C845224B5960238"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C845224B5960238"]["prototype"]
-L69_1 = "FEB6685558281F194"
-
-function L70_1(A0_2, A1_2)
+---@class C4C845224B5960238_prototype
+C4C845224B5960238_prototype = L15_1()
+C4C845224B5960238.prototype = C4C845224B5960238_prototype
+--- main.ui.ymap.mapicon.YMapFrameMiniIcon.Update
+function C4C845224B5960238_prototype:FEB6685558281F194(A1_2)
   local L2_2, L3_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FF22FCFA79B2A3334
+  L3_2 = self
+  L2_2 = self.FF22FCFA79B2A3334
   L2_2(L3_2)
 end
 

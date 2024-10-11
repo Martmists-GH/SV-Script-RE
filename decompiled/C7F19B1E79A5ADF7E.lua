@@ -1,3 +1,7 @@
+---@alias C7F19B1E79A5ADF7E main_field_action_ActionPlayerHalfSit
+
+---@class main_field_action_ActionPlayerHalfSit : C7F19B1E79A5ADF7E_prototype
+---@field prototype C7F19B1E79A5ADF7E_prototype
 L55_1 = _ENV
 L56_1 = "C7F19B1E79A5ADF7E"
 L57_1 = L15_1
@@ -43,23 +47,18 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C7F19B1E79A5ADF7E"]
 L69_1 = "__name__"
 L70_1 = "C7F19B1E79A5ADF7E"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F19B1E79A5ADF7E"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F19B1E79A5ADF7E"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C7F19B1E79A5ADF7E_prototype
+C7F19B1E79A5ADF7E_prototype = L15_1()
+C7F19B1E79A5ADF7E.prototype = C7F19B1E79A5ADF7E_prototype
+--- main.field.action.ActionPlayerHalfSit.onCreate
+function C7F19B1E79A5ADF7E_prototype:FC87C731D11C58354()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L1_2 = CAE77CEB266C9024A
   L1_2 = L1_2.prototype
   L1_2 = L1_2.FC87C731D11C58354
-  L2_2 = A0_2
+  L2_2 = self
   L1_2(L2_2)
-  L1_2 = A0_2[10]
+  L1_2 = self[10]
   L2_2 = 9
   L1_2.updateInterval = L2_2
   L3_2 = nil
@@ -75,7 +74,7 @@ function L70_1(A0_2)
     L6_2 = L2_2
     L4_2(L5_2, L6_2)
   end
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L4_2.runParalleled = true
   L6_2 = L4_2
   L5_2 = L4_2.runParalleledCallbackFunc
@@ -83,13 +82,10 @@ function L70_1(A0_2)
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F19B1E79A5ADF7E"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPlayerHalfSit.onSetup
+function C7F19B1E79A5ADF7E_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = nil
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fDBA763D1
@@ -114,8 +110,8 @@ function L70_1(A0_2)
     L5_2 = false
     return L5_2
   end
-  L6_2 = A0_2
-  L5_2 = A0_2.FDEC8D02616C6AB9A
+  L6_2 = self
+  L5_2 = self.FDEC8D02616C6AB9A
   L5_2 = L5_2(L6_2)
   if L5_2 then
     L6_2 = L3_2
@@ -139,23 +135,17 @@ function L70_1(A0_2)
   return L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F19B1E79A5ADF7E"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPlayerHalfSit.onPreUpdate
+function C7F19B1E79A5ADF7E_prototype:F1993A419B4083AE8()
   local L1_2
   L1_2 = 0
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F19B1E79A5ADF7E"]["prototype"]
-L69_1 = "FA2C827B56F56ABDF"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPlayerHalfSit.onFinish
+function C7F19B1E79A5ADF7E_prototype:FA2C827B56F56ABDF()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = nil
   L3_2 = cE35B3EB3
   L3_2 = L3_2.fDBA763D1
@@ -188,32 +178,26 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F19B1E79A5ADF7E"]["prototype"]
-L69_1 = "F97D80368ACC86AEF"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPlayerHalfSit.onTerminate
+function C7F19B1E79A5ADF7E_prototype:F97D80368ACC86AEF()
   local L1_2
   L1_2 = true
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C7F19B1E79A5ADF7E"]["prototype"]
-L69_1 = "FDEC8D02616C6AB9A"
-
-function L70_1(A0_2)
+--- main.field.action.ActionPlayerHalfSit.checkIsHalfSit
+function C7F19B1E79A5ADF7E_prototype:FDEC8D02616C6AB9A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L1_2 = false
-  L2_2 = A0_2[5]
-  L3_2 = A0_2[16]
+  L2_2 = self[5]
+  L3_2 = self[16]
   L3_2 = L3_2.targetObject
   if nil ~= L2_2 and nil ~= L3_2 then
     function L4_2()
       local L0_3, L1_3
       
       L0_3 = nil
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[16]
       L1_3 = L1_3.isPokemon
       if L1_3 then
@@ -280,7 +264,7 @@ function L70_1(A0_2)
       L7_2 = false
     end
     if L7_2 then
-      L9_2 = A0_2[5]
+      L9_2 = self[5]
       L10_2 = C5A1B1F295B2A231A
       L10_2 = L10_2.SE568D9B835C7FB44
       

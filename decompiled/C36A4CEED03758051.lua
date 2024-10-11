@@ -1,3 +1,7 @@
+---@alias C36A4CEED03758051 main_ui_shop_wazamachine_view_buy_ShopWazamachineSequence
+
+---@class main_ui_shop_wazamachine_view_buy_ShopWazamachineSequence : C36A4CEED03758051_prototype
+---@field prototype C36A4CEED03758051_prototype
 L55_1 = _ENV
 L56_1 = "C36A4CEED03758051"
 L57_1 = L15_1
@@ -49,16 +53,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C36A4CEED03758051"]
 L69_1 = "__name__"
 L70_1 = "C36A4CEED03758051"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36A4CEED03758051"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36A4CEED03758051"]["prototype"]
-L69_1 = "F478F909F67A4D522"
-
-function L70_1(A0_2, A1_2)
+---@class C36A4CEED03758051_prototype
+C36A4CEED03758051_prototype = L15_1()
+C36A4CEED03758051.prototype = C36A4CEED03758051_prototype
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineSequence.BuyMaxCount
+function C36A4CEED03758051_prototype:F478F909F67A4D522(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = C6BC8418E8E071EE6
   L2_2 = L2_2.S385504EFF7E842C3
@@ -145,60 +144,51 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36A4CEED03758051"]["prototype"]
-L69_1 = "F33163B6BC588D0ED"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineSequence.StartWazamachineBuy
+function C36A4CEED03758051_prototype:F33163B6BC588D0ED()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F71E7166E54451E66
+  L3_2 = self
+  L4_2 = self.F71E7166E54451E66
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "wazamachine_buy"
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36A4CEED03758051"]["prototype"]
-L69_1 = "F0174E1989442B3FE"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineSequence.FailedWazamachineBuy
+function C36A4CEED03758051_prototype:F0174E1989442B3FE()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = C1DB14DCC9D7634FA
   L1_2 = L1_2.new
   L2_2 = L55_1
-  L3_2 = A0_2
-  L4_2 = A0_2.F5385685687C8C083
+  L3_2 = self
+  L4_2 = self.F5385685687C8C083
   L2_2 = L2_2(L3_2, L4_2)
   L3_2 = "wazamachine_buy"
   return L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36A4CEED03758051"]["prototype"]
-L69_1 = "F71E7166E54451E66"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineSequence.WazamachineBuySequence
+function C36A4CEED03758051_prototype:F71E7166E54451E66()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = false
   L2_2 = false
   while false == L1_2 and false == L2_2 do
-    L4_2 = A0_2
-    L3_2 = A0_2.F7FCA964D1A8437B2
+    L4_2 = self
+    L3_2 = self.F7FCA964D1A8437B2
     L3_2 = L3_2(L4_2)
     L4_2 = L3_2.result
     if 1 == L4_2 then
-      L5_2 = A0_2
-      L4_2 = A0_2.FA627BB296FBD76E3
+      L5_2 = self
+      L4_2 = self.FA627BB296FBD76E3
       L6_2 = L3_2.selectNum
       L4_2 = L4_2(L5_2, L6_2)
       L1_2 = L4_2
       if true == L1_2 then
-        L5_2 = A0_2
-        L4_2 = A0_2.F464C38AFE39868E2
+        L5_2 = self
+        L4_2 = self.F464C38AFE39868E2
         L6_2 = L3_2.selectNum
         L4_2(L5_2, L6_2)
       end
@@ -211,33 +201,30 @@ function L70_1(A0_2)
     L4_2 = L4_2.S760DAE4C5371A78E
     L4_2()
   end
-  L3_2 = A0_2[7]
+  L3_2 = self[7]
   if not L3_2 then
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.F248D86117D576E18
     L3_2(L4_2)
   else
-    L3_2 = A0_2[5]
+    L3_2 = self[5]
     L4_2 = L3_2
     L3_2 = L3_2.FA26178851D4E78C1
     L3_2(L4_2)
-    A0_2[7] = false
+    self[7] = false
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36A4CEED03758051"]["prototype"]
-L69_1 = "F5385685687C8C083"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineSequence.WazamachineBuyFailedSequence
+function C36A4CEED03758051_prototype:F5385685687C8C083()
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fC8CEF9EF
   L2_2 = "shop_waza"
   L3_2 = "shop_waza_14_03"
   L1_2 = L1_2(L2_2, L3_2)
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   if 3 == L2_2 then
     L2_2 = c8C3BF576
     L2_2 = L2_2.fC8CEF9EF
@@ -246,7 +233,7 @@ function L70_1(A0_2)
     L2_2 = L2_2(L3_2, L4_2)
     L1_2 = L2_2
   else
-    L2_2 = A0_2[6]
+    L2_2 = self[6]
     if 4 == L2_2 then
       L2_2 = c8C3BF576
       L2_2 = L2_2.fC8CEF9EF
@@ -285,19 +272,16 @@ function L70_1(A0_2)
     L3_2 = L3_2.S760DAE4C5371A78E
     L3_2()
   end
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L4_2 = L3_2
   L3_2 = L3_2.F248D86117D576E18
   L3_2(L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36A4CEED03758051"]["prototype"]
-L69_1 = "F7FCA964D1A8437B2"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineSequence.NumSelectSequence
+function C36A4CEED03758051_prototype:F7FCA964D1A8437B2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = L1_2
   L1_2 = L1_2.FEDD8CA766B7AB646
   L1_2 = L1_2(L2_2)
@@ -351,14 +335,14 @@ function L70_1(A0_2)
     L4_2 = L4_2.S760DAE4C5371A78E
     L4_2()
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F4CD4E22510B9F14F
+  L5_2 = self
+  L4_2 = self.F4CD4E22510B9F14F
   L6_2 = true
   L4_2(L5_2, L6_2)
   L4_2 = 0
   L5_2 = 1
-  L7_2 = A0_2
-  L6_2 = A0_2.FB23B4B1D04B31DF8
+  L7_2 = self
+  L6_2 = self.FB23B4B1D04B31DF8
   L8_2 = 1
   L6_2(L7_2, L8_2)
   while 0 == L4_2 do
@@ -372,11 +356,11 @@ function L70_1(A0_2)
       L7_2 = L7_2.SCFB9485B1B78F78B
       L8_2 = L5_2
       L9_2 = 1
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       L7_2 = L7_2(L8_2, L9_2, L10_2)
       L5_2 = L7_2
-      L8_2 = A0_2
-      L7_2 = A0_2.F53EE597E2BD106F8
+      L8_2 = self
+      L7_2 = self.F53EE597E2BD106F8
       L7_2(L8_2)
       L6_2 = true
     end
@@ -389,11 +373,11 @@ function L70_1(A0_2)
       L7_2 = L7_2.SD7B74FFE6416B8CA
       L8_2 = L5_2
       L9_2 = 1
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       L7_2 = L7_2(L8_2, L9_2, L10_2)
       L5_2 = L7_2
-      L8_2 = A0_2
-      L7_2 = A0_2.FF35E85408B7BEE2D
+      L8_2 = self
+      L7_2 = self.FF35E85408B7BEE2D
       L7_2(L8_2)
       L6_2 = true
     end
@@ -406,11 +390,11 @@ function L70_1(A0_2)
       L7_2 = L7_2.SCFB9485B1B78F78B
       L8_2 = L5_2
       L9_2 = 10
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       L7_2 = L7_2(L8_2, L9_2, L10_2)
       L5_2 = L7_2
-      L8_2 = A0_2
-      L7_2 = A0_2.F53EE597E2BD106F8
+      L8_2 = self
+      L7_2 = self.F53EE597E2BD106F8
       L7_2(L8_2)
       L6_2 = true
     end
@@ -423,17 +407,17 @@ function L70_1(A0_2)
       L7_2 = L7_2.SD7B74FFE6416B8CA
       L8_2 = L5_2
       L9_2 = 10
-      L10_2 = A0_2[3]
+      L10_2 = self[3]
       L7_2 = L7_2(L8_2, L9_2, L10_2)
       L5_2 = L7_2
-      L8_2 = A0_2
-      L7_2 = A0_2.FF35E85408B7BEE2D
+      L8_2 = self
+      L7_2 = self.FF35E85408B7BEE2D
       L7_2(L8_2)
       L6_2 = true
     end
     if true == L6_2 then
-      L8_2 = A0_2
-      L7_2 = A0_2.FB23B4B1D04B31DF8
+      L8_2 = self
+      L7_2 = self.FB23B4B1D04B31DF8
       L9_2 = L5_2
       L7_2(L8_2, L9_2)
     end
@@ -468,8 +452,8 @@ function L70_1(A0_2)
   L7_2 = E048715B79C692C5A
   L7_2 = L7_2.Talk
   L6_2(L7_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.F4CD4E22510B9F14F
+  L7_2 = self
+  L6_2 = self.F4CD4E22510B9F14F
   L8_2 = false
   L6_2(L7_2, L8_2)
   while true do
@@ -496,11 +480,8 @@ function L70_1(A0_2)
   return L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36A4CEED03758051"]["prototype"]
-L69_1 = "FA627BB296FBD76E3"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineSequence.IsBuyDecide
+function C36A4CEED03758051_prototype:FA627BB296FBD76E3(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = false
   L3_2 = cB3DDDC2A
@@ -509,7 +490,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = L3_2
   L4_2 = L3_2.fCB6BF1D5
   L6_2 = 0
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.FEDD8CA766B7AB646
   L7_2, L8_2, L9_2, L10_2 = L7_2(L8_2)
@@ -525,7 +506,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = L3_2
   L4_2 = L3_2.fABEB9F55
   L6_2 = 2
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.F732DE9D8A43690C4
   L7_2 = L7_2(L8_2)
@@ -601,27 +582,24 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36A4CEED03758051"]["prototype"]
-L69_1 = "F464C38AFE39868E2"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineSequence.BuyDecideSequence
+function C36A4CEED03758051_prototype:F464C38AFE39868E2(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.S84E00A89DFBC380C
   L2_2()
-  L3_2 = A0_2
-  L2_2 = A0_2.F4CD4E22510B9F14F
+  L3_2 = self
+  L2_2 = self.F4CD4E22510B9F14F
   L4_2 = false
   L2_2(L3_2, L4_2)
   L2_2 = -1 * A1_2
-  L3_2 = A0_2[1]
+  L3_2 = self[1]
   L4_2 = L3_2
   L3_2 = L3_2.F732DE9D8A43690C4
   L3_2 = L3_2(L4_2)
   L2_2 = L2_2 * L3_2
-  L4_2 = A0_2
-  L3_2 = A0_2.FC036CFA3B72706AD
+  L4_2 = self
+  L3_2 = self.FC036CFA3B72706AD
   L3_2(L4_2)
   L3_2 = CCD22EFED4E9E5F89
   L3_2 = L3_2.SAA2A94132854787E
@@ -629,7 +607,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = L2_2
   L3_2(L4_2, L5_2)
   L3_2 = 0
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L5_2 = L4_2
   L4_2 = L4_2.F0B5C923DEFA32378
   L4_2 = L4_2(L5_2)
@@ -642,13 +620,13 @@ function L70_1(A0_2, A1_2)
     L6_2 = L6_2()
     L7_2 = L6_2
     L6_2 = L6_2.FE027A297CCA14276
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L9_2 = L8_2
     L8_2 = L8_2.F0B5C923DEFA32378
     L8_2 = L8_2(L9_2)
     L8_2 = L8_2[L5_2]
     L8_2 = L8_2.ID
-    L9_2 = A0_2[1]
+    L9_2 = self[1]
     L10_2 = L9_2
     L9_2 = L9_2.F0B5C923DEFA32378
     L9_2 = L9_2(L10_2)
@@ -662,7 +640,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = L5_2()
   L6_2 = L5_2
   L5_2 = L5_2.FB01A9B29CD4CC6CB
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.FF90F33FEF3B10F27
   L7_2 = L7_2(L8_2)
@@ -679,7 +657,7 @@ function L70_1(A0_2, A1_2)
   L5_2 = cDDCCFBA7
   L5_2 = L5_2.fFA7FBE0B
   L6_2 = 237
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.FF90F33FEF3B10F27
   L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L7_2(L8_2)
@@ -701,10 +679,10 @@ function L70_1(A0_2, A1_2)
   L5_2(L6_2, L7_2)
   L5_2 = false
   if 1 == A1_2 then
-    L6_2 = A0_2[5]
+    L6_2 = self[5]
     L7_2 = L6_2
     L6_2 = L6_2.FFB18578A36894DD9
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L9_2 = L8_2
     L8_2 = L8_2.FEDD8CA766B7AB646
     L8_2, L9_2, L10_2, L11_2, L12_2, L13_2 = L8_2(L9_2)
@@ -712,8 +690,8 @@ function L70_1(A0_2, A1_2)
     if L6_2 then
       L6_2 = CD5DBC535B260435A
       L6_2 = L6_2.new
-      L7_2 = A0_2[1]
-      L8_2 = A0_2[5]
+      L7_2 = self[1]
+      L8_2 = self[5]
       L6_2 = L6_2(L7_2, L8_2)
       L8_2 = L6_2
       L7_2 = L6_2.F1DE3C0D07B43F2E1
@@ -722,7 +700,7 @@ function L70_1(A0_2, A1_2)
       L8_2 = L6_2
       L7_2 = L6_2.FC32629F8D30E8691
       L7_2 = L7_2(L8_2)
-      A0_2[7] = L7_2
+      self[7] = L7_2
     end
   end
   if not L5_2 then
@@ -736,12 +714,12 @@ function L70_1(A0_2, A1_2)
     L8_2 = L6_2
     L7_2 = L6_2.fCB6BF1D5
     L9_2 = 1
-    L10_2 = A0_2[1]
+    L10_2 = self[1]
     L11_2 = L10_2
     L10_2 = L10_2.FEDD8CA766B7AB646
     L10_2, L11_2, L12_2, L13_2 = L10_2(L11_2)
     L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
-    L7_2 = A0_2[1]
+    L7_2 = self[1]
     L8_2 = L7_2
     L7_2 = L7_2.FF90F33FEF3B10F27
     L7_2 = L7_2(L8_2)
@@ -829,7 +807,7 @@ function L70_1(A0_2, A1_2)
     L6_2 = L6_2()
     L7_2 = L6_2
     L6_2 = L6_2.FE027A297CCA14276
-    L8_2 = A0_2[1]
+    L8_2 = self[1]
     L9_2 = L8_2
     L8_2 = L8_2.FF90F33FEF3B10F27
     L8_2 = L8_2(L9_2)
@@ -878,11 +856,8 @@ function L70_1(A0_2, A1_2)
   L8_2()
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36A4CEED03758051"]["prototype"]
-L69_1 = "FB23B4B1D04B31DF8"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineSequence.NumLayoutUpdate
+function C36A4CEED03758051_prototype:FB23B4B1D04B31DF8(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L2_2 = 0
   L3_2 = C828F047963375FA0
@@ -910,7 +885,7 @@ function L70_1(A0_2, A1_2)
   L7_2 = "shop_waza_12_02"
   L5_2, L6_2, L7_2, L8_2, L9_2 = L5_2(L6_2, L7_2)
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.FC8489078C201C47F
   L4_2 = L4_2(L5_2)
@@ -921,13 +896,10 @@ function L70_1(A0_2, A1_2)
   L4_2(L5_2, L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36A4CEED03758051"]["prototype"]
-L69_1 = "F53EE597E2BD106F8"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineSequence.PlayAnimeUp
+function C36A4CEED03758051_prototype:F53EE597E2BD106F8()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.F748A3DCD68216D1D
   L3_2 = "L_num_00/L_arrow_00/key_up"
@@ -938,13 +910,10 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36A4CEED03758051"]["prototype"]
-L69_1 = "FF35E85408B7BEE2D"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineSequence.PlayAnimeDown
+function C36A4CEED03758051_prototype:FF35E85408B7BEE2D()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.F748A3DCD68216D1D
   L3_2 = "L_num_00/L_arrow_00/key_down"
@@ -955,13 +924,10 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36A4CEED03758051"]["prototype"]
-L69_1 = "F4CD4E22510B9F14F"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineSequence.SetNumLayoutVisible
+function C36A4CEED03758051_prototype:F4CD4E22510B9F14F(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.FA23D39922B76B247
   L4_2 = "N_num_00"
@@ -969,20 +935,17 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C36A4CEED03758051"]["prototype"]
-L69_1 = "FC036CFA3B72706AD"
-
-function L70_1(A0_2)
+--- main.ui.shop_wazamachine.view.buy.ShopWazamachineSequence.PlayCreateAnime
+function C36A4CEED03758051_prototype:FC036CFA3B72706AD()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2
-  L1_2 = A0_2[5]
+  L1_2 = self[5]
   L2_2 = L1_2
   L1_2 = L1_2.F7707A3501A92CA85
   L1_2 = L1_2(L2_2)
   if L1_2 then
     return
   end
-  L1_2 = A0_2[2]
+  L1_2 = self[2]
   L2_2 = L1_2
   L1_2 = L1_2.FA23D39922B76B247
   L3_2 = "L_make_01"
@@ -993,13 +956,13 @@ function L70_1(A0_2)
   while L1_2 < 3 do
     L1_2 = L1_2 + 1
     L3_2 = L1_2 - 1
-    L4_2 = A0_2[1]
+    L4_2 = self[1]
     L5_2 = L4_2
     L4_2 = L4_2.F0B5C923DEFA32378
     L4_2 = L4_2(L5_2)
     L4_2 = L4_2.length
     L4_2 = L3_2 < L4_2
-    L5_2 = A0_2[2]
+    L5_2 = self[2]
     L6_2 = L5_2
     L5_2 = L5_2.FA23D39922B76B247
     L7_2 = L31_1.string
@@ -1022,13 +985,13 @@ function L70_1(A0_2)
     L8_2 = L4_2
     L5_2(L6_2, L7_2, L8_2)
     if false ~= L4_2 then
-      L5_2 = A0_2[2]
+      L5_2 = self[2]
       L6_2 = L5_2
       L5_2 = L5_2.F8DF8314F1AE486E3
       L7_2 = 19 + L3_2
       L8_2 = C2E8D016DD410D06A
       L8_2 = L8_2.SBD8846F9EF675F4A
-      L9_2 = A0_2[1]
+      L9_2 = self[1]
       L10_2 = L9_2
       L9_2 = L9_2.F0B5C923DEFA32378
       L9_2 = L9_2(L10_2)
@@ -1043,24 +1006,24 @@ function L70_1(A0_2)
       break
     end
   end
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.FF32CC3BE322652A8
   L5_2 = "L_make_01/type_color"
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L7_2 = L6_2
   L6_2 = L6_2.F8AFE3363E022B179
   L6_2 = L6_2(L7_2)
   L6_2 = L6_2 - 1
   L3_2(L4_2, L5_2, L6_2)
   L3_2 = 0
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.F748A3DCD68216D1D
   L6_2 = "L_make_01/manufacture"
   L4_2(L5_2, L6_2)
   while true do
-    L4_2 = A0_2[2]
+    L4_2 = self[2]
     L5_2 = L4_2
     L4_2 = L4_2.F810D8446A8612992
     L6_2 = "L_make_01/manufacture"
@@ -1073,7 +1036,7 @@ function L70_1(A0_2)
     L4_2 = L4_2.S760DAE4C5371A78E
     L4_2()
     if 22 == L3_2 then
-      L4_2 = A0_2[5]
+      L4_2 = self[5]
       L5_2 = L4_2
       L4_2 = L4_2.FDFE68541BA858A24
       L4_2(L5_2)
@@ -1082,14 +1045,14 @@ function L70_1(A0_2)
       L5_2 = "PLAY_UI_TECHNIQUE_MACHINE_AT_TIME_OF_PURCHASE"
       L4_2(L5_2)
     elseif 37 == L3_2 then
-      L4_2 = A0_2[5]
+      L4_2 = self[5]
       L5_2 = L4_2
       L4_2 = L4_2.FA7D72730045DD73C
-      L6_2 = A0_2[1]
+      L6_2 = self[1]
       L4_2(L5_2, L6_2)
     end
   end
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = L4_2
   L4_2 = L4_2.FA23D39922B76B247
   L6_2 = "L_make_01"

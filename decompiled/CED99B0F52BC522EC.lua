@@ -1,3 +1,5 @@
+---@class CED99B0F52BC522EC : CED99B0F52BC522EC_prototype
+---@field prototype CED99B0F52BC522EC_prototype
 L55_1 = _ENV
 L56_1 = "CED99B0F52BC522EC"
 L57_1 = L15_1
@@ -55,28 +57,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CED99B0F52BC522EC"]
 L69_1 = "__name__"
 L70_1 = "CED99B0F52BC522EC"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CED99B0F52BC522EC"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CED99B0F52BC522EC"]["prototype"]
-L69_1 = "FFCE7CBAD163A3D9B"
-
-function L70_1(A0_2)
+---@class CED99B0F52BC522EC_prototype
+CED99B0F52BC522EC_prototype = L15_1()
+CED99B0F52BC522EC.prototype = CED99B0F52BC522EC_prototype
+--- CED99B0F52BC522EC.CloseWindow
+function CED99B0F52BC522EC_prototype:FFCE7CBAD163A3D9B()
   local L1_2
-  A0_2[2] = nil
+  self[2] = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CED99B0F52BC522EC"]["prototype"]
-L69_1 = "F047384F72919CFAF"
-
-function L70_1(A0_2, A1_2)
+--- CED99B0F52BC522EC.ForceOtherUpdate
+function CED99B0F52BC522EC_prototype:F047384F72919CFAF(A1_2)
   local L2_2
   L2_2 = A1_2[1]
-  A0_2[11] = L2_2
+  self[11] = L2_2
 end
 
 L68_1[L69_1] = L70_1

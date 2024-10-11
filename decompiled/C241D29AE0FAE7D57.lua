@@ -1,3 +1,7 @@
+---@alias C241D29AE0FAE7D57 main_event_popup_window_PopupWindowManagerCommonInfo
+
+---@class main_event_popup_window_PopupWindowManagerCommonInfo : C241D29AE0FAE7D57_prototype
+---@field prototype C241D29AE0FAE7D57_prototype
 L55_1 = _ENV
 L56_1 = "C241D29AE0FAE7D57"
 L57_1 = L15_1
@@ -42,28 +46,20 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C241D29AE0FAE7D57"]
 L69_1 = "__name__"
 L70_1 = "C241D29AE0FAE7D57"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C241D29AE0FAE7D57"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C241D29AE0FAE7D57"]["prototype"]
-L69_1 = "F43922B7A4DEB49D7"
-
-function L70_1(A0_2)
+---@class C241D29AE0FAE7D57_prototype
+C241D29AE0FAE7D57_prototype = L15_1()
+C241D29AE0FAE7D57.prototype = C241D29AE0FAE7D57_prototype
+--- main.event.popup_window.PopupWindowManagerCommonInfo.get_Camera
+function C241D29AE0FAE7D57_prototype:F43922B7A4DEB49D7()
   local L1_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C241D29AE0FAE7D57"]["prototype"]
-L69_1 = "FCD7E4ADEF365E153"
-
-function L70_1(A0_2, A1_2)
+--- main.event.popup_window.PopupWindowManagerCommonInfo.GetVisibility
+function C241D29AE0FAE7D57_prototype:FCD7E4ADEF365E153(A1_2)
   local L2_2, L3_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L47_1.tnull
@@ -74,13 +70,10 @@ function L70_1(A0_2, A1_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C241D29AE0FAE7D57"]["prototype"]
-L69_1 = "F1C56CB8B17C3C6E5"
-
-function L70_1(A0_2, A1_2)
+--- main.event.popup_window.PopupWindowManagerCommonInfo.PausePopup
+function C241D29AE0FAE7D57_prototype:F1C56CB8B17C3C6E5(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L3_2 = L2_2.h
   L3_2 = L3_2[A1_2]
   L4_2 = L47_1.tnull
@@ -99,13 +92,10 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C241D29AE0FAE7D57"]["prototype"]
-L69_1 = "F5E36038217D263BC"
-
-function L70_1(A0_2, A1_2)
+--- main.event.popup_window.PopupWindowManagerCommonInfo.ResumePopup
+function C241D29AE0FAE7D57_prototype:F5E36038217D263BC(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L47_1.tnull
@@ -117,7 +107,7 @@ function L70_1(A0_2, A1_2)
   L4_2 = L2_2 - 1
   L5_2 = 0
   L3_2 = L3_2(L4_2, L5_2)
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   L5_2 = A1_2
   if nil == L3_2 then
     L6_2 = L4_2.h

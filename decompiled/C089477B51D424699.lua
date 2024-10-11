@@ -1,3 +1,7 @@
+---@alias C089477B51D424699 main_field_behaviour_module_AnimationHandleModule
+
+---@class main_field_behaviour_module_AnimationHandleModule : C089477B51D424699_prototype
+---@field prototype C089477B51D424699_prototype
 L55_1 = _ENV
 L56_1 = "C089477B51D424699"
 L57_1 = L15_1
@@ -49,55 +53,44 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C089477B51D424699"]
 L69_1 = "__name__"
 L70_1 = "C089477B51D424699"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C089477B51D424699"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C089477B51D424699"]["prototype"]
-L69_1 = "FDE936FBEA33F3A78"
-
-function L70_1(A0_2, A1_2)
+---@class C089477B51D424699_prototype
+C089477B51D424699_prototype = L15_1()
+C089477B51D424699.prototype = C089477B51D424699_prototype
+--- main.field.behaviour.module.AnimationHandleModule.RegisterListener
+function C089477B51D424699_prototype:FDE936FBEA33F3A78(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   L3_2 = L2_2
   L2_2 = L2_2.push
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = A0_2[3]
+  L2_2 = self[3]
   L3_2 = EAD246EF28384B86B
   L3_2 = L3_2.Success
   if L2_2 == L3_2 then
     L3_2 = A1_2
     L2_2 = A1_2.FBDA51D3CC289A015
-    L4_2 = A0_2
+    L4_2 = self
     L2_2(L3_2, L4_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C089477B51D424699"]["prototype"]
-L69_1 = "F1FA38A96C7E9B31B"
-
-function L70_1(A0_2, A1_2)
+--- main.field.behaviour.module.AnimationHandleModule.UnregisterListener
+function C089477B51D424699_prototype:F1FA38A96C7E9B31B(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[9]
+  L2_2 = self[9]
   L3_2 = L2_2
   L2_2 = L2_2.remove
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C089477B51D424699"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+--- main.field.behaviour.module.AnimationHandleModule.onSetup
+function C089477B51D424699_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L1_2 = c44F58C26
   L1_2 = L1_2.fFA4E39DA
-  L2_2 = A0_2[2]
+  L2_2 = self[2]
   L2_2 = L2_2[2]
   L1_2 = L1_2(L2_2)
   L2_2 = nil
@@ -139,25 +132,25 @@ function L70_1(A0_2)
     L5_2 = L5_2.Continue
     return L5_2
   else
-    A0_2[7] = L1_2
+    self[7] = L1_2
     L6_2 = L3_2
     L5_2 = L3_2.f6E6E0F5F
     L7_2 = L55_1
-    L8_2 = A0_2[8]
-    L9_2 = A0_2[8]
+    L8_2 = self[8]
+    L9_2 = self[8]
     L9_2 = L9_2.F3EE8B556227ADDA7
     L7_2, L8_2, L9_2, L10_2 = L7_2(L8_2, L9_2)
     L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
     L6_2 = L3_2
     L5_2 = L3_2.f337678CA
     L7_2 = L55_1
-    L8_2 = A0_2[8]
-    L9_2 = A0_2[8]
+    L8_2 = self[8]
+    L9_2 = self[8]
     L9_2 = L9_2.F8DE9C5FFA0D813D6
     L7_2, L8_2, L9_2, L10_2 = L7_2(L8_2, L9_2)
     L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
     L5_2 = 0
-    L6_2 = A0_2[9]
+    L6_2 = self[9]
     while true do
       L7_2 = L6_2.length
       if not (L5_2 < L7_2) then
@@ -167,7 +160,7 @@ function L70_1(A0_2)
       L5_2 = L5_2 + 1
       L9_2 = L7_2
       L8_2 = L7_2.FBDA51D3CC289A015
-      L10_2 = A0_2
+      L10_2 = self
       L8_2(L9_2, L10_2)
     end
     L7_2 = EAD246EF28384B86B

@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CB25356D64FCF9465"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CB25356D64FCF9465"]
-L69_1 = "new"
+---@alias CB25356D64FCF9465 main_evolution_EvolutionInputParam
 
-function L70_1()
+---@class main_evolution_EvolutionInputParam : CB25356D64FCF9465_prototype
+---@field prototype CB25356D64FCF9465_prototype
+CB25356D64FCF9465 = L15_1()
+function CB25356D64FCF9465.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = CB25356D64FCF9465
@@ -21,19 +18,12 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB25356D64FCF9465"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 CB25356D64FCF9465
+function CB25356D64FCF9465.super(A0_2)
   local L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB25356D64FCF9465"]
-L69_1 = "__name__"
-L70_1 = "CB25356D64FCF9465"
-L68_1[L69_1] = L70_1
+CB25356D64FCF9465.__name__ = "CB25356D64FCF9465"
 L68_1 = _ENV["CB25356D64FCF9465"]
 L69_1 = "S90AAF1B8EF86E213"
 
@@ -52,11 +42,8 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB25356D64FCF9465"]
-L69_1 = "S6524F63396204884"
-
-function L70_1(A0_2)
+--- main.evolution.EvolutionInputParam.FromUnitParam
+function CB25356D64FCF9465.S6524F63396204884(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CB25356D64FCF9465
   L1_2 = L1_2.new
@@ -78,11 +65,9 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CB25356D64FCF9465"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
+---@class CB25356D64FCF9465_prototype
+CB25356D64FCF9465_prototype = L15_1()
+CB25356D64FCF9465.prototype = CB25356D64FCF9465_prototype
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CB25356D64FCF9465"]["prototype"]
 L69_1 = _ENV["CB25356D64FCF9465"]

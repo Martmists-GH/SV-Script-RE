@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "CACF8731008B48C5B"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CACF8731008B48C5B"]
-L69_1 = "new"
+---@alias CACF8731008B48C5B main_event_general_notride_NarrowNotRideEvent
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class main_event_general_notride_NarrowNotRideEvent : CACF8731008B48C5B_prototype
+---@field prototype CACF8731008B48C5B_prototype
+CACF8731008B48C5B = L15_1()
+function CACF8731008B48C5B.new(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = CACF8731008B48C5B
@@ -25,11 +22,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CACF8731008B48C5B"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@param A0_2 CACF8731008B48C5B
+function CACF8731008B48C5B.super(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L5_2 = C20F5CD372AAAA08C
   L5_2 = L5_2.super
@@ -41,11 +35,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CACF8731008B48C5B"]
-L69_1 = "__name__"
-L70_1 = "CACF8731008B48C5B"
-L68_1[L69_1] = L70_1
+CACF8731008B48C5B.__name__ = "CACF8731008B48C5B"
 L68_1 = _ENV["CACF8731008B48C5B"]
 L69_1 = "S0D94913C9502A358"
 
@@ -55,16 +45,11 @@ function L70_1()
   L0_2.S65A078CD08E1CAB6 = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CACF8731008B48C5B"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CACF8731008B48C5B"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+---@class CACF8731008B48C5B_prototype
+CACF8731008B48C5B_prototype = L15_1()
+CACF8731008B48C5B.prototype = CACF8731008B48C5B_prototype
+--- main.event.general.notride.NarrowNotRideEvent.mainBody
+function CACF8731008B48C5B_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L1_2 = CACF8731008B48C5B
   L1_2 = L1_2.S65A078CD08E1CAB6
@@ -80,13 +65,13 @@ function L70_1(A0_2)
   function L2_2()
     local L0_3, L1_3
     L0_3 = nil
-    L1_3 = A0_2
+    L1_3 = self
     L1_3 = L1_3[32]
     L1_3 = L1_3.isProhibitArea
     if nil == L1_3 then
       L0_3 = false
     else
-      L1_3 = A0_2
+      L1_3 = self
       L1_3 = L1_3[32]
       L0_3 = L1_3.isProhibitArea
     end
@@ -234,11 +219,8 @@ function L70_1(A0_2)
   L6_2(L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CACF8731008B48C5B"]["prototype"]
-L69_1 = "F4E09538E8F109EC2"
-
-function L70_1(A0_2, A1_2)
+--- main.event.general.notride.NarrowNotRideEvent.onInterrupted
+function CACF8731008B48C5B_prototype:F4E09538E8F109EC2(A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = L52_1.__instanceof
   L3_2 = A1_2

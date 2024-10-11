@@ -1,3 +1,5 @@
+---@class C4C3C30F441AA7BB5 : C4C3C30F441AA7BB5_prototype
+---@field prototype C4C3C30F441AA7BB5_prototype
 L55_1 = _ENV
 L56_1 = "C4C3C30F441AA7BB5"
 L57_1 = L15_1
@@ -43,18 +45,13 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C4C3C30F441AA7BB5"]
 L69_1 = "__name__"
 L70_1 = "C4C3C30F441AA7BB5"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C3C30F441AA7BB5"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C3C30F441AA7BB5"]["prototype"]
-L69_1 = "F22C7B81A049FA20D"
-
-function L70_1(A0_2)
+---@class C4C3C30F441AA7BB5_prototype
+C4C3C30F441AA7BB5_prototype = L15_1()
+C4C3C30F441AA7BB5.prototype = C4C3C30F441AA7BB5_prototype
+--- C4C3C30F441AA7BB5.onSetup
+function C4C3C30F441AA7BB5_prototype:F22C7B81A049FA20D()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2[1]
+  L1_2 = self[1]
   L2_2 = cE35B3EB3
   L2_2 = L2_2.fB41FD22F
   
@@ -72,15 +69,15 @@ function L70_1(A0_2)
   
   L3_2, L4_2, L5_2, L6_2 = L3_2()
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2)
-  A0_2[10] = L2_2
+  self[10] = L2_2
   L2_2 = nil
   L3_2 = cE35B3EB3
   L3_2 = L3_2.f67745D00
-  L4_2 = A0_2[10]
+  L4_2 = self[10]
   L5_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2)
   if L3_2 then
-    L3_2 = A0_2[10]
+    L3_2 = self[10]
     L4_2 = L3_2
     L3_2 = L3_2.fF56461AF
     L3_2 = L3_2(L4_2)
@@ -96,20 +93,17 @@ function L70_1(A0_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C4C3C30F441AA7BB5"]["prototype"]
-L69_1 = "F1993A419B4083AE8"
-
-function L70_1(A0_2)
+--- C4C3C30F441AA7BB5.onPreUpdate
+function C4C3C30F441AA7BB5_prototype:F1993A419B4083AE8()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2[11]
+  L1_2 = self[11]
   if L1_2 > 0 then
-    L1_2 = A0_2[11]
+    L1_2 = self[11]
     L1_2 = L1_2 - 1
-    A0_2[11] = L1_2
-    L1_2 = A0_2[11]
+    self[11] = L1_2
+    L1_2 = self[11]
     if L1_2 <= 0 then
-      L1_2 = A0_2[10]
+      L1_2 = self[10]
       L2_2 = L1_2
       L1_2 = L1_2.fF56461AF
       L1_2 = L1_2(L2_2)

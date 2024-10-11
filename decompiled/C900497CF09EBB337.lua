@@ -1,12 +1,9 @@
-L55_1 = _ENV
-L56_1 = "C900497CF09EBB337"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C900497CF09EBB337"]
-L69_1 = "new"
+---@alias C900497CF09EBB337 main_event_general_paralleled_ParallelSyncPlayerEventCollision
 
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+---@class main_event_general_paralleled_ParallelSyncPlayerEventCollision : C900497CF09EBB337_prototype
+---@field prototype C900497CF09EBB337_prototype
+C900497CF09EBB337 = L15_1()
+function C900497CF09EBB337.new(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L4_2 = L2_1
   L5_2 = C900497CF09EBB337
@@ -25,11 +22,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C900497CF09EBB337"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+---@param A0_2 C900497CF09EBB337
+function C900497CF09EBB337.super(A0_2, A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L5_2 = C1A60972875EFA3B6
   L5_2 = L5_2.super
@@ -41,11 +35,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C900497CF09EBB337"]
-L69_1 = "__name__"
-L70_1 = "C900497CF09EBB337"
-L68_1[L69_1] = L70_1
+C900497CF09EBB337.__name__ = "C900497CF09EBB337"
 L68_1 = _ENV["C900497CF09EBB337"]
 L69_1 = "SFCE091807173F6E9"
 
@@ -57,26 +47,18 @@ function L70_1()
   L0_2(L1_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C900497CF09EBB337"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C900497CF09EBB337"]["prototype"]
-L69_1 = "FC87C731D11C58354"
-
-function L70_1(A0_2)
+---@class C900497CF09EBB337_prototype
+C900497CF09EBB337_prototype = L15_1()
+C900497CF09EBB337.prototype = C900497CF09EBB337_prototype
+--- main.event.general.paralleled.ParallelSyncPlayerEventCollision.onCreate
+function C900497CF09EBB337_prototype:FC87C731D11C58354()
   local L1_2
-  L1_2 = A0_2[22]
+  L1_2 = self[22]
   L1_2.disablePopupPause = true
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C900497CF09EBB337"]["prototype"]
-L69_1 = "FD8D5F3745B4B5174"
-
-function L70_1(A0_2)
+--- main.event.general.paralleled.ParallelSyncPlayerEventCollision.mainBody
+function C900497CF09EBB337_prototype:FD8D5F3745B4B5174()
   local L1_2, L2_2, L3_2
   while true do
     L1_2 = C8709626B0501555D

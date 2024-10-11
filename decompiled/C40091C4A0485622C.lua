@@ -1,3 +1,5 @@
+---@class C40091C4A0485622C : C40091C4A0485622C_prototype
+---@field prototype C40091C4A0485622C_prototype
 L55_1 = _ENV
 L56_1 = "C40091C4A0485622C"
 L57_1 = L15_1
@@ -43,40 +45,32 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C40091C4A0485622C"]
 L69_1 = "__name__"
 L70_1 = "C40091C4A0485622C"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40091C4A0485622C"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40091C4A0485622C"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class C40091C4A0485622C_prototype
+C40091C4A0485622C_prototype = L15_1()
+C40091C4A0485622C.prototype = C40091C4A0485622C_prototype
+--- C40091C4A0485622C.Setup
+function C40091C4A0485622C_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2
   L2_2 = CF67A67452D018ECC
   L2_2 = L2_2.SC8223E31D3163519
   L3_2 = L2_2[5]
   L3_2 = L3_2.length
   L3_2 = L3_2 > 0
-  A0_2[2] = L3_2
+  self[2] = L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C40091C4A0485622C"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- C40091C4A0485622C.PreUpdate
+function C40091C4A0485622C_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = CF67A67452D018ECC
   L2_2 = L2_2.SC8223E31D3163519
   L3_2 = L2_2[5]
   L3_2 = L3_2.length
   L3_2 = L3_2 > 0
-  L4_2 = A0_2[2]
+  L4_2 = self[2]
   if L4_2 ~= L3_2 then
-    A0_2[2] = L3_2
-    L4_2 = A0_2[2]
+    self[2] = L3_2
+    L4_2 = self[2]
     if not L4_2 then
       L4_2 = C2633CF9260C5FBEB
       L4_2 = L4_2.S1B70683A427A676E

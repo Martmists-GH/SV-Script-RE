@@ -1,12 +1,7 @@
-L55_1 = _ENV
-L56_1 = "C3861C27645A99F02"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C3861C27645A99F02"]
-L69_1 = "new"
-
-function L70_1()
+---@class C3861C27645A99F02 : C3861C27645A99F02_prototype
+---@field prototype C3861C27645A99F02_prototype
+C3861C27645A99F02 = L15_1()
+function C3861C27645A99F02.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C3861C27645A99F02
@@ -21,11 +16,8 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3861C27645A99F02"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+---@param A0_2 C3861C27645A99F02
+function C3861C27645A99F02.super(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2
   L1_2 = L26_1.new
   L1_2 = L1_2()
@@ -45,11 +37,7 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3861C27645A99F02"]
-L69_1 = "__name__"
-L70_1 = "C3861C27645A99F02"
-L68_1[L69_1] = L70_1
+C3861C27645A99F02.__name__ = "C3861C27645A99F02"
 L68_1 = _ENV["C3861C27645A99F02"]
 L69_1 = "S10C906E346851839"
 
@@ -103,16 +91,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3861C27645A99F02"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3861C27645A99F02"]["prototype"]
-L69_1 = "F1ADEB4B072F9E27F"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class C3861C27645A99F02_prototype
+C3861C27645A99F02_prototype = L15_1()
+C3861C27645A99F02.prototype = C3861C27645A99F02_prototype
+--- C3861C27645A99F02.F1ADEB4B072F9E27F
+function C3861C27645A99F02_prototype:F1ADEB4B072F9E27F(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   L3_2 = nil
   L4_2 = nil
@@ -176,11 +159,8 @@ function L70_1(A0_2, A1_2, A2_2)
   return L3_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C3861C27645A99F02"]["prototype"]
-L69_1 = "FCD3CB1FDBE700EA1"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
+--- C3861C27645A99F02.FCD3CB1FDBE700EA1
+function C3861C27645A99F02_prototype:FCD3CB1FDBE700EA1(A1_2, A2_2, A3_2, A4_2)
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2, L51_2, L52_2, L53_2, L54_2, L55_2, L56_2, L57_2, L58_2, L59_2, L60_2, L61_2, L62_2, L63_2, L64_2, L65_2, L66_2, L67_2, L68_2, L69_2
   L5_2 = c95DC25DB
   L5_2 = L5_2.f544F902B
@@ -356,8 +336,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       L44_2 = L41_2
       L42_2 = L42_2(L43_2, L44_2)
       if not L42_2 then
-        L43_2 = A0_2
-        L42_2 = A0_2.F1ADEB4B072F9E27F
+        L43_2 = self
+        L42_2 = self.F1ADEB4B072F9E27F
         L44_2 = L40_2
         L45_2 = A1_2
         L42_2 = L42_2(L43_2, L44_2, L45_2)
@@ -458,8 +438,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     L41_2 = L38_2
     L39_2 = L39_2(L40_2, L41_2)
     if not L39_2 then
-      L40_2 = A0_2
-      L39_2 = A0_2.F1ADEB4B072F9E27F
+      L40_2 = self
+      L39_2 = self.F1ADEB4B072F9E27F
       L41_2 = L37_2
       L42_2 = A1_2
       L39_2 = L39_2(L40_2, L41_2, L42_2)
@@ -600,8 +580,8 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
         L46_2 = L43_2
         L44_2 = L44_2(L45_2, L46_2)
         if not L44_2 then
-          L45_2 = A0_2
-          L44_2 = A0_2.F1ADEB4B072F9E27F
+          L45_2 = self
+          L44_2 = self.F1ADEB4B072F9E27F
           L46_2 = L42_2
           L47_2 = A1_2
           L44_2 = L44_2(L45_2, L46_2, L47_2)
@@ -666,7 +646,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     end
   end
   L36_2 = 0
-  L37_2 = A0_2[1]
+  L37_2 = self[1]
   while true do
     L38_2 = L37_2.length
     if not (L36_2 < L38_2) then
@@ -687,7 +667,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
       L41_2 = L40_2.stationID
       L42_2 = L40_2.object
       L43_2 = L40_2.isAttack
-      L44_2 = A0_2[1]
+      L44_2 = self[1]
       L44_2 = L44_2.length
       L45_2 = L44_2 < 0
       
@@ -712,20 +692,20 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
         break
       end
       if L43_2 then
-        L46_2 = A0_2[1]
+        L46_2 = self[1]
         L46_2 = L46_2[L41_2]
         L47_2 = L46_2
         L46_2 = L46_2.F0931430372BCA1D5
         L46_2(L47_2)
       else
-        L46_2 = A0_2[1]
+        L46_2 = self[1]
         L46_2 = L46_2[L41_2]
         L47_2 = L46_2
         L46_2 = L46_2.F7AC4BA2EA128FC4D
         L46_2(L47_2)
       end
       if L43_2 then
-        L46_2 = A0_2[1]
+        L46_2 = self[1]
         L46_2 = L46_2[L41_2]
         L47_2 = L46_2
         L46_2 = L46_2.FBE3FA0543E39802B
@@ -849,7 +829,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
         L64_2 = L64_2 - L61_2
         L65_2 = L46_2[3]
         L65_2 = L65_2 - L62_2
-        L66_2 = A0_2[1]
+        L66_2 = self[1]
         L66_2 = L66_2[L41_2]
         L67_2 = L66_2
         L66_2 = L66_2.FE12B3762BE7E7653
@@ -915,7 +895,7 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2)
     end
   end
   L40_2 = 0
-  L41_2 = A0_2[1]
+  L41_2 = self[1]
   while true do
     L42_2 = L41_2.length
     if not (L40_2 < L42_2) then

@@ -1,3 +1,7 @@
+---@alias C08DAA2459C3B73ED main_system_prohibit_ProhibitNode
+
+---@class main_system_prohibit_ProhibitNode : C08DAA2459C3B73ED_prototype
+---@field prototype C08DAA2459C3B73ED_prototype
 L55_1 = _ENV
 L56_1 = "C08DAA2459C3B73ED"
 L57_1 = L15_1
@@ -48,16 +52,11 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C08DAA2459C3B73ED"]
 L69_1 = "__name__"
 L70_1 = "C08DAA2459C3B73ED"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08DAA2459C3B73ED"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08DAA2459C3B73ED"]["prototype"]
-L69_1 = "F6C8DDC9A268EFAD5"
-
-function L70_1(A0_2, A1_2, A2_2)
+---@class C08DAA2459C3B73ED_prototype
+C08DAA2459C3B73ED_prototype = L15_1()
+C08DAA2459C3B73ED.prototype = C08DAA2459C3B73ED_prototype
+--- main.system.prohibit.ProhibitNode.CreateChild
+function C08DAA2459C3B73ED_prototype:F6C8DDC9A268EFAD5(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = L10_1.string
   L3_2 = L3_2.find
@@ -88,11 +87,11 @@ function L70_1(A0_2, A1_2, A2_2)
     L4_2 = nil
     return L4_2
   end
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L4_2 = L4_2.h
   L4_2 = L4_2[A1_2]
   if nil ~= L4_2 then
-    L4_2 = A0_2[5]
+    L4_2 = self[5]
     L4_2 = L4_2.h
     L4_2 = L4_2[A1_2]
     L5_2 = L47_1.tnull
@@ -103,12 +102,12 @@ function L70_1(A0_2, A1_2, A2_2)
   end
   L4_2 = C08DAA2459C3B73ED
   L4_2 = L4_2.new
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = A1_2
-  L7_2 = A0_2
+  L7_2 = self
   L8_2 = A2_2
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   if nil == L4_2 then
     L6_2 = L5_2.h
     L7_2 = L47_1.tnull
@@ -117,18 +116,18 @@ function L70_1(A0_2, A1_2, A2_2)
     L6_2 = L5_2.h
     L6_2[A1_2] = L4_2
   end
-  L6_2 = A0_2[6]
+  L6_2 = self[6]
   L7_2 = L6_2
   L6_2 = L6_2.push
   L8_2 = L4_2
   L6_2(L7_2, L8_2)
-  L6_2 = A0_2[1]
+  L6_2 = self[1]
   L6_2 = L6_2[4]
   L7_2 = L6_2.h
   L7_2[L4_2] = L4_2
   L7_2 = L6_2.k
   L7_2[L4_2] = true
-  L7_2 = A0_2[1]
+  L7_2 = self[1]
   L8_2 = L7_2
   L7_2 = L7_2.FD7C94165931580CC
   L9_2 = L4_2
@@ -136,19 +135,16 @@ function L70_1(A0_2, A1_2, A2_2)
   return L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08DAA2459C3B73ED"]["prototype"]
-L69_1 = "F605C41A086E2A75D"
-
-function L70_1(A0_2, A1_2)
+--- main.system.prohibit.ProhibitNode.DestroyChild
+function C08DAA2459C3B73ED_prototype:F605C41A086E2A75D(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   if nil == L2_2 then
     return
   end
-  L2_2 = A0_2[5]
+  L2_2 = self[5]
   L2_2 = L2_2.h
   L2_2 = L2_2[A1_2]
   L3_2 = L47_1.tnull
@@ -175,46 +171,43 @@ function L70_1(A0_2, A1_2)
     L7_2 = L7_2[2]
     L5_2(L6_2, L7_2)
   end
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L6_2 = L5_2
   L5_2 = L5_2.FD7C94165931580CC
   L7_2 = L3_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[1]
+  L5_2 = self[1]
   L5_2 = L5_2[4]
   L6_2 = L5_2
   L5_2 = L5_2.remove
   L7_2 = L3_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L5_2
   L5_2 = L5_2.remove
   L7_2 = A1_2
   L5_2(L6_2, L7_2)
-  L5_2 = A0_2[6]
+  L5_2 = self[6]
   L6_2 = L5_2
   L5_2 = L5_2.remove
   L7_2 = L3_2
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08DAA2459C3B73ED"]["prototype"]
-L69_1 = "F5B98E8D4C251422B"
-
-function L70_1(A0_2, A1_2)
+--- main.system.prohibit.ProhibitNode.SetActivation
+function C08DAA2459C3B73ED_prototype:F5B98E8D4C251422B(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
-  L3_2 = A0_2[7]
+  L2_2 = self
+  L3_2 = self[7]
   if L3_2 ~= A1_2 then
-    L3_2 = A0_2[1]
+    L3_2 = self[1]
     L4_2 = L3_2
     L3_2 = L3_2.FD7C94165931580CC
-    L5_2 = A0_2
+    L5_2 = self
     L3_2(L4_2, L5_2)
     L3_2 = C95BA97B11FCDFE94
     L3_2 = L3_2.SA204011459FF69DC
-    L4_2 = A0_2
+    L4_2 = self
     
     function L5_2(A0_3)
       local L1_3, L2_3, L3_3
@@ -229,16 +222,13 @@ function L70_1(A0_2, A1_2)
     end
     
     L3_2(L4_2, L5_2)
-    A0_2[7] = A1_2
+    self[7] = A1_2
   end
   return A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C08DAA2459C3B73ED"]["prototype"]
-L69_1 = "F7D5F232387BFC900"
-
-function L70_1(A0_2, A1_2)
+--- main.system.prohibit.ProhibitNode.FindChild
+function C08DAA2459C3B73ED_prototype:F7D5F232387BFC900(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2
   L2_2 = L10_1.string
   L2_2 = L2_2.find
@@ -290,14 +280,14 @@ function L70_1(A0_2, A1_2)
     L6_2 = L6_2(L7_2, L8_2, L9_2)
     L4_2 = L6_2
   end
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L5_2 = L5_2.h
   L5_2 = L5_2[L4_2]
   if nil == L5_2 then
     L5_2 = nil
     return L5_2
   end
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L5_2 = L5_2.h
   L5_2 = L5_2[L4_2]
   L6_2 = L47_1.tnull

@@ -1,3 +1,7 @@
+---@alias CCEC7DC2C9A179FC0 main_ui_net_topmenu_state_machine_NetTopMenuRule01State
+
+---@class main_ui_net_topmenu_state_machine_NetTopMenuRule01State : CCEC7DC2C9A179FC0_prototype
+---@field prototype CCEC7DC2C9A179FC0_prototype
 L55_1 = _ENV
 L56_1 = "CCEC7DC2C9A179FC0"
 L57_1 = L15_1
@@ -43,24 +47,19 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CCEC7DC2C9A179FC0"]
 L69_1 = "__name__"
 L70_1 = "CCEC7DC2C9A179FC0"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCEC7DC2C9A179FC0"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCEC7DC2C9A179FC0"]["prototype"]
-L69_1 = "F5BE3D38738EE3C24"
-
-function L70_1(A0_2)
+---@class CCEC7DC2C9A179FC0_prototype
+CCEC7DC2C9A179FC0_prototype = L15_1()
+CCEC7DC2C9A179FC0.prototype = CCEC7DC2C9A179FC0_prototype
+--- main.ui.net_topmenu.state_machine.NetTopMenuRule01State.OnEntry
+function CCEC7DC2C9A179FC0_prototype:F5BE3D38738EE3C24()
   local L1_2, L2_2, L3_2
-  L1_2 = A0_2[6]
+  L1_2 = self[6]
   L2_2 = L1_2
   L1_2 = L1_2.F2FBB004A3763CEBD
   L3_2 = 2
   L1_2 = L1_2(L2_2, L3_2)
-  A0_2[7] = L1_2
-  L1_2 = A0_2[7]
+  self[7] = L1_2
+  L1_2 = self[7]
   L2_2 = L1_2
   L1_2 = L1_2.F88E265ADB86ACC71
   L1_2(L2_2)
@@ -76,14 +75,11 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCEC7DC2C9A179FC0"]["prototype"]
-L69_1 = "FE1B998C2DEC49E51"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_topmenu.state_machine.NetTopMenuRule01State.OnUpdate
+function CCEC7DC2C9A179FC0_prototype:FE1B998C2DEC49E51(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   while true do
-    L2_2 = A0_2[7]
+    L2_2 = self[7]
     L3_2 = L2_2
     L2_2 = L2_2.F02C094ED00192342
     L2_2 = L2_2(L3_2)
@@ -95,7 +91,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = nil
     L2_2(L3_2)
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   L3_2 = L2_2
   L2_2 = L2_2.F7EED485852A4D25F
   L2_2(L3_2)
@@ -109,12 +105,12 @@ function L70_1(A0_2, A1_2)
       if 0 ~= L3_2 then
         break
       end
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L4_2 = L3_2
       L3_2 = L3_2.F1D31464EA6D3B349
       L3_2 = L3_2(L4_2)
       if false == L3_2 then
-        L3_2 = A0_2[7]
+        L3_2 = self[7]
         L4_2 = L3_2
         L3_2 = L3_2.F6FCE9E4187792625
         L5_2 = true
@@ -125,7 +121,7 @@ function L70_1(A0_2, A1_2)
       L4_2 = nil
       L3_2(L4_2)
       L3_2 = C58236754580D39FA
-      L4_2 = A0_2[7]
+      L4_2 = self[7]
       L5_2 = L4_2
       L4_2 = L4_2.FBB34C1C4A8FCD2CE
       L4_2 = L4_2(L5_2)
@@ -159,8 +155,8 @@ function L70_1(A0_2, A1_2)
       L3_2 = C58236754580D39FA
       L3_2 = L3_2.S5CAD6CECFEAAFE46
       if 1 == L3_2 then
-        L4_2 = A0_2
-        L3_2 = A0_2.F2B06B73B3BFA07CE
+        L4_2 = self
+        L3_2 = self.F2B06B73B3BFA07CE
         L5_2 = C58236754580D39FA
         L5_2 = L5_2.S5CAD6CECFEAAFE46
         L3_2 = L3_2(L4_2, L5_2)
@@ -178,11 +174,11 @@ function L70_1(A0_2, A1_2)
       L3_2 = C58236754580D39FA
       L3_2 = L3_2.S5CAD6CECFEAAFE46
       if 2 == L3_2 then
-        L4_2 = A0_2
-        L3_2 = A0_2.F8B731C767AC3D2D6
+        L4_2 = self
+        L3_2 = self.F8B731C767AC3D2D6
         L3_2 = L3_2(L4_2)
         if L3_2 then
-          L3_2 = A0_2[7]
+          L3_2 = self[7]
           L4_2 = L3_2
           L3_2 = L3_2.F70451A8F9B9FE19E
           L3_2(L4_2)
@@ -191,10 +187,10 @@ function L70_1(A0_2, A1_2)
       L3_2 = C58236754580D39FA
       L3_2 = L3_2.S5CAD6CECFEAAFE46
       if 3 == L3_2 then
-        L4_2 = A0_2
-        L3_2 = A0_2.FE6BC9AFABCBBD3E6
+        L4_2 = self
+        L3_2 = self.FE6BC9AFABCBBD3E6
         L3_2(L4_2)
-        L3_2 = A0_2[7]
+        L3_2 = self[7]
         L4_2 = L3_2
         L3_2 = L3_2.F70451A8F9B9FE19E
         L3_2(L4_2)
@@ -203,11 +199,11 @@ function L70_1(A0_2, A1_2)
       L3_2 = L3_2.S760DAE4C5371A78E
       L4_2 = nil
       L3_2(L4_2)
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L4_2 = L3_2
       L3_2 = L3_2.F88E265ADB86ACC71
       L3_2(L4_2)
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L4_2 = L3_2
       L3_2 = L3_2.F6FCE9E4187792625
       L5_2 = true
@@ -230,8 +226,8 @@ function L70_1(A0_2, A1_2)
             L2_2 = true
         end
         else
-          L4_2 = A0_2
-          L3_2 = A0_2.FA97E5AFC9BF23F36
+          L4_2 = self
+          L3_2 = self.FA97E5AFC9BF23F36
           L3_2 = L3_2(L4_2)
           L4_2 = E123A38E102608D56
           L4_2 = L4_2.Success
@@ -246,11 +242,11 @@ function L70_1(A0_2, A1_2)
               L4_2 = L4_2.S760DAE4C5371A78E
               L5_2 = nil
               L4_2(L5_2)
-              L4_2 = A0_2[7]
+              L4_2 = self[7]
               L5_2 = L4_2
               L4_2 = L4_2.F88E265ADB86ACC71
               L4_2(L5_2)
-              L4_2 = A0_2[7]
+              L4_2 = self[7]
               L5_2 = L4_2
               L4_2 = L4_2.F6FCE9E4187792625
               L6_2 = true
@@ -265,20 +261,20 @@ function L70_1(A0_2, A1_2)
                 L4_2(L5_2)
                 goto lbl_188
               else
-                L4_2 = A0_2[7]
+                L4_2 = self[7]
                 L5_2 = L4_2
                 L4_2 = L4_2.F88E265ADB86ACC71
                 L4_2(L5_2)
-                L4_2 = A0_2[7]
+                L4_2 = self[7]
                 L5_2 = L4_2
                 L4_2 = L4_2.F6FCE9E4187792625
                 L6_2 = true
                 L4_2(L5_2, L6_2)
-                L4_2 = A0_2[7]
+                L4_2 = self[7]
                 L5_2 = L4_2
                 L4_2 = L4_2.F9B9A8773C40C783B
                 L4_2(L5_2)
-                L4_2 = A0_2[5]
+                L4_2 = self[5]
                 L5_2 = L4_2
                 L4_2 = L4_2.F28EAF3B3AA178E3E
                 L6_2 = C30AA91A129933E1F
@@ -286,7 +282,7 @@ function L70_1(A0_2, A1_2)
                 L7_2 = "NetTopMenuState"
                 L6_2, L7_2 = L6_2(L7_2)
                 L4_2(L5_2, L6_2, L7_2)
-                L4_2 = A0_2[7]
+                L4_2 = self[7]
                 L5_2 = L4_2
                 L4_2 = L4_2.F99197E1D935F7D22
                 L6_2 = "return"
@@ -312,11 +308,11 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2.f95B58BB5
     L3_2 = L3_2()
     if 0 ~= L3_2 then
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L4_2 = L3_2
       L3_2 = L3_2.F9B9A8773C40C783B
       L3_2(L4_2)
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L4_2 = L3_2
       L3_2 = L3_2.F28EAF3B3AA178E3E
       L5_2 = C30AA91A129933E1F
@@ -324,7 +320,7 @@ function L70_1(A0_2, A1_2)
       L6_2 = "NetTopMenuState"
       L5_2, L6_2, L7_2 = L5_2(L6_2)
       L3_2(L4_2, L5_2, L6_2, L7_2)
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L4_2 = L3_2
       L3_2 = L3_2.F99197E1D935F7D22
       L5_2 = "return"
@@ -334,11 +330,11 @@ function L70_1(A0_2, A1_2)
     L3_2 = C58236754580D39FA
     L3_2 = L3_2.S5CAD6CECFEAAFE46
     if -1 == L3_2 then
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L4_2 = L3_2
       L3_2 = L3_2.F9B9A8773C40C783B
       L3_2(L4_2)
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L4_2 = L3_2
       L3_2 = L3_2.F28EAF3B3AA178E3E
       L5_2 = C30AA91A129933E1F
@@ -346,17 +342,17 @@ function L70_1(A0_2, A1_2)
       L6_2 = "NetTopMenuState"
       L5_2, L6_2, L7_2 = L5_2(L6_2)
       L3_2(L4_2, L5_2, L6_2, L7_2)
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L4_2 = L3_2
       L3_2 = L3_2.F99197E1D935F7D22
       L5_2 = "return"
       L3_2(L4_2, L5_2)
     else
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L4_2 = L3_2
       L3_2 = L3_2.F9B9A8773C40C783B
       L3_2(L4_2)
-      L3_2 = A0_2[5]
+      L3_2 = self[5]
       L4_2 = L3_2
       L3_2 = L3_2.F28EAF3B3AA178E3E
       L5_2 = C52A4FCBACA7C8878
@@ -364,7 +360,7 @@ function L70_1(A0_2, A1_2)
       L6_2 = "NetTopMenuEndState"
       L5_2, L6_2, L7_2 = L5_2(L6_2)
       L3_2(L4_2, L5_2, L6_2, L7_2)
-      L3_2 = A0_2[7]
+      L3_2 = self[7]
       L4_2 = L3_2
       L3_2 = L3_2.F99197E1D935F7D22
       L5_2 = "exit"
@@ -373,14 +369,11 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCEC7DC2C9A179FC0"]["prototype"]
-L69_1 = "F2B06B73B3BFA07CE"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.net_topmenu.state_machine.NetTopMenuRule01State.Flow_DecideMess
+function CCEC7DC2C9A179FC0_prototype:F2B06B73B3BFA07CE(A1_2)
   local L2_2, L3_2, L4_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FA6AEAE2E9B0CF940
+  L3_2 = self
+  L2_2 = self.FA6AEAE2E9B0CF940
   L4_2 = 8
   L2_2 = L2_2(L3_2, L4_2)
   if "0" == L2_2 then
@@ -391,14 +384,11 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CCEC7DC2C9A179FC0"]["prototype"]
-L69_1 = "FA97E5AFC9BF23F36"
-
-function L70_1(A0_2)
+--- main.ui.net_topmenu.state_machine.NetTopMenuRule01State.Flow_WaitMaching
+function CCEC7DC2C9A179FC0_prototype:FA97E5AFC9BF23F36()
   local L1_2, L2_2, L3_2, L4_2, L5_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F84AEF27B6ABDAACD
+  L2_2 = self
+  L1_2 = self.F84AEF27B6ABDAACD
   L3_2 = L16_1
   L4_2 = {}
   L5_2 = {}

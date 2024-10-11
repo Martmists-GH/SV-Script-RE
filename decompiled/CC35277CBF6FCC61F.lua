@@ -1,3 +1,7 @@
+---@alias CC35277CBF6FCC61F main_ui_btl_team_view_BattleTeamSelectUIView
+
+---@class main_ui_btl_team_view_BattleTeamSelectUIView : CC35277CBF6FCC61F_prototype
+---@field prototype CC35277CBF6FCC61F_prototype
 L55_1 = _ENV
 L56_1 = "CC35277CBF6FCC61F"
 L57_1 = L15_1
@@ -52,22 +56,17 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CC35277CBF6FCC61F"]
 L69_1 = "__name__"
 L70_1 = "CC35277CBF6FCC61F"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]
-L69_1 = "prototype"
-L70_1 = L15_1
-L70_1 = L70_1()
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F7C68FEDB79AB6396"
-
-function L70_1(A0_2, A1_2)
+---@class CC35277CBF6FCC61F_prototype
+CC35277CBF6FCC61F_prototype = L15_1()
+CC35277CBF6FCC61F.prototype = CC35277CBF6FCC61F_prototype
+--- main.ui.btl_team.view.BattleTeamSelectUIView.Setup
+function CC35277CBF6FCC61F_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L2_2 = A0_2
+  L2_2 = self
   L3_2 = CDC3F92928A2194E6
   L3_2 = L3_2.prototype
   L3_2 = L3_2.F7C68FEDB79AB6396
-  L4_2 = A0_2
+  L4_2 = self
   L5_2 = A1_2
   L3_2(L4_2, L5_2)
   L3_2 = CD508E20E7E006A78
@@ -79,87 +78,87 @@ function L70_1(A0_2, A1_2)
   L4_2 = L3_2
   L3_2 = L3_2.F745ED729D8BA5D92
   L3_2 = L3_2(L4_2)
-  A0_2[12] = L3_2
-  L3_2 = A0_2[12]
+  self[12] = L3_2
+  L3_2 = self[12]
   if nil == L3_2 then
     L3_2 = CC0D1C68F737670D9
     L3_2 = L3_2.new
     L3_2 = L3_2()
-    A0_2[12] = L3_2
+    self[12] = L3_2
   end
-  L3_2 = A0_2[12]
+  L3_2 = self[12]
   L4_2 = L3_2
   L3_2 = L3_2.F5C7DA6549E491098
   L3_2 = L3_2(L4_2)
-  A0_2[3] = L3_2
+  self[3] = L3_2
   L3_2 = C555B89846B64BE1E
   L3_2 = L3_2.new
   L3_2 = L3_2()
-  A0_2[10] = L3_2
-  L3_2 = A0_2[10]
+  self[10] = L3_2
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.FF87242B6A48EBE0F
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.FD3AD97BC53D0CE61
+  L6_2 = self
+  L7_2 = self.FD3AD97BC53D0CE61
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.FF5A4A1ED63CCDA2A
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.F4C6FBEC21AA8884C
+  L6_2 = self
+  L7_2 = self.F4C6FBEC21AA8884C
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.FFBB393170CF57ACA
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.F60E67662BA8DEC66
+  L6_2 = self
+  L7_2 = self.F60E67662BA8DEC66
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.FC310DF4AB40C5D94
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.F1F01EBFECC23FF98
+  L6_2 = self
+  L7_2 = self.F1F01EBFECC23FF98
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
-  L3_2 = A0_2[10]
+  L3_2 = self[10]
   L4_2 = L3_2
   L3_2 = L3_2.FD9A904AE39AD3A8C
   L5_2 = L55_1
-  L6_2 = A0_2
-  L7_2 = A0_2.F4B939FA89EF39067
+  L6_2 = self
+  L7_2 = self.F4B939FA89EF39067
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2)
   L3_2 = C9CC979169E6BA3A6
   L3_2 = L3_2.new
-  L4_2 = A0_2[1]
+  L4_2 = self[1]
   L3_2 = L3_2(L4_2)
-  A0_2[2] = L3_2
-  L3_2 = A0_2[2]
+  self[2] = L3_2
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.FC4D2BDDB205D2A02
   L5_2 = CC35277CBF6FCC61F
   L5_2 = L5_2.S51A9AB59F369EF9F
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F272BA0603224BB69
-  L5_2 = A0_2[12]
+  L4_2 = self
+  L3_2 = self.F272BA0603224BB69
+  L5_2 = self[12]
   L3_2(L4_2, L5_2)
   L3_2 = L26_1.new
   L3_2 = L3_2()
-  A0_2[5] = L3_2
+  self[5] = L3_2
   L3_2 = CFA09AC347CF4C5C4
   L3_2 = L3_2.new
   L4_2 = 0
-  L5_2 = A0_2[2]
+  L5_2 = self[2]
   L3_2 = L3_2(L4_2, L5_2)
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L5_2 = L4_2
   L4_2 = L4_2.push
   L6_2 = L3_2
@@ -167,9 +166,9 @@ function L70_1(A0_2, A1_2)
   L4_2 = CFA09AC347CF4C5C4
   L4_2 = L4_2.new
   L5_2 = 1
-  L6_2 = A0_2[2]
+  L6_2 = self[2]
   L4_2 = L4_2(L5_2, L6_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L6_2 = L5_2
   L5_2 = L5_2.push
   L7_2 = L4_2
@@ -177,9 +176,9 @@ function L70_1(A0_2, A1_2)
   L5_2 = CFA09AC347CF4C5C4
   L5_2 = L5_2.new
   L6_2 = 2
-  L7_2 = A0_2[2]
+  L7_2 = self[2]
   L5_2 = L5_2(L6_2, L7_2)
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L7_2 = L6_2
   L6_2 = L6_2.push
   L8_2 = L5_2
@@ -187,9 +186,9 @@ function L70_1(A0_2, A1_2)
   L6_2 = CFA09AC347CF4C5C4
   L6_2 = L6_2.new
   L7_2 = 3
-  L8_2 = A0_2[2]
+  L8_2 = self[2]
   L6_2 = L6_2(L7_2, L8_2)
-  L7_2 = A0_2[5]
+  L7_2 = self[5]
   L8_2 = L7_2
   L7_2 = L7_2.push
   L9_2 = L6_2
@@ -197,9 +196,9 @@ function L70_1(A0_2, A1_2)
   L7_2 = CFA09AC347CF4C5C4
   L7_2 = L7_2.new
   L8_2 = 4
-  L9_2 = A0_2[2]
+  L9_2 = self[2]
   L7_2 = L7_2(L8_2, L9_2)
-  L8_2 = A0_2[5]
+  L8_2 = self[5]
   L9_2 = L8_2
   L8_2 = L8_2.push
   L10_2 = L7_2
@@ -207,15 +206,15 @@ function L70_1(A0_2, A1_2)
   L8_2 = CBD09D1AA02343C70
   L8_2 = L8_2.new
   L8_2 = L8_2()
-  A0_2[13] = L8_2
+  self[13] = L8_2
   L8_2 = c2435BEB4
   L8_2 = L8_2.fBC9CBB89
   L8_2 = L8_2()
-  A0_2[16] = L8_2
+  self[16] = L8_2
   L8_2 = c2435BEB4
   L8_2 = L8_2.fF2125F9F
   L8_2 = L8_2()
-  A0_2[17] = L8_2
+  self[17] = L8_2
   L8_2 = C1DB14DCC9D7634FA
   L8_2 = L8_2.new
   
@@ -399,14 +398,11 @@ function L70_1(A0_2, A1_2)
   
   L10_2 = "BattleTeamSelectUIView_m_setupCoroutine"
   L8_2 = L8_2(L9_2, L10_2)
-  A0_2[6] = L8_2
+  self[6] = L8_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F272BA0603224BB69"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.InitRegulationHolder
+function CC35277CBF6FCC61F_prototype:F272BA0603224BB69(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L3_2 = A1_2
   L2_2 = A1_2.F7850751E90686D3B
@@ -415,18 +411,18 @@ function L70_1(A0_2, A1_2)
     L4_2 = A1_2
     L3_2 = A1_2.F5CDEE12B09022F53
     L3_2 = L3_2(L4_2)
-    A0_2[11] = L3_2
+    self[11] = L3_2
   elseif 3 == L2_2 then
     L4_2 = A1_2
     L3_2 = A1_2.F5CDEE12B09022F53
     L3_2 = L3_2(L4_2)
-    A0_2[11] = L3_2
+    self[11] = L3_2
   else
     L3_2 = c03E8ACDF
     L3_2 = L3_2.f5B6373D5
     L3_2 = L3_2()
-    A0_2[11] = L3_2
-    L3_2 = A0_2[11]
+    self[11] = L3_2
+    L3_2 = self[11]
     L4_2 = L3_2
     L3_2 = L3_2.f90E5B906
     L6_2 = A1_2
@@ -436,15 +432,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "FB83EE6EDA8ABE815"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.InitParty
+function CC35277CBF6FCC61F_prototype:FB83EE6EDA8ABE815(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
   L2_2 = L26_1.new
   L2_2 = L2_2()
-  A0_2[4] = L2_2
+  self[4] = L2_2
   L2_2 = 0
   L3_2 = false
   while L2_2 < 12 do
@@ -631,7 +624,7 @@ function L70_1(A0_2, A1_2)
       L8_2 = L8_2()
       L7_2.signature = L8_2
       L6_2 = L6_2(L7_2)
-      L7_2 = A0_2[4]
+      L7_2 = self[4]
       L8_2 = L7_2
       L7_2 = L7_2.push
       L9_2 = L6_2
@@ -645,34 +638,31 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "FE94F3E13286232CF"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.PreUpdate
+function CC35277CBF6FCC61F_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L3_2 = A0_2
-  L2_2 = A0_2.F2CE183B3FAF2ED8A
+  L3_2 = self
+  L2_2 = self.F2CE183B3FAF2ED8A
   L2_2 = L2_2(L3_2)
   if L2_2 then
     return
   end
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   if nil ~= L2_2 then
-    L2_2 = A0_2[13]
+    L2_2 = self[13]
     L3_2 = L2_2
     L2_2 = L2_2.FEB6685558281F194
     L2_2(L3_2)
   end
-  L2_2 = A0_2[6]
+  L2_2 = self[6]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[6]
+    L3_2 = self[6]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[6]
+      L2_2 = self[6]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -718,15 +708,15 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[7]
+  L2_2 = self[7]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[7]
+    L3_2 = self[7]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[7]
+      L2_2 = self[7]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -772,15 +762,15 @@ function L70_1(A0_2, A1_2)
       end
     end
   end
-  L2_2 = A0_2[8]
+  L2_2 = self[8]
   if nil ~= L2_2 then
     L2_2 = L10_1.coroutine
     L2_2 = L2_2.status
-    L3_2 = A0_2[8]
+    L3_2 = self[8]
     L3_2 = L3_2[1]
     L2_2 = L2_2(L3_2)
     if "dead" ~= L2_2 then
-      L2_2 = A0_2[8]
+      L2_2 = self[8]
       L3_2 = nil
       L4_2 = L62_1
       L5_2 = L64_1.pack
@@ -825,27 +815,27 @@ function L70_1(A0_2, A1_2)
         L5_2(L6_2, L7_2)
       end
     else
-      A0_2[8] = nil
+      self[8] = nil
     end
   else
-    L2_2 = A0_2[19]
+    L2_2 = self[19]
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F900ACE13B0E86BE4
+      L3_2 = self
+      L2_2 = self.F900ACE13B0E86BE4
       L2_2(L3_2)
     end
-    L2_2 = A0_2[15]
+    L2_2 = self[15]
     if L2_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.F74C38DC3CAB34CD2
+      L3_2 = self
+      L2_2 = self.F74C38DC3CAB34CD2
       L2_2(L3_2)
     end
   end
-  L2_2 = A0_2[10]
+  L2_2 = self[10]
   if nil ~= L2_2 then
-    L2_2 = A0_2[9]
+    L2_2 = self[9]
     if L2_2 then
-      L2_2 = A0_2[10]
+      L2_2 = self[10]
       L3_2 = L2_2
       L2_2 = L2_2.F2B8F4D1A92BBC209
       L2_2(L3_2)
@@ -853,15 +843,12 @@ function L70_1(A0_2, A1_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F900ACE13B0E86BE4"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.DecideCompetition
+function CC35277CBF6FCC61F_prototype:F900ACE13B0E86BE4()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2
-  A0_2[19] = false
-  L2_2 = A0_2[12]
+  L1_2 = self
+  self[19] = false
+  L2_2 = self[12]
   L3_2 = L2_2
   L2_2 = L2_2.F7603C1CD91FAC331
   L2_2 = L2_2(L3_2)
@@ -869,10 +856,10 @@ function L70_1(A0_2)
     L2_2 = CF1D9D619D324F233
     L2_2 = L2_2.S036FE38553339EEE
     L2_2 = L2_2()
-    L3_2 = A0_2[14]
+    L3_2 = self[14]
     if L2_2 ~= L3_2 then
-      L3_2 = A0_2
-      L2_2 = A0_2.FE0EBB34B8A1B41AB
+      L3_2 = self
+      L2_2 = self.FE0EBB34B8A1B41AB
       L4_2 = true
       L2_2(L3_2, L4_2)
       return
@@ -892,23 +879,23 @@ function L70_1(A0_2)
       L0_3(L1_3)
     end
     
-    L3_2 = A0_2[12]
+    L3_2 = self[12]
     L4_2 = L3_2
     L3_2 = L3_2.F8F76482CFB8A0CA7
     L3_2 = L3_2(L4_2)
     if L3_2 then
-      L4_2 = A0_2
-      L3_2 = A0_2.FFDF382AA07B47168
+      L4_2 = self
+      L3_2 = self.FFDF382AA07B47168
       L5_2 = L2_2
-      L6_2 = A0_2[3]
+      L6_2 = self[3]
       L3_2(L4_2, L5_2, L6_2)
     else
       L3_2 = L2_2
       L3_2()
     end
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.FFDF382AA07B47168
+    L3_2 = self
+    L2_2 = self.FFDF382AA07B47168
     
     function L4_2()
       local L0_3, L1_3, L2_3, L3_3, L4_3
@@ -939,25 +926,22 @@ function L70_1(A0_2)
       L2_3(L3_3, L4_3)
     end
     
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L2_2(L3_2, L4_2, L5_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F74C38DC3CAB34CD2"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.F74C38DC3CAB34CD2
+function CC35277CBF6FCC61F_prototype:F74C38DC3CAB34CD2()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = A0_2
-  A0_2[15] = false
+  L1_2 = self
+  self[15] = false
   L2_2 = CF1D9D619D324F233
   L2_2 = L2_2.S036FE38553339EEE
   L2_2 = L2_2()
   if "msg_ui_btlteam_yes" ~= L2_2 then
-    L3_2 = A0_2
-    L2_2 = A0_2.FE0EBB34B8A1B41AB
+    L3_2 = self
+    L2_2 = self.FE0EBB34B8A1B41AB
     L4_2 = true
     L2_2(L3_2, L4_2)
     return
@@ -977,15 +961,15 @@ function L70_1(A0_2)
     L0_3(L1_3)
   end
   
-  L3_2 = A0_2[12]
+  L3_2 = self[12]
   L4_2 = L3_2
   L3_2 = L3_2.F8F76482CFB8A0CA7
   L3_2 = L3_2(L4_2)
   if L3_2 then
-    L4_2 = A0_2
-    L3_2 = A0_2.FFDF382AA07B47168
+    L4_2 = self
+    L3_2 = self.FFDF382AA07B47168
     L5_2 = L2_2
-    L6_2 = A0_2[3]
+    L6_2 = self[3]
     L3_2(L4_2, L5_2, L6_2)
   else
     L3_2 = L2_2
@@ -993,18 +977,15 @@ function L70_1(A0_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F1F01EBFECC23FF98"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.OnDecideEvent
+function CC35277CBF6FCC61F_prototype:F1F01EBFECC23FF98()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2
-  L2_2 = A0_2
-  L1_2 = A0_2.FE0EBB34B8A1B41AB
+  L2_2 = self
+  L1_2 = self.FE0EBB34B8A1B41AB
   L3_2 = false
   L1_2(L2_2, L3_2)
-  L1_2 = A0_2[4]
-  L2_2 = A0_2[3]
+  L1_2 = self[4]
+  L2_2 = self[3]
   L1_2 = L1_2[L2_2]
   L2_2 = L1_2.party
   L3_2 = L2_2
@@ -1031,8 +1012,8 @@ function L70_1(A0_2)
     L3_2 = L3_2.SC6181320B46854EE
     L4_2 = "PLAY_UI_COMMON_BEEP"
     L3_2(L4_2)
-    L4_2 = A0_2
-    L3_2 = A0_2.FE0EBB34B8A1B41AB
+    L4_2 = self
+    L3_2 = self.FE0EBB34B8A1B41AB
     L5_2 = true
     L3_2(L4_2, L5_2)
     return
@@ -1041,60 +1022,60 @@ function L70_1(A0_2)
   L3_2 = L3_2.SC6181320B46854EE
   L4_2 = "PLAY_UI_COMMON_DECIDE"
   L3_2(L4_2)
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2[0]
   L4_2 = L3_2
   L3_2 = L3_2.FF7F8B090AE3FD827
   L3_2 = L3_2(L4_2)
   if -1 ~= L3_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F881B8730CE8E16F1
+    L5_2 = self
+    L4_2 = self.F881B8730CE8E16F1
     L6_2 = L3_2
     L4_2(L5_2, L6_2)
     return
   end
-  L5_2 = A0_2
-  L4_2 = A0_2.F95F343960AA9FCB9
-  L6_2 = A0_2[3]
+  L5_2 = self
+  L4_2 = self.F95F343960AA9FCB9
+  L6_2 = self[3]
   L4_2 = L4_2(L5_2, L6_2)
   if L4_2 then
-    L5_2 = A0_2
-    L4_2 = A0_2.F2099177429654CFA
-    L6_2 = A0_2[16]
+    L5_2 = self
+    L4_2 = self.F2099177429654CFA
+    L6_2 = self[16]
     L6_2 = nil ~= L6_2
     L4_2(L5_2, L6_2)
     return
   end
-  L4_2 = A0_2[12]
+  L4_2 = self[12]
   L5_2 = L4_2
   L4_2 = L4_2.F7850751E90686D3B
   L4_2 = L4_2(L5_2)
   if 3 == L4_2 then
-    L4_2 = A0_2[12]
+    L4_2 = self[12]
     L5_2 = L4_2
     L4_2 = L4_2.F7603C1CD91FAC331
     L4_2 = L4_2(L5_2)
     if 0 == L4_2 then
       L4_2 = "msg_ui_btlspot_competition_overview_confirm_00"
-      A0_2[14] = "msg_ui_btlspot_sel_18"
+      self[14] = "msg_ui_btlspot_sel_18"
       L5_2 = "msg_ui_btlspot_sel_13"
-      L6_2 = A0_2[12]
+      L6_2 = self[12]
       L7_2 = L6_2
       L6_2 = L6_2.FB13E214A1D4593AF
       L6_2 = L6_2(L7_2)
       if L6_2 then
         L4_2 = "msg_ui_btlspot_competition_btlteamselect_00"
-        A0_2[14] = "msg_ui_btlspot_sel_14"
+        self[14] = "msg_ui_btlspot_sel_14"
         L5_2 = "msg_ui_btlspot_sel_15"
       end
-      L7_2 = A0_2
-      L6_2 = A0_2.FB33F29C2EFB48E25
+      L7_2 = self
+      L6_2 = self.FB33F29C2EFB48E25
       L8_2 = "btlspot"
       L9_2 = L4_2
       L10_2 = _hx_tab_array
       L11_2 = {}
       L11_2.length = 0
-      L12_2 = A0_2[14]
+      L12_2 = self[14]
       L11_2[0] = L12_2
       L12_2 = L5_2
       L11_2[1] = L12_2
@@ -1103,7 +1084,7 @@ function L70_1(A0_2)
       L11_2 = true
       L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
     end
-    A0_2[19] = true
+    self[19] = true
   else
     L4_2 = CF727FEFE2F37E2EB
     L4_2 = L4_2.S07D6C8E4775A74C5
@@ -1133,8 +1114,8 @@ function L70_1(A0_2)
     L13_2 = L19_1
     L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2 = L11_2(L12_2, L13_2)
     L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
-    L8_2 = A0_2
-    L7_2 = A0_2.FB33F29C2EFB48E25
+    L8_2 = self
+    L7_2 = self.FB33F29C2EFB48E25
     L9_2 = "btl_team"
     L10_2 = "msg_ui_btlteam_top_decision_00"
     L11_2 = _hx_tab_array
@@ -1157,17 +1138,14 @@ function L70_1(A0_2)
     L15_2, L16_2, L17_2 = L15_2(L16_2, L17_2)
     L13_2, L14_2, L15_2, L16_2, L17_2 = L13_2(L14_2, L15_2, L16_2, L17_2)
     L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2)
-    A0_2[15] = true
+    self[15] = true
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F60E67662BA8DEC66"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.OnCancelEvent
+function CC35277CBF6FCC61F_prototype:F60E67662BA8DEC66()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2
+  L1_2 = self
   L2_2 = CEBAF1EAFE90BF1A6
   L2_2 = L2_2.S385504EFF7E842C3
   L2_2 = L2_2()
@@ -1195,12 +1173,12 @@ function L70_1(A0_2)
     L2_2 = L2_2.type
     L3_2 = 0
     L4_2 = 0
-    L5_2 = A0_2[4]
+    L5_2 = self[4]
     L5_2 = L5_2.length
     while L4_2 < L5_2 do
       L4_2 = L4_2 + 1
       L6_2 = L4_2 - 1
-      L7_2 = A0_2[4]
+      L7_2 = self[4]
       L7_2 = L7_2[L6_2]
       L7_2 = L7_2.type
       if L7_2 == L2_2 then
@@ -1248,13 +1226,13 @@ function L70_1(A0_2)
       L3_3(L4_3)
     end
     
-    L7_2 = A0_2[12]
+    L7_2 = self[12]
     L8_2 = L7_2
     L7_2 = L7_2.F8F76482CFB8A0CA7
     L7_2 = L7_2(L8_2)
     if L7_2 then
-      L8_2 = A0_2
-      L7_2 = A0_2.FFDF382AA07B47168
+      L8_2 = self
+      L7_2 = self.FFDF382AA07B47168
       L9_2 = L6_2
       L10_2 = L3_2
       L7_2(L8_2, L9_2, L10_2)
@@ -1263,17 +1241,14 @@ function L70_1(A0_2)
       L7_2()
     end
   else
-    L3_2 = A0_2
-    L2_2 = A0_2.FB2651C2F0ACEEDFD
+    L3_2 = self
+    L2_2 = self.FB2651C2F0ACEEDFD
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F4B939FA89EF39067"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.OnBoxButtonEvent
+function CC35277CBF6FCC61F_prototype:F4B939FA89EF39067()
   local L1_2, L2_2, L3_2
   L1_2 = CEBAF1EAFE90BF1A6
   L1_2 = L1_2.S385504EFF7E842C3
@@ -1286,33 +1261,30 @@ function L70_1(A0_2)
   L1_2 = L1_2.SC6181320B46854EE
   L2_2 = "PLAY_UI_COMMON_DECIDE"
   L1_2(L2_2)
-  L2_2 = A0_2
-  L1_2 = A0_2.FB2651C2F0ACEEDFD
+  L2_2 = self
+  L1_2 = self.FB2651C2F0ACEEDFD
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F95F343960AA9FCB9"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.F95F343960AA9FCB9
+function CC35277CBF6FCC61F_prototype:F95F343960AA9FCB9(A1_2)
   local L2_2, L3_2
   L2_2 = CF727FEFE2F37E2EB
   L2_2 = L2_2.SCDFE5104606DAB46
-  L3_2 = A0_2[4]
+  L3_2 = self[4]
   L3_2 = L3_2[A1_2]
   L3_2 = L3_2.type
   L2_2 = L2_2(L3_2)
-  L3_2 = A0_2[16]
+  L3_2 = self[16]
   if nil ~= L3_2 then
-    L3_2 = A0_2[16]
+    L3_2 = self[16]
     if L3_2 == L2_2 then
       goto lbl_26
     end
   end
-  L3_2 = A0_2[17]
+  L3_2 = self[17]
   if nil ~= L3_2 then
-    L3_2 = A0_2[17]
+    L3_2 = self[17]
     L3_2 = L3_2 == L2_2
     return L3_2
   else
@@ -1326,11 +1298,8 @@ function L70_1(A0_2, A1_2)
   ::lbl_28::
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F881B8730CE8E16F1"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.ShowErrorMessage
+function CC35277CBF6FCC61F_prototype:F881B8730CE8E16F1(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
   L2_2 = L52_1.__cast
   L3_2 = A1_2
@@ -1371,41 +1340,35 @@ function L70_1(A0_2, A1_2)
   L6_2 = L4_2
   L5_2 = L4_2.fB6B9CC52
   L5_2(L6_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F3F7540C326E6EDFD
+  L6_2 = self
+  L5_2 = self.F3F7540C326E6EDFD
   L7_2 = L4_2
   L5_2(L6_2, L7_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F2099177429654CFA"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.F2099177429654CFA
+function CC35277CBF6FCC61F_prototype:F2099177429654CFA(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = "msg_ui_btlteam_lock_01"
   if A1_2 then
     L2_2 = "msg_ui_btlteam_lock_02"
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.F3A377F1AC96C916B
+  L4_2 = self
+  L3_2 = self.F3A377F1AC96C916B
   L5_2 = "btl_team"
   L6_2 = L2_2
   L3_2(L4_2, L5_2, L6_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F3F7540C326E6EDFD"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.StartSystemMessage
+function CC35277CBF6FCC61F_prototype:F3F7540C326E6EDFD(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
   if nil == A2_2 then
     A2_2 = false
   end
-  L3_2 = A0_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FE0EBB34B8A1B41AB
+  L3_2 = self
+  L5_2 = self
+  L4_2 = self.FE0EBB34B8A1B41AB
   L6_2 = A2_2
   L4_2(L5_2, L6_2)
   L4_2 = C1DB14DCC9D7634FA
@@ -1472,18 +1435,15 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L6_2 = "system_message_sequence"
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[8] = L4_2
+  self[8] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F3A377F1AC96C916B"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.StartUserMessage
+function CC35277CBF6FCC61F_prototype:F3A377F1AC96C916B(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FE0EBB34B8A1B41AB
+  L3_2 = self
+  L5_2 = self
+  L4_2 = self.FE0EBB34B8A1B41AB
   L6_2 = false
   L4_2(L5_2, L6_2)
   L4_2 = C1DB14DCC9D7634FA
@@ -1539,17 +1499,14 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L6_2 = "user_message_sequence"
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[8] = L4_2
+  self[8] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "FB33F29C2EFB48E25"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.StartContextMessage
+function CC35277CBF6FCC61F_prototype:FB33F29C2EFB48E25(A1_2, A2_2, A3_2, A4_2, A5_2)
   local L6_2, L7_2, L8_2
-  L7_2 = A0_2
-  L6_2 = A0_2.FE0EBB34B8A1B41AB
+  L7_2 = self
+  L6_2 = self.FE0EBB34B8A1B41AB
   L8_2 = false
   L6_2(L7_2, L8_2)
   L6_2 = C1DB14DCC9D7634FA
@@ -1602,41 +1559,32 @@ function L70_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2)
   
   L8_2 = "context_message_sequence"
   L6_2 = L6_2(L7_2, L8_2)
-  A0_2[8] = L6_2
+  self[8] = L6_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "FD3AD97BC53D0CE61"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.LeftScroll
+function CC35277CBF6FCC61F_prototype:FD3AD97BC53D0CE61()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F816253593105FA8A
+  L2_2 = self
+  L1_2 = self.F816253593105FA8A
   L3_2 = -1
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F4C6FBEC21AA8884C"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.RightScroll
+function CC35277CBF6FCC61F_prototype:F4C6FBEC21AA8884C()
   local L1_2, L2_2, L3_2
-  L2_2 = A0_2
-  L1_2 = A0_2.F816253593105FA8A
+  L2_2 = self
+  L1_2 = self.F816253593105FA8A
   L3_2 = 1
   L1_2(L2_2, L3_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "FE0EBB34B8A1B41AB"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.SetViewControl
+function CC35277CBF6FCC61F_prototype:FE0EBB34B8A1B41AB(A1_2)
   local L2_2, L3_2, L4_2, L5_2
-  A0_2[9] = A1_2
-  L2_2 = A0_2[2]
+  self[9] = A1_2
+  L2_2 = self[2]
   L3_2 = L2_2
   L2_2 = L2_2.FA23D39922B76B247
   L4_2 = "L_cursor_00"
@@ -1644,23 +1592,20 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F816253593105FA8A"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.ScrollAnimation
+function CC35277CBF6FCC61F_prototype:F816253593105FA8A(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L2_2 = A0_2
-  L3_2 = A0_2[9]
+  L2_2 = self
+  L3_2 = self[9]
   if false == L3_2 or 0 == A1_2 then
     return
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FE0EBB34B8A1B41AB
+  L4_2 = self
+  L3_2 = self.FE0EBB34B8A1B41AB
   L5_2 = false
   L3_2(L4_2, L5_2)
   L3_2 = 0
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   while true do
     L5_2 = L4_2.length
     if not (L3_2 < L5_2) then
@@ -1687,19 +1632,16 @@ function L70_1(A0_2, A1_2)
   
   L7_2 = "scroll animation sequence"
   L5_2 = L5_2(L6_2, L7_2)
-  A0_2[7] = L5_2
+  self[7] = L5_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F67323DBE0F9D5743"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.ScrollAnimationSequence
+function CC35277CBF6FCC61F_prototype:F67323DBE0F9D5743(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2.length
   L2_2 = L2_2 - 1
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.F748A3DCD68216D1D
   
@@ -1721,7 +1663,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.SC6181320B46854EE
   L4_2 = "PLAY_UI_COMMON_SELECT"
   L3_2(L4_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.FE744212C12ED8D05
   L3_2 = L3_2(L4_2)
@@ -1742,14 +1684,14 @@ function L70_1(A0_2, A1_2)
   
   L5_2, L6_2, L7_2, L8_2, L9_2 = L5_2()
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
-  L3_2 = A0_2[2]
+  L3_2 = self[2]
   L4_2 = L3_2
   L3_2 = L3_2.F748A3DCD68216D1D
   L5_2 = "scroll_reset"
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F2460A2927B0F12D6
-  L5_2 = A0_2[3]
+  L4_2 = self
+  L3_2 = self.F2460A2927B0F12D6
+  L5_2 = self[3]
   L6_2 = CD9AE7C27B00EB066
   L6_2 = L6_2.S05B90B9B5A6DE6BC
   L7_2 = A1_2
@@ -1760,8 +1702,8 @@ function L70_1(A0_2, A1_2)
   L6_2 = 0
   L7_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
-  A0_2[3] = L3_2
-  L3_2 = A0_2[12]
+  self[3] = L3_2
+  L3_2 = self[12]
   L4_2 = L3_2
   L3_2 = L3_2.F7850751E90686D3B
   L3_2 = L3_2(L4_2)
@@ -1771,7 +1713,7 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2()
     L4_2 = L3_2
     L3_2 = L3_2.F46C8E6EF555C9135
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L3_2(L4_2, L5_2)
   else
     L3_2 = CD508E20E7E006A78
@@ -1779,28 +1721,25 @@ function L70_1(A0_2, A1_2)
     L3_2 = L3_2()
     L4_2 = L3_2
     L3_2 = L3_2.F0258B88544C0FD2A
-    L5_2 = A0_2[3]
+    L5_2 = self[3]
     L3_2(L4_2, L5_2)
   end
-  L4_2 = A0_2
-  L3_2 = A0_2.FE0EBB34B8A1B41AB
+  L4_2 = self
+  L3_2 = self.FE0EBB34B8A1B41AB
   L5_2 = true
   L3_2(L4_2, L5_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.FD7EC92B5B1066330
-  L5_2 = A0_2[3]
+  L4_2 = self
+  L3_2 = self.FD7EC92B5B1066330
+  L5_2 = self[3]
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "FB2651C2F0ACEEDFD"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.ViewEnd
+function CC35277CBF6FCC61F_prototype:FB2651C2F0ACEEDFD()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = A0_2
-  L3_2 = A0_2
-  L2_2 = A0_2.FE0EBB34B8A1B41AB
+  L1_2 = self
+  L3_2 = self
+  L2_2 = self.FE0EBB34B8A1B41AB
   L4_2 = false
   L2_2(L3_2, L4_2)
   L2_2 = C1DB14DCC9D7634FA
@@ -1848,145 +1787,139 @@ function L70_1(A0_2)
   
   L4_2 = "view end sequence"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[8] = L2_2
+  self[8] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "FD7EC92B5B1066330"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.PutPanelInfo
+function CC35277CBF6FCC61F_prototype:FD7EC92B5B1066330(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L2_2 = A0_2[4]
+  L2_2 = self[4]
   L2_2 = L2_2.length
   L2_2 = L2_2 - 1
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2[0]
   L4_2 = L3_2
   L3_2 = L3_2.FD1370F25F12B9A02
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L5_2 = L5_2[A1_2]
-  L6_2 = A0_2[11]
+  L6_2 = self[11]
   L7_2 = true
   L3_2(L4_2, L5_2, L6_2, L7_2)
-  L3_2 = A0_2[5]
+  L3_2 = self[5]
   L3_2 = L3_2[0]
   L4_2 = L3_2
   L3_2 = L3_2.FE873E7BBD9265AF1
-  L6_2 = A0_2
-  L5_2 = A0_2.F95F343960AA9FCB9
+  L6_2 = self
+  L5_2 = self.F95F343960AA9FCB9
   L7_2 = A1_2
   L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2 = L5_2(L6_2, L7_2)
   L3_2(L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
-  L4_2 = A0_2
-  L3_2 = A0_2.F2460A2927B0F12D6
+  L4_2 = self
+  L3_2 = self.F2460A2927B0F12D6
   L5_2 = A1_2 + 1
   L6_2 = 0
   L7_2 = L2_2
   L3_2 = L3_2(L4_2, L5_2, L6_2, L7_2)
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L4_2 = L4_2[1]
   L5_2 = L4_2
   L4_2 = L4_2.FD1370F25F12B9A02
-  L6_2 = A0_2[4]
+  L6_2 = self[4]
   L6_2 = L6_2[L3_2]
-  L7_2 = A0_2[11]
+  L7_2 = self[11]
   L4_2(L5_2, L6_2, L7_2)
-  L4_2 = A0_2[5]
+  L4_2 = self[5]
   L4_2 = L4_2[1]
   L5_2 = L4_2
   L4_2 = L4_2.FE873E7BBD9265AF1
-  L7_2 = A0_2
-  L6_2 = A0_2.F95F343960AA9FCB9
+  L7_2 = self
+  L6_2 = self.F95F343960AA9FCB9
   L8_2 = L3_2
   L6_2, L7_2, L8_2, L9_2, L10_2, L11_2 = L6_2(L7_2, L8_2)
   L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
-  L5_2 = A0_2
-  L4_2 = A0_2.F2460A2927B0F12D6
+  L5_2 = self
+  L4_2 = self.F2460A2927B0F12D6
   L6_2 = A1_2 - 1
   L7_2 = 0
   L8_2 = L2_2
   L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L5_2 = L5_2[2]
   L6_2 = L5_2
   L5_2 = L5_2.FD1370F25F12B9A02
-  L7_2 = A0_2[4]
+  L7_2 = self[4]
   L7_2 = L7_2[L4_2]
-  L8_2 = A0_2[11]
+  L8_2 = self[11]
   L5_2(L6_2, L7_2, L8_2)
-  L5_2 = A0_2[5]
+  L5_2 = self[5]
   L5_2 = L5_2[2]
   L6_2 = L5_2
   L5_2 = L5_2.FE873E7BBD9265AF1
-  L8_2 = A0_2
-  L7_2 = A0_2.F95F343960AA9FCB9
+  L8_2 = self
+  L7_2 = self.F95F343960AA9FCB9
   L9_2 = L4_2
   L7_2, L8_2, L9_2, L10_2, L11_2 = L7_2(L8_2, L9_2)
   L5_2(L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
-  L6_2 = A0_2
-  L5_2 = A0_2.F2460A2927B0F12D6
+  L6_2 = self
+  L5_2 = self.F2460A2927B0F12D6
   L7_2 = A1_2 - 2
   L8_2 = 0
   L9_2 = L2_2
   L5_2 = L5_2(L6_2, L7_2, L8_2, L9_2)
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L6_2 = L6_2[3]
   L7_2 = L6_2
   L6_2 = L6_2.FD1370F25F12B9A02
-  L8_2 = A0_2[4]
+  L8_2 = self[4]
   L8_2 = L8_2[L5_2]
-  L9_2 = A0_2[11]
+  L9_2 = self[11]
   L6_2(L7_2, L8_2, L9_2)
-  L6_2 = A0_2[5]
+  L6_2 = self[5]
   L6_2 = L6_2[3]
   L7_2 = L6_2
   L6_2 = L6_2.FE873E7BBD9265AF1
-  L9_2 = A0_2
-  L8_2 = A0_2.F95F343960AA9FCB9
+  L9_2 = self
+  L8_2 = self.F95F343960AA9FCB9
   L10_2 = L5_2
   L8_2, L9_2, L10_2, L11_2 = L8_2(L9_2, L10_2)
   L6_2(L7_2, L8_2, L9_2, L10_2, L11_2)
-  L7_2 = A0_2
-  L6_2 = A0_2.F2460A2927B0F12D6
+  L7_2 = self
+  L6_2 = self.F2460A2927B0F12D6
   L8_2 = A1_2 + 2
   L9_2 = 0
   L10_2 = L2_2
   L6_2 = L6_2(L7_2, L8_2, L9_2, L10_2)
-  L7_2 = A0_2[5]
+  L7_2 = self[5]
   L7_2 = L7_2[4]
   L8_2 = L7_2
   L7_2 = L7_2.FD1370F25F12B9A02
-  L9_2 = A0_2[4]
+  L9_2 = self[4]
   L9_2 = L9_2[L6_2]
-  L10_2 = A0_2[11]
+  L10_2 = self[11]
   L7_2(L8_2, L9_2, L10_2)
-  L7_2 = A0_2[5]
+  L7_2 = self[5]
   L7_2 = L7_2[4]
   L8_2 = L7_2
   L7_2 = L7_2.FE873E7BBD9265AF1
-  L10_2 = A0_2
-  L9_2 = A0_2.F95F343960AA9FCB9
+  L10_2 = self
+  L9_2 = self.F95F343960AA9FCB9
   L11_2 = L6_2
   L9_2, L10_2, L11_2 = L9_2(L10_2, L11_2)
   L7_2(L8_2, L9_2, L10_2, L11_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "FDBDD168518386F1A"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.PutDefaultMessage
+function CC35277CBF6FCC61F_prototype:FDBDD168518386F1A()
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = CFC2DE9C924277A7B
   L1_2 = L1_2.SC22C2773A68837D3
   L1_2()
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L2_2 = L1_2
   L1_2 = L1_2.F7850751E90686D3B
   L1_2 = L1_2(L2_2)
   if 3 == L1_2 then
-    L1_2 = A0_2[12]
+    L1_2 = self[12]
     L2_2 = L1_2
     L1_2 = L1_2.F7603C1CD91FAC331
     L1_2 = L1_2(L2_2)
@@ -2031,11 +1964,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "FD124021D59AC1D3C"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.PutOptionBar
+function CC35277CBF6FCC61F_prototype:FD124021D59AC1D3C()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
   L1_2 = CF1D9D619D324F233
   L1_2 = L1_2.S5E67FD00348A0A28
@@ -2066,11 +1996,8 @@ function L70_1(A0_2)
   L1_2(L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F2460A2927B0F12D6"
-
-function L70_1(A0_2, A1_2, A2_2, A3_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.OverClamp
+function CC35277CBF6FCC61F_prototype:F2460A2927B0F12D6(A1_2, A2_2, A3_2)
   local L4_2
   if A1_2 < A2_2 then
     L4_2 = A2_2 - A1_2
@@ -2085,42 +2012,36 @@ function L70_1(A0_2, A1_2, A2_2, A3_2)
   return A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F21117A25B8C3D90E"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.F21117A25B8C3D90E
+function CC35277CBF6FCC61F_prototype:F21117A25B8C3D90E(A1_2)
   local L2_2, L3_2, L4_2
-  L2_2 = A0_2[13]
+  L2_2 = self[13]
   if nil == L2_2 then
     return
   end
   if A1_2 then
-    L2_2 = A0_2[13]
+    L2_2 = self[13]
     L3_2 = L2_2
     L2_2 = L2_2.F659ECC64D6855C4A
     L4_2 = false
     L2_2(L3_2, L4_2)
   else
-    L2_2 = A0_2[13]
+    L2_2 = self[13]
     L3_2 = L2_2
     L2_2 = L2_2.F6C50EE726797AC7F
     L2_2(L3_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F92F24E6B98D68924"
-
-function L70_1(A0_2, A1_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.F92F24E6B98D68924
+function CC35277CBF6FCC61F_prototype:F92F24E6B98D68924(A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = c03C8030E
   L2_2 = L2_2.f101D811F
   L2_2 = L2_2()
   L4_2 = L2_2
   L3_2 = L2_2.fEFB3ECFD
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L5_2 = L5_2[A1_2]
   L5_2 = L5_2.party
   L3_2(L4_2, L5_2)
@@ -2145,7 +2066,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.F3917704CB3780EC6
   L3_2 = L3_2(L4_2)
   L4_2 = L58_1
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L5_2 = L5_2[A1_2]
   L5_2 = L5_2.type
   L4_2 = L4_2(L5_2)
@@ -2157,7 +2078,7 @@ function L70_1(A0_2, A1_2)
   L3_2 = L3_2.F3917704CB3780EC6
   L3_2 = L3_2(L4_2)
   L4_2 = L58_1
-  L5_2 = A0_2[4]
+  L5_2 = self[4]
   L5_2 = L5_2[A1_2]
   L5_2 = L5_2.signature
   L4_2 = L4_2(L5_2)
@@ -2171,15 +2092,12 @@ function L70_1(A0_2, A1_2)
   L3_2(L4_2, L5_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "FFDF382AA07B47168"
-
-function L70_1(A0_2, A1_2, A2_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.FFDF382AA07B47168
+function CC35277CBF6FCC61F_prototype:FFDF382AA07B47168(A1_2, A2_2)
   local L3_2, L4_2, L5_2, L6_2
-  L3_2 = A0_2
-  L5_2 = A0_2
-  L4_2 = A0_2.FE0EBB34B8A1B41AB
+  L3_2 = self
+  L5_2 = self
+  L4_2 = self.FE0EBB34B8A1B41AB
   L6_2 = false
   L4_2(L5_2, L6_2)
   L4_2 = C1DB14DCC9D7634FA
@@ -2307,16 +2225,13 @@ function L70_1(A0_2, A1_2, A2_2)
   
   L6_2 = "pokemon_validation_sequence"
   L4_2 = L4_2(L5_2, L6_2)
-  A0_2[8] = L4_2
+  self[8] = L4_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CC35277CBF6FCC61F"]["prototype"]
-L69_1 = "F2CE183B3FAF2ED8A"
-
-function L70_1(A0_2)
+--- main.ui.btl_team.view.BattleTeamSelectUIView.F2CE183B3FAF2ED8A
+function CC35277CBF6FCC61F_prototype:F2CE183B3FAF2ED8A()
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2
-  L1_2 = A0_2[12]
+  L1_2 = self[12]
   L2_2 = L1_2
   L1_2 = L1_2.F39BAA3993FC778B6
   L1_2 = L1_2(L2_2)
@@ -2338,22 +2253,22 @@ function L70_1(A0_2)
   L1_2 = L1_2.FC4A37D88A8890909
   L1_2 = L1_2(L2_2)
   if 1 == L1_2 then
-    L1_2 = A0_2[13]
+    L1_2 = self[13]
     if nil ~= L1_2 then
-      L1_2 = A0_2[13]
+      L1_2 = self[13]
       L2_2 = L1_2
       L1_2 = L1_2.FEB6685558281F194
       L1_2(L2_2)
     end
-    L1_2 = A0_2[8]
+    L1_2 = self[8]
     if nil ~= L1_2 then
       L1_2 = L10_1.coroutine
       L1_2 = L1_2.status
-      L2_2 = A0_2[8]
+      L2_2 = self[8]
       L2_2 = L2_2[1]
       L1_2 = L1_2(L2_2)
       if "dead" ~= L1_2 then
-        L1_2 = A0_2[8]
+        L1_2 = self[8]
         L2_2 = nil
         L3_2 = L62_1
         L4_2 = L64_1.pack
@@ -2408,8 +2323,8 @@ function L70_1(A0_2)
     L1_2 = CF1D9D619D324F233
     L1_2 = L1_2.S02F8612F11FC630D
     L1_2()
-    L2_2 = A0_2
-    L1_2 = A0_2.F21117A25B8C3D90E
+    L2_2 = self
+    L1_2 = self.F21117A25B8C3D90E
     L3_2 = false
     L1_2(L2_2, L3_2)
     L1_2 = CEBAF1EAFE90BF1A6
@@ -2419,8 +2334,8 @@ function L70_1(A0_2)
     L1_2 = L1_2.FD7F08F2DC2038115
     L3_2 = 1
     L1_2(L2_2, L3_2)
-    L2_2 = A0_2
-    L1_2 = A0_2.FB2651C2F0ACEEDFD
+    L2_2 = self
+    L1_2 = self.FB2651C2F0ACEEDFD
     L1_2(L2_2)
   end
   L1_2 = true
