@@ -4,7 +4,7 @@
 ---@field prototype C9D0EA3ECE93115FA_prototype
 ---@field SFBF3CE1B4FC4C6BD number @ s_WaitCount
 ---@field S23F4ED88AF777A0F cCF781FB6 @ s_scriptComponent
----@field S9D99C271E76A802B hx_tab_array<any> @ s_NoticeContainerArray
+---@field S9D99C271E76A802B hx_tab_array<C9D0EA3ECE93115FA_anon_1> @ s_NoticeContainerArray
 ---@field S0F5A2CAC513ACC63 string @ VIEWSCENENAME
 ---@field SFE42E2930CFC4B72 string @ SCENEOBJVIEWNAME
 ---@field S27DBEB08E01EDAC5 number @ SeqInt
@@ -18,6 +18,7 @@
 ---@field SFBAE58BDCE31F3BD number
 C9D0EA3ECE93115FA = L15_1()
 
+---@param A0_2 c016374C1
 function C9D0EA3ECE93115FA.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
@@ -35,6 +36,7 @@ function C9D0EA3ECE93115FA.new(A0_2)
 end
 
 ---@param self C9D0EA3ECE93115FA
+---@param A1_2 c016374C1
 function C9D0EA3ECE93115FA.super(self, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   self[10] = 0
