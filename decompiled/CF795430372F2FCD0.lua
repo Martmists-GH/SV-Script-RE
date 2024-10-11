@@ -46,7 +46,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF795430372F2FCD0"]
 L69_1 = "__name__"
 L70_1 = "CF795430372F2FCD0"
----@class CF795430372F2FCD0_prototype
+---@class CF795430372F2FCD0_prototype : ext_pe_SceneObjectBehavior
 CF795430372F2FCD0_prototype = L15_1()
 CF795430372F2FCD0.prototype = CF795430372F2FCD0_prototype
 --- CF795430372F2FCD0.Setup

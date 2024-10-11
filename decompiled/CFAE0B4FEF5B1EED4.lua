@@ -107,7 +107,7 @@ function CFAE0B4FEF5B1EED4.SD59E5ED5F9F2AAE3(A0_2)
   end
 end
 
----@class CFAE0B4FEF5B1EED4_prototype
+---@class CFAE0B4FEF5B1EED4_prototype : ext_pe_SceneObjectBehavior
 CFAE0B4FEF5B1EED4_prototype = L15_1()
 CFAE0B4FEF5B1EED4.prototype = CFAE0B4FEF5B1EED4_prototype
 --- main.env.cloud.CloudManager.Setup

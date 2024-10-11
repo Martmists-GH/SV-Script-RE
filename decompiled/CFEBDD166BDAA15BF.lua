@@ -1,8 +1,10 @@
+---@class CFEBDD166BDAA15BF : CFEBDD166BDAA15BF_prototype
+---@field prototype CFEBDD166BDAA15BF_prototype
 CFEBDD166BDAA15BF = L15_1()
 
 function CFEBDD166BDAA15BF.new()
   local L0_2
-  L0_2 = L2_1(CFEBDD166BDAA15BF.prototype, 4, 4)
+  L0_2 = L2_1(CFEBDD166BDAA15BF_prototype, 4, 4)
   CFEBDD166BDAA15BF.super(L0_2)
   return L0_2
 end
@@ -16,16 +18,19 @@ function CFEBDD166BDAA15BF.super(self)
 end
 
 CFEBDD166BDAA15BF.__name__ = CFEBDD166BDAA15BF
-CFEBDD166BDAA15BF.prototype = L15_1()
+---@class CFEBDD166BDAA15BF_prototype : main_pokepicnic_contents_checker_IPicnicContentsChecker
+---@field [2] string
+CFEBDD166BDAA15BF_prototype = L15_1()
 
-function CFEBDD166BDAA15BF.prototype.F00A5AAB9F764BE45(self)  -- OnContentsChecker
+---@return C756CC558958FD73D
+function CFEBDD166BDAA15BF_prototype:F00A5AAB9F764BE45()  -- OnContentsChecker
   if self:F4F190AC25D4EEC78() then  -- self:CheckPokeTalk()
     return C756CC558958FD73D.new(self[4])
   end
   return nil
 end
 
-function CFEBDD166BDAA15BF.prototype.F4F190AC25D4EEC78(self)  -- CheckPokeTalk
+function CFEBDD166BDAA15BF_prototype:F4F190AC25D4EEC78()  -- CheckPokeTalk
   local L1_2, L2_2, L3_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
   if cDFF6D3D5.f6E019F84("UI_SP_1") then
     L1_2 = CFC8F368D91411014.S93A017D496A6D000  -- main.field.FieldUtility.S93A017D496A6D000
@@ -68,6 +73,6 @@ function CFEBDD166BDAA15BF.prototype.F4F190AC25D4EEC78(self)  -- CheckPokeTalk
   return false
 end
 
-CFEBDD166BDAA15BF.prototype.__class__ = CFEBDD166BDAA15BF
+CFEBDD166BDAA15BF_prototype.__class__ = CFEBDD166BDAA15BF
 CFEBDD166BDAA15BF.__super__ = C80EC56A506C41E3A
-setmetatable(CFEBDD166BDAA15BF.prototype, {__index = C80EC56A506C41E3A})
+setmetatable(CFEBDD166BDAA15BF_prototype, {__index = C80EC56A506C41E3A})

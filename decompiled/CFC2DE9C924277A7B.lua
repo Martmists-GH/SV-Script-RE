@@ -639,7 +639,7 @@ function CFC2DE9C924277A7B.S87C7668643F71AE5(A0_2)
   L2_2(L3_2, L4_2, L5_2)
 end
 
----@class CFC2DE9C924277A7B_prototype
+---@class CFC2DE9C924277A7B_prototype : ext_pe_SceneObjectBehavior
 CFC2DE9C924277A7B_prototype = L15_1()
 CFC2DE9C924277A7B.prototype = CFC2DE9C924277A7B_prototype
 --- main.ui.net_common.message.NetCommonUIMessageWindow.Setup

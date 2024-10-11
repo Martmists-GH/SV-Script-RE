@@ -57,7 +57,9 @@ L69_1 = "__name__"
 L70_1 = "CFB426AE68C29918F"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["CFB426AE68C29918F"]
-L69_1 = "__inte---@class CFB426AE68C29918F_prototype
+L69_1 = "__interfaces__"
+
+---@class CFB426AE68C29918F_prototype : main_field_action_base_BaseAction
 CFB426AE68C29918F_prototype = L15_1()
 CFB426AE68C29918F.prototype = CFB426AE68C29918F_prototype
 --- main.field.action.field_npc.base.ActionFieldNpcBase.onCreate

@@ -107,7 +107,7 @@ function CFAA34E314C487375.S4F47DA6AFE6C507F(A0_2, A1_2)
   end
 end
 
----@class CFAA34E314C487375_prototype
+---@class CFAA34E314C487375_prototype : ext_pe_SceneObjectBehavior
 CFAA34E314C487375_prototype = L15_1()
 CFAA34E314C487375.prototype = CFAA34E314C487375_prototype
 --- main.field.behaviour.myhome.SwitchColoring.Setup

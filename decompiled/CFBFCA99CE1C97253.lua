@@ -49,7 +49,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CFBFCA99CE1C97253"]
 L69_1 = "__name__"
 L70_1 = "CFBFCA99CE1C97253"
----@class CFBFCA99CE1C97253_prototype
+---@class CFBFCA99CE1C97253_prototype : main_event_base_BaseMainEvent
 CFBFCA99CE1C97253_prototype = L15_1()
 CFBFCA99CE1C97253.prototype = CFBFCA99CE1C97253_prototype
 --- main.event.debug.DebugChoiYoungchan.preStart

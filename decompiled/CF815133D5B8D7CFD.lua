@@ -49,7 +49,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF815133D5B8D7CFD"]
 L69_1 = "__name__"
 L70_1 = "CF815133D5B8D7CFD"
----@class CF815133D5B8D7CFD_prototype
+---@class CF815133D5B8D7CFD_prototype : main_field_action_base_BaseAction
 CF815133D5B8D7CFD_prototype = L15_1()
 CF815133D5B8D7CFD.prototype = CF815133D5B8D7CFD_prototype
 --- main.field.action.pokemon.legend.ActionEventLegendForceMove.onCreate

@@ -327,7 +327,7 @@ function CFB60EA6EF5BBFD21.S3EEBC521ACE6E2CD()
   L0_2.S8562AD96FB157CCC = 4
 end
 
----@class CFB60EA6EF5BBFD21_prototype
+---@class CFB60EA6EF5BBFD21_prototype : CE0D511325372F946
 CFB60EA6EF5BBFD21_prototype = L15_1()
 CFB60EA6EF5BBFD21.prototype = CFB60EA6EF5BBFD21_prototype
 --- main.system.game_event.GameEventTeamCircleDisconnect.onCreate

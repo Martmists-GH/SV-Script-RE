@@ -1,6 +1,8 @@
----@class CFE438BAFDF64429C : CFE438BAFDF64429C_prototype
+---@alias CFE438BAFDF64429C main_savedata_accessor_base_ICachedSaveKey
+
+---@class main_savedata_accessor_base_ICachedSaveKey : CFE438BAFDF64429C_prototype
 ---@field prototype CFE438BAFDF64429C_prototype
----@field S73BF05A66568B917 haxe_ds_List<CFE438BAFDF64429C>
+---@field S73BF05A66568B917 haxe_ds_List<main_savedata_accessor_base_ICachedSaveKey>
 CFE438BAFDF64429C = L15_1()
 
 function CFE438BAFDF64429C.new(A0_2)
@@ -48,11 +50,11 @@ end
 CFE438BAFDF64429C_prototype = L15_1()
 CFE438BAFDF64429C.prototype = CFE438BAFDF64429C_prototype
 
-function CFE438BAFDF64429C_prototype.FB204062430333FF3(A0_2)
+function CFE438BAFDF64429C_prototype:FB204062430333FF3()
 
 end
 
-function CFE438BAFDF64429C_prototype.FE3ECFA2333AC7D0E(A0_2)
+function CFE438BAFDF64429C_prototype:FE3ECFA2333AC7D0E()
 
 end
 

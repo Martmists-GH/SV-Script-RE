@@ -39,7 +39,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CFB833C95C7ADB0CD"]
 L69_1 = "__name__"
 L70_1 = "CFB833C95C7ADB0CD"
----@class C2FFEF9715F0973C4_prototype
+---@class C2FFEF9715F0973C4_prototype : main_ui_btlspot_state_machine_base_BattleSpotStateBase
 C2FFEF9715F0973C4_prototype = L15_1()
 C2FFEF9715F0973C4.prototype = C2FFEF9715F0973C4_prototype
 L68_1[L69_1] = L70_1

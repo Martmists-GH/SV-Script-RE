@@ -47,7 +47,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF78090999444A548"]
 L69_1 = "__name__"
 L70_1 = "CF78090999444A548"
----@class CF78090999444A548_prototype
+---@class CF78090999444A548_prototype : main_ui_util_UISceneBase
 CF78090999444A548_prototype = L15_1()
 CF78090999444A548.prototype = CF78090999444A548_prototype
 --- main.ui.pokedex.PokedexDiplomaSubEventScene.get_pokedexKind

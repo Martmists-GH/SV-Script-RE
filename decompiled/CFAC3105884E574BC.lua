@@ -48,7 +48,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CFAC3105884E574BC"]
 L69_1 = "__name__"
 L70_1 = "CFAC3105884E574BC"
----@class CFAC3105884E574BC_prototype
+---@class CFAC3105884E574BC_prototype : main_system_coroutine_BaseCoroutineBehaviour
 CFAC3105884E574BC_prototype = L15_1()
 CFAC3105884E574BC.prototype = CFAC3105884E574BC_prototype
 --- main.ui.title.newgame.NewGame.Setup

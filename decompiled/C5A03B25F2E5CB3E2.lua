@@ -2,15 +2,9 @@
 
 ---@class main_ui_title_first_start_base_TitleUIFirstStartViewBase : C5A03B25F2E5CB3E2_prototype
 ---@field prototype C5A03B25F2E5CB3E2_prototype
-L55_1 = _ENV
-L56_1 = "C5A03B25F2E5CB3E2"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C5A03B25F2E5CB3E2"]
-L69_1 = "new"
+C5A03B25F2E5CB3E2 = L15_1()
 
-function L70_1(A0_2)
+function C5A03B25F2E5CB3E2.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C5A03B25F2E5CB3E2
@@ -26,11 +20,7 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C5A03B25F2E5CB3E2"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+function C5A03B25F2E5CB3E2.super(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CDC3F92928A2194E6
   L2_2 = L2_2.super
@@ -39,16 +29,13 @@ function L70_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = "C5A03B25F2E5CB3E2"
-L69_1 = _ENV["C5A03B25F2E5CB3E2"]
-L25_1[L68_1] = L69_1
-L68_1 = _ENV["C5A03B25F2E5CB3E2"]
-L69_1 = "__name__"
-L70_1 = "C5A03B25F2E5CB3E2"
----@class C5A03B25F2E5CB3E2_prototype
+C5A03B25F2E5CB3E2.__name__ = "C5A03B25F2E5CB3E2"
+---@class C5A03B25F2E5CB3E2_prototype : ext_pe_SceneObjectBehavior
+---@field [2] cECF00344
+---@field [3] ti_Coroutine
 C5A03B25F2E5CB3E2_prototype = L15_1()
 C5A03B25F2E5CB3E2.prototype = C5A03B25F2E5CB3E2_prototype
+
 --- main.ui.title.first_start.base.TitleUIFirstStartViewBase.Setup
 function C5A03B25F2E5CB3E2_prototype:F7C68FEDB79AB6396(A1_2)
   local L2_2, L3_2, L4_2
@@ -58,11 +45,7 @@ function C5A03B25F2E5CB3E2_prototype:F7C68FEDB79AB6396(A1_2)
   L3_2 = self
   L4_2 = A1_2
   L2_2(L3_2, L4_2)
-  L2_2 = cECF00344
-  L2_2 = L2_2.fEECE6995
-  L3_2 = self[1]
-  L2_2 = L2_2(L3_2)
-  self[2] = L2_2
+  self[2] = cECF00344.fEECE6995(self[1])
 end
 
 --- main.ui.title.first_start.base.TitleUIFirstStartViewBase.PreUpdate

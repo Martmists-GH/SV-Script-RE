@@ -49,7 +49,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CFA09AC347CF4C5C4"]
 L69_1 = "__name__"
 L70_1 = "CFA09AC347CF4C5C4"
----@class CFA09AC347CF4C5C4_prototype
+---@class CFA09AC347CF4C5C4_prototype : C1DAE5400462DFD75
 CFA09AC347CF4C5C4_prototype = L15_1()
 CFA09AC347CF4C5C4.prototype = CFA09AC347CF4C5C4_prototype
 --- main.ui.btl_team.view.BattleTeamUITeamPokePanel.SetProhibitAnime

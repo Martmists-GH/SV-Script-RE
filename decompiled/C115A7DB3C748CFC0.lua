@@ -47,7 +47,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C115A7DB3C748CFC0"]
 L69_1 = "__name__"
 L70_1 = "C115A7DB3C748CFC0"
----@class C115A7DB3C748CFC0_prototype
+---@class C115A7DB3C748CFC0_prototype : main_event_base_BaseParalleledEvent
 C115A7DB3C748CFC0_prototype = L15_1()
 C115A7DB3C748CFC0.prototype = C115A7DB3C748CFC0_prototype
 --- C115A7DB3C748CFC0.onCreate

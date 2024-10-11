@@ -1,4 +1,6 @@
--- main.ui.status.state.StatusUIStateMain
+---@alias CFEB03A3D376A1C39 main_ui_status_state_StatusUIStateMain
+
+---@class main_ui_status_state_StatusUIStateMain : CFEB03A3D376A1C39_prototype
 CFEB03A3D376A1C39 = L15_1()
 
 function CFEB03A3D376A1C39.new(A0_2)
@@ -22,9 +24,11 @@ function CFEB03A3D376A1C39.super(self, A1_2)
 end
 
 CFEB03A3D376A1C39.__name__ = "CFEB03A3D376A1C39"
-CFEB03A3D376A1C39.prototype = L15_1()
+---@class CFEB03A3D376A1C39_prototype : main_ui_status_state_base_StatusUIStateBase
+CFEB03A3D376A1C39_prototype = L15_1()
+CFEB03A3D376A1C39.prototype = CFEB03A3D376A1C39_prototype
 
-function CFEB03A3D376A1C39.prototype.F831EB679648C287D(self)  -- ActionEvent
+function CFEB03A3D376A1C39_prototype:F831EB679648C287D()  -- ActionEvent
   self[2]:fF88F34BC(self[2]:f015A8108(), self[2]:f44B92869())
 end
 

@@ -1,8 +1,10 @@
+---@class CFFBF9AB56F84FFD2 : CFFBF9AB56F84FFD2_prototype
+---@field prototype CFFBF9AB56F84FFD2_prototype
 CFFBF9AB56F84FFD2 = L15_1()
 
 function CFFBF9AB56F84FFD2.new(A0_2, A1_2, A2_2, A3_2)
   local L4_2
-  L4_2 = L2_1(CFFBF9AB56F84FFD2.prototype, 34, 62)
+  L4_2 = L2_1(CFFBF9AB56F84FFD2_prototype, 34, 62)
   CFFBF9AB56F84FFD2.super(L4_2, A0_2, A1_2, A2_2, A3_2)
   return L4_2
 end
@@ -12,13 +14,15 @@ function CFFBF9AB56F84FFD2.super(self, A1_2, A2_2, A3_2, A4_2)
 end
 
 CFFBF9AB56F84FFD2.__name__ = "CFFBF9AB56F84FFD2"
-CFFBF9AB56F84FFD2.prototype = L15_1()
+---@class CFFBF9AB56F84FFD2_prototype : main_event_base_BaseGeneralEvent
+CFFBF9AB56F84FFD2_prototype = L15_1()
+CFFBF9AB56F84FFD2.prototype = CFFBF9AB56F84FFD2_prototype
 
-function CFFBF9AB56F84FFD2.prototype.FC87C731D11C58354(self)  -- onCreate
+function CFFBF9AB56F84FFD2_prototype:FC87C731D11C58354()  -- onCreate
   self[22].skipPlayerStuckCheck = true
 end
 
-function CFFBF9AB56F84FFD2.prototype.FD8D5F3745B4B5174(self)  -- mainBody
+function CFFBF9AB56F84FFD2_prototype:FD8D5F3745B4B5174()  -- mainBody
   local L1_2, L7_2, L9_2
   L1_2 = CFC8F368D91411014.S474A279FC41C6D90().fieldRoot:fE9C29DA1()  -- main.field.FieldUtility.S474A279FC41C6D90().fieldRoot:fE9C29DA1()
   if L1_2 == "field_outside" then
@@ -60,6 +64,6 @@ function CFFBF9AB56F84FFD2.prototype.FD8D5F3745B4B5174(self)  -- mainBody
   C83457451305E87F8.S29422246DC300331(self[32].destSE, 0, 0.5)
 end
 
-CFFBF9AB56F84FFD2.prototype.__class__ = CFFBF9AB56F84FFD2
+CFFBF9AB56F84FFD2_prototype.__class__ = CFFBF9AB56F84FFD2
 CFFBF9AB56F84FFD2.__super__ = C20F5CD372AAAA08C
-setmetatable(CFFBF9AB56F84FFD2.prototype, {__index = C20F5CD372AAAA08C})
+setmetatable(CFFBF9AB56F84FFD2_prototype, {__index = C20F5CD372AAAA08C})

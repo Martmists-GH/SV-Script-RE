@@ -48,7 +48,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CFA7765DC941D9D2F"]
 L69_1 = "__name__"
 L70_1 = "CFA7765DC941D9D2F"
----@class CFA7765DC941D9D2F_prototype
+---@class CFA7765DC941D9D2F_prototype : main_battle_director_BattleDirectorBase
 CFA7765DC941D9D2F_prototype = L15_1()
 CFA7765DC941D9D2F.prototype = CFA7765DC941D9D2F_prototype
 --- CFA7765DC941D9D2F.PlayCore

@@ -45,7 +45,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CF0D22F21977F7075"]
 L69_1 = "__name__"
 L70_1 = "CF0D22F21977F7075"
----@class CF0D22F21977F7075_prototype
+---@class CF0D22F21977F7075_prototype : main_playables_misc_Statematon
 CF0D22F21977F7075_prototype = L15_1()
 CF0D22F21977F7075.prototype = CF0D22F21977F7075_prototype
 --- CF0D22F21977F7075.onCorrect

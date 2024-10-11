@@ -1,3 +1,7 @@
+---@alias CFF148A1A77849B44 main_ui_battle_debug_DebugRaidBattleUI
+
+---@class main_ui_battle_debug_DebugRaidBattleUI : CFF148A1A77849B44_prototype
+---@field prototype CFF148A1A77849B44_prototype
 CFF148A1A77849B44 = L15_1()
 
 function CFF148A1A77849B44.new(A0_2)
@@ -7,16 +11,14 @@ function CFF148A1A77849B44.new(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFF148A1A77849B44"]
-L69_1 = "super"
-
-function L70_1(self, A1_2)
+function CFF148A1A77849B44.super(self, A1_2)
   CDC3F92928A2194E6.super(self, A1_2)
 end
 
 CFF148A1A77849B44.__name__ = "CFF148A1A77849B44"
-CFF148A1A77849B44.prototype = L15_1()
-CFF148A1A77849B44.prototype.__class__ = CFF148A1A77849B44
+---@class CFF148A1A77849B44_prototype : ext_pe_SceneObjectBehavior
+CFF148A1A77849B44_prototype = L15_1()
+CFF148A1A77849B44.prototype = CFF148A1A77849B44_prototype
+CFF148A1A77849B44_prototype.__class__ = CFF148A1A77849B44
 CFF148A1A77849B44.__super__ = CDC3F92928A2194E6
-setmetatable(CFF148A1A77849B44.prototype, {__index = CDC3F92928A2194E6})
+setmetatable(CFF148A1A77849B44_prototype, {__index = CDC3F92928A2194E6})

@@ -5,7 +5,7 @@
 cB3DDDC2A = {}  -- dummy
 
 ---@class cB3DDDC2A_instance : userdata
----@field f39DD249C fun(self:self,x:userdata):userdata
+---@field f39DD249C fun(self:self,x:c535A0125):userdata
 ---@field fC723824A fun(self:self,x:number,y:string,z:string):void
 ---@field f631566D3 fun(self:self,x:number):void
 ---@field f14125645 fun(self:self,x:number,y:userdata,z:number,a:number):void

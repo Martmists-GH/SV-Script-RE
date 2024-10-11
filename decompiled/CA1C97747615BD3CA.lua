@@ -1,14 +1,8 @@
 ---@class CA1C97747615BD3CA : CA1C97747615BD3CA_prototype
 ---@field prototype CA1C97747615BD3CA_prototype
-L55_1 = _ENV
-L56_1 = "CA1C97747615BD3CA"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["CA1C97747615BD3CA"]
-L69_1 = "new"
+CA1C97747615BD3CA = L15_1()
 
-function L70_1(A0_2, A1_2)
+function CA1C97747615BD3CA.new(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2
   L2_2 = L2_1
   L3_2 = CA1C97747615BD3CA
@@ -25,43 +19,32 @@ function L70_1(A0_2, A1_2)
   return L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CA1C97747615BD3CA"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2, A2_2)
-  local L3_2, L4_2, L5_2
+function CA1C97747615BD3CA.super(A0_2, A1_2, A2_2)
   A0_2[23] = nil
   A0_2[22] = nil
   A0_2[21] = nil
   A0_2[20] = nil
   A0_2[19] = nil
   A0_2[18] = nil
-  L3_2 = CAF6E4A7D736F28F3
-  L3_2 = L3_2.super
-  L4_2 = A0_2
-  L5_2 = A1_2
-  L3_2(L4_2, L5_2)
+  CAF6E4A7D736F28F3.super(A0_2, A1_2)
   A0_2[12] = 0
   A0_2[13] = A2_2
   A0_2[14] = A2_2
-  L3_2 = E6C246E62B9A9864F
-  L3_2 = L3_2.Normal
-  A0_2[15] = L3_2
+  A0_2[15] = E6C246E62B9A9864F.Normal
   A0_2[16] = "effect/battle_ee/ee024/ee024.trtml"
   A0_2[17] = "effect/battle_ee/ee024/ee024.trsot"
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = "CA1C97747615BD3CA"
-L69_1 = _ENV["CA1C97747615BD3CA"]
-L25_1[L68_1] = L69_1
-L68_1 = _ENV["CA1C97747615BD3CA"]
-L69_1 = "__name__"
-L70_1 = "CA1C97747615BD3CA"
----@class CA1C97747615BD3CA_prototype
+CA1C97747615BD3CA.__name__ = "CA1C97747615BD3CA"
+
+---@class CA1C97747615BD3CA_prototype : main_battle_director_BattleDirectorBase
+---@field [12] number
+---@field [15] main_battle_PlayMode
+---@field [16] string
+---@field [17] string
 CA1C97747615BD3CA_prototype = L15_1()
 CA1C97747615BD3CA.prototype = CA1C97747615BD3CA_prototype
+
 --- CA1C97747615BD3CA.PlayCore
 function CA1C97747615BD3CA_prototype:F62979ACB82B7C708()
   local L1_2

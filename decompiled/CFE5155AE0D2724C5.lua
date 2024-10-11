@@ -1,3 +1,5 @@
+---@class CFE5155AE0D2724C5 : CFE5155AE0D2724C5_prototype
+---@field prototype CFE5155AE0D2724C5_prototype
 CFE5155AE0D2724C5 = L15_1()
 
 function CFE5155AE0D2724C5.new(A0_2)
@@ -22,9 +24,11 @@ function CFE5155AE0D2724C5.super(self, A1_2)
 end
 
 CFE5155AE0D2724C5.__name__ = "CFE5155AE0D2724C5"
-CFE5155AE0D2724C5.prototype = L15_1()
+---@class CFE5155AE0D2724C5_prototype : CF8A3359760AE19C3
+CFE5155AE0D2724C5_prototype = L15_1()
+CFE5155AE0D2724C5.prototype = CFE5155AE0D2724C5_prototype
 
-function CFE5155AE0D2724C5.prototype.F65079E9D5273248C(self)  -- onStart
+function CFE5155AE0D2724C5_prototype:F65079E9D5273248C()  -- onStart
   local L1_2, L2_2, L7_2, L8_2
   L1_2 = self
   L2_2 = self[3][3][1][6]
@@ -42,7 +46,7 @@ function CFE5155AE0D2724C5.prototype.F65079E9D5273248C(self)  -- onStart
   self:F2A22971B83958475(2, 0, L7_2, L8_2)  -- self:AddPlayerSignal()
 end
 
-function CFE5155AE0D2724C5.prototype.FC0150FC2959FFA71(self, A1_2)  -- onUpdate
+function CFE5155AE0D2724C5_prototype:FC0150FC2959FFA71(A1_2)  -- onUpdate
   local L2_2
   if self[15] then
     L2_2 = C5C4697E7371E38A7.new(self[3])
@@ -52,11 +56,11 @@ function CFE5155AE0D2724C5.prototype.FC0150FC2959FFA71(self, A1_2)  -- onUpdate
   return E8E40DFB6EBDAB388.kFinish
 end
 
-function CFE5155AE0D2724C5.prototype.FC5FDCCA7599A89D5(self)  -- onEnd
+function CFE5155AE0D2724C5_prototype:FC5FDCCA7599A89D5()  -- onEnd
   self[3][3][1][18][2][40]:FD95AF21936389B80(12)
 end
 
-CFE5155AE0D2724C5.prototype.__class__ = CFE5155AE0D2724C5
+CFE5155AE0D2724C5_prototype.__class__ = CFE5155AE0D2724C5
 CFE5155AE0D2724C5.__super__ = CF8A3359760AE19C3
 setmetatable(CFE5155AE0D2724C5, {__index = CF8A3359760AE19C3})
 

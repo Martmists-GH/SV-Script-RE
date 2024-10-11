@@ -2,7 +2,7 @@
 ---@field f82767FD7 fun(x:userdata,y:userdata):boolean @ IsEqual
 ---@field f7C71267A fun(x:userdata,y:userdata):boolean @ NotEqual
 ---@field f46674724 fun(x:userdata,y:string,z:string,a:string):void
----@field f316077B2 fun(x:userdata,y:string,z:userdata):void
+---@field f316077B2 fun(x:c016374C1,y:string,z:userdata):void
 ---@field fEA571470 fun(x:userdata,y:string,z:userdata,a:number):void
 ---@field f49D44378 fun(x:string):void
 ---@field f6546B9CA fun(x:string,y:number):void

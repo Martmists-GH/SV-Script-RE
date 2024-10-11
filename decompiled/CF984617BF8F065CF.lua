@@ -50,7 +50,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF984617BF8F065CF"]
 L69_1 = "__name__"
 L70_1 = "CF984617BF8F065CF"
----@class CF984617BF8F065CF_prototype
+---@class CF984617BF8F065CF_prototype : C36A5513B438B1EC7
 CF984617BF8F065CF_prototype = L15_1()
 CF984617BF8F065CF.prototype = CF984617BF8F065CF_prototype
 --- main.ui.pokelist.pokelist_state_machine.pokelist_battle_type.PokelistOpenBattleTypeState.Entry

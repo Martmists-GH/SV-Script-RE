@@ -1,3 +1,7 @@
+---@alias CFD9B049511E682DA main_ui_hud_info_HudInfoPlayer
+
+---@class main_ui_hud_info_HudInfoPlayer : CFD9B049511E682DA_prototype
+---@field prototype CFD9B049511E682DA_prototype
 CFD9B049511E682DA = L15_1()
 
 function CFD9B049511E682DA.new()
@@ -15,12 +19,10 @@ function CFD9B049511E682DA.new()
   return L0_2
 end
 
-local KEY_isStartFadeOut = 7
-
 function CFD9B049511E682DA.super(self)
   self[9] = ""
   self[8] = ""
-  self[KEY_isStartFadeOut] = false
+  self[7] = false
   self[6] = 0
   self[5] = 0
   self[4] = 0
@@ -30,21 +32,31 @@ function CFD9B049511E682DA.super(self)
 end
 
 CFD9B049511E682DA.__name__ = "CFD9B049511E682DA"
-CFD9B049511E682DA.prototype = L15_1()
+---@class CFD9B049511E682DA_prototype
+---@field [2] cECF00344
+---@field [3] string
+---@field [4] number
+---@field [5] number
+---@field [6] number
+---@field [7] boolean
+---@field [8] string
+---@field [9] string
+CFD9B049511E682DA_prototype = L15_1()
+CFD9B049511E682DA.prototype = CFD9B049511E682DA_prototype
 
-function CFD9B049511E682DA.prototype.F7C68FEDB79AB6396(self, A1_2, A2_2, A3_2)  -- Setup
+function CFD9B049511E682DA_prototype:F7C68FEDB79AB6396(A1_2, A2_2, A3_2)  -- Setup
   self[1] = A1_2
   self[2] = A2_2
   self[3] = A3_2
   self[5] = 0
 end
 
-function CFD9B049511E682DA.prototype.FE94F3E13286232CF(self)  -- PreUpdate
+function CFD9B049511E682DA_prototype:FE94F3E13286232CF()  -- PreUpdate
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
   L1_2 = self[5]
   if 0 == L1_2 then
     self[2]:f7798D9F4(self[3], false)
-    self[KEY_isStartFadeOut] = false
+    self[7] = false
     self[5] = 6
   elseif 6 == L1_2 then
   elseif 10 == L1_2 then
@@ -89,7 +101,7 @@ function CFD9B049511E682DA.prototype.FE94F3E13286232CF(self)  -- PreUpdate
     L6_2 = L6_2(L7_2)
     L5_2 = L5_2 .. L6_2
     L3_2(L4_2, L5_2)
-    self[KEY_isStartFadeOut] = true
+    self[7] = true
     self[5] = 20
   elseif 20 == L1_2 then
     L2_2 = self[2]
@@ -116,15 +128,15 @@ function CFD9B049511E682DA.prototype.FE94F3E13286232CF(self)  -- PreUpdate
   end
 end
 
-function CFD9B049511E682DA.prototype.FE91C8D2FFC5585CB(self)  -- IsStartFadeOut
-  return self[KEY_isStartFadeOut]
+function CFD9B049511E682DA_prototype:FE91C8D2FFC5585CB()  -- IsStartFadeOut
+  return self[7]
 end
 
-function CFD9B049511E682DA.prototype.FFC7312AA44705E34(self)  -- IsIdl
+function CFD9B049511E682DA_prototype:FFC7312AA44705E34()  -- IsIdl
   return self[5] == 6
 end
 
-function CFD9B049511E682DA.prototype.F53E65761662EE759(self, A1_2, A2_2)
+function CFD9B049511E682DA_prototype:F53E65761662EE759(A1_2, A2_2)
   self[8] = A1_2
   self[9] = A2_2
   self[5] = 10
@@ -134,7 +146,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CFD9B049511E682DA"]["prototype"]
 L69_1 = "FFCA38BA0AA857885"
 
-function CFD9B049511E682DA.prototype.FFCA38BA0AA857885(self)  -- setUpText
+function CFD9B049511E682DA_prototype:FFCA38BA0AA857885()  -- setUpText
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L1_2 = c8C3BF576
   L1_2 = L1_2.fC8CEF9EF
@@ -196,4 +208,4 @@ function CFD9B049511E682DA.prototype.FFCA38BA0AA857885(self)  -- setUpText
   L4_2(L5_2, L6_2, L7_2)
 end
 
-CFD9B049511E682DA.prototype.__class__ = CFD9B049511E682DA
+CFD9B049511E682DA_prototype.__class__ = CFD9B049511E682DA

@@ -1,7 +1,7 @@
 ---@alias CFFD5BC9198F67F25 main_battle_parts_BattleBallResource
 
 ---@class main_battle_parts_BattleBallResource : CFFD5BC9198F67F25_prototype
----@field_prototype CFFD5BC9198F67F25_prototype
+---@field prototype CFFD5BC9198F67F25_prototype
 CFFD5BC9198F67F25 = L15_1()
 
 function CFFD5BC9198F67F25.new(A0_2)

@@ -48,7 +48,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CF977478F0D89B924"]
 L69_1 = "__name__"
 L70_1 = "CF977478F0D89B924"
----@class CF977478F0D89B924_prototype
+---@class CF977478F0D89B924_prototype : ext_pe_SceneObjectBehavior
 CF977478F0D89B924_prototype = L15_1()
 CF977478F0D89B924.prototype = CF977478F0D89B924_prototype
 --- main.ui.waza_remember.debug.DebugWazaRememberUIImGui.Setup

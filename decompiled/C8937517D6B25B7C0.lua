@@ -41,7 +41,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C8937517D6B25B7C0"]
 L69_1 = "__name__"
 L70_1 = "C8937517D6B25B7C0"
----@class C8937517D6B25B7C0_prototype
+---@class C8937517D6B25B7C0_prototype : main_ui_util_UIStateBase
 C8937517D6B25B7C0_prototype = L15_1()
 C8937517D6B25B7C0.prototype = C8937517D6B25B7C0_prototype
 --- main.ui.btlspot.state_machine.base.BattleSpotStateBase.get_uiManager

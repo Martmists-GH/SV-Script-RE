@@ -16,9 +16,6 @@ function CFCC532A987EEAC69.new(A0_2)
   return L1_2
 end
 
-local KEY_rayDistance = 9
-local KEY_lrAngle = 8
-
 function CFCC532A987EEAC69.super(self, A1_2)
   C967F1FA48596AFC5.super(self, A1_2)
   self:F50AFD9E6451513F5(CA5EA85D96A5EBA15.SAD5CCB7549BC2093(A1_2, "left_and_right_angle"))  -- A0_2:set_LRAngle(CA5EA85D96A5EBA15.GetFloat(A1_2, "left_and_right_angle"))
@@ -38,9 +35,9 @@ function CFCC532A987EEAC69.prototype.F50AFD9E6451513F5(self, A1_2)  -- set_LRAng
     L2_2 = 0
   end
   
-  self[KEY_lrAngle] = L2_2
-  self[7] = self[KEY_lrAngle] / 360.0 * 2 * L10_1.math.pi
-  return self[KEY_lrAngle]
+  self[8] = L2_2
+  self[7] = self[8] / 360.0 * 2 * math.pi
+  return self[8]
 end
 
 function CFCC532A987EEAC69.prototype.FC9C4C1A6111B900B(self, A1_2)  -- set_RayDistance
@@ -51,8 +48,8 @@ function CFCC532A987EEAC69.prototype.FC9C4C1A6111B900B(self, A1_2)  -- set_RayDi
     L2_2 = 0
   end
   
-  self[KEY_rayDistance] = L2_2
-  return self[KEY_rayDistance]
+  self[9] = L2_2
+  return self[9]
 end
 
 function CFCC532A987EEAC69.prototype.F206D6D51E91AFDB8(self, A1_2)

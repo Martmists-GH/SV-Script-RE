@@ -170,7 +170,7 @@ function C916675E6CD711E0A.S7D73920C10329F93(A0_2)
   end
 end
 
----@class C916675E6CD711E0A_prototype
+---@class C916675E6CD711E0A_prototype : main_event_base_BaseEventScript
 C916675E6CD711E0A_prototype = L15_1()
 C916675E6CD711E0A.prototype = C916675E6CD711E0A_prototype
 --- main.event.base.BaseScenarioEvent.onCreateCommon

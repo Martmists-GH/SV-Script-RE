@@ -1,8 +1,8 @@
----@alias main_ui_title_first_start_player_select_view_base_PlayerSelectUIBase CFFE6D2CD907B3D13
+---@alias CFFE6D2CD907B3D13 main_ui_title_first_start_player_select_view_base_PlayerSelectUIBase
 
 
----@class CFFE6D2CD907B3D13 : CFFE6D2CD907B3D13_prototype
----@field_prototype CFFE6D2CD907B3D13_prototype
+---@class main_ui_title_first_start_player_select_view_base_PlayerSelectUIBase : CFFE6D2CD907B3D13_prototype
+---@field prototype CFFE6D2CD907B3D13_prototype
 CFFE6D2CD907B3D13 = L15_1()
 
 function CFFE6D2CD907B3D13.new(A0_2)

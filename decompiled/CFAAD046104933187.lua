@@ -59,7 +59,7 @@ function L70_1()
   return L1_2
 end
 
----@class CFAAD046104933187_prototype
+---@class CFAAD046104933187_prototype : CE0D511325372F946
 CFAAD046104933187_prototype = L15_1()
 CFAAD046104933187.prototype = CFAAD046104933187_prototype
 --- main.system.game_event.GameEventWalkCountUp.onUpdate

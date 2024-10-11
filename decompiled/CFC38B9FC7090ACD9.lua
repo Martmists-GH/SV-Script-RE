@@ -77,7 +77,7 @@ function CFC38B9FC7090ACD9.SFCE091807173F6E9(A0_2)
   return L1_2
 end
 
----@class CFC38B9FC7090ACD9_prototype
+---@class CFC38B9FC7090ACD9_prototype : CE0D511325372F946
 CFC38B9FC7090ACD9_prototype = L15_1()
 CFC38B9FC7090ACD9.prototype = CFC38B9FC7090ACD9_prototype
 --- main.system.game_event.GameEventPokePicnic.onCreate

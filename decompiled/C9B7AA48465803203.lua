@@ -89,7 +89,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C9B7AA48465803203"]
 L69_1 = "__name__"
 L70_1 = "C9B7AA48465803203"
----@class C9B7AA48465803203_prototype
+---@class C9B7AA48465803203_prototype : ext_pe_SceneObjectBehavior
 C9B7AA48465803203_prototype = L15_1()
 C9B7AA48465803203.prototype = C9B7AA48465803203_prototype
 --- main.system.coroutine.BaseCoroutineBehaviour.PreUpdate

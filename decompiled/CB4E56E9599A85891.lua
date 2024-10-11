@@ -65,15 +65,10 @@ L69_1 = "__name__"
 L70_1 = "CB4E56E9599A85891"
 --- main.pokepicnic.PokePicnicManager.GetInstance
 function CB4E56E9599A85891.S0B3F69C4549A0284(A0_2)
-  local L1_2
   if 0 == A0_2 then
-    L1_2 = CB4E56E9599A85891
-    L1_2 = L1_2.S264F26F6894F3392
-    return L1_2
+    return CB4E56E9599A85891.S264F26F6894F3392
   elseif 1 == A0_2 then
-    L1_2 = CB4E56E9599A85891
-    L1_2 = L1_2.S986C44931602B6E3
-    return L1_2
+    return CB4E56E9599A85891.S986C44931602B6E3
   end
 end
 

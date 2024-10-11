@@ -1,7 +1,9 @@
--- main.util.CompositionCamera
+---@alias CFEA9C3BFB3FCD429 main_util_CompositionCamera
+
+---@class main_util_CompositionCamera
 CFEA9C3BFB3FCD429 = L15_1()
 CFEA9C3BFB3FCD429.new = {}
-CFEA9C3BFB3FCD429.__name = "CFEA9C3BFB3FCD429"
+CFEA9C3BFB3FCD429.__name__ = "CFEA9C3BFB3FCD429"
 
 function CFEA9C3BFB3FCD429.S1870754F68D7E98F(A0_2, A1_2, A2_2, A3_2, A4_2)  -- CalcAngle
   local L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2

@@ -47,7 +47,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CBF5F9FF53F0465F6"]
 L69_1 = "__name__"
 L70_1 = "CBF5F9FF53F0465F6"
----@class CBF5F9FF53F0465F6_prototype
+---@class CBF5F9FF53F0465F6_prototype : main_system_coroutine_BaseCoroutineObject
 CBF5F9FF53F0465F6_prototype = L15_1()
 CBF5F9FF53F0465F6.prototype = CBF5F9FF53F0465F6_prototype
 --- main.ui.util.UIStateBase.OnEntry

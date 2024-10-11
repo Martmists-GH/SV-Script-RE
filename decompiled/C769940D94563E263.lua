@@ -24,7 +24,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C769940D94563E263"]
 L69_1 = "__name__"
 L70_1 = "C769940D94563E263"
----@class C769940D94563E263_prototype
+---@class C769940D94563E263_prototype : main_event_base_BaseScenarioEvent
 C769940D94563E263_prototype = L15_1()
 C769940D94563E263.prototype = C769940D94563E263_prototype
 --- main.event.base.BaseMainEvent.onCreateCommon
