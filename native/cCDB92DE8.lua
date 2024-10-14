@@ -1,29 +1,27 @@
 ---@class cCDB92DE8 : userdata
----@field fE1BA6501 fun():void
----@field fBD8DAB24 fun():void
----@field f1555480B fun():void
----@field f6252789D fun():void
+---@field fE1BA6501 fun(x:userdata,y:userdata):boolean
+---@field fBD8DAB24 fun(x:userdata,y:userdata):boolean
+---@field f1555480B fun(x:c016374C1):userdata
+---@field f6252789D fun(x:c016374C1,y:userdata):userdata
 ---@field f657574AC fun():void
 ---@field fE758CA39 fun():void
----@field fBC5E099E fun():void
----@field f8A06ABD7 fun():void
+---@field fBC5E099E fun(x:boolean):number
+---@field f8A06ABD7 fun():number
 ---@field fB3F88E28 fun():void
 ---@field f3117BBBF fun():void
 ---@field fCE81D3F3 fun():void
 ---@field f322E08FC fun():void
----@field fF8320392 fun():void
----@field f1D8F9FCD fun():void
----@field f9A6EFC5C fun():void
----@field fBF657742 fun():void
----@field f029621B5 fun():void
----@field f7223E69B fun():void
----@field fA0255840 fun():void
+---@field fF8320392 fun():boolean
+---@field f1D8F9FCD fun():number
+---@field f9A6EFC5C fun():userdata
+---@field fBF657742 fun(x:userdata):void
+---@field f029621B5 fun():boolean
+---@field f7223E69B fun(x:number):boolean
+---@field fA0255840 fun():userdata
 ---@field f8247AA2F fun():void
----@field f305B82C8 fun():void
+---@field f305B82C8 fun():boolean
 ---@field f083B4EE7 fun():void
 ---@field f886CC622 fun():void
 ---@field fF70EBD62 fun():void
 ---@field f926A8DCD fun():void
 cCDB92DE8 = {}  -- dummy
----THIS FILE IS A TODO---
-

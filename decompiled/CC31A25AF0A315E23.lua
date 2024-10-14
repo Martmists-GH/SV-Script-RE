@@ -36,9 +36,7 @@ function CC31A25AF0A315E23.super(A0_2)
   A0_2[4] = 0
   A0_2[3] = nil
   A0_2[2] = nil
-  L1_2 = E7D0EC8AD7EAF7A5A
-  L1_2 = L1_2.None
-  A0_2[1] = L1_2
+  A0_2[1] = E7D0EC8AD7EAF7A5A.None
 end
 
 CC31A25AF0A315E23.__name__ = "CC31A25AF0A315E23"
@@ -65,27 +63,33 @@ function L70_1()
 end
 
 ---@class CC31A25AF0A315E23_prototype
+---@field [1] main_battle_ui__BattleUiPokeList_BattleUiPokeListState
+---@field [4] number
+---@field [5] number
+---@field [6] PokeSelParam @ pokeSelParam
+---@field [7] any @ pokeSelResult
+---@field [8] boolean
+---@field [10] boolean @ isPokemonSwap
+---@field [11] boolean
+---@field [12] boolean
+---@field [13] boolean
+---@field [14] boolean
+---@field [15] boolean
 CC31A25AF0A315E23_prototype = L15_1()
 CC31A25AF0A315E23.prototype = CC31A25AF0A315E23_prototype
 --- main.battle.ui.BattleUiPokeList.GetPokeSelParam
 function CC31A25AF0A315E23_prototype:F52FF5E25CE50690F()
-  local L1_2
-  L1_2 = self[6]
-  return L1_2
+  return self[6]
 end
 
 --- main.battle.ui.BattleUiPokeList.GetPokeSelResult
 function CC31A25AF0A315E23_prototype:FCC411B4F00BA82E7()
-  local L1_2
-  L1_2 = self[7]
-  return L1_2
+  return self[7]
 end
 
 --- main.battle.ui.BattleUiPokeList.IsPokemonSwap
 function CC31A25AF0A315E23_prototype:F08C6AF1D36786F49()
-  local L1_2
-  L1_2 = self[10]
-  return L1_2
+  return self[10]
 end
 
 --- main.battle.ui.BattleUiPokeList.SetPokemonSwapFlag
@@ -95,16 +99,12 @@ end
 
 --- main.battle.ui.BattleUiPokeList.F366DCB3238C92C2B
 function CC31A25AF0A315E23_prototype:F366DCB3238C92C2B()
-  local L1_2
-  L1_2 = self[11]
-  return L1_2
+  return self[11]
 end
 
 --- main.battle.ui.BattleUiPokeList.F67FF2D8EEE4A0A9D
 function CC31A25AF0A315E23_prototype:F67FF2D8EEE4A0A9D()
-  local L1_2
-  L1_2 = self[12]
-  return L1_2
+  return self[12]
 end
 
 --- main.battle.ui.BattleUiPokeList.FBB36350882CBBFDD
@@ -114,9 +114,7 @@ end
 
 --- main.battle.ui.BattleUiPokeList.F6291DE9151E70C48
 function CC31A25AF0A315E23_prototype:F6291DE9151E70C48()
-  local L1_2
-  L1_2 = self[13]
-  return L1_2
+  return self[13]
 end
 
 --- main.battle.ui.BattleUiPokeList.FCFF6E6D3883C36D0
@@ -126,75 +124,27 @@ end
 
 --- main.battle.ui.BattleUiPokeList.FCF21D5C3335A8804
 function CC31A25AF0A315E23_prototype:FCF21D5C3335A8804()
-  local L1_2, L2_2
-  L1_2 = self[3]
-  if nil ~= L1_2 then
-    L1_2 = self[3]
-    L2_2 = L1_2
-    L1_2 = L1_2.F108C51F8058BBCC5
-    return L1_2(L2_2)
+  if nil ~= self[3] then
+    return self[3]:F108C51F8058BBCC5()
   else
-    L1_2 = false
-    return L1_2
+    return false
   end
 end
 
 --- main.battle.ui.BattleUiPokeList.StartPokeListCommon
 function CC31A25AF0A315E23_prototype:F4185400B29D2082B()
-  local L1_2, L2_2, L3_2, L4_2
-  L1_2 = self[9]
-  L1_2 = L1_2[12]
-  L2_2 = L1_2
-  L1_2 = L1_2.FFBA610A3759B94AA
-  L1_2 = L1_2(L2_2)
-  self[3] = L1_2
-  L1_2 = self[3]
-  L2_2 = L1_2
-  L1_2 = L1_2.F7EED485852A4D25F
-  L3_2 = self[9]
-  L1_2(L2_2, L3_2)
-  L1_2 = cCDB92DE8
-  L1_2 = L1_2.fF8320392
-  L1_2 = L1_2()
-  L2_2 = self[9]
-  L3_2 = L2_2
-  L2_2 = L2_2.F091397B4B2804EF0
-  L2_2 = L2_2(L3_2)
-  L2_2 = L2_2[110]
-  if L2_2 then
-    L2_2 = self[9]
-    L2_2 = L2_2[12]
-    L3_2 = L2_2
-    L2_2 = L2_2.F3432E012426B79C1
-    L2_2 = L2_2(L3_2)
-    if L2_2 then
+  self[3] = self[9][12]:FFBA610A3759B94AA()
+  self[3]:F7EED485852A4D25F(self[9])
+  local L1_2 = cCDB92DE8.fF8320392()
+  if self[9]:F091397B4B2804EF0()[110] then
+    if self[9][12]:F3432E012426B79C1() then
       L1_2 = false
     end
   end
-  L2_2 = self[3]
-  L3_2 = L2_2
-  L2_2 = L2_2.FFD43E8920F5A83D9
-  L4_2 = L1_2
-  L2_2(L3_2, L4_2)
-  L2_2 = self[9]
-  L2_2 = L2_2[12]
-  L3_2 = L2_2
-  L2_2 = L2_2.F76C12E68A1035C69
-  L2_2(L3_2)
-  L2_2 = cB66A3C78
-  L2_2 = L2_2.fA925EE56
-  L2_2 = L2_2()
-  L3_2 = L2_2
-  L2_2 = L2_2.f10214888
-  L4_2 = "SET_STATE_BATTLE_UI_PARTY_PM"
-  L2_2(L3_2, L4_2)
-  L2_2 = cB66A3C78
-  L2_2 = L2_2.fA925EE56
-  L2_2 = L2_2()
-  L3_2 = L2_2
-  L2_2 = L2_2.f10214888
-  L4_2 = "SET_STATE_BATTLE_PM"
-  L2_2(L3_2, L4_2)
+  self[3]:FFD43E8920F5A83D9(L1_2)
+  self[9][12]:F76C12E68A1035C69()
+  L2_2 = cB66A3C78.fA925EE56():f10214888("SET_STATE_BATTLE_UI_PARTY_PM")
+  L2_2 = cB66A3C78.fA925EE56():f10214888("SET_STATE_BATTLE_PM")
   self[11] = true
   self[12] = false
   self[8] = false
@@ -203,30 +153,17 @@ end
 
 --- main.battle.ui.BattleUiPokeList.StartPokelist
 function CC31A25AF0A315E23_prototype:F29C056CB22A36A92(A1_2, A2_2, A3_2, A4_2)
-  local L5_2, L6_2, L7_2, L8_2
   self[9] = A1_2
   self[4] = A3_2
   self[6] = A2_2
   self[7] = A4_2
   self[14] = false
-  L5_2 = nil
-  L6_2 = c57CD6504
-  L6_2 = L6_2.fF93B7EC1
-  L7_2 = self[6]
-  L8_2 = L5_2
-  L6_2 = L6_2(L7_2, L8_2)
-  if L6_2 then
-    L6_2 = self[6]
-    L7_2 = L6_2
-    L6_2 = L6_2.fC1909948
-    L6_2 = L6_2(L7_2)
-    self[2] = L6_2
+  if c57CD6504.fF93B7EC1(self[6], nil) then
+    self[2] = self[6]:fC1909948()
   else
     self[2] = nil
   end
-  L7_2 = self
-  L6_2 = self.F4185400B29D2082B
-  L6_2(L7_2)
+  self:F4185400B29D2082B()
 end
 
 --- main.battle.ui.BattleUiPokeList.FF92AC0F26F980325
