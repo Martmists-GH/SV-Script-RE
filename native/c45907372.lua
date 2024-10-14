@@ -1,0 +1,30 @@
+---@class c45907372 : userdata
+---@field f6F970D15 fun():void
+---@field f56F0A609 fun():void
+---@field fBF2F8EB6 fun():void
+---@field fC828BE20 fun():void
+---@field fC63F2396 fun():void
+---@field f138C88AE fun():void
+---@field fFEB80F3B fun():void
+---@field f9D8E3C5E fun():void
+---@field fE992762B fun():void
+---@field f580B0C79 fun():void
+---@field fBE860A21 fun():void
+---@field fA3902F40 fun():void
+---@field f987EA1E7 fun():void
+---@field fCFD025B9 fun():void
+---@field fC1281A7F fun():void
+---@field f90E70ABA fun():void
+---@field fA5915A11 fun():void
+---@field fB6326502 fun():void
+---@field fED6F25AD fun():void
+---@field f88E1F0E2 fun():void
+---@field f81974328 fun():void
+---@field fEBAFD684 fun():void
+---@field f977ED52A fun():void
+---@field f9E9D368B fun():void
+---@field f708E0967 fun():void
+---@field f46A1228C fun():void
+c45907372 = {}  -- dummy
+---THIS FILE IS A TODO---
+

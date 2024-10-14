@@ -1,0 +1,27 @@
+---@class cAFA806BC : userdata
+---@field f50EA0C38 fun():void
+---@field f698DA724 fun():void
+---@field f239852A5 fun():void
+---@field fF66F4D04 fun():void
+---@field f44E93193 fun():void
+---@field f2D417D76 fun():void
+---@field f96C53228 fun():void
+---@field fD2C1536D fun():void
+---@field f031F5B66 fun():void
+---@field f2614D078 fun():void
+---@field f8095E953 fun():void
+---@field f63115090 fun():void
+---@field fCD3A10EC fun():void
+---@field f8540F822 fun():void
+---@field fDC5DEE75 fun():void
+---@field f93C97C21 fun():void
+---@field f3DE23C5D fun():void
+---@field f3638EE74 fun():void
+---@field fE3CFF1D5 fun():void
+---@field f1AE84662 fun():void
+---@field f7EB1F8D0 fun():void
+---@field f9D3969BA fun():void
+---@field f6597B6D2 fun():void
+cAFA806BC = {}  -- dummy
+---THIS FILE IS A TODO---
+

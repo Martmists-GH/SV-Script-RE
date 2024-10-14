@@ -1,0 +1,45 @@
+---@class cCB5F4E51 : userdata
+---@field f6F444AA9 fun():void
+---@field f1C3269B0 fun():void
+---@field f931DE2B3 fun():void
+---@field fF7445C01 fun():void
+---@field f01FE55AC fun():void
+---@field f3B5379BA fun():void
+---@field f444DCACD fun():void
+---@field f70E2A917 fun():void
+---@field f002D9EEC fun():void
+---@field f202BBF53 fun():void
+---@field f2F3569D0 fun():void
+---@field f0A0212B2 fun():void
+---@field f53FF8D4A fun():void
+---@field f135A62C6 fun():void
+---@field f77C1A2F8 fun():void
+---@field fA5229259 fun():void
+---@field f55464E03 fun():void
+---@field f2BA5489E fun():void
+---@field f791D1CED fun():void
+---@field f7C3BD13B fun():void
+---@field f66590E32 fun():void
+---@field f06E71DCF fun():void
+---@field f8A47C838 fun():void
+---@field fEFB30199 fun():void
+---@field f90ADB2EE fun():void
+---@field f0D16B5E3 fun():void
+---@field f79A879AF fun():void
+---@field f1E968788 fun():void
+---@field f618834FF fun():void
+---@field fF126835C fun():void
+---@field f64E1BEC3 fun():void
+---@field f899096C6 fun():void
+---@field f10377633 fun():void
+---@field f32951FCF fun():void
+---@field f7D60F279 fun():void
+---@field f3129E894 fun():void
+---@field f41E6DF6F fun():void
+---@field fA11739BF fun():void
+---@field f68D65798 fun():void
+---@field f857BA8A3 fun():void
+---@field f7F519E4B fun():void
+cCB5F4E51 = {}  -- dummy
+---THIS FILE IS A TODO---
+

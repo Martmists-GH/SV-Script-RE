@@ -1,0 +1,33 @@
+---@class c09ADBEA6 : c09ADBEA6_instance
+---@field fCB8C01A0 fun():void
+---@field f61B99B27 fun():void
+---@field fB41FD22F fun():void
+c09ADBEA6 = {}  -- dummy
+
+---@class c09ADBEA6_instance : userdata
+---@field f4B814EA7 fun(self:self):void
+---@field f4364264B fun(self:self):void
+---@field fC666E86A fun(self:self):void
+---@field f51CC88A7 fun(self:self):void
+---@field f9C4AFB7F fun(self:self):void
+---@field f9E103EC0 fun(self:self):void
+---@field f2A1A9093 fun(self:self):void
+---@field f051A376C fun(self:self):void
+---@field f632A2310 fun(self:self):void
+---@field f1476D305 fun(self:self):void
+---@field f4BAF20DE fun(self:self):void
+---@field fE089093C fun(self:self):void
+---@field f4C53099B fun(self:self):void
+---@field f530FC183 fun(self:self):void
+---@field f97D5763E fun(self:self):void
+---@field f53158C45 fun(self:self):void
+---@field f11765C20 fun(self:self):void
+---@field f87E4ABB2 fun(self:self):void
+---@field fB1851636 fun(self:self):void
+---@field fEF97DFBF fun(self:self):void
+---@field fE27849E7 fun(self:self):void
+---@field f37567F31 fun(self:self):void
+---@field f374C32F7 fun(self:self):void
+---@field f347DD73E fun(self:self):void
+---THIS FILE IS A TODO---
+

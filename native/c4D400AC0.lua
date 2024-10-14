@@ -1,0 +1,26 @@
+---@class c4D400AC0 : userdata
+---@field f186A84EA fun():void
+---@field f0C52BF0E fun():void
+---@field f5770F782 fun():void
+---@field f635E7B9C fun():void
+---@field f8F112964 fun():void
+---@field fADD29474 fun():void
+---@field f48603105 fun():void
+---@field fDB830BB0 fun():void
+---@field fBD7489F5 fun():void
+---@field fBBA6619F fun():void
+---@field fAC449469 fun():void
+---@field f263D7D28 fun():void
+---@field fFD180D3D fun():void
+---@field f757B05B0 fun():void
+---@field f37737462 fun():void
+---@field fD7C6549F fun():void
+---@field f541C4B17 fun():void
+---@field fD961BFD2 fun():void
+---@field f07578A96 fun():void
+---@field fE8E53DDE fun():void
+---@field f9D2C70C8 fun():void
+---@field fBB980BEE fun():void
+c4D400AC0 = {}  -- dummy
+---THIS FILE IS A TODO---
+

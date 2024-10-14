@@ -1,0 +1,53 @@
+---@class c77DAA664 : c77DAA664_instance
+---@field f441C9DC1 fun():void
+---@field f9CC3E2DC fun():void
+---@field fB41FD22F fun():void
+c77DAA664 = {}  -- dummy
+
+---@class c77DAA664_instance : userdata
+---@field fD24A1573 fun(self:self):void
+---@field fA2290207 fun(self:self):void
+---@field fA8FB92F0 fun(self:self):void
+---@field fDB44C5B2 fun(self:self):void
+---@field fA0707565 fun(self:self):void
+---@field f79614FAE fun(self:self):void
+---@field f9231E624 fun(self:self):void
+---@field f47D0C870 fun(self:self):void
+---@field fF2CC8179 fun(self:self):void
+---@field f4573DC02 fun(self:self):void
+---@field fB560174B fun(self:self):void
+---@field fB90F1D49 fun(self:self):void
+---@field f21CBC297 fun(self:self):void
+---@field f04C04989 fun(self:self):void
+---@field f70EFE568 fun(self:self):void
+---@field f55E46E76 fun(self:self):void
+---@field f75FE7FDE fun(self:self):void
+---@field f9760DFC7 fun(self:self):void
+---@field f2C7B9325 fun(self:self):void
+---@field fE08FDDDD fun(self:self):void
+---@field f8DCF91ED fun(self:self):void
+---@field fA38AB07F fun(self:self):void
+---@field f0173BBB4 fun(self:self):void
+---@field fF05FA8C9 fun(self:self):void
+---@field f3473AE8A fun(self:self):void
+---@field fFA6D54A6 fun(self:self):void
+---@field f10271600 fun(self:self):void
+---@field f1F39C083 fun(self:self):void
+---@field fB14B25E0 fun(self:self):void
+---@field fE85633B7 fun(self:self):void
+---@field fC64C1576 fun(self:self):void
+---@field f9F510321 fun(self:self):void
+---@field f9441D7B9 fun(self:self):void
+---@field fEB5F64CE fun(self:self):void
+---@field fF66B1DC9 fun(self:self):void
+---@field f9232A37B fun(self:self):void
+---@field f33B19B9E fun(self:self):void
+---@field f16BA1080 fun(self:self):void
+---@field f99E37CBC fun(self:self):void
+---@field fC0FE6AEB fun(self:self):void
+---@field f0FF4C46E fun(self:self):void
+---@field fA1DF8412 fun(self:self):void
+---@field f95DA34C1 fun(self:self):void
+---@field f6FF00229 fun(self:self):void
+---THIS FILE IS A TODO---
+

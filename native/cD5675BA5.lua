@@ -1,0 +1,60 @@
+---@class cD5675BA5 : cD5675BA5_instance
+---@field f1C9D9E00 fun():void
+---@field f15834BF3 fun():void
+---@field f0DC6CEFD fun():void
+---@field f7AC1FE6B fun():void
+---@field fE3C8AFD1 fun():void
+---@field f94CF9F47 fun():void
+---@field f0AAB0AE4 fun():void
+---@field f7DAC3A72 fun():void
+---@field fE4A56BC8 fun():void
+---@field f0151A26E fun():void
+---@field fB5706664 fun():void
+---@field fC1785368 fun():void
+---@field fA66AE1A5 fun():void
+---@field fFA44D7AF fun():void
+---@field f17EF09C7 fun():void
+---@field f0B717451 fun():void
+---@field f7C7644C7 fun():void
+---@field fD9D3C136 fun():void
+---@field f6ED31C2F fun():void
+---@field f748E1697 fun():void
+---@field f74C1A5DE fun():void
+---@field fBE61A5F8 fun():void
+---@field f94EDA9E7 fun():void
+---@field f40FA7004 fun():void
+---@field fDEF447CC fun():void
+---@field f2135E276 fun():void
+---@field fD2EB105A fun():void
+---@field f530C2CA3 fun():void
+---@field f9F4C3CD9 fun():void
+cD5675BA5 = {}  -- dummy
+
+---@class cD5675BA5_instance : userdata
+---@field f2F440732 fun(self:self):void
+---@field fCCBD9548 fun(self:self):void
+---@field f13C65580 fun(self:self):void
+---@field fBBBAA5DE fun(self:self):void
+---@field f64C16516 fun(self:self):void
+---@field f22B3F464 fun(self:self):void
+---@field fFDC834AC fun(self:self):void
+---@field f5C0288D9 fun(self:self):void
+---@field f83794811 fun(self:self):void
+---@field f56310C93 fun(self:self):void
+---@field f21363C05 fun(self:self):void
+---@field fB83F6DBF fun(self:self):void
+---@field fCF385D29 fun(self:self):void
+---@field f609B00D7 fun(self:self):void
+---@field fCA247E7A fun(self:self):void
+---@field fBD234EEC fun(self:self):void
+---@field f78531D35 fun(self:self):void
+---@field f602B9121 fun(self:self):void
+---@field fDAFF56CD fun(self:self):void
+---@field f643B5D6F fun(self:self):void
+---@field f04EE1F22 fun(self:self):void
+---@field fBD92E0EC fun(self:self):void
+---@field f92852F73 fun(self:self):void
+---@field f1087DA78 fun(self:self):void
+---@field f4999A377 fun(self:self):void
+---THIS FILE IS A TODO---
+

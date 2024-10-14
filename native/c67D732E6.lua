@@ -1,0 +1,57 @@
+---@class c67D732E6 : c67D732E6_instance
+---@field fBFF82B4E fun():void
+---@field fE49376D0 fun():void
+---@field f3DF720C5 fun():void
+c67D732E6 = {}  -- dummy
+
+---@class c67D732E6_instance : userdata
+---@field f0BDE77E0 fun(self:self):void
+---@field f15F1C0A9 fun(self:self):void
+---@field fE8A78101 fun(self:self):void
+---@field f17818073 fun(self:self):void
+---@field f85D5D627 fun(self:self):void
+---@field f300CF0E8 fun(self:self):void
+---@field f14AA062D fun(self:self):void
+---@field f10DC3F5F fun(self:self):void
+---@field fD92F5122 fun(self:self):void
+---@field f30A4922B fun(self:self):void
+---@field f2BB082A9 fun(self:self):void
+---@field f5F0E4EE5 fun(self:self):void
+---@field fA182999E fun(self:self):void
+---@field fF7A26BC5 fun(self:self):void
+---@field f93FBD577 fun(self:self):void
+---@field f7353625F fun(self:self):void
+---@field f9A684FEA fun(self:self):void
+---@field f4672E5BF fun(self:self):void
+---@field f898C4374 fun(self:self):void
+---@field f27A70308 fun(self:self):void
+---@field f0CFF26D7 fun(self:self):void
+---@field fA12EEF88 fun(self:self):void
+---@field fEB5AFE99 fun(self:self):void
+---@field f024591CA fun(self:self):void
+---@field f308B3209 fun(self:self):void
+---@field fA8B79C7C fun(self:self):void
+---@field f647A7068 fun(self:self):void
+---@field f3D67663F fun(self:self):void
+---@field fA9E08162 fun(self:self):void
+---@field f5CB65823 fun(self:self):void
+---@field f40587123 fun(self:self):void
+---@field fAE92E8C8 fun(self:self):void
+---@field f54B8DE20 fun(self:self):void
+---@field f2A254C6B fun(self:self):void
+---@field f73385A3C fun(self:self):void
+---@field f46FC4453 fun(self:self):void
+---@field fC63A89F5 fun(self:self):void
+---@field fBDC0E7DB fun(self:self):void
+---@field fA048C27F fun(self:self):void
+---@field f77C734DC fun(self:self):void
+---@field fD46D5949 fun(self:self):void
+---@field f79B84D87 fun(self:self):void
+---@field f0E7052FA fun(self:self):void
+---@field f1AF52A59 fun(self:self):void
+---@field fAF62D2B4 fun(self:self):void
+---@field fCB3B6C06 fun(self:self):void
+---@field f676E7A94 fun(self:self):void
+---@field f9F9F4545 fun(self:self):void
+---THIS FILE IS A TODO---
+

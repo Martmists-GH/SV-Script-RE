@@ -1,0 +1,28 @@
+---@class cFAFACFDC : userdata
+---@field f628894D6 fun():void
+---@field f463529A5 fun():void
+---@field f68DE7298 fun():void
+---@field f1FD9420E fun():void
+---@field fB8206466 fun():void
+---@field fA036CD67 fun():void
+---@field f23E22CFA fun():void
+---@field f1B4F55DF fun():void
+---@field f6451E6A8 fun():void
+---@field f90B650FC fun():void
+---@field fE2EB0B10 fun():void
+---@field fA5DABD2F fun():void
+---@field fD2DD8DB9 fun():void
+---@field fA09CD2D4 fun():void
+---@field fB854443C fun():void
+---@field fC2E65D40 fun():void
+---@field fB5E16DD6 fun():void
+---@field f2CE83C6C fun():void
+---@field f5BEF0CFA fun():void
+---@field fC58B9959 fun():void
+---@field fB28CA9CF fun():void
+---@field f2B85F875 fun():void
+---@field f5C82C8E3 fun():void
+---@field fCC3DD572 fun():void
+cFAFACFDC = {}  -- dummy
+---THIS FILE IS A TODO---
+

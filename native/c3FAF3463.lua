@@ -1,7 +1,7 @@
 ---@class c3FAF3463 : c3FAF3463_instance
----@field f0FD3E160 fun(x:cAE370B36):userdata
----@field f8C71328E fun(x:userdata,y:userdata):boolean @ IsEqual
----@field fEFAF8128 fun(x:userdata,y:userdata):boolean @ NotEqual
+---@field f0FD3E160 fun(x:cAE370B36):c3FAF3463
+---@field f8C71328E fun(x:c3FAF3463_instance,y:c3FAF3463_instance):boolean @ IsEqual
+---@field fEFAF8128 fun(x:c3FAF3463_instance,y:c3FAF3463_instance):boolean @ NotEqual
 c3FAF3463 = {}  -- dummy
 
 ---@class c3FAF3463_instance : userdata

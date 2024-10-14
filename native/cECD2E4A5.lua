@@ -9,7 +9,7 @@
 ---@field fBCD0707E fun(x:userdata,y:string):userdata
 ---@field fBC1D4AC0 fun(x:userdata,y:string):userdata
 ---@field f6CE5A900 fun(x:c016374C1,y:string):c3FAF3463
----@field f0318E058 fun(x:c016374C1,y:string):userdata
+---@field f0318E058 fun(x:c016374C1,y:string):c3FAF3463
 ---@field fAD5AE364 fun(x:userdata,y:string):userdata
 ---@field fF3AEC363 fun(x:userdata,y:string):userdata
 ---@field f434C80AA fun(x:userdata,y:string):userdata

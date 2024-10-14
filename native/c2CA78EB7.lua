@@ -1,0 +1,23 @@
+---@class c2CA78EB7 : userdata
+---@field fD9A39488 fun():void
+---@field fE0C43F94 fun():void
+---@field f8DF6FCFF fun():void
+---@field f157C972E fun():void
+---@field f62290BFA fun():void
+---@field fD9478137 fun():void
+---@field f948B5B1D fun():void
+---@field fD5DE82F5 fun():void
+---@field f4D9088C8 fun():void
+---@field f4C08A9F0 fun():void
+---@field f52F8E92A fun():void
+---@field f0F487949 fun():void
+---@field f1C6BAB48 fun():void
+---@field f7F40BED7 fun():void
+---@field f36C7B150 fun():void
+---@field f41922D84 fun():void
+---@field f8987411E fun():void
+---@field f0C0792E0 fun():void
+---@field fB9FC0833 fun():void
+c2CA78EB7 = {}  -- dummy
+---THIS FILE IS A TODO---
+

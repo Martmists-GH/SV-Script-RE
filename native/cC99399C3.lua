@@ -1,0 +1,73 @@
+---@class cC99399C3 : cC99399C3_instance
+---@field fAABE7466 fun():void
+---@field f73DA2273 fun():void
+---@field f101D811F fun():void
+---@field fBB73484B fun():void
+---@field f29E8C0F3 fun():void
+---@field f71D1609D fun():void
+---@field fE42BFA53 fun():void
+---@field f85683940 fun():void
+---@field f1E2DA8AB fun():void
+---@field f566BA50F fun():void
+---@field f344E0E60 fun():void
+---@field fEA1E6E7C fun():void
+---@field f8CE0A731 fun():void
+---@field f9C7DCEB7 fun():void
+---@field fC0358FBB fun():void
+---@field fAE4E24AE fun():void
+---@field f4A4CD6E3 fun():void
+---@field f56AFB2F9 fun():void
+---@field fECE9046C fun():void
+---@field f9E8FB60A fun():void
+---@field f739B00FA fun():void
+---@field f89943D99 fun():void
+---@field fFE930D0F fun():void
+---@field f1387BBFF fun():void
+---@field f437FF0C9 fun():void
+cC99399C3 = {}  -- dummy
+
+---@class cC99399C3_instance : userdata
+---@field f2247607A fun(self:self):void
+---@field fDAB65FAB fun(self:self):void
+---@field f81738FA1 fun(self:self):void
+---@field f705F9CDC fun(self:self):void
+---@field f1F0145C7 fun(self:self):void
+---@field f601FF6B0 fun(self:self):void
+---@field f36352559 fun(self:self):void
+---@field f492B962E fun(self:self):void
+---@field f58FDB18F fun(self:self):void
+---@field fC0BAF102 fun(self:self):void
+---@field fFB2614BC fun(self:self):void
+---@field f63615431 fun(self:self):void
+---@field f5B6D8E81 fun(self:self):void
+---@field fC32ACE0C fun(self:self):void
+---@field f1AFAA9E5 fun(self:self):void
+---@field f82BDE968 fun(self:self):void
+---@field fC55EAE12 fun(self:self):void
+---@field f5D19EE9F fun(self:self):void
+---@field f65906E30 fun(self:self):void
+---@field fFDD72EBD fun(self:self):void
+---@field f9ADF7A5E fun(self:self):void
+---@field f02983AD3 fun(self:self):void
+---@field f10833B21 fun(self:self):void
+---@field f88C47BAC fun(self:self):void
+---@field f11F20D30 fun(self:self):void
+---@field f89B54DBD fun(self:self):void
+---@field f5AC816E4 fun(self:self):void
+---@field fC28F5669 fun(self:self):void
+---@field f36605C26 fun(self:self):void
+---@field fAE271CAB fun(self:self):void
+---@field fB0C23195 fun(self:self):void
+---@field f28857118 fun(self:self):void
+---@field fD8DD408B fun(self:self):void
+---@field f409A0006 fun(self:self):void
+---@field fF30255B7 fun(self:self):void
+---@field f6B45153A fun(self:self):void
+---@field f2E61175D fun(self:self):void
+---@field fB62657D0 fun(self:self):void
+---@field fBD1664B2 fun(self:self):void
+---@field f2551243F fun(self:self):void
+---@field f9AD59134 fun(self:self):void
+---@field f0292D1B9 fun(self:self):void
+---THIS FILE IS A TODO---
+

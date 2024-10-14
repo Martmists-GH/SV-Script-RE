@@ -1,0 +1,36 @@
+---@class cC65D64C8 : userdata
+---@field f384FE41D fun():void
+---@field fAC60877A fun():void
+---@field f9D8F06EB fun():void
+---@field fEA88367D fun():void
+---@field f304BBB53 fun():void
+---@field f474C8BC5 fun():void
+---@field fBDB981C5 fun():void
+---@field f41311187 fun():void
+---@field f686F0581 fun():void
+---@field fB27A39EE fun():void
+---@field f0AE3A0AB fun():void
+---@field f42239E79 fun():void
+---@field f4406A74A fun():void
+---@field f3003A0EF fun():void
+---@field f47049079 fun():void
+---@field f808E4D8A fun():void
+---@field f6E8521DC fun():void
+---@field fBEFD54A5 fun():void
+---@field f846621C6 fun():void
+---@field f8D10F226 fun():void
+---@field f18E8866D fun():void
+---@field fF5A4726E fun():void
+---@field fD87A5D50 fun():void
+---@field f55C60FD8 fun():void
+---@field fAD4898E3 fun():void
+---@field fA5753819 fun():void
+---@field f84A020DB fun():void
+---@field fDB7723DA fun():void
+---@field f106CDB75 fun():void
+---@field fAFAFA875 fun():void
+---@field f51234825 fun():void
+---@field f05E97BDB fun():void
+cC65D64C8 = {}  -- dummy
+---THIS FILE IS A TODO---
+

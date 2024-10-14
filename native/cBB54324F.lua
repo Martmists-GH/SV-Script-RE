@@ -1,0 +1,23 @@
+---@class cBB54324F : userdata
+---@field f4B0197E9 fun():void
+---@field fBA69A695 fun():void
+---@field f8085BD5B fun():void
+---@field f02A31428 fun():void
+---@field f1D07659F fun():void
+---@field f471E543F fun():void
+---@field f60044451 fun():void
+---@field f780EEE3E fun():void
+---@field fE905C033 fun():void
+---@field fC7187543 fun():void
+---@field fB7879684 fun():void
+---@field fC080A612 fun():void
+---@field fD413187D fun():void
+---@field f6808B9EF fun():void
+---@field f1F0F8979 fun():void
+---@field f7B0BA85E fun():void
+---@field f50B1F595 fun():void
+---@field f774021EC fun():void
+---@field fA7A7A097 fun():void
+cBB54324F = {}  -- dummy
+---THIS FILE IS A TODO---
+

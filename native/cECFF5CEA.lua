@@ -1,0 +1,30 @@
+---@class cECFF5CEA : userdata
+---@field f0110B966 fun():void
+---@field f080E6C95 fun():void
+---@field f7DB09DEE fun():void
+---@field f7B916A81 fun():void
+---@field fD5BA2AFD fun():void
+---@field fBA51C5B1 fun():void
+---@field f147A85CD fun():void
+---@field f1E5CC0D5 fun():void
+---@field f216900C5 fun():void
+---@field f9C1A9A3D fun():void
+---@field fA32F5A2D fun():void
+---@field fCC81E01B fun():void
+---@field f4DEE5039 fun():void
+---@field fE9111A4D fun():void
+---@field f7CCD863C fun():void
+---@field fE4838C01 fun():void
+---@field f67CB2B3B fun():void
+---@field f6FC6F4DD fun():void
+---@field fB804BC8B fun():void
+---@field f0E05AF0D fun():void
+---@field f10E75E02 fun():void
+---@field fEC322D11 fun():void
+---@field fDEED858E fun():void
+---@field fB8155621 fun():void
+---@field f5ED48D23 fun():void
+---@field f05C32EB2 fun():void
+cECFF5CEA = {}  -- dummy
+---THIS FILE IS A TODO---
+

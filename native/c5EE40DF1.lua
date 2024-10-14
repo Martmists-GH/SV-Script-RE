@@ -1,0 +1,31 @@
+---@class c5EE40DF1 : c5EE40DF1_instance
+---@field f9627C697 fun():void
+---@field f821FFD73 fun():void
+---@field f101D811F fun():void
+c5EE40DF1 = {}  -- dummy
+
+---@class c5EE40DF1_instance : userdata
+---@field fF533F05E fun(self:self):void
+---@field f6D74B0D3 fun(self:self):void
+---@field fD6F77227 fun(self:self):void
+---@field f4EB032AA fun(self:self):void
+---@field fE8818DBB fun(self:self):void
+---@field f70C6CD36 fun(self:self):void
+---@field fBFC7AF46 fun(self:self):void
+---@field f2780EFCB fun(self:self):void
+---@field f8EBD124E fun(self:self):void
+---@field f16FA52C3 fun(self:self):void
+---@field fDD190B42 fun(self:self):void
+---@field f455E4BCF fun(self:self):void
+---@field f110DBCDF fun(self:self):void
+---@field f894AFC52 fun(self:self):void
+---@field f12354FC8 fun(self:self):void
+---@field f8A720F45 fun(self:self):void
+---@field f8B5A2C2B fun(self:self):void
+---@field f131D6CA6 fun(self:self):void
+---@field f2D878458 fun(self:self):void
+---@field fB5C0C4D5 fun(self:self):void
+---@field f51007328 fun(self:self):void
+---@field fC94733A5 fun(self:self):void
+---THIS FILE IS A TODO---
+

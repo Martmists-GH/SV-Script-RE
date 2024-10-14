@@ -1,0 +1,32 @@
+---@class c3A900AFB : c3A900AFB_instance
+---@field fF22B62BD fun():void
+---@field fCB4CC9A1 fun():void
+c3A900AFB = {}  -- dummy
+
+---@class c3A900AFB_instance : userdata
+---@field f3D9D438D fun(self:self):void
+---@field f88DE0826 fun(self:self):void
+---@field f3F303801 fun(self:self):void
+---@field f08C48539 fun(self:self):void
+---@field f7E5D2869 fun(self:self):void
+---@field fF86A4589 fun(self:self):void
+---@field fCD31E312 fun(self:self):void
+---@field f5925B262 fun(self:self):void
+---@field f6DAE9B28 fun(self:self):void
+---@field f137F997F fun(self:self):void
+---@field f9AE2234E fun(self:self):void
+---@field f4E2D63A8 fun(self:self):void
+---@field f1439C7E4 fun(self:self):void
+---@field f2162617F fun(self:self):void
+---@field fB576300F fun(self:self):void
+---@field f5DDED0E9 fun(self:self):void
+---@field f0E7AA9C7 fun(self:self):void
+---@field f5F451DC0 fun(self:self):void
+---@field fBBADC568 fun(self:self):void
+---@field f8FA885F2 fun(self:self):void
+---@field fBAF32369 fun(self:self):void
+---@field f2EE77219 fun(self:self):void
+---@field fDC284F58 fun(self:self):void
+---@field f85B0727A fun(self:self):void
+---THIS FILE IS A TODO---
+
