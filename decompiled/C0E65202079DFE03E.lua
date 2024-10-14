@@ -49,7 +49,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0E65202079DFE03E"]
 L69_1 = "__name__"
 L70_1 = "C0E65202079DFE03E"
----@class C0E65202079DFE03E_prototype
+---@class C0E65202079DFE03E_prototype : main_event_base_BaseParalleledEvent
 C0E65202079DFE03E_prototype = L15_1()
 C0E65202079DFE03E.prototype = C0E65202079DFE03E_prototype
 --- main.event.debug.DebugPlayerSpawn.mainBody

@@ -43,7 +43,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0E04662B6E9633CA"]
 L69_1 = "__name__"
 L70_1 = "C0E04662B6E9633CA"
----@class C0E04662B6E9633CA_prototype
+---@class C0E04662B6E9633CA_prototype : main_field_behaviour_scenario_main_champion_gym_mushi_GymMushiPokeState
 C0E04662B6E9633CA_prototype = L15_1()
 C0E04662B6E9633CA.prototype = C0E04662B6E9633CA_prototype
 --- main.field.behaviour.scenario.main.champion.gym.mushi.GymMushiPokeOliveIdleState.onCreate

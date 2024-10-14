@@ -46,7 +46,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0AF729C49AAF251B"]
 L69_1 = "__name__"
 L70_1 = "C0AF729C49AAF251B"
----@class C0AF729C49AAF251B_prototype
+---@class C0AF729C49AAF251B_prototype : main_field_behaviour_scenario_main_champion_gym_kusa_GymKusaPokeAttackSleepState
 C0AF729C49AAF251B_prototype = L15_1()
 C0AF729C49AAF251B.prototype = C0AF729C49AAF251B_prototype
 --- C0AF729C49AAF251B.Load

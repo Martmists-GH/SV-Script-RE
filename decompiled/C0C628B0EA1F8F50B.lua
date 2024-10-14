@@ -432,7 +432,7 @@ function C0C628B0EA1F8F50B.S3B406232F82B906A()
   return L27_2(L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2)
 end
 
----@class C0C628B0EA1F8F50B_prototype
+---@class C0C628B0EA1F8F50B_prototype : main_pokepicnic_object_controller_IPicnicObjectController
 C0C628B0EA1F8F50B_prototype = L15_1()
 C0C628B0EA1F8F50B.prototype = C0C628B0EA1F8F50B_prototype
 --- main.pokepicnic.object_controller.TableSet_ObjectController.get_TableDefaultPos

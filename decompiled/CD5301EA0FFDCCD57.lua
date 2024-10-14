@@ -79,7 +79,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["CD5301EA0FFDCCD57"]
 L69_1 = "__name__"
 L70_1 = "CD5301EA0FFDCCD57"
----@class CD5301EA0FFDCCD57_prototype
+---@class CD5301EA0FFDCCD57_prototype : main_field_behaviour_base_BaseFieldNpcBehaviour
 CD5301EA0FFDCCD57_prototype = L15_1()
 CD5301EA0FFDCCD57.prototype = CD5301EA0FFDCCD57_prototype
 --- CD5301EA0FFDCCD57.onSetup

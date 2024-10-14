@@ -117,7 +117,7 @@ function C0CD5F1264684CB04.SC9BC65AB67CEFD2D(A0_2)
   L2_2.S54167D5571C717B5 = L3_2
 end
 
----@class C0CD5F1264684CB04_prototype
+---@class C0CD5F1264684CB04_prototype : ext_pe_SceneObjectBehavior
 C0CD5F1264684CB04_prototype = L15_1()
 C0CD5F1264684CB04.prototype = C0CD5F1264684CB04_prototype
 --- main.env.distant_view.DistantViewEffectManager.Setup

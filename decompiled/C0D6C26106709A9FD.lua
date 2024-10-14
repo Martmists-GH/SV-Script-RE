@@ -39,7 +39,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0D6C26106709A9FD"]
 L69_1 = "__name__"
 L70_1 = "C0D6C26106709A9FD"
----@class C0D6C26106709A9FD_prototype
+---@class C0D6C26106709A9FD_prototype : main_ui_btlspot_state_machine_base_BattleSpotStateBase
 C0D6C26106709A9FD_prototype = L15_1()
 C0D6C26106709A9FD.prototype = C0D6C26106709A9FD_prototype
 --- C0D6C26106709A9FD.OnEntry

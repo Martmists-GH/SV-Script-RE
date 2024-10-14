@@ -55,7 +55,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C0CEEDFDE89C3FCFD"]
 L69_1 = "__name__"
 L70_1 = "C0CEEDFDE89C3FCFD"
----@class C0CEEDFDE89C3FCFD_prototype
+---@class C0CEEDFDE89C3FCFD_prototype : ext_pe_SceneObjectBehavior
 C0CEEDFDE89C3FCFD_prototype = L15_1()
 C0CEEDFDE89C3FCFD.prototype = C0CEEDFDE89C3FCFD_prototype
 --- main.ui.tips.TipsView.Setup

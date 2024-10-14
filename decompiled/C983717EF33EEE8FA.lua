@@ -58,7 +58,8 @@ L69_1 = "__name__"
 L70_1 = "C983717EF33EEE8FA"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C983717EF33EEE8FA"]
-L69_1 = "__inte---@class C983717EF33EEE8FA_prototype
+L69_1 = "__inte"
+---@class C983717EF33EEE8FA_prototype
 C983717EF33EEE8FA_prototype = L15_1()
 C983717EF33EEE8FA.prototype = C983717EF33EEE8FA_prototype
 --- C983717EF33EEE8FA.get_TemplateName

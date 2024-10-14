@@ -57,7 +57,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C0E064D181D9C0CF8"]
 L69_1 = "__name__"
 L70_1 = "C0E064D181D9C0CF8"
----@class C0E064D181D9C0CF8_prototype
+---@class C0E064D181D9C0CF8_prototype : ext_pe_SceneObjectBehavior
 C0E064D181D9C0CF8_prototype = L15_1()
 C0E064D181D9C0CF8.prototype = C0E064D181D9C0CF8_prototype
 --- main.event.data.encount.EncountEventData.Setup

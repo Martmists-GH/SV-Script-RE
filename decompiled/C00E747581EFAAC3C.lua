@@ -100,7 +100,8 @@ L69_1 = "__name__"
 L70_1 = "C00E747581EFAAC3C"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C00E747581EFAAC3C"]
-L69_1 = "__inte---@class C00E747581EFAAC3C_prototype
+L69_1 = "__inte"
+---@class C00E747581EFAAC3C_prototype
 C00E747581EFAAC3C_prototype = L15_1()
 C00E747581EFAAC3C.prototype = C00E747581EFAAC3C_prototype
 --- main.env.weather.happening.BaseWeatherHappening.waitHappen

@@ -1117,7 +1117,7 @@ function C0BCF364067528E9C.S0642EEEA0A9D0C7E()
   return L0_2(L1_2, L2_2, L3_2)
 end
 
----@class C0BCF364067528E9C_prototype
+---@class C0BCF364067528E9C_prototype : ext_pe_SceneObjectBehavior
 C0BCF364067528E9C_prototype = L15_1()
 C0BCF364067528E9C.prototype = C0BCF364067528E9C_prototype
 --- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_poke.Setup

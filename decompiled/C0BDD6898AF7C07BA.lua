@@ -260,7 +260,7 @@ function C0BDD6898AF7C07BA.SB2C4C30C5F8A0B1C(A0_2)
   local L1_2
 end
 
----@class C0BDD6898AF7C07BA_prototype
+---@class C0BDD6898AF7C07BA_prototype : ext_pe_SceneObjectBehavior
 C0BDD6898AF7C07BA_prototype = L15_1()
 C0BDD6898AF7C07BA.prototype = C0BDD6898AF7C07BA_prototype
 --- main.field.behaviour.scenario.main.champion.gym.kusa.Gym_kusa_reward.Setup

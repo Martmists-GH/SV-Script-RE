@@ -136,7 +136,7 @@ function C0C6AB1B6C36C2025.S0DC49BCA3C4A9BFD()
   return L0_2
 end
 
----@class C0C6AB1B6C36C2025_prototype
+---@class C0C6AB1B6C36C2025_prototype : ext_pe_SceneObjectBehavior
 C0C6AB1B6C36C2025_prototype = L15_1()
 C0C6AB1B6C36C2025.prototype = C0C6AB1B6C36C2025_prototype
 --- main.ui.emote.EmoteUISceneLoader.Setup

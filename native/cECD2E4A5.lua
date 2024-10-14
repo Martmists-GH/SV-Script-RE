@@ -5,9 +5,9 @@
 ---@field f6906455E fun(x:userdata,y:string):userdata
 ---@field f2E7EAB77 fun(x:userdata,y:string):userdata
 ---@field f2C9293F5 fun(x:userdata,y:string):userdata
----@field fD4E920D9 fun(x:userdata,y:string):userdata
+---@field fD4E920D9 fun(x:userdata,y:string):c40B17DE6
 ---@field fBCD0707E fun(x:userdata,y:string):userdata
----@field fBC1D4AC0 fun(x:userdata,y:string):userdata
+---@field fBC1D4AC0 fun(x:userdata,y:string):c27E0D07E
 ---@field f6CE5A900 fun(x:c016374C1,y:string):c3FAF3463
 ---@field f0318E058 fun(x:c016374C1,y:string):c3FAF3463
 ---@field fAD5AE364 fun(x:userdata,y:string):userdata

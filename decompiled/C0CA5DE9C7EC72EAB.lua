@@ -44,7 +44,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C0CA5DE9C7EC72EAB"]
 L69_1 = "__name__"
 L70_1 = "C0CA5DE9C7EC72EAB"
----@class C5DAC4CD6581EB8AC_prototype
+---@class C5DAC4CD6581EB8AC_prototype : ext_pe_SceneObjectBehavior
 C5DAC4CD6581EB8AC_prototype = L15_1()
 C5DAC4CD6581EB8AC.prototype = C5DAC4CD6581EB8AC_prototype
 L68_1[L69_1] = L70_1

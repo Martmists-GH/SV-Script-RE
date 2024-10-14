@@ -255,7 +255,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CE17C3CBE5FB17212"]
 L69_1 = "__name__"
 L70_1 = "CE17C3CBE5FB17212"
----@class CE17C3CBE5FB17212_prototype
+---@class CE17C3CBE5FB17212_prototype : main_event_general_common_EventBgElevator
 CE17C3CBE5FB17212_prototype = L15_1()
 CE17C3CBE5FB17212.prototype = CE17C3CBE5FB17212_prototype
 --- main.event.general.area_script.AreaEnter_a_sch_ground01.mainBody

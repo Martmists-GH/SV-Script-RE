@@ -73,7 +73,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0FD26BFB981E066D"]
 L69_1 = "__name__"
 L70_1 = "C0FD26BFB981E066D"
----@class C0FD26BFB981E066D_prototype
+---@class C0FD26BFB981E066D_prototype : C77AE94CFA133B0DB
 C0FD26BFB981E066D_prototype = L15_1()
 C0FD26BFB981E066D.prototype = C0FD26BFB981E066D_prototype
 --- main.ui.pokemon_select.PokemonSelectTopUIView.GetSelectedIndexData

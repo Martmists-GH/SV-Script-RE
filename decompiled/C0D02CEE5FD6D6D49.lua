@@ -152,7 +152,7 @@ function C0D02CEE5FD6D6D49.S7ACF571686ABA88B(A0_2, A1_2, A2_2)
   return L3_2
 end
 
----@class C0D02CEE5FD6D6D49_prototype
+---@class C0D02CEE5FD6D6D49_prototype : CE0D511325372F946
 C0D02CEE5FD6D6D49_prototype = L15_1()
 C0D02CEE5FD6D6D49.prototype = C0D02CEE5FD6D6D49_prototype
 --- main.system.game_event.GameEventScript.onCreate

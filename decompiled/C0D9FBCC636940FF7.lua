@@ -510,7 +510,7 @@ function C0D9FBCC636940FF7.SEABBDEAD9241C155(A0_2)
   L1_2.S33D683D2053CA959 = A0_2
 end
 
----@class C0D9FBCC636940FF7_prototype
+---@class C0D9FBCC636940FF7_prototype : ext_pe_SceneObjectBehavior
 C0D9FBCC636940FF7_prototype = L15_1()
 C0D9FBCC636940FF7.prototype = C0D9FBCC636940FF7_prototype
 --- main.battle.ui.BattleUiSelectTarget.Setup

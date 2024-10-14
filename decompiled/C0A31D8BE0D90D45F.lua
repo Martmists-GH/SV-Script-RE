@@ -62,5 +62,3 @@ function C0A31D8BE0D90D45F.SD5DE97B20A42AB72(A0_2)
   L5_2 = L4_2[2]
   return L5_2
 end
-
-L68_1[L69_1] = L70_1

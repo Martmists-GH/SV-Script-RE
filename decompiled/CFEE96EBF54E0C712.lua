@@ -19,6 +19,7 @@ end
 
 CFEE96EBF54E0C712.__name__ = "CFEE96EBF54E0C712"
 ---@class CFEE96EBF54E0C712_prototype : main_ui_btlspot_ui_base_BattleSpotUIBase
+---@field [8] c27E0D07E
 ---@field [9] c3FAF3463
 CFEE96EBF54E0C712_prototype = L15_1()
 CFEE96EBF54E0C712.prototype = CFEE96EBF54E0C712_prototype

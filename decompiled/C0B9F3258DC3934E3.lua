@@ -40,7 +40,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0B9F3258DC3934E3"]
 L69_1 = "__name__"
 L70_1 = "C0B9F3258DC3934E3"
----@class C0B9F3258DC3934E3_prototype
+---@class C0B9F3258DC3934E3_prototype : main_pokepicnic_contents_checker_IPicnicContentsChecker
 C0B9F3258DC3934E3_prototype = L15_1()
 C0B9F3258DC3934E3.prototype = C0B9F3258DC3934E3_prototype
 --- C0B9F3258DC3934E3.OnContentsChecker

@@ -55,7 +55,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0F26B02781A88515"]
 L69_1 = "__name__"
 L70_1 = "C0F26B02781A88515"
----@class C0F26B02781A88515_prototype
+---@class C0F26B02781A88515_prototype : CAE77CEB266C9024A
 C0F26B02781A88515_prototype = L15_1()
 C0F26B02781A88515.prototype = C0F26B02781A88515_prototype
 --- main.field.action.scenario.champion.gym.koori.ActionGymKooriCoursePokemon.onCreate

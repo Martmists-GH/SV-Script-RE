@@ -51,7 +51,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C0EB0EB9D3B3A1A36"]
 L69_1 = "__name__"
 L70_1 = "C0EB0EB9D3B3A1A36"
----@class C0EB0EB9D3B3A1A36_prototype
+---@class C0EB0EB9D3B3A1A36_prototype : main_event_base_BaseGeneralEvent
 C0EB0EB9D3B3A1A36_prototype = L15_1()
 C0EB0EB9D3B3A1A36.prototype = C0EB0EB9D3B3A1A36_prototype
 --- C0EB0EB9D3B3A1A36.mainBody

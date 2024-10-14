@@ -66,7 +66,8 @@ L69_1 = "__name__"
 L70_1 = "C6CC175E0087BF599"
 L68_1[L69_1] = L70_1
 L68_1 = _ENV["C6CC175E0087BF599"]
-L69_1 = "__inte---@class C6CC175E0087BF599_prototype
+L69_1 = "__inte"
+---@class C6CC175E0087BF599_prototype : main_field_behaviour_base_BaseFieldBehaviour
 C6CC175E0087BF599_prototype = L15_1()
 C6CC175E0087BF599.prototype = C6CC175E0087BF599_prototype
 --- main.field.behaviour.base.BaseFieldNpcBehaviour.get_IsSetup

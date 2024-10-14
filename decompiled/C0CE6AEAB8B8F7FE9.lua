@@ -63,7 +63,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C0CE6AEAB8B8F7FE9"]
 L69_1 = "__name__"
 L70_1 = "C0CE6AEAB8B8F7FE9"
----@class C0CE6AEAB8B8F7FE9_prototype
+---@class C0CE6AEAB8B8F7FE9_prototype : main_pokepicnic_cooking_seasoning_SeasoningBehaviorBase
 C0CE6AEAB8B8F7FE9_prototype = L15_1()
 C0CE6AEAB8B8F7FE9.prototype = C0CE6AEAB8B8F7FE9_prototype
 --- main.pokepicnic.cooking.seasoning.BottleSeasoningBehavior.OnInitialize

@@ -45,7 +45,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0C6AD92BA2BEA4D4"]
 L69_1 = "__name__"
 L70_1 = "C0C6AD92BA2BEA4D4"
----@class C0C6AD92BA2BEA4D4_prototype
+---@class C0C6AD92BA2BEA4D4_prototype : main_bgm_BGMCommand
 C0C6AD92BA2BEA4D4_prototype = L15_1()
 C0C6AD92BA2BEA4D4.prototype = C0C6AD92BA2BEA4D4_prototype
 --- main.bgm.BGMResetHoldTimeCommand.Execute

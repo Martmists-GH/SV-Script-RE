@@ -141,7 +141,7 @@ function C0DCB899848029DF4.S7AAC3BFDDF9C75FF(A0_2, A1_2)
   end
 end
 
----@class C0DCB899848029DF4_prototype
+---@class C0DCB899848029DF4_prototype : ext_pe_SceneObjectBehavior
 C0DCB899848029DF4_prototype = L15_1()
 C0DCB899848029DF4.prototype = C0DCB899848029DF4_prototype
 --- main.pokepicnic.PicnicTableManager.GetType

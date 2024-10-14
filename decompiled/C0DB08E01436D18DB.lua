@@ -42,7 +42,7 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["C0DB08E01436D18DB"]
 L69_1 = "__name__"
 L70_1 = "C0DB08E01436D18DB"
----@class C0DB08E01436D18DB_prototype
+---@class C0DB08E01436D18DB_prototype : main_env_weather_happening_BaseWeatherHappening
 C0DB08E01436D18DB_prototype = L15_1()
 C0DB08E01436D18DB.prototype = C0DB08E01436D18DB_prototype
 --- main.env.weather.happening.SpShootingStar.getTemplatePath

@@ -1,4 +1,6 @@
----@class C54BFF18F001FEC26 : C54BFF18F001FEC26_prototype
+---@alias C54BFF18F001FEC26 ext_pe_NetworkSceneObjectBehavior
+
+---@class ext_pe_NetworkSceneObjectBehavior : C54BFF18F001FEC26_prototype
 ---@field prototype C54BFF18F001FEC26_prototype
 C54BFF18F001FEC26 = L15_1()
 
@@ -9,7 +11,7 @@ function C54BFF18F001FEC26.super(self, A1_2)
 end
 
 C54BFF18F001FEC26.__name__ = "C54BFF18F001FEC26"
----@class C54BFF18F001FEC26_prototype: ext_pe_SceneObjectBehavior
+---@class C54BFF18F001FEC26_prototype : ext_pe_SceneObjectBehavior
 CDC3F92928A2194E6_prototype = L15_1()
 CDC3F92928A2194E6.prototype = CDC3F92928A2194E6_prototype
 
