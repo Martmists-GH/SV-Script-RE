@@ -1,6 +1,7 @@
 ---@alias C828F047963375FA0 main_ui_UIUtility
 
 ---@class main_ui_UIUtility
+---@field S7F96B3B929C8C9AB cB3DDDC2A @ wordSet
 C828F047963375FA0 = L15_1()
 C828F047963375FA0.new = {}
 L68_1[L69_1] = L70_1

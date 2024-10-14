@@ -1,14 +1,8 @@
 ---@class C0A8FD8BB2D715DA7 : C0A8FD8BB2D715DA7_prototype
 ---@field prototype C0A8FD8BB2D715DA7_prototype
-L55_1 = _ENV
-L56_1 = "C0A8FD8BB2D715DA7"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C0A8FD8BB2D715DA7"]
-L69_1 = "new"
+C0A8FD8BB2D715DA7 = L15_1()
 
-function L70_1()
+function C0A8FD8BB2D715DA7.new()
   local L0_2, L1_2, L2_2, L3_2
   L0_2 = L2_1
   L1_2 = C0A8FD8BB2D715DA7
@@ -23,11 +17,7 @@ function L70_1()
   return L0_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A8FD8BB2D715DA7"]
-L69_1 = "super"
-
-function L70_1(A0_2)
+function C0A8FD8BB2D715DA7.super(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2, L32_2, L33_2, L34_2, L35_2, L36_2, L37_2, L38_2, L39_2, L40_2, L41_2, L42_2, L43_2, L44_2, L45_2, L46_2, L47_2, L48_2, L49_2, L50_2, L51_2, L52_2
   L1_2 = _hx_tab_array
   L2_2 = {}
@@ -792,23 +782,15 @@ function L70_1(A0_2)
   A0_2[1] = L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A8FD8BB2D715DA7"]
-L69_1 = "__name__"
-L70_1 = "C0A8FD8BB2D715DA7"
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A8FD8BB2D715DA7"]
-L69_1 = "__inte---@class C0A8FD8BB2D715DA7_prototype
+C0A8FD8BB2D715DA7.__name__ = "C0A8FD8BB2D715DA7"
+C0A8FD8BB2D715DA7.__interfaces__ = {CFEB616646E2FECBB}
+---@class C0A8FD8BB2D715DA7_prototype
+---@field [1] hx_tab_array<string> @ data
 C0A8FD8BB2D715DA7_prototype = L15_1()
 C0A8FD8BB2D715DA7.prototype = C0A8FD8BB2D715DA7_prototype
 --- C0A8FD8BB2D715DA7.GetData
 function C0A8FD8BB2D715DA7_prototype:F87972F52753D499F()
-  local L1_2
-  L1_2 = self[1]
-  return L1_2
+  return self[1]
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A8FD8BB2D715DA7"]["prototype"]
-L69_1 = _ENV["C0A8FD8BB2D715DA7"]
-L68_1.__class__ = L69_1
+C0A8FD8BB2D715DA7_prototype.__class__ = C0A8FD8BB2D715DA7

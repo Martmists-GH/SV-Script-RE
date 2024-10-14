@@ -1,17 +1,8 @@
 ---@class C0A3D84C4F08E80D9 : C0A3D84C4F08E80D9_prototype
 ---@field prototype C0A3D84C4F08E80D9_prototype
-L55_1 = _ENV
-L56_1 = "C0A3D84C4F08E80D9"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L55_1 = L15_1
-L55_1 = L55_1()
-CD0DF8BCDB4A3F466 = L55_1
-L68_1 = _ENV["C0A3D84C4F08E80D9"]
-L69_1 = "new"
+C0A3D84C4F08E80D9 = L15_1()
 
-function L70_1(A0_2)
+function C0A3D84C4F08E80D9.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C0A3D84C4F08E80D9
@@ -27,28 +18,24 @@ function L70_1(A0_2)
   return L1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A3D84C4F08E80D9"]
-L69_1 = "super"
-
-function L70_1(A0_2, A1_2)
+function C0A3D84C4F08E80D9.super(self, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = CFE2F341BF1B4BB64
   L2_2 = L2_2.new
   L2_2 = L2_2()
-  A0_2[7] = L2_2
-  A0_2[6] = nil
-  A0_2[5] = nil
+  self[7] = L2_2
+  self[6] = nil
+  self[5] = nil
   L2_2 = CDF2E6DB8E0BDBCE2
   L2_2 = L2_2.new
   L2_2 = L2_2()
-  A0_2[4] = L2_2
-  A0_2[3] = nil
-  A0_2[2] = nil
+  self[4] = L2_2
+  self[3] = nil
+  self[2] = nil
   L2_2 = EE980676E0902140C
   L2_2 = L2_2.kWaitSetupScene
-  A0_2[1] = L2_2
-  A0_2[2] = A1_2
+  self[1] = L2_2
+  self[2] = A1_2
   L3_2 = A1_2
   L2_2 = A1_2.f462C9B70
   L2_2 = L2_2(L3_2)
@@ -56,21 +43,22 @@ function L70_1(A0_2, A1_2)
   L2_2 = L2_2.f1FC07C91
   L4_2 = "world/scene/parts/demo/sd/sd8040_fu_result_/sd8040_fu_result.trscn"
   L2_2 = L2_2(L3_2, L4_2)
-  A0_2[3] = L2_2
+  self[3] = L2_2
   L2_2 = c451059A3
   L2_2 = L2_2.f5776B6C6
   L3_2 = "world/obj_template/parts/demo/sd/sd8040_fu_result_/sd8040_fu_result.trsot"
   L2_2 = L2_2(L3_2)
-  A0_2[5] = L2_2
+  self[5] = L2_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A3D84C4F08E80D9"]
-L69_1 = "__name__"
-L70_1 = "C0A3D84C4F08E80D9"
+C0A3D84C4F08E80D9.__name__ = "C0A3D84C4F08E80D9"
 ---@class C0A3D84C4F08E80D9_prototype
+---@field [1] EE980676E0902140C @ m_updateState
+---@field [4] CDF2E6DB8E0BDBCE2
+---@field [7] CFE2F341BF1B4BB64
 C0A3D84C4F08E80D9_prototype = L15_1()
 C0A3D84C4F08E80D9.prototype = C0A3D84C4F08E80D9_prototype
+
 --- C0A3D84C4F08E80D9.FC5F4613DFBF818D4
 function C0A3D84C4F08E80D9_prototype:FC5F4613DFBF818D4()
   local L1_2, L2_2
@@ -248,30 +236,4 @@ function C0A3D84C4F08E80D9_prototype:F0B5FBF707A7FA642(A1_2, A2_2)
   end
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C0A3D84C4F08E80D9"]["prototype"]
-L69_1 = _ENV["C0A3D84C4F08E80D9"]
-L68_1.__class__ = L69_1
-L68_1 = CD0DF8BCDB4A3F466
-L69_1 = "new"
-L70_1 = {}
-L68_1[L69_1] = L70_1
-L68_1 = CD0DF8BCDB4A3F466
-L25_1.CD0DF8BCDB4A3F466 = L68_1
-L68_1 = CD0DF8BCDB4A3F466
-L69_1 = "__name__"
-L68_1[L69_1] = "CD0DF8BCDB4A3F466"
-L68_1 = CD0DF8BCDB4A3F466
-L69_1 = "SB512B17668A44E3C"
-
-function L70_1()
-  local L0_2, L1_2
-  L0_2 = CD0DF8BCDB4A3F466
-  L0_2 = L0_2.S46FA3430F937329D
-  return L0_2
-end
-
-L68_1[L69_1] = L70_1
-L68_1 = "CD0DF8BCDB4A3F466"
-L68_1 = L25_1[L68_1]
-L69_1 = "SB512B17668A44E3C"
+C0A3D84C4F08E80D9_prototype.__class__ = C0A3D84C4F08E80D9

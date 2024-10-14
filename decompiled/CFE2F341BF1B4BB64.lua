@@ -1,4 +1,5 @@
--- OniballoonResultFrameUI (?)
+---@class CFE2F341BF1B4BB64 : CFE2F341BF1B4BB64_prototype
+---@field prototype CFE2F341BF1B4BB64_prototype
 CFE2F341BF1B4BB64 = L15_1()
 
 function CFE2F341BF1B4BB64.new()
@@ -25,9 +26,16 @@ function CFE2F341BF1B4BB64.super(self)
 end
 
 CFE2F341BF1B4BB64.__name__ = "CFE2F341BF1B4BB64"
-CFE2F341BF1B4BB64.prototype = L15_1()
+---@class CFE2F341BF1B4BB64_prototype
+---@field [1] boolean
+---@field [2] Array<any>
+---@field [3] cECF00344
+---@field [4] number
+---@field [5] c016374C1
+CFE2F341BF1B4BB64_prototype = L15_1()
+CFE2F341BF1B4BB64.prototype = CFE2F341BF1B4BB64_prototype
 
-function CFE2F341BF1B4BB64.prototype.F24C00FC9E9FDE9A1(self, A1_2)  -- UpdateSetup
+function CFE2F341BF1B4BB64_prototype:F24C00FC9E9FDE9A1(A1_2)  -- UpdateSetup
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2
   if self[4] == 0 then
     if self[5]:f9D8BC178() then
@@ -156,7 +164,7 @@ function CFE2F341BF1B4BB64.prototype.F24C00FC9E9FDE9A1(self, A1_2)  -- UpdateSet
   return L3_2
 end
 
-function CFE2F341BF1B4BB64.prototype.F0B5FBF707A7FA642(self)
+function CFE2F341BF1B4BB64_prototype:F0B5FBF707A7FA642()
   if self[1] then
     return
   end
@@ -166,7 +174,7 @@ function CFE2F341BF1B4BB64.prototype.F0B5FBF707A7FA642(self)
   end
 end
 
-function CFE2F341BF1B4BB64.prototype.F948A3948C7469EFA(self, A1_2, A2_2, A3_2)
+function CFE2F341BF1B4BB64_prototype:F948A3948C7469EFA(A1_2, A2_2, A3_2)
   local L4_2
   L4_2 = true
   if A3_2 then
