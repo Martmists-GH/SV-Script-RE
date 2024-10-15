@@ -2,7 +2,7 @@
 ---@field fE1BA6501 fun(x:userdata,y:userdata):boolean
 ---@field fBD8DAB24 fun(x:userdata,y:userdata):boolean
 ---@field f1555480B fun(x:c016374C1):userdata
----@field f6252789D fun(x:c016374C1,y:userdata):userdata
+---@field f6252789D fun(x:c016374C1,y:c78127F8D):userdata
 ---@field f657574AC fun():void
 ---@field fE758CA39 fun():void
 ---@field fBC5E099E fun(x:boolean):number

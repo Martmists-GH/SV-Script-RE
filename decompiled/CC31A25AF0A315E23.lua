@@ -64,16 +64,18 @@ end
 
 ---@class CC31A25AF0A315E23_prototype
 ---@field [1] main_battle_ui__BattleUiPokeList_BattleUiPokeListState
+---@field [2] any @ pokeParty
+---@field [3] main_battle_ui_BattleUiPokeListView @ pokeList
 ---@field [4] number
 ---@field [5] number
 ---@field [6] PokeSelParam @ pokeSelParam
----@field [7] any @ pokeSelResult
----@field [8] boolean
+---@field [7] PokeSelResult @ pokeSelResult
+---@field [8] boolean @ isUseItem
 ---@field [10] boolean @ isPokemonSwap
 ---@field [11] boolean
 ---@field [12] boolean
 ---@field [13] boolean
----@field [14] boolean
+---@field [14] boolean @ isCancelChange
 ---@field [15] boolean
 CC31A25AF0A315E23_prototype = L15_1()
 CC31A25AF0A315E23.prototype = CC31A25AF0A315E23_prototype
@@ -168,24 +170,10 @@ end
 
 --- main.battle.ui.BattleUiPokeList.FF92AC0F26F980325
 function CC31A25AF0A315E23_prototype:FF92AC0F26F980325(A1_2)
-  local L2_2, L3_2, L4_2, L5_2
   self[9] = A1_2
-  L2_2 = self[9]
-  L2_2 = L2_2[24]
-  L3_2 = L2_2
-  L2_2 = L2_2.fB80A62B1
-  L2_2 = L2_2(L3_2)
-  L3_2 = self[9]
-  L3_2 = L3_2[24]
-  L4_2 = L3_2
-  L3_2 = L3_2.fC5DBCEE9
-  L5_2 = L2_2
-  L3_2 = L3_2(L4_2, L5_2)
-  self[2] = L3_2
+  self[2] = self[9][24]:fC5DBCEE9(self[9][24]:fB80A62B1())
   self[5] = -1
-  L4_2 = self
-  L3_2 = self.F4185400B29D2082B
-  L3_2(L4_2)
+  self:F4185400B29D2082B()
 end
 
 --- main.battle.ui.BattleUiPokeList.SetBattleView
@@ -202,81 +190,30 @@ end
 
 --- main.battle.ui.BattleUiPokeList.InitPokeParty
 function CC31A25AF0A315E23_prototype:F0ACD25B5DD230CB6()
-  local L1_2, L2_2, L3_2, L4_2
-  L1_2 = self[9]
-  if nil ~= L1_2 then
-    L1_2 = self[9]
-    L1_2 = L1_2[24]
-    L2_2 = L1_2
-    L1_2 = L1_2.fB80A62B1
-    L1_2 = L1_2(L2_2)
-    L2_2 = self[9]
-    L2_2 = L2_2[24]
-    L3_2 = L2_2
-    L2_2 = L2_2.fC5DBCEE9
-    L4_2 = L1_2
-    L2_2 = L2_2(L3_2, L4_2)
-    self[2] = L2_2
+  if nil ~= self[9] then
+    self[2] = self[9][24]:fC5DBCEE9(self[9][24]:fB80A62B1())
   end
 end
 
 --- main.battle.ui.BattleUiPokeList.Update
 function CC31A25AF0A315E23_prototype:FEB6685558281F194()
-  local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = self[1]
-  L1_2 = L1_2[1]
-  if 0 == L1_2 then
-  elseif 1 == L1_2 then
-    L2_2 = self[3]
-    L3_2 = L2_2
-    L2_2 = L2_2.FD7031CB48B0BA071
-    L2_2 = L2_2(L3_2)
-    if not L2_2 then
-      L2_2 = false
-      return L2_2
+  if 0 == self[1][1] then
+  elseif 1 == self[1][1] then
+    if not self[3]:FD7031CB48B0BA071() then
+      return false
     end
-    L2_2 = nil
-    L3_2 = c80900997
-    L3_2 = L3_2.f1AB84C81
-    L4_2 = self[7]
-    L5_2 = L2_2
-    L3_2 = L3_2(L4_2, L5_2)
-    if L3_2 then
-      L3_2 = self[7]
-      L4_2 = L3_2
-      L3_2 = L3_2.f7F7FF802
-      L5_2 = self[14]
-      L3_2(L4_2, L5_2)
+    if c80900997.f1AB84C81(self[7], nil) then
+      self[7]:f7F7FF802(self[14])
     end
-    L3_2 = self[3]
-    L4_2 = L3_2
-    L3_2 = L3_2.F96B4C3266FC0614A
-    L3_2(L4_2)
-    L3_2 = self[9]
-    L3_2 = L3_2[12]
-    L4_2 = L3_2
-    L3_2 = L3_2.F2ED445B9E68945A7
-    L3_2 = L3_2(L4_2)
-    if L3_2 then
-      L3_2 = self[14]
-      if not L3_2 then
-        L3_2 = self[9]
-        L3_2 = L3_2[12]
-        L4_2 = L3_2
-        L3_2 = L3_2.FC425F5079DA88BC0
-        L5_2 = 1
-        L6_2 = false
-        L7_2 = true
-        L3_2(L4_2, L5_2, L6_2, L7_2)
+    self[3]:F96B4C3266FC0614A()
+    if self[9][12]:F2ED445B9E68945A7() then
+      if not self[14] then
+        self[9][12]:FC425F5079DA88BC0(1, false, true)
       end
     end
-    L4_2 = self
-    L3_2 = self.F16862C241EC70E04
-    L3_2(L4_2)
-    L3_2 = E7D0EC8AD7EAF7A5A
-    L3_2 = L3_2.WaitFadeOut
-    self[1] = L3_2
-  elseif 2 == L1_2 then
+    self:F16862C241EC70E04()
+    self[1] = E7D0EC8AD7EAF7A5A.WaitFadeOut
+  elseif 2 == self[1][1] then
     L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.F1FCC23570D66FF15
@@ -298,13 +235,13 @@ function CC31A25AF0A315E23_prototype:FEB6685558281F194()
     L2_2 = E7D0EC8AD7EAF7A5A
     L2_2 = L2_2.End
     self[1] = L2_2
-  elseif 3 == L1_2 then
+  elseif 3 == self[1][1] then
     L2_2 = E7D0EC8AD7EAF7A5A
     L2_2 = L2_2.None
     self[1] = L2_2
     L2_2 = true
     return L2_2
-  elseif 4 == L1_2 then
+  elseif 4 == self[1][1] then
     L2_2 = self[3]
     L3_2 = L2_2
     L2_2 = L2_2.FE51A57263D2F0BB9
@@ -317,15 +254,12 @@ function CC31A25AF0A315E23_prototype:FEB6685558281F194()
       return L2_2
     end
   end
-  L2_2 = false
-  return L2_2
+  return false
 end
 
 --- main.battle.ui.BattleUiPokeList.GetPokeList
 function CC31A25AF0A315E23_prototype:FFBA610A3759B94AA()
-  local L1_2
-  L1_2 = self[3]
-  return L1_2
+  return self[3]
 end
 
 --- main.battle.ui.BattleUiPokeList.SetPokeParty
@@ -335,9 +269,7 @@ end
 
 --- main.battle.ui.BattleUiPokeList.GetPokeParty
 function CC31A25AF0A315E23_prototype:F4FECF0AAF233C9AA()
-  local L1_2
-  L1_2 = self[2]
-  return L1_2
+  return self[2]
 end
 
 --- main.battle.ui.BattleUiPokeList.GetPokePartySelf
@@ -422,9 +354,7 @@ end
 
 --- main.battle.ui.BattleUiPokeList.F45174EA059647B98
 function CC31A25AF0A315E23_prototype:F45174EA059647B98()
-  local L1_2
-  L1_2 = self[4]
-  return L1_2
+  return self[4]
 end
 
 --- main.battle.ui.BattleUiPokeList.FE4D81EB7CA6269F7
@@ -434,9 +364,7 @@ end
 
 --- main.battle.ui.BattleUiPokeList.F10534DDFE2411DFB
 function CC31A25AF0A315E23_prototype:F10534DDFE2411DFB()
-  local L1_2
-  L1_2 = self[5]
-  return L1_2
+  return self[5]
 end
 
 --- main.battle.ui.BattleUiPokeList.UseItem
@@ -486,16 +414,12 @@ end
 
 --- main.battle.ui.BattleUiPokeList.IsCancelChange
 function CC31A25AF0A315E23_prototype:F9B1D5F2341FACAEF()
-  local L1_2
-  L1_2 = self[14]
-  return L1_2
+  return self[14]
 end
 
 --- main.battle.ui.BattleUiPokeList.IsUseItem
 function CC31A25AF0A315E23_prototype:F215F08F1C35E537B()
-  local L1_2
-  L1_2 = self[8]
-  return L1_2
+  return self[8]
 end
 
 --- main.battle.ui.BattleUiPokeList.Exit

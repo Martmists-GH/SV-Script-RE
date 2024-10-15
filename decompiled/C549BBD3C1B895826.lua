@@ -162,7 +162,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C549BBD3C1B895826"]
 L69_1 = "__name__"
 L70_1 = "C549BBD3C1B895826"
----@class C549BBD3C1B895826_prototype
+---@class C549BBD3C1B895826_prototype : main_ui_pokelist_PokeListBase
 C549BBD3C1B895826_prototype = L15_1()
 C549BBD3C1B895826.prototype = C549BBD3C1B895826_prototype
 --- main.battle.ui.BattleUiPokeListView.Setup

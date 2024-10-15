@@ -1,3 +1,6 @@
+---@alias CoreParam cA36A2863
+---@see PokemonParam
+
 ---@class cA36A2863 : cA36A2863_instance
 ---@field f01CC982A fun():void
 ---@field fB00E5993 fun():void

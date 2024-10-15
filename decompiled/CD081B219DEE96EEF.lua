@@ -1,8 +1,11 @@
----@class CD081B219DEE96EEF
+---@alias CD081B219DEE96EEF main_event_command_PokemonCommand
+
+---@class main_event_command_PokemonCommand
 CD081B219DEE96EEF = L15_1()
 CD081B219DEE96EEF.new = {}
 CD081B219DEE96EEF.__name__ = "CD081B219DEE96EEF"
 
+--- main.event.command.PokemonCommand
 ---@return number
 function CD081B219DEE96EEF.S05EDF33FC818F6B8()  -- PartyGetCount
   return c1A1CBE3B.fFCE06E04():f62782BA1()

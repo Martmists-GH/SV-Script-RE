@@ -6,9 +6,9 @@
 c57CD6504 = {}  -- dummy
 
 ---@class c57CD6504_instance : userdata
----@field f546AB4D8 fun(self:self,x:number):void @ SetProhibitFighting
----@field f65376733 fun(self:self,x:number):number @ IsProhibit
----@field f7B18D07A fun(self:self,x:number,y:number):void @ SetProhibit
+---@field f546AB4D8 fun(self:self,numCover:number):void @ SetProhibitFighting
+---@field f65376733 fun(self:self,idx:number):number @ IsProhibit
+---@field f7B18D07A fun(self:self,reason:number,idx:number):void @ SetProhibit
 ---@field fFDEA7CC7 fun(self:self):void @ DisablePutPosSequence
 ---@field fB80A62B1 fun(self:self):number @ GetClientID
 ---@field f848C9DA4 fun(self:self):number @ GetNumSelect
