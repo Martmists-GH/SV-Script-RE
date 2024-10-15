@@ -30,7 +30,7 @@
 ---@field f6AA17B5F fun(x:number,y:number):userdata
 ---@field fA4BF8173 fun(x:number,y:number,z:userdata):void
 ---@field fA8435C5D fun(x:number,y:number):void
----@field fBA32BF45 fun(x:userdata):userdata
+---@field fBA32BF45 fun(x:PokemonParam):cEE380485
 ---@field f22B1AE79 fun(x:number):boolean
 ---@field f12845070 fun(x:number,y:number):boolean
 ---@field f51130434 fun(x:number,y:number):c113335A8

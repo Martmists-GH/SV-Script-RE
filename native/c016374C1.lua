@@ -1,7 +1,7 @@
 ---@alias SceneObject c016374C1
 
 ---@class c016374C1 : c016374C1_instance
----@field f9F601543 fun(x:userdata):userdata
+---@field f9F601543 fun(x:c3FB42236):userdata
 ---@field f4555D276 fun(x:c016374C1_instance,y:c016374C1_instance):boolean @ IsEqual
 ---@field f8C7D4F4D fun(x:c016374C1_instance,y:c016374C1_instance):boolean @ NotEqual
 c016374C1 = {}  -- dummy
@@ -20,12 +20,12 @@ c016374C1 = {}  -- dummy
 ---@field f188CA001 fun(self:self,x:boolean):void
 ---@field f12E5BA98 fun(self:self,x:userdata):void
 ---@field f0D51F5EF fun(self:self):void
----@field f730A66EA fun(self:self):userdata
----@field f0C14D59D fun(self:self,y:userdata):void
+---@field f730A66EA fun(self:self):cCE8E2D0A
+---@field f0C14D59D fun(self:self,y:cCE8E2D0A):void
 ---@field f890242D9 fun(self:self):number,number,number
 ---@field fFDBC8E95 fun(self:self,x:number,y:number,z:number):void
----@field f16155D9E fun(self:self):userdata
----@field f24032F87 fun(self:self,x:userdata):void
+---@field f16155D9E fun(self:self):cD5675BA5
+---@field f24032F87 fun(self:self,x:cD5675BA5):void
 ---@field f750133BA fun(self:self):number,number,number
 ---@field f8F2B0552 fun(self:self,x:number,y:number,z:number):void
 ---@field f6BD9EADE fun(self:self):number,number,number
@@ -36,17 +36,17 @@ c016374C1 = {}  -- dummy
 ---@field f64E49307 fun(self:self):boolean
 ---@field f900312E7 fun(self:self):boolean
 ---@field f12EEAFA1 fun(self:self):boolean
----@field f4D31CD40 fun(self:self,x:userdata):boolean
----@field fE91E20CA fun(self:self,x:userdata,y:string):boolean
----@field f5EF14AEC fun(self:self,x:userdata,y:string,z:string):boolean
+---@field f4D31CD40 fun(self:self,x:c016374C1):boolean
+---@field fE91E20CA fun(self:self,x:c016374C1,y:string):boolean
+---@field f5EF14AEC fun(self:self,x:c016374C1,y:string,z:string):boolean
 ---@field f407CE2C1 fun(self:self):boolean
 ---@field f59137F7B fun(self:self):boolean
 ---@field f39363693 fun(self:self,x:boolean):void
 ---@field fEE6872FD fun(self:self,x:boolean):number
 ---@field f4ACBB933 fun(self:self,x:userdata):void
 ---@field f908F485A fun(self:self,x:userdata):void
----@field f5439788F fun(self:self,x:string):userdata
----@field f5B268E4E fun(self:self):userdata
+---@field f5439788F fun(self:self,x:string):c016374C1
+---@field f5B268E4E fun(self:self):c016374C1
 ---@field fE416B6CF fun(self:self,x:string):boolean
 ---@field f3D77D31B fun(self:self,x:string):boolean
 ---@field fDA1455DA fun(self:self,x:string):boolean
@@ -67,9 +67,9 @@ c016374C1 = {}  -- dummy
 ---@field fBE3B2D3B fun(self:self):void
 ---@field f47BAE49D fun(self:self):void
 ---@field f6CF71CE1 fun(self:self,x:boolean):void
----@field f20AB1FEA fun(self:self,x:string):userdata
+---@field f20AB1FEA fun(self:self,x:string):cC5D48DC8
 ---@field f1C1435C7 fun(self:self,x:string,y:userdata):void
----@field f1A1210C4 fun(self:self):userdata
+---@field f1A1210C4 fun(self:self):c465FF34C
 ---@field fC5EBFE2B fun(self:self):boolean
 ---@field fE10E6531 fun(self:self):string
 ---@field f44E62C6A fun(self:self):boolean
