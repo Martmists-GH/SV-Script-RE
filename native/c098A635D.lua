@@ -1,7 +1,7 @@
 ---@class c098A635D : c098A635D_instance
 ---@field fD7D30B50 fun(x:c098A635D_instance,y:c098A635D_instance):boolean @ IsEqual
 ---@field f0EB75D45 fun(x:c098A635D_instance,y:c098A635D_instance):boolean @ NotEqual
----@field f1D51F3D9 fun(x:cF8391D27):userdata
+---@field f1D51F3D9 fun(x:cF8391D27):c098A635D
 c098A635D = {}  -- dummy
 
 ---@class c098A635D_instance : userdata

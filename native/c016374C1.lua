@@ -1,7 +1,7 @@
 ---@alias SceneObject c016374C1
 
 ---@class c016374C1 : c016374C1_instance
----@field f9F601543 fun(x:c3FB42236):userdata
+---@field f9F601543 fun(x:c3FB42236):c016374C1
 ---@field f4555D276 fun(x:c016374C1_instance,y:c016374C1_instance):boolean @ IsEqual
 ---@field f8C7D4F4D fun(x:c016374C1_instance,y:c016374C1_instance):boolean @ NotEqual
 c016374C1 = {}  -- dummy
