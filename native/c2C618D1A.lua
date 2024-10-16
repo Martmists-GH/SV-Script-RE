@@ -1,24 +1,24 @@
----@class c2C618D1A : userdata
----@field f098CA7F5 fun():void
----@field fB55F9924 fun():void
----@field fFCB36967 fun():void
----@field f0C9CEB5B fun():void
----@field f8E4A0018 fun():void
----@field f8C0CBE41 fun():void
----@field fA58B5B93 fun():void
----@field fA7CDE5CA fun():void
----@field fA60F8FFD fun():void
----@field f5FEBE5B6 fun():void
----@field f0C28C511 fun():void
----@field f18E79AB8 fun():void
----@field f7B7A86C6 fun():void
----@field fD67612D0 fun():void
----@field f21EBEE15 fun():void
----@field f457E42A6 fun():void
----@field fFBAB3368 fun():void
----@field f23E400D6 fun():void
----@field f21A2BE8F fun():void
----@field fA0555411 fun():void
-c2C618D1A = {}  -- dummy
----THIS FILE IS A TODO---
+---@alias pml_personal_PersonalSystem c2C618D1A
 
+---@class c2C618D1A : userdata
+---@field f098CA7F5 fun(x:userdata,y:userdata):boolean
+---@field fB55F9924 fun(x:userdata,y:userdata):boolean
+---@field fFCB36967 fun(x:c535A0125,y:number):number
+---@field f0C9CEB5B fun(x:number,y:number):number
+---@field f8E4A0018 fun(x:number,y:number):number  -- Gets Type 1 for monsno+formno
+---@field f8C0CBE41 fun(x:number,y:number):number  -- Gets Type 2 for monsno+formno
+---@field fA58B5B93 fun(x:number,y:number):number  -- Gets 1st tokusei for monsno+formno
+---@field fA7CDE5CA fun(x:number,y:number):number  -- Gets 2nd tokusei for monsno+formno
+---@field fA60F8FFD fun(x:number,y:number):number  -- Gets 3rd tokusei for monsno+formno
+---@field f5FEBE5B6 fun(x:number,y:number):number
+---@field f0C28C511 fun(x:number,y:number):number
+---@field f18E79AB8 fun(x:number,y:number,z:number):void  -- Gets level for given monsno+form+exp
+---@field f7B7A86C6 fun(x:number,y:number):number
+---@field fD67612D0 fun(x:number):number
+---@field f21EBEE15 fun(x:number,y:number):number
+---@field f457E42A6 fun(x:number,y:number):number
+---@field fFBAB3368 fun(x:number,y:number):number
+---@field f23E400D6 fun(x:number,y:number):number
+---@field f21A2BE8F fun(x:number,y:number):number
+---@field fA0555411 fun(x:number,y:number):number
+c2C618D1A = {}  -- dummy

@@ -6,7 +6,7 @@
 c535A0125 = {}  -- dummy
 
 ---@class c535A0125_instance : userdata
----@field fD938B0BF fun(self:self):number @ length
----@field f4021C7CD fun(self:self):number -- allocated size?
+---@field fD938B0BF fun(self:self):number @ GetLength
+---@field f4021C7CD fun(self:self):number @ GetSize
 ---@field f0C48EE2B fun(self:self,x:c535A0125):boolean
 ---@field f65D2CDEB fun(self:self):string @ string

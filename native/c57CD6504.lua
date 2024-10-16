@@ -1,4 +1,4 @@
----@alias PokeSelParam c57CD6504
+---@alias battle_PokeSelParam c57CD6504
 
 ---@class c57CD6504 : c57CD6504_instance
 ---@field f51A2A6CD fun(x:c57CD6504_instance,y:c57CD6504_instance):boolean @ IsEqual
@@ -13,4 +13,4 @@ c57CD6504 = {}  -- dummy
 ---@field fB80A62B1 fun(self:self):number @ GetClientID
 ---@field f848C9DA4 fun(self:self):number @ GetNumSelect
 ---@field f0B413761 fun(self:self):boolean @ IsDisabledPutPosSequence
----@field fC1909948 fun(self:self):userdata @ GetParty
+---@field fC1909948 fun(self:self):c85DD2C43 @ GetParty

@@ -5,7 +5,7 @@
 ---@field f151C859F fun():void
 ---@field f874F9AB7 fun():void
 ---@field f1A7E5A5C fun():void
----@field fFCE06E04 fun():PokeParty
+---@field fFCE06E04 fun():pml_PokeParty
 ---@field f0051A3E4 fun():c7C21E374
 ---@field fA92A365A fun():c2D86EE5C
 ---@field f7F99B759 fun():cFD38545A
@@ -27,32 +27,32 @@
 ---@field fEC4B29E2 fun(x:number,y:number):void
 ---@field f92535486 fun(x:number):boolean
 ---@field fE4EA8A62 fun(x:number):boolean
----@field f6AA17B5F fun(x:number,y:number):PokemonParam
----@field fA4BF8173 fun(x:number,y:number,z:PokemonParam):void
+---@field f6AA17B5F fun(x:number,y:number):pml_pokepara_PokemonParam
+---@field fA4BF8173 fun(x:number,y:number,z:pml_pokepara_PokemonParam):void
 ---@field fA8435C5D fun(x:number,y:number):void
----@field fBA32BF45 fun(x:PokemonParam):cEE380485
+---@field fBA32BF45 fun(x:pml_pokepara_PokemonParam):cEE380485
 ---@field f22B1AE79 fun(x:number):boolean
 ---@field f12845070 fun(x:number,y:number):boolean
----@field f51130434 fun(x:number,y:number):PokemonParam
+---@field f51130434 fun(x:number,y:number):pml_pokepara_PokemonParam
 ---@field f072F46E9 fun(x:number):c535A0125
 ---@field fFB895CF7 fun(x:string,y:boolean):number
 ---@field f928BC765 fun(x:number):boolean
 ---@field f84E62607 fun(x:number,y:boolean):void
 ---@field f9DBA4071 fun(x:number):boolean
 ---@field f0CF3BBA2 fun(x:number):void
----@field fF9A689CD fun(x:PokemonParam):void  -- Hatches an egg?
+---@field fF9A689CD fun(x:pml_pokepara_PokemonParam):void  -- Hatches an egg?
 ---@field fD6EC6338 fun():number
----@field f189FE18C fun(x:PokemonParam,y:number):void  -- Changes form no if valid, otherwise no change
----@field f3B7CAB8B fun(x:PokemonParam,y:number,z:number):number  -- returns form no for given key item id. 3rd param seems to be for deoxys
----@field fFC656441 fun(x:PokemonParam,y:number):number  -- returns form no for given held item id
----@field f7D31BD22 fun(x:PokemonParam):number  -- if keldeo: 1 if secret sword, otherwise current form no
----@field f91848F48 fun(x:PokemonParam,y:number):number  -- gives special move id for given form id (e.g. rotom/hoopa special move)
----@field f42D5E4DA fun(x:PokemonParam):boolean  -- true if the pokemon has the special move for their current form
+---@field f189FE18C fun(x:pml_pokepara_PokemonParam,y:number):void  -- Changes form no if valid, otherwise no change
+---@field f3B7CAB8B fun(x:pml_pokepara_PokemonParam,y:number,z:number):number  -- returns form no for given key item id. 3rd param seems to be for deoxys
+---@field fFC656441 fun(x:pml_pokepara_PokemonParam,y:number):number  -- returns form no for given held item id
+---@field f7D31BD22 fun(x:pml_pokepara_PokemonParam):number  -- if keldeo: 1 if secret sword, otherwise current form no
+---@field f91848F48 fun(x:pml_pokepara_PokemonParam,y:number):number  -- gives special move id for given form id (e.g. rotom/hoopa special move)
+---@field f42D5E4DA fun(x:pml_pokepara_PokemonParam):boolean  -- true if the pokemon has the special move for their current form
 ---@field fD58607DC fun(x:string):string
 ---@field fBC667A7D fun(x:number,y:number):number
 ---@field f4661D4A3 fun():void
 ---@field fD233D608 fun():void
----@field f37BC7FC8 fun(x:PokemonParam):boolean
+---@field f37BC7FC8 fun(x:pml_pokepara_PokemonParam):boolean
 ---@field f4A4CD292 fun(x:string):cD083B097
 ---@field fD202D8AF fun(x:string):boolean
 c1A1CBE3B = {}  -- dummy

@@ -1,4 +1,4 @@
----@alias PokeSelResult c80900997
+---@alias battle_PokeSelResult c80900997
 
 ---@class c80900997 : c80900997_instance
 ---@field f13A69972 fun(x:c80900997_instance,y:c80900997_instance):boolean @ IsEqual

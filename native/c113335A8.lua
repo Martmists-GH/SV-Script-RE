@@ -1,4 +1,4 @@
----@alias PokemonParam c113335A8
+---@alias pml_pokepara_PokemonParam c113335A8
 
 ---@class c113335A8 : c113335A8_instance
 ---@field fD41E1021 fun(x:c113335A8_instance,y:c113335A8_instance):boolean @ IsEqual
@@ -105,10 +105,10 @@ c113335A8 = {}  -- dummy
 ---@field f3B6B7E64 fun(self:self,itemno:number):void @ SetItem
 ---@field fE1F1C00C fun(self:self):void @ RemoveItem
 ---@field f7353E6A8 fun(self:self,routeIndex:number):void @ Evolve -- Unsure about argument being routeIndex
----@field fD5C83767 fun(self:self,x:c0248285D,y:PokeParty,z:cB3292B34):boolean  -- Level up evolution check?
+---@field fD5C83767 fun(self:self,x:c0248285D,y:pml_PokeParty,z:cB3292B34):boolean  -- Level up evolution check?
 ---@field fA7B6B700 fun(self:self,x:c0248285D,y:number,z:cB3292B34):boolean  -- Item evolution check?
----@field f84ADD397 fun(self:self,x:CoreParam,y:cB3292B34):boolean  -- Trade evolution check?
----@field fC1199A56 fun(self:self,x:c0248285D,y:PokeParty,z:cB3292B34):boolean  -- unknown
+---@field f84ADD397 fun(self:self,x:pml_pokepara_CoreParam,y:cB3292B34):boolean  -- Trade evolution check?
+---@field fC1199A56 fun(self:self,x:c0248285D,y:pml_PokeParty,z:cB3292B34):boolean  -- unknown
 ---@field fEB03BB7F fun(self:self):boolean  -- unknown
 ---@field fA932F1E1 fun(self:self,formNo:number):void @ ChangeFormNo
 ---@field f80705405 fun(self:self,x:number):userdata  -- unknown
@@ -167,15 +167,15 @@ c113335A8 = {}  -- dummy
 ---@field fA81B2C1E fun(self:self):boolean @ IsEquipRibbonExist
 ---@field fE3F9DB8F fun(self:self):number @ GetEquipRibbonNo
 ---@field fD1EFA996 fun(self:self,ribbonNo:number):void @ SetEquipRibbonNo
----@field f383F4E05 fun(self:self,x:CoreParam):number  -- Get breed species type?
+---@field f383F4E05 fun(self:self,x:pml_pokepara_CoreParam):number  -- Get breed species type?
 ---@field fB39B42FC fun(self:self):number  -- unknown
 ---@field fB2B56523 fun(self:self,x:number):void  -- unknown, setter for above
----@field f99279E98 fun(self:self):number  -- unknown
----@field fB762BF0A fun(self:self,x:number):void  -- unknown, setter for above
+---@field f99279E98 fun(self:self):number @ GetGemType
+---@field fB762BF0A fun(self:self,x:number):void @ SetGemType
 ---@field f5A2FA3F5 fun(self:self):number  -- unknown
 ---@field f7F2428EB fun(self:self,x:number):void  -- unknown, setter for above
----@field f64B2F13C fun(self:self):number -- Get gem type?
----@field fB05F34A2 fun(self:self,x:number):void  -- Set gem type?
+---@field f64B2F13C fun(self:self):number  -- unknown
+---@field fB05F34A2 fun(self:self,x:number):void  -- unknown, setter for above
 ---@field f3230EF2A fun(self:self):void @ RecalculateCalcData
----@field fEFB3ECFD fun(self:self,x:PokemonParam):void  -- unknown, maybe CopyFrom?
+---@field fEFB3ECFD fun(self:self,x:pml_pokepara_PokemonParam):void  -- unknown, maybe CopyFrom?
 ---@field f8D160DBB fun(self:self):void  -- unknown, would most likely be InitCoreData or Birth?

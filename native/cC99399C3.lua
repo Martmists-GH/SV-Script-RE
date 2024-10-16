@@ -1,3 +1,5 @@
+---@alias pml_pokepara_InitialSpec cC99399C3
+
 ---@class cC99399C3 : cC99399C3_instance
 ---@field fAABE7466 fun():void
 ---@field f73DA2273 fun():void

@@ -68,8 +68,8 @@ end
 ---@field [3] main_battle_ui_BattleUiPokeListView @ pokeList
 ---@field [4] number
 ---@field [5] number
----@field [6] PokeSelParam @ pokeSelParam
----@field [7] PokeSelResult @ pokeSelResult
+---@field [6] battle_PokeSelParam @ pokeSelParam
+---@field [7] battle_PokeSelResult @ pokeSelResult
 ---@field [8] boolean @ isUseItem
 ---@field [10] boolean @ isPokemonSwap
 ---@field [11] boolean

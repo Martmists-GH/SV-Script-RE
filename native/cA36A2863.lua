@@ -1,5 +1,5 @@
----@alias CoreParam cA36A2863
----@see PokemonParam
+---@alias pml_pokepara_CoreParam cA36A2863
+---@see pml_pokepara_PokemonParam
 
 ---@class cA36A2863 : cA36A2863_instance
 ---@field f01CC982A fun():void
