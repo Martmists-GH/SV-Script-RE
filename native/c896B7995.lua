@@ -11,7 +11,7 @@ c896B7995 = {}  -- dummy
 
 ---@class c896B7995_instance : userdata
 ---@field fF6CDAF83 fun(self:self):void
----@field f3B3FB48E fun(self:self):void
+---@field f3B3FB48E fun(self:self):void @ GetType
 ---@field fA8AE0C53 fun(self:self):void
 ---@field fD8757BE2 fun(self:self):void
 ---@field f51BF3075 fun(self:self):void
@@ -27,7 +27,7 @@ c896B7995 = {}  -- dummy
 ---@field fC21F6A25 fun(self:self):void
 ---@field f3AEE55F4 fun(self:self):void
 ---@field f4BE4C33F fun(self:self):void
----@field fBEA9F05D fun(self:self):void
+---@field fBEA9F05D fun(self:self):void @ Add
 ---@field f988F4F66 fun(self:self):void
 ---@field fA86174A4 fun(self:self):void
 ---@field f09919F73 fun(self:self):void

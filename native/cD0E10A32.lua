@@ -2,7 +2,7 @@
 ---@field f2EF2457B fun():void
 ---@field f94A96AB5 fun():void
 ---@field fB41FD22F fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 ---@field f4F5C01BE fun():void
 ---@field f53C8DBCD fun():void
 cD0E10A32 = {}  -- dummy

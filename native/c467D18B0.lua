@@ -1,3 +1,5 @@
+---@alias gfl_gfx2_CameraComponent c467D18B0
+
 ---@class c467D18B0 : c467D18B0_instance
 ---@field fBCDB6533 fun():void
 ---@field f65BF3326 fun():void
@@ -19,8 +21,8 @@ c467D18B0 = {}  -- dummy
 ---@field f5BF45D83 fun(self:self):void
 ---@field f1CBC9838 fun(self:self):void
 ---@field f13A24EBB fun(self:self):void
----@field f9BDF0F91 fun(self:self):void
----@field f084EB74C fun(self:self):void
+---@field f9BDF0F91 fun(self:self):void @ GetFovy
+---@field f084EB74C fun(self:self):void @ SetFovy
 ---@field fD9A8CECC fun(self:self):void
 ---@field fA6B67DBB fun(self:self):void
 ---@field f5D4A717E fun(self:self):void
@@ -43,15 +45,15 @@ c467D18B0 = {}  -- dummy
 ---@field fAD7112B9 fun(self:self):void
 ---@field f9954D169 fun(self:self):void
 ---@field f0AC569B4 fun(self:self):void
----@field f9E2A01F1 fun(self:self):void
----@field f6F06128C fun(self:self):void
+---@field f9E2A01F1 fun(self:self):void @ GetTarget
+---@field f6F06128C fun(self:self):void @ SetTarget
 ---@field f99C28637 fun(self:self):void
 ---@field fFD9B3885 fun(self:self):void
 ---@field fCE0877B7 fun(self:self):void
 ---@field f00168D9B fun(self:self):void
----@field f40043336 fun(self:self):void
+---@field f40043336 fun(self:self):void @ GetRotation
 ---@field f5E2B847F fun(self:self):void
----@field f33A459EF fun(self:self):void
+---@field f33A459EF fun(self:self):void @ GetTranslation
 ---@field f4CBAEA98 fun(self:self):void
 ---@field f08A42555 fun(self:self):void
 ---@field fB37B3AE1 fun(self:self):void
@@ -59,7 +61,7 @@ c467D18B0 = {}  -- dummy
 ---@field fF1A54D25 fun(self:self):void
 ---@field f68931E90 fun(self:self):void
 ---@field fC6B85EEC fun(self:self):void
----@field f3721775B fun(self:self):void
+---@field f3721775B fun(self:self):void @ CalculateTransform
 ---@field f05E63434 fun(self:self):void
 ---@field fD23B5DE7 fun(self:self):void
 ---@field fDFC4DE35 fun(self:self):void

@@ -86,7 +86,7 @@ c113335A8 = {}  -- dummy
 ---@field f614909B9 fun(self:self,x:number):void  -- unknown, setter for above
 ---@field f7DE73858 fun(self:self):boolean -- unknown
 ---@field f2C33ADF5 fun(self:self):boolean @ HaveNickName
----@field f68C2FA9D fun(self:self,nickName:HashedString):void @ SetNickName
+---@field f68C2FA9D fun(self:self,nickName:gfl_text_StrBuf):void @ SetNickName
 ---@field fAEE75B85 fun(self:self):void @ SetDefaultNickName
 ---@field fA7ED5726 fun(self:self):boolean @ IsDefaultNickName
 ---@field fB78BF6CE fun(self:self):number @ GetFriendship
@@ -121,8 +121,8 @@ c113335A8 = {}  -- dummy
 ---@field fCB5161A7 fun(self:self,type:number):void @ SetRareType
 ---@field f9C8A5147 fun(self:self):number @ GetType1
 ---@field f8E3FFEA9 fun(self:self):number @ GetType2
----@field f4D66F936 fun(self:self,x:HashedString):void  -- unknown
----@field f3F1A55C8 fun(self:self,x:HashedString):void  -- unknown
+---@field f4D66F936 fun(self:self,x:gfl_text_StrBuf):void  -- unknown
+---@field f3F1A55C8 fun(self:self,x:gfl_text_StrBuf):void  -- unknown
 ---@field f79184335 fun(self:self):boolean @ IsBoxMarkSet
 ---@field f0E1F73A3 fun(self:self,mark:number):boolean @ IsBoxMarkSet
 ---@field f066B0E61 fun(self:self,mark:number,color:number):void @ SetBoxMark

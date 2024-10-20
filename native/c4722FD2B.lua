@@ -1,7 +1,7 @@
 ---@class c4722FD2B : c4722FD2B_instance
 ---@field f84329F11 fun():void
 ---@field fE9361FAC fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 ---@field f5B6373D5 fun():void
 c4722FD2B = {}  -- dummy
 

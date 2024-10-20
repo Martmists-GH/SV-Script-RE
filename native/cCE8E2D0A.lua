@@ -64,7 +64,7 @@ cCE8E2D0A = {}  -- dummy
 ---@field f56310C93 fun(self:self):void
 ---@field f21363C05 fun(self:self):void
 ---@field fB83F6DBF fun(self:self):void
----@field f33A459EF fun(self:self):void
+---@field f33A459EF fun(self:self):void @ GetTranslation
 ---@field f6B20D21C fun(self:self):void
 ---@field f250C1821 fun(self:self):void
 ---@field f47BEA911 fun(self:self):void

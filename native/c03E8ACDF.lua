@@ -6,7 +6,7 @@ c03E8ACDF = {}  -- dummy
 
 ---@class c03E8ACDF_instance : userdata
 ---@field f90E5B906 fun(self:self):void
----@field f3491A2B7 fun(self:self):void
+---@field f3491A2B7 fun(self:self):boolean @ IsValid
 ---@field fC00E6FDF fun(self:self):void
 ---@field f2E75E89A fun(self:self):void
 ---@field f1278D7C3 fun(self:self):void

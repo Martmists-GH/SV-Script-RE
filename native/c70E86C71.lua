@@ -18,6 +18,6 @@ c70E86C71 = {}  -- dummy
 ---@field fBE2C58EE fun(self:self):void
 ---@field f62D7F923 fun(self:self):void
 ---@field fB95F4DF6 fun(self:self):void
----@field f4021C7CD fun(self:self):void
+---@field f4021C7CD fun(self:self):void @ GetSize
 ---THIS FILE IS A TODO---
 

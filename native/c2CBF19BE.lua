@@ -1,7 +1,7 @@
 ---@class c2CBF19BE : c2CBF19BE_instance
 ---@field fAACE13D4 fun():void
 ---@field f161D2D05 fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 c2CBF19BE = {}  -- dummy
 
 ---@class c2CBF19BE_instance : userdata

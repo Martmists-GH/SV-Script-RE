@@ -13,10 +13,10 @@ cFE1E6ED6 = {}  -- dummy
 ---@field fAC78721F fun(self:self):void
 ---@field fE0EBE2D4 fun(self:self):void
 ---@field f091A770F fun(self:self):void
----@field fE9C29DA1 fun(self:self):void
+---@field fE9C29DA1 fun(self:self):string @ GetName
 ---@field f0BDE77E0 fun(self:self):void
 ---@field fA7DC22A9 fun(self:self):void
----@field f3491A2B7 fun(self:self):void
+---@field f3491A2B7 fun(self:self):boolean @ IsValid
 ---@field f3761CCAF fun(self:self):void
 ---@field f33A1A337 fun(self:self):void
 ---@field f2EFCA63E fun(self:self):void

@@ -7,7 +7,7 @@
 c016374C1 = {}  -- dummy
 
 ---@class c016374C1_instance : userdata
----@field fE9C29DA1 fun(self:self):string
+---@field fE9C29DA1 fun(self:self):string @ GetName
 ---@field f9D8BC178 fun(self:self):boolean
 ---@field fCEC85AEA fun(self:self):boolean
 ---@field f15F1C0A9 fun(self:self,x:number):void

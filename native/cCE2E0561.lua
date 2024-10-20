@@ -7,26 +7,26 @@ cCE2E0561 = {}  -- dummy
 ---@class cCE2E0561_instance : userdata
 ---@field f8CFF76CD fun(self:self):void
 ---@field f48A089F1 fun(self:self):void
----@field f5B89E0DB fun(self:self):void
+---@field f5B89E0DB fun(self:self,visible:boolean):void @ SetVisibleChildren
 ---@field f292BC86A fun(self:self):void
----@field f44213A5F fun(self:self):void
----@field fDC667AD2 fun(self:self):void
----@field f6F06128C fun(self:self):void
----@field f13CDA9A3 fun(self:self):void
+---@field f44213A5F fun(self:self):void @ SetPos
+---@field fDC667AD2 fun(self:self):void @ GetPos
+---@field f6F06128C fun(self:self):void @ SetTarget
+---@field f13CDA9A3 fun(self:self):void @ UnTarget
 ---@field f3ED070C9 fun(self:self):void
----@field f6277C172 fun(self:self):void
+---@field f6277C172 fun(self:self):void @ SetActive
 ---@field f33A1A337 fun(self:self):void
 ---@field fA8492502 fun(self:self):void
 ---@field f3F176020 fun(self:self):void
 ---@field f6E624FAC fun(self:self):void
----@field f2A9CF058 fun(self:self):void
+---@field f2A9CF058 fun(self:self,visible:boolean):void @ SetVisible
 ---@field f2C7B9325 fun(self:self):void
----@field f05D9B2C0 fun(self:self):void
+---@field f05D9B2C0 fun(self:self):void @ Create
 ---@field fD971E864 fun(self:self):void
 ---@field f7E178012 fun(self:self):void
 ---@field f9C010CAC fun(self:self):void
 ---@field f8139EB06 fun(self:self):void
----@field fB4C3D746 fun(self:self):void
+---@field fB4C3D746 fun(self:self):void @ LinkCatchItem
 ---@field fEDF77BF9 fun(self:self):void
 ---@field f3523DDCD fun(self:self):void
 ---@field f4F8C7B75 fun(self:self):void
@@ -37,18 +37,18 @@ cCE2E0561 = {}  -- dummy
 ---@field fC47F8514 fun(self:self):void
 ---@field f17EAB099 fun(self:self):void
 ---@field fC06447B6 fun(self:self):void
----@field f1B115A6A fun(self:self):void
----@field fBF2AF255 fun(self:self):void
+---@field f1B115A6A fun(self:self):void @ IsSwapMode
+---@field fBF2AF255 fun(self:self):void @ IsNormalMode
 ---@field f0ACDD123 fun(self:self):void
 ---@field fB24E432B fun(self:self):void
----@field fB46AEBA1 fun(self:self):void
+---@field fB46AEBA1 fun(self:self):void @ Rewrite
 ---@field f223F0381 fun(self:self):void
 ---@field f19C7F2F8 fun(self:self):void
----@field f75124177 fun(self:self):void
----@field fD2742901 fun(self:self):void
----@field fD1CE535D fun(self:self):void
+---@field f75124177 fun(self:self):void @ GetCursorIndex
+---@field fD2742901 fun(self:self):void @ GetScrollIndex
+---@field fD1CE535D fun(self:self):void @ GetItemIndex
 ---@field fC5760380 fun(self:self):void
----@field fD06D153B fun(self:self):void
+---@field fD06D153B fun(self:self):void @ Click
 ---@field fA9C94D05 fun(self:self):void
 ---@field f028FF590 fun(self:self):void
 ---@field f70618ECD fun(self:self):void

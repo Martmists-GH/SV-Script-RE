@@ -1,3 +1,5 @@
+---@alias gdl_anm2_AnimationComponent cE35B3EB3
+
 ---@class cE35B3EB3 : cE35B3EB3_instance
 ---@field fDBA763D1 fun():void
 ---@field f67745D00 fun():void
@@ -12,7 +14,7 @@ cE35B3EB3 = {}  -- dummy
 ---@field fF56461AF fun(self:self):void
 ---@field fBD0145F6 fun(self:self):void
 ---@field fEACE829B fun(self:self):void
----@field f3E0E11AE fun(self:self):void
+---@field f3E0E11AE fun(self:self):boolean @ IsPaused
 ---@field f40A42377 fun(self:self):void
 ---@field f3FBA9000 fun(self:self):void
 ---@field f9D8BC178 fun(self:self):void

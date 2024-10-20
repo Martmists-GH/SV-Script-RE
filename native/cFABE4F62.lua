@@ -1,7 +1,7 @@
 ---@class cFABE4F62 : cFABE4F62_instance
 ---@field fD9481BBF fun():void
 ---@field fE02FB0A3 fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 ---@field f3F7718A0 fun():void
 ---@field fAACD7E8C fun():void
 ---@field f4864CAC1 fun():void

@@ -6,7 +6,7 @@ c4C6ECFCE = {}  -- dummy
 ---@class c4C6ECFCE_instance : userdata
 ---@field f1AEA1D0D fun(self:self):void
 ---@field fF10FC659 fun(self:self):void
----@field f122A6743 fun(self:self):void
+---@field f122A6743 fun(self:self):void @ Update
 ---@field f2C85156D fun(self:self):void
 ---@field f7598033A fun(self:self):void
 ---@field fD80F4900 fun(self:self):void

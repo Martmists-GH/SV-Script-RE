@@ -5,7 +5,7 @@ c27F82B5E = {}  -- dummy
 
 ---@class c27F82B5E_instance : userdata
 ---@field f8983A819 fun(self:self):void
----@field f3491A2B7 fun(self:self):void
+---@field f3491A2B7 fun(self:self):boolean @ IsValid
 ---@field f97BD03BB fun(self:self):void
 ---@field fE3BDF99D fun(self:self):void
 ---@field fD2EF1BBB fun(self:self):void

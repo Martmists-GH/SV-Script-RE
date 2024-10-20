@@ -5,13 +5,13 @@
 c88AAD00C = {}  -- dummy
 
 ---@class c88AAD00C_instance : userdata
----@field f3491A2B7 fun(self:self):void
+---@field f3491A2B7 fun(self:self):boolean @ IsValid
 ---@field f95E1C4BB fun(self:self):void
 ---@field f7DF2AF29 fun(self:self):void
----@field f039631C6 fun(self:self):void
+---@field f039631C6 fun(self:self):void @ Join
 ---@field f3031A323 fun(self:self):void
 ---@field fF12B57CB fun(self:self):void
----@field f799A56DF fun(self:self):void
+---@field f799A56DF fun(self:self):void @ Close
 ---@field f5CBAED12 fun(self:self):void
 ---@field fB6E42705 fun(self:self):void
 ---@field fF5EEA79D fun(self:self):void

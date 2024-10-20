@@ -7,7 +7,7 @@ c2821D41C = {}  -- dummy
 ---@class c2821D41C_instance : userdata
 ---@field fFDB33643 fun(self:self):void
 ---@field f64BCC610 fun(self:self):void
----@field f317BF87B fun(self:self):void
+---@field f317BF87B fun(self:self):void @ SetPosition
 ---@field f1215532A fun(self:self):void
 ---@field f3B72DD83 fun(self:self):void
 ---@field f8DC4AC00 fun(self:self):void

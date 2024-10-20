@@ -8,7 +8,7 @@ cD8325B9D = {}  -- dummy
 ---@field f37259A04 fun(self:self):void
 ---@field fF5E28294 fun(self:self):void
 ---@field fBD0145F6 fun(self:self):void
----@field f3E0E11AE fun(self:self):void
+---@field f3E0E11AE fun(self:self):boolean @ IsPaused
 ---@field fAC68E687 fun(self:self):void
 ---@field fA43EF3CD fun(self:self):void
 ---@field fC2BCCE0B fun(self:self):void

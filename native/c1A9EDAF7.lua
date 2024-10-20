@@ -1,7 +1,7 @@
 ---@class c1A9EDAF7 : c1A9EDAF7_instance
 ---@field f84AB273F fun():void
 ---@field f23D83965 fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 ---@field f1FCDACF7 fun():void
 ---@field fC2D25BDA fun():void
 ---@field f6C85F4F7 fun():void

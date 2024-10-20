@@ -5,7 +5,7 @@
 c38C61FB3 = {}  -- dummy
 
 ---@class c38C61FB3_instance : userdata
----@field f122A6743 fun(self:self):void
+---@field f122A6743 fun(self:self):void @ Update
 ---@field f30717E80 fun(self:self):void
 ---@field f8A1669E9 fun(self:self):void
 ---THIS FILE IS A TODO---

@@ -18,6 +18,6 @@ c452EA11F = {}  -- dummy
 ---@field f012C9B01 fun(self:self):void
 ---@field f2EDA5417 fun(self:self):void
 ---@field fE7B123DB fun(self:self):void
----@field f2F544F32 fun(self:self):void
+---@field f2F544F32 fun(self:self):void @ GetPosition
 ---THIS FILE IS A TODO---
 

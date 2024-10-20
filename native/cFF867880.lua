@@ -12,11 +12,11 @@ cFF867880 = {}  -- dummy
 ---@field f6583C123 fun(self:self):void
 ---@field fC1C9BEF7 fun(self:self):void
 ---@field f598EFE7A fun(self:self):void
----@field f3491A2B7 fun(self:self):void
+---@field f3491A2B7 fun(self:self):boolean @ IsValid
 ---@field fEEB08E2D fun(self:self):void
 ---@field f99B7BEBB fun(self:self):void
 ---@field f40A78A53 fun(self:self):void
----@field fBEA9F05D fun(self:self):void
+---@field fBEA9F05D fun(self:self):void @ Add
 ---@field f37A0BAC5 fun(self:self):void
 ---@field fAEA9EB7F fun(self:self):void
 ---@field f372D3F91 fun(self:self):void

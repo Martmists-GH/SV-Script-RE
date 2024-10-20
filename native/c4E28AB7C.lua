@@ -37,7 +37,7 @@ c4E28AB7C = {}  -- dummy
 ---@field f14C18506 fun(self:self):void
 ---@field fF62A1C74 fun(self:self):void
 ---@field fE08FDDDD fun(self:self):void
----@field f94311191 fun(self:self):void
+---@field f94311191 fun(self:self):void @ GetVisibility
 ---@field f91CD436D fun(self:self):void
 ---@field f649B9A2C fun(self:self):void
 ---@field f65462631 fun(self:self):void

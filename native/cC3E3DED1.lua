@@ -4,7 +4,7 @@
 cC3E3DED1 = {}  -- dummy
 
 ---@class cC3E3DED1_instance : userdata
----@field fE9C29DA1 fun(self:self):void
+---@field fE9C29DA1 fun(self:self):string @ GetName
 ---@field f55728F9C fun(self:self):void
 ---THIS FILE IS A TODO---
 

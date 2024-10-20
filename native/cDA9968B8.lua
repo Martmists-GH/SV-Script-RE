@@ -1,7 +1,7 @@
 ---@class cDA9968B8 : cDA9968B8_instance
 ---@field f981F0074 fun():void
 ---@field f322A9AF3 fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 cDA9968B8 = {}  -- dummy
 
 ---@class cDA9968B8_instance : userdata

@@ -16,7 +16,7 @@ c3FB42236 = {}  -- dummy
 ---@field f6BD9EADE fun(self:self):void
 ---@field f64857644 fun(self:self):void
 ---@field f7360ED03 fun(self:self):void
----@field fE9C29DA1 fun(self:self):void
+---@field fE9C29DA1 fun(self:self):string @ GetName
 ---@field f9D8BC178 fun(self:self):void
 ---@field fCEC85AEA fun(self:self):void
 ---@field f15F1C0A9 fun(self:self):void

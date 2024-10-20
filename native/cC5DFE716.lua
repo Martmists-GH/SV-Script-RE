@@ -8,7 +8,7 @@ cC5DFE716 = {}  -- dummy
 ---@field fFDEF633D fun(self:self):void
 ---@field fF5E28294 fun(self:self):void
 ---@field f92A1FFA7 fun(self:self):void
----@field f122A6743 fun(self:self):void
+---@field f122A6743 fun(self:self):void @ Update
 ---@field f6BDFA205 fun(self:self):void
 ---THIS FILE IS A TODO---
 

@@ -1,7 +1,7 @@
 ---@class cFCD58ACC : cFCD58ACC_instance
 ---@field fB1628DF2 fun():void
 ---@field f04DF4643 fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 cFCD58ACC = {}  -- dummy
 
 ---@class cFCD58ACC_instance : userdata

@@ -4,7 +4,7 @@
 cE22CD062 = {}  -- dummy
 
 ---@class cE22CD062_instance : userdata
----@field f4021C7CD fun(self:self):void
+---@field f4021C7CD fun(self:self):void @ GetSize
 ---@field f0288B057 fun(self:self):void
 ---@field f117B0316 fun(self:self):void
 ---@field f38BF0F0F fun(self:self):void

@@ -2,7 +2,7 @@
 ---@field f53BFFFC5 fun():void
 ---@field fD3DB13CD fun():void
 ---@field fA64F182C fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 c52907592 = {}  -- dummy
 
 ---@class c52907592_instance : userdata

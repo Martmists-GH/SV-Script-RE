@@ -8,8 +8,8 @@ c24F9B433 = {}  -- dummy
 ---@field f5BF45D83 fun(self:self):void
 ---@field f1CBC9838 fun(self:self):void
 ---@field f13A24EBB fun(self:self):void
----@field f9BDF0F91 fun(self:self):void
----@field f084EB74C fun(self:self):void
+---@field f9BDF0F91 fun(self:self):void @ GetFovy
+---@field f084EB74C fun(self:self):void @ SetFovy
 ---@field f08A42555 fun(self:self):void
 ---@field fB37B3AE1 fun(self:self):void
 ---@field f95FCF397 fun(self:self):void
@@ -18,7 +18,7 @@ c24F9B433 = {}  -- dummy
 ---@field fC6B85EEC fun(self:self):void
 ---@field fD52F2FA7 fun(self:self):void
 ---@field f5E2B847F fun(self:self):void
----@field f6F06128C fun(self:self):void
+---@field f6F06128C fun(self:self):void @ SetTarget
 ---@field f81DF2303 fun(self:self):void
 ---@field fFD9B3885 fun(self:self):void
 ---@field f99C28637 fun(self:self):void

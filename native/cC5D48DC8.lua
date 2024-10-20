@@ -4,7 +4,7 @@
 cC5D48DC8 = {}  -- dummy
 
 ---@class cC5D48DC8_instance : userdata
----@field fE9C29DA1 fun(self:self):void
+---@field fE9C29DA1 fun(self:self):string @ GetName
 ---@field f5F362BFD fun(self:self):void
 ---@field f95352870 fun(self:self):void
 ---@field fFFA0248C fun(self:self):void

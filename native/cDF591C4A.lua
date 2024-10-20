@@ -4,7 +4,7 @@
 cDF591C4A = {}  -- dummy
 
 ---@class cDF591C4A_instance : userdata
----@field f74CDFF75 fun(self:self):void
+---@field f74CDFF75 fun(self:self):void @ Push
 ---@field f5A6334AC fun(self:self):void
 ---@field fE09CCB5C fun(self:self):void
 ---@field f979BFBCA fun(self:self):void

@@ -4,9 +4,9 @@
 cB1B49391 = {}  -- dummy
 
 ---@class cB1B49391_instance : userdata
----@field f2F544F32 fun(self:self):void
----@field f317BF87B fun(self:self):void
----@field f40043336 fun(self:self):void
+---@field f2F544F32 fun(self:self):void @ GetPosition
+---@field f317BF87B fun(self:self):void @ SetPosition
+---@field f40043336 fun(self:self):void @ GetRotation
 ---@field f5E2B847F fun(self:self):void
 ---@field fB92B18C2 fun(self:self):void
 ---@field f7735E2EE fun(self:self):void

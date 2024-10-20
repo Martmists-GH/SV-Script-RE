@@ -7,7 +7,7 @@ cFC719185 = {}  -- dummy
 
 ---@class cFC719185_instance : userdata
 ---@field fD3E30610 fun(self:self):void
----@field f122A6743 fun(self:self):void
+---@field f122A6743 fun(self:self):void @ Update
 ---@field f62782BA1 fun(self:self):void
 ---@field fBBB86CAF fun(self:self):void
 ---@field fE614538A fun(self:self):void

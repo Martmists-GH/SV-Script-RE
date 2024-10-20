@@ -28,7 +28,7 @@ cC8C03F8E = {}  -- dummy
 ---@field fEEA1EF86 fun(self:self):void
 ---@field fDF30562A fun(self:self):void
 ---@field f57DFBF2F fun(self:self):void
----@field f2F544F32 fun(self:self):void
+---@field f2F544F32 fun(self:self):void @ GetPosition
 ---@field fA23D2ADB fun(self:self):void
 ---@field f2D228EAD fun(self:self):void
 ---@field f50AA168C fun(self:self):void

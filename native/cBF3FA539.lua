@@ -17,7 +17,7 @@ cBF3FA539 = {}  -- dummy
 ---@field fD2EF1BBB fun(self:self):void
 ---@field fB31DF589 fun(self:self):void
 ---@field fE41B0EC1 fun(self:self):void
----@field fA8FAC6B9 fun(self:self):void
+---@field fA8FAC6B9 fun(self:self):void @ GetItem
 ---@field f949C19F5 fun(self:self):void
 ---@field f43E8EA34 fun(self:self):void
 ---@field f19C48257 fun(self:self):void

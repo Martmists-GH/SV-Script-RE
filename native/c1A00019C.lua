@@ -4,7 +4,7 @@
 ---@field fDEE7341A fun(x:c1A00019C_instance,y:c1A00019C_instance):boolean @ isEqual
 ---@field fED0913C4 fun(x:c1A00019C_instance,y:c1A00019C_instance):boolean @ notEqual
 ---@field f898BA682 fun():number @ newSeed
----@field f101D811F fun():c1A00019C
+---@field f101D811F fun():c1A00019C @ new
 c1A00019C = {}  -- dummy
 
 ---@class c1A00019C_instance : userdata

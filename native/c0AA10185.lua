@@ -5,7 +5,7 @@ c0AA10185 = {}  -- dummy
 
 ---@class c0AA10185_instance : userdata
 ---@field f876531D4 fun(self:self):void
----@field fE9C29DA1 fun(self:self):void
+---@field fE9C29DA1 fun(self:self):string @ GetName
 ---@field f79A15F4A fun(self:self):void
 ---@field fF202A620 fun(self:self):void
 ---@field f1D097033 fun(self:self):void

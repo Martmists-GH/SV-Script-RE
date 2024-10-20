@@ -4,6 +4,6 @@
 c21C4BCE9 = {}  -- dummy
 
 ---@class c21C4BCE9_instance : userdata
----@field f122A6743 fun(self:self):void
+---@field f122A6743 fun(self:self):void @ Update
 ---THIS FILE IS A TODO---
 

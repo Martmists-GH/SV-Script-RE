@@ -6,7 +6,7 @@
 cF986ACC7 = {}  -- dummy
 
 ---@class cF986ACC7_instance : userdata
----@field f122A6743 fun(self:self):void
+---@field f122A6743 fun(self:self):void @ Update
 ---@field fA5683E93 fun(self:self):void
 ---@field fA330F92D fun(self:self):void
 ---@field fCB2FEF1E fun(self:self):void

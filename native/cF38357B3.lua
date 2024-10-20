@@ -17,7 +17,7 @@ cF38357B3 = {}  -- dummy
 ---@field fCE2A7CF8 fun(self:self):void
 ---@field f8CCF05B1 fun(self:self):void
 ---@field fA443F22C fun(self:self):void
----@field f5CB2CDFD fun(self:self):void
+---@field f5CB2CDFD fun(self:self):void @ SetScale
 ---@field f4DF69ED6 fun(self:self):void
 ---@field f63B3BF44 fun(self:self):void
 ---@field fE834DC61 fun(self:self):void

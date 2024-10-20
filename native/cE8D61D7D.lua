@@ -1,3 +1,5 @@
+---@alias gfl_vfx2_particle_ParticleComponent cE8D61D7D
+
 ---@class cE8D61D7D : cE8D61D7D_instance
 ---@field fEFB8CD3A fun(x:cE8D61D7D_instance,y:cE8D61D7D_instance):boolean @ IsEqual
 ---@field f8BA013D9 fun(x:cE8D61D7D_instance,y:cE8D61D7D_instance):boolean @ NotEqual
@@ -27,7 +29,7 @@ cE8D61D7D = {}  -- dummy
 ---@field fEACE829B fun(self:self):void
 ---@field f11CC5570 fun(self:self):boolean
 ---@field f358136AB fun(self:self):number
----@field f3A9FE028 fun(self:self,x:number):void
+---@field f3A9FE028 fun(self:self,x:number):void @ SetSpeedRate
 ---@field f5C566D8B fun(self:self,x:string):boolean
 ---@field f28E8A1C7 fun(self:self,x:string,y:boolean):void
 ---@field fC8299FCE fun(self:self,x:boolean):void

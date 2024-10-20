@@ -9,7 +9,7 @@ cBBE823D7 = {}  -- dummy
 ---@field f5C99C0AC fun(self:self):void
 ---@field f558733FC fun(self:self):void
 ---@field fBD0145F6 fun(self:self):void
----@field f3E0E11AE fun(self:self):void
+---@field f3E0E11AE fun(self:self):boolean @ IsPaused
 ---@field f77247F8A fun(self:self):void
 ---@field fE0A4014B fun(self:self):void
 ---@field f4923D467 fun(self:self):void

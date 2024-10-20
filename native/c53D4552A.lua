@@ -1,7 +1,7 @@
 ---@class c53D4552A : c53D4552A_instance
 ---@field fA6E77048 fun():void
 ---@field fC2FFAEAB fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 c53D4552A = {}  -- dummy
 
 ---@class c53D4552A_instance : userdata

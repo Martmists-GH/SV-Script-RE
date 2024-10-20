@@ -1,3 +1,5 @@
+---@alias gfl_math_Quaternion cD5675BA5
+
 ---@class cD5675BA5 : cD5675BA5_instance
 ---@field f1C9D9E00 fun():void
 ---@field f15834BF3 fun():void

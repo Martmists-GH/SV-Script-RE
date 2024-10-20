@@ -1,11 +1,11 @@
 ---@class cE4EB4216 : cE4EB4216_instance
 ---@field f0E55C4BE fun():void
 ---@field fBF970507 fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 cE4EB4216 = {}  -- dummy
 
 ---@class cE4EB4216_instance : userdata
----@field f3491A2B7 fun(self:self):void
+---@field f3491A2B7 fun(self:self):boolean @ IsValid
 ---@field f86F63AC3 fun(self:self):void
 ---@field f7A3B213F fun(self:self):void
 ---@field fE27C61B2 fun(self:self):void

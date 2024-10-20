@@ -13,9 +13,9 @@ c8152E579 = {}  -- dummy
 ---@field f1D169339 fun(self:self):void
 ---@field f8372069A fun(self:self):void
 ---@field fF475360C fun(self:self):void
----@field f33A459EF fun(self:self):void
+---@field f33A459EF fun(self:self):void @ GetTranslation
 ---@field f0A2031B5 fun(self:self):void
----@field f40043336 fun(self:self):void
+---@field f40043336 fun(self:self):void @ GetRotation
 ---@field fADC15951 fun(self:self):void
 ---@field fE0EF33F0 fun(self:self):void
 ---@field fE3D256C0 fun(self:self):void

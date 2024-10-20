@@ -8,8 +8,8 @@ cA315A482 = {}  -- dummy
 ---@field f5BF45D83 fun(self:self):void
 ---@field f1CBC9838 fun(self:self):void
 ---@field f13A24EBB fun(self:self):void
----@field f9BDF0F91 fun(self:self):void
----@field f084EB74C fun(self:self):void
+---@field f9BDF0F91 fun(self:self):void @ GetFovy
+---@field f084EB74C fun(self:self):void @ SetFovy
 ---@field f08A42555 fun(self:self):void
 ---@field fB37B3AE1 fun(self:self):void
 ---@field f95FCF397 fun(self:self):void

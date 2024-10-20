@@ -3,7 +3,7 @@
 ---@class c03C8030E : c03C8030E_instance
 ---@field f7F18B5F5 fun(x:c03C8030E_instance,y:c03C8030E_instance):boolean @ IsEqual
 ---@field fFBBC944E fun(x:c03C8030E_instance,y:c03C8030E_instance):boolean @ NotEqual
----@field f101D811F fun():c03C8030E
+---@field f101D811F fun():c03C8030E @ new
 c03C8030E = {}  -- dummy
 
 ---@class c03C8030E_instance : userdata

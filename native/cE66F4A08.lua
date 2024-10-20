@@ -1,12 +1,12 @@
 ---@class cE66F4A08 : cE66F4A08_instance
 ---@field fFC4B666A fun():void
 ---@field f2B33208F fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 cE66F4A08 = {}  -- dummy
 
 ---@class cE66F4A08_instance : userdata
----@field f2F544F32 fun(self:self):void
----@field f317BF87B fun(self:self):void
+---@field f2F544F32 fun(self:self):void @ GetPosition
+---@field f317BF87B fun(self:self):void @ SetPosition
 ---@field f8DBC488A fun(self:self):void
 ---@field f7C905BF7 fun(self:self):void
 ---@field f5416D444 fun(self:self):void

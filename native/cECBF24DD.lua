@@ -8,6 +8,6 @@ cECBF24DD = {}  -- dummy
 ---@field fF82F8196 fun(self:self):void
 ---@field fAAEAE055 fun(self:self):void
 ---@field fCDCB600D fun(self:self):void
----@field f2A9CF058 fun(self:self):void
+---@field f2A9CF058 fun(self:self,visible:boolean):void @ SetVisible
 ---THIS FILE IS A TODO---
 

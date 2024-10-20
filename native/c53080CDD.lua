@@ -1,7 +1,7 @@
 ---@class c53080CDD : c53080CDD_instance
 ---@field fA98BEADC fun():void
 ---@field f7BDF2D74 fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 c53080CDD = {}  -- dummy
 
 ---@class c53080CDD_instance : userdata

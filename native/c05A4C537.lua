@@ -1,7 +1,7 @@
 ---@class c05A4C537 : c05A4C537_instance
 ---@field f285D0457 fun():void
 ---@field f82689ED0 fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 c05A4C537 = {}  -- dummy
 
 ---@class c05A4C537_instance : userdata
@@ -20,7 +20,7 @@ c05A4C537 = {}  -- dummy
 ---@field fBC174340 fun(self:self):void
 ---@field fAD9E6871 fun(self:self):void
 ---@field fD42005AF fun(self:self):void
----@field f122A6743 fun(self:self):void
+---@field f122A6743 fun(self:self):void @ Update
 ---@field fEB960553 fun(self:self):void
 ---@field fCB2FEF1E fun(self:self):void
 ---@field f4CCED184 fun(self:self):void

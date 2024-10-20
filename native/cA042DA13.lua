@@ -4,7 +4,7 @@
 cA042DA13 = {}  -- dummy
 
 ---@class cA042DA13_instance : userdata
----@field fE9C29DA1 fun(self:self):void
+---@field fE9C29DA1 fun(self:self):string @ GetName
 ---@field f48F8C7FF fun(self:self):void
 ---@field fD2B6C3AA fun(self:self):void
 ---@field fE6025EA7 fun(self:self):void

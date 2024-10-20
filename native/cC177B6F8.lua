@@ -4,6 +4,6 @@
 cC177B6F8 = {}  -- dummy
 
 ---@class cC177B6F8_instance : userdata
----@field fA8FAC6B9 fun(self:self):void
+---@field fA8FAC6B9 fun(self:self):void @ GetItem
 ---THIS FILE IS A TODO---
 

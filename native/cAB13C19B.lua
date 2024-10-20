@@ -11,7 +11,7 @@ cAB13C19B = {}  -- dummy
 ---@field f757BC25F fun(self:self):void
 ---@field fA58E74B3 fun(self:self):void
 ---@field fBBA1C3FA fun(self:self):void
----@field f3491A2B7 fun(self:self):void
+---@field f3491A2B7 fun(self:self):boolean @ IsValid
 ---@field f3B23FE0B fun(self:self):void
 ---@field f50F04AFD fun(self:self):void
 ---@field fD938B0BF fun(self:self):void

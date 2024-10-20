@@ -21,10 +21,10 @@ cB9C67D19 = {}  -- dummy
 ---@field fF2B1D0F8 fun(self:self):void
 ---@field f0C789B28 fun(self:self):void
 ---@field fF94B702D fun(self:self):void
----@field f3491A2B7 fun(self:self):void
+---@field f3491A2B7 fun(self:self):boolean @ IsValid
 ---@field f0BB62CB7 fun(self:self):void
 ---@field fD76B1836 fun(self:self):void
----@field f122A6743 fun(self:self):void
+---@field f122A6743 fun(self:self):void @ Update
 ---@field f1F9B511F fun(self:self):void
 ---@field f6B88B026 fun(self:self):void
 ---@field f91241616 fun(self:self):void

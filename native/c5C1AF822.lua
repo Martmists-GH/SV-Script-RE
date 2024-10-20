@@ -1,7 +1,7 @@
 ---@class c5C1AF822 : c5C1AF822_instance
 ---@field f1F238FA2 fun():void
 ---@field fB5161525 fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 c5C1AF822 = {}  -- dummy
 
 ---@class c5C1AF822_instance : userdata

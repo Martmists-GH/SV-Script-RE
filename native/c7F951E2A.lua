@@ -13,7 +13,7 @@ c7F951E2A = {}  -- dummy
 ---@field f08EC5594 fun(self:self):void
 ---@field fC4ABC723 fun(self:self):void
 ---@field fA0F27991 fun(self:self):void
----@field f3491A2B7 fun(self:self):void
+---@field f3491A2B7 fun(self:self):boolean @ IsValid
 ---@field f82FDCD56 fun(self:self):void
 ---@field f96C42A84 fun(self:self):void
 ---@field f40A78A53 fun(self:self):void

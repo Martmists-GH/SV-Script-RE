@@ -14,7 +14,7 @@ c654F4F78 = {}  -- dummy
 ---@field f343D2888 fun(self:self):void
 ---@field f01AB8FDA fun(self:self):void
 ---@field fA7B9B890 fun(self:self):void
----@field f3491A2B7 fun(self:self):void
+---@field f3491A2B7 fun(self:self):boolean @ IsValid
 ---@field f50F04AFD fun(self:self):void
 ---@field fB03D2D54 fun(self:self):void
 ---@field f40A78A53 fun(self:self):void

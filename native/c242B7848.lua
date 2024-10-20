@@ -1,3 +1,5 @@
+---@alias gfl_gfx2_Environment c242B7848
+
 ---@class c242B7848 : userdata
 ---@field f9534123C fun():void
 ---@field fB189AF4F fun():void

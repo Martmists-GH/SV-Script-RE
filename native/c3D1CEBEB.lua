@@ -1,7 +1,7 @@
 ---@class c3D1CEBEB : c3D1CEBEB_instance
 ---@field f290096ED fun():void
 ---@field f679652F3 fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 c3D1CEBEB = {}  -- dummy
 
 ---@class c3D1CEBEB_instance : userdata

@@ -3,7 +3,7 @@
 ---@class cC99399C3 : cC99399C3_instance
 ---@field fAABE7466 fun():void
 ---@field f73DA2273 fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 ---@field fBB73484B fun():void
 ---@field f29E8C0F3 fun():void
 ---@field f71D1609D fun():void

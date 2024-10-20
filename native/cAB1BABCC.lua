@@ -1,7 +1,7 @@
 ---@class cAB1BABCC : cAB1BABCC_instance
 ---@field fDF753CAF fun():void
 ---@field f7540A628 fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 cAB1BABCC = {}  -- dummy
 
 ---@class cAB1BABCC_instance : userdata

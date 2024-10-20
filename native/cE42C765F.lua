@@ -1,3 +1,5 @@
+---@alias gfl_math_Vector4 cE42C765F
+
 ---@class cE42C765F : userdata
 ---@field fB1209291 fun():void
 ---@field fE8628DFF fun():void

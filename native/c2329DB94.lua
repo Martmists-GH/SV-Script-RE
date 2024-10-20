@@ -20,7 +20,7 @@ c2329DB94 = {}  -- dummy
 ---@field f4861C02A fun(self:self):void
 ---@field f67841428 fun(self:self):void
 ---@field f95AAA83B fun(self:self):void
----@field fE9C29DA1 fun(self:self):void
+---@field fE9C29DA1 fun(self:self):string @ GetName
 ---@field fCF7CA431 fun(self:self):void
 ---@field f0C3090FB fun(self:self):void
 ---@field fCC83D170 fun(self:self):void

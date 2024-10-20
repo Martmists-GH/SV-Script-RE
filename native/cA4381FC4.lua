@@ -20,7 +20,7 @@ cA4381FC4 = {}  -- dummy
 ---@field f7C519D6C fun(self:self):void
 ---@field f56310C93 fun(self:self):void
 ---@field f21363C05 fun(self:self):void
----@field f3491A2B7 fun(self:self):void
+---@field f3491A2B7 fun(self:self):boolean @ IsValid
 ---@field f841FC283 fun(self:self):void
 ---@field f5504CAB4 fun(self:self):void
 ---@field f98B5C529 fun(self:self):void
@@ -28,7 +28,7 @@ cA4381FC4 = {}  -- dummy
 ---@field fEEB08E2D fun(self:self):void
 ---@field f99B7BEBB fun(self:self):void
 ---@field f40A78A53 fun(self:self):void
----@field fBEA9F05D fun(self:self):void
+---@field fBEA9F05D fun(self:self):void @ Add
 ---@field f7A1C4BCB fun(self:self):void
 ---@field f47BEA911 fun(self:self):void
 ---@field fEAD580E6 fun(self:self):void

@@ -1,7 +1,7 @@
 ---@class c40CEA973 : c40CEA973_instance
 ---@field f85DD6077 fun():void
 ---@field f341FA1CE fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 c40CEA973 = {}  -- dummy
 
 ---@class c40CEA973_instance : userdata

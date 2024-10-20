@@ -1,3 +1,5 @@
+---@alias gfl_anm2_ParameterList c793CF01B
+
 ---@class c793CF01B : c793CF01B_instance
 ---@field f9222226D fun():void
 ---@field f23E0E3D4 fun():void

@@ -100,7 +100,7 @@ cA36A2863 = {}  -- dummy
 ---@field f644CD7A2 fun(self:self):void
 ---@field f876FF37D fun(self:self):void
 ---@field fCE2A7CF8 fun(self:self):void
----@field fA8FAC6B9 fun(self:self):void
+---@field fA8FAC6B9 fun(self:self):void @ GetItem
 ---@field f3B6B7E64 fun(self:self):void
 ---@field fE1F1C00C fun(self:self):void
 ---@field f7353E6A8 fun(self:self):void

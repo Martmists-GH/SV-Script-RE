@@ -4,7 +4,7 @@
 c69AA6877 = {}  -- dummy
 
 ---@class c69AA6877_instance : userdata
----@field fE9C29DA1 fun(self:self):void
+---@field fE9C29DA1 fun(self:self):string @ GetName
 ---@field f4C1F6F64 fun(self:self):void
 ---@field fCB106B0A fun(self:self):void
 ---@field f23EB37F4 fun(self:self):void

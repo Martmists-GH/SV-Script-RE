@@ -5,7 +5,7 @@
 cB9F45270 = {}  -- dummy
 
 ---@class cB9F45270_instance : userdata
----@field f122A6743 fun(self:self):void
+---@field f122A6743 fun(self:self):void @ Update
 ---@field f79EAF213 fun(self:self):void
 ---@field f89C9081B fun(self:self):void
 ---@field f5A9C2B9A fun(self:self):void

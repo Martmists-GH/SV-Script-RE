@@ -1,7 +1,7 @@
 ---@class cAF3C85AA : cAF3C85AA_instance
 ---@field fEF1E6956 fun():void
 ---@field f486D770C fun():void
----@field f101D811F fun():void
+---@field f101D811F fun():void @ new
 cAF3C85AA = {}  -- dummy
 
 ---@class cAF3C85AA_instance : userdata

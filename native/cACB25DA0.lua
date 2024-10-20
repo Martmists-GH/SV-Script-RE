@@ -6,7 +6,7 @@ cACB25DA0 = {}  -- dummy
 ---@class cACB25DA0_instance : userdata
 ---@field fBD0145F6 fun(self:self):void
 ---@field fEACE829B fun(self:self):void
----@field f3E0E11AE fun(self:self):void
+---@field f3E0E11AE fun(self:self):boolean @ IsPaused
 ---@field f3FBA9000 fun(self:self):void
 ---@field f40A42377 fun(self:self):void
 ---@field f9D8BC178 fun(self:self):void
@@ -25,7 +25,7 @@ cACB25DA0 = {}  -- dummy
 ---@field f4F695F4D fun(self:self):void
 ---@field f17FFCE38 fun(self:self):void
 ---@field fEF3D634A fun(self:self):void
----@field fE9C29DA1 fun(self:self):void
+---@field fE9C29DA1 fun(self:self):string @ GetName
 ---@field f0BDE77E0 fun(self:self):void
 ---THIS FILE IS A TODO---
 

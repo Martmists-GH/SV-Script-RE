@@ -5,7 +5,7 @@
 c7DDA29B5 = {}  -- dummy
 
 ---@class c7DDA29B5_instance : userdata
----@field f317BF87B fun(self:self):void
+---@field f317BF87B fun(self:self):void @ SetPosition
 ---@field fE72F69A7 fun(self:self):void
 ---@field fECA49C6C fun(self:self):void
 ---@field f3749E8D8 fun(self:self):void
