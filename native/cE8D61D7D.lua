@@ -34,7 +34,7 @@ cE8D61D7D = {}  -- dummy
 ---@field f28E8A1C7 fun(self:self,x:string,y:boolean):void
 ---@field fC8299FCE fun(self:self,x:boolean):void
 ---@field f338EA72F fun(self:self,x:boolean):void
----@field f2C7B9325 fun(self:self):boolean
+---@field f2C7B9325 fun(self:self):boolean @ IsVisible
 ---@field fE08FDDDD fun(self:self,x:boolean):void
 ---@field f52051F16 fun(self:self):string
 ---@field f2A6A666E fun(self:self,x:string,y:boolean):void

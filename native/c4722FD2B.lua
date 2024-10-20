@@ -17,6 +17,6 @@ c4722FD2B = {}  -- dummy
 ---@field fCFE4B665 fun(self:self):void
 ---@field f4165C7F2 fun(self:self):void
 ---@field f4FE4C271 fun(self:self):void
----@field f0EF9BB78 fun(self:self):void
+---@field f0EF9BB78 fun(self:self):void @ IsNull
 ---THIS FILE IS A TODO---
 

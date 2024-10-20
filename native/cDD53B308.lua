@@ -20,6 +20,6 @@ cDD53B308 = {}  -- dummy
 ---@field f1AE9B954 fun(self:self):void
 ---@field f2A551050 fun(self:self):void
 ---@field f0D7E5D75 fun(self:self):void
----@field f0EF9BB78 fun(self:self):void
+---@field f0EF9BB78 fun(self:self):void @ IsNull
 ---THIS FILE IS A TODO---
 

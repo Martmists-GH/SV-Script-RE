@@ -26,7 +26,7 @@ cECF00344 = {}  -- dummy
 ---@field fF8C77C75 fun(self:self,x:string):boolean
 ---@field fEAD9FB7D fun(self:self,x:string,y:number):void
 ---@field f550AECFE fun(self:self,x:string,y:boolean):void
----@field f33A1A337 fun(self:self):boolean
+---@field f33A1A337 fun(self:self):boolean @ IsActive
 ---@field f927F4E88 fun(self:self,x:string,y:string,z:number):void
 ---@field fE5787E1E fun(self:self,x:string,y:userdata):void
 ---@field f6772BBF5 fun(self:self,x:string):void

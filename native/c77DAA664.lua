@@ -23,7 +23,7 @@ c77DAA664 = {}  -- dummy
 ---@field f55E46E76 fun(self:self):void
 ---@field f75FE7FDE fun(self:self):void
 ---@field f9760DFC7 fun(self:self):void
----@field f2C7B9325 fun(self:self):void
+---@field f2C7B9325 fun(self:self):void @ IsVisible
 ---@field fE08FDDDD fun(self:self):void
 ---@field f8DCF91ED fun(self:self):void
 ---@field fA38AB07F fun(self:self):void

@@ -8,7 +8,7 @@ c76B759D8 = {}  -- dummy
 ---@field f0EF10D0C fun(self:self):void
 ---@field fB3C1AD37 fun(self:self):void
 ---@field f33381812 fun(self:self):void
----@field fCDCB600D fun(self:self):void
+---@field fCDCB600D fun(self:self):void @ Destroy
 ---@field f4180B914 fun(self:self):void
 ---@field f0032C23E fun(self:self):void
 ---@field fCCE0C038 fun(self:self):void

@@ -12,7 +12,7 @@ c3CDBBA2A = {}  -- dummy
 ---@field fD895B570 fun(self:self):void
 ---@field fBDC346D7 fun(self:self):void
 ---@field f98C8CDC9 fun(self:self):void
----@field f2C7B9325 fun(self:self):void
+---@field f2C7B9325 fun(self:self):void @ IsVisible
 ---@field f143FF23F fun(self:self):void
 ---@field fE23D5A35 fun(self:self):void
 ---@field f1A93EBE8 fun(self:self):void

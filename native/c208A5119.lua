@@ -6,7 +6,7 @@
 c208A5119 = {}  -- dummy
 
 ---@class c208A5119_instance : userdata
----@field f7A53257C fun(self:self,x:c535A0125):void
+---@field f7A53257C fun(self:self,x:c535A0125):void @ SetName
 ---@field f627889C9 fun(self:self):number
 ---@field fFA3FC944 fun(self:self,x:number):void
 ---@field f10833B21 fun(self:self):number

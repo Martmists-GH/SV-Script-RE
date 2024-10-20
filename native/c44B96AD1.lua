@@ -11,11 +11,11 @@ c44B96AD1 = {}  -- dummy
 ---@field f13CDA9A3 fun(self:self):void @ UnTarget
 ---@field f3ED070C9 fun(self:self):void
 ---@field f6277C172 fun(self:self):void @ SetActive
----@field f33A1A337 fun(self:self):void
+---@field f33A1A337 fun(self:self):void @ IsActive
 ---@field fA8492502 fun(self:self):void
 ---@field f3F176020 fun(self:self):void
 ---@field f6E624FAC fun(self:self):void
 ---@field f2A9CF058 fun(self:self,visible:boolean):void @ SetVisible
----@field f2C7B9325 fun(self:self):void
+---@field f2C7B9325 fun(self:self):void @ IsVisible
 ---THIS FILE IS A TODO---
 

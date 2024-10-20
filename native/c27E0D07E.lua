@@ -15,12 +15,12 @@ c27E0D07E = {}  -- dummy
 ---@field f13CDA9A3 fun(self:self):void @ UnTarget
 ---@field f3ED070C9 fun(self:self):boolean
 ---@field f6277C172 fun(self:self,x:boolean):void @ SetActive
----@field f33A1A337 fun(self:self):boolean
+---@field f33A1A337 fun(self:self):boolean @ IsActive
 ---@field fA8492502 fun(self:self,x:boolean):void
 ---@field f3F176020 fun(self:self):boolean
 ---@field f6E624FAC fun(self:self):boolean
 ---@field f2A9CF058 fun(self:self,visible:boolean):void @ SetVisible
----@field f2C7B9325 fun(self:self):boolean
+---@field f2C7B9325 fun(self:self):boolean @ IsVisible
 ---@field f4F8C7B75 fun(self:self):void
 ---@field fA8FAC6B9 fun(self:self,x:cEBF4B147):string @ GetItem
 ---@field f06E080B8 fun(self:self,x:cEBF4B147,y:boolean,z:boolean):void

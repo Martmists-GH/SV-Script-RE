@@ -5,7 +5,7 @@
 cECB91E31 = {}  -- dummy
 
 ---@class cECB91E31_instance : userdata
----@field f2C7B9325 fun(self:self):boolean
+---@field f2C7B9325 fun(self:self):boolean @ IsVisible
 ---@field fE08FDDDD fun(self:self,x:boolean):void
 ---@field f1447AC81 fun(self:self):boolean
 ---@field f2CB8758F fun(self:self):boolean

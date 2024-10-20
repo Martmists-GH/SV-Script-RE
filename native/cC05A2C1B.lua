@@ -5,7 +5,7 @@
 cC05A2C1B = {}  -- dummy
 
 ---@class cC05A2C1B_instance : userdata
----@field f33A1A337 fun(self:self):void
+---@field f33A1A337 fun(self:self):void @ IsActive
 ---@field f4F98916F fun(self:self):void
 ---@field fA3454B11 fun(self:self):void
 ---@field f9092D59F fun(self:self):void

@@ -13,12 +13,12 @@ c3FAF3463 = {}  -- dummy
 ---@field f13CDA9A3 fun(self:self):void @ UnTarget
 ---@field f3ED070C9 fun(self:self):boolean
 ---@field f6277C172 fun(self:self):void @ SetActive
----@field f33A1A337 fun(self:self):boolean
+---@field f33A1A337 fun(self:self):boolean @ IsActive
 ---@field fA8492502 fun(self:self):void
 ---@field f3F176020 fun(self:self):boolean
 ---@field f6E624FAC fun(self:self):boolean
 ---@field f2A9CF058 fun(self:self,visible:boolean):void @ SetVisible
----@field f2C7B9325 fun(self:self):boolean
+---@field f2C7B9325 fun(self:self):boolean @ IsVisible
 ---@field f52779085 fun(self:self,x:userdata):void
 ---@field f06FE2067 fun(self:self,x:userdata):void
 ---@field fD65B9CC5 fun(self:self,x:userdata):void
