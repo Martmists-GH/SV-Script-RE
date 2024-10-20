@@ -1,4 +1,4 @@
----@alias gdl_anm2_AnimationComponent cE35B3EB3
+---@alias gfl_anm2_AnimationComponent cE35B3EB3
 
 ---@class cE35B3EB3 : cE35B3EB3_instance
 ---@field fDBA763D1 fun():void

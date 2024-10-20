@@ -1,10 +1,12 @@
+---@alias ui_pokedex_PokedexDataManager cA7A22927
+
 ---@class cA7A22927 : cA7A22927_instance
 ---@field f4BA04E9C fun():void
 ---@field f12E21BBA fun():void
 cA7A22927 = {}  -- dummy
 
 ---@class cA7A22927_instance : userdata
----@field f1AEA1D0D fun(self:self):void
+---@field f1AEA1D0D fun(self:self):void @ Initialize
 ---@field fCD980DBB fun(self:self):void
 ---@field f8F664FD9 fun(self:self):void
 ---@field f87D59A0A fun(self:self):void

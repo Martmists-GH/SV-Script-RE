@@ -1,3 +1,5 @@
+---@alias gfl_physics_havok_BoxShape c2CBF19BE
+
 ---@class c2CBF19BE : c2CBF19BE_instance
 ---@field fAACE13D4 fun():void
 ---@field f161D2D05 fun():void

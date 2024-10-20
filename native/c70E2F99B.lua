@@ -1,3 +1,5 @@
+---@alias gfl_anm2_StateComponent c70E2F99B
+
 ---@class c70E2F99B : c70E2F99B_instance
 ---@field fC4235E43 fun():void
 ---@field f81CAC361 fun():void
@@ -5,7 +7,7 @@
 c70E2F99B = {}  -- dummy
 
 ---@class c70E2F99B_instance : userdata
----@field f0BDE77E0 fun(self:self):void
+---@field f0BDE77E0 fun(self:self):void @ GetPriority
 ---@field f15F1C0A9 fun(self:self):void
 ---@field fE8A78101 fun(self:self):void
 ---@field f08B792B6 fun(self:self):void

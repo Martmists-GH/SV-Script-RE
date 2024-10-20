@@ -10,7 +10,7 @@
 ---@field f6C6B9549 fun():void
 ---@field f497330ED fun():void
 ---@field f9B4C1E89 fun():void
----@field f3D88C322 fun():void
+---@field f3D88C322 fun():void @ Cross
 ---@field fDEC5A133 fun():void
 ---@field fE2C89E6A fun():void
 ---@field f6B20D21C fun():void

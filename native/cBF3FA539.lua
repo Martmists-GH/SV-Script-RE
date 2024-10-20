@@ -7,7 +7,7 @@ cBF3FA539 = {}  -- dummy
 ---@class cBF3FA539_instance : userdata
 ---@field fDACEDA00 fun(self:self):void
 ---@field f1374B6B5 fun(self:self):void
----@field f55728F9C fun(self:self):void
+---@field f55728F9C fun(self:self):void @ GetValue
 ---@field f0CD65817 fun(self:self):void
 ---@field f62C8C6A6 fun(self:self):void
 ---@field f03ADE402 fun(self:self):void

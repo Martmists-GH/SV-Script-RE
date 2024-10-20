@@ -1,3 +1,5 @@
+---@alias gfl_audio_Engine cB66A3C78
+
 ---@class cB66A3C78 : cB66A3C78_instance
 ---@field f1EA368F2 fun():void
 ---@field fCDE1B36A fun():void
@@ -10,7 +12,7 @@ cB66A3C78 = {}  -- dummy
 ---@field f89CBA659 fun(self:self):void
 ---@field fE2FD0B45 fun(self:self):void
 ---@field f6DFB4FBB fun(self:self):void
----@field f97D17953 fun(self:self):void
+---@field f97D17953 fun(self:self):void @ SetListenerPosition
 ---@field fF39B3BE6 fun(self:self):void
 ---@field f06CDE2A7 fun(self:self):void
 ---@field fC9FB88B2 fun(self:self):void
@@ -21,9 +23,9 @@ cB66A3C78 = {}  -- dummy
 ---@field f3838A075 fun(self:self):void
 ---@field f76EA596C fun(self:self):void
 ---@field f52A0FC5F fun(self:self):void
----@field fDA20AB00 fun(self:self):void
----@field f84ACD0F7 fun(self:self):void
----@field fC798DF4E fun(self:self):void
+---@field fDA20AB00 fun(self:self):void @ RegisterGameObject
+---@field f84ACD0F7 fun(self:self):void @ UnregisterGameObject
+---@field fC798DF4E fun(self:self):void @ SetGameObjectPosition
 ---@field f1434F22E fun(self:self):void
 ---@field f14280F99 fun(self:self):void
 ---@field fAAF08141 fun(self:self):void
@@ -31,23 +33,23 @@ cB66A3C78 = {}  -- dummy
 ---@field fBBB49032 fun(self:self):void
 ---@field fDB3EEF80 fun(self:self):void
 ---@field f316DB515 fun(self:self):void
----@field f5E131A0F fun(self:self):void
+---@field f5E131A0F fun(self:self):void @ PostEvent
 ---@field f07982B90 fun(self:self):void
----@field f10214888 fun(self:self):void
+---@field f10214888 fun(self:self):void @ PostEventGlobal
 ---@field fAD517D73 fun(self:self):void
----@field fB44C9585 fun(self:self):void
+---@field fB44C9585 fun(self:self):void @ PostEventAtLocation
 ---@field fD7233E7B fun(self:self):void
 ---@field fD09DDCAA fun(self:self):void
 ---@field f167DEF81 fun(self:self):void
 ---@field fED971246 fun(self:self):void
 ---@field fFD8CD7C4 fun(self:self):void
 ---@field fB91E7CEC fun(self:self):void
----@field f7674027D fun(self:self):void
----@field f61024C65 fun(self:self):void
+---@field f7674027D fun(self:self):void @ IsActivePlayingId
+---@field f61024C65 fun(self:self):void @ PostTrigger
 ---@field fFAD92763 fun(self:self):void
 ---@field fF1270040 fun(self:self):void
----@field f46807668 fun(self:self):void
----@field f13673A82 fun(self:self):void
+---@field f46807668 fun(self:self):void @ SetSwitch
+---@field f13673A82 fun(self:self):void @ SetState
 ---@field fA48FA07C fun(self:self):void
 ---@field fD253AB68 fun(self:self):void
 ---@field f7B2A5517 fun(self:self):void

@@ -1,9 +1,9 @@
----@alias PhysicsComponent c7C4EA23C
+---@alias gfl_physics_havok_PhysicsComponent c7C4EA23C
 
 ---@class c7C4EA23C : c7C4EA23C_instance
 ---@field fD9BDDDC9 fun(x:c7C4EA23C_instance,y:c7C4EA23C_instance):boolean @IsEqual
 ---@field fAACBFED0 fun(x:c7C4EA23C_instance,y:c7C4EA23C_instance):boolean @NotEqual
----@field fB41FD22F fun(x:c016374C1):PhysicsComponent
+---@field fB41FD22F fun(x:c016374C1):gfl_physics_havok_PhysicsComponent
 c7C4EA23C = {}  -- dummy
 
 ---@class c7C4EA23C_instance : userdata

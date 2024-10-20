@@ -1,3 +1,5 @@
+---@alias gfl_ai_havok_AiComponent cB4CCDA56
+
 ---@class cB4CCDA56 : cB4CCDA56_instance
 ---@field f0B848559 fun():void
 ---@field f668005E4 fun():void

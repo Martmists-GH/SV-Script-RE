@@ -1,3 +1,5 @@
+---@alias gfl_debugui_WindowBase c2DF8D675
+
 ---@class c2DF8D675 : c2DF8D675_instance
 ---@field fF002E1CC fun():void
 ---@field f41C02075 fun():void

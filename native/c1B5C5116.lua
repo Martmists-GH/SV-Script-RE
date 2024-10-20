@@ -15,7 +15,7 @@ c1B5C5116 = {}  -- dummy
 ---@field f81A0893D fun(self:self):void
 ---@field f02A2DCE2 fun(self:self):void
 ---@field f46FB9CA4 fun(self:self):void
----@field fBE2C58EE fun(self:self):void
+---@field fBE2C58EE fun(self:self):void @ GetTable
 ---@field f62D7F923 fun(self:self):void
 ---@field fC32B6656 fun(self:self):void
 ---@field fB95F4DF6 fun(self:self):void

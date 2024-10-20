@@ -5,7 +5,7 @@
 cB290431B = {}  -- dummy
 
 ---@class cB290431B_instance : userdata
----@field f1AEA1D0D fun(self:self):void
+---@field f1AEA1D0D fun(self:self):void @ Initialize
 ---@field fB3B7B529 fun(self:self):void
 ---@field fD766D14B fun(self:self):void
 ---@field f1BC1F17E fun(self:self):void

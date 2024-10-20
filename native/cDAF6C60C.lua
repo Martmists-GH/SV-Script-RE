@@ -1,3 +1,5 @@
+---@alias gfl_scene_SceneObjectReference cDAF6C60C
+
 ---@class cDAF6C60C : cDAF6C60C_instance
 ---@field f426E4BC3 fun():void
 ---@field f903A8C6B fun():void

@@ -1,3 +1,5 @@
+---@alias gfl_ai_havok_World c45FE3841
+
 ---@class c45FE3841 : c45FE3841_instance
 ---@field fC97B0A0C fun():void
 ---@field fC065DFFF fun():void

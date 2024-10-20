@@ -34,11 +34,11 @@ cD5675BA5 = {}  -- dummy
 
 ---@class cD5675BA5_instance : userdata
 ---@field f2F440732 fun(self:self):void
----@field fCCBD9548 fun(self:self):void
+---@field fCCBD9548 fun(self:self):void @ GetX
 ---@field f13C65580 fun(self:self):void
----@field fBBBAA5DE fun(self:self):void
+---@field fBBBAA5DE fun(self:self):void @ GetY
 ---@field f64C16516 fun(self:self):void
----@field f22B3F464 fun(self:self):void
+---@field f22B3F464 fun(self:self):void @ GetZ
 ---@field fFDC834AC fun(self:self):void
 ---@field f5C0288D9 fun(self:self):void
 ---@field f83794811 fun(self:self):void

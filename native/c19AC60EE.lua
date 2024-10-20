@@ -12,8 +12,8 @@ c19AC60EE = {}  -- dummy
 ---@field f6877EEE5 fun(self:self):void
 ---@field fA04794EB fun(self:self):void
 ---@field fC5EB14BD fun(self:self):void
----@field f61024C65 fun(self:self):void
----@field f46807668 fun(self:self):void
+---@field f61024C65 fun(self:self):void @ PostTrigger
+---@field f46807668 fun(self:self):void @ SetSwitch
 ---@field fFAD92763 fun(self:self):void
 ---@field f71259B07 fun(self:self):void
 ---@field f47487E4D fun(self:self):void
@@ -21,7 +21,7 @@ c19AC60EE = {}  -- dummy
 ---@field f4C805EC7 fun(self:self):void
 ---@field fED262433 fun(self:self):void
 ---@field fD683E697 fun(self:self):void
----@field f7674027D fun(self:self):void
+---@field f7674027D fun(self:self):void @ IsActivePlayingId
 ---@field f5A9BE47C fun(self:self):void
 ---@field f01E5E8A2 fun(self:self):void
 ---@field fA3F860FE fun(self:self):void

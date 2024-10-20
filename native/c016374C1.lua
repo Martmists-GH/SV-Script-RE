@@ -1,4 +1,4 @@
----@alias SceneObject c016374C1
+---@alias gfl_scene_SceneObject c016374C1
 
 ---@class c016374C1 : c016374C1_instance
 ---@field f9F601543 fun(x:c3FB42236):c016374C1
@@ -20,17 +20,17 @@ c016374C1 = {}  -- dummy
 ---@field f188CA001 fun(self:self,x:boolean):void
 ---@field f12E5BA98 fun(self:self,x:userdata):void
 ---@field f0D51F5EF fun(self:self):void
----@field f730A66EA fun(self:self):cCE8E2D0A
----@field f0C14D59D fun(self:self,y:cCE8E2D0A):void
----@field f890242D9 fun(self:self):number,number,number
----@field fFDBC8E95 fun(self:self,x:number,y:number,z:number):void
----@field f16155D9E fun(self:self):cD5675BA5
----@field f24032F87 fun(self:self,x:cD5675BA5):void
----@field f750133BA fun(self:self):number,number,number
----@field f8F2B0552 fun(self:self,x:number,y:number,z:number):void
----@field f6BD9EADE fun(self:self):number,number,number
----@field f64857644 fun(self:self):userdata
----@field f7360ED03 fun(self:self):number,number,number
+---@field f730A66EA fun(self:self):cCE8E2D0A @ GetWorldMatrix
+---@field f0C14D59D fun(self:self,y:cCE8E2D0A):void @ SetWorldMatrix
+---@field f890242D9 fun(self:self):number,number,number @ GetLocalScale
+---@field fFDBC8E95 fun(self:self,x:number,y:number,z:number):void @ SetLocalScale
+---@field f16155D9E fun(self:self):cD5675BA5 @ GetLocalRotation
+---@field f24032F87 fun(self:self,x:cD5675BA5):void @ SetLocalRotation
+---@field f750133BA fun(self:self):number,number,number @ GetLocalTranslation
+---@field f8F2B0552 fun(self:self,x:number,y:number,z:number):void @ SetLocalTranslation
+---@field f6BD9EADE fun(self:self):number,number,number @ GetWorldScale
+---@field f64857644 fun(self:self):userdata @ GetWorldRotation
+---@field f7360ED03 fun(self:self):number,number,number @ GetWorldTranslation
 ---@field fB3CF1DEB fun(self:self):number
 ---@field f48F8C7FF fun(self:self):boolean
 ---@field f64E49307 fun(self:self):boolean
@@ -50,7 +50,7 @@ c016374C1 = {}  -- dummy
 ---@field fE416B6CF fun(self:self,x:string):boolean
 ---@field f3D77D31B fun(self:self,x:string):boolean
 ---@field fDA1455DA fun(self:self,x:string):boolean
----@field fC98FCA27 fun(self:self,x:number,y:number,z:number):void
+---@field fC98FCA27 fun(self:self,x:number,y:number,z:number):void @ SetVelocity
 ---@field fF5E56E95 fun(self:self,x:boolean):boolean
 ---@field f345EDEA3 fun(self:self,x:number):boolean
 ---@field fC94DC679 fun(self:self,x:string):boolean

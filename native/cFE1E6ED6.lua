@@ -4,7 +4,7 @@
 cFE1E6ED6 = {}  -- dummy
 
 ---@class cFE1E6ED6_instance : userdata
----@field fA5A7A666 fun(self:self):void
+---@field fA5A7A666 fun(self:self):void @ Set
 ---@field f757E37AB fun(self:self):void
 ---@field fE5ECCD2A fun(self:self):void
 ---@field fF7419001 fun(self:self):void
@@ -14,7 +14,7 @@ cFE1E6ED6 = {}  -- dummy
 ---@field fE0EBE2D4 fun(self:self):void
 ---@field f091A770F fun(self:self):void
 ---@field fE9C29DA1 fun(self:self):string @ GetName
----@field f0BDE77E0 fun(self:self):void
+---@field f0BDE77E0 fun(self:self):void @ GetPriority
 ---@field fA7DC22A9 fun(self:self):void
 ---@field f3491A2B7 fun(self:self):boolean @ IsValid
 ---@field f3761CCAF fun(self:self):void

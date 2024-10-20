@@ -1,3 +1,5 @@
+---@alias gfl_scene_ScenePoint cC5D48DC8
+
 ---@class cC5D48DC8 : cC5D48DC8_instance
 ---@field f029E6BDD fun():void
 ---@field f2623D6AE fun():void

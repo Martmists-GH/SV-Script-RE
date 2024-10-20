@@ -9,7 +9,7 @@ c253ACC13 = {}  -- dummy
 
 ---@class c253ACC13_instance : userdata
 ---@field f6595FDE3 fun(self:self):void
----@field f13673A82 fun(self:self):void
+---@field f13673A82 fun(self:self):void @ SetState
 ---@field f76F8A635 fun(self:self):void
 ---@field fEE2E3732 fun(self:self):void
 ---@field fA38C6D3B fun(self:self):void

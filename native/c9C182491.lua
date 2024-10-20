@@ -1,3 +1,5 @@
+---@alias ui_pokedex_PokedexDataProperty c9C182491
+
 ---@class c9C182491 : c9C182491_instance
 ---@field f276C5D55 fun():void
 ---@field fF5389AFD fun():void

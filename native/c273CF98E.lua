@@ -1,3 +1,5 @@
+---@alias gfl_ai_havok_System c273CF98E
+
 ---@class c273CF98E : c273CF98E_instance
 ---@field f034532F2 fun():void
 ---@field f27F88F81 fun():void

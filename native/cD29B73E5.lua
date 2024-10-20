@@ -1,5 +1,7 @@
+---@class gfl_debugui_Window cD29B73E5
+
 ---@class cD29B73E5 : cD29B73E5_instance
----@field fF764AED6 fun():void
+---@field fF764AED6 fun(x:c2DF8D675):void
 ---@field fFF295349 fun():void
 ---@field f57B08B45 fun():void
 cD29B73E5 = {}  -- dummy

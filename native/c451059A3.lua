@@ -1,3 +1,5 @@
+---@alias gfl_scene_ObjectTemplate c451059A3
+
 ---@class c451059A3 : c451059A3_instance
 ---@field fCEA5CEED fun():void
 ---@field f17C198F8 fun():void

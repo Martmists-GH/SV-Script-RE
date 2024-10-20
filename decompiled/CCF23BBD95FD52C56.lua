@@ -2878,5 +2878,5 @@ setmetatable(CCF23BBD95FD52C56_prototype, {__index = C54BFF18F001FEC26})
 ---@field animation cE35B3EB3
 ---@field particle cE8D61D7D
 ---@field decalShadow c016374C1
----@field physics PhysicsComponent
+---@field physics gfl_physics_havok_PhysicsComponent
 ---@field attrPicker c09ADBEA6

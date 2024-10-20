@@ -6,7 +6,7 @@ c6E61D36A = {}  -- dummy
 
 ---@class c6E61D36A_instance : userdata
 ---@field f894D340B fun(self:self):void
----@field fA5A7A666 fun(self:self):void
+---@field fA5A7A666 fun(self:self):void @ Set
 ---@field f757E37AB fun(self:self):void
 ---@field f7FD7C09B fun(self:self):void
 ---@field f92A1FFA7 fun(self:self):void

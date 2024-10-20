@@ -8,6 +8,6 @@ cE82BFCEB = {}  -- dummy
 ---@field fEB9F77EC fun(self:self):void
 ---@field f189ED692 fun(self:self):void
 ---@field f705C48A0 fun(self:self):void
----@field f1CB5A960 fun(self:self):void
+---@field f1CB5A960 fun(self:self):c113335A8 @ GetPokemon
 ---THIS FILE IS A TODO---
 

@@ -1,3 +1,5 @@
+---@alias gfl_anim2_AnimationPart cACB25DA0
+
 ---@class cACB25DA0 : cACB25DA0_instance
 ---@field fCE44C6C4 fun():void
 ---@field f7F86077D fun():void
@@ -26,6 +28,6 @@ cACB25DA0 = {}  -- dummy
 ---@field f17FFCE38 fun(self:self):void
 ---@field fEF3D634A fun(self:self):void
 ---@field fE9C29DA1 fun(self:self):string @ GetName
----@field f0BDE77E0 fun(self:self):void
+---@field f0BDE77E0 fun(self:self):void @ GetPriority
 ---THIS FILE IS A TODO---
 

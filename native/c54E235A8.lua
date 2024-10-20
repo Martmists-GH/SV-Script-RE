@@ -5,6 +5,6 @@
 c54E235A8 = {}  -- dummy
 
 ---@class c54E235A8_instance : userdata
----@field fA5A7A666 fun(self:self):void
+---@field fA5A7A666 fun(self:self):void @ Set
 ---THIS FILE IS A TODO---
 

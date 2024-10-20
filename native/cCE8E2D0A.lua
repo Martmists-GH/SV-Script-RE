@@ -1,3 +1,5 @@
+---@alias gfl_math_Matrix cCE8E2D0A
+
 ---@class cCE8E2D0A : cCE8E2D0A_instance
 ---@field f59E1929E fun():void
 ---@field fCDCEF1F9 fun():void
@@ -67,7 +69,7 @@ cCE8E2D0A = {}  -- dummy
 ---@field f33A459EF fun(self:self):void @ GetTranslation
 ---@field f6B20D21C fun(self:self):void
 ---@field f250C1821 fun(self:self):void
----@field f47BEA911 fun(self:self):void
+---@field f47BEA911 fun(self:self):void @ Transform
 ---@field fB372E29C fun(self:self):void
 ---@field f1BECE3E7 fun(self:self):void
 ---@field f643B5D6F fun(self:self):void

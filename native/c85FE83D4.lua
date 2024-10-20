@@ -7,7 +7,7 @@
 c85FE83D4 = {}  -- dummy
 
 ---@class c85FE83D4_instance : userdata
----@field f5FC6903E fun(self:self):void
+---@field f5FC6903E fun(self:self):void @ ChangeShape
 ---@field f84705A38 fun(self:self):void
 ---@field fC0E7F040 fun(self:self):void
 ---@field f8349FFBA fun(self:self):void

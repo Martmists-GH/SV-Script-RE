@@ -6,5 +6,5 @@
 
 cEBF4B147 = {}  -- dummy
 ---@class cEBF4B147_instance : userdata
----@field fCCBD9548 fun(self:self):number
----@field fBBBAA5DE fun(self:self):number
+---@field fCCBD9548 fun(self:self):number @ GetX
+---@field fBBBAA5DE fun(self:self):number @ GetY

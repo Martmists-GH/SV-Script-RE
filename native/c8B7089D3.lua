@@ -7,7 +7,7 @@
 c8B7089D3 = {}  -- dummy
 
 ---@class c8B7089D3_instance : userdata
----@field f1AEA1D0D fun(self:self):void
+---@field f1AEA1D0D fun(self:self):void @ Initialize
 ---@field f16EAACFF fun(self:self):void
 ---@field fEE1B932E fun(self:self):void
 ---@field f8C57D1A9 fun(self:self):void

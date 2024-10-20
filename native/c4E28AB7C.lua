@@ -23,14 +23,14 @@ c4E28AB7C = {}  -- dummy
 ---@field f2A68AD4D fun(self:self):void
 ---@field fDB44BE30 fun(self:self):void
 ---@field fCED92A13 fun(self:self):void
----@field f24032F87 fun(self:self):void
----@field fFDBC8E95 fun(self:self):void
+---@field f24032F87 fun(self:self):void @ SetLocalRotation
+---@field fFDBC8E95 fun(self:self):void @ SetLocalScale
 ---@field fFCDA3327 fun(self:self):void
----@field f16155D9E fun(self:self):void
----@field f890242D9 fun(self:self):void
+---@field f16155D9E fun(self:self):void @ GetLocalRotation
+---@field f890242D9 fun(self:self):void @ GetLocalScale
 ---@field fCCF43F40 fun(self:self):void
----@field f64857644 fun(self:self):void
----@field f6BD9EADE fun(self:self):void
+---@field f64857644 fun(self:self):void @ GetWorldRotation
+---@field f6BD9EADE fun(self:self):void @ GetWorldScale
 ---@field f0785E16C fun(self:self):void
 ---@field f7082D1FA fun(self:self):void
 ---@field f24E22470 fun(self:self):void

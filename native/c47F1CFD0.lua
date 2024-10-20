@@ -19,7 +19,7 @@ c47F1CFD0 = {}  -- dummy
 ---@field f50AA168C fun(self:self):void
 ---@field f7EFD2497 fun(self:self):void
 ---@field fA4FF884A fun(self:self):void
----@field f13673A82 fun(self:self):void
+---@field f13673A82 fun(self:self):void @ SetState
 ---@field f0AB7BAB3 fun(self:self):void
 ---@field fD0CEFBCD fun(self:self):void
 ---@field f04512553 fun(self:self):void

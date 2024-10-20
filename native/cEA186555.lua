@@ -1,3 +1,5 @@
+---@alias gfl_anm2_CameraAnimationComponent cEA186555
+
 ---@class cEA186555 : cEA186555_instance
 ---@field f2E0EF57C fun():void
 ---@field f11D82D12 fun():void

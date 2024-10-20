@@ -15,6 +15,6 @@ c1A9EDAF7 = {}  -- dummy
 ---@class c1A9EDAF7_instance : userdata
 ---@field fE2C89E6A fun(self:self):void
 ---@field fDEC5A133 fun(self:self):void
----@field f55728F9C fun(self:self):void
+---@field f55728F9C fun(self:self):void @ GetValue
 ---THIS FILE IS A TODO---
 

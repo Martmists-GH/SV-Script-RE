@@ -1,3 +1,5 @@
+---@alias gfl_FnvHash64 cA8A7EF2F
+
 ---@class cA8A7EF2F : userdata
 ---@field f473748F0 fun():void
 ---@field fC393694B fun():void

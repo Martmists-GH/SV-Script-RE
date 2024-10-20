@@ -1,3 +1,5 @@
+---@alias gfl_math_AABB cA4381FC4
+
 ---@class cA4381FC4 : cA4381FC4_instance
 ---@field fCDE53F1D fun():void
 ---@field f91D2F138 fun():void
@@ -30,7 +32,7 @@ cA4381FC4 = {}  -- dummy
 ---@field f40A78A53 fun(self:self):void
 ---@field fBEA9F05D fun(self:self):void @ Add
 ---@field f7A1C4BCB fun(self:self):void
----@field f47BEA911 fun(self:self):void
+---@field f47BEA911 fun(self:self):void @ Transform
 ---@field fEAD580E6 fun(self:self):void
 ---@field f2AFC3D14 fun(self:self):void
 ---@field f37A0BAC5 fun(self:self):void

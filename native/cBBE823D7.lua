@@ -6,7 +6,7 @@
 cBBE823D7 = {}  -- dummy
 
 ---@class cBBE823D7_instance : userdata
----@field f5C99C0AC fun(self:self):void
+---@field f5C99C0AC fun(self:self):void @ Terminate
 ---@field f558733FC fun(self:self):void
 ---@field fBD0145F6 fun(self:self):void
 ---@field f3E0E11AE fun(self:self):boolean @ IsPaused

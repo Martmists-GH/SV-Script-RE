@@ -4,7 +4,7 @@
 c3711DCF9 = {}  -- dummy
 
 ---@class c3711DCF9_instance : userdata
----@field f0BDE77E0 fun(self:self):void
+---@field f0BDE77E0 fun(self:self):void @ GetPriority
 ---@field f15F1C0A9 fun(self:self):void
 ---@field fE8A78101 fun(self:self):void
 ---THIS FILE IS A TODO---

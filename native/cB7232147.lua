@@ -1,3 +1,5 @@
+---@alias gfl_debugui_ImGuiManager cB7232147
+
 ---@class cB7232147 : userdata
 ---@field fED7D0ECC fun():void
 ---@field f341958D9 fun():void

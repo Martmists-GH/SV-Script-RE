@@ -18,7 +18,7 @@ cEB755C72 = {}  -- dummy
 ---@field fF9E41B25 fun(self:self):void
 ---@field f57CF5B59 fun(self:self):void
 ---@field f15F1C0A9 fun(self:self):void
----@field f0BDE77E0 fun(self:self):void
+---@field f0BDE77E0 fun(self:self):void @ GetPriority
 ---@field fDFF062A3 fun(self:self):void
 ---@field f8C7FC85A fun(self:self):void
 ---@field f4E7C3646 fun(self:self):void

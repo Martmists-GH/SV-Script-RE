@@ -4,7 +4,7 @@
 cAD463F33 = {}  -- dummy
 
 ---@class cAD463F33_instance : userdata
----@field f55728F9C fun(self:self):void
+---@field f55728F9C fun(self:self):void @ GetValue
 ---@field f0DDC856C fun(self:self):void
 ---THIS FILE IS A TODO---
 

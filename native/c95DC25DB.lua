@@ -1,3 +1,5 @@
+---@alias gfl_physics_havok_System c95DC25DB
+
 ---@class c95DC25DB : c95DC25DB_instance
 ---@field f3038EA51 fun():void
 ---@field f5D3C6AEC fun():void

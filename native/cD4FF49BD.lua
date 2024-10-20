@@ -5,7 +5,7 @@
 cD4FF49BD = {}  -- dummy
 
 ---@class cD4FF49BD_instance : userdata
----@field f0BDE77E0 fun(self:self):void
+---@field f0BDE77E0 fun(self:self):void @ GetPriority
 ---@field f15F1C0A9 fun(self:self):void
 ---@field fE8A78101 fun(self:self):void
 ---@field f44C3CB14 fun(self:self):void
