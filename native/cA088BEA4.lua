@@ -9,7 +9,7 @@ cA088BEA4 = {}  -- dummy
 ---@class cA088BEA4_instance : userdata
 ---@field f1E53CB51 fun(self:self):void @ Render
 ---@field f58BDCF20 fun(self:self):void
----@field f8F2A261D fun(self:self):void
+---@field f8F2A261D fun(self:self):void @ Clear
 ---@field f04E6EF7E fun(self:self):void
 ---@field f026FF2B6 fun(self:self):void
 ---THIS FILE IS A TODO---

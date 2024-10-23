@@ -1,14 +1,14 @@
 ---@alias gfl_scene_SceneObject c016374C1
 
 ---@class c016374C1 : c016374C1_instance
----@field f9F601543 fun(x:c3FB42236):c016374C1
+---@field f9F601543 fun(x:gfl_engine_game_GameObject):c016374C1
 ---@field f4555D276 fun(x:c016374C1_instance,y:c016374C1_instance):boolean @ IsEqual
 ---@field f8C7D4F4D fun(x:c016374C1_instance,y:c016374C1_instance):boolean @ NotEqual
 c016374C1 = {}  -- dummy
 
----@class c016374C1_instance : userdata
+---@class c016374C1_instance : gfl_engine_game_GameObject
 ---@field fE9C29DA1 fun(self:self):string @ GetName
----@field f9D8BC178 fun(self:self):boolean
+---@field f9D8BC178 fun(self:self):boolean @ IsSetup
 ---@field fCEC85AEA fun(self:self):boolean
 ---@field f15F1C0A9 fun(self:self,x:number):void
 ---@field f25A6D014 fun(self:self,x:number):void
@@ -31,13 +31,13 @@ c016374C1 = {}  -- dummy
 ---@field f6BD9EADE fun(self:self):number,number,number @ GetWorldScale
 ---@field f64857644 fun(self:self):userdata @ GetWorldRotation
 ---@field f7360ED03 fun(self:self):number,number,number @ GetWorldTranslation
----@field fB3CF1DEB fun(self:self):number
+---@field fB3CF1DEB fun(self:self):number @ GetId
 ---@field f48F8C7FF fun(self:self):boolean
 ---@field f64E49307 fun(self:self):boolean
 ---@field f900312E7 fun(self:self):boolean
 ---@field f12EEAFA1 fun(self:self):boolean
----@field f4D31CD40 fun(self:self,x:c016374C1):boolean
----@field fE91E20CA fun(self:self,x:c016374C1,y:string):boolean
+---@field f4D31CD40 fun(self:self,x:c016374C1):boolean @ _hxAttach
+---@field fE91E20CA fun(self:self,x:c016374C1,y:string):boolean @ _hxAttachNode
 ---@field f5EF14AEC fun(self:self,x:c016374C1,y:string,z:string):boolean
 ---@field f407CE2C1 fun(self:self):boolean
 ---@field f59137F7B fun(self:self):boolean
@@ -45,8 +45,8 @@ c016374C1 = {}  -- dummy
 ---@field fEE6872FD fun(self:self,x:boolean):number
 ---@field f4ACBB933 fun(self:self,x:userdata):void
 ---@field f908F485A fun(self:self,x:userdata):void
----@field f5439788F fun(self:self,x:string):c016374C1
----@field f5B268E4E fun(self:self):c016374C1
+---@field f5439788F fun(self:self,x:string):c016374C1 @ FindChildByName
+---@field f5B268E4E fun(self:self):c016374C1 @ GetParentSceneObject
 ---@field fE416B6CF fun(self:self,x:string):boolean
 ---@field f3D77D31B fun(self:self,x:string):boolean
 ---@field fDA1455DA fun(self:self,x:string):boolean
@@ -63,7 +63,7 @@ c016374C1 = {}  -- dummy
 ---@field fDB822EEA fun(self:self):boolean
 ---@field f3BA1C55C fun(self:self,x:boolean):boolean
 ---@field fCDCB600D fun(self:self,x:boolean):void @ Destroy
----@field f462C9B70 fun(self:self):cA042DA13
+---@field f462C9B70 fun(self:self):cA042DA13 @ _hxGetScene
 ---@field fBE3B2D3B fun(self:self):void
 ---@field f47BAE49D fun(self:self):void
 ---@field f6CF71CE1 fun(self:self,x:boolean):void

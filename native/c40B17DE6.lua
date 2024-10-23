@@ -9,7 +9,7 @@ c40B17DE6 = {}  -- dummy
 ---@field fDC667AD2 fun(self:self):void @ GetPos
 ---@field f6F06128C fun(self:self):void @ SetTarget
 ---@field f13CDA9A3 fun(self:self):void @ UnTarget
----@field f3ED070C9 fun(self:self):void
+---@field f3ED070C9 fun(self:self):void @ IsTarget
 ---@field f6277C172 fun(self:self):void @ SetActive
 ---@field f33A1A337 fun(self:self):void @ IsActive
 ---@field fA8492502 fun(self:self):void

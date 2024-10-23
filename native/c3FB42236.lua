@@ -1,12 +1,12 @@
 ---@alias gfl_engine_game_GameObject c3FB42236
 
 ---@class c3FB42236 : c3FB42236_instance
----@field fA8764370 fun():void
+---@field fA8764370 fun(x:gfl_engine_game_TransformObject):void
 ---@field f7B04318A fun():void
 ---@field fC7D70F5B fun():void
 c3FB42236 = {}  -- dummy
 
----@class c3FB42236_instance : userdata
+---@class c3FB42236_instance : gfl_engine_game_TransformObject
 ---@field f730A66EA fun(self:self):void @ GetWorldMatrix
 ---@field f0C14D59D fun(self:self):void @ SetWorldMatrix
 ---@field f890242D9 fun(self:self):void @ GetLocalScale
@@ -19,7 +19,7 @@ c3FB42236 = {}  -- dummy
 ---@field f64857644 fun(self:self):void @ GetWorldRotation
 ---@field f7360ED03 fun(self:self):void @ GetWorldTranslation
 ---@field fE9C29DA1 fun(self:self):string @ GetName
----@field f9D8BC178 fun(self:self):void
+---@field f9D8BC178 fun(self:self):void @ IsSetup
 ---@field fCEC85AEA fun(self:self):void
 ---@field f15F1C0A9 fun(self:self):void
 ---@field f25A6D014 fun(self:self):void

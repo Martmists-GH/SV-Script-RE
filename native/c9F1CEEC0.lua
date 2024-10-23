@@ -1,3 +1,5 @@
+---@alias gfl_lua_ScriptExecutionManager c9F1CEEC0
+
 ---@class c9F1CEEC0 : userdata
 ---@field f29BC6D11 fun():void
 ---@field fFBE8AAB9 fun():void

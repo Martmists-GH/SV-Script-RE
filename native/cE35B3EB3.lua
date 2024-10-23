@@ -17,7 +17,7 @@ cE35B3EB3 = {}  -- dummy
 ---@field f3E0E11AE fun(self:self):boolean @ IsPaused
 ---@field f40A42377 fun(self:self):void
 ---@field f3FBA9000 fun(self:self):void
----@field f9D8BC178 fun(self:self):void
+---@field f9D8BC178 fun(self:self):void @ IsSetup
 ---@field f0AB7BAB3 fun(self:self):void
 ---@field f51EED5AD fun(self:self):void
 ---@field f26E9E53B fun(self:self):void

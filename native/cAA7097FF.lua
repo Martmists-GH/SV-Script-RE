@@ -1,3 +1,5 @@
+---@alias gfl_audio_AudioComponent cAA7097FF
+
 ---@class cAA7097FF : cAA7097FF_instance
 ---@field f64102291 fun():void
 ---@field fBD747484 fun():void
@@ -26,7 +28,7 @@ cAA7097FF = {}  -- dummy
 ---@field fA3F860FE fun(self:self):void
 ---@field fEEA1EF86 fun(self:self):void
 ---@field fDF30562A fun(self:self):void
----@field f57DFBF2F fun(self:self):void
+---@field f57DFBF2F fun(self:self):void @ GetGameObjectID
 ---@field f2F544F32 fun(self:self):void @ GetPosition
 ---@field fA23D2ADB fun(self:self):void
 ---THIS FILE IS A TODO---

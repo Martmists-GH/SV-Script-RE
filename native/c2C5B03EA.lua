@@ -10,7 +10,7 @@ c2C5B03EA = {}  -- dummy
 ---@class c2C5B03EA_instance : userdata
 ---@field fDBF2BA70 fun(self:self):void
 ---@field f1275D375 fun(self:self):void
----@field fE359C008 fun(self:self):void
+---@field fE359C008 fun(self:self):gfl_gfx2_CameraComponent @ GetCamera
 ---@field f4DAAD0C6 fun(self:self):void
 ---@field f9466127F fun(self:self):void
 ---@field f7163DB5D fun(self:self):void

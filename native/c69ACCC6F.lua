@@ -1,3 +1,5 @@
+---@alias pe_uikit_ViewControllerComponent c69ACCC6F
+
 ---@class c69ACCC6F : c69ACCC6F_instance
 ---@field fEFEFCCBE fun(x:c69ACCC6F_instance,y:c69ACCC6F_instance):boolean @ IsEqual
 ---@field f8C317F18 fun(x:c69ACCC6F_instance,y:c69ACCC6F_instance):boolean @ NotEqual

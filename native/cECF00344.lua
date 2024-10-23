@@ -1,3 +1,5 @@
+---@alias gfl_ui2d_lua_Layout cECF00344
+
 ---@class cECF00344 : cECF00344_instance
 ---@field f9758FA9B fun(x:userdata,y:userdata):boolean @ IsEqual
 ---@field fB3E547E8 fun(x:userdata,y:userdata):boolean @ IsEqual
@@ -6,8 +8,8 @@
 cECF00344 = {}  -- dummy
 
 ---@class cECF00344_instance : userdata
----@field f0067ACC1 fun(self:self,x:string,y:number,z:number,a:number):void
----@field f3271DED8 fun(self:self,x:string):number,number,number
+---@field f0067ACC1 fun(self:self,x:string,y:number,z:number,a:number):void @ SetPaneTranslate
+---@field f3271DED8 fun(self:self,x:string):number,number,number @ GetPaneTranslate
 ---@field f6889DAA9 fun(self:self,x:string,y:number,z:number,a:number):void
 ---@field f67970C2A fun(self:self,x:string):number,number,number
 ---@field f72D2C186 fun(self:self,x:string,y:number,z:number,a:number):void

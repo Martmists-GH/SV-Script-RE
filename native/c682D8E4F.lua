@@ -1,3 +1,5 @@
+---@alias gfl_scene_SceneApi c682D8E4F
+
 ---@class c682D8E4F : userdata
 ---@field fB0F1524A fun():void
 ---@field f18688A46 fun():void

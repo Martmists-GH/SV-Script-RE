@@ -6,8 +6,8 @@
 c15286F25 = {}  -- dummy
 
 ---@class c15286F25_instance : userdata
----@field f730A66EA fun(self:self):void @ GetWorldMatrix
----@field f0C14D59D fun(self:self):void @ SetWorldMatrix
+---@field f730A66EA fun(self:self):gfl_math_Matrix @ GetWorldMatrix
+---@field f0C14D59D fun(self:self,x:gfl_math_Matrix):void @ SetWorldMatrix
 ---@field f890242D9 fun(self:self):void @ GetLocalScale
 ---@field fFDBC8E95 fun(self:self):void @ SetLocalScale
 ---@field f16155D9E fun(self:self):void @ GetLocalRotation

@@ -6,7 +6,7 @@
 ---@field f0DC6CEFD fun():void
 ---@field f7AC1FE6B fun():void
 ---@field fE3C8AFD1 fun():void
----@field f94CF9F47 fun():void
+---@field f94CF9F47 fun(x:number,y:number,z:number,a:gfl_math_Quaternion,b:number,c:number,d:number):gfl_math_Matrix
 ---@field f0AAB0AE4 fun():void
 ---@field f7DAC3A72 fun():void
 ---@field fE4A56BC8 fun():void
@@ -68,8 +68,8 @@ cCE8E2D0A = {}  -- dummy
 ---@field fB83F6DBF fun(self:self):void
 ---@field f33A459EF fun(self:self):void @ GetTranslation
 ---@field f6B20D21C fun(self:self):void
----@field f250C1821 fun(self:self):void
----@field f47BEA911 fun(self:self):void @ Transform
+---@field f250C1821 fun(self:self):void @ Transpose
+---@field f47BEA911 fun(self:self,x:number,y:number,z:number,a:number):number,number,number,number @ Transform
 ---@field fB372E29C fun(self:self):void
 ---@field f1BECE3E7 fun(self:self):void
 ---@field f643B5D6F fun(self:self):void

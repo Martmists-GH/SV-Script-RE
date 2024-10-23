@@ -3,7 +3,7 @@
 ---@class c467D18B0 : c467D18B0_instance
 ---@field fBCDB6533 fun():void
 ---@field f65BF3326 fun():void
----@field fB41FD22F fun():void
+---@field fB41FD22F fun(x:gfl_scene_SceneObject):void
 c467D18B0 = {}  -- dummy
 
 ---@class c467D18B0_instance : userdata

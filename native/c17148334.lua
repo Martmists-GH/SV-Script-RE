@@ -5,7 +5,7 @@ c17148334 = {}  -- dummy
 
 ---@class c17148334_instance : userdata
 ---@field f28B79C6E fun(self:self):void
----@field f9D8BC178 fun(self:self):void
+---@field f9D8BC178 fun(self:self):void @ IsSetup
 ---@field fAB19D90C fun(self:self):void
 ---@field f043F9937 fun(self:self):void
 ---@field fC3958A37 fun(self:self):void

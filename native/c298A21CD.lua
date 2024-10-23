@@ -5,7 +5,7 @@
 c298A21CD = {}  -- dummy
 
 ---@class c298A21CD_instance : userdata
----@field f8F2A261D fun(self:self):void
+---@field f8F2A261D fun(self:self):void @ Clear
 ---@field fF3CEDBFD fun(self:self):void
 ---@field fBEA9F05D fun(self:self):void @ Add
 ---@field f48EE46CF fun(self:self):void

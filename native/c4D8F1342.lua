@@ -1,3 +1,5 @@
+---@alias gfl_fs_Path c4D8F1342
+
 ---@class c4D8F1342 : userdata
 ---@field f9D63279A fun():void
 ---@field f87034289 fun():void

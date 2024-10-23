@@ -1,3 +1,5 @@
+---@alias pe_uikit_lua_UikitControlFinder cECD2E4A5
+
 ---@class cECD2E4A5 : userdata
 ---@field f06879EA9 fun(x:userdata,y:userdata):boolean @ IsEqual
 ---@field f65592D0F fun(x:userdata,y:userdata):boolean @ NotEqual

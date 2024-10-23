@@ -1,3 +1,5 @@
+---@alias pe_uikit_controls_Body c2D25009D
+
 ---@class c2D25009D : c2D25009D_instance
 ---@field f1CA0D3E5 fun():void
 ---@field f45C9957B fun():void
@@ -5,15 +7,15 @@
 c2D25009D = {}  -- dummy
 
 ---@class c2D25009D_instance : userdata
----@field f8CFF76CD fun(self:self):void
----@field f48A089F1 fun(self:self):void
+---@field f8CFF76CD fun(self:self):void @ SetVisibleAll
+---@field f48A089F1 fun(self:self):void @ SetActiveAll
 ---@field f5B89E0DB fun(self:self,visible:boolean):void @ SetVisibleChildren
----@field f292BC86A fun(self:self):void
+---@field f292BC86A fun(self:self):void @ SetActiveChildren
 ---@field f44213A5F fun(self:self):void @ SetPos
 ---@field fDC667AD2 fun(self:self):void @ GetPos
 ---@field f6F06128C fun(self:self):void @ SetTarget
 ---@field f13CDA9A3 fun(self:self):void @ UnTarget
----@field f3ED070C9 fun(self:self):void
+---@field f3ED070C9 fun(self:self):void @ IsTarget
 ---@field f6277C172 fun(self:self):void @ SetActive
 ---@field f33A1A337 fun(self:self):void @ IsActive
 ---@field fA8492502 fun(self:self):void

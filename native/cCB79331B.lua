@@ -8,7 +8,7 @@ cCB79331B = {}  -- dummy
 ---@field fA5A7A666 fun(self:self):void @ Set
 ---@field fBE88ADCA fun(self:self):void @ Get
 ---@field f74CDFF75 fun(self:self):void @ Push
----@field f8F2A261D fun(self:self):void
+---@field f8F2A261D fun(self:self):void @ Clear
 ---@field fB4E670E5 fun(self:self):void
 ---THIS FILE IS A TODO---
 

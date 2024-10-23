@@ -1,3 +1,5 @@
+---@alias pe_uikit_Point cEBF4B147
+
 ---@class cEBF4B147 : cEBF4B147_instance
 ---@field fDBB9F6F3 fun(x:cEBF4B147_instance,y:cEBF4B147_instance):boolean @ IsEqual
 ---@field f90E1157A fun(x:cEBF4B147_instance,y:cEBF4B147_instance):boolean @ NotEqual

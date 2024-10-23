@@ -101,7 +101,7 @@ cA36A2863 = {}  -- dummy
 ---@field f876FF37D fun(self:self):void
 ---@field fCE2A7CF8 fun(self:self):void
 ---@field fA8FAC6B9 fun(self:self):void @ GetItem
----@field f3B6B7E64 fun(self:self):void
+---@field f3B6B7E64 fun(self:self):void @ SetItem
 ---@field fE1F1C00C fun(self:self):void
 ---@field f7353E6A8 fun(self:self):void
 ---@field fD5C83767 fun(self:self):void
@@ -113,7 +113,7 @@ cA36A2863 = {}  -- dummy
 ---@field f80705405 fun(self:self):void
 ---@field fA284DF88 fun(self:self):void
 ---@field fD57ED6EE fun(self:self):void
----@field f88A13D23 fun(self:self):void
+---@field f88A13D23 fun(self:self):void @ GetID
 ---@field f9D17105D fun(self:self):void
 ---@field fADC6C3C5 fun(self:self):void
 ---@field fEBF9E3DA fun(self:self):void

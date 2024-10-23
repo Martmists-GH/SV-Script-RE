@@ -1,3 +1,5 @@
+---@alias pe_uikit_controls_ShortcutInput c3FAF3463
+
 ---@class c3FAF3463 : c3FAF3463_instance
 ---@field f0FD3E160 fun(x:cAE370B36):c3FAF3463
 ---@field f8C71328E fun(x:c3FAF3463_instance,y:c3FAF3463_instance):boolean @ IsEqual
@@ -5,13 +7,13 @@
 c3FAF3463 = {}  -- dummy
 
 ---@class c3FAF3463_instance : userdata
----@field f3F81C85F fun(self:self,x:string):void
----@field f4B3F0413 fun(self:self):string
+---@field f3F81C85F fun(self:self,x:string):void @ SetActionName
+---@field f4B3F0413 fun(self:self):string @ GetActionName
 ---@field f44213A5F fun(self:self,x:number,y:number,z:number):void @ SetPos
 ---@field fDC667AD2 fun(self:self):number,number,number @ GetPos
 ---@field f6F06128C fun(self:self):void @ SetTarget
 ---@field f13CDA9A3 fun(self:self):void @ UnTarget
----@field f3ED070C9 fun(self:self):boolean
+---@field f3ED070C9 fun(self:self):boolean @ IsTarget
 ---@field f6277C172 fun(self:self):void @ SetActive
 ---@field f33A1A337 fun(self:self):boolean @ IsActive
 ---@field fA8492502 fun(self:self):void
@@ -19,16 +21,16 @@ c3FAF3463 = {}  -- dummy
 ---@field f6E624FAC fun(self:self):boolean
 ---@field f2A9CF058 fun(self:self,visible:boolean):void @ SetVisible
 ---@field f2C7B9325 fun(self:self):boolean @ IsVisible
----@field f52779085 fun(self:self,x:userdata):void
+---@field f52779085 fun(self:self,x:userdata):void @ SetClickEventTrigger
 ---@field f06FE2067 fun(self:self,x:userdata):void
 ---@field fD65B9CC5 fun(self:self,x:userdata):void
 ---@field fE1EE474F fun(self:self,x:userdata):void
----@field f83B04323 fun(self:self,x:string):void
----@field f7A86493F fun(self:self,x:string):void
+---@field f83B04323 fun(self:self,x:string):void @ SetShortcutButton
+---@field f7A86493F fun(self:self,x:string):void @ SetShortcutButtonAndSE
 ---@field fBE5222C2 fun(self:self,x:boolean):void
 ---@field f6809DFCA fun(self:self,x:number,y:boolean):void
----@field f0C6AF179 fun(self:self,x:string):void
----@field fDEEB3A8E fun(self:self):boolean
----@field f4928D839 fun(self:self):boolean
----@field f5AC736CE fun(self:self):boolean
----@field f5DAECF43 fun(self:self):boolean
+---@field f0C6AF179 fun(self:self,x:string):void @ SetShortcutSE
+---@field fDEEB3A8E fun(self:self):boolean @ IsClickEventTrigger
+---@field f4928D839 fun(self:self):boolean @ IsClickEventRepeat
+---@field f5AC736CE fun(self:self):boolean @ IsClickEventRelease
+---@field f5DAECF43 fun(self:self):boolean @ IsClickEventHold

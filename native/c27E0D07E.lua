@@ -1,3 +1,5 @@
+---@alias pe_uikit_controls_GridPanel c27E0D07E
+
 ---@class c27E0D07E : c27E0D07E_instance
 ---@field f73858EA3 fun(x:c098A635D):userdata
 ---@field fFC04274B fun(x:c27E0D07E_instance,y:c27E0D07E_instance):boolean @ IsEqual
@@ -5,15 +7,15 @@
 c27E0D07E = {}  -- dummy
 
 ---@class c27E0D07E_instance : userdata
----@field f8CFF76CD fun(self:self,x:boolean):void
----@field f48A089F1 fun(self:self,x:boolean):void
+---@field f8CFF76CD fun(self:self,x:boolean):void @ SetVisibleAll
+---@field f48A089F1 fun(self:self,x:boolean):void @ SetActiveAll
 ---@field f5B89E0DB fun(self:self,visible:boolean):void @ SetVisibleChildren
----@field f292BC86A fun(self:self,x:boolean):void
+---@field f292BC86A fun(self:self,x:boolean):void @ SetActiveChildren
 ---@field f44213A5F fun(self:self,x:number,y:number,z:number):void @ SetPos
 ---@field fDC667AD2 fun(self:self):number,number,number @ GetPos
 ---@field f6F06128C fun(self:self):void @ SetTarget
 ---@field f13CDA9A3 fun(self:self):void @ UnTarget
----@field f3ED070C9 fun(self:self):boolean
+---@field f3ED070C9 fun(self:self):boolean @ IsTarget
 ---@field f6277C172 fun(self:self,x:boolean):void @ SetActive
 ---@field f33A1A337 fun(self:self):boolean @ IsActive
 ---@field fA8492502 fun(self:self,x:boolean):void
@@ -23,8 +25,8 @@ c27E0D07E = {}  -- dummy
 ---@field f2C7B9325 fun(self:self):boolean @ IsVisible
 ---@field f4F8C7B75 fun(self:self):void
 ---@field fA8FAC6B9 fun(self:self,x:cEBF4B147):string @ GetItem
----@field f06E080B8 fun(self:self,x:cEBF4B147,y:boolean,z:boolean):void
----@field f09FE563B fun(self:self):userdata
+---@field f06E080B8 fun(self:self,x:cEBF4B147,y:boolean,z:boolean):void @ SetCursorPos
+---@field f09FE563B fun(self:self):userdata @ GetCursorPos
 ---@field f94487CEE fun(self:self,x:string,y:boolean):void
 ---@field f8D47254B fun(self:self,x:cEBF4B147):boolean
 ---@field fFA4015DD fun(self:self,x:string):boolean

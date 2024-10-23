@@ -1,3 +1,5 @@
+---@alias pe_text_lua_Text c8C3BF576
+
 ---@class c8C3BF576 : userdata
 ---@field f82767FD7 fun(x:userdata,y:userdata):boolean @ IsEqual
 ---@field f7C71267A fun(x:userdata,y:userdata):boolean @ NotEqual

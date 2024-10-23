@@ -17,7 +17,7 @@ cA042DA13 = {}  -- dummy
 ---@field f0EF10D0C fun(self:self):void
 ---@field f5C99C0AC fun(self:self):void @ Terminate
 ---@field f1FC07C91 fun(self:self):void
----@field f9D8BC178 fun(self:self):void
+---@field f9D8BC178 fun(self:self):void @ IsSetup
 ---@field fB161CAB4 fun(self:self):void
 ---@field f1F12A505 fun(self:self):void
 ---@field f68159593 fun(self:self):void

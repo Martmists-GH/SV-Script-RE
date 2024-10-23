@@ -7,8 +7,8 @@ cE5FF9B40 = {}  -- dummy
 ---@class cE5FF9B40_instance : userdata
 ---@field f4F8C7B75 fun(self:self):void
 ---@field fA8FAC6B9 fun(self:self):void @ GetItem
----@field f06E080B8 fun(self:self):void
----@field f09FE563B fun(self:self):void
+---@field f06E080B8 fun(self:self):void @ SetCursorPos
+---@field f09FE563B fun(self:self):void @ GetCursorPos
 ---@field f94487CEE fun(self:self):void
 ---@field f8D47254B fun(self:self):void
 ---@field fFA4015DD fun(self:self):void
@@ -29,15 +29,15 @@ cE5FF9B40 = {}  -- dummy
 ---@field f0F9652FC fun(self:self):void
 ---@field f0DD6EEAC fun(self:self):void
 ---@field f71AAAF8E fun(self:self):void
----@field f8CFF76CD fun(self:self):void
----@field f48A089F1 fun(self:self):void
+---@field f8CFF76CD fun(self:self):void @ SetVisibleAll
+---@field f48A089F1 fun(self:self):void @ SetActiveAll
 ---@field f5B89E0DB fun(self:self,visible:boolean):void @ SetVisibleChildren
----@field f292BC86A fun(self:self):void
+---@field f292BC86A fun(self:self):void @ SetActiveChildren
 ---@field f44213A5F fun(self:self):void @ SetPos
 ---@field fDC667AD2 fun(self:self):void @ GetPos
 ---@field f6F06128C fun(self:self):void @ SetTarget
 ---@field f13CDA9A3 fun(self:self):void @ UnTarget
----@field f3ED070C9 fun(self:self):void
+---@field f3ED070C9 fun(self:self):void @ IsTarget
 ---@field f6277C172 fun(self:self):void @ SetActive
 ---@field f33A1A337 fun(self:self):void @ IsActive
 ---@field fA8492502 fun(self:self):void
