@@ -6,7 +6,7 @@
 cF38357B3 = {}  -- dummy
 
 ---@class cF38357B3_instance : userdata
----@field f0BD5134F fun(self:self):void
+---@field f0BD5134F fun(self:self):void @ GetDevNoInt
 ---@field f15FAA406 fun(self:self):void
 ---@field f5D94E897 fun(self:self):void
 ---@field f528A3E14 fun(self:self):void

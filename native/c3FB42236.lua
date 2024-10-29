@@ -23,7 +23,7 @@ c3FB42236 = {}  -- dummy
 ---@field fCEC85AEA fun(self:self):void
 ---@field f15F1C0A9 fun(self:self):void
 ---@field f25A6D014 fun(self:self):void
----@field fAE721668 fun(self:self):void
+---@field fAE721668 fun(self:self):void @ IsDisableCulling
 ---@field f12329E64 fun(self:self):void
 ---@field fF713B0DE fun(self:self):void
 ---@field fB8C54880 fun(self:self):void

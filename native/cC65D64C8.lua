@@ -1,8 +1,10 @@
+---@alias ui_ScreenCapture cC65D64C8
+
 ---@class cC65D64C8 : userdata
 ---@field f384FE41D fun():void
 ---@field fAC60877A fun():void
----@field f9D8F06EB fun():void
----@field fEA88367D fun():void
+---@field f9D8F06EB fun():void @ StartCapture_s_0
+---@field fEA88367D fun():void @ StartCapture_s_1
 ---@field f304BBB53 fun():void
 ---@field f474C8BC5 fun():void
 ---@field fBDB981C5 fun():void

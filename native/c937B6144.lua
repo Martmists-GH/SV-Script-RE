@@ -1,7 +1,7 @@
 ---@class c937B6144 : c937B6144_instance
 ---@field f6E90ACD5 fun():void
 ---@field f1DE68FCC fun():void
----@field f5B6373D5 fun():void
+---@field f5B6373D5 fun():void @ Create_s
 c937B6144 = {}  -- dummy
 
 ---@class c937B6144_instance : userdata

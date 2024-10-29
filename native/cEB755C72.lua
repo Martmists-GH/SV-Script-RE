@@ -1,3 +1,5 @@
+---@alias pe_field_WeatherController cEB755C72
+
 ---@class cEB755C72 : cEB755C72_instance
 ---@field f4A02BB0C fun():void
 ---@field fFFBF70BD fun():void

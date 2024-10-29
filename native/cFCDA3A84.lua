@@ -1,7 +1,9 @@
+---@alias pe_text_SortStringBinary cFCDA3A84
+
 ---@class cFCDA3A84 : cFCDA3A84_instance
 ---@field f96086DA9 fun():void
 ---@field f4F6C3BBC fun():void
----@field f5B6373D5 fun():void
+---@field f5B6373D5 fun():void @ Create_s
 ---@field f6BEB655C fun():void
 cFCDA3A84 = {}  -- dummy
 

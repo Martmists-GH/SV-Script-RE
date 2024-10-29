@@ -17,8 +17,8 @@ cC5D48DC8 = {}  -- dummy
 ---@field f75135FEE fun(self:self):void
 ---@field fD36E95F4 fun(self:self):void
 ---@field fC5B045EE fun(self:self):void
----@field f20AB1FEA fun(self:self):void
----@field f1C1435C7 fun(self:self):void
+---@field f20AB1FEA fun(self:self):void @ _hxFindPoint
+---@field f1C1435C7 fun(self:self):void @ _hxFindPointByTag
 ---@field f50926311 fun(self:self):void
 ---THIS FILE IS A TODO---
 

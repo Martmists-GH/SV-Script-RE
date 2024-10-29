@@ -6,7 +6,7 @@ c7F7A5192 = {}  -- dummy
 
 ---@class c7F7A5192_instance : userdata
 ---@field fC0E2CAD0 fun(self:self):void
----@field fF5E28294 fun(self:self):void
+---@field fF5E28294 fun(self:self):void @ Start
 ---@field f92A1FFA7 fun(self:self):void
 ---THIS FILE IS A TODO---
 

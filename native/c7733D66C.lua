@@ -8,7 +8,7 @@ c7733D66C = {}  -- dummy
 ---@field f70EFE568 fun(self:self):void
 ---@field f55E46E76 fun(self:self):void
 ---@field f94311191 fun(self:self):void @ GetVisibility
----@field fE08FDDDD fun(self:self):void
+---@field fE08FDDDD fun(self:self):void @ SetVisibility
 ---@field f33A459EF fun(self:self):void @ GetTranslation
 ---@field f4CBAEA98 fun(self:self):void
 ---@field f40043336 fun(self:self):void @ GetRotation

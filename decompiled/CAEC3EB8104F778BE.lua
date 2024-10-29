@@ -30,14 +30,8 @@ L68_1 = _ENV["CAEC3EB8104F778BE"]
 L69_1 = "super"
 
 function L70_1(A0_2)
-  local L1_2, L2_2, L3_2
   A0_2[49] = nil
-  L1_2 = _hx_tab_array
-  L2_2 = {}
-  L2_2.length = 0
-  L3_2 = 0
-  L1_2 = L1_2(L2_2, L3_2)
-  A0_2[48] = L1_2
+  A0_2[48] = _hx_tab_array({length = 0}, 0)
   A0_2[47] = nil
   A0_2[46] = false
   A0_2[45] = nil
@@ -54,13 +48,9 @@ function L70_1(A0_2)
   A0_2[32] = 0
   A0_2[31] = true
   A0_2[30] = "N_frame_00"
-  L1_2 = E33663C2C27D9DE47
-  L1_2 = L1_2.kNone
-  A0_2[28] = L1_2
+  A0_2[28] = E33663C2C27D9DE47.kNone
   A0_2[27] = false
-  L1_2 = EF18FDE58FD5900D2
-  L1_2 = L1_2.kNON
-  A0_2[25] = L1_2
+  A0_2[25] = EF18FDE58FD5900D2.kNON
   A0_2[24] = false
   A0_2[23] = ""
   A0_2[22] = nil
@@ -82,38 +72,51 @@ function L70_1(A0_2)
   A0_2[1] = nil
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CAEC3EB8104F778BE"]
-L69_1 = "__name__"
-L70_1 = "CAEC3EB8104F778BE"
+CAEC3EB8104F778BE.__name__ = "CAEC3EB8104F778BE"
 ---@class CAEC3EB8104F778BE_prototype
+---@field [3] main_ui_ymap_mainview_YMapBodyView
+---@field [8] pe_uikit_ViewControllerComponent
+---@field [10] main_ui_ymap_mapicon_YMapPlayerIcon
+---@field [11] main_ui_ymap_mapicon_YMapPlayerGuideIcon
+---@field [20] boolean
+---@field [23] string
+---@field [24] boolean
+---@field [25] EF18FDE58FD5900D2
+---@field [27] boolean
+---@field [28] E33663C2C27D9DE47
+---@field [30] string
+---@field [31] boolean
+---@field [32] number
+---@field [33] boolean
+---@field [34] boolean
+---@field [35] number
+---@field [36] number
+---@field [38] number
+---@field [39] boolean
+---@field [41] string
+---@field [43] boolean
+---@field [44] boolean
+---@field [45] pe_uikit_controls_Tooltip
+---@field [46] boolean
+---@field [48] hx_tab_array<any>
+---@field FFA61F444A9D8AC99 fun():void m_shortcutZoomInFunc
+---@field F2FCCCC41177B2256 fun():void m_shortcutZoomOutFunc
+---@field F532C863EB4D039B5 fun():void
 CAEC3EB8104F778BE_prototype = L15_1()
 CAEC3EB8104F778BE.prototype = CAEC3EB8104F778BE_prototype
 --- main.ui.ymap.mainview.YMapMainView.FAB96F0E82EB8E3F3
 function CAEC3EB8104F778BE_prototype:FAB96F0E82EB8E3F3(A1_2)
-  local L2_2, L3_2
-  L2_2 = L58_1
-  L3_2 = A1_2
-  L2_2 = L2_2(L3_2)
-  self.FFA61F444A9D8AC99 = L2_2
+  self.FFA61F444A9D8AC99 = L58_1(A1_2)
 end
 
 --- main.ui.ymap.mainview.YMapMainView.F352DD832B25A725C
 function CAEC3EB8104F778BE_prototype:F352DD832B25A725C(A1_2)
-  local L2_2, L3_2
-  L2_2 = L58_1
-  L3_2 = A1_2
-  L2_2 = L2_2(L3_2)
-  self.F2FCCCC41177B2256 = L2_2
+  self.F2FCCCC41177B2256 = L58_1(A1_2)
 end
 
 --- main.ui.ymap.mainview.YMapMainView.F8E3337D0BD375F67
 function CAEC3EB8104F778BE_prototype:F8E3337D0BD375F67(A1_2)
-  local L2_2, L3_2
-  L2_2 = L58_1
-  L3_2 = A1_2
-  L2_2 = L2_2(L3_2)
-  self.F532C863EB4D039B5 = L2_2
+  self.F532C863EB4D039B5 = L58_1(A1_2)
 end
 
 --- main.ui.ymap.mainview.YMapMainView.SetMainViewSceneObject
@@ -123,24 +126,12 @@ end
 
 --- main.ui.ymap.mainview.YMapMainView.Init
 function CAEC3EB8104F778BE_prototype:F90BBC6B0190BF053(A1_2, A2_2)
-  local L3_2, L4_2, L5_2
   self[7] = A2_2
   self[4] = A1_2
-  L3_2 = C0CE68A0FC37E8017
-  L3_2 = L3_2.new
-  L3_2 = L3_2()
-  self[3] = L3_2
-  L3_2 = self[3]
-  L4_2 = L3_2
-  L3_2 = L3_2.F90BBC6B0190BF053
-  L5_2 = self[7]
-  L3_2(L4_2, L5_2)
-  L4_2 = self
-  L3_2 = self.FE07948BEB30B3094
-  L3_2(L4_2)
-  L4_2 = self
-  L3_2 = self.F51A9D1C00584EC3A
-  L3_2(L4_2)
+  self[3] = C0CE68A0FC37E8017.new()
+  self[3]:F90BBC6B0190BF053(self[7])
+  self:FE07948BEB30B3094()
+  self:F51A9D1C00584EC3A()
 end
 
 --- main.ui.ymap.mainview.YMapMainView.SetupShortcutInput
@@ -734,77 +725,42 @@ end
 
 --- main.ui.ymap.mainview.YMapMainView.Close
 function CAEC3EB8104F778BE_prototype:FD014229B3B926D03()
-  local L1_2, L2_2, L3_2
-  L1_2 = self[1]
-  L2_2 = L1_2
-  L1_2 = L1_2.f2A9CF058
-  L3_2 = false
-  L1_2(L2_2, L3_2)
+  self[1]:f2A9CF058(false)
 end
 
 --- main.ui.ymap.mainview.YMapMainView.SetKeyInputEnable
 function CAEC3EB8104F778BE_prototype:F6F3F0623245D7B2D(A1_2)
   local L2_2, L3_2
   self[31] = A1_2
-  L2_2 = C388798CF80F2AF9D
-  L2_2.SED27A43B32BF661C = A1_2
+  C388798CF80F2AF9D.SED27A43B32BF661C = A1_2
   if A1_2 then
-    L2_2 = self[8]
-    L3_2 = L2_2
-    L2_2 = L2_2.fE09DCCE4
-    L2_2 = L2_2(L3_2)
-    if not L2_2 then
-      L2_2 = self[8]
-      L3_2 = L2_2
-      L2_2 = L2_2.f89358001
-      L2_2(L3_2)
+    if not self[8]:fE09DCCE4() then
+      self[8]:f89358001()
     end
   else
-    L2_2 = self[8]
-    L3_2 = L2_2
-    L2_2 = L2_2.f1EA0CCF2
-    L2_2(L3_2)
+    self[8]:f1EA0CCF2()
   end
 end
 
 --- main.ui.ymap.mainview.YMapMainView.CursorMoveEnable
 function CAEC3EB8104F778BE_prototype:FE4E4888A26B5AFA5(A1_2)
-  local L2_2, L3_2, L4_2
-  L2_2 = self[3]
-  L3_2 = L2_2
-  L2_2 = L2_2.FE4E4888A26B5AFA5
-  L4_2 = A1_2
-  L2_2(L3_2, L4_2)
+  self[3]:FE4E4888A26B5AFA5(A1_2)
 end
 
 --- main.ui.ymap.mainview.YMapMainView.CursorVisible
 function CAEC3EB8104F778BE_prototype:FD248346DFC63A613(A1_2)
-  local L2_2, L3_2, L4_2
-  L2_2 = self[3]
-  L3_2 = L2_2
-  L2_2 = L2_2.FD248346DFC63A613
-  L4_2 = A1_2
-  L2_2(L3_2, L4_2)
+  self[3]:FD248346DFC63A613(A1_2)
 end
 
 --- main.ui.ymap.mainview.YMapMainView.IsCursorVisible
 function CAEC3EB8104F778BE_prototype:F9D90B8C5AAF6A583()
-  local L1_2, L2_2
-  L1_2 = self[3]
-  L2_2 = L1_2
-  L1_2 = L1_2.F9D90B8C5AAF6A583
-  return L1_2(L2_2)
+  return self[3]:F9D90B8C5AAF6A583()
 end
 
 --- main.ui.ymap.mainview.YMapMainView.F8259F8B4DD9908E0
 function CAEC3EB8104F778BE_prototype:F8259F8B4DD9908E0()
-  local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2
-  L1_2 = self[7]
-  L2_2 = C8F93126DACB9F8DD
-  L2_2 = L2_2.S93A2C11A3020463D
-  L2_2 = L2_2.currentFieldId
-  L2_2 = L2_2[2]
-  L3_2 = 0
+  local L2_2 = C8F93126DACB9F8DD.S93A2C11A3020463D.currentFieldId[2]
+  local L3_2
   if 0 == L2_2 then
     L3_2 = 0
   elseif 1 == L2_2 then
@@ -814,38 +770,12 @@ function CAEC3EB8104F778BE_prototype:F8259F8B4DD9908E0()
   else
     L3_2 = 0
   end
-  L5_2 = L1_2
-  L4_2 = L1_2.F5C94FA784792B2BB
-  L6_2 = L3_2
-  L4_2 = L4_2(L5_2, L6_2)
-  L5_2 = CB914A013CF26A59D
-  L5_2 = L5_2.new
-  L6_2 = self[1]
-  L7_2 = L4_2
-  L5_2 = L5_2(L6_2, L7_2)
-  self[10] = L5_2
-  L5_2 = self[10]
-  L6_2 = L5_2
-  L5_2 = L5_2.F86D99CC7BC9284FE
-  L7_2 = self[2]
-  L5_2(L6_2, L7_2)
-  L5_2 = C252DC5511266077D
-  L5_2 = L5_2.new
-  L6_2 = self[1]
-  L5_2 = L5_2(L6_2)
-  self[11] = L5_2
-  L5_2 = self[11]
-  L6_2 = L5_2
-  L5_2 = L5_2.F86D99CC7BC9284FE
-  L7_2 = self[2]
-  L5_2(L6_2, L7_2)
-  L5_2 = self[3]
-  if nil ~= L5_2 then
-    L5_2 = self[3]
-    L6_2 = L5_2
-    L5_2 = L5_2.F5E70A0D3799F8CFF
-    L7_2 = self[10]
-    L5_2(L6_2, L7_2)
+  self[10] = CB914A013CF26A59D.new(self[1], self[7].F5C94FA784792B2BB(L3_2))
+  self[10]:F86D99CC7BC9284FE(self[2])
+  self[11] = C252DC5511266077D.new(self[1])
+  self[11]:F86D99CC7BC9284FE(self[2])
+  if nil ~= self[3] then
+    self[3]:F5E70A0D3799F8CFF(self[10])
   end
 end
 
@@ -3272,117 +3202,30 @@ end
 
 --- main.ui.ymap.mainview.YMapMainView.OpenInfoName
 function CAEC3EB8104F778BE_prototype:F9D8D7A7C879C9AEA(A1_2, A2_2)
-  local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
-  L3_2 = self[46]
-  if true == L3_2 then
+  if true == self[46] then
     return
   end
-  L3_2 = self[6]
-  L4_2 = L3_2
-  L3_2 = L3_2.fB2AD1F5E
-  L3_2(L4_2)
-  L3_2 = cECD2E4A5
-  L3_2 = L3_2.fAF8E1F3E
-  L4_2 = self[2]
-  L5_2 = "Tooltip_00"
-  L3_2 = L3_2(L4_2, L5_2)
-  self[45] = L3_2
-  L3_2 = nil
-  L4_2 = cE25578CD
-  L4_2 = L4_2.f6C89A69B
-  L5_2 = self[45]
-  L6_2 = L3_2
-  L4_2(L5_2, L6_2)
-  L4_2 = A1_2.pointNameStr
-  if "" ~= L4_2 then
-    L4_2 = c8C3BF576
-    L4_2 = L4_2.fC8CEF9EF
-    L5_2 = "ymap_point_name"
-    L7_2 = self
-    L6_2 = self.F68C169ABFEF20F41
-    L8_2 = A1_2.pointNameStr
-    L6_2, L7_2, L8_2, L9_2, L10_2, L11_2 = L6_2(L7_2, L8_2)
-    L4_2 = L4_2(L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2)
-    L5_2 = A1_2.ID
-    if "FLY_HOUSE" == L5_2 then
-      L5_2 = cB3DDDC2A
-      L5_2 = L5_2.f5B6373D5
-      L5_2 = L5_2()
-      L7_2 = L5_2
-      L6_2 = L5_2.f631566D3
-      L8_2 = 0
-      L6_2(L7_2, L8_2)
-      L7_2 = L5_2
-      L6_2 = L5_2.f39DD249C
-      L8_2 = L4_2
-      L6_2 = L6_2(L7_2, L8_2)
-      L4_2 = L6_2
+  self[6]:fB2AD1F5E()
+  self[45] = cECD2E4A5.fAF8E1F3E(self[2], "Tooltip_00")
+  cE25578CD.f6C89A69B(self[45], nil)
+  if "" ~= A1_2.pointNameStr then
+    local L4_2 = c8C3BF576.fC8CEF9EF("ymap_point_name", self:F68C169ABFEF20F41(A1_2.pointNameStr))
+    if "FLY_HOUSE" == A1_2.ID then
+      local L5_2 = cB3DDDC2A.f5B6373D5()
+      L5_2:f631566D3(0)
+      L4_2 = L5_2:f39DD249C(L4_2)
     end
-    L5_2 = self[45]
-    L6_2 = L5_2
-    L5_2 = L5_2.f1EB62D8E
-    L7_2 = L4_2
-    L5_2(L6_2, L7_2)
+    self[45]:f1EB62D8E(L4_2)
   else
-    L4_2 = A1_2.ID
-    if "ENCOUNT_POKEMON" == L4_2 then
-      L4_2 = c8C3BF576
-      L4_2 = L4_2.fC8CEF9EF
-      L5_2 = "ymap_point_name"
-      L6_2 = "ymap_point_name_pokemon"
-      L4_2 = L4_2(L5_2, L6_2)
-      L5_2 = self[45]
-      L6_2 = L5_2
-      L5_2 = L5_2.f1EB62D8E
-      L7_2 = L4_2
-      L5_2(L6_2, L7_2)
+    if "ENCOUNT_POKEMON" == A1_2.ID then
+      self[45]:f1EB62D8E(c8C3BF576.fC8CEF9EF("ymap_point_name", "ymap_point_name_pokemon"))
     end
   end
-  L4_2 = self[1]
-  L5_2 = L4_2
-  L4_2 = L4_2.f3271DED8
-  L6_2 = L31_1.string
-  L7_2 = L31_1.string
-  L8_2 = ""
-  L7_2 = L7_2(L8_2)
-  L8_2 = L31_1.string
-  L9_2 = A2_2.paneNameInfo
-  L9_2 = L9_2.name
-  L8_2 = L8_2(L9_2)
-  L7_2 = L7_2 .. L8_2
-  L6_2 = L6_2(L7_2)
-  L7_2 = L31_1.string
-  L8_2 = "/N_fukidashi"
-  L7_2 = L7_2(L8_2)
-  L6_2 = L6_2 .. L7_2
-  L4_2, L5_2, L6_2 = L4_2(L5_2, L6_2)
-  L7_2 = self[45]
-  L8_2 = L7_2
-  L7_2 = L7_2.f44213A5F
-  L9_2 = L4_2
-  L10_2 = L5_2
-  L11_2 = L6_2
-  L7_2(L8_2, L9_2, L10_2, L11_2)
-  L7_2 = self[45]
-  L8_2 = L7_2
-  L7_2 = L7_2.f2A9CF058
-  L9_2 = true
-  L7_2(L8_2, L9_2)
-  L7_2 = self[45]
-  L8_2 = L7_2
-  L7_2 = L7_2.f6277C172
-  L9_2 = true
-  L7_2(L8_2, L9_2)
-  L7_2 = self[1]
-  L8_2 = L7_2
-  L7_2 = L7_2.fB4E9D030
-  L9_2 = "L_word_00/in"
-  L7_2(L8_2, L9_2)
-  L7_2 = self[3]
-  L8_2 = L7_2
-  L7_2 = L7_2.F5381EEBDC660A867
-  L9_2 = "icon_on"
-  L7_2(L8_2, L9_2)
+  self[45]:f44213A5F(self[1]:f3271DED8(A2_2.paneNameInfo.name .. "/N_fukidashi"))
+  self[45]:f2A9CF058(true)
+  self[45]:f6277C172(true)
+  self[1]:fB4E9D030("L_word_00/in")
+  self[3]:F5381EEBDC660A867("icon_on")
   self[46] = true
 end
 

@@ -1,3 +1,5 @@
+---@alias battle_BattleApi cEE005CCF
+
 ---@class cEE005CCF : userdata
 ---@field f8912EFE6 fun():void
 ---@field f1D3D8C81 fun():void

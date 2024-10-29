@@ -32,8 +32,8 @@ cB194A117 = {}  -- dummy
 ---@field fC15C70AE fun(self:self):void
 ---@field f3184D77F fun(self:self):void
 ---@field fE260D535 fun(self:self):void
----@field f48EE46CF fun(self:self):void
----@field f81A0893D fun(self:self):void
+---@field f48EE46CF fun(self:self):void @ GetInt
+---@field f81A0893D fun(self:self):void @ GetFloat
 ---@field fEF19513C fun(self:self):void
 ---@field f1FC1F6ED fun(self:self):void
 ---THIS FILE IS A TODO---

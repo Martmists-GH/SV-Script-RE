@@ -2,7 +2,7 @@
 ---@field fC590A329 fun():void
 ---@field f1527CD98 fun():void
 ---@field fB41FD22F fun():void
----@field f4F5C01BE fun():void
+---@field f4F5C01BE fun():void @ AddComponent_s
 c4F74FD0B = {}  -- dummy
 
 ---@class c4F74FD0B_instance : userdata

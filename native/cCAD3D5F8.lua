@@ -3,7 +3,7 @@
 ---@field f760FB929 fun():void
 ---@field fCADC87F8 fun():void
 ---@field f944AC852 fun():void
----@field f5B6373D5 fun():void
+---@field f5B6373D5 fun():void @ Create_s
 cCAD3D5F8 = {}  -- dummy
 
 ---@class cCAD3D5F8_instance : userdata

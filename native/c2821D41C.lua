@@ -1,7 +1,7 @@
 ---@class c2821D41C : c2821D41C_instance
 ---@field f50444020 fun():void
 ---@field f4A242533 fun():void
----@field f5B6373D5 fun():void
+---@field f5B6373D5 fun():void @ Create_s
 c2821D41C = {}  -- dummy
 
 ---@class c2821D41C_instance : userdata

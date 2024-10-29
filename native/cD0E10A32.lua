@@ -3,7 +3,7 @@
 ---@field f94A96AB5 fun():void
 ---@field fB41FD22F fun():void
 ---@field f101D811F fun():void @ new
----@field f4F5C01BE fun():void
+---@field f4F5C01BE fun():void @ AddComponent_s
 ---@field f53C8DBCD fun():void
 cD0E10A32 = {}  -- dummy
 

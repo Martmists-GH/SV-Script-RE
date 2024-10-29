@@ -4,7 +4,7 @@
 c517F45D1 = {}  -- dummy
 
 ---@class c517F45D1_instance : userdata
----@field fED830D65 fun(self:self):void
+---@field fED830D65 fun(self:self):void @ Init
 ---@field f11A28C18 fun(self:self):void
 ---@field f374D6D06 fun(self:self):void
 ---@field f95391021 fun(self:self):void
@@ -87,6 +87,6 @@ c517F45D1 = {}  -- dummy
 ---@field f4FC8C265 fun(self:self):void
 ---@field f98FE9672 fun(self:self):void
 ---@field fE89E48B1 fun(self:self):void
----@field f0AA6A6B6 fun(self:self):void
+---@field f0AA6A6B6 fun(self:self):void @ _hxCopyFrom
 ---THIS FILE IS A TODO---
 

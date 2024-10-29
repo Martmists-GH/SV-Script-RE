@@ -12,7 +12,7 @@ c016374C1 = {}  -- dummy
 ---@field fCEC85AEA fun(self:self):boolean
 ---@field f15F1C0A9 fun(self:self,x:number):void
 ---@field f25A6D014 fun(self:self,x:number):void
----@field fAE721668 fun(self:self):boolean
+---@field fAE721668 fun(self:self):boolean @ IsDisableCulling
 ---@field f12329E64 fun(self:self,x:boolean):void
 ---@field fF713B0DE fun(self:self):boolean
 ---@field fB8C54880 fun(self:self,x:boolean):void
@@ -39,7 +39,7 @@ c016374C1 = {}  -- dummy
 ---@field f4D31CD40 fun(self:self,x:c016374C1):boolean @ _hxAttach
 ---@field fE91E20CA fun(self:self,x:c016374C1,y:string):boolean @ _hxAttachNode
 ---@field f5EF14AEC fun(self:self,x:c016374C1,y:string,z:string):boolean
----@field f407CE2C1 fun(self:self):boolean
+---@field f407CE2C1 fun(self:self):boolean @ _hxDetach
 ---@field f59137F7B fun(self:self):boolean
 ---@field f39363693 fun(self:self,x:boolean):void
 ---@field fEE6872FD fun(self:self,x:boolean):number
@@ -47,13 +47,13 @@ c016374C1 = {}  -- dummy
 ---@field f908F485A fun(self:self,x:userdata):void
 ---@field f5439788F fun(self:self,x:string):c016374C1 @ FindChildByName
 ---@field f5B268E4E fun(self:self):c016374C1 @ GetParentSceneObject
----@field fE416B6CF fun(self:self,x:string):boolean
+---@field fE416B6CF fun(self:self,x:string):boolean @ AddTag
 ---@field f3D77D31B fun(self:self,x:string):boolean
 ---@field fDA1455DA fun(self:self,x:string):boolean
 ---@field fC98FCA27 fun(self:self,x:number,y:number,z:number):void @ SetVelocity
 ---@field fF5E56E95 fun(self:self,x:boolean):boolean
 ---@field f345EDEA3 fun(self:self,x:number):boolean
----@field fC94DC679 fun(self:self,x:string):boolean
+---@field fC94DC679 fun(self:self,x:string):boolean @ SetScriptGroup
 ---@field f9F1F0AC1 fun(self:self,x:string,y:number):boolean
 ---@field fD0C10D63 fun(self:self,x:string,y:number):boolean
 ---@field f3DCFA517 fun(self:self):boolean
@@ -64,11 +64,11 @@ c016374C1 = {}  -- dummy
 ---@field f3BA1C55C fun(self:self,x:boolean):boolean
 ---@field fCDCB600D fun(self:self,x:boolean):void @ Destroy
 ---@field f462C9B70 fun(self:self):cA042DA13 @ _hxGetScene
----@field fBE3B2D3B fun(self:self):void
----@field f47BAE49D fun(self:self):void
+---@field fBE3B2D3B fun(self:self):void @ SuspendJob
+---@field f47BAE49D fun(self:self):void @ ResumeJob
 ---@field f6CF71CE1 fun(self:self,x:boolean):void
----@field f20AB1FEA fun(self:self,x:string):cC5D48DC8
----@field f1C1435C7 fun(self:self,x:string,y:userdata):void
+---@field f20AB1FEA fun(self:self,x:string):cC5D48DC8 @ _hxFindPoint
+---@field f1C1435C7 fun(self:self,x:string,y:userdata):void @ _hxFindPointByTag
 ---@field f1A1210C4 fun(self:self):c465FF34C
 ---@field fC5EBFE2B fun(self:self):boolean
 ---@field fE10E6531 fun(self:self):string

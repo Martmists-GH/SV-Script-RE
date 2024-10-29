@@ -18,7 +18,7 @@ cECF00344 = {}  -- dummy
 ---@field f98516030 fun(self:self,x:string):number,number
 ---@field f542FC647 fun(self:self,x:string,y:number):void
 ---@field f5B3110C4 fun(self:self,x:string):number
----@field f7798D9F4 fun(self:self,x:string,y:boolean):void
+---@field f7798D9F4 fun(self:self,x:string,y:boolean):void @ SetPaneVisible
 ---@field f08866A83 fun(self:self,x:string):boolean
 ---@field f2A9CF058 fun(self:self,visible:boolean):void @ SetVisible
 ---@field f04D9D1CA fun(self:self):boolean

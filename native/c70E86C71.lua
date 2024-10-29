@@ -12,7 +12,7 @@ c70E86C71 = {}  -- dummy
 ---@field fE66DFB73 fun(self:self):void
 ---@field fD3365DE8 fun(self:self):void
 ---@field f47220C98 fun(self:self):void
----@field f81A0893D fun(self:self):void
+---@field f81A0893D fun(self:self):void @ GetFloat
 ---@field f02A2DCE2 fun(self:self):void
 ---@field f46FB9CA4 fun(self:self):void
 ---@field fBE2C58EE fun(self:self):void @ GetTable

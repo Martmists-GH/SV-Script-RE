@@ -20,7 +20,7 @@ function CDC3F92928A2194E6.new(A0_2)
   return L1_2
 end
 
----@param A1_2 c016374C1
+---@param A1_2 gfl_scene_SceneObject
 function CDC3F92928A2194E6.super(self, A1_2)
   self[1] = A1_2
   local L2_2 = self[1]:fB3CF1DEB()
@@ -29,7 +29,7 @@ end
 
 CDC3F92928A2194E6.__name__ = "CDC3F92928A2194E6"
 ---@class CDC3F92928A2194E6_prototype
----@field [1] c016374C1 @ sceneObject
+---@field [1] gfl_scene_SceneObject @ sceneObject
 CDC3F92928A2194E6_prototype = L15_1()
 CDC3F92928A2194E6.prototype = CDC3F92928A2194E6_prototype
 

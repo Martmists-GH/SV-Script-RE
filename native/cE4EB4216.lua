@@ -6,7 +6,7 @@ cE4EB4216 = {}  -- dummy
 
 ---@class cE4EB4216_instance : userdata
 ---@field f3491A2B7 fun(self:self):boolean @ IsValid
----@field f86F63AC3 fun(self:self):void
+---@field f86F63AC3 fun(self:self):void @ Clone
 ---@field f7A3B213F fun(self:self):void
 ---@field fE27C61B2 fun(self:self):void
 ---@field f676922F3 fun(self:self):void

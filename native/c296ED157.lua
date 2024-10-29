@@ -10,8 +10,8 @@ c296ED157 = {}  -- dummy
 ---@field f7FA7E365 fun(self:self):void
 ---@field f8F7F44B4 fun(self:self):void
 ---@field fE260D535 fun(self:self):void
----@field f48EE46CF fun(self:self):void
----@field f81A0893D fun(self:self):void
+---@field f48EE46CF fun(self:self):void @ GetInt
+---@field f81A0893D fun(self:self):void @ GetFloat
 ---@field fEF19513C fun(self:self):void
 ---@field f1FC1F6ED fun(self:self):void
 ---THIS FILE IS A TODO---

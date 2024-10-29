@@ -30,59 +30,43 @@ L68_1[L69_1] = L70_1
 L68_1 = _ENV["CFB590163CAEC4ACD"]
 L69_1 = "super"
 
-function L70_1(A0_2, A1_2)
+function L70_1(self, A1_2)
   local L2_2, L3_2, L4_2
-  A0_2[11] = nil
-  A0_2[10] = 0
-  A0_2[9] = nil
-  A0_2[8] = nil
-  A0_2[7] = nil
-  L2_2 = E8EC0B76A6C304FC5
-  L2_2 = L2_2.None
-  A0_2[6] = L2_2
-  A0_2[5] = nil
-  A0_2[4] = nil
-  A0_2[3] = nil
-  A0_2[2] = false
-  A0_2[1] = false
-  L3_2 = A0_2
-  L2_2 = A0_2.F90BBC6B0190BF053
-  L4_2 = false
-  L2_2(L3_2, L4_2)
-  A0_2[5] = A1_2
+  self[11] = nil
+  self[10] = 0
+  self[9] = nil
+  self[8] = nil
+  self[7] = nil
+  self[6] = E8EC0B76A6C304FC5.None
+  self[5] = nil
+  self[4] = nil
+  self[3] = nil
+  self[2] = false
+  self[1] = false
+  self:F90BBC6B0190BF053(false)
+  self[5] = A1_2
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["CFB590163CAEC4ACD"]
-L69_1 = "__name__"
-L70_1 = "CFB590163CAEC4ACD"
+CFB590163CAEC4ACD.__name__ = "CFB590163CAEC4ACD"
 ---@class CFB590163CAEC4ACD_prototype
+---@field [1] boolean
+---@field [2] boolean @ isSetup
+---@field [6] main_ui_xmenu_LoadXMenuState
+---@field [10] number
 CFB590163CAEC4ACD_prototype = L15_1()
 CFB590163CAEC4ACD.prototype = CFB590163CAEC4ACD_prototype
 --- main.ui.xmenu.XMenuLayoutLoader.Init
 function CFB590163CAEC4ACD_prototype:F90BBC6B0190BF053(A1_2)
-  local L2_2
   self[1] = A1_2
   self[2] = false
   self[3] = nil
   self[4] = nil
-  
-  function L2_2()
-    local L0_3, L1_3
-    L0_3 = nil
-    L1_3 = A1_2
-    if L1_3 then
-      L1_3 = E8EC0B76A6C304FC5
-      L0_3 = L1_3.ParentSceneObjectLoad
-    else
-      L1_3 = E8EC0B76A6C304FC5
-      L0_3 = L1_3.None
-    end
-    return L0_3
+
+  if A1_2 then
+    self[6] = E8EC0B76A6C304FC5.ParentSceneObjectLoad
+  else
+    self[6] = E8EC0B76A6C304FC5.None
   end
-  
-  L2_2 = L2_2()
-  self[6] = L2_2
   self[10] = 0
   self[8] = nil
   self[9] = nil
@@ -90,112 +74,43 @@ end
 
 --- main.ui.xmenu.XMenuLayoutLoader.Load
 function CFB590163CAEC4ACD_prototype:F6C5D0398122A6629()
-  local L1_2, L2_2, L3_2, L4_2
-  L2_2 = self
-  L1_2 = self.F90BBC6B0190BF053
-  L3_2 = true
-  L1_2(L2_2, L3_2)
-  L1_2 = c682D8E4F
-  L1_2 = L1_2.fEF94D11D
-  L2_2 = "xmenu"
-  L1_2 = L1_2(L2_2)
-  self[8] = L1_2
-  L1_2 = nil
-  L2_2 = cA042DA13
-  L2_2 = L2_2.fB1E655AE
-  L3_2 = self[8]
-  L4_2 = L1_2
-  L2_2 = L2_2(L3_2, L4_2)
-  if L2_2 then
+  self:F90BBC6B0190BF053(true)
+  self[8] = c682D8E4F.fEF94D11D("xmenu")
+  if cA042DA13.fB1E655AE(self[8], nil) then
     self[1] = false
-    L2_2 = E8EC0B76A6C304FC5
-    L2_2 = L2_2.None
-    self[6] = L2_2
-    L2_2 = false
-    return L2_2
+    self[6] = E8EC0B76A6C304FC5.None
+    return false
   end
-  L2_2 = self[8]
-  L3_2 = L2_2
-  L2_2 = L2_2.f0EF10D0C
-  L2_2(L3_2)
-  L2_2 = true
-  return L2_2
+  self[8]:f0EF10D0C()
+  return true
 end
 
 --- main.ui.xmenu.XMenuLayoutLoader.Update
 function CFB590163CAEC4ACD_prototype:FEB6685558281F194()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = self[6]
-  L2_2 = E8EC0B76A6C304FC5
-  L2_2 = L2_2.SetupTimeOutSceneObject
-  if L1_2 == L2_2 then
+  if self[6] == E8EC0B76A6C304FC5.SetupTimeOutSceneObject then
     return
   end
-  L1_2 = self[6]
-  L2_2 = E8EC0B76A6C304FC5
-  L2_2 = L2_2.ParentSceneObjectLoad
-  if L1_2 == L2_2 then
-    L1_2 = self[8]
-    L2_2 = L1_2
-    L1_2 = L1_2.f9D8BC178
-    L1_2 = L1_2(L2_2)
-    if L1_2 then
-      L1_2 = self[8]
-      L2_2 = L1_2
-      L1_2 = L1_2.fD4E64AB7
-      L3_2 = "Top"
-      L1_2 = L1_2(L2_2, L3_2)
-      self[9] = L1_2
-      L1_2 = nil
-      L2_2 = c016374C1
-      L2_2 = L2_2.f4555D276
-      L3_2 = self[9]
-      L4_2 = L1_2
-      L2_2 = L2_2(L3_2, L4_2)
-      if L2_2 then
+  if self[6] == E8EC0B76A6C304FC5.ParentSceneObjectLoad then
+    if self[8]:f9D8BC178() then
+      self[9] = self[8]:fD4E64AB7("Top")
+      if c016374C1.f4555D276(self[9], nil) then
         return
       end
-      L2_2 = E8EC0B76A6C304FC5
-      L2_2 = L2_2.ChildSceneObjectLoad
-      self[6] = L2_2
+      self[6] = E8EC0B76A6C304FC5.ChildSceneObjectLoad
     end
   end
-  L1_2 = self[6]
-  L2_2 = E8EC0B76A6C304FC5
-  L2_2 = L2_2.ChildSceneObjectLoad
-  if L1_2 == L2_2 then
-    L1_2 = self[9]
-    L2_2 = L1_2
-    L1_2 = L1_2.f5439788F
-    L3_2 = "Xmenu_Top"
-    L1_2 = L1_2(L2_2, L3_2)
-    self[4] = L1_2
-    L1_2 = nil
-    L2_2 = c016374C1
-    L2_2 = L2_2.f4555D276
-    L3_2 = self[4]
-    L4_2 = L1_2
-    L2_2 = L2_2(L3_2, L4_2)
-    if L2_2 then
+  if self[6] == E8EC0B76A6C304FC5.ChildSceneObjectLoad then
+    self[4] = self[9]:f5439788F("Xmenu_Top")
+    if c016374C1.f4555D276(self[4], nil) then
       return
     end
-    L2_2 = E8EC0B76A6C304FC5
-    L2_2 = L2_2.WaitSetupSceneObject
-    self[6] = L2_2
-    L2_2 = c7F7A5192
-    L2_2 = L2_2.f101D811F
-    L2_2 = L2_2()
-    self[11] = L2_2
-    L2_2 = self[11]
-    L3_2 = L2_2
-    L2_2 = L2_2.fF5E28294
-    L2_2(L3_2)
+    self[6] = E8EC0B76A6C304FC5.WaitSetupSceneObject
+    self[11] = c7F7A5192.f101D811F()
+    self[11]:fF5E28294()
     return
   end
-  L1_2 = self[6]
-  L2_2 = E8EC0B76A6C304FC5
-  L2_2 = L2_2.WaitSetupSceneObject
-  if L1_2 == L2_2 then
+  if self[6] == E8EC0B76A6C304FC5.WaitSetupSceneObject then
     L1_2 = self[4]
     L2_2 = L1_2
     L1_2 = L1_2.f9D8BC178
@@ -349,9 +264,7 @@ end
 
 --- main.ui.xmenu.XMenuLayoutLoader.IsSetup
 function CFB590163CAEC4ACD_prototype:FF1C9BF636E0F4F06()
-  local L1_2
-  L1_2 = self[2]
-  return L1_2
+  return self[2]
 end
 
 --- main.ui.xmenu.XMenuLayoutLoader.IsTimeOut

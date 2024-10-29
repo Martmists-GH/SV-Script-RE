@@ -1,3 +1,5 @@
+---@alias field_FieldPokemonComponent c4E28AB7C
+
 ---@class c4E28AB7C : c4E28AB7C_instance
 ---@field f68BF50E5 fun():void
 ---@field fDD029B54 fun():void
@@ -10,7 +12,7 @@ c4E28AB7C = {}  -- dummy
 
 ---@class c4E28AB7C_instance : userdata
 ---@field f6DB21F6F fun(self:self):void
----@field fD2EF1BBB fun(self:self):void
+---@field fD2EF1BBB fun(self:self):void @ GetLevel
 ---@field fA21BCEDE fun(self:self):void
 ---@field f689968B2 fun(self:self):void
 ---@field f6B264801 fun(self:self):void
@@ -36,7 +38,7 @@ c4E28AB7C = {}  -- dummy
 ---@field f24E22470 fun(self:self):void
 ---@field f14C18506 fun(self:self):void
 ---@field fF62A1C74 fun(self:self):void
----@field fE08FDDDD fun(self:self):void
+---@field fE08FDDDD fun(self:self):void @ SetVisibility
 ---@field f94311191 fun(self:self):void @ GetVisibility
 ---@field f91CD436D fun(self:self):void
 ---@field f649B9A2C fun(self:self):void
@@ -74,7 +76,7 @@ c4E28AB7C = {}  -- dummy
 ---@field f4104EC35 fun(self:self):void
 ---@field fE4209587 fun(self:self):void
 ---@field f1282CBDB fun(self:self):void
----@field fD66CA628 fun(self:self):void
+---@field fD66CA628 fun(self:self):void @ ChangeGem
 ---@field f10D4D56B fun(self:self):void
 ---@field f149478D6 fun(self:self):void
 ---@field f66D14336 fun(self:self):void

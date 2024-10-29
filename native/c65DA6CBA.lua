@@ -1,3 +1,5 @@
+---@alias battle_BattleView c65DA6CBA
+
 ---@class c65DA6CBA : c65DA6CBA_instance
 ---@field f8DF3F92B fun():void
 ---@field f5EB122B3 fun():void
@@ -68,7 +70,7 @@ c65DA6CBA = {}  -- dummy
 ---@field f6B9B95F5 fun(self:self):void
 ---@field fA9E32FAA fun(self:self):void
 ---@field fAF719DDC fun(self:self):void
----@field f32B3484D fun(self:self):void
+---@field f32B3484D fun(self:self):void @ MakeString
 ---@field fB044CD72 fun(self:self):void
 ---@field fF94D8BF1 fun(self:self):void
 ---@field f21C73118 fun(self:self):void

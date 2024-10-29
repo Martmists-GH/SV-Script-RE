@@ -5,7 +5,7 @@
 cA315ED6E = {}  -- dummy
 
 ---@class cA315ED6E_instance : userdata
----@field fF5E28294 fun(self:self):void
+---@field fF5E28294 fun(self:self):void @ Start
 ---@field f92A1FFA7 fun(self:self):void
 ---@field f7B60140F fun(self:self):void
 ---@field fB876A153 fun(self:self):void

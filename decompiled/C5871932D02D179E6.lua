@@ -6,8 +6,10 @@
 ---@field S5BDA75D02718C17F boolean @ s_IsVisible
 ---@field S23F4ED88AF777A0F cCF781FB6 @ s_scriptComponent
 ---@field S336E6A2D4A6541FA number @ s_visibleCount
----@field SF3075AB31C9E8AF4 C5871932D02D179E6 @ s_instance
+---@field SF3075AB31C9E8AF4 C5871932D02D179E6_prototype @ s_instance
 ---@field S155874633F047E17 hx_tab_array<C5871932D02D179E6_anon_2>
+---@field S49B283C8D5BDE1BD gfl_ui2d_lua_Layout @ s_Layout
+---@field S283C3DF558D6F2BF boolean
 C5871932D02D179E6 = L15_1()
 
 function C5871932D02D179E6.new(A0_2)
@@ -27,8 +29,8 @@ function C5871932D02D179E6.new(A0_2)
 end
 
 ---@param self C5871932D02D179E6
+---@param A1_2 gfl_scene_SceneObject
 function C5871932D02D179E6.super(self, A1_2)
-  local L2_2, L3_2, L4_2, L5_2, L6_2
   self[13] = false
   self[12] = false
   self[11] = false
@@ -37,26 +39,10 @@ function C5871932D02D179E6.super(self, A1_2)
   self[8] = nil
   self[6] = nil
   self[5] = nil
-  L2_2 = _hx_tab_array
-  L3_2 = {}
-  L3_2.length = 0
-  L3_2[0] = nil
-  L4_2 = nil
-  L5_2 = nil
-  L6_2 = nil
-  L3_2[1] = L4_2
-  L3_2[2] = L5_2
-  L3_2[3] = L6_2
-  L4_2 = 4
-  L2_2 = L2_2(L3_2, L4_2)
-  self[4] = L2_2
+  self[4] = _hx_tab_array({[0]=nil,[1]=nil,[2]=nil,[3]=nil,length=0},4)
   self[3] = nil
   self[2] = 0
-  L2_2 = CDC3F92928A2194E6
-  L2_2 = L2_2.super
-  L3_2 = self
-  L4_2 = A1_2
-  L2_2(L3_2, L4_2)
+  CDC3F92928A2194E6.super(self, A1_2)
 end
 
 C5871932D02D179E6.__name__ = "C5871932D02D179E6"
@@ -989,7 +975,9 @@ end
 ---@field [2] number
 ---@field [3] cA042DA13
 ---@field [4] hx_tab_array<C2B3E52E6BEE978D5>
+---@field [6] cA042DA13
 ---@field [7] ti_Coroutine
+---@field [8] gfl_scene_SceneObject
 ---@field [9] number
 ---@field [10] boolean
 ---@field [11] boolean
@@ -1025,197 +1013,45 @@ end
 --- main.ui.hud_notice.SceneHudNoticeManager.PreUpdate
 function C5871932D02D179E6_prototype:FE94F3E13286232CF(A1_2)
   local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2
-  L2_2 = self[9]
-  if 0 == L2_2 then
-    L3_2 = C5871932D02D179E6
-    L3_2 = L3_2.S9D99C271E76A802B
-    L3_2 = L3_2.length
-    if 0 == L3_2 then
-      L3_2 = C5871932D02D179E6
-      L3_2 = L3_2.S23F4ED88AF777A0F
-      L4_2 = L3_2
-      L3_2 = L3_2.fF327F826
-      L5_2 = true
-      L3_2(L4_2, L5_2)
+  if 0 == self[9] then
+    if 0 == C5871932D02D179E6.S9D99C271E76A802B.length then
+      C5871932D02D179E6.S23F4ED88AF777A0F:fF327F826(true)
       return
     end
-    L3_2 = C828F047963375FA0
-    L3_2 = L3_2.SB21FA562BB1FB817
-    L4_2 = "hud_notice_view"
-    L3_2 = L3_2(L4_2)
-    self[6] = L3_2
-    L3_2 = nil
-    L4_2 = cA042DA13
-    L4_2 = L4_2.fB1E655AE
-    L5_2 = self[6]
-    L6_2 = L3_2
-    L4_2 = L4_2(L5_2, L6_2)
-    if L4_2 then
+    self[6] = C828F047963375FA0.SB21FA562BB1FB817("hud_notice_view")
+    if cA042DA13.fB1E655AE(self[6], nil) then
       return
     end
-    L4_2 = nil
-    L5_2 = c016374C1
-    L5_2 = L5_2.f4555D276
-    L6_2 = self[8]
-    L7_2 = L4_2
-    L5_2 = L5_2(L6_2, L7_2)
-    if L5_2 then
-      L5_2 = self[6]
-      L6_2 = L5_2
-      L5_2 = L5_2.fD4E64AB7
-      L7_2 = "view_hud_notice"
-      L5_2 = L5_2(L6_2, L7_2)
-      self[8] = L5_2
-      L5_2 = nil
-      L6_2 = c016374C1
-      L6_2 = L6_2.f4555D276
-      L7_2 = self[8]
-      L8_2 = L5_2
-      L6_2 = L6_2(L7_2, L8_2)
-      if L6_2 then
+    if c016374C1.f4555D276(self[8], nil) then
+      self[8] = self[6]:fD4E64AB7("view_hud_notice")
+      if c016374C1.f4555D276(self[8], nil) then
         return
       end
     end
-    L5_2 = self[8]
-    L6_2 = L5_2
-    L5_2 = L5_2.f9D8BC178
-    L5_2 = L5_2(L6_2)
-    if false == L5_2 then
+    if false == self[8]:f9D8BC178() then
       return
     end
-    L5_2 = nil
-    L6_2 = cECF00344
-    L6_2 = L6_2.f9758FA9B
-    L7_2 = C5871932D02D179E6
-    L7_2 = L7_2.S49B283C8D5BDE1BD
-    L8_2 = L5_2
-    L6_2 = L6_2(L7_2, L8_2)
-    if L6_2 then
-      L6_2 = C5871932D02D179E6
-      L7_2 = cECF00344
-      L7_2 = L7_2.fEECE6995
-      L8_2 = self[8]
-      L7_2 = L7_2(L8_2)
-      L6_2.S49B283C8D5BDE1BD = L7_2
-      L6_2 = nil
-      L7_2 = cECF00344
-      L7_2 = L7_2.f9758FA9B
-      L8_2 = C5871932D02D179E6
-      L8_2 = L8_2.S49B283C8D5BDE1BD
-      L9_2 = L6_2
-      L7_2 = L7_2(L8_2, L9_2)
-      if L7_2 then
+    if cECF00344.f9758FA9B(C5871932D02D179E6.S49B283C8D5BDE1BD, nil) then
+      C5871932D02D179E6.S49B283C8D5BDE1BD = cECF00344.fEECE6995(self[8])
+      if cECF00344.f9758FA9B(C5871932D02D179E6.S49B283C8D5BDE1BD, nil) then
         return
       end
-      L7_2 = C5871932D02D179E6
-      L7_2 = L7_2.S283C3DF558D6F2BF
-      if L7_2 then
-        L7_2 = C5871932D02D179E6
-        L7_2 = L7_2.S2AAE88F73F36B758
-        L7_2()
+      if C5871932D02D179E6.S283C3DF558D6F2BF then
+        C5871932D02D179E6.S2AAE88F73F36B758()
       end
     end
-    L6_2 = C5871932D02D179E6
-    L6_2 = L6_2.S49B283C8D5BDE1BD
-    L7_2 = L6_2
-    L6_2 = L6_2.f2A9CF058
-    L8_2 = false
-    L6_2(L7_2, L8_2)
-    L6_2 = self[4]
-    L6_2 = L6_2[0]
-    L7_2 = L6_2
-    L6_2 = L6_2.F7C68FEDB79AB6396
-    L8_2 = self[8]
-    L9_2 = C5871932D02D179E6
-    L9_2 = L9_2.S49B283C8D5BDE1BD
-    L10_2 = L31_1.string
-    L11_2 = "L_notice_0"
-    L10_2 = L10_2(L11_2)
-    L11_2 = L31_1.string
-    L12_2 = 0
-    L11_2 = L11_2(L12_2)
-    L10_2 = L10_2 .. L11_2
-    L11_2 = L55_1
-    L12_2 = self
-    L13_2 = self.F8972A9C5E0649146
-    L11_2, L12_2, L13_2 = L11_2(L12_2, L13_2)
-    L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
-    L6_2 = self[4]
-    L6_2 = L6_2[1]
-    L7_2 = L6_2
-    L6_2 = L6_2.F7C68FEDB79AB6396
-    L8_2 = self[8]
-    L9_2 = C5871932D02D179E6
-    L9_2 = L9_2.S49B283C8D5BDE1BD
-    L10_2 = L31_1.string
-    L11_2 = "L_notice_0"
-    L10_2 = L10_2(L11_2)
-    L11_2 = L31_1.string
-    L12_2 = 1
-    L11_2 = L11_2(L12_2)
-    L10_2 = L10_2 .. L11_2
-    L11_2 = L55_1
-    L12_2 = self
-    L13_2 = self.F8972A9C5E0649146
-    L11_2, L12_2, L13_2 = L11_2(L12_2, L13_2)
-    L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
-    L6_2 = self[4]
-    L6_2 = L6_2[2]
-    L7_2 = L6_2
-    L6_2 = L6_2.F7C68FEDB79AB6396
-    L8_2 = self[8]
-    L9_2 = C5871932D02D179E6
-    L9_2 = L9_2.S49B283C8D5BDE1BD
-    L10_2 = L31_1.string
-    L11_2 = "L_notice_0"
-    L10_2 = L10_2(L11_2)
-    L11_2 = L31_1.string
-    L12_2 = 2
-    L11_2 = L11_2(L12_2)
-    L10_2 = L10_2 .. L11_2
-    L11_2 = L55_1
-    L12_2 = self
-    L13_2 = self.F8972A9C5E0649146
-    L11_2, L12_2, L13_2 = L11_2(L12_2, L13_2)
-    L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
-    L6_2 = self[4]
-    L6_2 = L6_2[3]
-    L7_2 = L6_2
-    L6_2 = L6_2.F7C68FEDB79AB6396
-    L8_2 = self[8]
-    L9_2 = C5871932D02D179E6
-    L9_2 = L9_2.S49B283C8D5BDE1BD
-    L10_2 = L31_1.string
-    L11_2 = "L_notice_0"
-    L10_2 = L10_2(L11_2)
-    L11_2 = L31_1.string
-    L12_2 = 3
-    L11_2 = L11_2(L12_2)
-    L10_2 = L10_2 .. L11_2
-    L11_2 = L55_1
-    L12_2 = self
-    L13_2 = self.F8972A9C5E0649146
-    L11_2, L12_2, L13_2 = L11_2(L12_2, L13_2)
-    L6_2(L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2)
-    L6_2 = C759AABB8037E728E
-    L6_2 = L6_2.new
-    L7_2 = self[8]
-    L6_2 = L6_2(L7_2)
-    self[5] = L6_2
-    L6_2 = self[5]
-    L7_2 = L6_2
-    L6_2 = L6_2.F584AD3ED067D371F
-    L6_2(L7_2)
+    C5871932D02D179E6.S49B283C8D5BDE1BD:f2A9CF058(false)
+    self[4][0]:F7C68FEDB79AB6396(self[8], C5871932D02D179E6.S49B283C8D5BDE1BD, "L_notice_0" .. L31_1.string(0), L55_1(self, self.F8972A9C5E0649146))
+    self[4][1]:F7C68FEDB79AB6396(self[8], C5871932D02D179E6.S49B283C8D5BDE1BD, "L_notice_0" .. L31_1.string(1), L55_1(self, self.F8972A9C5E0649146))
+    self[4][2]:F7C68FEDB79AB6396(self[8], C5871932D02D179E6.S49B283C8D5BDE1BD, "L_notice_0" .. L31_1.string(2), L55_1(self, self.F8972A9C5E0649146))
+    self[4][3]:F7C68FEDB79AB6396(self[8], C5871932D02D179E6.S49B283C8D5BDE1BD, "L_notice_0" .. L31_1.string(3), L55_1(self, self.F8972A9C5E0649146))
+    self[5] = C759AABB8037E728E.new(self[8])
+    self[5]:F584AD3ED067D371F()
     self[9] = 20
-  elseif 20 == L2_2 then
-    L3_2 = C5871932D02D179E6
-    L3_2 = L3_2.S49B283C8D5BDE1BD
-    L4_2 = L3_2
-    L3_2 = L3_2.f2A9CF058
-    L5_2 = true
-    L3_2(L4_2, L5_2)
+  elseif 20 == self[9] then
+    C5871932D02D179E6.S49B283C8D5BDE1BD:f2A9CF058(true)
     self[9] = 24
-  elseif 24 == L2_2 then
+  elseif 24 == self[9] then
     L3_2 = self[7]
     if nil ~= L3_2 then
       L3_2 = L10_1.coroutine
@@ -1276,20 +1112,12 @@ function C5871932D02D179E6_prototype:FE94F3E13286232CF(A1_2)
     if true == L3_2 then
       self[9] = 30
     end
-  elseif 30 == L2_2 then
+  elseif 30 == self[9] then
     self[5] = nil
-    L3_2 = C5871932D02D179E6
-    L3_2.S49B283C8D5BDE1BD = nil
-    L3_2 = self[8]
-    L4_2 = L3_2
-    L3_2 = L3_2.fCDCB600D
-    L5_2 = true
-    L3_2(L4_2, L5_2)
+    C5871932D02D179E6.S49B283C8D5BDE1BD = nil
+    self[8]:fCDCB600D(true)
     self[8] = nil
-    L3_2 = self[6]
-    L4_2 = L3_2
-    L3_2 = L3_2.f5C99C0AC
-    L3_2(L4_2)
+    self[6]:f5C99C0AC()
     self[6] = nil
     self[9] = 0
   end
@@ -1299,116 +1127,57 @@ end
 function C5871932D02D179E6_prototype:F94F7867F935739C0()
   local L1_2, L2_2
   while true do
-    L1_2 = self[7]
-    if nil == L1_2 then
+    if nil == self[7] then
       break
     end
-    L2_2 = self
-    L1_2 = self.F468F2B45B59F9405
-    L1_2(L2_2)
-    L1_2 = self[4]
-    L1_2 = L1_2[0]
-    L2_2 = L1_2
-    L1_2 = L1_2.FE94F3E13286232CF
-    L1_2(L2_2)
-    L1_2 = self[4]
-    L1_2 = L1_2[1]
-    L2_2 = L1_2
-    L1_2 = L1_2.FE94F3E13286232CF
-    L1_2(L2_2)
-    L1_2 = self[4]
-    L1_2 = L1_2[2]
-    L2_2 = L1_2
-    L1_2 = L1_2.FE94F3E13286232CF
-    L1_2(L2_2)
-    L1_2 = self[4]
-    L1_2 = L1_2[3]
-    L2_2 = L1_2
-    L1_2 = L1_2.FE94F3E13286232CF
-    L1_2(L2_2)
-    L2_2 = self
-    L1_2 = self.F13EAD5BD30F5B808
-    L1_2(L2_2)
-    L1_2 = C1DB14DCC9D7634FA
-    L1_2 = L1_2.S760DAE4C5371A78E
-    L1_2()
+    self:F468F2B45B59F9405()
+    self[4][0]:FE94F3E13286232CF()
+    self[4][1]:FE94F3E13286232CF()
+    self[4][2]:FE94F3E13286232CF()
+    self[4][3]:FE94F3E13286232CF()
+    self:F13EAD5BD30F5B808()
+    C1DB14DCC9D7634FA.S760DAE4C5371A78E()
   end
 end
 
 --- main.ui.hud_notice.SceneHudNoticeManager.CheckNoticeStart
 function C5871932D02D179E6_prototype:F468F2B45B59F9405()
   local L1_2, L2_2, L3_2, L4_2
-  L1_2 = C5871932D02D179E6
-  L1_2 = L1_2.S9D99C271E76A802B
-  L1_2 = L1_2.length
-  if L1_2 <= 0 then
+  if C5871932D02D179E6.S9D99C271E76A802B.length <= 0 then
     return
   end
-  L2_2 = self
-  L1_2 = self.F21F929D426610230
-  L1_2 = L1_2(L2_2)
+  local L1_2 = self:F21F929D426610230()
   if -1 == L1_2 then
     return
   end
-  L2_2 = self[2]
-  if 0 == L2_2 then
-    L3_2 = self
-    L2_2 = self.FCA4C1BE82686CF43
-    L4_2 = L1_2
-    L2_2 = L2_2(L3_2, L4_2)
-    if L2_2 then
-      L2_2 = self[2]
-      L2_2 = L2_2 + 1
-      self[2] = L2_2
+  if 0 == self[2] then
+    if self:FCA4C1BE82686CF43(L1_2) then
+      self[2] = self[2] + 1
     end
     return
   end
-  L2_2 = self[2]
-  if 1 == L2_2 then
-    L2_2 = self[10]
-    if L2_2 then
-      L3_2 = self
-      L2_2 = self.FCA4C1BE82686CF43
-      L4_2 = L1_2
-      L2_2 = L2_2(L3_2, L4_2)
-      if L2_2 then
-        L2_2 = self[2]
-        L2_2 = L2_2 + 1
-        self[2] = L2_2
+  if 1 == self[2] then
+    if self[10] then
+      if self:FCA4C1BE82686CF43(L1_2) then
+        self[2] = self[2] + 1
         self[10] = false
       end
       return
     end
   end
-  L2_2 = self[2]
-  if 2 == L2_2 then
-    L2_2 = self[12]
-    if L2_2 then
-      L3_2 = self
-      L2_2 = self.FCA4C1BE82686CF43
-      L4_2 = L1_2
-      L2_2 = L2_2(L3_2, L4_2)
-      if L2_2 then
-        L2_2 = self[2]
-        L2_2 = L2_2 + 1
-        self[2] = L2_2
+  if 2 == self[2] then
+    if self[12] then
+      if self:FCA4C1BE82686CF43(L1_2) then
+        self[2] = self[2] + 1
         self[12] = false
       end
       return
     end
   end
-  L2_2 = self[2]
-  if 3 == L2_2 then
-    L2_2 = self[13]
-    if L2_2 then
-      L3_2 = self
-      L2_2 = self.FCA4C1BE82686CF43
-      L4_2 = L1_2
-      L2_2 = L2_2(L3_2, L4_2)
-      if L2_2 then
-        L2_2 = self[2]
-        L2_2 = L2_2 + 1
-        self[2] = L2_2
+  if 3 == self[2] then
+    if self[13] then
+      if self:FCA4C1BE82686CF43(L1_2) then
+        self[2] = self[2] + 1
         self[13] = false
       end
       return
@@ -1530,52 +1299,20 @@ end
 
 --- main.ui.hud_notice.SceneHudNoticeManager.CheckShiftUp
 function C5871932D02D179E6_prototype:F13EAD5BD30F5B808()
-  local L1_2, L2_2, L3_2
-  L1_2 = self[11]
-  if true == L1_2 then
-    L2_2 = self
-    L1_2 = self.F0AB3773A0A96C58A
-    L3_2 = 1
-    L1_2(L2_2, L3_2)
-    L2_2 = self
-    L1_2 = self.F0AB3773A0A96C58A
-    L3_2 = 2
-    L1_2(L2_2, L3_2)
-    L2_2 = self
-    L1_2 = self.F0AB3773A0A96C58A
-    L3_2 = 3
-    L1_2(L2_2, L3_2)
+  if true == self[11] then
+    self:F0AB3773A0A96C58A(1)
+    self:F0AB3773A0A96C58A(2)
+    self:F0AB3773A0A96C58A(3)
     self[11] = false
   end
 end
 
 --- main.ui.hud_notice.SceneHudNoticeManager.ShiftupStart
 function C5871932D02D179E6_prototype:F0AB3773A0A96C58A(A1_2)
-  local L2_2, L3_2, L4_2
-  L2_2 = self[4]
-  L2_2 = L2_2[0]
-  L3_2 = L2_2
-  L2_2 = L2_2.FD71843D2FE9A853E
-  L4_2 = A1_2
-  L2_2(L3_2, L4_2)
-  L2_2 = self[4]
-  L2_2 = L2_2[1]
-  L3_2 = L2_2
-  L2_2 = L2_2.FD71843D2FE9A853E
-  L4_2 = A1_2
-  L2_2(L3_2, L4_2)
-  L2_2 = self[4]
-  L2_2 = L2_2[2]
-  L3_2 = L2_2
-  L2_2 = L2_2.FD71843D2FE9A853E
-  L4_2 = A1_2
-  L2_2(L3_2, L4_2)
-  L2_2 = self[4]
-  L2_2 = L2_2[3]
-  L3_2 = L2_2
-  L2_2 = L2_2.FD71843D2FE9A853E
-  L4_2 = A1_2
-  L2_2(L3_2, L4_2)
+  self[4][0]:FD71843D2FE9A853E(A1_2)
+  self[4][1]:FD71843D2FE9A853E(A1_2)
+  self[4][2]:FD71843D2FE9A853E(A1_2)
+  self[4][3]:FD71843D2FE9A853E(A1_2)
 end
 
 --- main.ui.hud_notice.SceneHudNoticeManager.F21F929D426610230
@@ -1643,15 +1380,12 @@ end
 
 --- main.ui.hud_notice.SceneHudNoticeManager.StatusChangeNotify
 function C5871932D02D179E6_prototype:F8972A9C5E0649146(A1_2)
-  local L2_2
   if 0 == A1_2 then
     self[10] = true
   elseif 1 == A1_2 then
     self[11] = true
   elseif 2 == A1_2 then
-    L2_2 = self[2]
-    L2_2 = L2_2 - 1
-    self[2] = L2_2
+    self[2] = self[2] - 1
   elseif 3 == A1_2 then
     self[12] = true
   elseif 4 == A1_2 then

@@ -37,7 +37,7 @@ c113335A8 = {}  -- dummy
 ---@field f6DA17C62 fun(self:self,powerId:number,value:number):void @ ChangeEffortPower
 ---@field f59E381BB fun(self:self,powerId:number,value:number):void @ AddEffortPower
 ---@field f5893A3C5 fun(self:self,powerId:number,value:number):void @ SubEffortPower
----@field f0BD5134F fun(self:self):number @ GetMonsNo
+---@field f0BD5134F fun(self:self):number @ GetDevNoInt
 ---@field f5D94E897 fun(self:self):number @ GetFormNo
 ---@field f293ABB98 fun(self:self):void  -- No-op?
 ---@field f5F308BB5 fun(self:self):void  -- No-op?

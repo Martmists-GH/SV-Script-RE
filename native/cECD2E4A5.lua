@@ -10,7 +10,7 @@
 ---@field fD4E920D9 fun(x:userdata,y:string):c40B17DE6
 ---@field fBCD0707E fun(x:userdata,y:string):userdata
 ---@field fBC1D4AC0 fun(x:userdata,y:string):c27E0D07E
----@field f6CE5A900 fun(x:c016374C1,y:string):c3FAF3463
+---@field f6CE5A900 fun(x:c016374C1,y:string):c3FAF3463 @ GetShortcutInput_s
 ---@field f0318E058 fun(x:c016374C1,y:string):c3FAF3463
 ---@field fAD5AE364 fun(x:userdata,y:string):userdata
 ---@field fF3AEC363 fun(x:userdata,y:string):userdata
@@ -20,7 +20,7 @@
 ---@field fE87AA76A fun(x:userdata,y:string):userdata
 ---@field f244F18FE fun(x:userdata,y:string):userdata
 ---@field fF6377709 fun(x:userdata,y:string):userdata
----@field fAF8E1F3E fun(x:userdata,y:string):userdata
+---@field fAF8E1F3E fun(x:userdata,y:string):pe_uikit_controls_Tooltip @ GetTooltip_s
 ---@field f5DC4C116 fun(x:userdata,y:string):userdata
 ---@field fB31C121E fun(x:userdata,y:string):userdata
 cECD2E4A5 = {}  -- dummy

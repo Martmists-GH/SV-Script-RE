@@ -5,7 +5,7 @@ c4CF1D719 = {}  -- dummy
 
 ---@class c4CF1D719_instance : userdata
 ---@field fF517C378 fun(self:self):void
----@field f0DE6FCA9 fun(self:self):void
+---@field f0DE6FCA9 fun(self:self):void @ GetDevNo
 ---@field f4402C54E fun(self:self):void
 ---@field fB52ED633 fun(self:self):void
 ---@field f614909B9 fun(self:self):void
@@ -17,7 +17,7 @@ c4CF1D719 = {}  -- dummy
 ---@field f6FAABE2E fun(self:self):void
 ---@field f9E86AD53 fun(self:self):void
 ---@field f2A1E246A fun(self:self):void
----@field fD2EF1BBB fun(self:self):void
+---@field fD2EF1BBB fun(self:self):void @ GetLevel
 ---@field fD8703ED4 fun(self:self):void
 ---@field f295C2DA9 fun(self:self):void
 ---@field fDF8F60D6 fun(self:self):void

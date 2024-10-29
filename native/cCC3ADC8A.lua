@@ -26,7 +26,7 @@ cCC3ADC8A = {}  -- dummy
 ---@field f9EBE283F fun(self:self):void
 ---@field f5241E949 fun(self:self):void
 ---@field f6E88412F fun(self:self):void
----@field fE08FDDDD fun(self:self):void
+---@field fE08FDDDD fun(self:self):void @ SetVisibility
 ---@field fDE3815AE fun(self:self):void
 ---@field f5C0014C1 fun(self:self):void
 ---@field f64521F55 fun(self:self):void

@@ -1,7 +1,7 @@
 ---@class cBD14C444 : cBD14C444_instance
 ---@field f2DCF715D fun():void
 ---@field f39F74AB9 fun():void
----@field f5B6373D5 fun():void
+---@field f5B6373D5 fun():void @ Create_s
 ---@field f77E97D4D fun():void
 cBD14C444 = {}  -- dummy
 

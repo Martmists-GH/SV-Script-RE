@@ -2,7 +2,7 @@
 ---@field fFD547106 fun():void
 ---@field f48E9BAB7 fun():void
 ---@field fB41FD22F fun():void
----@field f76D869E4 fun():void
+---@field f76D869E4 fun():void @ _hxAddComponent_s
 cC537A499 = {}  -- dummy
 
 ---@class cC537A499_instance : userdata

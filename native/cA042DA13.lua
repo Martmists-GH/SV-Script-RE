@@ -25,8 +25,8 @@ cA042DA13 = {}  -- dummy
 ---@field fD4E64AB7 fun(self:self):void
 ---@field f1095A329 fun(self:self):void
 ---@field fA929BA02 fun(self:self):void
----@field f20AB1FEA fun(self:self):void
----@field f1C1435C7 fun(self:self):void
+---@field f20AB1FEA fun(self:self):void @ _hxFindPoint
+---@field f1C1435C7 fun(self:self):void @ _hxFindPointByTag
 ---@field f50926311 fun(self:self):void
 ---@field f44E62C6A fun(self:self):void
 ---@field f6A54C688 fun(self:self):void

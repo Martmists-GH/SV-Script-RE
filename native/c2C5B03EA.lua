@@ -2,7 +2,7 @@
 ---@field f2096B48A fun():void
 ---@field f1F406CE4 fun():void
 ---@field fB41FD22F fun():void
----@field f4F5C01BE fun():void
+---@field f4F5C01BE fun():void @ AddComponent_s
 ---@field f1993A9FE fun():void
 ---@field f9759EF4A fun():void
 c2C5B03EA = {}  -- dummy

@@ -36,9 +36,9 @@ C2B3E52E6BEE978D5.__name__ = "C2B3E52E6BEE978D5"
 ---@field [1] string
 ---@field [2] string
 ---@field [3] c016374C1
----@field [4] cECF00344
+---@field [4] gfl_ui2d_lua_Layout
 ---@field [5] string
----@field [6] boolean
+---@field [6] boolean @ paneIsVisible
 ---@field [7] number
 ---@field [8] number @ level
 ---@field [10] string
@@ -77,163 +77,25 @@ function C2B3E52E6BEE978D5_prototype:FE94F3E13286232CF()
       self[7] = 3
     end
   elseif 2 == self[7] then
-    L2_2 = self[4]
-    L3_2 = L2_2
-    L2_2 = L2_2.fF8C77C75
-    L4_2 = L31_1.string
-    L5_2 = L31_1.string
-    L6_2 = L31_1.string
-    L7_2 = L31_1.string
-    L8_2 = ""
-    L7_2 = L7_2(L8_2)
-    L8_2 = L31_1.string
-    L9_2 = self[5]
-    L8_2 = L8_2(L9_2)
-    L7_2 = L7_2 .. L8_2
-    L6_2 = L6_2(L7_2)
-    L7_2 = L31_1.string
-    L8_2 = "/up"
-    L7_2 = L7_2(L8_2)
-    L6_2 = L6_2 .. L7_2
-    L5_2 = L5_2(L6_2)
-    L6_2 = L31_1.string
-    L7_2 = self[10]
-    L6_2 = L6_2(L7_2)
-    L5_2 = L5_2 .. L6_2
-    L4_2 = L4_2(L5_2)
-    L5_2 = L31_1.string
-    L6_2 = "_00"
-    L5_2 = L5_2(L6_2)
-    L4_2 = L4_2 .. L5_2
-    L2_2 = L2_2(L3_2, L4_2)
-    if L2_2 then
-      L3_2 = self
-      L2_2 = self.F6DF358DADCA15041
-      L4_2 = 0
-      L2_2(L3_2, L4_2)
-      L2_2 = self[4]
-      L3_2 = L2_2
-      L2_2 = L2_2.fB4E9D030
-      L4_2 = L31_1.string
-      L5_2 = L31_1.string
-      L6_2 = ""
-      L5_2 = L5_2(L6_2)
-      L6_2 = L31_1.string
-      L7_2 = self[5]
-      L6_2 = L6_2(L7_2)
-      L5_2 = L5_2 .. L6_2
-      L4_2 = L4_2(L5_2)
-      L5_2 = L31_1.string
-      L6_2 = "/keep"
-      L5_2 = L5_2(L6_2)
-      L4_2 = L4_2 .. L5_2
-      L2_2(L3_2, L4_2)
-      L2_2 = self[10]
-      if "" ~= L2_2 then
-        L2_2 = C870DE3E06274458E
-        L2_2 = L2_2.SF2735A63C3680AFE
-        L3_2 = self[9]
-        L3_2 = L3_2.m_noticeType
-        L2_2 = L2_2(L3_2)
-        if not L2_2 then
-          L2_2 = self[4]
-          L3_2 = L2_2
-          L2_2 = L2_2.fB4E9D030
-          L4_2 = L31_1.string
-          L5_2 = L31_1.string
-          L6_2 = ""
-          L5_2 = L5_2(L6_2)
-          L6_2 = L31_1.string
-          L7_2 = self[5]
-          L6_2 = L6_2(L7_2)
-          L5_2 = L5_2 .. L6_2
-          L4_2 = L4_2(L5_2)
-          L5_2 = L31_1.string
-          L6_2 = "/new"
-          L5_2 = L5_2(L6_2)
-          L4_2 = L4_2 .. L5_2
-          L2_2(L3_2, L4_2)
+    if self[4]:fF8C77C75(self[5] .. "/up" .. self[10] .. "_00") then
+      self:F6DF358DADCA15041(0)
+      self[4]:fB4E9D030(self[5] .. "/keep")
+      if "" ~= self[10] then
+        if not C870DE3E06274458E.SF2735A63C3680AFE(self[9].m_noticeType) then
+          self[4]:fB4E9D030(self[5] .. "/new")
         end
       end
-      L2_2 = self[9]
-      L2_2 = L2_2.m_isPlaySE
-      if L2_2 then
-        L2_2 = C3A36506FBC96ACBD
-        L2_2 = L2_2.SC6181320B46854EE
-        L3_2 = self[9]
-        L3_2 = L3_2.m_seName
-        L2_2(L3_2)
+      if self[9].m_isPlaySE then
+        C3A36506FBC96ACBD.SC6181320B46854EE(self[9].m_seName)
       end
       self[7] = 3
     end
   elseif 3 == self[7] then
-    L2_2 = self[4]
-    L3_2 = L2_2
-    L2_2 = L2_2.fF8C77C75
-    L4_2 = L31_1.string
-    L5_2 = L31_1.string
-    L6_2 = ""
-    L5_2 = L5_2(L6_2)
-    L6_2 = L31_1.string
-    L7_2 = self[5]
-    L6_2 = L6_2(L7_2)
-    L5_2 = L5_2 .. L6_2
-    L4_2 = L4_2(L5_2)
-    L5_2 = L31_1.string
-    L6_2 = "/keep"
-    L5_2 = L5_2(L6_2)
-    L4_2 = L4_2 .. L5_2
-    L2_2 = L2_2(L3_2, L4_2)
-    if L2_2 then
-      L2_2 = self[4]
-      L3_2 = L2_2
-      L2_2 = L2_2.fF8C77C75
-      L4_2 = L31_1.string
-      L5_2 = L31_1.string
-      L6_2 = ""
-      L5_2 = L5_2(L6_2)
-      L6_2 = L31_1.string
-      L7_2 = self[5]
-      L6_2 = L6_2(L7_2)
-      L5_2 = L5_2 .. L6_2
-      L4_2 = L4_2(L5_2)
-      L5_2 = L31_1.string
-      L6_2 = "/new"
-      L5_2 = L5_2(L6_2)
-      L4_2 = L4_2 .. L5_2
-      L2_2 = L2_2(L3_2, L4_2)
-      if L2_2 then
-        L2_2 = self[4]
-        L3_2 = L2_2
-        L2_2 = L2_2.fB4E9D030
-        L4_2 = L31_1.string
-        L5_2 = L31_1.string
-        L6_2 = L31_1.string
-        L7_2 = ""
-        L6_2 = L6_2(L7_2)
-        L7_2 = L31_1.string
-        L8_2 = self[5]
-        L7_2 = L7_2(L8_2)
-        L6_2 = L6_2 .. L7_2
-        L5_2 = L5_2(L6_2)
-        L6_2 = L31_1.string
-        L7_2 = "/out"
-        L6_2 = L6_2(L7_2)
-        L5_2 = L5_2 .. L6_2
-        L4_2 = L4_2(L5_2)
-        L5_2 = L31_1.string
-        L6_2 = self[10]
-        L5_2 = L5_2(L6_2)
-        L4_2 = L4_2 .. L5_2
-        L2_2(L3_2, L4_2)
-        L3_2 = self
-        L2_2 = self.F6DF358DADCA15041
-        L4_2 = 1
-        L2_2(L3_2, L4_2)
-        L3_2 = self
-        L2_2 = self.F6DF358DADCA15041
-        L4_2 = 2
-        L2_2(L3_2, L4_2)
+    if self[4]:fF8C77C75(self[5] .. "/keep") then
+      if self[4]:fF8C77C75(self[5] .. "/new") then
+        self[4]:fB4E9D030(self[5] .. "/out" .. self[10])
+        self:F6DF358DADCA15041(1)
+        self:F6DF358DADCA15041(2)
         self[7] = 4
       end
     end
@@ -1371,57 +1233,23 @@ function C2B3E52E6BEE978D5_prototype:FE0CF254958206DA6()
 end
 
 function C2B3E52E6BEE978D5_prototype:FD4F41A38DF988E67(A1_2)
-  local L2_2, L3_2, L4_2, L5_2
-  L2_2 = self[6]
-  if L2_2 ~= A1_2 then
+  if self[6] ~= A1_2 then
     self[6] = A1_2
-    L2_2 = self[4]
-    L3_2 = L2_2
-    L2_2 = L2_2.f7798D9F4
-    L4_2 = self[5]
-    L5_2 = self[6]
-    L2_2(L3_2, L4_2, L5_2)
+    self[4]:f7798D9F4(self[5], self[6])
   end
 end
 
 function C2B3E52E6BEE978D5_prototype:F900C3C28F182C6B9()
-  local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2
-  L1_2 = cB3DDDC2A
-  L1_2 = L1_2.f5B6373D5
-  L1_2 = L1_2()
-  L3_2 = self
-  L2_2 = self.F21D639765C72CD26
-  L4_2 = L1_2
-  L5_2 = 0
-  L6_2 = self[9]
-  L6_2 = L6_2.m_netPlayerData
-  L6_2 = L6_2.m_monsNo
-  L2_2(L3_2, L4_2, L5_2, L6_2)
-  L3_2 = self
-  L2_2 = self.F133262DC7D0A00E3
-  L4_2 = L1_2
-  L5_2 = 1
-  L2_2(L3_2, L4_2, L5_2)
-  L3_2 = self
-  L2_2 = self.F1869B91581F39A6D
-  L4_2 = L1_2
-  L2_2(L3_2, L4_2)
+  local L1_2 = cB3DDDC2A.f5B6373D5()
+  self:F21D639765C72CD26(L1_2, 0, self[9].m_netPlayerData.m_monsNo)
+  self:F133262DC7D0A00E3(L1_2, 1)
+  self:F1869B91581F39A6D(L1_2)
 end
 
 function C2B3E52E6BEE978D5_prototype:F4028F767D7917E38()
-  local L1_2, L2_2, L3_2, L4_2, L5_2
-  L1_2 = cB3DDDC2A
-  L1_2 = L1_2.f5B6373D5
-  L1_2 = L1_2()
-  L3_2 = self
-  L2_2 = self.F133262DC7D0A00E3
-  L4_2 = L1_2
-  L5_2 = 0
-  L2_2(L3_2, L4_2, L5_2)
-  L3_2 = self
-  L2_2 = self.F1869B91581F39A6D
-  L4_2 = L1_2
-  L2_2(L3_2, L4_2)
+  local L1_2 = cB3DDDC2A.f5B6373D5()
+  self:F133262DC7D0A00E3(L1_2, 0)
+  self:F1869B91581F39A6D(L1_2)
 end
 
 function C2B3E52E6BEE978D5_prototype:FA871E54EE80B75C4()
@@ -1527,23 +1355,12 @@ function C2B3E52E6BEE978D5_prototype:F94C251BB44C610F1(A1_2, A2_2, A3_2)
 end
 
 function C2B3E52E6BEE978D5_prototype:FBD8301D862C4B3BF(A1_2)
-  local L2_2, L3_2, L4_2, L5_2, L6_2
   if nil == A1_2 then
     A1_2 = 0
   end
-  L2_2 = cB3DDDC2A
-  L2_2 = L2_2.f5B6373D5
-  L2_2 = L2_2()
-  L4_2 = L2_2
-  L3_2 = L2_2.f644EBF7C
-  L5_2 = A1_2
-  L6_2 = self[9]
-  L6_2 = L6_2.m_bbMissionPokemonType
-  L3_2(L4_2, L5_2, L6_2)
-  L4_2 = self
-  L3_2 = self.F1869B91581F39A6D
-  L5_2 = L2_2
-  L3_2(L4_2, L5_2)
+  local L2_2 = cB3DDDC2A.f5B6373D5()
+  L2_2:f644EBF7C(A1_2, self[9].m_bbMissionPokemonType)
+  self:F1869B91581F39A6D(L2_2)
 end
 
 function C2B3E52E6BEE978D5_prototype:F21D639765C72CD26(A1_2, A2_2, A3_2)
@@ -1559,77 +1376,25 @@ function C2B3E52E6BEE978D5_prototype:F21D639765C72CD26(A1_2, A2_2, A3_2)
 end
 
 function C2B3E52E6BEE978D5_prototype:F46B79DC35705D626(A1_2)
-  local L2_2, L3_2, L4_2, L5_2
-  L3_2 = A1_2
-  L2_2 = A1_2.fD499C005
-  L4_2 = 0
-  L5_2 = self[9]
-  L5_2 = L5_2.m_pokemonParam
-  L2_2(L3_2, L4_2, L5_2)
+  A1_2:fD499C005(0, self[9].m_pokemonParam)
 end
 
 function C2B3E52E6BEE978D5_prototype:F133262DC7D0A00E3(A1_2, A2_2)
-  local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
-  L3_2 = self[9]
-  L3_2 = L3_2.m_netPlayerData
-  L5_2 = A1_2
-  L4_2 = A1_2.f14125645
-  L6_2 = A2_2
-  L7_2 = L3_2.m_playerName
-  L8_2 = L3_2.m_playerSex
-  L9_2 = L3_2.m_playerLanguageId
-  L4_2(L5_2, L6_2, L7_2, L8_2, L9_2)
+  local L3_2 = self[9].m_netPlayerData
+  A1_2:f14125645(A2_2, L3_2.m_playerName, L3_2.m_playerSex, L3_2.m_playerLanguageId)
 end
 
+---@param A1_2 cmn_WordSet
 function C2B3E52E6BEE978D5_prototype:F1869B91581F39A6D(A1_2)
-  local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
-  L3_2 = A1_2
-  L2_2 = A1_2.f39DD249C
-  L4_2 = c8C3BF576
-  L4_2 = L4_2.fC8CEF9EF
-  
-  function L5_2()
-    local L0_3, L1_3
-    L0_3 = nil
-    L1_3 = self
-    L1_3 = L1_3[9]
-    L1_3 = L1_3.m_isBBMissionMsTxt
-    if false == L1_3 then
-      L1_3 = self
-      L0_3 = L1_3[1]
-    else
-      L1_3 = self
-      L0_3 = L1_3[2]
-    end
-    return L0_3
+  local L5_2
+  if false == self[9].m_isBBMissionMsTxt then
+    L5_2 = self[1]
+  else
+    L5_2 = self[2]
   end
-  
-  L5_2 = L5_2()
-  L6_2 = self[9]
-  L6_2 = L6_2.m_noticeLbStr
-  L4_2, L5_2, L6_2, L7_2, L8_2 = L4_2(L5_2, L6_2)
-  L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2)
-  L3_2 = c8C3BF576
-  L3_2 = L3_2.f316077B2
-  L4_2 = self[3]
-  L5_2 = L31_1.string
-  L6_2 = L31_1.string
-  L7_2 = ""
-  L6_2 = L6_2(L7_2)
-  L7_2 = L31_1.string
-  L8_2 = self[5]
-  L7_2 = L7_2(L8_2)
-  L6_2 = L6_2 .. L7_2
-  L5_2 = L5_2(L6_2)
-  L6_2 = L31_1.string
-  L7_2 = "/T_noticename_00"
-  L6_2 = L6_2(L7_2)
-  L5_2 = L5_2 .. L6_2
-  L6_2 = L2_2
-  L3_2(L4_2, L5_2, L6_2)
+
+  local L2_2 = A1_2:f39DD249C(c8C3BF576.fC8CEF9EF(L5_2, self[9].m_noticeLbStr))
+  c8C3BF576.f316077B2(self[3], self[5] .. "/T_noticename_00", L2_2)
 end
 
-L68_1[L69_1] = L70_1
-L68_1 = _ENV["C2B3E52E6BEE978D5"]["prototype"]
-L69_1 = _ENV["C2B3E52E6BEE978D5"]
-L68_1.__class__ = L69_1
+C2B3E52E6BEE978D5_prototype.__class__ = C2B3E52E6BEE978D5

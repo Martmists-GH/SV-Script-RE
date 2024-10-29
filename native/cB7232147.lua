@@ -8,7 +8,7 @@
 ---@field fCBF97932 fun():void
 ---@field f7C8395FA fun():void
 ---@field f14ED8E8D fun():void
----@field f8CEAB093 fun():void
+---@field f8CEAB093 fun():void @ CreateWindow_s
 cB7232147 = {}  -- dummy
 ---THIS FILE IS A TODO---
 

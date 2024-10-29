@@ -8,7 +8,7 @@ c298A21CD = {}  -- dummy
 ---@field f8F2A261D fun(self:self):void @ Clear
 ---@field fF3CEDBFD fun(self:self):void
 ---@field fBEA9F05D fun(self:self):void @ Add
----@field f48EE46CF fun(self:self):void
+---@field f48EE46CF fun(self:self):void @ GetInt
 ---@field fCDDC93CA fun(self:self):void
 ---@field f19612D62 fun(self:self):void
 ---THIS FILE IS A TODO---

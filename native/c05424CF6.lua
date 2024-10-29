@@ -1,3 +1,5 @@
+---@alias pokemon_PokemonObjectFactory c05424CF6
+
 ---@class c05424CF6 : userdata
 ---@field f754AF930 fun():void
 ---@field fC999C7E1 fun():void

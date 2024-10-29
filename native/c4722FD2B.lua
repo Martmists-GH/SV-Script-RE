@@ -2,7 +2,7 @@
 ---@field f84329F11 fun():void
 ---@field fE9361FAC fun():void
 ---@field f101D811F fun():void @ new
----@field f5B6373D5 fun():void
+---@field f5B6373D5 fun():void @ Create_s
 c4722FD2B = {}  -- dummy
 
 ---@class c4722FD2B_instance : userdata

@@ -6,13 +6,13 @@
 ---@field f46674724 fun(x:userdata,y:string,z:string,a:string):void
 ---@field f316077B2 fun(x:c016374C1,y:string,z:userdata):void
 ---@field fEA571470 fun(x:userdata,y:string,z:userdata,a:number):void
----@field f49D44378 fun(x:string):void
+---@field f49D44378 fun(x:string):void @ LoadMsgData_s
 ---@field f6546B9CA fun(x:string,y:number):void
 ---@field f4902875F fun(x:string):void
 ---@field fED9E8CBC fun(x:string,y:number):void
 ---@field f58A93CBE fun(x:string):boolean
 ---@field fC901D813 fun(x:string,y:number):boolean
----@field fC8CEF9EF fun(x:string,y:string):c535A0125
+---@field fC8CEF9EF fun(x:string,y:string):gfl_text_StrBuf @ GetText_s_0
 ---@field fBFC9C979 fun(x:string,y:number):userdata
 ---@field f0214A745 fun(x:string,y:string,z:number):userdata
 ---@field f751397D3 fun(x:string,y:number,z:number):userdata

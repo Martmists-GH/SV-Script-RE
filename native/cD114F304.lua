@@ -12,7 +12,7 @@ cD114F304 = {}  -- dummy
 ---@field fE66DFB73 fun(self:self):void
 ---@field fD3365DE8 fun(self:self):void
 ---@field f47220C98 fun(self:self):void
----@field f81A0893D fun(self:self):void
+---@field f81A0893D fun(self:self):void @ GetFloat
 ---@field f02A2DCE2 fun(self:self):void
 ---@field f62D7F923 fun(self:self):void
 ---@field fB95F4DF6 fun(self:self):void

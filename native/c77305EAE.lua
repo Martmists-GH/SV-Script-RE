@@ -57,7 +57,7 @@ c77305EAE = {}  -- dummy
 ---@field fDE50EEF9 fun(self:self):void
 ---@field fAE872396 fun(self:self):void
 ---@field f881D23A4 fun(self:self):void
----@field fE08FDDDD fun(self:self):void
+---@field fE08FDDDD fun(self:self):void @ SetVisibility
 ---@field fD68F12F3 fun(self:self):void
 ---@field f8AD0C8F1 fun(self:self):void
 ---@field f9C9E63E6 fun(self:self):void

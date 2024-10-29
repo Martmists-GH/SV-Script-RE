@@ -8,7 +8,7 @@ c27F82B5E = {}  -- dummy
 ---@field f3491A2B7 fun(self:self):boolean @ IsValid
 ---@field f97BD03BB fun(self:self):void
 ---@field fE3BDF99D fun(self:self):void
----@field fD2EF1BBB fun(self:self):void
+---@field fD2EF1BBB fun(self:self):void @ GetLevel
 ---@field fD8757BE2 fun(self:self):void
 ---THIS FILE IS A TODO---
 

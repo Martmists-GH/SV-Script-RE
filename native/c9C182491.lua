@@ -7,7 +7,7 @@
 c9C182491 = {}  -- dummy
 
 ---@class c9C182491_instance : userdata
----@field f0BD5134F fun(self:self):void
+---@field f0BD5134F fun(self:self):void @ GetDevNoInt
 ---@field fEE56E0C6 fun(self:self):void
 ---@field fD0750598 fun(self:self):void
 ---@field fEDFEE1FF fun(self:self):void

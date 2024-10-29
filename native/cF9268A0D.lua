@@ -1,7 +1,9 @@
+---@alias gflnet_WebView cF9268A0D
+
 ---@class cF9268A0D : cF9268A0D_instance
 ---@field f89FEF466 fun():void
 ---@field fD5C93A43 fun():void
----@field f5B6373D5 fun():void
+---@field f5B6373D5 fun():void @ Create_s
 cF9268A0D = {}  -- dummy
 
 ---@class cF9268A0D_instance : userdata

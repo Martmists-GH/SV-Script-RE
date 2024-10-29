@@ -13,12 +13,12 @@ cB99A1783 = {}  -- dummy
 ---@field f5A01CE65 fun(self:self):void
 ---@field f8B60D81F fun(self:self):void
 ---@field f6536AE3E fun(self:self):void
----@field fD2EF1BBB fun(self:self):void
+---@field fD2EF1BBB fun(self:self):void @ GetLevel
 ---@field fB31DF589 fun(self:self):void
 ---@field fE41B0EC1 fun(self:self):void
 ---@field fA8FAC6B9 fun(self:self):void @ GetItem
 ---@field f949C19F5 fun(self:self):void
----@field f43E8EA34 fun(self:self):void
+---@field f43E8EA34 fun(self:self):void @ GetKillCount
 ---@field f19C48257 fun(self:self):void
 ---@field fD792D4FA fun(self:self):void
 ---@field f435076F9 fun(self:self):void

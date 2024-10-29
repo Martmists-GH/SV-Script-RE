@@ -1,7 +1,7 @@
 ---@class cB9C67D19 : cB9C67D19_instance
 ---@field f3C78193F fun():void
 ---@field f964D83B8 fun():void
----@field f5B6373D5 fun():void
+---@field f5B6373D5 fun():void @ Create_s
 ---@field f16571765 fun():void
 ---@field f47F70F43 fun():void
 ---@field f6A907ACE fun():void

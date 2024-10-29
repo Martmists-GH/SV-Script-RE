@@ -10,7 +10,7 @@ cCF781FB6 = {}  -- dummy
 ---@field f50076011 fun(self:self):number
 ---@field f345EDEA3 fun(self:self,x:number):void
 ---@field fB653750E fun(self:self):string
----@field fC94DC679 fun(self:self,x:string):void
+---@field fC94DC679 fun(self:self,x:string):void @ SetScriptGroup
 ---@field f9F1F0AC1 fun(self:self,x:string):void
 ---@field f2597D422 fun(self:self,x:string):number
 ---@field f3DCFA517 fun(self:self):void

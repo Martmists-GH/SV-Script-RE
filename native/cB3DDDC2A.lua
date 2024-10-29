@@ -1,13 +1,15 @@
+---@alias cmn_WordSet cB3DDDC2A
+
 ---@class cB3DDDC2A : cB3DDDC2A_instance
 ---@field f4DF89DC5 fun(x:userdata,y:userdata):boolean @ IsEqual
 ---@field fF749F3D1 fun(x:userdata,y:userdata):boolean @ NotEqual
----@field f5B6373D5 fun():cB3DDDC2A
+---@field f5B6373D5 fun():cmn_WordSet @ Create_s
 cB3DDDC2A = {}  -- dummy
 
 ---@class cB3DDDC2A_instance : userdata
----@field f39DD249C fun(self:self,x:c535A0125):c535A0125
+---@field f39DD249C fun(self:self,x:gfl_text_StrBuf):gfl_text_StrBuf @ Expand
 ---@field fC723824A fun(self:self,x:number,y:string,z:string):void
----@field f631566D3 fun(self:self,x:number):void
+---@field f631566D3 fun(self:self,x:number):void @ RegisterPlayerName_0
 ---@field f14125645 fun(self:self,x:number,y:c535A0125,z:number,a:number):void
 ---@field f45F33B6E fun(self:self,x:number,y:c113335A8):void
 ---@field fD83C075C fun(self:self,x:number,y:c113335A8):void
@@ -18,7 +20,7 @@ cB3DDDC2A = {}  -- dummy
 ---@field f8FC99F59 fun(self:self,x:number,y:number,z:c113335A8):void
 ---@field fCAF3F960 fun(self:self,x:number,y:c113335A8):void
 ---@field fA0CC3CEA fun(self:self,x:number,y:number,z:number):void
----@field f415EF4C6 fun(self:self,x:number,y:number):void
+---@field f415EF4C6 fun(self:self,x:number,y:number):void @ RegisterPlaceName
 ---@field fABEB9F55 fun(self:self,x:number,y:number,z:number,a:number,b:number):void
 ---@field f4F93905F fun(self:self,x:number,y:number):void
 ---@field f3894A0C9 fun(self:self,x:number,y:userdata):void

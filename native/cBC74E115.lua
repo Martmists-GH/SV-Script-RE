@@ -1,7 +1,7 @@
 ---@class cBC74E115 : cBC74E115_instance
 ---@field f653BC846 fun():void
 ---@field fD73701AF fun():void
----@field f5B6373D5 fun():void
+---@field f5B6373D5 fun():void @ Create_s
 cBC74E115 = {}  -- dummy
 
 ---@class cBC74E115_instance : userdata

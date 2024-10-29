@@ -18,7 +18,7 @@ cA36A2863 = {}  -- dummy
 ---@field f749DB06F fun(self:self):void
 ---@field f3C9943D2 fun(self:self):void
 ---@field fB57AFBDE fun(self:self):void
----@field fD2EF1BBB fun(self:self):void
+---@field fD2EF1BBB fun(self:self):void @ GetLevel
 ---@field f5A01CE65 fun(self:self):void
 ---@field fE1215357 fun(self:self):void
 ---@field fE6586496 fun(self:self):void
@@ -36,7 +36,7 @@ cA36A2863 = {}  -- dummy
 ---@field f6DA17C62 fun(self:self):void
 ---@field f59E381BB fun(self:self):void
 ---@field f5893A3C5 fun(self:self):void
----@field f0BD5134F fun(self:self):void
+---@field f0BD5134F fun(self:self):void @ GetDevNoInt
 ---@field f5D94E897 fun(self:self):void
 ---@field f293ABB98 fun(self:self):void
 ---@field f5F308BB5 fun(self:self):void

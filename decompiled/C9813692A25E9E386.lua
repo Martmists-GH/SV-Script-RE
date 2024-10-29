@@ -2,15 +2,9 @@
 
 ---@class main_ui_option_view_OptionUIView : C9813692A25E9E386_prototype
 ---@field prototype C9813692A25E9E386_prototype
-L55_1 = _ENV
-L56_1 = "C9813692A25E9E386"
-L57_1 = L15_1
-L57_1 = L57_1()
-L55_1[L56_1] = L57_1
-L68_1 = _ENV["C9813692A25E9E386"]
-L69_1 = "new"
+C9813692A25E9E386 = L15_1()
 
-function L70_1(A0_2)
+function C9813692A25E9E386.new(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = L2_1
   L2_2 = C9813692A25E9E386
@@ -606,7 +600,7 @@ L25_1[L68_1] = L69_1
 L68_1 = _ENV["C9813692A25E9E386"]
 L69_1 = "__name__"
 L70_1 = "C9813692A25E9E386"
----@class C9813692A25E9E386_prototype
+---@class C9813692A25E9E386_prototype : ext_pe_SceneObjectBehavior
 C9813692A25E9E386_prototype = L15_1()
 C9813692A25E9E386.prototype = C9813692A25E9E386_prototype
 --- main.ui.option.view.OptionUIView.get_movieSkip
